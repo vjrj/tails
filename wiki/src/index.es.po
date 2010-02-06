@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2009-11-25 23:52+0000\n"
+"POT-Creation-Date: 2009-12-28 22:13+0000\n"
 "PO-Revision-Date: 2009-09-23 12:46+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,8 +96,9 @@ msgid "news"
 msgstr "Noticias"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"1\" feeds=\"no\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"1\" feeds=\"no\"]]\n"
+msgid "[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"2\" feeds=\"no\"]]\n"
 msgstr "[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"1\" feeds=\"no\"]]\n"
 
 #. type: Plain text
@@ -119,8 +120,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"One might also be interested in amnesia's [[security history|security]] and "
-"[[design]]."
+"One might also be interested in amnesia's [[security history|security]] or "
+"in the [[developers' corner|dev]]."
 msgstr ""
 
 #. type: Title ##
@@ -163,9 +164,12 @@ msgid "using this wiki"
 msgstr "Uso de esta wiki"
 
 #. type: Bullet: '* '
-msgid "[[meta/sitemap]]"
-msgstr "[[Mapa del Sitio|meta/sitemap]]"
+msgid "[[meta/sitemap]] and other [[meta]] pages"
+msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[ikiwiki documentation|ikiwiki]]"
 msgstr "[[Documentación de ikiwiki |ikiwiki]]"
+
+#~ msgid "[[meta/sitemap]]"
+#~ msgstr "[[Mapa del Sitio|meta/sitemap]]"

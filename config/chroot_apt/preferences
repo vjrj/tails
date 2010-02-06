@@ -6,12 +6,28 @@ Package: firmware-linux
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
-Package: kvkbd
+Package: gtk2-engines-pixbuf
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: libgtk2.0-0
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: libglib2.0-0
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: libgtk2.0-common
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
 Package: libnm-glib0
 Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: live-helper
+Pin: origin live.debian.net
 Pin-Priority: 999
 
 Package: network-manager
@@ -28,6 +44,14 @@ Pin-Priority: 999
 
 Package: python-support
 Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: syslinux
+Pin: release a=testing
+Pin-Priority: 999
+
+Package: syslinux-common
+Pin: release a=testing
 Pin-Priority: 999
 
 Package: virtualbox-ose-guest-utils
