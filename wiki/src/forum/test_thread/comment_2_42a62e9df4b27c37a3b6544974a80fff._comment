@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="second (test) comment, via Git"
+ date="2010-04-09T19:04:10Z"
+ content="""
+oh well, this **is** another *test* comment, submitted via Git this time.
+
+"""]]
