@@ -1,0 +1,12 @@
+The [[forum]] is open for discussions that do not belong to bugs,
+feature requests and the like. Such fauna should rather be submitted
+on the dedicated pages, where it can be more easily tracked... and
+hopefully fixed: 
+
+* [[Bugs]]
+* [[wishlist]]
+* [[patches|patch]].
+
+[[!inline pages="forum/* and !*/Discussion"
+actions=yes rootpage="forum" postformtext="Start a new discussion thread titled:"
+show=0 archive=yes]]
