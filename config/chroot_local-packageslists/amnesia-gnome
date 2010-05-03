@@ -6,9 +6,9 @@ gnome-mount
 gnome-power-manager
 gnome-utils
 gnome-volume-manager
-hunspell
-hunspell-en-us
+#if DISTRIBUTION lenny
 iceweasel-gnome-support
+#endif
 openoffice.org-gnome
 sound-juicer
 totem-plugins
@@ -19,4 +19,8 @@ nautilus-cd-burner
 #endif
 #if DISTRIBUTION squeeze
 brasero
+#endif
+
+#if DISTRIBUTION squeeze
+gnome-disk-utility
 #endif

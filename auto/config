@@ -15,13 +15,13 @@ $RUN_LH_CONFIG --distribution lenny ${@}
 # set Amnesia's general options
 $RUN_LH_CONFIG \
    --apt-recommends false \
+   --binary-images iso \
    --bootappend-live "${AMNESIA_APPEND}" \
-   --cache-stages "bootstrap rootfs" \
    --archive-areas "main contrib non-free" \
    --hostname="amnesia" \
-   --iso-application="Amnesia live system" \
+   --iso-application="The Amnesic Incognito Live System" \
    --iso-publisher="https://amnesia.boum.org/" \
-   --iso-volume="Amnesia ${AMNESIA_FULL_VERSION}" \
+   --iso-volume="TAILS ${AMNESIA_FULL_VERSION}" \
    --memtest none \
    --packages-lists="standard" \
    --username="amnesia" \

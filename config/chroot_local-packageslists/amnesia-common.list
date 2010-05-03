@@ -37,6 +37,10 @@ liblocale-gettext-perl
 libnet-ssleay-perl
 libwww-perl
 libxml-atom-perl
+# needed by smem at shutdown time
+expect
+# needed by the upcoming virtualization environment warning
+libimvirt-perl
 
 ### Software
 audacity
@@ -45,6 +49,7 @@ mc
 rsync
 aircrack-ng
 bash-completion
+broadcom-sta-common
 claws-mail
 claws-mail-archiver-plugin
 claws-mail-i18n
@@ -67,6 +72,7 @@ gstreamer0.10-ffmpeg
 gstreamer0.10-plugins-base
 gstreamer0.10-plugins-good
 gstreamer0.10-plugins-ugly
+haveged
 iceweasel
 iceweasel-l10n-ar
 iceweasel-l10n-de
@@ -75,7 +81,6 @@ iceweasel-l10n-fr
 iceweasel-l10n-it
 iceweasel-l10n-pt-pt
 iceweasel-l10n-zh-cn
-iceweasel-torbutton/testing
 iptables
 less
 localepurge
@@ -89,13 +94,21 @@ macchanger
 # manpages-fr-extra
 # manpages-it
 # manpages-pt
+monkeysphere
+# our vidialia-wrapper needs lckdo
+moreutils
 msmtp
+msva-perl
 mutt
 network-manager-gnome
 ntfs-3g
 ntfsprogs
 ntpdate
-openoffice.org
+openoffice.org-calc
+openoffice.org-draw
+openoffice.org-impress
+openoffice.org-math
+openoffice.org-writer
 openoffice.org-l10n-ar
 openoffice.org-l10n-de
 openoffice.org-l10n-es
@@ -103,35 +116,48 @@ openoffice.org-l10n-fr
 openoffice.org-l10n-it
 openoffice.org-l10n-pt
 openoffice.org-l10n-zh-cn
-openoffice.org-hyphenation-en-us
-openoffice.org-thesaurus-en-us
 openssh-client
 pidgin
 pidgin-otr
 pmount
 polipo
 pppoeconf
-randomsound
+pwgen
 resolvconf
 scribus
 seahorse
+#if DISTRIBUTION squeeze
+seahorse-plugins
+#endif
 secure-delete
 splashy
 sshfs
 system-config-printer
 synaptic
+ttf-dejavu
+ttf-liberation
 tor
 pdnsd
 totem-gstreamer
 vidalia
+vim-nox
+wireless-tools
+wipe
+xsane
+#if DISTRIBUTION squeeze
+xul-ext-adblock-plus
+#endif
+xul-ext-firegpg
+xul-ext-torbutton
+
+### Virtualization guest support
 #if ARCHITECTURE i386 amd64
 virtualbox-ose-guest-utils
 virtualbox-ose-guest-x11
 #endif
-wireless-tools
-wipe
-xsane
-xul-ext-firegpg/testing
+#if ARCHITECTURE i386 amd64
+open-vm-tools
+#endif
 
 ### Firmwares
 firmware-ipw2x00
@@ -158,5 +184,5 @@ scim-tables-zh
 scim-uim
 xfonts-intl-chinese
 ttf-arphic-ukai
-ttf-arphic-uming/testing
+ttf-arphic-uming
 xfonts-wqy

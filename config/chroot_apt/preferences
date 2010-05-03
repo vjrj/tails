@@ -1,3 +1,31 @@
+Package: broadcom-sta-common
+Pin: release a=testing
+Pin-Priority: 999
+
+Package: broadcom-sta-source
+Pin: release a=testing
+Pin-Priority: 999
+
+Package: claws-mail
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: claws-mail-archiver-plugin
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: claws-mail-i18n
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: claws-mail-pgpinline
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: claws-mail-pgpmime
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
 Package: dkms
 Pin: release a=lenny-backports
 Pin-Priority: 999
@@ -7,6 +35,18 @@ Pin: release a=lenny-backports
 Pin-Priority: 999
 
 Package: gtk2-engines-pixbuf
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: libcairo2
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: libcrypt-x509-perl
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: libetpan13
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
@@ -22,12 +62,28 @@ Package: libgtk2.0-common
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
+Package: libimvirt-perl
+Pin: release a=testing
+Pin-Priority: 999
+
 Package: libnm-glib0
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: libpixman-1-0
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
 Package: live-helper
 Pin: origin live.debian.net
+Pin-Priority: 999
+
+Package: monkeysphere
+Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: msva-perl
+Pin: release a=testing
 Pin-Priority: 999
 
 Package: network-manager
@@ -38,6 +94,10 @@ Package: network-manager-gnome
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
+Package: python-central
+Pin: release a=testing
+Pin-Priority: 999
+
 Package: python-pyinotify
 Pin: release a=testing
 Pin-Priority: 999
@@ -46,11 +106,19 @@ Package: python-support
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
+Package: rt2860-source
+Pin: release a=testing
+Pin-Priority: 999
+
 Package: syslinux
 Pin: release a=testing
 Pin-Priority: 999
 
 Package: syslinux-common
+Pin: release a=testing
+Pin-Priority: 999
+
+Package: ttf-arphic-uming
 Pin: release a=testing
 Pin-Priority: 999
 
@@ -62,8 +130,16 @@ Package: virtualbox-ose-guest-x11
 Pin: release a=lenny-backports
 Pin-Priority: 999
 
-Package: virtualbox-ose-guest-source
+Package: virtualbox-ose-guest-dkms
 Pin: release a=lenny-backports
+Pin-Priority: 999
+
+Package: xul-ext-firegpg
+Pin: release a=testing
+Pin-Priority: 999
+
+Package: xul-ext-torbutton
+Pin: release a=testing
 Pin-Priority: 999
 
 Package: *
