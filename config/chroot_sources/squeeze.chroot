@@ -1,1 +1,1 @@
-deb http://ftp.fr.debian.org/debian/ squeeze main
+deb http://cdn.debian.net/debian/ squeeze main non-free

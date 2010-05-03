@@ -2,6 +2,15 @@
 
 [[!toc levels=1]]
 
+Update included files
+=====================
+
+AdBlock patterns
+----------------
+
+Patterns are stored in
+`config/chroot_local-includes/etc/iceweasel/profile/adblockplus/`.
+
 Update Changelog
 ================
 
@@ -37,6 +46,8 @@ real-world tests done by fellow beta-testers:
 * firewall: is the Tor-enforcement effective?
 * local partitions: are any local hard-disk partitions mounted or used
   as swap?
+* local partitions: is a Live system found on a local hard-disk
+  partition used?
 * claws: check that the profile works and is torified
   (specifically the EHLO/HELO SMTP messages it sends).
 * whisperback: can a bug report e-mail be sent? is it
@@ -54,11 +65,6 @@ Third, generate detached GnuPG signatures for every published image,
 in the same directory as the image; e.g.
 
     gpg --armor --default-key F93E735F --detach-sign *.iso
-
-**FIXME**: sign the `.torrent` files rather than the images would be
-both quicker to do and quicker to verify, as a `.torrent` file
-contains hashes of the files to be downloaded, that are then checked
-by BitTorrent clients.
 
 Fourth, create a `.torrent` file for every directory to be published:
 
@@ -81,8 +87,22 @@ Seventh, generate detached GnuPG signatures for every published
     gpg --armor --default-key F93E735F --detach-sign \
         amnesia-i386-gnome-0.3-20091126.torrent
 
-Announce, seed and test the Torrents
-====================================
+Eight, generate the SHA-256 hash of every image to be released:
+
+    sha256sum amnesia-i386-0.5-20100501/amnesia-i386-0.5-20100501.iso \
+        > amnesia-i386-0.5-20100501.iso.sha256
+
+Upload images
+=============
+
+## Upload to HTTP mirrors
+
+- upload
+- make sure every webserver listed in the `dl.amnesia.boum.org` round
+  robin pool has the new version
+- test downloading
+
+## Announce, seed and test the Torrents
 
 Announce and seed the Torrents using whatever box you can.
 A decent, stable and permanent Internet connexion is required.
@@ -94,7 +114,7 @@ Update the website and Git repository
 
 Rename the `.packages` file to remove the `.iso` part of its name.
 
-Add the `.packages`, `.torrent`, `.torrent.asc` and `.torrent.sha256`
+Add the `.iso.sha256`, `.iso.asc`, `.packages`, `.torrent`, `.torrent.asc` and `.torrent.sha256`
 files to the Git repository's `wiki/src/torrents/files/` directory.
 
 Write the announce for the release in `news/version_X.Y.mdwn`.
