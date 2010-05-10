@@ -1,3 +1,5 @@
+<div id="page-forum">
+
 <div id="intro">
 
 <p>
@@ -12,3 +14,5 @@ easily tracked... and hopefully fixed.
 [[!inline pages="forum/* and !*/Discussion"
 actions=yes rootpage="forum" postformtext="Start a new discussion thread titled:"
 show=0 archive=yes]]
+
+</div>
