@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 09 Aug 2010 13:35:24 +0200
+Source: virtkey
+Binary: python-virtkey
+Architecture: source i386
+Version: 0.50ubuntu3~squeeze+amnesia1
+Distribution: testing
+Urgency: low
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: T(A)ILS developers <amnesia@boum.org>
+Description: 
+ python-virtkey - Library to emulate keyboard keypresses.
+Changes: 
+ virtkey (0.50ubuntu3~squeeze+amnesia1) testing; urgency=low
+ .
+   * debian/rules: reorder includes as advised by the Debian Python
+     packaging team.
+   * debian/rules: removed custom target that generates broken symlinks
+     and thus an uninstallable package when built in a Debian environment.
+   * Rebuilt for Debian Squeeze (still in testing state).
+Checksums-Sha1: 
+ 7da54e84777018ed932655b9575a4569d0d19b48 845 virtkey_0.50ubuntu3~squeeze+amnesia1.dsc
+ e78e5f0c976259ffcec2c9e97f4497b035b9eff1 24339 virtkey_0.50ubuntu3~squeeze+amnesia1.tar.gz
+ c39314ec9e5693b35c9a01e6404ec1237f59ab50 14518 python-virtkey_0.50ubuntu3~squeeze+amnesia1_i386.deb
+Checksums-Sha256: 
+ 69a3e422bf25fc2344ab7ca3253d44a635739155443efd5c073af45faad5a3e6 845 virtkey_0.50ubuntu3~squeeze+amnesia1.dsc
+ d3ea073bbf5207de705045ef78857a3cc475f49dcebc9469e43bb2b136630dc1 24339 virtkey_0.50ubuntu3~squeeze+amnesia1.tar.gz
+ 51f559d715728aa4ee0d31bdcd057a0e63fc2d2f8f20aa04314c1b5fe23b68d2 14518 python-virtkey_0.50ubuntu3~squeeze+amnesia1_i386.deb
+Files: 
+ 9c015c8de668206d20e7cc636248d423 845 python optional virtkey_0.50ubuntu3~squeeze+amnesia1.dsc
+ 8ce6bcb3ac41ab70b415d2314e25f3b3 24339 python optional virtkey_0.50ubuntu3~squeeze+amnesia1.tar.gz
+ e45be8668bd0d299282ee5fef3668904 14518 python optional python-virtkey_0.50ubuntu3~squeeze+amnesia1_i386.deb
+Original-Maintainer: Chris Jones <cej105@soton.ac.uk>
