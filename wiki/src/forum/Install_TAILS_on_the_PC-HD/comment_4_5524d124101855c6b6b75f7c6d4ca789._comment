@@ -1,8 +1,8 @@
 [[!comment format=mdwn
  username="anonym"
  ip="127.0.0.1"
- subject="comment 4"
- date="2010-08-31T11:36:51Z"
+ subject="HOWO install T(A)ILS to a fully encrypted harddrive"
+ date="2010-08-31T13:41:10Z"
  content="""
 #UPDATED: NOW SETS UP FULL DISC ENCRYPTION
 
@@ -14,11 +14,11 @@ For instance, the memory is not wiped att shutdown, so your disc encryption key 
 
 Also, installing programs can potentially ruin certain security features of T(A)ILS. Don't install anything related to firewalls, DNS servers, or similar network related tools unless you really know what you are doing and how T(A)ILS implements its security. Same goes with removing of reconfiguring existing software realated to those areas.
 
-#Note that this will require some familiarity with partitioning in a linux system, so if you don't know how to do that or how to determine which device your harddrive has, you'll have to read up on that before.
+#Note that this will require some familiarity with partitioning in a linux system, so if you don't know how to do that or how to determine which device file (in /dev) your harddrive has, you'll have to read up on that before starting this guide.
 
 Start by booting the latest T(A)ILS LiveCD on the computer/VM containing the harddrive. Once the graphical interface has started, open a terminal (e.g. gnome-terminal) and issue the commands below, in order, and carefully read all the commens (lines initated by #) for further instructions:
 
-    # become root
+    # Become root
     sudo su
 
     # EDIT THE VARIABLE BELOW TO BE THE DEVICE FOR YOUR HARDDRIVE! As you can see,
@@ -41,7 +41,7 @@ Start by booting the latest T(A)ILS LiveCD on the computer/VM containing the har
     pwgen -s XX 1
 
     # Create the encrypted container using the password generated above:
-    cryptsetup -y --cipher aes-cbc-essiv:sha256 --key-size 256 luksFormat /dev/hdc2
+    cryptsetup -y --cipher aes-cbc-essiv:sha256 --key-size 256 luksFormat $CRYPT
     cryptsetup luksOpen $CRYPT pvcrypt
     pvcreate /dev/mapper/pvcrypt
     vgcreate vgcrypt /dev/mapper/pvcrypt
@@ -55,8 +55,8 @@ Start by booting the latest T(A)ILS LiveCD on the computer/VM containing the har
     # needed. I just happened to have an 8 GB harddrive, so 100 MB was for the boot
     # partitioning created above, then I used 1 GB for swap and the rest, 6.9 GB, for the root.
     # Note that the swap might be unnecessary if you have a lot of RAM (>4GB) and that
-    # the root will need at least 3 GB just to fit the system -- anything above that is for you
-    # to store files or install programs.
+    # the root will need about 2 GB just to fit the system -- anything beyond that is for your
+    # files or new programs you install.
     lvcreate -n swap -L 1G vgcrypt
     lvcreate -n root -L 6.90G vgcrypt
 
@@ -64,6 +64,7 @@ Start by booting the latest T(A)ILS LiveCD on the computer/VM containing the har
     SWAP=\"/dev/mapper/vgcrypt-swap\"
 
     # format the partitions
+    mkfs.ext2 $BOOT
     mkfs.ext3 $ROOT
     mkswap $SWAP
 
@@ -97,7 +98,7 @@ Start by booting the latest T(A)ILS LiveCD on the computer/VM containing the har
     # chroot into the filesystem
     mount -t proc none /mnt/chroot/proc
     mount -o bind /dev /mnt/chroot/dev
-    chroot /mnt/chroot /bin/bash
+    HD=\"$HD\" ROOT=\"$ROOT\" BOOT=\"$BOOT\" chroot /mnt/chroot /bin/bash
 
     # Add the amnesia user and set a (good) password
     useradd -G dialout,cdrom,floppy,audio,video,plugdev,fuse,scanner,netdev,devian-tor,powerdev -s /bin/bash amnesia
@@ -136,8 +137,9 @@ Start by booting the latest T(A)ILS LiveCD on the computer/VM containing the har
     apt-get remove live-helper live-initramfs aufs-modules-*
     apt-get autoremove
 
-    # Install grub. The first command (apt-get update) can be skipped, will take some
-    # time since this will be done through Tor
+    # Install grub. The first command (apt-get update) can be skipped. It will take some
+    # time since it must download a lot of files through Tor. Running it will, however,
+    # make sure that you get the latest version of grub.
     apt-get update 
     apt-get install grub
     apt-get clean
