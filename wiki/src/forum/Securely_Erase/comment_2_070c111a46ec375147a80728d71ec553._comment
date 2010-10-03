@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Algorithms? Number of Overwrites?"
+ date="2010-10-03T20:12:51Z"
+ content="""
+How many times does this overwrite the data and with which algorithm?
+
+<quote>I have never seen such a simple solution in any other Linux Distro or LiveCD. </quote> It would be nice to see it but keep in mind that securely deleting individual files can provide a false sense of security; all kinds of traces can remain in the form of automatic back-up, temp. files, etc.
+"""]]
