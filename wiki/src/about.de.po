@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2010-09-25 23:46-0600\n"
+"PO-Revision-Date: 2010-07-11 16:43+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Language: \n"
+
+#. type: Content of: outside any tag (error?)
+msgid "[[!meta title=\"About\"]]"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+#, fuzzy
+#| msgid ""
+#| "<em>The (Amnesic) Incognito Live System</em> (<a href='http://en."
+#| "wikipedia.org/wiki/Live_CD'>Live CD</a>, <a href='http://en.wikipedia.org/"
+#| "wiki/Live_USB'>Live USB</a>) is aimed at preserving your privacy and "
+#| "anonymity:"
+msgid ""
+"<em>The (Amnesic) Incognito Live System</em> (<a href='http://en.wikipedia."
+"org/wiki/Live_CD'>Live CD</a>, <a href='http://en.wikipedia.org/wiki/"
+"Live_USB'>Live USB</a>) is aimed at preserving your privacy and anonymity:"
+msgstr ""
+"<em>The (Amnesic) Incognito <a href='http://de.wikipedia.org/wiki/Live-"
+"System'>Live System</a></em>\n"
+"hilft dir, deine Anonymität und Privatsphäre im Netz zu bewahren:"
+
+#. type: Content of: <div><div><p><ul><li>
+msgid ""
+"all outgoing connections to the Internet are forced to go through <a "
+"href='https://www.torproject.org/'>the Tor network</a>;"
+msgstr ""
+"Alle abgehenden Verbindungen werden durch <a href='https://www.torproject."
+"org/'>das Tornetzwerk</a> geschleust."
+
+#. type: Content of: <div><div><p><ul><li>
+msgid "no trace is left on local storage devices unless explicitely asked."
+msgstr ""
+"Auf lokalen Datenträgern werden keine Spuren hinterlassen, ausser wenn dies "
+"explizit erwünscht ist."
+
+#. type: Content of: <div><div><p>
+#, fuzzy
+#| msgid "<p>It has many other [[features]].</p>\n"
+msgid "It has many other [[features]]."
+msgstr "Es hat viele andere [[Merkmale|features]]."
+
+#. type: Content of: <div><div><div><h1>
+msgid "warning"
+msgstr ""
+
+#. type: Content of: <div><div><div>
+msgid ""
+"Like Tor, this is alpha software, do not rely on it for strong anonymity!"
+msgstr ""
+"TAIL(S) ist, wie auch Tor, noch im Anfangstadium. Verlassen Sie sich nicht "
+"darauf für starke Anonymität."
+
+#. type: Content of: <div><div><div><h1>
+msgid "license"
+msgstr ""
+
+#. type: Content of: <div><div><div>
+msgid ""
+"The (Amnesic) Incognito Live System is <a href='http://www.gnu.org/"
+"philosophy/free-sw.html'>Free Software</a> released under the GNU/GPL "
+"(version 3 or above)."
+msgstr ""
+"The (Amnesic) Incognito Live System ist <a href='http://www.gnu.org/"
+"philosophy/free-sw.html'>Freie Software</a> und unter GNU/GPL (version 3 "
+"oder höher) lizensiert."
+
+#. type: Content of: <div><div><h1>
+msgid "acknowledgements"
+msgstr "Dank"
+
+#. type: Content of: <div><div><ul><li>
+msgid ""
+"<em>The (Amnesic) Incognito Live System</em> could not exist without <a "
+"href='http://live.debian.net/'>Debian Live</a> and <a href='https://www."
+"torproject.org/'>Tor</a>;"
+msgstr ""
+
+#. type: Content of: <div><div><ul><li>
+msgid ""
+"<em>T(A)ILS</em> was inspired by the <a href='http://anonymityanywhere.com/"
+"incognito/'>Incognito LiveCD</a>. The Incognito author <a href='http://www."
+"anonymityanywhere.com/incognito/'>has declared it to be dead</a> on March "
+"23, 2010, and written that The (Amnesic) Incognito Live System \"should be "
+"considered as its spiritual successor\"."
+msgstr ""
+
+#. type: Content of: <div><div><ul><li>
+msgid ""
+"The <a href='http://mandalka.name/privatix/'>Privatix Live-System</a> was an "
+"early source of inspiration, too."
+msgstr ""
+
+#~ msgid "  <h1>warning</h1>\n"
+#~ msgstr "  <h1>Warnung</h1>\n"
+
+#~ msgid "  <h1>license</h1>\n"
+#~ msgstr "  <h1>Lizenz</h1>\n"

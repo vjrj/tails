@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tails-security-check
+GenericName=check TAILS known security issues
+Comment=check TAILS known security issues
+Exec=/usr/local/bin/tails-security-check-wrapper
+Terminal=false
+Type=Application
+Categories=GNOME;X-GNOME-PersonalSettings;
+NoDisplay=true
+MimeType=application/x-tails-security-check;
