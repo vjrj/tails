@@ -7,13 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-04-07 15:58+0000\n"
+"POT-Creation-Date: 2010-10-21 23:15-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Language: \n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -30,7 +31,7 @@ msgid ""
 "computers independently of Microsoft Windows or whatever installed\n"
 "operating system.\n"
 msgstr ""
-"*amnesia* ist ein **Livesystem** ([Live CD](http://de.wikipedia.org/wiki/Live_CD),\n"
+"*The (Amnesic) Incognito Live System* ist ein **Livesystem** ([Live CD](http://de.wikipedia.org/wiki/Live_CD),\n"
 "[Live USB](http://de.wikipedia.org/wiki/Live_USB)) das das Ziel hat, die Anonymität und das Privatleben \n"
 "seiner Nutzer zu schützen. Es kann auf den meisten Computern benutzt werden\n"
 "egal, ob auf diesen Microsoft Windows oder ein anderes Betriebssystem installiert ist.\n"
@@ -39,7 +40,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Particularly, *amnesia* guarantees you that:"
 msgid "Particularly, The (Amnesic) Incognito Live System guarantees you that:"
-msgstr "Insbesondere garantiert *amnesia* folgendes:"
+msgstr "Insbesondere garantiert The (Amnesic) Incognito Live System folgendes:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -52,7 +53,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "No trace is left on local storage devices unless explicitely asked."
 msgstr ""
-"Spuren auf lokalen Datenträgern werden nicht hinterlassen, außer wenn dies "
+"Spuren auf lokalen Datenträgern werden nicht hinterlassen, ausser wenn dies "
 "explizit erwünscht ist."
 
 #. type: Plain text
@@ -113,16 +114,22 @@ msgid ""
 "  [OTR](http://www.cypherpunks.ca/otr/index.php) for Off-the-Record\n"
 "  Messaging\n"
 "* [Aircrack-ng](http://aircrack-ng.org/) for wireless networks auditing\n"
-"* [Gimp](http://www.gimp.org/) to edit images\n"
+"* [Gimp](http://www.gimp.org/) and\n"
+"  [Inkscape](http://www.inkscape.org/) to edit images\n"
 "* [Scribus](http://www.scribus.net) for page layout\n"
 "* [Gobby](http://gobby.0x539.de/trac/) for collaborative text writing\n"
 "* [Audacity](http://audacity.sourceforge.net/) for recording and\n"
 "  editing sounds\n"
+"* [Poedit](http://poedit.sourceforge.net/) to edit .po files\n"
 "* [onBoard](https://launchpad.net/onboard)\n"
 "  virtual keyboard as a countermeasure against hardware\n"
 "  [keyloggers](http://en.wikipedia.org/wiki/Keylogger)\n"
 "* [XSane](http://www.xsane.org/) and\n"
 "  [SANE](http://www.sane-project.org/) for scanner support\n"
+"* [Shamir's Secret\n"
+"  Sharing](http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)\n"
+"  using [gfshare](http://www.digital-scurf.org/software/libgfshare)\n"
+"  and [ssss](http://point-at-infinity.org/ssss/)\n"
 msgstr ""
 "* [Firefox](http://getfirefox.com) vorkonfiguriert mit:\n"
 "  - [Torbutton](https://www.torproject.org/torbutton) für anonymes Surfen\n"
@@ -233,6 +240,26 @@ msgid ""
 msgstr ""
 "löscht RAM-Speicher beim Herunterfahren des Computers um Cold-boot-Attacken "
 "und diversen forensischen Analysen des Speichers vorzubeugen."
+
+#. type: Title =
+#, no-wrap
+msgid "Multilingual support\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"One can choose at boot time between the following languages: Arabic, "
+"Chinese, English, French, Italian, German, Portuguese, Russian and Spanish "
+"(Castellano)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Some of these languages could not be thoroughly tested as we don't speak "
+"every language in the world. If you find issues using one of the supposedly "
+"supported languages, don't hesitate to [[tell us about it|found_a_problem]]. "
+"E.g. T(A)ILS probably lacks some non-Latin fonts or input systems."
+msgstr ""
 
 #~ msgid "[Tor](https://www.torproject.org)"
 #~ msgstr "[Tor](https://www.torproject.org)"

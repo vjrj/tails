@@ -7,238 +7,70 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-04-09 16:51+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2010-09-22 17:07-0600\n"
+"PO-Revision-Date: 2010-08-31 15:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Language: \n"
 
-#. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "*amnesia* is a **Live System** ([Live CD](http://en.wikipedia.org/wiki/Live_CD),\n"
-#| "[Live USB](http://en.wikipedia.org/wiki/Live_USB)) aimed at preserving your\n"
-#| "privacy and anonymity: \n"
+#. type: Content of: <div><div><p>
 msgid ""
-"*The (Amnesic) Incognito Live System* ([Live\n"
-"CD](http://en.wikipedia.org/wiki/Live_CD), [Live\n"
-"USB](http://en.wikipedia.org/wiki/Live_USB)) is aimed at preserving\n"
-"your privacy and anonymity:\n"
+"<em>The (Amnesic) Incognito Live System</em> (<a href='http://en.wikipedia."
+"org/wiki/Live_CD'>Live CD</a>, <a href='http://en.wikipedia.org/wiki/"
+"Live_USB'>Live USB</a>) is aimed at preserving your privacy and anonymity:"
 msgstr ""
-"*The (Amnesic) Incognito Live System* ([Live CD](http://de.wikipedia.org/wiki/Live_CD),\n"
-"[Live USB](http://de.wikipedia.org/wiki/Live_USB)) hat das Ziel, deine Anonymität und Privatsphäre\n"
-"zu schützen: \n"
+"<em>The (Amnesic) Incognito <a href='http://de.wikipedia.org/wiki/Live-"
+"System'>Live System</a></em>\n"
+"hilft dir, deine Anonymität und Privatsphäre im Netz zu bewahren:"
 
-#. type: Bullet: '* '
+#. type: Content of: <div><div><p><ul><li>
 msgid ""
-"all outgoing connections to the Internet are forced to go through the [Tor]"
-"(https://www.torproject.org/) network"
+"all outgoing connections to the Internet are forced to go through <a "
+"href='https://www.torproject.org/'>the Tor network</a>;"
 msgstr ""
-"Alle ausgehenden Internetverbindungen werden durch das [Tornetzwerk](https://"
-"www.torproject.org/) geleitet."
+"Alle abgehenden Verbindungen werden durch <a href='https://www.torproject."
+"org/'>das Tornetzwerk</a> geschleust."
 
-#. type: Bullet: '* '
-msgid "no trace is left on local storage devices unless explicitely asked."
+#. type: Content of: <div><div><p><ul><li>
+msgid "no trace is left on local storage devices unless explicitly asked."
 msgstr ""
-"Auf lokalen Datenträgern werden keine Spuren hinterlassen (außer wenn dies "
-"explizit erwünscht ist)."
+"Auf lokalen Datenträgern werden keine Spuren hinterlassen, ausser wenn dies "
+"explizit erwünscht ist."
 
-#. type: Plain text
-msgid "It has many other [[features]]."
-msgstr "Es gibt noch viele andere [[Features|features]]."
+#. type: Content of: <div><div><p>
+msgid "[[Learn more about T(A)ILS|about]]."
+msgstr "[[Mehr über T(A)ILS erfahren|about]]."
 
-#. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "amnesia is [Free Software](http://www.gnu.org/philosophy/free-sw.html)  "
-#| "released under the GNU/GPL (version 3 or above)."
-msgid ""
-"The (Amnesic) Incognito Live System is [Free Software](http://www.gnu.org/"
-"philosophy/free-sw.html) released under the GNU/GPL (version 3 or above)."
-msgstr ""
-"*The (Amnesic) Incognito Live System ist [Freie Software](http://www.gnu.org/"
-"philosophy/free-sw.html) und ist unter GNU/GPL (Version 3 oder höher) veröffentlicht."
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"**WARNING**: this is alpha software, do not rely on it for\n"
-"strong anonymity!\n"
-msgstr ""
-"**WARNUNG**: Dies ist experimentelle Software. Es kann sich nicht\n"
-"auf starke Anonymität verlassen werden!\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!toc levels=2]]\n"
-msgstr "[[!toc levels=2]]\n"
-
-#. type: Title ##
-#, no-wrap
-msgid "using The (Amnesic) Incognito Live System"
-msgstr "Benutzen des (Amnesic) Incognito Live Systems"
-
-#. type: Plain text
-msgid "Pre-built images, are [[available for download|download]]."
-msgstr "Vorgefertigte Images stehen zum [[Herunterladen|download]] bereit."
-
-#. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "One can get the source code needed to [[build]] her own amnesia Live "
-#| "System using the Debian Live tools:"
-msgid ""
-"One can also get the source code ([[tarball]], [[git]]) needed to [[build]] "
-"her own (Amnesic) Incognito Live System using the Debian Live tools."
-msgstr ""
-"Für das eigene [[Kompilieren|build]] mit den Debian Live tools steht der "
-"Quellcode als [[Tarball|tarball]] oder aus dem [[GIT|git]] zur Verfügung."
-
-#. type: Title ##
-#, no-wrap
+#. type: Content of: <div><div><h1>
 msgid "news"
-msgstr "News"
+msgstr ""
 
-#. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"1\" feeds=\"no\"]]\n"
-msgid "[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"2\" feeds=\"no\"]]\n"
-msgstr "[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"1\" feeds=\"no\"]]\n"
+#. type: Content of: <div><div>
+msgid ""
+"[[!inline pages=\"news/* and !news/*/* and !news/discussion\" show=\"2\" "
+"feeds=\"no\" archive=\"yes\"]]"
+msgstr ""
 
-#. type: Plain text
+#. type: Content of: <div><div><p>
 msgid "See [[News]] for more."
-msgstr "=> [[Mehr News|News]]"
+msgstr "[[Mehr..|News]]"
 
-#. type: Title ##
-#, no-wrap
-msgid "resources"
-msgstr "Ressourcen"
+#. type: Content of: <div><div><h1>
+msgid "security"
+msgstr "Sicherheit"
 
-#. type: Plain text
+#. type: Content of: <div><div>
 msgid ""
-"The [[forum]] is open for discussions that *do not* belong to bugs, feature "
-"requests and the like. Such fauna should rather be submitted on the "
-"dedicated pages, where it can be more easily tracked... and hopefully fixed: "
-"[[bugs]], [[wishlist]] and [[patches|patch]]."
+"[[!inline pages=\"security/* and !security/*/* and !security/discussion and "
+"currentlang()\" show=\"2\" feeds=\"no\" archive=\"yes\"]]"
 msgstr ""
-"Das [[Forum|forum]] ist offen für Diskussionen, die sich *nicht* um Bugs, "
-"Feature-Wünschen und ähnliches drehen. Solche sind besser unter [[Bugs|bugs]], "
-"[[Wunschliste|wishlist]] und [[Patches|patches]] einzutragen."
 
-#. type: Plain text
-msgid "Our [[TODO]]-list is also managed on this very wiki."
-msgstr "Unsere [[Aufgabenliste|TODO]] ist ebenfalls auf diesem Wiki."
+#. type: Content of: <div><div><p>
+msgid "See [[Security]] for more."
+msgstr "[[Mehr..|Security]]"
 
-#. type: Plain text
-msgid ""
-"One might also be interested in this project's [[security history|security]] "
-"or in the [[developers' corner|dev]]."
-msgstr ""
-"Die [[Geschichte der Sicherheitslücken|security]] oder [[Entwicklerecke|dev]] könnten "
-"auch von Interesse sein."
-
-#. type: Title ##
-#, no-wrap
-msgid "contact"
-msgstr "Kontakt"
-
-#. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can send email to <amnesia@boum.org>, preferably encrypted with our "
-#| "[[GnuPG key]]."
-msgid ""
-"You can send email to <amnesia@boum.org>, preferably encrypted with our "
-"[[GnuPG key]], or join our [[chatroom|chat]]."
-msgstr ""
-"E-Mails können an <amnesia@boum.org> gesendet werden, am besten "
-"verschlüsselt mit unserem [[GnuPG key]]. Es gibt auch einen [[Chatraum|chat]]."
-
-#. type: Title ##
-#, no-wrap
-msgid "acknowledgements"
-msgstr "Dank"
-
-#. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "amnesia could not exist without [Debian Live](http://debian-live.alioth."
-#| "debian.org/) and [Tor](https://www.torproject.org/)"
-msgid ""
-"The (Amnesic) Incognito Live System could not exist without [Debian Live]"
-"(http://debian-live.alioth.debian.org/) and [Tor](https://www.torproject."
-"org/)"
-msgstr ""
-"The (Amnesic) Incognito Live System gäbe es nicht ohne [Debian Live]"
-"(http://debian-live.alioth.debian.org/) und [Tor](https://www.torproject."
-"org/)"
-
-#. type: Bullet: '* '
-msgid ""
-"The (Amnesic) Incognito Live System was inspired by the [Incognito LiveCD]"
-"(http://anonymityanywhere.com/incognito/). The Incognito author [has "
-"declared it to be dead](http://www.anonymityanywhere.com/incognito/) on "
-"March 23, 2010, and written that The (Amnesic) Incognito Live System "
-"\"should be considered as its spiritual successor\"."
-msgstr ""
-"The (Amnesic) Incognito Live System ist inspiriert von der [Incognito LiveCD]"
-"(http://anonimityanywhere.com/ingocnito/). Der Incognito Autor [hat das Projekt "
-"am 23. März 2010 für beendet erklärt](http://www.anonymityanywhere.com/incognito/). "
-"Er schreibt, dass The (Amnesic) Incognito Live System als spiritueller Nachfolger "
-"in Erwägung gezogen werden soll."
-
-#. type: Bullet: '* '
-msgid ""
-"The [Privatix Live-System](http://mandalka.name/privatix/) was an early "
-"source of inspiration, too."
-msgstr ""
-"Das [Privatix Live-System](http://mandalka.name/privatix/) war auch eine frühe "
-"Quelle der Inspiration."
-
-#. type: Title ##
-#, no-wrap
-msgid "using this wiki"
-msgstr "Wie dieses Wiki funktioniert"
-
-#. type: Bullet: '* '
-msgid "[[meta/sitemap]] and other [[meta]] pages"
-msgstr "[[Sitemap|meta/sitemap]] und andere [[Meta-Seiten|meta]]"
-
-#. type: Bullet: '* '
-msgid "[[ikiwiki documentation|ikiwiki]]"
-msgstr "[[ikiwiki Dokumentation|ikiwiki]]"
-
-#~ msgid ""
-#~ "[[Bugs]], [[TODO]] items, [[wishlist]] items, and [[patches|patch]] can "
-#~ "be submitted and tracked using this wiki."
-#~ msgstr ""
-#~ "[[Bugs]], [[TODO]], [[Wünsche|wishlist]], und [[Patches|patch]] können "
-#~ "über diesen Wiki signalisiert und verfolgt werden."
-
-#~ msgid "using amnesia"
-#~ msgstr "Hier gibt es *amnesia*"
-
-#~ msgid ""
-#~ "amnesia was inspired by the [Incognito LiveCD](http://anonymityanywhere."
-#~ "com/incognito/) and the [Privatix Live-System](http://mandalka.name/"
-#~ "privatix/)"
-#~ msgstr ""
-#~ "*amnesia* wurde von der [Incognito LiveCD](http://anonymityanywhere.com/"
-#~ "incognito/) und dem [Privatix Live-System](http://mandalka.name/"
-#~ "privatix/) inspiriert."
-
-#~ msgid "as a [[tarball]]"
-#~ msgstr "als [[tarball]]"
-
-#~ msgid "with [[git]]"
-#~ msgstr "über [[git]]"
-
-#~ msgid "One can also [[download]] pre-built images."
-#~ msgstr ""
-#~ "Fertige Abbilder (Images für CD oder USB-Stick) können hier "
-#~ "[[heruntergeladen|download]] werden."
-
-#~ msgid "[[meta/sitemap]]"
-#~ msgstr "[[Sitemap|meta/sitemap]]"
+#~ msgid "<h1>news</h1>\n"
+#~ msgstr "<h1>Neuigkeiten</h1>\n"

@@ -7,13 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-02-07 19:29+0100\n"
+"POT-Creation-Date: 2010-09-22 17:08-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Language: \n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,7 +28,7 @@ msgstr "[[!meta title=\"Utilisation possible d'un système Live non amnésique t
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!tag security/current]]\n"
+msgid "[[!tag security/fixed]]\n"
 msgstr ""
 
 #. type: Plain text

@@ -1,0 +1,215 @@
+### Self-bla
+# profiling => squashfs optimization
+python-pyinotify
+# contains mkpasswd, needed in chroot_local-hooks/01-password
+whois
+# needed by WhisperBack
+python-gnutls
+python-gtk2
+python-pyme
+# needed by tails-security-check
+libdatetime-format-iso8601-perl
+libdesktop-notify-perl
+libio-socket-ssl-perl
+liblocale-gettext-perl
+libnet-ssleay-perl
+libwww-perl
+libxml-atom-perl
+# needed by smem at shutdown time
+expect
+# needed by the upcoming virtualization environment warning
+virt-what
+# needed by htpdate
+libdatetime-perl
+libdatetime-format-dateparse-perl
+# needed by readahead
+pv
+# needed by our chroot_local-hooks
+live-build
+
+### Software
+
+#include <gnome-core>
+
+audacity
+cups
+cryptkeeper
+cryptsetup
+rsync
+aircrack-ng
+bash-completion
+claws-mail
+claws-mail-archiver-plugin
+claws-mail-i18n
+claws-mail-pgpinline
+claws-mail-pgpmime
+dmz-cursor-theme
+dnsutils
+dosfstools
+evince
+exiv2
+file-roller
+gcalctool
+gimp
+git-core
+#if DISTRIBUTION squeeze
+gnome-disk-utility
+#endif
+gnome-media
+#if DISTRIBUTION lenny
+gnome-mount
+#endif
+gnome-power-manager
+gnome-utils
+gnome-volume-manager
+gnupg-curl
+gobby
+#if DISTRIBUTION squeeze
+gobby-infinote
+#endif
+gparted
+## breaks lb because of desktop-base.postinst (see Debian bug #467620)
+#if ARCHITECTURE i386 amd64
+# grub
+#endif
+gstreamer0.10-ffmpeg
+gstreamer0.10-plugins-base
+gstreamer0.10-plugins-good
+gstreamer0.10-plugins-ugly
+haveged
+iceweasel
+#if DISTRIBUTION lenny
+iceweasel-gnome-support
+#endif
+iceweasel-l10n-ar
+iceweasel-l10n-de
+iceweasel-l10n-es-es
+iceweasel-l10n-fr
+iceweasel-l10n-it
+iceweasel-l10n-pt-pt
+iceweasel-l10n-zh-cn
+inkscape
+iptables
+less
+libgfshare-bin
+localepurge
+lvm2
+macchanger
+# manpages
+# manpages-de
+# manpages-es
+# manpages-es-extra
+# manpages-fr
+# manpages-fr-extra
+# manpages-it
+# manpages-pt
+monkeysphere
+# our vidialia-wrapper needs lckdo
+moreutils
+msmtp
+msva-perl
+mutt
+network-manager-gnome
+ntfs-3g
+ntfsprogs
+openoffice.org-calc
+openoffice.org-draw
+openoffice.org-gnome
+openoffice.org-impress
+openoffice.org-math
+openoffice.org-writer
+openoffice.org-l10n-ar
+openoffice.org-l10n-de
+openoffice.org-l10n-es
+openoffice.org-l10n-fr
+openoffice.org-l10n-it
+openoffice.org-l10n-pt
+openoffice.org-l10n-zh-cn
+openssh-client
+parted
+pidgin
+pidgin-otr
+pmount
+poedit
+polipo
+pppoeconf
+pwgen
+resolvconf
+scribus
+seahorse
+#if DISTRIBUTION squeeze
+seahorse-plugins
+#endif
+secure-delete
+splashy
+sshfs
+system-config-printer
+synaptic
+totem-plugins
+ttf-dejavu
+ttf-liberation
+tor
+tor-geoipdb
+pdnsd
+sound-juicer
+ssss
+totem-gstreamer
+vidalia
+vim-nox
+wireless-tools
+wipe
+xsane
+#if DISTRIBUTION squeeze
+xul-ext-adblock-plus
+#endif
+xul-ext-firegpg
+xul-ext-monkeysphere
+xul-ext-torbutton
+
+### Virtualization guest support
+#if ARCHITECTURE i386 amd64
+virtualbox-ose-guest-utils
+virtualbox-ose-guest-x11
+#endif
+#if ARCHITECTURE i386 amd64
+open-vm-tools
+#endif
+
+### Firmwares
+firmware-ipw2x00
+firmware-iwlwifi
+firmware-linux
+firmware-linux-nonfree
+firmware-ralink
+firmware-realtek
+zd1211-firmware
+b43-fwcutter
+
+### Xorg
+xserver-xorg-input-all
+#if ARCHITECTURE i386
+xserver-xorg-video-geode
+#endif
+xserver-xorg-video-all
+
+### l10n, i18n
+## arabic fonts
+ttf-kacst
+ttf-farsiweb
+## chinese fonts and input systems
+scim-chinese
+scim-tables-zh
+scim-uim
+xfonts-intl-chinese
+ttf-arphic-ukai
+ttf-arphic-uming
+xfonts-wqy
+
+### CD burning
+#if DISTRIBUTION lenny
+gnomebaker
+nautilus-cd-burner
+#endif
+#if DISTRIBUTION squeeze
+brasero
+#endif

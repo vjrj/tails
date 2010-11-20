@@ -1,8 +1,20 @@
-The [[forum]] is open for discussions that *do not* belong to bugs,
+<div id="page-forum">
+
+<div id="intro">
+
+<p>
+The [[forum]] is open for discussions that <em>do not</em> belong to bugs,
 feature requests and the like. Such fauna should rather be submitted
-on the dedicated pages, where it can be more easily tracked... and
-hopefully fixed: [[bugs]], [[wishlist]] and [[patches|patch]].
+on [[the dedicated pages|found_a_problem]], where it can be more
+easily tracked... and hopefully fixed.
+</p>
+
+</div>
+
+<h1>Start a new forum thread</h1>
 
 [[!inline pages="forum/* and !*/Discussion"
 actions=yes rootpage="forum" postformtext="Start a new discussion thread titled:"
-show=0 archive=yes]]
+show=0 archive=yes template="forumpage"]]
+
+</div>

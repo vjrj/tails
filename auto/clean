@@ -1,12 +1,12 @@
 #!/bin/sh
 
-for dir in chroot/{dev/pts,proc,sys} ; do
+for dir in chroot/{dev/pts,proc,sys,var/lib/dpkg} ; do
    if mountpoint -q "$dir" ; then
       umount "$dir"
    fi
 done
 
-lh clean noautoconfig ${@}
+lb clean noauto ${@}
 
 # rm -f build-*.log
 
@@ -23,7 +23,7 @@ rm -f config/chroot_local-includes/etc/amnesia/version
 rm -f config/chroot_local-includes/usr/share/doc/amnesia/Changelog
 rm -f config/chroot_local-includes/usr/share/doc/amnesia/amnesia.asc
 for list in config/chroot_local-packageslists/*.list ; do
-   if [ "$list" != 'config/chroot_local-packageslists/amnesia-common.list' ]; then
+   if [ "$list" != 'config/chroot_local-packageslists/tails-common.list' ]; then
       rm -f "$list"
    fi
 done
