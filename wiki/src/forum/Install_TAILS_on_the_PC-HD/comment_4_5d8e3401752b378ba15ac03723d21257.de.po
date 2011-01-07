@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2010-12-22 20:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!comment format=mdwn\n"
+" username=\"anonym\"\n"
+" ip=\"127.0.0.1\"\n"
+" subject=\"HOWO install T(A)ILS to a fully encrypted harddrive\"\n"
+" date=\"2010-08-31T15:53:44Z\"\n"
+" content=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This is one way to install T(A)ILS to a fully encrypted harddrive (or USB "
+"stick), and it can be done either in a VM or on a real bare-metal "
+"computer. In this setup, all changes to the file system will persist, so you "
+"can install/reconfigure any software, store files etc. so they will stay "
+"after shutdown (unlike when running T(A)ILS from a LiveCD)."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"#Please be aware that you can seriously fuck up your anonymity/security with "
+"this setup, so it should be considered for testing purposes only.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For instance, the memory is not wiped att shutdown, so your disc encryption "
+"key and other sensitive data can be recovered from the computers RAM for "
+"some time after you turn off the computer. See: "
+"http://en.wikipedia.org/wiki/Cold_boot_attack"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Also, installing programs can potentially ruin certain security features of "
+"T(A)ILS. Don't install anything related to firewalls, DNS servers, or "
+"similar network related tools unless you really know what you are doing and "
+"how T(A)ILS implements its security. Same goes with removing of "
+"reconfiguring existing software realated to those areas."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"#Note that this will require some familiarity with partitioning in a linux "
+"system, so if you don't know how to do that or how to determine which device "
+"your harddrive has, you'll have to read up on that before.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Start by booting the latest T(A)ILS LiveCD on the computer/VM containing the "
+"harddrive. Once the graphical interface has started, open a terminal "
+"(e.g. gnome-terminal) and issue the commands below, in order, and carefully "
+"read all the commens (lines initated by #) for further instructions:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Become root\n"
+"    sudo su\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # EDIT THE VARIABLE BELOW TO BE THE DEVICE FOR YOUR HARDDRIVE! As you "
+"can see,\n"
+"    # for me it was /dev/hdc so I set it as such, but it could be something "
+"like /dev/hda or /dev/sdb\n"
+"    # depending on your hardware\n"
+"    HD=/dev/hdc\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # First make a ~100 MB bootable primary partition (for /boot) in the "
+"beginning of\n"
+"    # the hd, then use the rest for another primary partition for the "
+"encrypted\n"
+"    # container\n"
+"    cfdisk $HD\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    BOOT=\\\"${HD}1\\\"\n"
+"    CRYPT=\\\"${HD}2\\\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # You will be asked for a keyphrace in the next step, and in order to "
+"use the\n"
+"    # encryption to its fullest you need an about 40 characters long random "
+"passphrase.\n"
+"    # You can generate one with the below command, where you should edit XX "
+"to be a\n"
+"    # number around 40:\n"
+"    pwgen -s XX 1\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Create the encrypted container using the password generated above:\n"
+"    cryptsetup -y --cipher aes-cbc-essiv:sha256 --key-size 256 luksFormat "
+"$CRYPT\n"
+"    cryptsetup luksOpen $CRYPT pvcrypt\n"
+"    pvcreate /dev/mapper/pvcrypt\n"
+"    vgcreate vgcrypt /dev/mapper/pvcrypt\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Next we will create partitions inside the encrypted container. If you "
+"need to know how\n"
+"    # much space you have left at any time during this process, issue the "
+"command below and\n"
+"    # look it up in the row saying \\\"Free PE / Size\\\":\n"
+"    vgdisplay vgcrypt\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Create a swap and a root partition using the commands below, but "
+"change the sizes as\n"
+"    # needed. I just happened to have an 8 GB harddrive, so 100 MB was for "
+"the boot\n"
+"    # partitioning created above, then I used 1 GB for swap and the rest, "
+"6.9 GB, for the root.\n"
+"    # Note that the swap might be unnecessary if you have a lot of RAM "
+"(>4GB) and that\n"
+"    # the root will need about 2 GB just to fit the system -- anything "
+"beyond that is for your\n"
+"    # files or new programs you install.\n"
+"    lvcreate -n swap -L 1G vgcrypt\n"
+"    lvcreate -n root -L 6.90G vgcrypt\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    ROOT=\\\"/dev/mapper/vgcrypt-root\\\"\n"
+"    SWAP=\\\"/dev/mapper/vgcrypt-swap\\\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # format the partitions\n"
+"    mkfs.ext2 $BOOT\n"
+"    mkfs.ext3 $ROOT\n"
+"    mkswap $SWAP\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Copy files\n"
+"    mkdir /mnt/chroot /mnt/cd /mnt/squashfs\n"
+"    mount /dev/cdrom /mnt/cd\n"
+"    mount -o loop /mnt/cd/live/filesystem.squashfs /mnt/squashfs\n"
+"    mount $ROOT /mnt/chroot\n"
+"    # Note that the following command will take a minute or two to "
+"complete\n"
+"    cp -a /mnt/squashfs/* /mnt/chroot \n"
+"    umount /mnt/squashfs /mnt/cd\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Copy some stuff from running T(A)ILS that otherwise will be broken or "
+"missing\n"
+"    rm -R /mnt/chroot/home/amnesia\n"
+"    cp -a /home/amnesia /mnt/chroot/home\n"
+"    cp -a /etc/hostname /mnt/chroot/etc\n"
+"    cp -a /etc/hosts /mnt/chroot/etc\n"
+"    cp -a /etc/X11/xorg.conf /mnt/chroot/etc/X11\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # If you want auto-login to X, do this\n"
+"    cp -a /etc/gdm/gdm.conf /mnt/chroot/etc/gdm\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Setup crypttab and fstab so that the system knows what partitions you "
+"have\n"
+"    # and how to decrypt them:\n"
+"    echo \\\"pvcrypt $CRYPT none luks\\\" >> /mnt/chroot/etc/crypttab\n"
+"    echo \\\"proc /proc proc defaults 0 0\\\" >> /mnt/chroot/etc/fstab\n"
+"    echo \\\"$ROOT / ext3 defaults,noatime,errors=remount-ro 0 1\\\" >> "
+"/mnt/chroot/etc/fstab\n"
+"    echo \\\"$SWAP none swap sw 0 0\\\" >> /mnt/chroot/etc/fstab\n"
+"    echo \\\"$BOOT /boot ext2 defaults,noatime,noauto 0 2\\\" >> "
+"/mnt/chroot/etc/fstab\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # chroot into the filesystem\n"
+"    mount -t proc none /mnt/chroot/proc\n"
+"    mount -o bind /dev /mnt/chroot/dev\n"
+"    HD=\\\"$HD\\\" ROOT=\\\"$ROOT\\\" BOOT=\\\"$BOOT\\\" chroot /mnt/chroot "
+"/bin/bash\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Add the amnesia user and set a (good) password\n"
+"    useradd -G "
+"dialout,cdrom,floppy,audio,video,plugdev,fuse,scanner,netdev,devian-tor,powerdev "
+"-s /bin/bash amnesia\n"
+"    chown -R amnesia:amnesia /home/amnesia\n"
+"    passwd amnesia\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Here we have two alternatives (if unsure choose alternative 1 as that "
+"is what\n"
+"    # most people expect):\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # 1. Some people with previous linux experience (in particular Ubuntu "
+"users) are\n"
+"    # are probably used to being able to run commands as root by typing:\n"
+"    #\tsudo COMMAND\n"
+"    # and then entering YOUR user's password. In this setting the root "
+"account is\n"
+"    # also disabled, so the only password you have to worry about is your "
+"users. If\n"
+"    # you want this behaviour, enter the commands below.\n"
+"    rm /etc/sudoers\n"
+"    echo \\\"root ALL=(ALL) ALL\\\" >> /etc/sudoers\n"
+"    echo \\\"amnesia ALL=(ALL) ALL\\\" >> /etc/sudoers\n"
+"    chmod 440 /etc/sudoers\n"
+"    passwd -l root\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # 2. If you don't want to use the above sudo approach for root access, "
+"but instead\n"
+"    # want root to have a different password than your user, and then use "
+"the su\n"
+"    # command to access root, then do the following (and remember to set a "
+"good\n"
+"    # password):\n"
+"    rm /etc/sudoers\n"
+"    echo \\\"root ALL=(ALL) ALL\\\" >> /etc/sudoers\n"
+"    passwd root\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Fix some symlinks\n"
+"    rm /etc/resolv.conf\n"
+"    ln -s /etc/resolvconf/run/resolv.conf /etc/resolv.conf\n"
+"    ln -s /usr/bin/Xorg /etc/X11/X\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Remove some livecd specific stuff\n"
+"    apt-get remove --yes live-helper live-initramfs aufs-modules-*\n"
+"    apt-get --yes autoremove\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Install grub. The first command (apt-get update) can be skipped. It "
+"will take some\n"
+"    # time since it must download a lot of files through Tor. Running it "
+"will, however,\n"
+"    # make sure that you get the latest version of grub.\n"
+"    apt-get update \n"
+"    apt-get install --yes grub\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Reinstall the mount package to fix the swapon tool, which we "
+"deliberately crippled\n"
+"    # for the LiveCD. Only needed if you set up a swap above.\n"
+"    apt-get install --reinstall --yes mount\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Fix the boot partition\n"
+"    mv /boot /boot.bak\n"
+"    mkdir /boot\n"
+"    mount $BOOT /boot\n"
+"    mv /boot.bak/* /boot\n"
+"    rm -R /boot.bak\n"
+"    mkdir -p /boot/grub\n"
+"    update-grub\n"
+"    sed -i -e \\\"s/# kopt=root=[^ ]\\+ ro/# kopt=root=$ROOT ro/\\\" "
+"/boot/grub/menu.lst\n"
+"    update-grub\n"
+"    grub-install --no-floppy $HD\n"
+"    update-initramfs -k all -u\n"
+"    umount /boot\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Exit the chroot\n"
+"    exit\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Clean up (should not matter if any of the commands fail)\n"
+"    umount /mnt/chroot/proc /mnt/chroot/dev /mnt/chroot\n"
+"    cryptsetup luksClose pvcrypt\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "#Done!\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Turn off the machine, remove the T(A)ILS CD and boot to enter your new fully "
+"persistent and encrypted T(A)ILS system."
+msgstr ""

@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2010-12-22 20:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!comment format=mdwn\n"
+" ip=\"127.0.0.1\"\n"
+" subject=\"more info ?\"\n"
+" date=\"2010-08-24T20:26:45Z\"\n"
+" content=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Do you mean [GNOME PPP](http://www.gnome-ppp.org/)? If yes, it is not "
+"included."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We (or you :) should see if it integrates with Network Manager. If it "
+"doesn't, a lot of stuff that happens automatically when NM brings up a "
+"connection will not work. E.g. the Tor daemon won't be told it is now online "
+"and you won't have any Internet connection available."
+msgstr ""

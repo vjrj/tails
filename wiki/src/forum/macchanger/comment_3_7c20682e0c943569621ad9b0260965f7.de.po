@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2010-12-22 20:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!comment format=mdwn\n"
+" ip=\"127.0.0.1\"\n"
+" subject=\"no\"\n"
+" date=\"2010-08-09T23:32:53Z\"\n"
+" content=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Installing macchanger-gtk would make end-users think all they need to "
+"protect themselves against such threats is to change their mac address once "
+"booted. This is unfortunately fully wrong as the mac address will have been "
+"leaked already."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The [[macchanger todo item|todo/macchanger]] explains why it's not as simple "
+"as \\\"but why the hell don't you install macchanger(-gtk)?\\\" Help to "
+"solve this todo item is fully welcome."
+msgstr ""
