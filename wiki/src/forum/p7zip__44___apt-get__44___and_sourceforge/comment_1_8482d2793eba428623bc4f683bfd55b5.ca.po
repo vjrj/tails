@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2010-12-22 20:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!comment format=mdwn\n"
+" ip=\"127.0.0.1\"\n"
+" subject=\"reply\"\n"
+" date=\"2010-07-11T11:05:38Z\"\n"
+" content=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- apt-get network communication goes through Tor when using T(A)ILS - p7zip "
+"is not bundled in T(A)ILS, and is thus not a supported feature. This seems "
+"like a Debian Lenny or upstream bug more than a T(A)ILS bug.  - sourceforge: "
+"I'd bet you need to whitelist the site for cookies."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"General note: please create a forum thread per topic next time, it will make "
+"it easier to follow the discussion."
+msgstr ""
