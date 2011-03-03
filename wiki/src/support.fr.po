@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-10-02 14:04-0600\n"
-"PO-Revision-Date: 2010-10-02 23:05+0200\n"
+"POT-Creation-Date: 2011-02-01 23:11-0800\n"
+"PO-Revision-Date: 2010-11-02 11:18+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,13 +21,19 @@ msgstr "[[!meta title=\"À l'aide\"]]"
 
 #. type: Content of: <div><div><p>
 msgid ""
-"Welcome to T(A)ILS support. This is work in progress and far from being "
+"Welcome to Tails support. This is work in progress and far from being "
 "complete yet."
 msgstr ""
+"Bienvenue sur l'aide de Tails. Elle est en cours d'écriture, et loin\n"
+"d'être complète pour l'instant."
 
 #. type: Content of: <div><div><div><h1>
 msgid "Documentation"
 msgstr "Documentation"
+
+#. type: Content of: <div><div><div><ul><li>
+msgid "[[Installing onto a USB stick]]"
+msgstr "[[Installer sur une clé USB|Installing onto a USB stick]]"
 
 #. type: Content of: <div><div><div><ul><li>
 msgid "[[Walkthrough]]"
@@ -38,15 +43,22 @@ msgstr "[[Tour d'horizon|walkthrough]]"
 msgid "[[Virtualization]]"
 msgstr "[[Virtualisation|Virtualization]]"
 
+#. type: Content of: <div><div><div><ul><li>
+msgid "[[TrueCrypt]]"
+msgstr ""
+
 #. type: Content of: <div><div><div><h1>
 msgid "Found a problem?"
 msgstr "Un problème ?"
 
 #. type: Content of: <div><div><div>
 msgid ""
-"If you have found a bug in The (Amnesic) Incognito Live System or would like "
+"If you have found a bug in The Amnesic Incognito Live System or would like "
 "to see a new feature in it, have a look to the [[found_a_problem]] pages."
 msgstr ""
+"Si vous avez trouvé un bug dans Tails ou désireriez y trouver une\n"
+"nouvelle fonctionnalité, allez voir les pages [[un problème ?|"
+"found_a_problem]]."
 
 #. type: Content of: <div><div><h1>
 msgid "Talk"
@@ -54,4 +66,4 @@ msgstr "Parlons-en"
 
 #. type: Content of: <div><div>
 msgid "[[!inline pages=\"talk-users\" raw=\"yes\"]]"
-msgstr ""
+msgstr "[[!inline pages=\"talk-users.fr\" raw=\"yes\"]]"

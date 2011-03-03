@@ -1,4 +1,4 @@
-[[!tag todo/discuss todo/research]]
+[[!tag todo/code todo/documentation]]
 
 [[!toc levels=3]]
 
@@ -59,6 +59,12 @@ a package, retrieve the real user IP, and send it to an attacker.
 Possible solutions
 ==================
 
+We agreed upon a menu in the boot process (be it a bootloader menu, a
+X menu in initramfs or whatever) proposes - probably amongst other
+options - to type a sudo/root password in a text input box. If none is
+entered, there's no root access at all. If a password is entered, it
+is set for the default user + sudo enabled.
+
 Disabled root access by default, boot menu option to enable it
 --------------------------------------------------------------------
 
@@ -99,8 +105,30 @@ no root access is possible anymore (as the root account has a disabled
 password by default).
 
 This is the solution chosen by [Liberté Linux](http://dee.su/liberte).
+They:
+
+- patch inittab in `src/etc/conf.d/local.start` to run a root shell
+  and have it not respawned
+- set `TMOUT=120` in `src/root/.profile` (this is a bash feature that
+  makes interactive terminals exit unless there is input during this
+  time after the first prompt)
+
+*Beware!* live-config patches inittab at boot time. Let's re-patch it
+in a later live-config script (hint:  [[!tails_gitweb
+config/chroot_local-includes/lib/live/config/]]).
+
+Also, we don't ship the `/root/.profile` that ends up in Tails
+images but we can patch it using `chroot_local-patches` after a
+package has put it in place.
+
+We also need to:
+
+- stop setting a known root password
+- set the (probably live-config) option that disables sudo for the
+  default user
+- write documentation (about the change / how to use it the new way)
 
 GrSecurity/PaX/SELinux etc.
 ---------------------------
 
-???
+See [[todo/Mandatory_Access_Control]].

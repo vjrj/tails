@@ -4,12 +4,12 @@ An automated build and test environment would be pretty useful to
 ensure a few facts:
 
 - new code does not break anything
-- new build tools (`live-build``) and included software
+- new build tools (`live-build`) and included software
   (`live-config`, `live-boot`) don't break anything
 - the quality of our releases is good enough
 - every developer can comfortably test his/her code without owning
   modern high-end hardware (8GB RAM is needed in order to build
-  a T(A)ILS image in tmpfs).
+  a Tails image in tmpfs).
 
 Resources:
 
@@ -24,3 +24,11 @@ Resources:
 - http://wiki.ubuntu.com/AutomatedTesting/
 - grml's Michael Prokop talks about autotesting in KVM during his
   [talk at DebConf 10](http://penta.debconf.org/dc10_schedule/events/547.en.html)
+- OpenSUSE's [OS-autoinst](http://www.os-autoinst.org/): sends
+  key presses and takes snapshots over the KVM `-monitor` interface;
+  seems like it currently provides no way to check what was successful
+  and what failed
+- Mozilla's [Automation QA team](http://quality.mozilla.org/teams/automation/)
+- [Sikuli](https://launchpad.net/sikuli), visual technology to automate
+  graphical user interfaces (GUI) using images (screenshots), used by Ubuntu,
+  even has an IDE!

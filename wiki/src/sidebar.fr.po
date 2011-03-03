@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-10-21 23:15-0600\n"
-"PO-Revision-Date: 2010-09-25 18:20+0200\n"
+"POT-Creation-Date: 2011-02-01 23:11-0800\n"
+"PO-Revision-Date: 2011-01-20 08:48+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,28 +16,40 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 "Language: \n"
 
-#. type: Bullet: '* '
-#, fuzzy
-#| msgid "Latest release:<br />0.5 (May 1st, 2010)"
-msgid "Latest release:<br />0.6 (October 22nd, 2010)"
-msgstr "Dernière version&nbsp;:<br />0.5 (1er mai 2010)"
+#. type: Content of: <div>
+msgid ""
+"[[<span class=\"tails\">Download Tails</span> <span class=\"release"
+"\">Latest release: 0.6.2</span> <span class=\"date\">January 20, 2011</span>|"
+"Download]]"
+msgstr ""
+"[[<span class=\"tails\">Télécharger Tails</span> <span class=\"release"
+"\">Dernière version : 0.6.2</span> <span class=\"date\">20 janvier 2011</"
+"span>|Download]]"
 
-#. type: Bullet: '* '
-msgid "[[Download T(A)ILS|Download]]"
-msgstr "[[Télécharger T(A)ILS|download]]"
-
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[About]]"
 msgstr "[[À propos|about]]"
 
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[Support]]"
 msgstr "[[Aide|support]]"
 
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[Found a problem?|found a problem]]"
 msgstr "[[Un problème ?|found a problem]]"
 
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[Contribute]]"
 msgstr "[[Participer|contribute]]"
+
+#~ msgid "[[logo|lib/tails-logo-round-small.png]]"
+#~ msgstr "[[logo|lib/tails-logo-round-small.png]]"
+
+#~ msgid "Latest release:"
+#~ msgstr "Dernière version&nbsp;:"
+
+#~ msgid "0.6.1 (December 25, 2010)"
+#~ msgstr "0.6.1 (25 décembre 2010)"
+
+#~ msgid "[[Download Tails|Download]]"
+#~ msgstr "[[Télécharger Tails|download]]"

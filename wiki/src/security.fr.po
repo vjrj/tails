@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-09-22 17:07-0600\n"
-"PO-Revision-Date: 2010-06-07 16:35+0200\n"
+"POT-Creation-Date: 2011-02-13 06:27-0800\n"
+"PO-Revision-Date: 2011-02-13 15:28+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,9 +23,11 @@ msgstr "[[!toc levels=3]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"[[!inline pages=\"security/* and currentlang()\"\n"
+"[[!inline pages=\"security/* and !security/audits and !security/audits.* and !security/audits/* and currentlang()\"\n"
 "actions=no archive=yes feedonly=yes show=0]]\n"
 msgstr ""
+"[[!inline pages=\"security/* and !security/audits and !security/audits.* and !security/audits/* and currentlang()\"\n"
+"actions=no archive=yes feedonly=yes show=0]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -38,6 +40,8 @@ msgid ""
 "[[!inline pages=\"security/* and tagged(security/current) and currentlang()\"\n"
 "actions=no archive=yes feeds=no show=0]]\n"
 msgstr ""
+"[[!inline pages=\"security* and tagged(security/current) and currentlang()\"\n"
+"actions=no archive=yes feeds=no show=0]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -60,6 +64,8 @@ msgid ""
 "[[!inline pages=\"security/* and tagged(security/probable) and currentlang()\"\n"
 "actions=no archive=yes feeds=no show=0]]\n"
 msgstr ""
+"[[!inline pages=\"security* and tagged(security/probable) and currentlang()\"\n"
+"actions=no archive=yes feeds=no show=0]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -72,8 +78,9 @@ msgid ""
 "**WARNING**: some of these holes may only be fixed in [[Git]].\n"
 "Please carefully read the \"Affected versions\" sections bellow.\n"
 msgstr ""
-"**ATTENTION** : certains de ces problèmes sont peut-être corrigés uniquement dans le dépôt [[Git]].\n"
-"Lisez attentivement les paragraphes \"Versions affectées\".\n"
+"**ATTENTION** : certains de ces problèmes sont peut-être corrigés uniquement\n"
+"dans le dépôt [[Git]].\n"
+"Lisez attentivement les paragraphes \"Versions affectées\"."
 
 #. type: Plain text
 #, no-wrap
@@ -81,3 +88,26 @@ msgid ""
 "[[!inline pages=\"security/* and tagged(security/fixed) and currentlang()\"\n"
 "actions=no archive=yes feeds=no show=0]]\n"
 msgstr ""
+"[[!inline pages=\"security* and tagged(security/fixed) and currentlang()\"\n"
+"actions=no archive=yes feeds=no show=0]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Audits"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Audits of Tails that we are aware of are collected in [[security/audits]]."
+msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "[[!inline pages=\"security/* and currentlang()\"\n"
+#~| "actions=no archive=yes feedonly=yes show=0]]\n"
+#~ msgid ""
+#~ "[[!inline pages=\"security/audits/* and currentlang()\"\n"
+#~ "actions=no archive=yes feeds=no show=0]]\n"
+#~ msgstr ""
+#~ "[[!inline pages=\"security* and currentlang()\"\n"
+#~ "actions=no archive=yes feedonly=yes show=0]]\n"
