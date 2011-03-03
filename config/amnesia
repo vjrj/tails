@@ -11,7 +11,7 @@
 # sourced by various other scripts.
 
 # Base for the string that will be passed to "lb config --bootappend-live"
-AMNESIA_APPEND="splash vga=788 live-media=removable nopersistent noprompt=usb"
+AMNESIA_APPEND="splash vga=788 live-media=removable nopersistent noprompt"
 
 # Options passed to isohybrid
 # Default: "-entry 4 -type 1c"
@@ -165,7 +165,7 @@ AMNESIA_VERSION="`dpkg-parsechangelog | sed -n 's/^Version: //p'`"
 AMNESIA_FULL_VERSION="${AMNESIA_VERSION} - ${AMNESIA_TODAY}"
 
 # Developpers' data used by git-dch, debcommit and friends in the release script
-AMNESIA_DEV_FULLNAME='T(A)ILS developers'
+AMNESIA_DEV_FULLNAME='Tails developers'
 AMNESIA_DEV_EMAIL="amnesia@boum.org"
 AMNESIA_DEV_KEYID="BE2CD9C1"
 

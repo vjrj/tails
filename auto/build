@@ -26,6 +26,7 @@ rm -rf cache/stages_rootfs
 
 # save variables that are needed by chroot_local-hooks
 echo "LB_DISTRIBUTION=${LB_DISTRIBUTION}" >> config/chroot_local-includes/usr/share/amnesia/build/variables
+echo "AMNESIA_SUPPORTED_LANGUAGES=${AMNESIA_SUPPORTED_LANGUAGES}" >> config/chroot_local-includes/usr/share/amnesia/build/variables
 
 # fix permissions on some source files that will be copied as is to the chroot.
 # they may be wrong, e.g. if the Git repository was cloned with a strict umask.
@@ -68,7 +69,7 @@ BUILD_LOG="${BUILD_DEST_FILENAME}.buildlog"
 
 echo "Building $LB_BINARY_IMAGES image ${BUILD_BASENAME}..."
 set -o pipefail
-if time lb build noauto ${@} 2>&1 | tee "${BUILD_LOG}" ; then
+if time eatmydata lb build noauto ${@} 2>&1 | tee "${BUILD_LOG}" ; then
    echo "Image was successfully created"
    echo "Renaming generated files..."
    mv -i "${BUILD_FILENAME}.${BUILD_FILENAME_EXT}" "${BUILD_DEST_FILENAME}"

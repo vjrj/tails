@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-10-21 23:15-0600\n"
+"POT-Creation-Date: 2011-02-01 23:11-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,26 +16,25 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 "Language: \n"
 
-#. type: Bullet: '* '
-msgid "Latest release:<br />0.6 (October 22nd, 2010)"
+#. type: Content of: <div>
+msgid ""
+"[[<span class=\"tails\">Download Tails</span> <span class=\"release"
+"\">Latest release: 0.6.2</span> <span class=\"date\">January 20, 2011</span>|"
+"Download]]"
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "[[Download T(A)ILS|Download]]"
-msgstr ""
-
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[About]]"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[Support]]"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[Found a problem?|found a problem]]"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Content of: <div><ul><li>
 msgid "[[Contribute]]"
 msgstr ""

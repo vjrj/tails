@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Compile and install a custom udev-watchdog program
+
+echo 'compiling and installing a custom udev-watchdog program'
+
+apt-get install --yes gcc binutils libudev-dev
+
+SRC="/usr/src/udev-watchdog.c"
+DST="/usr/local/sbin/udev-watchdog"
+
+gcc -o "$DST" "$SRC" -static -Wall -ludev 
+strip --strip-all "$DST"
+
+apt-get --yes purge libudev-dev

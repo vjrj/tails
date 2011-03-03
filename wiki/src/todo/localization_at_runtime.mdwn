@@ -19,15 +19,14 @@ Implementation
   - done for i386 (ugly hack, [[!taglink todo/wait]] for live-helper
     upstream to provide a nice gfxboot-based language choosing menu)
   - [[!taglink todo/code]] a similar hack for yaboot on powerpc
-* [[!taglink todo/translate]] the nautilus-wipe menu entry, in
-  `chroot_local-includes/usr/local/bin/autostart-localize`
+  - see [[todo/boot_menu]]
+* [[!taglink todo/translate]] the Nautilus script menu entries in
+  `config/chroot_local-includes/lib/live/config/202-localize`
 * [[!taglink todo/translate]] the desktop launchers in
-  `config/chroot_local-includes/home/amnesia/Desktop/*.desktop`
+  `config/chroot_local-includes/etc/skel/Desktop/*.desktop`
 * [[!taglink todo/research]] how to properly support Chinese and
-  Russian languages; others? have a look to tasksel's
-  chinese-s-desktop, arabic-desktop, and so on for fonts, input
-  systems, etc.; also ask Christian Perrier (bubulle on IRC) for
-  pointers.
+  Russian languages (see the *Resources* section bellow); others?
+  ([[!taglink todo/easy]])
 * enable supported languages to be [[translated|tags/todo/translate]]
   in the wiki, once we get to reach trusted translators/reviewers; we
   don't want to ship misleading instructions.
@@ -40,8 +39,35 @@ Miscellaneous ideas
   (needs discussion, this breaks the "no persistence unless
   explicitly told" requirement): [[!taglink todo/discuss]]
 
-Ressources
-==========
+Resources
+=========
 
+- debian-i18n mailing list
+- have a look to tasksel's chinese-s-desktop, arabic-desktop, and so
+  on for fonts, input systems, etc.
 - <http://webconverger.org/i18n/> (they don't support CJK as it takes
   100M+)
+- Debian Live's `live-config-staging` repository has a
+  [904-locales-extra](http://live.debian.net/gitweb?p=live-config-staging.git;a=blob;f=scripts/config/904-locales-extra)
+  hook that installs a locale-dependent packages set at boot-time in
+  order to better support the `ja_JP`, `ko_KR` and `zh_CN` locales.
+- a set of font packages that might be relevant:
+ * ttf-unifont - TrueType version of the GNU Unifont (it has most
+   possible glyphs but is ugly => nice fallback font)
+ * ttf-wqy-zenhei - "WenQuanYi Zen Hei" A Hei-Ti Style (sans-serif) Chinese font
+ * ttf-unfonts - Un series Korean TrueType fonts
+ * ttf-sazanami-mincho - Sazanami Mincho Japanese TrueType font
+ * ttf-sazanami-gothic - Sazanami Gothic Japanese TrueType font
+ * ttf-arphic-ukai - AR PL UKai" Chinese Unicode TrueType font collection Kaiti style
+ * ttf-arphic-uming - "AR PL UMing" Chinese Unicode TrueType font collection Mingti style
+ * ttf-kochi-gothic - Kochi Subst Gothic Japanese TrueType font without naga10
+ * ttf-kochi-mincho - Kochi Subst Mincho Japanese TrueType font without naga10
+ * ttf-khmeros - KhmerOS Unicode fonts for the Khmer language of Cambodia
+ * ttf-oriya-fonts - Free TrueType fonts for the Oriya language
+ * ttf-sil-padauk - smart Unicode font for languages in Myanmar
+ * ttf-tmuni - font for Tibetan, Dzongkha and Ladakhi (OpenType Unicode)
+ * ttf-sinhala-lklug - Unicode Sinhala font by Lanka Linux User Grou
+ * ttf-telugu-fonts - Free TrueType fonts for the Telugu language
+ * ttf-kannada-fonts - Free TrueType fonts for the Kannada language
+ * ttf-sil-scheherazade - smart Unicode font for Arabic
+ * ttf-ancient-fonts - Unicode Fonts for Ancient Scripts

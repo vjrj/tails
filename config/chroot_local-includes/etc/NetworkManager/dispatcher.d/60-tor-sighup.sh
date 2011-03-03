@@ -1,12 +1,12 @@
 #! /bin/sh
 
 # Run only when the interface is not "lo":
-if [[ $1 = "lo" ]]; then
+if [ $1 = "lo" ]; then
    exit 0
 fi
 
 # Run whenever an interface gets "up", not otherwise:
-if [[ $2 != "up" ]]; then
+if [ $2 != "up" ]; then
    exit 0
 fi
 
@@ -14,6 +14,11 @@ PIDFILE=/var/run/tor/tor.pid
 
 # Get LIVE_USERNAME
 . /etc/live/config.d/username
+
+# Workaround https://trac.torproject.org/projects/tor/ticket/2355
+if grep -qw bridge /proc/cmdline; then
+    rm -f /var/lib/tor/*
+fi
 
 # We don't start Tor automatically anymore so *this* is the time when
 # it is supposed to start.
@@ -38,4 +43,5 @@ fi
 killall vidalia
 sleep 2 # give lckdo a chance to release the lockfile
 export DISPLAY=':0.0'
+export XAUTHORITY="`echo /var/run/gdm3/auth-for-${LIVE_USERNAME}-*/database`"
 exec /bin/su -c /usr/local/bin/vidalia-wrapper "${LIVE_USERNAME}" &

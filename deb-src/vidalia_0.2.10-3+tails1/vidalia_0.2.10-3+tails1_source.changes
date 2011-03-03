@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sat, 20 Nov 2010 14:08:10 +0100
+Source: vidalia
+Binary: vidalia
+Architecture: source
+Version: 0.2.10-3+tails1
+Distribution: unstable
+Urgency: low
+Maintainer: Vern Sun <s5unty@gmail.com>
+Changed-By: T(A)ILS developers <amnesia@boum.org>
+Description: 
+ vidalia    - controller GUI for Tor
+Changes: 
+ vidalia (0.2.10-3+tails1) unstable; urgency=low
+ .
+   * Removed controls that are useless in T(A)ILS context.
+   * NMU
+Checksums-Sha1: 
+ e69e49e9da9752e4c5ff0de975685a33e851923a 1105 vidalia_0.2.10-3+tails1.dsc
+ b43329ffa3a3a8ae849081919825d07ab5aeb515 30585 vidalia_0.2.10-3+tails1.debian.tar.gz
+Checksums-Sha256: 
+ b09160c23763620c243b5c54f7c2cbae04ba7e8b35d05a471a87fde4fcfadabc 1105 vidalia_0.2.10-3+tails1.dsc
+ c179f3c9339ed0e91253b48a6c8a7de7972e0df38d2fb2b8927e2a0eb7ce4866 30585 vidalia_0.2.10-3+tails1.debian.tar.gz
+Files: 
+ 95d5cc9049ca435068b866f0a8bd3bc6 1105 net extra vidalia_0.2.10-3+tails1.dsc
+ 35b5279a4f926730037cbbf37680f3fc 30585 net extra vidalia_0.2.10-3+tails1.debian.tar.gz

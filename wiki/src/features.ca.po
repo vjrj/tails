@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-10-21 23:15-0600\n"
+"POT-Creation-Date: 2011-02-01 23:11-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"*The (Amnesic) Incognito Live System* ([Live\n"
+"*The Amnesic Incognito Live System* ([Live\n"
 "CD](http://en.wikipedia.org/wiki/Live_CD), [Live\n"
 "USB](http://en.wikipedia.org/wiki/Live_USB)) is aimed at preserving\n"
 "your privacy and anonymity. It can be used on most commonly found\n"
@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "Particularly, The (Amnesic) Incognito Live System guarantees you that:"
+msgid "Particularly, The Amnesic Incognito Live System guarantees you that:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -52,23 +52,26 @@ msgid "Bundled software\n"
 msgstr ""
 
 #. type: Plain text
-msgid "The (Amnesic) Incognito Live System includes, among 2GB of software:"
+msgid "The Amnesic Incognito Live System includes, among 2GB of software:"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* [Tor](https://www.torproject.org) and the\n"
-"  [Vidalia](https://www.torproject.org/vidalia/) graphical frontend\n"
+"  [Vidalia](https://www.torproject.org/projects/vidalia) graphical frontend\n"
 "* [Firefox](http://getfirefox.com) preconfigured with:\n"
 "  - [Torbutton](https://www.torproject.org/torbutton) for anonymity\n"
+"    and protection against evil JavaScript\n"
 "  - [FireGPG](http://getfiregpg.org) for e-mail encryption\n"
-"  - paranoid settings for JavaScript and cookies: disabled by default,\n"
-"    they can be allowed with two mouseclicks on a per-site basis\n"
+"  - all cookies are treated as session cookies by default;\n"
+"    the [CS Lite](https://addons.mozilla.org/fr/firefox/addon/5207/)\n"
+"    extension provides more fine-grained cookie control for those who\n"
+"    need it\n"
 "* [Claws Mail](http://www.claws-mail.org/) e-mail client, with\n"
 "  user-friendly GnuPG support\n"
 "* [OpenOffice.org](http://www.openoffice.org/)\n"
-"* [Gnome](http://www.gnome.org), an intuitive and attractive desktop\n"
+"* [GNOME](http://www.gnome.org), an intuitive and attractive desktop\n"
 "  environment\n"
 "* [Pidgin](http://www.pidgin.im/) preconfigured with\n"
 "  [OTR](http://www.cypherpunks.ca/otr/index.php) for Off-the-Record\n"
@@ -90,12 +93,13 @@ msgid ""
 "  Sharing](http://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)\n"
 "  using [gfshare](http://www.digital-scurf.org/software/libgfshare)\n"
 "  and [ssss](http://point-at-infinity.org/ssss/)\n"
+"* [Liferea](http://liferea.sourceforge.net/) feed aggregator\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "The full packages list can be found in the [BitTorrent files download "
-"directory](/torrents/files/)."
+"directory](/torrents/files/) (look for files with the `.packages` extension)."
 msgstr ""
 
 #. type: Plain text
@@ -143,7 +147,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[[customization|customize]] (e.g. to add a given missing piece of software) "
-"is relatively easy: one may [[build]] a custom (Amnesic)  Incognito Live "
+"is relatively easy: one may [[build]] a custom Amnesic  Incognito Live "
 "System in about one hour on a modern desktop computer"
 msgstr ""
 
@@ -175,5 +179,5 @@ msgid ""
 "Some of these languages could not be thoroughly tested as we don't speak "
 "every language in the world. If you find issues using one of the supposedly "
 "supported languages, don't hesitate to [[tell us about it|found_a_problem]]. "
-"E.g. T(A)ILS probably lacks some non-Latin fonts or input systems."
+"E.g. Tails probably lacks some non-Latin fonts or input systems."
 msgstr ""

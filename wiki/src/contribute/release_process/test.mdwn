@@ -1,10 +1,39 @@
 [[!toc levels=1]]
 
+# Changes
+
+Keeping an eye on the changes between released versions is one of the
+many safeguards against releasing crap.
+
+## Source
+
+Thanks to Git tags one can easily compare the to-be-released source
+code with previous version's one e.g.:
+
+	git diff 0.6.1..stable
+
+## Result
+
+`wdiff -l` makes it easy to compare the list of bundled packages and
+versions with the one shipped last time e.g.:
+
+	wdiff -l wiki/src/torrents/files/tails-i386-lenny-0.6.1.packages \
+	  tails-i386-lenny-0.7.packages | less
+
+Check the output for:
+
+- new packages that may cause harm or make the images unnecessarily
+  big
+- packages that could be erroneously removed
+- new versions of software we might not have audited yet (including:
+  does the combination of our configuration with software X version
+  Y+1 achieve the same wished results as with software X version Y?)
+
 # Iceweasel
 
 * is web browsing really torified?
- - https://check.torproject.org/
- - http://monip.org/
+ - <https://check.torproject.org/>
+ - <http://monip.org/>
 * does the exposed User-Agent match the generic Torbutton's one?
   (connect to a website you can check the access logs for)
 * firegpg: test symmetric encryption/decryption, same for asymmetric
@@ -17,16 +46,21 @@
    connections list
 * Check OTR is working.
 * Check at least IRC and XMPP are working.
+* Check if pidgin doesn't leak to many informations on replying to different
+  CTCP requests:
+  * Start Tails and launch pidgin once done. Connect to an IRC server where you're already on
+  * try to /ctcp <T(A)ILS_account_nick> COMMAND
+  (for a list of commands, see [this page](http://www.wikkedwire.com/irccommands)).
 
 # Tor enforcement
 
 * firewall: is the Tor-enforcement effective?
  - check output of `iptables -L -n`
  - check output of `iptables -t nat -L -n`
- - try connecting to the Internet using a piece of software that
-   obeys neither `$http_proxy`, `$HTTP_PROXY` nor the GNOME proxy
-   settings, *and* is not explicitely torified in T(A)ILS: **FIXME**
-   which one?
+ - try connecting to the Internet after unsetting `$http_proxy` and
+   `$HTTP_PROXY` using a piece of software that does not obey the
+   GNOME proxy settings, *and* is not explicitely torified in Tails:
+   `unset http_proxy ; unset HTTP_PROXY ; wget http://monip.org`
 * firewall: is IPv6 traffic blocked?
  - check output of `ip6tables -L -n`
  - at a place with working IPv6: try connecting to a known-working
@@ -39,11 +73,11 @@
 * are any local hard-disk partitions mounted or used as swap?
   boot on a (possibly virtual) machine that has a cleartext swap
   partition not managed by LVM. This swap partition must not be used
-  by T(A)ILS.
+  by Tails.
 * is a Live system found on a local hard-disk partition used? boot the
   CD/USB stick you are testing on a (possibly virtual) machine that
-  has a T(A)ILS system copied on a cleartext partition not managed by
-  LVM. The CD/USB ramdisk must use the T(A)ILS system found on the
+  has a Tails system copied on a cleartext partition not managed by
+  LVM. The CD/USB ramdisk must use the Tails system found on the
   CD/USB, and not the one found on the hard disk.
 
 # Claws
@@ -62,6 +96,9 @@
 
 # GnuPG
 
+Those tests shall be run using GnuPG on the command-line, the
+Seahorse GUI and FireGPG:
+
 * key search/receive: torified? going to the configured hkps://
   server?
  - `gpg --search` tells what server it is connecting to
@@ -76,9 +113,13 @@
 
 # HTP
 
-* disconnect the network cable, set the time to an obviously
-  wrong one, connect the network cable => the date should be corrected
-  and Tor/Vidalia should start correctly.
+* disconnect the network cable, set the time to an obviously wrong one
+  (`date --set=12/31/99 23:13:48`), connect the network cable => the
+  date should be corrected and Tor/Vidalia should start correctly.
+  (Note: this currently does not work in the stable branch as HTP is
+  not re-done once it has been attempted once.)
+
+# [[smem on shutdown]]
 
 # Misc
 

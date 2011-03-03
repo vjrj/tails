@@ -11,41 +11,7 @@ the meantime.
 Initial research
 ================
 
-kvkbd
------
-
-* automagically guesses the (localized) keyboard layout from the
-  current X config
-* needs KDE libs
-
-[onBoard](http://launchpad.net/onboard)
--------
-
-* shipped by Ubuntu
-* keyboard layout dynamic learning : 
-  [bug report](https://bugs.launchpad.net/onboard/+bug/65626) ;
-  in squeeze it uses the localized layout
-* there is a notification area icon
-* depends on the Python gconf bindings, that are available in Squeeze
-  (package `python-gconf`) and in Lenny (package `python-gnome2`)
-
-[matchbox-keyboard](http://matchbox-project.org/?p=1)
------------------
-
-* packaged for lenny
-* misses a gnome panel applet/notification area icon, but it shouldn't be a lot to write, as there is one for matchbox panel provided
-* here is a french layout : [[keyboard-fr.xml]]
-
-gok
----
-
-* was not able to get it working
-
-xvbkd
------
-
-* no dynamic layout loading
-* quite ugly
+This was moved to [[todo/virtual_keyboard_in_Debian]].
 
 Implementation
 ==============
@@ -66,12 +32,7 @@ Have custom built packages included in amnesia:
 3. build an onBoard package (arch-independent) and drop it into
    `config/chroot-localpackages` **done**
 4. publish the modifications we made to the Ubuntu source package **done**
- * 0.93.0-0ubuntu3~~amnesia1:
-   [[.diff.gz|onboard_0.93.0-0ubuntu3~~amnesia1.diff.gz]] and
-   [[.dsc|onboard_0.93.0-0ubuntu3~~amnesia1.dsc]]
- * 0.92.0-0ubuntu4~~amnesia1:
-   [[.diff.gz|onboard_0.92.0-0ubuntu4~~amnesia1.diff.gz]] and
-   [[.dsc|onboard_0.92.0-0ubuntu4~~amnesia1.dsc]]
+   in the `deb-src/onboard` directory in Tails Git repository.
 5. add an autostart file **done**
 6. test! **done**
 7. stop installing kvkbd **done**
@@ -79,12 +40,4 @@ Have custom built packages included in amnesia:
 Long-term goal: inclusion in Debian
 -----------------------------------
 
-[[!tag todo/code]]
-
-1. file RFP bugs for `python-virtkey` and `onboard`
-2. wait for these packages to reach Squeeze
-3. ask for Lenny backports
-4. remove our custom packages from `config/chroot-localpackages`, add
-   these packages names to
-   `config/chroot_local-packageslists/tails-common.list` and add suitable
-   APT pining
+See [[todo/virtual_keyboard_in_Debian]].

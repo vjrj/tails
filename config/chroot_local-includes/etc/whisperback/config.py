@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 #
-# T(A)ILS configuration file for Whisperback
+# Tails configuration file for Whisperback
 # ==========================================
 #
 # This is a python script that will be read at startup. Any python
@@ -96,7 +96,7 @@ def mail_prepended_info():
     except subprocess.CalledProcessError:
       amnesia_version = "tails-version returned an error"
     
-    return "T(A)ILS-Version: %s\n" % amnesia_version
+    return "Tails-Version: %s\n" % amnesia_version
 
 # A callback function to get information to append to the email
 # (this information will be encrypted). This is useful to add
@@ -130,12 +130,13 @@ def mail_appended_info():
 
     for debug_file in debug_files:
         debugging_info += "===== content of %s =====\n" % debug_file
+        f = None
         try:
             f = open(debug_file)
             debugging_info += f.read()
         except IOError:
             debugging_info += "%s not found\n" % debug_file
         finally:
-            f.close()
+            if f is not None: f.close()
 
     return debugging_info

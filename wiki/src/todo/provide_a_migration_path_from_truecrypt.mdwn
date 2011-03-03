@@ -1,0 +1,10 @@
+[[!meta title="Provide a migration path from TrueCrypt"]]
+
+TrueCrypt is [[now included|todo/include_truecrypt]] in Tails, but with its
+license and development practices, we would like to provide a migration
+path from TrueCrypt.
+
+Future work:
+
+- [[!taglink todo/research]], implement and possibly document
+  replacement solutions.

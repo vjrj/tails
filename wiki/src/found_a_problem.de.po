@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-09-22 17:07-0600\n"
+"POT-Creation-Date: 2011-01-07 10:08-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,44 +18,53 @@ msgstr ""
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta title=\"Found a problem?\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Probleme?\"]]"
 
 #. type: Content of: <div><div><p>
 msgid ""
-"So you have a problem with <em>T(A)ILS</em>. Well, let's see how to get it "
+"So you have a problem with <em>Tails</em>. Well, let's see how to get it "
 "fixed."
 msgstr ""
+"Anscheinend hast du ein Problem mit <em>Tails</em>. Na, dann lass uns sehen  "
+"wie wir es lösen!"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "To begin with, make sure you are using the latest version, as [[upgrading|"
 "upgrade]] might solve your problem. If it does not, please read on."
 msgstr ""
+"Zuerst solltest du sicher gehen, die neueste Version zu verwenden. [[Ein Upgrade|"
+"upgrade]] könnte dein Problem lösen. Wenn nicht, dann lies bitte weiter."
 
 #. type: Content of: <div><div><div><h1>
 msgid "Found a bug?"
-msgstr ""
+msgstr "Du hast einen Bug entdeckt?"
 
 #. type: Content of: <div><div><div>
 msgid ""
-"If you've found a bug in <em>The (Amnesic) Incognito Live System</em>, "
+"If you've found a bug in <em>The Amnesic Incognito Live System</em>, "
 "please read the [[bug reporting guidelines|bug_reporting]] and post about it "
 "on [[the bugs page|bugs]]."
 msgstr ""
+"Wenn du einen Bug im <em>The Amnesic Incognito Live System</em>, "
+"gefunden hast, dann lies bitte die [[Bugreport-Richtlinien|bug_reporting]] und beschreibe "
+"den von dir entdeckten Fehler auf der  [[Bugreport-Seite|bugs]]."
 
 #. type: Content of: <div><div><div><h1>
 msgid "Need a new feature?"
-msgstr ""
+msgstr "Du wünschst dir ein neues Feature?"
 
 #. type: Content of: <div><div><div>
 msgid ""
-"If you would like to see a new feature in <em>T(A)ILS</em>, [[tell us about "
+"If you would like to see a new feature in <em>Tails</em>, [[tell us about "
 "it!|wishlist]]."
 msgstr ""
+"Wenn du ein bestimmtes Feature in <em>Tails</em> vermisst, dann [[erzähle uns "
+"davon!|wishlist]]."
 
 #. type: Content of: <div><div><h1>
 msgid "Talk"
-msgstr ""
+msgstr "Kommunikation mit dem T(A)LS-Team und Benutzern"
 
 #. type: Content of: <div><div>
 msgid "[[!inline pages=\"talk-users\" raw=\"yes\"]]"
