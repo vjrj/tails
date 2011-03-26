@@ -210,3 +210,7 @@ xfonts-wqy
 
 ### CD burning
 brasero
+
+### Mobile broadband devices support (GSM, 3G...)
+modemmanager
+usb-modeswitch
