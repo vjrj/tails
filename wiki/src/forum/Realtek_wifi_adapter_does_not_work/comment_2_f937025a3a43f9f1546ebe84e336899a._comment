@@ -6,9 +6,11 @@
 RTL8192 and RTL8192se are different hardware, and need different
 firmware and drivers to work.
 
-[[!debbug 609784]] and [[!debbug 590280]] allow tracking progress of
-efforts being made to have Debian support the RTL8192se wireless
-interface. See also the [upstream kernel bug
+Debian bugs
+[#609784](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=609784) and
+[#590280](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=590280)
+allow tracking progress of efforts being made to have Debian support
+the RTL8192se wireless interface. See also the [upstream kernel bug
 report](https://bugzilla.kernel.org/show_bug.cgi?id=29532).
 
 [A Ubuntu
