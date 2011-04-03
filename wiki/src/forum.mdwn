@@ -1,3 +1,5 @@
+[[!meta title="Forum"]]
+
 <div id="page-forum">
 
 <div id="intro">
@@ -11,7 +13,7 @@ easily tracked... and hopefully fixed.
 
 </div>
 
-<h1>Start a new forum thread</h1>
+<h1>Start a new discussion thread</h1>
 
 [[!inline pages="forum/* and !*/Discussion"
 actions=yes rootpage="forum" postformtext="Start a new discussion thread titled:"
