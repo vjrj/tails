@@ -5,7 +5,7 @@
 LOAD_KEXEC=true
 
 # Kernel and initrd image
-KERNEL_IMAGE="/vmlinuz"
+KERNEL_IMAGE="/vmlinux"
 INITRD="/initrd.img"
 
 # If empty, use current /proc/cmdline

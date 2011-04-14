@@ -15,8 +15,8 @@ ma_install_tools ()
 ma_install_modules ()
 {
    for MODULE in $@ ; do
-      for KERNEL in /boot/vmlinuz-* ; do
-	 VERSION="$(basename ${KERNEL} | sed -e 's|vmlinuz-||')"
+      for KERNEL in /boot/vmlinux-* ; do
+	 VERSION="$(basename ${KERNEL} | sed -e 's|vmlinux-||')"
 	 $MA --quiet auto-install ${MODULE} -l ${VERSION}
       done
       $MA clean ${MODULE}
