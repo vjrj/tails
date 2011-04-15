@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "disabling parallel init"
+echo 'CONCURRENCY=none' >> /etc/default/rcS
