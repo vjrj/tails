@@ -2,11 +2,11 @@ Hi all!
 Is it possible to run TAILS as a server?
 Like this:
 
-My PC (DEBIAN). \ 
+	My PC (DEBIAN). \ 
 
-................................----  TAILS -Server --- Internet Router
+	................................----  TAILS -Server --- Internet Router
 
-My Gfs PC (WIN)  /
+	My Gfs PC (WIN)  /
 
 
 
