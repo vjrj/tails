@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 23 Apr 2011 15:28:40 +0200
+Source: squashfs-tools
+Binary: squashfs-tools squashfs-tools-dbg
+Architecture: source i386
+Version: 1:4.2-1~squeeze+tails1
+Distribution: squeeze-backports
+Urgency: low
+Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
+Changed-By: Tails developers <amnesia@boum.org>
+Description: 
+ squashfs-tools - Tool to create and append to squashfs filesystems
+ squashfs-tools-dbg - Tool to create and append to squashfs filesystems (debug)
+Changes: 
+ squashfs-tools (1:4.2-1~squeeze+tails1) squeeze-backports; urgency=low
+ .
+   * NMU
+   * Rebuild for squeeze-backports.
+Checksums-Sha1: 
+ 730310a84ee13862228d1bf8e2bfaef0c34b2c97 1015 squashfs-tools_4.2-1~squeeze+tails1.dsc
+ 818d34cb451d46c4cbf99876e8fcca0211a86802 10188 squashfs-tools_4.2-1~squeeze+tails1.debian.tar.gz
+ 4eb043cd3e1180f454e6e76c81c3ff73803c3b09 138988 squashfs-tools_4.2-1~squeeze+tails1_i386.deb
+ 75bd0f13aa6fdafc68e033b1ce1b7222d753d574 141880 squashfs-tools-dbg_4.2-1~squeeze+tails1_i386.deb
+Checksums-Sha256: 
+ fbd649af6ce29e49c98c581f24e467848eca052f72f529be74d149f8f911bcbc 1015 squashfs-tools_4.2-1~squeeze+tails1.dsc
+ ad703cb7bb6cc7ce871ab1d4853ca3272dc601f34013f33a9cf7cfbda07630a8 10188 squashfs-tools_4.2-1~squeeze+tails1.debian.tar.gz
+ 73a49d538fa6959f22a928f984237085bb341039939b0bd59aeb1390f382627b 138988 squashfs-tools_4.2-1~squeeze+tails1_i386.deb
+ 102c86447234b989613331f5c1464435473e84b939351f2939d6b85c6d13c4b3 141880 squashfs-tools-dbg_4.2-1~squeeze+tails1_i386.deb
+Files: 
+ 20dd7dcf0ae402fbe6f45f6ed31b75b7 1015 kernel optional squashfs-tools_4.2-1~squeeze+tails1.dsc
+ 552eabc929df81bedd458eaba266f0ba 10188 kernel optional squashfs-tools_4.2-1~squeeze+tails1.debian.tar.gz
+ d39459b8b1bd2e3f99f1188166ffb3d8 138988 kernel optional squashfs-tools_4.2-1~squeeze+tails1_i386.deb
+ a01dc0013debcd8208442055275441a0 141880 debug extra squashfs-tools-dbg_4.2-1~squeeze+tails1_i386.deb
