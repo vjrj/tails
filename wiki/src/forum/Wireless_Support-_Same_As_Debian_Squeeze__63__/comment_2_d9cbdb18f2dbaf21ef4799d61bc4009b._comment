@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Question Remains: As Squeeze, As Tails?"
- date="2011-04-28T22:51:49Z"
- content="""
-Thanks for the prompt reply.
-
-My first question remains, however: Is the general rule that if something like a wireless adapter is not currently supported by Debian Squeeze, it (the hardware) also won't be supported by the current release of Tails? (And vice versa)
-"""]]
