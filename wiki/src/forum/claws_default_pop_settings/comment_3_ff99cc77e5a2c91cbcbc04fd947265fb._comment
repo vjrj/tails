@@ -6,14 +6,15 @@
 Hi again. I eventually could agree: if the beast *did* behave as you
 are trying to guess, this setting would need to be changed indeed.
 
-But it does *not*. At least, not in my experienced. Have you actually
-reproduced the described behavior or are you guessing about the \"boils
-down to the same\" thing?
+But it does *not*. At least, not in my experience. Have you actually
+reproduced the described behavior or are you mere guessing about the
+\"comes down to the same\" thing?
 
-I just tested this. Claws Mail did not delete email that was older
-than 7-days from the INBOX on the server. I guess it *would* delete
-*all* email I fetched today *if I run the same Claws Mail
-configuration next week*, which is unlikely and currently not
-supported as there is no [[todo/persistence]] support yet.
+Tired of guessing, I eventually just tested this. Claws Mail did not
+delete email that was older than 7-days from the INBOX on the server.
+I guess it *would* delete *all* email I fetched today *if I run the
+same Claws Mail configuration next week*, which is unlikely and
+currently not supported as there is no [[todo/persistence]] support
+yet.
 
 """]]
