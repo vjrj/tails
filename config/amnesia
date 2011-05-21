@@ -11,7 +11,7 @@
 # sourced by various other scripts.
 
 # Base for the string that will be passed to "lb config --bootappend-live"
-AMNESIA_APPEND="splash vga=788 live-media=removable nopersistent noprompt quiet"
+AMNESIA_APPEND="noswap live-media=removable nopersistent noprompt quiet"
 AMNESIA_APPEND="${AMNESIA_APPEND} video=ofonly"
 
 # Options passed to isohybrid
