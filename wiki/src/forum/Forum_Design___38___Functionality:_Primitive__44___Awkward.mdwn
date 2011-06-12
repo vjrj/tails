@@ -1,10 +1,8 @@
-I am most impressed with the Tails release itself. 
-
-Regarding the forum, however, I find the design, format and functionality to be oddly primitive and awkward. 
+I greatly appreciate Tails but I find the design, format and functionality of this *forum* oddly primitive and awkward. 
 
 First and foremost, it is quite difficult to follow a thread and see when new replies have been posted. Not only do new replies not cause threads to bump to the top (as they do in just about every other forum I've seen) but the date in the "Updated" field does not actually update when a new reply is made. 
 
-It is hard to imagine that this hasn't caused at least some people to miss replies to their posts.  
+It is hard to imagine that this hasn't caused people to miss replies to their posts or other new posts in threads they were trying to follow.  
 
 Some other issues:
 
@@ -17,6 +15,10 @@ Then, under the box for entering the text of a *new* post that will *start* a ne
 "Optional comment about this *change*:" 
  
 2.) It appears as if *anyone* can remove *any* post (even those of other's)
+
+I just tested this by adding a paragraph in brackets at the end of the original post at https://tails.boum.org/forum/openvpn_support/
+
+Presumably, this is the same for *removing* posts as well, but for obvious reasons, I did not test that.
 
 3.) There is no way to tell which posts are from a Tails *developer* or a *moderator*/*administrator* of the forum. 
 
