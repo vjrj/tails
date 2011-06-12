@@ -1,0 +1,9 @@
+When I boot-up Tails, my system clock is set to a time that is *neither* my local time *nor* UTC. 
+
+The synch function does successfully set my clock to my local time but I don't understand why clock always get set to this odd, seemingly random time zone each and every time I boot.  
+
+Most of the many other live CDs I've tried default to UTC at boot. (Some may have even synched with the actual local time as set in my BIOS)
+
+I also don't understand the need for synching to a user's *local* time in order to connect to Tor. I would think that defaulting to would *UTC* afford greater anonymity. 
+
+What about even allowing a user to spoof their time zone, i.e., use a different time zone than the one they are actually in?
