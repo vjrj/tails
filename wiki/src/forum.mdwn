@@ -27,7 +27,7 @@ Start a new discussion thread titled:<br/>
 </div>
 </form>
 
-<h1>Threads if the forum</h1>
+<h1>Threads in the forum</h1>
 
 [[!inline pages="forum/* and !*/Discussion"
 show="0" archive="yes" template="forumpage" feeds="no" sort="mtime"]]
