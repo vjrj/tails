@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Both signatures were valid."
+ date="2011-06-27T16:28:57Z"
+ content="""
+Both signatures were valid. They appeared to be different because during the release process they were created at different times, so they were not strictly speaking the same signature.
+
+Now that has been fixed and the signature on the website has been made consistent with the one in the torrent file.
+
+Thank you for being so vigilant!
+
+"""]]

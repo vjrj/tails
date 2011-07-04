@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Security through obscurity?"
+ date="2011-06-24T23:53:22Z"
+ content="""
+\"While the main source is open the end nodes would be closed source and ONLY those version (which generate a unique ID/Key) can act as an end node.\"
+
+I can see many people not liking the \"closed source\" part.
+
+You say people have to trust someone, but why trust you and your closed source code? 
+
+You will generate trust by opening up the code. If you want to be trusted you have to be open...
+
+
+"""]]
