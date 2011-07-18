@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-07-18T18:49:16Z"
+ content="""
+Thank you for the quick reply!
+
+I have the files in the right locations now, and have given them chmod +X permisions. How do I tell the kernel to call tails-kexec on shutdown? Right now it just shutsdown with out doing anything. Do I modify the reboot and poweroff scripts to call for it? Or do I modify the runlevel to call for it?
+"""]]
