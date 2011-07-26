@@ -17,23 +17,19 @@ $RUN_LB_CONFIG \
    --apt-recommends false \
    --backports true \
    --binary-images iso-hybrid \
-   --binary-indices false \
+   --apt-indices false \
    --checksums none \
    --isohybrid-options "$AMNESIA_ISOHYBRID_OPTS" \
    --bootappend-live "${AMNESIA_APPEND}" \
    --bootstrap "cdebootstrap" \
-   --archive-areas "main contrib non-free" \
+   --parent-archive-areas "main contrib non-free" \
    --includes none \
-   --initramfs-compression=lzma \
-   --iso-application="The Amnesic Incognito Live System" \
-   --iso-publisher="https://tails.boum.org/" \
-   --iso-volume="TAILS ${AMNESIA_FULL_VERSION}" \
+   --initramfs-compression lzma \
+   --iso-application "The Amnesic Incognito Live System" \
+   --iso-publisher "https://tails.boum.org/" \
+   --iso-volume "TAILS ${AMNESIA_FULL_VERSION}" \
    --memtest none \
-   --packages-lists="standard" \
-   --syslinux-menu vesamenu \
-   --syslinux-splash data/splash.png \
-   --syslinux-timeout 4 \
-   --initramfs=live-boot \
+   --initramfs live-boot \
    ${@}
 
 # build i386 images on amd64 as well, include only 686 kernel
