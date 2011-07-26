@@ -18,6 +18,10 @@ Package: macchanger
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
+Package: syslinux-themes-debian-squeeze
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
 Package: virtualbox-guest-dkms
 Pin: origin backports.debian.org
 Pin-Priority: 999
