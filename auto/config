@@ -24,6 +24,7 @@ $RUN_LB_CONFIG \
    --bootstrap "cdebootstrap" \
    --archive-areas "main contrib non-free" \
    --includes none \
+   --initramfs-compression=lzma \
    --iso-application="The Amnesic Incognito Live System" \
    --iso-publisher="https://tails.boum.org/" \
    --iso-volume="TAILS ${AMNESIA_FULL_VERSION}" \
