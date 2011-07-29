@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-07-29T01:40:26Z"
+ content="""
+Thanks for kind reply.
+
+commenting on using sudo for deletion, the file keeps coming back each time TAILS starts.
+
+How to permanently delete the file, like from live cd image ?
+
+Also, I can see same file in one other location other than usr/local/bin. Is deleting the file from that location only sufficient to prevent it from running?
+
+If not, what should be done?
+"""]]
