@@ -2,8 +2,6 @@
 
 <div id="page-forum">
 
-<div id="intro">
-
 <p>
 The [[forum]] is open for discussions that <strong>do not</strong> belong to bugs,
 feature requests and the like. Such fauna should rather be submitted
@@ -11,12 +9,27 @@ on [[the dedicated page|found_a_problem]], where it can be more
 easily tracked... and hopefully fixed.
 </p>
 
-</div>
+<p>The best way to follow the forum activity is to subscribe to the RSS feed of
+new posts and comments with your favourite feed reader:</p>
+
+[[!inline pages="forum/* or comment(forum/*)" feedonly="yes" show="25"]]
 
 <h1>Start a new discussion thread</h1>
 
+<form  action="/ikiwiki.cgi" method="get">
+<div class="blogform">
+<input type="hidden" name="do" value="blog" />
+<input type="hidden" name="from" value="forum" />
+<input type="hidden" name="subpage" value="1" />
+Start a new discussion thread titled:<br/>
+<input name="title" size="40" />
+<input type="submit" value="OK" />
+</div>
+</form>
+
+<h1>Threads if the forum</h1>
+
 [[!inline pages="forum/* and !*/Discussion"
-actions=yes rootpage="forum" postformtext="Start a new discussion thread titled:"
-show=0 archive=yes template="forumpage"]]
+show="0" archive="yes" template="forumpage" feeds="no" sort="mtime"]]
 
 </div>
