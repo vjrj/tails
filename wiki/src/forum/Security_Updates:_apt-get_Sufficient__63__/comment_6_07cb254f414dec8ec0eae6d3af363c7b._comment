@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Backup and restore apt archives"
+ date="2011-08-17T04:31:51Z"
+ content="""
+(Last two comments indicate no consesus from Anonymous.) 
+
+It is possible to backup the apt archive and lists: 
+
+sudo cp --preserve -v /var/cache/apt/archive/*.deb /media/[mount point]/debian_apt_archive
+
+sudo cp --preserve -vr /var/lib/apt/lists /media/[mount point]/debian_lists
+
+sudo rm -v /media/[mount point]/debian_lists/lock
+
+Restore the apt archive and lists:
+
+sudo cp --prserve -v /media/[mount point]/debian_apt_archive/*.deb /var/cache/apt/archive/
+
+sudo cp --preserve -vr /media/[mount point]/debian_lists/lists /var/lib/apt/ 
+
+(If you don't have enough RAM, apt-offline may allow you to use a local repository.)
+
+Does this open new vulnerablities?
+
+Using this technique are the list files verified by a key on the CD?
+
+Are the apt archives verified by the hashes in the \"lists\" files? Which one's are used? (It seems like it goes too fast to use all the hashes in the \"lists\" files.)
+"""]]
