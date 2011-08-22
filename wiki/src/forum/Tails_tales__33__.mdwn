@@ -6,6 +6,6 @@ I wrote the above earlier today, decided not to post, but thought then I'd maybe
 
 My question anyway:
 
-1) Initially when using Tor my Internet connection was a reliable 250KB/s, shortly after that though it went down to approx. 25KB/s, occasionally flucuating wildly, even sparodically up to my full broadband speed of 8Mb/s -- do I have a MITM issue here (or what!)?
+1) Initially when using Tor my Internet connection was a reliable 250KB/s, shortly after that though it went down to approx. 25KB/s, occasionally fluctuating wildly, even sparodically up to my full broadband speed of 8Mb/s -- do I have a MITM issue here (or what!)?
 
 2) It looks (it's not easy to be certain) as though I have some sort of data injection problem leading to a memory infection (though at least at the moment very limited in what it can do).  This is routine everytime I boot Tails and install some additional packages, so I don't think dependent on logging into a rogue exit server.  It could be a security hole in a package I have installed (I'll experiment with this), but even so it is hard to see how Tor's encryption could be broken.  Assuming this is network hacking, i.e., if it were, has anyone any idea what might possibly be going on here?
