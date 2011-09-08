@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="reply"
+ date="2011-07-28T22:17:14Z"
+ content="""
+Currently, Tails does not pretend to hide you're using Tails. So the
+distinguishable browsing pattern is a known issue we would like to
+solve on the long run, but not really one we will put that much energy
+in fixing quickly to the detriment of other usecases.
+
+
+Replying to \"Are there any other scripts that run upon connection
+other than tails-security-check?\":  I don't remember others.
+
+Replying to \"I tried to delete tails-security-check but there is no
+valid permission\": try using `sudo`, it's still available.
+
+There currently is no persistence support in Tails, but this is [[on
+the works|todo/persistence]]. Help is welcome.
+
+"""]]

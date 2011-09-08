@@ -1,0 +1,36 @@
+A security enhanced desktop (SED) aims to preserve privacy and anonymity by preventing a computer's operations from being tampered with through direct access to the computer's console (whether in a public space, or by intruders).
+
+SED applications would also include for example, in addition to personal use, locking a console for public use, but also security sensitive situations where access to certain software by multiple users is desirable but the integrity of the machine should remain untainted (e.g., monitoring and running CCTV software).
+
+Features of a SED would include:
+
+* Anti-wireless keyboard logging (AWKL) software - enabling passwords to be entered without the threat of wireless keyboard logging[1] and from VDU TEMPEST[2].  Most solutions to this require extra hardware (card readers, fingerprint readers, etc.), however solutions using no more than a pair of headphones are possible.  (A PAM module for this type of password protection perhaps might be appropriate.)
+
+* The inclusion of CCTV software by default, preferably running with any plugged in cameras on boot.
+
+* The locking down of the desktop so that only menu options for carefully configured/ developed software/ applets etc. can be accessed; the ability to password lock individual windows also could be useful in some situations.
+
+* SELinux (or similar) technology, e.g., limiting login write access to user folders only.
+
+* A much finer grained choice of types of password security to use depending on the security needs: session pins, one time passwords, etc. with automatically generated passwords, verification codes, etc. sent to a printer, using SMS to a mobile 'phone, etc.
+
+* A password store in the default install, offline but also extending to online, protected with AWKL technologies (this is about as safe as it gets at the moment I think!) - set up for users to log into on boot (PGP/GPG currently requires a learning curve and configuration; e.g., if PGP/GPG were to be preconfigured for users to use as a password store users could then be gradually introduced from that point to more advanced aspects of identity management - keychains, etc.).
+
+* Locking down of the browser to stop any kind of executable from being downloaded and from running, and preventing reconfiguration of the browser settings.
+
+* Default cloud backup of emails, documents, etc. to an upload only repository that files cannot be deleted from, and with rigorous security procedures for accessing.  (Should be used only as a last resort and means of verifying the integrity of a working repository.)
+
+* A SED desktop should have available TEMPEST hardware for when needed.
+
+* A SED desktop should be desktop ready to use secure communications hardware (secure faxing etc.).
+
+* A SED desktop should integrate as a Home Security console and have available the necessary hardware (i.e., alarm systems, etc.).
+
+* A SED desktop would educate the user in personal computer security (passwords, procedures for accessing an admin. login, mental health, etc., and the necessary k&u otherwise; most local thieves in my own experience prefer to hack a person's computer by intrusion and through gaining direct access to the keyboard - a MITM attack takes considerably more skill and is probably outside of the average local thieve's skill range -- most people's homes are secure only for opportunistic crime, and so a secure computer is a necessity in this context, a home computer can be quite a booty for a thief).
+
+[1] Ref. <https://secure.wikimedia.org/wikipedia/en/wiki/Computer_keyboard#Keystroke_logging><br />
+[2] Ref. <https://secure.wikimedia.org/wikipedia/en/wiki/TEMPEST>
+
+It would be interesting to see how the above measures up with current officially drawn up computer security standards (what have I missed out?).
+
+As a final note.  It is for ourselves that there is a need for a security enhanced desktop, the resources could otherwise be put towards natural risks that we have no control over (the only real risks we have, the rest we create for ourselves) and enhancing our lives otherwise (adding some enjoyment to our lives).  If the '**Why**' of ourselves is 'chemistry, a dance with time into infinity' (a natural regenerative system amongst the permutations of the fundamental laws of chemical reactions? the physicists I think are looking into the nature and why of matter itself!), If the '**What**' of ourselves is happiness, the joy in our lives (if you are not sure here can I suggest looking at the science (and philosophy) of happiness, it's still a young science so it takes a some rummaging around, but the answer is t/here I think - certain things add joy and happiness to our lives, and for good reason as well - we have genetically evolved this way: a feeling of fear ensures our survival in the face of hazards, however the feeling of happiness guides our behaviour in more general contexts towards those activities which have ensured the success of our species over the past millenia and up to the present day (so if our role and purpose in the scheme of things is happiness, no more, no less, as simple as that, please do not take away from the joy in our lives!)), As to the '**How**' of ourselves, the ingredients are there, Life's Menu is up to us; I completed a poem recently, titled 'Mountains in the Mist' (this was what I was looking at at the time), it has only one line: '*One day, when we understand ourselves,* ' - it is up to you to say, following the trailing comma, what life will be like one day when we understand the things about ourselves that we currently do not.  So sleep well, dream of good and great things, and use Clay Shirky's cognitive surplus to add some joy and happiness to Life's Menu and the lives of people - they, and you, only have one.
