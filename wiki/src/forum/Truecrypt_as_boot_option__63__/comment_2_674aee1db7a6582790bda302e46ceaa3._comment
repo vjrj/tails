@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-09-13T18:29:26Z"
+ content="""
+I assume you are looking to hack the iso image you download here to enable truecrypt on start. Here is how:
+
+1) Unless you are running one, get yourself a linux distro. I use Ubuntu.
+
+2) Download and compile ISO Master source from here: http://www.littlesvr.ca/isomaster/. Other ISO editing tools might work, I used this one. There is a paid-for windows version with an installer there as well if you care. 
+
+3) Run it and open the tails iso
+
+4) in the bottom panel go to /isolinux folder
+
+5) Highlight \"live.cfg\"
+
+6) Click \"Extract\" button
+
+7) Locate the extracted file and modify it by adding truecrypt to the english menu line (or other menu if you use different language).
+
+8) Click \"Remove\" to delete old live from the iso
+
+9) Make sure your modified \"live.cfg\" is highlighted in the top panel and click \"Add\". This should place your changed file on the ISO image
+
+10) Use \"Save as\" menu to save the changed image and use that image to run tails.
+
+FYI: when those @#$@ tails developers decide to exclude truecrypt from the ISO, you can use the same method to place truecrypt binaries on the ISO. I normally used \"/live\" folder that is available once you start it. It is available from the command line after start as /live/image/live/truecrypt if you do this.
+
+
+"""]]
