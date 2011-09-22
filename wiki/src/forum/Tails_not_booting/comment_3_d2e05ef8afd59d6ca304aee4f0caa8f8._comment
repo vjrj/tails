@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-09-22T15:11:54Z"
+ content="""
+For Tails 0.8, here an excerpt from my menu.lst
+
+title TAILS 0.8
+find --set-root /debian/live/vmlinuz
+kernel /debian/live/vmlinuz boot=live live-media-path=/debian/live config noswap nopersistent noprompt quiet timezone=America/Chicago nouveau.modeset=0 vga=0x317
+initrd /debian/live/initrd.img
+boot
+"""]]
