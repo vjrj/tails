@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-22T20:16:16Z"
+ content="""
+Using the Ubuntu startup disk creator is not a supported way of installing Tails to a USB drive. Please follow [[our instructions|doc/installing_onto_a_usb_stick/linux/]].
+"""]]
