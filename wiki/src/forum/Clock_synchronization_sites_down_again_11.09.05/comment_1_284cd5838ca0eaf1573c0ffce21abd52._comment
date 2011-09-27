@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-27T19:41:24Z"
+ content="""
+Experienced this througout today (2011-09-27) - but note I was also getting \"cannot be authenticated\" messages installing from testing.  Not ideal but manually setting the date/time does get Tor back up and running.
+"""]]
