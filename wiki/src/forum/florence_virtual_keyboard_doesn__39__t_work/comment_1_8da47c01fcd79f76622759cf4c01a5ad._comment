@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-23T08:23:15Z"
+ content="""
+Can you give exact steps to reproduce this, in particular which language you chose at boot? Also, this is a [[bug|bugs]], which doesn't belong to the forum.
+"""]]
