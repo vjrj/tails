@@ -4,7 +4,7 @@
  subject="Not that soon"
  date="2011-10-15T16:50:16Z"
  content="""
-See [[todo/stop_using_polipo]].
+See [[todo/stop_using_polipo_in_iceweasel]].
 
 Privoxy: probably never. Mostly impossible to ship in an amnesic Live system due to its need for customization.
 
