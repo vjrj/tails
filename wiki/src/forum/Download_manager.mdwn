@@ -1,0 +1,7 @@
+Hi
+
+Iceweasel in tails 0.8 seems to be incapable of resuming incomplete downloads.  What download manager should I use to rectify this?
+
+Anything wrong with installing the DownLoadThemAll add-on for example?
+
+What about using wget from the commandline (I think that can resume)?

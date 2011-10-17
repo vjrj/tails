@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tom"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-26T17:39:30Z"
+ content="""
+I use the intended for Live CD .iso file from an 8GB USB Flash Drive (I am looking forward to a TAILS persistence scheme for USB Flash drives).
+
+Just erase the previous contents (if any) or use the Disk Utility software to reformat the USB device, and then issue the following command in the directory containing the .iso file where x is the last full device name letter (not a partition number) of the USB Flash drive:
+
+    dd if=tails-i386-0.8.iso of=/dev/sdx
+
+You should use the Disk Utility software, fdisk -l (as root), or mount command to find the device name of the USB Flash drive once it is plugged into the USB socket on your computer.  Note: remember to set your BIOS to boot USB first in the boot order.
+
+This approach may cause some utility software (scripts) to complain that the USB device is not partitioned, but it still boots nicely.
+"""]]

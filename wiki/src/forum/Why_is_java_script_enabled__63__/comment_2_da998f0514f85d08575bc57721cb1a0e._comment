@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-10T12:12:14Z"
+ content="""
+To my knowledge Torbutton prevents all known JavaScript attacks, so this shouldn't be an issue. However it certainly may be even safer to disable JavaScript completely, but doing so would effectively render most of the web unusable. Usability and security is almost always opposed, and there's rarely a free lunch. We just try to find the best possible compromise.
+"""]]
