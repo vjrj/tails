@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="TAILS NDIS WRAPPER"
+ date="2011-10-01T15:55:22Z"
+ content="""
+Please can someone show me how to implement NDISWARPPER in Tails so I can use my WIFI adaper which only come with windows drivers? 
+
+Lubuntu 10.04 comes with a gui utility in the menu that does everything for you. 
+
+All you have to do is point to the windows drivers and it loads up your wifi interface.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Behaving as designed"
+ date="2011-10-13T18:21:03Z"
+ content="""
+Hello. TAILS is acting as designed - not to leave any trace on the hard drive so that no data leaks. Therefore, no data is ever saved, including any passwords and things like that.
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-22T20:19:11Z"
+ content="""
+[[Optional MAC changing|todo/macchanger]] is in the works. For a more general discussion (which sipells some misconceptions about MAC addresses, see [[this thread|forum/macchanger]].
+"""]]
