@@ -1,3 +1,5 @@
+[[!meta title="Design: specification and implementation"]]
+
 [[!toc levels=3]]
 
 # 1 Introduction
@@ -458,8 +460,12 @@ leak about the user, the applications used and the system settings.
 
 #### 2.6.3.3 Document production applications
 
-At least the following media and text production tasks MUST be
-possible using software shipped by the PELD:
+A great deal of communication over the Internet is done via the
+distribution of different types of commonly used media and document
+formats, so the PELD MUST contain the basic facilities for creating
+and editing such formats. More specifically, at least the following
+media and text production tasks MUST be possible using software
+shipped by the PELD:
 
 - **Word processing**
 - **Bitmap and vector graphics**
@@ -467,7 +473,7 @@ possible using software shipped by the PELD:
 - **Desktop publishing**
 - **Printing and scanning**
 
-Other RECOMMENDED tools include:
+Other RECOMMENDED media and text manipulation tools include:
 
 - **Video editor**
 - **Spreadsheet**
@@ -797,7 +803,7 @@ application is internationalized.
 Users can send feedback in several ways to Tails developers. A [[bug
 tracker|/bugs]] and a [[forum|/forum]] are available on the website.
 Users can also send email to the private [developers mailing
-list](amnesia@boum.org). A dedicated application called *WhisperBack*
+list](tails@boum.org). A dedicated application called *WhisperBack*
 is also available in every running Tails copy. WhisperBack allows
 users to send anonymous or pseudonymous feedback via OpenPGP-encrypted
 email. It is configured in Tails to use a Tor hidden service run by
@@ -953,16 +959,19 @@ stored there), history is disabled (just in case) and many other
 things. It is also setup not to automatically check for updates of its
 installed extensions. Java support is disabled.
 
-Iceweasel is shipped with some extensions to help users manage
-their browsing experience. The
-[CS Lite](https://addons.mozilla.org/fr/firefox/addon/5207/)
-extension treats all cookies as session cookies by default, and
-provides more fine-grained cookie control for users who need it. This
-prevents the known leak of browsing informations cookies can lead to.
-The [Adblock plus](https://addons.mozilla.org/fr/firefox/addon/1865/)
-extension protects against many tracking possibilities by
-removing most ads. The [FireGPG](http://getfiregpg.org/) plugin allows
-users to use GnuPG inside websites such as webmails.
+Iceweasel is shipped with some extensions to help users manage their
+browsing experience. The Torbutton settings treat all cookies as
+session cookies by default; the [CS
+Lite](https://addons.mozilla.org/fr/firefox/addon/5207/)
+(until Tails 0.8) (PENDING-FOR-0.9 [Cookie
+Monster](https://addons.mozilla.org/en-US/firefox/addon/cookie-monster))
+provides more
+fine-grained cookie control for users who need it. This prevents the
+known leak of browsing informations cookies can lead to. The [Adblock
+plus](https://addons.mozilla.org/fr/firefox/addon/1865/) extension
+protects against many tracking possibilities by removing most ads. The
+[FireGPG](http://getfiregpg.org/) plugin allows users to use GnuPG
+inside websites such as webmails.
 
 Tails ships the [HTTPS
 Everywhere](https://www.eff.org/https-everywhere) extension that
@@ -1016,11 +1025,13 @@ much of user activity by disabling reporting of online/away/typing
 status. MSN protocol support is disabled, to avoid the usage of such a
 privacy flawed and buggy plugin. The Off-the-record plugin is enabled
 to help one-to-one conversations being as private and unrecordable as
-possible. A script generates at each boot a random nick to be used on the
-preconfigured IRC servers, by randomly picking up a firstname from the 2000
-most registered by the U.S. social security administration in the 70s and
-appending it a random number between 0 and 100. Pidgin does not leak any
-informations appart its name when answering to CTCP requests.
+possible. At boot a language confluxer generates a random looking default
+nickname from the 2000 most common U.S. names (according to the U.S. social
+security administration in the 70s), which results in something Englishesque
+sounding. The nickname is further made to look like a typical IRC nickname by
+prefixing it with ^ or _ with probability 0.05, and changing it to leet speak
+with probability 0.05. Pidgin does not leak any informations appart from the
+name when answering to CTCP requests.
 
 - [[!tails_gitweb config/chroot_local-includes/lib/live/config/201-pidgin]]
 - [[!tails_gitweb config/chroot_local-includes/etc/skel/.purple]]
@@ -1028,7 +1039,7 @@ informations appart its name when answering to CTCP requests.
 ### 3.6.16 GnuPG
 
 All GnuPG tools (namely: GPG itself, Seahorse and FireGPG) are
-configured to use the keys.indymedia.org keyserver since:
+configured to use the keys.indymedia.org hidden-service keyserver (`hkp://2eghzlv2wwcq7u7y.onion`) since:
 
 - it is run by privacy-friendly people who go as far as providing a
   Tor hidden service;
