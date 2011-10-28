@@ -1,14 +1,9 @@
-[[!tag todo/discuss]]
-
 Rationale: running a proprietary OS in a virtual machine *inside*
 Tails would be useful by folks who cannot afford doing without their
 prefered Windows-only piece of software but still want to work in a
 relatively secure environment.
 
-# Size matters
+The compressed .deb files (4.0.x) take 20MB.
 
-[[!taglink todo/research]] how much size it would add to the ISO.
-
-To give a hint, this is 15MB compressed .deb files / 50MB uncompressed
-in the chroot filesystem.
-
+Let's [[!taglink todo/wait]] until we get a [[todo/boot_menu]],
+support many languages and go beyond the 700MB limit.

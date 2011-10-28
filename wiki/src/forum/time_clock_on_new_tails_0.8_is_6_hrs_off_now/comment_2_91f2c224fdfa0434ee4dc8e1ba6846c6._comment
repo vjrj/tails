@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="setup time at booting"
+ date="2011-09-23T06:28:46Z"
+ content="""
+when you put CD in your PC and boot Tails/Amnesia, press TAB on keyboard and you will get possibility to change options for booting. in the end of parameters, you will see something like Time:America/Detroit, just delete America/Detroit and write there what you want, I write Europe/Berlin (even I am not in Berlin) and then my clock is as I need. 
+"""]]

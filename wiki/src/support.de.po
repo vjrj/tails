@@ -3,69 +3,65 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-02-01 23:11-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2011-06-12 12:04-0600\n"
+"PO-Revision-Date: 2011-06-13 16:06+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"Language: \n"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta title=\"Support\"]]"
-msgstr ""
-
-#. type: Content of: <div><div><p>
-msgid ""
-"Welcome to Tails support. This is work in progress and far from being "
-"complete yet."
-msgstr ""
-"Willkommen beim  Tails support. Diese Software ist in der Entwicklung "
-"befindlich und noch weit von der Fertigstellung entfernt."
+msgstr "[[!meta title=\"Hilfe & Support\"]]"
 
 #. type: Content of: <div><div><div><h1>
-msgid "Documentation"
-msgstr "Dokumentation"
+msgid "Search the documentation"
+msgstr "Die Dokumentation durchsuchen"
+
+#. type: Content of: <div><div><div><p>
+msgid "It contains:"
+msgstr "Diese enthält:"
 
 #. type: Content of: <div><div><div><ul><li>
-msgid "[[Installing onto a USB stick]]"
-msgstr ""
-"[[Installation auf einem USB-Stick (Englisch)|Installing onto a USB stick]]"
+msgid "general information about what is Tails,"
+msgstr "allgemeine Informationen dazu, was Tails ist,"
 
 #. type: Content of: <div><div><div><ul><li>
-msgid "[[Walkthrough]]"
-msgstr "[[Schritt für Schritt|Walkthrough]]"
+msgid ""
+"information to understand how it can help you and what its limitations are,"
+msgstr "Informationen, womit es Ihnen helfen kann, und worin seine Einschränkungen liegen,"
 
 #. type: Content of: <div><div><div><ul><li>
-msgid "[[Virtualization]]"
-msgstr "[[Virtualisierung|Virtualization]]"
+msgid "how-tos on getting Tails to work,"
+msgstr "how-to-Anleitungen, um Tails zum Laufen zu bringen,"
 
 #. type: Content of: <div><div><div><ul><li>
-msgid "[[TrueCrypt]]"
-msgstr "[[Truecrypt|Truecrypt]]"
+msgid "guides covering typical uses of Tails."
+msgstr "Anleitungen, die die typischen Verwendungszwecke von Tails aufzeigen."
+
+#. type: Content of: <div><div><div><p>
+msgid "[[Visit Tails documentation|doc]]"
+msgstr "[[Die Tails Dokumentation besuchen|doc]]"
 
 #. type: Content of: <div><div><div><h1>
 msgid "Found a problem?"
-msgstr "Haben Sie ein Problem entdeckt?"
+msgstr "Problem gefunden?"
 
 #. type: Content of: <div><div><div>
 msgid ""
-"If you have found a bug in The Amnesic Incognito Live System or would like "
-"to see a new feature in it, have a look to the [[found_a_problem]] pages."
-msgstr ""
-"Wenn Sie einen Fehler im The Amnesic Incognito Live System entdeckt haben "
-"oder um neue Funktionen bitten möchten, dann besuchen Sie die Seite  "
-"[[found_a_problem]].neue Funktionen vorschlagen möchten, dann besuchen Sie "
-"die Seite  [[found_a_problem]]."
+"If you have found a bug in Tails or if you would like to see a new feature "
+"in it, have a look at the [[found_a_problem]] pages."
+msgstr "Wenn Sie einen Fehler in Tails entdeckt haben, oder neue Funktionen vorschlagen möchten, werfen Sie bitte einen Blick in unsere [[Probleme?|found_a_problem]] Seite."
+
 
 #. type: Content of: <div><div><h1>
-msgid "Talk"
-msgstr "Kommunikation mit dem Tails-Team"
+msgid "Get in touch with us"
+msgstr "In Kontakt mit uns treten"
 
 #. type: Content of: <div><div>
 msgid "[[!inline pages=\"talk-users\" raw=\"yes\"]]"

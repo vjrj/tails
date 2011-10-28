@@ -1,0 +1,11 @@
+>The story so far :)  Local crime has me pinned down everywhere I go and everything I do (the delightful town I live in! (or is this just Western civilisation?)); the local constabulary is also as far as I can make out corrupted sufficiently for crime's needs so no help there - knowledge of which may have been my own particular sin), but I am trying to get a secure Internet connection out (I'll deal with any possible vdu TEMPEST attacks later, although I have an initial solution at least for passwords to deal with keyboard TEMPEST - wireless keyboard logging).
+
+>...I have a more or less constant 'speakers against the wall' type harassment problem from local crime (they like to talk to me! or at least just annoy the hell out of you), which started this morning about 9 am - so I have been harassed from 9 am this morning -- this is the UK suburbs can you believe it, crime evidently does a good job maintaining the myth that this type of ugly thing never happens in the sleepy backwater that is the UK, the ruffians all live in the States ;)
+
+I wrote the above earlier today, decided not to post, but thought then I'd maybe reuse the text here :)
+
+My question anyway:
+
+1) Initially when using Tor my Internet connection was a reliable 250KB/s, shortly after that though it went down to approx. 25KB/s, occasionally fluctuating wildly, even sparodically up to my full broadband speed of 8Mb/s -- do I have a MITM issue here (or what!)?
+
+2) It looks (it's not easy to be certain) as though I have some sort of data injection problem leading to a memory infection (though at least at the moment very limited in what it can do).  This is routine everytime I boot Tails and install some additional packages, so I don't think dependent on logging into a rogue exit server.  It could be a security hole in a package I have installed (I'll experiment with this), but even so it is hard to see how Tor's encryption could be broken.  Assuming this is network hacking, i.e., if it were, has anyone any idea what might possibly be going on here?

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-10-03T11:43:38Z"
+ content="""
+# Only install/upgrade software like this if you really know what you're doing!
+
+This includes checking the relevant parts of the Tails documentation and source to see if there are any caveats, workaround etc. that you may break. And even if you think you know what you're, please only do it if it's some how vital for your use case (and make sure to report this to us so we can consider pushing it into the next Tails release). Also, before using your changes for real you should test your changes thoroughly, possibly testing the relevant steps in our [[test suite|contribute/release_process/test/]].
+"""]]

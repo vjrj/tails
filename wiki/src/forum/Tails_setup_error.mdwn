@@ -1,0 +1,10 @@
+So I recently downloaded tails onto my ubuntu system, used terminal to put it on the flash drive, set up my bios to start from the flash drive first, and then plugged it into a windows 7 computer.
+
+It did come to the Debian Setup page and asked me to choose my language.
+
+I selected and then it said loading....
+Problem:
+
+From there about 10-15 errors popped up and then the command just stopped doing anything, the cursor was still moving but there was no activity until i did a hard shutdown. This has happened three times. Any suggestions? is it the .8 or just me?
+
+Thanks 

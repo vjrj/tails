@@ -31,6 +31,13 @@ this system. They might as well trust them to carefully verify and
 sign server keys. A possibility is then to mark our own key as fully
 trusted in the default amnesia user pubring.
 
+> Thinking a bit more about it, I'm quite strongly opposed to do that:
+> it would put the Tails developers' signing key into a "single
+> Certification Authority" role, which I consider to be unhealthy.
+> Trusting the same people and technical infrastructure for software
+> *and* server authentication is a bit too much and would make the
+> whole Monkeysphere idea meaningless, kind of. --intrigeri
+
 Note: due to Tails developers incapacity to carefully check that
 many keys with reliable trust-paths, Tails out-of-the-box
 Monkeysphere support for https will be quite poor. This can be seen as
@@ -55,17 +62,16 @@ See also the `mozilla/security/nss/lib/ckfw/builtins/README` file in
 the `nss` package source tree to learn how to build a `libnssckbi.so`
 with a custom list of builtin CAs.
 
+According to [a blog
+post](http://blog.rupamsunyata.org/2008/06/30/consolation-prize.xhtml),
+`certutil` may be an adequate tool for the task:
+
+        apt-get install libnss3-tools
+        certutil -d $HOME/.mozilla/firefox/$HLAGHLLAGHGAAHLGALHHGHLAGH.default -A -n 'CA Cert Signing Authority - Root CA' -t CT,C,C -i /etc/ssl/certs/root.pem
+
 What does not work is to disable this module for the no-CAs profile
 using:
 
     modutil -dbdir PROFILE_DIR -disable "NSS Internal PKCS #11 Module"
-
-MSVA
-----
-
-msva-perl is not able to start in Tails environment, even providing
-it the IP and port to listen on on the command line:
-
-    msva-perl --host 127.0.0.1 --port 5555
 
 [[!tag todo/discuss todo/research]]
