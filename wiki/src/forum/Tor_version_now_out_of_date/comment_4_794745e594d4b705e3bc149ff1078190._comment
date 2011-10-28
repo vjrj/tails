@@ -4,5 +4,5 @@
  subject="comment 4"
  date="2011-10-28T12:40:32Z"
  content="""
-We don't support updating packages -- as you have experienced, that can cause breakage. Please update Tails instead (current release is 0.8.1, which includes latest Tor as well as many other critical security fixes).
+We don't support updating packages -- as you have experienced, that can cause breakage. Please update Tails instead. We will release an update including the latest Tor release soon.
 """]]
