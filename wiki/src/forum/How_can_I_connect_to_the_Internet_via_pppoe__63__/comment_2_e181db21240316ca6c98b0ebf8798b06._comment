@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-31T20:42:15Z"
+ content="""
+What kind of information is needed? Just doesn't connect to Internet via login/pass, although a cable connection with provider is set (shows internal ip like 10.*.*.25, speed 100 Mbit/s and so on...)
+
+In Windows and some other live cds (like Fedora 12) is everything ok - connects and works just fine!
+
+I tried to make some snapshots via PrintScreen btn, but the system resolved about gnome-paint error or something...
+"""]]
