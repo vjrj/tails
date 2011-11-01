@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-10-26T15:25:29Z"
+ content="""
+Sorry, Tails, but I do not see how it is harmless. Please educate me. If the system establishes a direct (NOT via TOR) connection to the Google DNS server it means that the Google DNS Server is aware of where it came from (again, in case it it was NOT via TOR). If Google know where it came from.... well you got the idea.. pretty easy to identify an initiator of this connection. 
+
+So, how is establishing a direct connection, thus reveling your real IP, from the system that claims to be ANONYMOUS is harmless????????
+"""]]
