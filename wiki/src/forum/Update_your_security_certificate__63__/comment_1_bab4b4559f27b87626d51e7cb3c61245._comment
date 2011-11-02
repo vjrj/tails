@@ -35,6 +35,6 @@ When having to trust a Tails ISO image that you downloaded through this website
 we recommend you to use stronger ways of verifying it that could be independent
 of the HTTPS on this website, see:
 
-- [Verify the ISO image](download#index3h1)
-- [Trusting Tails signing key](doc/trusting_tails_signing_key)
+- [[Verify the ISO image|download#index3h1]]
+- [[Trusting Tails signing key|doc/trusting_tails_signing_key]]
 """]]
