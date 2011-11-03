@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: cannot connect"
+ date="2011-07-18T15:54:40Z"
+ content="""
+Your description is quite missing too much informations to let us guess what the problem might be :
+
+ * What screen remains blank? Do you mean that iceweasel prints a blank page on startup? If so, it's a know bugs and doesn't mean that you are not connected to the internet.
+ * What applets are you talking about?
+ *  Is vidalia confirming that you are not connected to the Tor network?
+"""]]

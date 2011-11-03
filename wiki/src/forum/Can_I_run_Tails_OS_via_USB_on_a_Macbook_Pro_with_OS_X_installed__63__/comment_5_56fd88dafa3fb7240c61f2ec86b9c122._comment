@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-09-12T07:48:48Z"
+ content="""
+Tails does not run on Mac PowerPC because it is a different architecture.
+
+There has been some attempts to make a PowerPC version as you can see on [[our todo item on that issue|todo/powerpc_support]]. But this is far from being a priority and might indeed never been officially released since that would imply having to support two official images instead of one.
+
+"""]]

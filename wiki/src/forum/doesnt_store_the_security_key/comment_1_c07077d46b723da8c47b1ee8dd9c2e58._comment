@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-28T09:29:19Z"
+ content="""
+There are issues with the clock not synchronising which results in Tor not connecting - set the date/time manually with, e.g.:
+
+    date -s '2011-09-28 10:23'
+
+Not sure which key you are referring to otherwise.
+
+"""]]

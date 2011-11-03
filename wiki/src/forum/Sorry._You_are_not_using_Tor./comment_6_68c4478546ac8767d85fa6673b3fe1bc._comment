@@ -1,0 +1,8 @@
+[[!comment format=html
+ ip="127.0.0.1"
+ subject="answer"
+ date="2011-10-18T09:46:47Z"
+ content="""
+when check.torproject doesn't work, try this:<br>
+torstatus.blutmagie.de
+"""]]
