@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-04T15:59:30Z"
+ content="""
+Grub2's loopback support can do this. There's some information about that [[here|todo/usb_install_and_upgrade/#index4h3]], but it's not a supported way of doing this. YMMV.
+"""]]
