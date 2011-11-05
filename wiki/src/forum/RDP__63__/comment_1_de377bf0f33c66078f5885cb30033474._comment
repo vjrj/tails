@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-09T14:28:13Z"
+ content="""
+    apt-get install remmina remmina-plugin-rdp
+
+(Remmina is the remote desktop client blessed by GNOME.)
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-17T11:27:09Z"
+ content="""
+What you want is persistence, which is on our [todo list](https://tails.boum.org/todo/persistence/). In the meanwhile, you can still do it yourself by hand, by using another USB key, create an encrypted partition on it, and save your files on it.
+"""]]

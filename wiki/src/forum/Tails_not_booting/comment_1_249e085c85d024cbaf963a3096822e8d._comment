@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="reply"
+ date="2011-08-04T10:44:00Z"
+ content="""
+One known-working way of booting such an ISO image using GRUB2 is
+documented in \"Grub2's loopback support\" section on
+[[todo/usb_install_and_upgrade]].
+
+We don't officially support this way of booting, so your mileage may vary.
+"""]]

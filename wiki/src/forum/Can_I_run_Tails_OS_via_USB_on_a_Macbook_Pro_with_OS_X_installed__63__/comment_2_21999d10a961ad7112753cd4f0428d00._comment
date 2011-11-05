@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="almost"
+ date="2011-08-04T21:23:49Z"
+ content="""
+That covers booting up, but not loading the usb correctly such that the mac will recognize it as a valid bootable device. That's the problem I'm currently having. I've tried a few different methods without success. Loading it per the instructions on this site while on a windows box does not seem to help.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Missing CACert.org root certificate"
+ date="2011-06-19T22:28:33Z"
+ content="""
+This is probably due to the fact that your distro doesn't ship the cacert.org root certificate, and this can't detect that tails's site certificate has been signed by this certificate authority.
+
+If you want this site to work with SSL, you should then install it, by going to http://www.cacert.org/index.php?id=3 and install one of the root certificate (class 1 PKI, pem format should work) in your firefox.
+"""]]

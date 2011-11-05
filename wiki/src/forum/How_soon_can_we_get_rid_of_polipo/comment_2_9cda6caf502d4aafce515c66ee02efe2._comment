@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-16T08:25:54Z"
+ content="""
+We're planning to stop shipping polipo at some point. Please read [[the corresponding todo item|todo/stop_using_polipo_in_iceweasel]].
+"""]]
