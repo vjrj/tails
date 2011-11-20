@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Download over Tor is a no-no"
+ date="2011-11-15T19:16:18Z"
+ content="""
+Sorry. AFAIK, Tor doesn't allow downloads over 64MB per file. It's a technical limitation of one of the pieces of software that TAILS uses. Looks like it's not fixable that soon, but I may be wrong.
+
+DO NOT be tempted to download through BitTorrent over Tor. It harms the network and can even expose (de-anonymize) you or at least raise some red flags.
+"""]]

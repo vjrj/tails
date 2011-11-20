@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-04T09:02:43Z"
+ content="""
+I could post a link, but would you verify its integrity by checking it's signature? When using apt-get (as in our instructions) the downloaded package is integrity checked automatically. Hence I suggest that you follow our instructions just once to be sure that you get the correct package, and then you copy /var/cache/apt/archives/tor_*.deb to a USB drive.
+
+ 
+"""]]

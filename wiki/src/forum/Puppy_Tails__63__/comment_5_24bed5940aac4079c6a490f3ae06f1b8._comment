@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-11-05T02:43:37Z"
+ content="""
+I am a long-term Puppy user.
+
+Puppy's speed secret is loading the entire OS into memory (on machines with enough memory, typically over 256MB IIRC). This makes it faster than all LiveCD distros out there by a large margin, and faster than most installed OSs I think. Puppy does have some security enhancements such as encrypted \"pupsave\" files (the persistent storage, using old cryptoloop though). The lupu version of Puppy can also install any application in the Ubuntu repository.
+
+Barry Kauler, the project owner, is not particularly interested in security, although he did add the encrypted pupsaves after some badgering from users. It is easy to build a \"puplet\" that is customized for security, and a couple folks have integrated dmcrypt-LUKS for their puplets, I think maybe also for the pupsave. Puppy tends to be \"leading edge\" and \"experimental\" which means releases get out with a fair number of problems, and the developers seem more interested in playing with new toys than fixing bugs. It's a newbie-friendly forum though which makes up for some of the shortcomings.
+"""]]

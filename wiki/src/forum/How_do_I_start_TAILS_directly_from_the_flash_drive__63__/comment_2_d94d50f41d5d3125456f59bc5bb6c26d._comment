@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="You don't &quot;run&quot; it - you boot it!"
+ date="2011-11-17T00:32:02Z"
+ content="""
+Tails isn't a \"mini OS\" which you \"run\" from inside another, so there won't be an \".exe\" microsoft binary... it's a complete OS which you boot (from a USB stick, for example) to temporarily *replace* whatever OS happens to sit on the machine's HDD.
+"""]]
