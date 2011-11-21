@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-11-21T20:45:13Z"
+ content="""
+apt-cache search bluez
+
+bluez being the official linux bluetooth protocol stack.
+
+I must admit when I installed it I did wonder how secure bluetooth was - ultimately I'm not too sure I would rely on something that displays a PIN onscreen or that requires keying in otherwise.
+"""]]
