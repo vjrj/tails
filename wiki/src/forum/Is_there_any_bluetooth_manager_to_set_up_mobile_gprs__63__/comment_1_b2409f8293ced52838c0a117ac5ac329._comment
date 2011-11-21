@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Not really"
+ date="2011-11-21T10:51:19Z"
+ content="""
+After a quick look, it seems to me Tails does not ship the GNOME friendly userspace tools to manage bluetooth. As far as I can remember, we've not thought through nor discussed what it would involve / require to do so, and what kind of risks it may open. That's why I just added a [[todo/support bluetooth?]] page to our TODO list.
+
+"""]]
