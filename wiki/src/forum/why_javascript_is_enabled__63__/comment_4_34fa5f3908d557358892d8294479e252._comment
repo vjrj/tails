@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Not really"
+ date="2011-11-22T08:28:23Z"
+ content="""
+Your assumption is wrong, see [[contribute/design]].
+There's a balance to find between security/privacy/anonymity and *usability*.
+\"More protective\" is not *by principle* better for Tails users.
+You may want to [[read more about Tails|about]] before having any other such expectation about it.
+
+However, you may be happy to [[learn|todo/iceweasel addon - NoScript]] that the next Tails major version is likely to ship NoScript. Turning off JavaScript will then be a two-click task for those who want/need this.
+
+"""]]
