@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-11-22T13:05:28Z"
+ content="""
+In response to Anonymous, I think you are making unnecessary assumptions about Tails maintainers. They are basically amateurs who maintain a list of packages with a few add-ons thrown in, like firewall rules, etc. They are afraid to diverge even a bit from the Debian mothership (can't even compile their own kernel, for instance). Of course, they have various rationalizations for all that, but my point is — you can't expect them to make sound decisions on the dangers of Javascript inclusion, etc. These people are just having fun — feeling important going to developer conferences, supporting forum, mailing lists, IRC, … I say, let them have fun, but don't take the effort too seriously — I don't see any evidence of actual expertise here. Peace.
+"""]]
