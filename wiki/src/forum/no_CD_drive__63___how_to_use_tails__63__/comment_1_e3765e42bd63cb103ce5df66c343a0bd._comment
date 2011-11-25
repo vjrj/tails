@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="USB stick"
+ date="2011-11-25T22:01:36Z"
+ content="""
+USB stick also is not possible!
+
+I have really big hard disk on my computer but nothing else.
+
+I generally start live systems directly from the hard disk using a «test entry» in menu.lst from grub:
+
+[quote]
+title 		Test
+rootnoverify 	(hd0,nn) 
+kernel	 	/test/vmlinuz pmedia=atahd psubdir=test
+initrd 		/test/initrd.img
+[/quote]
+
+where nn is my partition where the files from the iso are in /sdann/test.
+
+I can so start for example the setup CD-ISO from Debian and it goes.
+
+"""]]
