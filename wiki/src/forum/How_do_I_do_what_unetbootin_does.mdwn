@@ -1,0 +1,9 @@
+I want to use a USB with two partitions one 700MB (sdb1) with Tails for booting and then another partition using the rest of the drive (sdb2) that will be encrypted.
+
+I basically want what unetbootin does but with the original tails iso untouched (no  unetbootin bugs or branding)
+
+how is this exactly done? I've tried some guides but I'm getting confused with the documentation on offer.
+
+Thank you. 
+
+Gavin.

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Administrator Account"
+ date="2011-11-03T17:19:30Z"
+ content="""
+I am running it from the cd and it was asking for a password. However I searched for the password and asked if anyone knew it or a work around. I got no answer. Can't access the administrator account without it. I even tried init=/bin/bash at boot to change the password. However nothing seemed to work. While in bash there was no command to start grub and finish booting that would work. 
+"""]]
