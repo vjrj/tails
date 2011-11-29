@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-11-29T00:50:00Z"
+ content="""
+the next issue is the splash screen and boot options. 
+
+for boot options, if there must be any text on screen I think that black text on white background will always look much less suspicious from afar than white text on black background so if there is a choice to be made here I would suggest the former over the latter.
+
+finally my favourite idea of them all. When booting you should be able to make two choices based on perceived threats. If you are concerned about the people occupying other computers in your vicinity I think that the least suspicious option could be to (as suggested before) load a bootsplash that's relevant to the installed operating system (probably XP's dots on the bottom followed by the splash).
+"""]]
