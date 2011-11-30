@@ -3,9 +3,9 @@ Priority: optional
 Homepage: https://tails.boum.org/
 Standards-Version: 3.6.2
 
-Package: gcc-4.5
+Package: gcc-4.6
 Maintainer: Tails developers <amnesia@boum.org>
 Architecture: all
 Description: (Fake) The GNU C compiler
- Work around the fact that linux-headers-3.0.0-1 depends on gcc-4.5,
+ Work around the fact that linux-headers-3.1.0-1 depends on gcc-4.6,
  which is unavailable on Squeeze.
