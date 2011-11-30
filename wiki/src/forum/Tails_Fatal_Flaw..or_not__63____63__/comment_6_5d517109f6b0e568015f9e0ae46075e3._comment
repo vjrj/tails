@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="A few basic facts"
+ date="2011-10-17T14:35:36Z"
+ content="""
+How is allowing transparent proxyfication for applications, that
+should be otherwise using an explicit proxy, an additional level of
+protection?
+
+> Tails does not allow \"transparent proxyfication for applications,
+> that should be otherwise using an explicit proxy\". If an application
+> in Tails is subject to this affirmation of yours, please report a
+> bug.
+>
+> Contrary to what you seem to believe, and base much of your
+> reasonning on, in Tails, transparent firewall-level proxyfication is
+> not done systematically, but only for connections that are not
+> targeted at the loopback interface, that is it's effective for
+> applications that are not explicitly configured to use the Tor /
+> polipo local proxies (some don't support proxies).
+
+> That's why I still dare pretending it's an additional security, in
+> case something goes wrong.
+>
+> Playing with netstat in a Tails system is enough to show that e.g.
+> Iceweasel, wget and Pidgin do not bind to anything but the loopback
+> interface.
+
+"""]]

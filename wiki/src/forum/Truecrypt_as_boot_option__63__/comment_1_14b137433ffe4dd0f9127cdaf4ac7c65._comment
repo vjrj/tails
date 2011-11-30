@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-14T19:56:25Z"
+ content="""
+Your question is missing context to be properly answered. Are you building yourself a customized tails? In that case, you can add the truecrypt option in the \"AMNESIA_APPEND\" variable in config/amnesia.
+"""]]

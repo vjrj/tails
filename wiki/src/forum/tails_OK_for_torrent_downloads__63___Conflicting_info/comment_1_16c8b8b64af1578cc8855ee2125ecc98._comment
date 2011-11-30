@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Tails, Tor and Bittorrent"
+ date="2011-07-07T08:15:12Z"
+ content="""
+The problem with using Bittorrent over Tor is double:
+
+- It's technically hard to do it properly, see: <https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea>.
+
+- It harms the network, see: <https://blog.torproject.org/blog/why-tor-is-slow>. And this will be true whether or not you are using Tails. For this reason we decided not to support Bittorrent in Tails.
+
+"""]]

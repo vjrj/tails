@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-08-24T18:40:39Z"
+ content="""
+thank you for the comments! I'll give it a shot this weekend.
+
+I've just tested ubuntu 11.04 with a live usb, and the touchscreen works out of the box. Although I'm not sure if that means that the driver is free? I guess I can't just see what driver is used, and extract those files from the ubuntu iso and add them to the Tails-iso?
+"""]]

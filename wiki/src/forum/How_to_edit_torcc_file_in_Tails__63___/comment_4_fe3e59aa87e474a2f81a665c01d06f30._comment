@@ -1,0 +1,36 @@
+[[!comment format=mdwn
+ username="Tom"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-09-26T16:47:05Z"
+ content="""
+As a followup, I highlight the following comments (numbered for this post, but starting with a '#\" comment character in the torrc file), and code content to paste it into the end of my torrc file (appending it was easier to explain in my previous post):
+
+How to Speed Up the Tor Network (Reference) at:
+
+http://www.articlesbase.com/internet-articles/how-to-speed-up-the-tor-network-1084630.html
+
+With the torrc config file open, copy and paste the following into the file:
+
+1.Try for at most NUM seconds when building circuits. If the circuit isn't open in that time, give up on it. (Default: 1 minute.):
+
+    CircuitBuildTimeout 5
+
+2.Send a padding cell every N seconds to keep firewalls from closing our connections while Tor is not in use.:
+
+    KeepalivePeriod 60
+
+3.Force Tor to consider whether to build a new circuit every NUM seconds.:
+
+    NewCircuitPeriod 15
+
+4.How many entry guards should we keep at a time?:
+
+    NumEntryGuards 8
+
+Stop and start Tor, this will load the changes you just made to the torrc file.
+The above changes should help speed up your TOR connections a little.
+
+Because I make the changes prior to connecting to the Internet with my router - i.e. the router is turned off, and when I turn the router on after making the torrc and other edits and changes, Tor is started along with Vidalia and NTP such that when all is up and running (successful connection to the Internet), Tor is brought up for the first time in my scenario.
+
+"""]]

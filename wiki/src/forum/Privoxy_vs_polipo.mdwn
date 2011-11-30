@@ -1,0 +1,3 @@
+Why was polipo chosen over privoxy?
+
+I have read that it is slightly faster on slow networks (like tor) but has none of the web page sanitization features of privoxy at least by default.  It also announces itself.

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-10-13T10:05:43Z"
+ content="""
+Changing the time like that (or via the Gnome clock applet) is ok (it might require a restart of Tor, though). A potential problem is that your clock likely will be slightly off, so if your system time is leaked some how that may be used to fingerprint you.
+"""]]

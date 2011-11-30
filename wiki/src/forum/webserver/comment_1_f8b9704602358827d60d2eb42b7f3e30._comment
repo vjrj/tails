@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-07-14T09:41:28Z"
+ content="""
+To take the decision of including or not a software into Tails we are facing the following issues:
+
+- Does it fit in the ISO image. We are trying to keep the ISO image under the size of a CD-R and we're running out of space, so we have to be extra careful when including new stuff.
+- Does it corresponds to the use cases of Tails. Which are basically: work on sensitive documents and use Internet to publish those documents or communicate with others. See our [[design document|contribute/design/#index1h2]] for more details.
+- Are we ready to do a security audit and follow-up for this new software.
+
+In the case of the two software you are proposing:
+
+- Video streaming: including audio and video software would match our use cases since it would allow users to publish audio and video content in real-time. We already thought about that at some point but now I created a dedicated [[TODO item|todo/include_audio_and_video_streaming_software]] for this.
+- Web server: I guess that would fit into the project of doing a server edition of Tails, see [[TODO: server edition|todo/server_edition/]]. Even though that's a more long-term project.
+
+Regarding you switching from Windows to Tails, bare in mind that Tails is not intended to be use as a primary operating system. Particularly because it doesn't allow you to install custom software and so far doesn't support persistency.
+
+"""]]
