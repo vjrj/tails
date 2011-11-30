@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2011-11-24T14:53:45Z"
+ content="""
+Hi anonym, I am actually genuinely surprised that the part about “excessive focus” is an issue. It is not a stab at all (now that Liberté is out of beta, its site has a very strict no-trolling policy), but just a personal impression. When reading the PELD specification (and I think I actually read it on Amnesia site first, and later on in its Tails reincarnation), it struck me as more of a documentation of existing capabilities of specific distribution, with some wishlist features added, than as a design that can form a basis for new distributions (and I am talking about the *Design* section, not *Implementation*). But maybe that impression is wrong, and the reason for that is that the design evolved together with the implementation. But yes, I think that *PELD/Tails* name is more accurate, especially since the specification also has the *Implementation* section.
+"""]]
