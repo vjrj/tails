@@ -1,0 +1,4 @@
+Just upgraded to Tails 0.9 and I'm trying to use an application (Keepass) that I previously was able to use with Tails 0.8.  I have Tails 0.9 in one partition of my USB drive and another partition for applications that I find useful.  
+I've installed Keepass on the second partition and have tried all manner of command-line efforts with chmod to make the keepass.sh file executable.  Each time I chmod the file to be executable the command is executed without any error.  But when I list the file it's still rw only. (With Tails 0.8 I could just click on the keepass.sh shell script from the File Browser and the application would start)
+I've also tried the File Browser -- I select the properties of the file and then open the Permissions tab.  When I check "Allow executing file as program" the box stays checked for a millisecond and then unchecks itself (?!).  
+Any help would be appreciated. 
