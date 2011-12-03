@@ -1,0 +1,1 @@
+My P4 box has dual boot of win 7 and ubuntu, and because of the win 7 there is an added Nvidia card. Tails (Live CD .9) hangs at the display manager because the BIOS was set to AUTO to allow it to divert from the onboard video to the Nvidia. Setting the BIOS to Onboard allowed Tails to boot. FYI.
