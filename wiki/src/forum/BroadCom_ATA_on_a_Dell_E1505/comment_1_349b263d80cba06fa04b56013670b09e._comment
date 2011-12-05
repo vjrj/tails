@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-05T22:19:47Z"
+ content="""
+Tails works fine on a E1505. Make sure your connections are correct. If not broadcasting, select connect to hidden network and be sure the name and password are correct.
+"""]]
