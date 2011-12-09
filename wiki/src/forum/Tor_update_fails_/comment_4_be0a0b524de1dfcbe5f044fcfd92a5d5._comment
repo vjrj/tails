@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="__"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-11-04T01:31:05Z"
+ content="""
+In order to use apt-get you need to be root or you need to switch from $ to #. To do that in live cd please type: sudo -s
+
+That will make you root and you can do the to security update. You can type the entire string of commands instructed by Tails which are actually three different things all at once connected by && and spaces. Or you can type one command at a time. I had to do the \"one at a time\" way because Tor failed to re-start after first trying the \"combo\" update command.
+
+Then type: tor --version 
+to make sure you have the updated tor version. 
+Then type: exit 
+to get you out of root so we don't farkle up anything else.
+
+You also have to exit out of the red crossed out Vidalia onion at the top right and reload it by going to Applications-Internet-Vidalia
+"""]]
