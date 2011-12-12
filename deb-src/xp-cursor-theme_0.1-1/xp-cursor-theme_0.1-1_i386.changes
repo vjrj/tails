@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 20 Oct 2011 17:21:34 +0200
+Source: xp-cursor-theme
+Binary: xp-cursor-theme
+Architecture: source all
+Version: 0.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: anonym <anonym@lavabit.com>
+Changed-By: anonym <anonym@lavabit.com>
+Description: 
+ xp-cursor-theme - Windows XP cursor theme
+Changes: 
+ xp-cursor-theme (0.1-1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1: 
+ 19044f799722c8fea24c67b3e503762622196fc0 1129 xp-cursor-theme_0.1-1.dsc
+ 882d7a10043b81e0411c2c2716afb6d5a54e44b3 9680 xp-cursor-theme_0.1.orig.tar.gz
+ 51470df86c6242320a4ba23b867fe664ce86e9f5 1395 xp-cursor-theme_0.1-1.debian.tar.gz
+ a6411528b21fea12b46fd2275c33c3f87f755a18 4622 xp-cursor-theme_0.1-1_all.deb
+Checksums-Sha256: 
+ b5e65a8e75327bffddd00c31c5475d5f631e12c84a3c44b234767ffb8f648a02 1129 xp-cursor-theme_0.1-1.dsc
+ 491238dacc91e4ddb3371cd306813efb38fab2e9bec2936ffdeeb7678ae8a3dd 9680 xp-cursor-theme_0.1.orig.tar.gz
+ 5bdb875ea3885468243b4fa153241a4cb5e642caeb724accc563f78b0ed294e9 1395 xp-cursor-theme_0.1-1.debian.tar.gz
+ bbc8494a797d4bed19867d24967089caf86e280049001fc14e0d800e8f73b46e 4622 xp-cursor-theme_0.1-1_all.deb
+Files: 
+ 026e40a1c7bc77834986190e2ee874bc 1129 x11 extra xp-cursor-theme_0.1-1.dsc
+ 536000f3b03b407515d160feea646584 9680 x11 extra xp-cursor-theme_0.1.orig.tar.gz
+ d6f18cf3003a2af6f104b44ab98d44d4 1395 x11 extra xp-cursor-theme_0.1-1.debian.tar.gz
+ 41bc8599728fab5229fc27a4e7e2f917 4622 x11 extra xp-cursor-theme_0.1-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk6qeDkACgkQp8EswdDmSVjVawCgn2ob11qgz4RmZshInduk/vgP
+b/4AoNPImnCOrda1eE68emHn2tqNMFn7
+=GO6p
+-----END PGP SIGNATURE-----
