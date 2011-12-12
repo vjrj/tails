@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Torbutton is the key"
+ date="2011-12-12T21:37:23Z"
+ content="""
+Threats against anonymity in a browser go way beyond the usual \"security\" issues. 
+
+For Firefox/Iceweasel, Tor releases the Torbutton extension, and even provide a few patches against the core codebase in order to prevent the most important leaks.
+
+For Chrome, there is no equivalent at the moment.
+"""]]
