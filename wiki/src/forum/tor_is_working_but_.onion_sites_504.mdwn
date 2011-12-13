@@ -1,0 +1,11 @@
+I have just started using tails 0.9. Tor appears connected according to the check tor page and by changing identity I can get a different IP.
+
+However, no .onion sites are working in iceseasel when they work fine via tor2web. The fisrt two times I booted this distro they actually worked ok but since the subsequent 5 times have all had the same problem:
+
+"504 Connect to blahblahblah.onion:80 failed: General SOCKS server failure"
+
+any ideas? I haven't changed any router settings or anything else that could have any effect so i don't understand why its stopped working.
+
+I'm running TAILS from a usb stick installed with extlinux directly from the ISO.
+
+thanks for any help

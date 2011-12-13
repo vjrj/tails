@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-13T17:00:42Z"
+ content="""
+If using Tails in public, a distinct Tails boot splash could attract unwanted attention (and perhaps the Debian Live boot splash already does that?). This will especially be true when we have implemented [[Windows camouflage|todo/windows_theme]] as a protection against suspicious eyes.
+"""]]

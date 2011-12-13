@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-22T13:45:06Z"
+ content="""
+I have no problems accessing the Hidden Wiki on: <http://kpvz7ki2v5agwt35.onion/wiki/index.php/Main_Page>
+
+This may be an issue with the specific hidden service you tried to access. Tor hidden services are not always up, their rendezvous points may be temporarily down, etc, so YMMV.
+"""]]

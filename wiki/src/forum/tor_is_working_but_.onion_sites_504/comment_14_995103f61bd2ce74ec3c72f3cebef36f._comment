@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2011-12-08T03:41:16Z"
+ content="""
+Just experianced the same problem with no .onion sites loading (tor2web would load the same site in an adjacent tab)
+
+I tried every site i could find an address for, nothing would work while tor2web was working fine for most
+
+Unfortunately i can't test it now as it is working fine after restarting.
+
+Watching my router log; i'm also noticing a number of pop3s connections to the same ip over and over. is this normal?
+"""]]

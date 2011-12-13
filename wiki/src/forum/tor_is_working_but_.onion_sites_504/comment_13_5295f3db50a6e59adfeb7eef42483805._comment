@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2011-12-06T20:24:14Z"
+ content="""
+Can all of you that have reported problems please try to make do all of the following tests that applies to you:
+
+* If .onions don't work in Tails 0.9, please try again it and repeat 5 times with reboots in between. Record both successes and failures.
+* If .onions worked in some previous version of Tails, please try it again and repeat 5 times with reboots in between. Record both successes and failures.
+* If .onion worked in TBB or other non-Tails Tor setup, please try again (repeating and rebooting isn't as relevent here so just skip that -- if possible, try on different TBB installs instead). Record both successes and failures.
+
+Do these tests in order, and as fast as you can so the time doesn't change too much (different times of the day can mean different loads on the Tor network and thus different reliability of hidden services). It may even be good to completely repeat the whole test a different times of the day, say morning and evening, for the same reason. 
+
+Whenever a .onion page doesn't load, try refreshing the site until you see
+
+    [Notice] Closing stream for '[scrubbed].onion': hidden service is unavailable (try again later).
+
+immediately after refreshing (when you see this, your Tor client has decided that the hidden service is really down and it won't even retry reaching it again for a long time). Seeing this is the *only* condition for an \".onion failing\" for the above tests.
+
+Then post your results back here. .onions are a bit unreliable, but they should not fail consistently, as you describe. I'm unsure, but maybe bad internet connections can be a factor? Therefore it may be helpful to know which kind of internet connections you have, so please include that as well.
+
+For the record, today I managed to open 30+ different hidden services **concurrently** inside Tails 0.9 without any of the strangeness you reported.
+"""]]
