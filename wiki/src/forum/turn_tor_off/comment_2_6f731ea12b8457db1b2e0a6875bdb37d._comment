@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-12-16T18:05:25Z"
+ content="""
+I'm getting that impression. Tails seems to be locked down so that tor cannot be easily disabled. Isn't tor normally or usually able to be toggled between on and off? So how does one turn off tor in tails?
+"""]]
