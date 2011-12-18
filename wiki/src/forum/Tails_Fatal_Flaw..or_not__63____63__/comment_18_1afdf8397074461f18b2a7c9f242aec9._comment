@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Don't use Opera "
+ date="2011-12-18T11:37:28Z"
+ content="""
+\"If I recall correctly, a notable example of this was Mozilla Thunderbird/Icedove.\"
+
+Another troubling example was/is a bug in Opera that allows the response to a certain malformed request to bypass proxy settings altogether.  A warning should have been emblazoned in six-foot high letters across the Tor website since this allows an obvious anonymity compromise  (it was never even mentioned!).  This is a very old known bug that Opera simply ignored.  I am not sure if it has been fixed or not but I will never use Opera for anyway since this indicates a poor attitude to all security bugs in general. 
+
+"""]]
