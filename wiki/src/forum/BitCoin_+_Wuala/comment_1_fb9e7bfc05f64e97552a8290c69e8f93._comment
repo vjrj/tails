@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Let's see"
+ date="2011-12-20T09:55:56Z"
+ content="""
+BitCoin: see [[todo/include_bitcoin]].
+
+wuala: added to [[todo/persistence]].
+
+encryption: Tails ships GnuPG, cryptkeeper and GNOME disk utility. What are you missing? No idea about what kind of security 7zip offers.
+
+"""]]
