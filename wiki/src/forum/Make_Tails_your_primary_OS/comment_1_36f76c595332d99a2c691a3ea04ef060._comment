@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-21T07:25:14Z"
+ content="""
+You can't install Tails for a reason - it is meant to be a \"clean slate\" every time you use it. If you install it, then it is no longer a clean slate.
+"""]]
