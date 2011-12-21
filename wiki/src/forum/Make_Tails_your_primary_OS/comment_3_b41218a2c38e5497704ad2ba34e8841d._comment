@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-12-21T19:27:51Z"
+ content="""
+Perhaps a solution for you :
+I 'installed' Tails on a SD card, and set my bios to boot on it automatically.
+So :
+
+- it boots on Tails so \"complete anonymity and Tor + i2p + freenet\"
+
+- for \"full disk encryption\", I use a encrypted USB stick aside
+- for bittorent, I don't want to use this over Tor (I don't want to use to much bandwith from Tor, there are some possibilities of desanomysation, its slow)
+
+bonus :
+
+- my usb ports are free.
+
+- SD cards have a read-only switch that can prevent your Tails from being altered.
+"""]]
