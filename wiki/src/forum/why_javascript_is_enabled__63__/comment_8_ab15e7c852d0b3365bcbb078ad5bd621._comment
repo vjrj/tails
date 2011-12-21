@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Block all scripts; allow enabling with a warning"
+ date="2011-12-18T12:04:57Z"
+ content="""
+I agree with those who say javascript (and anything else that can run off a website) should be disabled by default whether that is with NoScript or whatever.  That is the only sane option.
+
+Sites that want javascript enabled usually throw a message about it, don't they? Allow users to enable javascript but throw a warning dialog if they try. 
+
+Meanwhile, users should open the browser settings as disable Javascript as soon as they boot Tails.
+
+
+"""]]

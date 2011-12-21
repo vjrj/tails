@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Possible Solution"
+ date="2011-12-19T21:07:41Z"
+ content="""
+Try running htpdate manually after you get your internet connection:
+
+sudo htpdate -x http://www.microsoft.com/ https://check.torproject.org/
+
+This has fixed my 504 error 3 boots in a row now.
+
+I had tried setting date and time by hand but that didn't work.  htpdate was apparently causing my 504 error somehow.
+"""]]

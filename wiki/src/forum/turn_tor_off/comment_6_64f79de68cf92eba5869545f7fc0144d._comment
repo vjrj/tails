@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Why we may want to disable tor (temporarily)"
+ date="2011-12-18T21:48:01Z"
+ content="""
+Some public access points require that you read some advertisement or aggree to terms before you can start using the network and use Tor and Tails normally. When you first get on the network, all ports are redirected to the public access point web page and you cannot do anything with Tor. But if you could disable Tor, then you could open a browser, do whathever is necessary on the access point web page, close the browser, clean the cache, restart Tor, and browse safely. Having a separate web browser that can (temporarily) bypass Tor would be perfect too.
+"""]]
