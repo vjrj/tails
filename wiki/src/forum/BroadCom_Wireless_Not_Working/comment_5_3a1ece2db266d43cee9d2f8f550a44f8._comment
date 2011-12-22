@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Patience"
+ date="2011-12-22T18:31:56Z"
+ content="""
+> As of 0.9 the broadcom drivers for wireless didn't autoload for my Dell Mini 9. 
+
+I *think* this is a bug we've had fixed in Debian (buggy firmware installer packages). Please try with Tails 0.10 (coming soon!) and report back if it still does not work.
+
+"""]]
