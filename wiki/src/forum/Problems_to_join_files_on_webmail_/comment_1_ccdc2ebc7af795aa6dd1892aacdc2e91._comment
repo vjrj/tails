@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="alanford"
+ date="2011-12-29T14:44:33Z"
+ content="""
+if I understood good, you wanted to upload attachment to some webmail and it failed? 
+which webmail did you use? is it webmail on onion domain? 
+for example, I use roundcube of tormail.net and file upload failed many times but when I used squirrelmail of tormail.net, I succeeded to upload file. 
+onion domains are sometimes hard to load, o simply tor network is not so good sometimes. 
+maybe even administrator of your network can slow tor or block something, I use PCs at university and sometimes I can not visit any onion domain from tails or from windows tor browser bundle, and even bitcoin is very slow (in windows). so, I suppose, admin at university make some shit with firewall. 
+
+so, if you want answer to your question, say what webmail you use, did you try tor from  windows or only from tails, is your PC connected to any network like university network? there can be many reasons why something failed. 
+"""]]
