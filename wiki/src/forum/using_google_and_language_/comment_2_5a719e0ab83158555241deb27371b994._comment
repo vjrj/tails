@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="answer"
+ date="2011-12-29T14:14:06Z"
+ content="""
+if you want google always in english, use this as home page in your browser (in firefox: Tools-Options-General-HomePage): http://www.google.com/ncr
+
+but it will not switch off Google Instant options and similar google stupidities, therefore I use this: https://encrypted.google.com/webhp?complete=0&hl=en
+
+this second example switch off automatic prediction when you type words in search engine. that's something what irritate me, maybe you like Instant On, I like Instant Off. 
+
+I use Gmail and Facebook always from Tor software (tails or windows) and I don't have problem to login to Gmail, sometimes it asks me to confirm my identity but instead to choose phone number I just choose security question, I type answer and then I can use my gmail. it is the same with facebook. so, try to setup security question and answer, rather than to type something more there. 
+"""]]
