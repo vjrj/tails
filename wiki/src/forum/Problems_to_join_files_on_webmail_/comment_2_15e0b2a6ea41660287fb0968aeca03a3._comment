@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="alanford"
+ date="2011-12-29T14:49:47Z"
+ content="""
+I remembered one more thing:
+
+loading of files already attached in webmail can be very slow because of flash or javascript, flash and javascript can be blocked in tor, check it in iceweasel/firefox options (tools-options-content). some webmails demand flash. 
+"""]]
