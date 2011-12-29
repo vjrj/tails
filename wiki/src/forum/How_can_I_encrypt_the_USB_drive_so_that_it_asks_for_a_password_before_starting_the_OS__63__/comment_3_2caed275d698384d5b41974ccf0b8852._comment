@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="alanford"
+ date="2011-12-29T14:21:15Z"
+ content="""
+therefore I wanted to try privatix linux but I didn't succeed to install to usb and even when I tried with cat privatix.iso > /dev/... privatix doesn't recognize automatically DHCP details and when i tried to do it manually. I didn't succeed (I tried to copy info from windows ipconfig/all), so, there is no network and internet connection when you install privatix. and support by author doesn't exist, he never send answer.
+"""]]
