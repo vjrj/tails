@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="No PPP"
+ date="2011-12-29T09:29:01Z"
+ content="""
+If you must establish a PPP connection, your modem being plugged over Ethernet, USB, serial or whatever does not change the problem: this is not supported in Tails yet. You need to use that kind of modems that can be configured to establish the PPP connection itself; you are right about one thing, though: such modems generally are Ethernet ones.
+
+"""]]
