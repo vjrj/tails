@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Tails forum is being worked on."
+ date="2011-12-30T00:38:07Z"
+ content="""
+Hi.
+
+First, I find the \"Tails vs. Liberté\" title to be very unfortunate. Tails is not part of any kind of struggle or competition with Liberté Linux. As already stated elsewhere, we're not here to win or lose anything such as market shares. We've much more exciting stuff to do :)
+
+Second, this forum is about Tails. It's not the right place to start discussions about the new Liberté forum. Instead, discussions about Liberté should happen where the Liberté community lives.
+
+If there are people interested to discuss \"Tails vs. Liberté: whatever stuff\", probably they should get themselves organized and create a new discussion space that suit these needs.
+
+That being said, we do know our current forum sucks. Yeah, it does. That's why we've been working to improve it, and looking for a better alternative. The best way to help improve the Tails forum is to start by having a look to [[where actual work happens|todo/improve_the_forum]].
+
+> Uncensored support forums are important for critical analysis because someone may know a problem and have no other way to communicate with the users and developers
+
+There are many other ways to communicate with Tails developers.
+
+About censorship: this forum was never announced formally as a uncensored one: we often remove spam, our antispam filter often gets dumb and makes mistakes, and we may delete other kinds of posts. However, if Tails users want a \"uncensored\" place to discuss whatever they want, which I understand as a place that would not be controlled by Tails developers, they're very welcome to create this kind of place; I would perfectly understand it; but by definition, this is not something we can setup for others.
+
+"""]]
