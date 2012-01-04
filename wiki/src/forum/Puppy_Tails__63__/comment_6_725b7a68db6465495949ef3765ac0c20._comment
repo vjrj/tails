@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Updating an OS on read-only media"
+ date="2011-12-31T08:45:51Z"
+ content="""
+There is one thing that is interesting about Puppy from a security standpoint; you can save your session to the same CDR that you booted from. Running from read-only media means that only a firmware/BOIS trojan can survive a reboot. But to get security updates on a live cd you usually have to download the entire next version of the iso and burn a new disk. With Puppy you could boot from a CDRW drive, update, save session (without doing anything risky like running a web browser), shutdown, put CD into CDR drive (unwritable), and you are \"bulletproof\".
+
+I tried Puppy maybe a year ago and I could make a custom CD and then boot, change things and save the session (puplet). However when I booted and restored the saved session, it didn't have the customizations I made on the custom CD.
+
+You could also have the security of quick updates on a read-only media, using a Secure Digital card with a read-only switch. (Although I don't know if the read-only switch could be undone through hacking. I believe it is impossible to hack a CDR drive so that it could write.) You update, (shutdown), switch the switch to read-only and boot \"bulletproof\". Liberté Linux is supposed to be able to save sessions and run from a flash card. (Not sure if it will update or run read-only.) Like TAILS it is designed for security and privacy with hardened Gentoo, Tor, etc.
+
+>Barry Kauler, the project owner, is not particularly interested in security,
+
+You could say that. Puppy runs *everything as root*. 
+
+>It is easy to build a \"puplet\" that is customized for security
+
+Does one exist? I recall an attempt at making just one native Puppy app run without root privilege and it wasn't pretty. Try installing grsecurity.
+
+Once you have done all these customizations who will do security updates? Barry releases some updates; will you know which are security updates? Are you gonna adapt all these to your custom version?
+
+TAILS takes advantage of networking effects by collaborating with Debian. Finding security holes is very difficult because you don't know where they might be hiding. It is a lot easier to make software \"work\", than it is to *keep it from working* for advanced exploits.
+
+Puppy does have its own version of Tor Browser. I wouldn't trust it to be updated with any urgency. 
+
+>The lupu version of Puppy can also install any application in the Ubuntu repository.
+
+Try installing *any* application. I couldn't install something to make suspend-to-RAM possible although that is rather advanced. Oddly, it took maybe a hour just to download the package information.
+
+Puppy is the most awesome I have seen in 128 MB. So many quick tiny apps that do almost everything I want. It plays CSS video DVDs, all that naughty stuff... but its security through obscurity. Puppy might be fine so long as exploits are not expecting Linux to be running everything as root.
+"""]]

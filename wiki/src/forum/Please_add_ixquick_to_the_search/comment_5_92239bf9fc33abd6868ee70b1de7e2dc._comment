@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="It works already"
+ date="2011-12-25T11:30:05Z"
+ content="""
+Reliability indeed does count. The \"bypass Tor blocked\" feature is worth it too.
+So I'm personally now convinced we should add ixquick to the list of search engines.
+I'm not convinced it should become the default, though.
+
+> Does Scroogle have any advantage over Ixquick?
+
+In short: it's working already. It's been on the web and working quite
+good for many years. It's been integrated in Tails since
+the beginning.
+
+Its default settings are great for Tails usecase, and there are
+actually no settings but SSL, language, and number of results per
+page, which means the anonymity set is much less split than it is with
+ixquick (in ixquick case, we probably would need to generate a custom
+URL per-language, that would include all default prefs).
+
+Also, the people who run Scroogle don't boast about being the \"most
+private search engine\" with a set of arguments that mostly boil down
+to \"trust us, *we*'re not evil\". ixquick does. I don't like this kind
+of marketing, mostly because it's likely to create a false feeling of
+security in many people's mind.
+
+"""]]
