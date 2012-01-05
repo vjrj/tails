@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="USECASE: Tails-Truecrypt-NAS-Truecrypt-Windows"
+ date="2011-12-27T12:03:59Z"
+ content="""
+I saw a page here about truecrypt about submitting usecase's to be considered.
+
+And what I need is safe and central storage on my NAS, which I can access no matter if I'm using Tails or Windows.
+
+While I find the license issue annoying, I'd find it even more annoying if I couldn't share files between my not-so-safe platform and my safe-platform.
+
+If you can find a comparatively safe and easy alternative to truecrypt (including both password and keyfiles) it'd only be a small annoyance to migrate.
+
+But I haven't found any, and until I am aware of an alternative, I'd say it's better to find an alternative way to distribute truecrypt that'd not conflict with the distributions ideology.
+"""]]

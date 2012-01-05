@@ -1,0 +1,7 @@
+Hi,
+
+The firmware for devices requiring b43legacy is missing. If you try to start the device it emits a 'SIOCSIFFLAGS: No such file or directory' which indicates the fw is not present.
+
+It can easily be installed and configured through apt-get or manually (and the device then works), but this disappears on reboot.
+
+See http://wiki.debian.org/bcm43xx#b43_and_b43legacy

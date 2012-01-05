@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2011-11-24T14:04:22Z"
+ content="""
+We're happy to see that you've corrected the Liberté Linux security page's claims about Tails. You may of course use as harsh words you like, we don't care. That was never the issue, only the correctness of your claims was.
+
+As you point out, \"serious flaw\" isn't a harsh word at all, it's just a claim that needs justification. I think you make a reasonable case, and while I (anonym) can't speak for other Tails developers, I do support dropping non-torified connections instead of redirecting them to Tor. That was in fact a change I was very seriously considering back when I maintained the Incognito LiveCD, although that was just before I dropped that project, and after that it was forgotten :/.
+
+However, here's a quote from the Liberté Linux website's [main page](http://dee.su/liberte) that IMO contains a claim based on your own assumptions: 
+
+> The Tails project has published a design document for Privacy-Enhancing Live Distributions (PELD), outlining desirable features and requirements for distributions with similar purposes (with somewhat excessive focus on current functionality in Tails).
+
+The last parenthesis is not really true, and it just seems like an attempt to make a quick stab at us. I wrote the majority (including the points you criticize) of the PELD specification for The Incognito LiveCD at a time when Tails (or amnesia as it was called initially) didn't exist. In any case, I personally don't see an issue with writing a design document that mimics an actual implementation -- as long as it does its job (specifying the design decisions so others can analyze and criticize it, just like you have) all is good. Besides, I believe most truly \"Tails-specific\" points in the PELD design are denoted as \"SHOULD/RECOMMENDED\" or \"MAY/OPTIONAL\". In fact, Tails isn't implementing some of these points, which further invalidates that parenthesis' claim.
+
+If you're unhappy that \"Privacy-Enhancing Live Distribution\" is too general a name, would you be happier if we do a s/Privacy-Enhancing Live Distribution|PELD/Tails/ on the document?
+"""]]
