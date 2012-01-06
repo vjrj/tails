@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="All AMD64/EM64T processors are compatible with the x86 instruction set"
+ date="2011-12-14T13:13:29Z"
+ content="""
+This should not be a problem. Every processor that implements the AMD64/EM64T instruction set (also called x86_64, or amd64) are compatible with the x86 instruction set. If the image does not boot, the problem lies elsewhere.
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-30T21:05:22Z"
+ content="""
+> one simple question - the current version of tails is 0.9 - so why is the next one coming called 0.1
+
+As you correctly wrote in the subject, the next release will be 0.10, not 0.1. 10 is larger than 9, so 0.10 is larger than 0.9. After all, we're dealing with version numbers here, not real numbers (our previous release, 0.8.1, is quite clearly not a real number).
+
+Why not 1.0? We have not fulfilled all the points required for 1.0 in our [[contribute/roadmap]].
+"""]]
