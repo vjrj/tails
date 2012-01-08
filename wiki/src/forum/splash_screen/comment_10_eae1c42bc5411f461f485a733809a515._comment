@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2011-12-03T02:35:02Z"
+ content="""
+... The colours should be subtle, grey/darkgrey on black background. Also when xconf kicks in and the resolution changes, it will look like the flash video is screwed and busy crashing the browser. During the minute or so this is happening it will just look like you're on the internet using the computer normally, before something \"crashes\" and it finally loads a replica desktop.
+
+
+
+To summarize, if all these ideas were implemented, this is how I would see the whole process:
+
+
+
+1. Arrive at computer, insert cd and usb key
+
+2. Run the screen capture app/script for the chameleon mode/function
+
+3. Reboot, 10-20 seconds unavoidable time for shutdown and then starting the bios before computer can autoboot from the CD
+
+4. depending on your choice
+
+- windows is booting
+- or
+- you are just trying to watch a flash video full screen and it's taking ages to load
+
+5. Tails desktop appears and is indisdinguishable from the original OS.
+
+6. Any suspicion and you can show that the desktop is unresponsive and that apps are crashing by clicking on 'fake' desktop icons and start menu.
+"""]]

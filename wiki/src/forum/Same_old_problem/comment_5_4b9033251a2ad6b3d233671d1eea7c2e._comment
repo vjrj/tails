@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-06T17:59:56Z"
+ content="""
+since 0.9:
+have to manually set system time to GMT.
+have to manually start tor.
+have to manually start vidalia.
+then once connected to net:
+have to manually restart tor.
+
+then and only then does tor access start to work
+and by that time, I get to use tails for about 30 min before it randomly freezes
+
+but it is still worth it in this dystopian world of ours :)
+"""]]

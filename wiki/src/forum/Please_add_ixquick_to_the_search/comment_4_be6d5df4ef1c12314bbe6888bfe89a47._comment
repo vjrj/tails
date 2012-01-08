@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="reliability"
+ date="2011-12-24T19:54:05Z"
+ content="""
+In my experience Ixquick is far more reliable than Scroogle. Scroogle times out all the time. For this reason Ixquick should be included.
+
+I've never seen a Captcha for Scroogle. Google usually runs into Google captcha. This may be a reason to dump Google.
+
+DuckDuckGo is included but it doesn't have Google results. It doesn't seem to have as large an index as Scroogle or Ixquick.
+
+I have a vague memory of being able to access some pages through Ixquick's proxy that I could not otherwise access directly using Tor. Tor exit nodes may be blocked while Ixquick is not.
+
+Does Scroogle have any advantage over Ixquick? 
+
+"""]]

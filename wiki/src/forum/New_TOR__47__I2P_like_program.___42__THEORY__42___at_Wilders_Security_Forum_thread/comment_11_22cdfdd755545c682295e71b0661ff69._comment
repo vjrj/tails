@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="alanford"
+ date="2011-12-29T15:01:14Z"
+ content="""
+something similar to i2p already exist, just it is using only wifi connection (I didn't try if it works): https://en.wikipedia.org/wiki/Netsukuku
+
+Netsukuku is the name of an experimental peer-to-peer routing system, developed by the FreakNet MediaLab (Italian) in 2006, created to build up a distributed network, anonymous and censorship-free, fully independent but not necessarily separated from the Internet, without the support of any server, ISP and no central authority. It does not rely on a backbone router, or on any routing equipment other than normal network interface cards.
+
+"""]]
