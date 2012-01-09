@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-09T15:01:15Z"
+ content="""
+again....
+
+for all with the same idea.... :-) 
+i have a multibiitstick with grub4dos. I make a folder named incognito and put all files from the iso in. that are filesystem.packages ; filesystem.squashfs ; initrd.img and vmlinuz . 
+the menu.lst from grub looks like : 
+title Incognito
+  root (hd0,0)
+  kernel /incognito/vmlinuz live-media-path=/incognito/ toram=filesystem.squashfs lang=us boot=live noeject noprompt keyboard=us
+  initrd /incognito/initrd.img
+
+maybe have anybody a better solution
+
+regards from vietnam, sorry for my bad english
+"""]]
