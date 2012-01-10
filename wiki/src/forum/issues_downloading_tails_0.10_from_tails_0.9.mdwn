@@ -1,0 +1,8 @@
+Alright, I am following a method to work around the fact that in tails 0.9 you can only download 64MB. I want some feedback on this very soon and I'm not having any luck where it was posted originally.
+
+original thread: https://tails.boum.org/forum/WORKAROUND:_Get_downloads_larger_than_64MB./
+
+original post:
+I'm doing that method to download tails 0.10. I'm not that familar with unix commands (or even linux systems) so I ran into some issues. When I enter the sudo vim /etc/polipo/config command, the file appears in the termainal and prompts me with the options of read-only, edit anyway, etc. I press e for edit anyway and change the chunkHighMark value to 700,000,000. How do I save or overwrite the file? I tried :q and :q!
+
+
