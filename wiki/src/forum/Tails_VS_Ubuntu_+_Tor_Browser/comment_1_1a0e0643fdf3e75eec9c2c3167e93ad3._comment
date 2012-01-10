@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Well..."
+ date="2012-01-10T17:45:09Z"
+ content="""
+There's no such thing as an absolute security level one could compare. It all depends on your usecase and threat model.
+
+You may start with the \"General information\" part of our [[documentation|doc]].
+
+In short, though, one main difference between the two technical \"solutions\" you're mentionning, is that Tails is *amnesic*, while Ubuntu isn't.
+
+"""]]
