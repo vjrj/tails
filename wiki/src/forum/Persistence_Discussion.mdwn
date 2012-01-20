@@ -1,0 +1,16 @@
+If we are going to have persistent data we should be able to use different profiles for different needs.
+
+In other words, if I want to use Tails for different purposes, I will log into different profiles each time. Some examples:
+
+**a profile:** In this one, I won't do anything important, just for surfing web. I will install extensions and search plugins for Iceweasel and scripts for Greasemonkey which will speed up my internet experience. And some other stuff to watch videos/listen radio/music kind of.
+
+**b profile:** Here I will do important things about assassination, terrorism, etc. :) There will be important documents on desktop, special programs installed, torchat installed and I will configure Iceweasel for maximum privacy/anonymity.
+
+**c profile:** There will be pr0n stuff :)
+
+**d**..
+...
+
+Ok, not good examples but you got the point. Different applications-files-configurations in each profile. Why should we have all kind of persistent data in just one profile? That doesn't look secure. For using Tails in a more public place we will create and use a profile like "a" and there will be no problem if someone watching you from behind.
+
+And of course all profile data will be encrypted and will ask passwords to use them.
