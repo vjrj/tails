@@ -11,6 +11,6 @@ In other words, if I want to use Tails for different purposes, I will log into d
 **d**..
 ...
 
-Ok, not good examples but you got the point. Different applications-files-configurations in each profile. Why should we have all kind of persistent data in just one profile? That doesn't look secure. For using Tails in a more public place we will create and use a profile like "a" and there will be no problem if someone watching you from behind.
+Ok, not good examples but you got the point. Different applications-files-configurations-bookmarks in each profile. Why should we have all kind of persistent data in just one profile? That doesn't look secure. For using Tails in a more public place we will create and use a profile like "a" and there will be no problem if someone watching you from behind.
 
 And of course all profile data will be encrypted and will ask passwords to use them.
