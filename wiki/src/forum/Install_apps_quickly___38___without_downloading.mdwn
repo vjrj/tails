@@ -1,3 +1,11 @@
+#WARNING (from Tails developers)
+
+The following instructions are **dangerous** in that they advice to
+download and install software coming from untrusted sources, without
+any means of integrity / authenticity verification.
+
+#Original post
+
 Hi all, I recently found an easy way to install all my favorite apps after starting Tails. You don't have to use **"apt-get update"** or **"apt-get install ..."** anymore. But first you need to download all required packages (.deb files) to install the app (main package + dependencies). We will use a script to automatically install the packages. Probably most of you know this but I just found it myself and wanted to share. (I'm a newbie so there could be unnecessary codes-steps on this topic)
 
 #Steps
