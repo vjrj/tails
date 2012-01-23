@@ -32,7 +32,7 @@ It contains Wine, Minitube, GDebi and unrar. Of course with the install.sh and i
 
     https://dl.dropbox.com/u/58384971/deb.zip
 
-Here are some apps ready to add/install. Extract them to your "deb" folder. Please request or send new useful apps, I will upload & add them here. Also I will update all apps after new versions.
+Here are some apps ready to add/install. Extract them to your "deb" folder. Don't forget to add the **"dpkg -i"** code to **"install.sh"** for each folder. Please request or send new useful apps, I will upload & add them here. Also I will update all apps after new versions.
 
 ####Wine 1.2.3 + Gecko (18.6 MB)
 Run Windows applications on Tails.
@@ -49,26 +49,16 @@ Add to install.sh: (Last 3 lines needed to install Gecko)
 Youtube app, without using Flash player.
 
     https://dl.dropbox.com/u/58384971/Minitube.zip
-Add to install.sh:
-
-    dpkg -i /home/amnesia/Desktop/deb/Minitube/*.deb
 
 ####VLC 1.1.13 + Iceweasel Plugin (14.3 MB)
 VLC Media Player. Plugin could be used with Viewtube: [[todo/Flash_support]]
 
     https://dl.dropbox.com/u/58384971/VLC.zip
 
-Add to install.sh:
-
-    dpkg -i /home/amnesia/Desktop/deb/VLC/*.deb
-
 ####GDebi 0.6.4 (1 MB)
 Install deb packages easily with GUI.
 
     https://dl.dropbox.com/u/58384971/GDebi.zip
-Add to install.sh:
-
-    dpkg -i /home/amnesia/Desktop/deb/GDebi/*.deb
 
 ####unrar 3.9.10 (0.1 MB)
 To open rar files with Archive Manager in Tails 0.10. Add it directly to "deb" folder. No need to add code to install.sh.
@@ -79,9 +69,6 @@ To open rar files with Archive Manager in Tails 0.10. Add it directly to "deb" f
 Anonymous messenger using Tor. It will be successfully installed but won't work, it has connection problems with Tails. I hope someone tell us how to configure it.
 
     https://dl.dropbox.com/u/58384971/TorChat.zip
-Add to install.sh:
-
-    dpkg -i /home/amnesia/Desktop/deb/TorChat/*.deb
 
 ##Suggestions
 
