@@ -1,5 +1,7 @@
 Hi all, I recently found an easy way to install all my favorite apps after starting Tails. You don't have to use **"apt-get update"** or **"apt-get install ..."** anymore. But first you need to download all required packages (.deb files) to install the app (main package + dependencies). We will use a script to automatically install the packages. Probably most of you know this but I just found it myself and wanted to share. (I'm a newbie so there could be unnecessary codes-steps on this topic)
 
+#Steps
+
 **1-** Create a folder on Desktop named **"deb"**. Put your individual packages on this folder. If there's more than one package (dependencies) to install an application it's better to create a folder for each of that apps (into the *deb* folder). This will make it easy to update or delete the packages.
 
 **2-** Now create a file named **"install.sh"** in "deb" folder and put this code into it:
@@ -16,6 +18,12 @@ If you're not going to add any extra folder in "deb" you can pass the **2.** ste
 
     dpkg -i /home/amnesia/Desktop/deb/*.deb
 **4-** Put the "deb" folder in a persistent storage (hard drive, usb drive, cd, dvd, file hosters, etc.). Whenever you start Tails, copy this folder to the Desktop, open *"install.txt"* copy-paste the command to the **"Root Terminal"** and press enter. It will begin to install all your apps, if you forget any dependencies you will see it in the log, just download & add it and try again.
+
+**Note:** To easily download packages, open Root Terminal, type **"apt-get -d install"** and enter each package name separated by space. Get your .deb files from **"/var/cache/apt/archives"**. Then chmod to be able to use them. Example:
+
+    apt-get -d install libcddb2 libdvbpsi6 libebml0 libfribidi0 libiso9660-7 libmatroska0 libmtp8 libsdl-image1.2 libsdl1.2debian libsdl1.2debian-alsa libsvga1 libtar libupnp3 libvcdinfo0 libvlc5 libvlccore4 libx86-1 libxcb-keysyms1 libxcb-randr0 libxcb-xv0 mozilla-plugin-vlc vlc vlc-data vlc-nox
+    cp /var/cache/apt/archives/*.deb /home/amnesia/Desktop/deb/VLC/
+    chmod 777 /home/amnesia/Desktop/deb/VLC/*.deb
 
 #Download
 
@@ -37,7 +45,6 @@ Add to install.sh: (Last 3 lines needed to install Gecko)
     cp /home/amnesia/Desktop/deb/Wine/wine_gecko-1.0.0-x86.cab /usr/share/wine/gecko/
     chmod 777 /usr/share/wine/gecko/wine_gecko-1.0.0-x86.cab
 
-
 ####Minitube 1.7 (5.8 MB)
 Youtube app, without using Flash player.
 
@@ -46,6 +53,14 @@ Add to install.sh:
 
     dpkg -i /home/amnesia/Desktop/deb/Minitube/*.deb
 
+####VLC 1.1.13 + Iceweasel Plugin (14.3 MB)
+VLC Media Player. Plugin could be used with Viewtube: [[todo/Flash_support]]
+
+    https://dl.dropbox.com/u/58384971/VLC.zip
+
+Add to install.sh:
+
+    dpkg -i /home/amnesia/Desktop/deb/VLC/*.deb
 
 ####GDebi 0.6.4 (1 MB)
 Install deb packages easily with GUI.
