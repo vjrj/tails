@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Duplicate"
+ date="2012-01-22T18:35:54Z"
+ content="""
+See [[bugs/Archive_Manager_no_longer_supports_.rar]] that tells more about it, and contains a fixed version of the workaround suggested in comment 1.
+
+Please consider this thread as closed, as tracking the same issue in two places at the same time is a pain.
+
+"""]]

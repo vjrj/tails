@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-22T22:46:04Z"
+ content="""
+>Also, anonymity doesn't work without diversity and that's why the US Navy decided that Tor (or more correctly an onion routing-based anonymity network) should be publicly available. After all, if only the US military used it, everyone would automatically know that each Tor user is someone associated with the US military, which is a pretty significant leak of identity making Tor essentially worthless.
+
+This is the crucial part of this discussion. Yes, Tor is being used by terrorists and enemies of US too. But an anonymity network is an essential necessity for US intelligence & military. A win-win situation, or maybe \"win\" vs \"win more\" :)
+"""]]

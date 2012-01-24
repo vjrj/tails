@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Shutdown"
+ date="2012-01-17T11:25:08Z"
+ content="""
+You know how, when you shut Tails down, the screen becomes really messed up for a second or two?  During that time, any data created from your Tail session is being wiped so nothing remains.
+"""]]
