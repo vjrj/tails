@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="@ anwser"
+ date="2012-01-06T23:50:58Z"
+ content="""
+Thanks for the info. It seems I can now login to google easy. However, google docs has limited functionality for me. (using tails 0.9 still). I am able to access the google docs interface, but I am not able to upload files or use any features of the text editor when you create a new document, spreadsheet, etc. I thought using google docs moblie could fix this. Neverless, it did not. 
+
+If you don't have a way to get the text editor working, that's fine I'll upgrade to tails 0.10 eventually.
+"""]]

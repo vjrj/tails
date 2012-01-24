@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Not really... yet"
+ date="2012-01-14T09:04:28Z"
+ content="""
+Hi.
+
+I guess it *does* save the configuration, but the next instance of iceweasel does not use it as it's overriden by `/etc/iceweasel/profile/user.js`. We put the configuration in there (as opposed to `/etc/iceweasel/pref/iceweasel.js`) because (the Git log reads) *Else it does not seem to be fully taken into account*.
+
+If someone wants to investigate deeper, s/he should confirm my guess, and if I'm right, try to put everything in `pref/iceweasel.js` except what really needs to be put into `profile/user.js` (try/error with a brand new profile on every try).
+
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="See design doc"
+ date="2012-01-20T17:45:13Z"
+ content="""
+See [[contribute/design]] (3.6.9 Host system RAM). No, it's not an external program you could easily plug elsewhere yet. However, it's been on my personal todo list for a while to turn our system into a Debian package. Help is welcome!
+
+"""]]

@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-23T09:38:11Z"
+ content="""
+> Since tails dev's and Duflot are both in France
+
+It's public knowledge, from the tails-dev archives, that at least two Tails developer speak French. Anything more is plain wrong over-generalization.
+
+> maybe we can get him to look over the current build and fine problems with it :)
+
+Why not just go ahead and email him?
+
+> It'd be awesome if there was stripped down tails version that didn't use X at all. Just lynx browser, irssi for IRC, the built in mail system for mail or someting else, gpg command line and no possibility of X vuln.
+
+[[Why not!|contribute]]
+
+"""]]

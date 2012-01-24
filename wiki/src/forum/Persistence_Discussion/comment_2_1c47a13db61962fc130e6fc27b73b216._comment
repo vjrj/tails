@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-20T13:32:12Z"
+ content="""
+> If we are going to have persistent data we should be able to use different profiles for different needs.
+
+This is reasonable. Added to the [[todo/persistence#index3h2]] todo page.
+
+> 3 profiles would be in fact 3 logon users. user1, user2, user3, with possibility to change password but default password logon can be the same as username. 
+
+That would not work well in Tails since the default user (amnesia) is dynamically configured during boot. Worse, separating the users like this gives very weak separation w.r.t. security -- if one is compromised, the others are as well most likely. Each profile must be inside a different encrypted container.
+"""]]

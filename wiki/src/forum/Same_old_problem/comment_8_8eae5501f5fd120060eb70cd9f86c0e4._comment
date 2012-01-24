@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-01-07T14:18:04Z"
+ content="""
+> Vidalia still doesn't start sometimes
+
+I've been facing this problem today for the first time.
+
+The computer unfortunatelly freezed while I was pasting the log..
+
+But in my case, the log said something like \"unable to write : not enough place on the device\". Indeed, my home folder was full.. shame one me..
+
+So its a different problem as above, but it can be perhaps usefull for other people facing this to check the free space of your /home folder
+
+Hope that helps.
+
+-- bulo
+"""]]
