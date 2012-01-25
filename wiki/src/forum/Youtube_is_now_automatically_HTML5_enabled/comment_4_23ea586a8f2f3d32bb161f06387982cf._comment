@@ -4,6 +4,6 @@
  subject="comment 4"
  date="2012-01-25T14:56:59Z"
  content="""
-[[!tor_bug 3347]] shows it's slightly more complicated than something we can just enable safely right now. Created a [[page on our TODO list|todo/easier_YouTube]].
+Tor ticket 3347 shows it's slightly more complicated than something we can just enable safely right now. Created a [[page on our TODO list|todo/easier_YouTube]].
 
 """]]
