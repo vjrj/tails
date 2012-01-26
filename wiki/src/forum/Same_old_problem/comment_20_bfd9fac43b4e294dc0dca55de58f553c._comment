@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="&quot;Download Bridges&quot; not supported"
+ date="2012-01-10T13:07:00Z"
+ content="""
+Hi. FYI the \"Download Bridges\" feature is not supported yet: this would require a firewall exception so that this outgoing connection goes in the clear (without Tor). This needs to be carefully thought through.
+
+About the more general \"cannot connect to Tor\" problem: I'm very concerned about this issue, I hope one of us will be able to investigate it soon.
+
+"""]]

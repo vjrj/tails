@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-19T12:21:17Z"
+ content="""
+You can do that in the terminal beforehand so Synaptic knows that you're wanting dependency files I believe
+
+but
+Then go into synaptic and it'll say there's a broken file. First just click reload. This will take sometime to download all the depositories, maybe 10 minutes. Hit reload again. Then either Edit > Fix Broken Packages, or it'll be self evident to know what to do next, but tors needs the repository and the directory. For this you shouldn't have any difficulty though.
+
+What stumps me is how to deactivate Tor, connect to the VPN and reconnect to Tor. The system seems to autoload Tor on every connection so there is more difficulty/an additional step.. 
+"""]]

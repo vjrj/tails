@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-08T22:45:18Z"
+ content="""
+You can continue to use Tor/Tails without problem.
+
+Even if the whole torproject site gets down, it won't affect Tor since Tor network is based on relays, not the developers' website.
+"""]]

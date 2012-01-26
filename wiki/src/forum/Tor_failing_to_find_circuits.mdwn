@@ -1,0 +1,5 @@
+I've been having ongoing issues with TAILS 10.0. The problem is that Tor searches for connections and either fails to authenticate a circuit or fails to find a circuit. It seems like the only way to restart it (which so far is the only method I've found to fix the issue) is to restart TAILS. 
+
+The messages are always regarding failed authentication certificates, asking me to contact someone, or failed connections because it can't find a circuit, or that the clock is not in sync. Anyways, I'm on a wireless router, but that doesn't seem to be the issue because it's actually using the internet.
+
+Anyone have any idea how I can resolve this issue so Tor isn't so scetchy?

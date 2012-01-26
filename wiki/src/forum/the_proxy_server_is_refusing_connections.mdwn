@@ -1,0 +1,11 @@
+Hello!
+
+When I start tails, the first message I get is: "the proxy server is refusing connections". It seems to me, that TOR does not want to speak to my browser. Is this correct?
+
+Does TOR maybe have problems finding my router at 192.168.2.1?
+
+I have never worked with Linux and neither a search nor the "getting started" helped me. I also could not find any configuration gui for TOR on Tail's desktop.
+
+Please give me a hint!
+
+Michael

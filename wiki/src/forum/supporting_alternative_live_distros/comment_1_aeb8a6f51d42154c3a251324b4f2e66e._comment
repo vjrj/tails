@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-07T12:48:35Z"
+ content="""
+I think that you need to look at it from the right perspective. Tor has a clear Debian bias. Most (all?) its non-academic developers are Debian users. They even hired *Helix*, who is well-known in the Debian community, to do just QA and packaging (AFAIK, she has no other relevant expertise).
+
+Now, today Debian might seem like some hardcore endeavor, with Ubuntu, Fedora, and whatever else on the market, but back in the day Debian was your average boring Joe Schmoe's distro — if you wanted something that actually works, but had no inclination whatsoever on understanding how it works, you used Debian (back in the day, real men used Slackware). So you see that Debian had a big community, with politics, IRC schmoozing, endless mailing list discussions on packaging, they even had elections, *elections*. Oh, and women rights groups, I kid you not.
+
+Anyway… When Tor people naturally started thinking at some point about a Tor-oriented solution, what they had in mind is Debian with as few customizations as possible. Because, *packaging*, and *stable / unstable / testing*, and *we need to discuss this*. This is where Amnesia (later Tails) ideally fit in, it was just that — a Debian Live with Tor preinstalled and firewall rules thrown in. Most of the research and new concepts came from Incognito. But, Amnesia was Debian, so it had the community, the IRC schmoozing, the mailing lists (but not women rights groups — not mainstream enough, sorry).
+
+So by now the reasons for tight relationship between Tor and Tails are hopefully clear, and not surprising. Not that there is anything bad about that — everyone get what they want. What I see as troubling is the unconditional promotion of Tor by the EFF, but they don't have much choice in the matter, with the current state of, say, Netsukuku, or even I2P. Hopefully, much more innovative projects than Tor will ascend in popularity soon — one can only dream.
+"""]]

@@ -1,0 +1,13 @@
+I started the Same old problem thread and posted the last logs in that thread. This is further information because the notice is from the sync message: 
+
+Failed to synchronize the clock!
+
+Running htpdate.
+No downloaded files can be found
+No file could be downloaded from https://encrypted.google.com
+No file could be downloaded from httpsA://mail.riseup.net.
+https://ssl.scroggle.org (took 30s)=> diff = -2820 seconds(s)
+https://www.torproject.org (took 34s)=> diff = -2820 seconds(s)
+Paranoid mode: aborting as one server (https://mail.riseup.net) could not be reached
+
+I also asked in that old thread if this problem could be the result of an on-going MITM attack. So does this sync message help shed any light on that? Anyone else see thhis error? I'm connected despite the error.
