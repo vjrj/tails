@@ -5,63 +5,63 @@
  content="""
 It is connecting fine today but the clock right now is 8 hours ahead of real time. Should it be? Here is the current log and I'll post the failure at next fail. Wait, how to do that if no connection? Save it to disk?
 
-amnesia@amnesia:~$ cat /var/log/htpdate.log
-Running htpdate.
-https://mail.riseup.net (took 4s) => diff = -3550 second(s)
-https://encrypted.google.com (took 4s) => diff = -3550 second(s)
-https://www.torproject.org (took 5s) => diff = -3550 second(s)
-https://ssl.scroogle.org (took 125s) => diff = -3550 second(s)
-Median diff: -3550 second(s)
-Setting time to 1325880274...
-amnesia@amnesia:~$ sudo cat /var/log/tor/log
-Jan 06 21:00:51.510 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening new log file.
-Jan 06 21:00:51.517 [notice] Parsing GEOIP file /usr/share/tor/geoip.
-Jan 06 21:00:54.869 [notice] OpenSSL OpenSSL 0.9.8o 01 Jun 2010 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
-Jan 06 21:00:55.057 [notice] Bootstrapped 5%: Connecting to directory server.
-Jan 06 21:00:55.057 [notice] I learned some more directory information, but not enough to build a circuit: We have no network-status consensus.
-Jan 06 21:00:55.246 [notice] Bootstrapped 10%: Finishing handshake with directory server.
-Jan 06 21:00:56.215 [notice] Bootstrapped 15%: Establishing an encrypted directory connection.
-Jan 06 21:00:57.120 [notice] Bootstrapped 20%: Asking for networkstatus consensus.
-Jan 06 21:00:58.144 [warn] Received directory with skewed time (server '194.109.206.212:443'): It seems that our clock is ahead by 59 minutes, 7 seconds, or that theirs is behind. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Jan 06 21:00:58.206 [notice] I learned some more directory information, but not enough to build a circuit: We have no network-status consensus.
-Jan 06 21:01:27.336 [notice] Bootstrapped 25%: Loading networkstatus consensus.
-Jan 06 21:01:28.288 [warn] Received directory with skewed time (server '128.31.0.39:9101'): It seems that our clock is ahead by 59 minutes, 9 seconds, or that theirs is behind. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
-Jan 06 21:01:28.356 [notice] Bootstrapped 45%: Asking for relay descriptors.
-Jan 06 21:01:28.367 [notice] I learned some more directory information, but not enough to build a circuit: We have only 0/2629 usable descriptors.
-Jan 06 21:01:29.513 [notice] Bootstrapped 50%: Loading relay descriptors.
-Jan 06 21:01:30.118 [notice] Bootstrapped 53%: Loading relay descriptors.
-Jan 06 21:01:30.118 [notice] I learned some more directory information, but not enough to build a circuit: We have only 87/2629 usable descriptors.
-Jan 06 21:01:30.487 [notice] Bootstrapped 55%: Loading relay descriptors.
-Jan 06 21:01:30.487 [notice] I learned some more directory information, but not enough to build a circuit: We have only 120/2629 usable descriptors.
-Jan 06 21:01:30.820 [notice] Bootstrapped 58%: Loading relay descriptors.
-Jan 06 21:01:30.820 [notice] I learned some more directory information, but not enough to build a circuit: We have only 200/2629 usable descriptors.
-Jan 06 21:01:30.945 [notice] Bootstrapped 62%: Loading relay descriptors.
-Jan 06 21:01:30.945 [notice] I learned some more directory information, but not enough to build a circuit: We have only 291/2629 usable descriptors.
-Jan 06 21:01:30.987 [notice] Bootstrapped 66%: Loading relay descriptors.
-Jan 06 21:01:30.987 [notice] I learned some more directory information, but not enough to build a circuit: We have only 375/2629 usable descriptors.
-Jan 06 21:01:32.775 [notice] Bootstrapped 70%: Loading relay descriptors.
-Jan 06 21:01:32.775 [notice] I learned some more directory information, but not enough to build a circuit: We have only 456/2629 usable descriptors.
-Jan 06 21:01:32.812 [notice] Bootstrapped 73%: Loading relay descriptors.
-Jan 06 21:01:32.812 [notice] I learned some more directory information, but not enough to build a circuit: We have only 539/2629 usable descriptors.
-Jan 06 21:01:32.943 [notice] Bootstrapped 77%: Loading relay descriptors.
-Jan 06 21:01:32.943 [notice] I learned some more directory information, but not enough to build a circuit: We have only 624/2629 usable descriptors.
-Jan 06 21:01:32.980 [notice] We now have enough directory information to build circuits.
-Jan 06 21:01:32.980 [notice] Bootstrapped 80%: Connecting to the Tor network.
-Jan 06 21:01:33.114 [notice] Bootstrapped 85%: Finishing handshake with first hop.
-Jan 06 21:01:35.402 [notice] Bootstrapped 90%: Establishing a Tor circuit.
-Jan 06 21:01:38.732 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
-Jan 06 21:01:38.732 [notice] Bootstrapped 100%: Done.
-Jan 06 21:02:08.216 [notice] New control connection opened.
-Jan 06 21:02:08.219 [notice] New control connection opened.
-Jan 06 21:02:17.204 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening log file.
-Jan 06 21:02:17.210 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening log file.
-Jan 06 21:02:17.212 [notice] Renaming old configuration file to \"/etc/tor/torrc.orig.1\"
-Jan 06 21:02:17.212 [warn] Couldn't rename configuration file \"/etc/tor/torrc\" to \"/etc/tor/torrc.orig.1\": Permission denied
-Jan 06 21:03:09.475 [notice] We tried for 15 seconds to connect to '[scrubbed]' using exit $C7875F97AC98441EB0270B0965E4C0313A7EB8C3~obelix at 135.196.0.10. Retrying on a new circuit.
-Jan 06 21:03:24.492 [notice] We tried for 15 seconds to connect to '[scrubbed]' using exit $D223399907113A1F216AAA64997BC1D4CFA8E1AC~TorLand1 at 146.185.23.179. Retrying on a new circuit.
-Jan 06 21:03:39.508 [notice] We tried for 15 seconds to connect to '[scrubbed]' using exit $E055A5FD17A1DCC020E9EAEE8D45648289A2D86C~ghostgraztor3 at 89.248.174.73. Retrying on a new circuit.
-Jan 06 20:04:34.742 [notice] Your system clock just jumped 3550 seconds backward; assuming established circuits no longer work.
-Jan 06 20:04:36.455 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
-amnesia@amnesia:~$ 
+	amnesia@amnesia:~$ cat /var/log/htpdate.log
+	Running htpdate.
+	https://mail.riseup.net (took 4s) => diff = -3550 second(s)
+	https://encrypted.google.com (took 4s) => diff = -3550 second(s)
+	https://www.torproject.org (took 5s) => diff = -3550 second(s)
+	https://ssl.scroogle.org (took 125s) => diff = -3550 second(s)
+	Median diff: -3550 second(s)
+	Setting time to 1325880274...
+	amnesia@amnesia:~$ sudo cat /var/log/tor/log
+	Jan 06 21:00:51.510 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening new log file.
+	Jan 06 21:00:51.517 [notice] Parsing GEOIP file /usr/share/tor/geoip.
+	Jan 06 21:00:54.869 [notice] OpenSSL OpenSSL 0.9.8o 01 Jun 2010 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+	Jan 06 21:00:55.057 [notice] Bootstrapped 5%: Connecting to directory server.
+	Jan 06 21:00:55.057 [notice] I learned some more directory information, but not enough to build a circuit: We have no network-status consensus.
+	Jan 06 21:00:55.246 [notice] Bootstrapped 10%: Finishing handshake with directory server.
+	Jan 06 21:00:56.215 [notice] Bootstrapped 15%: Establishing an encrypted directory connection.
+	Jan 06 21:00:57.120 [notice] Bootstrapped 20%: Asking for networkstatus consensus.
+	Jan 06 21:00:58.144 [warn] Received directory with skewed time (server '194.109.206.212:443'): It seems that our clock is ahead by 59 minutes, 7 seconds, or that theirs is behind. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+	Jan 06 21:00:58.206 [notice] I learned some more directory information, but not enough to build a circuit: We have no network-status consensus.
+	Jan 06 21:01:27.336 [notice] Bootstrapped 25%: Loading networkstatus consensus.
+	Jan 06 21:01:28.288 [warn] Received directory with skewed time (server '128.31.0.39:9101'): It seems that our clock is ahead by 59 minutes, 9 seconds, or that theirs is behind. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+	Jan 06 21:01:28.356 [notice] Bootstrapped 45%: Asking for relay descriptors.
+	Jan 06 21:01:28.367 [notice] I learned some more directory information, but not enough to build a circuit: We have only 0/2629 usable descriptors.
+	Jan 06 21:01:29.513 [notice] Bootstrapped 50%: Loading relay descriptors.
+	Jan 06 21:01:30.118 [notice] Bootstrapped 53%: Loading relay descriptors.
+	Jan 06 21:01:30.118 [notice] I learned some more directory information, but not enough to build a circuit: We have only 87/2629 usable descriptors.
+	Jan 06 21:01:30.487 [notice] Bootstrapped 55%: Loading relay descriptors.
+	Jan 06 21:01:30.487 [notice] I learned some more directory information, but not enough to build a circuit: We have only 120/2629 usable descriptors.
+	Jan 06 21:01:30.820 [notice] Bootstrapped 58%: Loading relay descriptors.
+	Jan 06 21:01:30.820 [notice] I learned some more directory information, but not enough to build a circuit: We have only 200/2629 usable descriptors.
+	Jan 06 21:01:30.945 [notice] Bootstrapped 62%: Loading relay descriptors.
+	Jan 06 21:01:30.945 [notice] I learned some more directory information, but not enough to build a circuit: We have only 291/2629 usable descriptors.
+	Jan 06 21:01:30.987 [notice] Bootstrapped 66%: Loading relay descriptors.
+	Jan 06 21:01:30.987 [notice] I learned some more directory information, but not enough to build a circuit: We have only 375/2629 usable descriptors.
+	Jan 06 21:01:32.775 [notice] Bootstrapped 70%: Loading relay descriptors.
+	Jan 06 21:01:32.775 [notice] I learned some more directory information, but not enough to build a circuit: We have only 456/2629 usable descriptors.
+	Jan 06 21:01:32.812 [notice] Bootstrapped 73%: Loading relay descriptors.
+	Jan 06 21:01:32.812 [notice] I learned some more directory information, but not enough to build a circuit: We have only 539/2629 usable descriptors.
+	Jan 06 21:01:32.943 [notice] Bootstrapped 77%: Loading relay descriptors.
+	Jan 06 21:01:32.943 [notice] I learned some more directory information, but not enough to build a circuit: We have only 624/2629 usable descriptors.
+	Jan 06 21:01:32.980 [notice] We now have enough directory information to build circuits.
+	Jan 06 21:01:32.980 [notice] Bootstrapped 80%: Connecting to the Tor network.
+	Jan 06 21:01:33.114 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+	Jan 06 21:01:35.402 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+	Jan 06 21:01:38.732 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+	Jan 06 21:01:38.732 [notice] Bootstrapped 100%: Done.
+	Jan 06 21:02:08.216 [notice] New control connection opened.
+	Jan 06 21:02:08.219 [notice] New control connection opened.
+	Jan 06 21:02:17.204 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening log file.
+	Jan 06 21:02:17.210 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening log file.
+	Jan 06 21:02:17.212 [notice] Renaming old configuration file to \"/etc/tor/torrc.orig.1\"
+	Jan 06 21:02:17.212 [warn] Couldn't rename configuration file \"/etc/tor/torrc\" to \"/etc/tor/torrc.orig.1\": Permission denied
+	Jan 06 21:03:09.475 [notice] We tried for 15 seconds to connect to '[scrubbed]' using exit $C7875F97AC98441EB0270B0965E4C0313A7EB8C3~obelix at 135.196.0.10. Retrying on a new circuit.
+	Jan 06 21:03:24.492 [notice] We tried for 15 seconds to connect to '[scrubbed]' using exit $D223399907113A1F216AAA64997BC1D4CFA8E1AC~TorLand1 at 146.185.23.179. Retrying on a new circuit.
+	Jan 06 21:03:39.508 [notice] We tried for 15 seconds to connect to '[scrubbed]' using exit $E055A5FD17A1DCC020E9EAEE8D45648289A2D86C~ghostgraztor3 at 89.248.174.73. Retrying on a new circuit.
+	Jan 06 20:04:34.742 [notice] Your system clock just jumped 3550 seconds backward; assuming established circuits no longer work.
+	Jan 06 20:04:36.455 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+	amnesia@amnesia:~$ 
 
 """]]

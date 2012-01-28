@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-26T10:08:53Z"
+ content="""
+> Somewhat (?) related, I've noticed Tails no longer let's me ssh into anywhere.
+
+Known bug, fixed in Git.
+
+Prefixing your SSH command with `torify` should workaround the problem.
+
+Else, go steal the patch to `ssh_config` in Git.
+
+"""]]

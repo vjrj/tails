@@ -1,0 +1,5 @@
+When I run tails on my laptop and try to use iceweasel, it wont connect to any websites (.onion or .com, etc). It works fine on my desktop computer just not on my laptop. 
+
+When I go into the tor button settings and test my proxy settings it has the error message "Local HTTP proxy is unreachable. Is polipo running properly?"
+
+I've tried searching for a fix to this problem but haven't found anything helpful.
