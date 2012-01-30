@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-30T13:33:55Z"
+ content="""
+Nested VMs... nice :). My guess is that there's some issue with Tails' VirtualBox mouse integration in that situation. This is a pretty difficult situation to debug, and frankly not a use-case we can expend extra energy on, so your best hope is that some future upgrade of virtualbox (either your Virtualbox host software or the guest-additions we ship in Tails) will fix this. Sorry.
+
+I'm curious, why not boot Tails in a non-nested VM?
+"""]]
