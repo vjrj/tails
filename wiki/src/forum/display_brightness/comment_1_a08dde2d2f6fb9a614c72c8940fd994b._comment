@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-30T00:26:26Z"
+ content="""
+Please try adding this to the kernel command-line:
+
+`acpi_osi=Linux acpi_backlight=vendor`
+
+(At the language boot menu, press TAB, then space, then the suggested arguments, then ENTER.)
+
+
+Alternatively, create a `~/.xmodmaprc` and write into it:
+
+	keycode 239=XF86KbdBrightnessDown
+	keycode 123=XF86KbdBrightnessUp
+
+... then run `xmodmap ~/.xmodmaprc`.
+
+"""]]
