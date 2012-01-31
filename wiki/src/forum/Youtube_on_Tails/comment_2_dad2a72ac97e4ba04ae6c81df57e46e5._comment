@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="No need to disable NoScript"
+ date="2012-01-08T19:59:55Z"
+ content="""
+No need to disable NoScript globally, you only need to whitelist the video:
+
+1. go to youtube
+2. go to the video page you want
+3. if this video is available as HTML5, instead of the \"you need flashplayer bla bla\" message, you get a nice HTML5 player with a crossed S letter (the symbol of NoScript) at the top left of the video area.
+4. Right click on the video area, go to NoScript -> Blocked objects, allow the blocked object.
+5. the playback should start.
+
+"""]]

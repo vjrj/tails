@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-20T16:02:19Z"
+ content="""
+As I understand it, the TAILS Live CD on a CD-RW gets mounted Read-Only when booted up, so it is not possible to rewrite it while in use.  I know this because I only use CD-RW CDROMS with regard to this question.  Otherwise, I use USB flash drives, and it too is mounted Read-Only.
+"""]]

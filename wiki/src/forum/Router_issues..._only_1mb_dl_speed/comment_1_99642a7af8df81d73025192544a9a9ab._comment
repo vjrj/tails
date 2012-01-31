@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-12T00:52:06Z"
+ content="""
+I posted the original post in this thread. I was watching my icon on my laptop while i was trying to get a connection started in TAILS and I saw that it was blinking blue and red, as if it was connecting and disconnecting. I was able to log on once more, but it gave me an error regarding synchronizing the clock. I restarted and the second time it wasn't able to load (sans the blinking wireless iocn).
+
+ 
+"""]]

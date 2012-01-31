@@ -1,0 +1,50 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Trusting TLS or GPG instead of SSL"
+ date="2011-10-17T05:34:52Z"
+ content="""
+Perhaps this is unnecessary, assuming that we can use the Debian keyring to verify the Tails signing key. But how do we know the instructions or the posts in these forums are authentic?
+
+As stated above, the [Tails signing key](https://tails.boum.org/tails-signing.key) and the readable part of the Tails website come from the domain <https://tails.boum.org> so the instructions in the first comment sorta work to \"secure\" those connections. The iso and the iso signature come from <https://dl.amnesia.boum.org> so adding the CAcert root certificate doesn't help to secure those connections.
+
+In the second comment I suggested using TLS instead of SSL (although I don't know how this may effect browser fingerprinting). Can we at least, connect to <https://tails.boum.org> using TLS without downloading the CAcert root certificate through insecure SSL? This would also allow us to download the Tails signing key more securely.
+
+The CAcert website requires the CAcert root to connect through https. Doesn't this mean that there is no secure way to download the CAcert root certificate if you don't have it already?
+
+Many Ubuntu browsers apparently come with the CAcert root certificate (Midori, Rekonq, Konqueror, Epiphany) but none of these have an obvious way to force use of TLS in their preferences. Firefox and Chromium allow you to force TLS but don't have the CAcert root certificate.
+
+When I connect to <https://tails.boum.org> using Rekonq/Konqueror and click the lock, it has \"SSL version: SSLv3\". Doesn't this mean that they are connecting to this site is using SSL instead of TLS? When I added the CAcert root to Firefox I could connect to <https://tails.boum.org> with only the TLS option checked. Why would Rekonq/Konqueror use SSL instead of TLS if TLS was available?
+
+Epiphany shows an option for \"Page security information\" but I find you are supposed to install the extensions pack through apt, then enable the \"Certificates\" extension, but it still does nothing and neither does \"Manage Certificate\" (using Ubuntu Natty)
+
+Is there any certain way to connect to <https://tails.boum.org> through a secure TLS connection without trusting an insecure SSL connection to download the CAcert root certificate?
+
+CAcert also has a PGP key on the page with the root certificates. In Ubuntu I could add their key using:
+
+>gpg --recv-keys 113ED0F2
+
+In Tails 0.7.2 I could not:
+
+>amnesia@amnesia:~$ gpg --keyserver keys.gnupg.net --recv-keys 113ED0F2
+gpg: requesting key 113ED0F2 from hkp server keys.gnupg.net
+gpgkeys: key 113ED0F2 not found on keyserver
+gpg: no valid OpenPGP data found.
+gpg: Total number processed: 0
+amnesia@amnesia:~$ gpg --keyserver keys.gnupg.net --recv-keys 65D0FD58
+gpg: requesting key 65D0FD58 from hkp server keys.gnupg.net
+gpgkeys: key 65D0FD58 not found on keyserver
+gpg: no valid OpenPGP data found.
+gpg: Total number processed: 0
+amnesia@amnesia:~$ gpg --recv-keys 113ED0F2
+gpg: requesting key 113ED0F2 from hkps server keys.indymedia.org
+gpgkeys: HTTP fetch error 60: server certificate verification failed. CAfile: /etc/ssl/certs/cacert.org.pem CRLfile: none
+gpg: no valid OpenPGP data found.
+gpg: Total number processed: 0
+amnesia@amnesia:~$ gpg --recv-keys 65D0FD58
+gpg: requesting key 65D0FD58 from hkps server keys.indymedia.org
+gpgkeys: HTTP fetch error 60: server certificate verification failed. CAfile: /etc/ssl/certs/cacert.org.pem CRLfile: none
+gpg: no valid OpenPGP data found.
+gpg: Total number processed: 0
+
+I don't know what to do with this key anyway. I don't see any signatures for the root certificate downloads.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="TorButton issue"
+ date="2011-12-04T12:25:22Z"
+ content="""
+Even though Privoxy is unable to sanitize encrypted HTTPS sessions for instance, it has one major factor going for it, and that is other adblocking apps don't have the degree of how much sanitizing of personal info , plus the trackers and adware's and the alikes that you wish to block or even filter out and I don't mean hiding the ad images and the alikes either say like (adblock plus). Given that I've been using privoxy close to 9 years and built up so many filter that work extremely well and using it with Vidalia, believe me torbutton has it place but it not of the same order as privoxy when it comes too sanitizing websites, Just blocking refers and javascript is not enough.
+
+P.S polipo is a good caching program and that's it , nothing more.
+
+Cheers. 
+"""]]

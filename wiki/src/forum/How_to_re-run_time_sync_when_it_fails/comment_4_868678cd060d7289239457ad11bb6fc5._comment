@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Synchronization errors on a regular basis"
+ date="2012-01-22T05:56:58Z"
+ content="""
+Lately I'm getting more time-sync errors than correct syncs. What could cause this? I would figure it's not someone on the network trying to force me to leave an identifiable trail. It seems unlikely, but that would be possible, correct? 
+
+Is there anything I can do, settings wise, to ensure more correct syncs?
+"""]]

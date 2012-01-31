@@ -1,0 +1,40 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-01T13:48:05Z"
+ content="""
+Your browser is showing a security warning when trying to access our website
+using HTTPS because the server hosting tails.boum.org doesn't own a SSL
+certificate recognized by the major browser vendors.
+
+Still, a certificate from the alternative certificate authority
+[CACert](http://www.cacert.org/) is available and you could prevent this
+security warning from appearing by **installing into your browser the root
+certificate of CACert**.
+
+This certificate is **included by default in Debian** and **available in
+Ubuntu** through the `ca-certificate` package.
+
+You can also **install it by hand** by visiting this link:
+<http://www.cacert.org/certs/root.crt> then selecting all the options and
+validating. The downside of this approach is that you will download the
+certificate through plain HTTP.
+
+We acknowledge the fact that having a mainstream HTTPS certificate sold by a
+commercial certificate authorities would be a improvement for our website and we
+are planning to get one at some point.
+
+Still, such certificates are not the
+perfect solution to verify the authenticity of a website and several controversies have recently proven that this model of trust on Internet can be compromised:
+
+- <https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-about-it>
+- <http://blogs.comodo.com/it-security/data-security/the-recent-ra-compromise/>
+
+When having to trust a Tails ISO image that you downloaded through this website
+we recommend you to use stronger ways of verifying it that could be independent
+of the HTTPS on this website, see:
+
+- [[Verify the ISO image|download#index3h1]]
+- [[Trusting Tails signing key|doc/trusting_tails_signing_key]]
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-16T15:54:55Z"
+ content="""
+> While using tails on windows vista pc with intel network adapter, it can up to 10min to find any networks to connect to in networkmanager. Sometimes it would take up to 10min to start tor once I was connected to a network. It would take 10min for the onion icon to show up.
+
+If this problem is consistent, which would suggest a possible hardware/driver issue, it'd be helpful if you used the \"report a bug\" tool which sends us information about your hardware so we further can debug this.
+"""]]

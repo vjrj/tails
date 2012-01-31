@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-17T16:49:40Z"
+ content="""
+How did you create your USB?
+
+If you still have the .iso for Tails 0.10, try issuing the following command to recreate it (using the root account with the # prompt:
+
+    # dd if=tails-0.10.iso of=/dev/sdx
+
+where sdx is the device name of the USB when plugged in and you need to substitute the actual device letter, e.g. a,b,c,d,e,f,g,...etc. for x.
+
+This means that you do not need create a MBR or a device partition - use the Disk Utility to reformat without a partition.
+"""]]

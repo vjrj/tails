@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-20T18:04:03Z"
+ content="""
+While mounting as read-only (and the use of the iso9660 filesystem, with no multisession) certainly complicates things, there *might* be no absolute guarantees that they cannot be modified as long as the hardware allows it, which both CD-RW and USB does. It *may* be the case that it's just some part of the kernel that prevents remounting them as read-write, and that part can be changed by an attacker with full access to the system.
+
+It's still a very theoretical attack and nothing I'd be too worried about, especially since I'm only conjecturing (see \"*might*\" and \"*may*\" above). In fact, I'd be really happy if someone could prove that my conjecture is wrong.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-12T11:05:02Z"
+ content="""
+See [[Tails_Fatal_Flaw..or_not__63____63__]] for the discussion that lead to this change in 0.10.
+
+Most applications can be made to use Tor by using 'torsocks' on the command-line. Look at the relevant manpage for more details.
+"""]]

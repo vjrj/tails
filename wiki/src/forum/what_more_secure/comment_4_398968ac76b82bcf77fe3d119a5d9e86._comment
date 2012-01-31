@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-15T06:42:13Z"
+ content="""
+would it be more safer to do a live boot usb windows xp or what have you, then open up virtualbox, the tails iso, all within the xp portable drive?
+
+i've not attempted this but it would seem to make sense? everything would be in ram still and you have the virtualbox program within it..
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-24T20:42:30Z"
+ content="""
+Things return to normal issuing a 'service polipo restart' command.
+"""]]

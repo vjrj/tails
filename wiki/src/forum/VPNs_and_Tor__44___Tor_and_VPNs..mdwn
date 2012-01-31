@@ -1,0 +1,12 @@
+It seems to be quite hard to do as is.
+network-manager-openvpn-gnome and its dependencies are missing, and Tor is set to automatically launch as soon as a connection is reached.
+
+therefore one must use the terminal while first being connected to tor to download the files from the debian server, enabling the network connection VPN configure dialogue box to activate.
+
+One cannot even reconnect without Tor being there, so how is one to know if the VPN is even configured properly and being routed in? Even exiting tor while connected I still get a TOR-based IP address.
+
+I asked my VPN provider and was told connecting to Tor through the VPN would add an extra layer of security, but speeds would be lowered (obviously).
+
+Any input on this? How to implement your VPN, how to use and connect to it while connected or disconnected to Tor, which one (Tor > VPN, VPN > Tor) would be the safest.
+
+I've read up on this and find the answers to be inconclusive, hoping someone(s) here can shine some light on the matter.

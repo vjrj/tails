@@ -1,0 +1,54 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Not convincing"
+ date="2011-12-22T18:22:37Z"
+ content="""
+Hi,
+
+> Scroggle often runs into the Google Captcha
+
+I'm not sure what you mean, and I don't think it ever happened to me.
+Maybe I'm just censoring my memories.
+Could you please elaborate?
+
+> and you can click on the ixquick.com proxy for search results and
+> view the results in https.
+
+How would this get Tails users better privacy and/or anonymity?
+Replacing \"being monitorable by random exit nodes\" with \"being
+monitorable by one single entity, at one well known central place\"
+does not look like an obvious improvement to me.
+
+> The entire search including results is secure. No other search
+> engine that I know of does that.
+
+Could you please elaborate why you think Scroogle's search and results
+are not \"secure\"?
+
+> Never any cookies or anything either.
+
+I think this has been the way Scroogle worked for many years.
+
+> Check out ixquick's site. They explain why their search engine won
+> awards for privacy.
+
+I failed to found anything convincing there: they explain tons of nice
+features that either is of no use to Tails users, and/or have been
+proposed by Scroogle for years, and/or boil down to \"you'd better
+trust ixquick than Tor exit nodes\" in Tails context.
+
+> Bottom line, ixquick.com is the top privacy aware search engine.
+> (No, I'm not affiliated in any way.)
+
+Frankly, these awards don't mean anything to me unless they're shipped
+with a threat model compatible with Tails' one.
+
+Please don't take my comments as aggressive: simply put, before
+deciding to switch to ixquick, we'd need to be displayed precisely
+what kind of improvement ixquick would make for Tails users, and the
+\"we like privacy\" label is no such thing. FYI the DuckDuckGo fanclub
+has tried already, with similar arguments (SSL, \"privacy friendly\"
+marketing, etc.): they failed convincing us.
+
+"""]]

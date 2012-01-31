@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Anonymous"
+ ip="127.0.0.1"
+ subject="2nd the request"
+ date="2011-11-07T02:19:49Z"
+ content="""
+Updatng tor on a live cd generally takes about 12-20 minutes for a 950Kish size file; usually 400-700b's a sec for some reason. As above, I am also having difficulty copying the tor*.deb file belonging to root although I am root in cli when upgrading tor. I also wish to cut down on the update time and just dpkg -i it. Could someone guide us on how to obtain the file once dl'd from torproject. Thx
+"""]]

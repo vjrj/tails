@@ -1,0 +1,7 @@
+Seen in the Tor message log with Tails 0.8.1.  Multiple instances, 6 seconds apart:
+
+"[12:02:23] Potentially Dangerous Connection! - One of your applications established a connection through Tor to "8.8.8.8:53" using a protocol that may leak information about your destination. Please ensure you configure your applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+
+It seems that some application in Tails is reading this from file /etc/ttdnsd.conf.  But which one and why is it trying to do local DNS name resolution?
+
+This ought to be fixed in the next rev of Tails.  There should be *no* direct connections to any DNS server.
