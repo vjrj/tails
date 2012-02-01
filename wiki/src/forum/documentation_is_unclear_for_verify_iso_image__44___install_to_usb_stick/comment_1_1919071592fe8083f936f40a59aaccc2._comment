@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-01T10:38:30Z"
+ content="""
+> This is not the case. GPGTools is a SET of tools. It is unclear WHICH of the tools is to be used to check the cryptographic signature, and HOW to do it.
+
+Look further down at the section: \"For Mac OS X using GPGTools\". It states that after installing GPGTools you should use the \"Using Linux with the command line\" instructions (almost in the beginning of section 3).
+
+You can [import keys with GPG Keychain](https://github.com/GPGTools/GPGKeychainAccess/wiki/Getting-started) and probably also verify the signature by right-clicking it and selecting \"verify\" or similar. But the problem with many graphical tools is that they often hide too much information so that the verification would seem fine even if something went terribly wrong. YMMV. I don't have access to Mac OS X so I cannot check whether that is the case or not.
+
+> The instructions for (4) installation to usb stick is similarly unclear.
+
+We know they are suboptimal. Soon, however, we will ship a custom [[USB installer|todo/usb_install_and_upgrade]] which will make this trivial.
+
+> From the linux commands, it appears that the iso file is simply copied to the usb stick. This copy can be done directly in OSX finder.
+
+This is incorrect. The command in our instruction overwrites the whole block device, including the master boot record, which I'm sure OSX finder cannot do. I'm sure there would be some equivalent way to do this from the console in Mac OS X, but I dare not give advice on that out of ignorance. If possible, burn Tails to a CD, boot it and do the USB installation from there using [[these instructions|doc/installing_onto_a_usb_stick/linux/index.en.html#index2h1]].
+"""]]
