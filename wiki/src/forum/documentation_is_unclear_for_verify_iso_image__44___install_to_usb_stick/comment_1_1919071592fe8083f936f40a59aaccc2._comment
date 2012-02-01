@@ -16,5 +16,5 @@ We know they are suboptimal. Soon, however, we will ship a custom [[USB installe
 
 > From the linux commands, it appears that the iso file is simply copied to the usb stick. This copy can be done directly in OSX finder.
 
-This is incorrect. The command in our instruction overwrites the whole block device, including the master boot record, which I'm sure OSX finder cannot do. I'm sure there would be some equivalent way to do this from the console in Mac OS X, but I dare not give advice on that out of ignorance. If possible, burn Tails to a CD, boot it and do the USB installation from there using [[these instructions|doc/installing_onto_a_usb_stick/linux/index.en.html#index2h1]].
+This is incorrect. The command in our instruction overwrites the whole block device, including the master boot record, which I'm sure OSX finder cannot do. I'm sure there would be some equivalent way to do this from the console in Mac OS X, but I dare not give advice on that out of ignorance. If possible, burn Tails to a CD, boot it and do the USB installation from there using [[these instructions|doc/installing_onto_a_usb_stick/linux#index2h1]].
 """]]
