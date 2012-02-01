@@ -1,0 +1,3 @@
+Derp, default login user changed so I can't access any servers. I changed sshd_config but there's no init.d/ssh 
+
+Any way to restart it otherwise without manually editing the .iso to remove mandatory root user login and rebooting?

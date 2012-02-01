@@ -1,0 +1,7 @@
+I've been trying TAILS for a few weeks, and it's great !
+
+From what I understand, Tor has created a custom version of firefox with a few important patches to enhance anonimity : https://www.torproject.org/projects/torbrowser/design/
+
+On the other hand, TAILS seems to provide a standard version of iceweasel, carefully pre-configured, but apparently without the patches they mention in that link.
+
+Am I missing something ? Is there a reason for using iceweasel instead of torbrowser ?
