@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-02T20:14:01Z"
+ content="""
+> Is there any chance of getting detailed build instructions for Tails? I want to be able to make my own using an encrypted root USB setup and have full control over it. 
+
+All you need to know is documented [[here|contribute/build]] (don't skip the part about further information for customization being available in the Debian Live Manual, but be sure to get the version for the 2.x series, e.g. `live-manual` from the Debian squeeze repos).
+
+> I've tried Liberté Linux and don't like what they did to make root hard to use and am worried Tails is going in the same direction.
+
+Our plans for this are documented [[here|todo/better_root_access_control#index2h1]].
+"""]]
