@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-06T16:08:42Z"
+ content="""
+It seems that Tails doesn't see my hard drive (sata II, ntfs). There are only 2 instances of \"Filesystem\" and cd/dvd Drive in \"Places -> Computer\" menu. 
+
+Am I doing something wrong?
+"""]]
