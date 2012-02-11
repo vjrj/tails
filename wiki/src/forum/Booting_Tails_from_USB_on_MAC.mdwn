@@ -1,0 +1,21 @@
+This is what I did to load the iso on the USB: 
+
+$ sudo su 
+
+diskutil list
+
+diskutil unmountDisk /dev/disk2
+
+cd /Users/yourhome/Downloads
+
+cat tails-i386-x.xx.x.iso >/dev/disk2 && sync
+
+diskutil eject /dev/disk2
+
+~~~~~~~~~~~~~~~~~~~~~
+
+when i turn off my mac and restart holding the option key the computer does not recognize the usb as bootable. 
+
+when i start up my operating system the usb is now titled TAILS 0.10.1-2. when i open it there are two files: "isolinux" and " live" 
+
+please helppp 
