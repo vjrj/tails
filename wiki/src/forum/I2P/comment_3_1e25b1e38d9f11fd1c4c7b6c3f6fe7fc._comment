@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-13T21:38:46Z"
+ content="""
+I dont know any Russian and the machine translation I read was barely comprehensible, so I'm not entirely sure which concerns are raised in that forum thread. A word that was repeated several times was \"external elements\", which I assume refers to html elements (e.g. images) located on the open web in an html page fetched over I2P. Such a page could leak your real IP address to the server admin (if she/he has the access logs of both the I2P host and the open web host) but only if you use a really stupid I2P setup (e.g. you only use the I2P proxy for *.i2p, everything else gets direct Internet access).
+
+In Tails such \"external elements\" would be fetched through Tor, so you wouldn't reveal your IP address. So while this wouldn't deanonymize you it very well could be a strong indicator that you are a Tails user since our Tor + I2P setup may be pretty uncommon.
+
+If there are any other concerns, please post them here or link to sites describing them, but this time in *English*.
+"""]]
