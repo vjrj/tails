@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-26T20:24:28Z"
+ content="""
+The hostname `dl.amnesia.boum.org` points to different Tails mirrors every time you ask your DNS server ([round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS)), so the different times are explained by you reaching different mirrors that have rsynced in the files at different times.
+"""]]

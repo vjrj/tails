@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-30T00:18:42Z"
+ content="""
+Next major Tails version will have GNOME Keyring working and integrated with Seahorse. I hope it will fit your usecase. Any reason why KeePass would be more suitable?
+
+"""]]

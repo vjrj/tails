@@ -1,0 +1,44 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-01-27T12:37:26Z"
+ content="""
+@ [[comment 101|forum/how_much_we_can_believe_to_developers__63__/#comment-374340a0b5efa781ac1641289b7c886e]]
+
+> you didn't bring any reason than only arogance. one more proof that we should not believe to developers.
+
+As far as I know [[comment 10|forum/how_much_we_can_believe_to_developers__63__/#comment-a0ab08cb3faf0efc6e17260c9b705b29]] was not written by a Tails developer. While that comment has a harsh tone, I completely agree with its conclusions, especially point 2 since my objective is to keep this discussion on a technical level. All other discussion in this thread is subjective and such bickering will lead us nowhere.
+
+> obviously someone must have money and pay programmers from anti-usa countries, to make new tor network, which will be independent from FBI/CIA.
+
+What you fail to understand is this: a secure design should be safe to use even if it's developed by your enemy. It is arguable whether Tor is like this in its current state, but TTP's goal certainly is to make it so. It is also clear that you lack the technical understanding to see why this is the case (now I'm assuming you're also the author of the comment titled: [[my answer|forum/how_much_we_can_believe_to_developers__63__/#comment-2a890df1450936db354e7542762bdc3b]]). Nothing you state in the \"some things need to be changed in tor software/network architecture\" paragraph makes sense from a technical point-of-view, so let's dissect your suggestions:
+
+@ [[my answer|forum/how_much_we_can_believe_to_developers__63__/#comment-2a890df1450936db354e7542762bdc3b]]
+
+> network should not be public
+
+How can people join a non-public anonymity network? Would only people you trust be in it? Then it would be so small that it offers no anonymity. And just because a network isn't public it wouldn't be hidden in any way. Such a network can easily be detected by an adversary with a good view of the network.
+
+> traffic data/packages should be encrypted
+
+I assume you mean that Tor should add end-to-end encryption between you and your destination. Tor cannot do that unless every server on the Internet aff support for it. A better idea is that you don't use insecure protocols with Tor (which TTP already recommends) but only use end-to-end encrypted/authenticated protocols, e.g. HTTPS, OTR for chat, PGP for email, SSL/TLS whenever possible, and so on. The closest thing to get traffic encrypted all the way to the destination for any protocol is already available in Tor: Tor hidden services. Unfortunately I find it doubtful that every server on the Internet would start running a hidden service.
+
+> in that way, hackers could not analyze traffic and find target
+
+Even if you have a non-public network + use end-to-end encryption + just about any other conceivable protection, it would still possible to see who you are communicating with (i.e. de-anonymize you) with passive traffic confirmation attacks from an adversary with a global (or close to it) view of the whole Internet (Tor is very explicit with that they don't protect against this). The known fixes for this issue are not practical:
+
+* Adding constant bandwidth padding/cover traffic creates too much overhead for any one to want to be a part of the anonymity network.
+* Making the network high-latency makes the network unusable for most purposes. It would take days to load a normal website. Such delays work better for email, and some of the Tor developers actually worked on such a system earlier ([Mixminion](https://en.wikipedia.org/wiki/Mixminion)).
+* Quantum-based network technology could perhaps offer anonymity, but such technology is nether developed nor deployed yet.
+
+> if it was possible to attack Freedom Host, or any other server in Tor network, it is urgent to make changes in tor network security or architecture.
+
+You apparently don't understand what Tor is -- Tor is only a transport that adds (pseudo-)anonymity to the traffic flow. Tor is completely oblivious to what kind of traffic it deals with, so it cannot prevent any attacks on the protocols you use with Tor. **Conclusion:** The problem in the Freedom Hosting case had nothing to do with Tor, the problem was in the web server Freedom Hosting uses.
+
+@ [[hmmm|forum/how_much_we_can_believe_to_developers__63__/#comment-08a3dc92f53d91e7cb70a5e5283fb42e]]
+
+> I believe that tor network should not have any public information (IP or any other) and traffic should not be able to sniff, then it would be trully anonymous network.
+
+See my dissection of the comment \"[[my answer|forum/how_much_we_can_believe_to_developers__63__/#comment-2a890df1450936db354e7542762bdc3b]]\" above for why this doesn't work or at least isn't as easy as you think.
+"""]]
