@@ -1,0 +1,3 @@
+After poking around the raspberry pi information, I learned that they were playing around with a Debian for Arm distro.  While it looks like they´ll be going with fedora I was wondering what is the feasibility of building a tails distro for raspberry pi?
+
+The thought is this would be a nice set of tools for activists in Iran, China and the like to run a secure box on the cheap for around $40 (35 for the pi and 5 for the live USB).  In the event of worse case scenario government intrusion they could blend the components with very little out of pocket loss.  Since they are always looking at the tiny hardware, hardware keylogging would be hard to do by the secret police. Plus getting it into the hands of activits would be easy considering the size and low expense.  
