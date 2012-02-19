@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-17T10:36:04Z"
+ content="""
+Hmm. A more serious problem is that the Raspberry Pi is limited to 128 or 256 MB of RAM. Tails is a bit more hungry then that; 1 GB of RAM is recommended.
+"""]]
