@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-22T20:21:27Z"
+ content="""
+Is this Tor complaining about time skew, or is it you comparing the Gnome's clock applet in Tails with you local time? You should know that Tails uses the UTC timezone, or Greenwich Mean Time.
+"""]]

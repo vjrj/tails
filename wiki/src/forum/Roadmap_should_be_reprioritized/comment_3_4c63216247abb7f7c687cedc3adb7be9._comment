@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-03T12:29:36Z"
+ content="""
+If you get Man-in-the-middled when downloading Tails, you might you as well be that when downloading the checksum as well. That's also true when getting the signature and signing key. That's why you need a trust path for the key. Any thing else is hand wavy and simply not secure.
+
+Any how, a SHA256 checksum (which is more secure than MD5) is already available on the website on [[the Verify ISO page|download#index3h1]] -> Using other operating systems. 
+"""]]

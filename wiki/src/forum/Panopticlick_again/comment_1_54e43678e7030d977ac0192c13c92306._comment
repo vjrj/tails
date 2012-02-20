@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-14T20:00:14Z"
+ content="""
+The Torbutton extension is supposed to already take care to disallow any problematic javascript function, that's why we don't disable javascript support in Tails.
+
+And yes, if you disable javascript, then your configuration differ from the one most people have by using Torbutton, or Tails, which is supposed to be bad against fingerprinting attempts.
+"""]]

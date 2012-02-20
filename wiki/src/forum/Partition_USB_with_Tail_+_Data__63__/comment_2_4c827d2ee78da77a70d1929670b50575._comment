@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-08-20T18:39:19Z"
+ content="""
+Actually, the iso hybrid format used to generate the final iso doesn't allow to do that kind of formatting. The partition table is a bit weird and paritioning tools have hard time handing it. We are working on this issue and hope to have good new soon. Stay tuned!
+"""]]

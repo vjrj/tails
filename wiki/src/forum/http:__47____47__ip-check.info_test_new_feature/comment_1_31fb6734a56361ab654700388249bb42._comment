@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-22T15:52:17Z"
+ content="""
+I found some info about it on their blog:
+
+The JonDoFox research team has uncovered a new attack on web browsers: Affected are the web browsers Firefox, Chrome and Safari. By a hidden call over of a URL with HTTP authentication data, third party sites could track a user over several web sites, even if the user blocks all cookies and other tracking procedures. For doing this, it is sufficient to include a simple CSS file:
+<link rel=\"stylesheet\" type=\"text/css\" \"http://Session:638431048@ipcheck.info/auth.css.php\">
+
+You will find a demonstration of this technique on the web site ip-check.info.
+
+JonDoFox now contains an integrated protection against this attack. Third party sites may now no longer receive HTTP authentication data from the browser.
+"""]]

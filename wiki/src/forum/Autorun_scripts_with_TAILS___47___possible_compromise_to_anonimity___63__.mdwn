@@ -1,0 +1,16 @@
+I have a few questions regarding this..
+
+I've noticed one script named tails-security-check located at usr/local/bin that auto-connects to a feed once internet link is established. 
+
+Additionally, once browser is open it goes immediately to home page: https://check.torproject.org/?lang=en-US&small=1
+
+My concern is that such auto-connections would create a distinguishable browsing pattern.
+
+In my case traffic analysis attack is an issue.
+
+Questions are as follows:
+
+Are there any other scripts that run upon connection other than tails-security-check? If yes what are they and how to permanently delete/disable them? Note: I tried to delete tails-security-check but there is no valid permission.
+
+Is there a way to save browser home page as blank?
+

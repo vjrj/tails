@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-04T18:10:48Z"
+ content="""
+About BitTorrent: please do not use it through Tor. It harms the network and may lead to deanonymization. If you want anonymous torrent, get some kind of seedbox.
+
+About SD cards: card's write-protect switch is bypassable. The reader can just ignore it. I would just use non-rewritable optical media or USB drive with write-protect switch built in.
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="custom tails"
+ date="2011-08-16T13:18:25Z"
+ content="""
+I found detailed explaination for Ubuntu: http://www.debuntu.org/how-to-customize-your-ubuntu-live-cd
+
+is there anything like that for Debian?
+I would like also cometic changes of desktop appearance and settings in iceweasel, I would like to install tuecrypt and avoid long disclaimer, and if possible to find and install some better GnuPG GUI. 
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-11-02T17:44:38Z"
+ content="""
+sudo tor --version
+"""]]

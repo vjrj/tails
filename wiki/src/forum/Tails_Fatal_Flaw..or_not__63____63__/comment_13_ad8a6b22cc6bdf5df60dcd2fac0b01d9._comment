@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2011-11-24T04:53:57Z"
+ content="""
+Hi, Liberté dev here (I am subscribed to updates, so saw your comment). My post above is comment #7. I don't see a compelling reason to update the site. Maybe the language in the Security section can be softened somewhat (Tails devs are clearly not accustomed to criticism — but I assure you that “serious flaw” and other expressions are nothing out of the ordinary when compared to what one typically sees in paper reviews, etc.), but all points are valid — although it should be added that applications with explicitly configured proxies use them (whereas there is of course no guarantee that they will use the proxy exclusively).
+"""]]

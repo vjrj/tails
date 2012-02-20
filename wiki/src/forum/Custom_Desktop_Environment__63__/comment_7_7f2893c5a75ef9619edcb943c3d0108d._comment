@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Add in PW management & encryption software"
+ date="2011-08-07T12:36:44Z"
+ content="""
+I manage my passwords with KeepassX; many of them are too long & complex to remember. I've got to find a way to keep KeepassX installed or the web browsing capability of Tails is quite limited. 
+Also, I can't encrypt or decrpt messages unless I can import my GPG keys. So there has to be a way to securely store them on the Tails USB stick, and import them when running Tails.  
+"""]]

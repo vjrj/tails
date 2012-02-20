@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-22T16:00:29Z"
+ content="""
+> To use them, I have to enter /live/image/ folder. It would be better if there was a shortcut to that folder in Desktop, Places, or Computer.
+
+This is not a supported method for persistence, so we won't implement this. Once we support [[todo/persistence]] we'll make accessing any persistent data storage easy. 
+
+> I also hide all Tails files/folders, if a normal person looks into my flash drive, he will only see my Musics etc. But the real advantage of hiding them, you have to \"manually\" enter flash drive from Boot Devices menu to use Tails. I don't want anyone to see and ask what Tails is and why I'm using it (by restarting computer when the drive is plugged in). Not a big deal but an extra protection.
+
+Why not [[use an extra encrypted partition for data storage|forum/How_do_I_do_what_unetbootin_does/#comment-fc6a0040a29918839343a50396ef4082]] (as a workaround until we have implemented [[todo/persistence]])?
+
+> I also want to ask about rar files. I remember you added unar to the image, is that a command-line-only tool? When I double-click rar files they say \"Archive type not supported\".
+
+Unfortunately the archiving GUI we ship (File roller) [doesn't support unar yet](https://bugzilla.gnome.org/show_bug.cgi?id=646606) so it's command-line-only at the moment.
+
+> apt-get install unrar. I could then open the rar files by double-click and that was working like WinRAR in Windows and worked perfectly. Is there a reason not implementing this?
+
+unrar is not free software.
+"""]]

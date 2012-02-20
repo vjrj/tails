@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-10-03T12:04:29Z"
+ content="""
+> CircuitBuildTimeout
+> KeepalivePeriod
+> NewCircuitPeriod
+> NumEntryGuards
+
+All these options may screw up your anonymity. Only do this if you don't care about anonymity (and why are you using Tails then?).
+"""]]

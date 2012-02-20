@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-03T11:26:19Z"
+ content="""
+It would be better if you filed a [[proper bug report|doc/first_steps/report_a_bug]] using the bug reporting tool shipped inside Tails (found on the Gnome Desktop). That way we'd receive some information about your hardware as well as Xorg logs which could help us pinpoint the problem.
+"""]]

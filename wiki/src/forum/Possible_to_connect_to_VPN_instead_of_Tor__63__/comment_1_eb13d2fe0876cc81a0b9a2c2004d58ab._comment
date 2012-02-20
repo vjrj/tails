@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-07-01T09:17:36Z"
+ content="""
+It's a very fundamental assumption of Tails to force all outgoing traffic to anonymity networks such as Tor. I don't think we want to provide ways of going around this since it would possibly compromise the security of all Tails users.
+
+If you want to use OpenVPN with a live distro and without Tor I bet you can use any Debian or Ubuntu derivative and install OpenVPN from it.
+
+"""]]

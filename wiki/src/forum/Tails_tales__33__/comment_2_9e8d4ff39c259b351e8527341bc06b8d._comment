@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-02T17:54:23Z"
+ content="""
+About your first question: the throughput of Tor really depends on the circuit that you are using and the bandwidth available on each of the Tor relays it passes through. Those circuits get randomly chosen so sometimes you're lucky and sometimes you're not: the bandwidth can wildly fluctuate as you noticed. But you shouldn't worry about that phenomenon.
+
+Then, I must admit that I didn't really understand your second question ;)
+
+"""]]

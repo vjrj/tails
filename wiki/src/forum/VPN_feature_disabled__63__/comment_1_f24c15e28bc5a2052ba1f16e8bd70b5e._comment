@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Sed"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-22T13:10:23Z"
+ content="""
+Is that L2TP you mean - that tends to be available under the Network Manager applet menu only on the newest of dists (which Debian does not tend to be).  It can be manually configured otherwise - but not a strightforward job.  OpenVPN is much easier.
+
+I'm not a network engineer so I can't say if a VPN adds any more security - can't see it would add anonymity though, if anything reduce it (your IP would not change as it does with Tor, at least with the default Tails setup).  It might perhaps protect against a rogue exit node some more, I'm not sure.  Alternatively You could open an encrypted VPN connection and then log into Tor (reconfigure Tails), your IP would change, but the exit node would be able to see clear text.
+
+Either I have some hacking problems so I might experiment myself.
+"""]]

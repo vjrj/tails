@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: Enviroment "
+ date="2011-07-18T16:07:36Z"
+ content="""
+Depends of the firefox addon you intend to use, some might interact quite badly with the torbutton and defeat some of its protection. But so far the network traffic will still be routed through Tor.
+"""]]

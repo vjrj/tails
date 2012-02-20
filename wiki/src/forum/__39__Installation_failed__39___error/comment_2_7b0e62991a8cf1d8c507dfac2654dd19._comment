@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Mac OS X bootable usb"
+ date="2011-10-24T09:13:20Z"
+ content="""
+Hi Has anyone successfully created a bootable usb tails install for mac (leopard and higher)?  I have found every article on the web (over 2 weeks) and managed to recreate every error that each person has encountered.  But no success in creating a bootable usb.
+
+Some say format using diskutil, dismount the partition and used \"sudo dd\" to copy the iso over.  This results in an unmountable partition.  (Ps - I've also converted the iso to a img and dmg which both end up with the same result).
+
+Some say just use diskutil to \"restore\" the iso on the partition.  This just results in the installer calling an error (can't remember which but it's the one that is well documented) and then fails.
+
+I've installed rEEFit (which works except for the usb is not readable), I've tried unetbooting (the closest attempt).  Unetbooting will only write to a fat32 partition, and while it copied the files (even with a GPT on it) it won't start.
+
+If you need I can spell all these steps out and their fail point, but I'm guessing if you're reading this you have tried all the options you can google, and get the same result.  
+
+So back to the simple question: Has anyone successfully installed onto a bootable usb for mac os x (and please list os x version).
+
+Cheers
+"""]]

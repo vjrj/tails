@@ -1,0 +1,5 @@
+How would one going about implementing the RAM wiping script in another distro?
+
+I want to use this on my Laptop running Fedora 14 with FDE. This way cold boot attacks would be impossible.
+
+any ideas? Would I just add the script to a custom shutdown script and call that?

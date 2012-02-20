@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-21T10:57:58Z"
+ content="""
+Cheat codes are documented in the [live-config manpage](http://manpages.debian.net/cgi-bin/man.cgi?query=live-config&apropos=0&sektion=0&manpath=Debian+6.0+squeeze&format=html&locale=en).
+
+Please try adding all combinations of `nomodeset` and `xorg-driver=vesa` to the kernel command line (in the graphical boot menu, press TAB, then SPACE, then one or both of these parameters, then ENTER).
+
+Graphics hardware support will greatly improve soon in Tails thanks to [[todo/backported_Xorg]]. Until then, your mileage may vary when it comes to shiny new hardware that did not even exist when Debian Squeeze was released.
+
+"""]]

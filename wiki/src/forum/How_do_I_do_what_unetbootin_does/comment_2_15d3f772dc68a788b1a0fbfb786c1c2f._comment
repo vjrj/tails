@@ -1,0 +1,53 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-09-28T16:13:45Z"
+ content="""
+How to install Tails to a USB drive with an extra encrypted partition
+=====================================================================
+
+Note that we [[are working on an easy way to do this|todo/usb_install_and_upgrade]], but for now the following manual steps can be made instead. Also, this is how to do this from within a running Tails session (either CD or USB), so don't boot Tails from the same USB drive as you want to install it to.
+
+Say the USB drive you want to install Tails to is /dev/sdX (*AND BE SURE THAT THIS IS THE RIGHT ONE, OTHERWISE YOU CAN DESTROY DATA ON ONE OF YOUR HARDDRIVES*). First we need a partition it. For Tails we need a primary partition, 700 MB in size, flagged as bootable, formated as fat32. If you already know how to do that using cfdisk or whatever that's great. Otherwise you can use \"System -> Administration -> GParted\" and follow these steps:
+
+1. Select /dev/sdX in the upper right corner. Really check that the listed partitions are what you expect from your USB drive.
+2. Delete all partitions by doing \"right-click -> Delete\" on all items in the partition list, except \"unallocated\".
+3. On \"unallocated\", do \"Right-click -> New\".
+4. In the pop-up, set \"New size = 700\", \"Create as = Primary partition\", \"File system = fat32\".
+5. On \"unallocated\", do \"Right-click -> New\".
+6. In the pop-up, set \"Create as = Primary partition\", \"File system = unallocated\". The default for \"New size\" is all remaining space, but you can set it to however much of the remaining space you need.
+7. Do \"Edit -> Apply all operations\".
+8. On the first partition (/dev/sdX1), do \"Right-click -> Manage Flags\" and check \"boot\" and click \"Close\".
+9. Exit GParted.
+
+Next, we shall install Tails to /dev/sdX1. Open \"Applications -> Accessories -> Root Terminal\" and isse the following commands in the terminal when it opens (and be sure to change the X:s below so it corresponds to your USB drive):
+
+    mkdir /mnt/usb
+    mount /dev/sdX1 /mnt/usb
+    cp -r /live/image/* /mnt/usb
+    mv /mnt/usb/isolinux/isolinux.bin /mnt/usb/isolinux/syslinux.bin
+    mv /mnt/usb/isolinux/isolinux.cfg /mnt/usb/isolinux/syslinux.cfg
+    sed -i 's/isolinux/syslinux/' /mnt/usb/isolinux/*.cfg
+    mv /mnt/usb/isolinux /mnt/usb/syslinux
+    umount /mnt/usb
+    apt-get update
+    apt-get install syslinux
+    dd if=/usr/lib/syslinux/mbr.bin of=/dev/sdX
+    syslinux -i /dev/sdX1
+    sync
+
+Note: if there is a new Tails release and you want to upgrade to it, you can redo the above commands from within a running session of the new version of Tails (which must be running from a CD or another USB drive). This way you will keep your encrypted partition.
+
+Next we will encrypt the other partition (/dev/sdX2) which you can do in the same terminal as you did the previous steps in:
+
+    cryptsetup luksFormat /dev/sdX2
+    cryptsetup luksOpen /dev/sdX2 crypt
+    mkfs.ext3 /dev/mapper/crypt
+    mkdir /mnt/temp
+    mount /dev/mapper/crypt /mnt/temp
+    chown amnesia:amnesia /mnt/temp
+    umount /mnt/temp
+
+Now reboot. The encrypted partition will now be available as \"[SIZE] Encrypted\" in Places (or \"Places -> Removable Media\") with no other complicated steps necessary except if you want to upgrade Tails (see the note above).
+"""]]

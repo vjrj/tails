@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-09-15T17:02:17Z"
+ content="""
+I have also been unable to get tails to boot.  I have restarted the laptop I was trying to boot on, (changed the BIOS boot sequence) and got past the language screen but the next step did not work for me.
+
+I followed all the instructions as listed but couldn't get things to work.  Booted from a USB as well.
+"""]]

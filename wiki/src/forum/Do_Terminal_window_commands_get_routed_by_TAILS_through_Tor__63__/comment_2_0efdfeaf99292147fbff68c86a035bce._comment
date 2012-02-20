@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-11-01T09:27:37Z"
+ content="""
+Hi, Tails is using an in depth strategy in order to route all the outgoing
+traffic through Tor. First, the main applications: web browser, email client,
+instant messaging application, etc. are explicitly configured to use Tor but on top of that there is also a firewall that works as a transparent proxy routing all outgoing traffic to go through Tor even if the corresponding application is not configured to do so.
+
+As said before, 'ping' will not work in Tails but that would be the case if you'd use the 'ssh' command for example.
+"""]]

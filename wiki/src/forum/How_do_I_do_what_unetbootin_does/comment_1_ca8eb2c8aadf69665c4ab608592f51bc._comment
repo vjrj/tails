@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-28T14:05:35Z"
+ content="""
+Sorry, Gentoo does it again!
+
+I followed this guide and converted the isolinux to syslinux (modifying some files on the way) and everything works fine.
+
+http://www.gentoo.org/doc/en/liveusb.xml
+
+Thank you.
+
+Gavin.
+"""]]

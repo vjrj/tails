@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="partitionning usb key"
+ date="2011-09-12T05:25:43Z"
+ content="""
+i think it works perfectly with unetbootin
+to install tails on the first (ext2) partition of the key
+(ext2 beter than ext3 because no journalisation)
+
+so install unetbootin, download and check tails, start unetbootin.
+tell it to install your iso (navigate to choose the location where
+tails iso is), choose the usbkey partition : make sure to install on 
+the right location ! under linux you may use gparted to check the
+name of the partition, alternate prefered method with :
+
+$ ls -l /dev/disk/by-id  (in a console), 
+
+once unetbootin finished click restart.
+
+there is also an other thing : your computer may need some tuning in the setup
+to be able to start from an external media OR use the boot menu to select your key
+(usually f12 at startup)
+
+
+zamac
+
+
+"""]]

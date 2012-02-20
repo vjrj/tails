@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-14T09:15:59Z"
+ content="""
+Start up a Terminal, and issue the following command:
+
+    tails-version
+
+It will display, in that order: Tails version, build date, last Git commit at the time of the build, live-build version, live-boot version, live-config version.
+"""]]

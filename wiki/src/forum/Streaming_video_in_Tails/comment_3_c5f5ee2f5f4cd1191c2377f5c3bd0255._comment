@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-03T17:41:19Z"
+ content="""
+Gnash has been considered but it's not yet supported, see [[the corresponding todo item|/todo/Flash_support]].
+
+For the time being, Tails 0.10 will ship Iceweasel 9.0 and you will be able to watch video using HTML5.
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-27T13:14:38Z"
+ content="""
+The squashfs in Tails 0.8 uses XZ compression which requires Linux kernel >= 2.6.38 and squashfs-tools >= 4.2. These are available in Ubuntu Natty (11.04).
+
+Editing the squashfs should work although you of course also have to generate an iso and install a boot loader. However, we don't support such modifications, so you are on your own from now on.
+"""]]

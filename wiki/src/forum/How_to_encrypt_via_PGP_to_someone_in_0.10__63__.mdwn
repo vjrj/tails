@@ -1,0 +1,9 @@
+FirePGP was easy, security holes so they took it out, now all I can find is the clipboard based off using GEedit and the copy and clipboard icon?
+
+Decrypting with ones private key imported is simple, but how does one encrypt a file to someones public key back?
+
+It always asks me for my password when attempt to encrypt the clipboard or GEEdit.. I just want to encrypt to someones public key, so my password shouldn't be required- is confusing.
+
+Also just to bring it up I could of swore I read it on here a month or two back or on the forums that the only place to do secure messages is to type them in FirePGP plug-in and any messages in any external program such as geedit were suspectible and not as secure. This seems to be reversed in the 0.10 version, was curious as to if things had changed, innacurate in the first place, etc.
+
+Thanks :)

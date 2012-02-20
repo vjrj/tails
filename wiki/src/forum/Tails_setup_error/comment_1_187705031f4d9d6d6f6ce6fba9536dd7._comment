@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="One more thing"
+ date="2011-09-22T02:54:32Z"
+ content="""
+I forgot to mention that a lot of the error messages had to do with the squashfs and packages files.... i know they are read only and compression, but what do i do with them?
+
+"""]]

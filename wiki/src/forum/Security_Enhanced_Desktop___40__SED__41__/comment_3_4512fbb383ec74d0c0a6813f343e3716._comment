@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-09-16T09:39:51Z"
+ content="""
+Can I also propose the 'SHA', Security Hardened Android.
+
+The BlackBerry[1] in a way is a security hardened mobile.  While it doesn't market itself as such it has certainly gained the reputation.  Primarily its encrypted email (carriers are still not applying GSM security patches[2]), and being closed source (and a strongly commercial model) that is also one extra barrier to hacking (hackers will tell you that it is easier to hack opensource because the code is in front of them).  However!  There is no reason why opensource should not in fact be more secure, all it would take I think is a specifically security hardened release of Android by some enterprising developer - something no mobile really is as the moment (you are not advised to use the average smart 'phone for anything important, the BlackBerry being a secure email connection but not designed security wise for anything much beyond that).  Something along the lines of the desktop outlined above, though other considerations also (Android is by no means a mature product as yet[3]).
+[1] http://www.itproportal.com/2011/04/12/rim-blackberry-most-secure-phone-gchq-says/
+[2] http://www.bbc.co.uk/news/technology-10731612
+[3] http://www.bbc.co.uk/news/technology-13422308
+
+
+"""]]

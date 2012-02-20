@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Anonymity checkers, fonts, cookies, etc."
+ date="2011-07-07T08:58:41Z"
+ content="""
+Thanks for pointing us to that link.
+
+I just did the test, once running Tails and once running my OS with Tor and a standard Torbutton configuration.
+
+First, we believe there is no such thing as an objective \"recommended value\" for parameters such as User-Agent, Browser window, HTTP session, System, etc. The idea here is that a value is not good \"as such\" but only if it is used by many people. That's the notion of anonymity set: you are anonymous as long as you are undistinguishable from many other people that look just like you online. Our objective in Tails is to make all Tails users undistinguishable amongst themselves and possibly amongst other Tor and Torbutton users.
+
+The only value that significantly differed between Tails and my OS was the font list. And it was indeed, one that was marked as 'bad' on the test. But regarding this value, all Tails users will have the same. This is an issue known to Tor even tough it's not solved yet, see <https://trac.torproject.org/projects/tor/ticket/2187>.
+
+Another value marked as 'bad' the one about cookies. Torbutton accepts cookies but takes special care to isolate your Tor cookies and your non-Tor cookies, plus it clears all Tor cookies on toggle. See the [documentation of the Torbutton options](https://www.torproject.org/torbutton/torbutton-options.html.en) for more info. Still, this is one of the reasons why we advertise people not to use two separate contextual identities in the same Tails session but restart Tails instead, see our [[warning page|doc/warning/index.en.html#index7h1]].
+
+"""]]

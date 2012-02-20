@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-03T14:06:45Z"
+ content="""
+You assume that Tor developers [know](https://trac.torproject.org/projects/tor/wiki/doc/TorFAQ#WhydoweneedPolipoorPrivoxywithTorWhichisbetter) what they are talking about. Privoxy doesn't buffer webpages when body filters are not used. In addition, Polipo configuration is very primitive, whereas Privoxy allows one to designate different proxies for different URLs (such as Tor and I2P). Also, by focusing on the browser, you ignore command-line tools like wget and curl. TorButton is overrated anyway, pure hype — didn't see any sound research about its effects.
+
+I will leave the “we should do what everyone else is doing” attitude without comment, good luck with that approach.
+"""]]

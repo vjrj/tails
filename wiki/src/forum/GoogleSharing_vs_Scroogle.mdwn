@@ -1,0 +1,9 @@
+Moxie Marlinspike released a firefox extension called GoogleSharing.
+
+It seems to achieve the same as Scroogle, but it seems more transparent, as the code is opensource and anyone can run a proxy.
+
+They don't keep any logs and the connections to google are ssl encrypted so it's impossible for them to sniff anything.
+
+I was wondering if this is going to work with the current tor configurations and if so, isn't worth the switch?
+
+Cheers

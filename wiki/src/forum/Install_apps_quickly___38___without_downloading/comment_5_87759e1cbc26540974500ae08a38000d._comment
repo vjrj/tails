@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-23T14:38:20Z"
+ content="""
+Is there a way to add keys-sigs for each packages to verify them. How should I do that and where can I find them? Or is the best way giving command codes to download packages from trusted websites
+"""]]

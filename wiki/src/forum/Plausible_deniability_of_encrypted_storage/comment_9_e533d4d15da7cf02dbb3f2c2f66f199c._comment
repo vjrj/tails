@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2011-12-20T10:13:26Z"
+ content="""
+Btw, off topic for those interested, the conflict that used to exist between the loop-AES-patched mount utility and libfuse has been fixed.  That was the main reason loop-AES was dropped on some mainstream distros since mount with Fuse support is required for other stuff like OTFE and Truecrypt. That problem no longer exists and loop-AES support - basically a patched loop.ko (or kernel) plus patched mount utils -  doesn't break those other encryption schemes anymore. Admittedly, it's for commandline people but it shouldn't break other things now.  
+"""]]

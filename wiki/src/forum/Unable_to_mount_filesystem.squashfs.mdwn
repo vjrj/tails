@@ -1,0 +1,33 @@
+Working on a host (Ubuntu 10.10 - Maverick) Live CD session, I am attempting
+to modify a few files of the tails-i386-0.8.iso file to eliminate having to
+do it on every boot up.
+
+I have the squashfs-tools package (Ubuntu) installed, and it appears that
+when I issue a mount command to loop mount the tails live/filesystem.squashfs
+I get the following errors:
+
+1.From mount command:
+    mount: wrong fs type, bad option, bad superblock on /dev/loop2,
+    missing codepage or helper program, or other error
+    In some cases useful info is found in syslog - try
+    dmesg | tail  or so
+
+2.From dmesg | tail:
+SQUASHFS error: Filesystem uses "unknown" compression. This is not supported
+
+Apparently, squashfs tools compatibility is missing regarding squashfs tools
+between Debian and Ubuntu.
+
+All I want to do is to make a few edits, etc. and remake the tails 0.8
+.iso file.  Via Synaptic Package Manager, the following Debian packages are
+available in the Ubuntu universe repository:
+live-build, live-build-cgi, live-helper, live-magic, live-manual, livecd-rootfs
+
+I have just read the live-manual.pdf document and did not find any relevant
+information about what I am trying to do.
+
+What do I need to do to complete the mounting of the tails
+live/filesystem.squashfs regarding the unknown compression capability, and
+then after I make the edits - I was planning to use the mksquashfs command
+to regenerate the tails .iso - will that work, and if not, what do I need
+to do to make it happen?

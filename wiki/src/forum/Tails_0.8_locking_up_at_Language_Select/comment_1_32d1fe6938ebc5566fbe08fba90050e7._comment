@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="slow?"
+ date="2011-10-15T22:18:21Z"
+ content="""
+Hi,
+
+I've seen a machine expose a similar bug recently. It was not actually locked up, but syslinux was taking ages (a few minutes) to load the kernel and ramdisk. Can you please try waiting, say, 10 minutes to see if it moves forward eventually?
+
+"""]]

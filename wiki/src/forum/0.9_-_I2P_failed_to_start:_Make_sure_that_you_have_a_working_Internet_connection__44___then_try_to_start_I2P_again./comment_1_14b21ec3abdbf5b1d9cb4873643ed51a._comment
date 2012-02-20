@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-18T12:35:54Z"
+ content="""
+Right, this will be fixed in the next Tails release.
+
+In the meantime you can start i2p by opening a Terminal (Applications -> Accessories) and type the following command:
+
+    sudo service i2p start
+
+"""]]

@@ -1,0 +1,5 @@
+Hi all. I'm new to this and your help is appreciated.
+
+I've made my Tails USB boot. I can boot into tails. It says my ethernet is connected. But the iceweasel browser always gets "connection timed out" errors for web pages. It doesn't seem to wait to try to load. Anytime I click refresh or put in a web address it almost instantly gives me the timed out message. To be clear, I am unable to view any webpages.
+
+My ethernet is working fine through windows and ubuntu. Recommendations? 

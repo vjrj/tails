@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-09-02T17:36:29Z"
+ content="""
+Again, the objective of Torbutton is to make your browser look like any other browser running Torbutton. The goal is that all the people using Torbutton and thus Tails look the same, as much as possible. So that you can't know who is who, and thus provide anonymity amongst them.
+
+According to that objective, including a user-agent randomizing add-on to Iceweasel would instead reduce your anonymity by not making you look different from other Torbutton users.
+
+"""]]

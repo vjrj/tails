@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Server Ideas"
+ date="2011-07-19T13:04:05Z"
+ content="""
+A few Ideas about a talis Server setup:
+
+Before the Serverbuild is done, it needs a configuration. That includes Hostename, Password and a free DNS Service. If a client can be merged to a Server over a selfexplained GUI, that would be really great. The GUI also includes, what kind of server is it? File/Web/Stream Server, or all together?
+
+The Server need some kind of remote desktop. that way, the server does not need a keyboard or display. it needs only internet and of course power.
+
+The Sharing for Videostreams or any kind of files on a own network like emule or bitloard does, is the best way i think. Everybody that looks a video and does sharing, is helping sharing to. But how can it be handled like Youtube? It need a own Searchservice. Any Server that shares has a searchdatabase. An important issue also on the Serversetup itself and a important Option in the Setup GUI.
+
+The sharing System needs also a feedback, like thumps up or commenting. That way, the system cares itself and pull down trolls. Thats very important.
+
+With this, talis would build like a \"NEWTUBE\"! that would really be a dream for freedom! Youtube and Google is to big and they are already tracking or mindcontrolling the mainstream.
+
+I hope you get my ideas and you find a way to do it. We really need soon something like that.
+"""]]

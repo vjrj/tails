@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-10-07T14:24:54Z"
+ content="""
+Then what do we do to fix the incorrect local time? 
+
+I opened a terminal and corrected system time using the date command then restarted tor and polipo from the /etc/init.d scripts.   Tor then slowed right down.  
+
+Tor works fine with this wrong time for me but is it a Bad Thing(TM)?
+"""]]

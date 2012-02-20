@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Reply"
+ date="2012-01-13T17:35:40Z"
+ content="""
+This message means Tor is not ready yet. See [[doc/anonymous_internet/vidalia]]: \"As soon as the Tor client managed to establish a route to the Tor network, Vidalia hides as an onion icon on the upper right corner of the screen.\"
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I have the same problem"
+ date="2011-08-20T17:39:24Z"
+ content="""
+I just ask myself the same question, I have 8GB usb, I made partitions in my usb (ext3 and Fat32) but after I copied Tails to ext3, there is no booting of linux. I put usb in PC and windows is booting, instead of linux.
+"""]]

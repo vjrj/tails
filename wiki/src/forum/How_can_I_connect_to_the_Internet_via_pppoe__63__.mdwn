@@ -1,0 +1,10 @@
+I have an internet connection via pppoe. The net cord is directly connected in lan-adapter in the system. So I should type login/password to connect to the Internet.
+
+I tried to make so via DSL tab (in Connections), but doesn't work.
+
+But the lan-adapter "sees" provider's network and gets internal ip-address (like 10.*.*.* and so on)
+
+I had also tried to setup pppoe-connection via "sudo apt-get install pppoe pppoeconf" but didn't work - "E: Unable to locate package pppoe
+E: Unable to locate package pppoeconf"
+
+So, how can I setup pppoe-connection to the Internet?

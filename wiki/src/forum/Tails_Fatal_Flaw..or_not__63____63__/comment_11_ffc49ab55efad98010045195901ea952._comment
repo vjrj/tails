@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2011-10-18T11:38:40Z"
+ content="""
+> If I recall correctly, a notable example of this was Mozilla Thunderbird/Icedove. 
+
+[Reference](https://lists.torproject.org/pipermail/tor-talk/2008-August/002361.html). At that time I either was unaware of the hello_argument setting (but Torbutton set it) or it was not implemented in vanilla Thunderbird (but Torbutton implemented it).
+"""]]

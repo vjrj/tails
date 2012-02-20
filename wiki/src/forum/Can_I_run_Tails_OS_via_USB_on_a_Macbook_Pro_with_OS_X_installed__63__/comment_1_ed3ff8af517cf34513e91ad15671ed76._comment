@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Anonymous"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-07-26T13:15:47Z"
+ content="""
+Im not a Mac, but when I scroogled 'how to run live linux on a Mac Book Pro' I got:
+
+http://ask.metafilter.com/109495/Help-me-run-a-live-linux-distro-off-a-usb-key-on-my-Macbook-Pro
+
+Apparently you hold the \"option\" key while booting up that lets you select the usb or external drive to load first launching tails instead of osx.
+
+
+"""]]
