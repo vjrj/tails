@@ -1,3 +1,6 @@
+From the warning page:
+>The solution to both threats is to shutdown and restart Tails every time you're using a new identity, if you really want to isolate them better.
+
 It would be nice if there was a "New Identity" option for "Tails". Or you can call it a "quick reset-restart"/"fresh start" option.
 
 Whenever I want a fresh start, I will just click the button so instead of closing the computer it will clean the memory and will quickly start again. As an alternative, it could also be useful for people who configures Tails using "Tab" at the beginning; it will start Tails using the previous settings. You can also implement this feature with persistence in the future, so we can quickly reset Tails using the same read-only persistent data.
