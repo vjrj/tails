@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-23T14:02:09Z"
+ content="""
+Ok it seems it's impossible to trust anyone where people even don't trust Tor/Tails developers. All I wanted to do is to help people.
+
+Everyone can look at the filenames and download them by themselves. The best way is to use **\"apt-get -d install\"** and write all needed package names like I mentioned before. You are free to delete the links but instead give the list of needed packages-file names for every app. Please consider the suggestions in the bottom of the topic. Maybe you can do this in a more trustable way. I still think it's an important topic.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-01-19T08:15:53Z"
+ content="""
+I would rather boot Tails, then to VPN > Tor.
+There could be all sorts of reasons, but my main one is to be able to log-in to features of the network (such as email) that are only accessible if you are logged in and connected to the VPN.
+The problem is how would I accomplish this? As I said in my previous post Tor always seems to overpower any other network configuration you try to use. As soon as I try to get connected it starts up and doesn't stop.
+
+How would I do this? You all are making references to doing it, so I assume it's possible. Please, anyone?
+"""]]

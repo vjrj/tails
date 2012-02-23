@@ -12,71 +12,71 @@ Thanks in advance for any help !
 
 Grub.cfg created by Multisystem to use Tails
 
-#insmod gpt
-#insmod pc
-#insmod gfxmenu
-#
-#insmod videotest
-insmod tga
-insmod png
-insmod gfxterm
-insmod lspci
-#insmod vbeinfo
-insmod vbe
-insmod ntfs
-insmod chain
-insmod biosdisk
-insmod font
-#http://grub.enbug.org/ThemeFormat
-#http://grub.gibibit.com/Theme_format#colors
-#http://code.google.com/p/burg/wiki/InstallUbuntu
-#http://code.google.com/p/burg/downloads/list
-#http://ubuntuforums.org/showthread.php?t=1195275
-#pour acces a grub2 du bootloader principal modifier dans fichier: /etc/default/grub
-#GRUB_HIDDEN_TIMEOUT=10 #0 par defaut
-#GRUB_HIDDEN_TIMEOUT_QUIET=false #true d'origine
-#sudo update-grub
-#echo -n "Press ESC to see the menu... "
-#if sleep --verbose --interruptible 5 ; then
-#set timeout=0
-#fi
-set default=0
-set timeout=30
-set fallback=1
-search --no-floppy --fs-uuid --set 2A60-4D2F
-set root=${root}
-#http://grub.enbug.org/gfxterm
-if loadfont /boot/polices/unicode.pf2 ; then
-set gfxmode=640x480
-if terminal_output gfxterm ; then true ; else
-# For backward compatibility with versions of terminal.mod that don't
-# understand terminal_output
-terminal gfxterm
-#set gfxmode=auto
-#set gfxpayload=keep
-fi
-fi
-#set locale_dir=/boot/grub/locale
-#set lang=en
-#insmod gettext
-if background_image /boot/splash/splash.png ; then
-#text no sel/fond ecran
-set color_normal=blue/black #1
-#text sel/fond ecran sel
-set color_highlight=green/white #1
-else
-set menu_color_normal=blue/black #2
-set menu_color_highlight=green/white #2
-set color_normal=blue/magenta #2
-set color_highlight=green/white #2
-fi
-#set gfxpayload="1280x1024,1024x768,800x600,640x480"
-#set gfxpayload=keep
-#Ne supprimez pas ce marqueur! / Do not remove this marker!
-#MULTISYSTEM_START
-#MULTISYSTEM_MENU_DEBUT|08-11-2011-21:36:37-912707866|debian2|multisystem-incognito|579Mio|
-menuentry "tails-i386-0.8.1.iso" {
-linux /debian2/vmlinuz root=UUID=2A60-4D2F live-media-path=/debian2 console-setup/variantcode=oss console-setup/modelcode=pc105 boot=live truecrypt config splash vga=788 
-initrd /debian2/initrd.img
-}
+	#insmod gpt
+	#insmod pc
+	#insmod gfxmenu
+	#
+	#insmod videotest
+	insmod tga
+	insmod png
+	insmod gfxterm
+	insmod lspci
+	#insmod vbeinfo
+	insmod vbe
+	insmod ntfs
+	insmod chain
+	insmod biosdisk
+	insmod font
+	#http://grub.enbug.org/ThemeFormat
+	#http://grub.gibibit.com/Theme_format#colors
+	#http://code.google.com/p/burg/wiki/InstallUbuntu
+	#http://code.google.com/p/burg/downloads/list
+	#http://ubuntuforums.org/showthread.php?t=1195275
+	#pour acces a grub2 du bootloader principal modifier dans fichier: /etc/default/grub
+	#GRUB_HIDDEN_TIMEOUT=10 #0 par defaut
+	#GRUB_HIDDEN_TIMEOUT_QUIET=false #true d'origine
+	#sudo update-grub
+	#echo -n "Press ESC to see the menu... "
+	#if sleep --verbose --interruptible 5 ; then
+	#set timeout=0
+	#fi
+	set default=0
+	set timeout=30
+	set fallback=1
+	search --no-floppy --fs-uuid --set 2A60-4D2F
+	set root=${root}
+	#http://grub.enbug.org/gfxterm
+	if loadfont /boot/polices/unicode.pf2 ; then
+	set gfxmode=640x480
+	if terminal_output gfxterm ; then true ; else
+	# For backward compatibility with versions of terminal.mod that don't
+	# understand terminal_output
+	terminal gfxterm
+	#set gfxmode=auto
+	#set gfxpayload=keep
+	fi
+	fi
+	#set locale_dir=/boot/grub/locale
+	#set lang=en
+	#insmod gettext
+	if background_image /boot/splash/splash.png ; then
+	#text no sel/fond ecran
+	set color_normal=blue/black #1
+	#text sel/fond ecran sel
+	set color_highlight=green/white #1
+	else
+	set menu_color_normal=blue/black #2
+	set menu_color_highlight=green/white #2
+	set color_normal=blue/magenta #2
+	set color_highlight=green/white #2
+	fi
+	#set gfxpayload="1280x1024,1024x768,800x600,640x480"
+	#set gfxpayload=keep
+	#Ne supprimez pas ce marqueur! / Do not remove this marker!
+	#MULTISYSTEM_START
+	#MULTISYSTEM_MENU_DEBUT|08-11-2011-21:36:37-912707866|debian2|multisystem-incognito|579Mio|
+	menuentry "tails-i386-0.8.1.iso" {
+	linux /debian2/vmlinuz root=UUID=2A60-4D2F live-media-path=/debian2 console-setup/variantcode=oss console-setup/modelcode=pc105 boot=live truecrypt config splash vga=788 
+	initrd /debian2/initrd.img
+	}
 

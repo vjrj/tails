@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-11-17T06:17:49Z"
+ content="""
+> FIRST OF ALL \"Tails\", chill the F out. Maybe he/she didn't know or think it might be a bug yet. Maybe somebody else has the same issue and a quick fix instead of it being a tails issue.
+
+If something (especially hardware) doesn't work, or behaves weirdly, it's definitely a bug. Reporting a bug with the built-in tool will provide us with logs and hardware information that will be infinitely better than a forum post stating that \"XXX doesn't work\". It's as easy as that, and that's the reason we created that bug reporting tool in the first place.
+
+Another problem is that \"somebody else\" has given bad advices all over this forum regarding \"tails issues\", to our users disadvantage. It's not easy to get a right answer within the Tails threat model and design, but that doesn't prevent some forum users from thinking they understand it while they don't, resulting in incorrect answers floating around. Some people doesn't even bother with that, but just post their hacks that worked for Ubuntu (or other general-purpose distributions).
+
+In general we consider answers from the \"Tails\"-user as being \"the word of god\" and everything else being from pretending prophets :) (that's not to say that some community answers are good -- they definitely are). We are planning to implement a Q&A system (instead of a forum) where the users get points/karma/whatever depending on how good they have answered historically. That will be the base for determining their score for their answers for each new, specific question. We desperately want to get the community involved, but at the same time we only want our users to see answers that really are true within the Tails threat model and design. That's tricky, be we hope such a toold will find the right balance.
+"""]]

@@ -1,0 +1,15 @@
+I followed the instructions "Installing onto a USB stick, for Windows". When I try to boot from  the USB I get the following:
+
+*SYSLINUX 4.05 EDD 2011-12-09 Copyright (C) 1994-2011 H. Peter Anvin at al*
+
+*No DEFAULT or UI configuration found!*
+
+*boot:*
+
+Anything I type in after the prompt boot: I get message:
+ 
+*Could not find kernel image:*
+
+Did I miss something?
+
+

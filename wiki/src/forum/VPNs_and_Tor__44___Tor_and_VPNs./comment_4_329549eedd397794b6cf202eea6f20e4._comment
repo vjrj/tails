@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-16T20:43:49Z"
+ content="""
+> It's not as easy as that.
+
+It's much easier than it seems. VPN before Tor works automatically, because NetworkManager sets up the routing table correctly once it brings the VPN up — the default route will go via VPN. Of course, you need to account for various tunneling on the firewall, and see whether Tor/I2P need to be restarted, but that's pretty much it.
+
+> Not everyone has access to a VPN, and we need something that works for everyone, like what obfsproxy promises.
+
+VPNs have become a commodity — see, e.g., [Hostizzle](http://hostizzle.com/).
+
+> It would be a reasonable use case to support *if* [PPTP] is common enough. In my experience it's not, but I welcome you to prove me wrong with some actual statistics.
+
+Common as dirt in Russia, from what I hear, I think for historical reasons (ISPs outgrowing from local LANs). See [this news item](http://www.linux.org.ru/view-news.jsp?tag=accel-pptp) about *accel-pptp*, for instance.
+
+> I doubt many average Internet users (Tails' intended audience) do this, though.
+
+I think much more than it may seem. In the USA, many people are afraid to run P2P sharing apps from their real IP, in fear of being sued. VPNs are heavily advertised, so people frequently use those for everything, and they are not necessarily tech-savvy.
+
+> If you disagree, add your points to the todo page, and please do the same next time you disagree instead of launching on another ego-trip.
+
+I didn't really intend to sound condescending, just proving a point — that you are thinking hard for reasons not to do something, and ignore the reasons for actually doing it. It's a psychological bias.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-11-29T00:42:41Z"
+ content="""
+The first problem is the 10 or so seconds while the BIOS is loading which is pretty much unavoidable. For people trying to boot from USB this could be quite an issue though. Most computers I've encountered have the bios set to boot from CD by default but not by USB. If I were using tails publicly I would not want to have to fish through the bios settings at all.
+
+As such, perhaps TAILS dev's could incorporate a boot CD for people running TAILS from usb. I know it might seem counterintuitive (why not just have tails on CD) but it might be a nice idea if in fact you could have both, plus a usb key would be needed for my chameleon mode idea anyway and tails works faster from usb. Having redundancy does not hurt either. Perhaps a regular tails ISO booting from CD could be set to check if there is a USB install available to boot from instead. I'm not sure if this is feasible or not - this is only just a small thought.
+"""]]
