@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-26T10:06:37Z"
+ content="""
+> decrypting/encrypting with gedit you can't paste in your keys
+
+I assume you mean \"passphrase\" instead of \"key\". I think you can paste it that way (untested):
+
+ 1. just select your passphrase with the mouse; from now on, don't select any other text
+ 2. ask decryption to the gpgApplet or Gedit
+ 3. in seahorse prompt for passphrase, use *middle* mouse click to paste.
+
+Works?
+
+"""]]

@@ -1,0 +1,3 @@
+I have noticed that my hardware router contains log records of the spoofed mac address changes I have made for my computer each time I boot up TAILS and use macchanger.
+
+Is there a way to expunge these previously used log records on my hardware router (uses) BusyBox, and doesn't their existence work against plausible deniability?

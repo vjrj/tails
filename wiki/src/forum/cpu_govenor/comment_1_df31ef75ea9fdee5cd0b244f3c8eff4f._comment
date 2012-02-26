@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-21T15:46:44Z"
+ content="""
+> is there anyway to easily and simply control clock speed when using a laptop or netbook in tails?
+
+No such GUI out-of-the box, but Tails ships `laptop-mode-tools` which might help you achieve what you want.
+
+On the other hand, if the default CPU speed management is not functionning properly for you, you may want to report this as a bug.
+
+"""]]

@@ -1,0 +1,6 @@
+Im seeing this happen on both portable and desktop machines.. thought it might be to do with the bios system clock but no.
+The default system clock is correct. Tails has a pop-up stating that tor needs an accurate system clock to work properly and to wait. I can do whatever and the clock is fine, but when I connect to the internet/to tor something in the code makes the time jump 5 hours ahead.
+
+I've logged on to test this and its saying 4:00 AM right now which is way off. why is the time correction for tor script forcing me to access tor with a completely inaccurate time? I don't understand.
+
+Thanks all :)

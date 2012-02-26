@@ -1,0 +1,27 @@
+Well, y'all noob question. Things are always so obvious when you know and REALLY frustrating when you don't.
+
+Here's what's up:
+
+Downloaded Tails and verified integrity. I can't get the bugger to boot from the CD-RW.
+
+Yes I have read the Ubuntu installation instructions even downloaded the individual CD burning software used in the examples. Nothin'
+
+Burning with "BurnAware" Finally.
+
+Burned the original,as downloaded, ISO directly, Nothin'
+
+Extracted original ISO first then burned on CDRW, nothin'
+
+Copied the img file(from [BOOT] directory, then the extracted directories from original image, nothin'
+
+Copied the img file(from [BOOT] directory, then the unextracted, original ISO,  Nothin'.
+
+Perhaps its just as simple as the wrong burning software? I've been trying the burn as 'Boot CD' option in BurnAware.
+
+Ideas, helps anything?
+
+Thank you all in advance.
+
+Really could use some specific guidance here, as the Ubuntu info just doesn't do it in all instances,I am working in Windows 7.
+
+

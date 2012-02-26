@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-27T09:27:00Z"
+ content="""
+This will (very probably) be fixed in Tails 0.10.1, coming out in a few days.
+
+As a workaround, you may want to try setting your hardware clock to UTC, start Tails 0.10 again, and report back.
+
+"""]]

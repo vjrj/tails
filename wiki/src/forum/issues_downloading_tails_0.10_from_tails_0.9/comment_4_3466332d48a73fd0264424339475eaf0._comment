@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-11T12:00:20Z"
+ content="""
+> [[WORKAROUND: Get downloads larger than 64MB|forum/WORKAROUND:_Get_downloads_larger_than_64MB]]
+
+To make your life easier, just follow comment 1 on that thread instead, i.e.:
+
+0. Right-click the \"Onion\" icon -> Preferences in Iceweasl to enter the Torbutton preferences.
+  0. Select \"Use custom proxy settings\".
+  0. Clear all fields on the rows for \"HTTP Proxy\" and \"SSL Proxy\".
+  0. Press the \"OK\" buttom.
+0. Tools -> Add-ons: Select \"FoxyProxy\" and press the \"Disable\" button.
+0. Restart Iceweasel.
+0. Download as large files as your RAM allows.
+
+To see approximately how large fiels you can download, enter `df -h` in a terminal and check the `Avail` value on the row where `/` is `Mounted on`.
+"""]]

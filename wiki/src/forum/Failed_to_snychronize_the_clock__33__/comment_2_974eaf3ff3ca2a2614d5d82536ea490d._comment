@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-24T17:47:03Z"
+ content="""
+I recently discovered that one of the problems I was having with TAILS was that the clock wasn't synchronizing to the correct time. When this happens, you can reach the check.torproject.org website and Vidalia control panel shows up green, showing that TOR is working properly, but you cannot access .onion sites, however you can reach non-TOR sites without any issues. I'm not sure if this poses a security risk for those attempting to access .onion sites with the clock synced incorrectly or not, but I thought it might be a good thing to mention, since many people may be under the false impression that TOR is synced correctly when in fact it isn't. 
+
+The error appears to be caused when it contacts sites for security certificates. I have tried to log the error and send it to TOR, but it doesn't appear that I can transfer the bug information through TAILS.
+
+In my case TOR syncs 5 hours and 15 minutes ahead when it is syncing incorrectly and I believe 3 hours and 15 minutes when it syncs correctly. 
+
+I'm not sure if anyone else is having the same problem, but I thought it might be worth mentioning.  
+"""]]
