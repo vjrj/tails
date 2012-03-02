@@ -1,0 +1,26 @@
+**1-** I don't have any wired network so when I start Tails it opens Iceweasel, tries to connect check.torproject.org and fails. If I want to use check.torproject.org, I should enter my pass for wireless and manually connect to that page.
+
+So please configure Tails to not start Iceweasel & check.torproject.org automatically if there's no wired network (or any automatically connected network after persistence). It should work same as TBB, open Iceweasel after connecting to Tor.
+
+**2-** And here's a different issue, it can be dangerous, I'm not sure. If you check the connections from the "Network Map" in Vidalia (after starting Tails & connecting to Internet), you will see some automatic connections, here are what I remember of them:
+
+* 8.8.8.8:53
+* wikipedia
+* google
+* duckduckgo
+* check.torproject.org
+* www.l.google.com
+
+Looks like these are telling the world a new Tails user connected to Internet.
+
+The reason could be, the default Iceweasel searchplugins are different from the default "Firefox" searchplugins. In Iceweasel, the icons of the searchplugins are added as links so probably it tries to connect to all of them at once at beginning (I can't still see their icons while using Iceweasel), in Firefox they are integrated into the xml files. In TBB (so in Firefox), no connections like these happening. Please replace all default searchplugins with Firefox defaults.
+
+Edit: But... when testing without Iceweasel, the same connections happened again. So I don't know which program's connecting to them. But replacing searchplugins would still be nice, we can't see the icons of Google, DuckDuckGo (look at 3.), Wikipedia. 
+
+Also when checking connections again I've seen these once (sony.com mitre.org squat.net planet.squat.net tails.boum.org). I didn't do anything which can lead to such connections. But I can't see them anymore.
+
+**3-** Please change the alternate search engine from scroogle to duckduckgo or startpage in Torbutton settings. And when are you going to delete the duplicate DuckDuckGo from searchplugins? (both uses SSL)
+
+**4-** I also can't get any sound with Tails 0.10.1 on my laptop. It's too low to hear (can hear little on some music). Had the same problem on my friend's laptop. Didn't see this issue before 0.10.1, Wikipedia.
+
+**5-** There's a new version for Truecrypt.
