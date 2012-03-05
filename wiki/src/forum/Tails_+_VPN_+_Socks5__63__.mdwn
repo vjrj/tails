@@ -1,0 +1,14 @@
+Is it possible/smart or even "logical" to use Tails with this type of setup:
+
+Open Wifi > VPN > RDP/VPS > VMWare Tails > Socks5 > Browse Web 
+
+If this setup is even remotely possible:
+
+1. Is it "redundant"?
+2. Does it actually open up more possibilities of being tracked?
+3. Is it in the right order?
+
+BTW: VPS/RDP/VPN providers I will use are trusted sources. 
+I need to include the use of socks because it gives me more flexibility. 
+
+Any feedback or suggestions will be appreciated!!
