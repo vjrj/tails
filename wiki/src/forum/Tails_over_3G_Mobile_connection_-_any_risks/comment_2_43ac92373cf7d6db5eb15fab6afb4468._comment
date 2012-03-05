@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not really..."
+ date="2012-02-29T19:41:06Z"
+ content="""
+Not really, but if you are using the modem to stay anonymous, remember one thing - if you change just the SIM card, that won't help your anonymity. Your IMEI is still sent along, so change the modem once in a while. Why not just change the IMEI? Because it's meant to be a permanent ID of a mobile network device and therefore changing it is illegal in most places.
+"""]]

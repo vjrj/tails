@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-01T23:06:48Z"
+ content="""
+> Will tails run on a Raspberry Pi?
+
+Not for now. At the moment Tails is only available for the x86 and x86_64 architechtures, while the Raspberry Pi is based on ARM.
+
+> If not are there any tablets that can run tails? 
+
+Any tablet with an AMD/Intel processor should do I think (just make sure it's processor is x86 or x86_64), and make sure it has at the very least 768 MB of RAM (but 1 GB+ is recommended). To be really sure you'll get something useful, make sure that its wifi chipset/3G modem is supported in Linux.
+"""]]

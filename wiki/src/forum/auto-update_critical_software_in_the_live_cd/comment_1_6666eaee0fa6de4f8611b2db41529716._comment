@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-15T14:36:05Z"
+ content="""
+If you think boot up time and internet usage is too much of a concern, prompt the user for a decision.
+
+It probably only makes sense to deploy small diff backups in any case because otherwise this would be misusing of Tor network bandwidth.
+"""]]

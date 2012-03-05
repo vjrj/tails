@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-17T10:03:47Z"
+ content="""
+The clock in Tails run UTC/GMT time, so basically the further west/east you live from Greenwhich, London, the bigger the difference between Tails' \"shown\" time and your local time.
+
+We have standardized the timezone like this for two reasons:
+
+1. It's not easy to set a relevant timezone depending on language (which currently is the only choice presented to the user at boot), since many big languages are spoken in multiple countires, which usually means multiple timezones.
+2. More importantly, *if* some application leaks you timezone, and observer would then known much more about your physical location.
+"""]]

@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-01T09:58:04Z"
+ content="""
+> The primary use of tails is a browser. Ok, so why all the bulk in the cd?
+
+Your assumption is incorrect. We state the primary uses of Tails in our [[design document|contribute/design/#index19h3]] (the one listed as \"MUST\").
+
+> Is it possible for you to remove the ability for others to drop connect to Tail and drop to a root shell? I notice it's possible to run as root. Root should not be possible!
+
+It is [[planned|todo/better_root_access_control]]. Also see our [[FAQ|contribute/faq#index1h1]].
+
+> Could you include Remastersys so we could remaster it with maybe a few internet tools and or get some bookmarks hard wired into the browser?
+
+We will *soon* ship Tails with [[todo/persistence]] support, which would cover most common customization cases (including bookmarks), and it would do so in a secure manner since any such customizations would be protected by strong encryption. Remastering Tails to get your personal changes into it is simply not a good idea in general. For instance, if you modify the Tails image to include your personal bookmarks, these will be accessible for the CD/DVD in *plaintext*. Hence, if your media ever gets seized by your advertaries, they know much more about you then they would if you used a vanilla Tails that's the same as everyone elses. This applies to *any* change you make -- it leaks information about you and your activities when you use Tails.
+
+> Shouldn't Tails be based upon freebsd or openbsd? Isn't this the real locked down security platform?
+
+See our [[FAQ|contribute/faq#index3h1]]. Beyond that generic answer, we would get utterly crap hardware support if we switched from Linux to any of the BSDs (with Linux we just have crap hardware support :) ). Even *if* some BSD is a more secure choice, there's always the security vs. usability compromise to consider: If you side entirely with security you may get something unusable, either in the sense that users may do the wrong thing which compromises their security, or that they cannot use the tool at all (which would happen with e.g. worse hardware support) and will go back to their old tools that are completely unsafe; either way the user loses, so the net effect of increasing security (while paying for it with usability) can paradoxically be less security.
+"""]]

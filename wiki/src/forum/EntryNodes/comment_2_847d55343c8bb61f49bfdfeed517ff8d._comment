@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-10T10:31:57Z"
+ content="""
+maybe there is someone between you and internet (admin of university network, ISP, etc) who can setup which entry node will spy you, I use PCs at university and million times (linux and windows) I get the same starting IP address. I suppose it is entry node. So, I think someone can setup network and you are always connected to spying nodes, they can have even 10-20 spying nodes so even \"new identity button\" don't help so much. tor can be good, but how much is good tor network... it is big question. therefore I like to use bridges, then i get new IP address which I never saw before. bridges + new identity button maybe can help you. 
+"""]]

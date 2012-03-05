@@ -1,0 +1,3 @@
+I have a .deb Eesytether package.  It works in Ubuntu/Mint.  It installs fine.  I start it up in terminal in Tails and it acts as if it's connected.  But, the Network Manager applet does show a connection.
+
+Any clue on what I need to do?
