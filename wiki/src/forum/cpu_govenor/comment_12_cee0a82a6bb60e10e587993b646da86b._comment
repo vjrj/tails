@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-03-03T16:15:32Z"
+ content="""
+To start with, laptop-mode-tools is not only for spinning down hard-disks.
+
+Thank you for submitting additional information; however, critical information is missing; with laptop-mode-tools disabled:
+
+* what governor is set?
+* if ondemand, does your CPU (in ondemand mode) scale to intermediary speeds such as 1.0 or 1.3 GHz?
+
+And well, no, I don't think we'll add an applet to the panel to workaround this rare issue. Really, it should be *fixed*.
+
+
+"""]]

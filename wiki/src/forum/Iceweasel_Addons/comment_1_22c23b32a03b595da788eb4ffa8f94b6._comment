@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-11T11:33:49Z"
+ content="""
+> Addons are lost after reboot from the usb. How to remain permanently in the new iceweasel addons?
+
+Tails is a [Live system](https://en.wikipedia.org/wiki/Live_cd) so all filesystem changes are lost after a reboot. We will allow certain stuff to stay once we have [[todo/persistence]] in place, but Iceweasel addons are likely not something we'll allow keeping -- messing with them can easily screw up Tails' Iceweasel setup.
+"""]]
