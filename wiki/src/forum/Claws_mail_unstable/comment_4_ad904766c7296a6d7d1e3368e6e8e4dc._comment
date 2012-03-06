@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-15T19:24:31Z"
+ content="""
+I'm back after a new try (see comment 3)
+Nothing's changed with those df or du results.
+I've been having a look on processes shown by top during the bug : nothing special, except perhaps this Xorg peak for an instant (but nothing obvious)
+I also wanted to tell a word about my system : tails 0.10.1, running on usb, with 2Go ram on my computer. The bug is old as far as I'm concerned (since 0.8, perhaps before)
+Hope someone will find what's wrong, or I will try to learn mutt !
+"""]]

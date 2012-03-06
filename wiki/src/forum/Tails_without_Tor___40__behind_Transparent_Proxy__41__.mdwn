@@ -1,0 +1,18 @@
+Hello,
+
+I like to suggest a feature. "Tails without Tor enforcement" What might sound funny at first, absolutely is not meant as a joke.
+
+You have this in your wiki:
+https://tails.boum.org/todo/Two-layered_virtualized_system/
+
+What we are working on is similar:
+https://trac.torproject.org/projects/tor/wiki/doc/TorBOX
+(no binary builds yet, but the guide is easy to follow)
+
+We respect Tails and even use it as a reference how you solved certain things. Tails would fit good as an operating system behind a Tor transparent proxy.
+
+Therefore, perhaps a boot option, "Tails without Tor enforcement" (or some other way) would be useful. Then we could recommend people to use Tails behind the Tor Transparent Proxy. Right now it would create a "Tor over Tor" scenario, which is not recommend.
+
+Theoretically, when used real hardware instant of Virtual Machines for the Tor-Gateway, Tails + Tor Transparent Proxy, should be even more secure than Tails alone. I am interested to hear your opinion.
+
+proper

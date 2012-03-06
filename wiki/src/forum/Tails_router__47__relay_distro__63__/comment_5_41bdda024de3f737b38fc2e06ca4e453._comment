@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-23T13:50:14Z"
+ content="""
+> A simple Google search will turn up DOZENS of anonymous Live-CDs that all do the same thing - run Firefox and Tor. Which is great FOR YOUR PC. But does nothing for YOUR LAN- your house, your business or school.
+
+Torouter will cover this use case. It should be noted that it is *not* a great idea to just transparently Torify the network and not take any further action on the client's -- many applications need special care to really be safe to use with Tor (e.g. a Firefox without Torbutton has many severe issues). In Tails we try make sure that each application we include has the correct modifications/addons/plugins/configurations to not leak sensitive information. Each computer on a Torified network would need the same treatment for it to make sense security-wise.
+"""]]

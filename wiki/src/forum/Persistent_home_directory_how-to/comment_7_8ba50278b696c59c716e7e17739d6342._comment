@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-02-17T12:50:11Z"
+ content="""
+@ comment 5:
+> I am obviously not starting the gnome session in the right startup context for Tails because vidalia doesn't appear in the tray
+
+There's a NetworkManager hook which starts Vidalia for the `amnesia` user when Tor is up etc. We treat the `amnesia` user quite differently in Tails, so using another user is bound to cause you grief.
+
+> and I'm not entirely sure tor is running as debian-tor
+
+If you start Vidalia after the network is completely up you should get the system-wide Tor instance, which is running under debian-tor. If not, you get a Tor instance running as your new user, and that won't be able to reach the network -- only debian-tor is allowed that, everything else is blocked by the firewall. 
+
+> Are you suggesting making home persist on an encrypted drive is a bad idea only because config files therein do not get updated with new Tails releases?
+
+That's the main issue, but I'm sure there may be others. If you carefully read the changelogs, run recursive `diff` against your persistent home and the one in a fresh Tails session and investigate the changes you may have better luck. But there's still many issues (e.g. you will have different iceweasel profiles so the diff will no work etc.).
+"""]]

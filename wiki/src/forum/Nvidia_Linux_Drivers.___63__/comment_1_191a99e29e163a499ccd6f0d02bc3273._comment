@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-27T12:20:38Z"
+ content="""
+Tails doesn't support [[todo/persistence]] (yet) so you can't really install anything to a \"USB install of TAILS\". You could of course install the nvidia drivers on every Tails boot, configure the X server to use it and restart the X server, but then you'd be running proprietary, closed-source code which could be compromised. I strongly recommend *not* doing this.
+
+Why do you want to use the proprietary nvidia drivers? Is something not working with the alternate, open-source drivers we provide (nouveau)? If so, please [[doc/first_steps/report_a_bug]].
+"""]]
