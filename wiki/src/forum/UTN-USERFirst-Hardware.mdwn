@@ -1,0 +1,4 @@
+Why do you use (and pay) these guys? Not using a CA is better than one that is likely to get compromised again. I'd rather have a free self-signed cert which can be included on the iso and out of band verified with signed email. CAcert is an option too but really, no https is fine as well because it prevents the false sense of security people have and instead forces them to use gpg WOT.
+
+Reminder to those that don't remember UTN-USERFirst-Hardware:
+https://blog.torproject.org/blog/detecting-certificate-authority-compromises-and-web-browser-collusion

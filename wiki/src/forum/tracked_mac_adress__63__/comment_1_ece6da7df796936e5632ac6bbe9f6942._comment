@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-02T09:30:08Z"
+ content="""
+Your MAC address can only be seen on the LAN you are connected to, it will never leak out \"on the Internet\" and NoScript is completely irrelevant in this discussion. The only time MAC spoofing *may* be necessary is if you use a public Internet connection that cannot be tied to you in other ways (personal account with your real name details in it or which you paid with credit card etc.).
+
+[[You may also be interested of this post.|forum/macchanger#comment-bf69a3783426271394e7bbca6c0a7757]]
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="same problem as above comments"
+ date="2012-02-12T20:05:13Z"
+ content="""
+Resource is busy. 
+
+sh-3.2# cat tails-i386-0.10.1.iso > /dev/disk1 && sync
+sh: /dev/disk1: Resource busy
+
+
+"""]]

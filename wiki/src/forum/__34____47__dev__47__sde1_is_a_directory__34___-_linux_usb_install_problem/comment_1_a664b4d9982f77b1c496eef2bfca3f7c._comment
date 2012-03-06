@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="short answer"
+ date="2012-02-23T15:03:32Z"
+ content="""
+> My usb stick is partitioned in two - one ext2 for tails and one ext4 for storage.
+
+I assume here that it is your *destination* usb stick. Be carefull, both partition will be deleted during the installation!
+
+The destination path should look like /dev/sde, instead of /dev/sde **1**, perhaps it's the reason why you get this error message?
+
+--bulo
+"""]]
