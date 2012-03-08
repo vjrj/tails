@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-08T09:38:03Z"
+ content="""
+It's working for me using VirtualBox 4.1.8 on a Debian Wheezy host. Shared folder are automounted on `/media/sf_<share-name>`
+"""]]
