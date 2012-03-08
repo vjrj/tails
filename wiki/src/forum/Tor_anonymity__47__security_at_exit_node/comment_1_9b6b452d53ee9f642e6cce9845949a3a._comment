@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-07T18:52:54Z"
+ content="""
+> if an organization wanted to detect and monitor political dissidents, etc., would not that organization be more likely to set up a Tor exit node to monitor Tor traffic than to monitor non-Tor traffic?
+
+The point is that this organisation is theoriccaly not able to know where you are connecting from, and so who you are.. theoriccaly. Of course if you use nominatives datas (email account..) or identify to a service linked to you (for example a forum that you already used without Tor), there is a possibility that the Tor exit node identify you. There are plenty of stuff Tor doesn't protect you from, most of them are explained on the Tails' [[warning|doc/about/warning]] page, and on [this page](https://trac.torproject.org/projects/tor/wiki/doc/TorALaymansGuide).
+
+That make sens, but, IMHO
+
+> using Tor potentially provide less anonymity and security than using higher traffic volume non-Tor connections?
+
+It's possible to record/filter/target huge amounts of datas, even in the middle of a high traffic volume connections. See [this article by the Wall Street Journal](http://online.wsj.com/article/SB10001424052970203687504577001911398596328.html) and [this analysis ](http://reflets.info/bluecoats-role-in-syrian-censorship-and-nationwide-monitoring-system/)
+
+Hope that help
+
+--w
+"""]]
