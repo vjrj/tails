@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="update first"
+ date="2012-01-08T18:57:04Z"
+ content="""
+If you're running Tails, you need to run `apt-get update` first in order to get the packages indices before you attempt to install anything with `apt-get`.
+
+"""]]

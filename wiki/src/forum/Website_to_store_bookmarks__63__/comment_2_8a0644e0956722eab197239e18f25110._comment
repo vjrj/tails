@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-12T13:56:46Z"
+ content="""
+A better suggestion, in the Bookmarks window press Backup and save the .json file to anywhere you want (e.g. encrypted container or volumei). Repeat same process whenever you update your bookmarks. In this way, I use my bookmarks on TBB on Windows and on Tails.
+
+There's no need to waste time with text files. Or with unreliable or untrustable services.
+"""]]

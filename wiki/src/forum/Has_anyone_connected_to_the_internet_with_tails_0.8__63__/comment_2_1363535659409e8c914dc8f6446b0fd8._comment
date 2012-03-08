@@ -10,7 +10,7 @@ Many times, as have others than me as is evident from our IRC channel and other 
 
 > I'm thinking to come back to tails 0.7.2 because I can't use the internet with the new one.
 
-There seems to be recurring issues with our time sync sources that have caused connection issues (Tor needs an accurate clock to be functional), but then you should get a warning pop-up stating that this happened. However, both 0.8 and 0.7.2 use the same time sources, so if you do not experience the same issues with 0.7.2 there might indeed be something wrong with 0.8. If this is the case it'd be good if you could follow the steps for [[using our bug report tool without internet access|bug_reporting#index2h2]], and also send us the file /var/log/htpdate.log.
+There seems to be recurring issues with our time sync sources that have caused connection issues (Tor needs an accurate clock to be functional), but then you should get a warning pop-up stating that this happened. However, both 0.8 and 0.7.2 use the same time sources, so if you do not experience the same issues with 0.7.2 there might indeed be something wrong with 0.8. If this is the case it'd be good if you could follow the steps for [[using our bug report tool without internet access|doc/first_steps/report_a_bug]], and also send us the file /var/log/htpdate.log.
 
 > I used the dd command from a Linux Live CD to burn it to a USB as follows [...]
 

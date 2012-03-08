@@ -1,0 +1,24 @@
+Editing .po files with Poedit [modifies the wordwrapping of the sentences](http://www.poedit.net/trac/ticket/25).
+
+**How to reproduce?**
+
+1. Open a .po file with Poedit
+2. Save without editing
+3. Compare the saved file and the original
+4. A lot of strings falsely seems to be modified
+
+**Why is it bad ?**
+
+1. it means commit diffs are harder to read (numerous false positives, so smaller signal-to-noise ratio)
+2. it means history is quite less useful
+3. it means disk space in the repo is wasted for no good reasons
+
+**A solution** could be to rewrap the .po files before to commit, with msgcat:
+
+*msgcat --width=80 -o your_output_file.po your_input_file.po*
+
+**But** the fact is that all the strings to translate are not wrapped to the same width:
+doing msgcat --width=80 on some files (without editing with Poedit) also creates some false positives when committing..
+
+I shyly suggess to rewrap all the .po files to a defined width and invite the translators and documentation producers to wrap the files to the same width **OR** to give up this wordwrapping (no needs to msgcat after Poedit anymore, that can be hard for some contributors), depending on how usefull wordwrap is (I have no clue about this)..
+

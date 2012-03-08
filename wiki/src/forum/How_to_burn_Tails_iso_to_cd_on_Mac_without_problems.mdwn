@@ -1,0 +1,15 @@
+I burned a number of drink coasters trying to get bootable cds from Tails isos using the GUI tool on Mac.
+
+The following way is foolproof. Open a terminal, cd to the folder where you downloaded tails and and type:
+
+$ hdiutil burn tails-i386-x.xx.x.iso
+
+Done.
+
+This follows on my other recent post answering someone who needed to burn the iso to a usbstick on Mac.
+
+
+
+
+
+

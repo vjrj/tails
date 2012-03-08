@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="same problem"
+ date="2011-11-30T17:13:23Z"
+ content="""
+i have two systems side by side, i can refresh the tor browser bundle over and over and keep getting to hidden wiki, but on the tor box on the same network sitting right next to it gives a 504 error, ive tried rebooting the tails box 5-6 times with no change.
+
+Some things I have tried:
+
+rebooting tails
+messing with clock/time/timezone
+new identity
+whining on IRC
+
+So I believe I have ruled out system clock and node problems.. what other issues could cause a hidden service timeout?
+"""]]

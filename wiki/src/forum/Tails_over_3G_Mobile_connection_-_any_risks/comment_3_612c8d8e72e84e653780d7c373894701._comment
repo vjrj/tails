@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-29T23:35:19Z"
+ content="""
+And the 3G technology keeps track of your exact localisation, so it's perhaps worse than other solutions, like macchange + open wifi access (please notice that macchange and wifi is quite tricky: it's hard to know if your *real wifi card mac adress* is not leaked during the computer boot, so before it's \"macchanged\")
+
+
+> Why not just change the IMEI?
+
+Is it possible, and how?
+"""]]

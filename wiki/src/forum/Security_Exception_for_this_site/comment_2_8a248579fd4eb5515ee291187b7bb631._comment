@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-03T17:45:52Z"
+ content="""
+Here's the info:
+
+Issued To
+Common Name (CN)          boum.org
+Organization (O)          <Not Part Of Certificate>
+Organizational Unit (OU)  <Not Part Of Certificate>
+Serial Number             OA:4C:CD
+
+Issued By
+Common Name (CN)          CA Cert Signing Authority
+Organization (O)          Root CA
+Organizational Unit (OU)  http://www.cacert.org
+
+Validity
+Issued On                 6/3/2011
+Expires On                6/2/2013
+
+Fingerprints
+SHA1 Fingerprint          E1:5D:87:49:7F:A1:21:75:8B:6B:1A:85:DC:EF:70:E1:C6:7C:82:57
+MD5 Fingerprint           B9:5E:C7:8C:61:7A:09:EB:C0:A9:60:F2:E0:C6:11:09
+
+Thanks.  I'll delete the one I have and get another via torrent.  But I'm still interested in the certificate.
+"""]]

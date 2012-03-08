@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-22T23:36:17Z"
+ content="""
+... looking at the ubuntu PR it looks like they lockdown all internet accesss by removing all support for any form of networking (lan, wifi, bluetooth). So if you want to use the net you would have to stick with tails, privatix or liberte.
+
+
+"""]]

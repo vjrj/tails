@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Solution, hopefully."
+ date="2012-01-11T06:58:22Z"
+ content="""
+1. If you get this prompt, it's because you *already* opened a vim editor on this file, and either let it open, or closed it in a non-clean way. Retry from a sane starting point.
+2. In vim, \"save and quit\" is written `:wq`.
+
+Good luck!
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-25T01:10:42Z"
+ content="""
+I would also be curious as to the process for making mac bootable usbs. Perhaps you could try another debian live CD that has some instructions for mac or a user forum to as qustions and apply what you learn there to here. In fact, any kind of instructions for other distros should be relevant to some level.
+
+Also, if you stick t the CD and have 3-4gb of ram on your mac, you can append the \"toram\" boot option and everything loaded from the CD will be loaded into ram. The result should be very snappy...
+"""]]

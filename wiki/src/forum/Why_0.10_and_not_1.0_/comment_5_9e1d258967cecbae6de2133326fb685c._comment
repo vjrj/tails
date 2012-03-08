@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="alanford"
+ date="2011-12-31T13:08:23Z"
+ content="""
+I will be happy to get 0.10 :):):) 
+
+is it possible to include wuala for linux? wuala is online secure storage (but I am not sure if installation of software demand Java or just Javascript). CryptoMX and OpenStego or some other stenography softwares would be good too. I would like that tails has more than pgp, there are other types of encryptions (to encypt voice, etc) and hiding encrypted text in pictures. 
+
+CryptoMX is a collection of encryption, hashing, conversion, and steganography tools. It will work on any OS with a JavaScript capable browser. OpenStego is for including encrypted files into pictures.
+
+and in iceweasel options it would be good to switch off saving of passwords. and add-on called cipherbox can give us possibility to make online encryption (secret message inside of your blog, for example, only person with cipherbox and password can see message and decrypt it). 
+
+I think tails can improve itself with more encryption tools, so, users have bigger choice.
+"""]]

@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-01T23:35:26Z"
+ content="""
+And you will probably need to desactivate your network device before to macchange it :
+
+So, as root :
+
+* ifconfig *eth0* down (assuming your network device is eth0)
+* macchanger -a *eth0*
+* ifconfig *eth0* up
+
+**Before**, you should have a look to this :
+
+<https://tails.boum.org/forum/macchanger/> and 
+<https://tails.boum.org/todo/macchanger>
+
+
+-- bulo
+
+"""]]

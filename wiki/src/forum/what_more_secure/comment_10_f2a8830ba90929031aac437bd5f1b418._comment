@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Just try it"
+ date="2012-01-23T09:33:36Z"
+ content="""
+> plus who knows what'll happen when tails starts erasing memory upon shutdown.
+
+This is the kind of things we [[**do** test|contribute/release_process/test/erase_memory_on_shutdown]].
+
+"""]]
