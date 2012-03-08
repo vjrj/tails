@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Starting Browser"
+ date="2012-03-08T16:09:47Z"
+ content="""
+Even I am also facing the same problem. According to the terms of my ISP I have to first visit their website and login to start my browsing. When I tried tails it was trying redirect to the encrypted format of any website I am trying to visit, and finally failing to do so. What should I do now? I am even unable to disable TOR.
+"""]]
