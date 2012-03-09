@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="HELP!!! "
+ date="2012-02-11T18:12:19Z"
+ content="""
+sh-3.2# cat /Users/ileanamar/Downloads/tails-i386-0.10.1.iso >/dev/disk1 && sync
+
+sh: /dev/disk1: Resource busy
+
+"""]]
