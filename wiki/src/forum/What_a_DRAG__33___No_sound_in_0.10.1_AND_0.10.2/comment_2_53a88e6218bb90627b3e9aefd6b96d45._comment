@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-11T17:36:57Z"
+ content="""
+I had the same problem, on my laptop since 0.10.1 there's a \"Speaker\" channel in Volume Control set at the lowest. I have to change it everytime after booting. Is it same for you?
+
+[[todo/unmute_Speaker_mixer_channel]]
+"""]]
