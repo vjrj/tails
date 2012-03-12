@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="USB two partitions"
+ date="2012-03-12T03:17:16Z"
+ content="""
+I installed the ISO manually and made it bootable with gparted and syslinux in the end. The spare partition is for encrypted storage and works great from tails and I can't see any inconvenience
+
+How you do this?
+"""]]
