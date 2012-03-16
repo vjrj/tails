@@ -1,0 +1,13 @@
+hi,
+
+i used to be able to get tails running, on my own internet connection (both wireless and with a cable) situations have changed now, and i bought a new computer, and have no internet at home no more.
+So now i working with a new machine in coffeeshops.
+Sadly, i can't get tails working, or better, i cant connect to the internet using tor.
+
+tried 2 times, first time the vidalia log gave me warnings about a problem bootstrapping, it got stuck at 10%
+in the end it said tor was not running
+the second time i got an 'error: Reading config failed -- see warnings above'
+warnings were about /var/run/tor not owned by this user.
+anybody andy ideas as how to fix this?
+
+help would be appreciated
