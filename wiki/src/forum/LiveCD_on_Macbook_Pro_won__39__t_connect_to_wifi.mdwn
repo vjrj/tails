@@ -1,0 +1,18 @@
+I'm running Tails 0.10.1 from a CD on a MacBook Pro 13" (early 2011). When running OSX, the computer connects to a wifi network which broadcasts it's SSID and uses WPA Personal authentication, no problem. When I boot into Tails, the network list shows "Wireless Networks - Disconnected."
+
+When I manually add the network from the network utility, there is no change -- no connection. When I use the "Connect to Hidden Wireless Network" option, I immediately get a pop-up window "The wireless network has been disconnected".
+
+here is the result of running iwconfig as root:
+
+root@amnesia:/home/amnesia# iwconfig
+lo        no wireless extensions.
+
+wlan0     IEEE 802.11bg  ESSID:off/any  
+          Mode:Managed  Access Point: Not-Associated   Tx-Power=0 dBm   
+          Retry  long limit:7   RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:on
+          
+eth0      no wireless extensions.
+
+When I connect the computer to a wired network while running Tails, everything works fine.
