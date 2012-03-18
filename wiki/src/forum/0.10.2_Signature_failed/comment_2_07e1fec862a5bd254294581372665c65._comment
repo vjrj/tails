@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Don't Rely on Checksum Matches!"
+ date="2012-03-18T14:00:01Z"
+ content="""
+I would like to see a response to this from the TAILS devs.
+
+As I understand it, a checksum only verifies that your download did not become corrupted. 
+
+If the checksum of your download matches the checksum of the file on the server, then you know that the two are the same.
+
+But who is to say that the file on the server is not actually a malicious trojan that only /appears/ to be the file you expect? Surely if an attacker gained access to a server and was able to replace a legitimate file with a trojan, that same attacker would have no problem replacing any of the checksum files or mentions with the checksum of his trojan file.
+
+Verifying /signatures/, therefore, is the only way to verify the /authenticity/ of files that are downloaded.       
+
+"""]]
