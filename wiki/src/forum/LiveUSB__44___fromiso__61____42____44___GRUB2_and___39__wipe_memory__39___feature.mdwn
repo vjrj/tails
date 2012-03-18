@@ -1,0 +1,50 @@
+Hi!
+
+At first, I want to congratulate and thank Tails developpers/maintainers for their work (the Live System itself, of course, AND this website, documentation, etc.)
+
+Secondly, the title of this thread is too long, but... this is what I want to talk about: it seems there are three main ways to create a Tails LiveUSB. I resume them for people who don't know:
+
+1. by dd'ing the iso image on a whole USB stick.
+2. by copying the iso image on a partition of an USB stick, and properly setting the bootloader.
+3. by copying the CONTENT of the iso image on a partition of an USB stick, and setting the bootloader.
+
+The first method is very easy, works fine, but has a lot of annoying secondary effects (about upgrade, persistent data, and maybe more).
+I have understood that Tails developpers have balanced a time between the second and the third methods, and it seems they have choosen the last one. I don't know if the discussion is closed now.
+
+My post is to say to people who prefer the second method (as me) and optionally use GRUB* as bootloader: the 'wipe memory on shutdown' feature seems to not work, but this can be fixed. Follow me...
+
+The first line of my grub.cfg is something like:
+    set uuid=01234567-89ab-cdef-0123-456789abcdef
+(where 01234567-... is the UUID of the filesystem I want to use: this is the first partition - 1GB - of a 2GB USB stick. Use blkid to know it)
+
+Here is one of my menu entries:
+
+    menuentry 'The (Amnesic) Incognito Live System (Español)' --class debian --class gnu-linux --class gnu --class os {
+        savedefault
+        set gfxpayload=keep
+        search --no-floppy --fs-uuid ${uuid} --set=root
+        loopback loop /tails.iso
+        set root=loop
+        linux /live/vmlinuz initrd=/live/initrd.img boot=live live-media=removable-usb fromiso=/dev/disk/by-uuid/${uuid}/tails.iso config noswap nopersistent noprompt timezone=Etc/UTC block.events_dfl_poll_msecs=1000 splash quiet locales=es_ES.UTF-8 keyboard-layouts=es ${spec_opts}
+        initrd /live/initrd.img
+    }
+
+The interesting thing is the line beginning by the *linux* command:
+
+1. It seems there is no need to add the 'initrd=/live/initrd.img' parameter. And yes, there is no need to add it to properly boot the system. But this parameter has been added because in Tails, the script used to overwrite /etc/default/kexec is bootloader dependent! There is no problem with syslinux-family bootloaders, but if you use grub2 without this parameter, the KERNEL_IMAGE and INITRD variables in /etc/default/kexec are empty, kexec has nothing to load, and so the 'wipe memory' feature included into the initramdisk cannot be launched when the computer is halted/rebooted.
+
+2. The 'fromiso=/dev/disk/by-uuid/${uuid}/tails.iso' parameter makes the iso image of Tails is searched at the root of the filesystem with the given UUID, and nowhere else: if the file exists at this place, other partitions are ignored; otherwise, if I remember what I've read two months ago in a live-initramfs script, 'live-media=removable-usb' becomes the fallback behaviour.
+
+3. The '${spec_opts}' parameter refers to 'special options'. This variable is empty by default and can be set to something if one or two of the following menu entries is(are) selected before launching the one given in the example above.
+
+Code:
+
+    menuentry 'Fake WindowsXP desktop' {
+        set spec_opts="${spec_opts} winxp"
+    }
+    menuentry 'Enable Tor brigdes feature' {
+        set spec_opts="${spec_opts} bridge"
+    }
+
+I hope this can help other people.
+And sorry, I'm not an english major.
