@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-21T11:36:02Z"
+ content="""
+Issue resolved. It was, for some reason, creating a duplicate network and attempting to connect to the network and its clone simultaneously. 
+"""]]
