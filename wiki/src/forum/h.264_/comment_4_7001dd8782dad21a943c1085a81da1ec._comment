@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="It's on the way... sort of..."
+ date="2012-03-21T08:34:24Z"
+ content="""
+The \"Mozilla Folks\" have just decided to support h.264 (as well as other \"native\" codecs) installed on the users' systems... so it'll soon be supported in firefox/iceweasel/whatever ...but... there's the rub... \"native\" and \"installed on the system\".
+
+Firefox will only be using what you have installled - being horribly patent encumbered they can't do any decoding themselves... and being horribly patent and royalty encumbered, I don't suppose there'll ever be a suitable codec built into Tails... well, not for the next 20 years or so anyway :-)
+
+Still, once codec support lands in the Fox it'll hopefully just be a matter of running the appropriate .deb from Medibuntu to install the codec. Fingers crossed!
+
+Why won't the world just start using Dirac/Schro FFS? :-(
+"""]]
