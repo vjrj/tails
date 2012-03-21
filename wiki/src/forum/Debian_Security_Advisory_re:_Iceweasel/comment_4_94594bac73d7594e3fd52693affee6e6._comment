@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-03-19T23:22:57Z"
+ content="""
+Disabling Javascript would mitigate many of the vulnerabilities disclosed in the last couple of years. Certainly more than half, maybe even 80-90% but not all. For example CVE-2012-0456 still applies - you just need to open a crafted SVG.
+
+NoScript instead of globally disabling JS is not really a secure solution in the context of Tor because any exit note can just inject malicious scripts on a bogus **http**://addons.mozilla.org iframe. Sadly NoScript has no option to whitelist specifically only \"secure sites\" as in **https**://addons.mozilla.org
+
+If you have reason to believe that your adversary employs skilled exploit writers you should indeed stop using Tails in case of any high profile security risks reported in network facing software until Tails incorporates above security features that may or may not make it into wheezy. (let me just mention here again that Debian is the last \"big\" distro that doesn't use neither gcc hardening nor any LSM or security related kernel patch sets. If that's too much \"lingo\" let me rephrase: Debian got about the same state of anti-exploit security as Windows XP Service Pack 2 released 2004. Tails seems to partially already compile some critical parts with hardening enabled, I think the tor itself for example but not Iceweasel)
+"""]]

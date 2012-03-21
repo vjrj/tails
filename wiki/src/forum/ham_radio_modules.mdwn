@@ -1,0 +1,47 @@
+Found this blog online, anyone care to comment?
+
+
+"Tails (LiveCD) is crap, and I'm being nice here. Bloated, contains HAMRADIO and PACKET RADIO modules which no one in their right mind would use on a distro aimed at Tor use, I don't even believe 1% of Linux users use them, yet they're generated right there in the directories. Google about ham radio / packet radio modules and their use over wireless devices, ethernet, and sound cards, there's some serious shady actions going on I can tell you from my observations with different distributions and these driver modules being rolled into them on many distributions of Linux.
+
+The first agenda on your boot-to-Linux distribution is to check for these likely SPOOK friendly modules, generated in these two directories on Ubuntu, Debian, and some other distributions. First, DELETE all of your kernel headers and compiling tools so the SPOOKS can't reload them, install ARPWATCH and watch for ARP and DNS poisoning.
+
+Now look for these modules and DELETE THEM with sudo or su depending on your distro: (kernelversion below should be replaced by your kernel version, you can just hit TAB once you're in /lib/modules since there should only be one kernel on your drive)
+
+/lib/modules/kernelversion/kernel/net
+^ in that directory if you don't use bluetooth, delete everything in bluetooth dir
+^ while you're there, locate the following directories and delete the contents:
+directory names: can, ax25, x25, rose, netrom, ipx, appletalk
+delete the subdirectories, too
+
+run the killall command with sudo to stop bluetoothd and the bluetooth applet if you don't use them (I wouldn't!), and check lsmod | grep bluetooth, it's running and you should disable it, so when you type sudo rmmod bluetooth it'll say two other processes are using it, rmmod both of them, one of them is rfcomm, then remove bluetooth.
+
+now venture into:
+
+/lib/modules/kernelversion/kernel/drivers/net
+^ in this directory, if you don't use bluetooth, delete everything in bluetooth dir
+^ locate the following directories and delete the contents:
+directory names: can, ax25, x25, rose, netrom, ipx, appletalk
+
+ALSO: in one of the above top dirs, you'll find a HAMRADIO directory, delete everything inside. Some of these modules are blacklisted in a blacklist rare conf file, but this DOES NOT prevent them from being loaded, especially by SPOOKS/hacker slime.
+
+If you're on a LiveCD install, don't bother removing them it's futile because the CD itself contains the headers and modules which the BACKDOOR BANDITS which control the airwaves can REINSTALL.
+
+To get information on these modules, type modinfo and the module name, for example, you're in an ax25 directory, type modinfo ax25 and it will tell you more about the module, but many modules don't say anything, which leads me to believe there's more PACKET RADIO/HAMRADIO spyware located within these modules apart from the ones I've mentioned. There's no earthly good reason for these modules to exist, nor kernel headers, on a Linux distro vanilla install, ESPECIALLY NOT ON TAILS which should be geared towards the support of PRIVACY.
+
+And why does my cd-rom drive light flash like crazy when I'm sitting at the Tails desktop with no programs running aside from the default? Why is it so bloated, why so many applications? LESS IS MORE! I recommend everyone NOT use Tails. I couldn't believe my eyes when I saw CUPS daemon was loaded, on a security distro LiveCD? Pllllease...
+
+People, if you want to make a CD geared towards privacy, cut down the apps to only those required, let the users decide if they want to add potentially buggy packages which may affect their privacy and security and for Buddha's sake, GET RID OF THE HAM RADIO/PACKET RADIO modules! Do you REALLY believe anyone is using any of these modules with Tor? If you do I have a bag of magic beans to tell you. And what the heck is CAN? A protocol for BANKS? You can't tell me this is something you need on such a CD.
+
+You folks need to strip your distro down to the bare basics and start over, what you have, in my opinion, is a bloated messy .iso of junk, thrown together without serious thought to privacy and security of end users, with Tor just happening to be included.
+
+Keep tabs on the activity of your system with snapshots and a simple command:
+
+sudo find /usr/bin -mtime -60
+
+(60 equals 60 minutes)
+
+Turn your system on, boot from Tails or any other LiveCD and wait for a day, maybe two, maybe three, and issue that command to discover files having been modified and secured against virus scanning with various tools. It's a field day for LiveCDs which include kernel headers, ham/packet radio modules, and applications which are likely to contain bugs.
+
+When you discuss this on-line, which I see little discussion of, or any serious security matter involving Linux, the SPOOKS, shills, or the unintelligent will label you a conspiracy nut, ask you why are you so paranoid, lock the thread, shuffle the thread (sock puppet users posting quickly to other threads so move yours down to become buried and unnoticed), move the thread (usually to an area of the board which is neglected by the public or where the public has no read/write access to threads), and/or delete your user account and your posts.
+
+WAKE UP!"

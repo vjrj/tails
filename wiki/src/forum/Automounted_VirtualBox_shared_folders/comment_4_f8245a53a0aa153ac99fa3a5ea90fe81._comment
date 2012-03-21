@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-03-10T08:46:25Z"
+ content="""
+It works!!  Thank you, so much!  
+
+Although I would give one caveat.  One of the ways to identify a user through a web browser is with screen resolution.  If you're really concerned about hiding your identity you might NOT want to use VBoxClient --display, especially if you're using a slightly non-standard resolution.
+"""]]

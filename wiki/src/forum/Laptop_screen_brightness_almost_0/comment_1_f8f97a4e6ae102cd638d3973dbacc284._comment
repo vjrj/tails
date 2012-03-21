@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="alfredx8"
+ ip="127.0.0.1"
+ subject="Brightness tip"
+ date="2012-03-07T21:44:59Z"
+ content="""
+Hi, try searching a file duplicated called \"brightness\", each one control the brightness display, open it with gedit. The external monitor will have a valor higher to 0, while the main display have 0, change this valor. Maybe it not remain on reboot. It seems there's workaround in newest kernel.
+"""]]

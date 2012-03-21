@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-12T11:37:40Z"
+ content="""
+> Configure your applications to use the SOCKS proxy.
+> If there is no way to do so,t ry to start your program using torsocks.
+
+FYI, the actual command to use in Tails would be
+
+    torify <command>
+
+for example
+
+    torify xchat
+
+"""]]
