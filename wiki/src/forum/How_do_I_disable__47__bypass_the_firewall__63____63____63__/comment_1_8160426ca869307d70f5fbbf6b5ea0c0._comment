@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-24T18:28:58Z"
+ content="""
+This known issue has already been discussed on [[todo/add_support_for_free_wifi_hotspots]]. An \"unsafe browser\" should be shipped in next Tails version as it has been implemented in the [`feature/unsafe-browser` branch](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/unsafe-browser).
+"""]]
