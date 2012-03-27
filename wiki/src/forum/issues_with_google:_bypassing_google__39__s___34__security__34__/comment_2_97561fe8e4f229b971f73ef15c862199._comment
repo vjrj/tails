@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="hmm"
+ date="2012-03-27T01:45:28Z"
+ content="""
+You could try using a proxy close to your usual location, in addition to Tor (ie. after the exit node [computer->Tor->proxy->Google]. Don't know how secure that would be, though, I guess it depends on the proxy. 
+
+Remember that all Tor exit nodes (the IP everyone else sees) are on a public list, so all the services you connect to, like Yahoo, Facebook, Gmail etc know it's Tor you're using to connect. They probably feel like they have to have some kind of security measure in place, because if somebody were to attack your account, they would most likely anonymise themselves using something like Tor.
+"""]]
