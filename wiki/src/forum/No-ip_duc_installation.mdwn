@@ -1,0 +1,5 @@
+does anybody knows how to install the no-ip duc?
+
+I've been trying to do it but I am not able to use the shell as root because when I write 'su' in the shell they ask me for a password that I haven't set. And I'm afraid that sudo does not work for install this.
+
+Sorry for my english.
