@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Why wget?"
+ date="2012-03-29T06:48:04Z"
+ content="""
+I use aria2c (packaged as aria2) for all my downloads. It's a really first rate tool.
+"""]]
