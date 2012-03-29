@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Puppy and Security: The Two Don't Mix"
+ date="2012-03-29T00:02:06Z"
+ content="""
+Puppy is perhaps the least secure distro that I am aware of. 
+
+Runs everything as root.
+
+Regularly includes woefully outdated packages, including browsers. 
+
+Is nearly impossible to properly update.
+
+Gives an option for saving one's \"Pup file\" with \"Light encryption\" without warning that this is completely useless. (see http://murga-linux.com/puppy/viewtopic.php?p=598337&sid=7d36308b7626f6f6d3adde8068995c97 )
+"""]]
