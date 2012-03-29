@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-03-29T12:38:45Z"
+ content="""
+@ OP:
+> Tails allows single hops. [...] This requres a change in torrc.
+
+Where did you get this impression? `AllowSingleHopCircuits` is implicitly disabled in Tails since we're using Tor's default. Sure, single hop circuits are still made for directory fetches (see `TunnelDirConns`) but that is not an issue since directory data is signed (prevents forgery) and time stamped (prevents replay). Perhaps you've seen these in Vidalia's circuit list and simply got confused?
+
+@ comment 4
+> Does this mean Tails is connecting users straight to the exit computer. ?
+
+No, this should never happen. 
+"""]]
