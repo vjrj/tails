@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-03-30T01:14:43Z"
+ content="""
+Thanks, that is a good idea. However, I would have to use a public proxy and I don't know how secure those are. I have found some public/open proxies that have https and are annoymous. Otherwise I may just have to use a different service. The question of using a proxy brings me to ask would it be possible and more secure to use proxy to connect to tor and then another proxy to connect to web. proxy-tor-proxy-world wide web? 
+
+Does anyone have any ideas on how I gain access to my google account at least one more time?
+"""]]
