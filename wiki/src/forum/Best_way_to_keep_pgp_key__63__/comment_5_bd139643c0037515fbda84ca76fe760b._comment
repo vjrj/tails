@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-31T08:01:17Z"
+ content="""
+Why can't you get Truecrypt to run? I use it for exactly this. It works perfectly and I trust it every bit as much as Tails.
+
+Just add \"truecrypt\" to the kernel boot line and it'll be sitting in \"Applications\" -> \"Accessories\" as soon as Gnome has loaded.
+"""]]
