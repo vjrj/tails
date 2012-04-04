@@ -1,0 +1,32 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-03-12T11:15:25Z"
+ content="""
+@ ahmmm:
+
+> 1)you can believe only to yourself. so, basically only if you are rich you can make your own tor network and believe to yourself.
+
+This doesn't make any sense. If you some how buy yourself a private Tor network and only you (and your friends? people you approve of?) use it, you just wasted a ton of money since your private Tor network has a severly limited (i.e. too few users) and skewed (too homogenous/non-diverse users) anonymity set. Since you payed a lot of money it's also likely that the money trail will lead back to you.
+
+> 2)tor network can be created as american military need it. [...]
+
+I'm not sure, but you seem to be the author of [[this thread|forum/how_much_we_can_believe_to_developers__63__]]. I suggest you go back there and read why it doesn't matter that Tor was originally developed by the US Navy and why it wouldn't matter even if the current Tor developers are their lap dogs.
+
+> 3)european internet service providers already follow the law which says that they must keep/record all internet communication for the period of one year. now they try to make it in britain too, just without limitation of one year. it means your email communication is already stored/kept at some ISP.
+
+Use SSL/TLS when connecting to you email service. The added encryption will prevent everyone except your email service provider (by necessity) from seeing your login details and email payload.
+
+> 4)beside isp, your email provider (gmail, hotmail, etc) keep your emails and they can see everything what you do, they can scan (words, etc) content of their servers to find illegal material/conversations and to spy it.
+
+In addition to SSL/TLS, use OpenPGP for end-to-end encryption. Then your email service provider can't see the message, only your recipient can. Your email service provider can still see who your mail is sent to/received from, but if you and your correspondent both use anonymously registered email accounts that's not too bad w.r.t. traffic analysis.
+
+> if you are politically good for colonialists, they will not touch you. 
+
+How can they \"touch\" you? Do you know of any backdoor in Tor that the rest of us don't?
+
+> the best is to make your own email server which will not take IP and any other personal information
+
+This is not a real solution. Any sent email is saved both on the sender's *and* recipient's email server, so if only one of the servers have anti-retention policies you're still screwed. This is security by policy and it is just not good enough. A real solution must be designed to be secure from a technical perspective. OpenPGP happens to be just that.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="transparent proxy"
+ date="2012-03-11T15:44:01Z"
+ content="""
+Tails 0.10 introduced [the end of transparent proxying](/todo/the_end_of_transparent_proxying__63__/), perhaps you should have a look on this side.
+
+mike
+"""]]
