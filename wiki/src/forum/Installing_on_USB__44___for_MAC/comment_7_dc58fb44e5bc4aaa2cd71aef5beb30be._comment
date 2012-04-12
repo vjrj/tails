@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="OP here"
+ date="2012-02-15T11:02:34Z"
+ content="""
+Did you unmount the usbstick properly? It does sound like you are not unmounting the correct usbstick id before writing. Don't do this from the Finder, do it from the terminal per above.
+
+"""]]

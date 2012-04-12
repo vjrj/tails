@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Ah"
+ date="2012-01-09T12:56:35Z"
+ content="""
+Zip: please update [[forum/Same old problem]] with this new piece of information: the fact the TBB cannot connect to Tor either may indicate your ISP is starting to block Tor, instead of a bug in Tails.
+"""]]

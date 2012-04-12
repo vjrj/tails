@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-01-13T15:58:04Z"
+ content="""
+Tails writes under Documentation
+
+This documentation (read tails) is a work in progress and a collective task
+
+WARNING: Originally written for Incognito, it (read tails software) has not been fully adapted for Tails yet. Outdated section are marked with FIXME
+
+I would not include statements like \"not yet fully adapted\" and \"outdated section\" in reference to anything. It creates a bad impression. 
+
+Scripting? As tails has previously pointed out the decision to allow java was a compromise between functionality and security, and has only recently been updated with the ability to forbid, though I still note it allows by default. 
+
+When talking of the deep net, there is a real risk of prosecution (read persecution) of innocent parties. I think this is an important factor to consider when thinking of functionality vs security (read ease of use vs jail time)
+
+**I hope we don't spread such kind of FUD about Tails anymore. If we do, this must be fixed. There's enough people spreading FUD, lies and misleading statement about Tails without us doing it ourselves**
+
+The idea of a forum is for people to communicate ideas and express opionions. I think its a bad idea for tails to label people liars without good cause. Its positive to express ideas, and even if you don't agree with them, its sufficient simply to say so. The reader is discerning enough to decide for themselves
+
+
+
+"""]]

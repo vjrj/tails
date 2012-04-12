@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-20T08:28:20Z"
+ content="""
+Legislation by nation
+
+[edit]Antigua and Barbuda
+The Computer Misuse Bill, 2006, Article 21(5)(c), if enacted, would allow police with a warrant to demand and use decryption keys. Failure to comply may incur \"a fine of fifteen thousand [East Caribbean] dollars\" and/or \"imprisonment for two years.\"[4]
+[edit]Australia
+The Cybercrime Act 2001 No. 161, Items 12 and 28 grant police with a magistrate's order the wide-ranging power to require \"a specified person to provide any information or assistance that is reasonable and necessary to allow the officer to\" access computer data that is \"evidential material\"; this is understood to include mandatory decryption. Failing to comply carries a penalty of 6 months imprisonment. Electronic Frontiers Australia calls the provision \"alarming\" and \"contrary to the common law privilege against self-incrimination.\"[5]
+[edit]Belgium
+The Loi du 28 novembre 2000 relative à la criminalité informatique (Law on computer crime of 28 November 2000), Article 9 allows a judge to order both operators of computer systems and telecommunications providers to provide assistance to law enforcement, including mandatory decryption, and to keep their assistance secret; but this action cannot be taken against suspects or their families.[6][7] Failure to comply is punishable by 6 months to 1 year in jail and/or a fine of 130 to 100,000 Euros.
+[edit]Canada
+Canada implements key disclosure by broad interpretation of \"existing interception, search and seizure and assistance procedures\";[8] in a 1998 statement, Cabinet Minister John Manley explained, \"warrants and assistance orders also apply to situations where encryption is encountered — to obtain the decrypted material or decryption keys.\"[9]
+[edit]Finland
+The Coercive Measures Act (Pakkokeinolaki) 1987/450 (as amended by 2007/541) section 4 paragraph 4a[10] requires a specified person to surrender the necessary \"passwords and other such information\" to the police in order to provide access to information stored on an information system. The suspect and some other specified persons that cannot otherwise be called as witnesses are exempt of this requirement. There is currently a proposal (Government Proposal HE 222/2010 vp[11]) to change this and other related laws, which may result in changes as to how information systems can be searched and accessed.
+[edit]France
+Loi n°2001-1062 du 15 novembre 2001 relative à la sécurité quotidienne (Law #2001-1062 of 15 November 2001 on Community Safety), Article 30 allows a judge or prosecutor to compel any qualified person to decrypt or surrender keys to make available any information encountered in the course of an investigation. Failure to comply incurs three years of jail time and a fine of €45,000; if the refusal would have prevented or mitigated a crime, the penalty increases to five years of jail time and €75,000.[12]
+[edit]India
+Section 69 of the Information Technology Act, as amended by the Information Technology (Amendment) Act, 2008, empowers the central and state governments to compel assistance from any \"subscriber or intermediary\" in decrypting information.[13] Failure to comply is punishable by up to seven years imprisonment and/or a fine.
+[edit]The Netherlands
+Article 125k of the Wetboek van Strafvordering allows investigators with a warrant to access information carriers and networked systems. The same article allows the district attorney and similar officers of the court to order persons who know how to access those systems to share their knowledge in the investigation, including any knowledge of encryption of data on information carriers. However, such an order may not be given to the suspect under investigation.
+[edit]United Kingdom
+The Regulation of Investigatory Powers Act 2000 (RIPA), Part III, activated by ministerial order in October 2007,[14] requires persons to supply decrypted information and/or keys to government representatives. Failure to disclose carries a maximum penalty of two years in jail. The provision was first used against animal rights activists in November 2007,[15] and at least three people have been prosecuted and convicted for refusing to surrender their encryption keys,[16] one of whom was sentenced to 13 months' imprisonment.[17]
+"""]]

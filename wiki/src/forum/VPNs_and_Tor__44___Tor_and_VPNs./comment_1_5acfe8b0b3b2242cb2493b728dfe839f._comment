@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-15T12:46:05Z"
+ content="""
+**Short story:** `VPN -> Tor` is pretty much meaningless. `Tor -> VPN` has some use cases but is difficult to set up automatically.
+ 
+**Long story:** [[todo/vpn_support]]
+"""]]

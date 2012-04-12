@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-23T02:01:25Z"
+ content="""
+There is no such thing as a safe browser, or most secured unless you're using Lynx or another text only browser which is immune to java, activeX, flash and Xorg attacks. X itself is not entirely safe, look up Loïc Duflot's research. Since tails dev's and Duflot are both in France maybe we can get him to look over the current build and fine problems with it :) 
+
+It'd be awesome if there was stripped down tails version that didn't use X at all. Just lynx browser, irssi for IRC, the built in mail system for mail or someting else, gpg command line and no possibility of X vuln. 
+"""]]

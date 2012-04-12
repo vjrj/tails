@@ -1,0 +1,3 @@
+Hello,
+
+sudo apt-get install debian-keyring is not working for me to download the debian keyring so I can verfiy the tails key. Where can I download the Debian keyring from?

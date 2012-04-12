@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-22T10:42:05Z"
+ content="""
+The OFTC hidden service seems to be regularly down. Many OFTC non-hidden servers block connections from Tor users. I guess we should pre-configure both, and hope everyone will manage to connect somehow.
+
+"""]]

@@ -1,0 +1,5 @@
+Hi, I installed tails 0.10 on CD and when I try to use New Identity button/option, IP address stay the same: 184.154.181.162
+
+I tried with F5, then with Enter (keyboard) in URL and reload current page but always the same IP address. I tried to open torrc and to write there ExcludeExitNodes {us} but I got always some error. here it is:
+
+Unacceptable option value: Int keyword 'SocksPort 9050 # what port to open for local application connections' is malformed or out of bounds.

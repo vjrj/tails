@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Stay close to ikiwiki"
+ date="2012-01-06T01:19:29Z"
+ content="""
+The ikiwiki po plugin (as most gettext tools, btw) produces word-wrapped .po files. So if we want to minimize the diffs, we have to stay close to whatever is output by ikiwiki.
+
+"""]]

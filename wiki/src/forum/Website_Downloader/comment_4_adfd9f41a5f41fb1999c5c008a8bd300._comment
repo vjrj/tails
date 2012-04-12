@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-25T08:38:00Z"
+ content="""
+Doesn't the (suggested above) `wget --mirror` solution fit your needs?
+
+"""]]

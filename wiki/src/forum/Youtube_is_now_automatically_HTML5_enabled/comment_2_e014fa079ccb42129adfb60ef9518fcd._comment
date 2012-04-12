@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-24T00:32:39Z"
+ content="""
+The best part is, we can now watch the *embedded Youtube videos* too.
+
+It's looking for a Flash Player or an *HTML5 Browser*. After configuring NoScript both youtube.com and both the embedded youtube videos elsewhere can easily be watched.
+
+Tails and Tor Browser Bundle both should configure Noscript to unblock Youtube. Please contact the people at the Tor Project. They were discussing how to opt-in Youtube HTML5 permanently:
+
+    https://trac.torproject.org/projects/tor/ticket/3347
+    https://trac.torproject.org/projects/tor/ticket/2832
+
+Youtube did it for us.
+"""]]

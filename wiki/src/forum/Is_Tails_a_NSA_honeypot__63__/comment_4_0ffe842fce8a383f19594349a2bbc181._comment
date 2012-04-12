@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-12T01:32:21Z"
+ content="""
+> By \"traffic analysis\" you people are talking about having a global view of a significant percentage of tor nodes, right - in effect compromising all tor circuits?
+
+Yes, that's what I meant in the first comment.
+
+> I think that might be non-trivial.
+
+Well, my understanding is that the consensus in the relevant research community is that it's easy. I am not aware of any proof-of-concept studies on simulated networks, but there are theoretical papers showing that correlating traffic can be done much better than it appears at the first glance. I think that Nick Mathewson (nickm) is the person to go to for that.
+
+> Furthermore, you're talking about being able to watch traffic at an exit node and trace it back through the tor circuit. Traffic to/from hidden sites is quite a bit harder I believe.
+
+Well, probably.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-24T09:21:47Z"
+ content="""
+> Is having two partitions not recomended?
+
+> I installed the ISO manually and made it bootable with gparted and syslinux in the end. The spare partition is for encrypted storage and works great from tails and I can't see any inconvenience.
+
+> If there's a good reason not to do this though I would be very interested to hear
+
+Doing this manually is not actively *supported*, but I don't think there's anything wrong with it, as long as you don't ask us to deal with the resulting problems if any. It's mostly how our upcoming USB installer + persistence system works, BTW.
+
+"""]]

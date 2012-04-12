@@ -1,0 +1,8 @@
+I would create a bug report for this, but can't get any error information as Claws mail freezes and can only manually power off system. If I pop the CD the system goes into reboot mode (showing no errors) and hangs at starting new kernel so a hard reboot is necessary. 
+
+I've noticed if Claws mail has to import around 50+ encrypted messages, the window that pops up saying 'Allow decrypt?' where it stores your previously entered password will freeze after the second or third message. Powering down system only way to reboot it. 
+
+I noticed this also happened with previous versions of Tails. Sometimes Claws works and other times totally freezes randomly when that dialog box pops up asking to re-use same cached password. I tested this on a system with 1g ram and it froze. Tried on a 2g ram desktop and froze after awhile too after downloading 80 emails and I tried to read them.
+
+Any other recommended email software distros? Or a command/terminal one like *BSD/unix you would recommend
+

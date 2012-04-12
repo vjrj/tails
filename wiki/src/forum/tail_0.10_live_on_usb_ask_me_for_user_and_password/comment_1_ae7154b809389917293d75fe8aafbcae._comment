@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-09T14:23:48Z"
+ content="""
+Can you detail when you are asked for a password?
+
+You shouldnt at the Tails' startup..
+
+But if it's to install packages etc.. the super-user password is *amnesia*
+"""]]

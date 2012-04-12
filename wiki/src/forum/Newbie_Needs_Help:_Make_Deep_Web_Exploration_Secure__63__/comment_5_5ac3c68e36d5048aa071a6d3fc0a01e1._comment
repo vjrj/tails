@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-13T01:52:37Z"
+ content="""
+I have enough savvy to get Tor up and running correctly on my system, but are there any other specific programs I should be running as well to keep myself secure, such as Firewalls and the like? If so which ones work best with Tor?
+
+Sounds like you might be running TOR on your own system not Tails? TOR is only as safe as the platform you run it on. For example if you run TOR on Windows and then visit deep net, I would make sure you wear clean underwear before you get that knock on the door. Windows is the most insecure operating system that ever was. Using TOR on windows would be like holding an umbrella over a submarine to stop it getting wet. The NSA and every other Joe and friend of Bill gates has a backdoor in it, plus its impossible to secure from viruses even if your an expert. If you only just found out about TOR then you don't have the skills to implement TOR safely yourself. make sure you shut down your computer and  boot it from a live CD or DVD which has been made for the purpuse before you go anywhere near deep net
+"""]]

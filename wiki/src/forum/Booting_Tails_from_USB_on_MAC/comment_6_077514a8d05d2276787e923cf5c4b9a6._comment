@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Booting Tails from USB on MAC"
+ date="2012-03-22T16:29:48Z"
+ content="""
+I don't think I can be of much help here but can add a comment:
+
+I don't know what version of Mac OS on what kind of machine and bulding year the questioner run? I've tried Tails on USB on Snow Leopard (MBP mid 2010) and Lion (MPB mid 2011) and got it working following the descriptions on Tails site.
+
+I can only confirm Tails comment 1 about the need to install rEFIt and comment 3: As long as I found I could build the Live USB-stick in Windows, Linux or Mac and every variant worked on any other machine (note if the motherboard handles booting from USB).
+
+I remember though that it was a little tricky with the rEFIt? A had some trouble to get rEFIt show my bootable USB the first times? And when it finally did, I didn't recognize it ;-). I'm sorry not being able to reproduce, or describe these problems now, since it works today, but I do not think it was harder than to try some reboots (perhaps even without pressing the alt/option-key??)
+"""]]

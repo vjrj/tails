@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-17T10:29:16Z"
+ content="""
+It just isn't functioning for me, almost no eepsites will load (ever) and I had the exactly same problem running i2p on another OS on my LAN until I punched a hole in iptables and exposed that port (port forwarded through my router) externally.
+
+I'm not comfortable with changing iptables settings on Tails to do this without knowing exactly what I'm doing to the rest of the firewall configuration in the process.
+
+The i2p docs do say that, while it should work without doing expsoing that port, it will work much better if you do.
+"""]]

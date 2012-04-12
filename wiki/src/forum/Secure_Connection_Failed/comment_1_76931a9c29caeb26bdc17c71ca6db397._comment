@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-05T17:42:48Z"
+ content="""
+https://bbc.co.uk/news does not work but directly accessing https://sa.bbc.com gives the same error here with different exit nodes.
+
+No worries, even if this was a MITM, BBC? What harm could that do?
+
+If you *really* care about a secure connection over TSL for specific sites note and verify the fingerprints manually or use something like monkeyspehere or Convergence. CA based trust is a broken system, don't rely on it.
+"""]]

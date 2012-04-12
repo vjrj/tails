@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-23T16:17:16Z"
+ content="""
+There is no ssh server (i.e. sshd) installed in Tails, so I'm not sure what your problem is. We recently switched the default user when *connecting* via ssh from \"amnesia\" to \"root\" to avoid fingerprinting, so \"root\" is not mandatory (that would be ridiculous), just the default. You can specify a user when connecting over ssh like this:
+
+    ssh some_user@some_ssh_server
+
+If this isn't what you want, please try to explain your problem again.
+"""]]

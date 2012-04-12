@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-16T15:45:23Z"
+ content="""
+> Just give your users VPN support.
+
+It's not as easy as that. We can most likely only support putting the VPN on one \"side of\" Tor, at least through the GUI. We need to establish which one makes most sense first. And even then...
+
+> Some places have very restrictive firewalls, but do allow VPN connections to specific destinations. Some jurisdictions may consider VPNs legal (i.e., business), but Tor illegal. Some places may manage to block Tor bridges, too.
+
+...I think we'd rather see some more dedicated solution to circumvent Tor censorship, e.g. [obfsproxy](https://gitweb.torproject.org/obfsproxy.git). Not everyone has access to a VPN, and we need something that works for everyone, like what obfsproxy promises.
+
+> Some ISPs require users to connect via PPTP.
+
+It would be a reasonable use case to support *if* it's common enough. In my experience it's not, but I welcome you to prove me wrong with some actual statistics.
+
+> Some people use VPN for everything, and don't want to have different network signature when using Tails.
+
+That's a valid point. I doubt many average Internet users (Tails' intended audience) do this, though. Those that understand that this may be a good idea probably have the skills necessary for modifying Tails' firewall to get the `VPN -> Tor` setup.
+
+> Here, I thought it all up in 30s — why couldn't you do the same while writing that VPN page?
+
+Because what's on that page is enough -- bridges (using obfsproxy) is supposed to be the real solution to the real problem (Tor censorship). If you disagree, add your points to the todo page, and please do the same next time you disagree instead of launching on another ego-trip.
+"""]]

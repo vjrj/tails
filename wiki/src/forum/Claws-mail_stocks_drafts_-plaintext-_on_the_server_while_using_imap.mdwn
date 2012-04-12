@@ -1,0 +1,11 @@
+Hi,
+
+I just noticed that when writing an email with claws-mail, drafts are automatically saved in the folder 'Drafts', before the encryption.
+
+While using imap, those emails are **saved on the server, plaintext**.
+
+Of course Tails never pretend to avoid this, but it's good to know ;)
+
+Workaround :
+
+Desactivate "Automatically save messages to Drafts folder" in **Configuration > Preferences > Writing**

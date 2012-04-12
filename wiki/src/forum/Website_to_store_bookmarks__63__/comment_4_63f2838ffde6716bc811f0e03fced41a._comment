@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-13T10:49:40Z"
+ content="""
+The advantage of using Tor and a website to keep your bookmarks is plausible deniability.  Storing bookmarks on physical encrypted media leaves you open to the possibility someone could find and decrypt it.  If that media is found in your possession then you can be held responsible for its contents.  Tor is extremely hard to trace so if you store your bookmarks on a website and they seem to be accessed from ISPs all over the world, how can those bookmarks be associated with you specifically?  That's plausible deniability.
+"""]]

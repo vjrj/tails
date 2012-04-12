@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Is this not a form of persistent guard nodes? "
+ date="2012-01-13T04:17:40Z"
+ content="""
+So I start up Tails & go to the Vidalia interface.  I select \"My ISP blocks connections to the Tor network\" & add the same bridge IP addresses I previously got from https://bridges.torproject.org.  
+
+If I use the same bridges each time I start Tor isn't this, in effect, a form of persistent guard nodes?  
+"""]]

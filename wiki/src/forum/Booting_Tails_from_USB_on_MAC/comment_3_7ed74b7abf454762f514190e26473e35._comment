@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-13T17:59:44Z"
+ content="""
+refit worked for me: installed on the usb stick like documented (from a linux computer), then installed refit on my mac and rebooted with the usb stick in.
+Held the command key down and it detected my usb drive and I could boot it.
+"""]]

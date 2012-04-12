@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-03-09T10:30:50Z"
+ content="""
+> I expected it to show up under the Places on the main menu bar or on the desktop.
+
+Yeah, it's a shame it doesn't.
+
+> Now if I can manage to get dynamic screen resizing and bidirectional clipboard management working...
+
+    sudo VBoxClient --display --clipboard
+
+"""]]

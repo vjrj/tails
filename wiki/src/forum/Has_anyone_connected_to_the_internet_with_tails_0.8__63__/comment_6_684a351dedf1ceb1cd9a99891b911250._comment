@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-01-22T14:20:29Z"
+ content="""
+I was having issues connecting, then it just happened. I think the issue is actually that it is taking a long time to connect to the Tor Server through the Vidalia Control Panel, so you should check to see if you've actually connected before attempting to use the internet, otherwise it wont allow you to access any sites. 
+
+Also the time synchronization doesn't seem to be a problem, in regards to it being a wireless server issue (at least in my case), one thing I did notice was that I kept getting disconnected from my router, but to solve that problem I went into system>preferences>Network Connections and manually entered my password there, after that no more disconnections from the router. I'm not sure if this will fix your issues, but so far it's fixed mine.
+"""]]

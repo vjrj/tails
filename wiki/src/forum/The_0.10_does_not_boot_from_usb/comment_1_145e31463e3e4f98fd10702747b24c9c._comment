@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Unsupported"
+ date="2012-01-22T18:50:39Z"
+ content="""
+unetbootin is not a supported way to get Tails working. Even if it seemed to do the right thing, we cannot guarantee it actually passes the right boot options to Tails, so it could very well give you a Tails that seems to work but not as it should.
+
+See our [[installation documentation|download]] instead.
+
+"""]]

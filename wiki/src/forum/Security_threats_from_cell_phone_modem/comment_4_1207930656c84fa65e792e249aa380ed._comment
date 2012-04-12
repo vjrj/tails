@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-15T04:21:41Z"
+ content="""
+I connect to the internet via tails via connect to wireless broadband (GSM) then select local provider, I havent installed additional software. I did find some information on wiki
+
+https://en.wikipedia.org/wiki/Acoustic_cryptanalysis
+
+Acoustic cryptanalysis can be used to monitor the sound created by someone typing on a computer. Each key on the keyboard makes a subtly different acoustic signature when stroked. It is then possible to identify which keystroke signature relates to which keyboard character via statistical methods such as frequency analysis.
+
+Since the mobile phone is located so close to the keyboard, I will have to start using the florence virtual keyboard to avoid this vulnerability
+
+Thank you for your reply, I think some people get knocked for offering their opinion or posting because they are not experts. If we had experts to answer all our questions there wouldn't be a need for forums
+"""]]

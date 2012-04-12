@@ -1,0 +1,5 @@
+Thanks for Tails.
+
+You've chosen to configfure NoScript so it starts without global script blocking enabled.  Leavigng aside the fact thart I disagree with that decision, I would like to be able to start Tails with script blocking enabled from the get go (without doing a remaster).  I can't count how many times I forget to enable it manually.  I do not put much store behind assurances about torbutton catching "all known exploits using javascript" since there are always unknown exploits.  I want JS off.
+
+How about a boot option to enable global script blocking before the browser starts up?

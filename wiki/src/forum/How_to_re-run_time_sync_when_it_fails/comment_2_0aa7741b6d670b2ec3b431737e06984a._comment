@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="time sync"
+ date="2012-01-18T23:19:38Z"
+ content="""
+It's syncing with the system time, not just for tor correct? What timezone is it syncing with, the time is still wrong after the time sync is executed.
+
+Is it really that crucial for tor that the time is synced up to par.
+"""]]
