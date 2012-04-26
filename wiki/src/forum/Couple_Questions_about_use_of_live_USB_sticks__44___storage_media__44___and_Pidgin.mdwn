@@ -1,0 +1,11 @@
+Hey, I'm new to Linux/Tails/Tor etc, and have a couple questions...
+
+-Is there even the remotest possibility that the OS could write anything to the USB stick without being specifically asked to? If so, is there a way to make the USB stick read-only so that this wouldn't be possible? Is the safest way to simply use a CD-R?
+
+-Is there any possibility that Tails could use the swap partition of the host computer's hard drive, or any other media connected to the computer, without being specifically asked to? What constitutes "specifically asking"? Is there a way to set all other connected media except RAM to "read-only" mode?
+
+-Does anyone know how to connect to the Pidgin IRC server for Tails? If I try and connect with SSL it says "SSL Handshake Failed", and if I turn SSL off I can get in, but I sometimes get a message from what I'm assuming is a bot/admin about being a "spammer" and I can't join the chat channel. I'm a complete newbie when it comes to IRC, any idea what I'm doing wrong?
+
+-I took this anonymity test I found on the forum - http://ip-check.info/?lang=en - I got 11 "good" ratings, 10 "medium" ratings and 2 "bad" ratings, Cache (E Tags) and Fonts. Is that good/bad/average overall? How does it compare to others' results?
+
+Hope you guys can help, thanks :)
