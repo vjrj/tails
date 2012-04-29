@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Thanks so much for this!..."
+ date="2012-03-21T08:15:16Z"
+ content="""
+A couple of things have been bothering me for some time.. a \"failure\" during shutdown when tails attempts to load the memory wiping kernel, then, shortly later the shutdown hangs at something along the lines of \"init: no more process at this runlevel\". I've been meaning to get to the bottom of these and using [alt] + [SysRq],[s],[u],[o] in the meantime.
+
+Hopefully you`ve just solved all my woes! Can't wait to test it. Thanks so much for sharing your discovery.
+
+PS I totally agree - \"2\" is the only way to go: Simple \"installation\" management and upgrade (just replace a single .iso file), simple security auditing (just re run the signiture check in the single .iso file - whenever paranoia dictates), versitile - drop the single .iso onto SD/CF/HDD/SSD/NetShare/whatever for simple USB free booting, use the rest of the device/partition for storage, no need to nuke anything when upgrading... etc... etc... I can't imagine why anyone would want to use tails any other way! 
+
+PPS Your English is EXCELLENT... Far better than most of the native \"English\" speakers I know ;-)
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-21T09:30:08Z"
+ content="""
+Note that you are essentially discussing [persistence](https://tails.boum.org/todo/persistence/), not installation to hard drive. Liberté Linux (which implements persistence) [can be also installed](https://forum.dee.su/topic/usb-multiboot-liberte-other-linux-en) to a hard drive partition, but I am sure that Tails can be as well. —MK
+"""]]

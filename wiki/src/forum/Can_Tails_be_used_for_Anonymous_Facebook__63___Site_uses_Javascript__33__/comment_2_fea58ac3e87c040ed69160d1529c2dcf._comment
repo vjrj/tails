@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-25T14:30:28Z"
+ content="""
+Be aware that Javascript reveals huge amount of browser's fingerprint informations. For Tail's user that generally means that he would be distinguishable from regular TBB user.
+"""]]
