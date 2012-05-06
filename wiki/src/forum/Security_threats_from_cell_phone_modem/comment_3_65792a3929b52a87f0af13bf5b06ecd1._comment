@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-13T17:29:50Z"
+ content="""
+I'm not an expert in this field, but since you were completely blown off my the initial responder, I'll chime in with my opinion FWIW based on my limited experience as a Tor and a TAILS user. This assumes that in the process of acting as a modem, your tethered phone is communicating to your OS through a standard device driver (one that is honored by the standard TAILS distro.) If that is the case, I would not be overly concerned. I can't see the phone, even if \"compromised\", having any more insidious result than an upstream AP or router (also possibly monitored) that you need to go through to connect to the internet. If you modified TAILS to add this device, especially if you installed management software other than a driver, then your risk could be greater, but I would cast a jaundiced eye more at the software or possibly the driver than at the clipper chip in the phone.
+"""]]

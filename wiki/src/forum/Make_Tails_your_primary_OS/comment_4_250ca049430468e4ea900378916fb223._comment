@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-12-24T18:23:01Z"
+ content="""
+Could you add SELinux and filesystem hash verification of some sort to that shopping list?  Also when setting up disc encryption booting from a CD/USB and/ or some sort of USB key (fingerprint etc.) verification.
+
+;)
+"""]]

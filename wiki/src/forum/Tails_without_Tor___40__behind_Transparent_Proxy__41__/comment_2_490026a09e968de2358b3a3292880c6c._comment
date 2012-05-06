@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-03T21:25:53Z"
+ content="""
+Does Tails work with obfsproxy in bridge mode? Couldn't search any docs on this.
+I also would like a transparent proxy + tails implementation. Due to my governments wacky sureveillance laws they are now targeting Tor users who use direct access
+"""]]

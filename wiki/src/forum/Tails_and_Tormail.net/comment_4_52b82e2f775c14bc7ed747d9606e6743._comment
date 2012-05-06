@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-20T10:50:26Z"
+ content="""
+> problem with tormail is only that they don't let you to use strong password than only letters and numbers.
+
+If they don't have a limit on the length of the password this is not an issue. Just use longer passwords. For instance, to get 128 bit entropy (~security) you need 43 **random** alphanumeric charachters, but with all printable characters allowed you still need 39 **random** characters. For 128 bits you need 22 and 20 **random** characters, respectively. As you can see the difference isn't that large.
+
+That doesn't justify not allowing non-alphanumeric characters, though.
+"""]]

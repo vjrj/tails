@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-27T09:26:20Z"
+ content="""
+We've seen this complaint many times. Long story: [[thread|forum/tor_is_working_but_.onion_sites_504]].
+
+tl;dr: If you have a bad system time and Tails failed to sync the system time .onions will refuse your connection. [[Try manually restarting the time sync|forum/How_to_re-run_time_sync_when_it_fails/#comment-9aa1288dfbec8c92a93b1e822254d964]]. For the record, Tails 0.10.1 will have **much** more robust time syncing.
+
+If you have a correct system time and .onion still fail, please [[report a bug|support/found_a_problem]].
+"""]]

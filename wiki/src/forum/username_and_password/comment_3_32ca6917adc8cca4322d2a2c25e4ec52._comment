@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Please follow the documentation!"
+ date="2012-02-10T22:22:58Z"
+ content="""
+Tails asking for a username and a passoword is the symptom of a bad kernel command line. This is usually the result of using unsupported installation method.
+
+Please follow Tails documentation! (see links on an earlier message)
+"""]]

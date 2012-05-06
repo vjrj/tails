@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-12T11:27:25Z"
+ content="""
+Such technology exists: in Iceweasel, use menu *Edit* → *Preferences*. Then in the *Content* tab, uncheck *Load images automatically*.
+"""]]

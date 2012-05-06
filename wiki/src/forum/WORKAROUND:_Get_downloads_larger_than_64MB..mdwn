@@ -1,0 +1,58 @@
+I present a workaround for downloading files larger than 64 MiB. The ultimate limit will be the amount of free RAM your computer has. 
+
+The problem is described in this (at the time pending) bug report: 
+
+[impossible to download files bigger than 64M with Iceweasel](https://tails.boum.org/bugs/impossible_to_download_files_bigger_than_64M_with_Iceweasel/) ([https://tails.boum.org/bugs/impossible_to_download_files_bigger_than_64M_with_Iceweasel/](https://tails.boum.org/bugs/impossible_to_download_files_bigger_than_64M_with_Iceweasel/)). 
+
+
+The bug submitter wrote: 
+>The download stalls at 64MB. If I disable Polipo's chunkHighMark, the download stalls at this setting's default value (24M).
+
+The workaround is to instead change the value for *chunkHighMark* to something larger than the file download size. The file to edit is */etc/polipo/config*. Look for the section:
+
+	### Memory
+	### ******
+	
+	# Uncomment this if you want Polipo to use a 	ridiculously small amount
+	# of memory (a hundred C-64 worth or so):
+	
+	# chunkHighMark = 819200
+	# objectHighMark = 128
+	
+	# Uncomment this if you've got plenty of memory:
+	
+	# chunkHighMark = 50331648
+	# objectHighMark = 16384
+	
+	chunkHighMark = 67108864
+
+67,108,864 is 64 × 1,024 × 1,024, or 64 MiB (actually :p).
+
+A check of the TAILS ISO directory at [http://dl.amnesia.boum.org/tails/stable/tails-i386-0.9/](http://dl.amnesia.boum.org/tails/stable/tails-i386-0.9/) shows the TAILS 0.9 ISO download size will be 573.0MB. 
+
+Check how much RAM is free in TAILS: 
+
+	amnesia@amnesia:~$ df /
+	Filesystem           1K-blocks      Used Available Use% Mounted on
+	aufs                   1557192    504972   1052220  33% /
+	
+Here it's 1,052,220 1,024 Byte blocks, or a tad over one Gigabyte. 
+
+I suspect we should take care not to use up all the free RAM if we want to avoid system problems, so set *chunkHighMark* to a little more than the file download size. 
+
+I set *chunkHighMark* to 700,000,000 - enough for most CD ISOs - using *vim*: 
+
+	amnesia@amnesia:~$ sudo vim /etc/polipo/config
+
+and setting 
+
+	chunkHighMark = 700000000
+
+The bug submitter also wrote: 
+>The really annoying thing about this bug is that it prevents downloading Tails images from Tails itself :/
+
+I succeeded in downloading TAILS 0.9 using TAILS 0.8.1 by doing this. No need to give yourself away again! ;)
+
+I can only think of automating this if the TAILS producers know a way to set *chunkHighMark* in Polipo's *config* file on the fly after reading how much RAM the root filesystem has free. 
+
+-- Straggler.

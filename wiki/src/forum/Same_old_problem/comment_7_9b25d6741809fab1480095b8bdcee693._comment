@@ -1,0 +1,83 @@
+[[!comment format=mdwn
+ username="Zip"
+ ip="127.0.0.1"
+ subject="I've been having trouble as well"
+ date="2012-01-07T12:18:05Z"
+ content="""
+Started having connection timeouts in .9, so I upgrade to .10. It's connected maybe 5% of the time. Most times I have to reboot and it never connects.
+
+The last twelve or so times I've booted, I've noticed Vidalia is not running. So after manually starting, connection usually doesn't take place.
+
+Log extracts:
+
+---
+	file /var/log/htpdate.log
+	/var/log/htpdate.log: ERROR: cannot open `/var/log/htpdate.log' (No such file or directory)
+
+	cat /var/log/htpdate.log
+	cat: /var/log/htpdate.log: No such file or directory
+
+	sudo find / -name htpdate.log
+	[nothing returned]
+
+	sudo cat /var/log/tor/log
+	Jan 07 11:47:47.677 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening new log file.
+	Jan 07 11:47:47.683 [notice] Parsing GEOIP file /usr/share/tor/geoip.
+	Jan 07 11:47:53.022 [notice] OpenSSL OpenSSL 0.9.8o 01 Jun 2010 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+	Jan 07 11:47:53.211 [notice] Bootstrapped 5%: Connecting to directory server.
+	Jan 07 11:47:53.211 [notice] I learned some more directory information, but not enough to build a circuit: We have no network-status consensus.
+	Jan 07 11:49:33.538 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 07 11:51:33.435 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:33.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:53. Giving up. (waiting for circuit)
+	Jan 07 11:51:33.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:33.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:33.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:443. Giving up. (waiting for circuit)
+	Jan 07 11:51:33.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:80. Giving up. (waiting for circuit)
+	Jan 07 11:51:33.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:33.438 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 07 11:51:34.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:443. Giving up. (waiting for circuit)
+	Jan 07 11:51:34.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:80. Giving up. (waiting for circuit)
+	Jan 07 11:51:34.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:443. Giving up. (waiting for circuit)
+	Jan 07 11:51:34.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:443. Giving up. (waiting for circuit)
+	Jan 07 11:51:34.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:443. Giving up. (waiting for circuit)
+	Jan 07 11:51:34.436 [notice] Tried for 120 seconds to get a connection to [scrubbed]:443. Giving up. (waiting for circuit)
+	Jan 07 11:51:38.439 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:38.439 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:38.439 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:38.439 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:43.443 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:43.443 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:43.443 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:43.443 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:48.448 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:48.448 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:48.448 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:48.448 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:53.454 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:53.454 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:53.454 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:51:53.454 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:33.559 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:33.559 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:33.559 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:33.559 [notice] Tried for 120 seconds to get a connection to [scrubbed]:53. Giving up. (waiting for circuit)
+	Jan 07 11:53:38.565 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:38.565 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:38.565 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:38.565 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:38.565 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:38.565 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:43.570 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:43.570 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:43.570 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 07 11:53:53.597 [notice] New control connection opened.
+	Jan 07 11:53:53.615 [notice] New control connection opened.
+	Jan 07 11:53:53.633 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening log file.
+	Jan 07 11:53:53.637 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening log file.
+	Jan 07 11:53:53.643 [notice] Renaming old configuration file to \"/etc/tor/torrc.orig.1\"
+	Jan 07 11:53:53.643 [warn] Couldn't rename configuration file \"/etc/tor/torrc\" to \"/etc/tor/torrc.orig.1\": Permission denied
+	Jan 07 11:57:05.845 [warn] Problem bootstrapping. Stuck at 5%: Connecting to directory server. (Connection timed out; TIMEOUT; count 10; recommendation warn)
+	Jan 07 12:01:10.069 [warn] Problem bootstrapping. Stuck at 5%: Connecting to directory server. (Connection timed out; TIMEOUT; count 11; recommendation warn)
+
+---
+"""]]

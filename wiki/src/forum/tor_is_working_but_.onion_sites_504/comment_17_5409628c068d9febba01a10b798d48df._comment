@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Additional debug instructions"
+ date="2011-12-23T07:04:32Z"
+ content="""
+Anyone affected by this problem: in addition to the debugging instructions already posted above, please:
+
+1. make sure you wait for the Vidalia status icon is green in the top panel *before* attempting to connect to a hidden service
+1. provide the content of the `/var/log/htpdate.log` file.
+
+"""]]

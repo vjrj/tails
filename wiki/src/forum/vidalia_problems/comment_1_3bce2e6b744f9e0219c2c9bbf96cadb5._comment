@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-07T15:22:07Z"
+ content="""
+I don't know how to solve your problem, sorry, but note that you should not rely on this vidalia's function to really split our identities:
+
+see here : <https://tails.boum.org/todo/disable_Vidalia_new_identity_feature/>
+
+-- bulo
+"""]]

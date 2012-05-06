@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-22T09:29:34Z"
+ content="""
+That might be a fair expectation if this were a user forum that indicated recent updates to threads.  As it is, a thread that is more than a few days old gets lost in the noise which is why you keep answering the same basic questions over and over again. Even if you see can new posts, other users who might be able to help do not.  While I do really appreciate tails devs support, it has to be said that this really is the worst user forum software I have ever seen.  No forum categories, no stickies.  Yes I know tails devs are in the process of putting up another one. Wondering how long does it take to download free forum software and run it on your servers?
+
+Back on topic: I'm trying the above and forwarding the same port on my router box for both tcp and udp. Also manually set the external ip address and switched off upnp ip detection. Still unusable and the i2p router panel still says it is firewalled. iMule after installation doesn't work at all, says it is not connected if I try a search, and doesn't display any log.
+
+
+"""]]

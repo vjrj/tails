@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-10T21:39:25Z"
+ content="""
+In order to understand better your problem, could you tell us whether it happened only once or whether it happens repeatedly. If it's happening repeatedly, could you tell us the output of those commands, run in a terminal (Applications → Accessories → Terminal) once it happened:
+
+`df -h`
+
+`free -m`
+
+Also, what happens if you try to unplug and plug back the network when this happens?
+"""]]

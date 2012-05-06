@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-16T12:35:19Z"
+ content="""
+Please see the [Tor FAQ: Can I control which nodes (or country) are used for entry/exit?](https://www.torproject.org/docs/faq.html.en#ChooseEntryExit). If will for instance make it much easier to fingerprint you based on the fact that you always exit from the same point of the Tor network.
+"""]]

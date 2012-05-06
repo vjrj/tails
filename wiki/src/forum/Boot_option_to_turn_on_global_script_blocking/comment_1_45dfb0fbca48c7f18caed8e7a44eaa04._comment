@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="+/-"
+ date="2012-01-20T11:07:33Z"
+ content="""
+I don't think we want to add boot options for this kind of application-level settings.
+
+However, I understand it's a bit painful to click twice at every boot to disallow scripts globally. Hence, I think this kind of settings might be part of those one can made persistent => added to the *Application-specific configurations* usecase in [[todo/persistence]].
+
+"""]]

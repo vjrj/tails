@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-26T03:03:33Z"
+ content="""
+Somewhat (?) related, I've noticed Tails no longer let's me ssh into anywhere. I used to copy ID_RSA key to /home/amnesia/.ssh then load up amensia terminal (not root) and ssh in but now I immediately get a ssh connection denied message which means it didn't even try to access the server over tor and instead denied me immediately
+
+Could be alternative ssh ports are blocked with Tails 0.10? (instead of usual ssh port 22)
+
+
+"""]]

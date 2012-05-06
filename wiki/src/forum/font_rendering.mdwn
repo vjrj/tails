@@ -1,0 +1,7 @@
+The font rendering provided by vanilla freetype isn't exactly great. Are there any plans on changing that?
+
+https://wiki.archlinux.org/index.php/Font_Configuration for an overview.
+
+More specifically a link for Debian: https://noz3001.wordpress.com/2011/07/01/ubuntu-font-rendering-on-debian-wheezy/
+
+Seems like patching isn't even required anymore with recent freetype2. The screenshot isn't quite as sharp as Ubuntu but still much better than Tails currently looks.

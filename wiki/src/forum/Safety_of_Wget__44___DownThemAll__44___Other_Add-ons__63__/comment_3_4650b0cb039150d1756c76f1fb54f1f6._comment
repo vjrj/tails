@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Wget, Httracks, Download Managers"
+ date="2012-01-23T07:01:11Z"
+ content="""
+I have the same questions...
+
+Does anyone know how safe \"DownThemAll\" or any other download managers are to use with TAILS (or Tor Browser Bundle, for that matter)?
+
+Anyplace to find step-by-step, easy to understand instructions for safely using Wget and/or Httracks to download content from sites for later offline viewing?
+
+Thanks.
+"""]]

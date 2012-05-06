@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2012-01-10T13:15:49Z"
+ content="""
+@Comment by Zip — Mon 09 Jan 2012 08:58:20 PM CET
+> Coming from the same network, I have a Ubuntu desktop with the Tor Browser bundle that stopped working... i don't know ... maybe three weeks ago?
+
+This rules out that it is a Tails specific issue. You may want to ask on the [tor-talk mailing list](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk/) how to further troubleshoot this. Perhaps someone there has some reliable method for verifying whether your ISP messes with Tor.
+
+Good luck!
+"""]]

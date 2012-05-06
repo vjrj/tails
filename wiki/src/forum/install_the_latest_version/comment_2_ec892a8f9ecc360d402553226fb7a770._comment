@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="tails paritions"
+ date="2011-12-27T19:39:48Z"
+ content="""
+@ comment 1:
+
+So it is not possible to have a seperate parition on the usb drive you have tails installed on if you installed by the so called \"standard way\"? I was thinking about creating a parition on my usb drive for media storage so I wouldn't have to have two usb drives plugged in.
+
+Someone clear this up. I am not understanding what each parition is that show up in the disk utitly application.
+ I see:
+-2 adapters
+-cd/dvd drive 
+-500gb hard disk
+-589mb file system
+-8gb sandisk cruzer usb drive
+
+ The sandisk cruzer has 8gb of free space and a 601mb tails parition according to disk utitly. Is the 601mb tails parition the same as the 589mb file system. The numbers don't add up. My usb drive's capacity is 8gb. If tails is on there and the 589mb file system there shouldn't be 8gb of free space. 
+
+
+"""]]

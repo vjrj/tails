@@ -1,0 +1,18 @@
+Help. I am a non-tech. i have macbook, intel processor, osx 10.6.8. i want to install tails 10.1 to usb stick. i read the instructions carefully. As written, the documentation is insufficient for a non-tech person, specifically:
+
+The instructions for section (3) verification of iso image say to use GPGTools:
+
+"... This also make it possible to check the cryptographic signature with those operating systems:
+
+    Gpg4win, for Windows
+    GPGTools, for Mac OS X
+
+You will find on either of those websites detailed documentation on how to install and use them."
+
+This is not the case. GPGTools is a SET of tools. It is unclear WHICH of the tools is to be used to check the cryptographic signature, and HOW to do it.
+
+The instructions for (4) installation to usb stick is similarly unclear. From the linux commands, it appears that the iso file is simply copied to the usb stick. This copy can be done directly in OSX finder. But where is there any installation procedure? After copying the (2) image files that were downloaded with 10.1 to the usb stick and restarting the machine as instructed, nothing happens.
+
+***Is the verification/installation documentation OK as written, or is the documentation incorrect/ unclear or in need of updating for 10.1? ***
+
+

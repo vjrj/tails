@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-08T13:24:31Z"
+ content="""
+This looks like [Debian bug #638262](http://bugs.debian.org/638262). I doubt we want to maintain a delta against Debian on this topic, so the proper way to have this fixed is in Debian.
+
+"""]]

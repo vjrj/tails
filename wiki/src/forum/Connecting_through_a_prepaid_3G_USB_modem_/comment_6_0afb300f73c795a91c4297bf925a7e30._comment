@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-04-03T04:02:37Z"
+ content="""
+The military has been dealing with this problem for a long time, since the advent of radio communications people have been able to track the location of the broadcast. 
+
+This is called Transmission security. Methods used to achieve transmission security include frequency hopping, burst transmission and spread spectrum where the required pseudorandom sequence generation is controlled by a cryptographic algorithm and key. 
+
+Unless you are intimately familiar with every detail of TAILS and totally sure it can't be compromised (despite the continual announcements of security flaws and updates) I would look further at transmission security. Perhaps look at burst transmission directly to geo satellites using anon equiptment or once time use of cloned sim cards. 
+
+Some things are clear though, Dont allow yourself to be visually monitored, (there are drones everywhere!) dont use voice as this is easy to identify you with. and the obvious ones of not purchasing equiptment which can be traced via visa or anything stupid. If anyone has any information on how regular joe can acheive transmission security please post here!
+"""]]

@@ -1,0 +1,11 @@
+I recently downloaded some useful site mirrors from *"fkyvwpu7ccsorke2.onion"* and saved them onto my encrypted drive. When I want to use them, I just copy and extract the archive to Desktop.
+
+The mirrors on that website were created using **HTTrack Website Copier** which I already use in Windows (didn't try in Linux: <http://www.httrack.com/page/2/en/index.html>)
+
+If there was a website downloader program in Tails it would be a very nice feature. We could create our own mirrors of websites. So if the website we downloaded temporarily or permanently gets down we can use our copy of mirror to access the website. Also it doesn't have to be down, we won't have to connect to the Internet-Tor anymore to access that website. (These websites can be both Tor hidden services or public websites)
+
+A preconfigured-installed program coming with Tails would be a secure way and maybe it will be configured to download the necessary filetypes and not the dangerous-unnecessary ones.
+
+And maybe you should add this topic to todo/persistence. There would be a folder in the Desktop named like **"Website Mirrors"** as an alternative persistence feature.
+
+What do you think?

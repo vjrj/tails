@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-25T00:21:17Z"
+ content="""
+I will assume you're talking of installing Tails onto a USB stick on a Mac.
+
+A few forum threads contain some information about this. Nothing totally convincing, reproductible and authoritative, but well. Given no Tails developer owns such hardware, and even folks like Ubuntu suggest booting from CD and not from USB on Apple hardware, I think any improvement in this area can only be bootstrapped by owners of such hardware themselves, reporting best practices, working solutions and failures. Or just burn Tails on a CD and enjoy.
+
+"""]]

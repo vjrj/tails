@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-19T11:57:39Z"
+ content="""
+> is encription with TAILS gnome utility plausibly denied?
+
+No. The underlying tools it uses supports it, though.
+
+> Is there concern about using journaling file systems like Ext4?
+
+No. The journal is encrypted, so if you can access it you can acess the data any way.
+"""]]

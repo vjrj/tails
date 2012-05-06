@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I like the forum"
+ date="2011-12-31T10:07:35Z"
+ content="""
+The only thing the forum needs is a way to bump the threads when a comment is added. Is this what the [sortbylastcomment](http://ikiwiki.info/todo/sortbylastcomment_plugin/) plugin, does? (It is mentioned here -> <https://tails.boum.org/todo/improve_the_forum/>.) If yes, why not install that?
+
+This way you have wiki and forum integrated together. [Recent Changes](https://tails.boum.org/recentchanges/) shows edits to the forum and the rest of the wiki. If you want people to edit the wiki I don't think you should have another forum. It is a lot less bloated than other types of forum software and easier than a MediaWiki talkpage. However dedicated forum software would probably be easier for newbies unless they can have a few buttons for quoting and whatnot.  
+"""]]

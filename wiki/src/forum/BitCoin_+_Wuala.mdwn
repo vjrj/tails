@@ -1,0 +1,17 @@
+I'd like to suggest adding BitCoin and Wuala to the next iteration of TAILS. 
+
+Here's why for BitCoin:
+1. Creates plausible deniability. Instead of carrying around a second form of media containing BitCoin, a user can just deny they use BitCoin because every instance comes with BC pre-installed.
+2. Eliminates the need to trust BitCount Wallet sites to access your wallet from TAILS, which are never completely secure, or spend a few minutes re-downloading and installing BC on every TAILS boot.
+3. The most obvious: It's extremely convenient.
+4. Does not need to store any persistent user data.
+
+Here's why for Wuala:
+1. Wuala should eliminate the need for carrying around a second data device containing the user's encrypted wallet(s).
+2. Wuala requires a name and password to be entered every time it is accessed.
+3. Wuala is stored encrypted by the user's login information and can't even be accessed (raw) by the Wuala administrators.
+4. Does not need to store any persistent user data.
+
+In combination, I feel these two additions would be very strong and useful. Combined with regular reinvention of wallets (Every 3-6 months), strong passwords and encrypted physical emergency back-ups the BC+Wuala combination seems to be the most secure and logical way to carry and utilize a bitcoin wallet.
+
+Edit: Also, going hand-in-hand with these additions I also believe 7zip should be included for encryption and decryption. Or am I missing a more secure tool that is already installed?

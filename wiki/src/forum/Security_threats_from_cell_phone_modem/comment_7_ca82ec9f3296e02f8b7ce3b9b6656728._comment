@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-01-23T01:50:18Z"
+ content="""
+According to Bruce Schneier and NATO there is no such thing as 'safe' software VOIP encryption. Maybe if you had a hardware vocoder box and your contact did as well.
+
+If it was safe every government would be using it but none of them do.
+As for a cell dongle, GSM can be decrypted easily but thankfully Tor can't so you are fine. Would your ISP know about this? Yes so maybe boot tails in bridge mode
+
+"""]]

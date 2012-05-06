@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-13T18:09:25Z"
+ content="""
+Thank you for your reply but I think the error message was propably caused by another problem. I just tested Tails on an old notebook, which initially showed the same message. Less than a minute after I connected a network cable to the notebook, TOR was connected and I was able to go online. My main computer was not able to connect for around 15 minutes, so I suspect there is a problem with my network adapter. I will compare both computer's network settings next time I start my main computer with Tails.
+
+Michael
+"""]]

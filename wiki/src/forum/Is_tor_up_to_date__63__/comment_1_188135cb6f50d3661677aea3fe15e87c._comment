@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Yes, no"
+ date="2011-12-18T09:37:02Z"
+ content="""
+As of today:
+
+* Tails 0.9 is the last version of Tails.
+* Tor 0.2.2.34 is not the last version of Tor.
+
+Users of Tails 0.9 are *not* affected by the security issue Tor 0.2.2.34 has for other users. [Details are there](https://lists.torproject.org/pipermail/tor-talk/2011-December/022381.html).
+
+Just wait for Tails 0.10 (coming soon) that won't display this warning. In the meantime, just ignore the warning dialog and go on using Tails 0.9.
+
+"""]]

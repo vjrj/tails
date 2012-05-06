@@ -1,0 +1,57 @@
+Hi, I got possibility from email provider to download certificates for vpn secure communication and when I download it, their read me file says something what I can't succeed to do, so how to install openvpn? by the way, why I never succeed to use synaptic? it is in menu but nio possibility to install new software. 
+
+here is their read me file:
+
+Linux (without NetworkManager)
+------------------------------
+
+- Install OpenVPN, i.e. on a Debian-based system::
+
+    $ sudo apt-get install openvpn
+
+- Start the VPN connection by pointing openvpn at your config (the file
+  named openvpn-ai.conf in the same directory as this README)::
+
+    $ sudo openvpn --config openvpn-466c2b55-023e-4d15-9e3f-e7c7791976ed.conf
+
+
+Linux (with NetworkManager)
+---------------------------
+
+If you are using NetworkManager to configure your network connections,
+you are probably better off having it deal with OpenVPN itself.  A
+NetworkManager plugin exists for this purpose::
+
+    $ sudo apt-get install network-manager-openvpn-gnome
+
+You can then configure the VPN using NetworkManager itself, use
+"Certificates (TLS)" as the Authentication Type, and use the
+certificates contained in this ZIP file.
+
+here is what I get:
+
+sudo apt-get install openvpn
+
+Reading package lists... Done
+
+Building dependency tree       
+
+Reading state information... Done
+
+E: Unable to locate package openvpn
+
+sudo apt-get install network-manager-openvpn-gnome
+
+Reading package lists... Done
+
+Building dependency tree       
+
+Reading state information... Done
+
+Package network-manager-openvpn-gnome is not available, but is referred to by another package.
+
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'network-manager-openvpn-gnome' has no installation candidate
+

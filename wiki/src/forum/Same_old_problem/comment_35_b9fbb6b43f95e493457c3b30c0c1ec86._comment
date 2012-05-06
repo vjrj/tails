@@ -1,0 +1,108 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 35"
+ date="2012-01-12T19:39:26Z"
+ content="""
+I couldn't get the horiztal bar so here goes.
+
+	cat /var/log/htpdate.log
+	
+	amnesia@amnesia:~$ cat /var/log/htpdate.log
+	cat: /var/log/htpdate.log: No such file or directory
+	amnesia@amnesia:~$ sudo cat /var/log/htpdate.log
+	cat: /var/log/htpdate.log: No such file or directory
+	
+	sudo cat /var/log/tor/log
+	
+	amnesia@amnesia:~$ sudo cat /var/log/tor/log
+	Jan 11 11:34:35.201 [notice] Tor 0.2.2.35 (git-73ff13ab3cc9570d) opening new log file.
+	Jan 11 11:34:35.210 [notice] Parsing GEOIP file /usr/share/tor/geoip.
+	Jan 11 11:34:37.997 [notice] OpenSSL OpenSSL 0.9.8o 01 Jun 2010 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+	Jan 11 11:34:38.192 [notice] Bootstrapped 5%: Connecting to directory server.
+	Jan 11 11:34:38.192 [notice] I learned some more directory information, but not enough to build a circuit: We have no network-status consensus.
+	Jan 11 11:35:08.336 [notice] Bootstrapped 10%: Finishing handshake with directory server.
+	Jan 11 11:35:08.537 [notice] Bootstrapped 15%: Establishing an encrypted directory connection.
+	Jan 11 11:35:08.692 [notice] Bootstrapped 20%: Asking for networkstatus consensus.
+	Jan 11 11:35:08.720 [notice] Bootstrapped 25%: Loading networkstatus consensus.
+	Jan 11 11:35:09.398 [warn] Received directory with skewed time (server '208.83.223.34:80'): It seems that our clock is behind by 7 hours, 59 minutes, or that theirs is ahead. Tor requires an accurate clock to work: please check your time, timezone, and date settings.
+	Jan 11 11:35:09.495 [notice] I learned some more directory information, but not enough to build a circuit: We have no network-status consensus.
+	Jan 11 11:35:53.094 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:53.101 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:53.204 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:53.211 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:53.237 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:53.237 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:53.258 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:58.102 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:58.210 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:58.219 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:35:58.262 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:03.106 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:03.214 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:03.222 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:03.266 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:08.110 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:08.218 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:08.226 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:08.270 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:13.114 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:13.222 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:13.234 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:13.274 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:36:41.402 [notice] We're missing a certificate from authority with signing key 3509BA5A624403A905C74DA5C8A0CEC9E0D3AF86: launching request.
+	Jan 11 11:36:41.402 [notice] We're missing a certificate from authority with signing key 499D7CE5A1356045D629F43271EBF600D6F2CC9C: launching request.
+	Jan 11 11:36:41.402 [notice] We're missing a certificate from authority with signing key EEB9299D295C1C815E289FBF2F2BBEA5F52FDD19: launching request.
+	Jan 11 11:36:41.402 [notice] We're missing a certificate from authority with signing key 8F0DEA35D1732D867FB94F5130364927DBCCBB8E: launching request.
+	Jan 11 11:36:41.402 [notice] We're missing a certificate from authority with signing key 5686BC9F510BF2CAAE35DB781A6F641620EB4E96: launching request.
+	Jan 11 11:36:41.402 [notice] We're missing a certificate from authority with signing key 845CF1D0B370CA443A8579D18E7987E7E532F639: launching request.
+	Jan 11 11:37:53.197 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:53.197 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:53.317 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:53.317 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:53.367 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:53.474 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:53. Giving up. (waiting for circuit)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:443. Giving up. (waiting for circuit)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:80. Giving up. (waiting for circuit)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for socks info)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for socks info)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for socks info)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for socks info)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for socks info)
+	Jan 11 11:37:53.475 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for socks info)
+	Jan 11 11:37:58.212 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:58.212 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:58.285 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:58.333 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:37:58.479 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:37:58.479 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:37:58.479 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:37:58.479 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:03.198 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:38:03.198 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:38:03.298 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:38:03.378 [notice] Application request when we haven't used client functionality lately. Optimistically trying directory fetches again.
+	Jan 11 11:38:03.483 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:03.484 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:03.484 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:03.484 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:08.491 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:08.491 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:08.491 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:08.491 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:13.496 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:13.496 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:13.496 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	Jan 11 11:38:13.496 [notice] Tried for 120 seconds to get a connection to [scrubbed]:0. Giving up. (waiting for circuit)
+	
+	sudo grep time: /var/log/syslog
+	
+	amnesia@amnesia:~$ sudo grep time: /var/log/syslog
+	Jan 11 11:34:35 localhost time: Waiting for the Tor consensus file to contain a valid time interval
+	Jan 11 11:35:09 localhost time: We do not have a Tor consensus so we cannot set the system time according to it.
+	Jan 11 11:35:09 localhost time: Waiting for Tor to be working (i.e. cached descriptors exist)
+
+"""]]

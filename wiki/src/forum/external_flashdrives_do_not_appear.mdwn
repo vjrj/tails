@@ -1,0 +1,1 @@
+Most of the time, external flashdrives I connect to my computer when I'm running tails do not appear in disk utitly or under places. However, when I check the system logs it appears that the kernel acknowlegs the new device. I cannot find any speific reason for this. After I shutdown a few times and start back up, sometimes they appear again.  

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-07T19:28:53Z"
+ content="""
+OK, I understand, in fact I'm already quite happy with Tails as it is now.
+
+Just wondering, though : doesn't the Tor project document (with code diffs) how they patch the firefox sources, and in that case, couldn't you \"simply\" apply these when you build the Tails ISO ?
+
+Otherwise, has anybody discussed what we're missing in terms of anonymity/security by not using the TBB ?
+"""]]

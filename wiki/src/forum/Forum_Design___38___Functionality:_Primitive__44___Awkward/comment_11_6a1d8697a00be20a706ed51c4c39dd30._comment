@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-01-10T13:50:39Z"
+ content="""
+That's a weak argument. For one, trusting your site is not principally different from trusting another site from a user's point of view. Your site is most likely easier to break in to than the site of a company specializing in forum hosting. If served with a court order for wiretapping, you will be just as required to comply. You have less control of the hosting hardware — you wouldn't know if RiseUp was served with a wiretapping order + gag order. Those hippies, by the way — do you personally know them? Did you agree not to support [“a vanguard strategy for revolution”](https://help.riseup.net/en/social-contract)? You could also setup some kind of proxy for an external forum, or recommend users to use Tor Browser for accessing it. If Tor Browser wouldn't work for them, they would need to solve that anyway before being able to use Tails.
+"""]]

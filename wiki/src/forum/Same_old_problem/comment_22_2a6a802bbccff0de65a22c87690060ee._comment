@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 22"
+ date="2012-01-10T23:33:22Z"
+ content="""
+The tor bundle works here with no problems, except for once when the system clock was off by 8 or 9 hours. I don't know how that happended. Resetting the host clock fixed that and the Tor Bundle worked. Using tails on the desktop is still flighty. Once today it connected and passed tor check but the panel never appeard. I had to force a shutdown with the power button. Tails appears to get confused on load as if it isn't sure what to load first. If Icweasel opens first (before the clock synch and the green onnion in the panel) that almost guarentees Vidalia will not connect, but not always. IOW, maybe Iceweasel will not wait for clock sync to finish.
+"""]]

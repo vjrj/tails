@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-12-18T11:47:49Z"
+ content="""
+Will we finally get rid of the Polipo in this next Tails? It breaks downloads, is unmaintained and has other serious flaws as Tails dev know.  Bind to a different local proxy please?
+"""]]

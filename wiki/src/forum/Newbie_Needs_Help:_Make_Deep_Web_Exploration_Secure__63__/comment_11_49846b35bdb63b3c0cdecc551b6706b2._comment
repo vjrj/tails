@@ -1,0 +1,47 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Reply"
+ date="2012-01-13T18:06:51Z"
+ content="""
+> I would not include statements like \"not yet fully adapted\"
+> and \"outdated section\" in reference to anything. It creates
+> a bad impression.
+
+Fair enough.
+
+> Scripting? As tails has previously pointed out the decision to
+> allow java was a compromise between functionality and security,
+
+I believe you're talking of JavaScript. Tails never allowed Java.
+
+> and has only recently been updated with the ability to forbid,
+
+Sorry to nitpick, but the ability to forbid JavaScript was always
+present in Tails: Firefox / iceweasel offers this natively.
+What's new in Tails 0.10 is that this is now a two-clicks thing.
+
+> When talking of the deep net, there is a real risk of
+> prosecution (read persecution) of innocent parties. I think
+> this is an important factor to consider when thinking of
+> functionality vs security (read ease of use vs jail time)
+
+Sure. I very well understand security considerations can make the
+difference between \"user X uses Tails\" and \"user X uses
+a stronger tool\". Please keep in mind, too, that usability
+considerations can make the difference between \"user Y uses
+Tails\" and \"user Y uses a weaker tool\".
+
+> I think its a bad idea for tails to label people liars without
+> good cause. Its positive to express ideas, and even if you
+> don't agree with them, its sufficient simply to say so.
+
+Sure. I was *not* referring to ideas I would merely disagree with.
+Bye \"FUD, lies and misleading statement\", I was referring to
+**plain wrong facts** that have been spread about Tails,
+generally with sarcastic and/or condescending tone. That is what
+I call FUD, that can easily and uselessly drain much energy of
+ours, and it belongs neither to what is welcome on this forum,
+nor to what I'm in the mood of spending too much time on.
+
+"""]]

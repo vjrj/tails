@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-11T16:57:48Z"
+ content="""
+Thanks for the response but i decided to run it on my MacBook and it works perfectly. :)
+
+Could you please help me to install the tails-i386-0.10.iso on an USB Stick such that there are 2 volumes \"tails_os\" and \"other\"? I want to boot from \"tails_os\" and be able to save files on the volume \"other\".
+
+Thank you for your time :)
+"""]]
