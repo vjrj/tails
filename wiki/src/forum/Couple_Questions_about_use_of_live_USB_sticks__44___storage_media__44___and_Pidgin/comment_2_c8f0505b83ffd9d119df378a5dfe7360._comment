@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-19T21:51:30Z"
+ content="""
+> -Is there even the remotest possibility that the OS could write anything to the USB stick without being specifically asked to?
+
+Tails [[contribute/design]] supposedly prevents this, but nothing is perfect. Audits are welcome.
+
+> -Is there any possibility that Tails could use the swap partition of the host computer's hard drive, or any other media connected to the computer, without being specifically asked to?
+
+Tails [[contribute/design]] supposedly prevents this, but nothing is perfect. Audits are welcome.
+
+> -Does anyone know how to connect to the Pidgin IRC server for Tails?
+
+Change Tor circuit, then retry. OFTC currently makes life hard for Tor clients.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="more info please"
+ date="2012-03-11T15:05:14Z"
+ content="""
+Hi,
+
+are the wifi networks detected? (normally a list appears when you click on the network icon on the top-right corner of your screen)
+
+Can you copy/ paste the result of the following command (as root):
+
+> iwconfig
+
+ciao
+"""]]

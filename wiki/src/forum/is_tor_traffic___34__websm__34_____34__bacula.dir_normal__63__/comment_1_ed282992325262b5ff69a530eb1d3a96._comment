@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-12T16:03:42Z"
+ content="""
+Can you please ellaborate on what you did exactly. My guess is that you just started listening on your external network interface that is facing the Internet. What you see then is Tor traffic only, but your packet analyzer seems to be naïve as it only looks on the port used when it guesses of protocol. Example: a Tor entry node uses ORPort 9090 (of which there are several), and hence the packet analyzer identifies any traffic to it as `websm` since 9090 is the standard port for the WebSM protocol.
+
+In Tails, if you sniff on the loopback interface you'll only see SOCKSified traffic (plus other stuff that will not be routed to the Internet, like vidalia's controller traffic), and if you sniff on the external interface you'll only see Torified traffic (and any LAN traffic). To do what you want to do you should dump all traffic on the loopback interface and run some script on the dump which deSOCKSifies it, and then investigate the deSOCKSified dump.
+"""]]
