@@ -6,5 +6,5 @@
  content="""
 How do you change settings to fit your needs, to start with?
 
-Also, please [[doc/first_steps/bug_reporting|report a bug]]: that shall be *fixed*, not merely workaround'd.
+Also, please [[report a bug|doc/first_steps/bug_reporting]]: that shall be *fixed*, not merely workaround'd.
 """]]
