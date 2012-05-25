@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Such a shame - Torify Fails"
+ date="2012-03-16T18:40:57Z"
+ content="""
+All FLASH without transparent proxying is not possible. Using torify the Browser starts as usual and all FLASH content (in my case chats) is displayed. But the connection to the chat is blocked. I test it on different web chats. All of them failed.
+
+If someone wants to re-test it, here is the fastest and easiest way to test it (Install Chrome in TAILS 10.2):
+
+     sudo apt-get update
+     sudo apt-get install libcurl3 libssh2-1
+     wget http://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+     sudo dpkg -i google-chrome-stable_current_i386.deb
+     sudo gedit /usr/bin/google-chrome
+
+     --> If you wanna test it with torify you must exchange the last line of the chrome start script:
+     exec -a \"$0\" \"$HERE/chrome\" \"$@\" --user-data-dir
+
+     --> Now we can test:
+     torify /opt/google/chrome/google-chrome
+
+     --> Everything seems to work fine now, but visit my test chatroom tinychat.com/c0s87 
+     --> Connections by flash are not torified but blocked by the new TAILS environment!
+
+Cheers,
+Roger
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-04-01T01:59:07Z"
+ content="""
+> My understanding is that it's run by the Debian maintainer of the Tor package for whatever that's worth.
+
+Are you suggesting that Tails developers actually made a conscious decision about routing OFTC IRC traffic via a Debian maintainer-maintained (no pun intended) hidden service, and did not instead use a hidden service address that was vaguely associated with OFTC without doing any checks whatsoever?
+
+> Any way, ultimately speaking, why trust irc.oftc.net?
+
+No reason whatsoever, and by the way, do you mind routing all your IRC and e-mail traffic via this proxy that I take care of? You should use PGP and OTR when necessary, anyway.
+"""]]

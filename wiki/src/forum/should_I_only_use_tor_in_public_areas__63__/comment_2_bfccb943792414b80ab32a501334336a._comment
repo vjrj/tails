@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-27T13:25:35Z"
+ content="""
+>I've also been wondering if it matters what computer I get on as well.
+
+If you do more than lolcats and checking the weather you should really only use a computer you solely control, own and can reasonably trust to be spyware-free.
+
+Use strong passwords, use full disc encryption, install all security updates, only install reputable software, install security software, secure your browser configs (Chrome/Chromium is good non-anonymous use, for Tor only use the TBB or Tails). Using only open source for anonymous mode is recommended.
+
+Don't overlook physical security (keyloggers, bugs, hidden camera, TEMPEST).
+"""]]

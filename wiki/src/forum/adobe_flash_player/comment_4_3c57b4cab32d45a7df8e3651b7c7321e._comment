@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Flash install ... NOT!"
+ date="2012-03-11T16:56:28Z"
+ content="""
+amnesia@amnesia:~$ sudo apt-get install flashplugin-nonfree
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package flashplugin-nonfree
+
+"""]]

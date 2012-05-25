@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-09T10:53:52Z"
+ content="""
+Unfortunately building Tails depends not only on the sources but on the state of the Debian APT repositories, so building from the same source today can yield a different result than building from them tomorrow if a Debian package was updated. That means that inconsistencies like the one you experience sometimes hit you.
+
+Which branch are you trying to build? In general the `devel` branch is the one that gets the most love w.r.t. being buildable, so I suggest you use that one:
+
+    git checkout devel
+
+"""]]
