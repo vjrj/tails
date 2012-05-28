@@ -1,0 +1,5 @@
+I've been trying to create partitions on the usb stick that I install tails on.  I've tried several combinations on a couple different sticks.  But, none of them seem to work.  
+The ultimate goal I have in mind is to have tails installed on a usb stick with another large encrypted partition on it so that I can boot up tails, unencrypt the partition, and then use directories and documents that are held in the encrypted partition.
+I've been using both the terminal method for installing tails and yumi.  I've got a bit of experience with linux, but for some reason I can't get the usb to boot after I've installed tails and another partition.
+Is this possible?  If so, can anybody help me figure this out?  
+Thanks in advance to anybody willing to help!

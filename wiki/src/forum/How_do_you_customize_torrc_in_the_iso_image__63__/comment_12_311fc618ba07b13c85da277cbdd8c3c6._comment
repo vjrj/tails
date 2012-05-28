@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Editing torrc..."
+ date="2012-03-31T07:40:19Z"
+ content="""
+@ comment 11 - Not the way I read it.
+
+
+As for editing torrc, I'm always inclined to add \"ExcludeNodes {my_countrys_code}\" as I wouldn't trust my government as far as I could throw it and, unfortunately, I can't throw it anywhere. Anyone know if the Tor devs are still warning that using ExcludeNode could break your anonymity in cruel and unusual ways?... and if so, if there's anything more substantial to the warning than an effort to discourage noobs from doing anything too bizarre?
+"""]]
