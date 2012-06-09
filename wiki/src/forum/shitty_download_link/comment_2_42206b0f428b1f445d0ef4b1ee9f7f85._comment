@@ -6,6 +6,6 @@
  content="""
 `dl.amnesia.boum.org` is currently served by 12 mirrors.
 
-If there's a problem in Tails itself (given you did not tell us what operating system or client you were using to download, I don't know), please [[doc/first_steps/report_a_bug]]. This has substantially greater chances to help in any way than insults.
+If there's a problem in Tails itself (given you did not tell us what operating system or client you were using to download, I don't know), please [[doc/first_steps/bug_reporting]]. This has substantially greater chances to help in any way than insults.
 
 """]]
