@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-06-15T07:12:03Z"
+ content="""
+The links lead to interesting discussions. One question. Even if someone on our network can single out a MAC, they still cannot sniff (decrypt) the DNS and Internet traffic can they? Wouldn't their knowledge be limited to who and when connteced but not what and where the connection whent to?
+"""]]
