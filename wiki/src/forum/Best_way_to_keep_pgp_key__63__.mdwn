@@ -1,0 +1,5 @@
+I am aware that Tails doesn't keep any files after a reboot and this is intended. However I need to keep my pgp key and a few text based files, obviousley these need to be kept securely. So what method would you recommend?
+
+So far I have tried making another partiton on my pendrive and using the cryptkeeper app, however this doesn't seem to work very well.
+
+I then looked at using truecrypt on this second partition, but then I realised I can't get truecrypt to run on Tails (and have seen suggestions that I shouldn't be using it).

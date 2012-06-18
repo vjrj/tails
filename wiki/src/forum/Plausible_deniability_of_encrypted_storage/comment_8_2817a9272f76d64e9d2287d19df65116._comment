@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Plain cryptsetup too, but..."
+ date="2011-12-18T13:13:18Z"
+ content="""
+Plain cryptsetup mappings are also indistinguishable from random data; they share with loopAES the need for configuration on the user's side, and the lack of user-friendly tools to setup / use them.
+
+"""]]

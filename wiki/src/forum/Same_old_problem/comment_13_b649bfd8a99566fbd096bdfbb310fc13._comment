@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-01-09T17:25:53Z"
+ content="""
+As an addition to what was mention in comment 3, please also provide output of the following command if you experience this issue:
+
+    sudo grep time: /var/log/syslog
+
+
+@Working today
+> It is connecting fine today but the clock right now is 8 hours ahead of real time. Should it be?
+
+The Tails clock is set to UTC = GMT, so you probably live in timezone GMT-8.
+
+> Save it to disk?
+
+Yes.
+
+@Comment by Zip — Sat 07 Jan 2012 01:18:05 PM CET
+
+Not sure what's going on here (after reviewing your logs). Your Tor client is unable to reach the directory server for some reason. That would be normal if the network isn't working, but Tor generally detects and logs that with a \"NOROUTE\", which isn't in your log. Can you try pinging you router or some other host on your LAN from within Tails?
+
+This would also happen if your ISP blocks access to Tor. Is Tor working if you use e.g. The Tor Browser on your main system?
+
+@comment 9
+> Would the clock sync fail is already caught in a man-in-the-milldle attack? IOW, could this be a way to detect MItM attacks? 
+
+In some situations, yes, but definitely with false positives and false negatives. For instance, if the an invalid consensus is sent back to you as part of the MITM, then Tails would refuse to start Tor automatically on boot. But if the consensus is a replayed, valid consensus (that's no older than a week) Tails would happily accept it and probably manage to start Tor. 
+
+@comment 11
+> There is some problem with the Tor consensus file, the times are off by ~6 hrs.
+
+Note that the times in the consensus are UTC = GMT time. Or did you take this into account?
+
+"""]]

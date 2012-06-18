@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-03T11:35:54Z"
+ content="""
+First of all, an HTTP proxy between Firefox and the Tor client is not needed any longer as Mozilla finally got their act together and fixed their SOCKS support in Firefox 4. One we [[update to a new Iceweasel (= Firefox)|todo/Iceweasel_5.x]] we'll remove polipo.
+
+Second, we chose polipo since that's what most Tor users have been using for years -- using another proxy might make you stand out from that crowd, which is bad for anonymity. The Tor project recommended using polipo and shipped it in their bundles until Firefox got fixed in version 4.
+
+In polipo vs. privoxy, the privoxy features are more or less meaningless as it is unable to sanitize encrypted HTTPS sessions for instance. Hence the only proper place to do sanitation is in the browser, and that's what Torbutton is there for.
+"""]]

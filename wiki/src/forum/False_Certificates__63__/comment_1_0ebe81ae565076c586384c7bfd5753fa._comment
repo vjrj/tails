@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-12T07:39:39Z"
+ content="""
+Tails has been affected by this issue just like any other browser distribution.
+
+Since Tails was shipping the affecter DigiNotar root certificate, people might have been victims of man-in-the-middle attacks by people pretending to be, amongst others, google.com, facebook.com, yahoo.com, wordpress.com, torproject.org, etc. and showing a valid HTTPS certificate to their browser.
+
+See [[our doc about man-in-the-middle attacks|doc/warning#index3h1]] to understand how they work and why we have always been warning about the weakness of the mainstream HTTPS certification system.
+
+The corresponding root certificate [has been remove from Debian](http://www.debian.org/security/2011/dsa-2299) and will be from Tails on the next update.
+"""]]

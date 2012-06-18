@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="No good reason for Polipo"
+ date="2011-12-18T12:24:31Z"
+ content="""
+Polipo breaks downloads above a certain size, even if you amend its caching settings to try to fix this.  It's a fucking broken program.  Since there is some potential advantage in having applications bind to localhost (and hence using a loca l proxy), and Privoxy is tried and tested with Tor a zillion times, then really is no good reason to not implement Privoxy.
+"""]]

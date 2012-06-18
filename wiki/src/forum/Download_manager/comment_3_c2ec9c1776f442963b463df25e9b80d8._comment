@@ -1,0 +1,34 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-04T09:25:27Z"
+ content="""
+Thanks for the helpful analysis.
+
+Perhaps these could be examined with respect to a specific add-on though I realize that is not Tail's responsibility to do that. DownThemAll is open source which means it is possible to vet the code and it becomes harder to hide an exploit.
+
+It would be nice to be able to install Wireshark on Tails to sniff for suspicious connection attempts coming from an add-on or from any program.  However phoning home might be hard to detect if leaked data is encrypted or somehow embedded in requests to sites.
+
+These easiest way to get the external ip address behind a NAT would be via ping or traceroute or by doing a request to any site configured to return the external ip address of the caller.  But a plugin or other software doing this won't be able to see the user's external ip address since that will all go through tor.
+
+Connection to the local LAN do not go through tor and I read that it is possible to discover the external ip address via SNMP on corporate networks.  I believe(?) home router firmware doesn't have SNMP usually.  But this might be a potential vulnerability that users on networks using SNMP should perhaps be warned about:
+
+$ snmpwalk -v2c -c public myrouter ip
+
+myrouter is the DNS name of the router and ip is not an ip address but the literal string \"ip\". The WAN ip is under ipAdEntAddr. 
+
+So one thing to look for in an add-on or any software is if it tries to query SNMP.
+
+(This could start a whole other thread about router vulnerabilities eg http://www.neowin.net/forum/topic/925226-router-dns-rebinding-vulnerability-exposes-local-private-ip-addresses/ which is something I'd quite like to know more about.)
+
+I'm not sure if there are other exploits for finding the external ip on the local machine.  In the case of Tails I'm not sure the ext ip could be stored anywhere?
+
+
+
+
+
+
+
+
+
+"""]]

@@ -1,0 +1,3 @@
+I'm using Tails, and I'm using the Iceweasel browser. Normal websites load fine, however, if I try to go to any .onion domains it says "Iceweasel can't establish a connection to the server at __________.onion" or it will claim there was a connection timeout. 
+
+I am connected to Tor, so I don't know what the issue is. 

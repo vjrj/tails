@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Panel customization"
+ date="2011-06-22T10:32:32Z"
+ content="""
+Hi, welcome to Tails forum.
+
+If you want to have a customized desktop panel we advise you to customize it yourself each time you start Tails. If you think there are elements of the panel that should be remove by default in Tails we're ready to listen to your suggestion if you provide arguments for them.
+
+Building Tails from source is a complex process and is not recommended since it could brake you anonymity.
+
+"""]]

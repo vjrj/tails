@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Works already"
+ date="2011-12-27T12:24:53Z"
+ content="""
+> I'd find it even more annoying if I couldn't share files between my
+> not-so-safe platform and my safe-platform.
+
+The [[recommended and documented|doc/encryption_and_privacy/encrypted_volumes]] way to
+create encrypted volumes on Tails creates LUKS volumes, which are
+supported on Windows thanks to [FreeOTFE](http://www.freeotfe.org/).
+
+Case closed?
+
+> If you can find a comparatively safe and easy alternative to truecrypt (including both password and keyfiles) it'd only be a small annoyance to migrate.
+
+LUKS supports both passphrases (very easy, integrated into the GUI) and keyfiles (needs command-line I believe).
+
+> But I haven't found any, and until I am aware of an alternative, I'd say it's better to find an alternative way to distribute truecrypt that'd not conflict with the distributions ideology.
+
+It's not only about ideology. If the company that builds TrueCrypt were to stop maintaining it, the license would make it a pain, if not impossible, for anyone to legally go on with the maintainance work.
+
+"""]]

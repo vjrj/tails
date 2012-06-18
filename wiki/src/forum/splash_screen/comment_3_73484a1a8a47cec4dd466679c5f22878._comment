@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-11-29T00:20:09Z"
+ content="""
+I was thinking about stealthy booting capabilities as there have been many occasions where I would have appreciated the opportunity to boot my own OS but didn't feel comfortable doing so because it would most certainly be against the rules, and I could have got in trouble and drawn unwanted attention to myself and my computing habits. Anyway, I've been thinking of a good way to implement such features reliably in tails and think that I've come up with some good ideas. Sorry for the length of this post I have just had lots of ideas and would be really amazing to see this come to fruition. Also sorry for any points already suggested by others I find it too hard to exlpain my concept properly without them. You can skip to the summary at the bottom if you want to see the concept before the explanation.
+
+
+Firstly, if you have to use a public computer, it's likely that you'll be somewhere like an internet cafe, office, school  or library. In most cases these computers will be already running. As such a handy chameleon-like function for tails could involve running a little screen capture program residing on a usb key that saves a screenshot of the running desktop to a specific file on the drive. Then, when you restart the PC and tails boots(from CD or USB), it should automatically search the roots of any external disks and their partitions for this file to then immediately set it as the default wallpaper. This also allows the chameleon function to be optional (run the app or not, have wallpaper file or not).
+
+Secondly, the top taskbar in tails could automatically be set to \"auto hide\". The bottom one could work either set to autohide or with 100% transparency to overlay the original taskbar in the screenshot/wallpaper. The result of the hidden taskbars and the chameleon function mentioned above would be very effective - it would be indistinguishable from the OS residing on the machine and should work for almost any PC no matter what theme, skin or wallpaper is in use. Also, if transparency is chosen for the bottom taskbar, the original windows taskbar will still be visibile even when you maximize windows.
+
+I would then only have one default theme for tails. It would look something like windows 95/98/nt. With flat grey and dark teal kind of background. My reasoning for this is that a glimpse of a grey window in XP is very common, specfically in virusey - buggy - and old hardware that you might find in schools, libraries and internet kiosques. This also keeps it simple!
+
+Once booted, vidalia and iceweasel shouldn't jump out of nowhere with the congratulations tor is running page in full view - perhaps they could be forced to desktop 2? There should be no icons on the main desktop - its function should be purely as a decoy. If this is not possible, then they should be stacked on the right side and be much more subtle (perhaps in a way that they become fully visible with the default tails background but look very hard to spot or camouflaged against a random screenshot used as a background).
+
+Finally I would implement a very simple one handed key combination to quickly be able to get back to the decoy desktop if there is any fear of suspicion.
+
+
+
+With these ideas in place I would feel very confident using tails in public without the proper authorization. However, there is one aspect that I haven't covered yet that could also be an issue - disguising the actual booting process once you restart the machine.
+"""]]

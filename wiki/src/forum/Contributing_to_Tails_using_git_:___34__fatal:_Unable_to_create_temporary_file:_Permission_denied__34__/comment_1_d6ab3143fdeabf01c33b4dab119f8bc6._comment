@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="matsa"
+ ip="127.0.0.1"
+ subject="solved &quot;Contributing to Tails using git : &quot;fatal: Unable to create..&quot;"
+ date="2012-01-03T17:52:33Z"
+ content="""
+I solved, with some help, this damned fatal error. 
+
+> You *are* added to
+> tails/matsa.git (which is a proper fork of tails.git), but not to
+> matsa.git (which is just a normal empty repository).
+
+So the correct git config is 
+
+> url = ssh://matsa@repo.or.cz/srv/git/**tails/**matsa.git
+
+Thanks a lot to Jan Krüger for his help
+"""]]

@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-02T13:27:21Z"
+ content="""
+> I don't understand why there isn't Nosript addon in Tails and Java Script is enabled by default.
+
+See [[todo/iceweasel_addon_-_NoScript]] for more information.
+
+> I know that Torbutton is supposed to deal with problematic Javascript but still vast majority of Tor users keeps Javascript disabled whenever they can.
+
+Do you have any numbers to back up the \"vast majority\" part of you statement? I'd assume that the vast majority uses the Tor Browser Bundle, which does include NoScript, but has JavaScript enabled. It does, however, benefit from other protections provided by NoScript (such as XSS protection).
+
+> Besides keeping JS enabled is really bad for browser fingerprint analysis. 
+
+Not necessarily. When using Tor you are already confined into a comparably small set of users, i.e. all Tor users. The best you can do is to look like the median Tor user, which likely is a Tor Browser Bundle user. Hence disabling JavaScript completely would make you distinguishable from them, which most likely will hurt you more than keeping it enabled. Quite paradoxical indeed. That's not to say that you are wrong, but I believe the matter is a lot more complex than you think.
+"""]]

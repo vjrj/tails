@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="We can revert using git"
+ date="2011-07-05T21:16:14Z"
+ content="""
+Thanks for helping us fight the spam.
+
+Our website is using git, a version control system, as backend so the team of developers always have the possibility of cleanly reverting any change. However, we don't want to offer this possibility to contributors at the moment.
+
+By the way, we're working on solutions to prevent the spam while still allowing contributors to easily participate on the website. So, hopefully that will get sorted out in the future.
+
+"""]]

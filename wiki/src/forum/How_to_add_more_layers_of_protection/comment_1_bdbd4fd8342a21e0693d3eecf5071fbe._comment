@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-19T22:53:13Z"
+ content="""
+In terms of anonymity there is nothing else you can add than another encrypted \"hop\", which usually means VPN or SSH. It can be good idea - if you know what you are doing. Depends how you set it up: commercial VPN, money trail, logs? permanent exit node? permanent entry node? It can introduce new risks while solving others. 
+
+Who's your adversary? Against a global adversary with unlimited resources more proxies make passive attacks harder but active attacks easier as you are providing more attack surface and send out more data that can be used. Against colluding Tor nodes you are safer, against blackhat hackers who target Tor client code you are safer. If the VPN/SSH server is adversary controlled you weaken the protection provided by Tor. If the server is trustworthy you increase the anonymity and/or privacy (depending on set up) provided by Tor.
+
+There is a lot you can do to make it harder to unmask your identity regardless of whether you use \"only\" Tor or more layers. Careful management of all data you reveal about yourself (e.g. time of day you connect, writing style, regular online habits), misinformation, using covert channels, steganography or mixnet on top of Tor, protecting against \"ordinary\" application exploitation by hardening your systems, using multiple VMs and transparent proxying...
+
+I'll leave it at that. Pretty general question and probably an endless topic.
+"""]]

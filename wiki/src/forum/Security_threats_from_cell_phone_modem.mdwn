@@ -1,0 +1,8 @@
+It is often convenient to carry only a mobile phone and computer instead of a dedicated modem. I then connect the mobile phone to a laptop via a usb cable. 
+
+I would like to know if this presents a security risk, and discuss in general the security issues surrounding wireless internet devices like usb modems ect which use mobile phone networks 
+
+I understand that mobile phones are installed with a clipper chip as a mandatory back door for the authorities. Is it possible that the mobile phone is using the usb connection to install compromising software? Is it possible that the mobile phone is sending other compromising information like perhaps a unique fingerprint or ID of the attached computer? Do dedicated usb modems(often call internet dongles ie using the phone network) which are not mobile phones present similar issues, ie do they have clipper chips also? Mobile phones and usb modems have internal memory which requires special software to access/wipe ect. Could this memory be used to compromise security somehow. For example is it possible that an image, text or keyfile could accidentally or covertly be cached in this memory and accessed by third parties?
+
+ 
+

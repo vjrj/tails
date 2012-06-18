@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re"
+ date="2011-06-21T00:46:26Z"
+ content="""
+Yes they are vetted and trusted. If any of them become rouge their exit node is killed. Further more all traffic is end-end encrypted for ALL communications besides HTTP we are forcing all conections over HTPP to move over to SSL when possible. It is still recommended to use a VPN to encrypt traffic so no end node can read it. We are trying to make it VERY difficult for end nodes to be monitored (they won't be ) but you would still need to trust us. Sadly you eventually need to trust someone. The rest of the network is end to end encryption (email,IM, BBS, etc. Mentioned in original thread). 
+
+X942
+"""]]

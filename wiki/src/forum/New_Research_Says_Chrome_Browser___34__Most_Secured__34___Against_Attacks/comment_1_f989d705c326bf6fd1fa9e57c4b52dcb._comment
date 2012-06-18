@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-10T11:58:15Z"
+ content="""
+The research was commented on at:
+
+http://www.theregister.co.uk/2011/12/09/chrome_ie_firefox_security_bakeoff/
+
+The study appears to have been commissioned by Google, however, it does put to rest the notion that those who believe that the more the bugs/loopholes on record, the worse the software and the faster they are fixed is a good measure of its security.
+
+The paper argues that many of the metrics regularly used to gauge how well software stands up to hack attacks are unreliable.
+"""]]

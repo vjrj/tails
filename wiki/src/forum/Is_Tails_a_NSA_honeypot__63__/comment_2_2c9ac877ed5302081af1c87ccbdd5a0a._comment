@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-10T06:32:19Z"
+ content="""
+Don't think NSA would need to worry about traffic analysis for the majority of users, confident in their windows cardboard box.  traffic analysis is acknowledged by tor, the question is can they do it on mass or only if targeted. My guess is that it would be easier to exploit the host rather than tor, which is what i think this is about
+"""]]

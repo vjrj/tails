@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="A reply to &quot;Backup and restore apt archives&quot;"
+ date="2011-10-17T05:55:44Z"
+ content="""
+>Using this technique are the list files verified by a key on the CD?
+
+>Are the apt archives verified by the hashes in the \"lists\" files? Which one's are used? (It seems like it goes too fast to use all the hashes in the \"lists\" files.)
+
+They are only verified when downloaded. They won't be verified when copied to the apt archive. To have them verified you need to set your backup location as a local repository and add it to your sources list.
+"""]]

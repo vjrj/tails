@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-04T07:46:03Z"
+ content="""
+Interesting (I am the OP) if the tor folk have it wrong about Privoxy caching an entire web page before passing it to the browser (iirc slow pages viewed via privoxy load in stages like ordinary pages, not all at once).
+
+Thanks I was aware that sockification for FF-Iceweasel would no longer needed soon, I was thinking more about Privoxy's advanced sanitation and filtering features. The vast majority of web pages are not https:// so this does not make Privoxy's filtering irrelevant.
+
+Good point about being able to point wget and curl through Privoxy to filter pages and also being able to use different proxies for i2P and tor. I assume web bugs (crushed by Privoxy by default) are not an issue since any traffic from a bug goes out through tor.
+
+The key question is this: is it possible to imagine threat models that Privoxy might guard against better than relying on browser settings + Polipo alone?
+
+"""]]

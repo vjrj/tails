@@ -1,0 +1,11 @@
+hi everyone
+
+Im new on tails and i'm trying to connect to internet with the awu036h external wifi interface.
+
+When i boot on tails with the awu card plugged, the iwconfig confirms its recognized by tails and the network controller indicates that the interface is recognized too, but doesn't activate it and find no networks.
+
+the "iwconfig wlan1 up" command answers : "SIOCSIFFLAGS: Erreur inconnue 132"
+
+Rfkill doesn't seem to be installed...
+
+do anyone know how to deal with this issue??

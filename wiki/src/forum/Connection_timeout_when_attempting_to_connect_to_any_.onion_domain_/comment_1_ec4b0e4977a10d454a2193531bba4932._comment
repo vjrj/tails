@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-16T13:09:54Z"
+ content="""
+Does a reboot fix the issue?
+
+Please post the results of these commands here immediately after you have detected the issue:
+
+    cat /var/log/htpdate.log
+    sudo grep time: /var/log/syslog
+    sudo cat /var/log/tor/log
+
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Really harmless"
+ date="2011-10-26T21:42:21Z"
+ content="""
+This connection goes through Tor.
+
+See [[the part about DNS|contribute/design/Tor_enforcement/DNS]] in our [[design document|contribute/design]] for details or self-education.
+
+"""]]

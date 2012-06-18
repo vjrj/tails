@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="MD5SUM would be practical"
+ date="2011-10-01T16:23:05Z"
+ content="""
+I know there are weaknesses with MD5SUMs but most people don't know how to verify with PGP (even with your confusing instructions). I can bet that there are a lot of tails CDs being downloaded and used without ANY verification at all! A simple MD5 or SHA256 would provide something at least instead of nothing at all. 
+"""]]

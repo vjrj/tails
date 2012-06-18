@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="netsukuku = P2P internet"
+ date="2011-08-25T17:36:48Z"
+ content="""
+I didn't try it, but with wifi antenas, it is possible to make independent internet network, so if internet is shutdown (because of rpepression, climate changes, etc) people can connect to each other computers with wifi and netsukuku, peer to peer internet:)
+https://secure.wikimedia.org/wikipedia/en/wiki/Netsukuku
+http://netsukuku.freaknet.org/
+
+I don't know if netsukuku could be part of tails...
+"""]]

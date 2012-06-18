@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-11-16T17:57:59Z"
+ content="""
+If the chat is in the web browser then no. As mentioned above, the Java plugin is not included, and for good reasons: Java can deanonymize you. So a Java plugin will probably never be included in Tails.
+
+(BTW, Java and JavaScript are two *completely* different things. JavaScript is available in the Tails web browser, however, because it's possible to make it secure thanks to Torbutton.)
+"""]]

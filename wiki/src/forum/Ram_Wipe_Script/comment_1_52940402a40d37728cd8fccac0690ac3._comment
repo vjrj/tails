@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: Ram Wipe Script"
+ date="2011-07-18T15:50:39Z"
+ content="""
+Althought I don't know fedora, I guess it might be possible to implement our scripts. It mostly rely on a few files :
+
+ * An [[initscript|http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/init.d/tails-kexec;h=05cd98a36984891f1890549230efabcdfc06d4cc;hb=HEAD]] used to start kexec at the end of the shutdown process
+ * A [[Hook|http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/usr/share/initramfs-tools/hooks/sdmem;h=dc34f86d62a9d259ae6d8937f7df56fdb2761062;hb=HEAD]] to initramfs to include sdmem, and a [[script|http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/usr/share/initramfs-tools/scripts/init-premount/sdmem;h=c97510cf544876cb43431cd25d4c187a3c59fad3;hb=HEAD]] to be included in this initramfs. This script is controlled by options defined in a [[Debian /etc/default|http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/default/kexec;h=02fc4c0f0fe5794e2b9faeb0c5688dc2dfeb8a1f;hb=HEAD]] file.
+
+So the process is quite simple. At the end of the shutdown process, the last initscript that is executed is the tails-kexec one, which executes a kexec passing the right options to the \"sdmemed\" initramfs.
+
+The use of this kexec trick is the only we've found to be sure to wipe all the non-kernel ram memory. Otherwise it's quite complicates to know how much userland memory has to be wiped.
+
+If you happen to succeed in implementing this feature into fedora, that'd be nice to explain here how you proceeded, or point to a place were it is explained.
+"""]]

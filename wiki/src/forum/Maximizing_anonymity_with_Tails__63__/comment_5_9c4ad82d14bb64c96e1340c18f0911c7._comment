@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-25T08:43:12Z"
+ content="""
+-> There's nothing you can do. The ISP can simply see that traffic is comming out -> from the \"pipe to your house\", and no amount of IP/MAC spoofing can change 
+-> that if anything it just looks suspicious). You can, however, hide the fact 
+-> that you are using Tor from your ISP by using Tor bridges (or a VPN).
+
+Does that mean, the ISP is normally only filtering connections to all the known Tor relays and does not at all a \"deep packet inspection\" in ordert to detect Tor-traffic?
+
+Thank you!
+
+
+
+"""]]

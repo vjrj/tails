@@ -1,0 +1,8 @@
+There has been an update to tor since the latest tails (0.7.2)
+
+I tried to update with apt-get however Vidalia did not start afterwards
+
+What is the best way of updating tor?
+
+As its an essential part of tails it really needs updating,
+

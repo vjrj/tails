@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-16T10:28:32Z"
+ content="""
+Welcome to the wonderful world of [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping)! Which piece of software will be responsible to decrypt the operating system? Will it need an operating system itself? Where will it come from? Can you trust this piece of code?
+
+So far, thinking about security threats, attack vectors and similar issues often leads one to think that having Tails unencrypted, but always in sight, is good enough. Others might disagree, but interesting solutions have yet to be found.
+"""]]

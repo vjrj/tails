@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-31T11:50:58Z"
+ content="""
+Since you likely are not UK's most wanted #1, directed attacks on you is also unlikely given how much resources the things you suspect would require.
+
+For 2 your adversary would also have to crack debian's signing key. While Tor exits certainly can man-in-the-middle you when you download new packages, the signature of any tampered packages would be incorrect and thus discarded. The more likely explanation could be that you run out of RAM or something like that. Please check your RAM usage using top or free, and check for any oom messages in dmesg. For further troubleshooting  we'd need to have more precise steps to reproduce your error (i.e. which packages you install and which applications you run, how many (and how heavy) tabs you open in iceweasel, etc.).
+"""]]

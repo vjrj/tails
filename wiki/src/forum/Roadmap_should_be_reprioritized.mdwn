@@ -1,0 +1,7 @@
+Your number 1 item, USB install, is given far higher priority than it deserves (because your current process is good enough). Early adopters are not going to be distressed by having to execute something very simple on the command line. As long as you document it well, you should cover 99% of users. It won't matter if Grandma can't figure it out because she doesn't need anything like TAILS.
+
+Upgrades are similarly easy. Copy the persistent file to another drive, re-write the flash drive with the new release, and copy the persistent file back in. Nobody is going to worry about wasted space on a $10 flash drive, trust me.
+
+On the other hand, your #2, persistence, absolutely needs to be the top item. TAILS won't be considered serious without it.
+
+BTW, right now, I was not able to even verify my download, never mind authenticating it. Can't you just announce what the md5sum should be, next to the download button? Talk about user-unfriendly!

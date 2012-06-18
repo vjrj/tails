@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not a Tor limitation"
+ date="2011-11-17T10:08:37Z"
+ content="""
+The download limit is a bug in Polipo. Plan is to remove Polipo, like it was done in the Tor Browser Bundle. This will happen when the [switch to a newer Iceweasel|todo/Iceweasel_5.x] happens. Hopefully, it will happen with the next major release.
+"""]]

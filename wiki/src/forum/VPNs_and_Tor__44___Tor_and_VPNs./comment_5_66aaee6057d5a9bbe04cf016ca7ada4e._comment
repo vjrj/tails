@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-17T16:14:03Z"
+ content="""
+>> It's not as easy as that.
+
+> It's much easier than it seems. VPN before Tor works automatically, because NetworkManager sets up the routing table correctly once it brings the VPN up. Of course, you need to account for various tunneling on the firewall, and see whether Tor/I2P need to be restarted, but that's pretty much it.
+
+That's not the hard part. NetworkManager [lacks pre-up hooks](https://bugzilla.gnome.org/show_bug.cgi?id=387832). Thus we can't hook NM to alter the firewall appropriately in the `VPN -> Tor` use case, instead we'd need to make openvpn run under a user that has a permanent exception in the firewall, likely adding some SUID bit magic or similar into the mix as well. That exception will cause problems for the `Tor -> VPN` use case. The lack of pre-up also makes it difficult for us to solve both use cases at the same time: we'd like a pre-up hook that prompts the user *where* to stick the VPN w.r.t. Tor.
+
+> Common as dirt in Russia, from what I hear, I think for historical reasons (ISPs outgrowing from local LANs). See this news item about accel-pptp, for instance.
+
+I stand corrected (Google Translate seemed to do a pretty good job). I can imagine this to be more or less common in other \"developing\" countries as well. This makes `VPN -> TOR` a relevant use case.
+
+> VPNs are heavily advertised, so people frequently use those for everything, and they are not necessarily tech-savvy.
+
+True, but from my experiences most modern VPN providers make custom \"one-click\" type of tools that bypasses the difficulty of setting up the VPN correctly. Without this, as will be the case in Tails, the user has several difficult options to do (unless the VPN provider is nice and have this documented), e.g. TCP or UDP, possibly a non-standard port, the user and CA certs, user key etc.
+
+> [Y]ou are thinking hard for reasons not to do something [...]
+
+IMHO this is good for many reasons.
+
+> [...] and ignore the reasons for actually doing it.
+
+We just want good, well presented arguments, backed up with proof/references if possible.
+
+This thread didn't start from the right angle any way: the OP didn't care about any of the useful VPN + Tor use cases, but wondered about which VPN vs Tor setup added most \"security\". Well neither do, except when you want to hide that you're using Tor, and I'm putting my bets on Tor bridges for that, hence the original answer and reference to our [[todo/vpn_support]] page.
+"""]]

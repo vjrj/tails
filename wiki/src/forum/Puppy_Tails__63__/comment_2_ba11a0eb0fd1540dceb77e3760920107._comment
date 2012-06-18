@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Tried it"
+ date="2011-10-26T11:39:40Z"
+ content="""
+I have not tried Tails yet, just downloading it now. Puppy is very useful, but it does not hide your identity, but it is small and very fast. runs from HDD as installed, or portable from CD, Memory stick or place on the HDD. 
+
+Strongly recommended for all Banking.
+
+If Tails is slow to load it may be because it is much larger, or is designed differently, or contains a lot of security feature. Looking forward to test it. You can probably run Tails from a HDD too, using a so called Boot loader as Grub, but you loose some security. It is possible for Malware to write to your HDD, but very difficult to your CD. 
+"""]]

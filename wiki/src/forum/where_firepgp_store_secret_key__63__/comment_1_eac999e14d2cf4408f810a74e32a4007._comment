@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-20T12:39:35Z"
+ content="""
+Firegpg doesn't store it's keys anywhere in particular, it simply uses the usual gnupg keyring in ~/.gnupg/. So if you want to keep your secret keys to be able to use them later in another Tails session, the only way until persistence is implemented is to backup this directory yourself, but take care to do that securely, like on an encrypted USB stick.
+
+You probably can't open your exported secret-key because the way you exported it did output the binary version of it, so a text editor will have troubles printing it. If you want to test if this is the right key, you can still test it by importing the file, either in the default keyring, or by specifying a temporary directory using the --homedir= option and use this option again in others commands, like gpg--homedir=/path/to/tempdir --list-secret-keys
+"""]]

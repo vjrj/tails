@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 20 Oct 2011 17:21:34 +0200
+Source: gnome-xp-icon-theme
+Binary: gnome-xp-icon-theme
+Architecture: source all
+Version: 1.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: anonym <anonym@lavabit.com>
+Changed-By: anonym <anonym@lavabit.com>
+Description: 
+ gnome-xp-icon-theme - Windows XP icon theme
+Changes: 
+ gnome-xp-icon-theme (1.0-1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1: 
+ 494c98917df2c8a80c4787b2912be2ba97f4ad41 1163 gnome-xp-icon-theme_1.0-1.dsc
+ 5630cb882f4463a3cba9ff96c73a6755380ff457 970540 gnome-xp-icon-theme_1.0.orig.tar.gz
+ eafe0de72d14d71c9dc95e433877cefbd6df099d 1339 gnome-xp-icon-theme_1.0-1.debian.tar.gz
+ 2ac625280b87edd89aeeaaf757ed5137b3fc52b7 958234 gnome-xp-icon-theme_1.0-1_all.deb
+Checksums-Sha256: 
+ 7a4d3f812a05a677b0527e20f4b80e2e5fc065bf37bd5003804a98c70029d4b7 1163 gnome-xp-icon-theme_1.0-1.dsc
+ edbe3fe66308521120cdedfc01d2ba5ffa0a923ce8dd43f3431cfc5062abcaf4 970540 gnome-xp-icon-theme_1.0.orig.tar.gz
+ 9431cf3cdd302706dc344782df0f2f16f296323fa42473e2d64347faa7ef5785 1339 gnome-xp-icon-theme_1.0-1.debian.tar.gz
+ 4dce2c5f7b7d975a7ecb57efe7a3a1e7f462c17beb052b4ac27a7a38b803c0a0 958234 gnome-xp-icon-theme_1.0-1_all.deb
+Files: 
+ 4ec6d9bdf9cccfb95ba1cc2d61c57f0b 1163 gnome extra gnome-xp-icon-theme_1.0-1.dsc
+ 12313708a3366899039bb3d61e5a508a 970540 gnome extra gnome-xp-icon-theme_1.0.orig.tar.gz
+ 1c56413b84fd14046a9d938050ed6944 1339 gnome extra gnome-xp-icon-theme_1.0-1.debian.tar.gz
+ 012035fb00a689d6f12de5723d6bb1bb 958234 gnome extra gnome-xp-icon-theme_1.0-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk6qd5IACgkQp8EswdDmSVieXwCcD1uysxGivJkeZD3ItbZRCmmI
+epQAn3gxUZOy2+R8UPjUxvBrVRiT1w7T
+=2pW+
+-----END PGP SIGNATURE-----

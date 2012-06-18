@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Root Nautilus"
+ date="2011-11-07T19:20:39Z"
+ content="""
+if you open the root window, i.e. the same one used for the \"apt-get\" command, you can run Nautilus from there and will have a graphical interface file browser with root privileges. (or type \"gksudo nautilus\" on regular amnesia window). I was able to copy the mentioned file to USB earlier today before I booted down, but I have not yet tried to install it directly (now using windows TorBrowser). If the upgrade does not have any dependencies, I think it should be possible to install that file alone.
+
+Would appreciate some Linux guru feedback on this.
+
+Thnx again for all the TAILS developers for all their efforts.
+
+Beeblerox
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Keeping apt-get Update on USB-Stick?"
+ date="2011-12-08T20:53:45Z"
+ content="""
+I would love to keep my system update and installed programs after rebooting.
+
+
+1. Does this endanger my anonymity because i have software installed others have not?
+
+2. How do i do it?
+
+3. I am kind of worried now because i read it could replace TAILS config files.
+   Or that certain software could walk around TAILS. - Is there an option to \"hardwire\" TAILS so it has absolutely no way other than the TOR Network?
+
+Thanks in Advance, and i Love TAILS! :-)
+"""]]

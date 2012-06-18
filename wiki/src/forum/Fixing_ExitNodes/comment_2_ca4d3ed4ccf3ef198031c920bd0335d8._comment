@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Choosing exit nodes"
+ date="2012-01-22T01:36:56Z"
+ content="""
+I would prefer if users who know what they are doing have a choice of using their own exit node preferences. When I look at the main page I see 
+\"Numerous security holes in Tails 0.9\" 
+\"Numerous security holes in Tails 0.8\" 
+which should remind the developers that anyones expertise has limits. 
+And some people have their reasons to ask for better exit node control in Tails times and again. 
+"""]]

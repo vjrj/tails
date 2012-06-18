@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2012-03-03T00:24:48Z"
+ content="""
+I'm not quite understanding these issues. i'm having the same problem also (can't access the hidden wiki) I was able to before i reformated my pc.  I opened the tor browser and it loaded aurora instead of firefox. now it's loading firefox and not functioning. People say set the clock forward an hour, which i did, and i don't understand how that works because i did it to no prevail. Someone also mentioned downloading a non portable version of tor? where do i download such a version? I just got the regular tor bundle.. I dont know what this tails is either? can someone give me some hints as to what i should do to get it loading .onion sites??? 
+
+btw, i'm posting from the tor browser (firefox) right now.
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-12-29T15:21:06Z"
+ content="""
+> So it is not possible to have a seperate parition on the usb drive you have tails installed on if you installed by the so called \"standard way\"? I was thinking about creating a parition on my usb drive for media storage so I wouldn't have to have two usb drives plugged in.
+
+It is possible, but not when you have installed it the \"standard way\" (since that will create a funny partition table etc.). If you want to have Tails and an encrypted partition on the same USB drive, please [[see this guide|forum/How_do_I_do_what_unetbootin_does/#comment-fc6a0040a29918839343a50396ef4082]].
+
+> The sandisk cruzer has 8gb of free space and a 601mb tails parition according to disk utitly. Is the 601mb tails parition the same as the 589mb file system. The numbers don't add up.
+
+Probably due to mismatch in how they count bytes, e.g. is one kilobyte 1000 bytes or 1024 bytes.
+
+> My usb drive's capacity is 8gb. If tails is on there and the 589mb file system there shouldn't be 8gb of free space.
+
+There's 8 GB - 589 MB of *unused* space. Sure, it's free too, but it's inaccessible if you installed Tails the \"standard way\" (see earlier answer).
+"""]]

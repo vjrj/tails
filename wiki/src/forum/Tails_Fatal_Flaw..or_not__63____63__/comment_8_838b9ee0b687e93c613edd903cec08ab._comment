@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Eventually..."
+ date="2011-10-17T19:00:18Z"
+ content="""
+I think I eventually understood what valid point you are making. What
+you are comparing Tails current implementation against is not (A)
+\"torify specific applications via explicit proxy settings, and accept
+whatever outgoing non-torified connection\", but (B) \"only accept
+explicitly outgoing torified connections\", correct?
+
+(Unfortunately, it's not surprising this misunderstanding happened:
+this point was never made explicit in this thread until \"the whole
+premise is forbidding them\", and if it's been suggested before, it
+seems to me I would have had to find it hidden behind a bunch of
+wrong, exaggerated or misleading statements that don't help
+communication. By the way, it would be great if someone could correct
+the wrong statements made about Tails in this part of the Liberté
+Linux website.)
+
+Indeed, I do agree (B) protects against a class of possible flaws that
+the current implementation of Tails does not; I agree the current
+design of this aspect of Tails puts much pressure on our ability to
+audit the network behaviour of the applications we ship; while this
+has worked not that bad until now, it will pose sustainability issues
+at some point in the future, e.g. when it's time to rebase on a new
+Debian stable release. Therefore, I think it is worth considering
+implementing (B) in Tails.
+
+On the other hand, (B) is no magic wand, and does not protect against
+the general case when an application gets to learn and transmit the
+local IP address in ways other than merely because it's bound to it;
+to the best of my knowledge, the only general solution against this
+relies upon virtualization (or at least containment), e.g. as is [[on
+our plate already|[[todo/Two-layered_virtualized_system]].
+
+For sure, there's room for improvement, both on the short and long
+term, but I don't think there's an emergency.
+
+"""]]

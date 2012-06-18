@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-11T00:00:02Z"
+ content="""
+Isn't the download through a https connection? If so, why not downlaod it through a straight secure connection and not through the onion?
+
+Just asking.
+"""]]

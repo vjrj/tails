@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="You can't"
+ date="2011-07-12T09:27:54Z"
+ content="""
+Quoting the project page : \"Advanced Onion Router is a client for OR network and is intended to be an improved alternative for Tor+Vidalia+Privoxy bundle for Windows users.\"
+
+So as it is stated this project is intended to run on windows only.
+
+And it seems that the reason why it is faster is that it can be configured to only use fast tor relays, which on the other side is very bad in term of anonymity. The more you restrict the number of nodes you use, the more your traffic is easy to trace.
+"""]]

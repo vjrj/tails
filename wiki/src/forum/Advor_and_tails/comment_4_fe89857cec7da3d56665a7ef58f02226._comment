@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="anonym"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-07-12T09:51:09Z"
+ content="""
+> how can one use this brilliant tor application Advor with tails instead of just the usual slow tor?
+
+Firstly, AdvOR (previously known as AdvTor) is faster because it prefers using ultra-fast Tor relays, and that is also the reason why it's less secure than vanilla Tor. See [this post on tor-talk](http://archives.seul.org/or/talk/Oct-2010/msg00026.html) for some more criticism by Nick Mathewson of Tor fame. Also, one of its main good features (some sort of transparent proxying solution) is already present in Tails.
+
+Secondly, to actually answer your question, we do not support AdvOR in any way, so you'd have to install it yourself some how.
+"""]]

@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Its almost the same!!! no internet connection, but whats the solution??"
+ date="2011-10-05T14:53:32Z"
+ content="""
+Question1:
+the main thing in this prgramm the internet connection doesnt work. running from a usb-stick talis 0.8 an all other versions dont store the security key and dont use it. there is no connection possible. are there any suggestions?
+
+Answer1:
+comment 1
+There are issues with the clock not synchronising which results in Tor not connecting - set the date/time manually with, e.g.:
+date -s '2011-09-28 10:23'
+Not sure which key you are referring to otherwise.
+Comment by Anonymous — Wed 28 Sep 2011 02:29:19 AM PDT 
+
+Question2:
+doesnt work too
+the system says: you are not authorized to do that. its a wep 64/128 bit key connection and the therefore required key is not accepted and not stored from talis. trying to connect to the internet the key is asked and asked again and again from talis. on other software plattforms and computers the connection works very well!!!!! its unbelievable.
+Comment by Anonymous — Thu 29 Sep 2011 10:17:14 PM PDT 
+"""]]

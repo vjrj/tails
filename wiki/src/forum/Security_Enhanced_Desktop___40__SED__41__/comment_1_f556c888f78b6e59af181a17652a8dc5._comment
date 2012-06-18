@@ -1,0 +1,234 @@
+[[!comment format=mdwn
+ username="Sed"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-22T22:04:57Z"
+ content="""
+By way of lighting the fuse, some initial notes on implementing the above.  The basic scheme of things is to lock down the desktop removing all menus, panel objects and applets, and desktop hotkeys that allow access to the underlying operating system, and to then create a menu of carefully configured security wise applications.  A basic AWKL implementation enables the user to set root and amnesia passwords to a session PIN (all that is really needed for a live CD), with another AWKL script that enables a PIN to be copied to the clipboard enabling the PIN to be used to login to a xterm without having to actually key it in on the keyboard.  Firefox can be locked with the PublicFox addon (not detailed below).  There is also some housekeeping to do in that TAILS logs all the TTYs in on boot (i.e., these need logging out).
+
+
+Some preliminaries:
+
+Disable Iceweasel from running on starting X
+
+    mv /home/amnesia/.config/autostart/iceweasel.desktop /home/amnesia/.config/autostart/iceweasel.desktop.disable
+
+I use Google a lot (even for their not inconsiderable sins), the Torbutton cookie mismatch error that prevents logging into docs and email at the same time can be fixed in about:config setting 'extensions.torbutton.xfer_google_cookies' to false <https://tails.boum.org/todo/inform_user_about_google_cookie_mismatch/>
+
+Use the 'su-to-root' command to run a program as root from an X menu.
+
+
+Configuring the Gnome desktop:
+
+    apt-get install -y gconf-editor
+
+gconf[1] looks complicated but is quite straightforward, combined with XDG menus[2] there is a small learning curve, which I am not going to go into here I'm afraid.<br />
+[1] <http://library.gnome.org/admin/system-admin-guide/stable/><br />
+[2] <http://www.freedesktop.org/wiki/Standards/menu-spec> 
+
+For reference, the main Gnome desktop config dirs:  /usr/share/desktop-directories/, /usr/share/applications/, /usr/share/gconf/schemas/, and .gconf and .config (saved sessions) in the user's home dir.
+
+The main autostart dirs also:  /etc/skel/.config/autostart/, /usr/share/gnome/autostart/, /etc/xdg/autostart/
+
+
+Remove nautilus from startup and unwanted Gnome built in panel objects (leaving only logout buttons), these can all be viewed graphically using 'gconf-editor':
+
+    sudo -u amnesia gconftool-2 --set /desktop/gnome/session/required_components_list --type list --list-type string \"[windowmanager,panel]\"
+    sudo -u amnesia gconftool-2 --set /apps/panel/general/object_id_list --type list --list-type string \"[logout_button,shutdown_button]\"
+
+
+Remove the Network Manager applet (wikipedia has an informative reference page for this software, the 'cnetworkmanager' package though can be used to control Network Manager from the console).  I also disable wifi (even though disabled in my BIOS):
+
+    mv /etc/xdg/autostart/nm-applet.desktop /etc/xdg/autostart/nm-applet.desktop.disabled
+    sudo -u amnesia gconftool-2 --set /apps/nm-applet/disable-wifi-create --type boolean true
+    apt-get install -y cnetworkmanager
+
+
+To remove the Vidalia button from the panel (it allows access to Tor configuration) comment out the following 4 lines from /etc/NetworkManager/dispatcher.d/60-tor-sighup.sh:
+
+    killall vidalia
+    sleep 2 # give lckdo a chance to release the lockfile
+    export DISPLAY=':0.0'
+    export XAUTHORITY=\"`echo /var/run/gdm3/auth-for-${LIVE_USERNAME}-*/database`\"
+    exec /bin/su -c /usr/local/bin/vidalia-wrapper \"${LIVE_USERNAME}\" &
+
+
+I take out the volume control applet and 'onboard' also (it gives access to nautilus):
+
+    mv /usr/share/gnome/autostart/gnome-volume-control-applet.desktop /usr/share/gnome/autostart/gnome-volume-control-applet.desktop.disabled
+    mv /home/amnesia/.config/autostart/onboard.desktop /home/amnesia/.config/autostart/onboard.desktop.orig
+
+
+To create the logout button (mentioned above, it does not exist by default) some gconf magic is needed, a complete X restart is also needed to init. this though it could be built in to a TAILS release:
+
+    sed -i '/<dir name=\"objects\">/r ./apps-panel-object-logout_button-%gconf-tree.xml' /etc/gconf/gconf.xml.defaults/%gconf-tree.xml
+
+Where the content of 'apps-panel-object-logout_button-%gconf-tree.xml' is as follows:
+
+    <dir name=\"logout_button\">                                        
+        <entry name=\"menu_path\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/menu_path\"/>
+        <entry name=\"use_menu_path\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/use_menu_path\"/>
+        <entry name=\"custom_icon\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/custom_icon\"/>
+        <entry name=\"use_custom_icon\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/use_custom_icon\"/>
+        <entry name=\"tooltip\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/tooltip\"/>
+        <entry name=\"attached_toplevel_id\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/attached_toplevel_id\"/>
+        <entry name=\"bonobo_iid\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/bonobo_iid\"/>
+        <entry name=\"locked\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/locked\" type=\"bool\" value=\"true\"/>
+        <entry name=\"panel_right_stick\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/panel_right_stick\" type=\"bool\" value=\"true\"/>
+        <entry name=\"position\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/position\" type=\"int\" value=\"0\"/>
+        <entry name=\"toplevel_id\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/toplevel_id\" type=\"string\">
+                <stringvalue>top_panel</stringvalue>
+        </entry>                        
+        <entry name=\"action_type\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/action_type\" type=\"string\">
+                <stringvalue>logout</stringvalue>
+        </entry>                        
+        <entry name=\"object_type\" mtime=\"1307888167\" schema=\"/schemas/apps/panel/objects/object_type\" type=\"string\">
+                <stringvalue>action-applet</stringvalue>
+        </entry>                        
+    </dir>                      
+
+
+Gnome has some very limited lockdown features which we can set:
+
+    sudo -u amnesia gconftool-2 --set /desktop/gnome/lockdown/disable_command_line --type boolean true
+    sudo -u amnesia gconftool-2 --set /desktop/gnome/lockdown/disable_user_switching --type boolean true
+
+We can also disable the right click desktop menu and run dialog hotkeys, and lock the panel:
+
+    sudo -u amnesia gconftool-2 --set /apps/metacity/global_keybindings/panel_main_menu --type string \"disabled\"
+    sudo -u amnesia gconftool-2 --set /apps/metacity/global_keybindings/panel_run_dialog --type string \"disabled\"
+    sudo -u amnesia gconftool-2 --set /apps/panel/global/menu_key --type string \"disabled\"
+    sudo -u amnesia gconftool-2 --set /apps/panel/global/run_key --type string \"disabled\"
+    sudo -u amnesia gconftool-2 --set /apps/panel/global/locked_down --type boolean true
+
+
+At this point we don't really need two panels, so one could be removed, etc. but I haven't gone this far as yet myself.
+
+
+Gnome unfortunately does not allow a user to create their own empty menu, if you use the Gnome menu applet in any way shape or form it will always give access to the system settings and preferences menu options.  So I employed pdmenu at this point and run it in a terminal:
+
+    apt-get install -y pdmenu 
+
+Create your .pdmenurc file and move it to amnesia home dir (chmod 644).  You will need to include menu options to manage the network as per your requirements.  Run at X startup using the following exec command:
+
+    /usr/bin/gnome-terminal -t \"Security Enhanced Desktop (SED) Menu\" --hide-menubar -x /usr/bin/pdmenu
+
+(I created a .desktop file - ref. the XDG link above - and place it in ~/.config/autostart).
+
+
+Password wise I created a very rudamentary AWKL implementation using python and espeak (IMHO speech-dispatcher possibly has a security hole), the scheme of things being to enable a user to read a PIN number into the X clipboard without them having to type it in: a random number is generated, spoken to the user wearing headphones, and using the arrow keys the user then changes that number up and down to the one they want to select with the Return key - after repeating this for the full PIN the number can be copied to the X clipboard by pressing Ctrl-D (there are numerous ways this could be implemented, but this was the quickest hack I could code):
+
+    apt-get install -y espeak
+    apt-get install -y xsel
+    cp ./getchars.py /usr/lib/python2.6/
+    chmod 644 /usr/lib/python2.6/getchars.py
+    cp tails-*.py /usr/sbin/
+    chmod 755 /usr/sbin/tails-*.py
+
+Where getchars.py looks like:
+
+    # /usr/lib/python2.6/
+    
+    import curses
+    import curses.ascii
+    import random
+    import os
+    
+    
+    def _getchars(stdscr, arr):
+    	char_arr = [\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"]
+    	x_vect = random.randint(0,9)
+    	os.system(\"/usr/bin/espeak \\"\"+char_arr[x_vect]+\"\\"\")
+    	stdscr.addstr(\"Input pin (Ctrl-D to exit input)...\")
+    	key = stdscr.getch()
+    	while True:
+    		if key == curses.KEY_LEFT:
+    			if x_vect > 0: x_vect -= 1
+    			else: x_vect = 9
+    			os.system(\"/usr/bin/espeak \\"\"+char_arr[x_vect]+\"\\"\")
+    		elif key == curses.KEY_RIGHT:
+    			if x_vect < 9: x_vect += 1
+    			else: x_vect = 0
+    			os.system(\"/usr/bin/espeak \\"\"+char_arr[x_vect]+\"\\"\")
+    		elif key == curses.ascii.LF:
+    			os.system(\"/usr/bin/espeak \\"\"+char_arr[x_vect]+\" selected\\"\")
+    			arr.append(char_arr[x_vect])
+    			x_vect = random.randint(0,9)
+    			os.system(\"/usr/bin/espeak \\"\"+char_arr[x_vect]+\"\\"\")
+    		elif key == curses.ascii.EOT:  # ^D
+    			break
+    		else:
+    			os.system(\"not a valid key\")
+    		key = stdscr.getch()
+    
+    def getchars():
+    	char_arr = []
+    	curses.wrapper(_getchars, char_arr)
+    	return ''.join(char_arr)
+    
+    
+    def _pause(stdscr, prompt):
+    	stdscr.addstr(prompt)
+    	stdscr.getch()
+    
+    def pause(prompt):
+    	curses.wrapper(_pause, prompt)
+    	
+    
+    if __name__ == \"__main__\":
+    	print getchars()
+
+File 'tails-clipsessionpin.py' is a basic script to place a PIN into the clipboard:
+    
+    #!/usr/bin/python
+
+    from getchars import getchars, pause
+    import os
+
+
+    pin = getchars()
+    os.system(\"(echo \\"\"+pin+\"\\") |/usr/bin/xsel -i\")
+    pause(\"\nPress any key to clear the clipboard buffer...\")
+    os.system(\"/usr/bin/xsel -d\")
+
+'tails-setsessionpin.py' resets amnesia and root login passwords to a PIN:
+
+    #!/usr/bin/python
+
+    from getchars import getchars
+    import os
+
+
+    pin = getchars()
+    os.system(\"(echo \\"\"+pin+\"\\"; echo \\"\"+pin+\"\\") |sudo passwd amnesia\")
+    os.system(\"(echo \\"\"+pin+\"\\"; echo \\"\"+pin+\"\\") |sudo passwd root\")
+
+I personally would like to rewrite the above python code in Perl, I trust Perl more for system and security applications (I possibly have had an issue with the python random number generator being hacked by a memory virus).
+
+
+An added extra precaution, lock down the auto run files in amnesia' home dir:
+
+    sudo chown root /home/amnesia/.bash_logout /home/amnesia/.bashrc
+
+
+Tidy up:
+
+    apt-get clean
+
+
+TTYs are logged in on boot, log 'em out:
+
+    cp -p /etc/inittab /etc/inittab.orig
+    sed -i 's/-f *amnesia//' /etc/inittab
+    telinit q && pkill login
+    #telinit 1  # restart X
+
+
+Restart X (would not actually be necessary accept for the logout button that I added to the Gnome panel above - could be included by default rendering the restart not necessary):
+
+    pkill gdm3
+    gdm3 &
+
+
+In conclusion that is the basic jist of things - I'd like to see a window manager that could lock an individual window containing sensitive information, the current Gnome 3 wm has a plugin architecture I note so maybe this would do it; a PAM module(?) to enable logging in and locking a screensaver using AWKL technology (there is actually a Perl module that will lock the screen using a custom auth. function); current Linux CCTV programs tend to be quite heavyweight (industrial), open http ports, and make one decidedly nervous using on a working laptop, there however is the preliminary stages of a desktop CCTV program here https://code.google.com/p/gmotion/ - a lot of work needs doing on this though before being usable by anyone other than developers.
+"""]]

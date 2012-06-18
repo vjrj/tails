@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Tails 0.10"
+ date="2012-01-09T01:37:45Z"
+ content="""
+I'm doing that method to download tails 0.10. I'm not that familar with unix commands so I ran into some issues. When I enter the sudo vim /etc/polipo/config command, the file appears in the termainal and prompts me with the options of read-only, edit anyway, etc. I press e for edit anyway and change the chunkHighMark value to 700,000,000. How do I save or overwrite the file?
+"""]]

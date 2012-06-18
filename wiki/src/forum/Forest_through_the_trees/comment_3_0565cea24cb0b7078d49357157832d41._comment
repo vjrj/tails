@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-19T09:31:19Z"
+ content="""
+> only problem i've had so far is claws mail freezes up if you download around 100 new encrypted messages and start replying to them.
+
+This deserves a proper bug report.
+"""]]

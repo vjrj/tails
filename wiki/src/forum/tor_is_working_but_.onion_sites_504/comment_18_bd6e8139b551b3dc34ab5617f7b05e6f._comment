@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2011-12-29T15:23:46Z"
+ content="""
+This issue has now (hopefully) been identified. See [[the bug report|bugs/Tails_0.9_doesn__39__t_open_.onion_sites_]] for more information. A \"fix\" will be included in Tails 0.10.
+"""]]

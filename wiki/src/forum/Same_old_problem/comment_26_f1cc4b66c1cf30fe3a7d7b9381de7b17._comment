@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Hmmm"
+ date="2012-01-11T06:49:29Z"
+ content="""
+This very much looks like some kind of race condition in Tails time sync system.
+I hope we'll get to investigate and fix it soon.
+It's likely we'll ask some debugging details to start with.
+
+"""]]

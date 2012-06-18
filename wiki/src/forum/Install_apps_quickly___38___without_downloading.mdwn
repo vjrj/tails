@@ -1,0 +1,83 @@
+#WARNING (from Tails developers)
+
+The following instructions are **dangerous** in that they advice to
+download and install software coming from untrusted sources, without
+any means of integrity / authenticity verification.
+
+#Original post
+
+Hi all, I recently found an easy way to install all my favorite apps after starting Tails. You don't have to use **"apt-get update"** or **"apt-get install ..."** anymore. But first you need to download all required packages (.deb files) to install the app (main package + dependencies). We will use a script to automatically install the packages. Probably most of you know this but I just found it myself and wanted to share. (I'm a newbie so there could be unnecessary codes-steps on this topic)
+
+#Steps
+
+**1-** Create a folder on Desktop named **"deb"**. Put your individual packages on this folder. If there's more than one package (dependencies) to install an application it's better to create a folder for each of that apps (into the *deb* folder). This will make it easy to update or delete the packages.
+
+**2-** Now create a file named **"install.sh"** in "deb" folder and put this code into it:
+
+    #!/bin/sh
+    dpkg -i /home/amnesia/Desktop/deb/*.deb
+For each extra folder, add this code to a new line on "install.sh" and replace the "foldername"
+
+    dpkg -i /home/amnesia/Desktop/deb/foldername/*.deb
+**3-** Create a file named **"install.txt"** in "deb" folder. We will put here the command to use in the Root Terminal, to make things faster. Add:
+
+    sh /home/amnesia/Desktop/deb/install.sh
+If you're not going to add any extra folder in "deb" you can pass the **2.** step and just create an install.txt file with this:
+
+    dpkg -i /home/amnesia/Desktop/deb/*.deb
+**4-** Put the "deb" folder in a persistent storage (hard drive, usb drive, cd, dvd, file hosters, etc.). Whenever you start Tails, copy this folder to the Desktop, open *"install.txt"* copy-paste the command to the **"Root Terminal"** and press enter. It will begin to install all your apps, if you forget any dependencies you will see it in the log, just download & add it and try again.
+
+**Note:** To easily download packages, open Root Terminal, type **"apt-get -d install"** and enter each package name separated by space. After downloaded, get your .deb files from **"/var/cache/apt/archives"**. Then chmod to be able to use them. Example:
+
+    apt-get -d install libcddb2 libdvbpsi6 libebml0 libfribidi0 libiso9660-7 libmatroska0 libmtp8 libsdl-image1.2 libsdl1.2debian libsdl1.2debian-alsa libsvga1 libtar libupnp3 libvcdinfo0 libvlc5 libvlccore4 libx86-1 libxcb-keysyms1 libxcb-randr0 libxcb-xv0 mozilla-plugin-vlc vlc vlc-data vlc-nox
+    cp /var/cache/apt/archives/*.deb /home/amnesia/Desktop/deb/VLC/
+    chmod 777 /home/amnesia/Desktop/deb/VLC/*.deb
+
+#Download
+
+####Sample "deb" folder (25.5 MB)
+It contains Wine, Minitube, GDebi and unrar. Of course with the install.sh and install.txt files.
+
+    https://dl.dropbox.com/u/58384971/deb.zip
+
+Here are some apps ready to add/install. Extract them to your "deb" folder. Don't forget to add the **"dpkg -i"** code to **"install.sh"** for each folder. Please request or send new useful apps, I will upload & add them here. Also I will update all apps after new versions.
+
+####Wine 1.2.3 + Gecko (18.6 MB)
+Run Windows applications on Tails.
+
+    https://dl.dropbox.com/u/58384971/Wine.zip
+Add to install.sh: (Last 3 lines needed to install Gecko)
+
+    dpkg -i /home/amnesia/Desktop/deb/Wine/*.deb
+    mkdir -m 0777 -p /usr/share/wine/gecko
+    cp /home/amnesia/Desktop/deb/Wine/wine_gecko-1.0.0-x86.cab /usr/share/wine/gecko/
+    chmod 777 /usr/share/wine/gecko/wine_gecko-1.0.0-x86.cab
+
+####Minitube 1.7 (5.8 MB)
+Youtube app, without using Flash player.
+
+    https://dl.dropbox.com/u/58384971/Minitube.zip
+
+####VLC 1.1.13 + Iceweasel Plugin (14.3 MB)
+VLC Media Player. Plugin could be used with Viewtube: [[todo/Flash_support]]
+
+    https://dl.dropbox.com/u/58384971/VLC.zip
+
+####GDebi 0.6.4 (1 MB)
+Install deb packages easily with GUI (Graphical user interface).
+
+    https://dl.dropbox.com/u/58384971/GDebi.zip
+
+####unrar 3.9.10 (0.1 MB)
+To open rar files with Archive Manager in Tails 0.10. Add it directly to "deb" folder. No need to add code to install.sh.
+
+    https://dl.dropbox.com/u/58384971/unrar_3.9.10-1_i386.deb
+
+####TorChat 0.9.9.550 (8.8 MB)
+Anonymous messenger using Tor. It will be successfully installed but won't work, it has connection problems with Tails. I hope someone tell us how to configure it.
+
+    https://dl.dropbox.com/u/58384971/TorChat.zip
+
+##Suggestions
+
+As you can see this is a necessary topic for Tails. So I have some suggestions. Firstly, please help and get this list bigger with useful apps. Admins should consider creating a separate page with a better description and a bigger list. But I have another suggestion too. After implementing the persistence feature, please create an app which will have the current list of apps including description, version, file sizes. The user will choose the apps and they will be downloaded & added to the persistent storage. So the user will not waste time searching or downloading the packages. It could be like winetricks or like PortableApps.com Platform's download feature which can check & do the updates. But of course there should be no missing dependencies on package archive files.

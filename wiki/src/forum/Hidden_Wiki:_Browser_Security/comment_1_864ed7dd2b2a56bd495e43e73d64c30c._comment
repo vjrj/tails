@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-13T16:50:53Z"
+ content="""
+Most of these are already taken care of in Tails' Iceweasel setup (and the Tor Browser Bundle (TBB)) thanks to Torbutton. I have some specific points, though:
+
+> In \"Content,\" disable java. Disable javascript if you don't have NoScript. 
+
+... which breaks half the web?
+
+> OPTIONAL - Install the firefox extension NoScript, allows fine-grade control of javascript, fix javascript links with js disabled, etc. Remove stuff in default whitelist.
+
+We are [[considering this|todo/iceweasel_addon_-_NoScript]]. At least NoScript's XSS protections etc. are nice to have, like it's being used in the TBB. Blocking JavaScript on all sites per default and relying on white-lists is a bit too complicated for the average user, so we won't have that in Tails, and the TBB doesn't either for the same reasons. Also, blocking all JavaScript makes you easily distinguishable from TBB users, which is a bad thing. Our hopes is that Torbutton's own JavaScript hooks are good enough -- AFAIK they protect against all known JavaScript based deanonymization attacks.
+
+> (I think [NoScript] is unnecessary and may conflict with Torbutton - Moar)
+
+Breakage with Torbutton + NoScript was a concern some years ago, but it's not any more.
+
+> Set network.http.sendRefererHeader to 0 in about:config. Also set false for network.http.sendSecureXSiteReferrer.
+
+Disabling referrer breaks some sites, so that's a no-no. Torbutton spoofs the referrer in a (mostly) [[smart way|todo/iceweasel_addon_-_RefControl]].
+
+"""]]

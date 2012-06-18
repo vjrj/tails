@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-03T11:33:15Z"
+ content="""
+> I had to put a Security Exception into Firefox to visit this site.
+
+Can you look at the certificate information and post the \"Issued by\" and Fingerprints here?
+
+> And now I'm wondering if I can trust the TAILS iso I downloaded.
+
+Technically you shouldn't trust the iso even if you didn't get the security warning. If you did a \"direct download\" it's over http any way, so no authentication there. Bittorrent would be a more safe choice (the .torrent is hosted over https and bittorrent ensures that it downloads the correct file) but to be really safe you need to check the signature after you've made sure that you can [[trust the Tails signing key you downloaded|doc/trusting_tails_signing_key]].
+"""]]

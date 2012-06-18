@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-05T06:24:50Z"
+ content="""
+> I use the macchanger binary because it seems to be more stable than just ifconfig hwaddress
+
+Can you please give an example of a MAC address that was generated using macchanger?
+"""]]

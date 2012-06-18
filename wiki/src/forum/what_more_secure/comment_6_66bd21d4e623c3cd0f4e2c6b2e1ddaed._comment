@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-01-16T00:14:28Z"
+ content="""
+it's safer to do things in a virtual drive rather than a physical one.. the only downfall about doing that is you have to fully boot into windows or what have you to do so. Wouldn't opening up the virtual drive (tails iso) while within the ram-only usb boot be better?
+I do suppose tails wipes everything after it's done.. but I believe there are variations like that for others as well.
+
+Are you saying its overly paranaoid or it doesn't make sense? I'm no expert BTW, don't think that I think I am, I'm just trying to make sense of it myself.
+"""]]

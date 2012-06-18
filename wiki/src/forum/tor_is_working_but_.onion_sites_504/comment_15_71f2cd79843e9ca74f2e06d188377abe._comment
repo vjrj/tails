@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2011-12-10T20:53:24Z"
+ content="""
+    * If .onions don't work in Tails 0.9, please try again it and repeat 5 times with reboots in between. Record both successes and failures.
+
+K, just did this. First 4 times every site failed, got the 504 error but was still able to keep refreshing along. Usually when an .onion is completely failed it won't even bother attempting to refresh feeding you the 504 page immediately but it keeps trying, with same error: (This repeats over and over until it times out)
+
+    Dec 10 20:19:37.663 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+    Dec 10 20:19:37.665 [Info] connection_ap_handshake_attach_circuit(): ready rend circ 36692 already here (no intro-ack yet on intro 43531). (stream 49 sec old)
+    Dec 10 20:19:37.667 [Info] connection_ap_handshake_attach_circuit(): Intro (43531) and rend (36692) circs are not both ready. Stalling conn. (49 sec old)
+    Dec 10 20:19:38.660 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+    Dec 10 20:19:38.663 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+    Dec 10 20:19:38.665 [Info] connection_ap_handshake_attach_circuit(): ready rend circ 36692 already here (no intro-ack yet on intro 43531). (stream 50 sec old)
+    Dec 10 20:19:38.667 [Info] connection_ap_handshake_attach_circuit(): Intro (43531) and rend (36692) circs are not both ready. Stalling conn. (50 sec old)
+    Dec 10 20:19:39.662 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+    Dec 10 20:19:39.664 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+    Dec 10 20:19:39.666 [Info] connection_ap_handshake_attach_circuit(): ready rend circ 36692 already here (no intro-ack yet on intro 43531). (stream 51 sec old)
+    Dec 10 20:19:39.669 [Info] connection_ap_handshake_attach_circuit(): Intro (43531) and rend (36692) circs are not both ready. Stalling conn. (51 sec old)
+
+
+The 5th time, the Tor Hidden Wiki loaded up without any problems, but Tormail, Circle Services and other stable .onions were a no go. Immediately after each fail tried tormail using tor2web.org and it worked fine (although, gave me a suspicious untrusted SSL cert error.. never seen that before while connecting to tor2web)
+
+    * If .onions worked in some previous version of Tails, please try it again and repeat 5 times with reboots in between. Record both successes and failures.
+
+Tried Tails 0.81 (had to update Tor each time) and connected no problem to any .onion address after multiple reboots.
+
+    * If .onion worked in TBB or other non-Tails Tor setup, please try again (repeating and rebooting isn't as relevent here so just skip that -- if possible, try on different TBB installs instead). Record both successes and failures.
+
+TBB works fine with any .onion everytime I tried it. Tried it on a second comp with the same connection thru a router right after the .onion sites failed in Tails. Worked everytime 
+
+Noticed tails continually wants to connect to relay \"noiseexit01d\" and \"ieditconfig91321\" which both are constantly failing to build connections.... this could also be the problem?? No matter what chain vidalia tries to build it chooses these 2 relays out of 2566 available relays everytime. I'll try to edit Torrc file and block them, maybe that will help things. 
+
+
+
+"""]]

@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-01-09T15:23:47Z"
+ content="""
+**First of all, note that this grub4linux setup is not something we have tested. You have been warned.**
+
+> kernel /incognito/vmlinuz live-media-path=/incognito/ toram=filesystem.squashfs lang=us boot=live noeject noprompt keyboard=us
+
+This is the issue. If you look at the `append` lines in isolinux/live.cfg (on the Tails ISO image) you'll see that you're missing several important kernel cmdline arguments. I suggest you instead use the following line in your `menu.lst`:
+
+    kernel /incognito/vmlinuz live-media-path=/incognito/ toram=filesystem.squashfs boot=live config noswap live-media=removable nopersistent noprompt quiet timezone=Etc/UTC splash
+
+Stuff like this is easily missed when using methods we don't support (i.e. that are not documented on our website) and this is why we don't recommend installing Tails to USB drives using any other method.
+
+> regards from vietnam
+
+Cheers! If you want Vietnamese localization and/or default keyboard (support added in Tails 0.10, feedback is welcome), add the following to the end of the above line:
+
+    locales=vi_VN.UTF-8 keyboard-layouts=vn
+
+"""]]

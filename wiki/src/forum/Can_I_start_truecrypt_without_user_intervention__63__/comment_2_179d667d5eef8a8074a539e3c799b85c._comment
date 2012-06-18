@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-24T01:03:59Z"
+ content="""
+you can always edit the .ISO before you burn it to put the latest Truecrypt pkg on the desktop so they can double-click and install it upon every reboot, or have it boot with Truecrypt enabled by default.
+
+"""]]

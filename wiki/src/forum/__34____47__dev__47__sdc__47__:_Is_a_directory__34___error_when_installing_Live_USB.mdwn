@@ -1,0 +1,6 @@
+I saw this was posted before, but the OP just ended up installing manually. I was wondering what the solution might be. I'm using Ubuntu 11.10 with Tails 10.2. This is what I have and what is returned:
+
+    name@ubuntu:/$ cat /home/name/Downloads/tails-i386-0.10.2.iso.pgp > /dev/sdc/ && sync
+    bash: /dev/sdc/: Is a directory
+
+I quadruple checked that the name is correct for the device, and I've tried doing it separately on an SD card, but it returns the same thing. What should I do?

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Also request loop-AES"
+ date="2011-10-01T16:10:36Z"
+ content="""
+I second the request for loop-AES with its extra cipher modules.
+
+It's very stable, much faster than dm-crypt on average and harder to reverse engineer a key by watching ciphertext get modified.
+
+I have a feeling the loop-AES patched utils may not be compatible with the same utils used for dm-crypt etc, however that would require checking.  If so, just rename the utils so these can be called from the commandline specifically for loop-AES use eg mount.la, losetup.la etc or put them in opt or something.
+"""]]

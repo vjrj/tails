@@ -1,0 +1,32 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Response"
+ date="2011-12-26T22:59:01Z"
+ content="""
+> is there a way to get all the webpages in english, rather than the default for your location?
+
+In soon to be published Tails 0.10, the default search engine will be Scroogle in any language.
+Hope it will suit your needs.
+
+> Or if anyone knows of an alternative to google docs that would work
+> in iceweasel
+
+Google Docs will work fine in Tails 0.10.
+
+> and have some sort of encryption.
+
+\"Some sort\" greatly depends on your threat model. Unless you don't
+specially trust Internet service providers, be them cloudy or not,
+encrypting client-side seems safer. So it may not depend that much on
+the service provider.
+
+> The most recent time I logged into google I was prompted with
+> a message that said I needed to enter city/state/country of where
+> I usually login in from.
+
+Using service providers that are more friendly to Tor users would
+probably help. If it's not an option, get Google to stop causing such
+problems: there's nothing we can do about it in Tails.
+
+"""]]

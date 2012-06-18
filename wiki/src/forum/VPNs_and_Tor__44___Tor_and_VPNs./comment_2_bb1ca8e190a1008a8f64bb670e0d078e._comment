@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-15T18:46:41Z"
+ content="""
+> VPN -> Tor is pretty much meaningless
+
+Guys, you really don't know what you are talking about. Just give your users VPN support. Some ISPs require users to connect via PPTP. Some places have very restrictive firewalls, but do allow VPN connections to specific destinations. Some jurisdictions may consider VPNs legal (i.e., business), but Tor illegal. Some places may manage to block Tor bridges, too. Some people use VPN for everything, and don't want to have different network signature when using Tails. Here, I thought it all up in 30s — why couldn't you do the same while writing that VPN page?
+"""]]

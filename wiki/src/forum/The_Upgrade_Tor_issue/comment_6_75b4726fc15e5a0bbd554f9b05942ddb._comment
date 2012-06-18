@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Warning still starts with updated Tor"
+ date="2011-11-08T23:52:20Z"
+ content="""
+I was able to install the file \"tor_0.2.2.34-1~~squeeze+1_i386.deb\" offline and then connected to a netwrok. The security warning on top right still came out, so I ran the apt-get command mentioned in the page. It downloaded the repositories DB ~ 20 MB over like 10 min and then told me that Tor is uptodate.
+
+Just wanted to prvide a feedback on the warning message.
+
+ZB
+"""]]

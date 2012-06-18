@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-07-31T18:54:07Z"
+ content="""
+Do you see the message \"Updating the clock for TOR\" and then vidalia's popup connecting to TOR network ?
+And you can perhaps get some interesting informations in the folder /var/log
+That all ideas I have, I hope somebody will be able to help you
+"""]]

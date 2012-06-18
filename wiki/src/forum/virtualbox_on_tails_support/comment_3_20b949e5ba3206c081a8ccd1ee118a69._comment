@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-03-10T18:51:48Z"
+ content="""
+Quote
+------
+Rationale: running a proprietary OS in a virtual machine inside Tails would be useful by folks who cannot afford doing without their prefered Windows-only piece of software but still want to work in a relatively secure environment.
+
+The compressed .deb files (4.0.x) take 20MB.
+------
+
+I would even donate for such an addon. =)
+
+"""]]

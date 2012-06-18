@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-25T10:43:17Z"
+ content="""
+> I am aware that Tails doesn't keep any files after a reboot and this is intended. However I need to keep my pgp key and a few text based files, obviousley these need to be kept securely. So what method would you recommend?
+
+This is documented: [[doc/encryption_and_privacy/encrypted_volumes]]
+
+However, we're currently working hard on getting [[todo/persistence]] done, which will allow you to save your GPG keyring (among other practical things) to a second, encrypted partition on the same USB drive you have installed Tails to.
+
+
+"""]]

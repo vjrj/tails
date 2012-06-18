@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-25T07:55:40Z"
+ content="""
+Hi, thanks for reporting this issue.
+
+Apparently the bug is already known to The Tor Project, see <https://trac.torproject.org/projects/tor/ticket/1779>.
+
+But doesn't seems to be known to the Polipo developers, see <http://www.pps.jussieu.fr/~jch/software/polipo/bugs.text>.
+
+I guess we should report it back to Polipo. I will keep you updated.
+"""]]

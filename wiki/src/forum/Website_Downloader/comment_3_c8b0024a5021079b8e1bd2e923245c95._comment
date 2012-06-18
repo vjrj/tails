@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-25T03:44:24Z"
+ content="""
+>I think this falls into the \"persistent user data store\" usecase, doesn't it?
+
+Ok, maybe not a persistence feature, because if the program installed default on Tails it has a shortcut to Mirrored Websites.
+
+So here are my experiences. It creates 4 shortcuts. One to open the program, one to browse the mirrored websites. The other two are duplicates.
+
+The usage is based on browser. It tries to connect amnesia:8080 so it cannot. Changing it to localhost:8080 works. The options are at the page where you enter the website links. You must enter the options and set the proxy to 127.0.0.1 with port 8118
+
+Each time you open it, the port number goes 1 up: 8081, 8082, 8083...
+
+The settings, so the proxy settings are not saved. You must enter it each time. Maybe it can be edited?
+
+Is there any need to add some filters here?
+
+    +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/*
+
+In my opinion, the program must download minimum number of files, should we add some filters from Adblock Plus, Ghostery, etc. to block some known unnecessary trackers/scripts. Also the user agent, cookie settings.. should be edited?
+
+I can go no further cause I'm not a security expert, this should be added as todo so people could help?
+"""]]

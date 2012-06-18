@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-08-25T08:41:44Z"
+ content="""
+Tails redirect all communications to the Tor network. If the Internet is unreachable, then the Tor network is unreachable. And Tails will have a hard time to communicate at all.
+
+Designing a system for resilient communications is interesting, but looks like a different project.
+"""]]

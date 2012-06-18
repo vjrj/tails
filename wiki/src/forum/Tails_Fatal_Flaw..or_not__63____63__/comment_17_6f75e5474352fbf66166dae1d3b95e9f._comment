@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Good thread"
+ date="2011-12-18T11:28:13Z"
+ content="""
+Glad I found this thread.  I've often wondered what the point is just not blocking all non-torified connections in Tails.  I mean, connections that aren't supposed to get out just shouldn't get out, right?
+
+But then I'm still mystified as to why Tails continues to use Polipo when Tails devs admit it is seriously broken and requests to use another proven local proxy like Privoxy are repeatedly ignored on the basis of waiting for an Iceweasel feature that is not implemented.  It seems implementing a different proxy would be easy enough and implementing a proxy that is as well-tested with Tor as Privoxy is trivial.  Liberte uses Privoxy.
+
+Then again, Liberte appears to have a total absence of any support forum/list which is incredibly annoying, at least Tails devs are good enough to have this forum. I also wonder at the annoying time-limited root access in Liberte which is a major pain in the ass for relatively skilled Linux users - does that really achieve anything? And Liberte's use of the Anonymous group's logo whilst (ironically?)  disclaiming any association gives pause for thought. 
+"""]]

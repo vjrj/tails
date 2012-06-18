@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-08-19T10:48:40Z"
+ content="""
+If you read this thread there already is a lot of usefull links to find how we've done this in Tails. You can also have a look at the [specific design page](/contribute/design/memory_erasure) of this feature to find all relevant informations.
+
+We will try to push this feature upstream in Debian anyway, it just need some small changes for Debian to support it. So if you wait a bit, you should be able to quite just apt-get install it.
+"""]]

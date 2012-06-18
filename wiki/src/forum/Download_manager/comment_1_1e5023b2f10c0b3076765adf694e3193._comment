@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Put another way ..."
+ date="2011-10-03T10:16:40Z"
+ content="""
+What damage to privacy could a browser add-on actually do?  This determines the threat model.
+
+If all TCP is routed via Tor and no other protocol is allowed at the iptables level, how could a plugin leak information?
+"""]]

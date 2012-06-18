@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Successfully downloaded tails 0.10, now what?"
+ date="2012-01-12T02:16:02Z"
+ content="""
+Thanks to both for the suggestions, only one worked though. The comment 4 comment did not work from what I experienced after I followed the instructions. I was unable to even start the download. Instead, it tried to open the download even when I did \"save link as\".
+
+I succesfully changed the values in the config file of polipo by using -wq to save the changes.
+
+Now I'm just wondering to install tails 0.10 on a usb drive, will I have to format the contents of the usb before installing tails 0.10? (tails 0.9 is on usb) Also can I tell what verison of tails I'm using? In disk utility it still appears to be 0.9.
+
+ 
+"""]]

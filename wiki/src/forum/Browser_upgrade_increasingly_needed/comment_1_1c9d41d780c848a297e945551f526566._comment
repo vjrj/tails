@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Please report bug + being worked on"
+ date="2011-11-14T09:34:25Z"
+ content="""
+The browser upgrade is being worked on: [[todo/Iceweasel_5.x]].
+
+About the Google Docs breakage, please use the \"Report a bug\" application in Tails.
+"""]]

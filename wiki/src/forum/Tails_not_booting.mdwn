@@ -1,0 +1,13 @@
+I am using a Toshiba Portege R100 which can not boot from USB or CD, but can boot from PCMCIA. So I boot with grub4dos from a CF card in a PCMCIA adapter. Works OK with mini Linux and many others, but not with Tails 0.7.2. 
+I get the error:
+ Unable to find a medium containing a live file system.
+The relevant menu.lst I use is:
+
+title tails
+map (hd0,3)/tails.iso (hd32)
+map --hook
+chainloader (hd32)
+
+I get past the debian splash screen with the language choices, and then the boot fails with the above error.
+I assume my menu.lst entry is wrong, or I should use an extract of the ISO file (in a separate folder?).
+Anyone can suggest a solution?

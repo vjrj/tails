@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-01-23T02:08:51Z"
+ content="""
+Nothing to prevent you pasting in a socks5 proxy into FoxyProxy to use on top of Tor so you're not connecting with an Exit node that was previously banned. 
+
+You can buy socks5 proxies that are unused for $0.30/ea or make your own by renting VPS or dirt cheap shell account, use ssh to open up a socks5 and connect to it by putting the IP into foxyproxy
+
+
+"""]]

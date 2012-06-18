@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-11-01T12:50:59Z"
+ content="""
+The problem isn't necessarily Tails; it's either that I don't propery know how to check signatures or something is altering my downloads by the time I go to check the signature.
+
+I downloaded GPGTools to verify the signature of the Tails torrent file, however the signature given for GPGTools was different than what I came up with. Since I can't verify GPGTools to install it, I can't verify Tails.
+"""]]

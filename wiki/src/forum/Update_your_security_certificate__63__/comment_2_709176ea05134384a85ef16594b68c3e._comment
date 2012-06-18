@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-11-02T17:44:03Z"
+ content="""
+The two links referenced, i.e.:
+
+    * Verify the ISO image at: https://tails.boum.org/forum/Update_your_security_certificate__63__/download#index3h1
+    * Trusting Tails signing key at: https://tails.boum.org/forum/Update_your_security_certificate__63__/doc/trusting_tails_signing_key
+
+are currently getting 404 Not Found responses from the TAILS server.
+
+"""]]

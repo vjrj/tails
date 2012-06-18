@@ -40,7 +40,7 @@ import random
 # This section defines the recepient parameters
 
 # The address of the recipient
-to_address = "amnesia@boum.org"
+to_address = "tails@boum.org"
 
 # The fingerprint of the recipient's GPG key 
 to_fingerprint = "09F6BC8FEEC9D8EE005DBAA41D2975EDF93E735F"
@@ -110,7 +110,8 @@ def mail_appended_info():
     @return XXX: document me
     """
 
-    debug_files = ["/etc/X11/xorg.conf", "/var/log/Xorg.0.log"]
+    debug_files = ["/etc/X11/xorg.conf", "/var/log/Xorg.0.log",
+                   "/var/log/live-persist", "/var/lib/gdm3/tails.persistence"]
     debug_commands = ["/bin/dmesg", "/bin/lsmod", "/usr/bin/lspci"]
 
     debugging_info = ""

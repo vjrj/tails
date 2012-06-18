@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-13T21:12:17Z"
+ content="""
+The ISO images are served by a set of mirrors. Some of them sometimes fail to update correcty and people downloading from them might hit a 404 error. Unfortunately there is no way for you to choose which mirror to download from.
+
+A workaround could be to download directly from one of the main mirror provided by The Tor Project: <https://archive.torproject.org/amnesia.boum.org/tails/stable/>.
+"""]]

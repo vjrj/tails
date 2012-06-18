@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-12T15:14:33Z"
+ content="""
+Have you tried plugging in the following URL to your browser's address bar and either pressing Enter or clicking on the green arrow>?:
+http://dl.amnesia.boum.org/tails/stable/tails-i386-0.8/tails-i386-0.8.iso
+
+Also, from a Terminal window you can issue the wget command to download the above file.
+
+"""]]

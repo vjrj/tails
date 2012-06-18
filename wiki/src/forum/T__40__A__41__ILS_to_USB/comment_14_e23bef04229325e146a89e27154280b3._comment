@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2011-12-18T21:30:06Z"
+ content="""
+With regard to comment #2, when you download TAILS .iso file, then you need to burn it to a Live CD or to a Live USB to run it.
+
+With either of those options, when you boot the system, the toram option in the boot command (if you have enough RAM) allows you to run TAILS from RAM instead of either the Live CD or Live USB.
+
+You should try both Live CD and Live USB to start. And with each, after TAILS is running, and you see the Terminal symbol in the Main Menu at the top, click on it in order to instantiate a Terminal window on the Desktop which will be located at the /home/amnesia directory.  Then issue the mount command where you will see either the Live CD or the Live USB mounted Read Only (ro) for the Live CD or Live USB device respectively.
+
+When you boot toram, it is not necessary to mount Read Only the Live CD nor Live USB since it will be running as if from a device file that exists in RAM, and you can then remove either the Live CD or Live USB from its device or port without interrupting the system.
+
+"""]]

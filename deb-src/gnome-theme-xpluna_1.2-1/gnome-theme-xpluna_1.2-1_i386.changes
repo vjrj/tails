@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 20 Oct 2011 17:21:34 +0200
+Source: gnome-theme-xpluna
+Binary: gnome-theme-xpluna
+Architecture: source all
+Version: 1.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: anonym <anonym@lavabit.com>
+Changed-By: anonym <anonym@lavabit.com>
+Description: 
+ gnome-theme-xpluna - Windows XP look-a-like theme
+Changes: 
+ gnome-theme-xpluna (1.2-1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1: 
+ c72cfc8aff01bc7f2c55d47af0de6e47319de60a 1158 gnome-theme-xpluna_1.2-1.dsc
+ dc567dcf8cf54b2bbaefbb2921fe7c2f0a59cd7a 82671 gnome-theme-xpluna_1.2.orig.tar.gz
+ f7d6136990b0c217acb02236c12e8836ed99cc51 1583 gnome-theme-xpluna_1.2-1.debian.tar.gz
+ 633d74a6c5d5b553d973a1321d4da0031b426eda 87862 gnome-theme-xpluna_1.2-1_all.deb
+Checksums-Sha256: 
+ a0dafb9c95d5bf27f4874a2ec97c8a269062b8f9e70a4f873aed34d6bcb4a5aa 1158 gnome-theme-xpluna_1.2-1.dsc
+ 3d98ca18211bcc9763d96e0d4da351048084cfff86210e688c12e8f7dbbafa9f 82671 gnome-theme-xpluna_1.2.orig.tar.gz
+ c2ee073c09e0901b24ca4a5caff76a6c7e8066ce456a6f9df3484a4273a2f4d2 1583 gnome-theme-xpluna_1.2-1.debian.tar.gz
+ 98ec4fdee4d3e85eda9b1f9b1ccc0a6f5b0cdbf9dd721c3ef19e346ea561a3a7 87862 gnome-theme-xpluna_1.2-1_all.deb
+Files: 
+ f84aa373be7ab6594d27434a8b7068bb 1158 gnome extra gnome-theme-xpluna_1.2-1.dsc
+ 6e58b3d8b9c2cb942ddee0da35bc8dd4 82671 gnome extra gnome-theme-xpluna_1.2.orig.tar.gz
+ 815bb1d876e61acfee83eb5502eeec9e 1583 gnome extra gnome-theme-xpluna_1.2-1.debian.tar.gz
+ 8cd0fad1655e030d8a15a50ce69eb810 87862 gnome extra gnome-theme-xpluna_1.2-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk6qeD4ACgkQp8EswdDmSViKqQCeJ0PFZUau3oCqxQ7LGUam8Mdo
+Ru4Ani3vfc01/lL+etHJPZnOkaMPAlSj
+=1K+Z
+-----END PGP SIGNATURE-----

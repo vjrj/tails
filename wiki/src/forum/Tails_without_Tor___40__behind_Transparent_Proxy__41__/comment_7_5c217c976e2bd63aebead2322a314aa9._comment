@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-03-13T11:41:26Z"
+ content="""
+It does increase anonymity, against external adversaries who don't run nodes. But it increases the chance of internal threats, the more nodes you use the more likely it is that you connect through adversary controlled nodes.
+
+Tor is not a mixnet, there it wouldn't matter through how many nodes you send nor would it be problematic if the first and last node are the same.
+"""]]

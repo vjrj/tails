@@ -1,0 +1,5 @@
+Specific to a LiveCD, is it possible to mount the host machine's hard drive or exernal memory device in READ only?
+
+Or for new versions of Tails to ensure tha when any hard drive or exernal memory device is clicked on to access content, it is READ only. If read-and-write access is need, the user would be required to click on an additional option.
+
+Having read and write access by default means may users are likely to unwttingly be leaving traces file access on the host machine or other memory device. It would be useful to have some way to warn user that when a disk or device is mounted in read-write conditionthe files retain meta data of access and use.

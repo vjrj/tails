@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-06T04:08:10Z"
+ content="""
+Your problem may have to do with the fact that the Linksys WRT110 router uses both G and N bands, so TAILS may be having issues selecting the different bands. I had this same issue and went into the setting and set my router to N band, then chose a channel to ensure that it was only trying to access one band at any one time. This not only fixed the issues with TAILS but also with my general internet speed. 
+"""]]

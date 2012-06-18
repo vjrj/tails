@@ -5,7 +5,7 @@
 <p>
 The [[forum]] is open for discussions that <strong>do not</strong> belong to bugs,
 feature requests and the like. Such fauna should rather be submitted
-on [[the dedicated page|found_a_problem]], where it can be more
+on [[the dedicated page|support/found_a_problem]], where it can be more
 easily tracked... and hopefully fixed.
 </p>
 
@@ -27,7 +27,7 @@ Start a new discussion thread titled:<br/>
 </div>
 </form>
 
-<h1>Threads if the forum</h1>
+<h1>Threads in the forum</h1>
 
 [[!inline pages="forum/* and !*/Discussion"
 show="0" archive="yes" template="forumpage" feeds="no" sort="mtime"]]

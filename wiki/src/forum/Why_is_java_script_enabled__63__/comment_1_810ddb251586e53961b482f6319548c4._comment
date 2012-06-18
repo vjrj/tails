@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-10T09:19:29Z"
+ content="""
+(It's Javascript, not \"java script\". Javascript is a completely different beast than Java.)
+
+Most of today's websites require one level or another of Javascript to work properly. Turn it off, and you get a *lot* of completely puzzled users. Browse the forum and you will see that many users even ask for Flash support.
+
+One goal of the Torproject with TorButton and now TorBrowser is to mitigate issues related to Javascript to the best extent. Tails is trying to add another level of protection from that.
+
+If you know what Javascript is and when you want to enable it, the NoScript extension is there for finer tuning.
+"""]]

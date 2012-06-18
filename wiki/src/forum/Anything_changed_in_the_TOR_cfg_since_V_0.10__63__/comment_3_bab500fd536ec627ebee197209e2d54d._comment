@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Is a switch for transparent proxy possible?"
+ date="2012-03-12T01:09:54Z"
+ content="""
+How about a switch in the start menu (like for truecrypt after pressing tab)?
+So 'experts' (and I) could start Tails with transparent proxying and all others would have the real secure sandbox experience?!
+Good idea? What do you think?
+
+---
+PS: Technical question: The transparent proxy settings are defined solely in etc/firewall.conf, right? 
+If I would exchange the actual configuration:
+
+######http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/firewall.conf;hb=HEAD
+with this:
+######http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/firewall.conf;hb=0b8a680e5d9dc9001207881204ac392d2bae604f
+
+I would have fixed it for me??
+
+Cheers,
+Roger
+"""]]

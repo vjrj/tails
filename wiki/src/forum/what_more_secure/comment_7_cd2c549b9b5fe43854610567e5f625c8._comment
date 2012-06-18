@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-01-17T11:36:11Z"
+ content="""
+> it's safer to do things in a virtual drive rather than a physical one.
+
+Not necessarily, but yeah, I can come up with two reasons in support of this:
+
+* A Tails guest is less likely to access your physical storage media, so if Tails gets compromised your physical storage media is only compromised if the attacker can break out of the virtualization software. 
+* Since most VM software uses NAT to share the internet connection the Tails guest, the guest won't have access to the real IP address (and thus cannot leak it if there's some mistake in Tails). OTOH, if you're behind a physical router/fireweall on your LAN, you get the same protections on the host.
+
+> the only downfall about doing that is you have to fully boot into windows or what have you to do so.
+
+Why Windows? If you do that I definitely would consider the virtualization approach to be less secure than booting straight into Tails directly on the hardware. If you want you setup to make sense, boot from some minimal Linux installation as the host from a USB, and run the Tails guest in VirtualBox. Keep all network services on the host turned off, and never use it for anything else than starting Tails. In particular, never use its web browser or any other network application except the update manager. For additional security, install the Linux host with full hard drive encryption, which is easily done with [[GNU/Linux Debian|http://www.debian.org]] (it's a choice in the graphical installer), for instance.
+"""]]

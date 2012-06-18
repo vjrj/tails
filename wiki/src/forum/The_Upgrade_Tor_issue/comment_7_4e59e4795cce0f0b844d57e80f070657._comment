@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2011-11-12T00:10:00Z"
+ content="""
+only takes me around 5mins or so to update Tor on the live CD
+you can always edit apt sources.lst to trim down unnecessary repository updating since you're just updating Tor
+"""]]

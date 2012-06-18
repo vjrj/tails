@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Start in Bridge mode"
+ date="2012-03-27T20:08:47Z"
+ content="""
+If you want to connect to the same entry node each time then start Tails in Bridge mode.  Query for a list of bridges and, each time you start Tails, use the Bridge option at the command line. 
+When Tails starts it then waits for you to enter the IP address/port number of these bridges.  That way your first-hop connection to the Tor network is always the same.  
+"""]]

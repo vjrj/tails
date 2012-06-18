@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2011-12-02T10:42:03Z"
+ content="""
+> If you use LUKS/ect then you have no such options.
+
+That's not entirely correct — see the *--shared* option in [Cryptsetup 1.4.0+](http://code.google.com/p/cryptsetup/wiki/Cryptsetup140).
+
+> Read all the stolen FBI leaked emails from Antisec on Nov 18 where they talk back and forth about being unable to break TC encryption or read any data using their useless EnCase forensic software
+
+Can you please provide a link or a specific quote?
+"""]]

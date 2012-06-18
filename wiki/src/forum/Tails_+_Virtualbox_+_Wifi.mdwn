@@ -1,0 +1,6 @@
+Hi,
+
+I´d like to access the internet through Tails running in a virtual machine. I do not want to use the internet connection of the host (it shouldn´t have a connection to the internet at all). Therefore I want to use a wifi stick. This works in case I boot tails from a cd, several networks in my area are shown and I am also able to connect to my own wireless network. However, if I use tails in combination with virtualbox, tails seems to detect my wifi stick but it doesn´t show the networks in my neighbourhood and I´m also not able to connect to my own network. Does anyone know a reason for this?
+My idea was to use a similar approach like here: http://ra.fnord.at/
+I wanted to use two virtual machines: one using tails and another one which connects via internal networking to the tails vm and hopefully has internet access only through tor. Though I´m not really sure if and how this will work or if it makes sense at all.
+And is there also a possibility to use a proxy to connect to tor like in the normal vidalia control panel from the tor browser?

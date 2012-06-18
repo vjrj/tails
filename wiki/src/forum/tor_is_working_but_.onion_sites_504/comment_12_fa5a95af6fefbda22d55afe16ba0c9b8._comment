@@ -1,0 +1,66 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Here's debug info"
+ date="2011-12-04T01:44:46Z"
+ content="""
+Same problem.
+On a laptop, new tails won't open any .onion sites. Here is my attempt to open tormail (it works fine using tor2web or browser bundle)
+
+As you can see it just repeats the same stalling message then 
+\"504 Connect to jhiwjjlqpyawmpjx.onion:80 failed: SOCKS error: TTL expired\"
+
+Weird, because this CD *did* work the first time I burnt it and tried it on the laptop. Took the CD out, tried it on a different comp.. suddenly it works fine on that comp. No idea why.. here's the debug info from Vidala message:
+
+
+	Dec 04 02:36:53.317 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 13 sec old)
+	Dec 04 02:36:53.513 [Debug] conn_read_callback(): socket 40 wants to read.
+	Dec 04 02:36:53.515 [Debug] connection_read_to_buf(): 40: starting, inbuf_datalen 0 (0 pending in tls object). at_most 16384.
+	Dec 04 02:36:53.517 [Debug] connection_read_to_buf(): After TLS read of 512: 586 read, 0 written
+	Dec 04 02:36:53.519 [Debug] connection_or_process_cells_from_inbuf(): 40: starting, inbuf_datalen 512 (0 pending in tls object).
+	Dec 04 02:36:53.521 [Debug] connection_or_process_cells_from_inbuf(): 40: starting, inbuf_datalen 0 (0 pending in tls object).
+	Dec 04 02:36:54.312 [Debug] global_read_bucket now 10485760.
+	Dec 04 02:36:54.315 [Debug] or_conn->read_bucket now 10485760.
+	Dec 04 02:36:54.316 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:36:54.319 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 14 sec old)
+	Dec 04 02:36:55.313 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:36:55.316 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 15 sec old)
+	Dec 04 02:36:56.315 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:36:56.317 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 16 sec old)
+	Dec 04 02:36:57.318 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:36:57.320 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 17 sec old)
+	Dec 04 02:36:58.317 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:36:58.319 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 18 sec old)
+	Dec 04 02:36:58.541 [Debug] conn_read_callback(): socket 40 wants to read.
+	Dec 04 02:36:58.543 [Debug] connection_read_to_buf(): 40: starting, inbuf_datalen 0 (0 pending in tls object). at_most 16384.
+	Dec 04 02:36:58.545 [Debug] connection_read_to_buf(): After TLS read of 512: 586 read, 0 written
+	Dec 04 02:36:58.547 [Debug] connection_or_process_cells_from_inbuf(): 40: starting, inbuf_datalen 512 (0 pending in tls object).
+	Dec 04 02:36:58.548 [Debug] connection_or_process_cells_from_inbuf(): 40: starting, inbuf_datalen 0 (0 pending in tls object).
+	Dec 04 02:36:59.319 [Debug] global_read_bucket now 10485760.
+	Dec 04 02:36:59.321 [Debug] or_conn->read_bucket now 10485760.
+	Dec 04 02:36:59.323 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:36:59.325 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 19 sec old)
+	Dec 04 02:37:00.320 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:00.322 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 20 sec old)
+	Dec 04 02:37:01.321 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:01.324 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 21 sec old)
+	Dec 04 02:37:02.322 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:02.325 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 22 sec old)
+	Dec 04 02:37:03.324 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:03.326 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 23 sec old)
+	Dec 04 02:37:03.562 [Debug] conn_read_callback(): socket 40 wants to read.
+	Dec 04 02:37:03.564 [Debug] connection_read_to_buf(): 40: starting, inbuf_datalen 0 (0 pending in tls object). at_most 16384.
+	Dec 04 02:37:03.566 [Debug] connection_read_to_buf(): After TLS read of 512: 586 read, 0 written
+	Dec 04 02:37:03.568 [Debug] connection_or_process_cells_from_inbuf(): 40: starting, inbuf_datalen 512 (0 pending in tls object).
+	Dec 04 02:37:03.570 [Debug] connection_or_process_cells_from_inbuf(): 40: starting, inbuf_datalen 0 (0 pending in tls object).
+	Dec 04 02:37:04.325 [Debug] global_read_bucket now 10485760.
+	Dec 04 02:37:04.327 [Debug] or_conn->read_bucket now 10485760.
+	Dec 04 02:37:04.329 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:04.331 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 24 sec old)
+	Dec 04 02:37:05.326 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:05.327 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 25 sec old)
+	Dec 04 02:37:06.327 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:06.329 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 26 sec old)
+	Dec 04 02:37:07.329 [Debug] circuit_get_open_circ_or_launch(): one on the way!
+	Dec 04 02:37:07.330 [Info] connection_ap_handshake_attach_circuit(): pending-join circ 10592 already here, with intro ack. Stalling. (stream 27 sec old)
+
+"""]]

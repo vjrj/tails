@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-10T21:34:22Z"
+ content="""
+If your wireless card is recognized by Tails you should see a list of available network by clicking on [[the NetworkManager icon in the notification area|/doc/first_steps/introduction_to_gnome_and_the_tails_desktop/#index5h2]] which should be one of those: <img src=\"/doc/first_steps/introduction_to_gnome_and_the_tails_desktop/network-idle.png\"> <img src=\"/doc/first_steps/introduction_to_gnome_and_the_tails_desktop/network-wired.png\"> <img src=\"/doc/first_steps/introduction_to_gnome_and_the_tails_desktop/network-wireless.png\">
+
+If it's not recognized, try to [[send us a bug report using Whisperback|/doc/first_steps/report_a_bug]]. Having a look at the section on [[special cases|/doc/first_steps/report_a_bug/#index4h1]] if you don't have Internet access.
+
+"""]]

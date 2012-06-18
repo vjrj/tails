@@ -1,0 +1,1 @@
+Isn't any traffic that is not TCP not sent through tor?  I used wireshark on my network card and saw (in green) "http continuation or non-http traffic". The protocol said HTTP (not TCP)!!  The destination was not on my local network but was pointing to the tor server.  Isn't that a security risk?  

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-08-21T07:48:34Z"
+ content="""
+It seems that very few users have this certificate installed, thus the vast majority of users will get such a warning. 
+
+This is surely confusing for the average user and most will no doubt find installing the certificate beyond them.
+
+(Note that the URL you gave has a link,
+\"Click here if you want to import the root certificate into Microsoft Internet Explorer 5.x/6.x\" but nothing for Firefox or even newer versions of IE (Are 5 and 6 even still supported?) )
+
+Have you considered getting a more standard, widely recognized certificate? 
+
+I see that the https://torproject.org has one. Perhaps they could help you with this somehow?
+"""]]

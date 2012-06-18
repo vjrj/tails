@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2011-08-20T17:06:12Z"
+ content="""
+And then the endpoint operation keys leak into the open and every TLA rushes to set up their own rogue ones.
+
+Bad idea, IMHO. Anything that operates while its trust is being based on a secret piece of information is a bad idea. Secrets tend to be leaked sooner or later. Example: \"Hey Mike! Did you know Suzy hides her life savings in a sock? Just don't tell anyone else.\"
+"""]]

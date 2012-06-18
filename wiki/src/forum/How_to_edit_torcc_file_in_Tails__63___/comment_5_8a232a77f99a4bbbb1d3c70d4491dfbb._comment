@@ -1,0 +1,57 @@
+[[!comment format=mdwn
+ username="Tom"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-09-25T23:58:38Z"
+ content="""
+I first boot up TAILS on my computer without the router turned on - this is to
+prevent network access prior to making edits like this and to change my mac
+address prior to accessing the Internet.
+
+Here is how I do it:
+
+1.Become root (aka superuser/admin):
+
+    sudo -i
+
+2.Now, issue the following cmd to find the hard drive device names:
+
+    fdisk -l (lower case L)
+
+3.Make a mount point for the hard drive:
+
+    mkdir /mnt/sddx (where x is the relevant hard drive partition number)
+
+4.Mount the hard drive partition:
+
+    mount -v -t ext3 /dev/sddx /mnt/sddx (ext3 is the filesystem type on my system)
+
+5.Change directory to where the torrc file additions are located:
+
+    pushd /mnt/sddx/root/amnesia (Note: popd is inverse cmd of pushd)
+
+6.Locate the file to append to /etc/tor/torrc and append it:
+
+    cat torrc-append-file.txt >> /etc/tor/torrc
+
+7.To make changes to the torrc file (other than just appending to it as I do):
+    Invoke the vi/vim editor, or gedit, or your favorite text editor:
+
+    vi /etc/tor/torrc
+
+8.Make your edits and save them with \":wq\" NOT in an editing mode inside vi/vim
+
+    vi/vim cmds are:
+
+    o (to open a new line)
+    i (to insert)
+    a (to append)
+    q (to quit)
+    ESC (to close edit mode)
+    :wq (to quit and save)
+ 
+    Advice: play around with vi/vim before to do it to the /etc/tor/torrc
+    file (to make it easy on yourself if you don't know vi/vim).
+
+
+"""]]

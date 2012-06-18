@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-04T13:29:05Z"
+ content="""
+I have connected to the Internet with TAILS 0.8.
+
+I used the dd command from a Linux Live CD to burn it to a USB as follows:
+
+To get into the root account, issue the following command from most any Linux Live CD:
+
+    $ sudo -i
+
+(which leaves you with a root account prompt, '#'. below:
+
+    # dd if=tails-i386-0.8.iso of=/dev/sdx
+
+(where x is a device name letter found with the fdisk -l command also issued from the root account assuming the .iso file is in a Desktop directory for example)
+
+Alternatively, it is also possible to issue the following command from the default user account for any Linus Live CD:
+
+    $ sudo dd if=tails-i386-0.8.iso of=/dev/sdx
+
+Note: You must issue the  [sudo] fdisk -l command first to find the device name's last letter for the USB device name (no partition number following the letter, i.e. the full device name only) where the square brakets indicate user mode vs root account mode.
+
+
+"""]]

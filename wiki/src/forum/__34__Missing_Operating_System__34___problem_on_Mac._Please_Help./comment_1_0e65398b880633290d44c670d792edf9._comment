@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-23T01:05:08Z"
+ content="""
+your usb is not setup correctly to boot the OS files. That kind of error means that the software that boots the OS is not even running properly(let alone tails itself) -  as far as your computer is concerned there is nothing bootable available.
+
+Don't know about mac, but for windows and linux that kind of error means the process is failing at the very first steps. If you had an empty usb stick which was flagged as bootable and you tried to boot from it then that is probably the error you'd get.
+
+If you were using linux, I would suggest things that you could do to get syslinux working but this must be different for mac. You need to look at the syslinux equivalent for mac and work from there.
+"""]]

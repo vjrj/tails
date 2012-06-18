@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-02T21:36:48Z"
+ content="""
+In case some forum readers don't know what I'm talking about...
+
+https://*.boum.org uses Gandi Standard SSL CA wich is a reseller of UTN-USERFirst-Hardware. A CA at best can only be as trustworthy and secure as its root.
+"""]]
