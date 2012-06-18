@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-18T11:26:20Z"
+ content="""
+> 'failed to allocate motherboard resources' followed by failed to initialise EISA 1 through 6
+
+Lolwat. I doubt your HP Pavillion even has an (E)ISA bus.
+"""]]
