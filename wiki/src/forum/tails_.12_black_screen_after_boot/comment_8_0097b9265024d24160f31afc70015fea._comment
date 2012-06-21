@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-06-15T04:09:25Z"
+ content="""
+It's great to see that removing `splash` is a working temporary workaround, but if you care about this bug to be fixed, please provide the information we have asked.
+
+About the other, unrelated bug, please see [[doc/first_steps/bug_reporting]].
+
+"""]]
