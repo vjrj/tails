@@ -4,7 +4,7 @@
  subject="comment 5"
  date="2012-06-25T13:42:00Z"
  content="""
-IIRC, both leaks do not appear when using a version of Firefox built with Mike Perry's patches. The [[issue is on our radar|todo/replace_iceweasel_with_Torbrowser__63__]] but it is not an easy one to tackle properly.
+IIRC, both leaks do not appear when using a version of Firefox built with Mike Perry's patches. The [[issue is on our radar|todo/replace iceweasel with Torbrowser?]] but it is not an easy one to tackle properly.
 
 Two things about those leaks, though:
 
