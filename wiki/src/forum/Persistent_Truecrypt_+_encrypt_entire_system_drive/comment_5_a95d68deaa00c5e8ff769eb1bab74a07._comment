@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-06-24T09:16:09Z"
+ content="""
+@ comment 4
+
+That's what I was wondering.
+
+>Tails + encrypted system = Tails Ultimate Edition.
+
+Or \"Tails Unlimited Confusion\" perhaps?
+
+>A great idea that would definitely improve Tails. 
+
+Improve? How exactly? Other than making Tails slower and thus affording users more meditation time.
+
+OP, what are you trying to achieve exactly? All I can think of is some sort of system-tampering-prevention. Unfortunately encryption would be pretty useless, even for that:
+
+1. If Tails was distributed in encrypted for, the key would obviously be distributed with it.
+
+2. \"Whole system encryption\" does not exist. It is impossible. A custom designed system could possibly include an ASIC bootloader/decryption system but even that could be fuzzed. You have not fabricated such a system. Your bootloader and decryption code would sit on your HD/USB/DVD in plaintext for all the world to see/pwn.
+"""]]
