@@ -1,0 +1,11 @@
+Hi, if I:
+
+-spoof MAC address of wireless card
+-use networkmanager
+-try to connect to AP with WPA encryption
+
+it doesn`t connect. My Archlinux home installation has exactly the same problem, so I switched to wicd.
+ 
+If I replace networkmanager with wicd in Tails, it can connect with spoofed MAC, but breaks the whole system. For example, I can`t launch unsafe browser with error of something like "no DNS, wrong DHCP, blah-blah". And Tor doesn`t work, of course.
+
+Any thoughts?
