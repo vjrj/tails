@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-28T22:17:50Z"
+ content="""
+Wait :) Just needed to do '/etc/init.d/network-manager stop' before and '/etc/init.d/network-manager start' after MAC changing.
+"""]]
