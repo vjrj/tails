@@ -1,0 +1,59 @@
+Cisco Pushing 'Cloud Connect' Router Firmware, Allows Web History Tracking
+
+"Reports have started popping up that Cisco is pushing out and automatically (without permission) installing their new Cloud Connect firmware on consumer routers. The new firmware removes the user's ability to login and administer the router locally. You now must configure the router using Cisco's Cloud connect service. If that wasn't bad enough, the fine print for this new service allows Cisco to track your complete internet history. Currently, it appears the only way to disable the Cloud Connect service is to unplug your router from the internet."
+
+* http://tech.slashdot.org/story/12/06/29/1425210/cisco-pushing-cloud-connect-router-firmware-allows-web-history-tracking
+- http://www.reddit.com/r/technology/comments/vptu9/linksys_just_pushed_and_installed_without_my
+- http://home.cisco.com/en-us/cloud
+- http://homecommunity.cisco.com/t5/Wireless-Routers/EA4500-weird-login-screen-can-t-login/td-p/535846
+- http://www.cisco.com/web/siteassets/legal/connect_cloud_supp.html
+- http://homecommunity.cisco.com/t5/Wireless-Routers/EA4500-Disable-Cisco-Connect-Cloud/td-p/536032/page/4
+
+"Linksys just pushed and installed (without my permission) a cloud service to my Linksys router. Goodbye internet security"
+
+"the fine print even has them harvesting your internet history. I think I'm in the clear with my 3200 not being supported, but Cisco can forget about me ever buying another one of their products."
+
+"When you use the Service, we may keep track of certain information related to your use of the Service, including but not limited to the status and health of your network and networked products; which apps relating to the Service you are using; which features you are using within the Service infrastructure; network traffic (e.g., megabytes per hour); Internet history; how frequently you encounter errors on the Service system and other related information ("Other Information"). We use this Other Information to help us quickly and efficiently respond to inquiries and requests, and to enhance or administer our overall Service for our customers. We may also use this Other Information for traffic analysis (for example, determining when the most customers are using the Service) and to determine which features within the Service are most or least effective or useful to you. In addition, we may periodically transmit system information to our servers in order to optimize your overall experience with the Service. We may share aggregated and anonymous user experience information with service providers, contractors or other third parties to assist us with improving the Service and user experience, but any shared information will be consistent with Cisco's overall Privacy Statement and will not identify you personally in any way."
+
+"Note that in the picture, the 192.168.1.1 unroutable (internal) network address used for accessing the admin panel for my router won't let me log in without signing up for a Cisco Connect Cloud account. I just finished talking to tech support, who confirmed there is no way around this.
+
+The terms of service for a Connect Cloud account grant Cisco full rights to all of your network traffic, and the rights to pass that traffic to anyone.
+
+The new EA3500 and EA4500 models are known to be affected by this, and will automatically install this update as soon as they go online.
+
+Service Desk chat snippet:
+
+from ProjectKS to All Participants:Is there seriously no way I can log in manually like I did two hours ago?
+
+from ProjectKS to All Participants:I mean without having to have a freaking technician do it?
+
+from Ma. Liza R. (29794) to All Participants:No, any technician will not be able to revert back the old firmware, that's why we are processing a call back, and someone from case management will do it for you.
+
+from ProjectKS to All Participants:How can they even do it for me? It's a private network. Cisco shouldn't even be able to access my device
+
+from Ma. Liza R. (29794) to All Participants: I don't know how they will do it, but they will do it from their end.
+
+from Ma. Liza R. (29794) to All Participants:Any questions for now?"
+
+"It took me about 5 seconds to get around this. Unplug it from the internet, then it lets you in without having to create an account. I'm not happy about this, but it is possible to get around it."
+
+"Linksys has been garbage for a while now. But if this is pushed to all Cisco products then the hell with them I'll go to custom firmware or some other brand."
+
+"If you unplug the router from the internet you can access it the old way. But once its plugged into the internet again you don't have a choice. If you have a source that tells you how to disable it I would like it because then i could disable this crap."
+
+"Run a separate hardware firewall. You can build a near perfect one using an old PC and using OpenBSD and PF. Just google PF and OpenBSD and you'll get 1000's of how to pages. Only then can you be sure that only what you want let in will be let in, and only what you want to be let out will be let out.
+
+Also see if there is any way to prevent the router from accepting updates from the outside. If Linksys/Cisco can update your router, so can a hacker."
+
+"How do I know if I was affected by this update?"
+"Try to log in to your router. If it redirects you to Cisco Cloud Connection, you're affected."
+
+"Cisco is the Oracle of routers. Their company motto should be: DO ALL TEH EVIL YOU CAN, TAKE ALL THE MONEY, AND RUN AWAY.
+
+I wish the rest of the world would get it through its head that Cisco is not an industry leading company anymore."
+
+"Why in the name of god would cisco create a backdoor that allows updating of the router firmware remotely with no confirmation? I give it literally a month before there's an exploit available for "pushing" custom updates to these routers remotely. I see a historic blunder in the making here. "
+
+"How is this even legal?"
+
+"Lack of security and privacy as a feature. Interesting. So Cisco is likely giving the Government access to all these private networks. Not that anyone would say so or admit... How long until DD-WRT users are labelled Terror suspects?"
