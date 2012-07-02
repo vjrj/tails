@@ -791,7 +791,7 @@ security issues or new Tails releases are published on the website. If
 some are found, a graphical notification is displayed. This
 application is internationalized.
 
-- [[!tails_gitweb chroot_local-includes/usr/local/bin/tails-security-check]]
+- [[!tails_gitweb includes.chroot/usr/local/bin/tails-security-check]]
 
 ## 3.5 Feedback
 
@@ -812,7 +812,7 @@ reported issue. WhisperBack's graphical interface fully supports
 internationalization and is ready to be translated.
 
 - [[!tails_gitweb config/chroot_local-packages/]]
-- [[!tails_gitweb config/chroot_local-includes/etc/whisperback/]]
+- [[!tails_gitweb config/includes.chroot/etc/whisperback/]]
 - [WhisperBack source code](http://git.immerda.ch/?p=whisperback.git)
 
 ## 3.6 Configuration
@@ -836,7 +836,7 @@ bandwidth. The user can nevertheless easily choose to turn his or her
 Tor client into a relay, thanks to the Vidalia graphical user
 interface.
  
-- [[!tails_gitweb chroot_local-includes/etc/tor/torrc]]
+- [[!tails_gitweb includes.chroot/etc/tor/torrc]]
 
 ### 3.6.3 DNS
 
@@ -853,7 +853,7 @@ lower level (in-kernel network filter, Tor-ified DNS), these tools are
 actually unnecessary. They are solely included due to dependencies and
 configured for completeness.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/tor/tor-tsocks.conf]]
+- [[!tails_gitweb config/includes.chroot/etc/tor/tor-tsocks.conf]]
 
 ### 3.6.6 Network Filter
 
@@ -891,7 +891,7 @@ user. The Debian Live persistence feature is disabled by passing
 
 Removable drives auto-mounting is disabled in Tails 0.7 and newer.
 
-- [[!tails_gitweb config/chroot_local-includes/usr/share/amnesia/gconf/apps_nautilus.xml]]
+- [[!tails_gitweb config/includes.chroot/usr/share/amnesia/gconf/apps_nautilus.xml]]
 
 ### 3.6.11 Secure erasure of files and free disk space
 
@@ -985,7 +985,7 @@ Git history explains
 it all; any other relevant settings may thus be investigated by
 looking in there.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/iceweasel/]]
+- [[!tails_gitweb config/includes.chroot/etc/iceweasel/]]
 
 ### 3.6.14 Claws Mail
 
@@ -1001,7 +1001,7 @@ HTML in order to get rid of a whole class of privacy concerns.
 
 OpenPGP support is provided by the PGP/inline and PGP/MIME plugins.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/skel/.claws-mail/]] is copied to
+- [[!tails_gitweb config/includes.chroot/etc/skel/.claws-mail/]] is copied to
   the user's `$HOME` at boot time
 
 ### 3.6.15 Pidgin
@@ -1019,8 +1019,8 @@ prefixing it with ^ or _ with probability 0.05, and changing it to leet speak
 with probability 0.05. Pidgin does not leak any informations appart from the
 name when answering to CTCP requests.
 
-- [[!tails_gitweb config/chroot_local-includes/lib/live/config/201-pidgin]]
-- [[!tails_gitweb config/chroot_local-includes/etc/skel/.purple]]
+- [[!tails_gitweb config/includes.chroot/lib/live/config/201-pidgin]]
+- [[!tails_gitweb config/includes.chroot/etc/skel/.purple]]
 
 ### 3.6.16 GnuPG
 
@@ -1044,9 +1044,9 @@ possible in place of the hierarchical X.509 certification model.
 GnuPG is configured to prefer non-outdated digest algorithms such as
 SHA256.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/skel/.gnupg/gpg.conf]]
-- [[!tails_gitweb config/chroot_local-includes/usr/share/amnesia/gconf/apps_seahorse.xml]]
-- [[!tails_gitweb config/chroot_local-includes/etc/iceweasel/profile/user.js]]
+- [[!tails_gitweb config/includes.chroot/etc/skel/.gnupg/gpg.conf]]
+- [[!tails_gitweb config/includes.chroot/usr/share/amnesia/gconf/apps_seahorse.xml]]
+- [[!tails_gitweb config/includes.chroot/etc/iceweasel/profile/user.js]]
 - hkpms [announcement](https://lists.riseup.net/www/arc/monkeysphere/2010-12/msg00001.html)
 - [hkpms in the Monkeysphere issue tracker](https://labs.riseup.net/code/issues/2016)
 - hkpms is [available in Debian experimental](http://packages.debian.org/source/experimental/msva-perl)

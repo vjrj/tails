@@ -36,11 +36,11 @@ DNS server provided for DHCP for resolving.
 configure the system resolver in `/etc/resolv.conf`; it is also setup
 to prevent NetworkManager and dhcp-client to modify this file.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/resolvconf/resolv.conf.d/base]]
-- [[!tails_gitweb config/chroot_local-includes/etc/pdnsd.conf]]
-- [[!tails_gitweb config/chroot_local-includes/etc/tor/torrc]]
-- [[!tails_gitweb config/chroot_local-includes/etc/firewall.conf]]
-- [[!tails_gitweb config/chroot_local-includes/lib/live/config/000-resolv-conf]]
+- [[!tails_gitweb config/includes.chroot/etc/resolvconf/resolv.conf.d/base]]
+- [[!tails_gitweb config/includes.chroot/etc/pdnsd.conf]]
+- [[!tails_gitweb config/includes.chroot/etc/tor/torrc]]
+- [[!tails_gitweb config/includes.chroot/etc/firewall.conf]]
+- [[!tails_gitweb config/includes.chroot/lib/live/config/000-resolv-conf]]
 - [[!tails_gitweb config/chroot_local-hooks/08-remove_pdnsd_resolvconf_hook]]
 - [[!tails_gitweb config/chroot_local-hooks/99-zzz_resolvconf]]
-- [[!tails_gitweb config/chroot_local-includes/etc/default/ttdnsd]]
+- [[!tails_gitweb config/includes.chroot/etc/default/ttdnsd]]

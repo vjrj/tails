@@ -30,16 +30,16 @@ behaviour depends on the `sdmem` kernel command line parameter value.
 Additionally, the `sdmemopts` kernel command line parameter allows
 fine tuning the options passed to the `sdmem` program.
 
-- [[!tails_gitweb config/chroot_local-includes/usr/share/initramfs-tools/hooks/sdmem]]
-- [[!tails_gitweb config/chroot_local-includes/usr/share/initramfs-tools/scripts/init-premount/sdmem]]
+- [[!tails_gitweb config/includes.chroot/usr/share/initramfs-tools/hooks/sdmem]]
+- [[!tails_gitweb config/includes.chroot/usr/share/initramfs-tools/scripts/init-premount/sdmem]]
 
 These `sdmem` and `sdmemopts` are appended to the fresh kernel command
 line parameters, when memory erasure is triggered, by the
 `tails-kexec` initscript that is itself parameterized by the usual,
 slightly customized, kexec-tools configuration file.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/default/kexec]]
-- [[!tails_gitweb config/chroot_local-includes/etc/init.d/tails-kexec]]
+- [[!tails_gitweb config/includes.chroot/etc/default/kexec]]
+- [[!tails_gitweb config/includes.chroot/etc/init.d/tails-kexec]]
 
 #### Actual memory erasure process
 
@@ -50,7 +50,7 @@ user, as well as the `-llf` options: memory is only overwritten once
 with zeros; this is the fastest available mode, and is enough to
 protect against every memory forensics attack we know of.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/default/kexec]]
+- [[!tails_gitweb config/includes.chroot/etc/default/kexec]]
 
 #### Triggers
 
@@ -69,7 +69,7 @@ target users needs. Finally, the standard Debian `halt` and `reboot`
 initscripts are disabled as 
 
 - [[!tails_gitweb config/chroot_local-patches/run_kexec-load_on_halt.diff]]
-- [[!tails_gitweb config/chroot_local-includes/etc/init.d/tails-kexec]]
+- [[!tails_gitweb config/includes.chroot/etc/init.d/tails-kexec]]
 - [[!tails_gitweb config/chroot_local-hooks/52-update-rc.d]]
 
 **Second, the memory erasure process is triggered when the boot medium
@@ -80,10 +80,10 @@ boot time, that brutally invokes the memory erasure process, bypassing
 other system shutdown scripts, when this medium happens to be
 physically removed.
 
-- [[!tails_gitweb config/chroot_local-includes/usr/local/sbin/udev-watchdog-wrapper]]
-- [[!tails_gitweb config/chroot_local-includes/usr/src/udev-watchdog.c]]
+- [[!tails_gitweb config/includes.chroot/usr/local/sbin/udev-watchdog-wrapper]]
+- [[!tails_gitweb config/includes.chroot/usr/src/udev-watchdog.c]]
 - [[!tails_gitweb config/chroot_local-hooks/52-udev-watchdog]]
-- [[!tails_gitweb config/chroot_local-includes/etc/init.d/tails-sdmem-on-media-removal]]
+- [[!tails_gitweb config/includes.chroot/etc/init.d/tails-sdmem-on-media-removal]]
 - [[!tails_gitweb config/chroot_local-hooks/52-update-rc.d]]
 
 #### Making sure needed files are available
@@ -93,7 +93,7 @@ needed by the memory erasure process is locked into memory from boot
 to memory erasure time.
 
 - [[!debpts memlockd]]
-- [[!tails_gitweb config/chroot_local-includes/etc/memlockd.cfg]]
+- [[!tails_gitweb config/includes.chroot/etc/memlockd.cfg]]
 
 #### User interface
 
@@ -107,4 +107,4 @@ soon as the memory wiping has been started.
 A short but visible message, displayed for a few seconds, explains the
 user what is going to happen.
 
-- [[!tails_gitweb config/chroot_local-includes/etc/init.d/tails-kexec]]
+- [[!tails_gitweb config/includes.chroot/etc/init.d/tails-kexec]]

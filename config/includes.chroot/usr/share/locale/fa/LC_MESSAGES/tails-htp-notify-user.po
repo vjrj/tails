@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:52
+#: config/includes.chroot/usr/local/bin/tails-htp-notify-user:52
 msgid "Synchronizing the system's clock"
 msgstr "در حال همزمان کردن ساعت سیستم"
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:53
+#: config/includes.chroot/usr/local/bin/tails-htp-notify-user:53
 msgid ""
 "Tor needs an accurate clock to work properly, especially for Hidden "
 "Services. Please wait..."
@@ -28,6 +28,6 @@ msgstr ""
 "تور برای درست کار کاردن، مخصوصا برای خدمات مخفی به یک ساعت دقیق احتیاج دارد، "
 "لطفا صبر کنید..."
 
-#: config/chroot_local-includes/usr/local/bin/tails-htp-notify-user:87
+#: config/includes.chroot/usr/local/bin/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "همزمان سازی ساعت موفقیت آمیز نبود!"

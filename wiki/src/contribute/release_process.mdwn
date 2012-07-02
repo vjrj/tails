@@ -14,7 +14,7 @@ AdBlock patterns
 ----------------
 
 Patterns are stored in
-`config/chroot_local-includes/etc/iceweasel/profile/adblockplus/`.
+`config/includes.chroot/etc/iceweasel/profile/adblockplus/`.
 
 upgrade i2p
 -----------
