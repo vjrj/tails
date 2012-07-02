@@ -17,7 +17,7 @@ Tails ships with several custom programs that need to be translated.
 
 One can find the (gettext) PO files:
 
-* in [[!tails_devel_gitweb_dir config/chroot_local-includes/usr/share/locale]]
+* in [[!tails_devel_gitweb_dir config/includes.chroot/usr/share/locale]]
 * [liveusb-creator
   gitweb](http://git.immerda.ch/?p=tails/liveusb-creator.git;a=tree;f=po;hb=HEAD)
 * [tails-greeter

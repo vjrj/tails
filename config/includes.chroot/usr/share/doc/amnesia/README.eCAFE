@@ -14,7 +14,7 @@ X.Org
 ### Custom configuration file
 
 - copy, and optionally adapt, the custom `./examples/eCAFE/xorg.conf`
-  to `config/chroot_local-includes/etc/X11/` ; beware of the
+  to `config/includes.chroot/etc/X11/` ; beware of the
   permissions, non-root users must have read access to the including
   X11 directory and to the `xorg.conf` file
 

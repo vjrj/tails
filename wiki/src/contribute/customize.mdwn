@@ -30,8 +30,8 @@ Tails default user's `$HOME` directory is created at runtime from
 `/etc/skel/`. One may want to build an image including a modified
 version of it. There are multiple ways to do so:
 
-1. edit the content of `config/chroot_local-includes/etc/skel/`
+1. edit the content of `config/includes.chroot/etc/skel/`
 2. dropping shell scripts in `config/chroot_local-hooks/` or
-   `config/chroot_local-includes/lib/live/config/`
+   `config/includes.chroot/lib/live/config/`
    to modify `/home/amnesia` in a program-driven way
    (`gconftool`, etc.)

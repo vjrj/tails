@@ -52,28 +52,28 @@ elif [ "$hw_arch" = powerpc -o "$hw_arch" = powerpc64 ]; then
       ${@}
 fi
 
-install -d config/chroot_local-includes/etc/amnesia/
+install -d config/includes.chroot/etc/amnesia/
 
 # environment
 TAILS_WIKI_SUPPORTED_LANGUAGES="$(auto/scripts/ikiwiki-supported-languages ikiwiki.setup)"
 [ -n "$TAILS_WIKI_SUPPORTED_LANGUAGES" ] || exit 16
 echo "TAILS_WIKI_SUPPORTED_LANGUAGES='${TAILS_WIKI_SUPPORTED_LANGUAGES}'" \
-   >> config/chroot_local-includes/etc/amnesia/environment
+   >> config/includes.chroot/etc/amnesia/environment
 
 # version
-echo "${AMNESIA_FULL_VERSION}" > config/chroot_local-includes/etc/amnesia/version
+echo "${AMNESIA_FULL_VERSION}" > config/includes.chroot/etc/amnesia/version
 if git rev-list HEAD 2>&1 >/dev/null; then
-   git rev-list HEAD | head -n 1 >> config/chroot_local-includes/etc/amnesia/version
+   git rev-list HEAD | head -n 1 >> config/includes.chroot/etc/amnesia/version
 fi
 echo "live-build: `dpkg-query -W -f='${Version}\n' live-build`" \
-   >> config/chroot_local-includes/etc/amnesia/version
+   >> config/includes.chroot/etc/amnesia/version
 
 # changelog
-cp debian/changelog config/chroot_local-includes/usr/share/doc/amnesia/Changelog
+cp debian/changelog config/includes.chroot/usr/share/doc/amnesia/Changelog
 
 # create readahead-list from squashfs.sort
 if [ -e config/binary_rootfs/squashfs.sort ]; then
-    mkdir -p config/chroot_local-includes/usr/share/amnesia
+    mkdir -p config/includes.chroot/usr/share/amnesia
     sort -k2 -n -r config/binary_rootfs/squashfs.sort |
-        cut -d' ' -f1 > config/chroot_local-includes/usr/share/amnesia/readahead-list
+        cut -d' ' -f1 > config/includes.chroot/usr/share/amnesia/readahead-list
 fi

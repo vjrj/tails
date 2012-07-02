@@ -10,14 +10,14 @@ refresh_translations () {
    prog=$1
    proglang=$2
 
-   sharedir="config/chroot_local-includes/usr/share/${prog}"
-   locale_basedir="config/chroot_local-includes/usr/share/locale"
+   sharedir="config/includes.chroot/usr/share/${prog}"
+   locale_basedir="config/includes.chroot/usr/share/locale"
    pot="${sharedir}/messages.pot"
 
    mkdir -p "${sharedir}"
 
    for dir in bin sbin ; do
-      progpath="config/chroot_local-includes/usr/local/${dir}/${prog}"
+      progpath="config/includes.chroot/usr/local/${dir}/${prog}"
       if [ -e "${progpath}" ]; then
          xgettext --language="${proglang}" --from-code=UTF-8 \
            -o "${pot}" "${progpath}"
