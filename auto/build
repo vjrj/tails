@@ -21,7 +21,7 @@ rm -rf cache/stages_rootfs
 # get LB_BINARY_IMAGES
 . config/binary
 
-# get LB_ARCHITECTURE and LB_DISTRIBUTION
+# get LB_ARCHITECTURES and LB_DISTRIBUTION
 . config/bootstrap
 
 # build the doc wiki
@@ -61,12 +61,12 @@ export MKSQUASHFS_OPTIONS
 if GIT_REF="$(git symbolic-ref HEAD)"; then
     GIT_BRANCH="${GIT_REF#refs/heads/}"
     CLEAN_GIT_BRANCH=$(echo "$GIT_BRANCH" | sed 's,/,_,g')
-    BUILD_BASENAME="tails-${LB_ARCHITECTURE}-${CLEAN_GIT_BRANCH}-${AMNESIA_VERSION}-${AMNESIA_TODAY}"
+    BUILD_BASENAME="tails-${LB_ARCHITECTURES}-${CLEAN_GIT_BRANCH}-${AMNESIA_VERSION}-${AMNESIA_TODAY}"
 else
     GIT_CURRENT_COMMIT="$(git rev-parse HEAD)"
     if GIT_TAG="$(git describe --tags --exact-match ${GIT_CURRENT_COMMIT})"; then
         CLEAN_GIT_TAG=$(echo "$GIT_TAG" | sed 's,/,_,g')
-	BUILD_BASENAME="tails-${LB_ARCHITECTURE}-${CLEAN_GIT_TAG}"
+	BUILD_BASENAME="tails-${LB_ARCHITECTURES}-${CLEAN_GIT_TAG}"
     else
 	# this shouldn't reasonably happen (e.g. only if you checkout a
         # tag, remove the tag and then build)
