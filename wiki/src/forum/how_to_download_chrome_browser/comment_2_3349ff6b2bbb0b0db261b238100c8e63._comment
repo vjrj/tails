@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Linux is the KERNEL"
+ date="2012-06-25T05:10:26Z"
+ content="""
+>What distribution does tails come under, Linux, Debian, Ubuntu, or what?
+
+\"Linux\" is not a distro. Linux is the *kernel* upon which all the distros you named-- and hundreds, if not thousands more-- are built upon.
+
+Most of the time, when people say \"Linux\" what they really mean would be more properly termed, \"GNU/Linux\" or \"GNU+Linux\", or \"Linux-based\". 
+"""]]

@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="works without 'splash' (and new bug found)"
+ date="2012-06-14T23:51:06Z"
+ content="""
+Using failsafe mode doesn't help. Same error mesage.
+
+But if I press TAB and remove 'splash', then it seems to work (in normal mode.didn't try failsafe). Tails greeter shows up. (Removing 'quiet' seems not necessary... tried that; works with and without it.) 
+
+Unfortunately I found another bug: If I choose a different language than 'english':
+
+ - the keyboard layout will still be 'US' (okay, I could switch that manually)
+
+ - and the password that I choose before is not accepted. sudo says 'incorrect password', but password *was* correct. I tried that several times with very simple passwords (used only keys that are identical in my keyboard-layout and US-layout), but couldn't get it to work. If I use english language and keyboard, then I have no problems...
+
+seems this tails-version has some bugs :-((
+
+
+"""]]
