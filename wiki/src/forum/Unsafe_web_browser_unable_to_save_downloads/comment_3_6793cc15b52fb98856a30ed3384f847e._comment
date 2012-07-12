@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-07-12T13:11:15Z"
+ content="""
+> Now that you say it... I could see someone altering a doc or pdf or other file saved when on clearnet and that if opened would access/report to a website through Tor, leaking the Tor IP for that session, and linking it with the original IP used for the original downloading of the file.
+
+Such an attack is certainly possible with an arbitrary code exploit in the application used for opening the crafted document. But then you have already lost since the attacker can own you in an infinite amount of other ways.
+
+> it would also affect files moved from a different OS (say windows) to the persistent folder would it not?
+
+Yes.
+
+> Is the bitorrent protocol imnune to MITM attacks? or more resistent since it checks data integrity comming from a variaty of IP that an atacker migth not have available?
+
+Sure, but you still have to verify the authenticity of torrent file/magnet link.
+"""]]
