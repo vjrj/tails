@@ -1,0 +1,7 @@
+I'm interested to know why there is a need for RAM wipe on shutdown. I thought that after a computer is powered down, the RAM loses its ability to store information?
+
+Presumably there is a legitimate reason, so how effective is this Tails RAM wipe? I mean, is it just theoretically wiping RAM, or has it been forensically tested?
+
+Also, does the fact that Tails is wiping the RAM reveal to any examiner that you have been using TAILS on your system?
+
+Cheers.
