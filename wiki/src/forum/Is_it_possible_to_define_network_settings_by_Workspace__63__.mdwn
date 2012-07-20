@@ -1,10 +1,8 @@
 I remember coming across a distro in development where each window was a virtualized application defined by things like "Work" and "Home" and they wouldn't interact with each other. They were distinguished by colored borders. This got me thinking about a desktop where each workspace would have its own network settings.
 
-Think about an appearance like Crunchbang
-
-Workspace 1 - Tor
-Workspace 2 - VPN/Proxy
-Workspace 3 - Clearnet
+1. Workspace 1 - Tor
+2. Workspace 2 - VPN/Proxy
+3. Workspace 3 - Clearnet
 
 The latter two would have an initial popup dialog to configure settings or display a warning. Desktop themes can be Green, Yellow, & Red, respectively to signify potential anonymity. The launch applications would use the workspace-defined network. 
 
