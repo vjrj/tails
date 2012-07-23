@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-07-16T05:11:44Z"
+ content="""
+I suggest reading <http://wiki.debian.org/InitramfsDebug>, but frankly, debugging issues at that level will be hard for anyone who has to ask about how to mount a filesystem. Good luck, though!
+
+
+"""]]
