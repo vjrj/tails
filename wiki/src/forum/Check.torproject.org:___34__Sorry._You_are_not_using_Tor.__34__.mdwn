@@ -1,0 +1,13 @@
+I started Tails, connected to my wireless network, Vidalia automatically started, the onion turned green but on check.torproject.org I got this message:
+
+"Sorry. You are not using Tor.
+If you are attempting to use a Tor client, please refer to the Tor website and specifically the instructions for configuring your Tor client.
+Your IP address appears to be: 89.248.172.227"
+
+
+Checking my IP on different IP-locating sites shows that I'm well connected to Tor because they show the IP's of Tor exit nodes.
+
+Should ignore the message on check.torproject.org ? What can be the cause of this message?
+
+Thank you all for your suggestions!
+
