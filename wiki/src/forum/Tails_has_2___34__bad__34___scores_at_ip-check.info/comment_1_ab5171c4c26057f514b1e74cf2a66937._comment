@@ -1,0 +1,55 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-22T13:24:48Z"
+ content="""
+>\"Cache (E-Tags)\" \"Bad: Your browser is trackable by e-tags.\"
+
+- This should help:
+
+1. Right-click Torbutton (in Tor Browser/Firefox)
+2. Select Preferences
+3. Select Security Settings
+4. Select Cache
+5. Change to the second setting, \"Block disk and memory cache access during Tor\"
+6. Reload ip-check.info test and the E-Tags warning should be gone
+
+>\"Fonts\" \"Bad: 48 installed fonts have been found on your computer.\"
+
+- This may help (Part I)
+
+1. Select Edit in Tor Browser (Firefox)
+2. Select Preferences
+3. Select Content
+4. Select Advanced (under Fonts & colors)
+5. In the Fonts window, un-check the following: \"Allow pages to choose their own fonts, instead of my selections above\" which will force most sites to use your settings rather than your own.
+6. Set your Minimum font size to a size you enjoy
+
+- This may help (Part II)
+
+1. Use your package manager or command line equivalent to list then remove all font packages except for US English.
+2. Double check any desktop language/keyboard tools if they exist for font settings and only use US English as the selected setting.
+3. Reload ip-check.info test
+
+- Optional:
+
+I enjoy the following settings in Tor Browser's (Firefox) about:config:
+
+Disable referrer tracking: (a boost for privacy)
+
+1. about:config
+2. network.http.sendrefererheader (change to 0)
+3. network.http.sendsecorexsitereferrer (change to false)
+
+Disable network prefetching: (another privacy boost)
+
+1. about:config
+2. network.prefetch-next (change to false)
+
+Disable IPV6: (assuming it's not in use on your system)
+
+1. about:config
+2. network.dns.disableIPV6 (change to true)
+
+If you're curious about my recommendations, Google first! Most of the information on these settings exist on Mozilla's site.
+"""]]
