@@ -1,0 +1,20 @@
+Post error here cause of SMTP error on Whisperback
+
+Name of the affected software
+-----------------------------
+Tail 12.0
+Exact steps to reproduce the problem
+------------------------------------
+Double-click on mediafile(wmv,mp4,avi,xvid)opens movie player.
+Havent tested other software.
+Actual result / the problem
+---------------------------
+I get no sound.
+System->Preferences->Sound says
+SB Audigy 2 ZS [SB0350] (Alsa mixer)
+Desired result
+--------------
+Have sound
+
+
+
