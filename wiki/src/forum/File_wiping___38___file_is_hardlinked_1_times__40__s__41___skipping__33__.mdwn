@@ -1,0 +1,13 @@
+I have a lot of files I needed to wipe and each time I get an error window that says:
+
+    Wipe failed.
+    
+    [path/filename.ext] - file is hardlinked 1 times(s) skipping!
+    
+    \/ Details
+    Subprocess failed.
+    [path/filename.ext] - file is hardlinked 1 times(s) skipping!
+    
+    [Close]
+
+As a work around I found that renaming the file allows it to be wiped.  Does this work around have security risks and why does it happen?
