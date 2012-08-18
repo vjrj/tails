@@ -1,0 +1,7 @@
+Has tc-play been given any consideration as a potential replacement for truecrypt?
+
+It's a 2-clause-bsd licensed implimentation of truecrypt and there's an (experimental) linux port.
+
+Could be just what we're needing.
+
+https://github.com/bwalex/tc-play

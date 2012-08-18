@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-14T19:58:44Z"
+ content="""
+same problem over here. 
+error message:
+
+(process:250): GLib-WARNING **: getpwuid_r(): failed due to unknown user id (0)
+
+The same DVD works fine on another machine, but not on my internet-PC :-((
+
+No problems with Tails 0.11.
+How unsafe is it to stay with 0.11 and not updating?
+
+
+"""]]
