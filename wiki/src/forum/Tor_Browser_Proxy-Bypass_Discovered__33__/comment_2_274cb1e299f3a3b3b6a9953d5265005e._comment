@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-05-03T10:07:30Z"
+ content="""
+\"Firefox will query your local DNS resolver\" does not result in non-Torified DNS leaks in the context of Tails.
+
+"""]]
