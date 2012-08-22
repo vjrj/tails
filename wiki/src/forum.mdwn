@@ -17,12 +17,12 @@ new posts and comments with your favourite feed reader:</p>
 <form  action="/ikiwiki.cgi" method="get">
 <div class="blogform">
 Search before starting a new discussion thread:<br/>
-<input type="text" size="30" value="" name="P" />
+<input name="P" size="30" />
+<input type="submit" value="Search" />
 <select name="DEFAULTOP">
 <option selected="" value="or">Matching any words </option>
 <option value="and">Matching all words </option>
 </select>
-<input type="submit" value="Search" />
 <a href="/ikiwiki/searching/">Searching Help</a>
 </div>
 </form>
