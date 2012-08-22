@@ -14,7 +14,18 @@ new posts and comments with your favourite feed reader:</p>
 
 [[!inline pages="forum/* or comment(forum/*)" feedonly="yes" show="25"]]
 
-<h1>Start a new discussion thread</h1>
+<form  action="/ikiwiki.cgi" method="get">
+<div class="blogform">
+Search before starting a new discussion thread:<br/>
+<input type="text" size="30" value="" name="P" />
+<select name="DEFAULTOP">
+<option selected="" value="or">Matching any words </option>
+<option value="and">Matching all words </option>
+</select>
+<input type="submit" value="Search" />
+<a href="/ikiwiki/searching/">Searching Help</a>
+</div>
+</form>
 
 <form  action="/ikiwiki.cgi" method="get">
 <div class="blogform">
