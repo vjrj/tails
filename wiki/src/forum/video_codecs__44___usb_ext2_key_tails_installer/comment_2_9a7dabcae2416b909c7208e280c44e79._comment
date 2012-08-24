@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="chazam"
+ ip="127.0.0.1"
+ subject="still no answer about usb ext2 flash key ? for codecs, tails 0.12 solved this problem"
+ date="2012-07-04T10:41:03Z"
+ content="""
+hi
+may be not that interresting but :
+
+1/strangely no answers to the op questions
+2/0.12 shows a \"normal behaviour ie reads every thing afaik
+
+3/trying to get tails working on ext2 usb flashdrive still does'nt gives
+a result, is it because of fat32 lba type used in the isohybrid command ?
+it would be nice if a tails dev could clarify this point : ext2 keys offer
+one more security level : on wxp the key is appearing as \"unformated\"...
+
+"""]]
