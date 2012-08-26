@@ -1,0 +1,12 @@
+beamer
+*.aux
+*.hi
+*.log
+*.nav
+*.o
+*.odt
+*.out
+*.pdf
+*.snm
+*.toc
+*.vrb
