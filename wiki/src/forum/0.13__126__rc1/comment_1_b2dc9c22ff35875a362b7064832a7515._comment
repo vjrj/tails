@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-30T11:10:42Z"
+ content="""
+> Is chat through Pidgin always secure (encrypted through Tor) even with Yahoo! chat and AIM? I think it is but just checking.
+
+Pidgin is safe. Tails will not allow clearnet (i.e. *not* anonymized) traffic to leave the computer unless it's being clearly explained (e.g. the Unsafe Browser).
+
+> Should i2P be using my real IP address for this under i2P Network configuration
+
+Yes.
+
+> Does i2P broadcast [my IP address] at all? Problem or not?
+
+I2P will broadcast your IP address so that you can participate in I2P's peer-to-peer anonymization network, and that isn't a problem unless you want to hide the fact that you are using I2P. There is a \"hidden mode\" in I2P which prevents this (that also makes you into a leecher that doesn't give anything back to the network) but this is currently not made easy to enable in Tails. It should be noted that the \"hidden mode\" provides a pretty weak protection against detection, though.
+"""]]
