@@ -25,7 +25,7 @@ Feel free to [[trust or distrust|doc/about/trust]] Tails and its developers.
 > than the ones at top in the whitelist area of NoScript, in addition to
 > scripts enabled by default - what a mess!
 
-Javascript is enabled by default because that most Tails don't even know what Javascript is. But they do know how to recognize a broken website. And then go back to their Windows system full of malware. If you want to target another userbase, Tails is free software, so feel free to fork.
+Javascript is enabled by default because most Tails users don't even know what Javascript is. But they do know how to recognize a broken website. And then go back to their Windows system full of malware. If you want to target another userbase, Tails is free software, so feel free to fork.
 
 Regarding the NoScript whitelist, again please research before making unecessary assumptions. [[This is something that will be fixed in the next release|todo/empty_NoScript_whitelist]].
 """]]
