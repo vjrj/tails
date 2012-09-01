@@ -13,7 +13,7 @@ To answer your question about what `spice-vdagent` is, please read more about it
 > i'll add it to my Synaptic markings file to remove with each new session.
 
 This is the wrong way to do it. Tails is a *live* system. This means that if your goal is to remove what you do not understand, whatever you remove while the system is running will still accessible in the lower level of the union filesystem. If you want to properly remove packages from Tails, you need
-to learn how to [[contribute/build it.
+to learn how to [[contribute/build]] it.
 
 > This is leading me to believe this distro is a compromised honeypot for some
 > government agency.
