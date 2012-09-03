@@ -1,0 +1,12 @@
+This may not be the correct place to post this....
+I'm trying to verify the Tails iso using Kleopatra from the gpg4win download. Kleopatra opens but if I attempt a File/Decrypt Verify Files or attempt a File/New Certificate, Kleopatra terminates with the messsage "Kleopatra.exe has stopped working".
+
+I have attempted to raise this on the gpg4win forum by creating a new user at http://wald.intevation.org,but I get the "This Connection is Untrusted Screen".
+
+Windows Vista - Home Premium SP1
+4 GB Ram
+32 bit
+Intel Quad CPU
+55 gig freespace
+
+Any ideas?
