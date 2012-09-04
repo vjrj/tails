@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-21T06:38:52Z"
+ content="""
+What you describe has happened many times to me as well.
+
+Usually, the synchorinazation seems to finish within several minutes.
+
+I don't know why the browser opens before the sync is complete and before the Vidalia icon has turned green.
+
+Once the Vidalia icon has turned green, however, you shouldn't have a problem with reloading the check.torproject.org page or going to any other URL you wish.
+
+There were a few times, when the sync just hung indefinitely, and I had to exit Vidalia and then restart it from *Appplications -> Internet -> Vidalia*
+
+If all else fails, you may have to shutdown and restart TAILS, as I had to do once or twice. But thankfully, that should be quite rare.
+"""]]

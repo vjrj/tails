@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-20T11:38:20Z"
+ content="""
+You should read this [[ticket|todo/Torchat_installed_by_default]] on the topic.
+"""]]

@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="OP"
+ date="2012-08-08T16:30:45Z"
+ content="""
+well, of course. That is the easy solution is it not? But is not the point of what I was saying. However fast Moore's Law will increase the size of storage in USB pens the same will occur for hard disks only always many steps ahead size-wise.
+
+This would be a solution for non-sensitive data. Not your personal documents or anything that could be linked to you, but for BIG data that is impersonal and or deniable. Such as bitcoin blockchain or GNUnet, Tahoe-Lafs in which after all they are not your files but someone else thus deniability..
+
+This system does not defeat the point when the host OS would erase data. The point for this persistence is to not get in the way of normal functioning at the same time it gives an efficiency boost.
+
+For example not having to download the whole of the bitcoin blockchain each an every time (which I believe will have an exponential growth unless the developers do something about it), while at the same time not using up all the space you have for normal persistence on the usb better used for more important things.
+
+Regarding relying always on the same pc, why would you think that? with proper implementation you could have this persistence on multiple pc. Even public ones as it does not get in the way of their normal functioning..
+
+You would open up the Commensalistic Persistence software (perhaps a prettier name is necessary?.. Commensalistic is not pretty..) and you would see : data in drive C: - home computer / data in drive E: - External hard drive / data in drive C: - public computer 1 / data in drive C: - public computer 2 ... Depending on which computer you were in.
+
+Due to it's nature you could never rely on the data not being compromised, but there would be ways around it: Redundancy! we could just say to the software, make x copies of file y for example. You would then have less probability of data corruption. Tahoe-Lafs is indeed based on this principle. Redundancy of storage between multiple peers on the net.
+
+Cheers,
+
+hypothesys
+"""]]

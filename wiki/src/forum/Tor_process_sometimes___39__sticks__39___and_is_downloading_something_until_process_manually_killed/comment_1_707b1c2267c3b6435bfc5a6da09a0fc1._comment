@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-12T07:27:30Z"
+ content="""
+I performed more checks and after exiting Vidalia and the browser and stopping the network connection, the tor process remains open and I have to use sudo to kill the process. Is someone planning on responding to this?
+"""]]

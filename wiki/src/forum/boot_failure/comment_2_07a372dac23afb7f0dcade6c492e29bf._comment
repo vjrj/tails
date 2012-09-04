@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-01T14:12:50Z"
+ content="""
+Could you be more precise. When does this \"boot failure\" message appears. Does it appear before or after the Tails [[boot menu|/doc/first_steps/startup_options#boot_menu]]. If it appears after the boot menu, could you try to report a bug as described in the section [[Tails does not boot entirely|/doc/first_steps/bug_reporting#does_not_boot]].
+"""]]
