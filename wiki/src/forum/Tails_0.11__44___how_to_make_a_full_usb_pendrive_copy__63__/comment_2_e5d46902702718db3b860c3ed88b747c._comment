@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-04-30T14:46:38Z"
+ content="""
+That suggestion seems only to copy the \"tails\" part, but not the persistent partition. I would like to have both copied.
+
+My windows pc can't \"see\" the pendrive contents, otherwise I would simply have copied all the files on the pendrive from pendrive1 to pendrive2.
+
+===
+
+Go to top left: Applications-->System Tools-->Tails USB Installer
+
+Clone & Install
+
+"""]]

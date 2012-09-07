@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-08-21T17:46:58Z"
+ content="""
+Whisperback talks to a server (with encryption) running a hidden service controlled by tails devs (hopefully since it might contain identifying information which would not be good on the wrong hands) and I don't think the info itself is properly anonymyzed yet but there is talk of making it safe/safer.
+
+For a distributed solution as you are thinking you cannot have a central server, unless it is to check with the developers tails whether or not they have been hacked.
+
+Perhaps the i2p way of finding nodes would be more usefull, but I don't know how that works.
+"""]]

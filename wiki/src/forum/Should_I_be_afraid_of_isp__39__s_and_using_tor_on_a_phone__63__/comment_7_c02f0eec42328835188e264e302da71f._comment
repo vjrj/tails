@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="MAC Address"
+ date="2012-06-19T20:12:45Z"
+ content="""
+I hear a lot of worry about MAC address disclosure, but I think it is mostly unfounded.
+
+Your home router will see your MAC address.  Your router will then pass traffic to (normally) your modem.  Your modem will only see your routers MAC address (your PC's MAC will not pass a router).  The ISP will see your modem's MAC address (this is how some ISP's lock accounts).  When you go out on the internet, the only MAC that is visible is the previous router.  So really, your MAC address (as in your computers) never leaves your network.  
+
+One thing you may have to worry about is this.  If someone were to do network scanning (think the govt put a sniffer in every postal truck) they would see your wireless routers MAC, and if they could correlate that with a location they could see what MAC address is at what location.  Although not unthinkable, I don't think this is a big concern.
+
+If you are out at Starbucks or something, their wireless router will see your MAC address (from your computer) because that is the first router you connect to.  But you can also change your MAC quite easily (at least on your computer, and temporarily).
+"""]]

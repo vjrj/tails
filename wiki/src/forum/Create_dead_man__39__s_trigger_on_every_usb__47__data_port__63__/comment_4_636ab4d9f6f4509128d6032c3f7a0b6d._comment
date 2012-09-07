@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-07-30T18:51:26Z"
+ content="""
+The guys at breaknenter released a tool recently allowing people to use firewire to break password-locked computers and elevate privileges to root that works on windows, mac, and ubuntu.
+
+http://www.breaknenter.org/projects/inception/
+
+>Inception aims to provide a stable and easy way of performing intrusive and non-intrusive memory hacks on live computers using FireWire SBP-2 DMA. It is primarily intended to do its magic against computers that utilize full disk encryption such as BitLocker, FileVault, TrueCrypt or Pointsec. There are plenty of other (and better) ways to hack a machine that doesn’t pack encryption. Inception is also useful for incident response teams and digital forensics experts when faced with live machines.
+
+I think a shutdown upon firewire insertion option should definitely be included at login.
+"""]]

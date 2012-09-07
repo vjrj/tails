@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I don't think so"
+ date="2012-05-03T09:22:42Z"
+ content="""
+... but Tails devs should comment anyway. 
+
+Tails contains two proxy DNS servers (pdnsd, which queries *Tor's own* DNS resolver, and, if that fails, ttdnsd, which queries Google's DNS servers *via Tor*.  The aim of these proxies is to improve performance, however these also should(?) serve to catch DNS leaks from applications that shouldn't be leaking.
+
+DNS requests can use UDP or TCP datagrams. Tor doesn't support UDP so Tails drops all UDP packets that try to reach the internet bypassing Tor, including DNS queries via UDP.
+
+https://tails.boum.org/contribute/design/Tor_enforcement/DNS/
+"""]]

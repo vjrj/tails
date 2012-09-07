@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-06T20:15:39Z"
+ content="""
+[ph]
+
+You should never connect to Tor network on an open wifi connection. Anyone can sniff your traffic. Even worse, can inject into your connection and potentially hijack it.
+"""]]
