@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-07T02:22:21Z"
+ content="""
+>How do I pause the screen so that I can copy down the whole text of the error message?
+
+Not easy! ...virtualisation could do this but you'd probably loose the hardware incompatibility you're trying to identify! The usual method it to use a camera! You'll need to turn of the flash and probably have to set the exposure manually.
+"""]]
