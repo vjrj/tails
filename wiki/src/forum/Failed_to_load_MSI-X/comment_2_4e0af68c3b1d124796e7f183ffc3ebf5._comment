@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-07T06:29:07Z"
+ content="""
+[MSI-X is about how hardware will deliver interrupts to the various CPU cores](http://www.alexonlinux.com/msi-x-the-right-way-to-spread-interrupt-load). If MSI-X is not available, then Linux will switch back to the less effective MSI, AFAIU.
+
+This error message do not really impact how Tails will work.
+"""]]
