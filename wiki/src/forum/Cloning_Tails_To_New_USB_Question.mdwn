@@ -1,0 +1,3 @@
+I'm trying to clone my running Tails USB to another USB. So USB to USB clone. However, using the cloning utilityk, my persistence volume does not clone.  
+
+What's the best way of cloning and getting the persistence volume moved over and picked up by the new install?
