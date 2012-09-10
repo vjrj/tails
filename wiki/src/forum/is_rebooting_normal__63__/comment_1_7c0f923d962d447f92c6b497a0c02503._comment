@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-10T08:13:37Z"
+ content="""
+What you see is indeed a consequence of having not enough RAM. 512 MB is not enough to use Tails, sorry.
+"""]]
