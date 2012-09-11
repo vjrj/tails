@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-07-13T21:53:04Z"
+ content="""
+> you would thing developers would start giving it some serious attention
+
+Patronizing and acting as if our resources were infinite helps in no way. See [[todo/UEFI]].
+
+We get almost no usable bug reports / help / testing results from Apple hardware users, and we don't own such hardware, so no wonder this is badly supported. But you already know all that.
+
+> I couldn't boot from the USB flash drive--the computer would just fall back to booting from the hard drive. [...] I'm actually using a Samsung Series 9.
+
+This is a bug. Either in Tails USB Installer, or in the computer's BIOS / firmware.
+Please try that USB stick on another / a few other computer(s) and report back.
+
+"""]]
