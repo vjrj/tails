@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-13T09:48:14Z"
+ content="""
+That's what happens when you rely on client-side scripting for page functionality ([Zoho Discussions](http://discussions.zoho.com/) used by Liberté team) instead of server-side scripting ([ikiwiki](http://ikiwiki.info/) and hopefully soon to be [OSQA](http://www.osqa.net/) used by Tails team).
+"""]]
