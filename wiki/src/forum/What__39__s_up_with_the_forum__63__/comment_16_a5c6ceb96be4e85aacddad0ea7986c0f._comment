@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-09-13T12:12:36Z"
+ content="""
+>And that is what I did. I compared the by \"age\" sort to what's seen in recentchanges. Threads were not always bumped. It all looked very random.
+
+Using \"age\" sorts the threads by their *creation* date - so sort of works - the threads are always listed in descending chronological order of creation.
+
+Using \"mtime\" *should* be more or less synonymous with \"age\" (as explained above) and threads were/are not \"bumped\" by using \"mtime\" either. The problem is that Git or whatever seems to be regularly resetting the mtime attribute of large groups \"thread\" files - on a regular basis - resulting in the truly randomised mess we have now.
+
+So, despite the misguided* comment to the contrary accompanying the revision, it is actually *age* which works (sort of) and *mtime* which \"doesn't work\" (at all).
+
+Shame about the DoS angle then :|
+
+Sounds like we'll *just have to wait*™
+
+\* \"misguided\" unless the author was referring to the DoS aspect, rather than the sorting order, of course. I suppose *kills the bloody server* could be phrased \"doesn't work\". ;)
+"""]]
