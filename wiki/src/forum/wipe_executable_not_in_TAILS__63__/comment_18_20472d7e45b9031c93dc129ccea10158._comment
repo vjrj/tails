@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="To: comment 16"
+ date="2012-09-16T22:49:06Z"
+ content="""
+Thanks for your guidance but I still have some questions to ask you:
+
+>Not quite sure what you mean about examples. I was referring to selective deletion (i.e. specific file(s) or partitions rather than whole media)
+
+I'm sorry if I haven't been specific enough. I was referring to securely erasing the whole USB thumb/flash drive.
+
+>\"Best\" depends on the nature of the attack you anticipate, so without that information it's impossible to say.
+
+I would want to deter an adversary from recovering data from my USB thumb drive. I would prefer to increase the number of passes so that the chances of data recovery are reduced to zero.
+
+>sudo dd if=/dev/urandom of=/dev/sdχ
+
+>sudo dd if=/dev/zero of=/dev/sdχ
+
+Where do you execute the above commands? In Tails (root terminal) or Microsoft Windows (command prompt)? As stated in my earlier post, I'm quite new to computing stuff.
+"""]]
