@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="ehj666"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-09-16T02:12:24Z"
+ content="""
+Ok, figured out the environment variables. The files with the file names that are too long make git think there are changes. Entering:
+
+    export TAILS_BUILD_OPTIONS=\"ignorechanges\"
+
+Gets past that and rake now runs up to the point of launching the vm. At that point it gives the error that it cannot connect to the vm. I turned on trace, but that does not give any more information about the cause of the error.
+
+In opening the vm in the virtual box gui and checking settings it shows operating system and version as debian 64 bit, although I am on a 32 bit machine. In setting it to 32 bit and trying to run from the gui, I get:
+
+    VT-x features locked or unavailable in MSR.
+
+Any ideas?
+
+Thanks
+
+"""]]
