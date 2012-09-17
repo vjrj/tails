@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-07T06:09:06Z"
+ content="""
+> I'm delighted to read that Tails 0.13 is to include Tor 0.2.3.x and that the Tor team now consider the 0.2.3 branch to be stable enough for our consumption.
+
+Where have you read this?
+
+Tails 0.13 will also stay with Tor 0.2.2. It is the next major release that is most likely to [[include Tor 0.2.3|todo/Tor_0.2.3]] and use its [[stream isolation features|todo/separate_Tor_streams]].
+
+> Does this mean that Tails 0.13 will now include Obfsproxy? Obviously Obfsproxy would be tremendous addition, [...]
+
+Sure, we want to [[include obfsproxy|todo/obfsproxy]]. But someone needs to do the work… [[Will you do it?|contribute]]
+"""]]
