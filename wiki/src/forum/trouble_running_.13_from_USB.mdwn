@@ -1,6 +1,5 @@
 In Gparted, my USB drive has two partitions:
-fat32 TAILS (boot flag)
-crypt-luks
+fat32 TAILS (boot flag) & crypt-luks
 
 .13 was cloned over into the boot partition.
 
