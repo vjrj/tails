@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-20T07:18:24Z"
+ content="""
+Any specific reason why noscript should have been updated?
+
+Tails is based on Debian stable, so it's entirely expected that it does not ship the latest version of every piece of included software. Wrt. noscript, Tails currently ships the version available from Debian unstable, in order to be compatible with iceweasel 10.x. So, technically, the answer is: because the package in Debian unstable is lagging behind upstream, which is not surprising given Debian testing is currently frozen, and the release team explicitly asked to upload to unstable only packages aimed at testing, in the general case.
+
+"""]]
