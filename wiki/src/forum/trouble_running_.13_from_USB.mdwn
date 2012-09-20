@@ -1,0 +1,7 @@
+In Gparted, my USB drive has two partitions:
+fat32 TAILS (boot flag)
+crypt-luks
+
+.13 was cloned over into the boot partition.
+
+For some reason I get a "missing operating system" message when trying to boot from USB on my PC-- which XP then boots.
