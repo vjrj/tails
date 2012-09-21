@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Video DownloadHelper"
+ date="2012-09-21T01:51:23Z"
+ content="""
+Video DownloadHelper is a Firefox addon that lets you download flash videos from many sites. One option on YouTube is the \"mobile\" format which doesn't use much bandwidth. Some exit nodes are blocked (close browser, click \"new identity\"), not sure if it is the node doing the blocking or YouTube/Google. It works with TorBrowser, haven't tried with Tails. Not sure if Tails has codecs to play 3gp video (the mobile format). You can play the video while it is downloading. Make use of ALT + TAB to switch windows to the file manager, change from \"icon view\" to \"list view\" and click \"modification date\" so the most recent videos are sorted to the top.
+"""]]
