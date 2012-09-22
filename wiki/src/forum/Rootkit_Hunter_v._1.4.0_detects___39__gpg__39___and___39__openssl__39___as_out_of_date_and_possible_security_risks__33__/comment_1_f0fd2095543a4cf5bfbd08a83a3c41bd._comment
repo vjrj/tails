@@ -8,7 +8,7 @@ A major issues of software like rkhunter is that, in general, they only look at 
 
 You'll be better served to learn about the current status, security-wise, of these pieces of software in Debian, by looking at the Debian security tracker:
 
-* http://security-tracker.debian.org/tracker/source-package/openssl
-* http://security-tracker.debian.org/tracker/source-package/gnupg
+* <http://security-tracker.debian.org/tracker/source-package/openssl>
+* <http://security-tracker.debian.org/tracker/source-package/gnupg>
 
 """]]
