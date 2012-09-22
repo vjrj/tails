@@ -4,7 +4,7 @@ I think a good solution to stay real anonymous and still be able to reach and us
 
 My main question is which proxy script I have to choose if I want to avoid problems with connections through SSL (https//:). For example when registrating an account with Gmail, Yahoo or with other registration and order forms that use SSL. Is the cause of this problem Javascript?
 
-There are a few webproxies that work will with TOR and SSL. One of the best and always working with TOR and SSL is Kproxy.com. 
+There are a few webproxies that work will with TOR and SSL. One of the best and always working with TOR and SSL is Kproxy.com
 
 Who knows which script Kproxy.com is using? And which other similar easy-to-install-script works also well with TOR and SSL? Is installation of such scripts a lot of work and does it require much knowledge of programming?
 
