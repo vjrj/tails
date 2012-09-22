@@ -10,6 +10,6 @@ SRC=myIP DST=aTorNode DPT=443
 
 they're being dropped so I shouldn't care, but I also noticed large changes to the iptables configuration with 0.13 when I:
 
-$iptables -vnL
+$iptables -vnL.
 
 why the big change in iptables configuration and why are these entries appearing in my logs?
