@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-09-01T04:18:14Z"
+ content="""
+>thank you for the information - i'll add it to my Synaptic markings file to remove with each new session. Yes, stripping a distro down or starting with a minimal install does increase security, anyone telling you different is a moron, this is basic opsec. it's all over the net - the more packages you have the more possible security/privacy issues you could have. KISS. 
+
+How naive... and certainly not correct for someone who doesn't even know what it is they’re removing.. as you demonstrated to be the case by your original question! Does your bizarre strip-it-out-to-improve-security-even-it-you-don't-know-what-it-is-KISS mantra apply to intrusion prevention/detection code to? Firewalls, apparmor, SE Linux, etc.? Profiles, certificates and keys? Unless you know *exactly* what it is your doing and why you're doing it, you should leave well alone! At *best* you're wasting your time.
+
+Anyway, if you're serious about security you should be using a pencil on a single sheet of paper. Rested on a freshly buffed sheet of glass of course. KISS
+"""]]
