@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I'm the author of comment 1"
+ date="2012-09-19T15:50:22Z"
+ content="""
+About the persistence question, I quote from the design document:
+
+>To keep the GUI and documentation simple, we only support setting up a persistent volume *on the USB stick Tails is running from*. **Note**: the underlying tools (live-boot backend, tails-greeter) will support storage on whatever relevant device, though; moreover, tails-persistence-setup actually knows how to set up persistence on arbitrary devices, thanks to command-line options. Therefore, brave and advanced users can prepare their store their persistent data wherever they want, but this is not something we will actively support and document beyond the bare minimum (--help and manpage).
+
+In fact, I managed to create a persistent volume on a dedicated USB stick (not the HDD). It is automatically recognized by Tails greeter, creating and configuring it requires a little tweaking.
+
+I suggest you to get the ISO-on-HDD thing working first, then focus on persistence.
+
+
+"""]]

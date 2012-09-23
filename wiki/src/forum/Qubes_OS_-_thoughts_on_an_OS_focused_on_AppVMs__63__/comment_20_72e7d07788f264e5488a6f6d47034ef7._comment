@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="@ comment 17"
+ date="2012-09-17T22:40:59Z"
+ content="""
+>I thought it would be nice to see a sandboxed workspace in Tails so anonymity networks and browsers could be sandboxed away from /home and the OS in general. I'm sure a port or something rudimentary could be made for Debian eventually.
+
+Did you know that feature requests are NOT to be posted on this forum? In case you missed it, here's the advisory:
+
+>The forum is open for discussions that do not belong to bugs, feature requests and the like.
+
+See: https://tails.boum.org/support/index.en.html (under \"Forum\")
+"""]]
