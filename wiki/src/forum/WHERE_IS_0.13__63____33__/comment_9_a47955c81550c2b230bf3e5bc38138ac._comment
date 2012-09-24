@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-09-18T13:29:17Z"
+ content="""
+> I totally agree with comment 6.
+
+I don't. Tails development is amateurish, and consists mostly of tweaking Debian settings and installed software base. I didn't yet see any evidence that any of the (by now, quite a few) Tails developers possess actual expertise in anonymity / cryptography or software development. There was a [thread](https://tails.boum.org/forum/Who_is_behind_Tails__63__/) about this topic, and the developers refused to disclose any details.
+
+Tails people pretend hard that the development process is an open one, by maintaining many discussion venues, yet the complete opposite is true. They even try to hide their funding sources in the [latest report](https://lists.torproject.org/pipermail/tor-reports/2012-September/000042.html) (that they have to submit to the Tor project, because it is one of the funding sources). In case it is not clear from the report, sponsor *Bravo* is the Tor project, and sponsor *Charlie* is [EIDHR](http://www.eidhr.eu/whatis-eidhr) (see [previous report](https://lists.torproject.org/pipermail/tor-reports/2012-August/000021.html)). In case you can't read between the lines, *“support for the promotion of democracy and human rights in non-EU countries”* essentially means support for EU-favorable government coups in countries whose present interests do not align with those of EU and NATO, not to say [CIA](http://cryptome.org/0003/cia-ncfe-tor/cia-ncfe-tor.htm).
+
+What I gather from the above is that Tails is developed mostly by 20 y.o. young men with no real education or knowledge, who like to engage in a sort of “covert development”, yet have no principles. Call me skeptical, but I doubt that the generous funding often [received by the Tor project](http://www.knightfoundation.org/blogs/knightblog/2012/6/18/winners-knight-news-challenge-networks/), a significant chunk of which goes to Tails (can't find the reference, but I think last time it was in excess of $10K), which consists of money that people donate for causes they consider noble, will be wisely spent by a few enthusiasts who associated with Tor and Debian projects by shmoozing on IRC.
+
+> There is this Russian woman called Joanna Rutkowska who promoted her Qubes OS here (in defiance of forum rules). I am sure she would welcome you into her fold.
+
+She is Polish. Poland and Russia are different countries.
+
+By the way, this is my first post ITT — inb4 “FUD”, “troll”, and other euphemisms for “people who disagree with my simplistic opinions”.
+"""]]

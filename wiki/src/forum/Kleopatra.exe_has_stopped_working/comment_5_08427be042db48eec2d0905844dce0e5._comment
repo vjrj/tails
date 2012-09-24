@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-09-01T06:21:01Z"
+ content="""
+Maybe I should start another Kleopatra thread but there is trouble verifying the file.
+
+I imported the tails-signing.key ok.
+
+Then I try to verify .13rc1 by using the tails-i386-0.13~rc1.iso.pgp as the input file and tails-i386-0.13~rc1.iso as the signed data file. Is this wrong? I've tried every other combination and yes I've Googled and checked  the documentation.
+
+But I get the tails-i386-0.13~rc1.iso.pgp: Not enough information to check signature validity  error
+
+Signed on DATE by tails@boum.org (Key: ########)
+
+The validity of the signature cannot be verified.
+
+What am I doing wrong?
+"""]]
