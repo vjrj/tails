@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-22T10:36:22Z"
+ content="""
+> I take it that \"BTS\" is \"Bug Tracking System\"?
+
+Yes.
+
+> How safe would that be?
+
+Well, you ask for a fresher noscript extension for safety reasons, so I'm a bit lost here, and I'm not sure what to reply. :-)
+
+Again, if you don't want to take this path, you can still help the noscript Debian maintainer by reporting bugs and help in maintaining the package.
+
+> I wonder how the TAILS devs would respond to this argument/concern, especially vis a vis its (rather obvious) implications for TAILS.
+
+I won't speak here for every Tails devs, but what I can say is that in general, security isn't an absolute thing, and is rather a matter of trade-off.
+
+For example, it can't be disconnected from the stability issue. Stability is a component of security. Having a fresher software with security fixes doesn't mean it doesn't contain security issues at all. They will often only be found after using the new software release for a certain time. So it's not possible to simply oppose both concepts.
+"""]]

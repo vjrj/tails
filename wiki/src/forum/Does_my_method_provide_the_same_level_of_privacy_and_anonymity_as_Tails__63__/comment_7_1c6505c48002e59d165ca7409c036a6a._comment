@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-09-05T00:40:17Z"
+ content="""
+>No doubt Windows server admins have access to something iptables-ish. Can't help you with what it might be called though. Haven't got the foggiest ;-)
+
+Probably something snazzy like:
+\"MSBS IIS advanced server administrator's advanced network administration snapon\"
+"""]]

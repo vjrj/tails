@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="If there is no MITM attack, then?"
+ date="2012-09-11T09:27:47Z"
+ content="""
+Lets assume that there is no man-in-the-middle attack because I don't think that anyone is so interested in our innocent traffic going to Facebook (which is my fake account). Now tell me can I be traced back to my home?
+
+If MITM is possible in the last node, then how can he know our IP address/location? He can at the most know the location of second node, isn't it?
+
+I request all the learned members of the forum to give their inputs on the Tracing of TOR users because this thread, by virtue of its title, will be read by each and every user in the forum, and thus you will enhance the knowledge of users so that they inadvertently don't do something wrong.
+
+Suppose in a fit of rage someone does something wrong, also discuss the ways to escpae.
+
+ONE VERY IMPORTANT QUESTION:
+Does our traffic passes through the computers of the node holders (people acting as nodes 1 to 3), or does it pass directly through the ISP like common socks proxies. The help documentation of Tails are mostly vauge because the language doesn't enable anyone to form firm opinion.
+
+*****************
+Actually the problem is that in the western and european countries, the citizens enjoy complete freedom of speech and their society is very much broadminded., Thus making caricatures and circulating the same to users can be avoided by them as mere fun. But in the Asian countries, making a cartoon of someone or protesting against the Govt. \"wtihout having any concrete documentary evidence\" amounts to libel and defamation in addition to many charges under cyber crime. We do not enjoy freedom of speech, and as you know it, when someone blows whistle, he is not supposed to have evidence of that nature to prove himself right. That's why we use TAILS. After exposing some influential person, we all start getting afraid and we start praying the Almightly to save us because we feel that the person concerned may lodge complaint with police on the ground that someone has imputed wrong charges against him and the police will all set to nab the sender. Our police is not that smart and broadminded as you western/european guys have. Here we enjoy freedom only in letters (acts) but not in spirit. Of course, what we do is perfectly permissible in US/UK and other developed countries, but in our Asian countries we are harassed for years (decades).
+
+So we need the advices from learned members. What we advise us, we forward the same in text file to all the members. As the the suggestions of a member of this forum, we have designated one member as the \"Chief Facebook Communicator\" and he is the only one who interacts with the outside world through facebook (without giving any personal information or adding his known friends). His freedom also matters to us because in case he is prosecuted, we too will have to face the music because police extorts confessions by third degree tortures.
+
+"""]]
