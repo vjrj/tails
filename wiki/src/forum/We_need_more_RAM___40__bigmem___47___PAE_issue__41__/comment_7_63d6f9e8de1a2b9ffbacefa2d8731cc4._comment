@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="To the angry young man behind comments 4 & 6"
+ date="2012-09-03T10:25:58Z"
+ content="""
+Not being a Tails developer I can only speculate into possible reasoning: 
+
+If you look into the subject, I think you might find that AMD64 instruction set processors offer a superset of the functions of IA32PAE chips. Extrapolating from the past 60 years or so worth of computer development, it seems plausible that, back in the present, the amount of code being written and compiled to use some of these AMD64 features may, just possibly, be on the rise, therefore, at some point, it could possibly be considered prudent for Tails to accommodate a user with appropriate hardware who may, outlandishly I admit, wish to run some software which makes use of these features. Now how quickly and to what extent this facility might be utilised remains to be seen but I imagine it may be somewhat impeded, if those with appropriate hardware, sufficient desire and inclination, do not have access to a kernel capable of supporting said instructions. By including a modern kernel, for contemporary hardware, a solid foundation could be formed within tails upon which development and evolution of the wider software ecosystem might gently proceed. If or when, at whatever time in the future, it is found prudent to make a more concerted move, everything necessary will already be in place, stable, an well tested. Wacky idea eh?
+
+Just a thought of course. I'm no mind reader. If you're interested in the developers current plans you might like to look at [them](https://tails.boum.org/todo/nx_bit/)
+
+PS. You began comment four \"*I will ask again*\"... Where did you ask the first time?
+"""]]

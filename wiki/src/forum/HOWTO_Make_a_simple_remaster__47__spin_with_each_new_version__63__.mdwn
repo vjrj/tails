@@ -1,0 +1,13 @@
+I see myself making a simple remaster, or spin, with each new version of Tails.
+
+Here is what I would like to do:
+
+1. Remove the current DE and use a simple window manager
+
+2. Add+/-Remove certain packages
+
+3. Add an IRC client and torrify it.
+
+4. Totally remove all GVFS and extra kernel modules which a typical user would never use
+
+and some other things, I saw the build page is this what I must do or is there an easier way to do it? I would like to stay current with Tails releases and not be in competition with, but compliment Tails. Thank you.

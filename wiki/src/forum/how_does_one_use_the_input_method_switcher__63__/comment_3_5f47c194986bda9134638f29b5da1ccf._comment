@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="How about enabling multi-lingual input method at launch of Tails OS?"
+ date="2012-09-03T23:57:13Z"
+ content="""
+Wouldn't it be better if developers enable multi-lingual input method by default when Tails boots up?
+
+What I mean is, after Tails has booted up, we would see in a corner of the screen a language bar. When we click it, a menu containing different language options presents itself. We could then choose to type in Chinese, Korean, Persian, Arabic, Urdu, etc...
+
+We do well to remember that oppressive regimes are mostly found in countries such as China, Iran, North Korea, Pakistan, Yemen, Bahrain, etc..People in English-speaking countries like the USA, UK, Canada, Australia and New Zealand don't need Tails, do they? In addition, Germany, France, Italy, Spain, Norway and other countries in Western Europe have a high degree of freedom of expression.
+
+
+
+"""]]
