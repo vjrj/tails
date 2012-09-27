@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-27T14:19:50Z"
+ content="""
+In general, this symptom indicates that at least one of the two parameters Network Manager asks for (Wi-Fi network security type and passphrase) is incorrect. Can you try giving it another kind of Wi-Fi security?
+"""]]
