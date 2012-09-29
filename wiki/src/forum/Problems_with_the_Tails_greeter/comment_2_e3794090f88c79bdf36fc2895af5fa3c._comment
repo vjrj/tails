@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-31T18:41:56Z"
+ content="""
+Are you booting Tails from a DVD? If so, could you try this DVD on another computer? Could you try to use an USB stick instead?
+
+This kind of erratic behaviour looks like unreadable files on Tails medium.
+"""]]

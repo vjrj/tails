@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-09-09T21:23:52Z"
+ content="""
+Try burning the .iso again. In windows it will erase everything, burn it, and there is an option to verify the burn built into the burn process. I always check that option to make sure the burn process went well.
+
+P.S. You don't burn the pgp sig file or the key to the DVD, just the iso.
+"""]]

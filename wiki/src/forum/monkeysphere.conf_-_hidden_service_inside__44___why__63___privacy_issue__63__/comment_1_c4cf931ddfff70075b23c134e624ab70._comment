@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-30T10:55:21Z"
+ content="""
+The OpenPGP keyserver in question is `hkp://2eghzlv2wwcq7u7y.onion`, which is also used for GnuPG (see `~/.gnupg/gpg.conf`). This hidden service is the same as `hkp://keys.indymedia.org`, so there's nothing fishy going on here.
+"""]]

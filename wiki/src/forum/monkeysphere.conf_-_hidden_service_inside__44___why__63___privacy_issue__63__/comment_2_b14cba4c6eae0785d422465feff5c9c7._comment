@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-30T19:44:37Z"
+ content="""
+but isn't this a consolidation of ssl info somewhat comparable to http everywhere's observatory if enabled (but it's disabled by default and it's opt-in) which would allow a hidden service admin to gather a lot of information on Tor users as, unless i'm mistaken, monkeysphere uses this one hidden service in its operation?
+"""]]

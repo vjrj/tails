@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-13T10:12:27Z"
+ content="""
+sure it's possible. 
+sudo apt-get install xchat
+
+without a persistent volume, you'd need to find and backup your profile / config files and put them into place on every boot.. or manually enter them each time.
+
+I'd really encourage you to use Pidgin. It ships with Tails, works well with IRC, and you could save your settings with a Persistent volume.
+"""]]

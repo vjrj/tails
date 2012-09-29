@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-03T13:58:29Z"
+ content="""
+> Tails LiveCD/USB distribution operates with a program called 'monkeysphere'. On the face of it it appears harmless and good for a security distro, until you discover there is one Tor hidden service it connects with, every time you use SSH and SSL. If you disable SSH, there's still SSL in the browser (monkeysphere has 2 components, one of them is a browser extension!), so you are hitting that single hidden service each time you visit a SSL enabled site!
+
+This is incorrect. The Monkeysphere keyserver policy in Tails is set to `unlessvalid`, which means that the keyserver is only queried if the \"normal\" validation (e.g. standard X.509 certificate validation via CAs for web browsing, `known_hosts` file for `ssh`) fails. Furthermore, `ssh` requires [additional steps](http://web.monkeysphere.info/doc/service-authentication-ssh) to use Monkeysphere in Tails.
+
+To be perfectly clear: In Tails, Monkeysphere only queries a keyserver if an HTTPS-enabled website *fails* X.509 certificate validation in Iceweasel. On success (which should happen in the vast majority of cases) Monkeysphere does nothing.
+
+That said, while the actual situation in Tails is far less controversial than what you described, this may still be something we want to reconsider. This issue is now tracked in the ticket \"[[todo/monkeysphere_keyserver_policy]]\". Thanks for continued vigilance!
+"""]]
