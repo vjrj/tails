@@ -15,4 +15,6 @@ Regarding signatures: the main issue with Secure Boot and its Windows 8 deployme
 The list is in order of how hard it will be to explain the process to someone who just want to use the system.
 
 Except that it will make every users life harder, really getting Secure Boot meaningful in terms of security does not look like an easy problem to solve. Looking up at Matthew Garret's writing on the topic and the recent kernel patch submissions, properly tackling modules loading or kexec does not look anything like fun...
+
+In any cases, it's great to see Liberté and Fedora paving the way!
 """]]
