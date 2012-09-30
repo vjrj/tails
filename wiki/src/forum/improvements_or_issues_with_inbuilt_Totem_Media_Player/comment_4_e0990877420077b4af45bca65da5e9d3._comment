@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-30T22:51:10Z"
+ content="""
+Totem sucks. The addition of Clementine for audio playback and VLC and mplayer + GUI is what I suggest.
+
+If you balk at the size of Clem, VLC, and mplayer, and wonder why VLC *and* mplayer should be installed there are numerous answers.
+
+Your distro already exceeds the limits of a CD-R and requires installation on a DVD-R or suitable flash media so clearly you're not trying to keep the size down or you would've, in the name of privacy/security cut many of the 'extra' programs installed.
+"""]]
