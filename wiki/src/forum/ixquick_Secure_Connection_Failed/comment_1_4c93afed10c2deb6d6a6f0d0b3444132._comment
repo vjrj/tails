@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-10T20:05:33Z"
+ content="""
+I found some more info on this from http://serverfault.com/questions/6653/ssl-error-ssl-error-bad-mac-read
+
+     From Mozilla:
+
+    \"SSL received a record with an incorrect Message Authentication Code.\"
+
+    This usually indicates that the client and server have failed to come to agreement on the set of keys used to encrypt the application data and to check message integrity. If this occurs frequently on a server, an active attack (such as the \"million question\" attack) may be underway against the server.
+
+     Another suggestion is to make sure the clock and timezone on the client and the server are correct. Maybe try synching to a time server.
+
+So does that narrow it down to a possible server attack or clock sync problem? I'm not overly concerned about it but it happens enough to want to understand it.
+
+"""]]

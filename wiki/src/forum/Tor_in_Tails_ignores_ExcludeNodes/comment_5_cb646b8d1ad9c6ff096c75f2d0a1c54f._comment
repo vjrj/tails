@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-09-12T19:42:54Z"
+ content="""
+>Are you sure? These options work for me in Tails 0.12.1. How did you set these options?
+
+Button \"Edit current torrc\" in vidalia Setup GUI. 
+by default, theres syntax mistake in torrc:
+>    SocksPort 9050 # what port to open for local application connections    
+>    SocksListenAddress 127.0.0.1 # accept connections only from localhost
+
+so first, you have to remove or newline those comments otherwise it refuses to accept any other changes
+
+then I added my ExcludeNodes <...>and StrictNodes 1 and clicked OK.
+Oh and UNCHECKED Save settings,cause that doesnt work.
+
+Now I use **\"Apply selection only\" and it finally works well**.
+>Not true. Even when using the slowest, most congested Tor nodes you are susceptible to end-to-end correlation attacks.
+
+well youre in a way right, but the analysis of high latency comm requires other conditions to b successfull, not space to talk abt it here
+
+u have great feedback, thx
+"""]]
