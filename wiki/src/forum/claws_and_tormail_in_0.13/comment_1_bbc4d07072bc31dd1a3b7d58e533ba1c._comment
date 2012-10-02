@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-02T10:27:31Z"
+ content="""
+Make sure to disable SSL/TLS for IMAP and SMTP when configuring the account (they are enabled by default). I believe TorMail only allow plaintext since Tor hidden services has end-to-end encryption and authentication, so SSL/TLS is irrelevant in this specific case.
+"""]]
