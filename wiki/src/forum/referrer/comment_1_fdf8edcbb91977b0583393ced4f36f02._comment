@@ -15,5 +15,5 @@ Quoting [Torbutton Design Document](https://www.torproject.org/torbutton/en/desi
 > may not be enough. For example, google.fr will not send a referer to google.com
 > using this logic. Hence, it is off by default.
 
-Tails has kept that default or the best web browsing experience.
+Tails has kept that default for the best web browsing experience.
 """]]
