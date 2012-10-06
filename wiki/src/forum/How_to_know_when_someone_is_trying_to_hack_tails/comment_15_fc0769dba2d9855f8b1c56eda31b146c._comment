@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-10-05T09:49:44Z"
+ content="""
+Like for others GNU/Linux distro, there is no special magics tricks in Tails against exploitation. There are some protections, and more to come in future releases (like [[hardening|todo/Mandatory_Access_Control/]])
+
+Tails can't protect the user against herself appart from its amnesia. So at the first place it also rely on the ability of the user to make good choices. Like not browsing on suspicious website, not giving credentials when not really needed, not activating the persistent volume when it is not required...
+
+Installation of extra softwares from the persistent volume is done using the Debian tools like apt, which means they are authenticated against the Debian gnupg keyring. At least this makes it harder for malicious hacker to fool the user into installing a malicious software.
+
+If you want to be careful aginst exploitation, be careful of your internet and system use, and have a close look at your system (logs, network connections,...) as explained on the link posted here in comment 5 (https://wiki.ubuntu.com/BasicSecurity/DidIJustGetOwned)
+"""]]
