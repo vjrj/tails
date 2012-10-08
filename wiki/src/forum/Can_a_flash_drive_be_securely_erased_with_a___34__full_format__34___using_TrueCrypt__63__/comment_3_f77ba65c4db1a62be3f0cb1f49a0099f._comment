@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-01T08:37:02Z"
+ content="""
+Your work is still accessible through the Git history: <http://git.immerda.ch/?p=amnesia.git;a=blob;f=wiki/src/doc/encryption_and_privacy/secure_deletion/discussion.mdwn;h=2b1d3a6ac0258ea0a9ba5f6f46a763e968b66e34;hb=b745cb6282b94ba1321307c16a196722f9a09c12>.
+
+Tails developers do not want to endorse TrueCrypt. See the [[first section of the related documentation|doc/encryption_and_privacy/truecrypt]].
+
+Please note that future version of the Disk Utility will have a graphical interface to overwrite disk content: <https://bugzilla.gnome.org/show_bug.cgi?id=651760>. It might take some time to have this shipped in Tails, but that is really the best place to add such feature.
+"""]]
