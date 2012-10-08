@@ -1,0 +1,77 @@
+#!/bin/sh
+
+[ "$1" = prereqs ] && exit 0
+
+[ -n "$sdmem" ] || exit 0
+
+MIN_FREE_KBYTES=256
+HUGE_PAGE_SIZE_KBYTES=$(awk '/^Hugepagesize:/ { print $2 }' /proc/meminfo)
+
+free_mem() {
+	awk '/^MemFree:/ { print $2 }' /proc/meminfo
+}
+
+cached_mem() {
+	awk '/^Cached:/ { print $2 }' /proc/meminfo
+}
+
+tweak_sysctl() {
+	local lowmem
+
+	echo 3   > /proc/sys/kernel/printk
+
+	echo 3   > /proc/sys/vm/drop_caches
+
+	echo "$MIN_FREE_KBYTES"  > /proc/sys/vm/min_free_kbytes
+	lowmem=$(sed -e 's/[0-9]\+/64535/g' /proc/sys/vm/lowmem_reserve_ratio)
+	echo "$lowmem" > /proc/sys/vm/lowmem_reserve_ratio
+
+	echo 2   > /proc/sys/vm/overcommit_memory
+	echo 100 > /proc/sys/vm/overcommit_ratio
+
+	echo 1   > /proc/sys/vm/oom_kill_allocating_task
+	echo 0   > /proc/sys/vm/oom_dump_tasks
+}
+
+
+claim_huge_pages() {
+	local count
+
+	count=$(($(free_mem) / $HUGE_PAGE_SIZE_KBYTES))
+	while [ $count -gt 0 ]; do
+		echo $count > /proc/sys/vm/nr_hugepages
+		if [ "$(awk '/^HugePages_Total:/ { print $2 }' /proc/meminfo)" -eq $count ]; then
+			break
+		fi
+		count=$(($count - 16))
+	done
+	echo $count
+}
+
+tweak_sysctl
+
+mkdir /hugepages
+mount -t hugetlbfs hugetlbfs /hugepages
+
+nr_huge_pages=$(claim_huge_pages)
+
+/usr/local/sbin/hugetlb_mem_wipe 0 \
+	$(($nr_huge_pages * $HUGE_PAGE_SIZE_KBYTES + \
+	 $(free_mem) - $(cached_mem)))
+# No need to wipe what has already been cached, data is already gone.
+
+if [ -n "$sdmemdebug" ]; then
+	echo "Going to sleep 10 minutes. Happy dumping!"
+	sleep 600
+fi
+
+case "$sdmem" in
+    halt)
+	/sbin/halt -fndp
+	;;
+    reboot)
+	/sbin/reboot -fnd
+	;;
+    *)
+	;;
+esac
