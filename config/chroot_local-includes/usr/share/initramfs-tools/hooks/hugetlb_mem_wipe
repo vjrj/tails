@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+[ "$1" = prereqs ] && exit 0
+
+. /usr/share/initramfs-tools/hook-functions
+
+copy_exec /sbin/halt
+copy_exec /sbin/reboot
+copy_exec /usr/local/sbin/hugetlb_mem_wipe

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+echo 'compiling and installing a custom hugetlb_mem_wipe program'
+
+apt-get install --yes build-essential
+
+SRC="/usr/src/hugetlb_mem_wipe.c"
+DST="/usr/local/sbin/hugetlb_mem_wipe"
+
+gcc -Wall -Werror -o "$DST" "$SRC"
+strip --strip-all "$DST"
