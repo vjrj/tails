@@ -48,6 +48,14 @@ claim_huge_pages() {
 	echo $count
 }
 
+normal_page_size_kb() {
+	echo $(($(getconf PAGE_SIZE) / 1024))
+}
+
+huge_page_size_kb() {
+	awk '/^Hugepagesize:/ { print $2 }' /proc/meminfo
+}
+
 tweak_sysctl
 
 mkdir /hugepages
@@ -55,7 +63,9 @@ mount -t hugetlbfs hugetlbfs /hugepages
 
 nr_huge_pages=$(claim_huge_pages)
 
-/usr/local/sbin/hugetlb_mem_wipe 0 \
+/usr/local/sbin/hugetlb_mem_wipe \
+	$(normal_page_size_kb) $(huge_page_size_kb) \
+	0 \
 	$(($nr_huge_pages * $HUGE_PAGE_SIZE_KBYTES + \
 	 $(free_mem) - $(cached_mem)))
 # No need to wipe what has already been cached, data is already gone.

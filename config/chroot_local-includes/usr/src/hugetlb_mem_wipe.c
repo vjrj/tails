@@ -44,9 +44,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-#define PAGE_SIZE 0x1000 /* 4 kB on x86 */
-#define HUGE_PAGE_SIZE 0x200000 /* 2 MB on x86 PAE */
-#define PROGRESS_FREQUENCY 1024 /* 1 MB (should be below HUGE_PAGE_SIZE) */
+#define PROGRESS_FREQUENCY 1024 /* 1 MB (should be below huge_page_size) */
 #define ZERO_PATTERN 0
 
 #define LINE_SIZE 74
@@ -54,10 +52,14 @@
 
 void __attribute__((noreturn)) usage_and_exit(void)
 {
-    fprintf(stderr, "Usage: hugetlb_mem_wipe WIPE_MEM_KB TOTAL_MEM_KB\n");
+    fprintf(stderr, "Usage: hugetlb_mem_wipe NORMAL_PAGE_SIZE_KB HUGE_PAGE_SIZE_KB WIPE_MEM_KB TOTAL_MEM_KB\n");
     exit(1);
 }
 
+/* taken from command line */
+static unsigned long normal_page_size = 0;
+/* taken from command line */
+static unsigned long huge_page_size = 0;
 /* taken from command line */
 static unsigned long total_mem_kb = 0;
 /* taken from command line, incremented in zero_area() */
@@ -114,7 +116,7 @@ static void zero_area(void * s, size_t length)
 static int wipe_page(int use_huge)
 {
     unsigned char * page;
-    size_t size = use_huge ? HUGE_PAGE_SIZE : (PAGE_SIZE * 8);
+    size_t size = use_huge ? huge_page_size : (normal_page_size * 8);
     size_t const max_kb = total_mem_kb - wiped_mem_kb;
 
     if (size / 1024 > max_kb) {
@@ -141,21 +143,27 @@ static int wipe_page(int use_huge)
     return 0;
 }
 
-#define MEM_KB_STR_SIZE 11
+#define UL_STR_SIZE 11
 static int spawn_new(void)
 {
     pid_t pid;
-    char wiped_mem_kb_str[MEM_KB_STR_SIZE];
-    char total_mem_kb_str[MEM_KB_STR_SIZE];
+    char normal_page_size_kb_str[UL_STR_SIZE];
+    char huge_page_size_kb_str[UL_STR_SIZE];
+    char wiped_mem_kb_str[UL_STR_SIZE];
+    char total_mem_kb_str[UL_STR_SIZE];
     int status;
 
     if (0 == (pid = fork())) {
-        snprintf(wiped_mem_kb_str, MEM_KB_STR_SIZE, "%lu",
+        snprintf(normal_page_size_kb_str, UL_STR_SIZE, "%lu",
+                 normal_page_size / 1024);
+        snprintf(huge_page_size_kb_str, UL_STR_SIZE, "%lu",
+                 huge_page_size / 1024);
+        snprintf(wiped_mem_kb_str, UL_STR_SIZE, "%lu",
                  wiped_mem_kb);
-        snprintf(total_mem_kb_str, MEM_KB_STR_SIZE, "%lu",
+        snprintf(total_mem_kb_str, UL_STR_SIZE, "%lu",
                  total_mem_kb);
-        execl("/proc/self/exe", "hugetlb_mem_wipe", wiped_mem_kb_str,
-              total_mem_kb_str, NULL);
+        execl("/proc/self/exe", "hugetlb_mem_wipe", normal_page_size_kb_str,
+              huge_page_size_kb_str, wiped_mem_kb_str, total_mem_kb_str, NULL);
         /* if reached, something wrong happened */
         perror("execl");
         return 1;
@@ -196,12 +204,22 @@ static int do_wipe(void)
 
 int main(int argc, char ** argv)
 {
+    unsigned long normal_page_size_kb;
+    unsigned long huge_page_size_kb;
     int ret;
 
-    if (0 != read_arg(argv[1], &wiped_mem_kb)) {
+    if (0 != read_arg(argv[1], &normal_page_size_kb) || 0x3fffff < normal_page_size_kb) {
+        fprintf(stderr, "normal_page_size_kb is too big.\n");
+    }
+    normal_page_size = normal_page_size_kb * 1024;
+    if (0 != read_arg(argv[2], &huge_page_size_kb) || 0x3fffff < huge_page_size_kb) {
+        fprintf(stderr, "huge_page_size_kb is too big.\n");
+    }
+    huge_page_size = huge_page_size_kb * 1024;
+    if (0 != read_arg(argv[3], &wiped_mem_kb)) {
         fprintf(stderr, "wiped_mem_kb is too big.\n");
     }
-    if (0 != read_arg(argv[2], &total_mem_kb)) {
+    if (0 != read_arg(argv[4], &total_mem_kb)) {
         fprintf(stderr, "total_mem_kb is too big.\n");
     }
     ret = do_wipe();
