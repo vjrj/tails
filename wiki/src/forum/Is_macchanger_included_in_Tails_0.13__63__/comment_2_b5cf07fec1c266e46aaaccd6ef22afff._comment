@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="not quite sure what you meant....."
+ date="2012-09-29T01:16:09Z"
+ content="""
+>issue the command prior to enabling your network (turning on your router)
+
+Just so I understood you, I should do the following:
+
+1. make sure that the computer is not connected to the internet (as in pulling out the LAN cable from the port of my PC?)
+2. boot into the OS
+3. create a root account with password at the \"Welcome\" greeter
+4. go to \"Accessories\" --> \"Root Terminal\"
+5. input the password created in step (A) above when prompted
+6. what command(s) do I have to issue to change the MAC address at the root terminal window?
+
+I plan to use Tails at my workstation (after office hours) as the office has a super-fast internet connection in the order of 20 Gbp/s. However all internet connections have to go through the office router(s). Will I be able to connect to the internet after changing the MAC of my office computer?
+"""]]
