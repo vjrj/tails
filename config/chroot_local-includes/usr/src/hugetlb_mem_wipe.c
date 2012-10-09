@@ -111,7 +111,7 @@ static void zero_area(void * s, size_t length)
     }
 }
 
-int wipe_page(int use_huge)
+static int wipe_page(int use_huge)
 {
     unsigned char * page;
     size_t size = use_huge ? HUGE_PAGE_SIZE : (PAGE_SIZE * 8);
@@ -142,7 +142,7 @@ int wipe_page(int use_huge)
 }
 
 #define MEM_KB_STR_SIZE 11
-int spawn_new(void)
+static int spawn_new(void)
 {
     pid_t pid;
     char wiped_mem_kb_str[MEM_KB_STR_SIZE];
@@ -167,7 +167,7 @@ int spawn_new(void)
     return -1;
 }
 
-int do_wipe(void)
+static int do_wipe(void)
 {
     int ret;
     int use_huge = 1;
