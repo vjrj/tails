@@ -4,5 +4,5 @@
  subject="comment 2"
  date="2012-06-16T15:46:03Z"
  content="""
-Did you try follow this doc: [[/doc/encryption_and_privacy/openpgp_public-key_encryption]]. If so, where did it fail or where did you get lost?
+Did you try follow this doc: [[/doc/encryption_and_privacy/gpgapplet/public-key_cryptography]]. If so, where did it fail or where did you get lost?
 """]]
