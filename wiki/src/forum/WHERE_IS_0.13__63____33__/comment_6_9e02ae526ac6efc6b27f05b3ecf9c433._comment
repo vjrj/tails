@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not intending to feed the troll... but!..."
+ date="2012-09-18T02:00:35Z"
+ content="""
+>still no real irc client (pidgin for irc is crap)
+
+install something you like then
+
+>probably another old version of network manager
+
+so? \"old\"=stable. is there something in particular which you miss ans is present in the shiny \"new\" version you crave?
+
+>possible outdated Iceweasel ESR with security probs
+
+FUD? \"possible\" \"with security probs\". What *specific* security problems do you foretell oh wise sage of the web?
+
+>still no real clipboard except for the stupid forced encryption keyboard which is crappy for those who don't need clipboard encryption
+
+install something you do like if then
+
+>stupid cookies extension, which shouldn't be needed when torbutton handles cookies
+
+one moment you're complaining there's too little choice, the next too much. make up your mind eh?
+
+>mysterious 'user count' whenever you connect to the net with Tails, somehow (which I have yet to hear about how and which files so I can disable this 'feature') it sees you have booted Tails and contributed to the expanding user base tally
+
+What \"mysterious 'user count'\"? Perhaps you refer to fact every time you connect a new Tails session to the 'net, Tails checks, anonymously, over Tor, with the Tails server, to ensure it isn't outdated and potentially dangerous? You find that mysterious oh wise oracle of the 'net? Perhaps you should [use another OS?](www.distrowatch.com)
+
+"""]]
