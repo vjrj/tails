@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-10-12T04:21:12Z"
+ content="""
+As far as I can tell, clicking \"New Identity\" in Tor Button has always given me a new IP address.
+
+While using Tor, doesn't IP= exit node?
+"""]]
