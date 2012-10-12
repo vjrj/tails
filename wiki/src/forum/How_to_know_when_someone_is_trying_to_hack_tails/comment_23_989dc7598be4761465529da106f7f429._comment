@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Real firmware amnesia with Android?"
+ date="2012-10-12T04:40:58Z"
+ content="""
+>>we have firmware exploits that can survive reboot
+
+>As it will in every OS where someone can tamper the hardware, unless you can show us which one does protect against this?
+
+\"Hardware\"; is that what they are calling software these days? I'm only making a point about the \"amnesia\" aspect. Android is a live amnesiac system... except for the firmware! :o) There are more known exploits for android's firmware but with some devices the only firmware location is the SD card. These x86 things typically have firmwares all over the place, embedded \"computers\" in the harddrive, etc. If we could find an Android device with an SD card slot with a real hardware switch to make it read-only, that would be amnesiac.
+"""]]
