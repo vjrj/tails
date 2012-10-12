@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-09-01T21:12:39Z"
+ content="""
+Woo-hoo! Thanks for the command lines. Now I'll be able to do it all by myself from now on by copy/paste. For other noobs, be sure to enter your user name where the files are and use the correct file name. This line is updated for .13~rc1:) After you import the key, just copy and paste this line and change user name/file location. (I ran it as administrator but don't know if that is necessary.)
+
+    C:\Windows\system32>gpg --verify c:\Users\MyUserName\Downloads\tails-i386-0.13~rc1.iso.pgp c:\Users\MyUserName\Downloads\tails-i386-0.13~rc1.iso
+
+gpg: Signature made 08/28/12 02:15:59 Pacific Daylight Time using RSA key ID BE2
+CD9C1
+gpg: Good signature from \"Tails developers (signing key) <tails@boum.org>\"
+gpg:                 aka \"T(A)ILS developers (signing key) <amnesia@boum.org>\"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 0D24 B36A A9A2 A651 7878  7645 1202 821C BE2C D9C1
+
+Thanks again for the help.
+"""]]

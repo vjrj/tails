@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-04T13:49:49Z"
+ content="""
+So it's 99,9% safe to upload a small file to a server without the fear that the original IP is being leaked? The file is a .zip file containing only .txt files.
+"""]]
