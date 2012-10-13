@@ -1,6 +1,6 @@
 For those who need help verifying the image. Copy and paste this code into the cmd prompt. Change the user name to your Windows user name. This also assumes the .iso and sig downloads were downloaded to the Downloads folder. gpg4win is also installed.
 
-     C:\Users\YourUserName>gpg --verify c:\Users\II\Downloads\tails-i386-0.14~rc1.iso.pgp c:\Users\YourUserName\Downloads\tails-i386-0.14~rc1.iso
+     C:\Users\YourUserName>gpg --verify c:\Users\YourUserName\Downloads\tails-i386-0.14~rc1.iso.pgp c:\Users\YourUserName\Downloads\tails-i386-0.14~rc1.iso
 
 Results:
 
