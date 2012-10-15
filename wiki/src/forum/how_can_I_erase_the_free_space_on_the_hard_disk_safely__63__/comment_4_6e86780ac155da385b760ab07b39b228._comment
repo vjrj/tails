@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-15T12:50:48Z"
+ content="""
+>I thought I'd copy random^2 files (music, videos, photos) and paste everything in my hard disk several times, to occupy the free space until the last megabit, so the hard disk should overwrite the old data^1 with new data random^2, and it is impossible^3 to recover old files. My reasoning is correct^4?
+
+1. data: mostly, yes, metadata, thumbnails, caches, hiberfile, etc, no. (as comment 2/3)
+
+2. certainly not random!... you need /dev/urandom for that (actually /dev/random but urandom is near enough and also tolerably fast)... even so, this sort of discordant data are probably\* adequate for purpose. \*depends on medium and adversary though
+
+3. *impossible* is **impossible** to guarantee, short of complete annihilation of the medium. short of annihilation, the sophistication and determination of your adversary must be considered.
+
+4. Your reasoning is reasonable ;o)
+"""]]

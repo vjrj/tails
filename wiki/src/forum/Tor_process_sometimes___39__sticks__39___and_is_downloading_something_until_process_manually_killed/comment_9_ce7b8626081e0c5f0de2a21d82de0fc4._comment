@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Linux TorBrowser does this also"
+ date="2012-10-15T02:47:56Z"
+ content="""
+TorBrowser often leaves open processes on Ubuntu. Have to kill them manually. Rather suspicious if you ask me. Somebody's up to something.
+"""]]

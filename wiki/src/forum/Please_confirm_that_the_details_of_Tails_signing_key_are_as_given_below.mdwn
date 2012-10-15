@@ -1,0 +1,21 @@
+>User-ID: Tails developers (signing key) <tails@boum.org> 
+
+>a.k.a.: T (A) <amnesia@boum.org>
+
+>Validity: from 2010-10-07 17:29 through 2015-02-05 17:04
+
+>Certificate type: 4,096-bit RSA
+
+>Certificate usage:
+
+>Signing EMails and Files, Certifying other Certificates
+
+>Key-ID: BE2CD9C1
+
+>Fingerprint: 0D24B36AA9A2A651787876451202821CBE2CD9C1
+
+I imported the Tails signing key from the certificate server.
+
+Could someone from Tails confirm that the fingerprint as stated above really belongs to Tails?
+
+

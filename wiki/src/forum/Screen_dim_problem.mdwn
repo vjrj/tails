@@ -1,0 +1,7 @@
+Hi,
+
+I have only experienced this in Tails-0.13, not previous versions.  The screen goes black in due course as expected when left unattended.  I wake the screen and but it then immediately goes black again and will *not* wake to full brightness.   If I hold a bright light to the screen, I can see the outline of desktop features and the mouse cursor and the gui features are still responsive - so the system is not hung or crashed - but there's no brightness on the screen at all.  A reboot fixes this but only until it happens again.  Fn-F6/F7 doesn't lift the brightness.
+
+I might add that this is a old laptop (hp dv4000 series) and the CMOS battery is dead but I haven't seen this bug before.
+
+Ideas?

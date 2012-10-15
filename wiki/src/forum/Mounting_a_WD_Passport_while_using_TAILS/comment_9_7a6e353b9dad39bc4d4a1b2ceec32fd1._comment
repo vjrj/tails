@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Comment 9"
+ date="2012-10-10T16:32:02Z"
+ content="""
+With regard to comment 5: Hardware encryption is better because it relies on a key encrypted key which resides in the drive, and is unlocked in the drive. Using software encryption, the key is stored in RAM. The potential for your password to be discovered is higher. In Hardware encryption your password unlocks a password in the drive which unlocks the main volume. Once you delete your password, the data is useless. If your password was apple, and you deleted it, when you use orange, all the data that was originally on your drive is no longer accessible, or recoverable.
+
+"""]]
