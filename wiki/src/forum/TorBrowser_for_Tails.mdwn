@@ -1,0 +1,38 @@
+Hi Tails developers.
+
+This would be better suited to the development mailing-list, but since I got no e-mail account I'll post it here.
+
+I saw that there on "https://tails.boum.org/todo/replace_iceweasel_with_Torbrowser/" for the third migration proposal (ship TorBrowser executable from TBB, without Tor and Vidalia) was several apparently unanswered questions.
+
+I looked into it and have found what appears to be solution for everyone of those unanswered questions, see below. I'll hope this is of any help bringing TorBrowser to Tails.
+
+-----
+
+ * Load only Tor Browser, and let it use the system Vidalia and Tor.
+
+Solution: In "start-tor-browser", replace the line starting with "./App/vidalia --datadir Data/Vidalia/" with "./App/Firefox/firefox -profile ./Data/profile" instead. This was mentioned on a wiki page on TorProjects trac and worked perfectly. No new Tor or Vidalia was started, and it appeared to use the ones already running.
+
+ * Set a custom startpage, for example Tails news page or the check page without small=1.
+
+Solution: Edit "Data/profile/prefs.js" for Tor Browser by replacing the line starting with 'user_pref("browser.startup.homepage"' to read 'user_pref("browser.startup.homepage", "https://tails.boum.org/");' for example.
+
+ * Extensions provided at Debian system level are ignored:
+
+Solution: Download the xpi files and put them in "Data/profile/extensions". If using the extensions as provided by Debian is important, modify "start-tor-browser" to symlink the plugins from "/usr/share/xul-ext/" into that folder, but renaming the symlinks so their name is the one specified in the plugins' "install.rdf" file's "em:id=" option. But simply downloading the xpis anew seems the easiest to me.
+
+ * Support for all languages in one Tor Browser for the UI.
+
+Solution: I do not know if this will work for all languages, but it at least works for some. Take all language xpi's (e.g. /usr/lib/iceweasel/extensions/langpack-*.xpi) and put them in "Data/profile/extensions/" for Tor Browser. Now edit "start-tor-browser" replacing the "./App/Firefox/firefox -profile ./Data/profile" line with the following two lines:
+
+FFLANG=\`echo $LANG | sed 's/_/-/'\`
+
+./App/Firefox/firefox -profile ./Data/profile -UILocale $FFLANG
+
+This makes the UI for both Tor Browser and all extensions use the language selected at login. The language packs can also be downloaded from for example the below URLs, but they must then be renamed according to the name specified in their "install.rdf" file's "em:id=" option:
+
+http://download-origin.cdn.mozilla.net/pub/mozilla.org/firefox/releases/10.0.9esr/linux-i686/xpi/
+http://releases.mozilla.org/pub/mozilla.org/firefox/releases/16.0.1/linux-i686/xpi/
+
+ * Modify the profile settings in Tor Browser for Tails specific things.
+
+Solution: Edit "Data/profile/prefs.js".

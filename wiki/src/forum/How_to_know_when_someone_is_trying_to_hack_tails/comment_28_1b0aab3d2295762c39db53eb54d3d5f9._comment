@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 28"
+ date="2012-10-15T13:59:36Z"
+ content="""
+Lack of an NX bit is abit of a moot point because Tails has done excellent work and an NX kernel will feature in tails 0.14 out in less than a month.
+
+Testing for the release candidate is welcome at https://tails.boum.org/news/ !
+
+There will always be browser bugs and NX + ASLR + AppArmour raises the bar significantly for people who would exploit browser bugs against tails users. Its good to see Debian is interested in integrating AppArmour more and this would make it easier for the effects to flow on into Tails expecially if debian-livecd integrates this somehow. AppArmour looks like the small(er)-delta, easier maintenance option rather than manually integrating SELinux
+
+"""]]

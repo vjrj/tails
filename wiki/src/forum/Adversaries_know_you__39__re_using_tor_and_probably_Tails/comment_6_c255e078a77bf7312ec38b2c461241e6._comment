@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="To Comment 4"
+ date="2012-10-16T05:48:29Z"
+ content="""
+Hmm, I wonder what the point is then in even attempting to change those parameters in the first place? 
+
+Given the number of people using Tails and TBB, I'd say that rummaging through a list of all IP addresses that were ever used to download the software is a rather resource exhaustive process, but a sufficiently motivated adversary could theoretically pull it off.
+"""]]

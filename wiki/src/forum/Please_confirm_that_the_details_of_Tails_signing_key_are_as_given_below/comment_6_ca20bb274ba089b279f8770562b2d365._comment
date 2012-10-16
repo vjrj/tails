@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-15T09:48:53Z"
+ content="""
+> Fingerprint: 0D24B36AA9A2A651787876451202821CBE2CD9C1
+
+I claim that this is the correct signing key fingerprint. However, instead of asking us here on the forum you could just [[download the signing key from the Tails website|doc/about/openpgp_keys]]. Both ways are equivalent in terms of security, which in these cases depend on HTTPS, which in its current state [is pretty far from perfect](https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-about-it).
+
+Please have a look on our article about [[trusting Tails' signing key|doc/get/trusting_tails_signing_key]].
+"""]]
