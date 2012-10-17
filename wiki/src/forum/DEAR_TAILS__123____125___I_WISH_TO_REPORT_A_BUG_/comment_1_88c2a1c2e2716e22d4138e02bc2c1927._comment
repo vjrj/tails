@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="TaiIs"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-17T15:07:24Z"
+ content="""
+My friend Tails
+
+Is this the right place to report a bug
+
+The bug is that I am not actually tails
+
+and a link to www..../evilisopretendofficial.exe or test this release candidate at www..../officiallookingtailsiso.iso would not be the best thing in the universe. a reminder to people they should be extensively verifying the tails signing key, and then cryptographically verifying tails .iso's
+
+I need not explain this bug as it will become self evident giving enough looking at it ;)
+
+Wishlist items: Pretty please screenlocker and disabling ALT+F* ttys before version 2.0 Virtual tails within a tails-livecd (this is hard! i will work on this myself)
+
+
+dont download www.evilh4x0r/This_Is_Official_Tails_ISO.iso
+
+DO learn GnuPG well
+"""]]
