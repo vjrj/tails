@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-18T09:07:38Z"
+ content="""
+What key discovery attack do you know of against Serpent and AES? Surly it was an attack against some inept \"chaining\" scheme or suchlike, rather than an attack against the algo itself?
+
+Steganography could certainly be useful. Although it's *surprisingly* difficult to achieve effectively while maintaining anything resembling  usable efficiency. Do you know of an effective FOSS product?
+
+Finally, wouldn't TrueCrypt or LUKS be appropriate for your storage? The concept is widely used here using both these products and both appear to offer a good combination of security and portability.
+"""]]
