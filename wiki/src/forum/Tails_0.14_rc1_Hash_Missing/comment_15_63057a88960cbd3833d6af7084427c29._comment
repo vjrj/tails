@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-10-18T08:01:36Z"
+ content="""
+Why do so few GNU/Linux distros provide digital signatures?
+
+Debian, Ubuntu and Fedora are the only ones I've seen that do-- out of hundreds that I've looked at.
+
+And in the case of Ubuntu, it's like they all but hide the signatures now; last I checked there wasn't even any mention of verifying the ISO on the main Ubuntu download page.  
+"""]]
