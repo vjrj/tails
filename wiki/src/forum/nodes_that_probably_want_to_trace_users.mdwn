@@ -1,24 +1,2 @@
 As I know it would be a good way to trace tor users by owning manny nodes and maybe furthermore in different countries. So if a tor users connection uses 3 of my nodes I can exactly see what he is doing - am I right ?
 
-Having this in mind I noticed the following nodes:
-
-Name:AccessNowKromyon12
-Location: United States
-IP Adress: 38.99.180.93
-Platform: Tor 0.2.3.12-alpha (git-800942b4176ca31c) on Linux x86_64
-Bandwith: 1.05 MB/s
-Uptime: 27 days
-
-and this one:
-
-Name:AccessNowKromyon21
-Location: Germany
-IP Adress: 46.4.58.8
-Platform: Tor 0.2.2.36 (git-c1414cf70cbfcbb7) on Linux x86_64
-Bandwith: 10.00 MB/s
-Uptime: 26 days
-
-
-If I would be a secret governmental institution investigating on tor I would use much more different names for the nodes. This would mean that either these nodes are friendly ones or the guys using them for investigation are lazy or just stupid.
-
-Maybe some of you have noticed similar nodes and you would like to post them in this thread and somebody who has the possibility or the skill could do some research on this. Then we could probably generate a blacklist and block these nodes. 
