@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-18T16:50:29Z"
+ content="""
+>When installing onto a USB stick using Tails USB installer.[...] the device of the USB stick can not be compared to the original ISO. 
+
+This may indeed not be possible *when using _TAILS USB_ installer*, but when using the `dd`command [1] to *manually* install an ISO, I believe it should indeed be possible to verify the installed ISO against the downloaded one. The \"trick\", as I learned the hard way, is that you must generate a checksum of the ISO *after* modifying it with the `isohybrid` command (since this does indeed *modify* the ISO and therefore change its hash). 
+
+Then, *as root*, you must generate checksum of the **specific partition** that Palimpsest shows the TAILS installation occupying. So, in the case described in this thread, the exact command to be entered into the terminal would be the following:
+
+	sha256sum /dev/sdc4
+
+(Replace \"sdc4\" with whatever the exact location that \"Disk Utility\" (or a comparable utility such as GParted, etc.)  shows for your specific TAILS installation) 
+
+Then, compare the two hashes to see if they match. 
+
+With this method, I have been verifying my TAILS USB stick after each use, in order to be sure it didn't get altered by a remote attacker while I was running it. (So far, so good.) 
+
+If this method is indeed legitimate, then perhaps it should be included in the TAILS documentation. (Of course, since we're not talking about using persistence here anyway,  simply using a DVD would be much easier but that is not practical for everyone. Actually, what with netbooks, ultra-slim notebooks, etc., and optical media seeming to be on the path to eventually meet the fate that has befallen floppy disks and tape drives...I would think that there are *many* people for whom having to burn and run TAILS from a DVD is less-than convenient.  
+
+[1] Since using the `cat` method described in the documentation never worked for me, I don't know whether the method I describe here would also work for a USB install done with `cat`. I can't really see why it wouldn't but I just don't know enough to say anything one way or the other.
+"""]]
