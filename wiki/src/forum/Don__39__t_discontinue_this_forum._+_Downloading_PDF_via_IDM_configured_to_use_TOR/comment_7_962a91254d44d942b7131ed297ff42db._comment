@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-10-23T18:45:44Z"
+ content="""
+I think the most relevant points in the page are:
+
+1. Tails developers are considering switching to a new forum software.  The choice would affect the look and feel of the forum, and might also affect who can post here.
+
+2. Some of the forum software packages under consideration require posters to register and to give an email address.  Of these, some can be set to not actually check the email address, so that posters who try to register with a fake email will be allowed to post.
+
+3. Some of the packages would probably use different CAPTCHAs which might make it impossible for Tails users who disable Javascript or Image loading to participate in the forum.
+
+4. I am not sure whether or not some of the forum software packages under consideration could lock out those Tails users who have disabled JavaScript.
+
+I am new but looked through several months of back threads and didn't see any evidence of massive robospamming, although I realize that could simply suggest that the forum maintainers have been working hard to delete spam posts.  I hope that the forum maintainers will give careful consideration to the fact that the population who most needs to participate in this forum is likely to be wary of registering with an email address and may be unable to see or use many common CAPTCHAs, or to use the forum at all if they disable JavaScript.  The EFF site PanoptiClick suggests that many individuals belonging to the population of security/privacy-aware web users do choose to disable at least one of JavaScript, cookies, or image loading.
+"""]]
