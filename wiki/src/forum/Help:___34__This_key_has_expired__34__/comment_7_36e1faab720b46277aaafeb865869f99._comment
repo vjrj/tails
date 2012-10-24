@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="The expired key"
+ date="2012-10-17T20:04:16Z"
+ content="""
+I noticed the same thing, but found the explanation in the outstanding issues page a few days ago so I already fixed my local copy of the public key.
+
+Thanks to the website maintainers for the excellent documentation, which I would have found very useful a few years ago when I was just learning how to use some of these tools!  A few small suggestions: 
+
+Add \"date last modified\" to all the pages (contrast the Tor website, which suffers greatly IMO from having many undated but very outdated pages)
+
+Add finger prints in the web page and also a note warning that if you search in a keyserver to download a public key via torified html, you need to prepend the key identifier (abbreviated fingerprint) with 0x when you search for the key, for example at the mit pgp keyserver.
+"""]]

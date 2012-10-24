@@ -1,0 +1,5 @@
+The point of all this is connecting to the internet over a wireless connection; I'm a first time Tails user.
+
+How should I setup the Network Connections dialog box?
+The network configuration in the Windows 7 wireless wizard is wpa2 enterprise,with aes encryption, peap, dhcp enabled,IPv4 internet access, NetBIOs over Tcpip enabled, user authentication enabled (username and password), and 
+Pairwise Masterkey Caching enabled.

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Similar question about shutting down Tails"
+ date="2012-10-20T18:57:14Z"
+ content="""
+How long should the memory wipe take?  I'd expect it would take more than a few seconds to wipe 500 MB of RAM, but when I press the red shut down button, the power goes off rather quickly.  Is that a good sign or a bad sign?
+"""]]

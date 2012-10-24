@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Confused"
+ date="2012-10-22T22:23:07Z"
+ content="""
+Do I understand correctly what has been said so far?
+
+0. i2p uses a different protocol from https and can be distinguished by a sophisticated adversary even when encrypted inside Tor circuits.
+
+1. i2p does NOT start up when you boot tails but only if you call it from the menu (or from a shell).
+
+2. The fact that Tails users even have i2p installed at all distinguishes them from other Tor users.
+
+3. Tails users who chose not to start i2p will stand out further as Tails users who are not participating in i2p, because this fact will be detectable by a moderately capable adversary.  Tails users who chose to start i2p will expose their IP addresses on the i2p network, but this will be strongly encrypted.  (Really?)
+
+4. i2p sharing involves passing encrypted data, which can be logged and which can possibly be decrypted by a sophisticated adversary who obtains by hook or crook SSL session keys, possibly sometimes revealing content with which the hapless Tails user would not wish to be associated, particularly not in the eyes of the law.
+
+5. Even if an adversary cannot decrypt the data passed on by a particular IP participating in the i2p network, he can easily determine the IP addresses of participating computers, and probably correlate this with the IP addresses of Tails users. (Guilt by association happens in real courtrooms all the time, so I think this is valid cause for concern.)
+
+5. The Tails developers feel that participating in i2p sharing provides some kind of \"camouflage\".  Referring, I think, to potential issues like traffic analysis, or timing or Entry-Exit correlation attacks which might identify Tor users.  But aren't there less dangerous forms of real or fake traffic which could help slow traffic analysis or timing/correlation attacks?  Like occasionally requesting popular or random Wikipedia pages, or the landing pages of popular websites?
+
+If my understanding is more or less correct, I have to say that I think that i2p should not be bundled with Tails, unless Tails has lawyers on retainer who will help Tails users anonymously quash unjustified subpoenas related to i2p sharing.
+
+"""]]
