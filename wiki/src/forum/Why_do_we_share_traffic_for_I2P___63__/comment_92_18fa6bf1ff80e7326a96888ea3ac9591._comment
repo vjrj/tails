@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 92"
+ date="2012-10-24T03:15:28Z"
+ content="""
+@ Comment 88:
+
+\"you have made a direct connection using I2P and your ipaddress has been logged in association with that computer should it be raided and taken down , so hiding behind Tor was pointless\"
+
+Point taken, but that's only true if the Tails user has started an i2p server, agreed?  If a Tails user (wisely, I think) doesn't want anything to do with i2p while using Tor and doesn't start a i2p server, his computer will never connect to the i2p network, agreed? And when you boot tails, your ISP almost certainly knows that you are using Tor (unless you are using bridges, maybe), agreed?  
+
+Doesn't the Dutch initiative (similar to policies already in use by other nations) suggest that the authorities in Holland and elsewhere want to transform the internet into a horribly authentic shoot-em-up game, a global Tombstone where there is little to choose between the homicidal gunslingers wearing badges and the homicidal gunslingers not wearing badges?  A world which explictly acknowledges that there is no functional difference between crooks and cops?  In which the law has abdicated every claim to any decent notion of moral authority? Doesn't it suggest that if they get their way, all Tails users everywhere in the world, are likely to be targeted for intrusion and possible data alteration/destruction, irrespective of whether they are also using i2p or hosting a hidden site?
+
+And I hope you agree that not all hidden services are hosting objectionable or illegal content, correct?  And that your notion of what is objectionable might be different from mine, and might be very different from what is illegal a hundred years from now?
+
+The only example of a hidden site which has been mentioned in this thread offers up the essay \"Common Sense\", which was initially published anonymously and which presented clear arguments in favor of a \"regime change\" in North America, and which directly attacked the moral and legal authority of the monarchy.  Had Tom Paine been \"outed\" and extradited to the UK, he would almost certainly have been hung.  The \"extremist\" content which was so terribly shocking and illegal in 1775 is enshrined in the American pantheon of political thought today (although I would not be surprised to be told that some local initiatives in the more backward reaches of American have sought to suppress Paine's \"anti-authoritarian rants\" from local libraries).
+
+(No, I am not calling for examples of hidden sites which host illegal or objectionable content because I take it as read that such hidden sites do exist and that they are targeted for elimination by law enforcement agencies with a global reach, i.e. which can access the Internet.)
+
+In 1775 it was fairly easy for authors with radical ideas to publish anonymously; this possiblity is being choked off by modern day authoritarians, and that's a very bad thing.  One point which I trust we can all agree upon is that anonymous speech has always been an invaluable component of living in a free society.
+
+(I'd go further and say that one reason why free speech is so important is that the world is in a terrible jam and the existing political order is clearly unable to find its way to a non-catastrophic future.  We need bold new ideas and we need them now; if the authoritarians prevent us all from discussing our ideas, we are lost.)
+
+Perhaps we can also agree that it is impossible to tell what political or economic ideas which seem frightening or objectionable today to \"the majority\" (and the majority in 1775 America did not seek \"a separation\" from the crown) will perhaps seem laudable one hundred years hence.  History adores a winner; Paine's essay is brilliant and in many ways it should prove just as thought provoking today as the day he first published it under a pseudonym.  But if the continentals had lost their struggle for political independance and economic self-determination, very likely his essay would have been entirely forgotten.  That would have been a tragic loss, and I hope some of the angrier posters will take a half hour to visit that hidden site and skim \"Common Sense\", if only to renew our common commitment to anonymous and free speech.
+
+On another point, I think this thread shows how urgently important it is for a project like Tails to provide clear documentation written for nontechnical users, painstakingly anticipating possible misunderstandings and trying to explain in lay terms enough technical points so that users understand how to participate in the i2p network, and understand all the tradeoffs involved so that they can make an informed decision about whether to particpate in i2p while using Tails.  
+
+Similar tradeoffs arise in using Tor, in deciding whether or not to provide 10 hours per day running a Tor relay or a bridge, whether or not to make specific changes to torrc or IW configuration or NoScript configuration or to add some add-on.  
+
+And all of these decisions involve further tradeoffs between mitigating the risk of one kind of antipated deanonymization attack, while possibly opening up the risk of some other kind of deanonymization attack.  As has been extensively discussed in other threads here, doing anything different from other Tails users can potentially be used to deanonymize you, but the whole point of projects like PanoptiClick is that everyone is doing many things differently anyway, so assuming that sticking with Tails defaults is your best hope of resisting deanonymization may be unwise.
+
+Bruce Schneier is one well known figure who continually emphasizes that improving computer/network security is all about constantly updating your threat model as new information becomes available, and constantly making tradeoffs between measures which may mitigate against attack A while increasing the risk of compromise by attack B.  I think much the same applies to improving anonymization.  And unfortunately it is probably true as a rule of thumb that many steps which improve security can have devastating effects on anonymity.
+
+But asking the Tails team to update and elaborate the documentation subtracts from the time they can devote to updating the threat model and mission statement, coding bug patches, coding improvements, and researching critical anonymity and legal issues.  That's unfortunate, because Tails really needs continual progress on all of these fronts, but I see no way around the time crunch.  In principle Tails could try to expand the team, but a small team is also nimbler and may be able to achieve a clearer vision than a larger one.
+
+Tradeoffs.
+"""]]

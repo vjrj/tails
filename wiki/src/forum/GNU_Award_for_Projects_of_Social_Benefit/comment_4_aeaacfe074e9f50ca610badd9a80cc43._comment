@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-23T00:00:19Z"
+ content="""
+1.) URL in comment 2 for \"Adblock Plus Icon Missing!\" thread got munged. Apparently underscores get automatically converted to bold-text.
+
+Let's see if this works: (indenting four spaces in order to format as \"code\")
+
+    https://tails.boum.org/forum/AdBlock_Plus_Icon_Missing__33__/
+
+2.) Although I stand by what I write in comment 2, I must also point-out that that I feel that \"comment 1\" went too far in belittiling the TAILS project. 
+
+Whoever the TAILS are, and whatever their motives, I think you do have to give them credit for the product they have created in TAILS. I am not aware of anything else that provides the same functionality and is as usable for the masses. (Unfortunately, because of what I noted in my previous comment, I cannot rule-out malicious intent behind TAILS and insidious risk in using it.) 
+"""]]

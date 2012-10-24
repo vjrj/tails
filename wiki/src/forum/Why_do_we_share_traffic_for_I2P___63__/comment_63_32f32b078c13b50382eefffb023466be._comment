@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 63"
+ date="2012-10-22T18:33:10Z"
+ content="""
+I agree with Comment 61 that most i2p traffic is probably benign.  To give a specific example of innocuous content, I usually try to obtain iso images of new Linux distributions the old fashioned way with wget, in part because I mostly trust the signature verification process when I obtain an iso image this way.  But this stresses the developer's servers, so for many Linux distributions, the currently approved method is to obtain iso images using Bittorrent or another p2p application.
+
+However, I think this misses the point that while \"seriously illegal\" content might be very rare, the consequences of possibly being entangled in an investigation are horrendous.  I just came across an article which suggested a scenario which I find all too plausible in which an entirely innocent Tails user who has enabled i2p might get convicted of a very serious crime.
+
+The article is:
+
+http://www.itworld.com/government/304950/dutch-government-seeks-let-law-enforcement-hack-foreign-computers
+
+The Dutch government is not breaking new ground here: police agencies in Germany and some other countries have admitted that they have for some years being using malware to illegally access computers located in other countries, and in some cases have altered or deleted files.  (As readers may know, many agencies in German speaking countries are using DigiTask malware for such cyberactions, but there are many other companies offering remote intrusion software to police agencies, intelligence agencies, and even to private companies--- but the line between government functions and private contractors which function as subsidiaries of huge multinationals has become quite blurry in most countries.)
+
+Now consider this nightmare scenario: 
+
+Suppose a Tails user is being investigated by local authorities as an activist, but since he isn't breaking any laws in that country they can't arrest him.  Suppose that while doing a remote intrusion into his persistent Tails they inadvertently break some security features.  Suppose that the user enables i2p to share legal files, but due to the damage from local coppers his Tails is hijacked to join a botnet, which then stores objectionable content somewhere on his hard drive, without his knowledge.  Suppose the Dutch police become aware of the botnet and seek to shut it down.  Suppose a Dutch copper accesses the users computer illicitly, decides (correctly) that the user doesn't know his computer has been trojaned, and \"helpfully\" deletes the objectionable content (but leaves forensic traces of that content).  Suppose the local coppers intrude again and notice illegal content being stored on the computer.  Suppose they seize the opportunity to arrest the activist they have been pursuing for political activity which is not criminal in his country.  Suppose they perform a forensic analysis which proves that objectionable content was present but was deleted. Suppose the prosecutor argues in court that the fact that objectionable content was deleted \"proves\" guilty knowledge by the user.
+
+If you consider this particular nightmare scenario to be farfetched, well, it probably is.  But I think it should give food for thought about why we should maybe be cautious about using p2p while using Tails.  I understand the argument about \"camouflage\" but some kinds of traffic are unfortunately more dangerous than others, and when used by someone who is ALSO using Tails, could easily be taken (by a jury, say) as \"proof\" of criminal activity.
+"""]]
