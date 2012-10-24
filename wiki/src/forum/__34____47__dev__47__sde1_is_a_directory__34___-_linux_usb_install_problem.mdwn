@@ -1,0 +1,12 @@
+following instructions from:
+
+https://tails.boum.org/doc/installing_onto_a_usb_stick/linux/index.en.html
+
+I get the output that the destination is a directory and nothing is transferred. I have also tried the /media... path for the same partition with the same result.
+
+This is from a running .10.1 tails install. I have checked all the paths in the disk utility. My usb stick is partitioned in two - one ext2 for tails and one ext4 for storage.
+
+I'm gonna manually syslinux it but I would still be interested in knowing what I would have to do to get the official method working.
+
+
+thankyou for any help

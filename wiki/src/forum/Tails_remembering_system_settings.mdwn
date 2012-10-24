@@ -1,0 +1,5 @@
+For some reason tails does not remember the settings like a changed background, position of toolbar and several other options. Even when the persistence settings (dot files, but in fact i have them all set up to use persistence) are seemlingly correctly set up.
+
+I am running a Tails 0.12 on a USB flash drive.
+
+Is there any solution to this?

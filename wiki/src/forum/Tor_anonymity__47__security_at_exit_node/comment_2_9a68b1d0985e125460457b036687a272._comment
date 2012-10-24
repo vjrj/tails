@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-08T22:39:30Z"
+ content="""
+Thanks for the reply.  Still trying to understand the level of anonymity of Tor.  Also when and when not to use Tor.
+
+If I understand correctly, an exit node could read what is sent, but will not know who sent it.  How does webmail fit in?  Could an exit node read email sent from the gmail website?  If purchasing something through a website, could the exit node read confidential information such as a credit card number?
+
+A reply to a thread in another forum stated that Tor should not be used for webmail or anything personal.  Which leads back to my question:  when and for what should I use Tor?
+"""]]

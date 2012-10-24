@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Successfull report"
+ date="2012-08-19T16:57:20Z"
+ content="""
+On my side, the SD card is automatically detected and I can install Tails on it.
+
+Did you try?
+
+Somebody said that the SD card reader should be considered as a USB hub (or something like that), but I have no clue if it depends on hardware or on software.
+
+Good luck!
+"""]]

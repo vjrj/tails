@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-12T11:28:34Z"
+ content="""
+> Do I need to do something else first, to generate a public key? 
+
+Yes, you can generate a new key like this:
+
+1. System -> Preferences -> Passwords and Encryption Keys
+2. File -> New
+3. Select \"PGP Key\"
+
+You need to be extra careful about saving you key (the directory: `/home/amnesia/.gpg`) in Tails since it's not persistent and hence will be deleted when you shutdown. Tails 0.11 will have support for persistence, but until it's released I recommend that you [[save the keys to an encrypted volume|https://tails.boum.org/doc/encryption_and_privacy/encrypted_volumes/index.en.html]] which you store on a separate USB drive.
+"""]]

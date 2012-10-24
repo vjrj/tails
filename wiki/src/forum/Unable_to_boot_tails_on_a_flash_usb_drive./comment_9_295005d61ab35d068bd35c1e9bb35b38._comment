@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Hurrah! but..."
+ date="2012-06-25T16:39:30Z"
+ content="""
+Thanks for that!
+
+At last got Tails to boot from USB and CD.
+
+New issue - may be restricted to my laptop (Dell Inspiron N5010) - mouse moves, but selection must be made by right or left buttons on laptop, not by clicking on pad.
+
+Synaptics package missing or incomplete?
+"""]]

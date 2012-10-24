@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-02-02T01:43:53Z"
+ content="""
+First, what is HTTrack:
+
+It allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the \"mirrored\" website in your browser, and you can browse the site from link to link, as if you were viewing it online. HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system. 
+
+It is available for Windows 2000/XP/Vista/Seven with an installer or a portable version, also on Linux/OSX/BSD/Unix. With a Web Gui and command line version.
+
+Latest release is 3.44-4, updated Jan 29, just 3 days ago.
+
+It is not a POS.
+
+It is not the same as running \"wget -m\".
+
+Any problems with the software, you can get help here: http://forum.httrack.com/ and here: http://www.httrack.com/html/faq.html
+
+As for safely mirroring Tor sites, theres not much harm a mirror can do, as it's all changed to read files from your mirror and not from an outside site, hence, httrack is a Offline Browser mirror generator. With simple filters you can get only the files that you want or the ones that you feel are safe. For help on the specifics or questions check the httrack forum.
+
+
+"""]]

@@ -1,0 +1,38 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-25T00:31:49Z"
+ content="""
+> Will it be possible to support ext filesystem for both the storage and boot partitions though?
+
+The system partition will be FAT (some day, we want our USB installer
+to work on Windows), while the persistent filesystem will probably
+be ext3.
+
+> Ext has always been faster and more reliable for booting OS's in my experience
+
+Do you think this is really relevant in the context of Tails, where
+the (OS) FAT filesystem is only used read-only at boot time, and
+merely contains the kernel / initramfs and a big SquashFS file?
+I doubt it.
+
+> and when plugged into windows it will just look like a corrupted fs
+> rather than fully read/writable and full of suspicious files.
+
+This is a very valid point. In our (limited) experience, Windows often
+suggested to format such partitions when it does not know how to read
+the filesystem. This looked dangerous to us. That's why the system
+partition will get the needed GPT attributes so that Windows just
+*ignores* it. Less worried about it?
+
+> Regarding speed, ext4 mounted with out journalling is slightly
+> better than ext 2. Both offer better results than vfat though. I had
+> a good source with extensive research but I can't find it anymore.
+> Maybe I'll come back with the information later.
+
+My experience with ext4 is quite less rock-solid than ext3.
+Unless we are given pretty good reasons to use ext4, chances are we
+keep our safe ext3 initial decision.
+
+"""]]

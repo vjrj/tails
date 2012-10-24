@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-23T00:53:25Z"
+ content="""
+how did you install tails to USB?
+
+it looks like syslinux cannot find the kernel or boot image. Are your syslinux config files pointing to the right place? (the files are normally in /live)
+"""]]

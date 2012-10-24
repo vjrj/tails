@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-21T22:53:54Z"
+ content="""
+I assume here that you want to host a vBulletin forum, running Tails.
+
+The next release will ship [[persistence|todo/persistence]] and a [[server edition|todo/server_edition/]] is been working on. Perhaps it will fit your needs?
+"""]]

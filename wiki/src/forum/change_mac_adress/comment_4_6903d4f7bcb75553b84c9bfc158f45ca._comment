@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Remove the &quot;*&quot;s from the command!"
+ date="2012-02-02T10:37:07Z"
+ content="""
+The asterisks that appear in my previous post above are NOT part of the command!
+
+Following the markdown formatting key (linked just below the text box), I had intended to make \"-e\" appear in bold-text. 
+
+I probably should have realized, however, that this would not work within the code formatting I was using. (By indenting four spaces)
+
+
+"""]]

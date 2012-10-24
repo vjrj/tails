@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-24T19:56:32Z"
+ content="""
+ok thanks,
+
+I saw the plans for that feature and am looking forward to it. Will it be possible to support ext filesystem for both the storage and boot partitions though?
+
+Ext has always been faster and more reliable for booting OS's in my experience and when plugged into windows it will just look like a corrupted fs rather than fully read/writable and full of suspicious files. Regarding speed, ext4 mounted with out journalling is slightly better than ext 2. Both offer better results than vfat though. I had a good source with extensive research but I can't find it anymore. Maybe I'll come back with the information later.
+"""]]

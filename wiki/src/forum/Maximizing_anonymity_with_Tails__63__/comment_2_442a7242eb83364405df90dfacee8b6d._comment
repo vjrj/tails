@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-19T12:10:57Z"
+ content="""
+> Frankly, i am using Tor for a long time and to be truly anonymous, i don't feel much at ease if i use Tor or Tails from my house. I still connect through my IP. I was wondering if there is a router that has some hardware mechanism built in, for changing the IP! I guess not. I mean in some way to be able to hide from the ISP that i am even connecting to the internet at that time or showing to the isp a different ip than the one i use to connect to the internet.
+
+There's nothing you can do. The ISP can simply see that traffic is comming out from the \"pipe to your house\", and no amount of IP/MAC spoofing can change that (if anything it just looks suspicious). You can, however, hide the fact that you are using Tor from your ISP by using Tor bridges (or a VPN).
+
+> (1.) Use Tor bundle, updated to latest versions obviously, having already used a mac changer software in windows. In this option would it be safer to be connected to my router with a wire, or wirelessly?
+
+> (3.) The third option i want to discuss is the following: i use a macchanger in Windows and connect either with a wire or wirelessly to my router. Then i open a VmWare Tails virtual machine and share the connection. Then i connect to the internet.
+
+Both Windows and VMWare are closed-source, proprietary software, and so you cannot trust them from a security perspective.
+
+> (2.) Use Tails cd boot, connect to my router either with a wire or wirelessly, using the macchanger in Tails (if i figure out how to do that).
+
+This is the more secure option. Using a wired or wireless LAN connection doesn't really matter (eavesdroppers will see the same thing as your ISP). And again, MAC spoofing is completely pointless when done at your home (or with any other Internet connection that can be linked to you).
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-22T08:39:06Z"
+ content="""
+> my laptop gets very hot when it's running tails on ac power so I'm glad that I can now avoid it. 
+
+I'm glad it fixes your problem. This is a bug that should be fixed (probably in the kernel), not merely workaround'd. Please report a bug using the bundled \"Report a bug\" application and we'll see what we can do about it.
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-07-27T19:46:01Z"
+ content="""
+One very easy way to possibly remedy this issue is to simply use a dvd image of tails to install the OS onto your thumb drive.  That thumb drive will likely be able to create the persistence section as you wish.  
+Sometimes, and I don't remember why; if you install the .iso file directly onto the thumb drive without \"cloning\" it from an already running system, it will fail to preperly create persistence.  When tails 0.11 had been release I was running into the problem all the time because I was installing the operating system to my thumb drive directly from the terminal on a completely different linux system, I was 'old-school' installing it.  I was able to remedy this situation using the 'easy' method of dvd->usb install (from initially booting dvd image). 
+I hope this helps.  If not, you could always do what I used to do to; create a completely separate encrypted partition on the drive aside of the tails partition.  This method is a bit difficult for some, however all of the information can be found somewhere in this forum as there was a bunch of chatter about it sometime between the 0.9 and 0.10 releases.  If you are unable to find it, please reply so sometime in the next few days and I will do my best to find my personal copies and upload the page prints I had made somewhere to the net and post a link.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-30T20:30:00Z"
+ content="""
+Tails 0.10.1 is a release aimed at fixing serious bugs. Every other change we could have included, would have made the release happen later. We did not see any security-related changes in the i2p 0.8.12 announce, and it did not seem worth delaying the release any further. In short: we are doing our best with limited time :)
+
+We could probably make use of more i2p-related energy. Help is welcome.
+
+"""]]

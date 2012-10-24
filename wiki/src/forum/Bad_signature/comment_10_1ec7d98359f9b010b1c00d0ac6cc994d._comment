@@ -1,0 +1,46 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-03-03T12:53:54Z"
+ content="""
+@ comment 7:
+
+> Now something weird going on here. What email are you talking about? I'm the OP. I never had any reply from you for my PGP-encrypted email from a tormail account.
+
+We got a weirdly encrypted (in the sense that it confused our encrypted mailing-list) email with the subject \"Signature verification issue\" from a me.com email account on the 1st of March, i.e. the same day you claim to have sent your email. I cannot find any email from a tormail account. Sounds strangely coincidental but let's not get ahead of ourselves now. Please try to send the email again (preferably containing the information requested below too).
+
+> The differences are on the filesystem.squashfs files. Is there a way to extract this file so I can send only the differences to you.
+
+There are plenty of ways. Keep in mind, though, that if someone is [[Man-in-the-Middle|doc/about/warning#index3h1]]:ing you (which I still find unlikely, but oh well :)) you need to be extra careful which software you trust now. Are you sure that the Tails signing key you downloaded is correct? How did you verify its authenticity? You definitely should read our article on [[doc/trusting_tails_signing_key]] and take as many precautions as you can by doing every step mentioned there.
+
+In Linux you can mount a squashfs with the following command:
+
+    mount -t squashfs -o loop /path/to/squashfsfile /path/to/mountpoint
+
+There's also [`bsdiff`](http://www.daemonology.net/bsdiff/) which you could use to make a small and efficient \"diff\" between any two binary files. Its focus on producing small and efficient binary-diffs seems to take its toll on performance though: running such a diff on two Tails images (~620 MB each) will require 17*620 MB = ~10 GB of RAM which most people don't have access to. Having managed to make such a diff myself I must say it's pretty good since it's not at all optimized for this kind of situation but rather for executable binaries; the bsdiff between Tails 0.10 and 0.10.1 is just 72 MB.
+
+Let's just do some unsquashing and see which files differ for starters: Now I assume you trust one of the Tails images you have (i.e. you verified that has a good signature and you are positive you have the authentic Tails signing key having followed the instructions posted above). Boot it. insert and mount a USB stick containing the bad iso (let's say it got mounted on `$USB` which would be something line `/media/<filesystem-label>` if you use the \"Places\" GUI to mount it) and run the following commands:
+
+    sudo su -
+    mkdir good-iso bad-iso good-squash bad-squash
+    mount --bind /live/image good-iso
+    mount -o loop $USB/tails-i386-0.10.1.iso bad-iso
+    mount -t squashfs -o loop good-iso/live/filesystem.squashfs good-squash
+    mount -t squashfs -o loop bad-iso/live/filesystem.squashfs bad-squash
+
+First of all, let's just make sure that the Tails versions of the .iso:s match... it could be that you just have an incorrectly named .iso e.g. it's named 0.10.1 but really is 0.10 or whatever. The output of the two following commands should the same:
+
+    cat good-squash/etc/amnesia/version
+    cat bad-squash/etc/amnesia/version
+
+If they are, then proceed with looking at which files differ in the images:
+
+    diff -qr good-iso bad-iso > $USB/iso.diff
+
+Then look at which files differ in the squashfs:es:
+
+    diff -qr good-squash bad-squash > $USB/squash.diff
+
+The `iso.diff` and `squash.diff` files on the USB stick now list all differing files between the images and the squashfs:es. Send them to us in an email so we can determine whether it is neccessary for you to send the complete bad iso to us for further analysis.
+"""]]

@@ -1,0 +1,12 @@
+Recently it was pointed out that cupsd and gdomap are listening on external ports.  Bad.
+
+This suggests no-one has ever bothered to run a few commands to check what is listening where.  *Very* bad. I mean WTF?
+
+
+https://duckduckgo.com/html/?q=find%20out%20what%20ports%20are%20listening%20linux
+
+# lsof -i
+
+# netstat --listen
+
+etc

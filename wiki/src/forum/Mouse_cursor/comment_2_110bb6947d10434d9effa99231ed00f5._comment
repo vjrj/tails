@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-30T20:58:18Z"
+ content="""
+I did a search some days ago and found a similar bug (https://tails.boum.org/news/version_0.7.1/  \"including the infamous missing mouse cursor one\" ) and I thought it was maybe related to this one. Admitted my case is rather special, so no problem if it can´t be fixed any time soon. Sure, I could run it directly from the windows host in a vm. But at the moment the main reason to use the windows host is that I can use truecrypts full disk encryption. Tails gives a warning in case it runs in a vm because the host can see what you do. However, the windows host doesn´t touch the internet so I do not expect any attacks from this side.  The other vm´s access the internet via the hopefully more secure ubuntu vm. 
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-24T10:07:05Z"
+ content="""
+> do we need some sort of security implemenation like an anti virus or anti malware?
+
+Anti-virus software is the wrong solution for preventing malware. The signatures are by definition one step behind, and black lists are generally not a good solution for anything security related. We're better off implementing something more pro-active like [[todo/Mandatory_Access_Control]], which is already planned and worked upon.
+
+> My CD cannot get infected because it is read only once burned.
+
+A *running* Tails session can still be compromised (i.e. the malware lives in the RAM only). The malware will vanish once Tails is shutdown, but until that moment Tails is completely compromised.
+"""]]

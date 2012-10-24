@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-03-03T03:21:39Z"
+ content="""
+Now something weird going on here. What email are you talking about? I'm the OP. I never had any reply from you for my PGP-encrypted email from a tormail account.
+
+Now I'm asking the same here. I can upload the whole image and send a link here but looking for an easier way. The differences are on the filesystem.squashfs files. Is there a way to extract this file so I can send only the differences to you.
+
+I didn't do anything with torrents. The hashes for images are also different. Here is an ss from UltraCompare: <http://img443.imageshack.us/img443/516/diffn.png>
+
+I used WinRAR to extract both images. Sizes and dates are exactly same while the contents are different. So what are the possibilites?
+"""]]

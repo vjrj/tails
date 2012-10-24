@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-23T09:31:02Z"
+ content="""
+> I can't seem to get I2P's UPnP to work in Tails, although it works with the same version of I2P on a Debian Wheezy system I tried it on.
+
+Duh, we have to unblock the ports used by I2P's UPnP listeners:
+
+    iptables -N laninput
+    # http://www.i2p2.dsde/faq.html#ports
+    iptables -A laninput -p udp --dport 1900 -j ACCEPT
+    iptables -A laninput -p tcp --dport 7652 -j ACCEPT
+    iptables -A laninput -p udp --dport 7653 -j ACCEPT
+    iptables -A laninput -j RETURN
+
+    iptables -A INPUT -d 192.168.0.0/255.255.0.0,10.0.0.0/255.0.0.0,172.16.0.0/255.240.0.0 -j laninput
+
+    # set I2P_TCP/UDP_PORT to whatever I2P picks
+    iptables -A INPUT -p tcp --dport ${I2P_TCP_PORT} -j ACCEPT
+    iptables -A INPUT -p udp --dport ${I2P_UDP_PORT} -j ACCEPT
+
+Does this work?
+"""]]

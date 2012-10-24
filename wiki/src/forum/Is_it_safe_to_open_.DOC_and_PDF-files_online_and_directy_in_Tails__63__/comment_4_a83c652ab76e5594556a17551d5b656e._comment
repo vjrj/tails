@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-04-29T11:41:55Z"
+ content="""
+>I would be very surprised if Evince or Open Office allow, by design, silent network connections on behalf of untrusted files.
+
+As I understand things, in recent versions of Tails only applications that are explicitly torified can access the internet.  Outgoing connections from all other apps are *dropped*.  So unless Open Office and the pdf viewer are explicitly torified (?), they should not be able to make any outgoing connections at all.  This is done to foil this kind of attack.
+
+
+"""]]

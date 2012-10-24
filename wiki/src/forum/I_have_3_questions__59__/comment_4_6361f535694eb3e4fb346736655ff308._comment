@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-04T17:15:24Z"
+ content="""
+not-op
+
+regarding the answer to question 3 (and the others I guess)
+Would the most secure option of all be getting rid of windows, installing qubes, running multiple tails from qubes in a vm for each contextual identity?
+Or would the tails session still leave traces on the qubes os? Never tried qubes, just curious about the synergy here..
+"""]]

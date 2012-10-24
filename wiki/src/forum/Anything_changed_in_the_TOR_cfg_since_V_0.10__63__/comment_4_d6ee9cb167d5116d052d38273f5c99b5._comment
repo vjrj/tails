@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-03-12T08:25:55Z"
+ content="""
+Before thinking of re-enabling transport proxying, I suggest you first try to:
+
+ 1. Configure your applications to use the SOCKS proxy.
+ 2. If there is no way to do so,t ry to start your program using `torsocks`.
+
+Using `torsocks`, most applications happily use Tor without knowing it.
+"""]]

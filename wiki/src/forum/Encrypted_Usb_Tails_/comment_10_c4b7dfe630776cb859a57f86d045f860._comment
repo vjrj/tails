@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="double usbery very strong password "
+ date="2012-04-02T18:23:50Z"
+ content="""
+This is the way I have decided to go. Keep the usb with tails, always clean with zero data on it. and after every session all gets wiped out. On the second usb key, all the documents or data is held in a trucrypt folder with a double password having a verry verry strong password on the second password, and an easy to crack password on the first. My problem however is.. what happens if you recieve  document in a pdf format. Does this go through something that is not in tails...or can I open it in tails?
+"""]]

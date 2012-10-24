@@ -1,0 +1,19 @@
+How can you say that original person using TOR can't be used?
+
+Suppose, the proposition is
+MY CONNECTION >>> USA/UK IP >>> POLAND >>>>> RUSSIA >>>> DESTINATION/FACEBOOK.
+
+Now suppose someone wants to trace me from my Facebook profile or the last IP that has been recorded by the destination, one needs just following steps even if I have done my best to conceal every bit of my information over Facebook in the last 5-6 months:
+
+1. The logs (which will include IP address of Russia sending connection to Facebook) will be obtained from the Facebook Admins.
+
+2. Then that IP address (ISP of Russia) must have recorded the IP that interacted with it, ie.. it must have IP address of Poland.
+
+3. Then the ISP of Poland will be asked to give the details of the user who used IP address of that ISP and thereafter ISP will reveal that the connection was maintained from USA/UK and
+
+4. finally the USA/UK based ISP will reveal MY IP ADDRESS and I can be caught anytime!
+
+The problem will be worst if 2 or all of the nodes belong to single country as it will be very easy to obtain logs within a few days.
+
+George D'costa.
+

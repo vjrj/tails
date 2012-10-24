@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-17T09:36:39Z"
+ content="""
+We know this is a serious issue, and we plan to implement [[todo/incremental_upgrades]]. Needless to say, it's not as simple as just forcing an \"apt-get update && apt-get upgrade\" during boot.
+"""]]

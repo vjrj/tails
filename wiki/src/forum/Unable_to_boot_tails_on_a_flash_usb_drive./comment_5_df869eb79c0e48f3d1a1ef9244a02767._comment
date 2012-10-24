@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ username="sabretache"
+ ip="127.0.0.1"
+ subject="Reply to Anonymous — Mon 18 Jun 2012 12:45:12 AM CEST:"
+ date="2012-06-19T12:35:41Z"
+ content="""
+Anonymous
+>Lolwat. I doubt your HP Pavillion even has an (E)ISA bus.
+
+Is that supposed to be helpful or what?
+
+The computer is a HP Pavilion DV7 notebook.
+
+The precise messages are:
+
+-----------
+
+EISA: Probing bus 0 at EISA 0
+
+EISA: Cannot allocate resource for main board
+
+Cannot allocate resource for EISA slot 1 (Then ditto thru 2 to 8)
+
+EISA detected 0 cards.
+
+------------------
+
+The system then hangs.
+
+Looks to me like the boot sequence is looking for EISA slots and failing to find them. Can't see that is anything to 'laugh out loud' about.
+
+Further info: the computer successfully boots various other Linux distros from USB. Per the previous Anon comment I use 'Universal USB Insaller' which looks after FAT32 formatting and creation of the required MBR. I can also boots Tails OK inside Virtual Box using the same Tails distro to set it up. Frankly I'd go with that but it is not possble to configure persistence in the VB and Tails will not reliably use the VB host-guest comms facility yet either.
+
+IOW I'm stuck and would appreciate any helpful suggestions. I can do without the anonymous LOLing trolls though.
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-17T10:33:20Z"
+ content="""
+Are there no error messages? How much RAM was assigned to the virtual machine? A minimum of 768 MB should be assigned, and 1 GB is recommended.
+"""]]

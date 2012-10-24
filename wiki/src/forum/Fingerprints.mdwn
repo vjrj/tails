@@ -1,0 +1,9 @@
+I just compared the fingerprints between Tails and TBB using panopticlick.
+
+Why aren't the default window sizes equal, at least for me..
+
+In TBB 1000x500x24, in Tails 1000x800x24
+
+Also, is there a good reason to use an ad blocker? Read **2.3.5. No filters**: <https://www.torproject.org/projects/torbrowser/design/#philosophy>
+
+Doesn't using Adblock Plus over Tails tell the people we are the Tails users

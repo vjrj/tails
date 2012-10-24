@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-23T22:17:01Z"
+ content="""
+I think Tails currently does what you want.
+
+To developers: I have an idea, the screen should be blank at the Tails shutdown. So after clicking the power off button, no one behind you could realize something abnormal is going on. If it doesn't automatically shutdown, you will do it manually. And you can say the screen was frozen
+"""]]

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-07-04T23:39:49Z"
+ content="""
+> For some reason tails does not remember the settings like a changed background, position of toolbar and several other options.
+
+Please read the [[documentation about the persistence feature|doc/first_steps/persistence]], because it's not meant to do what you seem to think it is.
+
+> I don't know of a solution, however I was needing to have certain settings saved to persistence, such as tor button, iceweasel, and no script setting.
+
+Our [[todo]] page lists a bunch of \"persistence presets\" that could be supported.
+Feel free to add to the list. Please follow the page naming conventions, and describe *very precisely* what exactly you want to achieve there.
+
+"""]]

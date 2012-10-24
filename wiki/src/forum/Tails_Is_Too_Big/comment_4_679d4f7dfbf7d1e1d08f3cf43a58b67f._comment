@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="It is."
+ date="2012-02-15T08:24:44Z"
+ content="""
+> Root shell should be possible.
+
+It is. Try `sudo`?
+
+"""]]

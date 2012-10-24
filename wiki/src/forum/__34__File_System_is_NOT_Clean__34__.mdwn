@@ -1,0 +1,10 @@
+I used the "dd" command to manually install TAILS onto a USB flash stick.
+dd if=/{name_of_tails.iso}  of=/dev/{my usb stick}
+
+(after running the isohybrid command)
+
+TAILS seems to run properly from this stick but when I check the file system in the Gnome Disk Utility (palimpsest) , it says, 
+"The file system is NOT clean"
+
+What could cause this and is it cause for worry?
+

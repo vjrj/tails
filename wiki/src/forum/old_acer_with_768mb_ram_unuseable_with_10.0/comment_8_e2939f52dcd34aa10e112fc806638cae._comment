@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-02-25T12:11:56Z"
+ content="""
+> Tails hangs at boot on my P 4 box with 1g of ram. 
+
+It seems like this is totally unrelated to the topic, but anyway, please [[doc/first_steps/report_a_bug/]] about it if you care about it being fixed.
+
+"""]]

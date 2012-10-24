@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-08-07T13:30:37Z"
+ content="""
+> Pip and certain dependencies are not available in the repos.
+
+Actually, [`python-pip` is in Debian](http://packages.debian.org/stable/python-pip), but I didn't look at its other dependencies.
+"""]]

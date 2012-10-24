@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-23T17:14:16Z"
+ content="""
+* If you browse a site located on the LAN everyone observing the path from you to the destination server will see your (lack of) user-agent.
+* If you browse a site located on the Internet everyone observing the path from the Exit to the destination server will see your (lack of) user-agent.
+* If you use SSL/HTTPS only the destination will see your (lack of) user-agent.
+
+May I ask why you want to disable the user agent?
+"""]]

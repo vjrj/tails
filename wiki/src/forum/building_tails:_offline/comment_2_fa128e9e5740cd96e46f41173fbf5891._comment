@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-06-27T11:24:39Z"
+ content="""
+by http proxy configuration you mean [Local HTTP proxy](https://tails.boum.org/contribute/build/#index1h2)?
+
+------
+
+     $ rake build
+Do i need to do customization before issuing above command? Confused because [manual page](https://tails.boum.org/contribute/build/#index1h1) mentions about customization after all those command.
+
+------
+
+How to remove and add packages(Vagrant method)? Can not find steps on [given link](https://tails.boum.org/contribute/customize/)
+
+
+
+"""]]

@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Here is how I do &quot;persistence&quot;"
+ date="2012-02-11T15:02:31Z"
+ content="""
+Setup an encryp[ted partition or usbstick with say cryptsetup LUKS.
+
+Install your plugins and bookmarks, whatever. Quit Iceweasel.
+
+1. Copy the ~/.mozilla directory to your encrypted partition. This will contain any plugins etc.
+
+2. Delete ~/.mozilla
+
+3. Place a symlink to the .mozilla directory on your encrypted drive in /home/amnesia
+
+4. Restart Iceweasel.
+
+When you shutdown tails, your bookmarks, addons etc are now stored on your encrypted drive instead of vanishing intop thin air.
+
+On booting up Tails next time, mount your encrypted partition, quit Iceweasel and repeat steps 2-4.
+
+
+
+
+"""]]

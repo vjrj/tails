@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Or..."
+ date="2012-07-30T01:34:34Z"
+ content="""
+You could install Grub2 onto the stick and boot the .iso. I used the guide [here](https://tails.boum.org/forum/Encrypted_Usb_Tails_/#comment-a76e0ea52b7929b890274d3514aa9f94).
+"""]]

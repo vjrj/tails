@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-19T12:02:51Z"
+ content="""
+> Apparently this bug is the reason why the current release of TAILS can't connect to the internet on this machine over a wireless network.
+
+Care to elaborate? I don't think time has anything to do with the ability to use wireless networks.
+
+In any case, if the time difference you see is due to what I explained (UTC vs your local time zone) this is not a bug, and the time Tails has is in fact correct. For instance, check [this site](http://www.timeanddate.com/worldclock/city.html?n=1440) for the current time in UTC. Is it the same as what you see in Tails? If so, there's no bug.
+"""]]

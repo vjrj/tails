@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-30T10:59:02Z"
+ content="""
+That node isn't listed in my Tor client's consensus or on [TorStatus](http://torstatus.blutmagie.de/) either. However, both 89.248.172.226 and 89.248.172.228 are, so it's conceivable that the same operator started a new exit node but took it down rather quickly, before check.torproject.org and TorStatus became aware of it.
+"""]]

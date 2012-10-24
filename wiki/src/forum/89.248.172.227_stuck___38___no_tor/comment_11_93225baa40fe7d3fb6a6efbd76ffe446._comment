@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-08-19T17:58:23Z"
+ content="""
+@ answer:
+
+> ExcludeNodes {de}, {us}, {gb}, {fr}, {se}, {dk} and soooo on. [...] developers simply implemented code that tor connect through stronger nodes and stronger are spying ones, I tried to block all strong nodes and I left only weak ones, I could not connect to tor network.
+
+This is a lie which has been repeated on this forum several times before (most likely by the same poster). For the n:th time I tried (now in Tails 0.12.1) to bootstrap Tor with that `ExludeNodes` configuration *and* with `StrictNodes` set (which is required for making Tor follow the `Exclude*` options religiously) and it *works*. With \"*works*\" I mean that it probably is much slower and probably less anonymous than Tor without these two configurations.
+
+@ Thanks!
+
+> I was just hoping to exclude that ip,.. never thought its even possible to block complete countries. wow.
+
+Note that using `ExcludeNodes` (or any of its variants) most likely [reduces your anonymity](http://tor.mirror.tn/docs/faq.html.en#ChooseEntryExit). Using it is *bad* advice.
+
+> Very helpful & extremely informative answer.
+
+It's not, and I'm unsure to which part of it you're referencing. The suggestion to use `ExcludeNodes` is just irresponsible. Likewise, the same post's *wild* conspiracy theory is completely unfounded. Zero references. Don't let yourself get fooled that easily.
+
+Comment 3 and 4 resolved the issue this forum thread is about by linking to a thread about the *very same* \"mysterious\" node, but with a reasonable explanation. Case closed.
+"""]]

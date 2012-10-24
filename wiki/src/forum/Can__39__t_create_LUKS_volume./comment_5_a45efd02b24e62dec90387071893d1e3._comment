@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-05-29T12:13:37Z"
+ content="""
+Have you created a new partition table before trying to format the partition?  The former can be done by using the *Format Drive* button in *Disk Utility*.
+"""]]

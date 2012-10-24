@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-22T05:17:57Z"
+ content="""
+1) Is there any way of making a USB stick read-only, or are there specialised USB sticks that are read-only?
+
+Yes. Here:
+http://www.fencepost.net/2010/03/usb-flash-drives-with-hardware-write-protection/
+
+2) Are write-only CDs the safer option than a read-only USB stick, in the hypothetical situation that there was a software issue causing Tails to write to the boot media?
+
+I sure think so. 
+
+3) Should I be worried about the aforementioned results of the anonymity test? How does it compare to others?
+
+If you like worrying. You're referring to JonDo's site, and remember they are selling a product. It's a little extreme to worry about getting a \"good\" rating on all points.Mouse over the categories on their \"report\" and reconfigure Firefox via the about:config command and you can improve most of those ratings.And use Tor.
+
+4) In the hypothetical situation that a security issue caused Tails to write to the HDD, would there be a way of physically disconnecting the HDD of a laptop, or using the BIOS render it read-only, without it being extremely time-consuming to return it to its original state? I like to use Windows for gaming, and it would be pretty annoying having to take apart my laptop every time I wanted to play Skyrim ;)
+
+
+Man.....I wish I knew.I will say this. If you don't access your HD when you use Tails, I don't think you are \"mounting\" your HD, which (I think) makes it as if it wasn't there re: exterior threats. So just don't click on the bloody thing, use USB or SDHC for storage etc instead. :)
+
+
+
+Good Luck!   :)
+"""]]

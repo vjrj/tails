@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-23T01:47:09Z"
+ content="""
+There is not only *ONE* but *YOUR* solution.
+
+You should take the time to carefully read the [[documentation|doc]] of those different distributions, and make your choice depending on your needs and 'threat model': which tools you *need* to use, what do you want to protect you against, etc,etc 
+
+You should especially read the [[warning page|doc/about/warning]], to avoid a 'wrong security feeling'.
+
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-03-02T18:42:05Z"
+ content="""
+> So the ISPs have no interest, even for statistical purposes to record how many computers each client has connected to one IP, along with other details? 
+
+I think **they do** have interest, at least for quality of service, [commercial negociations](http://www.futureofcopyright.com/home/blog-post/2011/09/08/orange-and-cogent-fight-over-traffic-management-before-french-competition-watchdog.html) and/or for legal obligations, depending on the country you conect from.
+
+> And if they do, can they record all these? Are routers, specifically created for ISPs by companies, somehow \"bugged\"?
+
+A deep analysis of the [Syrian's internet monitoring system](http://www.fhimt.com/2012/02/29/opsyria-s04e02-the-iron-strike-investigation-now-open-for-fun-and-profit/) let us think that everything is monitored *and/or* filtered *and/or* recorded. When you compare the price of such a monitoring system with the interest for a state to obtain those informations, I think we should assume that *every ISP monitors everything*.
+"""]]

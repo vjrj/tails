@@ -1,0 +1,21 @@
+OP from https://tails.boum.org/forum/Open_external_port_for_i2p/#comments here
+
+i2p is working, but only barely. It is unusably slow most of the time, even after running all night.  Much slower than Freenet used to be. iMule (after installing) doesn't appear to work at all so far.
+
+While I am comfortable with the commandline and do write some code, iptables is am arcane mystery to me. I found this:
+
+http://how-to.linuxcareer.com/i2p-anonymity-for-the-masses
+
+" ... Allow traffic with TCP and UDP on port 20000
+
+iptables -I INPUT 1 -i wlan0 -p tcp --tcp-flags SYN,RST,ACK SYN 
+--dport 20000 -m conntrack --ctstate NEW -j ACCEPT
+
+iptables -I INPUT 1 -i wlan0 -p udp --dport 20000 -m conntrack --ctstate NEW -j ACCEPT
+
+As you can see here, I am specifying wlan0 as the interface to apply this rule. You may need to supply a different interface or remove this and -i to make applicable to all interfaces"
+
+i2p no longer runs on port 20000 by default so obviously these commands would be changed to reflect the actual port and interface name before restarting i2p.
+
+If I do this, will the rest of Tails iptables rules be unaffected so Tails will likely function per normal?
+

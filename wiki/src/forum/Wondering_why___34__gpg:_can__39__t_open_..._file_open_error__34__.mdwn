@@ -1,0 +1,15 @@
+I'm a common user, a chronic linux newbie --- on Linux Mint 10.  Following directions for linux command line at 
+
+<https://tails.boum.org/download/index.en.html#verify>
+
+all went well until final step "verify" and I got 
+
+    gpg:can't open 'tails-i386-0.iso.pgp' 
+    gpg:verify signatures failed: file open error
+
+It's no doubt a simple failure on my part as I'm nothing more than a common point-and-click-read-instructions user, but if it happened to me, maybe to others?  Is it maybe worth mentioning in the doc?
+
+Ultimately I used firefox addon mentioned for "other os" to check hash, and that seems to have done the trick.
+
+
+

@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-06-26T15:33:07Z"
+ content="""
+Thank you for your reply. I have also errors like these:
+
+Cannot stat sortlist entry \"live/overlay/var/run/utmp\"
+This is probably because you're using the wrong file
+path relative to the source directories
+Cannot stat sortlist entry \"etc/init.d/live\"
+This is probably because you're using the wrong file
+path relative to the source directories
+Cannot stat sortlist entry \"live/overlay/var/log/wtmp\"
+This is probably because you're using the wrong file
+path relative to the source directories
+
+
+and some errors 
+
+ERROR: ld.so: object '/usr/lib/libeatmydata/libeatmydata.so' from LD_PRELOAD cannot be preloaded: ignored.
+ERROR: ld.so: object '/usr/lib/libeatmydata/libeatmydata.so' from LD_PRELOAD cannot be preloaded: ignored.
+ERROR: ld.so: object '/usr/lib/libeatmydata/libeatmydata.so' from LD_PRELOAD cannot be preloaded: ignored.
+
+Are they expected ?
+"""]]

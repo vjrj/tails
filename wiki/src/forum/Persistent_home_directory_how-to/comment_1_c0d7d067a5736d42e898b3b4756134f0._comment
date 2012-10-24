@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="oops!"
+ date="2012-02-15T12:12:22Z"
+ content="""
+Stupido! I spoke too soon.  The problem with this is I can't umount the bound home dir to umount the encrypted drive -it's busy.  Numerous processes, including the desktop, access the home dir. Killing those processes with fuser -mk also kills the desktop and you're looking at a black screen.  Doh.
+
+I can't see a way in Tails to quit Gnome to a terminal, which might let this work.
+
+So there should be a better way to do this, maybe just symlinks after all.
+
+
+"""]]

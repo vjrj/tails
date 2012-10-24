@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I didn't get many tits for my tat there"
+ date="2012-10-01T07:24:20Z"
+ content="""
+>Before going further, I suggest you look at the last published research on the topic: Reliably Erasing Data From Flash-based Solid State Drives by Michael Wei, Laura M. Grupp, Frederick E. Spada, and Steven Swanson Proceedings of the 9th USENIX conference on File and storage technologies, 2011.
+
+At section \"3.3.2 Overwrite techniques\", it appears that Table 2 shows that 7 of 8 SSD could be erased with 2 passes and one drive wasn't erased with 20 passes. I suppose it is this one SSD that casts doubt upon trying to erase any flash drive.
+
+>Why do you think that a drive overwritten by shred will be filled with random bytes?
+
+Because shred is extremely hungry? :)
+
+I'm not sure if you noticed but \"amnesia\" erased the guide/questionnaire I wrote saying:
+
+>This section is not about TrueCrypt.
+>...:)
+
+Mind you this was deleted from a **discussion page** and included that condescending little smirk to rub salt into the wound. The documentation is probably wrong in saying that no graphical tool exists in Tails to overwrite an entire drive. TrueCrypt should be able to do this. As I explained/inquired, TrueCrypt or shred may destroy the drive in the process but perhaps we should just get used to having our hard work destroyed for no reason. :,(
+"""]]

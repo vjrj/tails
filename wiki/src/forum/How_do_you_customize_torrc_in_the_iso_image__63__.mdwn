@@ -1,0 +1,13 @@
+Hello everyone,
+
+Although the Vidalia included with Tails provides a temoporary copy/past torrc mod capability (only changes it in memory but not iso), it doesnt work. It doesnt allow anything to change when I paste a new one in.
+
+Why I desire a change.
+
+Tails allows single hops. I saw the threads from NSA employees on the Tor forum trying to persuade them to allow this (before it existed). I can only presume this was to make their job as nixnix and jalopy nodes easier by being the one node that can see the origin and destination IPs.  No thanks, I will settle for no less than three hops. This requres a change in torrc.
+
+I also want to exclude certain nodes and set preferred entry nodes/guards as well.
+
+It would also be nice to run a relay and hidden services too by just booting up with the CD. Understandably, a server would have to exist for hidden services so a XAMPP for Linux running as localhost would be NICE too?  All these require a custom build.
+
+How can such custom builds be done with Tails? The ability to do that would take it from great to freggin awesome.

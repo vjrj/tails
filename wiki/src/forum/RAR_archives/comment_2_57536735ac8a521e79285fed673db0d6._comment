@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Install rar on Tails"
+ date="2012-03-11T00:50:41Z"
+ content="""
+sudo sh -c 'echo deb http://ftp.us.debian.org/debian/ squeeze nonfree  >> /etc/apt/sources.list'
+sudo apt-get update
+sudo apt-get install unrar
+"""]]

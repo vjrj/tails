@@ -1,0 +1,8 @@
+I really love Tails! It's the best OS for privacy!
+
+Only a suggestion for a next release:
+
+Please build in an option to exclude exit nodes from specific countries. I think it's much safer to exclude exit nodes from your own country. Especially in smaller countries where are few Tor-users, it can be dangerous to use exit nodes from your own country.
+
+In the Tor Browser bundle it is possible to use for example: ExcludeNodes {us}. But in Tails it does't work. Please fix this next time, if possible. Thank you!
+

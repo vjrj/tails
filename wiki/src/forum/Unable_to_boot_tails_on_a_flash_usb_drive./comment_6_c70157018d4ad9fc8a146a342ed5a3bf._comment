@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Unable to boot tails on a flash usb"
+ date="2012-06-25T14:02:15Z"
+ content="""
+Refuses to boot. Running on Ubuntu 12.04 64bit. Following message delivered on boot:
+
+(process: 267): GLib-WARNING **: getpwuid_r(): failed due to unknown user id(0).
+
+All procedures to boot from flash followed. Will boot successfully on VMWare and VirtualBox.
+
+Other Linux distros boot successfully from USB.
+
+Sort it, please.
+
+
+"""]]

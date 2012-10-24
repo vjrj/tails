@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-03-11T23:33:37Z"
+ content="""
+>email via an email client has SSL/TLS for communication with the email provider (i.e. to encrypt your login details)
+
+So using SSL/TLS for both incoming and outgoing email encrypts only the username and password, not the text?
+
+Is that the same for a webmail service that uses https?
+
+If that is true, then the only way to encrypt text in an email message, whether by webmail or email client, is by using something like OpenPGP?
+"""]]

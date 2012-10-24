@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-04-03T18:20:41Z"
+ content="""
+When will obfsproxy be included?
+
+>Using a proxy to connect to the Tor network (bridge or not) doesn't hide anything from your ISP, at least not in a strong sense.
+
+For me, this will be good enough for now. Just looking at it, the ISP will not be able to tell I'm using the Tor network unless they dig around. They have money to make anyway, not time to waste. 
+
+>You can do this via the HTTPProxy, Socks4Proxy and Socks5Proxy Tor options, which are also available in the Vidalia settings.
+
+Alright so configurating a Tor bridge and proxy (proxy>Tor bridge) will not need any special care (besides configuration in Vidalia as you said) or cause any complications?
+
+
+>Tails' Iceweasel is already configured to use Tor, so this will be an issue. To get this working you probably need to disable FoxyProxy and install and configure something like ProxyChains.
+
+There should not be any issues if I skip the configuration and simply connect to the proxy via typing in the name in the address bar of Iceweasel. (use one of those proxies)
+
+"""]]

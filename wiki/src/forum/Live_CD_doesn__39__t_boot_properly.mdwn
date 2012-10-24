@@ -1,0 +1,5 @@
+Hi! I have downloaded the ISO and checked its integrity. I burned it on CD with Brasero, on lowest speed.
+If I boot from it, I can see the splash screen with the language selection. After det a blue/white status bar fills up as the CD is loading. But then, the screen stays black. It is audible, that the CD-Drive is working, but nothing changes. After a while, the drive stops, and the screen is still black. If I press ctrl+alt+del, it spins the CD again, and if I Press it again, it opens the CD tray and reboots.
+My notebook has only intel HD 3000 graphics, but support for it should be fine in linux kernel 3.2.
+If I try to put the Iso on a USB-Drive (with the method described on this page, with  cat [.iso] > /dev/sdx and so on) and then try booting from it, it only says "Operating system not found".
+So, what can I do to try Tails?

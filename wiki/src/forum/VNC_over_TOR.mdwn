@@ -1,0 +1,3 @@
+Is a good idea to connect to a tightvnc server over tails?
+
+VNC_Viewer ==> SSH_Tunnel ==> Tails ==> || TOR Network || ==> TOR_SSH_Service ==> SSH_Server ==> TightVNC_on_Win

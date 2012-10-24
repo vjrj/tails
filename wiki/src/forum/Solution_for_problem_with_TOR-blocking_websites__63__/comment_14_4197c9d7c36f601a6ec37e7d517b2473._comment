@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-09-28T02:54:11Z"
+ content="""
+>First I want to connect to Tor and then surf to a 'owned' VPS where a proxy is installed. About anonymity at this point: my own personal VPS / Proxy will NOT have any relation to me.
+
+Do you plan to allow others to use your proxy? If so, only friends or open public access?
+
+Does potentially tying *all* your Tor traffic together like this - to a single user (ip address) pose any concern? This \"tying\" would obviously be present between all hosts visited during a Tor session *and* between all subsequent sessions! ...i.e. *they'd* know (and could prove) that *all* your traffic history is yours.. is this a concern on its own?
+
+Obviously, having lumped all your traffic together like this, tying *any* item of that traffic history to you (a single absent minded login to any account which can be linked to you, tracing you via your proxy, an indiscreet post somewhere, etc) would then be catastrophic.
+
+>VPS is paid with cash by regular mail, sent by a third anonymous person that I only paid with well washed Bitcoins. Is this the only threat to anonymity in this design?
+
+This sounds sketchy to the point of being worrying!...
+
+The odd *cash in an envelope* payment method... what reputable VPS provider operates like this? Do you have any connection with this operator?
+
+Why the man in the middle? How well do you know him?
+
+I'm not sure this aspect is *the only threat* but it really does stand out - it'd give me nightmares!! ;o)
+"""]]

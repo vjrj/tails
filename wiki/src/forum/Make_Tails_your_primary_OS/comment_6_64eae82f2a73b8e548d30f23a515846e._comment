@@ -1,0 +1,11 @@
+[[!comment format=html
+ ip="127.0.0.1"
+ subject="Yes! You can do this..."
+ date="2012-02-24T14:28:44Z"
+ content="""
+<p>Just drop the Tails .iso file somewhere convenient on the HDD's file system (mine lives in /boot), then edit your boot config to include it.
+
+<p>Start here if you need more info: <a href=\"https://tails.boum.org/forum/Boot_live_CD_.iso_dierctly__63__/\">https://tails.boum.org/forum/Boot_live_CD_.iso_dierctly__63__/</a>
+
+<p>That the sort of thing you're after OP?
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Read the fine manual"
+ date="2012-03-22T16:15:45Z"
+ content="""
+Have a look on how to [[customize|contribute/customize]] and [[build|contribute/build]] your own Tails image.
+
+Be aware that all the changes you want to make will likely make your Tor client standout of the global anonymity set.
+"""]]

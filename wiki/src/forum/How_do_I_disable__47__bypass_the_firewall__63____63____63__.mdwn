@@ -1,0 +1,39 @@
+Can anyone tell me how to *TEMPORARILY* circumvent/disable/stop/bypass TAILS' firewall?
+
+Most of the WiFi hotspots I find demand a "login" or acceptance of T&C... invariably achieved through some sort of DNS subversion. Only after clicking on the "accept" or "login" button they've thrown at you do they allow your MAC access to the 'net. Suppose they want to monitor/restrict your browsing the lazy... by forcing you to use their DNS server.
+
+...anyway, it seems to completely stymie TAILS. After connecting to the hotspot TOR never connects and there's no obvious way around to solicit that "accept" button.
+
+I had thought to:
+
+0) Boot into TAILS
+
+1) Change mac (terminal, $ sudo macchanger -a eth1)
+
+2) Temporarily disable torbutton (right click on onion, prefs, untick "disable toggle to prevent accidents", ok, right click on onion again, toggle status)
+
+3)* Temporarily disable firewall
+
+4) Connect to hotspot (associate)
+
+5) Point iceweasel at some common http (no "s") site (e.g. http://microsoft.com )
+
+6) Click on the stupid "accept" button which appears instead of microsoft.com 
+
+7) Restart torbutton (right click on onion once more, toggle status)
+
+8) Restart firewall
+
+9) Continue about my business without being spied upon, pwned, mined, phished, penetrated and god knows what else by every weirdo, script kiddy, government agency and malignant corporation on the planet.
+
+I realise the plan is not ideal... but hopefully there aren't too many vulnerable services running in on TAILS... and I'm not *TOO* freaked out by the odds of being unwillingly pwned by the hotspot network during the "login"
+
+Unfortunately I've encountered a couple of flaws in my plan:
+
+It's rather convoluted and insecure. Anyone know of a better way?
+
+Also:
+
+I can't do it. How on earth do you achieve 3) and get around the firewall??!?
+
+I've tried everything I can think of... shouting all manner of gibberish at iptables... "# iptables -X" etc., even installing a .deb of firestarter... but can't get a hint of a view outside. Does anyone know how to do this??

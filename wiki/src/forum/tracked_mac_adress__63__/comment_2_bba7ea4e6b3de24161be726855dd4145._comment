@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-05T17:53:01Z"
+ content="""
+MAC and other unique hardware IDs (motherboard, a few Intel CPUs, HDDs, peripherals) can be leaked by rogue plugins and malware. If the hardware vendors keep logs this may be used to identify you.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Better Magnet Link"
+ date="2012-08-20T17:49:03Z"
+ content="""
+Wait, a magnet link that better represents the torrent would be the following:
+
+magnet:?xt=urn:btih:239631f4181289bdfb51c5ea078c6ffa868ab790&dn=tails-i386-0.12.1&tr=https%3A%2F%2Fwww.les-renseignements-genereux.org%2Ftracker%2Fannounce
+"""]]

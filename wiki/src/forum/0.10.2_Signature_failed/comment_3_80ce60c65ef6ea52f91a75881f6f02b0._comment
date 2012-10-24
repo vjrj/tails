@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-03-18T15:12:36Z"
+ content="""
+You're right: verifying the signature, after [[building some trust in the Tails signing key|doc/trusting_tails_signing_key]] is the only way to check the authenticity of the Tails that you downloaded. Checksum checking is only provided as a cheap alternative for people that don't use OpenPGP.
+
+I think you were confused by the fact that there are two differents signatures when you download with a Torrent:
+
+  - tails-i386-0.10.2.torrent.pgp, which is the signature of the torrent itself, so that you can check the torrent file itself before downloading it
+  - tails-i386-0.10.2.iso.pgp, which comes inside the torrent and is a signature of the ISO image that you can use to verify your Tails after downloading it
+
+From what you explained in your first post, everything seems ok.
+"""]]

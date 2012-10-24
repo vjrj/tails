@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-15T15:08:14Z"
+ content="""
+Does Tor's DNS resolution do about the same thing as OpenDNS's DNScrypt? If so, then why does OpenDNS claim its DNScrypt is a MITM solution when Tor, and Tails, does not make that claim?
+"""]]

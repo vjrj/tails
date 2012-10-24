@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-17T05:36:12Z"
+ content="""
+A similar tread talks about the very same thing you talk about:
+
+https://tails.boum.org/forum/Unsafe_web_browser_unable_to_save_downloads/
+
+Overall response: It's a bad idea as can open up new avenues of attack. One possible avenue is talked about in that tread.
+
+A better solution IMHO than is talked about in there regarding sandboxing would be a two-layered virtualized system:
+
+https://tails.boum.org/todo/Two-layered_virtualized_system/
+
+but don't your hope up, this would be a big improvement but also extremelly costly of developers time who are focused in other tasks. No idea if this will ever be implemented.
+
+Without this you should not expect the unsafe browser to able to do anything else than to enable logins (nor should you want it to)
+"""]]

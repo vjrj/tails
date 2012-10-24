@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="What do they see"
+ date="2012-06-19T07:10:27Z"
+ content="""
+Basically, your ISP will see an encrypted dataflow going to and from TOR entry node.  They have no way to tell what the frames contain.
+"""]]

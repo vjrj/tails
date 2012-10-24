@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-05T17:50:11Z"
+ content="""
+I think - I do not know this for sure - that on journaled FS in general one can not reliably wipe files. That would mean ext2, FAT, the older the better.
+
+For this and many other reasons (leakage to swap, tmp, logs thumbnails, \"slack space\", bad sectors...)  I question the validity of this request. 
+
+Always use FS level encryption.
+"""]]

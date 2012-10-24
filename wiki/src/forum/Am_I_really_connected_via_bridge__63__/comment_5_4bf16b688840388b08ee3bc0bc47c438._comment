@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-07-01T15:49:50Z"
+ content="""
+(All the above questions are about the Vidalia GUI in general, please ask them to the Vidalia support instead.)
+
+> But here's the part I completly fail to comprehend: Untill now all the connections in the Vidalia list were the \"instances\" of the bridges I've add right after Tails start. Like I've said 4-6 connections for every bridge. But suddenly poof - list of the connections (and the relays on the left) refresh itself. New connections populate the list - BUT none of them seem to be related to my bridges! Just a bunch of completly diffrent connections with no trace of my bridges' IPs
+
+It may be you found a bug in Tails experimental bridges support.
+Please describe the exact steps that lead you to this result.
+
+> but bridges are still listed in netstat. So am I connected through bridges or not? Why on the begining bridges were listed in vidalia and then (after refresh) they disappeared?
+
+Are connections to non-bridges listed in netstat?
+
+"""]]

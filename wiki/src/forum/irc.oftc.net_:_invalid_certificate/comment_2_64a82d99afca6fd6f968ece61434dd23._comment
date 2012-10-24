@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="more informations"
+ date="2012-06-09T18:08:08Z"
+ content="""
+So...
+
+I tought about a man-in-the-middle attack, so I tried using a different exit node with Vidalia 'New identity' : the message is not appearing anymore..
+
+I'm a bit confused, and don't know what to do..
+
+Here is the exit node's IP that I was using *when the message appeared:* **173.254.216.67**
+
+Does anyone have knowledge about [SSL observatory](https://www.eff.org/observatory) ? Do you have any tips to investigate this deeper?
+
+william
+"""]]

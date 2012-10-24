@@ -1,0 +1,17 @@
+my tails version is 0.12.1 and signature is verified, good
+
+in a vm (virtualbox) tails works fine
+
+same iso on a usb key booting a i386 system result with tails not starting iceweasel 
+
+i've tried english and french : idem
+
+the iceweasel icon appears in the task bar, and after a while disapears.
+
+starting in safe mode from a console gives an error :
+[quote]
+$iceweasel -safe -mode
+Bus error
+[/quote]
+
+is it a bug ?

@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-03-01T19:35:42Z"
+ content="""
+----Please note that your MAC address, spoofed or not, are only used for a single physical hop in the network, so it will only be visible on your LAN. So, your router will see the MAC address, not your ISP (the ISP will only possibly see your router's MAC address). For your deniability defense to work you'd need to verify that your router stores detailed logs about which computer connects to it, including date stamp and the MAC address. ----
+
+
+I see, but how exactly can i know which software or maybe which malware do send my eth or wlan cards' MACs out to whatever location for whatever reason? This is another identifying/categorising factor for internet users which i think is not talked about too much. Or maybe i m just paranoid? 
+
+
+
+
+ 
+----I didn't because experience has taught me that doing so rarely leads anywhere. Look at this thread for technical arguments why it doesn't matter that much if Tor is a run by [scary military/intelligence agency].----
+
+
+Sure it can lead to many places fellow, i do understand your point though, you cant please everyone, nor are you in any way obliged to answer each user's doubts and fears. However, you could expand the discussion a bit, for example you could say your personal opinion, are you also \"loving it very much\" to teach policemen about how to use Tails perhaps, like that Tor fellow on the video said he loves to talk to police about Tor? Or you could answer these questions i made, if you were a simple user, would you have your reasonable doubts about who is who in Tor behind the scenes? If you were an intelligence agent, would you be furious that such a tool exists for everyday users? Would you like to control it? Help us determine that we are not insane to ask these questions ourselves. 
+Of course, you are not obliged to answer any of these, you are providing us with a free OS and solving our technical questions so we should be grateful (unless the fears are true), it would just add to the discussion if you did. I understand your strong point is that a Kalashnikov works equally well in the hands of a russian and in the hands of an NSA officer, true. Or a Smith & Wesson, in the hands of an FSB agent, or of a cowboy. Or a stealth aircraft in the hands of the US army, or the Iran Army. Understandable. A tool is a tool. But still one cant be too careful these days, wouldnt you agree>?
+
+
+
+
+
+
+ 
+----What I meant was that since your network traffic goes to the ISP they can simply look at which physical cable your packets originate from to learn that they came from your house. They don't need to look at IP addresses (and even less so MAC addresses). Real world analogy: if I have an outgoing mailbox that only I can access the postman collecting the mail will know I'm responsible for all of it even if I faked or blanked some mails' return-addresses.----
+
+
+So the ISPs have no interest, even for statistical purposes to record how many computers each client has connected to one IP, along with other details? And if they do, can they record all these? Are routers, specifically created for ISPs by companies, somehow \"bugged\"?
+"""]]

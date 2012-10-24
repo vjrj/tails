@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-03-03T00:29:28Z"
+ content="""
+Per private email it turned out the OP had used the signature for the torrent for verifying the .iso (the name of the sig was incorrect for whatever reason). The \"diff\" above is presumably between the signatures of the image and the torrent. Case closed.
+"""]]

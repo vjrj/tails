@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-21T11:50:12Z"
+ content="""
+> Are there any plans for a special version of Tails to be installed in virtual machine?
+
+Tails already works well in most VM environments I know of.
+
+> if this special version will allow to copy paste between host na VM
+
+This is something that can generally be configured in your VM software, not in the guest OS.
+
+>  and it will enable persistence of settings
+
+[[Upcoming|todo/persistence]] in 0.11, and not only for VM users.
+
+> installation of let's say Flash (with BetterPrivacy Firefox plugin)
+
+Shooting yourself in the foot, for right or wrong reasons, is already possible, though unsupported.
+
+"""]]

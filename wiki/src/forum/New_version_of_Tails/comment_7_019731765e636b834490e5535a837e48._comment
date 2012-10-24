@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-08-21T17:29:53Z"
+ content="""
+Since icedove is being considered back perhaps Tor-birdy should also be considered when it is ready. Since it would be already configured for privacy it would only be necessary to change what is specific to tails, like using the system tor process and not its own. 
+All in all, less work for the developers and more functionality for Tails.
+"""]]

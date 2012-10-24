@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-13T23:58:17Z"
+ content="""
+HTTP is an application layer protocol, and TCP is a transport layer protocol which HTTP happens to use. You probably should read up on the [OSI model](http://en.wikipedia.org/wiki/OSI_model) to see why there's no issue here.
+"""]]

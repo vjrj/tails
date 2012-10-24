@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Booting Tails from CD to USB on MAC"
+ date="2012-03-18T23:55:42Z"
+ content="""
+Maybe this way. For that, you need Tails-LiveCD and Tails-LiveUSB:
+
+1. Put the LiveCD into the optical drive, and plug the LiveUSB
+2. Boot or reboot the MacIntel, holding the **OPTION** key. This will give you the ability to boot on the LiveCD.
+3. One time you are in the LiveCD boot menu, select your language, and press the **TAB** key to edit options
+4. Change 'live-media=removable' to ''live-media=removable-usb' and maybe more, depending on how your LiveUSB has been created.
+5. Press **ENTER**
+6. As soon as the kernel and the initramdisk have been loaded, eject the CD.
+
+I think this should work, but have no Mac to test it. If someone tries, please, a feedback will be welcome.. 
+"""]]

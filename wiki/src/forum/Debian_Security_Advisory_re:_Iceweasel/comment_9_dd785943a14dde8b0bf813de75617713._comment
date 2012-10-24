@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="TBB vs. Tails's Iceweasel?"
+ date="2012-03-25T01:19:02Z"
+ content="""
+BTW, what kind of a relationship/difference in design, if any, exists between the stand-alone TBB and Tails's Iceweasel? At least so far TBB follows the regular Firefox release process seeing they released FF 11, but if Tails switches to Iceweasel ESR in the future, as suggested above, it could end up remaining with a lower major version number than TBB's Firefox. Could this create a concern of fingerprintability?
+
+Put another way: would Tails users risk getting singled out from TBB users through some subtle differences in how the two \"Tor Browser\" implementations function? Also, have you in general taken any steps to ensure that Tails's Iceweasel configuration (or at least possibly observable parts thereof) resembles that of TBB's as much as possible (or vice versa)?
+
+Some notes:
+
+- Tails ships with Adblock enabled, TBB doesn't. TBB explicitly refuses to support blocking ads by their [design document](https://www.torproject.org/projects/torbrowser/design/). (Personally I think the users would benefit most from some kind of a unified default blocking configuration that could be turned on or off at users' discretion, but custom configurations would be discouraged. Some people will still be wanting to turn off ads, no matter what. So far I like Tails's approach.)
+- What about the TBB patches to Firefox, also described in the document linked above? Some of them might be noticeable from the outside (e.g. the HTTP pipelining one) and thus able to reveal the usage of TBB to websites. Does Tails have them aswell?
+- For reference, here are the prefs.js files for TBB's Firefox:  
+<https://gitweb.torproject.org/torbrowser.git/blob/master:/build-scripts/config/no-polipo-4.0.js>  
+and Tails's Iceweasel:  
+<http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/iceweasel/pref/iceweasel.js>  
+<http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/iceweasel/profile/user.js>
+"""]]

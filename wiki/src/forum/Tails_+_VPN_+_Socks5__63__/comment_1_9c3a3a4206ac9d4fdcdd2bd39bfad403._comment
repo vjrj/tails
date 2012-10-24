@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-05T16:53:58Z"
+ content="""
+If I understand the setup correctly you want to use a portable device on an open wifi, connect to a VPS over VPN, on the VPS you got Tor/Tails running and use that to browse the web?
+
+That's pretty insecure. A VPS doesn't guarantee you any privacy. Anyone (provider, lea, hacker) could be shoulder surfing without you noticing anything and simply circumvent the anonymity Tor provides. Tracing back to the open wifi is easy - a single hop VPN doesn't guarantee you any anonymity. That leaves obscurity through Tor (you hope no one is interested enough in the Tor client IP to investigate and find out it's a VPS) and the open wifi as the last defense. That's weaker than a vanilla Tails setup.
+
+If you want to use VPN and Tor together securely you need to control the Tor client yourself. E.g.:
+client-> open wifi -> Tor -> VPS/N or client -> open wifi -> VPN -> Tor (which is running on the client)
+
+You can improve that by using 3 different physically secure computers for each task: client -> Tor Proxy -> VPN proxy
+
+In your setup one client vuln is enough to completely break anonymity, in the above setup the adversary needs at least three.
+
+
+
+"""]]

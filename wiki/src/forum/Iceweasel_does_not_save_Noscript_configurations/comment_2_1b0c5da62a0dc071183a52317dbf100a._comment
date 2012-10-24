@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Seems to SAVE Some, not Others"
+ date="2012-03-30T05:52:28Z"
+ content="""
+Each time I restart Iceweasel, noscript erases /some/ of the configuration changes I made (such as /disabling/ scripts globally) but others seem to be retained. Such as: forbidding frames, iframes and meta redirections.
+
+Go figure.
+"""]]

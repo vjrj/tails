@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="unfortunatelly.."
+ date="2012-02-29T23:28:16Z"
+ content="""
+> I've been told the best way to get them off of there is just trying to delete them off and hope the provider will take care of the rest for you.
+
+Unfortunattely this is right: you can't be sure that the emails you stored on the provider's server will be erased (erasing costs money, and keeping tracks provides money, so..). Tor can't help you so much if your email account is already linked to your IP and so to you.
+
+But you are on the right way! Reading the Tor documentation is a good first step, and will the help of Tails you can get use to Tor. If you want to use email without being tracked, you should have a look to some documentation about PGP encryption.
+
+When you will feel confortable with all those tools and have a good overview of how internet is working, it will be time to define your own 'security politic': which tools you need, how to use them, from where, with who, etc.
+
+Good luck!
+
+
+--
+"""]]

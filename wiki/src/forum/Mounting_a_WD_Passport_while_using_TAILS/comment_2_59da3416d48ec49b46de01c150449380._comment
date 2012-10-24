@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="More Info"
+ date="2012-10-08T19:56:15Z"
+ content="""
+The drive is set up as NTSF file system. It uses hardware encryption FED, and uses an unlocker. When I look at drives in the disk manager in TAILS it shows both the main volume (900+ Mb) and it also shows the Unlocker as a drive (a small volume used just to authenticate the password) This uses key encrypted key technology. In windows as soon as you click on the \"unlocker\" it asks for your password. Once it is entered the main volume becomes available. The problem is that in TAILS it shows the unlocker as an EXE, but when I click it I just see a few other folders but no way to enter the password. I assume if I can somehow emulate Windows in Tails, I can enter my password, and the main volume will then be available.
+"""]]

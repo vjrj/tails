@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-06-28T12:58:51Z"
+ content="""
+Sorry but Tails development resources are far too limited at the moment to handhold people to build Tails with their very specific needs and environments. You need to do your research by your own.
+
+If you have configured `squid-deb-proxy` or `apt-cacher-ng` somewhere in your network, you can use the `extproxy` option of the Vagrant build system.
+"""]]

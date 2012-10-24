@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-08T08:01:04Z"
+ content="""
+> I have a question: why does \"Tor over Tor\" is not recommended? is the anonimity that Tor gives under risk in this scenario?
+
+Yes, Tor was just not designed with this scenario in mind and this is not a well-studied situation, I imagine. One obvious difference will be that unlike a normal Tor circuit a \"chained\" Tor circuit may contain the same node more than once. Imagine if the entry node in the first Tor circuit is also picked as the exit node in the second Tor circuit.
+
+"""]]

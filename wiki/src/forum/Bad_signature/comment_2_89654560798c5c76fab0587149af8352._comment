@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-01T14:21:37Z"
+ content="""
+Given that the images' file sizes are the same (and I assume you mean *exactly* the same, to the byte?) this doesn't look like a typical download error unless your download manager is truly broken. It could be a compromised .iso, even though I'm skeptical, but if you want to help us checl this out I guess the easiest would be if you could send the bad .iso to us somehow. Please contact us per email on tails@boum.org so we can arrange something.
+"""]]

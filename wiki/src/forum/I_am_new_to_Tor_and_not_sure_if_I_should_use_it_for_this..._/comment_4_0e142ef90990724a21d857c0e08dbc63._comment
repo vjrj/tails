@@ -1,0 +1,32 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="unfortunatelly.."
+ date="2012-03-01T11:06:32Z"
+ content="""
+
+There is no easy answer to those questions:
+
+**If you use TOR from home :**
+
+**(+)** your ISP won't see the content of your communication
+
+**(-)** your ISP will see that you use Tor
+
+**If you always use Tor now:**
+
+**(+)** you will be kind of anonymous on internet
+
+**(-)** you are not [[protected against everything|doc/about/warning]]
+
+**etc,etc**
+
+Your solution depends on your threat model, on the political situation of your country, on the usuability you want to have with your tools..
+
+ciao
+
+PS: I'm not english native speaker, can you please make short sentences and use paragraphes?
+
+
+
+--
+"""]]

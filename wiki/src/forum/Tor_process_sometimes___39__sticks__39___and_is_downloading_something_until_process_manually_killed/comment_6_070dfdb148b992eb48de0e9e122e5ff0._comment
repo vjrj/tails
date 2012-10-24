@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-08-16T09:30:03Z"
+ content="""
+this happens in Tails 0.12.1.
+
+to be certain my Tails Tor and Polipo binaries haven't been poisoned, here are sha512 sums for the tor and polipo binaries. please confirm they match yours:
+
+89d519be42b0b5811f88470ba16aaf80031e56ab4fb4b02b20cbe9f8f5620d1d6c7b11cbc7e8f3316d641a9e20ca895dcbc18532b689404991d866d3de7f0e44  tor
+
+8e5d71124159ea9dc594cfc87ef01f539f685197395a75e482111cfb3bda23ac7835e6ca13bebee442d34c94c8873e031c33551224f084574841d3a4333f5820  polipo
+"""]]

@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-12T11:11:10Z"
+ content="""
+> So using SSL/TLS for both incoming and outgoing email encrypts only the username and password, not the text?
+
+SSL/TLS encrypts the complete email (recipient and other headers, and the message) but that encryption is not end-to-end (i.e. from you to your recipient); your email service provider will decrypt the email and see it in full, so the message is not made completely confidential by SSL/TLS. This is why I prefer to think of SSL/TLS as only protecting your login credentials.
+
+> Is that the same for a webmail service that uses https?
+
+You get the exact same thing as above.
+
+> If that is true, then the only way to encrypt text in an email message, whether by webmail or email client, is by using something like OpenPGP?
+
+To get your email message encrypted end-to-end (as I said before: \"so only you and your recipient can read it\") you must use OpenPGP, yes. The \"From\" and \"To\" fields are of course not encrypted, so your still susceptible to traffic analysis, but if both of you use anonymously registered email accounts you get the best out of it (possible improvements: use mixmaster or mixminion). Also your email \"Subject\" field is not encrypted so it can leak information unless you keep them uninformative.
+"""]]

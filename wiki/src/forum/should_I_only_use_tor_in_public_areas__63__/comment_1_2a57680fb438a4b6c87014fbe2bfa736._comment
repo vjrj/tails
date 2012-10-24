@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-27T13:16:39Z"
+ content="""
+Using Tor on a public wifi (and avoiding CCTV) adds another strong layer to your identity. If it's necessary depends on your \"threat model\" and circumstances.
+
+Without you telling more about yourself this is a hard question to answer. But asking you to tell us too much about yourself via this insecure medium would be a poor advice. Hence all I can say is to educate yourself and answer this for yourself. Some pointers:
+
+Where do you live? Is your government openly hostile to the idea of free speech and free communications, is it only openly interested in bad people, i.e. terrorists, or is it not very interested in the private affairs of its citizens either due to the lack of technological knowledge and equipment or - how rare - due to strong and enforced laws protecting them. 
+In some countries it may be enough to trust your ISP to protect your interests and identity even against the government and agencies, in others ISPs, private institutions and government are actively colluding to spy on all citizens (and then round up and kill any dissidents they find).
+
+Has your country access to NSA-like technology? It could be they already know how to break some of the cryptography used by Tor (or GPG, \"https\"...) Or not. (I don't want to sound like a conspiracy theorists but there are know and unknown unknowns and if my life was on the line I'd only trust OTP (check wikipedia) created with pen and paper).
+
+Do your activities make you an actively targeted person of interest? In this case Tor alone does not protect privacy or anonymity if а parked van outside could be eavesdropping on everything you do using TEMPEST (check wikipedia), active network attacks against Tor are possible too.
+
+If you are just one target out of many it's most often enough to be \"too expensive\" for an adversary. You'll be left alone as low hanging fruits are targeted instead.
+
+Apart from govs there are other parties that could be potential adversaries: corps interested in your private data because they are in the business of selling it, one type of hackers interested in stealing your money and some (few) others just interested in messing with your stuff for \"lulz\".
+
+Tor and using open wifi introduces some new problems and risks here: If you live in the sort of country where ISPs are generally trustworthy it's much more likely that some hacker or skiddie runs an exit node or wifi network who sniffs or actively injects malicious data than this happening at the ISP. While never anonymous against your own ISP when not using Tor you are more private and secure without it in this case.
+
+For this reason, when using web services such as email where you log in using your real name you should not be using Tor nor open networks unless you trust \"https\" (TSL) and the whole certificate industry, check that the connection is secure each time and only use services that correctly use TSL.
+
+For doing emails privately look into GPG. You can use it to make sure that no one else except for the recipient can read an email and to verify the identity of a sender. (Subject lines and IP addresses when not using Tor are not protected.)
+"""]]

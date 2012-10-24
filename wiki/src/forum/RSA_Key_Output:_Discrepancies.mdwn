@@ -1,0 +1,22 @@
+The example image shown at 
+https://tails.boum.org/download/index.en.html
+shows the following gpg output:
+
+(*NOTE: I added the double-asterisks to highlight the differences in the "RSA Key" outputs. I thought that leaving spaces between the asterisks and the words, as I did, would cause the words within the asterisks to appear in bold-text. Obviously, I was wrong.*)
+	
+	gpg: Signature made Sat 30 Apr 2011 10:53:23 AM CEST
+	gpg:                using RSA key ** 1202821CBE2CD9C1 **
+	gpg: Good signature from "Tails developers (signing key) <tails@boum.org>"
+
+
+As you can see below, my output was slightly different:
+
+	gpg: Signature made Wed 25 Apr 2012 {...} using RSA key ** ID BE2CD9C1 **
+	gpg: Good signature from "Tails developers (signing key) <tails@boum.org>"
+	gpg:                 aka "T(A)ILS developers (signing key) <amnesia@boum.org>"
+
+Are the differences between the two any cause for concern?
+
+I am especially concerned about the first eight digits shown in the example that are absent from my output. And also the letters "ID" present in my output but absent from the output in the example. 
+
+Thank you.

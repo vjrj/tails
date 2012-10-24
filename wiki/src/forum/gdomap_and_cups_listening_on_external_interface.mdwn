@@ -1,0 +1,3 @@
+Why is gdomap needed? I've never seen it or needed it in any of my debian installs and tails seems to work fine without it. 
+
+Gdomap and cups are listening on the external interface which makes me nervous. (Yes, I know iptables will prevent most access). 

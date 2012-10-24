@@ -1,0 +1,13 @@
+$ lsof | grep anon_inode
+anon_inode
+
+$ lsof | grep dev/null
+/dev/null
+
+I find several anon_inodes and over a dozen /dev/null listings, in some listings for each there are several processes which are repeated. I'm expecting this to be a rootkit, but none of the rootkit scanners find anything. Why are these two listings appearing for various processes? I'm not running any virtual machines, emulation, shares, printers, servers, etc. but these listings continue to appear, it doesn't matter what Linux distro I use, these continue to show, even when disconnected from the internet.
+
+What are they?
+Why are they appearing?
+How can I stop these from running? (if they're bad)
+
+I've searched the web and cannot find anything which explains these to my satisfaction.

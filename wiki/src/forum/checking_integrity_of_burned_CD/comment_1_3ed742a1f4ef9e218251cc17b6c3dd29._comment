@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-24T09:59:31Z"
+ content="""
+> Suppose someone exchanged CDs and replaced your burned version of Tails (10.1) with their version.
+
+In this situation you cannot trust *any* result produced by Tails from the compromised CD, so all verification must be done from a trusted system running on trusted hardware.
+
+> How would you check the integrity of the burned CD to insure it is the same one?
+
+Insert the CD into the trusted system (but do not mount it!) and say it appears as device `/dev/cdrom`. Then run:
+
+    gpg --verify tails-i386-0.10.1.iso.pgp /dev/cdrom
+
+and
+
+    sha256sum /dev/cdrom
+
+and compare the results with what's [[expected|download#index3h1]].
+
+> How could you determine if your traffic is sniffed like that and sent over the wire or covertly saved somewhere?
+
+If you have done the above step (verification of the media's integrity) this step shouldn't be necessary unless you don't trust us Tails developers, or if you think that we may have been unknowingly compromised. What you need to do is to make the trusted system into a network bridge or gateway that Tails uses to reach the Internet, e.g.:
+
+    [Compromised Tails] <--> [Trusted system] <--> Internet
+
+The trusted system should dump all network packets so you can analyze them. For starters, you should make sure all traffic is directed to the Tor network ([[this|contribute/release_process/test#index4h1]] section of our test suite may be helpful, at least the last point). But since the attacker could have made the compromised Tails skewed towards picking Tor nodes that it controls we need to dig deeper into Tor's behaviour. You'll have to reboot Tails *many* times and be able to decrypt the Tor streams (i.e. you need to get the session keys to the trusted system) so you can verify that the path selection seems legit, and that no extra \"leaky\" information is added in the payloads. Etc. It's not an easy task.
+"""]]

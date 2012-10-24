@@ -1,0 +1,5 @@
+Hi,
+I'm trying to buid tails in a VM VirutalBox with a Debian 6.02. But building fails with this message :
+" The folliwing packages have unmet dependencies
+linux-image-2.6-486 : Depends: linux-image-486 but it is not going to be installed"
+Does somebody knows what's wrong ?

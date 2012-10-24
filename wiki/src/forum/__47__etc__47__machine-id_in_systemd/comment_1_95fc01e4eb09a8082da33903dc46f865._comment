@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-22T20:29:56Z"
+ content="""
+Another OS with clueless devs? Try to read about dbus-uuidgen, and when it's invoked by dbus scripts.
+"""]]

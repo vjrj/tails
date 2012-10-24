@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="THIS IS THE FIRST PART OF THE MESSAGE"
+ date="2012-02-18T01:09:08Z"
+ content="""
+
+Alright fellows, hello to the developers and thanks, from the world for this live distro you have made and are updating. I want to find ways to maximize anonymity using the Tails os. Frankly, i am using Tor for a long time and to be truly anonymous, i don't feel much at ease if i use Tor or Tails from my house. I still connect through my IP. I was wondering if there is a router that has some hardware mechanism built in, for changing the IP! I guess not. I mean in some way to be able to hide from the ISP that i am even connecting to the internet at that time or showing to the isp a different ip than the one i use to connect to the internet.
+So what are the options i am thinking for maximising anonymity while connecting to the internet from my house? I am talking about Windows because that's the os i am computer-literate enough to use at the moment, i haven't had the time to learn linux as much as i would want to.
+1. Use Tor bundle, updated to latest versions obviously, having already used a mac changer software in windows. In this option would it be safer to be connected to my router with a wire, or wirelessly?
+2. Use Tails cd boot, connect to my router either with a wire or wirelessly, using the macchanger in Tails (if i figure out how to do that).
+3. The third option i want to discuss is the following: i use a macchanger in Windows and connect either with a wire or wirelessly to my router. Then i open a VmWare Tails virtual machine and share the connection. Then i connect to the internet.
+
+Which of these senarios is the most flawless in terms of my identity(real IP) being accidentaly leaked? We re talking provided i keep all the warnings and abide to them.
+"""]]

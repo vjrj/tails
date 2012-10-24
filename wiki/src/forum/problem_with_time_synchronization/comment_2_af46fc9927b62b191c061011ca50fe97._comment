@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-17T07:57:26Z"
+ content="""
+porobuyu describe the steps
+1. computer is turned off while in the BIOS eg 16-00 (the time in my region UTC +4)
+2. loaded Tails
+3. synchronized clock is 13-00, ONION sites do not work
+4. altering the time manually on the 12-00, ONION sites work
+sorry for my clumsy English
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-19T01:59:49Z"
+ content="""
+The one I want to run it on has 4 Gig. Win 7. ECS MB with a 3200 dual AMD. I have run every common Linux distro with no problem. I got the iso via torrent and got the verify file and did all that. After the DVD not working I did the steps to make a USB frob with it, but I can't get the system to boot to USB. I'm going to play with that now seeing if I can find a work around. A site said to try USB-Floppy in the BIOS, it works on some boards and not on others.
+"""]]

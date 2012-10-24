@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-03-11T15:35:53Z"
+ content="""
+> it works with FULL anonymity
+
+Not really, Flash is closed-source software, so there is *no way* to know what it makes. For example, it stores special cookies : 
+
+> **Flash-cookies** (Local Shared Objects, LSO) are pieces of information placed on your computer by a Flash plug-in. Those Super-Cookies are placed in central system folders. They are frequently used like standard browser cookies. Although their thread potential is much higher as of conventional cookies, only few users began to take notice of them.
+
+> **Some Flash-cookie (LSO) properties** in short...
+- they are never expiring - staying on your computer for an unlimited time.
+- by default they offer a storage of 100 KB (compare: Usual cookies 4 KB).
+- browsers are not fully aware of LSO's, They often cannot be displayed or managed by browsers.
+- via Flash they can access and store highly specific personal and technical information (system, user name, files,...).
+- ability to send the stored information to the appropriate server, without user's permission.
+- Flash applications do not need to be visible
+- there is no easy way to tell which Flash-cookie sites are tracking you.
+- shared folders allow cross-browser tracking, LSO's work in every flash-enabled application
+- the Flash company doesn't provide a user-friendly way to manage LSO's, In fact it's incredible cumbersome.
+- many domains and tracking companies make extensive use of Flash-cookies.
+This kind of cookies is not harmless.
+Source : [Better Privacy](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/)
+
+And potentially other surprises that can break your anonymity
+
+
+
+-- Mike
+"""]]

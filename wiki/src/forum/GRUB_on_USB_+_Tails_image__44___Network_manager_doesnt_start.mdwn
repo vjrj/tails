@@ -1,0 +1,5 @@
+Hi folks,
+as mentioned in the title, i have installed GRUB on my usb-stick and load the Tails iso image with it. My problem now is that i dont get any network connection. It seems like the network manager isnt starting, because the symbol in the taskbar isnt available. When i burn the image on a dvd and start it, everything is fine.
+I'm using this [guide](http://www.gtkdb.de/index_7_1184.html) to install grub on the usb stick and this [guide](http://www.gtkdb.de/index_7_1706.html) to make the iso bootable. It is in german, but the commands should be self explanatory for experienced users. First i thought to change the start parameters for the kernel, but i cant find a way, maybe because of missing knowledge.
+
+Any suggestions?

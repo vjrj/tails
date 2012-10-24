@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-03T13:33:45Z"
+ content="""
+As stated on the top of the forum page this is not the place to post bugs. Please [[file bug reports|support/found_a_problem]] or [[make todo items|todo]] for points 1, 3, 4 and 5. This way you give us a chance to track the issues and get them done. Posts on the forum are easily forgotten :).
+
+> 2- And here's a different issue, it can be dangerous, I'm not sure. If you check the connections from the \"Network Map\" in Vidalia (after starting Tails & connecting to Internet), you will see some automatic connections, here are what I remember of them [snip]
+
+This is just [[HTP|contribute/design/Time_syncing#index4h1]] syncing the system time against these servers, so it's nothing dangerous. These are randomly picked from `/etc/default/htpdate` each boot. You may also see a connection to `tails.boum.org` on start which is Tails checking if there's a new version available.
+"""]]

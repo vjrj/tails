@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-21T19:22:22Z"
+ content="""
+For clarification, I added the following sentence to the documentation about cloning:
+
+**This operation will not clone the persistent volume of the USB stick which is being cloned.**
+
+But unfortunately there is no automated procedure to copy the content of a persistent volume.
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-02-17T11:03:38Z"
+ content="""
+> Because I am quite prepared to manually update these with each Tails release - all one would need to do is copy the updated files across from the new /etc/skel, no?
+
+Please, don't interfere with the over-engineering effort.
+"""]]

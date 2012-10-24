@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Update the .mozilla dir on a tails update"
+ date="2012-02-15T11:07:46Z"
+ content="""
+Quite right. People doing this type of thing should update that directory when updating tails, perhaps manually exporting bookmarks first and redownloading addons afterwards.
+"""]]

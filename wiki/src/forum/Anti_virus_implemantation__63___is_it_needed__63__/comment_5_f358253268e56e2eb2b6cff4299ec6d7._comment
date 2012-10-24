@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-29T23:35:38Z"
+ content="""
+\"A running Tails session can still be compromised (i.e. the malware lives in the RAM only). The malware will vanish once Tails is shutdown, but until that moment Tails is completely compromised.\"
+
+Thanks. Is there any way to check this? If Tails is always compromised on boot, would Backtrack 5 also become compromised? If so, how to check it?
+
+FYI, probably as valuable as Tails itself is the education we get here on basic questions. Thanks.
+"""]]

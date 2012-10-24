@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-07-30T10:24:19Z"
+ content="""
+Shouldn't the user-agent keep up with the version of Firefox/Iceweasel actually used? (10.0.5 ESR in the current TAILS 0.12.1)
+
+Or would that be too difficult? 
+"""]]

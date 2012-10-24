@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-17T09:33:18Z"
+ content="""
+> This suggests no-one has ever bothered to run a few commands to check what is listening where. Very bad. I mean WTF?
+
+We occasionally look at it and remove occurences like this, but mostly for cosmetic reasons and to prevent users that doesn't know the whole picture from freaking out. We already drop all inbound connection attempts in our firewall (both for IPv4 and IPv6), so there's no emergency here.
+"""]]
