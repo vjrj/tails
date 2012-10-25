@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 113"
+ date="2012-10-25T05:09:48Z"
+ content="""
+>Comments 86 and 88 - you sorely misunderstand how I2P operates. I2P does NOT make direct connections between a client (user of data) and server (provider of data), except in the corner case where both client and server have independently chosen to use zero-hop tunnels, which is by no means the default and not at all recommended.
+
+Dumbass idiot.
+
+Users 86 and 88 are correct as tails users are currently setup to act as a relay so they connect to a I2P website on other I2P users behalf and pass the data on to them so your IP address is logged on the target machine and the ISP host.
+
+1)Pervert wishes to look at a I2P site with bestiality and I2P site also runs a Tor-Hidden server.
+
+2)pervert send request to relays (tails users inc ) to hide him and his request.
+
+3)Relay (tails users inc ) connects to I2P bestiality site and sends data back to pervert.
+
+So Tails users are making direct connects to target machines such as tor-hidden server machines and are having their IP addresses logged.
+"""]]
