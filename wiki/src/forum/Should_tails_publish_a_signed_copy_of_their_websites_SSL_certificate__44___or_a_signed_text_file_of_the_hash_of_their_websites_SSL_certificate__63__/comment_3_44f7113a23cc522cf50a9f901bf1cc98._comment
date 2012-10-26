@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-17T05:06:57Z"
+ content="""
+> The goal of [monkeysphere)(http://web.monkeysphere.info/) (also see our todo item) is to introduce the OpenPGP Web-of-Trust into the authentifocation process of certificates used in web browsing, among other protocols. You should have a look into it, because it does what you describe, but in an automated way.
+
+How to get monkeysphere? monkeysphere.info has no ssl. How be sure its the real and not a fake site?
+"""]]

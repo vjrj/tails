@@ -1,0 +1,12 @@
+*People sure use Tor for a lot of stupid bullshit*
+
+
+http://www.zoklet.net/bbs/showthread.php?t=99012
+
+>"For the past seven hours my computer has been running as a Tor exit node and sniffing whatever is sent out or received in on ports of interest (80, 110, 143). All of the data recorded ended up being on port 80. It seems people use Tor for little more than web browsing. What's just awful though is that they don't seem to be browsing anything that's the least bit sensitive.
+
+>I wrote some scripts to sort through the intercepted data and enter it into a MySQL database."
+
+Scary:
+
+>PS. For anyone who wants my 80 MB of raw data as a MySQL dump (with fields: id, direction, remotehost, port, time, content) -- I will be happy to send it to you.

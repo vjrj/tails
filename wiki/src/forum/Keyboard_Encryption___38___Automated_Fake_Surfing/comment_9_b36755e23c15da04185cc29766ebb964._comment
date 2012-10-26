@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Use a virtual keyboard?"
+ date="2012-10-17T22:50:54Z"
+ content="""
+I too am intrigued by the suggestion (which has occurred to me and many others before) of automated fake browsing to further increase the headaches of the Bad Guys seeking to identify us all.
+
+Regarding keyboard encryption, does this question arise from a concern (justifiable in my opinion if so) about unencrypted or Micro$oft encrypted WiFi keyboards?  Or from the possibility that a keylogger has been installed?  (It might be hidden inside the keyboard itself, or visible between the keyboard and the PC if you are using an employer-provided desktop PC.)  If so, the Florence virtual keyboard already available in Tails 0.13 might help:
+https://tails.boum.org/doc/encryption_and_privacy/virtual_keyboard/index.en.html
+"""]]

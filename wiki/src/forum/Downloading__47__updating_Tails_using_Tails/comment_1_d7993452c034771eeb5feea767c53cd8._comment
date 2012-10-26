@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Where would you store the ISO image?"
+ date="2012-10-17T19:32:59Z"
+ content="""
+Stupid question, maybe... I'm new here... but I'm wondering: if you are using the live DVD (as I am), where would you store the iso image?  Would you mount the local hard drive or a USB stick..?
+
+I have experimented with
+
+torify wget -c [... more options...] exacturl
+
+to download iso images and signatures, and checked against more conventional download modes, and so far no obvious problems.  I used wireshark to look for information leaks in the torified wget and saw nothing definitive, but my setup was inadequate so this doesn't mean much, unfortunately.  Anway, torify does work with wget in the sense that you will download even a large file.  The -c flag in wget means that wget will try again starting at the last byte downloaded if the connection is interrupted. I've found that 2-3 tries are enough for a 1GB iso image.  You can also limit the download rate to 20KB/sec, the wikimedia standard last time I checked for a polite large download.
+"""]]
