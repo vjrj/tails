@@ -1,0 +1,1 @@
+A tutorial for changing your mac address. In the terminal type: ifconfig wlan0 down. Then: macchanger --mac 00:11:22:33:44:55 wlan0. That should changer you mac address to the new one that you typed in. You can use any numbers you wish. If that wont work for you, then replace wlan0 with mon0.

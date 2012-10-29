@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="i2p must be started manually"
+ date="2012-10-21T23:03:35Z"
+ content="""
+That's what a Tails developer said in comment 12.  I hope it's true because I would be very wary of joining a p2p network.  
+
+The Tails developer asked for technical arguments but I'd like to suggest a sociopolitical one: there's plenty of evidence to suggest that anti-piracy groups are prone to vastly over-reaching and to sending notices to people who are not in fact downloading anything.  (One comment mentioned students living in a dorm and sharing a computer.  Maybe two use Tails, one with i2p and one not, and the others don't use anything which could posssibly be of interest to anti-piracy groups.  Yet it seems not implausible that the one student using i2p could result in a baseless charge against ALL these students.)  
+
+Let's not forget that the possible consequences in many countries are already quite intimidating (three strikes laws are being introduced in more and more countries).  Most of us (I suspect) cannot afford to keep lawyers on retainer, have little idea of how to respond to an unwarranted DMCA notice without further compromising our anonymity, and wish to avoid having to deal with the stress of being harrassed by anti-piracy groups, however baseless their charges might be.
+
+Some of the comments seem to hint at a fear that accidentally joining the i2p network could expose the contents of their persistent volume.  I am not sure I understand how they think that might happen, but I'd be glad to hear a technical explanation of a possible scenario for how things might go so terribly wrong.
+"""]]

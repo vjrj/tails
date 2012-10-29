@@ -1,0 +1,9 @@
+Noob to Tails, but I have plenty of Linux experience and have created lots of bootable USB drives in the past. RIght now I'm stumped.
+
+I successfully burned a v.13 Tails DVD and can boot with that no problem. I selected "Tails USB Installer" so I could boot from USB instead with persistence for the remaining empty space. The process completes, but every USB drive I create this way will not boot. I've used several different computers and thumb drives with no success. This will not create a bootable USB drive for me. Yes, I know how to adjust BIOS, etc.
+
+I CAN make a bootable Tails USB with unetbootin, but then I get the persistence error because the drive was not made with the Tails USB installer.
+
+This sounds like it should be simple but I've been at it all day. I was going to buy a new 64GB thumb drive for Tails if I can get this to work.
+
+Any input would be very appreciated.

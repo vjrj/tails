@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-22T23:35:17Z"
+ content="""
+> Tails, by making Tor (and other anon software) usable for the masses is doing something laudable and could very well win.
+
+You must be either joking, or not understanding the scale of projects that received the award in the past. Tails is just Debian live with some packages added, a few tweaks, and a few custom scripts thrown in. Most development revolves around project's bureaucracy, fixing bugs due to bad design that causes breakage after package updates, and implementing minor features from time to time. If anything, it is an extreme under-achievement relative to the number of people involved, showing that you can't just throw more people on a software engineering project and expect meaningful results.
+"""]]

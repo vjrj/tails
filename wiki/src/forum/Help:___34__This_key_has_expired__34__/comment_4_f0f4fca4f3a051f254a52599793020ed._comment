@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-15T05:19:14Z"
+ content="""
+Seeing this thread, I just RE-downloaded and RE-imported the TAILS signing key (even though I had already imported the key no longer than four-five months ago.)
+
+When I proceeded to verify the PGP signature for tails-i386-0.14~rc1 , I was told \"Good signature\" BUT then, 
+
+>gpg: Note: This key has expired!
+
+What gives?
+"""]]
