@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-09-11T01:27:59Z"
+ content="""
+>The sorting correction has also disappeared.
+
+The sorting correction was deliberately [removed](http://git.immerda.ch/?p=amnesia.git;a=blobdiff;f=wiki/src/forum.mdwn;h=60a5669435527632fdb6a3495bc0903087908a68;hp=cf50b95bca89a22d80132bdd3052d14adabf81b8;hb=d316b0338114d0c01f048fc7cb9b786897256f15;hpb=a9c5e24752e5de20a3e2137685481f7dd0671d36)
+"""]]

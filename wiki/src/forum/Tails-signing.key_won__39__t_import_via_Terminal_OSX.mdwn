@@ -1,0 +1,15 @@
+Typed the following commands in the Terminal (Mac OS 10.6.8): 
+
+cd TailsStuff cat tails-signing.key | gpg --import 
+
+and received the following output:
+
+--bash" cd TailsStuff: No such file or directory
+gpg: no vilid OpenPGP datat found.
+gpg: Total number processed: 0
+
+I was able to import the Signing Key into GPG Keychain Access (GPGTools), but still get the same messages in the Terminal, as noted above.
+
+What am I doing wrong?
+
+Thanks.

@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-04T12:22:45Z"
+ content="""
+>Correct me if I'm wrong but I was under the impression that Tor Browser Bundle provides sufficient privacy and anonymity when one is surfing the web.
+
+TBB is certainly an excellent anonymity conscious browser choice... and a very good argument can be made for \"upgrading\" Tails' current Vidalia/Iceweasel combo to TBB. An equally compelling argument can be made for a Vidalia/auto-upgradable-Firefox-latest-in-the-liveuser-account combination. All three approaches have obvious pros and cons. All three methods would offer good anonymity. The problem is potential exploits.
+
+>One doesn't have to worry about iptables firewall when using Tor Browser Bundle, no?
+
+Well, if one's certain that their browser is free of any vulnerabilities, there is no possibility of DNS leakage and the like, and there is absolutely no other code on the system capable of connecting to the network, then perhaps not. Otherwise taking additional precautions like draconian firewalling, removing/rewriting the system's DNS resolver, etc, etc, could be considered prudent. All this and much more is already done for you in Tails :D
+
+>By the way, what's the equivalent of iptables in Windows OS? I'm a newbie to Linux distros.
+
+I doubt there's anything even close in windows userland... their user firewalls tend to be all flashing lights and not much going on inside. Tails is the opposite of that and orders of magnitude more sophisticated. No doubt Windows server admins have access to something iptables-ish. Can't help you with what it might be called though. Haven't got the foggiest ;-)
+
+"""]]

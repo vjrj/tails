@@ -1,0 +1,13 @@
+Why is this configured to use 127.0.0.2 instead of 127.0.0.1?
+
+I don't see 127.0.0.2 in /etc/hosts
+
+this is what I see running:
+
+/usr/sbin/ttdnsd -P /var/lib/ttdnsd/pid -f /etc/ttdnsd.conf -b 127.0.0.2 -p 53.
+
+this also but its not of importance as the question/reference above:
+
+/usr/sbin/pdnsd --daemon -p /var/run/pdnsd.pid
+
+So why the 127.0.0.2 ?

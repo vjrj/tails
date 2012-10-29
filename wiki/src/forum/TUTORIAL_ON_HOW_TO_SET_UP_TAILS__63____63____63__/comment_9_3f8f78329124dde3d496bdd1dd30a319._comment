@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="answer"
+ date="2012-09-19T14:33:21Z"
+ content="""
+just download iso file from this website and burn it to DVD and restart your computer to boot from DVD (tails).
+
+if you want more security, at boot, choose password for root username, then when tails load, change mac address in your terminal, every time you will have to type password (sudo macchanger --mac 00:FF:FE:CF:56:78 eth0) of course, add any mac address you want, I typed here random letters. 
+
+after mac address try to block some spying tor nodes/computers in your torrc file (sudo gedit /etc/tor/torrc) when you open torrc, type this:
+ExcludeNodes 80.237.226.74, 78.108.63.46, 94.126.178.1, 31.172.30.2, 87.98.181.150, 93.182.129.82, 213.108.75.77, 213.110.198.31, 74.120.15.150, 80.237.226.73, 199.48.147.36, 217.115.137.222, 146.185.23.179, 31.172.30.4, 77.247.181.165, 37.221.161.26, 199.48.147.39, 77.247.181.162, 80.237.226.76, 199.115.231.195, 77.244.254.228, 96.47.226.21, 31.172.30.3, 217.115.10.131, 31.172.30.1, 173.254.216.66, 85.214.52.156, 96.47.226.20, 217.10.10.194, 193.23.244.244, 192.162.102.224, 62.113.219.3, 77.244.254.227, 77.244.254.230, 217.115.10.133
+
+I am spied so all this nodes are spying shit, especially CCC from germany. 
+
+in the case you get always the same IP address, you can't change it, type: sudo /etc/init.d/polipo restart 
+
+and after that type: sudo /etc/init.d/tor restart 
+
+then go to start menu and in Application-Internet start Vidalia, it will start vidalia again and if connection is not accepted, you can go in settings of vidalia, click there Advanced tab, check Use TCP Connection (control port) instead of Use Unix domain (control socket). that's all. 
+
+so, don't forget, there is no 100% anonimity. I don't watch videos but when you do it at YouTube I think it it can be blocked only by NoScript ad-on, you can decide how much you will enable settings in firefox ad-on called NoScript, there is Options and Embeddings and Whitelist and so on, you can choose what will be allowed and how much. allow there something what is connected with videos, as I said, I don't watch videos so I can not give you advices about it. 
+
+"""]]

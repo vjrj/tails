@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-28T15:18:35Z"
+ content="""
+The best thing to do right now is to make a bash script that installs what you want and place it in /live/persistence/sdb2_unlocked/dotfiles/Desktop
+"""]]

@@ -1,0 +1,9 @@
+Alright, this is the guy who posted originally a week or so again.. and I'm running into one last problem.. maybe someone can help. So I'm on an Aspire One model, and I have a wifi toggle switch. This is what I'm doing and this is my problem:
+
+1) Start up and turn off wifi via switch when GRUB has handed the machine over to the kernel/initrd
+2) When in Tails (and can't connect to any networks since wifi is disabled) type in terminal "ifconfig wlan0 down" otherwise resources remain busy and cannot use macchanger
+3) Type in terminal "macchanger -a wlan0" then "macchanger -s wlan0" to see if it worked
+4) Type in terminal "ifconfig wlan0 up" to enable wlan0 again
+5) Try to use toggle switch on Acer model, LED does not activate. Try holding for 3, 5, 10 and 20 seconds.. nothing. Can't connect to networks
+
+Steps 1-4 work perfectly, thanks for all the help so far. My issue is re-enabling wifi via the toggle switch. Is there a way I can do this via terminal or some file? Is it because of Tails? Will the recent 12.1 update save me? Please help guys, I'm not a big fan of my MAC address being leaked

@@ -1,0 +1,1 @@
+By configuring the persistent volume to persist the downloaded package lists and the package cache, I can have the packages I need handy on the USB stick, but still have to re-install them on every boot? Any way to avoid this?

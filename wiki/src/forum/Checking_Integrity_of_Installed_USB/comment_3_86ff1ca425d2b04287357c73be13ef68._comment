@@ -1,0 +1,38 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-08-01T16:31:25Z"
+ content="""
+Followup to my original post: 
+
+After much exasperating trial and error[1] , I was finally able to verify the TAILS ISO installed to USB against the PGP signature, and the output was \"Bad signature.\"
+
+Since I am the only one who has had physical access to this USB stick since I created it, I figured that it must have been compromised *while running*. However, since I still I had the ISO image that I had downloaded, I decide to verify *it* again to see what would happen. (Despite the fact that  *I had already verified the signature of the ISO after downloading* and before installing it to USB.)
+
+Sure enough, I got \"Bad signature\" for the downloaded ISO as well.   
+
+Now, I must point-out that this ISO had been copied from the original location that I had downloaded it to. So I suppose that the file could have become corrupted while copying from one disk to another?
+
+Or perhaps the ISO could have somehow become corrupted at some point while idly present on a mounted volume?
+
+NOTES:
+[1]Basically, I learned the hard way that I not only had to run the command
+
+	gpg --verify tails-i386-0.12.1.iso.pgp /dev/{my usb stick}
+
+a) from a directory containing the PGP signature file[2],  
+but that I also had to:
+b) run said command *as root*,
+and,
+c) run said command as root only after first importing the TAILS signing key **as root** (despite the fact that I had already imported it as regular user!)  
+
+[2]Note on note: I knew this was necessary for verifying the *downloaded* ISO file, however verifying *an already installed/burnt* ISO is completely new territory for me and I was thrown-off by the way the instructions at
+https://tails.boum.org/forum/checking_integrity_of_burned_CD/
+
+There, after listing the `gpg --verify` and `sha256sum` commands,  the TAILS dev writing the post went on to say,
+
+>and compare the results with what's expected. 
+
+linking-to the instructions for verifying the ISO image at
+https://tails.boum.org/download/index.en.html#index3h1
+"""]]

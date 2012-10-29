@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-30T19:31:16Z"
+ content="""
+Here is another example that does not involve any proxy.
+
+The Hidden Wiki - Hidden Wiki - Tor
+
+Editor's picks. Bored? Pick a random page from the article index and replace one of the five slots with it. Email - List of clearnet providers and their Tor status.
+
+kpvz7ki2v5agwt35.onion.to/wiki/index.php/Main_Page
+
+That also goes to the not-so-welcom page. Evidently someone is trying to hijack the Hidden Wiki and make it a .to wiki where coookies must be enabled there.
+
+My experiment before was to see if using the startpage proxy could get in to bypass any MITM compromises. But .onion needs to know if someone is using Tor and so traffic from startpage would not reveal that. I thought it was on topic because Tails has said it was vulnerable to MITM compromises.
+"""]]

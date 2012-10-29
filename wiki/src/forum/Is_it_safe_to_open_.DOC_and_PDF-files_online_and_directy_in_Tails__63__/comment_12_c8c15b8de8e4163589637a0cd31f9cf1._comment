@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-05-22T01:10:47Z"
+ content="""
+I assume that you are referring to this page:
+
+https://www.torproject.org/download/download.html.en#warning
+
+well you definiely didn't bother to read it all as Tails is mentioned as a possible solution just a line or two down.
+
+Currently all internet traffic in Tails passes through Tor by design, this includes downloading files. This model can be broken if you download and run extra unsupported applications (all the software provided in default Tails is apparently tested and should not leak anything beyond your TOR connection). EG. if you download and use p2p / torrent apps it's very likely that Tail's anonymity can be broken.
+
+
+"""]]

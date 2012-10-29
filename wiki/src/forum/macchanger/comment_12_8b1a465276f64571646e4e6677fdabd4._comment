@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="macchanger-gtk warnings documentation"
+ date="2012-06-17T11:08:45Z"
+ content="""
+> Installing macchanger-gtk would make end-users think all they need to protect themselves against such threats is to change their mac address once booted. 
+
+You're right, but the same argument can be used for many other applications (like Tor for example). We can't avoid a misuse of the applications we ship, so IMHO, Tails should ship macchanger-gtk *and* a warning documentation.
+
+The subject have been often discussed on this forum, and I guess we have now enough raw material to write something relevant..
+"""]]

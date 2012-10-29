@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-21T18:09:00Z"
+ content="""
+The error message \"No such file or directory\" means that something is wrong with your command line. If you are not comfortable with the command line you could rather [[verify the ISO image using Firefox|/doc/get/verify_the_iso_image_using_other_operating_systems#firefox]].
+"""]]

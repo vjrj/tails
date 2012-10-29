@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-12T17:38:30Z"
+ content="""
+> Yes, I use StrictNodes 1.
+
+Are you sure? These options work for me in Tails 0.12.1. How did you set these options?
+
+> > \"If some Tor servers are obviously not working right, the directory authorities can manually mark them as invalid\" -tor manpage
+
+> Who are these directory authorities?
+
+They are eight (I think) servers run by operators that the individuals in the Tor project trust. Each of them try to keep a current view the Tor network (e.g. which nodes are working), and you, the client, continually download a consensus of these network views, i.e. for each fact in it (e.g. whether a node is working) you get what the majority of the authorities reported. For more information, please refer to [the Tor design document and specifications](https://www.torproject.org/docs/documentation.html).
+
+> Default routing chooses low latency servers making me vulnerable to statistical attack.
+
+and 
+
+> > You get the best security that Tor can provide when you leave the route selection to Tor; overriding the entry / exit nodes can mess up your anonymity in ways we don't understand.\" https://www.torproject.org/docs/faq.html.en#ChooseEntryExit
+
+> might be, but you should understand that using fast, low latency nodes definitively messes up your anonymity
+
+Not true. Even when using the slowest, most congested Tor nodes you are susceptible to end-to-end correlation attacks.
+
+> Did you think of possibility of delaying tor packets at random rate?
+
+We are not designing Tor. [Ask the Tor developers](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk/).
+"""]]

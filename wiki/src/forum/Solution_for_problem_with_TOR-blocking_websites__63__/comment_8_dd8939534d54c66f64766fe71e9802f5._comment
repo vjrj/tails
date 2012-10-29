@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="@ comment 7"
+ date="2012-09-26T03:16:53Z"
+ content="""
+\* *could* destroy your anonymity...
+
+Comments 6 & 7 make good points but I think we lack sufficient information to be completely objective here.
+
+Obviously privacy and security are the purpose of Tails and care should be taken to avoid damaging that, however I think there may be slightly crossed purposes at work.
+
+OP: Before the pejoratives start to fly, could you more thoroughly describe your usage rational and the details of your intended solution? e.g. You seem to be planning to create your own proxy, hosted on a personal VPS. Where and how are you planning to host this? How will you ensure it can't be traced to you? How important are privacy and anonymity to you?
+
+The devil is in the detail. We don't even know the detail! ;)
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-06-19T07:57:15Z"
+ content="""
+@comment 5
+
+tails is not going to be an installable distribution like ubuntu, fedora, etc.
+So, use vidalia on your normal operating system. That enough anyways.
+btw, You can try OpenDNS, much better than Google dns, and is more widely acceptable than tor dns.
+"""]]

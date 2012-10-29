@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-06-03T08:26:31Z"
+ content="""
+>On your destination you must have internet or Tails will be useless for you.
+
+Not true. TAILS can be used offline for safely creating, editing and viewing sensitive files.
+"""]]

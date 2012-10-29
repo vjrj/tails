@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-19T07:58:45Z"
+ content="""
+I think you need to carefully read [[doc/first_steps/persistence]], and likely use a *Custom persistent directory* (seee [[doc/first_steps/persistence/configure]]).
+"""]]

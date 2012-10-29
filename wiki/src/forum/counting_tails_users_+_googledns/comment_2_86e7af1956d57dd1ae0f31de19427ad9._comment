@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-08T22:59:54Z"
+ content="""
+what information is sent during these client boot checks? how may it be verified, through wireshark?
+"""]]

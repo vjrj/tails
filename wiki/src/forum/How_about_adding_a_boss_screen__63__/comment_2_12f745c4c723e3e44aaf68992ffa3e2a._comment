@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-07-20T11:50:42Z"
+ content="""
+About the boss key: that's already in our [[todo list|todo/hotkey_to_switch_to_klondike]]. If you want to help implementing it, you're welcome.
+
+About the Windows Camouflage shutdown, we are thinking about [[enabling again the shutdown splash screen|todo/reenable_the_shutdown_splash_screen]] for various reasons.
+
+"""]]

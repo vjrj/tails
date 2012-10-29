@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-05-21T22:20:34Z"
+ content="""
+I am confused.
+On the Tor homepage it says:
+~~~~~~~~~~~~
+DO NOT IGNORE THIS WARNING. You should be very careful when downloading documents via Tor (especially DOC and PDF files) as these documents can contain Internet 
+resources that will be downloaded outside of Tor by the application that opens them. This will reveal your non-Tor IP address. If you must work with DOC and/or PDF files, we strongly recommend either using a disconnected computer, downloading the free VirtualBox and using it with a virtual machine image with networking disabled, or using Tails. Under no circumstances is it safe to use BitTorrent and Tor together, however.
+~~~~~~~~~~~~
+It seems to state that using Tails allows you to safely veiw PDF and DOC files
+yet here it is said that working with PDF and DOC files is unsafe even within tails
+so which is correct? or do I misunderstand?
+If someone would offer clarification I would be grateful
+i would be grateful if someone would clarify
+"""]]

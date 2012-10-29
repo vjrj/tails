@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="nortkt"
+ date="2012-09-22T11:24:03Z"
+ content="""
+echo \"seriously? - foo bar\" > /dev/null 2>&1
+echo \"hey whazzzup?!?!\"
+
+see the difference?!? No rootkit anywhere, have a look at some bash scripting.
+
+cheers
+
+
+"""]]

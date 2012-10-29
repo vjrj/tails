@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2012-09-17T04:37:07Z"
+ content="""
+>I would want to deter an adversary from recovering data from my USB thumb drive.
+
+You *still* haven't disclosed the nature of this \"adversary\".
+
+A single pass of zeros is enough to thoroughly *deter* anyone.
+
+>Where do you execute the above commands?
+
+An ordinary user terminal. There's no need for the \"sudo\" if entering them as root.
+"""]]

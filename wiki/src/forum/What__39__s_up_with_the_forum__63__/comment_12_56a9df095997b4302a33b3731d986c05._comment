@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-09-12T03:00:05Z"
+ content="""
+It was removed because (1) it doesn't work, and (2) it put a lot of (unnecesary) load on the web server.
+
+1. It *did* work! It's the current *mtime* (\"Updated\") data which is at fault... the *age* (\"Started\") remains correct. Please have another (good) look.
+
+2. Does sorting by *age* rather than *mtime* really make that much of a difference to load?
+"""]]

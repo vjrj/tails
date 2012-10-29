@@ -1,0 +1,3 @@
+I used Macchanger to change my MAC address, but it didn't change it in the nm-applet MAC address field, do I need to change it to match the spoofed MAC obtained via Macchanger?
+
+OT: Thanks for including palimpsest, it allows easy mounting via user instead of mounting via root.

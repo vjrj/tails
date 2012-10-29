@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-14T14:54:13Z"
+ content="""
+Here's how I just upgraded my 0.11 USB stick to 0.12:
+
+(Those steps are for upgrading ONLY 0.11 and up (read https://tails.boum.org/doc/first_steps/usb_upgrade/index.en.html )
+
+1. Burn 0.12 DVD, boot from it.
+2. Plug in your 0.11 USB stick.
+3. Start Tails USB installer - Clone&Upgrade.
+4. Make sure correct device is selected.
+5. You don't need to browse for an .iso, as files will be copied from DVD.
+If for some reason the standard procedure shouldn't work, you can still try to browse for the 0.12 .iso file.
+6. It will tell you that your previous Live-OS partition will be overwritten, but other partitions on USB stick will stay untouched. 
+
+After that, your USB stick is ready to boot from again and I can confirm that persistency was not touched.
+If you do not trust me, wait for Tails-dev to confirm.
+"""]]

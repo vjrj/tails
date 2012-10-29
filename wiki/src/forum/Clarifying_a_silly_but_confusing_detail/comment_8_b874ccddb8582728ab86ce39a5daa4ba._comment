@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="OP"
+ date="2012-09-24T13:44:05Z"
+ content="""
+Sorry, no.
+
+I meant that perhaps there is no point (except saving bandwidth) to verifying the torrent file. The users who will verify their tails by gpg are going to verify the tails iso anyway, while the ones who will not (probably due to technical inexperience as I doubt any who use this software would not care) will not be able to verify neither the torrent file nor the iso.
+
+So, what would be the point be the point besides saving a few minutes of time/downloading in case there is an attacker on the connection or in the event of a tails website hack?
+
+I also asked what is the point of the signature to be included in the torrent if it can also be verified by downloading it through the website. You could say, in the event of a website hack, but then again, in that situation would the attacker not alter the torrent file signature and include a fake tails iso signature in the torrent file along with a fake/tampered tails iso?
+
+Mind you, I see no disadvantage in things being the way they are now. I was just wondering if it adds security. As in my opinion we always end up relying on the signatures on tails website.
+"""]]

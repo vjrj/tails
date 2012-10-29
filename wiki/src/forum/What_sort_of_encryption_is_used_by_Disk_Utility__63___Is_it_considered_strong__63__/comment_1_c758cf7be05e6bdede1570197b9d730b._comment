@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-14T19:30:58Z"
+ content="""
+you can check that yourself:
+
+* mount your encrypted disk.
+* on the command line, type:
+
+>mount
+
+* find the the entry looking like: /dev/mapper/udisks-luks-uuid-***************
+* run:
+
+>sudo cryptsetup status /dev/mapper/udisks-luks-uuid-****************
+
+you'll get an output like this:
+
+**cipher:  aes-cbc-essiv:sha256**
+
+**keysize: 256 bits**
+
+So,yeah, AES-256. 
+"""]]

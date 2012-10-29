@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-08-01T11:04:03Z"
+ content="""
+>You'd probably get better and more knowledgable responses on a linux encryption list or a general linux forum (it's called google)
+
+That may very well be.
+
+Nonetheless, since the ability to easily create and manage LUKS volumes is a significant aspect of the design and purpose of TAILS... and, especially, since the *TAILS documentation has a step-by-step, graphic tutorial on creating a LUKS volume* (with no mention of the topic of this thread)...
+
+...I found this forum quite suitable for this question.
+
+
+I found your replies quite informative and helpful. 
+
+And that makes it all the more difficult to see why you felt it necessary to throw-in, *\"it's called google\"*-- a comment that comes across as nothing more than a petty, gratuitous barb. All the  more so in light of my having clearly stated,
+
+>I have searched quite a bit for this info but cannot find any clear answer. 
+"""]]

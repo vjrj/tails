@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Attack scenerios"
+ date="2012-10-05T03:37:32Z"
+ content="""
+Using:
+
+* E1 Browser exploit
+* E2 Exploit in other application that connects to the Internet
+* E3 Network exploit without exploiting any application (only requiring Internet connection)
+
+...that is able to...
+
+* R1 Read or write files from mounted drives
+* R2 ... from unmounted drives (by mounting them)
+* R3 ...from unmounted drives that are disabled in BIOS
+
+...or...
+
+* W1 Alter software installed in persistent volume to create an easier backdoor, install trojan, break things, frighten or confuse the user
+* W2 Alter software on USB install
+* W3 Alter software on USB install on SD card with write bit locked
+
+...or...
+
+* I1 Reveal the IP address (using the Unsafe Browser)
+* I2 Observe different identities used in the same session (or with trojan/backdoor in persistence) connect identities used in multiple sessions
+* I3 Connect to other computers available to the LAN or a nearby Wifi and sent back anyone's personal identification or (geoid? global positioning?) or connect to a hostile computer that is nearby
+"""]]

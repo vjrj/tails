@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-07-30T23:39:06Z"
+ content="""
+>I totally don't understand this. Please explain.
+
+>Somebody is kicking your door down. You tug the USB stick out and the system automatically and immediately shuts down. A new kernel is loaded, and RAM is then over-written. Boom!
+
+>How dead-man is that? What's the problem? I am genuinely interested in how this can be improved.
+
+I imagine this suggestion is intended for those \"corner cases\" in which \"you\" are unable to instantly remove the Tails medium. For example, if \"you\":
+
+* had left the machine for a moment to make a cup of tea
+
+* had just nipped off to defecate
+
+* were already lying on the floor enjoying a quick tazing session
+
+* suddenly found that a lead slug had been used to liquidise the contents your cranium
+
+etc...
+
+That said, I can't imagine that this sort of booby-trap \"security\" would be all that dependable or valuable, even in those unlikely cases. So I suppose it's some sort of \"why not\", \"belt and braces\" concept. The \"why not\" being the creation of a omnipresent risk of inadvertently destroying ones own data. Not a good trade-off in my view and if it is ever done it should definitely be an opt-in option only.
+"""]]

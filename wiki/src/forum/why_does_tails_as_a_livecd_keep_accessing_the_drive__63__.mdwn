@@ -1,0 +1,9 @@
+with tails booted as a Live CD, i stare at the desktop and operate nothing, no programs, no keyboard or mouse activity, no LAN or net connectivity, and the CD ROM drive light flashes as the CD ROM is accessed for what I don't know.
+
+with a few other Live CD's this happens too but not as much as with tails.
+
+monitoring tools like top don't help me, does a tool exist, similar to wire shark and tcp dump which would allow me to "capture" the activity on my CD ROM?
+
+there is a small number of Live CD's which don't access the CD ROM unless I load a program which isn't cached in RAM.
+
+i wish to use tails, but this peculiar behavior is raising doubts.

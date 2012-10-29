@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-07-04T13:25:38Z"
+ content="""
+This forum is for open discussion. 
+Tails contributors & development are the ones from whom you are most likely going to get an answer that solves your problem. And they regular reply to topics from users.
+
+If you have any urgent issue or want to chat with the developers join the chat room: #tails at server: irc.oftc.net port: 6697
+
+You also have option of emailing at tails@boum.org
+
+All sub-topic you mentioned are already well documented [here](https://tails.boum.org/doc/index.en.html) and are regularly updated.
+
+Its better to have all things in one place rather than searching in & out of sub-forums. Also, there is additional overhead of managing users with superficial egos (number of comments,date joined,h/w spec, etc). Which is pointless since almost everyone replies as 'Anonymous'
+
+Keep it simple. Read the documentation. ;)
+
+
+
+"""]]

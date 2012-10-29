@@ -1,0 +1,7 @@
+If I create a persistant volume will I be able to download the bitcoin program and reuse it on each boot without having to reinstall it?
+
+If so when I try to create a persistant volume I get this error message -
+
+Device /org/freedesktop/UDisks/devices/sdb was not created using Tails USB installer.
+
+???

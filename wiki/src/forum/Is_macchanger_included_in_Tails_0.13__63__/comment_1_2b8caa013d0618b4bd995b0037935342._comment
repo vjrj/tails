@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-28T14:38:45Z"
+ content="""
+Yes, however, when logging in you should make sure you create a root account with a password so that you can become root and issue the command prior to enabling your network (turning on your router).
+"""]]

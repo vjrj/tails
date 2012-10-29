@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="One more thing.."
+ date="2012-09-02T05:45:47Z"
+ content="""
+You seem to be harbouring an assumption that the only people to use this forum are \"Tails developers\" and yourself. This is not the case.
+
+This is a USER forum. While the Tails contributors are kind enough to take time to drop in and address outstanding queries from time to time, they tend to spend the majority time elsewhere. Doing something more productive than chasing the endless demands of the pathologically selfish perhaps. I think we can all agree that that's a good thing?
+
+With the release of Tails 0.13 imminent, There's much frenetic bug squishing, testing, compiling and packaging going on...
+
+The sum of my personal contributions to Tails amounts to little more than -rc testing, bug reports and a smattering of code contributions to upstream projects. I certainly wouldn't presume to call myself a \"Tails developer\". The posts of contributors are signed \"Tails\" or \"amnesia\". Mine are not. The words I type are my own and not those of \"the Tails developers\" or God.
+"""]]

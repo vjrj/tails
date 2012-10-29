@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-08-01T15:54:17Z"
+ content="""
+Thanks for bringing up this topic.
+
+Do you think that adding the following to the current documentation would correct that mistake:
+
+<em>This technique also works for SD cards. Some SD cards have a read-only switch that can prevent your Tails from being altered. **But be aware that this protection is most probably not ensured by the SD card itself. Do not rely on untrusted computers to respect this feature.**</em>
+"""]]

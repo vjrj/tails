@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-15T14:17:52Z"
+ content="""
+> The links lead to interesting discussions. One question. Even if someone on our network can single out a MAC, they still cannot sniff (decrypt) the DNS and Internet traffic can they?
+
+The DNS and the internet connections are routed through Tor, and so no, they can't get the content of your connection, unless they break the Tor encryption.
+
+> Wouldn't their knowledge be limited to who and when connteced but not what and where the connection whent to?
+
+They will normally only see that your computer is communicating with a Tor node. Depending on your threat model, you may wan't to hide this, and so change your Mac adress and/or use Tor bridges.
+
+Cheers
+
+--mike
+"""]]

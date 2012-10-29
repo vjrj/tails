@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="a small (bash) script"
+ date="2012-08-14T19:36:53Z"
+ content="""
+When a package is installed, a lot of different files and folders are modified, and you would have to make all of them persistent.. probably creating at the same time ways to identify you through your different sessions. I guess it isn't what you wan't here.
+
+You can eventually use a small (bash) script that re-install the packages you wan't after every reboot. It could looks like:
+
+    #!/bin/bash
+    apt-get update
+    apt-get install the-packages-you-previously-installed
+
+Note that you have to make it executable and launch it as root. See *bash* documentation for more info, I'm just a beginner.
+
+Hope that helps, good luck!
+"""]]

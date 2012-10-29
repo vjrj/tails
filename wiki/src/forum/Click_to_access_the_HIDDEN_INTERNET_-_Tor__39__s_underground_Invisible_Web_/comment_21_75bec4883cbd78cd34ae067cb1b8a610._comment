@@ -1,0 +1,47 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Some facts..."
+ date="2012-09-20T00:01:00Z"
+ content="""
+...in bite-sized chunks for the hard of thinking:
+
+>I think the hidden services like email and file hosting are pretty important since a lot of clearnet sites require javascript.
+
+There are *masses* of such *websites* of this nature which do require JS and there are *masses* which don't.
+
+There are *a tiny number* of such .onion sites of this nature which do require JS and there are *a tiny number* which don't.
+
+The web is immense.
+
+The .onion network is tiny.
+
+The web is policed and therefore *comparatively* accountable and trustworthy!
+
+The .onion network is difficult to police and completely unaccountable and untrustworthy.
+
+The content on the web is largely legal.
+
+The content on the .onion network is largely illegal.
+
+Browsing the web is unlikely to get you onto any \"lists\".
+
+Browsing the .onion network is likely to get you onto many \"lists\".
+
+Being caught browsing the web is unlikely to get you onto \"the register\".
+
+Being caught browsing the .onion network is likely to get you onto \"the register\".
+
+Being caught browsing the web is unlikely to get you imprisoned.
+
+Being caught browsing the .onion network is likely to get you imprisoned.
+
+Being caught browsing the web is unlikely to get you forcibly sodomised.
+
+Being caught browsing the .onion network is likely to get you forcibly sodomised. Repeatedly, for many years.
+
+The .onion network is there if anyone wants it.
+
+Not advertising the .onion network on the Tails homepage will *not* make it disappear.
+
+The .onion network is unfit for promotion by the Tails project.
+"""]]

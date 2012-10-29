@@ -1,0 +1,5 @@
+https://blog.torproject.org/blog/firefox-security-bug-proxy-bypass-current-tbbs
+
+Does this affect TAILS?
+
+>A user has discovered a severe security bug in Firefox related to websockets bypassing the SOCKS proxy DNS configuration. This means when connecting to a websocket service, your Firefox will query your local DNS resolver, rather than only communicating through its proxy (Tor) as it is configured to do. This bug is present in current Tor Browser Bundles (2.2.35-9 on Windows; 2.2.35-10 on MacOS and Linux).

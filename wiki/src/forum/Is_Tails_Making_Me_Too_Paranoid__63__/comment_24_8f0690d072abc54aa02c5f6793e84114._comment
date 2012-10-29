@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 24"
+ date="2012-08-28T09:41:26Z"
+ content="""
+@ comment 23:
+
+> Does Tails not need better/easier ways to establish trust in the software?
+
+Perhaps, but there is no free lunch. The easier alternatives all depend on \"trusted third parties\", like certificate authorities in SSL, which is a huge failure. In fact, since Tails' website uses SSL you can already do this: just download the Tails signing key and say that you trust it. Then just hope that our certificate authority, [Gandi SSL](http://wiki.gandi.net/en/ssl), isn't compromised or in league with your enemies.
+
+> Are solutions as presented bu commenter 14 or 15 possible?
+
+No. A running Tails copy cannot be used to verify itself; if it's compromised the verification software could be modified so that it always says that all is OK. The verification software must be trusted and running from a separate, trusted system (e.g. a another, known-good Tails copy).
+"""]]

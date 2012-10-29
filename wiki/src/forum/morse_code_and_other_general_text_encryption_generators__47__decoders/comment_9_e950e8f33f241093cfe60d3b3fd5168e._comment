@@ -1,0 +1,105 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-06-08T10:27:01Z"
+ content="""
+>>Morse still isn't a cipher. With with regard to your broader point however, I agree. A nice, versatile, Gnupg GUI would be handy... and now seems a rather glaring omission!
+
+>It is there! Just read the documentation:
+
+No it isn't...
+
+>    OpenPGP passphrase encryption
+
+What, the little clipboard widget? Well, with some faffing it'll allow you to perform CAST5 encryption on pasted text. Hardly versatile is it? It doesn't look like it was ever intended to be more than a stop-gap measure until something better was found. Where are Camellia, AES, Twofish, Blowfish and friends? What about file encryption? Not much of a solution really.
+
+>    OpenPGP with gedit
+
+Even worse! No symmetrical encryption whatsoever! Nothing. Simply can't do it.
+
+
+RE Comment 4:
+
+>A few examples:
+
+>Package: morse (2.4-2 and others) http://packages.debian.org/sid/morse
+
+\"Morse is not a cipher. You can't encrypt with it.\" Also, Morse is a command line Morse code \"training tool\". Not even an encoder. Was that a joke?
+
+>Package: morsegen (0.2.1-1 and others) http://packages.debian.org/sid/morsegen
+
+\"Morse is not a cipher. You can't encrypt with it.\" Morsegen is only in the Wheezy and testing repos... Tails is based on Squeeze.
+
+>Package: xdemorse (1.3-6 and others) http://packages.debian.org/sid/xdemorse
+
+\"Morse is not a cipher. You can't encrypt with it.\" Xdemorse appears to be an application decode radio signals.
+
+>Package: gcipher (1.1-1) http://packages.debian.org/sid/gcipher
+
+A toy. Obsolete and unfit for use. RTM
+
+>and:
+
+>md5deep
+
+MD5, SHA, Tiger, Whirlpool, etc. are not ciphers. You can't encrypt anything with md5deep.
+
+Don't get me wrong. Md5deep is an excellent tool. I install, and then immediately use it automatically every time I use Tails. It's in my Tails innit script to verify certain plaintext files. (The script and md5deep.deb live on an encrypted volume, and are therefore tamper-proof). I'd like to see md5deep installed by default but it would do *nothing* to answer the OP.
+
+>and: (if not already included)
+
+>peazip
+
+You can already (easily) create an encrypted .zip from Nautilus' context menu.
+
+The point of the OP may have been lost here... as I read it:
+Public key encryption is excellent and easy to use in Tails. Tails is great. We all use Tails. All well and good... *PROVIDED*:
+
+1. Your recipient(s) have generated public/private key pairs.
+
+1. At the time of encryption, you possess copies of your recipient(s) public key(s)
+
+1. You fully trust the PKI to provide sufficient security for the necessary period of time.
+
+So, while excellent, PKI is not *always* the best choice and, in fact, may be totally unfit/unusable for an encryption task.
+
+There are many excellent block ciphers. Indeed PKI uses them extensively and they are already available from the command line in Tails...
+    gpg --version
+...perhaps it could be handy for Tails users if there was a more friendly GUI to provide access to these useful block ciphers?
+
+RE Comment 2:
+
+>Perhaps a Tails bod might have a squint at Pyrite?
+
+[Pyrite](https://github.com/ryran/pyrite) looks excellent. Exactly what we're missing. Great find. Just tried it. Doesn't run.
+
+Pyrite is written for python >= 2.7. Tails has python 2.6. Apparently module \"argparse\" is missing. Fortunately there's a [project to port argparse to python <= 2.6!](http://code.google.com/p/argparse/downloads/list) Just drop argparse.py from there into the Pyrite bin folder and the problem goes away. Still doesn't run though. Looks like a syntax change too.... possibly trivial for a python coder to correct but beyond my expertise. Gave up there.
+
+RE Comment 1:
+
+>Notably Truecrypt and FireGPG.
+
+Interesting choices! :-|
+
+    man gpg
+    man openssl
+
+So, in summary:
+Yes and no. Yes, there are loads of encryption tools. Many are already in Tails. No there isn't a \"nice GUI\" readily available for any of them.
+
+A few apps of potential tangential interest to OP:
+
+* **steghide** -Steganography tool. Encrypts with blowfish then hides the cyphertext in .bmp .wav or .au files. could be useful for keyfiles?
+
+* **libcrypto++** -More algos than you can shake a stick at.
+
+* **onetime**  -Name says it all. Keep the pads *SAFE*!
+
+* **md5deep** -Fast directory tree hashing.
+
+.
+
+    sudo apt-get update
+    sudo apt-get install steghide libcrypto++-utils onetime md5deep
+
+"""]]

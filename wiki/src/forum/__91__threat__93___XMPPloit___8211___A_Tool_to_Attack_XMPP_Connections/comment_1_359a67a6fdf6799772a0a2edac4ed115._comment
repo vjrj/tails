@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-11T18:57:30Z"
+ content="""
+What makes this attack different than any Man-in-the-Middle attack? Every application in Tails (and every other OS) is susceptible to something like this unless the user takes precations, like verifying the other end's authenticity.
+
+However, XMPPloit claims that it can \"Downgrade the authentication mechanism (can obtain the user credentials)\" and \"Force the client not to use an encrypted communication\". This won't work with the default settings in Pidgin, Tails' XMPP client, since it \"Require[s] SSL/TLS\", which will make such downgrade attacks fail.
+
+"""]]

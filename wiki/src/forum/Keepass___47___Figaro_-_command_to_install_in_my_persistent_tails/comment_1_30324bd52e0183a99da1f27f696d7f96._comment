@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-17T22:16:24Z"
+ content="""
+Set up an administrative password, and then install the `keepassx` package. Either through *System* → *Administration* → *Synaptic package manager* or by the command line:
+
+    $ sudo apt-get install keepassx
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-07T04:11:18Z"
+ content="""
+So you're running Tails inside a VM with the VM image file stored inside a Truecrypt container (for tamper-prevention presumably) on a Linux/Apple host and only mounted on the host FS when needed. Sounds perfectly reasonable. Although, if you're concerned about tampering, you should really be taking steps to protect the whole host OS - at the very least. A LUKS whole-disk-encryption scheme for the *host* system would offer much better tamper resistance than only encrypting the live system's container. You'd still have to take steps to prevent BIOS/hardware tampering booting from removable media if you suspect an adversary might have local access. What is the specific threat you're trying to protect your system against?
+"""]]

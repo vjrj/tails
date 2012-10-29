@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-05-12T06:49:41Z"
+ content="""
+What currently appear to be a waste is there to allow [[todo/incremental_upgrades]]. Hopefully they will be available in the next major release or the one that follows.
+"""]]

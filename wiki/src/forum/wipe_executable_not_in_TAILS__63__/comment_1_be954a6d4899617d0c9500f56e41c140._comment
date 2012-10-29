@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-15T12:55:37Z"
+ content="""
+1. Look the documentation on how to [[securely delete files and clean diskspace |doc/encryption_and_privacy/secure_deletion]].
+2. Look at the documentation on `srm` (from the `secure-delete` package): `man srm`
+3. Look at the documentation on `shred` (from the `coreutils` package): `man schred`
+
+Is there really a need for more?
+"""]]
