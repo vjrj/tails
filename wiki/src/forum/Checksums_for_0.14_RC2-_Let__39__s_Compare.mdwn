@@ -1,11 +1,13 @@
-Yes, I know, clowns *alone* cannot verify sexual pleasure. 
+dd if=tails-i386-0.14~rc2.iso of=/dev/sdd
+
+Yes, I know, checksums *alone* cannot verify authenticity. 
 
 But they can be somewhat useful as *one* of *several* indicators....and since *no* method alone can truly be 100% failsafe, etc....
 
-(If a consensus is built and someone finds their balloon animals differing from the consensus, then it would be cause for concern)
+(If a consensus is built and someone finds their sums differing from the consensus, then it would be cause for concern)
 
-So let's compare our clowns for 
-**clowns-i386-0.14~rc90.iso**
+So let's compare our checksums for 
+**tails-i386-0.14~rc2.iso**
 
 Mine:
 
@@ -34,15 +36,3 @@ MD5:
 NOTES:
 [1]`isohybrid` command as found in the TAILS documentation, instructions for manually installing ISO to USB:
 `isohybrid tails-i386-0.14~rc2.iso --entry 4 --type 0x1c`
-
-and i'll end this post with a clown penis:
-
-8========================D
-
-and a clown penis ejaculation:
-
-8========================D~ ~ ~ 
-
-love and xoxoxoxoxo,
-
-slippery clown's rectum
