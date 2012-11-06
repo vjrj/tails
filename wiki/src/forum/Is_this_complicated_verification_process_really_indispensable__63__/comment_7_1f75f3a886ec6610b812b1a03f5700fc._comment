@@ -1,0 +1,40 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-11-05T17:36:55Z"
+ content="""
+> I could not find a single mention in your post of establishing trust in the TAILS signing key.  Without legitimately establishing such trust, how much better is verifying a signature than the method described by the OP?
+
+I am just another Tails user, trying to help out here by answering questions to the best of my ability.  But I've used Tor and GPG for years.
+
+If you are super paranoid, that is probably good thing when you are downloading privacy-enhancing tool such as Tails.  And there are quite a few things you can do beyond what is currently suggested in the Tails documentation to increase your confidence that you have the genuine Tails signing key.
+
+One easy thing you can do is to try to verify the certificate of the page at boum.org from which you download the three files.
+
+* the download page is https \"protected\", so when you download the three files, you should see an icon to the left of the location pane in the browser; clicking on that will lead you to information about the certificate.  If you search this forum you can find some things to look for like the serial number, expiration date, issuing Certificate Authority (CA), the domain for which the certificate is valid, and of course the signature.  
+
+* you are reading an \"anonymous\" post at a site you believe to be boum.org, but because if you were being targeted by your government or your ISP you would might see a different cert from other Tails users, you do gain some information when I say that some values I see for the current certificate (November 2012) are
+
+      Serial Number: 9b:b4:c2:40:40:5e:70:30:61:9d:cd:ff:20:b6:f1:90
+      Expiration date: Jan  3 23:59:59 2013 GMT
+      Issuer: C=FR, O=GANDI SAS, CN=Gandi Standard SSL CA
+      X509v3 Subject Alternative Name: DNS:*.boum.org, DNS:boum.org
+      Signature: 01:e1:ab:29:75:61:0e:c9:c7:4b:fb:7f:bd:...
+
+* when you surf to boum.org using Tor running under Vidalia controller (standard in Tails), you should see the ocsp lookup to the CA and can verify the IP of the CA, and you can also verify the IP of boum.org using on-line services which do lookups (don't confuse these IPs with the IP of the Tor entry node from which you are actually downloading the three files)
+
+* you can visit on different days from another network, if you have access to another network; if you see the same signature that is weak evidence that 
+
+Don't forget that whether you use TBB or Tails, you'll be obtaining the latest tarball or iso image from time to time, so if you store in a safe place information about the correct certificate and signing keys you can check for consistency over time.  Certificates and keys can change for legitimate reasons, but if you see a change you'll know that you should try to verify the legitimacy of the new cert or key.
+
+One easy thing you can do to increase your confidence in the signing key is to look for it at some pubic key servers.  If you download the same public key from keyservers as you did from the site you are connected to when your browser says you are connected to boum.org, you have additional confidence in the authenticity of the key.
+
+Last but not least, you can try to attend key-signing parties in the hope that eventually you will be connected by the Web of Trust to someone who has signed the Tails signing key.   Pay attention to the signatures on any public key; the gpg man page will tell you how.  Even if you can't attend many key-signing parties, simply the fact that many individuals have signed a key is in practice pretty good evidence that the key is authentic. 
+
+Fake keys (for eff.org for example) are out there, but they have so far been pretty easy to spot from the fact that the email addresses are not in the proper domain and the fact that they are only self-signed.
+
+If anything I wrote isn't clear, ask again.
+
+
+
+"""]]

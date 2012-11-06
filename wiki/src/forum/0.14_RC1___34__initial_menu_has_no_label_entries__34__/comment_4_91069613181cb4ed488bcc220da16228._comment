@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-04T01:36:09Z"
+ content="""
+\"resulted in a text-mode \"boot:\" \"
+
+The same here with 0.14 RC2 and a little older Universal USB Installer(1.9.0.9)on Windows 7.Cannot get a newer Universal USB Installer,maybe can get it very later.
+Press Return don't change this. When typing in / i get:
+'Invalid or corrupt kernel image'.
+Typing in 'isolinux.bin' Error says:
+\"ISOLINUX 4.02 debian-20101014 ETCDisolinux:Found something at drive=80 isolinux:image checksum error,sorry...
+Boot failed:press a key to retry...\"
+->Press ->no reaction.
+.iso was verified and seems OK.
+
+Would an actual Universal USB Installer version helpful solving this?
+Have not tried with burned .iso on DVD.
+"""]]

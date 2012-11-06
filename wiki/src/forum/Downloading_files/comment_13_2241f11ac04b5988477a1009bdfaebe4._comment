@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-10-31T15:53:32Z"
+ content="""
+in my trials, wget in tails just stops after around 60 MB of downloading.
+
+
+tails should include UGET as a download manager.
+
+
+for small files, use the browser. run sha512sum against the file, and continue browsing the net. after 60 minutes pass, download the file again and run sha512sum against it. you may continue to do this additional times to be sure an exit node has not poisoned the download. upload the file to virustotal, search the net for the md5sum of the file, you'll sometimes find it.
+
+
+the better method to be sure you've downloaded a file without it being poisoned through tor is to verify a gpg signature. if you like a particular program, convince the author or distributor to add checksums and gpg signed files.
+"""]]
