@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-26T16:23:09Z"
+ content="""
+I just hope the Tails forum maintainers will not choose any forum software which makes it impossible for those who have disabled Javascript, image loading, cookies, etc. to participate.  Some of the software they say they are considering apparently requires posters to register with an email address, but can be set not to actually verify that address.
+
+I can see that spam is somewhat disruptive (if people stopped complaining about it in public, it might decrease)
+
+But the Tails forum is not just any forum: the people who most need to use it are likely to be wary of providing identifying information.  After all, any database kept by the forum software can in principle to stolen or seized.  See the Optfelten letter discussed by eff.org Deeplinks blog for a rather strong indication that boum.org may be targeted by state-sponsored malware.  So the choice of new forum software should be dictated by a careful balance of three confling desiderata: ease of maintainance, forum security, and privacy of posters who surf here via Tor.
+
+I wish the Tor Project had a similar forum where users can interact with developers, or at least try to leave some feedback in discusions which are not bug reports, but requests for information, documentation, features...
+"""]]

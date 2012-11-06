@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 129"
+ date="2012-10-25T12:44:26Z"
+ content="""
+> Running I2P over Tor is redundant.
+
+Running I2P over Tor (in hidden mode) reduces system's security and anonymity to that of Tor. I2P has nice design, but it was rransom, who, IIRC, claimed that I2P is a steaming pile of you can guess what which he wouldn't touch with a pointy stick.
+"""]]

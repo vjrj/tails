@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 163"
+ date="2012-10-26T18:38:31Z"
+ content="""
+> I2P doesn't cache any traffic it relays, so that encrypted data only lives in RAM.
+
+How much RAM should you have to use i2p?  I saw in the Tails documentation that you should have at least 1 GB of RAM, but should Tails users who want to explore i2p have more?  This could be a problem for some of us.
+
+> The Exit Node operator can read content if the destination site does not use https, for example user/password combinations if I use Tor while logging into a webforum account, but should find it difficult to deduce who downloaded/uploaded that content
+
+The point was of course that quite the opposite, that if your webforum username can be tied to your IRL identity, you outed yourself.
+
+The thread is long in part because anonymity is a really hard problem, which is not made easier by the fact that everyone who needs anonymity also needs security, and these can be conflicting goals.
+"""]]
