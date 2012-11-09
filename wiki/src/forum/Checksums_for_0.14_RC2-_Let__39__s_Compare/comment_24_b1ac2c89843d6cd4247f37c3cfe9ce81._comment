@@ -10,5 +10,5 @@
 2. Because Tails is based on Squeeze and also still ships `seahorse-plugins`.
 3. Because that page was written before we discovered it was discontinued.
 
-Yes, the situation is clearly suboptimal, thanks to Gnome developers. So now that Ubuntu and Fedora does not have the plugins anymore, everyone should drop the graphical interface, even if it works nicely in Tails? These are hard tradeoffs. Patches welcome, if you have good ideas.
+Yes, the situation is clearly suboptimal, thanks to Gnome developers. So now that Ubuntu and Fedora do not have the plugins anymore, everyone should drop the graphical interface, even if it works nicely in Tails? These are hard tradeoffs. Patches welcome, if you have good ideas.
 """]]
