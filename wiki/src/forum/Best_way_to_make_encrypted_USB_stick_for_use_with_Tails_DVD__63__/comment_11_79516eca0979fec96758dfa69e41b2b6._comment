@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-11-08T17:29:28Z"
+ content="""
+(Continuing)
+
+* I am not trying to INSTALL Tails onto the USB stick.  That would do me no good since my laptop BIOS doesn't know the concept of booting from a USB stick so I can't try to set it up to try to boot from a USB stick.  I can however boot the laptop from a Tails DVD.
+
+* I am trying to create a strongly encrypted persistent volume (?) on a USB stick that will be as safe as possible to read/write as a removable disk when using the laptop booted from the Tails DVD, while leaving the hard drive of the laptop untouched.
+"""]]
