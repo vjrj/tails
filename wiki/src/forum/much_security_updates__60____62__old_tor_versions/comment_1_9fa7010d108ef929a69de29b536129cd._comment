@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-01T03:43:05Z"
+ content="""
+I have always assumed that in many cases, what happened when a Tor node first comes on line is that some \"computer nerd\" experiences a burst of enthusiasm and set up a Tor router, but soon moves on to other projects, and consequently may not take the time to upgrade.
+
+Whether people running Tor nodes bother to update to the latest versions is not under the control of the Tor Project, of course. 
+
+I have long been curious about a related question: how might this adversely affect the security of the Tor network?
+
+Someone else mentioned in another thread in this forum using Gibson's firewall tester while using Tor, and noticing that some exit nodes don't appear to be using strong firewalls.  Others have mentioned using the jondonym anonymity tester, and noticing that some exit nodes appear to be more vulnerable than others to the kinds of things done by that website.
+"""]]

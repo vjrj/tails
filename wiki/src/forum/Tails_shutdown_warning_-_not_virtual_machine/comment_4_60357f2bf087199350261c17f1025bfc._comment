@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-07T21:08:17Z"
+ content="""
+The Spice tools offer services to people using Tails in a virtual environment - under a hypervisor. The \"warning\" is just those tools informing the user that they didn't function correctly - because you weren't using Tails in an appropriate environment for them. You didn't need them so the messages are normal and indicate *correct* operation. :-)
+
+I think \"Camera/VM\"
+
+Was suggesting you use a *camera* **or** a *virtual machine* to capture shutdown messages
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-30T11:36:47Z"
+ content="""
+SK government wants to track down a particular Tails users from SK and let's say they get the FBI to cooperate. FBI raids tails.boum.org servers in Seattle. They go through the logs and manage to get a list of all IP addresses from SK. SK police go through each entry(OS/browser fingerprinting techniques mean a sufficiently motivated adversary might even be able to determine WHICH version of Tails you're using), issuing subpoenas to SK telecom or whatever, until they track you down.
+"""]]
