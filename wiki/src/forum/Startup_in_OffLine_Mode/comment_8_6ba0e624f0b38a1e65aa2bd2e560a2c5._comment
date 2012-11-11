@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-03T02:18:39Z"
+ content="""
+@ comment 1
+
+> I start my Tails boot with **my** [my emphasis] router turned off which is effectively an offline mode. [...] I [...] run an initialization script (which also executes the macchanger command and other local modifications)
+
+There is no point in running `macchanger` on a network you control, i.e. that can be linked to your state-sanctioned identitiy. MAC addresses are only supposed to be used in a link-local mannder (i.e. on your LAN). Even if your ISP handle them differently and record them it doesn't matter as they already can link your MAC address to you (by definition).
+
+Only use `macchanger` on publicly accessible networks that's not linkable to your real identity.
+
+@ comment 7
+> The syntax for blacklisting a module called \"net\" would be: net.blacklist=yes
+
+This won't work as `net` isn't compiled as a module in the Debian kernel.
+
+Please create a new [[todo item|todo]] with an approapriate name if you want this feature it in Tails.
+"""]]

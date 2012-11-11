@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-11-02T23:24:32Z"
+ content="""
+JS shouldn't pose too much of a worry in this context. Probably the most important thing to ensure is that you use an isolated browser/Tor session for the facebook access: the best way to guarantee this by booting Tails *just* for the facebook session.
+"""]]

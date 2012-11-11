@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-09T20:37:55Z"
+ content="""
+@ 3:
+
+Yes, as is discussed in the Tails documentation, in the Tor Project documentation
+
+https://www.torproject.org/docs/faq.html.en#ChooseEntryExit
+
+and in recent threads on this forum, Tor developers warn against using ExcludeNodes due to the danger of traffic analysis de-anonymization attacks mounted by capable adversaries.  To which I reply that if one can't use Tor at all without using ExcludeNodes to avoid the \"bad\" nodes, one hasn't much choice but to accept the risk of traffic analysis attacks.  This is not a good choice to be faced with.
+
+I should have said that it is possible that the \"bad\" nodes are implicated because something has gone wrong with load balancing.  Tor developers could comment more authoritatively than I on that point.
+
+@ 4:
+
+Yes, because it was an example.  
+
+SY is a real top level domain, of course, and many found it useful to exlude exit nodes in that country this year due to the escalating conflict there, which has led to human rights workers living in the US and other countries being followed and harrassed (what happens to people living in or rendered to Syria if of course much worse).
+
+@ \"Sake\":
+
+Since my guess about the possible reasons for the problems are just guesses, how about this: I'll list a sample ExcludeNodes which includes several subnetworks which seem to associated at times with hard-to-miss-noticing problems:
+
+     ExcludeNodes 38.229.70.0/24,199.48.147.0/24,204.124.83.0/24,149.9.0.0/24,65.49.70.245
+     ExcludeExitNodes {sy},{ir},{kp}
+
+Other users have independently reported issues with some of these in the past.
+
+If you are having problems surfing to legitimate websites (I count this as one such) I recommend cautiously experimenting as follows:
+
+* keep some shreddable notes on which Tor nodes seem to reappear again and again in failed connections or resets, for a half day or so
+* look them up in a list of Tor nodes and study their bandwith, roles (Exit, Guard, Fast, Stable), and other data for patterns
+* cautiously experiment with Excluding some nodes or networks you think seem to be associated with failures
+* cautiously try reverting to default after a few days in case the problems were temporary
+
+I imagine \"Tails\" will want to comment by reiterating the warning against using ExcludeNodes, but I think this option is valuable when things to so badly that it would be impossible to use Tor at all without using ExcludeNodes.
+
+If \"Tails\" encourages me to name the company I mentioned in the OP, I will do that.
+"""]]

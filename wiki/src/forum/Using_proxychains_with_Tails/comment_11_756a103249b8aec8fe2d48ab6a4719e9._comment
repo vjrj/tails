@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="HTTPS Proxy -Does it pose any risk?"
+ date="2012-10-26T19:11:23Z"
+ content="""
+If we use a https proxy in Tails Vadiala by using root command, will it pose any kind of risk? Can Tails still main encrypted tansmission to other 3 nodes despite using https proxy before the first node?
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 131"
+ date="2012-10-25T12:58:02Z"
+ content="""
+> No - the HTTP tunnels have hard-coded filtering to remove and anonymize HTTP headers. Timestamps are removed, as are several other headers.
+
+I meant more something like timestamps in I2P packets that are routed through the network.
+
+> Tor, however, does not do this - in fact, the attack you describe was tested recently, and successfully, on numerous .onion sites, by comparing clock skew of known Tor relays to the header info (he called it \"clockskewering\" ^_^).
+
+That's similar, but different, since such attack goes in reverse direction, and requires a hidden service to be served by the attacked system.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 151"
+ date="2012-10-25T23:14:24Z"
+ content="""
+>comment 85 So if i was using Comcast and i connected to a I2P user on Verizon then both ISPs would log our ip address connection and association with each other ???
+
+>Yes. So the situation is the same as with Tor; both ISPs can see that one of them is a Tor client since the other is a Tor relay, which is public knowledge.
+
+What the hell are you on about.
+
+If a Tor User connects from Comcast to a Verizon user then the Verizon user and ISP log will only ever see the Tor Exit node IP address.
+
+If a I2P User connects from Comcast to a Verizon user then the Verizon user and ISP log will have a direct address for the comcast users.
+"""]]

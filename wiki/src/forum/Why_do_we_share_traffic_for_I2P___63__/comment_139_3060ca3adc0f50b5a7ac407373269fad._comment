@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 139"
+ date="2012-10-25T13:39:01Z"
+ content="""
+> Ah, I understand what you meant now. I2P has its own internal NTP implementation - not to increase anonymity (though that is exactly what it does, since any timestamp in an I2P packet (which would be encrypted anyway, so not visible to anyone other than its intended recipient) would not correlate to an actual system time) but to ensure that the entire I2P network has as little clock skew as possible.
+
+I know about the internal NTP clock skew. My question is: is it the only thing that protects against the deanonymization attack mentioned above, launched from the eepSite? One trivial example where NTP won't help is UDP being blocked on a corporate firewall, and there might be ways to get resolution beyond what's provided by internal NTP, or attack it by fake packets, etc.
+"""]]

@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-10T09:23:13Z"
+ content="""
+Thanks for the tip.  
+
+Debian Squeeze has grub2 with efi support:  http://packages.debian.org/squeeze/grub-efi
+
+This guy evaluates different ways of dual booting Debian Squeeze with UEFI: http://william.shallum.net/random-notes/windows-7-linux-uefi-dual-boot
+
+Doesn't work on all machines: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=674849
+
+As usual, Debian is good but moving slowly on an important issue.  I guess (sigh) Tails is going to wait for upstream Debian Live (Squeeze) stable to introduce UEFI support and then it'll get built into the Tails ISO.  This is a disadvantage of basing anything on Debian Stable, they've always been too slow.
+
+Why not look at Liberte's UEFI support and port that across to Tails?
+
+Btw ArchLinux has an excellent rundown on UEFI here: https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface
+"""]]

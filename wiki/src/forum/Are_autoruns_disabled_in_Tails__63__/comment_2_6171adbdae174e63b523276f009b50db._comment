@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-04T13:01:35Z"
+ content="""
+I didn't read everything, so I won't say if this threat is still valid, but if you want to desactivate the thumbnails easily, you can run this:
+
+    gconftool-2 --type string --set /apps/nautilus/preferences/show_image_thumbnails never ;
+
+Hope that helps..
+"""]]

@@ -1,0 +1,50 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-03T19:22:21Z"
+ content="""
+@ Commentators 5,6:
+
+I think I do, but I should have explained the distinction in the OP.  But please feel free to try to explain it in your own words.
+
+@ Commentator 7:
+
+Again, unsupported blanket condemnation is useless.  If you think a specific statement in the OP is wrong or misleading, please explain.
+
+@ others:
+
+We are discussing the issue of why someone might want to take the trouble to use Tails in the first place, and I am confident that many Tails users are curious about the topic of national population surveillance systems.  So I think it is appropriate to try to share information and to try to assess the potential of such systems to subvert the Tor network, and I hope the moderator will allow me to try to start a constructive discussion.
+  
+My views (and my estimates) are very much a work in progress, so I welcome specific (documented) corrections and constructive discussion!
+
+One reason I cited the data rate estimates is that I'd like to hear from anyone willing to offer more specific/reliable back of the envelope estimates!  I should have said that in providing such estimate, I am following the paper by Villasensor, who clearly felt, as I do, that they are invaluable in understanding what we mean by national population surveillance systems.
+
+As I said in the OP, the numbers were drawn from various sources including the paper by Villasensor, from sources cited in some Wikipedia articles, and from internal NSA documents leaked or obtained under FOIA.  Unfortunately, such estimates are almost never dated or accompanied by an explanation of how they were computed, and I suspect that many of them may be more of a wild guess than a serious attempt to arrive at an estimate accurate to an order of magnitude or so.  I think we can do better and I'd like to help us try.
+
+Here is a revised list with one correction and a handful of new estimates (from internal NSA histories obtained under FOIA):
+
+Examples:
+
+    3.3 GB/year : audio of all phone calls made by a \"typical\" person
+    13 TB: 1 year of 30 fps high-definition video, one camera
+    20 TB: all text held at the Library of Congress
+    36 TB/year: Chalet/Mercury interceptions, one sattellite, 1977
+    120 TB/year: 30 fps high definition video, one camera
+    1.5 PB: all Facebook photos
+    3.6 PB/year: data processed by NSA/CSS Aerospace Data Facility, 2004
+    150 PB/year: audio of all phone calls made by everyone in Iran
+    200 PB: all text ever produced by human beings to date
+    6 EB/year: all data streams produced by US consumers
+    7.3 EB/year: data processed by Google Maps servers, 2010
+    10 EB/year: entire land surface of Earth imaged every minute at 10 cm2 resolution
+    8 EB/year: 30 fps high definition video, one million cameras
+    16 EB/year: one million automatic license plate readers
+    1 ZB/year: all data streams in entire internet
+    5 ZB/year: all NSA interceptions, 1995
+    1 YB/year: NSA data processing requirements by 2015
+
+One point which will occur to a critical reader (the kind I want) is that some of these values appear inconsistent.  A hundred thousand license plate readers operating 8 hours per day is probably not unreasonable for the ambitions of TrapWire, and if all collected data is transmitted daily over the internet to TrapWire servers, the estimate (unfortunately undated) for \"all data streams in the entire internet\" may be too low for 2012.
+
+Another point which is evident is that the collection capabilities of the NSA have by its own account grown by several orders of magnitude over the last several decades.  That is hardly surprising, but it is interesting to see some hard figures.
+
+"""]]

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-08T16:43:50Z"
+ content="""
+@ Comment 5:
+
+Thanks for the links, I hope they help.
+
+Sounds like you might be an experienced user of chat software.  It looks like Riseup and Tails both suggest using pidgin to obtain OTR:
+
+https://help.riseup.net/en/chat-clients
+https://help.riseup.net/en/chat#tor-with-pidgin-configuration
+https://help.riseup.net/en/pidgin
+https://help.riseup.net/en/otr
+
+Did I understand correctly that OTR is something you can use only if you have a working chat client (jabber, pidgin) and only if you know how to find a particular user in a particular chat room with whom you want to initiate a private conversation?  It is not something you can use to visit some chat room and join a general conversation?
+
+The GUIs are not designed so that someone who has never used chat can figure out what to do to get started.  That's probably bad for a GUI, but I think the fundamental problem might be analogous to teaching yourself vi: very painful if you try learning from a book, easy if someone who knows vi spends a half hour sitting with you to get you started with the colon thing.  Some things are just easier to show than to explain.
+
+"""]]
