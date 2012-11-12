@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-02T17:56:32Z"
+ content="""
+I am able to connect without having to make any changes.
+Running
+ 
+ root@admesia:/home/amnesia# ssh dell@angelxxxxxxx.org
+ dell@angelxxxxxx.org's password:
+ Welcome to Ubuntu 12.04.1 LTS (GNU/Linux 3.2.0-32-genericpae i686)
+
+ Last login: xxxxxx
+ dell@angelxxxxx:~$
+
+SO I don't think it is the SSH.  However seeing a TTL expire usually means you are in routing loop.
+
+HTH.
+
+
+"""]]

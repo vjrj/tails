@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 30"
+ date="2012-10-20T13:25:50Z"
+ content="""
+> Sorry, I didn't realize that proper casing was such what determined technical knowledge on this topic.
+
+It just means that you don't know anything about Tor, since it's easy to spot by the wrong spelling. I don't care about the spelling myself.
+
+> Anyway, you are wrong, Tor (does that make you happy) and I2P are not even based on the same fundamental network type, I2P is a peer-to-peer system which alone makes it fundamentally different from how Tor works.
+
+Again, you don't know what you are talking about. The differences (yes, I read that page you linked to a long time ago) are purely technical, and relate to how the system is bootstrapped, how tunnels are constructed, and how packets are routed.
+
+Operation of Tor and I2P is still very similar, and same deanonymization attacks apply.
+
+Now, since you are clearly over your capacity in comprehending even a simple introductory summary page, please save this and other threads from your incompetence.
+"""]]

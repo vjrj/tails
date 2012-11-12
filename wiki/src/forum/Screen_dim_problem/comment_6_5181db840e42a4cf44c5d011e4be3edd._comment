@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Update"
+ date="2012-10-15T08:52:01Z"
+ content="""
+This breakage seems to be arising from some deb packages I am installing post-boot, none of which on the surface appear to have any relationship to power management.   
+"""]]

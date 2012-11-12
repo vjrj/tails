@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Verifying a tails iso, and a weird email conversation"
+ date="2012-10-17T18:45:30Z"
+ content="""
+Tails and tails documentation have improved greatly since I first tried tails, and I'd like to shout out to the devs--- thanks, keep up the good work!  (I see one of my previous suggestions has been acted on and I have some more which I'll try to make in an appropriate page.)
+
+For what it is worth, I always obtain the appropriate PGP public key and verify each iso using the provided detached signature, and I keep a note (in an encrypted directory) of which Tor nodes I was using and also the IP which Vidalia reports as the destination.  Which in my experience does NOT appear to be the same as any IP associated with boum.org or tails.  This means I am placing great trust in PGP, which worries me because I have not yet been able to connect by the web of trust to Tails developers.
+
+The web of trust seems to be a difficult concept for many persons.  I recently had a very strange experience involving the alleged difficulty of using PGP to communicate, but am too new here to know whether it would be proper (or wise) to share it.
+"""]]

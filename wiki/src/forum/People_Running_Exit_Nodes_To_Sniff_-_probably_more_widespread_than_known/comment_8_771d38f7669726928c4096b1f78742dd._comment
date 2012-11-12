@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Gotcha"
+ date="2012-10-20T22:41:33Z"
+ content="""
+Agreed.  I haven't seen the Zoklet thread, but it sounds like the author might administer a large network and have created his rogue Tor node out of malicious curiosity.  And if people are willing to take the extra step of setting up a Tor node just to sniff traffic send by other people on a network to which they have physical access (possibly job-related, possibly illicit, and maybe only for the few seconds needed to plug in a Pwnie Express box), imagine how common it must be for \"curious\" employees to sniff non-Tor traffic. 
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-10-15T14:06:35Z"
+ content="""
+>> Instead they just download stuff without verifying the authenticity at all. That is what Windows users prefer. 
+
++1 if we are going to talk about what windows users prefer, then that is what windows users prefer
+
+
+SHA512 > SHA256 > SHA1
+
+
+Microsoft also used to use up until very recently weak and forgeable MD5 certificated to sign Windows critical updates, doesnt mean we should use them too
+"""]]

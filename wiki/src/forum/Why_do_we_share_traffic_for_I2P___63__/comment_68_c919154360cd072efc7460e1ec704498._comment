@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 68"
+ date="2012-10-22T23:38:25Z"
+ content="""
+@63:
+
+If I were building a botnet I probably wouldn't waste time attacking a
+linux system running off a CD in RAM memory which was running on a
+relatively slow i2p network when there are millions of vulnerable
+Windows systems out there with high-speed broadband connections and
+plenty of proven exploits.
+
+Your nightmare scenario is more a warning against enabling persistence
+in Tails rather than against i2p, after all with nowhere to dump
+illegal material on disk the whole nightmare would be a non-starter.
+
+I agree that it's worrying to have police forces aggressively
+targeting computers at home and abroad, but they are just another
+adversary to add to the long list that already exists.
+
+"""]]

@@ -1,0 +1,5 @@
+I am having the exact problems found in this thread: <https://tails.boum.org/forum/Tails_0.11_on_DVD_fails_to_boot/>
+
+Except using Tail 0.13 and the solution isn't working for me. I have abundently researched this issue and found many similar cases, but none of the solutions seem to work. I have booted removing the "splash" and "quiet" tags, as well as adding the "debug" tag. Boot also seems to take abnormally long, then displays the errors referenced in the previous thread, for about 2-3min and than quickly displays a bunch of text and goes to a blank screen. I've let it sit for about 15min, to no avail. At the end of the road, don't know what else to do.
+
+These are my computer's specs: <http://h10025.www1.hp.com/ewfrf/wc/document?docname=c03138570&tmp_task=prodinfoCategory&cc=us&dlc=en&lc=en&os=4063&product=5218634&sw_lang=>

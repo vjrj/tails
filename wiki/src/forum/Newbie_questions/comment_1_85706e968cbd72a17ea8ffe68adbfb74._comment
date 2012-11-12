@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-23T18:26:47Z"
+ content="""
+\"I am unable to get one of the computers I will be using this on to boot from USB. It boots fine from DVD, and TAILS recognizes the USB drive\".
+
+If you are using an older computer, it may not be able to boot from a USB drive, even though all but VERY old computers have USB drives and can read from a USB stick.  To find out, you need to access your BIOS (software used when you boot your computer, independent of booting from DVD or hard drive).  Look through the Tails documentation for a discussion of how to access your BIOS, and ask again if you can't find.
+
+Some of us think that it is probably safer (but much less convenient) to use Tails booted from a DVD than Tails kept on a USB stick, because (as the documentation pages explain), there is the possibility that someone who obtains even temporary physical possession of the USB stick, or maybe even a remote intruder, could tamper with your Tails installation in ways which might de-anonymize you and violate your privacy.  
+
+I don't yet understand why the Tails developers currently recommend using a USB stick installation with a persistent volume for keeping personal files, configurations, bookmarks, and non-Tails Debian packages you want to use with Tails.  I think that booting Tails from a DVD but using an encrypted USB stick as a persistent volume makes much more sense, particularly if suitable crude intrusion detection scheme were implemented.  I don't yet know how to do this with Tails 0.13. 
+
+And welcome to the forum.  Comments from \"tails\" are posted by a Tails developer; all other comments are posted by Tails users like you and me.
+"""]]
