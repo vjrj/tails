@@ -1,3 +1,5 @@
+[In summary: For a **manual** install, one should be able to check its integrity. See detailed info and step-by-step instructions in "comment 8"]
+
 Is there a way to check the integrity of a TAILS ISO once it has been "burnt" to a **USB stick**? (not with persistence, just the regular TAILS live that would be the equivalent of a burnt DVD)
 
 That is, to determine whether or not the installation of TAILS had been tampered with -- whether via physical access *or* via remote access. (Or even just to be sure that the write-to-USB actually completed properly, the way one can verify the integrity of a burnt *CD*.)
