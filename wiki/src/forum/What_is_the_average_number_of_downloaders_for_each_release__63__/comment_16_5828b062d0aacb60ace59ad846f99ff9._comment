@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-11-14T10:36:25Z"
+ content="""
+>Like downloading Tails through a proxy server or VPN? VPNs are probably out of the question, and proxies are inherently unreliable (who runs these proxies?) and prone to leaks.
+
+Like... [Tor](https://www.torproject.org/download/download)?
+
+Otherwise, if Tails is illegal they'll watch you download it wherever the mirror happens to be and then smash your door in. No silly games with mirrors required.
+"""]]
