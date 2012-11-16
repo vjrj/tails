@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-16T01:22:21Z"
+ content="""
+>You can't put a CD image on a DVD, please use a CD.
+
+What you're doing here (or the software is doing) is trying to burn the ISO \"prepped\" for CD. If you have Nero Express, there's an expansion button on the left side once you choose the disc image that will let you choose what type of disc to burn the data to. It defaults to CD if the ISO doesn't specifically state that it's meant to go on a DVD.
+"""]]
