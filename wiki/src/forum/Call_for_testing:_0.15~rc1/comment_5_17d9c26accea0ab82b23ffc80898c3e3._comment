@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-17T06:23:47Z"
+ content="""
+although, just to add, this approach may be more appealing:
+
+https://help.ubuntu.com/community/HowToMD5SUM
+
+######Check the CD
+
+So far so good, you have downloaded an iso and verified its integrity. When you boot from the CD you will be given the option to test its integrity. Great, but if the CD is corrupt then you have already wasted time rebooting. You can check the integrity of the CD without rebooting as follows.
+
+Checking the CD directly
+
+You would think you could simply use a command like this to get the MD5 hash of a burned image:
+
+md5sum /dev/cdrom
+
+However this will almost NEVER be the same hash as the iso image that was burned to the disk, because this command includes the empty space at the end of the disk, which changes the hash. So you must check only the part of the disk that was on the iso.
+
+And what follows on that page are instructions for better verification of a burnt ISO image.
+"""]]
