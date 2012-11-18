@@ -1,0 +1,11 @@
+When I run the liveusb-creator GUI, I first position the new ISO (to be burned to a second USB drive) on my Desktop, run the liveusb-creator from the Tails>LiveUSB Creator (GUI) and the following Warning msg appears:
+
+Warning: The Master Boot Record on your device does not match your system's syslinux MBR.  If you have trouble booting this stick, try running the liveusb-creator with the --reset-mbr option.
+
+In this case, I have Tails-0.14 booted on USB /dev/sdf, the 0.15~rc1 ISO image located on my Desktop, and another USB plugged in (unmounted) to /dev/sdg (burned with a previous Tails image - in this case 0.14~rc2) which will get overwritten.
+
+When this warning condition exists, wouldn't it be easier to just either always reset the MBR whether the warning msg appears or not, or provide a way for the user to check a box so that it happens in the Next step which burns the image to the new stick on /dev/sdg.
+
+I understand that you will probably say to just run the command liveusb-creator with the --reset-mbr option, but the man page does not describe how I differentiate between the two USB devices at the command line, etc.
+
+Are you saying via the Warning recommendation that running the liveusb-creator with the --reset-mbr will accomplish what I have described (2 paragraphs previous) automatically?  If not, what is the answer?
