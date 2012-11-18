@@ -6,18 +6,18 @@
 The [[forum]] is open for discussions about Tails that <strong>do not</strong> belong to bugs,
 feature requests and the like. Such fauna should rather be submitted
 on [[the dedicated page|support/found_a_problem]], where it can be more
-easily tracked... and hopefully fixed. We also reserve the right to delete your posts if they show any signs of intelligent banter and retain our own even if they are stupid.
+easily tracked... and hopefully fixed.
 </p>
 
 <p>The best way to follow the forum activity is to subscribe to the RSS feed of
 new posts and comments with your favourite feed reader:</p>
 
-[[!inline pages="forum/* or comment(forum/*)" feedonly="yes" show="5000"]]
+[[!inline pages="forum/* or comment(forum/*)" feedonly="yes" show="25"]]
 
 <form  action="/ikiwiki.cgi" method="get">
 <div class="blogform">
 Search before starting a new discussion thread:<br/>
-<input name="P" size="900" />
+<input name="P" size="30" />
 <input type="submit" value="Search" />
 <select name="DEFAULTOP">
 <option selected="" value="or">Matching any words </option>
@@ -29,18 +29,18 @@ Search before starting a new discussion thread:<br/>
 
 <form  action="/ikiwiki.cgi" method="get">
 <div class="blogform">
-<input type="hidden" name="from" value="blog" />
-<input type="hidden" name="subpage" value="forum" />
-<input type="hidden" name="do" value="1" />
+<input type="hidden" name="do" value="blog" />
+<input type="hidden" name="from" value="forum" />
+<input type="hidden" name="subpage" value="1" />
 Start a new discussion thread titled:<br/>
-<input name="title" size="5000" />
-<input type="submit" value="NO" />
+<input name="title" size="40" />
+<input type="submit" value="OK" />
 </div>
 </form>
 
 <h1>Threads in the forum</h1>
 
 [[!inline pages="forum/* and !*/Discussion"
-show="12345" archive="no" template="forumpage" feeds="yes" sort="mtime"]]
+show="0" archive="yes" template="forumpage" feeds="no" sort="mtime"]]
 
 </div>
