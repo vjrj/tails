@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-11-18T15:06:38Z"
+ content="""
+>the issues fixed in 0.14 are quite real, not merely \"potential\". Some of them are pretty serious.
+
+In that case, shouldn't you be issuing warnings *as the \"pretty serious\" issues are discovered*, and not first once the next release has been announced?
+
+Is it not the case that by the time the new release is announced, the \"pretty serious\" issues in the previous release have been known for quite some time? 
+"""]]
