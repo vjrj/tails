@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-20T12:28:22Z"
+ content="""
+If you're having difficulty with the default actions, try renaming the signature from tails-i386-0.14.iso.pgp to tails-i386-0.14.iso.sig ;)
+"""]]
