@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 39"
+ date="2012-09-22T00:55:49Z"
+ content="""
+>>Is this the event that all this fuss is about?
+
+>Come on people does it matter what particular incident the author might have been referring to?
+
+Eureka!
+
+YES!!! That's exactly what matters. Your contention is \"Blogs are being hacked\" (the very TITLE of this thread). So... Where are all these \"hackings\"? Please provide your *evidence*!
+
+THIS FORUM IS NOT BEING HACKED! (you can add that to the \"nays\" which you haven't even bothered to count)
+
+>It has been established right from post number ONE that anyone can change the subject after it was posted even if they are not authenticated.
+
+Don't try to move the goal posts!... It has been explained since the beginning that this site is a wiki and that *all contributions* are made apparent to the core developers as they \"SPAM GIT\" ([comment 3!](https://tails.boum.org/forum/Forum_Security_-_Blogs_are_being_hacked/#comment-91cc1dfdc5d155bac51af75685616c12)) and must be reviewed and if necessary, reverted. It has also been explained that this isn't ideal as it's an unnecessary diversion for the developers and plans have been made to change the forum (links have been provided). Thus the site is not being hacked, this \"problem\" is a minor irritation, it is understood and being address.
+
+Please say you understand or provide evidence of the hacking which you insist has occurred.
+
+I don't see that any new information has been contributed to this thread since [comment 7](https://tails.boum.org/forum/Forum_Security_-_Blogs_are_being_hacked/#comment-c850a9e9069b78b027040d101eb1793e). I'm completely baffled why it continued beyond that point!
+
+One last titbit.. something which *doesn't* seem to have been explained to you yet!.. When a thread is *edited* its mtime is changed - so it leaps to the top of the forum. An old thread with lots of replies suddenly leaping to the top of the forum like this attracts the attention of all the forum *readers* and often creates a little flurry of new threads and messages kindly alerting the developers (as if they didn't already know!) to the event. I suppose not everyone understands how Git works or even that Git is this site's \"back end\" but *surely* everyone who's actually *read* this thread can be in no doubt?
+
+Perhaps this \"bumping\" hasn't been mentioned to avoid inciting those ignorant of it to \"test it\" and disrupt the developers and the forum in the process. Please exercise restraint!... like everything which *has* been explained here about how this site *really* works this *is* a fact! My sincere apologies if the \"don't get its\" all now use this information to make a further nuisance of themselves.
+"""]]

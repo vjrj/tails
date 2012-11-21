@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Correction"
+ date="2012-10-21T22:44:15Z"
+ content="""
+\"Isn't the general sentiment here something along the lines of: making abnormal configuration changes creates \"fingerprints\"
+
+Creates fingerprints?  No.  Adversaries (possibly including your ISP) create device fingerprints for everyone they encounter, regardless of what software they use, or how.  It follows that to achieve good anonymity, your ultimate goal must be to blend in with the largest possible sub-population of web users.  (There is so much diversity on the web that it is probably impossible to blend in with the entire population, but in principle you can try to blend in with the largest possible sub-population.)  That is why we say that we hope that a PanoptiClick score of \"one in a hundred browsers\" is much better than \"one in five thousand browsers\".
+
+I can't speak for Tails but I'll try anyway.  The official advice from the Tor developers (echoed by the Tails developers) is that making any changes to the default configurations of Tails components like the torrc file or vidalia.conf file, or to your FF/IW/TBB configuration, maybe even to your NoScript configuration, can assist adversaries in distinguishing you from the population of Tails users generally.  
+
+Speaking for myself now: all that is very likely true, ASSUMING that few Tails users bother to change any configuration datum from its default value.  I am not sure that this assumption is valid.  Neither am I sure that the advice implicit in the results of the jondos anonymity tester or the PanoptiClick test are relible, but several users report that by taking cues from jondos they have reduced their PanoptiClick score from about one in two thousand (bad) to one in one hundred (not good, but much better).
+
+I think we all agree that adversaries are likely to be able to easily tell that a given user is using Tails, unless they are performing only very simple minded profiling.  Unfortunately, the PanoptiClick and jondos test sites perform only very rudimentary tests, as both sites admit.
+
+I think we all agree that changing configuration files is dangerous for many reasons (could very possibly decrease anonymity, might well decrease security).  But not changing them could also be bad.  I guess everyone has to try to learn as much as they can in the time they can budget for this task, and to make informed choices.  Inevitably that will affect your anonymity simply because you are doing something different from what others do.  But everyone is doing lots of things differently from what other people do anyway.  And if more Tails users do as I suggest and consider changing their configuration to improve their jondos and PanoptiClick score, than do as Tor and Tails developers suggest by leaving all their configuration untouched, making the changes will probably improve your anonymity (and security).
+
+I am not exactly recommending making lots of changes, just suggesting that this is a reasonable topic for discussion.
+"""]]

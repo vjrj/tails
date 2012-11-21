@@ -1,0 +1,7 @@
+When using Tails in locations where you don't want to be noticed, it would be great if Tails had an Offline mode that could be started from the greeter.  The only way to start Tails offline right now is the new bridge option and then killing the network when Tails comes up.  This however still sends out a DHCP request and response before the chance to kill the network.
+
+The document feature and PGP features are great but sometimes you just need the tools and not ready for the internet yet.
+
+Since persistence doesn't seem to work for the network options yet, does anyone have any way of doing this other than what I am already doing?
+
+Thanks.

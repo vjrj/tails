@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-11T01:22:27Z"
+ content="""
+type about:config and press Enter
+
+type *ipv6* & disable it (double click the entry)
+type *prefetch-* & disable it
+
+type *network.http.send* and change the 1st entry to the number 0 and the second to false. (double click on the second entry)
+
+now exit the about:config window
+
+be aware some sites may break if you disable these features. you can google the information on mozilla's site for these options as they are well documented.
+"""]]

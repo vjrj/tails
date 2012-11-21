@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-18T13:32:42Z"
+ content="""
+> No offense but do you read and write Japanese?
+
+I don't.
+
+> If you don't, I guess the only way would be for either the OP or me to test it out and report the results back to you. Would this arrangement be satisfactory to you?
+
+This would be doable, but I would not mind something faster, that would not be a real field test for sure, but could avoid me to upload a full ISO. E.g. something like \"when you boot Tails and choose Japanese in tails-greeter, then a XYZ entry should appear in the input systems menu in the taskbar\". I mean, I'll be happy to upload an ISO once I have done this kind of basic checks, if they are possible at all.
+
+"""]]

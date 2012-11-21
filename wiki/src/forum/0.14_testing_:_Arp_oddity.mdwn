@@ -1,0 +1,1 @@
+in 0.14 testing, whenever I'm online and I type in, with sudo, "arp", I receive the correct arp output information, but then when I type in dmesg I see blocked packets from localhost to localhost, UDP, port 53. Why would an arp query do this?

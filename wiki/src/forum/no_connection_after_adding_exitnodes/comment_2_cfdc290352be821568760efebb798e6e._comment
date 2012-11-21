@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="answer"
+ date="2012-11-14T08:48:14Z"
+ content="""
+I don't want to discuss about CCC, this one node was just example, I exclude many of them but not thousand of them. I could not connect to internet when I tried to use bridge at boot, but of course, I collected bridges and had 4 of them and none was in my excluding list, simply, I start tails, then I go to terminal and modify torrc file (with Bridge option at boot and next time with normal boot, without bridge) and in the both cases, after modifying torrc, I must apply this changes with /etc/init.d/polipo restart & /etc/init.d/tor restart & then I start vidalia and I change from \"use unix domain socket\" to Settings-Advanced-Use TCP connection. then vidalia control panel show I use tor, but firefox/iceweasel refuse connection. simply if I don't do restart of vidalia and tor, my changes in torrc are not applied, I get exit nodes which I excluded in torrc file. for example, now, I excluded nodes in torrc without restarting vidalia and tor, and when I started iceweasel, I got IP address which I excluded in torrc file. so, in order to apply changes I must restart polipo and tor but then I loose internet connection.
+"""]]

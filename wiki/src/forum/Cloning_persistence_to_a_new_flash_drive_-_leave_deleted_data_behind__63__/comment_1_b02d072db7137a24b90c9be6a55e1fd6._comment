@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-18T10:49:52Z"
+ content="""
+Only the Tails system partition is cloned. The persistent volume is not.
+
+"""]]

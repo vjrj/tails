@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Attacks via video files rare"
+ date="2012-09-19T09:09:23Z"
+ content="""
+How to watch videos offline? Unplug the ethernet cable!
+
+Seriously: I have so far read of only TWO attacks using video files that have ever been discovered and those are quite old now.  Both were \"social engineering\" attacks using .wmv files and Windows.  On opening the video file, the user gets tricked into going  to a malicious website before the video will play.  That site installs a trojan or malware.  
+
+Here they are: 
+
+http://msmvps.com/blogs/donna/archive/2005/01/13/31831.aspx
+
+which is dependent on DRM in Windows and uses the need for a license to play the file as the excuse to dupe the user into going to the malicious site.
+
+If anyone knows of any other attacks via video files, please share.
+
+"""]]

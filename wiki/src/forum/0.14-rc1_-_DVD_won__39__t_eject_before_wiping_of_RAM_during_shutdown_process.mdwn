@@ -1,0 +1,5 @@
+On the same PC, the Live DVD containing 0.13 version will be automatically ejected from the DVD drive before the wiping of RAM during the shutdown process.
+
+But the Live DVD containing 0.14-rc1 version won't automatically eject.
+
+Has anyone got the same result?

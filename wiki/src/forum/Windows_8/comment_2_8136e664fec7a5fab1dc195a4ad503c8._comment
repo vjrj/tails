@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-27T14:59:32Z"
+ content="""
+@ OP:
+
+> So what of Tails? Is the next version being prepared to deal with this?
+
+At this stage we only have plans for supporting [[todo/UEFI]]. Regarding SecureBoot we're still undecided on how to proceed. I believe we want to see what Debian does before we act on this matter ourselves.
+
+@ comment 1:
+
+> Tails runs off a DVD or USB drive; it is not installed locally on a PC. It just runs in a live session from either one of those two types of removable storage media. 
+
+The media used doesn't matter. Live systems, like Tails, are equally affected by UEFI SecureBoot.
+"""]]

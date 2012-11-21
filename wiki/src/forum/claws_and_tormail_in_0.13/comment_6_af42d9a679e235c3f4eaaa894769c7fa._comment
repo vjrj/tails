@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-09T15:26:23Z"
+ content="""
+> The error comes almost instantly, so i dont even think it tries to connect to the onion. 
+
+Indeed, I you've found a bug which will be fixed in Tails 0.14, which is due at the end of this month. The release candidate will be released in a few days, so make sure to grab it and test the fix.
+
+Until then you can temporarily fix this issue by running the following command in a Tails 0.13 session(requires administrative privileges):
+
+    sudo iptables -I OUTPUT 3 -o lo -p tcp --dport 9040 -j ACCEPT
+
+"""]]

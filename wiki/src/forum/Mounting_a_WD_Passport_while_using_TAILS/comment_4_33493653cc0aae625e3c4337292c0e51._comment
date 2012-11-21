@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-09T16:02:28Z"
+ content="""
+Well in the short term this was the answer I was expecting. Anyone know of any hardware encrypted drives that work in a linux environment? I know I can use true crypt, but hardware encryption is the way we are heading, and it is a better form of encryption...especially SEDs
+"""]]

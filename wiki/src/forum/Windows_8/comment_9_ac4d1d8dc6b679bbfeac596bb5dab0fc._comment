@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-09-29T13:37:57Z"
+ content="""
+> The list is in order of how hard it will be to explain the process to someone who just want to use the system.
+
+You are overestimating the difficulty of the process. You are reiterating points of articles that discuss the difficulty for users who are completely clueless and expect everything to \"just work\". Tails installation and image verification process is already way above that in terms of difficulty (wrt. enrolling a new KEK / DB key).
+
+> Except that it will make every users life harder, really getting Secure Boot meaningful in terms of security does not look like an easy problem to solve.
+
+This is not a theoretical question. Secure Boot is already leveraged in Liberté to achieve trusted boot chain.
+
+> Looking up at Matthew Garret's writing on the topic and the recent kernel patch submissions, properly tackling modules loading or kexec does not look anything like fun...
+
+These issues are only relevant for non-live distributions.
+"""]]

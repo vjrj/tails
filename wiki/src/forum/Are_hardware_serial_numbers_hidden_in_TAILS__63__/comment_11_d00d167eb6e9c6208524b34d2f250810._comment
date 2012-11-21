@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="find out the MAC address"
+ date="2012-09-30T10:59:36Z"
+ content="""
+> When I am using Tails, what command must I input to find out the MAC address of my network interface?
+
+You can run **sudo ifconfig** (You will have to setup a root password at boot).
+
+To modify your MAC adress, check this [[todo item|todo/macchanger/]]
+
+-- Moritz
+"""]]

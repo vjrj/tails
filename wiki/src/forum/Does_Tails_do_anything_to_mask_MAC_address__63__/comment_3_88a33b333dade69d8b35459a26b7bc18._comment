@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject=" There is no way to hide the MAC adress"
+ date="2012-10-08T21:54:09Z"
+ content="""
+>>     (I think we can't hide it)
+
+> What do you mean by hiding MAC address? If it could be done, would the router be able to route your URL requests? Would you be able to surf the internet in that case?
+
+If I spoke, in the second message, about hiding MAC adress, it's because the original title is about 'masking' MAC adress.
+
+There is AFAIK, no way to hide the MAC adress, for the reasons you evoked in your message.
+
+Cheers.
+"""]]

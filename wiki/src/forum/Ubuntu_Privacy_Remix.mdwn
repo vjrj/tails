@@ -1,0 +1,14 @@
+While searching for info on how to re-verify the burned DVD, I found UPR.
+
+"Additionally we offer a Dualboot-ISO, which can boot UPR 10.04r2 for a secure and sealed-off local working enviroment and on the other hand Tails 0.9, a system specialized on anonymous internet usage via TOR."
+
+Any thoughts on this dual boot other than 0.9 is oudated?
+
+Also interesting is the verification process. Can Tails re-verify the DVD once burned?
+
+
+Verifying a burned CD:
+On the CD you can find the files md5sum.txt and sha1sum.txt, containing cryptographic hashes of the files on the CD. These  files in turn are signed by us (md5sum.txt.sig and sha1sum.txt.sig).
+First, you can use the commands 'md5sum' and 'sha1sum' to verify that all files on the CD have the same hashes as listed in md5sum.txt sha1sum.txt. If that is the case, you can then verify that the lists md5sum.txt an sha1sum.txt are actually correct by verifying their signatures with our gpg key. If verification is successful, you know that all files on the CD are unmodified and intact.
+
+https://www.privacy-cd.org/en/tutorials/verifying-signatures

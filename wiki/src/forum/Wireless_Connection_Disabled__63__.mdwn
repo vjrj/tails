@@ -1,0 +1,3 @@
+Usually, when I run Windows, the icon for my wireless connection is white, meaning it is enabled, and I can scan and connect to the various wifi networks in my building. However, whenever I boot up Tails (not in failsafe) my ability to connect is disabled, even though its normal for Windows any other time. Even if I manually put down (some) info about the network, it still doesn't connect, or scan at all! I also found this out, while looking at the network connections: it said networking was enabled, but wireless was disabled. Can anyone help?
+
+Oh, I'm running Tails 0.13.

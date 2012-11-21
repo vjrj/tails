@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-09-30T13:17:39Z"
+ content="""
+> Do you have any other documentation available on the process? Because this looks something harder to explain that \"press F12\".
+
+Your quote sums the process well for OVMF. The difficulty might stem from Secure Boot implementation on real hardware being different from OVMF. Otherwise, several screenshots should suffice for most users.
+
+> Could you please elaborate on that?
+
+If trusted boot chain verifies everything on live media, you don't care about kernel updates and similar issues.
+"""]]

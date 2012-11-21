@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-19T14:52:40Z"
+ content="""
+I have both TAILS 0.13 and 0.14~rc1 burned to two separate USB flash drives.
+
+My computer BIOS is set to boot from USB before CD/DVD and then hard drive, however, I need to use the PLoP Boot Manager, plpbt.iso burned to CD to transfer control to the USB because my CPU is an Intel P4 circa 2005.  Newer firmware/Motherboards and CPU may have more complete BIOS settings that do not require the PLop Boot Manager to assist USB booting.
+
+Both TAILS version only have two folders at the highest level of the ISO filesystem, which are \"live\" with 5 items and \"syslinux\" with 22 items.
+
+Check your BIOS boot order, and get plpbt.iso from pendrivelinux.com and burn it to a Live CD to use it with the 0.13/0.14 TAILS USB plugged in when you boot, if you need it.
+"""]]

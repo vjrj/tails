@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-25T06:40:36Z"
+ content="""
+Synaptic works fine for me in a Tails image that is close to 0.14~rc1. Doesn't it work for you?
+
+IIRC, if Synaptic does not define its own proxy settings, APT's ones are used, and those are working.
+
+"""]]

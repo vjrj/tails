@@ -1,0 +1,18 @@
+with dmesg I see several blocked attempts from localhost to localhost using port 8901, which appears to be Java related. I've removed all Java packages just in case, here is what I found on the issue of port 8901 and Java:
+
+
+#WebSDR: a Tunable Virtual Radio from Holland
+
+
+http://www.iw5edi.com/ham-radio/58/websdr-a-tunable-virtual-radio-from-holland
+
+
+>First of all this is not a common remotely tunable radio as you may have had the opportunity to play, there are many remote radios on the net but rather this is a Software Defined Radio. Let’s call it a Virtual Radio.
+
+
+
+>A Software Defined Radio, is a computer program, that emulate a complete radio, where tipical components like filters, mixers, amplifiers, demodulators, detectors etc have been reproduced by software programmed libraries. Input Output is demanded to commom sound cards, and a minimal RF frontend is provieded.
+
+>To load this sdr radio, requirements are Java Browser Plugin installed and access through TCP port 8901.
+
+Interesting.

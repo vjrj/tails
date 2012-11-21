@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-23T20:37:10Z"
+ content="""
+Feel free to [[contribute/customize]] your own [[builds|contribute/build]]. This should be way more efficient if you have doubts on the package selections than uninstalling them on each boot.
+
+You should not expect any support from Tails developers for those images, though.
+
+> nothing about my machine should be communicated back to the mothership and i'm offended my boot process results in a security check and a ping like hello to your servers without my permission..
+
+Nothing about your machine is sent to perform that security check. If you can read Perl, have a loot at [tails-security-check source](http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/usr/local/bin/tails-security-check;h=48f86748296a15bd6e08d130eb1ff064fa8a92f7;hb=refs/heads/stable). The process is fairly simple: determine when the running system was built (by looking at `/etc/amnesia/version`); fetch the [security feed](https://tails.boum.org/security/index.en.atom); display any entries in the feed that have been posted later than the build date.
+
+If this process is \"a ping like hello\", could you describe what Tor does when it connects to the directory authorities?
+"""]]

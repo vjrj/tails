@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-10-23T09:40:01Z"
+ content="""
+> Or does tails have proprietary firmware code which prevents this?
+
+Tails does ship with proprietary firmwares. Otherwise most users would not be able to use their Wi-Fi devices. In doubts, they can be removed in [[custom builds|contribute/build]] by removing the relevant Debian packages.
+
+> Tails is just Debian live with some packages added, a few tweaks, and a few custom scripts thrown in.
+
+That's probably what we thought Tails will be when the project started. Three years later, you can just see by yourself through a look to at least the [development mailing-list archives](https://mailman.boum.org/pipermail/tails-dev/), the history of the various [[Git repositories|contribute/git]], the [[user documentation|doc]] and the [[amount of tests|contribute/release_process/test]] that are manually done for each release.
+
+Also, it does not seem you realize the amount of support that is required by a user oriented project like Tails. We have a pretty good commitment to answer every single request that we receive...
+
+> Don't forget things like this: *AdBlock stuff*
+
+If this is really bothering you, please send a patch. Then we will discuss about it. I'd also like to remind that the [[forum]] page explicitly state: *The forum is open for discussions about Tails that **do not** belong to bugs, feature requests and the like.*
+
+> How do we even know how many people are involved?
+
+Once again, looking at the [development mailing-list archives](https://mailman.boum.org/pipermail/tails-dev/) should give you an idea.
+
+> Heck, they won't even disclose their motivations.
+
+Do you really want to ask *every* contributors of free software projects their motivations? We have written a [[pretty long statement regarding trust|doc/about/trust]]...
+"""]]

@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-10-15T09:13:34Z"
+ content="""
+>>Asking an open anonymous board isn't the way to do this. ;o)
+
+>Well I beg to differ.
+
+No doubt.
+
+>There is a person on this forum who signs himself/herself as Tails. Moreover s/he posts frequently and regularly too. 
+
+That'll be \"the devs\" ;o)
+
+>If s/he confirms the fingerprint that I posted earlier as correct, then I would trust the signature file.
+
+This wouldn't have been supposed to be some sort of bear trap perchance? X))
+
+>I based the above assumption that this forum has not been hacked.
+
+The forum has not \"been hacked\". It has also never been presented as a cryptographically secure authentication channel. It is a forum! \"The devs\" have already been good enough to write a long and comprehensive page describing several methods by which you may *correctly* verify a signing key. I'm sure it must be invaluable to those who don't know and cant work out how to verify the authenticity of a pgp key themselves. Perhaps you should refer to it:
+
+[[https://tails.boum.org/doc/get/trusting_tails_signing_key/index.en.html]]
+"""]]

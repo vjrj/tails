@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Keeping default settings versus tweaking them"
+ date="2012-10-17T23:52:36Z"
+ content="""
+Look for the jondos anonymity test.  The default Debian Tor, TBB, and Tails do not perform well (but then the test has been devised by a \"competing\" privacy-enhancing product).   Changing the defaults by disabling Javascript, disabling cookies, checking Do-Not-Track (by editing FF \"Preferences\"), and changing some defaults in NoScript, can improve security but may degrade anonymity.  Some changes will improve your anonymity score at Jondos and at the EFF panopticlick site, some will worsen them.  I don't know how to change the referer line in the header of http GET requests without going into about:config, which is probably dangerous if you don't know exactly what you are doing, and I can't say that I do.
+
+These are difficult and dangerous choices.  The developers will probably tell you not to venture far from the default choices, if at all, and they know what they are talking about.  But I can't help worrying that keeping the default choices might also have dangers of their own.
+"""]]
