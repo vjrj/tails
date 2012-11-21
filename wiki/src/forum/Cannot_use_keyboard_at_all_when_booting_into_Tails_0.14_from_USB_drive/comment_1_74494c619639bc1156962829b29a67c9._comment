@@ -4,5 +4,5 @@
  subject="comment 1"
  date="2012-11-21T21:50:23Z"
  content="""
-Please try a [[supported installation method|download/index.en.html#media]].
+Please try a [[supported installation method|download#media]].
 """]]
