@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-26T01:35:20Z"
+ content="""
+>when I open the map, it shows several \"connections\" and to the right of that in another box shows 3 more
+
+>are the 3 shown to the right my \"3 hops\"?
+
+they are the \"3 hops\" of the circuit selected in the (\"connection\") pane to the left of that one.
+
+>why are there several \"connections\" shown if there are supposed to be 3 hops?
+
+Tor maintains more than one open \"circuit\" at a time.
+
+>what really has me confused is that none of the ips shown in the connections or in the box to the right match the ip shown in the homepage of iceweasel \"your ip appears to be 
+
+It is the last (bottom of the list) node on the circuit which was used at the time the page was loaded. You can watch which connections are being made through which circuits. Again this is shown in the \"Connection\" list. If you can't find the circuit which was used for your initial connection, it may have expired.
+
+Don't be confused! Read [the](https://tails.boum.org/doc/anonymous_internet/vidalia/index.en.html) [docs](https://www.torproject.org/dist/manual/short-user-manual_en.xhtml)!
+"""]]
