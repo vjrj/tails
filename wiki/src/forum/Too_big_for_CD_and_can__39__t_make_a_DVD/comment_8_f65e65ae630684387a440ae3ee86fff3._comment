@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-16T05:03:13Z"
+ content="""
+>I verified that my original ISO was fully intact.
+
+Good. We can rule that out as the cause then.
+
+>I was VERY surprised that such a massive effort is made on this site to: \"make sure no one has modified the ISO\".
+
+See below...
+
+>I have NEVER gotten a modified or damaged ISO in my life.
+
+I have. Occasionally I've observed spurious spot corruptions on downloads which were reported to have \"completed\". This has *usually* affected resumed or segmented downloads. I've also received countless truncated ISOs - often the result of \"timeouts\" or inappropriate server software being used to attempt to distribute files >2GB
+
+>Besides, I get the ISO directly from tails.boum.org, never anywhere else.
+
+The file you think is served by \"tails.boum.org\" is actually coming from a round-robin of around a dozen unaffiliated mirrors. 
+
+>Has tails.boum.org had a massive problem with many fake/modified/damaged ISOs before?
+
+Prevention is better than cure. There'd be no point attempting to bolt that stable door after the horse had bolted and the damage to Tails reputation and the harm to its users had been done. Given the nature of the project anything less conscientious would be negligent.
+"""]]

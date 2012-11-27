@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I need to know how to do this as well"
+ date="2012-11-22T08:17:43Z"
+ content="""
+I would like to know how to configure VNC to work over TOR. Either from local host to TOR/Tails then to the remote server as the OP described, or just within tails to the server.
+
+In my case it's a linux remote server and I *DO* wish to conceal my identity from the server. At this point I'm just doing it to learn how, but I can imagine this being useful in any number of common situations, such as if I am maintaining a database serving pro-democracy media in North Korea and I don't want to go to a torture camp.
+"""]]
