@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-13T12:35:24Z"
+ content="""
+A PLoP cd ran fine, but selecting usb in the PLoP boot manager did not start Tails.  No operating system found or similar error.
+"""]]

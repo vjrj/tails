@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-30T22:15:37Z"
+ content="""
+I agree, sounds like someone was using (mis-using?) Tor to mount a denial-of-service attack on that website, and you happened to be trying to access it via one of the Tor nodes they autoblocked.
+
+> I'm wondering if having Iceweasel not load a home page or any default webpage when first run might help to batten down the hatches some more (though wouldn't solve this problem entirely I don't think).
+
+This is the Tails forum, but I thought I'd mention something about TBB.  New users of Tor Browser Bundle are often worried that when TBB starts it always loads the check.torproject.org page.  The reason for that is that Tor needs some way to alert users of TBB, even those who have downloaded TBB anonymously, that an update is available, so the TBB client calls up that page at the start of each browsing session to see if it is still the most recen version.
+"""]]

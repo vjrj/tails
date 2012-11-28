@@ -1,0 +1,18 @@
+Hi,
+
+For some reason, only openbittorrent tracker works in I2P.
+udp://tracker.openbittorrent.com:80/announce
+
+The default tracker did not work in I2P:
+
+- I2P 0.9.3 running under Windows 7
+
+- QBittorrent 3.0.6 with proxy settings thru I2P
+
+It did not work in I2PSnark either.
+
+I am not sure there are any downsides for including an opentracker in the torrent, but I may be wrong.
+
+If there are no major security downsides for this, can you please include open trackers like openbittorrent in the Tails torrent?
+
+Thnx

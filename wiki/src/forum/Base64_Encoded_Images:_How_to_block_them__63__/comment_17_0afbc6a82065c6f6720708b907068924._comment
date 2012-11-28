@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-11-15T05:49:26Z"
+ content="""
+Comment 14, 15 & 16:
+
+That’s not quite the same thing...
+
+This thread is about FF/IW displaying inline images (using data URIs) even when the user has disabled \"Load images automatically.\" Thus FF/IW will expose the user to potential image library vulnerabilities despite attempts to prevent this. There doesn't appear to be any way to prevent FF/IW from doing this.
+
+Your links refer to using a similar (data URI) method to achieve something completely different. By using a URL abbreviation service (like TinyURL) one could construct a *whole webpage* in a URL which could then be hosted, ad-hoc within the abbreviation service itself... this would offer a quick, easy and anonymous means of publishing a malicious page - something defamatory perhaps. It's not really an attack vector as such, nor does it expose one which would otherwise be protected. It's just a convenient & disposable place to host some sort of \"social-engineering\" trap. I imagine the (reputable anyway) services have already taken steps to prevent this.
+"""]]

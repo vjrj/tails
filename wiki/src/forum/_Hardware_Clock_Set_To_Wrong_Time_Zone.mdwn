@@ -1,0 +1,5 @@
+My laptop has Windows 7 64-bit edition installed.
+
+Every time that I use Tails, it wants to synchronize time with Thor and therefore resets my hardware (BIOS) clock.
+
+I don't like that...  Is there any way to tell Tails not to mess with my hardware clock?

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-13T23:08:47Z"
+ content="""
+Could you try the same DVD in another computer? Could try another medium?
+
+Otherwise, please try to remove the `quiet` and `splash` arguments from the boot command line and see if you have more interesting error messages.
+"""]]

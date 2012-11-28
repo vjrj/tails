@@ -1,0 +1,19 @@
+Using Windows, I think I've installed the signing key into Gpg4win; Kleopatra says it's valid and comes from Tails devs etc.
+
+But the instructions for the signature make no sense to me:
+
+"Now check the integrity of the file that has just been signed, i.e. check that it is correct!
+
+To check for integrity and authenticity, the signature file - hence the file with the ending .sig, .asc, .p7s or .pem - ...."
+
+1. Just been signed??
+
+2. The Tails signature ends :.iso.pgp
+
+And if I right-click, and select Decrypt and Verify, then the 'signed data' window is blank unlike the example, and clicking on the 'Decrypt/Verify' button produces 'verification failed:no data'
+
+Am  I supposed to do the copy past routine to a text editor and re-save this one as a .asc file (as I did to import the signing key)?
+
+Tried that anyway, but there are odd box characters either end of the '....END PGP SIGNATURE....' bit. I didn't know whether to include the last one. Anyway, all I tried gave verification errors.
+
+I've wasted several hours on this cr*p btw. grrrrrrrrr
