@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-11-28T12:23:55Z"
+ content="""
+There s no functional BTC client which works on both Debian Squeeze and Tor.
+"""]]
