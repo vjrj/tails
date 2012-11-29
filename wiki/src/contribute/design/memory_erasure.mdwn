@@ -24,16 +24,14 @@ as the ones normally used by a Tails system... that actually includes
 some bits of code dedicated to this mission.
 
 An initramfs-tools hook includes the necessary files in the initramfs
-at build time. A runtime init-premount script either does nothing, or
+at build time. A runtime init-top script either does nothing, or
 erases memory before shutting down or rebooting the system; its
 behaviour depends on the `sdmem` kernel command line parameter value.
-Additionally, the `sdmemopts` kernel command line parameter allows
-fine tuning the options passed to the `sdmem` program.
 
-- [[!tails_gitweb config/chroot_local-includes/usr/share/initramfs-tools/hooks/sdmem]]
-- [[!tails_gitweb config/chroot_local-includes/usr/share/initramfs-tools/scripts/init-premount/sdmem]]
+- [[!tails_gitweb config/chroot_local-includes/usr/share/initramfs-tools/hooks/hugetlb_mem_wipe]]
+- [[!tails_gitweb config/chroot_local-includes/usr/share/initramfs-tools/scripts/init-top/hugetlb_mem_wipe]]
 
-These `sdmem` and `sdmemopts` are appended to the fresh kernel command
+This `sdmem` is appended to the fresh kernel command
 line parameters, when memory erasure is triggered, by the
 `tails-kexec` initscript that is itself parameterized by the usual,
 slightly customized, kexec-tools configuration file.
@@ -43,14 +41,62 @@ slightly customized, kexec-tools configuration file.
 
 #### Actual memory erasure process
 
-The software that performs the actual memory erasure is sdmem, which
-is part of the [secure-delete](http://www.thc.org/) package. sdmem is
-called using the `-v` (verbose mode) option to give feedback to the
-user, as well as the `-llf` options: memory is only overwritten once
-with zeros; this is the fastest available mode, and is enough to
-protect against every memory forensics attack we know of.
+The software that performs the actual memory erasure is a custom
+program (`hugetlb_mem_wipe`) with the following design.
+
+Memory wipe is done on memory areas allocated using `mmap()`. When the
+memory is to be filled with zeros, it relies on the combination of
+`MAP_ANONYMOUS | MAP_POPULATE | MAP_SHARED` flags which makes the kernel
+clear the memory. Otherwise, it uses `memset()` on the allocated area.
+
+First, pages are allocated using `MAP_HUGETLB`. Once all huge pages are
+allocated, we continue the process using "usual" page size until we have
+taken care of the amount of memory given on the command line.
+
+A new process is spawned after one process has wiped 1 GB in order to
+overcome the limit of maximum memory addressable by a single process
+on 32-bit architectures.
+
+Using huge pages should result in a faster wipe, as less page allocations are
+required to clean up the whole memory. See
+<http://linuxgazette.net/155/krishnakumar.html> for an introduction on huge
+pages and hugetlb.
+
+`hugetlb_mem_wipe` uses command-line arguments to know how much memory
+still needs to be wiped, allowing to display a nice progress bar.
+
+Overwriting the memory once with zeros is the fastest
+available mode, and is enough to protect against every memory
+forensics attack we know of.
+
+The initramfs environment in which `hugetlb_mem_wipe` is run by
+a script in a particular environment:
+
+* Use `vm.overcommit_memory=2` and `vm.overcommit_ratio=100`: the
+  C program works better when it gets a nice `ENOMEM` when requesting
+  memory instead of being killed by the kernel.
+* Set `vm.lowmem_reserve_ratio` to values that should not preserve
+  much of the low memory areas (DMA, DMA32). This is the worst thing
+  to do on a system with running drivers, but at this stage we should
+  not have much loaded, and this allows to actually wipe more memory.
+* Runs in init-top: there is no need to have udev working to perform
+  the wipe.
+
+The script also takes care of mounting the `hugetlbfs`
+pseudo-filesystem that is needed to use `MAP_HUGETLB`, retrieves page
+sizes (through `getconf` and `/proc/meminfo`) and passes them on the
+`hugetlb_mem_wipe` command-line.
+
+And finally, it computes the amount of memory that needs to be cleaned
+by the C helper. It purposely substract the amount of memory in the
+"cached" state. These bytes have already been overwritten by loading
+files, so the previous content is already gone. This helps us to stay
+away from the OOM-condition and reach the end of our nifty
+progress bar.
 
 - [[!tails_gitweb config/chroot_local-includes/etc/default/kexec]]
+- [[!tails_gitweb config/chroot_local-includes/usr/src/hugetlb_mem_wipe.c]]
+- [[!tails_gitweb config/chroot_local-hooks/52-hugetlb_mem_wipe]]
 
 #### Triggers
 
