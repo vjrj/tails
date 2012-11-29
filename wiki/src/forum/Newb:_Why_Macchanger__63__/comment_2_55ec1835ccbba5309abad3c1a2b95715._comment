@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-11T00:06:12Z"
+ content="""
+In short, the MAC address is a *unique* (as in "there's only one in the world") number of your network interfaces (e.g. wired and wireless network cards). It is visible to the operators of the network (i.e. [Local Area Network](http://en.wikipedia.org/wiki/Local_area_network)) you use. Implications:
+
+* The operators of the network can correlate MAC addresses and hence see when a previous user returns.
+* If the operators of the network somehow can learn who owns the hardware with the MAC address (maybe the company who sold you your hardware keeps logs of this?) they know when its owner used their network.
+
+Also see [[this post|forum/macchanger/#comment-bf69a3783426271394e7bbca6c0a7757]].
+"""]]

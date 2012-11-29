@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-09-30T08:51:39Z"
+ content="""
+> You are overestimating the difficulty of the process. [...] Tails installation and image verification process is already way above that in terms of difficulty (wrt. enrolling a new KEK / DB key).
+
+Since Tails has an USB installer that is able to clone a running system, I've observed some Tails users who actually never had to download and verify Tails by themselves. They left that part to a trusted party with access to more reliable Internet connections. Then it was only a matter of a couple of clicks to install or upgrade an USB stick.
+
+I also know a faire share of Tails users who don't own a computer. Hardest part currently to use Tails on an unknown computer is to locate which key will open the boot menu. Usually, pressing F2, F8 or F12 will do the trick though.
+
+A quick search on how to enroll KEK lead me to [a blog](http://al.robotfuzz.com/playing-with-uefi-secure-boot-part-2-basic-authenticode-signing-with-ms-tools/) which read: *After it boots, “exit” the EFI shell and go to the Secure Boot Configuration menu. Set the mode to “Custom”. Enter the new option that appears and select “Enroll KEK”, “From File”, select KekRoot.cer, and then “Commit changes” – (Ignore the GUID stuff for now.)*
+
+Do you have any other documentation available on the process? Because this looks something harder to explain that \"press F12\".
+
+> > Looking up at Matthew Garret's writing on the topic and the recent kernel patch submissions, properly tackling modules loading or kexec does not look anything like fun...
+> 
+> These issues are only relevant for non-live distributions.
+
+Could you please elaborate on that?
+"""]]

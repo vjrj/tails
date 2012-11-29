@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-27T19:09:31Z"
+ content="""
+Which serial number, hidden from what, how can they be revealed?
+
+We know Whonix and are in touch with its developer.
+
+It says it hides serial numbers (but again, then it doesn't describe when they are supposed to leak, we can't solve something without knowing what the problem is), because it is ran in a Virtual Machine (inside Virtualbox). If you trust Oracle's Virtualbox (which brings its own flaws), you can run Tails inside a Virtual Machine too (fully supported), and you'll get the same protection.
+
+But once more, appart from the mac adress of your network interface, which is the only serial number usually leaked, and for which we have plans, I don't see what is the real attack this assumption try to workaround.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-21T13:05:22Z"
+ content="""
+Still reading...
+
+No mention of the infection vector yet... but a line:
+
+>The rootkit adds the line insmod /lib/modules/2.6.32 5-amd64/kernel/sound/module_init.ko to the /etc/rc.local script, ensuring that the malicious module is executed each time the system boots. 
+
+Makes me think this might be more a case of breathes over-sensationalist \"journalism\" and less big scary \"root-kit\" after all!
+"""]]

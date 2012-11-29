@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-10-30T18:45:36Z"
+ content="""
+The disagreement may simply be a confusion over the term \"secure-apt\". I was referring to a Debian package which encrypts the downloads:
+
+http://packages.debian.org/stable/apt-transport-https
+
+Anyone who thinks that in Debian stable apt automatically encrypts downloads should try using Wireshark on your PC running Debian stable while using apt to upgrade a package.
+
+"""]]

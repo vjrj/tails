@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="more details"
+ date="2012-10-01T18:51:16Z"
+ content="""
+Can you give more details, this way I can try to reproduce your errors.
+
+Especially \"*downloadhelper gave an error*\" : Which error message? and \"*torrent resulted with \"BAD SIGNATURE*\" : How did you exactly checked, and which files? Some other users reported similar problems.
+
+Good luck!
+"""]]

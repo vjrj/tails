@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-27T18:28:21Z"
+ content="""
+that's correct, but not what i meant.. for an example, when i perform a traceroute on clearnet one of the ips the traceroute passes through is from the isp and its a private address block. im wunnerin if this has any effect when using tails being ass tails iptables assigns three or more private blocks to lan and i dont want it to conflict... you know what i mean?
+"""]]

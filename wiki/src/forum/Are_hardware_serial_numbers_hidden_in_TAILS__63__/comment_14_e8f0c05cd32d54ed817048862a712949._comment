@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="adrelanos"
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-10-08T02:39:10Z"
+ content="""
+>> Its dificult as all hell to know if the host OS os compromised or not!!!
+
+Indeed, that is why it's recommend to run Whonix on a dedicated host operating system. In the Readme and on the security page.
+
+https://sourceforge.net/p/whonix/wiki/Security/#host-security
+https://sourceforge.net/p/whonix/wiki/Readme/
+
+>> I'm sorry , why run a virtual machine? 
+
+See advantages of Whonix:
+https://sourceforge.net/p/whonix/wiki/Security/#advantages-of-whonix
+
+And if you honor the documentation, it can be even safer:
+https://sourceforge.net/p/whonix/wiki/Security/#security
+
+It has some features, which I missed in Tails. Features I am personally interested in (but I was unable to submit patches for Tails):
+
+Bridges Support (obfuscated) | VPN/Tunnel Support (any combination) | Hidden Service Support (any service) | Windows Support (Whonix-Gateway can torify Windows) | Flash Support (Flash though Tor without IP/DNS leaks)
+
+Last but not least you don't have have to use Virtual Machines, you can also use two physical machines:
+https://sourceforge.net/p/whonix/wiki/PhysicalIsolation/
+
+Just discover, give it a chance, it's not silly.
+"""]]

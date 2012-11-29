@@ -18,19 +18,11 @@ Package: haveged
 Pin: origin backports.debian.org
 Pin-Priority: 999
 
-Package: iceweasel
-Pin: origin backports.debian.org
-Pin-Priority: 999
-
-Package: xulrunner-10.0
-Pin: origin backports.debian.org
-Pin-Priority: 999
-
-Package: libmozjs10d
-Pin: origin backports.debian.org
-Pin-Priority: 999
-
 Package: libcairo2
+Pin: origin backports.debian.org
+Pin-Priority: 999
+
+Package: libccid
 Pin: origin backports.debian.org
 Pin-Priority: 999
 
@@ -59,6 +51,10 @@ Pin: origin backports.debian.org
 Pin-Priority: 999
 
 Package: libnss3-1d
+Pin: origin backports.debian.org
+Pin-Priority: 999
+
+Package: libpcsclite1
 Pin: origin backports.debian.org
 Pin-Priority: 999
 
@@ -123,6 +119,10 @@ Pin: origin backports.debian.org
 Pin-Priority: 999
 
 Package: msva-perl
+Pin: origin backports.debian.org
+Pin-Priority: 999
+
+Package: pcscd
 Pin: origin backports.debian.org
 Pin-Priority: 999
 
@@ -286,10 +286,6 @@ Package: wireless-regdb
 Pin: origin backports.debian.org
 Pin-Priority: 999
 
-Package: xul-ext-adblock-plus
-Pin: release o=Debian,a=unstable
-Pin-Priority: 999
-
 Package: xul-ext-cookie-monster
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
@@ -299,7 +295,7 @@ Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: xul-ext-https-everywhere
-Pin: release o=Debian,a=unstable
+Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
 Package: xul-ext-monkeysphere
@@ -307,7 +303,7 @@ Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: xul-ext-noscript
-Pin: release o=Debian,a=unstable
+Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
 Package: xul-ext-torbutton
@@ -477,7 +473,11 @@ Pin-Priority: -1
 Explanation: weirdness in chroot_apt install-binary
 Package: *
 Pin: release o=chroot_local-packages
-Pin-Priority: 1001
+Pin-Priority: 1010
+
+Package: *
+Pin: origin deb.tails.boum.org
+Pin-Priority: 1005
 
 Package: *
 Pin: release o=Debian,n=squeeze-updates

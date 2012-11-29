@@ -1,0 +1,11 @@
+I am rather concerned and perplexed by a recent experience I had during a Tails session. 
+
+I was downloading a large file via `wget`, when I pressed "ctrl-c" to pause the download. The terminal reacted as expected, suggesting that the download had indeed stopped. But the LEDs on my router ("Internet" as well as "Wireless") continued flashing without any let-up. I had not been doing anything else that involved net traffic and I don't even think that I had Iceweasal open. That left `wget` as the obvious suspect to me; it must have somehow not actually have been killed by ctrl-c, I figured, despite clearly *appearing* to have been (in the terminal). So I then proceeded to execute the command `killall wget` in the terminal. Oddly, despite having *no effect* on the lights continuing to flicker on my router, this command did *not* generate any "no process found" message. Meanwhile, despite the furious flickering continuing unabated, the file I had been downloading showed no signs of increasing in size. (I checked several times in Nautilus, hitting `f5` to refresh the data).
+
+I executed the command `netstat -anp | grep -e tcp -e udp` in terminal but saw nothing in the output that would seem to solve the mystery of the phantom traffic. (From what I can recall, just a number of instances of `tor`, `vidalia` and `pdnsd`.)
+
+Finally, after at least several minutes with no abatement in the flickering, I just powered-off my router. Since powering it on again shortly afterward, it has been back to normal.
+
+Is the most likely explanation a successful attack on my router that had begun traffic at some point before I had killed `wget` ?
+
+I wonder, also, whether whatever happened was the result of something that went wrong in *Tails* itself or just happened to occur while I was running Tails.

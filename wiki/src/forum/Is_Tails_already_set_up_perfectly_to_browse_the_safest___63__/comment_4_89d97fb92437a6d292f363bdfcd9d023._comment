@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="&quot;Safety&quot; compared with OpenBSD"
+ date="2012-10-04T08:05:26Z"
+ content="""
+The safest of all operating systems or safest that Tails can be? 
+
+OpenBSD is the only OS I've heard of that has had only a few major security holes in it's history but Tails probably has a more common browser fingerprint. Tails seems to be best for privacy so long as its security isn't cracked while OpenBSD seems harder to crack.
+"""]]

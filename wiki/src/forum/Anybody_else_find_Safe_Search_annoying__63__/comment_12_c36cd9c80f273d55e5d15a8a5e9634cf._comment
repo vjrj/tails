@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-11-01T09:07:30Z"
+ content="""
+If the Tails team looks at the Start Page settings you can see that you can disable
+\"Web/picture family filter\" and \"Video family filter\" and then generate a URL with these settings at the bottom without the need for a cookie.
+
+I think the others might need a generic cookie stored.
+"""]]

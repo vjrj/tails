@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-10-20T11:11:44Z"
+ content="""
+@OP : For flash based content the only way I figured out is inspecting the page source (ctrl + u) looking for a link to the .flv file and trying to download it regulary. No other solution found.
+"""]]

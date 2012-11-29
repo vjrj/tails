@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-11-08T18:39:10Z"
+ content="""
+What you want is [[currently not supported|todo/persistence:_support_DVD]].
+
+What you can still do is to [[create a simple encrypted volume|doc/encryption_and_privacy/encrypted_volumes]] as described in the documentation. You will be able to read and write files from it which can be enough in several cases.
+"""]]

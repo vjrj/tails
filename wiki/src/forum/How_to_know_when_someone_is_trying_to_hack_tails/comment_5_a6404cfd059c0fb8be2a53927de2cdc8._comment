@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-10-05T02:04:03Z"
+ content="""
+https://wiki.ubuntu.com/BasicSecurity
+
+https://wiki.ubuntu.com/BasicSecurity/DidIJustGetOwned
+
+https://www.linuxquestions.org/questions/linux-security-4/security-references-45261/
+
+http://cryptome.org/2012/08/huge-sec-v6000.txt
+
+http://cryptome.org/0005/tor-opsec.htm
+
+If any of these links don't load correctly via Tor (they might be blocking certain or all Tor exit nodes), copy paste the URL into Startpage.com and click view by proxy.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 109"
+ date="2012-10-25T02:42:11Z"
+ content="""
+Comments 86 and 88 - you sorely misunderstand how I2P operates. I2P does NOT make direct connections between a client (user of data) and server (provider of data), except in the corner case where both client and server have independently chosen to use zero-hop tunnels, which is by no means the default and not at all recommended.
+
+Yes, I2P makes direct connections between individual routers, but SO DOES Tor - that's kind of the definition of a network. Tor tries to make its connection look like HTTPS, whereas I2P doesn't emulate any protocol and its packets look like garbage data. But network participants are not hard to find - Tor relays are easily found because they are all listed in the directory (and Tor clients are found by watching connections to Tor relays), and I2P routers are obtainable from the netDB (though that is harder, because no single I2P router knows even a tenth of the entire network, unlike the Tor directories).
+
+Therefore, neither of them prevent an attacker from determining that two I2P routers, or a Tor client and relay, are connecting to each other. I2P just doesn't waste time trying to. (Tor bridges do help matters, but that is just security by obscurity, and if really necessary then something similar could be added to I2P as well.)
+
+Where Tor DOES hide your IP is when you are accessing services on the normal internet through an exit node - to the service, you IP is that of the exit node. I2P can do EXACTLY the same thing with its outproxies. However, I2P was not designed to be a way to hide your connection to services on the normal internet, but to be a completely separate internet, so there are only one or two outproxies run by (crazy) volunteers. I2P was designed for internal services, which work very well (unlike hidden services in Tor, which were tacked on after Tor had been designed, and are rubbish). The I2P developers clearly state that they consider I2P and Tor to be complementary to each other, with I2P providing good anonymous services and Tor providing good anonymous connections to the normal internet.
+
+And to whoever was worried about their IP being logged if I2P connected to a \"monitored\" or \"bad\" IP that is running an I2P router (I can't find the comment): the exact same thing could happen on Tor if your client connects to a \"bad\" IP running a Tor relay.
+"""]]

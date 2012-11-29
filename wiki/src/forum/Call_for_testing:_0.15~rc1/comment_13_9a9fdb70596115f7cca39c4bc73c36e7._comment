@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-11-18T09:40:01Z"
+ content="""
+> Is there an ETA for release?
+
+Around the end of November.
+
+> 0.15~rc1 mentions monkeysphere reactivation. how was it disabled in 0.14?
+
+It was not really disabled, but applying the TorBrowser patches made it so the web browser could not reach the MSVA anymore.
+
+> Korean input system IS working well
+
+Nice to hear, thanks a lot for reporting back!
+
+> Live DVD still won't eject automatically upon shutdown; unlike version 0.13
+
+Tracked in [[todo/fix_DVD_eject_at_shutdown]], please add you test results in there.
+
+"""]]

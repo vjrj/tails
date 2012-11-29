@@ -1,0 +1,11 @@
+Should have a wiki section on potential privacy (and security) attacks and how TAILS deals with them.  For example, maybe a kind of flow chart or perhaps just a type of list:
+
+
+IP address     -    randomized through TOR
+Fonts          -    javascript disabled  
+E-Tags         -    no fix yet, user could disable cache
+hardware serial # leakage thru DBUS  -  JAVA not installed, javascript disabled
+
+etc etc 
+
+and then users can submit a potential privacy (or security) attack they find or hear about to the wiki and TAILS developers can set responses as "working on" or "considering" etc until they decide its not really a problem or until they come up with a solution.  In this way we can help the TAILS developers and also be assured that all leaks or vulnerabilities are being covered.

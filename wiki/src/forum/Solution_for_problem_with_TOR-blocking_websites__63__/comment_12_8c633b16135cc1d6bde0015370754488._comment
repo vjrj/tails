@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-09-27T14:03:44Z"
+ content="""
+>please tone down the feigned indignation a bit. 
+
+I'm sorry that you detected indignation in my post, but there wasn't any. (Much less \"feigned indignation\").
+
+>If you'd like to see your question addressed you might find charm and courtesy more rewarding.
+
+I wasn't asking a question. I'm not the OP.
+
+>So what is to be gained by routing your anonymous Tor exit traffic onto a proxy, when the operator will disclose the logs (your full session history and your identity) at the drop of a hat?
+
+1.) If one uses a proxy **on top of** Tor, then the proxy should only be able to see the Tor exit nodes being used-- same as with any other site one visits through Tor. Assuming that Tor is properly configured and functioning, the logs should only show the Tor exit nodes used to connect; not the user's actual IP address. That is the whole point of Tor, after all.
+
+I can't see why this shouldn't be the case-- at least in the case of a *web proxy*. Regarding virtual servers, employing one's own scripts, etc., as the OP is asking about, I am simply not familiar enough to know whether any special risks would apply.
+ 
+2.) \"What is to be gained\" is the ability to bypass the blocks placed on Tor exit nodes by many sites. 
+
+This was already explained-- repeatedly. I'm sorry if you really still don't understand but I don't know how this could be explained any better.
+
+___________
+
+Why are there *two* \"commment 6\"s?
+
+"""]]

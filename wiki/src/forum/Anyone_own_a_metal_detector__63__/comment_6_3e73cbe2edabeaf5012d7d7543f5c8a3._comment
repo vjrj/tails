@@ -1,0 +1,43 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-21T11:12:21Z"
+ content="""
+> And where would you keep your backup keyfiles/headers etc?
+
+I would use disk encryption with a passphrase. A strong passphrase. And I would store that passphrase in my brain.
+
+The headers and key material is stored in on the medium, but unusable without the passphrase.
+
+> Do you know of a probably effective steganography application?
+
+Sorry, no. I have seen one which can store limited amount of encrypted data inside innocent photos in such a way it is impossible to determine if there is unencrypted data, or that faint noise simply is the natural environment noise all cameras produce. Don't remember the name of the application.
+
+> Where do you safely and securely store the relevant url, account credentials, etc?
+
+Account login in your brain, as you usually do. URL are often random and therefore hard/impossible to remember, so use normal login.
+
+> What happens when the chosen website disappears?
+
+It is very unlikely the website disappears the same time you lose the data locally. But if you are paranoid, upload the data to two different filehosting sites.
+
+> How do you guarantee online anonymity? Tor?
+
+I would personally trust Tors anonymity properties much more than my hiding skills in the event someone tries to find the data. Of course anonymity is never guaranteed. Hiding much less so IMO.
+
+> Jap?
+
+Do you mean jondonym?
+
+> Freenet?
+
+It is hard to determine if data have fallen out of Freenet, therefore hard to know when it needs to be reuploaded. I advice against that. On normal server-client based architecture you simply need to login to see the files are there still, and usually they are only deleted if long inactivity or website disappears.
+
+> You don't know what the problem is yet you know the solution?
+
+No, and no. But I guess what the problem may be (due to lack of information), and propose a solution based on that.
+
+> That's the spirit. We should all roll over and succumb to totalitarianism. Resistance is futile.
+
+You misunderstood. I meant you should not attract attention by doing things non-anonymously for example. Tor and Tails cannot protect you anymore the moment you is suspected. Avoid attracting attention (hide in the crowd) instead of trying to protect you when you already got the attention attracted to you.
+"""]]

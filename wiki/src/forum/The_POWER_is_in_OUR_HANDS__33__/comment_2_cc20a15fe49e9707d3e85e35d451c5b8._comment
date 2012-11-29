@@ -1,0 +1,39 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-30T01:33:29Z"
+ content="""
+>the first job of the founder of one of the biggest anti-virus firms was with the KGB (a fact he doesn't hide).
+
+You say even he doesn't hide this yet, for some reason, you declined to name the individual you are referring-to.
+
+Why?
+
+>I think the idea of government backdoors in Tor has been fairly convincingly debunked,
+
+Maybe.
+
+But such fears are surely not assuaged by the fact that the TAILS devs not only do not identify themselves but have thus far declined to even offer any explanation as to their *reasons* for not identifying themselves (or even telling anything about their motivations).
+
+Such stealthy behavior only fuels and encourages all kinds of speculation, fear, uncertainty and doubt.
+
+> the most significant security threats to the generic Linux users are probably not keeping your system patched and cross-platform vulnerabilities in your browser, which often involve JavaScript or Flash.
+
+Regarding, \"not keeping your system patched\":
+
+In a recent post to this very forum, \"TAILS\" warned against manually updating any packages in TAILS.
+
+Security patches are released for any number of the packages in TAILS *on an almost _daily_ basis*. (certainly no less than a *weekly* basis).
+
+TAILS releases a new ISO approximately every *six weeks* or so. (And I wouldn't think it realistic or even reasonable to expect much better than that.)
+
+Regarding,  \"cross-platform vulnerabilities in your browser, which often involve JavaScript or Flash\":
+
+While TAILS does not include Flash (or any other browser plugins, for that matter), TAILS *does* ship with NoScript set to \"**_enable_ scripts globally**\".
+
+Isn't it the case, then, that every TAILS user who sticks to the defaults is (highly) vulnerable to what you just described as, \"the most significant security threats to the generic Linux users\"?
+
+>There is also a package called secure-apt which further increases security by using SSL protected downloads. Once Tails uses secure-apt for downloads, it should be at least as safe to obtain debs while using Tails as to use other methods of obtaining software.
+
+Why doesn't TAILS *already* use this \"secure-apt\"? (I don't mean to imply that there isn't a good reason.) 
+"""]]
