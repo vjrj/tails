@@ -1,0 +1,27 @@
+Currently there's a thread on /. about the new Firefox release.  There is a side discussion about browser fingerprinting and mention of the EFF's panopticlick browser fingerprinter.
+
+Apart from my alarm that 85% of the world's installed web browsers can be uniquely fingerprinted(!) *without even considering IP address*, I was stunned to read the following in user comments:
+
+"Javascript profiling will identify your browser even with user agent switcher. You can find out what browser they are using even with a simple DOM tree check. Heck even CSS can be used to find out what Browser you are really using. The agent string is only for convenience. 
+Javascript example: http://www.corephp.com/blog/hardcore-javascript-browser-and-computer-fingerprinting/ [corephp.com] 
+Paper on different method: http://w2spconf.com/2011/papers/jspriv.pdf [w2spconf.com] 
+Old CSS history method, now mitigated : http://ha.ckers.org/weird/CSS-history.cgi [ckers.org]"
+
+So, **if javascript is on**, the user-agent spoof where Tails pretends to be Windows will not fool anyone who wants to know.
+
+One poster discovered this about his browser from panopticlick:
+
+"Even behind noscript, my browsing leaks 17.96 bits of information, according to the EFF panopticlick survey for me. 
+
+*If we allow javascript*, then this other information can also be gathered:
+-- fonts available
+-- addons available
+-- browser plug-in details
+-- pixel dimensions of display
+-- color depth of display
+-- time zone
+.
+**Allowing javascript leaks 21.18 bits of identifying information.** In fact, just the browser-plug in details alone seem to be enough to allow my visit to eff to be recognized as unique from all other browsers that have gone there before. Of course, if you use a combiation like "IE version X" running on "MSWindows $ident", then you're more lkely to be a bit more anonymous than someone running a debian system with a lot of non-common browser plug-ins on Firefox-cutting-edge-version.
+
+Two more reasons for Tails users to disable javascript.
+
