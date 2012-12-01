@@ -1,0 +1,5 @@
+I was using Iceweasel in Tails, then I could not connect to any site. My message log in Vidalia was flashing so I checked and it had this message highlighted yellow there several times:
+
+Nov 30 13:22:55.772 [Warning] Query '[scrubbed]' didn't have valid rend desc in cache. Failing.
+
+I shutdown Iceweasel, disconnected from the wireless network.  I tried to access my log file veiwer, but when I typed in my password, it would not open.  Anyone know what could have happened? 
