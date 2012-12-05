@@ -374,4 +374,4 @@ main ()
 	esac
 }
 
-main ${@}
+main "${@}"
