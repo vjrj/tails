@@ -156,7 +156,6 @@ list_gpt_volumes ()
 			;;
 	esac
 
-	local gpt_overlays=""
 	for dev in $(storage_devices "" "${white_listed_devices}")
 	do
 		if ( is_luks_partition ${dev} >/dev/null 2>&1 && \
@@ -193,13 +192,6 @@ activate_volumes ()
 		if [ ! -b "${vol}" ]
 		then
 			warning "${vol} is not a block device"
-			failures="${failures} ${vol}"
-			ret=1
-			continue
-		fi
-		if [ -n "$(what_is_mounted_on ${dev})" ]
-		then
-			warning "${vol} is already mounted"
 			failures="${failures} ${vol}"
 			ret=1
 			continue
