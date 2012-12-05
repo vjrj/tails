@@ -41,6 +41,8 @@ the default in live-boot is used ('${custom_overlay_label}').
 Activates persistence on the given VOLUME(s). Successes and failures are
 written to stdout. There are no checks for whether the given volumes adhere
 to live-boot's options.
+   or: ${cmd} [OPTION]... close VOLUME...
+Deactivates persistence on the given VOLUME(s).
 
 Kernel command-line options are parsed just like in live-boot and have the same
 effect (see live-boot(7) for more information)
