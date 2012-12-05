@@ -252,6 +252,17 @@ activate_volumes ()
 	exit ${ret}
 }
 
+is_mounted_readonly ()
+{
+	grep -q "${1} [^ ]* [^ ]* \([^ ]*,\)\?ro\(,[^ ]*\)\?" /proc/mounts
+}
+
+get_readonly_link_dir ()
+{
+	# XXX: Probably only supports UNIONTYPE=aufs
+	mount | grep ":${1}=" | cut -d' ' -f3
+}
+
 close_volumes ()
 {
 	local volumes=${@}
@@ -259,8 +270,22 @@ close_volumes ()
 	get_custom_mounts ${custom_mounts} ${volumes}
 	while read device source dest options # < ${custom_mounts}
 	do
-		if [ "${options}" != linkfiles ]
+		if is_in_comma_sep_list link ${options}
 		then
+			# 'link' type persistence isn't mounted on
+			# $dest but in read-only mode it has a special
+			# mount we need to take care of. However, in
+			# both cases we just leave all created links
+			# in a broken state.
+			# We can't just check PERSISTENCE_READONLY
+			# since that's something one can change with
+			# the activate action, so we check if $device
+			# is mounted read-only instead.
+			if is_mounted_readonly ${device}
+			then
+				umount "$(get_readonly_link_dir "${source}")"
+			fi
+		else
 			umount ${dest}
 		fi
 	done < ${custom_mounts}
