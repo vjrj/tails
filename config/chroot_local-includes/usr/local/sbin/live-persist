@@ -43,11 +43,11 @@ compatible with live-boot's overlay persistence, and that are adhering to
 live-boot's persistence filters (e.g. persistence-media). If no LABEL is given
 the default in live-boot is used ('${custom_overlay_label}').
    or: ${NAME} [OPTION]... activate VOLUME...
-Activates persistence on the given VOLUME(s). Successes and failures are
-written to stdout. There are no checks for whether the given volumes adhere
-to live-boot's options.
+Activates persistence on the given VOLUME(s) (specified via block device).
+Successes and failures are written to stdout. There are no checks for whether
+the given volumes adhere to live-boot's options.
    or: ${NAME} [OPTION]... close VOLUME...
-Deactivates persistence on the given VOLUME(s).
+Deactivates persistence on the given VOLUME(s) (specified via block device).
 
 Kernel command-line options are parsed just like in live-boot and have the same
 effect (see live-boot(7) for more information).
