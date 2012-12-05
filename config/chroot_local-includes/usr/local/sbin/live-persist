@@ -1,5 +1,7 @@
 #!/bin/bash
 
+NAME="${0##*/}"
+
 error ()
 {
 	echo "error: ${@}" >&2
@@ -31,39 +33,36 @@ export old_persistence_list="live-persistence.conf"
 
 usage ()
 {
-	local cmd=${0##*/}
-	echo "Usage: ${cmd} [OPTION]... list [LABEL]...
+	echo "Usage: ${NAME} [OPTION]... list [LABEL]...
 List (on stdout) all GPT partitions with names among LABEL(s) that are
 compatible with live-boot's overlay persistence, and that are adhering to
-live-boot's persistence filters (e.g. persistent-media). If no LABEL is given
+live-boot's persistence filters (e.g. persistence-media). If no LABEL is given
 the default in live-boot is used ('${custom_overlay_label}').
-   or: ${cmd} [OPTION]... activate VOLUME...
+   or: ${NAME} [OPTION]... activate VOLUME...
 Activates persistence on the given VOLUME(s). Successes and failures are
 written to stdout. There are no checks for whether the given volumes adhere
 to live-boot's options.
-   or: ${cmd} [OPTION]... close VOLUME...
+   or: ${NAME} [OPTION]... close VOLUME...
 Deactivates persistence on the given VOLUME(s).
 
 Kernel command-line options are parsed just like in live-boot and have the same
-effect (see live-boot(7) for more information)
+effect (see live-boot(7) for more information).
 
-Arguments to options must be passed using an equality sign. LISTs are coma
-separated. Most options correspond to the persistent-* options of live-boot,
-and will override the corresponging options parsed from the kernel command-line.
+Most options correspond to the persistence-* options of live-boot, and will
+override the corresponging options parsed from the kernel command-line.
 
 General options:
-  --help                display this help and exit
-  --log-file=FILE       log the bash execution trace to FILE
+  -h, --help            display this help and exit
+  -l, --log-file=FILE   log the bash execution trace to FILE
 
 Options affecting the 'list' action:
-  --encryption=LIST     override 'persistent-encryption'
-  --media=VALUE         override 'persistent-media'
+  -e, --encryption=LIST override 'persistence-encryption'
+  -m, --media=VALUE     override 'persistence-media'
 
 Options affecting the 'activate' action:
-  --read-only           enable 'persistent-read-only'
-  --read-write          disable 'persistent-read-only'
-  --union=VALUE         override 'union'
-"
+  -r, --read-only       enable 'persistence-read-only'
+  -w, --read-write      disable 'persistence-read-only'
+  -u, --union=VALUE     override 'union'"
 }
 
 warning ()
@@ -290,33 +289,49 @@ main ()
 	# Should be set empty since live-boot already changed root for us
 	export rootmnt=""
 
-	while echo "${1}" | grep -qe "^--[^ ]\+\>"
-	do
-		case "${1}" in
-			--encryption=*)
-				export PERSISTENCE_ENCRYPTION="${1#*=}"
+	SHORTOPTS="e:,h,l:,m:,r,w,u:"
+	LONGOPTS="encryption:,help,log-file:,media:,read-only,read-write,union:"
+	OPTS=$(getopt -o ${SHORTOPTS} --longoptions ${LONGOPTS} -n "${NAME}" -- "$@")
+	if [ "$?" -ne 0 ]
+	then
+		echo "Try '${NAME} --help' for more information."
+		exit 1
+	fi
+	eval set -- "$OPTS"
+	while [ $# -gt 0 ]; do
+		case $1 in
+			-e|--encryption)
+				shift
+				export PERSISTENCE_ENCRYPTION="${1}"
 				;;
-			--help)
+			-h|--help)
 				usage
 				exit 0
 				;;
-			--log-file=*)
-				local log_file="${1#*=}"
+			-l|--log-file)
+				shift
+				local log_file="${1}"
 				[ -e "${log_file}" ] && rm -f "${log_file}"
 				exec 3<>"${log_file}"
 				set -x
 				;;
-			--media=*)
-				export PERSISTENCE_MEDIA="${1#*=}"
+			-m|--media)
+				shift
+				export PERSISTENCE_MEDIA="${1}"
 				;;
-			--read-only)
+			-r|--read-only)
 				export PERSISTENCE_READONLY="true"
 				;;
-			--read-write)
+			-w|--read-write)
 				export PERSISTENCE_READONLY=""
 				;;
-			--union=*)
-				export UNIONTYPE="${1#*=}"
+			-u|--union)
+				shift
+				export UNIONTYPE="${1}"
+				;;
+			--)
+				shift
+				break
 				;;
 			*)
 				error "unrecognized option: ${1}"
