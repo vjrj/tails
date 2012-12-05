@@ -162,7 +162,7 @@ list_gpt_volumes ()
 			;;
 	esac
 
-	for dev in $(storage_devices "" "${white_listed_devices}")
+	for dev in $(storage_devices "" "${whitelistdev}")
 	do
 		if ( is_luks_partition ${dev} >/dev/null && \
 		     echo ${PERSISTENCE_ENCRYPTION} | grep -qve "\<luks\>" ) || \
