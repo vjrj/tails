@@ -381,7 +381,7 @@ main ()
 	case "${action}" in
 		list)
 			local labels=${@}
-			if ! echo ${labels} | grep -qe "[^[:space:]]"
+			if [ -z "${labels}" ]
 			then
 				# use default label in live-boot
 				labels=${custom_overlay_label}
@@ -389,11 +389,12 @@ main ()
 			list_volumes ${labels}
 			;;
 		activate|close)
-			if ! echo ${@} | grep -qe "[^[:space:]]"
+			local volumes=${@}
+			if [ -z "${volumes}" ]
 			then
 				error "you must specify at least one volume"
 			fi
-			${action}_volumes "${@}"
+			${action}_volumes "${volumes}"
 			;;
 		"")
 			error "no action specified"
