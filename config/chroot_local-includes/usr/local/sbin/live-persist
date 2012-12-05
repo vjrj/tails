@@ -2,6 +2,10 @@
 
 NAME="${0##*/}"
 
+# We're gonna mess with stderr's file descriptor below, so we save a
+# reference to it in fd 3 if we want to print to stderr
+exec 3>&2
+
 error ()
 {
 	echo "error: ${@}" >&3
@@ -271,10 +275,6 @@ close_volumes ()
 
 main ()
 {
-	# We're gonna mess with stderr's file descriptor below, so we
-	# save a reference to it in fd 3 if we want to print to stderr
-	exec 3>&2
-
 	# tracing get's activated by Cmdline_old() if "debug" is in
 	# /proc/cmdline which will flood stderr, which we don't want
 	exec 2>"/dev/null"
