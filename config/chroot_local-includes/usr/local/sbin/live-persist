@@ -49,6 +49,9 @@ the given volumes adhere to live-boot's options.
    or: ${NAME} [OPTION]... close VOLUME...
 Deactivates persistence on the given VOLUME(s) (specified via block device).
 
+Note: The 'activate' and 'stop' actions only support partition-backed volumes
+(e.g. /dev/sda2), not file-backed persistent volumes.
+
 Kernel command-line options are parsed just like in live-boot and have the same
 effect (see live-boot(7) for more information).
 
@@ -288,6 +291,9 @@ main ()
 
 	export PERSISTENCE="true"
 	export NOPERSISTENCE=""
+
+	# FIXME: we don't yet support file-backed custom persistence
+	export PERSISTENCE_STORAGE="filesystem"
 
 	# Should be set empty since live-boot already changed root for us
 	export rootmnt=""
