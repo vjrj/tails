@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 227"
+ date="2012-12-05T16:18:09Z"
+ content="""
+@[comment 226](#comment-501a648a0e9072c6364098a64585623b)
+
+>If a Government Agency decides to hit the I2P network looking for terrorist material and they download those files they have the ipaddress of the random I2P users that have passed the data directly to them so why wouldn't they raid those Ipaddresses as someone else put it as data mules?
+
+Your hypothetical argument is overly broad; you have not specified what goals this hypothetical government might have or what limitations of legal power are imposed on this hypothetical government. If this hypothetical government does not outlaw encryption and this hypothetical government follows the presumption of innocence and this hypothetical government adheres to the requirement of probable cause in order to search personal property, then said government would have no basis for such a search.
+
+If this hypothetical government's goal was to stop the sharing of some contraband digital media within this hypothetical country, then it would be required to detain every I2P user within said country and if the distributor were still not apprehended, then it would be required to obtain foreign assistance or set up a country-wide firewall.
+
+>It doesn't matter if random I2P user X passes the data to to the recipient in encrypted format as they know what the files are when they view them and being encrypted / decrypted at the hand over doesn't make them less illegal.
+
+Random I2P user X cannot decrypt the data they send to the final recipient user Y. If they could then the whole system would be rendered useless as this single Inbound Router could correlate the data X received with X's IP address directly. X does not know what data Y is receiving nor does X know the identity of the sender.
+
+All you have established with your hypothetical arguments is that there is uncertainty. I don't think anyone here would argue that there is no uncertainty. I think that if you were arguing on the basis of legal uncertainty, then your arguments would gain much more traction than your current argument of illegal certainty with no citation in the form of a statute quotation or court precedent. Much of anonymity networks and encryption remains a legal grey area at the moment. Maybe relaying unknown encrypted data for which the user cannot establish any illegality will be used as a lead during a surveillance operation or will be used as probable cause for a search during an investigation or maybe even will be used as a formal charge in a court of law. Until an incident occurs demonstrating some precedent, all this speculation is just FUD.
+
+In the United States it was not clear, until recently, if a suspect was required to disclose their key for encrypted files on storage devices confiscated during a search. Recent court rulings suggested that if there was no evidence that the encrypted files contained incriminating evidence, then requiring the suspect to decrypt the files would potentially be requiring the suspect to incriminate themselves which is a violation of the suspect's rights.
+
+
+
+"""]]
