@@ -38,10 +38,10 @@ export old_persistence_list="live-persistence.conf"
 usage ()
 {
 	echo "Usage: ${NAME} [OPTION]... list [LABEL]...
-List (on stdout) all GPT partitions with names among LABEL(s) that are
-compatible with live-boot's overlay persistence, and that are adhering to
-live-boot's persistence filters (e.g. persistence-media). If no LABEL is given
-the default in live-boot is used ('${custom_overlay_label}').
+List (on stdout) all partitions with names among LABEL(s) that are compatible
+with live-boot's overlay persistence, and that are adhering to live-boot's
+persistence filters (e.g. persistence-media). If no LABEL is given the default
+in live-boot is used ('${custom_overlay_label}').
    or: ${NAME} [OPTION]... activate VOLUME...
 Activates persistence on the given VOLUME(s) (specified via block device).
 Successes and failures are written to stdout. There are no checks for whether
@@ -65,6 +65,7 @@ General options:
 Options affecting the 'list' action:
   -e, --encryption=LIST override 'persistence-encryption'
   -m, --media=VALUE     override 'persistence-media'
+  -g, --gpt-only        only list GPT partitions
 
 Options affecting the 'activate' action:
   -r, --read-only       enable 'persistence-read-only'
@@ -145,10 +146,9 @@ fix_gconf_dirs ()
 	done
 }
 
-list_gpt_volumes ()
+list_volumes ()
 {
 	local labels=${@}
-
 	local whitelistdev=""
 	case "${PERSISTENCE_MEDIA}" in
 		removable)
@@ -161,22 +161,16 @@ list_gpt_volumes ()
 			whitelistdev=""
 			;;
 	esac
-
-	for dev in $(storage_devices "" "${whitelistdev}")
+	volumes=$(find_persistence_media "${labels}" "${whitelistdev}")
+	for vol in $volumes
 	do
-		if ( is_luks_partition ${dev} >/dev/null && \
-		     echo ${PERSISTENCE_ENCRYPTION} | grep -qve "\<luks\>" ) || \
-
-		   ( ! is_luks_partition ${dev} >/dev/null && \
-		     echo ${PERSISTENCE_ENCRYPTION} | grep -qve "\<none\>" )
+		# drop the "$label=" prefix
+		vol=${vol#*=}
+		if [ -n "${GPT_PARTITIONS_ONLY}" ] && ! is_gpt_device ${vol}
 		then
 			continue
 		fi
-		local result="$(probe_for_gpt_name "${labels}" ${dev})"
-		if [ -n "${result}" ]
-		then
-			echo ${result#*=}
-		fi
+		echo $vol
 	done
 
 	exit 0
@@ -298,8 +292,8 @@ main ()
 	# Should be set empty since live-boot already changed root for us
 	export rootmnt=""
 
-	SHORTOPTS="e:,h,l:,m:,r,w,u:"
-	LONGOPTS="encryption:,help,log-file:,media:,read-only,read-write,union:"
+	SHORTOPTS="e:,g,h,l:,m:,r,w,u:"
+	LONGOPTS="encryption:,gpt-only,help,log-file:,media:,read-only,read-write,union:"
 	OPTS=$(getopt -o ${SHORTOPTS} --longoptions ${LONGOPTS} -n "${NAME}" -- "$@")
 	if [ "$?" -ne 0 ]
 	then
@@ -312,6 +306,9 @@ main ()
 			-e|--encryption)
 				shift
 				export PERSISTENCE_ENCRYPTION="${1}"
+				;;
+			-g|--gpt-only)
+				GPT_PARTITIONS_ONLY="true"
 				;;
 			-h|--help)
 				usage
@@ -362,7 +359,7 @@ main ()
 				# use default from live-helpers
 				labels=${custom_overlay_label}
 			fi
-			list_gpt_volumes ${labels}
+			list_volumes ${labels}
 			;;
 		activate|close)
 			if ! echo ${@} | grep -qe "[^[:space:]]"
