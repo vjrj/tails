@@ -17,6 +17,11 @@ then
 	error "need root privileges"
 fi
 
+if ! dpkg -s live-boot >/dev/null 2>&1
+then
+	error "package 'live-boot' must be installed"
+fi
+
 # import Cmdline_old()
 . /lib/live/boot/9990-cmdline-old \
 	|| error 'Could not source /lib/live/boot/9990-cmdline-old'
