@@ -80,9 +80,10 @@ warning ()
 
 dbus_udisks_get_attribute ()
 {
-	local dev="${1}"
-	local attribute="${2}"
-	local re='^[[:space:]]*variant[[:space:]]\+string[[:space:]]\+"\(.*\)"$'
+	local dev attribute re
+	dev="${1}"
+	attribute="${2}"
+	re='^[[:space:]]*variant[[:space:]]\+string[[:space:]]\+"\(.*\)"$'
 	dbus-send --system --print-reply --dest=org.freedesktop.UDisks \
 		/org/freedesktop/UDisks/devices/$(basename ${dev}) \
 		org.freedesktop.DBus.Properties.Get \
@@ -96,13 +97,15 @@ dbus_udisks_get_attribute ()
 # instead (which should be available in user-space).
 get_gpt_name ()
 {
-	local dev="${1}"
+	local dev
+	dev="${1}"
 	dbus_udisks_get_attribute ${dev} partition-label
 }
 
 is_gpt_device ()
 {
-	local dev="${1}"
+	local dev
+	dev="${1}"
 	[ "$(dbus_udisks_get_attribute ${dev} partition-scheme)" = "gpt" ]
 }
 
@@ -134,10 +137,12 @@ fix_gconf_dirs ()
 		then
 			continue
 		fi
-		local ownership=$(stat -c "%u:%g" "${home}")
+		local ownership
+		ownership=$(stat -c "%u:%g" "${home}")
 		find "${home}/.gconf" -type d | while IFS="" read -r dir
 		do
-			local conf="${dir}/%gconf.xml"
+			local conf
+			conf="${dir}/%gconf.xml"
 			if [ ! -e "${conf}" ]; then
 				touch "${conf}"
 				chown ${ownership} "${conf}"
@@ -148,8 +153,9 @@ fix_gconf_dirs ()
 
 list_volumes ()
 {
-	local labels=${@}
-	local whitelistdev=""
+	local labels whitelistdev
+	labels=${@}
+	whitelistdev=""
 	case "${PERSISTENCE_MEDIA}" in
 		removable)
 			whitelistdev="$(removable_dev)"
@@ -180,11 +186,12 @@ list_volumes ()
 
 activate_volumes ()
 {
-	local volumes=${@}
-	local ret=0
-	local open_volumes=""
-	local successes=""
-	local failures=""
+	local volumes ret open_volumes successes failures
+	volumes=${@}
+	ret=0
+	open_volumes=""
+	successes=""
+	failures=""
 
 	# required by open_luks_device()
 	exec 6>&1
@@ -198,7 +205,8 @@ activate_volumes ()
 			ret=1
 			continue
 		fi
-		local luks_vol=""
+		local luks_vol
+		luks_vol=""
 		if /sbin/cryptsetup isLuks ${vol} >/dev/null
 		then
 			if luks_vol=$(open_luks_device "${vol}")
@@ -265,8 +273,9 @@ get_readonly_link_dir ()
 
 close_volumes ()
 {
-	local volumes=${@}
-	local custom_mounts="$(mktemp /tmp/custom_mounts-XXXXXX.list)"
+	local volumes custom_mounts
+	volumes=${@}
+	custom_mounts="$(mktemp /tmp/custom_mounts-XXXXXX.list)"
 	get_custom_mounts ${custom_mounts} ${volumes}
 	while read device source dest options # < ${custom_mounts}
 	do
@@ -292,7 +301,8 @@ close_volumes ()
 	rm -f ${custom_mounts}
 	for vol in ${volumes}
 	do
-		local backing=$(where_is_mounted ${vol})
+		local backing
+		backing=$(where_is_mounted ${vol})
 		umount ${backing}
 	done
 }
@@ -376,11 +386,12 @@ main ()
 		set -x
 	fi
 
-	local action="${1}"
+	local action labels volumes
+	action="${1}"
 	shift
 	case "${action}" in
 		list)
-			local labels=${@}
+			labels=${@}
 			if [ -z "${labels}" ]
 			then
 				# use default label in live-boot
@@ -389,7 +400,7 @@ main ()
 			list_volumes ${labels}
 			;;
 		activate|close)
-			local volumes=${@}
+			volumes=${@}
 			if [ -z "${volumes}" ]
 			then
 				error "you must specify at least one volume"
