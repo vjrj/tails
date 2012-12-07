@@ -12,6 +12,11 @@ error ()
 	exit 1
 }
 
+if [ "$(id -u)" -ne 0 ]
+then
+	error "need root privileges"
+fi
+
 # import Cmdline_old()
 . /lib/live/boot/9990-cmdline-old \
 	|| error 'Could not source /lib/live/boot/9990-cmdline-old'
