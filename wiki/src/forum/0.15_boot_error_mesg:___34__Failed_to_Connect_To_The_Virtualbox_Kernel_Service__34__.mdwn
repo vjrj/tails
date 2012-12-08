@@ -1,0 +1,9 @@
+0.15 boot error mesg: "Failed to Connect To The Virtualbox Kernel Service" and it repeats itself three or four times.
+
+I disabled all virtualization in my BIOS, unless I'm using a distro which requires this option reset to Enabled. I was unaware 0.15 would use/need virtualization enabled.
+
+The message repeats within ~/.xsession-errors as:
+
+*Failed to connect to the VirtualBox kernel service*
+
+I don't understand the error message, could someone elaborate please?
