@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-29T12:54:06Z"
+ content="""
+im using pendrive which is encrypted by truecrypt, but also i want add some extra security and inside encrypted pendrive i want encrypt data by another program. maybe im paranoid but one program - TC isnt safe for me
+
+why portbale ? i dont know how i can add program to tails, maybe it is possible but i cant do it
+portable program i can run from pendrive without problems
+
+
+"""]]
