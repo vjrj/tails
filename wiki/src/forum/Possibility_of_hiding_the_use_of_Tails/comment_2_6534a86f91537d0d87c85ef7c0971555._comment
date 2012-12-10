@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-10T16:22:10Z"
+ content="""
+A question I have been wondering about for some time now but have not been able to find an answer to:
+
+How does it appear to one's ISP when one connects to Tor via a bridge?
+
+I mean, the traffic going through Tor is still going to look different than normal traffic not going through Tor. So, other than a case where using a bridge is necessary just to use Tor at all, what, exactly would using a bridge accomplish?
+"""]]
