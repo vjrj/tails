@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-12T15:05:32Z"
+ content="""
+Just for the record, I personally delete spam and inappropriate content using `git rm`, so this won't show up in the output of the above command.
+
+"""]]
