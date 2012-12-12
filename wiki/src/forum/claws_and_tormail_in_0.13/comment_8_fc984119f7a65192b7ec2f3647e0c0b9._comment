@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-12-12T10:10:01Z"
+ content="""
+The bug this report made us uncover was fixed in Tails 0.14, so please [[report another bug|doc/first_steps/bug_reporting]].
+
+"""]]
