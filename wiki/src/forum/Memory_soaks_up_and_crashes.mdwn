@@ -1,0 +1,5 @@
+Twice now have found tails freezing to the point of a reboot, also a few times prior crashing on what was probably a dodgy webpage (what looked like wikileaks twitter advert links - if these exist, causing the browser to freeze and crash Tails - some sort of browser malware that manages to hack FF 10 I would guess).
+
+The first time the processor was 100% in use at the point of the crash but with nothing running that would warrant it, the second memory was maxed out before the crash (the system monitor widget).
+
+Will keep an eye on the situation at this point.
