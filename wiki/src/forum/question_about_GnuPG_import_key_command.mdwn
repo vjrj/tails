@@ -1,0 +1,13 @@
+I'm confused by the GnuPG command on [this page](https://tails.boum.org/download/index.en.html#index3h1). The command given is:
+
+`cat tails-signing.key | gpg --keyid-format long --import`
+
+This is correct, of course, but why do it this way? It seems simpler to do it without piping anything, like this:
+
+`gpg --import tails-signing.key`
+
+Is there a benefit to piping output from `cat tails-signing.key` to GnuPG?  Also, does using the long form of the keyID make a difference? (the signing key shows up in my keyring identically either way)
+
+I tried it all three ways, and got identical results (as far as I could tell, at least); I wonder if there are reasons for the command as written that are too subtle for me to detect.
+
+Thanks!
