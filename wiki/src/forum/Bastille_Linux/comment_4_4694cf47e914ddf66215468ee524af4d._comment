@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-08T03:33:29Z"
+ content="""
+> While its true that Japanese exit nodes aren't exactly the most common it is the most likely cause of the website thinking you are Japanese, Tails doesn't give the websites any real identifiable information about your computer (like locale, keyboard language, etc) through the browser referrer so your IP is the only thing the website has to attempt to geolocate you.
+
+Would you be so kind as to type 'Bastille Linux' on Yahoo!, Google or Ixquick and see what results you get? The website is www.bastille-unix.org 
+
+This assuming you're running Tails or Tor, of course. 
+"""]]

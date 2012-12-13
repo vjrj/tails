@@ -1,0 +1,7 @@
+i just get a blank box bordered by dashed lines where a
+padlock would be in firefox ... i do see the padlock below if i left clic the bar where it says "your connection is encrypted ..." but the dashed line box
+just looks weird to me
+i can't find any real documentation on iceweasel, only example is in tails showing the lavabit https which actually shows a page symbol as opposed to a dashed line box
+
+i'm guessing that like firefox, grey means no encrypt
+blue means moderate encrypt and green means hi encrypt
