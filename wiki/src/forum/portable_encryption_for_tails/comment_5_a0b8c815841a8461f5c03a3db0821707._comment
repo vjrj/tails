@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-30T09:43:55Z"
+ content="""
+One might be interested in adding a GUI to `tcplay`, so that there is better ground for discussing this matter; see [[todo/replace_truecrypt_with_tc-play]] for details.
+
+"""]]

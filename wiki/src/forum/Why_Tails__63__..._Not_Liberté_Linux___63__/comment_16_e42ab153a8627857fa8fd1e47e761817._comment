@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-12-10T21:26:05Z"
+ content="""
+> after checking the previous version vuln. of tails, i asked myself \"did i just use a fully exploitable browser for a while, until tails dropped another release a month later?\" yes..
+
+Our current plan is to publish a Tails release one *week* after a Firefox ESR is out. We clearly have been much more late than this in the past, but wenow have the tools needed to make our [[contribute/release_schedule]] realistic.
+
+I don't think we can do any better before we have [[todo/automated_builds_and_tests]].
+
+> takes time, liberte might be better 
+
+Might be.
+
+"""]]
