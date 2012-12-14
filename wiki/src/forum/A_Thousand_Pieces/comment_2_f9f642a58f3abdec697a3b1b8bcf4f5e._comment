@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-14T05:11:18Z"
+ content="""
+>and follow up with an exploration of commonly misunderstood issues related to the security of SSD drives with respect to wipe/shred, encryption, and so forth.
+
+There seems to be a terrible lack of clarity when it comes to encryption for solid state media (SSDs, SD cards, USB flash sticks, a.k.a., \"thumb drives\").
+
+The TrueCrypt documentation explicitly recommends *against* using such media for the creation of TrueCrypt volumes. Others echo this as well.
+
+Yet, Tails, most other GNU/Linux documentation that I've seen appears and countless other sources appear to simply assume and take it as a given that properly implemented encryption (whether LUKS, TrueCrypt, GPG or other) is just as effective on solid state media as it is on any other.  
+
+(Also, the Tails documentation on creating a LUKS volume has no mention of the need to fill the device with at least pseudo-*random data* first.)
+"""]]
