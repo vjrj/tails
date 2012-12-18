@@ -23,9 +23,9 @@ We want a recent kernel for better recent hardware support.
 
 Reference needed, but anyway: general rules often have exceptions :)
 
->- it'll work fine for some packages and bork things completely or in
->  unexpected ways for others - depends on any differences in the
->  build toolchain.
+> it'll work fine for some packages and bork things completely or in
+> unexpected ways for others - depends on any differences in the
+> build toolchain.
 
 Recommendations so that newbies don't shoot themselves in the foot is
 one thing; what we, as Tails (and Debian) developers, can thoughtfully
