@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-12-19T14:36:51Z"
+ content="""
+>Yes I did. I need other options like Twofish or Serpent with different hash algorithms. 
+
+[This](http://www.freeotfe.org/docs/Explorer/Linux_examples__LUKS.htm) might interest you. Esp. e.g. 5 
+
+...but pay attention to the \"initial setup\" with regard to comment 4 (above)
+
+xts-plain64 is worth examining if you'll only need access from recent kernels. Changing the chaining mode can offer a quick and easy way to improve your margin without requiring any additional ciphers.
+
+Finally, think very carefully about the pros and cons of venturing too far off-piste.
+
+Further reading:
+
+* [Some benchmarks](http://blog.wpkg.org/2009/04/23/cipher-benchmark-for-dm-crypt-luks/)
+
+* [cryptsetup wiki](https://code.google.com/p/cryptsetup/w/list)
+
+
+"""]]

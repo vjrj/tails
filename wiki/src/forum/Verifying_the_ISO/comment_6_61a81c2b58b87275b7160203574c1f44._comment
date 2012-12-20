@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-12-20T03:04:42Z"
+ content="""
+>when I select the Decrypt/Verify button at the bottom of that window to verify everything it ends up giving me the message \"Not enough information to check signiture validity\". Not sure what I'm doing wrong
+
+Ah! All becomes clear. Kleopatra doesn't have \"enough information\" because, even though you've *inported* the Tails key, you haven't indicated whether you *trust* it.
+
+Some possible solutions:
+
+1. Mark the Tails key \"trusted\"
+
+2. Sign the Tails key
+
+3. Use GPG (yourself - from a command prompt)
+
+Can't give you any instructions for 1 or 2. I don't use windows / kleopatra. 2 would and 1 might require your having a private key. There are comprehensive instructions for 3 all over this site. Have you tried searching the site for an existing answer? A query like:
+
+    iso key pgp windows gpg verify
+"""]]

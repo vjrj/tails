@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-13T21:16:58Z"
+ content="""
+@ OP and Comment 1:
+
+Did you by any chance disable image loading?  There are good reasons to consider trying to disable loading \"favicons\", which will probably prevent the little icon from appearing, leaving a blank box.  (And when using TBB or Tails, also good reasons to try to blend in with the insecure procedures adopted by the unwary masses.)  But if you click on the box, you should see information about the certificate.
+
+You probably already know that just because https is in the url does not necessarily mean that the connection is protected by SSL encryption end-to-end.  So you should check certificates regularly.
+
+Another problem I have seen occurs when a website attempts to use https but puts some documents on servers on different subdomains, for which the certificate is not valid.  Then Iceweasel properly throws up a warning.  And another problem: some web forums use https but include feeds which are not encrypted.  Then too Iceweasel properly throws up a warning.  These are examples of issues which can arise which are not really SSL issues at all, and which are not something we users can control.
+"""]]
