@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-12-21T18:36:16Z"
+ content="""
+> Unlike blindly trusting stuff posted on a forum
+
+No-one is suggesting that.
+
+@ OP:
+
+Once you get past the snide comments, there actually is a clear concensus here that
+
+* the verification procedures suggested in the Tails documention (links above) are definitely what is needed
+* posting hashes has some value, but is no substitute for obtaining the correct Tails signing key (possibly from several sources for cross-validation) and verifying the iso image using the provided detached signature
+* for verifying that you are obtaining the iso and detached signature from the genuine tails.boum.org, check out the SSL certificate, note the IP (in the Tor Network Map provided by Vidalia controller when you first connect to tails.boum.org via Tails or TBB), and anything else you can think of
+* \"verification\" must be understood as procedures for increasing your confidence that you have a good iso image, not as a silver bullet which eliminates all risk
+* you are still left with the problem of burning a DVD on a possibly compromised system (or hardware), which can be addressed by following the entire procdure using several live CD Linux distributions and then using tools to check that the iso images and DVDs obtained using several live CD distributions appear to be identical.
+
+This is time consuming the first time you do it, less so the second and third time.  Depending upon how worried you are about sophisticated adversaries who may have deployed robotic tools subverting downloads of everyone in order to compromise a few unknown \"high value targets\", you will be wiling to spend more or less time carrying out all the cross-validation steps outlined above.
+
+If encryption software such as GPG is illegal where you live, say so.  We might be able to help you sneak a copy of GPG into your country, but you have to assess the risks and possible consequences of being caught using GPG.  This is unfortunately a problem which more and more people world wide are facing.
+
+The first strong crypto package for civilians was PGP 2.0, which originated with Phil Zimmerman and Peter Gutmann, who eventually won the first three \"cryptowars\" with US authorities, in the 1990s.   
+
+Unfortunately, even in the USA (also in Australia), parts of the US government are once again trying hard to essentially outlaw civilian cryptography.  This has been discussed at the EFF and other places, but the FBI and its allies learned from experience and they are being much more secretive about CryptoWar IV.  The international consequences of a cryptographic backdoor possibly being mandated in a barely noticed rider to rushed \"fiscal cliff\" legislation in the US just before the end of this year would be incalculable.  Privacy advocates know that enormously powerful forces are trying to do this, and everyone in the world who is at risk from having strong crypto taken away needs to follow developments in the US. 
+
+"""]]
