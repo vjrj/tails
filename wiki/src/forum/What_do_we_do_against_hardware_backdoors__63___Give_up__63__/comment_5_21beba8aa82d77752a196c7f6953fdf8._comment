@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-12-23T04:20:55Z"
+ content="""
+>>I'd have thought trying to find hardware/components you trust would be a better solution than giving up... but each to his own.
+
+>How? Only big cooperation. All produce in China.
+
+Not true. Texas, Germany, Much of S. E. Asia... not that there's anything intrinsically wrong with stuff made in China of course. Much of it is excellent. But you know that already. If you want something backdoored, buy USA.
+
+If it's a p 100 cpu you're after, there are plenty on ebay.
+
+>>How is this specific to Tails?
+
+>Backdoor in hardware = Tails can not provide anonymity
+
+Backdoor in hardware = Software can not provide anonymity
+
+Fixed that for you! Not specific to Tails
+
+>Tails developers could create a help page explaining how to get backdoor free hardware or at least where to get hardware not produced in China or something like that.
+
+I think this sort of stuff falls **way** outside the scope of the project. Tails is a Linux distro providing software tools not hardware. The resources of this project are finite. If you'd like to produce such a page yourself however, I'm sure we'd be happy to look it over.
+"""]]
