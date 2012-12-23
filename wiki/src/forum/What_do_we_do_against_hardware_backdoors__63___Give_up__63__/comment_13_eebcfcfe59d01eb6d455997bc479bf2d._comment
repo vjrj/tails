@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-12-23T22:54:56Z"
+ content="""
+> Topic which should really have a section in the Tails FAQ, even if only to state that it's not Tails' concern, and point to some links.
+
+Thanks for the suggestion. Currently, Tails has no FAQ. The Q&A website that will [[replace this forum|todo/improve_the_forum]] will serve as one. In the meantime, see [[how to contribute to the documentation|contribute/how/documentation]] to implement your fine idea.
+
+"""]]
