@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-24T14:49:31Z"
+ content="""
+You'll need a copy of his public key. It's imperative that you are certain it's his key as the security of all your messages to him will depend on its authenticity. The best way to achieve that is to get a copy of the key in person. If that is impractical, you might download it from any insecure source (keyserver, email message, webpage) and then carefully confirm the long \"fingerprint\" via another medium - ideally in person again, otherwise over the 'phone perhaps?
+
+[The GnuPG documentation](http://gnupg.org/documentation/index.en.html) is a very good place to read up on this sort of cryptography.
+"""]]
