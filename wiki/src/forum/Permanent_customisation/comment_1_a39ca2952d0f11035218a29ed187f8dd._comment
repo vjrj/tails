@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-24T22:15:14Z"
+ content="""
+Tails behaves like this by design. You can learn how to use the \"dotfiles\" module in the persistence feature to save your customizations. At the moment you can't save installed apps, but you can save downloaded packages to quickly reinstall them on next boot.
+"""]]
