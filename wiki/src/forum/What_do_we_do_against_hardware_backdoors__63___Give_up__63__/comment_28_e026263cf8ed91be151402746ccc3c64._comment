@@ -1,0 +1,54 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 28"
+ date="2012-12-26T00:46:04Z"
+ content="""
+@ Comment 25:
+
+I just spent several hours chasing down an unexpected event, which amounted to discovering the hard way that our sponsors (Tor) appear to be trying to do something potentially helpful.  But I also discovered that some of those new Akamai Tor routers do indeed play multiple roles, just as I expected.  This could be a problem if they or their secret business partners decide to correlate information.  I mention this to explain why I may sound tired.
+
+> Not least because I use them (with anonymity at least as certain as these pages and, thanks to the additional layer of abstraction, possibly BETTER!).
+
+If so, I wish you would take the time to explain in another thread in this forum exactly how you post to the Tor-talk mailing list, so that I can consider following the same procedures.  \"Tails\" permitting, of course.
+
+> Exactly why do you insist mailing lists can not be anonymous?
+
+Maybe you should give your definition of \"anonymous\".
+
+I would be astonished if anyone here believes that registering a commercial email account with a username other than your legal name counts as \"anonymous\".  Gmail, hushmail are not \"anonymous\", agreed?
+
+But there is something I don't know, then I am more interested in finding how to do it right than in arguing over definitions.  
+
+So *please* take the time to explain in a post to the Tor-talk mailing list exactly how you post anonymously to the Tor-talk mailing list.  I'll look for your tutorial there, OK?
+
+@ \"Tails\":
+
+> Personally, I find it efficient and enjoyable: we can build relationship, trust, community etc. upon pseudonyms, but it's very hard to do this with anonym contributions.
+
+Once we lived in a world where socializing, trusting, collaborating, and community building, were easy and safe.  No longer.  And isn't this endless War on People precisely why ordinary citizens need tools like Tails and OTR chat which are we hope half a step ahead of what our many adversaries can do to unmask us and harm us, given their ever growing but finite resources?
+
+> It's not correct I was suggesting to use the forum as a documentation writing platform: IMHO it's a very bad tool for this task.
+
+Glad I saw that before I tried to post my tutorial on another subject, then.
+
+> Your initial proposal is unlikely to be perfect, so we'll have to give feedback to someone.  
+
+I didn't expect feedback, just hoping to toss something out in hope that after modification it is useful.
+
+> Pick yourself a pseudonym, and then we can get back to you. Email is about pseudonyms, which provide a great way to achieve this need. I'm sorry this is not anonymous, but it's the way contributing to Tails currently works.
+
+As we just saw, I completely misunderstood your previous suggestion, and now I think I must have completely misunderstood this one, because it seems you are suggesting that before I can even try to contact you, I must:
+
+* register an email address with some mail provider in order to email you
+* which requires establishing persistent user account information linkable to an IRL identity by our adversaries
+* and which requires entering into a business contract with possibly untrustworthy strangers who are likely share information about me with unknown business partners
+* and more to the point, with our adversaries, who will then add me to the list of people to be watched simply because they are communicating with you
+
+Why would that not be an insanely stupid thing for me to do?  Or did I misunderstand again?
+
+Trying to arrange a OTR chat conversation seems easier and less hazardous.
+
+But maybe the other poster will be willing to explain the details of his anonymous secure method for registering with and posting to mailing lists like Tor-talk.
+
+
+"""]]
