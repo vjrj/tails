@@ -1,0 +1,143 @@
+# Q: How to use this guide?
+
+A: Just read everything from the top to the bottom. If you had the question or not. Read it! Over time it will contain everything someone with common sense needs to use Tor-Talk safely.
+
+# Q: How to answer this thread?
+
+A: Improve this original post by expanding and clarification of existing answers or by adding a new question and answer. Inform the questioner about the answer given in the original post.
+
+# Q: Who can improve this guide?
+
+A: Everyone!
+
+# Q: Why this guide?
+
+A: Due to popular request. Lately there has been discussion about the the Tor-Talk Mailing List. There where questions how it can be used anonymously.
+
+* [1](https://tails.boum.org/forum/What_do_we_do_against_hardware_backdoors__63___Give_up__63__/)
+* [2](https://tails.boum.org/forum/Educating_Tails_users:_whither_general_privacy_discussions__63__/#comment-600daf637c1b25687afcf771671282b9)
+
+
+# Q: What is Tor-Talk?
+
+A: Tor-Talk is a mailing list. Other Tor users and Tor developers hang out there. It is the official place for discussing Tor.
+
+# Q: But on Tor-Talk is only technical discussion?
+
+A: This is not true. There are technical discussion but user support topics are discussed as well. Just ask your question 
+
+# Q: Why should I use Tor-Talk?
+
+A: In your own interest.
+
+Tails stated many times that Tor should be discussed on Tor-Talk or other suited places. Tails does not have the resources to answer.
+
+Tails does not answer.
+
+Not all Tails developers read all the forum.
+
+You don't get quality/expert answers here. Almost only anonymous answers. Tor developers never answering here.
+
+# Q: Link to Tor-Talk?
+
+https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk
+
+# Q: Put this guide into Documentation?
+
+A: Later, yes. After its well written.
+
+# Q: What did they talk about on Tor-Talk lately?
+
+A: There is a [mailing list archive](https://lists.torproject.org/pipermail/tor-talk/).
+
+# Q: Why don't they have a forum?
+
+A: They are working on it. Either wait until it's finished, contribute, start your own or look for another one. By bugging them you certainly slow them down with pointless comments.
+
+# Q: Can Tor-Talk be used anonymously?
+
+A: Yes, if you use common sense. Many tips will follow.
+
+# Q: But if I register with my real life e-mail address I will not be anonymous?
+
+A: This is true. Use common sense! Of course you have to create a e-mail account just for using Tor-Talk. Create the e-mail account while using Tor & Tails. Always use the e-mail account just for using Tor-Talk. Never use the e-mail account for anything else.
+
+# Q: Gmail, hushmail and so on are not anonymous, agreed?
+
+A: They are as anonymous as you make them. Use common sense!
+
+Don't use gmail at all. They require phone verification and this is hardly available for anonymous people.
+
+Apart from gmail all other service are as anonymous as you make them. Create the e-mail account while using Tor & Tails. Always use the e-mail account just for using Tor-Talk. Never use the e-mail account for anything else.
+
+# Q: But I have to accept the terms of service for the e-mail account? TOS can change!
+
+A: The same can happen in a forum.
+
+If you are concerned about this, choose one with either a small, fair or with no TOS at all. Tormail has last time I checked not TOS.
+
+In case of emergency you are hidden behind Tor.
+
+# Q: The Mail provider wants to know real name and such!
+
+A: Check your local law if you are legally allowed to use fake data. In many countries the answer is yes.
+
+If not use a Mail provider who just wants to know a phantasy name and a password.
+
+# Q: What username and password should I choose?
+
+Nothing connected to you. Common sense.
+
+# Q: The Mail provider can sell user data! Forum is better!
+
+A: There is no difference. When you post in public either in a forum or in a mailing list the post will be archived for years and the timestamp is also visible. The Mail provider doesn't know more than the public.
+
+# Q: Mail provider are untrustworthy! User account data can be lost, stolen, or obtained by warrantless demand!
+
+A: It's good to assume they are the adversary. If you do everything as recommend in this guide it does not matter. All information they have is already public.
+
+# Q: How to search the mailing list?
+
+Great question! Go to your favorite search engine for example startpage.com
+
+     host:https://lists.torproject.org/pipermail/tor-talk/ topic
+
+# Q: But you want to chat with Tor developers!!!!!!
+
+A: https://www.torproject.org/about/contact.html.en
+
+They offer all kinds of contact. IRC, Jabber, OTR...
+
+# Q: How to use Tor-Talk?
+
+A: Go to [https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk). Its kinda self explanatory.
+
+Your email address: enter your anonymous for tor-talk only registered e-mail address here.
+
+Scroll down. Press subscribe.
+
+Log into your e-mail account. You will get a confirmation mail. This mail is self explanatory. You have to confirm. Click on the link in the mail or answer the mail while just pressing reply and send.
+
+After you are registered you can write a mail to tor-talk@lists.torproject.org. Paste a subject "how to do xyz?", paste your text. Send. Log out.
+
+Your mail will shortely after appear in the [mailing list archive](https://lists.torproject.org/pipermail/tor-talk/). You check later for answers with your browser in Tails.
+
+If you want to answer again log into your anonymous for tor-talk only mail account search for the mail you want to answer and paste your text.
+
+# Q: Why should I write my text in a editor and paste it not write it in the mail interface?
+
+It's a bit safer.
+
+# Q: But this is pseudonymous not anonymous!
+
+If you are concerned about that please do it like this.
+
+1. Register mail account
+2. Subscribe for Tor-Talk
+3. Send your mail
+4. Unsubscribe for Tor-Talk.
+5. Delete your e-mail account.
+
+# Q: But anonymous it taker longer to post than pseudonymous use!
+
+Yes, but this keeps trolling people away. Most questions are already answered. Search before asking. Once you know how to search you are faster with searching than asking. Tor-Talk generally contains more quality answers so it takes less time to get good answers.
