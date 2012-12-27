@@ -1,0 +1,47 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-27T16:05:15Z"
+ content="""
+Many thanks for providing the tutorial.
+
+I am glad that you promise to iteratively improve this tutorial and hope to work with you to help myself and others.
+
+Most of what you wrote so far is tangential to the obstacles which have prevented me from using Tor-talk. I more detail on the preliminary steps:
+
+* what if we can only use a webmail account, not an email server on our own computer?
+* we need to find a provider who uses https connection for webmail, which can be a problem in some countries
+* if we are going to be sending any money, we must use some payment method (non-anonymous)
+* for setting up accounts using payment, we may need to call a provider's call center (non-anonymous)
+* if we are going to be using a \"free\" email account, we must expect unknown amounts of our personal data, possibly including content (gmail) to be shared, which would completely defeat the purpose
+* almost certainly they will want some kind of email address; what if they won't accept an address provided by an anti-spam throwaway email address provider? (most webforums do not)
+* in many countries it is illegal to register any accounts with a fake name, which could be a real obstacle for people living in these countries (in some countries, even \"minor\" transgressions can result in long prison sentences)
+
+So assuming we have identified a free webmail provider who uses https and doesn't ask for a real name and has a reasonable privacy policy (maybe a dated list of examples with signup urls?):
+
+* how do we *anonymously* contact the one-use only webmail provider to set up the account?
+* web-browse to an https url with a form with Tails, presumably? what if the form uses Javascript?  temporarily re-enable it?
+* what if the signup form is unencrypted?  then by providing a fake name we would be in effect breaking a law in our jurisdiction in front of a copper, correct?
+
+In all of these, please bear in mind that some of us struggle to use Tails at all due to hardware limitations. (For example, I am unable to boot from USB stick yet, but have enough RAM to run Tails 0.14 from my bootable DVD, but something seems to go wrong with 0.15.)
+
+I am not trying to be difficult; I really think you need to work through the details of the \"boring stuff\" more carefully.  Because the \"boring details\" we might not be thinking about hard enough are where security/anonymity breaches are most likely to occur.
+
+I realise that true anonymity wrt our adversaries may be quite difficult to establish, but I hope to make things hard for our enemies.  But we need more detail on the mechanics of setting up the \"anonymous\" one-use only email accounts.
+
+Coming at this from another direction, could you write out in exhaustive detail how you yourself registered an anonymous email account with tormail?  (Never heard of that company.)  Initial contact, filling out the form, etc.  This is useful so that we know what to expect in advance.  
+
+> Q: But you want to chat with Tor developers!!!!!!
+> A: https://www.torproject.org/about/contact.html.en
+> They offer all kinds of contact. IRC, Jabber, OTR...
+
+For OTR chat using Tails, I presume you are citing
+
+> Tor is experimenting with live chat (XMPP/Jabber/GChat), Voice over IP (VOIP), VOIP+ZRTP, SIP, Video, and desktop sharing through the Jitsi Open Source Communicator. Contact us at torproject@jit.si for live help, questions, or feedback. This address does not receive emails, only XMPP and VOIP.
+> Our OTR fingerprint is F624A3 158D22 19F48E E28A73 09F527 1AD5DF 668D
+
+I have always known about that page and have found useless so far.  In particular, so far I have been unable to communicate with OTR chat using Tails.  That is, with some help here I managed to find a chat room and I think OTR may have been \"working\" from a technical standpoint, but I had no idea who I should be trying to PM using OTR!  The only entities in the chat rooms appeared to be bots.  So similar request for a similar tutorial with detail on how to actually find Tor developers willing to chat with a stranger for a private encrypted bug report, and especially how to verify their identity.
+
+Let's keep trying, I think we might be making progress!
+
+"""]]
