@@ -1,4 +1,4 @@
-Version 2
+Version 3
 
 # Q: How to use this guide?
 
@@ -216,3 +216,11 @@ A: I remember to have read something like this but I don't remember the source.
 # Q: Is it true that most people using Tor care even less to read the terms of service because Tor protects them?
 
 A: I am not aware of any empirical study or survey.
+
+# Q: In many countries (maybe in yours too, sooner than you think) non-backdoored encryption is illegal altogether!
+
+A: If that is the case Tor and Tails will also be illegal. This guide assumes you are able to use Tor and Tails. If not, you can not use this guide. Sorry its out of the scope of this guide.
+
+# Q: In most countries internet law in particular is in constant flux (recent examples of huge major chances in the Phillipines, Russia, and possibly today in the US also). What to do?
+
+This question is not related to Tails or Tor-Talk. Please ask in a more appropriate place.
