@@ -1,3 +1,5 @@
+Version 2
+
 # Q: How to use this guide?
 
 A: Just read everything from the top to the bottom. If you had the question or not. Read it! Over time it will contain everything someone with common sense needs to use Tor-Talk safely.
@@ -185,3 +187,32 @@ A: Use Tor. Use the browser in Tails and create the account using the web regist
 
 A: This question is outside the scope of this guide. Only so far: It is enabled in Tails by default. If you believe this is wrong please discuss this in the correct place. Not here. That decision is made by the Tails developers. The reasons are explained [here](https://tails.boum.org/doc/anonymous_internet/iceweasel/index.en.html#index4h1). Disputing this discussion has to go through the channels decided by the Tails developers.
 
+# Q: Which mail providers don't ask for real name and such?
+
+This is a small list. Please search and if you find others add them to the list.
+
+Not asking for anything:
+
+It is http(s) not *ttp(s). I am not allowed to write a full link because of the forum software.
+
+* Tor Mail: *ttp://jhiwjjlqpyawmpjx.onion/
+* *ttps://www.safe-mail.net/
+
+"Activist only"
+
+* *https://www.riseup.net/en
+* *ttps://www.aktivix.org/
+
+You must contact them by IRC or web ticket system. Tell them you are an activist (if it is true!). They open an account. If you want more anonymity tell them they can close the account after 1 weak.
+
+# Q: Is it true that many people don't care when they are hidden behind Tor and just use fake data?
+
+A: I am not aware of any empirical study or survey.
+
+# Q: Is it true that most people Tor users or not do not care to read the terms of service?
+
+A: I remember to have read something like this but I don't remember the source.
+
+# Q: Is it true that most people using Tor care even less to read the terms of service because Tor protects them?
+
+A: I am not aware of any empirical study or survey.
