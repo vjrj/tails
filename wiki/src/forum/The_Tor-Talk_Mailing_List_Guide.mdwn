@@ -17,10 +17,13 @@ A: Due to popular request. Lately there has been discussion about the the Tor-Ta
 * [1](https://tails.boum.org/forum/What_do_we_do_against_hardware_backdoors__63___Give_up__63__/)
 * [2](https://tails.boum.org/forum/Educating_Tails_users:_whither_general_privacy_discussions__63__/#comment-600daf637c1b25687afcf771671282b9)
 
-
 # Q: What is Tor-Talk?
 
 A: Tor-Talk is a mailing list. Other Tor users and Tor developers hang out there. It is the official place for discussing Tor.
+
+# Q: Does this guide assume Tails is already working for me?
+
+Yes. Any problems with Tails should go through the support channels provided by the Tails developers. It is off topic here.
 
 # Q: But on Tor-Talk is only technical discussion?
 
@@ -126,11 +129,11 @@ If you want to answer again log into your anonymous for tor-talk only mail accou
 
 # Q: Why should I write my text in a editor and paste it not write it in the mail interface?
 
-It's a bit safer.
+A: It's a bit safer.
 
 # Q: But this is pseudonymous not anonymous!
 
-If you are concerned about that please do it like this.
+A: If you are concerned about that please do it like this.
 
 1. Register mail account
 2. Subscribe for Tor-Talk
@@ -140,4 +143,45 @@ If you are concerned about that please do it like this.
 
 # Q: But anonymous it taker longer to post than pseudonymous use!
 
-Yes, but this keeps trolling people away. Most questions are already answered. Search before asking. Once you know how to search you are faster with searching than asking. Tor-Talk generally contains more quality answers so it takes less time to get good answers.
+A: Yes, but this keeps trolling people away. Most questions are already answered. Search before asking. Once you know how to search you are faster with searching than asking. Tor-Talk generally contains more quality answers so it takes less time to get good answers.
+
+# Q: Do I need an email server? What if we can only use a webmail account, not an email server on our own computer?
+
+No. You don't need your own email server. Use a free one. You can use webmail or the mail client in Tails. You have to use the browser in Tails to sign up for a mail account.
+
+# Q: Does the email provider need to be reachable by https / SSL? What if the signup form is unencrypted?
+
+A: https / SSL would be nice, but it's not required. Traffic snoopers are of no concern to us - as said above - we assume the mail provider to be an adversary.
+
+# Q: We need to find a provider who uses https connection for webmail, which can be a problem in some countries?
+
+A: This guide assumes that Tails & Tor is already working for you. You will certainly be able to reach http and non https mail servers. Some do not allow Tor users (gmail). You will still find enough Tor friendly mail provider.
+
+# Q: How to pay anonymously?
+
+A: You don't have to pay anyone. Use free services. Paying anonymously is a different topic and not covered here.
+
+# Q: For setting up accounts  we may need to call a provider's call center (non-anonymous)?
+
+A: No. Don't call anyone. If you fail to register an account for one mail provider look for another one which is working.
+
+# Q: You suggest free mail providers. Don't they share more data than paid mail accounts?
+
+A: That may be true or not. It does not matter. As said in the earlier questions we assume the mail provider to be an adversary and assume all data the mail provider has to be open for anyone.
+
+# Q: What if they won't accept an address provided by an anti-spam throwaway email address provider? 
+
+A: Tor-Talk does allow all mail providers. This is very unlikely to change because of their philosophy and goals.
+
+# Q: Most webforums do not accept throw away accounts.
+
+A: Irrelevant. Webforums are a different story. While some of the knowledge from this guide may be the same please open a new topic. This guide is about Tor-Talk and the steps explained in this guide are working.
+
+# Q: How do we anonymously contact the one-use only webmail provider to set up the account?
+
+A: Use Tor. Use the browser in Tails and create the account using the web registration process. Everything happens inside the browser.
+
+# Q: Should we disable javascript in Tails Browser?
+
+A: This question is outside the scope of this guide. Only so far: It is enabled in Tails by default. If you believe this is wrong please discuss this in the correct place. Not here. That decision is made by the Tails developers. The reasons are explained [here](https://tails.boum.org/doc/anonymous_internet/iceweasel/index.en.html#index4h1). Disputing this discussion has to go through the channels decided by the Tails developers.
+
