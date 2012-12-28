@@ -1,4 +1,4 @@
-Version 3
+Version 4
 
 # Q: How to use this guide?
 
@@ -42,6 +42,12 @@ Tails does not answer.
 Not all Tails developers read all the forum.
 
 You don't get quality/expert answers here. Almost only anonymous answers. Tor developers never answering here.
+
+# Q: What's so great about mailing lists anyway?
+
+A: Just a guess. There is no empirical study.
+
+They attract more geek users, less trolls because it needs more time to sign up. Often contain higher quality answers than web forums. Devs claim push communication is more effective than pull communication. 
 
 # Q: Link to Tor-Talk?
 
@@ -223,4 +229,8 @@ A: If that is the case Tor and Tails will also be illegal. This guide assumes yo
 
 # Q: In most countries internet law in particular is in constant flux (recent examples of huge major chances in the Phillipines, Russia, and possibly today in the US also). What to do?
 
-This question is not related to Tails or Tor-Talk. Please ask in a more appropriate place.
+A: This question is not related to Tails or Tor-Talk. Please ask in a more appropriate place.
+
+# Q: Has tor-talk been asked for feedback on this guide?
+
+A: Recently, [yes.](https://lists.torproject.org/pipermail/tor-talk/2012-December/026946.html)
