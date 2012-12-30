@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-30T21:42:26Z"
+ content="""
+> The OS that Government most wants to develop trojans for is: Tails.
+
+I suspect that is too strong, but we would be foolish to assume that Tails is not on the list.  Maybe even on the short list.  
+
+Many news stories from mainstream media, as well as leaked memos from inside \"Western\" surveillance states, clearly reflect an increased interest in subverting Linux generally.  It is known that subversion efforts often target security upgrades and security-promoting packages, and governments use phishing emails just like the bank theft gangs.  Of course the answer is not to stop upgrading or to stop using security-promoting packages or even to stop using email, but to be careful and to try to document potential problems.
+
+I wish CCC and that Wikileaks splinter group had made more progress in putting up a truly anonymous issue reporting site where activists can send (publically or privately) the results of their attempts to reverse engineer possible state-sponsored malware.  I suspect CCC would be flooded with reports, but it would probably be easy to separate the wheat from the chaff.
+
+A very important point about state-sponsored malware is one which actually favors the People (and how often can we say that?): when states infect devices used by sometimes technically able users, they risk in effect handing a working copy of their most dangerous weapons to the very people they are targeting.  For this reason, most \"Western\"-state-sponsored malware uses extensive obfuscation and self-erasure to cover tracks and delete traces, but there are *always* traces which can be recovered.  And turned back on the attackers, by publishing the code at a leak site.
+
+
+
+"""]]
