@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-01T15:26:48Z"
+ content="""
+for anyone who has the same problem I did (not realizing that unsafe browser was chrooted and downloaded a huge file that I didn't want to pass through Tor) here is the solution:
+
+root terminal
+cd cd /var/lib/unsafe-browser/chroot/home/clearnet/
+(find your file)
+cp foundfile /media/(safe USB location)
+
+while security people may hate it, frankly for my current needs it worked perfectly.
+
+Cheers!
+"""]]
