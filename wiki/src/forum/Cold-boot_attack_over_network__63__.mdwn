@@ -1,0 +1,1 @@
+ The cold-boot attack is able to retrive my encryption password from RAM if someone had physical access to my computer. Can't an attacker get the password for my encrypted Persistent volume  out of RAM while my machine is running, over the network?  Tails has a firewall, but of course so does every computer; they don't seem to stop intrusions occuring regularly.

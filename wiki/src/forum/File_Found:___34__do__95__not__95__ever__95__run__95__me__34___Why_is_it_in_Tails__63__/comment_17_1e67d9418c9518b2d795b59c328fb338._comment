@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-12-22T23:16:01Z"
+ content="""
+>Of course not, what in the world gave you that idea, executing a script on the machine. whether it requires root or not cannot be done without compromising the machine first.
+
+Uh??....I am more confused than ever by your above reply.
+
+Question 1: What you are saying is that malicious scripts on a web page **CAN** execute the file \"do_not_ever_run_me\" during a Tails session *provided that* the machine has been compromised first. Is that correct?
+
+Question 2: But how can a machine be compromised when we are running Tails using a Live DVD or Live USB (without persistence)?
+
+>Yes, you could also get compromised remotely of course
+
+Question 3: Could you list some scenarios in which our Tails session can be compromised **remotely**? Thanks in advance.
+"""]]

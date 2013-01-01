@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-27T19:49:54Z"
+ content="""
+> I wish Tor developers would use something like whisperback for anonymous bug reports.
+
+If it's just about anonymous not encrypted they have many support channels.
+
+https://www.torproject.org/about/contact.html.en
+
+IRC
+
+IRC private message
+
+Email
+
+Email PGP
+
+Chat, Jabber, OTR - You could use tails pidgin and otr to contact them anonymously and encrypted.
+
+I think that is all you need.
+"""]]
