@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-12-13T12:04:37Z"
+ content="""
+> I don't see how any one of these (or anything else PartedMagic contains) would deal with the problem that solid state media (SSD or flash media) presents ...
+
+Some (most) SSD disks implement Secure Erase in such a way that all cells are erased (not simply overwritten), whether they are mapped or not (wear levelling).
+
+The problem is there is no way to guarantee -your- SSD disk implements it that way, or even implements Secure Erase at all.
+
+> For example simply using sudo dd if=/dev/zero of=/dev/sdw to overwrite an entire device with \"zeros\" will ensure that every bit is written to ...
+
+Wrong. The whole mapped region will contain zeroes, and that is what the OS will see and so on. But the SSD disk have more disk space than advertized, which is swapped with the mapped region for wear levelling. Simply running that command will not erase whatever data is on that \"extra\" disk space, and if you take apart the SSD disk and use special hardware to read from the flash cells directly it may be possible to extract sensitive data from there.
+
+Research have shown that running said command twice will with very high probability overwrite all data, since the cells that wasn't overwritten by the first run will be swapped back in to the mapped region during second run, and thus gets erased.
+"""]]

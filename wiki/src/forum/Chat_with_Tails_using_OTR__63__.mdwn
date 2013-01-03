@@ -1,0 +1,48 @@
+ I want to use the OTR chat feature which comes with Tails, but I've never used chat and find the Pidgin GUI hopelessly non-intuitive.  And it seems that the only way to find a Tor or Tails dev is in just the right chat room, so I feel that somehow I really need to learn how to use OTR under Pidgin under Tails.
+ 
+In another thread, "Tails" advised:
+
+> To chat about Tails:
+
+> * Boot Tails.
+> * Clic on the Pidgin icon (third on the right of System) or through the menu Applications → Internet → Pidgin.
+> * Wait until Pidgin is connected. Once this is done, Pidgin window will be populated with #tails and #tor.
+> * Double-clic on #tails.
+> * Select the #tails tab that has opened in the chat window.
+> To use OTR on top of the preconfigured IRC account:
+> * Double-clic on the right nick in the list at the right of the chat window.
+> *In the new tab, use the menu OTR and select Start private conversation.
+> * Verify your peer identity using Authenticate buddy option in the same menu.
+
+Well, this got me much closer, I think, than my nebbish attempts to figure out what to by guessing,  If the Pidgin GUI were any good, I think I'd have been able to figure everything out in five minutes just by guessing, but its not and I couldn't.  Anyway, I have some followup questions:
+
+> preconfigured IRC account
+
+So just to confirm, no need to try to figure out how to create an account, I can use this preconfigured account?  And it comes up automatically?  And its OK to use it sharing with everyone else?  
+
+Just as a check, does it have user name?  What should I see when I click on the "info" item in one of the popup windows?  I want to make sure I am seeing the right account and not inadvertently trying to hijack some random persons IRC account.
+
+> Pidgin window
+> Chat window
+
+Too bad those are not clearly labeled as such.   I THINK I probably guessed properly which is which.
+
+> Double-clic on the right nick
+
+You are WAY out ahead of me, I think.  When I try to follow the directions one of the (Pidgin?) windows which pops up appears to show at right a list of user handles.  The user names are the nicks?  I have never used chat so I have no idea who any of these people are.  For all I know they could all be bots, for that matter.  Who is the right user on whose nick I should double click?  I didn't see any nick resembling "Tails" or "Dan Kahn Gillmor" or any other name I might recognize.
+
+I presume it is not considered polite to try to initiate a private conversation with a random nick, even in a chat room with a name like #tails?
+
+> Authenticate buddy option
+
+I saw the option and it has several options under that heading.  Since I've never used chat before and have no idea who any of the people (or bots) might be behind the nicks, I am baffled as to how I can use any of the authentication methods.  Or is the idea that the first time I am not expected to authenticate, but the second time I can try the "20 questions" option, and identify myself as the newbie who last tried to initiate a private conversation at time A on topic B?
+
+Is there some visual indication I should see that indicates that I have successfully started a private conversation via OTR chat?  This is the only way to "ensure" that the content will not be easily available to others, correct?
+
+Should the pidgin connection be visible in the "Network Map"?  How can I check that it is properly torified?
+
+I am using Tails 0.15 DVD.  I was able to put it on a USB but it turns out that my old hardware won't boot from a USB, so I am limited to using one item of hardware which will boot from a DVD.
+
+A video tutorial would be of no use to me but might help other Tail users struggling to use the OTR chat feature.
+
+Apologies if this seems incoherent.  I tried to write this in English but I'm up much too late and getting cranky so it probably came out in Old Cambrian... 

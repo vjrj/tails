@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-12-11T23:27:19Z"
+ content="""
+> I beg to differ on \"third party\" thingie.
+
+Fair enough. Please read our [[contributors FAQ|contribute/faq]] to make sure you get all the background, though :)
+
+> Tails come with multiple third party stuff,
+
+I'm curious what you are thinking of. (Not that I'm telling this does not exist, but I have no idea what kind of other third-party stuff you think is comparable.)
+
+> I dont see why integrating madwifi is any different if thats a better solution for multiple hardware.
+
+First, it's different because it means seriously more work for us.
+
+Second, it's not clear to me that replacing in-kernel drivers with madwifi ones would result in better general hardware support. I suspect they'll be better for some hardware, and worse for others. Given more and more of the devices previously supported by madwifi are now supported by the upstream kernel, I suspect madwifi gets less attention and traction these days.
+
+To end with, madwifi was [removed from Debian](http://bugs.debian.org/519446) for a reason, and I doubt it would make sense for us to maintain it in Tails ourselves. This would be a quite big workload on our shoulders, and I see no compelling reason, right now, to commit ourselves to it... especially in a situation when a simple complete bug report might allow to fix the problem for real in the upstream kernel, and be done with it.
+
+"""]]

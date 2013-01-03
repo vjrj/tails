@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-09T21:04:11Z"
+ content="""
+> detectors will catch you even if you try to hide with such tricks with a good chance.
+
+And what exactly do you base that conclusion on?
+
+You act like somebody's writing style is as unique and bound to them as a fingerprint is, which is not the case at all.
+
+Detectors can't just look at two pieces of writing and magically know that its the same person, first of all a lot of people share very similar writing styles and secondly I don't see how you could identify anyone at all if the person intentionally wrote a bit differently on TOR than on clearnet, like anon1 suggested.
+
+I'm personally very skeptic that \"Writing Style Authorship Detection\" is much of a threat at all actually, its something that theoretically might aid in connecting two identities if you have access to a lot of written material by the two identities and they share the exact writing style, but I don't think it will ever practically be an efficient way of determining someones identity because of how inaccurate it would be due to different people having similar writing styles and the fact that its quite easy to change your writing style if you are conscious about not writing like you do on clearnet.
+"""]]

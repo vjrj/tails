@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-27T15:42:00Z"
+ content="""
+Correction to the last comment: OpenBSD has been run recently in read-only mode from a Compact Flash card. AnonymOS was a live distro with Tor, based on OpenBSD but it appears this was not supported by the OpenBSD developers.
+"""]]

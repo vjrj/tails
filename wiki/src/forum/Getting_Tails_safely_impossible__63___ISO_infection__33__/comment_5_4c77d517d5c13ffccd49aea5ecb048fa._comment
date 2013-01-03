@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-12-15T23:00:00Z"
+ content="""
+> The very fact that Symantec/Norton, McAfee, Kapersky, AVG, etc. offer tools for the Linux platform suggests that viruses/malware/spyware, etc..also target it.
+
+I'm not the author of comment #2 but I would like to point that none of the programs you just mentioned are designed to remove viruses from a Linux system.
+
+They run on Linux but they all are designed to remove malware from windows systems, basically the point of them is that if you have a windows system that is infected to the point where its practically impossible to actually run a antirvirus scan on the running system then it would be smart to have the ability to boot a Linux OS that can run a scan to identify and remove the viruses from the windows system. 
+
+while it would be silly to suggest that no malware exists for linux as no OS is invulnerable it is a fact that Linux has practically no malware written for it due to its low marketshare and due to the fact that it is from the ground up designed to be more secure than windows was.
+
+Also you do realize that Tails itself is also a Linux OS right? And it does not come with any antivirus programs installed (probably partly because no anitvirus that actually scans for Linux infections actually exist)
+
+
+"""]]
