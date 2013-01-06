@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-08-12T10:29:55Z"
+ content="""
+UEFI has nothing to do with Linux. It is the successor of BIOS. Both are procedures that handle the starting of your computer when you turn it on. For example, it is the piece of software that decides on which disk or USB stick to start.
+
+Laptops supporting UEFI are quite new and we are realizing that there might be booting issue when using it to boot Tails USB stick installer with the Tails USB Installer.
+
+For your HP Mini 110, you can find information about the HP Startup Menu, that can help you configuring UEFI and BIOS, in the HP Support website:
+
+<http://h10025.www1.hp.com/ewfrf/wc/document?cc=us&lc=en&docname=c01442956>
+
+For example, can you access the \"System Information\" screen, described here:
+
+<http://h10025.www1.hp.com/ewfrf/wc/document?docname=c01443193&lc=en&cc=us&dlc=en>
+
+If so, which BIOS version do you have?
+
+And also, if you don't mind sharing your email address with us, it would be more comfortable for us to do support by email: tails@boum.org.
+
+"""]]

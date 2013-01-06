@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-12-31T18:52:08Z"
+ content="""
+> After a change (why is this script \"never to be run\" by default executable by anyone?):
+
+It can't produce any result at all unless run by `root`, so the script's permissions are irrelevant.
+
+> Can you explain in more detail why it was neccessary to include this script?
+
+I sincerely feel I have many, many better ways to use my Tails development time. Sorry.
+
+> And to make it by default executable by anyone?
+
+See above.
+
+> How can we test to make sure that it was not somehow activated? Nmap from another computer on our humble LAN?
+
+Feel free to read [[contribute/design]], and use whatever network testing tool you like to check it's implemented correctly.
+
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-04T12:47:15Z"
+ content="""
+Sounds strange... the files are definitely there? You can search for, find and open them? You just can't see them in the file browser?
+
+If that's all correct it sounds like a simple display problem in the file browser... a closed panel or something?
+
+Have you Tried restarting Tails and looking again?
+"""]]

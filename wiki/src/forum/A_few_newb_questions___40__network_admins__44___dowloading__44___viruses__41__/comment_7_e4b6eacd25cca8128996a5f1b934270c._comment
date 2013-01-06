@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-11-05T00:31:57Z"
+ content="""
+@5:
+
+Beware of assumption 4.
+
+1, 2 & 3 seem reasonable but 4 is rather optimistic. Video files (and, in fact, even *still* image formats) are well known vectors for all sorts of nasties, including everyone's fave... arbitrary code execution. If you're feeling extra paranoid, you might like to consider turning off \"auto load images\" in FF/IW or, better, using a text browser like Lynx.
+"""]]

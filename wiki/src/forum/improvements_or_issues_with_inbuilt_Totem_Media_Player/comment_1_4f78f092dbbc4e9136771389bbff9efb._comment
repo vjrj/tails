@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-28T07:04:41Z"
+ content="""
+http://projects.gnome.org/totem
+
+\"YouTube support
+
+With the YouTube plugin you can browse YouTube and watch videos from it. You'll need libgdata installed. YouTube-style buffering is supported in the most recent versions of Totem and GStreamer.\"
+
+Can the tails team add this?
+
+"""]]

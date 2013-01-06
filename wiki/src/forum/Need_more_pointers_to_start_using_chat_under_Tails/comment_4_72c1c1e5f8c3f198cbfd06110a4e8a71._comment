@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-06T23:33:46Z"
+ content="""
+>I am not familiar with urls ending in .im; does one go there using http protocol?
+
+That is what's known as a \"top level domain\" (TLD for short) and has no connection with protocol.
+
+>the documentation, however my browser accessed it, didn't help me quickly find answers to the basic questions I tried to express
+
+Works beautifully in my browser. In fact, Tails' user documentation is among the finest I've ever seen anywhere. Perhaps the problem is user error. Which browser are you using?
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-11-15T10:00:32Z"
+ content="""
+It's [Tor bug 6601](https://trac.torproject.org/projects/tor/ticket/6601). Looks trivial/cosmetic
+"""]]

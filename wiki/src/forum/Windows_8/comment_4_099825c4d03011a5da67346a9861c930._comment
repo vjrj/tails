@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-27T15:54:40Z"
+ content="""
+FYI: Liberté Linux already fully supports UEFI boot, including Secure Boot-based trusted boot chain. It is the first Linux distribution to do the latter.
+"""]]

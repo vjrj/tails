@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-19T10:07:35Z"
+ content="""
+I'm able to do this with other LiveCDs where a /rofs directory exists.
+
+Why unmount it?
+
+Because I remove packages from tails (with every new session) but it doesn't do any good if /live/rofs/ remains loaded and the same packages I remove from a Live Session may still be used locally or remotely by someone else via /live/rofs/ if compromised.
+
+I don't want /live/rofs mounted! This is why! TY
+"""]]

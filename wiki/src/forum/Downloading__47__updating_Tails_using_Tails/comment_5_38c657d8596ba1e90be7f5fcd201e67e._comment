@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-10-19T02:28:39Z"
+ content="""
+>I mean, the Tails ISO is miniscule compared to other Linux distros. 800 MB, was it?
+
+Slitaz, Tiny Core, DSL, etc.? ;op
+
+>From what I gather, Tail routs all traffic through Tor, so why would you need to torify anything? Isn't this one automatically?
+
+This can (could?) sometimes fail. Especially with personally installed apps. Not catastrophically of course - just unable to see out. If it works without torify, that's fine.
+"""]]

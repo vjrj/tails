@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Similar trouble with similar pc"
+ date="2012-07-16T12:48:39Z"
+ content="""
+I might be having the exact same problem on nearly the same PC (Samsung series 7).
+
+Followed the instructions on: https://tails.boum.org/download/index.en.html
+
+Burned the tails 0.12.1 ISO onto a dvd. Booted from the DVD and it worked. Used the Tails USB installer to load onto a SanDisk 8GB as in: https://tails.boum.org/doc/first_steps/usb_installation/index.en.html
+
+Shut down, restarted and rearranged boot order to boot from USB.
+
+I was not able to boot from the USB stick. Took a look in Win7 and in the Tails on the DVD and neither os recognized the USB stick. Win7's System Information does not display it. I can however find the stick with SystemInformationforWindows (http://portableapps.com/apps/utilities/siw_portable).
+
+I'll check later if another PC will recognize it.
+It's a new pc so I have never tried booting from a usb on it before.
+
+Any ideas how I can reclaim my usb stick?
+"""]]

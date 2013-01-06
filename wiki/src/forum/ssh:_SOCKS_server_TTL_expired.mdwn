@@ -1,0 +1,23 @@
+Hi!
+
+I'm trying to connect to a machine running OpenSSH-server:
+
+    amnesia@amnesia:~$ ssh nick@89.123.xx.xx
+    ERROR: Got error response from SOCKS server: 6 (TTL expired).
+    FATAL: failed to begin relaying via SOCKS.
+    ssh_exchange_identification: Connection closed by remote host
+
+Are the ssh connection by default torified?
+
+I tried to torify it:
+
+    amnesia@amnesia:~$ torify ssh nick@89.123.xx.xx
+    17:24:04 libtorsocks(4136): connect: Connection is to a local address (127.0.0.1), may be a TCP DNS request to a local DNS server so have to reject to be safe. Please report a bug to http://code.google.com/p/torsocks/issues/entry if this is preventing a program from working properly with torsocks.
+    FATAL: Unable to connect to relay host, errno=0
+    ssh_exchange_identification: Connection closed by remote host
+
+I'm using Tails 0.13, the port 22 is opened on the server, and I searched around..
+
+*Are you able to connect via SSH with Tails 0.13?*
+
+Thanks for any hint!

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-05T10:22:15Z"
+ content="""
+Did you set your BIOS to boot from your USB? That's probably why it didn't boot up.
+"""]]

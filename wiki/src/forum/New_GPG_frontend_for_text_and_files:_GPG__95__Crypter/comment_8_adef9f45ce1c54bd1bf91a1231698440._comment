@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-18T00:36:29Z"
+ content="""
+>A REAL Tails would be a hardened kernel booting to a Busybox prompt. With NOTHING ELSE installed.
+
+A hardened kernel with all disk and network drivers removed. Obviously.
+
+*The following to be read in a deep, gruff voice:*
+
+>Tails for **men**. Are **you** man enough?
+"""]]

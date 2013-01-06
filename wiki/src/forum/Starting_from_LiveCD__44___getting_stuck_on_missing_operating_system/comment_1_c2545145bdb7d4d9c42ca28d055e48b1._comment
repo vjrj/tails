@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-25T02:38:51Z"
+ content="""
+Someone else reported something very similar in the past few days.
+
+Did you possibly try to burn a 850 MB iso image on a CD instead of a DVD?  Because it would be a little too large to fit on a CD, and while I haven't tried it, I suppose the result might be a CD which is readable but missing essential boot and OS files. 
+"""]]

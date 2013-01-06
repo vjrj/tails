@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-15T13:13:35Z"
+ content="""
+Why would you consider a SHA256 sum weaker
+
+The private key could be compromised by blackhats and used to sign trojaned code.
+
+If the SHA256 sum is verified as the same sum the tails developers specify, then it is the same code
+"""]]

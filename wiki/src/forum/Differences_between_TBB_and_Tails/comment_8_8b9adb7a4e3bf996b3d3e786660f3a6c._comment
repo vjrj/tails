@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-31T04:25:05Z"
+ content="""
+About AdBlock Plus, have you seen this from Dan Auerbach of the EFF?
+
+https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online
+
+As you can see, he recommends installing AdBlock Plus, in the context of a non-torified browser.  Mike Perry (developer of TorButton, now an essential component of modern Tor) has recommended against installing add-ons into TBB, and his arguments should for Tails too, I think.  But he does mention that AdBlock Plus and NoScript are probably OK.  There seems to be general agreement that NoScript and HTTP now are so valuable that their security/privacy value outweigh possible vulnerabilities from browser fingerprints differing from other Tor users.
+
+I read the Tor Talk post you linked to in another thread and have been trying to elaborate the argument of \"Raccoon\" to take into account the fact that Tor chooses high bandwidth nodes with greater frequency, and the reasonable supposition that nodes controlled by an well-funded adversary organization desiring to examine a large percentage of Tor chains will mostly operate high bandwidth nodes.
+
+
+
+
+"""]]

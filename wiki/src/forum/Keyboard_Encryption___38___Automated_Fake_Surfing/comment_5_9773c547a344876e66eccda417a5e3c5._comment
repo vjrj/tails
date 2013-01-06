@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-10-05T18:16:50Z"
+ content="""
+I think the idea of fake surfing is interesting. I have been doing
+this for a couple of months now using the w3m browser, a bash script
+and a data file full of weird offbeat links. The script selects a
+random link at a random time and works in the background.
+
+The purpose is not to increase security but to annoy the security
+services in my country who unfortunately have the right to profile me
+by logging all my internet access.
+
+If they are bothering to profile me they probably think that I am a
+fluent Russian speaking hang-glider pilot who suffers from acne,
+cystitis and dementia, and has a fondness for twinkies and Peruvian
+cuisine.  Good luck to them.
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-25T03:39:04Z"
+ content="""
+You can boot windows with grub too. so you could replace windows' bootloader with something more functional if you wished. there are guides to achieving this all over the web.
+"""]]

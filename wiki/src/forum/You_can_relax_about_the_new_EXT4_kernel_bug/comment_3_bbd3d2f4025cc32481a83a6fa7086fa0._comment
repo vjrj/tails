@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-26T06:05:21Z"
+ content="""
+>Current Tails-0.13 has the 3.2.23-1 kernel and so is unaffected.
+
+*Tails 0.14 testing uses 3.2.0-4-686-pae*
+
+### is this a problem?
+"""]]

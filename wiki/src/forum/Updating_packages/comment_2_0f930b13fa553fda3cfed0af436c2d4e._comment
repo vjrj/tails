@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-25T19:51:01Z"
+ content="""
+>Please also note that updating packages can make it easier to differ you from other users, and so break your anonymity.
+
+While *not* updating pkges leaves you vulnerable to numerous exploits that have been discovered since the latest TAILS release.
+
+TAILS needs to provide clear guidelines on the topic of updating.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-17T17:19:24Z"
+ content="""
+when you boot tails it synch's you time up with the GMT+0 timezone, there are two reason it does this:
+
+1: it makes you a bit more anonymous since a website can't look at your timezone and from that determine what part of the world you are in
+
+2: it is (as you found out) necessary to connect to .onion domains, the reason for that is that a part of the security check that happens when you connect to a .onion domain depends on you and the .onion domain having the same time set, so if you change your machine's time that security check fails and you don't get to connect to the .onion site.
+"""]]

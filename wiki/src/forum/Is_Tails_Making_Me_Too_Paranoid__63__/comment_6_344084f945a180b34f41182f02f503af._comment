@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Tails Signing Key has been modified!"
+ date="2012-08-20T18:42:50Z"
+ content="""
+The tails signing key has been replaced with a different one!
+
+<https://tails.boum.org/tails-signing.key>
+"""]]

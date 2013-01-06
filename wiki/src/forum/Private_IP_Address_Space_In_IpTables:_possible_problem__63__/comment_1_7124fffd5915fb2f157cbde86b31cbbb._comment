@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-27T17:34:56Z"
+ content="""
+ISPs *normally* allocate public IP addresses to their clients. Doesn't yours?
+"""]]

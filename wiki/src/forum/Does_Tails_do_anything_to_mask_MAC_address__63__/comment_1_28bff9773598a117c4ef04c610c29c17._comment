@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-07T15:58:27Z"
+ content="""
+You are right, by default, you're MAC adress isn't modified (I think we can't hide it). 
+
+You can use macchanger to modify it manually (see other forum threads).
+"""]]

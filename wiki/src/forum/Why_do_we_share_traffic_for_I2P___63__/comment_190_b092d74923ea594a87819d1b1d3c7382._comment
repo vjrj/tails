@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 190"
+ date="2012-11-03T14:17:01Z"
+ content="""
+[@comment189](https://tails.boum.org/forum/Why_do_we_share_traffic_for_I2P___63__/#comment-06dcdc138dbfa75f28e58f6ea3e22396)
+
+Trolls gonna troll.
+
+It looks like every reasonable concern was acknowledged at least once. Everything else is relying on FUD. Claims of backdoors with no evidence. Claims of numerous security holes with no evidence. Claims of legal woes with no evidence of a precedent. Claims of a digital apocalypse that are fascinating but off topic. Claims of moral turpitude that are hypocritical and baseless.
+
+The relevant points to take away from this thread regarding I2P and Tor inside Tails:
+
+* I2P does not start automatically
+* I2P starts in sharing mode when you manually start it, this may be changed in a future Tails release
+* I2P sharing mode may provide additional defense against de-anonymization timing attacks by bundling multiple users' data
+* there is no evidence that I2P non-sharing \"hidden\" mode provides more anonymization than I2P sharing mode
+* closing I2P prematurely (as is the expected case for Tails users) may be more detrimental to the I2P network than running as a non-sharing leech in \"hidden\" mode
+* I2P will only handle i2p node requests in IceWeasel while it is running and everything else still goes through Tor
+* I2P is going through clearnet, not Tor
+
+Relevant points to take away from this thread regarding I2P and Tor in general:
+
+* unlike Tor, I2P is not designed for surfing the clearnet
+* I2P does not provide a feature similar to the bridges in Tor
+* I2P may provide additional defense against de-anonymization timing attacks due to random delays
+* I2P may provide additional defense against de-anonymization timing attacks due to its larger user base
+* I2P utilizes stronger encryption algorithms than Tor
+* Running I2P in sharing mode is somewhat similar to running a Tor relay
+* Running I2P in non-sharing \"hidden\" mode is somewhat similar to running a regular Tor client without bridges
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not be confused"
+ date="2012-10-18T06:35:31Z"
+ content="""
+It is not clear what you have in mind.  Sounds like you have an email address for someone you want to email, but you don't want to immediately reveal your identity or location to him (or a third party).
+
+Don't confuse sending an email (or a text message or making a VOIP call) with using a web-browser.  Tor is designed to anonymize web-browsing, or at least the kind of web-browsing where you aren't logging onto forums or chat rooms using your real name, or buying things using your credit card.  Tails \"bundles\" Tor with some other things to make this safer/easier for ordinary people.
+
+Don't confuse browsing while using Tor (perhaps while using Tails) with browsing from a public access terminal in a public library.  When you use a public access terminal in a web cafe or library, most likely you log on using a library card or something like that which is tied to your real life identity, and records are kept (possibly for years) that you were using that specific terminal during a specific time period; in fact, records might well be kept of which websites you accessed.  So while using a computer at a library might feel \"anonymous\", it really is not anonymous at all.
+
+If you use Tor, maybe from a computer in your home or maybe while using a laptop and a public access point, such records are still kept (probably) by your ISP and by the servers offering the webpages you browse, but it will be much harder for companies like Google to tie together the records kept by your ISP with records kept by servers you visited.  So if you believe, as most people do, that it is in general no-ones business what Wikipedia articles you read (for example), Tor can be very effective in preventing companies from building a web-surfing profile tied to your real life identity.
+
+At aclu.org, eff.org, and other pro-privacy sites, you can find many pages explaining various reasons why it is important to try hard to preserve your on-line privacy as much as possible.  There are plenty of good reasons to fear \"profiling\" by e-marketeers (or worse), but reading up on the issues explained at sites like the ACLU might convince you that in your situation, you don't to feel so paranoid after all.
+
+As for emailing, there are \"anonymous remailers\", but as far as I know all of these are harder to use than Tails and offer much more questionable anonymity.  One of the most popular remailers was invented by someone who now works for the US intelligence services (assuming he did not work for them from the start), which should give you the impression (probably correct) that this is probably not something you want to get into unless the circumstances really warrant it.
+"""]]

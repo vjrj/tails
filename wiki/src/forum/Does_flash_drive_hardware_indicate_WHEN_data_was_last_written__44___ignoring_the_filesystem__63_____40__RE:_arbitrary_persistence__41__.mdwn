@@ -1,0 +1,5 @@
+I ask because if wear leveling is indeterminate of when data was last accessed, isn't that a good reason for the Tails USB Installer to also install an arbitrary encrypted storage space on the drive?
+
+It would be a deniable storage space because as I understand it, filesystems store last accessed/last written data. Once the Persistent drive is written, wear-leveling should just be waiting to write the next block. It knows an event happened, but not when.
+
+It's kind of like stumbling across a broken toy you've never seen before: You can't tell when it was broken, just that it was broken (at an unknown point in time).

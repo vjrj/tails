@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-10T08:20:34Z"
+ content="""
+Assuming running Tor binaries were built with a compiler that has this bug and the machine crashed suddenly or the plug was pulled with that data still in memory, it might possibly be recovered by a cold boot attack.  That requires an attacker to have physical control of the machine though and a clean shutdown on Tails will wipe the memory anyway.
+"""]]

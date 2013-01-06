@@ -1,0 +1,10 @@
+Hi. I'm run Tails from a bootable USB driveand it works great. I like that when I pull the thumb drive out of the USB port it immediately shuts down and wipes the RAM. But earlier it didn't.
+
+I had Tails running last night and fell asleep with the computer on. In the morning I decided to use windoze to access the clearnet so I pulled the Tails USB and the computer didn't shut down. Tor was still on and I could still go to new sites, gedit still worked, the mouse still worked, etc. I got an error when going to Administration menu and clicking the power off icon. It asked if I wanted to delete an app. I shut down the computer by pressing and holding the power button til it shut off and then pressed the power button again and it booted into windows.
+
+I tried to replicate this several times afterwards but Tails started up and shut down normally when removing the flash drive from the USB port.
+
+I'm not sure if this is a bug or if the anomoly was caused when I left the computer running all night with Tails booted, but I'm reporting the incident here anyways just in case.
+
+Thanks for all the work you guys are doing and providing us with this great software.
+

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="LESS"
+ date="2012-11-03T15:00:12Z"
+ content="""
+LESS
+
+how in the hell could installing it on a virtual machine be more secure?
+
+think this through...
+
+youre going from a scenario(booting off dvd) where every time you power down the machine everything dissapears; to a scenario where everything you do is stored in a file on your computer! everything you do on that virtual machine has a chance to be cached to the host operating systems swap file!
+
+this is the equivalent to asking \"is it more secure to have someone dictate on carbon paper my inflamatory memo that could get me in trouble?\"
+"""]]

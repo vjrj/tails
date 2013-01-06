@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Thanks"
+ date="2012-10-17T18:53:27Z"
+ content="""
+I'd noticed the one hops also and was also worried, so thanks for the explanation.  Just be clear: the one hop connection is encrypted?  I do realize that the directory information is public, but I worry that information could leak in unencrypted traffic... 
+"""]]

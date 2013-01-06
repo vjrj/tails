@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 26"
+ date="2012-12-28T21:02:35Z"
+ content="""
+> No care about https
+
+> > Well, I care very much about that
+
+Why? It's already answered in the guide.
+
+Q: Does the email provider need to be reachable by https / SSL? What if the signup form is unencrypted?
+
+A: https / SSL would be nice, but it's not required. Traffic snoopers are of no concern to us - as said above - we assume the mail provider to be an adversary.
+
+This is NOT a guide for a general anonymous mail account. This is ONLY for talking to Tor-Talk. For this purpose SSL is not required.
+"""]]

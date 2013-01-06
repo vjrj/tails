@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-11T09:59:36Z"
+ content="""
+It sounds like a bad idea to encourage people to plug their Tails USB sticks in random running computers. The risk of system compromise should not be taken lightly. USB sticks are nowedays commodities, and even if having carrying multiple sticks around might seem a waste, it makes security concerns less threatning.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-10T08:56:02Z"
+ content="""
+The Obfsproxy bridges behave more like Tor nodes and replace the first node of the three a normal connection would have... therefore reducing your circuit diversity.
+
+I agree that Obfsproxy would be extremely useful, probably best not enabled by default in the Tails torrc but available for those who *need* it. However it's simply not an option until Tails moved to the 0.2.3 branch of Tor.
+"""]]

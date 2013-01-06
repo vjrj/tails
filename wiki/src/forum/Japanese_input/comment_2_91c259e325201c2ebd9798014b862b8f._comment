@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-23T14:04:18Z"
+ content="""
+> As of 0.13 Tails offers very limited support for Japanese. I know that 0.14 will become with Anthy, but until it comes out I was wondering if there's a way to mitigate this problem.
+
+Yes. Install the `scim-anthy` package using Synaptic. You'll need to setup an administrator password first, as [[explained in the documentation|doc]].
+"""]]

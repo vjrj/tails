@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-06T21:49:05Z"
+ content="""
+And why not make tails by default a non-exit relay? I think it is a pity one can help the network using tbb but not tails. Especially when tails is preferable for the added security.
+
+An option in the greater could very well exist for running tails in client, bridge or relay mode. An option to use tails as an exit relay could also be considered, there is some possibility for abuse however since tails is designed to be usable in public computers so that should be carefully debated(I believe however the tor project has a tbb pre-configured as an exit relay so perhaps it wouldn't be so bad, but still).
+
+For this situation one could specify the default behavior from the tails usb installer perhaps? As is planned for the language and locale. The question would be what should be the default behavior for the users who would use tails as is without configuration, client or relay mode. While making the default the relay could be very attracting, the client mode as default with an option of relay like on tbb is much more respectful of users.
+
+This fake browsing is a very interesting idea though..
+"""]]

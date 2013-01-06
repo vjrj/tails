@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-26T11:11:59Z"
+ content="""
+In Tails you don't need to use proxies like `onion.to` or `tor2web.org` to reach hidden services (they're bottlenecks and can MitM you, so using them results in worse performance and security). Just visit the `.onion` site directly in Tails' iceweasel, e.g. <http://jhiwjjlqpyawmpjx.onion> for TorMail's hidden service.
+"""]]

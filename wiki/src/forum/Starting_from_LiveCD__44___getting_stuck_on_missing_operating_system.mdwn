@@ -1,0 +1,11 @@
+I am trying to make the livecd work, but i am getting stuck at the missing operating system screen. I am not a programmer and this is my first attempt to use it.
+I have followed the instructions to make a liveCD with tails. I have synchronized as well and it shows the message that is synchronized.
+Here is some more info, hope it is helpful to find a solution.
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *200.0 GB   disk0
+   1:                        EFI                         209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            179.0 GB   disk0s2
+   3:       Microsoft Basic Data BOOTCAMP                20.7 GB    disk0s3
+
+I am starting the computer pressing C key to start from CD. I get a screen with a mac hd and win hd to choose from, after I click on the win one I get the missing operating system message.

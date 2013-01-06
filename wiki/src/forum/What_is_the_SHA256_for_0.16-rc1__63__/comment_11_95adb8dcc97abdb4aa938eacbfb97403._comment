@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-12-21T15:00:48Z"
+ content="""
+>If the website was hacked, the hackers could also replace any genuine signatures with false ones.
+
+Don't be silly! That wouldn't work. That's the point of PKI and why the clever people use it instead of naked hashes!
+
+You still haven't learned *anything* about PKI cryptography have you?
+
+**PGP signatures** and **Public keys** are two different things! 
+
+Homework: See if you can learn about each of them. Then write a short essay on what each of them is and how they interoperate.
+"""]]

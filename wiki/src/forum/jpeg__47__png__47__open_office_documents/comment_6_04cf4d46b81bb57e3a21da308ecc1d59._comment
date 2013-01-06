@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-26T12:12:40Z"
+ content="""
+Rather than trusting the apps you're testing to give you an honest summary of what they're doing, why not *test* them yourself?
+
+I'd be inclined to choose an appropriate JPEG and use each program to sanitise a copy of it, then generate before/after diffs for each of the apps you're testing. You could then compare those diffs, perhaps in a hex editor, to see exactly how the outputs compare.
+"""]]

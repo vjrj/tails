@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Run a non-exit relay for fake surfing?"
+ date="2012-10-06T06:28:05Z"
+ content="""
+If you let Tor run as a non-exit relay you will have traffic flowing and you will be helping instead of consuming Tor resources. I'm not saying padding is bad if it has advantages. If they can tell that the traffic is being initiated from the outside, (additional) padding might be better.
+
+>I think the idea of fake surfing is interesting. I have been doing this for a couple of months now using the w3m browser, a bash script and a data file full of weird offbeat links. The script selects a random link at a random time and works in the background.
+
+Why weird offbeat links? If it chooses the links and they know you run this software it might reveal that your Tor IP is you. Why not have it choose links from all legal sites, then have it click randomly on pages.
+
+BTW JAP has traffic padding and it could use Mixminion which might even protect from \"global adversaries\" (as in exit nodes run by snot nosed middle schoolers who trade server logs). JAP tarnished their rep when the developers kinda made it easy for relays to put a backdoor in it, at the \"request\" of the German feds.
+"""]]

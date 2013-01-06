@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-07T21:00:16Z"
+ content="""
+If the each encrypted partition occupied each entire device and the encrypted data were identical, using the same encryption scheme which used a direct password (perhaps hashed but without salt), then to the OS the devices should appear identical but a forensic examination of the physical data allocation on the chips could reveal them to be different devices due to the wear-levelling.
+"""]]

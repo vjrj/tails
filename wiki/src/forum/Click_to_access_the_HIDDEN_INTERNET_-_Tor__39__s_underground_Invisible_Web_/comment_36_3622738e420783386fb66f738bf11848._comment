@@ -1,0 +1,39 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="if you think .onions are bad"
+ date="2012-09-22T20:19:53Z"
+ content="""
+Why even use tails?
+
+If you think the authorities who police the internet
+1. do a good job
+2. have honest motives
+
+please get uninvolved from tails. You don't need anonymitty, or any protecion, they'll do it for you?
+
+there is a lot of crap on the .onions, but there is also plenty on clearnet.
+
+Do you think our current social economic or political leaders are all exemplary human beings?
+
+Do you think that CNN or any other TV news station does a good job reporting the news? Do you trust the same politicians and business leaders who run your life to run to police the internet for you in your favor?
+
+that said, some common sense applies with .onions. Anyone can make anything.
+
+There are some benefits to .onion, for entirely non-controversial sites, and I use it myself:
+
+solves the \"static ip/DNS problem\". in clearnet it costs money and you need a special connection to get a static IP. Most likely you'll only be buying a static IP in conjunction with paid web services. Then there is DNS which unlike the rest of the internet, is rigid, structured, and authoriatarian. You have to pay for a hostname, or use free dns like dyndns which flags you as a second class netizen.
+
+If you run a server on a personal network, you open your entire network up for attacks, and tracking down the physical location of your server becomes real easy for stalkers, criminals, and the like.
+
+Or you could pay to host in a datacenter, but to actually host a whole machine is a lot of money. more likely you'll get an apache VirtualHost. for webspace, and an unprivledged shell with a lot of restrictions of what you can and cannot run.
+
+After that, you need SSL Cert which you need to pay a handful of companies trusted by webbrowser manufactures to have their root certs included stock. Running a server on a data center costs money. more than a hobyist wants to spend.
+
+On top of that, its relatively easy to fake SSL certs, its easy to intercept website traffic, and unless you
+
+When you run an .onion, you automaticly get a static DNS which is not immediately tracable. you don't have to worry as much about man-in-the-middle, and with .onions you get end-to-end encryption built in. TOR also acts a built in firewall as only ports specified are allowed.
+
+Its easy to set up on a LAMPS stack, and works on home networks with none of the cost or headaches of
+
+If someone is posting an .onion like thats not the official tails team chances are its bogus.
+"""]]

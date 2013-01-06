@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-06T07:46:30Z"
+ content="""
+Of course I saw the sentence in the documentation page saying
+
+> Tails comes with utilities for LUKS, a standard for disk-encryption under Linux.
+
+Please understand that to most people, it will not be clear that a \"USB stick\" is equivalent to \"disk\" in this sentence, if that is what you meant to imply.
+
+I have read the man page you cited (more than once), and I've read some Wikipedia pages, but these didn't help me answer the questions in the OP.
+
+@ \"Tails\", if you see this:
+
+I am hoping for a paragraph or so of advice, or maybe future improvements to the Tails documentation pages regarding using Tails well if your laptop is incapable of booting from a USB.  Look at this as a complement: you are victim of your own success in writing documentation which is mostly comprehensible to newbies!  So naturally we users want similarly excellent documentation for the bits we don't yet understand!
+"""]]

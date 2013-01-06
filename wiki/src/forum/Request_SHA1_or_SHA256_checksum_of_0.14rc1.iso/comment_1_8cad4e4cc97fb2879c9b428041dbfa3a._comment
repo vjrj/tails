@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-15T01:20:07Z"
+ content="""
+[The signature file](http://dl.amnesia.boum.org/tails/testing/tails-i386-0.14~rc1/tails-i386-0.14~rc1.iso.pgp) is for verification and authentication. Why would you want something weaker?
+"""]]

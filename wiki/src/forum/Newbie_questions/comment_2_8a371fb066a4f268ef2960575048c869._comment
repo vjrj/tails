@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-23T19:05:03Z"
+ content="""
+\"When I right click on each of them I get the option to mount them. I assume that means that they are not mounted, is that correct? If I don't mount them, will that prevent anything I'm doing from getting onto the hard drive of the computer I am using?\"
+
+Yes, exactly.  The Tails documentation pages offers some more information about this.
+
+I can't answer the question about drives appearing twice.
+
+I have seen similar readings which were artifacts of mounting folders with encfs, a tool which encrypts folders, but only when I have those folders mounted using encfs, but this might not be relevant.  However, I guess that if you mount a drive encrypted with TrueCrypt it might show up twice.  (Don't use TrueCrypt myself so I can't check.  And the Tails documentation pages includes an explanation of why TrueCrypt may not be good to use with Tails.)
+
+(Many people seem to use such tools to encrypt sensitive information kept on an encrypted hard drive.  When you boot a laptop or PC with an encrypted HD, the information on it becomes accessible to potential intruders.  Keeping sensitive files like your most important GPG/PGP keyrings in an encrypted folder means that they won't be accessible to anyone unless you mount them, which you might do only when you are not connected to the internet, as a security measure.)
+"""]]

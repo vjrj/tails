@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-24T14:17:59Z"
+ content="""
+>The fingerprints of directory authority are hard-coded in tor
+
+And if the binaries are tampered with?
+"""]]

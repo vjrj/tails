@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-01T03:07:56Z"
+ content="""
+bridge mode won't work properly in 0.14 rc1 for me as it did in 0.13. it worked a bit for short while, but now when entering bridges, the onion at bottom gets crossed out, then when waiting to connect it takes ages with some 'couldnt get concensus' errors.Eventually it says its working, onion is green, but tor check says proxy server isn't accepting connections. when it briefly worked, the list of servers needed a click on refresh to see anything and right hand pane was blank too. All a bit creaky.
+
+I tried unclicking the \"ISP blocks..\" option, and restarting vidalia and iceweasel, but no difference;have to restart pc without \"bridge\" to get anywhere.
+
+Should that be necessary? Does entering \"bridge\" at Tails start do anything more than opening the settings?  
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Hide the addon bar"
+ date="2012-09-30T10:55:08Z"
+ content="""
+For my part, I would prefer to see the addon bar completely hidden.
+
+Some of the people I setup Tails for are using really small screens (Eepc for example), and are quickly disturbed when an interface presents too much icons.
+
+In that case, we should perhaps document how to access Adblock options.
+"""]]

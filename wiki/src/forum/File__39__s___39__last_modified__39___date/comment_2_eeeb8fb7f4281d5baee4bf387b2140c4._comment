@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-06T08:36:22Z"
+ content="""
+> as far as I know, tails is supposed not to write any information on a computer's hard disks except what you explicitly ask it to write,
+
+This is correct.
+
+> but recently I noticed that, when I mount a truecrypt file hosted container and modify a document in it and dismount it, the container's \"last modified\" date changes, why?
+
+Mounting a given filesystem has to be done explicitly by Tails users. Doing so means enabling the filesystem driver's features for the mounted device. Most filesystem driver's features include updating this and that metadata. So, in my humble opinion, the behaviour you are observing is fine wrt. Tails specification.
+
+I could understand, though, how one may still find it annoying. [[Help is welcome|contribute/how/code]] to workaround or fix it, but I expect it to be quite hard, and I doubt we'll be happy to ship a custom Linux kernel merely to patch a bunch of filesystem drivers...
+
+"""]]

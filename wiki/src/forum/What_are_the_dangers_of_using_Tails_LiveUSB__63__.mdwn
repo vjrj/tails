@@ -1,0 +1,13 @@
+All this while I have been using Tails on a LiveDVD but I am planning on switching to using a USB instead.
+
+What are the dangers of using Tails on a USB stick?
+
+Is the following scenario possible when using Tails LiveUSB?
+
+Suppose I use Tails LiveUSB on a public computer in an internet cafe. One can safely assume that there are tons of malware, trojan horses and viruses on it.
+
+Is it possible for them to cross over (jump) from the infected computer on to my USB thumb/flash drive when I am using Tails?
+
+Are there any malware that operate/exist at the BIOS level such that when I am booting Tails from the USB drive, they infect my USB stick?
+
+I do not have such concerns when I use Tails LiveDVD because the DVD is only write-once.

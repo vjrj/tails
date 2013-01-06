@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-21T02:39:22Z"
+ content="""
+>How long should the memory wipe take? I'd expect it would take more than a few seconds to wipe 500 MB of RAM...
+
+maybe. 500MB isn't that much though ;)
+
+>...but when I press the red shut down button, the power goes off rather quickly. Is that a good sign or a bad sign? 
+
+Good/bad?.. Perhaps \"bad\" but indifferent unless you're expecting a raid or \"[cold boot attack](https://tails.boum.org/doc/advanced_topics/cold_boot_attacks/index.en.html)\" ;)
+
+[\"The devs\" are investigating](https://tails.boum.org/bugs/sdmem_does_not_clear_all_memory/grub/) ways to make the wiping more reliable and robust across all possible hardware
+
+"""]]

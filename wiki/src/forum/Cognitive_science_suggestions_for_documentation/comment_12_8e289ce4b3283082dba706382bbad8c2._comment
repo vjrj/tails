@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-11-01T00:50:59Z"
+ content="""
+I wrote the OP.  Thanks for the interesting comments!
+
+I like the idea of videos and hope someone familiar with making them will post some to utube.  Here is my modified proposal for a general schema for typical
+Tails documentation pages:
+
+* mention date of last update
+* oversimplified discussion
+* link to simplified utube video, where available
+* link to related Tor Talk post, where available
+* link to a page with more accurate/detailed discussion
+
+I hope this will help newbies to jump in and start using Tails, while offering more comprehensive discussion for those are so inclined, or who need the most comprehensive possible discussion of possible security issues.
+"""]]

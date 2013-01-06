@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 230"
+ date="2012-12-06T00:42:33Z"
+ content="""
+Having read the thread i can see that the Tails team and the I2P developer are purposely misleading Tails Users with propaganda just so they can support their own interests in the I2P project , even if that means it's at the expense of running the risk of exposing Tails users home computer address to law enforcements and government agency's when they exit the I2P network and relay encrypted traffic to the recipient.
+
+And that alone makes the whole anonymous amnesic incognito live systems a joke as that completely goes against the Tor ideology and Tor Browser Bundle and users may need to ask themselves if Tails really has the same interests as the Tor Project at maximizing and safeguarding users where possible.
+
+I completely and totally echo what others have said that if Tails really must have I2P included then it should start in hidden mode to protect Tails I2P users home computer address until they decide they wish to be a relay and to protect the ignorant newbies that they are acting as a relay until they learn how it works and decide for themselves to be a relay.
+
+A computer starting up as a relay has already given itself away and you would not expect Tail Tor users to start up as a Exit node and to disable it after it is already running.
+
+  
+ 
+"""]]

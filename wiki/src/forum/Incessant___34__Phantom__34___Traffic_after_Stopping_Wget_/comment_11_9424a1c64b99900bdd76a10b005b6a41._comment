@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-11-22T04:49:49Z"
+ content="""
+Was able to reproduce and found that `killall polipo` stopped the flickering.
+"""]]

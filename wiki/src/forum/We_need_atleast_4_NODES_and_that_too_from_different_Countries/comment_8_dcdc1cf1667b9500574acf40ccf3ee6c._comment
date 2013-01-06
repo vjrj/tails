@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-12-04T03:25:00Z"
+ content="""
+@ the original poster:
+
+Are you referring to the analysis by \"Raccoon\" which was posted some years ago on Tor-talk?
+
+    http://archives.seul.org/or/dev/Sep-2008/msg00016.html
+
+If so, another thread on this forum also discussed this analysis:
+
+    https://tails.boum.org/forum/__34__Raccoon__34___revisited/
+
+
+I'd like to reopen this thread because I fear that people could be harmed if such arguments are misunderstood,  As someone already pointed out, moving the discussion to the Tor-talk mailing list is infeasible because the email addresses of Tor-talk posters are visible to other subscribers (although not in the seul.org archive). 
+"""]]

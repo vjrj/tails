@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-26T07:53:03Z"
+ content="""
+> OpenSSL version is from 2010? wth?
+
+Tails is based on Debian stable.
+
+> What is it with the 'censors to block' mesg?
+
+This is a result of the oldish OpenSSL version. What is unclear in the message?
+
+The rest is neither particularly odd, nor specific to Tails.
+
+"""]]

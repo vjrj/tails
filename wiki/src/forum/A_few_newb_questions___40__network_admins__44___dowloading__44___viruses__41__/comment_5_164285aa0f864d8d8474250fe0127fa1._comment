@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-04T11:29:25Z"
+ content="""
+Disclaimer: I'm not a security expert but here's a few points I've worked out.  Comments welcome.
+
+1.  Don't open pdf files in Tails.  Nothing will probably happen if you do, but if you have to, at least pull the ethernet cable out.  PDF viewers in Tails need to be checked for version and up-to-date security patches.  Has anyone done that?  http://ubuntuforums.org/archive/index.php/t-1683369.html
+
+2. Block all scripting in NoScript.  Yes, I know the tor project believes tor button closes known js vulnerabilities, but how many *new* (previously unknown) vulnerabilities always seem to depend on js?  As for people who say enabling js will make calling you out from the herd easier, I call bullshit.  Many tor users disable JS.
+
+3. Similarly beware proprietary format files as from MS Word even when opening with OoO.  http://www.openoffice.org/security/bulletin.html 
+
+4. Movie files files like avi, mp4 etc by themselves are almost unknown vectors for  attacks I believe.  The only well-known attack involves social engineering and is Windows and .WMV-dependent.  Social engineering usually means tricking naive users into going to a malware site and/or installing something bad.  Be careful about any file that wants you to go to a site and allow something to enable viewing or some such crap.
+
+
+
+
+"""]]

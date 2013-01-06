@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-05T10:30:09Z"
+ content="""
+Please [[report a bug|doc/first_steps/bug_reporting]] from the Dell laptop that can't boot Tails from USB.
+
+Chances are that it has a buggy BIOS that does not support GPT.
+
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject=" "
+ date="2012-09-02T06:59:38Z"
+ content="""
+If you wish to track new Tails releases, learning how to use Git and build from source is by far the best option. Any other way will probably require you to redo the very same tedious steps for each releases.
+"""]]

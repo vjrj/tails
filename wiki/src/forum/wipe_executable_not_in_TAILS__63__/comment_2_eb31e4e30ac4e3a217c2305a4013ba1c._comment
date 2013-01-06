@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-15T13:05:23Z"
+ content="""
+There are many pre-compiled secure erasure tools at your disposal in the Tails .iso and many more available in the repos.
+
+I'm sure that if you'd be kind enough to explain exactly what you're hoping to acomplish, then someone would be kind enough to tell you the name of an appropriate application or command to issue. Thereby saving you from anything so desperate as referring to [the documentation.](https://tails.boum.org/doc/index.en.html)
+
+Do you wish to erase specific files? Scrub free space? Make sure a blank device is *really* blank? If it's flash media you intend to erase data from, then you should be aware that it's no simple task. Specifying the nature of your threat would also be relevent. Do you want to be sure your pet hamster won't stumble upon your secret goatsee stash or protect your Iranian launch codes from NATO?
+"""]]

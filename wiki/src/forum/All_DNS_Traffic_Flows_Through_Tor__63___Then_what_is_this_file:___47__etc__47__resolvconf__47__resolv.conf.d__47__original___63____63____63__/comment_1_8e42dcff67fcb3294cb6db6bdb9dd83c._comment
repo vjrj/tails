@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-15T07:45:55Z"
+ content="""
+Given you seem to be interested in the resolvconf internals, I suggest you refer to the resolvconf documentation. As far as Tails and DNS is concerned, the 3.6.3 (DNS) section of our [[design document|contribute/design]] explains in details how things work.
+
+"""]]

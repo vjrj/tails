@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="yeah, please do and also include SHA1 checksums too"
+ date="2012-10-09T10:49:55Z"
+ content="""
+Please state the approximate size of the ISO file on the \"Downloads\" page.
+
+Could Tails developers also include SHA1 checksum as well? I know that Tails put up SHA256 checksum on its website but SHA256 checksum verifiers are few and far in between. SHA1 checksum verifiers are plentiful on the web.
+
+Moreover, Microsoft publishes SHA1 checksums extensively for its downloadable software for its TechNet, MSDN and other Volume Licensing subscribers.
+"""]]

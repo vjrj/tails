@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-12-31T17:08:17Z"
+ content="""
+I haven't found any code suggesting that malware is present in my Tails system, but I have been keeping an uneasy eye on several phenomena:
+
+First, there are certain standard utilities with properties like these:
+
+* has innocuous uses
+* but is also perfectly suited for deanonymization
+* from time to time is automatically activated in normal usage
+* becomes suspicious when activated *consistently* when performing *particular actions* while using Tor
+
+I have been watching something like this happen when I actually press the post button at this forum, but only when I am using a certain bridge to connect to the Tor network.
+
+Second, some apparently dangerous Nagios plugins are available as Debian stable packages (so a Tails user could easily install them if desired) but are *not* installed in a default Tails system.  Nor on my non-Tails Linux system. But I have also seen suspiciously timed indications of activity at port 5666 (nrpe) possibly suggesting that something is trying to activate a nagios plugin when I am using Tor; to understand why that is a potential concern see
+
+http://www.techrepublic.com/blog/opensource/nagios-monitoring-with-nrpe-allows-better-tracking-of-remote-systems/2265
+
+Again, associated not with torified GET requests or SYN but with very particular actions while using Tor.
+
+Third, I have seen Tor using the very port where a potentially dangerous application is actively listening for UDP packets (which should never leave the local network), which seems like a very bad idea, on general principles.
+
+"""]]

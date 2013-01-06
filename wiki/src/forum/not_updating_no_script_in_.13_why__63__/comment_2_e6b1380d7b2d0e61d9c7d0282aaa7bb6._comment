@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-20T11:06:32Z"
+ content="""
+\"Tails is based on Debian stable\"
+
+What you may gain in stability you may lose in security, if packages aren't properly updated.
+"""]]

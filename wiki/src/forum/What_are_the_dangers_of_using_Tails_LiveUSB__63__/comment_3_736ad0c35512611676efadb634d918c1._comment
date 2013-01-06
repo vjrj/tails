@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-09-08T08:15:03Z"
+ content="""
+They certainly work on the electronic level, though how they work - whether they just operate on the USB interface to change the way the device presents its self, or within the controller circuitry to make writing impossible - or however else, I have no idea. Have the Tails bods developed a protocol for testing this?
+
+One of my switchable sticks resides within a transparent housing... I can see that the switch is mounted towards the back of the PCB, extremely close to what appears to be the flash chip and some way from (what appears to be) the USB circuitry. I suppose this bodes well - but proves nothing, obviously. (The view isn't great through the old, scratched, matte plastic!)
+
+Perhaps OP might be better sticking with WORM media!
+"""]]

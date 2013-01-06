@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-14T04:28:50Z"
+ content="""
+Just had a scan through about:config and there doesn't seem to be anything pertinent. Could well be an oversight in Mozilla's design... I second the \"file a bug\" motion ;o)
+
+If you want to read up on the technique, it's known as a \"data URI\" 
+
+As for exploits, I'm not aware of any *known* vulnerabilities right now but don't see why a 0day in the image rendering libraries wouldn't be vulnerable to inline images. If you want a **real** text only browser, use *Lynx*
+"""]]

@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="alexs"
+ ip="127.0.0.1"
+ subject="sd specification"
+ date="2012-07-31T00:51:16Z"
+ content="""
+source on this topic is:
+https://www.sdcard.org/downloads/pls/simplified_specs/Part_1_Physical_Layer_Simplified_Specification_Ver_3.01_Final_100518.pdf
+section 4.3.6, page 32.
+
+
+the other commenter asks about \"popular host hardware\" that ignores the read-only switch.  i don't think this is the right question, because in at least some cases the host hardware simply passes the state of the read-only switch to the host software, which is responsible for honoring the flag.
+
+one admittedly uncommon example is canon cameras running CHDK, which use the write protect tab state to configure the OS boot options, ignoring the intended use of the tab.  while CHDK is hardly popular software, it's only software, which indicates that there's nothing in canon hardware to guarantee a read-only state.
+
+lots more discussion, including a linux kernel patch to attempt to ignore the read-only flag, is here:
+http://superuser.com/questions/354473/is-the-lock-mechanism-on-an-sd-card-hardware-firmware-or-software-driver-os
+
+
+"""]]

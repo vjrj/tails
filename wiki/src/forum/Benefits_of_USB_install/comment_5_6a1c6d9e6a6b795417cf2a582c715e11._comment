@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-10-21T16:07:25Z"
+ content="""
+>Is it safer to unistall software you don't use? I have no use for Open Office, so would I be safer if I removed it from Tails?
+
+Yes. Less packages, less problems.
+"""]]

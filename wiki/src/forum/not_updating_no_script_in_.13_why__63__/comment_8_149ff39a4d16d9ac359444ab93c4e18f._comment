@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-09-24T02:18:44Z"
+ content="""
+>2.) NoScript, like all official Mozilla addons that I am aware of, downloads from mozilla.org and installs entirely within the browser-- irrespective of OS.
+
+>Thus I don't see how the version of Debian being used, etc. would have any bearing here.
+
+Also, addons available from Mozilla tend to be withdrawn *after* vulnerabilities are discovered. This produces a sort of \"windows is fine - just use a virus scanner\" style \"security\" *illusion*. Security *after the fact* if you like.
+
+New *isn't* necessarily better, but less review/exposure *is* almost inevitably less secure...
+
+To leapfrog the review performed upstream by Debian security could introduce vulnerabilities into Tails. Furthermore, the \"lag\" which the slow process of Debian's review creates - is an interval for external review. To eliminate it would eliminate the opportunity for vulnerabilities to come to light upstream of Debian, at Mozilla, *before* they are propagated into Tails.
+
+The delay doesn't mean that security patches aren't being cherry picked (they are), it means new \"features\" (i.e. potential vulnerabilities) are receiving appropriate scrutiny/exposure *before* inclusion in Tails rather than *after*. ;o)
+"""]]

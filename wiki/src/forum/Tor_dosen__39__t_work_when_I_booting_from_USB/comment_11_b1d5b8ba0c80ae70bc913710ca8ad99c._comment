@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Also"
+ date="2012-09-27T17:17:13Z"
+ content="""
+Can you tell me what is the risk to use regular Tor without Tails or VM?
+What is more safe option a using Tails from VM when is VPN first running before VM or a Just use Tor in regular way when VPN running first?
+or maybe it will be good idea to running VPN then start Tor browser then disconnect VPN and then again to connect vpn after Tor is already running?
+
+I ask this if I'll not find a way to use Tails safely.
+"""]]
