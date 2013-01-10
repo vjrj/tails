@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-22T01:15:11Z"
+ content="""
+> Please explain why this file exists
+
+It's useful for testing and development purposes.
+
+> and why it shouldn't be deleted manually with every boot of Tails?
+
+If it were, it would be useless.
+
+> It appears dangerous to privacy and security IMO.
+
+I fail to see why. Please make your point more explicit.
+
+"""]]

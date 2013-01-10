@@ -1,0 +1,13 @@
+When i try to boot tails from usb,it gets stuck on the first screen for more than 2 minutes,and then dont load totally,showing me these error messages:
+
+Exec:1/bin/login/input/output error
+
+X respawning too fast:disabled for 5 minutes
+
+No more processes left in this runlevel
+
+Then it stays without showing any signs of life for five minutes,when it repeats the messages again:
+
+init:id"x" respawining too fast:disabled for 5 minutes
+
+I tried to reinstall it on my usb drive but nothing happens. how can i boot it?
