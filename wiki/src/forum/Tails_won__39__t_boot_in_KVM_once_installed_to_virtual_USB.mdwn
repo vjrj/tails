@@ -1,0 +1,12 @@
+I'd like to have Tails installed and running in a KVM in Ubuntu 12.10, with my persistent storage saved to a micro SD card which I can remove and hide.
+
+I am not ignorant of the security vulnerabilities here. It may not give James Bond security but at least I'll be able to switch between an anonymous pseudonym and back with minimal effort, which is my main requirement.
+
+However: 
+
+ * Tails refuses to configure persistent storage when booting from the ISO. 
+ * I can only install Tails to a virtual USB drive, not an IDE / SCSI disk.
+ * If I install Tails to a virtual USB device then it hangs directly after the grub screen using 100% CPU.
+ * If I install to USB then switch the disk type to IDE, it hangs using 100% CPU before the grub screen.
+
+Can anyone help?
