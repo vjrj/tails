@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-04T15:10:11Z"
+ content="""
+I agree that this is serious, and not just for people in Turkey.  
+
+Here are some news stories on the TurkTrust scandal:
+
+    http://www.wired.com/threatlevel/2013/01/google-fraudulent-certificate/
+    http://www.theregister.co.uk/2013/01/04/turkish_fake_google_site_certificate/
+
+The owners of the Intermediate CA certs improperly issued by TurkTrust are said to be:
+
+* EGO.GOV.TR
+* e-islam.kktcmerkezbankasi.org
+
+Look in /etc/ssl/certs in your Tails system, and you will probably find root certificates for TurkTrust which may shortly no longer be valid, since Mozilla appears set to revoke TurkTrust's root certificates (which may create problems for anyone in Turkey).  If this happens, expect an update of iceweasel for Debian stable, and I suppose for Tor Browser Bundle (TBB) and Tails too.
+
+Try this to see a human-readable display of a certificate in /etc/ssl/certs:
+
+    openssl x509 -in certname.pem -noout -text
+
+where you should replace certname.pem with the appropriate filename.
+
+In recent years, there have been similar news stories about other CAs including DigiNotar, Comodo, and some others.  These CAs improperly issued certificates which were then allegedly used by \"Ich Sun\" and others to make genuine but fraudulent certificates for google.com and other high value domains.  \"Ich Sun\" apparently explicitly targeted the Mozilla site where one obtains add-ons such as NoScript.  I believe that both DigiNotar and TurkTrust are or were in effect the national CAs for Holland and Turkey.
+
+"""]]
