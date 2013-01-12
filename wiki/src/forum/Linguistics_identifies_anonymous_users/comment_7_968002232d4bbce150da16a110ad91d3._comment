@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-11T22:25:50Z"
+ content="""
+I agree; insults are contrary to the spirit of the forum as expressed in the documentation: providing a way for more experienced Tails users to help less experienced Tails users by providing advice/tips.
+
+@ OP:
+
+I too would like to discuss this issue, and I wanted to post sufficient information for anyone interested to duplicate my experiments using easily installed Linux tools, standard stastical methods and visualization techniques.  I used function words and punctuation, which are among the easiest (and least precise!) methods in stylometry.  Unfortunately the moderator has made it clear that he/she won't allow such discussions.
+
+But perhaps I can mention that there is a todo item asking the developers to consider trying to incorporate something like Anonymouth, which uses a primitive but effective stylometry engine to assist a second engine which suggests countermeasures to blunt the distinctiveness of specific stylometric traits in specific draft posts.   Some of these things could be at least slightly ameliorated by such simple tools as off-line (but on-DVD) spellcheckers, and tools using off-line (but on-DVD) thesaurus softwares together with language statistics which can be obtained from our Principal Adversary (how ironic).
+"""]]

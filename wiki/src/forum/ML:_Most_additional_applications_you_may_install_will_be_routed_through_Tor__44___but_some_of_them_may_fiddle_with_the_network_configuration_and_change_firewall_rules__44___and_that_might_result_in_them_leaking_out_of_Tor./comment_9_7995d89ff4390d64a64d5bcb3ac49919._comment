@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-11T22:49:28Z"
+ content="""
+@ OP:
+
+> [Change] \"WarnUnsafeSocks\" from 0 to 1 inside /etc/tor/torrc?  This would warn the user if a program is trying to dick around in a way it shouldn't within Tails.
+
+One would hope so, but one shouldn't trust that one tiny change will detect all, or even most things which might go wrong.
+
+I agree with those who advise against live-installing additional software when you are running Tails off a R/O DVD or even off a R/W USB stick.  Most of us probably do a bit of that anyway, but I hope we all think about the pros and possible cons before each live-install or alteration of the default config.
+
+I have seen a number of posts from apparent Tor newbies here which could be read as suggesting that the poster in a Windows user who is accustomed to numerous activities and to using numerous unsafe softwares, but who is sick of constantly being infected with malwares, and who may have jumped to the incorrect conclusion that simply by booting from a Tails DVD instead of Windows on their hard drive, and by then live-installing Linux softwares which will enable them to continue their same insecure bad habits on-line, they will be able to avoid ever having to worry about computer security again.  That would be a tempting conclusion but certainly a dangerously incorrect one.  As Bruce Schneier often says, on-line computer security is a process, not a state.
+
+@ OP: I don't mean *you*, neccessarily.  I have been reading a great deal (maybe too much) into several recent posts asking about \"using Tails for everything\", and just want to be sure that no newbies think Tails can serve as a magic carpet which will whisk their computer into the Promised Land of perfect anonymity and security.
+
+
+"""]]

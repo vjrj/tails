@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-01-11T22:15:41Z"
+ content="""
+To verify that your Tor relay or bridge is actually receiving traffic, this will probably suffice:
+
+     netstat -anp | grep EST
+
+You can probably put that in a script and have it execute several times per day, checking that at a particular moment there is traffic which is presumably Tor traffic.
+"""]]
