@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-12T15:42:05Z"
+ content="""
+> I for one hope that Tails will not include Minitube. Youtube breaks the anonymity of its visitors easily, that is to say, you will lose your anonymity when you visit Youtube.
+
+
+Youtube doesn't have magical anonymity breaking powers that no other site have, historically the main problem with Tor and yourtube has been that youtube required flash, which is insecure over Tor, but now that most videos can be viewed using HTML5 that is much less of an issue, and if you use Minitube tracking is even less of an issue since Minitube enables you to watch YouTube videos without running any of the JavaScript present on YouTube.
+"""]]
