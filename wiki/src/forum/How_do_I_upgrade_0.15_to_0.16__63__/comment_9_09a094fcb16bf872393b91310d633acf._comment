@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-14T22:33:03Z"
+ content="""
+@ OP:
+
+I think Commentators 6,7 are correct.  I suggest you try this:
+
+* download the Tails 0.16 iso and the accompanying detached signature file from this website (tails.boum.org)
+* verify the 0.16 iso using the Tails signing key
+* burn the 0.16 iso to a blank DVD
+* reboot using the new Tails 0.16 DVD
+* plug in a second USB and use the Tails provided script to put an encrypted volume on it
+* plug in your old bootable USB and backup your personal files to the second USB
+* use another Tails provided script to make a new bootable USB, overwriting your old bootable USB
+
+(If you can't find the two scripts I mentioned on your new Tails DVD, say so and we'll help you find them.)
+
+And of course I echo everyone else in saying to Commentator 1 that gratituous abuse has no place on this forum.  I don't know what is up with that poster, I really don't.
+"""]]
