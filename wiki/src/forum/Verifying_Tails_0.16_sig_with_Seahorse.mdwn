@@ -1,0 +1,9 @@
+Just switched to using Seahorse & I'd appreciate a pointer on verifying the tails signature. I changed tails-i386-0.16.iso.pgp to  tails-i386-0.16.iso.sig
+
+When I right click on the .sig file & choose 'open with verify signature' it asks me to  "choose original file for 'tails-i386-0.16.sig' "
+
+I don't know what to choose here - the tails signing key, .sig or.pgp
+Whichever I select I get the message:
+" tails-i386-0.16.sig:Bad Signature
+Bad or forged signature. The signed data was modified."
+
