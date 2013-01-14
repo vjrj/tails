@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-13T12:23:35Z"
+ content="""
+> I believe it is not one of Tails' goals to provide anti-stylometry.
+
+Did you read the design?
+
+> The Privacy Enhancing Live Distribution (or PELD for short) aims at providing a software solution providing the user with the technological means for using popular Internet technologies while maintaining the privacy of the user, in particular with respect to anonymity. 
+
+Stylometry does fight against this goal. So why shouldn't it be a goal?
+
+> If users are afraid of being traced by their writing styles, they should just change/modify them when using Tails.
+
+They can't. 1. No one tells them beside in some deeply buried forum topic and 2. it's too difficult and error prone.
+
+> What is so difficult in doing it?
+
+Because people who did it could still get traced. Stylometry is so powerful and will be even more powerful in future.
+
+The video talk about it specifically goes into that.
+
+> short-term solution or example for anti-Stylometry is to write your comment then process it through google translate e.g. english to german to sweden back to english... then minor tweak to make the comment understandable. useful ? 
+
+It's barely readable and google has a copy of all versions. Why assume big brother does not already get a copy of all originals and translated versions?
+"""]]
