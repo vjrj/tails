@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-01-15T08:14:43Z"
+ content="""
+Correct me if I'm wrong, but the way Tails is set up, you can't easily turn on being a relay from Vidalia. I assume this is because Tor runs as a separate user for security.
+"""]]
