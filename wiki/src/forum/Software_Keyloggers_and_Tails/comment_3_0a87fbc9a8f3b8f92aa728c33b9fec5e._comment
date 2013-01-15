@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-15T20:37:02Z"
+ content="""
+The take-home lesson for Tails users who boot from a bootable USB is perhaps this:
+
+* for convenience of upgrading to the next Tails and for increased security, use two USB sticks if your PC or laptop has enough USB ports
+* use the LUKS encrypted bootable USB made from the latest Tails DVD edition to store your persistent Tails system information, like configurations and bookmarks in the Tails browser
+* use a second USB with a LUKS encrypted volume to store your personal files
+* get in the habit of physically removing the second USB as soon as you are not using it
+
+Our many adversaries around the world definitely seem to have refocused their efforts on remote intrusion into citizen computers, so these simple measures might reduce the chance of their remotely exfiltrating sensitive files even if they get the decryption keys.  Even better, if they try to access something which isn't there, that might leave traces which users can look for over time.
+"""]]
