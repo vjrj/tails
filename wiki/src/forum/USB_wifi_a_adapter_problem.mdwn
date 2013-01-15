@@ -1,0 +1,1 @@
+My USB network adapter is not recognised! It is tp-link wn722n. 'lsusb' is showing 'Atheros ar9271'. Please help. I tryed with compat wireless but by some reason I can't compile it using 'make'.
