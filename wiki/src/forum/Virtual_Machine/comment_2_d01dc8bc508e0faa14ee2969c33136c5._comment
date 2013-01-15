@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-15T12:15:57Z"
+ content="""
+>I understand that running Tails inside a virtual machine means that the OS can only leak it&s Tor IP, thereby making it safer. What I don't understand is why. Why would running Tails inside a VM prevent it from leaking the user's real IP in case of misconfiguration, malware attack etc?
+
+Tails *won't even have* a \"real\" IP address! Tails will access the internet through a virtual networking device emulated by the hosting VM. Probably a virtual NAT. The virtual NAT will assign TAILS a private range ip address (probably class C, Perhaps A). An exploit which caused Tails to disclose it's IP address would only reveal Tails' (meaningless) private range address... and NOT the host's (your \"real\") IP address.
+
+You can also safely ignore the advertising in comment 1 ;)
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-14T23:14:11Z"
+ content="""
+You probably meant \"not able to surf\".
+
+I sometimes find that Javascript really is neccessary for some transaction, and if I am using a DVD I sometimes momentarily re-enable it in the Tails browser menu.
+
+But to a great extent I find that disabling Javascript not only immunizes me from all kinds of attacks but speeds up my tor browsing, while not causing significant problems.  It might take a day or so for most users to adapt to browsing with Javascript disabled.
+"""]]

@@ -1,0 +1,9 @@
+I would have thought this would be simple. But something isn't working.
+
+Short version:
+Added a new partition to Tails drive and now it won't boot.
+
+Long version:
+I have two USB drives (one metal, one plastic). The metal one already has tails, I do a Clone & Install to the Plastic one, I check that it works, then boot from the metal one again and, using Disk Utility, I create a new partition on the plastic one. The partition is FAT and fills half the remaining space (because I plan to set up Persistence too). I now try to boot from the plastic USB drive and it briefly flashes something like "OS Missing" and then proceeds to boot from the HD instead.
+
+What should I do differently? Or is this really not possible for some reason?

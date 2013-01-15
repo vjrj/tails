@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="A Revision of My Statement / Answering Your Question"
+ date="2013-01-15T08:03:28Z"
+ content="""
+First, I re-checked what I had done. I took a Tails 0.15 DVD, and ran it, but could not mount my TC container. Then, I realized that I had not been able to mount it in Tails at all, but, instead I had been able to mount it using my copy of JonDonym on another stick. I had already mounted it using most Puppy distros (I like it because it is fast.), and Windows XP, SP3 and all updates.
+
+To answer your question, the answer is no. I created it using the very latest TC, which I think is TC 7.1a, and I do not think that it would be wise to try to open it with TC 6.3, which was the one before 7. Also, I have opened another TC container that I created several months ago on Puppy, and also used in Windows and JonDonym, but now that I think of it again, it would not work in Tails.
+
+One more thing that I could try is to see if I can create a container in my Tails stick onto another stick, but even if I could, and then be able to mount it to save whatever I wished to, my real need is use my TC container that I already have, which has my necessary files. If I could create a TC container in Tails, it would have to also work in Windows and JobDonym, otherwise I would have to stop using Tails though I like it alot, especially because it has persistance and a virtual keyboard.
+
+I'll get back to here in a day or two, to say what I was able to do.
+
+I have used many Linux distros since the early 1990s, and I still cannot find one that has the whole nine yards, if you know what I mean. As far as browsers go, I like the JonDoFox Browser because it really is secure, and if you pay $$$, you can get more speed, and can use other apps over Tor, but it can get expensive over time, and it has no persistence.
+"""]]
