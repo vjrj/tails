@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-15T10:36:17Z"
+ content="""
+> I understand that running Tails inside a virtual machine means that the OS can only leak it&s Tor IP, thereby making it safer. 
+
+This is not actually the case. 
+
+> What I don't understand is why. Why would running Tails inside a VM prevent it from leaking the user's real IP in case of misconfiguration, malware attack etc?
+
+Good question, the answer is it doesn't
+
+> Also, is it possible to tell whether a given user is using a virtual machine, i.e., does using a VM in any way alter the browser fingerprint?
+
+No using a WM will not alter the browser's fingerprint.
+
+As far as a WM that doesn't leak your IP even with root exploits is concerned you are probably thinking about whonix which is a Tor centered OS designed quite differently from Tails specifically to hide the real IP address of your computer even to the root software running in the WM.
+
+If you are curious about how whonix accomplishes that I'd advise that you head over to whonix's homepage and read some of its documentation.
+"""]]
