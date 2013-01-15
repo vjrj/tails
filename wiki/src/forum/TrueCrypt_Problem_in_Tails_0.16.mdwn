@@ -1,0 +1,7 @@
+When I booted up my copy of Tails 0.16, I included TrueCrypt. When I logged in I entered a password that I had written down so as not to forget it in case I had to go to root/admin.
+
+After I reached the desktop, I fixed the display the way that I wanted it, and set it up for one-click instead of double-click. I have done this many times, and have been using Tails and Tor for years. In fact, I have been using Linux since it began in the early 1990s though I am not a coder.
+
+I am using Tails on a stick, created via the DVD, which I checked in FF on Windows, and I just updated the stick from 0.15 using one of your two methods on your web site. After I put in another stick with the same TrueCrypt file that I have been using for years, created originally in a Linux distro so I could also use it under WinXP, I was asked to insert my passphrase/password, and then either my user or admin password. After I hit enter, a message said that either my ID/name or my password was incorrect. I used the same password and ID that I used to log on with, just like I had done in the past, and I was able to open my TC file before. I repeated this a few more times, shut Tails down, and repeated it again, but without any luck.
+
+Can you help me with this problem? Thanks.
