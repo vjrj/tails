@@ -1,0 +1,34 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Reply to Comment 3 by Anonymous"
+ date="2013-01-16T07:11:19Z"
+ content="""
+My Reply to:
+
+Comment 3 by Anonymous — Tue 15 Jan 2013 12:59:54 PM CET 
+
+\"There's no reason why you should have a problem using TC6.3 but comment 1 suggested:
+
+    a different copy of TC
+
+Not a different version, anyway.\"
+
+================================
+
+I know that TrueCrypt 7.1a, which is what my container was created with is \"backward compatible\" because it say so at \"https://en.wikipedia.org/wiki/TrueCrypt#Modes_of_operation,\" which says:
+
+\"TrueCrypt currently uses the XTS mode of operation. Prior to this, TrueCrypt used LRW mode in versions 4.1 through 4.3a, and CBC mode in versions 4.0 and earlier.[7] XTS mode is thought to be more secure than LRW mode, which in turn is more secure than CBC mode.[8] ..... Although new volumes can only be created in XTS mode, TrueCrypt is backward compatible with older volumes using LRW mode and CBC mode.[7] Later versions produce a security warning when mounting CBC mode volumes and recommend that they be replaced with new volumes in XTS mode.\"
+
+However, even if TC 6.3a could open my TC 7.1a container, it will not prove that I can use it in Tails 0.16, which uses TrueCrypt 7.1a, the most current version of TrueCrypt. Earlier Tails' versions had 6.3, but using an earlier version of Tails would be a security risk. What's the point is even discusing an earlier version of TrueCrypt?
+
+Furthermore, I did say that my TC 7.1a container does open in, as you (Comment #1) put it, in \"another OS entirely.\" I said that I used it in various Puppy distros, JonDonym, and Windows XP, SP3. I do not think that trying to open my TC 7.1a container in \"PartedMagic\" would help either. I already made the comparison in Puppy, etc. I have used PartedMagic before.
+
+I know that I can create a TC container on a stick using Tails 0.16. I did it, and it opened in JonDonym's copy of TrueCrypt too. As I have said, that's not the point. The header of my TC container is not damaged, and yes, I did back it up a while back! I have been using my TC 7.1a container back and forth from Linux to Windows since TrueCrypt went from 7.1 to 7.1a, which has been a few weeks after February 7, 2012 when 7.1a came out. I have been using TrueCrypt since version 6.3, which came out on October 21, 2009.
+
+One thing though, I did have a problem years ago creating a TC 7.0 container in Puppy 5x until I went to Settings > Preferences > System Integration, and put a check in the box that said \"Do not use kernel cryptographic services.\" Then, I was able to create a container with Fat (so I could open it in Windows), and I did it again with 7.1 and in 7.1a. My container resides on a 3.0 Patriot stick, and is about 40 some GBs. As I had said, if I created a TC container in Windows (with Fat), it will not open in Linux. I found that out on my own.
+
+I really like Tails with its very helpful Documentation. It's also neat and orderly, etc., but I must be able to use my TC 7.1a container, otherwise I have to go to something like JonDonym, which has TrueCrypt 7.1a on board, and the most secure browser (JonDoFox) that I have seen according to tests that I have made at \"http://ip-check.info/?lang=en\" with various browser including the TorProject Bundle browser.
+
+I will check back for a reply. Thanks for your help.
+
+"""]]
