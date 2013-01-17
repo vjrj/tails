@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-16T19:49:43Z"
+ content="""
+I disagree with the last comment.
+
+For example, it would be difficult to argue that comparing Tails and Whonix (or Tails and TBB) is irrelevant here, because some Tails users might really be better off using TBB or even Whonix.
+
+Whonix is designed for a hardrive takeover installation on two *dedicated* machines (one if you use virtual machines), and could be suitable for someone who needs to visit an extremely hazardous site from a \"safe\" location.
+
+Tails is designed to leave no traces on hard drives, which is an important privacy consideration if you are traveling through an oppressive border where you can expect your laptop to be searched.
+
+Strangely enough, Whonix sounds perfect for certain elements of the surveillance state, how ironic, because they consider themselves secure against physical search and seizure, so can focus on making remote intrusions less likely.  Actually, I wouldn't be surprised if some of them are quietly using Whonix to try to quietly intrude into citizen computers without leaving any attributable traces:
+
+     http://www.wired.com/opinion/2013/01/wiretap-backdoors/
+
+
+
+
+"""]]

@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-15T21:18:11Z"
+ content="""
+> Tails won't even have a \"real\" IP address! 
+
+Nothing can connect to the internet without a real IP Address, that's a pretty basic networking fact.
+
+>Tails will access the internet through a virtual networking device emulated by the hosting VM. Probably a virtual NAT. The virtual NAT will assign TAILS a private range ip address (probably class C, Perhaps A). 
+
+True, but that is also the exact same thing that a router does in any normal network and that doesn't means that all the machines behind the NAT is somehow without a real IP address, since as soon as they send any data through the NAT the NAT interface uses a real IP address to send the data, which is true for both the NAT in a router and the NAT in virtualbox
+
+An exploit which caused Tails to disclose it's IP address would only reveal Tails' (meaningless) private range address... and NOT the host's (your \"real\") IP address.
+
+If all the attacker did was run an ifconfig command to get the address then this would be true, but that would also be true for ifconfig run on any computer behind a NAT router which is pretty much all IPv4 computers at this point.
+
+And because of that no attacker on earth would be dump enough to rely on the address provided by ifconfig, when they can simply force a direct non-tor connection to their own server which would reveal the actual real IP address of their target.
+
+> You can also safely ignore the advertising in comment 1 ;)
+
+And I can safely say that you should not talk about things that you have no clue about, as it will cause confusion for people that actually believe a word of what you say.
+"""]]

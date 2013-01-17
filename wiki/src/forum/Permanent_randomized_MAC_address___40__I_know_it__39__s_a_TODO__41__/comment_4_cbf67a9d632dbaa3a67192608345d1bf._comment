@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-17T03:36:20Z"
+ content="""
+I can change the mac with ifconfig commands, however I cannot connect to any network after doing so.  I use the same commands with the same macchanger in other distros, such as Backtrack 5 and others, and it always works just fine, but not in this distro. I love using Tails, however this is the biggest con with it. I would love to look into the issue further and contribute to fixing it, however I lack the knowledge to do so. 
+"""]]

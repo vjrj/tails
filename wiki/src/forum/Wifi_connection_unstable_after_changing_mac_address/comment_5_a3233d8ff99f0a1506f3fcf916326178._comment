@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-16T19:27:05Z"
+ content="""
+> It is definatly a bug with Tails
+
+How to you know?
+
+> I consider this to be a big security hole.
+
+I still don't understand why you are so sure this is a genuine bug in Tails, but I agree that if the problem is that your ISP is mistakening your computer (after the MAC spoofing) for someone trying to hijack your account, then you are drawing unwanted and possibly hazardous attention to your ISP account.
+"""]]

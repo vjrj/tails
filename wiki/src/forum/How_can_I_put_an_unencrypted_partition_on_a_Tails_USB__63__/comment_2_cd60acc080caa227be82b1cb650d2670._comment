@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-17T09:48:14Z"
+ content="""
+It seems like it would be an easy way to move files to/from the system. I realize there are risks involved, but any files kept there would either be encrypted on their own (TrueCrypt or 7-Zip) or something I consider non-sensitive. What I'm currently doing is plugging in a second USB drive, but I find that a bit inconvenient for various reasons. 
+
+In any case, I'm very curious to know why this didn't work, just for the sake of understanding Tails better and perhaps avoiding some similar mistake.
+"""]]

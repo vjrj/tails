@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-15T20:29:26Z"
+ content="""
+Oops, I can say one more thing:
+
+> Does Tails store encryption pass-phrases, root password, or other passwords on RAM or on a temp file? 
+
+Any OS which is accessing an encrypted volume must store key material in RAM, I think.  This is not to say that a passphrase is itself stored; almost certainly, what is stored is a hashed password, or key material derived from the pass phrase.  But for on-the-fly decryption of an encrypted volume (LUKS), I think it is unavoidable that what is stored in RAM is sufficient for an attacker who finds and exfiltrates that key material to decrypt your entire volume at leisure if they can steal it or access your computer later when the drive is physically attached but not mounted.
+
+If you are running Tails from the Tails DVD, then of course anything you input for later recall, such as your root password if you entered one during Tails bootup, must be stored in RAM, but the password is no doubt stored hashed just like in an ordinary Debian stable system.  Looking at /etc/shadow, it seems that Tails 0.16 stores passwords as salted SHA-512 hashes.  And if you are using Tails with a bootable USB stick, I am pretty sure you can increase the number of rounds if you like.
+
+Third generation SHA has just be released, but it's probably wise to wait a bit to see if someone cryptanalyzes it.
+
+Two respected figures in the privacy world, Susan Landau and Matt Blaze, have just published a rather depressing essay in which they argue that, caught between two awful choices
+
+* permit the U.S. Congress (and other legislatures) to mandate backdoors in all encryption
+* permit \"the authorities\" to freely attack citizen computers just like the criminals do
+
+the second option is prefered.  (Sorry, cannot find the link.)  I believe we should all fight harder to put better options on the table.
+"""]]
