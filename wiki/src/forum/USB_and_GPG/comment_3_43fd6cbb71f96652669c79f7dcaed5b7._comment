@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-17T20:08:56Z"
+ content="""
+I have enabled \"persistence\" on my USB I just need to know when I create a New Key pair through the terminal with 
+
+-gpg --gen-key
+
+If that key is saved once I turn the computer off? 
+
+Or would I have to manually save it to a new folder I would have to create in my new \"persistent\" folder under /home/Persistent
+
+"""]]
