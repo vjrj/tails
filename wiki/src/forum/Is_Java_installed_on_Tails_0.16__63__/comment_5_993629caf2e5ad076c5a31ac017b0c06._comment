@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-19T19:00:46Z"
+ content="""
+> Is there a 'sudo' command to issue to find out the processes and services that are running in the background?
+
+Well if you are looking for a graphical task manager similar to the one you find in windows there is the gnome system monitor which actually comes preinstalled in Tails 0.16 and can be launched either through entering \"gnome-system-monitor\" in the command line or by launching it from its icon under the \"Applications --> System Tools\" menu.
+
+If you are looking for terminal task managers that are preinstalled you have \"top\" and \"ps\" which can both be used to list all of the processes running on the system, ps can also be used in conjunction with grep to make it easy to check if a particular process is running. The command (ps -A | grep \"java*\") will for example show if there is any java processes currently running on the system.
+"""]]
