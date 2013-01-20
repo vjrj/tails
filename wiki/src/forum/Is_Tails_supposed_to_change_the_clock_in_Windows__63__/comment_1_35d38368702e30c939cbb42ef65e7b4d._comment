@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-20T18:07:32Z"
+ content="""
+Tails is not supposed to do so, and when we tried to reproduce this potential bug a while ago, we did not manage to, so I don't know what to do.
+"""]]
