@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-01-21T08:34:30Z"
+ content="""
+I can't reproduce this. Again, there's *nothing* we can do with the information that was given unless someone affected [[sends a complete bug report|doc/first_steps/bug_reporting]].
+
+"""]]
