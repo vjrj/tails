@@ -4,7 +4,7 @@
 
 ##Silent installs of add-ons still possible in Firefox
 
-###Firefox logo A security researcher has demonstrated how it is still possible to silently install extensions, or as Mozilla calls them add-ons, for the open source Firefox web browser. In a blog post, Julian Sobrier of ZScaler detailed the process, which makes use of the fact that Firefox uses an Sqlite3 database to maintain information about which add-ons are installed and, of those, which ones have been approved by the user.
+###A security researcher has demonstrated how it is still possible to silently install extensions, or as Mozilla calls them add-ons, for the open source Firefox web browser. In a blog post, Julian Sobrier of ZScaler detailed the process, which makes use of the fact that Firefox uses an Sqlite3 database to maintain information about which add-ons are installed and, of those, which ones have been approved by the user.
 
 ###This feature, introduced in Firefox 8, was designed to stop toolbars and other applications adding in their own add-ons without informing the user. Sobrier's technique shows though that the mechanism is relatively easy to overcome. Add-ons have privileged access to the browser and therefore a malicious add-on could do anything including stealing the user's history, modifying pages' contents or disabling security features in the browser. The add-on doesn't have to be malicious either, just unexpected; back in 2009 Mozilla found itself blocking a silently installed Microsoft extension which happened to expose Firefox users to a .NET Framework flaw. Without a user knowing what is installed, it becomes hard to react to security threats when they appear.
 
