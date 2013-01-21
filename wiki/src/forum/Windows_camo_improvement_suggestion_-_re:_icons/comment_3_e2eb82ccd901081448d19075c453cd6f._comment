@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-21T14:44:40Z"
+ content="""
+> I think that the author was referring to the icons in the
+> system tray, not the desktop icons. The system tray icons are
+> the same as in a Linux GUI,
+
+In my experience, this is wrong. What specific system tray icon are you referring to?
+
+> which puts a big hole in the windows camouflage façade. Also,
+> I noticed that the Start menu was very different from actual
+> Windows. I think that the menu should be modified a bit to
+> resemble a Windows XP one.
+
+The design goals of the Windows Camouflage mode are not that ambitious.
+If someone wants to target higher goals, patches are welcome :)
+
+"""]]
