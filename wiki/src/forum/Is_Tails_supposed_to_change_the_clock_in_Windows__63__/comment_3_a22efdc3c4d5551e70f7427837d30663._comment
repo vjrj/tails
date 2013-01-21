@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-21T16:34:57Z"
+ content="""
+I happen to know that the system clock is set to the current time in UTC on all modern operating systems (including Tails, other Linuxes and Windows 7+).
+
+I also happen to know that on at least old Windowses like Windows 98 and earlier the system clock was set to the current time in your current timezone, so that the system clock was exactly the same as visible in the frontend.
+
+I also happen to know that Windows XP (or at least some version thereof) allows to choose which way to set the clock somewhere during the installation. You can also change this in the clock settings somewhere on a running system, iirc.
+
+Bottom line is that as long as Tails need to synchronize the clock to work properly, and does not attempt to reset it back to what is was before boot, it will either break modern OSes or old OSes, better breaking the old ones I guess :)
+"""]]
