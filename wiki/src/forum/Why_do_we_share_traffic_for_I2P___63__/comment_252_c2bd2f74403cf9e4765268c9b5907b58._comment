@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 252"
+ date="2013-01-22T20:03:09Z"
+ content="""
+Any PC or laptop is likely to have literally thousands of softwares, and when operating may keep literally thousands of files open.  It is not realistic to expect any individual developer, or any small group of developers, to have expert knowledge of all of them.  Clearly, developers have to do the best they can with the knowledge they possess or can easily acquire, and we users have to do the best we can with the tools which developers have made available.
+
+I happen to think it is appropriate to raise potential anonymity-degrading issues related to using Tails, but I also think one has to remember that the developers are only human, and yelling at them is entirely unhelpful to addressing any real issues (or obtaining explanations of why some pseudo-issue is nothing to worry about).
+
+> We as users now have to Question the competence of the Tails developers at keeping us secure with correctly configured applications and have to Question the integrity of the project if you are not capable of finding the information needed to change lines of a application configuration file , though Tails seems happy to keep sending users to RTFM when they don't even seem to be capable of doing so themselves.
+
+> If the developer of Liberté Linux is capable and technically competent enough to configure I2P to run in both hidden Mode and via Tor
+
+I have noticed quite a few comments in the forum which share the disparaging tone evident in the quote.  These kinds of comments can leave the unpleasant impression that someone is working hard to disrupt the forum and harm the future development of the Tails and Liberté projects, by such means as attempting to create \"bad blood\" between developers.
+
+Please remember that we know that several governments maintain well-funded facilities which employ large numbers of people trained in \"information actions\".  For example, the U.S. government employs thousands for this purpose in a facility on the U.S. East Coast.  I sometimes wonder if some of those thousands don't find they like the work so much that when they go home at the end of the day, they start up their PC, and on their own time, start trolling forums which promote things they dislike, out of a misguided sense of \"patriotism\", or for purely personal reasons.
+
+@ \"Tails\":
+
+Does it make sense to consider using i2p to anonymously contribute suggested additions to Tails documentation?  Or even suggested code?  If so, what are the pros and cons from the point of view of security/anonymity?
+
+Because of the fact that it will be obvious to \"the authorities\" that someone using i2p is using i2p, I feel that the potential legal problems are quite serious and also deserve discussion.  I agree that so far Tor relay operators have apparently not been prosecuted, but I am not so sure that \"the authorities\" will view sharing using i2p as \"presumably innocent\", and I am concerned by many recent legal initiatives in many countries once regarded as refuges from authoritarianism that simply using i2p may soon be very hazardous, even in many countries with \"elected governments\".  One of the key points to be aware of is that not only the \"intellectual property\" and \"computer crime\" laws (which may be little known or even secret, and often encourage prosecutorial over-reach) of a host country are relevant, but also international treaties, both ones which have been widely ratified and ones which are being secretly negotiated.
+
+One possible response by i2p and Tor users worldwide could be to form civil liberties organizations analogous to the EFF.
+"""]]
