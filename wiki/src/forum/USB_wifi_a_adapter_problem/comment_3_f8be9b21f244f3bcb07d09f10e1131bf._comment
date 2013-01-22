@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-18T16:30:54Z"
+ content="""
+This device is supposed to be [supported in Debian](https://wiki.debian.org/ath9k_htc),
+so please [[report a complete bug|doc/first_steps/bug_reporting]].
+
+"""]]

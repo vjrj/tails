@@ -1,0 +1,11 @@
+What do these errors mean?
+
+[Warning] Requested exit point '$FINGERPRINT' is not known. Closing.
+
+[Warning] Making tunnel to dirserver failed.
+
+-------------------------------------------
+
+Where $FINGERPRINT = requested exit point.
+
+Tails continnues to functione following these errors and I verified node data and the node does existe and is up and functioneing why for the errors appear what do it mean? Is someoen else controlling or attemptting to poisone my Tor session? MiTM?

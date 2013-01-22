@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-20T19:07:24Z"
+ content="""
+None of the points brought up in the article is false but the headline does seem to be a bit dramatic and misleadinfg, the article simply points out that keyloggers installed on hosts can possibly track keys typed in the VM, which is not exactly a huge revelation for anybody that understands how keyloggers work, and it is one of the things Tails itself warns against on their info page about running Tails in a wm.
+
+If you haven't yet I'd recommend that you read through Tails page on virtualization:
+<https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html>
+
+On it they outline many more possible security disadvantages that there are when running Tails in a vm as opposed to running it from a CD/USB device.
+
+So in other words it's true that there are disadvantages to running it in a VM over running it from a CD/USB device, but all of those disadvantages can be bypassed in some way if you are aware what the possible problems are.
+
+
+
+"""]]

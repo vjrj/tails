@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-19T19:11:05Z"
+ content="""
+ps -e will show all processes, but as Tails mentioned Java is disabled in the browser. That is the point of the articles mentioned - unless you need it for a certain (safe) site, Java should be disabled in the browser.
+
+
+"""]]

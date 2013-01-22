@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-18T16:45:57Z"
+ content="""
+You're probably affected by <http://bugs.debian.org/673042>.
+In general, yes, this is possible, but not supported.
+
+"""]]

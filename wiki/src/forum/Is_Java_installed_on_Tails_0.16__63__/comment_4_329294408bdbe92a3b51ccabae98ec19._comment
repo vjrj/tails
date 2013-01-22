@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-19T18:26:53Z"
+ content="""
+>so I'm not sure what you mean by \"disabling\"
+
+Let me provide an analogy.
+
+In Microsoft Windows Vista, 7 or 8, after you click on \"Task Manager\", you will get to see the processes or services that are running at that point in time.
+
+When Tails is running, do the processes or services of Java run in the background? Is there a 'sudo' command to issue to find out the processes and services that are running in the background?
+"""]]

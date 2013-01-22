@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-21T08:37:44Z"
+ content="""
+Unless Tor itself doesn't work fine, I would say it is a Vidalia bug only.
+Please report it to the Vidalia developers if they do not known about it yet,
+thanks :)
+"""]]
