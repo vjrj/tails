@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-22T17:06:28Z"
+ content="""
+>is there anyway around this?
+
+No. Even if there is a workaround, it is inadvisable to do so as Twitter and Facebook place plenty of cookies and tracking bugs on Tails system.
+"""]]
