@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 251"
+ date="2013-01-22T12:33:55Z"
+ content="""
+> (...) it's like Tails is using us as a test case and a experiment for the I2P project until someone gets prosecuted as a rely for relaying illegal encrypted traffic like a Tor exit node.
+
+While I agree with most of what you state in your comment I have to point out that nobody has ever been prosecuted for simply relaying encrypted data, Tor exit nodes does not simply relay encrypted data, they send it out onto the internet in plain text, that is what has gotten them in legal trouble in the past.
+
+Relaying encrypted data in I2P is much more comparable to running as a Tor Middle node, which simply sends encrypted data from one node to the other, and Middle nodes as far as I know has never gotten in legal trouble before while being operated in any country where encrypted communication is legal.
+"""]]
