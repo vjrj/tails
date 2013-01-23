@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 253"
+ date="2013-01-23T00:00:38Z"
+ content="""
+@ comment 251
+
+How do you think a user can download a file unless a Tails I2P user acts as a exit node and relays the file to them ???
+
+Relaying the file to them in encrypted format is no different than a Tor exit node connecting to a webpage via HTTPS.
+
+
+"""]]
