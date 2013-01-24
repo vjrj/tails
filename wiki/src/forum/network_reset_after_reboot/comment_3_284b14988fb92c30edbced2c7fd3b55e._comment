@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-24T10:17:56Z"
+ content="""
+If I understand it clearly, what you're experiencing is not a *reboot*, but apparently you are killing the GNOME session somehow and seeing GDM / tails-greeter reappear and allow you to login again. The behaviour of Tails in out-of-memory conditions in undefined, and you should not assume Tails should work normally in such cases, so I suggest rebooting for real.
+
+"""]]
