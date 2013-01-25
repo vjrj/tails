@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2013-01-25T06:22:53Z"
+ content="""
+Boy, I messed that formatting up. Let me try again. Sorry.
+
+    sudo apt-get update
+    sudo apt-get install wicd
+    ps aux
+    sudo kill [insert process id number of network manager]
+
+Then simply start wicd via the application menu.
+"""]]
