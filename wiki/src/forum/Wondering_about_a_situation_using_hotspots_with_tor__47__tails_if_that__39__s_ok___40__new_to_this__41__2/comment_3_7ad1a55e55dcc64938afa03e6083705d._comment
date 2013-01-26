@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Some generic advice"
+ date="2013-01-26T22:16:40Z"
+ content="""
+@ OP:
+
+Rule number one: proceed with caution, particularly if you don't yet know what you are doing.
+
+Rule number two: if you think you know what you are doing, you probably don't, so return to Rule number one.
+
+It sounds like you recognize that you don't yet know enough to stay safe on-line.  A series of recent news stories suggests the situation is actually much worse: not only do most users not know enough to stay safe on line, but neither do most *developers*.  The problems we all face are just too complicated for all but a very few to really understand sufficiently well.
+
+What to do?  Resolve to learn as much as you can about the dangers you may face on-line, and how (by unfortunately convoluted maneuvering) you may be able to lessen some of them.
+
+> Make an email address without using your name (maybe use tor while making email address?) using tor/tails to send the email. Would that be safe since its got no id and tor/tails takes care of the ip?
+
+You have missed several problems here.  I can't figure out how to send \"anonymous\" email either (and urge you to mistrust anyone who says this is easy), but the general idea appears to involve using a Tor protected connection to several websites which offers \"free temporary emails\" (where you can \"anonymously\" receive but usually not send emails) to register a sequence of accounts until you can \"bootstrap\" to an account from which you can actually *send* mail, using a re-mailer.  But it seems that no re-mailer has been developed actively for some years, and the best known is suspect because its inventor has joined the Dark Side.
+
+> Also would being on an unsecured or public network (library or fast food hotspot maybe?) be better or should you do it only on your personal network if you got one or does it matter much?
+
+I suppose it depends upon what you have in mind, but if you simply want to try to visit websites and retrieve files \"anonymously\" using http protocol (but probably not using torrenting protocols), your chances of success are better if you avoid public access points.
+
+> Also does what browser and [operating system] you use matter?
+
+Well, if you use Tails you are using a version of Iceweasel (itself functionally equivalent to Firefox) which has been specially modified to enhance your chances of staying anonymous while browsing.  And Tails is based upon Debian stable, a variety of Linux which is generally well regarded for offering both good security and convenience.  So the short answer is \"yes\".
+
+> Also does what ... computer you use matter?
+
+If you are asking about hardware, then yes, whether you are using a smart phone or a laptop, and what kind of router you are using to connect to the internet, do matter.  For example there have been many stories in the past few years about major security failures by major vendors of routers like Cisco (which has apparently given up on consumer routers and is trying to sell that part of its business), and also about secret backdoors inserted by the manufacturers themselves, which in general cannot be disabled even by users who know about them. This is a real problem because the default passwords to the \"secret\" accounts always become known to the bad guys (indeed, sometimes the bad guys are governments who demand that manufacturers insert backdoors).  If your router has been rooted, it is likely that Tails cannot help you maintain anonymity.  And some of us feel we have reason to think this is much more common than almost anyone is willing to believe.
+"""]]
