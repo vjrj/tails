@@ -1,0 +1,1 @@
+New to tails, got it all running but it doesn't seem to recognize my RT3070 USB adapter. I can see it in ifconfig and lsusb but the network manager stills shows it as "wireless is disabled"
