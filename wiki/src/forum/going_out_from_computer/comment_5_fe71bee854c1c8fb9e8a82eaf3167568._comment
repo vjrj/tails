@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-26T21:53:50Z"
+ content="""
+We are not talking about a theoretical possibility, but one which is said to be routinely encountered by travelers, dissident bloggers, and others subjected to (often clandestine, sometimes illegal) searches by \"the authorities\".
+
+There exist commercial devices (widely deployed on at least four continents) which are specifically designed to mount attacks exploiting Firewire's direct memory access (DMA) capability in order to image the RAM of a sleeping laptop, which enables the attackers to recover the keys for full-disk Truecrypt encryption of the hard-drive, Serpent keys (for a recently encrypted file), AES keys (for encrypted emails or other files), and similar goodies.  That's as good as learning all your passphrases.  
+
+Take-home lesson: there is probably no point in using Tails at all unless you reboot between activities, and keep your laptop shut down (not hibernating or sleeping) whenever it leaves your sight even momentarily, particularly in public.
+"""]]
