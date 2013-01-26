@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="i know"
+ date="2013-01-24T09:08:06Z"
+ content="""
+\"Tails is amnesic\"
+yes i know.
+
+I mean: 
+When i start Tails network is enabled and working \"out of the box\"-when router is online(-:.
+If i'am surfing on old computer with lower memory on a site with bigger pictures (with or without hazardous content i don't know) browser/system freeze totally,hangs or crash.
+After hang i can end browser sometimes and work on.After browsercrash system crashs too.Now i may get the shell after some like heavy ctrl-c
+plus kill command,Tails is warm-rebooting with instantly 'Forward'-window to login.
+Or browser crashs and automatic warm-rebooting with instantly 'Forward'-window to login.
+
+Have not all these situations in memory -work on some PCs with dífferent configurations- but on one of these, old PC,High-Res pictures&browsercrashing,automatic warm-rebooting with instantly 'Forward'-window to login, i set a new password, Gnome surface loads with all loaded before in 'Desktop'directory(good boy!).
+But must set new network settings in Network Connection window.Network is not working \"out of the box\".And top-bar icons are little bit scrambled.
+"""]]

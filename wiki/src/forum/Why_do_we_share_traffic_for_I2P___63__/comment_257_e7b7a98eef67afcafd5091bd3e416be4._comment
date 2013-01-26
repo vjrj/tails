@@ -1,0 +1,44 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 257"
+ date="2013-01-23T13:26:15Z"
+ content="""
+@ comment 249:
+
+> We as users now have to Question the competence of the Tails developers at keeping us secure with correctly configured applications and have to Question the integrity of the project if you are not capable of finding the information needed to change lines of a application configuration file , though Tails seems happy to keep sending users to RTFM when they don't even seem to be capable of doing so themselves.
+
+The configuration change has been implemented (see the [[ticket|todo/i2p_hidden_mode]]).
+
+It was never a question of it being difficult, but rather a question of priorities (since no good technical argument for it being a security issue has been presented, it got low priority). Us asking users to contribute a fix has nothing to do with us not having the required expertise for doing it ourselves (certainly not in this case at least). We regularly try to get users involved with such suggestions to get more contributors, and hence a more community driven project.
+
+@ comment 250
+> apparently a tails user had to setup minitube for them so it doesn't look good does it.
+
+You're under the illusion that we have infinite resources (e.g. development time). Aslo see my answer to comment 249 above in this post. How is getting the Tails community involved in its development something bad?
+
+@ comment 252:
+> Does it make sense to consider using i2p to anonymously contribute suggested additions to Tails documentation? Or even suggested code? If so, what are the pros and cons from the point of view of security/anonymity?
+
+Sure. I think using some I2P based email (with outproxy, i.e. capability to send email to the \"normal\" clearnet, like [Postman HQ](http://hq.postman.i2p/?page_id=14)) and subscribing to [tails-dev](https://mailman.boum.org/listinfo/tails-dev/) is your best shot. However, since this essentially is the same as using any email over Tor I'd recommend using Tor instead simply since it's more well-tested and well-researched. I2P is better used when dealing exclusively with resources located inside the I2P dark net, not when using outproxies.
+
+@ comment 253:
+> How do you think a user can download a file unless a Tails I2P user acts as a exit node and relays the file to them ???
+> Relaying the file to them in encrypted format is no different than a Tor exit node connecting to a webpage via HTTPS.
+
+No. It's much more similar to connecting to a Tor hidden service, which doesn't involved any Tor Exit nodes.
+
+@ comment 255:
+
+> Tor stops a users Ip address being exposed to a Website by using Nodes.
+
+As does I2P.
+
+> I2P stops a Website ip address being exposed to a user by using I2P users as relay nodes and makes no attempt to hide the last person in the chain relaying the encrypted file to the downloader.
+
+The \"last person in the chain\" is not exposed to the I2P client. Please read about I2P's use of inbound and outbound tunnels. It's practically the same as how Tor deals with hidden services.
+
+> So a Law enforcer may not know the source of the original website but it does know who has relayed the encrypted data to them as a relay and illegal files do not become legal just because they was encrypted.
+
+This also applies to Tor relays. I guess the Tor network is screwed...
+"""]]

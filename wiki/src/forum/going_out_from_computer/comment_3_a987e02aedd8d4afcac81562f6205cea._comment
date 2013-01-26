@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-25T11:46:51Z"
+ content="""
+The planned solution is [[todo/screen locker]]. About firewire attacks, see [[todo/protect against external bus memory forensics]].
+"""]]
