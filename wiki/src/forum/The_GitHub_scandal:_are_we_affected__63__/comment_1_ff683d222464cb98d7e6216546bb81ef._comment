@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-26T22:55:45Z"
+ content="""
+>(The Phalanx family of Trojans is said to attack the Linux 2.6 family of kernels; Tails apparently uses the more recent 3.3 kernel, but I would not be surprised if Phalanx has been updated too.)
+
+Hear, hear. Fans of Linux have been telling me how secure Linux is compared to Microsoft Windows: that it is impervious to trojans, malware, viruses, that it is unnecessary to install an antivirus software for Linux OS.
+
+Thanks, OP, for letting us know about the existence of the Phalanx family of trojans specifically designed to target Linux kernels.
+"""]]
