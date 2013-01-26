@@ -1,0 +1,53 @@
+Question for "Tails": 
+
+* Are Tor, Tails, or TBB directly affected by the recently revealed GitHub scandal regarding secret keys uploaded to GitHub and publicly searchable?  In particular, were credentials related to any debs incorporated into Tor, Tails, or TBB affected?
+
+Question for Linux kernel developers:
+
+* Were the credentials of anyone involved in development of the Linux kernel compromised?
+
+Background for anyone who doesn't know what I am talking about:
+
+Tails is based on Debian Linux, and therefore the security of Tails is ultimately no greater than the security of the adopted Linux kernel, in particular.  But concern has been expressed that state sponsored attackers have shown greatly increased interest in subverting Linux.  There were calls for security audits, but these concerns were dismissed by Linux developers.  Following an all too familiar pattern, headline stories in the techie newsletters soon bore out the validity of the previously dismissed concerns.  To mention only the best known incidents:
+
+* In May 2008, it was discovered that the random number generator used by Debian Linux contained fatal flaws, which implied among other horrors that keys generated for the remote administration of servers running Linux via OpenSSL "protected" connections were absurdly easy to crack by any attacker who knew about the flaw:
+
+     http://www.theregister.co.uk/2008/05/21/massive_debian_openssl_hangover/
+
+> Certificates for defective keys will have to be revoked, new keys will have to be generated and, in the case of SSL certificates, registered with VeriSign or another certificate authority. No one knows how many keys need to be replaced, but it could number in the hundreds of thousands or millions. The keys are used for Secure Sockets Layer (SSL) transactions, which authenticate servers handling trusted websites and email, and to authenticate Secure Shell (SSH), which provides encrypted channels between sensitive computers.
+
+(Fortunately, gpg uses its own generator and was not affected.)
+
+* By August 2008, crackers were said to exploiting this flaw to attack Linux servers, by allegedly rooting the servers and installing the Phalanx trojan, which then captured usernames and keys of developers logging into their developer accounts; see
+
+      http://www.theregister.co.uk/2008/08/27/ssh_key_attacks_warning/
+
+> Once a Linux server using a weak key is identified and rooted, it quickly gives up the keys it uses to connect to other servers. Even if these new keys aren't vulnerable to the Debian debacle, attackers can potentially use them to access the servers that use them if both the private and public parts of the key are included.
+
+(The Phalanx family of Trojans is said to attack the Linux 2.6 family of kernels; Tails apparently uses the more recent 3.3 kernel, but I would not be surprised if Phalanx has been updated too.)
+
+* A far more sophisticated intrusion into kernel.org and other key Linux sites occurred some time before 12 August 2011, and was not discovered for at least 17 days; see
+
+      http://www.theregister.co.uk/2011/08/31/linux_kernel_security_breach/
+
+> a trojan was found on the personal machine of kernel developer H Peter Anvin and later on the kernel.org servers known as Hera and Odin1. A secure shell client used to remotely access servers was modified, and passwords and user interactions were logged during the compromise.
+
+In response, Linux inventor Linus Torvalds moved Linux kernel development to GitHub; see
+
+     http:/www.theregister.co.uk/2011/09/06linus_torvalds_dumps_kernel_for_github/
+
+And now comes this shocker:
+
+     https://threatpost.com/en_us/blogs/github-search-down-after-some-credentials-and-crypto-keys-exposed-012513
+     http://arstechnica.com/security/2013/01/psa-dont-upload-your-important-passwords-to-github/
+     https://www.securityweek.com/github-search-makes-easy-discovery-encryption-keys-passwords-source-code
+
+>  a Twitter user reported finding a SSH password for a major Chinese website’s production server. Soon, a number of searches for RSA keys, SSH passwords and other credentials were circulating on Twitter. The search tool enables users to look into other code repositories stored on the site; some developers apparently were sending private credentials into public files that are searchable. 
+
+(Rumor has it that the "major Chinese website" is Baidu.)
+
+> Users found that quite a large number of users who had added private keys to their repositories and then pushed the files up to GitHub. Searching on id_rsa, a file which contains the private key for SSH logins, returned over 600 results...there were plenty of cases where developers had hardcoded passwords for privileged user accounts, such as root, sa, and admin.
+
+> [Twitter] was awash with messages linking to passwords and private cryptographic keys that are publicly accessible... their exposure compromises the entire security that users attempted to establish when they generated the keys in the first place.
+
+If I am not mistaken, the Tor Project and allied projects use GitHub extensively for collaborative development (someone please correct me if I am wrong).  Certainly the developer of Whonix, an important project related to Tails, maintains a GitHub account.
