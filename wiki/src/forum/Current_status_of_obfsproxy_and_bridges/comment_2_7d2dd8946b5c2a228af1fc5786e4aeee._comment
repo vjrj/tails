@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-26T14:29:14Z"
+ content="""
+I don't have any problem with adding bridges with port 443, 80, 9001, but this new obsfproxy never worked for me, if I type bridge at boot and if I include only obsfproxy, it will not connect. so, I add the both obfsproxy and 443.
+"""]]
