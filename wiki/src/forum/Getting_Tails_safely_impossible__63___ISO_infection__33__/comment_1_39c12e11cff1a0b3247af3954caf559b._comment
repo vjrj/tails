@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-15T18:14:22Z"
+ content="""
+>At the moment users are implicitly told to use their insecure operating system.
+
+>How can a compromised operating system safely download and burn Tails?
+
+>Once the operating system is backdoor infected the attacker can visually replace the Tails hash in the browser or replace the signature. The iso could also get infected after it was downloaded and checked.
+
+>The cd could also get infected while burning.
+
+OP, thanks for raising the above points.
+
+I have only elementary IT skills but I will try to answer your points.
+
+For me, I download Tails using a computer that I trust to be free of viruses/malware/Trojan horses etc. In this case, it is my own computer.
+
+The moment Microsoft Windows has been successfully installed, I install a commercially well-known antivirus/malware/spyware cum firewall software.
+
+Moreover once a week, I will use a liveUSB containing SERT (Symantec Endpoint Recovery Tool) to scan my PC for viruses/rootkits/malware/spyware etc... You may wish to use Google to find out what SERT is capable of doing.
+
+So, OP, am I doing it right?
+
+I must emphasize that I will never use a public computer such as the one in internet cafes or my friend's PC to download Tails.
+
+
+"""]]

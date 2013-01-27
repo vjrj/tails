@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-10T21:28:38Z"
+ content="""
+This looks like hardware-related. Can you reproduce this with the same Tails system, on another computer?
+
+Also, how much RAM has the computer that exposes this issue?
+
+"""]]

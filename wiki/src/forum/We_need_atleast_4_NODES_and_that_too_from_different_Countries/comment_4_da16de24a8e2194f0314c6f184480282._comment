@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-29T19:06:39Z"
+ content="""
+for request #2: a quote from the design document
+
+>Stuff we don't want to actively support making persistent: web browser addons
+>(while we don't want to make it impossible to install addons, we think it's a really bad idea, and won't actively support it, since it partitions the Tails users anonymity set, thus having bad consequences both on people who do it and on others)
+
+so it looks like it won't happen. what addons do you wish to use?
+"""]]

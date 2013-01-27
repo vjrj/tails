@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 234"
+ date="2012-12-08T00:07:54Z"
+ content="""
+>Unless something has changed in the latest edition of Tails, as I understand it, the Tails user has to choose to start up an i2p server, and if he or she doesn't choose to do that, nothing related to i2p will be running. (\"Tails\", is that correct?)
+
+That is correct but no one has said that I2P is running when Tails is running.
+
+What has been said is when a person starts I2P that Tails has it running so that users start up as a I2P server instead of them being a just a client user like Tor so their computer is being used by other I2P users to transfer any type of files that they wish without most Tails users knowing as most are ignorant about I2P as pointed out in the op new users can just click around the menus and start it with a click.
+
+So it's no different than Tails choosing to start Tor users as exit nodes and expecting them find out days ,weeks or months later as most would assume that an anonymous system to go out of their way to hide a users home ip address in the same way they go out of there way to remove any identifiable information in tor such as digital finger printing and so on.
+
+People have said that users concerns have been addressed and debunked but this is simply not true as posts 212 and 214 have pointed out a gaping design flaw in I2P that can never be fixed or plugged to the point that it makes a anonymous peer to peer system a joke.
+
+A government body knows what files it is downloading so as said it doesn't matter how many times it was encrypted before the government body downloads it 
+
+The only way the government body can get the file is if other I2P users send them that file so the government body knows the computer address of the random I2P users sending them that data and some of those random users will be Tails users so again it doesn't matter how many other users the data it was hidden behind before the random I2P user hand the data over to the government body.
+
+And yes i'm afraid both Tails and the I2P developer are using technological propaganda to try and mislead Tails users so they can keep the I2P project alive at the expense of the Tails users as they are using a arse up logic and a fake terminology trying to make out those random I2P users exiting data out of the I2P system straight to the government body are acting as entry middle nodes when they are in fact acting as exit nodes like Tor.
+
+You can't be last in the chain that hands the data to the recipient and be the enter point or anything near the middle as you are not hidden behind anybody.
+
+posts 212 and 214 are a 100% accurate fact of how random I2P users are not anonymous and and are acting as exit nodes and the Tails team trying to publicly denounce this flaw in post 218 as \"complete nonsense\" should raise alarm bells with anybody using tails.
+
+Would you expect the developers of Tor to publicly denounce that the person running a Tor Exit node is liable to be raided or prosecuted as \"complete nonsense\" and that anybody pointing out this problem needs to support this claim.
+
+That would be just ridiculous when everybody knows that this is the case that doesn't need to be supported and why as Tor users we chose to be just a hidden client user or a tor server exit node. 
+
+   
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2013-01-08T18:40:07Z"
+ content="""
+> Have the Tails developers been in contact with the Tor-ramdisk developers?
+
+I can't talk for others, but I have not.
+
+> That project does sound interesting but combining Tails and Tor-ramdisk is well beyond my abilities.
+
+The two projects' scope look quite clearly orthogonal to each other, so I'm not sure what would be gained by combining them. Please clarify? :)
+
+"""]]

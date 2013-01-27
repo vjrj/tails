@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-05T20:43:09Z"
+ content="""
+First of all this \"Denial of Service Attack\" is literally over a decade old and it's not exactly much of a threat to Tails users because it has to be run manually by the user, it could theoretically be executed by a remote attacker but if you have a remote attacker that is capable of running commands on your system then you have much bigger things to worry about that having him simply freeze the machine.
+
+Also this is not an \"attack\" specific to Tails it's simply a Linux command doing exactly what you asked it to do, opening an infinite amount of processes.
+
+There's a reason why this \"attack\" still works when such an easy \"fix\" is around, namely that the \"attack\" is pretty harmless and the \"fix\" would affect normal users negatively by limiting the ability to run as many processes as they normally could, and could create unforeseen bugs.
+
+So to summarize, I'm against this \"fix\" being integrated into Tails, or any other Linux distro for that matter.
+"""]]

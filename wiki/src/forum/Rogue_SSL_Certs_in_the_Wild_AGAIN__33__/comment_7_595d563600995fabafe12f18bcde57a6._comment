@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-07T19:45:58Z"
+ content="""
+It's worth noting that the problem here isn't a problem with Tails, or any CA Auth... The problem is simply that **the whole SSL/CA system is stupid by design**
+
+While Tails, Mozilla, Google, Opera, etc must (of course) jump to close all these little \"accidents\" ***as soon as they are disclosed*** it's the whole concept that's woefully naïve and unfit for purpose... and this remains the case even ***between*** débâcles.
+
+Beware
+"""]]
