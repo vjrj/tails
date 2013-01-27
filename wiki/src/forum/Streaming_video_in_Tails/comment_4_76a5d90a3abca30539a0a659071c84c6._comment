@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Totem Movie Player and DownloadHelper"
+ date="2012-01-05T07:05:45Z"
+ content="""
+>Gnash has been considered but it's not yet supported,
+
+I don't know why you are even considering Gnash. It works with old versions of Flash, right?
+
+Totem Movie Player can play any Flash file or stream with the required plugins. Download them with DownloadHelper or play them with FlashVideoReplacer. FVR works with YouTube. DownloadHelper works with more sites than FVR. **The file can be played while it is downloading.** When you have the file you can skip through it without rebuffering (FVR doesn't always let you do this esp if you play it to the end). DownThemAll lets you control bandwidth and how many streams you want to download at once (the rest are queued). Use alt-tab to get to the file manager and sort by modification date so that new ones appear next to the last one you played and you can switch from the web browser to the file manager and play them with a few keystrokes. This is more complicated than using an embedded player but it gives you more control once you get used to it. DownloadHelper supports more than half of the Flash video sites I've been to.
+
+FVR has the option of using an embedded player.
+
+These would also seem more secure than streaming through the web browser with Flash.
+
+
+"""]]

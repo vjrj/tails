@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-21T08:02:00Z"
+ content="""
+Could you please set an administrative password and issue the following commands in Tails:
+
+    sudo hwclock --show
+    date
+
+As Windows keep the system clock adjusted to the local time, the time displayed should be your local time; and the two dates should be different.
+"""]]

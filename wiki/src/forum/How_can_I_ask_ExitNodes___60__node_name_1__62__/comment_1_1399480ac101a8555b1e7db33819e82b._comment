@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Unsupported"
+ date="2012-01-13T12:53:49Z"
+ content="""
+This is not supported yet. However, at your own risks, you may want to try adding this to `/etc/tor/torrc`.
+
+"""]]

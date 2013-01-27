@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-01-09T18:00:43Z"
+ content="""
+> Note that the times in the consensus are UTC = GMT time. Or did you take this into account?
+
+Yes, there was a problem with too many offline directory servers over the weekend, so consensus was off by ~17 hrs at the extremum. arma saved the day in the end. Not sure if this affected some users or not.
+"""]]

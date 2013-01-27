@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2011-10-18T10:07:23Z"
+ content="""
+> On the other hand, (B) is no magic wand, and does not protect against the general case when an application gets to learn and transmit the local IP address in ways other than merely because it's bound to it
+
+Indeed. If I recall correctly, a notable example of this *was* Mozilla Thunderbird/Icedove. Unless you set mail.smtpserver.default.hello_argument to something, Icedove would set the HELO/EHLO argument to the IP address of the NIC even if you had a SOCKS proxy set. I believe this was fixed sometime during the 3.x series.
+"""]]

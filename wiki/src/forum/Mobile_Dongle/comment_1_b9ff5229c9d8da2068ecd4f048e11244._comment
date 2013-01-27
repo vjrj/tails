@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Need more info"
+ date="2011-12-25T11:08:58Z"
+ content="""
+Hi. Please run the following command and paste its output here:
+
+`cat /sys/bus/usb/devices/*/{idVendor,idProduct,manufacturer,product}`
+
+It will tell us exactly what (internal and external) USB devices are plugged-in.
+Make sure you plug only your mobile dongle in order not to leak too much information.
+
+"""]]

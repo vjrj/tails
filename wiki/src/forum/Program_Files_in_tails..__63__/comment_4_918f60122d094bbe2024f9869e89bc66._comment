@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-02T00:12:11Z"
+ content="""
+12.1 with root password set, no mounting.
+
+I can get the log...
+
+but I still don't know the answer, is this supposed to happen or not? Is Tails supposed to pick up/load/read program files from the computer, as in the regular non-tails part of the computer. I can access programs from my computer, using tails.
+"""]]

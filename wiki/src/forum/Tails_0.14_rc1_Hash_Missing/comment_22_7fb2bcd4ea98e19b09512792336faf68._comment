@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 22"
+ date="2012-10-19T02:03:15Z"
+ content="""
+>>while the necessity is virtually absent
+
+>How can you say that right after you said,
+
+>>many people here just can't seem to \"get it\"...
+
+\"the necessity is *virtually* absent\" *for mainstream distros* as the vast majority of the users probably don't give a stuff anyway and will head strait off to getdeb, tucows or wherever ;o)
+
+>thereby implying that you do indeed accept the exhortations that have been repeatedly posted that properly verifying a digital signature is the only way to ensure the authenticity of a download?
+
+the *most secure* way to ensure the authenticity of a download. there are inferior methods of course but what would be the point of those
+
+>In fact, given how relatively easy it would appear to be inflict unknowing, unsuspecting individuals with trojan ISO replacements, I wonder why we don't hear of just that occurring regularly.
+
+you'd have to compromise the users network link at the time they decide to download that ISO. not a trivial thing to do and given the plethora of distros, relatively low total linux usage and corresponding scarcity of such download events, your average link pwning script kiddy might feel their time would be better spent phishing for ebanking logins, email/facebook credentials etc than hoping you're about to download an .iso?
+
+>Also, MANY distros still provide only md5sums for \"verification\".
+
+Be careful not to confuse download corruption detection and cryptographic verification.
+
+>Yet, the TAILS web site does provide a sha256sum for each final release of TAILS.
+
+>I suppose the rationale is that anyone knowledgable/adept/savvy enough to be testing a pre-release version of TAILS, would surely be knowledgable/adept/savvy enough to be comfortable using GPG to verify an ISO and recognize the importance of doing so?
+
+Sounds reasonable. While for the \"for the masses\" release they publish both to keep this sort of fuss down, while taking [every opportunity](https://tails.boum.org/download/index.en.html#verify) to explain [the right way to do it](https://tails.boum.org/doc/get/trusting_tails_signing_key/index.en.html).
+"""]]

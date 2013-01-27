@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-11-08T01:08:26Z"
+ content="""
+>I'd still like a Tails dev to say what's the safest option for anonymity - 0.13 (old Tor) or a 0.14 that could be broken i n some way and you'll be told afterwards it was for testing only (see comment 6). Seems very odd to be using an old Tor though....
+
+Hmmm... I can understand your sentiment completely. Sort of misses the point though:
+
+It's a \"testing\" \"rc\" because the devs don't know! They can't offer any endorsement until the the testing phase of the development process has been completed. Meanwhile, yes, there are inevitably known (and no doubt unknown) vulns in the \"stable\" Debian/Tor stack... but the security channels are closely monitored and if anything *really serious* is discovered it's immediately publicised via this website and via the status check mechanism each new Tails session uses the moment it's first connected to the net.
+
+So what should you do? Trust the crusty old but not publicly known to be critically broken \"stable\" version, or chance your arm by *helping to find any errors or faults* in the shiny new *testing* version? Bearing in mind that the whole Tor project is an alpha/beta quality experiment which \"**should not be relied upon for strong anonymity**\" anyway, this is a somewhat moot question, but my money, for dependability, would be squarely on \"stable\". 
+
+You pays you money (or not!) and takes your choice. ;o)
+"""]]

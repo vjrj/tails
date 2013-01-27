@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="loads but has a conflict with the ROM"
+ date="2011-12-13T08:19:53Z"
+ content="""
+white, light blue, and blue bar with debian 6.0.3 at bottom before it pauses.  When it runs after Boot: message flashes that there is a conflict with ROM.  Have heard it could be BIOS or possibly graphics related as well.
+
+attempted several times with USB as well using the refit program and just got looped restarts with that.  switched to disc and then would recopy to USB, but unable to get the CD to load.
+
+The refit fix outlined with regard to updating firmware was null for my hardware.
+
+What I really don't understand is how my bluetooth keyboard and mouse sometimes work once i've loaded the OS from Disc.  I would think these would be disabled.  
+
+Spent a long evening attempting to get this running.
+"""]]

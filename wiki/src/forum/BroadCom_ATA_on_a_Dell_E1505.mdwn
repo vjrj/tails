@@ -1,0 +1,3 @@
+To get wireless to fire up it was necessary to install the BroadCom ATA drivers. Wireless does not work with Tails Live CD .9. There are some possible reasons. 1) The wireless drivers do not work or 2) because the router has MAC address filtering enabled or 3) something else.
+
+Any suggestions? Thanks.

@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 20"
+ date="2012-02-15T08:32:15Z"
+ content="""
+> clock syncs 5 hours ahead of timezone with tails 10.1
+
+Tails sets time to UTC in order to make the anonymity set bigger in case it would leak. 
+
+> however, hidden services still function at this incorrect time.
+
+Is this time incorrect **UTC** time? 
+
+> safe to use? 
+
+Yes.
+"""]]

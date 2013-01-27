@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-31T20:46:25Z"
+ content="""
+thanks tails!!
+
+but...im just confused...
+
+im running the latest tails...which says im running tor 0.2.2.33-1....but the latest tor is 0.2.2.34-1????????
+
+so you are saying that latest bug only applies to the browser bundle? but ive checked all the other packages,right up until the expert package and they are all version 0.2.2.34-1..which is above the one im currently running on tails..
+
+cheers
+"""]]

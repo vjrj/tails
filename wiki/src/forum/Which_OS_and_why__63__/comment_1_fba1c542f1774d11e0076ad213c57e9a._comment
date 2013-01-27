@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-22T23:31:02Z"
+ content="""
+tails and privatix seem similar. Both are based on debian and use tor for anonymous internet. Liberte is based on gentoo I think, but also automatically runs tor.
+
+I am not certain but I get the impression that the ubuntu privacy version is more bout using encryption tools rather than automatic torified internet. It  is also obbiously based on ubuntu.
+
+As a novice you should be asking yourself what you want to gain by using a security enhanced linux. What kind of tasks do you want to achieve while using it? Alot of standard stuff you do on a regular desktop may not be possible while using applications such as TOR or the included security enhanced browsers (torrents, streaming porn).
+
+For me, the benefit of tails are 
+-regular maintaining and quick responses from the devs to both technical and simple questions
+-there's a solid plan for development
+-it's pre configured and aimed at \"live\" use (from CD or USB)
+-it's the only one that is recommended directly by the TOR project's website
+-it's pre-configured to run TOR
+-there's documentation available and it's not rediculously complex
+-it is designed specifically with newbies in mind
+
+
+The main lacking feature in tails is persistency - a secure way to retain things like bookmarks and application settings. This is a planned feature for the next release though. Also, there is currently no simple method to access the internet other than through TOR, so signing up to open wifi spots is not possible yet (this is available in liberte linux I believe) - but agian I think that the feature is planned but maybe not the next release.
+
+Make a list of what you need to do and what protections you want. Try liberte, privatix and tails and see which one works best. Read their reviews and learn about the privacy tools that are included (TOR, pgp etc.).
+
+I think that tails was best for me, but I did not try them all. The features that I want in tails that are currently lacking should be on the way son and as I am happy with everything else I don't see a need to change.
+"""]]

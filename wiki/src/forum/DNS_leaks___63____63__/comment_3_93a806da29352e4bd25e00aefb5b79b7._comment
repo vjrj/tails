@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-13T13:19:25Z"
+ content="""
+@2 & 3: Scroll down to security on the following link. Other weaknesses of Tails security are also mentioned:
+
+http://sourceforge.net/p/whonix/wiki/Comparison%20with%20Others/
+
+**Security**
+                                        Whonix          Tails           TBB
+
+IP/DNS protocol leak protection 	Full ^1^ 	Depends ^5^ 	Depends ^5^
+
+^5^ See first example of Whonix security in real world. When applications in Tails are configured wrong, due to a bug in Tails or the application, IP can leak. Quoted from the Tails Security Page: \"Until an audit of the bundled network applications is done, information leakages at the protocol level should be considered as − at the very least − possible.\"
+
+
+
+
+"""]]

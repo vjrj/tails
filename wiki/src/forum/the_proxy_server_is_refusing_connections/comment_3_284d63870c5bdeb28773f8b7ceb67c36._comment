@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="network adapter issues"
+ date="2012-01-13T23:02:31Z"
+ content="""
+Well, to me it seems that tails might not be that compatible with network adapters. While using tails on windows vista pc with intel network adapter, it can up to 10min to find any networks to connect to in networkmanager. Sometimes it would take up to 10min to start tor once I was connected to a network. It would take 10min for the onion icon to show up. 
+
+On my laptop which contains much newer hardware, networkmanager can find networks to connect to in a second. Takes about 30 sec for the onion icon to appear in the system tray. Like I said again, to me this suggests that tails isn't compatiable with some network adapters. The windows vista computer is at least 3 years old so that could explain why.
+"""]]

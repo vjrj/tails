@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-11-22T00:15:48Z"
+ content="""
+>>It's just Tor. Probably your client updating its node list.
+
+>Wouldn't that occur every time Tails was used for any amount of time? I cannot recall what I described happening (constant phantom net traffic for at least several full minutes that only stopped when I turned off the router) during any of my many previous times using Tails. (I always keep an eye on my router)
+
+I wouldn't expect it to take \"several full minutes\" on a good connection, even with establishing a new set of circuits afterwards. 
+
+>>my next guess would be a neighbour \"having a go\" with Kismet, etc.
+
+>But with so much low-hanging WEP fruit around, I wonder why anyone would bother trying to crack my WPA2 connection.
+
+>(Perhaps just for the challenge, to see how far they can get with cracking WPA2? Or perhaps in the hopes that my connection would be faster than any of the WEPs in the vicinity?)
+
+Quite... The timeless \"because it's there\" challenge, wondering what blazing connection you're hiding, trying the latest exploit, wondering what funky network there is to explore behind that WPA2 (I suppose it might be the wardiver's equivalent of living in a neighbourhood of abandoned houses boarded up with cardboard and then spotting a smart looking house with a steel door), wanting to pwn you just to prove to you how clever they are, perhaps all the WEP points are already bogged down with leeches!? God only knows why they do it but do it they do. There are three good AP signals in my vicinity and another twenty to thirty fringe signals. One of the stronger fringe points is open and almost everything else is WEP. Despite that I still get the occasional attack against my carefully configured off-brand firmware WPA2 gear. A bit of sniffing will almost invariably reveal at least one attack taking place against the WEP points.
+
+>>May it be that polipo is going on with the download that wget asked it to do, even after wget is shut down?
+
+>But if that were the case, wouldn't the file in question continue to increase in size as the download progressed? As I noted in my OP, once I stopped wget, the file stopped increasing in size.
+
+I would have thought only wget could write to your target file... polipo would be squirrelling it away into its cache. You don't mention polipo in your list of suspects. Might it have still been running? I'd have expected wget to be pointed directly at Tor's socks5 interface rather than at polipo but it sounds like that's not the case?
+
+If it happens again, maybe you could shut down your Tails rather than the router - to easily differentiate between Tails and nosy neighbours?
+"""]]

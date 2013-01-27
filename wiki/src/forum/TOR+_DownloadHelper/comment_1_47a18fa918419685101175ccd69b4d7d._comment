@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Downloadhelper doesn't seem to work with Tails"
+ date="2011-07-12T07:48:47Z"
+ content="""
+I just tried downloadhelper with Tails and it didn't seem to work since Tails
+doesn't support Flash yet, see [[todo/Flash_support]].
+
+But another Firefox plugin has been reported to work within Tails, see
+[[todo/easy_youtube_downloader_plugin]] even though no evaluation of the
+security of the plugin has been attempted. So use it at your own risk.
+
+Installing extra Firefox extensions is always a risk because they could
+interfere with the extensions that are already shipped and carefully configured
+in Tails and break from within Firefox some of those security measures.
+
+"""]]

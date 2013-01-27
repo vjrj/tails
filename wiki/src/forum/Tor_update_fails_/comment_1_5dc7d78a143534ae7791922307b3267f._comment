@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Well."
+ date="2011-11-03T09:35:15Z"
+ content="""
+Please read the doc again, and follow it carefully and entirely. You're apparently not running this set of commands from a **Administrator** terminal, so it's no wonder it does not work. If you insist on using sudo, then use it properly: these are 3 commands, really, so you need three times sudo.
+
+"""]]

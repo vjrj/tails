@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 159"
+ date="2012-10-26T14:34:43Z"
+ content="""
+So it is easy. Each connection leave a trace of IP address, source and destination. On tor, on I2P, on freenet, on GnuNet,.. everywhere.
+Simply the case of: what use is it for me?
+
+And if you say, I2P is full of holes and easy to get every site, why do you tell \"its helping distributing illegal material\"? IF it is insecure and easy to break, ALL sites would have been taken down by police and other agencies already.
+So: IF this material does exist, it proves: system is secure. For servers, clients and nodes in between.
+For a system running 10 years and with 50000 participating users in a month, it must be quite secure, as no known takedown or arrest is known. 
+Despite of Tor - some Tor server/relay node owner was taken into prison already.
+
+For tails distribuing I2P is not insecure, same with Tor. It is the user who decides what to do.
+
+About the correlation attack of Tor/I2P services: just because there is one IP in my database of 1000 known IPs, does not tell me, it is a server for anything. Hell, I get a list of thousand IPs a day just browsing the net, every single one of them could host illegal material.
+Living is a risk - everywhere.
+
+
+"""]]

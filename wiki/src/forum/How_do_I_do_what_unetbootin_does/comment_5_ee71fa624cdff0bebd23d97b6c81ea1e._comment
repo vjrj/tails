@@ -1,0 +1,42 @@
+[[!comment format=mdwn
+ username="spindritf"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-12T00:48:36Z"
+ content="""
+I created multiple partitions on a bootable Tails pendrive under Ubuntu following a modified version of the above tutorial:
+
+WATCH CLOSELY WHICH DISK YOU ARE WRITING TO  
+YOU CAN OVERWRITE YOUR HARD DRIVE AND LOSE DATA  
+(or at least your boot configuration and a lot of time)  
+
+After creating the partition(s), mount the usb drive and the Tails iso, as root:
+
+    mkdir /media/tails
+    mount /dev/sdX1 /mnt/tails
+    mkdir /media/iso
+    mount -o loop /path/to/tails-i386-0.10.2.iso /media/iso/
+
+and copy the contents of the Tails iso:
+
+    cp -r /media/iso/* /media/tails/.
+
+move all cfgs to the root of the created partition
+
+    mv /media/tails/isolinux/*.cfg /media/tails/.
+
+rename isolinux.cfg to syslinux.cfg:
+
+    mv isolinux.cfg syslinux.cfg
+
+unmount everything
+
+    umount /media/iso
+    umount /media/tails
+
+overwrite the mbr, install the bootloader:
+
+    dd if=/usr/lib/syslinux/mbr.bin of=/dev/sdX
+    syslinux -i /dev/sdX1
+    sync
+"""]]

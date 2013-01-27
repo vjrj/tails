@@ -1,0 +1,4 @@
+If I connect to a VPN via the host machine and run a Tails VM are there problems with this scenario? From my understanding the TOR entry and exit nodes will see the VPN IP?
+
+Also are the message contents still encrypted by TOR once they enter the VPN? That is while the VPN sees the IP of the TOR exit node, the contents are still TOR encrypted in the last hop to the TOR VM.
+

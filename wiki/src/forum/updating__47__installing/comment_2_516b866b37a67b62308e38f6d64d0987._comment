@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Just like install"
+ date="2012-01-06T01:10:23Z"
+ content="""
+As of 0.10, one upgrades Tails exactly the same way as one installs Tails. See [[download]].
+
+Any other installation methods, such as those based on unetbootin, are **not** supported, and may even be dangerous if not done properly unless you know really well what you're doing.
+
+"""]]

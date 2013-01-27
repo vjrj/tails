@@ -1,0 +1,37 @@
+I would like to contribute to Tails using git, so :
+
+- I forked [Tails repository](http://repo.or.cz/w/tails.git) on http://repo.or.cz
+- Assigned myself as a user, as you can see [here](http://repo.or.cz/w/tails/matsa.git)
+- Updated my ssh key [here](http://repo.or.cz/edituser.cgi)
+
+
+But, when I try to push, I get an error message :
+
+    	amnesia@amnesia:~/tails/ git push matsapussh master
+    	Compressing objects: 100% (13302/13302), done.
+    	fatal: Unable to create temporary file: Permission denied
+    	error: pack-objects died of signal 13
+    	error: pack-objects died with strange error
+    	error: failed to push some refs to 'ssh://matsa@repo.or.cz/srv/git/matsa.git'
+
+Here are the interesting parts of .git/config :
+
+    	[core]
+    		repositoryformatversion = 0
+    		filemode = true
+    		bare = false
+    		logallrefupdates = true
+    	[remote "origin"]
+    		fetch = +refs/heads/*:refs/remotes/origin/*
+    		url = git://git.immerda.ch/amnesia.git
+    	[branch "master"]
+    		remote = origin
+    		merge = refs/heads/master
+    	[user]
+    		name = matsa
+    		email = ...
+    	[remote "matsapussh"]
+    		url = ssh://matsa@repo.or.cz/srv/git/matsa.git
+    		fetch = +refs/heads/*:refs/remotes/matsapussh/*
+
+I have no clue if its coming from my local files, from the repo.or.cz chmod, ssh or git config.. I could spend hours reading docs (in fact I did), but perhaps you already faced this message while using repo.or.cz...

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-03T21:19:57Z"
+ content="""
+What do you mean by \"get stuck like that?\" On my P4 box it will appear to load and then the display will only show a short white cursor-like line in the upper left hand corner. It looks like Tails does not finish loading, but it does. Clicking the mouse in the upper right hand corner, where the shut down button is, will shut it down. So it is only that the display does not work.
+"""]]

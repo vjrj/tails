@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: Can't get to work"
+ date="2011-07-19T12:43:36Z"
+ content="""
+Actually Tails is a Live OS, meaning that if you want to use it, once installed on the usb stick you have to reboot your computer and tell it at startup to boot from the USB stick rather than from the disk. It's a choice you have to do in you BIOS. If you want to use it from inside windows, you have to use a virtualisation software, such as virtualbox (see https://tails.boum.org/support/virtualization/)
+"""]]

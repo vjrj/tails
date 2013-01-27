@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="rEFit"
+ date="2011-11-08T20:54:51Z"
+ content="""
+rEFit allows one to boot the USB stick on the mac with rEFit installed, but how does one create a USB stick that can be booted on ANY Mac (or at least any Intel Mac?)
+
+19/20 computers I encounter are Macs, and I can only think of one PC owner. This boot is useless as far as traveling goes if there won't be any PCs encountered. 
+
+What can be done to make a USB stick that will mount on anything?
+"""]]

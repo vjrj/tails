@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-11-16T01:45:37Z"
+ content="""
+>Any suggestion for a better phrasing than the current \"numerous security holes\" one?
+
+I think we all understand the need to unambiguously alert your users to the necessity to upgrade. Perhaps for normal scheduled upgrades, rather than real emergencies, the ideal balance between conveying the need to upgrade and excessively alarming the userbase might be slightly softer? Maybe something more like: *Several potential vulnerabilities*
+
+Any other thoughts anyone?
+"""]]

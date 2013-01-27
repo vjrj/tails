@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-02-13T08:31:36Z"
+ content="""
+Seems like the \"resource is busy\" and you should maybe eject or unmount the device beforehand.
+"""]]

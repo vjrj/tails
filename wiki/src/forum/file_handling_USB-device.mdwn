@@ -1,0 +1,3 @@
+File handling from a USB-device with a little filesystem corruption -Disk Utility on another Live Linux says filesystem is not OK- seems a little bet glitchy.
+When i plug-n this device in TAILS it is shutting down like push the red button immediately.
+Other Live Linux read this device nearly normal.

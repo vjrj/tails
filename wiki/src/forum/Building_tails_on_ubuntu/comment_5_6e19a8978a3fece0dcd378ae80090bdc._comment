@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ username="ehj666"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-09-15T01:21:16Z"
+ content="""
+It does seem to be forum files. I do not see why I am getting those when checking out Amnesia. The full command I am using is:
+
+    git clone git://git.immerda.ch/amnesia.git
+
+Here is what I get when running that command:
+
+    Cloning into 'amnesia'...
+    error: unable to create file wiki/src/forum/All_DNS_Traffic_Flows_Through_Tor__63___Then_what_is_this_file:___47__etc__47__resolvconf__47__resolv.conf.d__47__original___63____63____63__.mdwn (File name too long)
+    error: unable to create file wiki/src/forum/Is_it_possible_to_create_a_TrueCrypt_volume_on_the_Tails_USB_drive__44___that_is_also_accessible_from_other_platforms___40__E.g_Windows__41____63__.mdwn (File name too long)
+    fatal: cannot create directory at 'wiki/src/forum/Is_it_possible_to_create_a_TrueCrypt_volume_on_the_Tails_USB_drive__44___that_is_also_accessible_from_other_platforms___40__E.g_Windows__41____63__': File name too long
+
+Then doing \"git checkout devel\" I get:
+
+    error: cannot stat 'wiki/src/forum/All_DNS_Traffic_Flows_Through_Tor__63___Then_what_is_this_file:___47__etc__47__resolvconf__47__resolv.conf.d__47__original___63____63____63__.mdwn': File name too long
+    error: cannot stat 'wiki/src/forum/Is_it_possible_to_create_a_TrueCrypt_volume_on_the_Tails_USB_drive__44___that_is_also_accessible_from_other_platforms___40__E.g_Windows__41____63__.mdwn': File name too long
+    error: cannot stat 'wiki/src/forum/Is_it_possible_to_create_a_TrueCrypt_volume_on_the_Tails_USB_drive__44___that_is_also_accessible_from_other_platforms___40__E.g_Windows__41____63__': File name too long
+    error: cannot stat 'wiki/src/forum/Is_it_possible_to_create_a_TrueCrypt_volume_on_the_Tails_USB_drive__44___that_is_also_accessible_from_other_platforms___40__E.g_Windows__41____63__': File name too long
+    error: cannot stat 'wiki/src/forum/Is_there_any_way_to___34__install__34___the_packages_in_the_persistent_volume_to_avoid_having_to_manually_install_all_the_downloaded_packages_at_every_reboot__63__.mdwn': File name too long
+
+And a whole lot more, which is too long for a forum post. Running Rake after this is futile.
+
+Thanks
+"""]]

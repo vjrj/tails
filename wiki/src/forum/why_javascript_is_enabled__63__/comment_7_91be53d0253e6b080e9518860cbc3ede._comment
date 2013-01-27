@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2011-11-24T13:25:08Z"
+ content="""
+Off-topic response @ comment 5: Patronizing FUD aside, we'll gladly discuss potential flaws of our design decisions and general philosophy, although preferably in another thread. Perhaps [[this thread|forum/Tails_Fatal_Flaw..or_not__63____63__]]...
+
+Off-topic response @ comment 6: For instance we'd like some kernel hardening patchset to be applied, as well as CONFIG_MEMTEST enabled in the stock Debian kernel config for improved memory wipe (as a protection against cold boot attacks). We're lobbying the Debian kernel maintainers for these issues, and the \"rationalization\" the author of comment 5 talked about is this: we want upstream to get as much of our features as possible so that:
+
+1. there's less or zero maintenance for us => more of our time can be directed
+   towards development of other features.
+2. all Debian users and privacy-oriented distros based on Debian can benefit
+   from it.
+
+If it turns out the Debian maintainers don't want this, or that it won't happen in a reasonable time frame, we might end up compiling our own kernels any way, which is something we've discussed about before, contrary to the claim in comment 5.
+
+On-topic response @ comment 5 and others: The justification for allowing JavaScript in Tails' web browser isn't complicated: Security vs. usability, and inevitable compromise between them. If we were to disabled JavaScript (potentially better security, guaranteed worse usability) clueless users would just switch back to their good ol' insecure browser when they notice that >50% of the websites they visit break in Tails due to hard dependencies on JavaScript. They wouldn't know that was the problem simply because they don't know what JavaScript is, let alone how to enable it. If we'd try to educate them by giving instructions and explanations, most wouldn't read them. Hence everything has to work out of the box.
+
+However, if there were issues with JavaScript that would seriously compromise Tails users' anonymity, which Torbutton doesn't take care of, then we'd definitely reconsider this stance. Disabling JavaScript without such a rationale is just irresponsible, at least if your project's target audience include clueless users, which is the case for Tails. In general we're in agreement with the [Torbutton design document](https://www.torproject.org/torbutton/en/design/) (and probably the [Tor Browser design draft](https://www.torproject.org/projects/torbrowser/design/)). Please point out where it errs w.r.t. JavaScript.
+
+And please, technical arguments. No more condescending FUD as in comment 5.
+"""]]

@@ -1,0 +1,56 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-09-23T13:21:21Z"
+ content="""
+Reply to Comment 3:
+Boot Tails from Live USB, Insert 2nd USB to put cloned Tails on, Run Tails USB Installer, Select Clone and Install option, Click Next when prompted, Installation fails and USB has unallocated space that must be recovered. Exact error message is in first post.
+
+Reply to Comment 4:
+
+List of files on source USB (The USB from which I boot Tails)
+.disk    (folder)
+live     (folder)
+syslinux (folder)
+license.txt
+tails-i386-0.1.2.1.iso
+Uni-USB-Installer-Copying.txt
+Uni-USB-Installer-Readme.txt
+
+Contents of .disk folder:
+archive_trace
+info
+
+Contents of live folder:
+filesystem.packages
+filesystem.squashfs
+initrd.img
+Tails.module
+vmlinuz
+
+Contents of syslinux
+boot.cat
+exithelp.cfg
+f1.txt
+f2.txt
+f3.txt
+f4.txt
+f5.txt
+f6.txt
+f7.txt
+f8.txt
+f9.txt
+f10.txt
+isolinux.bin
+isolinux.cfg
+live.cfg
+menu.cfg
+prompt.cfg
+splash.png
+stdmenu.cfg
+syslinux.cfg
+tails.cfg
+vesamenu.c32
+
+Thank you to everyone who is taking time to assist me with this problem. I greatly appreciate it.
+"""]]

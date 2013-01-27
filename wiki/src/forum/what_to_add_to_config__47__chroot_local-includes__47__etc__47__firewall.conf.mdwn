@@ -1,0 +1,1 @@
+I'd like to use proxychains to add a socks5 proxy on top of tor. As I understand it I need to somehow edit config/chroot local-includes/etc/firewall.conf in order to allow this to happen. What do I add/change in this file so that tails will allow a non-tor socks proxy to connect to the internet   

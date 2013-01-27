@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-09-17T22:39:32Z"
+ content="""
+>Including what materials (brand) etc.
+
+Any reputable DVD-R should do you fine... slightly depends on *your* drive though (brand, model *and* firmware version)... try one and see.
+
+>Including what downloads are needed like pgp, dvd burning downloads etc. for windows xp and 7.
+
+You'll need PGP or GnuPG along with the signing key for download verification. I believe [InfraRecorder](http://infrarecorder.org/) and [ISOBurn](http://www.imgburn.com/) are often recommended to <strike>hapless victims of the black prince</strike> satisfied microsoft customers.
+
+>I'm assuming the dvd is the safest way to go.
+
+Indeed, WORM media have obvious advantages in this context.
+
+"""]]

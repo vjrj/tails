@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-05T10:26:22Z"
+ content="""
+Tor picks a set of [Entry Guards](https://www.torproject.org/docs/faq#EntryGuards) and always uses one of the entry guards as the first node. The set is saved to disk so that it can be used again and again. But since Tails has no [[todo/persistence]] (yet) that set cannot be saved, so what you experience is weird if you get the same entry guards even after you reboot Tails. If it's just the case that you have the same entry nodes in all circuits druing *the same Tails session* that's completely normal.
+"""]]

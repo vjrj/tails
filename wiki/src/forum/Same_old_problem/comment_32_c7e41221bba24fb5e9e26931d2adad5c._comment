@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 32"
+ date="2012-01-12T01:15:54Z"
+ content="""
+> Privatix is working out of the box.
+
+What about Liberté Linux? If the issue is with time synchronization, you might want to check whether the problem persists in Liberté.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="USA keyboard layout"
+ date="2012-06-23T20:46:34Z"
+ content="""
+the password function seams to only recognize keyboard entries as USA keyboard layout. And that problem does not exist when setting password, but only when system request them. I have a french \"azerty\" keyboard. If I set \"azerty\" as password it is recogniced and accepted as \"azerty\". but whenever system request me password, I need to imaging I have a \"querty\" keyboard and I must be searching each key.
+"""]]

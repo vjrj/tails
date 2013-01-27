@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-20T22:02:49Z"
+ content="""
+I'm the commenter, is it possible to install a private web proxy to Amazon EC2 Free Tier and use it with https? Like https://hidemyass.com. That would solve all issues related with Tor.
+"""]]

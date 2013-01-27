@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-20T10:40:08Z"
+ content="""
+> What stumps me is how to deactivate Tor, connect to the VPN and reconnect to Tor. The system seems to autoload Tor on every connection so there is more difficulty/an additional step..
+
+Tails doesn't support using VPNs yet. See [[this forum thread|forum/VPNs_and_Tor__44___Tor_and_VPNs.]] and our [[todo item|todo/vpn_support]] for more information.
+
+If using a VPN to reach the Internet is some how mandatory for you (ISP requirement, bridges are blocked but VPNs are not) you can try the instructions below in a Tails session after Tor is up and running (beware, this is not tested). If you are under the illusion that VPNs make Tor more secure because it adds an additional hop, **then don't do this because you are mistaken -- the opposite is most likely true**.
+
+# **!! THIS IS DANGEROUS !!**
+
+    sudo apt-get update
+    sudo apt-get install network-manager-openvpn-gnome
+    sudo do_not_ever_run_me
+    sudo service tor stop
+    # now setup you VPN using the NetworkManager applet, and then connect to it
+    sudo service tor start
+    killall vidalia
+    vidalia &
+    # now you can start using the network
+
+# **!! THIS IS DANGEROUS !!**
+
+Why is this dangerous? It disables parts of Tails' [[contribute/design/Tor_enforcement/#index3h1]].
+"""]]

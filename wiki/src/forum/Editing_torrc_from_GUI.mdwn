@@ -1,0 +1,5 @@
+I'm running the live enviroment and trying to edit the tor configuration through the Vidalia GUI results in a "cannot write to disk" error.
+
+Also, I'm not sure if this is a Tails or Vidalia bug, but I had to strip the configuration of all its comments to get to the above error, else it would complain about malformed parameters.
+
+So what method would you recommend to change tor settings on the fly? Editing /etc/tor/torrc as root and restarting the tor process?

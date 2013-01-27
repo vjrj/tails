@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-11T03:11:56Z"
+ content="""
+> So can your ISP see anything else other than the fact you are connecting to a Tor Node with encrypted traffic? 
+
+They won't be able to see anything else other than the fact you are connecting to a Tor node, yes. In fact, if you use bridges, they won't even know you are connecting to a Tor node.
+"""]]

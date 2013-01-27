@@ -1,0 +1,6 @@
+Has anyone considered modifying or creating a dedicated Tor relay or exit-node distro?
+
+Rather than so many 'cooks spoiling the broth' on live-CDs to anonymize a single user's traffic, what about something an end-user can throw on their old PC or a dedicated machine in an office, school, etc that will act as a Tor node for that whole LAN?  ie: point your LAN gateway or proxy at that machine instead of the default gateway, and everything piped through it will be routed via Tor.
+
+Of course there are many, many levels this could be edited on, but a distro that is easy to configure via GUI would be best (I think of something such as ipcop to compare)
+

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-16T18:56:52Z"
+ content="""
+This would be indeed incredible in tails. Different modes would definitely make an as-of-yet distant Tails in an incredible OS. Personally I would love to see Tails support ALL worthy anonymity software not only Tor and I2P, but also freenet,gnunet,jap and others to come.
+
+Still, could this not also be used to add support for different contextual identities to tails? The activist work identity, the pr0n identity, the casual websurfing identity, identity to check gmail with (while I still have one, but now several universities use gmail for their web-mails so perhaps completely ditching it is impossible if one works at one of such places).. And for all contextual identities different modes! An awesome OS this would be indeed..
+
+With my limited technical knowledge it appears that cubes uses a micro-kernel though very diferent from linux and debian correct me if I am wrong..So am I correct in thinking we will, unfortunately never see this in tails?
+"""]]

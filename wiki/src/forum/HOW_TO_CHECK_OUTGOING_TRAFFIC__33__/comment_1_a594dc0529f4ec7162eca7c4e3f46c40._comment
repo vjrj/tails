@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-05-24T08:12:17Z"
+ content="""
+> Please give us some method to check all that. Most of the social activists are not well versed in techniques.
+
+You can install [Wireshark](http://www.wireshark.org/) in Tails. It is available as a Debian package (see *Administration* → *Synaptic package manager*). You can also run Tails in a virtual machine and monitor the virtual network interface from outside. Or run Tails on a dedicated computer and see the traffic flowing on the attached network.
+
+> Why TOR or TAILS doesn't maintain connection to 4 or 5 nodes instead of just 3 nodes? I think that creating something to route the data through 4 or 5 nodes of different countries will be more secure because it will more likely to be 100% anonymous over internet.
+
+See the related answer in [Tor FAQ](https://trac.torproject.org/projects/tor/wiki/doc/TorFAQ#Youshouldletpeoplechoosetheirpathlength.). No research have yet to demonstrate that more hops = better anonymity.
+
+> We have to use many addons on Firefox while using \"TAils\" and \"TOR\"; how can we know which addon is safe and doesn't reveal our real IP address?
+
+Code analysis is probably the best way. Please note that it is not only the IP address that is at stake, but non linkability in those days where most sites is using Google Analitycs and Facebook \"likes\" is hard to achieve properly.
+"""]]

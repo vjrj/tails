@@ -1,0 +1,56 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-22T22:17:02Z"
+ content="""
+**While international politics certainly is an interesting subject this is not a forum for that. Please stay on topic.**
+
+@ OP:
+
+> Well, I use Tails (and Tor in windows) already longer time, and more I read, more I get opinion that torproject is connected with civilian or millitary intelligence of USA.
+
+Even if true (depending on what you mean with \"connected\" -- it's a well-known fact that TTP have been/are funded by the US (and other countires') governments) does this actually matter? Tor is open source, its design is completely open and backed up by publicly availably research papers, its development is very transparent and well-documented, etc. That weighs more in favour of trusting them than any shady connections and relationships.
+
+> first, I see that tails is part of Tor project, and therefore I write here (tor site has no forum in any case).
+
+This is incorrect -- Tails is completely separate project from the Tor project, although we work closely with them on some technical matters and have good relations with them in general. It's true, though, that [TTP's project page](https://www.torproject.org/projects) is a bit misleading as it states \"[t]he Tor Project maintains a growing set of software and services [...]\" and then lists Tails and other non-TTP projects (e.g. Arm).
+
+> Third, I saw somewhere on TorProject site (possibly in announcements or similar) they mentioned Iran in negative context, and for me it is sign for alarm (about spies who are paid to make war propaganda) [...] It would be nice that developers become independent from war propaganda.
+
+Unless you link/quote the text in question I can only guess about it's nature, and the obvious seem to be that it has something to do about Iran actively blocking Tor. If their statement was about this, why call it propaganda? Isn't on-topic criticism towards regimes that work against Internet anonymity a perfectly logical position for a project developing tools for Internet anonymity?
+
+And even if they (or more likely, one member of TTP) have a political opinion, does it really matter? Tor can be used for any purpose, so even if TTP is biased Tor itself is pretty neutral in that sense (if you're into metaphors: an automatic rifle designed and manufactured by the US army or its associates can still be used to kill American troops).
+
+> ahhh, torusers page even glorify American justice system
+
+So either they actually appreciate the US justice system, or it's just a strategic PR move -- such a section is very likely to generate better understanding when TTP is dealing with the law, which they do regularly. In either case it is of no importance when discussing whether one can trust the Tor software or not.
+
+> how much we can believe to developers of the whole torproject (including tails)? Are developers spies who work for FBI/CIA/military intelligence?
+
+Let's pretend the US army was running TTP from behind the scenes and that they were more careful about hiding any connections, e.g. let's say the original papers on onion routing were published by a proxy not associated to the army, and that the Tor website didn't mention anything about the US military or law enforcement. Since you then would know nothing about the US army <-> TTP connection, would you trust Tor more?
+
+As you can see, it's not a great idea to base one's trust on a tool on the organization developing it or its relationship with other entities. Doing so is backwards -- one should look at the actual work/code, and if it's sound, then you can trust the tool, and if they continually do sound work, eventually you can establish trust in the organization, at least for that particular work. Case in point: The NSA (which arguably is anonymity's adversary) developed [SELinux](https://en.wikipedia.org/wiki/Selinux), which now is part of the Linux kernel and could be used to strengthen Tails' system security.
+
+Ultimately the code is the only thing one can establish real trust from when dealing with software. This is the reason why proprietary, closed-source software can never be trusted for anything security-related (and you've already admitted to use Tor in Microsoft Windows (!) so you cannot be *that* serious about these issues), and the reason why open-source is the only option. Which leads us too...
+
+> the fact is that most of us are not professional programmers and even opensource code doesn't mean that we can check if Tor is really so secure as developers say it.
+
+There are legions of \"professional programmers\" and other relevant experts out there that have studied the shit out of Tor's source code and design without finding any deliberately placed backdoors or design \"flaws\". All such experts cannot be part of some global conspiracy that would keep silent about such findings, right? When dealing with well-known open-source software like Tor you always have \"distributed\" trust through public scrutiny, so you do not need to be an expert even if that would be better, of course. Chances are that even if you had the right skills, you could overlook something, so the most important thing is that there are many such individuals out there, which luckily is the case. 
+
+> can we believe to tor network and its independence from overtaking it by spies? is there any need to overtake anything/network if core developers are spies?
+
+If you just distrust the current Tor network there's nothing preventing you from starting your own, alternative Tor network using the very same Tor software. However, if the current Tor network is infiltrated with snooping nodes, what makes you think that your network wouldn't attract such infiltrators once it grows in size?
+
+> Is there any similar anonymity network people could use, which is not developed by American military?
+
+Any (low-latency) anonymity network can be attacked in the same way as the most effective attacks against the Tor network. There's no need for a backdoor in the software -- simply observing traffic flows is enough to break any anonymity network if you can see enough of it, and this is by design (and is unfortunately unavoidable :/). A backdoor could of course make attacks even easier, but just assuming there is one without any indication of it is just paranoid (in the medical sense).
+
+> whole tor hidden service was attacked by hackers who said they are Anonymous (I would say they are FBI rats because Anonymous are political hacktivists and Anonymous are not interested to attack weed sites from hidden wiki). so, how much is tor network really secured from hackers if they can attack whole server as they did with Freedom Hosting and the rest of the hidden wiki?
+
+These attacks were not on Tor, but on the Apache server hosting the websites (at least in the Freedom Hosting case).
+
+> Last tendency of developers is to collaborate with governments and its repressive forces (from docs/faq-abuse pages): The Tor Project is also happy to work with everyone including law enforcement groups to train them how to use the Tor software to safely conduct investigations or anonymized activities online. 
+
+Which is good, because this relationship likely will help keeping Tor legal, and will prevent more Tor exit node operators from being needlessly raided and having their computer equipment seized. Also, anonymity doesn't work without diversity and that's why the US Navy decided that Tor (or more correctly an onion routing-based anonymity network) should be publicly available. After all, if only the US military used it, everyone would automatically know that each Tor user is someone associated with the US military, which is a pretty significant leak of identity making Tor essentially worthless.
+"""]]

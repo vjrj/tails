@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="server"
+ date="2011-10-18T21:12:02Z"
+ content="""
+i vote for the server edition.
+although it's easy to configure a vps to run a Tor hidden service and lock down through Iptables would be nice to have something running in mem that couldn't be 'hacked' as easily. 
+
+
+"""]]

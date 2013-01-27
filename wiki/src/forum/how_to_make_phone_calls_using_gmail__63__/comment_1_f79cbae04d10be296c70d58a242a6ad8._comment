@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-17T10:04:20Z"
+ content="""
+Copy/Pasted from another recent thread:
+
+Flash is proprietary software which prevents us from legally including it in Tails. The more important reason for us to not ship it in Tails is that it is closed source, so we have no idea what it really does. Besides that Flash has a truly horrific history of security vulnerabilities which is reason alone to never touch it.
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: commenting on ISO will not burn to DCD"
+ date="2012-06-11T15:52:01Z"
+ content="""
+It is not a matter of the steps followed, rather that the size of the ISO file that can fit on a CD-R is at most 700MB + some, but certainly not 753MB which requires either a DVD-R, DVD-RW, or a USB preferably at least 2GB in size.
+
+I have found that using Ubuntu Disk Utility to unformat a USB and then simply using the dd command with the proper device name does the job nicely, e.g.
+
+    dd if=tails-0.11.iso of=/dev/sdx
+
+where x is an alphabet character for the entire USB device identified by Disk Utility.
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Correction, maybe..."
+ date="2012-10-20T21:28:07Z"
+ content="""
+The preceding comment describes the easy procedure for verifying Tails 0.13 (currently the latest release).
+
+When I tried to download the 0.14 version, currently in testing, the download timed out.  So I didn't get a chance to try verifying the 0.14 iso yet.
+"""]]

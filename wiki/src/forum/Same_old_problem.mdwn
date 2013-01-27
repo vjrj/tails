@@ -1,0 +1,5 @@
+Vidalia still doesn't start sometimes like before and it is necessary to reboot, reboot, reboot. Manually opening Vidalia has the same message as before in the message log (giving up).
+
+Trying to dig deeper with the Icewasel Tor Button and then clicking Test Settings reports that the connection could not start and asks if Polipo is running.
+
+The clock sync stuff still seems confused and not functioning properly.

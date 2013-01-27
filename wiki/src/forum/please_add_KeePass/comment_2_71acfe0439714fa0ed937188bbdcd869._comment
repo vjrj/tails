@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-30T13:34:09Z"
+ content="""
+(Other Tails developer here)
+
+I researched this for personal use some time ago so I have the information ready:
+
+Gnome Keyring needs to be integrated (at compile-time) into applications, and probably mostly Gnome applications have that, but KeePass has [global-hotkeys and auto-type](http://keepass.info/features.html#lnkdragdrop) which makes it usable with any application, in particular login-type web forms. However, KeePass is mainly developed for Windows and only has unofficial builds for Linux (keepass2 is available in wheezy and sid though) and MacOSX, and depends on mono (23.7 MB additional disk usage in Tails prior to squashfs compression  deps).
+
+There's completely different project called KeePassX which sports the almost the same features (it has auto-type, but I think it's less customizable) and only depends on Qt (only 3.4 MB disk usage in Tails). I personally use this one.
+
+Since Gnome keyring probably is integrated in all relevant applications we ship in Tails (but what about web form logins in Iceweasel? and account passwords in claws-mail/Icedove?) I see little point in adding anything else. I guess the OP want to be able to import his/her existing KeePass password database into Tails, but I don't think that's a good enough reason for bloating Tails by adding yet another password manager.
+"""]]

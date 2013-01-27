@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Details and corrections"
+ date="2011-12-20T15:36:12Z"
+ content="""
+For your information:
+
+* GnuPG can encrypt individual files using a passphrase. Granted, it's only on the command line.
+* cryptkeeper can encrypt an arbitrary directory using a passphrase.
+
+"""]]

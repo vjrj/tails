@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Update"
+ date="2012-01-24T16:38:20Z"
+ content="""
+Reconfiguring Noscript is not an option but is a must.
+
+Noscript blocks embedded videos and temporarily allowing the video leads to refreshing the embed video and after pressing play button it's blocked again. Again and again...
+
+Tried it in Tor Browser, it didn't refresh the embed video automatically, but after manually refreshing the page I could only then watch that video.
+"""]]

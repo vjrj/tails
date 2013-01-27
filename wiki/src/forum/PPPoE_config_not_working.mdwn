@@ -1,0 +1,14 @@
+Hello!
+
+I'm connecting through a DSL provider, so since there is seemingly no PPPoE support in Tails yet. Network Manager seems to have it, but the config window is rather strange... asking me for a "Service" name, in addition to the username and password provided by my ISP. 
+
+So I had to manually install and run the pppoeconfig script (also installed the PPPoE package). I'm using Tails 0.10.1 
+
+So the prob is that once I have set up the PPPoE connection through the command line script, Network Manager still doesn't pick any connection, while on Auto Eth mode. Checked in ifconfig and everything looks alright, with the interface "ppp0" active with an IP address attached. Switched it up and down a few times and still no change.
+
+I guessed that this should be a conflict issue. The packages were from the latest Debian stable repo, so perhaps it's the other cause for this. 
+
+Already filed a "to do" request about that, but I'm wondering if there's an easy way to solve this on my own.
+
+Thanks!
+

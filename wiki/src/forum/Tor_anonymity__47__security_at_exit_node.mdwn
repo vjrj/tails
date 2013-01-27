@@ -1,0 +1,5 @@
+I have recently started using Tor and am still trying to understand the limitations.  One is that Tor does not encrypt traffic between the exit node and final destination.
+
+If the main benefit of Tor is anonymity, and if the number of people seeking anonymity potentially includes a higher percentage of political dissidents, etc., and if an organization wanted to detect and monitor political dissidents, etc., would not that organization be more likely to set up a Tor exit node to monitor Tor traffic than to monitor non-Tor traffic?  If that is true, then would using Tor potentially provide less anonymity and security than using higher traffic volume non-Tor connections?
+
+Hope that makes sense.

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Zip"
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-01-09T19:58:20Z"
+ content="""
+>@Comment by Zip — Sat 07 Jan 2012 01:18:05 PM CET
+>
+>Not sure what's going on here (after reviewing your logs). Your Tor client is unable to reach the directory server for some reason. That would be normal if the network isn't working, but Tor generally detects and logs that with a \"NOROUTE\", which isn't in your log. Can you try pinging you router or some other host on your LAN from within Tails?
+>
+>This would also happen if your ISP blocks access to Tor. Is Tor working if you use e.g. The Tor Browser on your main system?
+
+Thanks Tails. I have two other systems: one laptop manually configured with Tor, Privoxy, and Torbutton on a vanilla installed Firefox (Ubuntu). It works great each and every time. This setup has worked fine for 8 months or so with no problems. Coming from the same network, I have a Ubuntu desktop with the Tor Browser bundle that stopped working... i don't know ... maybe three weeks ago? Which got me interested in the Tails boot disc. This worked for nearly two weeks, then stopped late December. Tried the .10 release when it came out. Been spotty at best.
+
+I can use my laptop this very second across the tor network, but neither the desktop nor the Tails boot work (well, tails worked once today ... for a little while).
+"""]]

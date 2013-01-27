@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2011-10-29T17:46:21Z"
+ content="""
+When the TOR project releases a version:
+
+\"Tor 0.2.2.34 fixes a critical anonymity vulnerability where an attacker
+can deanonymize Tor users. Everybody should upgrade.\"
+
+and tails doesn't have the ability to keep up there is a bit of a problem.
+
+A mechanism for keeping the central software up to date seems like a fairly important issue.
+
+If pre 0.2.2.34 tor exposes an anonymity vulnerability where an attacker can deanonymize Tor users it seems fairly likely the Tails is equally exposed.
+
+https://lists.torproject.org/pipermail/tor-announce/2011-October/000082.html
+
+
+
+"""]]

@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-02-27T10:13:04Z"
+ content="""
+@ the author:
+> For example, if i connect to my router with a wire, a policeman coming to my house will tell me 'it was you', if i connect wirelessly with a different mac than my cards original, i could say some hacker got into my router, check the mac.
+
+Please note that your MAC address, spoofed or not, are only used for a single physical hop in the network, so it will only be visible on your LAN. So, your router will see the MAC address, not your ISP (the ISP will only possibly see your router's MAC address). For your deniability defense to work you'd need to verify that your router stores detailed logs about which computer connects to it, including date stamp and the MAC address. 
+
+> You didn't comment on my 'conspiratorial' senario.
+
+I didn't because experience has taught me that doing so rarely leads anywhere. Look at [[this thread|forum/how_much_we_can_believe_to_developers__63__]] for *technical* arguments why it doesn't matter that much if Tor is a run by [scary military/intelligence agency].
+
+@ comment 5
+> > There's nothing you can do. The ISP can simply see that traffic is comming out from the \"pipe to your house\", and no amount of IP/MAC spoofing can change that if anything it just looks suspicious). You can, however, hide the fact that you are using Tor from your ISP by using Tor bridges (or a VPN).
+
+> Does that mean, the ISP is normally only filtering connections to all the known Tor relays and does not at all a \"deep packet inspection\" in ordert to detect Tor-traffic?
+
+What I meant was that since your network traffic goes to the ISP they can simply look at which physical cable your packets originate from to learn that they came from your house. They don't need to look at IP addresses (and even less so MAC addresses). Real world analogy: if I have an outgoing mailbox that only I can access the postman collecting the mail will know I'm responsible for all of it even if I faked or blanked some mails' return-addresses.
+
+I have no idea what's common practice among ISPs, I'm just talking about what is technically possible. Here's a short summary of how the Tor filtering situation looks like and what you can do as a Tor user to beat your ISP:
+
+* If you openly connect to the Tor network (so no bridges, extra proxies or VPNs are used) ISPs can easily learn that you use Tor since the list of Tor relays *is* public.
+
+* If you are using Tor with bridges the ISP either needs to have collected a large list of bridges by some means (note that bridges are *not* public, so doing this isn't trivial) or do Deep Packet Inspection, or active probing of all SSL destinations, or similar complicated stuff. Since these countermeassures are non-trivial and expensive it's unlikely an ISP will do so unless they are forced by the state. Your country's national security agency could of course do it on their own, [Room 641A](http://en.wikipedia.org/wiki/Room_641A)-style.
+
+* If you use Tor with a non-public bridge run by someone you trust, and add obfsproxy into the mix, there's not anything an ISP could *reasonably* (with respect to cost) do to detect you. It's less clear if the cost of a countermeassure for this is something your average national security agency can afford.
+"""]]

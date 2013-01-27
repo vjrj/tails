@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-10-17T14:10:49Z"
+ content="""
+How is allowing transparent proxyfication for applications, that should be otherwise using an explicit proxy, an additional level of protection? That's an additional potential security vulnerability, not protection. Sounds like a design flaw, unless you don't need transparent proxying, then why it's on? You didn't refute anything in that quote if you ask me.
+"""]]

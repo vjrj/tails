@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-07-30T22:15:42Z"
+ content="""
+I totally don't understand this. Please explain.
+
+Somebody is kicking your door down. You tug the USB stick out and the system automatically and immediately shuts down. A new kernel is loaded, and RAM is then over-written. Boom!
+
+How dead-man is that? What's the problem? I am genuinely interested in how this can be improved.
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-21T16:29:39Z"
+ content="""
+Tails defaults to the 'ondemand' governor which drops the CPU frequency to the lowest clock speed when idling and only increases it temporarily when needed (i.e. on demand). Assuming you want to scale down the frequency in order to save battery time, this is ought to be the right approach, not manual control. If you want to change governor, that can be done by adding the \"CPU Frequency Scaling Monitor\" to the Gnome panel (right-click on the panel -> Add to Panel ...). It's a shame governor selection isn't integrated to the Gnome Power management applet (which shows the battery level).
+
+Unfortunately not all CPUs have frequency scaling support in Linux (most notably many Intel Atoms models don't) and for these there isn't anything we can do.
+"""]]

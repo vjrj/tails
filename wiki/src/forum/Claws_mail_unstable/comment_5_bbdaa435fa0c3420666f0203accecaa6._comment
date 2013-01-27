@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="matsa"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-21T19:09:00Z"
+ content="""
+@ comment 3
+
+I'm facing the same problem. However, I didn't noticed that \"it would bug when trying to reach the IMAP server\". When claws-mails freezes on the 'Allow decrypt?' window, I just kill claws-mail from tty2, and I can then reach again the IMAP server. Why do you also restart gdm?
+
+> I've been having a look on processes shown by top during the bug
+
+I've just discovered that it's possible to save the result of *top* in a file this way: *top -n 1 -b >> top-output.txt*. I hope it can help you.
+
+Greetings
+"""]]

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-20T10:06:13Z"
+ content="""
+> It's syncing with the system time, not just for tor correct?
+
+The system time is synced. Tor is of course not running its own clock.
+
+> What timezone is it syncing with, the time is still wrong after the time sync is executed.
+
+[UTC/GMT](https://en.wikipedia.org/wiki/GMT).
+
+> Is it really that crucial for tor that the time is synced up to par.
+
+It's absolutely critical. A Tor consensus is only valid for a three-hour period. If your system time is outside of that range, Tor refuses to create circuits.
+
+Beyond that, a correct system time is also good for anonymity: some protocols require you to send your system time to your destination, and some applications may incorrectly leak your system time. The more your time is off, the more unique it should be (assuming a standard distribution) and hence it could be used as a fingerprint, thus reducing your anonymity.
+
+"""]]

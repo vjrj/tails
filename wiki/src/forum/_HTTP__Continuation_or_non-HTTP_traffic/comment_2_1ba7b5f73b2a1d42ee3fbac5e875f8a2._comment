@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-14T02:05:12Z"
+ content="""
+You misunderstood what the user complains about. The issue is probably with Wireshark's packet misclassification. Of course, it's the user's fault for not looking into the packets further.
+"""]]

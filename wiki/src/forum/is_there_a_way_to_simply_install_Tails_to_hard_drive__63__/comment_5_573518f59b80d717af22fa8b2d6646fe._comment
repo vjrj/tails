@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-21T15:49:00Z"
+ content="""
+Tails can be installed on hard-disk, although our documentation and custom tools don't actively support it. In that case, one has to remove the `live-media=removable` boot option.
+
+"""]]

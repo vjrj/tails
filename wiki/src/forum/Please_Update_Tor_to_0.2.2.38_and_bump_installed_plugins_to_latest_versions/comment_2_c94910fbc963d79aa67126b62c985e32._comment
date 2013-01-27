@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-19T02:50:30Z"
+ content="""
+staying current with TBB stable, including openssl, should be a goal.
+
+if you can't update Iceweasel when it has many security/privacy holes patched, you may as well switch to FF ESR.
+
+how many developers are involved with this project, less than five?
+"""]]

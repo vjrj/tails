@@ -1,0 +1,11 @@
+Hey lovely Tails folks,
+I'm trying to format my Live USB as such:
+1 partition for Tails OS
+1 partition for my persistent volume
+1 partition that can be used on any computer, especially those with locked BIOSs, with Tor browsers for different systems and such
+
+I'm a bit of a noob so feel free to reply to me as such, but when i attempted to format my USB like this in a way i thought made sense, i get the message of "Missing OS" when i try to boot from it. (Perhaps similar to this: <https://tails.boum.org/bugs/__91__0.11__93_____34__Missing_OS__34___after_adding_a_partition_to_a_Tails__39___USB_stick/>)
+
+I'm hoping that there may just be a correct order to do this in, or some other easy fix that i'm ignorant of.
+
+Thanks for being so wonderful!

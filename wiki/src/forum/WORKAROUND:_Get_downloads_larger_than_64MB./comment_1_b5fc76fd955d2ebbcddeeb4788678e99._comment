@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-03T01:05:15Z"
+ content="""
+An easier workaround would be to skip polipo and use Tor directly through SOCKS. Of course, up until some time ago you'd then hit Iceweasel's bad SOCKS handling, but that's fixed now. Tails 0.10, which will be out in a few days, will ship an Iceweasel with proper SOCKS handling, and will use Tor directly.
+"""]]

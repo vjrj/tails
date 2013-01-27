@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-13T16:56:23Z"
+ content="""
+First of all, the forum is not intended for bug reports. Use the \"Report a bug\" tool from inside Tails instead -- that way you can easily supply logs and other system information which can greatly help us debug your problem.
+
+This may be fixed with a [[todo/backported_Xorg]] due to improved hardware support.
+"""]]

@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="@The Tails vs. I2P FAQ :)"
+ date="2012-10-25T23:51:53Z"
+ content="""
+Wow, detailed much? And here I was worried about my comment length ;P
+
+> > However, there are countries which would be happy enough to just block any I2P user regardless of what they might be doing (though to my knowledge there have been no such blocks), and so for users in those countries (or more wary users elsewhere) \"hidden mode\" disables publishing of the router's IP:port in the network database.
+
+> Sure, but you have to admit (well you do in the next quote actually :)) that \"hidden mode\" is a very weak protection against censorship which is equivalent to detection that one is using I2P? In fact \"hidden mode\" is to me a sort of misnomer (router.participating=BOOL or similar would be more honest and less confusing, IMHO) as it gives the impression that it makes you hidden, akin to using bridges with Tor. What \"hidden mode\" in fact does is to put the I2P client in the exact same situation of a normal Tor client (not using bridges).
+
+Yes, hidden mode is relatively weak protection, but it's not meant to be a switch that makes user invisible and impervious (if such a switch existed, it would have been flipped long ago!) It just adds another level of complexity to the task of tracking the user. It's about giving users the ability to tune their threat model, and enabling a range of threat models to coexist. I agree that \"hidden mode\" is probably misleading in that sense, so I'll put it forward to the other devs and see how we can clear that up (I'm working on a general push towards increased usability at present, among (many) other things). Having something similar to Tor bridges would be good (see the section about Restricted Routes at http://www.i2p2.i2p/techintro#future.restricted ) but is some distance off (due to lack of devs, time and research).
+
+--------
+
+For general interests, here are some pointers from zzz (lead developer) on becoming even more hidden (taken from http://zzz.i2p/topics/150)
+
+> Don't like having your IP in the netDb? Don't want your eepsite listed on http://i2p.to/status.php ? Some methods to upgrade from secret to super-secret:
+
+> 1) Don't publish your eepsite keys anywhere (definitely not on http://stats.i2p/i2p/addkey.html or on http://forum.i2p/viewforum.php?f=16 ) - pass them around some other way to the people you trust, put them in your privatehosts.txt.
+
+> 2) Run your own IRC server for your friends, don't publish the keys for that either
+
+> 3) Turn off stats publishing
+
+> 4) Turn on hidden mode
+
+> 5) Use long tunnels (length 3, variance 0)
+
+> 6) Don't use the http outproxy or the email gateway
+
+> Now, you aren't quite in a darknet but it's pretty darn shady.
+
+> Standard disclaimer applies: better anonymity usually results in worse performance.
+
+"""]]

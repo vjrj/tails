@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Depends where you are"
+ date="2012-04-01T10:34:05Z"
+ content="""
+Location data is often much more accurate than 300m but could be many miles in an area of extremely poor service. The modem also transmits an \"IMEI\" number which is unique and used to tie every connection the device makes to the identity of the purchaser. Much like a MAC address. Unlike a MAC address, it is probably illegal for you to even think about attempting to change the IMEI (although it is often technically possible).
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-26T10:35:03Z"
+ content="""
+This is not currently possible. [[todo/incremental_upgrades]] will support this usecase to some extent.
+"""]]

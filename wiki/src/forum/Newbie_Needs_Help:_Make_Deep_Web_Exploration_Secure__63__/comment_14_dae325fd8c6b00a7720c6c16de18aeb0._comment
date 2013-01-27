@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-01-16T10:07:42Z"
+ content="""
+@ comment 12
+> Does Tails have an opinion on deep net? Is there risk involved?
+
+There's no good reason to assume that visiting a hidden service in the \"deep web\" is more dangerous visiting any non-authenticated website on the \"open internet\". In fact, *any* exit node your Tor client chooses can trivially insert javascript into the non-authenticate page you load to perform attacks. Hidden services, on the other hand, are always authenticated, so only the owner of the hidden service can attack you in that way.
+
+Please note that there are no good javascript-based attacks to my knowledge, but one can never know, especially with 0-day vulnerabilities. 
+
+> There is an option for scripting, what does it do, why did tails include it, why does it appear to be off by default, does it have any relevance to the deep net? 
+
+I assume you're talking about NoScript's option to disable all scripts per default (?). It's turned off in Tails so Joe Sixpack, that doesn't even known what javascript is, can use Tails without experiencing \"teh iNtrnetz is br0ken\". Also, the Torbrowser does the same, so a Tails user will look more like a Torbrower user, which is good for anonymity. If you're visiting a site you really don't trust, turning all scripts off before may be a good idea though.
+
+@ comment 13
+> Since as I understand it, Tails itself run say off of a thumb drive is your browser and OS in one secure package, running it to explore the deep web is more or less safe -- Insofar as it can be -- Am I correct?
+
+Yes. If you suspect that the site you're about to visit is a honeypot mounting attacks on its visitors, turn off javascript before visiting it. After all, javascript is the source of most bugs in iceweasel.
+"""]]

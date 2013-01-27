@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-26T02:59:34Z"
+ content="""
+-Start up Pidgin
+-Click manage accounts and unlick/disable everything that tries to automatically run (i hate this.. why?? do not want to automatically connect to IRC and get a 'you are banned for spamming' message because of tor)
+-Click Add account
+-Choose XMPP from the dropdown list
+-Fill out username (any name you want)
+-Domain: use jabber.ccc.de or another jabber service
+-Resource: put in anything you want, doesn't matter
+-Password: put in desired password u want
+
+Then at the bottom of page, click 'Create this new account on the server'
+
+Now you have Jabber account. Your friend does the same, and when you are in chat window together click 'OTR' and choose 'Start private conversation'
+
+Pidgin will automatically generate OTR keys and you can talk encrypted with each other.
+
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=html
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-12-20T13:03:42Z"
+ content="""
+I saw <a href=\"http://tails.boum.org/todo/include_bitcoin/\">include bitcoin</a> and saw \"sounds like some persistence support could be needed for proper bitcoin support\". Wuala seems like the perfect solution. I supposed to point of the post was misleading; I didn't intend to introduce two brand new technologies, rather draw attention to their synergy.
+
+As for encryption, 7zip creates very secure, password-protected archives that are perfect for the encryption of bitcoin wallets. The available encryption methods seem to be geared more toward disk encryption and key-based encryption rather than password-based encryption of individual files.
+
+Thanks for your attention.
+"""]]

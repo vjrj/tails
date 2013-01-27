@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-12-30T02:17:43Z"
+ content="""
+> What is the big deal? I go over there and ask a few questions comparing TAILS to Libertine and the forum is disabled.
+
+That was a mistake in the setup — it's now fixed, and you are welcome to post as *Guest*. —MK
+
+PS. The security certificate is valid as well, but it's for the actual hosting domain. Personally, I think that browsers could be a bit smarter about validating certificates for a CNAME, but in the meanwhile you can view the certificate manually.
+"""]]

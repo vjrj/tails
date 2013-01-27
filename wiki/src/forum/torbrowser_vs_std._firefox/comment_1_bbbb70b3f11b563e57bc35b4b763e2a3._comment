@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-07T16:52:41Z"
+ content="""
+Hi, it is in the common interest of the Tor Browser Bundle (TBB) and Tails to behave in similar ways and to share work.
+
+But, as of now, we can't just use the TBB inside of Tails. For example, TBB tries to be as autonomous as possible and comes with its own instance of Vidalia and Tor, whereas Tor, Vidalia and Firefox are integrated as parts of a wider system in the context of Tails.
+
+So that would surely be interesting but for the moment that would be a lot of work and we're working on other priorities.
+"""]]

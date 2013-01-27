@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-15T23:29:03Z"
+ content="""
+Any suggestion for a better phrasing than the current \"numerous security holes\" one?
+
+>  Whonix is closely based on Ubuntu unix.
+
+This used to be the case, but Whonix is now based on the (not released yet) Debian Wheezy.
+
+"""]]

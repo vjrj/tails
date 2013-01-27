@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-27T12:16:09Z"
+ content="""
+The habits you outline in 1 seem fine, and that's about as much precision we can use when saying how anonymous a set of rules are. We simply don't have a good metric for anonymity, so we can't quantify it. There are a number of things you could add to make it better, the most important one being to use end-to-end encryption and authentication (e.g. HTTPS for web browsing, TLS/SSL for email login, OpenPGP via gpg for any type of data including email data) whenever possible.
+
+The difference between 1 and 2 is \"using Tor to access the open web\" vs. \"using Tor to access onion space\". Formally speaking there's no difference. Hidden services are designed with the sole goal of makeing it possible hide the identity of servers; they we're not designed for giving more anonymity to clients connecting to hidden servers. If that's the case it's merely coincidental.
+
+Sure, when using hidden servers the path between the client and the server is quite a bit longer, but that doesn't matter for any of the known attacks that breaks Tor. There may be other coincidental differences when using hidden services which may speak for or against it, but my point is that you as a client shouldn't care about it. Use services you have reason to trust no matter if they are .com or .onion, but don't trust them completely with your data (e.g. use encryption).
+"""]]

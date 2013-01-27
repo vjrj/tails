@@ -1,0 +1,13 @@
+Hi,
+I've been trying my best to get one of my ubuntu server vm's to route all traffic through tor, but the guides I've found does not work for me.
+
+I want it to work just like tails.
+All data coming out of the box should go through tor.
+
+I tried with the firewall rules in tails, but is there more I'm missing?
+
+Tor itself works just fine on my server, all I need help with is the routing.
+
+Can someone enlighten me on this?
+
+Thanks in advance!

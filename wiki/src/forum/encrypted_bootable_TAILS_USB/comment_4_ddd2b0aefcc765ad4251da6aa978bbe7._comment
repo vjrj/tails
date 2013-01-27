@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="rebelm"
+ ip="127.0.0.1"
+ subject="you can use truecrypt in tails"
+ date="2011-09-04T15:33:39Z"
+ content="""
+you can use truecrypt with tails:
+
+first option is to press TAB on keyboard during beginning of booting tails, then write (after timezone): truecrypt
+
+second option is to load tails, when system is loaded, click Places in your Panel/Toolbar, click Search for Files and type truecrypt. in \"look in folder\" choose File System, then click Find. you will get result (list of files), and my advice is to choose tar.gz file: truecrypt-7.0a-linux-x86.tar.gz (path:/usr/share/amnesia), with right click on file you can choose Open With Archive Manager and you will get file which you can extract to your Desktop or any other destination. then you should start that file on Desktop and you will get option to Run in Terminal. after that you will have to use arrows to scroll down very long disclaimer and then you type Yes on some question and it is installed. then you can find truecrypt in Applications -> Accessories.
+
+as you see, first option is much faster and easier, especially because of long disclaimer.
+
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-03T13:15:04Z"
+ content="""
+> Therefore, perhaps a boot option, \"Tails without Tor enforcement\" (or some other way) would be useful.
+
+I agree it would be useful in the context you describe. The question we need an answer to first is how common \"transparently Torified networks\" will become. If it ever becomes somewhat commonplace (e.g. via your project or Torouter) we may consider this, but for now it would be yet another option that may confuse users, and in this case confusion would imply ultimate defeat.
+
+Please go ahead and [[add a todo item|todo]] containing: `\[[wishlist]]`
+"""]]

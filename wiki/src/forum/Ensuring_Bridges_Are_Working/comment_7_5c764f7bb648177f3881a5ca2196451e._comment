@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-11T04:58:52Z"
+ content="""
+>Question: what do I input into Vidalia?
+
+Into the \"Editing Torrc\" window?..
+
+    bridge obfs2 11.222.33.444:12345
+"""]]

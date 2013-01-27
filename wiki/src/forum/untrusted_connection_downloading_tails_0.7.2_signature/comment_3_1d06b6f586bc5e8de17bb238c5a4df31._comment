@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Check Tails signing key against the Debian keyring"
+ date="2011-10-17T04:13:51Z"
+ content="""
+Is this a secure solution for Debian/Ubuntu users? [Check Tails signing key against the Debian keyring](https://tails.boum.org/doc/trusting_tails_signing_key/index.en.html#index3h1)? To do this it seems you must add the [Tails signing key](https://tails.boum.org/tails-signing.key) before you check it against the Debian keyring. (Unlike the iso and the iso signature, the Tails signing key uses boum's certificate although we are avoiding trusting this exclusively, we are verifying it with the Debian keyring.) I don't exactly understand what I am doing. I copied and pasted from the instructions on the website. I get the same output as what I see in the instructions. By \"secure\" I mean that assuming my current operating system is not compromised, the Debian keyring is downloaded securely through apt and this verifies the Tails signing key so that I may trust it to check the signature of the iso. Is this correct?
+"""]]

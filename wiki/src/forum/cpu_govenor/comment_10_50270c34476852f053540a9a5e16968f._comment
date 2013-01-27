@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-02-24T09:31:31Z"
+ content="""
+Please try the following:
+
+	sudo service laptop-mode-tools stop
+	sudo apt-get purge laptop-mode-tools
+
+Does it solves the overheating problem?
+
+Also:
+
+> on the same hardware,using a different debian based live OS with a 3.* kernel the ondemand behaves much better as it recognizes other possible states (1.0 and 1.3 ghz) and does not fluctuate such an erratic manner or so quickly.
+
+Please name exactly what other Live OS is exposing this behaviour, so that we can have a look at how it does, or does not, do things.
+
+"""]]

@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-11-18T02:33:51Z"
+ content="""
+>Now, will someone please post checksum(s) for a burnt 0.14 DVD? Thank you.
+
+...and for a verified then burned Tails 0.14 DVD:
+
+**MD5**
+
+2488551b75927c528f5df07e684a5592
+
+**SHA1**
+
+2f56a1c96cd31c4a1973fab6a95f388942199006
+
+**SHA256**
+
+29b8a10452b1cef438ac856f98b333e98ec7eedab9fa23066e4d0d9af1aeccf1
+
+**Tiger**
+
+619e5a9dbe1b01c8d8e4b03d02b891c94e5ab03f2eec5405
+
+**Whirlpool**
+
+f3d04676ec44e50b7ea964d3c1bd63b298b7496ac53ca18de74085e2cf54665eb727d08449f81ea48ee9c6b4c09983940d4edf4c0938f0a87b508eb066c6c3b8
+
+"""]]

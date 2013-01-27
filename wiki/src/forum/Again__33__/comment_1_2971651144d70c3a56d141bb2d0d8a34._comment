@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-25T08:36:20Z"
+ content="""
+> Again Failed to snychronize the clock!
+
+I am very sorry this happens to you again, but you apparently do know we *already* are well aware about the problem and have gone ways to fix it in the next point-release, so... What kind of good do you think reporting it again, without any kind of debug log or useful details, can do?
+
+> When will we see TAILS 0.10.1?
+
+We have not decided a release date yet. *Soon* should be correct.
+
+> Thank you!
+
+You are welcome :)
+
+"""]]

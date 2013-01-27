@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-10T20:11:49Z"
+ content="""
+Thanks for educating me on how to properly spell \"javascript\" - for a software designer with 15 years of experience is it really a shame to still spell it as a two words:) 
+
+Now back to the original point of my question. Here is a simple javascript (or \"Java Script\") that easily reads your IP: http://javascript.internet.com/user-details/ip-address.html
+I do not have Tails thumb drive handy at the moment - but I will try to access this url later today via Tails/Tor and see if Torbutton safely handles this particular java script.
+"""]]

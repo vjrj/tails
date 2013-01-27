@@ -1,0 +1,57 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="More answers"
+ date="2011-10-16T14:14:41Z"
+ content="""
+Thank you for bringing this to our attention. It for sure is sane to
+confront the Tails design and implementation (and ourselves!) with
+assertions of possible flaws.
+
+Short version of the answer: the quoted text is sometimes wrong, often
+exagerating a lot, and there's nothing that serious to worry about as
+far as I understand it.
+
+\"One of the most notable Liberté Linux design differences from PELD is
+the issue of explicit vs. transparent proxying of network connections
+of applications. In Tails, any application that creates a network
+connection is transparently routed through Tor (including DNS
+requests).\"
+
+> This is plain wrong, and never was true in any Tails release I can
+> remember. Most network applications in Tails are explicitly
+> configured to use Tor via a local proxy, i.e. just the way claimed
+> to be superior in the quoted text. Our transparent torification is
+> an additional level of protection; this is called:  security in
+> depth. In any case, please report us what applications are not
+> explicitly configured in Tails to use Tor; we probably can do
+> better!
+
+\"This approach to Torification of network activity is fundamentally
+flawed [...]\" and later \"Liberté avoids this serious design flaw\"
+
+> Using big, strong words such as *fundamentally flawed* and *serious
+> design flaw* does not make wrong arguments right.
+
+\"As a result, there is explicit reliance on the application not
+inadvertently leaking this address to its communication peer due to
+a bug, a wrongly implemented feature, or a design flaw.\"
+
+> Application-level leaks are possible indeed. That's why we carefully
+> choose and audit the networking applications we include in Tails
+> against such leaks. But again, this kind of precautions is just
+> another level of protection, not the only one the security of Tails
+> is relying upon, contrary to what is claimed in the quoted text.
+> Also, leaks at the application-level can happen in many other ways,
+> and binding an application to a loopback interface is no magic wand
+> against this class of issues.
+
+\"In addition, many applications leak unnecessary DNS requests that,
+too, are automatically routed through Tor in this approach.\"
+
+> I don't know what application in Tails leaks \"unnecessary DNS
+> requests\". In any case, I may be missing something, but I fail to
+> see why and how this would be a problem. Routing outgoing network
+> requests through Tor is part of Tails description, see [[about]].
+
+"""]]

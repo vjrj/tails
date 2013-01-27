@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="About Allowing Access to Internal Drives of an USB When Using Tails"
+ date="2012-12-26T04:05:00Z"
+ content="""
+When I installed Tails 0.15 with the following steps
+
+https://tails.boum.org/doc/first_steps/usb_installation/index.en.html
+
+onto a 32 gigabyte memory stick, I noticed something very strange. My USB memory stick could no longer be accessed normally from My Computer in addition to all content on it being wiped out (I was expecting the content to be wiped out but I didn't like my inability to access the content of the Tails-installed memory stick). The memory stick I used for installing Tails was already encrypted by a Truecrypt Decoy and Hidden Volume. When I tried to mount the Memory Stick on Truecrypt, it no longer  showed any \Device\Harddisk2\Partition on my Truecrypt's Select a Partition or Device window. I was no longer able to store or access any content of the memory stick with Tails installed. Strangely, the Removable Disk 2 (which was the Tails-Installed memory stick) displayed 1.5 gb of storage space even though my memory stick has 29.6 gb of storage space. 
+
+So why is my 32-gigabyte Tails-installed memory stick only displaying 1.5 gb of storage space? Why can't I access this memory stick anymore? Also is there a way I can install Tails on an encrypted memory stick, preferably inside the Hidden Volume? I am trying to install Tails USB within a Hidden Volume of an encrypted memory stick which I can boot during pre-boot mode or boot within my OS on Virtual Box (btw my computer's HDD is also encrypted by Truecrypt so it requires a preboot authentication, so I am not sure how that would effect the prebooting of the Tails OS).
+
+How do I access the inside of the Tails-installed USB stick? Better yet, how would I do that from within Virtual Box?
+
+My goal is to have Tails installed on a USB so that I can boot it from my computer's black Start Up screen or within Virtual Box. The best option would be having the ability to store other files on the Tails-installed USB. Preferably all these files and the Tails OS are nicely encrypted by Truecrypt.  Is this possible? If so, how would I do it? 
+"""]]

@@ -1,0 +1,40 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Chromium more secure than Firefox"
+ date="2012-10-15T05:30:13Z"
+ content="""
+>Maxim Kammerer: Requiring Javascript is to be expected these days on a WYSIWYG-capable discussion site, I think. While I would be happy if Zoho didn't require it, the advantages of a well-polished forum like this outweigh such an inconvenience. There is no going back to Web 1.0, and while it's best to keep Javascript off on untrusted sites, it's unreasonable to avoid sites that don't work without Javascript.
+
+You are not only trusting \"the\" site you are trusting the exit node, unless you are using the TLS connection. The WYSIWYG editor is nice however.
+
+On web browser choice, Guest makes a good case for Chromium:
+
+<https://forum.dee.su/topic/midori-set-in-stone>
+>Sure, source:
+>https://www.mozilla.org/security/known-vulnerabilities/firefox.html
+>http://googlechromereleases.blogspot.com/
+
+>Now we only need to count the bugs that allow remote code execution through a single bug. Summary: Firefox: Many. Chrome: Flash, PDF plugin maybe?, Chromium: probably 0, all remote code execution bugs in Chromium I know of require an additional sandbox break out.
+
+>Another metric: publicly known exploits in the wild: Firefox \"many\" (definitions of \"many\" vary but it's at least the 5th most targeted software in exploit kits after Java, Flash, IE and Acrobat). Chrome/Chromium: still 0
+
+>The \"uncountable\" comes from the fact that Firefox has millions LOC, more are added all the time, new features are always followed by new security releases. In years old code bugs are still found. Unless they start redesigning the whole architecture to make the TCB small and eventually verified/bug free, Firefox will always contain security critical bugs.
+
+>You think disabling Javascript is enough to bring security up to par? True, a good chunk of the exploitable bugs are rendered harmless, but certainly not all. We have SVG, libtiff, frequent CSS issues and the notorious libpng.
+
+>Javascript also really needs to be disabled, almost nobody does. Most rely on NoScript whitelisting instead. Even if you only keep a single item (addons.mozilla.org) in the whitelist you are very vulnerable when using Tor. Any non-https site can inject (or be injected by exit nodes) an malicious iframe to http://addons.mozilla.org which NoScript will happily allow to execute scripts.
+
+>Privacy is a pretty moot point in the context of Liberte. Your IP is secure, you have a non-unique fingerprint and any cache and cookie data can easily be erased or won't make it across reboots anyway.
+
+>It lacks the plugin API so NoScript, Requestpolicy, and real thorough adblocking are not possible (yet). But that doesn't really affect your privacy when you are already using Tor. It just means you have  a bit less control over your browser but then in a way that's a good thing. As pointed out by Tor, custom filters and settings reduce your anonymity set. Chromium could always be forked to introduce the missing features.
+
+>Honestly I'd like to have an alternative to both Chromium and Firefox, something that's small and not tied to Google or a Mozilla. I wouldn't even care if it didn't support JS at all but everything I looked at  either is big and heavy too (like epiphany, kde*) or lacks crucial security features, namely proper TSL support: None of the text based browser, midori, dillo lets you view a certificate's signature, fingerprint... In the light of this I came to the conclusion that the only browser written with security in mind is Chromium. It's not just the privilege separation, the code is of high quality, it got certificate pinning, the devs stay on top of all security issues and updates are frequent.
+
+Chromium has less spyware than Chrome 
+
+<https://en.wikipedia.org/wiki/Chromium_%28web_browser%29#Differences_from_Google_Chrome>
+
+...but SRWare Iron seems to have removed more privacy threats
+
+<https://en.wikipedia.org/wiki/SRWare_Iron#Differences_from_Chrome>
+"""]]

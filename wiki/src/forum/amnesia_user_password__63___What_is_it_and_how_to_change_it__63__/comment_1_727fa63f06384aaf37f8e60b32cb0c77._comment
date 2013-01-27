@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-10T10:32:17Z"
+ content="""
+> I want the amnesia account to have a password, too.
+
+Why do you want to do this? In Tails such a password should be pointless.
+
+> What is it so I can change the password for the amnesia user.
+
+If you want to do it any way, run the following command:
+
+    sudo passwd amnesia
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-04T13:29:56Z"
+ content="""
+So it appears TorBrowserButton 1.4.0 has some defense against these types of cross-site attacks with the SafeCache patch and there's more work in progress.  Good.
+
+What is \"the SSL attack\" referred to in the thread?
+
+
+
+
+"""]]

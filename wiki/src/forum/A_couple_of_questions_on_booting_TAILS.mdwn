@@ -1,0 +1,12 @@
+Hi, there. Thank you very much for this wonderful tool.
+
+I have a couple of problems booting TAILS.
+
+If I use a version 0.9 or 0.10 ISO downloaded from your site under VirtualBox (as virtual CD), I get an "Unable to read boot device" error. Some of the sectors in the ISO file seem to be unreadable. The same happens when I burn these files to a physical CD-ROM, but in these cases the boot process continues until it shows an X login prompt!
+The strange thing is that these same ISO files used from a USB stick work perfectly ok.
+
+I have built my own release from git sources, and the ISO obtained also shows an X login prompt when booting as CD, and no login when booting as USB media. Any explanation for this?
+
+(The signatures of the downloaded files were checked, and everything was correct)
+
+Thanks a lot!

@@ -1,0 +1,5 @@
+If I set Vidalia (settings -> network -> check "I use a proxy..." and enter proxy setting) to use a proxy is there any way to confirm that the connection is in fact going first to the proxy before gong to the first relay? 
+
+I am using Tails 0.10
+
+Thank you

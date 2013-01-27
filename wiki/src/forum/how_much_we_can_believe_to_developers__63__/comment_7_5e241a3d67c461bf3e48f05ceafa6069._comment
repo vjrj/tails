@@ -1,0 +1,45 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="my answer"
+ date="2012-01-23T16:11:07Z"
+ content="""
+@comment 2, very nice picture:):):) 
+
+@comment 3, very good links, thank you. 
+
+@comment 4, well, you think it is better if everything is public than secret (financing and connections with US gov), I must agree that it is better if things are not hidden, but again I must get information about amount of control of developers over tor network, so, I can conclude if they can misuse network to help to the repressive departments of the state. if network is totally out of control of developers, it is good. software can not be perfect, therefore there are patches/updates. 
+
+>Unless you link/quote the text in question I can only guess about it's nature, and the obvious seem to be that it has something to do about Iran actively blocking Tor. If their statement was about this, why call it propaganda? Isn't on-topic criticism towards regimes that work against Internet anonymity a perfectly logical position for a project developing tools for Internet anonymity?
+
+If Torproject team criticize Iran together with other countries, it is not war propaganda, if they criticize only countries which are target of USA (Iran, etc), they include themselves in war propaganda. I don't think that Iran is the only country which block tor. they can make a list publicly so we can see all countries which block tor and mention them all when someone criticize blocking of tor. 
+
+>Tor can be used for any purpose, so even if TTP is biased Tor itself is pretty neutral in that sense... 
+
+I would be happy if it is so. 
+
+>So either they actually appreciate the US justice system, or it's just a strategic PR move -- such a section is very likely to generate better understanding when TTP is dealing with the law, which they do regularly. In either case it is of no importance when discussing whether one can trust the Tor software or not.
+
+but therefore they will loose users of Tor and network will become smaller, people identity Tor and Torproject team as one thing, if people can not believe to developers, they will use some other anonymous network. 
+
+>Ultimately the code is the only thing one can establish real trust from when dealing with software. 
+
+I am agreed but as I said, many people are not programmers and again, crowd of people can check tor open source code but again who are those people who check? obviously we must wait that many people from al kaeda become programmers and then when they check it, I can believe it is correct. al kaeda is enemy of US military, so, counter side must check the code and not any programmer. red cross, human rights NGOs are full of snitches who work for political police, antony lake (former adviser for national security for Clinton) is executive director of UNICEF, so, HR NGOs and international aid are full of rats. and programmers who speak against Iran are paid by political police. I am spied 10 years so I got nose to smell rats. and programmers didn't study human rights then mathematics, etc. if they get money from political police, they will work for them. therefore only Iran is bad for them, they get money and they identify themselves with government politics and they repeat phrases of government (against somebody).
+
+>(and you've already admitted to use Tor in Microsoft Windows (!) so you cannot be that serious about these issues), 
+
+I use public computers so sometimes I don't care if microsoft get some information, I use Tor 10 minutes to check email or some forums and bye bye, rats are not so fast, although they can install keylogger if I use the same PCs all the time. So, therefore I need tails, tails protect me from windows and software keylogger, but not from hardware keylogger. problem is that some public PCs are booting only from HDD, I can't use usb or CD/DVD to boot tails, and therefore sometimes I use Tor from windows. unfortunately, ophcrack still can't break windows 7 admin password and I don't have hardware keylogger to catch bios password of administrator (some of them install everything from iso image from server, so, even hardware keylogger would not help me to catch bios password). it means I can't change boot options and I am pushed by situation to use windows 7. in any case I change PCs very often when I use Tor. 
+
+and I would like to say that Iran is not the only one who block Tor, try Tor in Copenhagen city libraries, all of them block Tor + torproject website, and all other sites which look like proxy. so, censorship is very strong in the center of Europe but as I said, some people get money to speak only against Iran, they are not interested what is bad in Europe. 
+
+>If you just distrust the current Tor network there's nothing preventing you from starting your own, alternative Tor network using the very same Tor software.
+
+I will try it when I become rich, I will buy 1000 servers :)
+
+>However, if the current Tor network is infiltrated with snooping nodes, what makes you think that your network wouldn't attract such infiltrators once it grows in size?.......There's no need for a backdoor in the software -- simply observing traffic flows is enough to break any anonymity network if you can see enough of it, and this is by design (and is unfortunately unavoidable :/)....These attacks were not on Tor, but on the Apache server hosting the websites (at least in the Freedom Hosting case).
+
+well, obviously some things need to be changed in tor software/network architecture, so, there should be no possibility for snooping nodes. maybe network should not be public, or traffic data/packages should be encrypted, in that way, hackers could not analyze traffic and find target. or some other solution should be made. if it was possible to attack Freedom Host, or any other server in Tor network, it is urgent to make changes in tor network security or architecture.
+
+>Which is good, because this relationship likely will help keeping Tor legal, and will prevent more Tor exit node operators from being needlessly raided and having their computer equipment seized. 
+
+hehehe, so, this is proof that Tor is attacked in USA and not only in Iran, but people speak only about censorship in Iran. c,c,c... tor developers decided to give training to repressive forces of the US, instead to fight against censorship. as I see, anonymous group didn't ask congress to train them then they attacked when someone make censorship and others (corporations like google, reddit, etc) make blackout day with aim to make PRESSURE on the congress and not to train congress ;) but okay, it is not your decision than decision of tor developers, now I understand that tor is separated from tails and I just give here my opinion: I hope developers will stop with their present behavior and start to resist to censorship everywhere and not only in Iran. 
+"""]]

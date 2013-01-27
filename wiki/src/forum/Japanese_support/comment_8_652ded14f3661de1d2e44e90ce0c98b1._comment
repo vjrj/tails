@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="@ comment 6"
+ date="2012-09-18T19:53:56Z"
+ content="""
+>E.g. something like \"when you boot Tails and choose Japanese in tails-greeter, then a XYZ entry should appear in the input systems menu in the taskbar\".
+
+When you choose Japanese in Tails' greeter, everything in the OS menu will be in Japanese except for a few items in English.
+
+You will still require some knowledge of Japanese to navigate.
+"""]]

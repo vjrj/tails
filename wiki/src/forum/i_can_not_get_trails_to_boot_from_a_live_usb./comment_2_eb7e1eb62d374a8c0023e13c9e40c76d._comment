@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-01-10T06:42:49Z"
+ content="""
+two solutions at 
+
+http://www.pendrivelinux.com
+
+universal usb installer
+
+http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+
+YUMI 
+
+http://www.pendrivelinux.com/yumi-multiboot-usb-creator/
+
+Make sure the usb drive is selected to boot in bios (some computers wont do this) and formatted corrected ie fat32
+
+
+
+"""]]

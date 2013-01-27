@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 24"
+ date="2012-01-10T23:54:27Z"
+ content="""
+Tails,
+
+Re the MITM possiblity. Tor always starts on my machine and trying \"Tor\" in the root command line always asks if Tor is already running because it is. The problem is after Tor starts. As mentioned previously, clicking preferences | test settings from the Iceweasel onion asks if Polipo is running. When all is well (just now) the test result is that the test passed.
+
+Maybe a conflict with Polipo?
+
+
+"""]]

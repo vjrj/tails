@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-29T15:15:33Z"
+ content="""
+Usual network monitoring tools should be enough: `netstat`, `iptables` counters, etc.
+
+"""]]

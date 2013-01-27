@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-25T08:38:46Z"
+ content="""
+Have you tried to use GoogleSharing over Tor?
+
+My own experiences were fairly unpleseant: Firefox/Iceweasel completely freezes everytime it needs to access one of Google services. That's for about a second or two, but it is really really annoying.
+
+Those tests were made a few weeks ago, I don't know if the code had changed since.
+"""]]

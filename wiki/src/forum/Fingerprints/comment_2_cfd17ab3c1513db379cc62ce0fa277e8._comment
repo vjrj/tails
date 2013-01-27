@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-24T18:18:08Z"
+ content="""
+Can you please comment about the default screen size information?
+
+I'm using Tails on my laptop now and the sizes of the browser are 1000x600 (was 1000x800 on the big monitor). I realized that this is shown as more widely used than 1000x500 in panopticlick.
+
+TBB - 1000x500 - one in 2700 browsers
+
+Tails - 1000x600 - one in 1600 browsers
+
+But we should think about the **one in XXX \"Tor\" browsers** 
+
+So why don't you set the default sizes as same as the TBB = 1000x500
+
+This difference makes it easier to identify someone.
+"""]]

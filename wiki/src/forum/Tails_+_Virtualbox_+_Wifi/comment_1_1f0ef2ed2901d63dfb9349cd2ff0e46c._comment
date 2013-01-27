@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-06T20:31:28Z"
+ content="""
+> if I use tails in combination with virtualbox, tails seems to detect my wifi stick but it doesn´t show the networks in my neighbourhood and I´m also not able to connect to my own network. Does anyone know a reason for this?
+
+In your Tails virtualbox appliance, go to Settings -> USB and make sure that \"Enable USB controller\" is on, and that \"Enable USB 2.0 (EHCI) controller\" is off. I've seen reports that the latter works badly with everything except storage media.
+"""]]

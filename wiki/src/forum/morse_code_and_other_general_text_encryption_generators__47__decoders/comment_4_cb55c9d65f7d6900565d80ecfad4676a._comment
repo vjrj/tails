@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-08T04:48:49Z"
+ content="""
+A few examples:
+
+Package: morse (2.4-2 and others)
+http://packages.debian.org/sid/morse
+
+Package: morsegen (0.2.1-1 and others)
+http://packages.debian.org/sid/morsegen
+
+Package: xdemorse (1.3-6 and others) 
+http://packages.debian.org/sid/xdemorse
+
+Package: gcipher (1.1-1) 
+http://packages.debian.org/sid/gcipher
+
+and:
+
+md5deep
+
+and: (if not already included)
+
+peazip
+"""]]

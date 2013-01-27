@@ -1,0 +1,13 @@
+>504 Connect to www.bbc.co.uk:80 failed: Too many open files
+>
+>The following error occurred while trying to access http://www.bbc.co.uk/news/:
+>
+>504 Connect to www.bbc.co.uk:80 failed: Too many open files
+Generated Mon, 24 Oct 2011 20:18:01 UTC by Polipo on localhost:8118.
+
+Been increasingly getting the above error -- could be something to do with uptime (currently running at over 4 days).  It is not to do with the number of tabs open - the above was a freshly run FF with only the one tab open.
+
+A lot of webpages also displaying as though missing a stylesheet, rendering the page as though it were HTML 1.0.
+
+
+

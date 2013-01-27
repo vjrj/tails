@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="**All** outgoing connections to the Internet are forced to go through Tor."
+ date="2011-09-02T17:08:29Z"
+ content="""
+While using Tails **all** outgoing connections to the Internet are forced to go through Tor. That means the one from the web browser, the instant messaging client, the email client or any outgoing connection you can create to the Internet.
+
+This policy is enforced by firewall at the operating system level so it doesn't depend on the particular application creating the connection.
+
+"""]]

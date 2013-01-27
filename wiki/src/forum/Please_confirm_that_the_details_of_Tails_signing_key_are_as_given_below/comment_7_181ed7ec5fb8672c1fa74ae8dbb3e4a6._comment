@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Thanks very much"
+ date="2012-10-15T17:28:46Z"
+ content="""
+>I claim that this is the correct signing key fingerprint.
+
+Thanks very much for your confirmation.
+
+>However, instead of asking us here on the forum you could just download the signing key from the Tails website.
+
+I downloaded it 3 times and each time, Gpg4win stated that the key had expired. This, in spite of the fact that a Tails developer affirmed that s/he had updated the Tails-signing key on Tails' download page.
+
+In the end I had no choice but to obtain the Tails' signing key from one of its key-servers using Kleopatra. This key is still valid (i.e. not expired).
+
+That is why I asked on this forum for the Tails developer's confirmation of the fingerprint of the key that I downloaded from a key-server via Kleopatra.
+
+I hope the above background helps you guys to understand why I posted the original request.
+
+
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-06-18T11:38:41Z"
+ content="""
+@ comment 4
+> Does Tor's DNS resolution do about the same thing as OpenDNS's DNScrypt? If so, then why does OpenDNS claim its DNScrypt is a MITM solution when Tor, and Tails, does not make that claim?
+
+Tor's DNS resolution has no extra protections against MitM. It's only normal DNS resolution + anonymity. Well, it has an additional security property that at least makes a difference: it's distributed, so to completely compromise all of Tor's DNS resolution, every Tor exit node would have to be compromised or MitM:ed when *they* perform the DNS resolutions for the Tor network. In contrast, OpenDNS (or any other individual provider) only have a handful of servers that need to be compromised.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-20T21:12:33Z"
+ content="""
+I have this problem especially for file hosting sites (filesonic.com). I'm trying new identities to find a working one.
+
+Also you (sometimes) have to enter captcha to use websites which use Cloudflare. The reason is the spammers using Tor.
+
+And of course you cannot add/edit anything to Wikipedia.
+
+So I have a question, is there any proxy site we can use with Tor which is not affected by these problems? Probably it has to be an unpopular service? Is there any free or low cost service to setup our own proxy or web proxy to use with Tor?
+"""]]

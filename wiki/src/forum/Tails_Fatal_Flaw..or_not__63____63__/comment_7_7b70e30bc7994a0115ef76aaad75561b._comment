@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2011-10-17T15:02:08Z"
+ content="""
+> Contrary to what you seem to believe, and base much of your reasonning on, in Tails, transparent firewall-level proxyfication is not done systematically, but only for connections that are not targeted at the loopback interface.
+
+Unless those applications decide to circumvent the proxy due to a bug, like many do with DNS requests for a fact. What is the basis of your belief that an application will honor its proxy settings in each and every situation? Many have independent modules, like file exchange in chat software, for instance, or whatever else. You are depending on your review of each and every application, just like the quote says. Your comparison of this frequent bug with an application suddenly deciding to find out its external NIC address, and transmitting it via the proxy, doesn't make sense — that would be an explicit feature.
+
+> Playing with netstat in a Tails system is enough to show that e.g. Iceweasel, wget and Pidgin do not bind to anything but the loopback interface.
+
+That's great — they shouldn't. However, any application creating a connection not via a proxy, will happily bind to the external NIC, and your NAT rules will still route the connection.
+
+> That's why I still dare pretending it's an additional security, in case something goes wrong.
+
+You are just defending a flawed design that's already implemented. It's additional security only if you compare with allowing non-Torified connections. But the whole premise is forbidding them, so this \"additional security\" qualification doesn't make sense. If we were discussing this at a planning stage, you would likely agree that transparent proxying should be avoided for the reasons quoted above, unless some kind of network-level encapsulation is provided with a virtual NIC and routing rules.
+"""]]

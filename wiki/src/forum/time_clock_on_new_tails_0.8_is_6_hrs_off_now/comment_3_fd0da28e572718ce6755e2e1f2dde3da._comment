@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-09-23T08:18:34Z"
+ content="""
+Changing the timezone is not recommended as it will make you stand out from the rest of the Tails users. Of course, we try our best to prevent programs from leak your time zone, but in general it is always better if all Tails users look the same, and that's why we set UTC (since Tails 0.7.2) as the default.
+"""]]

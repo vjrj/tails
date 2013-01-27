@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: Is there any way too:"
+ date="2011-09-03T17:59:59Z"
+ content="""
+I typically save content from the Internet using TAILS (w/Lice CD or USB):
+Assuming you have saved an image, text file, or document on your TAILS Desktop:
+1) Become root:
+   $ sudo -i
+2) Run following command to find the hard drive device name you want to mount
+   # fdisk -l
+3) Assuming your hard drive partition is /dev/sdbx, create a mount point directory
+   # mkdir /mnt/sdbx
+4) Mount the hard drive (assumes it is an ext3 file system of a Linux hard drive)
+   # mount -v -t ext3 /dev/sdbx /mnt/sdbx
+5) Change directory from ~amnesia/Desktop to save directory
+   # pushd /mnt/sdbx/root/save
+6) Save downloaded document on hard drive
+   # mv ~amnesia/Desktop/ms.doc /mnt/sdbx/root/save
+7) Pop the hard drive directory path
+   # popd
+8) Exit root account
+   # exit
+
+"""]]

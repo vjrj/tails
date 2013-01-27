@@ -1,0 +1,50 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-12-05T07:50:14Z"
+ content="""
+Regarding the quotation from a Tor-talk post by Roger Dingledine, which is archived at
+
+    https://lists.torproject.org/pipermail/tor-reports/2012-December/000095.html
+
+I wrote above:
+
+> Thank you for that information! It is good to know that this may not be nefarious after all.
+
+Unfortunately I think I need to walk that back a bit.  Here is that quote again in context:
+
+> Then I attended an FBI conference, as part of my work to try to keep Tor on good relations with law enforcement. My first goal is to remind them of all the good uses of Tor, so if they ever find themselves lobbying to outlaw anonymity online, they'll understand what they're giving up. The second goal is to make sure they understand what Tor is and how it works, so if they encounter it in their investigations they'll hassle our exit relay operators less. (Here's a great way that one FBI person explained it to me: \"I've got 10 leads, and 48 hours before this case doesn't matter anymore. If you can help me understand which leads *not* to follow, I can do my job better.\") My third goal is to help
+them be able to use Tor correctly for their own jobs -- remember that diversity of users is part of what makes Tor safe for everybody to use.
+
+> Overall, we've been doing a pretty good job at teaching US-based law enforcement about Tor. At the end of the conference, one of the FBI agents took me aside and asked \"surely you have *some* sort of way of tracking your users?\" When I pointed at various of his FBI colleagues in the room who had told me they use Tor every day for their work, and asked if he'd be comfortable if we had a way of tracing *them*, I think he got it.
+
+> I met a nice man from the DEA who worked on the \"Farmer's Market\" bust. This was in the news a lot back in April, where apparently some people were selling drugs online, and using a Tor hidden service for their website. At the time I thought the news stories could be summarized simply as \"idiot drug sellers accept paypal payments, get busted.\" It turns out they were pretty smart about how to accept paypal payments -- they just had random Americans receive the paypal payments, take a cut, and then turn them into a Panama-based digital currency, and the Panama company didn't want to help trace where the money went. The better summary for the news stories should actually have been \"idiot drug sellers use hushmail, get busted.\" Way before they switched to a Tor hidden service, the two main people used Hushmail to communicate. After a subpoena (and apparently a lot of patience since Canada still isn't quite the same as the US), Hushmail rolled over and gave up copies of all the emails. Many more details here:
+
+    http://www.scribd.com/doc/89690597/Willemsindictment-Filed-045
+
+> I should still note that Tor doesn't introduce any magic new silver bullet that causes criminals to be uncatchable when before they weren't. The Farmer's Market people ran their webserver from Malaysia before they switched to a Tor hidden service, and just the fact that Malaysia didn't want to cooperate in busting them was enough to make that a dead end. Jurisdictional arbitrage is alive and well in the world.
+
+> 3) While there, I talked to some friends from MIT who now work on the Akamai security team. I walked them through how they could usefully contribute to Tor, and now they're running a pile of fast exit relays:
+
+    http://atlas.torproject.org/#search/akamai
+
+I am not really opposed to having RD chat up the Untouchables, particularly if the focus is more on \"privacy should concern not just us but you too, because you too are a citizen who can be harmed by abuses just like anyone else\" than on \"here's how you can effectively unmask and investigate troublesome Tor users without simply seizing every Tor router on which you can lay your plodding palms\".  
+
+And I recognize that since he resides in the US he has little choice but to try to placate three letter agencies which hold virtually unlimited power over US residents.  Under the circumstances, suggesting to FBI agents lines of attack other than trojaning every Tor user's computer may be the least objectionable procedure available.
+
+But the full context certainly does shed a different light on the offer of help from the Akamai employees, which in my view raises the obvious question: might the Akamai security team (or their employer, which presumably has signed off on the use of company resources) have some ulterior motive in addition to or in place of an altruistic desire to help the Tor community?
+
+I am not really opposed to taking help where it is offered, but at times I do question the putative altruism, particularly where companies which operate in areas which tend to be intristically hostile to privacy are concerned.
+
+I am not really opposed to the idea that corporations should have security teams or that they have a legitimate need to \"police\" their networks.
+
+I just think that suspicion of the true intent of \"friendly\" blue coats regarding Tor users is well warranted in the current environment, which seems to so favor the authoritarians over the average citizen seeking to learn what's what and maybe to contribute some thoughts.
+
+But the Untouchables would probably contend that things are just the other way around, that the anarchists are lording it over the authorities.  Probably the one thing we can all agree on is that the current situation appears unconducive to the flourishing of a civil and free society.
+
+The anecdote about Hushmail raises concerns about the advice sketched here:
+
+   https://www.eff.org/deeplinks/2012/11/tutorial-how-create-anonymous-email-accounts
+
+
+"""]]

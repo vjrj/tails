@@ -1,0 +1,14 @@
+I recently had to exchange my "BandLuxe R300" WiFi router with a portable MiFi "BandLuxe PR300" one. Win 7 had no problem connecting to the old and new routers. Tails on the other hand could not connect to the new router (PR300). Although I think this problem is from the router itself and not Tails, there should be a way to bypass this issue. my search resulted in a post on similar problem with LimuxMint:  
+http://forums.linuxmint.com/viewtopic.php?f=90&t=75560
+  
+My card is Broadcom 43224AG. I tried a USB modem Alfa AWUS036H with the same result. 
+
+If I make the network hidden (SSID boradcast OFF), then even Win 7 could not connect. Had to do factory reset to re-access my router (USB connection did not work). I tried it twice to be sure it is not a password or other typo issue.
+
+The router PR30 is running OpenWRT software and I have no idea if there is a way to fix this or even how to file a bug report with OpenWRT people. The BandRich website does not have any Firmware update to this model yet.
+
+Is there a way to adjust the router or Tails config to bypass this issue?
+
+Thx
+
+ZB

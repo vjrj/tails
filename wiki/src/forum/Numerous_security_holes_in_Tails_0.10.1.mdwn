@@ -1,0 +1,11 @@
+"It was discovered that a buffer overflow in the Unicode library ICU could lead to the execution of arbitrary code"
+
+Could someone please explain how these types of vulnerabilities effect the average user?
+
+ For example I understand that tails is refreshing upon boot, although it occured to me that the one non "amnesic" element is the user itself, ie encription  passwords aren't likely to refresh upon reboot. Is it possible a vulnerability of this type could allow the discovery of passwords?
+
+Do these vulnerabilities amount to an open book for governments/ others of resource?
+
+ie until discovered and patched by unpaid open source contributors so on and so forth for an infinity of vunerabilities
+
+

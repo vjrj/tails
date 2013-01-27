@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2013-01-08T19:08:46Z"
+ content="""
+I want to draw attention to an aspect of the Stuart case (see the OP) which has not yet been mentioned.  This detail is very important because it appears to illustrate a legal strategy in which US law enforcement might in future use a form of \"rubber hose cryptanalysis\" against developers in order to subvert Tails/Tor or even key Debian softwares.
+
+From
+
+    http://www.wired.com/threatlevel/2013/01/coder-charged-for-gambling-software/all/
+
+> Stuart asserts that New York authorities only came after him because they wanted to use him as a conduit to uncover illegal gambling operations in that state. He says the New York district attorney’s office tried to strong-arm him into a plea agreement that would have had him *hacking into the systems of his software clients in order to obtain the usernames and passwords* of gamblers and their bookmakers to help authorities gather evidence of illegal gambling... Under plea agreement discussions that were never finalized by a judge, and that occurred in February 2011 before Stuart was charged with any crime, Stuart says New York authorities pressed him to install a backdoor in his software and distribute it to clients so the data of gamblers and bookmakers could be retrieved.
+
+Legal experts point out that the Manhattan DA's office probably over-reached its authority in trying to bully Stuart into subverting his own software:
+
+> While it’s not unusual for suspects to become informants and work undercover with authorities to gather evidence against others, *pressuring a software vendor to backdoor his own software and then sneak into his customers’ systems is an “outlandish” law enforcement tactic*, says Granick, and would make him criminally liable under the Computer Fraud and Abuse Act unless authorities obtained a court order in the U.S. and also obtained all of the relevant legal permissions in the countries where his customers operate.
+
+> “*Sending something to backdoor people’s systems and to steal customer data would violate the CFAA* and would without a doubt be crimes in any country in Europe, particularly any that are signatories to the Cybercrime Treaty,” she says. “Many of these people will not be Americans, and it’s not unlawful for them to gamble, but [authorities] are taking their usernames and passwords. Someone needs to be investigated, but I’m not sure it’s [Stuart]…. If I were his lawyers, I’d be investigating to see where they got the idea that this was okay.”
+
+> Although Daniel R. Alonso, chief assistant in the Manhattan District Attorney’s Office, was reluctant to discuss the terms of the confidential plea agreement or how his office planned to implement them, he insisted there was nothing unlawful about what was proposed.
+
+The Manhattan DA's office has for decades been notorious in legal circles for its showboating and... innovative... prosecutorial strategies.   What worries me is that when their escapades win convictions, other prosecutors tend to follow its lead in pursuing their own cases.
+
+There is currently a good deal of \"chatter\" inside the U.S. Federal government about supposed tax evaders, which for all I know may well be a serious problem, but I am concerned that this will be used as an excuse to target Tor (or even key Debian softwares).
+"""]]

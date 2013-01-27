@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-13T10:14:16Z"
+ content="""
+Our download link points to several volunteer driven mirrors and it seems at least one of them hasn't updated to the latest release (either because they haven't scripted this to be done automatically, or because they made some mistake).
+
+Until this is resolved you can try: https://archive.torproject.org/amnesia.boum.org/tails/stable/
+"""]]

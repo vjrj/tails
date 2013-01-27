@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 23"
+ date="2012-01-10T23:44:01Z"
+ content="""
+Also, the clock sync notice stays open without notice it is finished. Sometimes it will say sync failed but tor will run with a green onion in the panel and Iceweasel with pass the tor check, but that is rare.
+
+BTW, when check.torproject.org is down, those who want to can try https://torcheck.xenobite.eu/
+"""]]

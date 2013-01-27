@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-26T10:03:16Z"
+ content="""
+> I noticed this also happened with previous versions of Tails. Sometimes Claws works and other times totally freezes randomly when that dialog box pops up asking to re-use same cached password. I tested this on a system with 1g ram and it froze. Tried on a 2g ram desktop and froze after awhile too after downloading 80 emails and I tried to read them.
+
+Oops. Looks like a bug, maybe a serious memory leak.
+
+Can you please run `top` and see how values in memory (`VIRT` and `RES`) and `%CPU` columns change in the minutes before the freeze?
+
+Also, can you please run `watch 'du -csh ~/.claws-mail/ ; df -h /live/cow'` to see how disk space and cow space usage change?
+
+> Any other recommended email software distros? Or a command/terminal one like *BSD/unix you would recommend
+
+For what it's worth, Tails includes mutt.
+
+"""]]

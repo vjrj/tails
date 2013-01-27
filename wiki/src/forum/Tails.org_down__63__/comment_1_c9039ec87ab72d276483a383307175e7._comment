@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="indeed"
+ date="2011-08-30T10:04:54Z"
+ content="""
+First, boum.org, riseup.net and the whole datacenter they were at was down for a while. The everything came up but boum.org. The time sync issues you experienced were \"normal\" at the time when riseup.net was down, since mail.riseup.net is part of the servers pool used for HTP in Tails, and we run htpdate in paranoid mode (don't set time unless all servers could be reached).
+"""]]

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-27T11:54:05Z"
+ content="""
+@ OP:
+> I heard that using Tails / Tor will get you automatically flagged by your ISP and then investigated / monitored by police / authorities on grounds of suspicious behavior! Is this true?
+
+In some countries, possibly, but definitely not in the UK since you have [about 10 000 Tor users every day](https://metrics.torproject.org/users.html?graph=direct-users&start=2011-11-29&end=2012-02-27&country=gb&dpi=72#direct-users). The fact that you are using Tor may of course be noted and added to the file your local security police keeps on you, though. Who knows?
+
+@ comment 2:
+> You could use bridges or proxies to access the tor network so the ISP can not see that you are using tor. 
+
+Tails has [[experimental support for a \"bridge only mode\"|doc/first_steps/bridge_mode]].
+
+@ comment 3:
+> What about using a VPN then Tor? Can an ISP see that Tor is being used if I connect to a VPN first??
+
+Only if the VPN provider collaborates with the ISP. Unfortunately Tails doesn't support using VPNs like this yet (see: [[todo/vpn_support]]).
+"""]]

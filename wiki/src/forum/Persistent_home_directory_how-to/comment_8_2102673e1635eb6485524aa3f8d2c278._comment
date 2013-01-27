@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-02-17T22:57:58Z"
+ content="""
+Tnanks for the info.  Yeah Tor and Vidalia were definitely running and working as another user, I guess system wide from the original normal amnesia Gnome session on VT7, it was just that the Vidalia icon and network icon were not in the system tray.  Otherwise all seemed to be working.
+
+Getting out of it meant switching back to VT2, killing the second Gnome session. then switching back to a normal amnesia session to umount the encrypted drive. Then you're back in nornal Tails with amnesia's home dir.
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-10-28T20:18:32Z"
+ content="""
+After the Tails default (i.e. without persistent storage).iso has been burned to a USB flash drive and booted up followed by a TAILS/Tor session, if you issue a mount command in the amnesia Terminal window, you will find that the TAILS .iso USB flash drive has been mounted Read Only.
+
+No data will thus have been written to the USB.
+
+However, if you have managed to create a USB that has persistent storage - it all depends on what persistent partitions you have on the USB drive as to what data may have been written to the USB flash drive.
+
+With commands in the Terminal window, during the TAILS/Tor session, if you download any files, you can save them either to another USB flash drive if you have more than 1 USB port, and you can mount any hard drives (as root) to save your downloads.
+
+"""]]

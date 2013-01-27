@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2011-10-04T11:07:19Z"
+ content="""
+> In addition, Polipo configuration is very primitive, whereas Privoxy allows one to designate different proxies for different URLs (such as Tor and I2P). Also, by focusing on the browser, you ignore command-line tools like wget and curl.
+
+Tails is mostly aimed at people that don't have a clue how to use the command-line, so this point is moot -- we use FoxyProxy for directing Tor and I2P traffic to the right proxies. Besides, [[we're not removing the HTTP proxy completely|todo/stop_using_polipo_in_iceweasel]], so the command-line isn't forgotten. The question is if we want to keep polipo or switch it for another proxy, but to be honest there are much better reasons for dropping polipo than the ones you mentioned (e.g. it's buggy and is not really maintained). If privoxy turns out to be the better choice we're certainly not against switching to it (please send us your technical reports). 
+
+> TorButton is overrated anyway, pure hype — didn't see any sound research about its effects.
+
+Torbutton's defenses are [quite well documented](https://www.torproject.org/torbutton/en/design/index.html) so the relevant thing to look for here is research demonstrating how Torbutton's defenses are failing.
+
+> I will leave the “we should do what everyone else is doing” attitude without comment, good luck with that approach.
+
+... as long as \"everyone else\" is not doing something stupid, that's simply the optimal approach. The anonymity set needs to be uniform to be effective -- any research paper on the subject will confirm this.
+
+> I was thinking more about Privoxy's advanced sanitation and filtering features. The vast majority of web pages are not https:// so this does not make Privoxy's filtering irrelevant.
+
+I completely disagree. If privoxy prevents some attack/information leak, that defense *may* be thwarted by injecting some element hosted over HTTPS or similar. My point is: adding a defense that works in the majority of the cases isn't good enough, and in fact it gives a false sense of security. Ergo, all filtering must occur before SSL, and Torbutton does that.
+
+> The key question is this: is it possible to imagine threat models that Privoxy might guard against better than relying on browser settings + Polipo alone?
+
+It's not a very interesting question any longer since polipo is being phased out. The interesting question is if privoxy adds anything of value to Firefox + Torbutton. I doubt it, for the above reason. The only thing that could save privoxy in this equation would be a setup like this:
+
+Web browser -> Privoxy -> MITM proxy -> Tor
+
+The MITM proxy does all SSL and removes SSL completely from privoxy so it can do it's filtering. Is this worth it? Can some one point out what defenses privoxy has that Torbutton doesn't for instance?
+"""]]

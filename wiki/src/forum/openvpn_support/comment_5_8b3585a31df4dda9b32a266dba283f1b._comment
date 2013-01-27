@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2011-11-26T15:51:26Z"
+ content="""
+The [[FAQ of Relakks|https://www.relakks.com/faq/qna/]] tells you to use PPTP under Linux, so I guess that the same things as above are true. Not that I never used Relakks nor PPTP through Tails.
+
+However, be aware that Tails and Tor already provides you with a way to hide your IP and stay anonymous online.
+"""]]

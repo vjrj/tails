@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-12-22T06:37:42Z"
+ content="""
+Scroggle often runs into the Google Captcha and you can click on the ixquick.com proxy for search results and view the results in https. The entire search including results is secure. No other search engine that I know of does that. Never any cookies or anything either. Check out ixquick's site. They explain why their search engine won awards for privacy. 
+
+https://ixquick.com/eng/about-ixquick-ssl.html
+
+A quick test of the connection from ixquick and back to Tor at http://torcheck.xenobite.eu/ by changing between ixquick's proxy and back to Tor did not leak anything with tor check.
+
+Bottom line, ixquick.com is the top privacy aware search engine. (No, I'm not affiliated in any way.)
+"""]]

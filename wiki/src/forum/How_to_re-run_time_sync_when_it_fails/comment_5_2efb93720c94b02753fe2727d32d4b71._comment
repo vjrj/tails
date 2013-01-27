@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Soon fixed, hopefully."
+ date="2012-01-22T18:38:05Z"
+ content="""
+Hi. We think most time sync -related issues were fixed in Git, and will be fixed in the upcoming stable point-release. No way to be sure, though, since we cannot reproduce the reported problems.
+
+"""]]

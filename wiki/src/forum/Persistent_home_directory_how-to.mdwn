@@ -1,0 +1,17 @@
+Recently I posted how to symlink your .mozilla directory to an encrypted usbstick for eg to keep bookmarks and so on, setting up that symlink manually every time you boot tails.
+
+A more complete solution which I'm now testing is to use mount --bind to replace the /home/amnesia directory with a peristent one on your encrypted drive.
+
+Copy /home/amnesia to your encrypted usbstick:
+
+$ cp -a ~/  /media/xxxxxxx-xxx-xxx/
+
+Now first thing after booting tails, close Iceweasel, Nautilus and any applications using the home dir, mount your encrypted drive and do (as root):
+
+# mount --bind /media/xxxxxxx-xxx-xxx/amnesia /home/amnesia
+
+Now all changes to your home dir, bookmarks, nautilus settings and so on will be written to /media/xxxxxxx-xxx-xxx/amnesia transparently and saved for next time.
+
+CAVEAT: tails is going to say that this might run into problems if you boot into a new tails release and changes have been made to the default settings in /home/amnesia.
+
+The safest solution would be to save what you want to save elsewhere before booting into a new tails release, delete /media/xxxxxxx-xxx-xxx/amnesia and do the /media/xxxxxxx-xxx-xxx/amnesia setup process again.

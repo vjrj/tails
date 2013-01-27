@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-31T13:22:19Z"
+ content="""
+Thank you for this report.
+
+* gdomap: now disabled in Git, pending for Tails 0.11.
+* cups: I don't see it listening on anything non-internal
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="What need for customization?"
+ date="2011-12-18T12:30:33Z"
+ content="""
+\"Mostly impossible to ship in an amnesic Live system due to its need for customization.\"
+
+WTF?  All that is needed is to point Privoxy at tor in the config file in the shipped Tails image. 
+"""]]

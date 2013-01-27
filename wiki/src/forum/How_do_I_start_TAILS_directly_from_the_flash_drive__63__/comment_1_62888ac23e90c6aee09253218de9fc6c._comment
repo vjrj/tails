@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-11-09T09:42:26Z"
+ content="""
+Please read the doc and ask if something was not clear:
+
+- [[Installing onto a USB stick, for Linux|doc/installing_onto_a_usb_stick/linux]]
+- [[Installing onto a USB stick, for Windows|doc/installing_onto_a_usb_stick/windows]]
+
+"""]]

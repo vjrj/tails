@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-12T06:50:12Z"
+ content="""
+>if anyone wants to do online banking and stuff like that that these days are making so famous the linux usb live distros,
+
+What is that supposed to mean? I use Tor to conduct online banking. I find it works very well. Of course I'm careful to ensure the connection is made over SSL with the institutions genuine certificate - just as I would be using any other untrusted connection. (NB **All** internet connections are inherently untrusted)
+
+>when they find out certain things,
+
+When who finds out what \"certain\" things? Exactly?
+
+>its not irrational to think about a vpn at the end...
+
+Yes it is. Utterly self-defeating: Therefore \"irrational\" is *exactly* what it is.
+"""]]

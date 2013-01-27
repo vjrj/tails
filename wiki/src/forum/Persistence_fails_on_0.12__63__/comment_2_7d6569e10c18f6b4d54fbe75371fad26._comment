@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-06-20T16:59:50Z"
+ content="""
+Yes it happens within about 5 seconds. I then have to delete the persistence volume otherwise the USB will then fail to boot into Tails again!
+
+Cheers.
+"""]]

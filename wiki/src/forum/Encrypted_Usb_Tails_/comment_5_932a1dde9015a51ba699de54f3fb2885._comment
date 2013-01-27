@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="hm"
+ date="2012-01-17T21:23:24Z"
+ content="""
+for file encryption, read this: https://tails.boum.org/doc/encryption_and_privacy/index.en.html
+
+Use OpenPGP
+    Encrypt text with a passphrase using gpgApplet
+    Encrypt and sign text with a public key using gedit
+
+"""]]

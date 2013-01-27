@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="wait and format"
+ date="2012-05-28T23:18:29Z"
+ content="""
+You can try waiting, or unmouting/disconnect the drive between each steps.. .
+
+Anyway, I don't think you have to send it back to the store. 
+
+I'm not shure if you can use an encrypted volume *safely* from Windows(R) but if you want to use it again from this operating system, did you try to format your drive in FAT, from Tails ?
+
+Can you paste here the exact error message ?
+
+Good luck,
+
+-- mike
+"""]]

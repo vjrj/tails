@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-20T11:39:10Z"
+ content="""
+There are only two ways to add them in the Tails' iso: either request the project to add them directly in the official releases, or build yourself a custom Tails containing your bookmarks (see the [[contribute/build]] page for that. It's unlikely that the first option can happen, if this bookmarks are only relevant to few people.
+"""]]

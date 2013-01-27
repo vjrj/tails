@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-11-22T03:51:56Z"
+ content="""
+I still believe that the default state for JavaScript should be Disabled instead of being enabled by default. The whole idea (please correct me if I am wrong in my assumption) behind Tails and similar products is to be protective of it's users to the maximum degree. Anyone using Tails should have a reasonable expectation of such a protection. I, for one, had such expectation. I was very disappointed and unpleasantly surprised to see JavaScript being enabled by default. 
+
+I think it is better to leave it to the user to enable it if a user wants so than having it enabled by default in a product that proclaims to be \"...incognito live system\".
+"""]]

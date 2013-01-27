@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-05T00:05:03Z"
+ content="""
+I would like to second this request (actually I enter in this forum to make this request :p), it would we a nicer alternative to the project [JanusVM](http://janusvm.com/) (which is out of date..)
+it could have the openvpn package presinstalled and preconfigured to tunnel the traffic through tor (and it would be cool if it could work to i2p as well)
+
+I hope that the Tails developers find this request viable to future releases :P
+
+Also, I don't like to deviate the topic but how can you route all the traffic through i2p instead of Tor in Tails?
+
+Thanks.
+"""]]

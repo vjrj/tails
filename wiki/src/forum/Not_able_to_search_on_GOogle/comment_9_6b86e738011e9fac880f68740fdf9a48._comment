@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-06-14T17:12:50Z"
+ content="""
+startpage/ixquick does not use google.
+
+It IS a meta search though (does not index sites by itself but uses search engines that do).
+
+Basically it checks most search engines except google (yahoo, bing etc). The more stars a hit comes back with, the more different search engines that page is listed on.
+
+So no, startpage does not reference google.
+"""]]

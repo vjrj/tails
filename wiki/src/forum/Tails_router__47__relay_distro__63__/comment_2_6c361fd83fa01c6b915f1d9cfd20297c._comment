@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-23T09:27:03Z"
+ content="""
+[tor-ramdisk](http://opensource.dyc.edu/tor-ramdisk) is a \"Linux distribution whose sole purpose is to securely host a Tor server purely in RAM.\"
+
+There's also (in development) [Torouter](https://trac.torproject.org/projects/tor/wiki/doc/Torouter), \"an easy to use system that is a bridge or relay by default, functions as your Internet router, and is around $120 or another hopefully reasonable price point.\"
+"""]]

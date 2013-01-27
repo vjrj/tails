@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-10-22T17:29:12Z"
+ content="""
+OpenBSD possibly could top Tails - reason why I moved after booting it up was restricted choice of packages availabale for the platform (I inevitably found there was something I needed not available, you won't get Flash working on OpenBSD I don't think) and less hardware support.  There was actually a live OpenBSD CD a few years back, it would ask you to set the root password before connecting to the Internet - disappeared though, perhaps we now have a clue as to where it went to - it's a shame, it would have been a useful jumping off point for refactoring your own CD.
+
+As for the feudal organisation structure, OpenBSD developers are known for being a bit nutty, my one dealings with one of them definitely showed a case of probably chronic paranoia ;)  They do have a secure dist though, and I would still consider OpenBSD if I needed a vanilla server.
+"""]]

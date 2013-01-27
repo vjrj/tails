@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-10T12:45:23Z"
+ content="""
+The only supported methods for installing Tails to a USB drive at the moment are the following:
+
+* [[Linux|doc/installing_onto_a_usb_stick/linux]]
+* [[Windows|doc/installing_onto_a_usb_stick/windows]]
+
+Any other method may simply not work (like it did for you) or cause bugs ([[example|forum/tail_0.10_live_on_usb_ask_me_for_user_and_password]]) so beware.
+
+We're currently working on a [[custom USB installer/upgrader|todo/usb_install_and_upgrade]]. Stay tuned...
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="fix"
+ date="2011-11-19T12:13:23Z"
+ content="""
+just format usb stick to fat instead of fat32, this just fic installation and boot up correctly, i don't need to rename anything! 
+"""]]

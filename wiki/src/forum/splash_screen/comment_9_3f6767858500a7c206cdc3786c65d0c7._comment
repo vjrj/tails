@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2011-12-03T02:36:19Z"
+ content="""
+To summarize, if all these ideas were implemented, this is how I would see the whole process:
+
+
+
+1. Arrive at computer, insert cd and usb key
+2. Run the screen capture app/script for the chameleon mode/function
+3. Reboot, 10-20 seconds unavoidable time for shutdown and then starting the bios before computer can autoboot from the CD
+4. depending on your choice
+
+- windows is booting
+
+- you are just trying to watch a flash video full screen and it's taking ages to load
+
+5. Tails desktop appears and is indisdinguishable from the original OS.
+6. Any suspicion and you can show that the desktop is unresponsive and that apps are crashing by clicking on 'fake' desktop icons and start menu.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="This is Debian"
+ date="2012-01-23T09:40:44Z"
+ content="""
+Tails is a Debian Live system, so you probably want to look for general hardware compatibility support with Debian (although we generally ship the latest kernel available in Debian sid, and backported xorg, so Tails generally has better hardware support than Debian stable).
+
+"""]]

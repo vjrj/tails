@@ -1,0 +1,38 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-15T11:32:05Z"
+ content="""
+Fill/overwrite free space:
+
+dd if=/dev/zero of=fillfile
+
+This will not clear all space unless run as root, so rather:
+
+sudo dd if=/dev/zero of=fillfile
+
+This will overwrite all free data with zeroes, removing any removed files from the logical mapping, and for magnetic disks most likely also physically.
+
+Problems:
+- It will not remove metadata, thumbnails and any other stuff
+  your OS have cached in some databases somewhere.
+  Sometimes your OS even have a full copy of your documents somewhere
+  indexed for e.g. searching purposes.
+- It will not remove the filename and associated info from
+  the deleted file entry.
+- It will not delete the files data physically on SSD disks or
+  damaged magnetic disks.
+- For magnetic disks another pattern than zeroes may or may not
+  do a better job on removing the file data physically incase
+  professional forensic hardware is used to try recovering data.
+
+I have heard that the best way to remove any data from a SSD disk is by overwriting the whole SSD disk sequentially twice. It is important it is the whole disk, not just a partition on it.
+THIS WILL DESTROY ALL DATA ON THE DISK (hopefully).
+
+sudo dd if=/dev/zero of=/dev/sda
+sudo dd if=/dev/zero of=/dev/sda
+
+(must be done from LiveCD, and replace /dev/sda with your actual disk).
+
+Additionally, your disk may also have builtin secure erase functionality, but you have no guarantee it actually removes anything, and no guarantee it wont brick your disk, so I would advise against it.
+"""]]

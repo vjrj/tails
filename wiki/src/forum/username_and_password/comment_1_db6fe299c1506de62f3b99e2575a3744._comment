@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Follow the fine documentation!"
+ date="2012-01-13T08:03:11Z"
+ content="""
+You probably did not follow the installation instructions. How did you create your USB stick?
+
+If you want to use Tails from USB, you need to follow the proper steps to do so on either [[Linux|doc/installing_onto_a_usb_stick/linux]] or [[Windows|doc/installing_onto_a_usb_stick/windows]].
+"""]]

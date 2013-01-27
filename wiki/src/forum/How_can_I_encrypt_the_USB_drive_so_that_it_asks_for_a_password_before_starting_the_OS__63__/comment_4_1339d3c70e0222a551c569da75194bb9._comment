@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="alanford"
+ date="2011-12-29T14:30:14Z"
+ content="""
+just to ad: even if you have OS with password before booting OS, it will not help if rats install hardware keylogger into your PC. software keylogger record everything after windows logon, but hardware keylogger record everything you type, even before windows or linux is booted, it means even bios password can be recorded. and they can even install hardware keylogger inside of your PC, so, you will not see it from outside.
+and if you use internet at university as I do, they can setup their tor nodes so they can record what you do. every time I use tor, in windows or linux, I get the same beginning IP address: 199.48.147.42, and one more which begin with 173...this two IPs are 90% even if I change library or university building, it is always the same because university server is controlling all university buildings and there is some admin rat. 
+"""]]

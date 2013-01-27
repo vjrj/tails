@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-09T13:16:20Z"
+ content="""
+Doing basic system administration tasks is, I think, a valid usecase of Tails, *as long as it's not too annoying to support*. Being able to perform arbitrary DNS requests is, I think, absolutely needed for this usecase. But well, given the state of brokenness of ttdns, I'm not that sure anymore it is worth inserting into the loop. A possibility would be to ship ttdnsd, let it run on its own dedicated loopback IP address, *but* stop using it from pdnsd: those who need it may then explicitly query this DNS resolver instead of the default one, but ttdnsd bugs would not get in the way of the vast majority of users.
+
+"""]]

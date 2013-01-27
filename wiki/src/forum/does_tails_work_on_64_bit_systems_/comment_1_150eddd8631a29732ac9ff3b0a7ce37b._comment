@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-01T16:20:52Z"
+ content="""
+Yes. Tails is built for x86, but it also works on x86_64 type of processors since they have backwards compatibility. As such they should work on 64-bit Intel and AMD processors which is what most people have. 
+"""]]

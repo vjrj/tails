@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-06-09T16:51:08Z"
+ content="""
+Sorry don't understand. Too theoretical for me.
+
+> Doing basic system administration tasks
+
+> Being able to perform arbitrary DNS requests
+
+Can you give a example please? A command for command line or so. Like this please,
+(false statements only for showing)
+
+- without ttdnsd you can't use apt-get
+- without ttdnsd you can't connect to youtube
+- without ttdnsd you can't connect to jabber/icq
+- without ttdnsd you can't use lynx
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Found a probable problem"
+ date="2012-10-04T08:39:20Z"
+ content="""
+Is there no way to be sure the streams have closed? This would save a great deal of time. Also someone might correlate your rebooting with, for example, timestamps in this forum. Seems like this might be more obvious than restarting Tor. 
+
+Why won't Tails let us stop and start tor through Vidalia anymore. Would that close all streams for sure?
+
+
+Somebody claims that [streams are left open even after \"Vidalia is stopped\" or the \"network is brought down\"](https://tails.boum.org/forum/Tor_process_sometimes___39__sticks__39___and_is_downloading_something_until_process_manually_killed/). Could somebody just come out and admit if this is spyware? You would probably feel a lot better.
+"""]]

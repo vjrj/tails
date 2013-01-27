@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-01-03T00:00:23Z"
+ content="""
+Also, you would have to encrypt your wallet.dat with GPG or LUKS/Truecrypt before uploading to Wuala. Regardless what their website claims about them never being able to access your data, remember Hushmail made the same claims then surprise, they secretly had access all along and passed it on to law enforcement agencies. I wouldn't want to be a Chinese dissident using Wuala then suddenly find out my archive of democracy contacts was social engineered out of them by a simple Swiss phoney LE court order some Chinese agents faxed in with a spoofed number.
+"""]]

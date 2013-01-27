@@ -1,0 +1,9 @@
+Thanks for your work on tails.  Since a number of users are having problems with this time sync mechanism (including me):
+
+1.  How do I re-run the system time sync from the command line when it fails?  As root or not?
+
+2.  How do I restart vidalia and tor from the command line after that, and again, do I do that as root?
+
+3.  Would it make sense to add a button to the 'time sync fails' dialog to re-try the time sync or at least provide a menu item to re-run this?
+
+At present I am rebooting, which is tedious and doesn't always work anyway.

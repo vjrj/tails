@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-11T06:04:02Z"
+ content="""
+>if you use bridges, they won't even know you are connecting to a Tor node.
+
+So what will the ISP see then?
+
+I mean, they'll still see:
+a) that there *is* traffic on your account, and,
+b) that such traffic is not transparent the way ordinary traffic is
+
+So even if one uses a bridge to connect to Tor, one's ISP will still realize that *some* kind of proxy tool is being used, right?
+
+Thus, other than when necessary to even *connect* to the Tor network, I don't quite see what using a bridge actually accomplishes.
+"""]]

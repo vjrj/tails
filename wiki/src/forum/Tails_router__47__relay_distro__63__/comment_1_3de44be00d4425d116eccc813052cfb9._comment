@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-22T23:56:47Z"
+ content="""
+I don't think that the cooks spoiling the broth analogy works well for describing TOR use because in this case, the more \"cooks\" the better.
+
+More seperate instances of TOR make the network more anonymous. The more individuals using it, the less of a niche it becomes - it is then more legitimized in the eyes of governments and the law and will be less subject to legal scrutiny further down the line.
+
+I like the idea of a pre prepared TOR relay/exit OS that would run in RAM and from a CD though - I think that's a really good idea but you should maybe pitch that to the TOR devs. I think you might be able to buy boxes that basically come preconfigured for that function but I do like your idea.
+"""]]

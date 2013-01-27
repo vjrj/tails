@@ -1,0 +1,14 @@
+I have a 8 GB Flash Drive, I installed Tails on it.
+
+There's some other files in the flash drive which I use like a persistent (read-only) storage including debian packages, wireless password and other notes, bookmarks json file for Iceweasel, ready-to-install xpi extensions and Greasemonkey scripts for Iceweasel. But of course I cannot add/change any files while using Tails.
+
+To use them, I have to enter /live/image/ folder. It would be better if there was a shortcut to that folder in Desktop, Places, or Computer.
+
+I also hide all Tails files/folders, if a normal person looks into my flash drive, he will only see my Musics etc. But the real advantage of hiding them, you have to "manually" enter flash drive from Boot Devices menu to use Tails. I don't want anyone to see and ask what Tails is and why I'm using it (by restarting computer when the drive is plugged in). Not a big deal but an extra protection.
+
+I also want to ask about rar files. I remember you added unar to the image, is that a command-line-only tool? When I double-click rar files they say "Archive type not supported". Also I couldn't open the video files when I extracted them with commands. It was something about read permissions. But after doing this:
+
+    apt-get update
+    apt-get install unrar
+
+I could then open the rar files by double-click and that was working like WinRAR in Windows and worked perfectly. Is there a reason not implementing this?

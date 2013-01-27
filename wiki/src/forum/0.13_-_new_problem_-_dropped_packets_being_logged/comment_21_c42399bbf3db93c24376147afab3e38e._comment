@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2012-09-25T09:07:39Z"
+ content="""
+> Let me help you here. Commit adding the real-world experience passage: Dec 14, 2010. Security checker implementation: Feb 4, 2010.
+
+Right, it appears that you discovered that we begin to write a design document in December 2010. So yes, we wrote it accordingly to the state of Tails at this time, as it was already implementing the PELD we had in mind, plus tons of new designs. There was already a todo item for this feature, btw. So you can dig such old commits, but not a single todo page. Weird... Or intended...
+
+Rather than spending time on such details, maybe you can try to design a better tool? This is the best way we found to implement a security upgrade notification, in an amnesic environment. But we would be glad to see other ideas. Or do you yourself recognize you can't find a better solution?
+
+You could also argue on more important points of this discussion, like explaining why we should drop a tool that is important for most users, just because **you** want it, at the cost of having lots of users using old and bloated Tails.
+
+> I am not even the same guy.
+
+Do you think we're that naive? Even if you're not, how come that you don't answer to our previous statements in this thread (that I repeated in my last sentences above), but continue arguing as the other poster?
+
+> This is the last version of Tails I use.
+
+Great, we adviced you many times already to do so. Hope we'll have more constructive discussion on this forum by now, with people accepting that sometimes others say \"no\". And that we will be able to spend more time on dev Tails rather than replying endlessly the same thing to the same arguments...
+
+> Heads, I win..
+
+Yeah, glad to be informed it was a battle.
+"""]]

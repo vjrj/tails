@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="matsa"
+ ip="127.0.0.1"
+ subject="Thanks + please consider"
+ date="2012-01-05T22:20:07Z"
+ content="""
+Thanks. Did you considered the second solution ?
+> give up this wordwrapping (no needs to msgcat after Poedit anymore, that can be hard for some contributors), depending on how usefull wordwrap is (I have no clue about this)..
+
+Even if   *for f in $(find . -type f -name *.po) ; do msgcat --width=80 -o \"${f}.new\" \"$f\" ; mv -f \"${f}.new\" \"$f\" ; done*   seems to make the work much more easier, I'm afraid a lot of commit and modification from the piggy-web interface will not be 80 char. large. Perhaps is it not so important.. but I don't know what is this wordwrapping for, and it has been getting on my nerves ;)
+
+Great thanks !
+"""]]

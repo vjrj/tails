@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="comment 141"
+ date="2012-10-25T14:13:58Z"
+ content="""
+> I know about the internal NTP clock skew. My question is: is it the only thing that protects against the deanonymization attack mentioned above, launched from the eepSite? One trivial example where NTP won't help is UDP being blocked on a corporate firewall, and there might be ways to get resolution beyond what's provided by internal NTP, or attack it by fake packets, etc.
+
+Hmm... I'm not sure that your attack makes sense to be launched from the eepsite. The eepsite has no access to any client timing data whatsoever (assuming that the client is being sensible and running NoScript) - it doesn't read the I2P packets directly (they are read by the router and the eepsite packets extracted from them), so there is nothing to compare to. Or am I still misunderstanding your proposed attack vector?
+
+As for UDP being blocked: external synchronization with outside NTP servers is only used as a secondary factor - the main I2P time synchronization is done within the network between I2P routers, and as such will work as long as I2P connections can be made. Since I2P has a TCP-based protocol in addition to UDP, corporate firewalls like above are not unsurmountable.
+"""]]

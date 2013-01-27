@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-17T09:43:24Z"
+ content="""
+In general, you install and remove program through synaptic, which can be reached from the desktop menues: System -> Administration -> Synaptic Package Manager.
+
+> or install flash player
+
+Flash is proprietary software which prevents us from legally including it in Tails. The more important reason for us to not ship it in Tails is that it is closed source, so we have no idea what it really does. Besides that Flash has a truly horrific history of security vulnerabilities which is reason alone to never touch it.
+"""]]

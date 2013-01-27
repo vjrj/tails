@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Implement on debian OS"
+ date="2011-08-19T07:39:13Z"
+ content="""
+Hello! 
+
+Sorry for my english, im french! ;-)
+
+Im a newbie user and i want to implement that on my debian system, i think its very easy because tails is based on debian! :-)
+
+I search many hours on the web for wipe my ram in a secure way and i find nothing, i had implement my own solution in use sdmem at the end of a script in /etc/rc0.d but i think its not very secure!
+
+Does someone can put the procedures for get that on a debian box please? :-)
+
+Thanks, see you! :-)
+
+
+"""]]

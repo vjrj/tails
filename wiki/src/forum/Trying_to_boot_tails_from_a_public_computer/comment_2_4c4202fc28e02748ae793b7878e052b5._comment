@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Public Computer Security"
+ date="2012-08-21T16:13:10Z"
+ content="""
+I was thinking about this the other day. In effect, how to \"commandeer\" a public computer via security tools without significant arousal of suspicion. --In effect-- the USB is the \"portable brain\" of one's digital life --the computer merely the body of it.
+
+Has anyone had experience using The Tor Browser Bundle off USB on Public Machines?
+
+Or TAILS in the same setting?
+"""]]

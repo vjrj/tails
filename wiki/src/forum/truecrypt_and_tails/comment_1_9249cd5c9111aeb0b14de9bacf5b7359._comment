@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-14T19:51:11Z"
+ content="""
+It's unlikely that Tails can't boot because of your truecrypt thing, as Tails doesn't rely on the hard drives to work. Might be a hardware compatibility problem maybe.
+"""]]

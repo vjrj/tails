@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-10-26T10:03:12Z"
+ content="""
+>Just curious: what problem does it solve (regarding the issue at hand) that MAT does not?
+
+I haven't compared the features between each of them. Is there a verbose (-v) mode in either of them when info is stripped so we can compare the two in scrubbing jpegs? I do know that jhead does the job.
+"""]]

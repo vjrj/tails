@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-06-16T15:19:06Z"
+ content="""
+Hi, you might be looking for `/var/log/dmesg`. Otherwise you can have a look at the technical details that would be sent by the [[bug report utility|doc/first_steps/bug_reporting]]. Start it and click on **Technical details to include**.
+"""]]

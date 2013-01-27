@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I have just the opposite problem"
+ date="2012-10-17T22:20:20Z"
+ content="""
+When I hit the red poweroff button in the Tails 0.13 taskbar at the top of the screen, windowing stops and some messages scroll rapidly and within a few seconds the power goes off.  I did see the message which seemed to say that if the power doesn't go off quickly, this could be a sign that memory wiping FAILED, but I don't understand how this can be.  Can anyone explain?
+"""]]

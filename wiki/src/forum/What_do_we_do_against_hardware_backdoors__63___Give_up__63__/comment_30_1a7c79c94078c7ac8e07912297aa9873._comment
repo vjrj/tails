@@ -1,0 +1,53 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 30"
+ date="2012-12-26T03:05:55Z"
+ content="""
+> register an email address with some mail provider in order to email you
+
+What's the big deal?
+
+> which requires establishing persistent user account information
+
+You just use it to post 1 message or to talk about 1 topic. Change afterwards.
+
+> linkable to an IRL identity by our adversaries
+
+IRL = in real life? Why linkable to IRL? Why would you be as stupid as using your real name for registration?
+
+> and which requires entering into a business contract
+
+Irrelevant. They don't have your name. They don't have your ip. What's the big deal?
+
+> with possibly untrustworthy strangers
+
+This forum is also run by strangers. You think the server is running in the house of tails developers? Unlikely. What if it gets taken over? Just assume its unsafe as anything else.
+
+> who are likely share information about me with unknown business partners
+
+Why is that a risk? All information is public already. If you post here its public and can be analyzed same for mailing list.
+
+> and more to the point, with our adversaries, who will then add me to the list of people to be watched simply because they are communicating with you
+
+They already use [stylometry](https://tails.boum.org/forum/Writing_Style_Authorship_Detection_effectively_stopping_us_form_being_anonymous_online/) to link all your \"anonymous\" posts to the same pseudonym and that pseudonym is already on their list. With bad luck they already used the same [stylometry](https://tails.boum.org/forum/Writing_Style_Authorship_Detection_effectively_stopping_us_form_being_anonymous_online/) to link to your real life identity.
+
+> Why would that not be an insanely stupid thing for me to do? Or did I misunderstand again?
+
+misunderstand again
+
+> Trying to arrange a OTR chat conversation seems easier and less hazardous.
+
+Perhaps they have better things to do than reading what some over paranoid user with too less knowledge not willing to read and not willing to learn has to say?
+
+How do you know Tails is not the adversary?
+
+Ever read [Tor sponsors](https://www.torproject.org/about/sponsors.html.en)?
+
+Over $1 million spend by \"An anonymous North American NGO\" WTF?!? Just look how much the \"good guys\" donated. How much money do the Tails people get from the good guys and the bad guys?
+
+Being too paranoid to use tor-talk over Tor should also be being too paranoid to chat to Tails.
+
+> But maybe the other poster will be willing to explain the details of his anonymous secure method for registering with and posting to mailing lists like Tor-talk.
+
+You raise up the same concern in any thread and do not answer to the counter arguments when raising the concern in another thread. I think its all answered.
+"""]]

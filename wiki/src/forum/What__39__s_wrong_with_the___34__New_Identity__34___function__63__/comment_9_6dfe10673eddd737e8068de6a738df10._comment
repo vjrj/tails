@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-10-14T12:30:07Z"
+ content="""
+MMm.  Is there a way to force Tor to start a new circuit *with a new exit node*?
+"""]]

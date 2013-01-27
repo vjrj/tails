@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Replies"
+ date="2011-11-19T14:18:52Z"
+ content="""
+Wrt. the need to rename: the doc you gave us the URL to explains isolinux must be renamed to syslinux. I'm glad to hear it's not needed for you.
+
+Wrt. FAT vs. FAT32: please make it explicit how you format / install Tails on FAT. (Note that the currently supported way of installing Tails does not imply formatting nor running syslinux by hand.)
+
+Wrt. updated Tor: Tails 0.9 was out more than one week ago. And anyway, 1. this is not related to this thread; 2. This was asked and answered numerous times in other places on this forum, so please be kind enough to check and search before asking, this will save developer time and help Tails as a whole :)
+
+
+"""]]

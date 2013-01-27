@@ -1,0 +1,13 @@
+The article (by the title of this thread) can be found at:
+ 
+https://www.securityweek.com/new-research-says-chrome-browser-most-secured-against-attacks 
+
+and the research paper (3.4 MB, 140 pages) can be downloaded from the web page at:
+ 
+http://www.accuvant.com/capability/accuvant-labs/security-research/browser-security-comparison-quantitative-approach
+
+Firefox did not do well, which suggests that perhaps Chrome (or one of its variants like SRWare Iron) should probably be considered as a possible replacement for Ice Weasel in TAILS with all due regard to the security provided by Debian's releases (the cycles of which are slow due a slower security upgrade/fix release cycle).
+
+This raises the question of which security concerns trumps the other with regard to anonymity: web browser vs OS and related software?
+
+Is the Chrome browser compatible yet or not at all with Tor/TAILS approach to anonymity?

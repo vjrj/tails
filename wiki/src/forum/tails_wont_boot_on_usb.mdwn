@@ -1,0 +1,7 @@
+0.10 with usb installer 1.8.7.8 (latest). installed it they way it was described in the documentation. on cd and on different usb sticks (over 9000 ;)). cd version worked well but i wanted to go for the usb. on one device it says "boot error" all of the time. on the others "no config or ui". tried the renaming trick iso.. to sys... on the .bin .cfg files, the folder was syslinux, not isolinux. didnt help.
+
+there was a "boot:" prompt, tried various options. no success.
+
+running an 2008 quad core intel cpu on win7/32 system. bios offers no "usb" boot ,but "removeable" boot (seems synonym). should i try other installer? which? have no clue at all. am a win-lamer, wanna get freeeeee! any help wellcome.... 
+
+after looking thru forum problem seems not uncommon. will post more detail if needed

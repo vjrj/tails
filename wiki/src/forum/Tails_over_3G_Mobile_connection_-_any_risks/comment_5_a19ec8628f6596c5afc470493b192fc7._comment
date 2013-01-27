@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-04T15:17:56Z"
+ content="""
+What if you are not using a mobile phone but using a 3G USB \"dongle\" connected to a laptop? There is a SIM card in the dongle but does it also have an IMEI ? Can that be tracked if using dongle + Tor? and are there other security/privacy risks to using dongle + TOR?
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Every Tor/Tails user has same fingerprint?  No."
+ date="2012-10-17T23:45:03Z"
+ content="""
+That's certainly not true.  When I tested Tails 0.13 with unaltered configuration quite recently at EFF's test site, I got something like \"one in 5000 browsers\" which is not at all good.  When I make some tweaks such as disabling javascript and cookies I can get a much lower score, as low as \"one in 150 browsers\", still not good much better.  Of course, as EFF explains, there are some problems with their statistics and these figures could well be seriously misleading.  Most visitors to EFF are probably more likely than a random sample of web users to have simply disabled cookies entirely (see the site for some interesting and surprising figures), so when the EFF stats show apparent improvement I might actually be degrading my fingerprint anonymity.  But in any case it certainly appears to be true that fingerprints when using Debian tor, TBB, and Tails are not identical, even before the user starts making tweaks.
+
+"""]]

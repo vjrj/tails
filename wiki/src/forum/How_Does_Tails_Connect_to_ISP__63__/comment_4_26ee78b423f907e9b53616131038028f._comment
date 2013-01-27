@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-22T19:24:42Z"
+ content="""
+your isp could be:
+
+- operating a 'fake' tor network
+- blocking certain 'nodes' to funnel your traffic
+- arp/dns poisoning
+
+solution is to use bridges, add 10 or more
+enforce a local static arp setting with each boot
+"""]]

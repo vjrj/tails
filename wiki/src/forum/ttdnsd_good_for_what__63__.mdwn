@@ -1,0 +1,7 @@
+https://tails.boum.org/contribute/design/Tor_enforcement/DNS/
+
+But the Tor DNS resolver lacks support for most types of DNS queries except "A"....
+
+Which features would break if you remove ttdnsd?
+
+For which *practical* reasons are other DNS queries than "A" needed?

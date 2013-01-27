@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-17T09:23:30Z"
+ content="""
+First of all, a fully persistent $HOME is not safe; if we release a new Tails with an updated config file in $HOME that fixes some issue, you will not get that fix.
+
+Second, if you look at live-boot's man page you'll see that there's already support for what you want to do *during boot time*, so that would avoid all. Just because I mention it doesn't mean it's a good idea (hint: it is not).
+
+We're currently working very hard at implementing *secure* [[todo/persistence]] in Tails, which you can expect in the next major release (i.e. 0.11). If you care about security, be patient :).
+"""]]

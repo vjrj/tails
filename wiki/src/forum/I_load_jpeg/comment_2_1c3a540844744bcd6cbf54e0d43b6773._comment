@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-12T15:04:11Z"
+ content="""
+No, your IP is safe in this case. All website resources are fetched over Tor and we haven't had a remote code execution vuln in a jpeg parser or renderer in a long time. 
+
+You may be thinking of i2p where this is indeed a problem with insecure configurations (.i2p resources are going through i2p but clearnet resources are fetched directly instead through tor or i2p exit proxy)
+"""]]

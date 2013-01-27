@@ -1,0 +1,1 @@
+I was wondering if any one has a saved packet capture file to show what services should be allowed through tor.  I've seen http "continuation" packets.  What traffic is considered safe (or tor) and what is not?  I've seen |websm| bacula.dir| dynamid| ssr-servermgr| suucp| tentacle| imf?

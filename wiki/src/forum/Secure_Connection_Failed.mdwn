@@ -1,0 +1,24 @@
+A few sites have been giving me a Secure Connection Failed popup. I can browse the sites, but the error message is unnerving. Should I be worried?
+
+e.g.
+
+Visiting bbc.co.uk/news gives me the following popup:
+
+
+Secure Connection Failed
+
+
+sa.bbc.com:443 uses an invalid security certificate.
+
+The certificate is only valid for *.112.2o7.net
+
+(Error code: ssl_error_bad_cert_domain)
+
+
+This could be a problem with the server's configuration or it could be someone trying to impersonate the server.
+
+If you have connected to this server succesfully in the past the error may be temporary and you can try again later.
+
+
+
+Should I be worried?

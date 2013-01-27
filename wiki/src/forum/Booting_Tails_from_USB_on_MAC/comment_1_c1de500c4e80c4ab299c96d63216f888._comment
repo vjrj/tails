@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-13T14:09:32Z"
+ content="""
+You might need [refit](http://refit.sourceforge.net/) to boot GNU/Linux Live systems from USB on a Intel mac.
+
+"""]]

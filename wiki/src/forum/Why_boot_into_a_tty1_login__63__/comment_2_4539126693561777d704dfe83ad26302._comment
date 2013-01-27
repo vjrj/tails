@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-12-07T00:15:12Z"
+ content="""
+No luck with any of the combinations are single. Since this too is a display issues, I have two other comments on the subject:
+
+\"My P4 box has dual boot of win 7 and ubuntu, and because of the win 7 there is an added Nvidia card. Tails (Live CD .9) hangs at the display manager because the BIOS was set to AUTO to allow it to divert from the onboard video to the Nvidia. Setting the BIOS to Onboard allowed Tails to boot. FYI.\"
+
+\"On my P4 box it will appear to load and then the display will only show a short white cursor-like line in the upper left hand corner. It looks like Tails does not finish loading, but it does. Clicking the mouse in the upper right hand corner, where the shut down button is, will shut it down. So it is only that the display does not work.\"
+
+Since it is an nVidia 6200, I ignored the first line and only the xorg-driver=vesa by itself was still good enough to permit a finished load to the shut down buttom (though as mentioned, the display was still black except for the little white cursor line).
+"""]]

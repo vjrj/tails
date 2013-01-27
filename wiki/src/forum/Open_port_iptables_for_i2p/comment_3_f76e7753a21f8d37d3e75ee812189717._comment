@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-22T13:07:56Z"
+ content="""
+It worked fine for me. Here's exactly what I did:
+
+1. Booted Tails, noted which IP address I got.
+2. Started I2P, noted which TCP/UDP ports it picked.
+3. Shut down I2P.
+4. Added port-forwarding on the TCP/UDP ports above to the IP address I got in Tails.
+5. I ran these commands (adopted from the ones the OP posted):
+
+    iptables -A INPUT -p tcp --tcp-flags SYN,RST,ACK SYN --dport <TCP-port> -m conntrack --ctstate NEW -j ACCEPT
+
+    iptables -A INPUT -p udp --dport <UDP-port> -m conntrack --ctstate NEW -j ACCEPT
+
+6. Started I2P.
+7. Verified that I got \"Network: OK\" (i.e. not firewalled) above the Shutdown/Restart buttons in the I2P router console.
+
+Opening ports for I2P may besomething we support if its UPnP support works, but definitely not if it'll require manual configuration of your router to add port-forwarding. I can't seem to get I2P's UPnP to work in Tails, although it works with the same version of I2P on a Debian Wheezy system I tried it on.
+"""]]

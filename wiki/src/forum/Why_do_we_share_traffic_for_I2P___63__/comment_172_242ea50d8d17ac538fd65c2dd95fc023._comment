@@ -1,0 +1,71 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 172"
+ date="2012-10-27T18:07:31Z"
+ content="""
+@The Tails vs. I2P FAQ :)
+
+This post of your's had been munged by our spam filter (most likely since it contained a couple of external urls), but it's now out of comment moderation. Just if you wondered what happend to it. :)
+
+> Yes, hidden mode is relatively weak protection, but it's not meant to be a switch that makes user invisible and impervious (if such a switch existed, it would have been flipped long ago!) It just adds another level of complexity to the task of tracking the user. It's about giving users the ability to tune their threat model, and enabling a range of threat models to coexist.
+
+Indeed, I didn't mean that it's a wothless option. In case I came off as overly harsh I did so to bring some perspective to the \"hidden mode or not\" debate *for others to read*. In fact, most of what I wrote to you was rhetorical in that sense. I doubt we are disagreeing on anything. :)
+
+> I agree that \"hidden mode\" is probably misleading in that sense, so I'll put it forward to the other devs and see how we can clear that up (I'm working on a general push towards increased usability at present, among (many) other things). 
+
+I appreciate it.
+
+@ Thanks to the Tails and i2p developers for their patience!:
+
+> > I2P doesn't cache any traffic it relays, so that encrypted data only lives in RAM.
+
+> [...]So going back to the political point, it seems possible that some governments might decide to mount some massive raid seizing as many computers using i2p as possible, and upon possing finding illegal content in some poor schlub's RAM, might very possibly win a conviction even though (as was clearly explained by the i2p developer), the schlub didn't know nuthin and for technical reasons couldn't have known nuthin about that content. The garlic encryption might seem to prevent this from being possible, but I still worried and I think this requires more study.
+
+And I will answer with yet another technical point: the data you relay for others are stored *encrypted* in RAM and *you don't have the key*. Hence neither you nor any one else examining your computer's RAM should be able to tell what it is, and hence if it's illegal or not. They will, however, see the next router this encrypted data was suppsed to go to (which can be either just another hop on the way, or the final destination) and where it came from (which can be either just another hop on the way, or the origin). Even if they raid one of those computers and get control of all encryption keys they won't be able to decrypt the data they got from your computer due to [perfect forward secrecy](http://en.wikipedia.org/wiki/Perfect_forward_secrecy). All this also applies to Tor relays.
+
+Of course, like you pointed out, the (rational) assumptions about the real world in such technical arguments are not always in sync with the (arguably irrational) policies pushed by politicians. For them it may be enough to find I2P data destined or originating from some IP address whom they know hosted illegal shit, even if they can't prove whether this data was just relayed by the raided node or not. Heck, just using I2P/Tor may be enough in itself. Well, in these cases the relays are fucked in all existing anonymity networks, and the outlook for a future one that satisfies a threat model that takes them into account is basically equally bleak.
+
+To date, though, I haven't heard of a single Tor non-exit relay (or participating I2P node) that has been raided. Exit nodes, yes, but that's obvious and completely different (and something that doesn't apply at all to participating I2P nodes). Actually it seems like the efforts the Tor project has put into educating law enforcement has paid off, because I hear less and less about such incidents. Another interesting point is the [common carrier](http://en.wikipedia.org/wiki/Common_carrier#Telecommunications) principle, which essentially grants immunity to \"ISPs\", i.e. entities that just relay others' traffic (without interfering with it in any way). Currently this is the basis that EFF and the like use for arguing that Tor relays and exit nodes are legal and not accountable for the data that flows through them. Sure, it's a US law, but from what I've heard most countries have similar laws. All this may change, and I agree that it would be great if we could prepare for it now, but I'm only aware of solutions that simply are too impractical.
+
+> Let me try to summarize some basic points in my own words (and please correct me if I am wrong on any point):
+
+Looks good in general. Here are a few points:
+
+> Each Tor session should use as many Exit Nodes as possible, particularly when surfing to a new domain destination
+
+Not necessarily. Just like the middle nodes the Exit nodes should ideally be picked as *randomly* as possible for maximum anonymity. In Tor the randomness is skewed by the node's capacity (more capacity -> more likelihood to be picked), but without that property the Tor network would function really poorly performance-wise, which probably would result in lower anonymity when all factors are taken into account.
+
+> More than 3 hops make safer Tor circuits, but this would slow down websurfing using Tor and could even overload the Tor network
+
+It's not that simple. There are end-to-end timing correlation attacks that only require observing at the traffic you send to the Tor Entry, and the traffic the Tor Exit sends to the destination to deanonymize you (using statistical methods on traffic flow patterns). Adding more nodes doesn't change this. Well, extra nodes may introduce additional random delay which makes this attack more difficult, but to achieve that relays could just add random delays which would save significant bandwidth for the network. Also, adding more nodes makes attacks that depend on misbehaving/snooping middle nodes more efficient. 
+
+> Widely deployed automatic tools can be used to try to evade the encryption of Tor traffic, possibly via MITM attacks mounted between me and my ISP, between my ISP and the Entry Node, or between the Exit Node and the destination server
+
+Such tools would only work if the Tor binary you use has been compromised, which could happen if you didn't authenticate Tor when you downloaded it. In that case the automatic tools could swap the Tor binary you think you are downloading with one that enables them to MitM you. MitM:ing a Tor client running an uncompromised Tor binary (and system in general) shouldn't be possible as long as the crypto holds, which we reasonably can assume it does.
+
+> But I think a key point is that both the Tails and i2p threat model need to be regularly reassessed and possibly updated. I think the rapidly increasing likelihood of full-scale all-against-all global cyberwar, massive scale automated state-sponsored malware attacks (quite possibly targeting very Tor user and i2p user whose \"likely\" IP address can be found, and collateral damage be damned), as per the Opstelten letter, suggests that the Tor and i2p threat model needs to be re-examined.
+
+Your worry seems to be with malware. True, it may become more of an issue than it already is in this context, but I fail to see why it's the responsibility of Tor/I2P to defend against it beyond that they shouldn't have bugs that such malware can exploit. However, adversaries using malware is part of Tails' threat model. Virus/malware scanners and similar snakeoil are not a solution, but rather we have to look at more preventative measures. Currently Tails admittedly isn't doing super in that field (at least Tails 0.14 has NX bit support), but we do have (admittedly slow moving) plans for other types of hardening, like [[todo/Mandatory_Access_Control]].
+
+> In particular, the disclaimer in the Tor threat model about \"not defending against global adversaries\" must be dropped, however daunting the goal of defending against multiple global adversaries must seem.
+
+It's not as you think. There is not even a *difficult* solution to this issue that doesn't have extreme drawbacks that would kill the network. Here are a few solutions and the reasons why they would kill the Tor network, or at least reduce the amount of users to a point where there is no anonymity to speak of:
+
+* Introduce massive delays at each hop in the circuit: What if a web page took in the order of hours to load? Tor is expected to be a low-latency anonymity network, not a high-latency one like MixMaster and Mixminion that deal with email, where latency is less of an issue.
+
+* All connections to and within the Tor network require constant-bandwidth cover traffic: Just considering the amount of cover traffic required to be sent between the realys show that this is impossible today. At least if Tor clients expect a throughput better than the 300 *bits* per second Internet connections of the 70s.
+
+With either of these no one would use Tor any more, and as we will see, the amount of users (well, their activity) is a huge factor for anonymity.
+
+There are [some indications](http://archives.seul.org/or/dev/Sep-2008/msg00016.html) suggesting that dragnet type surveillance by global adversaries may not be as efficient as earlier thought. See especially \"Example 1: Fully Correlating Global Adversary\". It gives some good numbers on how more activity in anonymity networks makes such attacks harder. In fact it shows that the effeciency of dragnet surveillance decreases quadraticly with the amount of activity (concurrent streams) in the network at any point, but only increases linearly with the effectiveness of the correlation detector. So if we get a tenfold increase of activity we're better off even if the adversary's correlation detector has improved tenfold as well.
+
+Conclusion: to defend against global adversaries anonymity networks need more users that can generate activity *and* more relays to make that possible.
+
+@ comment 163
+
+> > I2P doesn't cache any traffic it relays, so that encrypted data only lives in RAM.
+> How much RAM should you have to use i2p? I saw in the Tails documentation that you should have at least 1 GB of RAM, but should Tails users who want to explore i2p have more? This could be a problem for some of us.
+
+Running I2P in addition to the more typical applications should be fine with 1 GiB of RAM. For instance, I have an I2P instance which I've been running with participatory traffic for years (so it's massively well-connected and constantly saturates its participatory pipes) and it uses ~160 MiB of RAM, give or take. In Tails I rarely see that number climb much higher than ~70 MiB.
+"""]]

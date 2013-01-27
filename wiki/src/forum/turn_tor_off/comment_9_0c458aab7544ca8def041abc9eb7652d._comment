@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2011-12-24T18:17:09Z"
+ content="""
+If I had the time I would disable tor - you would need to rewrite the firewall as a starting point.  It would open the possibility to use a standard OpenVPN encrypted Internet connection etc, but the rest of the hardening in Tails would make it worthwhile.  The net result would be a less severe Tails distribution -- we don't all live behind Government firewalls - crime is the main problem in the West: we don't live in a fully developed democracy in the West (yet!), a 'crime' democracy I think would be a fair description, which while it does include a corrupt civil administration and a corrupt Police system, a MITM attack is probably more of a problem?
+"""]]

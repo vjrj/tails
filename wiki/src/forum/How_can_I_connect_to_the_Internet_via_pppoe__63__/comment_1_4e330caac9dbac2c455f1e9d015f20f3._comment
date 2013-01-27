@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-31T16:53:37Z"
+ content="""
+> I tried to make so via DSL tab (in Connections), but doesn't work.
+
+This is the preferred way to configure a PPPoE connection in Tails. Please provide more details of what \"doesn't work\".
+"""]]

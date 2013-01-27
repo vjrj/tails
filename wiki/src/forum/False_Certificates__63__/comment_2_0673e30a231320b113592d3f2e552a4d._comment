@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-09-07T15:20:00Z"
+ content="""
+If you go into preferences -> advanced -> view certificates you can delete DigiNotar from this list - which is what I think the Tor article suggests.
+
+I've actually had the mother of all hacking problems for the best part of this year (had to bring down my website <http://libraryweb.info>) - I've stopped downloading binaries (installing from DVDs) recently and found that got my laptop back up and running, however webpages I found possibly were still being subject to data injection (javascript keyloggers etc if I were to hazard a guess), and this morning I found delicious hacked quite badly (these are all old hacks recurring).
+
+IMHO SSL TLS hacking is a lot worse than is being communicated - possibly with crime even supplying certificates to order (based on my own experience of how bad this hacking is).  So even deleting DigiNotar from the CA list may not solve the problem.  I don't think it is even possible to trust a VPN at this point.  Not sure what the best strategy is from here on in!
+
+<https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-about-it>
+<http://www.scribd.com/doc/64011372/Operation-Black-Tulip-v1-0>
+"""]]

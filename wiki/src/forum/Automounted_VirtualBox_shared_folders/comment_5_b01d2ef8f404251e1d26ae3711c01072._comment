@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-03-12T10:57:18Z"
+ content="""
+A similar caveat for the clipboard is that if your Tails session gets compromised it gets access to your host's clipboard. This is why these options are not activated by default.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-04T01:37:52Z"
+ content="""
+did you try opening root console and changing permissions? won't let you in file browser or reg console
+
+Applications -> Accessories -> Root Terminal
+"""]]

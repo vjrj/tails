@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-03-12T16:06:42Z"
+ content="""
+> You may be thinking of i2p where this is indeed a problem with insecure configurations (.i2p resources are going through i2p but clearnet resources are fetched directly instead through tor or i2p exit proxy)
+
+FYI this is not an issue in Tails. Any clearnet resources on a page fetched through .i2p will be fetched through Tor. Well, it's still an issue since it identifies you as an I2P user which also run Tor with a setup that can handle both at the same time, but you certainly won't leak your IP address.
+"""]]

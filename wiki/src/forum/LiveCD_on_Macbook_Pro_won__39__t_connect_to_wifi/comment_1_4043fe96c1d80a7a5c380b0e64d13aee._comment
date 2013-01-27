@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Same problem!"
+ date="2012-04-01T18:44:35Z"
+ content="""
+I have the same problem... unless I boot into VirtualBox I've only gotten internet ONCE on my liveCD... couldnt replicate that connection no matter what settings ive tried.
+
+I even made 3 different networks, one guest network(ssid broadcast) w/ a wep, one main network (SSID broadcast, wpa2personal), and a hidden network w/ a WEP. none of the 3 would connect, no matter how many settings i tinkered with.
+"""]]

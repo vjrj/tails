@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-11-14T08:50:42Z"
+ content="""
+OP here
+
+For previous versions, I have always used the MD5 hash here... 
+
+https://tails.boum.org/doc/get/verify_the_iso_image_using_other_operating_systems/index.en.html
+
+However, this time has not been updated, and just find the easiest way to check the ISO from Firefox.
+"""]]

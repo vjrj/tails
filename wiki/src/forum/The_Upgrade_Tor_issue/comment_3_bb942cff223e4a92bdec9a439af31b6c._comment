@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-11-05T22:35:17Z"
+ content="""
+The file \"tor_0.2.2.34-1~~squeeze+1_i386.deb\" has permissions limited to root so I could not copy it either. The file is only 937 kb. The other downloads (total ~ 20 MB or more) are the issue. I think updating the apt-get database packages is the one taking all the bandwidth.
+
+I am not sure if it is possible to update a single package without having to update the apt-get inventory. Is there?
+
+Thnx
+
+Beeblebrox
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="pasting search results"
+ date="2012-01-23T18:29:08Z"
+ content="""
+* Additional informations can be found [here](http://www.linutop.com/wiki/index.php/PersistentTechnic) and [here](http://www.linutop.com/wiki/index.php/Modes/Lock)
+* The [script used](http://code.linutop.eu/websvn/filedetails.php?repname=linutopos&path=%2Flrd%2Ftrunk%2Fscripts%2Flrd&peg=1245)
+and [an explanation by the developper](http://gauvain.pocentek.net/node/24) (in french)
+* Linutop versions prior to v4 managed the Lock mode in [this way](http://www.linutop.com/wiki/index.php/Modes/Lock_old)
+
+--bulo
+
+
+
+"""]]

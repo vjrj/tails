@@ -1,0 +1,43 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-10-04T18:52:08Z"
+ content="""
+Comment #12 wrote,
+>I would prefer to see the addon bar completely hidden.
+
+Comment #13 wrote,
+>i would like to see some of the add-ons on a lower bar that could be toggled easily as SHOW/DON'T SHOW.
+
+Looks like you both either missed or did not understand the following from comment #10: 
+
+**The entire add-on bar can easily be hidden from view and toggled back and forth by simply depressing the `Ctrl` and `/` keys simulatenously.**
+
+Could it be any simpler than that?
+
+Additionally, there are also at least two other ways to hide the add-on bar from view:
+
+1.) By simply clicking the \"x\" at the left-hand corner of the add-on bar
+
+2.) *View* > *Toolbars* > *Add-on bar*: Simply uncheck this
+
+But your posts do raise the question of why *TAILS* didn't hide the (empty) Add-on bar itself. 
+
+If they're so concerned with \"uncluttering the GUI\", as they say they are-- enough to *go out of their way* to tinker with the eminently reasonable, highly useful *default* configuration of ABP... why wouldn't they also hide the add-on bar itself? Thanks to their tinkering, its *empty* anyway, so what purpose is served by having it take-up precious real estate on the screen? Now *THAT'S* useless \"clutter\"! 
+
+Now, as was already noted in this thread, in the **default** configuration of AdBlock Plus, a little icon for it appears in the add-on bar. And this icon just happens to provide some very real and useful functionality: Hovering over the icon with the cursor displays a little box of text with information about which items on the current page are blocked by ABP and which specific filters are most in use. (This information is particularly useful when, as is hardly a rare occurrence, one finds that a page does not display and/or function as intended/ expected.)
+
+What if someone, for some reason, wishes to merely hide the ABP icon but keep the rest of the Add-on bar in view? (As \"TAILS\" claims to)
+
+There are at least two easy ways:
+
+1.) Tools > AdBlock Plus > Options , then uncheck \"Show in add-on bar\"
+
+2.) Right-click on ABP icon > then ditto everything above in #1.
+
+So, you see, the **default** configuration of ABP makes it quite easy for each person to have his or her preferences with regard to whether or not to have the icon displayed in the Add-on bar. (And Iceweasel/Firefox makes it even easier with regard to displaying/hiding the entire Add-on bar.)  
+
+In contrast, in the *TAILS* configuration of ABP, there does not appear to be *any* way to get back the ABP icon, nor even an alternative means of achieving the functionality provided by hovering over the ABP icon.
+
+TAILS has thus far refused to offer any actual explanation for changing this default-- a change that considerably cripples the Ad Block plus add-on (and going out of their way to do so, no less!). This should disturb anyone with an interest in TAILS and answers should be demanded. 
+"""]]

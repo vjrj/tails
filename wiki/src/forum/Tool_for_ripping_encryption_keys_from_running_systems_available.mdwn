@@ -1,0 +1,7 @@
+I don't know if this is news to anyone else, or if it's Tails related enough to be a valid post but.. here goes..
+
+There's now a tool commercially available designed to capture encryption keys from RAM. It works over firewire & similar connections.
+
+Obviously it's only effective if it's connected to you (running) machine while you've got the encrypted volume(s) open and the keys exist in cleartext in RAM.
+
+[More info at The Register](http://www.theregister.co.uk/2012/12/20/elcomsoft_tool_decrypts_pgp/)

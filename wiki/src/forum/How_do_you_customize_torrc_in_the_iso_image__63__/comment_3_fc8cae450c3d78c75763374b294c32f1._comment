@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-03-25T14:53:37Z"
+ content="""
+The build will be a relay server and hidden service anyways. so as long as clients accessing will be within the \"global anonymity set\", everything should be fine.  
+"""]]

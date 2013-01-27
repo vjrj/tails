@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 27"
+ date="2012-01-11T06:56:14Z"
+ content="""
+Re. anonymous / polipo / MITM: FYI in Tails 0.10, iceweasel does *not* use polipo.
+
+"""]]

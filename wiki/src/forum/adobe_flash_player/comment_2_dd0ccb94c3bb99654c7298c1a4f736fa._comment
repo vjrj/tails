@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Getting Flash to work is easy"
+ date="2012-03-11T00:47:24Z"
+ content="""
+Open the TERMINAL and enter:
+amnesia@amnesia:~$ sudo apt-get install flashplugin-nonfree
+
+Open Iceweasel and got to Tools/Addons. Select Extensions. And then click on Torbutton (Preferences). Disable 'Disable Button and Hortkeys to prevent accidental toggle'.
+
+So and now this may sound strange but it works with FULL anonymity: Click on the green onion button (in the main menu bar) and then it will say TOR disabled. But you can relax. Cause of the genius of the Tails developers TOR still works (If you doubt check it on https://check.torproject.org) That's it. Nearly all flash apps will work now!
+
+Roger
+"""]]

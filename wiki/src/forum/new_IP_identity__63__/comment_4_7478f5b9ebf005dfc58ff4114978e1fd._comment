@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-01T10:52:52Z"
+ content="""
+> this green onion button in the browser, before URL, when I click it, I loose all tabs and get new empty tab page.
+
+This is intentional -- a new identity includes dropping all previous web browser state.
+
+Any way, using the browser's button's \"new identity\" feature *will* give you a \"new\" IP address, but you may still get the old one due to cacheing. To bypass the cache and really make sure the page is fetched again (which will reveal the new IP address) you must press Ctrl + F5.
+"""]]

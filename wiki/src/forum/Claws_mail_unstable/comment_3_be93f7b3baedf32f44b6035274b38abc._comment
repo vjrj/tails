@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-15T19:08:42Z"
+ content="""
+I've also got problems with this bug & I begin to be used with (even if I haven't found any solution, nor I can get error infos)
+However for the 1st time today I could avoid restarting system. Here's what I've try, if it can help.
+
+First, switching on tty2 and launching 'invoke-rc.d gdm3 restart'
+Afterwards I was back on the gnome desktop (tty8), with all apps closed. I then launched this 'ps aux | grep claws' which would show me a surviving claws-mail process. Trying to launch claws-mail again, it would bug when trying to reach the IMAP server.
+Another 'ps aux | grep claws' would show me this time *2* running claws processes. Made me think that claws was not killed with the gdm3 restart command.
+Therefore I could get with the 'killall -9 claws-mail' command, all claws processes to stop.
+Launching it one more time I could have it work noramlly and so reach the IMAP server and then try to read my mail... until it bugs again with this \"passphrase bug\" !
+Switching again to tty2 allowed me to restart gdm3 once again, and to \"killall -9\" this remaining process.
+
+Hurra folks : I can turnaround with this bug without having to restart the system... but I still can't read my mails ! 
+
+However this workaround allowed me to run those commands suggested on 'comment1'. Here are the results, that seem pretty normal :
+
+du -csh .claws-mail
+3,7M .claws-mail
+3,7M total
+
+df -h /live/cow
+tmpfs   1013M   41M   972M   5%   /live/cow
+
+I will keep on trying to find what's wrong, and post new messages if I find anything.
+"""]]

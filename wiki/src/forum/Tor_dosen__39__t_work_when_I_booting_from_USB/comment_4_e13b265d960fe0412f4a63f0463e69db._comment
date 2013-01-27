@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-24T10:34:51Z"
+ content="""
+Also, how did you install Tor on the other system? From some repository, the Tor site, etc? As individual packages or a \"bundle\" and if a bundle, which one?
+
+One more thing which might help, assuming you haven't edited it to include anything personal (proxies, passwords and the like), could you post the contents of the torrc file on your OTHER system (the one which does connect)? Could you confirm that you are using the two systems over the same internet connection?
+"""]]

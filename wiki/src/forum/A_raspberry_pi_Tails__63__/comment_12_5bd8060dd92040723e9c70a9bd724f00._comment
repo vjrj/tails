@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-12-28T17:05:51Z"
+ content="""
+
+> If it's intended to donate bandwidth to TOR, one could simply install TOR and configure it as a relay/entry/bridge/exit node
+
+I would like to run a middle node but have only a slow broadband connection.  But if it were easy for anyone to buy an inexpensive Rasberry Pi and to configure it as a Tor middle node, this might greatly increase the total number of middle nodes.   Enough to help the Tor community?
+"""]]

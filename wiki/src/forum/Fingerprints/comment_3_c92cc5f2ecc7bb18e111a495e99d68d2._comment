@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-02-24T21:10:37Z"
+ content="""
+HTTP_ACCEPT Headers are also different
+
+TBB: text/html, */* gzip, deflate en-us,en;q=0.5
+
+Tails: text/html, */* ISO-8859-1,utf-8;q=0.7,*;q=0.7 gzip, deflate en-us,en;q=0.5
+
+Did you compare everything to make sure it looks like someone using TBB on Windows, so no difference in terms of browser fingerprints.
+"""]]

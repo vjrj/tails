@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Sorry a mistake:"
+ date="2012-03-16T19:01:36Z"
+ content="""
+Please add the following line to the /usr/bin/google-chrome startup script:
+
+    exec -a \"torify $0\" \"$HERE/chrome\" \"$@\" --user-data-dir
+
+But that changes nothing. Experimenting with proxy settings also fails :-X
+
+Roger
+"""]]

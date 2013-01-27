@@ -1,0 +1,6 @@
+ So, how does one use Bitcoin with Tails? The few postings in the forum on the subject of bitcoin mention installing a client into a persistent direcory. 
+ Launching the supplied Synaptic package manager and searching for bitcoin, only bitcoind is available. I've installed it. Now what? Don't I need a bitcoin client?
+Where is it? 
+ Btw, I've seen some error messages while installing bitcoind, where are they logged?
+ It's strange that bitcoin is not preinstalled on Tails. 
+It's hard to find a USB drive less than 4GB at local retailers , here in LA, I suppose similar situation elsewhere, so the argument that bitcoin with the database is too large to include in a distro, seems unreasonable.

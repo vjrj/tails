@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-05T18:15:10Z"
+ content="""
+Pidgin does not support SASL yet, see the [ticket](http://developer.pidgin.im/ticket/13270) on their bug tracker. It seems it would not take that much energy, to anyone with the right kind of knowledge, to turn the patch into something that can be applied upstream.
+
+"""]]

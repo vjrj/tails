@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-19T08:00:09Z"
+ content="""
+> Is it possible to put/ use TAILS on an SD card?
+
+It may have rough edges, but basically it should work the same way as on USB sticks. Please report bugs if it does not.
+
+> If so, how?
+
+Install Tails on the SD card the same way you would install it on a USB stick.
+
+"""]]

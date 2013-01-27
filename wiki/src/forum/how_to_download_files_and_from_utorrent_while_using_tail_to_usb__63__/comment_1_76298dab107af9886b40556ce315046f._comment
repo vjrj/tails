@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Tails, Tor and BitTorrent"
+ date="2011-06-27T07:10:44Z"
+ content="""
+Tails does not ship any BitTorrent software and is unlikely to do so
+in the future: using BitTorrent over Tor is generally considered to
+harm the Tor network.
+
+See, [Tor Project: Bittorrent over Tor isn't a good idea](https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea).
+
+"""]]

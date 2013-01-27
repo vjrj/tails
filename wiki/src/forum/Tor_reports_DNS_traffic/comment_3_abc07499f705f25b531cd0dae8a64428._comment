@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="harmless"
+ date="2011-10-25T18:29:43Z"
+ content="""
+This is harmless in the context of Tails. Our ttdnsd config references the Google DNS server by IP address (8.8.8.8).
+"""]]

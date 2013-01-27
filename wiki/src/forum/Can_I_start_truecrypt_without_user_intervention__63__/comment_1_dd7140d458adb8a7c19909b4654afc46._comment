@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-21T09:34:30Z"
+ content="""
+While possible, it would do your users a disfavour. For [[various reasons|support/truecrypt]] TrueCrypt will be removed from Tails in a not so distant future. There are alternatives in Tails already, e.g. Applications -> System tools -> Cryptkeeper (encrypted folders) and Applications -> System tools -> Disk utility (encrypted partitions on e.g. USB drives).
+"""]]

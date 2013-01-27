@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="DownloadHelper already working for YouTube and other sites"
+ date="2012-07-31T01:39:57Z"
+ content="""
+DownloadHelper can download YouTube videos and you can play the file while it is downloading if the codecs are available to Tail's video player. Anything I can download from YouTube will play in Ubuntu with Medibuntu, so I know the codecs exist.
+
+This doesn't require any Flash player. Without javascript I get thumbnail images for search results but not for suggested videos.
+
+DownThemAll has a \"one click\" option. To have the downloaded video files with correct names, from the download dialog see \"renaming mask\", change \"name\" to \"text\". 
+
+You can download the video in a variety of formats. Lately I've been seeing a \"Mobile\" format that is very small and could download as fast as it is played through Tor (or I2P).  Using alt + tab makes switching from Firefox to the file manager easy. YouTube auto-selects 360p resolution. Tor isn't fast enough for 360p and this will bog down the network. DownloadHelper lets you select the resolution before the video starts playing so this is more convenient than Flash once you get used to it. The only thing missing is a way to skip ahead in a video, to a part that hasn't been downloaded yet.  
+
+It seems more secure to separate video playing from the web browser. There are probably more remote exploits for Firefox and Flash as compared with Tail's video player, especially when connecting through Tor. The video player and any software that doesn't need internet access could be run as a user with access forbidden by iptables.
+"""]]

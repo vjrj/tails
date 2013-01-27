@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-02-05T05:33:47Z"
+ content="""
+I don't think adding a proxy in Vidalia's settings is working. When I hit \"ok\" I get the error in the advanced message log:
+
+Feb 05 05:30:14.872 [Notice] Renaming old configuration file to \"/etc/tor/torrc.orig.1\"
+Feb 05 05:30:14.873 [Warning] Couldn't rename configuration file \"/etc/tor/torrc\" to \"/etc/tor/torrc.orig.1\": Permission denied
+"""]]

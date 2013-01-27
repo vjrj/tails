@@ -1,0 +1,12 @@
+Hi, Ninja OS dev team here. this is the script I've written for scrambling the host name and all ethernet macs
+
+mh_scramble.sh
+http://pastebin.com/Jw1cuEb2
+
+NOTE: it needs macchanger and apg (both binaries, both available in debian repos).
+
+apg is the automatic password generator. It can make pronounceable passwords. Of course this is used to make pronounceable host names, so the LOOK LESS random.
+
+I use the macchanger binary because it seems to be more stable than just ifconfig hwaddress
+
+it works great for ninja OS, I hope you can make use of it in someway!

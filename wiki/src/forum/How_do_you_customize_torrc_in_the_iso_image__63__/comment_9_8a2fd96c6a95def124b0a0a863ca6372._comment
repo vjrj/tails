@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-03-29T11:58:12Z"
+ content="""
+@ Silly advice:
+> The Tails developer should openly say so if he does not want people to change the torrc. This reluctance to let people effectively change their torrc shows the developer has not understood how Tor was meant to work from its historical roots.
+
+There's been nothing preventing users from doing this in Tails (just `sudo nano /etc/torrc` before connecting to the network). In the next release of Tails this will be even easier since you only have to do it once if you run from a USB drive and mark /etc/tor as persistent. It certainly will not be encouraged, though.
+
+> Transplanting the onion routing for general use was artificial and made it less secure than in its original setting. Because onion routing is based on the the principle that the first relay is under your control, secure and friendly.
+
+The issue with this model is to (1) find such an entry node, and (2) make sure it has a diverse enough anonymity set. How do you expect an average user to make a good decision for 1? And how can you evaluate 2? In fact, achieving 1 also implies that 2 becomes much more difficult (similar users will be attracted to the same entries).
+
+> From that the Navy could not care less about traffic analysis. 
+
+This sounds strange. Sure, if the Navy is using their entry for all onion routing they indeed don't have an issue with the entry colluding with the exits for any given cirguit. It seems, however, that the issue is just moved from the entry node to the middle node; if the middle and exit of a circuit are colluding, they can confirm whether the exiting traffic originates from the Navy, which is enough knowledge for them in most cases. This is why my point 2 above (anonymity set diversity) is important. A homogenous anonymity set is horrible.
+
+> In contrast you now have a lottery with unknown chances to get one of the foul entry guards. The only way to better the chances for the individual user is to tweak his torrc to exclude the obviously bad candidates for a circuit.
+
+You make it sound so easy to make a good choice here. It's not (unless you have some good metric for evaluating entries that the rest of us don't). In fact, I doubt encouraging this will do anything but harm at this stage.
+
+@ comment 8
+> Does this mean Tor Bundle is safer than Tails. ?
+
+Even if you buy the arguments made by the author of the \"silly advice\" comment, Tails allows you to mess up you torrc file just as much as in any of Tor bundles, so there's no difference.
+"""]]

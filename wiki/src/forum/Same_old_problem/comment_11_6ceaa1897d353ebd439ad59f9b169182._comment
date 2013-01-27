@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-01-08T05:08:46Z"
+ content="""
+There is some problem with the Tor consensus file, the times are off by ~6 hrs.
+"""]]

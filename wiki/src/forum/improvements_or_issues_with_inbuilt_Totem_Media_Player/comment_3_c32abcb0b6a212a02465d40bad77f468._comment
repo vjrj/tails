@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Video DownloadHelper works better than Totem YouTube plugin"
+ date="2012-09-29T19:12:31Z"
+ content="""
+I enabled the Totem YouTube plugin and got search results with thumbnails but when I tried to play 3 videos I got \"GStreamer encountered a general supporting library error.\" before Totem crashed.
+
+The Totem YouTube plugin doesn't seem to let you select bitrate such as the \"mobile\" format available with the Firefox plugin (Video) DownloadHelper. I wouldn't want to wait and bog down the Tor network with full quality stream unless I needed it for viewing subtitles or other details. You also don't get to see the YouTube comments and probably can't save the downloaded videos. All this can be done without Flash/Gnash installed using DownloadHelper and Totem codecs for playing the downloaded videos.
+"""]]

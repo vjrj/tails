@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-09-28T09:48:05Z"
+ content="""
+
+    apt-get update
+    apt-get remove -y xul-ext-monkeysphere foxyproxy xul-ext-firegpg
+    apt-get -t testing install xul-ext-adblock-plus xul-ext-https-everywhere iceweasel
+    # *watch out for \"cannot be authenticated\" errors here
+    apt-get autoremove -y
+    # Set the default search engine back to Scroogle from within Iceweasel
+    # CS Lite, FoxyProxy and Monkeysphere can be installed from Tools/Add-ons
+
+
+"""]]

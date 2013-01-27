@@ -1,0 +1,1 @@
+Hi, i have installed Gpg4win, downloaded Tails signing key, imported them in to kleopatra, downloaded the cryptographic signature corresponding to the ISO image and I have run "Decrypt/verify". The problem is, I git message : not enough information to check signature validity. What I have made wrong ? p.s. sorry for my english.

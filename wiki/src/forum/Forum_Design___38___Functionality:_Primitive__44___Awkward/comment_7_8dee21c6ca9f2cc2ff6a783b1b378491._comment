@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-01-03T17:27:35Z"
+ content="""
+We developed the [sortbylastcomment](https://ikiwiki.info/todo/sortbylastcomment_plugin/) plugin precisely in order to improve improving the Tails forum. Nothing has been done still in the upstream to
+integrate it. We will try to send some reminders.
+"""]]

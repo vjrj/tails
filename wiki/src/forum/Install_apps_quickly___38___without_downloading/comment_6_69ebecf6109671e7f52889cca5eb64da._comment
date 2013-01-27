@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-01-23T17:51:32Z"
+ content="""
+> Ok it seems it's impossible to trust anyone where people even don't trust Tor/Tails developers. All I wanted to do is to help people.
+
+Sure, but I hope you realize the issue: how can someone determine that you haven't altered the packages? Debian's package management infrastructure and trust model handles all that (although it depends on you trusting Debian), so why not make use of that instead? 
+
+> The best way is to use \"apt-get -d install\" and write all needed package names like I mentioned before.
+
+This (+ `sudo`) is correct (but you should mention that a `sudo apt-get update` is necessary before). If you update your post accordingly you can also remove the warning we added. Not all packages you suggest are available in Debian (like TorChat, which BTW probably is crap when one takes its history into account) so you'll have to remove them too.
+
+> Please consider the suggestions in the bottom of the topic. Maybe you can do this in a more trustable way. I still think it's an important topic.
+
+Something like that [[is already planned|todo/persistence/#index3h3]], although perhaps not quite as shiny as you suggest. We might end up integrating it with synaptic, which is the standard APT GUI in Gnome and shiny enough.
+
+> Is there a way to add keys-sigs for each packages to verify them. How should I do that and where can I find them?
+
+This is not as easy as you seem to think. To verify a signature and get a meaningful result, one need to make sure to get the right key in a safe manner (see e.g.: [[doc/trusting_tails_signing_key]]). Besides, not all projects distribute their packages together with signatures.
+
+> Or is the best way giving command codes to download packages from trusted websites 
+
+Any Tor exit (or other eavesdropper) could manipulate the package unless SSL (https://...) is used.
+
+## Conclusion
+
+Using Debian's APT infrastructure is by far the safest way to install software in Tails, since it ensures authenticity and only require you to trust Debian. But even that is not safe as some packages could break certain properties of Tails (e.g. some network applications are not suitable to use with Tor since they leak information, and other packages may potentially break some of Tails features).
+"""]]

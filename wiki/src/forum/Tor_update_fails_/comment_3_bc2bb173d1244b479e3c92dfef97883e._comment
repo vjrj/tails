@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Password?"
+ date="2011-11-03T17:54:30Z"
+ content="""
+What is asking you for a password? *Accessories* -> *Root terminal* should not.
+"""]]

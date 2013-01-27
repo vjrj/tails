@@ -1,0 +1,93 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Details of the Dutch proposal to target Tor and p2p users (and the cloud)"
+ date="2012-10-24T06:22:07Z"
+ content="""
+We have been discussing possible safety issues involving using i2p while using Tor, as Tails users can do if they do choose to start an i2p server while using Tails.  
+
+The question arose of whether the Tails threat model should be updated to take account of the methods and ambitions announced in the already notorious letter sent to the Dutch parliament by Ivo Opstelten, the Dutch Minister of Security & Justice, proposing a law giving Dutch police the \"legal authority\" under Dutch law to use state-sponsored malware to break into computers anywhere in the world, and even to alter or destroy data on such computers.  The letter repeatedly mentions Tor and even hints that i2p may also be a target.
+
+The letter explicitly mentions as a goal of the proposed legislation the
+
+> Criminalization of the trade in stolen (digital) data
+
+There are some hints that Opstelten may have in mind primarily the trade in stolen credit card numbers,  What is clear is that the Dutch parliament would have to decide how to define both \"digital data\", and \"stolen data\", and in the process would no doubt come under intense pressure to extend the definition to include sharers of allegedly pirated content as prospective felons under Dutch law.
+
+Opstelten warns Dutch legislators about
+
+> the use of software to encrypt data and delete the communication paths
+
+(DELETE paths?  Hanh?)
+
+He specifically mentions Tor, and seems to hint that child pornography on computers using Tor to operate hidden services will be another target, in addition to suspected downloaders:
+
+> In the investigation of child pornography on the Tor network, the team found that through the use of this network it is possible to view, download or upload child pornography images on to servers, without the identity of the suspect being visible. Furthermore, in several places, including the servers that were found, encryption was used.
+
+He reveals, apparently for the first time, that the Dutch police are among the \"law enforcement organizations\" which have exceeded their legal authority by altering or destroying data on computers in unknown geolocations:
+
+> the [Dutch] police have copied the content of the servers on the aforementioned Tor network containing images of severe sexual abuse of children and then destroyed it or rendered it inaccessible.
+
+I guess he may be referring to images provided via Tor hidden services which are probably illegal under Dutch law, and probably under most other jurisdictions too.  But when he says
+
+> the exact location of the servers could not be determined with certainty because the communication path had been obscured
+
+it almost sounds like he might be talking about i2p.
+
+One key point seems clear: no Dutch court was involved in approving these cyberintrusions which are only now being admitted, or as he puts it:
+
+> the Public Prosecution Service and the police made a decision in favor of acting against child pornography on the internet
+
+Opstelten tacitly admits that the cyberintrusions and data destruction which he is now admitting were illegal:
+
+> Police and the Public Prosecution Service indicate that various forms of crime exist that are hidden from their sight because they do not have the [legal] power to invade a computer... It can be inferred that it is not permitted [under Dutch law] that a computer is penetrated remotely for the purpose of investigation of serious forms of cybercrime.
+
+But they went ahead and did just that anyway.
+
+Following a familiar pattern, Opstelten is seeking legislative approval after the fact.  But in nations which operate under the rule of law, that is not the correct legal procedure.
+
+One tiny ray of hope that Holland does not intend to become an entirely rogue state: Opstelten does seem to state that his law would reuire that police obtain a court order and carefully log all data destruction operations:
+
+> given the degree of intrusiveness of the legal powers to remote intrusion of automated work and the installation of technical devices for the detection of serious forms of cybercrime, especially considering the infringement on the right to respect for the privacy of persons, authorization of the examining judge must at all times be obtained prior to the use of the power. Also, the power can only be exercised in cases of suspected offenses of a certain gravity, for example offenses for which custody is provided or that carry a maximum imprisonment of four years or more.
+
+> Furthermore, of course, the general requirement applies that report must be made when this power is exercised. In addition, all transactions occurring during the exercise of these powers are automatically logged and stored and thus always accessible and verifiable afterwards.
+
+(Conviction of crimes which under Dutch law can result in a prison sentence of over four years tend to be more severe than crimes which merit such short sentences under US law.)
+
+The letter offers some hints about what methods the Dutch police have employed against suspected Tor (and or i2p?) users:
+
+> In order to get access to this data for the purpose of investigation of serious forms of cybercrime, it is necessary that software can be secretly installed that allows the encryption of the data to be undone or circumvented.
+
+So: state-sponsored malware designed to break the strong encryption used by Tor and/or i2p.  An educated guess: the malware is dropped using non-Tor vulnerabilities in common web server software.
+
+This is a critically important point because several posters claimed above that the strong encryption used by Tor (and i2p) would prevent people being prosecuted for sharing encrypted content which when decrypted might reveal objectionable or even criminal content.  But the letter clearly states that Holland is among the nations which have already deployed state sponsored malware capable of breaking (or more accurately, in all likelihood, evading the need to break) strong encryption.
+
+Few people would object to criminalizing or prosecuting child pornography.  But remember that Opsfelten explictly states that a major goal of his legislation would be to apply state-sponsored malware and extra-judicial data destruction to suspected sharers of pirated content, a far lesser crime. 
+
+Opstelten is explicitly calling for the outright abandonment of a time-honored principle of international law, and also of a well-established principle of police work when multiple agencies have jurisdiction that cooperative agreements are neccessary so that rival agencies don't inadvertently step on each other's investigations (the classic example would be one agency arresting someone who is working as a criminal informant for another agency):
+
+> To carry out investigative actions on the territory of another state, international legal assistance is required. The reverse also applies: if a foreign state wants to carry out investigative actions on Dutch territory, they also require official legal assistance (article 552h in the Dutch Code of Criminal Procedure). However, the time delay incurred by this often works against the investigation an limits the effectiveness of official legal assistance. 
+
+Opstelten admits that the Netherlands has traditionally favored cooperation over American style unilateralism.  But he complains that existing international talks aimed at crafting an international legal framework for border-crossing cybercrime investigations and prosecutions are taking too long, and explains that he intends to shape policy by getting ahead of the curve:
+
+> [The international talks involve] a process that will take many years. The Netherlands will continue to monitor this. I choose to set the improvements to combat cybercrime already in motion in the Netherlands. 
+
+He does hint that the spirit of his law would be to break these principles only when the geolocation of a hidden server cannot be determined by the Dutch police:
+
+> If knowledge is available about the location of the data, and the data are located on a foreign server, a request for legal assistance [from police in the foreign nation] is designated. If there is no knowledge about the location of stored data, the police should for the purpose of obtaining evidence be able to be search and take over [the foreign computer].
+
+Opstelten argues that in his view, Dutch law already permits the police to intrude into computers geolocated in Dutch territory and to delete any files, and that all he wants to do is to establish a \"legal authority\" under Dutch law for them to do that anywhere in the world, at least when the Dutch police cannot quickly determine the geolocation of the targeted computer:
+
+> A particular need is the power to render inaccessible data that is found during remote search of a computer. In the Netherlands, the possibility currently exists that, when a place is entered to record data that is stored on data carrier at that place, and when the data is or is used for committing a crime (such as child porn), the data are rendered inaccessible to end the crime (article 125o of the Dutch Code of Criminal Procedure). Following that precedent, it is desirable to extend this authority to enable [Dutch] authorities to remotely intrude into a computer [in a foreign country], and to render [illegal] data inaccessible. 
+
+> After all, it is possible that during a remote search, child porn is found. This was the case during the aforementioned investigation that the THTC carried out on child pornographic images on servers in the Tor-network, where the police found very harmful pornographic material that was stored in encrypted form on a server. In absence of knowledge about the location of the storage of data, it is impossible to search for legal assistance. Nobody can be identified and charged in that case, even while the crime continues. 
+
+> The severity of such crimes requires that the data are immediately rendered inaccessible. This can entail that the data must be erased. I therefore believe it is desirable to establish a legal power to render inaccessible or erase data that are found during remote searches of a computer, modelled upon the provisions of article 125o of the Dutch Code of Criminal Procedure. Here, again, the law would state that if knowledge is available about the location of the data, a request for legal assistance must be addressed to the authorities of the foreign state.
+
+If you read that very carefully, it seems that the \"nightmare scenario\" outlined earlier in this thread comes close to an accurate description of the \"collateral damage\" which is likely if this initiative is enacted.  Quite apart from the irreparable damage to the rule of law, to principles of International Law and inter-governmental cooperation, it seems quite possible that if Dutch police intrude into a computer holding even temporarily objectionable content in RAM, content whose cryptographic cloak has been removed by hook or crook, they plan to routinely destroy that data.  It even seems possible that if they do not enjoy success in completely eradicating content which they feel is pirated or pornographic, they may move onto the logical next step: malware designed to cause the physical destruction of sharing computers.
+
+But wait, there's more!  Opstelten also wants Dutch police to have the \"legal authority\" (under Dutch law) to intrude into and destroy data found on servers in the cloud generally, possibly including remote backup servers, webmail servers, maybe even all servers operated by collectives like the Chaos Computer Club or Riseup Networks or Tails.  Don't believe me?  Just read the translation for yourself!  
+
+<http://blog.cyberwar.nl/2012/10/dutch-govt-expresses-intent-to-draft.html>
+
+I am not easily shocked anymore, but this letter is really astonishing, even shocking in its astonishing disregard for established notions of the rule of law.
+"""]]

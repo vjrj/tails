@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-08-21T17:05:04Z"
+ content="""
+I tried using tails from three different public computers at my university but failed.
+
+The computers I used appeared to have been programed in such a way that the bios screen only appeared for a fraction of a second, in effect preventing me to access the bios via f2 or f12. I did not have time to press a button let alone see which button I should press for the computers bios.
+
+Perhaps when tails is able to be automatically booted in a VM from windows that situation could be mitigated but then we would be open to all the virus and keyloggers in the public computer so that is not an ideal solution either.
+
+Does someone have experience with bios configured in such a way?
+"""]]

@@ -1,0 +1,48 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-03-21T12:08:34Z"
+ content="""
+> If an already tested by Debian (in addition to Mozilla) security
+> update can completely break the security of Tails you are doing
+> something wrong and need to thing about why you need to test so
+> extensively in the first place.
+
+The mozilla.debian.net APT repository Tails uses for iceweasel just
+started providing the ESR branch. I'm pretty sure we will switch to
+using it, and to a certain extent, this will indeed make iceweasel
+*security* upgrades less painful by decreasing the amount of work we
+have to do to adapt Tails to the updated version.
+
+*Major* iceweasel upgrades, OTOH, sometimes break random add-ons; we
+cannot guarantee \"Tails minus one random add-on\" still has the same
+security properties as \"Tails\". Tails is no collection of software,
+it's an integrated system. I doubt e.g. the TBB developers would dare
+to guarantee any kind of security property that would be carried by
+\"TBB minus one random file\", see?
+
+> The update itself will be exactly the same thing wrt testing and QA
+> as a new iso. If Tails continues their current policy this update
+> feature will only decrease the load on the download servers, not the
+> days of exposure to exploits.
+
+Thank you for pointing this out.
+
+Manpower to prepare releases is one of the reasons we don't ship
+point-releases every two weeks, but it's not the only one.
+
+In the current state of things, if we display a scary warning messages
+about an important security update being needed, that is, a new full
+ISO needs to be downloaded and installed, it's likely most users won't
+follow the cadence, get used to this warning, learn to ignore it,
+lessen the strength of the meaning of such warning messages of ours,
+and probably, in the end, upgrade even less often than with they
+currently do with the ~monthly point-release we've set as an
+informal goal.
+
+So, it could very well be that we dare shipping point-releases more
+often and more quickly, once the download and upgrade process gets
+less tedious.
+
+"""]]

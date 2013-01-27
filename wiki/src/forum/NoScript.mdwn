@@ -1,0 +1,4 @@
+I don't understand why there isn't Nosript addon in Tails and Java Script is enabled by default. I know that Torbutton is supposed to deal with problematic Javascript but still vast majority of Tor users keeps Javascript disabled whenever they can.
+Besides keeping JS enabled is really bad for browser fingerprint analysis.  
+NoScript is probably the most popular addon used by tor users, and apart of dealing with JavaScript on per site basis it provides additional protection from browser fingerprit analysis by preventing websites form knowing what fonts you've got on your system (which can easily be estimated even with JavaScript disabled), not to metion this whole "Do-Not-Track" thing.
+If Anonymity is about melting into crowd, Tails users should looks similiar to ordinary Tor Browser Bundle users. But without Noscript the fonts alone make them distingushable.

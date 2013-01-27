@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Argh"
+ date="2011-11-19T10:15:20Z"
+ content="""
+Hi. The \"rename isolinux to syslinux\" trick cannot work for Tails since we ship hybrid images. But at least, it reveals incompatibilities between some BIOS and hybrid images. This will be fixed as soon as we ship a proper USB installer, which is on the works.
+
+"""]]

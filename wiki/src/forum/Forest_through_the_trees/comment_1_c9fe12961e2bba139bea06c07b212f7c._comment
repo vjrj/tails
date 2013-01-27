@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-10-18T21:20:33Z"
+ content="""
+i use tails everyday for a namecoin business
+usually have no problems, use it to securely SSH into remote boxes, check emails, use pidgin.. ect.
+
+only problem i've had so far is claws mail freezes up if you download around 100 new encrypted messages and start replying to them. 
+"""]]

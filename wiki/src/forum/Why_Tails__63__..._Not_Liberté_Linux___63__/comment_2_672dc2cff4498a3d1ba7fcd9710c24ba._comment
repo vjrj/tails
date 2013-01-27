@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-11T03:02:43Z"
+ content="""
+>Why you are using Tails? Why you are NOT using Liberté Linux ?
+
+
+Liberté is not as well known, their web forum software is broken under a properly configured Tails session, some users may trust a team working more closely with Tor developers than a lone individual, and the question equally applies to this one:
+
+
+\"Why am I not using one of the hundreds of distros available instead of Tails?\" See Distrowatch.
+"""]]

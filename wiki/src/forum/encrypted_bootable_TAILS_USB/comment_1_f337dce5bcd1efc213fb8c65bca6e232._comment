@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Sed"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-08-22T12:54:18Z"
+ content="""
+Bump!
+
+I'd be interested to see this also.
+
+There may be some info on the live boot debian site Tails builds its iso on.
+
+I'm sure also though that there will be some documentation somewhere on encrypting Linux partitions - including at boot.  It would take a kernel build probably.
+"""]]

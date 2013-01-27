@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-01-20T09:57:04Z"
+ content="""
+> I would rather boot Tails, then to VPN > Tor. There could be all sorts of reasons, but my main one is to be able to log-in to features of the network (such as email) that are only accessible if you are logged in and connected to the VPN.
+
+You want `VPN -> Tor` *and* accessing the VPN's resources? Do you understand that your access to those resources would not be anonymous? I'm not sure we want to support that -- the whole idea of Tails is that *all* non-LAN traffic is anonymised. I can understand that some users may want to compromise with this policy, but that will make Tails purpose watered down, and adding options to opt-in on such features make Tails more complex.
+
+Hence, I think the only way we'd allow access to a VPN's local resources would be through `Tor -> VPN`, although it's still open for discussion.
+
+> How would I do this? You all are making references to doing it, so I assume it's possible.
+
+It's possible, but *not* easy. There's quite a bit of work involved setting it up in a secure manner.
+"""]]

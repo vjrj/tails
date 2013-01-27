@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-17T10:14:27Z"
+ content="""
+I've also been experimenting with manually adding a user as a member of the same groups as amnesia, setting up that new user's encrypted home manually and running a new gnome-session on a VT.  This indeed works but there are a few issues - I am obviously not starting the gnome session in the right startup context for Tails because vidalia doesn't appear in the tray (though it is running) and I'm not entirely sure tor is running as debian-tor (though it is running).  I'll look at the live boot man pages which I assume has a way to do this property.
+
+Are you suggesting making home persist on an encrypted drive is a bad idea *only* because config files therein do not get updated with new Tails releases?  Because I am quite prepared to manually update these with each Tails release - all one would need to do is copy the updated files across from the new /etc/skel, no?  
+
+
+"""]]

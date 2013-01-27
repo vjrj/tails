@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="tails without TOR? 2"
+ date="2012-09-10T10:50:39Z"
+ content="""
+I wonder if its possible to use tails,
+with all the benefits of the many safety
+tools, nice software selection and extra
+configuration for having a real WORM 
+device, but without TOR (since it makes
+it go really slow)
+"""]]

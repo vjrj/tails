@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="time"
+ date="2012-02-15T01:31:53Z"
+ content="""
+clock syncs 5 hours ahead of timezone with tails 10.1, however, hidden services still function at this incorrect time. safe to use? (manual sync causes hidden services to 504)   
+"""]]

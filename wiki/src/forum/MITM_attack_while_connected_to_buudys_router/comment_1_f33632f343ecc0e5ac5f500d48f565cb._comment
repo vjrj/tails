@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-14T10:09:42Z"
+ content="""
+No. MitM attacks are only possible from the LAN if the attacker has broken SSL, or obtained the keys from the Tor authority servers or your Entry Guards, all which are highly unlikely.
+"""]]

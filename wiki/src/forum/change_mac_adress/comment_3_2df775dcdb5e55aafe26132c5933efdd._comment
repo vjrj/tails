@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="macchanger command"
+ date="2012-02-02T10:31:32Z"
+ content="""
+>macchanger -a eth0
+
+In the instructions given in the first reply in the thread you linked, the command given is:
+
+    macchanger -a **-e** eth0
+
+\"where eth0 is assumed to be the network interface with the Internet connection.\"
+
+For WiFi its usually **wlan0** (If that doesn't work, try *wlan1* )
+
+The other thread also suggest using **sudo** (before each command).
+
+I have had success following the instructions in the other thread with two of three wireless adapters that I have tried.  
+"""]]

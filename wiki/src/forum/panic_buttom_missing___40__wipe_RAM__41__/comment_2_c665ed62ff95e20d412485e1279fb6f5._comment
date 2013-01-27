@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-24T09:26:21Z"
+ content="""
+> To developers: I have an idea, the screen should be blank at the Tails shutdown. So after clicking the power off button, no one behind you could realize something abnormal is going on. If it doesn't automatically shutdown, you will do it manually. And you can say the screen was frozen
+
+What happens at Tails shutdown time, how it is displayed and explained to the user, seems very unfriendly already. Removing any kind of feedback and explanation looks like a serious drop of in terms of user-friendliness.
+
+What would be the advantage of doing so actually? Being able to claim you were not using Tails? With a Tails medium plugged in a USB port / CD reader?
+
+"""]]

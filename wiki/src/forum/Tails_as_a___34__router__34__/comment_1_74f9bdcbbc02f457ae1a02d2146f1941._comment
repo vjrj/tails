@@ -1,0 +1,44 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-22T19:39:17Z"
+ content="""
+Ok I made it to work with the following configuration:
+
+iptables:
+
+**iptables -A INPUT -i eth1 -m state --state NEW -j ACCEPT** (Since the default policy for the FORWARD chain is DROP, this rule is necessary to allow incoming traffic from eth1, which would be the \"client\" PC) (this rule was added after the original INPUT rule in the Tails firewall script)
+
+
+
+Routing and redirecting (it is necessesary to allow IP forwarding, this could be done by typing in the console **echo 1 > /proc/sys/net/ipv4/ip_forward**):
+
+**iptables -A POSTROUTING -o eth1 -j MASQUERADE** (Masquerade to eth1)
+
+
+**iptables -A PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 8853** (redirect DNS requests to Tor (note that I'm not using pdnsd) It is necessary that Tor listens in the same IP assigned to eth1)
+**iptables -A PREROUTING -p tcp -j REDIRECT --to-ports 9040** (redirect all TCP traffic to the Tor transparent proxy. It is necessary that Tor listens in the same IP assigned to eth1)
+
+(These rules were added before the OUTPUT nat redirection rules present in the Tails firewall script, I also was thinking about adding this rule \"**iptables -A OUTPUT -p udp --dport 53 -j REDIRECT --to-ports 8853**\" but I think it makes no sense since it will only redirect the DNS requests made by the local PC (which would \"disable\" pdnsd) and not by the \"client\" PC.
+
+Changes in torrc:
+
+As I marked above, in order to make this to work it is necessary to configure the Tor transparent proxy and the DNS resolver to listen in the same IP address assigned to eth1, so assuming the IP on concern would be \"192.168.2.1\" the lines to add should be:
+
+DNS resolver:
+
+**DNSListenAddress 192.168.2.1**
+
+**DNSListenAddress 127.0.0.1** (since in the original Tails torrc file DNSListenAddress is not specified this line should be added, otherwise the resolver would listen only in 192.168.2.1 which would break other Tails redirections)
+DNSPort 8853 (remains untouched)
+
+Tor transparent proxy:
+
+TransPort 9040 (remains untouched)
+
+TransListenAddress 127.0.0.1 (remains untouched)
+
+**TransListenAddress 192.168.2.1**
+
+That's my configuration, I would like to hear opinions from the Tails developer to know if there is some flaw in this configuration that could break the Tor anonymity. Also I hope this could help someone else.
+"""]]

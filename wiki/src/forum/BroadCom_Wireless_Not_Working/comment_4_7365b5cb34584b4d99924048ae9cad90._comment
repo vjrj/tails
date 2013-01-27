@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Broadmoc drivers"
+ date="2011-12-21T22:18:51Z"
+ content="""
+As of 0.9 the broadcom drivers for wireless didn't autoload for my Dell Mini 9.
+"""]]

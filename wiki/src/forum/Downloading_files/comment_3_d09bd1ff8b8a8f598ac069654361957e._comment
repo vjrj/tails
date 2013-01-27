@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-30T18:21:19Z"
+ content="""
+I have experimented with torified wget while using Wireshark, and didn't spot any obvous red flags.  But such a test is probably worth little without using another machine with two networks to sniff packets on your LAN (assuming you legally administer it, of course).
+
+I guess that ICMP packets might be a source of information leakage.
+
+There is some outdated information at torproject.org which you can try to find, but I never found it very useful.
+"""]]

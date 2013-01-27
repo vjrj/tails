@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-02T23:55:15Z"
+ content="""
+for bitcoin you could use Strongcoin.com it works fine over Tor. the wallet/coins are encrypted with your own password, you can extract the coins in paper format and simply extract your key and use another program like Electrum https://bitcointalk.org/index.php?topic=50936.0 to transfer offline coins via terminal should anything happen to strongcoin.com
+
+Wuala inclusion would be super kawaii rad though
+
+
+
+"""]]

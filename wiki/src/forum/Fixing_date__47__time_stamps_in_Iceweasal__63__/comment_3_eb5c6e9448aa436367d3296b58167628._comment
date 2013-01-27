@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-01-24T19:50:34Z"
+ content="""
+I doubt the printing timestamps can be configured independently from the timezone set by Torbutton for iceweasel as a whole.
+
+I believe the variable that sets iceweasel timezone is `extensions.torbutton.tz_string`. Beware: if you change its value, you're singling you out of the Tails anonymity set.
+
+"""]]

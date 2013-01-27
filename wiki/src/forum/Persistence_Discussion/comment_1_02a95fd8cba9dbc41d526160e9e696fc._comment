@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="hmmm"
+ date="2012-01-20T08:20:05Z"
+ content="""
+3 profiles would be in fact 3 logon users. user1, user2, user3, with possibility to change password but default password logon can be the same as username. 
+"""]]

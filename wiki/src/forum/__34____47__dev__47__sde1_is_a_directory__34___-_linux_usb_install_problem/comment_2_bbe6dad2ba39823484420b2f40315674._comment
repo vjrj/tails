@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-23T21:41:15Z"
+ content="""
+yes it's the destination, the source path for the .ISO is fine.
+
+I take it that cat && sync only works on the whole drive and not with a specific partition then.
+
+Is having two partitions not recomended?
+
+I installed the ISO manually and made it bootable with gparted and syslinux in the end. The spare partition is for encrypted storage and works great from tails and I can't see any inconvenience.
+
+If there's a good reason not to do this though I would be very interested to hear
+"""]]

@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-09-24T14:23:44Z"
+ content="""
+> PELD just documents your implementation,
+
+Sorry, but it is the opposite. We usually first design and then implement, as most good software development practice advice to do. The PELD has been written a long time ago. It is periodically updated when we find and design new features / issues. Usually through the cycle of writing todo pages where ideas are discussed.
+*Again*, if youi dislike our design and implementation, feel free to fork, use another OS, or propose another implementation that fits the needs (good luck to find how to implement this feature another way). That would be more constructive.
+
+> listen to your users
+
+We already do that, sorry if you are not our only user. I admit it is sometime quite hard when we have to read and read again the same posts from one user though.
+
+> You can start with one of those useless TODO pages
+
+We could but we won't, as stated before none of your words here have convinced us to spend time on this, especially given how you ask for, and how you behave on this forum. You should learn to accept it when people diverge from your opinion and say \"no\".
+
+This \"useless TODO pages\" are part of our open development, for users to follow what happen, other dev to join and easily catch up, etc. For someone complaining on that matter, you seem to do little case of it in the end.
+
+Unless you find other arguments that seem valid for us to spend time on implementing what **you** want (I mean something different than \"**I** don't want that\") and consider **you're not the only Tails user**, I won't reply anymore to this thread. Your question has been answered many times already, and you just come back with the exact same useless argument.
+
+For other people, please don't come into his game by replying to his provocations.
+"""]]

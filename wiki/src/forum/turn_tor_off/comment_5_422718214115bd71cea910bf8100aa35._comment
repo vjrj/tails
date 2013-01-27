@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Why?"
+ date="2011-12-18T11:45:52Z"
+ content="""
+Why use Tails if you want to turn Tor off?  Makes no sense and defeats the whole point of Tails.  Just use your favorite linux distribution with the Tor bundle and use Tor Button to toggle.  Don't make stupid requests to enable breaking Tails.
+"""]]

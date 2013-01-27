@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 125"
+ date="2012-10-25T12:23:41Z"
+ content="""
+>Aren't they using the 2-hop tunnels when they do this, though?
+
+Only if you use Tor.
+
+But as the user pointed out most of the Hidden Servers are now running a dual link with a IP2 connection to their hidden server machine as well.
+
+So as you are acting as relay server when you are running I2P you will at some point make a direct connection to all the computer addresses running a hidden server through the I2P connection when another I2P user requests to look at their site and the relays connect and fetch the data on their behalf.
+
+It's a total fuckup.
+"""]]

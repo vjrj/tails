@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-18T10:20:56Z"
+ content="""
+> How do I re-run the system time sync from the command line when it fails? As root or not?
+
+Try:
+
+    sudo service tor stop
+    sudo rm /var/lib/tor/* /var/run/tordate/* /var/run/htpdate/*
+
+and then reconnect to the network (left-click on the NetworkManager applet in the systray and click on the active connection (the one with bold font)).
+
+> How do I restart vidalia and tor from the command line after that, and again, do I do that as root?
+
+Using the above method there's no need to do that. Tor and Vidalia will start automatically.
+
+> Would it make sense to add a button to the 'time sync fails' dialog to re-try the time sync or at least provide a menu item to re-run this?
+
+Hmm. Maybe.
+"""]]

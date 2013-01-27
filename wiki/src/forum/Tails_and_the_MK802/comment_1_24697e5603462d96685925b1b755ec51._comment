@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="No."
+ date="2012-06-23T20:25:59Z"
+ content="""
+No. The MK802 has a 1.5 GHz Allwinner A10 ARM Cortex-A8 processor. Or Tails only run on i386-32bit architecture (intel, AMD) . There is no version of Tails for ARM processors.
+"""]]

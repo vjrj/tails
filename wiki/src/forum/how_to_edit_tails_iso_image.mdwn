@@ -1,0 +1,5 @@
+Hi, I tried to edit tails iso with iso master extract and unsquashfs tools and then i edited torrc file and iceweasel settings (bookmarks) but when I used squashfs to make it again it was almost 1GB and later when i used iso master to make iso file, it was not possible to boot from DVD. there was some error but know I can't find screenshot. 
+
+in any case, I need advice, how to change panel settings to be at the bottom of the screen? 
+
+where to make next changes: Iceweasel settings (edit-preferences-content java script should be disabled by default, in Privacy tab it should be checked Tell websites I don't want to be tracked, Always use private browsing mode, Location bar ”history” should be Nothing, nothing should be saved, in Security tab remmeber passwords for sites should be disabled/unchecked). Iceweasel NoScript addon, Script globally allowed should be disabled, in Embeddings tab everything should be checked, the same in Appearance tab, all the rest should stay as it is).

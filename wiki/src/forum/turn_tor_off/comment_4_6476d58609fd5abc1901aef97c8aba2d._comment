@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="No"
+ date="2011-12-16T19:40:54Z"
+ content="""
+Again: it's **not** possible to turn off Tor, in an easy way, in Tails.
+So asking *how* repeatedly is of no use.
+
+If you feel like learning how to do it anyway, feel free to.
+Our [[design document|contribute/design]] would be a nice starting point.
+Happy learning!
+
+"""]]

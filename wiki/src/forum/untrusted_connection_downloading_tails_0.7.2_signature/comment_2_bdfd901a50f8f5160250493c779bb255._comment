@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="instruction in previous comment didn't work for Tails 0.8.0 or 0.8.1"
+ date="2011-10-17T02:56:27Z"
+ content="""
+SSL is not secure. We should use only TLS. In Firefox/Iceweasel go to Preferences > Advanced > Security. Uncheck SSL and leave TLS checked.
+
+If you browse this site using https, it works with the above settings. However, when you click to download the signature, you leave the secure connection (without warning). Instead add the \"s\" to make \"https\" and download from this location <https://dl.amnesia.boum.org/tails/stable/tails-i386-0.8.1/tails-i386-0.8.1.iso.pgp>
+
+When I do this with Tor Browser or Firefox without Tor, I get this warning: 
+
+>dl.amnesia.boum.org uses an invalid security certificate.
+>The certificate is only valid for the following names:
+>  *.lsd.cc , lsd.cc , xenobite.eu , *.xenobite.eu  
+>(Error code: ssl_error_bad_cert_domain)
+
+With Rekonq I get: \"The Certificate does not apply to the given host.\" It shows the lsd.cc domain again with some names I don't recognize.
+
+If I try with wget on Tails 0.7.2, I get a different error:
+
+>amnesia@amnesia:~$ wget https://dl.amnesia.boum.org/tails/stable/tails-i386-0.8.1/tails-i386-0.8.1.iso.pgp
+--2011-10-16 21:13:00--  https://dl.amnesia.boum.org/tails/stable/tails-i386-0.8.1/tails-i386-0.8.1.iso.pgp
+Connecting to 127.0.0.1:8118... connected.
+ERROR: cannot verify dl.amnesia.boum.org’s certificate, issued by “/C=MD/ST=Some-State/L=Chisinau/O=html.md/CN=*.html.md/emailAddress=vlad@html.md”:
+  Self-signed certificate encountered.
+ERROR: certificate common name “*.html.md” doesn’t match requested host name “dl.amnesia.boum.org”.
+
+
+"""]]

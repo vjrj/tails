@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="hmm"
+ date="2012-02-21T00:24:26Z"
+ content="""
+it would be possible but it's kind of against the point of tails to do that. I think that liberte linux is an aternative distro that is more catered to that way of functinoning if you can't escape that mentality.
+
+If anything, I would wait a couple of months for the next version of tails to be released - from what I understand, it should include a secure method of allowing persistency meaning that basic customizations can be retained.
+
+"""]]

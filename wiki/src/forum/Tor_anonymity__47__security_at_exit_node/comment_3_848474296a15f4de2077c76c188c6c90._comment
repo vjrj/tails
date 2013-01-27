@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-03-09T10:46:26Z"
+ content="""
+> If I understand correctly, an exit node could read what is sent, but will not know who sent it.
+
+Yes, it will see the very same data that would leave your computer if you didn't use Tor.
+
+> How does webmail fit in? Could an exit node read email sent from the gmail website? If purchasing something through a website, could the exit node read confidential information such as a credit card number?
+
+In general an exit node can only do something useful with data that is **not** encrypted. Most webmail providers, online shops, banks etc. uses HTTPS for encryption and authentication so [[be alert and make sure that HTTPS is used|doc/anonymous_internet/iceweasel#index1h1]] when dealing with confidental data in Iceweasel. There are schemes similar to HTTPS for other protocols, e.g. IRC has SSL, email via an email client has SSL/TLS for communication with the email provider (i.e. to encrypt your login details) and [[OpenPGP|doc/encryption_and_privacy/openpgp_with_gedit]] to encrypt your email correspondence so only you and your recipient can read it etc.
+
+> A reply to a thread in another forum stated that Tor should not be used for webmail or anything personal. Which leads back to my question: when and for what should I use Tor?
+
+That thread is wrong, or at least too simplistic. Tor certainly increases the exposure of your traffic greatly, but that just means to you have to make sure you encrypt and authenticate (e.g. by use) any sensitive data you send through the Tor network.
+
+Here's a cute interactive site which explains Tor vs HTTPS in a rather vivid way: [Tor and HTTPS](https://www.eff.org/pages/tor-and-https).
+"""]]

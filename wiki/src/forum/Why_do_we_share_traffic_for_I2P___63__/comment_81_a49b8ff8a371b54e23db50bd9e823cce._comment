@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 81"
+ date="2012-10-23T20:45:30Z"
+ content="""
+I think the i2p documentation at
+<https://tails.boum.org/doc/anonymous_internet/i2p/index.en.html>
+urgently requires a rewrite to address some of the issues discussed in this thread.
+
+From little I currently understand about i2p it seems that its operation might be sufficiently different from Bittorrent that the problem discussed in the paper at the Tor blog is not as grave an issue.  I am still confused about how Tor interacts with i2p when one uses Tails (and has enabled i2p), particularly the critical point of whether i2p uses Tor circuits at all or is entirely independent.  That wouldn't really address some of the concerns expressed above but it would at least explain why the comment quoted from the paper by the Tor developers is probably not relevant to discussing whether i2p is safe to use with Tor (currently the documentation seems to imply that Tails developers think it is).
+"""]]

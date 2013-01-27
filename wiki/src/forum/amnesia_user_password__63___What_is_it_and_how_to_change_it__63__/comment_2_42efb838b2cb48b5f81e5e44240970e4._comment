@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-12T15:50:03Z"
+ content="""
+The previous post by me (Tails) is confused. I got fooled by some incorrect assumtions in the OP's question:
+
+> To use sudo, I use the password I created on boot, but I want the amnesia account to have a password, too.
+
+The password you set in Tails greeter *is* the password for the `amnesia` user. When a password is set, the `amnesia` user is also allowed to issue any command via `sudo` using its password (this is how `sudo` is designed). The `root` user's password is always completely disabled in Tails (unless you set it via `rootpw=...` on the kernel cmdline, but that is for debugging purposes only as it is *complete insecure*).
+
+So, what is it that you really want to achieve?
+"""]]

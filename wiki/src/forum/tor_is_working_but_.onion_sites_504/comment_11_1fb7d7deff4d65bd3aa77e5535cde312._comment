@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="504 Errors - "
+ date="2011-12-02T22:29:20Z"
+ content="""
+There is clearly something amiss with the latest version of Tails 0.9.  No matter what .onion site I visit I get a 504 Error.  If I load the previous version of Tails 0.81 I am able to connect normally.  Same computer, same internet connection, same every thing.  The only thing that's different, is the Tails ISO; 0.81 works, 0.9 doesn't.  I'm not a computer expert, but common sense tells me this is more than coincidence.  
+"""]]

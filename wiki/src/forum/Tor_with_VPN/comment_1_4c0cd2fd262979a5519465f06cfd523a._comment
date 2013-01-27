@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-01T03:19:04Z"
+ content="""
+I think that TOR would route through the VPN tunnel. Your ISP won't see the TOR connection. The VPN server would see the TOR entry/exit nodes. As far as I'm aware the TOR VM sees the VPN as the default internet connection on the Host machine i.e. the VPN tunnel. As far as Tails is concerned the VPN is transparent and TOR connects and encrypts as normal within the TOR network which includes your TOR client in the VM. So all contents are still encrypted within the TOR network. 
+
+"""]]

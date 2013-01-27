@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-06-13T18:17:44Z"
+ content="""
+I think Gnome 3 can be a problem for older hardware.
+
+When I tried running Ubuntu and Mint with Gnome 3 live, my almost ten year old system with Celeron 1.4 GHZ CPU and 2 GB of RAM would crash.
+
+I did not have this problem with TAILS as well as several versions of Ubuntu and Mint and other distros that used older versions of Gnome.  
+"""]]

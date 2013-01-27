@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-06-20T08:15:58Z"
+ content="""
+> One thing you may have to worry about is this. If someone were to do network scanning (think the govt put a sniffer in every postal truck) they would see your wireless routers MAC
+
+Google has already put such sniffer in every Android phone. Before that, they sniffed MACs from Google Maps cars.
+"""]]

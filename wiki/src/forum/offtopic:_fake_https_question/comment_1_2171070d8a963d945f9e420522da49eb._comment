@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-13T08:19:06Z"
+ content="""
+> When using Tails some web-sites that offer https connection are blocked cause of \"unfair certificate\".
+
+I don't think I've ever seen it called \"unfair\" certificate. Invalid?
+
+> What are the risks of using such https connection? What kind of data can be stolen, comprimised? Real IP adress? Or is it just a traffic between exit node and this site? Or something else?
+
+This error means that Iceweasel is uncertain of the authenticity of the certificate, and hence you do not know whether you've come to the right website. If this is a [[man-in-the-middle attack|doc/about/warning#index3h1]], then any data you send to the website can be stolen, but if you use Tor you won't leak your IP address. The most common reasons for the error is much more mundane than that, e.g. the website uses a self-signed or expired certificate. One should be really suspicious if a website that previously had a valid certificate suddenly has an invalid one.
+"""]]

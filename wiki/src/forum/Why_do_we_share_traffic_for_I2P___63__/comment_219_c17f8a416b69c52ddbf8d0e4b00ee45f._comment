@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 219"
+ date="2012-12-04T14:10:41Z"
+ content="""
+>Comment by Tails — Tue 04 Dec 2012 02:51:48 PM CET
+
+You seem to be missing the point the person is making and a good point at that.
+
+If a government agency downloads an illegal file it doesn't need the original poster or any of the relays tunnels as the agency can see what ip address is last in the chain transferring the illegal file to them by the local network.So in the same way a Tor Exit node can be prosecuted for aiding and abetting the trafficking of illegal material the last persons that transferred the encrypted data to the agent could also be prosecuted as a data mule even though they have no idea what data they transferred.
+
+The data doesn't get to the agent by fairy dust it has to passed to the agent by an actual I2P user and that I2P users in the end of the chain is not hidden in any way.
+"""]]

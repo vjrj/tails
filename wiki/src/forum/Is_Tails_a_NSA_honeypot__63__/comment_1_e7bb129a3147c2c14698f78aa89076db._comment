@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-09T17:36:57Z"
+ content="""
+I think that the consensus is that Tor's anonymization is easily broken with an end-to-end traffic analysis (likely available to organizations like the NSA). The anonymization is still good for practical purposes, though — military intelligence won't compromise their techniques by cooperating with law enforcement. And, of course, there are non-NATO countries. Also, it's unclear what traffic analysis gives you for hidden services.
+"""]]

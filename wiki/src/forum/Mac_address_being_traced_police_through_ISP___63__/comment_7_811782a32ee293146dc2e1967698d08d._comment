@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="What a rootn tootn mess"
+ date="2012-06-09T05:13:47Z"
+ content="""
+>Just found out this information from someone who's senior tech person at Bell.
+
+>Canadian Police authorities have access to a database of their countries ISP databases and are able to find out who logged in with a specific MAC address to Tor. ISP gather MAC addresses now.
+
+No doubt.
+
+>For example: If someone wanted to create a Facebook account, the logs at Facebook would include their MAC address, their IP address.
+
+Not how it works. The MAC is not propagated over TCP/IP and therefore can not be logged by Facebook. However the IP address would be logged, so the same effect *could* be achieved by cross-referencing the IP address and chronological data obtained from a Facebook data-set against an ISP IP/MAC log. *Except* that that's exactly what Tor exists to prevent. Tails forces your IP traffic to use the Tor network, so we are actually talking about *two* IP addresses. The IP data logged by Facebook would *NOT* be \"yours\". It would be the IP address of one or more exit nodes. Therefore, there can be no correlation between the two data sets and your identity can not be determined.
+
+>Then Police would go to that said database and enter that MAC address and see who logged in in Canada with that MAC Address (wether correct or fake -random address) to Tor. Then they would start their investigation from there. FUCK..did you guys knew that ?
+
+An investigation which would lead where?
+
+At the local (ISP) end: While a *real* MAC address could be used to identify you, a spoofed MAC yields no such information and could only be used to derive a session IP address. Your session IP address will leave a trail to *NOTHING* other than your Tor entry node(s)/bridge(s)/proxy.
+
+Data leaked... *someone* has connected to the tor network.
+Not spoofing your MAC? Data leaked... *someone* has connected to the tor network using your device.
+Connecting over your own ISP connection without spoofing your MAC? Data leaked... someone at your premises has connected to the tor network using your device.
+
+Meanwhile, at the remote (Facebook) end: *Someone* (a tor exit node) is simultaneously connecting to / creating / hacking dozens of accounts on Facebook, Yahoo, Google, CIA, Pork My Missus, TorrentWarez, Kiddy Pr0ns 'R' Us, etc, etc.
+
+Data leaked... *lots* of people are using Tor to do *lots* of stuff.
+
+You logged in to a personal (eBanking, eMail, etc) account? Data leaked... lots of people are using Tor to do lots of stuff and you are one of them.
+
+Conclusion? If you are going to log in to a personal account, it is generally considered good practice to do so in an isolated Tor and browser session. i.e. restart Iceweasel *and* ask Vidalia for a \"new identity\" immediately before, and then again immediately after, using your eBanking or whatever. Furthermore, it seems generally accepted that the disadvantages of using Tor to access personal accounts outweigh the advantages, unless your intention is to obfuscate your location.
+
+PS What are rootkits supposed to have to do with police/ISP policy towards MAC/IP addresses? Why do all these threads seem to degenerate into a morass of off-topic paranoia?
+"""]]

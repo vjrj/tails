@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-30T14:08:12Z"
+ content="""
+If, after reviewing your company's Internet policy, use of personal laptops is permitted then you can boot up TAILS on your laptop before connecting it to your LAN port.  You can always ask your manager, or the system admin.  Ask if there are bandwidth restrictions, and then when using TAILS monitor your use so you remain within your company's rules of Internet use.
+
+If, your company's policy restricts using its computer resources on the Internet such that when noticeable bandwidth is consumed and the system admin becomes involved, then your job could be in jeopardy - best not to risk it.
+
+It is likely that there will be a fingerprint of your changed mac address in the router tables that record it and use it to identify your computer or laptop that has run macchanger via the LAN port being isolated in the system logs. Once the system admin realizes that there is no hardware inventory record for that NIC identity (generated from using the macchanger command), then the chase is on to see who is misusing the company's computer assets, be it bandwidth, or computers.  What the system admin is able to trace might be computer activity on your LAN port - which implicates you, but might not be conclusive to prove that you are responsible, i.e. there might be some amount of plausible deniability on your side in that case. Are there any video cameras where you work that would otherwise confirm your presence in the office during the time frame in question?
+
+
+"""]]

@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-09T16:40:09Z"
+ content="""
+In general, I agree that we should link to other distros, especially [Liberte linux](http://dee.su/liberte), both because it seems like a good project which we've borrowed some ideas and code from, and we've collaborated on some topics with its developer.
+
+@comment 1:
+> Tor has a clear Debian bias. [...]
+
+While this may be true, I think there's a much more accurate explanation/factor, for whatever it's worth:
+
+When I, anonym, developed Tails' predecessor, the Incognito LiveCD, I tried to build a good relationship with TTP and was regularly in contact with them. It seemed to work: they hosted the official Incognito code repo, they granted me a license to use their Tor-related trademarks in Incognito context's (especially graphics), they reported about Incognito's progress on the blog, they promoted it on IRC and other support channels etc.
+
+So Incognito had essentially the same status as Tails has now. But Incognito was based on Gentoo, not Debian. To me this seems to invalidate your theory that Tails being based on Debian is the sole (or even biggest) reason they promote it. What further invalidates it is that Privatix, another Debian-based privacy-oriented distro, never was promoted in the same way, despite it being born years before Tails.
+
+In Tails we have continued to develop our relationship and trust with TTP, and to me this seems to be the real reason why Tails status with the TTP is what it is. I recommend other similar distros to do the same — like you so rightly point out, it's better for everyone.
+"""]]

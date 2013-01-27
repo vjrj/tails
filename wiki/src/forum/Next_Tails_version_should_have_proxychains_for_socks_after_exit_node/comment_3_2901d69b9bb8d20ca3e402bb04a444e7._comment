@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-11-13T19:34:34Z"
+ content="""
+You can install it through package managers.
+
+About dangers, the firewall should not let the software bypass Tor, but you are on your own.
+"""]]

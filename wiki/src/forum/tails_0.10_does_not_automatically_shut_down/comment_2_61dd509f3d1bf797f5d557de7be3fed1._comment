@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="adding on to that "
+ date="2012-01-16T22:30:59Z"
+ content="""
+What about if the shutdown operations fail? Several times the line \"terminating remaining processes\" is marked as failed. What does this mean for security and the wipe process?
+"""]]

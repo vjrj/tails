@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-26T21:06:36Z"
+ content="""
+You could use bridges or proxies to access the tor network so the ISP can not see that you are using tor.
+"""]]

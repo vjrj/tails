@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-27T11:41:35Z"
+ content="""
+That depends on how you have installed Tails on the USB drive previously.
+
+* If you installed Tails in the standard way (e.g. `cat tails.iso > /dev/sdX`) you must overwrite the partition table etc. so all the data on the USB drive will be lost. But that shouldn't matter since if you have installed it in the standard way you cannot have any writable partition on the USB drive at the same time. 
+
+* If you installed Tails in a non-standard way (which I get the impression of that you have), and possibly have Tails on a writable partition (?) then you only have to overwrite all Tails related files/directories with the ones from the new Tails iso.
+
+
+"""]]

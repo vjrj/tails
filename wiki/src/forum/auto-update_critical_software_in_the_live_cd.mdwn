@@ -1,0 +1,5 @@
+Take this as an example: https://www.mozilla.org/security/announce/2012/mfsa2012-10.html
+
+Today is Feb 15, this "critical" security patch was released on Feb 10. Tails user today are not protected. I don't know when the next release with a fix will come out.
+
+Releases take a lot of time (and bandwidth) compared to small updates, especially if diffs are used. Tails could check for updates during boot up, at least for certain very exposed software to minimize the days between security patches being released and patches being deployed to Tails users.

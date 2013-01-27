@@ -1,0 +1,7 @@
+[[!comment format=html
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-09-28T04:31:13Z"
+ content="""
+no documentation in Tails, but <a href=\"https://tails.boum.org/bugs/__34__Clock_is_approx._6_months_after_the_release_date__34___but_it_was_set_correctly/\">here's a workaround.</a> (just delete the offending server, currently mail.riseup.net, from /etc/NetworkManager/dispatcher.d/50-htp.sh before connecting to the internet)
+"""]]

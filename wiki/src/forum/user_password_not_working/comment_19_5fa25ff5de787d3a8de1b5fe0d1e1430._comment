@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2012-06-25T17:04:59Z"
+ content="""
+POSSIBLE SOLUTION: I posted Comment 8. What I have figured out, and this works 100% for me even on a laptop, is to do this: When the options screen pops up and you select more options and the administrator password boxes appear, tab through all of the elements (the password boxes, lables, submit button, etc.) until the cursor is back in the first password box. Type your password, tab to the second password box and retype the password. Click ok, and you should be good to go.
+
+It would be nice to see why this works, but hopefully this will help the developers out. Thanks for all that you do!
+"""]]

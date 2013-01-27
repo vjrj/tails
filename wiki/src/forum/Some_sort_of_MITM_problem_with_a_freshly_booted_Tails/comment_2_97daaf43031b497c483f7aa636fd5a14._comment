@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-09-27T19:25:41Z"
+ content="""
+Re. [Iceweasel 5.x](https://tails.boum.org/todo/Iceweasel_5.x/)
+
+I've installed Iceweasel 6.0.2 from testing OK (having got a very definite \"cannot be authenticated\" error on the first attempt - so watch out here!).
+
+The following extensions install fine from within Iceweasel (i.e., the Add-ons menu):
+
+* Adblock Plus 1.3.9
+* CS Lite 1.4.1.1
+* FoxyProxy Basic 2.2
+* HTTPS-Everywhere 1.0.3
+* Monkeyspere 0.6
+* Public Fox 1.09 (hint hint)
+
+Note xul-ext-monkeysphere, xul-ext-adblock-plus and xul-ext-https-everywhere packages are available in testing (not tried them as yet).
+
+As to [symmetric OpenPGP](https://tails.boum.org/todo/symmetric_OpenPGP_vs_recent_Iceweasel/) I must admit I'd like to play around with this myself - what is the situation with the IPC extension and 6.0.2? (taking over development of FireGPG would probably save a ton of coding).
+"""]]

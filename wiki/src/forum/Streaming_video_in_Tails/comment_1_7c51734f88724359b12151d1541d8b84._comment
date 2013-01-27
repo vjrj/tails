@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-30T21:11:50Z"
+ content="""
+Flash is proprietary software and will never be included, supported or endorsed in any way in Tails as long as that remains the case (and even if Adobe open-sourced it we likely wouldn't include it any way since it seems to be a piece of shit software given its history of grave security issues). We don't want to assist you in shooting yourself in the foot, so you're on your own I'm afraid.
+
+But there's good news: the next release, Tails 0.10, which is due in less than a week, will include an Iceweasel with support for HTML5 and its video streaming. Unfortunately few sites uses HTML5 video tags and only supports Flash, but at least Youtube has many of its videos available over HTML5.
+"""]]

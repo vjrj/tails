@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="qazwsx"
+ ip="127.0.0.1"
+ subject="rEFIt"
+ date="2011-08-11T10:04:17Z"
+ content="""
+rEFIt installs a bootloader which recognizes the stick as bootable: http://refit.sourceforge.net/
+
+(http://tails.boum.org/todo/document_USB_boot_for_Intel_Mac/)
+"""]]

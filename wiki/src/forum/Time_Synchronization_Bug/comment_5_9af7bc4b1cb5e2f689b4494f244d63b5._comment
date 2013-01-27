@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-21T21:28:28Z"
+ content="""
+One sees this:
+
+Synchronizing the system's clock
+
+Tor needs an accurate clock to work properly,, especially for Hidden Services. Please wait...
+
+just as in the other thread that was posted today. Connecting to the wireless network manually doesn't help with this issue. Various logs will be sent via encrypted e-mail when time allows so this issue can be resolved more quickly. 
+"""]]

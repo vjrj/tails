@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-16T13:03:26Z"
+ content="""
+> Does this always mean that the memory wiping failed? Could it of still be paritally successful? Tails does not always fail to shutdown like it should.
+
+I have personally observed certain computers completely freeze when all RAM is allocated (which happens during the wipe) but only *sometimes*, so you may have experienced the same thing. In that case the wipe is complete, so there should be no need to worry, but who know? It's hard to tell with certaint without actually performing a cold-boot attack afterwards :/
+
+FYI, we're working on a much more reliable solution.
+"""]]

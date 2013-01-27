@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-09-15T00:49:08Z"
+ content="""
+The last time I ran TAILS 0.7.2, I issued the command: iptables -L (this was prior to doing some extra setup like spoofing the MAC address, and elaborating some more details in the /etc/tor/torrc file, and also prior to turning on my router to get a network connection.
+
+The results were that apparently, since iptables had not been initialized with rules that there were no rules for iptables issued to establish the firewall, and while a firewall \"may have been turned on by default\" there were no rules listed, and hence thre was the equivalent of no firewall running.
+
+Should I have issued the command: iptables -L to list the firewall rules after getting a network connection or indeed does simply putting rules in a configuration file without initializing the firewall with rules amount to \"No firewall\" running as oppossed to the statement that the firewall is turned on by default?
+
+"""]]

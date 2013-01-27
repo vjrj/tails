@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-02T21:42:41Z"
+ content="""
+Debian armel[1]+ Tail specific sources[2] and you can roll your own.
+
+[1]http://www.debian.org/ports/arm/
+[2]https://tails.boum.org/contribute/git/
+"""]]

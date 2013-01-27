@@ -1,0 +1,3 @@
+After I click the red power button icon to shut down tails, it goes through all the shutdown operations. They all are marked as successful. I pull out my usb drive, but the the display does not shut off. Windows 7 often fails to start after I manually shutdown the computer when tails fails to.
+
+Does this always mean that the memory wiping failed? Could it of still be paritally successful? Tails does not always fail to shutdown like it should.

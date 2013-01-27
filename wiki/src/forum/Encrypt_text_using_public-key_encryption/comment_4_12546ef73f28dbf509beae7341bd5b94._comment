@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-26T03:22:41Z"
+ content="""
+can also just use command line gpg
+gpg --import (filename.asc) 
+
+i have to use command line gpg now that FireGPG is gone. decrypting/encrypting with gedit you can't paste in your keys, so have to re-enter every single time and my key is 64 char stored in truecrypt volume so yeah. 
+"""]]

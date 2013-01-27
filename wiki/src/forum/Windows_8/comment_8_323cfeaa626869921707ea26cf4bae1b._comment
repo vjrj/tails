@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-09-29T08:27:58Z"
+ content="""
+Thanks for the pointers.
+
+Regarding signatures: the main issue with Secure Boot and its Windows 8 deployment is that it will prevent any other operating systems (be it Tails, Liberté, Debian, Ubuntu, OpenBSD, Haiku, etc.) to boot without:
+
+ * Getting the operating system ready for Secure Boot **and** signed by the Microsoft root key (which will be in every PC with a \"Windows 8 compatible\" sticker).
+ * Users deactivating *Secure Boot* in firmware settings,
+ * Users manually adding a new root key in the firmware.
+
+The list is in order of how hard it will be to explain the process to someone who just want to use the system.
+
+Except that it will make every users life harder, really getting Secure Boot meaningful in terms of security does not look like an easy problem to solve. Looking up at Matthew Garret's writing on the topic and the recent kernel patch submissions, properly tackling modules loading or kexec does not look anything like fun...
+
+In any cases, it's great to see Liberté and Fedora paving the way!
+"""]]

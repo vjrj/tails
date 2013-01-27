@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2011-08-08T17:57:15Z"
+ content="""
+I also use grub4dos and have been unable to boot directly from the ISO (even when I add the \"--mem\" parameter to the map command to copy the ISO to memory).  I unpacked the ISO into the directory /tails/0.7.2/ of a partition and am able to boot with the following grub4dos stanza:
+
+    title tails (/tails/0.7.2)
+    find --set-root /tails/0.7.2/live/vmlinuz
+    kernel /tails/0.7.2/live/vmlinuz boot=live live-media-path=tails/0.7.2/live config noswap nopersistent noprompt quiet timezone=America/Chicago
+    initrd /tails/0.7.2/live/initrd.img
+    boot
+
+The key parameter is \"live-media-path=\" that specifies the location of the unpacked ISO.
+"""]]

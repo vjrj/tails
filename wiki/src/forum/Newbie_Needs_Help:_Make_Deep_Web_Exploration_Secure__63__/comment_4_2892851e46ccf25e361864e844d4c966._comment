@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-01-13T01:32:48Z"
+ content="""
+**I was just wondering about what other security measures I should be running on my PC along with Tor to help further insure my privacy **
+
+I believe that it is a goal of live distributions to be ready to go, without many changes. Make sure you read the pages on how not to ruin your anonimity. Tails does have an option on scripting, make sure that scripting is completely blocked as this may  compromise your security
+
+I would first look into the differences between the  distributions and then research why they are different and how this effects your security. 
+Have you tried liberte linux? It is a live distribution with a privacy goal like Tails. It would be my choice for deep net. Each distribution has its own strengths and weaknesses. I think ease of use would be Tails's strength. It is clear and well presented, with this forum for example to help everyone come to terms with such a complex environment. But tails even states itself that it is still experimental and I can see it is still struggling with fundamental choices about security like its recent decision with transparent proxying and scripting. I would NOT USE TAILS FOR DEEP NET. 
+
+ The stength of liberte linux in my opinion are that it is based on  hardened gentoo, and is focused on security. Liberte has many technical pages on security ect but its interface is not as user friendly as tails. It also has direct links to the deep net and you will find much information on how to use it securely through that. 
+Try all the distributions and don't assume something is safe until you have convinced yourself that it is so. I have no doubt that the deep net has its dark side, ready to bait and trap those who are misinformed and overconfident
+"""]]

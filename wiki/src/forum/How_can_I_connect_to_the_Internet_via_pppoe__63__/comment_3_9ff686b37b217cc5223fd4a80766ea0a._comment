@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2011-11-12T00:06:54Z"
+ content="""
+in the DSL screen under connections, when you add a new connection click the box at them bottom that says 'enable for all users' then it will work.
+
+i've tried it without enabling that box and when you go to find the connection by clicking the network icon at top right screen there is nothing there... click the box and DSL appears
+"""]]

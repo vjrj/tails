@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Dangerous"
+ date="2012-01-09T15:20:23Z"
+ content="""
+Such kinds of installation are dangerous, unsupported, and strongly discouraged: you've not the correct default settings passed on the kernel command line.
+"""]]

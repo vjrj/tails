@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 29"
+ date="2013-01-07T10:22:39Z"
+ content="""
+> Vidalias Network Map shows Tails/iceweasel/? is connecting to some IPs/sites after (network)starts.
+
+AFAICT, all of these are either documented in
+[[contribute/design]], has a Git branch pending for review, or
+has an open ticket in our bug / task tracker. From this starting
+point, the only efficient ways I see to make things better or
+different are:
+
+* fix the bugs, or find someone who will
+* discuss on the tails-dev mailing list the design choices you dislike
+
+None of this is likely to happen on this forum, so I consider this case as closed here.
+
+"""]]

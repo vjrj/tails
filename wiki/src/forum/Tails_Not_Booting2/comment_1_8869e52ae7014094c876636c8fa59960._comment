@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-19T08:18:08Z"
+ content="""
+try the latest version of unetbootin instead to burn the iso?
+perhaps an improper tails iso, redowndownload it even though you said its checked.
+change your bios settings to make USB boot the first (instead of manually trying to change boot by pressing a button on startup)
+"""]]

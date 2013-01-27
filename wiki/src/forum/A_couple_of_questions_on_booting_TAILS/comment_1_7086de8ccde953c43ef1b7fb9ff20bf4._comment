@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-20T10:15:49Z"
+ content="""
+> If I use a version 0.9 or 0.10 ISO downloaded from your site under VirtualBox (as virtual CD), I get an \"Unable to read boot device\" error.
+
+Please post your Tails VirtualBox configuration.
+
+> Some of the sectors in the ISO file seem to be unreadable.
+
+I don't think so since you claim:
+
+> The signatures of the downloaded files were checked, and everything was correct
+
+From this it would follow that the integrity of the ISO images are good.
+
+> The same happens when I burn these files to a physical CD-ROM, but in these cases the boot process continues until it shows an X login prompt! The strange thing is that these same ISO files used from a USB stick work perfectly ok.
+
+That's indeed strange. Normally this would imply a difference in the kernel command line arguments passed from syslinux/isolinux. Check if they are the same.
+"""]]

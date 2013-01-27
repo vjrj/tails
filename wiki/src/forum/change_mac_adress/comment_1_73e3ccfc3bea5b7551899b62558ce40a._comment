@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-02-01T18:40:28Z"
+ content="""
+Probably like that:
+
+amnesia@amnesia:~$ su
+Password: 
+root@amnesia:/home/amnesia# macchanger -r eth0
+
+"""]]

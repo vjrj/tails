@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2011-12-06T20:19:05Z"
+ content="""
+If everything goes right, Tails boots to a graphical user interface, not a tty. You may want to try adding combinations of the following to the kernel commandline (press TAB in language selection boot menu):
+
+* nomodeset (if you have an ATI and Intel graphics card)
+* nouveau.modeset=0 (if you have an NVIDIA graphics card)
+* xorg-driver=vesa
+
+Please report back with the results, and with which graphics cards you have.
+"""]]

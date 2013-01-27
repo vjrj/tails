@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Custom torrc with Tails cd"
+ date="2011-10-04T10:19:30Z"
+ content="""
+I do not agree with the quotation of the Tor FAQ. 
+Where is the security when you get a known spy node as an entry guard after starting TAILS? 
+
+Picking nodes with the torrc introduces an element of randomness against fined tuned metrics of spying nodes.
+
+I admire Tails but not beeing able to tune my torrc has prevented me from using it regularly.
+
+Thanks to Tom for the advice. Am I correct that this instruction is not applicable to the live cd? 
+The file \"/etc/tor/torrc\" there would not be writable I suppose. 
+
+Any advice on using a custom torrc with the cd?
+
+"""]]

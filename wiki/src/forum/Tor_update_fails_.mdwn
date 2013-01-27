@@ -1,0 +1,8 @@
+your Instructions are flawed. I even tried the irc chat but no one has a solution.
+
+"apt-get update && apt-get install tor && service start" 
+
+doesn't work bash message is:
+could not open lock file /var/lib/dpkg/lock - open (permission denied) 
+
+Yes I used sudo even and it wouldn't install. It downloaded them fine but no joy.

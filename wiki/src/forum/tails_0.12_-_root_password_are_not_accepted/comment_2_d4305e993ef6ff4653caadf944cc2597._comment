@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-06-28T00:40:36Z"
+ content="""
+I have a feeling that OP may be experiencing [this bug](https://tails.boum.org/bugs/user_password___40__for_sudo__41___not_working_or_not_stored_correctly/) which was [discussed here](https://tails.boum.org/forum/user_password_not_working/). If so, there's not long to wait... it has been resolved in git and should be released any moment in 0.12.1
+"""]]

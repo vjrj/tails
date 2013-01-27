@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-01-20T10:52:39Z"
+ content="""
+> Or does Tails do that for me?
+
+Yes. Iceweasel can handle I2P and Tor at the same time without any user intervention necessary to switch between them.
+
+> I can't see this in the documentation and a search didn't throw it up either.
+
+It's documented [[here|contribute/design/I2P]].
+"""]]

@@ -1,0 +1,8 @@
+Tried to make a live USB, I downloaded the .ISO, went to Ubuntu startup disk creator, chose the .ISO, chose the thumb drive, clicked create.
+
+It says "copying" for a few seconds and then it gives me an error:
+
+An uncaught exception was raised:
+[Errno22]invalid mode ('wb') or filename: u'/media/DB42-F0FA/doc/amnesia/wiki/bugs/http:__47____47__dl.amnesia.boum.org__47__stable__47___is_empty._No_way_to_download_through_HTTPS.html'
+
+I haven't been able to find a similar error anywhere, any ideas what the problem might be?

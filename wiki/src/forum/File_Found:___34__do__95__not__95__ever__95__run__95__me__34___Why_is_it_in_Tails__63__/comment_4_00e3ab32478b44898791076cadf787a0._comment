@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-22T02:08:39Z"
+ content="""
+    Please explain why this file exists
+
+    It's useful for testing and development purposes.
+
+Please explain what testing and development purposes it is used for. Please give me a reason for the user to leave the file alone rather than deleting it with each new session?
+
+    and why it shouldn't be deleted manually with every boot of Tails?
+
+    If it were, it would be useless.
+
+Useless to whom? I can't see any reason for the user to have it much less execute it.
+
+    It appears dangerous to privacy and security IMO.
+
+    I fail to see why. Please make your point more explicit.
+
+It is obvious! Please make your point more explicit.
+"""]]

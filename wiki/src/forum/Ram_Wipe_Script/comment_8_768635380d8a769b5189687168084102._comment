@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2011-08-22T12:49:08Z"
+ content="""
+OK thanks!
+
+In waiting the debian package im trying to put this solution in my debian box, but what i have do dont work.
+
+I have do:
+
+1- apt-get install secure-delete kexec-tools
+
+2- Copy http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/init.d/tails-kexec;h=05cd98a36984891f1890549230efabcdfc06d4cc;hb=HEAD to /etc/init.d and chmod 755
+
+3- Copy http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/usr/share/initramfs-tools/hooks/sdmem;h=dc34f86d62a9d259ae6d8937f7df56fdb2761062;hb=HEAD to /usr/share/ initramfs-tools/hooks/sdmem and chmod 755
+
+4- Create the directory  /usr/share/initramfs-tools/scripts/init-premount/ and chmod 755
+
+5- Copy http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/usr/share/initramfs-tools/scripts/init-premount/sdmem;h=c97510cf544876cb43431cd25d4c187a3c59fad3;hb=HEAD to /usr/share/initramfs-tools/scripts/init-premount/sdmem and chmod 755
+
+6- Copy http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/default/kexec;h=02fc4c0f0fe5794e2b9faeb0c5688dc2dfeb8a1f;hb=HEAD to /etc/default/kexec and chmod 755
+
+7- dpkg-reconfigure linux-image* (put here the name of your linux-image)
+
+8- Reboot 
+
+And nothing... what's i have forget to do?
+"""]]

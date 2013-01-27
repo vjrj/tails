@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-22T09:29:04Z"
+ content="""
+\"Are you sure that you see traffic to Tor nodes being dropped? That's certainly not how it's supposed to be and suggests a bug\"
+
+yes, it begins with dropping local traffic to port 53, then there's at least one mention of dropping traffic from my address to a tor node.
+
+there's also some local traffic to local traffic on tor node ports being dropped too.
+
+thanks for the reporting link, but i've reported it here. please include it in your bug tracking and post the trac url here.
+"""]]

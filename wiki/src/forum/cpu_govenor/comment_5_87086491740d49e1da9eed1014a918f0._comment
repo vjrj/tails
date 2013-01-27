@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-02-22T10:23:01Z"
+ content="""
+Try changing \"ondemand\" governor to \"conservative\".
+"""]]

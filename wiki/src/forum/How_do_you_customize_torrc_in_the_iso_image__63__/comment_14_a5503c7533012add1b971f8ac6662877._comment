@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-04-03T11:26:13Z"
+ content="""
+@ comment 11:
+> Does all this mean that a user is being routed to the exit node by 1 computer instead of 2. ? 
+
+No. Tails' Tor is doing the exact same thing as any default Tor installation, which is forcing circuits to use exactly three hops. The only exception to this is that one-hop circuits are used for directory fetches (which has nothing to do with the traffic Tor anonymizes, and is completely safe and uncontroversial). That is also default Tor behaviour.
+
+@ comment 13:
+> But the orginal poster is saying Tails is using 1 hop and not 3.
+
+The OP is wrong.
+
+"""]]

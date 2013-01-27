@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-11-08T17:13:44Z"
+ content="""
+To chat about Tails:
+
+1. Boot Tails.
+2. Clic on the Pidgin icon (third on the right of System) or through the menu *Applications* → *Internet* → *Pidgin*.
+3. Wait until Pidgin is connected. Once this is done, Pidgin window will be populated with `#tails` and `#tor`.
+4. Double-clic on `#tails`.
+5. Select the `#tails` tab that has opened in the chat window.
+
+To use OTR on top of the preconfigured IRC account:
+
+1. Double-clic on the right nick in the list at the right of the chat window.
+2. In the new tab, use the menu OTR and select *Start private conversation*.
+3. Verify your peer identity using *Authenticate buddy* option in the same menu.
+"""]]

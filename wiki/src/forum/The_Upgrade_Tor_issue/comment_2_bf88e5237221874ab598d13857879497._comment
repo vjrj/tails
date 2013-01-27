@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="can't copy and how to use it from usb?"
+ date="2011-11-05T13:53:19Z"
+ content="""
+I have Tails in CD and USB.
+I can't copy mentioned file from archive into USB, \"paste\" is empty, maybe because archive folder is with locked files. I tried to copy to desktop and I got this: Error opening file: Permission denied.
+
+when I insert tails USB I see folders isolinux and live, if we copy it to Live folder, how to use it when we start tails from usb?
+"""]]

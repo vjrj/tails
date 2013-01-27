@@ -1,0 +1,58 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-02T18:03:06Z"
+ content="""
+I'll try to help out by supplementing what \"Tails\" said, focusing on the questions he/she didn't want to answer here, but I am NOT a developer so I hope Tails will correct me if I say anything dangerously incorrect.
+
+Because the Tor Project unfortunately doesn't offer its own forum where users can easily interact with the user/developer community with Tor specific questions, I think that inevitably Tails users will want to ask in this forum some general Tor-related questions which are not specifically Tails related.  I hope that despite what \"Tails\" just said, he/she will allow me to try to provide some useful hints about how users can start learning a bit more background so they can better appreciate the benefits of using Tails wisely, and the potential dangers of using Tails unwisely.  
+
+(I think this can be an example of more experienced Tails users helping less experienced Tails users in ways which can benefit the Tails community, so I hope the moderator will allow me some slack in this post.)
+
+> 1 Can network admins see traffic?
+
+Depends upon what kind of network you have in mind, I guess:
+
+* Cybercafe?   Depends on the cafe, I think.  Some will be legally required to monitor intrusively, some will decide to do so, and some (if not legally required) may prefer to avoid intrusive snooping.
+* Public library?  Depends on legal requirements and the inclinations of the IT people, I think.  In some countries, librarians tend to dislike snooping, but they are often under constant pressure from local political groups and local news media, to snoop and to censor far more than they might wish.
+* Airport or hotel public access?  Many abuses have been reported by companies hired by the venue to manage their public access points, and in fact even someone who might ordinarily consider using a Tails DVD too much trouble should probably very seriously considering using a Tails DVD with their laptop while traveling.
+* Home? In most countries your ISP is legally required to perform or enable a certain amount of robotic monitoring (details subject to rapid change without notice), but a human may examine your activity only if you set off a robotic alarm for some reason. 
+* Workstation in some large company's network?  Very likely you are subjected to censorship and to more intensive robotic monitoring than if you were surfing at home.  The monitoring software may perform extensive profiling of your \"normal\" activity and it may make predictions of your future actions.  If you set off any robotic alarms, and an HR person becomes concerned, they might very well have an IT person install a hidden camera and more sophisticated key loggers to spy on your activities at work.
+
+Also, these days, all but the most backward countries are likely to have implemented the most extensive universal population surveillance systems they think they can afford, probably purchased from a \"Western\" firm like Qosmos, and possibly featuring \"sensors\" targeting some or all data streams in a number of locations, such as
+
+* the \"first mile wire\" before your packets even reach your ISP's gateway
+* at the borders of your ISP's network
+* other places inside your ISP's network may have dedicated systems maintained by third party contractors which siphon off and store packets long term for later analysis (possibly including attempted cryptanalysis of Tor traffic; read about \"Venona\" if you want to see an old historical precedent); these business partnerships may be legally mandated to enable government snooping, or they may be motivated purely by profit motive (for example, you can read about the activities of Paxfire)
+* Internet Exchanges (IXs), places where companies which transport data over the internet backbone pass on packets to a competitor, are \"choke points\" and are currently among the favorite places where governments may legally require the installation of \"transparent tee, snoop, and store\" systems
+* web hosting companies almost always perform some robotic monitoring of their servers; how much and why varies widely depending upon who their customers are; local government servers may be poorly monitored, and some webhosts are so careless they essentially allow all of their customers to read everything on a server
+
+So maybe a better answer to your question is: if you are using Tails with a persistent volume, read the documentation (ask in the forum if you don't understand it) about downloading Wireshark to use as a packet sniffer which will capture packets in and out of your PC/laptop.  Wireshark comes with extensive documentation and can be very useful for seeing in great details what your computer is actually \"saying\" to other computers.  Your Tor traffic while using Tails will of course be encrypted, but you can see such details as the handshakes, the cipher specifications, and so forth.   What you are probably most interested in are possible UDP and unencrypted HTTP packets which potentially might indicate possible information leaks.  
+
+Something you might try very cautiously to learn about things you should NOT see with Wireshark while websurfing with Tor:  try surfing to innocuous websites while using the \"insecure browser\" (the one provided by Tails which does NOT use Tor), so that you can see what a GET request looks like, for example.  
+
+When we talk about robotic monitoring of the average websurfer, these days that means \"deep packet inspection\" (DPI), which is what you are doing when you use Wireshark to examine your own packets, except that DPI does this with many or all the packets traversing some network, such as your ISP's network.
+
+> By this I mean can they tell distinguish between browsing(many requests?) and downloading(1 request?)
+
+Yes, and that probably won't even require DPI, if you are talking about something like bittorrect versus web-browsing.  For ordinary websurfing/downloading, making this kind of distinction may require only logging which ports are being used, since this often indicates which protocol is probably being used by some webuser, which can make it very easy to distinguish browsing from downloading.  This kind of monitoring has been very common long before DPI became so common.  DPI has become very common during the past decade.
+
+Of course, you can download files using your web-browser, and using Wireshark you can see how that works.  When you use Debian's package manager to download software, you can use Wireshark to see what that looks like to a snooper.  For example, when you download Wireshark itself, the fact that you downloaded Wireshark will be plainly visible to anyone snooping anywhere along the line.  And when you use Wireshark while connected to the web, it calls home.  
+
+(In most places it is perfectly legal to use Wireshark to sniff packets on your own PC, and unless you are using it in \"promiscuous mode\" to sniff all packets on some LAN, in some countries, it may be that security forces won't be worried simply because someone is using Wireshark.  In others, well, this could be something to think about.)
+
+> How much do I have to worry about spyware comprimising security?
+
+I'd say everyone should constantly worry.  Even if you only visit \"reputable\" sites, such as Fortune 500 company websites, you can unfortunately pick up malware if your computer is not well protected.  If you are using Tails, you are probably well protected against many of the most common kinds of attacks which you might read about in places like PC World, but you may encounter an enhanced likelihood of other attacks simply due to the fact that you are using Tor (via Tails).
+
+One simple suggestion many Tor users follow is to disconnect from their LAN before opening any pdf files since this is a very common source of cross-platform malware.  If you are for example trying to view utube videos I am at a loss for suggesting any simple rules of thumb, but maybe another Tails user suggest some precautions.
+
+Tails pointed out that Debian software (Tails is heavily based upon Debian) has security flaws just like any software, but is more open and usually much faster at patching flaws than Microsoft or even other Linux distributions.  As an example, there are some flaws in the Open Office suite which have been patched in Debian stable, but might affect Tails users, particularly if they use Open Office while connected to their LAN.  (I know how to check but haven't, so I am not suggesting this is actually the case, just offering it as an example of the kind of possibility that Tails users should probably keep in mind.)
+
+\"Tails\" wrote:
+
+> I think that using a read-only medium is the only foolproof way to ensure this.
+
+I want to pick up that point in a new thread, asking for comparisons of the risks/benefits of running Tails from a R/O DVD versus running Tails from a R/W USB stick.  Unless I missed something, I think this is an important issue which is not currently discussed in the (excellent!) Tails documentation pages.
+
+"""]]
