@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-28T01:41:04Z"
+ content="""
+>> Make an email address without using your name (maybe use tor while making email address?) using tor/tails to send the email.
+
+You'd have to use Tor/Tails during the account creation process, yes. Since it's a disposable address that you're registering, all you need to worry about is hiding your real name, adress, contact information and IP.
+"""]]
