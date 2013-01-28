@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-28T13:29:28Z"
+ content="""
+I think tails devs customized this file. Now it throws the above error if any edit is attempted. How can this be avoided?
+"""]]
