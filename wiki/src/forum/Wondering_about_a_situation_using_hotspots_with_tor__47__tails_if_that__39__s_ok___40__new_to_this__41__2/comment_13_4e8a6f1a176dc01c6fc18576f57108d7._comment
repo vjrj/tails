@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-01-28T10:26:30Z"
+ content="""
+*Whonix-Gateway* is a crucial part of Whonix: Whonix security depends on it.
+Your home router is not a crucial part of Whonix: Whonix security does not depend on it.
+Your home router is not a crucial part of Tails: Tails security does not depend on it.
+
+"""]]
