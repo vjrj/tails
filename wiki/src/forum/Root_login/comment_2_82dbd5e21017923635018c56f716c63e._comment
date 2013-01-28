@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-28T10:30:47Z"
+ content="""
+Clarification: \"disables login as root\" means that **no** password can be used to login as root; the root account is inaccessible. So, to answer your question: yes, not setting a root password is the most secure option. Only set one if you really need it, and if you do, set a strong password.
+"""]]
