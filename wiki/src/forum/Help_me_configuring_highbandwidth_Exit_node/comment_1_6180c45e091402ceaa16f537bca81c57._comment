@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Update:"
+ date="2013-01-28T14:50:33Z"
+ content="""
+I just sent an email to self and the header info is showing my IP as:
+192.168.15.37 {00.00.00.00 corporate static IP).
+
+192.168.15.37 is an internal IP address and we can change the last part of the IP adress in between 7 to 253.
+
+"""]]
