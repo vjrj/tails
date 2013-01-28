@@ -20,3 +20,13 @@ It is completely secure and I have read the Exit Policy rules of the TOR.
 Kindly post complete configuration setting so that before leaving the office I configure it and inform all the IP address of the exit which you can use.
 
 Will my Exit be available for all? As we have got dedicated leased lines with high bandwidth, its IP must not be blocked by any site, and I have not going to pay anything from my pocket for the bandwidth you all use to bypass internet censorship.
+
+
+UPDATE:
+********
+I just sent an email to self and the header info is showing my IP as: 192.168.15.37 {00.00.00.00 corporate static IP).
+
+192.168.15.37 is an internal IP address and we can change the last part of the IP adress in between 7 to 253.
+
+So after making an Exit node, if you send an email, will your email header show the same IP in the same manner (i.e. as 192.168.15.37 {155.xxx.xxx.xxx), or will it be somewhat different?
+
