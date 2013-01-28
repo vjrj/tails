@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-01-28T06:38:28Z"
+ content="""
+>The Chinese government has ordered that all routers sold in China have backdoors so that passwords/passphrases can be recovered easily.
+
+Link please
+
+>If your router has been rooted, it is likely that Tails cannot help you maintain anonymity.
+
+Eh?! This sort of MiTM threat is *precisely* what Tails' sophisticated networking configuration *is* designed to mitigate.
+"""]]
