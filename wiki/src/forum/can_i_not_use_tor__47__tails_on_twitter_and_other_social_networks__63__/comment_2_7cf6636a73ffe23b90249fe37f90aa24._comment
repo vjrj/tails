@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-29T08:09:49Z"
+ content="""
+One thing I do when I get a ban from a website is click \"Use a new identity,\" which is an option you can get to by clicking the onion icon. If you still get a ban after doing this and reloading the page, try using [bridges](https://www.torproject.org/docs/bridges) or downloading the Linux [Obfsproxy](https://www.torproject.org/projects/obfsproxy.html.en) from the tor website.  
+
+I only use tor or Tails when I login to social media sites. If you choose to use tor or Tails when logged in to social networks, you need to use it 100% of the time or your real ip address will still be in their logs and it will be clear you're using tor. Also use common sense precautions like not listing your current location on your profile as this is another giveaway. 
+
+Facebook will sometimes give you security checks when it sees you're logging in from \"an unrecognized device\". If you just bear with these and do them, they will eventually go away.
+"""]]
