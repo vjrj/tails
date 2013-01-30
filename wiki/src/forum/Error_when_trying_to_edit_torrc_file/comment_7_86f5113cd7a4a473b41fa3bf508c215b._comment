@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-28T18:45:10Z"
+ content="""
+I spoke too soon, it seems that Tor under Tails 0.16 is ignoring the new torrc after all.
+"""]]

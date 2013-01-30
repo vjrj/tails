@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-29T09:29:59Z"
+ content="""
+Thank you for hosting an Exit Node! Tails currently does not support this usecase, so I suggest you have a look to tor-ramdisk instead.
+
+"""]]

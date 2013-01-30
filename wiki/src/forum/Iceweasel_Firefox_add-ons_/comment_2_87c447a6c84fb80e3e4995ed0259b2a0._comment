@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-28T22:20:14Z"
+ content="""
+I am not the writer of comment 1 but wish to add to what they have written.
+
+One reason you should not install add-ons is that they may break anonymity. All the software on Tails ISO have been carefully configured such that all internet connections go through Tor.
+"""]]
