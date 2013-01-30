@@ -1,0 +1,1 @@
+When I log in to any Google service it redirects me for a few seconds to the url google.com.MyCountry and next send me to the US Google page. Any idea of how Google is doing this even when using Tails in the default configuration? It would be by setting up the keyboard or DNS Leak.
