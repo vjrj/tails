@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-31T23:18:42Z"
+ content="""
+Perhaps you are using Microsoft Windows and a virus is blocking connections to an arbitrary list of security-related domains. You could try downloading one of the other GnuPG front-ends from the list they recommend on their gnupg.org site... but... given the suspicious nature of your predicament, I'd *very strongly advise* using another (more trustworthy) computer and/or OS to verify and burn your Tails ISO.
+"""]]
