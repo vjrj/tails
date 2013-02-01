@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-02-01T09:36:46Z"
+ content="""
+>> By \"Vidalia won't start\" and \"isn't working\" do you mean that Vidalia is indicating to you that your Tor/Tails session is failing to connect to the network?
+
+Vidalia either won't start at all, or it will tell me it's looking for relay information. In other words, the Vidalia icon either won't appear at all upon startup, or it won't turn green.
+"""]]
