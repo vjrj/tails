@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-01-31T15:23:33Z"
+ content="""
+So, it looks very much like:
+
+1. Google has recorded something (location, preferred language...) when you used this account outside of Tails, that allows them to *now* link this account to a country. This is sad, but Tails cannot do anything about it.
+1. blogspot.com is a Google service, so it's no big surprise they have the same information available, once you've logged in into a Google account that was linked to a given country.
+
+"""]]

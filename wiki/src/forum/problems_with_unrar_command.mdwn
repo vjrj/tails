@@ -1,0 +1,12 @@
+The command unrar file.rar doesn't work in files with password
+root@amnesia:/media/vol# unrar x xyz.rar
+
+unrar 0.0.1  Copyright (C) 2004  Ben Asselstine, Jeroen Dekkers
+
+
+Extracting from /media/vol/xyz.rar
+
+Extracting  xyz.mp3                                              Failed    
+1 Failed
+
+and of course others programs in tail 0.16 dont oppen the files. zip and 7z work fine

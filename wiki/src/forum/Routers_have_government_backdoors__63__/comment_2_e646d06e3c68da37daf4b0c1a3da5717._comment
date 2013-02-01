@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-31T13:01:00Z"
+ content="""
+> Once the device is in your possession you are at liberty to examine it - the hardware, software and configuration. You might also scan it for open ports or protocols, dump & decompile the \"firmware\", sniff its external traffic, etc. As can anyone else using your ISP. Between your own investigations and those of more technically competent people in the same situation, any such shenanigans could quickly be exposed - resulting in significant humiliation and loss of trust/business for the ISP.
+
+Open source is a great thing.  And what you said would be true if the open source model worked exactly as we all wish.  But it doesn't.  
+
+In fact, very few people have the skills required to properly audit *software* (like components of Tails) much less *hardware* (like routers).  Even worse, most router software is *not* available for public examination.  Certainly hardware design is not.
+
+The sad fact is that speculation has flourished in the absence of hard fact because not even wealthy governments (such as the US) really know what most of their routers are doing.  And what facts are known are hardly encouraging.
+
+OP: the moderator has nixed my attempt to discuss this issue in more detail, but you can search for the many, many articles which have discussed flaws in routers and other peripherals which have come to light in the past few years.  Just in the past few weeks there have been several major stories of this kind, including 
+
+* the revelation of yet another hard wired irremoveable secret \"remote administration\" account in a popular home consumer brand
+* firmware updates for another brand which turned out to be laced with malware.
+
+
+"""]]

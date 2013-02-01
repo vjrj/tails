@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-31T14:54:50Z"
+ content="""
+> Vidalia won't start unless I set a root password. I connect to the internet using a DSL connection and am currently running Tails 0.16. Is this a bug? 
+
+I've never seen that. Looks like a bug indeed.
+Please [[report a complete bug|doc/first_steps/bug_reporting]].
+
+"""]]
