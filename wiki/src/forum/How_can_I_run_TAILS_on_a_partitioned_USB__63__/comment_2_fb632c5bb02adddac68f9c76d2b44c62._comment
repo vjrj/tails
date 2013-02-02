@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Installing on a partition"
+ date="2013-02-02T09:33:44Z"
+ content="""
+I don't think that is a very big concern, it is not likely that your mac is going to start editing things on tails without your permission, unless it is compromised, in which case using Tor-browser-bundle would be compromised anyway.
+
+The way I have done this has worked, but not with persistence. Partition the usb into 2 parts, - find the names of the 2 parts (probably something like /dev/sdb1 and /dev/sdb2), then install the program unetbootin, and install tails onto /dev/sdb2. You can then use /dev/sdb1 like a memory stick, and sdb2 for tails. tails needs one or 2 GB, and you can mark that partition as hidden for extra convenience.
+"""]]
