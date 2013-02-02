@@ -1,0 +1,107 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-02T23:35:55Z"
+ content="""
+Concerns about \"police malware\" are not new.  From a 2009 paper by Craig Johnston and David Harley (ESET LLC) titled \"Please Police Me\", which was presented at (AVAR 2009) in Kyoto:
+
+> What if the “good guys” want to use the same methods to get access to your personal or corporate data for “legitimate” purposes such as forestalling criminal actions? How could they do it? Should they be allowed to do it? Are they allowed to do it now? If they aren’t, are they doing it anyway?
+
+(In 2009, they mostly weren't allowed, but were violating their national constitutions by just doing it anyway.  In 2013, they are mostly acting under cover of new laws, which are however clearly unconstitutional.)
+
+> Time and time again, civil liberties groups are obliged to intervene as best they can when governments and law enforcement agencies attempt to expand their ability to eavesdrop electronically using \"hacking\" techniques and keylogging malware more often associated with the other side of the cops and robbers divide.
+
+> Government & law enforcement agencies want to be able to eavesdrop on suspect’s Internet communications and examine the contents of a suspect’s hard drive remotely, in order to enhance their own core efficiency in fighting crime and defending national security. The idea of a \"good\" Trojan like the FBI’s does, however, pose serious ethical issues for a security vendor,
+
+Malware is malware is malware.  When the behavior of the supposed \"good guys\" is indistinguishable (and just as illegal, in the end, since their actions are unconstitutional in most \"Western\" countries) from that of the \"bad guys\", they have crossed over to the dark side.  As an old saying goes, the road to Gehanna is paved with good intentions.
+
+> Government & law enforcement agencies have had a desire to spy on
+suspect’s computers for quite some time now (and before that, there were the contentious Clipper and Capstone chips, for voice and data encryption [9]. Carnivore was a system used by the FBI around the turn of the century [10]. It was a packet sniffing device that would be installed at an ISP’s
+location where it could selectively monitor the Internet traffic on a suspect’s computer. The use of this system was initially allowed through a court order, though section 216 of the USA PATRIOT Act legitimized its use by the agency for limited surveillance without having to establish probable cause in order to obtain a wiretap warrant. However, it appears that by 2005 the agency had long ceased to make use of it, preferring to resort to unnamed commercial software.
+
+They are talking here, ever so carefully, about the Surveillance Industrial industry which sprang up in the first decade of the new century.  A little known fact is that certain people wanted to build this particular monster even earlier, but legislatures had not yet been terrorized into doing something so insanely self-injurious.  That changed on 11 September 2001.
+
+> In 2006 Microsoft held discussions with the British government about the possibility of them putting a backdoor into their operating systems so that government authorities could gain access to the content of users’ hard drives. Microsoft later said in a statement that “Microsoft has not & will not put ‘backdoors’ into Windows”. 
+
+And since the paper was written, backdoors have been mandated in Skype (now owned by Microsoft), at least for consumers in South Asia, and in the US, the FBI is pushing hard for backdoors in all consumer encryption (which would completely ruin Tor for everyone (recall that a large fraction of all Tor traffic is carried by nodes geolocated in the USA and its allies) and open everyone to greatly increased risk of cyberintrusions by non-FBI sources using the gaping security vulnerabilities any such mandate would open up).  From
+
+     https://www.eff.org/deeplinks/2013/01/congress-will-battle-over-internet-privacy-2013
+
+> Lastly, there are rumors that the Obama Administration will propose a new Internet surveillance law, which will expand the Communications Assistance to Law Enforcement Act (CALEA), which forces telephone companies to build a wiretap-friendly backdoors into all their technology—but not social networks and other web-based communications services. In 2005, the FBI pushed the FCC to rule that VOIP and \"facilities-based internet access providers\" had to abide by CALEA requirements. Now they want even more power. This expansion is in spite of the fact that the FBI has yet to respond adequately to EFF's FOIA lawsuit seeking records that would justify the need to expand federal surveillance laws, given they have a myriad of ways to get such data already (Google’s transparency report shows the government requests for user data is skyrocketing).
+> The White House and the FBI have not released what is in the proposed legislation, but one report states the FBI wants to require Internet companies, like Google, Facebook, and Twitter to build the same type of backdoors for real-time government surveillance. This would not only create a huge Internet security problem, making the Internet less safe just as Congress pushes for a cybersecurity bill, but threatens basic privacy on the web.
+
+Back to the 2009 ESET paper:
+
+> In 2007 US Drug Enforcement Agency agents broke into the home of an alleged mobster and installed a keylogger on the suspect’s computer in order to gather evidence against his suspected Ecstasy manufacturing activities. This was deemed to be necessary as the contents of the suspect’s hard drive had been encrypted using PGP. It was done after the agents had obtained court orders
+
+Fine, but let's not forget that the three letter agencies accused of current abuses were found in aftermath of the Watergate scandal to have engaged in rampant burglary targeting political parties, prominent journalists, suspected leakers, and ordinary citizens who simply knew the \"wrong\" people.  Let's not forget that the second highest official in the FBI wrote an \"anonymous\" letter threatening Rev. Martin Luther King and urging him to commit suicide; see 
+
+     http://www.lettersofnote.com/2012/01/king-like-all-frauds-your-end-is.html 
+
+That should sound chillingly familiar to anyone who has been following the Aaron Swartz story.  Too bad Americans prefer to kill their heros, some decades before honoring them with a national holiday or two.  For shame.
+
+> So what options do law enforcement agencies have open to them? One option is for them to create some code that will act as a keylogger or at least open a backdoor for further downloading of code to gain access to the information on the computer. The delivery mechanism, however, would be hit and miss: in particular, it’s unlikely that replicative policeware would meet the warrant criteria for a (quasi)wiretap or phone tap, because of the difficulty of restricting its spread to named and targeted suspects.
+
+One reason for that is that these agencies tend to reserve their \"best\" malware for the computers of the very \"targets\" who are mostly likely to notice the intrusion, and to watch and wait until they have reverse engineered the cyberweapon.  
+
+The USA has the dubious \"honor\" of the first use of 
+
+* nuclear bombardment of cities
+* algorithmic extrajudicial death sentences and assassination by robotic devices
+* cyberwarfare
+
+Some of us have attempted to point out for years that all of these evil innovations can be turned against the nation which introduced them.  And the barriers to cyberwarfare are particularly low since delivering malware to a knowledgeable \"target\" risks giving a *working copy* of your best weapon to your worst enemy.
+
+> But having to give the code to EVERY AV vendor would spread the secret very far & wide, making it virtually impossible to keep the secret. And, if the secret DID get out and the bad guys got their hands on the code that all AV vendors had agreed not to detect, then they could and almost certainly would use it for malicious purposes with total immunity. That would be a huge problem.
+
+Indeed.  I would say that anyone who reverse engineers malware has a perfect right to disseminate it widely.
+
+> David Sobel, the General Counsel for the Electronic Privacy Information Centre, said of Magic Lantern [17]: “We don’t know what this is capable of and whether it is being properly used. There may be no way to stop this from being installed on a computer.” While it’s unlikely that any law-enforcement issue will be magically unstoppable, we all know that the only likely way to stop this would be through the use of anti-virus software, firewalls and other IT security measures.  But how different is eavesdropping on your Internet cable to tapping your phone line? Phone tapping is considered acceptable in most places, usually after the need for the tapping is verified & approved by someone in authority, such as a judge. Many will say that there is no conceptual difference, and that if you have nothing to hide, you have nothing to fear, but libertarians are likely to take a different view.
+
+People who say \"if you have nothing to hide, you have nothing to fear\" have the childish notion that well behaved citizens could never been accused by even robotic judges of having \"done anything wrong\".  But national scale surveillance means exactly that *everyone is treated as a continual suspect*.
+
+> According to a source who used to work for a national security agency, it seems some of the good guys are writing malware for their own purposes anyway. This individual wouldn’t actually state openly that this practice was going on, but he certainly alluded to that fact. It seems what they are
+doing is *creating their own malware, but making sure it looked like it had been written by the bad guys, just in case it is discovered on the system.*
+
+(My emphasis.)
+
+Indeed.  And let us not forget that just because the Chinese government is one of the worst offenders doesn't mean that \"Western\" surveillance companies might not (with a bit of help from \"friendly\" reporters) attempt to blame the Chinese government for some of their own cyberattacks.  Let us ask: who has the motive, means and opportunity to mount sophisticated APT attacks on the New York Times, The Washington Post, The Wall Street Journal, and Bloomberg News?  
+
+     http://www.theregister.co.uk/2013/02/01/wsj_blames_china_for_hack_attacks/
+     https://www.infoworld.com/d/security/lesson-learned-in-cyber-attack-the-new-york-times-212059
+     https://threatpost.com/en_us/blogs/inside-targeted-attack-new-york-times-013113
+     https://www.securityweek.com/washington-post-joins-list-hacked-us-media
+     https://www.securityweek.com/new-york-times-hacking-highlights-importance-new-security-defenses
+     http://www.theregister.co.uk/2013/02/01/symantec_responds_nyt_apt/
+     https://krebsonsecurity.com/2013/02/source-washington-post-also-broadly-infiltrated-by-chinese-hackers-in-2012/
+
+The Chinese government certainly, but also \"Western\" surveillance companies like the four discussed here.  Because all four of these newspapers have published multiple stories and op eds detailing the abuses by these four surveillance companies (and some others, like BlueCoat).  And of course, also because these companies have ties to companies like Mandiant whose stated business model is *defending* against attacks.  In the Surveillance Industrial complex, everyone benefits from APT attacks on the largest possible roster of victims.
+
+Some of us have been warning for years that sophisticated cyberattacks on journalists worldwide will become routine, and clearly that era has arrived.  The situation is already so bad that Robert Cringley (InfoWorld) jokes that he's miffed that he hasn't been attacked with an APT yet.  He added \"This is how the world is in the year 2013. Nobody is immune, and nothing can be taken for granted.\"
+
+*Nobody is immune*. That's exactly what some of us have been saying for years.
+
+> Are government & law enforcement agencies planting spyware on a suspect’s computer now? The short answer to this question is “almost certainly”. Well, I would go so far as to say “certainly”.
+
+That was in 2009.  Four years later, \"police malware\" has become much more widely deployed and much more widely used, by thousands of police agencies in half a hundred nations, at least.  The list of known clients of Gamma International alone is rather staggering, and as anyone can confirm by visiting their website, they boast of maintaining offices on five continents, the better to market their national scale surveillance gear to as many governments as possible.
+
+And this \"sea change\" has occured in the context of oppressive international treaties, which have been signed and ratified by most nations, which *require* the secret police of nation A to provide the secret police of nation B with information about citizens of A suspected of having broken some cyberlaw of nation B.  
+
+> But if we were to start agreeing to such requests, would we have to honour requests from all countries who asked? (We’re assuming here that where local legislation required cooperation, vendors would generally be required to comply, though thinking through some of the implications of that assumption could occupy a paper all on its own.
+
+Or now, a book.  The cyberlaw treaty obligations in 2013 are more extensive and much more threatening to ordinary citizens everywhere than was the case in 2009.
+
+Another issue which was hardly on the radar in 2009 is the notion of the algorithmic detection of \"precrime\", a pseudoscientific notion which has now been endorsed by the American President.  The basic idea here is that software running algorithms relying on mathematical models can predict whether an individual is going to start contemplating committing some transgression (which might be anything from blowing a whistle to putting trash in the recycling bin), thus giving law enforcement agencies the opportunity to arrest someone even *before* he/she becomes aware of such alleged \"malintent\".
+
+What could go wrong with such robodetection?  We don't need to speculate, because both algorithmic \"detection\" and horrible mistakes made by such robotic \"anti-crime\" systems are already commonplace.''
+
+For an excellent illustration of how robotic \"crime detection\" can go terribly wrong, here is a story which does double duty by confirming (as some of us have warned for years) that it is in fact *routine* for ISPs and banks to feed MAC addresses and system profiles into their robomonitoring databases:
+
+     http://www.bbc.co.uk/news/technology-21058994
+
+*Nobody is immune*.  Too hysterical?  Which security expert has a reputation for damping the fires of fear?  Why, Bruce Schneier.  And this is what *he* had to say in his recent essay addressing the question,\"What *Should* We Be Worried About?\"
+
+> Because if we're not trying to understand how to shape the Internet so that its good effects outweigh the bad, powerful interests will do all the shaping. The Internet's design isn't fixed by natural laws. Its history is a fortuitous accident: an initial lack of commercial interests, governmental benign neglect, military requirements for survivability and resilience, and the natural inclination of computer engineers to build open systems that work simply and easily. This mix of forces that created yesterday's Internet will not be trusted to create tomorrow's. Battles over the future of the Internet are going on right now: in legislatures around the world, in international organizations like the International Telecommunications Union and the World Trade Organization, and in Internet standards bodies. The Internet is what we make it, and is constantly being recreated by organizations, companies, and countries with specific interests and agendas. Either we fight for a seat at the table, or the future of the Internet becomes something that is done to us.
+
+This is why neither developers nor the user community of tools like Tails can safely ignore the bigger picture, which looks at the question: what are the most dangerous threats faced by human rights workers, dissidents, bloggers, journalists, and increasingly by ordinary citizens \"flagged\" (often wrongly) by some robotic \"pre-crime detection system\"?
+"""]]
