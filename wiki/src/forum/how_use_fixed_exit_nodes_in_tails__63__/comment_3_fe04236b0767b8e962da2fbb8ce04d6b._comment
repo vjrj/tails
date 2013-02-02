@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-02T18:20:10Z"
+ content="""
+Attempt of connection wasn't successful
+          Firefox can't establish connection with the money.yandex.ru server.
+  Probably, the site is temporarily inaccessible or overloaded with inquiries. Wait some time and try again.
+  If you can't load any page – check settings of connection with the Internet.
+  If your computer or a network are protected by the firewall or the proxy server – be convinced that Iceweasel is resolved Internet connection.
+          Firefox can't establish connection with the money.yandex.ru server.
+  Probably, the site is temporarily inaccessible or overloaded with inquiries. Wait some time and try again.
+  If you can't load any page – check settings of connection with the Internet.
+  If your computer or a network are protected by the firewall or the proxy server – be convinced that Iceweasel is resolved Internet connection.
+"""]]
