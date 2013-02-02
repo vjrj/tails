@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-02T19:48:51Z"
+ content="""
+>Most modern disks support ATA password protection. Only a handful of disks and SSDs use it for real full disk encryption, making the disk really secure even with physical access
+
+On what information are you basing this? AFAIK many (most?) of these your-benevolent-HDD-manufacturer-has-done-the-crypto-for-you offerings fall squarely into the snake-oil category. Either (\"accidentally\") \"poorly implemented\" or (unashamedly) backdoored.
+
+>Does anyone know how you can lock the hard disk in Tails (or Linux in general) before going on-line?
+
+Perhaps you'd like to build your own Tails .ISO with the kernel's ATA/HDD drivers removed or remove those drivers from a USB installation? Search for more ;)
+"""]]
