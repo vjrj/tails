@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-02T15:46:49Z"
+ content="""
+It's possible by editing `torrc` by hand and restarting the `tor` service.
+More user-friendly ways are broken due to a bug in Vidalia.
+
+"""]]
