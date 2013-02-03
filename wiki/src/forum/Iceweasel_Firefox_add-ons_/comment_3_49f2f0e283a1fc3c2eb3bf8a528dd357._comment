@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Use AdvOR"
+ date="2013-02-03T05:48:11Z"
+ content="""
+Dear OP, you can use any kind of addon with AdvOR. Once the browser or any application is intercepted through it, it is impossible for the addons or applications to leak your IP address.
+
+It is very much speedy and you will be astonished that you get a lot of speed even when you use 5 nodes. Remember, now the ISPs have enhanced the period of their log retention (i.e. log retention policies have undergone sea change in all the countries), e.g. India has 7 years log retention policy and some countries have gone to an extent of legislating 20 year period!
+
+This time is quite enough to trace you no matter how much security you maintain. With AdvOR you can use 5-6 nodes for extra security.
+http://sourceforge.net/projects/advtor/files/
+"""]]
