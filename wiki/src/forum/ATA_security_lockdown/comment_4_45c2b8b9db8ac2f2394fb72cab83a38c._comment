@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-03T03:50:18Z"
+ content="""
+>Well, what prevents the attacker from inserting the drivers as a kernel module if she has pwned your box?
+
+If you'd merely removed the drivers from your installation then they wouldn't be on the medium. So your attacker would have to identify the kernel you're using and the drivers it's missing, compile a kernel matching yours or rip the drivers from the same version of the distro you're using, then upload and install those matched drivers into your system. I've never attempted such an attack myself but I don't imagine it'd be exactly trivial, except perhaps for a rather powerful adversary.
+
+If you'd actually [built your own Tails-oid OS](https://tails.boum.org/contribute/build/), then you could *compile* your kernel without the drivers you didn't want and configured to load signed modules only.
+
+>Still, I think leaving HDD drivers out from the standard kernel would be a good idea.
+
+An important role of Tails is as an amnesiac tool for working on local files. So such a kernel would have to be offered as an alternative. Tails already includes i486 and x86_PAE kernels and AMD64 would certainly be useful too. That's 2 or 3 already. Any variations would increase this number geometrically... i.e 3 base kernels plus 3 no-HDD variants = 6 kernels! No-network kernels would be equally (if not more - networking is probably a more dangerous vector than one's HD) useful for those working on local files, so that's 9 kernels. Then, what about firewire? A no-firewire kernel would be a big security gain for everyone who doesn't need/use firewire... so that's 18 kernels... you get the drift!
+
+I'm inclined to think a cryptographically signed module-blacklist could be an excellent and comparatively straightforward solution to this (and many other) problem(s)... much along the lines of the present module signing mechanism but extended to the blacklist(s\*) (which would have to be signed on the build system)... but IANAKH (I'm not a kernel hacker) ;) Perhaps such a mechanism is even already in place?
+
+\*plural would be nice but if you weren't building your own Tails, with just one blacklist included, it'd probably require re-designing the kernel to support multiple keys, perhaps activated at boot. Probably drifting outside the scope of Tails again ;)
+
+There are also probably ways you could achieve something comparable with Apparmor or SELinux. Could be worth looking into?
+
+>In the long run, I'd really like to see Tails having a built-in and ready configured virtualization layer that would hide all the details (model, serial numbers, MACs, etc.) about the physical hardware. 
+
+Likewise. [We are not alone](https://tails.boum.org/todo/Two-layered_virtualized_system/) in that. Tails as a Qubes profile would be a wonderful solution to *many* of Tails' greatest problems.
+
+If you have sufficient interest and motivation, I understand help is welcome!
+
+Not touching comment 2: Tails' \"core devs\" have repeatedly told us that this isn't a general tech forum and asked us not to waste this projects scarce resources and I'm sure we're far enough off-piste already.
+"""]]
