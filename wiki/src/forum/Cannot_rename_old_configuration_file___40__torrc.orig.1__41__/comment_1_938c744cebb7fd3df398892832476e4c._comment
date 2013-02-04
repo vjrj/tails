@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-12T07:32:17Z"
- content="""
-I experience this too when I try adding bridges. After I've added bridges, and quit/restart the same error is spit out, checking torrc shows no bridges or modifications at all, but bridges are being used. Please respond with a fix, this shouldn't happen.
-"""]]

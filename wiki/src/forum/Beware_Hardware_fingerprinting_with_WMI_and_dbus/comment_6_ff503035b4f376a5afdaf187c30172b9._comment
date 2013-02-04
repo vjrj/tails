@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="WMI Hijack Danger"
- date="2012-04-28T20:19:04Z"
- content="""
-I may be mistaken, but according to what I have read WMI can be used to do a whole host of things like access your hard drive, screen, or keyboard using C++, ASP.NET, or even JAVA.
-"""]]

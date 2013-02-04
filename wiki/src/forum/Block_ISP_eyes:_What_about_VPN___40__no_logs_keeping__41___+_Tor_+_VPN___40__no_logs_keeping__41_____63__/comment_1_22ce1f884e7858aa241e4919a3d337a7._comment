@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-26T20:59:36Z"
- content="""
-The first vpn is great if you want to stop your isp or people on your lan from knowing that you use tor. The second vpn is great if you want to make sure that the tor exit node cannot see what data you are sending/receiving.
-
-The weak point is that you believe your vpn when they say they don't keep logs. If they are lying, you are vulnerable - particularly if you use the same vpn at both ends.
-"""]]

@@ -1,1 +1,0 @@
-The NoScript setting to forbid scripts globally is not peristing with persistence setup.  This does even persist between restarts of Iceweasel. I want this setting to persist since tails devs have refused to disable scripts globally by default nand also have refused to set a boot option to block scripts on boot.

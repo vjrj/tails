@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="known bug"
- date="2011-04-19T06:32:56Z"
- content="""
-Duplicate of [[bugs/kernel_panic_on_shutdown_in_virtualbox]]. Thanks for the screenshot!
-The VirtualBox' fake BIOS probably does not support kexec.
-
-"""]]

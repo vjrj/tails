@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-06-01T00:49:55Z"
- content="""
-Second poster again.  Because native 64-bit isn't emulating 32-bit it's 10 to 30 percent faster and can access more memory.
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-12T06:42:22Z"
- content="""
-See [[bugs/persistent volume creation fails with big disks]]. It will be fixed in next release.
-"""]]

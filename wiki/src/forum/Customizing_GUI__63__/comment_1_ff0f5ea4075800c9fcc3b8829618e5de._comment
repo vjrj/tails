@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-08T21:41:42Z"
- content="""
-The GUI can be customized like any other GNOME 2.x desktop, i.e. mostly using GConf. Grep the Tails source for gconftool will put you on the right track.
-"""]]

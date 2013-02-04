@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Linux Mint (Debian Edition) activates WMI on boot up screen. Does Tails?"
- date="2012-04-28T13:00:54Z"
- content="""
-if you look at the boot up screen on the Linux Mint Debian Edition you will see that WMI attempts to activate and does so more than once. I dont know if other debian linux does the same. Tails is based on debian so it may do so also. I don't know. 
-"""]]

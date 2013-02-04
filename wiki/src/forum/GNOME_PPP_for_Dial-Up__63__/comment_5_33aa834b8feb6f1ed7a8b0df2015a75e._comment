@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="GPP Permissions Issues"
- date="2011-04-28T22:25:58Z"
- content="""
-Another issue with Gnome PPP that I want to make sure the devs are aware of: In order to not have to run it as root, it seems that the user must be in the groups \"dialout\" as well as \"dip\".  
-
-"""]]

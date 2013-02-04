@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-06-26T00:54:44Z"
- content="""
-Or press ESC as soon as the \"booting tails\" applet appears.  
-
-In addition, in order to see what is happening; press TAB at the first screen and remove all instances of \"debug\" and \"quiet,\" press Enter.  Then press ESC as mentioned above.
-"""]]

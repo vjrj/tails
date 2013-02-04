@@ -1,6 +1,0 @@
-When the network is up and Vidalia/tor/browser all opens, I peek inside the tor log (/var/log/tor) and this error is included:
-
-[notice] Renaming old configuration file to "/etc/tor/torrc.orig.1"
-[warn] Couldn't rename configuration file "/etc/tor/torrc" to "/etc/tor/torrc.orig.1": Permission denied
-
-How to fix?

@@ -1,3 +1,0 @@
-Whereas the process worked fine for the last release (0.10.4 or whatever) I had had trouble recently trying to get 0.11 to coexist alongside the Browser Bundle on one USB stick. Last time I'd just installed the OS, then opened the USB drive in Windows Explorer, DLed the Browser Bundle and was fine. But this time after installing 0.11 my PC will no longer recognise the USB stick. Therefore I tried creating a new partition on that same stick whilst booting TAILS on it; however, this made the OS stop working.
-
-Can someone guide me through getting both these tools, one obviously for when you can afford to Restart a machine, the other for using inside your current OS, onto one stick?

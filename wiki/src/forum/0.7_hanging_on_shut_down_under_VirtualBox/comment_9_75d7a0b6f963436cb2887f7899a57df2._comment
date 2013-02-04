@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 9"
- date="2011-05-18T17:33:55Z"
- content="""
-Just a minor update.  I tried this under VirtualBox on a 64-bit machine (Win 7, 64-bit Premium) and it did not hang.  It appears to only be happening on 32-bit boxes.
-"""]]

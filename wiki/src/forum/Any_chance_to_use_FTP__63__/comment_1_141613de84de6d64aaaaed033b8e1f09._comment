@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-13T21:35:22Z"
- content="""
-Confirmed. Looks like this is a bug. Reported on [[todo/fix Internet FTP support]].
-
-"""]]

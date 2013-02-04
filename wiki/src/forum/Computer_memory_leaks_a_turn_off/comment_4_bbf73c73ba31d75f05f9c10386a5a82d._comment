@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-08-13T13:11:25Z"
- content="""
-I don't see how this article makes memory leaks a turn off for Tails. Tails is the only OS I know of that wipes memory upon shutdown so if anything it's a turn on.
-"""]]
