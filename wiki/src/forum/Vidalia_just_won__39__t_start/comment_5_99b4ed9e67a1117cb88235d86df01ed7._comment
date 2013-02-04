@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 5"
- date="2013-02-02T15:57:48Z"
- content="""
-It looks like either your Internet connection is sub-optimal, or your ISP is doing weird things that occasionally break Tor. How about trying [[doc/first_steps/startup_options/bridge_mode]] and reporting back?
-
-"""]]
