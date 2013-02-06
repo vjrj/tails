@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-02-06T12:21:18Z"
+ content="""
+>Use the onion icon in the browser \"New Identity\" to clear cookies, referrer, history, noscript exceptions, and to force new exit node. This way you cannot be followed.
+
+A few months ago someone -could be Tails developer- suggested that the best option is to reboot Tails after every major activity. Is it still valid? I know it is quite tedious but....
+"""]]

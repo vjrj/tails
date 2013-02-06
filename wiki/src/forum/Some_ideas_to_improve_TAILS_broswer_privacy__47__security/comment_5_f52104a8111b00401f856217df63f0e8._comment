@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-05T23:40:15Z"
+ content="""
+Well, I can see that I was wrong with the bad websites thing... I mean, I don't know how those work, but yeah, if Iceweasel has to connect somewhere.... It will be providing MORE information yet.
+So that is a no no.
+
+As for Cookie monster, I know it is here, but I ALWAYS get cookies stored. I just surf the web and go to options and check the cookies and there they are. It might be an option in Cookie monster, I will try that later, but I think the safest thing for now is to disable cookies.
+
+As for attracting attention, I had no idea how deep the bots could go... I have previously provided an idea that I hope will help solving the MAC address problem in tails, but now I see we might get not enough security with that approach... Yet, hiding the entire computer info is hard and a necessary thing to do. That's why I don't use Javascript. I belive other people don't use it too, but even if not the case, I still prefer not to risk having the exit node or a rogue website/ISP/hacker, messing with me through that.
+
+So far, we all agree that cookies and javascript and cache are bad things to have, right??
+"""]]

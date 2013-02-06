@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-01T22:49:51Z"
+ content="""
+Anyone can follow the provided links in order to  verify that the OP simply summarizes
+
+* news stories published by such (sarcasm on) radical anti-American news organizations as the Wall Street Journal and Bloomberg News (sarcasm off),
+* marketing documents obtained and published by civil liberties researchers who infiltrated international surveillance company trade fairs, or in some cases from the websites of the four companies themselves.
+
+I encourage everyone to verify this for themselves.  As several astonished reporters remarked, it is an education to read how these companies describe their own products!  There is indeed \"something for everyone\" here, and I hope everyone will read and learn.
+
+The connection with Tails is not hard to understand:
+
+* Tails depends upon both Tor and essential elements of Debian stable to function properly in order to protect Tails users
+* There are indications that debian.org has experienced intrusions with the apparent aim of inserting malware into security upgrades (just as described in the marketing literature), as discussed in some other threads here
+* There are indications in documents published in cryptome and other sites that the secret police of certain nations are considering (or even implementing) attempts to massively trojan all Tor nodes, or even all Tor users, in order to circumvent the anonymity-promoting features of Tor, as discussed in some other threads here.
+
+It will not escape the attention of readers that Commentator 1 didn't even attempt to rebut anything in the OP, but simply wanted to express the fact that he doesn't like the OP's politics.  His animosity towards anyone who attempts to criticize certain policies of the US government provides a good illustration of why we all need anonymity-promoting tools like Tails, given the growing propensity of the US government to assasinate by drone anyone whose views they dislike.  
+
+In my opinion.  
+
+As far as I am concerned, others are free to express disagreement, but their objections would carry more force if they attempted to address the factual content of the post and its sources, instead of simply calling names.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-06T02:44:02Z"
+ content="""
+> I actually agree with you about boum.org as a likely target, and that's one of the most important reasons why IMO the Tails Project should avoid forum software which prevents unregistered users from posting.
+
+Whats problem with registering? How is posting unregistered safer?
+
+> If no boum.org server keeps the data, no-one can steal or seize it from boum.org.
+
+What can be stolen? All data can be read by everyone and username and password is not serious loss. You should not use same data in many places.
+"""]]

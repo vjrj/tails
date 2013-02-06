@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-04T20:26:57Z"
+ content="""
+Some experienced users are sceptical that this is currently possible, for reasons discussed in other threads in this forum on this topic.  The essential disagreement seems to be 
+
+* whether or not it is posssible to register an email account without *at some point* giving a valid email address which can be traced back to a real life identity
+* whether or not this matters
+
+> Can you please list any safe email providers for such purpose and can be used securely in Tails?
+
+Any such list could attrack \"watering hole attacks\" to the named providers.  
+
+Note also that the attack on Twitter which grabbed some 350K username/passwords is said to have been \"extremely sophisticated\", even attributable to the same entity which attacked the New York Times, the Washington Post, the Wall Street Journal, and Bloomberg News.  See
+
+     http://www.theregister.co.uk/2013/02/02/twitter_breach_leaks_user_data/
+
+Published accounts have so far named only the government of China as a prime suspect, and this is in fact a reasonable inference, but surveillance companies which have been criticized in op-eds by all four newpapers clearly also have the motive, means, and opportunity to mountsuch attacks.  See 
+
+     https://tails.boum.org/forum/Whither_the_Bundestrojaner__63__/
+
+So do other surveillance companies which have been hired by American three letter agencies to implement the public/private partnership in US global surveillance programs.  We might recall that the nation which according to Twitter has requested the greatest number of user data from Twitter is the USA.  And Twitter says it has denied a good many of those requests.  This suggests that US secret police might be tempted to turn, under cover of \"national security\", to simply cracking their way to the data they want.  One might recall that the elements of the US secret police apparatus has characterized the world wide Occupy movement as \"domestic terrorism\".
+
+Further evidence of the intense interest of US secret police in intruding into all Twitter accounts at will comes from a legislative initiative discussed in a recent deeplinks.eff.org post; from
+
+     https://www.eff.org/deeplinks/2013/01/congress-will-battle-over-internet-privacy-2013
+
+> The White House and the FBI have not released what is in the proposed legislation, but one report states the FBI wants to require Internet companies, like Google, Facebook, and *Twitter* to build the same type of *backdoors for real-time government surveillance*. This would not only create a huge Internet security problem, making the Internet less safe just as Congress pushes for a cybersecurity bill, but threatens basic privacy on the web.
+
+
+
+"""]]

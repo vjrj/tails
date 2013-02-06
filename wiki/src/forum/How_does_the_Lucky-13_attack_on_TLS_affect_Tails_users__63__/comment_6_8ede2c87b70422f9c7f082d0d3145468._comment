@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-05T21:10:52Z"
+ content="""
+For anyone who is curious to see what Debian packages apparently use jre (Java Runtime Engine) in a Tails 0.16 system, I believe the standard way to figure this out is to use commands like these (in a root shell):
+
+    apt-cache search jre
+    apt-cache showpkg sun-java6-jre
+    apt-cache rdepends openjdk-6-jre
+"""]]
