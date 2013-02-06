@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-06T19:13:40Z"
+ content="""
+This is a long shot because there's almost NO activity on this subject, but here's what I've figured out:
+
+* I can create a tails USB using unetbootin, but it will only actually boot through rEFIt/rEFInd if the USB is formatted as **MBR and NOT GPT/GUID**
+
+* Once inside Tails, I can then create a Live USB stick using the qizard, but this stick will not boot on the mac. It will display in the selection menu, but once selected I either get \"Boot error\" or \"There is no boot device...\"
+
+* I can use the MBR drive just fine, but can not configure Tails to use Persistence because the drive is not GPT and the \"Create Persistent Volume\" wizard errors out if the partition table is not GPT and the partition name MUST be \"Tails\".
+
+* The USB Stick created by the Tails wizard boots just fine on a PC, and I then set up persistence this way, but I can stil not get the stick to boot under OSX.
+
+* I used dd to create a dump of the MBR Tails USB that boots, and the encrypted partition created by Tails. I tried to create a new two partition USB stick with an MBR partition table, and then using dd to copy the two partitions back to the drive. Result: Tails boots, and the Encrypted partition still works, but Tails will not recognize it as a \"Persistent Volume\" at startup time.
+
+* Still attempting to understand why I am unable to boot a GUID/GPT USB stick, but *am* able to boot an MBR USB stick.
+"""]]
