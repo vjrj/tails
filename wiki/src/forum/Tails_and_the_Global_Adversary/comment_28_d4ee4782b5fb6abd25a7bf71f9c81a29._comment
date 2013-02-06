@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 28"
+ date="2013-02-05T15:22:27Z"
+ content="""
+> acknowledge that some have been unable to find Tails developers in
+> the chat rooms (using otr chat),
+
+Widely available OTR versions are currently restricted to
+inter-individual conversation, and I don't think \"talking to *one*
+other Tails developer at a time\" is a viable way to participate in the
+community on the long run, so I don't think we'll spend time making
+this possible. Sorry about that. Anyway, the huge majority of the work
+that happens on Tails is done in public spaces, so I fail to see how
+the unavailability of private chat would be much of an issue
+in practice.
+
+> and have been unable to master anonymous email,
+
+I'm sorry about this. If it may help, long-term anonymous email with
+Tor is a topic that's addressed every now and then on tor-talk.
+
+> clarify the mysterious identity/nature of \"Sponsor Alfa\", \"Sponsor
+> Bravo\";
+
+I've just answered this in another thread that was hijacked with the
+same question.
+
+"""]]
