@@ -19,4 +19,3 @@ I see that the connections do appear to be proxied and to be https "connected", 
 See also a possibly related disaster for Tor, the Lucky-13 attack which potentially strips all TLS "protection" from Tor circuits:
 
      arstechnica.com/security/2013/02/lucky-thirteen-attack-snarfs-cookies-protected-by-ssl-encryption/
-
