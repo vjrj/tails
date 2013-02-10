@@ -1,0 +1,15 @@
+I am using Tails/Tor with OBFS2 bridges. Today I couldnt connect to Tor network. I am suspecting that Tor has been censored here. Is anybody else having the same issue? I am getting these messages:
+
+[Warning] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. (DONE; DONE; count 10; recommendation warn)
+
+
+[Warning] 19 connections have failed
+
+[Warning] 7 connections died in state handshaking (TLS) with SSL state SSLv2/v3 read server hello A in HANDSHAKE
+
+[Warning] 9 connections died in state connect()ing with SSL state (No SSL object) 
+
+[Warning] 3 connections died in state handshaking (proxy) with SSL state (No SSL object)
+
+
+What's the deal ?!?!

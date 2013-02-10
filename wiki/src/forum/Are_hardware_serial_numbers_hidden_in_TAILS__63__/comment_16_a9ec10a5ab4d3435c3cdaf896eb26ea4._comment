@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-02-09T17:28:24Z"
+ content="""
+> Is it possible to remove the dmidecode command for better security? Also, some other commands and log files that contain the similar information.
+
+That makes no sense. Only a attacker who gained access can use these commands. With access this is your least worries and could be installed again.
+"""]]

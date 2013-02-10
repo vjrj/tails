@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2013-02-08T23:52:49Z"
+ content="""
+Do you gys know about https://panopticlick.eff.org ??
+FOr the most part EFF is one of the good guys, we even have their extension HTTPS Everywhere in TAILS. So, I assume their browser test is to be taken seriously.
+They test your browser to check if you have a very unique fingerprint or not, how unique your browser is.
+With Javascript enabled, cookies enabled and cahce memory enabled, i got around 20 bits of identifying information. WHen I turned those 3 things OFF, I only had around 8 bits!!!!
+
+Please, please.... just CONSIDER the possibility of making some changes in the default browser! I have given you two different browser tests that have proven these small changes to make a huge difference! I will be honest and admit that the EFF test does not take in consideration the fact that I am running TOR, so the fingerprint estimative ould be different (because in onion land the TAILS default browser fingerprint would be much more common), BUT BUT BUT.... If we take these informations in consideration and make the TAILS browser more similar to other browsers out there, we can make ourselves safer, and more private!! ;)
+
+I guess I will have to find the time to write an email to TAILS developers (and maybe TOR developers as well) showing our tests and conclusions. I really believe some of these ideas could be used to make a difference on staying anonymous and private.
+
+Please everyone, keep the comments comming, give all kind of ideas and informations, we are trying to get the best out of this. Test your browser yourself and see what works the best... come and tell us =)
+"""]]
