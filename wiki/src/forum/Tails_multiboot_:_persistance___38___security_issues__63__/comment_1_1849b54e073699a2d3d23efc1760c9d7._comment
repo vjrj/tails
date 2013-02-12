@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-12T11:15:26Z"
+ content="""
+> I would simply like to know : wether Grub is the best bootloader for this task as it seems to prevent Tail's \"wipe memory\" features and specifically for which reasons persistance gets disabled because of it? Is it only the Tails Wizard that's bothered or is it a more fundamental limitation because of partioning issues?
+
+Some parts of Tails need to find out information about the
+system, e.g. the device it was booted from. For the sake of code
+robustness, user support simplicity, and release-time test suite
+length, only the supported installation methods are handled by
+these parts of Tails. E.g. we simply don't have time to multiply
+by two or four or whatnot the number of tests we have to run in
+these areas at release time.
+
+So you're obviously free to install Tails any way you want, but
+then the result won't really be Tails: it will be a custom system
+of yours, and you should not report bugs or expect support
+about it.
+
+Sorry.
+
+"""]]
