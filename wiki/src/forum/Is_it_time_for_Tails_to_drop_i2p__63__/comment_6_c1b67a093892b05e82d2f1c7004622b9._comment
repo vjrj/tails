@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-12T09:37:52Z"
+ content="""
+First, I2P is *not* started by default in Tails.
+
+Second, the Java VM may not be perfect, but that's no sufficient reason IMHO to ditch all programs written in Java from Tails. Few people know how to write secure programs in C. There are many, many security issues found in programs written in C. Still, we don't ditch from Tails all programs written in C. 
+
+"""]]
