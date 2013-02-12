@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-12T09:42:17Z"
+ content="""
+Known issue, already reported on this forum. First hit when searching this website for `ClientTransportPlugin` is: [[todo/non-obfsproxy proxy]].
+
+> If I manually disable ClientTransportPlugin obfs2 exec /usr/bin/obsfproxy in /etc/tor/torrc, then I can connect fine. But is this safe?
+
+It is safe.
+
+> And what if I want to use Tor bridges later?
+
+Removing this line won't prevent you from using regular bridges. It will prevent you from using obfuscated bridges.
+
+"""]]
