@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-22T12:27:19Z"
+ content="""
+> Does that mean that, for such an attack to take place, the attacker must be aware of the existence of the Tails operating system?
+
+More or less yes, that is the case. 
+
+the reason being the fact that Tails has configured it's firewall in a way that prevents any non-tor traffic from connecting to the internet (the only exception to this being the unsafe browser and I2P), so simply changing proxy settings would not be enough to break Tails' Tor-only connection model.
+
+If the attacker is aware of the fact that it is running on Tails however then it can simply change the firewall settings to allow it to connect to connect directly to the internet with any application or it can force the unsafe browser to connect to a website the attacker owns since the unsafe browser bypasses the Tor-only firewall even without changing any firewall rules.
+"""]]

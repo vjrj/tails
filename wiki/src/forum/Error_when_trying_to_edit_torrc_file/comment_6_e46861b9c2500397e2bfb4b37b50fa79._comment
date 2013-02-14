@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-28T18:43:34Z"
+ content="""
+I've had the same problem, except that I was trying to *exclude* some nodes.
+
+I tried booting with a root password and then manually editing /etc/tor/torrc.  Took a while and several restarts of vidalia and Tails Browser, but eventually it did seem to start using the new torrc file, and when I followed the \"edit torrc\" option in Vidalia it showed the extra line.
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-02T06:34:10Z"
+ content="""
+From sudo grep time: /var/log/syslog:
+
+Current time is 2013-02-02 06:12:42
+Current time is in valid Tor range
+Waiting for Tor to be working
+
+From sudo cat /var/log/tor/log:
+
+Reloaded microdescriptor cache. Found 0 descriptors.
+Bootstrapped 45%: Asking for relay descriptors.
+I learned some directory information, but not enough to build a circuit: We have only 0/3130 usable microdescriptors.
+"""]]

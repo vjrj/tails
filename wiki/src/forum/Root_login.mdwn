@@ -1,0 +1,3 @@
+>> The Tails operating system disables login as root unless the user explicitly specifies a root password at boot time. 
+
+Does this mean users are better off,i.e., from a security point of view, not setting a password at boot time? If so, this appears to me to be highly counter-intuitive and dangerous.

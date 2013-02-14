@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-01-31T01:43:04Z"
+ content="""
+>That helps a little but it seems you guys disagree here on email anonymity and stuff. I stated my idea when I made this post but so you guys think that's ok and not ok? 
+
+It's fine. It's what Tails is for.
+
+>So why do you say it is and isn't? 
+
+Ignorance fuelled paranoia -> FUD
+
+>Is it too complicated to explain?
+
+Nope.
+
+>Are you saying email is or isn't possible to use anonymously?
+
+Is.
+
+Obviously.
+
+Easily.
+
+For example... Create an account with any suitable (Tor and no-JS friendly) webmail service and email away. Just be careful to NEVER log-in to that account without Tails! Ever! Obviously! If you're very nervous, you might also like to restrict your browsing to ONLY accessing *that account* during the Tails sessions you use to check that email... by isolating your access like that you can prevent most of the theoretical attacks which the more paranoid Tails users fear a \"global adversary\" may be using against Tor/them. This advice and the concepts behind it are explained clearly (without *any* references to US Gov, Patraeus, etc..) in [the documentation](https://tails.boum.org/getting_started/index.en.html). If you'd like more detailed, paranoid ramblings free, advice on the pros/cons/workings **of Tor** then I'd heartily recommend a look at [their (also meticulous, comprehensive and invaluable) documentation](https://www.torproject.org/docs/documentation.html.en). Threads pop up form time to time asking \"which webmail services work with Tails?\" - if you need some pointers of this nature, the forum's search tool can point you at some suggestions! ...just be sure to don your paranoia goggles first!
+
+>Like I said I don't know and never even used tails before. Just looking for some simple guidelines like things I can do if anything and things I should feel comfortable doing with tails or whatever.
+
+You'd be **much** better off reading [the documentation](https://tails.boum.org/getting_started/index.en.html). There you'll find good, considered guidance on all this stuff without the distraction of endless naïve, paranoid, OT ramblings about \"the US gov\", Aaron Swartz, CIA NSA MI5 MI6 KGB PLA WMD GDP MSG ETC, Patraeus, Flame & Stuxnet, Obama, backdoors, etc., etc... whatever the conspiracy-nut-jobs' spook-du-jour happens to be. If you're new to the whole Tails/Tor/Security?Privicy/Anonymity scene, it can probably be extremely difficult, time consuming and disheartening trying to sort the wheat from the chaff. You have my sympathy! Stick to [the documentation](https://tails.boum.org/getting_started/index.en.html)! [The documentation](https://tails.boum.org/getting_started/index.en.html) is your friend! [The documentation](https://tails.boum.org/getting_started/index.en.html) is well written, carefully considered and generally very reliable (errors are possible!). [The documentation](https://tails.boum.org/getting_started/index.en.html) is *chaff free*™
+
+If you have a specific question (or idea of any kind) that's **not** covered in the documentation, then by all means raise it here... there are lots of people (including the Tails project's core developers) who'll be only to happy to help... just be prepared to do some serious filtering! ;o)
+
+You may have detected quite a strong emphasis on [the documentation](https://tails.boum.org/getting_started/index.en.html). There is good reason for that. Tails' documentation is outstanding. The forum on the other hand is sometimes confusing, unpleasant, embarrassing, even counter-productive. I suppose this is an inevitable by-product of the composition of the niche Tails serves. There is work being done to [improve the forum](https://tails.boum.org/todo/improve_the_forum/). Hopefully a system with carefully constructed karma and voting mechanisms etc. will improve the situation. :D ...If whack-a-dickhead was suddenly to become a group sport around here, I'm inclined to think it'd do wonders for morale!.. and if the result was to conceal (by default) the posts the community had deemed dickheaded, then EVERYONE would benefit.
+"""]]

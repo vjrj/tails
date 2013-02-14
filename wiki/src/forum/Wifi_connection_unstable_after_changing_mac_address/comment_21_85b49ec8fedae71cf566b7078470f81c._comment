@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2013-02-01T14:07:11Z"
+ content="""
+> [...] as soon as I upgraded to tails 0.16 I could not connect wirelessly
+
+Please [[report a complete bug|doc/first_steps/bug_reporting]] once from 0.16 after trying to connect to Wi-Fi, and once from 0.15 after successfully connecting to Wi-Fi, making it clear each time the bug report is related to this issue.
+"""]]

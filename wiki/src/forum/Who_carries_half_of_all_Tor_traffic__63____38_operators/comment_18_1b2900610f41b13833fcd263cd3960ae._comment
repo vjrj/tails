@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2013-02-05T15:37:03Z"
+ content="""
+I acknowledge this is problem. The good news is that this problem is
+well known, as is its solution: improving the diversity of the Tor
+network, by running more high-traffic exit nodes. So, I think this
+topic needs absolutely no additional discussion (especially, not
+here), but actual *action*, that would be better organized on the
+mailing-list dedicated to Tor relay operators.
+
+"""]]

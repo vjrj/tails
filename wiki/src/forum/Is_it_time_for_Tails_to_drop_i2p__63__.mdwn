@@ -1,0 +1,33 @@
+In view of all the problems with Java (not Javascript) which are currently widely discussed in all internet news sites, the fact that i2p uses Java really made a bad impression on me.  
+
+And we *know* that our adversaries are not only well aware of these flaws, because at least one such adversary has apparently used the recently discussed Java flaws to attack a website in an apparent "watering hole" attack which may have affected Tor users interested in human rights issues:
+
+     https://threatpost.com/en_us/blogs/attackers-exploit-java-compromises-reporters-without-borders-site-012313
+
+Accordingly, I propose that *the Tails developers should take i2p out of the next edition of Tails, and not put it back in unless the i2p developers find some way to dump Java.*
+
+I am concerned that i2p may represent a "weak link" which may make it easier than we yet realize for our adversaries to attack Tails users.
+
+From
+
+     https://tails.boum.org/forum/Virtual_Machine/
+
+> Tails has configured it's firewall in a way that prevents any non-tor traffic from connecting to the internet (the only exception to this being the unsafe browser and I2P)
+
+This intelligence hardly allays my uneasy feelings about i2p.
+
+One point I have often tried to make was recently echoed by two experts: our most dangerous adversaries are fearsome and deadly foes, but they are also opportunists with limited time, energy, money, bandwidth, cycles, and expertise (given all their other goals), and they tend to seek the easiest path to their goals.  In particular, the prefered method to target Tor users appears to be to try to use malware to trojan the target PC/laptop, or if that fails, to try to access a router or other peripheral in the target LAN.
+
+From the randombit mailing list thread discussing anonymizing software for human rights workers and activists working/living in dangerous locations:
+
+Ian G (hushmail):
+
+> It turns out (rumour has it) that the attack kit for Skype that circulated in the late 00s amongst the TLAs was simply a PC breach kit that captured the Skype externals - keystrokes, voice, screen etc. Once the TLAs had that, they were happy and they shut up. It was easier for them to breach the PC, slip in the wrapper tacker, and listen in than seriously hack the skype model. And, then, media perception that Skype was unhackable worked again, everyone was happy.
+
+Jon Callas:
+
+> At the time that the so-called Arab Spring was going on, I was invited to a confab where there were a bunch of activists and it's always interesting to talk to people who are on the ground. One of the things that struck me was their commentary on how we can help them.
+
+> A thing that struck me was one person who said, "Don't patronize us. We know what we're doing, we're the ones risking our lives." Actually, I lied. That person said, "don't <expletive> patronize us" so as to make the point stronger. One example this person gave was that they talked to people providing some social meet-up service and they wanted that service to use SSL. They got a lecture how SSL was flawed and that's why they weren't doing it. In my opinion, this was just an excuse -- they didn't want to do SSL for whatever reason (very likely just the cost and annoyance of the certs), and the imperfection was an excuse. The activists saw it as being patronizing and were very, very angry. They had people using this service, and it would be safer with SSL. Period.
+
+That point is also relevant, I think, to a recent thread in this forum asking for better encryption of Tails traffic streams (a goal I share, in the long term).

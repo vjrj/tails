@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-04T09:32:30Z"
+ content="""
+> Is the encryption of the traffic stream super strong like AES?
+
+It's weaker.
+
+> [...] and not recognize that without strong cryptography it doesnt matter.
+
+Such bold affirmations don't mean much without a proper threat model.
+
+"""]]

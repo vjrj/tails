@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-02-01T18:53:41Z"
+ content="""
+OP here.
+
+> So, the moral of the story, this post's data, is what? Don't use Tor, which means, don't use Tails, or any other setup that uses the Tor network, or what? I have been using Tor for years for whatever reasons that I have, but this data above makes me think twice about continuing to do so.
+
+I forgot to add some paragraphs at the end sketching my methodology and offering my thoughts on what the moral might me.  Let me rectify the omission now.
+
+I encourage anyone who shares my concern about the fact that *as few as 38 operators may carry half of all Tor traffic* to seek out the official figures and *compile their own figures*.  It is important to take several \"snapshots\" over time, since the roster of Tor nodes changes frequently, and even high frequency nodes come and go.  However, I've been tracking this issue for quite some time and the basic problem (that a few dozen entities seem to carry most of the traffic) has persisted over time.
+
+You can even make a study while running Tails without installing anything, since the *nix scripting tools I used to process the data (awk, cut, sed) are available in any *nix system.  Using these tools you can perform initial processing to make a csv file which can later be transferred to a database running under your usual operating system.
+
+Also, anyone can informally track over time which Tor nodes seem to appear again and again in his/her Tor circuits while using Tails.  If you do that, I think you will find that the 38 networks do appear again and again, playing in particular the roles of both Entry and Exit nodes (in different circuits).
+
+So, what should we make of this situation?  Here are my thoughts:
+
+* I believe the problem is potentially serious, and needs to be addressed by the Tor Project, but *I certainly am not suggesting that we all abandon using Tor!*  
+* I do not necessarily endorse some of the charges of bad actions which some onion sites have leveled against some of the networks listed above.  While my assessments have changed over time, currently I believe that at least two of those charges against two of the most venerable networks are probably wrong.
+* I do believe that two of the networks are essentially known to sometimes cooperate with adversaries, but this may affect only a small number of Tor users.
+* Like many of you, I track anomalies in the Tor circuits I use (for example, events which appear to be tied to a Tor node using nagios or another security tool to probe my own system), and these do seem to be be associated with certain of the \"suspect\" networks.  To some extent this could be due to operators running Tor on servers which do many other things and may even engage in some robotic \"active defense\".
+* Two others which have not been accused (to my knowledge) in onion sites are suspect not so much because of what they are seen to do but because of who they are.
+* In short, at this point I have no reason to believe that very many of the named operators appear to be engaged in massive surveillance of Tor users.
+* Nevertheless, I think the issue is potentially serious, and I hope some other ordinary Tor users will attempt to track the problem over the coming year.
+* I think the answer to the problem lies in further lowering the boundaries to operating Entry nodes and Relay nodes, and in finding more people willing and able to host Exit nodes.   I hope the situation will improve over time.
+
+Some of the other responses so far duck the issue, which is not addressed in the pages/threads to which they linked.  As far as the issue of raising general Tor issues in this forum, we all agree that it would be more appropriate to raise such issues in the Tor forum.  The problem is that no such forum yet exists.
+
+Mailing lists are inappropriate for communicating with ordinary Tor users.  I hope that the Tor Project will create a simple forum like this one, offering unregistered users the chance to ask questions using Markdown.  I hope that the Tails project will continue to maintain this forum in its present state.  I believe that this is a much better way to communicate with the user base.
+
+"""]]

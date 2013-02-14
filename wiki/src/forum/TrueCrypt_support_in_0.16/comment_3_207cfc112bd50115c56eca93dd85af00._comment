@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-08T14:30:33Z"
+ content="""
+TrueCrypt is still supported in Tails 0.16, I have used it many times with no issues, as the commentator above me mentions it's important to make sure that you actually enter \"truecrypt\" with lowercase letters, and no, you are not supposed to delete any of the other boot options when enabling TrueCrypt, you just need to press Tab to modify the boot options, then press space to add a space and then enter truecrypt and then enter, that's all you have to do.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-10T07:13:29Z"
+ content="""
+Read some [tor reports](https://lists.torproject.org/pipermail/tor-reports/). Look how much money they get from [sponsors](https://www.torproject.org/about/sponsors.html.en).
+
+I think they are distracted with unimportant stuff. Censorship detection, metrics...
+
+They have many full time employees. Only few are working on Tor or Torbrowser.
+
+The reports are small for full time employees. What they do in a month they could do in a week.
+
+No roadmap for fixing the important stuff with encryption and padding.
+"""]]

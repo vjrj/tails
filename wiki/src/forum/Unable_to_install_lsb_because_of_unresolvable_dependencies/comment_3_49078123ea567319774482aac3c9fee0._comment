@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-25T14:46:33Z"
+ content="""
+I commented out the entries for the following:
+
+* at
+* m4
+* ncurses-term
+* time
+
+which resulted in having to configure citadel-server from the Package Manager. I chose the default options, I'm not sure why a server is needed. Does/Could it compromise the security of Tails?
+
+Anyway, after commenting out those lines & installing lsb, I was able to install the driver package and begin printing in less than a minute.
+"""]]

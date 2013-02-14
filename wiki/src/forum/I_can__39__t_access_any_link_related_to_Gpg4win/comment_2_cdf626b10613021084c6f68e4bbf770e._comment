@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-31T14:56:25Z"
+ content="""
+> I cant open the links in the \"download, verify and install\" page and therefore i don't know how to continue the installation.
+
+I guess you are reading the documentation shipped inside Tails, and are being hit by a Torbutton protection that blocks opening remote links from a local web page. May you please retry from the online documentation on <https://tails.boum.org/>?
+
+"""]]

@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 22"
+ date="2013-02-04T09:37:43Z"
+ content="""
+> So you don't really mean \"build a list\" of useful threads as much as distil those threads into question and answer pairs? Not being pedantic - just don't want to waste my time doing the wrong thing!
+
+I mean building a list of existing high quality (question, answer) pairs.
+I don't think we want to migrate full discussions.
+
+> Is there somewhere this could be done collaboratively?
+
+I suggest using [[a Git branch|contribute/git]] that deletes
+stuff that we don't want to migrate (as \"already checked\") and
+somehow marks stuff we want to migrate (e.g. by moving it to
+another directory). I think one of us had started doing so at
+some point, let me ask.
+
+"""]]

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-02-10T21:44:35Z"
+ content="""
+
+I too would like to see an option to *optionally* change the MAC to something random and non-informative.
+
+Something I have not yet experienced while using Tails, but *have* experienced while using Tor Browser Bundle (TBB): very specific actions seem to sometimes trigger 
+
+* An attempt to start networking, even though a wired connection is already working.  That is, when you press \"connect\" in Gnome Network Manager (nm), that starts a dhclient process which starts a bootpc process which sends a UDP packet on port 68 (bootpc protocol) to port 67 (bootps) of a less-than-trustworthy router.  The packet contains the hardware address of the ethernet card in my laptop
+* What looks like a failed attempt to snap a picture using the on-board camera
+* What looks like an attempt to maximize the volume of the on-board microphone
+
+This makes me suspicious that possibly I should feel worried.
+"""]]
