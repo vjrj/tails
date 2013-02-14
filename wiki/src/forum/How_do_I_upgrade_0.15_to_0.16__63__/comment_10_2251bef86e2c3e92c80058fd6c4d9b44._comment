@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-01-14T22:36:39Z"
+ content="""
+I meant \"gratuitous\".  And I forgot the last item on the list:
+
+* copy your personal files from the second USB to your new bootable Tails 0.16 USB.
+
+Now you should be ready to boot from your new Tails with persistence!
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-20T04:48:43Z"
+ content="""
+i don't know about virtualbox since i dont use that, i use VMware, but if its anything like it, you would need to look for an icon somewhere in virtualbox to enable the sd card. like in Vmware any removable media is treated as an additional drive and has to be enabled somewhere in the GUI.
+"""]]

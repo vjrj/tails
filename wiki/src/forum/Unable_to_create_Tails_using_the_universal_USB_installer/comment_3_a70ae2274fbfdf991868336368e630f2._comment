@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-22T13:47:30Z"
+ content="""
+> If I choose repeat 1 & 2 then: 3) \"upgrade from ISO\" 4) choose the .16 ISO from HD, target a blank USB.
+
+\"Upgrade from ISO\" is meant to upgrade an existing Tails, not a blank USB stick.
+
+> Can I not upgrade 0.15 USB to .16 USB?
+
+I suggest cloning your 0.15 to a second USB stick, then using \"upgrade from ISO\" to upgrade that second (non-running) USB stick while still running the first (0.15) one.
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-09T15:31:23Z"
+ content="""
+>> Even if you running off a USB or a DVD do not forget that Tails keeps logs of many activities stored locally which contains identifying information such as Hardware info (types, serials, brands, etc..). I dont know how this could be avoided. A guess would be \"using VM\" ? Dunno. My question about keyloggers also remain.
+
+How about disabling logging in Tails? Also remove dmidecode and related commands.
+"""]]

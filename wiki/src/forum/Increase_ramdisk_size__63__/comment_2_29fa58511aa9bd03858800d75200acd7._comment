@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="@comment1"
+ date="2013-02-01T16:34:50Z"
+ content="""
+So one could change it similar to how one would activate truecrypt on Tails? Looking over the Ubuntu live-boot page, would I boot Tails from the prompt with \"ramdisk-size=3G\"?
+"""]]

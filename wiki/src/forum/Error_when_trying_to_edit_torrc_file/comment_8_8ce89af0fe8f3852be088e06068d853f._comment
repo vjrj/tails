@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-28T18:50:29Z"
+ content="""
+Less than a dozen organizations control the top twenty high bandwidth Tor nodes, almost all of which play all roles (entry guard, exit server, directory server; some even appear to act as bridges which is obviously not proper behavior for a published node).  These organizations capture about 90% of all Tor data streams, and these high bandwidth servers are perfect for global scale correlation attacks.  Therefore it is critically important to offer users some opportunity to avoid particular nodes.
+"""]]

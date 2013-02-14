@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-14T00:27:05Z"
+ content="""
+>For future reference, Tails checks its own version automatically during startup and will warn you if its not the most recent version, so if you don't get that warning then you don't have to worry about Tails being outdated. 
+
+(S)he means ***on the first occasion you connect every new session to the internet*** rather than ***during startup*** of course. Corrupted for brevity I suspect. There's no weird subspace messaging going on!
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-04T20:31:08Z"
+ content="""
+Too true, alas.
+
+One of the attractive features of i2p is that i2p circuits uses better encryption that Tor circuits.  Also, deeply built into i2p appears to be Java.
+
+Some of us tried for years to raise concerns about the Java runtime engine (jre) which is deeply embedded in the Iceweasel/Tor from Debian stable, on which Tails is based.  However, I think Tails may evade some of the worst problems.
+"""]]

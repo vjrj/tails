@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-22T18:58:35Z"
+ content="""
+@ \"Tails\": 
+
+Don't let it get to you.
+
+@ Commentator 2:
+
+> newbies as most come here from the windows version of Tor
+
+How do you know?
+
+I think we all agree that Tor needs an anon-usable support forum, but berating the Tails developers for that reason is silly.
+
+@ OP:
+
+This happens when the browser starts, correct?  You are using Vidalia controller and looking at message log?  Did you use a non-default Tor configuration (torrc)?
+
+I guess this might happen because you have your torrc set to request a specific bridge, but the directory servers you contact no longer list it.  If that's the case, try getting another bridge at
+
+    bridges.torproject.org
+
+Maybe that will fix the problem.
+
+"""]]

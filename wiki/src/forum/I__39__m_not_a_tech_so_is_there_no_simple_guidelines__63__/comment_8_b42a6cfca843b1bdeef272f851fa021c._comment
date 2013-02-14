@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-30T18:31:37Z"
+ content="""
+My post crossed with another respondent.  About the question of email, one of the links I tried to offer was this:
+
+     https://ssd.eff.org
+
+You have three goals:
+
+* privacy (you don't want a third party to read your mail)
+* authentication (you want to know you are corresponding with the intended party)
+* anonymity: this is the one which GPG can't help you with
+
+Another page offering some hard-won experience:
+
+     https://help.riseup.net/en/security
+
+Note again: encryption offers *confidentiality* (their emphasis), not *anonymity*
+
+
+"""]]

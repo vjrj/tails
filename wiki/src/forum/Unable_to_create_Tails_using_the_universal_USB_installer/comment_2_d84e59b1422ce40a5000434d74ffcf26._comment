@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="me2"
+ date="2013-01-22T12:26:35Z"
+ content="""
+1) I boot from TAILS .15 DVD
+2) run the TAILS installer
+3) \"clone and install\", target a blank USB.
+
+It boots to .15.  Makes sense.
+
+If I choose repeat 1 & 2 then:
+3) \"upgrade from ISO\"
+4) choose the .16 ISO from HD, target a blank USB.
+
+It succeeds, but does not boot to .16 USB.  
+
+If I do this:
+1) Boot to .15 USB
+2) Run TAILS installer
+3) Choose \"upgrade from ISO\"
+
+...then the target USB is not listed.  The USB is not mounted.  Can I not upgrade 0.15 USB to .16 USB?
+"""]]

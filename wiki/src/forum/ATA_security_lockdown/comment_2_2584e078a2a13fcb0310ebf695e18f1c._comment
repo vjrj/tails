@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-02T21:47:15Z"
+ content="""
+I think the OP raises a very interesting issue.  I have had a similar unanswered question:
+
+The other OS on my laptop is Debian.  When I boot from the hard drive, I see a specific uuid named on the display just before I am asked for my passphrase.  As I understand it, the uuid of a LUKS encrypted partition can be used to (almost assuredly) uniquely identify a filesystem anywhere in the worlds. Consequently, it is very important that when using Tor, any uuid not leak to a surveillance company server, because then I could potentially be tracked by my uuid.
+
+Question: assuming I do not intentionally mount the hard drive in my laptop, is there any significant risk that it might somehow leak out when I boot my laptop from the Tails 0.16 DVD?
+
+Reference:
+
+     https://en.wikipedia.org/wiki/Universally_unique_identifier
+
+> The intent of UUIDs is to enable distributed systems to uniquely identify information without significant central coordination... One widespread use of this standard is in Microsoft's globally unique identifiers (GUIDs). Other significant uses include ext2/ext3/ext4 filesystem UUIDs, LUKS encrypted partitions
+
+@ Tails developers: I hope all these feature requests and possibly naive questions about computer security when using Tails don't seem overwhelming!  On the bright side, all these feedback shows that people are relying on Tails, so much so that they are thinking about possible improvements.
+"""]]

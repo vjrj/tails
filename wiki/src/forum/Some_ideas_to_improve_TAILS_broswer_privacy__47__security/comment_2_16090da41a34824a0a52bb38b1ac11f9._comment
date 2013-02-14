@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-05T21:26:20Z"
+ content="""
+
+> By default, DON'T ALLOW COOKIES! Most websites will use cookies even when they don't need it. You are being followed (every website can know which other websites you visit) and don't even remember that. Of course, we can add exceptions on a per-user-choice. One person could want gmail to store cookies while other person would choose Tormail or yahoo. So, be default, DON'T store cookies.
+
+It seems that Tails browser quietly includes the Cookie Monster add-on (try Tools -> Add-ons -> Cookie Monster) which apparently tries to block all cookies, over-riding the default IW setting.  I don't feel that I understand that, but hope that it might actually block cookies from being cached, while giving the false impression to an external webserver that a cookie has been accepted, thus possibly making our browser less distinctive.
+"""]]

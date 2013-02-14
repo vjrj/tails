@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-22T13:57:46Z"
+ content="""
+I was successfully able, on Tails 0.16, to:
+
+1. Create an encrypted file container with TrueCrypt.
+2. Reboot.
+3. Set an administrator password in Tails Greeter.
+4. Start TrueCrypt.
+5. Select the container file.
+6. Click \"Mount\".
+7. Enter the encryption password for the encrypted container.
+8. Enter the Tails administrator.
+
+Can you please try to reproduce this sequence of actions, and report back the exact and complete error messages you get, if any?
+"""]]

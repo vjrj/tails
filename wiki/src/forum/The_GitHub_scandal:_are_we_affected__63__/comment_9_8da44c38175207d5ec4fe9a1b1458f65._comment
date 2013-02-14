@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-28T19:43:11Z"
+ content="""
+Thanks, Erik!  I would like to provide some links and more details about backdoors in well known brands of consumer routers, including both wired and WiFi routers.  If \"Tails\" doesn't allow that, you can find many stories using search engines.  Some issues to look for:
+
+* many popular brands of routers have known (often hard-wired) \"remote administration\" accounts, supposedly to help IT people fix problems encountered by clueless consumers
+* Cisco has suffered so many problems with its consumer routers it is selling off that part of its business to a competitor
+* some firmware \"upgrades\" issued by well known brands turned out to contain malware (see also a scandal involving Blackberry devices for a related incident in which a government forced a telecom to issue \"security upgrades\" which were actually malware intended to enable the government to listen in, but which didn't work properly and in fact exposed their own citizens to increased risk due to breaking legitimate security feature of their devices)
+* elements of the U.S. government (how ironic) have expressed grave concerns about hardware level backdoors in chips manufactured in China, and suchconcerns appear plausible, but despite some claims they do not yet appear to have the status of established fact
+* frequent local power outages (possibly brief) can be a warning sign that your government is hunting for bloggers (unless you live in a locale where everyone experiences frequent outages)
+* if secret police cannot remotely trojan your computer, they are likely to consider you \"interesting\" enough to take things to the next level: burglarly and evil maid attacks.
+ 
+"""]]

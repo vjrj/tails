@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2013-02-06T10:42:35Z"
+ content="""
+> Why this strange insistence on mailing lists?
+
+I don't know why the ones who are doing actual work to fix this problem are discussing it on a mailing-list, but I'm sure that:
+
+1. Here is no good place to discuss how and why to operate Tor relays.
+2. Here is no good place to discuss whether a mailing-list is the best tool for discussions that currently happen on the `tor-relays` mailing-list. Such meta discussion should happen among the people who are doing this work, and discussing it, not among Tails users.
+
+Discussion closed.
+
+"""]]
