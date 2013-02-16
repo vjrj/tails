@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-16T10:38:20Z"
+ content="""
+And what about unsaved changes in documents the user is working on?
+
+There is a trade off here, especially since a complete shutdown due to inactivity is unexpected behaviour.
+"""]]
