@@ -1,0 +1,5 @@
+hi
+
+I tried to go into irc with ircs protocol and port 6667 in pidgin which comes with Tails, but it fails saying "SSL handshake failure". I think the reason might be incorrect clock. Does anyone know how to fix this?
+
+N.B. Anyone can test this by trying to go to any irc server that supports SSL and see the result.

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-14T07:56:04Z"
+ content="""
+this is htpdate checking and fixing your system's time.
+
+the list of domains checked, which includes mitre.org, are found here:
+
+/etc/default/htpdate
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-20T15:24:54Z"
+ content="""
+again, why sha 256 provided for .16 but not for .17~rc1?
+"""]]

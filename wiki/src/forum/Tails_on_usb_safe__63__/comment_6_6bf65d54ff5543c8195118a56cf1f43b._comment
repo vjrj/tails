@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-12T19:35:04Z"
+ content="""
+To: Tails
+
+I am the writer of comment 4 but not of comment 3.
+
+I apologize if my statements made in comment 4 sound harsh but please do not take them as personal attacks on the integrity of the Tails' team.
+
+>Iceweasel has a remote arbitrary code execution hole
+
+>a local priviledge excalation hole is available
+
+>the malware is specifically targeted at Tails
+
+It isn't difficult for the above three conditions to occur simultaneously or is it?
+"""]]

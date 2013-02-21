@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-17T05:01:39Z"
+ content="""
+@ OP
+
+Will your using Tails ISO within VirtualBox break your anonymity? That should be your ultimate concern.
+
+Is Tails meant to work within VirtualBox? At present there are only two recommended ways to run Tails: Live DVD and Live USB.
+"""]]
