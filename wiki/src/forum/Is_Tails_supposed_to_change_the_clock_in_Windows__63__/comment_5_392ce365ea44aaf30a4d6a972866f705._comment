@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-23T13:31:22Z"
+ content="""
+>Bottom line is that as long as Tails need to synchronize the clock to work properly, and does not attempt to reset it back to what is was before boot, it will either break modern OSes or old OSes, better breaking the old ones I guess :)
+
+Not so. Linux maintains a *software clock* which is initialised at boot from the system's *hardware clock*. Tails' time syncing should subsequently calibrate and set the Linux system's *software clock* which will then keep the correct time for the life of the session by being kept to the correct offset against the *hardware clock*. Changes to the *software clock* are not *normally* be applied to the *hardware clock*. A specific command (e.g. `hwclock --systohc`) must *normally* be issued (with root privilege) to set the *hardware clock* from the *software clock*. Tails does NOT *normally* do this so a deviation from normal behaviour, as suggested by OP, would seem to indicate some sort (hardware/driver/OS/user/observation/etc) of error. Hence, the *correct* answer to OP is that given by comment 1. `man hwclock` can tell you more.
+"""]]

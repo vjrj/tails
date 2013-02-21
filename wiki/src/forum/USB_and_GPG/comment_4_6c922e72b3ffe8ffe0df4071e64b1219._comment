@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-18T17:19:59Z"
+ content="""
+> If that key is saved once I turn the computer off?
+
+If you have enabled the GnuPG persistence feature, yes.
+
+"""]]

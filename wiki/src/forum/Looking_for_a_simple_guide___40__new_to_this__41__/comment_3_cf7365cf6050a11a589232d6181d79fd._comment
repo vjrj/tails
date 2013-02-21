@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-12T22:36:31Z"
+ content="""
+Thanks for the suggestion.
+
+The Tails documentation can already be downloaded in two different
+ways (and formats): it's included in every Tails ISO image, and
+therefore in every installed Tails system; it can also be downloaded
+from our [[contribute/git]] repository. So, I don't think it's worth
+working on yet another way to distribute this documentation.
+
+"""]]

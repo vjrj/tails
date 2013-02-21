@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-27T00:02:31Z"
+ content="""
+You misunderstood, unintentionally I hope, and I don't want this thread to be hijacked (by people who want to suppress discussion of real problems) into one of those utterly pointless \"Windows is better/worse than Another OS\" flamewars.
+
+I'll just make two basic points (which I suspect you have heard before):
+
+* All operating systems have security vulnerabilities, but this may be largely irrelevant here, since the problems most likely to affect Tor users may be cross-platform issues affecting the browser or PDF files or such which use software which is widely deployed on all \"desktop-friendly\" OSs.  In addition, hardware and firmware issues involving routers may be more important to Tor users than software issues.
+
+* I never mentioned \"viruses\"; such things exist but very few directly affect the Linux OS (and thus Tails, which uses Debian Linux).  Those Linux \"anti-virus\" packages which exist are intended largely to help administrators of large systems (especially mail servers) to keep viruses out of *Windows* machines which connect to the server.
+
+And now back to the point now, I hope.
+"""]]

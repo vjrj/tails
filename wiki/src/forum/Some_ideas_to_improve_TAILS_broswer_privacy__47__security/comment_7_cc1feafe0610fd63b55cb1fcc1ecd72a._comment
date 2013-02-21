@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-06T09:29:42Z"
+ content="""
+One thing that everyone seems to miss in this discussion is user friendlyness. Both Tor and Tails targets people who may not know these more advanced aspects of computer security, and are unwilling/unable to spend the time needed to learn it. Disabling Javascript and Cookies by default is bad for them, since many sites requires these to function to operate properly, and it may not be obvious how to enable them on a site to site basis (let alone the fingerprinting risks). Instead the Tor developers spend time reviewing the whole JavaScript API and is altering/removing dangerous functions in there, so it is safe to use by default. (see the tor browser patches in the tor project git repository and related bug tickets on their tracker)
+
+Not allowing cookies does not help much either way, since you still can be tracked based on which exit node you currently is using, and from the referrer. Use the onion icon in the browser \"New Identity\" to clear cookies, referrer, history, noscript exceptions, and to force new exit node. This way you cannot be followed.
+
+Also, I believe cache is already disabled. At least disk cache is. And the \"block bad website\" thing is explicitly unchecked because that allows G..gle to track you. It is G..gle that is running that service, and they don't anonymize your website visits enough when asking if a site is blocked.
+
+
+PS. When using Tor your MAC address is just as anonymized as your IP address, so no need to worry.
+"""]]

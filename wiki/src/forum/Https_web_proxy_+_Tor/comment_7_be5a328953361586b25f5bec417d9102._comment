@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-18T02:33:46Z"
+ content="""
+Alright, I'm not certain exactly what you mean by \"https web proxy\". But what I am certain of is--whatever it is--it can't create an encrypted connection to a site that doesn't support encryption. The only way you'll ever get end-to-end encryption is is if both ends (i.e. your computer and the destination) support it encryption. That's obvious, right?
+
+But perhaps there's some so of misunderstanding here. So just to be clear, end-to-end encryption over Tor is already possible if the destination supports it. Like this one. You can visit <https://tails.boum.org/> with or without Tor and it would be encrypted end-to-end.
+"""]]

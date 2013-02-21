@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-11T00:05:21Z"
+ content="""
+> doesn't this leave a possible attack vector by including a browser which works via clearnet and not through Tor?
+
+Not really, the only risk the unsafe browser introduces is the fact that some users might use it without realizing that it is unsafe, but the name itself should prevent that from happening with most users. 
+
+The reason why the unsafe browser exists is that a lot of people were complaining about the fact that it was impossible to use Tails on public Wifi hotspots where you were required to login  or accept some user agreement before you could access the network freely since the Tor browser would not connect to anything without Tor, and you couldn't connect to the Tor network before you logged in. 
+
+That's the sole intended use of the unsafe browser, to login to such a network and then close it and use the normal iceweasel browser after that.
+"""]]

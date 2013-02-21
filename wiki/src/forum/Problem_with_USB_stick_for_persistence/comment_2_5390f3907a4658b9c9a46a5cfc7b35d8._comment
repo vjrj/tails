@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-01T21:51:32Z"
+ content="""
+Found the gnome disk utility!  In Tails taskbar, Applications -> System Tools -> Disk Utility
+
+Shows drive is indeed encrypted.  Password changed worked, thanks.  That also fixed the problem with my other OS, so thanks much.
+
+I can't believe that I would ever not check the right box in the dialog when using my other OS, which is Debian stable, so it shouldn't seem all that different.  The problem with my Debian system seems to be that it never shows the dialog at all, and just made the *wrong assumption* about what I wanted!  How un-Debian-like of it to do that!
+
+Now I have some other security/anonymity issues with Tails 0.16, which I'll try to ask about later.
+
+"""]]

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2013-02-09T04:50:27Z"
+ content="""
+[Everyone is wasting time here. You lack skill to make suggestions.](https://tails.boum.org/forum/dont_be_too_happy_about_the_new_forum_to_come.../)
+
+correct work flow
+
+* search the Torbrowser bug tracker for what you suggest
+* read the previous discussion
+* if not already suggested then open a new ticket
+* if accepted provide a patch
+
+People reading the bug tracker and fixing such things are usually not people reading this forum.
+"""]]
