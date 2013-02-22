@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-22T12:54:41Z"
+ content="""
+Not OP
+
+Regarding Tails fingerprint, which is (at least a little) different from TBB because of Adblock-Plus. Does this work the other way around? Can I install Adblock-Plus on my TBB knowing that it the end it is mostly ok as it will look similar to Tails fingerprint?
+
+Or does Tails Adblock-Plus have special configurations or needs a special way to talk to the rest of the browser? I guess in the end I just *really* want to get rid of those adds in TBB and it takes too long to boot tails for everyday internet usage. Does the user end up with a choice this way? Can I do it or do I need \"Dev skills\"?
+
+If not, could tails (or tor I guess) consider to provide the modified Adblock and instruction on how to do install it on TBB? I think it could also help both TBB and Tails fingerprint if tor decided to ship a modified Ad-block which blocked adds at a 1-click distance. 
+
+"""]]
