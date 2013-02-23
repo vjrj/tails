@@ -1,0 +1,7 @@
+Im writing this from memory so i dont have all the exact details of the filenames:
+
+Ive been trying to setup VMware-Player-5.0.1-894247.i386.bundle in tails but it gives me this error "Please install kernel headers" and then it would list whatever version of debian kernel tails is running. Ive already submitted this as a bug but ill probably never hear back from that and i really need help now. 
+
+What ive done so far is type "sudo ch apt-get install" 
+
+and then i'd type something like "kernel headers" and then the kernel version. It would then download the package and install it in usr/src where its supposed to be but when i ran vmwware player (which installs fine it just doesnt run) it would give the same error, and when i browsed inside the header folders that were downloaded everything would be greyed out. Could someone walk me through what im supposed to do to give it what its asking for?

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-19T20:11:42Z"
+ content="""
+@ comment 1
+
+>It's not possible to use a vpn with tails there are many reasons but the main one from my opinion is that it's pretty hard to connect to a vpn through tor.
+
+Incorrect. You can use VPN over Tor or Tor over VPN.
+
+Two VPN providers that came to mind are: HideMyAss and AirVPN.
+"""]]
