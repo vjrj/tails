@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-06-24T10:20:12Z"
+ content="""
+Very quick:
+
+- If you're using Tor and I2P your ISP from Tails will see that you are using those tools (and possibly now that you are using Tails) but nothing more. But still you should read our [[warning page|/doc/about/warning]].
+- Do not tweak the Iceweasel shipped in Tails, read our [[warning on persistence|/doc/first_steps/persistence/warnings]].
+
+"""]]

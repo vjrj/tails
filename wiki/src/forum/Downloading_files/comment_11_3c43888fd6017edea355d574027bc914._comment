@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-10-31T08:56:57Z"
+ content="""
+> In the past, it was asked in this forum whether or not `wget is safe to use for downloading files in TAILS.
+
+Safe against what?
+
+If it would be unsafe within Tails threat model, it would be a bug to have it included in Tails.
+"""]]

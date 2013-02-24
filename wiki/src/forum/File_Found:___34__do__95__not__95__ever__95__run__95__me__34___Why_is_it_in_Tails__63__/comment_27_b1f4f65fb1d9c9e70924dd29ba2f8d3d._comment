@@ -1,0 +1,48 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 27"
+ date="2013-01-22T09:11:09Z"
+ content="""
+Some moron posted the same shit to cryptome:
+
+http://cryptome.org/2013/01/tails-exploit.htm
+
+Here is your answer asshole. Only root user can execute that script, and if that file was removed then the same root user could simply type the following, locally or remotely.
+
+	IPT=/sbin/iptables
+	IP6T=/sbin/ip6tables
+
+	[ -x \"$IPT\" ]  || exit 67
+	[ -x \"$IP6T\" ] || exit 68
+
+	$IPT -P INPUT ACCEPT
+	$IPT -P FORWARD ACCEPT
+	$IPT -P OUTPUT ACCEPT
+
+	$IPT -t nat -P PREROUTING ACCEPT
+	$IPT -t nat -P POSTROUTING ACCEPT
+	$IPT -t nat -P OUTPUT ACCEPT
+
+	$IPT -t mangle -P PREROUTING ACCEPT
+	$IPT -t mangle -P INPUT ACCEPT
+	$IPT -t mangle -P FORWARD ACCEPT
+	$IPT -t mangle -P OUTPUT ACCEPT
+	$IPT -t mangle -P POSTROUTING ACCEPT
+
+	$IPT -F
+	$IPT -t nat -F
+	$IPT -t mangle -F
+
+	$IPT -X
+	$IPT -t nat -X
+	$IPT -t mangle -X
+
+	$IP6T -F
+	$IP6T -P INPUT ACCEPT
+	$IP6T -P FORWARD ACCEPT
+	$IP6T -P OUTPUT ACCEPT
+
+
+
+Stop wasting everyone's time, even better find a speeding truck and throw yourself in front of it.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="&quot;Install to&quot; or &quot;run from&quot;?"
+ date="2012-09-02T06:42:18Z"
+ content="""
+>I've read somewhere on here that it hasn't been made possible but i was wondering whether this will ever be possible? Or whether someone has found a way around it? I would love to be able to run tails from my laptop permanatly and be able to save settings with the use of my ram.
+
+The two things are somewhat distinct:
+
+\"Installing to\" your HD, you'd have to create and format suitable dedicated partitions and the result would be an ordinary Squeeze (Debian stable) installation whith a Tails specific package selection and some Tails specific scripts, apps, and configs.
+
+\"Running from\" your HD however would be much akin to running the live CD: No partitioning etc, no persistence (other than your other media), etc, except *much* faster than a CD, obviously. If this is what you'd like, it's easily achieved - since 0.7 Tails has supported the formiso= boot parameter which makes it possible to boot the .iso image file directly from another filesystem. Such as HD, flash media, network, etc. There's a good discussion of doing this in the latter half of [another thread](https://tails.boum.org/forum/Encrypted_Usb_Tails_/).
+"""]]

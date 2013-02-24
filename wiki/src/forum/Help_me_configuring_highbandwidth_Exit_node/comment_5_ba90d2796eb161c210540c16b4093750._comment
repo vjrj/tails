@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-28T19:21:01Z"
+ content="""
+Thanks for running an exit router!  I too want to give back to Tor, and like you have found this somewhat difficult.
+
+> It is completely secure
+
+Not to discourage, but just to say that statements like that always cause chills to run up my spine since anyone who knows anything knows *nothing* is ever \"completely secure\".  I am quite worried about possible remote intrusions into high bandwidth Tor nodes with the explicit aim of hijacking them for large scale (or highly targeted) correlation attacks.  Another danger is that hijacked Entry guards could possibly break SSL encryption, which would be particularly dangerous if such a rogue Entry guard is cooperating with some Exit nodes.
+
+"""]]

@@ -1,0 +1,44 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-12-14T04:24:47Z"
+ content="""
+>Some (most) SSD disks implement Secure Erase in such a way that all cells are erased (not simply overwritten), whether they are mapped or not (wear levelling).
+
+Wait...when it comes to digital/electronic media of any type, isn't it the case that \"erased\" **is** *overwritten*? 
+
+I think the distinction you meant to make was between:
+
+a) being actually *overwritten* (thereby rendering previously written data irrecoverable) 
+and,
+
+b) merely being marked as *available* to be written over but still being recoverable (what happens with a *logical* delete, i.e., simply pressing the `Delete` key-- even after emptying the \"trash bin\")
+
+>The problem is there is no way to guarantee -your- SSD disk implements it that way, or even implements Secure Erase at all.
+
+So it would indeed seem. 
+
+From the [post on the Sophos site](http://nakedsecurity.sophos.com/2011/02/20/ssds-prove-difficult-to-securely-erase/) that summarizes the [2011 Usenix paper](http://www.usenix.org/events/fast11/tech/full_papers/Wei.pdf): 
+
+>ATA and SCSI command set features for securely destroying data on SSDs (\"ERASE UNIT\") were available on only 8 of the 12 drives tested and were only successful on 4 of the drives.
+
+I saw a Cnet post that recommended wiping SSDs by activating Secure Erase via the \"Erase Disk\" utility in Parted Magic. 
+
+Seems ignorant and irresponsible.
+
+>Research have shown that running said command twice will with very high probability overwrite all data, since the cells that wasn't overwritten by the first run will be swapped back in to the mapped region during second run, and thus gets erased.
+
+Anyone have any actual stats handy?
+
+(I did at least skim through the paper last year but: a) I don't recall this info from it and, b) I don't have time to read through it now)
+
+I would think the greatest variable would be model/manufacturer.
+
+>The SSD problem afflicts selective erasure - such as attempting to securely delete individual files. 
+
+The inability to fully and reliably erase *individual files* on solid state media was already known for years (though perhaps not as fully and widely known) -- long before the [paper by researchers Wei, Grupp, Spada and Swanson](http://www.usenix.org/events/fast11/tech/full_papers/Wei.pdf) was released in February 2011. 
+
+But it was thought that this limitation of solid state media could be overcome simply by overwriting all of the *free space* on the device. (I recall seeing this advice in documentation for *Eraser* program by Heidi Software.)
+
+The 2011 Usenix paper revealed severe limitiations and flaws not only with being able to reliably overwrite all *free space* on solid state media but even with overwriting an *entire device*.
+"""]]

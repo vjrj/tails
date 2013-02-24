@@ -1,0 +1,115 @@
+Let this be a warning to those of you who may be savvy enough to use Linux, but stupid enough to trust corporations.
+
+Never install proprietary graphics card drivers while using a system with TBB installed, especially Tails.
+
+This isn't the first time an exploit was discovered, though this time it appears this new exploit was reported and nothing was done about it?
+
+Read it and weep:
+
+Proprietary Nvidia Linux Driver Contains Privilege Escalation Hole
+
+Posted by Unknown Lamer on Wednesday August 01, @01:31PM 
+
+http://linux.slashdot.org/story/12/08/01/1618225/proprietary-nvidia-linux-driver-contains-privilege-escalation-hole
+
+"The Nvidia binary driver has been exploited by an anonymous hacker, who reported it to nvidia months ago and it was never fixed. Now the exploit was made public."[1] The one releasing the exploit (relayed to him anonymously) is David Arlie[2], well known X hacker. The bug lets the attacker write to any part of memory on the system by shifting the VGA window; the attached exploit uses this to attain superuser privileges. It appears that this has been known to Nvidia for at least a month.
+
+[1] http://permalink.gmane.org/gmane.comp.security.full-disclosure/86747
+[2] http://airlied.livejournal.com/
+
+############################################
+
+"With all the recent controversy and Linus and other members of the FOSS community flipping Nvidia the bird over the issue of keeping their driver closed, they're certainly going to take this news and run with it." - http://linux.slashdot.org/comments.pl?sid=3019869&cid=40845025
+
+############################################
+
+"Nvidia are just serial fuckups. Wasted half my saturday trying to find a driver release that would work on my wifes Kubuntu 11 PC. Eventually gave in and upgraded to 12.04 instead of manually erasing the broken install yet again... to find another fscking broken driver and no X. These idiots are completely incompetent and simply don't respond to error reports or much of anything else from ordinary users.
+
+Nvidia, still haven't forgotten all the accelerated functions in your chipsets that gradually got turned of as drivers updated, because the hardware was rotten to the core and couldn't be made to work. Or the ongoing multi year saga of begging for working PAL TV support, all of it falling on deaf ears. Or the magically vanished TV out support when Vista shipped.
+
+Frankly a root exploit is one of their lesser sins."
+- http://linux.slashdot.org/comments.pl?sid=3019869&cid=40845215
+
+############################################
+
+It's certainly legit..
+
+c@v:~$
+c@v:~$ wget http://cache.gmane.org//gmane/comp/security/full-disclosure/86747-001.bin ...
+2012-08-01 12:46:13 (60.8 KB/s) - `86747-001.bin' saved [18225/18225] ...
+c@v:~$ mv 86747-001.bin nvid-root.c
+c@v:~$ gcc nvid-root.c -o nvid-root
+c@v:~$ ./nvid-root
+[*] IDT offset at 0xc1808000
+[*] Abusing nVidia...
+[*] CVE-2012-YYYY
+[*] 32-bits Kernel found at ofs 0
+[*] Using IDT entry: 220 (0xc18086e0)
+[*] Enhancing gate entry...
+[*] Triggering payload...
+[*] Hiding evidence...
+[*] Have root, will travel..
+sh-4.2#
+sh-4.2#
+
+sh-4.2# id
+uid=0(root) gid=0(root) groups=0(root),4(adm),6(disk),20(dialout),24(cdrom),29(audio),44(video),46(plugdev),104(fuse),105(lpadmin),115(admin),116(sambashare),119(pulse-access),1000(chad)
+sh-4.2#
+
+sh-4.2# lsb_release -a
+LSB Version: core-2.0-ia32:core-2.0-noarch:core-3.0-ia32:core-3.0-noarch:core-3.1-ia32:core-3.1-noarch:core-3.2-ia32:core-3.2-noarch:core-4.0-ia32:core-4.0-noarch
+Distributor ID: Ubuntu
+Description: Ubuntu 12.04 LTS
+Release: 12.04
+Codename: precise
+
+sh-4.2# uname -a
+Linux vero 3.2.0-24-generic-pae #39-Ubuntu SMP Mon May 21 18:54:21 UTC 2012 i686 i686 i386 GNU/Linux
+sh-4.2#
+
+- http://linux.slashdot.org/comments.pl?sid=3019869&cid=40845239
+
+############################################
+
+The graphics driver is both monstrously large and operates at a very low level, there are going to be tons and tons of security problems with it when people start seriously looking at it. As John Carmak put it: I agree with Microsoft’s assessment that WebGL is a severe security risk. The gfx driver culture is not the culture of security.
+- http://linux.slashdot.org/comments.pl?sid=3019869&cid=40845991
+
+############################################
+
+Linus Torvalds To Nvidia - "Fuck You"
+https://www.youtube.com/watch?v=_36yNWw_07g
+
+In a talk held at Aalto University in Helsinki Finland, Linus Torvalds addressed a question from one of the audience members regarding issues they had with a laptop running NVIDIA Optimus graphics and the lack of support for Linux.
+
+############################################
+
+Privilege escalation security hole found in Nvidia Linux driver
+
+Summary: A new security hole has been discovered in Nvidia's Linux driver. Nvidia has allegedly known about the vulnerability for more than a month but has yet to fix it.
+
+By Emil Protalinski for Zero Day | August 1, 2012
+
+http://www.zdnet.com/privilege-escalation-security-hole-found-in-nvidia-linux-driver-7000001986/
+
+An anonymous hacker has found a security hole in the Nvidia binary. He or she allegedly reported it to Nvidia "over a month ago" and did not receive a reply, nor was the flaw ever patched. The exploit has now been made public.
+
+Software Engineer Dave Airlie was sent details of the vulnerability. After testing it out and discovering that it indeed works, he posted the exploit for everyone to see over at the mailing list full-disclosure@lists.grok.org.uk.
+
+The flaw essentially allows an attacker to write to any part of memory on the system by shifting the VGA window after attaining superuser privileges. For reference, here's the full text of Airlie's disclosure:
+
+    First up I didn't write this but I have executed it and it did work here,
+
+    I was given this anonymously, it has been sent to nvidia over a month ago with no reply or advisory and the original author wishes to remain anonymous but would like to have the exploit published at this time, so I said I'd post it for them.
+
+    It basically abuses the fact that the /dev/nvidia0 device accept changes to the VGA window and moves the window around until it can read/write to somewhere useful in physical RAM, then it just does an priv escalation by writing directly to kernel memory.
+
+    Dave.
+
+I have contacted Nvidia about this security hole. I have also contacted Airlie for any more information he may be willing to provide. I will update you if and when I hear back.
+
+http://airlied.livejournal.com/
+http://permalink.gmane.org/gmane.comp.security.full-disclosure/86747
+
+############################################
+
+eof

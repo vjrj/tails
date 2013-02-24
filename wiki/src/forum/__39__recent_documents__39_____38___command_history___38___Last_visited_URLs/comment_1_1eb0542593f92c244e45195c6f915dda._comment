@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-21T22:28:22Z"
+ content="""
+>How to disable 'recent documents' feature?
+
+Answer: Reboot your PC
+
+>How to stop and/or delete terminal command history?
+
+Same answer as above
+
+>Is there 'Last visited URLs' log similar to the one in windows registry?
+
+Same answer as above
+
+>Can Tails be made to use fake hardware identifiers, if so, how?
+
+Make sure that before you boot into the desktop screen (either the Gnome GUI or Windows XP camouflage GUI), enter a password and re-enter to confirm it.
+
+To change the MAC of your machine, open up a terminal window and type the following: sudo macchanger -a eth0
+
+Enter the password when prompted.
+
+N.B.: The last character in eth0 is the number zero and not the letter O as in Omega.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-28T20:34:14Z"
+ content="""
+@8: I have the exact same concern. Tor tends to pick the fastest nodes and if you have a close look, the same nodes are chosen again and again in different roles. The node picking is not random at all, and may I add MOST of those fast nodes exist in very few countries (US, Germany, UK). If any adversary is interested in monitoring Tor traffic all they have to do is to offer the fastest nodes which is fairly easy. I kindly invite Tails Devs to look into this matter which I see as really serious.
+"""]]

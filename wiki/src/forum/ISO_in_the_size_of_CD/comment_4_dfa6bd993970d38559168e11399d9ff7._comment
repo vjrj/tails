@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-25T23:36:08Z"
+ content="""
+As the distro and its component packages have matured, they have grown. This is quite normal. Tails was kept <CD size for as long as could be done without eroding its usefulness. That time has now passed.
+
+There are evidently some packages which you don't use. Having read the other threads you might have seen that forking Tails is not your only option. *You* could remove those packages which *you* don't use, then re-spin *your own* ISO. How cool is that?! But wait! There's more! The Tails developers have even written [instructions](https://tails.boum.org/contribute/build/) to guide you through the process! OMG!
+
+Still, as you *have* noted, if you don't like Tails, you are always at liberty to [piss off](https://tails.boum.org/about/index.en.html#index6h1)
+"""]]

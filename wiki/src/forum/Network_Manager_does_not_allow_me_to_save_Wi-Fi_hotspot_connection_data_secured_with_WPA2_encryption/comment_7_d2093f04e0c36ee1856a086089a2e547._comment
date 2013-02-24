@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-09-27T15:36:30Z"
+ content="""
+>In general, this symptom indicates that at least one of the two parameters Network Manager asks for (Wi-Fi network security type and passphrase) is incorrect. Can you try giving it another kind of Wi-Fi security?
+
+If it's \"incorrect\", then why does the same network with the exact same connection data works just fine on Windows 7? Could it be that the Broadcom drivers for Linux have issues? Also, I still have a Tails 0.12 DVD (I'm not sure if it's 0.12 or 0.12.1). Should I try on that and see if the problem happens there as well?
+"""]]

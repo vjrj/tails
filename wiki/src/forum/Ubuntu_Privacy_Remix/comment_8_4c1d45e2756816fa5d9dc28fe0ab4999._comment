@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-10T12:47:21Z"
+ content="""
+Many ways. e.g. mount the (verified) .ISO and the (suspect) DVD, run md5deep on both mountpoints, compare digests.
+"""]]

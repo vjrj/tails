@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-07T07:58:01Z"
+ content="""
+Regarding GRC \"Shields-UP!\", I believe that there is broad consensus among security experts that the whole obsession with \"Stealthed\" ports that GRC makes such a fuss over should be completely disregarded. 
+
+What matters is whether ports are open or closed.
+
+But this doesn't actually pertain to Tails.
+"""]]

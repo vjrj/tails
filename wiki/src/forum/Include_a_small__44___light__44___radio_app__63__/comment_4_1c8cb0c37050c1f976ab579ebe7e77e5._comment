@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-18T12:11:05Z"
+ content="""
+If you want to create your privacy concious distro, just install debian on your computer, grab the tor browser bundle and set up the firewall the way it is in tails. Your internet traffic will have to go through tor, and you'll be able to set up the apps you want...
+"""]]

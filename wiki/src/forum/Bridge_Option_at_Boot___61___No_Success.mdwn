@@ -1,0 +1,5 @@
+Hi, when I tried version 0.14 and now 0.15, still the same problem, I type bridge in boot and then when I enter working bridge, sometimes I write more working bridges, I can't access Internet. 
+
+one problem is that torrc file doesn't have correct permissions, tails is trying to create torrc.orig.1 file and no success, it is written torrc is owned by debian. chmod doesn't help me in any case. 
+
+beside it, it demands password, because settings is automatically changed to Use Unix Domain Socket. I tried to change authentication None, but no success. 

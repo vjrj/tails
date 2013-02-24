@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="comment 140"
+ date="2012-10-25T13:39:59Z"
+ content="""
+> str4d give it a rest , I2P is full of holes and you are not anonymous or protected.
+
+If you are aware of so many holes that have been overlooked over the last ten years of development, then feel free to enumerate them properly rather than allude to them indirectly. I'm trying to be helpful here; civility would be appreciated.
+
+> If you connect to a tor-hidden server (which could be a honey pot data miner) through Tor then the hidden server will never get your Ip address.
+
+> If you run I2P and the tor-hidden server is also running I2P as most now are then at some point the Tor hidden server running I2P will log your Ip address which could be a source of a drive by exploit if the Tor hidden server is trying to plant a payload via Tor to a target computer.
+
+This is an invalid statement. An I2P router that is connected to an eepsite via its tunnels would not also be directly connected to the remote server, because it has no way of determining the IP of the remote server. The two servers *might* happen to connect by chance if they participate in the same tunnel (an occurrence which would be negated by the user enabling \"hidden mode\"), but there is **no way** (that we can imagine - research is of course welcome) to determine that an I2P router directly connected to a server as part of one set of tunnels is in any way related to a connection arriving at that server through a completely different set of tunnels. This is *exactly* what I2P is designed to prevent - the connection of a particular I2P tunnel identity to an actual IP.
+"""]]

@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-12-14T12:51:17Z"
+ content="""
+>> But the SSD disk have more disk space than advertized, which is swapped with the mapped region for wear levelling.
+
+> What percentage of advertised capacity is usual? Do you have a good reference for this?
+
+Sorry, no, never seen a number of what percentage is usual. But I suspect the manufacturers of SSD drives will state it somewhere in their specs.
+
+>> Some (most) SSD disks implement Secure Erase in such a way that all cells are erased (not simply overwritten), whether they are mapped or not (wear levelling).
+
+> Wait...when it comes to digital/electronic media of any type, isn't it the case that \"erased\" is overwritten?
+
+No, with flash memory you can erase a cell without writing new data to it. But I see I could have formulated my sentence better, hm.
+
+Of course if you can guarantee that a particular cell in a flash memory (which SSD disks use) is overwritten, the old data is \"erased\". But mostly you cannot because when you think you are overwriting a memory cell, you are in fact writing to another already erased memory cell that is swapped for the one you thought you overwrote.
+
+Flash memory works in such a way that a memory cell must be erased before any new data can be written to it. This cycle of erasing and writing new data is often refered to as reprogramming. See this Wikipedia article for more info (from what I heard NAND memory is that commonly is used in SSD disks and USB sticks and so on)
+
+https://en.wikipedia.org/wiki/NAND_flash
+"""]]

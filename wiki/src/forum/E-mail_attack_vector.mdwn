@@ -1,0 +1,2 @@
+I think I'm just being paranoid but better safe than sorry.
+Let's say someone tells you to send them a message at a given e-mail address. You try to send the message only to be told by your e-mail client that the address isn't valid (not malformed, just currently not in use). This would generate an error message, of course. Could this error in any way for ice-weasel(I only use web-mail) to reveal the user's IP address?

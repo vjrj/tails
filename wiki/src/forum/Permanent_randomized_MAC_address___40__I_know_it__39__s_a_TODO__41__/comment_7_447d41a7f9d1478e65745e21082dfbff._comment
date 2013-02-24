@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-20T23:04:41Z"
+ content="""
+@comment 4: Actually, after having looked a bit more into it, I would tend to agree. Apparently it doesn't work for wlan whereas eth works like a charm. Strange.
+My guess would be that the MAC address needs to be changed before the NM is up...
+I tried to stop the network-manager service, change the MAC address and then start the service again - without luck. But the funny thing was that I wasn't even able to reset the MAC address (-p) to the original and connect (this worked when only using ifconfig wlan0 down/up). Well...
+
+@comment 6: Ok, I'll try to look into a simple solution and make a suggestion when I have something to solid go on.
+"""]]

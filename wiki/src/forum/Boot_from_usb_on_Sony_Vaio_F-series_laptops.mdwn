@@ -1,0 +1,11 @@
+Has anyone got Tails to boot from usb on an F23-series Sony Vaio laptop? If so please post.
+
+Tails on a usb stick won't boot on Sony Vaio F23 laptop.  This uses an Aptio (2010) setup for the bios, accessed via F2.  Setting the boot order to external first in here alone just boots Windows. 
+
+I read somewhere that repeatedly hitting F11 during boot (after the boot order has been set) would force boot from usb, however all I get is "No operating system found".  At least then it looks like it's trying to boot from usb (thumbdrive led is blinking) I suppose but cannot find the kernel.  Is this one of those UEFI boot issues?  How do I fix?
+
+This Aptio setup doesn't bother to show individual devices.  There is only one setting in "Advanced" and that turns on simulation or virtualization or something, which makes no difference.   There are no "legacy boot", "disable SVM", or "new boot options" in this Aptio turd either, which may be tried in some other bioses to get usb booting working.  
+
+Just when I thought Linux would boot easily from usb on nearly all laptops, a major vendor like Sony has to go fuck it all hard in the ass by breaking things and de-featuring.  Then again, Sony always used to have a rep for being a PITA for Linux.
+
+There are no bios updates for F23-series on the Sony website.  Apparently there's an F1-series bios update that has *more* features than the F23 bios.

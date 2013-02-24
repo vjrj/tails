@@ -1,0 +1,18 @@
+Hi there
+
+New to using PGP and i'm having a little trouble- I've followed the instructions:
+
+System -> Preferences -> Passwords and Encryption Keys
+File -> New
+-> "PGP Key"
+
+and successfully generated a new key. Having exported the key to the home folder and opened as a text file, I've obtained:
+
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+followed by the rest of the block.
+
+There doesn't appear to be a public key block. Am I supposed to use this private key block as my public key?
+
+

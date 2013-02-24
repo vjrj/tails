@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-04T06:27:45Z"
+ content="""
+>I wish I could try to explain why a common mistake apparently made by many users of GPG is failure to try to secure their GPG keyring. Since the Tails documentation mentions GPG but doesn't explain how our adversaries try to subvert this essential crypto tool, I think that is a \"Tails-related\", but apparently too hot to handle at this forum. Too bad.
+
+FUD wrapped in rhetoric and served as a warning!? Trolling?
+
+>Some time ago I noticed that many crypto-using Debian packages (including encfs) removed options to use crypto other than AES, such as Camellia, Twofish, Serpent, Blowfish.
+
+Use LUKS or TrueCrypt ;o)
+
+>I wish I knew why. AES is fast and very widely deployed but the Rijndael algorithm has a property which worries many cryptographers, so it would be a very good idea to have alternatives ready to go. 
+
+Could you be kind enough to qualify your aspersions? Are you perhaps referring to the hypothetical algebraic attack(s) or related key attacks against the US NSA's own Rijndael subset, AES? As far as I'm aware, Rijndael (and even AES) is still well regarded and considered strong... although Serpent does, of course, continue to appear to offer a more appealing margin.
+>Best of all might be elliptic curve cryptography.
+
+Talk about a non-sequitur! lol
+Why have you flung an apparently irrelevant reference to a public key scheme into a musing about block ciphers? No mention of interesting modern (post AES) block cyphers like Lioness, Anubis, Grand Cru, Khazad, Noekeon...?
+
+"""]]

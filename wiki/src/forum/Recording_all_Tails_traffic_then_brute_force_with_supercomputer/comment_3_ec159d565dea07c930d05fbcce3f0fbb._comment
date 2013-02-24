@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-03T23:20:18Z"
+ content="""
+Tor uses pretty weak encryption. Including RSA 1024 while there is already 4096.
+
+How much people trust on Tor with their life... And they take years to upgrade encryption... They care more about server load and split servers for short time and not recognize that without strong cryptography it doesnt matter.
+
+@OP yes they can record it now and break it later. RSA 1024 can already be broken with supercomputer or is already broken or will be very broken soon. Once they broke it all anonymous communication from past is no longer anonymous.
+
+[look](https://lists.torproject.org/pipermail/tor-dev/2011-November/002999.html)
+
+[look again](https://gitweb.torproject.org/torspec.git?a=blob_plain;hb=HEAD;f=tor-spec.txt)
+"""]]

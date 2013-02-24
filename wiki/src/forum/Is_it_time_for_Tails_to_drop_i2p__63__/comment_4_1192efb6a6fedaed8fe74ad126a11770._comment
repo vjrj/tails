@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-11T04:57:13Z"
+ content="""
+It's important to remember that most of these high-profile vulnerabilities in Java relate to its use as a browser plug-in, which is disabled in Tails. It's not impossible that something similar might be achieved with a malformed i2p link, but that's speculative, and would still require that i2p actually be running at minimum.
+"""]]

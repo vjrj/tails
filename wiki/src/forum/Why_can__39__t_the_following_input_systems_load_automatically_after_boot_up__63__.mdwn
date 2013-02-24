@@ -1,0 +1,21 @@
+During the boot up process, if you choose one of the following languages:
+
+- Arabic
+- Farsi
+- Russian
+- Vietnamese
+- Thai
+
+You don't need to invoke the input switcher after booting into Tails OS. You can start typing any of the above languages right away.
+
+However, for the following languages that you choose during the boot up process, you have to invoke the input switcher.
+
+- Chinese
+- Japanese (incorporated into 0.14rc1.iso)
+- Korean (missing in 0.14rc1.iso)
+
+Why is that for the above 3 Asian languages, one has to manually configure the input switcher and the corresponding language module?
+
+Why can't they be incorporated into the Tails OS vis-a-vis Arabic, Farsi, Russian, Vietnamese and Thai?
+
+

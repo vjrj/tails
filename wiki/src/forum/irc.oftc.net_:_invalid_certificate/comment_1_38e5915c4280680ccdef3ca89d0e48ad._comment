@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-09T18:03:15Z"
+ content="""
+I can't reproduce it here. There's nothing we can do if one of the many OFTC servers has an expired certificate, unfortunately.
+
+"""]]

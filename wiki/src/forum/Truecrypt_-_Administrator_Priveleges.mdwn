@@ -1,0 +1,6 @@
+After booting from iso and choosing a password during tails greater intermission, i cannot login to Truecrypt as root nor start using the truecrypt which was invoked at startup : truecrypt program starts, but for validation of decryption, the amnesia user password asked after the truecrypt passphrase, is not recognised...
+
+
+result : password not working !!! and truecrypt is unable to become root ...
+
+Please help,

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-10T08:11:08Z"
+ content="""
+GoogleDNS or soon OpenDNS is [only used by ttdnsd](http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/ttdnsd.conf;h=8c78190700d56579dba3be6b5040367bc196dfa8;hb=refs/heads/testing), so yes, it goes through Tor.
+
+For the security check, it retrieves an atom feed. [See by yourself](http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/usr/local/bin/tails-security-check;h=48f86748296a15bd6e08d130eb1ff064fa8a92f7;hb=refs/heads/testing). And yes, through Tor, like every other outgoing connections in Tails.
+
+(And stop *bump*ing things like that. If the issue is important enough for you, please do your own research.)
+"""]]

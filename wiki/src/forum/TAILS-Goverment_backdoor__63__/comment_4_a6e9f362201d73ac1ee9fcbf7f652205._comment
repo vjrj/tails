@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-13T01:34:41Z"
+ content="""
+[Full disclosure: I'm writing a what-may-seem-to-be slightly extreme response to such a simple thread just to have a good answer to copy-paste into our future [[question-and-answer based forum|todo/improve_the_forum/]] for similar questions.]
+
+Let's say some evil governmental agency paid us Tails developlers handsomely to put a backdoor into Tails. Why would we tell you that we got *any* sponsorship in the first place? Why wouldn't we just keep on pretending that we're a 100% community-based project in which all infrastructural costs are paid from our own pockets and all development work is unpaid?
+
+It seems like finanical information about privacy-oriented projects tells nothing of value and just attracts [FUD](http://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt). Case in point: cryptome *leaks* the (publicly available) [Tor Project 2008 tax returns](https://lists.torproject.org/pipermail/tor-talk/2010-August/003098.html). Holy shit bats! [Mike Perry admits it's all a conspiracy](https://lists.torproject.org/pipermail/tor-talk/2010-August/003133.html)! :)
+
+On a more serious note, there are real-world relevant concerns about how sponsorship can affect a project like Tails (or Tor) adveresly. For instance, some sponsor may financially try to shift focus from what really matters to meaningless stuff. Extreme examples would be something like:
+
+1. Transforming Tails into the best possible environment for solving Sudoku puzzles.
+2. Converting Tor into a porn-only online delivery service.
+
+You'd do everyone a favour by investing your energy into whether this is happening instead of dreaming up conspiratorical scenarios of what *could* be in some spy-riddled fantasy world. If some entity is paying us off to put a backdoor into Tails it'd be done in a way so you'd be none the wiser by looking at *the financial details* no matter how transparent we *seem* to be. (At the moment we (claim to have) [[full disclosure|doc/about/finances]]; this year's numbers can be expected early next year.)
+
+Let's get real. **Investigating the code and comparing your [[self-built Tails images|contribute/build]] against those we [[distribute|download]] is the only real way you can know for sure if Tails is compromised**. If you cannot do it yourself, make someone else do it. We strongly encourage it; we've so far received dissapointingly few [[external audits|security/audits]]. :(
+
+Also see our page about [[trusting Tails|doc/about/trust]].
+"""]]

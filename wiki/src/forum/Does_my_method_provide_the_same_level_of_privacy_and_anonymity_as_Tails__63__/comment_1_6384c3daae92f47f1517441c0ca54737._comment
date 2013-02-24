@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-04T01:16:17Z"
+ content="""
+Sounds like half the battle... you've paid a great deal of attention to what is *removed*... applications installed, eliminating persistence, etc...
+
+You don't seem to have put much thought into the other side of the coin... the great deal of work that's *added* to Tails. Myriad carefully considered scripts, applications, configuration adjustments, etc... It's *that* work that makes a secure distro secure more than what's omitted. How do your iptables firewall rules compare to those of Tails for example?
+"""]]

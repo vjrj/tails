@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-11-12T00:41:28Z"
+ content="""
+>Setting location and changing time to anything other than utc is an erosion of anonymity! Please please read the tor docs, tails docs. TL;DR changing location and time settings is a bad idea, use a watch!
+
+Tor *requires* I set the clock by location and confirm at the bottom right hand side of the time/date dropdown area with my root password.
+
+If I do not set the location, all times (hwclock && date && date -u) are listed as the same and Tor gives me the error that my time has jumped and in previous versions it would end there preventing my use of Tor.
+
+Once location is set and the correct time is confirmed Tor does not give me this time jumped warning/halt.
+
+I follow with removal of the clock applet from the panel and the problem is solved with a quick killall gnome-panel which stops the panel from trying to connect to a .gov address as expressed in polipo's log file.
+"""]]

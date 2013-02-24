@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Wouldn't it be kinda obvious?"
+ date="2013-01-02T23:02:59Z"
+ content="""
+Allow me to share a vision in my limited expert's mind's eye. The solution seems kinda obvious - create a checksum of the objects to verify (the entire distro image or just critical parts ?), keep the checksum separate from the media carrying Tails. Perhaps the checksum could, and indeed needs to be converted into a human-memorable form ( akin to Brain Wallet solution for BitCoin only in reverse ), kept in the memory of the human user ( or at least on a separate from Tails media ) and applied either everytime Tails boots ( as a second passfraze ) or whenever the user feels the need. This is just a concept my limited expert's mind finds obvious , without going into technical details left to the more learned.
+  The second seemingly obvious solution is to encrypt the entire USB drive as I believe TrueCrypt and LUKS allow , which again as my limited expertise suggests
+would preclude successful modification of the USB content by an adversary.
+  As for the solution offered in comment 3 , it seems the realistic version of it would be to reinstall Tails afresh after every instance of the installation media getting in the hands of the adversary ( border crossing etc. ).
+  Critique at will.
+"""]]

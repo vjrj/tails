@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-28T19:26:55Z"
+ content="""
+Just to be sure: are you booting Tails from a USB drive?  (If you boot from a DVD drive, you cannot use the persistence features.)
+"""]]

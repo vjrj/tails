@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 158"
+ date="2012-10-26T14:14:34Z"
+ content="""
+> Tails Tor user does not help spread illegal porn.
+
+Well that's just not true. Tails COULD be used to upload illegal porn into tor's hidden services, but that's probably not the place of the developers of tails to moderate. 
+
+From what I've personally seen inside I2P, doubt that there's THAT much \"objectionable\" content. There ARE some known sites but the developers keep a filtered subscription list (of course there ARE alternative lits, and the lists are just for convenience ). the reality is there is no way to tell:
+
+* The contents of the routed traffic
+
+* The source of the routed traffic
+
+* The destination of the routed traffic
+
+So just like a tor middle node, you don't have any ability to say that you are or are not \"helping illegal activity\" . If you don't want to have participating traffic on i2p your effective level of anonymity is decreased a GREAT deal due to not being able to \"garlic\" your outgoing messages with incoming messages ( to \"garlic\" means to bundle N messages together into 1 message message so that message tracking is MUCH harder ).
+
+I2P and Tor provide different types of anonymity and IMO, not comparable in most ways. Tor's anonymity model is not the SINGULAR CORRECT model for anonymity, as there is no \"correct\" model for anonymity. Anonymity is NOT boolean.
+
+I am starting to think that this is just a troll... although , Hanlon's razor. 
+
+( \"Never attribute to malice that which is adequately explained by stupidity.\" )
+"""]]

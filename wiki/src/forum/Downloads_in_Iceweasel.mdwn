@@ -1,0 +1,3 @@
+I was downloading a file with IceWeasel when the download froze at around 90%. I waited for like 5 minutes, but the progress bar just wouldn't move, so I decided to pause and resume the download. I was getting an average of 50kb/s before the download froze, but after pausing and resuming I was getting around 400kb/s. 
+
+I think the reason for this is that I was connected to the website directly. What do you guys think?

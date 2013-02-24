@@ -1,0 +1,11 @@
+hi!
+this is a tip for people who want to be sure they will never access to the internal drives of the computer during a Tails (USB) session:
+
+1. "one shot": boot on the LiveUSB; from the boot menu, press the \<Tab\> key and add 'modprobe.blacklist=ata_piix,ahci' (without the quotes).
+
+2. "forever": on the partition where Tails is installed, modify the file syslinux/live.cfg (append the same parameter as above to the lines beginning by 'append').
+
+This tells the kernel to not automatically load the *ata_piix* and *ahci* modules if they are needed by a device. Maybe the list could be extended (in my case this is ata_piix, for one of my friends this is ahci, but I don't know what 
+it is for SSD drives). Note that this can be manually reverted by root with 'modprobe ahci'. I hope this can help others.
+
+cheers

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-10-29T13:28:35Z"
+ content="""
+@ comment 13
+
+> > somehow figure out that you may have used Tor to do this. Then they know that some people among that small group of Tor users did it, which bring them a lot closer to tracking you. If few people use Tor in your contry I strongly recommend using Tor bridges.
+
+> What if you live in a country with many Tor users but few Tails users? Wouldn't this pose a problem too?
+
+It may be possible to distinguish a normal Tor user from a Tails user by observing the traffic they send to the Tor Entry node. Hence it's better to try to avoid any observer to put you in the \"Tor or Tails\" category altogether by using Tor bridges to hide the fact that use use Tor or Tails.
+"""]]

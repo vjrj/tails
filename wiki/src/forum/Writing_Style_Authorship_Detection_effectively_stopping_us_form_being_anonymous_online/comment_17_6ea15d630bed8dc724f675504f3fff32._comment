@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-12-15T22:39:38Z"
+ content="""
+Skepticism is indeed warranted in this as in all claims by \"the authorities\", bearing in mind that (as many accomplished interrogators have admitted in moments of honesty) \"police work is 90% bluff\".
+
+I tried to post an extended comment briefly surveying what is known about the state of the art in this area, but it seems that the moderator didn't accept it. So I'll try again with a much shorter version:
+
+Good information about this topic is not readily available to the public, which is unfortunate. Some keywords to remember are \"stylometry\", \"statistical authorship detection\", \"authorial fingerprint\", \"de-anonymisation\" and \"re-identification\". (The last two will probably turn up many hits dealing with the related topics of combining \"anonymised\" census data, medical research data, or other highly sensitive \"anonymised\" data, with other information in order to recover the real life identities of the \"anonymous\" subjects, but some of the techniques used there are also relevant here.)
+
+On the basis of informed guesses and experimentation with powerful statistical tools, my feeling is that stylometry is potentially very dangerous, and I'd like to explain why
+
+There is some reason for thinking that massive systems which are effective in unmasking the real-life identity of every \"anonymous\" post in every forum on the internet are not yet widely deployed, but there is also reason to think that our adversaries are working on developing such monstrosities, and getting closer every day to fielding them. Or rather, working on incorporating effective \"stylometry\" attacks into existing global surveillance systems.
+
+Unfortunately, resisting stylometric attacks may be much harder than mounting them. Even worse, the short advice most likely to succeed is to post only very short comments expressing no original ideas. Which defeats the entire purpose of the frank and free discussion of issues which are important for our society. The only other practical tip I can offer today is to use a spell checker, but that helps little.
+
+I do think it is possible to provide software tools which can warn users before they post about statistical features of their draft post which could be used to harm them, and this would have considerable value (but might also do harm by further \"chilling\" the willingness of citizens to speak honestly in public on issues of importance to them, under cover of anonymity). I fear that providing tools which give good advice on specific changes intended to blunt dangerous statistical features may be much harder. But I know of few topics in the area of privacy which are more important for privacy researchers to address.
+
+> people getting caught
+
+In my opinion, you should always take the trouble to phrase such comments to make clear that you are talking about something that many people may feel is legitimate (like Egyptian citizens legally protesting against President Morsi apparently grabbing for autocracy) rather something which most people would find objectionable (I am sure everyone can think of some examples of that).  The reason why is that whether or not \"Tails\" is willing to admit it, forums like this are in constant danger of being shut down next year or even next month on the basis that some internet cop has persuaded his government that it is used \"primarily to promote illegal activity\".  Such a claim is clearly false but it is all too easily available to our enemies if we do not express ourselves carefully.
+
+Or in different words: Tor is a potentially powerful tool, and we need to constantly urge other users to try to use it judiciously, not for stupid things which could prevent citizens from protesting against things like future grabs for autocracy in their own countries.
+"""]]

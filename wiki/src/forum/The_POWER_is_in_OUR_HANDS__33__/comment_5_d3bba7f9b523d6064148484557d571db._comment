@@ -1,0 +1,49 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-10-30T04:06:29Z"
+ content="""
+>and seriously, what the fsck is up with Microsoft and Flash both having so many remote exploits being patched all of the time?
+
+Surely you must be aware of how many exploits are continually discovered and patched for *FLOSS* (Free, Libre, Open Source, Software) products?
+
+lwn.net posts security advisories for the major distros daily. A while back there was a day on which LWN found no security advisories to post. LWN found this newsworthy, noting that it was extremely rare or perhaps even unprecedented.
+
+>Our proprietary hardware and software are both at risk
+
+So is FLOSS.
+
+http://spaf.cerias.purdue.edu/openvsclosed.html
+
+Some quotes from Gene Spafford (from circa 2000-2002):
+
+>The thrust of my position is that security is an absolute property that must be designed in from the beginning, coded with care, and enforced throughout the software development lifecycle. This embodies a set of issues that are orthogonal to whether the source code is open or not -- it depends on training, design, and use of appropriate tools. Thus, the nature of whether code is produced in an open or proprietary manner is largely orthogonal to whether the code (and encompassing system) should be highly trusted.
+
+[...]
+
+>We often hear debate about which is more secure: open source or proprietary source. Each side makes arguments and refutes the arguments of others. In truth, neither is correct (or both are). Whether or not source is proprietary does not determine if the software is better. 
+
+[...]
+
+>From this standpoint, few current offerings, whether open or proprietary, are really trustworthy, and this includes both Windows and Linux, the two systems that consistently have the most security vulnerabilities and release the most security-critical patches. 
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+>People like to poke and laugh at people like RMS who are sane and their visions a philosophy to stand by and build upon.
+
+You do realize, don't you, that (last I checked, anyway) that *neither Debian nor TAILS* are among the few GNU/Linux distros that make the Free Software Foundation-approved list?
+
+>Oh, and you can kiss my ass Republicans and Democrats, whose power is only illuminated by controlled corporate media
+
+I think it's pretty empirical that the Republicans and Democrats are little more than two wings of ONE party: that of the ruling corporate-military elite. And that the mainstream corporate media does indeed serve and protect these elite interests. (including NPR and PBS). 
+
+>illuminati Family Guy show
+
+This is where most people -- even those who appreciate your first point about the utter farce that is the idea that we have a functioning democracy in the U.S.-- start rolling their eyes and tuning-out. 
+
+\"The Illuminati\", huh?
+
+Let me guess: Next you're gonna tell us about the Bilderbergers, the Trilateral Commission, etc., et al....
+
+Am I right?
+"""]]

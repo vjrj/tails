@@ -1,0 +1,7 @@
+By using Tails, you'd automatically be using Tor. Now, since my ISP sees my requests to the inital Tor node they can know for sure I am using Tor. Same holds true for the websites I access using Tor, because they get the page request from a Tor exit node.
+
+So "They" know I am using Tor, but how can "They" know I am using Tails? 
+Does Tails use Tails specific Tor nodes?
+Or is it because of the way IceWeasel is configured? Do websites have the ability to tell between properly spoofed useragents and real useragent information?
+
+Thanks.

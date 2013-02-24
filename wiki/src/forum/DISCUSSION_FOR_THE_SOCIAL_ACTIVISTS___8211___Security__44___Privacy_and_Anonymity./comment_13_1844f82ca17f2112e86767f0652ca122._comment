@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-10-28T14:27:23Z"
+ content="""
+> somehow figure out that you may have used Tor to do this. Then they know that some people among that small group of Tor users did it, which bring them a lot closer to tracking you. If few people use Tor in your contry I strongly recommend using Tor bridges.
+
+What if you live in a country with many Tor users but few Tails users? Wouldn't this pose a problem too?
+"""]]

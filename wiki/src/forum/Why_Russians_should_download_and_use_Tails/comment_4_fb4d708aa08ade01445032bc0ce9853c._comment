@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-02T18:10:05Z"
+ content="""
+You are in Russia, are using Tor, but not in bridge mode?
+
+Good news, maybe, but I hope some sophisticated Russians will quietly investigate the possiblity of state-sponsored MITM attacks (or other attacks) on Tor traffic (i.e. by entry nodes, or between the user and the entry node).
+"""]]

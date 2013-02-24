@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-20T09:27:05Z"
+ content="""
+>but nothing you do in software has any permanent effect on the network card
+
+u r wr0ng.
+
+google: network card rootkits pci
+
+many attacks against cards including rewrite of firmware to add malware
+"""]]

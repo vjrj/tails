@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-28T05:40:54Z"
+ content="""
+>I have not investigated Whonix thus far, but my guess for a hardware serial number would be, for example, the Processor Information ID output from the dmidecode command.
+
+Linux has many tools that provide information about your hardware and software. Do you have any evidence (using wireshark or any other packet sniffer) that an adversary  can use any of these tools or access this information, or that Tails is leaking this information?
+
+We need to stay focussed on what an adversary can actually get from your machine rather than what is available to you. 
+"""]]

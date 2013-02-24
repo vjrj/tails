@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-29T09:01:07Z"
+ content="""
+start Tails and set a root password. Then download the installer (.deb is the right one). Suppose you save it in /home/amnesia. Open a terminal and type \"sudo dpkg -i /home/amnesia/mullvad_34_all.deb\" and press enter, you will be asked for the password. If no dependencies are needed, you're done ;-)
+"""]]

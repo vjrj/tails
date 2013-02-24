@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-01T06:49:23Z"
+ content="""
+It is not about you *being a noob*, it's about Tails missing proper support for Apple hardware. There's [[work to be done|todo/UEFI]] before Tails can be booted easily on Macs.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-18T04:38:02Z"
+ content="""
+I'd store it to a USB stick, yeah. I mean, the Tails ISO is miniscule compared to other Linux distros. 800 MB, was it?
+
+Regarding wget, what would happen if you omitted the \"torify\" part? From what I gather, Tail routs all traffic through Tor, so why would you need to torify anything? Isn't this one automatically? 
+"""]]

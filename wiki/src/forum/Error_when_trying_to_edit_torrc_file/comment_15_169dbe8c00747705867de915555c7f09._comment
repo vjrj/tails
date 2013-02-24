@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2013-01-30T17:45:15Z"
+ content="""
+>I spoke too soon, it seems that Tor under Tails 0.16 is ignoring the new torrc after all.
+
+WFM. If you're successfully editing the torrc file (and not being hindered by bug [6147](https://trac.torproject.org/projects/tor/ticket/6147)) then you're probably forgetting to restart Tor after making your edits, or something straightforward like that. Have you re-started Tor, then re-edited the torrc to check your original edits \"stuck\"?
+
+
+@12:
+
+#**USING LARGE TYPE AND/OR ALL-MAJUSCULES IS GENERALLY READ AS SHOUTING. SHOUTING AT PEOPLE IS GENERALLY CONSIDERED BAD FORM. YOUR POSTS HERE WILL BE READ REGARDLESS OF THE TONE IN WHICH THEY ARE PRESENTED BUT POSTS WHICH STRIKE THE READER AS UNCOUTH ARE UNLIKELY TO RECEIVE THE TYPE OF RESPONSES YOU PROBABLY MEAN TO SOLICIT. TERMINATING AN IMPETUOUS SHOUTY POST WITH 'THANKX' MAKES YOU APPEAR SARCASTIC AND HYPOCRITICAL ON TOP OF IMPETUOUS AND UNCOUTH. PLEASE ATTEMPT TO CONDUCT YOURSELF WITH A LITTLE DECORUM. THANKX**
+"""]]

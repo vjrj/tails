@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-11T10:39:29Z"
+ content="""
+>Please try to look at Tails source code by yourself before asking such questions.
+
+I'm not a programmer.
+
+>The files that are being cached (= loaded in memory) are the one needed to be able to continue the shutdown (or reboot) sequence after the system media (DVD or USB stick) has been removed.
+
+The system media (in my case, DVD) does not eject during shutdown. It has ejected a few times but usually does not. Is this a problem? TY
+"""]]

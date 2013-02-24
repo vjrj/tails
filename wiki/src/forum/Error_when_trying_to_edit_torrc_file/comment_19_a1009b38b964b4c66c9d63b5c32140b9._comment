@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2013-01-31T15:13:06Z"
+ content="""
+> How can the patch mentioned in the link you provided be applied ?
+
+The road to building a patched version of Vidalia yourself is going to be long and hard, if you're starting at learning to apply a patch. I'm very happy if you walk this way, learn how to do it, and report back here, *but* sorry: I'm not going to lead you along the way. Good luck, and happy learning!
+
+> Can you also fix this bug in upcoming releases of Tails?
+
+We'll have the fix once uptream releases it.
+
+> Could you also please address node selection issue raised by previous commenters?
+
+I see nothing in there but the Vidalia bug we're discussing, and wide considerations about the Tor network that are important, but not Tails' job to fix.
+
+To end with, please take it into account when people explain you how the way you're posting may be interpreted.
+
+"""]]

@@ -1,0 +1,25 @@
+Problem:
+- Tails USB Installer fails to clone & install on USB
+- Claims not enough space is available
+- Creates a partition of 1497MB, leaving the rest as unallocated space
+
+Extra information:
+- I have tried on 4 different USBs all 4GB-8GB
+- Have tried formatting (not quick format) in FAT, FAT32 and RAW before trying Tails USB Installer
+- This problem was encountered while running Tails version 0.12.1
+
+Error Log from Tails USB Installer:
+
+Some partitions of USB device /dev/sdb are mounted. They will be unmounted before starting the installation process.
+Resetting Master Boot Record of /dev/sdb
+Warning: All data on the selected drive will be lost.
+Press 'Next' if you wish to continue.
+Unmounting /dev/sdb
+Formatting /dev/sdb1 as FAT32
+Verifying filesystem...
+Setting /dev/sdb1 label to Tails
+Not enough free space on device.
+1523MB ISO + 0MB overlay > 1497MB free space
+LiveUSB creation failed!
+Not enough free space on device.
+1523MB ISO + 0MB overlay > 1497MB free space

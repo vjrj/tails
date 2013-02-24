@@ -1,0 +1,5 @@
+I am using VMware Workstation and even though I have Tails on USB;sometimes I am booting from the VMware so that  I won't reboot.
+
+Whenever I shutdown; I hear a beep (The computer beep). Is there any way to avoid that?
+
+(I have other Linux VMs and they don't do this so I thought it may be a setting in Tails instead of VMware)

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-20T17:21:00Z"
+ content="""
+I haven't been able to stay connected to a vpn through tor. It will succeed, then disconnect me not that long after. Probably a routing problem as everything should go to tun0 exept tor traffic that should go directly to the internets..
+
+Anyone here know why it's not possible to change the socks proxy port in tor browser inside tails, hence not possible to use an ssh socks proxy as a fixed exit node?
+
+Has it been designed on purpose? How does that work? I mean why even if it's changed the traffic goes through tor?
+
+Can't find anything about that in the docs... That would be the perfect/easieast solution for OP...
+"""]]

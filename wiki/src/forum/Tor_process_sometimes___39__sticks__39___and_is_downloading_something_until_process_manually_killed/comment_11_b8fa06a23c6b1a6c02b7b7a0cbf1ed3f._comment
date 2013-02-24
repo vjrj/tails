@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Zombie processes after exit TorBrowser"
+ date="2012-10-15T04:21:05Z"
+ content="""
+I wrote the last two posts. Just to be clear, I'm talking about when I exit TorBrowser from Vidalia. If I remember correctly the process often remains locked for a long time. I noticed because it is on a TrueCrypt partition that I have to unmount before I can shutdown. The partition won't unmount until I kill Vidalia. Filesystem is ext (not sure which version).
+"""]]

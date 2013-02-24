@@ -1,0 +1,9 @@
+I have taken all the proper steps installing Tails onto a 1TB hard drive. I hit F12 during boot, select USB HDD, Tails screen appears, I choose Live, Loading, Please Wait...a command line into a three colored (white,light blue,dark blue) bar appears right to left, it ends with an entire white bar and the words Debian 6.0.6 highlighted white. The screen remains frozen.
+
+When attempting the same first steps and choosing to load in Live(failsafe) option I am stuck at the first "Loading, Please Wait..." with no continuation to colored bar.
+
+I used the USB Installer recommended from the Tails site.
+
+Any help would be great.
+
+Thanks.

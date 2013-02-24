@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-23T21:29:02Z"
+ content="""
+I think the Tor Project believes that the option to disable cookies or to enable session-only cookies for particular sites is \"redundant and obsolete\".  But I don't understand why, and I hope Tails developers will check that cookies cannot in fact be set by sites like the jondos tester.
+"""]]

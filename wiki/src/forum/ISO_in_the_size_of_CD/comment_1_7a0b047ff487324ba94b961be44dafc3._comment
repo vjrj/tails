@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-24T18:50:15Z"
+ content="""
+> Is there a way to remaster the ISO to CD size?
+
+Yes, but this won't be Tails anymore. This will be a fork.
+See [[contribute/build]] and <http://live.debian.net/>.
+
+> I have difficuty in finding the source code for the distro,
+
+See [[contribute/git]].
+
+> and some of applications in the ISO seems to be not very usfull for the purpose.
+
+I think you lack some information about *the purpose*. See [[contribute/design]] for details.
+
+"""]]

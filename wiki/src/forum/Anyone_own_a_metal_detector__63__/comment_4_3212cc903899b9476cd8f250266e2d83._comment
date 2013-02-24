@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-21T10:27:13Z"
+ content="""
+>Why do you want to hide the media?
+
+RE: OP: To prevent it being discovered I'd imagine. I'm very interested to see (actually pertinent) answers to this too.
+
+RE: Comment 1: God knows. The mind boggles!
+
+The remainder of this comment pertains to OP, as, I hope, will at least some of the other comments to this thread! :-|
+
+>If you are afraid of someone figuring out what you got on it you should use full disk encryption on it.
+
+And where would you keep your backup keyfiles/headers etc?
+
+>Alternatively if you need plausible denialability you should combine encryption with steganography.
+
+Do you know of a probably effective steganography application? Is it more reliable and robust than off-the-premises backup?
+
+>If you are afraid of losing the data in a raid or similar, upload an encrypted backup to some filehosting service somewhere.
+
+Where do you safely and securely store the relevant url, account credentials, etc? What happens when the chosen website disappears?
+
+>Anonymously of course so no one watching you connection sees that you done so.
+
+How do you *guarantee* online anonymity? Tor? Jap? Freenet? Freenet over Jap over Tor? Has any of these methods ever been *proven* effective?
+
+>I wouldn't count on hiding, it sound like a bit weak way to protect something against whatever you are trying to protect it against.
+
+You don't know what the problem is yet you know the solution? I wish I could do that!
+
+>I mean, if you are suspected you are probably doomed anyway, so better not attract the attention.
+
+That's the spirit. We should all roll over and succumb to totalitarianism. Resistance is futile.
+"""]]

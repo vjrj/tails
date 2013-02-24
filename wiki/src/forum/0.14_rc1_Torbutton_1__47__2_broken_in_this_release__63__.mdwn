@@ -1,0 +1,5 @@
+>https://tails.boum.org/news/report_2012_10/
+
+>What should have been an easy update to the next "Entreprise Stable Release" of Iceweasel (Debian unbranded Firefox) left us cold with a half-working Torbutton. This required us to hurry on fixing this standing problem: we now have our own APT repository and a custom Iceweasel package which includes TorBrowser patches for anonymity.
+
+Does 0.14 rc1 retain this issue and if so to what degree is anonymity broken? Should I return to 0.13 until 0.14 final?

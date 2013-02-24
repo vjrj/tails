@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-24T16:44:27Z"
+ content="""
+> I was wondering if there was any way to make something like a new app installation permanent?
+
+* Best that exists already: [[doc/first_steps/persistence]]
+* Some day: [[todo/remember_installed_packages/]] (help is welcome)
+
+> Also, every time I run it, I have to re-enter my keyboard local. Is there also a way to make settings changes permanent?
+
+Not yet: [[todo/allow_choosing_language_at_installation_time]].
+
+"""]]

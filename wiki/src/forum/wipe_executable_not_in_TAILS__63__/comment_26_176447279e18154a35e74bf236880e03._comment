@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Or in short: try shred"
+ date="2012-10-18T00:13:14Z"
+ content="""
+Assuming you want to securely remove a file on hard drive, presumably created in a persistent volume while using Tail, and assuming you are using Tails 0.13, then try the equivalent utility, shred.  In a konsole (shell) type \"man shred\" to see the man page.  If you have a file you want to wipe, try typing \"shred -zuvn2 filename\" in the directory where the file is located.  
+
+I just tested this with a file created in RAM while running Tails off the DVD. Shredding it was probably pointless, but the command did work.
+"""]]

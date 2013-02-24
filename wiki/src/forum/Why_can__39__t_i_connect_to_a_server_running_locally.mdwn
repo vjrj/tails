@@ -1,0 +1,13 @@
+I have set up a local IRC server as a hidden service but cannot get it to connect. I keep getting Connection refuse error, no matter if I use Pidgin or terminal or Irssi.
+
+In Terminal
+
+nc localhost 6667
+localhost [127.0.0.1] 6667 (ircd) : Connection refused
+
+In Irssi
+Connecting to localhost [127.0.0.1] port 6667
+15:21 -!- Irssi: Unable to connect server localhost port 6667 [Connection refused]
+
+In Pidgin
+Unable to connect: Connection refused

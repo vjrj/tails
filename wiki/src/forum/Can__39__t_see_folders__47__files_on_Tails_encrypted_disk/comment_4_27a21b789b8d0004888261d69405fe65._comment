@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-06T09:30:04Z"
+ content="""
+> In which other OS I can try to retrieve the files.
+
+In any modern Linux distribution it should be a matter of plugging in the USB stick, get a notification that a USB storage device has been connected, select the `TailsData` storage and enter the encryption passphrase. 
+"""]]

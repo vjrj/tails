@@ -1,0 +1,116 @@
+I hope the moderator will allow this thread offering some information on an important development in Russia.
+
+I fear that for many in Russia I may be posting this one day too late, but here goes:
+
+If you live in Russia, you may or may not know that today the new universal population surveillance system teeing all packets for monitoring using Deep Packet Inspection (DPI) has begun national operations. 
+
+Here are two must-read overviews of what it is all about:
+
+* http://www.wired.com/dangerroom/2012/11/russia-surveillance/all/
+* http://www.brookings.edu/research/papers/2011/12/14-digital-storage-villasenor
+
+The Russian system is similar in its overall conception to analogous systems used in "Western" nations (tee everything to a special surveillance system, filter on the fly, store "interesting" packets for later analysis), but unlike the US system its existence has been officially acknowledged.
+
+The Wired article obliquely refers to the company which supplies the DPI equipment:
+
+    Allot Communications
+    22 Hanagar St
+    Industrial Zone B
+    Hod Hasharon
+    45240
+    ISRAEL
+    Tel: +972-9-761-9200
+    Fax: +972-9-744-3626
+    www.allot.com
+
+Allot has an office in the US near the headquarters of US intelligence agencies:
+
+    Allot Communications Inc
+    7664 Golden Triangle Dr
+    Woburn, VA
+    USA
+
+Allot's North American headquarters are in Eden Prairie, MN.  It has offices in various other nations as well.
+
+Some more basic data about Allot:
+
+    CEO: Rami Hadar
+    CTO: Jay Klein
+    VP, Operations: Pini Gvili
+    Founded: 1996
+    Employees: 250
+    Annual revenue: USD 41.75 million, in 2009
+
+The DPI device used in the Russian system may be the product Allot calls NetEnforcer:
+
+> NetEnforcer enables intensive tracking and regulation of Internet traffic - so-called "deep-packet inspection" of networks. It allows administrators to track e-mail correspondences, text messages, the physical location of cell-phone users and Internet usage history.
+
+Allot was widely criticized when it was recently discovered that it had sold NetEnforcer devices to Iran through another cutout, RanTek.  This story was reported in December 2011 by Bloomberg News, Business Week, ZDNet, Haaretz, and other mainstream news media outlets.  The sales apparently began in 2006 or earlier.  
+
+Allot initially denied the reports, but the reporters presented a data trail which led through Denmark, and Allot then offered a new story: it thought RanTek was going to use the gear in Denmark.  But RanTek's stated business model is import/export in Iran, so Allot's claim of ignorance of the intended end-user seems dubious at best.
+
+Not surprisingly, many Israelis were perturbed to find that an Israeli company has been aiding the current government of Iran in suppressing domestic unrest, and were not happy when Allot stated that it has no "kill switch" which would enable it to turn of its equipment in Iran.
+
+The company's stock price fell after the negative news reporting.
+
+
+In the USA, an electrical power distribution company, Schneider Electric Industries, uses NetEnforcer.  From an interview with Schneider's network manager:
+
+> Allot’s NetEnforcer provides Deep Packet Inspection (DPI) on the content of traffic sessions and monitors every connection, traffic flow, protocol and port. These capabilities help identify suspicious network behavior, alert administrators to the potential of malicious worms and viruses and activate policies to block this unwanted traffic. NetEnforcer can also issue alerts and take corrective action when activity suggests that the network is under a Denial of Service (DoS) attack.
+
+From an Allot press release:
+
+> Allot solutions apply deep packet inspection (DPI) technology to transform broadband pipes into smart networks. 
+
+Allot touts its particular expertise in decrypting and monitoring VOIP calls.  Some of the corporate acquisitions of Allot are revealing.  A few years ago, they bought Esphion, a company which provides behavioral analysis of web users.
+
+NetEnforcer also throttles the bandwidth of "deprecated users":
+
+> Those fighting to protect the privacy of web users oppose the idea of a provider that looks at the content users are consuming in order to prioritize resources with the aid of systems like that of Allot. As such, penetration of this technology is slower in the US than in Europe.
+
+In Russia, Allot gear is sold via Allot's Russian reseller:
+
+    RGRCOM
+    Business Park “Rumyantsevo”
+    1 Kievskoe Rd., 2-nd entrance, office 715A
+    142784, MO, Russia
+    rgrcom.ru
+
+    Founded: 2003
+
+RGRCOM is also involved in building Russia's "smart grid".
+
+Here are some more numbers useful in understanding the Brookings paper:
+
+Units:
+
+* 1 byte = 8 bits
+* 1 KB = 10^3 bytes
+* 1 MB = 10^6 bytes
+* 1 GB = 10^9 bytes
+* 1 terabyte TB = 10^12 bytes
+* 1 petabyte PB = 10^15 bytes 
+* 1 exabyte EB = 10^18 bytes
+* 1 zettabyte ZB = 10^21 bytes
+* 1 yottabyte YB = 10^24 bytes
+
+Examples:
+
+* 3.3 GB: audio of all phone calls made by one person over one year
+* 10 TB/day: data processed by NSA/CSS Aerospace Data Facility (during 2004)
+* 13 TB: 1 year of 30 fps high-definition video, one camera
+* 20 TB: all text held at the Library of Congress
+* 120 TB/year: 30 fps high definition video, one camera
+* 1.5 PB: all Facebook photos
+* 20 PB/day: data processed by Google Maps (during 2010)
+* 150 PB/year: audio of all phone calls made by everyone in Iran
+* 200 PB: all text ever produced by human beings to date
+* 6 EB/year: all data streams produced by US consumers
+* 10 EB/year: entire land surface of Earth imaged every minute at 10 cm^2 resolution
+* 120 EB/year: 30 fps high definition video, one million cameras (e.g., Chongquing network)
+* 1 ZB/year: all data streams in entire internet
+* 1 YB/year: NSA data processing requirements by 2015
+
+(Estimates vary widely; these figures mostly come from sources cited in Wikipedia.)
+
+To use Tails in Russia, almost certainly you will need to enable Bridge mode; see <https://tails.boum.org/doc/first_steps/startup_options/bridge_mode/index.en.html>

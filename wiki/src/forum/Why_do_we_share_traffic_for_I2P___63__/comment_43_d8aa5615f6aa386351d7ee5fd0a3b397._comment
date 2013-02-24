@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 43"
+ date="2012-10-21T08:09:26Z"
+ content="""
+No one has said I2P starts when you boot Tails?
+
+What is being said is when you click and start I2P from the menu it starts in full server relay mode which means your computer is now acting as a data relay for the I2P network so anybody accessing or hosting illegal content is being passed to your computer which you act as a mask for and you act as the middle man passing the data between them.
+
+Tor doesn't start in server relay mode so I2P shouldn't be doing the same when you start it.
+"""]]

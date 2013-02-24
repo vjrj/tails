@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-04T02:26:31Z"
+ content="""
+>I want to save defenitions for my screen .
+
+Assuming you don't mean resolution - which should be automatic...
+
+There's nothing wrong with saving configuration info. My startup script installs a custom theme Every time I boot into Tails... is that the sort of thing you mean?
+
+Please list precisely which settings you'd like to persist and we'll be able to tell you which files/folders you'll need to save/restore.
+"""]]

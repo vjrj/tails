@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-29T18:32:41Z"
+ content="""
+> What you would like to have is called \"nested virtualization\". See #4032 on VirtualBox bugtracker.
+
+Bummer :( Doesn't look like they have any plans to address it soon.
+
+> If you go to the Windows route, please report your findings. It might be helpful to other Tails enthusiasts.
+Sure.. Will give it a shot and post here.
+
+Thanks for your help
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-21T18:18:47Z"
+ content="""
+What I described in the OP has continued throughout these past five months or so.
+
+It happens *each and every time* after I've been using **Tails** but at most *rarely* with any other OS.
+
+The LEDs on the router continue indefinitely until I shut it down-- usually no more than several minutes after shutting down Tails.
+"""]]

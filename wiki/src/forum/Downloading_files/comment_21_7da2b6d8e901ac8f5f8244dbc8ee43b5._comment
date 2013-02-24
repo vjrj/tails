@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2012-11-04T05:22:13Z"
+ content="""
+>I assume that the player in TAILS would protect against this?
+
+I don't remember *any* FOSS video player *ever* doing this by default. Only the player the Microsoft Corporation bundles into its OS.
+
+Not that it'd really matter if the Totem devs suddenly decided to borrow this leaf or two of evil from Microsoft's book. The (doesn't happen in Tails) pop-up would be routed over Tor anyway ;o)
+"""]]

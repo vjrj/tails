@@ -1,0 +1,7 @@
+  When booting from USB stick, I would like Tails to remember my settings for overall appearence. For instance, I like the appearance (GUI, icons, wallpapers) of Linux Mint. I have downloaded some beautiful wallpapers & icon-sets from http://linuxmint-art.org and want to add them to my Tails USB installation.  
+  Looking for the folders that contains Tails' wallpapers and other appearance settings, in the file browser, I notice that most folders have the 'locked' symbol next to them. I assume so an attacker cannot alter them over the network via intrusion.
+  These may be stupid questions but:
+
+1)  is there a way I can alter these locked folders and have my Tails beautified-at-startup without an attacker being able to alter them also?
+
+2)  If i can, will icon-sets or Themes from a different distro of Linux work in Tails (once I find where to put them/where their settings are stored)?

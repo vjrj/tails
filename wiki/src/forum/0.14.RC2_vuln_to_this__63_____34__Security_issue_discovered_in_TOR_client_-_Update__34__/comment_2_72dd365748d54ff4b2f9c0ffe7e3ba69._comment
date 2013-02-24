@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-10T08:55:56Z"
+ content="""
+>a clean shutdown on Tails will wipe the memory anyway.
+
+Agreed. When one quits Tails, a sequence is invoked which initiates a wiping of memory before the PC shuts down.
+"""]]

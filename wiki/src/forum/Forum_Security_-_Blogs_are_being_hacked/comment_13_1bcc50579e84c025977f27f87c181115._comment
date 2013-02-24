@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not &quot;hacking&quot;, &quot;collaborating&quot;"
+ date="2012-09-19T06:46:29Z"
+ content="""
+Tails has always been a community project. It is the product of a process known as collaboration. The fundamental principle of \"collaboration\" is that the more people who contribute, the greater will be the effect. This concept is equally applicable to every aspect of the project: code, ideas, documentation, bug reporting, translation, etc. The website is openly **editable** to anyone. The community has been trusted to use this wisely and, in general, has done so. However **all** edits are tracked and managed in a system called Git and are reviewed and sometimes undone. Being *open* like this, anyone has been able to contribute ideas, documentation, translations, and all the other good stuff that those who bother to read the site can find there. This has been good. It has resulted in the Tails we have today. The more untenable (and, frankly, lunatic) you (and others like you) make this concept appear, the more *closed* Tails will become. It will therefore become more difficult to contribute and less of a \"community\". This will be bad for Tails. It is saddening. Well done you.
+"""]]

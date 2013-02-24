@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-06-24T11:16:15Z"
+ content="""
+After getting the Boot error, try Ctrl-Alt-F7 to continue booting.
+
+This worked for me, however, I had a plop boot manager CD in the system at the time and selected USB to get it to boot - i.e. my system is a circa 2005 P4 Intel MB system and I always need to have a CD in the system to boot from a USB.
+
+"""]]

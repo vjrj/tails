@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-17T05:02:41Z"
+ content="""
+>As I understand, TAILS does - after booting the PC - immediately try to connect the TOR network and therefore my advisory does know that I am using TOR :-(
+
+Who is \"my advisory\"?
+
+Does he/she/it have access to your ISP and the ability to persecute for using tor?
+
+If you don't wish to use the network it would be prudent to refrain from physically connecting to it.
+
+If you wish to use the network but must insist on doing so without privacy/anonymity, you might be better off looking at other live distros. Ubuntu perhaps?
+"""]]

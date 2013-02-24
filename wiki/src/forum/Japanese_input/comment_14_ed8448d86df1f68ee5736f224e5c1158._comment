@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-10-27T14:44:07Z"
+ content="""
+> If you're using plaintext, that should be fine. 
+
+Thanks. If I go to terminal and type vi test, write whatever it is that I want to write and save the file, is the the text in plain text?
+
+What about font rendering? On Tails 0.13 you can access Japanese websites, but the text looks a little bit weird.
+"""]]

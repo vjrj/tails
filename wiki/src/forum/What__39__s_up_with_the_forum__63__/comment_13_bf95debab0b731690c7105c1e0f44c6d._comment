@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-09-12T16:23:59Z"
+ content="""
+> It did work! It's the current mtime (\"Updated\") data which is at fault... the age (\"Started\") remains correct. Please have another (good) look.
+
+Let me quote from [the commit that reverted this change](http://git.immerda.ch/?p=amnesia.git;a=commit;h=dc0bc791231aa4d967b3d4820e08ec1c92b44d76):
+
+    A quick look at the RecentChanges page is enough to show this \"de-shuffling\"
+    does not work.
+
+And that is what I did. I compared the by \"age\" sort to what's seen in [[recentchanges]]. Threads were not always bumped. It all looked very random.
+
+Just bear with this hack of a forum for a little while longer. We're moving to a proper system Soon™.
+
+> Does sorting by age rather than mtime really make that much of a difference to load?
+
+Apparently it turned out to be an easy DoS attack :). At least that was what I was told by people with access to that information.
+"""]]

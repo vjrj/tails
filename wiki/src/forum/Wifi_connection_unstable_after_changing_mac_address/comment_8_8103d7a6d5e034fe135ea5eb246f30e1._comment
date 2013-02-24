@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-20T22:36:58Z"
+ content="""
+Original poster here - I always disconnect from all networks before changing the mac address. so that isn't the problem. 
+
+I'm not screwing up the mac changing process, either: 
+
+# ifconfig wlan0 down
+# macchanger wlan0 -e
+# ifconfig wlan0 up
+
+This issue remains consistent across the two Tails versions I've used (0.13 and 0.16). After changing my mac address in 0.16, I am not able to connect to secured networks at all. I am asked repeatedly for the password without ever succeeding in connecting. Strangely, I am able to connect to unsecured networks just fine. 
+
+I am not sure if this is a Tails bug or if it's user error. In any case, a solution would be much appreciated. 
+"""]]

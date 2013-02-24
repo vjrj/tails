@@ -1,0 +1,40 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-30T05:55:14Z"
+ content="""
+Thanks for this thread, it's exactly what I was looking for. I am having some issues and hope you can help me clear a few things up.
+
+On the install it says I need to install other things to make the Mullvad install work.
+
+1. python-wxgtk2.8
+
+2. Open VPN
+
+There are a few options for both of these and I'm unsure which one I should install.
+
+Here is the Open VPN page: http://openvpn.net/index.php/access-server/download-openvpn-as-sw/113.html?osfamily=Ubuntu
+
+Ant the Python page: http://packages.ubuntu.com/search?keywords=python-wxgtk2.8
+
+And here is hte full message I got in case it's helpful: $ sudo dpkg -i /home/amnesia/mullvad_34_all.deb
+[sudo] password for amnesia: 
+Selecting previously deselected package mullvad.
+(Reading database ... 97700 files and directories currently installed.)
+Unpacking mullvad (from .../amnesia/mullvad_34_all.deb) ...
+dpkg: dependency problems prevent configuration of mullvad:
+ mullvad depends on python-wxgtk2.8; however:
+  Package python-wxgtk2.8 is not installed.
+ mullvad depends on openvpn; however:
+  Package openvpn is not installed.
+ mullvad depends on python-appindicator; however:
+  Package python-appindicator is not installed.
+dpkg: error processing mullvad (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for hicolor-icon-theme ...
+Processing triggers for gnome-menus ...
+Processing triggers for desktop-file-utils ...
+Errors were encountered while processing:
+ mullvad
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Yes"
+ date="2012-10-22T11:31:44Z"
+ content="""
+The instructions you followed just removed the stick's partition table. You haven't created a new partition table or any filesystem yet. Just \"format\" the stick as normal to whatever filesystem you prefer in whichever OS you prefer.
+
+Methinks this should be mentioned in the guide! \"Step 8\" perhaps ;O)
+"""]]

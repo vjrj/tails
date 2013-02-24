@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-13T23:56:44Z"
+ content="""
+disc image file is the same as iso
+
+i think the problem you may be having is that universal usb installer doesn't seem to support tails 0.16 yet
+
+"""]]

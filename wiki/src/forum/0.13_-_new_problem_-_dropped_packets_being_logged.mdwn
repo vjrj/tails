@@ -1,0 +1,15 @@
+In Tails' previous version, I never saw any of these, now, they appear just a few times but enough to make me curious and become annoying.
+
+In 0.13 I'm seeing a lot of this:
+
+SRC=127.0.0.1 DST=127.0.0.1 DPT=53
+
+and a few of these:
+
+SRC=myIP DST=aTorNode DPT=443
+
+they're being dropped so I shouldn't care, but I also noticed large changes to the iptables configuration with 0.13 when I:
+
+$iptables -vnL.
+
+why the big change in iptables configuration and why are these entries appearing in my logs?

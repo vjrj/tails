@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-01-25T06:16:06Z"
+ content="""
+I was the one that mentioned WICD. Realize, as mentioned in a comment above, that installing WICD messes up features of Tails that make you anonymous. So it's probably not worth it just to change your mac address (which usually isn't stored in routers, anyway... according to my understanding). So proceed at your own risk.
+
+sudo apt-get update
+sudo apt-get install wicd
+ps aux 
+kill [insert process id number of network manager found with the ps command above]
+
+Then simply launch wicd through the applications menu. I'm fairly new to the whole linux thing, so if I'm making any glaring mistakes, I ask that more experienced people comment.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Update"
+ date="2012-07-19T20:41:42Z"
+ content="""
+Yes, \"apt-get install keepassx\" at the command line will install KeepassX in the drop-down menu of Tails. 
+
+However, I've found that before using \"apt-get install keepassx\" at the command line it's usually necessary to precede that with \"apt-get update\"
+"""]]

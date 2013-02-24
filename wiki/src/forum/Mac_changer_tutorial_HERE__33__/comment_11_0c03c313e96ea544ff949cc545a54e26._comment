@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-12-18T07:36:53Z"
+ content="""
+I have been trying for months to get the macchanger to work and I still can't get it to work.  I can change the mac, I put the device back up.  The problem is that I cannot connect to any network after doing this.  I use the same macchanger commands in backtrack, and they work everytime.  It is really important that I can changer my mac.  Any advice?
+"""]]

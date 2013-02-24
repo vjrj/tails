@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-12T00:48:48Z"
+ content="""
+> Is there a reason why iceweasel is set to accept cookies by default?
+
+A lot of websites don't function properly without cookies, and some don't work at all so first-party cookies are enabled by default to makes the browsing experience less painful.
+
+> Isn't that a privacy threat? 
+
+Not really, you have to understand that there is a difference between first-party cookies and third-party cookies (which is actually blocked by default in Tails). first-party cookies are cookies that a website that you visit sets and that can only be read by that website, no other site can read or see that you have that cookie so there's not a lot of privacy problems with it.
+
+Third-party cookies however are cookies set by a third party (usually an ad company) when you visit a website, and those cookies can normally be used to track you around the web since whatever companies set it would be able to read it on all websites that it was present.
+
+The thing is though that even third-part cookies aren't actually all that dangerous when you use TOR since while they do allow a company to track you it still doesn't in any way reveal you real IP address so all the company would know is that some TOR user visited the website they placed cookies on. 
+
+Anyway regardless of that I'll reiterate the fact that third-part cookies are actually disabled by default so you don't have to worry about cookie tracking at all.
+
+
+> What would happen if I manually changed that to \"No History\" option?
+
+the \"No History\" option is just a preset configuration where Firefox does not keep any permanent history and runs in private mode all the time, However it should be noted that the custom settings tails uses already makes it do that and it disables third party cookies which I don't think the \"No History\" option does.
+
+So all in all the \"No History\" option will possibly give you worse privacy, and it will certainly not give you better privacy.
+"""]]

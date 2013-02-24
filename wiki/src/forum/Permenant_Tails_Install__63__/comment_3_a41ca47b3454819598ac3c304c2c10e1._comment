@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-09-18T22:51:58Z"
+ content="""
+>..will I be able to create a persistent partition?
+
+No. *Not* the previous commenter but booting the .iso *is* my preferred method of using tails. You can't enable persistence when booting from an iso image file but you can still, of course, create whatever Truecrypt and/or LUKS secured storage you like.
+
+There's a (rather oddly placed) useful discussion of this method beginning [about half way down another thread](https://tails.boum.org/forum/Encrypted_Usb_Tails_/#comment-a76e0ea52b7929b890274d3514aa9f94)
+"""]]
