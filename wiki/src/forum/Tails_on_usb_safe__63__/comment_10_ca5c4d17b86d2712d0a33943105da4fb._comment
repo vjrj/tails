@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-02-15T23:45:40Z"
+ content="""
+@ Tails
+
+>Beware: some of these are merely logical switches, that the operating system may choose to ignore if it (or an attacker that gained root privileges) desires so.
+
+Thanks for the timely warning.
+"""]]

@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-02-16T21:38:22Z"
+ content="""
+From
+     https://lists.torproject.org/pipermail/tor-talk/2013-February/027252.html
+
+Nick Matthewson says:
+
+> (Incidentally, because one or two people have asked: *Tor itself isn't affected by the new Lucky-13 attack* against TLS CBC implementations. In order to do plaintext recovery, the attack requires that the same secret be sent in a large number of encrypted TLS sessions. This can happen with HTTPS (where an attacker can force many connections to happen with Javascript, each of which will contain a cookie that the attacker is trying to steal).  Tor, on the other hand, will send the same secret encrypted the same way more than once.
+
+> *This doesn't mean that Tor users couldn't be affected, though*. TorBrowser is a web browser based on Firefox, after all, and therefore is potentially affected by any attack affecting HTTP.  Once there's a new version of Firefox out, I hope that we'll have an updated browser
+released soon afterwards.
+
+Could this be another reason to consider disabling JavaScript in the browser, as a (temporary?) security measure, in spite of the damage to anonymity?
+
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-19T15:48:52Z"
+ content="""
+It's not possible to use a vpn with tails there are many reasons but the main one from my opinion is that it's pretty hard to connect to a vpn through tor.
+
+It would theoretically be possible to use an ssh socks proxy (hence hiding the fact that you are using tor) and would be really cheap to get anonymously a small VPS/shell account somewhere.
+
+BUT it appears that it's currently impossible to change the socks proxy port in the torbutton, and it's really a strange behaviour as of course it's possible to change that setting with torbutton. Hope it will be fixed soon.
+
+To get an anonymous VPN or VPS/shell account, you'd have to find some untraceable electronic money (prepaid debit card, well laundered bitcoins, etc) and buy from tor or an internet cafe with no camera...
+
+
+"""]]

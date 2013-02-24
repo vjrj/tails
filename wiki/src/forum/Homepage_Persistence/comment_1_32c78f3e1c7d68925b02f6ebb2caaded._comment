@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-18T22:28:57Z"
+ content="""
+This seems difficult to do. Persistence is file-based, and homepage is packed with all other Iceweasel settings. So you either make all of them persistent (which is not advisable) or none.
+"""]]

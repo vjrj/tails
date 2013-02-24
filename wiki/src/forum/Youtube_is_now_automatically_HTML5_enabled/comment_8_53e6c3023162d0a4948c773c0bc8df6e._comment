@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-21T23:51:59Z"
+ content="""
+>The only problem is Noscript now, adding youtube.com and ytimg.com to whitelist isn't enough. You should also uncheck this option:
+
+>Apply these restrictions to whitelisted sites too
+
+I tried this with Tails and most won't play. A few play but are choppy. HTML5 is as insecure as Flash IMO.
+
+Minitube and youtube-dl are not working for me in Ubuntu 12.04. 
+
+I am looking for an open-source alternative to Video DownloadHelper such as a Firefox plugin that can download the mobile format (3gp). It would be better than DownloadHelper if it could also download more videos in webm (like Chromium can play) or h264.
+"""]]
