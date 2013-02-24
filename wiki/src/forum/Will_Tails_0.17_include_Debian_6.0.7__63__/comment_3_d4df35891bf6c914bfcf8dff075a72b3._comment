@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-24T21:52:58Z"
+ content="""
+Intermediate versions like Debian 6.0.7 simply incorporate a long list of security patches which the conscientious operator of any Debian stable will have downloaded and installed (using the package management system) as they become available.
+
+The big changes are when Testing becomes Stable and Stable rolls over to OldStable.  These events mark the only times when Debian users need to back up user data and install a new Debian system.  (Actually, this isn't neccessary, but I suspect most users find it easier to clean house with a complete reinstallation.)
+
+
+"""]]
