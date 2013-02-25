@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2013-02-25T01:27:14Z"
+ content="""
+>I hope you have uninstalled ssh packages too if you're not using them.
+
+How do you uninstall them? What commands do you have to type?
+
+At what stage do you uninstall them: just before burning the ISO to DVD or USB?
+
+>Tails continues to operate just fine.
+
+How do I know that my modified Tails will not compromise my anonymity?
+"""]]
