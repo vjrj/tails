@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-24T08:53:45Z"
+ content="""
+>Tails .16 is the only Tails version where an official sha sum was added to the download page
+
+For as back as I can remember, a sha256sum has been given for EVERY final Tails release at:
+https://tails.boum.org/download/index.en.html#index3h1
+"""]]
