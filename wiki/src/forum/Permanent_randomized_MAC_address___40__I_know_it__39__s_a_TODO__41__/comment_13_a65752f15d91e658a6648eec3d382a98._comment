@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-02-23T20:25:18Z"
+ content="""
+\"...you connect \"by wire\" to an ISP where you have purchased access and established an account. They may not be comfortable admitting this, but I think it is unavoidable that their servers will know the true MAC ID of some of your hardware (in particular, your ethernet card)...\"
+
+---------------------------------------------------------------------------------
+  How would they know ? Unless it was part of the contract in which you've been required to use only certain MAC(s) . If the contract does not have such limitations, then any MAC will pass. There are so many details involved in the wired connection , it would make a long post to go through them all, so I'll mention the most obvious:
+
+1. Your router is supplied by the ISP , then they likely know the MAC. But what if you, the user, are not barred from using your own hardware , then a new MAC will look legit.
+2. You have a wireless router ...possibilities galore - hacker broke in or you forgot and left it open to the public etc. etc. 
+"""]]
