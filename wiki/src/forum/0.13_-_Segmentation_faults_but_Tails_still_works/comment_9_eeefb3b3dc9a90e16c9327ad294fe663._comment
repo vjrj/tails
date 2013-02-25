@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Still broken in 0.16: check with dmesg | tail after boot"
+ date="2013-02-07T22:16:38Z"
+ content="""
+The Dev's probably could use more bug reports.
+
+Seems to be related to setting up a password on boot?  Leaving it broke could be exploit, so hope someone will address the bug(s) or topic here.  
+
+Is there bug tracker we can follow?
+"""]]

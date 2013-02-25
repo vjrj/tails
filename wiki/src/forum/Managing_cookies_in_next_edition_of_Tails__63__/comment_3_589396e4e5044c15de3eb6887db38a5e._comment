@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-23T23:29:13Z"
+ content="""
+I don't quite understand when OP wrote:
+
+>The problem is that apparently FF 17 no longer offers any way to disable cookies! Or to allow some sites to set \"session-only\" cookies.
+
+If OP opens the browser in the following manner:
+
+Tools > Privacy > Firefox will: Use custom settings for history
+
+he can set what cookies to accept or reject.
+
+Or am I missing something?
+"""]]

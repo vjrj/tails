@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Issue"
+ date="2013-02-01T13:44:55Z"
+ content="""
+Hey, my problem did not start when changing my Mac adress, but as soon as I upgraded to tails 0.16 I could not connect wirelessly, I plugged my live USB into a computer with a WIRED connection somewhere that it was available and I was connected, is it possible that 0.16 has comparability issues with my network card, even though previous versions worked to fine?
+
+I am in no way an advanced computer user, and only use tails for its web browsing, I will not understand any advanced techniques to get it working unfortunatly, but I do love it as a tool and have to thank the team for all your hard work.
+
+Hope to hear back
+"""]]

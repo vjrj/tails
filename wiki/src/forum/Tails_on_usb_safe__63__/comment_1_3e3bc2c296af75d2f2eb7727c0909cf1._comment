@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-11T23:11:05Z"
+ content="""
+no, its a live usb, anything temporary is stored in ram and erased when the computer is shutdown. Even with persistence the temporary files are encrypted (and u can encrypt the entire usb too) so theres no risk. Though if you're accessing your regular system disks during its use it can leave traces of tails usage. 
+"""]]

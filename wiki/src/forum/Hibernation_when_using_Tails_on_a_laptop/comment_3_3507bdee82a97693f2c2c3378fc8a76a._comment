@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-24T22:40:40Z"
+ content="""
+> Tails cannot hibernate, because it has no swap space enabled.
+
+Excellent, thank you!
+
+Can someone who knows the answer please take pity on us and reply to this question about a laptop whose primary OS is Debian Stable?
+
+> Suppose you accidentally enter hibernation mode, but later resume and perform a proper shutdown; is the hibernation table deleted or does it remain until the next hibernation? Does this mean that if you think you accidentally entered hibernation mode at any time, you should change the pass phrase for your LUKS encrypted laptop hard drive?
+"""]]

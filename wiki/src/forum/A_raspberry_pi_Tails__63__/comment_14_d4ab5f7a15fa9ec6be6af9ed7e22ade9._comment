@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-12-29T14:29:09Z"
+ content="""
+Well beyond my ability, but I might be able to find a Rasberry Pi and install raspbian, and report my experiences here.
+
+Tails server is indeed interesting, but what do you think about this thought?
+
+Linux is based on unix.  The motto of unix applictions is: do one thing, very well.
+
+To me this motto suggests that there might be security/anonymity/usability/maintainability benefits to figuring out how to make minimal changes to raspbian to do one thing well: run a non-exit Tor node or bridge or even Exit Tor node, as the user chooses.
+"""]]

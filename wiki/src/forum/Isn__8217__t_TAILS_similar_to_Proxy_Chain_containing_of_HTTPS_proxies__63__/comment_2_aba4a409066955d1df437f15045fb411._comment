@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-02T19:49:23Z"
+ content="""
+@ the original poster:
+
+> Sirs, sometimes when I desire to send an urgent mail to a team of whistleblowers and somehow can’t use Tails in the PC
+
+It is unfortunate and perhaps even dangerous that it is hard for most of us to understand sufficiently well how different communication protocols such as email and chat work, so that we can better understand how to use them \"safely\" with privacy-protecting tools like Tails or Tor Browser Bundle (TBB).
+
+But generally speaking, Tails and TBB should be \"fairly safe\" for accessing web pages put up by someone else.  Unfortunately, active communication appears to be much harder to do \"safely\" than passive web-browsing.
+
+OTR chat appears to possibly be more safe than email, assuming you can arrange with the parties you wish to contact to be available in some chat room at certain times.  Warning: chat is even more unsafe than email, unless you are using OTR chat, but this seems to be almost impossible unless someone who already knows how to use it is sitting with you and willing to show you how to use it.  
+
+(If anyone understands how to \"safely\" use OTR chat with Tails, I wish they would tell us all how to \"do it right\"!  I've been unable to figure out from the documentation how to use this apparently essential part of the Tails toolkit.  Not only can I not do it right, I can't even do it wrong! Part of the problem is that the GUI is awful.  One advantage of text based interfaces is that someone like the Tails developers can probably give a few lines of commands which will enable the average user to use an application correctly.)
+
+Unfortunately, as far as I know, because easy to user remailers are a thing of the past, it is not at all easy for anyone to safely send emails using Tails (or anything else).  There is a once popular tool called Mixmaster, which is available from Debian and thus should be easy for persons who use Tails on a USB stick to install, but the developer of Mixmaster seems to have joined the dark side (see recent news stories on TrapWire), so I tend to doubt that anyone should even consider using Mixmaster for email.  And as the Petraeus case illustrates, while the method of saving emails as \"drafts\" in a shared email account avoids actually sending the emails, this method is not at all safe.
+
+The Tails documentation is excellent, but in my opinion requires a new section explaining more simply how to get started using OTR chat, perhaps with some examples such a user in a country experiencing an internet crackdown trying to join discussions in one or two specific examples of chat rooms where Tor developers or human rights workers participate.
+
+Another topic which I think urgently needs better documentation is the issue of statistical authorship identification tools such as automatic stylometry tools which can help sort \"anonymous\" forum posts so that an adversary can tell which were probably written by a single person, and furthermore, all too often, to tie that \"style\" to real personal identities.  I feel certain that many here would benefit greatly from understanding the capabilities (and limitations) of the state of the art in this area, but unfortunately our adversaries have thus far been rather successful in suppressing such discussions.  To mention just one point: if you blog in Facebook under your real name, you may not be able to post very \"anonymously\" no matter how good your Tor-like tools may be.
+
+I believe that one of the most important (and most challenging) unaddressed needs in the area of privacy-enhancement is the provision of tools which can make successful stylometric analysis more difficult.  I've seen some creative suggestions but in my opinion the only one which is currently beneficial is simply to use a spellchecker.  Unfortunately this by itself does not help very much.
+
+> can't use Tails in the PC having no pendrive 
+
+Can your PC boot from a DVD drive?  If so, you should be able to use Tails with a DVD.  If you do that, you'll need to deal with the lack of persistence.
+
+Does your PC have a floppy drive or anything else which might enable some kind of possibly not very safe workaround so you can store some bookmarks or files?  You can use gpg which comes with Tails to encrypt or decrypt individual files and copy them to or from your storage device, but I'd like to see the addition of useful encryption and steganography tools to the Tails toolkit.  Tails is closely based on Debian, and some intriguing encryption/steganography tools are available from Debian, so it might not be too hard to include some of these in future editions of Tails.
+
+> [can't use] Tor Browser Bundle in the PC having administrative restriction
+
+You mean you don't own the PC you are using to surf the net?  You are using a PC in an internet cafe?
+
+> I have to use proxy chain of 3 https proxies of different countries through an external application Proxifier. Earlier I was used to use ProxyCap but this application leaks DNS everytime despite using all methods to prevent it.
+
+I am not familiar with that but this does not sound at all safe, especially if you are in a country like Syria or Bahrain or...
+
+I think our best option as a community of persons who need to communicate safely with other people might to be try to find someone who can teach us all how to use OTR chat safely with tails.
+"""]]

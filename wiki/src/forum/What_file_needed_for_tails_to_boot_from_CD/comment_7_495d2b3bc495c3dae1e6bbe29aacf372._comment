@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-09T13:37:53Z"
+ content="""
+Yes i did search the forum and it seemed that many of the posters at least got tails to start booting up but then crashed or they had trouble getting the iso image to work from a usb-penstick
+
+In my case it seems like many files are missing from the root, hence no boot
+
+The instructions for talls sends you off to another site and says just use the tails image instead of the image used for the OS and that site includes a picture of the root directory and something like ten sub folders but thats no use to me when working with a difreent iso image
+
+it's as if you need to merge tails iso image with a version of linux and then compile the kerrnal or something to give you a full set of files and that is why ilisted the files in the image that i got from the tails images. 
+"""]]

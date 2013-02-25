@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-28T17:29:54Z"
+ content="""
+I hope it will be acceptable to add an addendum to what the moderator wrote.
+
+> Someone intercepting 5% of my activity is just as unappealing as 95%.
+
+Right, but you should try to do what you can to reduce the chance of successful surveillance rather than expecting perfection.  Don't forget that if our adversaries are foiled by strong software protection from a tool like Tails, they are likely to try easier paths to surveillance like messing with your router.
+
+> My thought process is lowering the number of entry gaurds I use will serve this purpose nicely. If that's not the case please feel free to comment on that as well.
+
+I believe that in principle, by default, each Tor user should use three Entry Guards, and although this might seem counterintuitive, it is thought that using the same ones for a long period is best.  (I'd like to see the Tor experts discuss this at greater length, however, because I am not sure this is always true.)  
+
+I also experienced an issue with using too many initial nodes, but getting some bridges from bridges.torproject.org seems to ensure that you use a small number of initial nodes, which is as I said currently thought to be best.  In Tails (or TBB), you should be able to easily enter bridge urls into the Tails browser using the \"settings\" menu from the green onion icon.  But if you use bridges to connect to the Tor network, you won't be able to run a non-exit Tor node as many like to do.
+
+I also have been unable to use Tor-talk, but there is a current thread in this forum offering some hints.  I saw a recent post there saying \"email is so hard\" so even regular posters there find it hard to use.  I hope that Tor Project is somehow able to find the time to get their own forum up and running soon.  It would also be good if the official Tor documentation were updated to include discussion of such essential topics as foiling (?) country scale correlation attacks.
+"""]]

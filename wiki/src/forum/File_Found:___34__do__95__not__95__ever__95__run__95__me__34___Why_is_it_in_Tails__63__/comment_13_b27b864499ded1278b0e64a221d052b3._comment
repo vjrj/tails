@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-12-22T12:40:53Z"
+ content="""
+An appeal to Tails developers
+
+According to comment 8:
+
+>If you execute the script it turns off some of Tails' most high profile anonymity features - effectively turning that Tails session into an ordinary Debian-based-live-CD session.
+
+If the above statement is true, then it poses a very great risk to users in harsh regimes where using Tails or Tor is a capital offence, punishable by long prison terms.
+
+Suppose a user in such a regime surfs to a website where he clicks on a page, link or picture which activates a malicious script. This malicious script then runs on the Tails session, executing the file \"do_not_ever_run_me\". And according to comment 8, this in turn will deactivate (turn off) \"some of Tails most high profile anonymity features - effectively.........\"
+
+We would appreciate it if Tails developers distribute the ISO with the file \"do_not_ever_run_me\" to users in the USA, Canada, UK, France, Germany, Ireland, etc. where using Tails or Tor is not an offense.
+
+IMHO it is unwise of Tails developers to distribute the ISO with the file \"do_not_ever_run_me\" to the general public, which may include users from China, North Korea, Russia, Vietnam, Iran, Saudi Arabia, Bahrain, Kazakhstan, Uzbekistan and Tajikistan.
+
+Thank you, Tails developers, in advance for not putting our brothers and sisters at risk of being caught and jailed for using Tails and Tor.
+"""]]

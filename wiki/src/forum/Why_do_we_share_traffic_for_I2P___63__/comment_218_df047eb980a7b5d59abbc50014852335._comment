@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 218"
+ date="2012-12-04T13:51:48Z"
+ content="""
+@ comment 214:
+
+> It doesn't matter how many layers of people the Data passes through or how heavily it's encrypted as Law Enforcers will always know what files they are downloading and the IP-Address of the computers making a direct connect to them relaying the file.
+
+Care to support this claim, cause it looks like complete nonsense to me.
+
+> So if you are not prepared to be a Tor Exit Node then you shouldn't be a I2P relay as you are under the same liability and chances of being prosecuted for helping to transfer illegal material on behalf of others and this is being done to Tails users without most of them knowing.
+
+This is incorrect and has already been addressed numerous times in this thread (see e.g. comment 109). Being a participating node in the I2P network is very different from being an Exit node in the Tor network. It's very similar to running an Entry/Middle node in the Tor network, though, and to my knowledge no Entry/Middle node operator has ever got into trouble for any content they have relayed.
+
+> This is why Liberté Linux has I2P relay disabled and runs I2P through Tor instead of making direct connections to anybody.
+
+This is incorrect and has already been addressed in this thread (see the comment named \"The Tails vs. I2P FAQ\"). Let me quote my answer:
+
+> Liberte Linux' does that for completely different reasons: it proxies I2P through Tor. The reason Liberte does this is to make I2P work better behind excessive firewalls that only allow e.g. HTTP(s) traffic, for which Tor works somewhat better on its own. If hidden mode wasn't set in such a setup, the Tor/I2P client's IP address may be leaked in the I2P traffic to the Tor exit node, which is quite unneccesary as it kills any potential extra anonymity that Torification of I2P provides.
+
+(In retrospect I'd like to add that the IP address leak also would deanonymize any traffic sharing the same circuit, which is really serious.)
+
+There's no support for you claim anywhere in the [Liberte Linux security documentation](http://dee.su/liberte-security). There is, however, a [comment in Liberte's I2P configuration](https://github.com/mkdesu/liberte/blob/master/src/var/lib/i2p/router/router.config#L34) supporting my quoted claim above.
+
+Please read the thread before re-posting already debunked arguments.
+"""]]

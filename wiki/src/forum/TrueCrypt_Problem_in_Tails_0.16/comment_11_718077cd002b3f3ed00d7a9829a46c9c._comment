@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Reporting Back on My Comment Above"
+ date="2013-01-24T21:05:33Z"
+ content="""
+I shut down my copy of Tails 0.16, which is on a stick. I rebooted with \"truecrypt.\" I added my \"persistence,\" and then my password, which I had written down. I opened up TC, and managed to open up my first TC container of 200 MB, created on Tails 0.16, successfully without opening the second one, which was 500 MB, and which did work, even by itself.
+
+I then created a small TC container on a different stick, the one with my 40 GB TC container. I shut down Tails 0.16, rebooted with TrueCrypt, and was able to open the TC container with no sweat, however, while that container was still open, I was not able to open my 40 GB container, which is on the same stick, again!
+
+I don't know if it is because my 40 GB TC container was created on a Puppy Linux distro, it was created on a 64 GB, USB 3.0 stick, it is a 40 GB container in size, or what. My password is correct, and my 40 GB TC container does open on Puppy (naturally), Windows XP Home with SP3 (and up to date fixes), and in JonDo,
+
+If you can come up with a solution, I'll be glad to try it because I really like Tails. I'll check back in a few days. If I see no Comments with a workable answer, I'll check back once a week until I feel there is no answer except within TrueCrypt itself, and then I'll have to stick to JonDo, Puppy, and Windows.
+
+Thanks!
+"""]]

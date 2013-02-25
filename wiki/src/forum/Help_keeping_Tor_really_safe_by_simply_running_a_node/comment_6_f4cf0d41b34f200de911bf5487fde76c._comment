@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Suggestion"
+ date="2013-01-11T01:41:15Z"
+ content="""
+I have a suggestion.
+
+Whenever the computer boots into Tails, Iceweasel will first check and launch the web page with the message that reads something like \"Congratulations! You are now connected to Tor\".
+
+Could the owner of that web page add something along the lines of:
+
+(1) would you like to run a bridge relay?
+(2) instructions on how to obtain bridges
+"""]]

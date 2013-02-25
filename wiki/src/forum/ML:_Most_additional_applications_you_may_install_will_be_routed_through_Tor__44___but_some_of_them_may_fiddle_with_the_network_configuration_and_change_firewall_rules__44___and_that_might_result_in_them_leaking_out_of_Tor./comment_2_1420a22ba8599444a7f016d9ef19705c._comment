@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-10T15:43:41Z"
+ content="""
+To: OP
+
+>This would warn the user if a program is trying to dick around in a way it shouldn't within Tails.
+
+Do you mean to say that I can now install any software and if that application tries to access the internet without first going through Tor, I will be alerted?
+
+Why hasn't anyone thought of your suggestion till now?
+"""]]

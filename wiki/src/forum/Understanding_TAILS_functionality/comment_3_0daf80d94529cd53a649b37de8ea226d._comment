@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-23T21:05:57Z"
+ content="""
+> I wanted to confirm though my understanding; that is that there is no risk of information being retained if you use TOR in a Windows environment, where hibernation is deleted and swap is encrypted.
+
+In theory, yes.
+In practice, not always: <https://trac.torproject.org/projects/tor/ticket/7449>.
+
+> I am aware that Truecrypt is included, however it was mentioned in the documentation that it will not be included in later versions. If that is the case I would be interested to know if there is an alternative to Truecrypt that offers similar functionality.
+
+Please [[read the fine manual|doc/encryption_and_privacy]].
+
+"""]]

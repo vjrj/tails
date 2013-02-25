@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-12-24T10:18:36Z"
+ content="""
+>(hopefully not from questionable sources such as the \"un-named US provider\" which apparently provides funds to the Tor Project,
+
+Looks like you're referring to either or both of the following listings at 
+https://www.torproject.org/about/sponsors.html.en
+
+>An anonymous North American NGO (2008-2012)
+
+(Under the heading, \"Magnoliophyta (over $1 million)\")
+
+>An anonymous North American ISP (2009-2012)
+
+(Under the heading, \"Allium (up to $100k)\")
+
+Note that [the Wikipedia page on Tor](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29) says that,
+
+>the U.S. State Department, the Broadcasting Board of Governors, and the National Science Foundation are major contributors,[12] providing 80% of Tor's $2M annual budget as of 2012, with the remainder coming from the Swedish government and other organizations as well as individual donations.[13]
+
+Citation 12 is a [Boston Globe article about Tor](http://www.boston.com/business/technology/articles/2012/03/08/walpole_companys_anonymity_software_aids_elicit_deals/) that does indeed contain the following statement,
+
+>The State Department and two federal agencies - the Broadcasting Board of Governors and the National Science Foundation - are major contributors. [to the Tor Project]
+
+However,  [the page on the Tor Project web site](https://www.torproject.org/about/sponsors.html.en) linked above, while naming the BBG and NSF as contributers, **makes no mention of the U.S. State Department** as such.
+"""]]

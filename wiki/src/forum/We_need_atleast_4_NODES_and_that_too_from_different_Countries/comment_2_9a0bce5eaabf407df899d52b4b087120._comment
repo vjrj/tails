@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-29T18:56:04Z"
+ content="""
+> We desire atleast 4 nodes and that too all from different countries so as to ensure more security/anonymity. Someone said that in order to trace one person, the investigative agencies need to verify the data from 5000x5000 TOR users. So if one more node is provided, then the equation will become 5000x5000x5000 (assuming that 5000 people are connected to that particular node).
+
+1. That doesn't make any sense.
+2. You should learn how Tor works before you make suggestions how to improve it.
+3. At least read the Tor paper and some anonbib.
+4. Otherwise you are just wasting other peoples time.
+5. Tails just puts everything together. I doubt they will dispute with the Tor devs and make such decisions over their head. This is a suggestion for Tor.
+6. The problem isn't the hops. It's the limited amount of [internet exchange points](https://en.wikipedia.org/wiki/Internet_exchange_point). Read what the is in wikipedia. And read [this](http://www.cs.ucr.edu/~harsha/papers/oakland12.pdf).
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-08T13:37:54Z"
+ content="""
+There are SOOO many informations that our OS, browser, hardware, etc, can be jspied on by an external source, that I believe Google would use such a system if they detect you are using TOR.
+However, there are two things we should consider here. One is the computer MAC address, the other is the router MAC address.
+If you are using your own home internet connection, even if you use macchanger it only hides your computer MAC. Should an attacker be able to ''dig'' so deep as to find out a MAC address, they will probably discover your router MAC which is asigned to you. So, you are screwed.
+If you are using a public wireless network, or something like that, you should probably use macchanger, just so that if an atacker (and this could be government) finds the IP address, and go there and check the MAC addresses that were used in that connection, they can't relate it to you.
+
+So... my point is, I am not sure what Google and Governments are able to sniff around, BUT, just in case they CAN discover MAC address, you are better switching it, if you are using a public wifi. In case you are using a personal wifi, you can change your MAC address to a different one (use a different vendor, and randomize the last bits), that way if they ever come knocking in your door, you can at least use the argument ''someone has been connecting to my network, see, there's a new MAC address on the log!''
+
+As for what Google can see, I don't know. But a simple script on a webpage, or a slight change on the http connection, or a lot of other attacks, can and DOES reveal a LOT about your computer information. That is why Macchanging is a TODO in Tails. Nowadays we can't just rely on hiding the IP, we need to focus on hiding IP, network cards IDs, browser fingerprints, browsing habits, etc.
+"""]]

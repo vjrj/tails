@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Answer to Comment 8"
+ date="2013-01-24T17:15:32Z"
+ content="""
+I already created a TC container with Tails 0.16, which was 2 GB in size on a stick. I was able to open it, save data to it, close it, reopen it, retrieve that data, work on it, save it again, close the container, reopen it, and see that the changes were recorded, and once again, close the container with no problems. I did that before you posed that question. However, the only thing that I need to do is to open my already created 40 GB, TC conatiner, which I created in a Puppy distro years ago, which has what I need to get my work done in Linux or Windows. All info regarding anything else has been expained above in my post, and comments. I do not think that I missed anything.
+ 
+The problem of not being able to open my 40 GB, TC container, using TC 7.1a, in Tails 0.16 remains.
+
+Thanks. 
+"""]]

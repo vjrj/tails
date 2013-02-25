@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-24T21:44:49Z"
+ content="""
+In more detail: the names of the files you download and save should be:
+
+* tails-i386-0.16/tails-i386-0.16.iso
+* tails-i386-0.16.iso.pgp
+* tails-signing.key
+
+Those are respectively
+
+* the iso image (the big file)
+* the detached signature
+* the signing key
+
+So the shell commands in Linux (Windows should be similar) should be:
+
+    gpg --import tails-signing.key
+    gpg --verify tails-i386-0.16.iso.pgp tails-i386-0.16/tails-i386-0.16.iso
+
+
+"""]]

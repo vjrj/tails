@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-11T22:07:36Z"
+ content="""
+You are looking for Tor traffic.  General packet flow statistics may suggest that packets are coming in and going out, and slightly more detailed monitoring tools than netstat may show traffic in and out of ports associated with your Bridge.
+
+For any newbies who might be reading this: netstat can report packet statistics and also the IP addresses of connecting machines, but it doesn't sniff or display information about individual packets, much less perform the kind of deep packet inspection (DPI) which Tor users are trying to avoid.  Tools showing which ports are active can be useful on servers offering many services for distinguishing between which are taking the most resources, but this is possibly less relevant for a server which is dedicated to running a Tor relay.
+
+I'd recommend trialing your bridge or relay on a specially designated \"throwaway\" server, maybe in a DMZ if you have one, using as few services as possible to enable the bridge, not using any services where the tor related services are listening, and with minimal or no logging, just to be safe.  For several reasons:
+
+* generally speaking, more monitoring and more logging of exposed servers is better, but Tor servers are quite different: *less* monitoring and especially less logging is better
+* if you use a throwaway server outside your normal network, you will feel less pressure to monitor your Bridge to detect/log the port scans (or worse) which plague any internet connected computer
+* although it is we hope unlikely that your bridge would be seized, if that happens, it will minimally disrupt your life
+
+Several people running fast bridges (or maybe more likely, the hosting companies where they have rented a server) appear to be using Nagios and related softwares (often more than one), possibly without realizing that when Tor users may detect consequent anomalies in the behavior of their Tor client and perhaps unjustly suspect these operators of abusing Tor.
+
+I do have concerns about targeted and possibly sophisticated attacks targeting Tor nodes, both as a means of disrupting the Tor network and as a means of mounting deanonymization attacks on Tor users, but the desire to try to detect that kind of thing must be balanced against user privacy.  I think a possible compromise might be to try to run the Tor relay or Bridge off a DVD (possibly offering better protection against malicious alteration of binaries) with periodic checks a trusted CD of the cryptographic hashes of critical binaries.  I.e. make a database before you expose your Tor relay or bridge to the internet, and check weekly thereafter, but don't log connecting IPs or run potentially intrusive monitoring software like Nagios.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-15T20:01:12Z"
+ content="""
+> Does Tails store encryption pass-phrases, root password, or other passwords on RAM or on a temp file? Can any of those be extracted remotely by attackers?
+
+As \"Tails\" mentioned in another recent thread, under controlled laboratory conditions, it has been demonstrated that it is sometimes possibly to remotely access the RAM of a running computer, and if one can do that, it is unfortunately not hard to find AES keys, Serpent keys, and so on.  Curiously, some say, it may be harder to find exploitable Twofish keys in RAM.
+
+Papers in police journals and \"intelligence community\" memos leaked from inside the U.S. government suggest intense interest in the \"weaponization\" of such schemes.  One factor which favors The People is the fact that governments have been having a hard time finding, hiring, training, and then retaining talented programmers.  In a sense, the very system which has promoted the growth of the Surveillance State is undermining itself, by such phenomena as spooks posting sensitive details about their cyberespionage skills and experience in on-line resume sites, in the hope of being hired away (with commensurate increase in salary) by private corporations who also covet the talents of this population, in order to target competitors, prospective clients, their own employees, and community activists.  And never mind the ones who are using their unsavoury connections to hawk their data and skills to organized crime groups and \"opposing services\".  A case which recently came to light in the EU is merely the tip of the iceberg, in terms of some individuals among the millions of people with unfettered access to the international \"information sharing environment\" selling huge data trawls to criminal gangs.
+
+Regarding your other questions, I don't know what to suggest.
+"""]]

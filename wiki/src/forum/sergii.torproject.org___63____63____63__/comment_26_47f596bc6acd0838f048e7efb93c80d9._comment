@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="connections to"
+ date="2013-01-07T02:35:59Z"
+ content="""
+Vidalias Network Map shows Tails/iceweasel/?  is connecting to some IPs/sites after (network)starts.
+
+e.g.
+encrypted.google.com, sergii.torproject.org, etc.
+
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-23T11:51:00Z"
+ content="""
+Our plans to support this usecase are to
+[[todo/allow_choosing_language_at_installation_time]].
+Help [[is welcome|contribute]] :)
+
+"""]]

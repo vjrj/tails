@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-30T17:51:42Z"
+ content="""
+I suspect that many Tails users always use about:config to not send any referer line at all, and possibly to turn off capabilites like prefetch.
+
+There is clearly a tradeoff here among measures which potentially defend against different de-anonymizing attacks, yet any changes can also make one stand out from the general population.  It might be good to at least considering working with Tor Project to standardize TBB and Tor on not sending any referer line at all.
+
+It might be nice to compare panopticlick and johndonym anonymity reports for current editions of TBB and Tails, using default and some modified configurations.  It seems that turning off Javascript and image loading entirely greatly improves the first while not badly affecting the second.
+"""]]

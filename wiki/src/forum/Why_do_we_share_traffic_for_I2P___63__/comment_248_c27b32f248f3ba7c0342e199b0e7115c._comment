@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 248"
+ date="2013-01-19T12:27:57Z"
+ content="""
+\"hidden mode\" can be enabled prior to starting the router by setting or updating the keys
+
+###############################
+
+i2np.udp.addressSources=hidden 
+
+
+router.isHidden=true
+
+###############################
+
+in router.config in the I2P config directory - ~/.i2p/ 
+
+though does this directory already exist on Tails?
+
+If not, the default router.config (which is copied into ~/.i2p/ if it doesn't exist) should be edited before starting.)
+
+"""]]

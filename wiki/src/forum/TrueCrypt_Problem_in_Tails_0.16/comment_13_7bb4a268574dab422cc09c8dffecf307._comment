@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-01-25T16:04:28Z"
+ content="""
+>One thing though, I did have a problem years ago creating a TC 7.0 container in Puppy 5x until I went to Settings > Preferences > System Integration, and put a check in the box that said \"Do not use kernel cryptographic services.\" Then, I was able to create a container with Fat (so I could open it in Windows), and I did it again with 7.1 and in 7.1a.
+
+I wonder if that might be the root of your problem. Could you confirm for us, as accurately and precisely as you can recall, how you **created the problem container**, indicating which (if any) of the details you're unsure of. Particularly helpful could be:
+
+Which version of TC was used?
+Was \"Do not use kernel cryptographic services.\" set?
+Which hashes and ciphers you chose for that container.
+
+Also, have you tried toggling the \"Do not use kernel cryptographic services.\" setting during your attempts to mount the container in Tails?
+
+A terse summary of the results you've had trying to mount it might be helpful too. Something like:
+
+    WinXP:      success
+    Puppy 5:    success (with \"Do not use kernel cryptographic services.\")
+    Puppy 5:    fails   (without  \"Do not use kernel cryptographic services.\")
+    Tails 0.16: fails   (with \"Do not use kernel cryptographic services.\")
+    Tails 0.16: fails   (without  \"Do not use kernel cryptographic services.\")
+
+"""]]

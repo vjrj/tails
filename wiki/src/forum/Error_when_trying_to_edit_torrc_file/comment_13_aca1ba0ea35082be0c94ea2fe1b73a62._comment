@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-01-29T20:35:03Z"
+ content="""
+> Looks really like incest in a bigger family. Using TAILS/Tor EntryGuard should be STANDARD. But difficult on TAILS)-:.
+
+No, the problem affects all Tor users, irrespective of
+
+* people using Entry Guards vs. bridges
+* people in different countries
+* people using TBB vs. Tails
+
+Someone should post some of the publicaly available router bandwidth statistics here to highlight just how bad the problem is, even assuming (wrongly) that organizations running high bandwidth Tor nodes always disclose the fact that their nodes belong to a common family.  (There are a couple of ways to do that, some less formal than others.)  Even worse, it is clear that the organizations known to operate several high bandwidth routers are not only in a position to mount correlation attacks, but have a financial incentive to do so.  
+
+Growing a larger and thus faster Tor network is good, but I wish the Tor Project would look examine more closely the mouths of certain Gift horses.  (Pun intended.)
+
+"""]]

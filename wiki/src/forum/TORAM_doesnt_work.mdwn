@@ -1,0 +1,8 @@
+i tryed to add "toram=yes"
+i thought it should work since tails is a debian-live derivate.
+
+but when i ad toram to the boot options it hangs at the and of the blue/white bottom line, right there where it should start the login...
+
+is it even possibke or do i have to add more parameters?
+
+thx

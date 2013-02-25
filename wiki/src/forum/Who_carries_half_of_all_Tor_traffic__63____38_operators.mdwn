@@ -1,0 +1,131 @@
+If you use Tails, you probably enjoy using the Tor Network map provided by Vidalia.  And if so, you probably noticed that your Tor circuits often use just a few nodes.
+
+The fact that each of us use just a few *Entry nodes* is intended by tor and generally thought to be a good thing.  (The reason why is not obvious, but never mind that.)  
+
+However, if it were also true that
+
+* everyone is likely to use Entry nodes *selected from a small subset of the set of all Tor nodes*
+* these same nodes are likely to also act as *Exit nodes* 
+
+this would not be at all good, because it would suggest that correlation attacks are too easy for our adversaries.
+
+In this post I summarize the results of my study of this issue using the official figures for the Tor network in late Jan 2013 to study this issue.  My results are similar to what I found in previous studies.
+
+The main result is that, potentially, half of all Tor traffic may be carried by only 38 "operators", corresponding in all but a handful of cases to known single entities.  Even more disturbing, several of these entities belong to corporations whose business model involves surveillance.
+
+There are several caveats:
+
+* I am using figures for the *published* Tor nodes.  The *unpublished* Tor nodes include bridges.
+* In my analysis, the reported bandwidth of each node corresponds to the results of tests by the Tor Project.  It is assumed that these figures accurately reflect the actual proportion of Tor traffic carried by each node.
+* For convenience, I define "operator" as a domain, IP range, or a mixture as appropriate, corresponding to a clearly defined family of Tor nodes (typically 1-10).  By this definition, an "operator" need not always correspond to a single entity.  But in practice it turns out that "operators" are nearly always identifiable single entities.
+* There is a way for "operators" to officially declare a family of Tor nodes, but I attempted to look for undeclared families too.
+
+Here is a more detailed summary of my findings concerning the published Tor network in January 2013.
+
+Breakdown by operators:
+
+* the public Tor network has 3126 nodes with a total bandwidth of 2.2 GB/sec
+* the top 94 bandwidth nodes carry just over 50% of all Tor traffic 
+* most of these play multiple roles as Entry nodes, Exit nodes, and Directory servers (at least)
+* the top 94 nodes are operated by only 38 distinct operators
+* almost all of the top 38 operators correspond to identifiable organizations
+* four of these are entities which openly admit that their business is network surveillance
+* one of these openly admits that its business is maintaining a "malware signature" database for the US government; one of its officers was formerly a principal in "Team Themis"; even if you do not know it, your computer does (if it uses Tails)
+* another six are believed by some to run Tor nodes primarily for surveillance; one of these has been accused of fronting for the NSA
+* several others describe themselves as "privacy organizations", but at least two of these have been accused cooperating closely with national intelligence organizations
+* the top three bandwith servers carry more than 3% of all Tor traffic, and all belong to a single domain, torservers.net
+* the top bandwidth node alone carries about 2% of all Tor traffic; it is located in Dallas,TX and has a bandwidth of 4MB/sec
+* the first network, torservers.net, carries about 11% of all Tor traffic using 17 nodes, including 13 among the top 94 nodes
+* the second network, TorLand, carries about 6% of all Tor traffic using 7 nodes, including 3 among the top 94 nodes
+* the third network, ccc.de, carries 5% of all Tor traffic using 14 nodes, including 4 among the top 94 nodes (this is the Chaos Computer Club in Berlin, which  also operates other nodes not in the ccc.de domain)
+* the fourth network, run by the Akamai Security team, carries about 3.5% of all Tor traffic using 11 nodes, including 7 among the top 94 nodes
+* the fifth network, snydernet.net, carries 3% of all Tor traffic using 25 nodes, none among the top 94 nodes
+* the sixth network, conformal.com, a rather mysterious software company in Chicago, IL which is developing a *nix type "secure OS" for an unnamed client, carries 3% of all Tor traffic using 5 nodes, all among the top 94 nodes
+* the next three networks each carry about 3% of all Tor traffic
+* the remaining 30 operators each carry about 1 to 2% of all Tor traffic
+* among these, several, such as qwest.net and verizon.net, are home consumer ISPs whose nodes presumably are operated by distinct individuals
+* several represent individual high bandwidth nodes (so operated by one individual or organization) using an IP corresponding to a consumer ISP domain
+* the remaining home consumer ISPs carry considerably smaller total bandwidth
+* among the remaining home consumer ISPs, tiny riseup.net carries more traffic with 9 nodes than huge comcast.net with 99 nodes; unlike most ISPs, riseup tells the world when the FBI mysteriously seizes (and mysteriously returns) its servers
+* there are 21 nodes in the amazonaws.com domain, but their net bandwidth does not put amazonaws.com into the top 38 operators; however, some of the top nodes run in the EC2 cloud
+* none of the Exit nodes designated as "Bad" by the Tor Project are among the top 94 nodes, or associated with the top 38 operators
+* at least two of the top 38 operators previously had informal ties with wikileaks.org
+* at least two have close ties to the Tor Project and/or EFF
+* the torproject.org domain carries a negligible fraction of Tor data streams
+
+Breakdown by reported geolocation of nodes:
+
+* only three countries (US/DE/SE) carry 53% of all Tor traffic
+* all three governments force carriers to let them snoop
+* the top bandwidth countries are US 22%, DE 21%, SE 10%, FR 6%, GB 5%, NL 5%
+* in all six countries, civil liberties are under attack
+* the "Five Eyes" (US/GB/CA/NZ/AU) carry about 28% of all Tor traffic
+* CN carries just under 2% of all Tor traffic
+* US universities alone carry just under 2% of all Tor traffic
+* RU dropped out of top six since new law took effect
+* GR assumed much larger share after financial crisis
+* the top non-country "geolocation" is currently A1 at 11% 
+
+Breakdown by reported operating system:
+
+* nodes known to use Linux carry 76% of all Tor traffic
+* nodes known to use BSD Unix carry 6% of all Tor traffic
+* nodes known to use Bitrig carry 2% of all Tor traffic; all 6 of these are operated by conformal.com and are geolocated near Chicago, IL
+* nodes known to use Darwin or Windows each carry about 1% of all Tor traffic
+* the remaining nodes use undetected operating systems
+* among the top 94 nodes, 66 run Linux, 8 run BSD, 6 run Bitrig, 1 runs Darwin, none run Windows, and the rest run undetected operating systems
+
+The top 38 "operators" who collectively carry half of all Tor traffic are (operator, net bandwidth (KB/sec), and number of servers):
+
+     torservers.net		242804	17
+     TorLand			136451	7
+     ccc.de			107131	14
+     Akamai			77962	11
+     mooo.se			66241	5
+     snydernet.net		59321	25
+     conformal.com		54957	6
+     formlessnetworking.net	53803	8
+     perfect-privacy.com	46768	35
+     noisetor.net		40476	4
+     teamcymru.net		38965	9
+     Kromyon			37808	4
+     voxility.com		31005	3
+     kimsufi.com		30873	32
+     ipredator.se		26735	4
+     ph3x.at			25912	2
+     glasoperator.nl		24769	1
+     dfri.se			24052	3
+     mylittlecorner.org		21430	5
+     qwest.net			17409	13
+     verizon.net		17263	52
+     r3t.at			15393	1
+     ucar.edu			15166	2
+     uwaterloo.ca		12268	2
+     ndnr			11396	1
+     cypherpunks.to		10832	2
+     bu.edu			10271	1
+     spacedump.net		10663	1
+     xmission.com		10127	2
+     santrex.net		9575	13
+     inode.at			9460	2
+     wtfismyip.com		8899	4
+     scopehosts.com		8684	1
+     lobstertech.com		7452	1
+     guilhem.org		6894	1
+     nyr.be			6278	1
+     pm-ib.de			6058	1
+     42tech.de			5764	1
+
+As an example of a network of Tor nodes operated by a single entity, the Akamai security team nodes are (IP, domain, location, nickname):
+
+    63.141.201.75			Cambridge, MA	US	AkamaiTor1
+    199.239.183.213			Englewood, CO	US	AkamaiTor2
+    64.211.209.132			Southfield, MI	US	AkamaiTor9
+    63.234.226.151	qwest.net	Los Angeles, CA	US	AkamaiTor6
+    65.120.61.73	qwest.net			A2	AkamaiTor4
+    66.171.225.207			Cambridge, MA	US	AkamaiTor12
+    146.82.13.14 					US	AkamaiTor3
+    217.212.225.108	telia.com			SE	AkamaiTor8
+    2.22.231.73,					EU	AkamaiTor7
+    61.200.81.168	akamaitechnologies.com		JP	AkamaiTor11
+    165.254.32.197			Englewood, CO 	US	AkamaiTor5

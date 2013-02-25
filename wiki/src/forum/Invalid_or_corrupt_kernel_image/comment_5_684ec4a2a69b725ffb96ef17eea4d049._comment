@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-29T20:55:52Z"
+ content="""
+I am sorry, but I have the same issue here.
+
+I tried some weeks ago to create an ISO image of Tails 0.15 using K3B on Linux and CDBurnerXP on Windows, but without any success. I just get the same error message. Now I am trying to burn Tails 0.16 and it is the same result.
+
+The images were burned on a DVD-RW, so space cannot the problem. I have already tried to use the slowest burning speed available (2x) just in case, but whithout success. PGP tells me also, that everything is fine with the image I downloaded. And I have already tried to burn a different Linux live image and it works.
+
+I have really no idea, what I am doing wrong... Any ideas?
+"""]]

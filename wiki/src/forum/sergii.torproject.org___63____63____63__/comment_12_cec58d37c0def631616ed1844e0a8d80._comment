@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-12-30T20:58:43Z"
+ content="""
+One argument for allowing posts inquiring about worrisome incidents while using Tails (or even another Tor) is that this can assist education of the user base (by teaching troubleshooting techniques and giving verifiable explanations of some of the things done by Tor) while combating disinformation (such as attempts, which the Tails community would be wise to expect, to discourage people in China from using Tails to circumvent censorship and surveillance).   
+
+Another is sometimes that such posts may on further examination reveal a genuine and serious problem, possibly specific to a particular locale.  For example, I hope and currently believe that the OP is probably wrong about torcheck (assuming that is what is generating his/her concern), but he/she might be right about a gut feeling that something is not right.  Eliciting specifics (while also trying to maintain his/her anonymity, of course, which can be a challenge) could possibly reveal information useful for improving Tails (or Tor).
+
+I think there would be much benefit to teaching Tails users here about warning signs to watch out for while using Tor.  One important point to convey would be that if something nasty really is happening, the malefactors are more likely to be operators of rogue Tor nodes, or various national censorship/surveillance systems, than a bad apple in the Tor, Tails, or Debian Projects.  If we could only discuss here how modern surveillance works in detail, I think many more Tor users would appreciate how many places there are in which malefactors can attempt to subvert Tor.   Which doesn't mean everyone should be scared of using it (to the contrary, the more people who use Tor, the harder it becomes for even automated surveillance seeking to subvert Tor to operate efficiently and reliably).
+"""]]

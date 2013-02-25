@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-15T21:20:58Z"
+ content="""
+I wonder if this is not a technical problem at your end, but a kind of misunderstanding, in which robomonitoring software used by your WiFi provider (or more likely, a surveillance company they have hired) is mistaking you for someone trying to steal WiFi service by pretending to be a legitimate customer (yourself), instead of a legitimate customer trying to avoid being tracked all over the web.
+"""]]

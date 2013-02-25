@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-12T01:24:19Z"
+ content="""
+Correct me if I am wrong, but I am under the impression that \"No History\" implies not accepting any cookies at all (neither first or third party), and not storing any history whatsoever while keeping a \"private session\" all along.
+
+Can you please explain further how would \"No History\" allow third party cookies? Is it some hidden tricky option?
+
+Another question goes like: What kind of information do first party cookies store, and is deleting them regularly of any benefit security/anonymity wise?
+"""]]

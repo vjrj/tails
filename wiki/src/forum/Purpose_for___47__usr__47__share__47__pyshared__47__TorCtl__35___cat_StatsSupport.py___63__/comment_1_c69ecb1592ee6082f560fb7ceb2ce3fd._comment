@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-22T10:28:15Z"
+ content="""
+> what is the purpose of this file in Tails?
+
+If you're curious about technical details, then please learn the technical basics about the OS, e.g. `dpkg -S`.
+Then, you'll learn that this file is shipped by the `python-torctl` package, that is installed as a dependency for the `tor-arm` package, and perhaps that will be a bit less of a OMG time that needs to be shared on this forum.
+
+"""]]
