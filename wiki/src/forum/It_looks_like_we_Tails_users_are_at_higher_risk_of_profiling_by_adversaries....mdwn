@@ -13,4 +13,6 @@ The solution is "entry guards": each Tor client selects a few relays at random t
 
 I do understand it's because the non-persistence of Tails that we are losing out on this feature. It does seem to be a significant loss after reading about it, though. We are at higher risk of profiling. :(
 
-I wish there were some way to get this important security measure of Tor for Tails users...
+Entry guards...I wish there were some way to get this important security measure of Tor for Tails users...
+
+
