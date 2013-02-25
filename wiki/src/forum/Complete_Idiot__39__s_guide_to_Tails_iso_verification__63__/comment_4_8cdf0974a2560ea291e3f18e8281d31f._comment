@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-24T22:39:15Z"
+ content="""
+Thanks! So after downloading the three files to the Debian desktop, I just open the terminal, and type these two things into it, one after the other?
+
+gpg --import tails-signing.key
+
+gpg --verify tails-i386-0.16.iso.pgp tails-i386-0.16.iso
+
+And that will do it? Just like that, no further modifications?
+"""]]
