@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-27T23:32:23Z"
+ content="""
+Would there be any concerns with running a cURL script such as the following in Tails:
+
+`curl --retry 10 '{URL of page containing images}' | grep -Pio '(?<=href=\\").+/src/.+(jpe?g|gif|png)(?=\\")' | sort -u | while read image; do curl --retry 10 -O \"$image\"; done`
+
+This downloads all images on a web page, minus thumbnails.
+
+Or would adding the argument, \"socks5-hostname \"127.0.0.1:9050\" \", be preferable or even necessary to ensure no leakage of identifying info? 
+
+Like the following?
+
+`curl --socks5-hostname \"127.0.0.1:9050\" --retry 10 '{URL of page containing images}' | grep -Pio '(?<=href=\\").+/src/.+(jpe?g|gif|png)(?=\\")' | sort -u | while read image; do curl --socks5-hostname \"127.0.0.1:9050\" --retry 10 -O \"$image\"; done`
+"""]]
