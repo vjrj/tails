@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-27T19:51:12Z"
+ content="""
+If you're competent to be experiment with development releases then you're competent to ***verify*** your download.
+
+Conversely:
+
+If you can't ***verify*** your download, you really should be shepherded onto a stable release.
+
+If you don't understand the significance of \"***verify***\" then think hard about how and why you'd trust those digests and weather you can conceive of any attacks against it.
+"""]]
