@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="unable to connect to WIFI after use macchanger..."
+ date="2013-02-27T17:57:45Z"
+ content="""
+I solved this problem by running this script:
+
+Basically now in Tails 016 it is neccessary to turn off network manager before the starting macchanger and then turns it on.
+
+So 12345 - is the master pass which you should set up when start Tails.
+
+#!/bin/sh
+
+echo 12345 | sudo -S service network-manager stop
+echo 12345 | sudo -S ifconfig wlan0 down
+echo 12345 | sudo -S macchanger -a wlan0
+echo 12345 | sudo -S ifconfig wlan0 up
+echo 12345 | sudo -S ifconfig wlan1 down
+echo 12345 | sudo -S macchanger -a wlan1
+echo 12345 | sudo -S ifconfig wlan1 up
+echo 12345 | sudo -S ifconfig eth0 down
+echo 12345 | sudo -S macchanger -a eth0
+echo 12345 | sudo -S ifconfig eth0 up
+echo 12345 | sudo -S ifconfig eth1 down
+echo 12345 | sudo -S macchanger -a eth1
+echo 12345 | sudo -S ifconfig eth1 up
+echo 12345 | sudo -S service network-manager start
+
+maybe wlan1 and eth1 is not neccesary but i was not sure which of them used for internet connection so I write it down for all net devices which ifconfig find in my system.
+"""]]
