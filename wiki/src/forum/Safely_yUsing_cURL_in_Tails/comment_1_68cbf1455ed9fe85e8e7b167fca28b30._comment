@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-27T15:59:04Z"
+ content="""
+Curl honost `HTTP_PROXY` and is thus torified in Tails.
+
+"""]]
