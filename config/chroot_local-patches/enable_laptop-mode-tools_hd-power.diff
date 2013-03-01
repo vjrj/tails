@@ -1,0 +1,19 @@
+--- chroot.orig/etc/laptop-mode/laptop-mode.conf	2013-03-01 12:16:16.068000389 +0000
++++ chroot/etc/laptop-mode/laptop-mode.conf	2013-03-01 12:19:34.288000445 +0000
+@@ -280,13 +280,13 @@
+ # Should laptop mode tools control the hard drive power management settings?
+ #
+ # Set to 0 to disable
+-CONTROL_HD_POWERMGMT="auto"
++CONTROL_HD_POWERMGMT=1
+ 
+ 
+ #
+ # Power management for HD (hdparm -B values)
+ #
+-BATT_HD_POWERMGMT=1
++BATT_HD_POWERMGMT=128
+ LM_AC_HD_POWERMGMT=254
+ NOLM_AC_HD_POWERMGMT=254
+ 
+
