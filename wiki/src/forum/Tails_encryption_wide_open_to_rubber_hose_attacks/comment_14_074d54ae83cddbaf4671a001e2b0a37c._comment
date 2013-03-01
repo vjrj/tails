@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-03-01T16:17:33Z"
+ content="""
+> encrypt the entire USB with Pre-Boot Authentication (which is supported by dm-crypt/luks)
+
+OP or anyone, can you please tell me how to do that? Please either privide a link or list the steps. I'm so in need to this feature for Tails.
+"""]]
