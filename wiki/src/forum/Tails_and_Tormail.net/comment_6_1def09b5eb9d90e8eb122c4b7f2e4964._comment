@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-01T10:53:07Z"
+ content="""
+>to get 128 bit entropy (~security) you need 43 random alphanumeric charachters, but with all printable characters allowed you still need 39 random characters. For 128 bits you need 22 and 20 random characters, respectively. 
+
+Looks like you meant to write *256* bit for 43/39!
+"""]]
