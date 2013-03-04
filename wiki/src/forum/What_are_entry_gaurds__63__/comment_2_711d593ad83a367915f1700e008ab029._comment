@@ -1,0 +1,124 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-04T21:02:22Z"
+ content="""
+@ OP: 
+
+It's not your fault, the discussion of entry guards in the Tor FAQ is badly written.
+
+@ \"Tails\": 
+
+Please permit us to discuss this issue!  All Tor users, and thus all Tails users, should understand the rationale for using entry guards at all, which requires some knowledge of the statistics of the success of a predecessor attack on the anonymity of Tor users.
+
+** Some Basic Facts about Tor Circuits **
+
+Tor circuits use three Tor nodes: entry, relay, and exit.  When the user starts TBB or Tails browser and types in a url, Tor builds a circuit by choosing three different nodes.  The complete circuit looks like
+
+	your-computer <==> entry <==> relay <==> exit <--> other-servers <--> remote-server
+
+where the <==> links are encrypted (using SSL, or rather TLS, which is not considered very strong these days) and the <--> link is encrypted only if the remote server enables https connections.  
+
+The DNS lookup which translates a human-readable url into a computer-usable IP address is done by the exit node
+
+     exit <--> other-servers <--> dns-server
+
+This traffic is always unencrypted and therefore subject to monitoring.  However, adversaries (such as behavioral-advertising vendors and intelligence agencies) should in theory find it difficult to associate the dns lookups with a particular citizen's websurfing.  (In the earliest versions of Tor, DNS lookup was not done by the exit node, which was a very serious flaw.)
+
+Tor circuits exhibit \"low latency\", which means that there are no intentional time delays introduced in links like relay <==> exit.  (That would greatly increase the difficulties faced by adversaries, but would also make it impossible to use Tor circuits for web-browsing.)
+
+Tor circuits are constructed by the Tor client using nested encryption to obscure the three nodes the client is using.  Each node strips off one layer to find which node comes next in the circuit.  This ensures that the operator of the exit node does not know the identity of the entry node.  Barring collaboration.  We hope.  
+
+The basic idea of Tor is this procedure should preserve the anonymity of the citizen websurfer; correlation attacks attempt to break anonymity by observing both ends of some fraction of all Tor circuits.
+
+Tor traffic streams consist of cells which also used nested encryption which is successively stripped by each node.  This ensures the privacy of the traffic within the Tor network itself, and also between the user and the entry node, but not, in general, between the exit node and destination server.
+
+Suppose the in our Tor circuit, the link exit <--> remote-server is unencrypted, because the remote server doesn't support https connections.  Then a capable adversary with international allies can probably see that someone is downloading certain files from particular servers.  And your ISP (and therefore your government's spooks) can see that your computer is connecting to a particular entry node.  
+
+But because the operators of the entry, relay, and exit nodes do not know all the nodes in the circuit, even if one of them is controlled by an adversary (who may be able to obtain information from your ISP and from international allies), it should be difficult for the adversary to be certain that you are the citizen downloading the content visible in a particular data stream connecting to the exit node.
+
+(This assumes that SSL is secure against capable adversaries, which unfortunately is not true, but in order to focus on the topic at hand, let's ignore that.  Using hidden services introduces new wrinkles, but let's ignore them.)
+
+** The Conventional Wisdom About Entry Guards **
+
+Responding to growing concern about correlation attacks on the anonymity of Tor users, the Tor Project introduced Entry Guards in 2006.  
+
+In a correlation attack, an adversary manages (by luck or manipulation) to observe/control both the entry and exit nodes in a particular Tor circuit built by a particular user.  Then the adversary can correlate traffic characteristics in order to deduce which data streams into the entry node correspond to data streams out of the exit node.  (For example, using packet counts, packet timing, and other tricks.)  That's bad because it means the adversary can potentially monitor your surfing about as well as he could if you were not using Tor at all.
+
+From the official Tor FAQ
+
+     https://www.torproject.org/docs/faq#EntryGuards
+
+>  Tor (like all current practical low-latency anonymity designs) fails when the attacker can see both ends of the communications channel. For example, suppose the attacker controls or watches the Tor relay you choose to enter the network, and also controls or watches the website you visit. In this case, the research community knows no practical low-latency design that can reliably stop the attacker from correlating volume and timing information on the two sides.
+
+> So, what should we do? Suppose the attacker controls, or can observe, C relays. Suppose there are N relays total. If you select new entry and exit relays each time you use the network, the attacker will be able to correlate all traffic you send with probability (C/N)^2. But profiling is, for most users, as bad as being traced all the time: they want to do something often without an attacker noticing, and the attacker noticing once is as bad as the attacker noticing more often. Thus, choosing many random entries and exits gives the user no chance of escaping profiling by this kind of attacker.
+
+> The solution is \"entry guards\": each Tor client selects a few relays at random to use as entry points, and uses only those relays for her first hop. If those relays are not controlled or observed, the attacker can't win, ever, and the user is secure. If those relays are observed or controlled by the attacker, the attacker sees a larger fraction of the user's traffic — but still the user is no more profiled than before. Thus, the user has some chance (on the order of (N-C)/N) of avoiding profiling, whereas she had none before. 
+
+That section of the FAQ is poorly written.
+
+The authors are referring to estimates of the time required for the success of a particular kind of correlation attack, called a predecessor attack.
+
+Assume:
+
+* the Tor network contains N nodes, of which C < N are controlled by the adversary
+* all nodes can play the roles of entry, relay, or exit nodes
+* a bad circuit is one in which the entry and exit nodes are both controlled by the adversary
+* every Tor client switches to a new circuit every 10 minutes
+* all circuits are built by random identically distributed choices of three nodes, with the random probability being uniform over nodes.  
+
+(Actually, three *distinct* nodes, but ignoring that is acceptable.  What is not acceptable is to ignore the highly nonuniform nature of how nodes are chosen.)
+
+Then if the Tor network contains no entry guards: 
+
+* half the citizens will be identified in 10 ln 2 (N/C)^2 minutes
+* the mean time to identification is 10 (N/C)^2 minutes
+* with probability 1 -2/N, all citizens identified in 20 (N/C)^2 ln N minutes
+
+If all citizens choose and stick to one entry guard, the chance that an unlucky citizen will choose an entry guard controlled by the adversary is (C/N).  For unlucky citizens:
+
+* half the unlucky citizens will be identified in 10 ln 2 (N/C) minutes
+* the mean time to identification of an unlucky citizen is 10 (N/C) minutes
+* with probability 1-2/N, all unlucky citizens are identified in 20 (N/C) ln N minutes
+
+For lucky citizens, the adversary will eventually determine which entry guards these citizens are using, but not their true IP address.
+
+A numerical example: suppose N = 2000, C = 20, or N/C = 100.  Then:
+
+With no entry guards:
+
+* half the citizens are identified in about 7 weeks of continual Tor use
+* the mean time to identification is about 10 weeks
+* with probability 0.98, all citizens are identified in about 1.5 years
+
+With entry guards, the proportion of unlucky citizens who choose an adversary-controlled node for their entry guard is 0.01, and:
+
+* half the unlucky citizens are identified in about 12 hours
+* the mean time to identification of an unlucky citizen is about 1 day
+* with probability 0.98, all unlucky citizens are identified in about 1.5 weeks
+
+The attack can also eventually identify the entry guards used by the lucky citizens, but cannot recover their true IP address.
+
+** The Problem with Conventional Wisdom **
+
+The real Tor clients and the real Tor network radically violate the assumptions made in deriving the estimates just discussed.
+
+In particular, for a variety of reasons including (well-motivated) design choices of later versions of Tor, clients build Tor circuits by choosing three successive nodes in a way which treats the first node differently from the other two, and the nodes are chosen according to a highly nonuniform distribution.  (Indeed, most Tor nodes function as \"Nodes in waiting\" which have not yet been awarded the coveted designations \"Fast\" and \"Stable\".)
+
+One important effect of nonuniform distribution on nodes is to reduce the time needed to identify all citizens.
+
+Further, circuit building is very far from independent from one circuit to the next.   Also, most citizens choose several entry guards (which are rotated after some time).  Those who choose one and only one bridge could be modeled in a similar fashion to the preceding discussion, after correcting the other problems.
+
+It is not necessary to make the (radically inaccurate) assumptions made in the Tor FAQ.  And making more reasonable assumptions leads to different conclusions than those offered in that FAQ.
+
+** Previous Discussion **
+
+In some other threads in this forum,
+
+     https://tails.boum.org/forum/Who_carries_half_of_all_Tor_traffic__63____38_operators/
+     https://tails.boum.org/forum/__34__Raccoon__34___revisited/
+
+some Tor users attempted to start a discussion of how to better estimate the actual risks posed to real Tor users by deanonymization attacks in current use.  Unfortunately, the moderator shut down these threads.  
+
+I urge other Tor users to join me in asking \"Tails\" to permit us to discuss these issues here.
+"""]]
