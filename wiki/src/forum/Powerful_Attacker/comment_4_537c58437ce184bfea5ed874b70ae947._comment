@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-04T21:31:35Z"
+ content="""
+Wouldn't it better serve the OP and the community of Tails users to cite an on-line document, such as this 2010 survey paper?
+
+     Recent Attacks on Tor
+     Juha Salo
+     cse.tkk.fi/en/publications/B/11/papers/salo.pdf 
+
+(Anyone know of a more recent survey paper?)
+
+Many of the papers cited by Salo can be found in
+
+     http://freehaven.net/anonbib/
+
+(Which should really be in the Tails bookmarks.)
+"""]]
