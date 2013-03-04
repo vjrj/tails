@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-03T12:52:28Z"
+ content="""
+It seems likely that you did not find the answer because you did not look in the right documentation: this is a question about Tor, and it's not specific to Tails in any way, so you'd better look in the Tor documentation. (And, by the way, general Tor questions are off-topic on this forum.)
+
+"""]]
