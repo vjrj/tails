@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="zvuci"
+ ip="127.0.0.1"
+ subject="jit.si"
+ date="2013-03-07T05:30:32Z"
+ content="""
+jitsi call is perfect and codec customizable but something in tails rejects .si domain i think. tommorow i'll digg little bit more to discover why it's not working with or without proxy. but i don't think it will be a normal call thru tor because zrtp need good connection else strange things happen.
+"""]]
