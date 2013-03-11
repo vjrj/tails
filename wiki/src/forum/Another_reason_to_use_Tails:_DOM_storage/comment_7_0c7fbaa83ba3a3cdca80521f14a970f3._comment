@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-11T21:33:03Z"
+ content="""
+Forgot to make two points:
+
+> One important point I didn't yet stress is that it is much better to prevent sensitive data from being stored at all (especially in non-volatile memory such as a hard drive), instead of storing it and then trying to erase it later. The reason is of course that if anything goes wrong in \"securely shredding\" sensitive files, the information may remain on disk indefinitely, where it can potentially be recovered by an adversary.
+
+Tails users who boot Tails from a USB stick should be aware of possible hazards arising from technical details of how USB sticks store data, which could prevent data from being shredded in the way we are accustomed to doing on a hard drive.  This potential issue has been mentioned several times in this forum, but has never really been discussed.
+
+> attackers can hope to recover and decrypt the plaintext of all packets sent while using Tor in a given Tor-use session, including the plaintext content of downloaded webpages and files, the plaintext content of encrypted emails, the plaintext content of chat sessions... the works.
+
+That is, *assuming attackers have intercepted and stored both ends (or maybe even just one end) of a tor-protected data stream*, they can hope to recover the plaintext of the entire data stream if they have recovered the encryption keys for the cells by obtaining a forensic image of the RAM of the targeted computer running Tails.
+
+"""]]
