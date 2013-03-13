@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-13T22:57:20Z"
+ content="""
+Very cool, thanks!
+
+While on the subject, have you considered adding iftop?  This would be a very lightweight addition which can be useful for monitoring connections, and could reassure we worriers that nothing untoward is happening.
+
+But the price might be too high, since running a sniffer on our own computer while using Tor might also be potentially dangerous (see the recent recent security upgrade to sudo in Debian stable).  I'd be curious to hear your thoughts on the pros and cons.
+"""]]
