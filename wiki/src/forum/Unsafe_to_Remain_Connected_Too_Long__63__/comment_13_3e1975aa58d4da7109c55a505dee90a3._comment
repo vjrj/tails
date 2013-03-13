@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-03-12T13:21:31Z"
+ content="""
+I don't see why it would be unsafe to run Tails more than a few hours, as long as you don't expect Tails magically isolates the different contextual identities you might want to use in a single Tails session.
+"""]]
