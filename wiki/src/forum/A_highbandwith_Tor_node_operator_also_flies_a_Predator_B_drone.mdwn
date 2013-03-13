@@ -1,0 +1,72 @@
+In a previous thread in this forum,
+
+      https://tails.boum.org/forum/Who_carries_half_of_all_Tor_traffic__63____38_operators/
+
+I listed 38 domains which carried just over half of all Tor traffice in mid-Februrary 2013.
+
+As of mid-March 2013, just over half of all Tor traffic is carried by just 41 domains:
+
+     B/W 	Nodes	Domain
+     234560	15	torservers.net
+     98054	13	ccc.de
+     63419	30	snydernet.net
+     59478	7	conformal.com	
+     51676	9	teamcymru.net
+     48487	8	formlessnetworking.net
+     38395	34	perfect-privacy.com
+     36454	13	ntnu.no
+     35000	3	dfri.se
+     32292	2	kromyon.net
+     31390	3	torland.is
+     30738	4	voxility.net
+     29046	1	axigy.net
+     25778	1	glasoperator.nl
+     23147	2	ph3x.at
+     21996	3	privacyfoundation.dk
+     21267	1	nordu.net
+     18576	4	noisetor.net
+     14427	4	torproject.org
+     13574	2	ucar.edu
+     12176	1	solidonenetworks.com
+     11969	4	62.113.250.0/24 (23media.de)
+     10983	1	spacedump.net
+     10662	5	ipredator.se
+     10443	1	bu.edu
+     10309	1	r3t.at
+     9247	9	hosteurope.de
+     8780	2	cypherpunks.to
+     8580	4	onlinehome-server.info
+     7978	1	sabotage.org
+     7961	1	mooo.se
+     7885	1	guilhem.org
+     7647	2	sec.nl
+     6697	1	Freedom (GB)
+     6614	1	my.littlecorner.org
+     6437	1	abuse.li
+     6279	3	net.ua
+     6135	1	lobstertech.com
+     6060	1	pm-ib.de
+     5898	1	saitis.net
+     5420	1	pomaz.hu
+
+Most of these domains are familiar from the earlier thread.  As previously discussed, some are known to be engaged in surveillance of the Tor network.  Some are considered "friendly" (for example, formlessnetworking.net seems to have ties to the author of Torbutton, and kromyon.net seems to have ties to Access Now, the open access advocacy group cofounded by the recently and tragically matyred Aaron Swartz.)  There are also a few newcomers to the roster of big bandwidth tor nodes.  
+
+The national breakdown is similar to last months results.  As before, the 41 domains appear to correspond to distinct entities with perhaps a handful of overlaps.  In one case domain registration information was unknown, which is why a numerical IP range is used instead.
+
+But there is one novelty which seems noteworthy.
+
+Would it surprise anyone here to learn that *at least one of these 41 organizations is known to operate at least one Predator B drone?* 
+
+(And yes, I really do mean the notorious Predator B drone manufactured by General Atomics, which has been the workhorse of the notorious drone remotely targeted assasinations conducted by the USA inside Pakistan, Yemen, Afghanistan, North Africa, and according to Attorney General Holder, in future, should the President deem it "convenient", inside the USA itself.)
+
+If this revelation shocks anyone, *this is a claim which I can support*, and fully intend to support, *by citing on-line documents*.  
+
+These documents are public, which will show that this intriguing factoid about the big bandwidth operators of the Tor network is not secret, but is even public knowledge.
+
+However, I think it will be fun and instructive to invite readers to try to guess (or to independently determine) the identity of the organization in question.  For now I'll just say it is one of the those listed above.  
+
+Bonus points for anyone who can guess or find out what this organization *says* it plans to do with this drone!
+
+Attention reporters: it seems that our factoid has not yet been noticed by Spencer Ackerman (of Wired "Threat Level"), Glenn Greenwald of the Guardian, the ACLU, EFF, EPIC, Privacy International, or other organizations tracking the drone strike issue.
+
+(I tried to provide links to some recent news stories on the drone issue, but the forum software robocensored my post.)
