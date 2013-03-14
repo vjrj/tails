@@ -1,0 +1,11 @@
+For anyone is curious, even if you did not create a root password when you booted Tails, and even if you are booting from a DVD rather than a USB stick, it seems that the following quick and dirty command will work:
+
+    watch "netstat -anp | grep EST"
+
+You can also try
+
+   watch "lsof -i"
+
+to see some information about processors listening on your computer, such as monkeysphere (whose benevolent purpose was explained in another recent thread).  As you surf, you will probably see iceweasel "talking" to the Tor controller (that's good).  You can see a local IP address (which has meaning only on your computer) followed a colon and a port number.  Over time you will learn to recognize where the Tor controller listens.
+
+Possible caveat: should "Tails" advise against this on the grounds of computer security, I withdraw the suggestion.  But right now I don't see why doing this occasionally would be particularly dangerous while using Tails booted from the DVD.
