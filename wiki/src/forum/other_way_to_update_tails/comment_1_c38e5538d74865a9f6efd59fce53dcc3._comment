@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-13T19:49:01Z"
+ content="""
+Officially supported ways to update Tails are listed here :
+
+https://tails.boum.org/doc/first_steps/usb_upgrade/index.en.html
+
+any other ways are not supported. You may try, but at your own risk.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-14T22:21:35Z"
+ content="""
+Wait a moment, please, could you at least provide a link to the geo* packages you have in mind?
+
+Before posting I tried man, apropos, but found nothing.  Then I checked the roster of Debian stable packages, but you say I found the wrong packages.  So please, where can we find some information about the geo* packages which *do* ship with Tails? 
+
+We are trying to hold up our end of the bargain, but if we can only find information on the \"wrong\" geo* packages, and you won't give a link to the \"right\" ones, you can surely see why we might feel that you are not helping us to learn more about how Tails works.
+"""]]

@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-14T21:10:43Z"
+ content="""
+Thanks TAILS,
+
+I checked the \"doesn't start\" info before - was hoping that SOMEONE had an idea of how to fudge the bootloader/etc to make it work with these DELL units (going to be a problem more and more I'll bet).
+
+Good old crufty non-standard hacks.  I know the dangers.  Just that Linux is not my flavor of *nix
+
+I'll file a bug, but it won't fix the issue. 
+
+It does boot from DVD, so I might break ALL the rules and simply kludge up a full disk install.
+
+I bought this machine specifically for Tor/TAILS.
+
+My other choice is to load Ubuntu 12.04LTS or 12.10 and hope I can \"fix\" all the leaks to make it work properly with Tor (aka like TAILS)
+
+"""]]
