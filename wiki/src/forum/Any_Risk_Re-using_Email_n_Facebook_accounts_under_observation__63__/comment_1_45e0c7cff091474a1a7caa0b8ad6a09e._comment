@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-06T19:35:40Z"
+ content="""
+> Facebook and Yahoo who have now handed over all the IP addresses list which the Tails had used for the last 40 days for all the activites.
+
+Tor Exit Nodes addresses are public information. One does not need a subponea to get it. So I don't know what you mean.
+
+> I have read the forum and understand that there is no chance for anyone to trace me because Tails uses encryption and encrypts all the IP addresses before sending them forward to other nodes.
+
+This is incorrect. You may want to read about how Tor works on the [Tor website](https://www.torproject.org/).
+
+> Is there any risk in [...]
+
+Really, please start at [[getting_started]] and learn some more before you put yourself into a dangerous situation.
+
+To end with, I fail to see how this is specific to Tails, so it looks like this is off-topic here, sorry.
+
+"""]]

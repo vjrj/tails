@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Juggler"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-08T22:06:03Z"
+ content="""
+Comment 1, the OP is probably concerned about protocol leaks.
+From the Whonix webpage: 
+\"ssh: Without Whonix, syntax for ssh is user@hostname [...], but if the user forgets to specific user before @hostname, the operating system user name will be used and if that is something identifiable, anonymity is broken. Since Whonix set the user name to user, in worst case, only the username user can be leaked, which is harmless. He could just have copied the syntax from the manpage. In another, similar project, Tails, the username is set to amnesia, which is also not something the user entered and therefore safe.\"
+
+Since this cannot be used to identify or fingerprint the user, it's not an issue, and according to the page below \"Tails makes it clear that you are using Tor and probably Tails\"
+https://tails.boum.org/doc/about/warning/index.en.html#index2h1
+"""]]

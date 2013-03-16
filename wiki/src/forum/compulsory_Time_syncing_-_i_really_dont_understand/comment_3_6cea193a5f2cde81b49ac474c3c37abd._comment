@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-27T10:10:03Z"
+ content="""
+FWIW, even if given a good patch, I'm not sure I'd like to make the Tails code more complex by making time sync' optional.
+"""]]

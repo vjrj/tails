@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-10T18:19:05Z"
+ content="""
+As I understand it, Monkeysphere and Convergence are two attempts to solve the danger posed by real-world MITM attacks mounted by miscreants who have obtained genuine but improperly issued SSL certificates from a badly run certificate authority (CA).  In one notable incident, a Farsi speaking person going by the moniker \"Ich Sun\" used a rogue certificate to target several high value sites, including Googlemail and the Mozilla add-on site, leading to speculation that a pro-Iranian-government hacker (possibly not state-authorized) was trying to mount MITM middle attacks on Iranian dissidents using Tor to evade the Iranian national firewall in order to maintain email contact with the outside world.
+
+From the encyclopedia which anyone can edit (and which American private prison company GEO recently altered to remove true but deprecatory information about its rampant abuses in a notorious \"youth prison\"):
+
+     https://en.wikipedia.org/wiki/Convergence_%28SSL%29
+
+> Convergence claims to be an agile, secure, and distributed strategy for replacing SSL Certificate Authorities.[1][2][3] Moxie Marlinspike released it in August 2011 while giving a talk titled \"SSL And The Future Of Authenticity\" on stage at the BlackHat security conference. It is currently a Firefox addon and a server-side notary daemon.  In the talk, Moxie Marlinspike proposes that all of the current problems with the CA system can be reduced to a single missing property, called \"Trust Agility,\" which Convergence is designed to provide.
+
+> ...
+
+> The Monkeysphere Project tries to solve the same problem by using the PGP Web of Trust model to assess the authenticity of https certificates.
+
+Does this resolve your concern?
+
+"""]]

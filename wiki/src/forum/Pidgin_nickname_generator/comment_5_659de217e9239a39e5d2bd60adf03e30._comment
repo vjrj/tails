@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="please fix the link on the design page"
+ date="2013-03-11T15:16:38Z"
+ content="""
+BTW, I was not able to fix the link on the design page (page locked):
+
+config/chroot local-includes/lib/live/config/201-pidgin
+
+should be instead
+
+config/chroot local-includes/lib/live/config/201**0**-pidgin
+
+Is this typo-mistake responsible for this (now old and perhaps solved) bug?  
+<https://tails.boum.org/bugs/non-random_nick_in_Pidgin/>  
+I've been briefly search in the gitweb, but was not able to locate user's `/var/lib/live/config`, and so not able to verify if this hook was correctly called..
+
+Cheers,  
+Tom
+"""]]

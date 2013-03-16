@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-04T21:46:53Z"
+ content="""
+I also recall seeing various comments, from various posters, urging Tails users to reboot frequently for various reasons.  For example, I recalling seeing such a statement in a discussion in which the subject of the \"new identity\" button in Vidalia arose, which led to a discussion of of the limitations of that feature.
+
+Also, I know of about one dozen distinct de-anonymization attacks on Tor users, and some of these suggest various different reasons why prolonged Tor use generally can be dangerous.  To mention just one example, using bridges can help you in some ways but potentially harm you in others.  And using a dozen bridges could be worse than using just one or two.
+
+The situation appears to be quite complicated, with various authors urging that just about any measure one might take helps defend against attack A, while *harming* defense against attack B.  Not infrequently, the conclusions reached by privacy researchers are contrary to the intuition, I suspect, of most Tor users.
+
+
+
+It would be helpful to have a guide to the most widely discussed attacks on Tor.
+"""]]

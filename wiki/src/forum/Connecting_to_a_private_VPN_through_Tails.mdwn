@@ -1,0 +1,9 @@
+Hey I've used Tails for a while now and recenlty started using a private VPN for my PC setup.
+
+What I'm wondering is if connecting through a so-called private VPN will make my traffic in Tails more anonymous, less anonymous, or not really make a difference.
+
+Correct me if I'm wrong, but VPN's encrypt your data in the tunnel to the connection point, from which it then goes wherever it needs to go. If connecting via a VPN, traffic would be encrypted to the waypoint then obfuscated by Tails/Tor from there. Meaning, even if an attacker tracked traffic to my end, it would only track it to the waypoint. And since the VPN is private, there wouldn't be any personally identifying information.
+
+Thanks in advance for your thoughful reply. 
+
+-LeTanque

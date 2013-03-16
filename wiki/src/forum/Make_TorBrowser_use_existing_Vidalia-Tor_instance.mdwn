@@ -1,0 +1,1 @@
+When starting TorBrowser from the linux binary bundle, is there a way to make it use existing vidalia instance? And make it so that when TorBrowser is closed, vidalia/relay keeps running.
