@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-14T21:17:19Z"
+ content="""
+You cannot run Tails off of an entirely encrypted USB drive, the Tails OS itself has to be stored unencrypted to be bootable.
+"""]]
