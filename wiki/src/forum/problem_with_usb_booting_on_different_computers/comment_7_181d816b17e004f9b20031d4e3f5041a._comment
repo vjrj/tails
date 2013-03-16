@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="problem solved"
+ date="2013-03-01T17:04:28Z"
+ content="""
+hi again I am the person that created this post, first I'd like to say that the problem I had, had nothing to do with tails, I did not have a problem with the bootloader or any part of tails, it was the usb stick that my netbook could not read for some reason, I simply upgraded the usb I had with tails 0.16 to tails 0.17 using tails usb installer and it works, thank you guys for your help and advise.
+"""]]

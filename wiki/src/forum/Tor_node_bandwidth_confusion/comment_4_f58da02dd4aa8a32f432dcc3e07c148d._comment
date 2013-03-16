@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-25T18:32:51Z"
+ content="""
+> comment 2
+
+You are correct, Tor was basically designed in such a way that even it all of the nodes ended up being malicious it would still theoretically be very hard to track somebody down, comment 1 seems to have very misguided knowledge about how Tor works, as for the actual problem this thread is about, I can't say I really have an answer beyond the fact that vidala isn't the most accurate thing in the world and Tor is rather complex so it was could  just be the case of vidala showing and old configuration, or the download itself running on an old connection that resulted in the bandwith mismatch or something equally harmless.
+"""]]

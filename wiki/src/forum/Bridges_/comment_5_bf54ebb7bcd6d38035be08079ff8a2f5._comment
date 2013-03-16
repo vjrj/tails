@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-04T22:46:30Z"
+ content="""
+Forgot to say: by default, tor clients use entry guards, not bridges.  See
+
+     https://tails.boum.org/forum/What_are_entry_gaurds__63__/
+
+for an explanation of the rationale behind using entry guards.
+
+If you do want to use bridges (to defend against an ISP which blocks Tor, for example), get some from 
+
+     bridges.torproject.org
+
+and try to verify that the certificate and IP address of the server you reach appear reasonable.  (To mitigate the risk of arriving at a malicious imitation server instead of the genuine server.)
+"""]]

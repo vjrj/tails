@@ -1,0 +1,94 @@
+One thing which the Tails userbase could possibly to do to help increase the population of people who use Tails reasonably wisely is to try to explain the rationale for the key feature of booting Tails from a R/O DVD: *no persistent data is written in a permanent form* 
+
+(At least not if all goes as it should, and assuming no hardware keyloggers or other espionage equipment are able to subvert Tails design philosophy).
+
+To understand the significance of this design philosophy for bloggers, dissidents, union organizers, and whistleblowers, it helps to look at what is being done to essentially every FF/IW (and possibly TBB) users by ad brokers who routinely store persistent data (files which persist across browser restarts and even system reboots) in browser-related databases in your computer.  I am not sure that Tails can prevent that, but it can prevent these files from persisting across reboots or being permanently available to snoops who access your hard drive.
+
+In this post I discuss only the current Firefox ESR (as I write) and very similar browsers such as Iceweasel ESR, Tails 0.17, and TBB 4.3.25-4.
+
+Some popular methods of storing user-specific information are:
+
+* http cookies: not so popular with ad-brokers anymore, since they are easily deleted by users and only store limited amounts of profiling data
+* LROs or "flash cookies": very popular a few years ago, since they can store much more data and are hard to delete, but media attention has caused more people to learn how to avoid acquiring them
+* http etags: ubiquitous and apparently hard for Tails and TBB users to avoid acquiring, but apparently can be deleted from the browser cache
+* auth tags: apparently cannot be deleted by Tails and TBB users without restarting the browser (which might not be wise when using Tails)
+* DOM storage: works well with html5 and said to be rapidly growing in popularity due to even larger storage capacities and to being even harder to delete; apparently cannot be eliminated by TBB users
+
+See
+
+     https://en.wikipedia.org/wiki/HTTP_cookie
+     https://en.wikipedia.org/wiki/Evercookie
+     https://en.wikipedia.org/wiki/HTTP_ETag
+     https://en.wikipedia.org/wiki/Basic_access_authentication
+     https://en.wikipedia.org/wiki/Web_Storage
+
+for some basic information.
+
+In this post I want to focus on explaining how you can look at and monitor the increasing size of DOM storage in Firefox ESR type browsers as you surf, and to see whether information appears to persist across TBB/FF/IW restarts and system reboots.
+
+Here are the principle directories where you can look for DOM storage (but be aware that when their hiding places are discovered, ad-brokers always try to start hiding their data someplace else on your computer):
+
+TBB:
+
+      /path/Data/profile
+
+(where path is the path to the tor-browser directory inside the directory where you unpacked the TBB tarball)
+
+Tails: 
+
+     /home/amnesia/.mozilla/firefox
+
+Firefox ESR:
+
+(look in your home directory for something like .mozilla or .firefox or .profile and dig down until you find a directory containing sqlite databases with names like "chromeappstore" and "webappsstore")
+
+Some of the more notable files you may find are:
+
+* cookies.sqlite: may contain cookies from sites you never actually visited (especially because so many popular websites have Facebook and Google apps which may stick this inside your browsers storage)
+* places.sqlite: usually contains your personal bookmarks, urls of websites you have visited, user site preferences, site attributes, and even site favicons, all of which can and are used to reidentify you when you revisit websites, and to profile you as an individual as websites share information about you with their business partners, such as Facebook and *its* business partners, which include such notorious data-brokers as Axciom, Epsilon, DataLogix, BlueKai
+
+For what information about Facebook admits to sharing with data brokers and to see how hard they try to avoid letting you opt-out, see:
+     http://techcrunch.com/2013/02/27/facebook-ad-data-providers/
+     https://www.eff.org/deeplinks/2013/02/howto-opt-out-databrokers-showing-your-targeted-advertisements-facebook
+You can also look for news articles on a huge data breach of Epsilon which occurred a few years ago and which exposed a vast amount of personal data about millions of people who had never heard of this company to criminals.
+
+* places.sqlite-wal: from the name, I'd guess this is supposed to be used by a "wallet" to store electronic payment data; if so, this would be a prime target of any snoop who images your hard drive at some later date; interestingly enough, in my experiments with TBB, even though I am certainly not conciously making any payments to anyone (or using a password wallet), places.sqlite-wal seems to increase in size over time, suggesting that some data brokers are being even craftier about where they try to hide personally-identifying user profiling data.
+* signons.sqlite: this contains all your username and password combinations; the passwords are hashed but adversaries who are able to image your disk (for example a customs agent in an international airport) routinely use rainbow tables to recover the plaintext passwords, which they can then share with their international partners (or anyone else, for that matter); interestingly, I find that in TBB this seems to increase in size even though I am not signing on to any websites (could it be possible that that those omnipresent Facebook, Twitter, and Google apps are secretly "signing us in" to Facebook, Twitter, or Google without our knowledge, and then sticking data about what sites we visit into DOM storage, even if we are surfing with TBB?; certainly NoScript insists upon excepting Google and friends from some of its most important script blocking)
+* formhistory: contains all the http forms you have ever filled out on-line, for example to register a consumer complaint or constituency feedback on some politicians official website; needless to say this is one of the most "interesting" databases for snoops who have imaged your hard drive
+* chromeappstore: should contain search engine preferences, but seems to change size, suggesting that some search engines may store search history here; this data can be used to identify you since your search engine preferences can help single you out as a unique individual when taken in conjunction with other user-specific data; this is particularly worrisome because of the persistent rumors that vendors of state-sponsored malware like Gamma International and Hacking Team are hard at worm on "remote imaging" intended to clandestinely *remotely* image your computer disk and possibly even RAM while you are using it  
+* webappsstore.sqlite: contains all XAuth tokens, which are said to be used by services like Google's global sign-on. 
+* extensions, add-ons: contain user preferences for any mozilla add-ons; in either TBB or Tails you should find data kept by the NoScript add-on, for example, although they seem to keep these in different places
+
+All of the sqlite databases can be exported to spreadsheets using SQLite table manager, which snoops can install on their hard copy of your disk inside the copy of your browser data.  It should be possible for any of us to install SQLite ourselves, but I'd recommend trying that only with a Firefox ESR that you use as an unsafe browser purely for testing.  
+
+An easier and probably safer method of keeping an eye on what bad guys are doing to your browser is to simply watch how the sizes of these files change as you surf.  For example, using TBB, I tried adding a bookmark to one site and found that this increased the size of a DOM storage file by almost 2 MB, which gives some idea of the amount of personalized data which browsers may try to "helpfully" store when you think you only stored a URL.
+
+You can also try the linux command
+
+    strings places.sqlite
+
+which in my experiments often shows a good deal of unencrypted information associated with personal bookmarks.
+
+Here is a simple script which works both in Tails and in TBB under Linux:
+
+     #!/bin/sh
+     ls -lah | column | awk '{print $1, $9, $5}' | grep -v "^d" | awk '{print $2,$3}' | grep -v "^\." | column -t
+
+In my experiments so far, Tails is either much better than TBB at eliminating DOM storage, or puts DOM storage somewhere I didn't yet find, so I don't actually have much to report about the Tails browser's use of DOM storage yet.  But even if you only boot Tails from a R/O DVD, and reboot frequently, should you revisit sites (such as search engines) as you surf you could potentially be reidentified using DOM storage, unless Tails prevents personally identifying information from even being stored in RAM.
+
+These DOM storage databases typically consist of hashed lists in the style familiar to python users.  For example, Facebook stores vast amounts of information about all of its users, categorizing them by what it or its partners know about what model of car they drive, how much they earn, their favorite color, etc.  Needless to say such data is among other things a veritable treasure trove for bad guys who seek to craft highly personalized phishing attacks on specific journalists, bloggers, political dissidents or other perceived "enemies of the state/company".
+
+DOM storage files are supposed to be accessible only by the domain which originally put the data on your computer, but due to the uniquity of Facebook, Twitter, and Google apps in so many websites, data brokers are liable to write personally identifying user profiling data into DOM storage as you surf around the web, and make all of it available to many or most of the websites you visit (or the ad-brokers who serve adds there).
+
+It is important for ordinary citizens to understand that such forensic techniques are not available to or used ("legally") only by law enforcement agencies: they are routinely used by private investigators, who are often hired by:
+* divorce lawyers in nasty child custody cases
+* legal discovery firms hired by the lawyers for a rival company engaged in civil litigation with your employer
+* your employer (if you work for a business too small to have its own IT department)
+or for IT technicians working for your employer (if it is large enough).
+
+Quite a few would-be whistleblowers have been fired on the basis of such examinations of PCs or laptops, sometimes even of computers which the employee uses bought himself/herself and uses only at home.
+
+In my experiments so far, Tails booted from a DVD seems to do much better than TBB at limiting (maybe even preventing) the use by our adversaries of DOM storage to track us as we surf around the web.
+
+But I'd be interested in hearing from people who boot Tails from a USB stick whether they see DOM storage files which increase in size and persist from boot to boot, especially if the available user requests for removal do not seem to clear this user-specific information.
+

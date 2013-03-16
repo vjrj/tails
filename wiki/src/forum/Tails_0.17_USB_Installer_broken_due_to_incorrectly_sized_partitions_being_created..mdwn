@@ -1,0 +1,1 @@
+In the newest 0.17 USB Installer, failure is inevitable as it creates an incorrectly sized partition and then complains it's too small. This affects both the Clone & Install and Clone & Upgrade modes. 

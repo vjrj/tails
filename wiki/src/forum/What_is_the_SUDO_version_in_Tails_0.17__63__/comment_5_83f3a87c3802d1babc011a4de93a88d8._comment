@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-06T22:43:42Z"
+ content="""
+From 
+
+     https://threatpost.com/en_us/blogs/time-stamp-bug-sudo-could-have-allowed-code-entry-030513
+
+
+>  A vulnerability in sudo – a program that manages user privileges on certain types of systems – could allow an unauthenticated user to execute commands for about five minutes, without entering a password.  The problem, which has since been fixed, previously existed in builds 1.6.0 through 1.7.10p6 and 1.8.0 through 1.8.6p6 of sudo
+
+It seems that Tails 0.17 uses sudo version 1.7.4p4. The vulnerability was announced a few days *after* Tails 0.17 was released, if I am not mistakes.
+
+So it seems that this *does* affect Tails 0.17.
+
+It seems that the vulnerability is a local vulnerability allowing someone who is already logged into a Tails system to execute commands with root privileges for several minutes.  This would presumably not be a problem if one believes that there are no undisclosed *remote* vulnerabilities in Tails 0.17 which could perhaps be exploited together with the sudo problem.
+
+@ \"Tails\":
+
+Did I guess correctly about your thinking?
+  
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-07T03:32:42Z"
+ content="""
+>This would presumably not be a problem if one believes that there are no undisclosed remote vulnerabilities in Tails 0.17 which could perhaps be exploited together with the sudo problem.
+
+Your guess is correct.
+
+And the logical conclusion of your statement is this:
+
+If ever you discover that your Tails session has been hacked, it can only mean that Tails staff and/or people very close to Tails are behind the attack. Such people may include the sponsors of Tails, the latter of whom may comprise US National Security Agency, FBI, CIA, UK's MI5, China's PLA or Israel's Mossad.
+
+The reason is \"the undisclosed remote vulnerabilities in Tails\" are always known to Tails developers.
+"""]]

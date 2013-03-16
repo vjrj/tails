@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-11T19:45:34Z"
+ content="""
+My guess is that the OP's school has a simple captive portal that allows access for the MAC address of the user's machine after a successful login. So perfectly normal, but of course the privacy implications need to be taken into account - Tor works as expected, but there will be a trail about who was accessing the net from a certain pc at a certain time.
+
+"""]]

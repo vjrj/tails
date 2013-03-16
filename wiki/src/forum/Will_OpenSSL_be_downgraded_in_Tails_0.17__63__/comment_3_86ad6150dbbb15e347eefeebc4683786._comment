@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-26T14:47:14Z"
+ content="""
+Tails 0.17 ships OpenSSL 0.9.8o-4squeeze14 that fixes <http://www.debian.org/security/2013/dsa-2621>.
+
+"""]]

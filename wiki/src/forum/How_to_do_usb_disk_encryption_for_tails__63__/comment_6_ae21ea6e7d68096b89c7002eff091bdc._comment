@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-15T14:03:04Z"
+ content="""
+> I have another question i hope tails could answer, if i create a USB with a persistent drive and a government spy gets hold of it without me knowing and attempts to place a backdoored version of tails in order to grab my key, would that be possible with my persistent volume inside of tails, or is it separate from the OS so that one could load a new version of tails directly onto the USB without affecting the encrypted volume?
+
+Yes, they can do it
+"""]]

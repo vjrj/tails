@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-02T09:40:21Z"
+ content="""
+This sometimes happens to folks who have added random cruft (e.g. a Tails ISO) to the Tails partition on the USB stick used as a source for the clone.
+In supported usecases, the installer works fine.
+
+"""]]
