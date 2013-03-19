@@ -1,0 +1,6 @@
+# Fix for Debian bug #645466.
+# Note: Must be applied after /lib/udev/rules.d/91-permissions.rules
+
+SUBSYSTEM=="block", SUBSYSTEMS=="usb", \
+	IMPORT{program}="/usr/local/sbin/udev-boot-dev-helper %k"
+SUBSYSTEM=="block", SUBSYSTEMS=="usb", ENV{IS_ON_BOOT_DEV}=="yes", GROUP="disk"

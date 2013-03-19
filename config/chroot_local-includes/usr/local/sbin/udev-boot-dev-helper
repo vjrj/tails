@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Turns out we cannot use function using `udevadm` in this library for
+# this script since it's used in an udev rule; at that time the udev
+# database isn't finished and any queries in it cannot be trusted.
+. /usr/local/lib/tails-shell-library/boot.sh
+
+# XXX: This code is pretty crude thanks to not having udev to query
+# for the parent device. In Wheezy with its newer blkid we'll be able
+# to determine the parent device more reliably, if we care.
+boot_part_id=$(mountpoint -d "${BOOT_IMAGE}")
+boot_part=$(dev_id_to_block_dev "${boot_part_id}")
+boot_dev=$(echo ${boot_part} | sed 's/[0-9]*$//')
+if [ -b "${boot_dev}" ] && \
+    echo ${boot_dev} | grep -q "^/dev/sd[a-z]$" && \
+    echo /dev/$1 | grep -q "^${boot_dev}"; then
+        echo IS_ON_BOOT_DEV=yes
+fi
