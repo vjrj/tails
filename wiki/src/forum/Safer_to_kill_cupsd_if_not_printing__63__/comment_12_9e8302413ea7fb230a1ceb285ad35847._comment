@@ -1,0 +1,39 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-03-19T20:05:35Z"
+ content="""
+> and certainly never meant to suggest that I was in any way *demanding* such
+> from anyone
+
+Cool. This is what I understood initially, and why I simply and shortly
+explained why I would *not* spend time working on this. I did not suggest you
+*demanded* it or something, and I'm glad you were not.
+
+> If I have somehow misread you, then I apologize.
+
+I accept your apologies.
+
+> Second, were you speaking for all of your fellow Tails devs?
+
+I was speaking for myself: \"my personal commitment\" is *mine*. I'll say \"we\" and
+\"our\" when I mean it :)
+
+> Finally, I would challenge your dismissive characterization that my inquiry
+> concerned nothing more than a marginal, \"custom matter\".
+
+Yeah, perhaps a half of Tails users would marginally benefit from disabling
+CUPS, that's needed by others. Another half may marginally benefit from removing
+this or that software, that's needed by others, etc. This is all fine and great,
+and users are obviously free to customize their Tails to their liking... as long
+as they don't expect any support from us whatsoever: we're happy to provide
+support for Tails, but *not* for the result of combining every possibly
+meaningful customization of Tails. Fair enough?
+
+To end with, I'm happy to *consider* and *discuss* all this once I'm shown that
+CUPS is dangerous enough, in Tails threat model, to be worth that many words
+and work. Sorry for perhaps not being proactive enough on this topic, and sorry not to be thrilled about every possible discussion about Tails,
+see [[todo]] and [[contribute/roadmap]] to get an idea why ;)
+
+"""]]
