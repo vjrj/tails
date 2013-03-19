@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-12-24T01:05:10Z"
+ content="""
+@ the OP:
+
+You must have reposted material from several webpages, correct?  I don't think that's very useful unless you give links and just quote small relevant portions from each page, together with your own questions.
+
+To quote text, start a line with \"> \"; see this page:
+
+<https://tails.boum.org/ikiwiki/formatting/>
+
+In general, if you can clearly state questions and can explain how they relate to your use of Tails, I think your threads will be more likely to be permitted here.  In general, I suspect that hitting the capslock key invites mockery even in a forum in which the readership presumably favors anonymity over surveillance.
+
+> For Linux, I've ran rkhunter, chkrootkit, tiger, and other tools and nothing malicious is found. Without a deep binary analysis I don't know what else I could do.
+
+Those are all available as Debian packages (good!) but they are all old and I am not sure that two of them are even maintained (bad!).  I believe that they are all intended to address the problems of a novice sysadmin trying to maintain a LAN with many computers shared by many users, such as a university system, not for the problems faced by the typical Tails user in 2012.
+
+Rkhunter is apparently maintained to some minimal extent, and it may possibly still be of some use for Tails users. But if you use it a lot, you should expect some false positives over time, so you'll need to know of some forum where you can ask for advice from more experienced users when you get a warning.  Unfortunately, the moderators here have said that they don't want to see any questions here which are not narrowly focused on Tails specifically.  Worse, it seems that there may be currently no alternative forums suitable for Tails users.  (LQ is not for reasons recently discussed in another thread here.)
+
+> I may take apart the LCD monitor, I'm looking for a good list of what I'll find if I do.
+
+I am not sure whether you (the OP) wrote that, or are simply quoting from someone else, but taking apart anything which might have capacitors could pose an electrocution hazard even if the item is not plugged in.  So taking apart a *CRT* monitor could potentially be dangerous.
+
+Linux packet radio is one interesting topic you raised which in the short term probably offers more opportunities for activists than for autocrats.  So too bad we can't discuss it here, because clearly this forum needs the occasional optimism-promoting thread.
+"""]]

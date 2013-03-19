@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Hmmm... this raises an interesting point."
+ date="2012-09-02T11:07:14Z"
+ content="""
+>Why would not amnesia privileges be appropriate during Reload?
+
+The system's package indices & cache are system files. They should only be manipulated by \"root\".
+
+>Is it safe over Tor to require Synaptic Package Manager to operate a Reload while in the root account?
+
+This is where things get interesting. Regarding actual package transfer/installation: From what I recall of the structure of .debs, significant pains are taken via hashes and signatures to ensure the authenticity of the package's binary payload. All well and good. However .deb packages can and do also include various installation/configuration scripts. As I recall these scripts are utterly overlooked - no attempt being made to validate them whatsoever. Adding/modifying/replacing these scripts with arbitrary code should therefore be straightforward, requiring nothing more than a bit of twiddling with the ubiquitous Tar/Gzip and an archaic archiver called Ar. If one was able to intercept the transfer, it would thus be trivial to arbitrarily modify the *script* payload of a .deb and as these scripts are invariably run by root, might this be considered to pose something of a security consideration? ;-)
+
+So, I suppose the important part of this question is, \"How secure are the apt-get transfer protocols?\" I'd be surprised and dismayed if there wasn't *at least* a bit of SSL/TLS involved but can recall only ftp and http (note the conspicuous absence of any Ss). Apt doesn't seem to care, except for the *binary* payload, so how does apt-get conduct its transfer accounting? Surely a MITM can't run *arbitrary* code *as root* on any apt based system merely by spoofing the package server? That can't be the case - it's just silly. ...and after the appalling OpenSSL débâcle, it'd probably be the end of Debian. Not being a network type, I can't say I've even so much as glanced into this, as no-doubt is obvious, so I'll gladly defer, with interest, to someone with knowledge of the subject.
+
+**How secure are the apt-get transfer protocols?**
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-23T21:34:02Z"
+ content="""
+I think they tried to upgrade from OpenSSL 1.0 in the immediately previous TBB (version 25-3), but that turned out to break SSL for some TBB users, so in the current version (version 25-4) they reverted to using the version of OpenSSL which was used in version 25-2.
+"""]]

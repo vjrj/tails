@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-21T10:14:08Z"
+ content="""
+No, it means a totally different thing!
+
+\"TailsData\" is the name of the partition used for persistence (if set up). In earlier versions you could see it in Nautilus sidebar, while now it's hidden. That's all.
+"""]]

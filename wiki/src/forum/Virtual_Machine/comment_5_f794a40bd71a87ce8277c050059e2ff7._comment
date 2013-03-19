@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-21T02:48:46Z"
+ content="""
+Interesting. So, an adversary with root priviledges can easily force a direct non-traffic connection to a destination of their choice. 
+
+Now, suppose I get infected with some form of malware while browsing the web using Tails and the attacker gets root access to my machine. Does this mean the attacker automatically knows my real IP? Or does it take CONSCIOUS action on the attackers part to enforce a non-torrified connection to a destination of their choice?
+
+What I mean is, would my anonymity be safe even if my system is compromised if the attacker's purpose is other than to find out what my real identity is? I guess I'm referring to your average cyber criminal, who just wants to use my computer to send spam or to conduct DODS attacks.
+"""]]

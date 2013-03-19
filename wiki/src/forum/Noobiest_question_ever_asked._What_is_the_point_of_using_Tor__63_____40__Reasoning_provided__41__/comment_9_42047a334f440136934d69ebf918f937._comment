@@ -1,0 +1,32 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-12-12T17:25:07Z"
+ content="""
+@ comment 8:
+> [...] owning multiple entry nodes and exit nodes however would increase that chance slightly.
+
+In general, controlling both the Entry node and the Exit node of a circuit is considered game over as far as Tor's anonymity goes. The Tor design makes it very clear that it deals with traffic analysis only, and that it doesn't protect against traffic confirmation or end-to-end correlation attacks, which is what you describe.
+
+One thing Tor does to partially protect against confirmation attacks by adversaries controlling multiple nodes is to use [Entry Guards](https://www.torproject.org/docs/faq.html.en#EntryGuards). But it's certainly no panacea.
+
+> But it should be noted that TOR is designed such that even if we assume that all TOR servers are government run it would still be extremely hard if not impossible to directly correlate somebody's traffic because of various techniques that TOR uses to make the data harder to correlate combined with the large amount of traffic a single node tends to get.
+
+I believe this statement is incorrect. Do you have sources? My source is the following quote from the [Tor design paper](https://svn.torproject.org/svn/projects/design-paper/tor-design.html):
+
+> End-to-end timing correlation. Tor only minimally hides such correlations. An attacker watching patterns of traffic at the initiator and the responder will be able to confirm the correspondence with high probability.
+
+The quote continues as follows:
+
+> The greatest protection currently available against such confirmation is to hide the connection between the onion proxy and the first Tor node, by running the OP on the Tor node or behind a firewall. This approach requires an observer to separate traffic originating at the onion router from traffic passing through it: a global observer can do this, but it might be beyond a limited observer's capabilities.
+
+But this has been highly contested in recent research. Running an \"Onion proxy\" (= a Tor relay) and Tor client on the same machine may be actually be bad, **not good**, for the Tor client's anonymity.
+
+All is not lost, though. Let me quote something I wrote in another thread:
+
+> There are some [indications](http://archives.seul.org/or/dev/Sep-2008/msg00016.html) suggesting that dragnet type surveillance by global adversaries may not be as efficient as earlier thought. See especially \"Example 1: Fully Correlating Global Adversary\". It gives some good numbers on how more activity in anonymity networks makes such attacks harder. In fact it shows that the effeciency of dragnet surveillance decreases quadraticly with the amount of activity (concurrent streams) in the network at any point, but only increases linearly with the effectiveness of the correlation detector. So if we get a tenfold increase of activity we're better off even if the adversary's correlation detector has improved tenfold as well.
+
+> Conclusion: to defend against global adversaries anonymity networks need more users that can generate activity and more relays to make that possible.
+
+"""]]

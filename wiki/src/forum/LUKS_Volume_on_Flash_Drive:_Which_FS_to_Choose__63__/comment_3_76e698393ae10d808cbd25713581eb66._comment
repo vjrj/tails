@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="ntfs with Linux is not a good idea"
+ date="2012-08-01T01:14:16Z"
+ content="""
+\"Having had corruption problems with ntfs-3g\"
+
+If NTFS-filesystem is corrupt, you need MSWindows checkdisk to
+repair.
+Without windows NO chance)-:
+Fuck Microsoft
+"""]]

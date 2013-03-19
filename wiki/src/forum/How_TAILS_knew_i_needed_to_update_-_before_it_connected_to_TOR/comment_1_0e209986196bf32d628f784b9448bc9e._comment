@@ -1,0 +1,36 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-17T10:19:15Z"
+ content="""
+That's not even possible - iptables (the firewall in tails) prevents any packets from exiting the machine except through tor or i2p:
+
+   root@amnesia:~# iptables-save 
+   *nat
+   :PREROUTING ACCEPT [80:6223]
+   :INPUT ACCEPT [0:0]
+   :OUTPUT ACCEPT [1583:95015]
+   :POSTROUTING ACCEPT [1583:95015]
+   -A OUTPUT -d 127.192.0.0/10 -p tcp -m tcp -j REDIRECT --to-ports 9040 
+   COMMIT
+   *filter
+   :INPUT DROP [77:6127]
+   :FORWARD DROP [0:0]
+   :OUTPUT DROP [0:0]
+   :lan - [0:0]
+   -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT 
+   -A INPUT -i lo -j ACCEPT 
+   -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT 
+   -A OUTPUT -d 127.0.0.0/8 -j ACCEPT 
+   -A OUTPUT -d 192.168.0.0/16 -j lan 
+   -A OUTPUT -d 10.0.0.0/8 -j lan 
+   -A OUTPUT -d 172.16.0.0/12 -j lan 
+   -A OUTPUT -m owner --uid-owner debian-tor -j ACCEPT 
+   -A OUTPUT -m owner --uid-owner i2psvc -j ACCEPT 
+   -A OUTPUT -j REJECT --reject-with icmp-port-unreachable 
+   -A lan -p tcp -m tcp --dport 53 -j REJECT --reject-with icmp-port-unreachable 
+   -A lan -p udp -m udp --dport 53 -j REJECT --reject-with icmp-port-unreachable 
+   -A lan -j ACCEPT 
+   COMMIT
+
+"""]]

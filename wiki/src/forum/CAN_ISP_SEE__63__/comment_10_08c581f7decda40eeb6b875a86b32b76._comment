@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-11-12T02:57:12Z"
+ content="""
+if ExcludeNodes works, visit blutmagie's tor status page, search for nodes for your ISP and add these nodes to your ExcludeNodes section within the torrc file. the nodes come and go so you may have to do this weekly.
+
+what is to stop the ISP from impersonating the tor network or blocking a select number of nodes forcing your client to use only a small or tiny segment of nodes?
+"""]]

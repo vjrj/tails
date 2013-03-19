@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-30T18:48:03Z"
+ content="""
+@ OP:
+
+As you can see from some of the responses above, some people don't want you to learn why emailing is so hard do anonymously!
+
+Another good place to slowly learn more over time is the Tor-Talk mailing list.  You can't participate without using email, how ironic, but it is possible (if unneccessarily difficult) to browse posts at
+
+    https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk
+    http://archives.seul.org/or/talk/
+
+A link which directly addresses the email issue, which I got from a Tor-Talk post, is Tom Ritter's excellent new site discussing why it is so hard to design remailers (a vaguely Tor-like approach to email anonymity):
+
+     https://crypto.is/blog/
+"""]]

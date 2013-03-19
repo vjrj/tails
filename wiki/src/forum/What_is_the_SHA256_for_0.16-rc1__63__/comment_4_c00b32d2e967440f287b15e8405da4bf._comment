@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-20T22:46:28Z"
+ content="""
+>If several of us post their checksums here and they are all the same, then you can be sure that your downloaded ISO hasn't been tampered with.
+
+How charmingly naive.
+
+There's something called a signature which does what you're trying to do (but can't hope to achieve)
+"""]]

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-08T17:11:31Z"
+ content="""
+@ Comment 4:
+
+Agreed, stats distinct from status notices. 
+
+@ \"Tails\":
+
+That's good to know.  But when I type in known exit routers sometimes the Atlas returns information and sometimes returns no results.  I have tried Atlas several occasions over time and noticed this.  I've had much better luck with blutmagie list.
+
+@ All:
+
+I for one am having trouble contacting check.torproject.org again.
+
+I assume that TBB (Tor Browser Bundle) is more widely used than Tails.  For Tails users who haven't tried TBB: when a user starts TBB, the browser client (a modified IW/FF) contacts check.torproject.org to check that the user is using the most recent version of TBB.  
+
+A presumed increased load on check.torproject.org (and a noticeable increase in Tor servers in Russia) may be related to the new system there resulting in more people using TBB.  Or maybe some adversary of the Tor network is mounting a DDOS attack on check.torproject.org?  I've also noticed delays at boum.org, but maybe that could be due to (unrelated?) stress on riseup.net servers due to the weather affecting their East coast servers, causing members who normally use those servers to use the West coast ones instead.
+"""]]

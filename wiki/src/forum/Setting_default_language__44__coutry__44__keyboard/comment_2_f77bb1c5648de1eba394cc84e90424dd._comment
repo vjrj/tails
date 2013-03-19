@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-12T07:50:45Z"
+ content="""
+>When I manually select the language (Japanese) it also sets country and keyboard.
+
+You can just set the keyboard back to the one you have - it won't automatically un-set your language choice ;-)
+"""]]

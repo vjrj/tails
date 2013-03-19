@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-24T11:38:48Z"
+ content="""
+I am running tails in an encrypted virtual machine.  It warns me about the virtual machine but i am not concerned.  but i want it to not be so amnesic.
+"""]]

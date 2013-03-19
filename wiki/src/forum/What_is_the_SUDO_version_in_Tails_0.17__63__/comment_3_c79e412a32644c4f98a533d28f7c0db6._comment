@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-05T15:15:43Z"
+ content="""
+@ Tails
+
+Tails 0.17 ships with an affected \"sudo\" vulnerability.
+
+Are there any plans to roll out a fix for it in the next few days?
+
+What can Tails users do to work around the bug in the meantime?
+"""]]

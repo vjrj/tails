@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-02-01T03:47:43Z"
+ content="""
+>>Google has recorded something (location, preferred language...) when you used this account outside of Tails, that allows them to now link this account to a country. This is sad, but Tails cannot do anything about it.
+
+>Maybe, but I've checked all the settings and none of them point to my country.
+
+Google doesn't provide you with access to all the data it has associated with your identity.
+
+>The most strange thing is that sometimes my country appears in the URL and other times not.
+
+Have you correlated this against the identity and reported location of the exit node you're using at the time?
+
+>>blogspot.com is a Google service, so it's no big surprise they have the same information available, once you've logged in into a Google account that was linked to a given country.
+
+>Wasn't logged in or had cookies when I responded on blogspot.
+
+Sounds like you browsers preferred language is being left at \"en-US\" so that's the content you're receiving but an intermediate redirection is passing your connection to a server serving the location of your exit node at that instant... which \"sometimes\" happens to match your actual location.
+
+"""]]

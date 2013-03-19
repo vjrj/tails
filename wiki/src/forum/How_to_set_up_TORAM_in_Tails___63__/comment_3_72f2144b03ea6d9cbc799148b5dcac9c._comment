@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-24T22:01:55Z"
+ content="""
+1.) How exactly does one add `toram` to kernel arguments at boot?
+
+2.) After successfully booting TAILS into RAM, I assume that the disk can be removed?
+
+3.) What are the respective *minimum* amounts of RAM required for:
+a) running TAILS from RAM
+and
+b) running TAILS from RAM *without suffering any considerable performance loss*
+?
+
+Thanks.
+
+(Not OP, BTW) 
+"""]]

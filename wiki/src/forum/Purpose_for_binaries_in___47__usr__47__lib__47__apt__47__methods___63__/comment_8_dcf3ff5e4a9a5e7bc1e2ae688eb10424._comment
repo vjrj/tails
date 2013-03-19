@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-24T16:23:55Z"
+ content="""
+>> The current Debian Stable has heavily outdated software, and the debian developers does not even care anymore trying to backport security fixes to this old software due to the amount of work needed to spend (except for a selected few core components).
+> 
+> If that's the case, would Tails developers consider switching to a Linux distro that is stable and at the same time has most of the security fixes applied?
+
+One would hope that. Building a security critical operating system upon a by todays standards rather insecure OS seems not like an intelligent choice.
+
+But I doubt this will change in Tails current state. First at least one of the core developers of Tails is also a Debian developer. He/she knows Debians inner workings and have a good relationship with other Debian developers (I presume). Switching to building Tails upon another distribution is a very large task, especially if you have no relationship with upstream or knowledge about the tools and methods used to build on top of that distribution.
+
+But a new major Debian stable release (7.x) is on the way, and Tails current plans are to switch to it. That will (at least temporarily) improve things a bit regarding security.
+
+In the future I hope Tails is built upon another linux distribution that takes security more seriously, or even better, that Debian starts taking security more seriously.
+"""]]

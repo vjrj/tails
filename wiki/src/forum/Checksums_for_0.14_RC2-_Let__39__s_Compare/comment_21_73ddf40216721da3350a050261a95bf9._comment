@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2012-11-09T09:37:38Z"
+ content="""
+>If you have concrete suggestion on how to improve the documentation, they are welcome!
+
+Well, for starters...
+
+Why start the GNU/Linux section with detailed, illustrated instructions for using that \"seahorse plugin\" thing, only to then go on and note that it's development has been discontinued?
+
+That just befuddles and frustrates people from the outset. If you really think it's worthwhile to retain the seahorse-whatever instructions, then at least put them at the end of the page and note clearly at the beginning the disclaimer about discontinuation, etc. Or, perhaps better, put the seahorse instructions on a separate page entirely, which (obviously) you could link-to.
+"""]]

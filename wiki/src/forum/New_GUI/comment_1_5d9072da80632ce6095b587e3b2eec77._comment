@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-30T18:00:07Z"
+ content="""
+> Is there any way to install a new GUI in tails? If so, can someone explain to me how, i'm new to tails and linux in general.
+
+While it is theoretically possible to install an alternate GUI on tails, I would highly recommend against it, as it would be a rather complicated and not at all easy for somebody with no Linux experience to do.
+
+in other words, No there is no easy way to install a different GUI in Tails, and the while its theoretically possible to do its not at all a supported feature in tails.
+"""]]

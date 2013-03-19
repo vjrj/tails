@@ -1,0 +1,7 @@
+in 0.17 i'm watching these entries appear like crazy:
+
+[Notice] We stalled too much while trying to write X bytes to address [scrubbed].  If this happens a lot, either something is wrong with your network connection, or something is wrong with theirs. (fd X, type Socks, state X, marked at connection_edge.c:X).
+
+but this never happened prior to 0.17, it would only happen once in awhile.
+
+What is the reason for the uptick?

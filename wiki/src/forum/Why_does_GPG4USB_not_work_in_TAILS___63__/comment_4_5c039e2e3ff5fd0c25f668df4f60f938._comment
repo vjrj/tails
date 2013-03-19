@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-03T22:27:32Z"
+ content="""
+Commenter #1 here.  I agree with #3.  
+
+1. Save your keys to a text file with a name like .asc or .bgp at the end.  
+2. When you want to use a key just double click on its file name and it will automatically get put into Tails until you reboot.  
+3. Copy and paste encrypted text into gedit (the default Tails editor).
+4. Use \"Edit\" in the menu bar to sign, encrypt and decrypt coded text.
+"""]]

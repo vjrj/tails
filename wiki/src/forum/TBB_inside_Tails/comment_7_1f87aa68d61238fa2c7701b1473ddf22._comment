@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-12-02T02:37:21Z"
+ content="""
+They won't be able to see any of that. You're IP address will match that of the Tor exit node you're using. Same applies for ISP information. No problem on the MAC address front either.
+
+This provided you're using Tor/Tails correctly and that there are no bugs in the software, which is hard to prove.
+"""]]

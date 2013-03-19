@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-18T02:25:04Z"
+ content="""
+Hi,
+
+If you install Tails this (unsupported) way, you have to know that:
+
+1. GRUB2 can fail to boot on some 'buggy' Phoenix BIOSes.
+2. The \"wipe memory on shutdown\" feature does not work if you don't append 'initrd=/live/initrd.img' to the kernel boot commandline (this is not new, and detailed [here](https://tails.boum.org/forum/LiveUSB__44___fromiso__61____42____44___GRUB2_and___39__wipe_memory__39___feature)).
+3. The \"wipe memory on removal\"/udev-watchdog feature doesn't work.
+4. You will be unable to create an encrypted persistent volume with the desktop utility done for that.
+5. probably more
+
+So, you should test the result of your work before saying 'hey! hey! Here I am!'. There are some reasons why some installation methods are not supported by Tails developpers. If you find a way to work around my points 3 and 4 (and this is probably the same), I'll be glad.
+
+Regards.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-21T16:02:27Z"
+ content="""
+@ OP:
+
+I agree, I consistently hear from those who appear to know more than I do about such things that booting a Tails system inside a virtual machine is a bad idea.
+
+If you still want to do this, is the reason that you consider it more convenient?  (Faster to resume a virtual machine than to shutdown and reboot from a Tails USB stick, which seems to be the preferred method?)   If so, please remember that convenience and security are often at odds, and when you are trying to stay anonymous on-line, taking some extra time to do things \"right\" is probably wise.  
+
+If you have another reason for wanting to boot Tails from a virtual machine, I'm curious to know what it is.
+"""]]

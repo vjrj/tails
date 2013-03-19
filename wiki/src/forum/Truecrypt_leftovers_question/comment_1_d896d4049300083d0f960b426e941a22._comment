@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-15T13:44:53Z"
+ content="""
+> Are there any leftovers from truecrypt after dismounting encrypted drives or files and closing the program?
+
+Truecrypt itself doesn't leave anything behind but if you for example have photos stored in the Truecrypt volume and you browse to the folder with those photos with previews enabled then the file managaer will save that preview in a cache area outside the Truecrypt volume, and most programs have lists of recently used files so if you open a text document in a word editor or open up a movie then it's likely that the name of the file gets stored in the recently used list.
+
+There are ways to clear, and for that matter stop these things from being saved but in all it's far easier and more secure to just reboot if you have handled anything really sensitive.
+"""]]

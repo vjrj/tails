@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="@comment 131"
+ date="2012-10-25T13:08:43Z"
+ content="""
+> I meant more something like timestamps in I2P packets that are routed through the network.
+
+Ah, I understand what you meant now. I2P has its own internal NTP implementation - not to increase anonymity (though that is exactly what it does, since any timestamp in an I2P packet (which would be encrypted anyway, so not visible to anyone other than its intended recipient) would not correlate to an actual system time) but to ensure that the entire I2P network has as little clock skew as possible. To quote the I2P docs:
+
+> Two types of information are stored in the network database: [sic]routerInfo and leaseSet[/sic]. All of this information is signed by the publishing party and verified by any I2P router using or storing the information. In addition, the data contains timing information, to avoid storage of old entries and possible attacks. This is also why I2P bundles the necessary code for maintaining the correct time, occasionally querying some SNTP servers (the pool.ntp.org round robin by default) and detecting skew between routers at the transport layer. 
+"""]]

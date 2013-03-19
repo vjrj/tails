@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-01-31T00:26:04Z"
+ content="""
+>>That'll almost certainly be sniffed from the browser's preferred language. Try changing it before first visiting Blogspot to confirm?
+
+>Didi it
+
+Are you sure? How? The **browser's** preferred language is unrelated to the keyboard and localisation settings of Tails. It defaults to en_US for *needle-in-haystack* anonymity reasons - regardless of your Tails keyboard and localisation choices.
+
+The setting you are experimenting with is within (and specific to) Iceweasel. It can be found from Iceweasel's \"Edit\" menu thus:
+
+\"Edit\" (menu) -> \"Preferences\" (option) -> \"Content\" (tab) -> \"Languages\" (section) -> \"Choose\" (button)
+
+>>Look at the line HTTP_ACCEPT_LANGUAGE in the header sent by your browser.
+
+>showed eng-us
+
+>I logged back on to test and in the first two times my country did not appear in the url, but in the third time appeared again. I have no idea what is going on.
+
+Many websites use **the browser's** \"preferred language\" to localise their content. As **your browser** is requesting en_US, then that's what you'll receive.
+"""]]

@@ -1,0 +1,6 @@
+I am trying to install proxychains in tails but when I write sudo apt-get install proxychains in terminal i get 
+
+sudo: apt-get: command not found
+
+When I try aptitude instead I still get command not found.
+What should I write?

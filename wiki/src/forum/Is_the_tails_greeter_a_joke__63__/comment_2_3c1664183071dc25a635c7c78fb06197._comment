@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-17T12:05:14Z"
+ content="""
+OP, add \"nox11autologin\" to the arguments you applied to the Tails kernel when you configured whatever booloader \"manually installed to usb\" involved... the \"joke\" greeter will magically appear and you'll be able to assign yourself a root password. With a root password you'll be able to do all those other things you complained about being unable to do using your custom Tails based live usb system as you've currently configured it. If you don't understand, please refer to comment 1.
+"""]]

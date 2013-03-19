@@ -1,0 +1,46 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Tails uses should learn about surveillance methods to appreciate limitations of Tails"
+ date="2012-10-25T03:53:53Z"
+ content="""
+There are many places where Tails users can learn enough about \"remote forensics\" methods (including evading SSL encryption) to understand the dangers and sometimes to mitigate them.  I recommend starting with some basic stuff about commercial/government surveillance:
+
+* <http://www.aclu.org/technology-and-liberty/us-turning-surveillance-society>
+* <https://epic.org/privacy/reidentification/>
+* <https://epic.org/privacy/search_engine/>
+* <https://epic.org/privacy/socialnet/>
+* <https://epic.org/privacy/location_privacy/default.html>
+* <https://epic.org/2012/10/verizon-begins-invasive-market.html>
+* <https://ssd.eff.org/>
+
+These sites can help provide some more background for the excellent warnings in the Tails documentation about what Tails can and cannot do:
+
+* <https://tails.boum.org/doc/about/warning/index.en.html>
+
+Then study in more detail a seemingly tangential topic, \"remote forensics\" methods being used to attack cell phones and similar devices (using a number of protocols).  
+
+* <https://www.eff.org/deeplinks/2012/10/stingrays-biggest-unknown-technological-threat-cell-phone-privacy>
+* <http://blogs.wsj.com/digits/2012/10/22/judge-questions-tools-that-grab-cellphone-data-on-innocent-people/>
+
+Then laptocs/PCs connecting via WiFi/DSL; a few clues are here:
+
+* <https://www.eff.org/foia/foia-endpoint-surveillance-tools-cipav>
+
+You can find many marketing documents, whitepapers, slides of \"closed\" conference presentations by surveillance vendors, etc., at sites like these:
+
+* <https://www.privacyinternational.org/projects/big-brother-inc>
+* washingtonpost.com \"Spying at Home\" website
+* Wikileaks \"The Spy Files\" website
+* <http://www.bloomberg.com/news/> has published many excellent stories on \"Western\" based multinationals which have been selling to repressive regimes the same population surveillance gear used by \"Western\" countries
+* <http://buggedplanet.info/index.php?title=Main_Page>
+* <http://cironline.org/projects/america039swarwithin>
+* <http://www.homelandsecuritynewswire.com/topics/surveillance>
+* <http://en.rsf.org/internet.html>
+* <http://www.guardian.co.uk/world/surveillance>
+* <http://www.theregister.co.uk/security/> publishes many relevant stories
+
+Similar gear is used all over the world, and an American style public/private partnership model has been widely adopted internationally, so even if you are primarily interested in universal populat surveillance in China or India, for example, you can learn a lot from websites which focus on universal population surveillance in the USA and Europe.  Once you have a list of a thousand or some representative companies, you can search for their press releases and marketing documents, from which one can glean further technical information.  Daring privacy researchers have enjoyed success at infiltrating some \"closed\" conferences where they obtained many documents which you can find on-line in various places.  Many countries have FOIA type laws and reporters have used them with some success.  The Chaos Computer Club has an excellent writeup on the DigiTask trojan they isolated and partially reverse engineered.  Websites and journals for police and private investigators give many technical details on topics like IMSI catchers.  Once you start looking, there is a lot of information out there.
+
+It's also not a bad idea to learn a bit about basic cryptanalysis and information theory.
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-12-14T04:48:28Z"
+ content="""
+Also, even with magnetic media (ordinary mechanical hard disks), wiping *free space* has a number of limitations and potential vulnerabilities. This is especially true for any **journalling** file system (ext3,ext4, NTFS)
+
+Even with a *non-journalling* file system (ext2, FAT), within any operating system environment, all kinds of data often gets saved in any number of far-reaching places. As I understand it, if the stakes are high enough, one should rely on nothing less than a complete overwriting of the *entire* device or partition on which any sensitive data had resided.
+"""]]

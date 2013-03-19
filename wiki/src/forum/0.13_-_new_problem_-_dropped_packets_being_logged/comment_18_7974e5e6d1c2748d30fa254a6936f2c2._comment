@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-09-24T22:15:40Z"
+ content="""
+> Commit adding the real-world experience passage: [Dec 14, 2010](http://git.immerda.ch/?p=amnesia.git;a=commitdiff;h=9ce153378aeca24c659d586ac097d48863bcc395). Security checker implementation: [Feb 4, 2010](http://git.immerda.ch/?p=amnesia.git;a=history;f=config/chroot_local-includes/usr/local/bin/amnesia-security-check;h=854ae66af19e2fb5a4fdfb9f0293f296657e6ce1;hb=9a4860af2d0d0daa98c757e9b57ffae290508c96).
+"""]]

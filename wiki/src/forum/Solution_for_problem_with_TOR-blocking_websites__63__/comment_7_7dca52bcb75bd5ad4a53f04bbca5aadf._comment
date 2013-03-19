@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Don't do it!..."
+ date="2012-09-26T02:43:02Z"
+ content="""
+>I think a good solution to stay real anonymous and still be able to reach and use those TOR-blocking websites, is to use TOR and surfing within the TOR-browser through an online webproxy. I want to have such proxy for my own and install it on a Virtual Private Server.
+
+
+This would **destroy** your anonymity. Don't do this if anonymity is necessary to you.
+
+"""]]

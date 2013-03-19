@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-16T23:15:02Z"
+ content="""
+Of course it is - just point VirtualBox's storage drive at the tails .iso on physical hard disk. You can create a virtual machine in VirtualBox that has no virtual hard disk, so it will just boot from the iso and leave no traces.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-12-31T14:00:15Z"
+ content="""
+> Where in the Tails filesystem is this infamous script located, anyway?
+
+it is located in /usr/local/sbin.
+
+But as has been said many time before the script is not really a danger at all since its impossible to execute by an attacker unless they have compromised you completely and if they have compromised you completely then they can run any command they want manually, including all of the commands in that scrip regardless of whether it was removed from the system or not, so they wouldn't need that script at all to deanonymize you.
+"""]]

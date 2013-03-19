@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-06T21:14:31Z"
+ content="""
+You mean I might be end up using two exit nodes at the same time? I am not getting this. The last entry in connection box should say what the Tor exit nod IP is, isnt it? Why is it that when I test my IP I get a different one than the one listed in Vidalia?
+"""]]

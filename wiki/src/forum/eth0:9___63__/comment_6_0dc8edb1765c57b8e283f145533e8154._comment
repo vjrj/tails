@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-20T17:54:32Z"
+ content="""
+Well, I wouldn't be comfortable giving you the specifications for my network card, but I just re-checked to make sure I wasn't imagining things and the \"serial number\" I get for my eth0 card when I run lshw -c network is totally different from the original MAC address belonging to the card. 
+"""]]

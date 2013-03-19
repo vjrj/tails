@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-05T07:36:32Z"
+ content="""
+> I could not find a single mention in your post of establishing trust in the TAILS signing key.
+>
+> Without legitimately establishing such trust, how much better is verifying a signature than the method described by the OP?
+
+Even if you don't have a full trust path to the signing key, you can still ensure that one version has been released by the same people that the one you were using before. This has value in itself.
+
+Please also note that the signing key is present on every Tails system.
+"""]]

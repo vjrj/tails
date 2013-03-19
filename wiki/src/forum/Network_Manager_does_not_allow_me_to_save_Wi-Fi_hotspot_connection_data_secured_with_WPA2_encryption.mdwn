@@ -1,0 +1,7 @@
+My laptop is a HP Pavilion dv6-2190ep running Windows 7 64-bit. The wireless card is a "Broadcom 43225 802.11b/g/n", as specified in the Device Manager. All works without issues.
+
+I downloaded the latest Tails release (0.13) and verified the ISO using Gpg4win (imported the Tails signature key and then verified the ISO using the cryptographic signature provided). Everything is fine.
+
+I created a Live DVD of Tails using ImgBurn and then created a Live USB of Tails within the Live DVD session. Tried both in regular live and failsafe modes but the problem is present in all the situations: GNOME's Network Manager does not allow me to save the connection data for my Wi-Fi hotspot secured with WPA2 encryption. The reason for this is that after inputting the correct key, the Network Manager's dialog continues to have the "Connect" commit button grayed out. Attempting to manually edit the network's settings in its Properties dialog (accessed by right-clicking on the Network Manager's tray icon > "Edit Connections..." > "Wireless" tab > select connection > "Edit") doesn't help either, as the "Apply" commit button for saving the changes as well as the "Available to all users" option are equally grayed out.
+
+Any help in solving this problem is appreciated.

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-26T22:09:26Z"
+ content="""
+So all that convoluted OP boils down to is that you want entry guards to *persist* between sessions? Perhaps you should learn to use the documentation:
+
+https://tails.boum.org/todo/persistence_preset_-_tor/
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-10-21T23:33:37Z"
+ content="""
+@ Comment 8:
+
+I missed the previous discussion (?) but:
+
+1. One of my problems with the Tor Project is actually that they make it essentially impossible for a Tor USER to submit a question, even a bug report, anonymously.   Some of us have good reason to feel unable, due to circumstances beyond our control, to contribute anything if they cannot do so with the best possible anonymity.  For example, I'd like to try to contribute documentation and I can't do that at Tor Project.
+
+2. I happen to really like AdBlock Plus.  Years ago there was a bit of contretemps between the ABP and NoScript developers, which may be why TorProject has chosen NoScript but exclude ABP.
+
+"""]]

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="alessandro.g89"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-21T20:24:21Z"
+ content="""
+\"starting tails\" means one of the following:
+
+ - burn a tails DVD and boot your PC with it
+ - boot your PC from a tails USB stick you already have
+
+you'll probably want to use this method to create a working tails USB stick:
+   https://tails.boum.org/doc/first_steps/manual_usb_installation/index.en.html
+then boot with it and create another tails USB stick using the included \"tails USB installer\" (which is preferred over manual installation)
+
+"""]]

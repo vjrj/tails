@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-12-20T23:12:35Z"
+ content="""
+>Tools capable of dumping RAM over firewire and similar connections have existed for a long time now so no, this isn't really what I would call big news.
+
+We've known about the theory for a long time ...and demonstrations in academia etc. ...but has Joe Adversary ever been able to go out and buy one of these before? Isn't THAT the \"news\"?
+
+>I have been worried about something like this for a while. Thats why I change my password often.
+
+
+Changing your password wouldn't help in this case. The device targets your key while it's decrypted and in use.
+
+>>I have been worried about something like this for a while. Thats why I change my password often.
+
+>Stuff like this isn't too much to worry about as long as you don't keep your machine unattended around other people you don't trust while having encrypted data mounted.
+
+>I personally never leave my computer alone while having encrypted data open for exactly this reason.
+
+
+Likewise!
+
+This does highlight why a \"panic button\" or the \"dead man's thumb drive\" is a necessity.
+"""]]

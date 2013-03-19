@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-12-13T04:49:58Z"
+ content="""
+Most of these questions are answered by [comment 4](https://tails.boum.org/forum/0.15___38___obfsproxy/#comment-d9b1acbcc5925043d8dfb76514727c9a)
+
+>Dec 12 01:01:36.591 [Warning] Couldn't rename configuration file \"/etc/tor/torrc\" to \"/etc/tor/torrc.orig.1\": Permission denied
+
+>I wonder why that is !?
+
+Sounds like a permissions problem. I'm not using Tails ATM so can't test. You can always edit your torrc in a text editor if need be. e.g:
+
+    sudo gedit /etc/tor/torrc
+
+    sudo leafpad /etc/tor/torrc
+
+    sudo nano /etc/tor/torrc
+
+    sudo vim /etc/tor/torrc
+
+>If I boot Tails 0.15 without the 'bridge' option, Begin using Tor, Vidalia, etc., I may add an obfs2 as a bridge in Vidalia and magically Tails will now use a obfs2 bridge?
+
+From comment 4 I'd say it sounds so. Haven't tested myself. Restarting the \"safe browser\" (restarting Tor/Vidalia) would be sensible ;) To ***ensure*** your bridges are used, comment 4 would suggest starting Tails in \"bridge mode\".
+
+>If so, may I go back to the obfs2 bridges page and grab another and another until I have around 3 or more and enter them into Vidalia?
+
+yes
+
+>One other query, why is there no permission for Vidalia, once you've added bridges, to write to the torrc file?
+
+dunno. [report a bug](https://tails.boum.org/doc/first_steps/bug_reporting/index.en.html)?
+
+>Thank you and happy holidays.
+
+likewise
+
+>but hold on, according to...
+
+see [comment 4](https://tails.boum.org/forum/0.15___38___obfsproxy/#comment-d9b1acbcc5925043d8dfb76514727c9a)
+"""]]

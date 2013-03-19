@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 120"
+ date="2012-10-25T09:32:57Z"
+ content="""
+>so let me get this straight - all traffic (i.e. browsing client, email client, messaging client) in tails gets routed through tor. just if i2p gets started, then i2p traffic (and only i2p traffic) goes directly into to \"clearnet\". correct?
+
+Precisely.
+"""]]

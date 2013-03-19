@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-16T01:24:41Z"
+ content="""
+I trust that you have read the Tails documentation.
+
+at a guess it must be something at BIOS level, have a look round the BIOS settings and look for an \"OS\" switch (operating System) or something. If so then either tick or untick it. Then try and boot the Tails usb again.
+
+Report back and we see if you are successful or not.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="In principle, yes"
+ date="2012-10-21T18:09:14Z"
+ content="""
+\"The link between my computer and the first Tor node is encrypted, so does this mean my ISP knows I'm connecting to Tor but hasn't the ability to read my traffic?\"  Yes, at least if everything works as intended.
+
+Some papers published at journals for secret policemen seem to claim at least occasional success at mounting MITM attacks between the user and the first hop, but these anecdotes may refer to older versions of Tor (which is being continually improved as information is obtained about the methods of our adversaries).  Marketing literature for some of the larger and more expensive \"surveillance as a service\" companies, including ones which sell systems designed to spy on the entire population of entire countries (the defunct Gadhafi regime in Libya, the defunct Mubarak regime in Egypt, and the Assad regime in Syria, are said to have been among the customers of at least one of these companies), claims routine MITM attacks on Tor users, but as far as I know this is doubtful.  One reason why is that sophisticated intelligence agencies presumably don't like to admit \"we can't attack Tor very well\", even if the result is lots of revenue from their host governments, but some of the best known have fairly consistently made this claim in leaked pleas for legislation targeting Tor, apparently with the intention of making it far more difficult (maybe not impossible) for citizens of \"Western\" countries to use Tor.
+
+Possibly this would be a good time to find out how people in oppresive countries access Tor, because even if you think you live in a less authoritarian country, you could be wrong.  The comments of David Cameron during the London riots betray the unpleasant fact that \"Western\" leaders tend towards autocratic rule as much as any other leaders, unless restrained by strong opposition parties, strong courts, and an inquisitive and courageous media.
+"""]]

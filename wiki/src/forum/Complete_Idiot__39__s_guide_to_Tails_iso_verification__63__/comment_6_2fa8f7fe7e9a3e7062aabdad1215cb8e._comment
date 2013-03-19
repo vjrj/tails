@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-25T01:34:24Z"
+ content="""
+@ comment 4
+@ comment 5
+
+So you are using Debian as your OS.
+
+Please surf to this page: https://tails.boum.org/download/index.en.html#verify
+
+Scroll down to the line which says: Otherwise, read our instructions to check the ISO image integrity
+
+Click on the green-colored link which says: Using Linux with Gnome: Ubuntu, Debian, Tails, etc.
+
+Some text will be displayed.
+
+Follow the instructions.
+
+That's all.
+"""]]

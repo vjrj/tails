@@ -1,0 +1,8 @@
+I got this from the terminal in Tails:
+
+"whois XXX.XXX.XXX.X
+WARNING: tsocks is known to leak DNS and UDP data.  If you had torsocks we would use that."
+
+...I was just poking around and following my curiosity. Is it safe to use the whois command with tails or should I prefer a webpage based alternative instead?
+
+

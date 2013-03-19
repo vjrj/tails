@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-13T21:20:09Z"
+ content="""
+@ OP:
+
+The standard Tor circuit looks like
+
+     your PC/laptop <==> Entry node <==> Relay node <==> Exit node <--> Destination server
+
+where the first three connections are SSL (or rather TLS) encrypted.  DNS lookup of the ip of the destination is performed by the Exit node, and if you are surfing to an https \"protected\" page, the last connection (Exit node to destination server) is also TLS encrypted.
+
+If you think about it, you can see that three hops is the *smallest* number which could be expected (ignoring possible sophisticated \"correlation attacks\") to help prevent easy monitoring of the websurfing of a targeted individual.  The question is why more would not be even better.  Two answers in brief:
+
+* more hops would further stress the already over-burdened Tor network (if your surfing is slow, at the risk of decreasing your anomyity somewhat, try disabling Javascript entirely)
+
+* more hops might actually *increase* the chance of a successful correlation attack which denonymizes you by correlating the first connection (your computer to Entry node) and last connection (Exit node to destination server).
+
+The second claim is probably counterintuitive, as is the claim that using fewer Entry Guards or bridges as your Entry nodes is better.  These claims rest upon Bayesian reasoning using some simple mathematical models which attempt to assess the problems faced by someone devising a large scale correlation attack on individual Tor users (or even on all Tor users).   I wanted to discuss these models in detail in a previous thread in this forum, but the moderator insisted upon taking that discussion to the Tor Talk mailing list, which has proven difficult for me.  But the essential point here is that Tor developers have been discussing this questions for years, and they seem to agree that for now at least, the minimal possible number of hops (three) is still best.
+
+I hope this somewhat allays your concern!
+
+
+
+"""]]

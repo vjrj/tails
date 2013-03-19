@@ -1,0 +1,17 @@
+If your websurfing with Tor has slowed to a crawl, one thing you might try is to add an Exclude Nodes line.
+
+Consider this step carefully, since this is a tradeoff between anonymity and usability:
+* con: may render you susceptible to statistical de-anonymization attacks, which could be very bad
+* pro: seems to make Tor network, well, WORK, which could be neccessary to use Tor at all
+
+I believe this that both TBB and Tails users with experience improvements if they use exclude certain sub-networks which may be claiming more bandwidth than they can really handle, or which may even be deliberately blocking Tor circuits from completing.  However, so far I have only verified this with TBB.
+
+If you use TBB, officially you are advised not to edit the torrc directly but it seems this is the only way to make the edit.  You can add the needed line(s) at the very end of your torrc.  Something like this:
+
+     ExcludeNodes 123.456.78.0/24
+     ExcludeExitNodes {sy}
+
+In my case, excluding a specific 0/24 range resulted in instant improvement, from "can't use Tor at all" to "Tor no slower than non-Tor".  I have been watching that network for some time and on the one hand, it is operated by a (for profit) company which seems to have impeccable unix credentials, albeit with a business model (cloud backups) which I consider incompatible with privacy.  On the other hand, one of the principles of this company formerly worked for a huge law firm which was involved in the infamous conflict between the Church of Scientology and "Anonymous" (about a year before they got into hacktivism in a big way).  Specifically, this huge law firm was involved in operations which sought to unmask members of "Anonymous" who were picketing Scientology headquarters.  Strange, but maybe a coincidence.
+
+
+ 

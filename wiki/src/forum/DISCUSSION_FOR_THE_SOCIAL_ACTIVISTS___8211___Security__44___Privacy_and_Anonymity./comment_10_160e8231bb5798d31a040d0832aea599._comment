@@ -1,0 +1,47 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-10-27T19:50:18Z"
+ content="""
+@ Thread starter:
+
+> Most of the discussions revolve around sniffing by the last node. Okay, let’s assume that the last node is sniffing our traffic. But how can the person sniffing at the last node harm us if he becomes aware of the complaint and pictures of child and bonded labourers being sent against our Govt.? Why someone from US or Ireland etc. be interested to know about us? We need protection from our governmental ministers and not from hackers or sniffers. Kindly explain.
+
+Who knows if and who knows why? Let's ignore that and instead explore how you can avoid sniffing by using encryption. Without knowing how you communicate it's diffcult to give specific tips, but a general advise that most benefit from is to [[use HTTPS in the web browser|doc/anonymous_internet/iceweasel#index1h1]]. If you use other applications than the web browser, please tell us. If you have very specific need the best may be if you email us on `tails@boum.org` since making that information public on this forum may be dangerous. But if you email us, don't tell us too much either. :)
+
+> Should we spoof our browser fingerprints and useragent? (One member who was going through all the posts from this forum to learn more about TAILS came across something in this regard.) Fire Grove addon of Firefox changes browser fingerprints every time we refresh the website.
+
+Tails already does this. Changing this most likely only puts you in a worse situation. 
+
+> If we use a https proxy before the first node according to the method discussed in a post, will it preserve the encrypted transmission in the next 3 nodes?
+
+Yes. In general I'd advice against using proxies as an entry to the Tor network, but perhaps you do this to avoid censorship/blocking of Tor put in place by your government? Or maybe you just want to keep the fact that you are using Tor secret? If so, have a look at [[how to use Tor bridges in Tails|doc/first_steps/startup_options/bridge_mode]] which is a better solution. [This page](https://bridges.torproject.org/) has more information on how to get bridges.
+
+> Even if this https proxy is of hacker, I don’t think that he can cause us harm because he will not be aware of what we are sharing with other members of our group.
+
+Correct. But the operator of that HTTPS proxy will know that *you* are using Tor (but not for which activity), which may be dangerous information in certain countries. If you trust the operator it should be reasonably ok, except if it's located inside your contry. If it is, then you should assume that your government is surveilling the proxy which gives them the same information as the operator of the proxy, i.e. they know that you use Tor.
+
+> Let’s assume that we used yahoo, sent email and logged off OR we used fake Facebook profile without any genuine information and in the meanwhile no one sniffed us. Next day Media highlights our complaint and pictures and the Govt. is criticized. The someone from the govt. or a businessman running mafia wants to spend money to trace us to protect his business and investment. This is where we need your help to understand the techniques.
+
+The main technical issue is if there are few Tor users in your country (if you don't know, check [here](https://metrics.torproject.org/users.html)), and they somehow figure out that you may have used Tor to do this. Then they know that some people among that small group of Tor users did it, which bring them a lot closer to tracking you. If few people use Tor in your contry I strongly recommend using Tor bridges, and that you make sure that they are located outside of your country (to learn where a bridge is located you can enter its IP addres on [this page](http://www.maxmind.com/en/lookup)).
+
+However, I feel that your real problem here will be security culture, in other words, the rules your group follow in order to not leak information and put others in danger. I get the impression that you are involved with a lot of people, and that is much more likely to cause you trouble than any of the technologies involved. Some in your group may have prior convictions or publicly known involvements similar to your current activities which already make them suspect in the eyes of your government, and thus may attract some unwanted attention to your group. And there is always the possibility of some in your group being a snitch/mole/undercover agent.
+
+I'm sorry to sow the seed of paranoia in your group, but the reality of this is harsh. To educate yourself and your group about security culture, I recommend [this article](http://security.resist.ca/personal/culture.shtml) as a start.
+
+> Here the ISPs of all the countries (countries of node1, 2 and 3) will go on giving IP address information where the traffic came from and logged.
+
+This is (luckily) much harder than you think. In order to even start such a hunt they need to know which exit node you used. If you used Facebook I suppose they could ask them for that information, but I have no idea whether they care about such request from your government or not. If you sent an email it would would be included in the \"hidden\" headers of the email. I suppose you'd only send such information to someone you trust wouldn't leak that information.
+
+In any case, even if they succeeded in learning which exit node you used I think they'd have a hard time tracking it backward all the way to you. Not all countries log all the necessary information for all traffic entering/exiting its borders, and even those who do may not cooperate. It'd be a bureaucratical nightmare.
+
+Again, I think your main concerns are social, i.e. your group's security culture, and the integrity of the people involved.
+
+@ Thanks, I post my question there.
+
+> Thanks for the advice. I post my query in that forum. 
+
+If you did, please post the link to that thread here so we can follow it.
+
+"""]]

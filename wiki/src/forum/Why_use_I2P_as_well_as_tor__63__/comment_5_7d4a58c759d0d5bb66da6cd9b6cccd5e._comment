@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-02T05:21:51Z"
+ content="""
+>From what I understand, tor is optimized for connecting to the web, i2p is optimized as a network independent of the web. 
+
+Yes. Tor was originally designed as a proxy layer to hide your real identity/location when connecting to the regular internet. I2P was originally designed as a network overlay, creating a separate anonymous internet altogether. There are of course similar features between them (e.g. Tor's hidden services, and I2P's support for users setting up proxies to other networks like the regular internet), but they are best optimized for their original goals. I generally consider I2P and Tor to be complementary.
+"""]]

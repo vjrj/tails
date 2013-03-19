@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="quarks"
+ ip="127.0.0.1"
+ subject="Make a DVD boot disk for a USB stick"
+ date="2012-06-01T18:48:03Z"
+ content="""
+Since booting from DVD works, maybe you could use the Tails DVD as a bootdisk for a USB stick (if you have one). Just [install Tails on a USB stick](https://tails.boum.org/doc/first_steps/usb_installation/index.en.html), then reboot. Pop in the Tails DVD and USB stick and boot from DVD. In the boot menu press tab and [change the following in the boot options](https://tails.boum.org/doc/first_steps/startup_options/index.en.html):
+    
+    live-media=removable 
+    
+Change that to:
+    
+    live-media=removable-usb
+    
+When Tails has started you can remove the DVD and it will continue to run from the USB stick.   
+Sorry, I don't know anything about USB-HDD's.
+"""]]

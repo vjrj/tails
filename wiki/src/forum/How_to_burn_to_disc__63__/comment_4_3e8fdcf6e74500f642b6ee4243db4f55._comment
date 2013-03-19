@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-10T08:15:39Z"
+ content="""
+As far as Tails is concerned, I verified the download via Firefox plug in MD5 Reborned hasher. The file I downloaded directly from the tails.boum.org site was in a archive format (RAR/zip)which I extracted to to find 3 folder, not a .iso image file. The only file which corresponds with the correct file type is the one which I mentioned earlier. 
+
+Simple question really, is this correct or not?
+"""]]

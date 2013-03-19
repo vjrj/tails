@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="&quot;...who/what are these other users?&quot;"
+ date="2012-07-28T14:04:51Z"
+ content="""
+These are not multiple users, it is the user \"amnesia\" logged into several TTYs and probably a PTS.
+
+The command \"users\" is not very useful here as it gives no information other than the names of those who are logged in. Use the \"w\" command to get more information.
+
+Another useful command is \"last -f /var/log/wtmp\"
+"""]]

@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 24"
+ date="2012-12-25T02:09:38Z"
+ content="""
+@ Comment 15:
+
+For what it may be worth, Comment 13 (from \"Tails\") was addressed to Comment 12 (\"narrow mindedness in action\"), but Comment 14 was written by someone else (me), who *has* read both those pages.  For what it may be worth, I did not write the OP in this thread.
+
+@ \"Tails\":
+
+> The answers to this round of question of yours are... in the links I took time to provide in comment 13.
+
+I have, several times, and thank you for the links, but I am still not sure I understand what you want me to do.  My best guess is that you are hinting that if I want to submit a suggested contribution to the Tails documentation, which would be a public document anyway, I might as well post the suggestion in a new thread in this forum.  Is that right?  I am happy to do that, I just don't want to post an \"off topic\" thread!
+
+For communications which should be kept private, the cited page suggests:
+
+> For matters that need to be hidden from the public eyes, you can send email to the private development mailing list: tails@boum.org; encrypting such email with our OpenPGP key is the only way to achieve end-to-end encryption. 
+
+The problem here as with the Tor-talk mailing list is that email is not anonymous.  Huge thanks for at least using GPG though.
+
+Also, <https://tails.boum.org/contribute/chat/> doesn't name the user-names (not sure that is the correct terminology) or suggest authentication for OTR chat.
+
+I'd like to see some suggestions for a communication channel which is both anonymous and secure, or permission to try to misuse Whisperback even if my message isn't really a bug report.
+
+I hope you understand my problem now, and again I apologize for not yet understanding what you have been trying to tell me.
+
+But in any case, I hope you (the developers) have a restful and pleasant holiday!  Long live the Tails Project!
+"""]]

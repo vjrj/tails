@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 32"
+ date="2012-10-19T02:46:17Z"
+ content="""
+>Is there some particular reason for actually printing this data?
+
+Paranoia?
+
+>What would be wrong with simply saving it to, say, a flash stick?
+
+I suppose it's theoretically editable in the event of pwnage
+"""]]

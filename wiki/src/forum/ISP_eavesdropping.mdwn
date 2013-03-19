@@ -1,0 +1,3 @@
+I know that exit nodes can eavesdrop on Tor users because the exit node has to decrypt the information being sent before connecting to the end destination.
+
+But what about my ISP? The link between my computer and the first Tor node is encrypted, so does this mean my ISP knows I'm connecting to Tor but hasn't the ability to read my traffic?

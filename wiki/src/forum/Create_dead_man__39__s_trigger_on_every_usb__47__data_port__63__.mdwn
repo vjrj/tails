@@ -1,0 +1,15 @@
+UPDATE
+
+OP here, I'm about to test the following by adding a rule to /etc/udev/rules.d/zz.rules:
+
+ACTION=="remove", SUBSYSTEM=="block", KERNEL=="sd*", RUN+="sudo -n halt"
+
+/UPDATE/
+
+I like the way removing the Tails OS automatically shuts down the system. Could a program be made using the same action for any usb device that's plugged in?
+
+I'm assuming it's possible to clone a running operating system, or at least what's in ram, from an external USB device (would it have to be mounted?)
+
+xscreensaver is decent to prevent most attackers, but if someone has the ability to clone your system while it's running it doesn't do much good. So I figure if every usb/firewire port was used, and upon the removal of ANY of these devices a shutdown was triggered, attackers would be unable to clone the system.
+
+I was looking at udevadm to detect a trigger and Tails has it installed, I just can't find out how.

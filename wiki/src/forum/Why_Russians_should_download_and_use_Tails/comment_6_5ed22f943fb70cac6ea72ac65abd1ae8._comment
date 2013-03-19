@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-02T20:18:40Z"
+ content="""
+> You are in Russia, are using Tor, but not in bridge mode?
+
+No, but I know that using bridges is unnecessary in Russia.
+
+> Good news, maybe, but I hope some sophisticated Russians will quietly investigate the possiblity of state-sponsored MITM attacks (or other attacks) on Tor traffic (i.e. by entry nodes, or between the user and the entry node).
+
+I don't think that you understand what bridges are used for.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-16T22:10:03Z"
+ content="""
+I think the Tails developers know how to chain a socks proxy after a tor exit node safely, but because of some reasons they don't want to share that. Probably they can also implement easily a standard tool in Tails that makes chaining socks proxies after Tor exit nodes very easy and safe without firewall complexities etc., but they don't do it. 
+
+@Tails devs: Tails is very nice and we like it very much but please give us a solution to chain socks after Tor easily and safely without any other dangerous side effects. We need it badly to so circumvent Tor exit node IP blacklisting.
+
+It would be very appreciated!
+
+
+"""]]

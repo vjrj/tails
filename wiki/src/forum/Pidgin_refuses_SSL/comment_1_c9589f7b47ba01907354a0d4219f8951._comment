@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-20T11:03:21Z"
+ content="""
+What server are you trying to connect to? Are you sure it supports SSL on that port (unlikely)?
+"""]]

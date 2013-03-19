@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Any Windows users out there who know about GPG/PGP?"
+ date="2012-10-20T22:24:04Z"
+ content="""
+I don't use Windows so I can't help with Windows specific questions.
+
+Unless you can determine that you DID import the key into your GPG keyring, I think that would be cause for concern.  Fortunately, as long as you have the Windows equivalent of what Linux users call \"the shell\" (or more properly, \"konsole\", the GUI to the shell), GPG works the same on Windows, Mac, and Linux, so you can check whether the key is in your keyring.
+
+Try 
+
+gpg --list-keys
+
+You should see a fingerprint for the tails signing key, and if you paste that here I can verify that I see the same fingerprint.  Then you can try to use system logs or whatever to try to check that you did in fact import the key at some point, but forgot (or didn't realize you had imported it).
+
+You might have imported it via the SKS protocol instead of through your web-browser.
+
+There are some issues to be aware of concerning GPG.  The most important is probably to keep your keyring secure.  Unfortunately the default settings arguably ensure that your keyring is NOT secure.  I'd rather hear what the Tails developers have to say about that than listen to myself try to explain this point, however.
+
+It is possible to keep multiple keyrings in different places, possibly including encrypted directories, and in general (on Linux systems) different users will have different keyrings.
+"""]]

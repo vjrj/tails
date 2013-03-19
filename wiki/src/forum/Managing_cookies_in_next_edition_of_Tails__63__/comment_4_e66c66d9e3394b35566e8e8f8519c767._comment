@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-24T22:33:44Z"
+ content="""
+@ 2:
+
+> As I understand it, Tails does not use FF but Iceweasel, a modified version of FF. Perhaps the problems that you described in your post will not happen to users of Iceweasel?
+
+As I recall, the TBB developers describe their browser as as modification of Mozilla's Firefox (FF), while the Tails developers describe their browser as a modification of Iceweasel (IW), whose code should be independent any Firefox code which is not GPL licensed, but is functionally equivalent to FF.  That means that the design of the menu of IW 10.0.2 should be the same as FF 10.0.2, for example.
+
+The issue I am raising (how to disable cookies, and to enable session cookies at particular sites) is an issue with the FF 17.03esr (and probably also IW 17.03esr) menu, which appears to have dropped these crucial options, which were available in the previous ESR releases.
+
+@ 3:
+
+> If OP opens the browser in the following manner:
+> Tools > Privacy
+
+That's the kind of information I need, but your suggestion didn't work for me.
+
+I was describing the menu of the current Tor Browser Bundle (TBB 2.3.25-4); Tails 0.17 will I believe have an identical menu.  Are you sure you are describing TBB 2.3.25-4?
+
+    https://www.torproject.org/download/download-easy.html.en
+    https://blog.torproject.org/blog/new-tor-browser-bundles-firefox-1703esr
+
+Unfortunately your description does not appear to correspond to what I see in the TBB 17.03esr menu.  Or rather, what I *don't* see.
+
+"""]]

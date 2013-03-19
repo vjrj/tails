@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-04T12:30:14Z"
+ content="""
+download youtube-dl, save to persistent.
+
+type \"youtube-dl -t -f 18 [YOUTUBE OR VIMEO LINK]\" in terminal to download video.
+"""]]

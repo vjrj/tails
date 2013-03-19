@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-05-30T14:29:08Z"
+ content="""
+Since installing Wireshark everytime you want to do this is time consuming I suggest using `tcpdump`, which already is installed in Tails, instead:
+
+    sudo tcpdump -i any -w tails.dump
+
+You can stop the packet capture by pressing `Ctrl+C` in the terminal you executed the above command in. After that you copy the `tails.dump` file to your own system and open it in Wireshark.
+"""]]

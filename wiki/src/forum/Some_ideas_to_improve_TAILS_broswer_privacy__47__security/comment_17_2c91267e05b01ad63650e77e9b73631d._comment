@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2013-02-08T13:46:24Z"
+ content="""
+take a look here https://tails.boum.org/forum/MAC_address/
+coment 3. I think its smething we should consider.
+
+As for the Ip Check test. When using:
+
+browser.cache.disk.enable:false
+broswer.cache.memory.enable:true
+
+The test could get an unique ID of my browser (don't know if it will be the same when I reboot the system, but while the system is on, it will be an unique and identifiable ID)
+
+
+If we use:
+
+browser.cache.disk.enable:false
+broswer.cache.memory.enable:false
+
+The test can't get taht ID. They call it an ''e-tag''. No idea why such a name, but that's ok.
+
+TAILS, can you please consider it? I am not saying I am 100% right and sure about this, I am just saying that its something to be evaluated.
+"""]]

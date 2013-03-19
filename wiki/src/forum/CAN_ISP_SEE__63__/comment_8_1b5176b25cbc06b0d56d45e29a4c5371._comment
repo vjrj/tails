@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-11T14:55:12Z"
+ content="""
+>On the other hand, there are no requirements for becoming a bridge, which means your ISP could pose as a Tor bridge in order to capture your traffic.
+
+Isn't there anything in place to try to prevent this?
+"""]]

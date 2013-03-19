@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-12-21T16:13:03Z"
+ content="""
+Thank you for agreeing with me (the OP)!
+
+@ the preceding comment: 
+
+> Just make yourself a anonymous e-mail address.
+
+Anything which potentially involves
+
+ * registration
+ * entering into a business contract with a provider
+ * user account data which can be lost, stolen, or obtained by warrantless demand
+ * TOS subject to change without notice
+ * possible sharing with un-named business partners
+
+is not something to be done casually.  AFAIK, currently no \"anonymous\" e-mail address is close to being truly anonymous.
+
+People sometimes mention Mixmaster, but the developer works for TrapWire, a company which has been in the security news lately (check it out if you want to see why someone concerned about abuses by certain intelligence agencies would be foolish to use Mixmaster without giving the pros and cons a great deal of thought).
+"""]]

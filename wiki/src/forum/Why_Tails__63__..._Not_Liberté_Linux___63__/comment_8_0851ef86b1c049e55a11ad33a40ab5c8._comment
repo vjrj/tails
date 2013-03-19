@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-14T12:58:00Z"
+ content="""
+Liberte is in a hard place because on the one hand you need not to be a linux newb to use it whereas OTOH it punishes experienced Linux users with irritating  restrictions such as the timeout on the root password and an arguably ugly appearance.  Basic to intermediate Linux users will be very familiar with Gnome even if it's a bloated, dumbed-down, slow PoS with a crippled UI  (Gnome3) which introduces far more underlying complexity and issues than it ever solves.  But Gnome, unfortunately, makes sense here, simply because of its ubiquity.
+
+However until recently Liberte has been way ahead of Tails (eg) in having implemented persistence and tackled some tricky issues like getting accurate time for tor.  The lack of persistence in Tails did cause me to seriously doubt the tech abilities/resources of the Tails team so I am relieved it has finally been built at last.
+
+Liberte's use of the Anonymous logo is foolish and associates it with a ragtag mix of largely unknown hackers with unpredictable political aims, whatever the website says.
+
+
+"""]]

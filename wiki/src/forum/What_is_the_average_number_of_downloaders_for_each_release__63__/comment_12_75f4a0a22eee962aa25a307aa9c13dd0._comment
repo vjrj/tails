@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-11-13T21:35:13Z"
+ content="""
+Commentator 10 might have a point.
+
+It seems to me that the concern about mirrors may be analogous to a concern about Tor nodes: anyone can run a Tor node or a Tails mirror, with motivations ranging from desire to help dissidents to desire to murder dissidents.
+
+One reason why I would like to see more discussion of the expressed concern is that I feel that I do not yet understand how Tor uses geoip information or load balancing of the Tor network, I just know that these are involved somehow.  The latest outline by the Tor developers
+
+* https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-1
+* https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2
+* https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-3
+
+is essential reading but doesn't even mention geoip or load balancing.
+
+Tails documentation allows users to download the Tails iso image as a torrent, but the Tor developers strongly discourage using torrents with Tor.  
+
+Alternatively, one might consider trying to torify wget or curl.  As far as I know, attempts to do this have not recently been audited for information leaks.   That is unfortunate.  
+
+A possibly unwise suggestion:
+
+     torify wget url
+
+does seem to \"work\" in the sense that files download, with most or all packets apparently transmitted using Tor circuits.  In the absence of advice from the Tor developers, this might be the least bad option available to the average Tor user who needs to download an iso image.
+
+Further explanations/advice from Tor and Tails developers would be welcome!
+"""]]

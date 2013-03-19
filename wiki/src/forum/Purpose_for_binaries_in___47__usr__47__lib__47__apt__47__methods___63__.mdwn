@@ -1,0 +1,5 @@
+/usr/lib/apt/methods :
+
+bzip2 cdrom copy file ftp gpgv gzip http lzma mirror rred rsh ssh
+
+Why should these exist in Tails?

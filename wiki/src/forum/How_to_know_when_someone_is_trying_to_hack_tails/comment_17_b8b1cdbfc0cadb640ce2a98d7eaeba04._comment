@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-10-05T17:04:21Z"
+ content="""
+not only that buy 0day exploits for the bundled web browser are found every day
+
+tor exit nodes are known to be mass injecting exploits into every webpage a tor user visits
+
+and the tails kernel has less security than windows XP, when it could easily be using a 64bit kernel with ASLR, and NX bit. AppArmour profiles would be easier to write than SELinux policies
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-04T21:07:43Z"
+ content="""
+[ph]
+
+My 2 cents?
+
+Installing separate applications on another partition on the Tails pendrive can compromise Tails. Said external application will be controlled by that operating system (in your case a Mac) which may have access to the Tails (partition.
+
+A lot of Tails users prefer a dedicated (read: exclusive) Tails pendrive. After booting the Tails pendrive will be under the exclusive control of the Tails OS.
+"""]]

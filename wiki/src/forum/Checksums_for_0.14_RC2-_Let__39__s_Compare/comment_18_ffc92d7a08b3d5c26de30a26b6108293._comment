@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-11-08T11:16:15Z"
+ content="""
+The procedure basically boils down to:
+
+1. Install any software capable of verying OpenPGP signature, usually GnuPG. *This only needs to be done once.*
+2. Import the signing key in the keyring and establish some level of trust to it. *This only needs to be done once.*
+3. Download the image and the signature.
+4. Use OpenPGP software to verify that the signature is correct *and* has been made by the aforementioned signing key.
+
+It's hard to see how those four steps could be hard to understand. If you have concrete suggestion on how to improve the documentation, they are welcome!
+"""]]

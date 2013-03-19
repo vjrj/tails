@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-14T16:30:46Z"
+ content="""
+Personally, I use my own custom re-spin of another live OS with no network capability and handle all the permanent keys there. In tails I only deal with temporary keys for encrypted data on removable HDDs and shred the temporary copies as well as all free space after a transfer.
+
+Time is the currency of the paranoid.
+"""]]

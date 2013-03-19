@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-19T09:16:34Z"
+ content="""
+>I am using windows and gpgwin. Do I need to create a key pair in order to do the verification process? 
+
+No. Just download, verify and then use the Tails signing key. You'll find instructions in \"[Getting started...](https://tails.boum.org/getting_started/index.en.html)\"
+
+>I did the direct download and downloaded the ISO and the ISO pgp and the key and inserted all that into Kleopatra and it is giving me the message \"not enough information to check signiture validity\".
+
+Try the command line. Precisely this question has been very frequently repeated of late. If you don't want to read the documentation, the search box will inundate you with answers!
+
+>I imported the signing key and then put the sig into the input file and I put the iso download into the signed data. Is this correct?
+
+Can't help you there. Haven't touched Windows for longer than you've been alive. Judging from the previous threads Kleopatra might be difficult to use or faulty. The command line is always quick and simple.... even on Windows!
+"""]]

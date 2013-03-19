@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-12-25T12:54:03Z"
+ content="""
+>>    Mixmaster can do nothing against you if you use it over Tor.
+
+> This implies that Tor cannot be compromised.
+
+> What if whoever is behind Mixmaster were to control enough entry guards and exit nodes to correlate traffic between them?
+
+> To take the most obvious example that comes to mind.
+
+You take it out of context.
+
+The original claim was \"mixmaster is less anonymous than Tor\" followed by \"mailing lists (Tor-talk) with mixmaster are less anonymous Tails forum with Tor\".
+
+The writer of this claim implicitly decided to trust Tor. When the writer does neither trust Tor nor mixmaster this is a different story and wasn't the point here.
+
+The point being made by me was if you don't trust mixmaster but do trust Tor why not use mixmaster over Tor. Then it does not matter if mixmaster is totally compromised. The tormail or any other e-mail webinterface also can be untrusted. As long as accessed over Tor its equally anonymous like the Tails forums over Tor.
+
+This Tor-talk not anonymous claim is totally bogus. If Tor-talk over Tor weren't anonymous then Tor had a serious flaw.
+"""]]

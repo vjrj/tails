@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-01T05:04:55Z"
+ content="""
+I get tails-i386-0.13~rc1.iso.pgp --> tails-i386-0.13~rc1.iso : Decryption failed: No data.
+
+Input error: unknown error.
+
+Am I doing it wrong?
+"""]]

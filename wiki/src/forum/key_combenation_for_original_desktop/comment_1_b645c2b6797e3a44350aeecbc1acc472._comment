@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-27T02:57:37Z"
+ content="""
+While this would be a nice feature, it's also a feature that is practically impossible to implement, for such a thing to work Tails would have to somehow merge with your existing OS as two OS cannot run at the same time (without virtualization), and in addition to that being parcitcally impossible to actually do would also certainly go agaisnt Tails policy of being an amnesic system.
+"""]]

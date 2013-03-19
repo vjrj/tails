@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-04T22:15:43Z"
+ content="""
+> I don't understand anything from this whole \"cryptographic signature/signing key\" stuff. But do I really need it?
+
+Yes, you really do.
+
+Compared to the time and effort neeed to do this (WRONG):
+
+* download one large file (the iso image) from tails.boum.org
+* burn the iso image
+
+It is really not at all hard or time consuming to do this (RIGHT):
+
+* download one large file (the iso image) and two very small files (the gpg key and the detached signature) from the tails.boum.org download page
+* import the Tails signing key using gpg --import keyfile
+* verify the detached signature of the iso image using gpg --verify sigfile isofile
+* burn the iso image (assuming the iso image was verified)
+
+The problem of estimating the risks you incur from NOT verifying the Tails iso is not easy, and any approach you take (for example, Bayesian estimates) will raise philosphical questions.  But no-one sensible would argue that you should omit the small amount of extra effort needed to follow the verification step just because you haven't delved deeply into the theory/philosophy of risk analysis.
+
+More generally, as a rule of thumb: whenever a developer has taken the time to offer a verification procedure, you can be sure there are good reasons for doing that.  Unfortunately the converse fails: just because some other developer fails to offer a strong verification procedure doesn't mean his software is safe to use.
+
+
+"""]]
