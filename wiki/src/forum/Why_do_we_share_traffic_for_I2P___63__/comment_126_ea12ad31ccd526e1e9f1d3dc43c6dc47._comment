@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="@comment 125"
+ date="2012-10-25T12:30:06Z"
+ content="""
+>    >Aren't they using the 2-hop tunnels when they do this, though?
+
+>Only if you use Tor.
+
+Incorrect - I2P has its own tunnels which are used to provide anonymity to both clients and servers, and these are completely separate (and different in terms of design) to Tor's circuits. Running I2P over Tor is redundant.
+"""]]

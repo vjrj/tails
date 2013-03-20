@@ -1,0 +1,9 @@
+Anyone else ever get these? It was so bad for a while that I emailed ixquick.com and they replied that they were working on it. It's rarer now but still happens occasionally.
+
+An error occurred during a connection to ixquick.com.
+
+SSL received a record with an incorrect Message Authentication Code.
+
+(Error code: ssl_error_bad_mac_read)
+
+Any benign explanation for this?

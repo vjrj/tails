@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-16T08:18:32Z"
+ content="""
+Try current ports app on a Tor-browser in windows and you get something similar to:
+http://i46.tinypic.com/35cicnl.png
+
+The IP 149.9.0.60 is a tor node. Any one monitoring your connection including the ISP will see that you are using TOR.
+
+Using TOR is no big deal even in some oppressive countries. If they come for you it will not be for TOR itself or even TAILS. When they want to pin someone, any excuse can be used. Using VPN is not much different from using TOR in the sense that you are bypassing the censorship setup or firewall.
+
+If you don't know the implications or limitations of using TOR, you need to choose when and where to use it or skip using it.
+"""]]

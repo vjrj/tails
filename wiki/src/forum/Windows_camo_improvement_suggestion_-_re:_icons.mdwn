@@ -1,0 +1,15 @@
+When Tails is loaded with the Windows camo theme, there is one area which stands out - icons!
+
+(this could be done, in part or in whole with a script)
+
+My suggestion would be to:
+
+1. Clone the "amnesia's Home" icon to whatever the Windows system icon for this is, which renames it to whatever the Windows system home icon says. The "Computer" named icon should likewise be cloned along with the Trash icon in name and style.
+
+2. Grab the icons and their names which were present on the Windows desktop and clone them for display on the Windows camo themed desktop. This would save manually copying them and/or renaming them.
+
+By following the two steps, the desktop will appear more closely related to whatever Windows environment the Tails user wishes to operate in and by the very purpose of Tails/Tor software, this should help blend the Tails user in even more to the possible surrounding Windows systems.
+
+To even the most retarded sysadmin, missing icons, and a weird icon which says "amnesia" sticks out like a sore thumb!
+
+The Torbutton/Vidalia icons in the browser and panel should have the option of being hidden, too, perhaps with the option of being invoked with a customized keyboard shortcut combination.

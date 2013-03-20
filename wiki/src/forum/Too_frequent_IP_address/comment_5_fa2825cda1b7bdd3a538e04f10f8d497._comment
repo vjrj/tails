@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-07-21T21:10:52Z"
+ content="""
+Here are the 10 current exit nodes that are the most likely to be chosen (from the consensus as of 2012-07-21 20:00:00 UTC):
+
+       P_exit Nickname            Fingerprint                              Exit Guard CC AS_num    AS_name         
+      8.6790% chaoscomputerclub19 A59E1E7C7EAEE083D756EE1FF6EC31CA3D8651D7 Exit       de AS39138   rrbone UG (haftungsbeschraenkt)
+      7.3123% chaoscomputerclub20 CFA48FC3E843DFF01AA026EC77010AB57E8C2FF0 Exit       de AS39138   rrbone UG (haftungsbeschraenkt)
+      3.0094% TorLand5            09C0C5800177BF3A11A78A98A1CAFD8E7AD2EA02 Exit Guard gb AS29302   Hosting Services Inc 
+      2.7754% chaoscomputerclub18 AD6C2377E01611F56C33F84BB4AE663A1DA5B3B3 Exit Guard de AS39138   rrbone UG (haftungsbeschraenkt)
+      5.1254% chaoscomputerclub21 B8F81CF0C665EA8BE947F102CBFF97615F1FF300 Exit       de AS39138   rrbone UG (haftungsbeschraenkt)
+      1.7221% TorLand1            D223399907113A1F216AAA64997BC1D4CFA8E1AC Exit Guard gb AS29302   Hosting Services Inc 
+      1.6686% TorLand2            945CBBA599808018749DDC4EBB592168F2858C1B Exit Guard gb AS29302   Hosting Services Inc 
+      3.2598% Unnamed             2624AE0466BD02AFAF3F263D4361D79ABE0E7E05 Exit       se AS47155   ViaEuropa Sweden
+      1.5081% chomsky             253DFF1838A2B7782BE7735F74E50090D46CA1BC Exit Guard nl AS43350   NFOrce Entertainment BV
+      2.9010% Unnamed             AE5A97FA3591F133D8D039232CF0005088190C91 Exit       se AS47155   ViaEuropa Sweden
+     62.0391% (888 other relays)
+
+So yes, chaoscopmuterclub19 is likely to be chosen one out of 10-11 times.
+
+If you want that to change, you need to either help with running more exit nodes with a lot of bandwidth or convince Tor developers to change their algorithm.
+"""]]

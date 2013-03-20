@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-17T15:36:22Z"
+ content="""
+1. Installed Tails - tails-i386-0.13 - with
+
+unetbootin-windows-581 on a 16 Gb usb stick with usb 3.0 support.
+
+Booted with the above configured usb stick -it worked - on both notebooks
+
+after Tails was booted I opened Tails Live Usb
+creator selcted my other 8 Gb usb stick with only usb 2.0 support and installed succesfully.
+
+
+The Tails live 8 gb usb stick only works with my 7 year old notebook with 2.0 usb stick slots.
+
+
+With my 1 year old notebook \"No operating system found\" it only has 3.0 Usb slots.
+
+
+My current Notebook is the Dell Xps 15 L502x
+"""]]

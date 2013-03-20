@@ -1,0 +1,31 @@
+[[!comment format=html
+ ip="127.0.0.1"
+ subject="answer"
+ date="2012-08-15T07:49:30Z"
+ content="""
+Hi, as i said earlier, tor network is designed to work for spies who make rebellion in oil countries, for benefits of western gov and corporations. tor developers control strongest nodes, they have network of spies, maybe even 1000 nodes are spying nodes, they spy for western military, they don't care if you sell drugs or similar, they will catch you only if you are against colonialism. <br>
+<br>
+so, to solve you problem try this:<br>
+sudo apt-get update <br><br>
+
+after that:<br>
+sudo apt-get install tor 
+<br><br>
+after that:<br>
+sudo service tor start<br><br>
+
+then try again check.torproject.org and possibly you will be able to change IP address or better said spying node in tor network.<br><br>
+
+if it is still not changing, after all this, type:<br>
+sudo gedit /etc/tor/torrc<br><br>
+
+type there in the end: ExcludeNodes 89.248.172.227, 37.59.82.50, and sooooo on.... <br><br>
+
+or you can choose to block the whole countries, as I said, they have crowd of spying nodes so they can catch you if you are political enemy of corporations:<br><br>
+
+ExcludeNodes {de}, {us}, {gb}, {fr}, {se}, {dk} and soooo on. <br>
+whatever country you want to block, type like this, most people in other places complain about IP address of CCC from germany, they have strong nodes and they are often chosen to snitch people who use tor. developers simply implemented code that tor connect through stronger nodes and stronger are spying ones, I tried to block all strong nodes and I left only weak ones, I could not connect to tor network. weak nodes are ordinary people, strong nodes are imperialist snitches. <br><br>
+for the end, don't forget to disable java script in your browser, many websites in onion world are hacked and in the left down corner always watch where you connect, when I visited one forum about drugs, it was written: connected to www.....website of police in one country. I don't want to write which country, but, some website are hacked and other websites and servers can be honeypot, trap set by cops. server freedom hosting resisted until now to snitch hackers and cops, although I don't like everything they host, but at least you can be sure they will not send you in the prison. but again, even if server is not snitching, avoid to download any file and disable javascript. watch with whom you are connecting and if there is no original URL/domain, then something like police, restart your browser, move from that website. <br><br>
+
+after I saw connected with cops, I restarted browser but I got 89.248.172.227 and it was written you are not using tor, it means script implemented by hacker switch off functionality of tor and you get 89.248.172.227, then I restarted again and then I was using tor. so, be careful, onion land is full of hackers who work for FBI or simply some individual hacker hate criminals and try to snitch, and there are also servers set by cops. so, be smart, have luck and stay free :) there are threats and traps implemented by developers of tor, snithces and cops. 
+"""]]

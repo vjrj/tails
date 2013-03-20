@@ -1,0 +1,13 @@
+I've been rocking a tails USB key on my key chain for a while but I must say that it's not as useful as it could be.
+
+It the USB installer would create first an open user partition to install tbb or key file or something then it might be more useful.
+
+Then, plugging the flash drivre in windows would make it act likea regular USB.
+
+The size of partition should be variable. It would be nice to have multi boot capability to load other linux but the priority is workable thumb drive partition... For two reasons/
+
+1. Make it act like regular thumbdrive to be less inconspicuous
+
+2. Ability to use thumbdrive for portable apps, simple file transfers, or even as a USB key file. 
+
+Actually thinking about it, it may even be possible to just shift the partitions post install ... so I'm gonna give it a go right now.

@@ -1,0 +1,38 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-10-15T12:15:32Z"
+ content="""
+>Could someone verify whether or not what the understanding described by comments 4 and 12 with regard to using a web proxy in order to bypass blocks on Tor exit nodes is accurate?
+
+I can't find any evidence of any real understanding of OP in either 4 or 12. Most of this reads like ill-informed floating paranoia.
+
+The general \"don't do it\" consensus seems the most reasoned, especially given the context of info/understanding provided. The nub of the thread appears to be an as yet unanswered inquiry into how, exactly, OP intends to achieve a **truly anonymous** proxy.
+
+If *you're* not interested in OP but simply wondering about routing *your* http traffic anonymously onto an open, free, \"web-proxy\", you should probably start your own thread, however...
+
+>Specifically, are there any specific or special dangers that doing so poses?
+
+Just for *your* webproxy *subset* of OP, a couple of top-of-the-head pauses for thought might be:
+
+* Grouping all your traffic to a single IP address.
+* Doubling up of MITM/injection/etc attack opportunity.
+* Does your chosen service relay YOUR http**s** connection or establish one on your behalf? ;o)
+* This isn't really a Tails specific matter. Perhaps you'd be better off taking it to a more appropriate forum. Somewhere concerned specifically with Tor or TCP/IP security or \"webproxies\"? 
+
+>The way 4 and 13 outlined it sounds accurate to me but it would be good to hear from someone in the know to be sure.
+
+4 & **12** again?
+
+>@comment 13: Comments 12 and 4 patiently and clearly answered questions that had been asked in this thread.
+
+No they don't. They address nothing of OP and fail to address any other question *in the context of OP*. They don't strike me as particularly patient either! 
+
+>If you weren't interested, you could have simply ignored the posts. But calling them \"unhelpfull info\", as you did, was quite rude and ill-mannered. (\"With all due respect\", of course...)
+
+Not sure why you've singled out a *comparatively* pithy expression of interest for this rebuke.
+
+>(And I really hope you weren't the one who had asked the questions that 12 and 4 answered...)
+
+By the sound of the post, your other comments drove him/her away long ago ;o)
+"""]]

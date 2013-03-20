@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-11-12T18:50:53Z"
+ content="""
+With the requisite disclaimers...(verify the GPG signature properly, never rely on anonymous forum posts, etc., etc.)....
+
+**sha256sum for Tails 0.14**:
+  
+`d9edbcfcee59a4a00c1953448a0e1d69b17c053954ca29e9b6dbf52fab590329 tails-i386-0.14.iso`
+
+(ignore the following if you are not going to *manually* install Tails to USB)
+AFTER `isohybrid tails-i386-0.14.iso --entry 4 --type 0x1c` :
+
+44cad25999d7f1f05579c893f7279f4646d661ba5a8055a725ffe77ca5fc8354
+
+Let's compare!
+"""]]

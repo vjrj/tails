@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-12-28T17:15:14Z"
+ content="""
+Oh, I forgot: for the \"run an amnesic Tor relay\" usecase, [Tor-ramdisk](http://opensource.dyc.edu/tor-ramdisk) may be a better target to port to Arm devices.
+"""]]

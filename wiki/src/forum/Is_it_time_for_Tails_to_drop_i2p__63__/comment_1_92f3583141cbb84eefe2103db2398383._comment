@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-10T21:43:59Z"
+ content="""
+OP, I don't trust Java, either. Especially since I read that Java may not be really fixed for two years, if ever. Doesn't sound like anything someone who really needs security should be relying on to me.
+
+P.S. The Tails devs have said on this forum that Tails security does not depend on the router. I am hoping that means the security can remain intact even if the router is rooted. I almost expect it, actually, with the amount of spying our adversaries are into.
+"""]]

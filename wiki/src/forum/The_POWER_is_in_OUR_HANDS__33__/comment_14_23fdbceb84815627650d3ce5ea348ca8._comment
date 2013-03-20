@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2012-10-30T18:41:10Z"
+ content="""
+@ Commentators 3,4,11:
+
+You three (one?) seem very quick to start yelling about \"trolling\", but this is in itself indicative of trolling.
+
+Secure-apt is offered as a Debian package which encrypts the downloads.  Have you tried using Wireshark on your PC running Debian stable while using apt to upgrade a package?  Not encrypted, eh?
+
+If you are not just trolling and if you still disagree, then I think we need to either hear from a Debian developer or see a link to Debian Project webpage.
+"""]]

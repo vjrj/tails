@@ -1,0 +1,43 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-25T23:33:55Z"
+ content="""
+Regarding formatting output of lsof and netstat with explanatory headers:
+
+Here is a script I found somewhere, which you can save in amnesia's home directory as \"monitor\" and run as amnesia using
+
+sudo ./monitor
+
+(Assuming you set a root password, you'll be asked *once* for root password.)
+
+     #!/bin/sh
+    while :
+    do
+    date
+    echo \"***** TCP CONNECTIONS WITH IP ADDRESS AND OWNER PROCESS *****\"
+    (echo Proto RefCnt Flags Type State I-Node PID/Program name Path; \
+    netstat -anp | grep tcp | sed 1d) | column -t
+    sleep 60
+    done
+
+Sample of Tails 0.16 (outdated!) output with some localhost ports changed showingthe listening processes:
+
+     ***** TCP CONNECTIONS WITH IP ADDRESS AND OWNER PROCESS *****
+     Proto  RefCnt  Flags  Type               State              I-Node       PID/Program     name  Path
+     tcp    0       0      127.0.0.1:3456     0.0.0.0:*          LISTEN       4302/tor
+     tcp    0       0      127.0.0.1:2345     0.0.0.0:*          LISTEN       4302/tor 
+     tcp    0       0      127.0.0.1:1234     0.0.0.0:*          LISTEN       4302/tor
+     tcp    0       0      127.0.0.1:8118     0.0.0.0:*          LISTEN       2545/polipo
+     tcp    0       0      127.0.0.1:631      0.0.0.0:*          LISTEN       2726/cupsd
+     tcp    0       0      127.0.0.1:5678     0.0.0.0:*          LISTEN       3594/perl
+     tcp    0       0      127.0.0.1:9050     0.0.0.0:*          LISTEN       4302/tor
+     tcp    0       0      127.0.0.1:9051     0.0.0.0:*          LISTEN       4302/tor
+     tcp    0       0      127.0.0.1:12345    0.0.0.0:*          LISTEN       4333/obfsproxy
+
+The PID (process identifier number) is the PID/Program column, while the localhost port is in the Type column.  Here, 127.0.0.1 is the local IP of localhost, i.e. the computer you are using.
+
+A similar script can be used to output lsof -i output neatly formatted.
+
+
+"""]]

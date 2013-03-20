@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-11T12:04:50Z"
+ content="""
+The TBB includes openssl 1.0.1 but we ship the version from Debian stable, 0.9.8. And there is not pending security update for this one.
+"""]]

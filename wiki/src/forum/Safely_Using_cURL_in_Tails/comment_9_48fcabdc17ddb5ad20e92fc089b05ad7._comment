@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-11T19:26:18Z"
+ content="""
+Why not just use wget that has the functionality built-in without any scripting?
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="You'll need a persistant volume...."
+ date="2012-06-15T07:06:45Z"
+ content="""
+follow these commands:
+
+sudo apt-get update 
+
+sudo apt-get install g++
+
+This should download the gcc from debian repositories and install.
+"""]]

@@ -1,0 +1,14 @@
+https://mailman.boum.org/pipermail/tails-dev/2013-January/002395.html
+
+"Most additional applications you may install will be routed through
+Tor, but some of them may fiddle with the network configuration and
+change firewall rules, and that might result in them leaking out of
+Tor."
+
+Without using Wireshark or related tools, why not change the value of
+
+"WarnUnsafeSocks"
+
+from 0 to 1 inside /etc/tor/torrc ?
+
+This would warn the user if a program is trying to dick around in a way it shouldn't within Tails.

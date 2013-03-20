@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-25T22:38:39Z"
+ content="""
+>Seems to me like a symbiotic relationship would ensue if the two entitites merged.
+
+Symbiotic but not synonymous:
+
+Tails is a distribution project not a software project. The project assembles appropriate packages in a manner useful to its users. It produces very little actual code.
+
+Conversely Tor is a software research project. It produces an application not an OS.
+
+There's actually surprisingly little *overlap* between the projects.
+
+Many people use Tor software in other OSs and many Tails users choose Tails for features other than Tor - some never even connect Tails to a network.
+
+I think the relationship is ideal as it is. A symbiosis of two projects each focussed on what they're good at.
+"""]]

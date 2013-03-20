@@ -1,0 +1,21 @@
+Ater installing Tails on my Usb Stick
+
+I were unable to boot beacause Tails is lacking UEFI support....
+
+
+
+
+I tried to uninstall it but my notebook doesnt even recognize the usb device.
+
+
+So I used this guide to rest my usb stick :
+
+https://tails.boum.org/doc/first_steps/usb_reset/windows/index.en.html
+
+
+After I did this - My usb stick appears only as a remoable media WITHOUT any ACESS
+
+I CANT do shit with it Its completly locked.
+
+
+Cant format it - how can I reset my Usb stick to default ?

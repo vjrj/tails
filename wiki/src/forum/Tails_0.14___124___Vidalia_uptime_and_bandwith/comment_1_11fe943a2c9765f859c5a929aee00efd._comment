@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-14T23:35:31Z"
+ content="""
+Yup. Thought it was my system clock so I went all NTPtastic but it persists :(
+
+Tor/Vidalia bug?
+"""]]

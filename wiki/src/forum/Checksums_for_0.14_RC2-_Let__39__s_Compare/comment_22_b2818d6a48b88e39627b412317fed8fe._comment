@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 22"
+ date="2012-11-09T09:52:58Z"
+ content="""
+>this is in Tails-iceweazel btw
+
+It isn't clear to me exactly what you mean here but I hope you realize the following:
+
+1.) You cannot verify a given version of TAILS (or any other distro)  from *itself*. 
+
+You can only verify an ISO (or any other type of file) from an *trusted* operating system-- i.e., an OS that you installed from an ISO that you had verified the authenticity of.  
+
+2.) The actual verification process itself does not involve a web browser. 
+"""]]

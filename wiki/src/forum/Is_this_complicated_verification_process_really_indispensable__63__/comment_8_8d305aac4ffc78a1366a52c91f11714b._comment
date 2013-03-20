@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-05T18:11:40Z"
+ content="""
+> What if you changed it back to a prior release (one of the ones with the \"numerous security holes\")? The filename doesn't matter does it?
+
+If you did that then the file would indeed verify as a genuine release (since it is) however since tails warns you on boot up that you are using an old release its not something that can be done without making the person using tails aware of the fact that it's an old insecure version.
+"""]]

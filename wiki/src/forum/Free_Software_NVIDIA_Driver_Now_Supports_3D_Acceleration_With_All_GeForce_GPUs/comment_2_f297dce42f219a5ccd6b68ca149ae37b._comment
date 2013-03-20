@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-07T10:42:00Z"
+ content="""
+>The nouveau driver is already in Tails. Please read faq next time you want to suggest something
+
+I know it's included in Tails. That's not the point.
+
+The OP should have mentioned this news story:
+
+###Free Software NVIDIA Driver Now Supports 3D Acceleration With All GeForce GPUs
+
+####http://linux.slashdot.org/story/13/01/05/2134220/free-software-nvidia-driver-now-supports-3d-acceleration-with-all-geforce-gpus
+
+###\"The reverse-engineered free/libre and open source driver for NVIDIA cards Nouveau has reached another milestone. 'The Nouveau driver in the current Linux 3.8 development branch has recently acquired everything that's necessary to support the 3D acceleration features of any GeForce graphics hardware. Together with a current version of libdrm and the Nouveau 3D driver in Mesa 3D 9.0, this allows Linux applications to use 3D acceleration even with the most recent GeForce graphics cards.\"
+
+So.. is Tails using the version mentioned in the article?
+
+Probably not.
+"""]]

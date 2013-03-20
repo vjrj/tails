@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Don't follow"
+ date="2012-09-19T09:57:04Z"
+ content="""
+Why is this an issue?  Does the weather applet try to connect before local time gets changed to GMT?  Does the weather application send your location or other compromising data?
+
+Please explain.
+"""]]

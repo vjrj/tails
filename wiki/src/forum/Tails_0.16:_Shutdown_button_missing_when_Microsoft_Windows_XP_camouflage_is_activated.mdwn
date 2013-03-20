@@ -1,0 +1,5 @@
+When Microsoft Windows XP camouflage is activated under Tails 0.16, the shutdown button is missing. Users will then have to press Control+ALT+Delete simultaneously to bring up the dialog box containing "Shutdown" and "Reboot" options.
+
+The above issue does not exist when GNOME desktop is used.
+
+Is this by design or a bug?

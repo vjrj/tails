@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-10T08:57:51Z"
+ content="""
+> As for the first method, it changes the mac but then i cannot connect to any network.
+
+It's because you have to turn back ON your device after modifying the MAC adress:
+
+    sudo ifconfig wlan0 up
+"""]]

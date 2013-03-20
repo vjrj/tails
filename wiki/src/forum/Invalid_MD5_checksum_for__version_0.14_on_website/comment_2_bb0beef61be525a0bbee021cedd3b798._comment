@@ -1,0 +1,49 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-13T20:05:03Z"
+ content="""
+@ OP:
+
+I am just another user like you.  I think you might be confusing MD-5 with public-key cryptography.  To save \"Tails\" the trouble, let me try to clarify (based upon reading Tails documentation and successful experience downloading and verifying Tails iso images):
+
+MD-5 sums are cryptographic hashes often used to verify that a file has not been corrupted accidentally during download over a noisy connection, but these days they are not considered sufficient to guard against malicious corruption.  Therefore modern package managers like Debian's apt (Tails provides a modern OS based on Debian) use a much stronger method, GPG/PGP public-key cryptography, to verify that the file you download has not been tampered with.  
+
+To obtain a copy of Tails, you download an iso image from boum.org; to obtain a copy of Tor Browser Bundle (TBB), you download a gzipped tar archive or tarball from torproject.org, and then in both cases you follow the same procedure to verify the authenticity of the file.  Suppose you want to download and verify several files from boum.org, all signed using the Tails signing key.  Then you need to download 
+
+* the files you want to authenticate f1, f2...
+* the detached signatures of these file s1, s2...
+* the GPG key (the signing key) used to create the signature, p (if you don't already have it installed in your local GPG keyring, but if you do, following these instructions won't hurt anything since GPG will recognize that you already have a copy of the key you need).
+
+The signing key will change if an expiration date is extended or if more signatures are added, but unless your copy of a key has expired, you don't need the latest version of the signing key to verify files.
+
+Each detached signature is specific to the file it is signing.  So the signature for the Tails 0.14 iso image is different from the signature for the Tails 0.13 iso image, but both were created with the same signing key.
+
+This means that to obtain Tails 0.14 you need to download two small files and one large file (the iso image):
+
+* the Tails 0.14 iso image: 
+http://dl.amnesia.boum.org/tails/stable/tails-i386-0.14/tails-i386-0.14.iso
+* the detached signature for that iso image:
+http://dl.amnesia.boum.org/tails/stable/tails-i386-0.14/tails-i386-0.14.iso.pgp
+* the signing key:
+https://tails.boum.org/tails-signing-key
+
+You can download them by clicking on links in the download page using your browser (probably Tor Browser Bundle or the torified Iceweasel/Firefox which comes with previous editions of Tails).  This might not work for very large files like the Tails iso image.  So to download the iso image you might try instead
+
+     torify wget -c --tries=10 http://dl.amnesia.boum.org/tails/stable/tails-i386-0.14/tails-i386-0.14.iso
+
+This might not fully protect the download from prying eyes, but the idea is to try to make it goes through Tor circuits, and also to make wget react sensibly if the download is interrupted.
+
+Suppose you save the three files you need in some directory as
+
+* tails.iso
+* tails.sig
+* tails.key
+
+Then, in a Linux shell, cd to that directory and
+
+    gpg --import tails.key
+    gpg --verify tails.sig tails.iso
+
+You should see a message saying that the signature is good.
+"""]]

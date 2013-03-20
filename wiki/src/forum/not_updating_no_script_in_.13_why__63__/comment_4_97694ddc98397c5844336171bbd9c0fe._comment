@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-09-20T12:01:27Z"
+ content="""
+> 1.) Correct me if I am wrong, but my understanding is that the only difference between Iceweasel 10.0.7 ESR (that TAILS uses) and Firefox 10.0.7 ESR (that Tor Browser Bundle uses) is branding/ artwork.
+
+There are more differences than that. Tails is using Debian's iceweasel, which has its own set of patches on top of firefox (60+ of them), not only related to branding.
+
+> Thus I don't see how the version of Debian being used, etc. would have any bearing here.
+
+Probably the top most reasons are :
+
+ * integration in our build system. It is easier to automatically include noscript through the Debian package, rather than download and configure it properly at build time, or by hand at each releases. If you want to commit on this task, which we can't do because we focus on others we feel more important, please send a patch. We have limited developpers resources. If you feel something important is missing, you are welcome to do contribute.
+
+ * The ability to tracks bugs through the Debian BTS, and benefit from the noscript users part of the Debian community. As such, you can also contribute to the Debian xul-ext-noscript package, by reporting bugs, send patches to help the maintainer to keep its extension more up to date.
+
+You can also update it yourself in you session if it's that important.
+
+Finally, asking you about specific reasons to include such update was to hear feedbacks on *specific* new features or critical bugfixes added in noscript that you feel are that important that it would require to dedicate more work on this side, not really a generic answer like \"security\".
+"""]]

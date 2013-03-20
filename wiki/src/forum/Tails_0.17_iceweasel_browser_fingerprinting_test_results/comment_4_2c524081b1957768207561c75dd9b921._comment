@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="re: comment 3"
+ date="2013-03-09T08:33:54Z"
+ content="""
+If you are getting different numbers without changing anything then you are doing it wrong. You need to press \"new identity\" between tries. The numbers then will be nearly close.
+
+One more thing people can do is to download tor browser bundle on a different platform, test it, and compare the results with Tails iceweasel.
+
+>unless this site fingerprinted every browser in existence theres really nothing to be told from >it. 
+
+The site have tested several million browsers. You dont have to test all browsers in the world to get an approximate result for fingerprinting. A decent sample is enough if you know something about the science of statistics. Its like making a survey. When you read something like 20% of Americans are so and so, that doesnt mean that this statistic evolves asking every single American on earth, you would only need an arbitrary sample. The math then works on the whole domain.
+
+Plus, there are other available tools for testing browser fingerprinting if you didnt like this one. I found ALL others I tested without exception saying the same thing. 
+"""]]

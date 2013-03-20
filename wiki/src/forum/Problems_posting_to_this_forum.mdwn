@@ -1,0 +1,17 @@
+[This should be solved. Thread should be merged with "Cannot reply to forum threads in new TBB"]
+
+So this probably won't work either.
+
+Preview works but when I hit "post" I see
+
+     Error: /var/www/boum.org/amnesia/todo/about_Tails_launcher/index.html independently created, not overwriting with version from todo/about_Tails_launcher 
+
+which appears to refer to
+
+     https://tails.boum.org/todo/about_Tails_launcher/
+
+(not an item I have anything to do with)
+
+Using Tails 0.16 (while trying to figure out FF 17 ESR issue)
+Image loading disable, Javascript disabled, cookies disabled but
+enabled session cookies for boum.org

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="To permanently remove that boot code"
+ date="2012-06-22T19:27:49Z"
+ content="""
+Booting from a usb install. I permanently deleted 'splash' from the kernel boot parameter line by re-mounting /live/image read-write and then editing live.cfg (as root) to delete that code:
+
+# mount -o remount,rw /live/image
+# cd /live/image/syslinux; gedit live.cfg
+
+Delete 'splash' from the boot parameters.
+Afterwards, remount read-only:
+
+# mount -o remount,ro /live/image
+
+Fixed! No more hitting tab and deleting splash on every boot.
+"""]]

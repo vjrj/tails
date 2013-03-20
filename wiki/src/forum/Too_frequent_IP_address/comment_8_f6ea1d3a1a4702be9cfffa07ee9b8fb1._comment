@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-07-22T19:29:05Z"
+ content="""
+@ dude who says exclude certain exit nodes
+
+that might not be a good idea. I can't find the link right now, but somewhere in the Tor Wiki it mentions that modifying the way Tor chooses its \"circuits\" (relay servers) could have an unintended effect on anonymity.
+"""]]

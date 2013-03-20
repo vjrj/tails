@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="tb75252"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-21T01:00:22Z"
+ content="""
+I confirm that Tails 0.14 resets the _hardware_ clock of my laptop.
+
+When I boot up with Tails 0.14 and log into my Wi-Fi network, a message pops up stating that the system clock is being synchronized because Tor needs an accurate clock to work properly.  The clock gets automatically set six hours ahead of my time zone.
+
+When get out of Tails by shutting down my laptop and then boot up into Windows 7, the hardware clock is still set six hours ahead and therefore messes up the Windows clock too.
+"""]]

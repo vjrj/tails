@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-03T09:52:43Z"
+ content="""
+As explained on [[todo/disable_iceweasel_extensions_auto-update]], I doubt there's an actual problem. Did you actually monitor network traffic caused by this presumed update?
+"""]]

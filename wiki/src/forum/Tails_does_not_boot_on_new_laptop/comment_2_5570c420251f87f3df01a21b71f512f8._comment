@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-26T18:55:39Z"
+ content="""
+Where in the boot sequence did this happen?
+
+Was it before the root user password menu was presented to create a root user password during boot up, or before that?
+
+If you did not create a root user password for the root account - is that what you normally do, or do you always create a root user password as part of the boot up sequence.
+
+The reason I ask is that root's user id is usually 0 which the message clearly calls out as unknown indicating that it may have not been created (I assume).
+
+My best guess is that the root account's user id (0) is necessary in order to  enable MSI-X, and if it was not created, then it would fail.
+
+Please correct me if this is not the case.
+"""]]

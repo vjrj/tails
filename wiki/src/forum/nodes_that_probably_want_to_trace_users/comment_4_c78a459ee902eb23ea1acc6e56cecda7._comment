@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-20T10:05:35Z"
+ content="""
+> if a tor users connection uses 3 of my nodes I can exactly see what he is doing - am I right ?
+
+You are correct, but the middlenode is actually not necessary. [[Tor doesn't protect against end-to-end confirmation attacks|doc/about/warning#index4h1]].
+
+"""]]

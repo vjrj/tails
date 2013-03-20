@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-12-31T18:46:16Z"
+ content="""
+I am using the most recent version of TAILS.  
+
+I have shut down using both by using the power button in system and by pressing my notebook computer's power button with the same results.
+
+I am assuming RAM is not being wiped because previously on shutdown I recall the system showing 'Wiping --------', while wiping.  It no longer does that.  
+"""]]

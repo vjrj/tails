@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-10-11T08:55:04Z"
+ content="""
+> Hardware encryption is better because it relies on a key encrypted key which resides in the drive, and is unlocked in the drive.
+
+What proofs do you get that all is at it should? Which level of scrutinity do these drives get? Is the crypto implemeted right, not subject to side channels or timing attacks? Is there any kind of *master key* that the vendors keep to help customers (or other parties)?
+
+Full software encryption might have its flaws, but at least source code is available and its really harder to hide undesirable behaviour when many eyes can have a look…
+"""]]

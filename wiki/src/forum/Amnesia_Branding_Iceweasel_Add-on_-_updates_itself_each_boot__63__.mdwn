@@ -1,0 +1,16 @@
+Amnesia Branding Iceweasel Add-on - updates itself each boot?
+
+I checked Iceweasel's addons and noticed updates were set to automatic when visiting the
+Extensions Add-ons Manager window. I disabled the automatic updates. I clicked on Recent
+Updates and amnesia branding gets updated with each new boot. The same information is
+listed when you go to the Extensions area and click on More where amnesia branding
+is located, once double clicked it shows the Last Updated date as the current date,
+the same date in which you booted Tails.
+
+What is amnesia branding?
+
+What is its purpose in Tails?
+
+Why is it auto updating?
+
+Can it safely be removed?

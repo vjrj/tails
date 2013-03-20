@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-16T20:53:18Z"
+ content="""
+I want to rant about some other poor choices made by the Gnome developers which impact Tor users (for those who don't know, Gnome is the default desktop environment used by Debian stable, and therefore by Tails), but I can guess what \"Tails\" would say...
+
+So I'll just second the suggestion that the documentation should focus on commands issued in the shell.  It is unfortunate that many novices, especially from the Windows world, are not accustomed to using the shell and may even mistrust it.  One thing which might be useful to point out to them is that describing (rather than showing) what to do in a GUI is much more tedious than simply giving some commands which can simply be copied and pasted.   And you see exactly what command you issued, which is invaluable for investigation if something goes wrong.
+"""]]

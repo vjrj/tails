@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-12-18T20:43:45Z"
+ content="""
+@ Comment 4:
+
+Thanks, didn't know that.  Here's  a package many Tail users may want to consider trying:
+
+apt-get install outguess
+
+will pull in a nice steganography package without cruft, I think.  But I agree with those who warned that installing all kinds of stuff which is not security-minded would probably be a very bad idea since Tails is supposed to be anonymity-preserving, and randomly increasing your attack profile (in untested ways, no less) is bad for your anonymity.
+
+Re Comment 5:
+
+In case anyone doesn't know: in synaptic (the most popular \"front-end\" or GUI for apt-get in the Debian world)
+
+* \"update\" means retrieving (via http) the descriptions of all the latest versions of Debian stable packages, without trying to install them; haven't tried it but I am fairly confident this would be torified if you try it in Tails, and it would possibly be one way to get some idea of what is available in the Debian stable repository and what would be pulled if you install a particular package.  (Someone please scream out a correction if I am wrong.)
+
+* \"upgrade\" means trying to pull in the current Debian stable versions of all the currently isntalled packages, which will probably make Tails both unsafe and unusable, so I also agree that no-one should try that.  For one thing, it would have unpredictable effects on Tails's version of IW.  And it might pull in really dangerous Gnome applications like cheese and applications which broadcast your geolocation to the world.
+
+
+"""]]

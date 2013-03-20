@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-10-18T13:05:21Z"
+ content="""
+>There is another interesting rumor that a specific feature of the Utah Data Center is used to store huge quantities of random numbers. Re-using a specific very long sequence of random numbers over and over again does in fact make sense in the context of cryptanalysis (but probably is very bad for encryption).
+
+I wonder if **all** the traffic of random.org, hotbits (fourmilab), diceware, and all the other online random number sources, gathered via spoofed SSL certs of course, is forming part of the pile. That could probably come in handy ;o)
+"""]]

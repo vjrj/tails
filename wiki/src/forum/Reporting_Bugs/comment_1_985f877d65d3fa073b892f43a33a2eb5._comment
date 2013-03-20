@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-18T09:35:12Z"
+ content="""
+They were received. If you provide an email address for us to reply to we normally tell you whether a bug seems valid or not, and whether we require more information. Since you didn't you may not learn why we cannot proceed with the bug, and this was the case with all three of your bugs.
+
+> Do they need approval before being put on the list or is there first a determination on if they are bugs or system problems first, and therefore not bugs?
+
+There is nothing preventing you from opening [[bugs]].
+"""]]

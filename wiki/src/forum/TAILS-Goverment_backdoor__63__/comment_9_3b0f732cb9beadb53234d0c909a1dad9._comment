@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="A spoof of a genuine concern?"
+ date="2012-10-17T21:41:29Z"
+ content="""
+Somebody wrote above \"DO NOT USE TAILS. THEY ARE LEECHING YOUR BANDWITH AND CONVERTING IT INTO ENERGY FOR ELECTRICTY TO DECODE SSL.\"
+
+I conjecture that this poster was spoofing what I regard as a valid point: the Surveillance State (particularly in the US, where the NSA has quietly opened several new facilities, particularly the Utah Data Center recently profiled by James Bamford, author of several books on the NSA) requires vast data centers, and these require impressive amounts of power to operate.  The initial power requirements for the Utah Data Center are, if I recall correctly, 85MW, a figure which is expected to grow rapidy, and which is comparable to the energy needs of a city the size of Baltimore.  There are also some fairly new large facilities in the region of San Antonio, TX and elsewhere.  All of these seem to be connected to storing indefinitely and later analyzing as needed all the worlds' electronic communications.  Some of these facilitities are rumored to be specifically tasked with spying on the population of the US itself.
+
+The NSA is quite proud of its well-publicized facility at mounting collision attacks on older hash algorithms (such as MD-5), and in the past few years we've seen a number of worrisome incidents in which valid (but improperly issued) certificates were used to disguise malware as legitimate software security upgrades by (probably) several distinct malicious actors who were seeking to harm people.  (The most likely candidates for the identities of these malicious actors are said to include certain public/private consortiums operated on behalf of the governments of China, the USA, and various nations in Asia Minor and the Middle East.)  So there may be good reasons to think that the NSA has attempted to use improperly obtained certificates to subvert SSL.  And while initial deployments would most likely target specific adversary nations, once the process has been automated it can be deployed on a massive scale against ordinary citizens, or even shared with multinational corporations who are likely to turn around and sell such technology to the government of Syria, for example.
+
+There is another interesting rumor that a specific feature of the Utah Data Center is used to store huge quantities of random numbers.  Re-using a specific very long sequence of random numbers over and over again does in fact make sense in the context of cryptanalysis (but probably is very bad for encryption).
+"""]]

@@ -1,0 +1,19 @@
+Hello,
+i have  question:
+is  rebooting after browsercrash(iceweasel-Tails0.13~rc1. testing(-: )
+normal?Cause of to little memory(512mb RAM)?
+USBstick-LED blinks before browsercrash.
+Rebooting means black screen,mousepointer rotates and then the login(choose with or without rootpassword->Forward)-only tried with rootpassword.
+
+Files downloaded  before crash still here.
+Filemanagersettings,Browsersettings,..... still here.
+Custom Keyboardsettings(System->Preferences) are reseted on default.
+
+Have had these(?) crashform on Tails 0.12.1 with iceweasel before:
+
+-Browser+Tails is mostly unresponsive->endless unstoppable USBstickLED activity->only PC-hardreset helps
+
+-after some time i can quiet the browser and Tails is still alive
+
+-Have only one crash on iceweasel(TAILS 0.12.1)
+with an instant login screen like now on testeng Tails 0.13~rc1.

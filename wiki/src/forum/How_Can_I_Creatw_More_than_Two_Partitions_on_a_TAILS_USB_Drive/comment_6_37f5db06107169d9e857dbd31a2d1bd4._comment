@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Create partition before enabling persistance"
+ date="2013-01-01T18:03:28Z"
+ content="""
+Why you not create a partition using Disk Utility in Tails?  I experiment and create a new partition that not use all space and make encypted file system.  The unallocated space is used when you enable 'persistance'.  Multi-boot and multiple OS - I not know.
+"""]]

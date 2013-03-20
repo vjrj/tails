@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-06T10:10:25Z"
+ content="""
+> When tails is booted and java is disabled via
+> iceweasel - preferences - content - enable java checkbox
+
+I see no such checkbox. I see a checkbox to enable or disable
+JavaScript, though, so I'll assume you're confusing Java and
+JavaScript, and were actually meaning JavaScript in this post.
+(Which makes me slightly doubt you're actually doing the right
+thing to achieve what you really want, but well.)
+
+> prior to connecting a network cable, noscript is disabled via
+> the icon next to the url field.
+
+> If i allow tails to boot with a network cabled attached and do
+> not change the java settings, then Noscript is enabled
+> by default.
+
+The NoScript icon tells you whether scripts on the current page
+were all or partially allowed or forbidden, so it's not
+surprising it displays different results depending on whether
+a page is loaded or not. Also, to get useful experimental
+results, I suggest changing only *one* part of the setup at
+a time :)
+
+"""]]

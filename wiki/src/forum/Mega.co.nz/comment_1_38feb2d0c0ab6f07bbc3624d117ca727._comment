@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-12T19:20:16Z"
+ content="""
+First of all this is not a Tails problem at all, Neither Tails nor the iceweasel developers can decide what mega.co.nz supports, and secondly if you seriously think mega is the most secure storage place on the planet then I advice you to actually do a little bit of research into its security, because a ton of fundamental and quite serous errors were found with its security just days after mega was released, I certainly would not trust mega with anything that I actually considered sensitive.
+
+Also regardless of all that mega is entirely javascript based and uses experimental browser features like HTML5 local data storage, which has known security risks as far as anonymity is concerned, so there is no way Tails would specifically add support for such a thing at this point.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-17T13:51:29Z"
+ content="""
+OP said ***install*** rather than ***compile***, so (hopefully) `sudo apt-get install nameofpackageyouwant` might be all that's needed. I think Tails would be a singularly poor choice of platform to build a development environment upon!
+"""]]

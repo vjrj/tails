@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-14T10:47:10Z"
+ content="""
+>However, this time has not been updated, and just find the easiest way to check the ISO from Firefox.
+
+Check the ISO for what?
+
+I hope you realise that a checksum/hash used like this will convey *integrity* but **not** *authenticity*
+
+i.e. That the file you've received is what *its sender* intended you to receive but **not** who *that sender* was and whether they were whoever you thought/hoped them to be.
+
+The signature is, of course, there to convey **both** *integrity* **and** *authenticity*
+"""]]

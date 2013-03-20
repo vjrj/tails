@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-28T16:43:09Z"
+ content="""
+How: from Tor settings \"edit torrc\" button. Adding this line: ExitNodes $fingerprint,$fingerprint,...
+
+where $fingerprint is exit node fingerprint
+"""]]

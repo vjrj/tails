@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-07-02T16:19:12Z"
+ content="""
+@reply 1:
+@above me:
+
+1. If you manually change any settings you look different than other Tails or TBB users (depending on what you are using). This can not be your goal. Your goal must be to add these changes to the mainline.
+
+2. Learn about TBB internals.
+
+3. Do not suggest big changes in one post. Search each change if it has been discussed. Most times like with the cache / etags you find out that the jondo test says its bad but if you know TBB internals, you know everything is fine. For things which have not been discussed, create the correct ticket against torbutton bug trac.
+
+4. If you are still reading... And to speed up things.... Provide small patches, get those small changes merged into mainline.
+"""]]

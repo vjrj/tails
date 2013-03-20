@@ -1,0 +1,70 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-12-05T06:58:08Z"
+ content="""
+@ Comment 8:
+
+Thanks for the support of my basic point: that a broad discussion is invaluable in order to help people use Tails safely.  
+
+There are more important points; to briefly mention but a few:
+
+* the sophisticated country-scale surveillance systems sold by \"Western\" corporations like Aqsacom include a great deal of automation; this is nothing new; \"Echelon\" and \"Carnivore\" have long boasted the cabability to scan all the world's conventional phone calls (and now, some fraction of all the world's text messages, emails, VOIP calls, faxes, and other data streams containing text) for the \"keywords of the day\"
+
+* once someone takes the trouble to automate a possibly sophisticated attack, government and corporate investigators can use these tools just like \"script kiddies\", to investigate unlimited numbers of persons,
+
+* investigators can and do \"scrape\" information from Facebook and other social media sites, web forums, and chat rooms, and use the data obtained to perform \"social networking analysis\".
+
+* investigators can and do perform linguistic and stylistic analysis of \"suspicious\" writings, looking for indications of emotions, sentiments, and ideas of which their government disapproves
+
+* investigators can and do target friends, friends of friends, and family members in order to \"get to\" someone they are interested in; most disturbing of all, perhaps is that investigators can and do target children because in any family unit, due to their inexperience in dealing with highly deceptive people like trained investigators, they are often the persons most easily persuaded to do something foolish, such as opening an attachment to a phishing email
+
+* anyone can be subject to warrantless investigation at any time not only by the police and intelligence agencies of their country of residence, but those of other nations as well; this is particularly troubling because agencies can investigate citizens of foreign nations who break their own laws, which may be very different from what the foreigner expects; for example, Malaysian laws on libel, or Pakistani laws on blasphemy, or Thai laws on lese majeste, may appear shocking to Swedes
+
+* Americans in particular may be shocked to learn just how much of their communications and personal information can be obtained without a warrant by law enforcement agents, often just by the asking; indeed, much more information than most Americans probably realize can be obtained even by investigators working for law firms targeting them in a civil action, including non-American law firms investigating alleged violations of laws which might appear very \"un-American\"
+
+* literally millions of Americans now possess security clearances; clearly, the ranks of the secret police must include many bad apples simply because no screening can eliminate more than some fraction of unsuitable persons; the problem is made worse because the \"vetting\" is so backlogged that it tends to be much more cursory than most people realize, particularly for military personnel
+
+* officials of the GCHQ, CIA, and other organizations have stated that these organizations can and do allow their agents to moonlight for surveillance-as-a-service companies, using their training, experience, and often even their equipment and access to law enforcement and intelligence databases on behalf of the corporate clients of their second employer
+
+* intelligence agencies can and do leak information about investigations and also highly personal information about entirely innocent persons caught up in them; the most recent example is the data leak from the FIS/NDB/SRC (the Swiss foreign intelligence agency, known by three acronyms from its English/German/French name), but massive data leaks were recently reported from other EU intelligence agencies.
+
+For further background, see:
+
+    http://epic.org/privacy/socialnet/
+
+    http://www.wired.com/dangerroom/2012/11/president-hunt-you/
+
+    http://timshorrock.com/?page_id=141
+
+    https://www.privacyinternational.org/big-brother-incorporated/countries/
+
+    http://www.spiegel.de/thema/staatstrojaner/
+
+    http://topics.bloomberg.com/wired-for-repression/
+
+    http://projects.washingtonpost.com/top-secret-america/
+
+    http://bigbrotherinc.org/
+
+    http://www.thebureauinvestigates.com/
+
+    http://wikileaks.org/the-spyfiles.html
+
+@ \"Tails\":
+
+Oh dear.
+
+Well, I am simply guttered.  
+
+But I can also see why you don't want the hassle which can result from the kind of broad discussion which I think is so necessary.  
+
+I myself don't want you to be spending much time moderating this forum; maybe you know someone who lacks invaluable programming skills, but who possesses good judgement and who is willing to help out?
+
+I echo the point that your request to take this discussion elsewhere would be much more useful, maybe even feasible, if you could offer some specific suggestions for where one can post anonymously, or otherwise communicate anonymously.
+
+If I could I would; if I can I will.
+
+One possibility which occurs to me is OTC chat, although I need directions to appropriate chat rooms and further guidance.  Possibly the single most useful thing you could do to help me try to find a better venue, and to help Tails users generally take full advantage of the software on the DVD, would be to write a step by step tutorial on how to use OTR chat with Pidgin running under Tails to safely enter a chat room and contact Tor developers and or human rights workers.  Because pidgin uses a non-intuitive GUI instead of a text-based interface, I conceded this might not be an easy task.
+
+"""]]

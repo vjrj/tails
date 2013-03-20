@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-07T00:41:34Z"
+ content="""
+@ OP:
+
+I think I know what is causing the confusion.
+
+Try surfing to 
+
+     https://check.torproject.org/
+     http://browserspy.dk/headers.php
+
+while watching Tor Network map.  You should see the Tor circuit building (entry or bridge, followed by middle node, followed by exit node, followed by the destination IP and also the IP of an oscp server if the destination you requested uses https).  The destination and oscp servers appear only briefly, and might appear twice, once as an ip and once as a resolved url, which is fine, I think.
+
+What this means is that your initial connection to the destination is by the stated circuit.  After ten minutes, you should automatically build a new circuit, probably keeping the same entry node but definitely changing the exit node.  If you keep two browser windows open (File -> New Window) and use the second to go to the torcheck website every ten minutes or so, you should see that the exit node (which is what is seen and reported by torcheck) has changed.  However, the circuits by which you connect to torcheck might not be the same as the circuits by which you connect to your other destinations (which is probably a good thing).
+
+Using only a few (three, some say) Tor entry nodes or bridges is said to help protect Tor users against correlation attacks which a country-level or region-level (think EU) adversary could potentially use to de-anonymize you.  There is a paper which claims this might not be true, and the best way to handle entries into the Tor network is one which seems to be constantly revisited by the Tor developers, which is almost certainly a good thing.
+"""]]

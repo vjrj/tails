@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-03T21:35:13Z"
+ content="""
+Running Tails in a Virtual Machine could leave traces in Windows' swap file. 
+"""]]

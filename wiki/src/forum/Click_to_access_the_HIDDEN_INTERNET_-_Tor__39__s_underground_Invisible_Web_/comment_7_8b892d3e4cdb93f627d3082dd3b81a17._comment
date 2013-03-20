@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Madness!"
+ date="2012-09-19T02:42:10Z"
+ content="""
+>The Hidden web is legal[...]
+
+Well, that's debatable - the mechanism *may* be legal in some parts of the world but that certainly doesn't apply to the *content*.
+
+>full of information you wont find anywhere else.
+
+You appear to be using *information* very loosely to refer to gossip, rhetoric, trolling, miss-information, sensationalism, malicious slander, gore, phishing and repugnant images.
+
+>It has valuable privacy features which make tracing you even harder.
+
+\"Harder\" than what? \"Tracing you\" from a hidden site is, if anything, theoretically slightly *more* plausible from a .onion server than from any ordinary webserver visited via Tor/Tails.
+
+>Welcome to the OTHER SIDE OF THE INTERNET, the side your grandmother most probably didn't tell you about
+
+...because when she found it she saw it for the worthless repugnant morass it is, puked, despaired at the nature of humanity, and never even thought to inflict the ordeal onto her grandchildren. Just as she never thought to describe to her grandchildren the scene she observed as a girl when she stumbled upon their great-great-grandparents re-enacting their wedding night, even though every detail remained luridly etched into her memory until the day she died.
+
+>Tails developers please consider displaying more information about .onion web sites with a clear link on the main page and on web browsers.
+
+Appalling suggestion. The Tor network is an extremely valuable anti-oppression tool but its hidden sites are its squalid underbelly and best left hidden. If any mention need be made, it should be a comprehensive description and WARNING on a dedicated page found only from an obscure section of Tails related warnings and caveats.
+
+>Hidden services is a valuable part of Tor and I think under promoted by Tails at this point
+
+Hidden services are about as \"valuable\" and \"under-promoted\" as taking a wrong turn while shopping on \"Main Street\" and finding yourself on \"skid row\".
+"""]]

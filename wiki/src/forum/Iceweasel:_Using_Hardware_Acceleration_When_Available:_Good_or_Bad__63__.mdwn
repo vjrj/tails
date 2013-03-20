@@ -1,0 +1,7 @@
+In Iceweasel, go-to:
+
+*Edit:Preferences:Advanced:General:Use hardware acceleration when available*
+
+Is there any attack vector by allowing this feature? (it is on by default)
+
+I've read articles on malware replacing or altering [graphics card(s)] firmware and since Tails users shouldn't use Flash [though some use HTML5 - could this be abused by itself and/or with the H.A. feature discussed here?] what are the pro vs. con to leaving this feature enabled vs. disabling it?

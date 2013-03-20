@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-14T11:55:53Z"
+ content="""
+> Is there any known case of someone being traced entirely through Tor or Tails?
+
+None that I know of through Tails.
+Through Tor used outside of Tails, please ask on the Tor discussion channels.
+
+"""]]

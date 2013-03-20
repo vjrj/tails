@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2012-09-26T08:07:33Z"
+ content="""
+i can't believe you are even asking the users that question considering the inbuilt player can't even play most modern formats apart from low spec mpg or avi and even then it looks really bad low quality. :)
+
+As someone has already pointed out it doesn't matter what codecs you add it's not going to play H264, VC-1 1080p MKV files with any great quality and it will just load the CPU as the player has no access to enable hardware acceleration unlike VLC that will autodetect and adjust for the best output for the hardware.
+"""]]

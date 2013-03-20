@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-13T06:10:01Z"
+ content="""
+>I can move the cursor with the laptop touchpad. But it seem that touchpad tap function is not working when I move the cursor over the 'Application' or any of the pulldown menu.
+
+System > Preferences > Mouse >Touchpad 
+
+Check \"Enable mouse clicks with touchpad\"
+
+>2. How to I control the desktop pulldown menu with the keyboard?
+
+Tab, arrow keys and shift.
+
+Are the touchpad *buttons* working?
+
+
+
+"""]]

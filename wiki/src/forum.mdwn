@@ -3,7 +3,7 @@
 <div id="page-forum">
 
 <p>
-The [[forum]] is open for discussions that <strong>do not</strong> belong to bugs,
+The [[forum]] is open for discussions about Tails that <strong>do not</strong> belong to bugs,
 feature requests and the like. Such fauna should rather be submitted
 on [[the dedicated page|support/found_a_problem]], where it can be more
 easily tracked... and hopefully fixed.
@@ -14,7 +14,18 @@ new posts and comments with your favourite feed reader:</p>
 
 [[!inline pages="forum/* or comment(forum/*)" feedonly="yes" show="25"]]
 
-<h1>Start a new discussion thread</h1>
+<form  action="/ikiwiki.cgi" method="get">
+<div class="blogform">
+Search before starting a new discussion thread:<br/>
+<input name="P" size="30" />
+<input type="submit" value="Search" />
+<select name="DEFAULTOP">
+<option selected="" value="or">Matching any words </option>
+<option value="and">Matching all words </option>
+</select>
+<a href="/ikiwiki/searching/">Searching Help</a>
+</div>
+</form>
 
 <form  action="/ikiwiki.cgi" method="get">
 <div class="blogform">

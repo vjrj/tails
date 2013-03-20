@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-11T23:26:43Z"
+ content="""
+@ OP:
+
+Thanks, very interesting!  I think this is a good example of a real-world information leakage.
+
+See also
+
+* Privacy Implications of Performance-Based Peer Selection by Onion Routers: A Real-World Case Study using I2P,
+by Michael Herrmann and Christian Grothoff.
+In the Proceedings of the 11th Privacy Enhancing Technologies Symposium (PETS 2011), Waterloo, Canada, July 2011. 
+http://freehaven.net/anonbib/#wright02
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-25T06:22:40Z"
+ content="""
+Hmm, curl has obviously been added to Tails at some point since 0.10. (I have just used curl in Tails 0.16)
+
+But...is a script such as the following, used to download all images on a web page, minus thumbnails, SAFE to run in Tails:
+
+`curl --retry 10 '{URL of page containing images}' | grep -Pio '(?<=href=\\").+/src/.+(jpe?g|gif|png)(?=\\")' | sort -u 		| while read image; do curl --retry 10 -O \"$image\"; done`
+
+???
+"""]]

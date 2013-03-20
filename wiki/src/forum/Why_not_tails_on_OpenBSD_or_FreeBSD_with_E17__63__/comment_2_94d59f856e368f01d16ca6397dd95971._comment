@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-19T15:02:00Z"
+ content="""
+e17 is only just becoming stable, but is **very** nice. OpenBSD might be good for security but poor for usability/compatibility. Qubes would be even better for security **and** probably better for usability/compatibility too.
+
+Tails will always be based on Debian (see comment 1)
+"""]]

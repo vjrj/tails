@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-01T08:26:36Z"
+ content="""
+I wouldn't start another thread - I suspect your problem is that you're asking how to use \"Kleopatra\"... what ever that might be. This is the Tails forum. I don't recall any package called Kleopatra being part of Tails and notice a vaguely familiar .exe extension. Does Tails include WINE now? That'd explain the .iso suddenly hitting 900MB! ;-) Expecting the Tails community to \"support\" software from the darkside might be somewhat optimistic. Perhaps posing your question on a Kleopatra forum might be more productive? Unless you're worried your question would be subverted, just (temporarily) accept the certificate they've buggered up and post your question on their forum. While you're at it, they might also like to know they've buggered up their SSL certificate!... not much point having one if it doesn't work.
+
+Pure supposition: Why is the app you're using whitering on about certificates? You're attempting to verify by PKI signature - not using a certificate. Shouldn't you be using GnuPG or PGP? Once you get really sick of messing with all that GUI crap, perhaps you might like to try something like:
+
+    gpg --verify /path/to/and/name/of.iso.sig /path/to/and/name/of.iso
+
+All the best
+"""]]

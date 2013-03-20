@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-10-22T07:12:57Z"
+ content="""
+>Would it perhaps be better for me to unplug my modem and plug it back again before using the internet with Windows?
+
+*If* powering-off and on your modem changes your IP address, then I would think that doing this in between Tor and regular usage would indeed offer *some* advantage. Probably not much-- perhaps even *miniscule*-- but *some* nonehtheless; should make it at least a *little* harder for your Tor and non-Tor usage to be linked. 
+
+I don't know why \"comment 1\" summarily dismissed this idea.
+"""]]

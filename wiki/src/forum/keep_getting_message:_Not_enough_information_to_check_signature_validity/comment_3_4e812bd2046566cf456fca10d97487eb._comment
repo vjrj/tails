@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-03T22:57:22Z"
+ content="""
+It's true that such questions are frequently asked, but I believe the purpose of this forum is to answer even questions we have seen before.
+
+@ OP:
+
+First: download three files from the Tails website:
+
+* the iso image itself (over 800 MB)
+* the detached signature (names ends in pgp)
+* the Tails signing key
+
+Second: import the key into your keyring.
+
+Third: verify the detached signature of the iso image
+
+The details are here
+
+     https://tails.boum.org/download/index.en.html#index3h1
+
+I guess you forgot to process the signing key.
+
+You shouldn't use Tails unless you can verify the signature.
+
+(And you shouldn't trust the signature unless you have good reason to think you have the genuine key, so it is a good idea to check that the key you have is the same as that available in public keyservers.)
+
+"""]]

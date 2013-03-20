@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-02-01T14:30:02Z"
+ content="""
+> Have you correlated this against the identity and reported location of the exit node you're using at the time?
+
+I have never seen an exit node in my country, on the day that I auditioned the exit node was from Sweden.
+
+> Sounds like you browsers preferred language is being left at \"en-US\" so that's the content you're receiving but an intermediate redirection is passing your connection to a server serving the location of your exit node at that instant... which \"sometimes\" happens to match your actual location.
+
+	
+I'm sure that's not the case, always check the IP of the exit node and never happened to be the same of my location.
+"""]]

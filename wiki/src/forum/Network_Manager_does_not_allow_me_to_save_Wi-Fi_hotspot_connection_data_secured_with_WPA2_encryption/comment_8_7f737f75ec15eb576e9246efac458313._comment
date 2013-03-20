@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-09-27T15:47:48Z"
+ content="""
+> If it's \"incorrect\", then why does the same network with the exact same connection data works just fine on Windows 7?
+
+I have no idea what Windows 7 does with the information you give it, so I there's no possible way for me answer this question. E.g. it would not surprise me that much if Windows automagically ignored incorrect settings you enter and \"transparently\" (that is, really: opaquely) use correct autodetected setting instead. So, while comparing settings used on both sides is a great start, I don't think it's enough to draw conclusions wrt. the correctness of the settings entered in Network Manager. Hoping I was clear enough :)
+
+> Could it be that the Broadcom drivers for Linux have issues?
+
+It may very well be. Have you searched the web for similar issues?
+
+> Also, I still have a Tails 0.12 DVD (I'm not sure if it's 0.12 or 0.12.1). Should I try on that and see if the problem happens there as well?
+
+You could try it, but I doubt it will make a difference, considering the wide range of GNU/Linux systems you have already tried.
+
+Also, may you please try setting an administration password in tails-greeter, and see if it allows you to manually edit the connection, and e.g. change the Wi-Fi security mode to something else?
+
+"""]]

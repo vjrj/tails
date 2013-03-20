@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-21T10:15:42Z"
+ content="""
+I had a very similar problem with a non-encrypted volume on an Ubuntu system once. It was because an error was detected on the filesystem due to a damage on the disk surface. Ubuntu silently remounted the volume read-only to prevent corruption, yet it still showed as read-write.
+
+Check the SMART data on your device using Disk Utility (which is included in Tails). If it shows multiple read-errors it is a sign of disk failure, rescue any data now. Otherwise, try running the \"Check Filesystem\" option in the same tool on the offending file system. It should try correcting any errors.
+"""]]

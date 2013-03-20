@@ -1,0 +1,34 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-24T21:36:21Z"
+ content="""
+Let's start with some really basic stuff which has tripped up newbies in the past.
+
+From the boum.org download page
+
+    https://tails.boum.org/download/index.en.html
+
+you should have downloaded:
+
+* Tails 0.16 iso image
+* detached signature of that iso image
+* Tails signing key
+
+If you are downloading using a browser such as Firefox (FF), when you save the files try to keep the original names of the files.
+
+(There are a number of extra-security steps you can take when you are more comfortable with this process, like verifying the SSL certificate of the website you are downloading from, and more importantly, independently obtaining the signing key from a GPG/PGP keyserver by searching for \"Tails signing key\".)
+
+Say your primary OS is Windows.  Then you can follow the directions given on the webpage cited above for Windows. 
+
+You may need to start by installing gpgwin.  You are probably unfamiliar with using GPG/PGP, and since I am not a Windows user I might not be able to help much (but others can), but you'll need to import the signing key into your \"keyring\" before attempting to verify the detached signature.  In Linux (Windows should be similar) the shell commands would have form
+
+     gpg --import keyfile
+     gpg --verify sigfile isofile
+
+If verification is successful you should see a message saying the signature is good, but that you can't verify that Tails owns the signing key.  (Actually you can, but that's more complicated.  Much easier is to independently obtain the key from a public keyserver.)
+
+Another really basic thing: when you have verified the iso image you need to use a DVD burner to burn a live DVD image you can burn from.  Details depend upon which DVD burner you use, but you must make sure to \"burn image\" rather than making a \"Data DVD\".
+
+Oh, and welcome to Tails!
+"""]]

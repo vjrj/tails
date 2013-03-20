@@ -1,0 +1,10 @@
+When starting up &shutting down tails i've got a warning message - something like
+Tssdns daemon ............ Not a virtual machine.              Warning
+
+That's not it exactly & there was other text in the .... Bit. Couldn't copy it down as it went quite quick.
+
+Anyone know what this is and how much i should be concerned?
+
+Also any way to copy/save the startup/shutdown messages so i can post a better description of the error message?
+
+This may not be relevant but i've had problems connecting to internet via tor/iceweasle as web connections show as disconnected & get message saying proxy server unreachable. Don't know if this is connected or not.

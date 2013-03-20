@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Correct me if I'm wrong but...."
+ date="2012-09-04T11:21:12Z"
+ content="""
+Correct me if I'm wrong but I was under the impression that Tor Browser Bundle provides sufficient privacy and anonymity when one is surfing the web.
+
+One doesn't have to worry about iptables firewall when using Tor Browser Bundle, no?
+
+By the way, what's the equivalent of iptables in Windows OS? I'm a newbie to Linux distros.
+"""]]

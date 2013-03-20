@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-13T18:42:29Z"
+ content="""
+It's still me (\#5 in your older thread :)
+
+I can tell you how to format the \"storage\" mass device as a Tails persistent partition using its full capacity. Once done you can also use it in Mint, you just need to mount it manually. Is it ok for you?
+"""]]

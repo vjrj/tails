@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-18T09:50:55Z"
+ content="""
+\"Essentially I2P in Hidden mode is the same as being a Tor client that's not using a bridge.\"
+
+Then shouldn't I2P be set to auto-start in Hidden mode to bring it inline with Tor Tails until a user decides otherwise ???
+"""]]

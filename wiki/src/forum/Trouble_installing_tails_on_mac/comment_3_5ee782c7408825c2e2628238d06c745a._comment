@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-14T21:29:49Z"
+ content="""
+You need to find out how to do MD5 checksums on Mac OS. 
+
+This maybe : http://hints.macworld.com/article.php?story=20060314095715509  ?
+
+Then you'll need to flash or burn the iso on a dvd/usb.
+
+From what I've read booting linux on Mac is a bit more complicated than on PCs, but you should manage. Maybe optical disk will be easier.Otherwise for USB check Unetbootin, they have a Mac version I believe.
+
+Here's some reading for you :
+
+http://studyblast.wordpress.com/2011/08/14/guide-mac-os-x-lion-how-to-boot-a-linux-live-system-from-a-usb-drive-how-to-update-any-ocz-ssds-firmware/
+
+http://superuser.com/questions/27794/how-to-boot-a-linux-live-usb-on-a-mac
+
+http://askubuntu.com/questions/28495/how-do-i-get-my-mac-to-boot-from-an-ubuntu-usb-key
+
+You may try to press \"E\" at startup for selecting boot options.
+
+From speed-reading those links I do think you should go the CD/DVD way and use your usb key to copy/save data if needed. If it is sensitive then you should encrypt it. Look into that, google is (not really bubuttt) friend...
+
+And I would advise you to keep trying by yourself til you get it running, using tails is easy once up and running, but knowing what is privacy, anonymity and the (small) technical knowledge they imply is fundamental if you don't want to give yourself away.
+
+Read the Tor project's excellent documentation, find & read \"Exit The Matrix\" for an overview of the challenges & possibilities, and most obviously all of Tail's very own super duper doc!
+
+Good luck.
+"""]]

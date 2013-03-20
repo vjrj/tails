@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-09-18T01:20:41Z"
+ content="""
+\"I would rather they produce a high-quality product.\"
+
+Good luck :
+
+- still no real irc client (pidgin for irc is crap)
+- probably another old version of network manager
+- possible outdated Iceweasel ESR with security probs
+- still no real clipboard except for the stupid forced
+  encryption keyboard which is crappy for those who don't
+  need clipboard encryption
+- stupid cookies extension, which shouldn't be needed
+  when torbutton handles cookies
+- mysterious 'user count' whenever you connect to the net
+  with Tails, somehow (which I have yet to hear about
+  how and which files so I can disable this 'feature')
+  it sees you have booted Tails and contributed to the
+  expanding user base tally
+
+and more
+"""]]

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-10-31T17:45:22Z"
+ content="""
+> I think you will find that the \"browser fingerprint\" of default Tails and default TBB currently differ in specific ways
+
+Yes. Help is welcome:
+
+* [[todo/evaluate_web_fingerprint]]
+* [[todo/harmonize_iceweasel_config_with_tbb]]
+
+Please read [[contribute/how/input]] first. Also, please don't simply paste raw results that will quickly get outdated, and can anyway be reproduced within minutes :)
+
+"""]]
