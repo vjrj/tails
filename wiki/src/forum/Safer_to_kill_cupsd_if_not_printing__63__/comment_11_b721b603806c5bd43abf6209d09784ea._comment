@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-03-18T07:56:29Z"
+ content="""
+@ 10 (Tails):
+>I consider it outside of my personal commitment to spend any time researching and answering such custom matters
+ 
+First, I was merely *asking* what seemed to me like a fairly simple, *innocent question*. I did not expect that answering it would require any \"research\" or significant amount of time and certainly never meant to suggest that I was in any way *demanding* such from anyone.
+
+Your reply comes across as quite (gratuitously) *defensive* as well as *presumptuous*. If I have somehow misread you, then I apologize. If I have not, then I ask you to please try to be better about assuming good faith. Let me be clear that I appreciate the work and dedication that continually goes into making Tails a reality.
+ 
+Second, were you speaking for all of your fellow Tails devs? 
+
+If you *were*, you did not make that clear. If you were *not*, then shouldn't you have made it clear that you were only speaking for *yourself* and not have assumed such an *absolute*, *authoritative*, *presumptuous* tone? 
+
+Additionally, even if, for whatever reason, none of the Tails devs were willing and/or able to answer the questions I had asked, perhaps someone else out there reading the thread might have something helpful to contribute? Why not allow the chance for that?
+
+Finally, I would challenge your dismissive characterization that my inquiry concerned nothing more than a marginal, \"custom matter\".
+
+As I noted in a previous post, I never, in any way, meant to dispute that printing is indeed \"part of the Tails design goals\", as you put it. Nonetheless, I cannot imagine that there does not exist a considerable percentage of Tails users -- likely even a clear *majority*-- who often boot into Tails for sessions that do *not* include any *printing* but *do* include *network activity*. I'm also sure that there are at least *some*, and likely even a *considerable number*, of Tails users who *never* have a need for the printing capabilities within Tails. 
+
+In such cases, not having `cupsd` running would appear to offer enhanced security by reducing one's attack surface. As whomever the \"Tails\" of \"comment 7\" wrote, 
+
+>Yes, it's always somewhat safer to run less software. 
+
+Thus, it would seem completely within the interest of the general Tails userbase/community to know (or at least have some authoritative guidance on) the answers I had asked ITT.
+
+And if there are not, in fact, any downsides to running a Tails session without cupsd running, then ideas such as the following would seem in place for consideration:
+
+- Adding some info/advice on this matter to the documentation
+-Adding some GUI option to disable cupsd, either to the Tails-greeter or at startup     
+
+Let me be clear: I am not saying that any of this *necessarily* **should** be done; I could easily see the possibility that whatever risks are posed by running cupsd are insignificant enough that they would not justify the time and effort required for any of the changes I am suggesting. I am simply presenting the matter for *discussion* and *consideration*.
+"""]]

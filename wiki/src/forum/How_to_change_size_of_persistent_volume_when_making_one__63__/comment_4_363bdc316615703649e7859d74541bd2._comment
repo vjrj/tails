@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="What about prepping the drive ahead of time"
+ date="2013-03-21T02:45:47Z"
+ content="""
+I only need a couple of G in the persistent volume but it's on a 32 G drive.  How does Tails determine the size?  If it bases it on free space then I could write some big dummy files on the drive after cloning the OS and before creating the persistent drive right.  Create 26 G of fake files, then create the persistent volume then delete the fake files?  Then I assume Tails would allow me to mount both the unencrypted space and the encrypted persistent volume at the same time? Copy files from one to the other? Wipe files from either one?
+"""]]
