@@ -1,0 +1,82 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-21T23:16:32Z"
+ content="""
+> keep safe
+
+Second that!  
+
+> I do not like the sound of this finfisher business!
+
+You are in good company.
+
+Here are some more excellent links on the surveillance abuses of Gamma International, the now notorious spyco headed by Martin Muensch, which provides FinFisher (and FinFly, FinSpy, and other clandestine surveillance tools) to repressive governments around the globe (especially MENA, Latin America, and South Asia).
+
+Earlier this month, Citizen Labs (a journalism project in Canada) published important new findings concerning the surveillance services provided by Gamma International.  From
+
+     https://citizenlab.org/2013/03/you-only-click-twice-finfishers-global-proliferation-2/
+
+>  We have found command and control servers for FinSpy backdoors, part of Gamma International’s FinFisher “remote monitoring solution,” in a total of 25 countries: Australia, Bahrain, Bangladesh, Brunei, Canada, Czech Republic, Estonia, Ethiopia, Germany, India, Indonesia, Japan, Latvia, Malaysia, Mexico, Mongolia, Netherlands, Qatar, Serbia, *Singapore*, Turkmenistan, United Arab Emirates, United Kingdom, United States, Vietnam.
+
+This is significant because the presence of a FinFisher C&C server in a given country generally suggests government involvement in surveillance targeting political dissidents and citizens hoping to evade censorship or to communicate freely with the outside world.  Gamma International knows that its most avid customers are repressive governments, and like other such spycos it markets its products extensively in South Asia, Latin America, and the MENA region.  It is also no accident that the \"Wiretapper's ball\" (semiannual surveillance trade fairs) are generally held in South Asia or a MENA country.
+
+From
+
+     https://www.privacyinternational.org/blog/hmrc-must-investigate-potential-breach-of-uk-export-laws-by-gamma-international-in-face-of-new
+
+> In November, Privacy International provided a 186-page dossier of evidence against Gamma International to HM Revenue and Customs, the body responsible for enforcing export regulations, regarding this potentially criminal breach of the export control regime. On behalf of victims who were targeted by FinFisher, we called for an urgent investigation into Gamma International’s export practices.
+
+You can obtain that 186 page dossier from the above linked page at Privacy International, and it makes fascinating reading.
+
+From
+
+     http://en.rsf.org/bahrein-human-rights-organisations-filed-04-02-2013,44016.html
+
+(Caution!  RSF has at times been infected with malware in order to mount \"watering hole\" attacks on human rights activists.  This malware attacked recent exploits in IE, I think, so surfing to RSF with Tails mounted from an R/O DVD should be safe, I hope.)
+
+> The complainants argue that there are grounds to investigate whether surveillance products and services provided by Gamma International and Trovicor have facilitated multiple human rights abuses in Bahrain, including arbitrary detention and torture, as well as violations of the right to privacy, freedom of expression and freedom of association. They allege that there is evidence to suggest that information gathered from intercepted phone and internet communications may have been used to detain and torture bloggers, political dissidents and activists and to extract confessions from them. If the complaints are upheld, the companies are therefore likely to be found to be in breach of the OECD Guidelines for Multinational Enterprises, recommendations addressed by governments to companies that set out principles and standards for responsible business conduct. 
+
+Bloomberg News has collected its excellent stories about Gamma International and other companies in the global surveillance-as-a-service industry catering principally to repressive regimes in the MENA, Latin America, and South Asia regions:
+
+      http://topics.bloomberg.com/wired-for-repression/
+
+For information about human rights issues in Singapore, try
+
+     http://www.hrw.org/world-report/2013/country-chapters/singapore
+
+(Caution!  HRW has also been infected with malware in order to mount \"watering hole\" attacks on dissidents, at least twice in the past year.  Again, I believe that Windows users were targeted, so surfing to HRW with Tails mounted from an R/O DVD should be safe, I hope.)
+
+> Human rights defenders in Singapore risk being fined, imprisoned, bankrupted, and banned from traveling outside the country without government approval... At its 2011 UPR, Singapore rejected the recommendation from other countries that it accept a visit by the UN special rapporteur on the situation of human rights defenders.
+> The US and Singapore maintain strong military ties, including bilateral access agreements that allow the US to use a Singapore naval base, and to operate re-supply vessels, dock its aircraft carriers, and maintain a regional logistical command unit. Discussion of Singapore’s poor human rights record was not part of the bilateral agenda.
+
+From
+
+     https://en.wikipedia.org/wiki/Censorship_in_Singapore
+
+> The Government of Singapore argues that censorship of political, racial and religious issues to a certain extent is necessary to avoid upsetting the balance of Singapore's delicate multi-racial society... The controversial Section 33 of the Films Act bans of the making, distribution and exhibition of \"party political films\", at pain of a fine not exceeding $100,000 or to imprisonment for a term not exceeding 2 years.
+
+From
+
+    http://globalvoicesonline.org/2010/07/22/censorship-in-singapore/
+
+> In a space of a month, Singapore authorities caused a major uproar when they banned a film of an ex-political prisoner and arrested a British author who wrote a book about the death penalty in Singapore.
+
+(Alan Shadrake was later charged with *defamation* for writing a book critical of the application of the death penalty in Singapore; repressive tactics exploiting \"libel tourism shopping\" have in the past ten years become increasingly common in \"Western democracies\" too, so everyone has a stake in such cases.)
+
+From
+
+   http://www.guardian.co.uk/commentisfree/libertycentral/2010/nov/09/singapore-censorship-alan-shadrake
+
+> Sometimes the Singapore government cannot help itself. The conviction of Alan Shadrake, an outspoken but hitherto unknown British author, is not merely unjust; it reminds outsiders of the authoritarian and sinister side of a city state that most people associate only with shopping.  
+
+> Shadrake is the latest in a long line of victims of one of the world's most vicious defamation cultures. Pretty much any criticism can be deemed as \"insult\". International media have fallen foul – from the Economist to the Far Eastern Economic Review – and most of the tiny group of opposition politicians have over the years been bankrupted and then imprisoned for going against the grain.
+
+For recent news see
+
+     http://www.hrw.org/asia/singapore
+
+I should perhaps mention (see some recent threads in this forum) that Citizen Labs, the Tails Project, and Human Rights Watch all appear to have received some financial support from entities tied to American agencies which are not known for having the best interests of citizens at heart.  But tainted money does not necessarily invalidate the good work that these organizations have performed, which is generally available freely to all.  Also, TLAs sometimes step on each others does (as perfectly illustrated by one TLA giving money to the Tor Project while another is harassing one of its key developers, Jacob Appelbaum, owing to his ties with Wikileaks), which tends to suggest that while there is something vaguely conspiratorial here, evidence suggests it is a poorly organized conspiracy which might wind up doing us all some good, it if furthers the legitimate goals of helping citizens everywhere partially evade censorship and repression.
+
+
+"""]]
