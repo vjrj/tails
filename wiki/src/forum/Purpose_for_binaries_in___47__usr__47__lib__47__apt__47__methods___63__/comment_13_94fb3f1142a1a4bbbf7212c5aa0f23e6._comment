@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-02-24T22:14:53Z"
+ content="""
+@ 8:
+
+> One would hope that. Building a security critical operating system upon a *by todays standards rather insecure OS* seems not like an intelligent choice.
+
+This notion is a misconception which appears to arise from a misunderstanding of how Debian works.
+
+>  at least one of the core developers of Tails is also a Debian developer. He/she knows Debians inner workings and have a good relationship with other Debian developers (I presume). Switching to building Tails upon another distribution is a very large task, especially if you have no relationship with upstream or knowledge about the tools and methods used to build on top of that distribution.
+
+Right, so once you understand why Debian Stable is in fact one of the most stable and secure Linux distributions, you can see that it is actually wise to base Tails on Debian Stable.
+"""]]
