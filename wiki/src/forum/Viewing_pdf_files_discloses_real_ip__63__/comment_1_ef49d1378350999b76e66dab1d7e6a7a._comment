@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-22T01:17:40Z"
+ content="""
+First, PDF files are unfortunately a common source of malware, so viewing ones which you think might have been tampered with is best done using a live CD.  Most malware which try to exploit vulnerabilities in PDF handlers seem to attack Windows machines.  Tails is based on Linux, and it would be very difficult, I think, for malware which managed to break a Tails system to also get it to mount the hard drive and infect the primary OS on a computer running Tails (from a R/O DVD).
+
+PDF files may also contain metadata and even \"live\" links.  If so, clicking on a \"link\" while viewing a PDF with a browser might transport you to a website, a start up a browser pointed to that website.  If that website is for example a .gov website, attemped or completed connections to it will be logged by the security apparatus of the US government via CISPA.  If you oppose some policy of the US government, that could ultimately have unguessable consequences.
+
+Wikileaks and some other sites suggest disconnecting from the internet before viewing a sensitive PDF file.  I believe that one reason for that advice is that sometimes opening a sensitive PDF on a computer which uses Windows will result in some standard component of a Windows system \"calling home\" to the owner of the PDF document.
+
+If you are concerned about opening a suspicious PDF file, you can always try using pdftotext (a utility included with Tails and other Linux distributions) to convert it to a plain text file.
+
+Bottom line: some many things can go wrong when viewing modern PDF files that disconnecting from the internet before viewing them, and maybe even avoiding to open them at all, may be a good idea.
+"""]]
