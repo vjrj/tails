@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-22T01:04:27Z"
+ content="""
+> I have seen a few people complain of this.
+
+Really, where?  I have never heard of this before.  Details please!
+
+My first guess is that they might have been trying to mount a (second?) USB stick and clicked by mistake on the wrong icon, causing the computer to try to mounting thei hard drive.  If so, the user might have become alarmed when they were unexpectedly asked for the passphrase for unlocking their LUKS encrypted hard drive.
+
+I think it's impossible to say anything useful without knowing more about exactly what happened in the reported incidents, but I suspect that this might have been a case of user error rather than malicious activity.
+
+"""]]
