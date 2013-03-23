@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-19T05:35:16Z"
+ content="""
+Now ive tried to send mail without SSL just to see if it would go through and it gives me this error:
+
+** error occurred on SMTP session
+*** Error occurred while sending the message:
+530 5.7.0 Must issue a STARTTLS command first
+
+Is there no way to send mail with claws in tails?
+"""]]

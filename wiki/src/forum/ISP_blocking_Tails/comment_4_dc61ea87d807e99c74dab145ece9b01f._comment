@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-19T15:36:49Z"
+ content="""
+It also might help us if you tell us who your ISP is and which country you are in ?
+
+This may enable us to research and tell you if are using an ISP which are known to blocking tor traffic. Also if your country is known to be blocking tor traffic.
+
+At the same time this still might not be the issue(s) to finding your answer(s).
+"""]]

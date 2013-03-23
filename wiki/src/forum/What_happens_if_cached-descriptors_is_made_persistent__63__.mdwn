@@ -1,0 +1,9 @@
+From the "persistence preset" page:
+
+>Custom scripts relying on non-persistence
+
+>Some of our scripts depend on that certain files in /var/lib/tor are not persistent, which has to be resolved before adding the preset:
+
+    >Our time syncing script uses the existence of cached-descriptors as a test for wheter Tor is working, and a similar assumption is made for the *-consensus files.
+
+What happens if this is made persistent? Will this cause tor or tails to fail?
