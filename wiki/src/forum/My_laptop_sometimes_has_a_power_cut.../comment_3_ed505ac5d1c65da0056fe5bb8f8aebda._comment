@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-24T17:35:58Z"
+ content="""
+we all started out as a noob :D
+
+you probably want to have a look at BIOS (research it on google or on laptop manufacturer website)
+
+The basic of the process is to press a key (cant remember which one) before the actual laptop boots up. Then you look at the settings, it maybe you need to switch it to \"other OS\" or similar wording.And check that the main hard drive has been enabled and it is the primary. But the USB stick is First boot. Save and then reboot.
+
+The do the boot up install as you attempted before.
+
+If you are still having problems i recommend you join the ubuntu forum and might be worth telling them what laptop you got etc.
+
+some nice people on it here too.
+
+If you balls it up then repeat the process before then load the default setting of the BIOS.
+
+This is about as much i can help you as discussing non-tail issue is really allowed here.
+
+good luck
+"""]]
