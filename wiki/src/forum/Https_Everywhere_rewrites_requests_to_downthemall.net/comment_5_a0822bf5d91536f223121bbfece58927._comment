@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-18T23:54:18Z"
+ content="""
+@4 You could be correct, wish people explain stuff or points properly.
+
+I took the OP question as a possible code snippet query (I really meant the rulesets). And to me look legit and works fine at the surface. Of course i not checked in-depth.
+
+And just to inform others (if Tails updated as current tor bundles with the https everywhere plugin enabled). When or if you visit the website  http://www.bugs.downthemall.net it DOES rewrite it to https to me is a good thing.
+
+And I also agree with the commentator 4 who raise the point that actual downthemall plugin is NOT a recommend plugin and you use it at your OWN risk. Other less risky methods of downloading stuff is available to use (use the search on this forum)
+
+Slight off topic regards https everywhere plugin you can write your own rewrite codes/rulesets for websites that are not in the https everywhere ruleset database, provided that website supports https protocols.
+
+It is pretty easy with very basic programming skill for more information on the ruleset stuff please read more at https://www.eff.org/https-everywhere/rulesets
+
+have fun and while i am off to hide under the rock :)
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-21T21:12:12Z"
+ content="""
+> [...] is my security or anonymity at a risk here?
+
+Probably not, but please [[file a complete bug report|doc/first_steps/bug_reporting]] if you want us to be able to reply in more details.
+
+"""]]

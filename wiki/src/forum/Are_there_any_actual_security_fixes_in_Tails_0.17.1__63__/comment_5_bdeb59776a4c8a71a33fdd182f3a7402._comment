@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-24T09:20:13Z"
+ content="""
+> Why update it to 3.2.39-2?
+
+It was the version in Debian unstable at the time we built the 0.17.1 ISO image.
+
+> Why not update it to the latest current stable Linux kernel?
+
+Tails is based on Debian, see [[contribute/faq]].
+
+> Can I ask why exactly support for virtualbox (the guest driver more specifically) was removed from Tails 0.17.1?
+
+Because the modules failed to build during the ISO build, we overlooked this, discovered it while running our manual test suite, and decided it was not important enough to delay the release.
+
+> And when it is likely to return to Tails?
+
+When someone fixes the modules build failure, sooner if [[you help|contribute/how/code]].
+
+"""]]
