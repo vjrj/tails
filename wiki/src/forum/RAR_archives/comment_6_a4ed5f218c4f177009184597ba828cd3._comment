@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-26T00:44:56Z"
+ content="""
+> I keep trying unar - extract xyz.rar and I keep getting:
+
+Are you literally typing \"unar - extract\" if so that's your issue right there, with unar you don't need to specify anything beyond the file you want to extract.
+
+In other words if you want to extract a file named abc.rar located in the same folder you are currently in, in the terminal then all you need to type is \"unar abc.rar\" and it will extract the file.
+"""]]
