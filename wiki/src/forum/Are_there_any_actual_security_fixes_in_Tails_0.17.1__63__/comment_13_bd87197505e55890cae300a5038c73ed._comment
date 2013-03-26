@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-03-26T09:00:04Z"
+ content="""
+> The new version includes a bugfix for serious security issues with sudo and perl
+
+For the record, the Linux kernel and iceweasel updates are much more serious and important. Tails is unlikely to be affected, in practice, by the sudo issue.
+"""]]
