@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-27T10:21:31Z"
+ content="""
+This should work, but is unsupported right now (see
+[[todo/persistence: support DVD]]): install Tails on USB, boot
+it, setup a persistence volume on it, shutdown. Boot Tails on
+DVD, insert the USB stick once the `live-config` step of the boot
+has started but before tails-greeter appears.
+"""]]
