@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-27T10:35:48Z"
+ content="""
+> Can the Tails developers host this installer on tails.boum.org, instead of sending users to a third-party site without MITM-protection.
+
+It would be *much* better to convince upstream to provide cryptographic signatures.
+
+"""]]
