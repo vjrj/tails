@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-27T18:49:35Z"
+ content="""
+> the signature in torrent file seems different from direct DL sig.
+
+I can't reproduce this. Please tell us exactly for each file:
+
+* where and how you got it
+* its sha256sum
+
+"""]]
