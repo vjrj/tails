@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-28T09:12:43Z"
+ content="""
+Please [[report each of these bugs|doc/first_steps/bug_reporting]] separately. Following our bug reporting instructions will enable us to better understand what you mean, hopefully reproduce it, and possibly fix it.
+"""]]
