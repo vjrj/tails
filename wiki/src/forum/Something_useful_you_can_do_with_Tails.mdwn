@@ -1,0 +1,70 @@
+If you are an anti-war activist or a tech reporter , you have probably heard of T4, and if so you should know that Tails appears to be particularly well suited for this kind of activism and/or newsworthy intelligence collection.  If you are an at-risk citizen, you may not have heard of T4 but this would be a good opportunity to learn a bit about it.
+
+Due to the alarming situation in the Korean peninsula, this is the perfect time to use Tails to engage in a spot of T4, because 
+
+* suitable initial search terms are self-evident
+* T4 is most effective during times of crisis
+
+Because Tails 
+
+* includes macchanger 
+* is amnesiac
+
+using a Tails system booted from a live DVD in an internet cafe appears to be worthy of consideration as a platform for anti-war activism and citizen intelligence collection programs using methods such as T4.  
+
+Such humanitarian efforts can be particularly useful in times of international crisis by exposing specific military operations in advance, and possibly even obstructing the outbreak of a war which could easily cost millions of lives.  
+
+This kind of anti-war activism using Tails-enabled T4 is all about persuading governments in crisis that non-military options are preferable to international military attacks, including high risk sovereignty-violating special-forces raids which are likely to trigger the very thing the USG presumably wished to avoid.
+
+So for any tech-reporters, anti-war activists, and at-risk citizens who are
+
+* insatiably curious
+* extremely reckless
+
+and who wish to confirm from personal experience that:
+
+* ECHELON is quite real
+* it is used to monitor search terms in real time
+* the US TLAs can dramatically change the behavior of the Tor network, when they really truly desire to block specific Tor traffic
+* using "T4", these phenomena can be combined to turn ECHELON against its master, and to gain valuable intelligence about the short-term intentions of the US government
+
+and possibly even to 
+
+* help discourage rival governments from risky military operations (not that T4 disclosures of indications of forthcoming operations has been particularly successful in the past 18 months from detering the US government from launching high-risk incursions, because alerts are simply deleted, but perhaps this crisis will have a more pacific outcome)
+
+there is no better time than the present to plunge into using Tails to explore the fascinating world of citizen intelligence.
+
+Note that in the past few years, T4 has proven to be a reliable guide to covert U.S. military operations one or two weeks in advance.  And it is known that the U.S. government is certainly responsible for T4 "signals" (the dramatic obstruction of specific Tor traffic), because in in some cases the operations foretold were later revealed not to have been shared with even close allies until the operation had commenced.
+
+In the past, hitting the T4 jackpot has been signaled by attempts to block searches using what appears to be some variant of known circuit breaking/clogging attacks on the Tor network, in which particular circuits are summarily broken by injecting reset packets (probably in IXs between destination and exit, and between exit and relay nodes), in order to 
+
+* deny the use of the Tor network to the searcher
+* eventually force the user's Tor client to use circuits whose entry and exit nodes are controlled by the TLAs
+
+Among the very visible signs of such an attack have been 
+
+* the sudden breakage of a large fraction of your Tor circuits as you further refine your ECHELON triggering searches
+* the sudden appearance of dozens of geographically/AS-diverse high bandwidth Tor nodes not previously encountered, which have only become active in the past hour.
+
+However, TLA State of the Art in blocking certain Tor traffic has not stood still in the past year.  My guess is that currently one should also look for attempts to mess with the Vidalia controller, which is appears to be all too easy for a sophisticated attacker to compromise *if* they can obtain your IP, which is of course precisely what Tor tries to prevent.
+
+Presently T4 is further complicated by at least two independent large scale DDOS attacks on 
+
+* Wells Fargo and some other major US banks (supposedly in retaliation for some Youtube video, but in my opinion the involvement of Wells Fargo and some other banks in providing aircraft for rendition flights is a much more sensible motive)
+* SpamHaus
+
+I don't know how this will affect T4, but the IXs are involved in both ECHELON surveillance and in DDOS mitigation, so there will probably be some effect.
+
+T4 is further complicated by the high probability that numerous governments (both Koreas, Russia, China, Japan, Israel) will be employing T4 from geographically diverse botnets. 
+
+Recall that some time ago, there was a Tor node which appeared to be registered in the tiny public-facing internet of North Korea, which would presumably be difficult to accomplish without the explicit approval of the government.  That node quickly vanished, but clearly it is well within the capability of the North Korean government to clandestinely operate geographically/AS-diverse nodes using IPs geolocated outside North Korea.  The same goes for many other "interested nations" which may be particularly anxious to obtain advance warning of USG intentions during a time of international tension.
+
+I wish we could have a discussion of the ethical philosophy of resistance of the Surveillance State and amoral corporatism run amok, and in particular the ethics of using high-risk high-payoff citizen intelligence collection using Tails-enabled T4.  This would probably not be permitted by the moderator here, but I hope I will be allowed to make one important point:
+
+T4 was always dangerous but it has recently become much more so.  Tor was conceived inside the Naval Research Laboratory (NRL) as a way to in effect hide US military C&C and intelligence communications/collection behind a screen of civilians voluntarily operating Tor nodes.  Officially the USG has of course always condemned using civilians as "hostage screens" for military forces.   The irony is that T4 operators could be said to be using civilian "hostage screens" to dissuade the USG from lethal retaliation for their anti-war activism and intelligence collection, just as the USG itself could be said to routinely use Tor users generally as a civilian "hostage screen" for cyber warfare, military "information operations", and intelligence collection by government agents, military personnel, and contract workers.  And the originators of Tor probably did not clearly foresee that US military doctrine would eventually allow a "kinetic" military response to "undesirable" Tor traffic, or to translate military jargon into plain English: "persons believed to possibly be engaging in T4 may be targeted without notice by artillery, Switchblade/Hellfire missiles, or hollow-point bullets, etc."
+
+So if you want to try T4, I suggest you factor into account the assumption that the other cybercafe customers (or reporters sitting in neighboring cubicles) have little desire to become a "collateral damage" statistic.  Americans should also bear in mind the fact that Attorney General Eric Holder recently adamantly refused to rule out the possibility of US drone strikes against persons inside the U.S.  I suspect that this comment referred to ground robots and drones programmed to shoot first and ask questions later which are said to be used by the NSA to protect some of its larger and more remote US facilities from anti-war protestors, rather than Predator drones, but the use of armed surveillance drones inside the US is currently in a state of rapid change, because under these circumstances the USG apparently believes that seeking domestic arrest warrants in times of international tension is too slow, rendering the politically risky option of domestic covert assassination more attractive.  On the other hand, the more people who try some Tails-enabled T4 during a time of crisis, the harder it will be to resond with lethal force to each of them, and the harder it will be for governments to censor clues providing advance notice of specific high-risk military operations.
+
+We live in interesting times.
+
+"Tails" just said in another thread that the Tails Project does no special favors to the US government.  If that is false, this thread, discussing one particularly useful but risky thing which concerned citizens can do with Tails, will be removed.
