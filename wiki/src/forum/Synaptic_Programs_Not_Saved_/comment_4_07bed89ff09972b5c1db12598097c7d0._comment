@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-29T10:37:36Z"
+ content="""
+See the *APT Packages* section on [[doc/first_steps/persistence/configure]].
+I believe it makes it pretty clear what is made persistent, what is not, and what you should do on next boot to get your additional programs back.
+"""]]
