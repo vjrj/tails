@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-29T22:51:01Z"
+ content="""
+Hi,
+
+> Interesting...in the past, wget got stuck on trying to verify the SSL cert. Now, it looks like wget just redirects to HTTP ?
+
+No, it's exactly the contrary: when you wget from https://archive.torproject.org/blah/blah/foobar, it uses https (port 443); if you try to wget from http://archive.torproject.org/whatever/you/want, it redirects from http (port 80) to https (port 443).
+
+Please, learn to read, or at least make some usable comparisons: if one day wget outputs something like
+\"HTTPS request\", you should ask you questions about your wget version... and be afraid instead of satisfied... there is no HTTPS request; only HTTP (or FTP, SMTP, etc.) requests, optionally using a secure protocol, or not.
+
+cheers
+"""]]
