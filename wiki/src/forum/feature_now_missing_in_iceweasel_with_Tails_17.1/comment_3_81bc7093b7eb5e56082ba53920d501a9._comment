@@ -1,0 +1,34 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-29T14:46:30Z"
+ content="""
+Thanks for the clarification. I'm sorry about this regression.
+It does not look critical enough, in my humble opinion, to focus
+on it right now rather than on the many other important issues we
+have to tackle.
+
+> I just want to know why is that feature now disabled
+
+We did not disable this feature on purpose. It might be
+a regression of Firefox 17.0.4esr, or a regression caused by our
+custom patched built of it.
+
+> and how to get it back.
+
+Try to reproduce it on:
+
+* the latests TBB based on Firefox 17.0.4esr
+* unpatched Firefox 17.0.4esr
+* unpatched iceweasel 17.0.4esr
+
+and report back.
+
+And/or wait for our next iteration (that will be based on 17.0.5esr)
+and hope it automagically fixes things up.
+
+And/or [[contribute]] to Tails so that developers have more time
+to deal with such issues :)
+
+"""]]
