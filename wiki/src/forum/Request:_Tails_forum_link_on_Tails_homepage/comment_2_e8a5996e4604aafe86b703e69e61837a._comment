@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-30T15:30:12Z"
+ content="""
+Can you put a disclaimer and a link underneath?
+
+Like this: If you have an inquiry please refer to [support page](https://tails.boum.org/support/index.en.html), if you still couldn't find an answer try asking on the [Tails Forum](https://tails.boum.org/forum)
+
+I think this would be a decent middle ground solution.
+
+BTW, did not puting a link in homepage solve the issue? Was it there before then removed after spam or wasnt there all along? If it was there then removed, how does the results compare before and after? Maybe people who skip docs will do so anyway and come here.
+
+
+"""]]
