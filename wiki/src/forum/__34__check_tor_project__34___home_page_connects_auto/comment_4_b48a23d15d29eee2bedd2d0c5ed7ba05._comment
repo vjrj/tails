@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-30T19:29:21Z"
+ content="""
+I will try to rephrase:
+
+1. open iceweasel
+
+2. change iceweasel's homepage setting to anything you want other than the default or just leave it empty (I left it empty)
+
+3. close iceweasel
+
+4. open iceweasel again. This time watch Tor's network map as iceweasel starts. Iceweasel still connects to Tor project on start (the default homepage's address)
+"""]]
