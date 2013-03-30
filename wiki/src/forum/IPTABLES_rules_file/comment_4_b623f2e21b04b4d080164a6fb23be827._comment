@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-30T12:30:58Z"
+ content="""
+Just use it as as with ferm, or learn about `iptables-save(8)`. But seriously, if you need to ask this, I'm a bit scared to see you go try to reproduce such a setup on your own. Make sure the result fits your needs. Anyway, this is going off-topic, and the original question was answered, so I declare this thread as closed.
+"""]]
