@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-31T20:15:35Z"
+ content="""
+Many Tails users want to better understand, in a nontechnical way, some of the underlying technical issues so that they can make better decisions in how to use Tails to achieve their goals with minimal risk.  For example, they may read Tor talk, but newcomers are likely to be baffled by unexplained terms such as \"Sybil attack\".  I'd like to try to summarize some of the issues which have been discussed in academic papers referred to in many Tor talk discussions, and also to raise some potential issues which have not gotten much attention there.
+
+Tails is based above all on Tor, so it makes sense to begin with a discussion of potential Tor-related issues to be aware of when using Tails.  But we would be remiss if we did not at least mention some of the wider security issues which affect real Tails users in the real world (for example, many people fail to appreciate the dangers of doing \"encryption in the cloud\").  Inevitably, as one tries to explain why such things matter in nontechnical ways, political, social, and psychological issues (like usability) arise.
+
+In the survey I have in mind, I would try to minimize political issues, especially ones which might tend to arouse the ire of your sometime sponsor with ties to the U.S. State Department.
+
+I have been studying all the Tor related papers in the Free Haven archive (plus others I found in other places) and some of the more general relevant papers.  As you know many of the problems pointed out in various papers have already been addressed (maybe not solved) in more recent editions of Tor, but I think I now mostly know how to account for changes over the years.
+
+Regarding predecessor attack to which you previously refered me, I have been gathering data for some time from official Tor Project sources and studying in more detail the problems introduced by nonuniform probabilities in building Tor circuits, for example by trying to enumerate the AS levels in various ways with their official net bandwidth percentage, even trying to make some educated guesses about geolocation, pathes between servers, in relation to IX level surveillance.
+
+The review is not yet actually ready to go, but I have done enough work to feel that many readers here would appreciate learning more about how Tor works (in particular) and how things might go very wrong.  One advantage of attempting something like a comprehensive review is that one can see more clearly why measures which help defend against one attack might actually *assist* in another attack, putting us in the position of trying to guess which is more likely to be used by our adversaries.  Another question I'd like to explore is the general issue of weighing the advantages (to each, and to all) of treating everyone alike versus the potential advantages of tweaking your torrc to match your estimated threat environment, and even to actively responding to events as they happen.
+
+It would be a waste of my time if I started posting the survey (in multiple posts, in one thread) only to have you delete the entire thread.
+"""]]
