@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-31T19:11:59Z"
+ content="""
+Nix \"lsof -i\" unless you can prevent it from trying to do DNS lookups every few seconds.
+
+Reading the manpages for tools like iftop shows how to suppress (wasteful and possibly dangerous over the long term) DNS lookups.
+
+\"Tails\" said that recent problems with sudo (fixed in a patch incorporated into Tails 0.17.1) were probably not serious for Tails users.  If so
+
+     sudo iftop -Pn
+
+might work well to keep an eye on Vidalia.
+"""]]
