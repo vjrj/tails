@@ -1,0 +1,7 @@
+There are certain Addons which we require in the browser without which we can not perform our functions for which we use Tails. After adding some addons (and we ensure that none of them leaks our real IP address) the useragent remains the same and resolution also remains same (as checked via panopticlick.eff.org) but certain other numbers change.
+
+When checked the fingerprints via fingerprint.pet-portal.eu/?lang=en, we find same fingerprints.
+
+The only problem is about the differences in the no. of users with same settings.
+
+Does it pose any risk? Isn't the useragent and screenresolution is all that matters and it remains unaltered?
