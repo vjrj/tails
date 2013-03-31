@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-31T19:37:22Z"
+ content="""
+About \"securely\" wiping a USB stick: look up \"wear leveling\".  There are some technical reasons why utilities like shred (which comes with Tails) may not work as you want when it comes to files stored on USB sticks, encrypted or not.  I think this is a potentially serious problem in using Tails booted from a live USB stick.
+
+I'd urge you to consider trying to figure out how to use Tails booted from a live DVD, using an encrypted USB data stick (or even an encrypted data floppy, if your computer supports that) to store files you might need again later.  It would be very useful if Tails came with steganography tools so you can at least try to disguise the fact that your permanent media contains encrypted files, especially if they are small files, perhaps containing long keys to large encrypted files stored elsewhere.
+
+> maybe im just being paranoid that they would go through the trouble of doing this.
+
+You are really not, alas, not even if you live in a \"Western democracy\".
+
+In the alleged Last Refuge from political oppression, the USA, the DHS has recently being buying up billions of rounds of hollow point ammunition and fully automatic rifles.  The official cover story is that they want to take some target practice, but no-one believes that.  The true story emerges from documents leaked to sites like public intelligence, and confirmed by public statements from the CIA, DHS,etc.: the US intelligence community now believes that the greatest threat to \"national security\" comes from domestic insurrection.  Similar documents show that much the same could be said about EU nations currently undergoing turmoil, and even the UK.  In such situations, secret policemen don't wait to be asked to compile lists of potential dissidents to be rounded up (not \"break glass\" but \"thrust our people under a stone in case of emergency\").
+
+(Another plausible explanation for the USG preparation for urban warfare inside the USA, which also differs from their absurd cover story, is the genuine threat of cross-border violence related to ongoing gang warfare in Mexico, but most informed observers feel there is no doubt that domestic insurrection is the primary reason for the enormous arms/ammo purchases by the DHS, adding that their idea may be as much about driving up prices to make it harder for militia members to obtain these things as it is about preparing for a lengthy civil war.  EU nations also have concerns about possible floods of economic refugees, but the militia issues seems to be distinctively American.)
+
+"""]]
