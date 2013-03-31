@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-31T17:58:53Z"
+ content="""
+(continued)
+
+You asked about hiding a large encrypted file, and just above I was talking about small encrypted files hidden in innocuous self-created png files.  There are utilities which can break up large files into small ones (if the original is a text file you could even write a small shell script, use it, then wipe it), and others which can create large numbers of innocuous images like wallpapers.  
+
+(Try using the Debian package search in the search pane in Tails 0.17.1)
+
+The idea is that after you hide your file you wipe the original image.  The more of this activity you can do while using Tails booted from a live DVD (for maximal amnesiac benefit), the better.
+
+GPG/PGP should be reasonably secure against cryptanalysis, but it is essential to protect your keyring since this probably provides the easiest entry for a determined adversary.
+
+I've seen some excellent suggestions on-line for technical measures resistant even to \"rubber hose cryptanalysis\", so good in fact that they were deleted, so keep your eye out.
+
+The Tails Project has taken some money from an American quasigovernmental organization which allows the U.S. State Department to vet grants for \"consistency with U.S. foreign policy objectives\" before approving the grant.  I don't think this implies that you should distrust Tails even if you distrust some arms of the U.S. government (as you probably should), but it is something every dissident should keep in mind.
+
+
+
+"""]]
