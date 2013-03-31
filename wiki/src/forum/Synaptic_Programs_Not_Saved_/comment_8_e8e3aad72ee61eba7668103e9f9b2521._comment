@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="semi-fixed  =)"
+ date="2013-03-31T08:57:38Z"
+ content="""
+I created comments #s 3, 5, & 7...  the others are from a different \"anonymous\" post.
+I did more reading and I now see what I was unclear about.
+BTW, I really love your write-up about creating good bug reports!!!
+I found that with the wi-fi disabled at the hardware level on my laptop, I can still use synaptic to install programs I downloaded last session...    they act like they are stored somewhere.   My problem was that I thought there would be a list somewhere of the programs I had searched out to download.   That is what I do not find (I also do not see where these programs are stored, but I can live with that).   My solution is to create a document that lists all the programs I downloaded so I know what is available to me when off line.  If there is an easier way, I'd love to know, but I do not find any button in synaptic that has that list, and I do not see the programs in the persistence file (even with \"show hidden files\") 
+"""]]
