@@ -1,0 +1,27 @@
+Hello:
+
+I'm trying to retrieve a list of latitude/longitude for 6000+ addresses by using Google Maps API 
+
+https://developers.google.com/maps/documentation/geocoding
+
+This API has a usage limit: a query limit of 2,500 geolocation requests per day.
+
+I thought to use Tails to workaround this limit ( because I guess, Google checks IP sender )
+Its important that I use Tails as a guest OS on VirtualBox , runnint onto Windows 7 machine
+
+
+So, I did a Java program and I invoke it such as 
+
+java -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=8118 -jar geo.jar com.geoMain
+
+And I get "OVER_QUERY_LIMIT" when it exceeds 2000 queries
+
+So, my Java program isn't anonymous !!!
+Why ? isn't it using Tor network ? is always the same Tor node which requests to Google Map URL ?
+
+
+Thanks and regards
+
+
+
+
