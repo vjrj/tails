@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-02T08:27:07Z"
+ content="""
+> is always the same Tor node which requests to Google Map URL ?
+
+Until a new exit node is picked and assignated to the connexions of your software to the Google server, yes, most probably.
+"""]]
