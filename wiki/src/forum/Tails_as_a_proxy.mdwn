@@ -1,0 +1,13 @@
+Tails is good OS, so I want to do the following:
+
+- Allow connections from local ip address to tails tor port. 
+I want to use tails as a tor proxy from another machine in local network with tails but do not want that machine to have internet connection.
+
+- Forward hidden service port to local network to another machine that do not have internet connection but is in local network with tails.
+That is for hidden server that is working on another machine.
+
+The purpose is to run hidden server safely somwhere in the local network. If it's ever compromised it have no internet connection. 
+All that hidden server should know is tails tor port and should listen for connections from tails.
+
+Good idea? 
+How do I set up tails iptables rules? 

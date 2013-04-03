@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-30T18:58:18Z"
+ content="""
+What is wrong with an alternative like [youtube-dl](http://rg3.github.com/youtube-dl/download.html)?
+
+Traffic should go normally through Tor, no settings required.
+"""]]

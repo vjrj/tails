@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="APT checked on, still nothing"
+ date="2013-03-29T16:54:27Z"
+ content="""
+I saw that (quoted below), I had EVERY option, including APT packages AND list checked...      there is nothing in my persistence file...    using a 32gig HP pny thumb drive (and a host lenovo T61 laptop with Nothing on its hard drive, if that matters)
+there is an encrypted partition /org/freedesktop/UDisks/devices/sdb2 28.77gig available on the hp v165w pny device
+I could get an Open Office document to asppear there, but no apt files    =(
+Thanks for the quick response!
+    It appears to me from the documentation that there should be the downloaded from synaptic programs in persistence, that there should be a list of them.  Perhaps with a specific link to activate each that I want that particular session, that I would need to reload each individually as desired from persistence after each boot...     but gparted (freshly downloaded) shows NO use in my TailsData partition
+    any thoughts?
+
+
+APT Packages
+
+When this feature is activated, the packages that you install using the Synaptic package manager or the apt-get command are saved in the persistent volume.
+
+If you install additional programs, this feature allows you to download them once and reinstall them during future working sessions, even offline. Note that those packages are not automatically installed when restarting Tails.
+
+If you activate this feature, it is recommended to activate the APT Lists feature as well.
+
+APT Lists
+
+When this feature is activated, the lists of all the software packages available for installation are saved in the persistent volume.
+
+Those so called APT lists correspond to the files downloaded while doing Reload from the Synaptic package manager or issuing the apt-get update command.
+
+The APT lists are needed to install additional programs or explore the list of available software packages. This feature allows you to reuse them during future working sessions, even offline.
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-26T19:37:10Z"
+ content="""
+If I recall correctly, that is not problem with tails, that is problem with graphic driver (open source) so only chance to boot it is using \"nomodeset\". I also have this problem with many distributions, like ubuntu, mint, liberte and so on.
+I know that there is no solution to bypass \"nomodeset\", but is there any solution to put native (or at least, wide-screen) resolution?
+The part with \"something-man.something\" I didnt understand, but I found something like
+live-config.xorg-resolution=XORG_RESOLUTION and I tried to put after \"=\" my native resolution in boot options, but it didnt work. :(
+
+sorry for bad English :(
+"""]]

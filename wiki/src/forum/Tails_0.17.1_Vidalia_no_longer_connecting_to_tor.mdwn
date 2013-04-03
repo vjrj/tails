@@ -1,0 +1,1 @@
+I just upgraded to tails 0.17.1 and can no longer connect to tor through Vidalia. Tails makes a connection to the network then gets stuck and does not go any further. Have tried as much as I can to get a connection to tor but all I get is the message "connecting to a relay directory failed (no route to host) and in the message log bootstrapping stuck at 5%.
