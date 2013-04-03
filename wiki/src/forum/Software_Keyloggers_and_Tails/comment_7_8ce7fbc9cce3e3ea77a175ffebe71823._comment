@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-10T09:16:38Z"
+ content="""
+> How about disabling logging in Tails?
+
+What for? An attacker who gains enough credentials to read the logs also can gather most of the information found in the logs directly.
+
+"""]]

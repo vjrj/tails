@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-13T08:22:59Z"
+ content="""
+>Firefox does not resume downloads.
+
+Seems to me this really should be fixed; something as basic as the ability to resume should be part of any default downloader. 
+
+
+(Yes, I now this is off-topic but since this thread already exists...)
+
+"""]]

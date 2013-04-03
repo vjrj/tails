@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-27T00:20:55Z"
+ content="""
+I concede that the OP was poorly written.  Let me try again:
+
+The immediate problem revealed by the GitHub scandal is that many developers have been making an incredibly amateur mistake by uploading secret keys as well as public keys to GitHub servers, where they could be uncovered by a search for needlessly exposed secret keys.
+
+This has nothing to do with any operating system, or even with ssh (I wrote OpenSSL above, but I meant OpenSSH).  It has to do with a colossal operator error on the part of the developers who did this.
+
+The wider problem is indeed an attitude problem on the part of Linux developers.  This problem is not that Linux developers fail to recognize that Linux has vulnerabilities like any other OS.  The problem is that Linux developers have generally failed to acknowledge that Linux is becoming the target of determined state-sponsored attacks which aim to subvert the security of all Linux by any means necessary.  In my view, appropriate responses must begin with the recognition that the danger here goes far beyond mere technical subversion.  Indeed, I suspect that the biggest danger is that dire threats from certain governments may induce some developers to insert backdoors \"at the point of a gun\", and if so, a good place to begin the discussion might be by asking: if a three letter agency threatens me with a fifty year jail sentence (as happened to Aaron Swartz) unless I insert a backdoor into my software, how should I respond?
+"""]]

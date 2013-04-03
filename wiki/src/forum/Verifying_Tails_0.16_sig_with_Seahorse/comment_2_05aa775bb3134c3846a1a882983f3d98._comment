@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-14T22:53:11Z"
+ content="""
+Oh, one other thing.  Unfortunately the version of GPG included in Tails 0.15 had a security flaw which was fixed in Tails 0.16.  I don't think this is a serious concern for checking the signature of the new iso, but if you have a Knoppix CD or some other trusted OS with GPG lying around, or even better, if you use Debian stable as your primary OS and already upgraded the Debian provided version of GPG, you might want to err on the side of caution and use a trusted version of GPG to check the signature.
+
+"""]]

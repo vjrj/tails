@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-30T20:09:14Z"
+ content="""
+>Are you using Tails 0.16 when this happens?
+
+Yes
+
+>What language setting is your Tails using? 
+
+	  	
+I changed the keyboard to my language
+
+>Basically, if you use Tails or Tor or another privacy-enhancing tool, you must think of data brokers like Google or Facebook
+
+	
+That's not the point, the users of Tails needs to know is how Google is discovering our location
+
+>So God only knows what data Google has associated with your Google identity!
+
+	  	
+This is not the case, if I post on blogspot.com and eye the urls that pass underneath the screen I see that blogspot.mycountry appears, even when I am not logged in. Perhaps other users can test.
+"""]]

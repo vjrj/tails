@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Only when using existing Tails USB stick"
+ date="2013-03-02T04:45:02Z"
+ content="""
+Appears to only be when trying to use a stick with an existing Tails install. Fresh USB is fine.
+"""]]

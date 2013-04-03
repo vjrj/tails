@@ -1,0 +1,1 @@
+Im trying to install truecrypt (i know you can add the flag before bootup but i dont want to have to do that every time), and i added /usr/bin to the persistence folder, rebooted, then installed truecrypt, then when i rebooted its no longer there. How do i get it to stay installed?

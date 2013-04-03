@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 254"
+ date="2013-01-23T10:22:04Z"
+ content="""
+> How do you think a user can download a file unless a Tails I2P user acts as a exit node and relays the file to them ???
+
+The reason why exit nodes exists is that you can't simply send a normal website encrypted data since the website wouldn't know what to do with it, with I2P however the I2P peer that is downloading data has no problem understanding and decrypting the encrypted data that is send to them, therefore the data does not need to be sent in plain text at any point.
+
+This is similar to how it is when you connect to a .onion domain, since the .onion doemain runs Tor on their server they are capable of decrypting the data sent to them directly on their server and because of that no data needs to be sent through an exit node.
+
+You should consider looking up how I2P and exit nodes work before you make claims about things you apparently doesn't fully understand.
+
+> Relaying the file to them in encrypted format is no different than a Tor exit node connecting to a webpage via HTTPS.
+
+Have you ever heard of a middle node operator being arrested for sending illegal data to an exit node? No, didn't think so, and when you use I2P you are either relaying encrypted data to another \"middle node\" so to speak or to the person that can decrypt the data neither of which is illegal due to the fact that it is impossible for you to know if the data you are relaying is legal or not.
+"""]]

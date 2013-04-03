@@ -1,0 +1,5 @@
+Got an issue that got me wonderin.Im gettin download speeds that do not match the bandwidth mentioned in exit nodes details. Example shown bellow. 
+
+- Tornode1 bandwidth 40.42 KB/s , Actual download speed 70.54 KB/s
+
+Any idea why the mismatch occurs?

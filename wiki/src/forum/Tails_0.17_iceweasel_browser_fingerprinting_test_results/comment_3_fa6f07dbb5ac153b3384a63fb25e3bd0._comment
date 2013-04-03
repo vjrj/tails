@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-09T02:45:23Z"
+ content="""
+THe results of this are screwy, if you redo the tests without changing anything you get radically different numbers. I dont know what im supposed to be gleaning from this but unless this site fingerprinted every browser in existence theres really nothing to be told from it. If its only fingerprinting browsers that visit it then naturally it will be skewed to more anonymous settings. 
+"""]]

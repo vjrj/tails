@@ -1,0 +1,17 @@
+Tails: Would you guys ever consider forking an enhanced, stronger version of Tor for Tails if the Tor Project doesn't get it's act together soon on modernising and increasing security, even if you would (likely) need some more specialist developers to handle the work (under your supervision) on most of the actual Tor aspects?
+
+I don't mean to suggest that you Tails devs aren't doing enough. I think I speak for most here in saying I am very happy with the work of the Tails devs and hope you stay around a long time to come.
+
+But I am suggesting the Tor Project devs could be doing a lot more. Not that they don't worked a lot on Tor. And haven't done great things. Because they have. But still the problem remains that they know Tor is weak and vulnerable in quite a few ways now (like it's weak encryption keys, and the fact they have even admitted it's useless against a "global adversary"). 
+
+Basically, Tor is showing it's age. The current version is several years old now. And good guys though they are, the Tor Project devs don't really seem to want to move on from just patching up this old and creaky ship. 
+
+So maybe a fork is the answer to getting some next generation, higher-security going. 
+
+Stronger encryption keys. Padding and high-latency available as options for extra security. Possibly having Tor run at least as a relay, if not an exit, by default to make up for some of this higher network load. Maybe even 7 hops?
+
+What do you guys (devs and others) think? Any potential for this to happen? At least as a back-up option if the Tor Project doesn't get moving on a real next generation soon? I hope so. Because people's lives really do depend on this stuff!
+
+If you do this, most Tor users would probably migrate to Tails like how the independent Firebird/FireFox project eventually took over from the Mozilla browser it broke off from. 
+
+Mozilla browser was getting stale and rusty and they needed that kick in the pants to help them grow, and I believe the Tor Project does, too!

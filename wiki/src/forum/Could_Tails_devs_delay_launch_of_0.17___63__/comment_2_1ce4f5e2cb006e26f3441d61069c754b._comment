@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-22T21:41:20Z"
+ content="""
+Our [[contribute/release_schedule]] is designed exactly so that a new Tails is released soon after a Firefox ESR is out.
+Tails 0.17 will ship Iceweasel 17.0.3esr + (most) Torbrowser patches.
+
+"""]]

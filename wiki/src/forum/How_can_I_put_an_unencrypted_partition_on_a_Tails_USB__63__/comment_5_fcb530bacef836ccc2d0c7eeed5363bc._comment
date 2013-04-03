@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-21T08:31:12Z"
+ content="""
+> So I take it that bug fix will make it's way into Tails eventually.
+
+It should migrate to Debian testing eventually:
+<http://packages.qa.debian.org/p/parted.html>.
+Then, either we get it for free once Tails is based on Wheezy,
+or someone uploads it to squeeze-backports and we use it.
+
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-14T12:01:53Z"
+ content="""
+> Hi, just wondering if it was possible to include a small radio app like RadioTray?
+
+I think it would be out of the [[scope of
+Tails|contribute/design]], especially since Totem is shipped in
+Tails and covers most of the functionality offered by RadioTray.
+
+> If you are the only person streaming radio stations (especially a very unique radio station) via a radio app, then your internet usage becomes unique and therefore identifiable. 
+
+[RadioTray](http://radiotray.sourceforge.net) allows to *listen to* online radio stations.
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-09T20:14:03Z"
+ content="""
+I the point was that on older machines with less RAM available, Tails currently does not run well, but if the user could tell Tails not to expect so much RAM, it might be possible to use Tails on a machine with less RAM.  (Not too much less, no doubt.)
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-14T16:29:18Z"
+ content="""
+Both USB and CDROM are Read Only mounted on device files when booted, i.e. neither can be written to during a Live TAILS session.  That should be secure enough.
+
+"""]]

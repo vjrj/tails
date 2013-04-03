@@ -1,0 +1,13 @@
+1.) When you don't plan to do any printing, are there any draw backs to executing the command `killall cupsd` at the beginning of a Tails sesion?
+
+I would think that this would enhance security somewhat by removing a potential attack vector.
+
+(I have done this a number of times and did not suffer any adverse effects that I could see.)
+
+2.) In order to execute the command, `killall cupsd`, the user must have set a root password when booting Tails.
+
+The Tails greeter advises NOT setting a root password, if not needed, for greater security.
+
+Thus, IF killing cupsd does in fact provide a security advantage (and has no adverse effects) we are still left with the question:
+
+Does the security *advantage* of killing cupsd outweigh the security *disadvantage* of setting a root password? 

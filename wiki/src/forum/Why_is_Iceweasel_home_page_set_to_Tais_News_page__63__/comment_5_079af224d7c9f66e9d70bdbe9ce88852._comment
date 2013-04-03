@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-18T17:12:33Z"
+ content="""
+> [...] I am 99% sure I can guess the reason: to make sure that Tails users know when its time to upgrade to the next edition of Tails. This is currently the only way to ensure that everyone gets required security upgrades (not to mention new features).
+
+Tails already has a way to inform users of a new release that fixes security updates.
+A better one is under development.
+So, no, I'm sorry to disappoint you, but this is totally unrelated :)
+
+The main reason was to make [[news]] more visible to Tails users: e.g. call for testing release candidates, monthly reports, etc.
+
+See other reasons [[on the ticket|todo/decide_what_web_homepage_to_use]].
+
+"""]]

@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-12T20:13:53Z"
+ content="""
+  I Hope tails developers someday create software like whonix , people shoud know that whonix is not like an anonymous proxy , who have plenty leaks even you use sockstifier , EG: Javascript can not be sockstifier (can detect your real ip if scan your local settings) , Java/Flash can be sockstifier but (can detect your real ip if scan your local settings) , So , this is not a good idea. 
+
+VPN have the problems about DNS (sometimes) , but worse like ipv6 leak (you must disable it) and disconection (you should use free-programs like VPN lifeguard) but the main problem is your never know if time enough to avoid your  ip leaking , and
+fingerprinting , you should use VPN into software like Virtualbox.
+
+ With whonix you can be anonymous with Java , Javascript , Flash , Media player ,ipv6 is blocked , DNS not leak , no problem with dissconnection due to a internal ip 192.168... , no Virus/trojan/malware can detect your real ip , if java , javascript , flash etc , detect your tor ip , or you internal ip (the same in all computers) so your real ip is totally hidden , the only warning is you should use your O.S. in virtualbox always connected with whonix gateway , to avoid fingerprinting. So your ip will be hidden and can not be correlated by fingerprinting (unless you connect with your real ip and later with tor ip) if you connect your virtualized O.S to whonix gateway.
+
+I think that Tor/Tails developers should create software like virtualbox and beyond programs like whonix  , that would be great for not-advances users to get anonimity.
+
+
+  I Hope tails developers someday create software like whonix , people shoud know that whonix is not like an anonymous proxy , who have plenty leaks even you use sockstifier , EG: Javascript can not be sockstifier (can detect your real ip if scan your local settings) , Java/Flash can be sockstifier but (can detect your real ip if scan your local settings) , So , this is not a good idea. 
+
+
+
+People think that tor alone you get anonimity,that is a mistake , you need software like virtualbox and whonix , (i don't know if 100% perfect) but is a very good idea to get anonimity without worrying about DNS , javascript , ipv6 ... leaks
+
+Please tor/tails developers , help adrelanos to make the whonix project BIG.
+
+Thanks
+
+"""]]

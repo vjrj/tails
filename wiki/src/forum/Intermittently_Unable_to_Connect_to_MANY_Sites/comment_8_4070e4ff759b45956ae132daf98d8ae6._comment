@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-26T15:38:48Z"
+ content="""
+> As I understand it, the Tails Project logs an automatic visit upon booting Tails to the news page as a \"Tails boot\", but of course the identity of the user is hidden behind a Tor circuit to the Tails news page.
+
+The server (boum.org) that hosts our website logs visits (without
+IP addresses we're told). Yes, this connection is made over Tor.
+
+"""]]

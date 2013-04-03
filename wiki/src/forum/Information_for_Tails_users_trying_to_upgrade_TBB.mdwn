@@ -1,0 +1,69 @@
+Many Tails users use both Tor Browser Bundle (TBB) and Tails, and in particular use the latest TBB to verify certain things when obtaining the latest TBB and vice versa.  Therefore I believe the following post is appropriate in this forum.
+
+I have been experiencing some problems doing this with the latest TBB and thought I'd share some information which may help us to help each other not to panic unnecessarily when we notice some apparent anomalies.
+
+Until recently, torproject.org servers seemed to mostly use the 38.229.72 range shared with sixxs (an organization which promotes IPv6, which in my opinion is now and will remain for some time more of a serious security hazard than a security panacea as SIXXS claims) and some Cymru Research severs associated with Team Cymru's "Dragon Research Group".
+
+As was recently mentioned in another thread, Tor Project appears to have recently bought a new SSL certificate from DigiCert, using a new RSA key, and is using some new servers
+
+     stellatum.torproject.org  93.95.227.222  
+     nova.torproject.org 86.59.30.40
+
+The first of these appears to be the new download server.  Tor Project also uses various name servers which have IPs which appear completely unrelated to any of these (I believe this is intended to help Tor users find Directory Servers when they start a Tor browsing session).
+
+I mention this because I had quite a bit of trouble trying to verify that I was getting the download from a valid Tor Project server.  
+
+(The website by torproject.us is a perfect mimic of the Tor Project website, and the owner does appear to have some informal relationship with Tor Project, but Tor Project warns users to only download TBB from their own website.  This issue has been discussed in this forum at least once before.)
+
+As has been discussed previously in various threads in this forum, when TBB first connects to the Tor network to begin a Tor browsing session, it contacts the "Tor check" server to check to see whether you are using the latest version of TBB:
+
+     sergei.torproject.org 38.229.72.22
+
+But several users have recently mentioned seeing *repeated connections* to this server, when they surf to a new website.  I believe this behavior may be connected to the recent kerfluffle in which Tor Project had to "call back" a recent upgrade which broke TBB for many users.  Many of us were detected by sergei.torproject.org as using an outdated TBB and this causes TBB to override the user's choice of home page and apparently also causes TBB to connect repeatedly to this server when you surf to a new site.   
+
+If my guess is correct, once those of us who noticed this behavior upgrade to the new TBB, it should cease.
+
+Can anyone independently verify the ownership of the servers mentioned above?
+
+As was recently discussed in another thread in this forum, the recently discovered Lucky-13 attack affects the most recent versions of OpenSSL
+
+     https://threatpost.com/en_us/blogs/theoretical-lucky-thirteen-tls-attacks-could-turn-practical-021113
+     https://www.infoworld.com/d/security/researchers-devise-new-attack-techniques-against-ssl-212343
+
+The Debian Project promptly issued a patch for Debian stable
+
+     http://www.debian.org/security/2013/dsa-2621
+
+> A timing side channel attack has been found in CBC padding allowing an attacker to recover pieces of plaintext via statistical analysis of crafted packages, known as the "Lucky Thirteen" issue.
+
+I thought this meant that TBB was "immunized".  But to my surprise, the announcement for the new TBB bundle says:
+
+     https://blog.torproject.org/blog/new-tor-browser-bundles-firefox-1703esr
+
+> *Downgrade* OpenSSL to 1.0.0k
+
+Does anyone know why they did this?
+
+It seems that the major goal of the new TBB might be to upgrade to the new FF/IW ESR (extended support release), FF 17.0.3esr, and perhaps this required the downgrade.  But does this mean that TBB users remain vulnerable to Lucky-13 and maybe other known issues?
+
+As I understand it, users of Tails 0.16 *are* vulnerable to Lucky-13, but this may not be as awful as it sounds because the attack seems to require considerable effort on the part of attackers.  I hope someone will correct me if any of this is known to be wrong.
+
+Something else which caught my eye in the new TBB announcement:
+
+> Report Firefox 17.0 as the Tor Browser user agent
+
+I had to read that several times before deciding that it means that TBB will identify itself as FF 17.0.3esr in http headers, which is what we want,
+not as "Tor Browser Bundle", which would make many surveillance companies very happy, but would please very few TBB users!
+
+
+Some background on DRG, for those who don't know:
+
+Dragon Research Group (DRG) is a volunteer organization which studies on-line behavior, specifically behavior fitting some "organized crime" profile.  I assume all experienced Tor users have often encountered their network of Tor nodes and are familiar with the work they do.  
+
+For what it's worth, their announced goals seem benign but inevitably, monitoring Tor traffic is dangerous to some, particularly persons living in oppressive regimes whose secret police may be able to "volunteer" like anyone else.  
+
+And it is troubling that one officer of Cymru Research (the parent company of DRG) was also a principle in the "Team Thetis" program which attempted to dox Glenn Greenwald (a constitutional lawyer and a columnist for The Guardian who has been one of the most vocal critics of US drone strikes), organizations opposed to US lobbying groups working for the biggest banks, labor unions, Wikileaks and other groups which oppose the Surveillance State.
+
+The murky ties between Cymru Research and the Tor Project is a long-standing issue, and whenever it is mentioned here, another regular poster mentions "Maslow's hierarchy of needs", which I do not accept as an excuse for why an open source developer might work for the Surveillance State as a "day job" or as "moonlighting".  I think it is important for EFF officers and Tor Project members to keep their noses clean in this respect.
+
+An essential point here is that while many Americans might believe that their own national secret police/intelligence/military/corporate apparatus constitutes "the good guys", at least compared to say the legendary Chinese cyberspooks or the Syrian or the Bahraini secret police, the fact is that secret police are secret police, period.  They are all engaged in illegal and oppressive activities and that makes them all the enemies of each and every one of us.

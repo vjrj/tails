@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-01T11:34:03Z"
+ content="""
+So, no one else experienced this?
+
+Thankfully, it has not happened to me since but just now, at around 11:00 UTC, I encountered a similarly unsettling incident while browsing the Tails forum.
+
+All of a sudden, after opening countless threads without incident, Iceweasel started throwing-up an untrusted SSL cert warning, each and every time I tried to open a thread: 
+
+>The certificate is not trusted because the issuer certificate is not trusted.
+
+>(Error code: sec_error_untrusted_issuer)
+
+I then tried and got exactly the same for several other https sites, including Google.
+
+The only site I *didn't* have this problem with was `startpage.com`.
+
+So I clicked \"New Identity\" in TorButton and, so far at least, the problem is gone.
+
+Pretty weird, huh?
+"""]]

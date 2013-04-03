@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-08T23:41:33Z"
+ content="""
+As someone who has used NoScript and other extensions for many years to disable and only selectively enable JS/Flash/Java for my everyday browsing (not just Tor/Tails/iceweasel), I'd like to nitpick the implication that JS is a general requirement for web page useability such as reading comments, etc. That is really not so. Certainly web shopping carts universally require it, and some web pages need it to render content, but many more do not. There also are other tricks that can be used to substitute - frequently a page that doesn't render text at all wth JS disabled ({cough} Washington Post) can be easily read after selecting the \"View|Use Style|None\" option. I do not permit any client side script to run unless that is unavoidable, and that is true less frequently than one might presume. Of course if you insist on using \"social media\" you cannot avoid scripting, but \"social media\" and privacy are polar opposites. YMMV End semi-OT rant...
+"""]]

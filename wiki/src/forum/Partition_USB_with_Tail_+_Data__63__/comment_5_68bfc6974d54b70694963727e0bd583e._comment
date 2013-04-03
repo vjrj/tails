@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-25T11:44:01Z"
+ content="""
+> \"We are working on this issue and hope to have good new soon\" some news? I found nothing on this issue.
+
+Tails now supports persistence, which basically answers the usecase, even if a bit differently.
+
+"""]]

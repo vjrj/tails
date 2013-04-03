@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-11T04:45:55Z"
+ content="""
+fwiw Opera allows you to disable DOM storage and Firefox does a well, although you have to go into about:config to get there.  Also, CCleaner and BleachBit clean up most or all of this stuff.  Maybe some of these things need to be add to the winapp2.ini file database though?
+
+DOM storage is not necessarily the worst to look out for though, because if you have javascript enabled the trackers can just query WMI on Windows or a similar program in linux to get your hardware serial numbers like HDD serial number, CPU serial number etc etc. they really don't care about anyones privacy.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-02-01T03:08:25Z"
+ content="""
+> Google has recorded something (location, preferred language...) when you used this account outside of Tails, that allows them to now link this account to a country. This is sad, but Tails cannot do anything about it.
+
+Maybe, but I've checked all the settings and none of them point to my country. 	
+The most strange thing is that sometimes my country appears in the URL and other times not.
+
+> blogspot.com is a Google service, so it's no big surprise they have the same information available, once you've logged in into a Google account that was linked to a given country.
+
+	
+Wasn't logged in or had cookies when I responded on blogspot.
+"""]]

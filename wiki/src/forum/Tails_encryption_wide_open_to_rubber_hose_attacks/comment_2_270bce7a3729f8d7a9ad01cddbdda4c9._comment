@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-27T10:03:04Z"
+ content="""
+> How did they get to that point? Well, they found your tails usb key,
+> which was COMPLETELY UNENCRYPTED, and upon booting it was requested to INSERT YOUR PERSISTENCE PASSWORD. Wow, and just like that they know you got something to hide, now they hold a gun to your head, now you're fucked.
+
+I can think of no plausible situation when attackers rely on
+booting random USB sticks they've found in order to detect if it
+contains secret data. I mean, if they've found a USB stick (be it
+Tails or not) with a LUKS volume on it, they don't need a gun to
+find out it contains encrypted data.
+
+And if they have a gun, perhaps they'll get you to tell them what USB stick contains secret data in the first place...
+
+"""]]

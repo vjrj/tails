@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-03T15:51:50Z"
+ content="""
+> you can use any kind of addon with AdvOR. Once the browser or any application is intercepted through it, it is impossible for the addons or applications to leak your IP address.
+
+These are very strong claims. I failed to find the AdvOR design documentation that would help convince me.
+Also, I'd be interested to read something substantial about why more than 3 nodes is better.
+
+In any case, this forum is about Tails. We're happy to see other
+tools being suggested here when they are a better fit than Tails
+for a specific need. In the current case, merely asking if
+a given Firefox add-on is safe for use in Tails clearly does not
+fall into this category, so the \"Use AdvOR\" advice given *here*
+sounds like random advertising to me, and is therefore not
+welcome here.
+
+"""]]

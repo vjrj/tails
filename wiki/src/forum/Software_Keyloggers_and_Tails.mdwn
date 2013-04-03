@@ -1,0 +1,7 @@
+Hi. I got some questions relating to threats against encryption and password usage in Tails. Hope to find some assistance.
+
+. What protection does Tails provide against software keyloggers?
+
+. Does Tails store encryption pass-phrases, root password, or other passwords on RAM or on a temp file? Can any of those be extracted remotely by attackers?
+
+. What is the safest way to do encryption and decryption  activities on Tails?

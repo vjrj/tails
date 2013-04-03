@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-27T10:16:15Z"
+ content="""
+Please read
+[[doc/first_steps/bug_reporting/tails_does_not_start]] and
+[[report a complete bug|doc/first_steps/bug_reporting]].
+
+"""]]

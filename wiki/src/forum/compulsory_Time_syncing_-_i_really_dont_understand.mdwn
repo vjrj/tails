@@ -1,0 +1,13 @@
+Tails developer wrote:
+https://tails.boum.org/forum/connect_to_cve.mitre.org_after_start/
+    Why there is no on/off switch?(for Time sync)
+"Because it would be dangerous. See Time syncing."
+
+
+BUT Tails developer writes, too:
+https://tails.boum.org/doc/about/fingerprint/index.en.html
+"This behavior could be used to distinguish Tails from TBB users, especially this happens every time Tails starts."
+
+Automatic use of this feature is really
+.... irritating.
+Not every user is needing this - compulsory Time sync.

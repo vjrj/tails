@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-01-28T19:47:31Z"
+ content="""
+@ \"Tails\":
+
+Please reconsider your ban on discussion of firmware issues and peripherals, since these can negatively impact the security/anonymity of Tails users.
+
+> As far as I know, Tails is not directly affected. (Before someone goes crazy about it: I'm not suggesting I know it is indirectly affected. I simply don't know.)
+
+Thanks, appreciate it.
+
+> There's no way anyone can answer this question: one cannot tell for sure such a thing about each of the dozen hundreds of packages shipped in Tails.
+
+I agree it is unfair to ask Tails developers to know, but I hope you will ask the Debian Project what they know.  I am also hoping that some Debian developers will take the time to visit this forum and address my question.
+"""]]

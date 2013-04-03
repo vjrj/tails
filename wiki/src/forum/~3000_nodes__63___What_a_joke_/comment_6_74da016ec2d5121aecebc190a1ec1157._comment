@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-18T23:11:15Z"
+ content="""
+>>This is to fool potential hackers or government officials of oppressive regimes into giving up their surveillance of users on the Tor network. When they see there are so many nodes, as in your example, 3000 nodes, they will naturally think twice whether it is worth their while to monitor Tor users. This tactic is documented in Sun Tzu's Art Of War, a manual on military strategies written about 2500 years ago in China.
+
+Proof on the actual number of displayed and Tor exit nodes please..
+
+>>China is now able to block her people from accessing Tor from within the country. Very soon her software programmers and hackers will be able to break Tails or Tor's anonymity.
+
+What makes you think so?.. how soon are we talking about. You don't think the software programmers related to Tor are working to prevent this. Have you truly seen so much bad that you believe the destruction of anonmity will be triumph \"soon\"?
+
+>>Run as much Tor exit and entry nodes as possible >> correlate data >> Kiss Tor anonymity good bye 
+
+Is there a limit on the number of active Tor exit nodes at any given time?
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-02-13T02:51:50Z"
+ content="""
+From
+
+     https://blog.torproject.org/blog/trip-report-tor-trainings-dutch-and-belgian-police
+
+confirmation that eurocops as well as US police agencies (and TLAs) want the ability to trojan at will any computer running Tor:
+
+> In each of the three police meetings, somebody suggested an alternate model for Tor where a judge should get to decide whether a given Tor user should be deanonymized. (While in America we don't trust our judges, in Europe they really do.) Putting aside for a moment the technical fact that building in a backdoor would mean that criminals can exploit it too (this argument doesn't work on them), I tried to press on the multi-jurisdictional aspect: we have governments, militaries, and law enforcement from around the world relying on Tor. When I asked the embedded Secret Service guy if he would be ok with the Dutch police having a backdoor to Tor, he said \"We like our Dutch colleagues.\" When I rephrased it to whether he would be ok with the Dutch police knowing what the US police are using Tor for, he paused, smiled, and tactfully said \"No comment.\" 
+"""]]

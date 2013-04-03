@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-14T07:42:29Z"
+ content="""
+There were some posts some time ago which discourage users from using Tails on USB. Malware on websites may \"jump\" (cross over) to your USB flash drive and infect it, thereby breaking your anonymity.
+
+I would recommend you to use Tails on DVD. It could be DVD-R, DVD+R or DVD RAM (write-once only).
+"""]]

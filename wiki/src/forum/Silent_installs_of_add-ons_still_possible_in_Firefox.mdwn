@@ -1,0 +1,19 @@
+##Is Tails exposed to this risk?
+
+18 January 2013, 16:53
+
+##Silent installs of add-ons still possible in Firefox
+
+###A security researcher has demonstrated how it is still possible to silently install extensions, or as Mozilla calls them add-ons, for the open source Firefox web browser. In a blog post, Julian Sobrier of ZScaler detailed the process, which makes use of the fact that Firefox uses an Sqlite3 database to maintain information about which add-ons are installed and, of those, which ones have been approved by the user.
+
+###This feature, introduced in Firefox 8, was designed to stop toolbars and other applications adding in their own add-ons without informing the user. Sobrier's technique shows though that the mechanism is relatively easy to overcome. Add-ons have privileged access to the browser and therefore a malicious add-on could do anything including stealing the user's history, modifying pages' contents or disabling security features in the browser. The add-on doesn't have to be malicious either, just unexpected; back in 2009 Mozilla found itself blocking a silently installed Microsoft extension which happened to expose Firefox users to a .NET Framework flaw. Without a user knowing what is installed, it becomes hard to react to security threats when they appear.
+
+###An application has to be able to copy an extension into the Firefox extensions directory. Once this is done, the Sqlite3 database has to be accessed and a record added to it for the new extension. It is a trivial task to set the field for "Has this add-on been approved" to true, and so that is what Sorbrier's code does. The add-on will only begin running when Firefox restarts. Sorbrier demonstrates the technique with a proof of concept extension and installer written in C# and available for download.
+
+###Mozilla has the capability to blacklist malicious add-ons, but, of course, they have to be detected first. There are reportedly other techniques too, such as modifying prefs.js in Firefox to block its need to prompt to install add-ons. Although the technique does require a high level of local privileges, it is one that is relatively simple to hide in installers and downloads, and if the purpose of the attack is not to cause immediate damage, it is a useful tool for the malicious.
+
+http://www.h-online.com/security/news/item/Silent-installs-of-add-ons-still-possible-in-Firefox-1787297.html
+
+http://h-online.com/-1787297
+
+djwm@h-online.com

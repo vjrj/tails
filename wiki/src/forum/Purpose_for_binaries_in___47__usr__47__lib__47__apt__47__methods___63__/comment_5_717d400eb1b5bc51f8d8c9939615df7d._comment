@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-23T22:54:48Z"
+ content="""
+>Since I won't be using apt in tails, are these files safe to delete?
+
+Short answer: **NO** as it may break Tails' anonymity and your internet session may be exposed. Your question has been asked many times in the past. Besides your deleting or adding files will not receive tech support here.
+
+Long answer: see comment 4.
+"""]]

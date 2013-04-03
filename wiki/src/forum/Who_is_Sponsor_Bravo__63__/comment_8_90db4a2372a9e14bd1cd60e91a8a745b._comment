@@ -1,0 +1,171 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-21T22:38:24Z"
+ content="""
+@ \"Tails\":
+
+> @comment1:
+>    Is this \"NDI\"?
+> Yes.
+
+Thank you for clearing up my confusion about the funding for the Tails Project.
+
+You (plural) have previously offered some thoughtful comments in
+
+    https://tails.boum.org/doc/about/trust/index.en.html
+
+> Trust is a very problematic issue, and that's the essence of why security is difficult in every field, including computers and Internet communication. Do you trust Tails and its developers? Do you think we have planted backdoors in Tails so we can take control of your computer, or that we make Tails generate compromised encryption keys in order to enable the government to spy on you? Do you simply trust our word on that we are legit?
+
+> No matter what your opinion is in this matter you should ask how you reached that conclusion. *Both trust and distrust need to be established based on facts*, not gut feeling, paranoid suspicion, unfounded hearsay or our word. Of course, we claim to be honest, but written assurances are worthless.  *In order to make an informed decision you must look at the greater picture*
+
+(My emphasis.)
+
+I agree with that philosophy.  And in previous threads, I have tried to suggest a balanced and reasonable response to potential Tor users who may be concerned that 
+
+* Tor itself originated inside the US Naval Research Laboratory (a fact which the Tor Project has, laudably, never tried to hide)
+* Tor has been used in clandestine intelligence operations, as was demonstrated by Swedish security researcher Dan Egerstadt, who was able to recover username/password combinations which were unwisely sent over Tor using clear text protocols such as ftp by dozens of diplomats working for the governments of Iran, India, and other countries (not to mention hundreds of ordinary citizens)
+
+Here, I would like to offer some background information for anyone concerned about the fact that Tails Project has received some funding from NDI.
+
+@ everyone:
+
+This is how NDI describes itself at its website (ndi.org):
+
+> The National Democratic Institute (NDI) is a *nonprofit, nonpartisan organization* working to support and strengthen democratic institutions worldwide through citizen participation, openness and accountability in government.
+
+That sounds fine, as far as it goes, but the full story is much more complex, and it turns out that neither \"nonprofit\" nor \"nonpartisan\" are very appropriate adjectives.
+
+NDI is one of a quartet of murky entities which are operated by 
+
+* the Republican and Democratic parties, 
+* \"big business interests\" 
+* \"big labor union interests\"
+
+but are funded by the US federal government through the National Endowment for Democracy (NED), a \"public-private\" quasi governmental entity created during the Reagan administration.  NED also receives private donations from, among others, George Soros and the Olin family, sources which might be said to represent respectively the left and right wings of the US plutocracy.
+
+The NED consists of four \"core grantees\", representing the \"four constituencies\" named above:
+
+* Center for International Private Enterprise (CIPE) (cipe.org), which advocates for unrestricted corporatism and privatization of government worldwide; CIPE is run by U.S. Chamber of Commerce, the primary lobbying group representing \"big business\", Wall Street, and the \"big banks\",
+* American Center for International Labor Solidarity (ACILS) (solidarycenter.org); affiliated with the  American Federation of Labor-Congress of Industrial Organizations (AFL-CIO), a centrist umbrella organization for labor unions,
+* International Republican Institute (IRI) (iri.org): affiliated with the U.S. Republican Party; recently controversial for its involvement in preventing post Arab Spring governments from \"turning to the left\",
+* National Democratic Institute for International Affairs (NDI) (ndi.org): affiliated with the US Democratic Party; also recently controversial for involvement in Latin America, China, and MENA regions, and controversial in this forum (perhaps) for having supported the Tails Project.
+
+Each of these \"core grantees\" in turn makes (usually small) grants to organizations around the world, subject to review by the U.S. State Department and un-named \"other governmental agencies\".  
+
+In particular, the NDI blog confirms that NDI has given some money to support The Tails Project, and has also handed out Tails DVDs to human rights workers.
+
+Criticism of the murky and rapidly increasing role played by so-called public-private partnerships, not just inside the US but around the world (as many other nations follow the US lead in \"privatising government\") is not limited to human rights workers or civil rights advocates.  
+
+As always when it comes to the real workings of the U.S. federal government, the best source of information comes from leaked \"secret\" reports provided by the Congressional Research Service (CRS) to the U.S. Congress; organizations like the Federation of American Scientists (FAS) and activists like the late Aaron Swartz have long urged that all these reports be made available to the People who paid for them.  From
+
+    www.fas.org/sgp/crs/misc/RL30533.pdf
+    The Quasi Government: Hybrid Organizations with Both Government and Private Sector Legal Characteristics
+    Congressional Research Service, Report RL30533
+    Kevin R. Kosar (updated from an earlier version by Ronald C. Moe)
+    June 22, 2011
+
+>  In recent decades, both Congress and the President have increasingly used hybrid organizations for the implementation of public policy functions traditionally assigned to executive departments and agencies. 1 Instead, their preference has often been to assign administrative responsibilities to newly created independent agencies or to hybrid organizations possessing legal characteristics of both the governmental and private sectors. Hybrid organizations attract both support and criticism. There are today, associated with the federal government alone, hundreds of hybrid entities that have collectively been called the \"quasi government.\" The relationship of this burgeoning quasi government to elected and appointed officials is a subject of growing concern, as it touches the very heart of democratic governance: to whom are these hybrids accountable, and how is the public interest being protected over and against the interest of private parties?
+
+> The scope and consequences of these hybrid organizations have not been extensively studied.  Basic definitional issues resist resolution. Even the language to be used in discussing the quasi government is in dispute. Should government management be discussed in the language of law, economic theory, or the business school? The traditional tools for holding executive agencies accountable, such as the budget and general management laws, are inapplicable in most instances, often leaving these hybrids with the freedom to pursue their own institutional interests, which may or may not conform to the public interest as defined by the nation’s elected leadership.
+
+> The current popularity of the quasi government option can be traced to at least five major factors at work in the political realm:
+> (1) the desire to avoid creating another federal “bureaucracy”;
+> (2) the current controls on the federal budget process that encourage agencies to develop *new sources of revenues*;
+> (3) the desire by advocates of agencies and programs to be exempt from central management laws, *especially statutory ceilings on personnel and compensation*;
+> (4) the contemporary appeal of generic, economic-focused values as the basis for a “new public management”; and
+> (5) the belief that management flexibility requires entity-specific laws and regulations, even at the cost of *less accountability* to representative institutions.
+
+(My emphasis.)
+
+Regarding \"new sources of revenues\": soon after it was established, NED ran into controversy when it became involved in the Reagan-era \"Iran contra\" scandal, which arose when Col. Oliver North sought \"new sources of revenues\" for CIA covert actions in Latin America and the Middle East.  In addition, spook watchers quickly noticed that the organization of NDI and IRI appears to mirror the organization of CIA propaganda and covert action divisions which were gutted during the political fallout from \"Iran contra\"; some CIA staffers appeared to have simply moved into NED jobs where they resumed their previous work.
+
+Regarding \"statutory ceilings on compensation\": the NDI and IRI boards appear to be used by the two \"major parties\" as sinecures for former Democratic or Republican congresspersons (respectively) who have lost expensive re-election campaigns.  And also some people who, one would think, have no great need for extra income.  
+
+From
+
+    https://en.wikipedia.org/wiki/National_Democratic_Institute_for_International_Affairs
+
+it appears that the membership of the NDI Board of Directors includes:
+
+* Bernard W. Aaronson: former State Department staffer, left to become Goldman Sachs advisor for Latin America (c.f. Chavez), now runs equity firm ACON Investments, has business ties to Latin America.
+
+* Richard C. Blum: founder of Blum Capital, a very wealthy man with many business ties to China, who just happens to be the husband of Sen. Diane Feinstein, chair of the powerful Senate Intelligence Committee.  Feinstein's political career literally began with a bang; she became mayor of San Francisco when her predecessor, Michael Moscone, was assassinated, with a gun, by a disgruntled former cop.  She later went into Congress, where she gradually acquired increasingly influential committee seats.  She has herself survived at least two assassination attempts, and has unsuccessfully sponsored gun control legislation.  By 2005 her personal wealth was said to be approximately 0.1 billion.
+
+Notable former congressmen on the NDI Board or Advisory Committee include:
+
+* Norm Coleman lost an election battle after (but possibly not *because*) contact information for 51,000 campaign contributors was leaked and published by Wikileaks
+* Christopher J. Dodd helped to craft controversial bailouts of Countrywide, Fannie Mae, and AIG; he has long been deeply involved with US foreign policy in Latin America
+* Sam Gejdenson is a former congressman who was involved in crafting legislation promoting US exports, and who now owns an international trading company.  He was also involved in attempts to combat human trafficking, an area of law enforcement investigation which often involves Tor
+
+Some other figures whose involvement may raise eyebrows:
+
+* Abner Mivka is Chief Judge of the DC Appeas Court and was instrumental in getting one Barack Obama into politics in Illinois; he has investigated corruption in Illinois politics, but has ties to Rod Blagojevich.  He well known as a key figure in the pro-Israel lobby in the US.  He has monitored elections in Ukraine, and has appeared in a Hollywood feature.
+
+To be fair, a handful of members do appear to have a longstanding interest in human rights issues.  At least one has made a guest appearance in an American TV drama, suggesting that the US broadcasting industry may be another \"source of additional revenue\" popular with the US ruling class.  (The TV drama is aired by NBC-Universal, which is owned by Comcast.)
+
+NED and its subsidiaries have long been controversial.  
+
+From 
+
+     www.wikileaks.org
+     National Endowment for Democracy: Policy and Funding Issues
+     Congressional Research Service, Report 96-222
+     Susan B. Epstein, Foreign Aﬀairs and National Defense Division 
+     August 16, 1999
+
+> The National Endowment for Democracy (NED), a private, nonprofit organization established during the Reagan Administration, provides grants to private organizations to promote democracy in more than 90 countries around the world. Throughout its 16year history, NED's budget has ranged from a low of $15 million in FY1987 and FY1989 to a high of $35 million in FY1994. During the 1990s, NED has come under attack from a few Members of Congress for several reasons: its cost; its distribution of noncompetitive grants to four core political, business, and labor grantees; its reliance on government rather than private funding; and its possible duplication with other U.S. government programs
+
+But from the perspective of some Tails users, another aspect of NDI mentioned by Epstein may be more objectionable:
+
+> Furthermore, the core grantees are covered by stringent reporting and evaluation requirements. NED maintains that *coordination with the Department of State* and possible audits by the General Accounting Office (GAO) keep the grantees efficient, honest, and *in line with U.S. foreign policy objectives*.
+
+...
+
+> Small direct grants are also made to democratic activist groups in Africa, Asia, the Middle East, Eastern Europe, the former Soviet Union, and Latin America. The Endowment made 265 grants to these groups in 1998; an additional 120 grants were made by the four core groups. All NED grants are reviewed and approved or rejected on a case-by case-basis by the NED board. NED-funded projects are varied, but often have one unifying characteristic: their *ability to function and implement democracy programs because they are not part of the U.S. government*. For example, NED has supported numerous democracy and human rights initiatives in China, Cuba, Burma, Iraq, North Korea and Sudan--countries where the U.S. government is banned by law from providing direct foreign aid. The recent conflict in the Balkans demonstrates various types of NED-supported activities. 
+
+Kevin Kosar adds:
+
+> The rationale given for creating a hybrid status for the endowment was that for NED to support democracy building programs, especially in inhospitable countries (countries where the United States is banned by law from providing direct foreign aid, such as the People’s Republic of China and Myanmar (Burma)), *it must not be viewed as an arm of the U.S. government*. Additionally, the core grantee organizations are one step further removed from the government, and thus provide a fourth-party administration of the infrastructure promotion system. The endowment was envisioned principally as a conduit for funds to the grantee organizations, but has *developed on its own a network for funding of other private organizations*.
+
+(My emphasis.)
+
+Epstein's figures for the budget and size of NED and its grantee organizations, including NDI, suggesting an an annual budget in the neighborhood of 20 million USD, are seriously outdated.  According to Wikipedia,
+
+> In the financial year to the end of September 2009 NED had an income of $135.5 million, nearly all of which came from U.S Government agencies
+
+I have not yet confirmed a claim that the current budget is 178 million USD.
+
+The American Chamber of Commerce should be familiar to fans of whistleblowers everywhere from its alleged involvement with \"Team Thetis\", will perhaps now understand the real reasons why certain threads have been removed from this forum.  From
+
+    https://en.wikipedia.org/wiki/HBGary#Fallout
+
+> Some of the documents taken by Anonymous show HBGary Federal was working on behalf of *Bank of America* to respond to Wikileaks' planned release of the bank's internal documents. \"Potential proactive tactics against WikiLeaks include feeding the fuel between the feuding groups, disinformation, creating messages around actions to sabotage or discredit the opposing organization, and submitting fake documents to WikiLeaks and then calling out the error.\"
+
+> Emails indicate *Palantir Technologies*, Berico Technologies, and the law firm Hunton & Williams (recommended to Bank of America by the US Justice Department)[16] all cooperated on the project.[24] Other e-mails appear to show the *U.S. Chamber of Commerce contracted the firms to spy on and discredit unions and liberal groups.*
+
+It should be noted that a principal target of \"Team Thetis\", constitutional lawyer and journalist Glenn Greenwald, who formerly wrote for Slate and who is now a columnist for The Guardian, has been one of the most outspoken, consistent, and effective critics of the notorious US drone strikes.  See
+
+     http://www.guardian.co.uk/commentisfree/series/glenn-greenwald-security-liberty
+
+Readers of this forum who have been impressed by the strong reaction by the moderator to expressed criticism of \"Team Thetis\" and other privatised espionage/cyberwar programs targeting persons critical of certain US government policies, such as drone strikes, may now feel that they better understand the real reasons why certain threads have been removed from this forum.
+
+BOA and the Chamber of Commerce have denied involvement with Team Thetis, but most of the \"targets\" mentioned by \"Team Themis\" mastermind Aaron Barr (a former US Navy cipher clerk who spent many years working for Defense/Surveillance Industrial giant Northrup Grumman) seem to feel that the leaked documents tell a very different tale.  
+
+Unlike BOA and the Chamber, the US spyco Palantir Technologies admitted its role in \"Team Thetis\", and even apologized to Glenn Greenwald.  (Palantir's cofounder, Peter Thiel, also cofounded Paypal, and has given money to Committee to Protect Journalists and the Human Rights Foundation, but has also supported controversial \"sting film\" maker James O'Keefe.  He has been profiled in a lengthy and disturbing piece which appeared in the New Yorker.)  More recently, perhaps seeking additional atonement, Palantir semi-secretly sponsored banquet for the Electronic Frontier Foundation (EFF).
+
+So what is the average Tails user to make of all this?
+
+At least for now, for persons desiring what little privacy/anonymity may still be found on-line, there is really no alternative to Tor and derivative projects such as Tails.  And I certainly don't think human rights workers should stop using Tails.  But I do think they should remain wary of the ultimate intentions of sometimes \"friendly\" entities such as the U.S. State Department.  
+
+We can all help them by investing some time and energy in publically auditing our own Tails to the best of our knowledge and ability, in order to discourage those \"other governmental agencies\" who will always be tempted to turn our Gift Horse into a Trojan Horse.  I believe that the Tails Project should not discourage this, but should instead make more efforts (perhaps with the help of Tom Lowenthal
+
+    http://archives.seul.org/or/talk/Mar-2013/msg00012.html
+
+In truth, not very many philanthropic activities withstand close scrutiny very well: wealthy entities which give anyone money for any reason almost always expect to get something they want in return.  Often that thing is that intangible quantity we call \"information\", which is increasingly hard to distinguish from that other intangible and frangible indicator of \"wealth\", money itself.
+
+One consideration which may blunt the queasy feeling which accompanies NDI involvement in \"helping dissidents\", whenever such assistance is \"consistent with U.S. foreign policy objectives\", is that the US TLAs are rather notorious for stepping on each others's toes, or even on their own.  An notable example is provided by the case of a key Tor developers, Jacob Appelbaum, who has been honored by the U.S. State Department for his work on tools which can help political dissidents express their views, while simultaneously being harassed by the US TSA in retaliation for his loose ties with Wikileaks.
+
+Overall, there is no avoiding the impression that the NEA and its \"core grantees\" are vaguely conspiratorial in tone.  But it does not appear to be a very well organized or even self-consistent conspiracy, nor is it very effective in covering up the tracks of the enormous and often clumsy US intelligence/covert-ops apparatus.  My sense is that NDI and IRI are probably more effective at providing taxpayer-funded sinecures to fired politicians than it is at providing intelligence on Tor users to the TLAs.
+
+"""]]

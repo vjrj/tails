@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-05T18:04:58Z"
+ content="""
+Nice idea. This kind of solution works if, and only if, the space of what you want to persist is entirely known in advance, can be hardcoded in the Tails ISO, indexed and referenced to by a shorter \"code\". I don't think Entry Guards satisfy these requirements.
+"""]]

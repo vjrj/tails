@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-02-24T23:22:28Z"
+ content="""
+Please say if this is true.
+
+> To prove my point:
+
+> The Java installed in Debian Stable (and Tails) was last updated previous summer. Since then many critical security vulnerabilities in this Java version has been found and fixed upstream (most/all is tracked on Debians security tracker), but no attempt to update the Java in Debian has been made.
+
+> Tails developers recently for the 0.17 release had to disable more protocols in the IM client Pidgin, since the Debian developer doesn't have the time to backport the security fixes promptly. See tails mailing list.
+
+> The Firefox/Iceweasel version in Debian Stable (but not in Tails) is version 3.5.16. Such an old release is not even receiving much security reviews anymore.
+
+> And same goes on and on for many other applications. In fact the number of security fixes released for Debian Stable is very low (list is publicitly available on Debians site) compared to many other Linux distributions, yet about the same amount of security vulnerabilities are found since it is the same software.
+"""]]

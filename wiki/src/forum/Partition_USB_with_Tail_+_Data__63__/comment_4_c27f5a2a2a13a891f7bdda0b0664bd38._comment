@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-24T22:57:39Z"
+ content="""
+\"We are working on this issue and hope to have good new soon\"
+some news? I found nothing on this issue.
+
+Concerning the unetbootin method, some commercial os seems to only read the first partition of the usb key.
+"""]]

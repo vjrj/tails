@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-27T11:09:50Z"
+ content="""
+@Tails: Nonetheless, what about a hidden volume option for plausible deniability such as the one TrueCrypt offers?  (where one can provide a password under duress to a decoy volume)
+
+Tails does not offer this, does it?
+"""]]

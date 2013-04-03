@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-21T08:29:52Z"
+ content="""
+> Now, suppose I get infected with some form of malware while browsing the web using Tails and the attacker gets root access to my machine. Does this mean the attacker automatically knows my real IP? Or does it take CONSCIOUS action on the attackers part to enforce a non-torrified connection to a destination of their choice?
+
+Conscious. Without conscious action on their part, their malware is unlikely to be able to connect to the Internet at all: without further re-configuration, they would have to torify their outgoing connections.
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Just reboot"
+ date="2013-02-19T19:28:22Z"
+ content="""
+Tails uses the normal Debian rsyslog, and I guess you could stop it (sudo service rsyslog stop) to prevent most logging. However, why not just reboot to a new session every now and then and have Tails wipe the whole memory?
+
+BTW, I think it would be a very good idea to have \"sysctl -w kernel.dmesg_restrict=1\" on by default. Now the kernel log buffer (unlike most syslog files) is readable by the amnesia user, and it can leak quite a lot information about the machine.
+
+"""]]

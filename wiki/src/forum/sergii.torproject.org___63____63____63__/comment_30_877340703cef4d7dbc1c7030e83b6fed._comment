@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="TorButton is the cause ! "
+ date="2013-02-21T11:21:53Z"
+ content="""
+TCP connection -> check.torproject.org (which resolves to 38.229.72.22)
+
+It happens even if you are not running TAILs.
+It happens even if you are not using the TorBrowserBundle!
+It even happens when you are not running TorButton!
+
+If you have TorButton installed on FireFox (not TBB FF), EVEN IF TORBUTTON IS DISABLED, the connection to check.torproject.org will be made upon launch of FF! Remove TorButton! Use FoxyProxy for your tor connections via FireFox.
+
+Use TorBrowserBundle if you want to use TorButton.
+"""]]

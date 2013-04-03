@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-10T09:14:24Z"
+ content="""
+> What is not supported?
+
+Changing Iceweasel settings is not supported.
+
+> Why do the NoScript settings revert to the defaults each time Iceweasel is restarted?
+
+If you find a way to implement the Iceweasel profile pre-seeding without this restriction, you're much welcome to bring us a patch. We didn't spend too many hours researching such a solution, since the current implementation works fine for the supported usecase.
+
+"""]]

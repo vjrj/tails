@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-22T22:58:38Z"
+ content="""
+@ OP:
+
+I think that's innocuous.  It is just Debian's way on ensuring that apt (the excellent Debian package management tool) will work with a variety of protocols which users may encounter. (Debian is the Linux distribution on which Tails is based.)   I believe that you won't use any of the more unusual protocols if you are downloading something like the new TBB tarball from a server which uses http to offer such files.
+"""]]

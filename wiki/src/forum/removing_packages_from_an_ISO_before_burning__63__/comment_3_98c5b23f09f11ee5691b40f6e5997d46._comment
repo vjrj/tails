@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-15T14:11:48Z"
+ content="""
+@ comment 2
+
+>Tails is FOSS - you can mess about with it to your heart's content.
+
+A few weeks ago Tails developer made a recommendation here advising us NOT to remove or add packages so as to NOT break anonymity.
+"""]]

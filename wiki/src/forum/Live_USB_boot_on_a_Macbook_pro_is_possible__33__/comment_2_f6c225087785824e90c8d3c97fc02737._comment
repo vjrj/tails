@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-21T00:34:36Z"
+ content="""
+@OP
+
+This kind of magic is possible only by dd'ing the .iso image on the USB stick. You can read interesting and relevant information about how to build an .iso image bootable on any(?) 32bits computer here: http://mjg59.dreamwidth.org/11285.html (good luck)
+
+But dd or cat the .iso image on the USB stick is data desctructive, and not supported by Tails developers.
+"""]]

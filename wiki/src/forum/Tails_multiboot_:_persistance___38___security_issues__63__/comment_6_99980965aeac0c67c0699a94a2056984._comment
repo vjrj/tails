@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-15T14:38:58Z"
+ content="""
+Devs, can you tell how do you check that Tails is run from USB, maybe it can be bypassed to use GRUB2 iso loading with persistent mode? 
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="thanks"
+ date="2013-02-12T20:11:21Z"
+ content="""
+Hi dev(s)
+
+thanks for replying wrt to Grub, I am aware of the extra complications this implies for you and understand it won't be a supported Tails install. I will find or develop my own solution to this dual boot need of mine.  Concerning the persistance issue, again does it have to do with Tails-specific choices or with the app's design limitations?
+
+thanks for your time.
+"""]]

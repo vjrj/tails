@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-02-20T22:03:31Z"
+ content="""
+\#5 here, again
+
+I did it ;-)
+
+I unpacked a Linux Mint ISO and copied the \"casper\" folder into a Tails install. Then I added this block to both /syslinux/live686.cfg and /syslinux/live486.cfg in the Tails USB stick:
+
+    label linuxmint
+    	menu label Linux Mint
+    	kernel /casper/vmlinuz
+    	append boot=casper initrd=/casper/initrd.lz live-media=/dev/disk/by-label/Tails quiet splash --
+
+This should be OK for any casper-based live ISO. For live-based ones, you will have to copy the \"live\" folder instead, rename it to something else* (let's say live2) and add live-media-path=/live2 (or whatever name you used) to the kernel command line. This last point is untested but should work fine.
+
+\* this is because there is already a \"live\" folder, which is Tails
+
+"""]]

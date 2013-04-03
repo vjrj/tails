@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-28T21:04:47Z"
+ content="""
+Looks like a bootloader issue. Did you try booting your USB stick on any other PC? If you try it, d you still receive that \"Operating system not found\" message?
+"""]]

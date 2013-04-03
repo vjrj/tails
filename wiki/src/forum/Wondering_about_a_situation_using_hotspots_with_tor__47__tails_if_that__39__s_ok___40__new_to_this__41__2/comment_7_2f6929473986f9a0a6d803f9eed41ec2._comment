@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-28T01:48:32Z"
+ content="""
+>> If your router has been rooted, it is likely that Tails cannot help you maintain anonymity.
+
+How can I know if my router has been rooted? 
+Maybe I'm just being naive, but isn't worrying about that akin to worrying about BIOS rootkits and the like? Those types of attacks, while possible, are so unlikely as to make the risk appear to be more or less negligible.
+"""]]

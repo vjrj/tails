@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-31T15:26:33Z"
+ content="""
+> what did I do wrong?
+
+Probably clicked \"OK\" without reading that your OS was asking you whether it should remember the passphrase... doing it once is enough.
+
+> how can I check that the stick really is encrypted? The lock icon says it should be, but is there a more sure way?
+
+One slightly safer way would be to look how the USB stick partitions / filesystems / encryption layout looks like in the GNOME Disk Utility.
+
+The best, but more involved technically, way would probably be to write a known pattern on the filesystem, and see if you can recover it from the USB stick block device, in Tails without entering the passphrase.
+
+> how can I change the password on the encrypted volume?
+
+Use GNOME Disk Utility.
+
+"""]]

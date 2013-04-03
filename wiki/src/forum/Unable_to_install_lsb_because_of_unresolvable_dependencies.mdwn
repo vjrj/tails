@@ -1,0 +1,14 @@
+I'm unable to use my printer because in order to install the drivers, I require lsb to be installed. I get this error upon using the Package Manager:
+
+
+    The following packages have unresolvable dependencies.
+    Make sure that all required repositories are added and
+    enabled in the preferences.
+    ----
+    lsb:
+     Depends: lsb-core but it is not going to be installed
+     Depends: lsb-graphics but it is not going to be installed
+     Depends: lsb-cxx but it is not going to be installed
+     Depends: lsb-desktop but it is not going to be installed
+
+The recomended driver within Tails does not work. What repositories should I add in order to make sure lsb has the correct dependencies for Tails?

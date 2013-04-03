@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-30T21:59:35Z"
+ content="""
+>It is a Google account that I created without using the Tails, she went years without anyone log in. Recently I only logged in account using Tails. Maybe Google has saved my country information for all these years
+
+Yes. The IP addresses you were using all those years ago are likely to have been logged. The account is also likely to be associated with the searches you were making at the time and the sites you were visiting (analytics).
+
+>Blogspot knowing my country without me being logged in worries me.
+
+That'll almost certainly be sniffed from the browser's preferred language. Try changing it before first visiting Blogspot to confirm?
+"""]]

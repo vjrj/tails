@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-16T18:27:13Z"
+ content="""
+I am not one of the Tails devs, but I am 99% sure I can guess the reason: to make sure that Tails users know when its time to upgrade to the next edition of Tails.  This is currently the only way to ensure that everyone gets required security upgrades (not to mention new features).
+
+This is very similar to what the Tor Project does with Tor Browser Bundle (TBB).
+"""]]

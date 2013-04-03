@@ -1,0 +1,15 @@
+A suggestive (if inconclusive) news item which the Tails developers might have missed: Google is blocking the Adblock Plus IW/FF add-on; see
+
+      http://www.theregister.co.uk/2013/02/20/google_adblock_plus/
+
+> The maker of Adblock Plus is upset its users must jump through hoops to get its advert-banishing app working on devices running Android - the mobile OS made by advertising giant Google.
+
+> The complaint follows moves by Google that made it more difficult for Google Chrome users to use Adblock Plus as a browser extension.
+
+Because Tails does not use Android or Chrome, this issue apparently does not *directly* affect Tails users.
+
+However, I speculate that Google's increased "security measures" and "we'll test your browser whether you ask us to or not" approach may be interacting with Tails users who surf to one of the many (many) websites which partner with Google or use an Google api widget.
+
+Another recent thread on AdBlock Plus
+
+    https://tails.boum.org/forum/AdBlock_Plus_Icon_Missing__33__/

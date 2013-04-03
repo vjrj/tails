@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-27T11:43:39Z"
+ content="""
+Let me explain it in a different way: Tails is a complete OS itself, just like Windows and Ubuntu. So, you don't boot Ubuntu-then-Tails, or Windows-then-Tails, you just boot Tails
+"""]]

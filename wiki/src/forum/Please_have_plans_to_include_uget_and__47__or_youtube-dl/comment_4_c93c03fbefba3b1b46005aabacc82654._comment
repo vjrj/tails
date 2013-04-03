@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-13T08:30:21Z"
+ content="""
+>downloading a bunch of youtube vids is a waste of TOR's bandwidth. 
+
+While I appreciate the concern, I'm not sure this is that simple.
+
+1.) It would only be a *waste* of bandwidth if the videos weren't necessary. Sometimes downloading certain videos could be truly necessary for some reason and not merely for entertainment.
+
+2.) According to the official Tor documentation, the more people using Tor at any given moment, the more protection it provides to every user.
+
+Thus, there would appear to be a tradeoff at play: More robust anonymity but slower vs. less robust anonymity but faster.
+
+3.) One thing people with fast connections can and probably should do is to limit their transfer rate for any downloads of considerable size.  
+"""]]

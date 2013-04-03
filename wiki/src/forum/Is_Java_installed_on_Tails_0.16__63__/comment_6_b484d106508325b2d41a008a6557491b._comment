@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-19T19:02:56Z"
+ content="""
+Also forgot to mention the fact that the java process does not run unless it's currently being used by an application, so you don't have to worry about that.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-16T07:52:04Z"
+ content="""
+When I change my mac, I cannot connect to any network.  Yes I put the interface back up.  It is definatly a bug with Tails.  I consider this to be a big security hole. I cannot emphisize enough how important changing my mac is for me.
+"""]]

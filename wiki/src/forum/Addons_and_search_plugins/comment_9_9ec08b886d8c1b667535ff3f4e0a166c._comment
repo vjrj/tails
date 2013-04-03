@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-01T09:35:20Z"
+ content="""
+@7: What about manually maximizing each new window you open?
+
+Any way to detect *that*?
+
+(Other than if an attacker has managed to gain access to your system, in which case you would have far worse problems to worry about than revealing the size of your windows...)
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-14T05:08:58Z"
+ content="""
+OP,
+
+Download the 0.16 iso, and copy it on a usb drive. Start Tails using a usb stick running Tails 0.15. Open the Tails USB installer and choose Upgrade Using ISO. Plug in an empty usb drive, that will be where you install 0.16 Tails. Then plug in the usb which contains the 0.16 iso, and choose it by clicking browse. Double check to make sure you are installing the right thing, and then click next. Read the warning and click next again. Voila, you just upgraded your Tails to 0.16.
+
+To the first commenter,
+
+You are an asshole. Not everyone is handy with a computer. If you dont want to help someone, than piss off.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-01T08:18:20Z"
+ content="""
+I used the included `unar` utility in Tails to successfully open a password-protected RAR archive.
+
+I'm pretty sure I figured out the command to enter into the terminal from the manual I was able to access with the command `man unar`.
+"""]]

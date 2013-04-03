@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-19T19:27:00Z"
+ content="""
+> Is there any way to set this up or do I just have to wait & hope its included in future releases
+
+It's unlikely we ever get around to implement it ourselves, so waiting and hoping is unlikely to work. [[Submitting good patches|contribute/how/code]] would work better :)
+
+"""]]

@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-13T01:59:25Z"
+ content="""
+Leaders of the Tor Project spend quite a bit of time traveling to police conferences to try to educate cybercrime investigators about the Tor network.   That might seem surprising or even alarming, but their stated reason is pretty sensible. From
+
+     https://blog.torproject.org/blog/trip-report-tor-trainings-dutch-and-belgian-police
+
+> Until we educate every law enforcement person on the planet about Tor, there will always be people who raid every IP address on their suspect list without ever knowing what Tor is.
+
+Also, they sometimes obtain valuable insights into how \"the authorities\" are thinking:
+
+> One issue that came up repeatedly during the talks: what if a bad guy runs a Tor exit relay to provide plausible deniability when somebody shows up as his door?
+
+(Opinions differ about who are really the \"bad guys\"; most of us here would probably agree that when police break the law they are functionally indistinguishable from bad guys, and are in a fact functioning as a *particularly dangerous variety of criminal: the ones who do great harm but are never brought to justice*.)
+
+> I hear their new generation of client-side software has an option for using Tor; I wonder if that means the Tor Browser Bundle, or just tunnelling the traffic through Tor naked? 
+
+I hear that the Dutch police have some way of using Tor nodes only as middle hops like this:
+
+      cop computer <--> Tor relay node <--> server with an IP borrowed from an ISP
+
+I don't see how that could be right unless they are doing something to mess with the Tor network (like running their own relay nodes with something deliberately broken to allow the investigators to access a relay without going through an Entry node).
+
+
+
+"""]]

@@ -1,0 +1,5 @@
+In Vidalia::Tor Network Map, there are 0 relays every time unless I click Refresh and they slowly load, why?
+
+and under connection/status, before the relays are all loaded from the manual refresh button clicked, there are empty slots and just a few circuits, and clicking them shows no country tracking/lines but they appear after I click refresh button.
+
+do i need to click refresh with every new session or is it working fine with 0 relays listed on the left? i don't understand this behavior. thank you

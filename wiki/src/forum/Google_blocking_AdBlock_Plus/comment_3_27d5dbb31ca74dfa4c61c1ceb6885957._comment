@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-22T23:50:13Z"
+ content="""
+> Please don't try to put words in the mouths of other posters.
+
+I never intended to put words into other posters mouths, I was just pointing out that the title \"Google blocking AdBlock Plus\" implies that Google explicitly and intentionally blocked AdBlcok Plus from one of it's products, which is simply not the case.
+
+> I myself pointed out that the news story appears not to be directly relevant to Tails 0.16, but as I tried to explain, I think that the Tails developers should be made aware of it, and should keep an eye out for other \"security measures\" which Google may take in the near future which might directly affect the next release of Tails.
+
+My problem with that is that I can literally not think of any way that any current or future Google security changes would affect Tails, even if Google suddenly decided to lock down all their products 100% tommorow, that still wouldn't affect Tails specifically in any way whatsoever since Tails does not realy on any Google product.
+"""]]

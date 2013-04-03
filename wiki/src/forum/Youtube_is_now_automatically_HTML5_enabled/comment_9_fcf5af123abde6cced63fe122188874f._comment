@@ -1,0 +1,45 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Video formats supported by web browsers"
+ date="2013-02-21T23:57:11Z"
+ content="""
+>It seems that webm is the HTML5 format that Google/YouTube uses. https://en.wikipedia.org/wiki/HTML5_video#Google_purchase_of_On2
+
+WebM or h.264
+
+https://www.youtube.com/html5
+
+>    If you want to find videos with WebM formats available, you can use the Advanced Search options to look for them (or just add &webm=1 to any search URL)
+
+>Supported Browsers
+
+>We support browsers that support both the video tag in HTML5 and either the h.264 video codec or the WebM format (with VP8 codec). These include:
+
+>    Firefox 4 (WebM, Available here)
+    Google Chrome (WebM)
+    Opera 10.6+ (WebM, Available here)
+    Apple Safari (h.264, version 4+)
+    Microsoft Internet Explorer 9 (h.264, Available here, WebM support avaliable here)
+    Microsoft Internet Explorer 6, 7, or 8 with Google Chrome Frame installed (Get Google Chrome Frame)
+
+>Notes
+
+>Additional Restrictions (we are working on these!)
+
+>    Videos with ads are not supported (they will play in the Flash player)
+    On Firefox and Opera, only videos with WebM transcodes will play in HTML5
+    If you've opted in to other testtube experiments, you may not get the HTML5 player (Feather is supported, though)
+
+>What does my browser [Tails] support?
+
+>    Video tag - yes
+
+>    h.264 - [red exclaimation point whatever that means]
+
+>    WebM - yes
+
+>You are not currently in the HTML5 trial.
+
+>Join the HTML5 Trial
+
+"""]]

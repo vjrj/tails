@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-16T21:06:50Z"
+ content="""
+OP here and thankful for useful information.
+
+To my understanding regarding the use of Temp files, well, the temp file would still remain unencrypted on RAM even though its not saved in Tails. Perhaps you would have to wipe the memory after opening then closing a file or files?
+
+And while at it, what actually happens when you mount an encrypted volume without yet opening any files on it? Does Tails create a Temp unencrypted image of all files once volume is mounted? Or maybe just immediately store file names and thumbnails of files on RAM without inner content? What about recently opened items (as opposed to recent folder in windows)? How can you not leave a trace while dealing with encrypted material (or user created files for same matter) on Tails?
+
+Then another issue comes up. If an adversary has managed to infiltrate remotely into your Tails system then you are pretty much doomed to hell. Even if you running off a USB or a DVD do not forget that Tails keeps logs of many activities stored locally which contains identifying information such as Hardware info (types, serials, brands, etc..). I dont know how this could be avoided. A guess would be \"using VM\" ? Dunno. My question about keyloggers also remain. 
+
+
+"""]]

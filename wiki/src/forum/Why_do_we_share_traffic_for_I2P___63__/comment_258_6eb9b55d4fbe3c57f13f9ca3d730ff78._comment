@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 258"
+ date="2013-01-23T13:50:38Z"
+ content="""
+>The \"last person in the chain\" is not exposed to the I2P client. Please read about >I2P's use of inbound and outbound tunnels. It's practically the same as how Tor >deals with hidden services.
+
+I just started a download and i can see the Ip-address and the exact amount of data transfered from the I2P relays in the administration page of my load balancer on my network so where do you get this ridiculous idea that they are not exposed?
+
+If i was a government agency and i downloaded a illegal file i would know exactly who was relaying the data to me. 
+
+So user 254 is correct the relays are not hidden to the downloader and nothing is hiding the last person in the chain that is connecting to me. 
+"""]]

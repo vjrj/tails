@@ -1,0 +1,18 @@
+Much bad news recently for Tor and Tails.  So let's highlight a bright spot which illustrates why the world needs privacy-enhancing tools like Tails:
+
+Runa S of the Tor Project has just helped to train Turkish journalists in using both TBB and Tails:
+
+From
+
+     https://blog.torproject.org/blog/training-journalists-istanbul
+
+> After meeting with SOCA in London, I traveled to Istanbul to teach local and foreign journalists how to use Tor and Tails to keep themselves, their colleagues, and their sources safe online.
+
+Precisely.  Another no-brainer: all journalists should use GPG for privacy/authentication (anonymity is much harder).
+
+(Presumably everyone realizes that Turkey is a neighbor of Syria, so Turkish reporters have been among those doing the extremely dangerous work of reporting from inside Syria.)
+
+The blog post lists some specific usability problems/confusions the journalists encountered in trying to boot Tails (from live USB sticks handed out by RS) for the first time.
+
+
+

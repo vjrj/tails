@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-01-11T22:12:53Z"
+ content="""
+> periodic checks a trusted CD of the cryptographic hashes of critical binaries
+
+I was thinking aloud and that might not make much sense, since the hashes of binaries on a R/O DVD won't change.  Perhaps one can use a Linux tool periodically live-installed from the Debian repositories to check signatures of binaries loaded into memory, or if not, every week simply reboot the Tor relay or bridge from the original DVD.  And when a Tails update comes out, burn and use a new DVD.  That might be sufficient security to keep out \"script kiddies\".
+"""]]

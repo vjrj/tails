@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-08T23:56:41Z"
+ content="""
+I did quite a bit of reading on browser profiling a few months back, and my conclusion is that whether or not JavaScript is disabled is a relatively minor point. Unfortunately, very few browser instances are NOT unique. One tactic that might help is the adoption of a universal browser profile among all user concerned about privacy. I know that was part of your point, but I don't think that it would accomplish much if confined to Tails users. I have also wondered about the practicality of  identifying browser configuration items that matter little to a typical user's experience and have a widget that periodically changes those settings to random values. Or possibly the two concepts could be combined so that the browser presents an anonymous \"face\" to web sites but uses client post-processing to render the page the way the viewer wants/needs to see it, sort of a user agent on steroids.
+"""]]

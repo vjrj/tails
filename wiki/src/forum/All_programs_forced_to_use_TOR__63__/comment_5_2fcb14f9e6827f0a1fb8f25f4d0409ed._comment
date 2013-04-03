@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-21T08:39:36Z"
+ content="""
+> Is it possible for an attacker to exploit the fact that tails has an unsafe browser into revealing their identity, when the person is not using the unsafe browser? 
+
+It is possible for an attacker that has already gained root credentials.
+But one such attacker has easier ways to de-anonymize the Tails user then,
+so I certainly would not call this to \"exploit the fact that tails has an unsafe browser\".
+
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-14T12:29:55Z"
+ content="""
+> Are you referring to executables provided by the geoip-database package in Debian stable?
+
+I was only referring to the \"tools such as geoip*\" that are shipped in Tails.
+
+> I want to be sure, because packages related to Geoclue [...]
+
+These are not shipped in Tails, so this is off-topic here.
+
+Unless someone finally describes a real problem related to geoip packages shipped in Tails, I declare this thread is closed.
+
+"""]]

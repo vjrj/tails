@@ -1,0 +1,48 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-13T02:34:14Z"
+ content="""
+An interesting update via the Tor blog.
+
+From
+
+     https://blog.torproject.org/blog/trip-report-tor-trainings-dutch-and-belgian-police
+
+> Several people at the Dutch cybercrime unit quietly told me they regretted their \"break into a Tor hidden service and zero it out\" action: it got people upset at them, but more importantly, it *didn't work*. That is, it didn't stop any bad people from doing bad things. Apparently playing whack-a-mole like this doesn't make the criminals go away. And worse, it disrupts the police's other monitoring and infiltration operations. 
+
+Several other comments are also well worth studying:
+
+Illustration of two important points often made by the civil liberties and human rights campaigners:
+
+> One person in the Belgian FCCU (Federal Computer Crime Unit) suggested during a break in the discussion that maybe Belgium should block all connections from the Tor network *to* any Belgian IP space. By now there's almost no such thing as a new question for me during these talks, but I have to admit that this one took me by surprise. Eventually I produced the right answer: \"The Internet community would destroy you. 'Great Firewall of Belgium'? 'Adopt a Belgian dissident'? Nobody would take you seriously again as an alleged democracy.\" In any case, my friend at RIPE tells me that technically, it's harder than it sounds for Belgium to do this scale of blocking.
+
+> I got into a discussion with the Belgian police about how they don't regard their Internet filtering as \"censorship\". In my experience, the way it starts is some legislators decide there's something so horrible on the Internet that it justifies filtering. From there, they delegate to some quasi-governmental organization which comes up with a list (in some totally non-transparent fashion) of verboten URLs. Inevitably, the list contains more types of content than the original reason for setting up the filtering; and inevitably, there's no redress mechanism to get off the list if you shouldn't be on it. The Belgian police assured me that they only filter a small set of URLs, and that each of them is discussed and transparently decided about in a democratic fashion. And then they wouldn't tell me what's on their list. 
+
+The points are:
+
+* just as \"Western\" technology flows to authoritarian regimes, so too do authoritarian ideologies and attitudes flow in the opposite direction
+* vaguely formulated \"internet laws\" encourage the kind of \"function creep\" which are so dangerous to civil liberties, free speech, and democratic political functions.
+
+Illustration of the lamentable fact that police forces in \"Western-style democracies\" often act illegally:
+
+> One regional Dutch police woman told us that they know how to check if it's a Tor exit IP, but sometimes they do the raid anyway \"to discourage people from helping Tor.\" I later told that statement to one of the national police, and he was shocked, said that was illegal, and said he'd look into it. Alas, I'm not optimistic that anything will come of it: giving investigators discretion about how to act can be both good and bad. 
+
+In other words, the Dutch coppers in question knew they were simply harrassing someone whom they had no grounds for suspecting of committing any actual crime, so their raids were illegal.
+
+Confirmation of a claim which not long ago was (incorrectly) dismissed as \"FUD\", to the effect that US secret police have people permanently stationed in overseas police departments:
+
+> I met a US FBI agent and a US Secret Service agent who are \"permanently\" stationed with the Dutch national police. They acted just like normal Dutch police, except I guess they're paid by the United States to be Dutch police. Weird world we live in. 
+
+This factoid may be news to the Tor Project, but the true situation is even worse than they yet realize.  For example, the NYPD has a huge intelligence operation, run by a former CIA staffer credited with masterminding the notorious (and unsuccessful) spying operation targeting suspected Muslims (not the same thing at all as *suspected terrorists*, if only the secret poice had not completely lost their heads), and stations its own liason officers overseas.  A tangled web of adversaries indeed, who often act illegally and unwisely.
+
+What do the eurocops want to do with the proposed mandatory backdoors?  They aren't saying much more than that they really *really* want to have them:
+
+> In each of the three police meetings, somebody suggested an alternate model for Tor where *a judge should get to decide whether a given Tor user should be deanonymized*. (While in America we don't trust our judges, in Europe they really do.) Putting aside for a moment the technical fact that building in a backdoor would mean that criminals can exploit it too (this argument doesn't work on them), I tried to press on the multi-jurisdictional aspect: we have governments, militaries, and law enforcement from around the world relying on Tor. When I asked the embedded Secret Service guy if he would be ok with the Dutch police having a backdoor to Tor, he said \"We like our Dutch colleagues.\" When I rephrased it to whether he would be ok with the Dutch police knowing what the US police are using Tor for, he paused, smiled, and tactfully said \"No comment.\"
+
+Its bad enough that police around the world all want the legal authority (under the laws of various nations) to trojan at will any computer anywhere in the world, possibly without needing a warrant, but the true situation is even worse than that.  Tor users should know that corporate groups are actively lobbying under the guise of \"anti-piracy efforts\" for legal permission to trojan citizens at will *independently of any police actions*, in pursuit not of *criminal investigations* but in pursuit of \"legal discovery\" in *civil actions*; see
+
+     http://www.michaelgeist.ca/content/view/6777/125/
+
+
+"""]]

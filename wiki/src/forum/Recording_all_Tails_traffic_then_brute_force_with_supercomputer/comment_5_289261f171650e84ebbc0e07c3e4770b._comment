@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-05T20:44:11Z"
+ content="""
+@ OP:
+
+Your is grounded in something reasonably close to established fact:
+
+* the long-standing strategy of the NSA (and now, other intelligence agencies and even police and civil law organizations) is to snarf and hoard everyones datastreams, to the extent possible, in the expectation that some of it might later be handy
+* in the well known Venona project, the NSA worked for decades to partially decrypt communications they had stored for a very long time, so there are definitely precedents establishing the likelihood that if someone breaks RSA or CAST in a few years, the NSA will start systematically decrypting all their stored RSA and CAST encrypted ciphertexts
+* the man who has written three books about the NSA, James Bamford, and who has numerous sources inside that agency, says that he has heard that some years ago their boffins made a \"big breakthrough\" in the area of cryptanalysis
+* a striking and very specific feature of one new NSA data center does suggest that the NSA is now using a specific general method for some of its cryptanalysis, one which has never been discussed in the open literature; this is a general method so could in principle be applied to breaking SSL
+
+Nonetheless, it is my understanding that secret police prefer to circumvent SSL (or actually TLS 1.0) entirely by co-opting ISP equipment, or if that fails, by attacking the target's router, or if that fails, by attempting to trojan the target PC/laptop.  
+
+Similarly, when possible, according to police journals, government agents prefer to circumvent whole disk encryption by attempting to recover key material from RAM using an \"evil maid\" Firewire attack.  And prefer to circumvent PGP/GPG encrypted email by illicitly accessing the target keyring to recover the secret key.  And to break ssh, the easiest way to break in and illicitly access the RSA secret keys.  In short, like any predator, spooks follow the path of least resistance.
+
+It is my understanding that actual cryptanalysis is only applied in certain situations when these other methods fail.  Even then, if the NSA ever cracked the encrypted hard drive of one high-value detainee, they never told the FBI or CIA about it, according to the head of the NYPD's huge intelligence division (a former high level CIA officer), which may suggest that cryptanalysis of modern algorithms remains hard, even with many GB of ciphertext to work on.
+
+One of the reasons why I am so anxious to see ECC adopted in future Tails is that these algorithms promise to be significantly harder than RSA type public-key cryptosystems to crack.  Another is that they foster one-time keys, because you obtain much more strength with a short key.  Potentially in future ECC might even replace TLS for a next-generation Tor, which would be a huge, huge, huge improvement.
+
+For those concerned about encrypted high-value files, be careful with double encryption.  Using the same passphrase and encrypting twice can be a very bad idea.  Much better to use two different algorithms and two different passphrases.  That is one reason why I'd like to see future editions of Tails include well-debugged implementations of Camellia, Serpent, Twofish in addition to AES.
+
+"""]]

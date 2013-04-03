@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-21T08:42:08Z"
+ content="""
+This attack requires to have gained arbitrary code execution already, so I fail to see what is the point in the context of Tails.
+"""]]

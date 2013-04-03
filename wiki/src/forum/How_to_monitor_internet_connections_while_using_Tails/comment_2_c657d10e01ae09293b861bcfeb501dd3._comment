@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-31T19:18:45Z"
+ content="""
+Unless a future edition of Tails includes iftop, you'll need to live install it.
+
+* set up a root password when you boot Tails from live DVD
+* when Tor is working, call the Synaptic package manager (see the Tails menu)
+* use the search window to search for the iftop package
+* install it
+* expect to see the dialog say it is falling back on readline
+
+Some of us would like to see some small and useful utilities like iftop, seccure, steghide included in future editions of Tails.
+
+Needed: a steganography tool which can be used to hide mesages in uploaded Youtube videos.  These are perfect since 
+
+* not previously published, so no comparision file available
+* very long, so easier to quietly hide files
+* ubiquitous format/website, uploading in itself should not draw attention
+
+"""]]
