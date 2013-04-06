@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="anon"
+ date="2013-03-07T12:43:25Z"
+ content="""
+I've the same problem I can't connect to WiFi when I use the networkmanager.
+And that on Tails, Debian, Ubuntu, Fedora.
+Wicd don't have that problem so I can't use Tails in an \"Internet-Caffee\"
+"""]]

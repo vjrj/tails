@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-29T01:14:40Z"
+ content="""
+Durability is improving but the problem you describe is that of *writing* to flash... booting Tails is very largely a read process so not so much of a worry. It's worth remembering though, that flash **isn't** immortal. It could fail at any moment so always keep backups of valuable data.
+"""]]

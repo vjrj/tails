@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Answer to Comment 8 - Part 2"
+ date="2013-01-24T18:55:26Z"
+ content="""
+Immediately after I left my Comment above, I logged off of this forum. Then, I tried to open the TC file that I created in Tails 0.16 again, and I was not able to do it. The message: \"Failed to obtain administrator priveliges: Sorry, try again.\" I tried two more times, and got the same results.
+
+Then, I created a new, 500 MB test file on the same stick, and I followed the exact same steps in Comment 8, which I had done before, and I was able to log into it. Then, with that same 500 MB TC test file (container) open (as a new, virtual drive), I managed to open my 200 MB, TC file (container) that was on the same stick, and the data that I had saved in there weeks ago was still there. I now have two, open, TC containers on the same stick.
+
+After I log off of this forum, I will try to open the first (200 MB) one without opening the second (500 MB) one (that I just created) to see if it will open.
+
+However, the fact that I can not open my 40 GB TC container is still a mystery.
+
+One last idea might be to create a small TC container on the 40 GB stick with Tails 0.16, open it if it will open, then see if Tails 0.16's TC will open my 40 GB TC container while the small one is still open. If it does, it still wouldn't solve my problem of being able to open my 40 GB TC container by itself, but it might lend a clue as to what the real problem might be, and with what program. My goal is to just use my 40 GB by itself.
+
+I will report back later on the results.
+
+Thanks.
+
+"""]]

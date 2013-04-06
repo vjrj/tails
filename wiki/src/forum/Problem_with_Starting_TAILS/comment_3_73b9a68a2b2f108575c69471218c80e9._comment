@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-26T22:17:22Z"
+ content="""
+You don't need ubuntu at all. If you created the Tails USB stick properly, you have to boot it *instead of* ubuntu
+"""]]

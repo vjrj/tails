@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-03T18:35:09Z"
+ content="""
+Okay, thank you tails. I will try again:
+
+If you took a sample recording of some Tails/Tor traffic, straight from the ISP even, and tried to brute force it apart to get the clear text, would it be able to stand up to probably anything, like the way a truecrypt container can? Or is it a weaker encryption?
+
+Is the encryption of the traffic stream super strong like AES? Would it be able to stand for thousands of years against any computer in the world like they say about AES? Even though we don't enter a password when we start up Tails, can we still end up with that strong of a result?
+"""]]

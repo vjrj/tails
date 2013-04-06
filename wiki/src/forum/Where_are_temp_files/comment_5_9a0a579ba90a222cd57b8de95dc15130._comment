@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-19T20:44:55Z"
+ content="""
+> I think it would be a very good idea to have \"sysctl -w kernel.dmesg_restrict=1\" [...]
+
+Created a [[ticket|todo/restrict_access_to_dmesg]], thanks for the suggestion.
+
+"""]]

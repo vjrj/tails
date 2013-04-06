@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-11T18:00:14Z"
+ content="""
+@ comment 2
+
+>I agree that all Tor users should suspect that their router probably has secret (or not so secret) \"remote administration\" backdoor accounts put in by the vendor, and may have backdoors put in by our adversaries (with or without the cooperation of the vendor). And should suspect that their ISP may be coerced or bribed into sharing hardware addresses of equipment used by Tor users with secret police organizations.
+
+According to Tails developers, the anonymity provided by Tails does **NOT** depend on clean routers or routers that have secret backdoors.
+
+Please do a search on this forum as this question has been answered many times in the past.
+"""]]

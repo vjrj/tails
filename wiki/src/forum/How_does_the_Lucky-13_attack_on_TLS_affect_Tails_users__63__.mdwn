@@ -1,0 +1,19 @@
+From
+
+     arstechnica.com/security/2013/02/lucky-thirteen-attack-snarfs-cookies-protected-by-ssl-encryption/
+
+> Software developers are racing to patch a recently discovered vulnerability that allows attackers to *recover the plaintext of authentication cookies and other encrypted data* as they travel over the Internet and other unsecured networks.  The discovery is significant because in many cases it *makes it possible for attackers to completely subvert the protection provided by the secure sockets layer and transport layer protocols*. Together, SSL, TLS, and a close TLS relative known as Datagram Transport Layer Security are the sole cryptographic means for websites to prove their authenticity and to encrypt data as it travels between end users and Web servers. The so-called "Lucky Thirteen" attacks devised by computer scientists to exploit the weaknesses *work against virtually all open-source TLS implementations*, and possibly implementations supported by Apple, Microsoft, and Cisco Systems as well.
+
+Should we all panic?  Dan Goodin thinks "ordinary users" do not need to panic, but can await the expected patch of open-source TLS (including those used by Debian and Tails):
+
+> The attacks are extremely complex, so for the time being, average end users are probably more susceptible to attacks that use phishing e-mails or rely on fraudulently issued digital certificates to defeat the Web encryption protection... Already, the Opera browser and PolarSSL have been patched to plug the hole, and developers for OpenSSL, NSS, and CyaSSL are expected to issue updates soon.
+
+But
+
+> "The attacks can only be carried out by a determined attacker who is located close to the machine being attacked and who can generate sufficient sessions for the attacks," Nadhem J. AlFardan and Kenneth G. Paterson researchers wrote in a Web post that accompanied their research
+
+The trouble is, it is known that the countries which carry the majority of Tor data streams have mandated that ISPs hire surveillance companies to mount at will attacks on customers using equipment placed in the ISP's server rooms, so "close to the target".
+
+Some of us have been trying to warn for years about authentication cookies being subverted, but were ignored, so this situation is quite frustrating.
+
+The Dan Goodin story includes a link the original paper and the researcher's blog post.

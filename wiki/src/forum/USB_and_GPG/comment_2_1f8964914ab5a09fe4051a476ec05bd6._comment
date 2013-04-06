@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-16T19:19:19Z"
+ content="""
+Don't be afraid to innovate using available tools.
+
+Suppose Sam and Alice know each other, and that Sam is about to travel to an unsafe location.  Suppose they anticipate that Sam may need to privately convey important news to Alice.  They can arrange to do something like this:
+
+* Alice regularly checks a particular location at a popular site where large images are often uploaded.  Sam does the same.
+* Sam and Alice boot Tails, generate one-time key pairs, and use steganography to hide the public key of their keypairs in the pre-agreed images they control.
+* When Sam wants to write to Alice, he checks her image for her current public key, and uses that with his secret key to encrypt his email which he sends, possibly by a remailer.
+* Alice boots Tails, checks her email, retrieves the encrypted email, retrieves Sam's public key from his image, and decrypts the email using his public key and her private key.
+
+Such schemes can be modified to support regular correspondence.  However, ellipic curve cryptography is probably better suited to correspondence taking advantage of one-time-keys.
+
+Tails may be particularly well suited for persons traveling to an unsafe country, because the traveler can carry a clean laptop through the border with the ip address of some bridges hidden in a slip of paper or later retrieved in some manner.  Then he may be able to quietly download, install, and use Tails inside the unsafe country.  If so, Sam can send his urgent private message to Alice as above.
+
+This kind of situation arises often when someone is trying to rescue a family member inside an unsafe country, or when a human rights worker is trying to investigate abuses.
+
+You can use synaptic (the Debian package manager) with Tails to live-install outguess, a nice steganographic tool which even allows encrypted messages which only the intended recipient can access with a pre-agreed passphrase.  Harder to use is seccure, an ECC utility.
+"""]]

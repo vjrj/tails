@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-28T18:37:45Z"
+ content="""
+> is that needed too if nobody will physically access your computer
+
+Passwords are intended to prevent unauthorized access, both remote (from another computer on another network) and local (from another computer on the same network, or from an evil maid who boots your computer while you are absent from your hotel room).
+
+Here is my attempt to clarify: 
+
+* it is best to reboot Tails frequently when using it in order to take advantage of its features such as RAM wiping on shutdown, particularly in between activities like surfing, posting, and chatting
+* if you won't need to use root privileges for a Tails session, it may be best to not choose any root password, since as \"Tails\" just said this should prevent *anyone* from becoming the root user on your machine
+* if you plan to \"live install\" you'll need root privileges. and then you should choose a strong password and enter it when you boot Tails
+
+
+"""]]

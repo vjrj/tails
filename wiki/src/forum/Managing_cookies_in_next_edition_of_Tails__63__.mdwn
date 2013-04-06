@@ -1,0 +1,28 @@
+I have a question about managing cookies in the next edition of Tails.  I am trying to get ahead of a potential problem, so I believe it is appropriate to ask about this in advance.
+
+From
+
+     https://tails.boum.org/todo/torbrowser_17/
+
+> Firefox 10.x ESR will be end-of-lifed mid-February. Tails 0.17 is scheduled for late February, so it will have to ship the next ESR series: Firefox 17. 
+
+The latest TBB is also based on FF 17 and based upon trialing the latest TBB, it appears that Tails users will need to learn a new way of managing cookies when the next edition of Tails comes out.
+
+I know that fiddling with Javascript and cookies can decrease anonymity, but
+
+* to judge from the EFF tester, simply reporting browser as FF 17 (about 1 in 900 browsers self-declare this identity) has a much greater adverse effect on anonymity than disabling cookies (1 in 4 surfers do that) or JavaScript (2 in 7 do that too)
+
+* some of us regularly surf to sites which are reliably reported to be attacked in watering hole attacks, such as rsf.org, and thus have a legitimate need to take extra precautions like disabling JavaScript entirely or forbidding cookies
+
+The problem is that apparently FF 17 no longer offers any way to disable cookies! Or to allow some sites to set "session-only" cookies.  And testing the latest TBB at the jondos anonymity testing site shows that apparently that site can set cookies, although another test site suggests that cookies are disabled in the latest TBB.
+
+My questions:
+
+* which site is correct?  Are cookies disabled by default in FF17 or can the jondos site really set cookies?
+* how can you disable cookies entirely in FF 17?  
+* how can you enable session cookies for a particular site?
+* where do you look to check that cookies are not present or have been deleted?  Or if you can allow cookies for a particular site, examine those cookies to see whether they pose an obvious problem?  
+
+I knew how to do all of these things in the FF10 ESR, but the Mozilla site contains only terribly outdated information apparently referring to FF5!
+
+Tails, please don't answer "just reboot Tails every time you surf to another site", because getting Tails running on some machines is a time consuming process and it simply is not practical to boot Tails more than once or twice each day.

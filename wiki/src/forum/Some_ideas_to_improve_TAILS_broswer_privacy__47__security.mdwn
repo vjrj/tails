@@ -1,0 +1,23 @@
+Hello everyone.
+
+So, I was looking around for more anonimity solutions, and run into the JAP website. Once there I noticed they have a browser test, which tries to see what data your browser actually gives away.
+Well, I decided to run it on TAILS broswer and found it had some not-so-good points.
+
+Some were easy to change and had been discussed here before, but some others were new to me. So, I decided to give it a go and try to make TAILS broswer ''pass'' the test, by only getting ''green'' in all tests. While doing that I also noticed some other things that could be changed in the brower, and I believe these improve it. So, I would like to say what changes I think could be used in TAILS broswer.
+
+1. DIscussed here before, I still think Javascript should be turned OFF by default and only be allowed on the websites the user choose at the time.
+
+2. By default, DON'T ALLOW COOKIES! Most websites will use cookies even when they don't need it. You are being followed (every website can know which other websites you visit) and don't even remember that. Of course, we can add exceptions on a per-user-choice. One person could want gmail to store cookies while other person would choose Tormail or yahoo. So, be default, DON'T store cookies.
+
+3. Disable cache with commands
+browser.cache.disk.enable:false
+broswer.cache.memory.enable:false
+I don't see a reason to allow websites to store data in my computer longer than the time I visit their website.
+
+4. Mark the two ''block bad websites'' in the security page in iceweasel preferences. Why would we not want to block those???
+
+5. Update the https everywhere extension. I noticed the extension in Tails is a litte behind he latest stable releases of it...
+
+Any other ideas? =) WHat do you think of these ones??
+
+I really think the browser could be changed, not to insult the work of TAILS developers, but it should pass the anonimity tests better... And it's possible. Any ideas??

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-21T07:22:48Z"
+ content="""
+>> Is it possible for an attacker to exploit the fact that tails has an unsafe browser into revealing their identity, when the person is not using the unsafe browser?
+
+I would like to know the answer to this question. I once read about a user whose system was compromised by a Java shell script designed to send said user's IP, operating system information, etc, to a remote server controlled by the attackers. This happened in a Windows system with TBB. What if it happened in Tails? Assuming the attackers didn't disable iptables, would this information still get leaked?
+"""]]

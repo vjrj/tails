@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-03-26T01:14:06Z"
+ content="""
+
+@ anyone who doesn't get the rationale for version 0.17.1:
+
+The new version includes a bugfix for serious security issues with sudo and perl, which are I think fairly essential components of a properly functioning Tails system, so unless I am missing something, the line about \"every Tails user must immediately upgrade\" is accurate.
+
+Don't forget to carefully verify the iso image before burning it to a live DVD! 
+ 
+"""]]

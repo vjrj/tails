@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-01-29T21:02:34Z"
+ content="""
+> The nut-job(s?) is out in force on this one!
+
+You do realize that name-calling just makes *you* look like an ignoramus?
+
+From
+
+     https://www.securityweek.com/github-search-makes-easy-discovery-encryption-keys-passwords-source-code
+
+> Users found that quite a large number of users who had added private keys to their repositories and then pushed the files up to GitHub. Searching on id_rsa, a file which contains the private key for SSH logins, returned over 600 results. 
+
+That is not a minor problem.  The same story does add this:
+
+> Commenters on Y Combinator's Hacker News noted that in many cases, the exposed keys were actually public keys, and many others were for demonstration or testing purposes so the damage was limited.
+
+But this doesn't mean that the issue is not an important one.
+
+You wrote:
+
+> Not related to Tails
+
+Right back atcha: don't be silly.  \"Tails\" just said he (her? they?) don't have any easy way of knowing which if any Debian packages incorporated into Tails were affected.  I was hoping he (her, they) would ask around inside debian.org, with an eye to ensuring that the next production version of Tails doesn't include any packages which *were* affected.  I hope that someone inside the Debian project is making an official list of affected developers and the packages they maintain, and that Tails developers can take a peek at it.
+
+@ \"sources\":
+
+> Interesting compilation, but don't forget to provide sources ;)
+
+That wasn't the compilation I want to write, which would include those dangerous items known as links. 
+
+I am in a difficult position here.  So is the moderator, and I don't want to push him (her? it? them?) too far.  I have a lot to say, and no place to say it, and many people have an interest in maintaining that situation.  I don't really think the moderator is one (or more) of them, and even agree that it would be better for the Tails team if another forum were available, one which allows unregistered posting using Markdown (in itself a political act since the death of Aaron Swartz) and which does not discourage whistleblowing posts which oppose the continued existence of surveillance state.
+
+As we can see in some of the responses above, I am criticized both for not providing links (in the \"preview\") and for ignoring moderatorial requests by posting the occasional essay with many links to good information about an important privacy issue which all Tails users should know about.
+"""]]

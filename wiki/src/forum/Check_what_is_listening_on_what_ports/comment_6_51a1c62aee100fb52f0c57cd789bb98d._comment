@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-25T05:16:43Z"
+ content="""
+@ OP
+
+>Recently it was pointed out that cupsd and gdomap are listening on external ports. Bad.
+
+Would you like to explain in greater detail for the benefit of non-IT experts?
+"""]]

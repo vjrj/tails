@@ -1,0 +1,15 @@
+1. In order to modify torrc while using Tails 0.17.1, is it neccessary to set up a root password when first booting Tails?  When I try to edit torrc using Vidalia controller "Settings", I get an error message.  Can I edit it directly by making a root shell and editing torrc in /etc/tor ?
+
+I've been reading "Changing of the Guards" but don't agree with the authors' conclusions, and think we need the freedom to influence the behaviour of our own Tor client as needed.
+
+My understanding is that currently, the Tor client initially chooses three entry guards and uses one of them for all circuits (for some time).  I understand the rationale for that policy but disagree about the trustworthiness of certain nodes which have been endowed with the Guard flag.
+
+I am concerned about a particular Tor node which in my opinion should NEVER be allowed to act as both an Entry node and Exit node.  It seems that whenever I try to post a forum, this node is *always* the one which jumps in and takes over the circuit as Entry node, which I consider suspicious.  And I just can't get the tor client to use one of the other Entry nodes when I try to post.  Do you know anything about this?
+
+2. In Tails 0.17.1 Vidalia, is "New Identity" disabled?
+
+     https://tails.boum.org/todo/disable_Vidalia_new_identity_feature/
+
+I think it isn't, but if so this doesn't fix the problem with the suspicious Entry node.
+
+Does that todo entry reflect security concerns about the Vidalia controller?  (Stem may offer a more flexible and powerful alternative.)

@@ -1,0 +1,13 @@
+Hi,
+
+As I was reading the warning page about Confirmation attacks, I thought of the following procedure to try and mitigate them:
+
+- User A wants to send a message to user B and connects via the Tor network
+
+- Between user A and the 1st Tor relay, the communication could include a random number of fake packets that are accepted by the relay but not transferred to the Tor network.
+
+- The same procedure could apply between the exit node and user B
+
+- Since the number of packets are now randomised, it would be harder to correlate the activity. This would not damage the Tor network since these packets would not be transferred. It would only affect the local network.
+
+I am no expert in protocols, so I have no idea if that would work. Just a thought...

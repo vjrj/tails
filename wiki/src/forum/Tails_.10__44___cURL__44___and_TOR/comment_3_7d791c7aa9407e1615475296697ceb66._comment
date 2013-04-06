@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-25T06:39:27Z"
+ content="""
+>use it's --socks5 option to proxy it with Tor.
+
+Would the following script be an example of such:
+
+`curl --socks5-hostname \"127.0.0.1:9050\" --retry 10 '{URL of page containing images}' | grep -Pio '(?<=href=\\").+/src/.+(jpe?g|gif|png)(?=\\")' | sort -u | while read image; do curl --socks5-hostname \"127.0.0.1:9050\" --retry 10 -O \"$image\"; done`
+ 
+?
+
+I would have thought the socks stuff wasn't necessary in Tails, since Tails already routes all traffic through Tor?
+
+FWIW, I ran the script in comment 2-- WITHOUT `socks5-hostname \"127.0.0.1:9050\"` -- and it executed succesfully (downloaded all the images at the specified URL) but I have no idea whether it leaked any info that could compromise my anonymity.
+"""]]

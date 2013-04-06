@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-22T19:11:57Z"
+ content="""
+@ OP:
+
+Very few add-ons come with the Tails browser, and the news story makes it pretty clear that only add-ons which are already installed could mess with your browser.  The most useful add-on of all is often said to be NoScript, which is included in the Tails browser.  And we should all thank the developer (even send some money his way), but you might be interested to look for a story which appeared a few years ago in The Register, concerning a minor feud between him and another developer, which led to some unwise (and quickly reversed) decisions.  But nothing anywhere near the level of malicious tampering of the kind suggested in the story you quoted.
+
+Putting it another way, the importance of the quoted news story for Tails users seems to be that it illustrates another reason why Tails users should think hard before installing any additional add-ons.
+"""]]

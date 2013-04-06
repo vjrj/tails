@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-15T08:42:26Z"
+ content="""
+Actually this *is* a different question from what is often asked. Usually people want webmail without javascript (which is hard to find), but if you're OK with JS and only want to avoid Flash, you'll have a much easier time. Gmail specially blocks anonymous signups through Tor, but almost any other webmail will work as far as I know. Note that many web mail sites ask for an alternate email or phone number nowadays, but you can usually just leave it blank.
+
+Occasionally you may get an error about too many sign-ups, but that can usually be fixed by switching to a new exit node (right-click Tor icon at top, and New Identity).
+"""]]

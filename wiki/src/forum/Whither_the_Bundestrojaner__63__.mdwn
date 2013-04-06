@@ -1,0 +1,253 @@
+Title: Whither the BundesTrojaner?
+
+From time to time, the possibility of state sponsored "watering hole" attacks on Tails/TBB users comes up in this forum.  Such prospects are not a paranoid fantasy, but a documented phenomenon which is well known to human rights workers, and which is rapidly expanding to affect many other private citizens, small companies, and other organizations which probably have not previously considered themselves as worthy of attention from professional spooks.
+
+I want to draw the attention of Tails users to a recent example of a "watering hole" attack targeting private citizens.  Within the past ten days the website of a major human rights organization, Reporters without Borders (their English language subdomain is en.rsf.org) was infected with malware which attempts to plant remote access trojans in the computers of visitors to this website.  See
+
+     https://threatpost.com/en_us/blogs/attackers-exploit-java-compromises-reporters-without-borders-site-012313
+
+*Warning:* below you will find some links to rsf.org and to hrw.org (which has also been targeted), so follow these with caution.
+
+This is not the first time RSF has been targeted by such attacks, and other well known organizations such as Human Rights Watch (HRW) have also been attacked.  
+
+The most recent attacks on RSF leveraged the recently disclosed Java vulnerabilities which have resulted in so much criticism of Oracle for being slow to provide proper fixes.  These are the same vulnerabilities which led the U.S. DHS to the unusual step of advising everyone to disable Java entirely until the issues are truly fixed.  According to Avast, the malware attempts to exploit IE vulnerabilities.  (The known IPs which the malware contacts do not appear to be obviously associated with currently running Tor nodes, but it appears likely that the Tor network is somehow involved in these attacks.)  Various indications appeared to suggest this may have been a state-sponsored attack by the Chinese government, targeting Tibetan separatists, members of banned religious groups, and Western citizens who investigate human rights abuses.
+
+Additionally, all Tails users should know about several attacks in the past few years on key linux sites like kernel.org and debian.org, with the apparent aim of inserting malware into open source binaries, and even the kernel itself.  Debian packages are signed using strong cryptography, but some of us have worried for years that this system is vulnerable to attacks which subvert cryptography by using stolen secret keys, improperly issued certificates, and even manipulations of MD-5 cryptographic hashes.  The risks are probably reduced in proportion to the extent that developers (and users) watch for indications of possible compromises.
+
+If such an attack were ever successful, it appears likely that Tails would be directly affected, because Tails derives from Debian stable.  Some of the currently known attacks appear to suggest preparation for even more dangerous "watering hole" attacks targeting users of Debian systems, possibly with the aim of trojaning the computers of everyone in the world who uses Tor, NoScript, and other tools which can help citizens to evade censorship and national-level surveillance.
+
+While "Western" governments often accuse China and former Soviet republics of conducting cyberattacks on foreign companies and human rights organizations, the fact is that dozens of "Western" based companies, including subsidiaries of some of the largest multinational corporations in the military-industrial complex, are actively engaged in selling "surveillance-as-a-service" and even "cyberwar-as-a-service" to other corporations and to the most repressive governments on Earth, including several with whom it is illegal for Westerners to do such business, including Iran and Syria.  Surprisingly, several American news organizations which rarely speak out against corporate abuses, such as the Wall Street Journal and Bloomberg News, have been among those which have published many stories providing details of the activities of these "rogue corporations".
+
+While the details remain murky, documents leaked from the American surveillance state during the past few years seem to suggest increasing interest by US secret police organizations, such as the FBI, in programs which aim to subvert all "citizen encryption" by a mixture of oppressive laws requiring ISPs to somehow figure out how to break the encryption of all data streams traversing their wires, and unauthorized intrusions into the computers of citizens, companies, and nonprofit organizations worldwide.  There are some indications that Debian, Red Hat, and BSD may be on the "short list" of Linux distributions to be particularly targeted.
+
+The prospect of "Western" governments sponsoring cyberattacks on their own citizens (not to mention foreigners) may seem far-fetched, but this is no fantasy.  Indeed, several such governments (including Sweden, Germany, and the US) have already admitted that they sometimes trojan their own citizens.
+
+In 2008 the Pirate Party in Germany caused a public outcry when it revealed that the German "authorities" had hired a little known company, Digitask GmbH, to provide German police with malware to be used to target individuals, both in Germany and abroad, in contravention of the German Constitution.   In 2008, the Interior Minister caused further protests when he proposed to amend the German Constitution to allow police to use malware legally.  Then, last year, the Chaos Computer Club (in Berlin) obtained samples of DigiTask malware and partially reverse-engineered them.  Among their most interesting findings was the fact that the Digitask software showed little concern for ensuring the integrity of the data it steals and transmits to police servers, and even worse, it can be easily hijacked by third parties because the C&C communications are unencrypted.
+
+So how did the German police react to the public revelation of such dangerous and anti-democratic violations of civil rights?  Did they decide to cease using malware?  No, they simply changed their brand!  To Gamma International, which is if anything even more notorious for rampant abuse of its products than is DigiTask.
+
+Sadly, it appears that in our brave new world, the computers of millions of ordinary citizens are increasingly subject to routine attack by semi-automatic cyberweapons deployed by the secret police agencies of dozens of countries rule by some of the most ruthless governments on the planet.  
+
+All such agencies maintain ties to even more unsavory organizations, including organized crime groups, and all such agencies contain within their ranks "bad apples" willing to use their access to pursue personal grudges or political agendas.  One disturbing consequence is that extremely sensitive data about ordinary citizens whose name has somehow come up in police investigations is not infrequently leaked to criminals.  
+
+Sometimes such incidents become publically known.  One recent example made international headlines; see
+
+    http://news.techeye.net/security/disgruntled-it-worker-exposes-western-spooks
+
+The prospect of being targeted by state-sponsored attacks from China, the USA, and other capable global adversaries is bad enough, but the situation may be even worse than that.  During the next few years, it seems likely that it will become commonplace for citizens to also be attacked by wealthy corporations seeking to suppress criticism of their corporate policies.  (Some say that companies like Walmart and defence firms like Northrup Grumman and BAE have been doing this for years.)
+
+All Tor users should know that a debate is currently raging inside the "Western" corporate world about whether to adopt so-called "active reponses" to unwanted cyberactivities, in which banks and other multinational corporations respond to "suspicious network activity" by going out and actively attacking "suspicious" computers.  This means that simply by using Tor, many of us could become subject to such "pre-emptive attacks".  
+
+One of the strongest proponents of "active defense" of the networks of corporations and their client governments is Shawn Henry, former cybercrime chief of the FBI, who has co-founded a new company, CrowdStrike, upon the business model of selling "active response" capabilities to corporations.  Henry has not clarified whether his company will conduct illicit intrusions into computers owned by third parties, but because the FBI has long used its own "police malware" for "cybercrime" investigations (one such FBI malware is known as CIPAV), this seems likely.  See
+
+     http://www.pcworld.com/businesscenter/article/258250/cybercrime_defense_think_and_act_like_a_hacker.html
+     https://threatpost.com/en_us/blogs/avoid-landmine-hacking-back-012213
+
+For all of these reasons, it seems appropriate to review recent developments in the area of Western-state-sponsored attacks on ordinary citizens, for the benefit of the Tor community.
+
+Four of the best known European companies which sell malware to wealthy corporations and their client governments are:
+
+* Gamma International GmbH (based in Munich, with offices worldwide), which is also known as Elaman GmbH
+* DigiTask GmbH (based near Munich)
+* Vupen Security SA (based in Montpelier)
+* HackingTeam SRL (based in Milan)
+
+A good deal is now known about the activities of these four companies, for at least three reasons:
+
+* Reporters and civil liberties advocates have successfully infiltrated surveillance industry international trade shows, where they obtained a large number of marketing literature, including technical specifications, from several dozen companies selling national-level "surveillance-as-a-service", including the quartet discussed here.
+* Documents discovered in 2011 in the former headquarters of the secret police in Gaddafi era Libya, Mubarak era Egypt, and some other countries in which dictatorships were overthrown during the "Arab Spring", showed conclusively that these governments had been using Gamma malware made by Gamma to help them identify, arrest, and torture bloggers and political dissidents.  A treasure trove of these documents came into the hands of "Western" human rights workers, and are still being studied.
+* By the summer of 2012, samples of Gamma and DigiTask malware had been obtained by Citizen Lab, F-secure, the Chaos Computer Club, and other organizations which were given the samples by several journalists and human rights workers who had discovered that they had been personally targeted for surveillance.  These have been partially reverse-engineered.
+
+Wikileaks has published some marketing literature and white papers from all four companies:
+
+     http://wikileaks.org/spyfiles/list/company-name/gamma.html
+     http://wikileaks.org/spyfiles/list/company-name/elaman.html
+     http://wikileaks.org/spyfiles/list/company-name/digitask.html
+     http://wikileaks.org/spyfiles/list/company-name/vupen-security.html
+     http://wikileaks.org/spyfiles/list/company-name/hackingteam.html
+
+These documents are quite revealing about the capabilities and purposes of their malwares.
+
+There are many other companies which offer similar products and services; most of these are based in the USA or Israel.  To keep the discussion managable, we discuss here only these four.
+
+
+** Gamma International GmbH, aka Elaman GmbH **
+
+     Gamma International GmbH
+     Baierbrunner Str. 15
+     81379 Munich
+     GERMANY
+     Tel: +49-89-2420918-0
+     Fax: +49-89-2420918-1
+
+Gamma has come in for intense criticism in mainstream media in the EU and USA, due in large measure to its extensive involvement with repressive regimes and the repulsive nature of its business.  It is surely unnecessary to describe the evil nature of the Mubarak, Gaddafi, and Assad regimes, but regarding Gamma/Elaman's subsidiary in the UAE, some background may help.  The UAE has been generally regarded in the West as one of the more moderate Middle Eastern nations, but in recent years it has taken a sharp turn towards oppression, with a series of highly publicized trials of bloggers who have been handed long prison sentences.  It has also been plausibly accused of involvement in torture, renditions, and other abuses.  See
+
+   http://motherjones.com/politics/2012/04/yonas-fikre-american-proxy-detention-tortured-uae
+   http://www.hrw.org/en/middle-eastn-africa/united-arab-emirates
+   http://en.rsf.org/surveillance-united-arab-emirates,39760.html
+
+The UAE has also apparently acted as a "go between" by arranging shipments of "Western" spy gear to even more repressive regimes, such as the Assad regime in Syria, which has led to some governments banning their citizens from doing business with certain UAE companies.
+
+For a good overview of the nature and known misuses of Gamma's malware, see:
+
+    http://www.bloomberg.com/news/2012-07-25/cyber-attacks-on-activists-traced-to-finfisher-spyware-of-gamma.htm
+
+Following a common corporate response to "bad press", Gamma appears to be trying to adopt a new identity, Elaman GmbH.  The website of Elaman GmbH discusses FinSpy and FinFisher, and both Gamma International GmbH and Elaman GmbH are described on their webpages as subsidiaries of "Gamma Group", which appears to consist of a global network of holding companies.  The Munich address of Elaman is
+
+    Elaman GmbH
+    Baierbrunner Strasse 15
+    81379 Munich
+    GERMANY
+    Tel: +49-89-2420918-0
+    Fax: +49-89-2420918-1
+    elaman.de
+
+which is identical with the address of Gamma International GmbH.
+
+Known Gamma malware suites include:
+
+* FinSpy, a "remote intrusion" malware suite, which provides secret police with access to and control of compromised computers.
+* FinIntrusion, a malware suite which targets webservers, apparently in order to plant malware for "watering hole" attacks.
+* FinFly, an "infection proxy" malware suite; one version of FinFly is intended for "security-aware targets"; according to Gamma marketing literature, FinFly is designed to load malware into "security upgrades" offered by ISPs (presumably with the cooperation of the ISP); it also can remotely target web servers in a "watering hole" attack.
+* FinFireWire, an extraction suite used by operatives who clandestinely gain access to a targeted laptop while running (even if its screen is locked) to image both RAM and hard drive, and possibly to install malware; recall that imaging RAM will recover encryption keys which can unlock the whole-disk encryption of a laptop at any later time.
+
+Gamma marketing documents describe exploits such as these:
+
+> FinFly LAN was used to remotely install the Remote Monitoring Solution on the computer of a target while he was inside his hotel room.  The Agents were in another room connected to the same network and manipulated the Websites the Target was visiting to trigger the installation.
+
+> A Technical Surveillance Unit was following a Target for weeks without being able to physically access the target computer.  They used FinFly LAN to install the Remote Monitoring Solution on the target computer when he was using a public hotspot at a coffee shop
+
+> FinFly USB was successfully used by Technical Surveillance Units in several countries to deploy a Remote Monitoring Solution onto Target Systems that were switched off by simply booting the system from the Finfly USB device
+
+> After profiling a Target, the unit created a website of interest for the Target and sent him the link through a discussion board.  Upon opening the Link to the Unit's website, a Remote Monitoring Solution was installed onto the Target System and the Target was monitored from within Headquarters.
+
+> FinFly ISP was deployed in the main ISP networks of the country and was actively used to remotely deploy a Remote Monitoring Solution on Target Systems.  As the Targets have Dynamic IP DSL Accounts, they were identified with their Radius Logon Name.
+
+Here are some recent news stories about Gamma malware:
+
+     http://www.guardian.co.uk/technology/2012/dec/26/british-company-gamma-international
+     http://www.businessweek.com/news/2012-11-08/mjm-as-personified-evil-says-spyware-saves-lives-not-kills-them
+     http://www.bloomberg.com/news/2012-07-27/gamma-says-no-spyware-sold-to-bahrain-may-be-stolen-copy.html
+     http://www.zdnet.com/researchers-claim-finfisher-scalp-with-rat-analysis
+     https://www.securityweek.com/researchers-look-inside-mobile-variants-finfisher-spy-tools
+     https://krebsonsecurity.com/2011/11/apple-took-3-years-to-fix-finfisher-trojan-hole/#more-12499
+
+Highlights include:
+
+* Some Gamma malware targets smart phones (Blackberry, Android, iPhones, etc.) as well as PCs and laptops, and thus affects multiple operating systems including OSX, iOS, ARM, Symbian, and others
+* Gamma malware can include keyloggers and can result in the clandestine transmission to anonymously registered Gamma servers of passwords, recent activity/calls, bookmarks, directory listings, email/phone address books, as well as the full content of emails, SMS/BBM instant messages, and VOIP/POTS voice calls; the malware also attempts to secretly broadcast the GPS determined current location of infected mobile devices; the malware can even make and transmit "forensic images" of hard drives and possibly even RAM
+* CitizenLabs and anti-malware researchers found that Gamma malware uses C&C servers located in at least 15 countries, including Indonesia, Australia, Qatar, Ethiopia, the Czech Republic, Estonia, UK, USA, Mongolia, Latvia, and Dubai; the researchers also found Gamma data hoards located in countries such as Singapore, Malaysia, USA, UAE, Ethiopia, Bahrain, Turkmenistan, and Mongolia, at least some of these are Amazon EC2 servers which appear to act as proxies for the real servers
+* Gamma malware goes to great lengths to detect and disable anti-malware software which may be running on the infected device; some of the clandestine exfiltration uses AES-256-CBC encryption with no padding and with alarmingly predictable keys (raising the possibility that rival firms or governments can read encrypted Gamma-related traffic streams), and some information is transmitted unencrypted
+* Gamma malware can turn a phone into an audio bug by making "silent calls" of which the user is unaware; this feature is called "SpyCall" in the malware code; the only way to counter it appears to be to remove the battery when the phone is not in use, but this is in itself explicitly listed by US secret police as a "suspicious circumstance"
+* Gamma malware can also hijack webcams or smart phone cameras to secretly take and transmit snapshots; these malwares take elaborate measures to avoid alerting the user that the camera is snapping these images
+* A dead giveaway of infection by Gamma malware that can sometimes be found in infected devices is a "developer certificate" issued by Apple to Martin J. Muensch (MJM), the "reformed cracker" who is the Managing Director of Gamma International
+* Another dead giveaway that can sometimes reveal infection by Gamma malware are contacts to tiger.gamma-international.de, a domain registered to Muensch; these goofs appear inconsistent with the care Gamma takes to disguise its malicious activity, and may suggest the ironic possibility that some of the infections may result from certain governments or corporations using pirated demo versions of Gamma malware, a suggestion endorsed by MJM himself
+* One domain associated with "demonstrations" of Gamma malware is ff-demo.blogdns.org
+* One clue that a phone has been infected with Gamma malware is calls to a number in Malaysia, +60123839897; Malaysia has some of the most lax laws regarded government electronic surveillance in the world, which may be why so many companies locate server farms there; Malaysia is also heavily involved in a secretly negotiated treaty which may enable (or even force) corporations and client governments to use "police malware" to investigate civil cases in addition to criminal cases
+* some Gamma malware appears to modify the master boot record (MBR) of infected devices
+* some Gamma-exfiltrated data files have names which begin with 14 and include timestamps
+* journalists and human rights activists in Bahrain have recently been infected with Gamma malware using highly targeted phishing emails which included as attachments a supposed .rar compressed .jpg or text file which was actually the executable malware dropper disguised using a Windows-specific right-to-left override (RLO) vulnerability tailored to attack people who use both left-to-right written languages and right-to-left written languages; the droppers are OS and locale specific; some of the emails were sent by one Melissa Chan, who really exists and who really is a reporter for Al Jazeera, but whose identity may have been stolen by Gamma or its clients
+* in some cases, after user passwords were transmitted to Gamma servers, the bad guys used them to log into the victims' email and web accounts
+* in some cases, the actual malware loaded onto Android smart phones are installed as "Android services" after the dropper contacts a Gamma C&C server
+* some Gamma C&C servers respond to periodic contacts from infected devices with the short German string "Hallo Steffi."
+* one Gamma C&C server, located in Lebanon, is registered to "Johnny Debs" (this pseudonym may reference Debian software packages, which are known as "debs") at a company using the domain it-intrusions.com, and some certificates associated with Gamma malware were issues to the same company:
+
+     Cyan Engineering Services SAL
+     Broadway Center, 7th Floor
+     Hamra Street – Chouran 1102-2050
+     Beirut, Beirut 00000
+     LEBANON
+     cyanengineeringservices.com
+
+* ironically, Gamma' strongest critics include Bloomberg News (founded by the current mayor of one of the most heavily surveilled cities on Earth) and Freedom House (which some claim is connected to the CIA); CitizenLabs is hosted by the University of Toronto, which also has ties to Canadian surveillance firms; the EFF has at least loose ties to one of the most notorious US surveillance firms, Palantir Technologies
+
+** DigiTask GmbH **
+
+     Digitask GmbH
+     Hüttenstraße 48 35708
+     Haiger
+     GERMANY
+     Tel: +49 2773 - 74788-0
+     Fax: +49 2773 - 74788-60
+     www.digitask.de
+
+DigiTask marketing literature includes this explanation of how their MITM attacks work:
+
+> Key material and metadata are diverted via the existing broadband surveillance via a MITM-attack (Man in the Middle). The lawful interception unit can make use of the key and metadata to decrypt the generated SSL-traffic.  The data encrypted by SSL can thus be visualized.  A decoding of SSL-connections can at this point in time be done for data generated by Firefox-Browser or Internet Explorer.  A visualization of SSL-encrypted data can only be done if DSL is in place and a DigiTask lawful interception unit is used for decoding.
+
+This marketing literature suggests a focus on Windows PCs and mobile devices rather than Linux PCs/laptops.  But in a 2009 post, Wolfgang Pasche of DigiTask revealed that the company uses Linux on its own servers:
+
+> Our normal environment is a database server (actually Informix) on Linux or Unix and database client software on Windows Server 2003 or Windows XP. Since at many customer sites the single DB server is overloaded, we need to split our DBs to more than one server. Because most of our customers don't have much money, we decided to move our applications to PostgreSQL.  For this port I am responsible. Nearly anything worked very well, I am using PostgreSQL 8.3.7 on Linux and psqlODBC on Windows XP (all of our client applications are written in C++ with MS Visual Studio 2005 as IDE). The decision for ODBC had been done because of portability and independence of the programming language. Also because of portability all date and time literals sent to the ODBC driver are in the form of the official ODBC escape clauses (for example "{d '2009-10-01'}" for the first of October, 2009).
+
+(The claim that secret police agencies feel they lack adequate funding rings true, although the vast amounts lavished on expensive security systems by some Western governments seems to suggest such beliefs are mistaken.  The fact that many "Western" cyberoperatives feel they are underpaid, particularly when compared to their counterparts employed by wealthy drug gangs, is in fact one of the reasons why so many police agencies are riddled with employees who moonlight for private investigators, data brokers, and even drug smugglers and rival agencies.)
+
+Here are some recent news stories/blogs about DigiTask malware:
+
+    http://www.theregister.co.uk/2012/10/11/german_police_snoop_spending/
+    http://annalist.noblogs.org/post/2012/10/03/german-police-monitors-skype-googlemail-and-facebook-chat/
+    http://annalist.noblogs.org/post/2012/10/03/german-police-monitors-skype-googlemail-and-facebook-chat/
+
+Some highlights:
+
+* the "police trojan" nicknamed "Bundestrojaner" or "R2D2" was officially known by the euphemism "remote forensic software" (Fernforensische); it was unofficially referred to as "Ozapftis" by the Bavarian state police
+* in addition to malware, it appears that DigiTask also supplied German police with "IMSI capture" units which target mobile phones using fake "cell phone towers" to mount a MITM attack, and also rented out on a monthly basis devices (which possibly must be installed in ISP facilities in order to function) designed to mount MITM attacks on SSL encrypted traffic such as Tor traffic
+* DigiTask promises the coppers it can subvert VPNs such as Relakks and Swissvpn, sftp, whole-disk encryption software including Truecrypt, encrypted Skype conversations, and encrypted messages and chat sessions
+* DigiTask malware also targets torrent software including Gnutella, BiTorrent, and EDonkey
+* a particularly intriguing function of DigiTask malware is that it can prevent users from receiving specific emails sent by a third party
+* after German government contracts with DigiTask were leaked by the Pirate Party in 2008, their offices were raided
+* in 2002, the founder of DigiTask was fined and sentenced to 21 months of probation after a court found that he had bribed customs officials
+* Germany has stronger privacy protections in the law than some other countries (such as the USA), but in 2007, the Interior Minister of Germany proposed to amend the Constitution to allow police secret access to privately owned computers
+* the DigiTask malware studied by Chaos Computer Club appears intended to evade the end-to-end encryption used by Skype, and the strong encryption used by GoogleMail, by installing keyloggers and backdoors which enable the bad guys to bypass encryption entirely; the CCC found that communications with DigiTask C&C servers were unencrypted, and purloined data was sent to a server in the USA, apparently in order to circumvent German privacy laws; stolen data was encrypted but always used the same key; these weaknesses probably played a role in the decision to switch to Gamma's malware services
+* DigiTask malware targets Facebook and other popular social networking sites, as well as MSN Hotmail, Yahoo Mail, GoogleMail, and other popular webmail services
+* the malware include keyloggers, backdoors, clandestine exfiltration tools, and remote updates; exfiltrated data can include passwords, encryption keys, directory listings, and registry settings,
+* a dead giveaway of a Bundestrojaner infection is contact with 83.236.140.90 or 207.158.22.134; other indications include mysterious web min activity
+* in some cases, it appears that the DigiTask malware dropper may target ODBC
+* DigiTask malware may have been used to target the U.S. Olympic Training Center in Hula Vista, CA (some indications seemed to suggest that Chinese state-sponsored hackers might have been responsible, possibly using a pirated copy of DigiTask malware)
+* DigiTask hardware is costly; the price in 2008 of each Skype Capture Unit was EUR 3500, while each SSL MITM device cost EUR 2500 per month
+* the German police paid at least one billion Euros over ten years (2002-2012) to telecoms and malware firms to obtain "lawful intercept" and "remote forensics" data targeting an unknown number of persons
+* persons suspected of "political crimes" are among those mostly likely to be targeted by German "authorities"
+
+** Vupen Security SA **
+
+      VUPEN Security SA
+      Cap Omega - CS 39521 Ron-point Benjamin Franklin
+      34960 Montpellier Cede 2
+      Montepellier
+      FRANCE
+      vupen.com
+
+Here are some recent news stories/blogs about Vupen Security malware:
+
+    http://www.theregister.co.uk/2012/11/01/win8_exploited_already/
+    http://boingboing.net/2012/03/30/security-companies-and-governm.html
+
+Some highlights:
+
+* Vupen specializes in finding and selling customized zero-day exploits
+* the selling of zero-day exploits is a highly lucrative business, with exploits for popular browsers currently selling for 0.1 to 1 million dollars; the best known companies in this area are American and include defense giants like Northrop Grumman and Raytheon (which also make drones and their weapons systems), as well as smaller firms like Netragard and Endgame
+* Vupen boasts of offering zero-day exploits for the latest versions of Windows 8
+* Many surveillance companies appear to delight in using addresses which contain some kind of private joke.   Historians have documented extensive "intelligence activities" by Benjamin Franklin during his stay in France during the American revolution (Franklin's valet was apparently a British spy; Franklin knew this but decided to provide him with disinformation instead of dismissing him).  Additionally, Franklin (like most of the other American Founding Fathers) published anonymous essays and was a master of "strategic leaking".  Precisely the sort of person, in short, who is targeted by companies like Vupen.
+
+** Hacking Team SRL **
+
+     Hacking Team Srl
+     Via della Moscova, 13
+     20121 Milano
+     ITALY
+     Tel: +39 02 29060603
+     Fax:   +39 02 63118946
+     www.hackingteam.it
+
+This company's flagship product is known as Remote Control System 7 (RCS7); marketing literature describes it as a remote intrusion tool which targets PCs, laptops, mobile phones, and USB drives; the company's marketing literature promises it can be used to monitor VOIP/POTS calls, chat sessions, emails, and web browsing.  Hacking Team also promises RCS7 can decrypt PGP encrypted emails; almost certainly this means that using RCS7, secret police can sometimes recover sufficient key material to decrypt emails, without cracking the hashes used to store passphrases in a PGP/GPG keyring, but such promises underscore the importance of keeping critical keyrings offline.  Hacking Team's marketing literature also boasts that its malware cannot be detected by anti-malware suites, and will resist removal by users who discover they have been infected:
+
+> Remote Control System V7 (RCS) is a premier, integrated, multi-OS platform for remotely attacking, infecting and controlling target computers and mobile phones.  RCS FULLY SUPPORTS XP, Vista, 7, MacOS, iPhone, Symbian Blackberry and Android. It is INVISIBLE to most protection systems available in the market (e.g., systems listed in the GARTNER's Magic Quadrant For Endpoint Protection Platforms). It is RESISTANT to system restoration technologies (e.g., DeepFreeze)
+
+According to a story which appeared in the Wall Street Journal in 2011: 
+
+> The goal is to overcome the fact that most surveillance techniques are "useless against encryption and can't reach information that never leaves the device," Marco Valleri, offensive-security manager at HackingTeam, said in an interview. "We can defeat that."  Representatives of HackingTeam said they tailor their products to the laws of the country where they are being sold.
+
+The WSJ reporters did not miss the chilling implication: in many countries, torture by secret police agencies is "legal" and is freely applied to bloggers and political dissidents.  Hacking Team is, by its own statements, happy to supply such agencies with customized malware.  This can have brutal consequences for ordinary citizens.  Here is a recent news story describing how HackingTeam malware has been used to attack journalists and human rights workers:
+
+    http://www.bloomberg.com/news/2012-10-10/spyware-leaves-trail-to-beaten-activist-through-microsoft-flaw.html
+
+This post was formatted using Markdown, which was co-authored by the late Aaron Swartz.

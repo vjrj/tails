@@ -1,0 +1,7 @@
+It is only when the adversary catches Tails running that they can get your information. 
+
+So how about automatically (completely with wipe) shutting down by default? 
+
+At least after an hour, when it's clear the user has abandoned the session, and are just leaving their information vulnerable to capture?
+
+I know you are working on the locking screensaver. But how about doing this additional step next for completely securing the session automatically when it's clear it really has been abandoned?

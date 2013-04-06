@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-12T21:39:00Z"
+ content="""
+You should be a little clearer about your needs regard to Tails, or about what you're afraid of. Just asking for \"privacy\" a too much generic.
+
+Tails mainly hides your geographical location. If you want to send some emails which can't be associated with your phisical person, you should use Tails with an account which doesn't contain your real data (like you said) but you shou also *create* it using Tails or Tor, or else it may reveal your approximate location.
+"""]]

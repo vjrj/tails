@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I think it worked in the past"
+ date="2013-02-18T10:04:58Z"
+ content="""
+If I remember well I've been able to to that in the past but I tried and you are right, it doesn't work anymore.
+
+Is it on purpose because there could be some security risks? Does that mean that iceweasel shipped with tails is locked to use tor even if the settings are changed? If so, how is it done?
+
+Thanks
+
+"""]]

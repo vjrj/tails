@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-01-29T09:31:37Z"
+ content="""
+To debug startup issues, we need more information. See [[doc/first_steps/bug_reporting]], and more specifically the section about Tails not starting.
+"""]]

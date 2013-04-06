@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-18T16:52:43Z"
+ content="""
+Replacing NetworkManager with wicd, in current Tails, disables many important parts of Tails. After you've done that, you are on you own.
+
+Anyway, back to pristine Tails: I suggest disabling the network connection in the NM applet, then running macchanger, then enabling the network connection again.
+
+If this does not help, and you still think it's a bug in Tails, then... please [[report a complete bug|doc/first_steps/bug_reporting]].
+"""]]

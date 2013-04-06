@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="re-sizing the main partition...   don't just do it   =)"
+ date="2013-03-31T17:00:23Z"
+ content="""
+for those who read this later...
+I had to tails usb sticks, I used gparted on one of them to resize the main partition on the other so there would be more room on that main partition for extra programs.
+
+It did not work the way I had hoped, next time I attempted to boot the modified usb it told me \"missing OS\"...    besides, there really IS enough room there in the original configuration  =)
+
+Once again, great program, great execution in creating it, and awesome support help!
+=)
+"""]]

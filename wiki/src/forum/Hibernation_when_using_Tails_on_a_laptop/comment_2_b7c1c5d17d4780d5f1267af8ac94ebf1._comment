@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-24T00:48:52Z"
+ content="""
+Tails cannot hibernate, because it has no swap space enabled.
+"""]]

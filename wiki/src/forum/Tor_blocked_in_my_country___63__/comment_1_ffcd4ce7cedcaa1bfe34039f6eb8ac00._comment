@@ -1,0 +1,36 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-10T20:54:10Z"
+ content="""
+> I am using Tails/Tor with OBFS2 bridges. Today I couldnt connect to Tor network. I am suspecting that Tor has been censored here. 
+
+Could be, but where is \"here\"?
+
+> Is anybody else having the same issue?
+
+I sometimes see warnings like these when Tails first starts, but in my case they are usually temporary, and simply waiting a minute or two allows Tails enough time to get everything working.
+
+    [Warning] Problem bootstrapping. Stuck at 10%: Finishing handshake with directory server. 
+    (DONE; DONE; count 10; recommendation warn)
+
+That indicates that Tails was able to connect to at least one directory server, so your Tails could at least get on the Internet.  So the problem is probably not a simple networking problem.
+
+When Tor starts it connects to directory servers to get information about what Tor nodes are currently available relay traffic.  It connects to several to ensure that no-one can easily mess with Tor by putting out false information (like listing only nodes controlled by your local secret police)
+
+     [Warning] 7 connections died in state handshaking (TLS) with SSL state SSLv2/v3 
+     read server hello A in HANDSHAKE
+
+That means that at least 7 connections to Tor nodes (or other directory servers) dies during handshaking.  That *could* indicate that someone is using DPI to detect attempts to connect to known Tor nodes and is injecting packets to break the connection in mid-conversation.
+
+    [Warning] 9 connections died in state connect()ing with SSL state (No SSL object)
+    [Warning] 3 connections died in state handshaking (proxy) with SSL state (No SSL object)
+
+More of the same, I think.
+
+The key question is whether this problem was only temporary, when you first started Tails, or persisted even after waiting a few minutes.
+
+If you think the problem is persistent and location-specific, you should tell us what country or at least what region you are trying to connect from.
+
+Just curious, if you couldn't get Tails working at all: how did you post here?  Were you able to use Tor Browser Bundle (TBB) instead of Tails?
+"""]]

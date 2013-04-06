@@ -1,0 +1,5 @@
+After changing the mac address of my network adapter, my wifi network connection becomes very unstable. It connects and then works for a couple of minutes, then stalls and disconnects. This happens whether I use my built-in Atheros adapter or an external Alfa Realtek adapter. I have tested this on several networks and get the effect every time. 
+
+I believe the culprit is network-manager. I installed WICD on a system running via a TAILS live CD and this  seemed to work flawlessly. Before I install it to my persistent volume, however, I wanted to ask whether anyone else has experienced this problem, and whether or not they agree that network-manager is the culprit. 
+
+If network-manager is indeed the culprit, why don't we have WICD as the default manager for TAILS? 

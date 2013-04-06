@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-21T21:03:17Z"
+ content="""
+Installing any browser in Tails is absolutely **NOT supported**.
+
+Why would you want to install Firefox?
+
+Iceweasel, the browser Tails comes with, is nearly identical to Firefox.
+"""]]

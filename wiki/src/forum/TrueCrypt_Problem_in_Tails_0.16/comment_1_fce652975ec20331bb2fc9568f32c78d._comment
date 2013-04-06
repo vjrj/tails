@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-15T04:37:48Z"
+ content="""
+Have you since tried mounting the volume/container with a different copy of TC? Something on an old Tails or another OS entirely?
+
+Sounds like the header could be damaged. Did you save a backup?
+"""]]

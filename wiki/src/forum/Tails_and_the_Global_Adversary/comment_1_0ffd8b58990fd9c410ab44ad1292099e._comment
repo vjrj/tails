@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-31T23:53:32Z"
+ content="""
+For information about the design and use of [Tor](https://www.torproject.org/) you should refer to [the Tor documentation](https://www.torproject.org/docs/documentation.html.en). There is an active Tor user and developer community with which you might like to discuss any outstanding concerns which persist after reading [the documentation](https://www.torproject.org/docs/documentation.html.en). Full instructions can be found in [the documentation](https://www.torproject.org/docs/documentation.html.en).
+"""]]

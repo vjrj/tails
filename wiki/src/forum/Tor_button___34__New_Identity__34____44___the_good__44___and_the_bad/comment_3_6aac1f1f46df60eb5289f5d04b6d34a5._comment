@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-15T21:15:30Z"
+ content="""
+Additional to what Commentator 2 said:
+
+For example, you can boot Tails from a bootable USB, surf for a while, then reboot Tails before trying to post at a website like this.
+
+This is harder to manage if you cannot use a bootable USB but only the bootable DVD, and in those cases, \"new identity\" might help.
+
+Also, it might be helpful to say that pressing \"new identity\" causes your Tor client to build an \"new\" Tor circuit.  Unfortunately, its notion of \"new\" seems to be \"different from the circuit last used\".
+"""]]

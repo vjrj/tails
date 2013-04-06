@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-03T19:50:57Z"
+ content="""
+>It's not necessary. 
+
+So the *first* script in the *second* \"comment 1\" is safe*?
+
+(*That is, no less safe than manually, tediously saving each file, one-by-one in Iceweasel.)
+
+Just to be clear, the script is:
+
+`curl --retry 10 '{URL of page containing images}' | grep -Pio '(?<=href=\\").+/src/.+(jpe?g|gif|png)(?=\\")' | sort -u | while read image; do curl --retry 10 -O \"$image\"; done`
+
+?
+"""]]

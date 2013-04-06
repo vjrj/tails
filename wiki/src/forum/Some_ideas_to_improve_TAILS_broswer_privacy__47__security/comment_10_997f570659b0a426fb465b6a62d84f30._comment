@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-02-06T14:15:40Z"
+ content="""
+Thanks for all the information that you have providing everyone. It really helped me understand some things I had not been able to understand before. I also hope someone understand that even if not all my sugestions were good, some of them were.
+Now, here are some thoughts I had:
+
+- Cache is not completely disabled. I suggested two different coomands, only one is set to false. The second one makes a huge difference.
+
+- Noscript. I have been using Noscript for years now. I have loooots of experience with this one addon, and I have this to say: you go to a website, you have at least three different sources trying to run scripts. You only have to enable the main website source. That is enough for the website to run properly. The rest was ads, spyware, all that shit. So, I really think that if it is possible to configure the Noscript addon to somehow allow the website I am visiting and no more... THAT is the MOST CORRECT default to use. I am sorry, I am 100% sure in this. This way you are not affecting a less computer savy person from using the internet, but you are protecting them. At the same time, you are not messing the fingerprnt, because everyone will looke the same. I might even send this to the tails developers, I know this it the best default policy to have.
+
+-Bad websties. Totally agree, I am no longer using those options to ''defend'' my privacy.
+
+-https should be updated. TOTALLY NECESSARY!
+
+I am in a hurry now, I will get back to you guys later. THANKS ;)
+"""]]

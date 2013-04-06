@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-19T23:08:48Z"
+ content="""
+The old cert was due to expire at midnight on 19 April 2013, so they had to do something before that date.  So it is not surprising that they would buy a new certificate shortly before that date.
+
+> Like if i started \"updating\" my pgp key everyone would be like \"wtf are you doing?\"
+
+Whenever you create a new PGP/GPG keypair, you should always create a revocation certificate and store it (really truly) off-line in some (really truly) safe location, precisely so that you can revoke your key if neccessary, to prevent someone from impersonating you.  (Such things have been known to happen.)
+
+> if they are going to update *the thing we rely on to verify everything* then they need to announce it and make it known, this is way too under the table for what is supposed to be an open project. 
+
+The key thing we all rely upon are the *GPG signatures* used to sign the tarballs, which in turn depends upon their *signing key (secret half of the keypair) remaining secure*.  
+
+The CA certificate of the website is just an additional check on that. If someday someone noticed that the GPG signature files for a new TBB are signed by a new GPG key, and then noticed that the CA certificate has also changed unexpectedly, that would be require urgent investigation.
+
+Both the old and new certs are High Assurance certs issued by Digicert.com and both claim to validate torproject.org.   Here are some old and new values:
+
+Issued:
+
+     Feb 15 00:00:00 2011 GMT
+     Jan 29 00:00:00 2013 GMT
+
+Expires:
+
+     Apr 19 23:59:59 2013 GMT
+     May  3 12:00:00 2016 GMT
+
+Serial Number:
+
+     02:da:41:04:89:a5:fd:a2:b5:db:db:f8:ed:15:0d:be
+     06:de:97:e5:1d:c3:9d:c2:64:8d:ac:72:dd:41:01:fc
+
+Subject identfier:
+
+     5E:AD:8B:29:5E:CF:2F:DE:14:4F:02:9E:AE:41:7C:23:CD:62:E7:82
+     B1:F3:B2:2A:D1:F9:80:78:D5:11:62:36:29:9D:21:BC:AE:27:6E:66
+
+I agree with the commentator who said that most likely someone simply forgot to update the webpage referring to the old certificate.  But the RSA public key used to sign the new certificate is *also* new.  Could that indicate that Tor Project suspects their RSA key may have been compromised?
+"""]]

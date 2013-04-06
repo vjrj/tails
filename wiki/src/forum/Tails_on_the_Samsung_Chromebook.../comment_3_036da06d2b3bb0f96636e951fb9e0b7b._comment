@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-25T11:18:29Z"
+ content="""
+What about the original Samsung Chromebook? http://www.amazon.com/Samsung-Series-5-Chromebook-Wi-Fi/dp/B0067U9VUC/ref=sr_1_5?s=electronics&ie=UTF8&qid=1359112032&sr=1-5&keywords=chromebook
+
+It uses an Intel Atom N570 processor... I tried a few things, but I haven't been able to get my TAILS USB stick to boot, which is annoying... I would *love* it on a Chromebook.
+
+There is a guide here for setting up a bootable USB stick running chrubuntu linux: http://chromeos-cr48.blogspot.com/2012/12/so-you-want-chrubuntu-on-external-drive.html
+
+And, perhaps more importantly, here is a list of the files used that allow to boot in: http://www.chromebook-linux.com/2011/11/shell-script-to-easy-install-gnulinux.html
+
+I'm assuming (I'm not a developer) that the absence of the \"kernel_data_key.vbprivk: the private key to sign the Chrome OS kernel\" in TAILS is part of the problem? For the record, I have changed my Chromebook to developer mode and disabled OS and BIOS verification. Still no-go to boot my normal TAILS usb stick :(
+"""]]

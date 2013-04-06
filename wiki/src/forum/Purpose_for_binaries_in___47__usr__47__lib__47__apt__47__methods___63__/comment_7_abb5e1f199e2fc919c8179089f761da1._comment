@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-24T13:04:45Z"
+ content="""
+>The current Debian Stable has heavily outdated software, and the debian developers does not even care anymore trying to backport security fixes to this old software due to the amount of work needed to spend (except for a selected few core components).
+
+If that's the case, would Tails developers consider switching to a Linux distro that is stable and at the same time has most of the security fixes applied?
+"""]]

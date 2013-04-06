@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-05T15:12:16Z"
+ content="""
+FYI:  The OP's question probably was asked due to a sudo vulnerability that has just been reported by The H Security.
+
+See: Security vulnerability in sudo allows privilege escalation
+
+at: http://www.h-online.com/security/news/item/Security-vulnerability-in-sudo-allows-privilege-escalation-1816387.html
+"""]]

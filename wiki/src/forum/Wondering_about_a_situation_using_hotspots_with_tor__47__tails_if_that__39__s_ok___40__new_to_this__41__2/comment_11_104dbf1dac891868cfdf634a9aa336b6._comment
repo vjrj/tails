@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-01-28T07:01:04Z"
+ content="""
+>> Eh?! This sort of MiTM threat is precisely what Tails' sophisticated networking configuration is designed to mitigate.
+
+This is from the Whonix documentation page, but it probably applies to Tails as well:
+
+>>In case Whonix-Gateway would be ever compromised, you should know that it can theoretically access any computer in your local network. Therefore, if you're the admin of your home network, it's recommend to lock down the webinterface of your home router, i.e. installing the latest firmware with latest security patches and using a secure password.
+"""]]

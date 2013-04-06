@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-30T22:35:49Z"
+ content="""
+>That'll almost certainly be sniffed from the browser's preferred language. Try changing it before first visiting Blogspot to confirm?
+
+Didi it
+
+>Look at the line HTTP_ACCEPT_LANGUAGE in the header sent by your browser.
+
+	  	
+showed eng-us 
+	  	
+I logged back on to test and in the first two times my country did not appear in the url, but in the third time appeared again. I have no idea what is going on.
+"""]]

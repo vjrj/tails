@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ username="hypothesys"
+ ip="127.0.0.1"
+ subject="comment 32"
+ date="2013-02-11T21:25:32Z"
+ content="""
+@ commenter 31: Don't be so negative :) who knows what will happen..
+
+Protection against the global adversary is not currently a priority for Tor developers but I think it would be incorrect to say they do not wish to implement it. One must keep in mind that before Tor they atempted to implement a solution that did protect against the global adversary, mixminion. The Free Haven project appears to have stopped working on mixminion and is focusing instead on Tor, and for good reasons.
+
+Perhaps it would be interesting for those of you who havent yet to have a look at a topic that did appear on Tor Talk on the theory of remailers: https://crypto.is/blog/
+
+Still, counterintuitively remailers although in theory providing protection against the global adversary can offer LESS anonimity than Tor. Why? Because too few people use them although such solutions already exist.
+
+The true answer may lie in \"alpha-mixing\" for which the paper by Roger Dingledine , Andrei Serjantov and Paul Syverson may be found at: www.petworkshop.org/2006/preproc/preproc_14.pdf
+or on the anonbib on freehaven: http://freehaven.net/anonbib/
+
+I can't find the source at the moment but i recall reading somewhere that despite the clear benefits of it it was more important to focus on Tor. After all.. with windows most likely being backdoored and some people commenting in this forum that the surveilance state and several govermenents have interest in subverting linux..
+
+Is the global adversary really what we need to be worrying about? Tor devs apparently don't think so, and Tor does attempt to protect against traffic analysis by a globalish adversary. (Please correct me if I am wrong) Personaly, I'd be more concerned about common exploits on firefox and possible backdoors in the binary-only firmware for wireless cards included in the kernel.. but then again using the linux libre kernel would not be painless for most users myself included :/
+
+But I digress, that is offtopic at least in this thread. All this to say that to say its not in the roadmap could be incorrect. To say it is not a priority (and unfortunatly for good reasons :/) would be more correct imo.
+
+"""]]

@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-05T21:37:21Z"
+ content="""
+Logging into gmail while using Tor could be a really bad idea, since it will attract attention from Google security bots which will likely decide you are a Tor user and subject you to extra fingerprinting, maybe even manage to snag your MAC address.  Yes, people say that is impossible (except for your ISP, which almost certainly snags your uniquely identifying MAC address, and most likely also notices that you are using Tor), but see this:
+
+From 
+
+     http://www.bbc.co.uk/news/technology-21058994
+
+>  \"This is a fraud warning...\" said an automated voice. It talked me through six transactions put on hold because they were suspected of being fraudulent.
+
+> I had made all of those purchases. They were all legit. What was going on?
+
+> Could it be a virus? How embarrassing would that be for someone who regularly writes about computer security.
+
+> A clue came from the first transaction flagged as potentially fraudulent. What had I done on that day? . Really? Could that be it? On that day my son Callum and I engaged in some father-son bonding by *swapping the faulty motherboard on the family PC*.
+
+I've had similar experiences to what Mark Ward describes.
+
+If you have a spare motherboard and are comfortable swapping boards, do this experiment yourself: try swapping the motherboards and then try connecting in your usual way to your ISP and your bank or (non-Tor) gmail.  Very likely robo-monitoring equipment will detect that someone using your logon name but a never-before-seen motherboard (catalogued using its uniquely identifying MAC address) is trying to connect, and you will find yourself unable to connect to your ISP, or you may get a fraud alert from your Google or your bank.  
+"""]]

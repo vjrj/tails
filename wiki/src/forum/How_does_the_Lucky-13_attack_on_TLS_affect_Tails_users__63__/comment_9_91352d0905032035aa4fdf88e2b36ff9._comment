@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-02-13T03:11:52Z"
+ content="""
+Thank you.
+
+It seems that the Lucky-13 attack may be more practical than earlier thought.  From
+
+    https://threatpost.com/en_us/blogs/theoretical-lucky-thirteen-tls-attacks-could-turn-practical-021113
+
+> For now, the Lucky Thirteen attacks described in a paper last week by researchers at Royal Holloway, University of London, are largely theoretical. But the potential exists to adapt techniques used in the BEAST attacks against TLS/SSL to improve the feasibility of Lucky Thirteen, a researcher said.
+
+> BEAST, which stands for Browser Exploit Against SSL/TLS, is custom javascript exploit code developed by researchers Juliano Rizzo and Thai Duong that is injected into a browser session via a malicious iframe or a direct remote injection into a victim’s browser. Attackers can use BEAST to steal cookie data or hijack browser sessions. Researcher Matthew D. Green of Johns Hopkins University said a similar attack could be used to reduce the number of calculations currently required in the Lucky Thirteen attacks to decrypt a session and steal sensitive information.
+
+> “The guys who did the BEAST attack have written javascript like this already; someone would just need to tweak it,” Green said. “They’re most of the way there already.”
+
+
+"""]]

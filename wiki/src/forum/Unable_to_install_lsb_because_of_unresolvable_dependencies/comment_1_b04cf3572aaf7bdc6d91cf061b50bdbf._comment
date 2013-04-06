@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-23T14:51:07Z"
+ content="""
+You probably want to remove some of the entries that have the *Explanation: Unwanted package that tasksel would pull since they have Priority: standard.* comment in `/etc/apt/preferences`.
+"""]]

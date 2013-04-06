@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-24T22:45:31Z"
+ content="""
+Assuming the hard drive of the laptop has encrypted home, root, and swap partitions (but neccessarily unencrypted boot partition), I think the reply by \"Tails\" suggests that in Debian stable, the hibernation table is written to the (encrypted) swap partition, and thus should be about as safe as anything else on the hard drive from an attacker who gains temporary physical access to the laptop.  So perhaps the short answer is \"no\"?
+"""]]

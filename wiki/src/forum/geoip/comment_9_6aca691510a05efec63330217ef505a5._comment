@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-15T08:30:57Z"
+ content="""
+These `apt-cache` commands are about what's available in Debian, not what's installed in Tails. Again, please learn the basics of `dpkg`.
+"""]]

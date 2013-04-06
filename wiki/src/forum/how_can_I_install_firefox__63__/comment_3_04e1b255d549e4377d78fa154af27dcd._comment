@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-22T18:44:25Z"
+ content="""
+@ OP:
+
+Welcome to the forum!
+
+If you are running Tails now, look for an icon which resembles the firefox icon with the fox replaced with a silver animal (a weasel).  This is the icon for Iceweasel (actually Tails browser, a version of Iceweasel).  Iceweasel and Firefox are functionally identical and there are few differences in how you configure them and use them to browse/download.  See 
+
+     https://en.wikipedia.org/wiki/Iceweasel
+
+However, standard Iceweasel/Firefox are not optimized for privacy/anonymity while using Tor to browse/download.  That is why the Tails browser variant of Iceweasel has some modifications.  And why installing some other browser (or any software, potentially) is not a good idea unless you understand the potential impacts on anonymity.
+
+If you wanted to install plain vanilla Firefox as an \"untrusted browser\" for decoy purposes, Tails already has such a thing.
+
+See <https://tails.boum.org/doc/about/warning/index.en.html> for some other things to avoid while using Tails.
+"""]]

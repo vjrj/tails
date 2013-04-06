@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-31T20:24:27Z"
+ content="""
+Thank you for your prompt response.  Apparently what I thought was correct.
+
+Stem: yes, a library, but I suspect that a tool using it to provide more fine grained control over circuits (at our own risk) may become more and more important.
+
+I am impressed by the care which the Tor Project has put into such recent papers as \"Changing of the Guards\", but once they started treating nodes differently in building circuits, they opened the Pandora's box.  In future I think more and more users may want the option of finer control, perhaps only to be used \"on the fly\" when they start to feel something is wrong.  Particularly useful would be the ability (at our own risk, yes) of making different choices for our entry nodes than Tor clients currently make for us.  The more I study this issue, the more I am convinced that 
+
+* Entry guards should not also be Exit nodes and vice versa
+* many many more lower bandwidth nodes is much better than high bandwidth nodes, provided one creates sociological inducements which make it likely that diversity will not be merely apparent (since our adversaries can obtain many geographically diverse IPs)
+
+
+"""]]

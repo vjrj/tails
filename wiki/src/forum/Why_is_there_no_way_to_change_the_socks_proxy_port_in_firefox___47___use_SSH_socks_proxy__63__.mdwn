@@ -1,0 +1,13 @@
+Hi
+
+
+I would like to use an ssh socks proxy on top of tor, to hide the fact that I'm using node.
+
+I can "ssh -ND 9000 user@sshhost" but then even if I change the port for socks proxy in torbutton, the traffic still goes through tor only (ie the tor exit node) and not through my ssh socks proxy.
+
+This works with the "normal" TBB, installed on debian.
+
+Can you tell me why it doesn't work with tails, and if that can be fixed or not?
+
+Thanks!
+

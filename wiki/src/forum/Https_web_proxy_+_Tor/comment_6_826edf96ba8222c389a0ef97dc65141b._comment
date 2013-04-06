@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-17T23:46:35Z"
+ content="""
+@ comment 5:
+
+Thats why I said https proxy not a transparent one. The connection should look like this:
+
+Me > Relay > exit node > \"encryption\" > Https proxy > \"encryption\" > Destination
+
+Does that make any difference? 
+
+Faking cert is less likely to succeed if you change exit node and https proxy frequently.
+
+Now how do you find that? Should be reasonable
+"""]]

@@ -1,0 +1,12 @@
+Hello everybody,
+
+First of all I'd like to thank the developers of Tails. It's a great specialized distro!
+
+With the release of 0.16 my biggest concern is (still) the fact that it's not possible to have a changed MAC address at boot up. I know I can just change it with macchanger but then a hostile router can already have logged the original MAC address.
+
+As far as I know the only way to permanently randomize the MAC address at boot up via e.g. rc.local (several options exists, I know, but my point is that it needs to be at boot time before the network is initialized).
+Given that the persistence is not accessible until login I guess the only way to ensure this feature is to install Tails to a harddisk, make the changes, and then rebuild as a live distro!?
+
+What do you think?
+
+Thanks!

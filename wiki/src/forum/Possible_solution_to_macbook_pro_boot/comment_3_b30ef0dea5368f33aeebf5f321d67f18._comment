@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-22T11:19:48Z"
+ content="""
+You are right but getting tails to start is an improvement over not getting tails to start. I'm going to try again tomorrow - install liberte linux, then copy the essential tails files from the ISO: vmlinuz, the filesystem.squashfs, initrd, and anything else that seems necessary, then add them to the liberte grub menu.
+
+If that works, then I'll try a plain grub MBR install to an empty USB disk, and create a new grub.cfg file directly.
+
+My hope is that the tails devs can perhaps understand a bit more about why macbook boot doesn't work, or at least how it might be made to boot using grub. If the three files (vmlinuz, initrd, squashfs) are not modified I think the anonymity should not be compromised, but tails devs know more than me about that.
+"""]]

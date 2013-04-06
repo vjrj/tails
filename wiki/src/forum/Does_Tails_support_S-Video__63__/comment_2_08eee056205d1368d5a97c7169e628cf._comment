@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-07T23:12:08Z"
+ content="""
+OP reporting:
+
+Ok. I dwelled into this further and turned out to be an already fixed bug in Debian.
+
+Although the cable is connected at both ends yet running this:
+
+#xrandr -q
+
+shows this:
+
+#S-video disconnected (normal left inverted right x axis y axis)
+
+Also tried this:
+
+#xrandr --output S-video --set \"load detection\" 1
+
+Came out with no errors, but still S-Video shows disconnected.
+
+Hopefully if someone knows how to apply the available patch to this bug it would be appreciated coz I dont know how.
+
+
+"""]]

@@ -1,0 +1,18 @@
+A few weeks ago I posted a thread regarding persistence and security issues.
+
+I have thought thorougly about the security implications of both persistence and, in my case, plausible deniability via a truecrypt-style hidden OS option and I have come to the same conclusion as the devs & some other people here. It is very very dangerous :
+
+Judicial courts, or a gun pointed at your face in some cases, will force you to decrypt files or volumes wether you like it or not. If you are using a known "plausible deniability" solution like Truecrypt and the adversary knows about it then said solution works in both ways : you may deny you have an hidden container, but the adversary may also not believe you when you say so since the solution offers this possibility. All in all those solutions probably only make you safer in your mind.
+
+So basically now my idea is to use 2 mass storage devices, one flash drive for stock Tails & Mint dualboot using iso/syslinux and another one for user data storage : a USB-microSD reader combo so that the microsd can disappear and replaced by another "non-dangerous content" one very easily if the need should arise.
+
+Clearly for user/sensitive data it is the least dangerous physical format available : it can be hidden, kept in mouth while still allowing normal talk (tried it), swallowed in extreme situations, glued to the scalp for stealthy evacuation scenarios (!!! :) ) and being so small won't trigger metal detectors.
+
+Now the question would be : how could we use both mint & tails iso-s in non persistence mode whilst still retaining access to a shared /home or similar folder saved on the removable microSD card?
+
+Doing so would allow saving wifi profiles, bitcoin wallets/data, bookmarks, downloads etc on the SD and have both OSes link to the folder at startup. It seems a much safer option than keeping these datas on cloud or ftp storage somewhere, or worst, on pieces of paper.
+
+Think global, save local ; what do you think?
+
+PS: as an extra regarding bootloaders, why does Tails opt for isolinux, Mint for syslinux and other distros for Grub? In the mentioned dual boot scenario which would be the most compatible without crippling OS functionality? Thx!
+

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-28T14:40:10Z"
+ content="""
+>> So, to answer your question: yes, not setting a root password is the most secure option. Only set one if you really need it, and if you do, set a strong password. 
+
+I see...Live and learn, I guess. 
+"""]]

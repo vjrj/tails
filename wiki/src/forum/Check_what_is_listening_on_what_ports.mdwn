@@ -1,3 +1,5 @@
+[Readers should be sure to see the response from Tails, assuring that there is no cause for alarm here.]
+
 Recently it was pointed out that cupsd and gdomap are listening on external ports.  Bad.
 
 This suggests no-one has ever bothered to run a few commands to check what is listening where.  *Very* bad. I mean WTF?

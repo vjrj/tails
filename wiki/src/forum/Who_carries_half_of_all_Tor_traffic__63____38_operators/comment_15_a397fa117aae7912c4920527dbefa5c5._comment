@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2013-02-01T20:35:39Z"
+ content="""
+An important point made in a post in another thread in this forum:
+
+     https://tails.boum.org/forum/Tails_and_the_Global_Adversary/
+
+> reams of leaked white papers and marketing documents from the surveillance firms which these governments hire to do much of their dirty work suggests that most governments with global intelligence ambitions use the infrastructure of their general purpose national scale universal network surveillance (or international in the case of the US and some others), not Tor nodes themselves, to monitor Tor traffic. Don't forget that many nations have the ability to at least attempt national level MITM attacks which potentially strip the SSL \"protection\" from all tor data streams traversing their national wires.
+
+"""]]

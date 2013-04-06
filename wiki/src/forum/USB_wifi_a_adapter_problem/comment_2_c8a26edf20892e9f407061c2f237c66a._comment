@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-15T07:01:16Z"
+ content="""
+Quote: 
+I'm confused. Is this the situation?
+
+you made a Tails 0.16 bootable USB stick
+you rebooted using the USB stick
+your network card or adapter no longer works
+Unquote
+
+Yes, I made a Tails USB stick. I have a USB wireless adapter TP-LINK which is not working. I tryed to install Compat-wireless but command 'make' is not existing.
+"""]]

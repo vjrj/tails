@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 261"
+ date="2013-01-24T17:32:22Z"
+ content="""
+@ comment 258:
+> I just started a download and i can see the Ip-address and the exact amount of data transfered from the I2P relays in the administration page of my load balancer on my network so where do you get this ridiculous idea that they are not exposed?
+
+I misread the part \"last person in the chain [...] **to the downloader**\" as \"the last person in the chain [...] **towards the target destination**. My apologies. An I2P client obviously has to make direct connections to the routers used in its tunnels.
+
+> So user 254 is correct the relays are not hidden to the downloader and nothing is hiding the last person in the chain that is connecting to me.
+
+True. Except the relays in the target destination's outbound (and inbound) tunnels. So the I2P and Tor relays are equally \"exposed\" to this.
+
+@ comment 260:
+> But i am sure Tails and user 254 will just try and carry on with the Blatant Lies and misleading fake terminology and claim that our routers are not really physically connected to our PCs but really out there some place in the middle of the internet hidden with encryption.
+
+If your impression (regarding my statements) comes from my previous post (comment 257), my apologies, it was a mistake, not a lie. Otherwise I believe everything that has been stated by me is correct, and I definitely have never claimed that and I2P client isn't aware of which routers it uses for its tunnels. My claim is that relaying in I2P and Tor is the same in an attempt to dispel the FUD spread in this thread, that I2P relaying some how is more dangerous.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Enter key bracket issue"
+ date="2013-02-08T00:26:23Z"
+ content="""
+End of 2nd setnece should indicated that the final key pressed to add TrueCrypt support at boot menu is [Enter]. Evidently the string Enter delimited with LessThan and GreaterThan symbols is a meta command to the bulletin board software, since it ate the word :-)
+"""]]

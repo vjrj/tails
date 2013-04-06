@@ -1,0 +1,9 @@
+I have read the instructions [here](https://tails.boum.org/doc/first_steps/startup_options/index.es.html#boot_menu) on how to add bridges.
+
+After pressing **TAB** and then **SPACE**, I wish to add 3 to 4 bridges. Do I type
+
+bridge 111.111.111.111:1234  bridge 222.222.222.222.222:1234  bridge 333.333.333.333:1234
+
+*or*
+
+bridge 111.111.111.111:1234  222.222.222.222:1234  333.333.333.333:1234

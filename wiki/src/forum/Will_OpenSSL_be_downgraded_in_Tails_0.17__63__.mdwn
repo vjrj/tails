@@ -1,0 +1,8 @@
+Will Tails 0.17 contain all the OpenSSL patches from Debian, including the patch mitigating the Lucky-13 problem?
+
+The latest TBB *downgrades* OpenSSL, which sounds like a cludgy fix to a possibly dangerous issue reconciling OpenSSL with FF 17.3esr.
+
+See also these threads:
+
+     https://tails.boum.org/forum/How_does_the_Lucky-13_attack_on_TLS_affect_Tails_users__63__
+     https://tails.boum.org/forum/Information_for_Tails_users_trying_to_upgrade_TBB/

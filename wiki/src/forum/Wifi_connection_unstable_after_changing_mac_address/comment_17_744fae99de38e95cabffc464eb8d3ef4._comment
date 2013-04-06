@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2013-01-26T14:09:54Z"
+ content="""
+I believe this can be fixed by stopping the NetworkManager service (`sudo service network-manager stop`), then changing the adapter's MAC address, then starting the NetworkManager service again (`sudo service network-manager start`).
+"""]]

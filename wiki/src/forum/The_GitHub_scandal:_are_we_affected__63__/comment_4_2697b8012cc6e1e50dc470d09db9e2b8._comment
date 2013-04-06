@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-27T00:34:48Z"
+ content="""
+> Are Tor, Tails, or TBB directly affected by the recently
+> revealed GitHub scandal regarding secret keys uploaded to
+> GitHub and publicly searchable?
+
+As far as I know, Tails is not directly affected.
+(Before someone goes crazy about it: I'm not suggesting I know it
+is indirectly affected. I simply don't know.)
+
+> In particular, were credentials related to any debs
+> incorporated into Tor, Tails, or TBB affected?
+
+There's no way anyone can answer this question: one cannot tell
+for sure such a thing about each of the dozen hundreds of
+packages shipped in Tails.
+
+As far as this forum is concerned, end of the story.
+
+"""]]

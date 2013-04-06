@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-18T17:02:31Z"
+ content="""
+It's meant to limit the regression for users who've been using it: they can simply install the XUL extension.
+Since it's a session wrapper, MSVA is quite a pain to install in the context of Tails.
+
+"""]]

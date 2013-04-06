@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Java is fine."
+ date="2013-02-14T14:24:50Z"
+ content="""
+The problems OP is describing are related to Java **applets**, **not** normal Java.
+If the Java does not run in your browser, it is not vulnerable to any of the recent hype. 
+Applets are becoming increasingly rare nowadays anyway.
+If you are describing problems with ALL Java, may I remind you that it's very easy to write insecure C too? If not easier? ;-)
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-17T18:15:37Z"
+ content="""
+I think I found a better solution for you. Start Iceweasel with these paremeters*:
+-no-remote -P
+
+This will take to to the profile manager. Now create as many profiles as you need. Just give each a name and don't change anything else. You can launch one now. Now start Iceweasel with those paremeters again, and launch another profile. (Be patient it may take a little while to start.) You should now have two Iceweasel windows that keep their sessions separate. 
+
+I only gave it a really quick stest, but it seems to work.
+
+*One easy way to do this is to right-click Iceweasel in the Applications menu \"Add this launcher to desktop\", then right-click the new launcher on the desktop, open to properties and change the command to:
+iceweasel -no-remote -P
+
+If you've enabled persistance, you can move this launcher to your persistant folder for later convenience. You'll still need to recreate the profiles each time, but it's quicker than it sounds, just a few clicks.
+"""]]

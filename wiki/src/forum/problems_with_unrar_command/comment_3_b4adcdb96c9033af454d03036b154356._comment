@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-31T13:52:59Z"
+ content="""
+I have to backup comment 2's suggestion of using unar, unar is a command line tool that Tails comes prepackaged with and that does work with password protected rar files.
+
+Also in Debian there are two unrar packages available one marked free and one non-free (Do note that none-free does not mean that you have to pay for the program, it is just a term used to describe the type of licensing and closedness associated with the package). 
+
+The non-free version of the package has no problems with passwords so if you really want to use unrar with password file you should install that.
+
+
+"""]]

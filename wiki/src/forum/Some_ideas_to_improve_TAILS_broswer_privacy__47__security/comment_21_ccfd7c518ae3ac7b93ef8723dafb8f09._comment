@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2013-02-17T00:32:10Z"
+ content="""
+@20
+
+No, actually I tested it and if I use new identity the etag is also changed. HOWEVER it remains the same while you keep the same ''session''. So I would guess you are right in not paying a lot of attention to this one point (though I fail to see why keep that string in ''true'').
+
+As for the rest, it's not about ''OMG ip check is not all green''. It's about ME personally believing that TAILS would have a better security with javascript handled differently (cookies would be too much work for a non-geek person to handle correctly, so I will let that one slide, even because cookies are cleared when you use NEW IDENTITY just like in previous point).
+
+So, I have made my sugestions, now you do whatever you want with them. Case closed, I am here to help, not to waste my time or your time with discussion.
+Keep up the good work.
+"""]]

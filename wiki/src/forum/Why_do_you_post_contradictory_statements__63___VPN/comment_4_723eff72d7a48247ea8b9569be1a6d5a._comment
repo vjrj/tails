@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="It...depends."
+ date="2013-02-04T15:33:41Z"
+ content="""
+What threat are you defending against? I think the question matters here.
+
+If an attacker (the NSA?) is after you specifically, and knows which VPNs you like to use, and can control/monitor them...well, you --> VPN --> Tor gives them some information about your activity. But it's the same info they'd get if you used your home/work/usual connection without a VPN and they had access/cooperation from your ISP. I propose that we assume equivalence between VPN providers and ISPs (though combining them may become interesting...either for good or ungood).
+
+If someone's tracking from the other end, you --> VPN --> Tor is likely to provide some degree of obfuscation. The VPN is unlikely to hurt you, assuming VPN providers and ISPs are equivalent. Quite likely there are several people using Tor from the VPN provider. So, well, what the heck. If your ISP and VPN provider are in different legal jurisdictions, this may be helpful.
+
+If you're using public wi-fi, and you don't think anyone is recording your presence (or MAC address?) in that location, I agree that it's probably better to avoid the VPN for the reasons you give above.
+
+In general, avoiding the use of a VPN has value if and only if someone has -already- identified you. If nobody has identified you as a person of interest...the VPN provides some level of obfuscation.
+
+My opinion, in short: I think you --> ISP --> foreign VPN --> Tor is probably a good idea for internet traffic originating from ISPs you personally are known to use.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-29T18:44:40Z"
+ content="""
+There is a good reason why popular file sharing utilities are not included in Tails: they are basically impossible to anonymize with Tor.  See
+
+     https://trac.torproject.org/projects/tor/wiki/doc/TorFAQ#HowcanIsharefilesanonymouslythroughTor
+     https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea
+
+Tails does include i2p, which is an open source project which attempts to develop an anonymous file-sharing network. i2p has some attractive features but which (insert emoticon here) has been debated at some length in another thread in this forum.  My current feeling is that users should avoid i2p because it uses Java, which is inherently unsafe (the generally useless US DHS recently took the very unusual step of advising everyone to disable Java entirely due to severe flaws which Oracle has been unable to fix).  Perhaps in the future Java can be designed out and other issues addressed, but shedding Java would probably be quite difficult.
+
+You should also read some more warnings against dangerous things you shouldn't do when using Tails: <https://tails.boum.org/doc/about/warning/index.en.html>
+
+"""]]

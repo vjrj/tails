@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-28T09:54:20Z"
+ content="""
+Here is a [relevant post from \"Tails\"](https://tails.boum.org/forum/Download_manager/#comment-e1e0914825590c0179b788dbadfebc67) that should really be incorporated into an FAQ:
+
+>Addons can do anything within Iceweasel, and this leaves many venues for stuff to go wrong even with our transparent proxy that makes everything go through Tor:
+
+>1.) They can be maliciously \"trapped\" with phone home type of leaks. E.g. grabbing your real system IP address, and sending it + your browsing history to $EVIL_ENTITY every minute or whatever. It will be sent to Tor, but with your real IP address attached.
+    
+>2.) They can phone home about sites you visit in intended, non-malicious ways, e.g. StumbleUpon and others.
+ 
+>3.) They can have bugs opening up the browser for remote exploits, e.g. like point 1.
+
+>4.) They can have bugs breaking other addons, e.g. Torbutton, which would seriously hurt your anonymity.
+
+>5.) They can alter your HTTP headers/traffic flow/browser behaviour/whatever in ways that are easily identifiable from the outside (exit node/destination site/whatever), thus making you distinguishable from other Tails and Tor users, which is terrible for anonymity.
+
+>Comment by Tails — Mon 03 Oct 2011 01:58:51 PM CEST 
+"""]]
