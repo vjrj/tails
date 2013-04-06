@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-28T06:36:06Z"
+ content="""
+>ISO seems to be OK.
+
+Did you verify the signature?
+
+>Have installed it with UniversalUSBInstaller
+
+Unless there's been a recent change, *only* the **Tails** USB installer is supported.
+"""]]

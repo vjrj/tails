@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-26T14:02:42Z"
+ content="""
+This could bring support for what you want (boot medium different from persistence medium) for free: [[persistence: support DVD]].
+It's not planned for the near future, but [[good patches are welcome|contribute/how/code]].
+"""]]

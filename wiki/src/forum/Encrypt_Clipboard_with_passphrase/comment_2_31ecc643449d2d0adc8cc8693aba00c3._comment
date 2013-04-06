@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-24T22:49:22Z"
+ content="""
+> If a strong passphrase is chosen how secure is the Encrypt Clipboard with passphrase?
+
+It's impossible to answer the \"how secure is\" kind of question, without at least an idea of your threat model. Sorry.
+
+> Can the output be decrypted with any PGP program?
+
+Yes, with any program that supports OpenPGP.
+
+"""]]

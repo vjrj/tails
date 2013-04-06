@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-28T15:56:58Z"
+ content="""
+Hi,
+
+I've been looking into this feature for the last month, I have found it complicated (because my need is complicated as well) to get this working. 
+
+I want to dual boot Tails & Mint both in non-persistent mode but have them mount on boot a Home folder located on another USB mass storage device so wifi keys & whatnot don't have to be typed in everytime.
+
+So far I found bits of the puzzle but not all of it. 
+
+Devs is the \"live-rw filesystem\" mentionned on 
+
+http://www.kdenlive.org/user-manual/downloading-and-installing-kdenlive/live-demonstration-dvd-or-usb-storage/full-persisten
+
+applicable to our beloved Tails? If so could I format a microSD card, assign it such name and have tails load the /home from it? 
+
+Thanks!
+
+
+"""]]
