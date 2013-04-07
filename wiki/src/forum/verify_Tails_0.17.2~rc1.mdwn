@@ -1,0 +1,16 @@
+Can someone please verify if I'm doing this right from the cmd line? Kleopatra doesn't right-click love me. Because I hadn't imported the key yet?
+
+    C:\Program Files (x86)\GNU\GnuPG>gpg2.exe --keyserver x-hkp://pool.sks-keyservers.net --recv-keys 0xBE2CD9C1
+    gpg: requesting key BE2CD9C1 from hkp server pool.sks-keyservers.net
+    gpg: key BE2CD9C1: public key "Tails developers (signing key) <tails@boum.org>"imported
+    gpg: no ultimately trusted keys found
+    gpg: Total number processed: 1
+    gpg:               imported: 1  (RSA: 1)
+
+    C:\Program Files (x86)\GNU\GnuPG>gpg2.exe --verify C:\Users\UserName\Downloads\Tails\tails-i386-0.17.2-rc1.iso.pgp C:\Users\UserName\Downloads\Tails\tails-i386-0.17.2-rc1.iso
+    gpg: Signature made 04/03/13 09:21:26 Pacific Daylight Time using RSA key ID BE2CD9C1
+    gpg: Good signature from "Tails developers (signing key) <tails@boum.org>"
+    gpg:                 aka "T(A)ILS developers (signing key) <amnesia@boum.org>"
+    gpg: WARNING: This key is not certified with a trusted signature!
+    gpg:          There is no indication that the signature belongs to the owner.
+    Primary key fingerprint: 0D24 B36A A9A2 A651 7878  7645 1202 821C BE2C D9C

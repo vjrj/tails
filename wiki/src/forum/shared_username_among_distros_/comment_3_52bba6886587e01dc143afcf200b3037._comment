@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-05T16:48:41Z"
+ content="""
+> Tails makes it clear that you are using Tor and probably Tails
+
+that part is talking about the isp..
+
+tails doesnt make it clear to the ssh server that one is using tails. only torified ssh.
+"""]]
