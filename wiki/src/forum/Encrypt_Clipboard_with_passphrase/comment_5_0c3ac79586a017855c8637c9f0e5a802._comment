@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-27T09:41:42Z"
+ content="""
+It shows me the whole list of the supported algorithms which seems almost every AES. 
+
+However which one is used in particular when encryption clipboard with passphrase?
+
+It does not specify.
+"""]]
