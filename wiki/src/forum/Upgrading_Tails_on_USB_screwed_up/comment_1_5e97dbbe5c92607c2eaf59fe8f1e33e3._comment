@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-03T14:27:05Z"
+ content="""
+The initial install (clone and install) operation always creates a system partition of the same size, and the persistence setup software has not changed much since it's been around, so it should be possible to find the location of the persistent partition, and it may be intact. The LUKS header could be another easy way to find it. testdisk, foremost etc. should be able to find it. I hope it works out for you.
+"""]]

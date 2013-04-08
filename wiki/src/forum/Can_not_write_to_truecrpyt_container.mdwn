@@ -1,0 +1,5 @@
+I created a FAT container in 0.17.1 on an external drive. I can mount the container and i can create folders and empty files within it which survive unmount and reboot.
+
+But when i try to edit and save a file it fails with "Error writing to file". When i copy files into the container their names still show up after unmount and reboot but the acctual file is gone (0 bytes).
+
+Any ideas why this might be happening?

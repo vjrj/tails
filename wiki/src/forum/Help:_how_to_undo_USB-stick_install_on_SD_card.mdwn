@@ -1,0 +1,12 @@
+Hi,
+I read the good advice on how to run tails on an USB stick. I took it one step further and installed tails on an SD stick. To be precize, on a 32 GB HC-I SanDisk card with 45MB/s speed. It seemed the best way to combine tails with optimal storage space.
+
+However, when I used the card to log into tails something unexpected happened: the card didn't appear as an option to store files on at all, and the SD card is either invisible on other PC's or is shown to be only 1,6 GB in size which probably corresponds to the size that tails uses on the card.
+
+Now this of course was not at all my intention. I had hoped to have aroudn 30 GB of storage space on the card left, storage space that I also would be able to use on non-Tor systems in as far as I might want to transfer data from it onto other media after closing tails.
+
+Assuming that that's not possible, I'd like to reverse what I did and get my SD card back in it's original 32 GB size. However, I can find nothing to do this with.
+
+Can anyone please tell me more? Either how to gain access within tails to the well over 30GB space that should be available within tails, or to completely reformat the card including the secret file parts?
+
+Thanks very, very much!
