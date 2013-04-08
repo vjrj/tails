@@ -1,0 +1,51 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-08T19:35:38Z"
+ content="""
+> 38.229.72.22 which resolves to (sergii.torproject.org)
+
+Yes, that's the server which offers the \"Tor check\" page.  A valuable service, but I worry about the fact that it is apparently operated by Cymru Research, which apparently sponsors among other things a volunteer-operated malware signature database.  Again, potentially valuable, but I worry about the obvious conflict of interest suggesting that Cymru may be routinely using its subnetwork of fast Tor nodes to scan or even log Tor traffic, while searching for evidence which can be passed to \"the authorities\".  Cymru describes itself somewhere as an organization which \"studies on-line criminal activity\", but the trouble is, my definition of that might not agree, let us say, Prenda Law's definition!
+
+Further, Cymru has apparently never addressed the question of why one of the team members was apparently also the General Counsel for \"Team Thetis\", the notorious \"ratf-g\" operation which targeted journalist Glenn Greenwald, Wikileaks, etc.
+
+> 174.37.236.20
+
+Wow, you might really have something there.  Unless I goofed, according to ExoneraTor
+
+    https://metrics.torproject.org/exonerator.html
+
+that IP has never been a publicly published Tor node, although it might have been a bridge when you noticed it.  Were you using bridges when you noticed this?  From what little you say, I expected it would turn out to be one of your three Guard nodes, but when I saw it has never been a published Tor node, I modified this guess to \"bridge\".  If it was a bridge you chose to use, you probably shouldn't have mentioned its IP address here!
+
+Assuming that it was never a bridge, I confirmed that it is registered to SoftLayer, which as you probably know has a reputation (look for a post by on-line crime researcher Brian Krebs) for hosting malware.  And it has been mentioned recently in several forums, suggesting that someone might be up to no good:
+
+1. first report
+ 
+> Every time Thunderbird checks mail, it attempts to connect to one of three IP addresses in addition to the mail server. 
+>
+> 174.37.236.19 
+> 174.37.236.20
+
+2. second report
+
+> Using SSL causes HTTP connections to static.reverse.softlayer.com
+Every time Thunderbird checks my Yahoo mail accounts, it attempts to establish an HTTP connection to one of three IP addresses (in addition to the mail server.)
+>
+> 174.37.236.19
+> 174.37.236.20
+> 50.97.101.114
+
+Third report:
+
+> Recently, my work network changed requiring all network traffic to go through a proxy. This has caused me some problem with several applications. Including PSCX. Unbeknownst to me, PSCX is reaching out to some one on import. This causes the import-module to be slow and take 60 seconds. 3.0 beta 1 does not do this, but 3.0.0 RC and 3.0.0 do. Listed below are the IP addresses that PSCX attempts to communicate with.
+
+> This communication only happens when I try to import PSCX. I can sit with powershell open for quite some time and no communication happens. As soon as I import, the network communication starts and it stops when PSCX successfully imports which takes 60 seconds. 
+>
+> 23.66.230.72
+> 23.66.230.75
+> 174.37.236.19
+> 174.37.236.20
+> 50.97.101.114
+> 72.21.91.29
+
+"""]]
