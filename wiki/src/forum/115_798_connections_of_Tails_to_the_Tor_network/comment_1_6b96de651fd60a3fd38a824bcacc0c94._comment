@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-07T21:00:49Z"
+ content="""
+> Why is Tails team harvesting such information from its users without consent?
+
+About *consent*: Tails does many things without users' consent,
+because most users use Tails precisely to avoid caring about
+many, many details. I'm sorry if this feature is not documented
+well enough. Could you please check if it is?
+
+About *why*: you just quoted the reason: \"requests made to the
+security announcements feed\".
+
+What better design would you suggest so that Tails users are
+promptly informed of security issues in the version of Tails
+they're running?
+
+> Please provide a way to disable security announcement connection. Thank you
+
+Tails is [[free software|contribute/git]].
+Good patches [[are welcome|contribute/how/code]].
+
+But first, I guess you'd want to think about the threat model and
+see what you would really gain by doing this, once put
+in context.
+
+"""]]
