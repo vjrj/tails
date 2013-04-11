@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-11T19:37:32Z"
+ content="""
+@ OP: why do you want to develop software on a Tails system?
+
+The most salient goals of Tails are \"amnesia\" and \"anonymity\", which seem to run contrary to developing software tools to share with others.  (And also to booting Tails from a USB stick.)
+
+It is possible that Whonix might be more suitable for what you are doing.
+
+>  is there a security reason it is not included in Tails?
+
+I would think so.
+
+Years ago, books on Linux security urged separation of \"production\" machines used to develop new software (on these the Gnu compiler, debugging tools, version control packages, etc, must be installed) from servers like mail servers.  This was because people studying break-ins found that intruders have a much easier time if compilers, MAKE, etc are already present on the victim computer, because otherwise they may need to try to install them, which might be noticed.
+
+I am not sure to what extent this philosophy applies to Tails users, but in general, it seems wise to think hard before installing additional software, especially such powerful software as a compiler.  
+
+If you really think you need to do that, you might try this:
+
+* boot Tails from a DVD with networking disabled
+* briefly enable networking and establish a connection via Tor
+* use Synaptic to install the compiler and whatever else you need
+* disable wired and wireless networking
+* construct your binary
+* save it to an encrypted USB data stick.
+
+Then, to *use* the binary, 
+
+* boot a new Tails system from the R/O live DVD
+* copy the binary from the encrypted USB stick
+* safely remove the stick.
+
+(Be careful; there are potential issues with encrypted USB sticks arising from wear-leveling and some other issues regarding how USB sticks interact with Debian systems.)
+
+I hope we will all bear in mind that tools like Tails can potentially be used in ways which can lend themselves to glib misstatements by our adversaries, of the form \"all Tor users are up to no good, so we must forbid Tor entirely, or insist that the Tor Project backdoor it\".  This is pretty much what the US FBI is trying to do right now in US legislation like CISPA.
+
+
+
+"""]]
