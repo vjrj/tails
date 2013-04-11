@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-27T20:54:19Z"
+ content="""
+Bug is reported. :)
+
+So here is what I wrote:
+live-config.xorg-resolution=1680x1050
+"""]]

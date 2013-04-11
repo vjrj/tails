@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-29T14:00:41Z"
+ content="""
+I will explain.
+
+Trt to highlight / select any text in any iceweasel webpage. Now try to drag this text and drop it in a text file or in iceweasel search box or in address bar. You cant. That used to work in the previous edition of Tails. Something changed in the browser. I need this feature back.
+
+Now if you want to move text around, you will have to copy-paste instead of drag-drop.
+
+Secondly, if you try to do this the other way around it doesnt work either. If you highlight select text from outside iceweasel (like a document) and then try to drag that text and drop it in a text box in an iceweasel page it doesnt work anymore. You will also have to copy and paste.
+
+I just want to know why is that feature now disabled and how to get it back. 
+"""]]

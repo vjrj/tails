@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-05T19:01:11Z"
+ content="""
+> Very slow speeds, about 7 kb/s and I have something like 20 Mb/s
+
+Then please try to identify which mirror (by IP) is exposing such behaviour, among the many ones in our DNS round-robin pool.
+
+"""]]

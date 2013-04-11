@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-08T09:16:00Z"
+ content="""
+Let users who dont want auto security update able to opt-out. Such users can check for updates (if they want to) by visiting Tails website. Tails is about privacy, and Tails team are included in people who should'nt be allowed to violate it in anyway. 
+
+If an auto security message will let Tails team know I have used Tails each and every time, I'd prefer doing it manually.
+
+
+Please mention what is the script used to initiate this connection for people who want to delete it.
+"""]]

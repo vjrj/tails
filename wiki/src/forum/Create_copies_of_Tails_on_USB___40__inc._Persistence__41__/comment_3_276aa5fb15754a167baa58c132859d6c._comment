@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-07T12:01:15Z"
+ content="""
+I would personally use the most basic ones: `cat` or `dd`. No idea about available graphical user interfaces.
+"""]]
