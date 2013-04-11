@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2013-04-11T21:04:10Z"
+ content="""
+In a thread on another forum discussing https hijacking using genuine certificates which were improperly issued by genuine CAs, it was speculated that the Iranian government may be operating rogue OCSP servers to serve their improper certificates.  I'd guess that the US or Chinese governments are at least as likely suspects.
+
+I ask \"Tails\" not to close this thread until the OP has had a chance to study the suggestions above and possibly to provide more information.
+"""]]
