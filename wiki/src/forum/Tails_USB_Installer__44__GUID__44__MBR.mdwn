@@ -1,0 +1,4 @@
+My older BIOS/PC doesn't accept booting with GUID boot block on USB. Tails USB Installer provides this only?
+With Disk Utility i see MBR type on a USB with an working/booting tails on USB.The nonbooting/nonworking USB has a GUID boot block.
+With MBR type it's working.
+As a result of that i can't use the Tails USB Installer on these older PC's.
