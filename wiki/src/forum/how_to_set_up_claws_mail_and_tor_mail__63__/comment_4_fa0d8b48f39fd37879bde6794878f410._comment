@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-12T13:15:44Z"
+ content="""
+So now that I got riseup account, Ive tried to setup as instructed on thier web but now I get a below error.
+
+Error:
+Claws mail has detected a config mailbox, but it is incomplete. it is possibly due to a failing IMAP account. User Rebuild folder tree on the mialbox parent folders contect menu to try to fix it.
+
+Protocol IMAP4
+Receive/send both mail.riseup.net
+Marked SSL option for both connections. 
+SMTP port(465) and IMAP4(993) port both unmarked.
+
+Do I have to mark these ports? 
+
+
+
+
+"""]]

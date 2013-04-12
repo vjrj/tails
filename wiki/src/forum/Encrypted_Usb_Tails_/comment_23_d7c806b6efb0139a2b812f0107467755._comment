@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 23"
+ date="2013-04-03T21:52:18Z"
+ content="""
+> I don't understand how bundling your personal files with tails in an iso and changing some configuration files would be considered a fork.
+
+I admit the *fork* word was perhaps a bit too strong, but what I meant does not depend that much on this exact word being used or not.
+
+It mostly depend on what one means with \"Tweak your files and
+configure tails to your liking\". Some may mean changing the
+desktop background, some others may mean changing the system
+behaviour in more drastic ways. It's not clear where exactly the
+result becomes a fork.
+
+Please note, however, that going through the remastersys step,
+even if it's merely to change the desktop background picture, may
+have unexpected consequences: use at your own risk.
+
+In any case, regardless of whether it's a fork or not, the Tails
+team won't support such customized versions of Tails: we don't
+have the means, nor are interested to, support a general purpose
+operating system that everyone customizes to their liking.
+
+"""]]

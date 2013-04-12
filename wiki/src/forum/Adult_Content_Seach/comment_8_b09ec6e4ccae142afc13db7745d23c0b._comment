@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Settings - Generate URL"
+ date="2013-03-20T00:21:00Z"
+ content="""
+I went to the StartPage Settings Menu and turned off the Video Family Filer and set the Web/family filter to \"do not filter my results\". I then clicked  \"generate url\". I then clicked \"here\" as instructed to set this URL as your home page. I then closed  and restarted Iceweasal to test. The settings had not been maintained and had reverted back to the \"kiddie filters\".
+
+Any suggestion? I have v0.17 on a USB stick.
+"""]]

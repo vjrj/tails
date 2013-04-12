@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-26T01:20:41Z"
+ content="""
+
+> I have a fast connection so I'm unclear why this would be.
+
+Were you trying to download the iso image via the Tor network?  If so, some report problems recently (heavy loads?  denial of service attacks?)
+
+There is a known problem with http downloads which can cause a download to be cut off before finishing.  Using wget with the continue option seems to solve this problem.  If you are using your current Tails do download the iso image of the upgrade, wget comes with Tails.
+
+
+"""]]

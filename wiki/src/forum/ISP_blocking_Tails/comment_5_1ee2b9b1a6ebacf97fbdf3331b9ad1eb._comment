@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-20T01:52:39Z"
+ content="""
+>> So the vidalia icon just doesnt show as connecting? Or does it connect and but it doesnt populate the relay list? Or does it do that but it doesnt connect to any relays?
+
+Some times  the Vidalia icon doesn't even show up at all. Some other times it gets stuck at 50%, when it fails to obtain relay information.
+
+Since TBB and Liberte work just fine, I am wondering if this has something to do with the way Tails connects to the Tor network. 
+"""]]

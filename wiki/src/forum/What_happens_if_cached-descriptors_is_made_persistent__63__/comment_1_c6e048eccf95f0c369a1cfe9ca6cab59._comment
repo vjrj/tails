@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-20T03:36:19Z"
+ content="""
+I found this that explains what happens:
+
+https://tails.boum.org/contribute/design/Time_syncing/
+
+I dont see why though it cannot use the system clock of the bios, which is usually always correct. 
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-04T19:54:51Z"
+ content="""
+There are  logged-in sessions as the amnesia user in virtual consoles 1-6. See /etc/inittab:
+
+    1:2345:respawn:/bin/login -f amnesia </dev/tty1 >/dev/tty1 2>&1
+    2:23:respawn:/bin/login -f amnesia </dev/tty2 >/dev/tty2 2>&1
+    3:23:respawn:/bin/login -f amnesia </dev/tty3 >/dev/tty3 2>&1
+    4:23:respawn:/bin/login -f amnesia </dev/tty4 >/dev/tty4 2>&1
+    5:23:respawn:/bin/login -f amnesia </dev/tty5 >/dev/tty5 2>&1
+    6:23:respawn:/bin/login -f amnesia </dev/tty6 >/dev/tty6 2>&1
+
+So, it is perfectly normal, but different from normal GNU/Linux distros, where you have gettys running in the virtual terminals (the \"login:\" prompt).
+
+"""]]

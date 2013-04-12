@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-06T07:42:46Z"
+ content="""
+> i get input/output errors
+
+Then perhaps you're experiencing a hardware failure.
+
+Else, that's probably just the filesystem that needs to be checked (and is therefore mounted read-only).
+
+Please try repairing the filesystem with the GNOME Disk Utility's *Check Filesystem* feature.
+
+If this does not work, please [[send us a complete bug report|doc/first_steps/bug_reporting]] from the system just after you've tried to clone and upgrate.
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-08T17:19:40Z"
+ content="""
+No OP here. With LAN you mean SSHFS? I was puzzled at first that my local servers are directly reachable at all. This was differente in earlier versions?
+
+@OP: One workaround. Plug a USB Stick into the host. Using the VirtualBox menu you can attach/detach the USB from the guest, hence switching it between Host & Guest (it will appear either inside the TAILS vm or outside in your (Windows) host.
+"""]]

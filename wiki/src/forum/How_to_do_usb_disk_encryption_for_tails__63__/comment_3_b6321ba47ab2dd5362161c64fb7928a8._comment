@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-14T23:30:57Z"
+ content="""
+Further thoughts:
+
+* you can try to keep a USB stick on your person at all times, but that also be dangerous if you are subject to random \"stop and search\", so...
+* if a Tails live USB stick ever leaves your sight, I agree that an adversary could mess with it
+* I  think that it might be harder to mess with an encrypted USB stick which holds data
+* depending upon the level of chaos in your locale, your adversary might find it faster to just grab you instead of letting you do your thing while they snoop
+* on balance, I suspect the best compromise may be to boot Tails from a R/O DVD (harder to substitute unnoticed), and to use encrypted USB sticks sparingly to store sensitive files.
+
+"""]]

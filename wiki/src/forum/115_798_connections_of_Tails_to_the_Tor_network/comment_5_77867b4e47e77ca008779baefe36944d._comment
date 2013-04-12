@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-08T09:52:51Z"
+ content="""
+> Tails is about privacy, and Tails team are included in people who should'nt be allowed to violate it in anyway.
+
+Tails is about privacy, yes, but I find it slightly unfair to use
+this as a wide and generic argument like you do. E.g. the Tails
+web browser has a homepage, so it connects to the Internet, and
+even... to our website. This might be seen as a privacy violation
+in some threat models. Please read our [[design
+goals|contribute/design]] to learn what threat model Tails is
+designed to deal with.
+
+> If an auto security message will let Tails team know I have used Tails each and every time, I'd prefer doing it manually.
+
+It will let us know *someone* has started Tails at a given time. That's all. The Tails team does not even get the IP of the exit node being used, as our web hosting provider (boum.org) does not save this information.
+
+> Please mention what is the script used to initiate this connection for people who want to delete it.
+
+`/usr/local/bin/tails-security-check-wrapper`
+
+"""]]

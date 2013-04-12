@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-10T18:37:17Z"
+ content="""
+> As an example, if [an adversary] would be watching the building you are in then I suspect they might see you connect and disconnect from the network at certain times and maybe by process of subtraction know who the computer user is. 
+
+Maybe it would help to be more specific.  Did you have in mind someone like a potential whistleblower under surveillance by his employers IT department?
+
+> (your actual tail/tor activity would be safe).
+
+I would never assume, particularly if the adversary controls the PC or laptop you are using.
+
+I think you are focusing on one possible line of attack while ignoring easier ones which are more likely to achieve the adversaries desired result in less time.  We all face many  possible attacks, and defending against one attack can open us up to another attack.  So we all need to try to prioritize the most likely and/or dangerous attacks and try to behave so as to try to maximize our simultaneous defenses against these high priority attacks.
+
+Overall, I believe it is true to say that Tails is designed to mitigate certain kinds of threats, and the design philosophy would seem to suggest that it is best to frequently reboot Tails, which can be awkward since the design philosophy also seems to argue against booting from a USB stick but rather for booting from a DVD. 
+
+See
+
+     https://tails.boum.org/forum/Another_reason_to_use_Tails:_DOM_storage/
+"""]]

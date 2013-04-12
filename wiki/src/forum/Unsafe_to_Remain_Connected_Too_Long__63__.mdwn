@@ -1,0 +1,7 @@
+I recall having seen one or more comments posted by "Tails" in this forum saying that running Tails and  remaining connected to the Internet for even as much as a few consecutive hours was not advised. "Tails" said that this could potentially allow the origin of one's connection to be traced by an adversary. "Tails" suggested that one should rather shut down and restart Tails, as needed.
+
+Yet, I have not found any mention of such a risk anywhere within the Tails or Tor documentation.  
+
+Would a Tails dev be so kind as to clarify, including specifying some actual time limit if this indeed a concern?
+
+Thank you.

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-13T18:45:55Z"
+ content="""
+@Question ... Does this mean DOM storage does not get wiped after closing iceweasel and opening it again? 
+
+What about the use of new identity? What affect does that have on DOM?
+"""]]
