@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-04-12T08:08:43Z"
+ content="""
+> doesn't this depend upon trusting that your (probably) cheap consumer-grade router is not easily rooted by an attacker using possibly sophisticated state-sponsored (or darknet-criminal-sponsored) malware?
+
+Tails, and Tor in general, is designed in a way so you do not have to trust anyone or anything on your local network or further away, including your router. Only your computer, the system running on it, and the Tor developers need to be trusted, everything else is assumed to be \"enemy territory\".
+
+So from Tails perspective, your router is on the Internet.
+
+This is also why your hostname shouldn't be visible on the network, because your network is not trusted.
+"""]]

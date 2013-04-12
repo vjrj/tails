@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-12T08:58:00Z"
+ content="""
+> Hello, since Tails comes with both a \"safe\" browser (going through TOR) and an unsafe browser (not going to TOR), I am a bit confused about the other online communication software.
+
+The unsafe browser is the only application that is not anonymized in any way. And because of this the Tails developers have named it, written warnings messages and given it a scary color theme, and everything just so you really realize it is not anonymous. Everything else is.
+
+> For example: Does Claws go over Tor?
+
+Yes.
+
+> Everything should go through Tor execept what has specifically excepted. Exceptions include Tor itself, I2P, the time synchronization program and the unsafe browser.
+
+Time synchronization is also torified :)
+
+Sounds like that would be a bit unreliable due to delays, but it is.
+
+> Tails browser is torified, but other browsers like wget will probably not be, unless possibly if you run them through a wrapper like torify.
+
+In Tails all applications (except those already listed) communication is either going through tor, or is blocked by the firewall. It is for example impossible to use wget in a non-torified way.
+
+> Peer to peer protocols cannot be torified because your IP is contained in plaintext in peer to peer communications.
+
+Not necessarily, although that is a common complaint about BitTorrent. If your computer is behind a router with NAT, and the application is torified, the application shouldn't be able to figure out your IP, due to Tails firewall.
+
+> might somehow fail to perform DNS over Tor, which would be a problem for anonymity. TBB appears to do a better job of torifying more clients
+
+TBB doesn't torify other clients at all. You must be mixing it up with something else.
+
+> and Tails probably does an even better job than TBB. Still, I worry.
+
+Yes. Tails is carefully configured to perform *all* DNS request through Tor, even those that otherwise would not have gone through Tor. DNS leaks are probably impossible in Tails.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-11T20:40:13Z"
+ content="""
+Regarding DNS, when using Tor, DNS lookup *should* be performed by the Exit node, which knows the url of the destination and the identity of the Relay node, but should not know the identity of the Entry node (guard or bridge).  The Entry Node, but not the Relay or Exit nodes, knows your IP.
+
+But browsers other than Tails browser, and clients other than those which are successfully torified, might somehow fail to perform DNS over Tor, which would be a problem for anonymity.  This was a serious issue in older versions of Tor.  In recent years, TBB appears to do a better job of torifying more clients, and Tails probably does an even better job than TBB.  Still, I worry.
+"""]]
