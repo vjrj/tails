@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-20T12:17:12Z"
+ content="""
+Please send us [[two complete bug reports|doc/first_steps/bug_reporting]]:
+one bug report when Tails does not manage to connect to Tor, and another one
+when it does.
+
+"""]]

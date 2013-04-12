@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I did some research..."
+ date="2013-03-08T19:43:16Z"
+ content="""
+They seem inject HTML on the pages you're trying to access.
+According to Charlie Douglas, a Comcast spokesperson, their system would not be able to see a potential violation if the user was using a VPN.
+
+So as fair as I know, you won't experience these annoyances while using tails, since they wont be able to detect what you're doing or to inject code on the page you're viewing.
+
+
+
+Sources:
+http://arstechnica.com/tech-policy/2013/02/heres-what-an-actual-six-strikes-copyright-alert-looks-like/
+http://forums.comcast.com/t5/Security-and-Anti-Virus/Constant-Guard-Questions/td-p/945821
+"""]]

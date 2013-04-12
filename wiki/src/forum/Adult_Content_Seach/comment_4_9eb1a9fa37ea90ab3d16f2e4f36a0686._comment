@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-12T00:01:29Z"
+ content="""
+As comment 1 says \"this is not Tails specific\". This is an issue with the search engine.
+
+When comment 1 says \"go to settings and turn off family filters\", they don't mean Tails settings and filters. They mean the search engine's settings and filters.
+
+On startpage (startpage.com) you can access these by clicking \"Settings\" at the top of the page. On the page this links to, you can choose \"Do not filter my results\". You then need to go to the bottom of the page and either click \"Save Settings\" or \"Generate URL\".
+
+Settings on ixquick are accessed in the same way as those on startpage.
+
+On DuckDuckGo you can access the settings by choosing \"More\" then \"Settings\" (More\" can appear at either top or the bottom of the page). If \"More\" is not an option on the page you're on, then you can access the settings at duckduckgo.com/settings. You can then switch \"Safe Search\" to \"Off\" and select \"Back to search\" or \"Home\" to allow you to search with your new settings.
+
+Hope this helps.
+"""]]

@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-08T20:44:26Z"
+ content="""
+urrent published softlayer nodes:
+
+     IP    name   geolocation         fingerprint  version; OS  bandwidth
+     74.86.24.19	reverse.softlayer.com	Dallas, Texas, US	ArikaYumemiya	c54d78884530537c491ba10344d5d411edaeb341	0.2.3.25; FreeBSD	1736
+     173.192.216.78	reverse.softlayer.com	Dallas, Texas, US	Unnamed	724239c34885519a4baf4438d254c45cfdc49260	0.2.3.25; Linux	1500
+     50.97.1.36	reverse.softlayer.com	Dallas, Texas, US	Nitr0x	8d1fe1553c8ad38f2c7a052e39762360f08f3249	0.2.3.24rc; Windows_Server_2003_server	119
+     50.97.3.23	reverse.softlayer.com	Dallas, Texas, US	HeatingJelly	4163a6826466422113cbf626cd84918cbd352b01	0.2.3.25; Windows_Vista_server	57
+
+Current published nodes in Dallas, TX include some big bandwidth nodes
+
+      96.44.189.102	herngaard.torservers.net	Dallas, Texas, US	herngaard	80f870dd215a0c56005266a71c46f92f39f1973b	0.2.4.11-alpha_on_Linux	37950
+      198.154.114.53	torsrvo.snydernet.net	Dallas, Texas, US	Ellum	5818976931466f661964f9bdec43241c45931bc4	0.2.3.25_on_Linux	1780
+      74.86.24.19	reverse.softlayer.com	Dallas, Texas, US	ArikaYumemiya	c54d78884530537c491ba10344d5d411edaeb341	0.2.3.25_on_FreeBSD	1736
+       173.192.216.78	reverse.softlayer.com	Dallas, Texas, US	Unnamed	724239c34885519a4baf4438d254c45cfdc49260	0.2.3.25_on_Linux	1500
+
+and some smaller bandwidth nodes which I believe are operated by Roger D.
+
+The NSA does have major facilities in Dallas and San Antonio, TX.
+
+One of these is allegedly a backup for the Utah Data Center.
+
+This is all public information, so I hope all will agree, not \"inconsistent with US foreign policy objectives\" and thus allowable to mention here.
+
+
+"""]]

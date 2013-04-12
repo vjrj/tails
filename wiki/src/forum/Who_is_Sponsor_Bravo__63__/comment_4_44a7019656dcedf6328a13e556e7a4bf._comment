@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-15T02:59:54Z"
+ content="""
+Tails is saying that these people need to give permission to be exposed before he will do so. Understandably these people might not want to be associated with a tool of government subversion so they stay hidden, arent we all doing the same? I dont think its necessarily a sign of malicious intent, though if it were found that tails was accepting a questionable sponsor then it could ruin the entire project.
+
+What we need more than transparency is a security researcher to audit the code, as it doesnt appear anyone has to date. 
+"""]]

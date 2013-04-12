@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-27T10:41:38Z"
+ content="""
+1.) Are there situations where using a VPN would raise less a flag (to an ISP, gov, etc.) than using Tor?
+
+2.) What DOES an ISP see when one connects via a bridge?
+
+Even if they don't see that it's a bridge to Tor, surely they see something that differs from normal traffic?
+"""]]

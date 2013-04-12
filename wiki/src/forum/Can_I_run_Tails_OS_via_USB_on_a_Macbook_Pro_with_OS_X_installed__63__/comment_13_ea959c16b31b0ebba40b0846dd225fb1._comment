@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="boot ISO from USB with refit"
+ date="2013-03-14T16:35:27Z"
+ content="""
+Ok, using the below method will only work with 64 bit linux ISO's
+http://unix.stackexchange.com/questions/57964/booting-ubuntu-from-usb-on-a-mac 
+Tails is still 32 bit ISO and this method won't work with Intel macs, but might work with G4's and G5's. I think tails is possibly going 64 bit so this method will probably work then... but CD booting still works fine for Intel Mac's in the meanwhile.
+"""]]

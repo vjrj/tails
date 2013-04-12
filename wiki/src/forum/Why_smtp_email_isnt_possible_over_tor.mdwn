@@ -1,0 +1,5 @@
+https://www.torproject.org/docs/faq-abuse.html.en#WhatAboutSpammers
+
+>First of all, the default Tor exit policy rejects all outgoing port 25 (SMTP) traffic.
+
+I guess the question is why is claws included in tails?

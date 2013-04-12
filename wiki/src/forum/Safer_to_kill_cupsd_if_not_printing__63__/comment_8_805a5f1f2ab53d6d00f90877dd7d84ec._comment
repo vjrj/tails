@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-12T12:00:48Z"
+ content="""
+>Yes, it's always somewhat safer to run less software. 
+
+Yes, I realized that much, but:
+
+1.)Does the security advantage of killing cupsd outweigh the security disadvantage of setting a root password?
+and,
+
+2.) Could killing cupsd, which is altering a default, somehow make one more likely to get noticed by a remote observer of some type?
+
+If it were as simple as \"it's always somewhat safer to run less software.\", then, as an example, there would be no question or dispute that keeping JavaScript *disabled* as much as possible would be preferable. Yet, as both Tails as well as Tor devs have stated numerous times, this is far from simple. And, in fact, both Tails as well as TBB ship with NoScript set to \"allow scripts globally\". 
+
+
+"""]]

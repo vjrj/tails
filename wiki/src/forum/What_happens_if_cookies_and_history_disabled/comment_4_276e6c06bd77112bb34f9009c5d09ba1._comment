@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-04T00:29:10Z"
+ content="""
+Not 2, but I've noticed this also.
+
+In the Tails browser menu, in Tails 0.17 (and other recent editions), using
+
+     Edit -> Preferences -> Privacy -> accept cookies & exceptions
+
+you can choose to allow session only cookies for particular websites, and to block cookies by default.
+
+In recent editions of TBB up to 2.3.25-4, this was also the case for the Tor Browser menu.  But in TBB 2.3.25-4, when you follow
+
+     Edit -> Preferences -> Privacy
+
+you only see nothing at all about cookies, and searching through the entire menu turns up no discernable mechanism for disabling cookies, or allowing session only cookies for some websites.
+
+In the announcement for TBB 2.3.25-4, the Tor Project seems to hint that they believe that allowing users to tweak how they use cookies is somehow \"no longer relevant\".  I have no idea how they came to that conclusion and consider in questionable.
+
+Does anyone know how to tweak cookies in TBB 2.3.25-4?  Do we go into about:config?  Install Cookie Monster add-on?  What?
+
+
+
+
+
+"""]]

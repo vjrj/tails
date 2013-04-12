@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-28T10:23:09Z"
+ content="""
+A few typos there. My bad.
+
+Whenever user opens a fresh iceweasel window, a connection to \"tor check\" is established. Thats the same address as the default home page set in Tails 17.1's iceweasel. 
+
+This continues to happen even if user changes homepage to something else or even leave it blank.
+
+You can test this by monitoring \"network map\" then trying to open iceweasel where you will find said connection check.torproject.org:443
+
+This wasnt happening in 0.17 (previous version of Tails).
+
+How can this be stopped and what is causing it?
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="irritating"
+ date="2013-02-27T03:33:40Z"
+ content="""
+>You \"need\" it if you connect to the internet (i.e. Tor)
+If you don't connect to the internet it doesn't occur.
+
+
+i'm not the OP.
+you write if you connect to inet you need correct system time.
+Thats obviously wrrong.
+Tor docs say Tor doesn't need standardtime per second or per minute.
+
+"""]]

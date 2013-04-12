@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="@Anonymous (23-Mar) -- more detail plz?"
+ date="2013-04-02T15:56:54Z"
+ content="""
+Can you offer a few more details on your install? Also, I don't understand the need for the symlink in /home/amnesia to the .bitcoin directory, which already exists (although it's hidden) in /home/amnesia. I'm a newcomer to Linux, so probably I'm just not following you right.
+
+Also, bitcoin-qt gets to about 80% downloading the blockchain, then quits. Relaunching it produces the same result. Anybody else seeing this problem?
+"""]]

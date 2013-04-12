@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Censorship, really?"
+ date="2013-03-05T20:09:51Z"
+ content="""
+The moderator removed my comment explaining the original motivation for the introduction of entry guards.  Why?  The bounds given come straight from this research paper, which was cited by the Tor Project as the explanation for the introduction of entry guards:
+
+     http://freehaven.net/anonbib/
+     The Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems
+     Matthew Wright, Micah Adler, Brian Neil Levine, and Clay Shields.
+     ACM Transactions on Information and System Security, November 2004, pp 489-522
+
+As I pointed out, the arguments given in that paper (and very badly described in the Tor FAQ) make several mathematically convenient assumptions which are strongly violated by real Tor clients and the real Tor network.   In particular, as I pointed out, the nonuniform distribution from which Tor nodes are chosen in building circuits can only decrease the time required to identify *all* Tor users.  And the fact that half of all Tor traffic is carried by only a few dozen operators.
+
+I was not urging anyone to panic or to stop using Tails, only that we all discuss these issues.  Why censor mathematics?  Isn't this just what Aaron Swartz wanted *not* to happen?
+
+Before you mention Tor-talk, I feel that Tor-talk is unusable since
+
+* it is very hard to follow threads in a mailing list
+* it is very hard (impossible?) to participate anonymously in a mailing list
+* historically, Tor-talk offers only poor quality responses to technical questions
+
+"""]]

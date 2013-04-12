@@ -1,0 +1,11 @@
+I recently burned the newest version of tails because I thought this might be caused by my old version being outdated or something strange.. but it persists on the new version as well.  Keep in mind I have successfully ran tails on this machine a few weeks ago.
+
+I downloaded the iso and verified it and all was well.  I then burned the iso with imgburn to a dvd and booted from the dvd on startup.  When I get to the tails menu I can choose either live or live (failsafe) and this error occurs in both.
+
+[url=http://imgbin.org/index.php?page=image&id=12691][img]http://imgbin.org/images/thumbs/ext12691.png[/img][/url]
+
+The error is "No caching mode page present.  Assuming drive cache: write through".
+
+The numbers on the left just scroll and count indefinitely.  I believe i was up to around 1000 after letting it just run last night hoping something would change but no luck.  
+
+Any help would be great and if you need furter details from me I will be more than happy to do my best to provide this to you.  Thanks.

@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-04T22:06:21Z"
+ content="""
+> please let Tails team get on with their productive work rather than them helping people out who seemly cannot be bothered to learn to use search engine or spend a bit of their own time reading up on basic stuff. 
+
+I don't disagree with the proposition that the developer's time is better spent elsewhere, but I don't think this means that the rest of us cannot carry on a useful discussion.
+
+A useful but incomplete compendium of privacy research papers is
+
+      http://freehaven.net/anonbib/
+
+Note that some of these specifically discuss correlation attacks on hidden services.
+
+(Aaron Swartz wanted to ensure that all such papers are available to everyone, and I believe this would clearly be in the best interests of all citizens.)
+
+I believe that those of us with more background can help those with less to understand the gist of the most relevant papers.
+"""]]

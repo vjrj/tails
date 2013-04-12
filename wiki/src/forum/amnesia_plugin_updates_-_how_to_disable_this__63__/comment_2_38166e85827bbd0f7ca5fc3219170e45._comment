@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-05T01:28:50Z"
+ content="""
+>As explained on disable iceweasel extensions auto-update, I doubt there's an actual problem.
+
+If the auto-update feature is disabled, it should be trivial to set the amnesia plugin to disabled. Why should it be enabled at all and what is its function?
+
+>Did you actually monitor network traffic caused by this presumed update?
+
+No, I hope one of the lurkers here could do it and post back the results.  Whether or not it sends or receives traffic, it should be set to disabled. Every new session of Tails I check and it's been updated to the current date.
+"""]]

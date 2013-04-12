@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-03-12T13:19:36Z"
+ content="""
+> Does the security advantage of killing cupsd outweigh the security disadvantage of setting a root password?
+
+Given printing is part of the Tails design goals, I consider it outside of my personal commitment to spend any time researching and answering such custom matters, sorry.
+
+Same for the two other questions.
+
+"""]]

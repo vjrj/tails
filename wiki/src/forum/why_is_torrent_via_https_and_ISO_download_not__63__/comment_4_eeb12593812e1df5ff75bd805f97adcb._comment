@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-27T10:32:14Z"
+ content="""
+> why is torrent via https and ISO download not?
+
+Because the server that hosts our website and the torrent
+provides HTTPS, while not every mirror in our pool does (and even
+if it did, then we would have to get them certificates, which
+might be tricky).
+
+But really, what would an HTTPs ISO download get you?
+"""]]

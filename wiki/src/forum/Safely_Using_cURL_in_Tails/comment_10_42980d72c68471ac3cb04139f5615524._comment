@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-03-12T12:39:57Z"
+ content="""
+>This is not a free script auditing service, sorry. 
+
+First, I'm not really clear on either the difference between a script and a command *or* how that difference might be relevant here.
+
+Second, Perhaps I am missing something but where should one ask whether something is safe in **Tails**, if not in the **Tails** forum?
+
+@9: 
+
+1.) How would one know which `wget` commands and/or scripts would be safe to execute in Tails (i.e., would not break the anonymity protections that Tails provides)
+
+2.) I had tried in the past to achieve the same functionality with wget, using whatever command or script I had been able to find. It didn't work as effectively/efficiently for me. (Just one problem that I recall specifically was that the thumbnails were not excluded.) I'm not saying there aren't commands and/or scripts for wget that would achieve what I want as well, if not better than the command/script I posted for curl. I'm just  not familiar.
+"""]]

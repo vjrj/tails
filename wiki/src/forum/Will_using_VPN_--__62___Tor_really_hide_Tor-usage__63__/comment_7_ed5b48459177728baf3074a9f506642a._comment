@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-09T02:56:05Z"
+ content="""
+Maybe tails should open up a tor specific forum so he can stop telling people to go to some nonexistant place. 
+
+Look OP, a bridge just a VPN specifically for TOR, theres no way to know its a tor bridge unless its published as such, however if all thats going through it is TOR traffic then obviously it will be apparent its a bridge.
+
+The problem here isnt vpn's or bridges, its traffic analysis, and until the tor developers figure out how to obfuscate it properly, there wont be anything you can do to hide it. 
+"""]]

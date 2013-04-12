@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="RE: irritating"
+ date="2013-02-27T19:30:08Z"
+ content="""
+>i'm not the OP. you write if you connect to inet you need correct system time. Thats obviously wrrong. Tor docs say Tor doesn't need standardtime per second or per minute.
+
+*All* Tails' connections are made over Tor. *Large* errors in the local clock can cause problems for Tor. Therefore, to achieve a reliable internet connection from Tails, the system clock must be *reasonably* accurate. Hence the *need* for synchronisation.
+
+The opening paragraph of the relevant page of the documentation:
+
+>Tor (and I2P) sometimes freaks out if they detect too large clock skews. It is therefore important for us to ensure that Tails somehow automatically synchronizes the system time at start in a safe manner.
+"""]]

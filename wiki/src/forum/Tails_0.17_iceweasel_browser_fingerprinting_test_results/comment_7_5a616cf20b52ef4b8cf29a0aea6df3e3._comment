@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-09T19:50:15Z"
+ content="""
+GOT 1 in 2.7million for cookies enabled, 3rd party disabled, js enabled. 
+
+Did the same test, new identity, deleted the site cookie, got 1 in 1.3million.
+
+did the same thing, got 1 in 919 thousand. 
+
+did it again, got 1 in 688 thousand.
+
+did it again, got 1 in 551 thousand. 
+
+Need i go on? Let me guess whats going on here, the code goes something like:
+
+x = math(random);
+OnLoad Print (\"Within our dataset of several million visitors, only one in x browsers have the same fingerprint as yours.\")
+
+If this was a legitimate test working off an actual database containing real information the results would be more or less the same. Browser fingerprinting is a myth, there are billions of internet users worldwide, the odds that whatever plugins and settings you have on your widget based browser are unique enough to identify YOU are approximately 2.4billion to one. 
+
+http://www.internetworldstats.com/stats.htm
+
+
+
+
+"""]]

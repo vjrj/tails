@@ -1,0 +1,13 @@
+
+Hi,
+
+I would like to use webhttrack within Tails, so I installed the last version `apt-get install webhttrack=3.46.1-1`.
+
+A menu entry is added in Applications/Internet. When I click on this, it opens in Iceweasel the following URL : http://amnesia:8080/
+
+Unfortunatelly, the connection fails.
+
+Any clue?
+
+Thanks,  
+Tom

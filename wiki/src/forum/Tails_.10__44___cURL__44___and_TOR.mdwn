@@ -1,7 +1,0 @@
-[NOTE: `curl` has been added to Tails sometime between the time this thread was made and the current release, 0.16. See below for an important question regarding the use of curl in Tails]
-
-Hello,
-
-Does anyone know the best way to get cURL installed on Tails .10 so that it's communications are routed through TOR?
-
-Thanks!

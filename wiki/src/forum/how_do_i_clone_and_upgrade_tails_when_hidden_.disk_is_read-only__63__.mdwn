@@ -1,0 +1,17 @@
+hi there, i accidentally removed my usb drive before shutting correctly (i think). when i next tried to boot from it, it throws a 'boot error' well before the tails menu appears.
+
+i thought the easy fix would be to boot from a dvd-rw of tails 0.17.1 as i usually do when i upgrade tails, and once logged in i started the tails installer followed by 'clone and upgrade'. here is the output:
+
+Your device already contains a LiveOS.
+If you continue, this will be overwritten.
+Press 'Next' if you wish to continue.
+Removing existing Live OS
+Unable to remove directory from previous LiveOS: [Errno 30] Read-only file system: '/media/Tails/.disk/8(])i\xe2\x95\x9d\xe2\x8c\xa0\xc2\xbf.\xe2\x95\x9b\xc3\xa7\x18'
+
+i cannot find any way to change the .disk folder from a read-only filesystem using chmod so that tails can be upgraded (i get input/output errors and the files look like random ascii), nor can i delete that folder or any of the files within it using either chattr, rmdir or rm. i am thinking i have screwed the tails partition and need to do a complete reinstall, but how do i do that without losing my encrypted persistent partition data?
+
+is there a root command i can use instead to force the upgrade?
+
+also, i can access the tails filesystem on the usb drive at present, so if i have to do a complete reinstall, what files should i copy before i do a complete reinstall of tails?
+
+thanks in advance!

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-03-10T17:35:34Z"
+ content="""
+>> The idea is to make it harder for an attacker who gained control of your desktop user account to escalate their priviledges to administrator ones, and use this to deanonymize you.
+
+Can this be achieved by any means other than a kernel exploit? If so, could you provide examples of alternate attack vectors? That is, is it possible for an attacker to obtain direct root access by exploiting a vulnerability in Iceweasel or Thunderbird?
+"""]]

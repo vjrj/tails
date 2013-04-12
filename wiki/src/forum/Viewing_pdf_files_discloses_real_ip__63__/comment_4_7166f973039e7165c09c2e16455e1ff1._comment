@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-22T09:10:37Z"
+ content="""
+> Does viewing pdf files pose an ip leak threat ?
+
+In the context of Tails, no, it does not, unless the PDF is carefully crafted to exploit an unpatched Evince vulnerability + an unpatched local priviledge escalation vulnerability.
+
+"""]]
