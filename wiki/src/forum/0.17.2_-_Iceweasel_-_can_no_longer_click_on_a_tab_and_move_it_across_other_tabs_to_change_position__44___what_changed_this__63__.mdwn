@@ -1,0 +1,3 @@
+When I have a lot of tabs open in Iceweasel, I like to rearrange one or more, by clicking and dragging them across the other tabs until I find the best position among them all and release the mouse button to lodge the tab into where I want it.
+
+With Tails 0.17.2, I cannot click and drag tabs. What changed to disable this and why? Is it Torbutton related? Does it protect against some kind of security vuln?
