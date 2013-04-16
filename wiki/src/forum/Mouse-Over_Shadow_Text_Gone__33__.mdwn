@@ -5,3 +5,15 @@ NOTE: I reported this bug via WhisperBack about a week ago but still have not fo
 Since 0.17.1, links and images on web pages that are supposed to display "shadow" boxes with text when hovered-over with the mouse, no longer do so. The same is true when hovering-over the AdBlock Plus icon in the Add-on bar; the box containing text on "Status:" and "Blocked items on this page:" no longer appears. Same for the text-boxes when hovering over /tabs/ in Iceweasel.
 
 Note that I have not found the "Unsafe Browser" in Tails nor the Tor Browser Bundle to be affected by this problem.
+.............
+
+P.S. When I first tried making this post, I got the following:
+>Error: /var/www/boum.org/amnesia/forum/Cannot_customize_Iceweasel_Toolbars/index.html independently created, not overwriting with version from forum/Cannot_customize_Iceweasel_Toolbars 
+
+What?!
+......
+Then:
+
+>While you were creating this page, someone else independently created a page with the same name.
+
+>The edit box below contains the page's current content, followed by the content you entered previously, to allow you to merge the two together before saving. 
