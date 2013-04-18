@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-18T20:09:33Z"
+ content="""
+i was wondering about this too.  are there any cheap, disposable, netbook type computers that have an unalterable BIOS?  then we can just remove the HDD and use TAILS only with the CD then we are basically impervious to any malware surviving on subsequent reboots at least?
+
+we should compile a list of cheap netbooks like this if any exist
+"""]]
