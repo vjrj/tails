@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-12T12:23:25Z"
+ content="""
+Adding to #8 above:
+
+3.) Are there any other adverse effects that killing cupsd could have?
+
+This seems like a perfectly reasonable question, given the general advice not to change any of the defaults in Tails unless one knows exactly what one is doing and is prepared to accept all risk.
+
+Likewise for 1) and 2) in comment 8. Specifically:
+
+- because of the Tails greeter advises not setting a password unless necessary, \"for greater security\" (reason for question #1)
+
+- in light of what was pointed-out regarding JavaScript (reason for question #2)
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-18T13:47:31Z"
+ content="""
+>how are they going to know your hostname?
+
+I guess if you are a client on a network, the hostname appears on the router you connect to.
+"""]]

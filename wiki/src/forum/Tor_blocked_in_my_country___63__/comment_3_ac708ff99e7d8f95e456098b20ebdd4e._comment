@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-13T03:41:32Z"
+ content="""
+That may be true for some countries of residence, but not for all.
+
+I have recently been experiencing very similar error messages when my Tails 0.16 system (booted from a R/O DVD) is first starting Tor.
+
+I wonder if the problem could be some mismatch between Tor and Tails due to the recent somewhat botched TBB update.
+
+"""]]

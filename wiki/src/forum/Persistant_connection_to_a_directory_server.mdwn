@@ -1,0 +1,3 @@
+Is it normal Tor behaviour for a persistant connection (1+ hrs) to a directory server? 
+
+netstat showed 4 connections (entry guards and a random directory server)

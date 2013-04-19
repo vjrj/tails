@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 37"
+ date="2013-03-05T12:50:45Z"
+ content="""
+ok i got tails to work on my retina mackbook pro, using unetbooting :)
+
+1: i went into bootcamp and created a windows 7 install onto my usb stick..
+
+2: i then used unetbooting and burnt the iso image to the usb stick..
+
+3: voila!! tails on your usb :) hope this helps worked for me...
+"""]]

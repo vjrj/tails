@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-21T08:53:52Z"
+ content="""
+>Because it would be dangerous. See Time syncing.
+
+Tor is tolerating a not absolutely correct system time.
+May online time sync is not so good for anonymity/security?
+Only a thought
+"""]]

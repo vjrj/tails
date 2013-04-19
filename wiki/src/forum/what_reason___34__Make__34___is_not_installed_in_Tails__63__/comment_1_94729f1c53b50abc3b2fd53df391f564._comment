@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-11T09:17:38Z"
+ content="""
+Please say why you think \"make\" should be part of Tails. If not this thread is likely to get completely ignored by the Tails developers.
+
+You can always install make yourself:
+
+apt-get install make
+"""]]

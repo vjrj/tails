@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-09T08:40:49Z"
+ content="""
+@ Tails:
+
+Thanks, that's what I expected, but it's good to hear it from you.
+
+@ Juggler:
+
+Thanks, but do you have anything more detailed on how the browser redirection works?  Maybe they poisoned their own DNS cache to send subscribers to faked replicas of popular sites which check the IP against a list of suspects and then either redirects them to the genuine site or presents one of the warning pages?
+
+"""]]

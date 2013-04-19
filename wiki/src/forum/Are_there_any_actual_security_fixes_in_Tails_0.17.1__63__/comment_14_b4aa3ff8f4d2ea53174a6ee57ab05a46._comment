@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-03-26T17:32:48Z"
+ content="""
+Does Wheezy have any security features that can flow into Tails?
+
+Maybe one day we will get PaX/GRSecurity / ASLR / AppArmor
+
+
+References:
+https://tails.boum.org/todo/Mandatory_Access_Control/
+https://tails.boum.org/todo/harden_Iceweasel_at_compile_time/
+
+
+\"One of the Wheezy release goals is to build as many packages as
+possible with a hardened toolchain by means of dpkg-buildflags:
+http://wiki.debian.org/ReleaseGoals/SecurityHardeningBuildFlags\" https://lists.debian.org/debian-devel-announce/2012/02/msg00016.html
+
+"""]]

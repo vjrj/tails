@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-02-24T22:09:37Z"
+ content="""
+
+@ 7:
+
+> would Tails developers consider switching to a Linux distro that is stable and at the same time has most of the security fixes applied?
+
+That describes Debian stable, and that's why Tails is based on Debian stable.  The author of comment 6 simply had a misunderstanding about how Debian updates work.
+"""]]

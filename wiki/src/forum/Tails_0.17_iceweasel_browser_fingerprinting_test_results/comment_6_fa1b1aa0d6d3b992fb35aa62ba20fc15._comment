@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-09T10:59:52Z"
+ content="""
+Glad to see others are also using panopticlick!  
+
+Just don't forget that the limitations of the Panopticlick dataset when you are interpreting your results.
+
+Panopticlick is basically like a \"consumer survey\" in which browsers answer a small questionnaire.  There is a well-established theory of surveys within statistics, and it turns out that when a survey is done correctly, a *small* sample can actually be *better* than a large one, provided that it is a *random* sample.  This may seem counterintuitive, but it is nonetheless true.  The catch is that you need to proceed very carefully to obtain a truly random sample.  Experts know how to do that, and that's why samples of a few hundred randomly chosen voters give more accurate results about the outcome of a national election than does trying to actually tabulate all the votes, for example, which is subject to errors and malicious manipulation.
+
+Unfortunately, as EFF itself admits, Panopticlick does not even attempt to take a random sample from the population of all webusers, or even among all those whose browsers state an English language preference.  But the results of the Panopticlick test may give a rougly valid indication of approximately how anonymous you may be within the population of EFF-aware surfers who are concerned about privacy.
+
+I have been using Panopticlick and the jondos anonymity test for some time, and my results are also consistent over time.  Also, I have also consistently found that disabling cookies and javascript entirely dramatically improves both jondos score and panopticlick score.   But to repeat, that may just mean that people who choose to disable cookies entirely and javascript entirely become harder to distinguish among the set of privacy nuts, not among websurfers generally.  
+
+However, there just might be an expectation of future good news here: as more and more people become aware of just how intrusive is the pervasive monitoring by ad-brokers such as Datalogix, Epsilon, Acxiom, and BlueKai:
+
+     https://threatpost.com/en_us/blogs/facebook-partners-data-brokers-better-ads-030813
+
+some observers believe that the set of \"privacy nuts\" may be expanding to a large minority (or even, in some countries, a majority) of citizens:
+
+     https://www.infoworld.com/d/consumerization-of-it/maybe-just-maybe-users-can-win-the-privacy-war-213222
+
+In this connection, it seems notable that among visitors (or rather, visits) to the Panopticlick site:
+
+* 1 in 4 users disable cookies entirely
+* 4 in 7 users disable javascript entirely (that is up dramatically from 2 in 7 just a few weeks ago)
+
+But only 1 in 600 browsers have same user agent string as Tails 0.17, which is more than ten bits of information.  Since 33 bits is in principal enough to identify anyone uniquely (at least until the human population doubles or halves), the current FF ESR user agent string is still sufficiently rare that it gets our adversaries about one of the way, logarithmically speaking, to this goal.
+
+The previous FF ESR version did much better, so I expect this dismal figure will improve considerably over the next few months. 
+
+A thought: neighborhood block parties occur annually in many cities, and it would be nice for activists to go around handing out thousands of fliers and free Tails DVDs at these events.
+ 
+"""]]

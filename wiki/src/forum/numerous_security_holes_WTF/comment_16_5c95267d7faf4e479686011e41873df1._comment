@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-04-03T11:48:03Z"
+ content="""
+I notice that liberte linux has far fewer updates, the last being from 2012. I understand that Tails is debian and liberte is hardened gentoo. Can I assume that hardened gentoo requires less updates than debian or is liberte flawed for having far fewer updates than tails? Yes this is a forum about tails, but in deciding to choose tails I need to look at why it does things differently
+"""]]

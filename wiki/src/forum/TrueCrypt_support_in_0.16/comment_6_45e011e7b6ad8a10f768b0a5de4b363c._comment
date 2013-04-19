@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-10T21:41:07Z"
+ content="""
+OP: TrueCrypt working fine now. Don't know what specific operator error was before. I thought I had type very carefully, but evidently no. 
+
+If anyone else browsing thread to help get TrueCrypt work in Tails, be advised that you also need create administrator password in Tails Greeter (widget form that asks \"more options - y or n?\" - setting admin pw is one of options). When you mount volume in TC, you be prompted for TC authentication for volume, then for the Tails adminstrator pw specified.
+
+Thanks for the much help!
+"""]]

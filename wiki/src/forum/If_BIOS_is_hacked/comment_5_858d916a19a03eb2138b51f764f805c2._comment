@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-19T11:47:30Z"
+ content="""
+>For a Tails USB installation without persistence, there is actually a way to check against tampering that one can do as often as one likes: Checking the cryptographic hash (sha256 or sha1 sum) against that of the isohybrid ISO from which the stick was made. The two hashes should match.
+
+Could you provide a specific step-by-step guide on how to check the cyptographic hash please?
+"""]]

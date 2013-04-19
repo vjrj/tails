@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-17T02:44:22Z"
+ content="""
+>when an attacker has physical access to the system exactly when, by luck, a Tails user forgot to shutdown their Tails.
+
+Well, there's also the possible case of a user losing consciousness or even dying while a Tails session was running. 
+
+In such a case, info that could damage others or a movement/cause itself could be obtained by whomever discovers the running computer.
+"""]]

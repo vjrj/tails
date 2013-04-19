@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-06T22:23:01Z"
+ content="""
+Who are they?
+
+How can I express my concerns anonymously?
+
+Of course I don't want the Tails developers to stop improving Tails, or the Tor developers to stop improving Tor.  
+
+But you developers need to recognize that almost all of your userbase knows the dangers in subscribing to a public mailing list (and because we can anonymously read the web-archives of Tor-talk, we know how poor are responses to technical inquiries or beginner help requests at Tor-talk), and therefore are unable to participate in Tor-talk.  And I am sure that you know as well as I do how badly is needed a privacy forum where people like this person can get good advice on how to blow the whistle using tools like Tails, without running insane risks:
+
+     https://tails.boum.org/forum/Any_Risk_Re-using_Email_n_Facebook_accounts_under_observation__63__/
+
+We all have a responsibility to try to help avoid the occurance of similar dangerous misunderstandings.   Real whistleblowers are really putting themselves at risk using Tor/Tails in potentially suboptimal ways, right now, and that's why the world needs a forum.
+
+You have said you are in contact with Tor developers and Debian developers, and you need to pass on this message to them.  Please,   Others here have supported my call for a proper forum supporting posting by unregistered users, on the grounds that if a database doesn't exist at all it cannot be seized from the webhosting company, for the simple reason that such a forum is very obviously badly needed.
+
+I can't help set it up, but I can help answer newbie questions at least.  If all of us do our bit, we can improve the situation before too many more whistleblowers are harmed.
+"""]]

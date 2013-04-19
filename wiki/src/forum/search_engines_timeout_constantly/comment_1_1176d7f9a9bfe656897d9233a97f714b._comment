@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-19T23:41:18Z"
+ content="""
+I haven't had quite that problem, but I've had strange problems in recent days with both TBB and Tails which may result from RESET packets injected somewhere by someone (backbone carriers?  Content Delivery networks?  Webhosts?) wishing to break Tor circuits in order to prevent Tor traffic from passing over their wires or reaching their networks.  I've seen this happening recently with both TBB and Tails.
+
+Another unwanted phenomenon I have noticed happening with greater frequency in recent weeks is that when my browser (TBB or Tails browser) issues a GET request, a connection is often (not always) also made the torcheck server, which seems strange (and a bit worrying, since this might allow someone with access to the Tor Project servers to create a weblog of an individual user, although not tied to a real IP unless they are doing something much worse).
+
+I suspect that our problems may mostly be due not to anything the Tails Project or Tor Project are doing, but to actions by third parties.  The global web environment is increasingly hostile to Tor users everywhere.  In particular, \"anti-piracy\" measures introduced in the USA late last year may be adversely impacting the Tor network.  Don't forget that some portion of a large fraction of Tor traffic passes trhough the USA, or uses a node controlled by a company (Akamai) whose primary business involves content delivery.
+
+But it's also possible that the Tor Project may be responsible for *some* of our problems.  It seems that Jacob Appelbaum has recently introduced a more intrusive method of trying to detect malicious interference with Tor by state-sponsored actors.  And as you probably know, about a week ago the Tor Project issued new TBB tarballs, then had to tell everyone not to use them because they introduced new bugs worse than the (serious) security issues they were supposed to fix. On their download page, they said new bundles would be issued \"in a few days\", but so far nothing.
+
+Currently, I believe that the current versions of both TBB and Tails are vulnerable in principle to the Lucky-13 attack, and Tor developers admitted in the mailing list that this could be a serious issue.   Not that I really think this is the source of our problems.
+
+Years ago there were some security problems with the search bar being more easily hijacked by domain squatters, so I got in the habit of typing in the actual URL.  However, in the recent past Tails 0.16 did seem to properly implement the search bar.
+
+
+"""]]

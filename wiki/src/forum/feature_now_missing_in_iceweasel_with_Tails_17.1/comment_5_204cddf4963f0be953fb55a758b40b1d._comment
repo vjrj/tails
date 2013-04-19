@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-30T12:32:50Z"
+ content="""
+> It also adds to security as clip board remains empty as opposed to copy-paste.
+
+The X clipboard (paste with middle-click) won't remain empty, though, so the security benefit is very small, if not non-existent at all.
+"""]]

@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-08T19:51:45Z"
+ content="""
+@ OP:
+
+You and at least four other posters seem to have discovered several servers associated with unknown malware which attempts to report or redirect ssh and email to the malefactor.
+
+A very interesting news story about packet injection (as per past news stories about Paxfire and Phorm) just appeared:
+
+     http://arstechnica.com/tech-policy/2013/04/how-a-banner-ad-for-hs-ok/
+
+I don't see how they are related but instinct tells me it might be worthwhile to look deeper for a connection.  Even if there is no connection, the story should suggest some things you might try to further investigate what is happening when you use Tails.
+
+Possibly important: do you boot Tails from a DVD, or from a USB stick?  You probably shouldn't divulge this information here, but your geolocation and the identity of your ISP might also be relevant to your investigations.
+
+The company mentioned in the Ars Technica article apparently has gone by other names such as \"One Media LLC\" and \"BlueSky\".  The lady who wrote to a disgruntled customer is apparently trying to say:
+
+\"providing internet to customers in the rural USA is a money loser unless we do all kinds of nasty things to our customers like injecting packets in order to inserting our partner's targeted advertising over the original ad in the pages they see\"
+
+This is exactly the kind of issue which is discussed by Susan Crawford in her recent book Captive Audience, about the way that providers like Comcast abuse/cheat customers.
+
+The story is a bit confusing, but apparently this only affects http, NOT https.
+
+I also wonder whether this could possibly be related to the parking scandal in the UK.
+"""]]

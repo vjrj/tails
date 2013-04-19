@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-18T12:29:01Z"
+ content="""
+The files on the Live USB could have been corrupted during the creation process.
+
+Try to re-create the Live USB on another computer.
+"""]]

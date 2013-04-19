@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="following grub entry cures hangup of the booting process"
+ date="2013-04-17T03:46:35Z"
+ content="""
+    Thanks to suggestion by anonymous. My boot process was hanging with unending loop of the debian menu, Following grub2 entry resolved the issue.,
+
+    menuentry \"TAILS 0.16 ISO Live CD\" {
+
+    insmod ext2
+    insmod loopback
+    insmod iso9660
+
+    set isofile=\"<locaton to tails image file>/tails-i386-0.16.iso\"
+    set myUUID=\"<my disk  uuid where tails image is located>\"
+    search --no-floppy --fs-uuid --set=root ${myUUID}
+    loopback loop (hdX,X)$isofile
+
+    linux  (loop)/live/vmlinuz2 boot=live live-media=/dev/disk/by-uuid/${myUUID} fromiso=/dev/disk/by-uuid/${myUUID}$isofile initrd=/live/initrd2.img config noswap nopersistent noprompt timezone=Asia/Calcutta utc=yes keyboard-layouts=us locales=en_US.UTF-8 block.events_dfl_poll_msecs=1000 quiet quickreboot ${spec_opts}
+
+    initrd (loop)/live/initrd2.img
+
+}
+"""]]

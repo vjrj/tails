@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-08T12:18:05Z"
+ content="""
+>>If it worries you, turn of JS and much of it will go away.
+
+>I believe this is untrue and should not be repeated without serious backing information.
+
+What is the mistake? OP refers to unwanted connections to a distinctive set of third party hosts. We haven't seen the problem page but couldn't those connections correspond to retrieving embedded scripts? 
+
+>Completely turning off JS is generally not doable
+
+I don't think I understand! Do you mean that after deselecting Iceweasel's \"Enable JavaScript\", embedded scripts will still be downloaded? Or that JS is still run? I didn't see any suggestion of those in the link. Or are you warning that disabling JS might not be wise for other reasons?.. \"fingerprinting\" etc?
+"""]]

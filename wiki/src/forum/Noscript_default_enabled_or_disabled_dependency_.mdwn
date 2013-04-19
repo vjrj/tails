@@ -1,0 +1,14 @@
+Could someone please help to explain this behaviour. 
+
+
+I have noticed this only with 0.16.
+
+When tails is booted and java is disabled via iceweasel - preferences - content - enable java checkbox prior to connecting a network cable, noscript is disabled via the icon next to the url field. 
+
+If i allow tails to boot with a network cabled attached and do not change the java settings, then Noscript is enabled by default. 
+
+Why is there a difference and how does this occur ? 
+
+
+Thanks in advance for anyone who puts in time to read and respond. 
+

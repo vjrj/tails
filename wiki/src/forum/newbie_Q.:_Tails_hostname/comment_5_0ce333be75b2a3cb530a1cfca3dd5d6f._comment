@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-11T17:43:13Z"
+ content="""
+Regarding interrogating your Tails system, try typing these commands in a konsole (shell)
+
+      $logname
+      amnesia
+
+      $hostname
+      amnesia
+
+      $domainname
+      (none)
+
+      $volname
+      TAILS 0.17.2 - 20130407
+
+      $uname
+      Linux
+"""]]

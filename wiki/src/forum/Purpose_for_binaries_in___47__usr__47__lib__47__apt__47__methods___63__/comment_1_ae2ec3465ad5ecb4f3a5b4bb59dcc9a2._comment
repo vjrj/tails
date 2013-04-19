@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-22T10:29:20Z"
+ content="""
+> Why should these exist in Tails?
+
+If you're curious about technical details, then please learn the technical basics about the OS, e.g. `dpkg -S`, the APT documentation, and perhaps even the APT source code.
+
+"""]]

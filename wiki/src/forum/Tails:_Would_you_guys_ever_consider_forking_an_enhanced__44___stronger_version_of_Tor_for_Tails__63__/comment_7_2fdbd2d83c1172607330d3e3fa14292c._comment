@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-10T09:29:18Z"
+ content="""
+I welcome anyone to implement a better anonymity solution than Tor. Show me the code :)
+
+But please, don't suggest the Tor project has not been working e.g. on stronger crypto: this has been worked on for a while, is now spec'ed out IIRC, and mostly needs some coding time. If anyone has the required skills and time, implementing this may make way more sense than forking.
+
+Also, Tor is much more than a client. It's a protocol, a network and a community of users, developers, relay operators. While forking the code is a git clone away, building such a successful community (that's entirely needed to make the result \"stronger\") takes more time.
+
+But, hey, if you want to fork, fork.
+
+"""]]

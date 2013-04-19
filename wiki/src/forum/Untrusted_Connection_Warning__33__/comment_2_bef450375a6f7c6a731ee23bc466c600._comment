@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-19T19:21:43Z"
+ content="""
+> Sometimes when i browse via Tails some websites, they show the following message/screen of warning, and I want to know if it is completely safe to visit such websites anonymously via TAILS
+
+No, it's not as safe as it could be (nothing is, by the way).
+Tails does not make this more safe. I suggest you learn the
+basics of TLS/SSL, certificate authorities and so on :)
+
+"""]]

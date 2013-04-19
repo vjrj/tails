@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-18T22:24:18Z"
+ content="""
+Someone will probably speak up to say that if someone gains physical access to your netbook or laptop you are toast.  I don't like to hear such comments because I know that \"police work is 90% bluff\"; just because it may not be easy to make your netbook or laptop resist \"unlocking\" even by someone with physical access doesn't mean it is impossible to defeat most such persons.
+
+That said, while it's probably a good idea to set your own BIOS password to slow down an attacker who gains physical possession, in the scenario the OP probably has in mind that won't really help.
+
+I doubt any consumer netbooks/laptops come with \"unalterable BIOS\"; indeed, \"the authorities\" have lists of the backdoor BIOS passwords which BIOS manufacturers put in to \"help\" ISPs \"help\" customers who forgot their BIOS password and are locked out.
+
+But remember, at least if you boot Tails from the DVD, Tails is almost \"amnesiac\".  If you popped the DVD in the try before you rebooted from your \"other OS\", unfortunately, your other OS will probably record the time you mounted the Tails DVD, so the fact that you are using Tails is remembered.  (Curses!)  
+
+If you boot from a USB stick, it is at least more convenient to stick it in the USB port only after the computer is shut down, but booting Tails from USB stick is not really amnesiac because the USB stick permanently stores information, possibly including metadata containing sensitive information.  (At the very least, I think your bash history will keep a diary of every command you ran from the shell, unless you go to some length to disable that.)  Worse, there seem to be some problems in how linux (such as Tails OS) handles USB drives which can possibly result in sensitive information being written to the USB.  Also due to wear leveling, it may be impossible to \"shred\" sensitive files once written to the USB.
+"""]]

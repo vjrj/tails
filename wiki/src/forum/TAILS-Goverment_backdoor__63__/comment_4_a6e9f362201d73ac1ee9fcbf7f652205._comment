@@ -15,7 +15,7 @@ On a more serious note, there are real-world relevant concerns about how sponsor
 1. Transforming Tails into the best possible environment for solving Sudoku puzzles.
 2. Converting Tor into a porn-only online delivery service.
 
-You'd do everyone a favour by investing your energy into whether this is happening instead of dreaming up conspiratorical scenarios of what *could* be in some spy-riddled fantasy world. If some entity is paying us off to put a backdoor into Tails it'd be done in a way so you'd be none the wiser by looking at *the financial details* no matter how transparent we *seem* to be. (At the moment we (claim to have) [[full disclosure|doc/about/financials]]; this year's numbers can be expected early next year.)
+You'd do everyone a favour by investing your energy into whether this is happening instead of dreaming up conspiratorical scenarios of what *could* be in some spy-riddled fantasy world. If some entity is paying us off to put a backdoor into Tails it'd be done in a way so you'd be none the wiser by looking at *the financial details* no matter how transparent we *seem* to be. (At the moment we (claim to have) [[full disclosure|doc/about/finances]]; this year's numbers can be expected early next year.)
 
 Let's get real. **Investigating the code and comparing your [[self-built Tails images|contribute/build]] against those we [[distribute|download]] is the only real way you can know for sure if Tails is compromised**. If you cannot do it yourself, make someone else do it. We strongly encourage it; we've so far received dissapointingly few [[external audits|security/audits]]. :(
 

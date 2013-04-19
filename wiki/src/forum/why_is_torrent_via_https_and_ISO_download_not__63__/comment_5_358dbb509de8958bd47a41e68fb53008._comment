@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-27T20:05:06Z"
+ content="""
+>But really, what would an HTTPs ISO download get you?
+
+I agree that it is not necessary to have a https connection in order to download Tails ISO as long as we have the tails' signing key and the PGP signature of the ISO to verify the download.
+"""]]

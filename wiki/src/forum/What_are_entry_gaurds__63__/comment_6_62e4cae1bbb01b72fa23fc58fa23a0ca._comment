@@ -1,0 +1,47 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-09T20:52:04Z"
+ content="""
+I've been disappointed so often before, but there's been a development which I hope points towards a way forward.
+
+
+From
+
+      http://archives.seul.org/or/talk/Mar-2013/msg00017.html
+
+> 7) Helped talk to more potential people for the project coordinator
+position, and helped talk Tom into being our new project
+coordinator. (Woo!)
+
+From
+
+     http://archives.seul.org/or/talk/Mar-2013/msg00012.html
+
+> Hello! I'm Tom Lowenthal; we may have spoken before, but I can tell
+you all about me later.
+
+> I'm Tor's new project coordinator, starting forthwith. I'm here to
+deal with logistics and *communication*, and all kinds of other
+interfering nonsense *so that Tor folks can focus on the stuff they
+want to work on*, whatever that may be, and whether they're a volunteer
+or compensated. I'm incredibly excited to get started!
+
+(My emphasis)
+
+He even has a GPG key, which is very good.  *But I can't tell from the message whether he is addressing Tor developers only or the wider Tor community.*  Does anyone know?
+
+If Lowenthal was talking about feedback from the userbase, this new position is a very welcome development!
+
+I just hope he is aware of this forum and the calls from several posters for a more usable means of feedback and technical questions from the Tor user community.
+
+Our attempted discussion in this forum of Roger's previous report
+
+     https://blog.torproject.org/blog/trip-report-tor-trainings-dutch-and-belgian-police
+
+may have played a positive role in arousing interest from the Dutch press:
+
+> Apparently when I pointed out that *some [Dutch police] regretted breaking into a Tor hidden service and erasing [the server]*, it caused quite a stir -- not that anybody is actually disputing the \"it didn't work\" conclusion as far as I can tell. I'm trying to use it to make people in the Netherlands communicate with each other; here's how I answered one Dutch journalist who wanted to interview me: \"You're welcome to use what I wrote in the blog post. *Hopefully it will be useful for starting a discussion*. I really think the discussion should be between Dutch citizens and their government though -- I don't want to be the imperialist American coming in and getting into the middle of it.\"
+
+I appreciate that he recognizes that there is a legitimate need to discuss such issues, with a reasonable diversity of views being allowed.  Law enforcement never has any problem airing *their* views, often using a \"friendly\" reporter as a mouthpiece.  The problem is that ordinary citizens who desire anonymity have a much harder time finding a forum willing to let them make their own arguments.
+"""]]

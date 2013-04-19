@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-19T09:35:03Z"
+ content="""
+I believe that receiving that invalid cert warning while running Tor *could* indicate a man-in-the-middle (MITM) attempt. 
+
+I've had a few times when I've gotten such a warning while running Tor/Tails and after clicking-on \"New Identity\" and trying the site in question again, I no longer received the SSL cert warning and all appeared normal again.
+
+Within the last few days, however, Iceweasel continued to display such a warning for one of Google's domains even after repeatedly clicking-on \"New Identity\".
+
+I think it happened when using the search box and then choosing NOT to redirect when prompted with the alert that Google was demanding a Captcha.
+"""]]

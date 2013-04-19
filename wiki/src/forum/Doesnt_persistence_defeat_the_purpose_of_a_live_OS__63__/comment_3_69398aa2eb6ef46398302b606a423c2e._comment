@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-14T23:07:01Z"
+ content="""
+@ OP:
+
+My thoughts:
+
+* booting Tails from a DVD is not entirely incompatible with some persistence, if you are willing to store some data on an encrypted USB stick which you mount after booting Tails from the DVD
+* if you needed to toss something in a river in a hurry, its alot easier to do that with a USB stick than with your laptop.  Dissidents in some countries are using USB sticks extensively to pass around what used to be known as samizdat (publications expressing dissent from the ruling government)
+* there are some issues with trying to \"securely wipe\" a USB stick which everyone should know about (see \"wear leveling\" in Wikipedia)
+* booting Tails from a USB stick is convenient, but not available to users of older laptops (a population which includes most dissidents in many countries), and probably somewhat inconsistent with the \"electronic amnesia\" which is the particular design goal of Tails, particularly given the \"wear leveling\" issue
+"""]]

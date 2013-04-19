@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-25T00:14:18Z"
+ content="""
+How vulnerable was anyone who used Tails 0.17 since the discovery of the \"numerous security holes\"?
+
+Isn't this really an inherent paradox with Tails?
+
+Since:
+a) vulnerabilities are being discovered *continually* ,
+and,
+b) It is simply not feasible for Tails releases to keep up,
+
+the result, inevitably is that any given release of Tails becomes subject to unpatched vulnerabilities within days of being released. 
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-01T11:21:43Z"
+ content="""
+With the latest release of Tor Browser Bundle (2.3.25-4), its cookie settings/behavior are noticeably different than Tails.
+
+Prior to this, TBB and Tails appeared the same in this regard.
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Clarification"
+ date="2013-03-26T13:27:24Z"
+ content="""
+Thank you for taking the time to reply. Apologies for the vague question.
+
+Usually you can choose the algorithm to use Rijndael 128 or 198 etc
+
+Is the encryption standard used to encrypt clipboard with passphrase AES?
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 36"
+ date="2013-02-22T23:53:07Z"
+ content="""
+True problem is persistance on a Mac.  USBs made from Tails USB Installer do not boot. USBs made with unetbootin cannot have persistance.
+"""]]

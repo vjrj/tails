@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-10T06:24:09Z"
+ content="""
+>This is not supported
+
+*What* is not supported?
+
+*Why* do the NoScript settings revert to the defaults each time Iceweasel is restarted?
+"""]]

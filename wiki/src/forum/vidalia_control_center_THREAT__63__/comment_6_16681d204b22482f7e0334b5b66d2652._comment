@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-08T13:31:13Z"
+ content="""
+>Do you mean that after deselecting Iceweasel's \"Enable JavaScript\", 
+
+First, *if* you are going to disable JavaScript, the preferred way to do it is via (the included) NoScript add-on. Simply de-select \"Allow scripts globally\" and JavaScript will be disabled for ALL sites by default.
+
+Disabling JavaScript in Iceweasal/Firefox itself may make you *less* secure at certain sites (I had read this in the NoScript documentation, perhaps the FAQ. I don't have a citation handy but I doubt it would be hard to find.)
+
+As to the rest of what \"Tails\" wrote in \"comment 5\", I am fairly certain that it can be explained/summarized as follows:
+
+>>Completely turning off JS is generally not doable\"
+
+I.e., many, if not most sites require JavaScript for essential functionality (e.g., comments: JS is required just to *read* the comments on most news sites and, on most blogs, at least to *post* comments. More than a few sites require JS even just to read the *articles*. urlvoid.com , a site that allows one to check a URL against multiple databases to see if it is safe, requires JS, etc., etc.) 
+
+So, for most sites, one would have to *selectively* allow scripts for *some* of the domains that call upon them. 
+
+The problem, from an anonymity standpoint, as \"Tails\" wrote is that:
+
+>>turning it [JS] on on a per-origin basis is likely to make you even more fingerprintable
+ 
+>Or are you warning that disabling JS might not be wise for other reasons?.. \"fingerprinting\" etc?
+
+That is *exactly*, *explicitly* what \"Tails\" warned in his/her statement that I quoted just above.
+
+As I understand it (and I don't think \"Tails\" ever meant to imply otherwise), even keeping JS *completely* disabled (i.e., not allowing scripts for *any* domains) may decrease the anonymity of a Tails or Tor Browser Bundle user. 
+
+Why?
+
+Because the *default* configuration of both Tails as well as TBB allows scripts globally. Thus, since it is usually presumed (and there may be some actual data, I don't know) that the *majority* of users retain the defaults, one who changes any of the defaults could stand-out.
+"""]]

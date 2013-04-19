@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-18T22:36:33Z"
+ content="""
+@ OP:
+
+It sounds to me like on one machine your BIOS allows to boot from the DVD drive but on the other you need to go into your BIOS and modify the boot order so that upon boot it will try boot from the DVD drive *before* it tries to boot from the hard drive.
+
+Not to be a nag, but you did carefully verify the validity of the iso image before you burned the DVD, right?
+
+One other idea if changing the boot order in BIOS doesn't help: are you sure you burned the iso image as a DVD and not as a CD?  That you burned an image instead of making a data DVD (which would then just contain a copy of the iso image, not a bootable live DVD). 
+"""]]

@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ username="hypothesys"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-02-11T18:09:21Z"
+ content="""
+(new commenter on this thread)
+
+Even if such were to be a valid suggestion (I haven't checked) I doubt it would archive the desired purpose. 
+
+For one, despite the occasional troll that pollutes this forum, it has a much higher level than places frequented by \"fraudsters, botnet owners and drug sellers\" and many tails users would find distasteful to share such space with them whether they are safely using it or not.
+
+Such dark alleys of the internet, whether or not they should exist to preserve the fundamental freedoms of the individuals using them, do not automatically mean they would be appropriate for all needs. And while many here do defend that the good uses of tor far outweigh the bad, I doubt many of tails user base frequent such fora as opposed to this one. I, for one would not be willing to partake in a community hosted in such a place.
+
+However, since Tails devs have repeatedly said that they do not wish to moderate such forum (and really should not be expected to.. their expertise is much needed elsewhere and they already give so much of themselves..) perhaps TorStatusNet would do, but still would be a very suboptimal solution. From a very quick look despite already having some discussion on tor and anonymity in general (http://lotjbov3gzzf23hc.onion/index.php/group/tor), the information to noise ratio seems low while only reaching a tiny proportion of tor user base and the format does not look inviting to debates either.
+
+Thus for it to be at least feasible (imo) tails devs would have to be willing to link to such forum when off topic threads appeared as well as a link from this site similar to \"for more general discussion on tor and anonymity use this forum instead: link\". But such would be officiating a microbloging (not a true forum) service they have no quality assurance from. In the end it would probably not work.
+
+I must admit I would be much more tempted for a solution \"closer to the devs\" (which may have at least their occasional participation if not moderation) and higher quality. The end result would be something everyone would benefit instead of an unsuccessful attempt which would probably end in a troll infested place and too much paranoia.
+
+A better solution could be one that has been proposed already.. we make an account here ( I already have one but haven't been using it) and we trade anonymity for using pseudonyms and some quality assurance. It's what the devs did in order to be able to develop tails and talk amongst themselves in an organized manner so its is probably an accepted trade off for some of us (at least those in the so called free countries)..it's not like we are committing a crime in wishing and debating what could be done for a better society :/ good anonymity practices aside...
+
+If tails devs chose to use a somewhat shared forum with tor separated with tags but in questions and answer format, solutions could be to ask (nicely of course :) and accepting a no if it is the case :S )the devs for tags such as \"general anonymity\", \"surveillance state\", \"tails related\" and \"tails specific\".
+
+Hopefully they will seize the opportunity to give the community some tools to make their own work simpler.. such as allowing the community to attach/vote posts with the \"Troll\", \"Possible FUD\" and \"Paranoia\" tags to registered users if the forum has some \"karma system\".
+
+Alternatively perhaps they could retain this forum for issues and topics which require debate or more off-topic issues while having a parallel Q&A style forum? All this are possibilities.. what do you think of them? What situation would you prefer? What would the devs prefer?
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="boot order"
+ date="2013-04-13T11:07:53Z"
+ content="""
+usually you use the - sign on a highlighted drive to move it down. sometimes 7 or 8 will move them up or down. the keys at the bottom should indicate how to change the order. but im using windows 7 and i still can't get the usb to boot with usb as the first priority
+"""]]

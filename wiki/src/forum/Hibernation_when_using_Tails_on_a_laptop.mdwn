@@ -1,0 +1,23 @@
+I have a question related to running (or rather ceasing to run) Tails on a laptop arising from the Tails documentation pages and a previous thread in this forum:
+
+     https://tails.boum.org/doc/advanced_topics/cold_boot_attacks/index.en.html
+     https://tails.boum.org/forum/Tool_for_ripping_encryption_keys_from_running_systems_available/#comment-0ec206234c822b6df5e8eceb4b23fcca
+
+As I understand things, it is important to shutdown (and memory wipe) the computer, not to put it in hibernation mode or sleep mode.  See
+
+     https://en.wikipedia.org/wiki/Hibernation_%28computing%29
+     https://en.wikipedia.org/wiki/Cold_boot_attack
+
+As I understand things,
+
+* if you put your laptop in sleep mode, it may appear "off" but actually the contents of RAM are immediately accessible to an attacker, so this is the worst thing you can do when threatened
+
+* if you put it in hibernation mode, the contents of RAM are written to the hard disk, and thus can potentially be retrieved by an attacker
+
+* I think that the chances of this happening are much less if your primary OS is Debian Stable and you used LUKS to encrypt your home, root, and swap partition (but not boot partition, which must be unencrypted), but I'd like to know more.
+
+My questions: 
+
+* Tails is based on Debian Stable, but what happens when you are running Tails on a laptop and it is accidentally or maliciously put into hibernation mode?  Is the hard drive mounted and a hibernation table written there?
+* Suppose you accidentally enter hibernation mode, but later resume and perform a proper shutdown; is the hibernation table deleted or does it remain until the next hibernation?   Does this mean that if you think you accidentally entered hibernation mode at any time, you should change the pass phrase for your LUKS encrypted laptop hard drive?
+* For those laptop users who sometimes boot Tails from a DVD or USB stick, and sometimes boot Debian stable from a hard drive, in Debian Stable, does entering hibernation cause the contents of RAM to written to the swap partition?  What if this is smaller than the size of RAM?

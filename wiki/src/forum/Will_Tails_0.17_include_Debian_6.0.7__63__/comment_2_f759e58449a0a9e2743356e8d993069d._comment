@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-24T16:03:59Z"
+ content="""
+Tails continuously intregrates the latest packages and security fixes from Debian Stable, regardless of Debian's milestone version number. So in a sense the answer is yes.
+"""]]

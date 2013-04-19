@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-22T01:24:41Z"
+ content="""
+@ commentator 1 - you beat me :p
+
+@ OP
+
+As I understand that viewing is fine when using Tails, however some PDF have hyperlinks inside them. Which if you click on them it will open an webpage and the website web-server will read your ip address (the tor exit ip address) and serve its content. The web-server content it could serve up may contain malware or other stuff you do not want.
+
+Also, If I am correct this could be a especially risky if just using non-tails such as tor browser bundle, as it may open a non-tor web browser on your computer, which then will show your real ip address.
+
+I am not fully aware of any other exploits other than you should not use Adobe PDF readers. I only use Linux basic PDF readers and usually disconnect from the internet/network if i need to read a dodgy PDF and the experience seem to be pretty safe.
+
+Another way to be safer could be copy and paste the content of the PDF into an text editor. Then delete the PDF, of course you will lose all the formatting and \"live\" hyperlinks etc.
+
+Hope to have helped
+"""]]

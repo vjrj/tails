@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-05T20:53:33Z"
+ content="""
+(continued)
+
+Rijndael may not be so \"super strong\" after all.  It looked very good when it was adopted by the US NIST for their AES standard after the Battle of the Block Ciphers, but in recent years there has been increasing concern that AES might turn out to be susceptible to novel attacks modeled on techniques from, well, never mind.
+
+I always like Blowfish and am not sure why the Linux Project now seems to deprecate that cipher.
+"""]]
