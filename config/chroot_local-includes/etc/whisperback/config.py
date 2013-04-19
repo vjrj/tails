@@ -65,15 +65,12 @@ html_help = _(
 <p>Read <a href="%s">our bug reporting instructions</a>.</p>
 <p><strong>Do not include more personal information than
 needed!</strong></p>
-<h2>About giving us an email address</h2>
-<p>If you don't mind disclosing some bits of your identity
-to Tails developers, you can provide an email address to
-let us ask more details about the bug. Additionally entering
-a public PGP key enables us to encrypt such future
-communication.</p>
-<p>Anyone who can see this reply will probably infer you are
-a Tails user. Time to wonder how much you trust your
-Internet and mailbox providers?</p>
+<h2>Optional email address</h2>
+<p>Giving us an email address allows us to contact you to clarify the
+problem. But it also provides an opportunity for eavesdroppers, like
+your email or Internet provider, to confirm that you are using Tails.</p>
+<p>You can also indicate an OpenPGP key corresponding to this email
+address, which will allow us to encrypt future communication.</p>
 """) % __get_localised_doc_link()
 
 # ENCRYPTION
