@@ -1,0 +1,6 @@
+Hey guys,
+'nother n00b post, bear with me ;/
+
+So I used the tails usb installer to clone tails to two different usb's, and they just will not boot from my computers. One i found out is on the known bugs list, it is a dell xps L502x so im not expecting anything. the other is a super old toshiba a305d with a new harddrive my friend put in a year ago. I suspect the bios... but alas;
+They both booted fine from the live dvd... except my toshiba didn't data wipe once, and my dell did a few times but now it won't (after the toshiba booted with it). Any thoughts? I'd really like to get something booting from usb so i can save some keys and encrypt persistent volumes, do any of you think liberte might be a better fit for my computers? or will I run into the same problem? Are there any neat little tricks that might fool my comps into booting from usb?
+I AT LEAST want to get that data wipe happenin' again. Thanks for reading :)

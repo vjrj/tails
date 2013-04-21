@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-12T16:08:59Z"
- content="""
-The Walkthrough is unfortunately not up to date -- there's currently no way to activate it easily. It will most likely be inmplemented shortly after the summer. For more info, see this thread: [macchanger](http://tails.boum.org/forum/macchanger/)
-
-Regarding other GUIDs: sure, there are many that can uniquely identify your computer or similar. The problem for the attacker is to get access to it, and that requires them to get into your system, which essentially requires them to exploit some unpatched security issue. But if they get into your system, you're screwed any way.
-"""]]

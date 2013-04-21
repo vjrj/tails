@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-19T20:18:00Z"
+ content="""
+@ Comment 1:  I have blown out (or \"nintendo-ed\") the dvd drive and it didn't change.  The disc is brand new and without scratches too.  I have tried other dvd videos and they work in the same computer as the one that I can't boot tails on.
+
+@ comment 2:  I did verify the ISO image before burning - got a green light.  I burned the image to a DVD.  As far as knowing if I did it as a data cd... im pretty sure I didnt do that.  I can boot tails on my laptop just not my desktop so I assume I burned the file the proper way.  I am a stickler for following instructions.  How do I rearrange the boot order?
+"""]]

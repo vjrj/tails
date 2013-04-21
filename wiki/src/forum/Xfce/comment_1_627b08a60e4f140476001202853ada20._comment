@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="would be nice, but..."
- date="2010-07-24T09:44:13Z"
- content="""
-This would be nice, and there was a [[todo item|todo/flavour_with_lighter_desktop_environment]] about this, but it was closed as T(A)ILS works well with 384MB RAM (and probably 256MB too). Moreover, I don't think we have enough energy/time to maintain a second desktop environment flavour.
-
-"""]]

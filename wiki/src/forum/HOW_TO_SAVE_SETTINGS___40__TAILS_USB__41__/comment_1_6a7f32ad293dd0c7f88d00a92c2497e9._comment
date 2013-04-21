@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-18T06:34:07Z"
- content="""
-my understanding is that there is no persistence in tails at this point.  What I do is save any installers I need on a USB stick and just mount that.  You could also set up a script to enact whatever setting changes you require.   
-"""]]

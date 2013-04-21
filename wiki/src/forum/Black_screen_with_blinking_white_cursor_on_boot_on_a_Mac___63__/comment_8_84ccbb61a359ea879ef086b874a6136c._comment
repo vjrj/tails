@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-04-22T23:32:29Z"
- content="""
-The intermittent boot problem remind me of the issue described by Matthew Garret recently: <http://mjg59.dreamwidth.org/11235.html>. To make a long story short, it looks like some Wi-Fi packets are picked by the firmware and written at
-in the middle of the memory of the Linux kernel. Then it crashes.
-"""]]

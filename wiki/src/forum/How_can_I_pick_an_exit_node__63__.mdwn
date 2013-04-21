@@ -1,7 +1,0 @@
-I am aware of the security risks.
-
-I'm on 0.12. StrictExitNodes doesn't seem to work anymore. I'm not even sure ExitNodes works. None of my configuration changes seem to be working.
-
-AllowDotExit doesn't seem to work either. 
-
-I'm doing "sudo service tor reload" after editing /etc/tor/torrc but nothing seems to take effect.

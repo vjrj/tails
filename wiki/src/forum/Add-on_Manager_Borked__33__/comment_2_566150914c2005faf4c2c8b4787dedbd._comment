@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-08-10T10:22:04Z"
- content="""
-I cannot verify this in a freshly booted Tails 0.12.1. Searching for add-ons in the add-on manager works just as it always have. Could you please try again? Perhaps it was a temporary problem?
-"""]]
