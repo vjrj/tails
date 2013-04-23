@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-23T08:32:10Z"
+ content="""
+Beware that Tails seems to do A LOT to improve just the *basic usability* of Debian Live!
+
+When I tried regular Debian Live it didn't even recognize my *USB ports*! (Same USB ports that work fine in Tails and every other OS I've tried.) 
+
+Never mind any of my wireless adapters, though that I'd expect.
+"""]]
