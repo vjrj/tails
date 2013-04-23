@@ -1,3 +1,5 @@
 If I selected "More options" by mistake , or if I change my mind about setting a password... there's no going back.
 
 This should be changed; there should be a "cancel" or "back" option that will take back to the previous screen.
+
+[UPDATE: It appears that simply leaving the password field blank and proceeding to boot Tails will have the same result as not selecting "More options": No password will be set. (And not, as some feared, result in a *blank* password being set-- an obvious security vulnerability.]
