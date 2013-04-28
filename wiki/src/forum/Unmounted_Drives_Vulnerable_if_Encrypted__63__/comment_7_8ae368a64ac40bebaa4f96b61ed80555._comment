@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-04-28T04:51:11Z"
+ content="""
+@5: I realize, of course, that anyone with *physical* access to any media could easily do whatever they wish to it. But even then, I still wonder how it would it be possible to do either of the following without leaving traces that would be obvious:
+a) even just *format* media that had until then been raw , or,
+b) write *any* data to a volume that was formatted but completely empty
+
+In either case, wouldn't a regular user be able to see what was done? 
+
+Wouldn't Palimpsest, GParted, fdisk or any comparable utility show that a drive or volume had been formatted?
+
+And wouldn't any writing of data to a formatted volume that had been completely empty be visible in any file manager (At least by showing hidden files)?
+
+
+"""]]
