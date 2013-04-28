@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-28T10:47:08Z"
+ content="""
+Some of the boot options are specific to Tails. You shouldn't change them unless you need to. And yes, the documentation explains how to add certain [[boot options|/doc/first_steps/startup_options#index1h1]] but don't modify the existing ones.
+"""]]
