@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 27"
+ date="2013-04-28T10:56:01Z"
+ content="""
+Sorry but I didn't know about remastersys before. That also mean I cannot help you playing with that, neither guarantee anything about the possible security implications.
+
+On the other hand, you might be interested to know that Tails 0.18 will probably include a feature to reinstall additional packages automatically.
+
+"""]]
