@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-29T16:10:28Z"
+ content="""
+thanks for the answer but the only info about boot options is 
+    bridge, to activate the Tor Bridge Mode
+    truecrypt, to enable TrueCrypt
+not alot not even those are also working like \"toram\"... im going to look for the debian live option and post the link here and try some...
+"""]]
