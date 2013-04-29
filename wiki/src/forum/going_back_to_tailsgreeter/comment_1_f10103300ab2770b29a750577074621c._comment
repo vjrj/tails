@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="It's a feature, not a bug."
+ date="2013-04-29T19:22:17Z"
+ content="""
+amnesia@amnesia:~$ ps -A | grep sphere 
+ 3659 ?        00:00:17 monkeysphere-va
+amnesia@amnesia:~$ kill 3659
+
+enjoy it while it lasts...
+"""]]
