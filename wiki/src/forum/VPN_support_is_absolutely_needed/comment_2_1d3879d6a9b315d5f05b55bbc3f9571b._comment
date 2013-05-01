@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-01T08:18:29Z"
+ content="""
+As a workaround you could install the VPN to another PC/laptop/raspberry pi and then connect your tails machine to this computer. If you already run tails in a VM you could set up another VM which runs the VPN and connect this VM to your tails vm.
+"""]]
