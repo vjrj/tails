@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-04-11T11:10:18Z"
- content="""
-0.7 final release is available, you should first download this one and upgrade, as this version has been more tested than the rc2 one.
-
-For truecrypt to work on Tails, please read the documentation : [[support/truecrypt/]]
-"""]]

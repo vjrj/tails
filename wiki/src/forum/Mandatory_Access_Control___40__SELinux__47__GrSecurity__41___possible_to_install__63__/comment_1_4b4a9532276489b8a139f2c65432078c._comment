@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="response"
- date="2010-09-15T12:24:54Z"
- content="""
-grsec needs a patched kernel so you will have a hard time.
-selinux should be more or less supported in Debian Lenny, and T(A)ILS 0.5 is based on Debian Lenny, so you should look for selinux documentation dedicated to Debian Lenny.
-
-"""]]

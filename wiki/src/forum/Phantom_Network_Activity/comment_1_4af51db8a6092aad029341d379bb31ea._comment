@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-05-20T08:40:18Z"
- content="""
-How did you detect this \"phantom network activity\"? Did any active connections show up in Vidalia at the time, and in that case, which?
-
-Do you know how to operate a packet sniffer like wireshark? In that case, logs showing this phantom traffic would be necessary for tracking this down.
-"""]]
