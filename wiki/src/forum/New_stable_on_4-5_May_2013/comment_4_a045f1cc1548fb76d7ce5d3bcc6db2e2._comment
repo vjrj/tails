@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-25T08:50:17Z"
+ content="""
+Tails will stick to the default desktop in Debian. As for any new Debian version, Tails on Wheezy will be a bit more heavy to run and to download, and not only because of GNOME 3. We will probably use the GNOME Classic theme that is less heavy to run than the full GNOME Shell.
+
+Wheezy is planned to come out on the 5th of May and Tails 0.18 around the end of May. So there's no chance Tails on Wheezy will be ready by that time. But as usual for Debian life cycle, Squeeze will keep on being updated for security during some time. So there's nothing to worry about.
+
+To know more about what's left to be done on the migration to Wheezy see that [[ticket|/todo/Wheezy]].
+"""]]

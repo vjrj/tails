@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="VPN inside or outside?"
+ date="2013-04-26T00:45:12Z"
+ content="""
+So you're talking about booting into a VPN? 
+
+Or using a VPN from within tails? 
+
+I'm trying to install my VPN client into my Persistent folder, not so much cause I care that I care that my ISP sees I'm using tails, but because the wireless network at my school wants a Certificate Authority and I was worried some data would go out into the wild naked as it were. 
+So I thought I make a through the TOR relay... I'm not sure if it's a good idea - slow probably...  or I guess I would need a tunnel at each hop?  Or at least at the other end. 
+Hmmm..
+Have I got that right?  Anyway thanks for letting me think that out.
+
+HowardTheDuck
+"""]]

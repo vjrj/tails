@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-04-23T08:07:23Z"
+ content="""
+>You don't have to set a password, you can leave it blank.
+
+Thank you very much for this info!
+
+I was afraid that leaving the password field blank would actually *set a blank password* (an obvious vulnerability). But you are right that if left blank, a password is simply never set at all.
+"""]]

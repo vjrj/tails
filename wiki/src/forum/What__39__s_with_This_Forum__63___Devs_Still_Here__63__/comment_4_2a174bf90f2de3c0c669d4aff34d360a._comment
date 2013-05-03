@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-28T11:09:46Z"
+ content="""
+Thanks for being vigilant.
+
+> May I suggest that in the future, if, say, more than a few days go by without any posts from a Tails dev, that you put a notice at the top of the forum home page and/or the news page to alert people?
+
+We can try to do that.
+
+> Error: /var/www/boum.org/amnesia/forum/Cannot_customize_Iceweasel_Toolbars/index.html independently created, not overwriting with version from forum/Cannot_customize_Iceweasel_Toolbars
+
+That's a common Ikiwiki error message. Maybe a partial rebuild of the wiki failed and then the next build found some dangling pages (independently created). Nothing to worry about I'd say.
+"""]]

@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-24T14:25:02Z"
+ content="""
+>What about empty drives or partitions?
+
+>Is it possible for a remote attacker to install something harmful on an empty drive or partition that would not be detectable-- at least not easily so?
+
+*Local* attacker = trivial. *Remote* = remotely rooting your Tails session. i.e. Not so easy.
+
+>And, even if this would be possible with formatted media, would it also be possible with unformatted as well?
+
+No different. E.g. GPT/21686148-6449-6E6F-744E-656564454649 (ef02 for short) is raw (\"unformatted\") data. You'd still have to locate, load and execute your code - by way of perverting the system BIOS or bootloader or whatever - of course. Could be useful if your payload was too large for a more conventional home (MBR or whatever) esp. as modern MS boxen leave a few MB of space on each medium unallocated just in-case you should ever want to go all LVMtastic. 
+
+>@3: I recall posts, possibly even one from Tails, saying that it is indeed possible for a remote attacker to extract passphrases/keys from RAM.
+
+Of course. Having achieved adequate system access/privileges.
+
+>How difficult such an attack would be to pull-off, I don't know.
+
+Not sure if you're still talking about running code from raw media or reading encryption keys from RAM now... but both should be (and are) easy with root/physical access and difficult without.
+
+"""]]

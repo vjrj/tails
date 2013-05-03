@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-24T00:09:37Z"
+ content="""
+What about *empty* drives or partitions? 
+
+Is it possible for a remote attacker to install something harmful on an empty drive or partition *that would not be detectable*-- at least not easily so?
+
+And, even if this would be possible with *formatted* media, would it also be possible with *unformatted* as well?
+
+@3: I recall posts, possibly even one from Tails, saying that it is indeed possible for a remote attacker to extract passphrases/keys from RAM. 
+
+How difficult such an attack would be to pull-off, I don't know. 
+"""]]

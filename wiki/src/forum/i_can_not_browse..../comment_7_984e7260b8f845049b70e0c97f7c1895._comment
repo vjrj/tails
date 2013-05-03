@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="please wait squeeze-based T(A)ILS"
- date="2010-07-28T16:37:59Z"
- content="""
-According to [the Debian wiki](http://wiki.debian.org/rtl818x), this adapter will be supported properly as soon as we build T(A)ILS images based on Squeeze. Stay tuned, and thanks for bug reporting!
-
-"""]]

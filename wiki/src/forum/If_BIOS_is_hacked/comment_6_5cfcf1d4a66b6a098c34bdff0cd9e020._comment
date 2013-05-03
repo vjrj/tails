@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: comment #1"
+ date="2013-04-19T21:26:51Z"
+ content="""
+When you boot TAILS, there is no need to remove HDDs as the media TAILS is booted from is read only (RO), and the HDDs are not mounted, so cannot be read or written.
+
+As with both Live CDs and Live USBs, this is the case, and any surviving malware in RAM would get wiped when the power is shut down.
+"""]]

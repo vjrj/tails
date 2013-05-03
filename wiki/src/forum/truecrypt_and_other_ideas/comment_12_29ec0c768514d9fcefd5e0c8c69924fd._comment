@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="re: mplayer"
- date="2010-07-24T10:15:44Z"
- content="""
-about mplayer + codecs: please tell us what kind of media you can't view using the bundled GNOME Totem player. We can't afford adding every single piece of software to T(A)ILS, so it would be better to fix our Totem install so that it does the job properly, rather than adding mplayer.
-"""]]

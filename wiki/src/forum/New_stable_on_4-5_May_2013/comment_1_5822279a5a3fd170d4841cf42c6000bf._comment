@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-22T06:56:26Z"
+ content="""
+@ OP
+
+I read on the internet that customers accessing the internet via VPN can leak IP addresses if they are using IPv6 instead of IPv4. Is that correct? If it is, will the same happen to Tails' users?
+
+What you wrote, especially the last paragraph, concerning Debian Wheezy is quite disconcerting. I suppose Tails' developers will not jump on the bandwagon immediately without first spending a few months to test the new OS.
+
+New+stable does not always mean good/safe/anonymous for Tails' users.
+"""]]

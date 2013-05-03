@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-04-29T11:06:17Z"
- content="""
-Exploit could also occur via inadvertently installing a trojan that phones home with a hardware fingerprint or other identity-compromising details?
-
-Means same rules as always: disable all scripts, be careful with plugins and .deb packages?
-"""]]

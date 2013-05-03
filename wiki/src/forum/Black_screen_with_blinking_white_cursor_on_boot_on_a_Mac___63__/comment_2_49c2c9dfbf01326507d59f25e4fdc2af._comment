@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Any External Disks Connected?"
- date="2012-04-16T16:01:21Z"
- content="""
-Are you sure you don't have any external disks connected when booting TAILS? That can cause what you describe.
-"""]]

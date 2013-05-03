@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-23T08:23:51Z"
+ content="""
+Re: HTTPS/SSL flaws, see: 
+[[Rogue SSL Certs in the Wild AGAIN!]]
+--------------
+
+Why, oh why, do dots (.....) always get appended to the previous line (even when a completely separate paragraph, with at least one full line spaced in between)??!!
+"""]]

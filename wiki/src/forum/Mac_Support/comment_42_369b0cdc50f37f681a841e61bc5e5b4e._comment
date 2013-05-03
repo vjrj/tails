@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 42"
+ date="2013-05-02T06:29:07Z"
+ content="""
+Please try [[Mac installation
+instructions|doc/first_steps/manual_usb_installation/mac]] and
+[[report back|doc/first_steps/bug_reporting]].
+
+"""]]

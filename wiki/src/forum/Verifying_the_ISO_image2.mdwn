@@ -1,0 +1,61 @@
+Getting an error message when I try to reply, so trying to make a new thread to reply to the question about verifying the Tails iso using some packages called Kleopatra and MD5 Reborn Hasher.
+
+> Okay, so I've lodged numerous search queries on this website and Google about verifying the Tails .iso image with a program called Kleopatra. People have had the same problem as me and have made threads about it, but most of the responders aren't helpful insofar as they either haven't used the program or they simply urge people to use the search function on this website.
+
+I remember at least one of those.  Sorry to hear you (plural) haven't been able to verify your Tails iso.  You certainly shouldn't use Tails unless you can verify the iso.  Fortunately this should be easy!
+
+I think the only "problem" is really a non-problem: for some reason you insist upon using specific packages (outdated packages, even) to verify the signature of the iso, but you only need one: GPG itself.  If it all possible, you should install this.  It comes in Windows versions.
+
+Continuing, assuming you are able to obtain and install a good copy of GPG:
+
+To verify the iso image you need to have downloaded three files:
+
+* the iso itself 
+* the detached signature
+* the GPG/PGP "signing key" used by the Tails Project
+
+which are named respectively
+
+     tails-i386-0.17.2.iso
+     tails-i386-0.17.2.iso.pgp
+     tails-signing.key
+
+(Really you should pause here to gather some independent evidence that the key itself is valid, but let's skip that step because you are having so much trouble doing the verification.)
+
+In the Linux shell:
+
+     gpg --import tails-signing.key
+     gpg --verify tails-i386-0.17.2.iso.pgp tails-i386-0.17.2.iso
+
+(Note: signature first, file second.)
+
+You should see a message stating that the signature is good, with the date it was signed and a reminder that you haven't yet verified that the key itself is genuine.
+
+Now you can use your DVD burning software (probably K3b) to make a bootable Tails DVD.
+
+If this doesn't work for you, please say what happened when you tried it.
+
+About the possible reasons why others in this forum can't help with the programs you mentioned:
+
+> the alternative for Windows is to use a program on Mozilla Firefox called MD5 Rebound Hasher, which is actually no longer compatible with Mozilla Firefox.
+
+MD-5 is something completely different from GPG.  I am unfamiliar with this "MD5 Rebound Hasher", but from the name it is irrelevant.  But in any case, you shouldn't use outdated software for something as mission critical as verifying the Tails iso!
+
+As for this "Kleopatra" of which you speak, there is another package called Kleopatra which may be much more popular.  From
+
+     https://help.ubuntu.com/community/GnuPrivacyGuardHowto
+
+> Kleopatra is another KDE frontend for gpg that is integrated with the KDE PIM (although you need to install it separately for now). 
+
+KDE is just another desktop environment for Linux OS, like gnome (Tails is closely based on Debian Linux with the gnome desktop environment).  But it seems that the Kleopatra you are talking about is a front end for gpg4win, which seems to be a clone of GPG for Windows, which I am not familiar with.
+
+> So I'm using Windows
+
+If you are concerned about computer security at all, Debian stable would probably be a better choice.  There are free (as in license, as in beer) packages which can run most Windows software on Linux, but I don't know much about them because I don't use Microsoft software.
+
+If you aren't ready to switch from Windows to Linux, you can still obtain a good copy of a live Linux such as Knoppix, which comes with GPG, which you can use to check up on your Windows OS and also to verify goodies like the Tails iso.   You can your live Linux CD to download the files you need and put them on your hard drive, then verify exactly as above, then use the DVD burning software which comes with Knoppix to make the bootable Tails DVD.  And you should be able to use any lightweight live Linux CD/DVD you may have to verify the iso following the steps above.
+
+Or if you know someone with a working GPG, you can put the three files on a data DVD, and borrow the other computer to verify the files, then burn the ISO image to make bootable Tails DVD.
+
+Hope this helps you to verify your Tails iso!
+

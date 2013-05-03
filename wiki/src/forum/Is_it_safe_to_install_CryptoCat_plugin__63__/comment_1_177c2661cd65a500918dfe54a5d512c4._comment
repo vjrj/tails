@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-29T07:23:00Z"
+ content="""
+I know Torchat doesn't work properly in Tails becuse it's designed to use its own copy of Tor, and Tails wasn't designed to allow for that. Pidgin, which comes with Tails supports IRC, though it kinda sucks IMHO. I can't think of why addign another one would be unsafe. Not familiar with CryptoCat though.
+"""]]

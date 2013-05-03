@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Tails on Mac"
+ date="2013-05-02T04:58:32Z"
+ content="""
+MacBook Air 2011 - installed tails using tails live DVD on a USB stick but it doesn't boot. Getting an error that the USB disk isn't bootable. Tried erasing and installing twice with same result. However live DVD works perfectly even with external DVD drive. Any clues why??
+"""]]

@@ -1,0 +1,21 @@
+The Tor community needs our help!
+
+     http://arstechnica.com/information-technology/2013/04/tor-calls-for-help-as-its-supply-of-bridges-falters/
+
+It seems there are two ways to make an obfuscated Tor bridge, but we need one with obfsproxy3.
+
+First way (but only obfsproxy2?): get an Amazon EC2 account and use the torcloud project to install and start a bridge server:
+
+     http://arstechnica.com/business/2011/11/tor-launches-do-it-yourself-privacy-bridge-in-amazon-cloud/
+
+     https://cloud.torproject.org/
+
+If this way does allow obfsproxy3, I would like to hear from anyone who has tried this.  Supposedly the cost to Americans is zero for first year and about $30 per month thereafter, but has anyone from other countries tried Amazon EC2?  Unfortunately, some of us have problems moving even small amounts of money overseas, but it seems that Amazon may have some servers (and banks?) in non-USA countries.
+
+Second way: if you have enough bandwidth and won't get hassled by your ISP for running a non-exit node:
+
+     https://www.torproject.org/projects/obfsproxy.html.en
+
+     https://www.torproject.org/projects/obfsproxy-debian-instructions
+
+I would like to know if anyone has been able to use Tails booted from DVD to construct an obfsproxy3 bridge using the obfsproxy3 tarball.  (Maybe with live install?).  I tend to think it is important to ensure that the OS running the bridge is fairly secure.  Ideally you would even find an old computer and carefully disconnect its hard drive entirely (after booting Tails from the DVD) to ensure that no sensitive information is logged.

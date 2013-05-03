@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-21T19:42:20Z"
+ content="""
+(continued)
+
+Or did I misunderstand what happened?
+
+Is this what you experienced?  You tried to go to the Tor Project website at  https://www.torproject.org and instead landed at the http://upload7.ir website?  That would definitely indicate something bad happened, if so.
+
+Is https working for you at all at any website?  (You should see a \"lock icon\" at left in the \"url pane\" (the place where you can type a URL or web address in Firefox, Iceweasel, Tor browser, Tails browser, or other web-browsers).  Even better, if you have a packet sniffer like Wireshark you can look for ssl.handshake packets.
+"""]]

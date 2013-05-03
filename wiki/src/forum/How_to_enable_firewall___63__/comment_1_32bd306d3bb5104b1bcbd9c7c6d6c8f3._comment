@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="anonym"
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-16T17:20:02Z"
- content="""
-Yes, there's a firewall, and it's \"on\" by default. You can see what it does in /etc/firewall*.conf
-"""]]
