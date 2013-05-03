@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="hidden service in tails"
+ date="2013-04-13T20:49:48Z"
+ content="""
+Ok. Here what I got.
+Run tails in a vm. 
+Set it another internal local network. So now tails vm having internal network ip like 182.0.0.1 from Ethernet
+
+mkdir /var/lib/tor/hidden_service
+chown debian-tor /var/lib/tor/hidden_service
+gedit /etc/tor/torrc
+
+\"HiddenServiceDir /var/lib/tor/hidden_service
+HiddenServicePort port 182.0.0.2:port\"
+
+So now tor is starting hidden service with the hostname at
+/var/lib/tor/hidden_service/hostname
+
+
+Then 
+
+-A INPUT -i Ethernet -p tcp -j ACCEPT
+-A OUTPUT -d 182.0.0.1 -p tcp -j ACCEPT
+
+182.0.0.2 is a server machine in internal vm network with no internet connection.
+server is only listening for connections from 182.0.0.1 from tails's tor 
+ 
+So far I managed to make tails vm to ping 182.0.0.2
+But hidden service is not working. I suppose I still missing something in tails iptables configuration.
+
+What I am trying to do is to make tails run hidden service and forward it to local network to actual server.
+So if ever compromised that server could not reveal any kind of information
+
+"""]]

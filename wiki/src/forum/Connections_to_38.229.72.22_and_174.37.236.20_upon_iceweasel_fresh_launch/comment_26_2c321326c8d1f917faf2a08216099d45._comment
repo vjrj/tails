@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 26"
+ date="2013-04-13T00:49:18Z"
+ content="""
+Unable to post longer reply, but it seems that
+
+     5.63.145.124
+     146.185.29.170
+     174.37.236.19
+     50.97.101.114
+
+are indeed four of ten OCSP servers registered to DigiCert, which is indeed the CA which has issued the certificate used to authenticate the tor check site.
+
+When you type 
+
+     https://check.torproject.org
+
+your browser uses DNS (via the Exit node when using Tor) figures out you want the server named sergeii.torproject.org and its numerical IP address, and then (via the Exit node if using Tor) calls up ocsp.digicert.com to check the certificate, which should lead to one of the ten Digicert OCSP servers.  And OCSP lookup uses http, so connecting to port 80 makes sense.
+
+So it seems that at least those connections are normal and just what you should have seen.
+
+This has been a good exercise in showing how to check out something unexpected, which (if you know what you are doing) usually eventually results in learning something new about your own computer system and the conclusion that the \"anomaly\" was probably normal system behaviour after all.
+
+"""]]

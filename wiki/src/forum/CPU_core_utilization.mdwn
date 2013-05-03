@@ -1,7 +1,0 @@
-One of my machines that I run Tails on is powered by an Intel Core2Quad.
-I've installed gnome-system-monitor to check the CPU load graphs - only a single core shows up!
-
-Not that I need all four cores to get things done with Tails, but I wonder what's causing this issue.
-
-Anyone else with this problem?
-What could be the cause for this?

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-19T08:59:00Z"
+ content="""
+>> how are they going to know your hostname?
+
+> I guess if you are a client on a network, the hostname appears on the router you connect to.
+
+No it doesn't. Tails DHCP request doesn't reveal your hostname (and nothing else either). This can be verified by running wireshark (I just did).
+
+Now, the router can still see that you are sending only Tor traffic, unless you are using bridges.
+"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2011-06-17T19:26:04Z"
- content="""
-How far away are you connecting to the access point from? My issue has been that I can connect to my AP as well as my neighbors' which is the same as what my internal card can do, but I can't connect to APs farther away than that even if the AWUS036H can see them. I've noticed the same issue seems to be present in all the Linux distros I've tried (Backtrack, Tails, and Ubuntu 10.10 although the latter seems to work *slightly* better than the others).
-
-I'd be willing to blame this on faulty hardware were it not for the fact that if I use it in Windows 7 I have no issue connecting to APs that are at least 1000 feet away. But at the same time it seems to be a driver problem with Linux, not just with Tails. I really wish I could figure this out...
-"""]]

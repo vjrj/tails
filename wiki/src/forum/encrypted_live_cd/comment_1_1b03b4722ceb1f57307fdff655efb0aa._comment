@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="not really"
- date="2011-06-01T16:23:08Z"
- content="""
-The Debian Live tools that are used to build Tails have such a feature, see `--encryption` option in `lb_config(1)`. IIRC it's been broken for a while, though.
-"""]]

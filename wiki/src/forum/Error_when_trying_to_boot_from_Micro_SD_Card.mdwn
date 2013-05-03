@@ -1,0 +1,9 @@
+Hi there,
+
+I'm trying to install TAILS in a Micro SD card with a USB adapter from the TAILS live DVD.
+
+Everything works fine, but when I try to boot from the USB I get a "disk error" (I don't know exactly what is written because the message disappears very quickly, I'm going o check again).
+
+Also, after booting the computer normally, the SD card can no longer be detected as a mass storage device or whatever. In my cell phone (Android), I get the following error after inserting the Micro SD card: " SD card blank or has unsupported filesystem ".
+
+I've read many topics here related to "boot from USB" problems, but none of them mention this error.

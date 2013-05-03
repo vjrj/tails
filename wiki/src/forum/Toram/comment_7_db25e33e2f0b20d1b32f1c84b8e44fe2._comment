@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-04-28T08:20:07Z"
+ content="""
+First, unless this has changed recently, the `toram` boot option is *not supported*. (IOW, you are entirely at your own risk should you decide to try it.)
+
+As for what comment 1 describes, I fail to see how all of that isn't already true even when *not* using `toram`. Just because the DVD or USB stick is continually read from doesn't mean that there isn't also A LOT going on with the RAM. 
+
+[[Unmounted Drives Vulnerable if Encrypted?]]
+"""]]

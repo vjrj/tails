@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-04-24T01:23:03Z"
+ content="""
+i feel like a spammer here, whats going on?
+
+anway, after the port: 9050 you make a new line which is \"proxytype proxy port\" like \"socks4 169.186.176.166 433\"
+"""]]

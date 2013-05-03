@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-04-27T10:17:28Z"
+ content="""
+Building the base box is documented on the [[Vagrant design page|contribute/design/vagrant]]. See the \"Creating the base box\" section.
+"""]]

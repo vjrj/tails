@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-09T04:02:24Z"
- content="""
-I have been looking for a live CD with a preinstalled vpn program so I can use Skype. I haven't used my free 24 hour trial of Patriot Internet vpn service because Patriot Internet uses pptp. Learning how to insall pptp using command lines is too complicated for me. I haven't found a pptp package. Does openvpn come as a deb package? Can openvpn be substituted for pptp? 
-"""]]

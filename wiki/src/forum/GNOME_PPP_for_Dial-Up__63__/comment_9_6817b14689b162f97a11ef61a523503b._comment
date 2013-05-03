@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Cannot Install GPPP and Deps from MEDIA"
- date="2011-05-19T19:09:55Z"
- content="""
-I have tried using the \"Add downloaded packages\" option in Synaptic to install  'gnome-ppp' and its dependencies to Tails from media I had already downloaded and saved them onto but it won't work- nothing happens.  
-
-
-"""]]

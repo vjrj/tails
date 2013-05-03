@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-19T09:19:10Z"
+ content="""
+> This way all DNS requests is made through Tor (using Tor's own way of doing DNS requests).
+
+Correction: The DNS requests is not made using Tor's own way of doing them. Instead they are apparently done by contacting a OpenDNS server using a TCP version of the DNS protocol, all of course through Tor.
+
+See the file \"/etc/ttdnsd.conf\" and the command \"man ttdnsd\" for more details.
+"""]]
