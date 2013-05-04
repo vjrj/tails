@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-05-04T11:53:43Z"
+ content="""
+> This is very easy in gnome2, LXDE, and XFCE but seems to be quite inconvenient in gnome3
+
+IIRC it's just as convenient with GNOME3 in fallback (\"classic\") mode, that we plan to ship by default in Tails.
+"""]]
