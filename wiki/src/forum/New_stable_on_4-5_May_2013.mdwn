@@ -1,0 +1,26 @@
+Tails is closely based upon Debian, one of the oldest and best regarded "distributions" of open source software using the Linux kernel.
+
+On 4-5 May 2013, Debian will roll out its Wheezy variant as the new Stable:
+
+    Now                 May 2013
+
+              Sarge
+              Etch
+            | Lenny
+    stable  | Squeeze |
+    testing | Wheezy  | stable
+              Jessie  | testing
+
+Wheezy is considerably different from Squeeze in several respects of interest to anyone concerned about security.  
+
+@ "Tails": how will Wheezy be incorporated into next edition of Tails?
+
+Areas of general concern include:
+
+* gnome3
+* ipv6
+* html-5
+* firmware
+* UEFI
+
+The issue of metadata has recently come up in this forum, the Tor blog, and Tor-talk, and some of us are anxious that Tails developers should look into how new stable Wheezy affects these issues, including how actions of putting Tails DVD in tray or Tails USB in port while other OS is running can possibly compromise desirable deniability of using Tails.

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-08T12:54:45Z"
+ content="""
+Thx for explanation! I hope in the next build (0.17.2) VB and shared folder with guest applications will work.....
+
+Otherwise is there a way to store files with tails as guestsystem on USB or something else?
+
+If not, is there another possibility to transfer files out of the Vbox?
+"""]]

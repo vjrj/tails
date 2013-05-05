@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-24T17:07:07Z"
+ content="""
+It may be that Tails does not have the driver for your network adapter installed.
+"""]]

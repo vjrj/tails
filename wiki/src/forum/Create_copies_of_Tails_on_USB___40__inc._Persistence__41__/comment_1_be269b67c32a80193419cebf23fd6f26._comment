@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-07T08:08:05Z"
+ content="""
+There is no Tails-specific documentation on this topic.
+Usual rules and tools to backup an entire block device apply.
+"""]]

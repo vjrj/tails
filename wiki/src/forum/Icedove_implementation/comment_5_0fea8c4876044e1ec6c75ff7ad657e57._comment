@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2011-05-03T17:08:31Z"
- content="""
-Take care if you install and use idedove that it hasn't been configured and tested as claws mail was. One of the biggest issue is to take care that the client (icedove, claws, or whatever) does'nt leak your real IP address. Some of them do when they speak to the mail server, and tails' claws mail has been configured not to leak such an important information.
-"""]]

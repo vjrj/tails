@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-16T18:17:11Z"
+ content="""
+I agree with the above comment. GNOME 2 is clearly nearing its end of life and any newer GNOME consumes considerably more system resources. That will affect a number of Tails users.
+
+I urge the project to seriously consider migrating to a lighter desktop. LXDE is another possibility.
+"""]]

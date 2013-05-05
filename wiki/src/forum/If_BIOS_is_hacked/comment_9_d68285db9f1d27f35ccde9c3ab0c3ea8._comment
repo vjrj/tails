@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-04-21T15:20:50Z"
+ content="""
+1.) 
+>However the hard drives in the netbooks are irremovable. They are soldered on to the motherboards.
+
+Any connected drive that was **encrypted** (with a strong passphrase), would probably be *almost* as good as removed-- at least if the passphrase/key is different from any that would be entered during the Tails session.
+
+(Beware, though, of any *unencrypted partitions*, such as the */boot* partition necessary for OS installations with full-disk encryption. Fortunately, said /boot partition can be placed on a separate device, such as USB stick.) 
+
+2.) **Neither this nor any of the other things mentioned in this thread so far, however, would be of much help against the type of *BIOS* threats that the OP was asking about.**
+
+3.) To the best of my knowledge, an \"unalterable BIOS\" simply does not exist. 
+
+Maybe UEFI comes close but I don't know. (And, of course, UEFI comes with its own set of problems, especially for GNU/Linux and other FLOSS users.)
+
+4.) Regarding the risk posed by BIOS rootkits and the like:
+
+For a typical, random user, at least, my understanding is that such threats are still quite rare.
+
+For someone who is the target of a dedicated and powerful enough adversary, however...I just don't know. This is something that I have been wanting to know more about for some time now.
+
+5.) The risks posed by a compromised BIOS could probably be lessened by keeping completely separate, dedicated machines for one's general usage and one's Tails and Tor use, respectively. (That is: Dedicate one computer for your Tails/Tor use and never use it for anything involving your real identity. another one for your general use 
+"""]]

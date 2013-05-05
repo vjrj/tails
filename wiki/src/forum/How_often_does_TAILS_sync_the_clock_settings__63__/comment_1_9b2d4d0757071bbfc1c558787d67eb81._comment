@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-28T16:46:43Z"
- content="""
-it only does it when it first connects to the internet after starting, it is necessary for .onion sites to work.
-"""]]

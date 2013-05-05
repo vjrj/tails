@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-05-02T15:58:47Z"
+ content="""
+One potential problem with LXDE and XFCE for occasionally uncluefull users:
+
+It seems difficult to put useful utilities with long unmemorable names like gnome-disk-utility (?) in a task bar, which means we must try to actually memorize long names in order to run them from an xterm.
+"""]]

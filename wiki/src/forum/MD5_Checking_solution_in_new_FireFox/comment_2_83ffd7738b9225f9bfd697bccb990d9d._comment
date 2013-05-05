@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-24T20:45:23Z"
+ content="""
+Thanks Winston for documenting a workaround for this bug in MD5 Reborned Hasher. I added a link to it from the [[documentation|/doc/get/verify_the_iso_image_using_other_operating_systems]]. I hope that won't be there for long...
+
+About the doubts regarding the quality of this check. First of all, yes the Firefox plugin is called MD5 Reborned Hasher but we provide a SHA-256 checksum of our ISO. That's a much better hashing function than MD5 which is deprecated of course. Plus we force HTTPS on the website so that checksum is trusted by your browser as much as the rest of the website (including the OpenPGP key that you probably downloaded here as well).
+
+Of course OpenPGP provides stronger authenticity if you have [[improved the trust that you put in our OpenPGP key|/doc/get/trusting_tails_signing_key]], but not really otherwise. That's why we provide this alternative method which by be easier for some people.
+"""]]

@@ -1,0 +1,50 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-05T19:17:30Z"
+ content="""
+Censorship is about controlling your freedom of expression.
+This forum is *not* about creating a place where you can practice
+your freedom of expression. How we moderate this forum makes sure
+it stays a fine place for what it's meant to be used, and does
+not welcome random spam, hate talk or off-topic discussions.
+You're welcome to practice your freedom of expression about
+off-topic matters in other places than this forum: there's no way
+*we* can control it, so we can't censor you, and we're glad we
+can't.
+
+> mysterious curl connections when Tail 0.16 boots
+
+That one was spammed something like 15 times between March 27th
+and April 2nd. I'm sorry, I got fed up of removing spam, so
+I dropped the entire thread. Next time, please do check your
+facts in more details before assuming bad intentions and using
+strong words such as \"censorship\".
+
+> more deleted......
+
+I still think the \"Something useful you can do with Tails\" post was entirely off-topic. Tails being used to do \"something\" does not make \"something\" relevant here.
+
+The last one has the \"Remove spam on closed threads.\" commit
+message. Contrary to full-blown forum software, our current forum
+lacks a really usable *technical* way to close a thread when e.g.
+the OP has been answered, or when the discussions has moved
+off-topic. So, we don't rely on technical solutions, but on
+a social one: we sometimes declare a thread is closed. Once this
+is done, if some people don't care and go on
+discussing (generally off-topic), then we delete the comments
+that were added after the thread was closed. Simple.
+
+> this is great disrespect to people took time in writing!!!
+
+Seriously... the fact someone spent time to write something does not mean *we* have to happily host it.
+
+Now, you just wasted 15 minutes of Tails developer's time.
+Congrats. If that was not your goal, then please reconsider the
+way you interact with us.
+
+I'm not interested in discussing this any further with someone
+who apparently thinks we owe them to host any possible discussion, so this thread is now closed.
+
+"""]]

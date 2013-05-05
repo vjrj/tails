@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Doesn't matter because of WMI and D-bus hardware fingerprinting"
- date="2012-04-28T12:36:40Z"
- content="""
-It doesn't matter because wmi and d-bus hardware fingerprinting. they can use wmi or d-bus to track your pc and identifiy you.
-"""]]

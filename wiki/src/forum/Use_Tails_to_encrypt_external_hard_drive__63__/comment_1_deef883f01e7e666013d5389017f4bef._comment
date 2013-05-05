@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-29T22:23:07Z"
+ content="""
+Google how to use cryptsetup LUKS from the commandline.  Ubuntu has a guide somewhere, so do some other distros.  Same instructions will work on Tails.
+"""]]

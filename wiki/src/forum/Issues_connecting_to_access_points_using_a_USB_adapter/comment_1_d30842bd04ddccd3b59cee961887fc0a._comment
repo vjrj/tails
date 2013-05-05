@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-13T15:34:51Z"
- content="""
-Unfortunatly I'm not sure that a Tails dev does own such a wifi device. You can maybe read this page http://wiki.debian.org/rtl818x or search on the internet if other people have issues with connecting this kind of devices on a Debian system.
-You might also try to run Debian Live or other Live CD that have the same kernel version than Tails.
-"""]]

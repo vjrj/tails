@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-25T08:17:44Z"
+ content="""
+Thanks for your suggestion. I created a [[ticket|/todo/install_gnome-accessibility-themes]] for that and it should be fixed in Tails 0.18.
+"""]]
