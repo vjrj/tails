@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="It won't work"
- date="2012-05-16T09:34:15Z"
- content="""
-You dont get an IP address when you establish a link to tor. You need to generate a hidden address and configure the RAT server to send all connections to that, of course you will need to configure it to run tor and send all connections through the socks proxy.
-"""]]

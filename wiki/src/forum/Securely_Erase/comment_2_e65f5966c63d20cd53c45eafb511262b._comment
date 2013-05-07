@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2010-10-03T20:15:31Z"
- content="""
-How many times does this overwrite the data and with which algorithm?
-
-<blockquote>I have never seen such a simple solution in any other Linux Distro or LiveCD. </blockquote> It would be nice to see this in other distros but keep in mind that securely deleting individual files can provide a false sense of security; all kinds of traces can still remain in the form of automatic back-up, temp. files, etc.
-"""]]

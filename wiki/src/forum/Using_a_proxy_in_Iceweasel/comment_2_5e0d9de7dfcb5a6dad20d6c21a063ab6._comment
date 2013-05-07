@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="It would have worked before version 0.1.0"
+ date="2013-05-06T21:15:29Z"
+ content="""
+Hey I#m not the creator of this thread but I reconfigured my firewall settings as in Tail 0.0.9. I use a patched version of 0.17. And hey - the proxy settings are not blocked.
+But I would like to know what Tails does in this case, too. It should create the connection to the not-in-lan-proxy through TOR. Or not? 
+Although this should not be the standard use case this is an interesting technical question!
+
+Jake
+
+"""]]

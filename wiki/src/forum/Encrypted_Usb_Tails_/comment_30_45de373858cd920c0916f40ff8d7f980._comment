@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 30"
- date="2013-04-15T17:02:45Z"
- content="""
-@ the one using remastersys
-
-Could you please explain how you do this. I already tried it several times myself, but the iso I get is not working. It only shows the boot screen and then nothing else happens, no live system is booted ...
-"""]]

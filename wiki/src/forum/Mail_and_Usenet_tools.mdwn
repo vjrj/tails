@@ -1,5 +1,0 @@
-Webmail and remote SMTP tend to require a registration somewhere so my first instinct was to try and send mail directly through an MTA but there seems to be no support for this. Although I confess to not knowing if Tor gets blocked by many mail servers and if direct sending is even feasible.
-
-Anyway, wouldnt Mixmaster be well suited for a distro like this?
-
-Also theres a lack of any Usenet news reader. Perhaps tin or slrn through stunnel?

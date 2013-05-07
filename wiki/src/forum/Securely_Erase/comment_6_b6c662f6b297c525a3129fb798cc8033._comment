@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2011-05-19T19:23:43Z"
- content="""
->right-click in Nautilus -> Scripts.
-
-Not present when in Nautilus as root (via gksudo) 
-"""]]

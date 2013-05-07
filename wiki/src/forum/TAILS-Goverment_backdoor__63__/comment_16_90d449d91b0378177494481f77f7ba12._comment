@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-05-03T00:45:58Z"
+ content="""
+This brings to mind the alleged SSL backdoors in OpenBSD by the developers on behalf of the FBI.
+
+http://bsd.slashdot.org/story/10/12/15/004235/fbi-alleged-to-have-backdoored-openbsds-ipsec-stack
+--------------------------------------------------------------
+
+ FBI Alleged To Have Backdoored OpenBSD's IPSEC Stack
+
+Aggrajag and Mortimer.CA, among others, wrote to inform us that Theo de Raadt has made public an email sent to him by Gregory Perry, who worked on the OpenBSD crypto framework a decade ago. The claim is that the FBI paid contractors to insert backdoors into OpenBSD's IPSEC stack. Mr. Perry is coming forward now that his NDA with the FBI has expired. The code was originally added ten years ago, and over that time has changed quite a bit, \"so it is unclear what the true impact of these allegations are\" says Mr. de Raadt. He added: \"Since we had the first IPSEC stack available for free, large parts of the code are now found in many other projects/products.\" (Freeswan and Openswan are not based on this code.)
+
+"""]]

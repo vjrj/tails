@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Boot problem Tails 0.17.1 and 0.17.2"
+ date="2013-05-04T14:32:11Z"
+ content="""
+Similar problem here. Tails welcome screen does not appear. Tried following bootoptions:
+Splash removed, tried failsave bootmode, added xorg-driver=vesa. All no result. Screen turns black and switches to standbye mode.
+Filed bug report with with latest tails version that worked (0.17)
+"""]]

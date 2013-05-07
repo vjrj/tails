@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-05-02T07:31:00Z"
- content="""
->any data created from your Tail session is being wiped so nothing remains. 
-
-That's the **RAM** that gets wiped at shutdown.
-"""]]

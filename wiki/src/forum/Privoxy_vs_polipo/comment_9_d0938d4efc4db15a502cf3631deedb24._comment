@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="privoxy"
- date="2013-04-16T13:56:52Z"
- content="""
-so i just started using privoxy with tor and forefox on ubuntu and i did a system wide proxy terminal and wget everything but i need some healp and i really whant to contribute to the tor by allowing a tor exit-relay but i am stumped at this point as what to do????????? i have privoxy and tor tor and privoxy are configued to use foxy proxy also
-"""]]
