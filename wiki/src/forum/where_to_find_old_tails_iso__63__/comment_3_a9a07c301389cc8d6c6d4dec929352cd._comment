@@ -1,0 +1,16 @@
+[[!comment format=html
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-19T11:59:51Z"
+ content="""
+yes, I am aware, here are changes betweeen 0.17 and newer iso, for me, posibility to block nodes is more important than mentioned changes:<br><br>
+
+0.17.1: <br>
+Upgrade to Iceweasel 17.0.4esr-0+tails1~bpo60+1.<br>
+Remove Indymedia IRC account<br>
+<br>
+0.17.2:<br>
+Upgrade to Iceweasel 17.0.5esr-0+tails2~bpo60+1.<br>
+Disable NoScript's HTML5 media click-to-play<br>
+Stop displaying obsolete context menu entries
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-16T00:10:02Z"
+ content="""
+BIOS is set to boot from external media as first choice then hard disk then network. Those are the only available options.
+
+I have tried almost every USB boot creator under the sun from Unetbootin and all the likes.
+
+I also tried to format USB to FAT, FAT32, NTFS. Only in FAT does the laptop boot to reach the Tails boot screen or any other linux based that I tried and then it freezes. Otherwise (FAT32 or NTFS) it fails to boot from USB entirely.
+"""]]

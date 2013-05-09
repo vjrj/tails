@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-18T22:59:50Z"
+ content="""
+I don't have the links handy but there is some excellent documentation available. The original specification for Tor (the second generation onion router) is available in the FreeHaven archive of privacy-related papers.  The details have changed significantly, so you should also read the most recent papers by the Tor team and also the recent three part series of posts in the Tor blog which sketched how current Tor differs from the description in the original specification.
+
+The short answer is that Tor circuits consist of three hops, like this:
+
+    your puter <==> entry node <==> relay node <==> exit node <--> destination
+
+where the <==> connections are TLS encrypted and the <--> is not (unless the destination is an https url instead of an http url).  The exit node is the one which actually calls up a DNS server to convert the url into a IPv4 or IPv6 numerical address.
+
+Tor circuits are built using a TCP protocol, while DNS uses a UDP protocol (as does ping), so there would be no hope of \"torifying\" DNS in the sense we might \"torify\" a wget or curl connection.  Fortunately, the Tor developers long ago figured out how to ensure that the exit node does the DNS lookup the usual way (I think the basic trick is to ensure that no numerical IPs are passed down the Tor circuit, only urls).
+
+I wanted to offer a review of how current Tor works but \"Tails\" forbade that.  Possibly just as well since there are a few points I don't understand myself, such as: is it still true that Tor circuits are \"leaky\" in the sense that sometimes only two hops instead of one?  I know that for the initial grabbing of data from the directory servers, only one hop is used (it could not be otherwise).
+"""]]

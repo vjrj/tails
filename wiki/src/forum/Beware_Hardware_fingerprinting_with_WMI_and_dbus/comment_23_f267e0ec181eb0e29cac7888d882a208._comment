@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="WMI and JNI"
- date="2012-05-04T20:30:40Z"
- content="""
-fyi
-1. The W means Windows.  Tails is Debian linux.  WMI calls in linux go unanswered.
-2. Java is a security risk, potentially.  Anything can be done via JNI, but code has to be built & executed for each targeted platform architecture.
-"""]]

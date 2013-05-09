@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-11T15:56:14Z"
+ content="""
+three: thank you. I read up a bit on the matter. Basically you can change hostname temporarily by running this command: hostname yourcustomname
+
+However this command does not work with tails. if you run the command in root terminal the output says that the name has changed. however when you check what the hostname is, its still 'amnesia'.
+
+I have the same concern if that name is visible on network, and if so how to make it change? 
+"""]]

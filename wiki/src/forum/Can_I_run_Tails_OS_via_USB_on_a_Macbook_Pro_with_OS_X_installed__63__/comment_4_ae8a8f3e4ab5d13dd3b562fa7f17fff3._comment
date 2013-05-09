@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-29T09:59:04Z"
+ content="""
+The above solutions works, but you do not get persistance - that's the problem. You can also boot Tails from a LiveCD on a Macbook Pro without any problem, but again without persistance.
+
+I really hope some day somebody will fix this... There are a lot of MAC computers everywhere, and it is important to have TAILS working with persistance... Even if we need two USB (one with rEFIT and the other with Tails), we need persistance to work.
+"""]]

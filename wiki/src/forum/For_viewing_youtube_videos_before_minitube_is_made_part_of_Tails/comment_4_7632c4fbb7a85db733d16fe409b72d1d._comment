@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-28T17:24:25Z"
+ content="""
+Thanks comment 3, that was actually useful. It seems to me somewhat unlikely that a popular addon like downloadhelper contains this behavior. But I see that it is unfortunately possible. And therefore should be avoided for people serious about security. 
+
+If only operating systems and browsers weren't so quick to give control of your computer and information to outside entities. But I guess that's why we have Tails. :)
+
+I can't wait for minitube. That should actually be secure since I guess it's going to be integrated by the Tails team. 
+"""]]

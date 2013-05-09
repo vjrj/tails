@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-13T06:36:11Z"
+ content="""
+Unless I'M totlally misunderstanding, the purpose of that option is to make it connect to the Tor network trough that proxy, not the other way around. In other words:
+(you) <---> (Socks5) <---> (Tor Node) <---> (Tor Node) <---> (Exit Node) <---> (Website)
+ 
+The only use I can think off off hand would be when you're behind some kind of firewall and all outside connections have to go through the proxy.
+"""]]

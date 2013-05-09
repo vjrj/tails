@@ -1,5 +1,0 @@
-Newbie at tails & linux. Been playing with a number of live linux distros & really like tails. I use a tails DVD to boot to a tails usb (no bios boot to usb) & have set up persistence & enabled all features except Pidgin & Claws Mail.
-
-The problem: I would like the config/settings of my dual displays & wired NIC (my LAN is static IP) to be retained so I don't have set them up every time I boot tails.
-
-Is this possible? I have checked the forum, but most persistence tips seem to predate the inclusion of persistence in tails, so am unsure what is accurate and/or secure. I have read all the persistence documentation, but if the answer is there I don't see it. Thanks.

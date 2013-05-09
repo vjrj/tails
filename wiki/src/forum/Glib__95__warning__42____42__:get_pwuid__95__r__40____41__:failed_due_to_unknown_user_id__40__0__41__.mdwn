@@ -1,9 +1,0 @@
-when ever i boot tails 0.12 using a dvd or a pendrive, I am having the following error and it stops.
-
-Glib_warning**:get pwuid_r():failed due to unknown user id(0)
-
-
-I have tried different laptops but the same occurs, I tried to re download and burn dvd again to check. But having the same error. I never had any problems with the previous versions of tails. please someone help.
-
-thanks
-San

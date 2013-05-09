@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-06-28T09:14:03Z"
- content="""
->As far as I'm aware there's no such thing! A tempest resistant text display would, at the very least, involve a specially crafted bitmap font presented over a an appropriate specially crafted tempest-resistant background, ideally by a purpose-designed tempest-resistant rendering engine.
-
-TTF/OTF fonts can't be \"tempest-resistant\" because of their 1 bit shading but a good set of tempest resistant fonts could be worth including alone, as long as it was presented as \"tempest reducing\" or something similar and care was taken to avoid terms such as \"anti-tempest\" which might imply infallibility. Better than nothing?
-"""]]

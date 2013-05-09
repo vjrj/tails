@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-18T22:12:59Z"
+ content="""
+> So does Tails not have the \"https Everywhere\" addon included ? if not it should be, as the tor project bundle does includes it.
+
+Https everywhere is one of the extensions included in Tails by default, while it wasen't stated very clearly I have a feeling that commentator 2 was actually reffering to the downthemall extension that OP talks about as the unverified extension that might affect security.
+"""]]

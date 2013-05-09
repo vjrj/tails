@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-14T20:30:01Z"
+ content="""
+Linux is resistant to most malware and you don't have to use the persistent volume. It may be more secure to be amnesic and that is a feature. Use it (by not creating a persistent volume) if it suits your use case. For many users the usability from the persistent volume is a must. It's all about user choice and your freedom.
+"""]]

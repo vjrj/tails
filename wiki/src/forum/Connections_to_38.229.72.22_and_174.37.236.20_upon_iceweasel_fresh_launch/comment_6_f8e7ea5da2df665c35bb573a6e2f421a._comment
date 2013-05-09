@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-04-08T21:09:20Z"
+ content="""
+Brian Krebs said last year the people who cracked into the RSA network also were using softlayer.com servers (among many others):
+
+     http://www.krebsonsecurity.com/2011/10/who-else-was-hit-by-the-rsa-attackers/ 
+
+The indications of malware-like behavior described in the three prior posts mentioned above suggest a less sophisticated attack, however.
+"""]]

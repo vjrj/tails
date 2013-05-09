@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-28T23:42:12Z"
+ content="""
+wget can do recursive downloading easily and it is included in Tails.
+
+"""]]

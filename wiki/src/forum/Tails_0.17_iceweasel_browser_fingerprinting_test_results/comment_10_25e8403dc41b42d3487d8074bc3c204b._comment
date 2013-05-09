@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-03-14T12:34:18Z"
+ content="""
+Anyone interested in improving things in this area should probably start by reading [The Design and Implementation of the Tor Browser](https://www.torproject.org/projects/torbrowser/design/).
+"""]]

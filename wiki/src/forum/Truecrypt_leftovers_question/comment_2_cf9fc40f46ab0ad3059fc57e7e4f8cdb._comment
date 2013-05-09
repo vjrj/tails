@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-15T17:23:37Z"
+ content="""
+As documented, TrueCrypt is not supported *but* to get files from good ol' Incognito's persistent volume, and migrate them to something saner. It will likely be removed soon.
+"""]]

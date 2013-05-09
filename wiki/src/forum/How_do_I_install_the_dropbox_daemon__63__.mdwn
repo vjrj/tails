@@ -1,3 +1,0 @@
-I was able to install the .deb pkg from the dropbox website. To be able to use the dropbox client, I need to first install the dropbox daemon. However, when I run /usr/bin/dropbox start -i (or start the Dropbox client from the Applications menu), I always get an error: "Trouble connecting to Dropbox servers. Maybe your internet connection is down or you need to set your http_proxy environment variable". I checked http_proxy and it is set to 127.0.0.1:8118 . How do I get the daemon installation to work?
-
-Thanks for your help.

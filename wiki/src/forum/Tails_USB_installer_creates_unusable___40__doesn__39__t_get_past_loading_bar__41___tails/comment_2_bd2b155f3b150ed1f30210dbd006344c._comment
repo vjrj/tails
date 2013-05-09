@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-21T16:53:50Z"
+ content="""
+OP here again. I've discovered that the error is \"Unable to enumerate usb device on port X\".
+
+Then by removing splash in boot parameters I was told:
+\"This Debian Live image failed to boot\"
+\"Unable to find medium containing a live system\"
+
+
+I reinstalled tails on my usb2.0 from linux with a new iso, and tried again with the same error. 
+
+Should I file a bug report?
+"""]]

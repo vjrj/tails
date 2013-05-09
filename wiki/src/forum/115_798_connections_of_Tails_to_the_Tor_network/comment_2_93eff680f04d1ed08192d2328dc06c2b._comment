@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-07T22:59:04Z"
+ content="""
+There is no problem in informing users of security updates, the problem is exploiting said connection to make a statistic without prior knowledge of users who take this message as an innocent alert, not knowing that this will be used by the Tails team to know each time someone is using Tails.
+
+
+"""]]

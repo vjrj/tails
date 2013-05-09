@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-04-28T10:42:39Z"
+ content="""
+TO: OP
+
+Starting with the `toram` option usually takes more time since you have to copy the whole ISO to RAM first. But I'm glad that you like it.
+
+I don't think there would different security issues when using `toram` that using a DVD directly. The main reason for which we sometimes say that it is not supported is because it might not always work, it's not included in our test suite, etc. So there might be security issues but I don't know about them.
+
+The RAM wiping mechanism on shutdown wipes all the available RAM, so it doesn't matter if there is an ISO image in there or not.
+
+Regarding RAM usage, you can see how much RAM is available in Tails by running the `top` command from terminal. For example, mine has 1GB:
+
+    Mem:    1034190k total... 
+
+"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-08-03T21:22:07Z"
- content="""
-Then you have to bypass tor. Either add a firewall exception for pidgin (you have to study iptables) or use the web chat with the unsafe browser (simplest solution)
-"""]]

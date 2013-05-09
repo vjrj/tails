@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-07T07:02:53Z"
+ content="""
+If the system meets the [[hardware requirements|doc/about/requirements]], then please follow [[doc/first_steps/bug_reporting]] and [[doc/first_steps/bug_reporting/tails_does_not_start]].
+
+You may want to clarify, in your bug report, what you mean by \"keyboard still functional\".
+"""]]

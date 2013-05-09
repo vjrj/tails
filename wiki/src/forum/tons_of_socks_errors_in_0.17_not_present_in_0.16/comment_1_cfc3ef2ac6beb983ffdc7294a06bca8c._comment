@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-03T09:50:33Z"
+ content="""
+FWIW, I've not experienced this.
+
+On how much experimental data are you basing the observation that this happens much more on 0.17 than on 0.16?
+
+Are the conditions the observation was made in the same (modulo the state of the Internet and of the Tor network, obviously), e.g. same Internet connection on your side, and same service on the other?
+
+"""]]

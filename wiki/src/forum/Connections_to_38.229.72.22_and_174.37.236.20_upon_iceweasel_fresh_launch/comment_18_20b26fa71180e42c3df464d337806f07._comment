@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2013-04-11T18:51:33Z"
+ content="""
+@ OP:
+
+Were you by any chance using some videoconferencing software when you noticed the mystery connections?  If so, mystery solved, probably (but now there is a new mystery, as so often happens).
+
+It seems that 5.63.145.124 and 146.185.29.170 may be OCSP servers operated by DigiCert.
+
+In an on-line discussion of videoconferencing software made by
+
+    www.fuzemeeting.com
+
+I found this:
+
+> Additional Information:
+
+> FuzeMeeting provides a secure SSL connection using a high-assurance certificate signed by DigiCert. In order to allow clients to verify the validity of the certificate, extremely restrictive firewalls will need to enable connections on TCP port 80 to any of following IP addresses:
+
+> 146.185.29.170, 173.194.70.188, 205.234.175.175, 5.10.86.114, 5.63.145.124, 64.18.20.10, 64.18.30.10, 64.78.193.234, 80.239.148.25, 80.239.148.9, 93.184.220.29
+
+The thing I don't understand is why standard tools seem to fail to report these as being OCSP servers operated by DigiCert.  If that is really what they are, it makes no sense that this would (apparently) not be public information.   Is there such a thing as \"stealthy OCSP\"? 
+
+If they really are OCSP servers operated by DigiCert, connections to them could probably result from your Tails browser loading similar certificates issued by DigiCert, not just the ones issued to fuzemeeting.com.
+
+> Finally, Fuze stores uploaded content in the cloud on multiple zones.  In order to view documents uploaded to Fuze, access to Amazon S3 should be allowed on port 443 (SSL).  The addresses S3 uses are:
+
+> 72.21.192.0/19,  207.171.160.0/19,  204.246.160.0/19,  87.238.80.0/21
+
+
+"""]]

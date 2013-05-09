@@ -1,0 +1,11 @@
+It seems that most recent sites which discuss measures which at-risk bloggers and journalists can take to protect their on-line communication/publication now mention Tails, which is probably good.  These would be good links to add somewhere in the Documentation:
+
+    https://www.eff.org/wp/blog-safely
+    http://advocacy.globalvoicesonline.org/projects/guide/#email
+
+But I think a guide specifically focusing on how to make best use of Tails would be useful.  Because developer time is better spent developing, I think the Tails community should try to collectively provide such a guide.  But how?
+
+Many questions in this forum seem to arise from rumors of various attacks against Tor which have been mentioned in news stories, academic articles, or tor-talk.  For example, one Tor developer recently referred to an attempted Sybil attack in which (apparently) some researchers attempted to register a large number of high capacity Tor nodes at Amazon with the intent of deanonymizing the operators of *all* hidden services in the Tor network.  In order to properly appreciate such discussions, bloggers and journalists need an up to date and readable review of some of the more widely discussed attacks on Tor.  One of the problems in writing such a review is that Tor has changed quite a bit over the years, so one must attempt to modify (for example) the arguments in the original paper on predecessor attack to apply to current Tor.
+
+If I tried to start a thread offering my attempt at a review (based on the papers in the Free Haven archive, personal experience, and some other sources), would that be deleted like so many of my other threads?
+

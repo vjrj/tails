@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-07-23T06:27:22Z"
- content="""
-Until tails .13 perhaps try to use IMAP instead of pop3. It is working fine for me with persistance. when claws downloads an email create a local mailbox with the menu file-add mailbox - MH... then add the persistent directory from home folder. once you see it in your primary mailbox select copy then transfer to inbox of local mailbox. Great thing about imap is that when you delete in claws it deletes in your online account too. Much more private not to have those emails sitting on a server waiting to be hacked
-"""]]

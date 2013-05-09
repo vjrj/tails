@@ -1,0 +1,50 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-03-14T21:33:06Z"
+ content="""
+Oh dear.  By writing badly (and maybe by rushing into \"print\" too quickly) it seems I have unintentionally created confusion.
+
+I have used Debian for years, and Tails is closely based upon Debian stable, so I figure I am in a position to try to help out here by trying to teach the average user of Tails how to \"look under the hood\" in order to check what is happening, or even better, what is *not* happening, in a Tails system.
+
+In this thread, I was trying to *promote* the use of Tails, arguing that Tails Browser seems to perform better than the TBB Browser (which performs much better than \"naked Firefox\" or default Iceweasel, which perform better than Windows IE, Konqueror or other largely unprotected web browsers) against extremely common browser abuse by \"scripts\" and \"apps\" planted in most of the most popular websites (such as Facebook) by vendors of \"behavioral advertising\", data brokers, and other third parties who partner with millions of websites.
+
+I was trying to 
+
+* explain in general terms how these bad actors abuse DOM storage to store vast amounts of personally identifying information about you \"inside your browser\"
+* explain in detail where to find DOM storage files in Firefox-based browsers like Firefox ESR, Iceweasel ESR, Tor Browser and TBB Browser
+* mention how in principle one can use sqlite to examine unencrypted sqlite databases, and why this might not be a good idea (also, some vendors are already encrypting *their* sqlite databases stored on *your* computer, in order to hide from you what actions *they* are taking inside *your* computer, actions which can be used to harm you, and how outrageous is that?)
+* explain how to use a simple shell script (which should run on any Linux, and was tested in Tails 0.17 and TBB 2.3.25-4 under Debian stable) to monitor any changes in sizes of these DOM storage files
+
+Unfortunately, I was distracted by a wealth of newly discovered revelations concerning the dark side of one of the 41 operators of high bandwidth Tor nodes which are so frequently encountered by every Tor user, and didn't quite finish explaining the proposed program.
+
+The idea is this: do the following with your favorite unprotected browser (if you use FF ESR on Linux, you can use my script), and compare results with TBB and Tails browsers:
+
+* check the sizes of known DOM storage files
+* perform a single action (e.g. surf to a new website, or add a bookmark, or try to clear out cookies, the browser cache, or \"everything\")
+* check the sizes again
+* infer how much information is being quietly stuck into DOM storage, or removed from it 
+
+For example, in my modest experiments, in not so well protected IW, adding and then deleting a single bookmark has effects which are in accordance with expectation.
+
+This is very crude (I didn't take the time to do something better), but you can use the little script like this: if you call it chk_sizes and stick it in the directory holding the DOM storage files in the FF based browser you are investigating:
+
+    ./chk_sizes > temp1
+
+(perform some browser action)
+
+    ./chk_sizes > temp2
+
+(perform another action)
+
+    ./chk_sizes > temp3
+    paste temp1 temp2 temp3 | awk '{print $1,$2,$4,$6}' | column -t
+
+should show the files and their sizes in the three \"snapshots\".  *If they are not changing size, that's good!*
+
+Because of distraction from investigating the dark side of an \"interesting\" operator of two very fast Tor nodes, I haven't been able to pursue my own experiments as quickly as I had intended.  But roughly speaking what little data I have gathered so far suggests
+
+* Tails may not even store any information in known DOM storage files (which is ideal)
+* TBB may store some unwanted information in some known DOM storage files, but it is not yet clear whether this is true, what the causes might be, and whether it can be removed
+* unprotected FF/IW appears to perform poorly in terms of allowing way too much information being clandenstiely written inside DOM storage files, information which is then difficult or impossible to delete
+"""]]

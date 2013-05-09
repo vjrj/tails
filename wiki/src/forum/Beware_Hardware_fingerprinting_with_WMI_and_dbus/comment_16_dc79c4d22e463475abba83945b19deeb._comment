@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="WMI Query for list of hotfixes installed in a system using Pearl or VBScript"
- date="2012-05-01T15:15:20Z"
- content="""
-The Following URL Shows an example of how WMI can be used to pull any information from your PC:
-
-http://stackoverflow.com/questions/3627551/wmi-query-for-list-of-hotfixes-installed-in-a-system
-"""]]

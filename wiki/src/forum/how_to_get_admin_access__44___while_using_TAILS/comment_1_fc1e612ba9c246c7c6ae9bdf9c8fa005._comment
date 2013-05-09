@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-18T06:36:07Z"
- content="""
-sudo -s in the terminal will get you root access.  At that point you should be able to launch whatever you like as root (some programs do not like this).
-
-
-"""]]

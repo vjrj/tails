@@ -1,0 +1,208 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-03-22T00:15:15Z"
+ content="""
+A welcome confirmation that DOM storage issues are taken seriously by the Tor Project comes from the very recent announcement of the latest Tor Browser Bundle ((TBB), version 2.3.25-5:
+
+     https://blog.torproject.org/blog/new-firefox-1704esr-and-tor-02411-alpha-bundles
+
+> We've updated the stable and alpha Tor Browser Bundles with Firefox 17.0.4esr and Tor 0.2.4.11-alpha. These releases have numerous bug fixes and a new Torbutton as well...
+> Leave IndexedDB and Offline Storage disabled. (closes: #8382)
+> Clear DOM localStorage on New Identity. (closes: #8422)
+> Don't strip \"third party\" HTTP auth from favicons (closes: #8335)
+
+So it seems clear that Tor Project is well aware of potential privacy/anonymity violations related to both DOM storage files and favicons.
+
+For various reasons, my investigations unfortunately remain at a very preliminary stage.
+
+One reason is that the behavior of TBB 2.3.25-5 on my laptop has been bafflingly inconsistent.  Yesterday, clearing everything seemed to increase the size of places.sqlite-wal, but by a fixed amount, 32K.  This may suggest that this represents some kind of bug.  But observed behavior has been quite different on other recent days.
+
+I remain cautiously optimistic that ultimately Tails and even TBB will be shown to be doing their job by preventing adversaries from secretly storing personally identifying information in DOM storage files.  But despite my so far inconsistent results, I think there is enough here to warrant asking for other TBB/Tails users to spot check their own DOM storage and to share some results.  I hope that the conclusion will be that while there may be some bugs, nothing here suggests highly successful attacks targeting Tails/TBB users, and that to the contrary TBB/Tails appear to be significantly more successful than \"naked FW/IW\" in blocking attempts by the bad guys to store tracking information inside DOM storage files.
+
+Here is a more focused size checking script you can use to compare DOM storage files in older and more recent TBB/Tails Data/profile, which focuses on the ones which I think may have been problematic:
+
+    schk
+    #!/bin/bash 
+    # Check sizes of some DOM storage files
+    ls -lah *appsstore* | awk '{print $9,$5}' | column -t
+    ls -lah cookies* | awk '{print $9,$5}' | column -t
+    ls -lah places* | awk '{print $9,$5}' | column -t
+    ls -lah url* | awk '{print $9,$5}' | column -t
+    ls -lah search* | awk '{print $9,$5}' | column -t
+    ls -lah signons* | awk '{print $9,$5}' | column -t
+
+I also wrote two scripts which modify the output of hd (hexdump) to present two views of DOM storage files, which use some more standard Linux utilities and will work inside Tails, or on Linux systems with TBB.
+
+The first presents a file as a continuous hexadecimal string (followed by a newline):
+
+     binr
+     #!/bin/bash
+     # Present a DOM storage file as a hex string
+     hd $1 | cut -d\"|\" -f1 | cut -d \" \" -f2-17 | sed 's/ //g' | tr -d '[\n]' | grep -v '^$'
+
+The second tries to convert a file into ASCII:
+
+     humr
+     #!/bin/bash
+     # Try to make a DOM storage file human readable
+     hd $1 | cut -d\"|\" -f2 | tr -d '[\n]' | egrep -v '^$'
+
+When the schk script shows that a DOM storage file appears to be both small and constant in size over time, using these two together can often show that the file simply defines a SQLite 3 key-value table (i.e. an unstructured SQLite database of the kind nowadays favored by information brokers and US intelligence analysts alike, as opposed to more structured database designs such as relational databases).
+
+Here are my preliminary conclusions about the files which you can find inside your Data/profiles directory inside the latest TBB:
+
+When you first unpack the tarball, these directory is unpopulated.  After you start Tor Browser for the first time and it visits torcheck for the first time, several tables are created.  As you surf to some of the sites which are notorious for partnering with data brokers determined to abuse our browsers to store/retrieve personally identifying about us in DOM storage files as we surf, such as cnet.com or facebook.com, more tables are *created*.  The good news is that many of these *don't seem to change size* after creation and using humr/binr seems to show that they are *essentially empty tables*, suggesting that TBB is successfully preventing the bad guys from misusing our browsers to try to harm us.  But I suggest everyone spot check to see if their TBB/Tails appears to be doing something different!
+
+The following outline of DOM storage files in FF/IW can be taken as suggesting what bad things may result when people use *unprotected* Firefox or Iceweasel:
+
+* addons.sqlite
+
+Contains information about NoScript and other add-ons
+
+* cert8.db
+
+Contains \"globally trusted\" SSL certs issued by certificate authorities such as digicert.com (necessary for browser to use SSL with https sites)
+
+* chromeappstore.sqlite
+
+Contains an apparently empty key-value table with fields for
+
+     scope TEXT
+     key TEXT
+     value TEXT
+     secure INTEGER
+     owner TEXT
+
+* webapps
+
+Empty directory in TBB/Tails; in FF/IW may be well populated with secret storage areas.
+
+* compatibility.ini
+
+Contains values for
+
+     LastVersion
+     LastOSABI
+     LastPlatformDir
+     LastAppDir
+
+The last two contain path information, including login name, which could be harmful if leaked.
+
+* cookies.sqlite
+Contains a key-value table with fields
+
+     id INTEGER PRIMARY KEY
+     baseDomain TEXT
+     name TEXT
+     value TEXT
+     host TEXT
+     path TEXT
+     expiry INTEGER
+     lastAccessed INTEGER
+     creationTime INTEGER
+     isSecure INTEGER
+     isHttpOnly INTEGER, CONSTRAINT 
+     moz_uniqueid UNIQUE (name, host, path)
+
+The good news is that this table seems to stay empty in TBB 2.3.25-5.
+
+* cookies.sqlite-shm
+
+Apparently encrypted but contains mostly zeros and constant size, so I guess TBB has neutralized this one.
+
+* cookies.sqlite-wal
+
+In TBB, this does seem to eventually empty out after system reboot.
+
+* formhistory.sqlite
+
+Apparently an indexed key-value table with fields
+
+     id INTEGER PRIMARY KEY
+     fieldname TEXT NOT NULL
+     value TEXT NOT NULL
+     timesUsed INTEGER
+     firstUsed INTEGER
+     lastUsed INTEGER
+     guid TEXT
+
+The good news is that (at least if you are not filling out forms on-line) this file seems to be constant in size and to contain long strings of zeros, suggesting TBB has neutralized it.
+
+* extensions.ini
+* extensions.sqlite
+* extensions.sqlite-journal
+
+Appear to contain information about torbutton, NoScript, HTTPS_Everywhere (the legitimate add-ons bundled with TBB); presumed innocuous
+
+* key3.db
+
+Apparently a key-value table containing salted hashed passwords which an unwary user may have chosen to \"store inside the browser\"; appears to be constant in size if the user is not using the FF/IW browser-provided \"keyword safe\"; presumed innocuous
+
+* localstore.rdf
+
+Apparently contains globally known URLs associated with RDF
+
+* mimeTypes.rdf
+
+Apparently contains globally known URLs associated with RDF event handlers, such as mibbit.com
+
+* NoScriptSTS.db 
+
+Empty file in TBB
+
+* places.sqlite
+
+indexed key-value table; contains \"quasihashed\" personal bookmarks
+
+* places.sqlite-shm
+
+Apparently non-ASCII encoded, but appears to be constant in size and to contain mostly long strings of zeros
+
+* places.sqlite-wal
+
+Seems to link to the index of places.sqlite, which apparently contains fields
+
+    bookmarks_guid_uniqueindex
+    places_visitcount
+    places_frecencyindex
+    places_lastvisitdateindex
+    places_url_uniqueindex
+    moz_placesmoz_places_guid_uniqueindex
+
+May also contain favicons or site icons.
+
+* preferences
+
+Directory with a file which seems to be NoScript related
+
+* safebrowsing
+
+Directory containing some more DOM storage files which appear not to include ASCII text, including test-malware-simple.sbstore, which seems to be zero-padded or effectively empty
+
+* signons.sqlite
+
+Apparently an indexed key-value table with fields
+
+    id INTEGER PRIMARY KEY
+    hostname TEXT NOT NULL
+    httpRealm TEXT
+    formSubmitURL TEXT
+    usernameField  TEXT NOT NULL
+    passwordField  TEXT NOT NULL
+    encryptedUsername   TEXT NOT NULL
+    encryptedPassword   TEXT NOT NULL
+    guid                TEXT
+    encType             INTEGER
+    timeCreated         INTEGER
+    timeLastUsed        INTEGER
+    timePasswordChanged INTEGER
+    timesUsed           INTEGER
+
+In my TBB, this is one of the tables which did not exist on first use but which was mysteriously created later.  
+
+I suspect that in the case of a user who does not use log on to any websites, this table may be created the first time the user surfs to any website which hosts a data broker \"Facebook app\".  These apps appear to try to sign us into Facebook, either an account we really did create for ourselves, or more nastily, a dummy account which the ad broker creates just for a specific \"anon\"; if successful, I think this procedure would possibly allow the behavioral ad vendors and data brokers to track you as you surf.  The good news is that in TBB, the size seems to be constant and the table appears to remain essentially empty, unless you are signing into websites such as this forum.  
+
+(Another reason why it is so important to allow anons to post without registering: if the database doesn't exist, it cannot be hijacked, lost, stolen, or seized.) 
+
+"""]]

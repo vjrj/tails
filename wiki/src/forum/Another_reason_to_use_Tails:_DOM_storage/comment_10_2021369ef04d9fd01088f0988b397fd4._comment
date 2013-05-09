@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-03-13T23:10:52Z"
+ content="""
+Forgot to say:
+
+Pressing the \"new identity\" button in the Vidalia tor controller pulldown menu just causes Tor to send a command closing old circuits and building new ones.  So if the ad brokers are able to get past Tails's defenses and write to DOM storage files, if anything this would probably add to the files the information that you used at least two specific Tor nodes to contact whatever website your urlpane (in the Tor browser) is pointed at. 
+"""]]

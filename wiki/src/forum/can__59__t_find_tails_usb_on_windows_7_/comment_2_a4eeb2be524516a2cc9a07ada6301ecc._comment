@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-28T11:42:11Z"
+ content="""
+> Is there any way I can have my computer find and open that usb so I can utilize the free disk space?
+
+There's no supported way to do so. The Tails installer intentionally configures partitions in a way that Windows systems etc. don't display them, in order to make it harder for an untrusted OS to compromise Tails boot media.
+
+"""]]

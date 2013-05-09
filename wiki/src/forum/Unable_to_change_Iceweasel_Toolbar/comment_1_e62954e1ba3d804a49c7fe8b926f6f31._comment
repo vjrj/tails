@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-20T20:27:45Z"
+ content="""
+I can customize the toolbar, but I am not trying to install add-ons.  As you probably know, that is something you should only do it you really need an add-on, because 
+
+* installing an add-on can potentially break the anonymity features of Tails.
+* the site from which you get add-ons is probably a Mozilla site which has been specifically targeted by bad actors using improperly issued \"wildcard\" certificates.
+"""]]

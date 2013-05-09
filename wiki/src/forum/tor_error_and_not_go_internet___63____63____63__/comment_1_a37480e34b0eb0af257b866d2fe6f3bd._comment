@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-21T19:20:10Z"
+ content="""
+As you probably know, the government of Iran attempts to block Tor, and even attempts to isolate its entire national internet.
+
+If you can safely say:
+
+* were you outside Iran when you tried to upload the jpgs?
+* were you using a bridge (please *do not* post the IP if so, just say Yes or No)
+
+       https://bridges.torproject.org
+
+
+"""]]
