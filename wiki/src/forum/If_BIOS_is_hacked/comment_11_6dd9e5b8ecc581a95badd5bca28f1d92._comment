@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Computer with no &quot;firmware&quot; and read-only switch"
+ date="2013-05-10T22:48:28Z"
+ content="""
+Some keyboards (Apple ones in particular) contian firmware and have been known to host keyloggers. 
+
+I'm looking for a computer where the only storage is SD card. No other firmware. All I have seen like this, use the ARM architecture while TAILS runs on x86. Raspberry Pi is ARM and has flaws in USB design. Wikipedia has a number of other \"single board computer\" in the article of that name. Intel Atom is x86 designed for low power devices however I haven't found one without BIOS-type \"firmware\" (as opposed to the operating system being called the firmware).
+
+If you have a live OS, the image shouldn't change so you can pull out the SD card and check the hash using a different computer. Can any enforce the read-only switch on the SD card without dependence on the firmware/software?
+
+Since most software has security holes, it would be nice to have the ability to to update the \"live\" operating system by setting the card as read-write. Then set the hardware switch back to read-only before opening/executing any files/software or connecting it to the internet.
+"""]]
