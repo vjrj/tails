@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-10T23:00:55Z"
+ content="""
+> Delete some programs like gimp, pidgin, open office...etc. Then install another ones, change or install plymouth to have a logo on the boot start...etc. 
+
+Are you hoping to still have an amnesiac operating system when you are done?  To still have a well-anonymized web-browser like Tails browser?
+
+I ask because your plan could easily break security-critical aspects of Tails which are essential for preserving anonymity and (partial) amnesia after you shut down the system.
+"""]]
