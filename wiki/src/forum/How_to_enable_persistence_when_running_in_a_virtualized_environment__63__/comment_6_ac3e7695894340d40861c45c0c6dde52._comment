@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-11T22:35:06Z"
+ content="""
+@ comment 5
+
+>You can (and should) still run Tails from a DVD or USB with a virtual machine.
+
+I shall not heed your dangerous advice.
+
+The writer of comment 3 already stated clearly that one has to trust the host OS and the VM. Since both the host OS and the VM are not developed by Tor or Tails, I do not trust they provide anonymity.
+
+
+"""]]
