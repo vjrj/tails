@@ -1,0 +1,6 @@
+I would appreciate some clarification and advice. 
+(1) Have I understood the documentation correctly that Tails should set the system time to UTC?
+(2) For me, Tails (currently version 0.17.2 but also on earlier versions) sets the system time to UTC on only about 40% of sessions. Right now, for example, Tails has set the system time to Sat May 11, 11:34 PM. That looks like USA EDT. My local time is Australian AEST, so Sun May 12, 1:34 PM and UTC is 3:34 AM Sunday May 12.
+(3) In these circumstances, should I set the system time to the time I KNOW is UTC?
+(4) If manually setting the system time is the right thing to do (as an answer to 3), then do I need to give myself a password on the initial "More options" screen?
+(5) The _only_ thing that I am doing in this Tails session is asking this question, so any loss of anonymity withe the time-disclosure is not a problem.
