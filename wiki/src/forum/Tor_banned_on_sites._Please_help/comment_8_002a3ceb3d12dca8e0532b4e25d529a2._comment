@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-05-09T02:36:36Z"
+ content="""
+>Careful about using a web proxy for any kind of sign-up or login. They may not be able to see your real IP, since it would (hopefully) masked by Tor but a web proxy absolutely CAN see your traffic and any data you would enter, such as user names, passwords, etc. 
+
+\"They\" can also correlate *all* your Torified traffic and, if they choose, record it all for forensic analysis. Furthermore, as you'll be paying for the \"service\", they can also attribute *all* your Torified traffic to your *real* identity... but who cares about that as long as Goobook works, right?
+"""]]

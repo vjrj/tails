@@ -1,0 +1,7 @@
+When I run the live CD from within my virtualization software, my attempt to enable persistence results in 'Tails is running from non-USB device /org/freedesktop/UDisks/devices/sr0.' 
+Is it possible to enable persistence ? 
+
+Ideally I would like to run tails from a CD image under a virtual machine and link the running instance to a seperate persistance store.
+
+Another option might be to 'install' tails to a VM image, thus making it easy to use but probably giving up many of the benefits of using tails. 
+

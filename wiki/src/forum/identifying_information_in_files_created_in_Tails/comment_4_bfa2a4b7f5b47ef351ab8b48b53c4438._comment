@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="OP"
+ date="2013-05-08T17:45:46Z"
+ content="""
+As included in original post, I am referring to files created using tails.
+
+>and the fact that it was created using Tails, can still leak
+
+Can you please be specific? which applications would leave such a trace? Can you tell how to change it for those who want to do so?
+
+The meta-stripper in tails does not support all file extensions. I'm also not sure what exactly would it do to files created in tails
+"""]]
