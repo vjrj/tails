@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Booting from Windows 8 Solved"
+ date="2013-05-12T21:01:01Z"
+ content="""
+Very good! Did what you said ... enabled Legacy Boot (still had to manually tell it to boot from the DVD after setting the boot order to DVD first under security) ... and booted TAILS from a DVD. If I was paranoid then I would think this was a planned attempt to discourage Windows users from using live DVD's (Linux based OS's in particular).
+Thank You,
+-> The HP ENVY person
+"""]]
