@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-05T17:12:47Z"
+ content="""
+Please note that we are not talking of \"the average Tails user\". We're talking of someone who is trying to reverse-engineer the Tails firewall by looking at the `iptables` output instead of reading the design doc or looking at the nice `ferm` configuration file. This seems an unusually hard task to tackle by someone who has apparently never heard of RFC1918, hence my redirect to documentation and homework :)
+
+"""]]

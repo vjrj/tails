@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-03T22:43:44Z"
+ content="""
+>I have one PC and I can't format it right now so I'm wondering if Tails can give me security on a PC like this.
+
+You appear to be thinking of absolutes, so, in absolutes:
+
+No.
+
+*Nothing* could \"give you security\" in the situation you describe. Tails could certainly *improve* your chances of using a compromised machine without the attention of much of the common malware likely to afflict the installed OS but \"give me security\"? No. You can *never* fully trust the system again. \"Formatting\" won't change that. You already know this though. If your life depended on your machines integrity you'd already have destroyed it, replaced it, and established a *sensible* software/use regimen. 
+
+Can Tails provide sufficient abstraction for you to continue to use your compromised Windows machine to play games but boot into Tails to check your email and FB without handing your passwords to the script kiddies? Possibly. Although this may change as you use the infected OS as the malware is likely to invite some friends along to the party. It all depends *what* malware is installed. So, in summary the pragmatic answer to your question is:
+
+Perhaps. It'll certainly *help* a bit. As would *any* live environment.
+
+An altogether better approach would be to restrict your sensitive activities to trusted *devices* (a phone, tablet or whatever) and leave the infested machine to its infestation until you feel inclined to replace\* it.
+
+\* or at least *thoroughly* clean it - if you're not really bothered enough to justify replacement.
+"""]]

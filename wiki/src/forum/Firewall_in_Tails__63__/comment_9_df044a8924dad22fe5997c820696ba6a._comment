@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-05-05T16:15:33Z"
+ content="""
+Ironically, the SHA cryptographic hash algorithms come from our most sophisticated and lethal adversary.  See
+
+     https://en.wikipedia.org/wiki/Talk:SHA-2
+
+But they are open source and have been extensively studied by third parties.  It is widely believed they *may* contain hidden weaknesses known only to the NSA, but as far as I know there is no evidence that is the case.  But it *is* true that the NSA has devoted much research to cracking hash algorithms and has gotten quite good at breaking MD-5, so that cryptographic hash algorithm should be avoided.
+"""]]

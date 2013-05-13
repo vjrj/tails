@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-07T20:33:30Z"
+ content="""
+
+@ OP:
+
+The previous commentator was being, I think, sarcastic.
+
+I think the short answer to your question is that by design, Tails itself should not attach its own metadata to files, but if you post images or photos you should be very careful to first search for and remove any metadata they may have acquired before you even transferred them to a computer running Tails.
+
+I think there is a need for tutorials on \"How to Leak\", but of course it is difficult to \"publish\" such suggestions since most governments take a very dim view of citizens sharing information which the government doesn't want them to share.  For example, information documenting grave misdeeds by corrupt officials or amoral corporations.
+"""]]

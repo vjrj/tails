@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Booting from Windows 8"
+ date="2013-05-12T02:56:55Z"
+ content="""
+I have the same problem. I used an older version of TAILS from disk and USB and neither worked. I iso burned the current version of TAILS to disk and that failed also. I was using an HP ENVY running Windows 8 (ugh! yuck! Blech!). If TAILS is to run on Windows 8 machines then I suspect it will need some type of update if it is not to be thwarted by HP and Microsoft.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-10T00:42:22Z"
+ content="""
+Oops, I see I again failed (up too late) to quite state the point:
+
+In the OP, I was trying to explain some specific ways in which metadata can prevent Tails from quite managing to accomplish the goal of amnesia, in the context of leaking, where maximal amnesia is obviously very desirable.
+"""]]

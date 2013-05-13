@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="As i said, try it with any version before 0.10"
+ date="2013-05-08T11:48:33Z"
+ content="""
+You will see that 
+- proxies work 
+- flash works 
+And all communication is routed through TOR like it should be.
+
+
+"""]]

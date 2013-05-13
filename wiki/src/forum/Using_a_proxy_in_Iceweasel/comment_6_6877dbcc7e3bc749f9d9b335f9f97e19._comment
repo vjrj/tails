@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-12T15:59:57Z"
+ content="""
+Hey Jake,
+these are interesting news. I suggested to keep the alternative firewall setting in TAILS, that does not block any unknown traffic but routing it through TOR instead, in an earlier post in this forum. But I didn't realize this myself and the TAILS team did not like my idea. I will test the proxy settings in Iceweasel with the old version TAILS 0.9 today.
+
+I have another question: Could you provide me your patch? Would be keen on having an updated TAILS for my proxyfication needs ;-)
+
+Thanks,
+ILikeTAILS
+"""]]

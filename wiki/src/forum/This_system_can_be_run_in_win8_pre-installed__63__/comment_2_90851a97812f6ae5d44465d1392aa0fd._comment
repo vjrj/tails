@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-04T16:24:28Z"
+ content="""
+Ten or fifteen years ago, US TLAs seemed to prefer Microsoft software or *nix, even for such critical applications as nuclear force targeting.  More recently, US TLAs say they are moving decisively away from Microsoft towards Linux, which could have some rather profound effects on computing generally.
+
+Sources say that US OGAs (\"other government agencies\") have already extracted from Microsoft UEFI keys for \"authorized government users\" who need to use Linux.  If those OGAs really wanted to be generally helpful, they would force Microsoft to make UEFI Linux-friendly.
+
+I guess the OP might be from Brazil, a populous country where whistleblowers are endangered.  For anyone curious about the internet situation in Brazil, see
+
+      http://en.rsf.org/report-brazil,169.html
+      http://www.amnestyusa.org/our-work/countries/americas/brazil
+
+A good example of why citizens should use Tails: surfing with a computer running Windows to rsf.org and other human rights websites can be dangerous; in the past two years there have been several incidents in which attackers (presumably sympathetic to oppressive governments) hacked several such sites to serve malware, apparently targeting specific groups of political dissidents in specific countries (but incidentally infecting many others).   Tails is probably immune to most such attacks simply by being a Linux distribution and even better by providing the No-script add-on with a Firefox clone and other protections against cross-platform attacks on web browsers.  And if you use Tails booted from a live DVD, even if you were somehow infected with some cross-platform malware targeting persons visiting human rights or whistleblowing websites, the infection would be wiped when you shut down Tails (barring the possibility of a remote attacker mounting and infecting your hard drive, which currently appears to be somewhat unlikely in the near future).
+    
+"""]]

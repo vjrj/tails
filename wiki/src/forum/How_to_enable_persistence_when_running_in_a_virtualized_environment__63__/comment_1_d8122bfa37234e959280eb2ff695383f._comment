@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-10T23:31:32Z"
+ content="""
+I like your first suggestion of running tails under a virtual machine and would like to know how to do that myself.
+
+Your second suggestion is a bad idea though, it would defeat the purpose of Tails.
+"""]]
