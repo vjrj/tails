@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 44"
+ date="2013-05-13T13:07:03Z"
+ content="""
+> I just followed the above Mac installation instructions precisely on an Early 2013 Macbook Pro 13\" Retina running 10.8.3. I was able to boot into Tails successfully,
+
+Nice to read!
+
+> but I'm experiencing the terrible screen distortion mentioned in comment posted Tue 01 May 2012 10:18:29 PM CEST.
+
+OK.
+
+> I tried following the link to here: https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-video-nouveau/+bug/898784
+
+I doubt this is the same issue, as the bugfix is present in Linux 3.2.21, and Tails ships something newer.
+
+> However, I'm a relative n00b when it comes to Linux and I wasn't clear if there were negative consequences of upgrading the Ubuntu kernel in Tails (is there anything fundamentally different about the kernel itself in Tails? Will it still run, and run securely if I upgrade the kernel?)
+
+Basically, you can't upgrade the kernel in Tails.
+
+Hopefully this will be solved when we update the Tails kernel to 3.8+ (probably in Tails 0.19).
+
+"""]]
