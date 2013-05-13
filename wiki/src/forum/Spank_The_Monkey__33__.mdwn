@@ -1,0 +1,3 @@
+    amnesia@amnesia:~$ echo "USE_VALIDATION_AGENT=false" >.monkeysphere/monkeysphere.conf ; pkill monkeysphere
+
+    amnesia@amnesia:~$ ps -A | grep sphere

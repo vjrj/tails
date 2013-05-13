@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-12T04:56:50Z"
+ content="""
+> You can (and should) still run Tails from a DVD or USB with a virtual machine.
+
+That is false. 
+
+*If you insist on running Tails in a VM* then booting from a CD image into the VM is your best bet.
+
+For general use, a VM leaves you more exposed to deanonymization and (as has been documented) is discouraged. 
+"""]]

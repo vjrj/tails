@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-05T15:11:28Z"
+ content="""
+I don't think it is fair to assume that the average Tails user will or even should suspect that some myserious IPv4 address range might be a local address range.  Many probably have never even heard of local addresses.
+"""]]
