@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-05-13T13:15:17Z"
+ content="""
+WHonix provides a different kind of security. 
+
+With Tails, in the unlikely event that malware gains root access, the malicious program can disable the firewall and destroy anonymity. 
+
+The approach taken by Whonix ensures that even if an install is completely riddled with malware, all network traffic still goes through Tor. The only way malware could destroy anonymity with this model is to attack the hypervisor.
+
+TLDR The two projects have different attack points - with Tails, the user loses if malware gains root. With Whonix, the user loses if the hypervisor is compromised.
+
+"""]]

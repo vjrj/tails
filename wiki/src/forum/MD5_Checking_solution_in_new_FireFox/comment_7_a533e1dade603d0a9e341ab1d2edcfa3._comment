@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-14T10:25:25Z"
+ content="""
+The relatively few other distros that I've seen provide digital signatures for verifying the ISOs at all, do so for the *checksum files*.
+
+( `gpg --verify SHA256SUMS.gpg SHA256SUMS.asc`) 
+
+This includes Debian.
+
+Why does Tails sign the ISO itself rather than a file containing the sha256sum for the ISO? 
+
+>Of course OpenPGP provides stronger authenticity if you have improved the trust that you put in our OpenPGP key, but not really otherwise.
+
+I recall a post from Tails that said that the trust in a given signing key automatically increases at least somewhat with each additional time it is used to verify an ISO. 
+
+>That's why we provide this alternative method which by be easier for some people.
+
+But not for the release candidates?
+"""]]

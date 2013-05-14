@@ -1,0 +1,11 @@
+I don't know if anyone has covered this, as I have read tons of threads for various distributions concerning this type of problem, but have been unable to make any of the suggestions work for me. 
+
+It goes like this: When creating a live USB One of my three systems will not boot the GPT partition created by the tails installer. According to a number of sources, this is to do with incompatibilities with GPT disks and the system BIOS. Unetbootin installs will work with the system in question as it doesnt format to GPT, but only the GPT partition made by the Tails installer can be made persistent, so you dont get that (very desirable) feature.
+
+I tried many workarounds to get my thumbdrive working with this system, which involved messing with the partition table, various install methods etc etc. Nothing seemed to work for me, and I don't fully understand many of the mechanisms of Linux OS, so am limited in what I can do with good advice.
+
+However while messing around I did discover that if you have two usb sticks, you can set up persistence on a working system on one stick, and create a unetbootin install on the second. When you boot from the unetbootin drive, it will ask to, and can use the persistent volume on the other stick as normal. So I can have a large tails proper install drive which works on most computers, and for case like this problem system, you can use the unetbootin install to get running and still use your persistence. This also works with just a Tails DVD and a USB stick too.
+
+Not perfect but pretty simple, and I do like things simple.
+
+Hope this helps someone.

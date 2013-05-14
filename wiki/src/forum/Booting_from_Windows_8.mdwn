@@ -1,0 +1,5 @@
+I was looking through various threads here regarding Windows 8, but haven't seen anything on how to do so.
+
+When I try to boot from the USB, it says that the device failed. I know the USB is fine, as it works with my other computers. I tried going into the BIOS settings (changing boot order, disabling Secure Boot), but nothing seems to work. 
+
+Is there any information on whether it's possible to boot Tails from Windows 8, and if so, how?

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-14T09:52:58Z"
+ content="""
+@1:
+>MD-5 is a hash function used to check that a file has not been modified in transit, for example over a noisy line. In the past it was used to guard against malicious tampering but is no longer considered safe for that; 
+
+If the hash you are checking against wasn't acquired from a trusted source, then I don't see how the cryptographic strength of said hash would really matter much. An attacker who could swap a legitimate ISO from a server for a rogue one, could just as easily do the same for the accompanying checksum data.   
+
+>now SHA-512 is used instead.
+
+I've seen VERY FEW distros provide anything above sha256 sums, and even that is far from universal. Many go no higher than sha1 and md5 is not only still far from rare but is still the ONLY hash provided by MANY distros.
+_____________________
+Comment 3 by \"Sabbir\" appears to be SPAM.
+"""]]

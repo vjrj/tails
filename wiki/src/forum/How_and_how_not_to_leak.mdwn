@@ -1,0 +1,150 @@
+Consider the situation of someone who has come into the possession of dangerous information such as
+
+* documentation of misdeeds by corrupt police or other governmental officials
+* internal documentation of misdeeds by an amoral corporate employer
+* traces of infection by suspected state-sponsored-malware
+
+Such a situation may impel some brave (or foolhardy) citizens "suffering" from patriotism or moral sensibility to try to anonymously provide the information to journalists, advocacy groups, or leak sites, in the public interest.
+
+Tails users often ask here for an explanation of how "metadata" or other potentially dangerous phenomena can prove harmful to someone who attempts to anonymously leak such information.  In this thread we will, "Tails" permitting, attempt to discuss how to use Tails to mitigate such threats.
+
+Leaking wisely and "safely" necessarily involves a carefully considered sequence of steps, possibly including
+
+* careful consideration of the morality of the proposed leak
+* methodical research and operational planning
+* "traceless" transfer of documents to a computer controlled by the leaker
+* unobtrusive identification of a suitable leakee
+* negotiation with the leakee about issues such as providing sufficient background information to prove the authenticity of the leaked documents
+* "traceless" and "anonymous" transfer of information from leaker to leakee
+
+Each of these processes break down into further processes.  For example, the last may involve transferring a document from a computer controlled by the leaker, booted from a hard drive, to a second computer which is running Tails.
+
+In this inaugural post, I propose to explain one procedure for performing such an "other-OS to amnesiac-OS transfer", and I invite alert readers to spot the potential problems with the scheme.
+
+To fix ideas, I'll lay out a detailed but imaginary scenario.
+
+Suppose you work for a Local Council and someone accidentally sent to an organizational mailing list, which happens to include your personal email account along with dozens of other addresses, an internal confidential memo complaining about an illegal surveillance operation using private investigators hired by a particular local government official, using government funds, which targets a peaceful group opposed to a proposed windfarm expansion in your area.  Suppose that in addition the internal memo includes documentary evidence of an unambiguous conflict of interest: if the windfarm is built, the brother of the government official who hired the investigators will reap a large personal profit.  
+
+(This is the kind of explosive internal memo which is almost always suppressed to avoid embarrassing the government, which all too often allows the corrupt activity to proceed unchecked.)
+
+Until you opened the email on your home computer, you had no idea it contained sensitive information which was sent to you (and many others) by mistake.  You decide the information is so outrageous that you must leak it to a reporter, in the public interest.  (Maybe you have knowledge of previous misdeeds by the same official, showing that the windfarm operation is not an "isolated incident".)  After methodical preparation, you arrive at the point where you need to transfer the memo from your personal computer to a second computer running Tails.
+
+In this procedure, you will in effect use your PC or laptop as a file server, although it could be a laptop or desktop PC.  In what follows I assume this "file server" is running Linux, in fact Debian (Wheezy or Stable should make no difference).
+
+Suppose your personal home LAN uses a DHCP server running on a consumer-grade router to assign internal IP addresses to devices attached to the router.
+
+Suppose the ordinary user on the file server is "missie", and suppose the router has assigned to your "file server" the local address
+
+      192.168.1.2
+
+(On the file server, as root user, try ifconfig -a to see the local IP address your router has assigned to this computer, if you don't know it.  You won't need to know the local IP of the computer running Tails since that computer will be acting as the client in the transfer, but you will see it in the auth.log on the file server.)
+
+Suppose you have installed an ssh *server* on the "file server".  
+
+(You may or may not have followed suggestions at debian.org to configure 
+
+      /etc/ssh/sshd_config 
+
+to disallow ssh connections unless authenticated by RSA public key, rather than by giving a password each time you connect, which is generally considered dangerous.)
+
+Suppose that on the amnesiac computer you have booted Tails from a DVD for extra anonymity/security, *without* providing a root password.
+
+A. On the file server, as root user:
+
+1. If necessary, edit sshd_config to temporarily allow logins with passwords, and start the SSH server (which you probably don't run unless you are actually transferring files):
+
+	 /etc/ssh/sshd_config 
+         service ssh start
+
+2. Start observing ssh logins:
+
+	 tail -f /var/log/auth.log
+
+B. In the amnesiac computer running Tails, as amnesia:
+
+1. Generate a random pronounceable passphrase
+
+	 pwgen -n 8 50
+
+"Arbitrarily" choose some elements from the output to make a passphrase about 20-30 characters long, tossing in some punctuation for good measure.  
+
+2. Generate a "one-use-only" RSA key-pair for your Tails system:
+
+	ssh-keygen -b 4096 -t rsa
+
+You should see some output including a line like this:
+
+> The key fingerprint is:
+> i6:1b:6k:5f:7v m3:38:4o:3p:x4:42:2n:25:33:z0:42 amnesia@tails-machine
+
+3. Check amnesia's home directory for the new keypair
+
+       cd .ssh
+       ls -lah
+
+You should see two or three files: id_rsa (the secret key), id_rsa.pub (the public key), and possibly known_hosts.
+
+As a general remark about such keypairs, it is very important that id_rsa remain secret since that is the secret half of your RSA keypair!  The file id_rsa.pub is your public key and it can be world readable (as can known_hosts if that is present too), although this is not necessary.  If your id_rsa was created world readable, fix this using
+
+       chmod a-x id_rsa
+
+At debian.org you can find suggestions for configuring sshd_config so that authentication by passwords is disabled, and so that your system does not follow a particularly dangerous procedure by which it trusts any device which has been assigned a given IP address.  (That probably won't happen by default on a modern Debian SSH installation; known_hosts is related to this but the fact that is is present, if it is, does not by itself imply that your RSA security is weak.)
+
+4. Check the fingerprint of the new key
+
+       ssh-keygen -l
+
+As a general remark, if you ever need to read a fingerprint over the phone for out-of-band authentication, try bubble-babble:
+
+       ssh-keygen -B
+
+5. Copy your public key to the file server (you will be prompted for the password of missie): 
+
+       ssh-copy-id -i missie@192.168.1.2
+
+You should see some output saying that the file server has been added to a list of known hosts.
+
+The displayed RSA key fingerprint belongs to your file server, so you should recognize it as valid!
+
+C. On the file server:
+
+1. Check the output from auth.log.  You should see that initially the connection from the computer running Tails was rejected because no valid public key was presented, then ssh fell back upon password and let someone in when the correct password for missie was given.
+
+2. If necessary, edit /etc/ssh/sshd_config again to disallow password authentication, and restart the ssh server.
+
+D. On the computer running Tails:
+
+Try a sftp connection:
+
+      sftp missie@192.168.1.2
+      cd a-directory
+      ls
+      put a-file-on-tails-machine
+      get a-file-on-file-server
+      bye
+
+You should be prompted for the long passphrase of your shiny new RSA key.
+
+E. On the file server:
+
+Check the output from auth.log.  You should see that someone using the computer running Tails presented a valid RSA public key and was logged on as missie and then used sftp.  You see that the user then disconnected.  All with timestamps and ports used.
+
+F. On the computer running Tails:
+
+Try another ssh or sftp connection.  This time you probably will *not* be asked for your passphrase since the ssh server trusts that it is still you at the other end.
+
+If you tested this with some entirely innocuous document, it should work in the sense that files are transferred.  Certainly it worked for me using Tails 0.17.2 on a notebook or laptop and Debian Squeeze or Wheezy on the "file server".
+
+But we wanted much more, we wanted traceless and anonymous file transfer.
+
+The implicit assumption was that once you shutdown the machine currently running Tails, the one-use-only SSH key you made will vanish forever (assuming memory wiping succeeds).  Indeed, assuming you are not already being monitored by Gamma spyware (a situation which may be common in a few years), the private key will vanish, so no-one, not even you, should ever be able to use the public key to log into your "file server" when it is offering SSH service.
+
+So did you spot the problem?
+
+You left some metadata lying around on the "file server", which can potentially be used to harm you in future by that vindictive and corrupt official!
+
+(Try to figure out where if you don't already know.)
+
+There is another kind of potential problem with this scheme; can you spot it too?
+
+You might be tempted to use the above scheme to quickly and easily transfer files between your "file server" and a Tails system on a live USB with persistence.  Then you can arrange to have the RSA keypair kept in your encrypted persistent volume on the USB stick.  I've tested that too and it works in so far as transferring files is concerned.  But this raises even more anonymity concerns.

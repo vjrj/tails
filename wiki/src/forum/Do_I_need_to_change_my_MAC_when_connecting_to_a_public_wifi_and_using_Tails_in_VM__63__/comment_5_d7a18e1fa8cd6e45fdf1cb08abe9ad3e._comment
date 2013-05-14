@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-12T04:50:03Z"
+ content="""
+@comment 4
+
+> I don't trust that both the host OS and the virtualization software can provide the same level of anonymity as Tail does.
+
+They don't. The OS and VM system add to the de-anonymization attack surface.
+That said, users making an informed decision about acceptable risk and choosing to use Tails under a VM should not be prohibited from also using persistence. As it stands now, even if one uses a CD/DVD or USB drive to boot Tails into a VM persistence options are disabled. I would like to know how to enable that option.
+"""]]
