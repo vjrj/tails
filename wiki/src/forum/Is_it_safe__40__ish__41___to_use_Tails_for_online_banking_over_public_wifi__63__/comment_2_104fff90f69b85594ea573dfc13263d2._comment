@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-15T13:04:46Z"
+ content="""
+Thanks for that! I had the impression I was planning to use Tails not exactly for its main purpose. And I do realize that keyloggers can be a problem. (I run MintDebian Wheezy as my main OS.) 
+
+My main concern is someone eavesdropping on my wifi while I'm on a public network. 
+
+Before finding Tails, I'd been bracing myself to set up ssh tunneling to my server at home (and hoping the power didn't glitch, making the server shut down). That's very intimidating for me though. 
+
+If I can get enough encryption to improve my chances against eavesdropping by using Tails, I'll be a happy camper!
+
+
+"""]]
