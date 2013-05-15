@@ -1,0 +1,34 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 8"
+ date="2013-05-15T10:16:40Z"
+ content="""
+> So! It looks like YUMI is messing up the installation and that there
+> is no bug with Tails itself. (Right?)
+
+It seems so. Thanks for investigating it.
+
+I'd like to make it very clear we do *not* support Tails
+installed with (and sometimes transparently modified by, as you just
+did experience) methods that are not documented on this very web site.
+
+> If I manually edit the tails.cfg file to change the words to
+> timezone=Etc/UTC, everything works as it should.
+
+Great.
+
+> But, now I have two questions.
+
+> Who will tell the YUMI creator? Should I?
+
+Personally, I don't care at all. They probably see the timezone
+mangling as a nice feature, which is probably right for less
+specialized systems than Tails.
+
+> Please can you tell me where I can find instructions for a better method of installing to USB?
+
+Yes. See [[download]].
+
+"""]]
