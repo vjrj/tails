@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="HTTPS vulnerablities, missing comment? "
+ date="2013-05-16T19:06:45Z"
+ content="""
+>I think comment 7 quite nicely answers the OP. This thread is therefore now closed.
+
+Wikipedia says SSL 3 or TLS 1.0 are \"maybe\" secure. 
+
+https://en.wikipedia.org/wiki/Transport_Layer_Security#Applications_and_adoption
+
+If the bank supports TLS 1.1-1.2 you should be more secure with chromium or safari.
+
+>Don't know if this will go, since it says the thread is closed.
+
+Perhaps our punishment for posting to closed threads is that when others try to view the change from RecentChanges they see this:
+
+>missing page 
+
+>The page ?comment 9 f90a3d5fedf46fd5c28e76a1af1283ed does not exist.
+"""]]
