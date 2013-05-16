@@ -5,6 +5,7 @@ Download the most recent Electrum *source* tarball from <http://electrum.org/dow
 
 open a terminal, go where you saved the archive and unpack it:
 > cd /home/amnesia/
+
 > tar xzvf Electrum-1.7.4.tar.gz 
 
 start Electrum with the following command to force it to connect to slush's hidden electrum server using tor as a SOCKS5 proxy
@@ -23,7 +24,7 @@ Security is hard, very hard.
 
 Be aware that you are downloading software form a website (Electrum) and trusting your money to it. Please check the tarball checksum, at the very least, if you intend to use it.
 
-By using only slush's server you are putting a certain degree of trust in slush not deceiving you. From what I understand the worse that could happen is a malicious server reporting a payment as aknowledged whet it is not.  
+By using only slush's server you are putting a certain degree of trust in slush not deceiving you. From what I understand the worse that could happen is a malicious server reporting a payment as aknowledged when it is not, but if you are worried you should research the issue (and maybe let us know your conclusions in a comment).  
 
 I do not have a clear idea of how much anonimity you gain by using Electrum behind Tor. On one hand your Electrum wallet will be associated with a random ip address in the bitcoin block chain. On the other hand it is always possible to travel back trough the blockchain and see who send those money to your wallet.
 
