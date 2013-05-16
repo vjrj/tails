@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-15T12:39:53Z"
+ content="""
+some considerations:
+
+* Tails primary use case is to use the internet anonymously.
+    * You will be logging in to your bank, so you will not be anonymous.
+
+* The fact that you can boot Tails off a CD/DVD makes it much less likely that your computing session will be watched by operating system based malware.
+
+* You will be using encryption (SSL) to communicate with your bank (even through tor) 
+
+* Many keyloggers exist in keyboards (in the physical device)
+    * (Maybe true) Using cut and paste to fill in the characters of your password should circumvent most keyloggers.
+
+* There are reports of malware at the BIOS level on computers
+
+
+"""]]

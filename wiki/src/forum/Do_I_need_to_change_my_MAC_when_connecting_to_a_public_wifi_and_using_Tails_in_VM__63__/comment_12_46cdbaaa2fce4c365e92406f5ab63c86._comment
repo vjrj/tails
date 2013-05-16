@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-05-14T00:19:49Z"
+ content="""
+* Comment 10
+
+> Based on your explanation, am I right to conclude that Whonix provides the same degree of anonymity as Tails does?
+
+Both tools use the Tor network to provide anonymity on the internet.
+
+To answer your question though, depends on your definition of 'anonymity'.
+"""]]

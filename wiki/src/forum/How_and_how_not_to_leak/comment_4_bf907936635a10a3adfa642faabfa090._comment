@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Wired also advising readers how to leak"
+ date="2013-05-15T20:00:45Z"
+ content="""
+The defining characteristic of Tails is that it tries to provide an *amnesiac* operating system.  That is, it provides a live DVD system which leaves no traces of activity while using Tails once the system is rebooted from the hard drive.  Furthermore, Tails provides ready to use Tor, together with a firewall configured to minimize the chances of accidental de-anonymizing leaks of information by the Tails system while it is in use, as well as the metadata anonymization toolkit (mat).
+
+For these reasons, Tails is perfectly suited to meet the needs of anyone preparing to leak an important document in the public interest.  Furthermore, some of us feel that any explanation of some practical Tails skills which people can use Tails to help others (and/or improve their own lives) is a topic of discussion suitable for the Tails forum.
+
+Some of us have argued that strong cryptography and anonymity have never been more important for reporters and their sources.  Three major stories have recently broken which underscore this point:
+
+**EDIT: spammy off-topic content removed. Please find a better place to publish your essays.**
+ 
+"""]]

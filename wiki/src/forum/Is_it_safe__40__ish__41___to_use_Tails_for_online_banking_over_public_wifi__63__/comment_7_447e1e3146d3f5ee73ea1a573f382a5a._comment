@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-16T06:32:53Z"
+ content="""
+Assuming your bank uses HTTPS (all banks does I hope), and assuming you are using your own computer to connect to the bank, using Tails or not will not make any difference.
+
+The public wifi is untrusted, and Tor exit nodes is untrusted. What you want is HTTPS, which encrypts and authenticates the traffic to your bank. In Firefox you should get a green bar with a green lock icon next to the URL.
+
+Now, if you are going to use a public computer, do bring your own operating system, yes. But really do use your own computer if at all possible.
+"""]]
