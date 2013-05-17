@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 4"
+ date="2013-05-17T10:29:06Z"
+ content="""
+Please stop insulting people in here just because you are trying to do non-trivial stuff without taking time to learn the basics first.
+
+You need to use `losetup` to setup a block device that cryptsetup can open. Nothing specific to Tails here, that's usual Linux stuff.
+
+Thread closed.
+"""]]
