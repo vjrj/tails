@@ -1,0 +1,7 @@
+  This is mission control. Do you copy?
+
+root@amnesia:/home/amnesia# cryptsetup luksOpen /media/here/liberte.vol liberte
+Cannot open device /media/here/liberte.vol for read-only access.
+
+  How does one open and use an otfe volume??????????
+  This cryptsetup gibberish is incomprehensible to 99% of the intended user base. 
