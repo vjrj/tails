@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-17T17:26:29Z"
+ content="""
+There are several VPN providers which run also Tor relays on their VPN servers. However, the ones I know are non exit relays and you should not see them if you check your IP. 
+"""]]
