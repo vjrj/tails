@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Disk Utility?"
+ date="2013-05-17T02:39:10Z"
+ content="""
+When I want to mount an luks encrypted container...
+
+I click aplications ...System Tools... Disk Utility.
+
+then I select the media (usually usb) and click on the encrytped partition, and then the key that says unlock.
+
+It has never failed me, and frankly it is so easy I would have never considered it to be a problem.
+
+
+
+"""]]
