@@ -1,0 +1,44 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Open-hardware, ROM, PLA, firmware"
+ date="2013-05-16T05:29:26Z"
+ content="""
+>It's not possible to boot a sd card without firmware. You always need some kind of minimal firmware. Coreboot is the closest thing and its open source.
+
+What do you mean firmware? Entire operating systems are called \"firmware\" so it's kind of meaningless. Then there is microcode in ROM or PLA.
+
+https://en.wikipedia.org/wiki/Microcode
+
+**The goal is that any REMOTE exploit cannot survive reboot.** For this we need firmware/ROM/PLA that is protected from writing/hacking. Or it must be possible to remove the storage media and check a hash of the entire writable \"firmware\"/ROM/(PLA?)/OS.
+
+>Programming firmware is so complicated, how can YOU confirm that the producer didn't include a backdoor or how MUCH are you willing to pay someone to check that there is no backdoor?
+
+You can't give someone a lump of money to prove a negative. My wallet has no such backdoor. That isn't how this works. I'll buy hardware that looks relatively more trustworthy. When your balls are not in Microsoft's nest, you have more options.
+
+>What about CPU backdoors?
+
+If you find a hardware backdoor at least you know who to blame. Blatant hardware backdoor requires a conspiracy and one that would implicate the manufacturer against their (other) customers. Might not be the best business model. There are plenty of \"bugs\" (oopsies) being used as \"bugs\" (spy devices). These would offer plausible deniablity and make the consumer always dependent on the producer for patches to \"re-secure\" things. How difficult would it be to make some \"errata\" that was exploitable yet looked like an accident if it were ever found? 
+
+Of course you have to trust hardware and software but we know who these sources are so their reputation is on the line. I'm trying to secure against *remote* exploits that can survive reboot. If you find your trusted source screws you, you fix this by not trusting them anymore.
+
+So what are our most trustworthy options for hardware? Open-source hardware.
+
+https://en.wikipedia.org/wiki/List_of_open-source_hardware_projects
+
+>Forget about it. There is no such thing as trusted hardware. Not even for the military. It is a problem for military that their hardware comes from china.
+
+Maybe that is because they are married to Windows because none of the open-source hardware I know of uses x86. 
+
+Plenty of Debian distros run on ARM. Tails shouldn't be difficult to port to ARM. Tails runs on x86. Is there open-source x86 hardware? 
+
+Is there any open-source hardware with no PLA and the only writable storage is on a removable flash card (with the operating system)?
+
+We need a way to make everything read-only or everything has to be on removable storage so it can be checked for integrity (hashed) by a separate computer. DVDROMs are not common now that computers usually come with DVDRWs and they still aren't completely \"read-only\" when they have firmware. This computer could also be a lot more portable and use less power if it didn't have a DVD drive. SD card sounds like a better option.
+
+I don't know how to know if a device can use the read-only switch on an SD card so that it is impossible to hack. Although time-consuming, it should be possible to check the integrity of the SD card from a different computer, in order to insure that nothing has changed. That seems to be the best we might do at this time: open-source hardware with everything on SD card. Unfortunately, RaspberryPi's FAQs show that the hardware is not exactly open-source:
+
+http://www.raspberrypi.org/faqs
+>To get the full SoC documentation you would need to sign an NDA with Broadcom, who make the chip and sell it to us. But you would also need to provide a business model and estimate of how many chips you are going to sell.
+
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-16T12:37:41Z"
+ content="""
+@ OP
+
+Tails is an acronym for The Amnesic Incognito Live System.
+
+How can it keep logs if it wants to be amnesic?
+
+The answer is NO. There is no way to find out which connections have been blocked by Tails.
+"""]]
