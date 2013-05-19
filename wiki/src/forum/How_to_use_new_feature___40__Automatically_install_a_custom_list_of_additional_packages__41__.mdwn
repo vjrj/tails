@@ -1,0 +1,11 @@
+Hello all!
+
+Noticed this new feature on the tails news page for 0.18.
+
+How do we use this?  Previously I had to manually run the command
+
+"sudo dpkg -i /var/cache/apt/archives/*.deb"
+
+everytime I booted with persistence live.  How do we configure this new thingy?
+
+Thanks in advance!
