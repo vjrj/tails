@@ -1,0 +1,5 @@
+When firefox fails to open a .onion URL because the Tor network is being flaky or whatever, it sometimes prefixes the URL with www.
+
+Then of course it can't connect no matter how many times you press F5.
+
+Is this something that can be fixed in Tails, or is it a bug for the Tor browser itself?
