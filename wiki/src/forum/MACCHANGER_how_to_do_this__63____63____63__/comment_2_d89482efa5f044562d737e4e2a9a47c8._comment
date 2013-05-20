@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-20T19:10:45Z"
+ content="""
+That sucks...
+
+Because MAC adresses are a major security fail then. But can't i shut down wifi in BIOS, then change mac adress with macchanger in tails and then enable wifi or something?
+
+Or do i have to use liberte now, because a non leaking mac adress is necessary for me
+"""]]
