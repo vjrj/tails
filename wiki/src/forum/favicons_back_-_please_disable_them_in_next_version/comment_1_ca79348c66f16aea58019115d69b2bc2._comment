@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-20T22:14:20Z"
+ content="""
+this should be set to false:
+
+browser.chrome.site_icons
+
+instructions per user here:
+
+##Quick Tip: Disable Favicons in Firefox
+
+http://www.howtogeek.com/howto/internet/firefox/quick-tip-disable-favicons-in-firefox/
+
+"""]]
