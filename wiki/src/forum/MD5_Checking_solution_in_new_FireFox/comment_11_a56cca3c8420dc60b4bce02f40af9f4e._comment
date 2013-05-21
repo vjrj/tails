@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="CRC 32"
+ date="2013-05-21T20:56:14Z"
+ content="""
+And for those using old hash computation, here are Tails 0.18 values (developers may verify this):
+
+CRC32: 01cb65fc
+  MD5: 21aef2f2b8fd3139a5325b1937650798
+
+PS: Even if hash is an ancient verification tool (mainly used for transfer verification), if there are many variants, why not put all of them, not only sha256 or sha512? After all, users need mainly to verify the download (transfer is ok): CRC32 is faster but secureless, PGP is the most secure but somehow harder for average user. And if the download link is broken by some MITM atack, won't be the page that shows the hash as well? So why bother ( http://stackoverflow.com/questions/996843/when-is-crc-more-appropriate-to-use-than-md5-sha1 )? If someone is so paranoid to check and triplecheck, that's his choice. But why to refuse other users the hash? After all, if people are forced to use pgp checking, they mainly will refuse to use it without saying a thing, and not having a hash on hand for download checking, will start using tails with no verification at all. My advice, put all the hash and pgp on the same page so people has the choice: Less secure, More secure. 4 example, if someone is using tails at work in Virtual Box, and has no administrator rights, it will definitely use hash (not PGP if not installed). Home, having more time to spend he may try use the PGP on the iso and verify the hash obtained at work.... When navigating hard on tails web site to find some hash (and hardly finding only one)... time is money in companies... he will forget about checking, right?
+"""]]
