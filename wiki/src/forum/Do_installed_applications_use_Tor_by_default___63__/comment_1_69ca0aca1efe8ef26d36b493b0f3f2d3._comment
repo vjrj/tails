@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-21T08:45:12Z"
+ content="""
+Such applications won't leak non-Tor traffic. Either they will use Tor, or they won't work. However, they still might leak identifying information at the network level, so: use at your own risks.
+"""]]
