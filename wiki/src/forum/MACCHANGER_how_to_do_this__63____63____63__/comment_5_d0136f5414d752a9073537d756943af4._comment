@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-21T16:57:43Z"
+ content="""
+@2: Why would it be necessary to disable WiFi? 
+
+Why couldn't you just not connect to a network until after you had changed your MAC?
+
+@4: I picked-up the following and it has worked for me. 
+
+Note:
+
+-In order to use macchanger you will need to set a password upon booting Tails, as root privileges are required. Gain them either by entering `sudo su` into the terminal first, or by preceding each command with `sudo`.
+
+- You may need to replace \"wlan0\" in the commands below with whatever your actual network interface may be. The `ifconfig` command can be used to generate a list of all network interfaces.
+
+`ifconfig wlan0 down`
+
+`macchanger -a -e wlan0`
+
+`ifconfig wlan0 up`
+ 
+
+
+"""]]
