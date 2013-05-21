@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-21T13:03:38Z"
+ content="""
+@ Tails
+
+Correct me if I am wrong.
+
+OP could open a root terminal and type the following command to change the MAC address:
+
+sudo macchanger -a eth0
+"""]]
