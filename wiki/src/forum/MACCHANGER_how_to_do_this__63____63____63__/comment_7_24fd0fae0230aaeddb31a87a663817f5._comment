@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 7"
+ date="2013-05-22T08:47:52Z"
+ content="""
+Yes, your MAC address might leak before even connecting to a network. That's why we are planning to implement that from Tails greeter. Maybe you have a hardware switch for your Wi-Fi card on your laptop, so you can change the MAC address before switching it on.
+"""]]
