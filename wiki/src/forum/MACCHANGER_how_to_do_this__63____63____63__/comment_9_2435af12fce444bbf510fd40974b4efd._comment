@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 9"
+ date="2013-05-23T06:40:00Z"
+ content="""
+If you want to use Tails close enough to your house so that your laptop can be carried there while running Tails, that should work.
+
+Maybe unless this place is so close to your home, that both places, and thus the fact that you started Tails at home first, could be seen by an active attacker.
+"""]]
