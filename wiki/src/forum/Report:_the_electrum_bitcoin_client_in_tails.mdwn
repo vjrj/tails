@@ -21,6 +21,8 @@ The network connection will fail a few times, as tor is a lot slower than what E
 If you want to keep using your wallet I suggest you copy the Electrum code and your wallet (~/.electrum/electrum.dat) to the tails persistent storage. You can then start electrum with the following command:
 > ./electrum -s 56ckl5obj37gypcu.onion:50001:t -p socks5:localhost:9050 -w path/to/electrum.dat
 
+In my opinion it is much more secure to learn (or write down) your "wallet generation seed" and recover your wallet information using the generation seed every time.
+
 # Random toughts on security
 Security is hard, very hard.
 
@@ -28,7 +30,7 @@ Be aware that you are downloading software form a website (Electrum) and trustin
 
 By using only one server you are putting a certain degree of trust in it not deceiving you. From what I understand the worse that could happen is a malicious server reporting a payment as aknowledged when it is not, but if you are worried you should research the issue (and maybe let us know your conclusions in a comment).  
 
-I do not have a clear idea of how much anonimity you gain by using Electrum behind Tor. On one hand your Electrum wallet will be associated with a random ip address in the bitcoin block chain. On the other hand it is always possible to travel back trough the blockchain and see who send those money to your wallet.
+I do not have a clear idea of how much anonimity you gain by using Electrum behind Tor. On one hand your Electrum wallet will be associated with the ip address of a tor exit node in the bitcoin block chain, but unless you use some mechanism to hide your tracks it is always possible to travel back trough the blockchain and see who send those money to your wallet. That someone is usually you, someone you did business with or a website that has your credit card information, so beware, Tails will not automatically make you anonymous.
 
 # Aknowledgments 
-Thanks to armand from #tails for suggesting me to relax and wait a little for the connection to the server to settle :)
+Thanks the tails, tor and electrum developers and to armand on #tails for suggesting me to relax and wait a little for the connection to the server to settle :)
