@@ -4,7 +4,7 @@
 
     sed -i -e 's/security.warn_leaving_secure\", true/security.warn_leaving_secure\", false/' -e 's/security.warn_submit_insecure\", true/security.warn_submit_insecure\", false/' ~/.mozilla/firefox/default/user.js && echo 'user_pref("browser.fixup.alternate.enabled", false);' >> ~/.mozilla/firefox/default/user.js && echo 'user_pref("browser.chrome.site_icons", false);' >> ~/.mozilla/firefox/default/user.js
 
-*Happy Browsing*
+*Happy Browsing :)*
 
 ---
 
