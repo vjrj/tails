@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 3"
+ date="2013-05-24T10:23:07Z"
+ content="""
+The [[warning|/doc/about/warning]] page is linked second from the [[Getting started...|getting_started]] page, fourth on the [[documentation index|/documentation]], and mentioned with a visible block in the first section of the [[download|/download]] page.
+
+I think it is important to explain first what Tails do before explain what Tails does not, and I find that those links are sufficient. Maybe it would be better to have it on the front page as well, but I'm not ready to do that work right now.
+
+If you want to keep on discussing that, please post your suggestion to tails-dev to get more devs give their opinion, and maybe find a volunteer to implement it.
+"""]]
