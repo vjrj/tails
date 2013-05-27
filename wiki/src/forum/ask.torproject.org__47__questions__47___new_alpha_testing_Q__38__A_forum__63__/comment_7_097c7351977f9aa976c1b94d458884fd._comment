@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 7"
+ date="2013-05-27T12:18:05Z"
+ content="""
+> The problem seems to be that National Democratic Institute (NDI), one of the sponsors of the Tails Project, forbids grantees from doing anything which might be \"contrary to current US foreign policy objectives [...]
+
+Nonsense. We'd never accept any NDI money if there were any strings attached to it. Seriously, NDI couldn't care less about our forum, but *we*, the Tails developers, care. We want our forum to be (1) factual and (2) about Tails. In order for it to be (1) factual, we moderate it, which require us to read and consider everything posted here, which takes time. In order to not waste precious time that could be spent improving Tails, we require discussions to be (2) about Tails.
+
+An on-topic way to discuss issues like new surveillence methods and similar would be to write a *short*, **technical** summary of how it works, and then ask how Tails defends against it or something similarly Tails-related. This is what this forum is about; for in-depth discussion about e.g. new surveillence methods *in themselves* there are other, better forums.
+
+> \"Tails\" has repeatedly stated that in the forthcoming Q&A wiki, posts from unregistered users will be forbidden.
+
+While registering will be necessary (at least initially), it's only because of technical limitations of the available Q&A software we've considered, like Askbot. Nevertheless, registering will be harmless. We've always had a hard requirement on anonymous posting. See our [[ticket for improving the forum|todo/improve_the_forum/]], the Askbot **Features** section: \"Anonymous posting: filling up the email field is required but the validity of the email is not checked\". So you can register a throw-away account by entering a random username, random (non-existent) email address and random password, post your question, and then forget about the account. Creating such a throw-away account has zero security implications, but for user convenience we'd like to allow account-less anonymous posting too in the future, possibly by contracting the Askbot developers to implement this missing feature.
+"""]]
