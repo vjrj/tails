@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-27T19:14:25Z"
+ content="""
+I am not aware of any Linux live CD distribution which offers a suitable alternative to Tails.
+
+You could possibly experiment with live installing the security patches yourself (as Debian packages in the Debian repositories), but I suspect this would be more dangerous than sticking with the latest Tails and hoping for the best.  Also, you need to boot with a root password to live install.
+"""]]
