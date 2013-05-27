@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-27T21:20:24Z"
+ content="""
+Trying a USB WiFi adapter, if you have access to one, can be an easy way to troubleshoot. If it works, then you know the problem almost certainly lies with your WiFi card.
+"""]]
