@@ -1,0 +1,1 @@
+Wouldn't it be a good idea to give Windows users a few more options in verifying the downloaded file is correct? 7-zip has a (slightly hidden) feature that can calculate SHA-256 checksums for any file through the 7-zip manager and I would consider this as something between the MD5 and using PGP for verifying.
