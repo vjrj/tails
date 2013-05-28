@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-28T12:23:44Z"
+ content="""
+From my understanding, a VPN is not recommended on the Tor website. I thought any data that passes through whilst connected to Tor would be encrypted all the way until it reaches your computer, so it would not matter if you are on an insecure wireless.
+"""]]
