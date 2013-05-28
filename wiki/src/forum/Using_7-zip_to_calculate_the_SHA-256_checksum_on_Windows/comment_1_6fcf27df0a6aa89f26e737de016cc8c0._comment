@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-28T09:48:30Z"
+ content="""
+The documented method uses SHA-256 already, not MD5. What good would it do to use 7-zip instead?
+"""]]
