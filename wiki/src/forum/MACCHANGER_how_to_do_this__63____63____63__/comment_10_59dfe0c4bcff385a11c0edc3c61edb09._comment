@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-05-28T04:24:25Z"
+ content="""
+>Yes, your MAC address might leak before even connecting to a network.
+
+Leak to who?
+
+To various networks that might scan and log all WiFi devices within range?
+"""]]
