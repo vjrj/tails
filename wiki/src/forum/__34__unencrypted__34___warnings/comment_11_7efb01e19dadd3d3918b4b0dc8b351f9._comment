@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="&quot;unencrypted&quot; warning may be related to decade-old firefox bug"
+ date="2013-05-29T01:48:36Z"
+ content="""
+Firefox has had a bug they have been working on for a decade to fix the browser's response when displaying encrypted httpS/SSL pages which also contain content/elements that are from ordinary http connections.  Such as sites that serve images or whatnot from a different server than the main SSL page that they don't bother to make an SSL connection with.
+
+In the past half year they got close and had several false starts thinking it was fixed, and I think it may be finally fixed in the current V. 22. (+ or - one version).
+
+Just my guess that the complaint in Iceweasel is related to the fluctuating situation experienced by Firefox in recent months as Iceweasel and/or Tor tried to adapt.
+
+
+"""]]
