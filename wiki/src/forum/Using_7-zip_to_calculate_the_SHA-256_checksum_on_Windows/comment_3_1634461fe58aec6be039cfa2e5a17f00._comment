@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 3"
+ date="2013-05-29T10:51:41Z"
+ content="""
+OK, I see. If there's a way to install 7-zip that is as secure as the MD5 Reborned Hasher extension installation, then I bet we would happily review a good patch to the documentation, that implements this move :) See [[contribute/how/documentation]].
+
+"""]]
