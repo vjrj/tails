@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-30T18:03:37Z"
+ content="""
+> After rebooting my pc, I received an error message to reformat my external Seagate hard drive. Apparently, tails had been installed on my external hard drive and not on the thumb drive.
+
+Did you click on the wrong disk when you ran the install script, mistaking your external hard drive for the thumb drive?
+
+Sorry, I don't know whether it is possible to recover your data, much less how.  If no one else replies, try reading in Wikipedia about Knoppix and recovery-type live Linux CDs.
+"""]]
