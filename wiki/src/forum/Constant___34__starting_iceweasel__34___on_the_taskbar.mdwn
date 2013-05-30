@@ -1,0 +1,5 @@
+Running 0.18 with persistent storage enabled and booting from USB, all other settings unchanged.
+
+There's an entry on the taskbar / dock with the label "Starting Iceweasel" that never goes away.  This alone wouldn't bother me too much but along with the icon on the tray the mouse pointer is "stuck" as the spinning white wheel whenever it's placed over the desktop.  Iceweasel starts and runs just fine as an additional instance.  I've looked at running processes (ps -A) and can't find one that correlates to the "Starting Iceweasel" taskbar object.
+
+Any input on how to correct this wuuld be greatly appreciated.
