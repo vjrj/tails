@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-05-29T14:26:31Z"
+ content="""
+In my experience, viewing threads is never slow.  Posting comments is usually not slow either, and when it is, it seems that changing to a better Tor circuit (for example, a circuit which doesn't cross the national boundary of a nation ruled by a paranoid and oppressive government) fixes the problem.
+
+I have concerns about the planned Q&A replacement for this forum which have been discussed elsewhere (privacy/security/anonymity concerns regarding keeping user registration data, which may be addressed by contracting the third party developers to add features needed to permit posts by unregistered users), but agree with \"Tails\" that whenever I have experienced problems posting comments, the cause seems likely to be that Ikiwiki is unable to scale gracefully to the total number of threads here.
+"""]]
