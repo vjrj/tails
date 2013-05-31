@@ -1,0 +1,7 @@
+My intent was to upgrade my USB thumb drive to tails 0.18. I clicked on format and install tails. After rebooting my pc, I received an error message to reformat my external Seagate hard drive. Apparently, tails had been installed on my external hard drive and not on the thumb drive.
+
+I have attempted to recover my windows partition but all the software I tried does not support GPT Disks.
+
+How can I restore my MBR partition or recover my files?
+
+Thanks

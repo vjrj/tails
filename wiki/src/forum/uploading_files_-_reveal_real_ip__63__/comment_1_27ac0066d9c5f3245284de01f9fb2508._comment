@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-30T17:56:40Z"
+ content="""
+> i have this beginner question. does uploading files to sites or adding attachments to email reveal real ip?
+
+\"Uploading files to sites\":  
+
+I think you need to be more specific about the scenario you have in mind.  Is this a website where you have a user account tied to your real email address in the website database holding user registration information, or a disposable email address tied in a third party database to your real address?  A site which allows anonymous connections and uploads from unregistered computers?  (Wikipedia was once like that, but I believe it may have banned known Tor exit nodes from uploading files.) 
+
+I guess the ultimate answer might have the form: the destination server will log the IP of the exit node, but by combining with other information, \"the authorities\" in various countries will still have plenty of easy ways to figure out your real life identity; even the operator of the destination server might also be able to easily figure out your true identity solely on the basis of information logged by his server.
+
+\"Adding attachments to email\":
+
+The email protocol ensures (unfortunately) that the IP address of the webmail server from which you sent the email will be known not only to the recipient but also to the operator of every server through which the email passes on its way to you (which could easily amount to five or more distinct entities).
+
+In addition, if the attachment is a file, it may have metadata attached which can give up information about when, where and by whom (username) it was created, and possibly other data as well.  In tails, try
+
+     man exiv2
+     man mat
+
+to get some information on metadata toolkits.
+
+If you are a potential whistleblower interested in leaking to a reporter, look for The New Yorker's new Strongbox leak website, with code designed by the late Aaron Swartz and James Dolan.  But be careful: quite a few bogus \"leak sites\" appear to be essentially phishing scams put up by \"the authorities\" in an attempt to enumerate potential whistleblowers (and then presumably to arrest or assassinate them when arrest is \"inconvenient\").  
+
+Caution: while the bona fides of the New Yorker site appear to be impeccable, watch out for images containing code which looks too much like a web-bug to leave me with a warm and fuzzy feeling about this particular site.  Also bear in mind that persons with impeccable bona fides might be pressured far more than most by their own governments to cooperate with nasty domestic espionage schemes, or face severe retribution.  Remember: governments generally consider that they are at war with anyone who opposes any of their policies, which justifies in their mind arbitrarily cruel and indiscriminate measures.
+
+"""]]
