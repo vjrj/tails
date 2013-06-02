@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-05-04T08:33:33Z"
+ content="""
+When using Tails or TBB, many people like to keep a Vidalia Tor network display open on one desktop and the browser in the other, and to toggle back and forth to see the circuits and the webpages.  This is very easy in gnome2, LXDE, and XFCE but seems to be quite inconvenient in gnome3 (one click becomes many clicks and complicated trackmouse motions).
+
+"""]]

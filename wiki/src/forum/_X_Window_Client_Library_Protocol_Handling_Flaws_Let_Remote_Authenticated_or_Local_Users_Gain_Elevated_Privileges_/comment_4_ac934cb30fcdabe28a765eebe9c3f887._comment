@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-26T16:49:25Z"
+ content="""
+Forgot to mention a key point: \"Tails\" will correct me if I misunderstood, but as far as I know, Tails users generally do not run X11 with special privileges, which should mean that the raft of flaws fixed by the recent security patches may not be so crucial for most Tails users.
+"""]]

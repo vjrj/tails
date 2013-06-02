@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-28T20:51:48Z"
+ content="""
+<https://tails.boum.org/doc/anonymous_internet/iceweasel/index.en.html#index4h1>
+
+>we rely on Torbutton to disable all potentially dangerous JavaScript.
+
+>We consider this as a necessary compromise between security and usability and as of today we are not aware of any JavaScript that would compromise Tails anonymity.
+
+>For more technical details you can refer to the Torbutton design document.
+"""]]

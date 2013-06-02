@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-29T03:58:00Z"
+ content="""
+I'm sure all that advice is valid in some sense, but personally I'm far more concerned about attacks that could unmask me instantly as opposed to profiling. I know such a vulnerability could be in any part of the browser, but from what I've seen, JavaScript dramatically increases the attack area.
+"""]]

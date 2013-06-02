@@ -1,0 +1,3 @@
+I may be totally off the mark in understanding the issue of the memory wiping.
+
+However, if it is the case the the memory wiping tool upon shutting down Tails is unable to wipe it's own buffer space; then would it not be a good idea to simply allocate the wiping tool it's own dedicated memory space before the user is able to use Tails, and therefore upon shutdown this dedicated memory allocation will have little to no user specific data within it which will be fine if it remains after the wipe.

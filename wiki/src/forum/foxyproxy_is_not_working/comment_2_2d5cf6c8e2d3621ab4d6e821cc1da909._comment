@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-25T14:44:37Z"
+ content="""
+I tried adding socks5 proxy and http proxy, neither worked although they worked on my other machine that runs on a different OS.
+
+I didnt change the list in anyway I just want to add a proxy. What needs to be done?
+"""]]

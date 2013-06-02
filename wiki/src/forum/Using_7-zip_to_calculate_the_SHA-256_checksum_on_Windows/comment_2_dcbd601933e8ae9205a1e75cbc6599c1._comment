@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-28T11:57:41Z"
+ content="""
+It does but you need to download an add-on and be using Firefox (and it appears there needs to be a workaround just to get it to work with the new Firefox). 7-zip could be an alternative since it's a common open source compression program for Windows. I believe it's used to unpack the Tor Browser Bundle (self-extracting archive), so there seems to be some trust in it from the developers of Tor.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-25T14:05:55Z"
+ content="""
+About Iceweasel addons, as explained on our [[persistence warning page|/doc/first_steps/persistence/warnings#index4h1]], it is usually a bad idea to install additional addons. So I'm not interested in helping in doing this.
+
+Regarding the \"Network settings\" feature, what makes you believe that they are gone? Can you provide more information about the behavior that you think is erroneous? Probably [[reporting a bug|/doc/first_steps/bug_reporting]] would help.
+"""]]

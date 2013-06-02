@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 5"
+ date="2013-05-28T10:34:34Z"
+ content="""
+> > this does not seem possible in Tor Browser Bundle, where the option is greyed-out.
+
+> Just tried it now in Tails 0.18 and its grayed-out as well.
+
+Torbutton enables Iceweasel/Firefox's \"Private Browsing\" mode, which prevents the \"permanently store this exception\" checkbox in the SSL certificate exception dialog. The use of the Private Browsing mode can be disabled Torbutton's preferences, but it'll make your browser less amnesiac within the same session and probably easier to fingerprint. We don't recommend this.
+
+If you feel the lack of this option is a bug, please [file a bug against Torbutton](https://trac.torproject.org/projects/tor/report).
+
+> When using Tails with persistence enabled, will any exceptions added for self-signed certs be saved in Iceweasel? Even across reboots?
+
+No. Please [[file a bug against Tails|doc/first_steps/bug_reporting]] if this is something you need. Also note that implementing this in Tails depends on Torbutton needs a fix for the \"permanently store this exception\" checkbox vs Private Browsing mode issue.
+"""]]

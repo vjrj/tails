@@ -1,0 +1,4 @@
+I have seen several threads about macchanger and mac adress leaking. I think there is a simple solution:
+You start up your normal OS, then you press fn + f2, this will disable wifi completely. This preference stays when you reboot or shut down. Then you go to the public wifi or where-ever you want to go on tails. You start up tails and wifi is still disabled completely. Then you open root terminal and type: macchanger -r wlan0 (or what you prefer). Then you press fn +f2 again so you can connect to a wifi.
+
+This way your mac adress won't leak right?

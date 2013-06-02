@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-28T19:50:53Z"
+ content="""
+The NoScript Firefox/Iceweasel extension is not \"*disabled*\" in Tails and Tor Browser Bundle but rather set to *allow scripts globally*. Even in this configuration, NoScript still provides certain protections, such as blocking cross-site scripting (XSS) attacks[1].
+
+Obviously, allowing scripts globally cannot provide (anywhere near) the same level of protection as the selective whitelisting model that is the normal default behavior of NoScript. So why do both Tails as well as TBB ship with this less-secure configuration of NoScript? This question has been asked and answered many times (both of/by Tails as well as Tor).
+
+The primary reason given is *usability*; the functionality of many-- if not *most* web sites-- is heavily dependent upon JavaScript, often *critically* so. 
+
+And then we come to the problem of  *\"fingerprintability\"*.  From the [Tor Project FAQ](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled):
+
+>we recommend that even users who know how to use NoScript leave JavaScript enabled if possible, because a website or exit node can easily distinguish users who disable JavaScript from users who use Tor Browser bundle with its default settings (thus users who disable JavaScript are less anonymous).
+
+>Disabling JavaScript by default, then allowing a few websites to run scripts, is especially bad for your anonymity: the set of websites which you allow to run scripts is very likely to uniquely identify your browser. 
+
+NOTES:
+[1] This just in, from \"The H\":
+[PayPal vulnerable to cross-site scripting again](http://www.h-online.com/security/news/item/PayPal-vulnerable-to-cross-site-scripting-again-1871763.html)
+
+I believe-- but am not certain-- that NoScript would protect against this threat-- *even in the default Tails and TBB configuration where scripts are allowed globally*.
+"""]]

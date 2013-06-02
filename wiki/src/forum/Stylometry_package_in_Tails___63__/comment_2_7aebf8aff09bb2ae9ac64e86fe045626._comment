@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-26T15:22:47Z"
+ content="""
+@ OP:
+
+I agree that it is very desirable to include anti-stylometry in Tails.
+
+The package you cited is promising but the problem of defending against stylometry is *very* difficult and one should not expect truly robust solutions soon.  But I agree with \"Tails\" that it would be useful to lobby the authors to work with the Tails developers to include their work in a future edition of Tails.
+
+Fortunately, the problem of *reliably* classifying posts by authorship in *large* forums is hard for our adversaries, although not nearly hard enough.  This may offer us some scope for developing our own stopgap measures here in this forum.
+
+In a previous thread which may still exist here (until the moderator changes the forum to a Q&A wiki with no posts by unregistered users allowed, which will silence my voice; please note that \"Tails\" has repeatedly stated an intention to remove threads I started), I tried to begin a discussion of how stylometry works, with many references to on-line resources.  
+
+I wanted to show how Tails users can use already available Debian packages (including packages in the giant R statistics platform) to some elementary stylometry of their own, with the goal of using this experience developing scripts which Tails users can use until a better solution arises.  Unfortunately, \"Tails\" declared this off-topic.  Obviously, I disagree!
+
+@ \"Tails\":
+
+Would you reconsider?  I expect that the issue of topics which you or the NDI feel are \"contrary to current US foreign policy objectives\" might not arise, unless you include in that category the fact that US TLAs (and US surveillance companies which specialize in monitoring social media) do extensively use stylometry.
+"""]]

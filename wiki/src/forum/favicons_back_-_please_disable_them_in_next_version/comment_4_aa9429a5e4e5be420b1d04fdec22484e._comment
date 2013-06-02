@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-26T18:26:51Z"
+ content="""
+Many Tails users disable favicons manually but I agree with the OP that there appears to be no good reason for Tails *not* to disable them by default, and possibly some good reason to do that: in some cases, favicons are said to have been misused by our adversaries as web-beacons.
+"""]]

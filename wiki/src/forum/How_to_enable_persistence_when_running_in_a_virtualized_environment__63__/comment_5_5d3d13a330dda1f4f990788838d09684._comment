@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-11T13:07:23Z"
+ content="""
+> What are the advantages of running Tails under a VM rather than running it on a DVD or USB?
+
+You can (and should) still run Tails from a DVD or USB with a virtual machine.
+"""]]

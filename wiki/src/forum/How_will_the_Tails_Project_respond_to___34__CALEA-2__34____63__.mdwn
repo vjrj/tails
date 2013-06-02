@@ -1,0 +1,53 @@
+Unfortunately, "Tails" once again closed a thread expressing concerns about the future of the Tails Project:
+
+     https://tails.boum.org/forum/Further_concerns_with_planned_AskBot_Q__38__A_site/
+
+Too bad, because one point I wanted to make is that *we actually agree on the goal of lessening the moderation burden on Tails developers*.  I wanted to explain why I think a technological "solution" [sic] using a tool developed to pursue goals (like "developing user identities") which are clearly inappropriate for the Tails userbase is doomed to fail to achieve that goal, and to suggest another path.  Because "Tails" has dropped several strong hints that the real purpose of the shift is to stop me from referring to awkward truths which "Tails" prefers to disguise, I was even planning to *offer to voluntarily cease to post in this forum*, since there is no point in endangering all Tails users if the real goal is simply to rid the site of a handful of "problematic" forum users.
+
+This may be my last chance to post here, and I would like to take the opportunity to raise another issue which I hope "Tails" will comment on.
+
+It appears likely that the Obama administration will soon initiate some kind of mandatory "backdoor" for all communications/media software used anywhere in the territories of the USA or her allies, a proposal which the US TLAs (including the man rumored to be tapped as the next Director of the FBI) have been pushing despite objection from leading computer security experts such as Bruce Schneier and Susan Landau:
+     
+     https://www.cdt.org/blogs/joseph-lorenzo-hall/1705leading-security-experts-say-fbi-wiretapping-proposal-would-undermine-
+     Joseph Lorenzo Hall, 17 May 2013
+     CALEA II: Risks of Wiretap Modifications to Endpoints
+
+Roger Dingledine, lead Tor developer and leader of the Tor Project, pointed out
+
+     https://blog.torproject.org/blog/calea-2-and-tor
+
+> Forcing backdoors in communication tools is a mandate for insecurity. Haven't they been paying attention to just how much these same systems are under attack from foreign governments and criminals? Did they not learn any lessons from the wiretapping scandals in Greece and Italy, where CALEA backdoors were used to surveil politicians, without law enforcement even knowing about it? You cannot add a backdoor to a communications system without making it more vulnerable to attack, both from insiders and from the outside.
+
+Other experts stressed the fact that collecting extremely dangerous data on absolutely everyone, such as "key escrows", in electronically targetable sites amounts to setting up a treasure trove of data which everyone from Chinese spooks to criminal cybergangs will try hard to steal, because it will given them immediate access to everyone's everything.
+
+The still unpublished (and unleaked!) CALEA-2 proposal is a further development of the Clinton era "clipper chip" proposals pushed by the TLAs during the Clinton administration); see 
+
+     https://en.wikipedia.org/wiki/Clipper_chip
+     https://en.wikipedia.org/wiki/Key_escrow
+
+The still secret CALEA-2 has also been referred to by a catch phrase favored by the FBI, "Going Dark".
+
+Roger Dingledine continued by saying:
+
+> it seems likely that the law won't apply to The Tor Project, since we don't run the Tor network and also it's not a service. (We write free open source software, and then people run it to form a network.)
+
+I truly cannot understand what he means by this.  Is he saying that people who want to use Tor should continue to use the software illegally?   At their own risk?  Is he saying that he believes it unlikely that US authorities will be able to enumerate American Tor users, or merely that he considers it unlikely that the USG will jail all American Tor users?  
+
+What about the fact that (as of yesterday) Tor nodes geolocated in the USA are involved in at least 25% of all Tor circuits (this does count the 6% carried by nodes with geolocation "A1" for anonymous), including many of the fastest Tor nodes in places like Dallas, TX?  Won't all those nodes drop out of the Tor network if non-backdoored Tor becomes illegal in the USA?  
+
+And what if Calea-II turns out to follow the lead of the Dutch and German governments?  What if the law grants "legal authorization" to "the authorities" to remotely trojan servers running hidden-sites", or even all Tor nodes it can find, including bridges?  Or even to remotely destroy them using destructive malware?
+
+> And lastly, we should all keep in mind that they can't force us to do anything. You always have the alternative of stopping whatever it is you're doing.
+
+I fear this is naive; just look at what happened to Aaron Swartz.  I fear that we can all expect much more of this in the future, no matter where we live.  As many have observed, the response of the US government to the alleged theft of classified information by semi-mythical "Chinese government hackers" has been to work hard to make the USA closely resemble China, a country which has traditionally been ruled in paternalistic fashion by more or less "enlightened" but generally autocratic rulers.  Ironically, the US began life with a revolution against precisely such a government, and the US Constitution promised the American People a better government than that.
+
+@ "Tails":
+
+If it becomes illegal in the USA to use any anonymity-promoting tool such as Tor which has not (we hope) (yet) been "backdoored" by the US TLAs, how does the Tails Project plan to respond?
+
+* move all development to an overseas haven (maybe Iceland?)
+* move the website to an overseas haven
+
+If the USG announces that (or it becomes evident that) it now attempts to trojan or destroy all Tor nodes wherever they may be found, how does the Tails Project plan to respond?
+
+Don't these goals conflict with the putative goal of NDI, to "promote democracy" and to oppose censorship and other repression of free speech?  Don't they violate a core principle of American jurisprudence, "innocent until proven guilty"?

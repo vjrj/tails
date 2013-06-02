@@ -1,0 +1,8 @@
+
+I'd strongly suggest Tails add built in VPN support. If someone post sensitive material to a forum or newsgroup, the authorities can easily find out the post is made via Tor and in areas where Tor is not widely used, just the fact that you are using Tor at that specific time can get you in trouble. By going through an offshore VPN:
+1. You are protected if they do keep to their words and not keep logs.
+2. If they do keep logs, I doubt a VPN provider in EU is likely to cooperate with an authority from countries like China.
+3. The Tails user can choose to change his/her VPN as often as he wants, so a VPN doesn't have to be a permanent exit or entry.
+4. Tails users should have the liberty of choosing whether to trust a VPN or a single bridge node. 
+
+Thanks.

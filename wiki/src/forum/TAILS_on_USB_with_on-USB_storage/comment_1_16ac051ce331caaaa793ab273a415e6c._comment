@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Tails's persistence"
+ date="2013-05-17T19:43:08Z"
+ content="""
+Correct me if I'm wrong, but I think [[Tails' persistence|doc/first_steps/persistence]] is exactly what you need.
+
+Hope that helps
+"""]]

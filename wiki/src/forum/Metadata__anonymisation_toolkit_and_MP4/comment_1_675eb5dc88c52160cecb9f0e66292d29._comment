@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-23T06:45:12Z"
+ content="""
+I don't think there is any alternative for the [MAT]. What you could do is try to contact the developers and ask about MP4 in case that is something they would be ready to add or to discuss about. And in the meantime, investigate what metadata there are in MP4 and possible tools to remove them by hand.
+
+[MAT]: https://mat.boum.org/
+
+"""]]

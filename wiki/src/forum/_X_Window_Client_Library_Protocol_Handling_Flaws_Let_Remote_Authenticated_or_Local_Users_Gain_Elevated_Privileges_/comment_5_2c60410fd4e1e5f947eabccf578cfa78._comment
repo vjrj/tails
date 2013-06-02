@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-27T10:19:55Z"
+ content="""
+>Until the recent Xwindows security patches are included in Tails, you may wish to use the next version of TBB which should incorporate these.
+
+is there a reasonably secure linux live cd i can use tbb on until 0.19? most other distros allow auto login, root login, and lax pam and other poor system security issues.
+"""]]

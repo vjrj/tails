@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-27T17:45:23Z"
+ content="""
+Regarding exit node snooping, that happens, unfortunately, but the key benefit of using Tor is that data passes through Tor circuits, which look like this:
+
+    your PC <==> entry node <==> relay node <==> exit node <--> destination
+
+Each <==> connection is encrypted using TLSv1 (called \"SSL\" but technically not SSL), but if the destination web server does not offer https the <--> might not be.  
+
+When you type in a url in your Tails browser, a DNS lookup is necessary to find the numerical IP address, and this lookup is always unencrypted and easily intercepted (and is likely to be logged by the DNS server), but this is performed by the exit node, thus protecting your identity.  If the destination server does use https, the last connection is encrypted but requires checking a certificate at an ocsp server, and this lookup is unencrypted, but again, fortunately, it is performed by the exit node.
+
+Not only are the <==> connections encrypted to prevent casual eavesdropping by third parties who pass on packets in the Tor circuit, but the identities of the servers involved is encrypted using high-grade encryption in an \"onion\" fashion, which ensures that no single node knows the IPs of more than two other nodes:
+
+      entry:     X               X
+      relay:                     X               X
+      exit:                                      X               X
+      dest:                                      X               X
+
+              entry node <==> relay node <==> exit node <--> destination
+  
+So your IP is not known or logged by the destination web server (or its webhost), only the IP of the exit server.  And the IP of the destination web server is not known or logged by your ISP, only the IP of the entry node.
+
+There is a potential catch, of course: if the operators of the entry or exit nodes are collaborating with each other, they may be able to correlate traffic in/out of your PC with traffic in/out of the destination web server.  The concept of Entry Guards was introduced in an attempt to mitigate the long term risk to regular Tor users of such de-anonymization attacks.
+
+There is another potential catch: if you ever use Tor to log into a website which does not encrypt logins, your forum username/password were exposed to the operator of the exit node.  Most operators don't snoop, but some certainly do.  The potential for harm was dramatically revealed by a Swedish security researcher some years ago, who was able to snag username/passwords for numerous employees of the embassies of dozens of countries including Iran and India, for example.
+
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-26T16:45:46Z"
+ content="""
+@ OP:
+
+This topic may deserve a small section in the Tails documentation pages, since it has come up several times:
+
+Tails is closely based upon Debian stable (now the version known as Wheezy; current Tails is conservatively based on Squeeze, now called \"oldstable\", but later this year Tails should be based upon Wheezy), which is good because it makes it easy for Tails users to leverage the very extensive suite of Debian packages, which include many items related to steganography, statistics, and other things which can be very useful to Tails users.
+
+Tails developers have stated that they make a practice of incorporating security patches as soon as possible.  
+
+Incorporation of other updates to Debian packages comes slower, but that is probably a good thing, since \"latest\" is not neccessarily \"most secure\" in the Debian world.  To the contrary, Debian operates on the philosophy that older and more stable packages which are quickly patched as needed to address any security issues are actually safer than the bleeding edge.  To some extent this conflicts with Firefox ESR philosophy, but so far Tails and TBB seem to be coping.
+
+Until the recent Xwindows security patches are included in Tails, you may wish to use the next version of TBB which should incorporate these.
+"""]]

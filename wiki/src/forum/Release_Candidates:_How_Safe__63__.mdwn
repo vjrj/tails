@@ -1,0 +1,7 @@
+>Keep in mind that this is a test image. We have made sure that it is not broken in an obvious way, but it might still contain undiscovered issues.
+
+Even *critical* ones that could unmask a user?
+
+Should release candidates not be used for anything one wouldn't do on a normal OS/ straight connection?
+
+If so, I would suggest that this be explicitly added to the warning. 

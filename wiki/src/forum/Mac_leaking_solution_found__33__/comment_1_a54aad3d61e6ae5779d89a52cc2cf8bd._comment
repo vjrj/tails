@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-23T22:04:18Z"
+ content="""
+>Then you open root terminal and type: macchanger -r wlan0 (or what you prefer).
+
+Shouldn't it be: sudo macchanger -a wlan0 ??
+"""]]
