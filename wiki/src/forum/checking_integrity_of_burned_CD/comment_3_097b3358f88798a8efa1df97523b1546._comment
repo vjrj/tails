@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Burnt vs. Unburnt: Checksums Match?"
- date="2012-04-15T12:38:24Z"
- content="""
-Isn't the checksum of a *burnt* ISO always going to be different from that of a *downloaded* ISO file?
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-16T13:33:41Z"
- content="""
-press 'tab' when it's loading up to enter the menu, delete the words 'quiet' and 'splash', then press esc to get back to boot live/boot live(failsafe) options
-"""]]

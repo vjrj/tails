@@ -1,9 +1,0 @@
-Why is my fstab file empty except for this message?
-
-(pound sign) UNCONFIGURED FSTAB FOR BASE SYSTEM
-
-When I cat /proc/mounts it displays correct information but fstab is empty except for the line above which is commented out.
-
-Edit - I notice the information is found in /etc/mtab
-
-Is this new?

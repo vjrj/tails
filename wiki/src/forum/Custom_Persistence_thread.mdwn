@@ -1,7 +1,0 @@
-Please share your tips for custom persistent folders
-
-
-to remember wifi settings:
-
-enable gnome keyring persistency  and add:
-"/home/amnesia/.gconf/system" as a custom folder.

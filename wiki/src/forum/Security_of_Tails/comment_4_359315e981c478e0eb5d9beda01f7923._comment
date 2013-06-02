@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="re: re: Security of Tails"
- date="2012-04-10T16:15:34Z"
- content="""
-With open root access, as at present, any bit of code which finds its way onto your machine can mount all the filesystems it likes... and do as it pleases with them. The status quo is not ideal!
-"""]]

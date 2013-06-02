@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Success"
- date="2012-05-02T11:33:11Z"
- content="""
-I finally got it working.  The problem was due to the fact that my USB thumb drive is considered, for some reason, as a HDD which led to it being hidden from the normal areas.  On my fiance's laptop, it was \"USB HDD\" instead of \"USB FDD\".  On my computer, it wasn't even listed as a USB drive.  In fact, it didn't appear on the boot priority list at all!  I had to go to my hard drive settings page and set my USB drive (listed simply as \"SMI\" as the brand, no USB anywhere) as \"drive 1\" and my real HDD as \"drive 2\".  After doing this, I found the SMI drive instead of the SATA drive on the boot priorities list and after that it worked like a charm.  
-"""]]

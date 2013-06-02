@@ -1,8 +1,0 @@
-Today i've found smth interesting.
-
-Imagine, there is some secure info that should be wiped and it is stored in Persistent directory.
-Instead wiping a user makes "cut" and "paste" it to the desktop. Power off. Reboot. No info.
-
-What happend to this info? Is it possible for a attacker to recover it?
-
-"Wipe available space" solves the problem, but what if it wasn't done?

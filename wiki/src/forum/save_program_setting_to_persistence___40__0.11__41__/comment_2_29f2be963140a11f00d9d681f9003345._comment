@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-05-19T19:12:35Z"
- content="""
-Ok so I moved the iceweasel folder to my persistence,  I opened the prefernce files.  The text at the top said that is where you make changes to your setting to keep them.  I altered some such as the default allowed sites for my noscript and a few others.  When I restarted my iceweasel the setting where not changed, however they where still changed in the pref file.  I had the pref file saved and closed.  I would like to have some setting saved such as the allow scripts globally to be false.  It is true by default.  I also change setting that allow some things for non-tor browsing vs tor browsing. Maybe someone else might know a little more about this than me?
-"""]]

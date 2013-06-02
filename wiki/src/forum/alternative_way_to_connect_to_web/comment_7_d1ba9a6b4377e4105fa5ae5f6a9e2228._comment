@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-10-20T10:06:00Z"
- content="""
->also, adding obsfproxy to that can add extra security about hiding \"that VPN\" is used to connect Tor. but this is too much for ordinary people :) 
-
-not so. obfsproxy will just conceal the use of Tor from the ISP
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="# 8"
- date="2012-05-31T07:36:23Z"
- content="""
-When I resume from suspend in *Lubuntu* my *eth0* MAC seems to revert to the default one.
-
-Haven't tried in TAILS or with WLAN yet. 
-"""]]

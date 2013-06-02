@@ -1,7 +1,0 @@
-[[!comment format=html
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-04-04T15:07:56Z"
- content="""
-I probably should mention for anybody that may be reading this for the purpose of creating the previously discussed encrypted partition on their tails thumb drive that you will not want to attempt this from a yumi or universal-thumb-drive style tails boot usb.  You will want to have your lovely tails distro installed via <a href=\"https://tails.boum.org/doc/installing_onto_a_usb_stick/linux/index.en.html#index1h1\">this method</a> instead.  There is a difference in how the distro boots with the different methods and only the terminal method will work, but it will work well!
-"""]]

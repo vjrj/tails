@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="followed instructions on web page"
- date="2012-04-16T10:36:36Z"
- content="""
-sudo su -
-cat [tails.iso] > [destination] && sync
-
-"""]]

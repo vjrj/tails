@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 12"
- date="2013-01-02T08:59:45Z"
- content="""
-the links seem to be busted. orbit downloader isn't pulling anything out of them, and if i turn off orbit, the page refreshes, but i don't get any files. just a little notification to the hosts of TAILS.
-"""]]

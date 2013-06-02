@@ -1,7 +1,0 @@
-Hello everybody!
-First I have to thank the Tails developers for the great work, it's a really interesting project!
-
-I have some problems with persistence:
-There is an option named "Dotfiles" that should symlink every file in the "dotfiles" directory in the home folder. Well, that's great! The problem is I can't figure out where this "dotfiles" directory is! "Maybe I have to create it", I thought, so I created a "Dotfiles" directory (and a "dotfiles" one) in the Persistence folder with some files/directories in it but at reboot nothing is symlinked. The documentation says nothing about it, how does this really great option works?
-
-Thanks a lot!
