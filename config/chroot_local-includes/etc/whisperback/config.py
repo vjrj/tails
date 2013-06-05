@@ -60,6 +60,8 @@ def _(string):
         return string
 
 # The right panel help (HTML string)
+# TRANSLATORS: this text can be found on
+# http://tails.boum.org/doc/tails/website/doc/first_steps/bug_reporting
 html_help = _(
 """<h1>Help us fix your bug!</h1>
 <h2>How to write a useful bug report</h2>
