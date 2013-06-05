@@ -64,12 +64,13 @@ html_help = _(
 """<h1>Help us fix your bug!</h1>
 <h2>How to write a useful bug report</h2>
 <ul>
-<li>The first aim of a bug report is to tell the developers exactly how to
-reproduce the failure.</li>
-<li>If that is not possible, try to describe what went wrong in detail. Write
-down the error messages, especially if they have numbers.</li>
-<li>Write clearly and be precise. Say what you mean, and make sure it cannot be
-misinterpreted.</li>
+<li>The first aim of a bug report is to <strong>tell the developers exactly
+how to reproduce the failure</strong>.</li>
+<li>If that is not possible, try to <strong>describe what went wrong in
+detail</strong>. Write down the error messages, especially if they have
+numbers.</li>
+<li>Write <strong>clearly and be precise</strong>. Say what you mean, and make
+sure it cannot be misinterpreted.</li>
 <li>Be ready to provide extra information if the developers need it. If they
 did not need it, they would not be asking for it.</li>
 </ul>
