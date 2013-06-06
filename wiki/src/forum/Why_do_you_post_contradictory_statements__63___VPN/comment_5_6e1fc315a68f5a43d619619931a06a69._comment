@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-06-06T03:12:29Z"
+ content="""
+If using Privoxy, Proxomitron, Tor and VPN together with Outpost firewall, I would recommend the following Outpost application rules (they should be applicable to other rules-based firewalls also):
+
+add VPN to TOR exit node
+
+Tor Ruleset:
+Incoming Tor Request: Protocol TCP, Inbound, Remote Host 127.0.0.1, Local Port 9050, Allow
+Tor Network Access: Protocol TCP, Outbound, Remote Port 80, 443, 9001-9004, 9030-9033, 9100, Allow
+Block Other Tor Traffic: Protocol TCP, Outbound, Block
+
+Privoxy Ruleset:
+Incoming Privoxy Request: Protocol TCP, Inbound, Remote Host 127.0.0.1, Local Port 8118, Allow
+Privoxy Tor Access: Protocol TCP, Outbound, Remote Host 127.0.0.1, Remote Port 9050, Allow
+Block Other Privoxy Traffic: Protocol TCP, Outbound, Block
+
+Proxomitron Ruleset:
+Incoming Proxomitron Request: Protocol TCP, Inbound, Remote Host 127.0.0.1, Local Port 8080, Allow
+Proxomitron Privoxy Access: Protocol TCP, Outbound, Remote Host 127.0.0.1, Remote Port 8118, Allow
+Proxomitron Block Direct Web Access: Protocol TCP, Outbound, Remote Port HTTP, HTTPS, Block
+Block Other Proxomitron Traffic: Protocol TCP, Outbound, Block
+
+Browser Ruleset:
+Browser Proxomitron Access: Protocol TCP, Outbound, Remote Host 127.0.0.1, Remote Port 8080, Allow
+Browser Blocked Hosts: Protocol TCP, Outbound, Remote Host 127.0.0.1, Remote Port HTTP, HTTPS, Block *see note below*
+Browser Allow Direct Web Access: Protocol TCP, Outbound, Remote Port HTTP, HTTPS, Allow *this rule should be disabled, see below*
+Browser Block Direct Web Access: Protocol TCP, Outbound, Remote Port HTTP, HTTPS, Block
+
+These rules prevent browser, Proxomitron or Privoxy from accessing the Internet directly (ensuring that any browser exploit causing a direct connection is blocked). This, in conjunction with the appropriate Proxomitron filters, will prevent any website from using Java or Javascript to discover your real address.
+
+The Browser Blocked Hosts rule is for those people using a Hosts file to block access to untrusted domains - this file maps them onto the 127.0.0.1 address (going back to the PC) so direct access should be allowed in this case. With some browsers (e.g. Opera), it may also be necessary to list such domains as being excluded from proxy access, to ensure that requests are not send out via Tor.
+
+For convenience, consider creating a browser rule for direct web access but leaving it disabled (clearing the checkbox beside it in Outpost). If problems occur when connecting to Tor, this rule can then be easily activated, allowing web access until the problem is resolved (remember to de-activate it again).
+"""]]
