@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-06-07T14:04:05Z"
+ content="""
+>Yes, sdmem prints stars (*) to represent progress. However, in the minimal configuration where this runs, your graphics hardware might not be well configured, so you might not see them. I do.
+
+Thank you.
+
+>The fact that the system reboots / shutdowns as prompted is the best easy way to have a hint wether the memory was wiped. Of course, you might want to check this more thoroughly by running a full-blown test.
+
+Thanks and thanks for the link.
+"""]]
