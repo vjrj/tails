@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="ssh"
+ date="2013-06-06T14:15:45Z"
+ content="""
+I've also tried doing this but it doesn't work. After connecting to an ssh server with the dynamic forward option turned on (and verifying the ssh connection was made through a tor exit node) I tried to change the SOCKS proxy in foxyproxy and I just get a message that the proxy refused the connection.
+
+It doesn't make any sense.
+
+The way I think it should work is, the tor button should be left as normal (use firefox settings, i.e., foxyproxy) and the foxyproxy settings should be changed. What is strange though is that if I change the foxyproxy settings and then set them back to original I also get the connection refused message. I have tried looking at netstat -an and the ports are open so I have no idea what is going on.
+"""]]
