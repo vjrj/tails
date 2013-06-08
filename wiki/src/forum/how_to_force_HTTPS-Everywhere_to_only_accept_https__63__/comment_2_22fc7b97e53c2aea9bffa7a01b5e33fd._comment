@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-06-05T20:03:19Z"
+ content="""
+I'm not sure if the OP realizes that the majority of WWW sites still do not HTTPS at all.
+
+See:
+[[Rogue Exit Nodes: Clarifying The Threats]]
+
+and
+<https://blog.torproject.org/comment/reply/689/22682>
+"""]]

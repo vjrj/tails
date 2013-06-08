@@ -1,3 +1,18 @@
+To anyone and everyone viewing this thread:
+
+Please go to:
 <https://tails.boum.org/forum/index.rss>
 
-SSL Breaks entirely- Iceweasel says "Connection Not Encrypted"
+And report back on what your browser says about SSL status of the page.
+
+In Tails, TBB as well as regular Firefox 21, across several GNU/Linux distros and different hardware, whenever I visit the above URL, I consistently get:
+
+- No padlock in URL bar but gray globe instead 
+
+- "Your connection to this web site is not encrypted."
+
+Same for:
+<https://blog.torproject.org/blog/feed>
+
+Something is clearly amiss here with the respective RSS URLs of tails.boum.org as well as blog.torproject.org.
+Can't just be me.

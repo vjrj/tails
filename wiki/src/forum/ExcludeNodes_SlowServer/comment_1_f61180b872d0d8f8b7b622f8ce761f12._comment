@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-06T18:13:44Z"
+ content="""
+> is using the line \"Exclude Nodes\" in torrc file a security problem?
+
+It makes your anonymity worse.
+
+> i mean anyway, how does this work, how does my tor-client decide whats slow or not? which bandwidth limit does it use for sorting out?
+
+Please ask general Tor questions on the Tor support channels, thanks :)
+
+"""]]
