@@ -1,0 +1,7 @@
+
+I haven't been able to connect to any obfsproxy bridge since upgrading to 0.18. Do you still add the bridge the same way in Tor setting?
+obfs2 IP
+
+Also, sometimes when I boot up 0.18, it thinks I'm still using 0.172, I get the warning saying my version has vulnerabilities. Under the "System" menu, it shows "About GNOME" not "About Tails", is it something I should be worried about? It happens both when I boot from USB or DVD. 
+
+Thanks.  
