@@ -1,0 +1,14 @@
+Hi, I know that is possible to rebuild a iso and so on.
+
+Anyway, I want to know if it's possible to do this.
+
+1.- Install Tails into my hard drive ext4 partition.
+2.- Delete some programs like gimp, pidgin, open office...etc. Then install another ones, change or install plymouth to have a logo on the boot start...etc. 
+3.- When done, use remastersys to backup into a iso.
+4.- Install it on usb or burn to a DVD and the install on the usb with the Tails usb installer.
+
+I did it with Ubuntu, but I want to have the Tails features. 
+
+Waht do you think? Is it possible? What is the way to do it? Am I asking for something not possible?
+
+Thanks in advance.

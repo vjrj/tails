@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-12T12:45:25Z"
+ content="""
+>The OS and VM system add to the de-anonymization attack surface.
+
+How vulnerable is Tails DVD or USB to de-anonymization attacks? Have there been such instances in the history of Tails' usage?
+"""]]
