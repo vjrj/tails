@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Tomb"
- date="2013-02-16T13:13:51Z"
- content="""
-also check out http://tomb.dyne.org
-
-gentle wrapper on top of LUKS/cryptsetup
-"""]]

@@ -1,3 +1,0 @@
-I change the config to connect to a proxy first and when I click the ok button, Vidalia states that it cannot save the settings because the control socket does not exist. The solutions I found to this is to change to TCP connection instead of unix domain socket or wait until I establish a connection to the local network. I would assume that this is created when you establish a connection to the local network, since the settings save once this is done.
-
-I'm wondering if this is ok to do and why that message appears? 

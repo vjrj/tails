@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-04-28T06:29:52Z"
- content="""
-I'm having trouble getting persistence running too. My error is: org.freedesktop.DBus.Error.NoReply
-"""]]

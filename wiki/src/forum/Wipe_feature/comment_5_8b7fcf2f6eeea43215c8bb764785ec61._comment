@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-05-13T23:13:07Z"
- content="""
-ATA Secure Erase is sometimes locked out by the BIOS so you unplug the power connector to your drive, leave in the data cable and reboot into ATA secure erase boot disc. Plug the drive back in and now it's unlocked you can erase.
-
-
-"""]]

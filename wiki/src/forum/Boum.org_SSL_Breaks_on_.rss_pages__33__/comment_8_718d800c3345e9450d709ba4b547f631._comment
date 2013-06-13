@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-06-06T11:40:35Z"
+ content="""
+> I have tried both URLs many times, in Tails, TBB as well as regular Firefox 21, across several GNU/Linux distros and more than one box, all with the same result: browser says page is not encrypted at all.
+> 
+> So it can't just be me; something is clearly amiss here with the respective RSS URLs of tails.boum.org as well as blog.torproject.org.
+
+I can confirm the issue. The URL still says https however.
+
+Either way, this sounds like a bug in Firefox, so the issue should be reported on firefox's bugtracker.
+"""]]

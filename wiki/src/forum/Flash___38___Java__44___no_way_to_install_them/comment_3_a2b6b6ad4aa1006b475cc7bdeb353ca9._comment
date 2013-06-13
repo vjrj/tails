@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-06-01T12:55:02Z"
+ content="""
+As Tails points out I think flash can circumvent Tor - however if an anonymous encrypted Internet connection is not a concern, I have flash install itself prior running the unsafe-browser (i.e., in the same chroot jail), presumably also a Java browser plugin could be installed.  To watch a flash video I just run the unsafe browser.
+
+Post back and I'll open a chat room and take you through this (I'm not sure Tails would appreciate the code being posted).
+"""]]

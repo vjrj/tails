@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="old adage, very applicable"
+ date="2013-06-08T23:50:06Z"
+ content="""
+Follow the old UNIX adage --
+Boot access is root access
+
+...meaning if there's physical access to the machine in question, there are most definitely deeper issues now in play
+
+always keep close physical control over your boot media
+"""]]

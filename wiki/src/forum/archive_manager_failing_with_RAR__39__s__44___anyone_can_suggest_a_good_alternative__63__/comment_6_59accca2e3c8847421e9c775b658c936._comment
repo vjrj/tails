@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-10-18T15:51:21Z"
- content="""
-What is *currently* the suggested way to open RAR files in TAILS?
-
-Extracting from within Nautilus is still not possible in 0.13, at least for the five or so files that I tried.
-"""]]

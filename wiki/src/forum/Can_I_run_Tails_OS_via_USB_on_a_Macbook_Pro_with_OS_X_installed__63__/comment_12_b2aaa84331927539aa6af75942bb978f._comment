@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="boot ISO from USB with refit"
- date="2013-03-14T16:17:52Z"
- content="""
-Ok, Getting closer but haven't got past Grub yet.
-http://unix.stackexchange.com/questions/57964/booting-ubuntu-from-usb-on-a-mac
-Created the /efi/boot/ folder on the usb and copied the efi boot load plus (tails IOS renamed to boot.iso) and it gets as far as loading Grub. But still won't boot tails, still only works from CD for my Mac.
-"""]]

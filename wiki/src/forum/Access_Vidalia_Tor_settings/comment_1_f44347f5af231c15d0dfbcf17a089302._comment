@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-29T14:18:35Z"
+ content="""
+Just in case you didn't try \"the obvious\":
+
+Assuming you are currently running Tails, do you see a green onion icon in your task bar?
+
+If you right click on it, you should see a pulldown menu, with one choice being \"Settings\".  Clicking on that should create a new window where you can access the settings.  I believe there is a long-known bug which prevents users from modifying their torrc this way.
+"""]]

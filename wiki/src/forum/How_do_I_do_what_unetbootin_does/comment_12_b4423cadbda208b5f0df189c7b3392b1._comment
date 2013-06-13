@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 12"
- date="2012-11-12T08:15:10Z"
- content="""
-Note that Gnome Disk Utility (`Palimpsest`), included in TAILS, provides much of the same functionality as `GParted`.
-
-Regarding live environments with utilities, Parted Magic can also be quite useful. 
-"""]]

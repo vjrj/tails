@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-05T06:22:40Z"
+ content="""
+Torbutton is supposed to redirect to another search engine when such blocking happens. If it's broken, please [[report a bug|doc/first_steps/bug_reporting]].
+
+In any case, just use Startpage instead of Google :)
+
+"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-08T10:23:12Z"
- content="""
-Even if such kind of kernel-level network protection was supported, installing random applications may void your anonymity in many other ways, e.g. by leaking information in the packets that would be routed through the Tor network.
-
-
-"""]]

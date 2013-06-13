@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 6"
+ date="2013-05-28T09:45:32Z"
+ content="""
+> Regarding using SSH wisely, in a very useful tutorial Martin Kleppmann explains in detail how to better protect SSH keys:
+
+Thanks, this is helpful.
+
+> A key point is that by an utterly appalling default, when you use ssh-keygen (with a passphrase) to create a new SSH keypair, the private key is hashed once with no salt using MD-5,
+
+According to the article you're quoting, this is incorrect.
+
+I'll skip both the Nth iteration of the \"why can't I discuss everything I want here\" argument and the FUD about Tails/NDI.
+Please stop beating that dead horse now and once for all.
+
+"""]]

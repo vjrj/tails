@@ -1,6 +1,0 @@
-I've often read on here that installing new packages, addons, other software, etc, ... possibly bears the risk of disabling the tails proxy settings and go around TOR to connect to the internet with my actual IP address. 
- And for an inexperienced user like me, there's no way to find out if i messed things up, just because i needed software/addon X.
-
-Would it be possible to compile the linux Kernel of Tails in such a way, that it only allows connections through the TOR proxy?
-
-like "hardwiring" it?

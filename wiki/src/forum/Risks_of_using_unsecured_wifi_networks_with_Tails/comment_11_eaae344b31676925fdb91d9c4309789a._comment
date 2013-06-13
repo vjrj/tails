@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-05-15T13:05:36Z"
- content="""
-Is my MAC address leaked before I have a chance to change it with Tails?  This was asked in an older thread and someone replied that the answer is yes, that your wireless card sends out \"active probes\" that carry your mac address when booting up.  
-
-If this is the case then is there a relatively simple hack to fix this?
-"""]]

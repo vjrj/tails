@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-05-27T21:09:58Z"
+ content="""
+@8: Or if you inserted the Tails DVD or USB before shutting-down the other OS.
+
+It has been noted before on this forum that the *possibility* exists for a remote attacker to gain access to your hard drive (or any other attached volumes, even if not mounted). (Whether you are running Tails or any other OS-- as long as you are connected to the Internet).
+
+But by that point, having the mere fact that you use Tails revealed would probably be the *least* of your concerns.   
+"""]]

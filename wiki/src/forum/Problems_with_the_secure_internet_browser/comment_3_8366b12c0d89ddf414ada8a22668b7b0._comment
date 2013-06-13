@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-06-02T04:41:52Z"
+ content="""
+The onion should turn green and stay green automatacally when conection is network card connection is sucessful. Even if you close the browswer it should still stay connnected so that it is only necessary to open the browser again. If the connection is not establised (green onion) the browser will not connect either.
+"""]]

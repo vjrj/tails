@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-06-05T15:55:58Z"
+ content="""
+>>[...] Whenever you introduce forum-unique username/password pairs tied to logon timestamps and other data, such data can be potentially associated with a wealth of other data, which entails a serious risk of de-anonymization
+
+>This is true in the general case, but I carefully worded it so that this absolutely isn't true for the specific case I described. Key phrases from what I suggested:
+
+    \"random username\"
+    \"random (non-existent) email address\"
+    \"random password\"
+    \"throw-away account\"
+    \"post your question, and then forget about the account\"
+
+What you are claiming is only true if everyone uses the same technique. It might work if the registration process provides instructions for generating random inputs. It would work if this could be automated.
+
+There are many alternative forums that don't require registration.  <https://tails.boum.org/forum/Further_concerns_with_planned_AskBot_Q__38__A_site/#comment-828c3a74966d6f9549dd4f8f3c0df3f8>
+"""]]

@@ -1,7 +1,0 @@
-@: https://www.torproject.org/docs/tor-manual-dev.html.en
-
->HeartbeatPeriod N minutes|hours|days|weeks
->
->Log a heartbeat message every HeartbeatPeriod seconds. This is a log level info message, designed to let you know your Tor server is still alive and doing useful things. Settings this to 0 will disable the heartbeat. (Default: 6 hours)*
-
-Why is this enabled in 0.14~rc1 for clients? Every time I restart Tails it shows this message. I'm not using Tails for anything other than a client.

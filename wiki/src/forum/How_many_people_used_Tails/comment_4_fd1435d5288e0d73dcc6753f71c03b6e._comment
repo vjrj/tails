@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-03T09:28:37Z"
- content="""
-No. *The Tor project* monitor the state of *their network* and make the information publicly available. Openness is a good thing, wouldn't you agree? It's the \"O\" in FOSS. Without openness the whole FOSS movement would amount to nothing more than FSS. Should you care to, you may even view the Tor Project metrics yourself at [https://metrics.torproject.org/](https://metrics.torproject.org/)
-
-Being a cloned live OS, all Tails machines of the same release have identical Tor profiles and are therefore indistinguishable from one-another. I imagine the number above is the number of connections matching this Tails profile - so it will include all Tails connections to Tor and a number of coincidental non-Tails matches. Obviously it won't include Tails users who do not connect to Tor. Consider it a rough indication of user numbers. Nothing more.
-"""]]

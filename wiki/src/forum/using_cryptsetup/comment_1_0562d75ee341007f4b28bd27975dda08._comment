@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-15T09:08:27Z"
- content="""
-See the documentation on [[doc/encryption_and_privacy/encrypted_volumes#index2h1]]. No need to use the command line for LUKS volumes.
-"""]]

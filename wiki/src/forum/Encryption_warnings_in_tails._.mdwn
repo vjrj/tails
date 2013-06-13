@@ -1,0 +1,15 @@
+Hi, 
+
+I get the following when visiting almost every single page, even some  https:
+
+You are about to leave an encrypted page. Information you send or receive from now on could easily be read by a third party.
+
+Could someone tell me why? The tails instance is permanently connected to Tor. 
+
+I've noticed my clock is set at GMT, which isnt my timezone, but means the clock is 1 hr out. Not sure if this is the reason. 
+
+A tcpdump of port 80 shows not a single packet on that interface leaving my machine, 443 shows a steady stream of tor related traffic. 
+
+So - is this of concern, can my ISP read the packets going over the first hop into the tor (and the last hop backout to me)?
+
+Thanks. 

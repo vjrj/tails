@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-15T11:20:15Z"
- content="""
-This is [[planned|todo/persistence preset - NM connections]]. If you want to do it now, just make `/home/amnesia/.gconf/system` a custom persistent directory by using the persistence configuration tool (but rememberto remove that persistent folder once Tails has added this feature natively).
-"""]]

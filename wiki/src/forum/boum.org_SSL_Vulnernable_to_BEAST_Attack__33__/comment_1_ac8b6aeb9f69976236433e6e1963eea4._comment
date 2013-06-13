@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-14T17:54:23Z"
- content="""
-You might find that almost all SSL certs are reported vulnerable for the BEAST attack.
-"""]]

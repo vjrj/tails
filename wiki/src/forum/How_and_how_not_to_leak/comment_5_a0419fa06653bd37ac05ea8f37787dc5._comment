@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-26T15:00:33Z"
+ content="""
+Regarding using SSH wisely, in a very useful tutorial Martin Kleppmann explains in detail how to better protect SSH keys:
+
+    http://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html
+
+A key point is that by an utterly appalling default, when you use ssh-keygen (with a passphrase) to create a new SSH keypair, the private key is hashed once with no salt using MD-5, which makes it much too easy for surveillance companies like Gamma International (and American TLAs) to break.
+
+> If your private SSH key ever gets into the wrong hands, e.g. because someone steals your laptop or your backup hard drive, the attacker can try a huge number of possible passphrases, even with moderate computing resources. If your passphrase is a dictionary word, it can probably be broken in a matter of seconds.
+
+A long passphrase can help, but not enough.  A little known stop gap solution explained by Kleppmann enables one to encrypt the SSH secret key using triple DES, which is hardly proof against US TLAs (and probably not against Gamma and dozens of other international corporations either), but may be worth considering.
+
+I am doing some research and hope to report here if I find a better way to encrypt SSH keys.  Unfortunately, \"Tails\" has stated several times that when this website abandons the forum and moves to a Q&A format, unregistered posts will be disallowed, which will silence my voice, so there is not much time.
+
+@ \"Tails\": censoring background information (in the previous post) which is important for political activists all over the world, really?
+
+It seems from this and other episodes of censorship that you selectively remove some discussion of privacy issues of urgent importance to those Tails users who most need to use Tails and who are most at risk (political dissidents), whenever you feel that explanation of privacy issues such as surveillance methods employed by US TLAs expresses political ideas with which you (or your sponsor, NDI) feel are \"inconsistent with current US foreign policy objectives\".
+
+But some of us feel that the answer to the world's troubles is more free speech, *especially* regarding politics, not less.  Let's talk, and then may the best ideas prevail.  Or is that what the NDI is afraid of?
+
+"""]]

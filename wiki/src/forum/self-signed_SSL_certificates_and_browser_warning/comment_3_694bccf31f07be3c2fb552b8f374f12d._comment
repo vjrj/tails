@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-27T20:43:28Z"
+ content="""
+The [Wilders Security Forums](http://wilderssecurity.com), which has been mentioned at this forum in the past, uses a self-signed certificate for the SSL option they provide.
+
+The rationale is given in [an FAQ entry](https://www.wilderssecurity.com/faq.php?faq=wilders_custom_faqs#faq_wilders_ssl_tls_use), which reads, in part:
+
+>The main downside to self-signing is that such certificates are not automatically recognized as trusted by main stream browsers. A certificate warning message will be produced when the browser encounters such a certificate. However, most browsers allow the user to approve the use of that certificate and to remember it so that future warnings will not be displayed.
+
+The page lists the SHA1 and SHA256* fingerprints for the certificate and links to threads where the Wilders admin explained his decision to use self-signed further.
+
+(*Yet, Firefox only dispays SHA1 and **MD5** fingerprints for SSL certificates; no SHA256)
+
+Comment 1, above, wrote, 
+>In some cases you can use an out-of-band communication (such as phone call) to verify that a certificate is genuine. 
+
+*When* a self-signed certificate can be verified that way, then I would think that adding it as an exception in one's browser would not be less safe than relying on the typical, run-of-the-mill CA-issued certificate recognized by one's browser.
+
+(But Wilders makes no mention of such an option. This is disturbing.)
+
+When using Tails with persistence enabled, will any exceptions added for self-signed certs be saved in Iceweasel? Even across reboots?
+
+For some reason, this does *not* seem possible in *Tor Browser Bundle*, where the option is greyed-out.
+"""]]

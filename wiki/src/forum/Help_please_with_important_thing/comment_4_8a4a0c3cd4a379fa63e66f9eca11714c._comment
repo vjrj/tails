@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-29T18:56:51Z"
+ content="""
+Even better, use these (maybe in a bash script) to split and recombine longer files:
+
+     man split
+     man cat
+
+"""]]

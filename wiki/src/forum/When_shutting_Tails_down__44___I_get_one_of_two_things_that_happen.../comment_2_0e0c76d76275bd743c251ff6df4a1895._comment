@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-04-24T19:02:17Z"
- content="""
-Tails never shuts down on it's own so could there be something wrong with my ISO or is there another fix? If I were to shut down my PC and not just VirtualBox, wouldn't that completely clear my RAM? I'm using Tails in VB just to test it out.
-"""]]

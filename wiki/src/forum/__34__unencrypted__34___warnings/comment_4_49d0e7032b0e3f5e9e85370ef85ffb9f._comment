@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-22T03:07:03Z"
+ content="""
+if its a .onion site (hidden services) then it should be end to end encryption -there's not an unencrypted stage from a \"final node\". this 'third party can read' type warning now happens when doing any search at a .onion site for instance. Didn't before 0.18. looks to me either warnings have changed, or Tails has seriously fucked up. a dev needs to answer this fast!
+"""]]

@@ -1,0 +1,101 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-26T17:44:33Z"
+ content="""
+In Tails or almost any Linux distribution, try typing in a konsole
+
+    man nmap
+
+You should see the man page which contains many examples.
+
+Based upon the suggestions in the man page, here are some ideas:
+
+Suppose you have disconnected your LAN from the internet and are using computer B (perhaps with a linux live CD distribution which includes nmap) to scan computer A which is running Tails booted from a live USB stick or from a DVD.  Suppose the local IP address of computer A is 192.168.10.0
+
+Good initial scans might include
+
+    nmap -sV -g 10000 -r -p22,53,80,443,563,631,8118,9050,9051 192.168.10.0
+    nmap -sV -g 10000 -r -p110,111,123,128,143,1194,4564 192.168.10.0
+    nmap -sV -g 10000 -r -p1099,1241,1812,1813,2049,5222,5269,5353 192.168.10.0
+    nmap -sV -pU:53
+
+These should finish very quickly and should show whether some ports which have been mentioned in this forum are open, closed, or filtered.  Closed means that the target computer responded with \"you can't use this port\".  By default, everything should come back as \"filtered\", meaning computer A didn't respond at all.
+
+Ports to try might include:
+
+* 22: ssh
+* 23: telnet
+* 53: domain (whois, should be UDP protocol if legitimate)
+* 80: http
+* 88: kerberos (encrypted login)
+* 110: pop3 (web mail)
+* 111: rpcbind (remote procedure call)
+* 128: ntp (time protocol)
+* 143: imap (web mail)
+* 194: irc (chat)
+* 443: https
+* 631: ipp (networked printers)
+* 636: ldapssl
+* 992: telnets
+* 993: imaps (web mail)
+* 995: pop3s (web mail)
+* 994: ircs (chat)
+* 1099: rmi-registry (java remote object registry)
+* 1194: openvpn
+* 1524: ingreslock
+* 2000: cisco-scp (secure copy)
+* 2049: nfs (network file system)
+* 5022: xmpp-client (jabber)
+* 5269: xmpp-server (jabber)
+* 5353: mdns
+* 8080: web proxy
+* 8118: privoxy
+* 9050: tor-sockport
+* 9051: tor-controlport
+
+If you booted Tails on computer A with a root password, just before the scan you should run
+
+    su -c \"iftop -Pn\"
+
+so you can see the incoming packets.
+
+To send SYN packets from port 80 on computer B to *each* port on computer A:
+
+    nmap -Ps -p1-65535 192.168.10.0
+
+You can replace -Ps as follows to send instead other types of packets:
+
+* ACK packets:  -PA
+* UDP packets (will take two or three times as long): -PU
+* ICMP echo packets: -PE
+* address mask: -PM
+* timestamp: -PP
+* ARP packets: -PR
+
+You can also try
+
+    nmap -g 10000 -sS -p1-65535 -r 192.168.10.0
+
+which will send SYN packets to every port, in order, from port 10000.
+
+To send other types of packets instead, try replacing -sS with
+
+* mock connections: -sT
+* UDP: -sU
+* NULL packets: -sN
+* FIN packets: -sF
+* packets which should light up an IDS like a Christmas tree: -sX
+* IP protocol scan: -sO
+* RPC scan: -sR
+* window scan: -sW
+
+If you have trouble with any of these, try reading the man page carefully since your system might be slightly different.  You cannot \"mix and match\" nmap options arbitarily, but I think the above should all work.
+
+This is super-redundant and could take quite some time if you try all the scans on each port, but it should help reassure that the personal firewall in a Tails system is about as good as it could be, as regards possibly incoming traffic from another computer on the same LAN.  As stated above, incoming traffic from the internet will meet your LAN firewall (on your router, unless you have a *really* cheap consumer device).  And for Tails users, much more important than *incoming* traffic is the problem of ensuring that *outbound* traffic is torified, which is where Tails is strongest (compared to TBB in particular).
+
+\"Tails\" has intimated that in the near future this website will delete this forum and start using a Q&A wiki in which only registered users will be able to post.  This will silence my voice since it is obviously very dangerous to provide a tempting target for our many adversaries around the world, such as a database of Tails user information.  I hope that \"Tails\" will think better of the plan to delete this forum.
+
+I don't reccommend doing scans on any machines you don't own, since this is the kind of activity which lends unwelcome credence to the utterly false claim from \"the authorities\" that \"all Tor users are up to no good\" (unless by that they mean, opposing specific governmental policies by attempting to engage in free speech discussion of the issues, complete with verifiable information and tips).
+
+"""]]

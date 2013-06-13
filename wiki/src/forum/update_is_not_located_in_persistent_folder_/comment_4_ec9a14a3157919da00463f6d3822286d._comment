@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-04-29T17:24:52Z"
- content="""
-Also, make sure you read the persistence [[documentation|doc/first_steps/persistence]] before trusting it will save this or that. Opt-in, selective persistence feature in Tails is no magic wand.
-
-"""]]

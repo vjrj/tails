@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 3"
+ date="2013-06-07T10:30:59Z"
+ content="""
+> When it wipes, is there some form of visual time line (progress meter) confirmation of the wiping process?
+
+Yes, sdmem prints stars (`*`) to represent progress. However, in the minimal configuration where this runs, your graphics hardware might not be well configured, so you might not see them. I do.
+
+The fact that the system reboots / shutdowns as prompted is the best easy way to have a hint wether the memory was wiped. Of course, you might want to check this more thoroughly by running [[a full-blown test|contribute/release_process/test/erase_memory_on_shutdown]].
+
+"""]]

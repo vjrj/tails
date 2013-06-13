@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-05-28T03:54:42Z"
+ content="""
+>One of my hits for while searching for \"security privacy forum\": http://www.wilderssecurity.com/forumdisplay.php?f=39
+
+Do you know anything about Wilders Security Forums? Any reason to actually *recommend* it? To believe that it's a source for useful, accurate info? Or to even trust that the site itself is *safe*?
+
+Your wording (\"One of my hits while searching\") clearly implies that the answer to most, if not all, of the above is \"no\". 
+
+
+As it happens, Wilders uses a **self-signed** SSL cert and the attitude/approach/policy regarding this evidenced there does not exactly inspire confidence; see: 
+
+<https://tails.boum.org/forum/self-signed_SSL_certificates_and_browser_warning/#comment-21e769e49dda9de9e2c994d8472483f9>
+"""]]
