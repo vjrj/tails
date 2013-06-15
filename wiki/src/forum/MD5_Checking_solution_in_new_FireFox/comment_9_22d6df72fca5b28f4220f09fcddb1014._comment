@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Verification went wrong"
+ date="2013-05-18T18:31:13Z"
+ content="""
+Hi, I have the Tails public PGP key: 
+
+Tails developers (signing key) <tails@boum.org> 0D24B36AA9A2A651787876451202821CBE2CD9C1 (Fingerprint)
+
+downloaded from this page and also over at the keyserver https://keyserver.pgp.com just to verify it. Indeed it's trustable.
+I then checked the signature file tails-i386-0.18.iso.pgp against the Tails ISO tails-i386-0.18.iso and after a while I got this error:
+
+*tails-i386-018.iso.pgp Not enough information to check signature validity.*
+*Signed on 2013-05-16 16:58 by tails@boum.org (Key ID: 0xBE2CD9C1).*
+*The validity of the signature cannot be verified.*
+
+Accidentally I'm on Windows and using Kleopatra in the GPG4Win bundle (Menu File->Decrypt/Verify Files...).
+I'll be trying to verify it on Linux too.
+Meanwhile any thoughts?
+
+Thank you
+
+"""]]

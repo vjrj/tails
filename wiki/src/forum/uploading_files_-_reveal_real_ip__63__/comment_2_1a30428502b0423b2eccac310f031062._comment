@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 2"
+ date="2013-05-31T11:57:46Z"
+ content="""
+> Does that mean the uploading will create p2p connection
+
+No. See [[about]].
+
+> and thus revealing real ip?
+
+No, unless the file itself contains this IP.
+If this file was created with Tails, it should not.
+
+> also will the path to the file be sent to the upload site?
+
+No.
+
+"""]]

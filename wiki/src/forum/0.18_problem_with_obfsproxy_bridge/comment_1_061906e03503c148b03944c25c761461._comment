@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-08T17:15:59Z"
+ content="""
+> I haven't been able to connect to any obfsproxy bridge since upgrading to 0.18. Do you still add the bridge the same way in Tor setting?
+
+Yes, it should work the same way. Perhaps your bridge went down -- have you tried and confirmed your obfsproxy bridge still works with 0.17.2?
+
+> Also, sometimes when I boot up 0.18, it thinks I'm still using 0.172
+
+\"It\" is probably right, and your upgrade probably wasn't as successful as you think.
+Anyway, let's not mix this in the same thread.
+
+"""]]

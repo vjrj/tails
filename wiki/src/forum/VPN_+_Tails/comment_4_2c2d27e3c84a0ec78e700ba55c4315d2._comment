@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-05-31T03:33:08Z"
- content="""
-I believe you can visit the https site you want, and on the left of your browser's address bar, click the colored part which signals to you that it is using ssl. Click 'more information' from the little window that pops up. click the security tab, and I believe you can check the fingerprint there.
-"""]]

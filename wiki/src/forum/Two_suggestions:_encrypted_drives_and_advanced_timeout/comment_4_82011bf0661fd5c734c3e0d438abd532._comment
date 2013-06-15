@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-05-11T19:07:12Z"
- content="""
-As I wrote my previous post I was concerned that too much focus would be put on the bookmark example, which is why I gave two other examples and also that I would sound like I was complaining rather than explaining.   
- 
-My solution would be to add to the Tails Greeter encrypted hard drive detection, a password entry box, a check box for using the decrypted drive as a home directory and leaving them blank would continue with defaults if a timer wasn't reached.  If I tried to create this myself it would take so long and be so poorly written the code would be unacceptable and someone else would have to re-write it.
-"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Booting Tails on OS X"
+ date="2013-06-04T02:49:43Z"
+ content="""
+You *can* do it, by following the instructions at the link below. However, if your MBP has a retina display, it seems the current kernel has a problem with it and though it will boot, the screen is basically unreadable.  Some time ago the fine folks behind Tails advised that likely by release 0.19 of Tails it would include the newer kernel that should address this issue.  Every week or so I've been coming back here faithfully awaiting 0.19 in hopes that will be the case. 
+
+https://tails.boum.org/doc/first_steps/manual_usb_installation/mac/
+
+"""]]

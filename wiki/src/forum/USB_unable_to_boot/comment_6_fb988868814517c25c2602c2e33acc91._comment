@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Similar problem."
- date="2012-05-06T09:55:19Z"
- content="""
-Seem i am having a similar problem with getting the USB to boot on a real machine, works fine on a VM. Would you be able to list how you achived this? as i'm clearly missing something with regard to the USB being seen as anything other than a hdd.
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Realcrypt"
- date="2012-05-02T11:27:15Z"
- content="""
-Replace Truecrypt with Red Hat's RealCrypt, an open source fork of Truecrypt minus the objectionable licensing issues.
-"""]]

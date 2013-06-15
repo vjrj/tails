@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-30T20:55:18Z"
+ content="""
+>We can work on reducing reliance on Javascript, but this work will be gradual and focused on specific areas.
+
+Here is what Tails rep said about javascript: 
+
+>>JavaScript is only required for some convenience features, like instant search results, instant post preview, and the rich text controls in the editor. Reading, posting and searching without JavaScript is possible (and was a requirement for us, Tails, to even consider AskBot).
+
+It seems ideal if the site doesn't know who is using javascript and who isn't, but so long as it is usable without javascript it is alright. 
+
+>Regarding the requirement for the user registration: there are two issues - (1) spam and (2) - user identification (in the sense of creating an identity within the site).
+
+This forum is really nice because it doesn't even require captchas. Looks like the obscurity of ikiwiki has evaded the interest of spambot authors for the moment. For us this is going to be less convenient.
+
+There is a larger issue here concerning censorship. It seems like a good idea to separate at least some of Tails discussion from the developers. We don't know what kind of pressure they are under or what kind of gag orders there are or will be. Sorry I haven't read everything. Is this forum going to be scrapped except for some hand-chosen questions and answers? Maybe not a bad idea but I think it is good to have alternatives in place when things disappear or rules change. It may not be possible for censors to threaten someone from a hidden service. This might take some pressure off Tails developers. They wouldn't be responsible for things that they could know by running the forum service. I'm anticipating that desperate crackdowns will increase as this technological revolution continues.
+
+
+"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="USB Installer Formats & resets MBR"
- date="2012-04-30T00:20:37Z"
- content="""
-It seems that the USB installer is taking away the ability for mac users to format the drive as a GUID partition. Forcing MBR.
-
-Refit needs GUID partitions to boot as far as I'm aware.
-"""]]

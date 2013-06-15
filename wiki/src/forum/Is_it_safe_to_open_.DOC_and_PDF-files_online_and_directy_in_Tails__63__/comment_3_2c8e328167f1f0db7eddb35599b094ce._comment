@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-04-29T11:36:15Z"
- content="""
-wmv?  Citation please?
-
-The only known exploits using .wmv files as far as I recall use malware plus a social engineering attack.  When the .wmv video file is opened on Windows it takes the user/sucker to a webpage where malware installs.  I don't know if that could work with linux media players or not.  Moral: any non-html file that tries to open a website is suspect.
-"""]]

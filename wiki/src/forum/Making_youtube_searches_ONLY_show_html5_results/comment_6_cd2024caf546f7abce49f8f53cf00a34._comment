@@ -1,0 +1,49 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="YouTube hides WebM format"
+ date="2013-05-26T03:03:43Z"
+ content="""
+With Tails I have to go to Bookmarks > Show all Bookmarks > (bookmark manager opens) > Organize > New Bookmark
+
+At first I tried going to the bookmark which results in \"%s\" appearing in the search box. This time I typed in the address bar \"webm angelina jolie\" and this must be how we are supposed to do it. Without joining the html5 trail at youtube.com/html5 I got these results:
+
+First video says \"The video is currently unavailable.\" https://www.youtube.com/watch?v=H1Sn08FgKUs
+
+Second video plays. https://www.youtube.com/watch?v=P_xha1wJzmc
+
+Third video says \"The video is currently unavailable.\" https://www.youtube.com/watch?v=isfxQ0f0MOA
+
+Forth video plays https://www.youtube.com/watch?v=mcQ4cAjMMvM
+
+Fith video \"The video is currently unavailable.\" https://www.youtube.com/watch?v=P_xha1wJzmc
+
+Sixth \"The video is currently unavailable.\" https://www.youtube.com/watch?v=JLmSZF-cuF0
+
+Seventh \"The video is currently unavailable.\" https://www.youtube.com/watch?v=fQLnzmqKs5c
+
+Eighth video plays https://www.youtube.com/watch?v=0AybC_iR8FU
+
+This time I try after joining the html5 trail at youtube.com/html5. The YouTube logo in the upper left says YouTube SE (that is a country code).
+
+1st plays (it didn't play last time)
+
+2nd says \"The video is currently unavailable.\" (it played last time)
+
+3rd plays unlike last time
+
+4th plays but it is not the same video as in the above list https://www.youtube.com/watch?v=iqP948g8DPU
+
+5th \"The video is currently unavailable.\"(It played last time) https://www.youtube.com/watch?v=mcQ4cAjMMvM
+
+refresh 5th \"The video is currently unavailable.\"
+
+refresh 5th again \"The video is currently unavailable.\"
+
+6th plays https://www.youtube.com/watch?v=JLmSZF-cuF0
+
+7th \"The video is currently unavailable.\" https://www.youtube.com/watch?v=_XXrYaiL7jY
+
+8th doesn't play https://www.youtube.com/watch?v=0AybC_iR8FU
+
+So less than half play when I was not in the html5 trial and many of these won't play when I am in the html5 trail. Why is it that I can download any video from YouTube in webm format with Flash Video Downloader? YouTube must be hiding the webm format from us.
+"""]]

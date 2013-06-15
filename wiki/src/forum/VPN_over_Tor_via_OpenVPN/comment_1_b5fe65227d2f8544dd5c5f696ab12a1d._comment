@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-30T13:36:54Z"
+ content="""
+There are some fairly detailed links on this subject on [this](http://torrentfreak.com/how-to-make-vpns-even-more-secure-120419/) page if anyone more knowledgeable would like to comment.
+
+The primary major strength of Tails is its boot to shutdown encryption of all Internet traffic (certainly anything system related).  With regards browser security alone, I've been keeping a watch on [this](https://twitter.com/GetCocoon) service - thought about combining Tails' unsafe browser with this to get a full speed online experience while still anonymous and (most importantly if you haven't got the latest broadband technologies and have broadband security issues otherwise) an encrypted connection from front door to street cabinet.
+
+Expanding on the subject some more, would it be valid to test a webpage for integrity by comparing the output from a) tor, and b) a vpn tunnelled through tor?
+"""]]

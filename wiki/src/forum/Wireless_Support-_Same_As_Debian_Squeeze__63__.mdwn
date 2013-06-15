@@ -1,9 +1,0 @@
-Regarding "out-of-the-box" support for wireless adapters (and other hardware, for that matter), will this be the same for Tails as it is for Debian Squeeze?
-
-Example: The Atheros AR9271 ,apparently the chipset in the TP-LINK TL-WN727N and several other TP-LINK wireless adapters, apparently requires a driver to be compiled in Debian (see http://forums.debian.net/viewtopic.php?f=7&t=61526 )
-
-Would this also be the case for Tails?
-
-Since Tails is designed and optimized for running live, I would think that easy recognition of wireless adapters would be a priority. 
-
-Thanks for all of your work and dedication.

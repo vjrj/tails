@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-05-12T01:42:51Z"
- content="""
-op here, thanks to above comment I now have persistence working. I changed 240 to 480 and I had to play around with gparted a bit before it worked.
-
-I expected this issue to be buried with the number of posts above, so many thanks to the above poster.
-"""]]

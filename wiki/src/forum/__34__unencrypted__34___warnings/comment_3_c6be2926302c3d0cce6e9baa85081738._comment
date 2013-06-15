@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-21T22:26:02Z"
+ content="""
+I'm having the same issues as the original poster. This only started happening in tails 0.18, and the same sites do not show the warning in the standard Tor browser.
+"""]]

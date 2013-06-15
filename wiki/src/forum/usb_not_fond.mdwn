@@ -1,8 +1,0 @@
-I created a usb with tails 11.orc1 on a ubuntu 64 bit machine but on boot the usb is not found 
-reboot and delect proper boot device which i do but no luck
-the usb has two directories isolinux and live
-the size of the usb is 2 gig and size of contents is
-788.7mb
-the file system is  isofs
-
-thanks for any feedback

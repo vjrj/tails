@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-06-07T09:02:27Z"
+ content="""
+When it wipes, is there some form of visual time line (progress meter) confirmation of the wiping process?
+
+I see nothing of the sort, what should I see?
+
+in the fillram file it displays the following:
+
+#!/usr/bin/python
+
+# NB: this program is subject to the system's per-process memory limits.
+
+string = \"\"
+while True:
+    string = string + \"wipe_didnt_work\n\"
+"""]]

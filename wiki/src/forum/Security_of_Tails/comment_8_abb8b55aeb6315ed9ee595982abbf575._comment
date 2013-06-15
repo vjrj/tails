@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="@comment 7"
- date="2012-04-11T16:04:12Z"
- content="""
-I imagine setting the password like that would be of little benifit to \"security\". Same with unmounting filesystems, although this would be of no harm and could be considered wise for various reasons.
-
-I don't think there's much need for serious concern - this is *probably* just a theoretical problem... needs correcting before anything *real* happens. TAILS appears quite adequately hardened for day-to-day use and the system is completely re-set every re-boot (at least until \"persistence\" is added). It'd come as quite a surprise to discover a drive-by exploit which could quietly pwn TAILS. I'm certainly not aware of anything \"in the wild\". Anyone know different?
-"""]]

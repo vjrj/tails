@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="upload and metadata"
- date="2012-09-04T11:41:23Z"
- content="""
-I guess \"comment 2\" means that the file you upload potentially includes metadata that can expose your real identity (the camera serial number is the most obvious example).
-"""]]

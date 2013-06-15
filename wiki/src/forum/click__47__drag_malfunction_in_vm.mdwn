@@ -1,3 +1,0 @@
-Am running Tails inside a VMWare Workstation virtual machine in OSX.
-I find that occasionally the mouse confuses a click with a drag, or won't accept a click until the mouse pointer is moved. This often manifests itself in dragging of the tabs from Iceweasel into their own window.
-Possibly this is a side effect of not having VMWare tools installed. Has anyone seen this and have any thoughts on how to fix?

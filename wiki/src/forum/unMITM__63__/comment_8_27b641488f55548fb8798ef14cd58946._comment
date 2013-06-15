@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-12-13T00:42:23Z"
- content="""
-The 10.65.192.1 addy could be your ISP's addy assigned to your router/modem. IOW, you ISP also has a LAN and assigns the address to the device, and that is the device address, which is not the same as the Internet address.
-
-It took a lot of phone calls for me to learn my ISP does this and I was lucky to get a geek in support that wanted to figure it out. So while there could still be a MITM, this probably is not it.
-"""]]

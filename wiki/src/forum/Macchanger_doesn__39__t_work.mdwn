@@ -1,9 +1,0 @@
-So I log into root (tried with both root terminal and in regular terminal after doing sudo su), and I use the line:
-
-macchanger -a wlan0 //I want to change my wlan0 device's // MAC address since I connect wirelessly typically
-
-and everytime I do it, whether I try doing it connected to internet  or not connected (I know it should be done not connected to avoid giving out my original MAC address if I remember correctly), doing both to see if the problem changes or disappears. Everytime I am greeted with this message:
-
-ERROR: Can't change MAC: interface up or not permission: Device of resource busy
-
-I've read through the macchanging documentation on the site, and can't understand why this isn't working! Any help?

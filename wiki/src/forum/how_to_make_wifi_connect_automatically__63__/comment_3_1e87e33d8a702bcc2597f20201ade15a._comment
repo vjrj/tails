@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="hidden ssid"
- date="2012-05-17T17:06:27Z"
- content="""
-can tails connect automatically to a hidden ssid wifi network? i added the folder to the persistent volume as above described, still diesn't work.
-"""]]

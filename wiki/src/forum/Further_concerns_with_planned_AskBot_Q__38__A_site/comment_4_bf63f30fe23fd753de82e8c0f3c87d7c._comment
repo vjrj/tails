@@ -1,0 +1,78 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-30T19:11:28Z"
+ content="""
+@ Comment 1:
+
+Thanks for the list of onion sites, none of which were previously known to me.
+
+However, there are two general problems you have have overlooked.
+
+First: as at least one Tor developer, the EFF, and various news organizations appear to recognize, connecting to a hidden service seems like a good way to \"collect\" state-sponsored malware, a dangerous activity which most of us wisely wish to avoid.  Please see
+
+     https://blog.torproject.org/blog/trip-report-tor-trainings-dutch-and-belgian-police
+
+> Now is a good time to talk to the Dutch police, first because they're still smarting from the DigiNotar disaster in 2011, but second because of their 2012 ambitions to legalize breaking into foreign computers when they aren't sure what country they're in. (I say legalize [after the fact] because *they already did it!*)
+
+...
+
+> One regional Dutch police woman told us that they know how to check if it's a Tor exit IP, but sometimes they do the raid anyway \"to discourage people from helping Tor.\" I later told that statement to one of the national police, and he was shocked, said that was illegal, and said he'd look into it. Alas, I'm not optimistic that anything will come of it: giving investigators discretion about how to act can be both good and bad. 
+
+...
+
+> Several people at the Dutch cybercrime unit quietly told me they regretted their \"break into a Tor hidden service and zero it out\" action: it got people upset at them, but more importantly, it *didn't work*. That is, it didn't stop any bad people from doing bad things. Apparently playing whack-a-mole like this doesn't make the criminals go away. And worse, it disrupts the police's other monitoring and infiltration operations. 
+[/quote]
+
+(Emphasis in the original).  The EFF has explained what the problem is:
+
+     https://www.eff.org/deeplinks/2012/10/dutch-government-proposes-cyberattacks-against-everyone
+
+> If it became law, this proposal would allow Dutch police to launch direct attacks against international cloud computing services. *It would allow Dutch police to use exploits and malware against privacy systems like the Tor network, endangering the hundreds of thousand of people who use Tor clients every day, and those who publish hidden services in the network. It would, in short, allow Dutch police to use the methods of cyberwar to enforce Dutch law on people living anywhere in the world.*
+
+Many news organizations (especially in Holland) covered the cited proposals in 2012 by Opstelten.
+
+From
+
+     https://www.bof.nl/2012/10/18/dutch-proposal-to-search-and-destroy-foreign-computers/
+
+> If the location of the computer cannot be determined, for example in the case of Tor-hidden services, the police is not required to submit a request for legal assistance to another country before breaking in.
+
+From
+
+     http://infosecisland.com/
+     Trojans for the Bundestag – German PD acquired Finfisher
+
+> A while back the Dutch Minister of Safety and Justice Ivo Opstelten revealed that a plan was in the works to change the law so that it became allowed for the Dutch police to hack systems belonging to suspects. This led to international resistance and an open emergency letter was sent to the Minister to have this plan terminated because it was a gross violation of privacy. Apparently Germany is already at least one step further than this, having purchased the software already.   Is this the future for the Netherlands as well? Will Minister Opstelten dust off his ill-advised plan and follow Germany in purchasing this software? I hope not. Not only is the Dutch police severely understaffed as it is, it also has a serious history of bending (or outright breaking) the rules and violating people’s rights when it comes to (ab)using technology such as this. And just how long will it take before hacking a suspects’ computer will no longer require an approval from a court judge? Where is our oversight then?
+
+From
+
+    http://www.itworld.com
+    Dutch government seeks to let law enforcement hack foreign computers
+
+> the new legislation would allow cybercrime investigators to remotely infiltrate computers in order to install monitoring software or to search them for evidence. Investigators would also be allowed to destroy illegal content, like child pornography, found during such searches. These investigative powers would not only cover computers located in the Netherlands, but also *computers located in other countries, if the location of those computers cannot be determined*.  In his proposal, Opstelten used a case in which investigators from the Dutch National Police infiltrated \"hidden\" Tor websites that hosted child pornography, as an example of a situation in which the geographical location of the computers couldn't be determined.
+
+Despite a public outcry from security experts and privacy advocates around the world, the Dutch government is pushing ahead with its plans for conducting cyberwar upon hidden services.
+
+From
+
+     http://www.dutchnews.nl/news/archives/2013/05/minister_plans_clamp_down_on_c.php
+
+> New legislation will make it possible for police and justice ministry officials to hack into suspects’ computers even if the server is abroad, and tap into Skype conversations, according to various media reports on Thursday.
+
+
+See also
+
+     https://tails.boum.org/forum/State-sponsored_malware_can_inventory_RAM/
+
+for more about the Western-based corporations which sell malware, especially Gamma International, whose notorious \"FinFisher\" series is apparently the malware currently used by the Dutch Police (as already noted, in advance of gaining legal authorization to break into computers and destroy data).
+
+Second: please see
+
+     https://tails.boum.org/forum/Who_carries_half_of_all_Tor_traffic__63____38_operators/
+
+Due to these and further considerations which \"Tails\" did not permit us to discuss (these further considerations rest upon mathematical methods sketched in certain papers in the Freehaven archive, which are little known but which I believe are explicable for a general audience), I believe that the current Tor method for constructing Tor circuits is too open to manipulation by our most powerful and deadly adversaries.  
+
+The Tor project recommends (for reasons which, since I have read the relevant Freehaven papers, I think I understand, and would like to try to explain for the benefit of others) that Tor users not use the ExcludeNodes feature.  This is a judgement call and by taking account of considerations which the Tor Project unfortunately insists upon ignoring, I and many others have come to a different conclusion from that officially recommended by the Tor Project.  But this means that we cannot use onion sites, because strictly avoiding nodes which are plausibly suspected of cooperating with other operators in de-anonymization attacks breaks hidden services.
+
+"""]]

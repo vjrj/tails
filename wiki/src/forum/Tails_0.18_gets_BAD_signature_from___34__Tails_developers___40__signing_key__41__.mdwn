@@ -1,0 +1,75 @@
+Here are the results of attempting to verify the signature of the downloaded tails-i386-0.18.iso with the tails-i386-0.18.iso.pgp and the tails-signing.key:
+
+ubuntu@ubuntu:~/Desktop$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 0xBE2CD9C1
+
+gpg: requesting key BE2CD9C1 from hkp server keys.gnupg.net
+
+gpg: key BE2CD9C1: public key "Tails developers (signing key) <tails@boum.org>" imported
+
+gpg: no ultimately trusted keys found
+
+gpg: Total number processed: 1
+
+gpg:               imported: 1  (RSA: 1)
+
+ubuntu@ubuntu:~/Desktop$ echo $?
+
+0
+
+ubuntu@ubuntu:~/Desktop$ gpg --fingerprint 0xBE2CD9C1
+
+pub   4096R/BE2CD9C1 2010-10-07 [expires: 2015-02-05]
+
+      Key fingerprint = 0D24 B36A A9A2 A651 7878  7645 1202 821C BE2C D9C1
+
+uid                  Tails developers (signing key) <tails@boum.org>
+
+uid                  T(A)ILS developers (signing key) <amnesia@boum.org>
+
+ubuntu@ubuntu:~/Desktop$ !echo
+
+echo $?
+
+0
+
+ubuntu@ubuntu:~/Desktop$ gpg tails-i386-0.18.iso.pgp
+
+Detached signature.
+
+Please enter name of data file: tails-i386-0.18.iso
+
+gpg: Signature made Thu 16 May 2013 03:58:32 AM EDT using RSA key ID BE2CD9C1
+
+gpg: BAD signature from "Tails developers (signing key) <tails@boum.org>"
+
+ubuntu@ubuntu:~/Desktop$ echo $?
+
+1
+
+1ubuntu@ubuntu:~/Desktop$ cat tails-signing.key | gpg --keyid-format long --import
+
+gpg: key 1202821CBE2CD9C1: "Tails developers (signing key) <tails@boum.org>" not changed
+
+gpg: Total number processed: 1
+
+gpg:              unchanged: 1
+
+ubuntu@ubuntu:~/Desktop$ echo $?
+
+0
+
+ubuntu@ubuntu:~/Desktop$ gpg --keyid-format long --verify tails-i386-0.18.iso.pgp tails-i386-0.18.iso
+
+gpg: Signature made Thu 16 May 2013 03:58:32 AM EDT
+
+gpg:                using RSA key 1202821CBE2CD9C1
+
+gpg: BAD signature from "Tails developers (signing key) <tails@boum.org>"
+
+ubuntu@ubuntu:~/Desktop$ echo $?
+
+1
+
+What needs to be done to get a Good signature from "Tails developers (signing key) <tails@boum.org>"message?
+
+

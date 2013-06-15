@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject=" wpa2 network connection problem"
- date="2012-11-28T01:11:26Z"
- content="""
-tails wont connect to a hacked wpa network when  mac address randomised. open network connects ok though network keys work in other linux os. wandered if anyone else has this problem.
-"""]]

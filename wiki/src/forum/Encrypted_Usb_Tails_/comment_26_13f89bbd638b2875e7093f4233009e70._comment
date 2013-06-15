@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 26"
- date="2013-04-26T18:19:29Z"
- content="""
-No I don't have any problems starting Tails, actually it's working quite well :) I just wanted to know how to get a bootable iso with remastersys. I start Tails, install remastersys, I can also create an iso file from the running tails session. However, if I try to boot from this iso it only shows the bootloader and then nothing happens.
-I just want to add some programs, especially virtualbox and I don´t want to install them each time I have to restart Tails. 
-I know this kind of persistence is against the point of Tails but I need it mainly for testing purposes up to now. Another option would be of course to install Tails on a hard drive but the forum posts which discuss this topic aren't helpful.   
-"""]]

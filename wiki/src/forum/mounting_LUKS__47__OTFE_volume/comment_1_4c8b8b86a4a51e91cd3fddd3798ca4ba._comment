@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="All included"
- date="2012-04-28T20:11:34Z"
- content="""
-Tails include everything that is needed to mount LUKS volume. Just plug an USB stick with a LUKS encrypted volume and when opening it, it'll ask for the passphrase, all through the GUI.
-"""]]

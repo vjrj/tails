@@ -1,1 +1,0 @@
-Why does the persistence file size determine how long it takes to decrypt said files? Is it because the persistent file isn't a set size, and varies based on how much information is saved? With TrueCrypt it always took the same amount of time to mount the volume(usually instantly) but this doesn't seem to be the case here.
