@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="pros and cons of using a VM"
+ date="2013-05-11T12:35:29Z"
+ content="""
+pros:
+
+* able to run and use host OS as usual while also using tails (main reason)
+    * possibly share filesystem between host and VM 
+* able to run multiple instances of tails
+
+cons:
+
+* have to trust host OS and virtualization software
+* slower / consumes more resources
+"""]]

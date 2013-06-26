@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-05-19T19:17:33Z"
- content="""
-During the Debian live boot screen I hit tab, and typed truecrypt.  I got no results.  Maybe it is gone now?  Another option to get my Truecrypted media into LUKS is to copy the media to a HDD unencrypted, then using the encryption program in TAILS encrypt it to another HDD, then deleating the unencrypted data.  This way you could also have all your data backed up in different encrypted files.
-"""]]

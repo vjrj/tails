@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-03T19:30:07Z"
- content="""
-There's a guide [[on the forum|forum/How_do_I_do_what_unetbootin_does/#comment-fc6a0040a29918839343a50396ef4082]], but it might be a waste of time since Tails 0.11 (which is due this month) will support it out-of-the-box in a user-friendly and more flexible way that is not compatible with the method described in that guide.
-"""]]

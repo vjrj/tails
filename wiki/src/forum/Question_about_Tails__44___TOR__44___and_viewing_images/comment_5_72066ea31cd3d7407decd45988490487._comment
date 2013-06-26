@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-27T18:45:46Z"
+ content="""
+>To mention just one problem which was apparently overlooked into it was disclosed in this forum, regardless of whether you boot Tails from a USB or a live DVD, this leaves a trace in your other OS (the one installed on your hard drive) that you inserted a DVD or USB stick with a specific unique identifier at a specific time, and then shutdown your other OS. Even worse, the traces may well specify that your USB stick is called \"Tails\".
+
+Proofs please.
+
+Taking this comment as general as it is, this should work regardless what OS is on the harddrive. Further, this assumes there is write access to harddrive without it being mounted on tails.
+
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="same"
+ date="2013-04-21T00:22:25Z"
+ content="""
+I've got the exact same problem on my HP510. pentium M @ 2.13ghz, 2gb ram. I've tried booting from two different usb sticks, using tails 0.17.1 and 0.17.2, tried verifying the download integrity, re-downloading tails twice, tried formatting the drive and reinstalling tails, but still the same. I don't know how to provide more detailed information.
+"""]]

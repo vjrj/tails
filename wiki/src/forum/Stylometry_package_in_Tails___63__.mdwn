@@ -1,0 +1,10 @@
+Could we get a anti-stylometry package included in Tails ?
+The only one I know of is 'Anonymouth' which I do not believe has been packaged for Debian. 
+What would it take to make this happen ?
+
+
+Background info:
+
+*  [https://en.wikipedia.org/wiki/Stylometry](https://en.wikipedia.org/wiki/Stylometry)
+*  [https://psal.cs.drexel.edu/index.php/JStylo-Anonymouth](https://psal.cs.drexel.edu/index.php/JStylo-Anonymouth)
+*  [https://github.com/psal/JStylo-Anonymouth](https://github.com/psal/JStylo-Anonymouth)

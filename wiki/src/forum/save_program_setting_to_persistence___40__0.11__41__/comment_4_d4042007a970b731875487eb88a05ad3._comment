@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-05-20T20:26:10Z"
- content="""
-I have found 2 locations for preference files. 1 home/usr/lib/iceweasel/defaults/preferences/firefox.js.  The other home/amnesia/ect/iceweasel/profile/user.js.  The one I made changes to was the second one.  I changed some of the noscript options along with others.  I hit save, closed the file, then draged it to my persistence folder.  When I opened iceweasel, my setting for noscript and everything else was not changed, however it was changed in the pref file.  When I booted tails today I tried to play with the settings again in the same file,  it is now in read only mode and I cannot change that.  I have used my password during login to enable administrative rights and I still cannot get it out of read-only mode.  I dont know why it is in that mode, also I dont know how to get the preferances saved for iceweasel, tor button and most importantly noscript.
-"""]]

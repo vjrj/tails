@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Rebuilding from sources"
+ date="2013-05-21T21:04:12Z"
+ content="""
+An for a third verification level (first - hash .... second - PGP), U may archive the sources with some \".bat\" \".cmd\" file inside and some platform virtual box OS to be downloaded so the iso of tails to be able to be recreate by users: download the sources and \"make\" it. And if the recreated iso would be different by the downloaded one ... like some triple check or something :)
+"""]]

@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-11T20:34:17Z"
+ content="""
+Tor uses Socks, so *in principle* Tor can try to anonymize any protocol which uses TCP. Protocols which UDP, such as DNS lookups, are not easily torified.
+
+Various \"clients\" which perform actions like webbrowsing, chat, email, may or may not be easily \"torified\".  And it is not clear what one might mean by \"torifying\" email since email headers contain information about the email server and email account from which the email was sent, and these may well suffice to identify the sender even when an adversary does not resort to warrantless demands for contact information made upon the mail hosting provider.
+
+As far as I know, Tails cannot guarantee that more than a handful of clients will be correctly torified.
+
+The Tails browser is torified:
+
+     https://tails.boum.org/doc/anonymous_internet/iceweasel/index.en.html
+
+The Pidgin chat client is torified in some limited sense (but chat conversations themselves are unencrypted unless you use OTR, and our adversaries are known to monitor many chat rooms and to log chats):
+
+     https://tails.boum.org/doc/anonymous_internet/pidgin/index.en.html
+
+But not I2P (which uses a different protocol than Tor, which like Tor does not hide the fact that you using the service)
+
+     https://tails.boum.org/doc/anonymous_internet/i2p/index.en.html
+
+Tails browser is torified, but other browsers like wget will probably not be, unless possibly if you run them through a wrapper like torify.
+
+Peer to peer protocols cannot be torified because your IP is contained in plaintext in peer to peer communications.  Also, the bandwidth needed for torrents is more than the Tor network can handle, so this is both pointless and harmful to other Tor users.
+
+If anyone wants to disagree with my casting of doubt upon the claim that such and such is \"torified\", please explain in detail what you mean by \"torified\".  In particular, why do you believe that such and such is anonymous if you do it while using Tails?
+
+
+"""]]

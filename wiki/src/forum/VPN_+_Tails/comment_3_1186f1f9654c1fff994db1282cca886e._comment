@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-05-25T21:29:32Z"
- content="""
-Thanks Tails Devs!  It is the exit node that I am afraid of because anyone can set one up.  Let's say I want to check the SSL certficiate of the U.S.'s largest bank, BOA, using Tails and without installing any other software of addons, how do you recommend checking this?  When I have their fingerprint from the phone call, where do I compare that with the one the https web page is providing me with?
-"""]]

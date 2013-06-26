@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-06-07T17:44:11Z"
+ content="""
+> i mean anyway, how does this work, how does my tor-client decide whats slow or not? which bandwidth limit does it use for sorting out?
+
+I haven't heard about any such magic string like \"SlowServer\" for that option. Isn't it supposed to take a server name?
+
+Anyway:
+
+If I have understood things correctly, you should not need to edit the configuration to exclude slow nodes. After Tor have been running for a while it is supposed to have taken measures of circuit building speed, and will start excluding circuits that takes to long to build. Long circuit build time often result from overloaded Tor node, and therefore this will roughly cut off the slowest 10% of Tor nodes or something (don't know the exact number).
+"""]]

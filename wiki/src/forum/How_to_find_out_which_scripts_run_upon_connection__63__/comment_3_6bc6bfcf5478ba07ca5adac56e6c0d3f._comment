@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-16T01:29:56Z"
+ content="""
+/usr/local/bin
+/usr/local/sbin
+/etc/sudoers.d
+
+and other interesting places
+
+"""]]

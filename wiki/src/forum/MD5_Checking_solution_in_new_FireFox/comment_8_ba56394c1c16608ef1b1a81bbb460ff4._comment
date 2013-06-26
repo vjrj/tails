@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 8"
+ date="2013-05-15T10:24:07Z"
+ content="""
+> Why does Tails sign the ISO itself rather than a file containing the
+> sha256sum for the ISO?
+
+I think it's easier to document this way, but sincerely I'm unsure --
+and not the right person to ask. Please raise this question on the
+tails-dev mailing-list if you're interested in discussing this with
+the folks who manage our documentation :)
+
+> I recall a post from Tails that said that the trust in a given
+> signing key automatically increases at least somewhat with each
+> additional time it is used to verify an ISO.
+
+Right, as long as \"a given signing key\" is really the same each
+time :)
+
+> But not for the release candidates?
+
+No. I'd like to keep our RC release process and announce page as light
+as possible. Also, I'm sorry, and I don't mean to be rude to anyone,
+but I sincerely don't expect usable reports on a RC, in the time frame
+given by our release process, from people who find it too hard to
+(learn to) verify an OpenPGP signature as documented by us.
+
+"""]]

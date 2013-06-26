@@ -1,0 +1,1 @@
+Burned a livedvd and tails boots fine but no network connection. I've noticed the router light fir that port isnt on which appears to suggest the network adapter is not "waking" up and after I reboot back into windows it takes me running the troubleshooter to get network adapter working again. Any ideas? Its an nvidia mobo.

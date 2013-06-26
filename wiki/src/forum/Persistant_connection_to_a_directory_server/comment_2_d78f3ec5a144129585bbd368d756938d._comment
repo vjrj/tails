@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-21T02:52:43Z"
+ content="""
+i believe the OP is referring to tor directory servers
+
+i've also noticed that a connection to a tor directory node will sometimes remain throughout your entire tails session 
+
+should i be alarmed?
+"""]]

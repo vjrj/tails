@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="How are they going to know your hostname?"
+ date="2013-04-18T13:12:51Z"
+ content="""
+If you want to change what the command prompt displays, check this:
+
+http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
+
+To change the prompt to \"windows@windows\", do this in a terminal:
+$PS1=\"\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]windows@windows\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\"
+
+To change it back to the default, do this:
+$PS1=\"\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\"
+
+The cariable PS1 represents your command prompt. Obviously when re-booting the default will come back.
+
+Hope that helps.
+"""]]

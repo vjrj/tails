@@ -1,0 +1,5 @@
+Why is `plugins.hide_infobar_for_missing_plugin` in Iceweasel set-to *false* in Tails?
+
+Having "Additional Plugins are required to see this content" rear its ugly head again and again is certainly a real *nuisance*. 
+
+And it might even pose a *security* risk, as some Tails users may just click-on "install missing plugins". If not out of ignorance, then perhaps out of desperation, getting caught off-guard or even accidentally.

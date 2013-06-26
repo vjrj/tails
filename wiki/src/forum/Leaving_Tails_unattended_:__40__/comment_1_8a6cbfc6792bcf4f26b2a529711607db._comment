@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-13T00:19:46Z"
+ content="""
+That is a safety feature in Debian stable with gnome desktop environment, on which Tails is based, so I imagine so.
+
+For (I presume) safety reasons, Tails removes all lot of convenient put possibly dangerous for anonymity stuff which comes with gnome desktop, including GUI tools for configuring things such as how long the system waits before locking the screen.
+"""]]

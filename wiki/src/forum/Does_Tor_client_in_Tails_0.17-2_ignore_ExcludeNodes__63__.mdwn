@@ -1,0 +1,12 @@
+While using Tails 0.17-2, as root user I modified /etc/tor/torrc file.
+
+But it seems that the Tor client in Tails 0.17-2 may be ignoring that, since I continue to see it using Entry Guards which I don't entirely trust.  (If anyone is curious, try using words like Greystone which are likely to fire up some robot operated by our adversary.)
+
+If as I fear, the Tor client is now simply ignoring ExcludeNodes, what about ExcludeExitNodes?
+
+Some of us are struggling to avoid the dangerous situation where the Entry and Exit nodes in a circuit may be collaborating in de-anonymization attacks.  We are generally aware that 
+
+* excluding nodes from any position in our circuits can break hidden services
+* even excluding certain nodes as Exit nodes can help de-anonymise us
+
+We seek to make a trade off based upon our personal assessment of the risks of using high bandwidth nodes operated by a few dozen operators which frequently appear in both Entry and Exit roles, unless we modify the torrc to discourage this.  We feel that the principle that nonuniform probability distributions are always the enemy of anonymity, while correct, was already lost when the Tor Project adopted (perhaps as a "necessary evil") load balancing which makes the highest bandwidth servers absurdly likely to appear in all roles in any given circuit.

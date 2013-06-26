@@ -1,0 +1,6 @@
+I created a temporary tails usb from windows on a 16gb usb2.0 (using the program recommended in documentation), and that booted fine. I then used the USB installer within tails as outlined in the documentation to create another live usb using a 16gb usb3.0 drive, which booted normally until the blue loading bar appears at the bottom of the screen. The blue loading bar just keeps moving across until it reaches the end, and nothing happens. I'm not sure if there's any way to get a more verbose boot to see exactly where the error is coming from, that would be nice. 
+
+Has anyone seen this? I've tried re-formatting as fat32 and wiping the drive, with the same result. I don't have another usb to try, and I need persistence. 
+
+
+The only other thing I can think of is to install from linux, but I'll need to wait until tomorrow for that, thought I could get a solution here faster.

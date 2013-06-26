@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-06-01T21:43:18Z"
- content="""
-Can Javascript unmask the real IP then? Or does the enemy have to catch you live when visiting a website and reveil your real IP with some scripts?
-
-I mean when using Gmail for example, there are a lot of active scripts. What has Tails more besides NoScript to protect the original IP?
-"""]]

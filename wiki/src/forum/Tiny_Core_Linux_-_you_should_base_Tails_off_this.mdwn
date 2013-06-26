@@ -1,9 +1,0 @@
-You should base Tails off of Tiny Core Linux:
-
-http://distrowatch.com/tinycore
-
-This would allow for a tiny footprint which would run well on older systems and soar on modern systems. It would be easy to provide the user with different choices of DE (gnome/kde) and/or WM (openbox/fluxbox) upon boot.
-
-Or.............
-
-you could add this as a separate project but related to Tails, for an ultra slimmed down speedy Tor distro.

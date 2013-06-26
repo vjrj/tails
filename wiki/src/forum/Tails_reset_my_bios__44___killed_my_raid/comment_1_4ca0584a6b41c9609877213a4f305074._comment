@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-29T11:01:12Z"
+ content="""
+I'm sorry Tails triggered this serious bug in your BIOS.
+If there's any way to fix this on the OS side, I guess this should happen in the Linux kernel,
+so I suggest you direct your bug reporting there.
+
+"""]]

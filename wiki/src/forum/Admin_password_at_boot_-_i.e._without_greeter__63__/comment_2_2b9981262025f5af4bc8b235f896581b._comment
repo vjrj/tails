@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-04-29T17:25:43Z"
- content="""
-There are debug ways for debugging, but no safe way for normal use.
-Kernel boot parameter => readable by anyone in `/proc/cmdline`.
-"""]]

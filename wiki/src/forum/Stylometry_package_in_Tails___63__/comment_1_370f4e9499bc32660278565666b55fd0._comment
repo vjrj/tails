@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-24T10:31:49Z"
+ content="""
+Defeating stylometry is definitely an issue that would fit into the goals of Tails. But as you already mentioned, we are not ready to include software which is not already packaged for Debian. So what you can do is:
+
+  - Make sure that there are no other such software already in Debian (I don't think so).
+  - Contact the upstream developers of Anonymouth about their intention to package it for Debian.
+  - Have someone [package it for Debian](http://www.debian.org/devel/#packaging), maybe yourself.
+"""]]

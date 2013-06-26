@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-25T13:24:44Z"
+ content="""
+Your setup sounds very reasonable. Regarding the content of your communications, your pocket Wi-Fi will see the same encrypted content as your ISP, so you have no reason to trust or distrust it any more than your ISP.
+
+Your pocket Wi-Fi being on the same LAN as your computer, it has easier access to your MAC address which identifies uniquely the wireless card of your computer. I'm not sure that's a concern for you if you are at home. Your pocket Wi-Fi could also try to do nasty things like remote attacks on both computers but in that case, isolating your sensitive communication inside Tails is probably the best thing that you can do.
+"""]]

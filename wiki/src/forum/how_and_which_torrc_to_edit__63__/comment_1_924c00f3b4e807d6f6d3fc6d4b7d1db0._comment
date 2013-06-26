@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-25T12:48:28Z"
+ content="""
+The one and only torrc file is the one in /etc/tor/torrc. Which other torrc file are you referring to?
+
+You can edit it doing:
+
+    sudo nano /etc/tor/torrc
+    sudo service tor reload
+
+Regarding how to get a root terminal, please refer to the end of [[/doc/first_steps/startup_options/administration_password]].
+"""]]

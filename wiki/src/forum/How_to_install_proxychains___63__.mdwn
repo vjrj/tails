@@ -1,8 +1,0 @@
-This is what I'm trying to do and effect : 
-"amnesia@amnesia:~$ sudo apt-get install proxychains
-[sudo] password for amnesia: 
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-E: Unable to locate package proxychains"
-

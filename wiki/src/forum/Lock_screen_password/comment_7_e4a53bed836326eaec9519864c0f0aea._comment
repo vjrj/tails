@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-10-04T18:07:04Z"
- content="""
-Anyone want to try this *without* setting a user password, and see what happens when the screen is tentatively \"locked\"? (You'll need to use `rootpw=PASSWORD` on the kernel command-line (developers feature only!) to get a root password and be allowed to install the needed software.)
-"""]]

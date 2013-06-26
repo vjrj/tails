@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="how to shasum 256 on os x mountain lion - no extra software required"
+ date="2013-05-29T20:29:41Z"
+ content="""
+FireFox plug-in found to be broken. In OS X you can use command line terminal.
+
+    shasum -a 256 /Users/name/Downloads/tails-i386-0.18/tails-i386-0.18.iso
+
+Replace \"name\" with your username
+
+this correctly outputs
+
+4650157cc4ba292b06c7ef8368e9076600359c3cafc4f2e690b3fe22cc015869 /Users/name/Downloads/tails-i386-0.18/tails-i386-0.18.iso
+
+###### Please check my work and post if incorrect.
+"""]]

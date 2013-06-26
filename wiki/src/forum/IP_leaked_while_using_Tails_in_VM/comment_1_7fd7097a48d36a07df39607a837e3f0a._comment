@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-14T08:49:27Z"
+ content="""
+>it wasn't the exact same IP I got when I do IP-check on my host but it's from the same net provider. 
+
+Perhaps your Tor node at the time had this same ISP and/or VPN?
+"""]]

@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-11T19:53:42Z"
+ content="""
+Probably not the kind of advice you were looking for, but:
+
+US intelligence analysts, who are often employees of private companies but who may work in US military bases or NSA facilities for cyberwarfare units, are specifically trained to notice and exploit 
+
+* potential vulnerabilities in hypervisors like Xen
+* error messages in German inside a post to an English language help forum provide a clue to the posters' geolocation
+* in Debian-based systems like Tails, \"locale\" includes things like language preferences which can be partially visible when you surf the web, so the error messages gave up several bits to anyone trying to deanonymize you since they can focus their attention on persons using German language settings 
+* clues like \"Linux newbie\" can be fed into psychological profiles
+
+All of these can be used to assist de-anonymization, and even computer intrusions by a human adversary who has targeted you.
+
+That is bad enough, but far worse is the fact everything they do is watched by an AI system which attempts to use what these trained humans do to harm people to build systems which can do the same *automatically*, on a much larger scale.  In fact, the CTO of the CIA recently came rather close to saying that in the near future, he wants to pretty much trojan every computer in the world.  That will probably require supercomputers running software incorporating aspects of IBM Watson.  And we know the US intelligence community has those things.
+
+Also, spooks may assume that *anyone* participating in a forum like this is either another spook or is \"up to no good\".
+
+Stuff to think about, maybe.
+"""]]

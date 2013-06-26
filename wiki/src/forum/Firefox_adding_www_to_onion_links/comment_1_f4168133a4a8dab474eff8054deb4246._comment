@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-20T09:27:47Z"
+ content="""
+This looks like a Firefox feature that plays against us. This behaviour could probably be fixed in Torbutton or Torbrowser. I suggest looking for bug reports there, and filing a wishlist one if you can't find an existing report. I'm sure they'll welcome a good patch that implements what you want, by the way :)
+"""]]

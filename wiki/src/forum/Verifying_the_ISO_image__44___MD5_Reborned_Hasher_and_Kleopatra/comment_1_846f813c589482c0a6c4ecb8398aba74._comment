@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-24T19:45:03Z"
+ content="""
+The error message given by Kleopatra indicates that the signature is all right: it has been made by the key that you downloaded and the file is correct. But the key itself is has not been verified. How do you know that the key that you downloaded is the right key. There's no perfect and easy answer to this question but we give some hints in [[/doc/get/trusting_tails_signing_key/]].
+
+Furthermore we are not Windows user and know really little about Kleopatra, so we cannot help you much more than that regarding the specifics of Kleopatra. But if ever you find some interesting steps to document please [[share them with us|/contribute/talk]], so we can include them in the documentation.
+"""]]

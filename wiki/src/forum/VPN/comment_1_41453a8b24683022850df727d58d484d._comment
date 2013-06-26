@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-27T09:33:29Z"
- content="""
-Please add your use cases to the correct section of [[todo/vpn_support]]. If so, please elaborate on point 2 because it's unclear to me why you want to use a VPN at all in that situation.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-12T08:35:29Z"
- content="""
-How much RAM are you giving to this VM?
-Maybe try giving it more.
-"""]]

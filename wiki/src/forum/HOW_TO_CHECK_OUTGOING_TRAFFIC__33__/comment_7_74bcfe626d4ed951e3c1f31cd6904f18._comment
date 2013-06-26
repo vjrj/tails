@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Try not to use Facebook"
- date="2012-09-11T23:14:28Z"
- content="""
->Facebook has started blocking the profiles of users who are using TOR/TAILS due to constant change in IP address.
-
-Using Facebook is dangerous. It plants too many cookies, web bugs and tracking software when you are surfing.
-"""]]

@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-04-21T16:02:45Z"
+ content="""
+Regarding keeping separate, dedicated computers (Point # 5 in comment 9): Used, older laptops may provide a practical option. I got one a year ago on ebay for under $100.00 (U.S.) and I am impressed by how well it runs Tails. (1GB RAM, Pentium M @2GHZ).
+
+NewEgg regularly offers refurbished laptops with DualCore CPUs and 2GB of RAM for sale prices in the $200- range, such as this Dell currently available for $204-:
+`http://www.newegg.com/Product/Product.aspx?Item=9SIA2080P08410`
+
+Of course, when acquiring *used/second-hand* hardware, there is the concern of possibly greater risk of obtaining a system with a BIOS rootkit or other firmware infection.
+
+Perhaps someone could shed some light here-- including providing some info on how to check hardware for the presence of such infections.
+- - - - - - -
+The ideal setup would be to have *three* separate, discrete, systems:
+
+- One for *general*,  non-anonymous usage
+
+- One for *sensitive*, non-anonymous usage (such as financial transactions, anything involving the likes of a Social Security Number, etc.)
+
+- One for Tor/Tails usage
+"""]]
