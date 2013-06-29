@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 12"
+ date="2013-05-28T09:09:19Z"
+ content="""
+Tails has no screen locker feature yet, but it's on the TODO list.
+Tails has no timeout'n'logout feature, and it's not planned.
+So, what the OP is experiencing looks like a bug, unless someone else restarted the system entirely or just the X session.
+
+If they believe that's a bug, then please try to reproduce and [[report it|doc/first_steps/bug_reporting]], thanks!
+
+Thread closed.
+
+"""]]

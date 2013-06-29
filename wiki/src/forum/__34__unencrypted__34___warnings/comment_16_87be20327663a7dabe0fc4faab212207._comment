@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-06-05T14:10:21Z"
+ content="""
+@Comment 11
+
+>Firefox has had a bug they have been working on for a decade to fix the browser's response when displaying encrypted httpS/SSL pages which also contain content/elements that are from ordinary http connections. Such as sites that serve images or whatnot from a different server than the main SSL page that they don't bother to make an SSL connection with.
+
+Wikipedia does this. How is it a bug to notify the user that parts of the page are not encrypted with TLS or SSL?
+"""]]

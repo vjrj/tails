@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-06-19T21:48:06Z"
- content="""
-Confirming comment #2.
-
-BTW, this bug did NOT appear when I tried Tails 0.12-RC1, only with the final release. Another 64-bit laptop here.
-"""]]

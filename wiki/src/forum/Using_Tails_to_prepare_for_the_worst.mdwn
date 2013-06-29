@@ -1,0 +1,125 @@
+We live in an age in which the largest governments of the world have effectively declared open season upon all on-line citizens everywhere, in the name of pursuing illegal "cyber operations" which, they claim, are necessary for their own "national security" or "law enforcement" goals.
+
+Some citizens are already at severe risk:
+
+* leaders of opposition parties (for example, in Pakistan)
+* critics of some government policy (for example, environmentalists in Vietnam)
+* journalists and human rights workers working in countries experiencing civil conflict (for example, in Syria)
+* free-thinking bloggers (for example, in China)
+
+Such people unfortunately face a greatly elevated risk of imminent kidnapping, disappearance, or arrest, possibly followed by indefinite secret detention, rendition, or assassination.  Accordingly, they should prepare for the worst by ensuring that family and friends in a "safe country" (to the limited extent that such a happy place still exists) will know what to do if they vanish, die, or are kidnapped while "in country".  
+
+For example, citizens may wish to ensure that friends will know what to do in these circumstances:
+
+* in case of disappearance, whether to make a fuss or keep quiet (depending on circumstances one or the other may seem more likely to have positive results)
+* in case of kidnapping, whether to ask an employer or government to negotiate a ransom, to cooperate with local authorities, or to remain quiet
+* in case of disappearance, how to seize control of personal accounts (Facebook, LinkedIn, Twitter, Wikimedia, webfora) in order to change the password and (possibly) to announce the legitimate owner's plight to on-line acquaintances
+* in case of confirmed death, what musical selection to play at a memorial service
+* in case a body is recovered, what disposal of remains is desired
+
+Here is a scheme which uses Tails to address this problem by (mainly) technological means.
+
+To fix ideas, let's say that Frank is preparing to enter a dangerous region and wants to prepare for the worst.  Frank has a Tails 0.17.2 DVD, a computer, a printer, and some associates who are already "in country" and some family and friends who will be in a "safe country" for the duration of his mission.
+
+Further, Frank has done one of these:
+
+* arranged with his lawyer to keep an encrypted file on his behalf
+* set up an hidden service on some stable server running Tor (he must know its onion address)
+
+Suppose Frank has three trusted associates already "in country" and five trusted friends in a "safe country".  In what follows, this determines the "number of shares", 8, and the "threshold", 5.
+
+Frank next performs these actions:
+
+1. He boots Tails 0.17.2 from his DVD, and unfortunately right now he will need to give a root password which will be needed for one step because Tails does not currently include a certain useful Debian package
+
+3. He uses gedit to prepare a file called "break-glass", with key identifying information (full name, birthdate, national registration numbers), contact information for in-country lawyers, family members and friends, passwords for personal accounts, brokerage accounts, and instructions for various scenarios
+
+4. As amnesia, he runs
+
+       pwgen 8 20
+
+and arbitrarily picks and choose elements to make a lengthy unguessable "passphrase used once" which he should keep in his memory for a few minutes.  It is possible to keep the passphrase visible on his screen using
+
+      echo 'id8quaeX_lak6ethaez!KeegaiRoo.Roo1tiaj Eirchei+bohgio'
+
+But this presents a difficult-to-assess risk of someone using the techniques which TEMPEST methods attempt to foil, a risk which may be severe for someone such as a reporter sitting in a cubical at the Washington Post, for example.  In such cases it may be better to choose a long passphrase which is slightly more memorable but also slightly more guessable.  We hope the chance of random activists in "Western democratic nations" being subject to EMF surveillance is still small, but... only the intelligence agencies know how much of that they are doing to their dissident citizens.
+
+5. Frank encrypts the file break-glass using something like one of these commands, depending upon which cipher he plans to use: 
+
+       gpg --out break-glass.gpg -c --cipher-algo AES256 break-glass
+
+       gpg --out break-glass.gpg -c --cipher-algo TWOFISH break-glass
+
+       gpg --out break-glass.gpg -c --cipher-algo SERPENT break-glass
+
+Twofish is slightly faster than Rijndael (AES) for 256 bit keys, and is possibly more secure against some attacks; Serpent may also be more secure than AES but just possibly might not be available in some GPG or PGP implementations, so in case of doubt, use Rijndael.
+
+It is best to very carefully retype the passphrase (twice) because cut and paste puts Franks secret (the passphrase) in the clipboard, which can be and has been attacked, although we hope that because he is using Tails the risk is minimal.
+
+If at this point, Frank is thinking about *super-encrypting* an already encrypted file, that may not be a good idea.  By default the plaintext will be compressed and then encrypted, and the resulting file has a somewhat predictable beginning.  Re-encrypting such a file can have bad results.  And in some cases, encrypting a file with the same passphrase and algorithm twice can have particularly bad results.
+
+Encrypting an uncompressed file and then compressing the result is also a bad idea.  
+
+The basic problem here is that standard compression and cryptographic utilities tend to produce files with regular beginnings, which is generally not a desirable characteristic in a file you plan to encrypt.  A good encryption package will compress the plaintext before encryption, but will not use the customary headers which say something like "expect a gzip compressed file to follow me".
+
+6. Frank live installs into his Tails system a Debian package called ssss (Shamir's Secret Sharing Scheme) using
+
+       apg install ssss
+
+7. He runs
+
+       ssss-split -t 5 -n 8
+
+He will be prompted to enter a secret.  The plain text he enters as the secret text might consist of his lawyer's contact information or an onion address, followed by the encrypted passphrase.  Again, it is best to very carefully retype it rather than to cut and paste, but if Frank is bad typist, cut and paste might be better despite the (hopefully very small) risks, since he wants to make sure his friends can read his instructions if he disappears.
+
+The resulting output splits the secret into eight shares, each of which will be given to a different person.  The fourth share might look something like this:
+
+      4-a6615a89614d9a0120ff2e87c05fcae234e207fda54d26480e9ef01762b2298f0a7b33d36275930600c40ff36cdfaf3d75cd8557f2
+
+Now any five of the recipients will be able to combine their shares to recover the location of the encrypted file and its passphrase.  Since the file break_glass holds the keys to Franks life and death, it is essential that the threshold exceed the number of in-country associates (in our scenario, three) who each get one share.
+
+8. Just to dot another i, if he used echo, Frank now runs
+
+       clear
+
+to clear the pass-phrase from his screen, since that is definitely not something one wants to expose even one second longer than necessary, no matter how small the risk that a potential adversary will see it.
+
+Our hope is that from this moment on, the pass phrase itself is no longer available to anyone without combining five of the eight shares.
+
+9. Frank must now distribute the eight shares to eight different people.  This step is by far the most delicate and difficult.
+
+Because almost everyone is now subject to deep packet inspection (DPI) surveillance by ISPs and because "internet choke points" such as IXs are almost all subject to interception and long-term retention by national intelligence agencies, and because both ISP employees and national intelligence agency employees may collaborate with highly unethical third parties, it is essential not to send the shares by unencrypted email!  That could potentially expose Frank to identity theft or impersonation at the hands of a rogue ISP admin (or an intelligence agent moonlighting for a group which opposes Frank's agenda "in country"), since anyone who can reconstruct the secret will be able to find the encrypted file and decrypt it, whereupon they will be able to take control of all of Frank's on-line personal accounts, impersonate him, and generally do him great harm.
+
+There are several approaches Frank might take, and it may be wise to use different distribution methods for three subsets of the eight people to whom he will give one share each.  Frank can probably contact the eight by phone or encrypted email to arrange a method with each person.
+
+Here are some possibilities:
+
+* Frank may be able to hand a floppy disk or USB stick containing a share to a recipient
+* Frank can live install another Debian package, qrencode, to convert a share into a QR code which he can print on a large label, stick to a letter, and snail mail to a recipient in a safe country where he hopes "the authorities" don't yet routinely open personal mail sent from one citizen to another
+* Frank can send a share in an encrypted email to a recipient who uses encrypted email
+* Frank can use a VOIP application to read out a share over the phone
+* Frank can live install a steganographic package such as steghide or outguess and hide the share in a humorous photo of a pet or family member, and email it to a recipient
+
+Recipients need to understand that while the shares are individually harmless, they must be kept secret because anyone who recombines any five of them will obtain the keys to Frank's entire life.  But the in-country recipients need not hesitate to give up the hiding place of their share if they are captured and face torture, since they know that three shares are not enough to recover the secret.
+
+10. Once all the shares have been sent on their way, Frank shuts down Tails, which should wipe all traces even from RAM of the passphrase and even of the shares, which have already been sent on their way or distributed to other media which we hope will be kept securely.
+
+11. Once Frank is "in-country", should he vanish, the value of all this preparation becomes clear.  In this situation, share holders should confer about what they know about the situation (if possible, by encrypted communications) in order to decide whether or not to break the glass.  
+
+Franks "in-country" confederates are in the best position to learn more, but are also themselves at great risk, but even if they all also vanish, there remain enough share holders in "safe" countries to decide whether or not to break the glass.   
+
+If five or more share holders decide to break the glass, they can (very carefully and securely) forward their shares to some person (maybe Frank's lawyer) who runs
+
+       ssss-combine -t 5
+
+and then enters the five shares as prompted, in any order.  The output is the secret (the long unguessable passphrase which decrypts the file break-glass.gpg, which yields the file containing the keys to Frank's life and his instructions in case of disaster).
+
+Note that the above scheme is also ideal for anyone preparing for a possible natural disaster, although few such people (unfortunately) will probably see the need for following an "elaborate" secret-sharing scheme, because they do not adequately appreciate the extraordinary risks inherent in widely distributing the keys to their life in an encrypted file containing such extraordinarily dangerous information.
+
+(Apparently the US government is urging its citizens to prepare for natural disasters by emailing the keys to their lives to friends and family members.  The intent may or may not be good, but the effect is to hand the keys to the lives of all US citizens to anyone who can access certain US government databases.  This may be more a case of the collective stupidity than a nefarious NSA scheme.  For many decades the US military actually printed unencrypted Social Security numbers on certain identification cards, so the USG is certainly capable of acts of extraordinarily self-destructive stupidity.  Still, the spectacle of the USG urging its citizens to voluntarily share with their government more and more information about their innermost lives raises questions.  Such demands may appear particularly inappropriate in an era when a large fraction of the American population has become alienated by ill-considered oppressive actions of or policies followed by their government, to the point where, according to one study recently published by an American university, one third of American adults now expect a major armed insurrection to occur inside the USA within the next few years.  If that's true, citizens who decline to voluntarily divulge the keys to their lives may well be considered by the USG to have failed some disguised loyalty test, possibly with dire consequences for those citizens who feel that giving up any remaining shreds of privacy is not consistent with living in a free society.)
+
+Similar secret-sharing schemes are also valuable in other contexts:
+
+* A leaker may want to ensure that either reporters from three different newspapers all publish his or her leak, or that no-one even learns what is contained in the leak
+* The leaders of an opposition party may want to distribute a secret which will not be compromised even if a few of them are arrested and tortured
+* The officers of nuclear ballistic missile submarines... yuk, yuk, yuk ... (I suppose we can all only hope they never combine such a secret)

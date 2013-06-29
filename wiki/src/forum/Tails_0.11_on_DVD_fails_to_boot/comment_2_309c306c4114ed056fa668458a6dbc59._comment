@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Trying Tails 0.11 DVD on other computer"
- date="2012-05-17T15:40:27Z"
- content="""
-Yes I tried. On an Aspire4736Z (Intel T4500, Intel GMA 4500M, 3GB RAM) it would boot to a black desktop, on an Dell inspiron N4050 (Intel i3, Intel HD Graphics 3000, 4GB RAM) it would just boot the way it's supposed to.
-
-*My 5 years old TM too old for Tails?* :-(
-"""]]

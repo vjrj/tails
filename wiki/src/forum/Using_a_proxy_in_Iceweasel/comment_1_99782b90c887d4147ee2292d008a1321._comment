@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-06T09:23:36Z"
+ content="""
+First of all, Tails uses the FoxyProxy Iceweasel extension for dealing with proxies, so don't use the Iceweasel proxy preferences. Second, see [[the design page for our firewall configuration|contribute/design/Tor_enforcement/Network_filter]]; in short, what you want to do is not supported, and will be blocked (except if the proxy is located on the LAN).
+"""]]

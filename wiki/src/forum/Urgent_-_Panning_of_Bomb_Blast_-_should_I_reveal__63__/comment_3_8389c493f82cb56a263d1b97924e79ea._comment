@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Then VPN is better"
+ date="2013-05-08T11:58:26Z"
+ content="""
+In that case VPN is much better or the best bet because they remove the logs and IP addresses after 7-10 days leaving no trail of the users. But in case of Tails logs can not be removed because it has no control over the ISPs which it uses.
+"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Acer boot failure"
- date="2012-08-25T06:34:43Z"
- content="""
-I have an Acer Aspire Laptop and when I try to boot tails either in Live or Live (Safe Mode) it shows that bar and it loads all the way, however, my screen also goes completely black and there's no way out of it except for the power button....huge bummer as tails is an awesome OS and just the one I need at this moment in time.
-"""]]

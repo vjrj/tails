@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-04T16:28:12Z"
+ content="""
+> US TLAs seemed to prefer Microsoft software or Nix,
+
+Should be \"prefer Microsoft software *to* Nix\", where an asterisk has been deleted to avoid confusing Markdown (the forum software).
+"""]]

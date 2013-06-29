@@ -1,4 +1,0 @@
-I installed the tails 0.11 iso image to a DVD+R so I can install the persistence on a usb. I'm wondering if anyone has any idea why this won't boot. It could be my DVD, but I checked and it seems to be in fair condition.
-
- I tried restarting from windows 7 and from SYSlinux. The result is the loading bar at the bottom of the screen seems to take a very long time to load. Then the screen displays the runlevels and the screen goes black and stays black. Also noted, the display of text seems too large for the screen when the console is loading.
-

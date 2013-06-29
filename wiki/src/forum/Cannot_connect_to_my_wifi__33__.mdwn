@@ -1,0 +1,3 @@
+Greetings, 
+I've been encountering trouble with connecting to my wifi through tails. I have recently discovered the art of using rfkill and have so far successfully hard and soft unblocked all through rfkill and tails says that wifi is enabled and gives me the option to connect to my wifi, but when i try to connect, it spends a few seconds trying to connect and then just gives up and says "disconnected". Please help, I've exhausted all attempts!
+Thank you all, any help is appreciated

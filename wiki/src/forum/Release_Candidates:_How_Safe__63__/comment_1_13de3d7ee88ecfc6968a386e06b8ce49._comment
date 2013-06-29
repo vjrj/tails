@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-08T14:37:17Z"
+ content="""
+> Even critical ones that could unmask a user?
+
+While unlikely, sure.
+
+> Should release candidates not be used for anything one wouldn't do on a normal OS/ straight connection?
+
+The purpose of the release candidates is only to *test* Tails' features, old and new, so we don't recommand any sensitive activity.
+"""]]

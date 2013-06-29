@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Some HTTPS-sites won't work with web proxies"
- date="2012-07-26T22:17:59Z"
- content="""
-How to set up a web-proxy that can be used with Tor and HTTPS-sites?
-"""]]

@@ -1,0 +1,5 @@
+I'm trying out Tails and had it running in VM, did a check on IP-check.info, first it says I'm not using Tor, the more indepth test actually reveal my VPN provider (VPN running on host), it wasn't the exact same IP I got when I do IP-check on my host but it's from the same net provider. I'm not able to reproduce it but it definitely happened. 
+
+Maybe my VPN is doing something to track my traffic? In the IP-check result page, VPN's IP shown as proxy and I also had another IP (which I assume was Tor). I should also mention that when it happened I had another tab connected to a hidden service, so I know I was on the Tor network. 
+
+Please can someone tell me what happened there? Was it a VM problem or VPN? Is it possible for a VPN to track its user's traffic?

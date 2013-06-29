@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-06-04T08:07:24Z"
+ content="""
+I have been getting alot of \"unencrypted connection\" messages since 0.18.  Most likely due to the new Firefox version.  Has anyone tested to see if the connections are encrypted or not?
+"""]]

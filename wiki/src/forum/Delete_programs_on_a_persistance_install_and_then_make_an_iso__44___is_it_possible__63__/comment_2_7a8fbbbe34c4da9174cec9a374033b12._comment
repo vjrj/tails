@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-10T23:43:42Z"
+ content="""
+I am not the original poster, but I would like to setup a web development workstation using tails.
+I am not so much concerned about the amnesiac utility as having all network traffic pass through Tor. 
+"""]]

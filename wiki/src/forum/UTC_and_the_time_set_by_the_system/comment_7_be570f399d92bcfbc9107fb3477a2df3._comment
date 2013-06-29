@@ -1,0 +1,32 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-14T10:38:30Z"
+ content="""
+It looks like you have identified where the problem lies. 
+>How did you install Tails?
+
+The machine _without_ the problem was booted from a CD with only Tails on it. The machine with the problem was booted from a multiboot USB stick (with many Linux distributions, including Tails) created using Windows YUMI-0.0.9.5.exe. 
+
+>May you please show us the output of cat /proc/cmdline?
+
+From the machine with the problem, the output of /proc/cmdline is
+
+    timezone=America/Detroit initrd=/multiboot/tails/live/initrd.img boot=live config live-media=removable live-media-path=/multiboot/tails/live nopersistent noprompt quiet block.events_dfl_poll_msecs=1000 module=Tails splash nox11autologin quiet BOOT_IMAGE=/multiboot/tails/live/vmlinuz
+
+On the multiboot USB flashdrive, it is the file \"./multiboot/menu/tails.cfg\"  that contains lines reading
+
+    label live
+
+    menu label ^Run T(A)ILS (Failsafe)
+
+    kernel /multiboot/tails/live/vmlinuz
+
+    append timezone=Etc/UTC initrd=/multiboot/tails/live/initrd.img boot=live config live-media=removable live-media-path=/multiboot/tails/live nopersistent noprompt quiet block.events_dfl_poll_msecs=1000 module=Tails splash nox11autologin noapic noapm nodma nomce nolapic nomodeset nosmp vga=normal
+
+So! It looks like YUMI is messing up the installation and that there is no bug with Tails itself. (Right?) If I manually edit the tails.cfg file to change the words to timezone=Etc/UTC, everything works as it should. But, now I have two questions.
+ 
+* Who will tell the YUMI creator? Should I?
+* Please can you tell me where I can find instructions for a better method of installing to USB?
+
+"""]]

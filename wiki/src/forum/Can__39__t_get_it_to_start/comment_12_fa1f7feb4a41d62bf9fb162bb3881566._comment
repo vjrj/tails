@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-05-23T16:15:12Z"
+ content="""
+Hi. I am a first time TAILS user and can't get my laptop to BOOT into Tails.
+
+1. Sony Vaio Laptop
+2. Windows Vista Ultimate
+3. Intel Core Duo CPU T6400 2GHZ 4GB RAM, 32 bit.
+4. Using live USB
+
+ - how to I go to boot mangager in BIOS to select boot from USB?
+- also confused as to how use Oracle Virtualbox. Note, I am not using Virtualbox just yet to start booting Tails.
+
+any hel please?
+"""]]

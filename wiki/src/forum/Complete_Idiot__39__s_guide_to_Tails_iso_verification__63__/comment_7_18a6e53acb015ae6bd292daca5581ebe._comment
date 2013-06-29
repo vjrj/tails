@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I Fail"
+ date="2013-05-19T23:42:15Z"
+ content="""
+after using the command [gpg --verify tails-i386-0.16.iso.pgp tails-i386-0.16/tails-i386-0.16.iso]
+on ubuntu 12.1 i get the following error
+
+gpg: can't open `tails-i386-0.16.iso.pgp'
+gpg: verify signatures failed: file open error
+
+any idea of what i need to do to be able to verify?
+"""]]

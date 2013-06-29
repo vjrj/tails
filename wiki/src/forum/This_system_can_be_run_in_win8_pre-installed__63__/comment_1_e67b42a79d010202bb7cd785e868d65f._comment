@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-04T16:03:36Z"
+ content="""
+If I read this \"todo\" item correctly
+
+      https://tails.boum.org/todo/UEFI/
+
+it seems that a version of Tails which can overcome UEFI will appear eventually, but that currently you may not be able to use Tails on a machine which gives you that error, at least not without doing some research on your own.  Tails is closely based upon Debian linux, and I have heard that the Linux Foundation offers workarounds for people who encounter problems related to UEFI while trying to boot linux.  So you might look into that.
+"""]]

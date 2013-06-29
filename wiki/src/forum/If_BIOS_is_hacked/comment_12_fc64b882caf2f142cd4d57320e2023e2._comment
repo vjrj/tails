@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-05-11T13:46:34Z"
+ content="""
+It's not possible to boot a sd card without firmware. You always need some kind of minimal firmware. Coreboot is the closest thing and its open source.
+
+Programming firmware is so complicated, how can YOU confirm that the producer didn't include a backdoor or how MUCH are you willing to pay someone to check that there is no backdoor?
+
+What about [CPU backdoors](http://theinvisiblethings.blogspot.com/2009/06/more-thoughts-on-cpu-backdoors.html)?
+
+Forget about it. There is no such thing as [trusted hardware](http://theinvisiblethings.blogspot.com/2009/03/trusting-hardware.html). Not even for the military. It is a problem for military that their hardware comes from china.
+"""]]

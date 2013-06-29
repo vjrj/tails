@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-12T09:38:30Z"
+ content="""
+If this is after Tails have synced the clock, and you have verified against a timezone website that the clock is set to something that is not UTC, then it is definitely a bug that you should report.
+
+You may also want to check your clock settings in other operating systems you are using, as it sounds like they are messing with the clock. If they didn't your clock would never be off by whole timezones.
+
+But Tails should still have been able to sync it correctly...
+"""]]

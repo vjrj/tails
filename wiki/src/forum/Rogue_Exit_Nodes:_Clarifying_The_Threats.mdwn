@@ -1,0 +1,39 @@
+Rogue Exit Nodes: Clarifying The Risks
+
+*NOTE: While admittedly more about how Tor itself functions than about Tails, per se, the questions and concerns I raise below nonetheless would seem absolutely basic, fundamental and critical to nearly every user of Tails. Thus, I contend that,
+a) a post such as this can only be considered fitting and appropriate 
+and,
+b)it is nothing less-than-imperative that the Tails (as well as Tor) documentation address these issues clearly, directly and explicitly* 
+
+I've read the warnings and a fair bit of both the Tails as well as Tor documentation. I understand that the use of HTTP**S**/SSL, whenever possible, is highly advised. (hence the  inclusion of the "HTTPS-Everywhere" browser extension in both Tails as well as Tor Browser Bundle.)[1]
+
+The simple fact remains, however, that most sites on the World Wide Web are still completely *unencrypted* HTT**P**. Obviously, sensitive data should never be submitted over such a connection-- even when not using Tor. (But all the more so when using Tor.) And *when using Tor*, this warning extends to data that may merely be *identifying*, even if not *sensitive* **per se**. That much I get. 
+
+But what about merely **viewing** content on unencrypted HTTP sites over Tor? 
+
+I can think of three possible threats that rogue exit nodes may present here and **I would like to get some idea of how realistic and considerable each of them is**.
+
+1.) **Stealth Altering of Content on Pages**
+
+Articles, for example, could have critical details changed but in a subtle enough way so that most people would not notice. 
+
+2.) **Injection of Malicious Code Into Pages**
+
+I already know that this is a risk that must be taken into account when it comes to visiting any less-than-fully-trusted site. This is true whether one is using Tor or any other network. When using Tor, however, even when visiting sites that themselves are fully-trusted (or, perhaps better-stated, *appear* to be fully-trusted), one can still be a victim of malicious code *injected by an _exit node_*. While this risk can be *considerably* reduced by disabling JavaScript, doing so comes with its own set of problems. (See [[JavaScript and NoScript]] )    
+
+3.) **De-Anonymization Through Eavesdropping**
+
+It seems fairly obvious that being able to see a user's traffic could be quite helpful in various types of correlation attacks. On the other hand, by the time an attacker would be in realistic reach of successfully identifying someone with any reasonable degree of accuracy through such correlation, wouldn't it already be rather late in the game?
+
+Additionally, my understanding is that HTTPS/SSL does not hide which *sites* or at least *domains* you visit but only your *specific* traffic at any given site. I.e., which pages you view, which files you download, and surely (and most importantly) any data *submitted* through the encrypted connection. 
+
+For example, my current exit node would be able to see that I'm connected to the domain boum.org but nothing more; not which *pages* I've visited nor even that they were on the tails *subdomain* of boum.org. (And, of course, not any of the text I've submitted to the forum or any of the search queries that I submitted here on the Tails web site-- assuming, of course, that my SSL connection to tails.boum.org has not, unbeknownst to me, been compromised in any way).  
+
+Is this correct?
+
+If it is, then even when using HTTPS/SSL, certain basic traffic patterns would still be detectable, albeit far less specific and more limited that that which could be seen when such encryption is not used. 
+
+Remember that each of the above cases concern the mere *viewing* of data but not *submitting* of data (whether  posting text or files or submitting log-in credentials).
+
+NOTES:
+[1]I must point-out, though, that the certificate authority trust model that SSL depends upon in its current form has been repeatedly shown to be highly vulnerable. This has been widely noted, not the least of whom by Tails devs as well as users in various posts that can be found throughout this forum. See, for example, [[Rogue SSL Certs in the Wild AGAIN!]] And I'm afraid that the ["Warning" about this](https://tails.boum.org/doc/about/warning/index.en.html#index3h1) in the [Tails documentation](https://tails.boum.org/doc/index.en.html) is inconclusive and even somewhat self-contradictory. But that's a whole other topic unto itself.)

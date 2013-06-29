@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-11T10:06:52Z"
+ content="""
+Hi again, I'm the publisher. I want a lightweight system with only a few apps, such printing, web browser and capable to save some files encrypted in persistence. For things like online banking anywhere with my usb, booting as fast as posible (having in mind that plymouth make the boot slowly). I think that tails is the distro I need, but I want to custom it a little bit, if possible.
+
+Regards.
+"""]]

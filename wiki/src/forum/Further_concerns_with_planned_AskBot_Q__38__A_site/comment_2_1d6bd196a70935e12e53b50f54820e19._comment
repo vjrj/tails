@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 2"
+ date="2013-05-30T12:00:29Z"
+ content="""
+@ OP:
+
+> AskBot requires user registration, which means the software keeps user data tied to username/password to logins and post timestamps (which can potentially leak geolocation information), which practically screams to our adversaries \"hack me!\"
+
+As was explained in great detail in [this post](https://tails.boum.org/forum/ask.torproject.org__47__questions__47___new_alpha_testing_Q__38__A_forum__63__/#comment-072810b86a0614422dc0ded724cb5aa1), you can register a throw-away account (using a *non-existing* email address that *won't be verified*), which eliminates all problems with user registration.
+
+> AskBot requires that users enable JavaScript (not to be confused with Java) in their browser
+
+JavaScript is only required for some convenience features, like instant search results, instant post preview, and the rich text controls in the editor. Reading, posting and searching without JavaScript is possible (and was a requirement for us, Tails, to even consider AskBot).
+
+> if there is a policy at https://ask.torproject.org/privacy/ I can't see it, although that might well be due to disabling Javascript.
+
+It's really empty, so it's not a JavaScript issue.
+
+> as \"Tails\" notes, AskBot has \"many dependencies outside Debian\", which seems likely to lead to security vulnerabilities owing to failure to discover and patch problems in non-Debian software
+
+This is indeed very unfortunate, but with proper, reactive system administration this don't have to become less secure, but it means more maintenance work, however.
+
+> My own bottom-line requirements include:
+
+> user registration not required
+
+> Javascript not required
+
+Great! Let me send you an early welcome to the future Tor/Tails Q&A forum [once you realize that throw-away accounts make the user registration requirement harmless]!
+
+@ Forums without registration requirement:
+
+We are (well, were) not looking for normal forum software, but a Q&A system with answer up/down voting and account reputation. Our hopes is that the latter two features will offload some of the current user support burden from us Tails developers to the Tails community, so we can focus more on Tails development. 
+"""]]

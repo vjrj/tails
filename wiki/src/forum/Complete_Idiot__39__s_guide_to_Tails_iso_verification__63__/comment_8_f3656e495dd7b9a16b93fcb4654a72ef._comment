@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-05-20T07:12:33Z"
+ content="""
+I think that \"file open error\" means that the path to the file you want to check is incorrect.
+
+You first have to browse to the folder where the .ISO and .PGP files are.
+
+For example
+
+`cd /home/YOU/Downloads`
+
+Then: gpg --verify tails-i386-0.1**8**.iso.pgp tails-i386-0.1**8**.iso (Note the 0.1**8** instead of 0.16)
+
+Do you think something could be improved in the [[documentation page|doc/get/verify_the_iso_image_using_the_command_line/]] ?
+
+Cheers, tom
+"""]]
