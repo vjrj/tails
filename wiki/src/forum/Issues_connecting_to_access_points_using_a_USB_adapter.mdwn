@@ -1,5 +1,0 @@
-So I've run into a very weird issue with Tails. I want to use my AWUS036H USB adapter (which uses the rtl8187 driver) for making connections since it's a lot more powerful than my internal wifi device. And when I plug it in the LED lights up and I can see access points with it. Problem is, if I try to connect to any access points I'll either time-out or, if I do make a connection, the clock will never update and Tor will thus not be available. I've had a couple of times where I was able to connect and sync the clock and Tor worked for a few page browses but then stopped. All in all it seems like I'm getting very weak reception even though I have strong signals (3/4 bars).
-
-What's odd is that my internal antenna works fine, even though it's much weaker. That's an Intel WiFi link 5100 which if I remember correctly uses Iwfl drivers. However, I've noticed that if I have the AWUS036H plugged in I often (but not always) have similar issues with the Intel card as well.
-
-Does anyone have any idea what's going on and how to fix it?

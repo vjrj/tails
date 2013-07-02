@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="LAN works for me"
+ date="2013-05-20T11:14:44Z"
+ content="""
+I also find it VERY annoying that the shared folders are no longer accessible. 
+
+But at least my host is running ubuntu; so I just needed to install openssh-server in order to enable \"scp\" from the virtual machine to my real system.
+
+I assume, that there is also some kind of ssh daemon available for windows. If so, you can run
+scp something.local.in.vbox username@IP:/new.name
+
+where IP would be the IP address of your host machine. 
+"""]]

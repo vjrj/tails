@@ -1,0 +1,75 @@
+**TLDR;**
+
+*Make Iceweasel less annoying. simply cut and paste in a terminal, hit enter, and then close and reopen Iceweasel*
+
+    sed -i -e 's/security.warn_leaving_secure\", true/security.warn_leaving_secure\", false/' -e 's/security.warn_submit_insecure\", true/security.warn_submit_insecure\", false/' ~/.mozilla/firefox/default/user.js && echo 'user_pref("browser.fixup.alternate.enabled", false);' >> ~/.mozilla/firefox/default/user.js && echo 'user_pref("browser.chrome.site_icons", false);' >> ~/.mozilla/firefox/default/user.js
+
+*Happy Browsing :)*
+
+---
+
+####For the Curious.
+
+This post addresses the following issues with Iceweasel in Tails 18.
+
+#####annoying popups:
+
+<https://tails.boum.org/forum/__34__unencrypted__34___warnings/>
+
+#####prepending www to onion links:
+
+<https://tails.boum.org/forum/Firefox_adding_www_to_onion_links/>
+
+#####favicons enabled:
+
+<https://tails.boum.org/forum/favicons_back_-_please_disable_them_in_next_version/>
+
+#####Please note if you have already run the code above:
+
+*all the necessary settings are set. You do not need to run the code below.*
+
+####Lets disable the annoying popups:
+
+*security.warn_leaving_secure and security.warn_submit_insecure have already been set in user.js. To change the value from true to false without changing anything else in the file we use sed.*
+
+#####security.warn_leaving_secure
+
+    sed -i -e 's/security.warn_leaving_secure\", true/security.warn_leaving_secure\", false/' ~/.mozilla/firefox/default/user.js
+
+#####security.warn_submit_insecure
+
+    sed -i -e 's/security.warn_submit_insecure\", true/security.warn_submit_insecure\", false/' ~/.mozilla/firefox/default/user.js
+
+*The rest of our settings are not in user.js so we just add them to the end.*
+
+####Now lets disable the alternate prefixing:
+
+    echo 'user_pref("browser.fixup.alternate.enabled", false);' >> ~/.mozilla/firefox/default/user.js
+
+####Favicons:
+
+*Two of the three settings related to this have been set by Tails, this one must have been missed by accident.*
+
+    echo 'user_pref("browser.chrome.site_icons", false);' >> ~/.mozilla/firefox/default/user.js
+
+####verification:
+
+    tail ~/.moz*/f*/d*/user.js
+
+Or
+
+1. open iceweasel
+
+2. type about:config in the address bar 
+
+3. agree not to break anything
+
+4. use the search bar at the top to search for:
+
+#####security.warn
+
+#####fixup.alternate
+
+#####browser.chrome
+
+and check to see that they match the new settings.

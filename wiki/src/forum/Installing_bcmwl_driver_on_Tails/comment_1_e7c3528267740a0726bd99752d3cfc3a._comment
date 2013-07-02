@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-03T16:13:46Z"
+ content="""
+This driver should be available in Debian broadcom-sta-dkms package. Installing this is certainly not a task a GNU/Linux newbie would find easy, nor one that can be described concisely for this audience.
+
+May you please describe the actual problem you're trying to fix with this solution? There may be an easier one.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-16T16:58:07Z"
+ content="""
+@ Tails
+
+>Also, this forum is not the right place to post security announces, especially super-well-know ones that already had their CVE and DSA published.
+
+OK. I will comply with your directive.
+
+BTW how do we mitigate or work around the bug when we use the current version 0.17.2?
+
+Please advise. We really need it.
+"""]]

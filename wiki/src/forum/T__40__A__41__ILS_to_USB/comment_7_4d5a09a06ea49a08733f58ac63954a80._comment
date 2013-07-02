@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Installing to USB"
- date="2010-08-16T03:59:15Z"
- content="""
-Will anyone please clarify how to install to USB?  The documentation appears to give instructions to install from KDE, but the LiveCD is Gnome???  I tried the Fedora Live USB Creator with the LiveCD iso, but it wouldn't boot.
-"""]]

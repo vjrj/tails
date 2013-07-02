@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-06-07T09:11:53Z"
+ content="""
+> StartPage is supposed to get all its results directly from Google. 
+
+True, but doesn't StartPage require javascript to be enabled in order to click/go/move beyond one search page?
+
+IMO aol.com's search engine is better because I can surf it with javascript disabled and move through several pages with Google power. However, it has no SSL support...
+
+So some users would rather use DuckDuckGo which has SSL support and an .onion hidden service. But DuckDuckGo results aren't that great IMO... You can search Google via DuckDuckGo but you might hit that error page for Tor users as it drops you into Google's search engine.
+
+Recommend a search engine which uses Google results and works well with javascript disabled, unlike StartPage.
+
+The only good service StartPage offers for me is their free Proxy service... And when StartMail is available via StartPage, it might be another good service from StartPage.
+"""]]

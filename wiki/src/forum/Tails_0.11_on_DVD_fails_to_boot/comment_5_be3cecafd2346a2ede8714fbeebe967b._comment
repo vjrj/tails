@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Correct kernel-parameter"
- date="2012-06-02T00:36:10Z"
- content="""
-Sorry for the typo..
-
-OF COURSE **\"firewire_ohci.blacklist=yes\"**..
-"""]]

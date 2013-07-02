@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Mac OS X 10.7.3"
- date="2012-05-01T20:18:29Z"
- content="""
-I just succeeded in booting Tails 0.11 on a MacBook Air running Mac OS X 10.7.3 using Unetbootin. I can confirm rEFIt isn't able to detect Tails, even with the right partition type (FAT) and GUID activated. Of course it would be better not to require any additional software in order to boot Tails, but at least it's running now.
-
-The only big issue that remains now for Apple devices is the screen distortion as reported on https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-video-nouveau/+bug/898784.
-"""]]

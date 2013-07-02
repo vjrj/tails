@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Bootflag didn't work"
- date="2012-05-01T09:11:59Z"
- content="""
-I set the boot flag using Gparted and it didn't help at all.  I can boot with other programs but Tails isn't working for me.  
-"""]]

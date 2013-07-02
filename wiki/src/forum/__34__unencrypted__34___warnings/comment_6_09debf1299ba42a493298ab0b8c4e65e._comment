@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 6"
+ date="2013-05-22T08:15:21Z"
+ content="""
+Hidden services provide encryption on the network level through Tor, but that doesn't mean that there is HTTPS encryption from the browser point of view. So you might browse an hidden service with plain HTTP, but still the network traffic is encrypted by Tor. So the browser might site warn you about HTTPS encryption issues. If some behavior changed from previous Tails versions, that's probably relate to the new browser version.
+"""]]

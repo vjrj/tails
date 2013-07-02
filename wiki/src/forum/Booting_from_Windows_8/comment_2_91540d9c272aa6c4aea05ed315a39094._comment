@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-10T00:36:45Z"
+ content="""
+@ OP:
+
+Welcome to the forum!
+
+Commentator 1 sounds somewhat grumpy, but it is true that Tails provides a entire computing system (kernel, operating system, and other software) which is entirely independent of Windows or any other OS you have installed on the hard drive of the computer which you rebooted using Tails.
+
+The defining characteristic of Tails is that it tries to provide an *amnesiac* system, so that your computer won't \"remember\" anything about what you did after you shut the computer down.
+
+As to your problem trying to boot Tails, I guess this might be related to the fact (and someone please correct me if I am wrong) that Windows 8 is installed with UEFI keys, so you may not be able to boot using an OS other than Windows 8.
+
+I hear that there is a way to obtain valie UEFI keys from linux.org which enable people to boot \"Windows 8\" machines using Linux systems like Tails, but I haven't tried this and know very little about it.  I hope someone who does will help out!
+ 
+"""]]

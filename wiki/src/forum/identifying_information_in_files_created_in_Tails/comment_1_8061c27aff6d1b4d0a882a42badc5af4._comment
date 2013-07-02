@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-07T15:04:30Z"
+ content="""
+    amnesia@amnesia:~$ whoami ; touch myself ; ls -l myself ; rm myself
+"""]]

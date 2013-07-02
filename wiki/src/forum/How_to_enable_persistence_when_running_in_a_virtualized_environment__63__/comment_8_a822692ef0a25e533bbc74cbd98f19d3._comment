@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 8"
+ date="2013-05-13T01:07:21Z"
+ content="""
+> How to enable persistence when running in a virtualized environment? 
+
+Nothing special from Tails' perspective, but to get there you need certain features in your virtualization software:
+* support for USB storage (either completely virtual ones, or real, physical ones that you forward)
+* boot from USB storage
+Then you just follow the same steps as you would with real hardware, e.g. first boot from a Tauils DVD, install Tails to the USB drive, eject the DVD, reboot.
+
+> Ideally I would like to run tails from a CD image under a virtual machine and link the running instance to a seperate persistance store.
+
+If I understand you correctly, this is not supported (at least so far; see: [[todo/persistence:_support_DVD]]).
+"""]]

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="SamWilliams"
- ip="127.0.0.1"
- subject="TAILS ON THUMB DRIVE IN MACBOOK"
- date="2012-10-20T22:51:21Z"
- content="""
-Same problem.  Tails down loaded to MacBook and then burned onto DVD, DVD will reboot the MacBook.  With that Tails boot successfully running on my MacBook I then follow the instructions to place a copy onto a thumb drive which appears successful.  Again rebooting, but from thumb drive, MacBook claims thumb drive is not formated properly. MacBook will see the drive when formatted from it's drive utility but instaling Tails on the thumb drive distroys that formatting rendering the drive again unreadable.
-"""]]

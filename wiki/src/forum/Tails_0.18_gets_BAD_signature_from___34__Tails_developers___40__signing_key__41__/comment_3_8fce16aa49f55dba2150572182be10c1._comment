@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Poster above again"
+ date="2013-05-19T04:03:29Z"
+ content="""
+Here's the sha256sum in case anyone else has the same error:
+
+sha256sum tails-i386-0.18.iso
+9f3c9b4d6d8b7edc718579aa85133ee2003c56a2657be46f0ca6b329964e3fad  tails-i386-0.18.iso
+"""]]

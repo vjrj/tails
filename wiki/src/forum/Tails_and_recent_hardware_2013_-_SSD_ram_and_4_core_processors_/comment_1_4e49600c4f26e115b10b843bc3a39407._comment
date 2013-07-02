@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-01T12:47:43Z"
+ content="""
+> Does Tails make use of newest generation of processors?
+
+As much as the Debian Linux kernel, compiled for 686-pae, does.
+
+> Can it run with SSD ram?
+
+Do you mean non-volatile main memory, or something else?
+
+"""]]

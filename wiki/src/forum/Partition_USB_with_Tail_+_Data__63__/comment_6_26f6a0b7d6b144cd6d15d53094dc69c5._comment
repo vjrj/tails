@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2013-01-25T20:09:12Z"
- content="""
-The problem is that windows only reads the first partition of usb key and doesn't decrypt LUKS (in native)... So, I guess the idea of making a dedicated partition for storage have still it interest. 
-
-Probably a such usage and partition of the key is in contradiction with the Tails' aims ; however, as far as I understand, the popularisation of this distribution contributes to anonymize it. So making a such bi-partitions (tails + data) possible will lead me and other few guys to use Tails. Well, I hope are my sentences are understandable... 
-"""]]

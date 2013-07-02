@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-30T16:23:15Z"
+ content="""
+everything that comes after | grep sphere is the output of the command.
+kill the corresponding pid
+"""]]

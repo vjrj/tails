@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-13T02:17:34Z"
+ content="""
+I've found that there sometimes can be a little lag between when the clock-syncing *appears* to have completed (and the Vidalia icon has turned green and Iceweasel has opened and loaded the tails.boum.org/news home page) and the *displayed* time actually turns to UTC. Perhaps as much as a minute or so.
+"""]]

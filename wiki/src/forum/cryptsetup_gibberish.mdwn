@@ -1,0 +1,5 @@
+# cryptsetup luksOpen /media/disk/liberte.vol liberte
+Cannot open device /media/disk/liberte.vol for read-only access.
+
+
+  WTF?. Is there any way normal humans can open and use otfe volumes?  

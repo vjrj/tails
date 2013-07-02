@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Still nothing"
- date="2012-05-01T07:09:09Z"
- content="""
-I tried so many times last night to get this working.  I don't understand why it will boot just fine in VMware Workstation but not my computer.  Of course I have it setup to boot from USB first (and I would get frustrated enough to remove the HDD and DVD drive from the list of possible boot devices).  I've never used any type of Linux OS before.  Some have .bin files that loads things, others seem to have nothing.  I just don't know what's missing here.  Every time I've made a bootable USB drive before it was pretty simple: toss the files onto the drive, restart, success.  
-"""]]

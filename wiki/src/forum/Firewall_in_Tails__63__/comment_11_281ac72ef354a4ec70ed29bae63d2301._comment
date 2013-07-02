@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-05-05T17:22:39Z"
+ content="""
+> Also important (especially if you usually enable a root password, or if you use a persistent Tails) is to ensure your shadow file is well protected. Here Tails could do better by using SHA-512 hashing with a huge number of rounds. Even better if you change to your own huge and unpredictable number of rounds, I think. 
+
+Data point: an attacker who can read `/etc/shadow` is *root*, so
+there's little more they can get by guessing your administration
+password. So, a better hash function would only help if you
+re-use your Tails root password elsewhere.
+
+Tails does not try to protect (yet) anything against an attacker who has gained root privileges.
+
+"""]]

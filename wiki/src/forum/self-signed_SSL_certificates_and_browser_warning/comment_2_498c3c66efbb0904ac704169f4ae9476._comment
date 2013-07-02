@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-27T19:53:44Z"
+ content="""
+1.) *Self-signed* certs should have *always* triggered a warning (both in Tails and in any just about browser that isn't ridiculously outdated).
+
+To the best of my knowledge and experience so far, the warning messages that are new for Tails 0.18 concern:
+1.) Merely navigating from an HTTPS to an HTTP page
+and
+2.) Submitting form data over a non-HTTPS (and perhaps \"mixed content\" as well) page. 
+
+
+"""]]

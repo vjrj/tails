@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2013-04-27T21:39:34Z"
- content="""
-Look dude:  a remote attacker has to get into your system first.  If you're not running any services that are exposed to the fucking internet(rememeber there's iptables and your router in between you and them), and they can't physically plant a trojan on your system somehow (ie within your tails cd/usb/iso or in a virus or an installed package) that effective advertises a service that they can connect to and/or phones home your passphrase or other data, then this is all  paranoid and purely academic. 
-
-If someone can connect to a service on your system and get a root shell, then you're fucked. But tails is not designed to have services like ssh or something dangling in the wild breeze of the internet.
-"""]]

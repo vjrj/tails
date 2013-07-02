@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="not getting an rw filesystem"
+ date="2013-05-16T14:08:48Z"
+ content="""
+hi
+
+following this interresting topic i did not succeed in mounting /live/image in rw mode...
+(from a running tails 0.17.2 on an usb stick)
+
+i have :
+root@amnesia:~# mount -o remount, rw /live/image
+root@amnesia:~# ls -l /live/image
+lrwxrwxrwx 1 root root 18 Apr  7 12:22 /live/image -> /live/mount/medium
+root@amnesia:~# 
+but :
+root@amnesia:/live/image# ls -l isolinux/live.cfg
+-r--r--r-- 1 root root 1253 Apr  7 12:43 isolinux/live.cfg
+root@amnesia:/live/image# 
+
+hence i cannot modify anything inside live.cfg
+
+any help please ?
+
+thanks
+
+"""]]

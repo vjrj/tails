@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-05T15:20:39Z"
+ content="""
+@ comment 3
+
+>Also important (especially if you usually enable a root password, or if you use a persistent Tails) is to ensure your shadow file is well protected.
+
+What is a shadow file? And how do I protect it?
+"""]]
