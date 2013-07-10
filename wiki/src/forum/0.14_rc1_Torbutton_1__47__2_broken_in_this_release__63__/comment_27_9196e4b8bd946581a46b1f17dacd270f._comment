@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 27"
+ date="2012-11-10T21:17:01Z"
+ content="""
+> First off all, I DID READ the mailing list discussion/etc so please don't tell me to read the manual or whatever.
+> 
+> What does fingerprinting mean? Fingerprinting as in browser fingerprinting, i.e., websites know what browser and/or OS you are running?
+>
+> Also, what are the implications of running a partial working torbutton? From an anonymity point of view?
+
+Sorry, but I am still going you to suggest some reading material: [Torbutton design documentation](https://www.torproject.org/torbutton/en/design/index.html.en). Mike Perry did an exhaustive analysis of the various threats that are facing a browser, against a pretty sound threat model.
+
+This should help you understand to which extent the anonymity of Tails users which are browsing the web can be threaten.
+
+> What about Tails 0.13 users? Is traffic in 0.13 torrified?
+
+The traffic has been torrified since the very first version of Tails. All of this is not about Tor, it is about more subtle ways to reduce the user anonymity set.
+"""]]

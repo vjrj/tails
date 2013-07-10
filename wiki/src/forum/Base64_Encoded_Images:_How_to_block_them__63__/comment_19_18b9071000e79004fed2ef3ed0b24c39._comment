@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2012-11-15T07:07:22Z"
+ content="""
+>The best way to get something done about this would be to create a Bugzilla account and explain the necessity (don't nag - just explain the need and the impications which seem to have been missed)
+
+The **best way** to resolve this would probably be to drop a patch onto the Bugzilla thread! Explaining our concerns would probably be a fairly distant (but still worthwhile) second ;o)
+
+As for what should be done about the problem: I think Opera has this just about perfect, as described by \"lowbatteries\" [on the Bugzilla thread](https://bugzilla.mozilla.org/show_bug.cgi?id=331257#c24). Adapted to present Mozillaspeak, it could become a pair of settings something like this:
+
+* \"**Load images automatically**\": *As present* - DOES display data: images
+* \"**Block all images**\": *New setting* - no data: images 
+
+Mozilla looks like the odd browser out at the moment in forcing its users to view inline images even after they've done everything they can to prevent it. Chrome, Safari, Opera, even IE block them. Has anyone examined how Liberté's Midori handles this? Would ***Tails*** ever consider switching from IW to Midori or something else?
+
+"""]]

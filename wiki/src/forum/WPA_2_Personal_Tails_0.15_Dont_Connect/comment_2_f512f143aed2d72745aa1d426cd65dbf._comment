@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-29T16:12:35Z"
+ content="""
+Please [[report a bug|doc/first_steps/bug_reporting]] from 0.14 after connecting to Wi-Fi, another from 0.15 after trying to, and make it clear they are related.
+
+"""]]

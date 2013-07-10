@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-29T23:46:29Z"
+ content="""
+What kind of recording you want to make depends on the software you'll need. *recordmydesktop* will, as the name implies, record your desktop. Default output is ogg-vorbis, CTRL+ALT+P pauses/resumes, CTRL+ALT+S stops the recording(or do CTRL+C in the terminal). Adding \"--windowid 0x0000000\" where 0x0000000 is the value found from \"xwininfo\" will record the area where the window you want to record initially is.
+"""]]

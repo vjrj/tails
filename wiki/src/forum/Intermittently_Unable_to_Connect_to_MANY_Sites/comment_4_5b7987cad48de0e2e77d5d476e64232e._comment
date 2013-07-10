@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-03T20:43:23Z"
+ content="""
+Please report this on the Tor bug tracker.
+Usual bug reporting guidelines apply (if it were about Tails, see [[doc/first_steps/bug_reporting]], most of it applies).
+"""]]

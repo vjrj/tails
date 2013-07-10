@@ -1,0 +1,9 @@
+Copy the direct download link to clipbooard.
+
+Open up the terminal.
+
+Type "wget -c [right-click + paste link here]" where -c will allow downloads to continue.
+
+I figure this is the best way to obtain Tails through Tails with software that's already installed. Supposing that the download stalls, what you have to do kill wget by hitting CTRL+Z, finding the process-id using: "pidof wget", killing it with this command: "kill -9 [pid]", and closing the stream that wget didn't close. Then you just re-use the wget command to resume the download.
+
+It stalls about every 64MB

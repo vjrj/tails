@@ -1,0 +1,5 @@
+I downloaded the ISO image and burnt the ISO to a CD. But it is not working properly, I see the actual folders in the CD and cannot run Tails. I see the two folders 'isolinux' and 'live' and can open them up as well.
+
+I have burned many ISO's before and have never had this problem...very strange. I also tried putting it on a 4GB USB stick using 'cat' command and then tried booting it using rEFit, but I can't get rEFit to pick it up.
+
+Any tips?

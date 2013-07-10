@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-09-24T23:08:01Z"
+ content="""
+>I thing your questions help me to understand finally what is problem but im not sure 100% yet.
+
+>In my regualar operating system I using VPN because of certain limitations that prevent me from using Tor. Its mean that I can't connecting Tor without to running first VPN. So when i booting Tails from USB is discursive on VPN running step and maybe in this way does not allow me to connect Tor. So what can i doing in that situation? Hope you understand my explanation.
+
+Yes, that certainly explains this. I imagine the way Tails is designed to route all traffic onto Tor would make it difficult for the user to achieve the same Tor over VPN connection you have on your other system. It's not something I've tried myself though.
+
+**If anyone has experience of routing Tails over VPN, perhaps they'd offer some advice?**
+
+Of course, by booting Tails in a *virtual* machine running on your other system, all Tails' (Tor) traffic would be routed across the host's VPN connection. There *would* be some security implications to this. e.g. Tails data could be written to swap space on your HD. If the host system is by Microsoft its almost inevitably infested by all manner of viruses, trojans, root kits, etc., so that wouldn't be great for your security either ;-)
+
+It's planned for Tails 0.14 to be switched switch to the newer 0.2.3.x branch of Tor and this would make it possible for you to install [Obfsproxy](https://www.torproject.org/projects/obfsproxy-instructions.html.en) - if it isn't already [included](https://tails.boum.org/todo/obfsproxy/) in that release ;-)
+
+Your particular problem is already understood and is [on the todo](https://tails.boum.org/todo/vpn_support/) list too... but obviously as Tails is a small, voluntary project, there's no way to predict if/when it'll be addressed.
+
+In the meantime, I'm glad we seem to have got to the bottom of the problem... I'm just sorry I couldn't offer more of a solution. ;o)
+"""]]

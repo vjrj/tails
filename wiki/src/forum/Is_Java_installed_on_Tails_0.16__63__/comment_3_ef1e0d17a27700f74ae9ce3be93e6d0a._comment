@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-18T21:29:48Z"
+ content="""
+> What is the purpose of Tails 0.16 having a Java VM? Is it essential?
+
+i2p needs it.
+
+> Can we disable the Java VM ourselves? Will disabling it de-anonymize Tails users?
+
+It's not running unless you start I2P or run some Java program yourself,
+so I'm not sure what you mean by \"disabling\".
+
+"""]]

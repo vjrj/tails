@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-18T09:46:57Z"
+ content="""
+> it wants to synchronize time with Thor and therefore resets my hardware (BIOS) clock.
+
+Hmm... last time we were suggested Tails might do that, we checked, and in our tests it did not touch the hardware clock at all. So, please let me gently ask you if you are 100% sure it did change your *hardware* clock, that is in a way that has practical effects after shutdown.
+
+"""]]

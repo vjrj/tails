@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-12T13:49:40Z"
+ content="""
+This is a pinentry feature. I'm sorry it causes user experience regressions.
+For [[details and resolution plans|todo/pinentry_vs._paste]].
+(Note that I've renamed the todo item someone had created, to
+reflect better the actual issue.)
+
+It's easy to help: please test if the KeePassX auto-type feature
+workaround works, and report back.
+
+"""]]

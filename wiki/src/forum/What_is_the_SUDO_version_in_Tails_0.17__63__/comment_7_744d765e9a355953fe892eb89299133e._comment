@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-07T07:08:40Z"
+ content="""
+@comment5:
+
+> It seems that the vulnerability is a local vulnerability allowing someone who is already logged into a Tails system to execute commands with root privileges for several minutes. 
+
+It looks to me this \"someone\" also needs to be able to set the system time to an arbitrary value, which is equivalent to having admin priviledges already in Tails.
+
+@comment6:
+
+> If ever you discover that your Tails session has been hacked, it can only mean that Tails staff and/or people very close to Tails are behind the attack. Such people may include the sponsors of Tails, the latter of whom may comprise US National Security Agency, FBI, CIA, UK's MI5, China's PLA or Israel's Mossad.
+
+Please stop spreading FUD that you can't possibly back with facts.
+
+"""]]

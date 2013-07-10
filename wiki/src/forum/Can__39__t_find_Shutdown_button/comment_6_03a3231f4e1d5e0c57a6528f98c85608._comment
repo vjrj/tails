@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-24T17:56:11Z"
+ content="""
+> How do you shut it down via root console?
+
+the command \"sudo shutdown now\" should do the trick
+"""]]

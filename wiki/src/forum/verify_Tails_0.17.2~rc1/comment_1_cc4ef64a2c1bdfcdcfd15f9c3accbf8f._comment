@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-07T08:27:04Z"
+ content="""
+See [[doc/get/verify_the_iso_image_using_the_command_line]].
+You just need to adapt to the Windows-specific stuff.
+"""]]

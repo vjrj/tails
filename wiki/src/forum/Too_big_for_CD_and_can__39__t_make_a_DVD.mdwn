@@ -1,0 +1,16 @@
+I've burned an awful lot of CDs and DVDs over the past 10 years... but Tails v0.14 is the only one with this very odd problem.
+
+I tried several different free (and commercial) burning packages.  This is what they all say:
+
+1. You can't put 850mb on a 700mb CD, try a DVD instead.
+2. You can't put a CD image on a DVD, please use a CD.
+3. Repeat from step #1.
+
+I finally did find *ONE* piece of software (Nero) that tried to cram the 850mb onto a 700mb CD anyway.
+
+But trying to boot with the resulting Tails-CD says it's corrupt.  (I'm not surprised.)
+
+Any ideas?
+
+
+

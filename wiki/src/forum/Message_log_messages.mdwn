@@ -1,0 +1,19 @@
+Every time I am getting the following messages in my message log.
+I did not had them when using the regular Tor bundle.
+
+This one keeps coming back, but I can still browse without a problem.
+
+Destination '[scrubbed]' seems to be an invalid hostname. Failing.
+
+
+This one was new for me:
+
+[Notice] Your system clock just jumped 3589 seconds backward; assuming established circuits no longer work.
+
+
+Can anyone tell me what the mean, and is my security or anonymity at a risk here?
+
+I searched for an answer but could not find something that i understood.
+
+
+Thanks a lot

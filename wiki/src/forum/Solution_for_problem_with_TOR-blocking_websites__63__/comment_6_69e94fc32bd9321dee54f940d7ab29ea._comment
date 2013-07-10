@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-25T23:27:54Z"
+ content="""
+Comment 4, please tone down the feigned indignation a bit. If you'd like to see your question addressed you might find charm and courtesy more rewarding.
+
+While you sound indignant, you actually appear to be reiterating the query raised in comments 1 & 3...
+
+You say:
+
+>>then won't you be destroying all the benefits of Tor by routing your anonymous traffic onto it,
+
+>The traffic would be going through Tor the same way it otherwise would. The only difference is that instead of the Tor exit node connecting directly to the site that the OP wishes to access and/or contribute-to, the exit node would connect to a non-Tor proxy, which, in turn, would then connect to the desired site. Thus, the block on Tor exit nodes imposed by the site in question would be bypassed.
+
+Yet you also state:
+
+>To identify someone using a single-proxy, all an adversary has to do is obtain the logs from the owner of the proxy. Find me a proxy-owner who would actually defy a subponea at the risk of imprisonment, or hold-out against a clear and present threat of bodily harm...
+
+So what is to be gained by routing your anonymous Tor exit traffic onto a proxy, when the operator will disclose the logs (your full session history and your identity) at the drop of a hat? In the end, this still amounts to just a one-dodgy-proxy connection - may as well cut your losses and drop the slow Tor link altogether. Or perhaps you believe there's a truly open anonymous free proxy service? If so, please post the details so we can examine it.
+
+And do stay calm. The community want to *help* you! :o)
+"""]]

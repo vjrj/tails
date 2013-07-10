@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-04T08:41:55Z"
+ content="""
+> I can see the files as superuser when I enter 'sudo nautilus' in the root terminal but when I try to copy or move a file it would pop up with 'The file cannot be handled because you do not have permissions to read it'.
+
+Yeah, i2psnark doesn't make it easy for us to solve this in a good way. Try starting nautilus in the following way: 
+
+    gksu nautilus /var/lib/i2p/i2p-config/i2psnark
+
+I just tried, and that works for me.
+
+> If I shut down Tails i am sure my files will be destroyed and I don't think I can make the i2psnark folder persistent either.
+
+You can. In the persistence configuration tool, add `/var/lib/i2p` as a [[custom directory|doc/first_steps/persistence/configure#index10h2]]. This will also save the i2p netDb etc. which should speed up the i2p bootstrap significantly. At some point we will add a default preset for i2p in the persistence configuration tool.
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=po
+ ip="127.0.0.1"
+ subject="To comment 1"
+ date="2013-02-20T10:43:46Z"
+ content="""
+>temporary files are mainly written in /tmp, /var/run and /var/tmp. and somewhere in your account folder (here: /home/amnesia), depending on the application and its settings.
+
+log files are written in /var/log.>
+
+How can I delete the logs and the temp files there? How can I stop the process of logging and creating temp files ?
+
+"""]]

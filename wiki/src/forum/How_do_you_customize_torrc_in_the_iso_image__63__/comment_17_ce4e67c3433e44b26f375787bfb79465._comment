@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 17"
- date="2012-04-05T15:51:14Z"
- content="""
-Concerning my immediately previous comment 15, I just noticed that these one hop circutts are for directory fetches only, however I will still force my Torbundle torrc for three hops in the event some exploit could exist to use this single hop in a way that was not intended.
-"""]]

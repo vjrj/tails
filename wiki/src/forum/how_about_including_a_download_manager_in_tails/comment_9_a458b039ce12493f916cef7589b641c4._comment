@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-06-09T13:33:50Z"
+ content="""
+Please see \"Why doesn't Tails ship software XYZ?\" section on [[contribute/faq]] for the long list of reasons why we might *not* add this or that download manager you like to Tails.
+
+What needs to be done if you really want this in Tails:
+
+* convince us the usecase covered by this software is not well supported in Tails yet
+* see how it works with Tor / anonymity. Do we really want an additionnal HTTP client, that has a different network/HTTP fingerprint than the ones we already ship?
+* check how much additionnal size it would add to the ISO
+
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-11T20:11:02Z"
+ content="""
+So can we discuss the dubious wisdom of the Tails Project taking money from a US quasigovermental entity, whose grants (such as the grant to the Tails Project) must be approved by the US State Department for \"consistency with US foreign policy goals\"?
+
+One simple reason why this issue seems to some in the Tails community to be relevant to the Tails community is that work on Tor and Tails are said to motivated in part by a desire to help political dissidents, whistleblowers, human rights workers, and journalists working in repressive countries or in war zones.  But the US State Department has a nasty habit of frequently changing who it designates as an \"ally\" or an \"enemy\".  Not long ago, the Assad regime in Syria was an \"ally\".  Then it became an \"enemy\".  But now that one rebel group has declared allegiance to an AQ related group, whatever that may mean (possibly little more than that they are taking arms from countries other than the US, since the US has declined to arm the Syrian Free Army), maybe the Assad regime is about to again become \"an ally in the War on Terror\".
+
+Can we discuss the methods used by intelligence analysts and cybewar operatives working for adversaries such as the NSA and US military \"network warfare\" units?   Other nations of course use similar methods, often because the same companies are providing contract employees using the same equipment to both US based adversaries and adversaries working for other governments, including some extremely repressive governments.
+
+This too seems relevant to the Tails community, if you are one of the growing number of people who recognize the implications of the fact (recently more or less admitted by the CTO of the CIA) that US agencies are using AI tools to build vast systems which will surveil, profile, and mount automatic cyberintrusions on pretty much every computer in the world.  (Note the implications of such phrases as \"access the entire deep web\", \"CNE\", and other buzzwords in recent public presentations by Ira Hunt and in jobs postings for contract cyberwarriors to work in such locations as Fort George Meade, I mean really, none of what I am saying is in any sense secret.)
+"""]]

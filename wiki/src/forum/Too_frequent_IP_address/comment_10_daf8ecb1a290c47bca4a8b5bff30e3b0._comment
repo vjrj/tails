@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-07-22T20:57:17Z"
+ content="""
+That only demonstrates how weak Tor really is.
+
+Tor weights which nodes to choose by bandwidth because there are too few Tor servers. And if an attacker hosts a few high bandwidth nodes chances are high that you use 3 out of 3 nodes from him as your circuit and can easily get caught. Of course he has to host them in different subnets, not giving them similar names and not adding them to the same server family.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-15T04:50:13Z"
+ content="""
+the truecrypt developers are also anonymous, right? yet thousands if not more use truecrypt. im not sayin base your trust on the truecrypt model but face it, with either distribution youre trusting binaries from an anonymous source. youre trusting a live OS built by anons with everything you do during the sessions.
+
+even more worrying: Tails LiveCD/USB distribution operates with a program called 'monkeysphere'. On the face of it it appears harmless and good for a security distro, until you discover there is one Tor hidden service it connects with, every time you use SSH and SSL. If you disable SSH, there's still SSL in the browser (monkeysphere has 2 components, one of them is a browser extension!), so you are hitting that single hidden service each time you visit a SSL enabled site!
+
+And people worried about HTTP Everywhere's (browser extension) Observatory opt-in program! With Monkeysphere using only one hidden service keyserver, you're sending your unique web habits, which should only be routed through the Tor network through a few hops, to one hidden service! Can you even begin to imagine the amount of possible data mining, traffic/timing traps, and other attacks through using Monkeysphere? Does Liberte Linux use Monkeysphere, too? What's preventing you from using a Linux distro's LiveCD with the Tor Browser Bundle? Where do you need to use Tails or Liberte Linux which can't be performed via TBB on a Linux LiveCD other than Tails/Liberte?
+"""]]

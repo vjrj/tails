@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-06T13:43:57Z"
+ content="""
+You can only export the private key from the key's properties menu by clicking \"Export Complete Key\". Right-click the key instead and choose export and the widow title will say Public Key instead.
+"""]]

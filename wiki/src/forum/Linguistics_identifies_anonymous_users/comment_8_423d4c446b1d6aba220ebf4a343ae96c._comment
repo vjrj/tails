@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Thread closed."
+ date="2013-01-11T22:45:33Z"
+ content="""
+> The solution does not reside in burying the head in the sand and pretending this is not a \"Tails specific problem\" however.
+
+Declaring this is off-topic here is not about burying one's head in the sand. It's about the purpose of this forum, and the needs and desires of the people who decided they wanted to set it up and maintain it.
+
+Tails is affected by security issues in the Linux kernel, Tails is affected by potential design problems in Tor, but here is *not* the right place to discuss such matters. Same goes with stylometry.
+
+Please, someone, help fix the free anti-stylometry software situation on GNU/Linux, and then I'm happy discussing how it could be included in Tails.
+
+"""]]

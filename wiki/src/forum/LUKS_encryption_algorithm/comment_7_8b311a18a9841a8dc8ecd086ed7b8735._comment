@@ -1,0 +1,39 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-12-19T09:30:51Z"
+ content="""
+@5: Did you read it?
+
+       --hash, -h <hash-spec>
+              Specifies the passphrase hash for create and loopaesOpen.
+
+              Specifies the hash used in the LUKS key setup scheme and volume key digest for luksFormat.
+
+              The  specified  hash  name  is passed to the compiled-in crypto backend.  Different backends may support
+              different hashes.  For luksFormat, the hash algorithm must provide at least 160 bits  of  output,  which
+              excludes, e.g., MD5. Do not use a non-crypto hash like \"crc32\" as this breaks security.
+
+              Values compatible with old version of cryptsetup are \"ripemd160\" for create and \"sha1\" for luksFormat.
+
+              Use cryptsetup --help to show the defaults.
+
+       --cipher, -c <cipher-spec>
+              Set the cipher specification string.
+
+              cryptsetup  --help  shows  the  compiled-in defaults.  The current default in the distributed sources is
+              \"aes-cbc-essiv:sha256\" for both plain dm-crypt and LUKS.
+
+              For XTS mode (a possible future default), use \"aes-xts-plain\"  or  better  \"aes-xts-plain64\"  as  cipher
+              specification  and  optionally  set  a key size of 512 bits with the -s option. Key size for XTS mode is
+              twice that for other modes for the same security level.
+
+              XTS mode requires kernel 2.6.24 or later and plain64 requires kernel 2.6.33 or later.  More  information
+              can be found in the FAQ.
+
+
+What more \"options\" do you want?
+
+
+@6: The on-disk format is the same. LUKS2 might drop one day, there are also several Truecrypt FOSSification projects which might come to something useful, but LUKS is LUKS
+"""]]

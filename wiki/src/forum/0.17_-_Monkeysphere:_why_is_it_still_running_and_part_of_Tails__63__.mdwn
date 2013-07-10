@@ -1,0 +1,11 @@
+##0.17 - Monkeysphere: why is it still running and part of Tails?
+
+The Monkeysphere browser plugin has been removed, and in an older post during 0.16's lifetime, this same question was asked but not resolved. 
+
+I'll ask again:
+
+Why is Monkeysphere still running and part of Tails when the browser plugin is gone?
+
+What is it doing????????
+
+/usr/bin/perl -wT /usr/bin/monkeysphere-validation-agent /usr/bin/seahorse-agent --execute x-session-manager

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="OP..."
+ date="2012-10-03T00:13:19Z"
+ content="""
+You *are* using the .ISO signiture ( tails-i386-0.13**.iso**.pgp ) and *NOT* the torrent signiture ( tails-i386-0.13**.torrent**.pgp ) to verify the .ISO file?
+
+This sounds like [this](https://tails.boum.org/forum/Clarifying_a_silly_but_confusing_detail/) problem ;)
+"""]]

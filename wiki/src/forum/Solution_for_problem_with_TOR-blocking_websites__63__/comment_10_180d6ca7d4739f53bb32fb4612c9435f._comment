@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Solutions please"
+ date="2012-09-26T19:41:18Z"
+ content="""
+@ comment4: You are understanding the issue and my wished design! 
+
+First I want to connect to Tor and then surf to a 'owned' VPS where a proxy is installed. About anonymity at this point: my own personal VPS / Proxy will NOT have any relation to me. VPS is paid with cash by regular mail, sent by a third anonymous person that I only paid with well washed Bitcoins. Is this the only threat to anonymity in this design?
+
+And are there any more threats to this design? Are there any more anonymity problems with the combination of Tor and after it another proxy that works with ssl and works with connecting to ssl-websites? 
+
+The purpose is not to do this 24/7 but only sometimes for some websites. 
+
+And thank you all for your comments, but my main questions are not answered yet. If the design has no further threats, then I really want to know the answers to these questions:
+
+1. Which proxy script do I have to choose if I want to avoid problems with connections through SSL (https//:). For example when registrating an account with Gmail, PayPal or with other registration and order forms on websites that use SSL. 
+
+2. Who knows which script Kproxy.com is using? And which other similar easy-to-install-script works also well with TOR and SSL? Are there such ready2go scripts? Is installation of such scripts a lot of work and does it require much knowledge of programming?
+"""]]

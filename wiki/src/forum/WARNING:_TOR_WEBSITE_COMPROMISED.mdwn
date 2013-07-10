@@ -1,0 +1,14 @@
+I launched tor and it loaded fine, but then it starting timing out and so i relaunched it and it asked me to update to 2.3.25-2. I checked the SSL cert on torproject.org and it reads:
+
+Serial number: 06:DE:97:E5:1D:C3:9D:C2:64:8D:AC:72:DD:41:01:FC
+
+and then i checked the posted SSL cert serial number
+https://www.torproject.org/docs/faq.html.en#SSLcertfingerprint
+
+ *.torproject.org SSL certificate from Digicert:
+    The serial number is:
+02:DA:41:04:89:A5:FD:A2:B5:DB:DB:F8:ED:15:0D:BE
+
+Ive contacted tor support to confirm if this is outdated information or if it is compromised, but for your security assume it is. 
+
+  

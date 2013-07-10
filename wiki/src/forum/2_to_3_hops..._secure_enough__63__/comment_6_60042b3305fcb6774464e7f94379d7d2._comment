@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-14T22:22:58Z"
+ content="""
+> Theoretically speaking 1 > 2 > 3 > 4 > 5 > 6 > 7 is harder to trace than 1 > 2 > 3
+
+You'd think so, but the mathematical models suggest that may not be so.  Of course, an even better model might lead to the conclusion that 4 hops is better.
+
+I'd like to discuss this but in deference to the moderator's wishes feel that I cannot try to do that.  Unfortunately I lack the time today to search for links, but this issue has been discussed several times in Tails Talk over the years, and is also addressed by some papers in an archive of privacy related academic papers.
+"""]]

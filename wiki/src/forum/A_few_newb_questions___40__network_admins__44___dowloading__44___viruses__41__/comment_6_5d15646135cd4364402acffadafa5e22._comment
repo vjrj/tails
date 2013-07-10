@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-04T17:38:57Z"
+ content="""
+Those are great suggestions!  I am glad to hear that I am not the only Tor (or Tails) user who observes those precautions.
+
+I avoid videos but they are increasingly used for tutorials I might need.  It would help if I wanted to fire up my Tails DVD to download AS A FILE a video, disconnect from the Internet, and launch the player.  Anyone know of a safe way to do that using Tails?
+
+I guess it might be possible to save a webpage as text file so one can see the url, then try to get the file using torify wget from the command line, then disconnect, then try to play the video.  But as far as I know, wget has not been audited for Tails.
+"""]]

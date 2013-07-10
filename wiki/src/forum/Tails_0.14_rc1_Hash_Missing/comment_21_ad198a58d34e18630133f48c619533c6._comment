@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2012-10-18T15:40:12Z"
+ content="""
+In comments 7 and 8 **TAILS** cited the weaknesses and limitations of relying on checksums/hashes for verification/authentication. From the context, it would appear that this was offered as a response to the request of the OP and others that a checksum/hash be provided for the latest release candidate of TAILS.
+
+Yet, the TAILS web site *does* provide a sha256sum for each *final* release of TAILS. 
+
+I suppose the rationale is that anyone knowledgable/adept/savvy enough to be testing a *pre-release* version of TAILS, would surely be knowledgable/adept/savvy enough to be comfortable using GPG to verify an ISO *and* recognize the importance of doing so?
+   
+"""]]

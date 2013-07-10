@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-12-20T01:19:29Z"
+ content="""
+>The GPG man page is about as definitive as one can find (yet oddly unprecise in some respects), but few newbies will be able to get much out of it very quickly. There are many tutorials, but few if any explain how to use the command line effectively with \"bare-bones gpg\". And I have not seen any which try very hard to explain some
+
+Don't forget to keep this material concise and **specific to tails**: A windows oneliner to import the Tails signing key, and another for Linux. Similar pair of oneliners for verifing the .iso. Then Linux (Debian/Tails) only oneliners for the other stuff which **Tails** newbes might want to do once inside **Tails**... generating a keypair, etc...
+
+As \"Tails\" already pointed out, maintaining a general third party documentation site **isn't** something they feel they should do.
+
+>>If that's specific to Tails, yay, sure, see documentation :)
+
+>Yay, indeed, but I fear to use email as suggested there, and don't know who to try to contact by PM via OTR chat in the chat room mentioned. Is there a username and a day/time when that user can be found? Otherwise, is it safe/permissible to try to use Whisperback?
+
+To quote the manual:
+
+>the forum is open for discussions that do not belong to bugs, feature requests and the like;
+
+I'm inclined to think this thread is acceptable and we may go on discussing your proposals here. May be wrong though. Has been known!.. and this sort of discussion would certainly be *better* placed on a list. Brace for admonishment! ;)
+"""]]

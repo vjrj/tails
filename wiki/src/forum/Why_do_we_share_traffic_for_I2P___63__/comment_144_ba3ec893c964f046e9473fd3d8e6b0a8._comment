@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 144"
+ date="2012-10-25T15:16:21Z"
+ content="""
+> And if the client is in \"hidden mode\", then the task becomes even more intractable, as now you are waiting for the particular router in question to connect to you, in addition to having a large enough skew to be uniquely detectable.
+
+Well, that's where the subject of the thread becomes relevant: if the client is in hidden mode, then it is not listed in netDb, so there is nowhere an (eepSite) attacker can connect to in order to correlate clock skews. It is the same with Tor, as you noted, but Tor defaults to non-router mode, and running a relay on client is not recommended due to this and similar attacks.
+
+regarding how difficult the attack is actually to mount, that's a different issue. If the target is high-profile, you can monitor clock skew on all I2P routers (how much are there, 2-3k?) for a long time, maybe even try active attacks with NTP packets (if some use NTP), etc. Maybe exploit some weakness in I2P's internal clock offset mechanism.
+"""]]

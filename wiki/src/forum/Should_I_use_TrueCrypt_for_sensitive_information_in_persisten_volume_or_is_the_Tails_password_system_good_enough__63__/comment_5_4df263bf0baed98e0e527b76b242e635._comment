@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Wanted: encfs and steganography"
+ date="2012-10-18T07:52:18Z"
+ content="""
+The major argument for using Tails on a bootable USB stick--- please correct me if I am wrong--- seems to involve persistence.  But it also seems to raise the possibility that an initially pristine installation could be tampered with, which can't happen with a read-only DVD (although executables could perhaps be tampered with in memory).
+
+I can boot from a live DVD instance of Tails, but not from a live USB stick.  For this reason alone I would like to use encfs with the live DVD, so I can create, write to and read from files kept in encrypted directories on a USB stick.  
+
+One advantage of using encfs is that a directory encrypted with encfs and kept on a USB stick can be accessed using any computer with a USB port on which encfs is installed, provided that one knows the encfs passphrase for that directory.
+
+Assuming you can't see any fatal flaw in my ambition to use a USB stick with encfs encrypted directories as a kind of persistent volume to use with a Tails live DVD, is there any chance of including encfs in the next version of Tails?
+
+While I agree that direct cryptanalysis of several GBs of data encrypted with a strong modern cryptosystem is implausible, I have read several \"computer forensics\" papers detailing allegedly practical methods for recovering blowfish, Serpent and AES keys by other means, under certain circumstances, mostly easily achieved if the attacker has unfettered physical access.
+
+The groups which produced the Gauss/Flame/Mini-Flame family of state-sponsored malware--- people whom I suspect may know people who know more than most about the practical weaknesses of AES in the context of modern computing devices--- seem to favor Twofish under such simple minded \"cryptography\" as ROT-13.
+
+I think that for many users, steganography would be very important addition, although this might be useless to the majority.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-15T12:06:28Z"
+ content="""
+It's true that normally when using http websites the exit node you use can theoretically look at whatever you are sending, and yes using a https proxy would prevent that from happening, however that https proxy would be able to snoop on your data in the exact same way that the exit node would so you are basically just shifting your trust from the exit node to the proxy, so using a https proxy doesn't really fix the problem.
+"""]]

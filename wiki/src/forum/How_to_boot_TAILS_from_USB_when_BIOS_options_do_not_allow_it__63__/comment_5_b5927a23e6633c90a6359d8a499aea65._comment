@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-12-26T01:10:20Z"
+ content="""
+Hi, I can see several solutions:
+
+1. If the computer is yours, you could install an alternative
+and secondary bootloader on it (plop, grub2 or any other with usb support) and configure it if necessary to boot TailsUSB.
+
+2. Boot from the LiveDVD with your LiveUSB inserted: when the
+boot menu appears, hit \<Tab\>, then modify
+'live-media=removable'
+to 'live-media=removable-usb' and hit \<Enter\>. This could do the job. Eject the LiveDVD.
+
+3. Considering that you need at least 700MB of RAM to run Tails,
+if the BIOS don't allow you to boot from USB, I think the computer is old and don't has enough RAM to run Tails comfortably. Good luck.
+"""]]

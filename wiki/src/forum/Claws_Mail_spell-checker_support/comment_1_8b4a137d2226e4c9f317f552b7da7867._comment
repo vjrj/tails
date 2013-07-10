@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-25T13:08:53Z"
+ content="""
+That works for me. I tried both the English and German dictionaries and I got badly spelled words painted in red. We need more information to help you solve your problem. Maybe [[report a bug|/doc/first_steps/bug_reporting]].
+"""]]

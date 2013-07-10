@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-10T01:14:51Z"
+ content="""
+Personally, it would be better to leave tails/tor connected for as long as possible.
+
+Of course depend who your adversary are. As an example, if they would be watching the building you are in then I suspect they might see you connect and disconnect from the network at certain times and maybe by process of subtraction know who the computer user is. (your actual tail/tor activity would be safe). 
+
+If you were to leave the computer on for hours with tor/tails connected and then you leave the building and return later then the adversary would have a hard time subtracting who the tail/tor user is. While at the same time you will also be increasing the security of other tor/tails network users (If you are using non-exit settings). (your actual tails/tor activity would be safe).
+
+Of course an highly trained adversary could use other methods such as rubber hose or hardware keyloggers etc to uncover your activity.
+
+The real question would be who are you hiding from? Is tails/tor usage illegal in your country ? Or even is your activity illegal in your country ? Then you may need to manage your risks and activities differently.
+
+I suspect this might raise more questions than answers for the OP.
+
+@OP by the way this is probably offtopic for the tails forum and for the \"tails\" moderator.
+"""]]

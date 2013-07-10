@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-16T21:09:11Z"
+ content="""
+Tails in a VM has some risks that running Tails on bare metal doesn't, but it also provides some protections.  Basically, using a VM increases your protection if your attacker is coming over the network, but reduces it if your attacker has physical access to the computer.
+
+The main risk is that if the host machine is running a hostile program, that program can see what's going on inside the VM; another risk is that if the host OS uses virtual memory, bits of Tails' memory can end up on the hard disk.
+
+On the other hand, a hostile program running in the Tails VM would need to break not only Tails' security but also the VM's sandbox to get direct access to the machine.
+"""]]

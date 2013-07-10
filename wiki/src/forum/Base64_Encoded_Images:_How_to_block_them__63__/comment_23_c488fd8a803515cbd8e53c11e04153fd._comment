@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 23"
+ date="2012-11-15T13:01:16Z"
+ content="""
+>And Tails includes a browser (IW) which is vulnerable to this attack vector.
+
+Not sure it's reasonable to call this a vector. Unless you know of an exploitable vulnerability it exposes.
+
+>This is a security issue and Tails users should be informed it exists...
+
+This *is* the (public) Tails user forum!
+
+I'm not sure about the validity of the rest of that post either, apart from the general tone that this *is* a Tails related problem as it affects the Tails browser. Which of course it is/does... but that doesn't necessarily contradict the \"*this thread has run its course and can serve no useful purpose as the problem has been identified to be the property of another project (Mozilla)*\" message of the preceding post. Not sure I agree with that either though! There are plenty of other things which Tails can do - switching browser, contributing a patch to upstream, maintaining a patch, etc... Perhaps this isn't the intended place for discussing any of that either?
+
+No doubt we should all read [this](https://tails.boum.org/contribute/index.en.html) ;o)
+"""]]

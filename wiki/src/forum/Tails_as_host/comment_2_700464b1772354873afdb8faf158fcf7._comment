@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-20T21:34:25Z"
+ content="""
+Thanks but it doesnt answer the question exactly.
+
+>research how to disable VirtualBox network modes that bypass the Tails firewall
+
+The 'guest' on Tails couldnt connect to the internet at all, so in my case that wasnt the problem. My question specifically is if Tails blocks traffic between it and the 'guest' causing no internet connection, and if so how to enable that?
+"""]]

@@ -1,0 +1,3 @@
+my bios has this stupid issue where it will kill your raid if you have it connected with the default IDE setting (instead of raid). Normally this isnt an issue since it should never reset, but i loaded a tails .17 usb and it reset my bios and i wasnt aware until it was too late. 
+
+Anyways devs, thanks for wasting a night and about a weeks worth of work. 

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-27T12:00:05Z"
+ content="""
+There was a proposal to always create a persistent partition with a random password, so the user can plausibly say \"I didn't make it, it's the default one\".
+
+@tails I can't find this in TODO, do you think it's worth adding?
+"""]]

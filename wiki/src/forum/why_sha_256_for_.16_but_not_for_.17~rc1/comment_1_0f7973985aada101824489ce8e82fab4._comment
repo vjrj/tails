@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-20T01:26:43Z"
+ content="""
+@ OP
+
+If you searched the forum, you would come across several posts whose question were similar to yours.
+
+Tails recommends that users verify their downloads using the signature of the file. For example, after downloading 0.17~rc1, you would be recommended to download its signature file and verify it.
+"""]]

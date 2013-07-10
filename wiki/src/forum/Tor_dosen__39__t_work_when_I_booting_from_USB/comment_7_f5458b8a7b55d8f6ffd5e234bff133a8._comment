@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Hi thanks and "
+ date="2012-09-24T21:47:13Z"
+ content="""
+1) How can i do that? what is the way to input VPN with tails like i need to?
+
+When i trying to install programs on Tails it dosent work to me.
+I also tried to install the VPN installer from another usb stick into tails but Tails can't read the file. When i click on the VPN file icon it dosen't able to read the file. So what am I need to doing now?
+
+2) What is more safer running Tails from VM,with VPN first? or running Tor from Main operating system? when there is less traces and less IP exposure?
+
+"""]]

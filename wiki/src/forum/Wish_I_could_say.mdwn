@@ -1,0 +1,3 @@
+I wish I could try to explain why a common mistake apparently made by many users of GPG is failure to try to secure their GPG keyring.  Since the Tails documentation mentions GPG but doesn't explain how our adversaries try to subvert this essential crypto tool, I think that is a "Tails-related", but apparently too hot to handle at this forum.  Too bad.
+
+Now the inventor of SSH is saying something similar about ssh.  See the recent article in the Washington Times.

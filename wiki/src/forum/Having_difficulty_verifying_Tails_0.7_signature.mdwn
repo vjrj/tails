@@ -1,9 +1,0 @@
-I tried both methods:
-1) I installed seahorse-plugins and the debsig-verify package.  It appears to need the signing key in the keyring, and gets the message: tails-i8-07.iso: Unknown signature
-2) I executed the command: gpg --verify tails*.iso.asc in my Desktop directory where I had downloaded
-tails-i386-0.7.iso and tails-i386-0.7.iso.asc, and got the following message;
-gpg --verify tails*.iso.asc
-gpg: Signature made Wed 06 Apr 2011 05:36:26 PM EDT using RSA key ID BE2CD9C1
-gpg: Can't check signature: public key not found
-
-What do I need to do to fix this?

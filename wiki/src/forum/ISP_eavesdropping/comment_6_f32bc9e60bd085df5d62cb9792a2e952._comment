@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-10-24T13:28:31Z"
+ content="""
+The [fingerprints of directory authority are hard-coded in tor](https://gitweb.torproject.org/tor.git/blob?f=src/or/config.c#l742).
+"""]]

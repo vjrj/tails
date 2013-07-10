@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-30T17:43:17Z"
+ content="""
+> It may not be a good idea
+
+When using Tails, that is.
+
+As I understand it, one of the rationales for using Tails is that it can enable you to use one PC or laptop for two *strictly separated* classes of on-line activities:
+
+* activities where you are using your real identity, or accounts tied to your real identity
+* activities where you wish to remain anonymous and have some reason to think you can reasonably hope to remain anonymous (so, not emailing or torrenting)
+
+The general idea is to make it difficult for surveillance companies to link the your activities in \"anon mode\" to your activities in \"me mode\".
+"""]]

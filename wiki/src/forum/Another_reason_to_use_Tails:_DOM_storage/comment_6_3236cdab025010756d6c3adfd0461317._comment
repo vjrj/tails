@@ -1,0 +1,122 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-11T21:20:00Z"
+ content="""
+@ \"Tails\":
+
+Thanks much for the useful link!
+
+I see I didn't state clearly enough that:
+
+* in older versions of TBB I observed what appeared to be DOM storage persisting across system reboots, and in older Tails (booted from a DVD) what appeared to be increasing DOM storage during sessions of Tail use
+* my attempt to compare DOM storage in Tails 0.17 versus TBB 4.3.25-4 is still very preliminary, but so far I don't see suggestions of DOM storage in Tails 0.17, which is encouraging
+
+Presumably this suggests that the changes in Tails 0.17 regarding how Tails browser handles DOM storage are working well.  So *thanks!*
+
+It is striking that Commentator 4 seems to be taking this thread very personally, even stooping to the level of making some nasty ad hominem attacks.  I'll just say that in my opinion *that kind of personal attack has no place in this forum*.
+
+In case it wasn't clear to you (\"Tails\"), I actually had in mind 
+
+* a recent thread from another Tails user calling for more audits of Tails
+* the work of Andrew Case
+
+    http://www.blackhat.com/html/bh-dc-11/bh-dc-11-briefings.html
+    https://media.blackhat.com/bh-dc-11/Case/BlackHat_DC_2011_Case_De-Anonymizing_Live_CDs-wp.pdf
+
+* the Contribute sections of this website, especially
+
+     https://tails.boum.org/contribute/release_process/test/
+     https://tails.boum.org/contribute/how/promote/
+
+Not every Tails user has the equipment or skills to perform application audits, unfortunately, but some of us are trying to find something which we *can* accomplish for the Project.
+
+I assume that we all agree that while the developers and volunteer testers of the testing releases deserve praise and thanks from the rest of us for their hard work, computer software and hardware are very complicated and diverse and can interact in unexpected ways.  So it is important for users who may use different hardware from any developer or tester to keep an eye out for \"silent failures\" of an important anonymity/security feature.  And we who desire privacy have many adversaries who rather outnumber the Tails developers and volunteer testers!  
+
+If one accepts these premises, I think it follows that *the more eyes we have looking out for possible trouble signs, the better*, even if some of the watchers are less sophisticated than developers might desire.  This will require a certain amount of userbase education or assistance.  Since Tails is based on Debian and I have used Debian long enough to be familiar with system tools and simple scripting, I figure I can help try to tell curious Tails users how to \"look under the hood\".
+
+Returning to the point:
+
+I have been trying to explain these \"selling points\" for Tails:
+
+* the distinctive feature of Tails viz other \"Tor for the masses\" projects is that Tails seeks to achieve *electronic amnesia*
+* to understand why this is so desirable we need to look at why and how browsers (focusing on FF-related browsers) other than the Tails browsers tend to store too much personally identifying information, and to divulge it unseen third parties
+* one of the currently important and potentially dangerous ways in which unprotected browsers (focusing on FF-related browsers) store personally identifying information about us is DOM storage
+
+In the paper I just linked to, Andrew Case provides strong support for my basic claim: DOM storage is a serious hazard to anyone who values privacy.  
+
+(It will be seen that Case is writing from the perspective of someone doing IT work for corporate IT departments, legal discovery firms, or law enforcement agencies, whereas I am writing from the perspective of someone who believes that international travelers, human rights workers, and the people targeted by \"Team Themis\" all deserve their privacy.) 
+
+From Case's paper \"De-Anonymizing Live CDs through Physical Memory Analysis\":
+
+> Traditional digital forensics encompasses the examination of data from an offline or “dead” source such as a disk image. Under normal circumstances, *evidence is obtained by first creating an exact, bit-for-bit copy of the target [unencrypted hard] disk*... obtaining a bit-for-bit copy of data provides investigators with a wealth of information to examine and makes available a number of forensics techniques. Since the copy will contain the entire filesystem,  including its metadata, as well as *previously deleted data*, investigators can then perform a number of operations such as timelining, hashing of files, recovery of deleted information via file carving, metadata examination for both the filesystem itself and the files it contains, orderly indexing and searching of data, and more.  After obtaining a disk image, application specific examination also becomes possible, with popular targets being *web browser activity, local email storage, recently accessed files*, and any backup facilities...
+
+(My emphasis.)
+
+Case might also have mentioned here username/password combinations for websites where the citizen has an account as another popular target.  These and recent web-browsing history are potentially found inside DOM storage hashtag databases associated with the web-browser.  
+
+In a later thread I plan to look at \"recent history\" data and metadata associated with pdfs and other application files, especially on Linux machines.  See also
+
+     https://tails.boum.org/doc/first_steps/persistence/warnings/index.en.html
+
+In this thread I am also interested in comparing how well recent TBB editions perform in comparison with recent Tails editions, with respect to deleting (or not storing in the first place) sensitive data in DOM storage, which I expect could be a \"selling point\" for using Tails (perhaps especially, Tails booted from a R/O DVD) instead of TBB.
+
+One important point I didn't yet stress is that *it is much better to prevent sensitive data from being stored at all* (especially in non-volatile memory such as a hard drive), instead of storing it and then trying to erase it later.  The reason is of course that if anything goes wrong in \"securely shredding\" sensitive files, the information may remain on disk indefinitely, where it can potentially be recovered by an adversary.
+
+Another important point is that in the quoted paragraph, Case is discussing the threat scenario (from our perspective as Tails users) where an adversary has *gained physical possession of our computer* long enough to image the hard drive.
+
+What he says next is of particular importance for anyone using a live CD such as Tails in an effort to thwart snoops:
+
+> Unfortunately for digital forensics investigators, live CDs disrupt the normal process in which evidence is obtained, analyzed, and presented. *Since Live CDs live entirely in RAM, there is no physical disk to image nor is there currently a method to get a bit-for-bit copy of the file-system*.
+
+So are Tails users safe from snooping?   Unfortunately not.
+
+But I am still trying to explain the potential benefits and risks of people using Tails to try to retain some shreds of privacy.  So let us next consider a threat scenario routinely faced by international travelers, who may need to carry sensitive company documents, or lawyer-client privileged documents, or personally identifying information on thousands of employees from a database in connection with human resources work for large corporation, and so forth, and who *have a legitimate need (and even a legal obligation) to prevent warrantless snooping* by customs agents who demand that the traveler boot up his/her laptop.  The reason why customs agents make such demands is so that they can image the RAM and hard drive of the computer *as it is running*, which typically gives up much too much information, including encryption key material sufficient to later decrypt any encrypted information on the hard drive at a later date.
+
+A traveler who is \"hip\" to this threat might bring in a Tails DVD and a \"clean\" laptop with an empty hard drive (or with boringly innocuous data), to be used to later retrieve information from home by booting off Tails and using sftp to transfer GPG encrypted files for use \"in country\". For concreteness, let's say our traveler is a human rights worker who has entered Syria in order to document human rights abuses in the Syrian civil war.  Now consider what happens when the Syrian secret police burst into a room where she is using Tails, with a laptop booted from the Tails DVD.
+
+That's very bad for her, since the bad guys will probably torture her regardless, but let's focus on the fact that they will be able to *image the RAM of the running laptop*, which is the threat scenario which Case is discussing.  
+
+The good news, from our perspective, is that if the bad guys try to analyze the contents of RAM using the techniques with which they are familiar from searching computers which have been booted off a hard drive, they will encounter some technical issues owing to the fact that Tails (and Knoppix and other live CD/DVD based operating systems) use special file system structures such as the aufs or Unionfs file systems.
+
+> investigators, after obtaining a memory capture, are left with no useful set of tools to perform file-system level analysis. Although primitive techniques such as the use of grep and strings can locate relevant information, these tools do not place results into any context, making it difficult to perform deep analysis with them. Similarly, analysis of userland applications is just as difficult since there are no logs or history to examine. The lack of useful tools currently makes examination of live CDs very difficult, and for investigators without programming ability, it is almost impossible to perform any meaningful analysis.
+
+This is one \"problem\" (for snoops) which Case proposes to solve in his paper, which from our perspective constitutes a serious new threat scenario (and also a brilliant opportunity).
+
+> The work presented in this paper is aimed at de-anonymizing the TAILS live CD by enabling traditional forensics techniques against it as well as performing memory analysis of Tor as deployed by the distribution.
+
+That is, he is instructing snoops
+
+* how to process data from a forensic image of the RAM of a running computer which was using Tails in order to use it against the targeted citizen,
+* where and how Tor-related data is kept in RAM, and how that data (if recovered from a forensic image of RAM) can be used to harm the target by recovering the plain text of his \"Tor-protected\" browsing and communications.
+
+There is still another danger faced by our human rights worker inside Syria.  If the secret police burst in just after she has shut down Tails, the sensitive information she was just working with may still be exposed by a \"cold boot attack\"; see
+     
+     https://tails.boum.org/doc/advanced_topics/cold_boot_attacks/index.en.html
+
+Looking ahead to forthcoming projects which furnish \"Tor for the smart-phone-using masses\", it is notable that cold boot attacks may be even more effective on smart phones than they are (so far) on laptops, in part because an attacker can stick the entire phone in a freezer and cool it down for an hour.  (See recent news stories on just such an attack, which is said succeed in recovering all the key material needed to compromise even well encrypted Android phones, which could be a serious problem for users of Silent Circle.)
+
+Case continues:
+
+> Memory analysis of Tor revealed that it makes minimal effort to securely erase memory after it has been used and this allows recovery of historical data such as HTTP headers and requests, downloaded files, visited URLs, and Tor-specific data such as the identity of other Tor network nodes. We also show that the research performed and tools developed during this project are applicable against a number of other live CD distributions and not just TAILS.
+
+I believe (someone please correct me if I am wrong) that the Tails developers have responded by improving memory wiping in more recent editions of Tails, and also by modifying some of the technical details he discusses of how the Tails filesystem works.
+
+Now, anyone who knows anything about currently popular forensic analysis will know that spook journals are chock full of step by step instructions for imaging both volatile and non-volatile memory in various devices which are in the physical possession of the snoop (or investigator, if you prefer), and also for instructions for remotely searching phones and other devices.
+
+Moving significantly beyond the attack described in Case's paper, there is also intense interest among our adversaries in the attractive possibility (for them) of clandestinely and *remotely* imaging the RAM of a PC, laptop, or server which has been booted off a Tails DVD, or which is running a hidden service.  In other words, in realizing a threat scenario in which the targeted device is not in the physical possession of an adversary, but is merely connected to the internet.  This is said to be much harder than recovering usable data from a forensic image of a device seized while booted up, using an operating system such as Tails, but recent marketing literature from surveillance companies like Gamma suggest that these companies fully intend to provide \"script kiddie\" tools which will accomplish this, although so far they stop short of openly boasting that they already can do that.
+
+What could they gain from that?  Pretty much everything.  As Case explains:
+
+> In Tor, every incoming and outgoing message is wrapped in [an encrypted] cell and, unless cleaned, the cell pool contains every cell used by Tor to perform communications. Enumeration of the cell pool gathers all of these cells, including their full content.
+
+In particular, attackers can hope to recover and decrypt the plaintext of all packets sent while using Tor in a given Tor-use session, including the plaintext content of downloaded webpages and files, the plaintext content of encrypted emails, the plaintext content of chat sessions... the works.
+
+But such \"clandestine remote forensic examinations\" necessarily use (advanced) malware to break into the targeted device, to quietly reconstruct the most \"interesting\" data (such as the encryption keys needed to decrypt data streams inside Tor circuits) and then to clandestinely exfiltrate this data.  And this inevitably is tantamount to offering a working copy of the adversaries weapon to the target of those weapons.
+
+For this reason, Case's work should be useful not only to *legitimate* police investigations (do those even any more?) and to secret policemen working for evil regimes, but also to developers of systems like Tails and potentially even to the users of systems like Tails such as business travelers, journalists, bloggers, political dissidents, union organizers, human rights workers, diplomats (especially from smaller or poorer countries), and their families, all of whom may be targeted with state-sponsored malware.
+
+Thus, looking to the near future, it seems to me that it is desirable, even necessary, to teach at risk Tails users how to image the RAM of their own Tails while off-line (but with Tails still running), in case they suspect malware has been successfully inserted into the RAM of an operating Tails system.
+
+It might be easier to back up and first explain how to use standard linux tools to examine the memory map of a PC or laptop running Debian stable (booted off a hard drive), in order to become familiar with what one should expect to find in a \"clean\" system, and in order to become familiar with indications that one has found a portion of a weapon which can be published for reverse engineering by groups like the Chaos Computer Club, which last year was famously able to reverse engineer portions of Gamma malware which had been used to attack computers used by journalists, bloggers, and human rights workers documenting abuses in the MENA (Middle East/North Africa) region.
+"""]]

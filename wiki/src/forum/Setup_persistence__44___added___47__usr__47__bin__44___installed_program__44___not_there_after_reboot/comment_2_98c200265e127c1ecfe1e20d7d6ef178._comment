@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-19T19:34:31Z"
+ content="""
+> i added /usr/bin to the persistence folder
+
+This is not supported and will break your Tails in ugly ways on next upgrade.
+"""]]

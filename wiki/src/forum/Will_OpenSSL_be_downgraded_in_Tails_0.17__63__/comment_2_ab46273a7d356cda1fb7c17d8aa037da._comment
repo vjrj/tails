@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-23T22:57:11Z"
+ content="""
+@ OP
+
+According to Tor's website the current stable version of TBB uses OpenSSL 1.0.0k. I just hope that TBB will be upgraded to OpenSSL 1.0.1e which fixes the bugs that you described.
+
+OpenSSL 1.0.1e was released on February 11, 2013 and has been found to be stable, unlike its predecessor 1.0.1d.
+"""]]

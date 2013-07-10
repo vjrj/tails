@@ -1,0 +1,227 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-10T05:18:36Z"
+ content="""
+The monkeysphere browser plugin has been removed, so what
+the heck is all of this? (and other files, excluded to limit post size)
+
+--------------
+
+/var/lib/monkeysphere/authentication/core:
+
+gpg.conf
+
+pubring.gpg
+
+pubring.gpg~
+
+secring.gpg
+
+trustdb.gpg
+
+/var/lib/monkeysphere/authentication/core# cat gpg.conf 
+# Monkeysphere trust core GnuPG configuration
+# This file is maintained by the Monkeysphere software.
+# Edits will be overwritten.
+no-greeting
+
+--------------
+
+/var/lib/monkeysphere/authentication/sphere:
+
+gpg.conf
+
+pubring.gpg
+
+pubring.gpg~
+
+secring.gpg
+
+trustdb.gpg
+
+/var/lib/monkeysphere/authentication/sphere# cat gpg.conf 
+
+# Monkeysphere trust sphere GnuPG configuration
+# This file is maintained by the Monkeysphere software.
+# Edits will be overwritten.
+
+no-greeting
+
+list-options
+
+show-uid-validity
+
+--------------
+
+/usr/share/doc/monkeysphere/examples# ls
+
+crontab
+
+ssh_config
+
+sshd_config
+
+
+usr/share/doc/monkeysphere/examples# cat crontab
+
+# example Monkeysphere cron job:
+
+# Hourly: update the per-user authorized_keys in /var based on
+
+# ~/.monkeysphere/authorized_user_ids
+
+
+36 * * * * root /usr/sbin/monkeysphere-authentication update-users
+
+------------
+
+/usr/share/doc/monkeysphere/examples# cat ssh_config
+
+# Monkeysphere ssh config stanza (for ~/.ssh/config or /etc/ssh_config)
+
+# This checks for host keys in the OpenPGP WoT:
+Host *
+
+ProxyCommand monkeysphere ssh-proxycommand %h %p
+------------
+
+/usr/share/doc/monkeysphere/examples# cat sshd_config 
+
+# Monkeysphere sshd config (for use in /etc/sshd_config)
+
+# This checks for user keys in the OpenPGP WoT:
+
+AuthorizedKeysFile /var/lib/monkeysphere/authorized_keys/%u
+
+# be sure to also add a scheduled job to update these keys
+
+# (see the example cronjob)
+
+--------------
+
+/usr/sbin# file monkey*
+
+monkeysphere-authentication: a bash script text 
+executable
+
+monkeysphere-host:           a bash script text executable
+
+--------------
+
+usr/bin# file monkey*
+
+monkeysphere:                  a bash script text executable
+
+monkeysphere-validation-agent: symbolic link to `/etc/alternatives/monkeysphere-validation-agent'
+
+--------------
+
+/usr/share/perl5/Crypt/Monkeysphere/MSVA# file *
+
+Client.pm:     UTF-8 Unicode Pascal program text
+
+Logger.pm:     UTF-8 Unicode Pascal program text
+
+MarginalUI.pm: UTF-8 Unicode Pascal program text
+
+Monitor.pm:    UTF-8 Unicode Pascal program text
+
+--------------
+
+/usr/share/perl5/Crypt/Monkeysphere# file *
+
+MSVA:    directory
+
+MSVA.pm: UTF-8 Unicode Pascal program text
+
+--------------
+
+/usr/share/monkeysphere# file *
+
+checkperms:                                a /usr/bin/perl -T script text executable
+
+common:                                    ASCII English
+text
+
+defaultenv:                                ASCII English text
+
+keytrans:                                  a /usr/bin/perl -T script text executable
+
+m:                                         directory
+
+ma:                                        directory
+
+mh:                                        directory
+
+monkeysphere-authentication-keys-for-user: a sh script text executable
+
+transitions:                               directory
+
+VERSION:                                   ASCII text
+
+
+--------------
+
+/usr/share/monkeysphere/m# file *
+
+gen_subkey:             ASCII English text
+
+import_subkey:          ASCII English text
+
+keys_for_userid:        ASCII English text
+
+ssh_proxycommand:       ASCII English text
+
+subkey_to_ssh_agent:    ASCII English text
+
+update_authorized_keys: ASCII English text
+
+update_known_hosts:     ASCII English text
+
+--------------
+
+/usr/share/monkeysphere/ma# file *
+
+add_certifier:    ASCII English text
+
+diagnostics:      ASCII English text
+
+list_certifiers:  ASCII English text
+
+remove_certifier: ASCII English text
+
+setup:            ASCII English text
+
+update_users:     ASCII English text
+
+--------------
+
+/usr/share/monkeysphere/mh# file *
+
+add_name:    ASCII English text
+
+add_revoker: ASCII English text
+
+diagnostics: ASCII English text
+
+import_key:  ASCII English text
+
+publish_key: ASCII English text
+
+revoke_key:  ASCII English text
+
+revoke_name: ASCII English text
+
+set_expire:  ASCII English text
+
+--------------
+
+/usr/share/monkeysphere/transitions# file *
+
+0.23:       Bourne-Again shell script text executable
+
+0.28:       Bourne-Again shell script text executable
+
+README.txt: ASCII English text
+"""]]

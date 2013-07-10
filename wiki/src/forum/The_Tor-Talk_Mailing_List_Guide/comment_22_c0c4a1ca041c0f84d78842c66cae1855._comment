@@ -1,0 +1,40 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 22"
+ date="2012-12-28T16:17:56Z"
+ content="""
+@ Comment 15:
+
+Thank you, Tails!  And don't let the fuss wear you down.  As I think you realize, there are some readers who are genuinely frustrated but who want to learn or create a better way to get what we need, and also one or more who are simply trolling.
+
+@ Comment 10:
+
+I for one do realize that, and \"Tails\" has confirmed it, and added that the shared account will change.  I don't find this terribly confusing, but I don't think shared posting accounts are a good idea for other reasons.
+
+@ Comment 11:
+
+Thanks, but as the recent Petraeus-Broadwell incident should have reminded everyone, in general sharing a webmail account is probably not a good idea for soooo many reasons.  And of course unless someone changes the password it is now an open account whose inbox can be read by everyone in the world, right?  Could be problem if automated \"confirmation\" emails arrived, for example.
+
+I'd be more interested in hearing in detail how you registered a Tormail account.
+
+@ Comment 14:
+
+Took me a moment to understand that \"version 3\" means \"version 3 of the tutorial\", but many thanks for the Tor-talk version.  Since the Tails ikiwiki forum is said to be going away eventually, the Tor-talk version has a better chance of remaining available for others who need this information.
+
+> No care about https
+
+Well, *I* care very much about that, so I might not be able to follow your instructions very closely.  But I hope the tutorial will help me make progress towards solving the problem of contacting the Tor community.
+
+Here are two followup requests, addressed to anyone who can explain:
+
+It would be enormously helpful if someone who has actually been able to chat with Tor developers can post a similar tutorial (probably in Tor-talk) giving details of how to use OTR/Pidgin under Tails to contact Tor developers for private discussion of a bug-like issue, for example.
+
+It would be enormously  helpful if someone who has actually been able to chat with Tails developers posted a similar tutorial in this forum.
+
+I feel these requests are \"on-topic\", or at least \"on-point\" in that I am attempting to address the issue of \"off-topic\" discussions in this forum.  Thanks to everyone who has contributed, and please, more of the same!  If I and others with similar concerns get enough ideas, I am cautiously optimistic that we will be able to make progress in the new year.
+
+About China, strictly speaking this is not about Tails itself, but I think it is a very important topic.  I think Chinese citizens could and probably should provide a huge portion of the Tails user base, and I think the Tails community should be doing everything it can to help ensure that people in China can reach the uncensored internet, and evade government surveillance of dissident communications.   And even the central government admits that more whistleblowing is needed in China, so we should try to help with that too.
+
+
+
+"""]]

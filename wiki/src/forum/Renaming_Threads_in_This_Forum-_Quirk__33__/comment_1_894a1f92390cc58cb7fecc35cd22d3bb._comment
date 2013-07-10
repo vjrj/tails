@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-28T00:56:07Z"
+ content="""
+Oh dear!
+
+Sounds like you've found a bug! I expect the incident will be noticed in the morning but it certainly wouldn't hurt to [report a bug](https://tails.boum.org/doc/first_steps/bug_reporting/index.en.html) describing what you did and the effect it had. 
+"""]]

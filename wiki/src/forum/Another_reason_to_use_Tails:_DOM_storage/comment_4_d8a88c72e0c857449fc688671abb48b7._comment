@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-11T04:56:24Z"
+ content="""
+Hey op, do you keep a bunch of old newspaper clippings glued to your wall? What about pictures of various figureheads cut out from popular magazines? Do you feel like there's always someone watching you? Then you might just be a paranoid narcissistic delusional.
+
+1st off i read the links, etags, evercookies, auth tags, every single one of these articles states that firefox has already made them erasable, and TBB does not allow any of this to be stored between sessions. 
+
+So you make the case of DOM storage, well i tried your suggestion and monitored cookies.sqlite and places.sqlite and chromeappstore.sqlite and visited a few sites noting the size of those files, not one of them changed. Not only did they not change, but my normal FF browser, which saves a whole helluva lot of persistent data had the exact same file sizes. Alright, maybe they're fixed sizes, lets take a look inside.
+
+Chromappstore.sql - Nothing
+Cookies.sqlite - Nothing
+Places.sqlite - Holy fuck, every site ive ever visited on TBB. Lol, no its just my bookmarks. 
+
+And then all this stuff about hackers clandestinely and remotely imaging my harddrive, um wtf, if you had actually bothered to read how any of those state sponsored attacks occurred you would have found that each and every time it wasnt a flaw in the computer systems that cause them to be hacked, it was their dumb ass employees getting phished or engineered into downloading their malware.
+
+I dont know what scifi hollywood hacker movie you watched (maybe swordphish *hold on im typing really fast cause im haxxoring their servers extra hard*) but there is no possible way to remotely deploy malware on someones computer without them either accepting it manually or by them leaving a big fucking gaping hole in their firewall on their unpatched SQL server. 
+
+If there were persistent data between TBB/tails sessions i think someone would have called them out on it, there are alot of very computer literate people who know all about web tracking who use these tools.
+
+"""]]

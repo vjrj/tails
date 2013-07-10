@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 25"
+ date="2012-12-31T16:10:42Z"
+ content="""
+@ \"Tails\":
+
+Some Tails users are growing increasingly concerned about
+
+* your permitting such astonishingly rancid comments as 24 to go unchallenged 
+* your refusal to explain why it is \"necessary\" to leave a \"testing\" script (executable, even) in production releases of Tails
+
+It is true that anyone who gains root access to someone's Tails system can do all manner of things to the victim, but isn't that besides the point?
+
+Leaving such a dangerous script in a default location, executable even, *looks* awfully like a deliberate sop to the Man making it easy to subvert Tails.  I don't want to believe that is true, but your refusal to give a reasonable explanation as to why a \"testing\" script is left lying around as an *executable script* in the production releases is worrisome.  I don't see why it is so silly to worry that it might be accidentally triggered, or that leaving it there might assist attackers who wish to leave few traces by exploiting something already lying around inside a Tails system.
+
+Have you ever heard the saying, \"don't stoop to tie your shoelaces in your neighbor's melon patch\"?
+
+Because keeping dangerous scripts around, executable even, is worrying Tails users, would it be so hard to simply remove all \"testing\" scripts just before issuing the next product release?
+
+Regarding comments like Comment 24, I would like to suggest to anyone who has been the target of such comments to read this nice blog:
+
+* http://dissenter.firedoglake.com/2012/12/28/jacob-appelbaum-on-resisting-the-surveillance-state/
+
+The surveillance state is, alas, no delusion.
+
+"""]]

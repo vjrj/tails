@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-08T06:29:59Z"
+ content="""
+> is there a log that contains exit nodes that have been used during a tails session?
+
+I don't think so, but this is a general question about Tor, so you'll be better served by asking on the Tor support channels.
+
+"""]]

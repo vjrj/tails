@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-30T21:39:05Z"
+ content="""
+>The problem is that my very large ISP mandates a specific custom router supplied by them, and I assume it is backdoored.
+
+This is almost certainly nothing more than baseless paranoia. Once the device is in your possession you are at liberty to examine it - the hardware, software and configuration. You might also scan it for open ports or protocols, dump & decompile the \"firmware\", sniff its external traffic, etc. As can anyone else using your ISP. Between your own investigations and those of more technically competent people in the same situation, any such shenanigans could quickly be exposed - resulting in significant humiliation and loss of trust/business for the ISP.
+
+This \"specific custom router\" is likely to be nothing more than a pragmatic approach to getting the plebs online with minimal fuss. It's probably pre-configured with the ISP specific connection settings, then locked. Thus the ISP can minimise the tech support nightmare of myriad impatient calls from myriad angry plebs trying to use myriad arbitrary bits of kit after failing to properly configure them. Or fiddling with the provided equipment until it ceases to function... etc..
+
+>But what does this mean, if anything, for Tails users and our security?
+
+Not a lot. You use Tails/Tor *because* you distrust your ISP and/or other links in your internet connection. It makes little practical difference whether the equipment you distrust is housed in a telephone exchange, a data centre or your living room.
+
+>Can they spy on us at will, or what?
+
+Of course. That's why some of us choose to use Tor and the like.
+"""]]

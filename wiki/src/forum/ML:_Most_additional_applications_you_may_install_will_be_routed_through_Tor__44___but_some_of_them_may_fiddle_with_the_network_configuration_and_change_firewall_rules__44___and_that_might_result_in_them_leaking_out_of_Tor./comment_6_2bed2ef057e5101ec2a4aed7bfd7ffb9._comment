@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-10T23:33:27Z"
+ content="""
+>Most additional applications you may install will be routed through Tor, but some of them may fiddle with the network configuration and change firewall rules, and that might result in them leaking out of Tor. 
+
+You really shouldn't be installing anything you don't understand without checking what it does...
+
+But... I'll bite...
+
+**Examples please**
+"""]]

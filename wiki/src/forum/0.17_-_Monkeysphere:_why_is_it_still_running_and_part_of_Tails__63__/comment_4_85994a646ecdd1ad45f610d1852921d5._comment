@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-11T14:48:47Z"
+ content="""
+> is this a backdoor for tails developers via ssh?
+
+Please don't spread uninformed and undocumented FUD here, and please don't paste links you obviously have neither read nor understood: they're useless but to waste everyone's time.
+
+> why is it still running
+
+msva-perl runs because Monkeysphere was a more or less supported feature of Tails for years, so we don't want to make it too hard for its existing users to go on using it. Given msva-perl is a X session wrapper, it's a pain to install it inside Tails (you have to logout / login after installing). So, existing users of Monkeysphere in Tails just have to configure their software to use it etc.
+
+The OP's question was answered so this thread is now closed.
+
+"""]]

@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 20"
+ date="2013-02-05T21:59:19Z"
+ content="""
+OP to  \"Tails\":
+
+> I acknowledge this is problem. The good news is that this problem is well known, as is its solution: improving the diversity of the Tor network, by running more high-traffic exit nodes. So, I think this topic needs absolutely no additional discussion (especially, not here), but actual action, 
+
+Fair enough.  
+
+Tails and TBB make it easy to run a relay (thanks!), but my bandwidth is limited and when using Tails I reboot too frequenly to make that useful.  Also, the latest thinking seems to suggest that it is not after all such a good idea to surf and relay using the same computers.
+
+I think the best way to operate a Tor node (even a modest relay) is to use a *dedicated* computer you own and possess (ideally in a locked room), which you have set up to do little or no logging.  Better yet (probably) if it runs right off a DVD and uses as little unneccessary software as possible, which could make it possibly harder for external intruders to access (and if you suspected anything, you could just reboot from the DVD).  Better yet if that dedicated computer has the hard drive physically removed.
+
+The Tor Project says they prefer people to sponsor a fast node in Amazon, but I am not sure that it is at all wise to move Tor nodes into the cloud.  To mention just two problems:
+
+First, from
+
+     https://www.pcworld.com/article/2026493/googles-transparency-report-doesnt-reveal-everything.html
+
+> Concerns about these laws recently prompted the European Parliament's Directorate General for Internal Policies to warn companies in the EU about the potential privacy implications of having their data hosted with U.S cloud services.
+
+The Amazon cloud has been specifically mentioned by European privacy groups as among the biggest sources of concern about (privacy-weak) U.S. laws breaking (privacy-stronger) European laws by exposing European citizens to intrusive and warrantless scrutiny by the rapacious data slurping of the American global surveillance system.
+
+Second, while operating a Tor node in the cloud might mean that police don't break down your door if someone decides to harrass you, but while that is an awful prospect you would at least be able to tell the world that your Tor node was seized, and if you physically control your Tor node you have some chance of ensuring that it does not log connections.
+
+> that would be better organized on the mailing-list dedicated to Tor relay operators.
+
+The mailing-list Catch-22 again.  Why this strange insistence on mailing lists?  We want to help, but we don't want our modus Petraeus to betray us.
+"""]]

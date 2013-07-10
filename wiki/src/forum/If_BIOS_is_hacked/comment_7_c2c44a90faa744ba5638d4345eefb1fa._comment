@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-04-19T22:15:09Z"
+ content="""
+>the media TAILS is booted from is read only (RO)
+
+Yes, but in the case of a USB stick (i.e., flash media), there is no actual *physical* block to prevent writing. Thus, as was stated in comment 4:
+
+>>an attacker could alter the contents of a Tails USB stick if he were to gain control over a running Tails session.
+
+>the HDDs are not mounted, so cannot be read or written.
+
+A sophisticated and determined enough attacker can still mount and gain access to any connected media. 
+
+(How great a risk this is would obviously depend on the individual use case. I think it can safely be said that if that if a TLA*-grade adversary is interested in you, you wouldn't be unreasonable to be worried about connected media (drives). How much below that would still be a concern, I'll leave to others to give some idea of.)
+
+*TLA= \"Three-Letter-Agency\", e.g., FBI, CIA, NSA, MI5, etc.
+
+>any surviving malware in RAM would get wiped when the power is shut down.
+
+In *RAM*, yes, but...see above.
+"""]]

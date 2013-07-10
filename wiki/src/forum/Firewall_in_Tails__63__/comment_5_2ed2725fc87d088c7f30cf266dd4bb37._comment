@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-04T15:34:25Z"
+ content="""
+Good link; thanks. 
+
+I should have said that my test of Tails 0.17.2 individual firewall tested *incoming* connections, whereas the biggest danger to Tails users is probably applications (such as add-ons installed by the user for one reason or another) which possibly (through some bug) could result in *outgoing* connections which don't go through Tor and thus reveal the users true IP address.
+
+I have been playing with Wheezy in advance of this weekend's release of Debian 7.0 (other identities by which Tails users may know it: Wheezy, new stable branch, former testing branch).  
+
+Wheezy's default firewall is rather permissive (as was true of Squeeze), but there are several firewall scripts which (like Tails) \"stealth\" all *inbound* (so that system does not respond at all to traffic sent on the LAN to those ports), but which almost certainly are much more permissive than we really want concerning *outbound* connections.  It occurs to me that it might be worth explicitly warning Tails users against live installing a firewall script in a Tails system, since this would almost certainly break the protections provided by Tails!
+
+*Don't live install a firewall scripting Debian package in your Tails system!*
+
+I hope that injunction is unneccessary, but it sounds like the sort of thing I might possibly have tried myself when I knew less than I do now.
+"""]]

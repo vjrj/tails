@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-26T20:58:19Z"
+ content="""
+> http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+
+That is the official USB installer for Tails on Windows, it seems. But there is no way to verify it's integrity. No HTTPS, no GPG-signature as far as I can see.
+
+Whether or not it was a MITM-attack here: Can the Tails developers host this installer on tails.boum.org, instead of sending users to a third-party site without MITM-protection.
+"""]]

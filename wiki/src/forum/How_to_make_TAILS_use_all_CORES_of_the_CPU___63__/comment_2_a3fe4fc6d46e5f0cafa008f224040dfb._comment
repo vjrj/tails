@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-11-14T18:04:07Z"
+ content="""
+How did you install Tails? Only supported installation methods get the optimal kernel autodetection feature.
+
+If you did use a supported installation method, then that's a bug that [[should be reported with WhisperBack|doc/first_steps/bug_reporting]]. Else, there's not much we can do.
+
+"""]]

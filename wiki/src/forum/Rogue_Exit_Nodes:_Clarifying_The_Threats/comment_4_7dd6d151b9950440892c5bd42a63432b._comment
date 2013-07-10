@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-30T19:37:31Z"
+ content="""
+OP's main, most important question can probably be boiled-down to:
+
+*Can Tails/Tor be used to visit NON-SSL (HTTP) with any reasonable degree of safety?*
+
+Or, put another way,
+
+*If a site doesn't support SSL, is it basically out of the question for the Tails/Tor user, for all practical intents and purposes?*
+"""]]

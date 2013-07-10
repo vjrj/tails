@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-07T23:43:28Z"
+ content="""
+That shouldn't matter, they said nothing about rebooting the computer, only restarted the browser. I noticed this two, if you restart Iceweasle it goes back to \"allow scripts globally\", it would be nice if this didn't happen.
+"""]]

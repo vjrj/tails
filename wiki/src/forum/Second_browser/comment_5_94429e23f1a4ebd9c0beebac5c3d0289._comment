@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-17T20:43:53Z"
+ content="""
+I was about to suggest a method similar to @comment 4. Different profiles allow separate, indipendent logins (but the site may still notice that they come from the same IP, which is the TOR exit node IP, not yours of course)
+"""]]

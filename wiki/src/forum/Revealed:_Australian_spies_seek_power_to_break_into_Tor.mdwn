@@ -1,0 +1,25 @@
+The Attorney-General’s Department has admitted data retention will be “trivially easy” to avoid and that intelligence services want to be able to break into encrypted internet systems like Tor.
+
+In a major admission, the Attorney-General’s Department has revealed Australia’s intelligence and law enforcement agencies are seeking the legal power to break into internet routing encryption services such as Tor, after admitting the centerpiece of its proposed national security reforms, data retention, will be “trivially easy” to defeat.
+
+The admission by officials to Senate Estimates last night will give rise to further concerns that the department, which has systematically and aggressively expanded the powers of intelligence and law enforcement agencies at the expense of civil liberties and privacy, wants far stronger powers to regulate the internet and break into encrypted systems in order to keep an eye on what Australians are doing online.
+
+In an exchange at the department’s estimates hearing last night with Greens Senator Scott Ludlam, the department’s head of telecommunications and surveillance law, Catherine Smith, agreed that evading data retention (a proposal backed by the department that would force ISPs and telecommunications companies to retain records of internet and telephone usage) would be “trivially easy” for anyone using services like the widely used internet routing service Tor, which encrypts and re-routes internet traffic through a series of relays to disguise its origins.
+
+“That’s the reason [agencies] want to see major reforms to the legislation, to give them better tools to deal with these new technologies,” said Smith. Ludlam: ”Presumably those tools would need to include breaking those sort of encryption services so they could be used.” Smith: “Probably.”
+
+Unlike Prime Minister and Cabinet officials earlier this week, AGD officials actually knew what Tor was and understood that being able to encrypt and re-route internet traffic would prevent service providers from recording what customers were doing online and prevent law enforcement agencies from linking a user to an IP address.
+
+In addition to Tor, many commercial virtual private networks, which offer encryption and routing services, do not record any detail of the traffic passing through their servers, making it difficult for law enforcement agencies, if they could find a way to legally compel VPNs to comply with subpoenas from another country, to obtain records of internet usage even if encryption were broken.
+
+Tor developer and Cypherpunks co-author Jacob Appelbaum has previously criticised the department’s suggestion it would seek to break encryption systems, pointing out that the encryption keys used by Tor are temporary and never known to system administrators, making breaking them or trying to subpoena them useless. “I’m sorry to hear that Australian politicians are interested in joining the ranks of China, Russia, Iran and Belarus to name a few,” he told Crikey in response to the Department’s admissions last night. Appelbaum makes the point that trying to breach encryption systems ultimately makes everyone less secure, including governments.
+
+“If they wish to break such services, they ensure that when they use such services, they will also be insecure — this ensures again that only criminals will have privacy, regular people — including the police fighting crime — they will be left out of having strong privacy. This opens business people up to industrial and economic espionage. It also promotes the idea that to make ourselves more secure, we should weaken our networks and add the very backdoors that most attackers work day and night to create,” he said.
+
+“This isn’t just a civil liberties argument, I might add — though to be free from suspicion is a key part of the civil liberties battle. This is a matter of economic security as well as national security. Data retention presents a very large attack surface and the larger the attack surface, the more valuable the target, the more damage an attack will rain down on those impacted by such data retention. This is true for surveillance and censorship as much as the data collected from such systems. This in itself is threat to national security — when an attacker may know what every politician, every kid, every business person — what everyone is doing and thinking online.”
+
+The Attorney-General’s Department has previously flagged that it is working with its counterparts in Anglophone jurisdictions on ways to bring offshore services providers under legal control, raising the possibility that Australia could co-operate with the US, the UK, Canada and New Zealand to establish an international framework to force offshore-based internet services to hand over administrative control.
+
+
+
+http://www.crikey.com.au/2013/05/30/revealed-australian-spies-seek-power-to-break-into-tor/

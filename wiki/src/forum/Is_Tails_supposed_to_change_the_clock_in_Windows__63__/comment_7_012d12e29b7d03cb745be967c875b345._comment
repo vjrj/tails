@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-27T10:41:14Z"
+ content="""
+> When I reboot my Debian 6.07 machine after using Tails 0.17 my hardware clock is off by several hours.
+
+This is neither intended nor expected. Last time we've checked,
+we were unable to reproduce this, so unfortunately I don't really
+see how we can help on that one, unless you debug it yourself
+using `hwclock`.
+"""]]

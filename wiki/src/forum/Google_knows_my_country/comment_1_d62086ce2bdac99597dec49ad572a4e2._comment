@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-30T17:26:06Z"
+ content="""
+Are you using Tails 0.16 when this happens?  What language setting is your Tails using?  Your browser almost certainly declares some language setting whenever you surf to any website. (technically, when your browser issues a GET request using http protocol, this information shows up in the header of the GET request.)
+
+Try using Tails to fetch this webpage:
+
+     http://browserspy.dk/headers.php
+
+Look at the line HTTP_ACCEPT_LANGUAGE in the header sent by your browser.  If it is en-us, that is probably why google.com web servers assume you want the en-us version of its website.
+"""]]

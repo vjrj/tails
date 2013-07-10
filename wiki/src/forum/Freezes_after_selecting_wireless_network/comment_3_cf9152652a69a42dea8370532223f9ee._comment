@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Same problem- resolved"
+ date="2013-05-14T07:29:01Z"
+ content="""
+I found that by going into BIOS on startup and enabling the network boot my problem was resolved. (F12 on startup)
+"""]]

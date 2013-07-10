@@ -1,0 +1,34 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-01T20:59:17Z"
+ content="""
+From a thread in Tor-Talk:
+
+     https://lists.torproject.org/pipermail/tor-talk/2013-January/027166.html
+
+Question:
+
+> Can anyone tell me what mechanisms we (or the Tor Project members)
+have in scanning for malicious exit nodes. Such as nodes that are
+manipulating DNS requests, stripping SSL, etc. I know of the SOAT
+project from Mike Perry but the last I heard there was a GSOC dev
+working on the project. Is that still being used?
+
+Reply:
+
+> In theory there are SoaT scanners running and sending their
+reports to...
+
+     https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-exitscanner
+
+> ... but that hasn't been maintained in quite some time. The last
+report to tor-exitscanner@ was on 6/9/12 and as I understand it SoaT
+needs a lot of love. In addition to that our process for giving relays
+a BadExit flag even after they're reported is really poor, requiring
+manual intervention by three extremely busy people.
+
+> Like many of our spaces the trouble is that there's no one presently
+dedicated to making it better. It looks like a fun area (I've been
+tempted to write a SoaT counterpart for years) but lack the bandwidth.
+"""]]

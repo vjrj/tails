@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="A good idea actually"
+ date="2012-11-05T04:03:36Z"
+ content="""
+>This is incorrect. What you persist in attempting to do on this wiki is of NO value. No, \"no value\" isn't quite accurate. What you persist in attempting to do is a danger to anyone else who doesn't understand or can't be bothered to verify their downloads correctly.
+
+If you do \"verify\" the download using the digital sig, then verifying these checksums increases your security.
+
+What if someone with access to the Tails signing key is signing more than one version; one for good guys and one for bad guys? Are there any computers with the Tails developers signing key that are attached to the Internet? Would this be completely immune to hacks from groups such as the NSA or Lulzsec? What if a Tails developer is not trustworthy?
+
+Is the connection to a keyserver \"verified\" using a digital signature? This forum can use a TLS connection using the digital signatures that come with the web browser.
+
+What if you don't want your ISP, etc, to know you are using Tails? Can they see which signing key you are downloading from the keyserver or is it encrypted? You can torify the connection to the keyserver but that's more difficult than using Torbrowser to connect to this forum. You could use Tails to connect to the keyserver (if it is encrypted with TLS not SSL) but at that time your Tails version will have \"numerous security holes\" which are more public than before.
+
+What about people who download Tails signing key, use it over and over, and leave it on a computer that is comprimised? It would be easier to get the machine to say every signature is valid rather than getting it to change the hash files on this forum.
+
+The Tails team would never come down so hard on someone who was helping to prove they are not distributing some trojaned versions. These Anonymous discouragers are probably just KGB agents who fear we will uncover their plots. :o)
+"""]]

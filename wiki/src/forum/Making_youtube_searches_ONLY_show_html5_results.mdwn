@@ -1,0 +1,18 @@
+Hey everyone.
+
+Wanted to know... Since Tails has a html5 browser to watch videos on youtube, but no support for flash only videos (security and privacy issues), wouldn't it make sense to have a youtube search ONLY showing html5 videos? That way we wouldn't waste our time trying to open videos that tails can't load.
+
+A sugestion on how to do it is found here
+
+    Select Bookmarks > Organize Bookmarks. A bookmark manager dialog opens.
+    In the left column, choose a location for the new bookmark you’re creating. Next, choose Organize > New Bookmark (on MacOS click the gear icon). The new bookmark dialog opens.
+    In the Name box, type WebM.
+    In the Location box, type http://youtube.com/results?search_query=%s&webm=1.
+    In the Keyword box, type webm.
+    Click Add.
+Now you’re ready to search. In the location box of the browser, type webm monster trucks. The YouTube search results page will open with a selection of monster truck videos encoded in the WebM format
+
+
+I tried it with Torbrowser and works quite nicelly, So would it be a good idea to have it in icewasel by deafult?
+
+A suggestion I think will help a lot of people =)

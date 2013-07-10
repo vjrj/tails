@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-27T23:08:26Z"
+ content="""
+'scuze typos, there's a double slash in those env vars of course: 
+export HTTP_PROXY=\"http://127.0.0.1:4444/
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-25T05:31:57Z"
+ content="""
+Someone else just asked about booting from \"the live CD\" version of Tails, and it turned out he or she had tried to burn the Tails 0.13 iso image, but its too big to fit on a CD, so when s/he tried to boot from the CD, s/he got an \"operating system not found\" error message.  Sof if you made the same mistake, try burning the iso image (I assume you verified it using the detached signature and the Tails signing key) on a DVD.
+
+As for booting from the USB stick, if your computer is older but not ancient, it might have a USB port and it might be able to read from and write to a USB stick, but not be able to BOOT from a USB stick.  In that case you'll have to stick to running Tails from the DVD.  If so, how much RAM (volatile memory) do you have available?  Some older laptops might have less than 1GB which might make Tails rather unstable.
+
+
+"""]]

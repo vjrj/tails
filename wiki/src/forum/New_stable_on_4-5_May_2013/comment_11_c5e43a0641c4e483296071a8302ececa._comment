@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-05-02T15:33:13Z"
+ content="""
+F/U on the comment about FF crashing in gnome-3 under Wheezy when clicked on link in search page results:
+
+Testing TBB-2.3.25-6 with LXDE desktop environment under Wheezy and not seeing that problem when disable automatic image loading and javascript.
+
+XFCE may be slightly more usable than LXDE for TBB or Tails, if you like to keep browser in one desktop, network map in another, and iftop or watch in a third, because XFCE has four desktops while LXDE has only two.
+
+It seems that offering either or both LXDE and XFCE as alternatives to gnome-3 may work reasonably well for future Tails editions based on Debian Wheezy.
+"""]]

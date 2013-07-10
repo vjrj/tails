@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-10-21T17:56:35Z"
+ content="""
+As I understand it when you run apt-get update you receive a Release
+file signed with the Debian key. This contains an MD5 sum of
+Packages.gz which in turn contains MD5 sums for all the packages that
+are available for updating or downloading.
+
+Then you download the packages and an MD5 sum is generated for each.
+
+The signature of the release file is then checked and the MD5 sum that
+it contains is used to check the integrity of the Packages.gz file
+and, if okay, the MD5 sums are used to compare against the checksums
+of the downloaded packages. If the sums don't match the packages are
+not installed.
+
+Whether or not you are correct in your assertion that anybody can fake
+a domain and maintain a fake repo of trojanned binaries I don't think
+anybody could fake the Debian signature. I hope I'm right about that.
+"""]]

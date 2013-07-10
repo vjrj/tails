@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-19T17:53:53Z"
+ content="""
+I did indeed read the documentation. Which still leaves alot of questions on how to install a bitcoin client on a tails persistent partition. First of all, what client should be used for tails? Linux version? Second, I am not concerned with the security of the partition itself, so how would I go about loading the Linux version of Bitcoin onto the tails persistent drive. I have downloaded and extracted the files necessary and bitcoin client runs but craps out at about 64k records because the tails sys partition appears to run out of space. How do I get bitcoin to run in the persistent partition so that it will have plenty of space to install blockchain. 
+"""]]

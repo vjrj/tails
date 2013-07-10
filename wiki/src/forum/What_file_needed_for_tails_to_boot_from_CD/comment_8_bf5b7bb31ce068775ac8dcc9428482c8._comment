@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-01-09T15:52:39Z"
+ content="""
+All you have to do is burning the ISO image you downloaded to a DVD, and it will be bootable. No modifications at all should be done.
+
+Just to rule out the obvious, you did burn the ISO file as an image right, not just the files that was inside the ISO file? One crucial part of the bootloader resides outside any file, and simply copying the files will miss this part making it impossible to boot the DVD.
+
+Also, there should not be any files in the root. Just a few folders (three IIRC). In one folder named either \"syslinux\" or \"isolinux\" all the boot files should be (the kernel \"vmlinuz\" may be in another folder).
+"""]]

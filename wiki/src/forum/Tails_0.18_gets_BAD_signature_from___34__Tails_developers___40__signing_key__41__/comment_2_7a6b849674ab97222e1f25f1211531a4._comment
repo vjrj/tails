@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Another BAD signature"
+ date="2013-05-19T04:01:59Z"
+ content="""
+I also downloaded tails 0.18 (torrent) and had the same error:
+
+gpg --keyid-format long --verify tails-i386-0.18.iso.pgp tails-i386-0.18.iso
+gpg: Signature made Thu 16 May 2013 07:58:32 AM UTC
+gpg:                using RSA key 1202821CBE2CD9C1
+gpg: BAD signature from \"Tails developers (signing key) <tails@boum.org>\"
+
+
+I re-opened the torrent file and after re-downloading some chunks I tried to verify it again and it was still bad. Hmm. odd?
+"""]]

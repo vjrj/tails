@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-28T08:18:22Z"
+ content="""
+I dont know why tails would say that unless he was concerned about users visiting malicious websites. Its actually better in tor to remain connected all the time (and as a relay) to hide usage patterns.
+"""]]

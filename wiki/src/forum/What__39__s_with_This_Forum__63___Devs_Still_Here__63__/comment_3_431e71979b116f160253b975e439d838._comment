@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-28T07:28:37Z"
+ content="""
+>Tails developers are working mainly on their free time and we are mostly very very busy. Sometimes we also go on holidays
+
+I appreciate all that and did not mean to complain. 
+
+But in all the years I've been following this forum now, this was the first time I can recall such a long time passing without seeing a post from \"Tails\".
+
+That alone was enough to make me wonder what might be going on behind the scenes. Add the odd behavior I described, and the whole situation was especially unnerving. 
+
+May I suggest that in the future, if, say, more than a few days go by without any posts from a Tails dev, that you put a notice at the top of the forum home page and/or the news page to alert people?
+
+Could go something like: 
+
+*NOTICE: Tails devs have been unusually busy (or on vacation, etc.) and have not had a chance to reply to posts in the forum for several days now. We hope to be back______. In the meantime, helpful info may be found by searching or browsing the forum. Users may also wish to try the Tails Dev Email List <url> , where complete archives can be viewed. Thanks for your patience and sorry for any inconvenience.*
+
+>Regarding disappearing stuff. Sometimes people duplicate posts or answers and we try to delete such duplicates.
+
+It was more than just disappearing stuff. 
+
+The first error that I quoted in the post linked in the OP of this thread read:
+
+>>Error: /var/www/boum.org/amnesia/forum/Cannot_customize_Iceweasel_Toolbars/index.html independently created, not overwriting with version from forum/Cannot_customize_Iceweasel_Toolbars
+
+That was obviously a *completely different* thread than the one I had been trying to create.
+"""]]

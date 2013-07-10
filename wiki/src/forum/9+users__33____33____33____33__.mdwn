@@ -1,0 +1,7 @@
+amnesia@amnesia:~$ uptime
+ 22:20:30 up 25 min, 10 users,  load average: 0.22, 0.25, 0.23
+
+
+ 10users ???  is this mean im being hacked
+or is that normal ?  if i recall redhat/deb only have 3-5 users
+when you do this command :  uptime

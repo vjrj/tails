@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-25T01:55:18Z"
+ content="""
+If you're really determined you could boot into a bootloader stored on a medium your machine does use and then that to boot the USB Tails.
+
+e.g. I might burn a Grub2 boot CD with a custom config extracted and appropriately adjusted from the Tails ISO. You can read all about this sort of bootstrapping all over the web. There are also some very helpful guides in this forum.  This forum has its own search toll and the web has Google ;)
+
+If that sounds too much like hard work then maybe a new computer or using a Tails DVD would be better solutions for you.
+"""]]

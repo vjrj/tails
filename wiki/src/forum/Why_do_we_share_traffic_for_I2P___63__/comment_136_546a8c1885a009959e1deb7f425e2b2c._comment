@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="@comment 133"
+ date="2012-10-25T13:19:14Z"
+ content="""
+> I2P users might be anonymous to each other but that is as far as it goes as you are not hidden from network logs.At least with Tor you only exist to your own ISP and the entry nodes.I2p you exist to thousands of computers and network logs by your ip address.
+
+This is not the case. The only direct connections your router makes are to the gateways for your outbound tunnels, the endpoints for your inbound tunnels, and any participating tunnel connections (which are disabled by enabling \"hidden mode\"). All other connections are made through those routers within the I2P network. So an average I2P router might only directly connect to a handful of other routers, yet still know several hundred. The only way your router would ever be connected to thousands of other computers is if it became floodfill, which is highly unlikely for a transient router.
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Watching Youtube videos"
+ date="2013-03-13T05:26:15Z"
+ content="""
+I think I can help a little...
+
+Youtube has an experimental feature for html 5 that will allow you to watch most videos. Just append \"&html5=1\" to the end of the url. This will work for all videos that do not have advertisements. Eventually, I'm sure it will work for all videos.
+
+You may also need to add an \"allow\" exception to noscript to access the video.
+
+I'm not sure of the impact html5 will have on the tor network.
+
+"""]]

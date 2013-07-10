@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-30T21:30:00Z"
+ content="""
+> the 'Subject' line of emails sent via Tails w/Tor is still viewable by an attacker
+
+Not always, depending upon how much access that attacker has to the relevant networks.  Some internal emails may never leave a private network.  But yes, in general once email leaves a mailserver for the internet at large, it is very hard to prevent snoops from having many opportunities to see that user \"bob@someco.co\" is communicating with \"alice@another.to\".
+
+> can the filenames of files being downloaded from .onion websites also be seen?
+
+Not just filenames, but content too, I would think.  If the server you are contacting uses http rather than https, data streams between that server and the Tor exit node are probably unencrypted.  I doubt that it matters whether the server is providing a hidden service (via the onion), but would welcome correction if I am wrong.
+
+"""]]

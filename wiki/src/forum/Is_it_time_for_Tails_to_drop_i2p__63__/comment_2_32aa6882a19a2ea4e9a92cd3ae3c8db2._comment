@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-10T21:58:06Z"
+ content="""
+> The Tails devs have said on this forum that Tails security does not depend on the router. 
+
+I saw that, but thanks for reminding me.  I don't feel I understand the details well enough to comment, but I remain worried that one of our adversaries may have discovered something none of the Tails developers have not yet considered.
+
+I agree that all Tor users should suspect that their router probably has secret (or not so secret) \"remote administration\" backdoor accounts put in by the vendor, and may have backdoors put in by our adversaries (with or without the cooperation of the vendor).   And should suspect that their ISP may be coerced or bribed into sharing hardware addresses of equipment used by Tor users with secret police organizations.
+
+I believe that Tails currently uses only IPv4 and if so I think that's a very good thing, because IPv6 is full of horrifying teething problems.  It was pushed as way to realize the Internet of Things (shudder) while greatly improving security but so far it has done neither, in fact it has made security woes much worse.  Part of the problem is that hardware vendors continue to sell peripherals like printers and fax machines which enable IPv6 without regard to such rather important issues as whether or not the LAN is sitting behind a firewall which keep IPv6 traffic from escaping into the internet at large.
+
+I'd like to see a page in the Tails documentation called \"Indications that Someone is Specifically Targeting your Computer/Account\".
+"""]]

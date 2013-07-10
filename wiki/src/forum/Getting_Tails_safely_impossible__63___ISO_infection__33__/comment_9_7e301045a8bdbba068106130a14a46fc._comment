@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-12-16T12:22:58Z"
+ content="""
+To: comment 5
+
+>I'm not the author of comment 2 but I would like to point that none of the programs you just mentioned are designed to remove viruses from a Linux system.
+
+>They run on Linux but they all are designed to remove malware from windows systems,
+
+I hate to say this but you're wrong. Please have a look at the following products that offer virus scanning and removal on Linux systems:
+
+Symantec Antivirus for Linux 1.0
+
+McAfee VirusScan for Linux
+
+Kaspersky Anti-Virus for Linux Workstation
+
+avast! Linux Home Edition (free to use for home users)
+
+AVG AntiVirus for Linux (free to use)
+
+Comodo Antivirus for Linux (free to use)
+
+>Also you do realize that Tails itself is also a Linux OS right?
+
+Yep, but I do use the free avast! Linux Home Edition to scan every Tails distro for viruses before burning it to DVD or USB thumb drive.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-30T18:00:22Z"
+ content="""
+The browsers preferred language is set to en_US by default as (for various reasons) en_US forms the most common setting \"in the wild\". It is probably something as simple as that. Although:
+
+>When I **log in**..
+
+So God only knows what data Google has associated with your Google identity! Have you checked your language and localisation settings in the account's preferences?
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Entry Guards"
+ date="2012-10-17T18:26:14Z"
+ content="""
+Someone quoted (I think) from a Tor website: \"Each time you reboot you have new entry guards and that is a huge difference to other Tor users.\"
+
+I believe that may be outdated information.  Certainly my experience using Tor daily suggest that regardless of whether I use Tails, TBB (from torproject.org), or tor (the Debian stable package), I get entry guards from a tiny subset of the thousands of nodes.  This worries me because it seems that both entry guards and exit nodes could be natural places for adversaries to try to mount MITM attacks on Tor user, for example in order to weaken or remove encryption.  If this can be done by operator of an entry node (or by my ISP, before my packets even reach the entry node), this would mean that an adversary knows my IP and can read my \"encrypted\" traffice.
+"""]]

@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-05-01T17:38:06Z"
+ content="""
+@ Tails:
+
+Thank you for the link.  This is useful and good to know.
+
+I already knew that Tails has been using a later kernel than Squeeze but thank you since this is all useful.
+
+Gnome3 in Wheezy is even more awful than I feared and on an old netbook (2005) IW actually crashes. (Possibly because the graphics card with a 1.6 GHz CPU are not fast enough?)
+
+On the plus side: some ideas for trying as Tails transits more completely to Wheezy:
+
+* for those who use a persistent Tails on a R/W USB stick, encryption with Twofish rather than AES may have at least two benefits: AES (but not Twofish) has an algebraic structure which the NSA may be able to exploit (see the remark by James Bamford that his sources say the NSA made a \"breakthrough\" in cryptology some years ago), and Twofish uses a key scheduling which may be more resistant to cold-boot attacks than other ciphers
+* consider at least *offering* LXDE or OFCE desktops instead of KDE or gnome3
+* seccure (an ellipic curve cryptography tool) has been vetted by Debian developers and this and some steganography tools should probably be offered in future Tails editions
+
+
+
+
+"""]]

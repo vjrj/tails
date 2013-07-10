@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-12-13T18:27:29Z"
+ content="""
+>Sounds like a permissions problem. I'm not using Tails ATM so can't test. You can always edit your torrc in a text editor if need be.
+
+But I've tried that and it doesn't work! Vidalia throws up errors highlighted in red and all Tor traffic stops, a check with netstat reveals the obfs2 bridges are no longer connected. Only reverting to the original torrc file and restarting everything without bridges allows Tor traffic, otherwise it throws up errors.
+
+>To ensure your bridges are used, comment 4 would suggest starting Tails in \"bridge mode\".
+
+Okay, let's say you start with bridge mode, will it work without giving write errors in Vidalia and halting Tor? Will it be able to tell the difference between regular bridges and obfs2 bridges?
+
+>Most of these questions are answered by comment 4
+
+Let's take a look at comment 4:
+
+>comment 4
+Now I see what you mean. The obfs2 pluggable transport is always enabled in Tails' Tor, with or without \"bridge mode\" enabled.
+
+Correct.
+
+>So when \"bridge mode\" is disabled (i.e. the default in Tails), you can add an obfs2 bridge through Vidalia and Tor should start using it.
+
+Negative, I've tried that! I've even tried editing torrc from the command line, Vidalia throws up errors as I've mentioned above and traffic is halted.
+
+>\"Bridge mode\" just makes this whole process less leaky (i.e. never connect directly to the Tor network) and easy (i.e. autostart a bridge setup wizard).
+
+This I haven't tried, does it work? See above about distinguising bridge type in Tails with the bridge option added at boot.
+"""]]

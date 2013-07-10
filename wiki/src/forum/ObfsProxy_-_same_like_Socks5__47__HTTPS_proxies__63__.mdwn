@@ -1,0 +1,13 @@
+Sirs,
+
+I am reading a lot of advantages of Obfscure Proxy due to which the censorship of authorotarian regimes can't be bypassed. But still I could not find out the answers to the following questions anywhere in google:
+
+1. Are the bridges, that are used in Obfsproxy bundle, the same thing as Proxy (socks or http) that can be configured in the Vadiala settings?
+
+2. Does the bridges (pre-configured)provide us a 4th layer (node)in addition to the 3 nodes as usual and NOT IN SUBSTITUTION OF ONE OF THE OTHER 3 NODES?
+I mean, do we interact with WWW through 4 nodes:
+OUR COMPUTER >>>oBFSCUREPROXY>>>node-1>>>Node-2>>>Node-3 and then >>>the world wide web (destination)?
+
+Isn't thus a 4th node which is now the first (entry) node?
+
+3. Shouldn't we start using obfproxy bundle as a routine in place of old TBB? (If it causes some problem to those who are providing us bridges, we can avoid using obfsproxy as a matter of routine.)

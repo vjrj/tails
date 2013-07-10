@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-01-05T21:13:37Z"
+ content="""
+My test of the individual firewall used by Tails booted from a live DVD and using the *default* configuration on a closed LAN showed, as expected, that all ports are filtered against local ethernet TCP traffic (don't even return statements that the port is blocked).  UDP traffic is a bit harder to test but from network statistics and direct observation with a sniffer, it appears this is also true of UDP traffic.  This agrees with what we expect from iptables but it is always nice to check directly.  This test only applies to a hypothetical (?) trojaned computer or peripheral on the LAN which attacks the computer running Tails.  Any LAN should also have a firewall which protects the LAN.
+
+In the future I intend to perform similar tests on a \"closed\" WiFi LAN.  These might be more interesting since an actual use case might be someone booting their laptop from Tails while using a public access WiFi hotspot, and possibly being attacked by someone using the same hotspot.  I expect the results to be essentially the same, but there is only one way to find out.
+
+I report these tests to try to start conversations about how Tails users can verify that Tails is working properly.  The tests I have reported so far are probably of little practical use, but may provide some reassurance to those who are worried that their Tails system has been messed with.
+
+I have for many months been more worried about another issue regarding Tails (and Debian Tor).  All my attempts to raise this issue with Debian, Tor and Tails developers have been thwarted, but a recent post on the Tor blog suggests that the Tor developers know all about the potential problem and I hope it will soon be fixed.  The generaly type issue in question *does* apply to Tails 0.15, but I have not checked Tails 0.16c.  I have the impression that I am not welcome to raise the issue here, but I hope the developers will address it.
+
+
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-15T21:26:38Z"
+ content="""
+Just out of curiosity, in this use scenario, do the connections work like
+
+      user <==> proxy <==> Entry node <==> Relay node <==> Exit node <---> destination 
+
+or
+
+     user <==> Entry node <==> Relay node <==> Exit node <==> proxy <---> destination 
+
+"""]]

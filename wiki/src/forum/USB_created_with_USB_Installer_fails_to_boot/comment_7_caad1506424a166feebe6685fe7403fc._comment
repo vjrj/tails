@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-07-16T16:28:33Z"
+ content="""
+> I was not able to boot from the USB stick.
+
+Details would be welcome, in case you are interested to see this fixed.
+See [[doc/first_steps/bug_reporting]].
+
+> Took a look in Win7 and in the Tails on the DVD and neither os recognized the USB stick. Win7's System Information does not display it.
+
+This is on purpose, to avoid operating systems that don't know much about others to propose to format, or whatever, your Tails stick when you plug it in there by mistake.
+
+> Any ideas how I can reclaim my usb stick?
+
+I suggest using the GNOME Disk Utility, in a GNU/Linux Live system (e.g. Tails booted from DVD).
+
+"""]]

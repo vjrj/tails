@@ -1,0 +1,7 @@
+I use Tails on a DVD
+
+Can I create a file hosted filesystem and store it somewhere (eg luks partition or anywhere)
+
+Can I mount this file in the correct location and have the tails persistent feature use it?
+
+Does anyone know how to use the tails persistence features with your persistence filesystem stored somewhere other than the default?

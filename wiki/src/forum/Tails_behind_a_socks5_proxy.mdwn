@@ -1,0 +1,6 @@
+I must connect to the internet through a Socks5 proxy. To use Tails, I opened Vidalia settings and put the info for my Socks5 proxy. However, Vidalia was not able to reload Tor and connect. There seems to be a conflict with obfsproxy (which I don't need right now).
+The error is
+
+You have configured more than one proxy type. (Socks4Proxy|Socks5Proxy|HTTPSProxy|ClientTransportPlugin)
+
+If I manually disable ClientTransportPlugin obfs2 exec /usr/bin/obsfproxy in /etc/tor/torrc, then I can connect fine. But is this safe? And what if I want to use Tor bridges later?

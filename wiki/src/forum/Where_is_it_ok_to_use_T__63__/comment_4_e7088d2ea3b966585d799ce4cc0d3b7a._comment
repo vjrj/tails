@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-20T00:42:06Z"
+ content="""
+@ OP:
+
+You seem to be expressing vague fears related to the possibility that simply using Tails (or Tor) might somehow land you in serious trouble with \"the authorities\".  The chance of that actually happening is hard to assess but probably depends upon such factors as:
+
+* your nationality
+* where you live
+* who you know (in real life and on-line)
+* where you surf
+* what actions you (deliberately) take on-line
+
+No matter where you live, the US government can probably bully your local law enforcement agencies into acting against you on its behalf.  And it is unfortunately true that US prosecutors have recently taken a very extreme view of what constitutes an \"internet crime\".  
+
+Carmen Ortiz (who prosecuted the late Aaron Swartz) has stated repeatedly that she believes that anyone who *even unknowingly* commits even a a *minor violation* of some Terms of Use \"agreement\" (so-called, since it is self evident that no-one can be reasonably expected to attempt to study lengthy legalese every time they visit a particular website!) is *commiting a serious felony*.  This would imply, for example, that *anyone visiting a website which uses cookies to track users, but who has disabled cookies, would in principle be subject to prosecution in the USA*, and could maybe even be extradited to stand trial in the US.  
+
+And according the latest memos by the U.S. Department of Justice (so-called) which lay out the supposed \"legal foundation\" for drone strikes, *assassination by missile strike is an acceptable option whenever legal action is \"inconvenient\"*, at least for persons suspected of \"supporting terrorism\".  Such claims are clearly contrary to both US and international law, and also contrary to the US constitution, but the US courts have shown no stomach for rejecting them.
+
+Further, several legislators in various \"Western democracies\" have recently stated that they regard *simply using Tor* as tantamount to \"supporting terrorism\".  Such claims are irrational and terribly wrong, but in principle they potentially expose any Tor user anywhere to direct personally targeted attack by the US government.
+
+It gets worse.  Prosecutors like Ortiz have repeatedly used anti-terrorism statutes to pursue persons suspected of minor crimes involving intellectual property, which illustrates the phenomenon (well known to civil liberatarians) by which vaguely written laws enacted to target (genuine) terrorists or (genuine) organized crime syndicates are inevitably adopted by prosecutors to prosecute suspects in other kinds of crimes, even minor ones, including \"political crimes\" like participating in a non-violent demonstration.
+
+All these hazards are indeed frightening, and day by day it seems that there arises some new state-sponsored initiative which threatens the average netizen.  
+
+But don't panic just yet.  I think that *for most Tor users* the dangers discussed above are, so far, still more theoretical than real.
+
+So, should you stop using the internet entirely?  Clearly not.  It would in fact be almost impossible simply to be alive unless you use the internet to some extent!
+
+Instead, I urge you to continue to use the internet, but also to continue to learn more about how tools like Tor and Tails can help you engage in some civil disobedience to the Surveillance State, and to consider joining a civil liberties organization in your country.
+
+As a first step to learning more, try \"Getting started\" page at this website.  Then visit the aclu.org and eff.org websites (which are very useful even if you don't live in the USA).
+"""]]

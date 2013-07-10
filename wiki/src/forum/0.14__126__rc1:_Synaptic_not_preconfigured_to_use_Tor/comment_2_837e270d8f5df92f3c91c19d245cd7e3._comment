@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-25T20:00:43Z"
+ content="""
+>Synaptic works fine for me in a Tails image that is close to 0.14~rc1. >Doesn't it work for you?
+
+I did not see OP say that Synaptic *didn't work*, only that the *connection* Synaptic makes *did not go through Tor*.
+"""]]

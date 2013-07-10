@@ -1,0 +1,5 @@
+Guys im using Vidalia to check the "I use a proxy to connect to the Internet" box in the settings menu, i then proceed to input the details of the Proxy and when i hit OK the window just closes without any feedback.
+I thought that was abit strange, so logged in as a super user i restart Tor using the "sudo /etc/init.d/tor restart" command, once back up i jump onto ipchicken.com or a similar service but my exit node is never the sock5 proxy server i setup?
+
+Am i doing something wrong or am i totally misunderstanding the way Sock5 works!
+

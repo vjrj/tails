@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-14T12:09:31Z"
+ content="""
+I'm convinced you posted this information in the hope of being helpful, but it's not really: the Debian security team does a very good job at tracking this kind of issues, and we certainly don't want to duplicate this work here.
+
+This vulnerability [has already been fixed in Debian stable](http://www.debian.org/security/2013/dsa-2621)'s security updates, so Tails 0.17 will automatically benefit from it.
+
+So next time, please look at the [Debian security tracker](http://security-tracker.debian.org) before posting here, thanks! :)
+
+> this includes the version Tails uses:
+> OpenSSL Project OpenSSL 0.9.8X
+
+Indeed, Tails 0.16 is affected, but not for the reason you think:
+Tails 0.17 won't be affected, even if it will ship
+OpenSSL \"0.9.8X\". If you're curious to understand why, then
+I suggest reading about Debian stable's security support :)
+
+"""]]

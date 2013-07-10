@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-07T13:35:30Z"
+ content="""
+I dont have a VPS but I managed to get a VPN account now, but I couldnt get it to work in tails. any idea how?
+
+The web proxies I tried fail in signup pages becuase they do not support \"GET\" and \"POST\" functions
+
+If someone has a web proxy that works with signup please provide a link
+
+I only need a single exit after tor in anyway that would work. proxy, vpn it doesnt matter.
+
+any help?
+"""]]

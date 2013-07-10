@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-02-24T22:07:09Z"
+ content="""
+@ 6:
+
+> Debian Stable is everything but regarded as secure.
+
+Not true.  Debian is not perfect (no OS is close to perfect) but Debian stable *is* regarded as one of the more stable and secure Linux distributions.
+
+> The current Debian Stable has heavily outdated software, and the debian developers does not even care anymore trying to backport security fixes to this old software due to the amount of work needed to spend (except for a selected few core components).
+
+I think you misunderstand how Debian release cycles work.
+
+Some unstable operating systems are so buggy that people who use them often have to do complete reinstalls or massive upgrades.  And to try to obtain less insecurity, users of these OSs often try to install the latest versions of dozens of items of key softwares, because this is how they obtain security patches.
+
+One problem with this is that the latest version usually incorporates new featues as well as security patches for old ones, and the new features not infrequently create much worse problems than the problems fixed by the patches!
+
+Debian has a different approach, taking advantage of the excellent package management.  Instead of installing the latest version with all the latest experimental features, use a stable and well tested older version, but install security patches as needed.  That is why Debian Stable packages tend to be \"old versions\".  \"Old versions\" are not neccessarily bad; if known security holes are patched, you can think of these as \"tried and true versions\".
+
+It is true that for almost any desktop or laptop, the browser is the most critical item to keep patched.  And the most popular browser is Firefox. The functionally equivalent Open Source version is called Iceweasel.  Mozilla (and thus the developers of IW) has adopted an \"extended stable release\" system which is actually modeled on the Debian philosphy, but because ESR rollovers are not synched with Debian rollovers, incorporating the IW/FF ESR into Debian has been problematic.
+
+The best solution for Debian users appears to be to use either Tor Browser Bundle (TBB) or Tails, i.e. to avoid the Debian package system *only* for the browser and key components of the browser.
+
+For this reason, most Debian users (I guess) are also users of TBB or Tails (or both).
+
+  
+
+"""]]

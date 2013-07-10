@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 17"
+ date="2012-12-14T07:31:07Z"
+ content="""
+>>Research have shown that running said command twice will with very high probability overwrite all data, since the cells that wasn't overwritten by the first run will be swapped back in to the mapped region during second run, and thus gets erased.
+
+>Anyone have any actual stats handy?
+
+One of the handful of designs tested in that paper was demonstrated to retain some binary data after two \"fills\"
+"""]]

@@ -1,0 +1,46 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-04-11T18:03:40Z"
+ content="""
+Was unable to post this a few days ago; trying again:
+
+@ OP:
+
+* Can you clarify whether you were using Tails 0.17.1 when this happened?
+* Did you boot from a bootable R/O DVD or from a bootable R/W USB stick?
+* Silly question, but are you sure you weren't launching the *unsafe browser* in a Tails system?
+* Can you explain in more detail exactly how you \"launched Iceweasel\"?  (Presumably you meant the Tor-browser.)  Did you click on an icon?  Call browser from a shell?   Let Tails launch it?
+* Silly question, but did you know that when you boot a Tails system, Tor, Vidalia, and the Tails browser should launch as soon as you have a working network or WiFi connection, and the Tails system will immediately try to contact by http (not https) several websites to try to synch your system time to current UTC (not fixing any mismatch would mess up hidden services in particular, and to some extent this is a problem associated with lack of persistence somewhat inherent in Tails, by its \"amnesiac nature\", which is its most desirable feature)
+* When you surf using a working Tails browser (or TBB) to a page which offers https, your system (via the Tor exit node in your current circuit) must contact an OCSP server operated by some CA in order to verify the SSL certificate which the web server gives your browser (via the Tor circuit).  This necessarily means that OCSP servers can (and do) log the fact that someone using such and such a Tor exit node and such and such a date and time connected to a particular https website, and it is known that they pass this information to \"the authorities\".  Indeed, Verisign, one of the largest CAs, is owned by one of the surveillance companies which is discussed at length in James Bamford's excellent book The Shadow Factory, which in my opinion should be studied by everyone who uses Tails. 
+* When you have surfed to an https page, you can use a FF/IW/Tails-browser/TBB feature (click on the \"lock\" icon near the url pane) to examine the certificate, which should tell you what CA issued it; if you are visiting a page whose cert was issued by DigiCert, you *should* see an unencrypted connection (from the Exit node) to a DigiCert OCSP server
+* downloading the Tails 0.17.2 iso, verifying the signature, and making an entirely new DVD (or bootable USB stick) might fix your problem, but I think we should try to understand what you experienced because it still sounds very suspicious to me
+
+Continuing with the discussion of your mystery connections:
+
+     5.63.145.124:80
+     146.185.29.170:80
+
+It seems these are both registered to 100tb.com, a webhosting firm, and are geolocated in the UK.  And your Tails system connected to port 80 (http).  I didn't see reports in web forums mentioning these, but when someone is up to no good and IPs are mentioned, they often change to new IPs.  I suppose there still *might* be an innocuous explanation for all this, but at this point the reports from yourself and the other three seem to me to suggest a genuine problem.
+
+If you boot Tails with a root account enabled (choose a strong password never before used), you can use
+
+     sudo watch \"netstat -anp | grep ESP\"
+
+and (now and again)
+ 
+     sudo \"lsof -i\"
+
+to try to see whether some script or process is making the mystery connections.
+
+Not sure whether this is even a good idea, and suspect it may not be likely to work, but the reported problems suggest to me a not very sophisticated malware, so you could also use synaptic (the front end for the apt package management system shared by Tails with Debian) to install rkhunter or chkrootkit.  Those are very rudimentary rootkit detectors.  Rkhunter will itself try to connect to the rkhunter home at sourceforge to get the latest databases containing the expected hashes for key binaries.
+
+You could also install Wireshark and make/analyze a packet dump.  You can filter for connections only to the mystery machines; I'd start with looking at only http connections.  Again, Wireshark may call out to its own home, so expect to possibly see that if you pay close attention.
+
+In a Tails system, you *should* see some Perl scripts (and maybe some Python scripts too; I forget) which do things like fixing the system time as mentioned above by making unencrypted connections to some popular websites (so as not to \"stand out from the crowd\" in case of national level monitoring).
+
+In the past, some of us tried to start threads explaining *normative* behavior in a Tails system, especially when you boot a \"fresh\" Tails system, but the threads were deleted.  Too bad, because I think that it is important that users know what to expect in a properly working Tails system in some detail, in order to know when to become seriously concerned by an apparent anomaly.
+
+@ Comment 8: that blurb just means that FBI and DOJ use certs issued by Digicert for their own https pages.
+
+"""]]

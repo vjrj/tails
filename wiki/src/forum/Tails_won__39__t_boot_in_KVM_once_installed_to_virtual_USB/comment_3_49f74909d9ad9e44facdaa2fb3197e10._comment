@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-19T12:14:16Z"
+ content="""
+> I either assign a block storage device in /dev/ to the VM as a virtual USB device,
+
+The version of libvirt that's in Debian testing makes it so such a virtual USB device is marked as non-removable. Tails won't boot from it unless you remove `live-media=removable` from the kernel command-line.
+
+> or I create a KVM disk in the default way and assign that to tails.
+
+The \"default way\" is of little help without some more information about your setup.
+E.g. I've no idea what's the default way on Fedora X or OpenSUSE Y.
+I suspect this \"default way\" has the same drawback (non-removable device) described above.
+
+In any case, please try the \"USB Host device\" forwarding and report back if it does not work.
+
+"""]]

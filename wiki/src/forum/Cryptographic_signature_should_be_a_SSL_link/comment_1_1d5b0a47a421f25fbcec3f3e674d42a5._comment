@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-26T21:41:13Z"
+ content="""
+No it shouldn't. That's the point!
+
+You're confusing public keys and signitures. It's the public key you must trust - when using the signiture is verified implicitely.
+"""]]

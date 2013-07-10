@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-11T11:25:02Z"
+ content="""
+Each release of Firefox (and in the extend Iceweasel and Tor Browser) fixes multiple major security vulnerabilities that is exploited by adversaries, and releasing a new Firefox update only once a month means we may be vulnerable to known exploits that is actively used in the wild for up a month.
+
+So, should be dump Firefox/Iceweasel too?
+
+What I really meant to say is, why do people make such a big thing out of the Java vulnerabilities. I would say the Firefox ones is much worse, even if Tails would have had Java as a browser plugin (which it has not).
+
+https://www.mozilla.org/security/known-vulnerabilities/firefox.html
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-12-18T21:04:45Z"
+ content="""
+I agree with those who said that it is not helpful to tell posters to \"take elsewhere\" discussions of essential computer-security/privacy background for the average Tails users, unless you can suggest a specific alternative which satisfies such obvious criteria as anonymous posting.  (That is unfortunately not true of the Tails-talk mailing list.)
+
+> I think it's high time that the forum was properly organized into sub-categories with eye-popping user-friendly GUI and a really good search function. What do you guys think? 
+
+As others already said, this has been on the todo list for a long time.  I recommend that anyone who hasn't read the todo list in some months take a look to see how many worthy items are already on that list!  There are only a handful of Tails developers, who are not (AFAIK) full time on this project, so we must all be patient.  And we must all recognize that the developers need to prioritize intelligently.  Security and anonymity-critical bug patches and innovations are surely more important than \"fixing\" the forum.
+
+Another consider which several posters have pointed out: the more popular web forum software (which indeed offer more user features and more moderation features) tends to be not only vulnerable but, worse, it tends to be attacked successfully in the real world by hostile parties (common criminals, even) wishing to scrape non-public user data.  From a security standpoint, all other things being equal, simpler software with fewer features will have a smaller attack profile.  So there may actually be a good case for sticking with ikiwiki for a while.
+
+"""]]

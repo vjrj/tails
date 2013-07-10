@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-22T04:00:41Z"
+ content="""
+The following is my personal opinion which may differ from other users:
+
+First off, using such a circuitous route to create a Tails Live USB is really tedious.
+
+Second, are you sure that during the process of creating Tails Live USB, you did not somehow break Tails' files, thereby compromising Tails' anonymity?
+
+
+"""]]

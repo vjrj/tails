@@ -1,0 +1,9 @@
+i see multicast is enabled.
+
+i disable it:
+
+ifconfig eth0 -multicast
+
+as root.
+
+is this good? what are the pros and cons to this configuration option?

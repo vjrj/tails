@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-08T10:09:59Z"
+ content="""
+> if you restart Iceweasle it goes back to \"allow scripts globally\", it would be nice if this didn't happen. 
+
+This is not supported, and we're not going to work on this, but a good patch would probably be welcome.
+
+"""]]

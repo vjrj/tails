@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-11-21T15:58:43Z"
+ content="""
+>It's just Tor. Probably your client updating its node list. 
+
+Wouldn't that occur every time Tails was used for any amount of time? I cannot recall what I described happening (constant phantom net traffic for at least several full minutes that only stopped when I turned off the router) during any of my many previous times using Tails. (I always keep an eye on my router)
+
+>my next guess would be a neighbour \"having a go\" with Kismet, etc.
+
+But with so much low-hanging `WEP` fruit around, I wonder why anyone would bother trying to crack my `WPA2` connection.
+
+(Perhaps just for the challenge, to see how far they can get with cracking WPA2? Or perhaps in the hopes that my connection would be faster than any of the WEPs in the vicinity?)  
+
+>May it be that polipo is going on with the download that wget asked it to do, even after wget is shut down? 
+
+But if that were the case, wouldn't the file in question continue to increase in size as the download progressed? As I noted in my OP, once I stopped wget, the file stopped increasing in size.
+
+Thanks for the replies. (The *well-meaning* ones made in *good faith*, at least.)
+_______________
+
+Regarding all the *speculation* and *accusations* of \"trolling\", etc.:
+
+There should be a rule against such things, as they do no one any good and often lead to wrong conclusions. Nearly all posters here are **anonymous**. Seeing similarities between posts (whether real or perceived) can be quite subjective, and, even when appearing quite striking, can rarely prove common authorship. I personally have been wrongly linked to posts that I had absolutely no connection to. 
+"""]]

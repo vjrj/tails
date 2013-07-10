@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="symptoms"
+ date="2013-03-12T08:40:07Z"
+ content="""
+with Tails0.17 on lowerRAM(~500MB) PCs 'Minimize memory usage'(about:memory;iceweasel) has almost no effect. No problems in TAILS0.16 .
+some symptoms after hours browsing with iceweasel e.g. :
+- 4 ghost-windows
+- storage-sqlite grows from 4 to 13MB
+- vsize grows from ~374MB to ~526MB
+browser reacts slow, 'unresponsive script' window,usb-LED blinks very often.....
+
+click on 'Minimize memory usage' has almost no effect.
+Close browser + start browser helps.
+
+"""]]

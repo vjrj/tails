@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-07T13:32:18Z"
+ content="""
+Yes, please do try it, but:
+
+1. This is *not* Tails 0.17 or \"the new Tails\". This is a development snapshot on the road towards 0.17.
+2. This ISO was not thoroughly tested, so as said above, use at your own risks.
+
+"""]]

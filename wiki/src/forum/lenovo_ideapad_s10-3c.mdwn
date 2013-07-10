@@ -1,0 +1,9 @@
+Keybord doesn't work . I can type "bridge" while booting , but then just before word "debian" appear on the screen , i see 
+Loading, please wait...
+[    14.224137]: COMRESET failed (errno=-16)
+[    24.224137]: COMRESET failed (errno=-16)
+[    38.224137]: COMRESET failed (errno=-16)
+
+and etc.
+Each time I boot numbers are random .
+And than keybord doesn't work. What is the reason? My netbook or something else? Can I fix it? Thank you .

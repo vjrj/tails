@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-11-22T03:19:26Z"
+ content="""
+Thank you very much for the replies.
+
+I'm in the process of doing some testing now and hope to post my results. This time, I'll know to *save* the output of the `netstat` command and post it.
+
+>If it happens again, maybe you could shut down your Tails rather than the router - to easily differentiate between Tails and nosy neighbours?
+
+Well, I *could*...but I'm afraid it wouldn't tell us much because of what I described in my other thread, [[Phantom Wireless Activity After Shutting Down TAILS]]
+"""]]

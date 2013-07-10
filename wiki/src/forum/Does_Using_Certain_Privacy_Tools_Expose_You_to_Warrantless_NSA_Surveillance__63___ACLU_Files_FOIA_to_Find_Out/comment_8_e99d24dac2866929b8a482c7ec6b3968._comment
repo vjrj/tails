@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-12-04T15:38:06Z"
+ content="""
+Indeed it is, and it is a shame that tails has not the resources to run a general anonymity / security / privacy forum :(
+
+When I started to use tails from tbb I saw it as a (more or less complete and always improving) solution to computer privacy. Now, I am forced to acknowledge that my focus has been too narrow. There are many MANY other things to account for when striving for privacy in this age unfortunately. And the moral corruption of governments and intelligence agencies is depressing.
+
+I would like to ask the developers that posts such as by this individual on general privacy are kept when the migration to the new forum happens. Even if you must include them in a separate section. It is often hard (impossible?) to \"outlaw\" or even discourage a valid use case. And this kind of information IS of use to many tails users even if it is not SPECIFIC to tails.
+
+I would further suggest, if possible, for the developers to include a recommended place for such discussions on general privacy if they know of one such place. As a tails user I would like to frequent such places as well as tails forum. From the post above I have deduced https://epic.org/ , but surely many others exist? How about a page in the website linking to general privacy forums and online resources tails users could find useful? It would be better that to just attempt to terminate a useful thread (this does not obviously apply to \"trolling threads\" which resist termination anyway).
+
+Regardless and in an attempt to bring this thread to tails specific issues, the issue of the crypto included in tails is worth pursuing. Tails data-wiping already does much against encryption key sniffing when tails is turned off, but how about including twofish and ECC in addition or alternatively to AES and CAST to make such sniffing harder? How does this relate to the firewire exploits discussed on tails-dev? Are the developers planning on including an opt-in to disable firewire completely or is the one-minute mandatory time frame sticking to both use cases (firewire and non-firewire users)?
+
+hypothesys
+"""]]

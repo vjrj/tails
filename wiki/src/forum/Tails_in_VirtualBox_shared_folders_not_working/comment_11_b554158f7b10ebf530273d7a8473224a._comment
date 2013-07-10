@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="When ?"
+ date="2013-04-13T13:28:05Z"
+ content="""
+>>I hope in the next build (0.17.2) VB and shared folder with guest applications will work.....
+
+>No, it won't. Nobody has done the work to fix it, so it's still broken.
+
+Will it be fixed in next build (0.18) ?
+"""]]

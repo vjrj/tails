@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not a Microsoft OS"
+ date="2012-12-04T07:22:23Z"
+ content="""
+Virtual PC is a virtualization program designed exlusively for running Windows OS's.
+
+It is not designed to, and will not allow you to run any non-microsoft OS's.
+
+If you want to use tails with virtualization then I'd recommend that you download and run [VirtualBox](https://www.virtualbox.org/wiki/Downloads) instead.
+"""]]

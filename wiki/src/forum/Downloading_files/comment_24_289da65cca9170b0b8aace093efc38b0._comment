@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 24"
+ date="2012-12-12T21:31:13Z"
+ content="""
+>If you cannot manage all of these preventive measures, then don't touch the file until you have started a fresh live session with no network or persistence capabilities. Ideally you would encrypt the file with gpg and store it on an external HDD which contains nothing you can't afford to lose, no personally identifiable data, and does not implement any wear-leveling that might leave traces after a secure delete operation.
+
+If the suspicious file were to be kept within an encrypted *volume/drive*, then:
+
+1.) What would be the reason for encrypting the *file* itself?
+
+and
+2.) Why would wear-levelling be a problem? (If the entire drive/volume were properly *encrypted*-- other than a case where a changing of the passphrase/key was involved.) 
+"""]]

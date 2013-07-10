@@ -1,0 +1,67 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-30T20:02:51Z"
+ content="""
+@ Tails:
+
+> JavaScript is only required for some convenience features, like instant search results, instant post preview, and the rich text controls in the editor. Reading, posting and searching without JavaScript is possible (and was a requirement for us, Tails, to even consider AskBot).
+
+I appreciate the information; thanks.
+
+I will postpone responding to your other comments because I feel a need to first marshall my reserves of inner strength.  But here are the main points I plan to try to establish:
+
+First, I want to argue that AskBot is an inappropriate tool for the proposed new forum, because in various respects it appears to be poorly suited to achieving your real goals, while needlessly exposing your userbase to risk of de-anonymization, which could have tragic consequences in some cases.
+
+Second, I don't accept the assertion that telling users to register a new account, giving a fake address, for every post has \"zero security implications\", and with your permission, I intend to explain why.
+
+@ Evgeny:
+
+Thanks much for your participation in this thread, which should be very helpful!
+
+You should probably know that there has been quite a bit of sometimes irritable discussion in this forum concerning how the Tails Project makes tradeoffs between usability (for the moderator) and security/anonymity (greatly desired by forum users).
+
+> user identification (in the sense of creating an identity within the site)
+
+Yes, well, in a pro-anonymity community developers will encounter a very different expectation about what may be acceptable in \"social media\" software than you would find in Facebook. To understand the reasons why requires both appreciation of technical points (which should come easily to you) and also political/legal/sociological issues (which may seem quite foreign).  Try to bear in mind that some at-risk Tails users are worried because we can, should, and do assess our risk in a forum with certain technical limitations based upon considerations which are not purely technical.
+
+To mention just one burning issue here which might surprise you, many Tails users who participate in social media are very worried about the possibility that stylometric attacks might link their posts in various forums, or even the same forum.
+
+    https://tails.boum.org/forum/Linguistics_identifies_anonymous_users/
+    https://tails.boum.org/forum/Stylometry_package_in_Tails___63__/
+    https://tails.boum.org/forum/Writing_Style_Authorship_Detection_effectively_stopping_us_form_being_anonymous_online/
+
+From these discussions you can see that the vast majority of posters in a forum about privacy-promoting software like Tails **do not desire any \"user identity\" in the associated forum!**  
+
+(Some may desire to lead two \"separate lives\" on-line, in one of which they behave like \"naive\" users of social media sharing innocuous opinions, and in the other, which they hope to keep separate from the first, they may wish to anonymously discuss controversial topics, such as questionable governmental policies or corporate actions.  A critical point is that this is probably harder to accomplish than most people, even most developers, appear to appreciate.)
+
+For more insight into the attitudes shared by most privacy advocates, please see the following pages.  From
+
+    http://www.bigbrotherwatch.org.uk/online-privacy/social-networking
+
+> Over the last decade there has been an increasing change in the nature of surveillance – particularly the ability to search online, through social networks and through semi-public sources of information, reinforcing the need for the law to be reformed to protect the public from unwarranted surveillance.
+
+From
+
+    http://www.aclu.org/technology-and-liberty/internet-privacy
+
+> Today, private companies are tracking as many of our movements as they can online, selling that information to other companies who in turn share it with law enforcement and the government. The technology they use to do this tracking is advancing rapidly and has become highly sophisticated, and individuals have little chance of keeping abreast of what is taking place when they surf, let alone taking the complex steps necessary to prevent this spying.
+
+From
+
+     https://www.eff.org/issues/social-networks
+
+> it doesn't take much forethought to realize that there are countless privacy pitfalls in a world where a near-endless stream of personal bits is indiscriminately posted indefinitely stored and quietly collected and analyzed by marketers, identity thieves, and professional government snoops in America and abroad. 
+
+You wrote:
+
+> We can work on reducing reliance on Javascript, but this work will be gradual and focused on specific areas.
+
+If the plan to use AskBot for the proposed new Tails Q&A forum goes forward, as seems likely despite objections from the userbase here, my initial attempt at suggested priorities for you would be:
+
+* modify AskBot to permit forum operators, at their discretion, to allow anonymous posting by *unregistered users* and to disable or fine-control what information if any is logged about IP connections and so forth
+* stay alert for unanticipated problems which may result from the fact that many Tails users prefer (for good reason) to disable Javascript entirely in their Tails browser, which may lead to problems in a Q&A forum which uses AskBot
+
+What's in it for you?  Some feel that a future growth industry will center around providing for demands by citizens for verifiable privacy-promoting services, so a social media software which offers great flexibility in how much if any user-related information is logged (if you don't keep it at all, it cannot be lost/stolen/destroyed/seized) could acquire a competitive edge.
+
+"""]]

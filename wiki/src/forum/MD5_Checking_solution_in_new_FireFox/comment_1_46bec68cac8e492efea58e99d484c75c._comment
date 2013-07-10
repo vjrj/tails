@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-16T19:42:25Z"
+ content="""
+Hullo Winston,
+
+You speak of \"verifying the ISO\" and \"MD-5\" but to verify the ISO you need PGP or GPG.
+
+MD-5 is a hash function used to check that a file has not been modified in transit, for example over a noisy line.  In the past it was used to guard against malicious tampering but is no longer considered safe for that; now SHA-512 is used instead.
+
+PGP/GPG solve a completely different problem, verifying the authenticity of the ISO, that is that the ISO really was made by the Tails developers.  See
+
+     https://tails.boum.org/download/index.en.html#index3h1
+
+
+"""]]

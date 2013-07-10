@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-22T20:26:36Z"
+ content="""
+I agree with all that, and just to emphasize what I think is the key point here:
+
+The blogger cited by the OP obviously did not read the Tails documentation *before* \"getting creative\" in using Tails.  To judge from the comments towards the end of the blog, if he had, he would not have tried running Tails from a VM.  So the lesson is: *all new users of Tails should read the documentation* **before** *firing up Tails.*
+
+There are several common and potentially dangerous issues which most anonymity newbies are not likely to know about, and these are explained pretty well in the documentation.
+"""]]

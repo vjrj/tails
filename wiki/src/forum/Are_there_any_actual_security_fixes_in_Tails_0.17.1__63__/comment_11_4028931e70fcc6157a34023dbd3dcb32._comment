@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-03-25T04:30:11Z"
+ content="""
+>Also, is it safe to use the (deprecated) version of I2P in the latest Tails (0.17.1)?
+
+What is your *threat model*?
+
+*Safe* against what threats?
+"""]]

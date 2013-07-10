@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-04-18T22:42:22Z"
+ content="""
+(continued)
+
+My oversight, you said you are booting from a USB not a DVD.
+
+Some machines won't even try to boot from a USB but in such a case you would boot from the hard drive.
+
+I'd say you should start by carefully verifying the integrity of the iso image by reverifying the detached signature.
+"""]]

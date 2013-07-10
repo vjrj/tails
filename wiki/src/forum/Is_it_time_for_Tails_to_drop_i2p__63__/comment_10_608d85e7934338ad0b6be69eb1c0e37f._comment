@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-02-15T14:25:45Z"
+ content="""
+> The problems OP is describing are related to Java applets, not normal Java.
+
+I believe this is not correct. Many important security issues were published recently against the most common Java virtual machines, and they affect regular Java programs as well as applets.
+
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="vm inside tails"
+ date="2013-02-07T19:06:40Z"
+ content="""
+ok so ive found a vm  that currently works here https://mailman.boum.org/pipermail/tails-dev/2012-October/001966.html my question is how can i get  it to stay in persistance  i know persistancesave apt data but even so doing the step by step command prompt on the page listed abouve there is no  explanation to my saving it to persistance so i came up with an idea  s ok so if  persistance save apt is there away to find the file itself re write its destination folder to persistance and hen copy it into there so ive been looking around but i cant seem to find where exactly it installed to  but im not sure if its in root folder or somewhere else im not exactly a linux pro ive only used it for a few months  so give me a break lol
+"""]]

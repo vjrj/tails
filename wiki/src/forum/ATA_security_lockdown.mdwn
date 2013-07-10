@@ -1,0 +1,9 @@
+Tails is typically used on a computer with the internal HDD attached, unless the user takes the steps to physically detach the disk before booting to Tails. With most computers, especially laptops, it is not feasable for most users.
+
+The hard disk is not mounted automatically, but if there would be a major security vulnerability allowing a remote attacker to gain root access to the operating system, she could easily mount the internal disk and investigate the contents of it, quite likely figuring out the identity of the computer owner. (Of course even with a diskless machine, Linux would leak tons of information such as serial numbers for various hardware components etc.)
+
+Most modern disks support ATA password protection. Only a handful of disks and SSDs use it for real full disk encryption, making the disk really secure even with physical access. However, I think even the normal password locking would perhaps be useful protection against remote attack scenarios.
+
+Unfortunately, many (most? all?) BIOS implementations won't let the user to boot from USB or optical disc without first unlocking the internal HDD. At least Thinkpads just shut down if the HDD password is entered incorrectly three times.
+
+Does anyone know how you can lock the hard disk in Tails (or Linux in general) before going on-line? Hdparm does support locking it with a password, but can it be locked with the current password? It appears that some BIOSes freeze the disk, does it make this idea impossible? It would be very nice if Tails would do it automatically for each HDD it detects during boot.

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-29T20:11:57Z"
+ content="""
+(Other Tails developer here)
+
+> Beware: the Unsafe Browser is not shipped in Tails for general web browsing usage.
+
+I think a valid use case for sound in the Unsafe Browser is to make it usable for people with sight impairments. I'm unsure whether Tails includes any text-to-speech software that actually makes Tails usable with such impairments, but even if it doesn't the support should be there for the day such software is added. Hence commit f6dba62.
+
+> Regarding the actual question: I suggest you dig on the PulseAudio side.
+
+Actually Tails doesn't use PulseAudio. The fix is to add the `clearnet` user to the `audio` group. Note that doing this in a running Tails session isn't as easy as one might think since the Unsafe Browser runs in a chroot based on the filesystem on the read-only media; any changes made in the running Tails session (e.g. running the expected `sudo adduser clearnet audio`) won't be visible in that chroot.
+"""]]

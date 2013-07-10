@@ -1,0 +1,9 @@
+I'm new to PGP, so I'm trying to wrap my head around this.
+
+Basically it seems that the only way to consistently use the same key is to create one within Tails and enable the persistent file.
+
+However this means that anyone can access your keys as the persistent file is not encrypted.
+
+What I would like to do ideally is export my keypairs, and then store them in a text based password vault like KeepassX, or in a plaintext file within a truecrypt vault.
+
+Is it possible to do this and then re-import them for later use as needed?

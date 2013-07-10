@@ -1,0 +1,9 @@
+hello everybody,
+i downloaded tails (tails-i386-0.12.1.iso) and it's signature (tails-i386-0.12.1.iso.pgp) and i tried to verify with kleopatra (left click on the signature and click on "Decrypt and Verify" and then choose the ISO file.
+it says: not enough inforamation to check signature validity.
+what is the problem?
+
+
+the second question is what about using USB adapter that needs installing of driver? how can i install the driver when i use TAILS without damaging the privacy and security?
+
+THANK YOU VARY MUCH! :-)

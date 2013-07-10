@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="a point needs further clarification"
+ date="2012-09-29T15:17:39Z"
+ content="""
+>If I were you, I would bring a laptop into the office and use it instead of your office workstation computer, and not use your workstation's LAN port
+
+OK if I brought my own laptop to the office and plugged the office's LAN cable into the port of my laptop, my office sysadmin would NOT be able to trace it back to me? Please let me know if I understood you right.
+
+But I thought if I changed the MAC address of my office computer successfully, my office sysadmin would NOT be able to trace it back to me? Correct? Pardon me for my lack of knowledge of how networking works.
+"""]]

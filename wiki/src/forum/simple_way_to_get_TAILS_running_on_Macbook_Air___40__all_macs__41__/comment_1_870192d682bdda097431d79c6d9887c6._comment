@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Booting tails isn't the problem."
+ date="2012-08-29T12:47:54Z"
+ content="""
+... You can load a Windows vm and use Universal USB installer, select tails from the dropdown box and a bootable USB is created no fuss.
+
+The problem lies within the Tails USB installer that allows you to use persistance. The tails installer allows no formatting options that would configure the correct parameters to make bootable persistent drive(s) readable by macs. Until someone addresses that issue the only solution is to create 2 Tails USB sticks and insert them into the mac at the same time. USB1 created using the methods above without persistance and USB2 configured using persistance. When the mac is booted with both drives inserted, tails will boot using USB1 but for reasons unknown to me will load the OS on USB2.
+
+This is the absolute only method I can find to get persistance working with macs.
+Hope that adds to your findings.
+"""]]

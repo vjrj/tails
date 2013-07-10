@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 164"
+ date="2012-10-26T19:17:05Z"
+ content="""
+I2P does run on systems with 128MB RAM, usual systems does not use more than 512MB for I2P.
+
+And about Tor: longer circuits (with more than 3 Hops) do not provide more anonymity, in fact they do provide LESS anonymity. (due to fact of higher chance for attacker to be in your circuit, remember: Tor only has 2-3k relays).
+The Tor folks do talk about the \"one hop is enough\" problem.
+That does not apply to I2P in this strongness, as I2P do use unidirectional tunnels and 10 minutes rotation of tunnels.
+
+Btw, if relaying traffic is illegal, all Tor relays are illegal, to. Which translates to: using Tor is not possible anymore.
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-03T21:25:53Z"
+ content="""
+Quoting the [[call for testing the second release candidate for 0.14|news/test_0.14-rc2]] :
+
+> Iceweasel : Update to 10.0.9esr-1+tails1, which has all the privacy enhancing patches from the Tor Browser Bundle applied to it.
+"""]]

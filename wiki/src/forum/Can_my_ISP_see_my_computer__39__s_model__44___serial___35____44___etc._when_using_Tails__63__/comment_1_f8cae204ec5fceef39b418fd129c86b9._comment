@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-31T02:55:19Z"
+ content="""
+>Can they see my machine's manufacturer, real MAC, it's serial number, model number, BIOS version, etc., just due to the login process?
+
+>But when the packets coming from my computer are inspected (at the Deep Packet Inspection points along the internet-route), can identifying information about my machine like serial #, model, etc. be sniffed from my packets, on the way to that partially- or non-encrypted page?
+
+Yes to both questions.
+
+Remember Stuxnet virus developed by both the US and Israel to target Iran and some countries in the Middle East?
+
+Moreover now that the news is out in the world that there is a vulnerability purposely built into Tails, many state-sponsored programs will target the \"do_not_ever_run_me\" file. Once that file is run, all information about you will be exposed to the attacker(s).
+
+You have to ask yourself whether you are in an authoritarian regime where mainstream media is controlled by the state and there is limited or no freedom of expression.
+"""]]

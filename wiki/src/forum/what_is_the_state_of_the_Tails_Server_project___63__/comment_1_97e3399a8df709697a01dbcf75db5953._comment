@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-08T06:27:59Z"
+ content="""
+There's been no direct progress on this front since the aborted GSoC project last year. But e.g. the [[todo/remember_installed_packages]] feature was, in part, meant as a step towards easing the development of Tails Server. Wanna give it a try? :)
+"""]]

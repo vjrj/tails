@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-05-28T09:44:33Z"
+ content="""
+Wait, couldn't this be a concern even in one's own home?
+
+(One or more network within range might log all MACs within range)
+
+Or is this not a concern as long as one will not actually *connect* to any such network?
+
+"""]]

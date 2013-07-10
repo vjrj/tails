@@ -1,0 +1,20 @@
+Hello, 
+
+Following the guide here,
+
+https://tails.boum.org/doc/get/verify_the_iso_image_using_other_operating_systems/index.en.html
+
+I installed a fresh version of Firefox, added the add-on, restarted the browser, got it in the download queue by saving it to another location.  I could not see the button to click, the only way to start this add-on.
+
+I think the download window has changed over the last few years since the add-on was last updated.
+
+I was however able to check it with this .exe
+
+http://www.labtestproject.com/using_windows/step_by_step_using_sha256sum_on_windows_xp.html
+
+fwiw, it came up clean by malwarebyte's standards.
+
+Thanks.
+
+
+

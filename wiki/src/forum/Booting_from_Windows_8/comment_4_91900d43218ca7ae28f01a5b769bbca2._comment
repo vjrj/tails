@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-11T18:20:00Z"
+ content="""
+Ran into almost immediate trouble installing Windows 8 on an old laptop and then attempting dual boot - Windows 8 seems to grab the boot sector of the disk for itself whether you like it or not.
+"""]]

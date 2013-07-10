@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-18T16:04:24Z"
+ content="""
+> I always have to close that popup manually.
+
+This is not expected.
+
+> Does it disappear after a given time automatically ?
+
+No. Please [[report a bug|doc/first_steps/bug_reporting]], including the content of `/var/log/syslog` and `/var/log/htpdate.log`. To retrieve the content of the former, you'll need to set an administrator password in the boot options, and run `sudo gedit /var/log/syslog`. The latter is world-readable.
+
+"""]]

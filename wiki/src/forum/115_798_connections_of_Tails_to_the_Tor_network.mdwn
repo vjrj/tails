@@ -1,0 +1,8 @@
+>115 798 connections of Tails to the Tor network. This makes a boot every 23 seconds on average (this number is an approximation from the requests made to the security announcements feed. The later is retrieved by Tails after being connected to Tor to eventually encourage users to update.)
+
+
+https://tails.boum.org/news/report_2013_03/index.en.html
+
+Why is Tails team harvesting such information from its users without consent?
+
+Please provide a way to disable security announcement connection. Thank you

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-18T22:39:41Z"
+ content="""
+@ OP:
+
+This sounds a bit like something which someone else reported.  In that case, the problem turned out to be that they had tried to burn the DVD-sized iso image on a CD instead of DVD.  Result: ran out of room, some files didn't get written, and they couldn't boot from the mangled live CD which should have been a live DVD.
+"""]]

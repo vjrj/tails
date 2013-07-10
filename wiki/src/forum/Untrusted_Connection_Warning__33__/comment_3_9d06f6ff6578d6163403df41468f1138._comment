@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-20T01:04:26Z"
+ content="""
+@ OP:
+
+This happens to all of us from time to time.  I never ignore the warning and click on through, and advise you to do the same.
+
+That said, there are some domains where I encounter this problem regularly, even if I choose a new identity.  In some cases, I think this happens when the owner of a website, say some.org, stores some content on a subdomain, such as content.some.org, but their https certificate doesn't cover any subdomains.  In such cases, IW/FF throws up the warning you quoted.
+
+But in most cases, I suspect that the most likely explanation is that when you try to surf to an https website, your browser tries to verify the certificate with the CA, which involves another torified connection, and when you are using Tor, sometimes the connection to the CA isn't made fast enough to suit the browser.  Then IW/FF decides the certificate is fishy and throws up the warning.  If you choose another identity and try to load the website again, both connections may succeed, which could explain the experience of Commentator 2.
+
+In recent weeks, I have noticed that the Tor network generally seems to be more stressed, and that may be why I have noticed such events more often.
+
+"""]]

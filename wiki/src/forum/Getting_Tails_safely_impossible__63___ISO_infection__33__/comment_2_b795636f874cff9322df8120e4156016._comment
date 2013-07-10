@@ -1,0 +1,45 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-15T19:29:20Z"
+ content="""
+> How can a compromised operating system safely download and burn Tails?
+
+That is a valid question.  
+
+You are correct to think that it makes good sense to avoid using an untrusted \"primary OS\" to download and burn Tails (or TBB or... anything, really).  And there is good reason to think that in the very near future many Tails/TBB/Tor users will be specifically targeted with state-sponsored malware by sophisticated adversaries. 
+
+That said, most malware infecting Windows and OS systems is probably your basic commercial/criminal adware/spyware, not APT spookware.  And you may have a small window of opportunity to start using more trustworthy OS than Windows before state-sponsored malware becomes a really common threat affecting Tor users.
+
+It is true that if your primary OS is not fully trustworthy, you cannot really trust the software you use to check an iso image or to burn an iso image.  So what to do?
+
+You can obtain and use some Linux live CD/DVD OS's to systematically cross-check files and systems, slowly working towards increasingly trustworthy iso images which you can burn in order to use Tails.  
+
+Don't forget: there is no such thing as a perfectly safe or reliable system, only more safe or trustworthy systems.  So you goal should be to try to iteratively improve the reliablity of whatever OS you use to download, verify, and burn iso images.
+
+Assuming
+
+* you currently use an untrustworthy Windows as your \"primary OS\"
+* you are unwilling to back up your personal files and replace Windows with Debian as a first step towards using your computer safely
+* your computer can boot from a DVD
+* your computer either has two DVD drives, with one a R/W drive, or has enough RAM to load Knoppix into RAM using the toram cheat code
+
+here is what I suggest:
+
+* Download several Linux live CD systems like \"Debian live\" and Knoppix.  You should be able to find cryptographic hashes (MD-5 sum, SHA-256 sum) for the isos which you can check using your untrusted home computer, but possibly also borrowing some other systems simply to verify the hashes (ideally, verify at least two different types, ideally including SHA-256).  It is probably more important to find ones for which you can find multiple hashes than to find the most recent ones, even though older live CD iso images may contain some software with unpatched n-day vulnerabilities.
+* Once you have a collection of live CD/DVDs, try to use each to independently download and burn the lastest Tails iso, carefully following the verification procedures in the Tails documentation (check the certificate of the boum.org website, then after you download the iso, the detached signature, and import the Tails signing key into your live CD/DVD GPG keyring, then check the signature of the Tails iso image)
+* For each live CD/DVD you try, once you have obtained and verified the Tails iso, burn a copy of the Tails iso you downloaded on one DVD (that will be your bootable Tails) and put a copy of the Tails iso image itself on a second DVD.
+* Once you have used a bunch of different live CD/DVD editions (Knoppix, Debian Live, Ubuntu) to download, check, and made copies of the downloaded iso file, almost certainly all will indicate that you have good copies.  The iso files should all be identical and you can use tool provided with your live CD/DVDs to try to check that they do indeed appear to be identical.  The detached signatures and copies of the signing key should also all be identical (be careful to download the correct signature with each live CD/DVD, of course, and try to get this cross-checking all done in a few days to avoid the possibility that the Tails signing key is updated with new GPG signatures, for example, which would result in your next copy of the key differing from the others, for reasons which are legitimate but a little hard to spot).
+* Assuming all your non-Tails live CD/DVD Linux systems indicate that you have good copies of latest Tails iso image, it is probably fairly reasonable to assume that you can safely boot the corresponding bootable DVDs.
+* But you can perform ongoing checks.  You may be able to obtain cheaply a used second PC or laptop which will boot Linux from a live DVD.  This can make it easier to boot various live CDs/DVDs and use tools like rkhunter on one to check the system on the other.
+
+When you doing this, don't forget that you can minimize your exposure by disconnecting from the internet when you are not actually downloading the files you need.  When you boot from a live CD/DVD, the program loaded into RAM should be an unaltered copy of the one found on the CD/DVD.  If you use a old Knoppix, it might have some vulnerabilities which were later patched, but older versions may be even less likely to contains any APT malware (which have only become really common in the past few years), so if you minimize your internet exposure while using them, they may be even more reliable for the purpose of checking downloaded iso images using GPG keys and signatures.
+
+Downloading multiple live Linux iso images may appear suspicious to some \"authorities\", but it could also make you \"fit the profile\" of a Linux enthusiast rather than a political dissident primarily interested in obtaining and using Tails.
+
+If you are willing to switch from Windows, and if you use Tails a lot, I'd suggest that you consider backing up your personal files and installing Debian stable, making sure to follow the instructions to obtain whole-disk encryption via LUKS.  You can also get this with Ubuntu but that would take more effort (if you are curious to try it, ask on an Ubuntu forum).  Remember that Tails is based on Debian stable, which is probably the best compromise between an OS which is both reliable and easy to use for general purposes.  So it probably makes sense to use Debian for most of your off-line stuff, and to boot under Tails when you want to surf the web.
+
+If you follow this advice, you can use similar procedure of cross-checking using various Linux live CD/DVD editions to obtain and cross-check the Debian stable iso images you will need to install Debian stable.  You can look into \"netinstall\" which should be reliable as long as you can trust the image for initial minimal Debian system which you will use to \"bootstrap\" to full Debian stable by accessing the Debian software repositories.  Don't forget that Debian uses strong cryptography to verify each software package (\"deb\") before installing it, so as long as your netinstall iso image has been verified multiple times, netinstall should be about as safe as anything involving computers can be in such a hostile threat environment.
+
+You may have heard of \"dual booting\" Windows/Linux systems, but anyone concerned with security should probably avoid them.  And virtual machines are not necessarily any less insecure than hard drive installations.  There is much to be said for choosing Debian stable for your primary OS (installed on a hard drive) and simply not using non-Linux systems at all on your PC/laptop.  If there is some Windows program you feel you cannot do without, look into wine, a Windows emulator which is standard issue with most Linux systems.
+"""]]

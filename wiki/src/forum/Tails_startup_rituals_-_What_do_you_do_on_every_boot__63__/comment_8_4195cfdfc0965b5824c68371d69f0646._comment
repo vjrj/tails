@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-11-30T00:28:18Z"
+ content="""
+BTW, another thing many user's may not be aware of is the AdBlock Plus add-on. It is activated by default but rather hidden, as for some reason the Tails devs felt it worth their (already-strained) time and resources to change the *default* setting of ABP in order to not only hide the icon (through which essential info is conveyed) but to make it impossible to get it back.
+
+So user beware: If you find certain expected functionality or content to be missing or impaired on a site or page somewhere, the culprit may be ABP.  
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-22T21:56:36Z"
+ content="""
+I don't mind taking a moment to simply answer the OP, even though this has been asked before:
+
+When you start Tails, the Tails browser makes some http connections to various websites like myspace.com in order to check that the system clock is set correctly.  This is important for Tor to work properly, especially for hidden services.  If you were running Tor on a PC or laptop under your usual OS, it would slowly adjust the clock and this problem would not be serious, but Tails boots off a DVD or USB stick, so the problem is more serious and that's basically why Tails goes to such efforts to check the clock.
+"""]]

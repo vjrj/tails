@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Scrub some items from Tails release versions?"
+ date="2012-12-24T00:36:33Z"
+ content="""
+@ \"Tails\":
+
+I think the OP may have implicitly raised a good point, although the way he/she raised it obviously upset another poster.
+
+I understand that 
+
+* testing scripts are neccessary for development of Tails
+* scripts usually won't execute unless someone executes them
+* few people who read basic English would execute a script called something like \"dont-ever-run-me\"
+
+But some Tails users who may be most at risk may well have gotten a copy from another dissident living in a country where English is not commonly used, and might not understand a word of English.  In such cases, the penalty for a mistake could be torture or death, so it seems to me that if it is possible to keep potentially dangerous scripts out of the release versions, just to be super-safe, it would probably be a good idea to do that.
+
+On a related topic, I have seen some posts here (sorry, no links handy) suggesting that some Tails users may be trying to download and live-install things which potentially make their Tails systems more like a development platform than is really wise.  I have the impression that quite a few Tails users still need much more education about how dangerous such additions can be.  I believe that the best way to convey the message is by describing (authentic) examples, which gets us back to the kind of background discussion you don't want to have here.  Just one more example of why it would be so helpful to so many to have a general privacy forum which allows posting by anonymous unregistered Tor using parties.
+"""]]

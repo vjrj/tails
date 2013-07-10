@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-05T22:55:44Z"
+ content="""
+So after playing with firmware and modules (thanks to the wonderfull help from #tails) conclusion is that kernel 3.2 has problems with RT3090.
+
+For your reference:
+
+http://forums.linuxmint.com/viewtopic.php?f=194&t=124095#p680767
+"""]]

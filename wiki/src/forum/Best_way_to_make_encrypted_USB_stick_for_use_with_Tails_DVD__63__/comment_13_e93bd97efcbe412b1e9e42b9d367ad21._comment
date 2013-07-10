@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-11-09T10:57:21Z"
+ content="""
+>Is it true that SSD (sp?) devices can be risky because shred/wipe will not in fact \"securely delete\" a file? How about USB sticks?
+
+Flash media (whether internal solid state drives or USB sticks) does indeed pose a problem with regard to secure erasure, i.e., overwriting.
+
+Not only will overwriting a single *file* not work on flash media but even overwriting an *entire device* does not always work. The problem is wear-leveling. This is noted in the TAILS documentation in the section on secure erasure.
+
+This limitation of solid-state/flash media *can* actually create a problem relevant for encryption as well. 
+
+`http://www.truecrypt.org/docs/?s=wear-leveling`
+>Due to security reasons, we recommend that TrueCrypt volumes are not created/stored on devices (or in file systems) that utilize a wear-leveling mechanism (and that TrueCrypt is not used to encrypt any portions of such devices or filesystems). 
+
+See also:
+`http://nakedsecurity.sophos.com/2011/02/28/ssd-encryption-and-decommissioning/`
+"""]]

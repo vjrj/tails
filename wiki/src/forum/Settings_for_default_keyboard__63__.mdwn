@@ -1,0 +1,7 @@
+I'm trying to change the default keyboard layout from the default English layout to a Danish layout.
+
+I've tried to add *keyboard-layouts=da* to the *append* string in syslinux/live.cfg (and the variations) but I can't get it to work.
+
+I'm running Tails on a USB drive.
+
+Am I missing something?

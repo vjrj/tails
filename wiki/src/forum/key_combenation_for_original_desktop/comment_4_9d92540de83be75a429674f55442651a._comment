@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-27T14:30:08Z"
+ content="""
+Still better with camouflage than without it. If one day wallpaper or theme persistence support is added, this use case can be as fulfilled as it will ever be.
+
+You would have to set up your wallpaper in Tails with the same image than in your normal OS, make it persist, boot tails with persistence and camouflage (if desired) and root password (to access the hard drive). 
+
+Then this usecase would be fulfilled. You could even use the multiple desktops feature to have some documents open and in a pinch switch when someone comes.
+
+Of course the best solution might be to talk to your family about tails and how they can benefit from it even if they are only after some privacy :) That is what I did. Converted my family and friends to tails. Then I also converted them to a ubuntu based newb-friendly linux (zorin) as a normal OS as windows started to irk me and didn't want my family to use backdoored software at all.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-31T12:22:36Z"
+ content="""
+>the purpose of persistence is to save documents from the internet.
+
+Huh?
+
+For *that*, it's fairly easy to simply save to *any* encrypted volume that can be decrypted and mounted within Tails (LUKS, TrueCrypt).
+
+I thought that the main purpose of persistence is to be able save user customizations to the system itself: bookmarks, desktop/panel layout, preferences in the various programs that come with Tails (fonts in OpenOffice and gedit, etc.) , perhaps some added programs (those that are safe), etc.
+"""]]

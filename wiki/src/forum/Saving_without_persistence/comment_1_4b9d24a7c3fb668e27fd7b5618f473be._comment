@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-26T00:22:34Z"
+ content="""
+Hi,
+
+the user (its login name is amnesia) folder uses the RAM. For
+sure, you can create or download files in this folder, but as
+you seem to understand, this will be lost at shutdown. 
+
+With Tails (or any other Linux or BSD LiveCD) running from a
+LiveCD, there is no way to save something permanently in the
+user folder, unless remasterising the .iso image and burning the
+new one during the old one is in use (the running session) - and
+as far as I know, this is not possible (I can be considered as
+an advanced user, but not an expert).
+
+> RAM is a finite resource so surely you can't save much this
+> way, and it seems to me it would affect your speed as well.
+
+Only the half of the RAM can be used by the temporary filesystem
+used by the system and the user to create new files (the system,
+for example, can create files in /var/log). If the total amount
+of RAM is less or no much more than what is recommended by Tails
+developpers (if I recall correctly, its ~750MB), yes, this would
+affect the speed (it can even happen that the system freezes).
+
+Regards
+"""]]

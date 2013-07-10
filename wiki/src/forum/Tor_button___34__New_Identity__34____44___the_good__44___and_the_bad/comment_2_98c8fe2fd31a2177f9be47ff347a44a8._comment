@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-15T20:25:41Z"
+ content="""
+Regarding the \"New Identity\" feature in general, from what I've seen in this forum and the documentation, the Tails devs are quite dismissive of its effectiveness and explicitly warn against relying upon it.
+
+In cases where one truly needs to change their contextual identity, the Tails devs suggest nothing short of shutting-down and restarting Tails.
+"""]]

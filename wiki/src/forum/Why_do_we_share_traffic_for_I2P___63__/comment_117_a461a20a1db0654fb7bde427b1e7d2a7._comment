@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 117"
+ date="2012-10-25T07:22:17Z"
+ content="""
+>doesn't tails run all traffic through tor? doesn't that mean, that all i2p traffic gets routed through tor, too? if this is so, where is the problem?
+
+You are a prime example of what most Tail users wrongly assume and think being that Tails is supposed to be a anonymous Live System.
+
+When using Tails I2P you are no longer using Tor and Iceweasel connects directly into the I2P network giving out your IP address to all the computers connected to it.
+
+Tor Hides the Users Ip Address.
+
+I2P uses the users Ip addresses and computers to hide the I2P sites.
+
+As I2P makes no attempt to hide users Ip address and is the complete opposite of Tor i myself agree with others that it should have never been included with Tails.
+
+It should at least be removed from the desktop menus so users have to start it manually from a system folder for those that really must use it and to protect those that thought it was running through Tor from accidentally starting it. 
+"""]]

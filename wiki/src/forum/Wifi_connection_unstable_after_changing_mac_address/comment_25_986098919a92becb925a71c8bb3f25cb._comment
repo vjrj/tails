@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Reassigning all MAC addressed devices via command"
+ date="2013-03-21T23:08:43Z"
+ content="""
+This continues to work for me w/ my mobile broadband USB & MiFi device 
+
+I wouldn't recommend attempting this on the fly as you may be rejoining old relays with a newly assigned MAC address. If your destination is similiar to the last you joined under your former MAC address, fingerprinting could be developed. 
+
+Since I own both of my mobile broadband devices I do not stop the network manager I turn off/disconnect my network peripheral devices. So to be clear, I don't stop the network manager by command physically remove my USB devie and or turn off my mobile hotspot during this process. Furthermore I used the RFkill command to disable all other unwanted network connecting devices bluetooth etc.
+
+This is helpful if you have a static ISP device w/Tails.
+
+So,if persistance has been enabled w/ your password continue.
+
+In console type: 
+
+sudo mac-randomize all
+when asked,enter your password
+confim and exit
+
+Then connect your device again.
+
+If no persistance follow the earlier echo post but instead of typing each wlan just enter
+
+sudo mac-randomize all
+
+that will do the same thing less typing.
+sudo mac-randomize all 
+
+
+
+"""]]

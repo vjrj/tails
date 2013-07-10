@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-27T10:37:38Z"
+ content="""
+> I know that there is no solution to bypass \"nomodeset\"
+
+... and there will never be any solution, unfortunately, unless you report a complete bug.
+
+> I tried to put after \"=\" my native resolution in boot options, but it didnt work. :(
+
+How *exactly* did you write it?
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-07-08T23:27:53Z"
+ content="""
+> Are we talking of observations based on 1 case of each, or repeated ones?
+
+Trying to hide own incompetence behind assumed skepticism, are we? Users are generally not stupid, and know what they see, even if they are not experts in a given subject. In this case, the network is probably brought down before Tor gets a chance to cleanly close the connections, and circuit peers try to communicate for some time, with the router still forwarding the packets to non-existing interface. Next time, try to think a bit before replying.
+"""]]

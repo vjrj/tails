@@ -1,0 +1,40 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 22"
+ date="2012-10-09T11:26:09Z"
+ content="""
+> current kernel is 32bit i386 with no NX
+
+Tails 0.14 is likely to change this, with the pending [[nx_bit|todo/nx_bit]] (already merged in the devel branch if people want to help with the tests on various hardware).
+
+> today we can achieve ASLR + DEP/NX + AppArmour on a 64bit kernel
+
+We're getting close to this, the [[apparmor|todo/Mandatory_Access_Control]] only missing bit is getting worked on directly at the Debian level. Help would also be appreciated, testing profiles and reporting issues, if you want this like us to get faster.
+
+All of these were old known issues that are being worked on together with plenty of other Tails work, but we have limited resources. That won't close all security issues, only raise the bar by lowering the attack windows though. Some on the hardware level talked later won't be fixed by this.
+
+> windows xp kernel has more security than tails
+
+Oh come on, windows xp kernel is a kernel, and Tails is an OS, 
+
+> tor exit nodes are known to be mass injecting exploits
+
+Come on again, not ALL tor exit nodes do that, and they are watched against this kind of behavior.
+
+And you should always protect your internet communications outside of the Tor network using SSL encryption to your destination, I hope you know that.
+
+> we have firmware exploits that can survive reboot
+
+As it will in every OS where someone can tamper the hardware, unless you can show us which one does protect against this?
+
+If you're not trusting your hardware, you can use the Florence virtual keyboard that is shipped in Tails.
+
+There are and there always will be mixtures of various flaws that could theorically break anything when done together by an allmighty adversary, but it's not something we can work effectively on protecting against.
+
+At the end it relies on the user to define her own security policy. Tails is an option which protects against defined threats only, and the user has to choose when and how she integrates it in this policy.
+
+We'll keep on closing known threats and lower the attack surface waiting for an unknown new working one to be explained. 0.14 will probably be a first step forward.
+
+We cry [[for people to audit Tails|security/audits]] and **demonstrate real working** attacks we don't know and aren't working on that we should close.
+"""]]

@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Reply from the Official Page of AdvOR"
+ date="2013-04-01T07:03:07Z"
+ content="""
+I don't use Facebook, but I guess Facebook probably bans a profile if it is accessed from different IPs in the same time with the same cookies. This can happen when using a browser with Tor that can be exploited to have non-Tor connections, simultaneously using different exit nodes with one account and/or not doing some cleanup when changing identities that AdvOR does (like clearing cookies, super-cookies, disabling some ever-cookies, etc.).
+A browser that is intercepted by AdvOR can't be exploited to have non-Tor connections. AdvOR can be set to use only one exit node with all Facebook related domains and affiliates.
+
+To respond to some claims made on the Tails forums,
+
+    ////Given how its sources are published (just a .zip, no source control AFAICT) it's very hard to follow up on any changes it introduces, and any (important) changes from mainline Tor it does not include. There's little (none?) documentation either.////
+
+The way sources are published is the straight-forward way that doesn't require people who can't be bothered with source control to install additional software to download the source code. All changes are in changelog.txt; the documentation is in AdvOR\Help. But of course, someone who doesn't extract .zip files doesn't know.
+
+   //// This and the author's complete absense in the Tor community are some pretty strong warning signs, IMHO.///
+
+Last time I wanted to contribute to Tor, this project was named \"Advanced TOR\". Guess why I had to rename it to \"Advanced OR\". No, they didn't want me to become a licensee for the \"Tor\" trademark.
+
+    ////Not to mention that any difference in behaviour from mainline Tor will put AdvOR users into their own relatively tiny partition of \"Tor\" users, which sucks for anonymity.////
+
+On the contrary. While there are some settings that are risky for one's anonymity, they are disabled by default or they have the values Tor uses. We have many new features that enhance anonymity. For example, AdvOR, by default, doesn't build circuits like US-DE-US, every time we change the identity our HTTP headers show a different client/OS/extensions/language which helps reduce the elements that can be used to relate different identities, and more.
+
+BTW, I have yet to see a Linux user that has a good opinion on AdvOR which is a Windows-only program.
+
+http://sourceforge.net/p/advtor/discussion/942231/thread/a694cf05/
+"""]]

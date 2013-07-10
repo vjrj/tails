@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-02-07T01:07:42Z"
+ content="""
+Yes, MAC changing is a TODO in TAILS. I myself have tried to give a suggestion on how to implemnt it in a reasonable way. However, due to my lack of knowledge in coding and stuff, I can't help actually GETTING it done -.- :S
+
+But, yeah, MAC adress is not anonymous, as a big deal is not. We should really try to get a complete view of WHAT our computer says to the internet (in any way) and try to block all of it. Protecting our IP address is not enough. From browser fingerprints to hardware serail numbers to whatever it is, a lot of stuff can be used to identify us.
+
+One question: What do you guys think of having ''broswer.cache.memory.enable'' set to false?? This is a really important one!! By changing it to false, I was able to get a positive result in http://ip-check.info/?lang=en
+any thoughts on this are appreciated, especialy from TAILS devs.
+"""]]

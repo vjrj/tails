@@ -1,0 +1,7 @@
+I want to report here a potential threat for our XMPP (jabber) connections. I can understand is one thinks that Tails' forum is not meant to be flood by every bug or exploit discovered, but..
+
+Perhaps the future version of the forum can include a section for the potential threats reports?
+
+> XMPPloit is a command-line tool to attack XMPP connections, allowing the attacker to place a gateway between the client and the server and perform different attacks on the client stream.
+
+Source: <http://www.darknet.org.uk/2012/08/xmpploit-a-tool-to-attack-xmpp-connections/>

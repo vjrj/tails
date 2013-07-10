@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-13T07:51:32Z"
+ content="""
+>The only use I can think of off hand would be when you're behind some kind of firewall and all outside connections have to go through the proxy.
+
+That's about the size of it... and that's one more \"use\" than there'd be for routing your Tor *exit* traffic back onto your own proxy!
+
+>so logged in as a super user i restart Tor using the \"sudo /etc/init.d/tor restart\"
+
+You don't need `sudo` if you're root
+"""]]

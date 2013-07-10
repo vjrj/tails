@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-08T13:24:39Z"
+ content="""
+There is no specific persistence support for this, but it might be quite easy to achieve. What exact settings do you want to make persistent?
+"""]]

@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-08-12T04:19:56Z"
+ content="""
+I tried 
+
+`apt-get update` 
+
+and then
+
+`apt-get install iceweasel`
+
+not more than a week ago.
+
+The download was around 260 MB because of all the dependencies, which included numerous language packages.
+
+When the downloading finally finished, I got a message that not all files could be downloaded. It was all for nought. 
+
+Is there a safe way of eliminating all of the language stuff?
+
+>bump !
+
+Unfortunately, on this forum, replying to a thread does not seem to bump it.
+"""]]

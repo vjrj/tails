@@ -1,0 +1,44 @@
+Hi people,
+
+I'm starting this thread even though I know (& understand why) Tails devs cannot support multiboot environements, but I believe quite a few users may appreciate the commodity of having a single USB stick comprising of a Non-Tor "safish" LiveOs for everyday "low-danger" use along with Tails for all Deep/Safeweb uses.
+
+Using Tails/Tor for instance I cannot access online banking sites, gmails & co, flash, java, cookie content etc etc etc. I *understand* this is the desired goal of the distro & Tornet, all I am saying is that sometime we need to access services that require those. Sometimes with services that use IP geolocalisation security Tor can obviously f**k things up. It simply isn't made for that and that is fine.
+
+Yet why should the user have to use his normal hard drive OS, which for most people in the world is running Windows, which means that for most people in the world will be absolutely bloated by crappy malware/virus/keyloggers/unsafe software agents when user needs to manage money online or have plausible deniability from the wifey when accessing *those* naughty pages ;-) , or work VPN (no use for a VPN if the accessing terminal is being keylogged) or even fbook & co?
+
+I have read this tutorial on creating a multiboot stick including Tails : http://www.revoltingworld.net/2012/12/multi-partition-usb-key-with-bootable.html as well as various threads on this forum.
+
+*Quoting from a thread :
+
+Hi,
+If you install Tails this (unsupported) way, you have to know that:
+
+1.GRUB2 can fail to boot on some 'buggy' Phoenix BIOSes.
+
+2.The "wipe memory on shutdown" feature does not work if you don't append 'initrd=/live/initrd.img' to the kernel boot commandline (this is not new, and detailed here).
+
+3.The "wipe memory on removal"/udev-watchdog feature doesn't work.
+
+4.You will be unable to create an encrypted persistent volume with the desktop utility done for that." 
+
+5. Probably more*
+
+I would simply like to know : wether Grub is the best bootloader for this task as it seems to prevent Tail's "wipe memory" features and *specifically for which reasons* persistance gets disabled because of it? Is it only the Tails Wizard that's bothered or is it a more fundamental limitation because of partioning issues? 
+
+I would also like to have user's opinions on which "everyday" distro could go along well with Tails, enabling cross-platform usability (Mac? one day...) without sacrificing *too much* system/software security (not anonymity, for that there is Tails)? 
+
+http://en.wikipedia.org/wiki/Security-focused_operating_system
+
+Extended hardware drivers / compatibility being obviously very important. Has anyone played around with Hardened Gentoo? Qubes sounds interesting but too technical for noobs. What are your opinions wrt to Ubuntu/Mint from a security and compatibility POV? Backtrack is based on it after all...
+
+Once a distro is selected I would add the necessary privacy FFox plug-ins and maybe even Multibit for Bitcoiners, a password generator & manager, disable remote desktop & recovery modes etc...Then repackage it as a custom ISO.
+
+In the end this is not really for me, basically I would like to create a flashable ISO file containing the 2 OSes & a bootloader that I/we could spread around ; I see so many people around me using infected windows it's appalling to think people use those to do wire transfers, paypals etc... This way whenever one of the two distros releases an update I apply it to the ISO, repackage it, make it downloadable somewhere and notify friends & users that they should flash their sticks asap using a simple method analog to the one Tails devs have implemented in their release.
+
+I hope this is not too off-topic because of the multiboot thing & Tails.
+
+
+
+### I would really like to get to the bottom of this, please share your opinions!
+
+### Thanks to devs & community, great project & meaningful endeavour in these interesting times...

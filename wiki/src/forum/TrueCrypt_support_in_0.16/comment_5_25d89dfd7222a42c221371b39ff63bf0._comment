@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-08T23:41:04Z"
+ content="""
+> are there additional recommendations for troubleshooting?
+
+Well this isn't exactly troubleshooting advise but if you really cannot get the boot option to work correctly then you can manually run the script that would have been executed during startup with the truecrypt boot option present. the script is located here: /lib/live/config/2030-install-truecrypt.
+
+So if you can't get the boot option to work then you can open a terminal window after Tails has started and simply execute the command:
+
+sudo sh /lib/live/config/2030-install-truecrypt
+
+running that script will install truecrypt in the same way as it would have been installed by the boot option.
+"""]]

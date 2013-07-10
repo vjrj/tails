@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-11-18T09:54:39Z"
+ content="""
+> Perhaps for normal scheduled upgrades, rather than real emergencies, the ideal balance between conveying the need to upgrade and excessively alarming the userbase might be slightly softer?
+
+> Maybe something more like: Several potential vulnerabilities
+
+I'm fine with replacing \"security holes\" with \"vulnerabilities\".
+
+On the other hand, the [[issues fixed in 0.14|security/Numerous_security_holes_in_0.13]] are quite real, not merely \"potential\". Some of them are pretty serious.
+
+I'm unsure, in the end. Other opinions are welcome. Perhaps this discussion should be moved to tails-dev mailing-list.
+
+
+"""]]

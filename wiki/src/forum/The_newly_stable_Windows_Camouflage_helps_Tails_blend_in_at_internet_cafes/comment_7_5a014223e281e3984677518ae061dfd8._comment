@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-06-20T15:52:21Z"
+ content="""
+>Tails documentation on desktop
+
+I don't see that.
+----------
+
+Some observations about the Windows Camo.:
+
+1.) No \"Show Desktop\" button in taskbar.
+
+2.) In the taskbar, the \"Unsafe Browser\" windows appear identical to regular Tor-enabled Iceweasel. 
+
+Is there any way of changing this without defeating the camoflouge?
+
+How commonly do Internet cafes and the like have another browser such as Firefox, Chrome or Opera installed on the terminals?
+
+If that is not so rare, then perhaps the unsafe browser could be themed as one of those non-IE browsers.
+
+3.) The only shutdown button I could find is in Start > System > Administration
+
+This is a double-edged sword: On one hand, this is not quickly found and could be a real problem in a panic.
+
+On the other hand, the problem of being too easy to accidentally shutdown that the regular TAILS theme has is avoided. Seems like the other extreme, actually. 
+
+Surely there is no reason for there not to be a happy medium; an easy-to-find, intuitive button for immediatedly shutting down TAILS but one that is not so easy to hit mistakenly. (i.e., not in such an awkward position as right above the close-window X) 
+
+"""]]

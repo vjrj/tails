@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-20T06:02:42Z"
+ content="""
+Tails *contains* GIMP, Seahorse, less, GnuPG, echo, ping, glibc and Gnome. Maybe one or two other tools too. What's your point? Software projects all have manuals, many have user communities, fora, mailing lists, etc. Tails is a small project and can't hope to provide omnipotent support to its component packages. Nor *should it* attempt to maintain parallel unofficial documentation/support for all its components. What about this that are you having difficulty comprehending?
+
+
+So *you* happen to have an obsession with Tor. Whatever. Take it to the Tor community or see a psychiatrist.
+"""]]

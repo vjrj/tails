@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: comment 7"
+ date="2012-06-23T17:53:12Z"
+ content="""
+If you followed this thread carefully, in order to get a bootable partition on  your USB stick - do the following:
+
+From a successfully booted 0.11 or 0.12 TAILS or any Linux Live CD, DVD or USB with System>Administration>Disk Utility:
+
+1. Run Disk Utility with the USB plugged in to which you want to burn the latest Tails ISO file, and select it from the left-hand-side of the Disk Utility window.  Starting from the top part of Disk Utility format the USB to have a Master Boot Record (MBR), and then from the bottom part of Disk Utility select format a partition, select FAT as the format, and check the bootable box to mart the partition as bootable.  Don't forget to identify the /dev/sdx device name and name the partition as /dev/sdx1 where x is an alpha character that identifies the USB port name where the to be burned USB stick is plugged in for your system.
+
+Note: This should cure the \"no bootable partition found\" problem.
+
+2. If you have downloaded the latest Tails ISO file and assuming it is located on your Desktop, the proceed to run the USB installer from the Applications>Tails selection box - and then select the 3rd method to use the Tails ISO file on your Desktop.
+
+3. After the Tails ISO file is burned and verified, then shutdown your system and boot from the newly burned USB stick.
+"""]]

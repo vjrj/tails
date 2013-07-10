@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-01-29T09:23:51Z"
+ content="""
+> is that needed too if nobody will physically access your computer and try to guess it? why?
+
+The idea is to make it harder for an attacker who gained control of your desktop user account to escalate their priviledges to administrator ones, and use this to deanonymize you.
+
+"""]]

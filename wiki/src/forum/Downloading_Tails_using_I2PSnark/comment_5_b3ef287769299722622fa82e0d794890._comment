@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ username="str4d"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-01-02T05:38:32Z"
+ content="""
+>Other than using a regular torrent client, is there a way to download Tails via I2PSnark? i.e. any specific required configurations?
+
+I2PSnark is an I2P torrent client, and so can only download torrents created for within I2P (i.e. with I2P trackers). So the Tails devs would need to seed Tails within I2P as well as the regular internet (and provide separate torrent files for each).
+
+>The torrent on the download page is meant for clearnet, not i2p.
+
+There is an exception to this incompatability: magnet links. A magnet link from the regular internet *will* work in I2PSnark, but it will ignore any trackers provided within the link, and instead search the I2P opentrackers and I2P DHT for peers. In this way, someone can download a torrent from the regular internet, and then reseed it within I2P, and then other I2P torrenters can use the magnet from the regular internet and get the torrent within I2P (since the magnet is just an infohash, and the infohash does not change when the torrentfile changes).
+
+(Technically, this means that the torrent file from the regular internet *should* also work within I2P as long as there is someone seeding the correct infohash in the DHT, but it would of course not have access to the I2P trackers. Don't quote me on this though - I'm not completely certain of what I2PSnark actually does if a torrent from the regular internet is added.)
+
+>Stream isolation for tor is here, but TORenting not yet.
+
+The Tor devs [specifically ask users to not torrent over Tor](http://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea).
+"""]]

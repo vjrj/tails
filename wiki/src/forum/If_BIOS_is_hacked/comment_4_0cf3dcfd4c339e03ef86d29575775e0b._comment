@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-19T11:39:18Z"
+ content="""
+@ comment 2: 
+
+By *definition*, if **persistence** is enabled, the Tails USB stick *itself* will *not* be amnesic. If I am not mistaken, however, if the persistent volume is set-up in the proper, supported way with the Tails USB installer, any and all dynamic data on said stick will be *encrypted*.
+
+*Without persistence*, however, a Tails USB stick -- by design-- should behave the same as a Tails DVD in this regard: all changes should be lost upon shutdown and the medium (USB stick in this case) should return to its exact original state.
+
+Writing-to flash media (the essential part of a USB stick), however, is far easier than writing to a burnt DVD. Thus, an attacker could alter the contents of a Tails USB stick if he were to gain control over a running Tails session.
+
+For a Tails USB installation **without persistence**, there is actually a way to check against tampering that one can do as often as one likes: Checking the cryptographic hash (sha256 or sha1 sum) against that of the **isohybrid** ISO from which the stick was made. The two hashes should match.
+
+NOTE: You need to generate the hash for **/dev/sd*4** (replace * with the corresponding letter for your device) and not for the whole device (/dev/sd*)! (This is how Tails appears when manually installing to USB)
+"""]]

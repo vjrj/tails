@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-06-09T02:48:57Z"
+ content="""
+>On the contrary, they should be mandatory.
+
+On the contrary, they are crap.
+
+>If you can include ham radio modules and other modules for crap not required or targeted for such a distro, you can include tools as I mentioned.
+
+Many of the packages listed above *are* \"ham radio modules and other modules for crap not required or targeted for such a distro\"! They are also packaged for Sid. Tails is based on Squeeze. Some of them are not even available for Squeeze. The authors of Gcipher warn in the description that **Gcipher should not be used for encryption**.
+"""]]

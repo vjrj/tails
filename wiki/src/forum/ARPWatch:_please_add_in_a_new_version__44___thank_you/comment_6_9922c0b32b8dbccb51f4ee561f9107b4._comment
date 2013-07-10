@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-20T07:29:57Z"
+ content="""
+> Rather than skirt the issue, please consider ADDING ARPWATCH to a future version.
+
+I did consider it, and answered.
+
+Then, someone else added a sarcastic comment that contained a wild guess. Please don't confuse that one and Tails developers.
+
+> IT IS AN IMPORTANT PROGRAM and ARP POISONING IS REAL AND A THREAT, one would HOPE on a distro like Tails this would be understood and the program included.
+
+Please exactly state what threat ARP poisoning is causing in the context of Tails.
+
+Also, given arpwatch reports detected issues over email, how would you see it work in the context of Tails?
+
+Eventually, as usual in free software: if you want this feature that hard, [[submitting a patch|contribute/how/code]] has much greater chances to work than insisting :)
+
+"""]]

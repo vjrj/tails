@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-12-07T18:41:07Z"
+ content="""
+It lists all *supported* options. To find many other options, you might want to read the `live-boot` 3.x documentation. Unfortunately, we're unlikely to support the resulting system, that may or may not behave like Tails.
+
+"""]]

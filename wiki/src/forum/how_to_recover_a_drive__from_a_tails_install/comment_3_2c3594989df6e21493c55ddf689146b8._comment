@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-10-19T20:24:25Z"
+ content="""
+**Don't touch the drive!**
+
+There are lots of excellent FOSS tools... just be careful to not to do any more damage before you have a recovery plan.
+
+There's still a decent chance you'll be able to recover some (even much) of your data. Photorec and gdisk are a couple of tools which immediately spring to mind. There are many great distros specifically for this sort of job.
+
+Do you have any record of the former partition table? Any idea whether it was gpt or mbr? Are there any specific files which stand out as being irreplaceable?.. and if so what format(s) are they?
+
+In addition to the recommendation above, have a look at partedmagic and RIP Linux. I've found partedmagic invaluable for these sort of duties. www.distrowatch.com can point you at just about every distro known to man.
+
+It'd also probably be useful to find a more data-recovery orientated board to post to.. you might find more expertise somewhere better targeted to your problem.
+
+In the meantime, the MOST IMPORTANT thing you can do is to ensure no further damage is done. **DISCONNECT THE DRIVE** or turn off the machine until you know exactly how to proceed.
+"""]]

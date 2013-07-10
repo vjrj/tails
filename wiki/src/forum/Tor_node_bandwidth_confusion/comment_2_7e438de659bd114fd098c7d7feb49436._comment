@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-25T06:01:20Z"
+ content="""
+@ comment 1:
+
+I'm not sure if you're serious or not but doesn't *everyone* who runs Tor for any length of time *inevitably* stumble across rogue nodes?
+
+As I understand it, Tor is designed with this taken account, so that merely encountering rogue nodes should not, in and of itself, break the anonymity that Tor provides.
+"""]]

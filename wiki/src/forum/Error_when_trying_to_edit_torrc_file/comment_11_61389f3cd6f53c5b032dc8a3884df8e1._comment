@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-01-29T09:42:01Z"
+ content="""
+I think this is a known Vidalia bug: <https://trac.torproject.org/projects/tor/ticket/6147>.
+"""]]

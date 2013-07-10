@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-24T10:43:45Z"
+ content="""
+> Tails is based on Debian Stable, which is generally regarded as one of the most secure Linux distributions. One of the reasons why is that security patches are provided promptly ...
+
+No, no and no!
+
+Debian Stable is everything but regarded as secure. The current Debian Stable has heavily outdated software, and the debian developers does not even care anymore trying to backport security fixes to this old software due to the amount of work needed to spend (except for a selected few core components).
+
+To prove my point:
+
+The Java installed in Debian Stable (and Tails) was last updated previous summer. Since then many critical security vulnerabilities in this Java version has been found and fixed upstream (most/all is tracked on Debians security tracker), but no attempt to update the Java in Debian has been made.
+
+Tails developers recently for the 0.17 release had to disable more protocols in the IM client Pidgin, since the Debian developer doesn't have the time to backport the security fixes promptly. See tails mailing list.
+
+The Firefox/Iceweasel version in Debian Stable (but not in Tails) is version 3.5.16. Such an old release is not even receiving much security reviews anymore.
+
+And same goes on and on for many other applications. In fact the number of security fixes released for Debian Stable is very low (list is publicitly available on Debians site) compared to many other Linux distributions, yet about the same amount of security vulnerabilities are found since it is the same software.
+"""]]

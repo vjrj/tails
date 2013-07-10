@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-11-30T00:20:26Z"
+ content="""
+@4:
+
+For some reason NoScript reverts to the (Tails) default of \"allow scripts globally\" each and every time the browser is restarted. You should see a warning icon with an exclamation point.
+
+@5: I also recall something in the *Tails* documentation explaining the choice to set allow scripts globally as the default. 
+"""]]

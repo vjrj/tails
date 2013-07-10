@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-26T06:13:16Z"
+ content="""
+@ Comment 4
+
+Here: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ I have previously used the same installer with various (K/L/X)Ubuntu images without issues, but the only address verification i did while downloading the installer was the address bar link.
+
+@ Comment 5
+
+I'm unable to figure out whether the ethernet NIC is physically destroyed or if it's BIOS that lost track of it, because the NIC is built-in on the motherboard. It's unusable in both Windows 7 and Ubuntu, which i tested by booting from a live flash drive.
+
+I have verified that the hard drive, memory and power supply are intact. Well, the power supply handled a 6 hour stress test fine, but who knows.
+
+What i'd really, really like to know, is why did my HDD leds light up like the night star just a couple seconds after Tails was supposed to start from the flash drive?
+
+It certainly was not due to BIOS detecting the drives, because that had already occurred prior to me choosing the flash drive as the boot device!
+"""]]

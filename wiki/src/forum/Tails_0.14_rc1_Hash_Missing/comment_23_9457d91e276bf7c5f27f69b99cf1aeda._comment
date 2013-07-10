@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 23"
+ date="2012-10-19T07:28:32Z"
+ content="""
+>you'd have to compromise the users network link at the time they decide to download that ISO.
+
+Why? 
+
+If an attacker could penetrate the *server* where the ISO resides, couldn't they just replace it with a trojan ISO? 
+
+I don't mean to imply that penetrating such a server is *easy* but I wonder just *how difficult* it actually is for the kind of \"big guys\" I refer-to below.
+
+>your average link pwning script kiddy 
+
+Never mind them, what about the big guys, i.e., sophisticated organized crime operatives and governments? 
+(not to imply that the two aren't often largely synonomous...)
+
+"""]]

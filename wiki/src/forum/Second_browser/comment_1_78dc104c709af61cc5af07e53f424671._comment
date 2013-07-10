@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-16T18:53:27Z"
+ content="""
+Installing another browser would be extremely hazardous, I think, and I expect that \"Tails\" would urge you to not even consider doing that.  If you haven't read the page <https://tails.boum.org/doc/about/warning/index.en.html> you should probably do so before reading the rest of this post.
+
+I suggest that you focus on trying to solve the usability issue.  Do I understand this correctly?
+
+* you want to keep yourself logged into several forums simultaneously for extended periods (which might require enabling Javascript and cookies)
+* you find Tor surfing is too slow
+
+Taking the second one first:
+
+I have found that some combination of the following speeds up Tor browsing enormously:
+
+* When you browse to many popular websites, their servers will try to make your browser request items (usually associated with behavioral advertising) from third party servers, which can greatly slow down browsing.  Simply disabling automatic image loading (in the Tails browser configuration) tends to cut by a large factor the amount of crud which your browser will attempt to load.  
+* Disabling JavaScript can cut it further.  Not that both of these measures change the default browser configuration with a negative impact on your anonymity, but many Tails/Tor users seem to have concluded the benefits of disabling Javascript entirely outweigh the risks.  The EFF's panopticlick website suggests that a large fraction of EFF members disable Javascript entirely.
+
+* Some Tor nodes overreport their bandwidth capacity, which leads to their being used in many Tor circuits which are too slow; if you notice patterns from observing the Tor Network Map (Vidalia controller) which suggest this is  happening to you, consider putting the offending subnetwork in an ExcludeNodes list in your torrc.  This can reduce your anonymity so this might be a last resort. 
+
+Now for the first item: 
+
+When you log into any of those forums, to you do so at an http page instead of an https page?  If so, almost certainly (you could check with a packet sniffer) your login name and password are transmitted *unencrypted* and thus can be easily intercepted by anyone with access to networks between the Tor exit node and the destination server (which could easily be a dozen or more people).   For this reason, logging into any website which is not https protected is generally strongly discouraged for all Tor users.  In the first place, this ties a Tor user to a particular username.  Even worse, in the past, quite a few rogue Tor node operators have been known to monitor unencrypted packets with the express aim of intercepting http and ftp logins, in order to collect triples of (url, username, login), which gives them complete access to all those web accounts.
+
+It is also possible that another Tor-friendly Linux distribution would serve your needs better.  Tor Browser Bundle (TBB) is definitely the easiest to maintain if you simply want to duck some behavior advertisers, but you might want to look into Whonix, which offers additional security (but is intended for on-disk installation on a dedicated computers running virtual machines, or for installation on a pair of dedicated computers, and is harder to install and maintain than TBB or Tails but probably much more flexible).  Both the Tor Project and the Whonix Project offer extensive Warnings pages which you should study carefully.
+
+"""]]

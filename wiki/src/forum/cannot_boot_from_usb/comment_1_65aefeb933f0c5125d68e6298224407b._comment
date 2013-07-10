@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Likewise"
+ date="2012-10-25T13:05:46Z"
+ content="""
+Me too, on 3 Windows XP PCs. 
+Yet the same USB stick works fine on my Thinkpad,that has Linux installed.
+
+Boot from USB is enabled and top of the list in the BIOS, and I go into the boot menu and set USB as the boot device each time, but they all still boot into Windows.
+Is it a Windows thing?
+"""]]

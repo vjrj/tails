@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-12T03:06:04Z"
+ content="""
+> Correct me if I am wrong, but I am under the impression that \"No History\" implies not accepting any cookies at all (neither first or third party), and not storing any history whatsoever while keeping a \"private session\" all along.
+
+To be honest I'm not actually 100% sure about what privacy options the \"No History\" presets sets, but all it really tells you about the option is that its basically the same as permanently running Firefox in private mode.
+
+And as far as I understand the default behavior in private mode is too accept all cookies while browsing and then just delete them when the browser closes. That is what leads me to think that the \"No History\" option does the same.
+
+> Can you please explain further how would \"No History\" allow third party cookies? Is it some hidden tricky option?
+
+\"No History is just a preset, it basically just picks some default values for the options that you can see when you select custom settings that Firefox thinks is best for private browsing.
+
+> Another question goes like: What kind of information do first party cookies store, and is deleting them regularly of any benefit security/anonymity wise?
+
+What information is stored in first-party cookies is entirely depended on the website that created the cookie, a website can basically store any text it wants to inside of the cookie, but the cookies are commonly used for things like keeping you logged in (if you have an account on the site) and other random things that the website finds useful to store in a cookie.
+
+I can't say there is too much of a security advantage to deleting them regularly (especially not when using TOR) since they will just be created anew when you visit the website again but removing them doesn't usually create that many problems either so if it's a cookie from a site you don't intend to visit again then you can safely remove it if you want to.
+
+> on a related note, why is ( Scripts globally allowed (dangerous) ) checked by default? It does say dangerous doesnt it ? lol
+
+Scripting is allow by default for much of the same reasons that first-party cookies are allowed, a lot of websites need scripting turned on to function properly, so if it was disabled by default then you would end up with a lot of website that didn't work which would probably confuse and annoy Tails users who aren't aware of the fact that they are blocking scripting by default, and what consequences that has.
+
+Now whether or not allowing scripting is dangerous or not is actually a highly debated and pretty controversial topic, the script that you block when you use NoScript is written in JavaScript (NOT JAVA, this is an important distinction to take note of), JavaScript is a web scripting language that can do a lot of very useful stuff, which is why a large majority of sites on the web depends on it, the fear some people have is that you might visit a website that has malicious JavaScript on it that would in someway compromise your real identity.
+
+Those fears aren't entirely unfounded since there are some browser exploits that depends on JavaScript to be turned on, however the fear is quite a bit exaggerated in my opinion since JavaScript is almost always harmless, and you also have to take into account the fact that the TOR Button extension that is installed in iceweasel is already designed to block any potentially malicious JavaScript code it finds that might compromise your anonymity in some way.
+
+There also seems to be a large group of people that confuse JavaScript and JAVA with each other, JAVA is a multi platform programming language which can actually be quite a risk to your anonymity and not something you should ever run on any website while using TOR. It is important to note though that while Javascript and JAVA might sound similar name wise they are actually about as comparable as a car is to a carpet, they share the same first letters in their names but that's where the similarities stop.
+
+The Tails devs have decided that they deem it safe enough to run scripts but  whether or not you want to block scripting is entirely up to you, just be aware of the fact that a lot of websites will stop working as intended when you do so.
+
+
+"""]]

@@ -1,0 +1,10 @@
+I imported the TAILS signing key following the instructions given at:
+`https://tails.boum.org/download/index.en.html#index3h1`
+
+But I then got the following output, which obviously differs from that shown at the above URL:
+
+    gpg: key 1202821CBE2CD9C1: "Tails developers (signing key) <tails@boum.org>" 19 new signatures
+    gpg: Total number processed: 1
+    gpg:         new signatures: 19
+
+

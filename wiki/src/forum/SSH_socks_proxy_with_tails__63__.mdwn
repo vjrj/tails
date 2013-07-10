@@ -1,0 +1,36 @@
+Hi
+
+I'm looking to create an ssh socks proxy from within tails, and to change the socks port in iceweasel, so that I browse the internet with the IP of the ssh host rather than an external tor node.
+
+If I use the following: (which I usually do on my 'non live cd' system)
+
+amnesia@amnesia:~$ torify ssh -ND 9999 user@host
+
+I get the following message:
+
+15:56:18 libtorsocks(5325): connect: Connection is to a local address (127.0.0.1), may be a TCP DNS request to a local DNS server so have to reject to be safe. Please report a bug to http://code.google.com/p/torsocks/issues/entry if this is preventing a program from working properly with torsocks.
+FATAL: Unable to connect to relay host, errno=0
+ssh_exchange_identification: Connection closed by remote host
+
+
+if I use:
+
+amnesia@amnesia:~$ ssh -ND 9999 user@host
+
+I have this message:
+
+bind: Cannot assign requested address
+
+I don't understand - why can't it bind?
+
+if I use:
+
+ssh -4 -ND 9999 user@host 
+
+it works, but then no way to change the proxy port in iceweasel. Well, I can change it, either clicking on preferences in the torbutton, or going to edit>preferences, but my browsing still goes through tor and doesn't go through my SSH tunel.
+
+I'd like to know why it doesn't work? Is it impossible in tails to change the proxy port? If so, why?
+
+Thanks :)
+
+

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-24T10:36:22Z"
+ content="""
+You have insufficient RAM for what you're attempting to do.
+
+By \"Tails is warm-rebooting\" you probably me *restarting X*? This is not a reboot. You should (really) reboot after having to kill processes due to running out of RAM.
+
+I'd recommend purchasing more RAM
+"""]]

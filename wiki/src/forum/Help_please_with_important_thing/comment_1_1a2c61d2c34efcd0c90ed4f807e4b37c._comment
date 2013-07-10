@@ -1,0 +1,75 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-29T16:49:23Z"
+ content="""
+> Thank you for help. I am not smart with computer things. In my country is much repression and I want to be safe but be able to reach others who want freedom.
+
+That is just what this forum is for, in my view.  Welcome!
+
+> I have friend who was put in jail when they found communication between people on his computer and he was using TOR.
+
+Happens far too often.  Many countries now
+
+* require ISPs to install surveillance gear specifically designed to detect and break/block Tor
+* require internet cafes install electronic surveillance which is specifically designed to detect and break/block Tor
+* use malware targeting the computers of persons who have been spotted using Tor
+
+Some go further and use vans/planes to snoop on Van Eck emissions from electronic devices used by individual targets.  (This is expensive but from the sound of it, you might \"qualify\" for \"special attention\".)  Decades ago such technology was limited to US TLAs but now it is sold by Western surveillance companies to oppressive governments (and even to other corporations, who may target union organizers or suspected leakers).
+
+> my question is If my computer is off and I have Tails/TOR on bootable USB and boot up into Tails/Tor without going into Windows and when I am done just get out of Tails/TOR and turn off computer and then hide USB, am I safe if police check my computer?
+
+Good question.  And difficult to answer with confidence.  But you did provide a sufficiently specific scenario that I think we can suggest some possible problems.
+
+So let's assume:
+
+* you are a political dissident at risk of arrest and torture in retaliation for criticism of some governmental policy
+* \"your other OS\" is Windows
+* you obtained the current Tails iso image, checked the detached signature, and installed Tails on a bootable USB stick
+* when you wish to communicate with other dissidents, you boot your PC or laptop using the Tails USB, and use software provided in Tails to create/read files and to communicate
+* you fear (with good reason, I think) that at some point \"the authorities\" may burst into your home and seize your computer (and the USB stick if they find it).
+
+Tails is designed to be \"amnesiac\", which means that it should leave no traces that you used Tails at all, much less what you did while using Tails, on the hard drive used by Windows.  This makes it ideal for persons at risk of arrest for political activity, union organizing, blogging, etc.
+
+But it's very important that you shut down Windows completely (and maybe even wait a few minutes) *before* you insert the USB stick into the slot and reboot your computer using Tails.  The reason is that if you insert the USB stick while using Windows, a trace of that action is likely to be left and to be detectable if someone uses forensics software to search your computer.  The kind of information they could potentially find includes:
+
+* the unique identifier of the USB stick
+* a default name for the USB stick which mentions \"Tails\"
+* the system time when you inserted the stick
+
+Harder to assess and fix is the issue of what information the secret police might be able to find on your USB stick.  Assuming they have someone on staff who knows anything at all about \"computer forensics\", they could certainly see that the USB stick is a bootable Tails USB stick and that it contains an encrypted volume, which could be suspicious in itself.  
+
+Your user files should be in a strongly encrypted \"volume\", but this does not offer a guarantee that the files you kept there cannot be decrypted and accessed.  Metadata kept by the Tails system itself can also be dangerous.  For example, if you use gedit to write a short message to be encrypted using gnupg, gedit keeps a record of that.  Fortunately in the home directory of \"amnesia\", the Tails \"ordinary user\", so it should be encrypted and thus possibly not easily read.  Similarly, your bash_history (a file which logs all the commands you typed) should be kept in the home directory of \"amnesia\".  And your super-sensitive gpg keyring, including your secret key, is kept there.  (If someone snagged that, they could potentially read all your past communications and even impersonate you.)  And your SSH keys, if you use one to log into a server using public-key authentication instead of a password.
+
+In general it is a good idea to use the shred command (analogous to wipe in Windows) to overwrite with random data any files you no longer need, although this may still leave plenty of traces in system files that the file once existed.  Unfortunately, shred does not work like we want on a USB stick, and someone who can examine the USB memory byte by byte may still be able to see portions of \"shredded\" files.  \"Western\" surveillance-as-a-service companies are even selling tools to enable people who know nothing about computers to do this easily.
+
+One alternative approach might be to boot Tails from a R/O DVD (which will be, we hope, truly \"amnesiac\") and to store your files on data only fully encrypted USB stick which you have given a harmless name. (It would be wonderful if we could use steganography to disguise the fact that an encrypted volume is even present, if someone seizes the USB stick, but currently this appears to be difficult.)  In this case, the data USB stick will still have some unencrypted information in order to help an operating system \"mount\" and decrypt it (when the passphrase is given), but it might at least be possible to disguise that you used the Tails OS, especially if it were seized someplace other than the place where you keep the Tails DVD.
+
+> Is everything I say and do on the USB, or can police find my communication on hard drive of my computer? 
+
+It is terribly important that your adversaries are not be able to decrypt that container.
+
+If someone starts blasting down your door while you are using Tails, you should immediately hit the red shutdown button and allow Tails to shut down the system, which should take less than ten seconds.  As you probably already know, you should see after several seconds \"snow\" on the display which means Tails has successfully wiped itself from RAM.  Then you can remove the USB stick (and maybe toss it out a window).
+
+In this situation, it may be *possible* that your adversaries could use a cold boot attack to search your RAM before all electronic traces disappear, and *possibly* even find enough cryptographic keying material to be able to decrypt your USB stick if they find it in the bushes.  Secret policemen sometimes boast of such exploits, but I suspect that even sophisticated secret police might find it hard to do all these things if you were able to shut down Tails with the memory wipe successful.
+
+If you are in another room when they burst in, or can't complete the Tails shutdown and memory wipe, they can use any number of commercially available tools (typically devices which look not unlike USB sticks or CDs with special software) to capture the unencrypted contents of the USB stick.
+
+As for the communication itself, depending upon what protocols you used (email, chat) this could be your greatest vulnerability.  I guess that using OTR chat in an encrypted private chat with someone you know well enough to recognize \"catch phrases\" indicating that you are chatting with the person you think you are, and that this person has not been captured by the secret police and forced to work for them, might be considerably safer than even GPG encrypted email (because email leaves lots of traces in going from sender to recipient), and encrypted email would at least be more private than using unencrypted chat.   If you use email to communicate with persons outside your country, depending upon where your web mail server is geolocated, that might be sufficiently safe unless the USA and its allies cooperate with the secret police where you live.
+
+By the way, I am not affiliated with Tor/Tails, just another at-risk webuser.  (My other OS is Debian, so I am not very familiar with Windows, but I guess that might not be necessary to offer some useful suggestions.)
+
+The issue of what surveillance methods are currently used by our adversaries, and how Tails users can try to defend against these, is a huge subject, so there are many points I have not even attempted to mention.  But its also important not to become overwhelmed by the multitude of threats.  Just remember: the secret police, in all likelihood, are having trouble coping with a variety of protocols and defenses already incorporated in Tails, so they may often fail to \"roll up\" some persons whom they have targeted for oppressive measures.
+
+Further reading:
+
+    https://tails.boum.org/doc/about/warning/index.en.html
+    https://tails.boum.org/doc/about/fingerprint/index.en.html
+    https://tails.boum.org/doc/first_steps/persistence/warnings/index.en.html
+    https://tails.boum.org/doc/advanced_topics/cold_boot_attacks/index.en.html
+
+    https://ssd.eff.org/
+    https://tails.boum.org/forum/State-sponsored_malware_can_inventory_RAM/
+    https://tails.boum.org/forum/Dragnet_surveillance_in_Boston:_how_can_Tails_help__63__/
+
+"""]]

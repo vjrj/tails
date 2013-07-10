@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-03-11T14:53:32Z"
+ content="""
+> Can this be achieved by any means other than a kernel exploit? If so, could you provide examples of alternate attack vectors?
+
+Generally speaking, privilege escalation can be done by exploiting an application that runs with higher privileges than yours. But really, if you're interested in such topics, please do read about it and learn by yourself, as this forum is no general purpose computer security teaching place, sorry.
+
+"""]]

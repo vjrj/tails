@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-04T09:17:50Z"
+ content="""
+Hi
+
+Thanks for your answer.
+
+Yes, it isn't at all related to my anonymity, and I need to be able to use a 'clean and static IP' which this anonymous SSH socks proxy would provide.
+
+BUT there is no way to change the socks port in the torbutton and that's weird as it isn't documented and I feel like that technically I _should_ be able to to that...
+
+Anyway to bypass that restriction / anywhere where it's explained why this does exists?
+
+It's strange it has been talked about a few times on this forum but never an answer from tails dev...
+"""]]

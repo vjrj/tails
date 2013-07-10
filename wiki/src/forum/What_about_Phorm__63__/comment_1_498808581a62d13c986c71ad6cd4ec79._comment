@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-14T21:44:02Z"
+ content="""
+> Phorm
+
+You have much more to worry about than a single (bankrupt) company:
+
+* eff.org, aclu.org, epic.org, and dozens of other civil liberties and pro-privacy websites have much information about things your ISP does (probably), \"surveillance as a service\", \"lawful intercept\" [sic], and information brokers (whose customers include governments).
+
+* universal population surveillance systems have been sold by Western-based multinational corporations to many repressive regimes, and as this technology flows from \"democratic\" countries to authoritarian regimes, authoritarian ideology flows in the opposite direction and increasingly informs the thinking of \"Western\" political leaders such as David Cameron; see
+http://topics.bloomberg.com/wired-for-repression/
+
+* dragnet surveillance systems are already beginning to morph into universal cyberwar/assasination systems. For a recent overview of the dangers this phenomenon poses to everyone in the world  see:
+http://www.wired.com/dangerroom/2012/11/president-hunt-you/
+(As the Petraeus/Allen affair illustrates, and as some of us have been warning for years, the snake is beginning to eat its own tail.  Also, as some of us have been warning for years, Americans should be concerned that they do not have a monopoly on technologies such as urban surveillance and killbot drones; \"terror\" groups are already deploying their own models.)
+
+> ISP can see
+
+Yes, in general, if your ISP is using sufficiently sophisticated surveillance tools (probably provided by a third party provider of \"surveillance-as-a-service\" systems; Phorm is gone but many others are thriving), they can see that you are using Tor.  If you use bridges the chance that they can easily detect this is probably smaller.  Your ISP also knows tags which uniquely identifier your ethernet card. Some ISPs are said to already employ Big Data to correlate social networking and other \"public\" data on their own customers to look for evidence of intruders masquerading as legitimate customers.
+"""]]

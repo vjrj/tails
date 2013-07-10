@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-14T09:19:59Z"
+ content="""
+>@1: Are there no issues compromising anonymity using USB adapters, **assuming they need their own drivers/software running**?
+
+They don't. **Tails != Windows**
+
+---
+
+RE: RT5390R
+
+I believe that particular chipset was neigh-on useless until [commit 0586a11b5cc51413240e6688936e2edac9c2918e](https://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=0586a11b5cc51413240e6688936e2edac9c2918e) which landed in April this year and first surfaced in Linux 3.5. According to [the release notes](https://tails.boum.org/news/version_0.14/#index1h1), Tails 0.14 uses the 3.2.32 kernel, so unless that patch is/was backported you probably won't have much luck in Tails for a while :o(
+"""]]

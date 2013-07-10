@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-03T21:55:24Z"
+ content="""
+If you run your Windows 7 with virtual memory turned off that will help, because less sensitive info will be saved to disk.  There's still the risk of having a key logger hidden on your host system, either as software or hardware.  I'm sure there  are other reasons not to run in a Virtualbox window but I don't know what they'd be.  Since I have 8 Gigs of RAM and a virus checker I run Tails in Virtualbox under Windows 7 several times a day.  Honestly though, if law enforcement wants to find out what you're doing and a judge agrees I'm sure they can find a way of spying on you no matter what software, hardware or precautions you use.
+"""]]

@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 255"
+ date="2013-01-23T10:42:41Z"
+ content="""
+Stop being a bloody idiot and talking bullshit.
+
+I2P is the reverse of Tor
+
+Tor stops a users Ip address being exposed to a Website by using Nodes.
+
+I2P stops a Website ip address being exposed to a user by using I2P users as relay nodes and makes no attempt to hide the last person in the chain relaying the encrypted file to the downloader.
+
+The last person in the chain that hands over the data can't be in the middle and it doesn't matter if it encrypted as the downloader decrypts it and knows the IP address of the I2P user that has relayed the file to them but doesn't know the original website source.
+
+So a Law enforcer may not know the source of the original website but it does know who has relayed the encrypted data to them as a relay and illegal files do not become legal just because they was encrypted.
+
+"""]]

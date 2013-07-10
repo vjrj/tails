@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-13T21:40:41Z"
+ content="""
+> Is there a way to copy this info to a text file on the boot media when Tails GUI does not start
+
+I think `mount` and `cp` should do the job.
+
+"""]]

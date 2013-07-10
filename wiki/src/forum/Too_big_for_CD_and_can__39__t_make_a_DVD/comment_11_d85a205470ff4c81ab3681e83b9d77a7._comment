@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="You think you are on tails.boum.org, but you are not."
+ date="2012-11-19T22:30:27Z"
+ content="""
+> The file you think is served by \"tails.boum.org\" is actually coming from a 
+> round-robin of around a dozen unaffiliated mirrors.
+
+The link should DIRECTLY state that.  I had no idea that some random, rouge sites were used.  SHeezesss.   Use downloads.com or cnet.com and you will NEVER have those problems again.
+
+"""]]

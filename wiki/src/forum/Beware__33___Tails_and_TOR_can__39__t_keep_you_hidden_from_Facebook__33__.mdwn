@@ -1,0 +1,16 @@
+I have been using Tails and TBB for using Facebook for years. It is true that Facebook blocks the IDs after a few days and I have to create new one. 
+
+But from yesterday or for the last few days Facebook has made it mandatory to display a screen asking users to feed their cellphone number. Yesterday while logging through TAILS facebook displayed following message and in it I was asked to supply them cellphone number of India whereas my profile never used Indian Exit node because only 2-3 exit nodes of low bandwidth exist in India.
+
+Thinking that TAILS has some bug, I downloaded TBB and used it as well. It again asked me to feed cellphone number of India.
+
+Screenshots showing how my real IP was with Facebook and it knew my real location:
+
+www.imageurlhost.com/images/1iolbkhb6jrjiocb5b23.png
+
+www.imageurlhost.com/images/x5ziz7shzsrhd832p.png
+
+www.imageurlhost.com/images/6s1srf8kr81ny7oq5yz.png
+
+
+At last I downloaded a VPN and tried to use Facebook through it. But this time it asked me to feed the telephone number of Germany which meant that TAILS and TOR were leaking my real IP address to Facebook.

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 24"
+ date="2013-03-07T14:51:56Z"
+ content="""
+Please try the method documented in comment 17.
+
+If this works, then a patch against [[doc/advanced_topics/mac_changer]] to document this properly [[would be most welcome|contribute/how/documentation]].
+"""]]

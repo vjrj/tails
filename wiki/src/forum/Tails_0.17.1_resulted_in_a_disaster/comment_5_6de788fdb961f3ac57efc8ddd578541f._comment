@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-26T01:49:38Z"
+ content="""
+@ OP:
+
+Wow, that's strange.  And awful, if your network card was really destroyed.
+
+Do I understand this correctly?  You checked carefully and believe that your damaged computer is bootable, but that its network card (ethernet card?  WiFI controller card?) was physically destroyed?  Or perhaps that your BIOS lost track of how to use it?  You checked and the power supply and hard drive for that computer seem fine?
+
+My first guess is that your problem might not have been related to Tails itself, but it would be good to be more confident about that.  Can you use your surviving computers to verify the iso image from which you made the bootable Tails USB stick?   If it checks out, can you burn it to DVD and (very cautiously) try booting your damaged computer from a live DVD?  Maybe Tails will find the network card now?
+
+In future, I hope you will always
+
+* carefully verify the iso image before booting from a Tails DVD or USB
+* take notes as you go when you download, burn, and boot a new Tails edition for the first time, just in case something similar happens
+
+"""]]

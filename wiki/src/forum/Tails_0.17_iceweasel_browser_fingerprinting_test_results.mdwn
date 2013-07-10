@@ -1,0 +1,49 @@
+Hello all
+
+I have installed Tails 0.17 and tested its iceweasel for browser fingerprinting.
+
+If you are unfamiliar with what browser fingerprinting is then read the following links:
+
+here: https://www.pcworld.com/article/192648/browser_fingerprints.html
+
+here: https://www.computerworld.com/s/article/9150002/Browsers_can_leave_a_unique_trail_on_the_Web_privacy_group_says_
+
+
+and here: https://www.pcworld.com/article/188161/browserfingerprint.html
+
+Many other material about the topic is available on the internet if you search "browser fingerprint".
+
+
+The site I used for testing is: https://panopticlick.eff.org/
+
+The results came as follows:
+
+1. **Default** settings for Tails 0.17 iceweasel which are: "Allow scripts globally" in noscript button - "accept cookies from sites" **ticked** in **edit** >>> **preferences** >>> **privacy**
+
+Result of **1. (Default settings)**:  only one in **114,000** browsers have the same fingerprint as yours.
+
+2. **Changed** settings for Tails 0.17 iceweasel which are: "Allow scripts globally" in noscript button - "accept cookies from sites" **unticked** in **edit** >>> **preferences** >>> **privacy**
+
+Result of **2. (Changed settings)**:  only one in **688,000** browsers have the same fingerprint as yours.
+
+
+3. **Changed** settings for Tails 0.17 iceweasel which are: "Forbid scripts globally" in noscript button - "accept cookies from sites" **ticked** in **edit** >>> **preferences** >>> **privacy**
+
+Result of **3. (Changed settings)**:  only one in **11,000** browsers have the same fingerprint as yours.
+
+
+4. **Changed** settings for Tails 0.17 iceweasel which are: "Forbid scripts globally" in noscript button - "accept cookies from sites" **unticked** in **edit** >>> **preferences** >>> **privacy**
+
+Result of **4. (Changed settings)**: only one in **5,121** browsers have the same fingerprint as yours.
+
+_______________________________________________________________
+
+**Best** result came with number 4. which is when you disable scripts globally (that includes javascript) and disabling cookies.
+
+I only tried the 4 mentioned combinations.
+
+There are other combinations that you can come up with and test  with https://panopticlick.eff.org/ to find results.
+
+Sharing would be nice. Please tell what you think.
+
+

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-08T00:57:24Z"
+ content="""
+Hi. I have managed to solve this issue after searching on the internet. I did so by running the following commands: 
+
+sudo ifconfig wlan0 down
+sudo rmmod -f ath5k
+sudo modprobe ath5k nohwcrypt=1
+sudo ifconfig wlan0 up
+
+I really dont know what these commands actually do as I'm a begginger. Can someone please explain?
+"""]]

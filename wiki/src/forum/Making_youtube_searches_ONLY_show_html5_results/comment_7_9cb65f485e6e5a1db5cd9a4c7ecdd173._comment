@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-28T04:10:36Z"
+ content="""
+1.) Remember that add-ons not already in Tails are not supported and could possibly de-cloak you.
+
+2.) I have also experienced erratic, inconsistent results with YouTube on Tails and Tor Browser Bundle. Similar to what the above comment reports (#6), I would get the unavailable message for many, if not most of the videos I tried. Sometimes, the video would start playing after that. Other times, I would have to refresh the page and many times the vid wouldn't play even after numerous refreshes.
+
+3.) Hopefully the download manager planned for Tails will make it easy to download videos for later playing in a stand-alone player.
+"""]]

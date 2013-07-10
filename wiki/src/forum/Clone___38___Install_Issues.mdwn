@@ -1,0 +1,11 @@
+Hi Guys,
+
+After downloading and installing tails onto usb #1 Using windows, I've tried to Clone & Install onto USB #2 so I'm able to configure a persistent volume.
+
+Each & every time I click "Clone & Install" i get no response - the window disappears and nothing opens in its place.
+
+"Clone & Upgrade" also has the same problem.
+
+Upgrade from ISO does not have this issue, but That doesn't really help because it requires that tails is installed on the 2nd USB already....
+
+Is anyone able to shine a light on this?

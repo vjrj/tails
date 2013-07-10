@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-14T23:04:06Z"
+ content="""
+I'm confused.  Is this the situation?
+
+* you made a Tails 0.16 bootable USB stick
+* you rebooted using the USB stick
+* your network card or adapter no longer works
+
+
+"""]]

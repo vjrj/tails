@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-13T04:52:25Z"
+ content="""
+@ comment 5
+
+>One reason for this that anyone can intercept a radio transmission, including your possibly not-nice neighbor in a cafe or airport lounge; another is that WiFi connections are more easily subject to potentially dangerous geolocation data leaks.
+
+When one is using WiFi to access the internet with Tails' Iceweasel, even if the *radio transmission* is intercepted, the interceptor will only see encrypted information. Correct?
+
+Moreover how can your geolocation be exposed when you are using Tails' Iceweasel on WiFi? All data packets transferred through Iceweasel travel through Tor-enabled tunnels, correct?
+"""]]

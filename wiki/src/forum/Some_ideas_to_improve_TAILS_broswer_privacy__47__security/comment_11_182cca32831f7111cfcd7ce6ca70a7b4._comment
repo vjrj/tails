@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-02-06T21:18:42Z"
+ content="""
+> You only have to enable the main website source.
+
+In my experience, many current websites don't work properly unless you also whitelist JavaScript downloaded from the Google API servers.
+
+"""]]

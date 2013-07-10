@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-06T01:29:35Z"
+ content="""
+>So it's safer to save files temporarily on a hard disk and then wipe it instead of working with usb or microSD?
+
+Ramdisk and/or encrypted with a strong *session* password would be my choices... Perhaps in an encrypted archive or a Truecrypt container depending on your <strike>degree of paranoia</strike> perceived threat ;-)
+
+Something like..
+
+    cat /dev/urandom | tr -dc [:alnum:] | head -c64; echo
+
+...aught to do you for the session pw. Easily embedded in a script too - in case you'd like to automate the setup of your scratch space.
+"""]]

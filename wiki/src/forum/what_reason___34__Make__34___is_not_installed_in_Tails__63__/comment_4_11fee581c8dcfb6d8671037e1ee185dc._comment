@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-12T08:23:08Z"
+ content="""
+> What's meant was: is it safe to download \"make\"? is there a security reason it is not included in Tails? I just wanted to know that before downloading the package.
+
+Since \"make\" is a small utility, it doesn't use internet, and it doesn't change any system settings, I would say it probably is safe to install and use.
+
+> found that intruders have a much easier time if compilers, MAKE, etc are already present on the victim computer, because otherwise they may need to try to install them, which might be noticed
+
+Or they just build the software on their own computer. This have been debunked many times before, for example a largish discussion on some forum regarding preinstalled gcc in Ubuntu ^ ^
+
+> but in general, it seems wise to think hard before installing additional software, especially such powerful software as a compiler
+
+Less software means less potential security holes an attacker may use, so installing a lot unnecessary software may weaken the systems security. But another just as important point is that by having more software preinstalled, the ISO grows in size and requires faster internet to download and larger USB devices to install.
+
+"""]]

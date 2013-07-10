@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-25T10:39:32Z"
+ content="""
+Wifi should not be blocked by default. I do not have to unblock my wifi for example.
+
+Your case sounds like lack of hardware support for your wifi card. Please report a bug using the included bug reporting application in Tails, after you have tried to connect to the wifi. (plug in network cable to do the reporting). If you know your wifi works or does not works in other Linux distributions, it may help to include information of which ones in the bug report.
+"""]]

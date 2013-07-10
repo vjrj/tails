@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-14T22:46:47Z"
+ content="""
+I have not found Seahorse to be very helpful but that may be because I am accustomed to using the command line.
+
+Assuming you are willing to try that, it should be easy.  I'll assume you are using an older Tails or a Linux but things may work exactly the same way on Mac OS or Windows, provided that you know how to use the equivalent of the *nix \"shell\" (aka the window where you type commands).
+
+* if you haven't already imported the Tails signing key, it is available at this website on the download page, so you can download it and then type this:
+
+    gpg --import key
+
+* download the detached sig and the iso image for Tails 0.16 from same page, then type this:
+
+    gpg --verify sig iso
+
+(Plug in the exact filenames for the three files.)
+
+Let us know if you don't see something like 
+
+> Signature made Thu 10 Jan 2013... using RSA key ID BE2CD9C1
+> Good signature from \"Tails developers (signing key) ...
+> WARNING: This key is not certified ...
+
+In that message, BE2CD9C1 is part of the \"fingerprint\", a handy way of identifying the public key from a specific keypair.  The message about the key not being certified is simply a reminder that (most likely) you are not yet connected to the Tails developers by the web of trust.  We can discuss that but for now I suggest that you not worry about it.
+
+
+
+
+"""]]

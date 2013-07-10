@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-05T22:28:47Z"
+ content="""
+Until then, this seems to work:
+
+* in the Tails desktop, click on \"Computer\" and then on the USB icon to mount or unmount the USB stick
+* to mount it, click on \"mount\" and enter the passphrase for the encrypted volume into the popup window, after which you can access the contents of the encrypted volume in a shell by cd /media/name-of-volume.
+* to unmount it, make sure no shell has pwd in the encrypted volume and make sure that no other utility is accessing it (like a PDF reader), then click once on \"remove safely\", pause a few seconds, close the useless popup warning, click again on \"remove safely\", and remove the drive.
+"""]]

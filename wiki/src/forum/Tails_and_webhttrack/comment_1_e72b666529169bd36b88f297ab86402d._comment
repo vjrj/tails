@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-12T13:23:13Z"
+ content="""
+Looks like you want to have a look at the Tails web browser's FoxyProxy configuration, and learn about name resolution when using a SOCKS5 proxy with Torbutton.
+"""]]

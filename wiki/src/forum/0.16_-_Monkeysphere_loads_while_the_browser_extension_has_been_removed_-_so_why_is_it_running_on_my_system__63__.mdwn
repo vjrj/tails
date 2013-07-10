@@ -1,0 +1,7 @@
+In Tails 0.16, why is the monkeysphere program loaded when the browser plugin has been removed? What service(s) does it provide when it is running but the browser extension has been removed by Tails developers?
+
+# ps ax | grep monkey
+
+/usr/bin/perl -wT /usr/bin/monkeysphere-validation-agent /usr/bin/seahorse-agent --execute x-session-manager
+
+/usr/bin/dbus-launch --exit-with-session /usr/bin/monkeysphere-validation-agent /usr/bin/seahorse-agent --execute x-session-manager

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="re:comment 5"
+ date="2013-03-31T03:11:55Z"
+ content="""
+I was sending two over Whisperback. The root password is not accepted in File Browser for mounting and can not drag-and-drop items in Customize-Toolbar,Iceweasel.
+What should i write more? Simple problems. In new Tails it is not working.
+Maybe \"can not drag-and-drop items\" is this ? :
+https://tails.boum.org/forum/feaste with middle-click) won't remain empty, ture_nowess bar. You can_missing_in_iceweasel_with_Tails_17.1/
+.
+The question above, difference between Tails Changes and WhisperBack debugging info
+
+>BIG question mark: Problem??
+Tails Changes: https://tails.boum.org/news/version_0.17.1/index.en.html
+Update Linux to 3.2.39-2, that It includes better support for graphics adapter, backported from Linux 3.4.29.
+WhisperBack: [ 0.000000]Linux version 3.2.0-4-686-pae (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 SMP Debian 3.2.35-2
+
+
+Why this difference?
+
+"""]]

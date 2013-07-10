@@ -1,0 +1,82 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-10T20:28:50Z"
+ content="""
+Fair enough.  I tried.  Unfortunately, what I came up with is not so short.  But for what it may be worth, here is my attempt at a better introduction to the OP:
+
+Currently the most popular ways to use Tor for anonymized web activity such as web-surfing, emailing, texting, chatting, or posting in bulletin boards and web forums are
+
+* Tor Browser Bundle (TBB)
+* Tails
+
+There are also at least half a dozen other projects with similar goals.  All of these projects have their own design philosophies and focus on particular goals.
+
+What makes Tails stand out from the rest is its focus on achieving *electronic amnesia*.  That is, Tails aims to ensure (subject to certain assumptions) that users will leave no traces on the computer on which they used Tails of their activity while using Tails.
+
+From
+
+     https://tails.boum.org/about/index.en.html
+
+> Tails is a live system that aims at preserving your privacy and anonymity. It helps you to use the Internet anonymously almost anywhere you go and on any computer but *leave no trace [on the computer you are using] unless you ask it explicitly*.  It is a complete operating-system designed to be used from a DVD or a USB stick independently of the computer's original operating system. It is Free Software and based on Debian GNU/Linux.
+
+(My emphasis, my gloss.)
+
+That page goes into more detail about some use scenarios for which Tails is designed:
+
+> Using Tails on a computer doesn't alter or depend on the operating system installed on it. So *you can use it in the same way on yours, the computer of a friend or one at your local library*. After removing your Tails DVD or USB stick the computer can start again on its usual operating system.
+
+> Tails is configured with a special care to *not use the computer's hard-disks, even if there is some swap space on it*. The only storage space used by Tails is the RAM memory, which is automatically erased when the computer shuts down. So *you won't leave any trace neither of the Tails system nor of what you did on the computer*. That's why we call it \"amnesic\".
+
+So why is \"electronic amnesia\" so important?
+
+To understand that, we need to understand why *not* being amnesiac while using the web poses real dangers to many people.
+
+Most of us are familiar with http cookies and know how to prevent ad vendors, data brokers, and websites from storing cookies on our computer which will persist across browser restarts and system reboots.  We may have heard of \"evercookies\" or \"flash cookies\", which are far more dangerous to privacy because they store much more information and are hard to delete.
+
+In this thread, we will discuss a third method, DOM storage, which third parties such as ad brokers use to store persistent, personally identifying information on our computers, which is even more dangerous than \"flash cookies\" because this method stores even more information and is all but impossible to delete.
+
+Why should you care about DOM storage?  Two reasons.  
+
+First, this *does* affect you.  If you ever visit Facebook (and most people do even if they don't intend this, due to the ubiquity of silent connections to Facebook opened when we visit many other websites), your browser has been instructed by at least four data brokers partnered with one of the most popular websites in the world, Facebook, to store personally identifying information about you on your computer, using DOM storage.  This information includes much more than details about your visits to Facebook; it also incorporates information gathered from data brokers such as your shopping habits (ever use a brand-name loyalty card?  fill out a product warranty card?  subscribe to a magazine?), credit worthiness, hobbies, family connections, travels, and much more.
+
+Second, DOM storage files are routinely used by \"forensic investigators\" targeting ordinary citizens, who may be able to be able to gain physical access to a computer or hard drive long enough to \"image the hard drive\" (which may take only a few minutes).  These investigators generally have no affiliation with any law enforcement agency.  Rather, they may work for
+
+* the IT department of your employer
+* an outside security firm hired by your employer to investigate their own employees
+* a \"legal discovery\" firm hired by the law firm hired by a rival company suing your employer
+* your spouse's lawyer, if you are engaged in a bitter divorce or custody battle
+* your children's school
+
+What are these investigators looking for?  \"Deprecatory information\", in the lingo, which means: anything their own employer can use to harm you.
+
+What can they find inside DOM storage files hidden inside your Firefox or Iceweasel browser?  Plenty:
+
+* your usernames and passwords at all the websites where you have an account (the passwords are hashed but investigators routinely break this encryption)
+* logs of your web-surfing (which sites you visited, when, and some information about what you did there)
+* logs of your on-line electronic monetary transactions
+* all your browser preferences, including website-specific preferences
+
+Even more alarming, malware-as-a-service companies like Gamma International sell sophisticated malware which can *clandestinely* and *remotely* image hard drives.  The customers of these companies have included such bad actors as the recently deposed Mubarak regime in Egypt and Gadhaffi regime in Libya.  The latter used the malware to attack computers used by \"friends of their enemies\" who were living in Western countries, including the UK.  Recently, Roger D caused a fuss when he revealed that a Dutch copper had confessed that Dutch police had attempted to use such malware to remotely image and then erase \"hidden servers\" on the Tor network, knowing that they had no idea which legal jurisdiction these servers were located in.  
+
+And the American media has begun to wake to a danger which some of us have long decried, the fact that for some years large, capable, and well-funded state-sponsored espionage crews have been attacking ordinary citizens as \"stepping stones\" to their ultimate targets (often executives of aerospace companies, prominent journalists and politicians, but also including bloggers, political dissidents, and union organizers).  The Chinese espionage machine has garnered the most attention, but the privatised American spying machine is probably even more dangerous, even and perhaps especially to other Americans.  
+
+Not long ago a hacktivist group published documents showing that a shady American IT worker with ties to an American defense giant, the FBI, and other US TLAs, who was working for a law firm hired by a group which lobbies for the largest US banks and who was targeting members of the Occupy movement, had formed a \"Corporate Espionage Cell\" called \"Team Themis\", and was simultaneously teaching a US government sponsored course on how to spy on \"interesting\" citizens using social media.  The students included both American and Mubarak regime intelligence agents.  The methods included inventing fake high school students to \"friend\" the children of reactor technicians, apparently as a stepping stone to mounting a campaign intended to result in finding something which could be used to blackmail an employee working in a highly sensitive job into passing on classified or security-critical information.  (This training exercise appeared to be one of many such REBL or \"Red-Blue\" exercises in which agents train for real attacks by mounting elaborate mock attacks.)  The information which can be found in remotely imaged DOM storage is absolutely perfect for such campaigns of \"disinformation and disruption\" of targeted organizations.  
+
+For more information about \"Team Themis\", see
+
+     https://en.wikipedia.org/wiki/Timeline_of_events_involving_Anonymous
+     https://en.wikipedia.org/wiki/HBGary
+
+From 
+
+     http://www.thetechherald.com/articles/Themis-Looking-at-the-aftermath-of-the-HBGary-Federal-scandal/13093/
+
+> First there was the story The Tech Herald broke concerning WikiLeaks, where Team Themis created plans to stop WikiLeaks by targeting supporters and journalists. The second story, broken by ThinkProgress, centered on a plot to target unions and political opponents, including families, by the U.S. Chamber of Commerce.
+
+All these considerations raise the frightful possibility that, leveraging economies of scale, all kinds of nasty organizations will soon be targeting many ordinary citizens will malware designed to clandestinely and remotely image their hard drive and transmit \"interesting details\" to foreign servers.
+
+What to do?  Protect our computers from intrusion?  Good luck with that; our adversaries include entire teams of experienced professional computer crackers.
+
+Much better, according to the Tails design philosophy, to say *that which does not exist at all cannot be obtained by forensic imaging*.   This maxim contains the germ of the idea of \"electronic amnesia\".
+"""]]

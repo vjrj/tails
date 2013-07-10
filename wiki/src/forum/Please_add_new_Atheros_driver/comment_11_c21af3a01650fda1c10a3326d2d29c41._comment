@@ -1,0 +1,38 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-12-18T13:50:46Z"
+ content="""
+> But wouldn't Tails be better off based on Unstable
+
+Building Tails upon ever-moving foundations would need *much* more work.
+
+> After all, Debian Unstable is not actually \"unstable\" at all; it's
+> packages have already graduated from Testing.
+
+This is wrong. You're mixing `testing` and `unstable`.
+
+> Why use different userspace and kernel distros?
+
+We want a stable platform to ease our job.
+We want a recent kernel for better recent hardware support.
+
+> Debian recommend against mixing stable and unstable packages in the
+> one system as a general rule
+
+Reference needed, but anyway: general rules often have exceptions :)
+
+> it'll work fine for some packages and bork things completely or in
+> unexpected ways for others - depends on any differences in the
+> build toolchain.
+
+Recommendations so that newbies don't shoot themselves in the foot is
+one thing; what we, as Tails (and Debian) developers, can thoughtfully
+do is something entirely different. In other words, we are aware of
+these theoretical problems, and we do backport packages when needed.
+But we did not need to do so for the Linux kernel from unstable, that
+has been working fine in Tails for ages, so I don't see any
+*real* problem that would need addressing :)
+
+"""]]

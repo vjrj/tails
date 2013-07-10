@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-04-11T17:51:52Z"
+ content="""
+I think this may depend upon exactly how you connect to the Internet, but if you are using a wired or WiFi router to connect to an ISP, some information you would see in Wireshark running on a computer in your home/office LAN should be removed by the router before packets are passed to the network of your ISP.  
+
+Possibly controversial questions: 
+
+* what information which could possibly help deanonymize you (e.g. unique identifier of ethernet card) is not stripped?
+* so that is known to our ISP, and to who else?
+* doesn't this depend upon trusting that your (probably) cheap consumer-grade router is not easily rooted by an attacker using possibly sophisticated state-sponsored (or darknet-criminal-sponsored) malware?
+
+These questions may become more or less urgent when we are connecting through a public WiFi spot.
+"""]]

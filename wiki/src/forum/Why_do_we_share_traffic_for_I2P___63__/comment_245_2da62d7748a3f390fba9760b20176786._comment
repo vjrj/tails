@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 245"
+ date="2013-01-19T11:56:56Z"
+ content="""
+> How are we supposed to help a Tails Dev open a the I2P conf file on his desktop change the server line to start in hidden mode and the close the conf file again?
+
+If it were that easy, it would have been done already. It looks like the i2p packaging makes it harder than it could be. But we may have missed the trivial solution you are referring to: if that's the case, great news, please point us to it.
+
+In any case, sarcastic comments do *not* help finding it fun and pleasurable to work on Tails.
+
+"""]]

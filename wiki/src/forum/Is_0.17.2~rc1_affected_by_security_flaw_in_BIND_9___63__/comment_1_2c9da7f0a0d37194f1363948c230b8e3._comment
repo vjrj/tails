@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-06T07:38:25Z"
+ content="""
+>  Is 0.17.2~rc1 affected by security flaw in BIND 9 ? 
+
+No, it is not affected: this RC ships libdns69 1:9.7.3.dfsg-1~squeeze10.
+
+> Have Tails developers patched BIND 9 security flaw in 0.17.12~rc1?
+
+No, *we* haven't.
+The Debian security team has: <http://www.debian.org/security/2013/dsa-2656>.
+
+"""]]

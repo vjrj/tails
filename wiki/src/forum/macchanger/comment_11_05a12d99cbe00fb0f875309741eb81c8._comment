@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-05-11T15:42:38Z"
+ content="""
+When NetworkManager shows that there is wireless network available, the MAC address of the wireless adapter has already been broadcast over the air in the form of \"active network probes\". Computers that have wireless kill switches can be used to prevent that leak: turn wireless off, change MAC address, turn wireless back on.
+"""]]

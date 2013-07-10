@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-19T09:10:53Z"
+ content="""
+> How does tails force dns resolution to go through tor?
+> 
+> Does tails achieve that through setting up all internet facing applications one by one, or through firewall rules?
+> 
+> Please explain
+
+Both.
+
+Applications like the Iceweasel browser that support SOCKSv5 proxies are configured to use Tor directly. IIRC, these applications does not do DNS lookups, as they never need to know the numeric ip-address.
+
+For other applications, Tails is running it's own local DNS resolver, that is requesting the Tor network to do the DNS lookups. The system is then configured so that all DNS requests from any (non-SOCKSv5) application is sent to this local DNS resolver. This way all DNS requests is made through Tor (using Tor's own way of doing DNS requests).
+
+In addition to this firewall rules are set up that disallows DNS requests going out on your real network, just as an extra layer of security.
+"""]]

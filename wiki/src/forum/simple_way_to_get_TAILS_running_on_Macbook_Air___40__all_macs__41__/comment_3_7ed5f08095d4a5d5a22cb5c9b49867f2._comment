@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-07T13:28:56Z"
+ content="""
+Thanks a lot for this detailed story.
+
+> What would happen is what countless other people experienced... the white, light blue, dark blue debian 6.0.6 status bar would load half-way and then just freeze.
+
+Please [[report a complete bug|doc/first_steps/bug_reporting]] from the system that exposes this issue, after booting in Failsafe mode, so that we have more information about it, and can see why it fails in \"normal\" (non-failsafe) mode.
+
+> The trick that worked for me was to simply hit the \"down key\" and select the second \"(flawless) or (faultless)\" option, whatever it was. It started right up and went to the welcome screen.
+
+Nice to see the Failsafe mode works!
+
+"""]]

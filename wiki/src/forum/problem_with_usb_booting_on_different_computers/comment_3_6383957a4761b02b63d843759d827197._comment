@@ -1,0 +1,39 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-27T07:28:48Z"
+ content="""
+@ comment 2
+
+here you go, or if you prefer to look at a better formatted version:
+http://www.fujitsu.com/sg/products/pc/tablets/stylistic/q550/specs.html
+
+Platform 	Intel® Atom™Z670 processor (1.50GHz)
+OS Supported2,10 	Windows 7 Professional
+Windows 7 Home Premium
+Display8 	10.1-inch IPS (In-plane switching)WXGA Anti-glare touchscreen (1280 x 800 pixels, 400nits Brightness, 500:1 Contrast Ratio)
+Dual Digitizer for pen input plus capacitive 4-finger multi-touch screen 	10.1-inch IPS (In-plane switching)WXGA Anti-glare touchscreen (1280 x 800 pixels, 400nits Brightness, 500:1 Contrast Ratio)
+Capacitive 4-finger multi-touch screen
+Memory 	2GB DDR2 800MHz6 Max. Memory Supported8 - 2GB DDR2 800MHz, Single channel
+Hard Disk2 	30GB / 62GB SSD SATA
+Bluetooth® 	v3.0
+Battery 	Up to 4.5hrs (2-cell Li-ion 19Wh) and 9hrs (4-cell Li-ion 38Wh battery)1
+Weight 	Approx. 730g with 2-cell 19Wh battery and 870 with 4-cell 38Wh battery
+Specifications
+Hard Disk Drive 	SATA Ultra DMA 300, S.M.A.R.T support, Two Partitions - 50/505
+Graphics 	Intel® GMA600 Graphics
+High Definition (HD) Audio 	Realtek ALC269 HD audio codec with Built-in Mono-Speaker
+HD Audio-in: 2 internal microphones
+HD Audio-out: Headphone-out
+Communication 	Bluetooth® 3.0, WirelessLAN 802.11b/g/n network connection with two Antenna.
+Separate ON/OFF switch for wireless network connection.
+Built-in camera, VGA front camera plus 1.3 megapixel rear camera
+3.5G2,9 	Embedded 3.5G (HSPA+) WWAN connectivity with dual antenna. Up to 14.4Mbps downlink and 5.76Mbps uplink
+- Supports quadband EDGE/GPRS/GSM: 850/900/1800/1900MHz
+- Supports GPS
+Card Slots 	SD/SDHC
+Connector Interface 	USB 2.0 x 1, SIM card Slot2, HDMI-out, HDA-out, Power Adapter DC-in,Port Replicator Interface,SmartCard Slot
+Quick Launch Panel 	3 Programmable Application Launch Buttons ([Ctrl+Alt+Del],[Rotation] and [Menu] )
+Security4 	BIOS Lock, 2-password Hard Disk Lock, Fingerprint Sensor, Trusted Platform Module v1.2 (optional)
+Dimensions 	Approx. 275 x 192 x 16.2mm 
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-24T10:14:38Z"
+ content="""
+Same problem here. Booted from CD-R just fine, but when I try to clone a USB, for whatever reason it creates a partition too small (1.5GB) on a 4GB drive, and then tells me the drive is too small!
+"""]]

@@ -1,0 +1,37 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-13T01:45:53Z"
+ content="""
+> I'm just a simple guy here and it seems there's a few others who's just looking for a simple answer as to whether or not connecting to a free wifi hotspot using tails is ok or not. Anything wrong with that? Any added dangers or is it better that way?
+
+Alas, not all questions which are simple have answers which are simple.
+
+> I'm just a normal guy who wants to send a simple message to someone etc. but has regards for privacy. 
+
+So are almost all of us here.  But we live in a world in which the dangers confronting ordinary citizens on-line are rapidly increasing in their complexity.  Unfortunately (I stay up nights worrying about this) \"simple\" people are at greater risk in our brave new world, so I urge you to resolve to start trying to educate yourself about the dangers, in small pieces of course, over time.
+
+The EFF Surveillance Self Defence website is a good start, after reading the Tails \"warnings\" page.
+
+> Is tails right for me?
+
+Most likely yes, but you'll have to learn to put up with some inconveniences in order to use Tails wisely.
+
+One good reason to learn a bit more about the dangers facing citizens on-line is that you will find it easier to put up with minor inconveniences once you understand better just how many adversaries you face and what their capabilities are.
+
+WiFi connnections are inherently more dangerous than wired connections, even though in typical situations only the last dozen metres are actually transmitted by radio. One reason for this that anyone can intercept a radio transmission, including your possibly not-nice neighbor in a cafe or airport lounge; another is that WiFi connections are more easily subject to potentially dangerous geolocation data leaks.
+
+For technical/legal/political reasons, these are all rather different problems:
+
+* surfing anonymously
+* file sharing anonymously
+* sending email anonymously
+* sending text messages or participating in chats anonymously
+
+Tails can do the first pretty well (according to some of our audibly frustrated adversaries), i2p can *maybe* do the second (unless you really do not want \"the authorities\" to know what you are doing), but neither really address the third.  Tails can possibly help with the fourth (see the documentation).
+
+Several recent threads in this forum have addressed the question of sending email anonymously, but you may want to start with a thread in the Tor-talk mailing list
+
+     https://lists.torproject.org/pipermail/tor-talk/2013-February/027278.html
+
+"""]]

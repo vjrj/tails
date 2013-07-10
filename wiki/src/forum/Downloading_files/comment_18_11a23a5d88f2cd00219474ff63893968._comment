@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-11-02T09:25:12Z"
+ content="""
+> I'm guessing that it's still possible for the file to have actually been malicious in some way. But how? I.e., what are some of the ways that extracting and then playing such a file could exploit and harm?
+
+Given you're willing to learn on this topic, I suggest having a look at <http://security.debian.org/>, and reading a beginners book about computer security.
+
+"""]]

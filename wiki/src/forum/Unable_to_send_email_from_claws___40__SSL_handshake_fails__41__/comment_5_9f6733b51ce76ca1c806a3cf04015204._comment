@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-19T11:54:46Z"
+ content="""
+> anyone know how to close down a frozen program? Whats teh linux equivalent of task manager? 
+
+You can have a look to `killall`.
+
+You need to setup an administration password, then, when claws freezes:
+(short version)
+
+- Ctrl+Alt+F1 to switch to a terminal console
+- sudo -i
+- enter your password
+- killall -9 claws-mail
+- Ctrl+Alt+F7
+
+Good Luck!
+"""]]

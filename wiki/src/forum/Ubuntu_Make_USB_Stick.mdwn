@@ -1,0 +1,17 @@
+https://tails.boum.org/doc/first_steps/manual_usb_installation/linux/index.en.html
+
+"Under Debian or Ubuntu the isohybrid utility is included in the syslinux package. You can do:
+
+apt-get install syslinux"
+Latest version installed
+
+"isohybrid tails-i386-0.11.iso --entry 4 --type 0x1c"
+isohybrid: command not found
+
+"sudo apt-cache search isohybrid"
+returns nothing
+
+"sudo find / -iname "*isohybrid*"
+returns nothing
+
+Ubuntu 10.04

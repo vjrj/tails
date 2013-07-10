@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-15T21:03:49Z"
+ content="""
+A diagram which may help:
+
+       yourputer <==> entry <==> relay <==> exit <---> dns server, destination
+
+Each computer in this diagram knows the IP of its neighbor.
+
+The <==> connections are SSL encrypted; the <---> is not in general.
+
+The exit server knows the url you want and calls up a DNS server to find the IP.
+
+That DNS server will log the IP of the exit server and the requested url.
+
+The destination knows the IP of the exit server but not the IP of yourputer.
+"""]]

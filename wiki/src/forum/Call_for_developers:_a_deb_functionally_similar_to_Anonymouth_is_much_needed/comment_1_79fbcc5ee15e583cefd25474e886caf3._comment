@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-12T14:22:38Z"
+ content="""
+@ OP
+
+>I echo that plea.
+
+I re-echo the plea that you quoted:
+
+>Please, someone, help fix the free anti-stylometry software situation on GNU/Linux, and then I'm happy discussing how it could be included in Tails.
+
+I believe it is not one of Tails' goals to provide anti-stylometry. If users are afraid of being traced by their writing styles, they should just change/modify them when using Tails. What is so difficult in doing it?
+"""]]

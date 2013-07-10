@@ -1,0 +1,15 @@
+/etc/resolvconf/resolv.conf.d# cat original
+
+domain student.uu.se
+
+search student.uu.se
+
+nameserver 130.238.4.133
+
+nameserver 130.238.164.6
+
+nameserver 0.0.0.0
+
+##############
+
+What is this used for?

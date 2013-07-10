@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 20"
+ date="2012-12-14T01:00:26Z"
+ content="""
+>>Sounds like a permissions problem. I'm not using Tails ATM so can't test. You can always edit your torrc in a text editor if need be.
+
+>But I've tried that and it doesn't work! 
+
+WFM
+
+>Vidalia throws up errors...
+
+What does Vidalia have to do with working in a text editor? You are making your adjustments to your torrc ***before*** you launch IW etc., aren't you?
+"""]]

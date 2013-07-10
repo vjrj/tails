@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-20T01:12:56Z"
+ content="""
+Oops, missed this, my mistake:
+
+> www.xxxxxx.com uses an invalid security certificate.
+> The certificate is not trusted because no issuer chain was provided.
+
+That is more suspicious than the kind of warning I was talking about, which is seen when the browser is unable to verify the certificate before timing out.
+
+Many websites act as CAs to issue themselves self-signed certificates, which means that users will have https protected connections, but will have no assurance that they have reached the site they intended to reach.  Such certificates will probably have defective issuer chains.
+
+So it could still be innocuous, but I definitely don't think you should ignore those warnings.  If possible, check \"out of band\" with the website owner.  But be careful, simply asking a question which shows you know a bit about security is likely to make professionally paranoid organizations like the U.S DHS start to suspect you of \"potential terrorism\".  (According to their own literature, someone reporting a potential computer security problem may be a terrorist performing \"pre-attack reconnaissance\"!  Illustrating the principle that no good deed goes unpunished by the U.S. government.)
+"""]]

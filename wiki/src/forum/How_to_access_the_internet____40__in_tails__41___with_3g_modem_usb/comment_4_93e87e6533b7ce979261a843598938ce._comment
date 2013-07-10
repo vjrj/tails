@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-29T21:41:23Z"
+ content="""
+I think the best solution to use 3g with Tails is this one:
+
+Just buy a mobile 3G WiFi router (MiFi) and put your data simcard in it. But buy a 3G router which you can configure also wireless via WiFi (most of them support that). Then in Tails you can access the mobile wifi router with WiFi (just like you access other WiFi networks) and you can configure the mobile internet connection with the unsafe browser. After it has been configured you can connect with Tails to the 3G wifi network. In this way it is much easier because you don't have to hassle with usb drivers for linux and so on..
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-18T22:11:38Z"
+ content="""
+As the previous responder said, every ten minutes (or when you request Vidalia for \"New Identity\") a new circuit is built, so your exit node will then change and so will the IP reported by Torcheck page.
+
+To get more information about your Tor circuits, try watching your Vidalia controller; notice that when you surf to a new page (or reload a page), the controller momentarily shows the destination IP; after that it just shows (usually) entry, relay, and exit node information.  If the destination offers https service, your connection is encrypted end-to-end via TLS; if not only to the exit node.  You may see more than one circuit open for different webpages.
+
+Also useful to know: by default, the Tor client in Tails (or TBB or...) chooses as the entry node in any circuit one of three Entry Guards.  After some weeks you get new Entry Guards.  This might sound scary, but it is actually a strategy to counter possible traffic correlation attacks.  Entry Guards are somewhat vetted to not collaborate with Exit nodes but if one of yours does, you are toast.  
+
+Some people need bridges to evade censorship and these are not vetted.  If you are using a bridge, when you watch Vidalia the first hop will be a bridge and no information beyond the IP will appear because unlike Entry Guards, bridges are not published Tor nodes.
+
+"""]]

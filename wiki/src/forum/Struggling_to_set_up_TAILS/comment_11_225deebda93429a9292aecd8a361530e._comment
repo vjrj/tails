@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-09-10T02:11:08Z"
+ content="""
+>Once all of this is done, I still get \"not a bootable disk\" when I try to boot from the DVD. If I hold 'option' as the computer starts, tails doesn't even present as a choice to boot from, but it I set it to boot from there in the Start-up disk preferences pane, it at least tries but always comes back with that same error.
+
+Could you just confirm, by \"all of this\" you mean you've now (*successfully*) verifies your .iso file using the signature?
+
+You say Tails doesn't appear in the boot choices... is there an option labelled \"Windows\"? If so, have you tried that? I believe \"Windows\" is applecorporation for \"anything which is not Apple\"
+
+>Try the torrent and see. For mac torrenting, I use - Transmission -.
+
+If pgp verifies the file there's nothing to be gained by downloading a second copy.
+
+>Try burning the .iso again. In windows it will erase everything, burn it, and there is an option to verify the burn built into the burn process. I always check that option to make sure the burn process went well.
+
+Might be worth burning again onto a different brand/type medium. What discs are you using OP?
+
+Are you permitted to dismount *without ejecting* an optical disc in AppleBSD? If you can, then it could be possible to verify the *burned disc* using the .iso file's signature - as you can on Linux. Try something *like* this?...
+
+    gpg --verify /path/to/and/name/of/tails.iso.pgp /dev/cdrom
+
+...if the *burned disc* is determined authentic, then you've got another problem. Hardware fault or incompatibility perhaps? Something like [this](https://tails.boum.org/forum/Can_I_run_Tails_OS_via_USB_on_a_Macbook_Pro_with_OS_X_installed__63__/), [this](https://tails.boum.org/forum/Mac_Support/) or [this](https://tails.boum.org/forum/Late_2011_Macbook_Pro._Anyone_have_any_success__63__/) perhaps? :(
+
+It is a Macbook with an *Intel* processor you're using?
+"""]]

@@ -1,0 +1,36 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-07-21T03:31:48Z"
+ content="""
+> A little \"back\" button is \"clutter\"?
+
+No, but if we thoughtlessly add every possible button someone
+asks for corner-case reasons, then the result will no doubt be
+a cluttered GUI. Hence the need for someone to play the not-nice
+role and argue why we should not add that one. Today,
+that \"someone\" is me. Not that I find it particularly exciting.
+
+> First of all, unless I've missed something, the only way to
+> reboot at that stage is by holding the power button down until
+> the computer powers itself off or otherwise cutting power, and
+> then powering-on again.
+
+Unplugging / ejecting the boot medium should be enough.
+(Documented on [[doc/advanced_topics/cold_boot_attacks]], where
+most expected users of this feature would look at, I hope.)
+
+> I'm beginning to wonder whether you sleep and eat on the floor,
+> in order to avoid \"cluttering\" your home with a table and
+> bed...
+
+I had a good laugh (thank you!), but my sleeping and eating
+personal preferences are barely related to the question at hand.
+
+I think you are comparing something that, apparently, looks
+necessary to you (table and bed), with something that you are the
+first one to ask for since the few months tails-greeter has been
+around here.
+
+"""]]

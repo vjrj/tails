@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-31T19:49:53Z"
+ content="""
+> In order to modify torrc while using Tails 0.17.1, is it neccessary to set
+up a root password when first booting Tails?
+
+Yes.
+
+> When I try to edit torrc using Vidalia controller \"Settings\", I get an
+error message.
+
+Know bug in Vidalia, already discussed here.
+
+> Can I edit it directly by making a root shell and editing torrc in
+/etc/tor ?
+
+At your own risks, yes.
+
+> In Tails 0.17.1 Vidalia, is \"New Identity\" disabled?
+
+No. That ticket is still open.
+
+> Does that todo entry reflect security concerns about the Vidalia
+controller?
+
+No.
+
+> (Stem may offer a more flexible and powerful alternative.)
+
+Stem is a library.
+
+"""]]

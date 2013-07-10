@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-12-16T23:54:44Z"
+ content="""
+>>because the main point is that the likelihood of getting infected on a modern Linux is practically zero,
+
+>That is a dangerous assumption. I will never let my guard down where the security of my computer is concerned.
+
+No it isn't. It's common knowledge among the technically aware that the amount of malware targeted at GNU/Linux is a ***tiny*** proportion of that which exists \"in the wild\". In fact, it's unclear if there's ***any*** GNU/Linux malware \"existing ***in the wild***\". That doesn't mean \"don't be viligant\" or whatever you've inferred, it simply means the ***likelihood*** of getting infected on a modern Linux is ***practically*** zero.
+
+>Please have a look at the following products and tell me whether they are designed for Linux-based systems:
+
+No.
+
+They are all designed to detect (and remove) **Microsoft™ Windows™** malware even though they run on a GNU/Linux platform. Think about it - it makes sense!... Suppose you have to remove multiple unknown infections from multiple **Microsoft™ Windows™** machines. You'll need a computer of your own, of course. Your computer will have to be running an OS, of course. Do you a): attempt to install and use cleanup tools from within the afflicted machines, b): run the same piece of shit, Mickey Mouse OS as all the infected machines on your own machine and attach the infected machines or their drives to your system - while preying that none of the rife malware finds a way onto your machine or c): as b) but running **a grown-up OS** on your system with tools to detect the crap which runs rife on ***the other*** (toy) OS? It would appear that enough people choose c) to support a healthy selection of commercial tools designed to do exactly that. Who'd have thunk it?
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-22T09:12:02Z"
+ content="""
+> Has there been a problem with Tails writing to disc when not asked to? 
+
+The only such issue I remember we've had in the past was [[security/use of cleartext swap partitions on local hard disks]]. That was in 2009.
+
+"""]]

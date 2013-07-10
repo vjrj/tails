@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-12-02T19:47:35Z"
+ content="""
+For the record, Tails is using Debian *sid*'s kernel, which is based on upstream 3.2. It sometimes get backported drivers. Feel free to suggest to the maintainers of the Linux kernel in Debian to backport the drivers you are interested in. 
+
+I don't think we'll have time and energy to add drivers that are not packaged in Debian. See the [[contributors FAQ|contribute/faq]] for hints.
+
+Sorry, we do a lot to support recent hardware, but we simply cannot spend half of our Tails development time trying to support every kind of new hardware. I suggest checking hardware compatibility with whatever OS you want to run *before* buying it, when possible (yes, I know sometimes it's already to late).
+
+"""]]

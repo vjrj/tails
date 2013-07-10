@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-28T01:37:20Z"
+ content="""
+>The Polipo config file can not be edited in Tails? How to edit this? Or is it not a good idea to edit this file?
+
+No, this sort of thing is not a good idea at all. If you're not absolutely certain what you're doing, you could easily completely destroy your anonymity... e.g. if you have to ask here ;o)
+"""]]

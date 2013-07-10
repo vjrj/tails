@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-15T17:39:08Z"
+ content="""
+> An exploit which caused Tails to disclose it's IP address would only reveal Tails' (meaningless) private range address... and NOT the host's (your \"real\") IP address.
+
+Wrong. Once rooted just disable iptables firewall and make direct connection to any ip check website.
+"""]]

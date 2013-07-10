@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-13T23:07:11Z"
+ content="""
+Actually, so far I think Tails 0.17 *does* wipe DOM storage, and even better, *mostly prevents information from being written to DOM storage at all*, which is what I think we should all desire.
+
+Let me try again to summarize: my study is still in its early stages, so I can't give definite information about what is happening on my computer, but I want to ask other Tails/TBB users to share some information about any size changes in DOM storage files (particularly ones which persist across browser reboots, or even worse, system reboots) which they see on their own computer.
+
+What I have seen so far on my own computer is:
+	* older versions of TBB did seem to monotonically increase places.sqlite, suggesting that bad guys were able to stick information in there
+	* in the current version of TBB, I see increases in some sqlite and rdf DOM storage files which I do not yet understand; I can't yet say whether these are truly persistent or not; one phenomenon which puzzles me are increases in the size of places.sqlite-wal when I myself add a bookmark seem *much too big* for adding one bookmark at a time; at a guess this may be accounted for by a site adding a favicon, which often is used as an information-bearing cookie by sneaky targeted-ad-brokers
+	* in the current version of Tails, I do not see persistent increases in DOM storage
+
+So Tails 0.17 looks good so far, but I'd like others to check their own Tails browser DOM storage.  \"Tails\" said pretty clearly that, by design, Tails browser DOM storage files shouldn't increase in size, but I think it can only help to take a moment to check that this really does appear to be true \"in the field\".
+
+"""]]

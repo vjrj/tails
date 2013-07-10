@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-15T21:28:34Z"
+ content="""
+I don't know, but I can guess based on general Debian experience:
+
+Debian strives to be free as \"GNU is free\", which can cause hardware issues since many vendor-provided drivers are free as in \"Get your free beer here\" but not free as \"GNU is free\".  So users booting Linux for the first time sometimes encounter failures to lack of proper drivers/firmware for the screen display or for something critical like that.  Failsafe mode can sometimes help by doing things like trying for a less ambitiously glorious screen display, which may enable some free driver to squeak by on some systems which encounter trouble when the user tries to boot a Debian system.
+"""]]

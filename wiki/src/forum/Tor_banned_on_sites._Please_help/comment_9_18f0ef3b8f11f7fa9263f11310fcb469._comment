@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-05-13T02:39:43Z"
+ content="""
+@ comment 8:
+
+Sounds like you may be confusing *web-based* proxies (mentioned in comments 4, 6 and 7) with *VPN*s (comment 5).
+
+All the *web proxies* I have seen are \"free\" (in the sense that they no require no payment to use).
+
+>\"They\" can also correlate all your Torified traffic 
+
+A *web proxy* should only be able to correlate whatever traffic you put through the web proxy. 
+
+Of course, if the operators of a web proxy were to invade and gain control of your system, well, then all bets would probably off. But that is also true for *anyone* who would gain control of your system.
+"""]]

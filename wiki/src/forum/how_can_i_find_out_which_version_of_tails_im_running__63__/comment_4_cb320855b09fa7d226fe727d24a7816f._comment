@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-27T13:29:07Z"
+ content="""
+	root@amnesia:/home/amnesia# tails-version
+	0.17 - 20130223
+	9464abc464b0332e3dbebc32e89383efe9fe6876
+	live-build: 2.0.12-2
+	live-boot: 3.0~b11-1
+	live-config: 3.0.12-1
+	root@amnesia:/home/amnesia# 
+
+What's that checksum in the 2nd line of ouput?
+"""]]

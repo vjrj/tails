@@ -1,0 +1,77 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 106"
+ date="2012-10-24T06:04:42Z"
+ content="""
+You make an excellent point, however the socio-economic constraints of 1775 are no longer pertinent to the present. The death of deference has resulted in a trickle-down effect delivering modern communications to everyone equally, regardless of social status.
+
+Below is an excerpt of a news report from the BBC released on October 23, 2012:
+
+>The internet has become a standard tool for terror groups who use it to spread propaganda, recruit members and raise cash, warns a UN report.
+
+>Wider surveillance of the net would help combat this growing problem, said the report by the UN Office on Drugs and Crime (UNODC).
+
+Click the following link to read the article in full: http://www.bbc.co.uk/news/technology-20039580
+
+Click the following link to download the UN report: http://www.unodc.org/documents/frontpage/Use_of_Internet_for_Terrorist_Purposes.pdf
+
+Adversaries (possibly including your ISP) create device fingerprints for everyone they encounter, regardless of what software they use, or how. It follows that to achieve good anonymity, your ultimate goal must be to blend in with the largest possible sub-population of web users. (There is so much diversity on the web that it is probably impossible to blend in with the entire population, but in principle you can try to blend in with the largest possible sub-population.) That is why we say that we hope that a PanoptiClick score of \"one in a hundred browsers\" is much better than \"one in five thousand browsers\".
+
+I can't speak for Tails but I'll try anyway. The official advice from the Tor developers (echoed by the Tails developers) is that making any changes to the default configurations of Tails components like the torrc file or vidalia.conf file, or to your FF/IW/TBB configuration, maybe even to your NoScript configuration, can assist adversaries in distinguishing you from the population of Tails users generally.
+
+Speaking for myself now: all that is very likely true, ASSUMING that few Tails users bother to change any configuration datum from its default value. I am not sure that this assumption is valid. Neither am I sure that the advice implicit in the results of the jondos anonymity tester or the PanoptiClick test are relible, but several users report that by taking cues from jondos they have reduced their PanoptiClick score from about one in two thousand (bad) to one in one hundred (not good, but much better).
+
+I think we all agree that adversaries are likely to be able to easily tell that a given user is using Tails, unless they are performing only very simple minded profiling. Unfortunately, the PanoptiClick and jondos test sites perform only very rudimentary tests, as both sites admit.
+
+I think we all agree that changing configuration files is dangerous for many reasons (could very possibly decrease anonymity, might well decrease security). But not changing them could also be bad. I guess everyone has to try to learn as much as they can in the time they can budget for this task, and to make informed choices. Inevitably that will affect your anonymity simply because you are doing something different from what others do. But everyone is doing lots of things differently from what other people do anyway. And if more Tails users do as I suggest and consider changing their configuration to improve their jondos and PanoptiClick score, than do as Tor and Tails developers suggest by leaving all their configuration untouched, making the changes will probably improve your anonymity (and security).
+
+There ya go, all data is encrypted end to end. I'd have to study this further to make sure, but it does sound possible that your ISP (and many others) can easily tell that you are using i2p and/or Tor, but will need to employ the kind of sophisticated and expensive (but widely deployed) tools which were mentioned above to try to evade encryption in order to access the shared content. And it might be harder for a rogue i2p node to read i2p content they are sharing but did not request than for a rogue Tor exit node (in particular) to read most Tor traffic.
+
+Contrast current Tor implementation: bridges and in a sense, Entry nodes and Directory servers must to some extent be trusted not to be operating as one node in a sub-network of rogue nodes used to mount correlation deanonymization attacks on Tor users. Discussing this in more detail would show why the notion of a \"trusted\" node is not as simple as it might seem. Also, I think i2p does include special nodes called Introducers and if these were compromised or operated by untrustworthy persons, I think that might be bad for the i2p user.
+>
+The network itself makes use of a significant number of cryptographic techniques and algorithms - a full laundry list includes 2048bit ElGamal encryption, 256bit AES in CBC mode with PKCS#5 padding, 1024bit DSA signatures, SHA256 hashes, 2048bit Diffie-Hellman negotiated connections with station to station authentication, and ElGamal / AES+SessionTag.
+
+Cryptographic sophisticates know that re-encrypting an AES encrypted message with AES can be a very bad idea. But in general, mixing different strong and well-studied cryptographic algorithms all using different keys is probably a good idea.
+
+Tossing a bone to anyone who distrusts the NSA: just so you know, DSA was developed by a career NSA employee. Few cryptographers seem to really believe DSA contains a secret backdoor, but most of them seem to view this as a nagging unresolved question, and would prefer to see standardization to a simpler algorithm untainted by NSA heritage.
+
+>The two main mechanisms for allowing people who need strong anonymity to use the network are explicitly delayed garlic routed messages and more comprehensive tunnels to include support for pooling and mixing messages
+
+The fact that i2p tries to thwart timing attacks by introducing \"random\" delays is another very good idea, one which many have suggested Tor adopt.
+
+>The I2P project was formed in 2003 to support the efforts of those trying to build a more free society by offering them an uncensorable, anonymous, and secure communication system. I2P is a development effort producing a low latency, fully distributed, autonomous, scalable, anonymous, resilient, and secure network.
+
+Sounds good.
+
+>The goal is to operate successfully in hostile environments - even when an organization with substantial financial or political resources attacks it.
+
+Sounds even better. The Tor developers have consistently maintained that they do not attempt to evade surveillance by \"a global adversary\". I worry that this is due in part to the fact that unlike almost all other privacy enhancing tools, Tor has been subjected to intense study by security researchers, who have over the years uncovered many vulnerabilities which had not occurred to the Tor developers. (Not their fault since obtaining on-line anonymity is a really, really hard problem.)
+
+(\"Global adversary\" is apparently an open code phrase referring to the NSA, but all Tails users should be aware that since 9/11 numerous commercial services can turn anyone with a budget of a few million dollars per year to become a \"global adversary\").
+
+>All aspects of the network are open source and available without cost, as this should both assure the people using it that the software does what it claims, as well as enable others to contribute and improve upon it to defeat aggressive attempts to stifle free speech.
+
+Good point. Although few Tails users have the time or know-how to audit the i2p code.
+
+>we are not trying to make something \"perfectly anonymous\", but instead are working at making attacks more and more expensive to mount.
+
+A very important admission. I actually agree with the philosophy that perfection is unobtainable, but one can try to force the global adversaries to spend themselves into oblivion, or draw so much power they crash their electrical grid like any other \"failed nation\", or to exhaust their human resources by requiring them to need more smart people than can be found amongst their population. Amusing in a way that the US and UK have increasingly been forced to hire e-criminals instead of incarcerating them, because so desperately need more worker bees with... certain skills.
+
+We are all involuntarily participating in a vicious arms race pitting the People against the Authoritarians. Strangely enough, both sides apparently believe the other side is winning by a mile.
+
+>Unlike many other anonymizing networks, I2P doesn't try to provide anonymity by hiding the originator of some communication and not the recipient, or the other way around. I2P is designed to allow peers using I2P to communicate with each other anonymously.
+
+This is very important, since Tor does try to provide anonymity by hiding the origin of a particular GET request for a webpage inside an onion circuit, while not trying to hide the content of the request or the IP of the Tor exit node. So one question worth considering is: what might be the unintended consequences of mixing two anonymity systems with fundamentally different design philosopies, especially in a threat environment which includes things like DigiTask malware and IMSI catchers employed by blackmailers?
+
+Indeed, the comments above about everyone being targeted by multiple global adversaries seeking to access and destroy equipment operated by a tiny minority of people the adversaries (or their clients) actually suspect of doing something contrary to their interests (like Syrian rebels fighting the Assad regime, or people downloading pirated songs) suggests that the new reality \"on the ground\" directly contradicts a fundamental assumption in the i2p design. In other words, i2p seems to have been unintentionally designed to attract exactly the kind of massive scale intrusion and destruction which the EFF is worried about.
+
+The i2p developers discuss their threat model, and say:
+
+>Briefly, I2P's intent is to allow people to communicate in arbitrarily hostile environments by providing good anonymity, mixed in with sufficient cover traffic provided by the activity of people who require less anonymity. This way, some users can avoid detection by a very powerful adversary, while others will try to evade a weaker entity, all on the same network, where each one's messages are essentially indistinguishable from the others.
+
+This is an intriguing concept, but I think this is really getting into the core of why the technical details of how i2p works and how Tor works and how they interact when someone uses Tails must confront the political reality that the threat model is rapidly developing into one where all users are attacked all the time by automated but highly sophisticated attacks mounted by multiple global adversaries. If the EFF is right, i2p's threat model is entirely misguided in the year 2012.
+
+I say this with considerable sympathy towards the i2p developers, since their documentation is thoughtful and I believe they are fighting the good fight. They have many good ideas but that doesn't change the fact that i2p may not be something which can be used safely in the current threat environment.
+
+There appear to be some passionate defenders of i2p posting in this thread, but they have not yet presented any identifiable arguments for why i2p is safe for Tails. If someone has some good points to make in favor of using i2p, I'd like to hear them.
+"""]]
