@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="making some tests"
- date="2012-10-05T16:00:27Z"
- content="""
-I'm making some tests.
-
-The parameter *rootpw=PASSWORD* introduce a root password for the whole session, or there is a timing after which it is deactivated?
-"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-01T17:48:16Z"
+ content="""
+@ OP:
+
+You make some good points, and I hope some gifted developer will help Tails offer better VPN support for persons in your situation.
+
+> If they do keep logs, I doubt a VPN provider in EU is likely to cooperate with an authority from countries like China.
+
+Note that CISPA and other legislative initiatives in the US are likely to include ruinous fines for US-based tech companies and ISPs which resist requests from US authorities for warrantless access to private information.  The US senator drafting the US Senate version of CISPA (already based by the US House of Representatives) specifically pointed to the fact that Google has refused many US requests for warrantless access.  Again, CISPA affects everyone in the world, if only because everyone uses Google.  (Even if you use Ixquick via Tails, your requests are forwarded to Google and could possibly be used against you by US \"authorities\", although probably not as easily as if you contacted Google search engine directly.)
+"""]]

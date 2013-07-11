@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-06-27T10:24:58Z"
- content="""
-You are not able to ping any host because Tails firewall forces all outgoing traffic to go through Tor. Tor only carries TCP connections, so ICMP is dropped on the floor. Regarding RDP, you need to configure the client software to make its connections through Tor. This can be either done by configuring it to use the SOCKS proxy on 127.0.0.1:9050 or by using `torsocks` on the command line if there is no other choice.
-"""]]

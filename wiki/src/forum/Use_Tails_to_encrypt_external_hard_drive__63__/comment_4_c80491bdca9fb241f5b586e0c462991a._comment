@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-01T08:25:46Z"
+ content="""
+Can one create a LUKS encrypted drive or volume if he is using Microsoft Windows OS?
+
+Can a LUKS encrypted drive or volume be opened under Microsoft Windows OS?
+"""]]

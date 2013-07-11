@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-26T15:30:41Z"
+ content="""
+I assume you meant to ask
+
+> [why] are they pushing this out instead of a real forum?
+
+The problem seems to be that National Democratic Institute (NDI), one of the sponsors of the Tails Project, forbids grantees from doing anything which might be \"contrary to current US foreign policy objectives\", and thus certain privacy-related topics of urgent importance to the Tails users at most risk (political dissidents), such as surveillance methods used by US TLAs and the hundreds of US based surveillance companies, are forbidden in this forum.
+
+\"Tails\" has repeatedly stated that in the forthcoming Q&A wiki, posts from unregistered users will be forbidden.  This will silence my voice, because I appreciate the extreme danger of storing information about forum users in forum software, which then becomes a target for spooks around the world targeting political dissidents.  (Several recent stories about specific programs targeting Tibetan dissidents have mentioned attacks on Tor.)
+"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-07-14T13:44:25Z"
- content="""
-*@anonymous* wget is a download utility, useless when you need to upload files. Anyway, the bug seems to be protocol related: any FTP connexion fails, whatever software you use.
-"""]]

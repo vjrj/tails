@@ -1,0 +1,137 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-05-27T16:30:42Z"
+ content="""
+@ \"Tails\":
+
+You wrote:
+
+> We'd never accept any NDI money if there were any strings attached to it. 
+
+Thanks much for the explicit disavowal.
+
+I *want* to believe we are on the same side and mostly do believe it.  At times, when I cannot guess why you might do some of the things you do, it has been difficult to sustain that faith.
+
+> While registering will be necessary (at least initially), it's only because of technical limitations of the available Q&A software we've considered
+
+I take your point.
+
+> like Askbot.
+
+I am not familiar with that.  Does it provide a forum in which one asks questions by filling in a web form?  (Please recall our discussion in another thread in this forum of metadata potentially stored by Iceweasel and derivative browsers.)
+
+> Nevertheless, registering will be harmless.
+
+Unfortunately, with respect, that is just not true.
+
+The essential problem is this:
+
+**Whenever you introduce forum-unique username/password pairs tied to logon timestamps and other data, such data can be potentially associated with a wealth of other data, which entails a serious risk of de-anonymization**
+
+Anyone who tracks the on-line security news has seen an endless parade of examples of serious data breaches in just the past five years, in which *intruders have specifically targeted usernames and passwords precisely because this data provides an \"open sesame\" to a multitude of other ways to attack users' security and anonymity*.
+
+Put another way, please consider this contradiction:
+
+* the purpose and primary virtue of Tails is that it provides an *amnesiac* OS
+* any form of user registration ties electronic identities, which are *memorized* at both endpoints, to a wealth of other data, which if obtained by an adversary can be exploited to harm users.
+
+More specifically:
+
+* logging information held on the forum server (and by your webhost), such as timestamps and posts (no stylometry necessary), can be tied to de-anonymizing information such as usernames, passwords, and on some forums moderator notices and more
+* traces may be left on forum users's systems (especially if the user boots Tails from a USB stick, or is under sophisticated technical surveillance using for example Van Eck emissions or Gamma keylogging malware), such as usernames, passphrases, timestamps, etc.
+
+For example, as we have discussed here, if the Tails developers ever goofed in future, there is the potential for the Tails browser to store sign-on information in some of the metadata files we discussed.  I hope that is unlikely, but please recall the following maxim, well-known in the anonymity community: 
+
+**Any introduction of user-specific uniquely-identifying data is asking for trouble**
+
+There is another possibility which we cannot overlook.  \"The authorities\", *especially* the American \"authorities\", are known from numerous press statements, leaked internal whitepapers, and current news stories, to harbor deep fear and resentment of the very concept of on-line anonymity.  Furthermore, from time to time this forum has seen some posts (possibly trolls) of a nature certain to trigger robotic \"alarms\" and thus to attract attention from humans working for multiple intelligence services around the world, who are employed to track \"social media\" sites tied to political dissidents or occasional pro-democracy discussions.  For such reasons, it is likely that the Tails website will be subject to legal harassment from \"the authorities\".  Because it is hosted in the USA, the possibility that Tails website data might be seized by the US authorities is particularly worrisome.
+
+In 2010 the US TLAs increased by a factor of *four* their use of Section 215 provision of the so-called \"Patriot Act\" [sic], the notorious provision under which, under a *secret* court order issued by the *secret* FISA court, they can require anyone (this forum, your webhost, your spouse, your doctor, *anyone*) to turn over \"any material things\", including electronic data, without providing any disclosure to *anyone*, not even your lawyer, much less to forum posters.  (I have seen but cannot cite a claim that last year the US TLAs increased their use of Section 215 by a further factor of *nine*, in response to recent Superior Court decisions which attempted to raise the bar for certain types of surveillance warrants which can be issued by ordinary courts).
+
+Once data gets into US intelligence/police databases, it is automatically widely accessible to literally millions of persons, including all US police officers as well as thousands of US enlisted service persons employed as intelligence analysts in \"intelligence activities\" in Fort Belvoir, VA and other rapidly growing intelligence hubs used for domestic surveillance under the direction of the NSA and other intelligence agencies.  And among these millions of inadequately vetted persons we can be quite certain that a fair number have already \"gone bad\".   To mention just one specific recent example of a US police officer misusing data held in US databases:
+
+    http://www.theregister.co.uk/2013/05/23/nypd_black_hat/
+
+The NSA has traditionally omitted to even *try* to vet US service persons on the grounds that given the limited resources available for background investigations of the five million or so US persons who have been issued various security clearances, everyone should simply assume that no US military enlisted personnel would ever misbehave (a proposition disproven by a number of notable data breaches committed by US military enlisted personnel employed by the NSA, a history which the agency prefers to forget), so the analysts in Fort Belvoir and Lackland AFB are apparently not vetted at all.
+
+And for Section 215, please see
+
+    https://www.eff.org/deeplinks/2013/05/caleatwo
+
+Also, from
+
+    http://arstechnica.com/tech-policy/2013/03/govt-wont-even-give-page-counts-of-secret-patriot-act-documents/
+
+> In 2009, Sen. Dick Durbin (D-IL) said the government's use of \"Section 215 is unfortunately cloaked in secrecy. Some day that cloak will be lifted, and future generations will ask whether our actions today meet the test of a democratic society.\" In 2011, two US Senators, Ron Wyden (D-OR) and Mark Udall (D-CO), publicly voiced their concerns, too, suggesting the government had a pretty wild interpretation of what it was allowed to do under the PATRIOT Act. \"When the American people find out how their government has secretly interpreted the Patriot Act, they will be stunned and they will be angry,” Wyden told The New York Times.
+
+> It isn't known what kind of investigation those records would reveal, but there is some speculation that the Section 215 records are related to cell phone geolocation data. EFF's lawyer in charge of the case says if that is true, such data is probably being gathered on a \"massive\" scale.
+
+And from
+
+     https://www.eff.org/deeplinks/2011/10/ten-years-later-look-three-scariest-provisions-usa-patriot-act
+
+> As the New York Times reported, the government may now be using Section 215 orders to obtain “private information about people who have no link to a terrorism or espionage case.” The Justice Department has refused to disclose how they are interpreting the provision, but we do have some indication of how they are using Section 215. While not going into detail, Senator Mark Udall indicated the FBI believes it to allows them “unfettered” access to innocent Americans’ private data, like “a cellphone company’s phone records” in bulk form. The government’s use of these secret orders is sharply increasing -- from 21 orders in 2009 to 96 orders in 2010, an increase of over 400% -- and according to a brand new report from the Washington Post, *80% of those requests are for Internet records*.
+
+...
+
+>  The Foreign Intelligence Surveillance Court must issue the order if the FBI [states a connection to \"counter-terrorism\" or \"counter-intelligence\"] even when there are no facts to back it up.  These “things” can include basically anything—driver’s license records, hotel records, car-rental records, apartment-leasing records, credit card records, books, documents, Internet history, and more.   Adding insult to injury, *Section 215 orders come with a \"gag \" prohibiting the recipient from telling anyone, ever, that they received one*.
+
+Furthermore, some data seized by US TLAs is likely to be shared with the intelligence agencies of other nations, including some with oppressive governments.  The US shares almost everything with several close allies, and shares far too much with the oppressive governments of Bahrain, Saudi Arabia, Russia, and others.
+
+A related issue is that unknown to the Tails Project, your webhost might be subject to some civil litigation, which could very well lead to a \"legal discovery firm\" being hired to trawl though all *your* forum data looking for anything relevant to the litigation, *without any notice being given to you*.  And this firm could in turn hire further subcontractors.  As the tree of people who gain access to *your* forum data expands further and further, it becomes increasingly likely that eventually the information will be accessed by someone \"dirty\" enough to sell private identifying data to one of our adversaries.  Unfortunately, such scenarios occur far more often than most people realize.
+
+To summarize, introducing username/password pairs, *even \"single use\" pairs*, violates another maxim:
+
+**If you don't keep the data, adversaries cannot steal, subpoena, or seize the data**
+
+You wrote:
+
+> filling up the email field is required but the validity of the email is not checked\". So you can register a throw-away account by entering a random username, random (non-existent) email address and random password, post your question, and then forget about the account. 
+
+I take your point, but
+
+> Creating such a throw-away account has zero security implications
+
+I am not so sure about that.  At the very least, I think the Tails developers (who know technical details about the proposed forum) should \"Red-team\" that concept to better assess how an adversary might exploit logons together with (for example) geolocation data (including information inferred from timestamps).  Starting from a detailed assessment of what kinds of data precisely would be kept by the forum and what data could be kept (potentially) by your webhost.  
+
+For example, consumer mobile phone providers now feel free to secretly sell detailed information about their customers finances, calling habits, and *minute-by-minute geolocation*.  From
+
+      http://www.newser.com/story/168337/your-cell-carrier-is-tracking-you-selling-data-to-marketers.html
+
+> Some phone companies are now tracking our locations, movements, and web-browsing habits, and selling the data to marketing companies and other businesses. They say they aren't selling information on individual users, but rather how and where groups of people use their phones. But the news still raises some big privacy concerns for many, the Wall Street Journal reports.  For instance, Verizon is tracking data for Clear Channel's billboard advertising company, measuring how likely someone who drives past a billboard is to then go to that store...  the ACLU says a bigger fear than advertisers knowing where you're shopping is that carriers will start collecting more and more personal data that they don't actually require, and *that information could then be subpoenaed by authorities*. \"It's the collection that's the scary part, not the business use,\" says an ACLU privacy specialist.
+
+I feel it is likely that webhost providers will soon conclude, or have already concluded, that not doing likewise to posters in forums which they host amounts to \"leaving easy money on the table\" (as one executive put it).  
+
+Geolocation providing \"services\" which could be accidentally inherited by Tails from Debian stable, after a hypothetical future goof by a Tails developer, are particularly worrisome.
+
+You wrote:
+
+> but for user convenience we'd like to allow account-less anonymous posting too in the future, possibly by contracting the Askbot developers to implement this missing feature.
+
+Much appreciated since you are in a much better position to get them to do that.  I hope you will delay the Askbot forum until they make the change, if they agree to do it in the next few months (say).
+
+Your glib assertions that something is \"harmless\" lead me to fear that you are not thinking through the possible implications, which are numerous and complex.  The potential dangers are immense and that is why I felt it necessary to offer detailed discussion of some specific concerns, together with some links to trusted sources of reliable information.
+
+> An on-topic way to discuss issues like new surveillence methods and similar would be to write a short, technical summary of how it works, and then ask how Tails defends against it or something similarly Tails-related. 
+
+I believe this is the first time you have offered a positive suggestion for discussions in this forum of background issues related to specific surveillance techniques which Tails users might encounter.  I appreciate the advice and promise to try to conform to your desiderata to the extent that I can.
+
+To some extent your problem with my posts may amount to distaste for my writing style.  It seems we have very different notions of what is \"short\" and \"technical\".  Although at times you have expressed irritation over \"wordy\" posts, I do try rather hard to improve clarity and organization by redrafting, and I hope readers appreciate my effort.  
+
+(For example, in this post I think I managed to preserve all your spellings in quoted text while allowing the spellchecker to Americanize mine.)
+
+*Concision* is however apparently not a virtue which comes easily to me, and I don't think I should be excluded because some find my writing style objectionable any more than I should be excluded because of expressed opinions on Tails-related issues.
+
+> for in-depth discussion about e.g. new surveillence methods in themselves there are other, better forums.
+
+You have stated that repeatedly, but when asked these questions you never give satisfactory answers:
+
+* what are these forums?
+* do they allow unregistered users to post?
+
+To which I add:
+
+* what reason have you to believe that these forums are bulletproof against the rumored rampant misuse of Section 215 of the Patriot Act by the US TLAs?
+
+"""]]

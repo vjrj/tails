@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-20T02:03:51Z"
+ content="""
+Last night I downloaded via torrent, verified the signature, and it looks like I have the same sha256 hash as I see on this link 
+
+<https://tails.boum.org/download/index.en.html#download.verify-the-iso-image-using-other-operating-systems>
+
+This is the hash I copied from the link. 4650157cc4ba292b06c7ef8368e9076600359c3cafc4f2e690b3fe22cc015869
+
+>I re-opened the torrent file and after re-downloading some chunks I tried to verify it again and it was still bad. Hmm. odd?
+
+As I recall, a bittorrent client would show a completed download as like 98% complete when it was re-added, but the file would not change when it reached 100%. Did you actually check a hash to see that \"more chunks\" were added? 
+
+Did you verify the sig of the torrent file? Here is the torrent file sig in case you missed it.
+
+<https://tails.boum.org/torrents/files/tails-i386-0.18.torrent.pgp>
+
+Did you use your bittorrent client to rescan the download to see if it was corrupt according to the torrent file? 
+"""]]

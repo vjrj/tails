@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="10.5.8"
- date="2012-05-03T17:09:30Z"
- content="""
-Man, its good you have it working, but you require two USB sticks? Is there a method to do this via just the one independent USB stick? This is starting to become a hassle for using Tails via the USB method (which would ultimately be nice so you can have your encrypted partition of data on there too). Any alternatives that have worked for anyone using just one USB stick? Or does anyone have any insight with respect to Tails updates and future mac support?
-
-Thanks!
-"""]]

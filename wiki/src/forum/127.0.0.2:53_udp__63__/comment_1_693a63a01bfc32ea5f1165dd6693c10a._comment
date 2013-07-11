@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-27T07:33:32Z"
+ content="""
+127.*anything* is your computer. Port 53 is DNS. 
+
+Google/Startpage/etc. can tell you everything you could ever want to know. 
+
+Tails' own documentation is also a mine of useful information. Did you notice the reference to ttdnsd [here](https://tails.boum.org/todo/firewall_lockdown/) while *you* were looking for an answer to *your* question?
+"""]]

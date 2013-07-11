@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-30T18:15:50Z"
- content="""
-I think this is a case of anonymity vs secret communication. Tor + Pidgin OTR is a good combination of both, but if you want heavy data streams like voice/video you're going to have to ditch Tor and use a VPN. That's about as close as you can get to pseudo-anonymity AND heavy data.
-"""]]

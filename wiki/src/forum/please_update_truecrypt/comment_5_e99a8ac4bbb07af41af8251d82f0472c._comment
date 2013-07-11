@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-04-06T05:52:06Z"
- content="""
-> Perhaps you'd be good enough to tell me the command to set up a serpent-twofish-aes xts cascaded volume, with a suitably stretched and salted 3-way independent key system?
-
-What's that, the kindergarten analog of grown-up cryptography? If so, I take my comment back — LUKS does not support all TrueCrypt features (which is a good thing).
-"""]]

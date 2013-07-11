@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-04-27T10:31:41Z"
+ content="""
+> Instead of inflicting the widely-reviled (hated) Gnome3 on us, have you considered using one of the popular and maintained Gnome2 forks such as Mate?
+
+Using gnome-panel instead of gnome-shell will probably improve the situation, but assuming MATE is well maintained in Debian too, I want to put my vote there too.
+
+Either way GNOME Shell is definitely the wrong user interface to use, but Tails developers seems to have already realized this.
+
+> Indeed, failing that, Xfce would be far preferable to Gnome 3
+
+My past experiences with Xfce have not been that good. The user interface felt random and low quality back then. They might have improved by now however.
+"""]]

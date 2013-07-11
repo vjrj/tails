@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-06-25T13:47:24Z"
- content="""
-If one wants to look after viruses, the [clamtk](http://clamtk.sourceforge.net) package can be installed from `apt-get` or Synaptic.
-"""]]

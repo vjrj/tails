@@ -1,0 +1,11 @@
+I have been at a complete loss for some time to understand the current policy in place for bug reporting in Tails. I cannot see how insisting upon privately sent bug reports benefits anyone-- least of all the Tails devs.
+
+When people send a bug report, all of the burden is on you. Whereas, if people post their problem in the forum, others can help-- as we have seen many examples of. Many times, a problem experienced by a user is not a bug with Tails at all. Sometimes the culprit lies with the user's hardware, other times with ignorance, misunderstanding or misuse on the part of the user. The natural give-and-take that occurs when people post their problems to a forum often serves to troubleshoot, rule-out such possibilities or otherwise help the user solve his or her problem. 
+
+Furthermore, even when it turns-out that a bug in Tails truly *is* the culprit, having the reporting and discussion on the forum clearly benefits others who may be affected by the same bug. Those who see the discussion are saved the trouble of having to file a bug report themselves and then wait for a response. And it saves *you*, the Tails devs, the time of having to deal with *multiple*, *redundant* bug reports.
+
+The current policy actually seems contradictory to the very principles of *collaborative*, *transparent*, *collective* community effort that characterize FLOSS in the first place.
+
+Don't get me wrong: I realize that private bug reporting may be important, if not *essential*, in some cases and I'm glad you offer the *option*. But I cannot see how implementing and encouraging a *public*, **collaborative** method of bug-reporting (such as via the forum) as the *preferred* option would not benefit *everyone* involved greatly.   
+
+I hope you will consider this seriously.

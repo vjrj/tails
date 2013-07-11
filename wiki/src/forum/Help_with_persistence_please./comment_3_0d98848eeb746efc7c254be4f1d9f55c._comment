@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-07-20T19:15:20Z"
- content="""
-Thanks for the reply. However, as I mentioned I read the persistence docs & don't understand. I thought the answer might be a custom directory, but didn't understand the example. Please forgive what is probably a stupid question, but does the example mean if you wanted to save images during a tails session you would create a folder called 'images' in the folder /home/amnesia, & then subsequently save the images there?
-
-If that is the case, where might someone who didn't know anything about linux go to learn how to find the location of the monitor & NIC settings? Thanks for your help.
-"""]]

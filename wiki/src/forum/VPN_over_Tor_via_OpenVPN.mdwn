@@ -1,0 +1,6 @@
+Can you use OpenVPN to connect to the VPN service using SOCKS Proxy 127.0.0.1:9050 and so making VPN over Tor situation?
+
+Procedure:
+Go online (Tor), open OpenVPN, configure, connect to VPN)
+
+Or a) this won't work due to TAILS firewall restrictions, b) it is inherently bad idea due to X (whatever that might be).

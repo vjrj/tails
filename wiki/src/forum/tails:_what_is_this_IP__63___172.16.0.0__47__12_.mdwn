@@ -1,0 +1,12 @@
+In root terminal:
+
+iptables -S
+
+#list of tails firewall rules comes up#
+
+#among them is this# ::
+
+-A OUTPUT -d 172.16.0.0/12 -j lan
+
+
+What is this **172.16.0.0/12**? Why is it made allowed and not blocked through firewall?

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-23T09:29:42Z"
- content="""
-This is a known issue: the kernel currently used by Tails does not use more than one core or CPU. This will hopefully be [[addressed pretty soon|todo/nx_bit]].
-"""]]

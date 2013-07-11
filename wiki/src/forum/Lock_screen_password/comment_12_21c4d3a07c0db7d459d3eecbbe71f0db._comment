@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 12"
- date="2012-10-06T14:30:53Z"
- content="""
-I have updated the [[relevant ticket|todo/screen_locker]] with some implementation notes.
-
-"""]]

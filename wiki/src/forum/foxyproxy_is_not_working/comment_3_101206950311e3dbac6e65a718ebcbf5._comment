@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-26T07:22:13Z"
+ content="""
+If you are trying to add a proxy on your LAN, then that should rather be done in Vidalia: Settings → Network → I use a proxy to access the Internet.
+
+If you are trying to add a proxy that is not our your LAN, then that would require breaking the firewall to allow connecting to that proxy instead of enforcing Tor. And I'm not going to help you do that.
+"""]]

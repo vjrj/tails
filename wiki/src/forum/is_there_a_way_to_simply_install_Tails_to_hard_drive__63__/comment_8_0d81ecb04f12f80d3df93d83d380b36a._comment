@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-07-09T23:58:43Z"
- content="""
-You could always just boot a Tails .iso image file from your HDD using Grub2. Working [instructions here](https://tails.boum.org/forum/LiveUSB__44___fromiso__61____42____44___GRUB2_and___39__wipe_memory__39___feature/) 
-"""]]

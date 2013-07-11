@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-25T14:53:39Z"
- content="""
-[PH}
-
-IIRC there should be no issues, if your local network is secure. That is, no sniffers, dedicated protocol analyzers etc. You might avoid using the same user credentials on \"tails\" and the \"open\" network. Think about cookies, usernames, user tokens, certificates, nicknames. I suggest be careful about the use of \"open\" protocol applications like MSN / Yahoo chat, voip clients over Tails.
-"""]]

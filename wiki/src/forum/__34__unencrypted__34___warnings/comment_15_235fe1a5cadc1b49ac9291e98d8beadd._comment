@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2013-06-05T14:09:15Z"
+ content="""
+@Comment 6 by Tails 
+
+>So you might browse an hidden service with plain HTTP, but still the network traffic is encrypted by Tor. So the browser might site warn you about HTTPS encryption issues.
+
+Why? 
+"""]]

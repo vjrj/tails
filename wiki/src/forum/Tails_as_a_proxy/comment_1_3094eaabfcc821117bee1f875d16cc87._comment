@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Running hidden service"
+ date="2013-04-13T20:31:49Z"
+ content="""
+Ok. Here what i got
+
+-Run Tails in vm
+-Enabled Ethernet internal network controller
+
+Now I have tails in vm with internal vm ip like 180.0.0.1
+
+mkdir /var/lib/tor/hidden_service
+chown debian-tor /var/lib/tor/hidden_service
+gedit /etc/tor/torrc
+
+\"HiddenServiceDir /var/lib/tor/hidden_service
+HiddenServicePort port 180.0.0.2:port\"
+
+So, tor is now starting the hidden service and save it to
+/var/lib/tor/hidden_service/hostname
+
+then iptables
+-A OUTPUT -d 180.0.0.2 -p tcp -j ACCEPT
+-A INPUT -i Ecthernet -j ACCEPT
+
+180.0.0.2 is a another vm. it is a server listening to 180.0.0.1 for incoming connections from tail's tor. 180.0.0.2 does not have internet.
+
+Unfortunately there something I still missing. i suppose it is tail's iptables configuration that is not set right. 
+So far I have managed to make tails to ping 180.0.0.2  
+
+What I am trying to do is to make tails run tor and forward hidden service to another local vm machine so that if compromised that server does not reveal any kind of information.
+"""]]

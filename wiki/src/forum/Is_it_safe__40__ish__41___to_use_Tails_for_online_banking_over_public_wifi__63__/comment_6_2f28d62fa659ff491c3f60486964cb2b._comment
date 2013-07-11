@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Privacy/Anonymity"
+ date="2013-05-16T05:01:42Z"
+ content="""
+Using tails is better for anonymity. An exit node may snoop its traffic and steal your personal info. I'd reccommend using a VPN when dealing with personal info. Most VPNs encrypt your connection, thus you'd be nearly 100% safe from any hackers connected to the same public wifi as you.
+"""]]

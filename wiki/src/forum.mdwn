@@ -2,21 +2,24 @@
 
 <div id="page-forum">
 
-<p>
-The [[forum]] is open for discussions about Tails that <strong>do not</strong> belong to bugs,
-feature requests and the like. Such fauna should rather be submitted
-on [[the dedicated page|support/found_a_problem]], where it can be more
-easily tracked... and hopefully fixed.
-</p>
+<h1>This forum is closed</h1>
 
-<p>The best way to follow the forum activity is to subscribe to the RSS feed of
-new posts and comments with your favourite feed reader:</p>
+<p>Given the amount of daily work Tails requires, we are unfortunately
+not able to properly take care of this forum at the same time as we
+are preparing the [[migration to a Questions & Answers web
+site|todo/improve_the_forum]] that will be better suited for user
+support.</p>
 
-[[!inline pages="forum/* or comment(forum/*)" feedonly="yes" show="25"]]
+<p>So, we have decided to close down the forum in its current form, and
+instead focus on getting something better ready as soon as possible.</p>
+
+<p>There are still a few [[support options|support]] left... and [[many
+ways to contribute|contribute]] :)</p>
+
+<h1>Search the forum archives</h1>
 
 <form  action="/ikiwiki.cgi" method="get">
 <div class="blogform">
-Search before starting a new discussion thread:<br/>
 <input name="P" size="30" />
 <input type="submit" value="Search" />
 <select name="DEFAULTOP">
@@ -24,17 +27,6 @@ Search before starting a new discussion thread:<br/>
 <option value="and">Matching all words </option>
 </select>
 <a href="/ikiwiki/searching/">Searching Help</a>
-</div>
-</form>
-
-<form  action="/ikiwiki.cgi" method="get">
-<div class="blogform">
-<input type="hidden" name="do" value="blog" />
-<input type="hidden" name="from" value="forum" />
-<input type="hidden" name="subpage" value="1" />
-Start a new discussion thread titled:<br/>
-<input name="title" size="40" />
-<input type="submit" value="OK" />
 </div>
 </form>
 

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 13"
- date="2012-05-15T13:36:23Z"
- content="""
-Is that a yes to the wireless sending out an \"active probe\" on startup?  I can't seem to find any decent answer on how to find out if your wireless card/driver is active scanning or passive scanning by default.
-
-This laptop doesn't have a kill switch for the internal wireless card I don't think...
-"""]]

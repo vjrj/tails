@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-01-29T01:09:30Z"
- content="""
->Does Tails have any problem wiping larger amounts of ram?
-
-Yes. The situation is well and publicly documented. You'll be amazed how many questions of this nature are already answered! Have you tried reading the documentation, the TODO list or simply using the site's \"search\" tool?
-"""]]

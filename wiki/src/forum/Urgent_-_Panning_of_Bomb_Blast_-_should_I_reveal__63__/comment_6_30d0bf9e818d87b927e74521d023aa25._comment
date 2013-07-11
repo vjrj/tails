@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-08T19:09:51Z"
+ content="""
+@ Comment-1
+
+1.
+
+\">\": I think that would be difficult to answer without knowing more about your potential adversaries and their capabilities. \">\":
+
+
+Potential Adversaries and capabilities of which country?  The country of EXIT node, or the country which has launched the investigation to trace a Tails user?
+
+2. 
+Here I reside in a country where my government can at most spend US$ 20000 for investigation or this is the amount that it can pay to the countries of all the nodes which they may appear during investigation. Is this amount enough?
+
+3.
+
+Secondly, I do not understand one thing. in some discussions the members say that everything is encrypted and even user-agents are also encrypted and the middle node can not decrypt it. So why the same useragents?
+
+4. If the encryption can't be decrypted, what to worry about?
+
+5. If there is no Man-in-the-middle attack or real time attack to trace a user and investigative agencies get to know about the exit node after a month, is there still any security danger involved?
+"""]]

@@ -1,0 +1,7 @@
+**Exploit for local Linux kernel bug in circulation - Update**
+
+Back in April, the Linux kernel developers fixed an incorrectly declared pointer in the Linux kernel. However, it appears that they overlooked the potential security implications of such a bug – particularly the fact that it is possible to gain access to almost any memory area using a suitable event_id. The developers only got into gear and declared the bug as an official security hole (CVE-2013-2094) after an exploit was released that proves that normal, logged-in users can gain root access this way.
+
+The bug affects any kernel version between 2.6.37 and 3.8.9 that was compiled using the PERF_EVENTS option; apparently, this is the case with many distributions. Which exact distributions are affected will hopefully soon become clear when the relevant security updates are released. Linux security expert Brad Spengler has released a detailed exploit analysis.
+
+Full article: <http://www.h-online.com/security/news/item/Exploit-for-local-Linux-kernel-bug-in-circulation-Update-1863892.html>

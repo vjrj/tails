@@ -1,1 +1,0 @@
-I have been trying to create an encrypted LUKS volume with the disk utility program.  I have got it to work on usb sticks however when I try to encrypt an external harddrive, I always get the message "Cannot format device. The device is busy".  I don't know what I need to do to get past this problem.  I have been trying for about 2 months or so now.

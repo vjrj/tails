@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-21T20:09:14Z"
+ content="""
+@5
+
+I thought your mac adress leaks before even connecting to a network? If not it would not be a problem. But the thing is that when you open tails your adress is already leaked.. 
+
+With your command ifconfig wlan0 down , does wifi shut down compelety on tails? Because then i could do this:
+ifconfig wlan0 down 
+change the mac adress
+go the a public wifiplace
+ifconfig wlan0 up
+
+that way my original mac adress is not leaked right?
+"""]]

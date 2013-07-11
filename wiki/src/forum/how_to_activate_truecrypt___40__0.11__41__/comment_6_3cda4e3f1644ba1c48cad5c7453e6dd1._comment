@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-05-20T01:28:19Z"
- content="""
-if true crypt is still included you can. mount your usb key in another os and make the add the parameter to the default option. the file should be isolinux.cfg or similar.
-"""]]

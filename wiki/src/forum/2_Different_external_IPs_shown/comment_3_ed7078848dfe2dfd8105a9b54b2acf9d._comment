@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-19T04:18:12Z"
+ content="""
+I repeatedly checked on both Tor check and google are refreshed within seconds of each other, before the 10m auto refresh mark, and both IPs still did not match. 
+Also, the refresh identity button was not pressed in between the testings.
+
+
+
+"""]]

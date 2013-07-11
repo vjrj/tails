@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-07-20T12:20:36Z"
- content="""
-You can try to configure a [[custom directory|doc/first_steps/persistence/configure#custom_directory]] in the persistent volume.
-"""]]

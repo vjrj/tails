@@ -1,0 +1,8 @@
+Hello guys, what about to run Tails on a Virtual Machine setting up a VPN in the primary OS?
+
+In this way the shared connection between the primary OS and the Tails VM should be already encrypted by the VPN determination a second level of security by connecting to the Tor network.
+
+I think this should be a easy way to implement a VPN -> Tails (Tor) -> Internet scheme.
+
+What do you think about?
+Any feedback is welcome :-)

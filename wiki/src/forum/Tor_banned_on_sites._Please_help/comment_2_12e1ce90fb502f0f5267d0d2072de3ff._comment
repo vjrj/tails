@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-05T15:07:49Z"
+ content="""
+This topic comes up now and again on Tor-talk mailing list
+
+      https://lists.torproject.org/pipermail/tor-talk/
+
+(Before anyone says that the Tor mailing lists are almost unusable and should be replaced by webforums like this one, which allow anonymous posting, I agree.)
+
+Unfortunately, this is more of a sociopolitical problem than a technical problem with a technical solution.  The best long-term answer might be to try to persuade everyone you know to use Tails for all their websurfing (and if possible to contribute a Tor node to help carry the additional load).  It is in the best interests of all Tor users, I think, that everyone use Tor, and if that comes to pass, website operators will hardly be able to ban Tor nodes from connecting.
+
+I couldn't find anything relevant in my cursory search there, but in the Tor FAQ I found this:
+
+    https://www.torproject.org/docs/faq-abuse.html.en#IrcBans
+
+> If you're being blocked, have a discussion with the network operators and explain the issues to them. They may not be aware of the existence of Tor at all, or they may not be aware that the hostnames they're klining are Tor exit nodes. If you explain the problem, and they conclude that Tor ought to be blocked, you may want to consider moving to a network that is more open to free speech. Maybe inviting them to #tor on irc.oftc.net will help show them that we are not all evil people.
+
+I don't think that is very practical for most users.  I think some have tried to use VPNs to evade Tor blocking, by connecting via Tor to some VPN server which *is* allowed to connect to the fora in question.  Of course, you'll need to obtain an account with the VPN provider, which could be troublesome.  There may be tech cooperatives in your region which allow activists to register accounts with VPNs they operate, so ask around. 
+
+Others here may be able to suggest better options (or to provide links to related Tor-talk threads which I had trouble finding).
+"""]]

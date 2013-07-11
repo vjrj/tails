@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-09T02:52:56Z"
+ content="""
+You don't \"boot Tails from Windows 8\" you boot Tails ***instead of*** Windows 8 (or Vista or Win95 or MacOS or whatever else you might have on your HD) so whether or not *your hardware* will boot Tails has very little to do with the crap that happens to be installed on it. Have you tried booting a Tails DVD? If you continue to have problems you should submit a bug report giving comprehensive specifications of the machine's ***hardware***. 
+"""]]

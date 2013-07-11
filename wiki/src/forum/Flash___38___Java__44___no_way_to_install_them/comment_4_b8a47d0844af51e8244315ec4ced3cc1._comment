@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-06-02T04:25:12Z"
+ content="""
+A \"java\" is installed as a requirement for I2P but you sound like you want a browser plugin.
+
+>theres a page i want to go to using Tails that uses flash but its not high bandwidth videos
+
+If your Flash object doesn't require Internet you might download it by going to Tools > Page Info > Media, although the object may not be visible without Flash installed. Tails doesn't support VirtualBox but maybe you could run it without allowing the unsafe browser to access the Internet. 
+"""]]

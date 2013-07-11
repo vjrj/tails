@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2013-04-11T20:33:23Z"
- content="""
-No offense intended, but it's funny that people think of web mail as \"direct\" now. A standalone email client is actually the one that more directly \"talks\" to the mail server. When sending mail it even uses the same protocol mail servers use with each other.
-
-But as far as privacy or security, the only thing that comes to mind is that most web mail sites require JavaScript, which many people distrust.
-"""]]

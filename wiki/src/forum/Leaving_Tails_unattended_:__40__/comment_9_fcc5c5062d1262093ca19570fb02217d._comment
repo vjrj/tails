@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-05-26T16:01:31Z"
+ content="""
+Commentator 1 here:
+
+Sorry, I mis-read.  I was referring to a feature in Debian Squeeze (and I am 99% sure, Wheezy too) which *locks the screen* after a period of inactivity.  The OP was talking about something completely different.
+
+I strongly suspect that leaving Tails running unattended is a very bad idea for many reasons.   Many articles in \"police journals\" include ads from dozens of companies around the world which sell devices (some quite inexpensive) which allow anyone to root an unintended running computer even if your hard drive is encrypted.  Some of these might not work if the computer is running Tails, but some of them possibly will work.
+
+In the case of the OP's experience, perhaps a local power outage caused the computer to reboot?  I don't know whether this might be a plausible explanation, just an idea.
+"""]]

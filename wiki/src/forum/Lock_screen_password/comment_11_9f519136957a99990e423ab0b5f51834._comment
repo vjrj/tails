@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-10-06T13:05:42Z"
- content="""
-The default password, in this case, is `live`. But I think this would be a regression to allow users who have set no password to face this locked screen.
-
-"""]]

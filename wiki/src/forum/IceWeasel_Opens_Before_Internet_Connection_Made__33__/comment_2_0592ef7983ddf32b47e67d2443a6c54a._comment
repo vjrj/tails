@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2011-06-12T19:47:07Z"
- content="""
-Actually the [https://check.torproject.org/?lang=en&small=1](Tor Check) should start in IceWeasl on start, but there's a [bug in Torbutton](https://trac.torproject.org/projects/tor/ticket/1378) preventing it from loading. So, if a user would open the Tails documentation (from the desktop) as the first thing, s/he would get an empty page, which is confusing. This is a work-around until it gets fixed in Torbutton.
-"""]]

@@ -1,0 +1,23 @@
+I setup tails to use an ssh tunnel after tor and was looking for comment on the safety of the steps.
+
+I'd like to add that I wouldn't recommend doing this unless you understand the implications of breaking the tails firewall and potentially losing the anonymity tails provides.
+
+All this assumes that the ssh server is trusted, which is generally not the case.
+
+First, I added the port I will use for forwarding to iptables:
+
+iptables -I OUTPUT 17 -o lo -d 127.0.0.1 --dport 1080 -p tcp -m owner --uid-owner amnesia --syn -j ACCEPT
+
+Next, connected to the ssh server:
+
+ssh -D 1080 user@serverIP
+
+After logging in I then loaded iceweasel and waited for the foxy proxy extension to load. I then changed the http(s) proxy port to 1080 from 9063 and checked the IP at www.whatismyip.com, which showed my ssh server IP.
+
+I then disconnected from the ssh server and deleted the iptables entry (VERY IMPORTANT).
+
+Some notes:
+
+1. For some reason iceweasel will only change the port once of the proxy, otherwise you will need to reload iceweasel to change it again
+
+2. It is possible to add a URL pattern to foxyproxy to handle .onion addresses through the local proxy at port 9063 so you can browse the clearnet through the ssh server and onion sites as normal.

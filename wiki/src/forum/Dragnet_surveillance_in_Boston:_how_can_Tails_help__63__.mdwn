@@ -1,0 +1,224 @@
+Dragnet surveillance becomes especially dangerous when the intercepted data is being scrutinized in real time by dozens of humans with ample opportunity to use this information to harm people now or in the future.  And when the method of surveillance itself imposes significant risks of accidents possibly resulting in immediate physical harm to innocent civilians.
+
+Such is currently the situation in the Boston metropolitan area.  
+
+The FBI is engaged in a massive ongoing domestic espionage operation which aims to intercept essentially all electronic activities (to the keystroke and packet level) in the metropolitan Boston area.  
+
+Very few citizens of these communities appear to appreciate just how extensive and intrusive is this surveillance operation, although most readers will have (correctly) guessed that this operation is targeting suspected "associates" of the Tsarnaev brothers, including Boston area college students and faculty.  
+
+But it is essential to understand that:
+
+* the DOJ recognizes no Constitutional limits on how it retains for later use in unrelated future civil and criminal cases the vast amount of data the FBI is currently gathering under cover of a "terrorism" investigation,
+* in order to snoop on "possible associates" of terrorists the FBI is actually snooping on *everyone* in a huge metropolitan area,
+* the snooping goes well beyond merely compiling "calling circles" to include warrantless aerial tracking of movements in real time and the interception of data on private LANs, even individual keystrokes typed on WiFi keyboards.
+
+But let's begin with the easy stuff: the interception of voice calls and SMS messages sent and received using mobile phones in the greater Boston area.
+
+Many reporters have recently written stories about surveillance devices called IMSI/IMEI catchers, which have been used for years by private eyes, industrial espionage agents, and law enforcement agents to essentially mount MITM attacks on all cell phones in an area (typically several square miles) by masquerading as a cell phone tower which appears "closer" than any genuine tower.
+
+Such devices are sold worldwide by numerous surveillance corporations, including
+
+* Altron, a Ukrainian surveillance company
+* Ability Computer and Software Industries, an Israeli surveillance company
+* Amesys, the French defense giant which sold a cell-phone interception system to the now defunct Gadhafi government of Libya
+* Compelson Labs, a Czech company (which has an American office)
+* Datong PLC, a UK company whose customers include the US Secret Service, as well as the governments of Vietnam and other "enemies of the internet"
+* DigiTask GmbH, the German company which provides IMSI capture devices to various German government agencies
+* Discovery Telecom Technologies (DTT), a Russian surveillance company with close ties to the FSB (the post-Soviet successor to the KGB), and which partners with Netsweeper, a Canadian surveillance company, and has a US reseller, Meganet
+* Gamma International, the loathsome Munich surveillance company
+* Harris Corporation, the American defense giant
+* HSS Development, an American surveillance gear vendor whose customers include at least one US federal agency
+* NeoSoft AG, a Swiss surveillance company
+* Rohde & Schwarz, the Munich company which holds the patents on IMSI capture devices, whose customers include the government of Thailand
+* Septier Communications, Inc., another Israeli surveillance company
+* Verint Systems, Inc, formerly known as Comverse Infosys, Inc., an Israeli founded-company (now headquartered in Mountain View, CA) which is deeply involved in operating dragnet surveillance systems in both the USA and Mexico
+
+For more about DTT's IMSI catchers see
+
+      http://www.thetechherald.com
+      "Lawful Interception Technology that is legally watching you"
+
+      http://www.wired.com/dangerroom/2013/05/russian-surveillance-technologies/
+
+The US FBI is however said to prefer the IMSI/IMEI catchers made by Harris Corporation, a giant US corporation which has classified contracts with at least 17 federal agencies (including intelligence agencies).  
+
+Harris catchers are not cheap.  According to a price list published by Wikileaks in 2008, each StingRay cost $ 75,000 (a more advanced model, StingRay II, cost $ 148,000 each).  In addition, Harris sells "fashion accessories" for all this spy gear, at vastly inflated prices.  (Harris charges $ 925 for a StingRay carrying case.)
+
+From
+
+     'Stingray' Phone Tracker Fuels Constitutional Clash
+      Jennifer Valentino-Davies
+      Wall Street Journal
+      22 September 2011
+
+> Stingrays are designed to locate a mobile phone even when it's not being used to make a call. The Federal Bureau of Investigation considers the devices to be so critical that it has a policy of deleting the data gathered in their use, mainly to keep suspects in the dark about their capabilities, an FBI official told The Wall Street Journal in response to inquiries.
+
+O, the FBI: such a drama queen.
+
+> Stingrays are one of several new technologies used by law enforcement to track people's locations, often without a search warrant. These techniques are driving a constitutional debate about whether the Fourth Amendment, which prohibits unreasonable searches and seizures, but which was written before the digital age, is keeping pace with the times.
+
+Civil libertarians tend to feel that American citizens should become concerned when the FBI and like-minded organizations start calling for Constitutional amendments repealing the Bill of Rights on the grounds that these articles are allegedly "not keeping pace with the times".
+
+> A stingray works by mimicking a cellphone tower, getting a phone to connect to it and measuring signals from the phone. It lets the stingray operator "ping," or send a signal to, a phone and locate it as long as it is powered on, according to documents reviewed by the Journal.
+
+The FBI has always known that the use of such devices is illegal under US law, because they violate the Communications Act.  From
+
+     http://www.slate.com/blogs/future_tense/2013/01/10/stingray_imsi_catcher_fbi_documents_shine_light_on_controversial_cellphone.html
+
+> Functioning as a so-called “cell-site simulator,” the Stingray is a sophisticated portable surveillance device. The equipment is designed to send out a powerful signal that covertly dupes phones within a specific area into hopping onto a fake network. The feds say they use them to target specific groups or individuals and help track the movements of suspects in real time, not to intercept communications. But by design Stingrays, sometimes called “IMSI catchers,” collaterally gather data from innocent bystanders’ phones and can interrupt phone users’ service—which critics say violates a federal communications law.
+
+> It’s a small but significant detail. Why? Because it demonstrates that “there are clearly concerns, even within the agency, that the use of Stingray technology might be inconsistent with current regulations,” says EPIC attorney Alan Butler. “I don't know how the DOJ justifies the use of Stingrays given the limitations of the Communications Act prohibition.”
+
+The use of IMSI/IMEI capture devices recently came before the US Supreme Court, in a case brought by a man named Daniel Rigmaiden.  From
+
+      http://www.wired.com/threatlevel/2013/04/verizon-rigmaiden-aircard/all/
+
+> The actions described by Rigmaiden are much more intrusive than previously known information about how the government uses stingrays, which are generally employed for tracking cell phones and are widely used in drug and other criminal investigations.
+
+> The government has long asserted that it doesn’t need to obtain a probable-cause warrant to use the devices because they don’t collect the content of phone calls and text messages and operate like pen-registers and trap-and-traces, collecting the equivalent of header information.
+
+...
+
+> When devices connect [to the fake cellphone tower], stingrays can see and record their unique ID numbers and traffic data, as well as information that points to the device’s location.
+
+> *By moving the stingray around and gathering the wireless device’s signal strength from various locations in a neighborhood*, authorities can pinpoint where the device is being used with much more precision than they can get through data obtained from a mobile network provider’s fixed tower location.
+
+And how do the snoops move their capture devices around the neighborhood in order to track the movements of everyone in the area with a mobile phone?  Sometimes, they drive around, but mostly, they *fly* around.
+
+> Use of the spy technology goes back at least 20 years. In a 2009 Utah case, an FBI agent described using a cell site emulator more than 300 times over a decade and indicated that they were *used on a daily basis by U.S, Marshals, the Secret Service and other federal agencies.*
+
+Since these devices cost tens of thousands of dollars apiece, US taxpayers might well hope that they are being heavily used.  The problem is that each surveillance operation using them inevitably intrude deeply into the lives of hundreds of people who are not suspected of any misdeeds, in addition to the intended target(s) of the surveillance.
+
+...
+
+> In Rigmaiden’s case, agents apparently used two devices made by a Florida-based company called Harris. One was the company’s StingRay system, which is *designed to work from a vehicle driven around a neighborhood to narrow a suspect’s location to a building*. 
+
+Or alternatively, from a small plane.
+
+> Once agents tracked the signals from Rigmaiden’s air card to the Domicilio Apartments complex in Santa Clara, California, they apparently used another device made by Harris called the KingFish — a handheld system that allowed them to walk through the complex and zero-in on Rigmaiden’s air card in apartment 1122.
+
+> Although a number of companies make stingrays, including Verint, View Systems, Altron, NeoSoft, MMI, Ability, and Meganet, the Harris line of cell site emulators are the only ones that are compatible with CDMA2000-based devices. Others can track GSM/UMTS-based communications, but the Harris emulators can track CDMA2000, GSM and iDEN devices, as well as UMTS. The Harris StingRay and KingFish devices can also support three different communication standards simultaneously, without having to be reconfigured.
+
+> On the morning of July 14, 2008, FBI Agent Killigrew created a cell tower range chart/map consisting of a street map, plotted Verizon Wireless cell site sectors belonging to cell site Nos. 268, 139, and 279, and a triangulated aircard location signature estimate represented by a shaded area. On the chart/map, the total land area collectively covered by cell site Nos. 268, 139, and 279 is approximately 105,789,264 ft2. FBI Agent Killigrew used triangulation techniques and location signature techniques to eliminate 93.9% of that 105,789,264 ft2 area resulting in the location estimate being reduced to 6,412,224 ft2 represented by the shaded area. The shaded area on the cell tower range chart covers the location of apartment No. 1122 at the Domicilio apartment complex [where Ringmaiden lived]
+
+But to do all this, Agent Killigrew intercepted and studied the communications of literally thousands of people who had done nothing wrong.  Therein lies the Constitutional rub.
+
+> On July 15, agents with the FBI, IRS and US Postal Service flew to San Jose to triangulate Rigmaiden’s location using the stingray. They worked with technical agents from the San Francisco FBI’s Wireless Intercept and Tracking Team to conduct the real-time tracking.
+
+> The next day, Verizon Wireless surreptitiously reprogrammed Rigmaiden’s air card so that it would recognize the FBI’s stingray as a legitimate cell site and connect to it “prior to attempting connections with actual Verizon Wireless cell sites.” The FBI needed Verizon to reprogram the device because it otherwise was configured to reject rogue, unauthorized cell sites
+
+> On July 16, the FBI placed 32 voice calls to the air card between 11am and 5pm. Each time the air card was notified that a call was coming in, it dropped its data connection and went into idle mode. At the same time, it sent real-time cell site location information to Verizon, which forwarded the information to the FBI’s DCS-3000 servers, part of the elaborate digital collection system the FBI operates for wiretapping and pen-registers and trap-and-traces. From the FBI’s servers, the location data was transmitted wirelessly through a VPN to the FBI’s technical agents “lurking in the streets of Santa Clara” with the StingRay.
+
+(The DCS-3000 is one component of the infamous "Carnivore" dragnet surveillance system; its successors include the DCS-6000.  The DCS devices were developed at the FBI's Engineering Research Facility (ERF) in Quantico, VA, with the technical assistance of private industry.)
+
+> At this point, the StingRay took over and began to broadcast its signal to force the air card — and any other wireless devices in the area — to connect to it, so that agents could zoom-in on Rigmaiden’s location.
+
+Unfortunately for civil liberties, Rigmaiden lost his case, opening the way for the FBI to resume warrantless use of its IMSI/IMEI catchers.  See
+
+      https://www.eff.org/deeplinks/2013/05/scotus-foils-foia-advocates-challenge-citizens-only-records-laws
+
+For more background on the issues at stake, see
+
+      http://www.slate.com/blogs/future_tense/2013/01/10/stingray_imsi_catcher_fbi_documents_shine_light_on_controversial_cellphone.html
+
+IMSI/IMEI capture devices can capture and decrypt not only cell phone conversations but also SMS text messages.  
+
+Reporters typically picture operatives driving around in surveillance vehicles, but as I just said, these days they are more likely to be flying small planes in lazy circles at altitudes of three to ten thousand feet.  But the most intrusive and dangerous dragnet surveillance operations require these single engine planes to continuously execute low-level flight patterns.
+
+Low-level flights using single engine planes are much more hazardous (and sleep-disturbing) to the citizens of Boston, due to the cumulative likelihood of an engine failure or mid-air collision at low altitudes---  a possibility whose likelihood is further enhanced due to the fact that the pilots in question are neither well-rested nor professional fliers.
+
+Most of the small planes currently buzzing Boston are made by a venerable US company, Cessna, whose single engine planes are also much favored by the CIA.  (Over the years, the CIA has *crashed* more Cessnas than most rental companies ever own.)
+
+Cessna is well aware of the appeal of its aircraft to US TLAs and police agencies, and for many years it has sold a model it calls the Enforcer.  This is a modification of the Cessna 172, a popular model which has an overhead wing configuration, providing unobstructed vision of the ground, but specially kitted out with surveillance equipment such as high resolution cameras which can be locked on a "target" and continuously rotated to compensate for the plane's movement.  The Enforcer has been sold in large numbers to government agencies such as the CIA, FBI and US state and local police agencies, but also including US Federal agencies not normally thought of as intelligence or law enforcement agencies.  But there are many other plane makers, such as De Havilland, whose short takeoff and landing planes are also much favored by the CIA.  
+
+In all, the US TLAs operate hundreds of spyplanes inside the USA.  These aircraft are fitted with surveillance gear including:
+
+* IMSI/IMEI catchers which operators use to intercept and record all cell phone calls within several square miles (even though they may be interested only some of these),
+* FLIR radar which operators use to spot soil disturbances, underground civil engineering infrastructure, illicit tunnels, and to peer inside the private domiciles of the rich and famous (or the poor and hungry),
+* thermal and optical imaging systems which operators use to count how many people are inside a home, and to watch people as they move around inside their home
+* operators can receive information transmitted by CIPAV type trojans infecting PCs, laptops, mobile phones, and other personal electronic devices,
+* Van Eck radiation capturing systems which enable operators to spy on computer monitors, to intercept packets transmitted on WiFi LANs in small homes and small offices (such as medical clinics), and even to intercept individual keystrokes input into WiFi keyboards, 
+* operators can avoid recent restrictions on warrantless surveillance using GPS trackers by "pinging" passive transponders secretly placed under vehicles from the air,
+* operators can listen in on private indoor conversations using low power audio surveillance bugs previously placed inside private residences or offices in "black bag" operations,
+* radiation monitoring systems can be used to spot radiation hot spots (in practice, hotspots are most often encountered with a civilian has recently undergone a cancer treatment or other medical procedure, but in principle they could indicate that someone is carrying around radioactive materials for some non-medical reason).
+
+Such intrusive aerial espionage is almost always carried out without any warrant.  And on those occasions when the FBI *has* bothered to request a search warrant, it has followed a practice of carefully concealing from the judges just how pervasive and intrusive this kind of surveillance is.  In particular, the FBI has rarely if ever informed judges that in order to use IMSI/IMEI catchers, the FBI intercepts *all* cell phone conversations in an area of several square miles, even though it is typically interested in only one or two phones.
+
+The FBI alone operates about 85 planes registered under its own name.  This was disclosed many years ago by reporter Curt Anderson of the AP:
+
+     http://www.informationclearinghouse.info/article2239.htm
+
+The planes are known as "Nightstalkers", apparently in an ironic homage to an infamous American serial killer.
+
+As a recent example, an FBI Cessna 208B with Tail number N1132F has recently been active in the Boston, MA area.
+
+In addition, the FBI often uses another hundred or so surveillance planes registered to various OGA front companies, such as:
+
+     RKT Productions
+     PO BOX 615
+     Bristow, VA 20136-0615
+
+RKT owns three Cessna 182T aircraft, including one with tail number N906TM which has also been recently active in the Boston, MA metropolitan area.
+
+     PXW Services
+     PO BOX 802
+     Bristow, VA 20136-0802
+     USA
+
+PXW owns four Cessna 182T and one Cessna T206H, including N520EP, also recently active near Boston, MA.
+
+     Northwest Aircraft Leasing Corp
+     40 W Main St, Suite 328
+     Newark, DL 19711
+
+NAL owns three Cessna 206H and one Cessna T206H, including N309JK, also recently active near Boston, MA.  See also
+
+     http://www.wired.com/threatlevel/2006/06/mystery_planes_/
+
+The CIA makes extensive use of similar front companies which masquerade as airplane rental companies (but their only "customers" are the US TLAs).  In public documents, these front companies are often easily recognized by features such as these:
+
+* the corporate address is often a mail drop 
+* the incorporation papers are often drawn up by an obscure small town lawyer whose usual line of work is something more mundane, such as real estate
+* the incorporation papers typically list as the names of the "corporate officers" names which show up nowhere else in the public record (because no such persons exist)
+* the signatures of "Mr. X" on SEC documents and other legal papers often varies widely over time, because different CIA officers assume the same identity over time and sign legal documents as "Mr. X"
+
+The FBI's domestic aerial surveillance missions are flown by ordinary FBI agents who possess civil aviation pilot licenses.  The planes are generally painted in an off-white and blue color scheme, and can be distinguished at close range from ordinary civilian small aircraft by the optical systems mounted in small swiveling domes under the wings, belly nacelles stuffed with surveillance gear, or fins (containing communication aerials).  The cockpits feature dashboard mounted laptops, allowing a single agent to fly the plane while simultaneously operating the spy gear.  
+
+The IMSI/IMEI catchers can be used when the planes are flying at altitudes making them inaudible and virtually invisible, but for visual surveillance and Van Eck surveillance the planes may be flown at much lower altitudes, and this often attracts the attention of ordinary citizens, as has happened recently in the Boston area:
+
+     http://www.boston.com/yourtown/news/quincy/2013/05/photos_prove_suspicious_aircra.html
+
+> “It’s frightening, not just weird, but frightening,” said one resident of the Wollaston section.
+
+(A distracted, sleep-deprived pilot, flying at low altitudes, at night.  Repeatedly, for weeks on end.  That *is* frightening.)
+
+...
+
+> when the federal government wants to keep something quiet, they keep it very quiet. 
+
+Well, I guess that depends upon how you define "quiet":
+
+> neighbors are complaining the plane is keeping them up at night.  "This strong humming sound as you look up and you go, 'Oh there she goes again.' It goes all the way around, comes all the way back, keeps going at 5 o’clock in the morning," one resident told WBZ NewsRadio.
+
+See also
+
+     http://www.businessinsider.com/fbi-planes-frighten-boston-residents-2013-5
+     http://mailman.qth.net/pipermail/scan-dc/2006/008079.html
+     http://www.progressive.org/mag_mcfbisurv
+
+Aircraft said to be involved include:
+
+	N859JA          Cessna 182      National Aircraft Leasing
+	N712MS          Cessna 182T     "
+	N520EP          Cessna 182T     PXW Services
+	N906TM          Cessna 182T     RKT Productions
+	N1132F          Cessna 208      FBI
+
+Boston is by no means the only city which has been subjected to intrusive aerial surveillance.  All 56 FBI field offices use spyplanes for occasional dragnet electronic/visual/audio surveillance.  Other American communities which have been the subject of such intrusive aerial surveillance in recent years include Bloomington, ID, Lodi, CA, and Arlington, VA.  Most notoriously, two Nightstalkers were used during the siege of the Branch Davidian complex in Waco, TX.  
+
+But this is nothing compared to what the FBI intends to do once it has amassed a fleet of hundreds of military surplus surveillance drones.  Reporters and any other citizens who desire or feel a legitimate need for a spot of privacy should ponder the AP scandal and consider the implications.
+
+So here is the question for discussion:
+
+*In the face of pervasive and deeply intrusive and illegal dragnet surveillance, how can reporters and ordinary citizens effectively use Tails to preserve privacy and promote democracy and free speech?*   
+

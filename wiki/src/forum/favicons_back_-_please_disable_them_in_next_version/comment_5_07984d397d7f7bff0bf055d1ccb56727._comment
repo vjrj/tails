@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-27T19:28:08Z"
+ content="""
+Not quite the same as infection from a favicon, but perhaps close enough to illustrate the potential danger:
+
+     Watch out for waterhole attacks -- hackers' latest stealth weapon
+     Roger A. Grimed
+     InfoWorld, 21 May 2013
+
+> [Miscreants] uploaded a few dozen admin tools to popular open source websites, which were downloaded and used by hundreds of thousands of website administrators. One of the most popular tools was a website admin console; another was a Web page visitor counter. *Both contained a simple URL that loaded a small logo* along with the applet. The author's open source contract said that anyone could use and modify the applet as needed, as long as the URL was left intact in original form without modification. Harmless enough -- or so everyone thought and so it seemed for many months.
+
+> Then *one day the URL pointing to the logo graphic ended up pointing to a JavaScript redirection link instead*, which prompted visiting users to install malware. It was pure evil genius. By changing what the URL was pointing to, tens of thousands of users were instantly infected on their next visit.
+
+Yes, I realize this war story refers to an image loaded via a url pointing to a third party server, not a favicon, which requires more subtlety to exploit.
+"""]]

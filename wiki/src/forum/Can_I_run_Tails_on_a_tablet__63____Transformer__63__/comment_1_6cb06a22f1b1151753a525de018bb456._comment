@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-20T11:31:50Z"
- content="""
-No idea. If it has a USB port you can [[clone Tails|/doc/first_steps/usb_installation]] onto a USB stick from another computer and try it out. Please report back.
-"""]]

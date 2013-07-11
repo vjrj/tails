@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="about Tor exit nodes"
- date="2012-05-31T18:35:47Z"
- content="""
-As a good starting point about Tor exit node creation, one can read the [Tor's legal FAQ](https://www.torproject.org/eff/tor-legal-faq.html) and the '[Tips for Running an Exit Node with Minimal Harassment](https://blog.torproject.org/blog/tips-running-exit-node-minimal-harassment)'
-
---mike
-"""]]
