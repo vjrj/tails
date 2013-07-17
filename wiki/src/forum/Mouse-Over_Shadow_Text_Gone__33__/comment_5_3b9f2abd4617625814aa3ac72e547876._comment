@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-28T11:17:21Z"
+ content="""
+I don't think this bug was formally tracked. It's been inherited from Torbutton and updating it to 1.5 solved the issue.
+
+> Also, how about adding some text to the WhisperBack form, giving some idea of how much time should be allowed for a bug report to be evaluated and acknowledged?
+
+What do you mean by that? Indicating a maximum time before we answer the bug report? We are mostly working as volunteers so I'm not sure we are ready to do that. The time we take to answer a bug report greatly depends on how busy we are with Tails and other things...
+
+"""]]

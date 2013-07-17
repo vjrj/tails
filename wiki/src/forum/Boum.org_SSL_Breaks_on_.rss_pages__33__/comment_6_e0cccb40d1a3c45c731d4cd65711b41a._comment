@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-06-04T21:59:33Z"
+ content="""
+Corrected link for 5:
+<https://tails.boum.org/forum/__34__unencrypted__34___warnings/>
+
+(For some reason, placing the exact title of the thread within double-brackets didn't create the link as it should have. Looks like the quotation marks somehow messed things up.)
+"""]]

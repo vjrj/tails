@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="hi"
- date="2012-05-17T18:48:03Z"
- content="""
-hello, as mentioned before, i have the pgp and the iso file in a folder called tails. the signing key with the registry entries was used to confirm the download earlier, so i had gotten past that point to get to the decrypt with kleopatra. I put the signing key in the folder called tails, just incase it needed to be there, but had no effect on decrypt results. if there is another purpose for the key besides verifying an md5, please let me know. the md5 was verified with gpg4win. it's kind of sad that some joe blow on the net can create a doc called '
-      === The Ultimate Guide for Anonymous and Secure Internet Usage v1.0.1 ===' that is 1000 times clearer for newbies than an advanced project made by a team of advanced coders under eff. which of course, tails is supposed to be for, newbies.
-"""]]

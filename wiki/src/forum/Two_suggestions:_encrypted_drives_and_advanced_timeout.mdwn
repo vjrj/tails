@@ -1,3 +1,0 @@
-I have two suggestions for Tails Greeter.  First when you get to the yes/no for advanced options, have a timer with a few seconds that defaults to no if there isn't an answer before the time expires, this would allow unattended booting.  Second if Tails detects an encrypted drive also add a password entry box and add a check box for the option to use the decrypted drive as the home directory.  Doing so would let those who are booting from non-writable media (CD/DVD) to have persistence.
-
-Thoughts?

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Adding /home/amnesia/.nautilus path explicitly in persistence UI ..."
- date="2012-06-22T18:59:00Z"
- content="""
-That doesn't work!  As I recall, the gnome world is so f*cked up that not all nautilus preferences are stored in that directory - where you'd think they'd be - but are scattered across different places.  This is why it is necessary to back up the whole home directory.
-"""]]

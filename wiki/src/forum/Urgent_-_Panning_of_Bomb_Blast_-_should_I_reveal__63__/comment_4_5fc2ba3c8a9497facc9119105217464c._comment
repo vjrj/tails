@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-08T14:46:53Z"
+ content="""
+@ Shocked to read the comment:1
+> I am really shocked to read the comment 1 to the OP. If Tails can not be used to save the human beings, what the hell is the purpose of Tails or Tor or so-called vpns? Why so many conferences and presentations to the human rights activists if you can not grant protection to them?
+
+Comment 1 is correct, and I suppose the formulations we use for describing Tails on the website gives a similar vibe. We do that because want to be honest about what we promise about Tails, and, truth be told, we can only give such promises with a non-zero level of confidence within carefully defined threat models. After all, Tails' uses Tor for providing anonymity, and even the Tor developers don't dare make very broad claims about Tor, which arguably is the state-of-the-art in the anonymity field.
+
+We're quite obviously not marketeers trying to sell you something. We are aware that you and other users probably would like sales pitches like \"Tails is 100% secure and anonymous in every situation\", but for such blatant lies we refer you to the commercial VPN (and other \"anonymity\" service) providers whose financial success depends on exploiting their customers' gullibility.
+
+> But this post has made me realized that all the efforts being made by everyone in showcasing their projects or techniques is mere an attempt to collect donations [...]
+
+Trust me. If we were in it for the money, we'd be fools. To date we've recieved something like 25 US dollars worth of donations via bitcoins, and while some of us have received sponsorships from other sources to work on Tails, it's less than what we could expect from similar work at your average software development company.
+
+Any way, to kind of answer the original question of the thread:
+
+> Can I use TAILS with a sense of security to send an email to Investigation agencies?
+
+Let me put it like this, without going into any nitty gritty details about thread models etc. which seems to be to much to ask for: Tor is arguably your best choice when it comes to online anonymity, and Tails is about as good an environment can get for using Tor. I hope that helps.
+"""]]

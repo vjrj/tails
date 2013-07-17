@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-05-14T00:12:09Z"
+ content="""
+@ comment 9
+> In order to remove any bias, suppose you are not a Tails developer.
+
+Given Tails posts as 'Tails' and that the comments in this thread have been anonymous, I think that should be an implicit assumption. 
+
+> Which of the two: Tails or Whonix, do you think is more robust against malware attacks? I mean: gaining root access is more difficult or compromising the hypervisor is more difficult?
+
+Looking at lists of published vulnerabilities, privilege escalation exploits (ie: gaining root) are far more common than hypervisor attacks. A naive interpretation of the data would indicate that Whonix is more secure.
+
+There are many other factors to consider. Among them that are important to me personally:
+
+* how big is the userbase for each tool ?
+    * in general more users = more audits = more security 
+    * how large is the development team, and support for each tool ?
+* how hard is the tool to set up ? 
+    * I am not comfortable taking responsibility for securing systems in the manner provided by both systems and wish to minimize the chance of error.
+* does it do what I want ?
+    * I am not as concerned about malware infecting my system as I am about surveillance.
+    
+
+I am glad that both projects exists and appreciate the efforts of everyone working to protect privacy and anonymity on the internet.
+
+"""]]

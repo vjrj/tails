@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Another convenient way to verify download file's MD5/Sha256 is HashMyFiles"
+ date="2013-05-10T03:57:34Z"
+ content="""
+The MD5 checking can be easily done  with the free HashMyFiles from Nir Sofer at nirsoft.net.
+
+If you request HashMyFiles to install itself (not required) it gives the benefit of allowing a right-click on any file in Windows.  That activates HashMyFiles and gets it running to calculate the hashes. Then compare the result to what it is supposed to be. (The two numbers will normally be the same or very very different.)
+
+
+
+"""]]

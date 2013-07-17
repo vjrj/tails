@@ -1,9 +1,0 @@
-For some reason when booting tails on a Mac the syslinux/ISO initial installation works however the USB clone will not.
-
-I wonder if this is an issue with the USB installer's lack of formatting options forcing the used to format using MBR. Or could it be that newer macs are having trouble booting from a disk with 2 partitions?
-
-Either way I think it would be beneficial to add some formatting options to the process.
-
-Possibly an option to set up persistence on a separate disk also rather than force multiple partitions on the same USB key?
-
-Thoughts?

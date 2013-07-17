@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-11T20:14:41Z"
+ content="""
+Everything should go through Tor execept what has specifically excepted. Exceptions include Tor itself, I2P, the time synchronization program and the unsafe browser. I'm probably forgetting some, but the normal applications like Claws and Pidgin definitely go through Tor.
+"""]]

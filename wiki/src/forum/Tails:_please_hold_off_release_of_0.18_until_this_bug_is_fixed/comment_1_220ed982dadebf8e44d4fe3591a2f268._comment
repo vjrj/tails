@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-16T15:09:57Z"
+ content="""
+> please hold off release of 0.18 until this bug is fixed
+
+As announced on tails-dev, that's exactly why 0.18 is delayed.
+
+Also, this forum is not the right place to post security announces,
+especially super-well-know ones that already had their CVE and
+DSA published.
+
+"""]]

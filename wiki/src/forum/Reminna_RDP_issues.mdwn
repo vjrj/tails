@@ -1,0 +1,3 @@
+I am trying to RDP to a Windows VPS using Reminna running in Tails, but quite simply it's not working.  If I enable the SHH tunnel I get error: Failed to startup SSH session: Connect failed: Connection refused.  If it's unabled I get: Unable to connect to RDP server <ip address>.  I'm sure this must be a fairly common use for this application, does anyone have any ideas to help?
+
+Thanks in advance!

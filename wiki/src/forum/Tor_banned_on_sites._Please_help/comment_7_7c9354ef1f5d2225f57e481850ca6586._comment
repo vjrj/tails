@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-08T05:44:39Z"
+ content="""
+Careful about using a web proxy for any kind of sign-up or login. They may not be able to see your real IP, since it would (hopefully) masked by Tor but a web proxy absolutely CAN see your traffic and any data you would enter, such as user names, passwords, etc.
+"""]]

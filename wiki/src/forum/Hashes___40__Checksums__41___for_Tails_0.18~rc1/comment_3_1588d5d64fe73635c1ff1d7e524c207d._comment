@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-06-05T15:28:25Z"
+ content="""
+>NOT a substitute for verifying the SIGNATURE
+
+Neither is a signature a substitute for comparing hashes with other users. 
+
+>why should we trust this information?
+
+Why should we trust a signature? What if someone has access to Tails private key and uses it to produce another version with a backdoor?
+
+Has this thread had comments altered or deleted? 
+
+Looking at the recent forum changes <https://tails.boum.org/recentforumchanges/> shows amnesia \"clean the forum\" date is git 03:49:04 PM 06/02/2013. Clicking on the glasses shows them deleting comments about hashes 
+
+<http://git.immerda.ch/?p=amnesia.git;a=blobdiff;f=wiki/src/forum%2F0.13-rc1_Hashes%2Fcomment_6_74ed498651918987c914d2aead7145bd._comment;h=0000000000000000000000000000000000000000;hp=3a7f2e03279ca357326f115efd4e65d98994b472;hb=17860031ba7702ddf1b899165e8e3e3d498a9a46;hpb=dbede00079550a22b9335b08a08ca7463610bd6d>
+
+<http://git.immerda.ch/?p=amnesia.git;a=blobdiff;f=wiki/src/forum%2F0.13-rc1_Hashes%2Fcomment_4_d9a7808ebb86ddc6b28beea33445ef40._comment;h=0000000000000000000000000000000000000000;hp=728839e23afc1afd4cc33f75e8e0ae2306343f6b;hb=17860031ba7702ddf1b899165e8e3e3d498a9a46;hpb=dbede00079550a22b9335b08a08ca7463610bd6d>
+
+The search function fails to find this page 
+<https://tails.boum.org/ikiwiki.cgi?P=hash&DEFAULTOP=or&DB=default&FMT=query&xP=Zhash&xDB=default&xFILTERS=--O>
+"""]]

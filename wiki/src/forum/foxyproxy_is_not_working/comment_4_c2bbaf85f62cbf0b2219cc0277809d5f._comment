@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-05-26T14:59:56Z"
+ content="""
+actually I am not trying to connect directly to the proxy, rather connect to that proxy after tor. Does that require breaking the firewall too?
+"""]]

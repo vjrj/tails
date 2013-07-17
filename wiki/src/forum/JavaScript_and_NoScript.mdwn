@@ -1,0 +1,3 @@
+I know the TorButton can detect exploits in JavaScript but still a lot of people tell me NoScript should be on (not disabled). I understand it's disabled by default in Iceweasel (and the respective browser bundles for other operating systems) but would leaving it disabled pose any risk?
+
+Say I am using the bundle on Windows - the JavaScript could attempt to retrieve my real IP (as Tor doesn't take over the main network connection) but with TAILS would this problem be much to worry over (TAILS use Tor across the OS for the most part - the Unsafe Web Browser obviously to stay clear from).

@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 2"
+ date="2013-05-29T10:49:26Z"
+ content="""
+> But I cannot see how implementing and encouraging a public, collaborative method of bug-reporting (such as via the forum) as the preferred option would not benefit everyone involved greatly.
+
+For the record, we generally ask for a full bug report because:
+
+1. The question asked on the forum is incomplete: it lacks most useful information;
+   on the other hand, reports received from WhisperBack tend to be much more usable,
+   thanks to the \"what I'm doing / what I expect / what is happening instead\" template.
+2. Asking for pieces of information one after the other is painful both for us and for the OP:
+   it's painful for us because we have to try and guess what specific piece of information
+   might help, instead of having a comprehensive set of logs to glance over; and it's painful
+   form the OP, as they have to learn how to run commands as root etc., which quite frankly,
+   I'm personally not interested in teaching on this forum.
+3. We feel that we'll understand the issue much better if we get the logs.
+4. The workload of handling bug reports sent through WhisperBack is better shared,
+   among us Tails core developers, than dealing with the forum.
+
+But I generally agree having a more community-oriented way to help each other would be good.
+
+I guess one would have to patch
+[[contribute/first_steps/bug_reporting]], so that it explains how
+to report a useful bug on the forum. It should be made very clear
+that for hardware issues, a full WhisperBack bug report is quite
+more likely to be useful. See [[contribute/how/documentation]]
+for hints about how to send us such patches.
+
+"""]]

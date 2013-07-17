@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-18T22:47:34Z"
+ content="""
+@ OP:
+
+But you *did* verify the iso image, didn't you?   I try to always ask because that step is truly essential and Tails could do more harm than good if the user forgets or doesn't know how to do it.  See
+
+   https://tails.boum.org/download/index.en.html#index3h1
+
+For burning the iso image to a DVD, make sure you use a DVD not a CD, and make sure you choose \"burn an image\" rather than \"make a data DVD\".
+
+
+"""]]

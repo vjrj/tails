@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="re: torrified"
- date="2011-04-27T13:54:17Z"
- content="""
-ok, just so that understand, the system is configured to force every tcp connection through tor proxies? so i don't have to install and configure icedove everytime i use tails? my main problem is that some mailprovider do not support webbased access and well in this case you just have to rely on offline programa such as claws or icedove to work as securely as possible. the question is can one rely on claws to send an receive as far security is possible or is the safer course just to use webbased access?
-"""]]

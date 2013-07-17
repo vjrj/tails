@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-05-22T19:03:10Z"
+ content="""
+@tails
+
+But a solution would be: start tails at home where a leaking mac adress is no problem because it is leaked 100 times. Do ifconfig wlan0 down so wifi is disabled.
+
+Then you change the mac adress and go to a public wifi, then you do ifconfig wlan0 up. 
+
+This way your original mac adress is not leaked anywhere except near your house, but that is no problem.
+"""]]

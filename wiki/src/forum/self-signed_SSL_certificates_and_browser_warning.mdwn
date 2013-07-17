@@ -1,0 +1,7 @@
+hi
+
+tails browser gives a warning everytime an attempt to visit an SSL supporting website is visited with its certificate being self-signed.
+
+Does using a self-signed certificate on a website necessarily indicate rouge activity?
+
+How can you tell which warning is genuine and which is false positive?

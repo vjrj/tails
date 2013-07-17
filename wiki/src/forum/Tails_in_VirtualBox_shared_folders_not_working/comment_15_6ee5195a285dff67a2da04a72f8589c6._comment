@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Why USB sticks might not be working"
+ date="2013-05-24T08:43:51Z"
+ content="""
+I tried two different USB sticks this morning.
+One did work out in the end ( I could see it within the tails file browser and store a file on it); the other did not.
+The one that worked ... was formatted with ext3; the other one was formatted with ntfs.
+
+Another observation: right now I am running my laptop within a docking station; and although I plugged the USB stick in the same location; I am unable to get the USB stick to show up for VirtualBox. So maybe there are a lot of subtle differences that determine wether one can use a USB stick as workaround for the defunct shared folders.
+
+
+"""]]

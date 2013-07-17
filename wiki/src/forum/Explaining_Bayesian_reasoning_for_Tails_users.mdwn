@@ -1,0 +1,99 @@
+Many design decisions in Tor and Tails involve trade offs of one kind or another.  Perhaps the most notable example of this is the policy by which each Tor client chooses among a list of three Entry Guards for the first hop in each three hop Tor circuit, and only slowly rotates to a new list of Entry Guards.   The rationale for this policy arises from an interesting argument involving Bayes's theorem and so-called "Chernoff bounds" in information theory, an argument which leads to the conclusion that, counterintuitive as it sounds, sticking to a small set of Entry guards reduces the risk of a successful traffic confirmation attack, over the long term.
+
+I think it is important for Tails users (and Tor users generally) to understand the basis for such reasoning.  Here is a simpler example of similar reasoning which arises from analyzing a situation which many of us have encountered.
+
+Have you ever created an account at one of those websites which stupidly insist upon emailing to you in clear text your new password whenever you change it?  This leads to the following question:  
+
+Suppose you can choose passwords from among N passwords, where N is limited by forum restrictions which may allow only 8 character passwords, where each character must be alphanumeric, for example.  
+
+Assume that if you never change the password, there is a risk of compromise arising from an adversary who is constantly brute forcing the hashed passwords in hope of breaking into accounts.  So you might want to randomly change to another password (as strong as the forum will allow) every so often.  But if the new password is emailed in the clear, changing the password is itself risky.  So which strategy is better?:
+
+* choose a password and then leave it be
+* randomly choose a new password every week
+
+We can model the two strategies as two absorbing Markov chains, with N non-absorbing states for the N possible passwords and an absorbing state for "pwned!", where every week our Markov chain may or may not change to a new state (a password, or "pwned!").
+
+Suppose that whatever your current password, in the next week you will be pwned with probability 0 < q < 1.  And if you change you will be pwned with probability 0 < p < 1.  Then the mean time to compromise is
+
+* "randomly choose new password every week": (1+p)/(q+p) weeks
+* "keep old password forever": 1/q weeks
+
+This is independent of N.  (We could also compute the standard error associated with each strategy, and much more.)
+  
+But
+
+    1/q - (1+p)/(q+p) = (p/q) (1-q)/(p+q) > 0 for 0 < p,q < 1
+
+So no matter how small is p, *it is always better to keep your existing password!*
+
+This argument shows how absurd it is for websites to email new passwords in the clear because no matter how small you think the chance is that an adversary will intercept your new password, it is better to *not* change your password, which is obviously also risky.  The arguments show that *websites which insist on emailing new passwords in the clear are guaranteeing that users cannot maintain possibly secure accounts in the long term* because their maximal time to pwnage is obtained when they keep their old password until, inevitably, our brute forcing adversary finds this password.
+
+(Strictly speaking, I have overlooked the possibility that switching to a new password every week, chosen according to a nonuniform distribution, will be better than either of the strategies considered so far.  Or using a different nonuniform distribution every week... But I wanted to keep this simple.)
+
+If you follow current events, you probably noticed that this problem is essentially the same as the situation faced by a fugitive who can hide in one of N equally good hideouts, and who can randomly change to any other hideout every hour, at some risk of being captured while racing to the new hideout, or who can stay put at the risk of the searchers eventually stumbling over the hideout where he is hiding.  In this situation, most people's intuition is that the fugitive should stay put, and the Markov chain argument verifies that this really is the best strategy, *assuming* all hideouts are equally good (or bad), and that there is some constant risk in moving from any one hideout to any other (an assumption which is particularly suspect).
+
+Switching to the perspective of "the authorities", we recall that Tor arose in the US Office of Naval Research.  Institutional lore has it that one of ONR's contributions to American victory in the war at sea (during World War II) was to use Bayesian reasoning to help aerial searchers find and destroy submarines more efficiently.
+
+Since this is the same kind of Bayesian reasoning which is involved in analyzing traffic confirmation attacks, or certain strategies for password forcing, I think it is worthwhile to explain ONR's approach to search (which is also applicable to brute forcing passwords from a list of hashed passwords).
+
+Suppose there are three regions where we can search, and we have only limited search resources.  Specifically suppose that each hour we can search one region so thoroughly that we have an 80% chance of finding the sub if it is hiding there, or 40% each if we search two regions.
+
+Suppose we initially guess the following probabilities that the sub is in each region:
+
+    p(H1) = 0.9, p(H2) = 0.05, p(H3) = 0.05
+
+That is our "prior".  To maximize our chance of success in the first hour of search, we should put all our resources into searching region 1:
+
+    p(S|H1) = 0.8, p(S|H2) = 0, p(S|H3) = 0
+
+That is, we certainly won't find the sub if it is in regions 2 or 3 because we aren't searching there at all in the first hour, but we have an 80% chance of finding it if, as we initially suspect is very likely, it is in region 1.
+
+The chance of success in the first hour (*assuming* our initial guess is not too far wrong) is
+
+    p(S) = p(S|H1) p(H1) + p(S|H2) p(H2) + p(S|H3) p(H3)
+         = 0.72
+
+(S stands for "success", H1 for the hypothesis "sub in region 1", etc.)  
+
+That looks promising!  But suppose that in the first hour we fail to find the sub.  Intuitively, this suggests that our initial guess about the most likely location of the sub was probably wrong, and we should refocus our search effort in the next hour on the other two regions.
+
+To be precise, Bayes's theorem says that
+
+     p(H1|~S) = p(~S|H1) p(H1) /p(~S)
+
+where
+
+     p(~S) = 1-p(S)
+     p(~S|H1) = 1 - p(S|H1)
+
+Our new guesses are
+
+     p(H1|~S) = 0.643, p(H2|~S) = 0.179, p(H3|~S) = 0.179
+
+Perhaps to our surprise, Bayes's theorem says that H1 is still most likely by far, so we keep our search strategy from the first hour, which has an estimated chance of success in second hour of only 0.514.  
+
+Suppose we fail to find the sub in the second hour.  Using Bayes's theorem again with our revised guesses for p(H1), p(H2), p(H3), we find the new estimates
+
+    p(H1|~S) = 0.265, p(H2|~S) = 0.368, p(H3|~S) = 0.368
+
+This suggests that we should change our search strategy for third hour to 
+
+    p(S|H1) = 0, p(S|H2) = 0.4, p(S|H3) = 0.4
+
+Our estimated chance of success in the third hour of search is only 0.294.
+
+Suppose we fail to find the sub in the third hour.  Our new guesses are 
+
+    p(H1|~S) = 0.375, p(H2|~S) = 0.313, p(H3|~S) = 0.313
+
+These are all rather close to 1/3, which intuitively would mean that we "don't have a clue" which region the sub is hiding in.  So our repeated failures to find the sub in three hours of searching have led us to conclude, using Bayesian reasoning, that we really don't have a very good idea after all of where the sub might be.  That probably agrees with our intuition!
+
+We might contemplate switching to a "mixed" search strategy such as
+
+     p(S|H1) = 0.3, p(S|H2) = 0.25, p(S|H3) = 0.25
+
+If our "prior" was reliable this would lead to a smaller estimated chance of success in the next hour of search than stubbornly focusing all our effort in region one, but by now we might suspect that our prior from the first hour was a very bad guess.  We might also decide to abandon the search entirely since our estimated chance of success in the fourth hour are not promising.
+
+You probably noticed that I didn't say whether I am assuming that the sub remains in the same region throughout our search, or is a moving target.  Even such simple questions lead us into the philosophy of probability and the infamously difficult question of the "true meaning" of Bayes's theorem.
+
+It is possible to average over all possible priors to find good search strategies for each hour.  In more sophisticated search models, numerical methods may be more efficient than exact computations, and the favored method for such numerical methods, Markov Chain Monte Carlo, again uses Markov chains!  But this leads to new difficulties; coping with them is an area of active research, as they say.  Supercomputers can help, especially if they are integrated into the data center.

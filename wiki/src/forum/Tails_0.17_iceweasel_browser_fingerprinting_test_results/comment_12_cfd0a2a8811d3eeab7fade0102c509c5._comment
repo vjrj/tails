@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-04-18T23:29:02Z"
+ content="""
+At least two problems with that suggestion:
+
+
+First: 
+
+> FIREGLOVE firefox and ice wheal [iceweasel] extension (addon) make all the users *unique*.
+
+That is exactly the opposite of what everyone else wants.  Everyone else wants all Tor users to be mutually indistinguishable.  Maybe you simply misspoke.
+
+Second:
+
+Installing random add-ons is dangerous because any one of them could break security/anonymity features of Tails.  Further, real world attempted MITM attacks have specifically targeted the mozilla add-ons server using stolen but genuine certificates.
+"""]]

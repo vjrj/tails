@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 23"
+ date="2013-04-12T18:58:02Z"
+ content="""
+>Can you explain in more detail exactly how you \"launched Iceweasel\"?
+
+Just to be clear, in addition to the previous answer to the same question, this issue first happens when iceweasel auto-runs once a network connection is established and vidalia has
+started. For the purpose of further testing I closed the iceweasel window that just had been auto-run, and launched iceweasel (in the manner described earlier), and repeated this procedure to note differences (I already explained that in comment 7
+"""]]

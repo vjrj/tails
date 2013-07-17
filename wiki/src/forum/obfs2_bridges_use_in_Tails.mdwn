@@ -1,0 +1,11 @@
+were i to use obfs2 bridges in tails, i just add them to torrc and vidalia, also adding usebridges 1 to torrc?
+
+or do i also need to include:
+
+Bridge websocket 0.0.1.0:1
+
+to torrc? is obfs3 supported if added to torrc line for ClientTransportPlugin?
+
+this is for acting only as a client. 
+
+thanks

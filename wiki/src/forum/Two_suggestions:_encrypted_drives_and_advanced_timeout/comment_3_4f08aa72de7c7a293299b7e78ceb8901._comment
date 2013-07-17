@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-05-11T15:38:09Z"
- content="""
-If bookmarks are the thing you miss with the current persistence system, then it is a [[known missing features|todo/persistence_preset_-_bookmarks]]. Do you want to [[help implementing it|contribute]]?
-"""]]

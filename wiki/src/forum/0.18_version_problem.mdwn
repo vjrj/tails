@@ -1,0 +1,1 @@
+When I start 0.18 with another USB plugged in, I get the version warning. I'm booting Tails from USB and the other USB has 2 partitions, 1 is encrypted. Tails boots to 0.18 fine without the other USB.

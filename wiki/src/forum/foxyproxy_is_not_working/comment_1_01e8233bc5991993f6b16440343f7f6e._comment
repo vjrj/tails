@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-25T13:53:09Z"
+ content="""
+Which kind of proxy are you trying to add? Remember that the firewall will drop direct connections to the Internet. So that might be why FoxyProxy doesn't behave as you expect.
+
+No need to say that playing around with the list of proxies my break your anonymity.
+
+"""]]

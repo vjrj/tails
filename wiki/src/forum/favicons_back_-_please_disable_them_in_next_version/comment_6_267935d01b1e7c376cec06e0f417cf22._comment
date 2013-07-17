@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 6"
+ date="2013-05-28T09:16:24Z"
+ content="""
+> Not quite the same as infection from a favicon, but perhaps close enough to illustrate the potential danger
+
+This example merely illustrates that there may be untrusted, dangerous content loaded by a web browser, and that web sites can be easily hacked when admin'ed without security in mind. That's how things are, and Tails won't change it. The task of a web browser is to deal with that state of things, and disabling favicons won't help much.
+
+Let's go back to the topic, if anyone has relevant information to add, or close it, else.
+
+"""]]

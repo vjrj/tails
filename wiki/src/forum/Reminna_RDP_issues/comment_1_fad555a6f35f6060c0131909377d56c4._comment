@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-11T21:08:57Z"
+ content="""
+Are you sure that Reminna will go through a Tor circuit?
+
+Maybe a naive suggestion, but if not, could the personal firewall on your Tor system be blocking it?
+
+(In other threads here, \"Tails\" confirmed that a Tails system does have a personal firewall, and in fact that is one way in which Tails tries to block untorified clients from destroying your anonymity while using Tails.)
+"""]]

@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-22T14:20:35Z"
+ content="""
+> @ \"Tails\": how will Wheezy be incorporated into next edition of Tails?
+
+I heard that there is no working Tails Greeter for wheezy yet, and that no plans on how it should be implemented is done yet. There is probably other issues as well, but it means it is highly unlikely that wheezy will be used for the next few Tails releases.
+
+> gnome3
+
+Tails will likely not use GNOME Shell, but stick with the legacy gnome-panel, at least for starters.
+
+> ipv6
+
+Tails and Tor doesn't support IPv6 yet.
+
+> html-5
+
+Already fully supported by Tails.
+
+> firmware
+
+Tails is already using the kernel and firmware from wheezy.
+
+> I read on the internet that customers accessing the internet via VPN can leak IP addresses if they are using IPv6 instead of IPv4. Is that correct? If it is, will the same happen to Tails' users?
+
+IPv6 is not supported by Tor and Tails, and it has been verified by Tails developers that IPv6 is not leaking.
+
+There is almost no similarities between Tor and VPN on how they work.
+"""]]

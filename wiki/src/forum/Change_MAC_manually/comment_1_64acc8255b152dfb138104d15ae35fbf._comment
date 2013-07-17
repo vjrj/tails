@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-14T21:01:59Z"
- content="""
-Curious about this as well, because the MAC would have to be changed prior to the boot correct for your original MAC not to be leaked?
-
-Would you have to worry about a hostname with Tails?
-"""]]

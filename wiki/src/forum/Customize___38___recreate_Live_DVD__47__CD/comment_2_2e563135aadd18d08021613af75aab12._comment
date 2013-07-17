@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-05-19T05:48:57Z"
- content="""
-Building from source is an impossible task for me. I checked out customize tails page & debian manual, but it went over my head. :( Was hoping if there was way to make customized tails ISO while running from Live Tails. I really dont want many of the stuff provided like gimp, inkscape, etc and would like to have VLC. That would also reduce the size and will then fit in a CD.
-"""]]

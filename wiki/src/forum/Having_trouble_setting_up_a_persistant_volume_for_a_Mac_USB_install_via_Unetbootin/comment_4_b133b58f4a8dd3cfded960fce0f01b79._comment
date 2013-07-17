@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-10-19T17:48:15Z"
- content="""
-I agree with the OP.  While I understand that the Tails USB Installer is the preferred way of doing it, the reality is... A Tails USB stick created that way will not boot on a Mac (at least not mine, and apparently I'm not alone).
-"""]]

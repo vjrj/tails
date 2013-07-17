@@ -1,0 +1,46 @@
+<font color="red"><b>WARNING!</b><br>
+The following instructions can lead you into a case of DANGER if misused, as it involves having an admin password EVERY time you want to use TAILS with this card. Use it at your own risk, and remember that you actually were warned.</font>
+<p>
+Lately I've bought a new Lenovo Yoga Convertible Laptop, and it's pretty cool (actually Win8 makes touchscreen exprience even more cool), but it's USB2.0 Wi-Fi card has very limited support on Linux. Realtek actually ships driver source that can be built and used, but it can be quite challenging when using TAILS.
+<p>
+<b>Prerequisitions</b>
+A tails install that is capable of persistence and networking (I've used a virtual machine (at least 1,5 gig memory is needed))<br>
+The driver can be downloaded there: http://www.mediafire.com/?sanq19s3vv1d9c9<br>
+<b>Step 1: Installing the needed software</b><br>
+1. Login (with admin password set)<br>
+2. Unpack the Wi-Fi driver folder anywhere<br>
+3. Run terminal<br>
+4. $sudo su (or $sudo bash)<br>
+5. #cd /your/unpack/path<br>
+6. #apt-get update (THIS CAN TAKE A LONG TIME!)<br>
+7. #apt-get install gcc-4.4 make checkinstall fakeroot linux-headers-$(uname -r) (THIS CAN TAKE A VEEEEERY LONG TIME)<br>
+8. #ln -s /usr/bin/gcc-4.4 /usr/bin/gcc-4.6 (the tricky and risky step)<br>
+<b>Step 2: Building and packaging the driver</b><br>
+1. In your driver directory: #make<br>
+2. After it has compiled: #checkinstall (feel free to change the package information fields)<br>
+<b>Step 3: Creating an autoinstall script</b><br>
+This script is needed to start your Wi-Fi card every time you boot, because all the installed software will reset after reboot <br>
+1. In your driver directory will be a .deb package file. Copy it to some separate persistent folder, and remane it to something human-readable.<br>
+2. Now, create a shell script that will ask for root rigths, install the package and then modprobe the newely installed module.<br>
+My script contains the following:
+<pre>
+#!/bin/bash
+
+if [ $(whoami) = "amnesia" ]; then
+	gksudo bash ${0}
+	exit 0
+fi
+
+cd ${0%/*}
+
+echo "Installing package..."
+dpkg -i wifienabler.deb
+
+echo "Modprobing..."
+modprobe 8723au
+
+echo "Wifi should now work!"
+</pre>
+If it's run, it will graphically prompt for admin password, then istall the package, and modprobe the module.<br>
+I've actually embedded the base64 version of the package into the script, so it's now completely single-file.<br>
+Cheers, and sorry for my bad english.

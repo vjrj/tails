@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2013-05-25T10:49:04Z"
+ content="""
+> SO.....IS TAILS STILL SAFE TO USE AFTER RECEIVING THIS MESSAGE??!
+
+Yes.
+
+1. This message have nothing to do with whether Tor is used or not. Tor is always used. I am regulary verifying this with Wireshark.
+
+2. This message means you are about to leave a HTTPS site and enter a HTTP site. This message didn't use to appear before. Tails developers recently made changes to the browser configuration (moved it to fix bugs), it is probably this that enabled this unnecessary message.
+
+HTTP is never end-to-end encrypted. So the message is right. However it is still going through the Tor network (with the encryption and anonymity the Tor network provides).
+
+Onion-sites is always end-to-end encrypted, regardless of HTTP/HTTPS. Firefox does not know that however.
+"""]]

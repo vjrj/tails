@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Use a separate PC for TOR"
- date="2012-04-28T20:39:01Z"
- content="""
-You could use a separate PC (if you can afford one). Use a netbook for all tor related activity and a separate PC for your normal internet activity. As long as you don't use the tor pc on any non-tor internet connection, no one should be able to link one account to the other. 
-"""]]

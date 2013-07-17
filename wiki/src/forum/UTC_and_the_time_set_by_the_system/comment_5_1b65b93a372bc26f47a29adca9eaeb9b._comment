@@ -1,0 +1,34 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-05-13T11:37:06Z"
+ content="""
+I am the original poster. This might sound silly, but I need to make sure that I have correctly understood what should be happening ...
+
+On the machine I am using now, Tails booted up and set the system clock so that it shows 11:22 AM Monday May 13 at the top of the screen. When I look at the output for
+
+    date
+I get
+
+    date
+    Mon May 13 11:22:56 UTC 2013
+That is, it sets the _timezone_ to UTC timezone and sets the clock to the correct UTC time. On another machine, I have booted Tails and followed the output of date. Immediately the system boots, the output is
+
+    date
+    Mon May 13 17:15:15 EDT 2013
+but that changes as soon as the message \"Setting the system clock appears\" to
+
+    date
+    Mon May 13 08:30:01 EDT 2013
+
+Neither of those times is actually EDT, so obviously the corresponding UTC is also incorrect. Then, as Vidalia starts up, and the message \"Setting the system clock\" disappears, the system clock is set to
+
+    date
+    Mon May 13 07:16:09 EDT 2013
+which is the true EDT at that time ... corresponding to (correct) UTC of Mon May 13 11:16:09 . So it seems that it is the _timezone_ rather than the time, as such, that is wrong. 
+
+So, I should correct my original comment about the time always being wrong. On 40% of occasions, the timezone is set to EDT with the corresponding correct time (UTC-4). Going back to my question in the original post (sorry to be pedantic) ... should Tails be doing two things correctly: (1) setting the _timezone_ of the system be set to UTC, and (2) getting the UTC correct?
+
+You can see that my questions reflect the fact that the purpose of the clock-setting is not obvious. I assumed (possibly incorrectly) that it was so that all Tails users, irrespective of where they are and what exit-node they have, appear identical, thereby preventing an inference about the actual timezone of the user. 
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-25T13:26:26Z"
+ content="""
+Hey Tails,
+
+Thanks to the team for all your hard work.  Instead of inflicting the widely-reviled (hated) Gnome3 on us, have you considered using one of the popular and maintained Gnome2 forks such as Mate?
+
+Indeed, failing that, Xfce would be far preferable to Gnome 3 and is completely compatible with mainstream Debian repo packages I think so shouldn't be at all hard to build in.
+
+
+"""]]

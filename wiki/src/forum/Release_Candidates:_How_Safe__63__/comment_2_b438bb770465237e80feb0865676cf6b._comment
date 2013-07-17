@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-09T00:11:34Z"
+ content="""
+>If so, I would suggest that this be explicitly added to the warning.
+
+Did you overlook this:
+
+>**Keep in mind that this is a test image.** We have made sure that it is not broken in an obvious way, but it might still contain undiscovered issues. 
+"""]]

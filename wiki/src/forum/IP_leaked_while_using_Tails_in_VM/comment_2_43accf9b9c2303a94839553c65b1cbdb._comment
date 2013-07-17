@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-14T08:57:25Z"
+ content="""
+>Is it possible for a VPN to track its user's traffic?
+
+Can't see how that *wouldn't* be possible.
+
+But if using Tails, a VPN should only be able to see that you are using Tor.
+
+Regarding ip-check.info, it doesn't use HTTP*S*, so I don't see what could stop an exit node from MITM or otherwise intercepting/injecting, thereby poisoning the purported results.
+"""]]

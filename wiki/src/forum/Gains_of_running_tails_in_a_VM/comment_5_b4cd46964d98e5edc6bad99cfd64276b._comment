@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 5"
+ date="2013-05-24T10:09:44Z"
+ content="""
+Tails and Whonix are different projects that we see as complementary since they try to solve different use cases. Tails is a live system, you can use it anywhere, it's amnesic and leaves no trace. Whonix is a general purpose operating system, that enforces Tor, and prevents leaks.
+
+
+So they are different because they answer to different questions. But we support this project, and are in good terms with the main person developing Whonix, who is participating on our mailing list.
+
+For more info, have a look at the [comparison between Whonix, Tails, and Tor Browser Bundle](http://sourceforge.net/p/whonix/wiki/Comparison%20with%20Others/) on the Whonix website.
+"""]]

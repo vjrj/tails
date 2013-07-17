@@ -1,9 +1,0 @@
-For TAILS version 0.11:
-
-In an Ubuntu 11.04 Live CD environment, syslinux was default, and the first command with isohybrid worked fine and using the diff command the copied ISO differed from the downloaded ISO.
-
-However, the second command, cat [ISO] > /dev/sdX && sync did not work at all after checking and using the correct device name with System>Administration>Disk Utility.
-
-What did work, as always, was the dd command:
-
-    dd if=tails-0.11.iso of=/dev/sdX

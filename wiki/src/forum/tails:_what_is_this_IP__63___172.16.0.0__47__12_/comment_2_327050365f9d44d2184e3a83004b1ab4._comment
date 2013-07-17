@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-05T14:49:45Z"
+ content="""
+172.16.0.0./12 indicates a range of private IP addresses on one of the designated private networks on the computer running Tails.  
+
+Supposedly there is no way in which packets sent on private networks can escape to the internet (absent setting up a NAT gateway), but it seems there is a loophole by which private IPv4 addresses can *also* be valid external addresses.  I don't understand that so I'll leave it to others to comment if they know more.
+
+The Wikipedia article
+
+      https://en.wikipedia.org/wiki/Private_network
+
+lists the ipv4 ranges which are reserved for private subnetworks on any computer.  The best known is probably 192.168.0.0/16.  For example, consumer grade routers often assign themselves standard local IPs such as 192.168.1.0 and then use DHCP to assign local IP addresses to any computers on your LAN.
+"""]]

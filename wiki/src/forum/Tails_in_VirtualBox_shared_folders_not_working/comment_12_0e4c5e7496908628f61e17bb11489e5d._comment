@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-05-07T19:37:49Z"
+ content="""
+Current annoucement of the 0.18 release does not indicate that this issue will be fixed. Personally I'm still using 0.17 just due to this issue.
+
+I still didn't fully understand the issue: Why did the module build break and how can we support to fix this?
+"""]]

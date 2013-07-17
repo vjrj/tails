@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Gnome file manager (nautilus) sucks"
- date="2012-04-23T10:16:49Z"
- content="""
-File find is outrageous minimalist, list does not show path, right click have no open folder options, properties truncate path (not just in view) but de facto making select of it useless, resizing properties dialog only takes up more space, information still unchanged and you cant see the file path anyway... can it be worst?
-
-this IS TOTALLY USELESS!
-"""]]

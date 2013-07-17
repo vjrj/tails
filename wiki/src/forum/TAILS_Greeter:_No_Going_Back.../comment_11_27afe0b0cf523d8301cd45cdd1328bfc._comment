@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="to OP: there is a way back"
+ date="2013-05-09T13:17:42Z"
+ content="""
+applications > system tools > system monitor > processes (tab) > x-session-manager (process name) > press end process
+
+
+"""]]

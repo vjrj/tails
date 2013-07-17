@@ -1,0 +1,54 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-04T08:10:09Z"
+ content="""
+Assuming you have some devices connected to the internet via a consumer grade router, your router may have a firewall protecting your LAN.  If you do *not* use tor and surf to the \"Shields Up!\" site you can scan your router from outside.
+
+You probably are asking about the personal firewall on your Tails system (which obviously cannot control the router firewall if any!).
+
+If you own or can borrow a second computer you can put on your LAN, try scanning the computer running Tails from the second computer, like this:
+
+* boot Tails, giving a root password
+* live install iftop
+* find local IP address of computer running Tails, e.g. 192.168.1.2 using
+
+      netstat -anp | grep EST
+
+* disconnect LAN from internet
+* boot second computer which can run nmap and which is connected to the same router (many Linux live CDs include nmap, as does the Tails DVD)
+* in a root terminal on computer running Tails
+
+      sudo iftop -Pn
+
+* in the second computer, perform a SYN scan on computer running Tails:
+
+      nmap -sS -r -p 22,53,80,110,110,123,143,194,443,631 192.168.1.2
+      nmap -sS -r -p 992-995,1099,1194,2000,2049,5022,5269 192.168.1.2
+      nmap -sS -r -p 5353,8080,8118,9050,9051 192.168.1.2
+
+(these include the ports used by SSH, HTTP, Jabber IRC server and client, mdns, privoxy, tor-socksport, tor-controlport)
+
+* perform other scans, e.g. for a UDP scan replace -sS by -sU
+* if time permits, scan all the ports:
+
+      nmap -sS -r -p1-65535 192.168.1.2
+
+* for many other suggestions see
+
+      man nmap 
+
+As you do the scans, you can use iftop in the computer running Tails to verify that Tails is not responding to UDP packets in particular.  The -r flag means that the ports will be scanned in sequence, which can help in seeing how far from completion is the scan if you are scanning all the ports.  Scanning UDP ports takes longer than scanning TCP ports.
+
+The result I obtained is that *all ports are filtered*, i.e. Tails system doesn't respond at all to the scanning machine.  The only thing another machine on your LAN can find out is that the computer running Tails is up and what is MAC address is.  I obtained this result for both Tails 0.16.2 booted from a R/O DVD and from a USB stick.
+
+I believe this is the best outcome you could possibly hope for.  If you try scanning your router itself you will probably see that the scanning machine finds some open ports and also some closed ones.  Ports which nmap reports as \"filtered\" are ones from which nmap didn't get any response at all.
+
+A firewall alone is no guarantee of security.  Also important (especially if you usually enable a root password, or if you use a persistent Tails) is to ensure your shadow file is well protected.  Here Tails could do better by using SHA-512 hashing with a huge number of rounds.  Even better if you change to your own huge and unpredictable number of rounds, I think.  (This should provide good protection against rainbow tables if your hashed passwords somehow become known to an attacker.) In both Debian Squeeze and Wheezy I believe you can do this by changing a line in 
+
+     /etc/pam.d/common-password
+
+and then changing your passwords using the passwd command as root user.  The man page probably gives the details.
+
+
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 3"
+ date="2013-05-13T01:32:27Z"
+ content="""
+That would indeed be a bug. Possibly some of the websites in our htpdate pool report non-UTC times, but for a 40% failure rate that would be too many so that I'm skeptical that's the reason. Please try reproducing this (by repeatedly rebooting Tails) and file a [[proper bug report|doc/first_steps/bug_reporting]] including the contents of `/var/log/htpdate.log` when you hit the bug.
+"""]]

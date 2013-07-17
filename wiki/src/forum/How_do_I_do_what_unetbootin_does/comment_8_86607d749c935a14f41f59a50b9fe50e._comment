@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Ryan__von__Schwedler"
- ip="127.0.0.1"
- subject="boot flag in 0.12.1"
- date="2012-07-15T02:53:12Z"
- content="""
-Has Gparted been removed from newest Tails?  I am having trouble flagging my OS partition for boot in Disk Utility within 12.1.  Other than that, direction above for creating a USB installer still work great including crypt setup.
-"""]]

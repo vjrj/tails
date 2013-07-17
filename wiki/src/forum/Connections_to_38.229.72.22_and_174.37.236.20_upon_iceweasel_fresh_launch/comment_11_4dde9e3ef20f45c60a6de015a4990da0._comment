@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-04-09T20:42:54Z"
+ content="""
+re:comment10
+
+There are different ways. Here is a simple one for the case in this thread:
+
+right click the green onion icon at the upper right corner of the screen, click network map. Close all iceweasel windows. Now, open iceweasel and look into the connection box in network map and notice what connections come up when you launch iceweasel.
+
+You can repeat this procedure to take note of any changes or new connections. Can you see the same strange connections?
+"""]]
