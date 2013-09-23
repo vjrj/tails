@@ -1,7 +1,0 @@
-Alright I'm having some difficulty preventing nearby hotspots for taking my MAC address. I use a Acer Aspire One, and I understand how macchanger works. This is my situation:
-
-I need the wifi disabled before it sents out information to the hotspots nearby. My computer has a Wifi hardware toggle switch. Great right? The issue is it doesn't seem to work on boot. So I decided to turn off wifi while in Tails. This surprisingly works, however I can never re-enable it. Now it kind'of defeats the purpose to disable in Tails then re-enable because before I disable info is leaked. So I thought to myself the wifi being disabled would save for next reboot. Nope, everything returns to original settings and I have to repeat the process again...which doesn't help.
-
-Is there anyway I can use my Wifi toggle switch on an AspireOne model to disable my wlan0? Or to at-least save the disabling of wifi for next bootup? If I can do the latter, how would I re-enable wifi while in Tails?
-
-Please help!

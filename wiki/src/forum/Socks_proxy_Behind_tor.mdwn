@@ -1,7 +1,0 @@
-Hi guys,
-I don't know what I'm missing, but I can't figure out how to set a SOCKS proxy after the last TOR node, like this: 
-
-Me -> TOR -> SOCKS -> Destination
-
-It seems 'proxychains' could be useful for that, but somehow I have no idea how to use it the right way.
-Thanks for any input.

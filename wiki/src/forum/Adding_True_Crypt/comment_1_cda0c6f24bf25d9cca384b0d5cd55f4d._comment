@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-13T00:05:32Z"
- content="""
-This is already [[documented|doc/encryption_and_privacy/truecrypt]].
-
-"""]]
