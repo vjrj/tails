@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-02T09:31:47Z"
- content="""
-The persistence is buggy when used on 32GB USB sticks. See [[bugs/persistent_volume_creation_fails_with_big_disks]]. Can you reproduce the same bug when using a 4GB o 8GB USB stick?
-"""]]

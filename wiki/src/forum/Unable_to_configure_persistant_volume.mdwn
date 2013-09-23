@@ -1,1 +1,0 @@
-When I try to configure a persistant volume I get an error message that reads "Device /org/freedesktop/UDisks/devices/sdc was not created using Tails USB installer."  Does anyone know what this means, or how to remedy this problem?

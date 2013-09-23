@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-07-28T09:13:24Z"
- content="""
-Essentially these are the same reasons why people use virtualization at all, in our case we just have a not so common host os. You could work with more operation systems at the same time and different projects or identities which you can keep separated. If you use the Live DVD you can only use Tails and nothing else on this PC. Many people are used to work with windows, ubuntu ... because they offer more programs and comfort. I know security = comfort^-1 but the host os should be fairly secure and the internet conncection on each guest goes over tor.
-
-"""]]

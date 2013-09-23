@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-30T13:30:53Z"
- content="""
-A judiciously placed hack and audio does indeed work fine (tested with the wikipedia IPA TTS (text-to-speech) bookmarklet - though this runs audacity to play the sound which is a tad odd, ref. [http://courses.washington.edu/englhtml/engl382/testsoundsupport.html](http://courses.washington.edu/englhtml/engl382/testsoundsupport.html)).
-"""]]

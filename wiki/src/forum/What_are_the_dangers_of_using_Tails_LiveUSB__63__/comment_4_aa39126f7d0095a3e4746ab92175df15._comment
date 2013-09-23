@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-08T08:26:41Z"
- content="""
->Are there any malware that operate/exist at the BIOS level such that when I am booting Tails from the USB drive, they infect my USB stick?
-
-\"root kits\" spring to mind. Bear in mind that such software *could* pwn your Tails *session* even if it's impossible to modify your Tails medium. In such an environment you should also consider the threat of *hardware* devices such as keyloggers - this sort of attack is sometimes discovered in public libraries, internet cafés, etc
-"""]]

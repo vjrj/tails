@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-09-04T13:00:59Z"
- content="""
->Has anyone investigated the write prevention of USB sticks?
-
-[This](http://www.fencepost.net/2010/03/usb-flash-drives-with-hardware-write-protection/) looks like an excellent place to start.
-"""]]
