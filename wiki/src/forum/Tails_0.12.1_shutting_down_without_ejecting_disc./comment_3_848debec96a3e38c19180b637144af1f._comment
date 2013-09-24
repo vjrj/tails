@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="0.12.1 shutting down without ejecting disc. "
- date="2012-07-19T14:32:57Z"
- content="""
-All previous versions worked in my case but I'm experiencing the same problem the OP has. It's not that big of a deal but it was nice to not have to boot again just to eject the DVD. I too wondered if the memory wipe was completing correctly, so thank you for answering that.
-"""]]

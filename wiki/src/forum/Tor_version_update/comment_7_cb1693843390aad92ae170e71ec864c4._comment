@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-09-14T04:16:38Z"
- content="""
-I think the reason they wait so long to patch security holes in Tails is so the authorities can take advantage of it for awhile, why else would they wait so long to give critical updates?
-
-I swear everytime I start tails its always connecting to the same nodes caoscomputerclub, bigboy, ect located in germany the US and UK, ect how is this supposed to be anon if its always connecting to the same nodes, like the list is the same nodes over and over again in the view network panel,even if I restart tor or restart tails always the same nodes? why doesn't it mix it up? but this only happens with Old Tor versions, so im thinking it is a security issue that is being taken advantage of.........
-"""]]
