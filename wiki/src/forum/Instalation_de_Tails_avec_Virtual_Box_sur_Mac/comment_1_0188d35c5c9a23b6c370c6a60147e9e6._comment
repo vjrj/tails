@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-22T15:44:55Z"
+ content="""
+C'est l'installation de VirtualBox sur un Mac ou l'utilisation de Tails via VirtualBox qui pose problème?
+
+Détaille  un peu les différentes manipulations effectuées et les problèmes recontrés, parceque là... :
+[Comment signaler efficacement un bug](http://www.chiark.greenend.org.uk/~sgtatham/bugs-fr.html)
+
+(PS: Tu as plus de chance d'obtenir des réponses en écrivant en anglais. C'est triste, mais c'est come ça)
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="LUKS"
+ date="2012-01-22T18:29:38Z"
+ content="""
+Tails documentation explains how to create LUKS volumes.
+Such volumes have all the needed information (cipher, key size, hash, etc.) encapsulated in their header. So I think FreeOTFE should only be told to consider them as LUKS, and do its job. If you have to specify anything else than LUKS and the passphrase, something is not going well.
+
+"""]]

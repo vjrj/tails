@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-03-14T11:19:34Z"
+ content="""
+In saying Tails does wipe DOM, are you referring to RAM wipe done at shutdown or when starting iceweasel over again?
+"""]]

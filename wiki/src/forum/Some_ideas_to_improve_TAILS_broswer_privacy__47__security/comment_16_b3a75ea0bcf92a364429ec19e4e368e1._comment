@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-02-08T12:15:26Z"
+ content="""
+> Tor DOES NOT anonymize MAC address
+
+> But, yeah, MAC adress is not anonymous, ...
+
+So, can you tell in what way the MAC address is not anonymous?
+Who sees it, why, and why is that bad?
+
+In my world it is anonymized just as well as IP address is:
+
+The servers you are contacting cannot see your MAC address,
+they cannot figure it out without compromising your computer.
+Same goes for IP address.
+
+At the worst case only the first hop in the Tor network
+knows your IP and MAC address. In fact your MAC address
+usually do not go further than to your ISP, if even that.
+
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-09-16T08:06:06Z"
+ content="""
+If I was to commit anything *really* sensitive to a flash device I'd encrypt it first and only write the ciphertext to the device. Failing that, I'd empty then fill the entire *block device* a couple of times with data from /dev/urandom or destroy the medium - depends on the threat.
+
+"""]]

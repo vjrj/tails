@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-26T04:33:50Z"
+ content="""
+If im not mistaken liberte already has implemented auto-mac randomization. Albiet that does not help to disguise the mac address as \"legitimate\" it does at least remove ones actual mac address from the record. Why is it tails cannot adopt their method?
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="When one launches the Tor Browser Bundle, all network connections will have to go through Tor, including those of third-party applications, am I right?"
+ date="2012-09-05T04:48:06Z"
+ content="""
+Yes, but AdvOR (Advanced Onion Router) uses this functionality. AdvOR is much better because thru it you can download even torrents anonymously. It is akin to a combination of VPN+TOR. TOR/TAILS should implement their design into their softwares.
+"""]]

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-22T21:57:52Z"
+ content="""
+I don't really see how this would confuse adverseries, as usernames are not something that is ever transmitted over the web, and if an adversary has gotten enough control over your machine that they can see your username then you're pretty screwd anyway.
+"""]]

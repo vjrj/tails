@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="iceweasel do not start"
+ date="2012-08-18T10:32:35Z"
+ content="""
+same issue here, with error message different :
+
+--------------------------------------------------------------------------------
+$iceweasel -safe -mode
+failed to create drawable
+
+(firefox-bin:3922): Bonobo-WARNING **: Bonobo must be initialised before use
+
+--------------------------------------------------------------------------------
+
+also tried to start from usbkey in safe mode with no effect
+"""]]

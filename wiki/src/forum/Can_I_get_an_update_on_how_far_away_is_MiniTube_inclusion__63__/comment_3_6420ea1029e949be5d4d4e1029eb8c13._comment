@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-30T14:47:26Z"
+ content="""
+> I am guessing this means youtube will not actually be streaming through the tor network, then?
+
+No. Minitube's network traffic will go through Tor. See [[about]].
+
+"""]]

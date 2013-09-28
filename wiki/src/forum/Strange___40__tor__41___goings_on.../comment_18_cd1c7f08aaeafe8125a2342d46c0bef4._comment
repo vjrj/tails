@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-10-22T14:56:18Z"
+ content="""
+That is, risky in the sense that it might cause a breakage on a system which is modified from stock Debian Live.  
+
+I may be wrong, but I say this because apt-get upgrade has caused breakages for me on another Debian-derived livecd.   This would depend on how close Tails actually is to Debian Squeeze.  I stand ready to be corrected if need be.
+"""]]

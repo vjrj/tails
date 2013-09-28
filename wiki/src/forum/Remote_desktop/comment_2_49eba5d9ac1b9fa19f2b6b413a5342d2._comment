@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-12T21:03:37Z"
+ content="""
+It worked perfect! Thanks!
+I got rdesktop installed and worked.
+
+But after reboot the system rolled back. Like it was in the very beginning.
+What did i do wrong?
+
+Tails is on a usb-flash(stick) + notebook.
+
+"""]]

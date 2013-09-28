@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-08T12:10:42Z"
+ content="""
+See [[support/known_issues]] and [[todo/fix_virtualbox_guest_modules_build]].
+Sorry for the inconvenience. Help [[is welcome|contribute]].
+"""]]

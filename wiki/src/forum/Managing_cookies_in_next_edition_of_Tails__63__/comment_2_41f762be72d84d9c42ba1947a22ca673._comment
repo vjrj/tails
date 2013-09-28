@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-23T23:02:45Z"
+ content="""
+@ OP
+
+As I understand it, Tails does not use FF but Iceweasel, a modified version of FF. Perhaps the problems that you described in your post will not happen to users of Iceweasel?
+
+Could Tails' developers shed some light please?
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="you time waste! here's how"
+ date="2013-05-23T21:54:14Z"
+ content="""
+YouTube will only let you play some HTML5 videos even though they are available to Flash Video Downloader. With FVD you can also get it in lower quality formats that can stream over Tor and don't suck so much bandwidth from the network. If it does play in the browser you may want to stop it so you can download a lower quality. To stop the download right-click twice on the video playing in the browser, and click \"stop download\". 
+
+Click next to FVD arrow icon and click settings. Unselect formats like mp4, webm (because large), or flash (most of the other formats aren't used anyway). This makes it load the file size faster. If it loads the filesize you can download but sometimes you have to refresh the browser (hit F5 key). Also in settings set the default download to the home directory. This lets you use \"Quick download\" from the not-full menu.
+"""]]

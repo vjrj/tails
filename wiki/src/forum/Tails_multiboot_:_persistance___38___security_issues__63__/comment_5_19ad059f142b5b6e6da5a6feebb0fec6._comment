@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-13T10:29:39Z"
+ content="""
+I suggest the following layout for the multiboot stick:
+
+* grub2 bootloader in the MBR
+* a big partition (fat32 or ntfs), containing a LinuxMint ISO and a Tails ISO
+* a small partition (ext3) with the second-stage grub2 files
+
+Grub2 will be configured to loopback-mount and run the two ISOs.
+It is important for the big partition to be created first, because Windows can only read the first partition from USB stick.
+This setup has the following advantages:
+
+* when plugged into a running PC, it behaves like a standard USB stick (provides some plausible deniability)
+* you don't need to create an ISO with 2 OSes
+* to upgrade, you just overwrite one of the two ISOs with the newer one (no backups needed)
+
+To boot Tails, I use the following block in the grub2 config file:
+
+    menuentry \"Tails 0.16\" --class gnu-linux --class os {
+    	loopback loop (hd0,msdos1)/tails-i386-0.16.iso
+    	linux (loop)/live/vmlinuz isofrom=/dev/sdb1/tails-i386-0.16.iso boot=live config live-media=removable nopersistent noprompt block.events_dfl_poll_msecs=1000 nox11autologin
+    	initrd (loop)/live/initrd.img
+    }
+
+LinuxMint can be started this way:
+
+    menuentry \"Linux Mint 14 KDE ISO\" {
+    	loopback loop (hd0,msdos1)/linuxmint-14-kde-dvd-64bit.iso
+    	linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=/linuxmint-14-kde-dvd-64bit.iso noeject noprompt splash --
+    	initrd (loop)/casper/initrd.lz
+    }
+"""]]

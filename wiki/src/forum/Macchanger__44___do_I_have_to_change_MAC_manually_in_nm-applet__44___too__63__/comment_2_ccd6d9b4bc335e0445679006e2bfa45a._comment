@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="No"
+ date="2012-09-01T00:03:30Z"
+ content="""
+However that feild shouldn't be populated anyway. Not until you've already associated with that AP.
+
+You may have to turn your WiFi off and on again after macchanging or run macchanger while WiFi is off in order for it to have any effect. Depends on your adapter model (driver). Right click on the Network Manager icon and choose \"Connection Information\" to see what MAC you're presenting for an active connection.
+"""]]

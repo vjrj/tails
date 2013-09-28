@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-19T19:42:39Z"
+ content="""
+> The download went creepingly slow and cut off. Neither resuming downloading
+> with wget could finish the download, of files sizewise in the range of the
+> usual Tails iso file.
+
+OK, so a download failed. It happens, be it with Tails, with the TBB etc.
+
+> And there was activity, pretty much unknown to non-expert user as me, in the
+> internet connection, confirmed visually (blinking LED for the connection on
+> hardware through which the connection is established for the computer
+> in question.
+
+The Tor client runs in Tails. It has to use the network to do its job.
+
+> something was downloading because, as they say in the bug reports, mostly
+> Mozilla related, someone was running arbitrary code inserted through some
+> exploits, into my Firefox and/or other programs
+
+Care to explain how you know this for a fact?
+
+"""]]

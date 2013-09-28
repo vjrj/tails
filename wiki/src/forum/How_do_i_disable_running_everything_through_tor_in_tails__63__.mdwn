@@ -1,0 +1,4 @@
+This is an extended question from:
+https://tails.boum.org/forum/If_i_use_whonix_on_tails__44___will_tor_be_routed_through_tor__63__/
+
+Id like to use tails as the host OS because its amnesic and works well, but i want to keep my files in a VM like whonix for added security. Id also like to use other VMs that arent routed through tor in the same session so it would be best to disable tails transparent tor proxy. Is there any way this, or is it possible to have virtualbox bypass it so tails isnt left vulnerable? 

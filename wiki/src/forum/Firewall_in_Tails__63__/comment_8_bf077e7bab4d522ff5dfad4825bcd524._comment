@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-05-05T16:04:22Z"
+ content="""
+In Tails, like any modern Gnu/Linux software distribution, the file
+
+      /etc/passwd
+
+contains information about users (amnesia and maybe root and some \"system users\" who are added for security reasons and who should have carefully limited abilities) on your system.  In the very early days of Nix system, the passwd file also contained hashes of passwords for each user allowed to login after authentication.  But this file must be readable by all users, and soon some started to copy it and crunch off line trying to reverse engineer the hashes to recover the actual passwords, which would then enable the miscreants to become the root user or to read the mail of another user.  The /etc/shadow file is a workaround to make that kind of activity just a bit harder.  It stores the actual password hashes and is only readable by a user with special permissions.  See
+
+    https://en.wikipedia.org/wiki/Passwd
+    https://en.wikipedia.org/wiki/Password_cracking
+    https://en.wikipedia.org/wiki/Rainbow_tables
+
+I had in mind the possibility of a sophisticated intruder being able to copy the /etc/shadow file, surreptiously transfer it to another machine, and apply password cracking techniques to recover (some of) the actual passwords from their hashes.   And I had in mind the fact that using many rounds and a stronger cryptographic hashing algorithm (SHA-512) can foil even attackers using \"rainbow tables\" to attack an improperly obtained copy of your /etc/shadow.
+
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-26T14:10:25Z"
+ content="""
+It is not about concealing my location...
+
+My work place IT admins do not want any portfowarding.......
+
+There are other alternativies like reverse ssh or reverse vnc connections but my home pc needs to be on continously even to if i don't want to connect to my work pc.
+
+The only option left is SSH-VNC over TOR. and I perfer this one.
+"""]]

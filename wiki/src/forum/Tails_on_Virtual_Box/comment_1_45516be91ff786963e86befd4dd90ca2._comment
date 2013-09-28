@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-08T17:43:37Z"
+ content="""
+> in the 'create virtual HDD' section of the Wizard
+
+You don't need any (real nor virtual) HDD to use Tails.
+
+> Also, when it asks me to ask which distro I'm using should I choose 'Debian' or 'Other'?
+
+Tails is based on Debian, so Debian should be fine. Anyway, I guess this is merely used to compute default values for storage and memory, so this should not matter much.
+
+> Finally, should I configure my internet connection on the host OS and turn it on whenever I want to browse the internet,
+
+Yes.
+
+"""]]

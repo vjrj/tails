@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-12-14T15:30:27Z"
+ content="""
+> Tor for instance which is the core of Tails is in fact a third party software and cannot be identified as a Debian package.
+
+For what it's worth, there **is** a [package for Tor in Debian](http://packages.debian.org/tor>),
+and I absolutely don't consider it as *third-party*. Tails currently pulls Tor from the Tor project APT repository, rather than from Debian, though.
+
+> If madwifi cant be intigrated into Tails, why not make the
+> package available and leave installation as a user's choice
+> [...]
+
+Well, because... to the best of my knowledge, this package does not exist.
+
+
+"""]]

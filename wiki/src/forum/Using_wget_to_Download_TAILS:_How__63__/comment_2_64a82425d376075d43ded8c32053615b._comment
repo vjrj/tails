@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="BitTorrent is OK"
+ date="2012-03-29T07:12:38Z"
+ content="""
+Of course you can use the BitTorrent network to download Tails. In fact it is a good way to distribute the load of file transfer on more shoulders. Only make sure that you always verify the PGP signature of all your downloads.
+"""]]

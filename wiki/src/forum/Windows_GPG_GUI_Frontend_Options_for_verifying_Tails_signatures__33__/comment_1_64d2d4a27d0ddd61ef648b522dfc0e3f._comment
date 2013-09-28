@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-12-25T01:35:08Z"
+ content="""
+I don't use Windows so I might underestimate the difficulty of using a shell, but some advantages of using the text-only commands suggested in the excellent documentation (see <https://tails.boum.org/download/index.en.html#verify>) are:
+
+* you can paste the given commands right into your shell and you're done
+* when you issue text commands, you know precisely what you told your computer to do, which is usually not the case with GUIs unless you do a lot of digging
+* GUIs add uneccessary software which tends to increase your attack profile (i.e., to reduce your computer security)
+
+Because verifying the detached signature of the iso image is such a critical step in getting your new Tails system running, I think it is well worth making a small effort to do the verification as carefully as possible.
+
+Most Windows users would probably benefit from keeping a copy of Knoppix handy (or some other \"live CD/DVD\" Linux system).  In a Linux system, I think the text commands are definitely the path of least resistance and greatest security.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-16T19:40:25Z"
+ content="""
+4: Yes I did, specially the \"Tails doesnt start\" parts. Unfortunately it didnt help.
+
+There is no such option in that Vaio BIOS.
+
+5: There is no UEFI boot there, so no. There are only 3 boot options: HD, external media, and network. External media is set as enabled and as first option for booting. As mentioned before I can get to Tails boot page but thats it.
+"""]]

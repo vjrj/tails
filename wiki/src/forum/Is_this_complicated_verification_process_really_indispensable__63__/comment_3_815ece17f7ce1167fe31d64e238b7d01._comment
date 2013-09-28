@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-11-05T00:40:34Z"
+ content="""
+>Yes, I'm lame and I just want it to work. 
+
+PKI \**does*\* just work<sup>tm</sup>
+
+>But I'm afraid I don't understand anything from this whole \"cryptographic signature/signing key\" stuff.
+
+Nevermind. Just follow [the developers' instructions](https://tails.boum.org/download/index.en.html#verify)
+
+>But do I really need it?
+
+That depends on whether you're actually looking for security, or just playing. . If it wasn't \**necessary*\* the developers wouldn't be wasting their time with it, nevermind going out of their way to advocate it, would they?
+"""]]

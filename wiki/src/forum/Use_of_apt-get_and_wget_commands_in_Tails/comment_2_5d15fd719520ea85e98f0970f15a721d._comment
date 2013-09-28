@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-20T21:28:58Z"
+ content="""
+If you searched the forum, you would have come across a post in which Tails stated in no uncertain terms that installing third party software or uninstalling software that Tails provides does not qualify for support here.
+
+Unless you are very sure what the third party software does and how it functions, it would be best to avoid installing them. There is a very strong possibility they would break the anonymity that Tails affords.
+"""]]

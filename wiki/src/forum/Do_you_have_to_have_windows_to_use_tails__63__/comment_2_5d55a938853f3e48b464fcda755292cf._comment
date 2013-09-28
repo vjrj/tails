@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-21T00:41:02Z"
+ content="""
+TAILS is indeed an OS (operating system) in and of itself and should work on the vast majority of functioning computers in use today.
+
+But, of course, in order to *obtain* TAILS (i.e., download the ISO file, verify it and then burn it to DVD or flash media) access to a computer with a functioning OS will be necessary.
+
+This need not be *Windows*; nearly any \"Linux\" (more properly, \"GNU/Linux\") distro and most other current operating systems should be adequate for the task of downloading TAILS, verifying the download and then burning it to media. 
+"""]]

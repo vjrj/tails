@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2013-02-09T15:23:49Z"
+ content="""
+>> I have not investigated Whonix thus far, but my guess for a hardware serial number would be, for example, the Processor Information ID output from the dmidecode command.
+
+Is it possible to remove the dmidecode command for better security? Also, some other commands and log files that contain the similar information.
+"""]]

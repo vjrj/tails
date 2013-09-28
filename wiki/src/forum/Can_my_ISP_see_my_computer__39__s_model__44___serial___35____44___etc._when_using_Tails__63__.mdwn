@@ -1,0 +1,5 @@
+ When I'm using Tails w Tor, with spoofed MAC address using Macchanger, and i connect to my local ISP, can they still see information about the machine I'm using?  Even though the data itself is encrypted.  Can they see my machine's manufacturer, real MAC, it's serial number, model number, BIOS version, etc., just due to the login process?   I've visited webpages that could see the model of my computer, it was surprising.
+
+  Also, using Tails I often go to webpages which warn: 'some of the data on this page unencrypted, could be seen by others'.   I usually proceed if I'm not concerned with the contents of that particular page being seen by anybody. But when the packets coming from my computer are inspected (at the Deep Packet Inspection points along the internet-route), can identifying information about my machine like serial #, model, etc. be sniffed from my packets, on the way to that partially- or non-encrypted page?
+
+I'm fairly knowledgeable about computers and have done some programming, but by no means an expert.   Thank you in advance.

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-08-20T18:15:35Z"
+ content="""
+> In my situation (Eeepc 901), I had to define the SD card reader as one of the Main Harddisks before to see it appearing in the Device Boot menu order (I'm actually not sure of the names used here, give a sign if you also use an Eepc and I will look deeper).
+
+I have a Compaq notebook
+"""]]

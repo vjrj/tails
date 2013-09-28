@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-29T18:10:39Z"
+ content="""
+Please [[report a bug|doc/first_steps/bug_reporting]] with this USB stick inserted, and persistence not enabled.
+
+Please try unlocking and mounting the persistent volume in the Disk Utility, within Tails, after logging-in with persistence disabled.
+
+"""]]

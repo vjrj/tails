@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-30T12:18:53Z"
+ content="""
+Please [[send us a bug report|doc/first_steps/bug_reporting]] using WhisperBack. Include the following information:
+
+* Is Tor normally working from the same Internet connection?
+* Has previous versions of Tails worked?
+* Include the exact messages reported in Tor's log.
+
+"""]]

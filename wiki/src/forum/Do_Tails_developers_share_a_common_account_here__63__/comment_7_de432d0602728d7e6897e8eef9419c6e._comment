@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-12-21T17:26:13Z"
+ content="""
+> May I ask why?
+
+That is probably best discussed in a private securely encrypted conversation.  (If you have a user name, a chat room, and authentication advice for OTR, I might try to contact you using OTR with Pidgin under Tails.)
+
+> if you read carefully the linked page, you'll see \"Allow to ask questions anonymously\" listed in the \"Required features\".
+
+Yes I saw that (thought I even quoted it above), but this isn't necessarily quite the same thing.
+
+If you don't store user account information at all, it cannot be lost, stolen, exposed by crackers, or seized.  In a forum devoted to a tool used primarily by people who need anonymity, it seems like a very bad idea to make it hard for them to obtain help/advice without compromising their anonymity.
+
+Also, web forum software which has more \"bells and whistles\" such as email notification also has a larger attack profile.
+
+I just hope you (plural) will think carefully about the needs and fears of your user base before making changes.  If you think that my security concerns are misplaced, I suppose that could be discussed in the so far mythical general privacy forum, but please remember that absent the missing forum, there is no opportunity for anyone to explain why some particular forum software may not be \"safe enough\" for a forum likely to be helpful to human rights workers, reporters, and others at risk.
+
+Your user base may be fearful of registering user accounts even if they think that the forum appears to be run by well intentioned people, with good reason in my opinion.  It seems to me that anyone who follows the security news and who appreciates the likelihood of a forum like this being attacked by a variety of capable adversaries (cracking, legal threats, and more) will immediately appreciate the wisdom of the principle I mentioned: if the user database doesn't exist, it cannot be lost, stolen, cracked into and exposed, or seized.
+"""]]

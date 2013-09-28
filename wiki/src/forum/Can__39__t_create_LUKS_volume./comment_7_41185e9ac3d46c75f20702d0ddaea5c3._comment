@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I think I can help"
+ date="2012-05-31T02:33:04Z"
+ content="""
+I've noticed disk utility in squeeze (tails) does not sufficiently make you realize that some time needs to pass after you click to create a luks encrypted partition on a large drive... the only notification is gives you is a tiny spinning wheel in the bottom right of the visualization of the partitioned spaces of your drive. You need to wait until it stops spinning to try anything, or you risk interfering.
+
+On top of that, I've noticed disk utility will create encrypted partitions without even giving me permission to access it afterwards. If I named my drive \"DRIVE\", then I would need to type (if it is mounted):
+$ sudo chown -R tailsusername /media/DRIVE
+
+Also a couple times I've downloaded \"gparted\" from the repositories, and used it to format the whole drive with MBR, then went back to disk utility to create the encrypted partition.
+
+I'm pretty sure you can get disk utility to work on its own, mainly watching out for making sure its done working, even if it looks it is done... and also making sure the error isnt just due to not having permissions.
+"""]]

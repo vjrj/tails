@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-11-21T13:26:24Z"
+ content="""
+May it be that polipo is going on with the download that wget asked it to do, even after wget is shut down?
+
+"""]]

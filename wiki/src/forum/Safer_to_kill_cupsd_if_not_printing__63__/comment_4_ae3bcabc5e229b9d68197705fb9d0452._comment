@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-06T01:23:55Z"
+ content="""
+>Printing is explictly listed in Tails design goals on design. 
+
+OP here, I never meant to suggest otherwise. I think you may have misunderstood me.
+
+I was not suggesting, in any way, that Tails remove cupsd. I was simply asking, rather, whether, in a case where someone will *not* need to print, it is safe or advisable to kill cupsd.  
+"""]]

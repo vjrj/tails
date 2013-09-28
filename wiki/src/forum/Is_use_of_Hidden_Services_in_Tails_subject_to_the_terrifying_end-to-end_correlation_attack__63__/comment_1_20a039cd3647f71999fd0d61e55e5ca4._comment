@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-02T19:54:51Z"
+ content="""
+hmmm ... if you leave your hidden service running then tor will change the routes usually every 10 minutes. Also, if for example you are running a webserver(hidden service) then it can only be seen by people within the tors network and not people outside tors networks. 
+
+That is why you have address(e.g. hidden service) like xxxxxxxxxxxxxx.onion . And because it on the tors network it is very difficult for anyone to tell if you are the hidden service or not. And the hidden service traffic does not leave the tor network either, Therefore it mean people using tor browsers can ONLY access the hidden service.
+
+I may help if you tell us what sort of hidden service you are proposing as I used webserver as an example.
+
+Hope to have answered your question. Really you should read the manual especially on the tor project website.
+"""]]

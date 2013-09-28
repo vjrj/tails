@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-25T22:19:10Z"
+ content="""
+> Is virtual box now shiped with Tails ?
+
+Tails has been shipping the VirtualBox *guest* modules for years.
+It's still a WIP to [[todo/add_virtualbox_host_software]], though.
+
+"""]]

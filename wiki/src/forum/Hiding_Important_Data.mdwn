@@ -1,0 +1,16 @@
+I need to hide very important data. I'm thinking of encrypting the file, after that I want to back it up in several places.
+
+Some things bother me a little, hope to get some tips.
+
+The output file will look something like: <-- BEGIN PGP etc ->, If I back up a file like that in several online places an attacker will know that I'm trying to hide something and could potentially force me to give the password to him. Or try to bruteforce the file for the passhrase.
+
+I have looked into steganography but read that it can easily be identified. 
+
+What other options do I have to hide PGP data without somebody being able to identify that it is encrypted data?
+
+I'm also not entirely sure where to backup these encrypted files any suggestions? Persistence is not an option I want to take into consideration. I want my system to be completely clean. 
+
+I really can't take any risks losing my data.
+
+Your help is much appreciated.
+

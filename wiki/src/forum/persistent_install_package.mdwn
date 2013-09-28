@@ -1,0 +1,1 @@
+How can I install a software package in a way that it persists? I've installed the emacs23 package using Synaptic Package Manager, and it's gone after reboot. Is there a way to tell Synaptic to install a package to the Persistent folder? Is there an option to pass to apt-get install?

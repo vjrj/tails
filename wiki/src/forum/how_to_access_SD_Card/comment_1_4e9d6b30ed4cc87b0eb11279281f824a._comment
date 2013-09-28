@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-17T19:06:07Z"
+ content="""
+I'm running Tails without a VM, and SD Cards show up fine, so I would guess this is a Virtual box issue that has nothing to do with Tails. That said, if I knew the solution I'd certainly tell you... but I don't.
+"""]]

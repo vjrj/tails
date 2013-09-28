@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Uget, youtube-dl, and clive"
+ date="2012-07-26T18:17:05Z"
+ content="""
+* Uget should be added. It is a graphical download manager, included within the Debian repositories, previously recommended on this forum, with an optional command line interface. Both interfaces support using proxies and would work well with tor/tails:
+
+http://www.sourceforge.net/projects/urlget/
+
+* youtube-dl works with a proxy for downloading videos from YouTube, if I remember correctly it is command line only:
+
+http://rg3.github.com/youtube-dl/
+
+* clive works with a proxy for downloading videos from YouTube, if I remember correctly it is also command line only:
+
+http://clive.sourceforge.net/
+
+As others have recommended, please don't add additional add-ons to Firefox. The three applications posted about here require you to configure the programs to use a proxy they don't use a proxy by default!
+
+Uget is my #1 choice.
+"""]]

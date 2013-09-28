@@ -1,0 +1,36 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-10-04T16:23:23Z"
+ content="""
+> Could I access .onion through the startpage.com proxy? If so, everything would be https, which would bypass any MITM.
+
+except for the fact that in that situation startpage.com would itself be a man in the middle, and would be able to record every single website you visit. Therefore being far, far less secure than simply using TOR.
+
+> It of course didn't work because .onion needs to know of the Tor access, and the startpage.com proxy denies that knowledge to the Tor servers.
+
+I don't think you really understand how .onion websites work, .onion websites doesn't need to know about TOR access, .onion websites exist only withing the TOR network, and is only a valid domain withing the TOR network, there fore it is impossible for a regular proxy no matter what it did to access .onion websites without using TOR itself.
+
+> A startpage search will most often hit on the onion.to site when searching for the wiki. That could be very dangerous IF the onion.to is a honey pot of sorts.
+
+True, but what makes you trust the startpage.com proxy more than the onion.to proxy? both have the same ability to spy on you.
+
+> So what I learned while bored is to not trust what could appear to be the real Hidden Wiki address. That little .to can make a big difference. 
+
+Well that's kinda internet phising 101, just because a URL is similar doesn't in any way indicate that the website is the same.
+
+onion.to is a website, not in any way related to any actual .onion address, just because it contains an .onion address withing its URL doesn't change the fact that it is a completely different website.
+
+Also I'll just give just a short explanation of what onion.to actually is, onion.to is actually just a proxy, like startpage.com's proxy, but all of its servers run TOR so that all reqests for .onion domains can be fetched through TOR and then returned to the user through clearnet.
+
+> Very clever. Of course, it could be legit but then why go to all that trouble if so?
+
+even if it is a legitimate website it is still a dumb idea to use it as it strips away all security TOR provides and makes it easy to for both the website and your ISP to monitor what websites you visit.
+
+> IOW, perhaps when experimenting to bypass a MITM I inadvertenly subcribed to the MITM via the onion.to address. Funny.
+
+you did, but you also did so when you tried to use the startpage.com proxy, all proxy server have the ability to spy on you as they are literally in the middle of you machine and the website you connect to. 
+
+
+
+"""]]

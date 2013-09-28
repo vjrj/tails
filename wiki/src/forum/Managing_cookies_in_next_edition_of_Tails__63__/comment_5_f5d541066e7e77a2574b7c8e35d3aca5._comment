@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-04T22:11:42Z"
+ content="""
+I was wrong: Tails 0.17 does *not* suffer from this problem.  (Thanks, \"Tails\"!)
+
+Does anyone know how to manage cookies in TBB 2.3.25-4?
+"""]]

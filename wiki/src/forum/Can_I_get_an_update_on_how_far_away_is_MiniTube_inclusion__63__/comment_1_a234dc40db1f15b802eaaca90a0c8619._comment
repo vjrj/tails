@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-30T11:34:57Z"
+ content="""
+> Can I get an update on how far away is MiniTube inclusion?
+
+Everything is on the [[ticket|todo/minitube]].
+
+> And will it make viewing YT in Tails just as safe as using Tor in general?
+
+The audit (see the ticket, again) will tell.
+
+> I have read the todo page, it mentions a socks proxy? Will MiniTube in Tails need a socks proxy? That sounds weird.
+
+How do you expect Minitube to talk to Tor, otherwise?
+
+"""]]

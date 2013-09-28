@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-11T18:05:44Z"
+ content="""
+>it seems that others also want a 64-bit version of Tails, but there are some problems the developers have not yet worked out.
+
+What are the advantages of having a 64-bit version compared to the 32-bit one?
+
+The majority of people living in oppressive regimes only have hardware and software supporting 32-bit operating systems. An example is mainland China. Most Chinese people can not afford to buy their own personal computers. They go to internet cafes for their surfing and emailing needs. The equipment and software in Chinese internet cafes are at least seven to eight years old. And all of them support 32-bit operating systems only.
+"""]]

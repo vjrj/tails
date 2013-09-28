@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-08T17:18:23Z"
+ content="""
+> First off, I know Tor obviously does not allow you to use your default DNS servers. What DNS servers does Tor use?
+
+If Tor is working properly, when your TBB or Tails browser requests a url (sending a GET request), Tor builds a circuit
+
+     your_PC <--> Entry_node <--> Relay_node <--> Exit_node <--> destination
+
+and in the last step, the Exit node should perform the DNS lookup to obtain the numerical IP of the destination server.  All but the last connecton (Exit node to destination) should be encrypted using TLS and if the url is an https page, even the last connection should be encrypted as well.
+
+Every Tor user should know this, so I for one don't mind repeating it often.
+
+I echo the previous comments that messing with how Tor does DNS sounds like a very bad idea.  
+
+Also, picking up a bad idea from another recent thread in this forum, using Tor to do on-line banking seems like a very bad idea for many reasons:
+
+* if your bank is not completely amateur, its security system should light up like a Christmas tree when a regular customer (or more likely someone masquerading as him) connects from a Tor exit node
+* if many people did this, that might induce bank-theft gangs to develop MITM schemes targeting Tor users
+* repeatedly raising the subject here could be used as ammunition by our adversaries in a political initiative to outlaw Tor on the false basis that \"it is used primarily for money laundering\", which is not true at all, but which our enemies might want legislators to believe is true (and to repeat, it is a known fact that while some people inside the most powerful government, the U.S. Federal government, support the existence of Tor, others inside the same government oppose it with equal fervor, with the result that politics poses an enduring threat to the very existence of Tor, at least as something which is legal to develop/use/discuss in the U.S.A.)
+"""]]

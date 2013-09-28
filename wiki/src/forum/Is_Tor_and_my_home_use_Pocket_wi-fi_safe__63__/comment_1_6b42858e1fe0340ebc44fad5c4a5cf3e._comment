@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-31T17:28:56Z"
+ content="""
+By Pocket WiFi, do you mean something like this?
+
+    https://en.wikipedia.org/wiki/Huawei_E5
+
+Some posters have previously expressed concerns that problems like hard-coded default root accounts on home wired and WiFi routers could pose a serious problem even when using Tails.  The Tails developers stated a contrary belief, and I certainly hope they are correct, but no reasons were provided, and they are not infallible, so they (or other posters) might be wrong.
+
+Be this as it may, there appears to be broad agreement among security researchers that security in consumer WiFi devices is in general *terrible*.  Despite all the infuriating problems with poorly designed consumer wired routers, I tend to think you are much better off using the best consumer wired router you can find.  But I'd be happy to hear opinions from other Tails users.
+"""]]

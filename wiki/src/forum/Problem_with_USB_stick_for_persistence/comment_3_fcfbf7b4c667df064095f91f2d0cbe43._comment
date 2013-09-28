@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-01T21:59:19Z"
+ content="""
+When I use either my other OS (Debian stable) or Tails and have mounted the USB stick, when done I open the system manager window to choose \"remove drive safely\" on the USB stick icon.  Of course I try to first check that no files are open in the encrypted drive, or I would get a \"drive busy\" message.  I expect to see the icon vanish, but instead I get an unexpected \"drive busy\" warning.  The icon doesn't vanish unless I choose \"remove drive safely\" twice in that window.  Am I doing this wrong?
+
+As far as I can tell, the drive *is* being safely unmounted, at least if I choose that option twice.
+
+Since I seem to have trouble with the GUIs, maybe there are some simple shell commands I can use instead?  Maybe in a root terminal?
+
+"""]]

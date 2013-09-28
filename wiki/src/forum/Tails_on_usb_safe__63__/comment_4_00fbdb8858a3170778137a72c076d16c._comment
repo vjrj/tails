@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-12T14:41:06Z"
+ content="""
+>If you surf to a website and it contains malware, that malware can cross over to your USB stick and infect it. Once infected your online activities will not be anonymous. It is better to use a Live DVD (do not use rewritable DVD).
+
+Why on earth do Tails' team offer users the option of installing it on to a USB stick if Tails-on-USB can be infected by malware embedded on malicious websites? Shouldn't the Tails' team post such a warning on the Tails' download page?
+"""]]

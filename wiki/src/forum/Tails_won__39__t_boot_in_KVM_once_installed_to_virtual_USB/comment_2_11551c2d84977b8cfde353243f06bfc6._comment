@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Either"
+ date="2013-01-17T17:42:08Z"
+ content="""
+I either assign a block storage device in /dev/ to the VM as a virtual USB device, or I create a KVM disk in the default way and assign that to tails. Either way it hangs with 100% CPU at the boot menu.
+
+I'll see if I can figure out where the KVM settings are, but if you want to test it like I did then just `apt-get install kvm virt-manager` and create a VM with a new USB disk using the interface and do the most obvious thing.
+"""]]

@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-02-10T12:12:21Z"
+ content="""
+>> With the release of 0.16 my biggest concern is (still) the fact that it's not possible to have a changed MAC address at boot up.
+
+Hmm, I (think) I can achieve this on my desktop. Maybe it's different for laptops), but changes made to the MAC address on an ethernet card are semi-permanent. You have to turn off the PSU in order for it to change back to its default setting.
+"""]]

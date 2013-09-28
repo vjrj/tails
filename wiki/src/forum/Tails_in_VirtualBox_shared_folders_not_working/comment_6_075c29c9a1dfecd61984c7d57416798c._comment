@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-04-09T10:30:09Z"
+ content="""
+Really funny i am a linux beginner and nothing of that works. If i put an USB-Stick in the host and say VB to use it with tails, tails does not recognize the usb stick. 
+LAN doesnt work too and there is nothing but cryptic shit as an explanation for that..... 
+If Tails has no easy option for transferring files out of the box (for beginners) its useless after the 0.17
+"""]]

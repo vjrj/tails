@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-15T11:07:40Z"
+ content="""
+> May the OP's tale of woe be a lesson for anyone who attempts to use Facebook via Tails or Tor.
+
+> Facebook breaks the anonymity of Tails or Tor. That is an indisputable fact.
+
+[Citation required.](https://en.wikipedia.org/wiki/Template:Citation_needed)
+
+> Facebook/Gmail/Hotmail use in Tails is just insane if you ask me, even if you're creating a new profile/account.
+
+I believe this is wrong.
+
+To make sure we talk about the same thing.
+
+Goal user: wants to create a new Facebook/Gmail/Hotmail/whatever account and upload something.
+
+Goal Facebook/Gmail/Hotmail/whatever: want to find out the users identity.
+
+Goal Tails: prevent anyone from finding out the users identity.
+
+How does Tails fail? How does Facebook/Gmail/Hotmail/whatever find out the users identity?
+
+Using phone verification is not a Tails fail. This happens outside of Tails and is a bit stupid. The user failed to read the documentation or if you want Tails not reached goal of a user interface to properly educate the user.
+"""]]

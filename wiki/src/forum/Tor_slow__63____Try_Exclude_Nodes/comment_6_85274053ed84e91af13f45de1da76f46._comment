@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not Recommended"
+ date="2012-11-10T00:55:06Z"
+ content="""
+The Tor project explicitly warns AGAINST using \"ExcludeNodes\" - proceed at your own risk.
+"""]]

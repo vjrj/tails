@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-20T17:38:55Z"
+ content="""
+Tor browser should work just like Firefox.  In the menubar try this:
+
+   Edit -> Preferences -> Fonts & Colors
+
+Try increasing the font size and maybe changing the font.
+
+And second the thanks to the Tails (and Tor) developers.
+"""]]

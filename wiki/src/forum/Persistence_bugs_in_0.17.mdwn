@@ -1,0 +1,12 @@
+Hello
+
+
+Thank you for your work on Tails.
+
+I have persistence set up with tails 0.17 on a usb stick (network, apt cache and lists, persistence, gnupg) and have noticed 2 issues:
+
+1. wifi network password does not persist.  I have to enter it each time I boot.
+
+2. the liveOS image has been corrupted on shutdown twice and will not boot.  The laptop bootscreen hangs.  By then booting from  tails cd and using the "upgrade" option in the usb install gui I have overwritten the corrupted image and it then boots fine, proving the liveOS image was damaged.  Something must be writing to the liveos image partition when it shouldn't be or not umounting or syncing properly on shutdown.
+
+Are these known issues?

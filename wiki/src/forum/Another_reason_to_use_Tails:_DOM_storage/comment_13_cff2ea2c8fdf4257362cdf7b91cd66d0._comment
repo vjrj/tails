@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2013-03-14T21:37:28Z"
+ content="""
+All that, and I forgot to answer the question you asked.
+
+I was actually trying to suggest
+
+* checking the effect of single browser actions which might add to DOM storage files
+* checking the effect of \"clear cookies\", \"clear cache\", browser restart, system reboot
+
+The *worst* case would be always seeing DOM storage files which always increase, but never decrease in size, not even after a system reboot.  The *best* case would be seeing that your browser never sticks anything in DOM storage at all, as inferred from unchanging file sizes.
+"""]]

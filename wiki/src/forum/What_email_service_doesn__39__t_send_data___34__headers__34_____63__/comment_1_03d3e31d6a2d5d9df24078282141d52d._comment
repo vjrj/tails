@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="DIY email service"
+ date="2012-11-22T06:56:55Z"
+ content="""
+ALL email service providers DO send data headers.
+
+You may wish to consider setting up a tech start-up which provides email service without sending data headers.
+
+Who knows you may be the next Mark Zuckerberg?
+"""]]

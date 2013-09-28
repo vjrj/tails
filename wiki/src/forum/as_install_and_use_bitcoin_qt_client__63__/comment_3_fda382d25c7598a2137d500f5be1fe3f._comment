@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-17T04:43:45Z"
+ content="""
+bitcoin-qt wasnt designed to work through tor as it has to download the entire blockchain just to stay current. This already takes days on a normal internet connection, through tor it could take weeks. With a client like electrum the blockchain is already current on a server and your client only needs to connect to it to reflect changes to your wallet. If you want to use the hidden service server then add 4lhnnupincd3gyda.onion:50001 to your electrum client server list and set the proxy as socks5 9050. Any desktop wallet you use will have to have socks5 support to work with tor, and not just a \"proxy\". 
+
+https://bitcointalk.org/index.php?topic=113116.0
+"""]]

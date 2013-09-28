@@ -1,0 +1,27 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-05T00:15:38Z"
+ content="""
+See comment 1.
+
+>Some experienced users are sceptical that this is currently possible, for reasons discussed in other threads in this forum on this topic. The essential disagreement seems to be
+
+> * whether or not it is posssible to register an email account without at some point giving a valid email address which can be traced back to a real life identity
+
+**It is**
+
+> * whether or not this matters
+
+Eh?
+
+> * Can you please list any safe email providers for such purpose and can be used securely in Tails?
+
+>Any such list could attrack \"watering hole attacks\" to the named providers.
+
+Indeed... although as there are many suitable services, hosted in many different countries, such an approach is *unlikely* to be particularly successful. The *real* \"watering hole\" is, of course, *tails.boum.org* ;)
+
+...still... probably better not to single out any particular service(s) for recommendation here for the reason you gave. It's certainly not difficult to investigate \"webmail providers\" and simply try a few for one's self... I managed it!... and found *several*... So, on balance, I agree that *risking* creating a \"watering hole\" just to \"help\" a handful of users who are too lazy to find one for themselves wouldn't really *help* anyone.
+
+I suppose [someone could](https://tails.boum.org/contribute/index.en.html) compile and maintain a huge, regularly randomised, as-close-to-exhastive-as-possible list of suitable services. If the list was maintained to always provide a sufficiently large and diverse selection it might be useful to some.
+"""]]

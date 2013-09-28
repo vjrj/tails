@@ -1,0 +1,18 @@
+Hello!
+
+I use Tails regularly for few months now. Since Tails 0.12.1 I use always the same USB stick and it worked well on every computer I used before (10+ computers of different types used!).
+
+But on new Toshiba Satellite L830-114 laptop (i3 2377M processor, 4 GB RAM) tails does not boot at all!
+
+The messages are:
+
+Loading, please wait...
+[   3.320093] xhci_hcd 0000:00:14.0: Failed to enable MSI-X
+[   3.473541] [drm:intel_dsm_platform_mux_info] *ERROR* MUX INFO call failed
+(process:255): GLib-WARNING **: getpwuid_r(): failed due to unknown user id (0)
+
+After this message, laptop hangs.
+
+It surprised me that the Tails USB does not work on Toshiba laptop. It worked on so many other computers before!
+
+Do you have any suggestions?

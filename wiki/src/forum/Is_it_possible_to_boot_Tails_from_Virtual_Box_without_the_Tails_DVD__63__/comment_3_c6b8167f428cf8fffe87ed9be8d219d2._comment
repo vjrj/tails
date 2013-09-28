@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-17T13:37:58Z"
+ content="""
+@comment 2
+
+Tails does have a documentation page dedicated to running Tails in Virtualbox that tells you what the potential issues are and how to bypass it.
+
+That page can be found here; https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html
+"""]]

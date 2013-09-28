@@ -1,0 +1,39 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2013-05-26T19:07:10Z"
+ content="""
+> ( e.g. an imminent nuclear terrorism attack , tracing a killer of a prominent political figure, tracing world's No.1 wanted etc.)
+
+Good grief, you mentioned only examples favored by \"the authorities\" as (bogus) \"arguments by fear\" [sic] for proposals to try to force all developers (including the Tails developers) to put backdoors into their software.  Needless to say, everyone who knows anything about computing has spoken up against such mad ideas.
+
+Reassuringly, a Tor developer has recently discussed a current American proposal, arguing that any legislative initiative likely to be passed by US lawmakers will be ineffectual against Tor.  See
+
+     https://blog.torproject.org/blog/calea-2-and-tor
+
+More realistic examples include:
+
+* reporters seeking information relevant to an important news story (for example, a Fox News reporter, or AP reporters)
+* a potential whistleblower trying to communicate with a reporter about a disclosure concerning actions by a powerful corporation which endanger the public welfare
+* members of opposition political parties, political dissidents, and bloggers trying to engage in discussion of politically sensitive topics
+* husbands communicating with spouses (should either spouse happen to be a journalist, a member of an opposition party, a blogger critical of some governmental policy, etc)
+* patients communicating sensitive medical information with their doctor (anyone remember Daniel Ellsberg?)
+
+I could go on, but you all get the idea.
+
+> How would someone with a spoofed MAC online via a broken into WiFi be traced? Especially if it's a brief *one time connection*.
+
+Surely it is rather up to you to explain in more detail the scenario you have in mind.  
+
+One possible objection which springs to my mind: what does \"one time connection\" really mean?  After all, no-one makes only one connection to the internet in their lifetime, or even only one connection with a given device.  And no-one makes only one statement in their lifetime.
+
+So for example, you can think about the possibility that stylometry, in conjunction with digital tracks you might have left behind, could in combination be used to expose you.
+
+A second objection is that WiFi connections are among the easiest to surreptitiously monitor in many ways.  You might think about the possibility that you are already under surveillance due to previously expressed opinions, associations.  Or you might be subject to dragnet surveillance.   As has been discussed elsewhere in this forum, there are many techniques (particularly when used against specific individuals, at considerable expense to be sure) which would be likely to defeat the scenario you appear to have in mind.  See for example
+
+     https://tails.boum.org/forum/Dragnet_surveillance_in_Boston:_how_can_Tails_help__63__/
+
+On the other hand, it is also true that \"the authorities\" engage in a great deal of bluff.  It is important both to debunk inflated claims about supposed surveillance capabilities and also to reveal real techniques which can endanger ordinary people who have no idea they are being used or how they work.
+
+In this connection, it is amusing that several American states have apparently banned internet cafes entirely, out of a fear that they are used \"only\" [sic] by criminals.
+"""]]

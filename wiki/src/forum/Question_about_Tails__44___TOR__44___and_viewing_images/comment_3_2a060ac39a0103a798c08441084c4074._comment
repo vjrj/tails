@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-27T17:22:39Z"
+ content="""
+IMHO, comments 1 and 2 are inappropriate (and leap to an unwarranted conclusion, since many political dissidents wish to view images and documents without this becoming known to \"the authorities\" in their home countries).
+
+@ OP:
+
+> If I use TOR ... and ONLY VIEW documents and images (NO downloading!),
+
+If you can see an image on your PC, the image file was downloaded by your browser and resides at least in RAM.  In your Tails browser, try this:
+
+* in the Tails browser, Edit -> Preferences -> Privacy -> Clear All
+* surf to some harmless news article with an image which you can see
+* in the Tails browser location pane, try typing this special \"internal url\"
+
+   about:cache
+
+You should see listed there the image file which was downloaded.  Even better, you can examine the metadata stored with that image, and you can even see what it looks like at the byte level.
+
+If you blocked automatic image loading in Firefox, Iceweasel or Tails browser, and don't see an image, the image file may indeed never have been downloaded.
+
+> a Tails operating system loaded on a USB plugged into my PC at home
+
+This is important to clarify.  Just to be clear, you meant to write that you installed the latest version of Tails onto a dedicated USB stick (after verifying the detached signature of the iso image of course), and then rebooted your PC from the \"live USB\"?
+
+> am I leaving ANY trace of my viewing on my home PC?
+
+At least indirectly.  I am pretty sure the Tails developers never claimed that using Tails leaves *no* traces whatsoever, because this would be almost impossible.
+
+To mention just one problem which was apparently overlooked into it was disclosed in this forum, regardless of whether you boot Tails from a USB or a live DVD, this leaves a trace in your other OS (the one installed on your hard drive) that you inserted a DVD or USB stick with a specific unique identifier at a specific time, and then shutdown your other OS.  Even worse, the traces may well specify that your USB stick is called \"Tails\".  
+
+Furthermore, the US TLAs boast that they maintain a vast database containing the unique hardware identifiers of all USB sticks ever made (a claim which is open to considerable skepticism, but it is likely that they know the unique identifiers of some considerable fraction of all USB sticks, DVD sticks, external and internal hard drives).  In addition, it is known that the venerable FBI malware known as CIPAV offers the capability of remotely searching the RAM of a running computer, potentially including a computer currently running Tails, and it is likely that dozens of companies such as Gamma International which offer \"surveillance-as-a-service\", are hard at work on rolling out malware with similar capabilities.
+
+Putting all this together, if you are under surveillance by your local secret police, it is quite plausible that they might know, at the very least, that during a certain period of time you were not only using Tails, but using a uniquely identified Tails.  Putting that together with other information they could possibly deduce enough information to haul you in for \"enhanced interrogation\".
+
+So be careful.
+
+On the other hand, I don't want to discourage anyone from acting boldly after estimating the potential risks and thinking about the morality of civil disobedience actions (for example) which some governments might treat as serious felonies (for example, \"insulting the monarch\" of Thailand).
+"""]]

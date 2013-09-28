@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-10-27T20:02:56Z"
+ content="""
+It might not be possible to set any permissions. USB sticks tend to default to some primitive lowest-common-demoninator FS with no idea what POSIX is :-|
+
+You could mount it with a mask if you must run binaries from such a FS.
+"""]]

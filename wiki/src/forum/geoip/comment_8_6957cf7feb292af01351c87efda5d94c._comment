@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-15T00:15:33Z"
+ content="""
+Gulp!
+
+     apt-cache rdepends --installed geoip* | grep \"Description:\" | cut -d: -f2 | sort -d | uniq
+
+     A non-DNS IP-to-country resolver library
+     Cherokee web server - GeoIP-based IP resolution functionality
+     contains the geoip module
+     debugging symbols for the GeoIP packages
+     Development files for the GeoIP library
+     geoIP database for Tor
+     GeoIP database for Tor
+     GeoIP module for php5
+     GeoIP support for apache2
+     GeoLite binary database (downloader)
+     IP lookup command line tools that use the GeoIP library
+     IP lookup command line tools that use the GeoIP library (country database)
+     non-DNS IP-to-country resolver library
+     PAM module checking access of source IPs with a GeoIP database
+     ProFTPD mod_geoip
+     Python bindings for the GeoIP IP-to-country resolver library
+     Tcl extension implementing GeoIP lookup functions
+     Versatile, virtual-hosting FTP daemon - GeoIP module
+
+If the lesson is supposed to be that these are all about enabling applications running on the computer of a Tails user to geolocate *external servers*, and not about coughing up personally identifying information... I don't see this clearly stated in the information just quoted.
+"""]]

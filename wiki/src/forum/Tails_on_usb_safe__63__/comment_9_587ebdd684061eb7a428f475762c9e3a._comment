@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-02-15T14:26:55Z"
+ content="""
+> Or you can use an USBstick with hardware write protection
+
+**Beware**: some of these are merely logical switches, that the operating system may choose to ignore if it (or an attacker that gained root privileges) desires so.
+
+"""]]

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-30T17:35:41Z"
+ content="""
+> When I log in to any Google service
+
+It may not be a good idea to log into websites where you have accounts, particularly
+
+* websites which do *not* use SSL \"protected\" connections (may not able to Google and some others, but keep reading)
+* websites where your account which might be tied to other on-line identities, or even worse, your IRL identity
+* websites operated by data brokers like Google, whose basic business model is uniquely identifying everyone and tracking in details everything they do
+
+Basically, if you use Tails or Tor or another privacy-enhancing tool, you must think of data brokers like Google or Facebook as your enemy.  So whenever you use Google or Facebook accounts, you are giving information to your enemy.
+
+If you are unfamiliar with how sophisticated adversaries like Google use browser fingerprinting to help them to uniquely identify persons using privacy-promoting tools like Tails, see 
+
+     https://panopticlick.eff.org
+
+If you are unfamiliar with how the Tor network is often abused by persons seeking username/password combinations sent using http, telnet, or ftp protocols (to name three of the most abused), look for stories which appeared in The Register a few years ago, about a Swedish security researcher who demonstrated how easy it is for anyone willing to operate an exit router to do this.
+"""]]

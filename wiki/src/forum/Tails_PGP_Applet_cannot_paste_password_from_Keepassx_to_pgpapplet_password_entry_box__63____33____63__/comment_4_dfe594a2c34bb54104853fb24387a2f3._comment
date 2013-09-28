@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="Please review new documentation"
+ date="2013-03-16T23:34:38Z"
+ content="""
+I added a section to the KeepassX documentation to explain how to [[use KeepassX to type a password into Pinentry|/doc/encryption_and_privacy/manage_passwords/#index4h1]].
+
+Comments are welcome.
+
+"""]]

@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2013-02-25T19:32:21Z"
+ content="""
+@ comment 20
+
+>Is the software in Debian Stable compiled with stack smash protection and hardening? No. Is the software in Ubuntu/Fedora? Yes, and have been for a few years.
+
+>Is any application confinement as AppArmor or SeLinux used to confine applications that is popular targets for attacks in Debian Stable? No. Is it in Fedora? Yes. Ubuntu? Partly.
+
+>Do Debian Stable have any protection at all against zero-day exploits? Maybe ASLR, I don't know, but besides that I cannot find anything.
+
+Thank you for raising very good points for us to reflect on.
+
+It would be good if Tails developers could respond to them.
+"""]]

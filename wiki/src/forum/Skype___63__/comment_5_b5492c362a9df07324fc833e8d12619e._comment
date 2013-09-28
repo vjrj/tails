@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-04T20:11:30Z"
+ content="""
+AFAIK Skype uses both TCP and UDP, so it most certainly wont work over Tor. It might run in Tails under the \"clearnet\" user that can bypass the firewall and access the Internet directly. However, I strongly recommend against using Skype on the same Tails session you want to keep private. Skype is a black box software (not only closed source, but obfuscate and \"protected\" against reverse-engingeering) and it uses a secret protocol. There is no way for the Tor community to audit what it might leak. It simply cannot be trusted from the privacy standpoint.
+
+"""]]

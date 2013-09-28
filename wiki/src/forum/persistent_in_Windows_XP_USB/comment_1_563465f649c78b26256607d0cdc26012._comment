@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-20T13:07:02Z"
+ content="""
+You have to run Tails and clone it to another USB stick using \"Tails USB installer\", then run Tails from this new USB stick and then you can use persistence
+"""]]

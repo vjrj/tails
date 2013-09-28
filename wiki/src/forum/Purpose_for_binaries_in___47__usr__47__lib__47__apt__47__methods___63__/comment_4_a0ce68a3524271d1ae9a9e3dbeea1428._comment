@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-23T21:21:21Z"
+ content="""
+That could be dangerous, since it might break something you *do* use with Tails.   At the very least, deleting binaries (rather than trying to remove packages using the package manager or its front end,synaptic) will break package management.  This could possibly make your Tails unusable (until you reboot), but the real danger might be that breaking package management could possibly actually *help* remote attackers to mess with your Tails.
+
+If you are really determined to get rid of binaries, a better option might be to (as root user) make them unexecutable, although I suspect that would also be dangerous since it might break Tails functions you depend upon for security/anonymity.
+
+As far as I know, few system files in Tails pose a hazard to users (unless maybe if you simply delete them).  Tails is based on Debian Stable, which is generally regarded as one of the most secure Linux distributions.  One of the reasons why is that security patches are provided promptly using the package manager (another reason why you don't want to break APT).  And it is actually *wise*, I think, that the Tails team seems to generally rely upon Debian developers to maintain the Debian packages which are incorporated into Tails, since that leverages the long experience of the Debian Project and amplifies the knowledge/talent of the Tails Project.
+
+But maybe I just don't understand the nature of your concern? 
+
+"""]]

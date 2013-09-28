@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 21"
+ date="2012-12-14T01:15:51Z"
+ content="""
+>What does Vidalia have to do with working in a text editor? You are making your adjustments to your torrc before you launch IW etc., aren't you?
+
+Yes, I edit & save the modified file without tor, vidalia, ice-weasel or a network connection established.
+
+Following the correct modification of torrc to add obfs2 bridge support, I restart the network connection and vidalia starts but instead of following through with the usual connection to the Tor network, it shows errors highlighted in red, regarding file permission issues and asks if I am running it as the correct user.
+
+I have not tried the recent suggestions, but I should try the boot into bridge mode and add obfs2 bridge(s). I would really like this to work.
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-06T11:29:52Z"
+ content="""
+I assume by \"grub\", you mean \"syslinux\".
+
+I'm not sure what you mean with \"virtual USB\". Are you forwarding to the VM the host USB card reader, or the drive itself? The exact KVM command-line or libvirt XML file would be welcome.
+"""]]

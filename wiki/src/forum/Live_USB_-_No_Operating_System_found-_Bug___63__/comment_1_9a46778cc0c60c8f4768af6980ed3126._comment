@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="timmc"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-17T14:45:37Z"
+ content="""
+* Did you create it by using the Tails USB Installer, or by using manual installation?
+* What is the make and model of the computer that fails to boot Tails, if you don't mind telling? It might be the known bug with lacking UEFI support.
+"""]]

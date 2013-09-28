@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-02T15:56:31Z"
+ content="""
+> Am I doing this wrong?
+
+No, I've seen it too. Given Debian Squeeze is getting old, Wheezy soon out, and a workaround works fine, unless you can reproduce this bug in Debian Wheezy, I would not hold my breath to see anyone working on it on Squeeze.
+
+"""]]

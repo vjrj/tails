@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-03-15T08:54:07Z"
+ content="""
+> Please tell us what this plugin does
+
+See <http://git.immerda.ch/?p=amnesia.git;a=tree;f=config/chroot_local-includes/etc/iceweasel/profile/extensions/branding@amnesia.boum.org;hb=refs/heads/devel>.
+
+> and please disable it for 0.18.
+
+Obviously not, it's useful and harmless.
+
+Thread closed, and I mean it.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Re: comment 3"
+ date="2012-06-25T16:29:25Z"
+ content="""
+When I boot up Tails 0.12 from a Live USB, I do so with my router switched off.
+
+This allows me to mount my disk and run some commands in a script, which includes running the macchanger command, and appending some items to the end of /etc/tor/torrc.
+
+After I have unmounted the disk and exited the root account, I then turn on my router which allows Tails to sync the clock with UTC. If it times out on this, I manually set it with the date -u command from the root account, and my trusty atomic watch which is usually synced up with the atomic clock in Colo, and then exit the root account. Once the clock is synced, then Vidalia starts up and once it connects with Tor, the browser is launched.
+
+As far as the ISP is concerned (even when they provide the router), the router's mac address is essential to getting connected to the Internet, but the computer's mac address has been changed from its original, so there is still plausible deny-ability as your computer with your original mac address is not identified.
+"""]]

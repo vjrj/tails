@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-07-01T12:23:04Z"
+ content="""
+If I understand correctly, every added bridge should be listed in Vidalia and in netstat unless it is down, right? 
+
+In netstat I've got one entry for every bridge (established connection)- that's pretty straightforward. But I need some help to grasp what is going on in Vidalia...
+
+There's like 6 or more connections for every bridge there. Does it mean that single bridge is connected to multiple tor nodes? 
+
+In the description field on the right, some of the connections have more complex description than others, composed of 2 or even 3 entries listed one below the other, which seem to correspond to the green lines on the worldmap. I'm guessing that these are connections between the bridge and the first tor node? If so then why some of the listed connections haven't second entry in the desription field? Aren't they connected to any tor node?
+
+When I open new page in Iceweasel a bunch of \"streams\" pops-up from one of the listed connections. When I open another page a new bunch of streams pops-up from the same connection. When I hit \"New Identity\" in Iceweasel, all connections stay the same, but open new pages results in \"streams\" poping-up from the other connection than before. So \"New Identity\" seem to randomly choose diffrent connections from the list.
+
+But here's the part I completly fail to comprehend: 
+Untill now all the connections in the Vidalia list were the \"instances\" of the bridges I've add right after Tails start. Like I've said 4-6  connections for every bridge. But suddenly poof - list of the connections (and the relays on the left) refresh itself. New connections populate the list - BUT none of them seem to be related to my bridges! Just a bunch of completly diffrent connections with no trace of my bridges' IPs - but bridges are still listed in netstat. So am I connected through bridges or not?
+Why on the begining bridges were listed in vidalia and then (after refresh) they disappeared?
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-12-16T12:41:33Z"
+ content="""
+I do commend the choice of Debian which makes sense for many reasons.  But wouldn't Tails be better off based on Unstable entirely so the kernel and user space always have the same toolchain and kernel updates hopefully happen in under $VERYLONGTIME?  Wouldn't that be easier and no less secure?
+
+After all, Debian Unstable is not actually \"unstable\" at all; it's packages have already graduated from Testing.  That's why Ubuntu chose unstable for upstream.  Ubuntu feed a lot of bug fixes back upstream to Debian Unstable also.
+
+Why use different userspace and kernel distros?  Debian recommend against mixing stable and unstable packages in the one system as a general rule - it'll work fine for some packages and bork things completely or in unexpected ways for others - depends on any differences in the build toolchain.
+
+I know everyone has their own ideas and requirements for Tails and we're all grateful. 
+"""]]

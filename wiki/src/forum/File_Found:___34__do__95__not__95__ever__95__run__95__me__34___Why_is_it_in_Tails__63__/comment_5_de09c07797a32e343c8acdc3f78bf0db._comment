@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I am a newbie and clueless; so could someone explain in greater detail?"
+ date="2012-12-22T03:23:01Z"
+ content="""
+I am a newbie and clueless. My computing skills are so-so, elementary to be exact.
+
+Therefore could someone be kind enough to answer the following questions:
+
+1. Does the file \"do_not_ever_run_me\" get executed every time we run Tails?
+2. If it is executed every time we run Tails, what does it do specifically? Does it collect user data, location, preferences, etc?
+3. Can it be deleted from the ISO before I burned it to a DVD?
+
+Thanks to OP for printing out the source code of the \"do_not_ever_run_me\" file. But I do not understand what it does. Hence this post of mine.
+"""]]

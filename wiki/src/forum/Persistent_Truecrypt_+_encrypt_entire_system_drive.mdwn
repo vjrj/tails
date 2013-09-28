@@ -1,0 +1,4 @@
+"TrueCrypt can on-the-fly encrypt a system partition or entire system drive, i.e. a partition or drive where Tails is installed and from which it boots.
+System encryption provides the highest level of security and privacy, because all files are always permanently encrypted (even when power supply is suddenly interrupted)."
+
+How can I make Truecrypt persistent? Can I get the entire Tails usb drive encrypted? or can I use LUKS instead of Truecrypt to encrypt the entire Tails drive?

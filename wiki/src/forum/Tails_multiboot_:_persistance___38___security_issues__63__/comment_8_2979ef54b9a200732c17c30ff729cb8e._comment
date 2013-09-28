@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-17T21:26:16Z"
+ content="""
+OP here.
+
+#6 : read the warning about persistence in
+
+Thanks a lot for sharing your config #5! That does seem like a good way of doing things. I will give it a try tomorrow. Regarding persistence (bookmarks, btc wallets, cryptokeys for ex) on both OSes, did you tailor-configure the OSes before ISO-ing them in order to have them link to the other USB stick or do you use stock ISOs & then load/mount/access the files manually? I'm guessing manual since device name assignement varies from one machine to the other.
+
+Your proposition seems like a viable one, I'll try it out and then also attempt at getting it boot on Macintels. Will be back in 24-48h and write a report.
+
+
+"""]]

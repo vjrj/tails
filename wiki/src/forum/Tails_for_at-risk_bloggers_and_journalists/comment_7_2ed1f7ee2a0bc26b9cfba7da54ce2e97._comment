@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="The next Version of AdvOR"
+ date="2013-03-31T22:43:18Z"
+ content="""
+The next version of AdvOR is going to introduce AES encryption and making TOR (as it is based on TOR) invincible and untraceable even for the global adversaries.
+
+The next version is also going to introduce the feature of using proxy before and after TOR via ADVOR. This is called innovation, dear TAILS developers.
+"""]]

@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="I sent them the following message"
+ date="2012-09-24T15:32:59Z"
+ content="""
+Thanks for reporting!
+
+I sent them the following message:
+
+~~~~
+
+Hi,
+
+I see with pleasure that Tails is part of your selection.
+
+The version you ship is 0.12.1, but Tails 0.13 is now available, and fix numerous security issues.
+
+Can you please update your article, and perhaps instead of a direct download, redirect to the download page on Tails website (https://tails.boum.org/download), that explain how to verify and install the downloaded ISO file?
+
+Greetings,
+Marc
+
+
+"""]]

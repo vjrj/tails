@@ -1,0 +1,23 @@
+I just came across an interesting article which may have implications for writing documentation for Tails, Tor, i2p, and other privacy-enhancing tools.  
+
+And which suggests a third explanation, which had not previously occurred to me, for a phenomenon recently in evidence at this forum, and often seen at other software-related forums: short angry posts disrupting long threads, which are often assumed to represent either of these:
+
+* trolling 
+* disinformation/disruption campaigns by adversary organizations, for example hypothetical Microsoft operatives trolling a Linux forum, or hypothetical "corporate cyberaction cell" operatives trolling this forum.
+
+But it seems there may be a third explanation, based in cognitive science.
+
+Experts generally agree that obtaining on-line anonmyity is a hard problem.  It follows that while developers will want to present to the public simple and clear explanations of how their tools work, it may not be possible to dumb down discussion below a certain level.  
+
+The article discusses a body of research which suggests that while some people are not put off by careful discussions of inherently complicated problems, and may even enjoy jumping in to complex discussions full of technical details, other people are upset or even angered when they learn from a careful discussion that their previous understanding was simplistic, because such revelations of intellectual inadequacy threatens their ego:
+
+http://arstechnica.com/science/2012/10/weve-located-the-reality-distortion-field-and-its-in-the-consumers-brain
+
+I think this really could explain why one often sees short posts in software-related forums expressing anger at posters who are trying to discuss the details of a complicated problem.  If I am right, the careful thinkers who are not put off by discussions of complicated problems should bear in mind that some people may not welcome anything which tends to suggest that their understanding is faulty.  Whichever of the three suggested explanations applies in particular threads, it seems likely that the best response is to just ignore short angry posts.
+
+This insight may also help software developers generally to write documentation at their websites.  I think it suggests a simple rule of thumb: in order to write documentation calculated to please both the simplistic thinkers and the subtle thinkers, replace each documentation page by two pages, the first giving a simplistic explanation calculated to please the simplistic thinkers, and a link to a second page which delves into the complexities which careful thinkers will want to read about (since this group will probably have spotted some major gaps in the simplistic explanations).  My idea is that the simplistic thinkers simply won't bother to follow the link, and thus will not be offended by evidence that their understanding of the software's benefits and risks is faulty.
+
+But developers of privacy-enhancing tools have a special and difficult problem: failing to adequately explain subtle points might conceivably actually endanger simplistic thinkers who use a tool like Tails without having read deeply enough to recognize that they are not using Tails safely.
+
+This raises the rather awful question: in a on-line environment in which average citizens are increasingly exposed to more and more subtle/sophisticed threats from more and more capable adversaries targeting everyone, will simplistic thinkers be literally selected against by lethal adversaries?
+

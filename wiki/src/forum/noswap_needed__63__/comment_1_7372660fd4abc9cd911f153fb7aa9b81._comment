@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-19T01:35:00Z"
+ content="""
+>Hello!
+
+Hello! ...and welcome!
+
+>Forgive me when I'm asking a stupid question
+
+No such thing ;-)
+
+>is it needed to add noswap
+
+No. Tail's won't touch your HDD(s) at all unless you specifically instruct it to... and swap use has been particularly thoroughly disabled.
+"""]]

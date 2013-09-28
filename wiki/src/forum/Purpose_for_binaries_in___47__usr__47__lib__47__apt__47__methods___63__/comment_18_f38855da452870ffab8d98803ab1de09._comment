@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2013-02-25T05:54:08Z"
+ content="""
+>\"Old versions\" are not neccessarily bad; if known security holes are patched,
+
+Comment 6 mentioned specific examples of pkges that he claimed have still-unpatched security holes, yet remain in Debian Stable and hence Tails.
+
+I have not seen you refute this specific claim. 
+"""]]

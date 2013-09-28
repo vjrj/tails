@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-03-03T08:58:42Z"
+ content="""
+re:2
+
+All nodes without exception now appear so much faster than in 0.16. Its not just 1 or 2. Its wierd. Can you post the details of a top node as an example?
+
+'chaoscomputerclub' node for example is nearly 160Mb/s in bandwidth.
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-08T10:08:54Z"
+ content="""
+> No, this is really normal. Most of the web has worked like this for the last decade or so. Including almost all the high profile sites you're likely to be visiting.
+
+Confirmed.
+
+> If it worries you, turn of JS and much of it will go away.
+
+I believe this is untrue and should not be repeated without serious backing information. Completely turning off JS is generally not doable, and turning it on on a per-origin basis is likely to make you even more fingerprintable: <https://lists.torproject.org/pipermail/tor-talk/2012-May/024227.html> is a good start to think about this topic.
+
+"""]]

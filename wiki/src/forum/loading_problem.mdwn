@@ -1,0 +1,8 @@
+Hi, I have laptop hp pavilion, I tried to boot dvd+r with linux, I tried usb with linux and then dvd+-RW with installed tails 0.12 and USB with tails 0.12, I did not succeed to load/boot any linux. 
+
+I get option to select boot device, so, boot option in bios is not problem. I set HDD to be last in order, CD/DVD is first optrion and USB second option.
+
+There is no written error only dark screen, and here is error written when I use USB with Tails:
+loading please wait (process 228): glib warning **:getpwuid_r(): failed due to unknown user id (0)
+
+I don't know what it means but I can not believe it is factory installed that people can not use linux. there is factory installed win7.

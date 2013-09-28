@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-18T16:21:02Z"
+ content="""
+I cannot reproduce this. Please [[report a complete bug|doc/first_steps/bug_reporting]].
+"""]]

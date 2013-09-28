@@ -1,0 +1,39 @@
+"It sound like some people I know who "Keep getting all these virus things no matter what I do!""
+
+Remember the Sony BMG root kit?
+Remember how no Antivirus detected it? Not even Anti root kit scanners?
+Remember how only one tool initially detected it?
+
+Now consider for a moment how many other government software/firmware moles/rootkits may be lingering within millions of people's proprietary systems (hardware/software-OS).
+
+Wikileaks published a lot of information on companies willingly selling rootkits to governments and organizations. And do I really need to bring up HBGary?
+
+So many fools using multiple proprietary scanners on their systems, the makers of which could all be in bed with big bro, the programs and/or updates could contain rootkits, and seriously, what the fsck is up with Microsoft and Flash both having so many remote exploits being patched all of the time?
+
+The very products you trust, imo, could be the very e-poison from which you e-drink from.
+
+To this day I laugh inside when twits tell me their system is "clean" because they scanned it with several proprietary tools.
+
+Face it, even on Linux the quality of the root kit scanners are piss poor. You have to boot into a separate environment (like Remnux) to evaluate the malware, but most people won't do it, they'll wipe and reinstall and rely only on signatures which can be compromised. And when they find out they have an APT which continues to reinfect their computer(s)? Would they be intelligent enough to consider a firmware (PCI/BIOS) infection which survives hard drive wipes? Do they also have infected thumb drives laying around they plug into other computers around home and/or friends/family/work?
+
+Chkrootkit has a function to list the strings of binaries, but it's up to you to determine whether or not the content of the strings are malicious. I've tried several root kit scanners on Linux and all of them are, imo, crippled pieces of trash. The crowd will yell back at you, "But most of these require root to exploit!" No, not at all, there are hundreds of ways to exploit a Linux box, many not requiring root, but a particular program/version. I won't even bite down on the subject of ways to subvert package managers. Heck, how many Linux repositories use SSL? SSH? Torrents with established "good" check sums for thousands of packages?
+
+And I've not mentioned Flash and Adobe Reader for Linux and the past problems with those... and the NVidia driver for Linux, had in the past, one or two severe security issues whereby a remote exploit could take over the system! (Google it. The news of one exploit was in 2006.)
+
+Our proprietary hardware and software are both at risk, and likely subverted world wide on millions of computers by governments and select organizations. The fact it takes years until a researcher trips over a particular piece of malware which none of the antivirus companies are detecting is inexcusable.
+
+Were I head of a commercially developed antimalware company, I'd develop a website similar to Virus Total, but instead of the users uploading single files one by one, I'd give them a FOSS program which checked every part of their hardware, embedded and manually inserted, checksum the firmware (of all media drives, graphics cards, anything with firmware) and BIOS and tear apart the results, funneling them into separate result pages, each result for each component going to its own page for comparative results, rather than building a profile on one user's system. I would offer the users the option of publishing a one page result for their unique computer, but it would be opt-in only. Yes, checksum the firmware, including the router, and demand companies publish checksums and use GPG to sign their firmware, all of this information would go to the site as described. A massive database of important, but anonymously pulled and published information.
+
+It's just going to get worse.
+
+On the side, I've been saying to myself for years, IMO, "When Microsoft finally starts to show signs of weakness and loss of power over the OEMs, it will try and reinvent itself through crippled hardware and force others to beg at its door for access. They will, imo, follow the same route as Apple, tying software to hardware. I'm shocked it hasn't happened sooner." Then the reverse engineering can begin, just like the WINE project which was abandoned by Corel following Microsoft's involvement with Corel, despite the good word from some former people at Corel who said they would continue to develop WINE. It wasn't much longer until Corel Linux was **** canned, and the support for WINE dried up like a neglected grapevine.
+
+People like to poke and laugh at people like RMS who are sane and their visions a philosophy to stand by and build upon. Sadly, it's mostly about 'image' in today's society. This is why, in part, you'll never see a true world leader elected who benefits the people and country as a whole, because it's just like high school, you only have a few choices between the approved popular cliques, the rest are shunned and ridiculed. So we have two, I would argue, controlled choices, the Republicans and Democrats, and we have two, I would maintain, jocks, Apple and Microsoft.
+
+Bring on the 3-D printers and eventually the Star Trek like replicators, so we can put an end to the sweatshops in China and elsewhere, and to the two jocks in school.
+
+Soon our future will be collaboration of FOSS and FOSH(ardware) and we won't sit idly by as the two jocks push their creations onto us, we will forge our own.
+
+Oh, and you can kiss my ass Republicans and Democrats, whose power is only illuminated by controlled corporate media and further shaped by humor from The Daily Show, Colbert Report (they didn't have much to say during the last writer's strike, did they, yet people think they're so witty -- wrong! more corporate ****!) and SNL (why the fork wasn't stunk in SNL years ago is beyond me, it's like watching The Simpsons, someone left the building and forgot to turn off the light - I won't even dig into the, imo, illuminati Family Guy show).
+
+The future is up to us, the power is in our hands, we only have to turn off the TV and stop swallowing the **** they feed us and join together to mature technology.

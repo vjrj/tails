@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Happens on reboot to Linux as well"
+ date="2013-03-26T20:37:02Z"
+ content="""
+When I reboot my Debian 6.07 machine after using Tails 0.17 my hardware clock is off by several hours.  After I change the RTC to the correct time and boot the system, the clock in Debian is still off by several hours.  This is rather disconcerting.  I'll try it on another computer and see what happens.
+"""]]

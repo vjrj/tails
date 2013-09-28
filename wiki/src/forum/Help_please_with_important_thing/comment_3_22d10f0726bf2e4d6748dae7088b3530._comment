@@ -1,0 +1,61 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-29T18:30:29Z"
+ content="""
+Tails is based upon Debian, which means that if you risk setting up a root password when you boot Tails you can use synaptic to live-install a Debian package.  There are several which are not in Tails (but IMO should be):
+
+* seccure
+* ssss
+* steghide
+* outguess
+* qtqr
+* some fractal random-image generating program (several choices, none ideal) 
+
+Try these links:
+
+     http://packages.debian.org/wheezy/seccure
+     http://packages.debian.org/wheezy/steghide
+     http://packages.debian.org/wheezy/outguess
+     http://packages.debian.org/wheezy/ssss
+     http://packages.debian.org/wheezy/xaos
+     http://packages.debian.org/wheezy/qtqr
+
+Seccure enables users to use elliptic-curve public-key cryptography (ECC), which offers much stronger security for a given key size (and could become essential if Rijndael aka AES is broken).
+
+Ssss enables users to break up a long random encryption passphrase (for a symmetric cipher, for encrypting a very important big file) into many small files called shares which can be stored in different places; the secret (the passphrase or whatever it is) can be recovered only combining enough shares.  This can be leveraged in schemes which may offer strong protection against even \"rubber-hose cryptography\", under some circumstances.
+
+Steghide and outguess are excellent steganography packages which can hide small encrypted messages (like date and place of next meeting) in image or audio files.  It is very important when using steganography to hide the information in a file whose original is not available elsewhere.  The reason is that it is very easy to use diff or even md5sum type hashes to distinguish between the original image and an image which contains a hidden message.
+
+Fractal generating programs are ideal for that purpose, although it seems none currently available are particuarly easy to use with steganography. (Authors of fractal generating programs seem to make it as hard as possible to simply generate and save a random image for modification by steghide or outguess.  Possibly intentionally; probably not.)  After hiding the encrypted message inside the image file, which creates a modified image file (which to all appearances is identical), it is essential to shred the original.  (In principle it is possible to never save the original image to hard disk or USB stick, but right now this seems hard to avoid.)
+
+You can use the utility hd (hexdump) in a console (Linux shell) to investigate image files byte by byte, so you can see for yourself how steganography utilities modify images (usually leaving the first several dozen bytes alone).
+
+Once you have hidden an encrypted message in an image, you can possibly make it publically available in an unobtrusive location somewhere on the web, for example in a website sharing \"artwork\".
+
+Qtqr enables you to create or interpret QR codes, small image files which can be read by many smart phones.  Unfortunately it does not output images in the right formats for steghide or outguess but you can use standard image processing tools already available in Tails to convert the QR code image to one which can be surreptitiously modified by steganography.  Note that our adversaries can easily figure out what the binary for the QR code read by their phone should be, and if they find a binary in someone's computer disk or USB stick which looks like the same image but which is different at the byte level, they are likely to suspect this modified image contains a hidden message.
+
+You can print QR codes on labels and stick them in unobtrusive places in public spaces (which could appear very suspicious if the area is under high-definition CCTV surveillance, but it can be done very quickly and despite what \"image analysis\" vendors may claim, is probably hard to reliably \"notice\" even with advanced real-time robotic-monitoring of CCTV imagery).  The idea is that a collaborator can later quietly snag the image with a smart phone (not so suspicious now that all kinds of people photograph almost everything they encounter).  
+
+The QR-encoded message is in plain text (readable by smart phones but not by a human's naked eye), but that plain text could be for example one of several shares created using ssss, or a base-64 encoding of a short encrypted message.
+
+Since anyone can happen along, use a phone to read the QR-code, and figure out that it appears to be a base-64 encoding of an encrypted message, this \"letterbox\" or \"dead drop\" method can be hazardous, but it's probably better than some other schemes for common tasks such as secretly alerting someone that you need to set up a meeting.  (\"Deep Throat\" watched Woodward's balcony for a moved flowerpot, which was the signal for him to meet the reporter in an underground parking garage in Washington, DC.  Since \"Deep Throat\" escaped exposure for decades, that was a good method for the mid seventies, but might not be so good today.)
+
+By default, gpg compresses text before encrypting it using a symmetric algorithm.  You can use openssl to base-64 encode and/or encrypt a file without first compressing it.   Both gpg and openssl are available in Tails.
+
+If you have a short message, try this to encrypt it using blowfish and then base-64 encode the ciphertext for passing to qtqr in order to make a QR code image you can print on a sticky label:
+
+    openssl bf -a -salt < msg.txt > msg.bf
+
+To decrypt try
+
+    openssl bf -d -salt -a < msg.bf > msg.txt
+
+Unfortunately qtqr may not be convenient to use in combination with such line commands, but this can be made to work.   Only short files can be encoded in a QR code.  Before you ask, only shortish files can be split up using ssss.  There are other standard linux utilities which can chop up text files though.
+
+    man head
+    man tail
+    man cat
+
+Be imaginative!  Open source software encourages \"thinking outside the box\", so you can probably come up with practical schemes I haven't thought of.
+"""]]

@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-04T20:26:42Z"
+ content="""
+The persistent volume are LUKS partitions, encrypted using `aes-cbc-essiv:sha256`. If we wish to add another layer of encryption on top of that, you can do [[symmetric encryption using GnuPG|doc/encryption_and_privacy/openpgp_passphrase_encryption]].
+"""]]

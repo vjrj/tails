@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-09-27T11:21:41Z"
+ content="""
+@ WHAT'S I2P AND HOW DOES IT DIFFER FROM TAILS/TOR?:
+
+First of all, did you read our [[I2P documentation|doc/anonymous_internet/i2p]]? If so, what's unclear?
+
+> I came across something \"I2p\". When I clicked on it, it closed my valiala bundle
+
+Do you mean that Vidalia exited when you started I2P? If so, that's a bug. Please [[report it|support/found_a_problem]].
+
+> the browser was still using IP address of TOR saying that I was connected to TOR network.
+
+As you have noted I2P and Tor are two different anonymity systems, but they are not mutually exclusive. In Tails you can run both of them at the same time, i.e. I2P for I2P related stuff (e.g. visiting `.i2p` web sites) and Tor for all interaction with the normal Internet and Tor hidden services (e.g. `.onion` web sites). Tails' web browser is configured to automatically use the right anonymity system depending on the address you visit, so if you visit <https://check.torproject.org> (normal Internet) Tor will be used (like you experienced) but if you visit <http://www.i2p2.i2p> then I2P will be used.
+"""]]

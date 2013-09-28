@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Something to bear in mind"
+ date="2012-10-21T17:41:39Z"
+ content="""
+You may already know this, but in case another reader does not:
+
+To some extent browser security and anonymity are conflicting goals.  The single most important thing you can do to improve browser security is probably to disable JavaScript entirely (or at least to configure NoScript in a fairly paranoid way), but these changes will significantly alter your browser fingerprint and can reduce your anonymity.
+
+You may want to search for and experiment with the jondos anonymity test site and the EFF panopticlick test.  Be aware that the Panopticlick statistics are based upon a self-selected sample and that repeated testing by one person will further skew their results (as they explain), so the results are probably misleading, possibly seriously misleading.  But users of Tails 0.13 seem to report scores in the range of \"one in 2000-5000 browsers\", which is awful.  Users of TBB using the default configuration seem to do better, but still badly.  I found that by making changes suggested by poor results at jondos, such as enabling Do-Not-Track, disabling cookies, disabling image loading, disabling Javascript, and also making some further changes to try to prevent things like the storage of favicons, I can get my Panoptic click score under \"one in a hundred browsers\", at the expense of adding perhaps three bad data points (due to repeated testing) to their database (sorry, EFF!). 
+
+If you are not familiar with browser fingerprinting, you should probably look for some EFF papers on that, and also read Mike Perry's writings on the design philosophy of Torbutton (and essential component of Tor), particularly with regard to browser fingerprinting.  The EFF also offers a short primer on information theory, which should help you to understand how so many bits of enctropy corresponds to one in so many browsers.
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Yet, this is relevant question"
+ date="2012-12-23T14:35:34Z"
+ content="""
+I do agree that this question is not Tails specific, but a the same time, Tails being a beacon in the world of secured live OSes, at least a few people using it will want to have a crack a building/using safer hardware in the years to come.
+
+ For the moment, ther's not much documentation anywhere in the open (most of it is hidden in defcon/chaos/... and sometimes more obvious places like hackernews) about what makes a certain component secure / backdoor-able. It's certainly an area which will get alot of interest / traction in the following years.
+
+Thx for raising this valid point.
+"""]]

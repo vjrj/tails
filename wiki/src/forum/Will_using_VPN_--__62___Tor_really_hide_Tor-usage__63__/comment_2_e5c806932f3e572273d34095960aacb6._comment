@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-27T06:04:17Z"
+ content="""
+I asked the tor helpdesk a similar question regarding bridges, the official response is that obviously they cannot know what a national adversary knows, in that bridges/vpn's are only as secure as they are up until an attackers figures out (legally or otherwise) that the vpn/bridge is for tor, however they did confirm that the 'signature' of tor traffic can be determined even if encrypted (which it is anyways by design) so theres really nothing you can do to hide this. If you are living in a country where tor is illegal the best you can do is hope they dont notice and use obfsproxy with bridges.
+"""]]

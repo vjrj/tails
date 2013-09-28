@@ -1,0 +1,8 @@
+hi, is it ok to kill the process monkeysphere-va via PID? ok i dont remember exactly the reason why i wanted to do this (i think changing password in terminal didnt work)...
+
+i think there are likely some other reason to do this.
+
+but is it safe to change the pass this way? for example: a program freezes and you need to go back to tails greeter to reset the whole thing. so, you need to type in the password again or a new one.
+is this in some cases a security prob?
+
+cu

@@ -1,0 +1,10 @@
+I installed Tails on the wrong drive. I then formatted to a FAT32 drive in Ubuntu 12.04 using Gpart.
+
+Tails created a 2gig part on a 1T drive and deleted the entire drive.
+
+I deleted the Tails part and then formatted the entire drive as FAT32.
+
+Can I recover the data using an open-source app?
+
+Thank you,
+ Tom

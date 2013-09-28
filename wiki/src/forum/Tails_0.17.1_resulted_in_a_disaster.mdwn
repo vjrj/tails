@@ -1,0 +1,11 @@
+Downloaded Tails 0.17.1 .iso image from this site, installed it with the latest version of Universal USB Installer (can't check the exact version number of UUI as the site is down at the moment of creating this topic), and rebooted the computer.
+
+A couple led flashes on the pendrive, then a blank screen followed by intense HDD activity judging by the blinking HDD leds and noise.
+
+After about 10 seconds of wondering what's goind on i hit ctrl-alt-del, and found my BIOS had been reset. I reconfigured it and booted back to Windows, only to find the network adapter missing.
+
+Missing as in not there at all, as if the physical PCI card had been taken out.
+
+I've no idea what happened, i had replaced my CMOS battery about 3 months ago and i have now run HDD diagnostics as well as RAM diagnostics: no errors.
+
+Why the hell did booting Tails use my physical drives, and to what end?

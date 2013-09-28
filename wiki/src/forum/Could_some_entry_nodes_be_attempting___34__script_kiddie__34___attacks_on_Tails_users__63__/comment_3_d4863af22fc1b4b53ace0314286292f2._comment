@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-06T14:26:37Z"
+ content="""
+> Re-using known (but unused on that particular Tor node) ports like this 
+
+Just want to check there was no misunderstanding: the \"suspicious\" *combinations* of ports are on my machine; the ports on the Tor entry nodes are the expected ones
+
+> may actually be USEFUL to some Tor users!.. E.G. facilitating connections to the Tor network from behind heavy corporate firewalls which could block all ports other than those whitelisted because they are essential for boring corporate services - like the stuff you listed ;)
+
+I *think* you are hinting that I am noticing improved obfuscation by Tor, is that right?
+
+Spot checking does show that outgoing traffic does appear to be doing the expected things (handshake) to establish TLS traffic stream.
+
+"""]]

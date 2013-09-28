@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not so difficult..."
+ date="2012-07-23T01:09:43Z"
+ content="""
+*Not* being a Tails developer, I *can* tell you that the argument one must add to a Grub2 Tails .iso boot command, in order to invoke the greeter, is... drumroll please...
+
+    nox11autologin
+
+Have fun ;)
+"""]]

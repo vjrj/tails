@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-24T23:37:24Z"
+ content="""
+I hope not, because that would pose a huge risk to anyone who really needs to shut down Tails in a hurry!
+
+Are you talking about the red power button in the upper right of the Tails screen, or are you talking about the physical power button on your laptop?   Either way, I can't imagine how you are hitting the button when you pick up the laptop.   And what happens when you do accidentally hit the power button?  Does the screen instantly go dark, or do you see the usual shutdown sequence followed by wiping the memory (which puts junk on the display)?
+
+
+"""]]

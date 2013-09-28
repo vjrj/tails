@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-04-08T20:08:42Z"
+ content="""
+> It will let us know someone has started Tails at a given time. That's all. The Tails team does not even get the IP of the exit node being used, as our web hosting provider (boum.org) does not save this information.
+
+Good to know; thank you.
+
+I understand why the Tails team needs to alert Tails users in a timely way to updates, and realize that this initial connection is pretty much what TBB does for the same reason.
+
+But I think the OP is trying to identify an issue which also concerns me.  
+
+I'd put it like this: when Tails boots up, right now, the user has no control over some things it does right way, which are well-intentioned and valuable, but which could have some unintended bad consequences over time for anonymity.  For example, highly predictable Tails specific behavior like always connecting to a specific web page could possibly be used by someone collaborating with
+
+* an IX in a postion to monitor traffice to/from the boum.org servers 
+* a \"suspect\" user's ISP
+
+to mount a traffic confirmation attack.
+
+Even if you disagree with whether or not that specific scenario is plausible, you might agree that predictable Tails specific behavior when booting a Tails system is a weak point since it provides a signature which adversaries can by hook or crook try to exploit to harm users.
+
+I'd like to see a boot option allowing the user to declare his/her intention to manually check the Tails news page at some unpredictable time of his/her choosing some time after booting up Tails.  This would at least allow some flexibility.
+
+I am aware that in principle, anonymous systems work better when everyone is treated the same, which in principle results in maximal entropy confronted by an adversary trying to de-anonymize a user.  But I feel that this horse bolted the stable when the Tor developers introduced load balancing by ensuring that high bandwidth Tor nodes are chosen more frequently, thus creating the issue we have discussed here several times, an issue which has persisted to a discouraging extent despite the growth over last few years in size of Tor network, namely the fact that only two or three dozen operators carry more than half of all Tor packets.
+
+I'd also like to see a boot option for nixing certain Entry Guards which some users may have good reason for distrusting, at least in that role.  This should really be an option in Tor itself but the Tor developers have shown little interest in providing user control over Entry Guards similar to that over Exit Nodes.  But both these things are involved in confirmation attacks.
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-17T15:53:12Z"
+ content="""
+@ comment 3
+
+Thanks for the link to the page *Virtualization*
+
+I reproduce below the last line of the section *Security Issues\" of that page:
+
+**If you are unsure, and if you can afford it, just run Tails from a DVD or USB stick.**
+"""]]

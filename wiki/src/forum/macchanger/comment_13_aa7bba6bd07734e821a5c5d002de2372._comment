@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="macchanger"
+ date="2012-06-26T08:07:47Z"
+ content="""
+<<I placed
+
+! /bin/sh
+
+sudo macchanger -a eth1
+
+in an executable file to etc/network/if-pre-up.d
+
+seems to work fine !>>
+
+Please help! HOW CAN WE SAVE CHANGES? Should we clone system with written changes? or there is any better way?
+"""]]

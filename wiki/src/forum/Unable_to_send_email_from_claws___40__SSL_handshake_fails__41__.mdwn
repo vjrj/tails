@@ -1,0 +1,15 @@
+I have setup a hotmail account and entered its settings successfully in claws so that it recieves email (pop3), however when i go to send it, with the following settings:
+
+apop disabled (claws wont retrieve mail with this enabled)
+SMTP auth set to 'login'
+authenticate pop3 before sending enabled
+use SSL with pop3 (for sending and recieving)
+
+have also tried with with 'use nonblocking ssl' enabled and disabled. I get this message with SSL enabled:
+
+* Connecting to SMTP server: smtp.live.com ...
+*** SSL handshake failed
+*** Error occurred while sending the message.
+
+If i set it to use STARTTLS instead it tells me im attempting to connect over an unencrypted connection, then it fails. I dont know what else to do.
+

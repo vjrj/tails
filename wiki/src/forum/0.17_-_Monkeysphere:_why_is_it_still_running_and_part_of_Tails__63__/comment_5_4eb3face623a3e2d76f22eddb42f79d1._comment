@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-15T04:34:13Z"
+ content="""
+@comment 3:
+
+>The Monkeysphere Project tries to solve the same problem by using the PGP Web of Trust model to assess the authenticity of https certificates.
+
+In 0.17, there is no longer a Monkeysphere browser plugin, so the project is not helping https certs. It's running in the background and attached to an .onion domain:
+
+See ~/.monkeysphere/monkeysphere.conf
+
+for the .onion url.
+
+---------------------------
+
+@comment 4:
+
+>The OP's question was answered so this thread is now closed.
+
+No, it is not closed.
+
+For those of us who want to remove the Monkeysphere package, how is it done? When I attempted to purge it my screen flickered and it logged me out to begin a new session with the window which gives the option to set a password and use WinXP camo.
+
+>Please don't spread uninformed and undocumented FUD here, and please don't paste links you obviously have neither read nor understood: they're useless but to waste everyone's time.
+
+If you have read so much, maybe you can answer the OP's questions - the Monkeysphere project is for SSL and SSH. If the browser plugin is removed, there is no SSL verification via hidden service happening, so why all of the SSH related scripts and tmp socket?
+
+How may we safely remove the Monkeysphere project from our systems if we don't want it. Nothing was explained in response to the ssh related activity and I don't want the package or programs running in my sessions.
+
+You should be excited with open discussion for your project, thrilled it is popular and people are curious about the insides.
+"""]]

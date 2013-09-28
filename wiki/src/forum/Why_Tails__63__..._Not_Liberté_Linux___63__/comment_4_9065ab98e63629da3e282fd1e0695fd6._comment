@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-11T19:14:06Z"
+ content="""
+Anon #2
+Liberte forum - http://forum.dee.su/#home
+
+I have never used Linux before nor did I need to use the terminal in my Liberte sessions.
+
+The biggest problem I have with TAILS is well summarized here:
+
+\" And a general sliming down of the distro to the essential items and focus on the anonymous web access will probable keep its size at CD level.\"
+
+Hopefully \"light\" edition will come somewhere in the future.
+
+Liberte does not have any support for TrueCrypt containers nor is mounting LUKS volumes very user friendly. Big minus.
+
+I still don't like Midori, the browser in Liberte.
+
+Inclusion of RedShift (http://jonls.dk/redshift/) was a genius move.
+
+Good and both sides of both, waiting which one will implement obfsproxy and persistent guards first.
+"""]]

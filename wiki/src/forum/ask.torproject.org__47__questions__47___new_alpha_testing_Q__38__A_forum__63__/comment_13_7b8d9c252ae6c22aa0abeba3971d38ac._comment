@@ -1,0 +1,94 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 13"
+ date="2013-05-28T02:02:45Z"
+ content="""
+@ comment 8:
+
+First of all, you seem to refer to us, i.e. the forum/wiki account `Tails`, as a single individual several times in you post. This is not true; we are several individuals that take shifts sharing this burden, so yeah, expect different styles, opinions etc. from time to time. 
+
+> > We'd never accept any NDI money if there were any strings attached to it.
+
+> Thanks much for the explicit disavowal.
+
+Sure, but it's just words. You may be interesting in our article about [[trusting Tails|doc/about/trust]]. Teaser:
+
+    [...] Do you trust Tails and its developers? Do you think we have planted backdoors in Tails so we can take control of your computer, or that we make Tails generate compromised encryption keys in order to enable the government to spy on you? Do you simply trust our word on that we are legit?
+
+    No matter what your opinion is in this matter you should ask how you reached that conclusion. Both trust and distrust need to be established based on facts, not gut feeling, paranoid suspicion, unfounded hearsay or **our word**. [emphasis added]
+
+> I want to believe we are on the same side and mostly do believe it. At times, when I cannot guess why you might do some of the things you do, it has been difficult to sustain that faith.
+
+Then question our changes, either here on the forum or (preferably) on our tails-dev mailing list. We do not claim to be fault free, and we actively welcome and encourage well-argued, constructive, technical criticism. I'd also like to add in **concise**. I'll take on you complete post this time, but in general that will not happen. It's just too overwhelming. In particular, for this thread after this post I'll only answer to strictly technical issues that **I easily can identify**, which rules out even valid question if they're hidden between pages of quotes from EFF/The Register/other random web sites. Sorry.
+
+> > Nevertheless, registering will be harmless.
+
+> [...]
+> Whenever you introduce forum-unique username/password pairs tied to logon timestamps and other data, such data can be potentially associated with a wealth of other data, which entails a serious risk of de-anonymization
+
+This is true in the general case, but I carefully worded it so that this absolutely isn't true for the specific case I described. Key phrases from what I suggested:
+
+1. \"random username\"
+2. \"random (non-existent) email address\"
+3. \"random password\"
+4. \"throw-away account\"
+5. \"post your question, and then forget about the account\"
+
+All the data you enter is random (1-3), which technically speaking means maximum (Shannon) entropy == zero information, so there's even mathematical basis for the claim that such data doesn't leak anything about your physical person or your pseudonymous online identity (or identities). Furthermore, you only use the account once, right after it's registered, (4-5) so any logged info is as usable as what you get from the http(s) session itself (less so, in fact, since the browser characteristics contain a whole lot of information) so no additional information is leaked.
+
+> Any introduction of user-specific uniquely-identifying data is asking for trouble
+
+Not if it's only used once, for a single session. Unique identifiers are used for correlating sessions/identities/data/whatever, and if the identifier is only used once (i.e. throw-away) and doesn't depend on any previous session/identities/data/whatever (e.g. it's random) no further correlation is possible, so there's no problem.
+
+> Because it is hosted in the USA, the possibility that Tails website data might be seized by the US authorities is particularly worrisome.
+
+Incorrect:
+
+* Our web server not hosted in the US, just try the command: `whois boum.org`. But even if it was hosted in the US (or some other arguably adverse country) it's not a problem. This relates to the problems with \"security by policy\" which I'll return to later.
+
+* It doesn't keep any IP-level logs. Even if it did it's not a problem. Nothing prevents a powerful enough adversary to do the IP-level logs of our server itself, **completely unnoticed**, unlike a hardware seizure, which at least will be obvious to the operators.
+
+About the only things on our servers that are not already [public](http://git.immerda.ch/?p=amnesia.git;a=tree;f=wiki/src;h=refs/heads/master) are the email and passwords (hashed) that registered forum/wiki accounts use. In other words, a hardware seizure will reveal no useful information except potentially sensitive password/email info for users with so poor security culture that *no* technical solution can ever save them.
+
+> To summarize, introducing username/password pairs, even \"single use\" pairs, violates another maxim:
+
+> If you don't keep the data, adversaries cannot steal, subpoena, or seize the data
+
+Nothing of what you wrote proves (or even suggests) that using \"single use\"/throw-away unsername/password pairs introduces any issues of the sort.
+
+> > Creating such a throw-away account has zero security implications
+
+> I am not so sure about that. At the very least, I think the Tails developers (who know technical details about the proposed forum) should \"Red-team\" that concept to better assess how an adversary might exploit logons together with (for example) geolocation data (including information inferred from timestamps). Starting from a detailed assessment of what kinds of data precisely would be kept by the forum and what data could be kept (potentially) by your webhost.
+
+You keep on going about timestamps. Sure, they most certainly can be an issue, but it's all about context, and that quickly gets hairy and technical. In general, timestamps that the **client** (e.g. you) generate and send to a server is really bad, since that's often a unique identifier (well, actually it's the clock skew that is) that will persist (at least) throughout your current session, which may span over several online personas that then can be correlated. If the server generates a timestamp for a post/request/whatever it doesn't leak any such identifier. Any external observer can generate the same timestamp (+/- the server's clock skew, but that's irrelevant) by observing the traffic flow. That's even true when https is used, which encrypts the data and hence seemingly adds a veil over what's going on; when a new post appears, the observer can simply use the logged IP-level info to correlate a https stream to the post since many of its characteristics are easily predictable. In particular the data size of a https stream can be compared to the size of the text posted, but the same principle can be extended to pretty much all other activities, like fetching a page.
+
+Any way, last I heard, the Tor web servers do not log any IP info, so there will be no geolocation data. Even if they did, how does adding the random and throw-away (i.e. zero information == useless) account info make the situation worse? The IP-level info already has the information they need, except if the connection was anonymized with e.g. Tor. In that case the random and throw-away account info + IP-level info is completely worthless. But again, just like the case with the Tails website, the IP-level info can be gathered by an external observer, and even though https is used, the observer can link it to the activity just like I described in the previous paragraph.
+
+The essence of what you are doing again and again is arguing for \"privacy by policy\", i.e. that we, as a content hoster, promises that we don't log stuff. However, we can lie and cheat, and even if we don't, I've demonstrated that external observers (i.e. the ones you don't want to have have the logs) can deduce much of that information any way. In other words, \"privacy by policy\" is mostly nonsense that you cannot rely on. Instead I recommend relying on tools and practices that have \"privacy by design\", where the importance of server side integrity is minimized, of which Tor itself is a grand demonstration.
+
+For the record: I may be wrong, but I'm pretty sure I recognize your writing style and other characteristics from previous forum postings. IMHO, that's a serious information leak; a throw-away account isn't, cause it contains no information. This may also want you to reconsider your strong reluctance to use email or registered accounts. Your style is a strong telltale. Just a heads up.
+
+> Your glib assertions that something is \"harmless\" lead me to fear that you are not thinking through the possible implications, which are numerous and complex. The potential dangers are immense and that is why I felt it necessary to offer detailed discussion of some specific concerns, together with some links to trusted sources of reliable information.
+
+For the record, the harmlessness of throw-away accounts is about as easy as it gets for us.
+
+The problem with your quotes and sources is that they're high-level and completely devoid of the precise, technical context necessary for any meaningful discussion beyond \"yeah, we know the US/$OTHER_CONTRY/NSA/$OTHER_AGENCY sucks\", *which is not related to Tails*. Therefore they say nothing about specific scenarios like \"I use Tails/Tor to register a throw-away account and post a single question -- what *additional* information does the use of a throw-away account leak?\". Luckily this particular scenario doesn't require **any** context; by the laws of nature/mathematics/$DEITY, a throw-away account's information contain zero information, so it doesn't leak information, so there are no anonymity implications.
+
+> Concision is however apparently not a virtue which comes easily to me, and I don't think I should be excluded because some find my writing style objectionable any more than I should be excluded because of expressed opinions on Tails-related issues.
+
+I think my own post is a testament to my own issues with concision. :) At least I try to keep it technical, and you'll pretty much end up there if you cut away the large (and IMHO often irrelevant, due to their high-level) quotes.
+
+> > for in-depth discussion about e.g. new surveillence methods in themselves there are other, better forums.
+
+> You have stated that repeatedly, but when asked these questions you never give satisfactory answers:
+
+> what are these forums?
+
+One of my hits for while searching for \"security privacy forum\": <http://www.wilderssecurity.com/forumdisplay.php?f=39>
+
+> do they allow unregistered users to post?
+
+Probably not, but that's utterly irrelevant. We want to support anonymous/unregistered posting here for obvious reasons, but just because you refuse to use forums that require account registration you're not invited to discuss whatever you want here. This forum has a limited scope for reasons I have clearly stated. This is not an issue about free speech. You don't discuss the nano-particle research in cooking magazines. Scope!
+"""]]

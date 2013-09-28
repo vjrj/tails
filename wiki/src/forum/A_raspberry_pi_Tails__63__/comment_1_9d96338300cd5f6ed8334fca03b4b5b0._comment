@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Not for the time being"
+ date="2012-12-26T20:05:27Z"
+ content="""
+For the time being Tails only supports devices using x86 based processors like Intel and AMD, The Raspberry Pi is an ARM based device which means that Tails will not run on it in its present state.
+"""]]

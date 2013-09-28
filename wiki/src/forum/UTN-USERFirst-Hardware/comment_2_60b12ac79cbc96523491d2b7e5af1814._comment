@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-03T10:45:47Z"
+ content="""
+> Why do you use (and pay) these guys?
+
+Trust me, caving in to the SSL mafia is not something that came easy.
+
+> Not using a CA is better than one that is likely to get compromised again.
+
+I fully agree that the CA trust model is mostly a joke, but...
+
+> I'd rather have a free self-signed cert which can be included on the iso and out of band verified with signed email. CAcert is an option too but really, no https is fine as well because it prevents the false sense of security people have and instead forces them to use gpg WOT.
+
+Since modern browsers basically scares the user to death when it detects a self-signed certificate, it's not a good option. We used CAcert until a month ago, but it basically boiled down to the same thing as a self-signed certificate since most browsers/OSs don't include that certificate, and we got seroiusly tired of users complaining that \"The Tails website is broken/down\" or \"I got MitM:ed when I visisted the Tails website\".
+
+No HTTPS at all just seems like a step back, though. At least it grants opportunistic encryption, and secure authentication against at least weak attackers. I don't think most users know enough (and too little at the same time :)) to get a \"false sense of security\" when HTTPS with the CA model is used.
+
+Your idea about \"out of band\" delivery of the certificate via signed email seems awkward at best. There's already [monkeyspehere](https://web.monkeysphere.info/) (included in Tails') for using the PGP WoT to validate e.g. website certificates. If people know enough about all this there's already more secure ways to visit our website and download Tails, but I'm not sure making them a requisite is an option since that will alienate most of our target audience.
+"""]]

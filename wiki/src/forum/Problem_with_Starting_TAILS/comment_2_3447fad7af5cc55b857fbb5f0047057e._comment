@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-26T21:01:06Z"
+ content="""
+I just want to open tails on linux that is installed on USB.
+Tails is cloned on my 2nd USB.
+SO im trying to start UBUNTU first and it works.
+After that I put 2nd usb with cloned tails and what now?
+How can i run tails on ubuntu i just booted? 
+"""]]

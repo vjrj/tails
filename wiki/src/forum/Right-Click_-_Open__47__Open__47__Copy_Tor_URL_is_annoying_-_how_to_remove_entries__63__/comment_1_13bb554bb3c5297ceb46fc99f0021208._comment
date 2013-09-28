@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-03T10:31:33Z"
+ content="""
+I agree this is an annoying regression. It will be fixed once we move to the latest Torbutton (that removes this code) in a future version of Tails.
+"""]]

@@ -1,0 +1,47 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-15T00:00:19Z"
+ content="""
+Gulp!
+
+   apt-cache show geoip* | grep Package: | cut -d: -f2
+
+> libcherokee-mod-geoip
+> geoip-bin
+> geoip-database
+> libgeoip-dev
+> libgeoip1
+> libapache2-mod-geoip
+> php5-geoip
+> python-geoip
+> tclgeoip
+> tor-geoipdb
+> geoip-database
+> geoip-bin
+> libgeoip-dev
+> libgeoip1
+> tor-geoipdb
+> geoip-bin
+> geoip-dbg
+> libgeoip-dev
+> libgeoip1
+> proftpd-mod-geoip
+> tor-geoipdb
+> geoip-bin
+> libgeoip-dev
+> libgeoip1
+> geoip-database
+> kamailio-geoip-modules
+> libapache2-mod-geoip
+> libpam-geoip
+> php5-geoip
+> proftpd-mod-geoip
+> python-geoip
+> tor-geoipdb
+> geoip-database-contrib
+> tor-geoipdb
+
+Am I at least getting warm?
+
+"""]]

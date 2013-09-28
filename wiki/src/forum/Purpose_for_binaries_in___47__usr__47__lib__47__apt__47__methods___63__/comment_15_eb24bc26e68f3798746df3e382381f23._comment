@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2013-02-24T23:53:20Z"
+ content="""
+>comment 3
+>Since I won't be using apt in tails, are these files safe to delete? 
+
+I deleted them. There's no good reason to have a ssh binary and the other files present if you're not using apt in tails. I hope you have uninstalled ssh packages too if you're not using them. Tails continues to operate just fine.
+"""]]

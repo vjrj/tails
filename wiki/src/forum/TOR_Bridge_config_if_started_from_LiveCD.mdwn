@@ -1,0 +1,14 @@
+Hello!
+
+I prefer to use TOR by booting my PC with the Tails LiveCD (instead of installing it to harrdisk).
+
+As I understand, TAILS does - after booting the PC -  immediately try to connect the TOR network and therefore my advisory does know that I am using TOR :-(
+
+In order to prevent that, should I remove physically the Ethernet cable from my PC, add TOR bridges manually in Vidalia's settings and after that configuration, reconnect physically the Ethernet/router? 
+Would that approach be save (even if its nor very comfortable :-) ?
+
+
+Thank you any feedback!
+
+Bill
+

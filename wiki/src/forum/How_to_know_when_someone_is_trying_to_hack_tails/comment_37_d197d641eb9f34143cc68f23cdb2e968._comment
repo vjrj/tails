@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Two suggestions"
+ date="2012-10-20T21:58:11Z"
+ content="""
+I think it might be a good idea to keep a notebook on hand for reference in case of a panic-inducing event, with printed reminders of good first steps in a spot of local forensic analysis, beginning with not rebooting the system (much less wiping the hard drive).  Because panic-striken reactions usually amount to doing the worst things you could possibly do.
+
+It would help if up-to-date and reliable advice on basic forensics were readily available to the ordinary user, but this does seem to be the case.  I hope that even out-dated advice (e.g. CERT checklist) can still be of some use.
+
+One reason for keeping written notes is that these will be accessible even if your computer is suddenly not working properly.
+
+I also think that keeping notes on \"possible security incidents\" in an encrypted directory can be useful.  Over time I have found that the percentage of incidents where I am able to figure out what happened has increased as my knowledge grows.  When I figure out what happened I can usually classify the issue as \"not a problem\".  
+
+Again, it is possible that keeping a written or print record could be helpful in case your computer is suddenly not working properly.  But such information is highly sensitive, so if you want to print it, you should try to ensure that it does not go astray (for example, you should not send such a printjob to a WiFi printer over a poorly secured WiFi connection, or take a file from home to print at work using the office printer).
+
+In some situations, for example a human rights worker working inside an autocratic regime which frequently arrests and tortures people, keeping any written notes, or keeping encrypted but not hidden volumes on a hard drive, is probably a very bad idea.  In that situation you should memorize a five-second plan if the security police suddently pound on your door.
+"""]]

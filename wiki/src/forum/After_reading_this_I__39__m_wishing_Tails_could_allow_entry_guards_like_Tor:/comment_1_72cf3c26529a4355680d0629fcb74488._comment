@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-26T22:01:37Z"
+ content="""
+Tails uses (enforces, in fact) Tor. Tor uses \"entry guards\". Therefore Tails uses \"entry guards\"
+
+Have you had an encephalectomy OP?
+"""]]

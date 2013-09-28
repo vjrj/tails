@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-02T15:27:33Z"
+ content="""
+If I kludge and do:
+
+ln -s /usr/bin/gcc /usr/bin/gcc-4.6
+
+the atl1c driver builds and will load. (I also installed dkms first, not sure if needed). 
+
+But the module doesn't seem to work, which is not surprising since it was built with the wrong gcc version.  Kernel modules should be built with the same gcc version as the running kernel.
+"""]]

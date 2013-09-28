@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-05-06T20:10:18Z"
+ content="""
+Debian 7.0 (also known as Wheezy, or \"stable\" as of a day ago, or \"newstable\") is here:
+
+     http://www.debian.org/News/2013/20130504
+     http://distrowatch.com/?newsid=07844
+
+I have been testing Wheezy with the \"gnome classic\" themed gnome-3 desktop, in anticipation of future Tails releases which will be based on Wheezy instead of Squeeze (also known as Debian 6.0, or \"oldstable\" as of a day ago)
+
+It is true, as \"Tails\" pointed out, that with the gnome classic theme, we do have four desktops at lower right and can switch between them with one click, much as we can with gnome-2 in current Tails.
+
+However, the biggest drawback by far of gnome-3 is that *no taskbar is provided*.  Even more incredibly, *no launcher is provided*.  I have no idea why that is and would be happy if someone can explain; surely the gnome3 designers must have had *some* reason for removing these valuable features.
+
+The result is that instead of being able to stick an icon of a fav application in the taskbar and launch it will a click, one has to do quite a bit of back and forth with the mouse.  Multiple clicks and delicate motions which are tiring over time.  That is extremely Windows-like and very stupid; no wonder so many people hate gnome-3!
+
+I also found that at least on my test notebook, it is impossible to reorder the menu items (pretty sure that is a bug).
+
+So far, the best fix I have found is this:
+
+It is possible to edit the \"Applications\" menu by right clicking on that menu tab.  Then you can create a new menu called \"I'd-Rather-Be-A-Taskbar\" and laboriously populate it with exact copies of items you want, using the existing menu items in other menus.  You can click on each icon to see exactly where it is located.  Unfortunately you need to carefully create the items in the final order you want them to appear since the move action is not working!
+
+This gets us from \"many clicks and tiring mouse motions\" to \"two clicks and delicate right mouse sweeps\", which is still far worse that \"one click\", which is what we have with the task bar.  Really, this is absurd.
+
+Because Wheezy is now \"frozen\" there is not even any chance that someone will wake up to all these problems and write a taskbar for gnome3.  However, maybe Tails can find one in new testing and implement it in future Tails editions.
+
+"""]]

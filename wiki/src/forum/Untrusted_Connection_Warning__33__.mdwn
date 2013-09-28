@@ -1,0 +1,32 @@
+Sometimes when i browse via Tails some websites, they show the following message/screen of warning, and I want to know if it is completely safe to visit such websites anonymously via TAILS:
+
+********************************************
+You have asked to connect
+securely to www.xxxxxx.com, but we can't confirm that your connection is secure.
+          Normally, when you try to connect securely,
+sites will present trusted identification to prove that you are
+going to the right place. However, this site's identity can't be verified.
+            
+        
+          What Should I Do?
+          
+            If you usually connect to
+this site without problems, this error could mean that someone is
+trying to impersonate the site, and you shouldn't continue.
+
+www.xxxxxx.com uses an invalid security certificate.
+
+The certificate is not trusted because no issuer chain was provided.
+
+(Error code: sec_error_unknown_issuer)
+  
+       
+        I Understand the Risks
+          
+            If you understand what's going on, you
+can tell the browser to start trusting this site's identification.
+Even if you trust the site, this error could mean that someone is
+tampering with your connection.
+            Don't add an exception unless
+you know there's a good reason why this site doesn't use trusted identification.
+********************************

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-05T12:16:14Z"
+ content="""
+> Could we ask for more download mirrors for Tails' releases please? Such mirrors could include Sourceforge, CNet, Download.com, etc...
+
+These ones unfortunately won't integrate nicely with our DNS round-robin pool, so adding them would result in more complex download instructions.
+
+> I have difficulty downloading 0.17.2~rc1 from Tails' official site.
+
+What kind of difficulties?
+
+"""]]

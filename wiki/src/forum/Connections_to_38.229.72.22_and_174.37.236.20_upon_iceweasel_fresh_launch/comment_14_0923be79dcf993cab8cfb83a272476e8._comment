@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 14"
+ date="2013-04-11T18:15:30Z"
+ content="""
+@ Comment 9:
+
+You asked for a reference for this:
+
+> Yes, that's the server which offers the \"Tor check\" page. A valuable service, but I worry about the fact that it is apparently operated by Cymru Research
+
+Using reverse lookup, BGP, etc. you can determine that the Tor nodes
+
+      IP                name                            bandwidth (KB/sec)
+      38.229.70.51	torproxy04.teamcymru.net	12657
+      38.229.70.54	torproxy07.teamcymru.net	12484
+      38.229.70.61	torproxy09.teamcymru.net	11660
+      38.229.79.2	torproxy10.teamcymru.net	11497
+      38.229.70.53	torproxy06.teamcymru.net	11457
+      38.229.70.52	torproxy05.teamcymru.net	9690
+      38.229.70.33	torproxy02.teamcymru.net	3682
+      38.229.70.42	torproxy03.teamcymru.net	1941
+      38.229.70.42	torproxy03.teamcymru.net	1840
+
+are indeed in IP ranges belonging to Cymru Research.  As of a few years ago, their own web pages contained the statement that their business is \"researching on-line criminal behavior\" (not an exact quote), and the apparent link with the former General Counsel of \"Team Themis\".
+
+In case anyone cares, 
+
+* \"Cymru\" means \"Welsh\" in the Welsh language
+* it seems the founder of the company is of Welsh extraction
+* in some communities, \"to welsh\" means \"to snitch\"
+
+"""]]

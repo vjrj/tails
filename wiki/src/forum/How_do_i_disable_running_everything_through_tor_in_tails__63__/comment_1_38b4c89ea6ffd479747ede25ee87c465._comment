@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-18T22:15:24Z"
+ content="""
+You can run (as root) the do_not_ever_run_me script, it disables the iptables firewall rules*.
+Most applications will probably still use the tor proxy, but now you can configure them to not do so.
+
+
+\* Before someone asks, it's there for debugging purposes and only works if voluntarly launched by the user with root permissions. Some people have claimed it's a \"secret backdoor\", which is false
+"""]]

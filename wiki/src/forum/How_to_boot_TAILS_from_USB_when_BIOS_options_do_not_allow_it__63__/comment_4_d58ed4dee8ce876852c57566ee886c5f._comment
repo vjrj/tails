@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-12-25T04:12:18Z"
+ content="""
+The easiest way to do this is to use the Live cd \"plop boot manager\" 
+
+that is a live cd designed entirely to allow you to boot from mediums you computer does not support, and it is quite easy to use.
+
+Just burn it onto a cd, then make a bootable Tails usb stick and then simply boot from the live cd, then insert the usb stick and you will be given the option to boot from usb, no custom configuration files needed.
+"""]]

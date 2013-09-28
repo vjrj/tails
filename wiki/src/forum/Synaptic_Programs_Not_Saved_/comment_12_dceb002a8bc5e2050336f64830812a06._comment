@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-04-09T23:42:59Z"
+ content="""
+Is there a way to tell Synaptic to install/'reactivate' all downloaded packages/programs after the start of Tails? Maybe through a script, a shell-command or something?..
+"""]]

@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-21T04:15:52Z"
+ content="""
+Interesting discussion :) perhaps I am missing something but.. what's wrong with using google translate? A disclaimer could exist on the forum start page stating that if you don't known english you should first translate your message and then translate the answers back. No need for sub-foruns that way.. Only translated disclaimers ;)
+
+BTW OP question translates to:
+\"The tails detects the hardware of computers and when trying to access the HD is necessary for an administrator password. It is possible the tails have access to HD? And someone have access to HD and check the data via internet?\"
+
+Quite understandable overall no? :) As long as it is kept simple (I also know portuguese btw ;P quite a few of us around here no? :P)
+
+Btw answering OP second question, or what I believe to be his second question: 
+
+No. Only you can access the hard drive locally not some random person on the internet, UNLESS you are a victim of a hacker who compromises your tails session. Or if you were asking about accessing your own hard drive over the internet by communicating to your pc over the internet from other computer, again No. There is software that can do that but I doubt it is included in tails (or that it would be able to bypass the firewall). Tails devs would know the answer to this probably :)
+
+GOOGLE PORTUGUESE TRANSLATION/TRADUÇÂO EM PORTUGUES PELO GOOGLE:
+
+Não. Só é possível acessar o disco rígido não localmente alguma pessoa aleatória na internet, se você não é uma vítima de um hacker que compromete a sua sessão de caudas. Ou, se você estava perguntando sobre como acessar seu disco rígido através da internet, comunicando ao seu PC através da internet a partir de outro computador, novamente Não. Não é um software que pode fazer isso, mas eu duvido que seja incluído nas caudas (ou que seria capaz de contornar o firewall). Devs caudas saberia a resposta a esta :) provavelmente
+
+PORTUGUESE TRANSLATION/TRADUÇÂO EM PORTUGUES:
+
+Não. Só é possível acessar o disco rígido localmente e não alguma pessoa aleatória na internet, a nao ser que sejas vítima de um hacker que compromete a sua sessão do tails. Ou, se estavas a  perguntar sobre como acessar seu disco rígido através da internet, comunicando com o seu PC através da internet a partir de outro computador, novamente Não. Há software que pode fazer isso, mas  duvido que seja incluído no tails (ou que sequer seria capaz de contornar o firewall). Os criadores do tails provavelmente sabem a resposta a esta :) 
+
+"""]]

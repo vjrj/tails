@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Exact same problem"
+ date="2012-12-03T16:28:06Z"
+ content="""
+Hi. I have the same problem with tails 0.15 as previous fellows have mentioned, it fails to connect on WPA2 Personal. I ran iwevent while trying to connect and these I assume are the relative errors:
+
+Custom driver event MLME-MICHAELMICFAILURE.indication (keyid=0 unicast addr=xx.xx.xx.xx.xx.xx)
+
+and this, which comes the line right after:
+
+New Access Point/Cell address:Not-Associated
+
+--------------------------------------------
+
+I couldn't solve this issue no matter what I did. Please help.
+
+Note: I didn't try 0.14 yet, can someone give me a link to download it?
+
+Thank you. 
+
+
+"""]]

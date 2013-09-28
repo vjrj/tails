@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-21T18:35:55Z"
+ content="""
+I'm sorry but I can't reproduce this bug. Could you try to send a full [[bug report|/doc/first_steps/bug_reporting]]?
+"""]]

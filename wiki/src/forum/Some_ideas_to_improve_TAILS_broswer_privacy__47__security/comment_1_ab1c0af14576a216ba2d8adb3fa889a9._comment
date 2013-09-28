@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-05T21:22:25Z"
+ content="""
+I agree with some of what you say, but object to this:
+
+> Mark the two ''block bad websites'' in the security page in iceweasel preferences. Why would we not want to block those???
+
+We would, all other things being equal, but to find out whether the \"central authority\" thinks a url to which we are surfing is bad, our browser has to ask the \"central authority\".  Which gives that no doubt trustworthy organization a log of our web-browsing.  Which might be fine, except that some Bad Guy might break in and snarf it.  All in all, too many things not under our control for privacy/anonymity-promoting tool, I think.
+"""]]

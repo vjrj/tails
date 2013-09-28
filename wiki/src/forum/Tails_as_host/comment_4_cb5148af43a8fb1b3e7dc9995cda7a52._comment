@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-21T18:16:54Z"
+ content="""
+>(proposed in January 2013 in the \"Tails 0.14 rc1 virtualization testing & howto install >virtualbox and vmplayer\" thread)
+
+Is this the dev thread you are referring to? it is mentioned in text not a link, in the link you provided.
+
+However, I searched and found it: https://mailman.boum.org/pipermail/tails-dev/2012-October/001950.html
+
+It is also unrelated to my question. This is about installing vbox and the oter part is about a todo model. I have vbox up and running already and VM boots fine, but once in the guest system there is no internet connection althought NAT shows connected. That is the issue. Does this have anything to do with Tals iptables? 
+"""]]

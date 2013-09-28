@@ -1,0 +1,11 @@
+Hi,
+
+I'm thinking about updating Tor.
+
+Here is the point:
+
+* If we are just a few users using Tails *and* an updated Tor package, it could be easier to fingerprint us.
+* While running *apt-get update && install tor*, the Vidalia icons shows that we are not using Tor anymore, what about the exiting connections?
+* Updating the tor package requires to select if we would like to keep our existing version of torrc, or the versoin comming with the updated package.
+
+Here is [[the complete *diff* between the *torrc* provided by Tails and by the updated package|http://paste.debian.net/184773/]]

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-22T23:17:56Z"
+ content="""
+@ \"Tails\":
+
+I agree that posters should frame posts asking about something they noticed and don't understand is \"is this innocuous?\" rather than \"OMG\", and I agree that the python stuff in question is probably OK.  But I'd like to see Tails users feel free to ask about anything they don't understand, and to have someone try to answer it.
+
+@ OP:
+
+I guess that one use of statistics gathered by this stuff might be to help the Tor Project check that Tor nodes which self-report high bandwidth really do offer high bandwidth.  Otherwise bad guys could shut us down by putting up Tor nodes which report high bandwidth but which sinkhole all outgoing Tor packets.
+
+In a shell, to see some information known to the Tails system about Debian packages incorporated into Tails, try these:
+
+    dpkg-query -p python
+    dpkg-query -W --showformat='${Package} ${Version}\n' | grep python
+
+
+
+"""]]

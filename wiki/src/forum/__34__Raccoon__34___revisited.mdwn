@@ -1,0 +1,180 @@
+In another thread in this forum, the subject arose of de-anonymization attacks on Tor users which do not seek to trace traffic through the Tor network, but only to match streams entering in one place and exiting in another.  These can be called "black box" correlation attacks.  
+
+This thread is for ordinary Tail users like me, who want to discuss the question:  how much threat do we believe that "black box" correlation attacks pose to various classes of Tor users?  
+
+I myself am particularly interested in the potential threat to political dissidents living under repressive regimes.  I propose to discuss both technical aspects and the sociopolitical background which I think is needed to avoid fooling ourselves into focusing our attention on the wrong threats.
+
+The basic idea of correlation attacks is that the Tor network attempts to function like a black box, in the sense that a large number of (encrypted) data streams originating from various known IPs (the population of individual Tor users) enters the Tor network at the entry nodes, and the same number of (largely unencrypted) streams exit the Tor network from the exit nodes and then proceed (often unencrypted) to destination servers.  Ideally an adversary cannot match a particular entry stream to a particular exit stream, even if he happens to observe both streams, but the reality may not be so bright.  Attackers can try to correlate such features as 
+
+* start time of stream
+* duration of stream
+* data rate
+* packet timing
+* if an output stream is unencrypted, it may provide additional clues helpful in matching it to a particular input stream
+
+but in this post I will avoid modeling precisely how the correlator might work.  
+
+Correlation attacks might be used by an adversary to create lists of potential targets, or to confirm the identity of a target whose identity was already suspected.  Broadly speaking, it seems reasonable to consider several styles of possible correlation attacks:
+
+* if an adversary organization monitoring a targeted individual can also monitor a substantial fraction of exit nodes, it can attempt to match the targeted individual's observed (encrypted) input stream to one of many exit streams
+
+* if a nation state which is monitoring (possibly unencrypted) traffic flowing into a targeted server can also monitor a large fraction of entry nodes used by its citizens, it can attempt to match an observed stream into the targeted server to one of the many entry streams it is simultaneously monitoring
+
+* more ambitious adversaries, which can monitor a large fraction of both input and output streams, can attempt to correlate as many as possible simultaneously observed entry and exit streams and thus to build partial web-surfing logs detailing the one-line activity of a large fraction of its own citizens who use Tor.
+
+The last possibility may be the one most worrisome to ordinary Tor users who live under repressive regimes, and in this post I will focus attention on this threat model.
+
+(There is another general type of correlation attack, which also uses data obtained by monitoring inside the Tor network, but in this post I'll stick to discussing "black box" attacks.  At the end of this post I list some "standard references", written (more or less) for nonspecialists, which discuss material relevant to understanding some known attacks on Tor users.)
+
+In the other thread, "Tails" mentioned a Tor-Talk post by "Raccoon":
+
+archives.seul.org/or/dev/Sep-2008/msg00016.html
+
+"Raccoon" applies a fundamental formula from probability theory, Bayes's formula, to argue that correlation attacks, while a serious concern, may not be so easy for attackers to use successfully as it might appear.  Even better, his argument does not require a detailed understanding of how a potential correlator might work.
+
+Many bio-med students encounter Bayes's formula in connection with the fundamental problem of medical diagnostics.  Suppose we have some test for a grave illness, and suppose we know something about the accuracy of the test.  Now suppose a particular patient tests positive.  What is the likelihood that the patient actually has the disease?
+
+Specifically:
+
+* let T denote the event "the patient tests positive"
+* let D denote the event "the patient actually has the disease"
+* suppose the patient is a moderately obese man aged over 40
+* suppose the frequency of the disease in moderately obese men aged over 40 is one in one hundred, P(D) = 0.01
+* suppose the sensitivity of the test is P(T|D) = 0.95 (there is a 95% chance that if a patient has the disease, he will test positive); equivalently the chance of a false negative test result is P(~T|D) = 1-P(T|D) = 0.05
+* suppose the specificity of the test is P(~T|~D) = 0.99 (there is a 99% chance that if the patient does not have the disease, he will test negative); equivalently the chance of a false positive test results is P(T|~D) = 1-P(T|~D) = 0.01
+
+Then Bayes's formula says
+
+	P(D|T) = P(D & T)/P(T) 
+	= P(T & D)/( P(T & D) + P(T & ~D) )
+	= P(T|D)*P(D)/( P(T|D)*P(D) + P(T|~D)*P(~D) )
+	= 1/(1 + P(T|~D)/P(T|D)*P(~D)/P(D) )
+	= 1/(1 + P(T|~D)/P(T|D)*(1-P(D))/P(D) )
+
+or in our example
+	P(D|T) = 1/(1 + (0.01/0.95)*(0.99/0.01) )
+	= 1/(1 + 99/95) ~ 0.49
+
+Thus, despite the impressive accuracy of our test, if the test results are positive, the chance that the patient actually has the disease is only about one in two!  
+
+The problem is that diseases are hard to diagnose because most people don't have any particular disease.  
+
+Suppose a second disease is even more rare, P(D) = 0.0001, but we have a second test has the same sensitivity and specificity as the first test.  Then
+
+	P(D|T) = 1/(1 + (0.01/0.95) * (0.9999/0.0001) )
+	= 1/(1 + 9999/95) ~ 0.01
+
+Thus, if the test results are positive, the chance that the patient actually has the second disease is only about one in a hundred!
+
+Clearly doctors need to consider more lines of evidence than a single test, so they might consider a Bayes's formula with multiple conditioning, of the form p(D|T1 & T2 & T3 ) = something.  The problem with multiple conditioning is that it becomes harder and harder to determine (or reasonably guess) values to plug in for the probabilities on the right hand side.  In this post I won't pursue this further (but privacy researchers have done so).
+
+Looking back at Bayes's formula, we can see that there are three cases:
+
+* if P(T & ~D) << P(T & D), then P(D|T) ~ 1
+* if P(T & ~D) ~ P(T & D), then P(D|T) ~ 1/2
+* if P(T & ~D) >> P(T & D), then P(D|T) ~ 0
+
+In applications to medical diagnostics, the first case is most favorable, because it can harm the patient if he is treated for a disease he does not actually suffer from.  But in applications to assessing threats to Tor users, the third case is often the most favorable.  This is because our adversary is somewhat analogous to a doctor trying to confirm a hypothesis about a Tor user, except that this is one "doctor" we hope will consistently get it wrong!
+
+Probably the most straightforward application of Bayes's formula to the Tor network addresses a disconcerting possibility: when we use Tor, we may be mostly using enemy-controlled nodes.  Here is how that could happen:
+
+The earliest versions of Tor chose nodes at random to construct Tor chains (each consisting of three Tor nodes), but since some nodes were fast servers and some were slow, this was inefficient.  So later versions choose fast nodes much more often than slow nodes.  Unfortunately, our wealthy adversary organizations are probably much more likely to operate fast (expensive) Tor servers than a random citizen!
+
+So my first question is: could an adversary organization ensure that a significant fraction of Tor traffic pass through entry or exit nodes or both which he controls?  If so, assuming that a large fraction of Tor circuits include a fast entry or exit node (or both), our adversary is in a position to attempt correlation attacks.
+
+To get some idea, consider this scenario:
+
+* consider a random Tor node
+* let F denote the event "the node is fast"
+* let E denote the event "the node is enemy-controlled"
+* suppose p(E) = 0.05 (one in twenty nodes are enemy-controlled)
+* suppose P(F|E) = 0.5 (one in two enemy nodes are fast)
+* suppose P(F|~E) = 0.001 (one in a thousand non-enemy nodes are fast)
+
+so that the fraction of fast nodes is about
+
+	0.05 * 0.5 + 0.95 * 0.001 ~ 0.03
+
+(three in one hundred nodes are fast).  Then the probability that a fast node is enemy controlled is
+
+	p(E|F) = 1/(1 + 19/500) ~ 0.96
+
+So, assuming that most Tor traffic passes through entry and exit nodes which are among the comparatively rare fast nodes, our computers may be frequently sending data directly to the enemy! That is not necessarily a fatal flaw, but it is certainly a disconcerting thought.
+
+Try plugging in different wild guesses for p(E), P(F|E) and P(F|~E) (using choices which are consistent with the qualitative hypothesis that the enemy is more likely than most Tor node operators to control fast Tor nodes).  You'll see that the resulting p(E|F) is sensitive to your guesses, but I think you'll agree that a determined enemy will be able to grab enough Tor traffic to be able to attempt correlation attacks.  Here, things seem to heavily favor our adversary.
+
+My second question is: how likely is it that an adversary can monitor a substantial fraction of both entry and exit streams generated by some target population?
+
+A picture really would help here, but I think that is beyond the limitations of the forum.  But if you know what a complete bipartite graph is, try drawing two copies "in series", with three columns containing the same number of nodes, and two sets of edges between the two pairs of adjacent columns. 
+
+(For simplicity, let us initially ignore the fact that nodes are typically configured as entry nodes, relay nodes, or exit nodes, or some combination, and pretend that all nodes play all those roles.)
+
+Consider first the situation in which some nation is monitoring the Tor traffic of all its citizens.  We assume the adversary can monitor the (encrypted) entry streams of all of its citizens, and we now know that it can arrange to monitor a large fraction of (everyone's) exit streams also.   
+
+Suppose there are A alien streams and C citizen streams, or A+C entry streams and A+C exit streams, and that our adversary monitors:
+
+* C + 0.1 A entry streams
+* 0.2 (A+C) exit streams
+
+Then the chance is of course one in five that the adversary will be watching both the entry and exit streams of each citizen, although his matching problem in slightly complicated by the fact that some of these streams will correspond to traffic generated by aliens.  The monitored alien entry streams can be trivially filtered out before feeding data to the correlator, but the data will still contain many extraneous exit streams not corresponding to any citizen entry stream.  If our repressive nation-state is a small nation, the problem will be to match a small number of known entry streams to a small fraction of known exit streams, with some entry streams not having any corresponding monitored exit stream, and with many exit streams not corresponding to any monitored entry stream.  If it is a large nation, there will more streams to match but a smaller fraction of extraneous monitored exit streams.
+
+Here too, it seems, the math appears to favor our adversary.  However, notice that the number of pairs of adversary-monitored entry and exit streams is
+
+	C*0.2*(A+C)
+
+which scales like C^2, so if C is large, our adversary may confront a difficult matching problem.
+
+My third question is: what is the chance that an adversary who controls a substantial fraction of both entry and exit nodes can successfully match a given pair of citizen input and output streams?
+
+Following "Raccoon", we can try to avoid modeling the details of how the correlator works, and to simply plug some guessed values in Bayes's formula.  Specifically:
+
+* consider a particular pair of entry and exit streams
+* let R denote the event "the correlator reports that the two streams match"
+* let M denote the event "the two streams really do match"
+* suppose there are C = 1000 citizen streams
+* suppose there are A = 10000 alien streams
+* assume P(M) = 1/C/0.2/(A+C) = 1/2200000
+* suppose the correlator has sensitivity P(R|M) = 0.99
+* suppose the correlator has specificity P(~R|~M) = 0.9, or a false positive rate P(R|~M) = 0.1
+
+Then 
+
+	P(~M)/P(M) = 1/P(M) -1 ~ 2200000
+
+	P(R|~M)/P(R|M) = 0.1/0.999 ~ 1/10
+
+the probability that a particular citizen will have been correctly identified should the correlator report a match is
+
+	p(M|R) = 1/(1 + P(R|~M)/P(R|M)*(1-p(M))/p(M) )
+	~ 1/(1 + 0.1*2200000) ~ 1/220000
+
+or about one in 220000.  
+
+At last we seem to find something going our way!: our adversary can mount correlation attacks, and can try to match exit streams with an "illegal" destination (such as a dissident blog), but will have little confidence that an entry stream fingered by the correlator as corresponding to a forbidden exit stream will have correctly identified the originator of the "undesirable" traffic (who might actually be an alien).
+
+That sounds good, until you realize that it raises the specter of a cheap but possibly effective technique: what if our frustrated adversary simply uses his national Remote Operations Center (ROC) to try to illicitly access the computers of all 1000 citizen Tor users, plant key-loggers, and have the users own computers report in detail on the Internet habits of all of these citizens?  
+
+This is a possibility which, according to the current Tor threat model, Tor does not even attempt to defend.  Even worse, if most Tor traffic passes through fast nodes, and if most of these are enemy controlled, then our adversary is in an excellent position to attack all Tor users indiscriminately.
+
+But even if Tor cannot protect against state-sponsored malware attacks seeking to plant key-loggers, maybe Tails can.  In another thread, I hope to discuss strategies which might improve our resistance to state-sponsored malware targeting all Tor users.  Clearly a difficult problem, but one which I believe needs to be addressed.
+
+References:
+
+Some information relevant to understanding various kinds of possible attacks on Tor (easier material listed first) can be found at:
+
+* <https://tails.boum.org/doc/about/warning/index.en.html> (see especially "Confirmation attacks")
+* <https://tails.boum.org/doc/advanced_topics/cold_boot_attacks/index.en.html>
+* https://www.torproject.org/torbutton/en/design/index.html.en#fingerprinting (fingerprinting)
+* https://svn.torproject.org/svn/projects/articles/circumvention-features.html
+* An outline of major changes to Tor since the original 2004 design:
+https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-1
+https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-2
+https://blog.torproject.org/blog/top-changes-tor-2004-design-paper-part-3
+* https://blog.torproject.org/blog/one-cell-enough
+
+Since Tor is open source and developed by a community of developers, there is a great deal of information available about design issues which have come up as Tor continues to evolve, e.g.
+
+* https://gitweb.torproject.org/torspec.git/blob/HEAD:/proposals/126-geoip-reporting.txt
+* https://gitweb.torproject.org/torspec.git/blob/HEAD:/proposals/129-reject-plaintext-ports.txt
+
+but relevant information can be hard to find at gitweb (in part because ordinary Tails users probably won't know what keywords to search for).  There are also academic papers concerning attacks on Tor which are written for specialists, but this thread is intended for ordinary Tails users.

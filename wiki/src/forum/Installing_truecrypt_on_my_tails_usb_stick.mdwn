@@ -1,0 +1,11 @@
+I would like to create a truecrypt partition on my tails usb stick.
+
+I've downloaded truecrypt for linux and put the tarball on my tails desktop. When I try to unpack it from the terminal, using the command:
+
+$ tar zxf truecrypt-7.1a-linux-x86.tar.gz
+
+I  get a commant not found error.
+Is this the right way to unpack this file? Does in need to be put somewhere else first?
+After it's unpacked can i just double click it to intall?
+
+thanks for any help I can get.

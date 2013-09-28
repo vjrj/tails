@@ -1,0 +1,45 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-02-04T22:53:37Z"
+ content="""
+Hi, \"Tails\", and many thanks for taking the time to read such a long and difficult thread!
+
+I hope I can interpret your question as a guarded acknowledgement that 
+
+* the old threat models stated by the Tor Project and its derivatives (including Tails), which disavow any attempt to guard against attacks by governments and other sophisticated attackers, are now, quite clearly, dangerously outmoded
+* reporting by mainstream news organizations and documents published by Wikileaks and similar organizations clearly supports the claim that we appear to have entered a new era in which *all the world's governments are beginning to target indiscriminately all the Peoples of the world* with sophsticated cyber-espionage attacks, including malware, on the grounds that to protect their \"interests\", everyone everywhere \"must\" be suspected of everything and anything, all the time,
+* the same sources, which should be regarded as reliable, also clearly support the claim that despite the disavowals in the stated threat models adopted by Tor and friends, real people bravely engaged in really dangerous activities in really dangerous places are using tools like Tails, sometimes in full awareness of its limitations (and probably, sometimes not)
+
+I am one of those who have been trying for years to convince the open source community of these points, and I have always been fully aware it would be neccessary to establish these unpleasant truths before moving on the next stage of the discussion: *what the heck can open source developers do about such a horrible situation?*
+
+Specifically, *within reason, what can Tails developers do about it?*
+
+As a start, I suggest:
+
+* keep right on developing Tails to further improve security and anonymity, but revise the threat model to acknowledge the dangers posed to real Tails users by real state-sponsored attacks,
+* in particular, revisit the old analysis of \"Raccoon\" in light of revelations in the past year about what real state-sponsored attacks appear to be doing right now,
+* acknowledge that since our most dangerous adversaries are well-funded, capable, and determined, developers should try to focus on making things as difficult as possible for even state-sponsored attackers,
+* try to focus on identifying weak points in the attacks mostly likely to affect *large numbers* of users (perhaps as collateral damage from, for example, universal anti-piracy measures or overzealous \"investigations\" by US \"authorities\"), and try to close those vulnerabilities, or mitigate the potential damage,
+* tentatively adopt a philosophy of defense in depth; assuming an attacker does gain access to a Tails system, what can be done to limit his illicit access to sensitive data?
+* don't hesitate to think politically/sociologically as well as technically; use what is known about the abilities, motivations, and *limitations* of even our deadliest adversaries (for example, they too have great difficulty in finding sufficient talent) to devise technical countermeasures,
+* whenever closing some vulnerability which can be exploited by sophisticated attackers to access sensitive data seems too hard to accomplish quickly, fall back upon possibly easier goal of making it difficult for even a sophisticated attacker to access sensitive data *without being noticed by the user*; such measures just might be an effective deterrent because our most dangerous adversaries are surely aware that by attempting to subvert Tails with malware they risk handing a working copy of a dangerous cyberweapon to a determined and not entirely incapable opponent,
+* consider adding to the Tails home page a carefully worded disclaimer to the effect that at least some Tails users may face very determined and sophisticated attacks, that Tails developers are doing their best to defend against these, but that ultimately, for persons caught up in revolutions or other dangerous situations, using Tails may only delay rather than prevent serious harm, but it is equally true that the handwriting is on the wall for some of the nastiest governments currently trying to kill their way out of revolutionary turmoil, so the bad guys just may be neutralized first (I think such a statement would be more honest and useful than the current Tor Project disclaimer about \"global adversaries\"),
+* consider adding that Tails (and indeed Tor) rely on a small number of developers, and that given that Tails neccessarily (not as an ideal but as a practical matter) includes so many hundreds (thousands) of sometimes obscure Debian packages, and given that developers are only human, developer error is possible, but that user error is probably an even greater concern, with links to extended documentation describing some dos and donts,
+* extend the Tails documentation to include more detailed discussion of potential state sponsored attacks on human rights workers, political dissidents, bloggers, and reporters likely to be targeted by dangerous adversaries, mentioning also the possibility of ordinary people becoming \"collateral damage\", with links to such valuable sources as Bloomberg News \"Wired for Repression\" series, Wikileaks Spy Files, ACLU white papers on the Surveillance State, EFF Surveillance Self Defense,
+* revise the documentation to emphasize *only enabling potentially dangerous functions like cupsd and WiFi when really needed*, adding explanations of how to try to disconnect from the Internet when printing or accessing sensitive data on a USB,
+* consider adding discussion of the still largely unknown dangers of peripherals, particularly networked peripherals or ones using IPv6 protocols,
+* attempt to get more assistance in auditing the Tails individual firewall for possible IPv6 problems (e.g. cups) when peripherals are attached in various ways to a laptop or PC,
+* consider removing from the DVD or at least disabling at boot time potentially dangerous Gnome tools and other Linux paraphernalia which are not absolutely needed by Tails at boot time, while adding to the Tails documentation clear explanations of how to restore the missing functionality if needed,
+* (possibly not entirely consistent with the previous item): consider adding to the DVD some monitoring tools like iftop, and adding to the documentation explanation of how the root user in a Tails system can use standard utilities like netstat, lsof, man, apropos, apt-cache to investigate running processes and established internet connections,
+* pursue the steps suggested in some other threads here regarding decreasing the likelihood that an attacker who gains some access to a Tails system can easily access the hard drive without being noticed,
+* consider adding some rudimentary IDS functionality for users who use a live USB stick,
+* revisit the question of whether booting from a DVD or booting from a USB stick is more secure/advisable, especially for dissidents and others who may face increased dangers,
+* likewise, for sudo versus root users, particularly for Tails users who are running tools like netstate or lsof or an IDS to try to engage in some userbase volunteer auditing (if that is the appropriate term) of what real Tails users are really experiencing
+* attempt to open a dialog with other open source developers about what the \"next generation Tor\" might look like (to mention just one point, it probably shouldn't use TLS v 1.0 to encrypt its circuits)
+
+Pretty much the obvious common sense preliminary measures.
+
+I am sure that I and others alert to the dangers of real state-sponsored attacks on real Tor users can suggest other measures worthy of consideration.
+
+"""]]

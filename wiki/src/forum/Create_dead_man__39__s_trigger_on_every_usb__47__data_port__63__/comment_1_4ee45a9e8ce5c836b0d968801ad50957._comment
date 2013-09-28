@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-30T15:37:29Z"
+ content="""
+Tails' boot media removal watchdog is ported from Liberté Linux. See the following [forum topic](https://forum.dee.su/topic/stand-alone-implementation-of-your-ram-wipe-scripts) for description of the components (the code is in [git repository](https://github.com/mkdesu/liberte)).
+"""]]

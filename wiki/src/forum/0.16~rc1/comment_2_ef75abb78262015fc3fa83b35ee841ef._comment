@@ -1,0 +1,25 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-20T05:23:49Z"
+ content="""
+>What is the SHA256?
+
+Oh FFS! Don't pester strangers on an anonymous website... calculate it yourself! That way you'll **know** the sum you get is correct!
+
+    sha256sum tails-i386-0.16~rc1.iso
+
+@ Comment 1. Don't encourage this crap! What you've posted is **worthless**
+
+>Does the new homepage check if Tor is running like check.torproject.org does? 
+
+Nope
+
+>Because I then have to do that because of the rare occasion when there is a warning \"You are not using Tor.\"
+
+This hasn't happened to you ***in Tails***, has it.
+
+>Will we get a spell check soon because misspellings can, after time, out us?
+
+You can add one any time you like - in whichever dialect(s) of whichever language(s) you want.
+"""]]

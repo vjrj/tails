@@ -1,0 +1,9 @@
+I found this on a Russian website (Google translation):
+
+"To use a proxy after a Tor exit node you can use a public proxy and prevent being blocked by Tor blocking websites. Each time use another proxy after the exit node. 
+
+Copy the address in the format: proxy_host: proxy_port. Then find a config file filtering proxy Polipo: ... \ Data \ Polipo \ polipo.conf and add to the end of the line: parentProxy = proxy_host: proxy_port
+
+Poxy_host: proxy_port - is the address of the proxy after the Tor exit node." 
+
+Will this also work safely and without any dangers in Tails after editing the config file in /etc/polipo like above?

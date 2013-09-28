@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-07-19T04:29:05Z"
+ content="""
+>To unclutter the GUI 
+
+What \"clutter\"? The add-on bar is completely *empty* now! The ABP icon would be the *only thing* in the add-on bar. 
+
+And even if each add-on included in TAILS has its own icon in the add-on bar, there would still be plenty of room. Plus, the add-on bar is easily hidden from view and toggled with Ctrl+/. (and, IIRC correctly, hidden from default)
+
+I just can't understand that you would go out of your way to change the default of the ABP icon appearing in the add-on bar. Can't see what possible advantage this offers, only negative.  
+"""]]

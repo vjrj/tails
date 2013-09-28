@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-27T07:11:57Z"
+ content="""
+Have you looked at [the documentation](https://tails.boum.org/doc/first_steps/startup_options/bridge_mode/index.en.html)? You're booting with the `bridge` option?
+
+Re. obfs3: Not yet but [it could arrive in Tails 0.18](https://tails.boum.org/todo/obfs3/).
+"""]]

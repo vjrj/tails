@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-26T07:26:35Z"
+ content="""
+You may setup an encrypted partition on the same medium onto which you installed Tails: [[doc/first_steps/persistence]].
+"""]]

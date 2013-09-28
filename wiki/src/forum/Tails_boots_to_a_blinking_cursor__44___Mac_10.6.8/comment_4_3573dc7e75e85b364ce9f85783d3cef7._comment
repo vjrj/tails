@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-04T12:09:44Z"
+ content="""
+I can confirm that Tails 0.13 is the first release since Tails 0.10 that I was able to boot successfully on a late 2010 MacBook Air with Mac OS X 10.8.2 installed. I've used one USB flash drive with rEFIt, due to FileVault disk encryption, and one USB flash drive with the Tails image created by UNetbootin.
+"""]]

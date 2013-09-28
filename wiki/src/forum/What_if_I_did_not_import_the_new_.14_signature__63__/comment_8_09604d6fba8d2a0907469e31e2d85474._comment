@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2012-10-21T03:12:18Z"
+ content="""
+Thanks for the comments. One of the best things about Tails is its forum where we can learn.
+
+Re: What's the difference between AppData\Local and AppData\Roaming?
+The applications choose whether to save to local or roaming, and roaming is used by default by most applications, it acts as local to people not on a domain, and to people that are, their settings follow them.
+
+http://www.vistaheads.com/forums/microsoft-public-windows-vista-general/230161-whats-difference-between-appdata-local-appdata-roaming-2.html
+"""]]

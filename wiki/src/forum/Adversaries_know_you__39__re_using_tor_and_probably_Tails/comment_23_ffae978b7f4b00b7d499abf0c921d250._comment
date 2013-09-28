@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 23"
+ date="2012-10-17T10:31:39Z"
+ content="""
+>The ISP knows you are using Tails.
+
+Really?
+
+>Because Tails has no persistent entry guards.
+
+Does Liberté? Or *every* other live distro? Or every Windows user with \"entry guards\" turned off?..
+
+>Each time you reboot you have new entry guards and that is a huge difference to other Tor users.
+
+Each time you reboot you have new entry guards and that is a huge difference to *some* other Tor users.
+
+There, fixed that for you 0:)
+
+FWIW, Why do you suppose that your ISP would even *care* what package your copy of Tor arrived in?
+"""]]

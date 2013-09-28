@@ -1,0 +1,26 @@
+[[!comment format=mdwn
+ username="hypothesys"
+ ip="127.0.0.1"
+ subject="comment 8"
+ date="2013-02-27T16:28:49Z"
+ content="""
+>And if they have a gun, perhaps they'll get you to tell them what USB stick contains secret data in the first place...
+
+Perhaps..or perhaps they put a bullet in the user head if there is even suspicion of secret data or dissent..With such dangerous adversaries one cannot be sure of anything. The best situation would be just not to risk it.
+
+>I can think of no plausible situation when attackers rely on booting random USB sticks they've found in order to detect if it contains secret data.
+
+Evil Government sends goons to $suspected_activist house to perform intimidation with guns and check or collect computers, usb sticks, cds, dvds and unauthorized literature (with possible hostage taken). Goons bring stuff back to Evil Gov computer labs, tails (and possibly other stuff related to dissent is found). Evil Gov sends goons back to capture $confirmed_activist (if hostage was taken, there is no way this will end well from this point on).
+
+Goons fail to capture $confirmed_activist (hostage was taken) => Hostage executed or tortured to force activist to deliver him/herself
+
+Goons fail to capture $confirmed_activist (hostage not taken) => Activist on the run
+
+Goons succeed to capture $confirmed_activist (hostage was taken) => Activist and Hostage and threatened, tortured and or executed => Depending of what is at stake and the activist resistance to rubberhose tails persistence passphrase and other encryption keys are extracted to help locate other $suspected_activists but at the very least the original activist is jailed
+
+Goons succeed to capture $confirmed_activist (hostage not taken) => Activist threatened, tortured and or executed => Depending of what is at stake and the activist resistance to rubberhose tails persistence passphrase and other encryption keys are extracted to help locate other $suspected_activists but at the very least the original activist is jailed
+
+In a nutshell, resistance to rubberhose would be a extremely valuable feature for tails to have. If you actually end up needing it well.. if at least ONE person is helped because of this it would be already enough. At the very least IMO it should make the wishlist, TODO would be better.
+
+
+"""]]

@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-01T07:41:03Z"
+ content="""
+@3: `curl` is also included in Tails and I successfully executed the first script in the second \"comment 1\".
+
+It seemed quite efficient but I have no idea whether or not it could leak any compromising info.
+
+I would appreciate if a Tails dev could clarify this, and whether or not is necessary or even desirable to add the `--socks5-hostname \"127.0.0.1:9050\"` part, as found in the *second* script in the aforementioned post.
+"""]]

@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-05-27T19:06:40Z"
+ content="""
+@ 5:
+
+You can check this for yourself by performing some experiments using your other OS and a Tails bootable DVD and if possible, also a Tails bootable USB.
+
+Earlier this year there was a thread in this forum which contained an extensive discussion of specific metadata files kept by Firefox, Iceweasel, and to a lesser extent even by the Tails browser.  There was an extensive discussion of how thoroughly Tails browser clears possibly de-anonymizing information when users click on \"Clear All\", and then the point about inserting Tails media came up.
+
+In that thread were listed specific places to look for metadata files.  There are two kinds of places where you need to look:
+
+* the place where your other OS may store data recording the fact that you automounted a DVD (when you inserted it in the tray) or USB stick (when you inserted it in the slot), which in some cases shows an unencrypted name \"Tails\" and also a unique identifier specifying that specific DVD or USB
+
+* the places where the Tails browser stores other metadata files
+
+You need to check the first when you have booted your other OS, and the second when you have booted Tails.  Depending upon your other OS and the exact sequence of events you follow just before you start using Tails, you may not be subject to this problem.  I believe that people whose other OS is Debian are however subject to this problem.  It may also matter to some extent what hardware you use.
+
+Unfortunately I could not find the thread just now, but maybe you can find it using the information I just listed.
+
+If you can 
+
+* shutdown your other OS
+* initiate a reboot
+* insert Tails DVD before the bootloader starts reading in the OS from the hard drive, or insert Tails USB *before* initiating the reboot
+
+you may be immunized from this problem, but I think further study is warranted.
+
+
+"""]]

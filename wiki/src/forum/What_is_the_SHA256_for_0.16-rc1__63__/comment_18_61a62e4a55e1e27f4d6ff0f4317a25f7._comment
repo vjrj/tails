@@ -1,0 +1,39 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-12-21T22:27:14Z"
+ content="""
+>Don't be silly! That wouldn't work. That's the point of PKI and why the clever people use it instead of naked hashes!
+
+Clever people just don't realise that websites can be hacked and genuine signatures can be replaced with fake ones.
+
+>At a trusted keyserver like http://pgp.mit.edu
+
+On what basis is that server \"trusted\"? Just because many Facebook members say so?
+
+>and a fingerprint which ends in BE2C D9C1
+
+On what authority or basis should we trust that the fingerprint ending in BE2C D9C1 is genuine? It could be that this website has been hacked and someone replaced the genuine fingerprint with a fake one ending in BE2C D9C1?
+
+>Best of all would be to develop a chain of GPG keys connecting someone you know well to one of the persons who has signed the Tails signing key.
+
+Even if I were to meet one of the Tails developers in person, how do I know that s/he is who s/he claims to be? I will only believe them if they carry a state-issued driving license or an affidavit from a court of law stating they are Tails developers!
+
+>Taking/publishing fingerprints at this forum is of no value.
+
+100% Agreed.
+
+>This website (or any other) can not safely be presented as a source of trust. Neither can a PKI server.
+
+100% Agreed.
+
+>but is no substitute for obtaining the correct Tails signing key
+
+That is the crux of the matter. How does one obtain the \"correct\" Tails signing key?
+
+But there is one important fact that all of us overlooked or have taken for granted.
+
+- How can we, Tails users, be sure that the ISO posted for download is free of viruses, malware and Trojan horses?
+
+- How can we be sure that the machine on which the ISO is prepared is free of viruses, malware and Trojan horses?
+"""]]

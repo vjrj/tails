@@ -1,0 +1,5 @@
+>The problem has been reported as CVE-2013-2266 and only affects Linux and Unix versions of BIND – the flaw is not present in Windows versions of the program. Vulnerable versions include 9.7.x, 9.8.0 to 9.8.5b1 and 9.9.0 to 9.9.3b1 of BIND. Versions prior to BIND 9.7.0 are not vulnerable; BIND 10 is not affected either.
+
+Full article is at http://www.h-online.com/security/news/item/Critical-vulnerability-in-BIND-9-regular-expression-handling-1832816.html
+
+Have Tails developers patched BIND 9 security flaw in 0.17.12~rc1?

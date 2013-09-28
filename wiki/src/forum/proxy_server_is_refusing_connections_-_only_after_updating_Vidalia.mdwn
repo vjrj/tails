@@ -1,0 +1,7 @@
+Today I updated to the latest version of the Tor bundle.  Torbrowser works on Tor, but Thunderbird and Firefox won't when I configure them to 127.0.0.1:9050.  
+
+All I have is the error:
+
+The proxy server is refusing connections.  Firefox is configured to use a proxy server that is refusing connections.
+
+Why is this?  My proxying settings per application haven't changed since I updated.  Vidalia says it is connected (oh, and TorBrowser has packed in as well, now.)

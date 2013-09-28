@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-11-05T04:55:57Z"
+ content="""
+>If you want to be 100% sure you have a genuine tails version then yes.
+
+*\"100% sure\" ?!
+
+`https://tails.boum.org/doc/get/trusting_tails_signing_key/index.en.html`
+
+*Trusting the TAILS Signing Key*
+
+>We will present you three techniques from the easiest to the safest. Again, **none of them is** a **perfect** and magic solution.
+[emphasis mine- Anonymous]
+
+@comment 2:
+
+I could not find a single mention in your post of establishing *_trust_ in the TAILS signing key*. 
+
+Without legitimately establishing such trust, how much better is verifying a signature than the method described by the OP?
+
+Or even than simply using the sha256 hash provided by the TAILS devs on this site?
+
+(`https://tails.boum.org/download/index.en.html#download.verify-the-iso-image-using-other-operating-systems`
+
+>Instead of a cryptographic signature, this technique uses a cryptographic hash. We propose it because it's especially easy for Windows users. )
+"""]]

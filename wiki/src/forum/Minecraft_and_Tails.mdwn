@@ -1,0 +1,3 @@
+This might sound crazy, but I'm trying to run Minecraft in Tails.  I found a very helpful .deb file online that installed Minecraft very nicely.  However, now the application itself it seems cannot connect to minecraft.net to get any of the information it needs.  I figure this must have to do with Tor confusing the network traffic or something.
+
+Is there some way I can tweek Tor, Vidalia or pidgin to allow minecraft to run correctly?

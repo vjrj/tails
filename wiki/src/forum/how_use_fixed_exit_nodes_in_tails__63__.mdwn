@@ -1,0 +1,20 @@
+Is this possible in Tails 0.16 ? 
+
+many sites are blocked at an entrance from other country, the address is necessary static or one country
+
+i bad english and "absolute lamer" for linux
+
+it is possible the detailed instruction with a complete description and commands of the terminal?
+
+i use this 
+( use flash drive and safedisk option)
+
+1.sudo service tor stop
+
+2.sudo gedit /etc/tor/torcc
+
+3.ExitNodes {my country}
+
+4.sudo service tor reload
+
+it's not work? help me!

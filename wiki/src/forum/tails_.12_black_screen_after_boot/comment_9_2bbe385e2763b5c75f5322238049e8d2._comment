@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-06-15T07:18:02Z"
+ content="""
+I am also having this error which can be worked around by removing 'splash'.
+
+The system is also hanging when clearing RAM & does not shut down. Hangs at scrambled screen.
+
+Bug report sent.
+"""]]

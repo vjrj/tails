@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-09-24T01:02:06Z"
+ content="""
+Does the direct (non Tor) connection offered by the \"unsafe browser\" function correctly?
+
+Are you leaving the system to detect your connection and launch Vidalia and Iceweasel automatically or are you launching either of these programs yourself?
+
+Does Vidalia's onion icon turn green or remain yellow?
+"""]]

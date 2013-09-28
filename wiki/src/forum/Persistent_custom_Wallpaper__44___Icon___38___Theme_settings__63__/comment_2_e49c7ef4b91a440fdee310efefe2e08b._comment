@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-31T10:18:04Z"
+ content="""
+> 1) is there a way I can alter these locked folders and have my Tails beautified-at-startup without an attacker being able to alter them also?
+
+Probably, using persistence. See the [[documentation|doc]].
+But I guess you'll have to find yourself what exact set of files you need to make persistent,
+and please be aware that then, you're using the resulting modified system at your own risks.
+In short: please do make sure you know what you're doing.
+
+> 2) If i can, will icon-sets or Themes from a different distro of Linux work in Tails (once I find where to put them/where their settings are stored)?
+
+Most of the GNOME / GTK themes should work, as long as the versions are compatible.
+
+"""]]

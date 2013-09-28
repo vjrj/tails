@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-07T00:48:45Z"
+ content="""
+> grc.com \"shieldsup\" 
+
+Good site, but I am pretty sure what that will show you is information about the indidivual firewall on the Tor exit node you are using.  I would welcome correction if am wrong about that!  (But my results certainly don't look at all what I get when I test my personal firewall using nmap on a closed LAN, and they seem to vary between Tor exit nodes, which could actually be a vulnerability of the Tor network generally if I am correct about all this.)
+
+@ OP:
+
+You can certainly use nmap to test the individual firewall of your PC or laptop while it is running Tails, if you own or can borrow another computer with nmap installed.  Best done on your own LAN to avoid having to explain why you are scanning ports.
+
+You can also use the jondos anonymity check, and the EFF panopticlick websites (good idea to allow session cookies for eff.org before visiting the second site, if you plan to retest with different browser configurations).
+"""]]

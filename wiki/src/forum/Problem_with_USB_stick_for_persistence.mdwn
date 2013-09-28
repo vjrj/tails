@@ -1,0 +1,13 @@
+Using Tails 0.15, following the instructions in the Tails documentation, I created a LUKS encrypted partition on a USB stick for use with Tails running from a DVD on a laptop which cannot boot from a USB stick.  My intent was to create a "whole stick encryption", and I thought I succeeded.  Certainly when I boot from an old Knoppix CD that cannot read the USB stick.
+
+But I noticed a problem when I tried to use the stick to transfer a file from my other OS to the USB stick for use with Tails: my other OS (which happens to be Debian) stopped asking for a passphrase before mounting the USB stick!
+
+Tails does ask for the passphrase before mounting the partition on the USB stick, which was my intent.  
+
+I guess the problem is that my other OS decided to remember my password, which was certainly not my intention.   I notice that Tails gives some options including "forget passphrase immediately", which I always choose.
+
+Three questions:
+
+* what did I do wrong?
+* how can I check that the stick really is encrypted?  The lock icon says it should be, but is there a more sure way?
+* how can I change the password on the encrypted volume?

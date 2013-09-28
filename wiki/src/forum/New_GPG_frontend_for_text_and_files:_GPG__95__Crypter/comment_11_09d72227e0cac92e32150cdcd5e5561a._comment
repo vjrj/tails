@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2012-11-20T14:47:19Z"
+ content="""
+Tails already includes two GPG frontends: [Seahorse](http://projects.gnome.org/seahorse/) and [[gpgApplet|doc/encryption_and_privacy/gpgapplet]].
+"""]]

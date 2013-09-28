@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-01-16T10:50:21Z"
+ content="""
+@ comment 1:
+Thanks for your reply. It's definitely getting harder and harder to stay anonymous and safe.
+I'm quite sure though, that most open access points (internet cafés, open nets etc.) allow randomized MAC addresses - macchanger can simulate different fabricates.
+Of course there are many cases where the MAC address cannot (and should not) be changed. E.g. an internet café that doesn't allow external computers probably have MAC filtering.
+But still, in the end, using your own computer makes it critical to have a changed MAC address at boot up.
+
+@ comment 2:
+Macchanger works just fine (the problem is only before you change the MAC address).
+
+I would consider contributing to a general solution but it seems like a lot of thought has gone into this issue... even a bit too much for my taste; I think a simple choice at boot up would suffice.
+"""]]

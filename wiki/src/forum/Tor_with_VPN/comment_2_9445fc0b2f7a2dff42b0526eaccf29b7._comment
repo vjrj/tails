@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-03-01T09:45:42Z"
+ content="""
+> If I connect to a VPN via the host machine and run a Tails VM are there problems with this scenario?
+
+Not really, but this depends on what you mean with \"problems\". Your VPN provider will learn your Tor entries (and hence your entry guards) and in general have the same power as your ISP normally has over you. Hence make sure you trust your VPN provider at least as much as your ISP. 
+
+> From my understanding the TOR entry and exit nodes will see the VPN IP?
+
+That is incorrect:
+
+1. The VPN provider will know the IP addresses of your computer and your Tor entry node.
+2. The Tor entry node will know the IP addresses of your VPN provider and your middle node.
+3. The Tor middle node will know the IP addresses of your Tor entry and exit node.
+4. The Tor exit node will know the IP addresses of your middle node and final destination.
+
+Hence no one but you know the entry and exit.
+
+Adding a VPN into the mix changes nothing from Tor's side; if the exit would be able to see your VPN provider's IP address it would be able to see you IP address when not using Tor, so there would be no anonymity. Luckily this is not the case.
+
+> Also are the message contents still encrypted by TOR once they enter the VPN?
+
+Yes. The VPN encryption is removed at the VPN provider, and the last (third) layer of Tor's encryption is removed at the Tor exit.
+
+> That is while the VPN sees the IP of the TOR exit node, the contents are still TOR encrypted in the last hop to the TOR VM.
+
+Your VPN provider will know nothing about your Tor exit.
+"""]]

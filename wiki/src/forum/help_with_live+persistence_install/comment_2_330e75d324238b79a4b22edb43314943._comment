@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-11T22:36:20Z"
+ content="""
+That's the way it's supposed to work. The idea is to prevent Windows to display scary messages like \"Uninitialized partition -- do you want to format it?\" in case one is confused enough to plug their Tails USB stick on a Windows box.
+"""]]

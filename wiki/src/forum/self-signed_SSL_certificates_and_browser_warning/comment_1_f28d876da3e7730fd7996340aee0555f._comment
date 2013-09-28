@@ -1,0 +1,17 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-27T17:54:45Z"
+ content="""
+> tails browser gives a warning everytime an attempt to visit an SSL supporting website is visited with its certificate being self-signed.
+
+Did you first see that behavior when you first started using Tails 0.18, by any chance?
+
+> Does using a self-signed certificate on a website necessarily indicate rouge activity?
+
+No.  But sometimes it indicates stupidity or cutting corners in security-critical areas.  Many small webmail providers use self-signed certificates, which is insanely dangerous to their customers.
+
+> How can you tell which warning is genuine and which is false positive?
+
+In some cases you can use an out-of-band communication (such as phone call) to verify that a certificate is genuine.
+"""]]

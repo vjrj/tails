@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-11-11T12:55:46Z"
+ content="""
+> So even if one uses a bridge to connect to Tor, one's ISP will still realize that some kind of proxy tool is being used, right?
+
+Yes. You should use bridges for a number of reasons, but the main reason is this: If your ISP blocks Tor, you'll either have to use a proxy server or Tor bridges. The latter is recommended. 
+On the other hand, there are no requirements for becoming a bridge, which means your ISP could pose as a Tor bridge in order to capture your traffic.
+
+I'm no expert, but I would say that if your ISP doesn't block Tor, you needed to worry about bridges and the like. Your ISP won't be able to see what you're doing anything, nor will the exit nodes, provided you visit HTTPS sites.
+"""]]

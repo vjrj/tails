@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-02-13T17:45:33Z"
+ content="""
+get a popular netbook, check the wireless chipset for compatibilty beforehand though. You can even try taking a live debian distro to a store and asking them if you can check the hardware compatibilty. Also, look for netbooks with specific linux distros already created for them.
+
+Anything smaller than a netbook is likely based on arm architecture and won't be compatible with tails. I think some intel based tablets might be released this year though.
+"""]]

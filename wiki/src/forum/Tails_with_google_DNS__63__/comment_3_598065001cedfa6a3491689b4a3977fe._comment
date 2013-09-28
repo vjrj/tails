@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-02T12:17:19Z"
+ content="""
+dnsleaktest.com is a very well reputed site and recommended by VPN's for DNS leak tests. 
+
+I've run this test using VPN and there were no Google hosts. It is not possible that all exit nodes use google DNS. The same results come up using Tails no matter what exit node is used. That leads me to conclude that it is a Tails issue, and a very serious one.
+
+[This](https://www.grc.com/dns/dns.htm) is another specialized site, and shows the same.
+
+This doesn't happen with other systems with TBB. So far Whonix and Windows tested and they were clean even with same exit nodes on Tails (forced both systems to use exit nodes tested with Tails)
+
+
+"""]]

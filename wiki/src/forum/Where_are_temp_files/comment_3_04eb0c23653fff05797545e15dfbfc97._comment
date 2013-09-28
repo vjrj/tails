@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-19T19:24:42Z"
+ content="""
+See the read-write (tmpfs) branch of the main aufs mount. Changed or created files can be seen there.
+"""]]

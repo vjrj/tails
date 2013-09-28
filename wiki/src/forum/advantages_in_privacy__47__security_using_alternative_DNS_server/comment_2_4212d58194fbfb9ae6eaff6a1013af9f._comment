@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-07T07:52:46Z"
+ content="""
+I am all-but certain that tampering in any way with any of the default DNS settings in Tails is emphatically NOT supported and would be considered extremely dangerous.
+
+Comparison of different DNS servers/configuration for non-Tails and non-Tor usage would be quite off-topic for this forum, would it not?
+"""]]

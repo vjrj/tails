@@ -1,0 +1,55 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="@18"
+ date="2012-12-22T04:24:17Z"
+ content="""
+>>Don't be silly! That wouldn't work. That's the point of PKI and why the clever people use it instead of naked hashes!
+
+>Clever people just don't realise that websites can be hacked and genuine signatures can be replaced with fake ones.
+
+Clever people realise that websites can be hacked/spoofed and that if they are and if genuine signatures were replaced with fake ones it wouldn't matter. The effort would only serve to alert the intended victims to the attempted attack. The \"fake signatures\" wouldn't pass verification. This precisely why a signature is *better* than a simple hash!
+
+There, fixed that for you! 0:)
+
+>>At a trusted keyserver like http://pgp.mit.edu
+
+>On what basis is that server \"trusted\"? Just because many Facebook members say so?
+
+lol
+
+Is that where this stuff is coming from? Good ol' FB! :#
+
+>>and a fingerprint which ends in BE2C D9C1
+
+>On what authority or basis should we trust that the fingerprint ending in BE2C D9C1 is genuine?
+
+Quite. None.
+
+>It could be that this website has been hacked and someone replaced the genuine fingerprint with a fake one ending in BE2C D9C1?
+
+\"Hacked\" is somewhat unlikely, though not *impossible* of course.. Spoofed would be much more easy and would have the same effect... but why bother?.. Who posted that anyway? How has it been authenticated?.. a load of \"other\" anons posting \"yes that's right, trust it\" on the same page? Even if it matches the key you might download elsewhere on *this site*, so what, it would wouldn't it? This is nonsense.
+
+>>Best of all would be to develop a chain of GPG keys connecting someone you know well to one of the persons who has signed the Tails signing key.
+
+>Even if I were to meet one of the Tails developers in person, how do I know that s/he is who s/he claims to be?
+
+You wouldn't... but you could verify their signature of your (public) key against multiple copies of the Tails public key - as served here, saved in your crypto archive from long ago, distributed on current & previous ISOs and from keyservers.. etc.. so you could easily derive reasonable certainty that the person you'd met was involved in Tails the site and Tails the distro.
+
+>I will only believe them if they carry a state-issued driving license or an affidavit from a court of law stating they are Tails developers!
+
+Really? You trust the state? NSA man? ;o)
+
+>>but is no substitute for obtaining the correct Tails signing key
+
+>That is the crux of the matter. How does one obtain the \"correct\" Tails signing key?
+
+This is indeed the crux of the matter. There's an excellent [overview in the documentation](https://tails.boum.org/doc/get/trusting_tails_signing_key/index.en.html) but it certainly can't hurt to read around the subject and PKI in general somewhere of-site too.
+
+>But there is one important fact that all of us overlooked or have taken for granted.
+
+>How can we, Tails users, be sure that the ISO posted for download is free of viruses, malware and Trojan horses?
+
+>How can we be sure that the machine on which the ISO is prepared is free of viruses, malware and Trojan horses?
+
+I don't think we've overlooked this so much as it simply hasn't cropped up in *this* thread. The answer can *never* be anything other than *personal choice*. There's quite a nice [discussion of the subject](https://tails.boum.org/doc/about/trust/index.en.html) in the docs.
+"""]]

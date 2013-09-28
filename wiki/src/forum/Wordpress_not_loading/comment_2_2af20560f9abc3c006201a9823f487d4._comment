@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-22T03:13:18Z"
+ content="""
+yes i can access that site. after i did a lil more experimenting it seems my blog works and i can post as long as i don't login through wordpress.com. if i go to wordpress.com and login from there, all i get is a blank page with a spinning circle like its trying to load the site. it spins there indefinitely. i dont know what is used on this page; maybe java or some kind of script but it's not loading it.
+
+i'll just post from my blog directly rather than going through wordpress.com
+"""]]

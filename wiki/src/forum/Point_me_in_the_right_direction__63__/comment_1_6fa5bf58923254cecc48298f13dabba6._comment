@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-11-30T09:52:22Z"
+ content="""
+About \"startup rituals\": a great part of the rituals mentionned in that thread decrease anonymity (sometimes, traded against some bits of general security) in know ways, or have unspecified / unresearched / unverified impact on it. If any of these rituals was a good default for all Tails users, we would set it, or at least add it to our [[todo]] list.
+
+About learning: I suggest starting with our [[documentation|doc]], following the links to the Tor's own one. You'll also want to learn about the basics of computer security and anonymity so that you can make well-informed decisions that are valid and sensible for your own situations. I'm sorry I have no handy URL to tutorials I know are good on these topics.
+
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-12T09:47:07Z"
+ content="""
+> Have I understood the documentation correctly that Tails should set the system time to UTC?
+
+Sorry, should have answered this one too:
+
+Yes. When Tails is syncing the system clock it is setting it to the current time in UTC. All modern operating systems should.
+
+Tails is also displaying the time in UTC (current system clock time without any +/- hours). Other operating systems you have may display it in your local timezone (by adding the right amount of hours to the time your system clock is set).
+"""]]

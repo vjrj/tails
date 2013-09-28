@@ -1,0 +1,19 @@
+http://www.h-online.com/open/news/item/Critical-security-holes-closed-in-Firefox-16-and-Thunderbird-16-1737891.html
+
+
+http://h-online.com/-1737891
+
+
+"Critical security holes closed in Firefox 16 and Thunderbird 16
+
+
+Mozilla security Mozilla has released a Firefox 16.0.2 update for its browser to close recently discovered critical security holes. Three problems, assigned CVE-2012-4194, CVE-2012-4195 and CVE-2012-4196 were addressed in the updates. The flaws also affect Thunderbird 16 to a more limited extent but a Thunderbird 16.0.2 update has been released. Enterprise ESR versions of the browser and email client are also affected; A 10.0.10 update for Firefox ESR and Thunderbird ESR has also been released along with a 2.13.2 update of SeaMonkey.
+
+
+The flaws are centred on the Location object which has now had its security tightened up. Mariusz Mlynski discovered that the true value of window.location could be shadowed which could have enabled a cross site scripting (XSS) attack in conjunction with some plugins. Mozilla security researcher moz_bug_r_a4 found that using CheckURL on window.location could be forced to return the wrong calling document, also enabling an XSS attack; there was also a possibility of arbitrary code execution via any add-on that interacted with page content. Finally, Antoine Delignat-Lavaud of the PROSECCO research team at INRIA found that it was possible to inject properties into the Location object, exposing it to cross-origin reading. Further details of the bugs are not being divulged at this time.
+
+
+Updates are available through Firefox and Thunderbird's standard update mechanism and should be delivered automatically to users. To force an update, select the About window for the particular application which will then trigger a check and download of any pending update. The updated version of Firefox is also available to download though the same could not, at the time of writing, be said of Thunderbird's download page which was still offering 16.0.1."
+
+
+https://www.mozilla.org/security/announce/2012/mfsa2012-90.html

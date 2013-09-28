@@ -1,0 +1,29 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-04-08T23:13:37Z"
+ content="""
+OP here
+
+Thanks all for feedback.
+
+Yes, I use bridges (but none matches 174.37.236.20) and running from live cd - Tails latest release.
+
+I tried to launch iceweasel again and again to notice changes in those suspicious connections. here are my findings:
+
+A bunch of other IP's came up, 1 new ip each iceweasel launch time, in addition to check.torproject.org (which I suppose is resolution of 38.229.72.22 but not sure)
+
+The ip's/conections are as follows (results obtained from tor network map):
+
+5.63.145.124:80  1st launch
+
+146.185.29.170:80 - 2nd launch
+
+ocsp.digicert.com - 3rd launch
+
+Notice: the suspicious connection **always** uses a separate circuit from the one which 38.229.72.22 is using
+
+38.229.72.22 remains the same and opens each time, but as mentioned, it comes on a separate Tor circuit
+
+
+"""]]

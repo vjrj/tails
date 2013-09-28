@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-04-02T13:02:23Z"
+ content="""
+I am new to DNS.
+
+Can someone explain why it is dangerous to use Google's DNS?
+
+I read somewhere on the internet that Google's DNS is preferred to other companies' DNS.
+"""]]

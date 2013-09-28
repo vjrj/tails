@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-01-03T22:17:07Z"
+ content="""
+This thread
+
+* <https://tails.boum.org/forum/Tails_as_main_OS__63__/>
+
+may suggest that the OP wants to use the \"unsafe\" browser for legitimate transactions in which he actually *wants* to authenticate his IRL identity, namely on-line banking.
+
+If that's the case, I'd warn that mixing \"anonymous\" and real-life-identified browser transactions sounds like an absolutely terrible idea.  Much better to take the extra trouble of rebooting using your Tails USB (or even the DVD) when you need to do anything not requiring authentication with your real-life identity.
+
+It is an unfortunate truth that convenience and security/anonymity are mostly opposing goals, so trying to do both at the same time is apt to result in self-inflicted separation of your head from your feet, as Mr. Franklin once put it.
+"""]]

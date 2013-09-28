@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-14T09:32:25Z"
+ content="""
+
+I would not recommend using radiotray or any other radio-streaming app with Tails, as doing so would uniquely identify you--thus killing any anonymity you had. If you are the only person streaming radio stations (especially a very unique radio station) via a radio app, then your internet usage becomes unique and therefore identifiable. You are unmasked and the goal of Tails is defeated.
+
+Being a \"main OS\" is not one of the design goals of Tails. Tails is designed for preserving anonymity. Adding software packages like radiotray present a lot of challenges because there are so many risks for data leakage. There are many other small useful packages like radiotray that also will not make it into Tails. Even though some users may want them, the risks they could be manipulated are too great. 
+
+If you are looking for a main OS and want to prevent profiling data being compiled on you, I would suggest dropping Tails and instead using the Tor Browser Bundle on a different Linux distro such as Debian, Ubuntu or Linux Mint. 
+"""]]

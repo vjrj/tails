@@ -1,0 +1,18 @@
+Hi, tails noob here.  I have a 2009 macbook pro with Snow Leopard, and I was having all the problems many macbook users were having. It was tough enough to get any USB live distro started, tails would not start at all.
+
+I offer this half-solution so maybe someone can build on it. I started with a ubuntu live USB disc which did start on the macbook. I installed tails to it with the second option "clone & upgrade".  I then installed the liberte linux distribution to the USB drive (this would overwrite the USB drive MBR so I expect that it was not necessary to start with the ubuntu live USB, but can't be sure).
+
+At this point I could start liberte linux no problem.
+
+Now I loaded up my normal everyday OS, navigated to the USB key and went:
+$ cd <USBKEY>/liberte/boot/grub
+and edited the file grub.cfg to include:
+
+menuentry "TAILS" {
+    linux /live/vmlinuz initrd=/live/initrd.img boot=live config live-media=removable nopersistent noprompt quiet timezone=Etc/UTC block.events_dfl_poll_msecs=1000 splash nox11autologin
+    initrd /live/initrd.img
+}
+
+Save the file, reboot to the USB key and select TAILS from the grub menu.  It seems to be working fine (I am typing this message from this tails install) EXCEPT I cannot set up a persistent volume. I tried changing "nopersistent" to "persistent" in grub.cfg, but that did not fix it. Can anyone advise?
+
+Good luck.

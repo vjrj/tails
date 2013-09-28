@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-27T01:50:08Z"
+ content="""
+@ comment 1
+
+Your use of that needlessly big and obscure word reminds me of the episode of Roseanne where the kid tries to write a newspaper article and thinks he did a really good job because he used words that aren't in most people's vocabularies. But really he was just showing off in a really noobish way.
+
+But you're also mistaken about me not having read the documentation. That's when I made the thread, after reading that Tails can't do entry guards normally in it's default, non-persistent mode. Because it requires persistence to do right. So most users aren't getting the benefits of them. You are assuming Tails always works just like regular Tor. But it's not the case.
+
+Unfortunately, it does seem to have some significant security importance (explained in the documentation) that most Tails users are having to give up for now. I'm just pointing it out to the userbase. I just figured it out myself. And hope to see it resolved somehow.
+"""]]

@@ -1,0 +1,42 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 10"
+ date="2012-09-28T01:49:21Z"
+ content="""
+>As we wrote early in July, we prefer to hide this icon by default,
+
+Unless I somehow misunderstood your words, you revealed that you *go out of your way to do this*; to change this **default** setting of AdBlock Plus-- *a default setting that just happens to provide real and considerable functionality*.
+
+That would be curious (if not disturbing) enough but what makes it far worse is that, as noted by the OP, the user cannot even revert to this highly *useful default*; checking \"show in add-on bar\" (under \"Tools > AdBlock Plus > Options\") has no effect. 
+ 
+Now, perhaps I am misunderstanding or overlooking something here; perhaps there is some valid, compelling reason for all that I have described above. But...  
+
+In response to the obvious question of *why* you would go to such trouble to change this **default**, you said,
+
+>To unclutter the GUI
+
+The following two *facts* (to use your vocabulary and style) were then noted in comment #4:
+1.) The add-on bar in Iceweasel (in the default configuration of TAILS) is completely  **empty** now. 
+
+2.) The entire add-on bar can easily be hidden from view and toggled back and forth by simply depressing the `Ctrl` and `/` keys simulatenously.
+
+Thus, at issue is the addition (actually merely the *restoring of a default*) of a single small icon to an otherwise empty addon-bar (that can be easily hidden from view altogether, if one so desires). 
+
+It is difficult to see how that could reasonably be considered, \"cluttering the GUI\", at least to any significant degree-- any degree that could possibly justify removing the very real, substanative and considerable *functionality* provided by this *default*; *going out of your way to alter a useful default*.
+
+>I'm sorry, but repeatedly asking, without providing much of new and/or convincing arguments, is unlikely to convince anyone to spend their time implementing this.
+
+A quick review of the actual susbequent comments that were posted to this thread shows this characterization to be a rather conceited exaggeration.
+
+Comment #5 concisely pointed-out the very **real and considerable functionality that the ABP icon provides** (i.e., the ability to see what content on the current page one is viewing is being blocked by ABP. I will add to that: the ability to *quickly see whether or not ABP is enabled for the current page and to toggle this status*.)  
+
+Comment #7 simply asked whether there was any way for a user to get the ABP icon back or some alternative way of achieving the functionality that said icon provides. (I did not sense even the slightest hint of rudeness or arrogance in this comment and fail to see how it could be considered anything less than perfectly appropriate and reasonable.)
+
+That leaves only two remaining comments: #6 and #8. 
+
+Comment #6 simply expressed agreement with the previous comments-- in one short sentence.
+
+Comment #8 went somewhat further and used language that suggested making a *demand*. While admittedly not the most polite or tactful, in light of the behavior of \"TAILS\" here, it is difficult to consider even this (comment #8) truly over-the-top.
+
+Having seen a number of polite, welcoming, substantative and helpful replies from \"TAILS\" in other threads, I am quite dissapointed in the behavior of TAILS in this thread. Serious, legitimate, glaring questions have been met (largely) with evasion, arrogance, indifference and even contempt. 
+"""]]

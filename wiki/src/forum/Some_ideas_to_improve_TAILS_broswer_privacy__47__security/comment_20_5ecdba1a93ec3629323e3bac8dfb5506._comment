@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 20"
+ date="2013-02-09T13:33:46Z"
+ content="""
+## @17
+
+> The test could get an unique ID of my browser (don't know if it will be the same when I reboot the system, but while the system is on, it will be an unique and identifiable ID)
+
+Is this unique ID preserved after using the Torbrowser \"New identity\" feature?
+
+## @18
+
+> Please, please.... just CONSIDER the possibility of making some changes in the default browser!
+
+I'm sorry, but most of these suggestions have been made and discussed many times already, generally without any serious arguments in their favour but something along the lines of \"OMG ip-check is not entirely green\". We're not going to revisit our configuration choices every time Yet Another Someone comes up with \"hey, did you know preference X does exist, and ip-check is not all green\". We'll be happy to revisit it when good reasons are provided to do so, that take into account usability and previous discussions.
+
+"""]]

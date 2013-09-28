@@ -1,0 +1,3 @@
+When I start Tails it asks me for my country and time. I select it but on top bar it's an hour less than the real time. If I change it, tor doesn't load some onions.
+
+Is there a problem here? Just leaving the hour it sets would be ok?

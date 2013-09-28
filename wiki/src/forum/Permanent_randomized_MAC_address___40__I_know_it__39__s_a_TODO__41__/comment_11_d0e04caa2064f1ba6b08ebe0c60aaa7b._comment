@@ -1,0 +1,32 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 11"
+ date="2013-02-13T03:36:21Z"
+ content="""
+Here is an apt illustration of a contentious point which was stated earlier in the thread: the fact that many (most?) ISPs check the hardware address of a computer logging on to a legitimate account, and hire surveillance companies to use this information to check for \"evidence\" of \"access fraud\".  But those companies turn around and pass on the bad news to their other customers, such as banks.
+
+From
+
+    How hardware hacking (almost) made me a fraudster
+    By Mark Ward
+    BBC News, 1 February 2013
+
+> A message popped up. \"Card declined.\" Nightmare.
+
+> But... no money? Really? I was sure the Wards were solvent. I had to check even though the train left in, oof, six minutes. I put the declined card in a cash machine wondering if I'd get it back. It wasn't eaten and the Wards were flush with cash.
+
+> So, what was happening? On the train I racked my brain trying to work out why the card had been declined. My mobile rang, I answered, distracted, then sat up straight. \"This is a fraud warning...\" said an automated voice. It talked me through six transactions put on hold because they were suspected of being fraudulent.
+
+> I had made all of those purchases. They were all legit. What was going on?
+
+> Could it be a virus? How embarrassing would that be for someone who regularly writes about computer security.
+
+> A clue came from the first transaction flagged as potentially fraudulent. What had I done on that day? . Really? Could that be it? On that day my son Callum and I engaged in some father-son bonding by *swapping the faulty motherboard on the family PC*
+
+(My emphasis.)
+
+And indeed, as the story explains, that was the origin of the problem.
+
+This excellent story illustrates another point: big data may sound double plus good to corporate bigwigs, but these people overlook the point that *more information* is more trouble than its worth (even if you agree with the dark intent of the Surveillance State) if amounts to more *bad* information.  And in fact, a recent study showed that the increasingly gigantic and intrusive databases maintained by large credit agencies are full of mistakes.
+
+"""]]

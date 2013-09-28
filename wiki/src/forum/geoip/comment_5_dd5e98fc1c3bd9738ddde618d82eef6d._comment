@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-14T22:26:13Z"
+ content="""
+> So please, where can we find some information about the geo packages which do* ship with Tails?
+
+If you're interested in such specific technical details of Tails, I fear you'll have to learn the technical basics of Debian GNU/Linux systems, e.g. `dpkg`.
+"""]]

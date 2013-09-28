@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-08T05:39:23Z"
+ content="""
+I had yet actually get it setup. Did some more research and I will continue at this point to evaluate the need for this sort of setup.  My conclusion so far: It is of little to no benefit to run a VPN in conjuction with Tails.  
+
+This quick reference:
+https://tails.boum.org/todo/vpn_support/
+
+Reflection: Tor bridges are something worth additional attention. 
+
+-LeTanque
+"""]]

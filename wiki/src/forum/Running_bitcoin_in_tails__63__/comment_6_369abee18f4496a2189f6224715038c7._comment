@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Need bitcoin-qt details as well..."
+ date="2013-04-21T13:04:22Z"
+ content="""
+I am desperate as well to get these details on bitcoin clients (qt being the preferred one).  I read that the new Bicoin Armory can be used on debian, but it too needs bitcoin-qt as a base.  Can anyone please provide details how they got bitcoin-qt to work in tails?  Thanks...
+"""]]

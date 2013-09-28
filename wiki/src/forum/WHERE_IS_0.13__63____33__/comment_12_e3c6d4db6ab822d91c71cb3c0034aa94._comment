@@ -1,0 +1,42 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2012-09-18T14:54:37Z"
+ content="""
+> Tails development is amateurish, and consists mostly of tweaking Debian settings and installed software base.
+
+Tails is about creating a live Linux distribution. What would be your ways of doing things?
+
+> I didn't yet see any evidence that any of the (by now, quite a few) Tails developers possess actual expertise in anonymity / cryptography or software development.
+
+What proofs do you need?
+
+We may not be the best in the field, but Tails has been there for more than three years already. One of Tails developers was working on Incognito before, making it 5 years of total experience.
+
+The only other similar project that remains, Liberté Linux, is two years old. All others have not survived the maintainance and support workload.
+
+> Tails people pretend hard that the development process is an open one, by maintaining many discussion venues, yet the complete opposite is true.
+
+Do we hide our problems? [[Bugs|bugs]] and [[plans|todo]] are available publicly. The [[release process|contribute/release_process]] is even public. Have you tried to contribute in anyway before ruling Tails development process as closed?
+
+Quoting the [review published in LWN](https://lwn.net/Articles/440279/) on April, 2011: *The project's documentation is extremely comprehensive and in-depth, although sometimes a little out-of-date. Even the release process is spelled out in detail, as well as the tests that the developers try out to see that all programs work as they should.*
+
+> They even try to hide their funding sources in the latest report (that they have to submit to the Tor project, because it is one of the funding sources).
+
+We do not have to submit anything to the Tor project. Those reports are meant to keep the community informed about what is happening within Tails. Yeah, we simply like to be open about what we do...
+
+> In case it is not clear from the report, sponsor Bravo is the Tor project, and sponsor Charlie is EIDHR (see previous report)
+
+Sorry but you are wrong. We do not wish to disclose the name of our sponsors until we reach an agreement with them. We are not going to advertise those who are not going to support us!
+
+> Call me skeptical, but I doubt that the generous funding often received by the Tor project, a significant chunk of which goes to Tails (can't find the reference, but I think last time it was in excess of $10K), [...]
+
+The Tor project is likely to have a budget of $2M by the end of 2012. $10K is 0.5% of that, and only covers some hardware, hosting fees and travel for developers meetings. Not much regarding to the amount of time and attention that Tails requires.
+
+> [...] will be wisely spent by a few enthusiasts who associated with Tor and Debian projects by shmoozing on IRC.
+
+If you do not [[trust current Tails developers|doc/about/trust]], feel free to start your own project. Tails is free software, you can even use the current code as a basis. We would really be happy to see others getting their hands dirty.
+
+(*Oh, and thanks for delaying the release. But that was simply too much to leave unanswered.*)
+"""]]

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-22T22:54:58Z"
+ content="""
+> I'd like to see you argue that allowing any standard application running on android to intercept and redirect all of your web traffic to a custom proxie is not something that should be considered a big security threat, because it is, and it is actually about time that google came around to removeing that security fault.
+
+Please don't try to put words in the mouths of other posters.
+
+I myself pointed out that the news story appears not to be *directly* relevant to Tails 0.16, but as I tried to explain, I think that the Tails developers should be made aware of it, and should keep an eye out for other \"security measures\" which Google may take in the near future which might directly affect the next release of Tails.
+
+
+"""]]

@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-02-27T15:55:58Z"
+ content="""
+> Tails does not offer this, does it?
+
+It does not.
+
+> @tails I can't find this in TODO, do you think it's worth adding?
+
+It's there: [[todo/create_encrypted_TailsData_by_default]].
+"""]]

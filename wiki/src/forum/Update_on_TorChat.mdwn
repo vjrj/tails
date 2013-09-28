@@ -1,0 +1,11 @@
+I think TorChat should be reconsidered for Tails.
+
+It is now rewritten and being developed as a Pidgin plugin.
+
+> This branch torchat2 is a rewrite from scratch, using Lazarus + Free Pascal. This will make it easier to create plugins for existing IM applications and also allows to easily generate code for a wider range of platforms, especially mobile devices like Android and iPhone.
+> 
+>At the moment this branch is mainly used to develop a plugin for libpurple (the Pidgin-IM) which will be the first thing that you can expect to come out of this branch, later (once this works) there will also be a standalone GUI that will completely replace the current Python implementation (Don't worry, the python version will stay here in the torchat_py branch, it is the reference implementation of the protocol, I'm still using it myself as protocol documentation and to test other implementations against it, it will not go away)
+
+Link: <https://github.com/prof7bit/TorChat/>
+
+Look at here too: <https://github.com/prof7bit/TorChat/issues/8> (OTR)

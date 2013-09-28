@@ -1,0 +1,11 @@
+In IceWeasel 10.0.11 (Tails 0.15):
+
+Tools>Add-ons>Extensions:
+
+Double click on 'amnesia branding' and notice it is updated with every new launch of the Tails live session.
+
+In addition, at the top right within the 'amnesia branding' section selected, there is a small rectangle button with a search field to the right of it, click the small button and 'Update Add-ons Automatically' is checked. It must be manually disabled. (Torbutton may prevent updates to Extensions, but this feature should be disabled within the above mentioned section in IW)
+
+With the amnesia branding you have no choice - it shows it is updated with the current date.
+
+...are these two issues resolved in 0.16?

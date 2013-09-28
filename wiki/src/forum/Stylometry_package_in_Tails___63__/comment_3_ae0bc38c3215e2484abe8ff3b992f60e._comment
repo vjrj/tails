@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-26T16:58:17Z"
+ content="""
+Two previous threads which attempted to raise the issue of how Tails users can respond to the dangers posed by stylometry:
+
+     https://tails.boum.org/forum/Linguistics_identifies_anonymous_users
+
+     https://tails.boum.org/forum/Call_for_developers:_a_deb_functionally_similar_to_Anonymouth_is_much_needed
+
+As you can see, \"Tails\" has in the past declared discussion of anti-stylometry \"off-topic\" here.  I think that is ridiculous because even clever but simple shell scripts could possibly do some good.  To get a better idea of what is needed we all need to have some idea of how stylometry works, and there is no better way than by getting a bit of practical experience using tools from the R statistical suite, which can be live installed.
+"""]]

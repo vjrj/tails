@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2012-11-20T12:43:43Z"
+ content="""
+I've renamed it from .pgp to .sig but now I don't have the option to decrypt it in gnupgshell, only to sign or to encrypt
+
+I did search before I asked the question but didn't get anything that helped, don't think I found the page you'd referered to .
+"""]]

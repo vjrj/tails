@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-09-04T02:28:59Z"
+ content="""
+Hello again angry Mr Troll. I trust you're enjoying this forum?
+
+>I have asked a very specific question, which was clearly a continuation of a discussion elsewhere.
+
+I think it's possible that I might have spotted that. Hence the question. 
+
+>Why do you think anyone would be interested in your vague notions of computer architectures?
+
+Because someone asked. Being a Tails user I offered you a reason for why I personally think it'd be nice to have a kernel available which more fully utilises the instruction set offered by some of my more modern hardware. Not *essential*, certainly not *essential* as the software ecosystem exists *today* but *certainly* nice. With *no obvious downside*, the possibility of being able to run binaries compiled for AMD64, with all the inherent benefits over the standard alternative - generic i386 code, could indeed be useful. The immense difference between essential and useful doesn't render useful useless. As for how the thoughts of a user might be relevant to the choice of kernels offered in Tails... Is there any more important influence on the evolution of an operating system than the requirements of its users? Isn't this sort of thing what fora are for? There are probably better channels for private communication between yourself and \"the developers\".
+
+If you're hoping a Tails contributor will say \"the nx bit on AMD64 is better than the nx bit on i686\" or something like that, then I imagine you're in for a long wait.
+
+Why is such an all seeing oracle as yourself getting embroiled in trivial discourse anyway? Wouldn't the benefit for all humanity be far greater if you directed your obviously immense ego^H^H^H talent into making Tails exactly as you know it should be by [contributing?](https://tails.boum.org/contribute/index.en.html)
+"""]]

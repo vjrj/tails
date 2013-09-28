@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2012-12-22T17:50:16Z"
+ content="""
+> Are you saying that malicious scripts on a web page cannot execute the file \"do_not_ever_run_me\" during a Tails session? 
+
+Of course not, what in the world gave you that idea, executing a script on the machine. whether it requires root or not cannot be done without compromising the machine first.
+
+> A human would have to be physically present and has root access to execute the said file, is that correct?
+
+Yes, you could also get compromised remotely of course, but if you were then the script would not be that important to the attacker.
+"""]]

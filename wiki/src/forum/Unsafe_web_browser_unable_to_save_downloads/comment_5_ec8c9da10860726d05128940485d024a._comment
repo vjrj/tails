@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-08-23T11:52:19Z"
+ content="""
+Did someone find a way to save downloaded files from the Unsafe Browser?
+
+Taking in account all the reasons **not to do this**, written here and [[on this other thread|/forum/Unsafe_browser_webmail_attachments/]], I'm searching for a way to access the files previously downloaded with the Unsafe Browser **once disconnected from the network, and restarting Tails after those manipulations**.
+
+Thanks for any tip or search path.
+"""]]

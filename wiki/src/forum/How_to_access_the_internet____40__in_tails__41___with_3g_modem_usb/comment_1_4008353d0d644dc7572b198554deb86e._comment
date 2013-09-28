@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="hmmm"
+ date="2013-01-28T03:43:38Z"
+ content="""
+TAILS worked all the time for me with Sprint Siera 598u modem, as did i think all other linux i tried at the time including Ubuntu, Fedora, Knoppix and several other Live CD linux as well as even some utility CDs that were based on linux like GParted Live i think, Kaspersky Rescue CD,  and several others. 
+
+i think it has to do with the underlying Linux distro and maybe your 3G modem is fairly obscure(?)   i now have the Sierra 250u and its 3G/4G but only the 3G is supported in linux so far.
+"""]]

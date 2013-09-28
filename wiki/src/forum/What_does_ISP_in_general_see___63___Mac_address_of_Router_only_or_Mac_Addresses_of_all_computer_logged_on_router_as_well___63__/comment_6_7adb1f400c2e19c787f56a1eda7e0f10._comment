@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-06-27T20:52:26Z"
+ content="""
+if your router has a backdoor for LEA, they can see the MACs behind the router and much more.
+
+as an example, google: cicso router rootkit spooks
+"""]]

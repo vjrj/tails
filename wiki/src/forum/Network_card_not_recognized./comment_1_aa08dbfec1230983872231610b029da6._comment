@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-28T06:45:31Z"
+ content="""
+What about ethernet (wired)? Have you tried that?
+
+Ethernet connection should work regardless of whether the wireless card is supported.
+
+You can try searching for your wireless card (the actual chipset, if you know it, would be best).
+
+If the problem is merely the WiFi card, the easiest solution may be use to a USB WiFi adapter. (These can be acquired relatively inexpensively now) I have found that if a WiFi card has fairly broad Linux support, it will almost certainly be supported by Tails. Search particular models first before purchasing.
+"""]]

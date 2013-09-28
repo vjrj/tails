@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-13T20:09:23Z"
+ content="""
+For future reference, Tails checks its own version automatically during startup and will warn you if its not the most recent version, so if you don't get that warning then you don't have to worry about Tails being outdated.
+"""]]

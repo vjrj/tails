@@ -1,0 +1,33 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-02-13T09:33:42Z"
+ content="""
+Hi!
+
+thanks so much for replying, yeah I would love to have a hint as to how you configured that dual boot USB stick.
+
+I would like to mould an optimized & customized Mint KDE Debian (say with firefox plugins, mm codecs & Peerguardian preinstalled) for casual yet \"safer than windows\" browsing and a stock Tails install for when Tor is required.
+
+I guess the trickyness here would be persistence ; I don't see many critical uses for it within Tails except for bookmarking cryptic .onion sites, and, yeah well crypto keys, and btc wallets they're useful... I guess this requirement could be bypassed by compiling and keeping links/keys online in a Tormail inbox or pastebin or something, but is that good? I agree with the devs that persistence use on the same media as the OS should really be kept to a minimum, especially for people in authoritarian places or for those doing illegal stuff.
+
+On the other \"unTor\" distro persistence would definately be useful, not for downloading & keeping docs on it (will make it clear to users that this stick is just OS-on-a-stick & to use another one for data storage) but for bookmarks, configs, extra packages & plugins. As well as for installing security updates.
+
+
+Ideally & summing it up here's the plan :
+
+-craft a single .iso file that could be flashed by non-savvy newbies on an empty USB stick using a GUI iso->USB loader.
+
+-said .iso would contain the bootloader allowing user to select between Deb Mint & Tails according to his needs for each specific computing session, as well as the preconfigured Mint & stock Tails Live images.
+
+-Whenever security updates are released for either of those 3 components I would update & repackage them into a new .iso & notify friends & family.
+
+-they back up \"data\" (if persistence is achievable), download it and flash it again.
+
+-they thank me (& tails & mint) til the end of times... ;-) 
+
+
+What hurdles if any do you see in those requirements? I'm coming from M$ ecosystem (sysadmin) and have only been FSF'ing for the last few months... :-)
+
+Thanks a lot your contribution is much appreciated!
+"""]]

@@ -1,0 +1,4 @@
+hi, I just checked message log in tor settings and I saw:
+[Fri Dec 14 ....] External IP Address Changed - Tor has determined your relay's public IP address is currently 13...bla.bla.bla. If that is not correct, please consider setting the 'Address' option in your relay's configuration.
+
+but I am running as tor client and not relay. I tried to change torrc to have strict exit nodes from denmark. but without effect. ip check websites show I use tor nodes but not from denmark.

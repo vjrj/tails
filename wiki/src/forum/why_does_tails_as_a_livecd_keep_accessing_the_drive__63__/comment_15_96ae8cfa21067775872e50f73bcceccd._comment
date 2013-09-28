@@ -1,0 +1,30 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2012-12-23T04:19:07Z"
+ content="""
+@comment 10:
+
+>I'd worry about a Tempest virus that polled a personal computer' personal computer' CD-ROM drive...
+
+Yes and the hard drive and in some PC's the cooling fans as well are under CPU control.
+
+You can also do it with PC's where the CPU does not control the fan, but the hardware has a simple thermal sensor to control it's speed. You do this by simply having a process that uses power expensive instructions in tight loops, thus raising the CPU temprature (it's one of the side channels I was considering a long time ago when thinking about how the temp inside the case changed various things including the CPU clock XTAL frequency).
+
+The change in sound side channel is one of the first identified problems with Quantum Key Distribution. Basicaly the bod who came up with the idea whilst first testing the idea could tell the state of \"Alice's polarizer\" simply by the amount of noise it made...
+
+The CD-ROM motor idea I'd heard befor but could not remember where till I followed your link.
+
+Dr Lloyd Wood has worked with the UK's Surrey Uni, the European Space Agency and Americas NASA and one or two other places as part of his work for Surrey Satellite Technology Ltd. He has been involved with CLEO (Cisco router in Low Earth Orbit) and other work on what's being called \"The Space Internet\".
+
+Of interest is his work on Delay and Disruption Tolerant Networks (DTN). It's not been said \"publicaly\" as far as I'm aware but the work has aspects that are important to anonymity networks such as TOR.
+
+You can read more on Dr Wood's DTN work etc at,
+
+http://personal.ee.surrey.ac.uk/Personal/L.Wood/dtn/
+
+The UK occupies an odd position in the \"Space Race\" it is the only nation who having put a satellite into space then stopped further space rocket development (the Black Knight launch platform was considerably safer and more economic than the then US and CCCP systems). The UK has however continued in the Space Game and is perhaps the leading designers of payloads for scientific and industrial satellites (it probably is on military sats as well but nobody who knows for sure is telling ;-)
+
+Clive Robinson
+https://www.schneier.com/blog/archives/2012/12/interesting_win.html#c1049823
+"""]]

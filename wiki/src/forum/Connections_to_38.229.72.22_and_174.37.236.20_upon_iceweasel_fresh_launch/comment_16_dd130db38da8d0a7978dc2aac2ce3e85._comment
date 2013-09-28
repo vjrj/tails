@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 16"
+ date="2013-04-11T18:22:43Z"
+ content="""
+For
+
+      sudo watch \"netstat -anp | grep ESP\"
+
+please read
+
+       sudo watch \"netstat -anp | grep EST\"
+
+(for \"established\").   Some typos are not easily caught by a spell-checker (unless you personalize it, which is hazardous in this context).
+
+"""]]

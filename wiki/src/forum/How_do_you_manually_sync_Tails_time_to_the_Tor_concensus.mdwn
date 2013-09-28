@@ -1,0 +1,14 @@
+When typing "bridge" at Tails boot screen you are now using bridge mode.
+
+
+Time syncing does not always work perfectly
+
+
+Once Tor is up and running how do I make sure my system clock is set to the correct time?
+
+1. What time should it be set to?
+2. How do I set it to the Tor concensus time or whatever time it is supposed to be set to
+3. Can/should I use the /etc/NetworkManager/dispatcher.d/20-time.sh script to auto-sync to the correct time?
+
+
+Should I edit the timeout in 20-time.sh and make it longer, before I plug in the network cable? The 75 + 75 seconds seems too short for using bridges

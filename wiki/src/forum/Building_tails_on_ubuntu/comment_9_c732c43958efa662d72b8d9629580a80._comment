@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-04-26T04:43:14Z"
+ content="""
+you cant start 64 bit vms on 32 bit hosts. get a 64 bit host or rebuild the vm.
+
+before you ask. no there are no instructions how to rebuild the vm.
+"""]]

@@ -1,0 +1,16 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-15T21:09:51Z"
+ content="""
+My understanding is that it is becoming all but impossible to get on the internet at all unless you offer up a valid MAC address.  The details depend upon how you connect in a given session, but as someone recently explained, one usage scenario goes like this:
+
+* you are in a cybercafe and must login at a specific url, giving the servers your true MAC address
+* then you use macchanger to spoof a made-up MAC to avoid making it trivially easy for bad guys (ad brokers, surveillance state) to track your websurfing.
+
+In another common scenario, you connect \"by wire\" to an ISP where you have purchased access and established an account.  They may not be comfortable admitting this, but I think it is unavoidable that their servers will know the true MAC ID of some of your hardware (in particular, your ethernet card), and furthermore, there is apparently nothing to stop them from selling that information, basically a partial inventory of your personal hardware in addition to unique identifiers which ad brokers can use to track you.
+
+WiFi connections expose you to many more dangers.  Anyone who doesn't know what Google was doing worldwide with their Street View vehicles until they were caught.  It took almost a year, but eventually The Register dared to publish what some had been saying on the boards for months, and after investigations Google was forced to admit that it had indeed been snagging all kinds of information about the WiFi routers and attached devices.  To this day, I believe they have never acknowledged that this intelligence collection program was part of a much more ambitious and even more intrusive program, which aims to map the geolocation of all the consumer electronics gear in the world.  The Internet of Things will be a gigantic cash cow for Google, which also owns a major WiFi electricity meter business.
+
+
+"""]]

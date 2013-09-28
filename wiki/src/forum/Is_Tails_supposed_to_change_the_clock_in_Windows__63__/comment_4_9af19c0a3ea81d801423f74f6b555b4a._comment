@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-23T13:08:37Z"
+ content="""
+> Bottom line is that as long as Tails need to synchronize the clock to work properly, and does not attempt to reset it back to what is was before boot, it will either break modern OSes or old OSes, better breaking the old ones I guess :)
+
+No, that's not how it works. Don't guess and don't write about issues you don't understand.
+"""]]

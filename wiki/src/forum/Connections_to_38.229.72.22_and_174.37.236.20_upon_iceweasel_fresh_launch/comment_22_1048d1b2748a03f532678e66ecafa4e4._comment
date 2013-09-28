@@ -1,0 +1,63 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 22"
+ date="2013-04-12T18:46:01Z"
+ content="""
+OP here
+
+I already answered some of the questions but will do again and will answer the remaining.
+
+**re: comment 13**
+
+>Can you clarify whether you were using Tails 0.17.1 when this happened?
+
+Yes
+
+>Did you boot from a bootable R/O DVD or from a bootable R/W USB stick?
+
+Live cd
+
+>are you sure you weren't launching the unsafe browser in a Tails system?
+
+Yes I am sure it is not the safe browser
+
+>Can you explain in more detail exactly how you \"launched Iceweasel\"?
+
+By clicking iceweasel launcher (icon) on Tails taskbar, the icon next to claws mail's
+
+>but did you know that when you boot a Tails system, Tor, Vidalia, and the Tails browser should launch as soon as you have a working network or WiFi connection, and the Tails system will immediately try to contact by http (not https) several websites to try to synch your system time to current UTC
+
+I am aware of this problem. No idea what can be done about it either. Any suggestions?
+
+>When you surf using a working Tails browser (or TBB) to a page which offers https, your system (via the Tor exit node in your current circuit) must contact an OCSP server operated by some CA in order to verify the SSL certificate which the web server gives your browser (via the Tor circuit). This necessarily means that OCSP servers can (and do) log the fact that someone using such and such a Tor exit node and such and such a date and time connected to a particular https website, and it is known that they pass this information to \"the authorities\". Indeed, Verisign, one of the largest CAs, is owned by one of the surveillance companies which is discussed at length in James Bamford's excellent book The Shadow Factory, which in my opinion should be studied by everyone who uses Tails.
+
+I dont have enough knowledge to comment on that
+
+> if you are visiting a page whose cert was issued by DigiCert, you should see an unencrypted connection (from the Exit node) to a DigiCert OCSP server
+
+I think this is a probable explanation to the problem. The scenario is that once you fresh launch iceweasel (in the way described) an auto connection to https tor check website (port 443) and (simultaneously, but on a different tr circuit) a connection to digicert ocsp is fired. In this scenario (which I cant confirm is true, but just speculate) digicert provides certificate to tor check, and therefore the weird IP's belong to digicert
+
+Note that the investigated connection sometimes show as ocsp.digicert.com, and sometimes just shows an unresolved ip, which makes me think that this scenario is possible
+
+What I cant understand is that so far no tails users (except me) reported this yet
+
+> sudo watch \"netstat -anp | grep ESP\" and (now and again) sudo \"lsof -i\" to try to see whether some script or process is making the mystery connections.Not sure whether this is even a good idea, and suspect it may not be likely to work
+
+It didnt work
+
+> install rkhunter or chkrootkit..... install Wireshark
+
+Dont know if other dependencies have to be installed first and whether these dependencies will change the behavior of Tails which might create other problems that I dont know of
+
+**re: comment 17**
+
+>When you saw the mysterious connections to the suspicious servers, were you running Tails in a VM? Were you running any VM at the time?
+
+I was running Tails 0.17.1 from read only live cd. No VM run, Tails not on VM.
+
+**re: comment 18**
+
+>Were you by any chance using some videoconferencing software when you noticed the mystery connections?
+
+No
+"""]]

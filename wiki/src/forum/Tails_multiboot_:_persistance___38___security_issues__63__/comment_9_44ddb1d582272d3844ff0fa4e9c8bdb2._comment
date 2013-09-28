@@ -1,0 +1,18 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-02-18T18:27:31Z"
+ content="""
+\#5 here
+
+Persistent data is automatically recognized in Tails, and needs manual access on the other OS. I use stock ISOs for this config.
+
+I came to another idea, which should only require 1 USB stick. I'm going to test it soon. Basic steps are:
+
+* install Tails with its USB installer. This creates a fat32 partition with some files.
+* enlarge such partition as needed, and copy files from another distro's ISO (kernel/initrd/filesystem.squashfs...)
+* configure Tails' syslinux to also boot this other OS
+* in the remaining space, create Tails persistent partition with the \"official\" method
+
+Never stop experiments ;-)
+"""]]

@@ -1,0 +1,32 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-16T21:52:31Z"
+ content="""
+This thread reminds me of something which happened to me recently.
+
+Someone recommended a book by Susan Crawford, called *Captive Audience*, in such glowing terms that I immediately toddled off to the bookstore to buy a copy.  They had the book on their shelves, but I was surprised to see that it was categorized under \"Conspiracy Theories\".
+
+When I went to ring up the sale, the cashier asked to see my Comcast Trust card.  \"My what?\", I asked, startled.  \"You don't have it with you?  Never mind, you don't need it.\" \"Wait a minute; this is a bookstore, what do books have to do with Comcast?\" \"I can't tell you.\"  \"Well, how much does the book cost if I don't have a card?\"  \"With a card, forty dollars.  For you, sixty.\"
+
+Incensed, I left and went to the public library, where I found the book I wanted, for free.  Back home, searching showed the bookstore is now wholly owned by Comcast-NBC-Universal.  And after reading the book, I realized why Comcast files it under \"conspiracy theory\".  Too bad for them it is so well documented, with 72 pages of footnotes.
+
+(I hear that many consumers, angry over Comcast's merciless price gouging, are urging the Obama administration to name Crawford as the next head of the FCC.  But the Trust is unperturbed: Comcast is a nearly one trillion dollar company which employs hundreds of lobbyists, makes huge political contributions, and maintains close relations with presidents and key congressional staffers.)
+
+The next day, a letter arrived in my mailbox.  It thanked me for \"signing up\" for internet/phone service with Comcast.  But I certainly had not.  Puzzled, I called the real phone company to ask what they knew.  After spending an hour on the phone, and speaking with five employees, I was finally transferred to someone who admitted the awful truth: \"We are now owned by Comcast.\"  Crikey.  \"So how much will I have to pay now for phone service?\"  \"Your bundle costs 59 dollars for the first month, and $139.99 per month thereafter, as long as you don't go over one Gigabyte per month\". I gasped. \"That's outrageous! In serious countries consumers get one Gigabyte per *second* with no caps for about *thirty* dollars per month.\" \"Thanks for surfing with Comcast!\" Click.
+
+I fired up my browser for a little speed testing.  I was unsurprised to find that my browsing is now *slower* than ever, and my Tor connections are disrupted by more RESET packets than ever.  And my cell phone?  That no longer works at all.
+
+Suddenly my doorbell rang.  No less than five people, including a cop.  \"Thanks for signing up with Comcast NBC Universal\".  \"I didn't--- you bought the damn phone company.  And I don't want to be a Comcast customer, so I'm canceling my phone service\".  The cop spoke up: \"You can't; the law requires you to have a phone.\"  \"Since when?  And how can I sign up with a local phone company which is *not* owned by Comcast?\"  He didn't reply.  Comcast Guy Number One thrust a large carton into my arms.  \"To show our gratitude for your buying your new Comcast bundle, here is a free coffeepot\".  \"But... but... I don't want Comcast, and I already have a perfectly working coffeepot!\" The cop started talking into his shoulder radio.  Comcast guy smiled. \"You have to throw away the old one.  Here, this is yours.  It's WiFi enabled.  And for your protection, it contains a security camera connected to our Home Security Center\".  Oh joy.  But I took it just to get them to leave.
+
+Curiosity got the better of me, so I plugged the coffeepot into the Internet of Things and tried to figure out how to disable the camera and microphone.  Suddenly all the LEDs on my WiFi router started flashing, and my Tails browser stopped working.  \"Error 418\".  Huh?
+
+After some research, I discovered that Tails apparently does not properly handle the htcpcp protocol.  Using Wireshark, I could see that the coffeepot not only leaks its hardware address over ethernet, using TCPv6 to evade the LAN firewall, but also invokes nautilus-sendto to silently email an encrypted message to donaghe.msnbc.com.
+
+After some trouble, I filed a bug report with Tails, but the developers said \"That's a Mozilla problem.  But we wouldn't fix it if we could.\"  I frowned, wondering whether Comcast is secret Sponsor Alfa.  Sighing, I turned to gaze at my bird feeder.  But what I saw did nothing to lift my despondency: hovering inches outside the window was a gaily painted miniature drone, flapping four tiny wings like some demented dragonfly, and pointing its camera at me.  It was so close that I could read its logo: \"Comcast Security Neighborhood Watch\".
+
+Obligatory link to the ACLU (you know it's true):
+
+    http://www.aclu.org/blog/technology-and-liberty/aclus-pizza-video-10-years-later
+
+"""]]

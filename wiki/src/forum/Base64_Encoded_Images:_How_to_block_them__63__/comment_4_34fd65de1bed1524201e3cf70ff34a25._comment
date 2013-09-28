@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-11-12T08:46:53Z"
+ content="""
+This smells like a bug in Firefox. As I have not been able to locate a report describing this issue, I suggest you [create one](https://bugzilla.mozilla.org/enter_bug.cgi).
+"""]]

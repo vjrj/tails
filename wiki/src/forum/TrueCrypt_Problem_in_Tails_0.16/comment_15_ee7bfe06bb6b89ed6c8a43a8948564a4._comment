@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 15"
+ date="2013-01-29T01:53:20Z"
+ content="""
+No problem.
+
+This is a concern. I'd like to know the outcome for my own peace of mind as well as helping you get to the bottom of the problem. The fact that you **can** reliably use the container under the appropriate environment is reassuring. I'm suspecting some sort of inconsistency between the libraries... along the lines of something somewhere using \"Whirlpool\" (-T) or \"Whirlpool\" (-0) (which were both formerly known correctly as \"Whirlpool\") in place of \"Whirlpool\"!
+
+Will be checking back for your update(s). Please drop us all a line if you identify the cause yourself, or via a bug report, or whatever.
+"""]]

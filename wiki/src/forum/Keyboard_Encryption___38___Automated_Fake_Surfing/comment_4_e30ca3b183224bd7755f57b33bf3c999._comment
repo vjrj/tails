@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-05T15:11:54Z"
+ content="""
+Keyscrambler is designed to confuse keyloggers, but I can't see how
+keyloggers can get installed on a system running a live DVD so it
+seems irrelevant to this distro.
+
+The fake surfing would surely need some sort of scripting which
+could make the browser vulnerable to malicious scripts. The free
+version of iMacros couldn't do this satisfactorily (though the $500
+business version probably could).
+
+The automated keypresses, clicks, mouse movements and white noise
+could be hilarious and would keep the developers busy as some of
+Tails' more unstable users flood the forum with reports of poltergeist
+attacks.
+
+Lastly, rkhunter and chrootkit are for installed distros not live DVDs.
+
+(p.s. I think the author of comment 2 is a Tails developer having a laugh).
+
+"""]]

@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-19T14:40:29Z"
+ content="""
+Hey Number 5! :)
+
+thanks for replying! I was away in the mountains for a few days hence my late reply.
+
+Your solution is a good start, will Tails automatically link to the SD card on boot? The thing I'm really keen on getting to work is mainly the wifi keys, they've become so complicated and un-remember-able usability would gain a big boost if both OSes could save them so they would autoconnect. 
+
+For wallets, documents and downloads user could simply mount the partition. 
+
+Could you detail how you would go about this? Also if I used Mint Debian Edition would it make it compatible with Tails which is Debian as well? Sorry for noob questions... :)
+
+If you prefer to do this via pastebin here it is : 
+
+http://pastebin.com/ibZZvFBQ
+
+Tails to SDcard linked persistence setup requirements : 
+
+* USB stick with Grub2 selection of either non-persistent Mint or Tails, selected at boot according to user's required security/functionalities balance for computing session. Mint for classic yet virus & malware secure web use (as opposed to windows, macos and smartphones), Tails for high deepweb / torweb anonymous identity uses.
+
+* user-specific data such as /home, wifi keys, btc wallets for each OS should be linked to another partition located on a separate SD card so incriminating data can be hidden or disposed off in the safest way if user is in danger.
+
+* each OS can have its own folder or partition on SD card auto-mounted at boot, though a single unique one would be ideal for practicality ; since Tails & Mint DBE are based on Debian is that achievable?
+
+* as an extra how much would encryption complicate the process? 
+
+Thanks!
+"""]]

@@ -1,0 +1,128 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-17T04:35:53Z"
+ content="""
+I managed to get past this roadblock by typing in console:
+
+sudo apt-get install build-essential linux-headers-`uname -r
+
+and it worked but now it gives me this:
+
+VMWARE kernel module updater
+-stopping vmware services
+compiling
+-virtual machine monitor
+-virtual network device
+-vmware blocking filesystem
+-virtual machine communication interface
+-VMCI sockets
+-Running Depmod
+-Starting vmware servers
+
+popup: ERROR - unable to start services, see logfile /tmp/vmware-root/vmware-modconfig-5760.log
+
+
+and here's the logfile, if anyone actually uses this forum can you plz explain what im supposed to do next:
+
+[code]
+    2013-02-17T03:57:47.860Z| vthread-3| I120: Log for VMware Workstation pid=5760 version=9.0.1 build=build-894247 option=Release
+    2013-02-17T03:57:47.860Z| vthread-3| I120: The process is 32-bit.
+    2013-02-17T03:57:47.860Z| vthread-3| I120: Host codepage=UTF-8 encoding=UTF-8
+    2013-02-17T03:57:47.860Z| vthread-3| I120: Host is Linux 3.2.0-4-686-pae 6.0.6
+    2013-02-17T03:57:47.859Z| vthread-3| I120: Msg_Reset:
+    2013-02-17T03:57:47.859Z| vthread-3| I120: [msg.dictionary.load.openFailed] Cannot open file \"/usr/lib/vmware/settings\": No such file or directory.
+    2013-02-17T03:57:47.859Z| vthread-3| I120: ----------------------------------------
+    2013-02-17T03:57:47.859Z| vthread-3| I120: PREF Optional preferences file not found at /usr/lib/vmware/settings. Using default values.
+    2013-02-17T03:57:47.860Z| vthread-3| I120: Msg_Reset:
+    2013-02-17T03:57:47.860Z| vthread-3| I120: [msg.dictionary.load.openFailed] Cannot open file \"/root/.vmware/config\": No such file or directory.
+    2013-02-17T03:57:47.860Z| vthread-3| I120: ----------------------------------------
+    2013-02-17T03:57:47.860Z| vthread-3| I120: PREF Optional preferences file not found at /root/.vmware/config. Using default values.
+    2013-02-17T03:57:47.860Z| vthread-3| I120: Msg_Reset:
+    2013-02-17T03:57:47.860Z| vthread-3| I120: [msg.dictionary.load.openFailed] Cannot open file \"/root/.vmware/preferences\": No such file or directory.
+    2013-02-17T03:57:47.860Z| vthread-3| I120: ----------------------------------------
+    2013-02-17T03:57:47.860Z| vthread-3| I120: PREF Failed to load user preferences.
+    2013-02-17T03:57:47.860Z| vthread-3| W110: Logging to /tmp/vmware-root/vmware-modconfig-5760.log
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Reading in info for the vmmon module.
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Reading in info for the vmnet module.
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Reading in info for the vmblock module.
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Reading in info for the vmci module.
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Reading in info for the vsock module.
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Setting vsock to depend on vmci.
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Created new pathsHash.
+    2013-02-17T03:57:47.877Z| vthread-3| I120: Invoking modinfo on \"vmmon\".
+    2013-02-17T03:57:47.880Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:47.880Z| vthread-3| I120: Invoking modinfo on \"vmnet\".
+    2013-02-17T03:57:47.883Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:47.883Z| vthread-3| I120: Invoking modinfo on \"vmblock\".
+    2013-02-17T03:57:47.885Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:47.885Z| vthread-3| I120: Invoking modinfo on \"vmci\".
+    2013-02-17T03:57:47.887Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:47.887Z| vthread-3| I120: Invoking modinfo on \"vsock\".
+    2013-02-17T03:57:47.890Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:47.906Z| vthread-3| I120: Obtaining info using the running kernel.
+    2013-02-17T03:57:47.906Z| vthread-3| I120: Setting header path for 3.2.0-4-686-pae to \"/lib/modules/3.2.0-4-686-pae/build/include\".
+    2013-02-17T03:57:47.906Z| vthread-3| I120: Validating path \"/lib/modules/3.2.0-4-686-pae/build/include\" for kernel release \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.915Z| vthread-3| I120: Preprocessed UTS_RELEASE, got value \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.915Z| vthread-3| I120: The header path \"/lib/modules/3.2.0-4-686-pae/build/include\" for the kernel \"3.2.0-4-686-pae\" is valid.  Whoohoo!
+    2013-02-17T03:57:47.964Z| vthread-3| I120: Kernel header path retrieved from FileEntry: /lib/modules/3.2.0-4-686-pae/build/include
+    2013-02-17T03:57:47.964Z| vthread-3| I120: Update kernel header path to /lib/modules/3.2.0-4-686-pae/build/include
+    2013-02-17T03:57:47.964Z| vthread-3| I120: Validating path \"/lib/modules/3.2.0-4-686-pae/build/include\" for kernel release \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.972Z| vthread-3| I120: Preprocessed UTS_RELEASE, got value \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.972Z| vthread-3| I120: The header path \"/lib/modules/3.2.0-4-686-pae/build/include\" for the kernel \"3.2.0-4-686-pae\" is valid.  Whoohoo!
+    2013-02-17T03:57:47.973Z| vthread-3| I120: Found compiler at \"/usr/bin/gcc\"
+    2013-02-17T03:57:47.976Z| vthread-3| I120: Got gcc version \"4.4.5\".
+    2013-02-17T03:57:47.976Z| vthread-3| I120: GCC minor version 4 does not match Kernel GCC minor version 4.  But that is ok.
+    2013-02-17T03:57:47.976Z| vthread-3| I120: Using user supplied compiler \"/usr/bin/gcc\".
+    2013-02-17T03:57:47.979Z| vthread-3| I120: Got gcc version \"4.4.5\".
+    2013-02-17T03:57:47.979Z| vthread-3| I120: GCC minor version 4 does not match Kernel GCC minor version 4.  But that is ok.
+    2013-02-17T03:57:47.986Z| vthread-3| I120: Trying to find a suitable PBM set for kernel \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.986Z| vthread-3| I120: No matching PBM set was found for kernel \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.986Z| vthread-3| I120: Validating path \"/lib/modules/3.2.0-4-686-pae/build/include\" for kernel release \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.994Z| vthread-3| I120: Preprocessed UTS_RELEASE, got value \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:47.994Z| vthread-3| I120: The header path \"/lib/modules/3.2.0-4-686-pae/build/include\" for the kernel \"3.2.0-4-686-pae\" is valid.  Whoohoo!
+    2013-02-17T03:57:47.994Z| vthread-3| I120: GCC minor version 4 does not match Kernel GCC minor version 4.  But that is ok.
+    2013-02-17T03:57:47.996Z| vthread-3| I120: Validating path \"/lib/modules/3.2.0-4-686-pae/build/include\" for kernel release \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:48.004Z| vthread-3| I120: Preprocessed UTS_RELEASE, got value \"3.2.0-4-686-pae\".
+    2013-02-17T03:57:48.004Z| vthread-3| I120: The header path \"/lib/modules/3.2.0-4-686-pae/build/include\" for the kernel \"3.2.0-4-686-pae\" is valid.  Whoohoo!
+    2013-02-17T03:57:48.004Z| vthread-3| I120: GCC minor version 4 does not match Kernel GCC minor version 4.  But that is ok.
+    2013-02-17T03:57:48.004Z| vthread-3| I120: Using temp dir \"/tmp\".
+    2013-02-17T03:57:48.005Z| vthread-3| I120: Invoking modinfo on \"vmmon\".
+    2013-02-17T03:57:48.008Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:48.008Z| vthread-3| I120: Invoking modinfo on \"vmnet\".
+    2013-02-17T03:57:48.011Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:48.011Z| vthread-3| I120: Invoking modinfo on \"vmblock\".
+    2013-02-17T03:57:48.013Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:48.013Z| vthread-3| I120: Invoking modinfo on \"vmci\".
+    2013-02-17T03:57:48.016Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:48.016Z| vthread-3| I120: Invoking modinfo on \"vsock\".
+    2013-02-17T03:57:48.019Z| vthread-3| I120: \"/sbin/modinfo\" exited with status 256.
+    2013-02-17T03:57:48.182Z| vthread-3| I120: Setting destination path for vmmon to \"/lib/modules/3.2.0-4-686-pae/misc/vmmon.ko\".
+    2013-02-17T03:57:48.182Z| vthread-3| I120: Extracting the vmmon source from \"/usr/lib/vmware/modules/source/vmmon.tar\".
+    2013-02-17T03:57:48.191Z| vthread-3| I120: Successfully extracted the vmmon source.
+    2013-02-17T03:57:48.192Z| vthread-3| I120: Building module with command \"/usr/bin/make -j4 -C /tmp/modconfig-ct2Rmb/vmmon-only auto-build HEADER_DIR=/lib/modules/3.2.0-4-686-pae/build/include CC=/usr/bin/gcc IS_GCC_3=no\"
+    2013-02-17T03:57:48.520Z| vthread-3| W110: Failed to build vmmon.  Failed to execute the build command.
+    2013-02-17T03:57:48.522Z| vthread-3| I120: Setting destination path for vmnet to \"/lib/modules/3.2.0-4-686-pae/misc/vmnet.ko\".
+    2013-02-17T03:57:48.522Z| vthread-3| I120: Extracting the vmnet source from \"/usr/lib/vmware/modules/source/vmnet.tar\".
+    2013-02-17T03:57:48.527Z| vthread-3| I120: Successfully extracted the vmnet source.
+    2013-02-17T03:57:48.527Z| vthread-3| I120: Building module with command \"/usr/bin/make -j4 -C /tmp/modconfig-ct2Rmb/vmnet-only auto-build HEADER_DIR=/lib/modules/3.2.0-4-686-pae/build/include CC=/usr/bin/gcc IS_GCC_3=no\"
+    2013-02-17T03:57:48.720Z| vthread-3| W110: Failed to build vmnet.  Failed to execute the build command.
+    2013-02-17T03:57:48.721Z| vthread-3| I120: Setting destination path for vmblock to \"/lib/modules/3.2.0-4-686-pae/misc/vmblock.ko\".
+    2013-02-17T03:57:48.721Z| vthread-3| I120: Extracting the vmblock source from \"/usr/lib/vmware/modules/source/vmblock.tar\".
+    2013-02-17T03:57:48.728Z| vthread-3| I120: Successfully extracted the vmblock source.
+    2013-02-17T03:57:48.729Z| vthread-3| I120: Building module with command \"/usr/bin/make -j4 -C /tmp/modconfig-ct2Rmb/vmblock-only auto-build HEADER_DIR=/lib/modules/3.2.0-4-686-pae/build/include CC=/usr/bin/gcc IS_GCC_3=no\"
+    2013-02-17T03:57:48.948Z| vthread-3| W110: Failed to build vmblock.  Failed to execute the build command.
+    2013-02-17T03:57:48.950Z| vthread-3| I120: Setting destination path for vmci to \"/lib/modules/3.2.0-4-686-pae/misc/vmci.ko\".
+    2013-02-17T03:57:48.950Z| vthread-3| I120: Extracting the vmci source from \"/usr/lib/vmware/modules/source/vmci.tar\".
+    2013-02-17T03:57:48.958Z| vthread-3| I120: Successfully extracted the vmci source.
+    2013-02-17T03:57:48.958Z| vthread-3| I120: Building module with command \"/usr/bin/make -j4 -C /tmp/modconfig-ct2Rmb/vmci-only auto-build HEADER_DIR=/lib/modules/3.2.0-4-686-pae/build/include CC=/usr/bin/gcc IS_GCC_3=no\"
+    2013-02-17T03:57:49.106Z| vthread-3| W110: Failed to build vmci.  Failed to execute the build command.
+    2013-02-17T03:57:49.107Z| vthread-3| I120: Setting destination path for vsock to \"/lib/modules/3.2.0-4-686-pae/misc/vsock.ko\".
+    2013-02-17T03:57:49.107Z| vthread-3| I120: Extracting the vsock source from \"/usr/lib/vmware/modules/source/vsock.tar\".
+    2013-02-17T03:57:49.114Z| vthread-3| I120: Successfully extracted the vsock source.
+    2013-02-17T03:57:49.114Z| vthread-3| I120: Extracting the vmci source from \"/usr/lib/vmware/modules/source/vmci.tar\".
+    2013-02-17T03:57:49.124Z| vthread-3| I120: Successfully extracted the vmci source.
+    2013-02-17T03:57:49.124Z| vthread-3| I120: Building module with command \"/usr/bin/make -j4 -C /tmp/modconfig-ct2Rmb/vmci-only auto-build HEADER_DIR=/lib/modules/3.2.0-4-686-pae/build/include CC=/usr/bin/gcc IS_GCC_3=no\"
+    2013-02-17T03:57:49.271Z| vthread-3| W110: Failed to build vmci.  Failed to execute the build command.
+[/code]
+"""]]

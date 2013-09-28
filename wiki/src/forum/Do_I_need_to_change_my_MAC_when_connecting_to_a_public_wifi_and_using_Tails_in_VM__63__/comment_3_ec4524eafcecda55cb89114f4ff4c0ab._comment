@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-05-11T13:02:04Z"
+ content="""
+@ comment 2
+> Why would you want to run Tails in VM?
+
+
+[see list here](https://tails.boum.org/forum/How_to_enable_persistence_when_running_in_a_virtualized_environment__63__#comment-85440e7e29a731914dadc1375a5bd300)
+"""]]

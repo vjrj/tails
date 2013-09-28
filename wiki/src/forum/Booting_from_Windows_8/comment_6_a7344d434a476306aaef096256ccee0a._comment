@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-05-12T12:52:31Z"
+ content="""
+>I was using an HP ENVY running Windows 8 (ugh! yuck! Blech!).
+
+For machines released starting from May 2012, most of them have UEFI enabled. You will have to disable it before you can boot from Tails.
+"""]]

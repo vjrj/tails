@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-11T09:16:29Z"
+ content="""
+The hostname is \"amnesia\", but it shouldn't be visible on the network.
+
+A Tails developer have to confirm that it isn't visible on the network however, or someone can just run wireshark and confirm \"amnesia\" isn't mentioned in the DHCP requests made.
+"""]]

@@ -1,0 +1,6 @@
+Hi, I am new to tails, 
+But I wonder, why is a i386 livecd over 800MB? 
+also the download, even via wget, is very slow. The fact that this livecd is extra large makes the download even longer. 
+but those are seprate issues. Is all that extra crap really needed in a distro of this focus? like pitivi? really? I mean the livecd drivers for my gpu arent going to support any form of video rendering, so why even have something like that? then there is the office suit taking up some 300+MB what if it was abiword? 
+
+actualy, looking at the packes in this os, Im no longer sure what the focus is. Is this OS a personal security distro, or a just for fun livecd to test out TOR?

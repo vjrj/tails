@@ -1,0 +1,3 @@
+I just downloaded the latest version and burn it and use it in live CD works fine. I wanted to make a LiveUSB for persistent memory but I find that after: booting tails ... Bar disappears, the screen goes black.
+I tried the unetbootin, usb creator trisquel and finally the usb creator tails. Same result for unetbooting and tails usb creator. With usb creator trisquel gives me an error saying can not find the kernel image.
+Which is the problem and fix it? thank you very much.

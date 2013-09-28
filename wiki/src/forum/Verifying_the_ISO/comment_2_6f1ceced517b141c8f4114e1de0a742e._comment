@@ -1,0 +1,24 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-12-19T22:05:28Z"
+ content="""
+You are using a PC running Windows, correct?
+
+> I did the direct download and downloaded the ISO and the ISO pgp and the key 
+
+Sounds good
+
+> and inserted all that into Kleopatra
+
+How confusing. It seems there is a discontinued certificate manager and crypto GUI for KDE (another desktop which can be used with Debian instead of Gnome) called Kleopatra, and a GUI related to gpg4win which is also called Kleopatra.  I guess you mean the second but have no idea how it works.
+
+> and it is giving me the message \"not enough information to check signiture validity\"
+
+That might indicate that you did not in fact import the key into your gpg keyring.
+
+I second the advice to use the command line.  If you can fire up a shell you can just (carefully!) paste the commands given in the Tails documenation into your shell and hit return/enter.
+
+Be very careful to keep your GPG keyring encrypted (or even on a seperate single use storage device you keep on your person) when you are not using it.  Unfortunately the GPG default is to keep the keyring in a default location.  The secure keys in your own keypairs are hashed but this still leaves you open to attack by anyone who can access your hard drive (such as a border crossing guard who threatens to arrest you if you do not boot up your computer so he/she can search/image the hard drive and/or search/image the RAM).
+
+"""]]

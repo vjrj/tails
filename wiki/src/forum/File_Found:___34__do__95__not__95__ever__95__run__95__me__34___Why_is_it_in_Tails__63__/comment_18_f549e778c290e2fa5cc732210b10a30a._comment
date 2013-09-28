@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-12-23T00:31:35Z"
+ content="""
+> Question 1: What you are saying is that malicious scripts on a web page CAN execute the file \"do_not_ever_run_me\" during a Tails session provided that the machine has been compromised first. Is that correct?
+
+No, what I am saying is that if your computer is compromised (which can be done by a malicius script if it exploits some weakness in the browser or other related program) then the person that has compromised your machine would be able do do whatever they wanted to, including running that script, of course if you were actually so compromised that somebody had the that level of control on your system then you'd be dead regardless since the attacker would be able to do anything they wanted, including running their own scripts not stored in tails.
+
+> Question 2: But how can a machine be compromised when we are running Tails using a 
+Live DVD or Live USB (without persistence)?
+
+Whether you have persistence enabled or not has no effect at all on compromising your system while it's in use, there are many ways you could be compromised, but I guess the most likely one would be a bug in the browser that allowed remote access if exploited.
+
+If you ever take the time to read through the announcements made when new tails versions are released you'd see that they always list the bugs that have been discovered in the previous version, all of the security bugs market as severe or critical could in theory have been used to compromise somebody using that version of tails, that's why it's important to always use the latest version of tails.
+
+> Question 3: Could you list some scenarios in which our Tails session can be compromised remotely? Thanks in advance.
+
+See the answers to question 2
+"""]]

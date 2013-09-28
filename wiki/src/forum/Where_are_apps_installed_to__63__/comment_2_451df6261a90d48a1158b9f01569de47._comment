@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-08-15T17:01:46Z"
+ content="""
+downloaded software packages can be made persistant, so you can install them when you start tails. however, I would like an opt-in feature to auto-install packages when enabling persistence
+"""]]

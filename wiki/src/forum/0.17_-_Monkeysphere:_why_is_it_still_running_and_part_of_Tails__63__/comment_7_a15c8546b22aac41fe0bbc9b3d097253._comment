@@ -1,0 +1,31 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-15T08:48:12Z"
+ content="""
+> No, it is not closed.
+
+You alone are not given to decide what use we make of our time, sorry.
+
+> For those of us who want to remove the Monkeysphere package, how is it done?
+
+This forum is not about learning the basics of Debian GNU/Linux, sorry.
+
+> so why all of the SSH related scripts and tmp socket?
+
+I've addressed this already in comment 4.
+
+> How may we safely remove the Monkeysphere project from our systems if we don't want it.
+
+You're free to customize Tails, at your own risks, with your own skills, but please do stop demanding help here to do so, and please stop insisting about it. This is a waste of our time.
+
+> You should be excited with open discussion for your project, thrilled it is popular and people are curious about the insides.
+
+I'm very happy, as long as curious people are prepared to read documentation.
+
+@comment6: please have a look at [[contribute/design]].
+
+This thread is now closed, and I mean it.
+
+"""]]

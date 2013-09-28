@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-02-19T19:17:44Z"
+ content="""
+> The point is that I am concerned that it would be clear to anyone who investigated that I am using Tor. I would like to change this.
+
+See [[doc/first_steps/startup_options/bridge_mode]].
+
+"""]]

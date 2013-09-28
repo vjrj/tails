@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-19T19:45:46Z"
+ content="""
+There are security concerns in everything and if your life is at risk, you cannot be too paranoid.
+
+Most hardware contain some kind of unique serial number, and TVs and other external displays are no exception. The computer can query it using EDID (Extended display identification data). I don't think it is any worse than e.g. USB thumbdrives, ethernet cards, computer motherboards, etc. that also have serial numbers, but a large TV is quite difficult to hide. Also, like you said, I would not trust any \"SMART televisions\" that have storage capacity and perhaps even it's own internet connectivity.
+
+Of course the serial numbers matters only if your computer running Tails is owned and the attacker is able to gather information about the hardware. Then I would worry mostly about WIFI - once you are able to listen to nearby base stations, it is - thanks to Google - trivil to geolocate you.
+
+"""]]

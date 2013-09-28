@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 12"
+ date="2013-01-25T12:00:12Z"
+ content="""
+Please [[report a bug|doc/first_steps/bug_reporting]] after booting, choosing an administrator password in tails-greeter, and trying to activate your 40 GB volume (please don't do anything else, to avoid cluttering the logs with unrelated noise).
+
+Please include the *exact* error messages TrueCrypt tells you (everything, including the dialog box title) in this bug report.
+
+"""]]

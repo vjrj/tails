@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-16T10:41:39Z"
+ content="""
+> At least after an hour, when it's clear the user has abandoned the session [...]
+
+I'm not convinced.
+
+First, the security advantage looks tiny to me: it's apparently only useful when an attacker has physical access to the system exactly when, by luck, a Tails user forgot to shutdown their Tails. Pretty unlikely in most cases, isn't it? Additionally, I've seen many people, including myself, \"abandon\" a running Tails session for a bit more than one hour, e.g. to eat 3 meters away from the computer. So, all in all, I'm not sure the tiny security advantage is worth losing data in such situations.
+
+But I'm only speaking for myself, so I suggest starting this discussion on the tails-dev mailing-list if you want to gather wider opinions from other Tails developers.
+
+"""]]

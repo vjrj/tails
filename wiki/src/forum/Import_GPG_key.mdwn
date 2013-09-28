@@ -1,0 +1,5 @@
+Sorry for noob question . I need to  start secure conversation with someone but i know just his mail and openPGP that looks like that:
+key -----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+-----END PGP MESSAGE-----
+How can i add this? Applet lets me onli to import keys from the file . Browser says that there is no firegpg in it couse it is unsafe. What must i do?? Thank you.

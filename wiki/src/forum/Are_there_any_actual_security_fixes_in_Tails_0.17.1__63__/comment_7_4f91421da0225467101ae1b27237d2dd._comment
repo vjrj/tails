@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-24T17:05:31Z"
+ content="""
+> I2P latest update is now 0.9.5 
+
+We're aware of this, as our [[contribute/release process]] and
+[[test suite|contribute/release_process/test]] have steps about
+this. But sorry, we did not feel like delaying the serious
+Iceweasel and Linux security updates to upgrade and test I2P.
+Also, `http://killyourtv.i2p.to/debian' being down does not help.
+
+"""]]

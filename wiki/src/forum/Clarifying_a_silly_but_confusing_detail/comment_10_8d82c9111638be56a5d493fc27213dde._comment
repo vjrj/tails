@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="OP"
+ date="2012-09-24T15:26:26Z"
+ content="""
+Fair enough :) thanks for the answer.
+
+Just for the sake of being exhaustive, consider adding an \"also\" to the text you altered on the download page.
+
+From: Cryptographic signature
+
+The cryptographic signature of the ISO image is included in the Torrent. 
+
+To: Cryptographic signature
+
+The cryptographic signature of the ISO image is *ALSO* included in the Torrent.
+
+This should make it gpgnewbie-proof I hope, as it implicitly states the iso downloaded by torrent and by direct download are exactly the same. The combination of the \"also\" with the changes you already performed would have made the situation clear to me one year ago (with my very limited at the time technical skills).
+
+btw: Thank you for doing this :) Tails is a great project and a hope for a better future. :)
+"""]]

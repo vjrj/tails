@@ -1,0 +1,44 @@
+The Tails Project says they intend to discontinue and remove this forum, which uses IkiWiki, and to adopt a new Q&A site which will use AskBot:
+
+     https://tails.boum.org/todo/improve_the_forum/
+
+I am not sure I understand this correctly, but it seems that "Tails" might even intend to piggyback on the new ask.torproject.org Q&A site instead of creating their own site at boum.org.
+
+I was unfamiliar with AskBot (which is apparently not available as a Debian stable package) until I discovered an unadvertised "test site", allegedly run by the Tor Project, which uses AskBot:
+
+      https://ask.torproject.org/questions/
+
+So far it seems that moderation might actually be *harder* if Tor/Tails adopt this site for their Q&A forum.
+
+Two huge problems:
+
+* AskBot requires user registration, which means the software keeps user data tied to username/password to logins and post timestamps (which can potentially leak geolocation information), which practically screams to our adversaries "hack me!"
+
+* AskBot requires that users enable JavaScript (not to be confused with Java) in their browser, but *JavaScript is a major source of cross-platform vulnerabilities which are often exploited by many malware authors*; most Tor users probably disable it entirely and some of us consider this has saved our system more than once (e.g. from malware planted at human rights websites and major news sites, which exploited Javascript flaws to try to trojan visitors's computers)
+
+Further problems:
+
+* if there is a policy at https://ask.torproject.org/privacy/ I can't see it, although that might well be due to disabling Javascript.
+* as "Tails" notes, AskBot has "many dependencies outside Debian", which seems likely to lead to security vulnerabilities owing to failure to discover and patch problems in non-Debian software
+
+Surely there *must* be a better solution than AskBot?
+
+I am one of those who have had some back and forth with "Tails" regarding discussions of surveillance techniques which many Tails users seem likely to encounter, especially as more and more nations direct cyberespionage/cyberwar capabilities at the computers used by ordinary citizens around the world (especially those with an interest in civil liberties, human rights, or political opposition to oppression, or who use Tor and other privacy enhancing tools, or electronic currencies).  I'd like to take elsewhere those discussion "Tails" wish us to take elsewhere (provided I can leave links here as appropriate), but there currently is simply no alternative.  Frustrating for all concerned, and I can't understand why Tor and Tails Project have apparently decided to make their Q&A boards using AskBot, which seems a very inappropriate tool to ask a security/privacy-aware userbase to risk using.
+
+It's very frustrating, and I hope that these Projects will find a better tool than AskBot for their new Q&A fora.  A good first step to finding a better tool might be to ask users here what their bottom line requirements are.  Another would be to resolve to use only software already available as a Debian package, or easily made by a Debian developer into a Debian package which can track upstream changes.  
+
+My own bottom-line requirements include:
+
+* user registration not required
+* Javascript not required
+
+(I *hope* there are not others I have not yet recognized.)
+
+But I won't be able to participate in any Q&A board which
+
+* requires user registration
+* requires enabling Javascript
+
+so assuming that "the Powers" ignore my pleas, my voice will be silenced, as will no doubt other voices.  I don't think this really advances the pro-democracy, pro-free-speech, pro-privacy agenda of either the Tor or Tails Projects.
+
+It seems the changeover will happen suddenly in the near future, so I'd just like to wish everyone seeking a spot of privacy the best of luck in our Brave New Century while I still can.

@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2013-03-28T06:08:27Z"
+ content="""
+>That is the official USB installer for Tails on Windows,
+
+Last I checked, *no* third-party program (whether Universal USB Installer, UNetbootin or anything else) was supported for installing Tails.
+
+Thus, I am rather surprised that \"Tails\" made no mention of this.
+
+Or is \"Universal USB Installer\" now supported by Tails?
+"""]]

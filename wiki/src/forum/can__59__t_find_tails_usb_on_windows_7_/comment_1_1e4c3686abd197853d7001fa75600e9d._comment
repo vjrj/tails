@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-02-28T01:30:44Z"
+ content="""
+You'd need to find and install drivers for the filesystem and any encryption system you've used on the partitions you wish to mount.
+"""]]

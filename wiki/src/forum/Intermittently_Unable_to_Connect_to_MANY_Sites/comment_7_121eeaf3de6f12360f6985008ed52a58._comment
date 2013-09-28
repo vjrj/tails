@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2013-03-26T02:05:04Z"
+ content="""
+> you can get an idea of the number of forum posts and Tails boots
+
+That could be misinterpreted.  
+
+As I understand it, the Tails Project logs an automatic visit upon booting Tails to the news page as a \"Tails boot\", but of course the identity of the user is hidden behind a Tor circuit to the Tails news page.
+
+Please either
+
+* acknowledge 
+* correct me if my understanding is incorrect
+
+Thanks in advance!
+
+@ OP:
+
+I'd like to share information on problems I have encountered in the past year using TBB and Tails, but a free and open discussion may be difficult in this forum; search for NDI to see one possible reason why.
+"""]]

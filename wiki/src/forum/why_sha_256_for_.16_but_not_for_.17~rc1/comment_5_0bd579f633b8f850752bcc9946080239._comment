@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-20T17:19:57Z"
+ content="""
+> again, why sha 256 provided for .16 but not for .17~rc1? 
+
+Because windows users were constantly whining about being forced to use the (much more secure but slightly harder for them to use) Signature to verify instead of the (far less secure but more common) SHA checksums that they were used to, Tails .16 is the only Tails version where an official sha sum was added to the download page and it is again entirly due to whining that it was added, using sha to verify Tails is not seucure and it never will be, and because of that it will also never be somthing that is recommended or in any way prioritized by Tails developers.
+"""]]

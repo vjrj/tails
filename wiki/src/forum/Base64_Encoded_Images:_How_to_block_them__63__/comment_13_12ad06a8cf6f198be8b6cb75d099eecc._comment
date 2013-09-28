@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 13"
+ date="2012-11-15T03:34:08Z"
+ content="""
+>If you post a working solution, should Tails ship with Adblock configured to block these images or could this feature be switched on as a toggle when Images are Disabled within the browser?
+
+My inclination would be **not** to install any more plugins but to work towards fixing the Mozilla bug. I can't see any value in replacing one *potential* vector with another!
+"""]]

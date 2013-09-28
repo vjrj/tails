@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-21T22:16:47Z"
+ content="""
+> Why does Tails OS allow the user to change the theme or desktop background if those settings cannot be saved, and each time the user shuts down and restarts, the settings are returned to defaults?
+
+Why shouldn't it? A *really* read-only OS, that does not pretend files can be changed, would be an entirely different challenge.
+
+Also see [[todo/persistence]].
+
+"""]]

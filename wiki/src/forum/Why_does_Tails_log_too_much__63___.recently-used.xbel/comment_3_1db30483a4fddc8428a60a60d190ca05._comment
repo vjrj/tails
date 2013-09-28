@@ -1,0 +1,58 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-08T19:16:14Z"
+ content="""
+This may be naive, but as a Tails user who has had similar concerns to the  OP, I'd like to put myself forward in a well-intentioned attempt to mediate between the OP and \"Tails\".
+
+@ OP:
+
+My usual OS is Debian stable, and Tails is closely based upon Debian stable, so I am somewhat familiar with at least some of the system metadata logging which is performed by both Debian and Tails systems.
+
+On Debian stable (with the default gnome desktop environment), the file you mention does indeed contain the kind of information appreciated by spooks and is located in the user home directory.  It is apparently used by applications such as gedit to generate the list you see when you click on \"Recently Used\" in the application menu.
+
+I am using Tails 0.17.1 booted from a DVD and observed the following:
+
+The file .recently-used.xbel was not present in /home/amnesia
+
+when I 
+
+* booted Tails
+* added some bookmarks
+* called gedit
+* wrote but didn't save some files
+
+When I saved one of the files it finally appeared (curses!) and contained the kind of sensitive information we don't want logged, at least not permanently.  Even more annoying, it claims that information is owned by http://freedesktop.org (a component of the Gnome desktop, I think, but I didn't waste time trying to check).
+
+So when you save files the system assumes you might want it to remember something and start storing this kind of information.  Its not really malicious; even Debian users apparently enjoy minor conveniences even at the risk of allowing intruders to learn a great deal about their activities.
+
+I didn't check, but I imagine that even spellchecking a file created with gedit will result in the xbel file being created if it does exist, or in the modification being recorded if it does.
+
+As for the reasons why Tails systems include this, clearly it is much easier to make minimal modifications to Debian stable.  But beyond that, the more modifications the Tails developers make, the greater the danger that a mistake will create an unwanted security issue or use issue.  So I think there may be a valid case for not trying to modify Tails so that a Tails system does not store metadata at all; rather, we probably should try to ensure that it only stores metadata in places which will vanish when Tails (booted from a R/O DVD) is shut down.
+
+A very important point to remember is that Tails was originally intended to be an \"amnesiac operating system\".   This means precisely that Tails does not retain on disk or other permanent storage this kind of dangerous metadata, once the user reboots to his other OS or reboot Tails!
+
+I suggest that the question we may want to discuss is whether or not it is really wise to put a new Tails system on a USB stick.
+
+Pro: obtain persistence in bookmarks, configurations, also file storage
+Con: defeat the entire purpose of Tails, which is \"amnesia\"
+
+Obviously, I tend to think the Con outweighs the Pro, especially since I think there are much smarter ways of obtaining \"desirable persistence\" while avoiding \"undesirable persistence\" such as sensitive metadata storing detailed information about local file creation/modification.
+
+(The OP didn't point this out, but there is a legitimate concern that a whistle-blower who creates and edits a file which is then uploaded to a whistle-blowing site could later be raided by a vindictive entity and his/her connection to the file would then be easily discovered by even an amateur investigator using naive \"computer forensics\".  Indeed, even a remote intruder into a running Tails with long uptime could easily find this information in the virtual filesystem, even if Tails was booted from DVD.)
+
+I would like to see more emphasis in the Tails Documentation on procedures for booting only from a DVD, but possibly using a USB stick to store files and a few settings.  My thinking is that a running Tails system will inherit how Debian treats metadata, so will tend to put metadata in places which vanish once the user reboots (which should happen at least daily), and thus will not be retained on persistent storage devices.  I'd like to see a new boot options which enable the user to 
+
+* start Tails with WiFi and networking disabled
+* configure the Tails browser using a file stored on an encrypted USB stick, which the user has to mount in the usual way, after which Tails proceeds to to the normal time setting connections followed by connecting to the Tor network.
+
+I urge users not to let Tails run for a long time, but I'd also like to see better procedures for root password, since some users might have a good reason for enabling a root account.  It would not be hard to modify Tails to ensure that entered password is hashed 1187 times with SHA-256 and well salted, which would likely defeat rainbow tables.  I don't have a scenario for how that might help, but it seems to me this is an easy thing which might help in some situation none of us has yet thought of.
+
+Another place where metadata is stored, by the way, is
+
+     /home/amnesia/.local/share/gvfs-metadata
+
+In another thread, we discussed DOM-storage files created by the Tails browser itself (a possibly undesirable property inherited from Iceweasel, which inherits it from Firefox).  For what it's worth, I feel a little better right now about that situation both in TBB and Tails.
+
+
+"""]]

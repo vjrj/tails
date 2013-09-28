@@ -1,0 +1,47 @@
+On a previous system, and now, only now I need to go get it back and check anew upon it, as I had discarded it as hardware-faulty.. I had had the same brokenness as on another system today, with Tails-0.16 USB install.
+It did appear as hardware fault, indeed.
+
+But if it appears on a pretty much known hardware-wise healthy system now, then in all likelihood it was not!
+
+This did happen weeks ago, and it did happen these days:
+
+The system was connected to internet. I was downloading something. The download went creepingly slow and cut off.
+Neither resuming downloading with wget could finish the download, of files sizewise in the range of the usual Tails iso file.
+
+And there was activity, pretty much unknown to non-expert user as me, in the internet connection, confirmed visually (blinking LED for the connection on hardware through which the connection is established for the computer in question.
+
+So, something was downloading because, as they say in the bug reports, mostly Mozilla related, someone was running arbitrary code inserted through some exploits, into my Firefox and/or other programs... and he/she was running those programs (programmatically, possibly subjects such as NSA or some equivalents), most obviously, in my computer, a violation of my liberty which is insignificant to what similar subjects have done to nations like Pakistan or Yemen, where they kill civilians in multitude along with scarse numbers of say legitimate targets... but I need my freedom from such to work and think and act for a better world anyways...
+
+And, I just wasn't able to finish things that I was doing, because, the Trojan, if that's the name for such a thing that was running in my computer, decided it needed to shut my computer down. Gulp!
+
+Back on the other syntem not under my fingers anymore, weeks ago, I was, then, sure it was a hardware failure, and decided to tell that computer broken... 
+
+Because it would repeat with the OS'es installed in that computer, regardless of the USB stick with Tails being there or not... Now I'm not so sure...
+
+And now my question is, how broken was Tails 0.16?
+
+Could it be that it was so badly broken that the attacker, the one with the money to pay the traitors of Linux, that I intend to explain below who I think they are... Could it have been so broken to even, during longish time (days) on the internet with Tails 0.16, to even have infected the OS'es installed in that computer?
+
+Otherwise, I don't blame the Tails devs. No! I'm greatful to them for this great tool, and they still have lots of credit with me.
+
+But if I am allowed to explain, I blame the traitors. The people who are completely unlike some of the great developers who I regard as role models to learn from, I'll try and name just two: Richard Stallman and Brad (Spender) Spangler, both completely unrelated, but honest and uncompromising in similar measure... and I don't say perfect...
+
+I blame the traitors who got all their knowledge from GNU Linux and went on and sold it for the money in various but always lucrative and hardly ever provable ways... I mean sold it by way of their actions.
+
+I see the treason began, long ago, and has flourished to abundance and to damage so heavy that Linux looks so full of holes almost like Microsoft Windows used to be...
+
+And what can developers of Tails do with the GNU programs of all the lesser licenses, and Google Open Source programs like geoip family ones?... 
+
+Arghh... Because the brokenness was programmatic...
+
+It was programmatic bacause of the holes introduced in the Linux kernel, way back, years back... And I know you know it, Tails devs! I'm not going to try and prove it, I lack the resources of time to do it...
+
+Programmatic bacause of the holes introduced in the Linux kernel were purposefully, willingly, knowingly introduced.
+
+Again, I don't blame you, Tails devs. But to be more to the point, I have a question. Spender, the guy who tried to help and fix Linux kernel by sending patches to kernel.org, and whose grsecurity is the program that could save us, the users, along with you, the devs, with our kernel in our Linuces, so they could still become secure and not at NSA's and associates mercy to hack into it at will, which I strongly suspect is the case behind the brokenness I talk about here...
+
+I have a question for Debian actually... Spender offers grsecurity... Grsecurity was so good back when Microsoft took over Skype, that Microsoft kinda stole it, hid it in their code, very carefully, to have some backdoor on Skype users probably, what else, sure, along with their own code and stuff... It is documented, but someone pls. find the links and post them here, start at grsecurity.net ...
+
+Grsecurity was so good back then, when was that? five or more years ago?, grsecurity is still being developed, I believe... And why not get Spender's genius put to use at least in Tails, when it is not really an option in Debian itself, instead of Yama or whatever, or SuSE's program, of SuSE the traitor of the German nation, or SuSE's security program (can't remember the name at this time)... Are you really smarter than Spender?...
+
+No more time. Thanks for the Tails program again.

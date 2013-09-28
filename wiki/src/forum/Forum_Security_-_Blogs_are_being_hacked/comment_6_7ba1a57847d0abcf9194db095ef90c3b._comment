@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2012-09-18T16:30:16Z"
+ content="""
+to install gnome-screenshot:
+sudo apt-get install gnome-screenshot
+
+to get you started, here's how to use it:
+http://library.gnome.org/users/user-guide/2.32/tools-screenshot.html.en
+"""]]

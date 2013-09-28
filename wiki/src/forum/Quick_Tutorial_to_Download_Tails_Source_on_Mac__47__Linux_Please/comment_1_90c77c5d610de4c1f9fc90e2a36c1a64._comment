@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-08-11T11:51:31Z"
+ content="""
+    git clone git://git.immerda.ch/amnesia.git
+
+"""]]

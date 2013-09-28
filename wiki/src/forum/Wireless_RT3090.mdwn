@@ -1,0 +1,5 @@
+Hi,
+
+RT3090 Wireless doesn't seem to work. I don't see my wifi network and even if I try adding it manually it still does not connect to it.
+
+I assume 0.17.1 does not support my wifi card. Is there any way to update the USB with the card driver (I can connect through the wired network).

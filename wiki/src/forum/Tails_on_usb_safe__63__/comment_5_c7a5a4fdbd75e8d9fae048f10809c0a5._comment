@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-02-12T17:37:18Z"
+ content="""
+> If you surf to a website and it contains malware, that malware can cross over to your USB stick and infect it.
+
+I feel it's critical, when writing such bold and strong
+statements, to clarify exactly what are the preconditions for
+this to be true, that is:
+
+1. Iceweasel has a remote arbitrary code execution hole
+2. a local priviledge excalation hole is available
+3. the malware is specifically targeted at Tails
+
+The three have to occur at the same time. If you've found an
+easier way to persistently infect a Tails USB stick, please
+speak up.
+
+"""]]

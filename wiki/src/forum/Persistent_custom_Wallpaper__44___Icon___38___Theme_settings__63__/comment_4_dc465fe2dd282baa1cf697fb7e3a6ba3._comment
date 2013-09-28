@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-01T07:44:45Z"
+ content="""
+  Big-network administrators worldwide are already looking hard for a 'solution' regardless, due to the steady increase in encryption (as major sites like Facebook and Google have gone https). The darned encryption prevents their Deep Packet Inspection technology in the network from reading the contents of your data packets, which at present is how they shape the traffic and provide good service to their customers.
+     That same type of DPI software/hardware also allows governments to scan for words that interest them and route that traffic for further inspection. Just after 9/11, my friend in New York (a secretary, no political ties or criminal background) sent an email to her friend.  Jokingly bashing the president, and unfortunately using physical terms.  Agents from the US Secret Service came to her home to speak with her in person about the email.  That was in Dec 2001. 
+
+http://www.wired.co.uk/news/archive/2012-08/29/dpi-internet-surveillance?page=all
+
+"""]]

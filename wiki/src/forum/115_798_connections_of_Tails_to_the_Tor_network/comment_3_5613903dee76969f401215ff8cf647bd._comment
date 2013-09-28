@@ -1,0 +1,41 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-04-07T23:26:54Z"
+ content="""
+> There is no problem in informing users of security updates,
+
+Well, there's no magical way to get informed of updates without
+checking if there are (or designing something much more clever,
+but we're not there yet). So, if \"checking if there are updates\"
+is a problem, then in practice, there *is* a problem in informing
+users of security updates. And then, we have another issue
+to solve.
+
+> the problem is exploiting said connection to make a statistic without prior knowledge of users who take this message as an innocent alert, not knowing that this will be used by the Tails team to know each time someone is using Tails.
+
+Assuming I agree there's a problem to solve, and assuming I agree
+you correctly described the problem: then the problem becomes how
+to make it so users have \"prior knowledge\". Then, if some page in
+our [[fine documentation|doc]] explained this feature, could you
+live with it?
+
+Or would you really want something opt-in, like a dialog thrown
+at every Tails user on every boot, asking them if they want to
+check whether their Tails is affected by security issues?
+It would be terrible UX in my humble opinion.
+
+Just in case that would not be clear enough: the *feature* is the
+security update check, that we've implement the best we could.
+The fact we *can* count successful Tails boots + connection to
+the Internet is *only* a nice side-effect of this feature. We're
+only \"exploiting\" this nice side-effect by counting hits.
+
+Regarding your expectations vs. the Tails design goals /
+advertised features: let's just remember that Tails does not
+pretend not connecting to the Internet without the user consent.
+All it pretends is to try to do this as safely as possible, and
+I think it does.
+
+"""]]

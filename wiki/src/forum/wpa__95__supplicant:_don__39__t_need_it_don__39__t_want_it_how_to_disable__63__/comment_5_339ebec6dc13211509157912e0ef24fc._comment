@@ -1,0 +1,58 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2012-09-02T05:16:07Z"
+ content="""
+>\"No one other than yourself is interested in this nonsense.\"
+
+>What a queer response. Is there a survey in Tails which provides you with this result? No.
+
+Well, sorry to contradict your self-answered rhetoric thinly veiled as a question but *yes*! Many! In fact [at](https://tails.boum.org/forum/spice-vdagent:_what_the_heck_is_this_doing_installed__63__/) [least](https://tails.boum.org/forum/tails_-_tons_of_java_binares__44___can_they_be_removed_following_the_uninstall_of_all_openoffice_and_i2p_packages__63__/) [three](https://tails.boum.org/forum/wpa__95__supplicant:_don__39__t_need_it_don__39__t_want_it_how_to_disable__63__/) such surveys have recently and kindly been conducted by none other than your own fair hand. Gosh, what exquisite irony. There's none so blind as those who will not see.
+
+Thanks for \"queer\" though. Made me smile.
+
+
+>I'm someone who likes to dig deep into distros and tweak them to my liking. I want to know exactly what programs are running, and especially those listening.
+
+Clearly not deeply enough to actually understand anything of what you're attempting to do though. Hence all the inane and impetuous threads you're spawning. By all means audit some code: Download the source, compile it with the same version of the same compiler using the same options as used by the build system, compare your resulting binaries with those in the .debs, audit the file, network and RAM access of those binaries, bisect the source's evolution to identify the origin of any suspicious behaviour you observe... etc... etc.. This is painstaking but valuable work. Many people conduct this sort of analysis all the time, if you find something significant you'll make a name for yourself as a \"security researcher\" and earn the admiration and respect of the Tails community. If you think you find something in the code but don't fully understand it, the Tails community, including myself, will swoop to your assistance. Alternatively, stick your head in the sand, ignore the good and constructive advice kindly volunteered by the good people of the Tails community, and plough on with your mindless hiding to nothing. Piss about in Synaptic until hell has frozen over. That is your right. One day you might even learn to spend your time more productively. In the meantime, please don't become all sweaty and impetuous when those who know better decline your incessant invitations to partake of your bollox.
+
+>There are a lot of users like me, but they're not using Tails or just don't care.
+
+Doubtless. *One born every minute* so I hear.
+
+>This forum is overly negative in answering most users' questions. This is not normal. The developers of Tails are not gods and they should learn how to humble themselves and be grateful they have users at all, considering the anonymous authors and negative responses. Not the best way to establish trust by being negative to your users.
+
+I think you'll find, if you bother to look around, that everyone’s experiences differ. The Tails forum is neither Stepford nor Gomorrah. Individual human beings may respond to individual threads according to that persons interest, time, inclination and the general tone of the thread. Humility begins at home and the tone of each thread is set by its OP. Stop throwing stones at yourself. If you find you consistently dislike the tone of your threads, perhaps the reason could lie rather closer to home than you seem to realise?
+
+>Digging through a distro and reviewing its parts is how both improvements and tips/tricks are found to help the users and developers.
+
+Indeed. Spamming a user forum with endless \"what the hell is randomAppX??? I can't be arsed to figure it out myself. Tell me NOW! BUMP! BUMP! BUMP!\" posts however isn't what you describe. Is it? GROW UP
+
+>\"If you're determined to waste your time then that's your prerogative,\"
+
+>Was the question too difficult for you? 
+
+Quite the converse. As I thought I'd made clear. There's none so blind as those who will not see.
+
+>I'll take my questions elsewhere and may eventually stop using Tails. 
+
+Thank God.
+
+>I have an established crowd of thousands who will listen to me should I recommend against the use of Tails and I have many reasons to point out why.
+
+Ah! A blogger! Should have guessed... the one true calling for the blindly opinionated. Care to drop us a link? I could do with a good laugh.
+
+>\"Don't harbour too much hope for getting others to join you though.\"
+
+>Others will join me, elsewhere. But you have proven this \"forum\" isn't suitable for friendly Q&A.
+
+Well, I've enjoyed you definition and demonstration of \"friendly\" and look forward immensely to your taking it elsewhere.
+
+>\"P.S. \"Bump\"ing doesn't work on this pseudo-\"forum\".\"
+
+>No? Probably why you don't have an established community here, because the \"forum\" software sucks and so do most of the responses. I smell a honeypot.
+
+If you think you can do better, then feel free. Tails is free software: you can fork it if you please... or... even... [contribute](https://tails.boum.org/contribute/index.en.html)!... lmao... except that impetuous children don't tend to contribute do they? Much more likely to flounce around issuing obstreperous demands and calling people names. Are you an only child?
+
+As I'm sure you can appreciate < / sarcasm >, I've given a significant amount of my time and effort drawing your attention to the bleeding obvious. Hopefully but doubtfully this will be the end of the whining.
+"""]]

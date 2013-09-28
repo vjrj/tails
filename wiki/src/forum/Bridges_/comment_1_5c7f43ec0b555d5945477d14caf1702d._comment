@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-03-09T12:29:49Z"
+ content="""
+I haven't read any in-depth discussion on this, but there are a few issues/observations I can think of:
+
+* Bridges are essentially [entry guards](https://www.torproject.org/docs/faq.html#EntryGuards) that **users manually pick**. Attackers could use social engineering to fool their targets to pick their bridges. 
+* There's essentially **no requirements for becoming a bridge**, as opposed to becoming an entry guard, which requires a long-term stable relay, some amount of bandwidth etc. Since it's the edges of a Tor circuit that are interesting (e.g. the entry guard and exit node) this may be useful for attackers too.
+
+I don't know, but I could imagine the above makes bridges somewhat attractive for attackers. Unless I've missed something, it nothing to be concerned about. I'd say: use bridges only if you need them.
+"""]]

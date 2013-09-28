@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-05-10T00:29:23Z"
+ content="""
+I suppose I could have made the Tails connection more clear.  Let me try to rectify that now.
+
+The defining characteristic of Tails is that it tries to provide an *amnesiac* operating system.
+
+This implicitly raises a question for discussion on the Tails forum: *what can you do with an amenesiac operating system?*
+
+I am trying to suggest how by live-installing some small packages from the Debian repositories, the range of things Tails can do can be expanded.  Since I have a particular interest in trying to help endangered netizens (which happens to a be stated goal of the USG affiliate quasi-governmental agency which funds the Tails Project), it is natural that I should post suggestions relevant to the needs of that audience.
+"""]]

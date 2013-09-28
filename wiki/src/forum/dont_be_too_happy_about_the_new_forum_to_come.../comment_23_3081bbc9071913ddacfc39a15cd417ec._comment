@@ -1,0 +1,28 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 23"
+ date="2013-02-04T11:37:56Z"
+ content="""
+OK, so, I've pushed a `doc/sort_the_forum` branch with the work that
+was already done.
+
+So here's how to do it.
+
+For each forum thread in `wiki/src/forum/`:
+
+    If the question is relevant and was answered well enough
+    Then
+        move the question and best answer to wiki/src/forum2migrate
+        (with git mv)
+    Else
+        delete the whole thread (with git rm)
+
+From time to time, merge from `master` branch to get the new threads.
+From time to time, send us a pull request so that your work is
+integrated into the main `doc/sort_the_forum` branch, and so that work
+is not duplicated.
+
+I'm told using `mc` helps in the process.
+
+"""]]

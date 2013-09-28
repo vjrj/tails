@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-07-05T22:33:33Z"
+ content="""
+Please file a [[proper bug report|doc/first_steps/bug_reporting]] for hardware related issues like this one.
+"""]]

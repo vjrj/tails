@@ -1,0 +1,3 @@
+Why is root authentication required to mount volumes on an *internal* drive but not on *external* drives?
+
+These are simple FAT and Ext4 LUKS volumes-- not system partitions, etc. 

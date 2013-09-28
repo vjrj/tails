@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 69"
+ date="2012-10-22T23:53:51Z"
+ content="""
+\"If I were building a botnet I probably wouldn't waste time attacking a linux system running off a CD in RAM memory which was running on a relatively slow i2p network when there are millions of vulnerable Windows systems out there with high-speed broadband connections and plenty of proven exploits.\"
+
+That makes sense if you assume that all criminals are lazy.  But I don't see why some bad actor might not enjoy the challenge (or see the opportunity) of going someplace where no botnet has gone before.
+
+Informed sources claim that the intelligence agencies around the world have grown interested in specifically attacking popular Linux distributions, networks, applications, in order to make botnets for mounting cyberwarfare attacks.  Widely publicized and detailed analyses show that recent sophisticated state-sponsored-malware have always been launched from compromised servers, just like the cybercrims do it.  Heck, many spooks are probably happy to hire cybercrims to do some dirty work helping the spooks to hide their tracks.
+
+"""]]

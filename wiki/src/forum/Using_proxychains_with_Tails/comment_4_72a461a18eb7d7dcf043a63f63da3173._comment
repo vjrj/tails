@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2012-10-20T11:04:11Z"
+ content="""
+I'm too trying to chain a tailing a SOCKS proxy (i.e. to circumvent TOR exit node blocks). In earlier TAILS version I was able to override the Torbutton proxy and tails still enforced the route to the proxy through the onion network.
+
+Now - what ever I try to change in iceweasel (entering proxy in torbutton and/or browser) this no longer seems to work? 
+
+Any hints on that?
+"""]]

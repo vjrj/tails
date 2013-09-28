@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-03-31T09:31:05Z"
+ content="""
+> What is wrong with an alternative like youtube-dl?
+
+It's a CLI program, so it's inappropriate for most of our [[target userbase|contribute/design]].
+"""]]

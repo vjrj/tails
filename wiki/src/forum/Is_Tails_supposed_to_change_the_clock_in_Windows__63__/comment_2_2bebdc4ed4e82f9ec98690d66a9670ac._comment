@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-20T18:18:48Z"
+ content="""
+OP here.
+
+Don't know if this is relevant but the XP machine has the Windows Time service disabled, while a Win7 machine has it enabled and has not suffered from the bug so far.
+
+Oh well, i suppose it isn't a critical bug anyway.
+"""]]

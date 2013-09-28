@@ -1,0 +1,20 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 18"
+ date="2012-10-31T04:59:20Z"
+ content="""
+> Apt-secure offers security not obscurity.
+
+Let me try to summarize the situation as I currently understand it:
+  
+* Tails is based upon Debian, and Tails users with have created a persistent volume and are downloading additional packages for use with their Tails system are using Debian's package manager, apt, to obtains \"debs\" from the Debian repositories.  Since 2005, the Debian repositories work with apt as follows: the \"release file\" accompanying each package contains MD-5 digests for each file included in the deb, and this release file is signed using the Debian signing key (for a given release; currently the \"stable\" release is Squeeze).  The MD-5 digests provide high confidence that files have not be accidentally mangled during download, and some confidence that they have not been tampered with by a sophisticated adversary.  Since the connection is unencrypted, a malicious adversary could try to tamper with the release file (replacing the values for the genuine files with values for maliciously modified files), but then the signature would not verify.
+
+* The package apt-transport-https enables apt to make https connections to the repositories, offering an additional layer of protection.
+
+* In either case, your ISP (for example) can see that your PC is contacting specific Debian repositories and in the first case can certainly see the names of the packages you are downloading.  (\"Security, but no obscurity\".)  I believe it is true that if you are using apt-transport-https, your ISP could not easily tell what packages you are downloading.  (\"Security and some obscurity\".)
+
+* Going one step further, we might want to torify the entire process.  If Tails enables or were in future to use atp-transport-https, I believe this would give end-to-end encryption tunneled via the Tor network, so that one would have anonymous and secure downloads.
+
+If I got anything wrong, please explain!
+
+"""]]

@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-14T12:38:05Z"
+ content="""
+To the OP: please read [[doc/first_steps/bug_reporting]] and [[doc/first_steps/bug_reporting/tails_does_not_start]].
+
+@comment 1: this topic is covered in the download and install documentation already, so I don't see the use of reiterating the message on unrelated forum threads. Also, this is a matter of threat model and security policy (not to speak of functionality like persistence), so please don't \"recommend\" anything to anyone without knowledge of their own situation. What's good for you isn't necessarily best for everyone out there. Thanks for helping anyway!
+"""]]

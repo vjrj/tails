@@ -1,0 +1,8 @@
+Two odd events, Tor process sometimes 'sticks' and is downloading something until the process is manually killed:
+
+* Event 1. Stopping Vidalia, which closes the browser but sometimes the tor process remains and is downloading something unknown and continues until it is manually killed. Bringing down the network has no effect on tor process, it still needs to be manually killed.
+
+* Event 2. Using wget to download a file to external media, file progress randomly stalls while tor continues to download something else in the background. I abort the wget download, and stop Vidalia, the browser closes but tor (not wget) continues to download something else until the tor process is manually killed. Bringing down the network has no effect on tor process, it still needs to be manually killed.
+
+Why does this randomly occur and what could it be downloading?
+Why does the tor process often remain open after Vidalia and browser along with the network connection are terminated? I'm tired of manually stopping the tor process from a terminal.

@@ -1,0 +1,28 @@
+I suggest two main features to improve Tails:
+
+1. Keyboard Encryption
+2. Automated Fake Surfing
+
+I open with suggestion
+
+#1. Keyboard Encryption
+
+As an example, there is an Addon for Firefox called Keyscrambler. However, I understand it is proprietary, so no code to grep from there. But the idea of an open model for Tails to prevent keylogging is a hope.
+
+#2. Automated Fake Surfing
+
+With the click of the mouse on an icon, and/or short key combo, the browser begins to surf the web automatically, at timed or random intervals. Granted, this would pollute the Tor network with the extra "faked" load, but it could also help in many ways.
+
+Some other ideas could include: 
+
+Automated random fake keypresses,
+
+
+Automated random key clicking noises output to speaker to confuse nearby people from catching the sound of your unique keystrokes,
+
+
+White noise output to speaker by playing specialized .mp3 files of white noise (consisting of typical office like noise and mumbled unintelligible speech).
+
+Automated random mouse movements when you're away from the computer (some advanced keyloggers may take snapshots of mouse movement, which may include the on screen keyboard)
+
+rkhunter and chkrootkit installed by default and configured for easy use by newbies.

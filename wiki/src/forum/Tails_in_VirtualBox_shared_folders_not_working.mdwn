@@ -1,0 +1,8 @@
+I use Win7 x64 as host. VirtualBox Version is 4.2.10. As a use Tails 0.17 in VB i found a shared folder (as i made in VB before) in the folder /media. Everything works fine.
+
+If i use the newer 0.17.1 or the 0.17.2 RC1 in the same VB, the mediafolder is empty.
+
+Can someone help me, how i can get the sharefolder under tails 0.17.1?
+
+Do i need special commands as sudo?
+

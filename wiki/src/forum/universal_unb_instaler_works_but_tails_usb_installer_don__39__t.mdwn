@@ -1,0 +1,3 @@
+my live usb with tails 0.12.1 installed with the universal usb installer from windows works perfectly on my CCE notebook, my HP mini 110 and my girlfriend's mac book air,but when I installed tails in another flash drive from tails usb installer despite the installation went ok, it just won't boot, in BIOS just shows a blinking "_" and in mac it doesn't recognize it as bootable
+
+i already changed the boot order from the BIOS and the first one(installed from windows) even worked with mac but I have no idea why the second one installed from tails won't work

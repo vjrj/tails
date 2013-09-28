@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-03-14T23:19:46Z"
+ content="""
+@ OP:
+
+Dissidents wrestle everywhere with such issues.
+
+My thoughts:
+
+* in an emergency, much easier and less painful to throw a USB stick in a river than your laptop, so using Tails booted from a USB is much better than using TBB with Debian Stable (which allows you to encrypt \"all but boot partition\" on the hard drive, so the same problem which concerns you about the Tails USB)
+* you can encrypt (almost) all of a USB stick using Tails booted from the DVD, and use it to store some stuff.  You can use the disk management icon in Tails to change the passphrase frequently.
+* there are some problems with securely shredding files stored on a USB stick, which is a hardware limitation
+* there are some hard to avoid issues with how the OS (Tails booted from anything, or another OS) interacts with USB sticks which can potentially provide adversaries with another avenue of attack
+* nonetheless, I hear that dissidents in several countries are successfully using encrypted USB sticks to pass around \"illegal\" political screeds
+
+Overall, I think booting Tails from a DVD (verified as described elsewhere on this website, preferably after spot checking that you have the authentic signing key) and using an inconspicuous encrypted USB stick to store files is probably one of the better options right now.  Speaking as a another user, with no financial position in this matter, and even with a somewhat touchy relationship with the Tails Project.  But also not an expert on computer security, so take my opinion for whatever it may be worth.
+"""]]

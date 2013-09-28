@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 114"
+ date="2012-10-25T05:43:11Z"
+ content="""
+See this is why as people are saying that I2P should not even be included with Tails as the vast majority of users think they have the same anonymity and are as hidden as Tor without knowing that they are in fact sharing their IP address directly with thousands of computers and ISP hosts.
+
+A computer that gives out it's IP address will never be anonymous or hidden and this makes a complete mockery of what Tails is supposed to be. 
+"""]]

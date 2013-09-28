@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-04-30T16:06:07Z"
+ content="""
+> is there any reason why I cannot use the Gnome disk application in
+> Tails 0.17.2 to make the external drive into a LUKS
+> encrypted volume?
+
+If you can't then it may be a bug. Please [[report it|doc/first_steps/bug_reporting]].
+
+"""]]

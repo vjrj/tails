@@ -1,0 +1,5 @@
+Just wondering since the whonix vm transparently routes everything through tor and the tails as the host also routes everything through tor would this force tor to run through tor? 
+
+Like would the connection schematic be
+
+TBB -> entry -> middle -> exit -> entry -> middle -> exit -> destination?

@@ -1,0 +1,7 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 116"
+ date="2012-10-25T06:32:23Z"
+ content="""
+doesn't tails run all traffic through tor? doesn't that mean, that all i2p traffic gets routed through tor, too? if this is so, where is the problem?
+"""]]

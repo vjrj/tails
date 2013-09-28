@@ -1,0 +1,31 @@
+I have tried to configure USB-Stick under VirtualBox but i get this: 
+
+Das USB-Gerät Corsair Voyager GT 3.0 konnte nicht an die virtuelle Maschine Tails0.17.2 gebunden werden.
+
+USB device 'Corsair Voyager GT 3.0' with UUID {c2990eaf-2b94-4c2f-a558-96ca7864ebc3} is busy with a previous request. Please try again later.
+
+Fehlercode:E_INVALIDARG (0x80070057)
+Komponente:HostUSBDevice
+Interface:IHostUSBDevice {173b4b44-d268-4334-a00d-b6521c9a740a}
+Callee:IConsole {db7ab4ca-2a3f-4183-9243-c1208da92392}
+
+
+
+The same with USB-HDD....
+
+Das USB-Gerät Verbatim Desktop USB Drive [0112] konnte nicht an die virtuelle Maschine Tails0.17.2 gebunden werden.
+
+USB device 'Verbatim Desktop USB Drive' with UUID {ffad7ca4-4bdc-4840-ac87-bba87300f085} is busy with a previous request. Please try again later.
+
+Fehlercode:E_INVALIDARG (0x80070057)
+Komponente:HostUSBDevice
+Interface:IHostUSBDevice {173b4b44-d268-4334-a00d-b6521c9a740a}
+Callee:IConsole {db7ab4ca-2a3f-4183-9243-c1208da92392}
+
+
+I cant figure a LAN between host and guest to share files because i dont no how.
+
+Shared folders dont work after tails 0.17 anymore.
+
+So i cant share anything on any way between guest and host in VB. Please dont give me cryptic advice, i´m an absolut linux beginner!
+

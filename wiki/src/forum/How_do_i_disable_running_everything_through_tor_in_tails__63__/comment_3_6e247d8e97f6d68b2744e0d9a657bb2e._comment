@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 3"
+ date="2013-02-19T19:28:54Z"
+ content="""
+> so it would be best to disable tails transparent tor proxy.
+
+Tails has no such thing as a transparent Tor proxy.
+
+I suggest reading [[contribute/design]] as a good start to
+implement what you want... and perhaps even [[contribute it
+back|contribute/how/code]] :)
+
+"""]]

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-01-15T20:50:54Z"
+ content="""
+For example, suppose you are using Tails to surf the web and are storing some notes as you go along in a temporary file.  When you are done surfing, you can disconnect from the web entirely (especially WiFi but also wired) and then mount your second USB and copy the temporary files to permanent files in your \"personal files\" USB stick.  Then you can unmount it and start using Tails for something else, like \"securely\" communicating with others.
+
+For those who use Tails booted off a DVD (which may actually have some security advantages if you are using the latest edition), you can use an encrypted volume on a USB stick to hold personal files the same way, only mounting it when you are disconnected from all other devices.
+
+In contrast, keeping a PC running Tails from a bootable USB as primary OS hooked up permanently to an external hard drive with encrypted volumes might be a bad idea.  But here too you can probably try to work out a system where you avoid mounting the external drive except when disconnected from the web.
+
+I believe that the potential risks posed by hardware backdoors in routers (especially WiFi routers) and perhaps software backdoors in ethernet cards have been too little discussed.  But you can probably be pretty sure that it would be difficult for a remote attacker to access your personal files USB or external drive when you have it physically separated from other devices.
+
+As more and more citizens observe defensive measures like those we are discussing, \"the authorities\" will be forced to have recourse to electronic emanations attacks (unfortunately, the economy of scale may make these affordable on a grand scale), which are currently much harder for ordinary citizens to defend against.  One can also expect to see the increased use of mass arrests and indefinite detentions of \"troublesome\" bloggers.
+"""]]

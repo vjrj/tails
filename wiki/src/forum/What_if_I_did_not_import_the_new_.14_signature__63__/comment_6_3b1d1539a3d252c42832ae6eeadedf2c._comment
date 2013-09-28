@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Oops"
+ date="2012-10-21T02:02:18Z"
+ content="""
+Erinn Clark signs the Tor Browser Bundle (TBB) tarballs.  The Tails iso image is signed using the tails signing key and apparently you do have it installed.  You might look for it again on a keyserver such as 
+http://pgp.mit.edu/
+The comment about \"reimporting\" the key refers to the fact that the signing key expired a few days after Tails 0.13 was announced; when someone pointed this out to the Tails devs, one of them updated the key with a new expiration date (and probably some additional signatures, which tends to enhance ones confidence in the authenticity of the key).  When you reimport the key, you should see a message showing the new expiration date.
+
+You definitely should not use the 0.14 testing version unless you can import the updated key, have downloaded the detached signature, and have verified the iso image using GPG.  But it seems like you have done all that.
+"""]]

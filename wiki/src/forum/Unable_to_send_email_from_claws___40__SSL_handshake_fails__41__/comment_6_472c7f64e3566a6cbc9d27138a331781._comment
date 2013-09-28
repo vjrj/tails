@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 6"
+ date="2013-03-19T19:36:44Z"
+ content="""
+> You need to setup an administration password, then
+
+FTR, you don't. Each user can kill their own processes.
+"""]]

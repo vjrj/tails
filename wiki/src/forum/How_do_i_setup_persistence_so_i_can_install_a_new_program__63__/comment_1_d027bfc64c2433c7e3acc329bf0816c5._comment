@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-19T18:41:33Z"
+ content="""
+It's not possible at the moment.
+
+What yo can do is: select \"APT lists\" and \"APT cache\" in the persistence wizard, so the downloaded package remains in the persistent storage and you can re-install it right after you boot Tails.
+
+Proper support for persistent user-installed programs is being implemented, check the tails-dev mailing list if you're curious
+"""]]

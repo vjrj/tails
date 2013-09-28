@@ -1,0 +1,9 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Pretending an old insecure version of Tails is a new version."
+ date="2012-11-05T04:10:38Z"
+ content="""
+>Actually the cryptographic signature method would still be helpful because any change to the iso file would remove its signature and therefore make it not validate.
+
+What if you changed it back to a prior release (one of the ones with the \"numerous security holes\")? The filename doesn't matter does it?
+"""]]

@@ -1,0 +1,1 @@
+When wiping a file there is usually a verification messagage saying that it completed or failed but occasionally it says "All updates are complete". The title bar of the dialog box says "Securely erase files" so it looks like this is produced by the wiping script and there is no wipe verification message. 

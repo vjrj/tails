@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 4"
+ date="2013-03-03T09:47:34Z"
+ content="""
+The big change in displayed node bandwdith is due do a bug in the version of Vidalia that was shipped in Tails 0.16, and that is fixed in 0.17. The rest looks like results of very small experiments with no statistic significance; moreover I've not experienced the same, and I don't see what change in 0.16..0.17 could change anything in this area, so I don't think this is true in general, nor specific to Tails.
+
+So, I declare this thread is closed.
+
+"""]]

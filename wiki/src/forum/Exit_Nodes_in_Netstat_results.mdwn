@@ -1,0 +1,21 @@
+Can someone confirm whether a netstat -ano should show an ip address connected from an exit relay. I don't have the netstat log anymore but can confirm this ip had an established connection to 80.237.226.73.
+
+
+[Info] choose_good_exit_server_general(): Chose exit server '$7610BBD3F5BB67284EEE8476721AE6109DC29BEA=chaoscomputerclub3 at 80.237.226.73'
+
+Congratulations. Your browser is configured to use Tor.
+Your IP address appears to be: 80.237.226.73
+
+
+Also, I have noticed recently running a netstat -ano that ip addresses: 
+
+31.172.30.2:443         ESTABLISHED 
+31.172.30.3:443         ESTABLISHED 
+
+or 
+
+31.172.30.1 
+31.172.30.4
+
+or usually one of the .1-4 addresses in this subnnet are established at the beginning of a session. My understanding was that exit and entry relays are seperate and this should not occur>???
+

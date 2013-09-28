@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 5"
+ date="2013-04-25T13:51:36Z"
+ content="""
+To: writer of email sent
+
+>I have sent you a bug report as requested through email send tails cannot connect to the internet.
+
+In that case you will have to send it via normal internet connection.
+"""]]

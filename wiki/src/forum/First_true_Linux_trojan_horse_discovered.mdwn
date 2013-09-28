@@ -1,0 +1,5 @@
+    See:  http://www.forbes.com/sites/anthonykosner/2012/08/31/new-trojan-backdoor-malware-targets-mac-os-x-and-linux-steals-passwords-and-keystrokes/
+
+   I have to use Windows at my job, so I'm familiar with the regular alerts from the firewall program.  Using Tails, if a downloaded file contains a trojan, would the firewall in Tails prevent it from 'phoning home'?.  Since I myself would have run the program (the trojan/file, by clicking on it), how would the Tails firewall know whether to allow it to communicate or not without asking me? 
+ 
+  Of course 'there are no Linux viruses'.  My friends & I were just joking about the days when 'there was no such thing as a Mac virus'. That changed simply due to popularity. Now Linux is becoming more popular (ex: the new $100 tablet that ships w Linux, http://blog.laptopmag.com/100-androidlinux-dual-booting-tablet-coming-in-january). The entity with the most resources to create trojan-horse programs is: Government. The OS that Government most wants to develop trojans for is: Tails.

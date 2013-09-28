@@ -1,0 +1,35 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 26"
+ date="2012-09-19T17:32:18Z"
+ content="""
+@comment 25, you should really stop calling everyone you disagree with a “troll”, in every thread on this forum. You look stupid doing that. Other than that, you arguments amount to “I like Tails, so it is beyond criticism.” If you reread your useless post, you will notice that it has no contents — it is just rephrasing something someone else has said, without adding anything. I don't need interpreters, and I doubt that Tails developers do. In other words: go away.
+
+Some points can still be addressed.
+
+> And presented a report from said meeting where many things got done.
+
+So what? Why did you even write that? Have you ever been to a conference, or do you have no idea what you are talking about? Because everyone produces reports where “many things get done” afterwards.
+
+> Greater Transparency is always a good thing but lets face it.. it is not his money..it was given to you by tor project, so don't let it bait you with it's atitude..
+
+Again, you have no idea what you are talking about. Tor project is a registered non-profit in the US, which means that it is fully accountable to the public regarding its spendings. Let's see how quickly detailed reports pop up once a complaint is submitted to the proper authorities. I wonder what you version of the events will be then.
+
+> Detailed spending will hopefully come at a time when the tails project is more mature and established.
+
+Are you speaking for Tails? Who the hell are you, and why do you post your useless graphomania?
+
+> Besides, if you clearly believe the tor project trust is misplaced, then perhaps their software is also dubious?
+
+The Tor project is developed by well known people, most of whom have a lot of both research and development expertise. Recruitment process is well documented — take a look at this [job announcement](https://www.torproject.org/about/jobs-coredev.html.en), for instance. It is certainly not “shmooze with us on IRC, and be able to tweak a script”. Even Tor hires people without expertise, though (their current package manager comes to mind), who then produce a mess, which shows a pattern similar to Tails — but such problems are much rarer with Tor. And before you mention that those are paid developers — volunteers have similar expertise in Tor project.
+
+> I for one was convinced. Thank you troll! without you I would not have found it.
+
+> I wish tails had not said that. That said, it is very hard to face a troll with a cool head, please tails devs don't feed it anymore.
+
+Skipping your useless rants and interpretations, it seems that you actually agree with most of my points, but a certain logical thinking deficiency prevents you from admitting that. Try addressing actual contents next time.
+
+> I LIKE TO BE WARNED IF MY TAILS IS OUTDATED TROLL!!IT IS A FEATURE, STOP PRETENDING IT IS NOT!
+
+You are not all users. Most users would probably not select this feature if it were opt-in. You would probably object to the same feature being unconditional in other products, like Acrobat Reader. You don't understand what you are talking about (you clearly never developed anything), but try to bear with me here: there are also ways to check for updates automatically without doing it on every boot, such as fetching an estimate for the next release, and making it persistent, or gracefully decreasing the number of checks for updates per N boots. Letting the user check for updates themselves is also completely fine. But Tails developers want to gather statistics about users, so they opt for a solution that lets them do exactly that.
+"""]]

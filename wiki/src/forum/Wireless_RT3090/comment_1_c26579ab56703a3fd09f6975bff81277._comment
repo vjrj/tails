@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-04-05T19:46:38Z"
+ content="""
+According to <https://wiki.debian.org/rt2800pci> it should work, so please [[send us a complete bug report|doc/first_steps/bug_reporting]].
+"""]]

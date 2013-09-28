@@ -1,0 +1,19 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-01-08T18:02:57Z"
+ content="""
+> I can not get a CD to boot 
+
+You mean DVD, right?
+
+> after buring the tails tails-i386-0.15.iso to DC-Rom
+
+You first followed the procedure in the Tails documentation to use the Tails signing public key and the detached signature to verify the authenticity of the iso image, right?  This is critical and fast and we can walk you through that process.
+
+You are sure you tried to burn a live DVD (aka \"bootable DVD\") and didn't choose the wrong option?  Sometimes people get confused and try to make a data DVD instead of burning a live DVD.
+
+If you really tried to put the Tails 0.15 iso image on a CD, that doesn't have enough room, which could explain the apparently missing files.  It is also possible, I think, that you only obtained part of the DVD owing to some other problem.  (But if you successfully verified the iso image you downloaded, this possibility has been ruled out.)
+
+There is an important upgrade to Tails 0.16 due later this week, which will fix the widely discussed TURKTRUST problem.
+"""]]

@@ -1,0 +1,3 @@
+youtube-dl works flawlessly most of the time using format 18(480p mp4), or format 35(360p flv) if 18 fails. 
+
+Uget is small & dependable if you need to download a large file over Tor since Firefox does not resume downloads. I have not tried it with the Flashgot browser plugin but presumably it works.

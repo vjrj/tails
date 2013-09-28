@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="Something else to bear in mind"
+ date="2012-10-21T17:55:16Z"
+ content="""
+Highly sophisticated device fingerprinting tools seem to be widely deployed by a variety of adversary organizations (a term which in this context includes commercial data brokers and marketeers, and even your ISP, which will probably tell you, if you can get any response at all, that they use device fingerprinting to help authenticate your connection to their servers in order to get on the InterNet in the first place--- could be, but fingerprinting is a dual-purpose technology and the harmful applications are almost certainly far more lucrative to your ISP than keeping intruders from using their wires by impersonating a legitimate customer, which I suspect is uncommon).
+
+But unfortunately, even if you can construct strong defenses against device fingerprinting, there is another fairly well-developed and widely deployed technology which you should be aware of: authorship identification, or de-anonymization.  Good information on this topic is even harder to come by than information on fingerprinting, but marketing literature from \"surveillance as a service\" type multinational corporations often claims 95% accuracy, as have some public competitions.  I tend to doubt these, but its clear that many sophisticated adversaries are hard at work on improving authorship identification robotools, and apparently no work at all is being done on countermeasures. Rather scary.
+
+A survey paper which (if I recall correctly) gives a fair impression of the State of the Art about a decade ago, is at www.icsd.aegean.gr/lecturers/stamatatos/papers/survey.pdf 
+"""]]

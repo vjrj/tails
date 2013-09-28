@@ -1,0 +1,49 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 9"
+ date="2012-10-27T19:45:41Z"
+ content="""
+I assume you are using bridges; if not, you should probably consider using them.  See:
+
+* <https://tails.boum.org/doc/first_steps/startup_options/bridge_mode/index.en.html>
+* https://bridges.torproject.org
+
+It you got some bridges from torproject.org, then assuming you are using Tor with the Vidalia controller (if you are using Tails, this is probably true), look for a green onion icon on the gnome task bar at the top of your screen.  Try clicking on Settings, then Network, then past the urls you got into \"Add a bridge\" and press the + button.  Also in the Vidalia controller, pressing Help gives you a pop-up window with some useful explanations and advice.
+
+If you use bridge mode, you will always connect to the Tor network through a small selection of bridges.  Before your ISP blocks the ones you are using, you will need to get some more, so it is a good idea to ask for another bridge url every few days. Don't worry too much about the small number of bridges you (or anyone, we hope) will know about, since the Tor Project says that (for reasons explained at their website) it is probably a good thing to use a small and fairly stable set of Entry Nodes (or bridges) but the greatest possible variety of Exit Nodes, to prevent certain de-anonymization attacks.
+
+> Should we spoof our browser fingerprints and user-agent? (One member who was going through all the posts from this forum to learn more about TAILS came across something in this regard.) Fire Grove add-on of Firefox changes browser fingerprints every time we refresh the website.
+
+Another tough question.  Similar questions have been discussed at posts from the EFF, Tor developers, and experienced Tor users.  I think I see an evolution towards configuration Iceweasel/Firefox for Tor (perhaps in Tails, perhaps in Tor Browser Bundle) like this:
+
+* carefully consider making changes in the Tails or TBB default IW/FF configurations (Edit -> Preferences); common choices are to disable image loading, disable cookies, (possibly) disable hardware acceleration, (possibly) disable Javascript entirely (but read about what NoScript can do first),
+* in the browser pane type about:config and carefully consider making a change to preventing your browser from sending any \"referer\" at all, by changing the value of the line network.http.sendRefererHeader to 0
+* carefully consider making some changes in default Noscript configuration, such as checking \"Do not Track\", disabling \"check my spelling as my type\" (since this means your system will keep more information about your habits)
+* install the AdBlock Plus IW/FF add-on and configure it to add at least the EasyList subscription
+
+In general you want to avoid anything that will cause your browser to make unneccessary call-outs (disable \"check for suspected malware sites\"; you'll do a better job of avoiding such sites if you think before you click anyway), with some limited exceptions.
+
+One example of an exception to the rule on preventing call-outs: you should prefer https connections when possible, but this requires calling up the certificate authority to check the website certificate.  And CAs do log requests and they do share these logs with government authorities.  But the lookup is made by the Exit node, so we hope it will be no easier for adversary organizations to connect certificate lookups with you than the GET requests sent by your browser via a Tor circuit to the destination server.
+
+One nice aspect of TBB is that you can keep several copies in different directories with different configurations (at the expense of devoting a GB or more of disk space). Possibly it can be advantageous (or dangerous!) to mix up which configurations you use.  Some people write scripts to browse to innocuous places like random popular Wikipedia pages and News sites, and this has possible benefits and possible drawbacks for your anonymity.
+
+For making good decisions about blunting the uniqueness of your browser fingerprint and web traffic (in your case, your traffic as visible to authorities in your country will be of the greatest concern), it is important to know something about 
+
+* browser fingerprints, remote profiling, and device fingerprints
+* \"re-identification\" or \"de-anonymization\"
+* \"authorship analysis/attribution\" or \"stylometry\"
+
+For example, it is a good idea to spell check message, emails, and certainly public \"anonymous\" posts using a locally installed checker but to avoid using any on-line spell checkers (a surprising omission in Tails 0.13), since this will slightly blunt the effectiveness of the crudest kinds of authorship attribution software.  (An important hard problem which no privacy researchers seem to be working on is to \"blandify\" distinctive writing styles and vocabulary, potentially increasing anonymity at the expense of readability.)
+
+For a few hints about two of these topics, see
+
+* https://panopticlick.eff.org/about.php
+* https://epic.org/privacy/reidentification/
+
+For some general hints on improving security and anonymity, see
+
+* https://ssd.eff.org/
+* https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online
+
+
+"""]]

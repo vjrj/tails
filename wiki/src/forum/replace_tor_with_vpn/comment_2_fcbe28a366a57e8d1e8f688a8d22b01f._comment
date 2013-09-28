@@ -1,0 +1,23 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2012-09-12T05:41:07Z"
+ content="""
+Own project? Uhm, why a new one? :P Tails is great! 
+the thing is that many, for what I've seen in this
+forum, want some kind of: 
+
+   tor (the default one)
+   tor -> vpn 
+   vpn -> tor
+   vpn
+   plain connection -> internet
+
+Of the annonymous distros, this one is the finest,
+yet, if anyone wants to do online banking and stuff
+like that that these days are making so famous the
+linux usb live distros, when they find out certain
+things, its not irrational to think about a vpn at
+the end... or at the beginning, since its not always
+possibly to use tor in most networks! 
+"""]]

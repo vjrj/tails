@@ -1,0 +1,10 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-05-24T10:42:00Z"
+ content="""
+Yes, Tails 0.19 will surely fix that. As [announced yesterday](https://mailman.boum.org/pipermail/tails-dev/2013-May/003098.html), it should be released on June 25. If you want to propose an early point release before that, please do so on tails-dev@boum.org.
+
+"""]]

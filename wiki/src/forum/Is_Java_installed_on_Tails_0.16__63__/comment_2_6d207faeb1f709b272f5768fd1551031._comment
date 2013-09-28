@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-18T21:23:01Z"
+ content="""
+>A Java VM is installed, but not used in the web browser.
+
+Thanks Tails for your reply.
+
+1. What is the purpose of Tails 0.16 having a Java VM? Is it essential?
+2. Can we disable the Java VM ourselves? Will disabling it de-anonymize Tails users?
+
+"""]]

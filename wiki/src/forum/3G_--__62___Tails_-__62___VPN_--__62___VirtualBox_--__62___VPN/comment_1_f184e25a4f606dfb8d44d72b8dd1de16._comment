@@ -1,0 +1,11 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-02T21:49:37Z"
+ content="""
+Why do you declare that to be a \"secure environment\"?
+
+How does the chain begin on 3g? Are you planning to use a phone to control Tails machine to control another system hosting a virtual machine in order to communicate on over a VPN? ...because that's what you've written!
+
+Sounds bizarre to me.
+"""]]

@@ -1,0 +1,21 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 25"
+ date="2012-12-15T20:59:54Z"
+ content="""
+> Have any to recommend?
+
+I have found that many security books tend to assume (usually without making this assumption explicit) that the reader is working as a sysadmin of a large organization, an audience which faces different problems and has different resources than most home users.  Also, many are OS specific and devote much space to outmoded attacks rather than the ones which we currently face.  Even books specializing in Linux security usually focus on Red Hat or SUSE Linux rather than Debian, which would be more appropriate for Tails users.  
+
+But never mind that. Assuming you are using Debian stable as your primary OS (which I think makes good sense if you use Tails for websurfing), while the widely-used book \"Hacking Linux\" by Hatch and Lee is aimed mostly at sysadmins and is outdated, it is readable and does offer many tips which remain useful; some may actually be dangerous for a home user of Tor to follow nowadays, so be careful.  I would suggest using a book like this more to immerse yourself in \"computer security culture\". Awareness of past threats can help you to better understand how the threat landscape has evolved over time, and can help raise your sensitivity to actions which might be harmful.  Basically, you can view such reading less as a tip list than as a way to gradually improve your ability to \"think before you click\".
+
+Debian offers a free on-line book which is Debian specific, but hopelessly outdated and again of limited utility for home users of Tor who want to try to secure their OS against the threats currently most likely to affect Tor users (most of these involve our browser and any unpatched vulnerabilities).
+
+But simply using Debian stable and regularly checking for and installing security updates (which is very easy with Debian) is probably good insurance against many of the serious problems which can cause real trouble for Window users.
+
+Possibly more important for home users of Tor who know and observe the most important general security-promoting procedures (like configuring IW/FF, NoScript, and regularly updating all installed packages) is a general background in cryptography and cryptanalysis.  As a first book I recommend \"Practical Cryptanalysis\" by Niels Ferguson and Bruce Schneier.  For further reading, other books by Schneier offer a fairly broad perspective which can help newbies from feeling overwhelmed by the magnitude and variety of the threats we all face.
+
+Again, such books may offer dangerously dated advice on specific issues, but can be invaluable in helping to raise your awareness of the kinds of problems which can cripple cryptosystems.
+
+For specific and timely tips, I doubt there is any good alternative to regularly reading the computer security news and security bulletins issued by your primary OS developers.  But background reading can help you to better understand, place in context, and assess such timely information.
+"""]]

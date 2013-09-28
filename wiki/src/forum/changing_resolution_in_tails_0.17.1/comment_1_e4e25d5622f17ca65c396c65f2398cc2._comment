@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-26T15:36:33Z"
+ content="""
+> I am using tails 0.17.1 and only way to boot it is to use \"nomodeset\" or \"failsafe\" option. 
+
+Please [[report a complete bug|doc/first_steps/bug_reporting]], then.
+
+> Is there any way to force a different resolution?
+
+Perhaps. See `man live-config`.
+
+"""]]

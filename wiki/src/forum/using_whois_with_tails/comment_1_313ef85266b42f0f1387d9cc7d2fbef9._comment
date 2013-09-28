@@ -1,0 +1,14 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-04T11:32:49Z"
+ content="""
+> WARNING: tsocks is known to leak DNS and UDP data.
+
+Tails cannot leak DNS or UDP by design so this is not an issue.
+
+> If you had torsocks we would use that.
+
+For what it's worth, Tails 0.12 will ship with torsocks.
+"""]]

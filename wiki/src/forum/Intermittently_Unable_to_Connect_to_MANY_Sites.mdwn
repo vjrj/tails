@@ -1,0 +1,9 @@
+First, around 1-2 hours ago, and then again just now, I have encountered a bizarre experience while running Tails 0.16.
+
+All of a sudden, a whole bunch of web sites become unreachable; get the generic "Unable to connect to..." message from Iceweasel. I'm talking like well over half of the sites I try-- sites that had been perfectly reachable and functional even mere seconds before.
+
+Clicking "New Identity" in TorButton seems to solve the problem, so it would appear to be due to one or more nodes.
+
+Perhaps instructive: news.google.com, remained reachable, and would display in what appeared to be Russian or another Slavic language. So that may provide a clue as to which node(s) are the culprit here.
+
+Anyone else experience anything similar? 

@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 7"
+ date="2012-10-12T17:54:51Z"
+ content="""
+I can open Liberte forum but now without enabling JavaScript.
+
+Maxim Kammerer:
+Requiring Javascript is to be expected these days on a WYSIWYG-capable discussion site, I think. While I would be happy if Zoho didn't require it, the advantages of a well-polished forum like this outweigh such an inconvenience. There is no going back to Web 1.0, and while it's best to keep Javascript off on untrusted sites, it's unreasonable to avoid sites that don't work without Javascript.
+
+People have tested fingerprints:
+https://forum.dee.su/topic/midori-set-in-stone
+
+Anyway just stopped by to say good work guys. Love the frequency of the releases !
+"""]]

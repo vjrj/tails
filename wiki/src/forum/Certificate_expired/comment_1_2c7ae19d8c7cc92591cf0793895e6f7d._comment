@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-10-10T14:24:52Z"
+ content="""
+Please [[import the new signatures|tails-signing.key]], its validity has been extended. Refreshing the key from a keyserver would also help.
+"""]]

@@ -1,0 +1,12 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 19"
+ date="2012-10-23T11:26:18Z"
+ content="""
+Right *now*, fully upgrading a Tails 0.13 or 0.14~rc1 using APT results in a weird iceweasel + torbutton combination that is *much worse*, anonymity -wise, than the web browser included in released Tails versions (basically, torbutton JavaScript hooks are disabled in the resulting browser).
+
+This is a sad, but useful example of how an APT upgrade can break your anonymity,
+and is therefore generally discouraged by us: use at your own risks, as they say.
+
+"""]]

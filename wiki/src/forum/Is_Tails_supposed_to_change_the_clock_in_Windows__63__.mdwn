@@ -1,0 +1,1 @@
+After using Tails 0.16 from a USB stick and booting back to XP, the Windows time is displayed incorrectly, sometimes by several hours. Does XP get the time setting from BIOS or some other variable which Tails is capable of changing?

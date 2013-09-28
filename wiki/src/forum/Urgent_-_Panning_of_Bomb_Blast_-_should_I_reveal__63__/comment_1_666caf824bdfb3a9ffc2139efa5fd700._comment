@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-05-08T05:31:24Z"
+ content="""
+>Can I use TAILS with a sense of security to send an email to Investigation agencies?
+
+I think that would be difficult to answer without knowing more about your potential adversaries and their capabilities.
+
+One thing is for sure, though: Neither Tails, Tor nor anything else *alone* can help if one doesn't take certain basic precautions. Be sure to read through and understand the warnings in the documentation.
+
+I sympathize with the dilemma you face and can only admire your interest in helping. I hope you'll be able to make the right decision and wish you well.
+"""]]

@@ -1,0 +1,5 @@
+I am unable to boot Tails from usb on Sony Vaio VPCYA15FG "Sony Vaio Y series". Tails booting page comes up then freezes if I press any key. Its also the same when boot page's count down is over.
+
+I just cant get past the Tails boot screen.
+
+On further investigation I found the same problem with any linux or OS other than Windows. I've experimented with Ubuntu and several others with no success. I dont know if its a compatibility issue. There is no info about this on Sony website.
