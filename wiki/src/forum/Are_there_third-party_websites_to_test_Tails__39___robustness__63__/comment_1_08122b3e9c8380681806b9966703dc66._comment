@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-01-06T20:25:57Z"
- content="""
-There are a few torcheck type services and grc.com \"shieldsup\" could interest you... but other than Tails' own testing procedures (hardly \"independent\"), no one's running an independent Tails test-suite as far as I know... isn't the idea something of an oxymoron? How could anyone displaying enough interest in Tails to create and maintain such a thing be considered truly independent?
-
-If you describe the ***specific*** aspects of Tails you're interested in testing, perhaps there'll be some resources we could point you at.
-"""]]

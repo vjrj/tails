@@ -1,5 +1,0 @@
-In order to create Bootable Tails USB Drive, the user is required to run Tails ISO in the VMWare Workstation or Virtual Box to create a clone over USB drive. 
-
-I am using Windows 8 Ultimate and have installed VMWARE Workstation v. 9.02. When i tried running TAILS 0.14 (latest release) and tried to connect USB via Workstation, it displayed the message everytime that it was unable to install USB driver. Hence I could not see USB drive when I tried to clone ISO over USB via Tails USB installer.
-
-What should I do now? I have already removed v. 0.13 from my computer after downloading version 0.14.

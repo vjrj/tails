@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-16T03:08:11Z"
- content="""
-How/why do you consider that more secure than a normal SSL over Tor connection via modern DNS resolution to an identifiable and therefore accountable host?
-
-A worthwhile *alternative* to the current default, rather than replacement, perhaps?
-"""]]

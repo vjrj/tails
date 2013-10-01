@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Re: 12"
- date="2012-12-21T15:53:35Z"
- content="""
-Taking/publishing fingerprints at this forum is of no value. One may as well just post the hash as someone already did on OP's previous thread. This website (or any other) can not safely be presented as a source of trust. Neither can a PKI server.
-
-There is already nice, carefully considered guide to [Trusting Tails signing key](https://tails.boum.org/doc/get/trusting_tails_signing_key/index.en.html). Unlike blindly trusting stuff posted on a forum, the methods given there do have merit.
-"""]]
