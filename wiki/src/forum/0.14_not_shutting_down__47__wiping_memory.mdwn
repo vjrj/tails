@@ -1,2 +1,0 @@
-On 0.14 after shutting down I get the test saying computer should restart in a few seconds & if it doesn't then there may be problems wiping memory. Then it stays like that and doesn't shut down properly. This's happened 2 times now - only 2 times I've run 0.14.
-Is this a general fault of 0.14? How can I ensure it shuts down after my tails session & all traces are removed?

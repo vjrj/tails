@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-12-08T17:38:35Z"
- content="""
-The obfsproxy [[doc/first_steps/startup_options/bridge_mode]] helps, but still, hiding one's using Tor or Tails is *not* something we are ready to formally support right now. See the [[doc/about/warning]] page.
-
-"""]]

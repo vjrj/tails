@@ -1,3 +1,0 @@
-Jondo's test page tells me I'm "not using Tor correctly. An unknown IP address, possibly your own, was uncovered by FTP". The address listed, however, matched that of an active Tor exit node.
-
-Is this a Tails 0.15 specific problem? Because I've never seen this message before.
