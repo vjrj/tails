@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 25"
- date="2012-10-17T18:36:21Z"
- content="""
-> Certainly my experience using Tor daily suggest that regardless of whether I use Tails, TBB (from torproject.org), or tor (the Debian stable package), I get entry guards from a tiny subset of the thousands of nodes. This worries me because it seems that both entry guards and exit nodes could be natural places for adversaries to try to mount MITM attacks on Tor user, for example in order to weaken or remove encryption.
-
-See the [following thread](https://lists.torproject.org/pipermail/tor-talk/2012-August/025254.html) on tor-talk.
-"""]]

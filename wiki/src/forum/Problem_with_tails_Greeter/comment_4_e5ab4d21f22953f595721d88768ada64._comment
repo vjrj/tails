@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-05-22T18:42:41Z"
- content="""
-The recommended way to install Tails to a USB drive if to first burn Tails on a DVD, boot Tails from the DVD and install it from there. If your computer lacks a DVD reader you have to do a [[doc/first_steps/manual_usb_installation]], and then the supported procedure is to use the [[Universal USB Installer|doc/first_steps/manual_usb_installation/windows]] if you use Microsoft Windows.
-"""]]

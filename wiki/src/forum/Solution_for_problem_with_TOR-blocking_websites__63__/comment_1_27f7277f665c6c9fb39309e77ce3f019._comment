@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-21T23:23:01Z"
- content="""
->to use TOR and surfing within the TOR-browser through an online webproxy. I want to have such proxy for my own and install it on a Virtual Private Server.
-
-Why use Tor at all in this case? Wouldn't you be better off connecting directly to *your* proxy and avoiding the bottleneck and latency introduced by Tor?
-"""]]

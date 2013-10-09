@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 9"
- date="2012-10-25T03:52:12Z"
- content="""
->And if the binaries are tampered with?
-
-Then whoever's software it is you're running will do what ever whoever it was who designed it intended it to do. Obviously. Hence the PKI verification we all perform.
-"""]]

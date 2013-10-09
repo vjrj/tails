@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-24T23:42:42Z"
- content="""
-What does ISP in general see ? Mac address of Router only or all of the Mac Addresses of all computers going through a router which connect to the internet by ISP ?
-"""]]

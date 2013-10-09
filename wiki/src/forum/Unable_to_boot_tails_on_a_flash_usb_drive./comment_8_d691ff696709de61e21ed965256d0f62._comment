@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-06-25T14:42:02Z"
- content="""
-The glib error message indicates a duplicate of[[forum/tails_.12_black_screen_after_boot]], which will be fixed in Tails 0.12.1. Workarounds on the linked thread.
-"""]]

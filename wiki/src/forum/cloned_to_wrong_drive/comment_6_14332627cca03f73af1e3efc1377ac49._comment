@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-08-23T05:24:19Z"
- content="""
-It won't show. You have to format it to a file system that your operating system can recognize (disk/partition management). Then, you can try to recover if there is anything left there, which depends on what happened during and after the cloning.
-"""]]
