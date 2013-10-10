@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-06-14T08:51:42Z"
- content="""
-It is not strange: this address is served by 12 different servers. If one of them is badly configured, you get a 404. Next attempt will resolve to a different one, and you get your file.
-"""]]

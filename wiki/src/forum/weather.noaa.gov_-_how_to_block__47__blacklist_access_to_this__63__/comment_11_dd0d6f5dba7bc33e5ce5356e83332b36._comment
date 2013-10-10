@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-11-13T01:00:40Z"
- content="""
-And I think it would be naive to assume that the Untouchables are not using callouts by software such as Gnome's weather and geolocation apps (callouts which are \"transparent\" as in \"almost invisible\" to users) to gain clues about Tor users.
-
-The subject of information leakage in metadata, mentioned in the Tails documentation warning page, has come up in the Petraeus scandal.  I think the warning page should be updated to say something about weather and geolocation apps.  In particular, I believe that Tor itself tracks and uses geolocation to help it build Tor circuits.
-"""]]

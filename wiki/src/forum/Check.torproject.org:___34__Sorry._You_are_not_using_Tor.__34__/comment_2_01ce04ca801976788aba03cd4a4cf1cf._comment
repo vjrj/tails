@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-07-30T11:38:55Z"
- content="""
-I had the same thing a few years with Tor Browser Bundle; check.torproject.org would say \"Sorry, you are not using Tor\" despite showing an IP address completely different from my real one. 
-
-As I recall it, Someone on the Tor blog at the time (IIRC, it was \"phobos\") explained that this could happen sometimes for certain reasons and that it could be safely ignored as long as I was certain that the IP shown was not my own.
-"""]]

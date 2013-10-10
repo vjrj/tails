@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-09-23T09:46:15Z"
- content="""
-I'd be concerned about the security implications of including VLC player. While I do like the application and use it myself (though not in Tails), it does seem to be the subject of more \"critical\" security alerts and updates than other players. Have any of those recommending VLC Player performed any sort of survey into this?
-"""]]

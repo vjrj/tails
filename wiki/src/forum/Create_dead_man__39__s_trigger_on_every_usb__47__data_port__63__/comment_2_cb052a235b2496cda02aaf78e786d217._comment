@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-07-30T15:43:08Z"
- content="""
-PS. Most of the complexity results from having to reboot when the underlying OS filesystem is gone, though. You can do what you want with udev rules, although get rid of *sudo*, and give *halt* some options (-f) to make shutdown immediate.
-"""]]

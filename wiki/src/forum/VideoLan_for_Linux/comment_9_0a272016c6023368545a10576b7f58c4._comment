@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 9"
- date="2012-09-24T23:54:14Z"
- content="""
-pointless him listing file types when the built in player is crap and doesn't have hardware acceleration so it doesn't matter what codec you install as it puts a heavy load on the CPU and HD content such as 1080p just looks totally crap compared to VLC.
-
-VLC plays most things out of the box so this really should be considered by the tails team so users are not compromising themselves with dodgy codec installs and the player will work on a standard live install without the need for persistence or the need to install codecs on every reboot.
-"""]]

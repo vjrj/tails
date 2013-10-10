@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-12-15T13:54:17Z"
- content="""
-> So it would appear that the Whonix project has chosen to present transparency and disclosure as weakness while brushing the same concerns about their own code under the carpet.
-
-I think you didn't carefully read the table. Whonix is not amnesic, has no Cold Boot Attack Protection and in the next table is vulnerable to VM exploits... Tails protects all these things.
-"""]]
