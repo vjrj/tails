@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Continuing problem--"
- date="2012-10-01T14:33:08Z"
- content="""
-While it did boot from the dvd just fine (and continues to), it is booting back up into Mac OS that is the problem.  Open firmware is blocking the usual keyboard commands I would use to force the hardware to boot back into Mac OS.  What I am looking for is some way in Tails OS (perhaps a command in the terminal) that will reboot the machine with the Macintosh HD as the startup disk.  I can use disk utility in Tails OS to find the Macintosh HD, and I can get to the file structure just fine, but how in Tails OS can I select the startup disk that will be used upon the next restart?  
-"""]]

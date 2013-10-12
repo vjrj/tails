@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-10-30T04:22:13Z"
- content="""
-I believe that it does not go through Tor. I'm sure that it would do this by being let through the firewall in Tails that usually routes traffic through the Tor network.  What I am curious about, is does that possibly open up an attack vector for someone, while not using the unsafe browser? 
-"""]]

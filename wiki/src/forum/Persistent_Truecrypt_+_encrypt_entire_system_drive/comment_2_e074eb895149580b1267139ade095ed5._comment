@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="LUKS instead of Truecrypt"
- date="2012-06-23T21:34:08Z"
- content="""
-\"or can I use LUKS instead of Truecrypt to encrypt the entire Tails drive?\" 
-
-yes. with cryptsetup/LUKS .
-"""]]

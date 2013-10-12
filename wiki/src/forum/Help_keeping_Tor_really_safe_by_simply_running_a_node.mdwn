@@ -1,7 +1,0 @@
-I bet that a growing amount of nodes are owned by governments and their traffic analysis capabilities are getting bigger and bigger to correlate entry IP's with exit IP's.
-
-To help preventing that, every Tor-user should at least run Tor as a middle node because especially these kind of voluntar nodes are making the anonymity stronger for all users (end-to-end correlations are getting more difficult for adversaries when nodes that are not owned by them increase).
-
-You only have to select in Settings --> Sharing, your choice of sharing traffic. 
-
-I felt I had to post this because most people think that there enough users who are running a node so why should I. But the problem is that too many people think like that..

@@ -1,7 +1,0 @@
-I bought a TB WD Passport, but didn't realize that it wasn't directly bootable in TAILS. I assume because it uses .NET
-
-I am not a coder, and am very new to linux. That being said I see that if I could access the unlocker utility (small partition) then I could mount the main volume. 
-
-My question is: do I do this using NTFS-3G? Virtual Box? Another way? 
-
-If the answer is NTFS-3G (which I know nothing about yet) do I download it to my TAILS USB stick? Where do I put it in the file system? Once it is installed, how do I use it to access the unlocker? Yes I am new, but not stupid. If you hold my hand, I am sure I can follow along. Thanks!

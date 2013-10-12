@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2013-01-07T03:00:04Z"
- content="""
-@4: thanks! :D
-
-@OP: [Here's](https://git.kernel.org/?p=linux/kernel/git/stable/linux-stable.git;a=patch;h=2ad306b17c0ac5a1b1f250d5f772aeb87fdf1eba) the most recent (and relevant) of those patches I mentioned.
-"""]]
