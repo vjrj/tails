@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="OP"
- date="2012-09-09T18:41:41Z"
- content="""
-Once all of this is done, I still get \"not a bootable disk\" when I try to boot from the DVD.  If I hold 'option' as the computer starts, tails doesn't even present as a choice to boot from, but it I set it to boot from there in the Start-up disk preferences pane, it at least tries but always comes back with that same error.
-
-
-"""]]

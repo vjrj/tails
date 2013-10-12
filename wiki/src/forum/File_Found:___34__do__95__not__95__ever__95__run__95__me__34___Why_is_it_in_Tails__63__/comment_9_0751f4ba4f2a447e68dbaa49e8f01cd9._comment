@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 9"
- date="2012-12-22T05:48:32Z"
- content="""
-> Please explain why this file exists and why it shouldn't be deleted manually with every boot of Tails? It appears dangerous to privacy and security IMO.
-
-If somebody has gained enough access to your machine to remotely run that script then you are already completely compromised, and can be deanonymized easily through other means. So I don't really see how the script possess any real danger at all just existing on the system.
-"""]]

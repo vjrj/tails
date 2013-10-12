@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-04-30T12:48:09Z"
- content="""
-I *believe* every well-behaved GNOME application, such as Evince, takes into account GNOME network proxy preferences, so it should be considered as explicitly torified.
-
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2013-01-07T19:48:17Z"
- content="""
->Others maybe better informed than myself but you might want to use bridges to keep the exit node (IP address) if uploading take longer than 10 minutes.
-
-A bridge would provide an **entry*** node. Your circuits and therefore ***exit*** node(s) would still be subject to change ;)
-"""]]

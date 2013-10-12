@@ -1,7 +1,0 @@
-had troubles booting from live dvd
-
-boot halts at kernel_thread_helper+0x6/..
-
-can fix by adding 'nolapic acpi=off' to boot
-
-found here: http://nuclear-imaging.info/site_content/2011/12/06/booting-halts-with-kernel_thread_helper/
