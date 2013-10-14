@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-10-26T14:59:17Z"
- content="""
-Interestingly, I once met someone who claimed to have been a former analyst in a  hot-button-issue intelligence unit.  He didn't say much, but when I mentioned \"VPN\" he said that encrypted VPNs presented a barrier to content spying and they'd had real problems trying to work around VPNs.  I just assumed they'd be mounting MITM attacks on targeted VPN connections.  I didn't raise the topic of Tor, but Tor uses SSL so we're talking about related technology.  
-"""]]

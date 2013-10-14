@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Update"
- date="2012-10-24T12:08:39Z"
- content="""
-Okay, I did my own research on Linux in general, and if I understand things correctly, my problem is that since I have an AMD processor, I'd need an amd64 version of Tails, and not an i386.  
-
-Is this correct, and if so, is there an amd64 version of Tails coming out in the future?
-"""]]

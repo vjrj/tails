@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-03T22:41:53Z"
- content="""
-Yeah, it seems that whenever I try to search for a solution all I find are people with the same problems but no fixes. I can boot into Ubuntu just fine and didn't even need refit for that. Once I finally got Tails on the USB, it wouldn't show up in the boot menu by pressing the \"Option\" key like Ubuntu did. I installed refit and it showed up with a picture of a penguin so I thought for sure this working but that's about as far as it got. Next I'm greeted with a black screen and a cursor just sitting there and mocking me, lol, I really want this to work, I have spent the past 48 hours trying everything and anything, but all to no avail.
-"""]]

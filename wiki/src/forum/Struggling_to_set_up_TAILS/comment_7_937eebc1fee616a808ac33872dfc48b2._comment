@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-09-09T13:34:32Z"
- content="""
-Along the same lines of comment 6, [you could do a simple checksum comparison.](https://tails.boum.org/download/index.en.html#download.verify-the-iso-image-using-other-operating-systems)
-
-While this method does not provide the same certainty of validation that comes from verifying the signature using GPG, it can help verify whether or not your download was corrupted.
-"""]]
