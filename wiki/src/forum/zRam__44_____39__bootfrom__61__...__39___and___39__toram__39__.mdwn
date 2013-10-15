@@ -1,5 +1,0 @@
-Does Tails plan to support zRam (compression of RAM - expanding the amount of RAM available)?
-
-Also 'bootfrom=...' (boot from an IOS image copied to hard disk) and 'toram' (load into memory) boot options?  (Ref. [http://knoppix.net/wiki/Live_CD_Tips](http://knoppix.net/wiki/Live_CD_Tips))
-
-The above are features I note of the current Knoppox.

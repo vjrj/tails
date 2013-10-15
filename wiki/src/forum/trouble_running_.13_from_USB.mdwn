@@ -1,7 +1,0 @@
-In Gparted, my USB drive has two partitions:
-fat32 TAILS (boot flag) & crypt-luks...
-Tails was originally installed following commands in this forum post https://tails.boum.org/forum/How_do_I_do_what_unetbootin_does/#comment-fc6a0040a29918839343a50396ef4082
-
-.13 was cloned over, from a running virtual machine of it, into the boot partition (overwriting)
-
-For some reason I get a "missing operating system" message when trying to boot from USB on my PC-- which XP then boots.  Will try it on a different computer.

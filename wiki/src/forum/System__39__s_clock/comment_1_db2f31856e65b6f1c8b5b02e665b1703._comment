@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-29T20:00:34Z"
- content="""
-If you read the documentation, (I believe) it should sync up to UTC aka Greenwich time for everyone in all 24 time zones.
-
-"""]]

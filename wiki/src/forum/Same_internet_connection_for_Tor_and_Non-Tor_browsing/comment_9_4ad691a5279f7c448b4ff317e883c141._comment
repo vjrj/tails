@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Erasing RAM"
- date="2012-10-21T04:23:19Z"
- content="""
->How long should the memory wipe take? I'd expect it would take more than a few seconds to wipe 500 MB of RAM...
-
-When you turn on your computer look for a message telling you to hold a button (if not, try holding delete, F12, or F2) to get to your BIOS. Enable an option to test/check memory at start. Then it usually shows it counting through all your RAM every time you turn on the computer. The RAM wiping part of Tails shutdown should take the same time, I suppose. RAM is much faster than harddrive. Its been said that checking mem at startup will also erase it so this means they can't use software based cold boot attack; they would have to open the case, put cooling spray on the RAM stick and put them into a device to read them.
-"""]]

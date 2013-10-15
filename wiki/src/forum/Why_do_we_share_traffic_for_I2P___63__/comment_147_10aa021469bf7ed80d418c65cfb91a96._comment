@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 147"
- date="2012-10-25T17:00:06Z"
- content="""
-Could clockskewing be avoided by forcing each I2P router to arbitrarily delay packets in a range of milliseconds?
-"""]]
