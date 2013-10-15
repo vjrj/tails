@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-12-10T09:43:45Z"
- content="""
-Now I see what you mean. The `obfs2` pluggable transport is always enabled in Tails' Tor, with or without \"bridge mode\" enabled. So when \"bridge mode\" is disabled (i.e. the default in Tails), you can add an `obfs2` bridge through Vidalia and Tor should start using it. \"Bridge mode\" just makes this whole process less leaky (i.e. never connect directly to the Tor network) and easy (i.e. autostart a bridge setup wizard).
-"""]]

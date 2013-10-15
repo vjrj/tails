@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Anon2"
- date="2012-12-01T13:31:44Z"
- content="""
-Run Firefox, Edit, Preferences, Content, remove the tick at Enable Java Script.
-
-That is from FF17, maybe ESR is different but essenatially that is it. Disabling Java Script in browser preferences.
-"""]]

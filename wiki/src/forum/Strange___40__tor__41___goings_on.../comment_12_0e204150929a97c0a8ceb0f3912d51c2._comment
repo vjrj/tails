@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="the Tor exit node is not yet registered by TorStatus"
- date="2012-10-21T18:08:50Z"
- content="""
-The message \"Sorry you are not using Tor\" can be also explained by the fact that the Tor exit node is not yet registered by TorStatus as a Tor exit node.
-
-See [this other post](https://tails.boum.org/forum/Check.torproject.org:___34__Sorry._You_are_not_using_Tor.__34__/)
-"""]]

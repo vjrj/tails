@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="A workaround"
- date="2012-06-23T08:57:26Z"
- content="""
-Actually both TorButton and NoScript icons vanished from Iceweazel's navigation toolbar, however I was able to get these back manually using View->Toolbars->Customize. dragging the icons to the toolbar and re-starting Iceweazel. 
-
-But I would like to understand why the icons went away and if what I am doing is ok or not.
-"""]]

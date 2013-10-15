@@ -1,5 +1,0 @@
-Friends, I had been using Facebook through TBB and Tails but due to continuous changes in the IP address, Facebook servers used to subject me to verification process or most of the time immediately block my profile due to change in location.
-
-For the last one month, I tried Advanced Onion Router which is also based on TOR. But I don't know what's so special in this software that none of my Facebook profile has yet been blocked. In order to confirm if this is due to certain Facebook policy, I created a profile yesterday via TAILS and it got blocked just 3 minutes ago.
-
-I want to know how is it possible? Tails/TBB and Advor all are based on TOR and use TOR nodes, but why Facebook is discriminating against the users opening profiles via TAILS/TBB even if a permanent exit node is set as the last IP address to interact with Facebook?

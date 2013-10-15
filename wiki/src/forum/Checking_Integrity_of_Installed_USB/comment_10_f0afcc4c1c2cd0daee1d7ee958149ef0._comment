@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-10-22T00:35:08Z"
- content="""
->boot from and verify the ISO
-
-The link you gave doesn't advocate what you seem to be suggesting. Attempting to verifying an ISO from within itself would obviously be pointless. Nothing wrong with verifying *subsequent* ISO downloads from within one you *properly* verified of course but that's not really pertinent here.
-"""]]

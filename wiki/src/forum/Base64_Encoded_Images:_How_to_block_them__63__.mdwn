@@ -1,9 +1,0 @@
-Visit news.google.com with images disabled in your browser. You'll notice [some] images are displayed.
-
-Right click on one of the images and select View Image Info. Now browse through the files listed and you'll discover some beginning with the following instead of http://
-
-data:image/jpeg;base64,/
-
-How can I disable the loading of these images when I have image loading disabled?
-
-Can malware be injected into the browser with this tactic?

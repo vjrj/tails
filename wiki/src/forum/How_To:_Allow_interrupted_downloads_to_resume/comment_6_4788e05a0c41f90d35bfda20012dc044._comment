@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-09-21T05:29:43Z"
- content="""
-i have tried to use wget in Tails but, because of your post and a previous one on this issue, remain pissed off because it seems to break and download(s) cease while traffic continues in the background. i've tried the suggestion here of killing it but it doesn't work. please look into this and consider adding a download manager (not as an extension for the browser).
-"""]]
