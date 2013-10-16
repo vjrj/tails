@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-12-30T20:43:13Z"
- content="""
-> Have you guys noticed that whenever we launch Tails, either from DVD or USB, we have to establish connection with a server? One of my friends who is an expert Tor user told me the reason for doing so is to run the \"do_not_ever_run_me\" file. This is to help whoever is monitoring the connection to check your physical location. NSA or CIA could be behind it as well.
-
-Did you overlook the explanation given in Comment 7?
-"""]]

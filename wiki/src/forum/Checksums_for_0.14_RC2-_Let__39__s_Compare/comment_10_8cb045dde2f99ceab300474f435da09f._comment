@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-11-05T04:27:04Z"
- content="""
-Also, for those who *manually* install TAILS to USB and wish to check the integrity of the \"burn\", the PGP signature cannot be used for this. The only way I know of is to generate a cryptographic hash of the ISO *after running isohybrid on it*, and then check that hash against the one you get for the partition containing the installed TAILS-- as detailed here:
-`https://tails.boum.org/forum/Checking_Integrity_of_Installed_USB/#comment-cfd67313710e574bcd21d046118aea91`
-"""]]

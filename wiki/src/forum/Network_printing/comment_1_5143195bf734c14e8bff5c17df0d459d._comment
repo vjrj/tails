@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-21T19:18:06Z"
- content="""
-OK, answered, hplip has very limited network printing support (JetDirect only - certainly not the USB print server box connected to the router I am using).  Normal network setup of the printer resulted in the page form feeding ready to print, but nowt actually printing out - I was hoping to use hplip to diagnose the situation.
-"""]]
