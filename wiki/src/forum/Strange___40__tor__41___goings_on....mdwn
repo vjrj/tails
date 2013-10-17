@@ -1,4 +1,0 @@
-Booted a Tails CD, ran a quick apt-get update & upgrade, ran Iceweasel (this is an upgraded version), and the check tor webpage reported I was not connected to the tor network.  An IP lookup suggested that I was connected to a server in Moscow.  The status bar onion was green during all of this.
-
-Clicked New Identity and all was back to normal.
-

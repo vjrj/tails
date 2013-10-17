@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-09-22T09:31:25Z"
- content="""
-\"You have to close the stream after you kill wget.\"
-
-thanks. the question raised should be, why is this happening in the first place and how can it be corrected? or could a different command line downloader be added instead since wget appears broken in Tails.
-"""]]

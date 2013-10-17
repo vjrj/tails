@@ -1,5 +1,0 @@
-I installed Tails USB from Tails DVD.  After creating live USB from Tails, I am not able to boot from the USB.  So, I just want to get rid of the Tails installed on my USB but Windows does not detect the USB drive after Tails installation.
-
-I have tried to format the USB drive by booting from Tails DVD, but formatting option only returns error saying the drive is in use.
-
-How can I restore the USB to its original state before the Tails installation?

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2013-01-06T14:20:52Z"
- content="""
-I think that makes sense, thanks.
-
-But what if the port *is* in use by a non-Tor software?  (On local loopback, I think, not ethernet.  If it matters, I am using ethernet, no WiFi.)
-"""]]

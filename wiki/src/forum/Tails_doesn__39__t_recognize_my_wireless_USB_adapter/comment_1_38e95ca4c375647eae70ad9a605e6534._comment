@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-12-05T07:31:12Z"
- content="""
->I'm using a Netgear N300 Wireless Adapter - to make it work for Windows I had to run the install disk it came with - will I have to do this for Tails?
-
-Yes and you will need the Linux version of the driver to install.
-"""]]

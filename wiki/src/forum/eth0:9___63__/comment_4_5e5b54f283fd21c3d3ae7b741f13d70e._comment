@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-10-20T12:58:53Z"
- content="""
->nothing you do in software has any permanent effect on the network card.
-
-Actually, this isn't entirely accure. If you run ifconfig eth0/wlan0 hw ether XX:XX:XX:XX:XX:XX and change the MAC address, the changes are permanent. You can't actually change the hardware numbers, but once you change it, both ifconfig -a and lshw -c network will return the spoofed MAC address, even after you turn off the power. This happens even when you do it from a Live Session.  
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-08-19T10:10:33Z"
- content="""
-\"Can it still be considered safe to run the current TAILS, 0.12.1, now over five weeks old?\"
-
-No. Both the Browser and Tor need updating.
-"""]]

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-11-10T11:58:34Z"
- content="""
-Porting/using what has been done in Debian or getting inspiration from what was done in Liberté all require work. It's work that requires quite some time and hardware to run tests. Current Tails developers currently lack both and nobody stepped up with patches so far...
-"""]]

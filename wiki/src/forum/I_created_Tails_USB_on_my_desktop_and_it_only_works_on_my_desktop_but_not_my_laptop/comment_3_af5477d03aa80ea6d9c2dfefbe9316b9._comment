@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Do you have enough RAM?"
- date="2012-10-17T22:24:25Z"
- content="""
-I think Tails 0.13 is happier with at least 1GB of RAM.  I know you can run it on a machine with 500 MB RAM because I am doing just that right now, but I've also crashed it by running out of RAM, so maybe this is your problem?
-"""]]
