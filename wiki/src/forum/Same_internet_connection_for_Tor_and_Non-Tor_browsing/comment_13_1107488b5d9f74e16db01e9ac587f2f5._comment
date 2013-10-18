@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Changing IP addy may be better than Tor"
- date="2012-10-22T21:29:53Z"
- content="""
->Perhaps (I'm not the author of comment 1 either) because if \"they\" have managed to harvest the ip address you were trying to protect then your anonymity has gone.
-
-Changing your IP address can be better than using Tor at all, for an adversary who can't/won't get your identity from your ISP. Tor must be very convenient for the \"global adversary\" to keep people from changing their IP address so \"they\" can get it without any court order or \"due process\". In the time it takes to contact a human for every IP address they are trying to identify, they can automate the process and log thousands of IP addresses, then connect these to credit card numbers, real names or identities used in email or social networking sites. The \"Patriot\" Act has done away with the need for \"gov\" to get a court order, but it may not be as easy as automated logging.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 9"
- date="2012-11-20T23:38:14Z"
- content="""
->Not sure why I got the BAD message the first time round then.
-
-The key \"expired\" a little while ago, making it \"invalid\". Then its \"expiry date\" was set forward, making it \"valid\" again. You probably replaced the older version with the updated one. The short \"finger print\" of the two key matched so it's extremely unlikely anything weird was going on.
-"""]]

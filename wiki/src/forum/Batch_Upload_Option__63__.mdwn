@@ -1,7 +1,0 @@
-Is there some way to upload multiple files at once to a web site (such as images to a *chan)?
-
-(Without losing any of the protections that Tails offers, of course.)
-
-This is what the *Xchan Directory Dumper* (XCDD) does, but I'm not even sure it can work in GNU/Linux to begin with, much less be properly Torified, etc.  
-  
-Furthermore, last I checked, the download for XCDD was not digitally-signed.

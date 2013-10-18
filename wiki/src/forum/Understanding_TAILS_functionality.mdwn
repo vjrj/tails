@@ -1,9 +1,0 @@
-I am a proficient computer end-user but I lack any thorough understanding of these types of things so I wanted to get some clarification.  
-
-It seems to me that the appeal to TAILS is in it's use as an anonymising tool when you need to use the internet anonymously, though also download files and use those files in other applications.  Afterall, it is my understanding that using TOR browser bundle in a Windows environment is entirely safe, providing that you do not download or access and use sensitive files outside of TOR.  That is, in a Windows environment no record is kept in Windows of your activity online in TOR; things viewed online are stored only in RAM.  
-
-And so TAILS, being effective only when one can download, store and use sensitive files, needs good encryption tools in order to work.  I currently live in a country where the government can compel you to provide a password to encrypted files.  To protect myself I require use of Truecrypt, which allows one to create a hidden encrypted folder within an encrypted container which affords the user plausible deniability.  That is, if I am compelled to provide a password I need only provide the first level of encryption since it is not possible to determine if a second hidden folder exists.  Is there any other Linux based encryption software that allows you to do this?  
-
-Is my understanding correct?  If not, please help me to understand.  
-
-Thanks,

@@ -1,7 +1,0 @@
-I notice in Tails testing version iptables includes *private networks*:
-
-####https://en.wikipedia.org/wiki/Private_network
-
-Let's suppose my ISP is using one of these blocks for routing, should this cause problems in routing? (as these are assigned to 'lan' via iptables)
-
-This might explain a lot of dropped packets in localhost-to-localhost UDP, TCP, and ICMP messages I'm seeing in dmesg output.

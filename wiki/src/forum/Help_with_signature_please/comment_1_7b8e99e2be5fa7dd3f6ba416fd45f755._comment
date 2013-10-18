@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-18T17:17:21Z"
- content="""
-The checksum might be quicker while you figure out pgp: [https://tails.boum.org/doc/get/verify_the_iso_image_using_other_operating_systems/index.en.html](https://tails.boum.org/doc/get/verify_the_iso_image_using_other_operating_systems/index.en.html) - any sha256 capable prog should do it.
-"""]]

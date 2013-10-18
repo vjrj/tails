@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-07-22T00:53:12Z"
- content="""
-chaoscomputerclub appears to have many exit nodes running, from 1-21  at least (and chaoscomputerclub19 is only one of them). I am not saying there is anything nafarious about that, but what if a government did it? Could a central database log all of this traffic and get surfing patterns?
-
-Also, if exit node preference is determined by bandwidth, how is the bandwitdh determined? Is it tested or is the exit node's word taken for it which would permit an exit node to determine its own preference? 
-"""]]

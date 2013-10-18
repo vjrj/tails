@@ -1,2 +1,0 @@
-I created Tails on a 8Gb USB drive with about 6Gb of persistent partition. I created the persistent drive for eoverything. The USB drive is able to boot into Tails. I proce bed to install some apt packages using the software center and the package executed as is. But after a reboot the package is not on the applications menu. I have to reinstall it.
-How to have the install permanently on the persistent drive?
