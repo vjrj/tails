@@ -1,5 +1,0 @@
-I'm using the latest version 0.12.1. I initially made a bootable USB using the Linux command-line method involving isohybrid. I was able to boot from the USB.
-
-Once in Tails, I used the Tails USB Installer to "Clone & Install" to another USB flash drive. This was reported to be successful, but I couldn't boot from the USB flash drive--the computer would just fall back to booting from the hard drive.
-
-What could be wrong?

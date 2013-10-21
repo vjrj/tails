@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="How do I find out the MAC address of my network interface in Tails?"
- date="2012-09-28T01:45:04Z"
- content="""
->But once more, appart from the mac adress of your network interface, which is the only serial number usually leaked
-
-When I am using Tails, what command must I input to find out the MAC address of my network interface?
-"""]]

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-11-09T20:10:47Z"
- content="""
-The solution is probably to implement support for [[UEFI|todo/UEFI]]. Unfortunately this requires time and hardware. In the meantime, Liberté Linux has support for UEFI, so you are welcome to try it.
-"""]]

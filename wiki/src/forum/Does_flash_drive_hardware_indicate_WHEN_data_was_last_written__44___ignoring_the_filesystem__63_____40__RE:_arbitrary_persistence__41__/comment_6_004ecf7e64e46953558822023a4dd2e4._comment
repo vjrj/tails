@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="@comment 4 & 5"
- date="2012-11-08T23:14:19Z"
- content="""
-I don't think he meant identical data, but indistinguishable in terms of \"which device is the decoy?\"
-
-Determining which device was used last or most often, for example. Maybe if there's a record how much the drive has been written to by the wear leveling firmware.
-"""]]

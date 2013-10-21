@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-10-27T18:04:50Z"
- content="""
-It's generally not recomended to use an HTTPS proxy before or after the tor proxy chain; it leaves a dedicated entry/exit point.
-
-If you have to get media out and get it out fast, the best thing to do is set up a system, like using reddit and imgur or an onion filehost and torchan or tormail/yahoo/etc to CC email a pre-chosen group of people.
-"""]]

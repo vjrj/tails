@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-01-07T01:59:58Z"
- content="""
-Tor uses their own DNS, which is how they are able to route the (technically non-existent) .onion domain to Tor websites, so one big disadvantage of using an alternative DNS services would be no .onion support.
-"""]]
