@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="alessandro.g89"
- ip="127.0.0.1"
- subject="workaround"
- date="2012-07-18T14:17:31Z"
- content="""
-I don't know if you installed Tails the same way I did, but I found the same issue. To work around it I type \"killall x-session-manager\" in a terminal, so I get to the welcome screen, then I log in again and it works
-"""]]

@@ -1,7 +1,0 @@
-Just found out this information from someone who's senior tech person at Bell.
-
-Canadian Police authorities have access to a database of their countries ISP databases and are able to find out who logged in with a specific MAC address to Tor. ISP gather MAC addresses now.
-
-For example: If someone wanted to create a Facebook account, the logs at Facebook would include their MAC address, their IP address.
-
-Then Police would go to that said database and enter that MAC address and see who logged in in Canada with that MAC Address (wether correct or fake -random address) to Tor. Then they would start their investigation from there. FUCK..did you guys knew that ?

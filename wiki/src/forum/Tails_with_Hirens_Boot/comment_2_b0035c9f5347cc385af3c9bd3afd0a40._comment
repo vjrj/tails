@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="ManSquito"
- ip="127.0.0.1"
- subject="Same issue"
- date="2012-12-19T17:31:52Z"
- content="""
-I'm having the same issue when trying to boot from hirens.  I get the welcome screen and it begins counting down to automatically boot Tails but it never does.  The timer simply resets.  When I hit enter nothing happens.  When I switch to fail-safe and hit enter nothing happens.  Hope someone can help with this.  The only thing I can think of is that when the instructions were written to add Tails to a Hirens disc it was when Tails was on a lower release. 0.1x If anyone is familiar with hirens and/or linux or grub4dos please let me know what you think.
-"""]]

@@ -1,3 +1,0 @@
-If I checked the downloaded signature without importing it first, and it is good, can it be without importing it first?
-
-IOW, how can the verify command check the downloads and find it good it if wasn't actually imported first? 

@@ -1,5 +1,0 @@
-Is Tor and Vidalia being updated to latest release, and is there any hardening done to the Tails kernal like Liberte Linux is sporting? 
-
-"Liberté Linux is shipped with the Hardened Gentoo kernel, which includes all grsecurity/PaX security enhancements — radically improving system's resistance to software exploits. Measures like service privileges separation provide additional protection"
-
-Nice work Tails

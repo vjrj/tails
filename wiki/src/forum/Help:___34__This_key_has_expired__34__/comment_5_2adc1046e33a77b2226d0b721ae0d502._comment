@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="@ comment 4"
- date="2012-10-15T07:27:23Z"
- content="""
-I got the same result as you did, even though I re-downloaded the signature file more than 3 times.
-
-Do you know what I did later? I launched Kleopatra and used it to download Tails' key file from its servers. Next, I used it to verify the ISO image. There was no report of expired key.
-"""]]
