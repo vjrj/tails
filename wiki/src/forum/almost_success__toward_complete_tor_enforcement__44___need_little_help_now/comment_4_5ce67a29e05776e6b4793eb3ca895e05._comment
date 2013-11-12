@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-19T10:41:05Z"
- content="""
-Some people recommend not to use proxy at all. As per them the tor is alone enough.
-And also not to use ttdnsd,pdnsd... etc as there is inbuilt DNS trans support in tor. I am confused. Any clue on these ?   
-"""]]

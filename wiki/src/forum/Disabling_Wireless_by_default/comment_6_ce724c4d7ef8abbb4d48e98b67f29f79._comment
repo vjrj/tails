@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="that's not the point..."
- date="2012-06-20T09:44:20Z"
- content="""
-The point is not if there is rfkill preinstalled (and not activated) or wether i have a hardware-switch or not (which doesn't work for me). 
-
-As a simple user I rely on the promise of the main OS cause, that it's presettings will preserve my privacy in front of everything, out of the box.
-"""]]

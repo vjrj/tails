@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 35"
- date="2012-10-20T14:49:10Z"
- content="""
-> It's about the possible anonymity ramifications of a P2P service
-
-Unbelievable, you and your rampant ignorance. Do you understand that P2P architecture is about they way that nodes are added and removed from the network, and about how the information is kept? It has nothing to do with **anonymization**, which is all about traffic routing. How is I2P being **pee-too-pee** going to prevent an attacker to iterate over NetDB and compare timestamps with those of a client that connects to an I2P service operated by the attacker? Did you read even one design document of I2P or Tor? Or a paper about DHT? Did you, punk? Fucking American schoolkids, oh how I hate thee.
-"""]]

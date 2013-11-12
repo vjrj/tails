@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-09-02T11:49:14Z"
- content="""
-Have a look at <https://wiki.debian.org/SecureApt>. tl;dr: package authenticity is ensured by using public key cryptography.
-"""]]

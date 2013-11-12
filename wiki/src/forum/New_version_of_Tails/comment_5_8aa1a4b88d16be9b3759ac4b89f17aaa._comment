@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="New version of Tails"
- date="2012-08-20T08:25:32Z"
- content="""
-Add support to atleast backup iceweasel bookmarks by default.
-
-Will Claws Mail be replaced with Thunderbird in the future ?
-"""]]

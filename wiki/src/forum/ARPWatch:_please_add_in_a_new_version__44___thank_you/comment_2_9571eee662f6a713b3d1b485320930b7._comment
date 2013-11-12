@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-09-18T11:06:13Z"
- content="""
-I don't think arpwatch is needed to make Tails satisfy its design goals and intended usecases. Moreover, it's small enough to be quickly installed by anyone who wants it.
-
-"""]]
