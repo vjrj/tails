@@ -316,21 +316,35 @@ connect Tails to Internet with persistence activated.
 
 </div>
 
-To choose the list of additional software, create a file called
-`/lib/live/mount/persistence/TailsData_unlocked/live-additional-software.conf`.
-Each line of this file must contain
-the name of a Debian package to be installed as an additional software
-package.
+To edit the list of additional software:
 
-For example, to automatically install the `dia` software, a diagram
-editor, and the `fontmatrix` software, a font manager, create a
-`live-additional-software.conf` file with the following content:
+- launch Tails with an administrator password;
 
-    dia
-    fontmatrix
+- start a root terminal with:
+  <span class="menuchoice">
+    <span class="guimenu">Applications</span>&nbsp;▸
+    <span class="guisubmenu">Accessories</span>&nbsp;▸
+    <span class="guimenuitem">Root terminal</span>
+  </span>
 
-To learn about the many software packages available in Debian, visit
-<http://packages.debian.org/stable/>.
+- type `tails-additional-software edit` and hit the *Return* key.
+
+  The additional software configuration file opens in an editor.
+  Each line of this file must contain
+  the name of a Debian package to be installed as an additional software
+  package.
+
+  For example, to automatically install the `dia` software, a diagram
+  editor, and the `fontmatrix` software, a font manager the file must contain:
+
+      dia
+      fontmatrix
+
+  To learn about the many software packages available in Debian, visit
+  <http://packages.debian.org/stable/>.
+
+- when you have finished edition the configuration, save the file and close the
+  editor. You can then close the root terminal.
 
 <div class="caution">
 
