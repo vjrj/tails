@@ -2,6 +2,7 @@
 
 import gettext
 import os.path
+import pwd
 import subprocess
 import sys
 import syslog
@@ -126,6 +127,31 @@ Please check your network connection, try to restart Tails, or read the system \
 log to understand better the problem."))
         return False
 
+def edit_additional_packages_list():
+    """Open an editor to edit the additional packages list
+
+    Creates the configuration file if required, then launch an editor to edit
+    it.
+    """
+    create_additional_packages_list()
+    if has_additional_packages_list():
+        if subprocess.call(['editor', PACKAGES_LIST_FILE]) == 0:
+            return True
+    return False
+
+
+def create_additional_packages_list():
+    """Creates the additional packages list if it doesn't exist
+    """
+    if not has_additional_packages_list():
+        syslog.syslog("Creating additional software configuration file")
+        f = open(PACKAGES_LIST_FILE, 'w')
+        f.closed
+        os.chmod(PACKAGES_LIST_FILE, 0600)
+        os.chown(PACKAGES_LIST_FILE,
+                 pwd.getpwnam('tails-persistence-setup').pw_uid,
+                 pwd.getpwnam('tails-persistence-setup').pw_gid)
+
 def is_activated():
     """Check if additional software has been activated
     """
@@ -148,6 +174,7 @@ def print_help():
     """
     sys.stderr.write("Usage: %s <subcommand>\n" % program_name)
     sys.stderr.write("""Subcommands:
+    edit: edit additional software configuration
     install: activate and install additional software
     upgrade: upgrade additional software if activated\n""")
 
@@ -167,6 +194,9 @@ if __name__ == "__main__":
     elif sys.argv[1] == "upgrade":
         if not upgrade_additional_packages():
             sys.exit(2)
+    elif sys.argv[1] == "edit":
+        if not edit_additional_packages_list():
+            sys.exit(3)
     else:
         print_help()
         sys.exit(4)
