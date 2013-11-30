@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="anonym"
- subject="comment 1"
- date="2010-05-16T16:57:50Z"
- content="""
-It is not possible at the moment. T(A)ILS is designed as a LiveDistro which traditionally meant that it runs from read-only media (in particular CD/DVD). It is not among it goals to be installed to a hard drive, and it likely will never be. That is not due to laziness, it is a concious, thought through decision. That mode of operation is simply more desirable for what we try to give our users with T(A)ILS, the \"amnesic\" part, i.e. that it shouldn't leave any traces after a session has been closed down.
-
-There is a compomise in the works, though. If you're familiar with the old Incognito LiveCD you might remember that it was possible to have your home partition mounted persistantly in an encrypted container. Once that is in place in T(A)ILS you will be able to configure your applications so that it will be saved through reboots. At the moment that is not easily done, though. And I'm not sure how well that will play with virtual machines like VMWare or VirtualBox (when I developed Incognito I never found out a nice solution to do it that didn't require a lot of extra work).
-"""]]
