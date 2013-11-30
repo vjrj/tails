@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-08T20:31:20Z"
- content="""
-I guess by \"permanently\" you actually mean \"onto a internal hard drive\". Out of the box, Tails does not support that.
-"""]]
