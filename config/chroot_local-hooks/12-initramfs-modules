@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+MOD_FILE='/etc/initramfs-tools/modules'
+
+[ -f "${MOD_FILE}" ] || exit 11
+
+# Avoid sdmem sometimes crashing on Intel graphic hardware
+echo "i915" >> "${MOD_FILE}"
