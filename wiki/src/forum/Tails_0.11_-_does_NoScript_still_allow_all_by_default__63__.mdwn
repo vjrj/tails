@@ -1,5 +1,0 @@
-I tested out a previous version of Tails (0.10), and was disappointed to find that the NoScript add-on allows scripts globally by default (and changing the setting does not persist after the browser -- or even the NoScript dialogue, on occasion -- is closed).
-
-Just wondering if this has been fixed in the latest release, that 1) NS now blocks all scripts by default and 2) settings changes in the browser don't immediately reset after exiting IceWeasel (or even when closing the NS preferences dialogue). Allowing all scripts by default doesn't seem too secure IMHO, and it becomes a bit annoying to have to continually redo the same settings.
-
-As a suggestion for future releases, would it be possible to, say when booting Tails from a flash drive, have these settings saved in a file (like an .ini on Windoze or .prefs on Mac) elsewhere on the disk -- separate from the live image, and preferably encrypted, of course -- so that future uses can retain the same settings as previous?

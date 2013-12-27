@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="PS"
- date="2012-11-22T08:21:10Z"
- content="""
-PS I have no trouble configuring xvnc4viewer, tightvncviewer, etc in other OS but I think for some reason (maybe multiple reasons) I keep having problems in Tails. I know that it's purposely not included in Tails b/c it's too much hassle to make secure (according to a Q&A thread I wrote).
-
-I've tried jar's, binaries, everything. Right now I'm getting a message that my C compiler can't create executables even though I'm root and I have a compiler installed.
-"""]]

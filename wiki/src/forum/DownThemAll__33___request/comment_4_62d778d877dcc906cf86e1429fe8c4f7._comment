@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Manually continue partially completed downloads"
- date="2012-08-22T20:19:33Z"
- content="""
->The current procedure of - Saving a Link as - is a very poor download performer and often requires multiple tries from the start which never seems to complete the file download.
-
-This is probably not suitable for most people, but you can continue partially completed downloads manually if the server supports the HTTP Range header. If the file is being downloaded as filename.ext.part then the server should support this feature. If the download times out or you need to pause it, rename the saved part to something like filename.ext.part.saved and create a backup copy of it called something like filename.ext.part.bak. When you are ready to continue, start the download from the same server again. As soon as it starts downloading some data, you can pause it, delete the existing filename.ext.part, rename the filename.ext.part.saved to filename.ext.part, and resume the download.
-"""]]

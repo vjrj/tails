@@ -1,2 +1,0 @@
-Yo!
-I'm using proxychains to try and chain a socks5 proxy over tor while using tails. The chain shows that it connects to to tor then connects to my proxy then tries to connect to tor againand times out, therefore not completing its journey to the interweb. Any ideas on how to make it work?

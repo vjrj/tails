@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Me Too"
- date="2012-05-19T16:50:47Z"
- content="""
-Tried starting on live DVD and same thing happened. Process was slower than usb so I could read the text. Memlockd was the last thing on the screen before it went to blank black screen and stall condition. Did same in fail safe mode. 
-"""]]

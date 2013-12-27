@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-12-27T15:37:25Z"
- content="""
-Some clues that may be interesting to you: There is a port of OpenBSD for the Zarius (ARM based) and OpenBSD has been run from read-only media. 
-"""]]

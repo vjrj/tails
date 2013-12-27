@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-07-25T09:51:54Z"
- content="""
->Synaptic is just a graphical user interface to APT, so use whatever you feel most comfortable with.
-
-I should have been clearer. I did not mean to ask whether one should use APT or Synaptic but rather whether it is safe to update Iceweasel.
-"""]]

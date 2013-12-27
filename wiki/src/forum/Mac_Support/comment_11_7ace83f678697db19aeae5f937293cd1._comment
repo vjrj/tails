@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-04-30T10:56:49Z"
- content="""
-> Try booting liberte so that you can rule out rEFIt for your 10.5.8 issue.
-
-If doing that, you should try the [latest snapshot](http://sourceforge.net/projects/liberte/files/snapshots/), since it has experimental EFI support. Second boot menu option should help for cases when Xorg video drivers fail, by using EFI framebuffer
-"""]]

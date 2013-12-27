@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-09T01:09:37Z"
- content="""
-Does your Macbook use EFI exclusively for booting (as opposed to BIOS)? Did you try the latest Liberté Linux snapshot as suggested in the other threads, to determine whether EFI support is the required feature?
-
-<small>Caveat emptor: answering the questions above might require level of effort and independent research which is, although trivial, is atypical to the one normally observed in Mac users.</small>
-"""]]

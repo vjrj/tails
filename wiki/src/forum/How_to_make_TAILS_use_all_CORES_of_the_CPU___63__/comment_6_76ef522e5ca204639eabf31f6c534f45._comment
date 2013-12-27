@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-11-15T03:46:09Z"
- content="""
-It should *Just Work™*
-
-There doesn't appear to be a [prescribed testing method](https://tails.boum.org/contribute/release_process/test/) for this. By what process are you determining that no more than one core is ever being used?
-"""]]

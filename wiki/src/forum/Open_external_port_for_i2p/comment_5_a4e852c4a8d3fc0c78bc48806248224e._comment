@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-08-20T21:29:10Z"
- content="""
-Looks like this is fixed upstream: http://trac.i2p2.de/ticket/427
-
-Please make sure to include this in your next build please!!
-"""]]

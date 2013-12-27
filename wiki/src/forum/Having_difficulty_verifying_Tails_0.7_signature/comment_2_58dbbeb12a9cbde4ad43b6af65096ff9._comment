@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="gpg signing"
- date="2011-05-08T10:30:21Z"
- content="""
-the download link for both mailinglist and signingkey point to the same .asc. I had trouble too since I simply didn't know the search cmd for gpg. Thank you for sorting that out.
-"""]]

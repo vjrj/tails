@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2013-01-10T23:29:25Z"
- content="""
->doesn't this leave a possible attack vector by including a browser which works via clearnet and not through Tor? 
-
-Eh? What are you referring to?
-"""]]

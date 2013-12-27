@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="IceWeasel Opens Before Internet Connection Made!"
- date="2011-06-12T15:12:56Z"
- content="""
-This is not necessarily a bad thing.
-
-For example, when I boot up TAILS - I do not have my router powered on.  This allows me to change the mac address and modify the torrc file prior to bringing up the router which enables the launching of the ntp to sync the clock to local time, and for Vidalia to launch Tor with my changes.
-"""]]

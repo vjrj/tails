@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 12"
- date="2012-10-16T21:32:50Z"
- content="""
-The ISP knows you are using Tails. Because Tails has no persistent entry guards. Each time you reboot you have new entry guards and that is a huge difference to other Tor users.
-"""]]

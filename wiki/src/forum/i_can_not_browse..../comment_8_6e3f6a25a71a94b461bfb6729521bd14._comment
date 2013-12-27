@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Should be fixed in Git"
- date="2010-08-09T22:37:35Z"
- content="""
-As of today: T(A)ILS built from Git is still based on Debian Lenny but now gets a 2.6.32 kernel that should support this wireless adapter flawlessly.
-
-"""]]

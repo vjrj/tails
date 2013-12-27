@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-19T13:26:46Z"
- content="""
-Given you know enough `xorriso` (or any similar tools) magic, probably you can. It will probably be easier to simply [[contribute/build]] Tails after some [[customization|contribute/customize]].
-
-Please be aware that released images are given [[proper testing|contribute/release_process/test]]. Will you have enough time and energy to perform the same?
-"""]]

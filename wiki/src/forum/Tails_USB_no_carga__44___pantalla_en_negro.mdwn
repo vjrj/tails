@@ -1,8 +1,0 @@
-Acabo de descargarme la última versión y al quemarla y usarla en liveCD funciona sin problemas.
-Quería hacer un liveUSB por la memoria persistente pero me encuentro con que después de hacer el liveUSB, reinicio y aparece booting tail...
-Desaparece la barra, la pantalla queda en negro y puede estar así horas que no pasa nada.
-He probado el unetbootin, el creador de discos de arranque y por último el creador de usb del propio tails.
-Mismo resultado para unetbooting y el creador de usb de tails.
-Con el creador de discos de arranque me da un error que dice que no encuentra la imagen del kernel pero en el usb estaba el archivo que decía no encontrar...
-Cúal es el problema y como lo arreglo?
-Muchas gracias

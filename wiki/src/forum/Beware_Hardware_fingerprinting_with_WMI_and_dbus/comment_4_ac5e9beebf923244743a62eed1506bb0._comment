@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="D-bus errors with Linux Mint Debian Edition on certain websites only"
- date="2012-04-28T13:12:14Z"
- content="""
-I get D-bus errors when I visit certain websites only. I cannot access my mounted drives via terminal once I have accessed those sites. I do an ls and I get a d-bus error and have to reboot my pc. 
-"""]]

@@ -1,5 +1,0 @@
-Every time I try to mount an encrypted drive it says "Unable to mount error mounting:mount:you must specify the filesystem type"
-As I don't really play around with Linux other than tails I don't know what to do.
-It lets me unlock the drive and even change the passphrase
-It used to work on all the other releases until I opened it once after I upgraded to .12.1 
-Any help would be much appreciated. 

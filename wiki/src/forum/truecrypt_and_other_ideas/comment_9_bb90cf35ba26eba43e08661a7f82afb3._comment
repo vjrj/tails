@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="truecrypt and multiplatform encryption"
- date="2010-05-04T12:17:51Z"
- content="""
-Note that is you want a way to read your encrypted content in both linux and windows, you still can use dm-crypt. [FreeOTFE](http://www.freeotfe.org/) can read it in your windows OS (even if I'm not comfortable myself with the idea of reading sensitive content in something like windows, feels like a way to break the precautions taken by encrypted it) :-)
-"""]]

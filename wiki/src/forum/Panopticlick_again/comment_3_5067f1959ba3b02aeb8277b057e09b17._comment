@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="More than a year later..."
- date="2012-10-18T02:55:31Z"
- content="""
-... in my recent (October 2012) tests, tails 0.13 with unaltered configuration of FF and NoScript is about one in 5,000 browsers, while making changes suggested by the results of the jondos anonymity test (such as disabling javascript entirely, checking \"Do Not Track\", disabling cookies entirely) eventually brings down to just under one in 100 browsers.  Although these figures probably should be taken to refer \"out of a million visitors to eff.org\", which is very different (probably) from \"out of a million users randomly chosen from several billion individual web users\".
-
-Have any Tails developers tried such tests and if so, what do you think about the results?
-"""]]

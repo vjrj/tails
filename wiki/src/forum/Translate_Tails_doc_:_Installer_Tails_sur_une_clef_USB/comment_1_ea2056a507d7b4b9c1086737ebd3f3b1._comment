@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="cat and dd do a similar job"
- date="2011-06-16T15:02:41Z"
- content="""
-Thanks for translating Tails.
-
-The `cat` and `dd` techniques are basically equivalent. We choose to document the one using `cat` because we thought the syntax was somehow more simple and less prone to errors than the `dd` method you mentioned.
-"""]]

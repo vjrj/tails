@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-06-25T22:52:24Z"
- content="""
-I'm not convinced these two bugs are the same, so we should perhaps not expect a workaround that works for the one to work for the other.
-
-"""]]

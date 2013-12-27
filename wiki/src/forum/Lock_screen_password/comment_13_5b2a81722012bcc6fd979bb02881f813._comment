@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="screensaver can be by-passed"
- date="2013-02-13T01:41:51Z"
- content="""
-You need to install vlock or anybody can walk up and hit control-alt + F1 through F6 which opens the virtual console. Then they would simply kill the process for the gnome-screensaver and gain access to your computer.
-
-vlock will lock all virtual consoles using vlock -a (a being all which locks all virtual consoles) The gnome-screensaver or xscreensaver will only lock your windows virtual console or F7 but leaves all other virtual consoles open to attack.
-"""]]

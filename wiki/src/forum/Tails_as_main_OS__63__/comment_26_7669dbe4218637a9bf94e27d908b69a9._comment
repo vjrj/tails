@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Tails cannot provide &quot;boot and forget&quot; security for all your computing needs"
- date="2013-01-04T16:45:25Z"
- content="""
-I just hope everyone realizes (and I trust \"Tails\" will object if he/she disagrees) that *the Tails browser is not a security panacea*.  Tails will not solve all the problems with SSL, browsers, computer security with which most of us are vaguely familiar.  Tails *can* help to provide *anonymity*, which does require providing enhanced *security* for certain activities.  But mixing anonymous and non-anonymous activities strikes me as a recipe for disaster, at least as far as maintaining anonymity goes, and possibly for security too if people think that Tails is \"secure\" in some absolute, boot-and-forget sense.
-
-
-"""]]

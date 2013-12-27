@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 15"
- date="2012-10-14T12:07:45Z"
- content="""
-Avoid crappy dumbed-down Gnome utilities like media player and the awful Nautilus.  Install Gnome Commander (itself buggy).  Get mplayer-nogui and w32codecs from the independent Debian Multimedia repo and use it from the command line.  I don't know about YouTube for OP but that will play any media format and codec known to humans.
-
-
-"""]]

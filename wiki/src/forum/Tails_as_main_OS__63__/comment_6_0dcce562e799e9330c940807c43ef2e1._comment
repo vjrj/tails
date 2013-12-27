@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-05-20T18:43:50Z"
- content="""
-So I guess it may be statistically better to trust an ISP as an \"exit node\" rather than an unkown Tor exit node...when dealing with personally identifiable information?
-"""]]
