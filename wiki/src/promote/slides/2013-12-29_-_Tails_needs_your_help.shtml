@@ -1,0 +1,179 @@
+<!--
+# Unusual file extensions to prevent ikiwiki from processing them.
+pandoc -i 2013-12-29_-_Tails_needs_your_help.txt -o 2013-12-29_-_Tails_needs_your_help.shtml
+-->
+
+<style>
+body {
+  padding: 2em;
+  font-size: 28px;
+}
+h1 {
+  margin-top: 6em;
+}
+a {
+  font-size: 24px;
+}
+</style>
+
+<h1 id="what-is-tails">What is Tails?</h1>
+<p><strong>T</strong>he <strong>A</strong>mnesic <strong>I</strong>ncognito <strong>L</strong>ive <strong>S</strong>ystem</p>
+<p><a href="https://tails.boum.org/"><code class="url">https://tails.boum.org/</code></a></p>
+<p>Tails is a live operating system, that you can start on almost any computer from a DVD, USB stick, or SD card. It aims at preserving your <strong>privacy</strong> and <strong>anonymity</strong>, and helps you to:</p>
+<ul class="incremental">
+<li><strong>use the Internet anonymously</strong> and <strong>circumvent censorship</strong>;</li>
+<li>all connections to the Internet are forced to go through the Tor network;</li>
+<li><strong>leave no trace</strong> on the computer you are using unless you ask it explicitly;</li>
+<li><strong>use state-of-the-art cryptographic tools</strong> to encrypt your files, emails and instant messaging.</li>
+</ul>
+<p><a href="https://tails.boum.org/contribute/design/"><code class="url">https://tails.boum.org/contribute/design/</code></a></p>
+<h1 id="challenges">Challenges</h1>
+<ul class="incremental">
+<li>Release every 6 weeks</li>
+<li>Mostly volunteers</li>
+<li>Around 7000 boots a day, ×2 every 6 months</li>
+<li>Around 2000 commits by +10 people in the last 6 months</li>
+<li>Very scarse human-ressources</li>
+</ul>
+<h1 id="roadmap">Roadmap</h1>
+<ul class="incremental">
+<li><strong>This winter</strong>
+<ul class="incremental">
+<li>Incremental upgrades</li>
+<li>MAC spoofing</li>
+</ul></li>
+<li><strong>Tails 1.0</strong>, April 15
+<ul class="incremental">
+<li>Better bridges support</li>
+</ul></li>
+<li><strong>Tails 1.1</strong>, May 27: Tails Wheezy
+<ul class="incremental">
+<li>GNOME 3</li>
+</ul></li>
+<li><strong>Tails 2.0</strong>: sustainability and maintainability
+<ul class="incremental">
+<li>UEFI, Mac</li>
+<li>Tails Greeter</li>
+<li>Same day security upgrades (automated builds and tests)</li>
+<li>Mitigate the effects of security issues (hardening and sandboxing)</li>
+</ul></li>
+</ul>
+<p><a href="https://labs.riseup.net/code/projects/tails/roadmap"><code class="url">https://labs.riseup.net/code/projects/tails/roadmap</code></a></p>
+<h1 id="translators">Translators</h1>
+<p><em>Translators can allow more people around the world to use Tails.</em></p>
+<ul class="incremental">
+<li>Translate programs included in Tails [upstream]</li>
+<li>Translate our custom programs through Transifex<br/> <a href="https://www.transifex.com/projects/p/torproject/resources/"><code class="url">https://www.transifex.com/projects/p/torproject/resources/</code></a></li>
+<li>Rescue orphan translations of the website [Git]
+<ul class="incremental">
+<li>German (5%)</li>
+<li>Spanish (10%)</li>
+</ul></li>
+</ul>
+<p><a href="https://tails.boum.org/contribute/how/translate/"><code class="url">https://tails.boum.org/contribute/how/translate/</code></a></p>
+<h1 id="writers">Writers</h1>
+<p><em>Good writers can make Tails accessible to more people.</em></p>
+<ul class="incremental">
+<li>[#<a href="https://labs.riseup.net/code/issues/6376">6376</a>]: Migrate the content of the forum to the FAQ</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6533">6533</a>]: Mention I2P in About page</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6311">6311</a>]: Document how to get the source code of packages shipped in Tails</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/5816">5816</a>]: Document what kind of anonymity Tails provides</li>
+</ul>
+<p><a href="https://tails.boum.org/contribute/how/documentation/"><code class="url">https://tails.boum.org/contribute/how/documentation/</code></a></p>
+<h1 id="testing">Testing</h1>
+<ul class="incremental">
+<li>Test MAC spoofing<br/> <a href="https://tails.boum.org/news/spoof-mac/"><code class="url">https://tails.boum.org/news/spoof-mac/</code></a></li>
+<li>[#<a href="https://labs.riseup.net/code/issues/5390">5390</a>]: Test hardware requirements on Wheezy</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6528">6528</a>]: Test new Vagrant stuff on Wheezy</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6223">6223</a>]: Test Linphone 3.5.1 or newer with onioncat</li>
+</ul>
+<h1 id="web-graphic-design">Web &amp; Graphic Design</h1>
+<p><em>Designers can make Tails easier to use and more appealing.</em></p>
+<ul class="incremental">
+<li>[#<a href="https://labs.riseup.net/code/issues/6323">6323</a>]: Improve the CSS of the boxed titles</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6165">6165</a>]: Improve visually the Contribute section</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/5797">5797</a>]: Create a logo for Tails</li>
+<li>Design outreach material (flyer, stickers, etc.)</li>
+</ul>
+<p><a href="https://tails.boum.org/contribute/how/website/"><code class="url">https://tails.boum.org/contribute/how/website/</code></a></p>
+<p><a href="https://tails.boum.org/contribute/how/graphics/"><code class="url">https://tails.boum.org/contribute/how/graphics/</code></a></p>
+<h1 id="user-interface">User Interface</h1>
+<ul class="incremental">
+<li>Early testing of new features (eg. MAC spoofing)</li>
+<li>Help us redesign Tails Greeter<br> <a href="https://tails.boum.org/blueprint/tails-greeter:_revamp_UI/"><code class="url">https://tails.boum.org/blueprint/tails-greeter:_revamp_UI/</code></a></li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6417">6417</a>]: Evaluate Tails Greeter revamp proposals</li>
+</ul>
+<p><a href="https://tails.boum.org/contribute/how/user_interface/"><code class="url">https://tails.boum.org/contribute/how/user_interface/</code></a></p>
+<h1 id="gnome-hacking">GNOME Hacking</h1>
+<p><em>Improve Tails Greeter and migration to GNOME3.</em></p>
+<ul class="incremental">
+<li>[#<a href="https://labs.riseup.net/code/issues/5917">5917</a>]: Warn when caps-lock in ON [Tails Greeter] [Python]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/5594">5594</a>]: Better administration password UI [Tails Greeter] [Python]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/5355">5355</a>]: Wheezy: add a quick shutdown button back</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6342">6342</a>]: Update Windows camouflage for GNOME3</li>
+</ul>
+<h1 id="debian-hacking">Debian Hacking</h1>
+<p><em>Maintain backports and package our custom programs.</em></p>
+<ul class="incremental">
+<li>[#<a href="https://labs.riseup.net/code/issues/6350">6350</a>]: Prepare a live-build configuration that builds a Sid desktop image</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6507">6507</a>]: Package our OpenPGP applet for Debian</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6148">6148</a>]: Help get Torbirdy into Debian</li>
+<li>Help maintain:
+<ul class="incremental">
+<li>ruby-libvirt [Debian#<a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=733413">733413</a>]</li>
+</ul></li>
+<li>Maintain backports for Wheezy:
+<ul class="incremental">
+<li>poedit</li>
+<li>Pidgin</li>
+<li>i18nspector</li>
+<li>monkeysign</li>
+<li>Xorg stack</li>
+</ul></li>
+</ul>
+<h1 id="persistence">Persistence</h1>
+<ul class="incremental">
+<li>[#<a href="https://labs.riseup.net/code/issues/5881">5881</a>]: Add reboot button to persistence setup assistant [Perl]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6485">6485</a>]: Support multiple persistent paths per preset [Perl]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6403">6403</a>]: Implement liferea persistence preset in Tails Wheezy [Perl]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/5929">5929</a>]: Create encrypted TailsData by default [Tails Installer] [Python]</li>
+</ul>
+<h1 id="automation-and-infrastructure">Automation and Infrastructure</h1>
+<p><em>Puppet, Debian, and Cucumber (Ruby).</em></p>
+<ul class="incremental">
+<li>[#<a href="https://labs.riseup.net/code/issues/6295">6295</a>]: Evaluate consequences of importing large amounts of packages into reprepro</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6303">6303</a>]: Adapt our APT repository infrastructure to be able to handle tons of packages [reprepo, shell]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/5894">5894</a>]: APT repository: notify incoming [with and without Puppet]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6547">6547</a>]: Puppet module to manage kgb-bot [easy Puppet]</li>
+<li>[#<a href="https://labs.riseup.net/code/issues/6270">6270</a>]: Publish our Jenkins read-only on the web</li>
+</ul>
+<p><a href="https://tails.boum.org/blueprint/automated_builds_and_tests/"><code class="url">https://tails.boum.org/blueprint/automated_builds_and_tests/</code></a></p>
+<p><a href="https://labs.riseup.net/code/projects/tails/issues?query_id=129"><code class="url">https://labs.riseup.net/code/projects/tails/issues?query_id=129</code></a></p>
+<h1 id="donate">Donate</h1>
+<ul class="incremental">
+<li>Bitcoins only for the moment<br/> Bitcoin address: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</li>
+<li>Through torserver.net in the future...</li>
+</ul>
+<p><a href="https://tails.boum.org/contribute/how/donate/"><code class="url">https://tails.boum.org/contribute/how/donate/</code></a></p>
+<h1 id="next-steps">Next steps</h1>
+<ul class="incremental">
+<li>Join our next collective working session:<br/> 2014-01-04, 9am to 1pm UTC / 10am to 2pm CET</li>
+<li>Next monthly meeting:<br/> 2014-01-09, 9pm UTC / 10pm CET</li>
+</ul>
+<p>#tails-dev on irc.oftc.net, port 6697</p>
+<h1 id="contact">Contact</h1>
+<ul class="incremental">
+<li>At 30C3
+<ul class="incremental">
+<li>NoisySquare</li>
+<li>Eventphone: #3439</li>
+</ul></li>
+<li>On the Internet
+<ul class="incremental">
+<li>tails-dev@boum.org, public development list</li>
+<li>tails@boum.org, private matters</li>
+<li><a href="https://tails.boum.org/contribute#talk"><code class="url">https://tails.boum.org/contribute#talk</code></a></li>
+<li>#tails on irc.oftc.net, port 6697</li>
+</ul></li>
+</ul>
+<p>Slides available at:<br/> <a href="https://tails.boum.org/promote/slides/"><code class="url">https://tails.boum.org/promote/slides/</code></a></p>
