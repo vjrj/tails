@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-30T20:40:44Z"
- content="""
-> Please be aware that the read-only switches on SD Cards are entirely advisory.
-
-So what? Same was true for diskettes, magnetic tapes, and video tapes. It doesn't mean that such switches are unreliable, it only means that you have to trust the host hardware. Do you have any evidence that popular host hardware ignores read-only switches of SD cards?
-"""]]

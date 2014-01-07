@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-31T00:38:30Z"
- content="""
-1. Are you sure TAILS is installed correctly on the USB? Consider trying a different method: VIA DVD and Tails USB Creator or Virtual Box/VM & Tails USB Creator.
-
-2. Turn every disk off besides the USB in BIOS...and...?
-"""]]

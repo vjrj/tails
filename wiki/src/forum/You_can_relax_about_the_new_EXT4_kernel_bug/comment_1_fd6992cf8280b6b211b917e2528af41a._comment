@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-25T14:54:58Z"
- content="""
-No, there was a very brief window of exposure. The speed with which this was caught and corrected makes Oracle, Apple, Microsoft et al look exceptionally slow and cavalier with their patching.
-
-While we're all relaxing... You can all relax about the [new attack against TrueCrypt](http://www.h-online.com/security/features/Attacking-TrueCrypt-1735157.html) too. If anything at all, it just proves how *good* the key derivation function is :D
-"""]]

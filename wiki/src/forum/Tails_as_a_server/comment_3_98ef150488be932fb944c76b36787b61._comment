@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Some additional text"
- date="2011-05-10T21:00:44Z"
- content="""
-TAILS as a home router.
-I think Tails would be perfect for building al little low cost anon box. Just build a cheap PC with a CDROM, 2 network adapters and maybe 4Gigs memory. Then connect the first Network adapter to your WAN router. Then the 2nd to a cheap switch. And voila - this would be your anon box.
-"""]]

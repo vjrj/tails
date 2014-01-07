@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Not worth it"
- date="2012-10-17T08:21:33Z"
- content="""
-For the purposes of Tails, imho saving a few MB is not worth the effort of trimming down (and then maintaining) Debian packages and may cause breakages.   
-"""]]

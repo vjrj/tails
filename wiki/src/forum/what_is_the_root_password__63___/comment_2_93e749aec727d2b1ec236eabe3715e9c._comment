@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="root pass"
- date="2012-07-01T18:55:04Z"
- content="""
-have a trouble too please...
-The Q is not \"how 2 set root pass\", but \"what is the default root pas in LIVE CD?\". Trying and boot live CD, theres no pass set, but if I wanna open-reach the local hdd (c:) it needs root pass ...
-"""]]

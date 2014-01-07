@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-07-16T06:11:37Z"
- content="""
-I was able to get it to work using the GUID partition option instead of master boot record.
-"""]]

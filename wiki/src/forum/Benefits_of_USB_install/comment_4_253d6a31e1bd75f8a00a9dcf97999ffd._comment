@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-10-21T11:23:26Z"
- content="""
-As for OP's question about whether removing OpenOffice makes Tails safer: No, it doesn't.
-
-If you are not opening any documents using it, you don't have to worry about exploits. OpenOffice won't be used at all.
-"""]]

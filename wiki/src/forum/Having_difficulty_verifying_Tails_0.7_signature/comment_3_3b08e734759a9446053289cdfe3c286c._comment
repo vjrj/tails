@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="same .asc"
- date="2011-05-08T18:00:12Z"
- content="""
-The same .asc contains **both** public keys.
-
-"""]]

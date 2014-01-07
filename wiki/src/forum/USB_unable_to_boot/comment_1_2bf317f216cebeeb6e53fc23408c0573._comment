@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Bootflag"
- date="2012-05-01T07:47:37Z"
- content="""
-Is there a Windows program that will allow me to set boot flags on my USB drive?  I haven't been able to find any.  Is it possible to do this within Tails on my virtual machine?  
-"""]]

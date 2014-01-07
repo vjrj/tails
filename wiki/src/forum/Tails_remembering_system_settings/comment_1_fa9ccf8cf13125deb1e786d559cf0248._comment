@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-02T22:56:11Z"
- content="""
-I don't know of a solution, however I was needing to have certain settings saved to persistence, such as tor button, iceweasel, and no script setting.  I wonder if there is a way where I can save those settings to persistence and then when persistence is unlocked, it would automatically apply the settings?
-"""]]

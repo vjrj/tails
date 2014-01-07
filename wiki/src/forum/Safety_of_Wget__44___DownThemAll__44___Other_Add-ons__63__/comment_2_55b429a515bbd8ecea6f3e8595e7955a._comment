@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="re: non-Tor connections"
- date="2011-05-20T08:53:16Z"
- content="""
-There's of course the aptly named: /usr/local/sbin/do_not_ever_run_me. After running it you will have to take further action by disabling Tor in the applications' proxy settings. And yes, only use this for debugging purposes.
-"""]]

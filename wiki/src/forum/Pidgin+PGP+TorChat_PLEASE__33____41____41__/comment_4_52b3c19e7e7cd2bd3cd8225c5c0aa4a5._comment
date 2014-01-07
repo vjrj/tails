@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-11-28T20:21:45Z"
- content="""
-I think you can download the torchat2 plugin for pidgin seperately.  But even if you did, i don't think torchat2 \"knows\" how to connect with the TOR running on tails (needs to connect to a hidden service ?)  I think it's the case where the torchat developer doesn't know how to do that, or he needs to contact the Tails developers to find out how.
-
-As for OTR, i hope the Tails developers will include pidgin-otr 4.0.0 :)
-"""]]

@@ -1,9 +1,0 @@
-It is well-known that browser addons can compromise anonimity, as they may change browser's fingerprint making it unique and traceable.
-
-That said, I think it would be useful to create and mantain a *list of known safe addons*, which do not create fingerprinting issues and can be useful in Tails planned use cases.
-
-The first one I would put in the list is Password Hasher:
-
-https://addons.mozilla.org/en-US/firefox/addon/password-hasher/
-
-It seems not to transmit any byte on the web, and according to https://panopticlick.eff.org/ it does not alter my fingerprint.

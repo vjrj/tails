@@ -1,5 +1,0 @@
-It seems to me that no steganography tool is available on Tails. IMHO they can be useful to hide secret stuff into innocent-looking cat pictures, and store or upload them in clear. So, why not include one?
-
-steghide looks like a good one to me, as it encrypts secret data and writes it into the LSBs of the container (.bmp .jpeg .wav). It becomes random noise and raises no suspicion. 
-I successfully built steGUI, a graphical frontend to it, inside a Tails session. It looks ugly (written in FLTK) but works.
-

@@ -1,0 +1,11 @@
+I see this in netstat:
+
+udp 127.0.0.2:53            
+
+
+udp 127.0.0.1:53
+
+
+I don't see 127.0.0.2 in /etc/hosts.
+
+from where is this to coming and why is it doing double duties with 53?

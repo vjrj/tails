@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-13T15:35:49Z"
- content="""
-Tails will move to UTC in the 0.8 release. Gnome previously prevented the user from setting a 'virtual' timezone in its clock, and users we're complaining, so we added timezones based on the language chosen at the boot menu (which arguably is very crude and not correct for many language choices, like you point out). Gnome has fixed this now, so everyone will be happy in 0.8.
-"""]]

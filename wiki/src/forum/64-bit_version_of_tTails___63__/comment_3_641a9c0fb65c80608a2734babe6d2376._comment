@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-05-28T16:50:44Z"
- content="""
-> A future version of Tails should boot a 64-bit kernel on hardware that supports it.
-
-What will it provide wrt. to OP's question that is not provided by 32-bit + PAE?
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Comment 8 cont.."
- date="2012-06-25T11:10:11Z"
- content="""
-Or conversely, if you're running a hidden server over Tor, then your PHP, MySQL, Sharepoint, IIS or whatever is just as hackable as over any other network. With all the inherent security and anonymity repercussions. Obviously, as all the traffic to your hidden server would arrive via Tor, the anonymity of your attacker(s) would be more-or-less guaranteed. ;-)
-"""]]

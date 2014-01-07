@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 142"
- date="2012-10-25T14:17:45Z"
- content="""
-> The eepsite has no access to any client timing data whatsoever (assuming that the client is being sensible and running NoScript) - it doesn't read the I2P packets directly (they are read by the router and the eepsite packets extracted from them), so there is nothing to compare to.
-
-So extract timing from packets on the router...
-"""]]

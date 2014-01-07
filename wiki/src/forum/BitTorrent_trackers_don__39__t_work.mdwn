@@ -1,5 +1,0 @@
-The BitTorrent trackers listed in tails-i386-0.10.2.torrent currently don't work.
-
-announce-list.: https://www.les-renseignements-genereux.org/tracker/announce,http://z6gw6skubmo2pj43.onion:8080/announce
-
-Using this torrent file results in "database errors". Any ideas?

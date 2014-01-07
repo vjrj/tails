@@ -1,5 +1,0 @@
-Tails users should be aware of this:
-
-[Fraudulent certificates in the wild — again](https://lwn.net/Articles/531346/)
-
->Google reports that another fraudulent *.google.com digital certificate was detected by the Chrome browser in late December; this one traces back to the certificate authority TURKTRUST. "In response, we updated Chrome’s certificate revocation metadata on December 25 to block that intermediate CA, and then alerted TURKTRUST and other browser vendors. TURKTRUST told us that based on our information, they discovered that in August 2011 they had mistakenly issued two intermediate CA certificates to organizations that should have instead received regular SSL certificates." Expect a round of updates from other browser projects.

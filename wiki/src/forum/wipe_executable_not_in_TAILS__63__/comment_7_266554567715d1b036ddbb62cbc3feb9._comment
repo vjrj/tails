@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-09-16T04:36:57Z"
- content="""
->Could the poster give a few examples to illustrate what he meant by \"....that it's no simple task\"?
-
-The in-built controller circuitry which operates the flash memory use complex wear-levelling algorithms. This greatly improves the life of the flash chip(s) but makes them almost impossible to selectively erase. There's some good info about this [in the docs.](https://tails.boum.org/doc/encryption_and_privacy/secure_deletion/index.en.html)
-"""]]

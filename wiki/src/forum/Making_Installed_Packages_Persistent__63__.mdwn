@@ -1,3 +1,0 @@
-Is this possible in the current release?
-
-For example I want an IRC client in Tails, so I run "apt-get install xchat". The only thing that is persistent is the downloaded package, and each time I reboot, I have to manually install and enter my login info for IRC (I can't use Pidgin). Is there a way to make installed packages and their configuration settings persistent? Thanks in advance.

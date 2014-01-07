@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Re: Why &quot;install&quot; tails at all???"
- date="2012-08-24T20:35:32Z"
- content="""
-Thanks for this suggestion and the follow up on installing grub and loading Tails from grub. Once you create a TrueCrypt container on the USB stick, is there any way to access this from Tails. I cannot create a persistent volume since the OS is running off the ISO image, so I am at a loss to figure out how to securely store any persistent data from a Tails session. Is there any way I can access the free space on the USB stick (besides the TC container, grub info and the ISO image), such that it is accessible from Tails running off the ISO image? Is that what you refer to as the space for unencrypted information in your original post?
-
-Thanks much for any help.
-"""]]

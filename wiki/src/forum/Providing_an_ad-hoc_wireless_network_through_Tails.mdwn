@@ -1,8 +1,0 @@
-This would be, in my opinion, a simple enhancement that would significantly increase the possible use cases of Tails. For example, for users that must run Windows software that cannot be run in Wine, they could connect from another Windows computer to Tails hotspot and have their trafic automaticaly tunneled through Tor. They would not have to go through permanent partition creation, OS installation, ...(even when Virtualbox support is implemented, which has yet to happen).
-
-It would also be cheaper option for provinding Tor access to multiple clients than Torouter which, if I understand correctly, will have ~120$ in hardware costs vs. USB wireless adapted that costs ~10$ and doesn't require repurposing hardware. Now, I'm sure that there exist situations where both Virtualbox and Toruter would be better, and I'm not advocating abandoning those solutions, but in the meantime ad-hock network would be helpful in most of the other cases.
-
-So the question is, how would one anable this functionality in Tails, as "Create New Wireless Network" fails after a few seconds? Lets say, for example, that Tails gets Internet through wired connection (but this would also be useful with 2 wireless adapters / cellular modem). I assume that this has to do with iptables settings, but changing them in safe manner is beyond my current level of understanding, so any instructions would be welcome.
-
-Thanks in advance,
-Patrick.

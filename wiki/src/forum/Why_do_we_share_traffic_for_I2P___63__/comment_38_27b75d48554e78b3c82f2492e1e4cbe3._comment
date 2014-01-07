@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Isn't this pointless unless i2p starts automatically when you boot tails?"
- date="2012-10-21T02:45:58Z"
- content="""
-All the comments but Comment 5 (from a Tails developer) seem to be assuming that i2p starts automatically when you boot Tails. I haven't tested this specifically, but it would be easy to do so, I think, if you doubt the work of the Tails developers that i2p does NOT start automatically.
-"""]]

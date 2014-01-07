@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-13T19:34:11Z"
- content="""
-Were you just experimenting or did you think you had a good reason to exclude this particular node?  It is one of the many high-bandwidth Tor nodes operated by the Chaos Computer Club, the famous hacker collective in Berlin.  I think that these days many Tor users regard CCC as a friend; they helped expose the Bundestrojan (the state-sponsored malware used by police organizations in several German states to remotely intrude into the computers of persons whose activity they wish to monitor).
-
-Are you using Entry Guards (the default) or bridges to reach the Tor network?  If you have only one bridge installed and then excluded it by IP, that would probably prevent you from using Tor.  If you did this, try reverting to the default and getting some more bridges.
-"""]]

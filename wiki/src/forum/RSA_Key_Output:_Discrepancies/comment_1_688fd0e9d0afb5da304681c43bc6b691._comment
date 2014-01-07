@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-28T20:15:39Z"
- content="""
-It depends on which version of GnuPG you have been running. The output has been changed in newer version to show longer key IDs (16 hexdigits) to make collision attacks less effective. Old versions of GnuPG will show only 8 hexdigits. Please not that either 8 or 16, these digits always come from the end of the fingerprint of the key. So checking that you don't have colliding 8 hexdigits key IDs in your keyring, and doing full verification of fingerprint is the way to go if you are worried about these issues.
-"""]]

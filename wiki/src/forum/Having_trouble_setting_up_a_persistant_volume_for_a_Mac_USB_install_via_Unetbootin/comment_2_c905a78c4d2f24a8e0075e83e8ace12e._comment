@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-08-29T06:40:45Z"
- content="""
-Please do not use Unetbootin, try one of the supported ways of installing Tails instead: [[/doc/first_steps/usb_installation/]].
-"""]]

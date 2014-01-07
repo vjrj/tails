@@ -1,0 +1,22 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
+ subject="comment 1"
+ date="2013-06-09T07:31:11Z"
+ content="""
+> Does Tails \"leak\" hardware serial numbers?
+
+Generally, no.
+
+Tails \"leaks\" MAC address on the local network, unless [[https://tails.boum.org/doc/advanced_topics/mac_changer]] is used.
+
+> In the sense that whenever you visit a website, your information gets logged into some sort of database?
+
+Some information will likely be logged, but it should not contain hardware serial numbers.
+
+> What about other operating systems?
+
+This is off-topic here, sorry.
+
+"""]]

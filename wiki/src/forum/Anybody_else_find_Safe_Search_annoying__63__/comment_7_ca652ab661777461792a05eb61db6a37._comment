@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Constructive suggestion"
- date="2012-10-26T16:29:06Z"
- content="""
-I don't understand what is \"safe search\" or the OP's concern, but for what it is worth, I just memorized the urls for ixquick and duckduckgo and type them into the location pane.  That brings me to an \"https protected\" search page on each site, so that assuming no intermediary has messed with the SSL encryption, I hvae end-to-end encrypted connection via a Tor circuit to these search engines.
-"""]]

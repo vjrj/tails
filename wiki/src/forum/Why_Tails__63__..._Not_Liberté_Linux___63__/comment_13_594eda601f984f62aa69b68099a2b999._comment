@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 13"
- date="2012-10-24T04:48:07Z"
- content="""
->Isn't [this] applicable? (Just replace \"TrueCrypt\" with \"Chromium\") 
-
-At least there are other forms of \"highly secure encryption\". Web browsers must deal with untrusted code and all major web browsers have had many security problems. Is the developement process more important than the security record especially when Chromium is even open source? I'd rather use closed source software if it has a better security record. Software is all a black box to me. How do you know all the \"bugs\" found in Tails/Debian are not intentional back doors or things developers discovered and used for exploits rather than fixing them? 
-"""]]

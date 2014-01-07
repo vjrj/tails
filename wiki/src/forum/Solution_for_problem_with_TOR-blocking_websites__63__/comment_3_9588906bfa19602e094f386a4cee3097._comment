@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-09-23T22:43:33Z"
- content="""
->Using a normal proxy without Tor is not real anonymous enough.
-
-How can Tor improve this? If your proxy isn't \"anonymous enough\" after all then won't you be destroying all the benefits of Tor by routing your anonymous traffic onto it, while still subjecting yourself to all the inherent disadvantages of Tor?
-"""]]

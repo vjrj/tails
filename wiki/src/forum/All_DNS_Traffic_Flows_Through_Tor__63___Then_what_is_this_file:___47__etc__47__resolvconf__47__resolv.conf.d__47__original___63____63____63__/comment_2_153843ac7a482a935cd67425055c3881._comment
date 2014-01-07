@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-08-15T19:42:50Z"
- content="""
-The contents of the file are the DNS settings used by the system building Tails. Obviously these should not be present in any image we release, and that has been fixed in git and will not be the case in future Tails releases. In either case those residual settings will never be used in Tails.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-29T14:43:22Z"
- content="""
-hm, all this folders are visible because I checked View-Show hidden files. it is there in any case, just now after restart I didn't use persistence and all changes are not saved than I could just login with password to persistence folder and then i got TailsData mounted. inside are folders apt, clawsmails, dotfiles, gnupg, Persistent, and so on. 
-
-now I will restart with using persistence, so, I will see if changes for icewiesel, etc are saved or not.
-"""]]

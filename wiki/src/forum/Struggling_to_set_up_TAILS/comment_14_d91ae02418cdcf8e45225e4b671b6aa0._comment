@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Another idea"
- date="2012-10-18T06:45:33Z"
- content="""
-I hope the OP didn't give up, because I think the problem might have been that he/she thought he/she was buring an iso image to make a live DVD when in fact he/she was simply copying the iso image onto the DVD, which of course would result in a message saying that the DVD is not bootable.
-
-If this is the case, most likely studying the GUI of the DVD burning software (maybe Brasero for Linux, something else for Mac) will show different options for making a data CD and burning an iso image to make a live (bootable) DVD.
-"""]]

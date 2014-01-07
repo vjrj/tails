@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-04-10T19:10:56Z"
- content="""
-Is there any way to disable HDD access as the default using Tails or not? For example, if my box is set to boot from CD or USB, anyone with access to the machine could do so and access all my non-Tails files. Any way to prevent that short of encrypting the entire drive(s)?
-"""]]

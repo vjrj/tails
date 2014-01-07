@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Another option..."
- date="2012-07-15T21:58:02Z"
- content="""
-I do things like the Tails installation through a virtual machine such as Oracle's VirtualBox. Just make a new VM using the Tails iso as the boot disk and it will be like you booted from a USB.
-"""]]

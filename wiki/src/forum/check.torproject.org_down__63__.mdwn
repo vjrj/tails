@@ -1,7 +1,0 @@
-When using Tails, Iceweasel does not connect to https://check.torproject.org but it does connect well to other sites like google.com and tails.boum.org.
-
-What can be the problem here? Is it possible that check.torproject is down or temporarily unavailable?
-
-Is the check really necessary to know that I'm really connected to Tor?
-
-Thanks all for any input on this.

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-10-21T16:10:19Z"
- content="""
-If you update packages through Tor in Tails, couldn't there be a chance of malicious installs? Anyone can 'fake' a popular domain like Ubuntu's for example, and maintain a fake repo with trojaned binaries. And I don't see any repos for popular distros making use of SSL for their repos.
-"""]]

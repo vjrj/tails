@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-12-01T03:47:46Z"
- content="""
-Op here.  I now had a similar problem.  The difference this time is that I did not get any warning messages.  When I looked at the network map, I was connected to a chaoscomputerclub node, not sure what number.  When I closed the circuit, my tor would not create a new circuit.  I had to disconnect from my network, then reconnect and open Iceweasel for it to work again. Something is definitly messed up with either Iceweasel, Tor, or Vidalia in 0.15. 
-"""]]

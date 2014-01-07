@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-28T17:21:21Z"
- content="""
-To add on to my previous post, I have a Linux Mint DVD from which I can boot, and from which I am now posting.  And I just made a Tails DVD in the same way I made the LM DVD.  But the tails DVD returns the very same Boot Failure message that the memory stick-recorded did, (that I described in my original post).  If I can boot Mint from the CD, I wonder why I can't boot Tails on the very same computer?
-"""]]

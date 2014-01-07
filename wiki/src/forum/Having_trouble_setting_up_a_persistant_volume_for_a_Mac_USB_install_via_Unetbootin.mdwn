@@ -1,5 +1,0 @@
-I created a bootable copy of tails using Unetbootin for my macbook. (If I use the Tails USB installer I can't get anything to boot, I assume it's something to do with the different volume formatting needed for my mac)
-
-However, when I load up Tails and try to setup a persistant volume, it fails with a message like 'This was not created using the Tails USB installer'. 
-
-Does anyone know of way to achieve this? 

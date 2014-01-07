@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-12-11T20:05:23Z"
- content="""
-I am a new commenter. Sorry if my question seems trivial, but I didnt understand this fully. If you add a normal bridge does Tails obfs it automatically? or do you have to add an obfs bridge?
-"""]]

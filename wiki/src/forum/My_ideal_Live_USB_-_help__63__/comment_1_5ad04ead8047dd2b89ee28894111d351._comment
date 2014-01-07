@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-11T19:04:16Z"
- content="""
-See [[trouble_running_.13_from_USB#comment-e3e7dce2a673aae1817df9bf4b31dfdd]] for a fix. But we strongly recommend you *not to do that*. Simply use another USB stick and keep your Tails installation away from untrusted systems.
-"""]]

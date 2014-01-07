@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-06-12T00:20:34Z"
- content="""
-But tails isn't for your every day people. It's weird to me how the tails devs make decisions to get more people to use tails, like enabling javascript by default. Do you really think tails is gonna be used by your every day user? You think granny smith or joe sixpack is gonna download tails and use it? No. The people who are going to use tails ALREADY KNOW and they WANT javascript disbled by default. You're catering to the masses when your OS isn't for the masses. You have a small userbase. Cater to their needs. 
-"""]]

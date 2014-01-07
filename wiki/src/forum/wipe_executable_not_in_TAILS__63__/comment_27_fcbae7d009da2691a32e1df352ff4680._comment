@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="RE: Or in short: try shred"
- date="2012-10-18T02:52:26Z"
- content="""
-Fine. Except that selective erasure (such as offered by shred) **doesn't work** reliably on modern drives or file-systems :(
-"""]]

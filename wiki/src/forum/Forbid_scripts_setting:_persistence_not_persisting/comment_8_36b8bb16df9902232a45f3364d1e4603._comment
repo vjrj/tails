@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-06-23T12:02:05Z"
- content="""
-Read the [[persistence design document|contribute/design/persistence]]. If you are not happy with the current behaviour, you can either submit or find someone to write patches and they might be considered for inclusion or you can fork Tails.
-"""]]

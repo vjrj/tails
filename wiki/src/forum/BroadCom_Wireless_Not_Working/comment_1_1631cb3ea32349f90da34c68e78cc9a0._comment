@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-03-07T12:48:51Z"
- content="""
-Hopefully, the next Tails release which will be based on the new Debian stable might work better with newer hardware, as it will ship a more recent kernel. The current Tails has a rather old one at the moment.
-"""]]

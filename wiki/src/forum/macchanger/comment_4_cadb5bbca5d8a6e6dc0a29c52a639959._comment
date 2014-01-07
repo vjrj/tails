@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="macchanger"
- date="2011-04-11T03:44:39Z"
- content="""
-Would it prevent the MAC address from being leaked if macchanger were called at boot time, before the desktop environment even started?
-
-"""]]

@@ -1,7 +1,0 @@
-Hi,
-
-Previously I had always burnt TAILS to a CD and it booted into English by default. 
-
-But now, with 0.10.2, I used Unetbootin to create a live USB stick from the TAILS ISO, and the default language looks like Farsi or Arabic. I have to choose English at boot.
-
-Is this intended? Or maybe it has something to do with Unetbootin?

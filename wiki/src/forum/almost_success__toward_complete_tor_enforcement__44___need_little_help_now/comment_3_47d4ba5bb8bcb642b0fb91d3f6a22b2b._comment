@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Polipo is broken"
- date="2012-09-19T09:29:20Z"
- content="""
-It's an unmaintained PoS that is broken in several annoying ways.  Tails devs insisted on waiting for socks support in Iceweasel so it was no longer needed before removing it rather than replacing it with the much-tested Privoxy.  Don't use Polipo as a proxy.
-"""]]

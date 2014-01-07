@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="HOSTS file?"
- date="2012-05-02T06:12:47Z"
- content="""
-Is there any way to use a custom HOSTS file in TAILS to block ads (as well as known malicious sites, etc.)?
-
-Or is that simply out of the question because of how Tor works?
-"""]]

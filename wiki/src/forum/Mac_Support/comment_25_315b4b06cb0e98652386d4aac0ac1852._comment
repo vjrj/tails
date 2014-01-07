@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="10.5.8 (ignore above post)"
- date="2012-05-04T22:06:41Z"
- content="""
-Nevermind the above post. Re-installed Tails on the USB using the USB key installer (though maybe thats my problem?). This was recognized before on rEFIt, however as soon as I installed rEFInd (and re-installed rEFIt manually [before installing rEFInd], versus using the installer to avoid screwups), the USB key is no longer detectable by either. What has happened? Should I try manually installing Tails and see what happens? My macbook pro isn't a late 2011 model, so I don't understand how this affects me also.
-"""]]

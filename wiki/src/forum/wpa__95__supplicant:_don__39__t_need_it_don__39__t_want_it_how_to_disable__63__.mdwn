@@ -1,5 +1,0 @@
-Since I don't need it, I removed the modem manager package and killed the dead process.
-
-Now I want to do the same for wpa_supplicant, since I don't need it. The problem is, I cannot remove it with Synaptic because it wants to remove important dependencies. I don't need wpa_supplicant or want it running, and killing it at the command line doesn't work as it continues to run, my guess is it restarts automatically, even with dozens of attempts to stop the process.
-
-How may I remove and/or disable wpa_supplicant while still retaining the installation and use of Network Manager and its applet?

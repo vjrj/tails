@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-27T16:50:38Z"
- content="""
->...is this enough to prevent my real IP from leaking...
-
-The way Tails forces IP traffic onto Tor should be sufficient to prevent your IP address being known or leaked by the browser even with JS enabled!
-"""]]

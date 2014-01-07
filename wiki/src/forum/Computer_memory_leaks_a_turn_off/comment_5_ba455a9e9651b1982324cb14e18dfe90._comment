@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Re: Comment 4"
- date="2012-08-13T17:22:55Z"
- content="""
-In the latest and earlier TAILS versions, I have experienced the problem of the wipe on shutdown not completing.
-
-In that circumstance, TAILS may not be immune to this kind of memory leak problem.
-"""]]

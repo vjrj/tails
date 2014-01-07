@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 119"
- date="2012-10-25T09:19:59Z"
- content="""
-> doesn't that mean, that all i2p traffic gets routed through tor, too?
-
-No, that would be Liberté Linux, which also uses I2P in hidden mode when I2P is enabled. Seems they think about potential issues before adding stuff to the distro, not after.
-"""]]

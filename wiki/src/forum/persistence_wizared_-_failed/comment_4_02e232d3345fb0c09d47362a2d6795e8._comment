@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="This is a bug"
- date="2012-05-05T10:55:10Z"
- content="""
-This is a bug [[bugs/persistent_volume_creation_fails_with_big_disks]].
-
-If anyone feels comfortable enough, please try to change the timeout value at line 696 of `/usr/share/perl5/Tails/Persistence/Setup.pm` and see if it helps. The timeout is currently set to 4 minutes (240 * 1000 miliseconds).
-"""]]

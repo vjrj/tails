@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Runlevel?"
- date="2012-11-03T04:50:25Z"
- content="""
-Would appending a **2** to the boot arguments have the desired effect?
-"""]]

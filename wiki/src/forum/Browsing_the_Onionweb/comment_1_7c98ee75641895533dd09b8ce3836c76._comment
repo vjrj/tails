@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-19T12:48:23Z"
- content="""
-Not necessarily. On balance *disabling \"Load images automatically\" on IceWeasel* could well enhance your anonymity more than harm it. e.g. by eliminating certain timing and cache attacks and protecting you against any potential exploits in the image libraries - probably the greatest potential vector after JS and plugins... and you already have those disabled. :D
-
-Of course your browsing profile would have changed but I'd say that's a minor disadvantage compared to all the benefits. Especially if you're careful to only disable images when visiting onion services.
-"""]]

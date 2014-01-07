@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="threat model?"
- date="2011-05-19T20:30:45Z"
- content="""
-One cannot tell how *great* is a given risk without knowing the context and threat model. Network packets originating from your box will be marked, in the ethernet layer, with the MAC address(es) of your network interface(s). Then everything depends on who is able to read packets on the network you are using.
-
-"""]]

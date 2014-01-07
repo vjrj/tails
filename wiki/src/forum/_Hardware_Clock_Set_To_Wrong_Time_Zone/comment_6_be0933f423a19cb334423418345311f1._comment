@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="dude"
+ date="2013-04-19T23:29:06Z"
+ content="""
+Hi admin, when i type in the terminal:
+
+hwclock (right time)
+date (wrong time)
+
+the output give to me two different times and after a pair of minute tails change his clock to the wrong one... could this issue compromise my anonymity using tails??
+thanx for the reply
+"""]]

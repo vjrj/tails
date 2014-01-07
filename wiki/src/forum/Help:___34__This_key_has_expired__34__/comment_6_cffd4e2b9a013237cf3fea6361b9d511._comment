@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-10-15T08:54:54Z"
- content="""
-Please accept our apologies: the key had only been updated on the development branch of the website (which is updated when we push out 0.14 to the world). The file has now also been updated on the live website. So please try again. This time, it should work as expected.
-"""]]

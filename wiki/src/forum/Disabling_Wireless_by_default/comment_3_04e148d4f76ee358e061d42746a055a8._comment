@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="rfkill"
- date="2012-06-17T11:22:40Z"
- content="""
-It's not exactly what matters here, but Tails ships [rfkill](http://linuxwireless.org/en/users/Documentation/rfkill) since [0.12](http://git.immerda.ch/?p=amnesia.git;a=blob_plain;f=debian/changelog;hb=refs/tags/0.12)
-"""]]

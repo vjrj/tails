@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-12-02T14:25:13Z"
- content="""
-\"So how to we disable Javascript in Tails?\"
-
-\"Forbid scripts globally\" on the NoScript button on the browser!
-"""]]

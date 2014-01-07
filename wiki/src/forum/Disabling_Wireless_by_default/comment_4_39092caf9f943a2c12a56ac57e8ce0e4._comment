@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="rfkill  doc"
- date="2012-06-17T11:28:30Z"
- content="""
-> The rfkill subsystem provides a generic interface to disabling any radio transmitter in the system. When a transmitter is blocked, it shall not radiate any power.
-
-[source](http://www.mjmwired.net/kernel/Documentation/rfkill.txt)
-"""]]

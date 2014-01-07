@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="virtual box guest additions"
- date="2012-07-10T18:58:47Z"
- content="""
-
-hello everybody. I'm a happy Tails user. I'm using Tails from CD, USB flash, and from.. virtualbox. my question is: Is it possible to install and then update the  virtualbox guest additions? You know, the thingies that Virtual Box use to install inside the guest OS in order to benefit some upgrades like bigger desktop size.
-
-"""]]

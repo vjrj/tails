@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-10-22T03:48:52Z"
- content="""
-Would making those changes, i.e., going to Preferences --> Content --> unchecking JavaScript and Load images automatically, mess with Tail settings in the same way that, say, running update and downloading packages from the Debian repository does?
-
-I figure that if the fingerprint is so unique anyway, I might as well aim for maximum security. I only use IceWeasel when I am using Tails, so fingerprinting isn't such a huge concern for me.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="well"
- date="2011-04-21T10:26:07Z"
- content="""
-See the [[download]] page for available options, such as BitTorrent.
-Also, we have several HTTP mirrors behind the `dl.amnesia.boum.org`. Some may not be blocked. E.g. try the [one at Tor Project's archive](https://archive.torproject.org/amnesia.boum.org/tails/stable/).
-
-"""]]

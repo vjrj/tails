@@ -1,9 +1,0 @@
-Hi,
-
-I would like to report some errors during the boot, but I'm not able to find the boot messages.
-
-I've searched in /var/log/*, without success.
-
-Does anyone know where are stored the boot messages?
-
-Thanks !

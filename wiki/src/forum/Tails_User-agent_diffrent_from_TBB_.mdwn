@@ -1,8 +1,0 @@
-I've noticed that tails uses diffrent user-agent than TBB:
->Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/5.0   in Tails
-
-vs.
-
->Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/10.0  in TBB
-
-Is it a bug of some kind? Cause surely it's nothing good for anonimity 

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Same for me"
- date="2012-06-20T06:10:51Z"
- content="""
-I tried to use Tails at Starbucks and could not log on.  So I logged on first in Windows and then rebooted into Tails and could get on.  If you want to MAC spoof, you can boot into Ubuntu live and change the Mac with the sudo ifconfig scripts, then boot into Tails and run the same MAC change in Tails and then get on line with Tails using that MAC address.  I have not found a way to log on to the free public WiFi hot spots using Tails without doing these things above.  Anyone else?
-"""]]

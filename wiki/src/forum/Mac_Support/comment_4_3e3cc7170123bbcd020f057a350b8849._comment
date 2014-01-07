@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-04-29T21:42:13Z"
- content="""
-Oh man, thanks for the info on what do to on 10.5.8. I did that and now EDI mode works (and I can choose to boot tails). Problem is now when I go to boot tails it just stays on the black command prompt screen, just showing a blinking underscore. It doesn't do anything else. I've left it for 20 minutes and nothing happened. 
-
-I used the Tails USB installer off the Tails DVD (I have working), so I don't understand why it won't boot up. Any ideas?
-"""]]

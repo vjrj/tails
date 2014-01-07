@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="doh"
- date="2012-05-19T17:22:11Z"
- content="""
-i thought using apt-get update was all that was needed, if i use the upgrade command i would have to get 250mb worth of updates, that cant be right can it ?
-"""]]

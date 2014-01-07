@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="@113"
- date="2012-10-25T12:01:52Z"
- content="""
->So Tails users are making direct connects to target machines such as tor-hidden server machines and are having their IP addresses logged.
-
-Aren't they using the 2-hop tunnels when they do this, though?
-"""]]

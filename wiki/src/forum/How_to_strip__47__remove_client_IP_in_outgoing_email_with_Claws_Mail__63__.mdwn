@@ -1,7 +1,0 @@
-First of all, I want to say that I like Tails very much and I speak out my respect to all the hard working devs who are working on this great OS!
-
-I use Claws mail a lot and I want more privacy when sending out email. I use email that is hosted with different hosting company and they all support the regular email protocols like Pop and IMAP. 
-
-But when I send out email I don't want the receiver of the email to see in the email header that I use Tor. Does anyone know how to remove the users IP from the email header when using Claws? The receiver is permitted to see only the server's IP from where the email has been sent but not the IP of the client (me) that is using Claws Mail.
-
-Any help on this would be very appreciated. Thank all you for any help!

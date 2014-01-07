@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="I will test this for my self."
- date="2012-05-15T00:48:36Z"
- content="""
-I will try to develop an online website that will (using dbus or wmi) try to identify and fingerprint a specific PC using Tails over tor. After I obtain a hardware fingerprint I will see if I can identify the same PC again using a different OS over a standard non-tor internet connection. I will let you know what the results are.
-"""]]

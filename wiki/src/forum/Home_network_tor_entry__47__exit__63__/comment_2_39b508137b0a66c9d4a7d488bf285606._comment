@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-21T02:44:12Z"
- content="""
->How difficult would it be to set up a Tor system on a home network to caputre Tor traffic from the network?
-
-You'd have to design a means of making all the local clients use your \"rogue node\" as their exclusive entry node. That'd be rather difficult unless you had access to all the victim machines - in which case, why bother?
-"""]]

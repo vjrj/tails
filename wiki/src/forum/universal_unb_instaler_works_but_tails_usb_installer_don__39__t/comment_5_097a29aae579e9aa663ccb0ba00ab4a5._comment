@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-08-09T00:07:59Z"
- content="""
-I have the same problem, I installed Tails just to test it in my flash drive, worked fine but i wanted to use the persistence, but I have only one flash drive, so I used virtual box to run Tails and installed it in the same flash drive, the installation went fine but when I try to boot Tails it just skips and boot windows instead, it's like the flash drive is not recognized as bootable anymore(in my notebook's bios I have the option to choose which device to boot pressing f12 before it boots the default device)
-"""]]

@@ -1,6 +1,0 @@
-I have downloaded v11 manually installed onto a USB stick booted up Tails and then installed (via Tails USB installer > Clone and install) on to a 2nd USB stick.
-Closed down. Successfully rebooted Tails from the 2nd stick. Am now in Tails v11 from the 2nd stick. Started Application > Tails > Configure persistent volume entered the password confirmed and let it run. Creating the persistent volume comes up and then "Failed   org.freedesktop.DBus.error.noreply Did not receive a reply."Have tried many times with the same result.
-
-I can delete this volume and if I do so can still rebook into Tails using this second stick. If I just close down then cannot boot from it (as noted in documentation)
-
-I would really appreciate any help at all this matter.

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="&quot;resource is busy&quot;"
- date="2013-02-12T09:19:16Z"
- content="""
-Make sure you guys are cd'ing to the folder containing the iso, then cat the iso.
-"""]]

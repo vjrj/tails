@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-04-26T20:51:57Z"
- content="""
-[[doc/first_steps/bug_reporting]] => so that we have enough information to do anything about it. Also, please try with Tails 0.11.
-
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-05-29T06:13:10Z"
- content="""
-What if there are sniffers, dedicated protocol analyzers etc? Would that make it trivial to break the SSL encryption so the data can be read as if not encrypted?
-
-For example, this post traveling over https.
-"""]]

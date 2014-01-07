@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="How Long Before RAM Will Have Wiped ITSELF?"
- date="2012-04-25T03:48:10Z"
- content="""
->If I were to shut down my PC and not just VirtualBox, wouldn't that completely clear my RAM?
-
-I'm not a dev or anything but I am nearly certain that the answer is yes The only question is just how long it will take after shutting down before everything in the RAM is completely wiped. I don't recall what the outer limit is. Is it as much as 20 minutes?
-"""]]

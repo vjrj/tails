@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Re: Re: Comment 7"
- date="2012-06-23T19:29:25Z"
- content="""
-Thanks for the walk through.  I followed your instructions, but ran into a stumpling block at this point: \"...and check the bootable box to mark the partition as bootable\".  There was no \"bootable\" box on the Create Partition dialog.  I went ahead and created the partition anyway, then clicked on \"Edit Partition\" and was able to set the bootable flag from that.
-I followed the rest of your instructions, then tried booting the result.  The computer now recognizes my USB stick as a bootable disk!  Unfortunately, it immediately halts with a \"Boot error\" message.  Maybe there is some progress there, though I was kind-of hoping to get as far as the Glib-warning crash again.  ;-)
-"""]]

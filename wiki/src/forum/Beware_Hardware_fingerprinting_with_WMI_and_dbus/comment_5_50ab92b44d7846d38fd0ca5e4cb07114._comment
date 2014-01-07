@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Disable ACPI kills WMI"
- date="2012-04-28T20:15:23Z"
- content="""
-If you boot linux with the boot option ACPI=OFF that pretty much kills WMI. I dont know about d-bus. Acer for example has a custom WMI Interface that is built into all of their computer models. It is called acer_wmi. If you boot up linux on an Acer and try to remove the wmi driver the OS will crash: at the terminal prompt type in \"modprobe -r acer_wmi\". You will get a bunch of ACPI error messages then a system crash. Reboot your pc into linux again with the ACPI=off option and then type: \"modprobe -r acer_wmi\" you will see there is no WMI module driver loaded.
-"""]]

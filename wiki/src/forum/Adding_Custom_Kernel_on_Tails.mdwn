@@ -1,9 +1,0 @@
-Hello all.
-
-You are doing a great work guys. 
-
-I'd like to add my custom kernel to Tails. I have my .deb package with my new kernel. The Tails tree is a bit different by the one reported in debian live manual. So where I should put the package ?
-
-Also, in your git you have your version of live-build and live-config. Are they necessary to build my Tails image or I could use debian version ?
-
-Thank you

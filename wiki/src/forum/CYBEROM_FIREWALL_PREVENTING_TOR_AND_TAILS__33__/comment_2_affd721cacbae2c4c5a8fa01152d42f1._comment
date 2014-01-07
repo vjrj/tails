@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Obfsproxy?"
- date="2012-08-20T02:30:18Z"
- content="""
-Your problem might be within the scope of the [Obfsproxy](https://tails.boum.org/todo/obfsproxy/) project. It's being developed quite actively upstream and will no doubt percolate down to Tails once it's deemed adequately stable/safe/functional.
-"""]]

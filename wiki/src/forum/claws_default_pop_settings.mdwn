@@ -1,4 +1,0 @@
-In Tails 0.7.1, Claws' default pop setting is to delete messages older than 7 days from the server when fetching mails.
-This could lead to accidental deletion of older mails.
-
-Deleting messages from the server should be turned off by default.

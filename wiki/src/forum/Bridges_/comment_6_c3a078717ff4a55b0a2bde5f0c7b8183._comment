@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2013-03-06T12:17:28Z"
- content="""
->and try to verify that the certificate and IP address of the server you reach appear reasonable.
-
-How do you verify the certificate and IP address of the server? What are the steps?
-"""]]

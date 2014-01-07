@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Always invalid/corrupt kernels"
- date="2012-11-15T17:22:03Z"
- content="""
-We get this same error when booting from CD also.
-
-"""]]

@@ -1,5 +1,0 @@
-I used the Universal USB Installer to stuff the Tails 0.14 RC .iso file onto a USB stick, but i get the following error when booting: "initial menu has no label entries" and it just loops there without booting up.
-
-0.13 works fine on the same stick, so it's probably not that nor the installer.
-
-Sorry if this doesn't belong here, i tried looking through the reported bugs and known issues, either i'm blind or this wasn't listed.

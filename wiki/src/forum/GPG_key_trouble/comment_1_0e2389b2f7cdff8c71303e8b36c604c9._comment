@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-16T15:30:08Z"
- content="""
-I think that the extension under which the key is downloaded is \".bin\" instead of \".key\" as described in the site. I had the same problem but then when writing the command I used .bin instead of . key: tails-signing.bin
-
-It worked for me but I am not sure why the web page says something different.
-"""]]
