@@ -1,7 +1,0 @@
-Anyone else ever get this in 0.11?
-
-Stopping ttdnsd daemon.... [warning] (line 7 of the shutdown)
-
-[3938.526812] system halted. (line 8 of the shutdown)
-
-cursor freezes here and a hard shutdown is necessary.

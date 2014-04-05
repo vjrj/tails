@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-05-01T09:31:11Z"
- content="""
-[Latest snapshot](http://sourceforge.net/projects/liberte/files/snapshots/) of Liberté Linux has all the EFI support mentioned above properly enabled for all installation types (ZIP/ISO/OVA) with GRUB 2 as the boot loader, and optional EFI framebuffer support for Xorg graphics. Unfortunately, no user with EFI hardware was able to provide any useful input so far (useful input seems to be a general problem with Mac users, unfortunately).
-"""]]

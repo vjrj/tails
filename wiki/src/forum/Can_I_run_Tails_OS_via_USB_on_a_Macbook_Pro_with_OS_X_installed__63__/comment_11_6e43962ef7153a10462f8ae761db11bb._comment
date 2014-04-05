@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="AnonymousEarth"
- date="2012-06-04T12:02:53Z"
- content="""
-Yeah so just spent the weekend trying to get this done on mac running osx 10.7.3 Reverted to the windows install had that working in an hour or so lol. Came back to this, followed all steps and still spent another 2+ hours trying to get this to boot! Come to this thread and I get all stoked about the title and date cause it is almost a year later, thinking there is an answer by now, dam, this sux! 
-First of all let's be clear here this is an obvious issue with the way the .iso installs. OSX 10.7 is built to boot from external media without other software installing on Mac and the permission rEFIt wants to uninstall seems pretty annoying. This isn't solution, more it's a convenient work around. Here is a list of OSX boot commands http://support.apple.com/kb/HT1533 notice c and option, boot commands, one of these should work here without rEFIt!!! As well I notice that when .iso installs it doesn't seem to format to GUID if it did I believe this would correct the issue? I however am NO expert and we obviously need someone with a lot more OSX experience to get in and look at the problem here/// anyway thanks for reading, as well all the hard work from the Tor-Tails Team!! 
-++Web Users Should Decide Who Has Their Information Always++
-"""]]

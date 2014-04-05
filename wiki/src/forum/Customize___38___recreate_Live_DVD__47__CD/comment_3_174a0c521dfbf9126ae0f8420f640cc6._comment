@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-05-19T13:17:38Z"
- content="""
-If you only need to remove and add a few packages, `live-build` is easy enough. See `config/chroot_local-packageslists/tails-common.list` in `amnesia.git`.
-Building Tails will be easier once we have [[integrated builds in virtual machines|todo/build_with_vagrant]].
-"""]]

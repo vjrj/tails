@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-04-11T11:23:51Z"
- content="""
-As said by seahorse and gnupg, you need to first import the public key in your gnupg keyring in order to be able to verify the signature.
-
-Either use seahorse to import it, by using the `remote` menu, or try to run `gpg --search-key amnesia@boum.org` in your shell.
-"""]]

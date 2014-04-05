@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-12T06:43:43Z"
- content="""
-See [[todo/add_support_for_free_wifi_hotspots]]. This is nearly done and an \"unsafe browser\" should be present in the next major release.
-"""]]

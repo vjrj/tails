@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="yes"
- date="2011-04-21T10:51:31Z"
- content="""
-This is expected. Multiple servers are part of the `dl.amnesia.boum.org` pool. One of this (`archive.torproject.org`) redirects to httpS under its real name.
-
-"""]]

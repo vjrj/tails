@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-05-27T22:00:35Z"
- content="""
-I can't get this ISO to verify either. I followed all the instructions on the site. First, the Firefox extension Checkit couldn't install because of a connection failure at addons.mozilla.org. Then I followed the instructions for using GPG4Win and it says the signature is bad. The first time I did it, it said it didn't have enough information; now it just says the signature is bad.
-
-I also used GPG4USB and it also said the signature was bad, 'Error validating signature'.
-"""]]

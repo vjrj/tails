@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-14T18:44:49Z"
- content="""
-> system halted.
-
-Looks like an ACPI issue.
-"""]]

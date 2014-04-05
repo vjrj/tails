@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-04-29T12:39:22Z"
- content="""
-Yes it should be the same.  An .iso file is an exact image of what is on the cd.  To shasum etc both /dev/cdrom and the iso are the same.
-"""]]

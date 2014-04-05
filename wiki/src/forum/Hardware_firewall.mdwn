@@ -1,0 +1,3 @@
+Is it safe to run Tor from your home computer without a hardware firewall? I'm assuming having a firewall isn't a major requisite, since people are using Tails on public wi-fi networks, but just checking.
+
+Also, is there any correlation between the way you connect to the internet (dial-up, DSL, T1, etc) and security? Actually, I think Tails doesn't even support Dial-up, but you get the point. Does Tails support pppoeconfig?

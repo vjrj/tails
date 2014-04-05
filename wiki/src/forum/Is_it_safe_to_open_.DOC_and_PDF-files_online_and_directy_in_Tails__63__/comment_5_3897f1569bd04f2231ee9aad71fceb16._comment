@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-04-30T07:49:34Z"
- content="""
-\"As I understand things, in recent versions of Tails only applications that are explicitly torified can access the internet. Outgoing connections from all other apps are dropped.\"
-
-Can a developer confirm this?
-"""]]

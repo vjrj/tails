@@ -1,0 +1,15 @@
+Hi everyone.
+
+I've been searching for days to find an easy way to chain a SOCKS5 proxy after the hop off the exit node of TOR. This is for the simple reason that I need to hide the fact that I'm coming from TOR, because many websites block tor.
+
+Yes, I've read the topics on this forum. Yes, I used search engines. 
+
+I have found some websites that explain how to create an SSH tunnel, but using the terminal is above my level of skills :) 
+
+It should be possible to use a program like Proxify to chain a proxy, but I don't know if this creates conflicts, and I don't know how to install a program that can run of the persistant volume. 
+
+Surely there is someone who can simply give us a paragraph of text to enter into the polipo config file ( where i add the ip address and port for the SOCKS5 i bought ) or give some other instructions. 
+
+I'm very frustrated and at the point to reformatting my liveboot USB stick and using windows *gasp* because at least I know how to use that. 
+
+Chinese prison here i come. 

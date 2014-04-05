@@ -1,0 +1,15 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2013-03-24T21:56:43Z"
+ content="""
+Not sure what you want as an answer as your question is vague?
+
+However, generally the longer the password or pass-phase with a mix of lower and upper case characters and a mix with numbers and special characters, will increase the strength. This will also lengthen the time and resources required for your adversary to crack or brute force the password or pass-phase.
+
+Usually there are easier ways to capture a user password or pass-phase if the adversary installed hardware or software to detect or monitor your keystrokes. Also the use of screen capture and maybe cctv system is an option for an well financed adversary.
+
+May i suggest that you read Surveillance Self-Defense guidance produced by Electronic Frontier Foundation https://ssd.eff.org/
+
+If i just waffled please present you questions again and maybe someone or myself will try and answer your questions.
+"""]]

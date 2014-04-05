@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-04-10T16:10:34Z"
- content="""
->The \"unsafe browser\" likely will appear in Tails 0.12. 
-
-Any tips on where to look in the meantime? IPTables?
-"""]]

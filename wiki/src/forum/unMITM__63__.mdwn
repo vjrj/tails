@@ -1,6 +1,0 @@
-Some say the only way to be certain of escaping a trojan or root kit compromised box is to reformat and reinstall the OS. That would wipe out any malware.
-
-Is there something that can work as well when the machine is MITM compromised? Is there anything we can do to unMITM if we suspect our connection is MITM compromised?
-
-Or is it once MITMed always MITMed?
-

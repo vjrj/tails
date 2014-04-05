@@ -1,7 +1,0 @@
-I want to use tor with proxy to hide tor connection on tails.
-
-I want to connect web like below.
-
-me > Tor network > proxy server > world wide web
-
-I do "apt-get install proxychains;", setting proxychains.conf, and, "proxychains icewealsel;", but not work. The connection was rejected from the packets of destinetion web site. Please help me.

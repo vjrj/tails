@@ -1,0 +1,8 @@
+[[!comment format=mdwn
+ username="Tails"
+ ip="127.0.0.1"
+ subject="comment 1"
+ date="2012-06-26T14:33:57Z"
+ content="""
+Seeing these errors at the end of the build process is expected. They happen at a time where the system being built (Tails) is configured to fetch packages through Tor; but as it is not Tails that is actually running, refreshing the package list fails.
+"""]]

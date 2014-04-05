@@ -1,9 +1,0 @@
->Tails does not boot entirely
-
-    In the graphical boot menu, press TAB
-    Add the debug parameter to the boot command line
-    Remove all appearance of the quiet parameter
-
->This will hopefully display a bunch of useful messages on boot that you can later include in your bug report.
-
-Seeing as this is ver 0.11 I cannot remove all appearance of quiet due to the repeating command line https://tails.boum.org/bugs/incorrect_dimensions_for_syslinux_menu/ unless I edit menu.cfg. I suppose I could though. Tails stalls to boot after init runs. The messages disapear too soon, is there a key to hit to pause boot or to save using shell on boot media?

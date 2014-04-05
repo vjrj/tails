@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-05-20T22:27:13Z"
- content="""
-there is a config file for the bootloader \"/isolinux/live.cfg\". It is located on the first partition so you will not be able to access it via tails(maybe from the  debian live boot prompt but if that's possible, I don't know how it's done). Open the file and you should see two settings for \"live\" and \"failsafe\". Edit \"live\" by adding the \"truecrypt\" parameter. When that's done there will be be no more need to edit the settings each time. If you want the option, you can also copy paste \"live\", change the name and add the new parameter to add a whole new custom entry.
-
-Messing with this file can make tails unbootable, so make a backup before changing anythign if you're not very confident.
-"""]]

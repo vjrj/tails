@@ -1,9 +1,0 @@
-In the versions of Tails prior to 04-07-11, I was unable to access any files or folders on the hard drive when operating in Live CD mode. Furthermore, as my task level increased, slowdowns and crashes would occur leading me to believe the 1GB of installed ram was being fully utilized, and no swap files had been created anywhere on the hard drive.
-
-With the new Tails released on 04-07-11, access to the hard drive is apparently enabled.
-
-All versions of Tails tell me, as the "DOS type" lines rapidly scroll by upon startup (I forget what that is called), that a swap file is being created. 
-
-So, my question is, does Tails, in Live CD mode without any installation to the hard drive, utilize the hard drive for swap space?
-
-Thanks

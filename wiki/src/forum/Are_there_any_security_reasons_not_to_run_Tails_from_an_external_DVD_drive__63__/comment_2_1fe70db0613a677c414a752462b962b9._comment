@@ -1,0 +1,13 @@
+[[!comment format=mdwn
+ ip="127.0.0.1"
+ subject="comment 2"
+ date="2013-01-30T17:22:39Z"
+ content="""
+The details of how your devices are connected matters very much.  Networked peripherals are particularly hazardous.
+
+You might read one of the current headline news stories at sites like theregister.co.uk about a huge PnP vulnerability.   Even you think your peripherals do not enable PnP, there is a good chance you are wrong.  Even if you think that you have disabled ipv6, your peripherals may have different ideas and may be able to tunnel through your router's firewall.
+
+There are other issues, but these should suffice to convince you to avoid using more than the bare minimum of peripherals.
+
+Some of the most alarming issues affecting peripherals may not apply to devices that are directly connected to a physical port on your computer.  But remember to avoid FireWire like you would avoid the bubonic plague.  And be mindful of how Stuxnet spreads.  And depending upon your situation, it might be unwise to discount \"evil maid\" attacks, not just on your PC or laptop, but on any peripherals or USB drives that you let out of your sight.
+"""]]

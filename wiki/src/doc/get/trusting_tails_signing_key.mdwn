@@ -26,10 +26,10 @@ check whether all the keys are identical:
 
 This command would output something like this:
 
-    79f1663dfb5609aaa5021221e01ff38c7d3d5bbd8126710ce385f6009cd501f7  tails-signing-desktop.key
-    79f1663dfb5609aaa5021221e01ff38c7d3d5bbd8126710ce385f6009cd501f7  tails-signing-laptop.key
-    79f1663dfb5609aaa5021221e01ff38c7d3d5bbd8126710ce385f6009cd501f7  tails-signing-library.key
-    79f1663dfb5609aaa5021221e01ff38c7d3d5bbd8126710ce385f6009cd501f7  tails-signing-seattle.key
+    7d4636ed49f6dd09d6e606936b6e686daad4200925875443668843b633ef6df2  tails-signing-desktop.key
+    7d4636ed49f6dd09d6e606936b6e686daad4200925875443668843b633ef6df2  tails-signing-laptop.key
+    7d4636ed49f6dd09d6e606936b6e686daad4200925875443668843b633ef6df2  tails-signing-library.key
+    7d4636ed49f6dd09d6e606936b6e686daad4200925875443668843b633ef6df2  tails-signing-seattle.key
 
 You would then need to visually check that all the checksums of the first column
 are the same, meaning that the keys are identical.
@@ -80,7 +80,7 @@ and the knowledge of quite complex tools such as OpenPGP.
 # Check Tails signing key against the Debian keyring
 
 Following the previous scenario, when Alice met Bob, a Tails developer, she
-could make a new signature on Tails signing key with her own key to certify this
+could have made a new signature on Tails signing key with her own key to certify this
 trust relationship and make it public. Tails signing key would now come along
 with a signature made by Alice.
 
@@ -143,7 +143,7 @@ key by doing:
 
     gpg --keyid-format long --check-sigs 1202821CBE2CD9C1
 
-On the output, The status of the verification is indicated by a flag directly
+On the output, the status of the verification is indicated by a flag directly
 following the "sig" tag. A "!" indicates that the signature has been
 successfully verified, a  "-" denotes a bad signature and a "%" is used if an
 error occurred while checking the signature (e.g. a non supported algorithm).
@@ -183,3 +183,7 @@ practices.
 - [[Debian: Keysigning|http://www.debian.org/events/keysigning]], a
   tutorial on signing keys of other people
 - [[rubin.ch: Explanation of the web of trust of PGP|http://www.rubin.ch/pgp/weboftrust.en.html]]
+- [[Gpg4win: Certificate
+  inspection|http://www.gpg4win.org/doc/en/gpg4win-compendium_16.html]],
+  instructions to manage key trust with Gpg4win
+- <!-- l10n placeholder for language-specific link -->

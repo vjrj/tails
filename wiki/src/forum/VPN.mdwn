@@ -1,7 +1,0 @@
-I know there is a todo entry but I wanted to post it here to discuss the VPN support.
-
-Why do I want it?
-
-1- When using Tails with my own computer or on my own internet connection, I will use VPN to hide my Tor connection from ISP's and hide my IP from Tor entry nodes which I don't trust more than my VPN provider.
-
-2- When using Tails in a public computer or on a public connection I will use the Free VPN providers. They don't need to be secure since I'm using a public IP. But for a better protection, I can use the paid and non-logging VPN services which accept Bitcoin for payments. But I need macchanger for public use.

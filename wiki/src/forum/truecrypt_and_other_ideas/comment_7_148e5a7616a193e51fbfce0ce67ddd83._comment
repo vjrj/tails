@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="truecrypt"
- date="2010-05-04T09:02:02Z"
- content="""
-You can keep the truecrypt .deb file on a memory stick and dpkg -i if you need it.
-"""]]

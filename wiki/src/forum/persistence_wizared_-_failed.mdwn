@@ -1,9 +1,0 @@
-I manually isohybrid + cat'd a usb stick to avoid needing a dvd drive(from the official instructions). Then from the newly running tails 0.11 I did a usb install to another usb stick(again, as per instructions).
-
-Now, running tails 0.11 from the second usb stick I tried to setup the persistent storage with "configure persistent volume" option.
-
-it seems to start ok but then gets a failed interruption with this error:
-
-org.freedesktop.UDisksx.Error.Busy:
-A job is pending on /dev/sdc2
-

@@ -1,9 +1,0 @@
-I have created a bootable USB using two methods.  First, I manually installed Tails onto a second USB drive using the methods for Windows given here:
-
-https://tails.boum.org/doc/first_steps/manual_usb_installation/windows/index.en.html
-
-The Universal USB Installer was very fast and easy.  I have a ".disk", "live", "syslinux" folders and three files created from using the Universal USB Installer.  Unfortunately, I don't see any boot files in the main directory.  When I tried loading from USB, it simply went straight to Windows as if there was no OS on the USB.  I disabled the HDD and CD-Rom and the computer said there was no operating system available, restart or replace the removable device and press any key.  no luck.  
-
-After this failed, I used VM Player to create a virtual machine to which I used the downloaded Tails 0.11 ISO as the CD-Rom and boot directory and it booted just fine in VM.  Since it was my first time, I played around in the VM for a bit before moving on to my real goal which is to create a portable Tails USB drive.  I used the Tails USB Installer to make a bootable USB drive however I was met with the same failure that I experienced before.  
-
-Are there not supposed to be some files in the main directory to tell the computer there's an OS there?  An autoexec.bat or something? o.O  

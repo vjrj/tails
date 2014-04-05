@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="@ 6"
- date="2012-04-30T00:10:41Z"
- content="""
-Try booting liberte so that you can rule out rEFIt for your 10.5.8 issue.
-
-If liberte boots then I suspect it's something to do with the USB installer. Or maybe the drive is not formatted as a boot partition?
-"""]]

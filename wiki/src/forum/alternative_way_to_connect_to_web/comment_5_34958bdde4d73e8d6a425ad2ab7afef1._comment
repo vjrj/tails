@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-04-06T18:41:20Z"
- content="""
-I went ahead and tried me>ISP>proxy>bridge>Tor>web. However, this seems to make the internet unusable. One of those usability vs security things. I'm having issues connecting to the Tor network at all. I cannot get the whole Tor directory. A few times I did, but even so the pages loaded so slow I would sit there for hours. Any help? How can I have both usability and security here.
-"""]]

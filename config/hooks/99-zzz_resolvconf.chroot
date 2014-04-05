@@ -1,4 +1,6 @@
 #!/bin/sh
 
-echo "removing resolv.conf symbolic link"
-rm -f /etc/resolv.conf
+set -e
+
+echo "Removing resolv.conf symbolic link"
+rm /etc/resolv.conf

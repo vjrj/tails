@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="firewall"
- date="2011-05-24T20:39:38Z"
- content="""
-and does the firewall work with only the configurations given in the design section or are a few other chenges e.g. in iptables to be made?
-"""]]

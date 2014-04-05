@@ -1,0 +1,3 @@
+It sounds like a back to square 1 case. If running tails in VM you will have 2 systems to secure instead of 1 (the host and tails) which means more attack surface.
+
+What are the advantages of this? How do you secure the host in such case (assuming tails is all safe in such use)?

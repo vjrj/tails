@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-04-10T15:12:26Z"
- content="""
->4. more ideas?
-
-Pass TAILS our own choices for root passwords, as a kernel boot parameter?
-"""]]

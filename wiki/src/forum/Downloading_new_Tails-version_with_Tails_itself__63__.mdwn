@@ -1,0 +1,10 @@
+is it ok to boot up the old tails version wit option "toram", so i can eject the cd and burn the downloaded image (in this case Tails 0.17.2)
+
+i would use unsafe browser but every download just disapears...???
+
+anyway, is it ok to download with tor browser and then check the signature since the PGP-key is already in tails so i dont have to worry about a bad exit-node, right?
+
+and should i do "sudo update && sudo upgrade" before starting the download?
+
+thanks for any help
+bye

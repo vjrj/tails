@@ -1,9 +1,0 @@
-Recently while running Tails I saw that there was continual network activity on my system (both sending as well as receiving) despite my not being aware of anything running that should have caused any network activity. 
-
-I had the IceWeasel web browser open but all of the pages in any of the open windows or tabs were completely idle; I looked carefully and did not see any content that was still loading or updating in any way. I had no "active bookmarks" or RSS feeds and I had completely disabled JavaScript.
-
-Other than IceWeasel, the only things that I might have had open were the `gedit` text-editor and the `nautilus` file browser.
-
-As far I as I know, Tails is not configured to do any automatic checking for updates or otherwise "phone home" in any way, so I am quite concerned.
-
-This "phantom" network activity started quite soon after booting-up and connecting. How likely it is for an attacker to have already gotten in at that point? 

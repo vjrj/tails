@@ -1,0 +1,64 @@
+[[!meta title="Release schedule"]]
+
+[[!toc levels=2]]
+
+Tails has a time-based release schedule, aligned with Firefox ESR
+(Extended Support Release) that are put out every 6 weeeks:
+
+* <https://wiki.mozilla.org/Releases>
+* <https://wiki.mozilla.org/RapidRelease/Calendar>
+* <https://mail.mozilla.com/home/akeybl@mozilla.com/Release%20Management.html>
+* <https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/>
+
+The rationale was originally [written on
+tails-dev](https://mailman.boum.org/pipermail/tails-dev/2012-April/001132.html).
+
+The idea is to put a major Tails release out every 12 weeks, plus
+a point release in between. See the [[contribute/calendar]].
+
+Schedule
+========
+
+	  /          4w         \/   2w    /4d\
+	                                     
+	  previous               RC1    ESR sources
+	  ESR + Tails             |        |
+	  release          freeze |        |  new ESR + Tails
+	  |                     | |        |  release
+	  |                     | |        |  |
+	  ↓                     ↓ ↓        ↓  ↓
+	._____._____._____._____._____._____._____.
+	0     1     2     3     4     5     6
+
+In the above:
+
+* *ESR sources* means the source code for the upcoming Firefox ESR is
+  available, but the ESR is not officially out yet: it has to go
+  through Mozilla's QA process first. Sources are generally available
+  on Friday night (US time).
+* *ESR + Tails release* means Mozilla announces the new Firefox ESR,
+  and we release a new version of Tails (roughly) the same day.
+  This usually happens on Tuesday night (US time).
+
+What if things go wrong?
+========================
+
+Postponing the final release causes problems for those who have
+scheduled time for post-release user support, press work, etc..
+
+Also, changing our mind (i.e. releasing a point-release instead of
+a major one) => switching minor/major release schedule for the future
+is probably not an option either.
+
+So we need to have a pessimistic enough RC->final schedule to handle
+unexpected issues.
+
+Reverting the faulty feature branch is an option too.
+
+Some day, a [[!tails_ticket 5926 desc="freezable APT repository"]]
+will remove quite some of the potential for last minute breakage.
+
+Remaining issues
+================
+
+* When to run the test suite: RC1 and/or RC2?

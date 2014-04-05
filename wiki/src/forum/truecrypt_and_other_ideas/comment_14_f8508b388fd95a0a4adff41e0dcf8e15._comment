@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="how to add truecrypt without license issues"
- date="2011-03-11T23:04:14Z"
- content="""
-The way to deal with truecrypt and not be concerned about distributing it is to simply not distribute it. Make it a single click download/install by adding a script. However I'm not sure why you think truecrypt can't be distributed under the current license. The source code is available and while not under a GPL license it isn't the only license which uses a third party license. This still may qualify as a free software license. I believe I read somewhere that the FSF even enforced this license. My understanding is that the problem with it is basically \"too many\" free software licenses exist to keep track of everything. Unfortunately truecrypt is very old and the sources are derived from software which was licensed before these issues existed (too many licenses) or before they community started to consolidate. Those working on truecrypt now do not own the copyright. Therefore they have no way to change the license. What is worse is that a company which sells cryptography owns the copyright now. They do not have any connection with free software. Assuming the concern is risk to the distributor I think a utility which downloads the truecrypt software from a non-tails server (say truecrypt.org) would suffice. You can automatically authenticate and verify the download too as a gpg/pgp key is available. Simply include the key from the start.
-"""]]

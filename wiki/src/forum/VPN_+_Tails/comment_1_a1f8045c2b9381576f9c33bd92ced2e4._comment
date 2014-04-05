@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-05-19T00:38:05Z"
- content="""
-Correct, tails does not support VPN yet. You could try tails and a proxy if you can find one you trust instead of VPN.
-"""]]
