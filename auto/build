@@ -59,7 +59,7 @@ chmod -R go+rX config/includes.chroot/usr
 chmod -R go+rx config/includes.chroot/usr/local/bin
 chmod -R go+rx config/includes.chroot/usr/local/sbin
 chmod -R go+rX config/includes.chroot/usr/share/doc/tails
-chmod -R go+rX config/chroot_apt
+chmod -R go+rX config/apt
 chmod -R go+rX config/archives
 
 # build the image
