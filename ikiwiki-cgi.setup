@@ -2,10 +2,10 @@
 # IkiWiki::Setup::Yaml - YAML formatted setup file
 #
 # Setup file for ikiwiki.
-# 
+#
 # Passing this to ikiwiki --setup will make ikiwiki generate
 # wrappers and build the wiki.
-# 
+#
 # Remember to re-run ikiwiki --setup any time you edit this file.
 #
 # name of the wiki
@@ -79,7 +79,7 @@ discussion: 0
 # name of Discussion pages
 discussionpage: Discussion
 # generate HTML5? (experimental)
-html5: 0
+html5: 1
 # only send cookies over SSL connections?
 sslcookie: 0
 # extension to use for new pages
