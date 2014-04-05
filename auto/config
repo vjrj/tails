@@ -28,6 +28,7 @@ $RUN_LB_CONFIG \
    --checksums none \
    --bootappend-live "${AMNESIA_APPEND}" \
    --bootstrap "cdebootstrap" \
+   --firmware-chroot false \
    --parent-archive-areas "main contrib non-free" \
    --initramfs-compression lzma \
    --iso-application "The Amnesic Incognito Live System" \
