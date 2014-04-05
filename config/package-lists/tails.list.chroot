@@ -67,6 +67,8 @@ acl
 unzip
 # ships gksudo, needed by various wrappers of ours
 gksu
+# needed by our chroot hook that applies patches
+patch
 
 ### Software
 

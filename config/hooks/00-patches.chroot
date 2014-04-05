@@ -1,0 +1,13 @@
+#! /bin/sh
+
+set -e
+
+echo "Applying patches"
+
+(
+   cd /
+   for patch in /root/config/chroot_local-patches/* ; do
+      echo "Applying patch $patch"
+      patch -p1 < "$patch"
+   done
+)
