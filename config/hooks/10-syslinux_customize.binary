@@ -3,7 +3,7 @@
 set -e
 
 # Including common functions
-. "${LB_BASE:-/usr/share/live/build}"/scripts/build.sh
+. /usr/lib/live/build.sh
 
 # Setting static variables
 DESCRIPTION="$(Echo 'removing buggy syslinux help')"
