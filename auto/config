@@ -21,6 +21,7 @@ $RUN_LB_CONFIG --distribution wheezy ${@}
 # set Amnesia's general options
 $RUN_LB_CONFIG \
    --apt-recommends false \
+   --apt-source-archives false \
    --backports false \
    --binary-images iso \
    --apt-indices false \
