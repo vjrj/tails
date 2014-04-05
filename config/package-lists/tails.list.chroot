@@ -6,7 +6,7 @@ tails-persistence-setup
 whisperback
 # profiling => squashfs optimization
 python-pyinotify
-# contains mkpasswd, needed in chroot_local-hooks/01-password
+# contains mkpasswd, needed in hooks/01-password.chroot
 whois
 # needed in includes.chroot/etc/NetworkManager/dispatcher.d/50-htp.sh
 bind9-host
@@ -36,7 +36,7 @@ libgetopt-long-descriptive-perl
 libtry-tiny-perl
 # needed by readahead
 pv
-# needed by our chroot_local-hooks
+# needed by our chroot hooks
 live-build
 # needed for initramfs-tools' COMPRESS=lzma
 lzma

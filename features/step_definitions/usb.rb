@@ -282,7 +282,7 @@ end
 
 def boot_device
   # Approach borrowed from
-  # config/chroot_local_includes/lib/live/config/998-permissions
+  # config/includes.chroot/lib/live/config/998-permissions
   boot_dev_id = @vm.execute("udevadm info --device-id-of-file=/lib/live/mount/medium").stdout.chomp
   boot_dev = @vm.execute("readlink -f /dev/block/'#{boot_dev_id}'").stdout.chomp
   return boot_dev
@@ -290,7 +290,7 @@ end
 
 def boot_device_type
   # Approach borrowed from
-  # config/chroot_local_includes/lib/live/config/998-permissions
+  # config/includes.chroot/lib/live/config/998-permissions
   boot_dev_info = @vm.execute("udevadm info --query=property --name='#{boot_device}'").stdout.chomp
   boot_dev_type = (boot_dev_info.split("\n").select { |x| x.start_with? "ID_BUS=" })[0].split("=")[1]
   return boot_dev_type
