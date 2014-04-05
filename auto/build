@@ -43,7 +43,7 @@ echo "POTFILES_DOT_IN='$(
          /bin/grep -E --no-filename '[^ #]*\.in$' po/POTFILES.in \
        | sed -e 's,^config/includes.chroot,,' | tr "\n" ' '
    )'" \
-   >> config/includes.chroot/usr/share/amnesia/build/variables
+   >> config/tails/variables
 
 # fix permissions on some source files that will be copied as is to the chroot.
 # they may be wrong, e.g. if the Git repository was cloned with a strict umask.

@@ -31,7 +31,7 @@ done
 # files copied or created in the build stage
 rm -f \
    config/environment.chroot \
-   config/includes.chroot/usr/share/amnesia/build/variables
+   config/tails/variables
 
 # static wiki
 rm -rf config/includes.chroot/usr/share/doc/tails/website wiki/src/.ikiwiki
