@@ -35,7 +35,6 @@ $RUN_LB_CONFIG \
    --iso-publisher "https://tails.boum.org/" \
    --iso-volume "TAILS ${AMNESIA_FULL_VERSION}" \
    --memtest none \
-   --tasks "standard" \
    --linux-packages "linux-image-3.13-1" \
    --initramfs live-boot \
    ${@}
