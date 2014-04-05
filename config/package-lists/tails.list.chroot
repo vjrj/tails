@@ -79,6 +79,7 @@ alsa-utils
 audacity
 barry-util
 bilibop-udev
+console-common
 cups
 cryptsetup
 rsync
@@ -94,10 +95,12 @@ desktop-base
 dmz-cursor-theme
 dosfstools
 eatmydata
+eject
 ekeyd
 eog
 evince
 exiv2
+file
 file-roller
 florence
 fonts-cantarell
@@ -157,6 +160,7 @@ libsane-hpaio
 liferea
 live-config
 live-config-sysvinit
+lsof
 lvm2
 macchanger
 mat
@@ -232,6 +236,7 @@ ttdnsd
 unar
 unrar-free
 usbutils
+user-setup
 vidalia
 vim-nox
 virtualbox-guest-utils
@@ -264,6 +269,8 @@ firmware-b43-installer
 firmware-b43legacy-installer
 
 ### Xorg
+xorg
+xserver-xorg
 xserver-xorg-input-all
 #if ARCHITECTURE i386
 xserver-xorg-video-geode
