@@ -75,6 +75,7 @@ patch
 #include <standard-x11>
 
 aircrack-ng
+alsa-utils
 audacity
 barry-util
 bilibop-udev
