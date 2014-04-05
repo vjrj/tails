@@ -17,6 +17,7 @@
 /config/bootstrap
 /config/chroot
 /config/common
+/config/environment.chroot
 /config/source
 /config/includes.chroot/etc/amnesia/environment
 /config/includes.chroot/etc/amnesia/version

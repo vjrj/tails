@@ -38,7 +38,7 @@ rm -rf cache/stages_rootfs
 ./refresh-translations || fatal "refresh-translations failed ($?)."
 
 # save variables that are needed by chroot hooks
-echo "LB_DISTRIBUTION=${LB_DISTRIBUTION}" >> config/includes.chroot/usr/share/amnesia/build/variables
+echo "LB_DISTRIBUTION=${LB_DISTRIBUTION}" >> config/environment.chroot
 echo "POTFILES_DOT_IN='$(
          /bin/grep -E --no-filename '[^ #]*\.in$' po/POTFILES.in \
        | sed -e 's,^config/includes.chroot,,' | tr "\n" ' '
@@ -65,7 +65,7 @@ chmod -R go+rX config/archives
 # build the image
 
 : ${MKSQUASHFS_OPTIONS:='-comp xz'}
-MKSQUASHFS_OPTIONS="${MKSQUASHFS_OPTIONS} -wildcards -ef chroot/usr/share/amnesia/build/mksquashfs-excludes"
+MKSQUASHFS_OPTIONS="${MKSQUASHFS_OPTIONS} -wildcards -ef chroot/root/config/tails/mksquashfs-excludes"
 export MKSQUASHFS_OPTIONS
 
 # get git branch or tag so we can set the basename appropriately, i.e.:
