@@ -20,5 +20,4 @@ for sql_src_file in ${SQL_SRC_DIR}/*.sql ; do
    sqlite3 "${dst_file}" < "${sql_src_file}"
 done
 
-rm -rf ${SQL_SRC_DIR}
 apt-get --yes purge $INSTALLED_PACKAGES
