@@ -61,7 +61,7 @@ fi
 install -d config/includes.chroot/etc/amnesia/
 
 # environment
-TAILS_WIKI_SUPPORTED_LANGUAGES="$(auto/scripts/ikiwiki-supported-languages ikiwiki.setup)"
+TAILS_WIKI_SUPPORTED_LANGUAGES="$(local/scripts/ikiwiki-supported-languages ikiwiki.setup)"
 [ -n "$TAILS_WIKI_SUPPORTED_LANGUAGES" ] || exit 16
 echo "TAILS_WIKI_SUPPORTED_LANGUAGES='${TAILS_WIKI_SUPPORTED_LANGUAGES}'" \
    >> config/includes.chroot/etc/amnesia/environment
@@ -90,4 +90,4 @@ if [ -e config/binary_rootfs/squashfs.sort ]; then
 fi
 
 # custom APT sources
-tails-custom-apt-sources > config/chroot_sources/tails.chroot
+local/scripts/tails-custom-apt-sources > config/archives/tails.list.chroot
