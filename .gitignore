@@ -22,7 +22,7 @@
 /config/includes.chroot/etc/amnesia/environment
 /config/includes.chroot/etc/amnesia/version
 /config/includes.chroot/usr/share/amnesia/readahead-list
-/config/includes.chroot/usr/share/amnesia/build/variables
+/config/tails/variables
 /config/includes.chroot/usr/share/doc/Changelog
 /config/includes.chroot/usr/share/doc/amnesia/Changelog
 /config/includes.chroot/usr/share/doc/tails/website
