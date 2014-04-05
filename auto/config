@@ -35,9 +35,6 @@ $RUN_LB_CONFIG \
    --memtest none \
    --tasks "standard" \
    --linux-packages "linux-image-3.13-1" \
-   --syslinux-menu vesamenu \
-   --syslinux-splash data/splash.png \
-   --syslinux-timeout 4 \
    --initramfs live-boot \
    ${@}
 
