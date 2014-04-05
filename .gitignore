@@ -34,14 +34,14 @@
 /vagrant/squeeze.box
 
 # Files managed by intltool
-/config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop
-/config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop
-/config/chroot_local-includes/etc/skel/Desktop/Tails_documentation.desktop
-/config/chroot_local-includes/usr/share/applications/tails-documentation.desktop
-/config/chroot_local-includes/usr/share/applications/tails-reboot.desktop
-/config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop
-/config/chroot_local-includes/usr/share/applications/tails-shutdown.desktop
-/config/chroot_local-includes/usr/share/applications/i2p.desktop
-/config/chroot_local-includes/usr/share/desktop-directories/Tails.directory
+/config/includes.chroot/etc/skel/Desktop/tails-documentation.desktop
+/config/includes.chroot/etc/skel/Desktop/Report_an_error.desktop
+/config/includes.chroot/etc/skel/Desktop/Tails_documentation.desktop
+/config/includes.chroot/usr/share/applications/tails-documentation.desktop
+/config/includes.chroot/usr/share/applications/tails-reboot.desktop
+/config/includes.chroot/usr/share/applications/unsafe-browser.desktop
+/config/includes.chroot/usr/share/applications/tails-shutdown.desktop
+/config/includes.chroot/usr/share/applications/i2p.desktop
+/config/includes.chroot/usr/share/desktop-directories/Tails.directory
 /tmp/
 

@@ -13,7 +13,7 @@ GIT_IN_TOR_TRANSLATION_DIR="git \
 	--git-dir=\"$TOR_TRANSLATION_DIR/.git\""
 
 ### External libraries
-. "$SCRIPT_DIR/config/chroot_local-includes/usr/local/lib/tails-shell-library/po.sh"
+. "$SCRIPT_DIR/config/includes.chroot/usr/local/lib/tails-shell-library/po.sh"
 
 lang_is_excluded () {
 	local lang="$1"
