@@ -3,11 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-04-14 21:37+0300\n"
+"POT-Creation-Date: 2014-03-18 02:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +17,15 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[[Protection against cold boot attacks|advanced_topics/cold_boot_attacks]]"
+"[[!traillink Protection_against_cold_boot_attacks|advanced_topics/"
+"cold_boot_attacks]]"
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "[[Virtualization|advanced_topics/virtualization]]"
+msgid "[[!traillink Virtualization|advanced_topics/virtualization]]"
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "[[Enable MAC Changer|advanced_topics/mac_changer]]"
+msgid ""
+"[[!traillink Enable_a_wireless_device|advanced_topics/wireless_devices]]"
 msgstr ""

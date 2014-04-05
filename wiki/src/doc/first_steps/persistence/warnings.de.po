@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-04-14 16:50+0300\n"
+"POT-Creation-Date: 2013-10-24 01:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Warnings About Persistence\"]]\n"
+msgid "[[!meta title=\"Warnings about persistence\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -26,16 +26,21 @@ msgstr ""
 msgid "[[!toc levels=1]]\n"
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"sensitive_documents\"></a>\n"
+msgstr ""
+
 #. type: Title =
 #, no-wrap
-msgid "Storing Sensitive Documents\n"
+msgid "Storing sensitive documents\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**The persistent volume is not hidden.** An attacker in possession of the USB\n"
-"stick can know that there is a persistent volume on it. Take into consideration\n"
+"**The persistent volume is not hidden.** An attacker in possession of\n"
+"the device can know that there is a persistent volume on it. Take into consideration\n"
 "that you can be forced or tricked to give out its passphrase.\n"
 msgstr ""
 
@@ -47,17 +52,28 @@ msgid ""
 "Read also how to [[delete the persistent volume|delete]].\n"
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"overwriting_configurations\"></a>\n"
+msgstr ""
+
 #. type: Title =
 #, no-wrap
-msgid "Overwriting Configurations\n"
+msgid "Overwriting configurations\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"The persistent volume allows you to overwrite the configuration of the "
-"programs included in Tails. Those programs are carefully configured with "
-"security in mind.  Overwriting the default configuration can break this "
-"security or render them unusable."
+"The programs included in Tails are carefully configured with security in "
+"mind. If you use the persistence volume to overwrite the configuration of "
+"the programs included in Tails, it can break this security or render these "
+"programs unusable."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Be especially careful when using the [[Dotfiles|persistence/"
+"configure#dotfiles]] feature."
 msgstr ""
 
 #. type: Plain text
@@ -68,9 +84,14 @@ msgid ""
 "configurations can break your anonymity.</strong>\n"
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"installing_programs\"></a>\n"
+msgstr ""
+
 #. type: Title =
 #, no-wrap
-msgid "Installing Additional Programs\n"
+msgid "Installing additional programs\n"
 msgstr ""
 
 #. type: Plain text
@@ -82,9 +103,14 @@ msgid ""
 "capable of helping you to solve those problems."
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"browser_plugins\"></a>\n"
+msgstr ""
+
 #. type: Title =
 #, no-wrap
-msgid "Browser Plugins\n"
+msgid "Browser plugins\n"
 msgstr ""
 
 #. type: Plain text
@@ -95,9 +121,14 @@ msgid ""
 "break your anonymity.**"
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"minimum\"></a>\n"
+msgstr ""
+
 #. type: Title =
 #, no-wrap
-msgid "Use to the Minimum\n"
+msgid "Use to the minimum\n"
 msgstr ""
 
 #. type: Plain text

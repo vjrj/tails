@@ -1,10 +1,12 @@
 #!/bin/sh
 
+set -e
+
 # Create the htp user.
 #
 # We run htpdate as this user, so that we can whitelist its
 # non-Torified outgoing packets.
 
-echo "creating the htp user"
+echo "Creating the htp user"
 
-adduser --system --quiet --group --no-create-home htp || :
+adduser --system --quiet --group --no-create-home htp

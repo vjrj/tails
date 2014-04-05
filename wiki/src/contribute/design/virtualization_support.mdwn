@@ -15,7 +15,7 @@ results are stored in `/var/lib/live/detected-virtual-machine` and
 later used by a desktop notification system.
 
 - [[!tails_gitweb config/includes.chroot/etc/init.d/tails-detect-virtualization]]
-- [[!tails_gitweb config/includes.chroot/etc/skel/.config/autostart/virt-notify.desktop]]
+- [[!tails_gitweb config/includes.chroot/etc/xdg/autostart/virt-notify.desktop]]
 - [[!tails_gitweb config/includes.chroot/usr/local/bin/tails-virt-notify-user]]
 
-A bit more work is [[left to do|todo/virtualization_support]].
+A bit more work is [[!tails_todo virtualization_support desc="left to do"]].

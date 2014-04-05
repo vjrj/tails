@@ -1,12 +1,23 @@
 #!/bin/bash
 
-# FIXME
-. /usr/share/initramfs-tools/scripts/live-helpers
-#. "${PWD}/live-helpers"
+error ()
+{
+	echo "error: ${@}" >&2
+	exit 1
+}
+
+# import Cmdline_old()
+. /lib/live/boot/9990-cmdline-old \
+	|| error 'Could not source /lib/live/boot/9990-cmdline-old'
+
+# Set variable names needed by get_custom_mounts(),
+# and now initialized by live-boot in a file that we certainly
+# don't want to source.
+export persistence_list="persistence.conf"
+export old_persistence_list="nonexistent"
 
 # This will import the following functions and variables used below:
-#   Arguments()
-#   do_custom_mounts()
+#   activate_custom_mounts()
 #   get_custom_mounts()
 #   open_luks_device()
 #   probe_for_gpt_name()
@@ -15,6 +26,8 @@
 #   storage_devices()
 #   where_is_mounted()
 #   $custom_overlay_label
+. /lib/live/boot/9990-misc-helpers.sh \
+	|| error 'Could not source /lib/live/boot/9990-misc-helpers.sh'
 
 usage ()
 {
@@ -54,12 +67,6 @@ Options affecting the 'activate' action:
 warning ()
 {
 	echo "warning: ${@}" >&2
-}
-
-error ()
-{
-	echo "error: ${@}" >&2
-	exit 1
 }
 
 dbus_udisks_get_attribute ()
@@ -111,17 +118,26 @@ list_gpt_volumes ()
 	case "${PERSISTENCE_MEDIA}" in
 		removable)
 			whitelistdev="$(removable_dev)"
+			[ -z "${whitelistdev}" ] && return
 			;;
 		removable-usb)
 			whitelistdev="$(removable_usb_dev)"
+			[ -z "${whitelistdev}" ] && return
 			;;
 		*)
-			whitelistdev=""
+			if grep -qs -w -E '(live-media|bootfrom)=removable-usb' /proc/cmdline ; then
+				whitelistdev="$(removable_usb_dev)"
+				[ -z "${whitelistdev}" ] && return
+			elif grep -qs -w -E '(live-media|bootfrom)=removable' /proc/cmdline ; then
+				whitelistdev="$(removable_dev)"
+				[ -z "${whitelistdev}" ] && return
+			else
+				whitelistdev=""
+			fi
 			;;
 	esac
 
-	local gpt_overlays=""
-	for dev in $(storage_devices "" "${white_listed_devices}")
+	for dev in $(storage_devices "" "${whitelistdev}")
 	do
 		if ( is_luks_partition ${dev} >/dev/null 2>&1 && \
 		     echo ${PERSISTENCE_ENCRYPTION} | grep -qve "\<luks\>" ) || \
@@ -131,8 +147,7 @@ list_gpt_volumes ()
 		then
 			continue
 		fi
-
-		local result="$(probe_for_gpt_name "${labels}" "" ${dev})"
+		local result="$(probe_for_gpt_name "${labels}" ${dev})"
 		if [ -n "${result}" ]
 		then
 			echo ${result#*=}
@@ -140,6 +155,86 @@ list_gpt_volumes ()
 	done
 
 	exit 0
+}
+
+mountpoint_has_correct_access_rights ()
+{
+	local mountpoint="$1"
+	local expected_user=root
+	local expected_group=root
+	local expected_perms=775
+	local expected_acl="user::rwx
+user:tails-persistence-setup:rwx
+group::rwx
+mask::rwx
+other::r-x"
+
+	if [ $(stat -c %U "$mountpoint") != "$expected_user" ]
+	then
+		warning "'$mountpoint' is not owned by the '$expected_user' user"
+		return 1
+	fi
+	if [ $(stat -c %G "$mountpoint") != "$expected_group" ]
+	then
+		warning "'$mountpoint' is not owned by the '$expected_group' group"
+		return 2
+	fi
+	if [ $(stat -c %a "$mountpoint") != "$expected_perms" ]
+	then
+		warning "'$mountpoint' permissions are not $expected_perms"
+		return 4
+	fi
+	if [ "$(getfacl --omit-header --skip-base "$mountpoint" 2>/dev/null | grep -v '^\s*$')" \
+	      != "$expected_acl" ]
+	then
+		warning "'$mountpoint' has incorrect ACL"
+		return 8
+	fi
+	return 0
+}
+
+persistence_conf_file_has_correct_access_rights ()
+{
+	local conf="$1"
+	local expected_user=tails-persistence-setup
+	local expected_group=tails-persistence-setup
+	local expected_perms=600
+	local expected_acl=""
+
+	if [ $(stat -c %U "$conf") != "$expected_user" ]
+	then
+		warning "'$conf' is not owned by the '$expected_user' user"
+		return 1
+	fi
+	if [ $(stat -c %G "$conf") != "$expected_group" ]
+	then
+		warning "'$conf' is not owned by the '$expected_group' group"
+		return 2
+	fi
+	if [ $(stat -c %a "$conf") != "$expected_perms" ]
+	then
+		warning "'$conf' permissions are not $expected_perms"
+		return 4
+	fi
+	if [ "$(getfacl --omit-header --skip-base "$conf" 2>/dev/null | grep -v '^\s*$')" \
+	      != "$expected_acl" ]
+	then
+		warning "'$conf' has incorrect ACL"
+		return 8
+	fi
+	return 0
+}
+
+disable_and_create_empty_persistence_conf_file ()
+{
+	local conf="$1"
+
+	mv "$conf" "${conf}.insecure_disabled" \
+		|| error "Failed to disable '$conf': $?"
+	install --owner tails-persistence-setup \
+		--group tails-persistence-setup --mode 0600 \
+		/dev/null "$conf" \
+		|| error "Failed to create empty '$conf': $?"
 }
 
 activate_volumes ()
@@ -185,6 +280,53 @@ activate_volumes ()
 
 	custom_mounts="$(mktemp /tmp/custom_mounts-XXXXXX.list)"
 	get_custom_mounts ${custom_mounts} ${open_volumes}
+	# ... and now the persistent volumes should be mounted.
+
+	# Enable the acl mount option on all persistent filesystems.
+	for mountpoint in $(ls -d /live/persistence/*_unlocked || true)
+	do
+		mount -o remount,acl "$mountpoint"
+	done
+
+	# Detect if we have incorrect ownership, permissions and ACL.
+	ACCESS_RIGHTS_ARE_CORRECT=true
+	for mountpoint in $(ls -d /live/persistence/*_unlocked || true)
+	do
+		if ! mountpoint_has_correct_access_rights "$mountpoint"
+		then
+			ACCESS_RIGHTS_ARE_CORRECT=false
+			break
+		fi
+	done
+
+	# Disable all persistence configuration files if the mountpoint
+	# has wrong access rights.
+	if [ "$ACCESS_RIGHTS_ARE_CORRECT" != true ]
+	then
+		for f in $(ls /live/persistence/*_unlocked/persistence.conf \
+		              /live/persistence/*_unlocked/live-additional-software.conf || true)
+		do
+			warning "Disabling '$f': persistent volume has unsafe access rights"
+			disable_and_create_empty_persistence_conf_file "$f"
+		done
+	fi
+
+	# Regardless of the mountpoint access rights, disable persistence
+	# configuration files with wrong access rights.
+	for f in $(ls /live/persistence/*_unlocked/persistence.conf \
+	              /live/persistence/*_unlocked/live-additional-software.conf || true)
+	do
+		if ! persistence_conf_file_has_correct_access_rights "$f"
+		then
+			warning "Disabling '$f', that has unsafe access rights"
+			disable_and_create_empty_persistence_conf_file "$f"
+		fi
+	done
+
+	# Load the new persistence.conf.
+	custom_mounts="$(mktemp /tmp/custom_mounts-XXXXXX.list)"
+	get_custom_mounts ${custom_mounts} ${open_volumes}
+
 	if [ -s "${custom_mounts}" ]
 	then
 		activate_custom_mounts ${custom_mounts} &> /dev/null
@@ -250,13 +392,13 @@ main ()
 	BASH_XTRACEFD="3"
 
 	# parse the kernel cmdline for live-boot's configuration as defaults
-	Arguments
+	Cmdline_old
 
 	# note that this is not enough for disabling tracing. we need to do the
 	# $BASH_XTRACEFD stuff above to avoid tracing until this point.
 	set +x
 
-	export PERSISTENCE="yes"
+	export PERSISTENCE="true"
 	export NOPERSISTENCE=""
 
 	# Should be set empty since live-boot already changed root for us
@@ -279,10 +421,10 @@ main ()
 				set -x
 				;;
 			--media=*)
-				export PERSISTENCE_MEDIA="${ARGUMENT#*=}"
+				export PERSISTENCE_MEDIA="${1#*=}"
 				;;
 			--read-only)
-				export PERSISTENCE_READONLY="Yes"
+				export PERSISTENCE_READONLY="true"
 				;;
 			--read-write)
 				export PERSISTENCE_READONLY=""

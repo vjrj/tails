@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-03-01 20:51+0100\n"
+"POT-Creation-Date: 2012-10-17 18:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid "<h2 class=\"bullet-number-one\">Open the Gnome Disk Utility</h2>\n"
 msgstr ""
 
 #. type: Plain text
-msgid "From the menu **Applications** → **System Tools** → **Disk Utility**."
+msgid "From the menu **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Disk Utility**."
 msgstr ""
 
 #. type: Plain text
@@ -239,7 +239,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img places_secret.png link=no alt=\"Places → secret\"]]\n"
+msgid "[[!img places_secret.png link=no alt=\"Places&nbsp;▸ secret\"]]\n"
 msgstr ""
 
 #. type: Title =
@@ -257,7 +257,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img places_encrypted.png link=no alt=\"Places → 2.0 GB Encrypted\"]]\n"
+msgid "[[!img places_encrypted.png link=no alt=\"Places&nbsp;▸ 2.0 GB Encrypted\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -293,12 +293,12 @@ msgid "[[!img nautilus.png link=no alt=\"secret - File Browser\"]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"Once you are done, you can close the encrypted partition by right clicking "
-"on it from the desktop and selecting **Safely Remove Drive**."
-msgstr ""
-
-#. type: Plain text
 #, no-wrap
-msgid "[[!img safely_remove_drive.png link=no alt=\"Safely Remove Drive\"]]\n"
+msgid ""
+"Once you are done using the device, to close the encrypted partition choose\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Computer</span></span>,\n"
+"right-click on the device, and select <span class=\"guilabel\">Safely\n"
+"Remove Drive</span>.\n"
 msgstr ""
