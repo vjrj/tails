@@ -7,7 +7,7 @@ set -e
 echo "Building iceweasel sqlite files"
 
 INSTALLED_PACKAGES="sqlite3"
-SQL_SRC_DIR=/usr/share/amnesia/iceweasel/sql
+SQL_SRC_DIR=/root/config/tails/iceweasel/sql
 ICEWEASEL_PROFILE_DIR=/etc/iceweasel/profile
 
 [ -d "${SQL_SRC_DIR}" ] || exit 11

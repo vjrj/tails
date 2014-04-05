@@ -13,6 +13,6 @@ gct() {
 	   "${@}"
 }
 
-for file in /usr/share/amnesia/gconf/*.xml ; do
+for file in /root/config/tails/gconf/*.xml ; do
 	gct --load "${file}"
 done
