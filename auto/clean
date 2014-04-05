@@ -30,6 +30,7 @@ done
 
 # files copied or created in the build stage
 rm -f \
+   config/environment.binary \
    config/environment.chroot \
    config/tails/variables
 
