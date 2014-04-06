@@ -81,9 +81,9 @@ if GIT_REF="$(git symbolic-ref HEAD)"; then
     CLEAN_GIT_BRANCH=$(echo "$GIT_BRANCH" | sed 's,/,_,g')
     if [ -n "$JENKINS_URL" ]; then
         GIT_SHORT_ID="$(git rev-parse --short HEAD)"
-        BUILD_BASENAME="tails-${LB_ARCHITECTURE}-${CLEAN_GIT_BRANCH}-${AMNESIA_VERSION}-${AMNESIA_NOW}-${GIT_SHORT_ID}"
+        BUILD_BASENAME="tails-${LB_ARCHITECTURES}-${CLEAN_GIT_BRANCH}-${AMNESIA_VERSION}-${AMNESIA_NOW}-${GIT_SHORT_ID}"
     else
-        BUILD_BASENAME="tails-${LB_ARCHITECTURE}-${CLEAN_GIT_BRANCH}-${AMNESIA_VERSION}-${AMNESIA_TODAY}"
+        BUILD_BASENAME="tails-${LB_ARCHITECTURES}-${CLEAN_GIT_BRANCH}-${AMNESIA_VERSION}-${AMNESIA_TODAY}"
     fi
 else
     GIT_CURRENT_COMMIT="$(git rev-parse HEAD)"

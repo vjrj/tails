@@ -128,7 +128,7 @@ gnupg-curl
 gobi-loader
 gobby-0.5
 ## breaks lb because of desktop-base.postinst (see Debian bug #467620)
-#if ARCHITECTURE i386 amd64
+#if ARCHITECTURES i386 amd64
 # grub
 #endif
 gstreamer0.10-ffmpeg
@@ -247,7 +247,7 @@ xul-ext-https-everywhere
 xul-ext-noscript
 xul-ext-torbutton
 
-#if ARCHITECTURE i386 amd64
+#if ARCHITECTURES i386 amd64
 open-vm-tools
 xserver-xorg-input-vmmouse
 #endif
@@ -272,7 +272,7 @@ firmware-b43legacy-installer
 xorg
 xserver-xorg
 xserver-xorg-input-all
-#if ARCHITECTURE i386
+#if ARCHITECTURES i386
 xserver-xorg-video-geode
 #endif
 xserver-xorg-video-all
