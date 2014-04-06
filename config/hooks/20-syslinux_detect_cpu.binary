@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Including common functions
 . /usr/lib/live/build.sh
 
