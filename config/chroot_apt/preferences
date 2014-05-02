@@ -94,6 +94,10 @@ Package: liferea
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
 
+Package: liferea-data
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
 Package: linux-base
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
