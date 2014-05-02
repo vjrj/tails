@@ -1,0 +1,25 @@
+Adds a liferea persistence preset. This patch is implemented in
+persistence-setup:feature/6403-implement-liferea-persistence-preset but is here
+for testing. This file should be removed when a release of persistence-setup
+including this patch is merged.
+
+--- config.orig/usr/share/perl5/Tails/Persistence/Configuration/Presets.pm
++++ config/usr/share/perl5/Tails/Persistence/Configuration/Presets.pm
+@@ -125,6 +125,16 @@ method _build__presets {
+             icon_name   => 'user-bookmarks',
+         },
+         {
++            name        => $self->encoding->decode(gettext(q{Feed Reader configuration})),
++            description => $self->encoding->decode(gettext(
++                q{Liferea Feed Reader subscriptions and configuration}
++            )),
++            destination => '/home/amnesia/.config/liferea',
++            options     => [ 'source=liferea' ],
++            enabled     => 0,
++            icon_name   => 'liferea',
++        },
++        {
+             name        => $self->encoding->decode(gettext(q{Printers})),
+             description => $self->encoding->decode(gettext(
+                 q{Printers configuration}
+
