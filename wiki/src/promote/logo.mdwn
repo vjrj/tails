@@ -2,6 +2,8 @@
 
 The Tails logo is released under the GNU/GPL (version 3 or above).
 
+[[!toc levels=1]]
+
 <style>
 #logo {
   border: 1px solid red;
@@ -15,7 +17,10 @@ The Tails logo is released under the GNU/GPL (version 3 or above).
 SVG format
 ==========
 
-[[!map pages="lib/logo/*.svg"]]
+[[!map pages="promote/logo/*.svg"]]
+
+PNG format
+==========
 
 Square
 ------
