@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Issue resolved!"
- date="2012-11-14T05:36:19Z"
- content="""
-I have succeeded in making clone onto USB drive after restoring the image of Win-7. Actually Windows 8 Professional is crappiest operating system and doesn't allow Administrative access even to \"admin' users! One needs a lot of new things to learn to disable certain features, and above all it doesn't allow anyone to install Antivirus system :(
-
-So it was not allowing load USB DRIVERS in VMWare Workstation. So if you also face similar problem, clone Tails ISO onto USB through Windows-7.
-"""]]

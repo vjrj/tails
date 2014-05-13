@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-08T20:26:22Z"
- content="""
-IIRC we hide that icon by other means (CSS) due to the preferences settings not being applied if preseeded before the profile creation.
-"""]]

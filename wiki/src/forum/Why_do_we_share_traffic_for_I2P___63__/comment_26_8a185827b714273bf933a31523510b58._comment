@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 26"
- date="2012-10-20T12:14:18Z"
- content="""
-> Comment 23 has put it more clearly than I could.
-
-Comment 23 doesn't know what he is talking about (inability to spell “Tor” correctly is a hint). Tor and I2P are quite similar in their design, if one ignores exit nodes. Sharing traffic on I2P is similar to enabling Tor client to be a relay, and same deanonymization attacks apply.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-11-04T22:58:48Z"
- content="""
->The 'RC' stands for release candidate, you should use it for tests only..
-
-But when version 0.13 stable release contains an older version of the bundled browser which has torbutton problems and people are urged to update to 0.14-RC2, how can this only be for testing and not for resolving security bug(s)?
-"""]]

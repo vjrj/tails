@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 13"
- date="2012-10-18T22:23:39Z"
- content="""
-Then why isn't I2P set to start in hidden mode until tails users decide to share their PC with the I2P network?
-
-Tor doesn't start in share mode so there is no reason for I2P to do the same.
-"""]]

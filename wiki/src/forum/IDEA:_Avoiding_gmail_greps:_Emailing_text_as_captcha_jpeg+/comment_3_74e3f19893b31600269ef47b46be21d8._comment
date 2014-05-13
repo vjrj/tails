@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-09-07T02:11:24Z"
- content="""
-To specify the image format just give the appropriate extension to the output file's name... e.g \"text.jpeg\" or \"text.png\". Also of potential use, you could render the text content of an arbitrary text file by replacing your \"echo -e 'text' \" command with cat... \"cat /path/to/text/file/name.txt\"
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-12-18T07:30:20Z"
- content="""
-Correlation attacks are a big concern.  If abc123.onion gets tacken over by an adversary, then monitoring all users of tor in a country compared with when someone with user name \"jon do\" was online, then they could eventually figure out who that person is.  This has most likely already been in the process for sometime now.  
-"""]]

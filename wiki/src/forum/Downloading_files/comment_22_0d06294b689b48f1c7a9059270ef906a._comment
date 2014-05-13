@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 22"
- date="2012-11-05T11:52:34Z"
- content="""
-If you can, try to verify the hash of the file that you have download, to avoid posible malicious tor exit nodes, especially from sites that dont use https. And if you download a big file, each 10 minutes at least try to check that mid and exit node are different of the first mid and exit node, to avoid another issue, i dont remember the name..
-If you download tails iso, verify it and all will be fine.
-"""]]

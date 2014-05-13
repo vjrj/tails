@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 8"
- date="2012-07-16T18:56:09Z"
- content="""
-OP: your LED may not light up, even though your wireless is ready after you've done your wlan0 down, macchanger, wlan0 up. Does running ifconfig after you bring wlan0 up show that wlan0 is indeed running?
-
-If that doesn't work, try /sbin/ifconfig wlan0 up instead of ifconfig wlan0 up.
-"""]]

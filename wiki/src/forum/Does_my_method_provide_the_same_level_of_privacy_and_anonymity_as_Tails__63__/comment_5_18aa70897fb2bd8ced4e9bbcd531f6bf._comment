@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-09-04T18:09:53Z"
- content="""
->Well, if one's certain that their browser is free of any vulnerabilities, there is no possibility of DNS leakage and the like, and there is absolutely no other code on the system capable of connecting to the network,
-
-When one launches the Tor Browser Bundle, all network connections will have to go through Tor, including those of third-party applications, am I right? The \"tun\" or \"tap\" in Windows OS will be replaced when by those included in the Tor Browser Bundle??
-"""]]

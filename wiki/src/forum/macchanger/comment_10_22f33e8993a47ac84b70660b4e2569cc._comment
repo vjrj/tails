@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-05-11T10:14:18Z"
- content="""
-I see someone stated that if you use macchanger after booting up, your mac address has already leaked.  Is this only the case with wired connections, or does this apply to wireless connections as well?  When the network manager shows that there is a wireless connection available, have I already leaked my mac address?  Or is it safe to change the address and then connect?
-"""]]

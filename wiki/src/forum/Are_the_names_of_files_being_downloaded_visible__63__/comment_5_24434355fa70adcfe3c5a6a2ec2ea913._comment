@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-12-31T10:29:28Z"
- content="""
-Unfortunately, it's impossible to correctly answer the OP's question without a more precise definition of \"an attacker\". Would that be \"your ISP\", or \"the webserver's upstream\", or \"a global passive adversary\", or what?
-
-"""]]

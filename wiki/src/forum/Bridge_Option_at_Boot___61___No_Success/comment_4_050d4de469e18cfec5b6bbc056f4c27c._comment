@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-11-30T21:19:30Z"
- content="""
-It could be a conincidence but it seems to work if after entering the bridge addy it takes a while to double check it. During that time the Onion could become red Xed, then the bridge will work but it takes a long time. If clicking OK on the bridge addy too soon, before the red X, it seems to not work.
-
-So it appears to be a conflict there.
-"""]]

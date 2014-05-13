@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-11-14T12:37:56Z"
- content="""
-The checksum on that page is a SHA256 sum, not a MD5 sum. And it is up to date.
-"""]]

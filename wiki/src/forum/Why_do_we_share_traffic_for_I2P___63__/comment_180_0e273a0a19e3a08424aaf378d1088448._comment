@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="@tails - turn automatic i2p updating off"
- date="2012-10-29T17:44:13Z"
- content="""
-tails dev, please make sure that the i2p version bundled with tails has the automatic update function disabled.  There's no point updating a live-only distro and it would add load to the i2p update servers.  Thanks!
-"""]]

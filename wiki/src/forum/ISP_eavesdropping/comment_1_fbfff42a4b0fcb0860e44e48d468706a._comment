@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="An important point"
- date="2012-10-21T16:57:21Z"
- content="""
-\"the exit node has to decrypt the information being sent before connecting to the end destination\" UNLESS accessing an https page, in which case the connection from the exit router to the destination is also encrypted.
-"""]]

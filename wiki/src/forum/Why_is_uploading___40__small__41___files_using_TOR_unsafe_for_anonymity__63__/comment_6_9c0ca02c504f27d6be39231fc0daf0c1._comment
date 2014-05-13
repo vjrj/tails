@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Does a compressed .zip / .7z file also have metadata?"
- date="2012-09-05T15:32:15Z"
- content="""
-I always compress my plain text files in Tails. Does a compressed .zip or .7z file also have metadata? And plain text files itself?
-"""]]

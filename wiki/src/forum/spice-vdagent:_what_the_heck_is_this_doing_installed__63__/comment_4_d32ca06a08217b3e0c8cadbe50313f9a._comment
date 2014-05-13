@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-01T02:53:25Z"
- content="""
-I think what comment 1 was getting at is:
-
-If you start trawling through the system files, looking for files which *you* might not use on *your* system, then you'll find **MANY**. Probably **most**! Try video drivers for example. Stripping out everything you don't use/understand won't make your system any \"faster/securer/stabler\" or whatever it is you're trying to acomplish - quite the opposite in all probability. What is that made you single out Spice in particular? Was it the word \"server\" or \"agent\" perhaps?
-"""]]

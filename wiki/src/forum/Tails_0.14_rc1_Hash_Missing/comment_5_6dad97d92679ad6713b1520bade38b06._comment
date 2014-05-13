@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="@ comment 3"
- date="2012-10-15T07:10:09Z"
- content="""
->Because Microsoft is famous for its security? ratflamo
-
-We shall ignore this sarcastic comment of yours. It's really uncalled for since the topic is about a missing hash and I merely pointed that I supplied SHA-1 instead of SHA256 as the former is more commonly used, especially for Microsoft's downloadable products.
-"""]]

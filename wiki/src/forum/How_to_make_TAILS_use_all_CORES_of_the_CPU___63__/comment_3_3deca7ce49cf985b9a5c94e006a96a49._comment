@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="clarification needed please...."
- date="2012-11-14T22:01:29Z"
- content="""
->How did you install Tails? Only supported installation methods get the optimal kernel autodetection feature.
-
-I burned Tails ISO on to a DVD. Is that a supported installation method? If yes, how do I invoke all the CPU cores?
-"""]]

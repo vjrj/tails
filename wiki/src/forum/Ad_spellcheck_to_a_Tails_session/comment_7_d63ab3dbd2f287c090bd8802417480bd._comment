@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-06-28T13:00:21Z"
- content="""
-Using `apt-get install` together with persisting the local package cache will be far easier than using `dpkg -i`.
-"""]]

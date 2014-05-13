@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-04T21:42:37Z"
- content="""
-What would happen if the upgrade version needs more space than the older version and rest of the free space is occupied by the persistent volume on USB?  Would you have to re-configure the persistent volume to make more room for Tails?
-"""]]

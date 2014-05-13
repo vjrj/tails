@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 26"
- date="2012-10-14T12:22:02Z"
- content="""
-If you want all the media codecs and formats you can install all the non-free and \"bad\" gstreamer plugins for media player if you don't care about patents nonsense or live outside the US.  But it's a PITA to do so on Tails.
-
-The svn mplayer from the unofficial debian multimedia repo with the addition of w32codecs package has *everything* enabled already (default distro mplayers usually turn off proprietary codecs).  Only the nogui version seems to work on Tails though.
-"""]]

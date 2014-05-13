@@ -1,7 +1,0 @@
-For those who need help verifying the image. Copy and paste this code into the cmd prompt. Change the user name to your Windows user name. This also assumes the .iso and sig downloads were downloaded to the Downloads folder. gpg4win is also installed.
-
-     C:\Users\YourUserName>gpg --verify c:\Users\YourUserName\Downloads\tails-i386-0.14~rc1.iso.pgp c:\Users\YourUserName\Downloads\tails-i386-0.14~rc1.iso
-
-Results:
-
-gpg: Signature made 10/09/12 15:58:59 Pacific Daylight Time using RSA key ID BE2 CD9C1 gpg: Good signature from "Tails developers (signing key) <tails@boum.org>"

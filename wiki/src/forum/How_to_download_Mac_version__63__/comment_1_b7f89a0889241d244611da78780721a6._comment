@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-08T12:39:52Z"
- content="""
-Tails does not support \"old\" (powerpc) Mac hardware. Newer (x86) Mac hardware is more or less supported by Tails, no need to download a special version. You may have a hard time having it boot: Apple hardware is a pain to support, none of us has any, and we rarely get enough input from users to actually do anything about it.
-
-"""]]

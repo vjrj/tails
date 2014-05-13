@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-08-07T13:44:51Z"
- content="""
-This is a new feature and doesn't have much to do with the UI revamp, so I created a [[separate todo item|todo/tails-greeter:_add_florence]].
-"""]]

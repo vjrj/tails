@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-06-23T14:23:42Z"
- content="""
-I've spent a whole freaking day trying to get .12 working on a USB stick.  Tried several different sticks, two different computers (all of which worked for .11 and work with .12 from a DVD).  Once I got a USB stick that actually started to boot: only to freeze with the Glib_warning that other people have reported.  Now I can't even get that far: \"no bootable partition found\" is the best I can do.  I've tried the offical instructions, and done my best to follow the hints that others have left in the forum who claimed to have gotten it working: to no avail.  Assuming that .12 actually can be made to work on a USB stick, is it really that hard to come up with a set of instructions that will take a USB stick from whatever begining state it might be in and transform it into a working Tails drive?
-"""]]

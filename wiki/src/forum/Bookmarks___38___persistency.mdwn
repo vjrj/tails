@@ -1,5 +1,0 @@
-
-
-I,ve got tails on a usb and have realised that my iceweasle bookmarks aren't brought through or saved in the persistent volume. They're lost everytime i shut down.
-
-Is the only way to have access to my bookmarks to save as html/json in the persistent volume &reimport on every session (and remember to save everytime i change bookmarks) or is there an easier way. Like setting tails to save bookmarks in the persistent volume?

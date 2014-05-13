@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-12-15T21:31:58Z"
- content="""
-Afterthought: \"single-user mode\" means the OS (Tails, Debian) won't try to start a windowing system (usually Gnome) at all, but will dump you in a text only virtual terminal, just like the good old days before there were windowing systems.  
-
-I suppose one could just try the failsafe mode and see what happens.  If you get a text only screen you will probably see a message telling you how to shut down the system, but if not, try \"shutdown -h now\".
-"""]]

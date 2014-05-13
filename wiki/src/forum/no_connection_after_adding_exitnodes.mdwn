@@ -1,5 +1,0 @@
-Hi, today I upgraded USB and when I try to add ExcludeNodes in torrc file, firefox loose connection. even it is written tor connected in Vidalia control panel.
-
-I do as I did before, gedit /etc/tor/torrc and then I add ExcludeNodes 80.237.226.74................ 
-
-but this time it is not functional.

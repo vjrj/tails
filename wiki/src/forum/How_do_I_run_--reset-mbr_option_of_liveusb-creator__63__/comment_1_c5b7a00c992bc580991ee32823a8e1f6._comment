@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-19T12:45:10Z"
- content="""
-I think the easiest would be to first \"Clone and install\" so that the target USB stick has a recognized MBR, then \"Upgrade from ISO\".
-"""]]

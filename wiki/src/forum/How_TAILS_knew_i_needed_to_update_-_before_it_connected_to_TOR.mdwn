@@ -1,8 +1,0 @@
-I boot up Tails 0.11, i plugged network in. Nothing happened for a while, it needed to synchronize the clock... A popup appeared that Tails 0.11 is not secure anymore.
-But i didn't see the onion icon. It took a while until it appeared, and it was then yellow. A little bit after it went green and iceweasel loaded the tor-check.
-
-How did it know it was outdated without being connected to tor?
-
-Does it connect directly to the tails servers?
-
-Why?!

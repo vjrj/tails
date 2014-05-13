@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="SHould work"
- date="2012-04-07T13:07:12Z"
- content="""
-As far as i know, any file hoster should work. are you having problems with any specific one? Some might block your tor IP, just restart and try again
-"""]]

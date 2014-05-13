@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-01-07T10:28:29Z"
- content="""
-The [nouveau](http://nouveau.freedesktop.org/) driver *is* already in Tails.
-Please read [[contribute/faq]] next time you want to suggest something :)
-"""]]

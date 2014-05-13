@@ -1,9 +1,0 @@
-I remember coming across a distro in development where each window was a virtualized application defined by things like "Work" and "Home" and they wouldn't interact with each other. They were distinguished by colored borders. This got me thinking about a desktop where each workspace would have its own network settings.
-
-1. Workspace 1 - Tor
-2. Workspace 2 - VPN/Proxy
-3. Workspace 3 - Clearnet
-
-The latter two would have an initial popup dialog to configure settings or display a warning. Desktop themes can be Green, Yellow, & Red, respectively to signify potential anonymity. The launch applications would use the workspace-defined network. 
-
-Granted, a setup like this would turn Tails into a more universal live operating system, but I think the flexibility would be appreciated by users so that they may use the service of their choice without complications or rebooting, such as VPNs for bittorrent/ftp or Clearnet for shopping/work tasks.

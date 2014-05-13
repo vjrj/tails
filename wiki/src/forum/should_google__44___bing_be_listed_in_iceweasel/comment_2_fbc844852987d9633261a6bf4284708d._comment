@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-06-14T20:37:46Z"
- content="""
-The default search engine has been Startpage for a while.
-There's a [[bug|bugs/languages_without_a_localized_Startpage_get_Google_by_default]], though.
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="No"
- date="2012-09-04T12:35:38Z"
- content="""
-'droids use ARM processors, Tails only has an IA32 kernel at present and all the code running on it is 386 specific... the whole lot would have to be \"ported\" to ARM and you'd end up with another Tails .ISO - that would run on ARM but not on Intel/AMD computers.
-"""]]

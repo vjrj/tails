@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="solution to your troubles"
- date="2012-08-26T22:38:46Z"
- content="""
-tell you what mate,here is what i do.set everything up like location,mate,and follow through with right click removal of the clock applet.now jump to terminal and kill the gnome panel.the desktop refreshes and now mate do a netstat and the panel isn't waiting anymore on the proxy port 8118 mate so your problem is solved.mate,if you be needin time information,now that you disabled clock applet,mate just look at your cell phone,clock,or other device with time mate you dont need a clock applet mate.now your passing of location data through tor won't happen mate.cheers
-"""]]

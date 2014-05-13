@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-12-13T21:09:52Z"
- content="""
-Not to be used in any way other than for development and experimental purposes (i.e., do not use if compromising Tails would put you at risk), but I have a few lines that will enable audio in the Unsafe Browser and install flash prior to running.
-"""]]

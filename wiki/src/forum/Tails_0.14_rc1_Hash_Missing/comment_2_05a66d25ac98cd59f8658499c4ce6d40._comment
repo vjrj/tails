@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="SHA-1"
- date="2012-10-14T22:44:22Z"
- content="""
->SHA-1: ea2c54c273b32a43d73bca525674ac7bde72f7b0
-
-N.B.: I supplied SHA-1 hash because Microsoft uses it for all its downloadable products under TechNet, MSDN, Bizpark, Dreamspark, Software Assurance subscriptions.
-"""]]

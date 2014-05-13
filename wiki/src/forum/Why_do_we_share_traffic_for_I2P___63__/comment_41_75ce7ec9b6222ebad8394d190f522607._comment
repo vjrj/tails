@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Isn't this pointless unless you mount sensitive volumes before accidentally starting i2p?"
- date="2012-10-21T05:11:48Z"
- content="""
-Tails is an amnesiac live cd... wouldn't you need to accidentally mount your sensitive data, accidentally start I2P, then accidentally point I2P at those sensitive files, without noticing what you'd done, for this \"problem\" to be a problem?
-"""]]

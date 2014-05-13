@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-11-19T01:22:58Z"
- content="""
-You seem to comprehend the basic concepts. If you're having difficulty selecting the signature with its .iso.pgp extension you can always rename it to .iso.sig
-
-The pgp verification method is quicker, easier and more secure than trying to create a trustworthy alternative using hashes over https
-"""]]

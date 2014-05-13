@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-11-11T06:23:28Z"
- content="""
-The warning in the official Tor documentation states clearly that if an ISP \"REALLY wants to see\" (as the OP put it) what a user is doing, (and if they have the resources), then they can.
-
-Comment 4 should have added a qualifier such as, \"assuming they are not targeting you\" or similar.
-"""]]

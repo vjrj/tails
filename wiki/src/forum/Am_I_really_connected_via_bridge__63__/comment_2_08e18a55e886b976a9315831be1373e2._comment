@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-06-30T00:24:02Z"
- content="""
-I've got 3 bridges in my list, but whatever I do (new identity, restarting vidalia) netstat shows that always only the first bride on the list is in use. Will second bridge be in use only if the first one is inactive? And third if previous two are inactive and so on?
-"""]]

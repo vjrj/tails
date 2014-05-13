@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-04T21:44:42Z"
- content="""
-How much safer is aes-cbc-essiv:sha256 encryption compared to the TrueCrypt encrypted volume?
-"""]]

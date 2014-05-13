@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-09-03T08:06:13Z"
- content="""
-What is the purpose of including a 64-bit kernel in addition to a PAE kernel? It looks more and more like you don't understand what you are doing.
-"""]]

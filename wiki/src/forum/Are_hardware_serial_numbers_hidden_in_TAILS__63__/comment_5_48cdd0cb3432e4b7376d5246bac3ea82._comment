@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="what command ... MAC address of my network interface?"
- date="2012-09-28T03:25:42Z"
- content="""
-I'm not using Tails at this moment so I can't check it, but you can usually list your MAC address on a linux box with:
-  /sbin/ifconfig | grep HWaddr
-
-"""]]

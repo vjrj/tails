@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Bridges"
- date="2012-10-21T18:13:51Z"
- content="""
-If you use bridges, your ISP may have more difficulty in verifying that you are connecting to the Tor network.  If you don't, your connections to directory servers and to Entry Guards will be easily recognizable, because the IPs of these servers are public information.
-
-If you have a spare computer you don't mind losing, its probably a very good idea to try to operate it 24/7 as a Tor relay.  This is not as dangerous as operating an Exit relay because everything is encrypted and at least in most \"Western\" countries, it seems that most anti-piracy services and police e-crime units are becoming aware of Tor and maybe even the distinction between relays and exit nodes.
-"""]]

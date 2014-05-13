@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-19T12:12:52Z"
- content="""
-> I seriously doubt that Tails is covertly reading/writing anything from/to your hard drive. It would be discovered and the project would be dead.
-
-Tails is unconditionally connecting to its servers on each boot, and the project is not dead. Tails could add boot menu settings persistence (for example) in a small hard drive portion, and you would probably say it's fine and justified.
-"""]]

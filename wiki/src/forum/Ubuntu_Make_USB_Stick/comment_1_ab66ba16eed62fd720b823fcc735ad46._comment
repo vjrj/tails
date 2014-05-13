@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-05T16:47:23Z"
- content="""
-`isohybrid` has appeared in Natty, according to <http://packages.ubuntu.com/natty/i386/syslinux/filelist>. Try to install the `syslinux` from a more recent version of Ubuntu.
-"""]]

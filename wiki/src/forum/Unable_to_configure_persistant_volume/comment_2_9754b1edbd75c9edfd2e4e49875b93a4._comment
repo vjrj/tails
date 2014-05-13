@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="usb tails"
- date="2012-09-25T16:19:59Z"
- content="""
-i found out, that if i install tails on a usb thrpugh tails, it doesnt boot. i have to format my usb in fat 16 and use usb installer to do it, it boots fine, but cannot use persistance, because i didnt create it through tails!
-"""]]

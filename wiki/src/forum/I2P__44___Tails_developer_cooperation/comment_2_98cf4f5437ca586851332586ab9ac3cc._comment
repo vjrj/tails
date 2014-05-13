@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-31T08:51:09Z"
- content="""
-We do our best. Unfortunately, I2P releases are usually done a few weeks after Firefox ESR releases. We decided to synchronize on the later, so I2P is usually lagging. Not optimal, but we can't be in phase with every projects at the same time.
-"""]]
