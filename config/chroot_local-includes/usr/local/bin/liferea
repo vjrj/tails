@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/usewithtor /usr/bin/liferea "$@"
