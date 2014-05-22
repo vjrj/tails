@@ -268,6 +268,16 @@ volume. This does not apply to the Unsafe web browser.
 When this feature is activated, the configuration of the printers is saved in the
 persistent volume.
 
+<a id="feeds"></a>
+
+<div class="icon">
+[[!img liferea.png link=no]]
+<div class="text"><h2>Feed Reader configuration</h2></div>
+</div>
+
+When this feature is activated, Liferea Feed Readeri subscriptions are saved in the
+persistent volume.
+
 <a id="dotfiles"></a>
 
 <div class="icon">
