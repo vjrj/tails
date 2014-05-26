@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-25 11:00+0200\n"
+"POT-Creation-Date: 2014-05-26 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -536,6 +536,29 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "When this feature is activated, the configuration of the printers is saved "
+"in the persistent volume."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"feeds\"></a>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img liferea.png link=no]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"text\"><h2>Feed Reader configuration</h2></div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"When this feature is activated, Liferea Feed Reader subscriptions are saved "
 "in the persistent volume."
 msgstr ""
 
