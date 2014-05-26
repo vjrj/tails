@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/bin/usewithtor /usr/bin/liferea "$@"
+exec torsocks /usr/bin/liferea "$@"
