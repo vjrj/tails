@@ -1,6 +1,7 @@
 def persistent_dirs
   ["/etc/cups",
    "/home/#{$live_user}/.claws-mail",
+   "/home/#{$live_user}/.config/liferea",
    "/home/#{$live_user}/.gconf/system/networking/connections",
    "/home/#{$live_user}/.gnome2/keyrings",
    "/home/#{$live_user}/.gnupg",
@@ -127,7 +128,7 @@ Given /^I enable all persistence presets$/ do
   # Mark first non-default persistence preset
   @screen.type(Sikuli::Key.TAB*2)
   # Check all non-default persistence presets
-  12.times do
+  13.times do
     @screen.type(Sikuli::Key.SPACE + Sikuli::Key.TAB)
   end
   @screen.wait_and_click('PersistenceWizardSave.png', 10)
