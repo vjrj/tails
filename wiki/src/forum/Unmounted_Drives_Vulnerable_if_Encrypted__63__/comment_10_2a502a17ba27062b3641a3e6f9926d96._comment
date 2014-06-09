@@ -11,7 +11,7 @@ Consider a scenario in which a whistleblower with knowledge of illegal activitie
 * read a file into RAM
 * unmount the drive
 * connect to internet
-* use Tails browser to upload the file to a whistleblower site
+* use Tor browser to upload the file to a whistleblower site
 
 Unfortunately, it seems possible that in this scenario the encryption keys for the encrypted drive could still reside in RAM, and if the would-be-whistleblower is subjected to a MITM attack (possibly using a stolen or improperly issued certificate) it seems that at least one widely deployed state-sponsored-malware can steal the key information from the RAM in a running computer. See
 
