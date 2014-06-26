@@ -17,7 +17,7 @@ Given /^the computer is an old pentium without the PAE extension$/ do
 end
 
 def which_kernel
-  kernel_path = @vm.execute("/usr/local/bin/tails-get-bootinfo kernel").stdout.chomp
+  kernel_path = @vm.execute("/usr/share/wiperam/get-bootinfo kernel").stdout.chomp
   return File.basename(kernel_path)
 end
 
