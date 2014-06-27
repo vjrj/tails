@@ -1,0 +1,29 @@
+--- chroot.orig/etc/init.d/kexec.orig	2014-06-27 09:17:21.441326000 +0000
++++ chroot/etc/init.d/kexec	2014-06-27 09:17:49.617326000 +0000
+@@ -15,6 +15,11 @@
+ . /lib/lsb/init-functions
+ 
+ test -r /etc/default/kexec && . /etc/default/kexec
++if [ -d /etc/default/kexec.d ] ; then
++        for snippet in $(run-parts --list /etc/default/kexec.d) ; do
++                . "$snippet"
++        done
++fi
+ 
+ do_stop () {
+ 	test "x`cat /sys/kernel/kexec_loaded`y" = "x1y" || exit 0
+--- chroot.orig/etc/init.d/kexec-load	2014-06-27 09:17:58.289326000 +0000
++++ chroot/etc/init.d/kexec-load	2014-06-27 09:18:07.505326000 +0000
+@@ -16,6 +16,11 @@
+ . /lib/lsb/init-functions
+ 
+ test -r /etc/default/kexec && . /etc/default/kexec
++if [ -d /etc/default/kexec.d ] ; then
++        for snippet in $(run-parts --list /etc/default/kexec.d) ; do
++                . "$snippet"
++        done
++fi
+ 
+ process_grub_entry() {
+ 	initrd_image=
+
