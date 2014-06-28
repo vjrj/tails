@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -e
+
+# Including common functions
+. "${LB_BASE:-/usr/share/live/build}"/scripts/build.sh
+
+# Setting static variables
+DESCRIPTION="$(Echo 'adding SYSAPPEND parameter to the syslinux menu')"
+HELP=""
+USAGE="${PROGRAM}"
+
+# Reading configuration files
+Read_conffiles config/all config/bootstrap config/common config/binary
+Set_defaults
+
+# Safeguards
+if [ "${LB_BOOTLOADER}" != "syslinux" ]
+then
+	exit 0
+fi
+if [ "${LB_ARCHITECTURE}" != "i386" ]
+then
+	exit 0
+fi
+
+# Seems like we'll have work to do
+Echo_message "adding SYSAPPEND parameter to the syslinux menu"
+
+# Setting boot method specific variables
+case "${LB_BINARY_IMAGES}" in
+	iso|iso-hybrid)
+		SYSLINUX_PATH="binary/isolinux"
+		SYSLINUX_CFG="${SYSLINUX_PATH}/isolinux.cfg"
+		;;
+	usb-hdd)
+		SYSLINUX_PATH="binary/syslinux"
+		SYSLINUX_CFG="${SYSLINUX_PATH}/syslinux.cfg"
+		;;
+esac
+
+# Setting variables
+SYSLINUX_LIVE_CFG="${SYSLINUX_PATH}/live.cfg"
+
+# Patch live.cfg to add the SYSAPPEND parameter
+perl -pi -E 'if (/^(\s+)append\s+/) { say "$1sysappend 0x40000"}' "${SYSLINUX_LIVE_CFG}"
