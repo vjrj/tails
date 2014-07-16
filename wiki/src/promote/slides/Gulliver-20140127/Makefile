@@ -6,12 +6,12 @@ default:	all
 %.mdwn.txt: %.mdwn
 	cp -f $< $@
 
-%.html.txt: %.html
+%.shtml: %.html
 	cp -f $< $@
 
 clean:
 	rm -f slides.html
 
-export: slides.mdwn.txt slides.html.txt
+export: slides.mdwn.txt slides.shtml
 
 all: slides.html
