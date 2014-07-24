@@ -25,33 +25,64 @@ After working on a prototype and do UX testing with Numa people, we arrived to
 the proposal described here.
 
 **WARNING**: these complex SVG files are often not well rendered in a browser.
-Please view them with Inkscape before sending feedback.
+They are thus exported as PNG. If you update the SVG please also update the PNGs.
 
 Flow
 ----
 
-[[greeter-flow.svg]]
+[[!img greeter-flow.png size="" alt=""]]
+
+<a href="greeter-flow.svg">source</a>
 
 1st screen
 ----------
 
 When started from DVD or freshly installed media:
 
-[[greeter-1st-screen-dvd.svg]]
+[[!img greeter-1st-screen-dvd.png size="" alt=""]]
+
+<a href="greeter-1st-screen-dvd.svg">source</a>
 
 On a media with a persistent volume:
 
-[[greeter-1st-screen-persistence.svg]]
+[[!img greeter-1st-screen-persistence.png size="" alt=""]]
+
+<a href="greeter-1st-screen-persistence.svg">source</a>
 
 On a media with saved language and a persistent volume:
 
-[[greeter-1st-screen-langsaved.svg]]
+[[!img greeter-1st-screen-langsaved.png size="" alt=""]]
+
+<a href="greeter-1st-screen-langsaved.svg">source</a>
+
+Guided configuration
+--------------------
+
+[[!img greeter-guided-intro.png size="" alt=""]]
+
+<a href="greeter-guided-intro.svg">source</a>
 
 
-Advanced options
-----------------
+[[!img greeter-guided-context.png size="" alt=""]]
 
-[[greeter-advanced-screen.svg]]
+<a href="greeter-guided-context.svg">source</a>
+
+
+[[!img greeter-guided-save.png size="" alt=""]]
+
+<a href="greeter-guided-save.svg">source</a>
+
+
+[[!img greeter-guided-check.png size="" alt=""]]
+
+<a href="greeter-guided-check.svg">source</a>
+
+Advanced configuration
+----------------------
+
+[[!img greeter-advanced-screen.png size="" alt=""]]
+
+<a href="greeter-advanced-screen.svg">source</a>
 
 Next steps
 ==========
