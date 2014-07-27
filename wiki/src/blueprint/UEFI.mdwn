@@ -429,6 +429,7 @@ Resources
   `ovmf` package): `qemu-system-x86_64 -bios /usr/share/ovmf/OVMF.fd`
 * Ubuntu's Firmware Test Suite
   - [homepage](https://wiki.ubuntu.com/FirmwareTestSuite)
+  - [[!debbugs 748783 desc="Debian ITP"]]
   - [live version](https://wiki.ubuntu.com/HardwareEnablementTeam/Documentation/FirmwareTestSuiteLive)
   - [reference guide](https://wiki.ubuntu.com/Kernel/Reference/fwts)
 * Peter Jones' [The EFI System Partition and the Default Boot
@@ -466,9 +467,13 @@ Else:
 
 ### Usage in VM
 
-* [[!debbug 714496]] documents how to use OVMF with libvirt.
-* The [OVMF page](http://www.linux-kvm.org/page/OVMF) on the Linux KVM
-  website documents this too.
+* [[!debbug 714496]] documents how to use OVMF with libvirt. The [OVMF
+  page](http://www.linux-kvm.org/page/OVMF) on the Linux KVM website
+  documents this too. In short, add this line to the `<os>`
+  section:
+
+              <loader>/usr/share/ovmf/OVMF.fd</loader>
+
 * Instructions that document `-pflash` & `-bios` options for running
   OVMF on QEMU can be found in the *OvmfPkg/README: Update information
   about running OVMF*

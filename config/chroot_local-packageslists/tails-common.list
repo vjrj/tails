@@ -70,11 +70,8 @@ gksu
 
 ### Software
 
-#include <standard-x11>
-
 aircrack-ng
 audacity
-barry-util
 bilibop-udev
 cups
 cryptsetup
@@ -125,7 +122,6 @@ gobby-0.5
 #if ARCHITECTURE i386 amd64
 # grub
 #endif
-gstreamer0.10-ffmpeg
 gstreamer0.10-plugins-base
 gstreamer0.10-plugins-good
 gstreamer0.10-plugins-ugly
@@ -141,6 +137,8 @@ iceweasel-l10n-all
 inkscape
 ipheth-utils
 iptables
+# ships isolinux.bin in syslinux 6.x packaging
+isolinux
 ferm
 keepassx
 kexec-tools
@@ -153,7 +151,8 @@ libqt4-qt3support
 libsane-hpaio
 liferea
 live-config
-live-config-sysvinit
+live-config-systemd
+live-tools
 lvm2
 macchanger
 mat
@@ -166,9 +165,9 @@ msva-perl
 mutt
 nautilus
 nautilus-wipe
+nautilus-gtkhash
 network-manager-gnome
 ntfs-3g
-ntfsprogs
 obfsproxy
 libreoffice-calc
 libreoffice-draw
@@ -209,6 +208,8 @@ seahorse-nautilus
 secure-delete
 simple-scan
 sshfs
+# ships the *.c32 modules in syslinux 6.x packaging
+syslinux-common
 system-config-printer
 systemd
 synaptic
@@ -227,11 +228,9 @@ tor-arm
 totem
 ttdnsd
 unar
-unrar-free
 usbutils
 vidalia
 vim-nox
-virtualbox-guest-utils
 wireless-tools
 xul-ext-adblock-plus
 xul-ext-foxyproxy-standard
@@ -316,10 +315,9 @@ brasero
 ### Accessibility
 ## mouse accessibility enhancements
 mousetweaks
-## screen magnifier
-gnome-mag
 ## text-to-speech
 gnome-orca
+at-spi2-core
 ## high-contrast theme
 gnome-accessibility-themes
 ## graphical predictive text input system
@@ -350,11 +348,10 @@ usb-modeswitch-data
 ### Printing support
 foomatic-db
 foomatic-db-engine
-foomatic-filters
 hpijs-ppds
 hplip
-hplip-cups
 printer-driver-escpr
+printer-driver-hpcups
 
 ### Make the MAT more powerful
 gir1.2-poppler-0.18
@@ -374,10 +371,9 @@ python-configobj
 python-qt4-dbus
 python-urlgrabber
 
-### Windows XP theme ###
-gnome-theme-xpluna
-gnome-xp-icon-theme
-xp-cursor-theme
+### Windows8 theme ###
+gnome-theme-windows8
+window-picker-applet
 
 ### Needed by virtualbox-guest-utils
 pciutils

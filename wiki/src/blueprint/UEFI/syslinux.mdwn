@@ -5,22 +5,7 @@
 Known issues
 ============
 
-* Mac: *some* Mac need rEFInd installed to boot Tails in UEFI mode.
-* Mac: *some* Mac fail to shutdown properly when booted in UEFI mode.
-* Boot menu display issues (ThinkPad X230, MacBookPro8,1): when
-  booting in UEFI mode, the syslinux boot menu is not displayed
-  properly, and one cannot see the kernel command-line when
-  editing it.
-* VirtualBox 4.1.18-dfsg-2+deb7u3: doesn't boot at all from DVD (EFI mode
-  doesn't help). This was with an image built from commit e0a3c64
-  in `feature/uefi`.
-* Apple MacBookPro5,5 does not boot with Tails in UEFI mode. We are told it
-  is due to missing native USB drivers, and the Plop boot-manager can
-  fix it, as it has this drivers.
-* Apple MacBook Air 3,2 A1369 EMC 2392, with rEFInd 0.7.8, USB
-  stick installed with Tails Installer: fails to boot.
-* Fails to boot from DVD on early 2011 MacBook pro, while 0.23
-  boots fine.
+See [[support/known issues]].
 
 Miscellaneous test results
 ==========================
@@ -92,7 +77,9 @@ Miscellaneous test results
 * Boots fine on Hewlett-Packard Presario CQ57
 * Boots fine on Apple MacBook Air 3,2 A1369 EMC 2392, with rEFInd
   0.7.8 installed, when installed with isohybrid + dd.
-* Boots fine on ASUS ux31a in CSM mode, when installed with isohybrid + dd.
+* Boots fine on ASUS ux31a
+  - in CSM mode, when installed with isohybrid + dd
+  - in UEFI mode, when installed with Tails Installer
 * Boots fine on Lenovo Thinkpad T400.
 * Boots fine on Mac Mini 2.3 Ghz Intel Core i7 from DVD, and from USB
   stick created with Tails Installer.
@@ -100,3 +87,9 @@ Miscellaneous test results
   with Tails Installer on the same machine.
 * Boots fine from DVD on VirtualBox 4.3.10-dfsg-1~bpo70+1 (as of commit e0a3c64
   in `feature/uefi`).
+* Boots fine on Lenovo G700.
+* Boots fine from DVD on Lenovo B570.
+* Boots fine from DVD on Lenovo Z61t.
+* Boots fine from DVD on HP Pavilion dm4-1150ca.
+* Boots fine on Asus Z87 Pro motherboard (Tails 1.1~beta1) off a USB
+  stick installed with Tails Installer.

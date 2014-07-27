@@ -9,7 +9,7 @@ export TEXTDOMAIN
 TORDATE_DIR=/var/run/tordate
 TORDATE_DONE_FILE="${TORDATE_DIR}/done"
 INOTIFY_TIMEOUT=60
-MIN_MEMFREE=$((200 * 1024))
+MIN_MEMFREE=$((125 * 1024))
 MIN_TOTAL_MEMFREE=$((500 * 1024))
 RUN_AS_USER=tails-upgrade-frontend
 
@@ -69,5 +69,9 @@ sleep 30
 check_free_memory "$MIN_MEMFREE" "$MIN_TOTAL_MEMFREE"
 
 xhost +SI:localuser:"$RUN_AS_USER"
-gksudo -u "$RUN_AS_USER" "/usr/bin/tails-upgrade-frontend $@"
+if [ $# -gt 0 ] ; then
+   gksudo -u "$RUN_AS_USER" "/usr/bin/tails-upgrade-frontend $@"
+else
+   gksudo -u "$RUN_AS_USER" /usr/bin/tails-upgrade-frontend
+fi
 xhost -SI:localuser:"$RUN_AS_USER"
