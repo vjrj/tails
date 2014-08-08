@@ -12,6 +12,28 @@
     <li>[[Help &amp; Support|support]]</li>
     <li>[[Contribute]]</li>
     <li>[[News|news]]</li>
+    <section class="ac-container">
+      <div>
+        <input id="ac-1" name="accordion-1" type="checkbox" />
+        <label for="ac-1">Quick Links</label>
+        <article class="ac-small">
+          <div class="links">
+            <ul>
+              <li><a href="https://labs.riseup.net/code/projects/tails/roadmap">Roadmap</a></li>
+              <li>[[Design document|contribute/design]]</li>
+              <li>[[Known issues|support/known_issues]]</li>
+              <li>[[Report an issue|doc/first_steps/bug_reporting]]</li>
+              <li>[[Request a feature|news]]</li>
+	      <li><a href="https://labs.riseup.net/code/projects/tails/issues?query_id=111">Next release changes</a></li>
+	      <li><a href="https://tor.stackexchange.com/questions/tagged/tails">Q&A <span style="font-size:12px;">(external website)</span></a></li>
+	      <li>[[Git repositories|contribute/git]]</li>
+	      <li>[[Mailing list|support/tails-support]]</li>
+	      <li>[[License|doc/about/license]]</li>
+            <ul>
+          </div>
+        </article>
+      </div>
+    </section>
   </ul>
 </div>
 
