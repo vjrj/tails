@@ -73,6 +73,7 @@ gksu
 #include <standard-x11>
 
 aircrack-ng
+apt-offline
 audacity
 barry-util
 bilibop-udev
