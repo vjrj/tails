@@ -1,0 +1,95 @@
+[[!meta title="Serve files over HTTP behind a Tor Hidden Service"]]
+
+1. Start Tails on a device with a persistent volume. At the Tails greeter: Use
+persistence, more options - set
+[[administration|/doc/first_steps/startup_options/administration_password]]
+password. Open Tor browser.
+
+2. Download the version of
+[thttpd](http://www.acme.com/software/thttpd/notes.html) compatible for the
+appropriate architecture (for example i386) from
+[Debian](https://packages.debian.org/squeeze/thttpd), saving the package to
+<span class="filename">/home/amnesia/Persistent</span>.
+
+3. Create an <span class="filename">index.html</span> (and any other files you
+need for the server) in a new directory <span
+class="filename">/home/amnesia/Persistent/www</span>.
+
+<div class="tip">
+
+For those unfamiliar with HTML: take a look at [w3schools.com](http://www.w3schools.com/html/html_examples.asp) for some basics. This should be more than enough to get a Hidden Service started.
+
+</div>
+
+4. Create a text file <span class="filename">ttt</span> in <span class="filename">/home/amnesia/Persistent</span> then copy the following code and paste it into <span class="filename">ttt</span>:
+
+       #!/bin/bash
+       dpkg -i /home/amnesia/Persistent/thttpd_2.25b-11_i386.deb
+       ## Edit "2.25b-11_i386" if different
+       echo "ENABLED=yes" > /etc/default/thttpd
+       cp -R /home/amnesia/Persistent/www /var
+       chmod 755 /var/www
+       chmod -R a+r /var/www/* 
+       /etc/init.d/thttpd start
+       echo -n "HiddenServiceDir /var/lib/tor/hidden_service/
+       HiddenServicePort 80 " >> /etc/tor/torrc
+       hostname -I >> /etc/tor/torrc
+       /etc/init.d/tor restart
+       sleep 5
+       cat /var/lib/tor/hidden_service/hostname
+
+- save <span class="filename">ttt</span>.
+
+5. This technique uses the command line. Open the [[root|doc/first_steps/startup_options/administration_password]] terminal and execute the following commands:
+
+       chmod 755 /home/amnesia/Persistent/ttt
+
+       /home/amnesia/Persistent/ttt
+
+The last line of the terminal output is the URL of the <span
+class="filename">hidden_service</span> address:
+
+       Starting web server: thttpd.
+       [ ok ] Stopping tor daemon...done.
+       [ ok ] Starting tor daemon...done.
+       <b>****************.onion</b>
+       root@amnesia:/home/amnesia# 
+
+So copy it (Shift+Ctrl+C) and paste into the Tor browser address bar - <span
+class="filename">index.html</span> should load.
+
+6. Then **either**:
+
+   A. save this URL with its <span class="filename">private_key</span>;
+
+          cp -R /var/lib/tor/hidden_service /home/amnesia/Persistent
+
+   B. **or**, use a previously saved <span class="filename">hidden_service</span> -
+
+      i. if it is saved on another Tails USB, unlock and mount this USB with
+[[Disk Utilty|doc/encryption_and_privacy/encrypted_volumes]], then copy the
+<span class="filename">hidden_service</span> directory to the 'live' USB
+
+         cp -R /media/TailsData/Persistent/hidden_service /home/amnesia/Persistent
+
+      i. then copying it again to where it is needed.
+
+          cp -R /home/amnesia/Persistent/hidden_service /var/lib/tor
+
+7. Now check the directory permissions,
+
+       ls -l /var/lib/tor | grep hidden_service
+
+   and fix if neccessary.
+
+       chown debian-tor /var/lib/tor/hidden_service
+
+8. Restart Tor again.
+
+       /etc/init.d/tor restart
+
+9. Print the URL of this previously saved <span class="filename">hidden_service</span> address,
+
+       cat /var/lib/tor/hidden_service/hostname
+
+   then C&P it into Tor browser address bar - <span class="filename">index.html</span> should load.
