@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2012-10-15T10:06:43Z"
- content="""
-I'd consider enabling javascript by default in *any* browser, in a distro such as Tails, to be foolhardy. In fact, it's Tails' conservative approach that's my primary \"Why Tails?... Not Liberté Linux ?\" criterion.
-
-PS. Since it's been raised, I'm also pleased there's no ABP logo cluttering up the UI ;o)
-"""]]

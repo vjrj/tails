@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-10-14T23:56:46Z"
- content="""
-I used the same command in Windows with just downloading the sig from the download page, without any import commands after. The result was a good sig.
-
-Is there something fishy since I didn't import it first?
-"""]]

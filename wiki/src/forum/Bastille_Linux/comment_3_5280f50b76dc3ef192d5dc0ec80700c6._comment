@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-12-07T15:07:46Z"
- content="""
-> I'm pretty sure it wasn't a Japanese exit node. I mean, how many of those are there? 
-
-While its true that Japanese exit nodes aren't exactly the most common it is the most likely cause of the website thinking you are Japanese, Tails doesn't give the websites any real identifiable information about your computer (like locale, keyboard language, etc) through the browser referrer so your IP is the only thing the website has to attempt to geolocate you.
-"""]]

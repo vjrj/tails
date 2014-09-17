@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-07-18T22:22:00Z"
- content="""
-Well that depends on what you mean by strong. If you mean can anyone use a computer to calculate all the possible combinations you could use as a password, then no, the previous ccomment is correct, AES is extremely strong in that context. But you will find that Encription is a process and can be broken in other ways besides the above mentioned \"brute force\" method. I started using disk utility for a while until I realised that it doesn't support \"plausible deniability\". That means that many governments around the world can just simply throw you in jail if they find a disk utility volume and you refuse not to give them the key to everything. Either you live in a world in which the authorities are uncorruptable and never make mistakes, along with the legal system being perfect and a jury of 12 of you peers always deciding along with god and making infallable decisions, or you find an encription system other than LUCKS
-"""]]

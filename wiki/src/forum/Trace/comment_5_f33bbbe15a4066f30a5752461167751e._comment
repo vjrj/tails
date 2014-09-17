@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-06-26T12:31:05Z"
- content="""
-all what is said above, and besides I highly unrecommend you use Tails using a virtual machine inside the windows provided by your employee, since your employee may have placed a live screen capture and others on that windows. boot your computer directly to tails.
-"""]]

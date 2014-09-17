@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-09-23T11:22:47Z"
- content="""
-This is not an issue in Tails, /var/lib/dbus/machine-id doesn't exist and thus the machine uuid is generated at boot time with `dbus-uuidgen --ensure` as stated in the dbus-uuidgen manpage.
-"""]]

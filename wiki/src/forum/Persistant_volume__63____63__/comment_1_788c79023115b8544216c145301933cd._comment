@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-05T22:28:27Z"
- content="""
-Did you use the Tails USB installer to install Tails to the USB drive? If so, [[file a bug report|doc/first_steps/bug_reporting]] because then that error shouldn't show (obviously). If not, check the [[USB installation instruction|doc/first_steps/usb_installation]].
-"""]]

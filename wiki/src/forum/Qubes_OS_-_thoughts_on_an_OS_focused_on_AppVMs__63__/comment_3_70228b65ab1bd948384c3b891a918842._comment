@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-09-16T22:46:45Z"
- content="""
-Qubes is certainly interesting. I find its \"disposable\" browser machine idea particularly relevant to Tails style use... when you launch the disposable browser, a non-persistent VM session is launched from a read-only profile. Being confined to that VM, wider pwnage is close to *impossible* and once that (even *totally pwned*) browser is closed, its VM is destroyed and the host OS and all other VMs continue in their pristine state - as if it had never even been launched in the first place. Like the ultimate sandbox really.
-
-Of course Tails is based on Debian not Qubes.. and always will be... but there's certainly much to watch in Qubes.. possibly even potential ideas for the future of Tails?
-"""]]

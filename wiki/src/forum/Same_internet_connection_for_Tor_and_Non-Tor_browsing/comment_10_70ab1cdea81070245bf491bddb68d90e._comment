@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-10-21T04:40:02Z"
- content="""
->The RAM wiping part of Tails shutdown should take the same time, I suppose.
-
-Not necessarily - wiping doesn't involve any reading or verification. Excellent suggestion for mitigating the cold boot attack aspect though.
-"""]]

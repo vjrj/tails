@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="E-tags, oh no!"
- date="2012-10-17T22:59:14Z"
- content="""
-I too have been concerned about E-tags for a long time.
-
-Regarding the suggestion of using Tor fonts, I didn't understand that, but if Tails does something like this in future, please carefully explain for the benefit of people like me who read about a recent \"persistent threat malware\" attack (not specifically Tor-related) in which a strange font was used, apparently as a \"subtle\" infection marker.
-"""]]

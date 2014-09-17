@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-09T03:56:32Z"
- content="""
-I just found that I put an extra\"/\" at the end, which is creating the \"Is a directory error\". However, even when I remove that, I get a permission denied error. I tried using sudo to no avail. Is there something with the syntax that I'm doing wrong?
-"""]]

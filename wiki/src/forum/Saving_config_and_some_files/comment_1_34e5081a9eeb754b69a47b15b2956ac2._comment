@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-08T07:29:14Z"
- content="""
-Start by reading the [[documentation about persistence|doc/first_steps/persistence]]. Monitor and keyboard preferences or not covered at the moment though.
-"""]]

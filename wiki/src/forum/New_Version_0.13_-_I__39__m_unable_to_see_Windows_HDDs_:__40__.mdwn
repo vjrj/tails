@@ -1,5 +1,0 @@
-After creating a clone of Tails to USB (via VMWARE workstation), when I logged onto Tails, I was unable to see the hard disk partitions. How can then we save our data? Just on the persistence volume that we create? 
-
-Moreover, mainly I use TAILS to access (to see and delete) those files which I could not delete or see in Windows, e.g. Event Logs, Page file, temporary files and cache, which I had to do before taking clone/disk backup of my hard disk to USB drive for the purpose of restoring the same in future.
-
-Is there any method to use the hard disk partitions in TAILS' new version?

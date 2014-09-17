@@ -1,9 +1,0 @@
-I flashed my USB drive and installed the Tails 0.14 ISO with Unetbootin, i then restarted my system and booted from the USB device, i was then in the Unetbootin menu that allowed me to choose a variety of options...
-Default
-Live
-Live (failsafe)
-and some others that i couldnt remember..
-
-Default doesn't do anything, a black screen with some text pops up, Live works but the keyboard doesnt!!! and Live (failsafe) just comes up with a blue screen and a cursor, I cant enter an administrator password or anything, the only button that works is backspace so there must be some functionality, not sure where to go from here, would appreciate help with this
-
-ohh also i made sure that the legacy USB devices option was enabled but it still no work :(

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Partial Solution"
- date="2012-12-23T21:38:59Z"
- content="""
-Using the 0.16-rc1 I placed the entire ISO into the /ISO folder on the USB Drive and it booted! It took like a minute to load the entire volume though....
-"""]]

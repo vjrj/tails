@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="A suggestion for future tails?"
- date="2012-10-17T19:58:30Z"
- content="""
-Anticipating a suggestion I hope to make in the proper place: recent tails are too large to fit on a CD anyway, so if the new upper limit is the size of a standard DVD, adding partition tools suitable for securely wiping SSD devices would be a good idea.  For individual files on hard drives, shred is already available.
-
-I use tails on hand-me-down equipment, and not having something which fits in a CD is a problem.  As for devices bootable from a USB stick, forget it.
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-06-20T15:28:45Z"
- content="""
-I got USB to work using USB-Floppy in my BIOS. Editing the start-up I see it crashes trying to load the image. I'm going to play with it more, try deleting splash for one.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 25"
- date="2012-08-30T12:49:53Z"
- content="""
-I am the OP of this thread and I would like to offer an apology to the tails developers, it was not my intention to harm your reputation.
-
-To me though, whether I checked the signing key or not is not the issue. The purpose of the warning was not to confirm or deny whether the iso had been altered, rather that I believed that the server had been comprimised and in theory, the iso and key could be replaced at any moment. Even if I had checked the files, I would still like to think that a warning would have been accepted since I had no way of knowing that the server was safe at that time. I do accept that this was in part due to my ignorance over the file modified server synchronisation date, although I'm not sure how many other tails users would be aware of this.
-"""]]

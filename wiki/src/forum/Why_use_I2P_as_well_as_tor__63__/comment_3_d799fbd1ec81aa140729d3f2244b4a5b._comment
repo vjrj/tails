@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Why use wireshark?"
- date="2012-10-20T21:34:46Z"
- content="""
-Someone suggested in another thread using Wireshark to try to check for possible information leaks while using wget behind torify.  And added that unless one is using Wireshark on a second computer set up to sniff promiscuously (from a LAN owned by the would-be tester), such a test is unreliable as even as a rough check for possible information leaks.
-
-I know of no good reason not to use \"torify wget -c yoururl\".  It has been suggested that ICMP packets issued due to resets and TCP issues during downloads might create a commonly encountered information leakage mode affecting wget behind torify.  As far as I know, no proper audit has been performed.
-"""]]

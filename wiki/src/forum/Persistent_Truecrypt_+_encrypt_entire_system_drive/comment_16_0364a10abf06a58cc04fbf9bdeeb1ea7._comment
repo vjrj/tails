@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 16"
- date="2012-10-17T11:04:34Z"
- content="""
->Truecrypt can do full system encryption in Windows, correct?
-
-No. Truecrypt \"full\" system encryption relies on a cleartext bootloader. That bootloader could be subverted just as easily as any other OS on the disk.
-"""]]

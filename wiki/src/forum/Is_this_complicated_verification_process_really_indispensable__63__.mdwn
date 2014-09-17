@@ -1,5 +1,0 @@
-Yes, I'm lame and I just want it to work. But I'm afraid I don't understand anything from this whole "cryptographic signature/signing key" stuff. But do I really need it?  
-I can download the ISO image many times from different locations, at different computers etc (just like it was suggested somewhere in case of trusting signing key). Then i can compare those images if they are all the same. If I find out that they are all identical in every single bit, is there still any possibility that I don't have a genuine version of Tails?
-Of course i can have some viruses which could corrupt the images when they will be already downloaded, but I guess the "cryptographic signature/signing key" stuff won't be more helpful in this case as well.
-
-Thanks in advance.

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-10-31T15:08:21Z"
- content="""
-when you browse Tor you access the webiste through the exit node, and as such that is the IP adress the website will see, but you don't get an entire exit node to yourself, hundreds to thousands of people can be using one single exit node at a time, and all those people will have the same IP address while browsing TOR.
-
-so in all likelihood you got that message because there were a lot of other TOR users on the same exit node as you trying to access the website at the same time, which from the site's perspective just looks like one person accessing it many many times at once.
-"""]]

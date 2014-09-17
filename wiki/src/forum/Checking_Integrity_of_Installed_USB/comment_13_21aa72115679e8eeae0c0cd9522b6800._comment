@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 13"
- date="2012-11-13T11:40:06Z"
- content="""
-Might actually be a good idea to regularly boot from different media cross checking other media being used.  Does Tails support the 'bootfrom=...' boot option?  (Boot from and ISO image on a different media to the boot media.)
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-01T04:43:28Z"
- content="""
-I suggest trying to boot that DVD on another computer, and answering the questions from [[doc/first_steps/bug_reporting/tails_does_not_start]].
-
-"""]]

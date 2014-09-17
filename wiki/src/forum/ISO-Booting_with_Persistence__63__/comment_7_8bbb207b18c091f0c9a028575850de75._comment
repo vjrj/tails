@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-10-25T06:20:51Z"
- content="""
-Whatever is appropriate for other OSs is unlikely to be applicable to Tails. With the exception of some generic Debian stuff.
-
-I think [ISO]/boot/syslinux/syslinux.cfg is the file you're talking about. It's just a textfile so there's no need to be afraid of it!
-"""]]

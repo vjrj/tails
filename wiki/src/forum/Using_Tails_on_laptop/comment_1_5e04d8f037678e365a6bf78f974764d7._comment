@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-02T21:18:28Z"
- content="""
-Please read the [[documentation on how to use Network Manager|doc/anonymous_internet/networkmanager]]. If you don't see Network Manager's icon, then you might have installed Tails using an unsupported manner.
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-12T06:18:34Z"
- content="""
-I don't know much about image encoding, however I can tell you that google.com uses a lot of javascript.  Try disabaling java, and see if that does the trick.
-"""]]

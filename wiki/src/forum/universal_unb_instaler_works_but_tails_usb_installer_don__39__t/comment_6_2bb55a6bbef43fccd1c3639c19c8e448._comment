@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-08-11T11:39:28Z"
- content="""
-Could you try to play around with the UEFI settings in the boot setup of all those devices? For example, try to enable/disable it, and report back your findings?
-"""]]

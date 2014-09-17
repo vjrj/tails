@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-12-20T02:07:13Z"
- content="""
-To be more clear I have Windows 7 and I Downloaded the tails-signing.key, tails-i386-o.15.iso.pgp, and tails-i386-0.15(iso image)Direct download. I downloaded GPG which comes with a program called Kleopatra. I imported tails-signing.key into Kleopatra which is now shown under Kleopatra's \"other certificates\" tab.I selected the Decrypt/Verify Files option under the file tab in the Kleopatra window which alows me to go to my folders and select the desired files. I then inserted tails-i386-o.15.iso.pgp(signiture) into the Input File: and then inserted tails-i386-0.15(iso image)into the Signed Data: on the Kleopatra \"Decrypt/Verify\" window. when I select the Decrypt/Verify button at the bottom of that window to verify everything it ends up giving me the message \"Not enough information to check signiture validity\". Not sure what I'm doing wrong. 
-When I launch a command line prompt in windows 7 all my commands start with \"C:\Users\MyName>\" by default(which it won't let me delete). What EXACTLY do I need to type for the proper command to verify the signiture if it is already imported? My tails files are located in my Downloads folder. Any help would be greatly appreciated. Thanks.
-"""]]

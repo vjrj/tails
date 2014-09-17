@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-27T19:02:49Z"
- content="""
-You need to set the file to executable.  I've done it before but I can't remember what to do.  chmod a+x start_linux should work with a super user terminal but now I can't get it to work.
-"""]]

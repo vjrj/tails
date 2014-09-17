@@ -1,3 +1,0 @@
-Is it possible to replace the connection to tor with a vpn... im reading the documentation, and it seems tor is pretty recursive in the connections... i like most of the features of tor, but i prefer privacy rather being annonymate with tor... where should I start twisting to "detorify"? (I specially don't like the idea of connecting through a public wifi and someone detecting a tor connection... that would call too much the atention)
-
-ps: tails cames with other super cool privacy tools that makes it "the one" (it is probably the best one being "live while the session is live" and connecting to a persistent data to a usb/flash drive), but using tor so much is what prevents many (i think) to use it.

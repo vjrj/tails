@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-11-14T06:01:13Z"
- content="""
-You could submit this bug to the Tor bug tracker: <https://trac.torproject.org/projects/tor/report> .
-"""]]

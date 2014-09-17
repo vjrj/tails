@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 20"
- date="2012-11-04T04:14:43Z"
- content="""
->I believe older versions of the WMV format have an optional feature to open a specified webpage upon loading the file and some older players would do this without prompting the user. 
-
-I assume that the player in TAILS would protect against this?
-"""]]

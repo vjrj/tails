@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-17T10:17:39Z"
- content="""
-The connection is made through Tor that checks for updates is made through Tor.
-
-Vidalia (the green onion icon) is only a *controller* for the Tor daemon, and sometimes it loads after the Tor daemon itself is fully working.
-"""]]

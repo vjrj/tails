@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-13T08:15:14Z"
- content="""
-What you witness is the clock applet refreshing earlier than it usually does (once a minute, I think). The system time itself has been adjusted before that.
-"""]]

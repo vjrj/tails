@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-11T12:44:14Z"
- content="""
-To prevent the Tor exit node from eavesdropping you should use HTTPS while browsing the web. In Tails, this is made automatic on many major website through the [HTTPS Everywhere](https://www.eff.org/https-everywhere) extension. Check also our warning section about [[man-in-the-middle attacks|doc/about/warning#index3h1]].
-"""]]

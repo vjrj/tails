@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-11T14:03:47Z"
- content="""
-Tails is meant to be an anonymous operating system. If your goals differ, please start your own project. Feel free to reuse [[Tails code base|contribute/git]].
-"""]]

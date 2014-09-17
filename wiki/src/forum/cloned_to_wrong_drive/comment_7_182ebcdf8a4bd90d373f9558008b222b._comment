@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-08-23T10:16:18Z"
- content="""
-Try booting up with linux mint/ubuntu and run testdisk/photorec from CG Security. It's like Recuva for Windows except it natively reads more filesystems & recovers data no matter how damaged.
-"""]]

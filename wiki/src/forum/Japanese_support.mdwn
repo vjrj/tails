@@ -1,8 +1,0 @@
-Currently Japanese language support is not available. To provide Japanese language support the following packages need to be added:
-- scim-anthy
-which depends on:
-- anthy
-- anthy-common
-- libanthy0
-
-Would be great if you could add these packages!

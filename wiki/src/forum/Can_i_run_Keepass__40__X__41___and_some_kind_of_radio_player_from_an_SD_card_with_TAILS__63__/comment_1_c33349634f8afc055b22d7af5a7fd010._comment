@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-19T05:48:37Z"
- content="""
-Certainly nothing wrong with this in principle. I keep several .deb packages and home-compiled binaries on flash medium, along with a Tails specific installation & configuration script to set them up. Various other tools, keys, validation and verification scripts and whatnot live there too. All safely housed in a Truecrypt container. Makes everything quick and convenient, even when working offline. Just keep an eye out for security updates to any internet facing apps.
-
-Can't help you with any radio specific apps though - just not my thing.
-"""]]

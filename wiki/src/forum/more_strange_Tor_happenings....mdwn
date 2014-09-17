@@ -1,7 +1,0 @@
-Periodically (once every while) I find websites timing out  before loading (with unable to access webpage errors - website may be down etc.).
-
-One of these errors came back with more explanatory info. than the usual, namely:
-
-'blocking your IP address due to having received over 100 requests from the same IP address within 1 second.'
-
-I'm wondering if having Iceweasel not load a home page or any default webpage when first run might help to batten down the hatches some more (though wouldn't solve this problem entirely I don't think).

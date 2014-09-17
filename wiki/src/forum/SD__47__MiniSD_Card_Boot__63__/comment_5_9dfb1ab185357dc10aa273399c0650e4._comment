@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="No. Not really."
- date="2012-06-23T02:17:27Z"
- content="""
-Being \"WORM\" media, CDs (moot since Tails grew > 700MB) or DVDs would obviously offer some degree of tamper-resistance absent in any re-writable medium. I'm not aware of any particular strengths of shortcomings of one flash medium format over another, except that; some offer genuine hardware write prevention (e.g. some USB sticks, I believe), others offer faux hardware write prevention (a hardware switch which does nothing more than suggest to the software that it doesn't write to the device. e.g. SD cards), while many offer no write prevention at all. You should probably look into this sort of thing if you determine it is relevant to your particular \"threat\" situation. However I imagine the tamper prevention/detection capabilities of your \"pee pee hole\" or rectum would normally be considerably superior to any switch.
-"""]]

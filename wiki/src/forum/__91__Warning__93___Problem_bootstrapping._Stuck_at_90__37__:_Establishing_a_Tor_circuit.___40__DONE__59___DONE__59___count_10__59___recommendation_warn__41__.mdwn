@@ -1,7 +1,0 @@
-I use bridges a lot, no problems. Suddenly I see messages appear in Vidalia log:
-
-[Warning] Problem bootstrapping. Stuck at 90%: Establishing a Tor circuit. (DONE; DONE; count 10; recommendation warn)
-
-Eventually it will go to 100% and I can use Tor, but I see these messages, when I use bridges, sometimes more than once, maybe 2,3, or 4 times during the bootstrapping process.
-
-Is this a recent error related to OpenSSL?

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="New identity"
- date="2012-06-07T22:56:34Z"
- content="""
-For a web browser I just click on \"New identity\" in Firefox, and click on Home button to see what check.torproject.org will show. If it is the same IP as I had before I just click the \"New identity\" button again. Sometimes I have to do it several times, but eventually I always manage to get a new IP address. It's not an elegant solution but at least works.
-"""]]

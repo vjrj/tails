@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 42"
- date="2012-10-21T05:25:32Z"
- content="""
-Persistence?
-
-Maybe if you use Tails' persistence you'd only need to mount your sensitive data, then accidentally start I2P without noticing what you'd done, to have a problem?
-"""]]

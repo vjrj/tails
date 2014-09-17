@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-05-28T23:22:55Z"
- content="""
-Is it the same error message as [described here](https://tails.boum.org/bugs/persistent_volume_creation_fails_with_big_disks/)?
-
-Wich size is your device?
-"""]]

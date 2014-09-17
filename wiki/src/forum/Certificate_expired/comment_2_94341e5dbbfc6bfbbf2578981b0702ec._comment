@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-11T13:35:20Z"
- content="""
-Hi, thanks.
-I downloaded again the .key file, but Kleopatra shows it in red as before. Tried the Tools/Refresh way, but again no luck (it reads \"No valid OpenPGP data found\").
-Any more suggestions? TIA.
-"""]]

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 14"
- date="2012-10-05T05:44:15Z"
- content="""
-The reason i started the topic is because my tor browser for windows got hacked when i was using a hidden service. The first time it happene i found 4 note pad documents in the location i saved tor to. I just blew it off as nothing. The second time it happened i looked in to the documents closer and i realized that they where java script shell commands that revealed my ip, my computer and os, also my history logs.  I had my no script on. I dont know how it happened or who did it.
-"""]]

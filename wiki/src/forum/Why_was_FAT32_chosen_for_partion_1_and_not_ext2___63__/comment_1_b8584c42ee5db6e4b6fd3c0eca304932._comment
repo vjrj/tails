@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-04T04:56:57Z"
- content="""
-If you are refering to the LUKS Disk Utility program, I recentlty was having problems with using ext2. It would not work at all on any OS, but when I use FAT32, it works fine.
-"""]]

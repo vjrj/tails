@@ -1,3 +1,0 @@
-Every time I boot into Tails Live CD there is a polkit segfault. After I configure NetworkManager and enter my password to complete changes, there's a segfault with NetworkManager or the applet.
-
-The NM applet reloads and I can connect to the net with Tor and everything works but why am I seeing these segfaults? I never saw them in previous versions.

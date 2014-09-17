@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-16T12:27:17Z"
- content="""
-These days, Tails ships with iceweasel 10.x ESR. AFAIK, Firefox/iceweasel has introduced SPDY support only in version 11.
-
-"""]]

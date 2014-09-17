@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="videos not readable in tails"
- date="2012-06-13T21:54:12Z"
- content="""
-i also noticed recently my tails 0.11 version had lost the hability to read videos of any kind, it seems the codecs have disapeared from tails and no way i could get those working even with vlc...
-i also notice no answer was given to op question...
-"""]]

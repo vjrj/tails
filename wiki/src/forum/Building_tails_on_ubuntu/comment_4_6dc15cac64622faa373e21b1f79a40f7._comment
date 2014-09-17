@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-14T11:46:55Z"
- content="""
->Virtualbox, rake and vagrant all installed fine, but when I do \"git clone...\" it complains that three file names are too long. One starting \"All_DNS_Traffic...\" and two starting \"Is_it_possible...\". Rake of course blows out on a bunch of errors.
-
-These sound like forum files?
-"""]]

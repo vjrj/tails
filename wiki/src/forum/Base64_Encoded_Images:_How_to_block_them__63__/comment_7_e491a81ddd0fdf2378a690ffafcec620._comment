@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-11-14T03:41:24Z"
- content="""
-You can't really block *loading* of these images as they're actually *embedded* within the HTML of the page. So they're invariably loaded with the page. You could block decoding/rendering but it would be a bug if this was done with the \"auto load images\" preference. Have you had a look through **about:config** for any appropriate settings?
-"""]]

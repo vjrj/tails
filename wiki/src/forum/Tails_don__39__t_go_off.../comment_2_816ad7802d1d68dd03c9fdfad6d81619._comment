@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-04T22:26:24Z"
- content="""
-Hello to you too :o)
-
-Those final stages of the shutdown are wiping *volatile* memory. i.e. System RAM and video RAM. Even if this wiping has completely failed, it's only of any real bearing if there's an *immediate* risk of your adversary smashing into the room and plunging your machine into a vat of liquid nitrogen. Perhaps also if you are going to *immediately* re-boot into a malignant system.
-"""]]

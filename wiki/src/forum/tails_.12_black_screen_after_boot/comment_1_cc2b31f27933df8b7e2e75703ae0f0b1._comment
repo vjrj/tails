@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-14T08:41:14Z"
- content="""
-Could you try to remove the `quiet` options (it might be there multiple times) and the `splash` option from the boot command line?  (You need to press `TAB` in the very first menu.)
-"""]]

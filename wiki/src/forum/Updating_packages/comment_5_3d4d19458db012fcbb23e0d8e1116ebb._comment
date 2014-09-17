@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Pin custom packages in apt"
- date="2012-11-04T10:28:36Z"
- content="""
-Why on earth don't Tails devs pin tails-customized (and therefore non-standard Squeeze) package versions in apt-get so they *cannot* be updated (unless unpinned)?
-
-Also: users as a general rule should never touch packages unless they know what they are doing.  However, packages that have no connectivity and nothing to do with the kernel or networking software/clients are unlikely to have any effect on anonymity I would think.
-"""]]

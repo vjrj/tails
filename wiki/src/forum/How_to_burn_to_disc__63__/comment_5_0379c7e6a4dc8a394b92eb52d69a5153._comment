@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-11-10T11:18:17Z"
- content="""
-If my suspicion is right, it wasn't a zip/rar archive you extracted, but the iso image. Some archive managers threat iso images like archives.
-
-You see, that initrd.img file and that live folder is inside the iso image.
-"""]]

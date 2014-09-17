@@ -1,5 +1,0 @@
-Previous versions of Tails opened and closed the disc tray during shutdown, but, on my computer, Tails 0.12.1 is shutting down without ejecting the disc. Is this normal?
-
-The shutdown sequence ends with "Starting new kernel", pauses for a few seconds, and then switches the computer off.
-
-Is Tails shutting down correctly? Is the RAM being wiped correctly?

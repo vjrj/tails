@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-08-09T22:53:13Z"
- content="""
-I recall ntfs-3g was a bit \"experimental\" (read: flaky) there for a long time if you used it to write to a Windows ntfs-formatted drive.  Maybe it's better now.
-"""]]

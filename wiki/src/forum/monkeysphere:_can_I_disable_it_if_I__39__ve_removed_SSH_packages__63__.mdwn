@@ -1,1 +1,0 @@
-monkeysphere seems to involve SSH. I've removed all SSH packages. is it safe to disable monkeysphere or is it also used in the browser for SSL sites?

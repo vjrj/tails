@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-10-22T05:39:59Z"
- content="""
-I tried removing the quiet parameter and adding the debug one.  Unless I did that wrong.  I still end up at the text/numbers screen, but I get an intermittent one now where it says it is loading inittrg, or something similar (went by too quick, couldn't catch it exactly).
-"""]]

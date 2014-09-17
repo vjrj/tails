@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-09-03T06:43:41Z"
- content="""
->Thanks to the ifcpu64.c32 syslinux module Tails will automatically select the \"best\" (i.e. 486 < 686-pae < amd64) kernel depending on what your hardware supports.
-
-Thanks for the good news. So glad my \"ancient\" notebook and I aren't being abandoned! :D
-"""]]

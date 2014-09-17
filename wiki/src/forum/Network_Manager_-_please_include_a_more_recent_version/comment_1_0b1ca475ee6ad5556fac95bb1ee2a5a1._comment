@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-14T06:27:28Z"
- content="""
-Tails is based on Debian stable. What features do you miss in this version of NetworkManager?
-
-"""]]

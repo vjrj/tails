@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2012-07-23T04:20:40Z"
- content="""
-Why not get a Cypherpunk Nym at one of the Nymservers and use it through a chain of remailers? Your communications are encrypted to the Nymserver, and of course you can further encrypt it to your intended recipient. THAT, is about as truly anonymous as you will get. Pain in the arse to configure, but well worth the effort.
-"""]]

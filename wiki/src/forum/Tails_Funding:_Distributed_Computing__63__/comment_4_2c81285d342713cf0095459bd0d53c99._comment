@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-11-23T02:59:04Z"
- content="""
-But how would tails know if I kept a copy of the wallet file? Besides, I can't very well give the wallet on a pen to a tails-dev. Impractical even If I knew where he/she lived and if close. Perhaps the whisperback system could be piggybacked to send an encrypted wallet file to tails devs, preserving the perfect anonimity of freshly mined bitcoins? Was that your point?
-"""]]

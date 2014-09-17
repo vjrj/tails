@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-08-22T22:10:55Z"
- content="""
-I guess you could try to look-up the model of the computer and then press the correct key before boot. But, BIOS may be locked...
-
-I am sure there is a way, if not now, but in the future to have some file/script that powers down the machine and forces it to boot from a USB LIVE SYSTEM.
-"""]]

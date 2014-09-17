@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-09-02T13:45:39Z"
- content="""
-Monkeysphere is free software included in Debian. You can find all the information you need about it on <http://packages.qa.debian.org/m/monkeysphere.html>.
-"""]]

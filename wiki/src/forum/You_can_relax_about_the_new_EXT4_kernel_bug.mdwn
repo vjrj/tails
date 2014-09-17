@@ -1,5 +1,0 @@
-For anyone who is worried about the new, serious ext4 kernel bug [http://www.phoronix.com/scan.php?page=news_item&px=MTIxNDQ], you can relax.
-
-This first appeared within the Linux 3.6.2 kernel and has since been backported to older stable kernel releases in the 3.4, 3.5, 3.6 trees.   Current Tails-0.13 has the 3.2.23-1 kernel and so is unaffected.
-
-As far as I can make out from Slashdot, the patch that caused this bug was not pushed until 8 October.  

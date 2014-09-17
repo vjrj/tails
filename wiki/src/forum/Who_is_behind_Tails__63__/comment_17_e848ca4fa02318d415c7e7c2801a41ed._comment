@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="The single biggest reason ..."
- date="2012-06-22T09:07:35Z"
- content="""
-... to trust Tails or Tor itself, or any darknet or anonymity tool, is a history of *not being compromised*.  The \"canary in the coalmine\" here are busts not related to national security. This means things like copyright infringement and illegal pornography. A compromise would see a spike in prosecutions related to the latter and the anonymity tool would quickly become known as useless once this came out in open court (if it did). As far as national security goes, we would likely never hear about national security-related compromises, it would be kept secret so the NSA etc could gather intelligence silently.  For this reason they would almost certainly never share an ability to compromise Tor or backdoor various tools, which they may well have, with civilian law enforcement, private sector or regular agencies - it would be far too valuable an ability to talk about. That is not to say they might not be able to pass information that cannot be used in court to civilian agencies though, who might then go look for evidence that they can use in open court, but that would still risk something getting out, so I'd guess they wouldn't do it.  The Stuxnet etc worms show that intelligence agencies are actively backdooring Windows systems in particular, but we all knew that was likely.  Also, law enforcement have used trojans before to harvest evidence. 
-"""]]

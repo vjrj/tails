@@ -1,3 +1,0 @@
-Hi all, Tor check often reports an IP of 31.172.30.2. That is a valid exit node, but it almost seems like some sort of default instead of random. Most often it is the same after requesting a new identity, and often it will soon show up after 10 minutes or so.
-
-Any suggestions?

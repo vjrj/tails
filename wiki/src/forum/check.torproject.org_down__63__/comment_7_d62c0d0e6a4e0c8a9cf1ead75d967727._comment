@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-11-09T00:52:41Z"
- content="""
-check.torproject.org was not connecting for me either with the TBB and at times it said I was not using a Tor network when checking torcheck.xenobite.eu. Got in through Tails.  
-"""]]

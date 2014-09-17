@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-09-17T08:26:03Z"
- content="""
-I'm pretty new to Tails, i wasn't aware of hidden sites until now. But how come i got a noscript message about a blocked xss (cross-site script or something?) while having both of the first links open (DuckDuckGo and Hidden Wiki)? Seems like the Hidden Wiki was a trap and trying to track me, since i know DDG is privacy-oriented.
-
-The wiki doesn't seem to contain links of much interest, though.
-"""]]

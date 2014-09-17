@@ -1,5 +1,0 @@
-I'm interested in a reliably way to erase RAM on non-Tails, non-live debian based system. I looked into the design/documentation [1] but it seems it's pretty integrated with other Tails scripts and not trivial to implement for an end user. Is there any chance that you release this functionality as a standalone feature or upstream it to Debian?
-
-This could benefit everyone who uses full disk encryption, not just Tor or live CD users.
-
-[1] https://tails.boum.org/contribute/design/memory_erasure/

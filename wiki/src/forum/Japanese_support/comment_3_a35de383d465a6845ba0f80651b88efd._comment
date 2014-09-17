@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-09-18T12:01:34Z"
- content="""
-Say I build a Tails ISO with `scim-anthy` installed. How do I verify it actually adds the currently missing Japanese support?
-
-"""]]

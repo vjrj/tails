@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="32"
- date="2010-08-24T20:28:30Z"
- content="""
-We ship no 64 bits flavour yet. AFAIK the performance gain is quite small compared to the extra work for us. I'd be glad to stand corrected :)
-
-"""]]

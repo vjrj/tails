@@ -9,5 +9,5 @@ From
 
 looks like it proxies i2p, Monkeysphere, connections to other machines on the LAN (?), http and ftp through Tor.   
 
-I think the point about http is that we want to proxy through Tor using the Tails browser to fetch a pdf file from an leaks site, for example.  Monkeysphere is intended to make GPG more user-friendly, or secure, or something.
+I think the point about http is that we want to proxy through Tor using the Tor browser to fetch a pdf file from an leaks site, for example.  Monkeysphere is intended to make GPG more user-friendly, or secure, or something.
 """]]

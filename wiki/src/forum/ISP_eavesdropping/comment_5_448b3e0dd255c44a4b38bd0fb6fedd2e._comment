@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-10-24T13:09:51Z"
- content="""
-unless youre using bridges, what is there to stop an isp from running a fake tor network which your client connects to instead of the real tor network?
-"""]]

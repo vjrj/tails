@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-07-13T22:41:19Z"
- content="""
-Of course I was being specific with regards to the formatting process... No Idea why Tails developers have this USB installer process that eliminates any degree of control of how the disk is formatted and partitioned for persistance by the user. But that's for another thread I imagine.
-"""]]

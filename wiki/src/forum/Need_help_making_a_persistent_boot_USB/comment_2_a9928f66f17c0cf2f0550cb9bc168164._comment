@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-10-21T18:27:50Z"
- content="""
-Thanks for the very clear instructions. I followed them (a couple of times) and the system does try to boot off the USB, but I get \"Boot error\" in the top left of the screen immediately after POST.
-
-"""]]

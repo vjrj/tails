@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 15"
- date="2012-10-30T11:11:03Z"
- content="""
-> It may be possible to distinguish a normal Tor user from a Tails user by observing the traffic they send to the Tor Entry node.
-
-What about traffic coming through the EXIT node? Can the websites you visit tell the difference between regular Tor traffic and Tor traffic originating from Tails?
-"""]]

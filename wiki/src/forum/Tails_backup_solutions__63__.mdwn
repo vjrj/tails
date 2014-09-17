@@ -1,5 +1,0 @@
-Only really developers have an account on a server on which they can run a backup service of some sort, so rsync etc solutions are out for most people I would think.  (SDF servers are only $36 annum, an inexpensive solution to this but not a great deal of file space.  I'm not sure if Amazon S3 cloud space could be used for the purpose.)
-
-I use 'obnam' to backup over sftp to a free shell account, I don't have a lot of data to backup though.  It's slow but it works and can be set as a cron job.
-
-Most people I think would opt for Ubuntu One, The default Ubuntu client for doing this being Déjà Dup - problem is though the current Debian stable release does not have a recent enough version of this to support Ubuntu One.

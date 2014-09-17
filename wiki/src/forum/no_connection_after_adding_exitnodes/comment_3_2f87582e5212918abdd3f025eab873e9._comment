@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-11-14T21:09:41Z"
- content="""
-> I could not connect to internet when I tried to use bridge at boot, but of course, I collected bridges and had 4 of them and none was in my excluding list, simply, I start tails, then I go to terminal and modify torrc file (with Bridge option at boot and next time with normal boot, without bridge) and in the both cases, after modifying torrc, I must apply this changes with /etc/init.d/polipo restart & /etc/init.d/tor restart & then I start vidalia and I change from \"use unix domain socket\" to Settings-Advanced-Use TCP connection
-
-Could you try to explain more clearly?  Are you using Tails on a DVD or Tails on a USB stick?  Or something else?  Did you verify the iso image before making the DVD (or USB stick)?   Is this Tails 0.13 or Tails 0.14?  You rebooted a PC or laptop to run under Tails, correct?  Somehow you already had bridges listed in appropriate config files?  You used a terminal to modify the torrc, but it almost sounds like you might have multiple Tor running and modified the wrong torrc?  Is \"use unix domain socket\" really the default in Tails?
-"""]]

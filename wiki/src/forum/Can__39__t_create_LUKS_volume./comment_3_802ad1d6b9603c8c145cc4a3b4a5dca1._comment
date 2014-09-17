@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-05-29T00:36:54Z"
- content="""
-The comment is \"failed      the drive is busy\".  I have waited for a while and nothing.  I have unpluged the drive, dismounted it and done everything else that I can think of.  I have not tried to format it into FAT, i use the default setting EXT 4.  When I try to format it again after that, I get the same error message and I cant do absolutly nothing with the drive.  It is basically useless after that.
-"""]]

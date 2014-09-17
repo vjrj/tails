@@ -1,5 +1,0 @@
-I'm using [this guide](https://tails.boum.org/forum/Encrypted_Usb_Tails_/#comment-a76e0ea52b7929b890274d3514aa9f94) to boot directly from the ISO file. It works great and should become an official way!
-
-Is there any way to use persistence with it, like ubuntu can? [like this?](http://shallowsky.com/blog/linux/install/ubuntu-persistent-live-cd.html)
-
-casper-rw boot option for file or partition?

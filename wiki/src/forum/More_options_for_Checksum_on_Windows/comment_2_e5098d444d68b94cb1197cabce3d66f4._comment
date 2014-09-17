@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2013-01-04T04:02:21Z"
- content="""
-The tool you want is [gnupg](http://www.gnupg.org/) - it can verify the **authenticity** of your download!.. not merely as check its *integrity** for **accidental** corruption.
-"""]]

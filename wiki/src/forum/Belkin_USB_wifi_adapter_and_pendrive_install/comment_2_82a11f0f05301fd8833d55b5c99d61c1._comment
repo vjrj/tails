@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-09-13T10:29:29Z"
- content="""
-Please [[report a complete bug|doc/first_steps/bug_reporting]] from both a Tails running from USB and a Tails running from DVD, making it clear in the bug report you're talking about this problem, and which one it is. Then, we might have the information needed to understand what's going on.
-
-"""]]

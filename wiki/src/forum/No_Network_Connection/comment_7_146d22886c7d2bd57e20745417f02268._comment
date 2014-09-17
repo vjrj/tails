@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Same Issue"
- date="2012-06-18T22:47:21Z"
- content="""
-I am running a thinkpad x60 and an x220.  If I boot tails normally (from usb) I get no prompt for admin priv, and boots right to the desktop, but no network available.
-
-If I boot into failsafe, I get the prompt to change admin creds, and then I see network.
-"""]]

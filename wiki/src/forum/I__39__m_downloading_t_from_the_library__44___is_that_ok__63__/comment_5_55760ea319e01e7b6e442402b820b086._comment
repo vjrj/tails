@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2012-10-12T04:41:49Z"
- content="""
->fearing all this internet stuff like isp's and stuff. 
-
-Be aware that your ISP will be able to tell that you are using Tor. (Unless you use a bridge mode, but I don't know about that, so hopefully someone else will chime in here)
-"""]]

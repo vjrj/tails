@@ -1,8 +1,0 @@
-Using TAILS, I noticed that the wipe executable was missing.
-
-Shouldn't wipe be available to the common TAILS user?  If not, why not?
-
-The use case for having the wipe executable in TAILS is that when you download and save a file on a USB, and later want to wipe it, you cannot currently do it in TAILS because the wipe executable  is missing in the TAILS distribution.
-
-Note: this is while using TAILS 0.13~rc1.
-

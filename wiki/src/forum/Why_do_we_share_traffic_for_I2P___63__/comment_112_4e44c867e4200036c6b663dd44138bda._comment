@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 112"
- date="2012-10-25T04:38:28Z"
- content="""
-@ tails:
-
-Now I'm confused again. If you start an i2p server but disable participating traffic, what good is i2p for the Tails user?  Is the idea that this somehow increases his anonymity?  I know you tried to explain that before, but now I'm confused again.
-"""]]

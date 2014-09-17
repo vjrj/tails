@@ -1,9 +1,0 @@
-I can not get a CD to boot after buring the tails tails-i386-0.15.iso to DC-Rom 
-
-Seems to me that files are missing for the CD to become bootable and all i can see on the CD-rom is folder syslinus, .disk and Live with no files in the root
-
-Also tried the insaller to make a UBS drive boot but I get the same files plus an extra one in root named ldlinux.sys
-
-This should be easy but something is missinng
-
- 

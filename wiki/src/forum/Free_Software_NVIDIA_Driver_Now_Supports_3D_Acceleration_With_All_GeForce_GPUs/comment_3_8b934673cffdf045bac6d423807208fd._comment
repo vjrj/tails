@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 3"
- date="2013-01-07T11:05:48Z"
- content="""
-Tails is based on Debian stable + Linux 3.2. The suggested version requires a yet-to-be-released 3.8 kernel. So, no, sorry.
-
-"""]]

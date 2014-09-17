@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Are you using refit?"
- date="2012-06-17T22:12:16Z"
- content="""
-Are you booting using rEFIt or even better rEFInd? No possibility of installing tails to a USB key?
-
-https://tails.boum.org/doc/first_steps/manual_usb_installation/mac/index.en.html
-"""]]
