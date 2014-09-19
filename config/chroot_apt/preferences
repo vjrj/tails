@@ -26,6 +26,10 @@ Package: iproute2
 Pin: origin o=Debian Backports,n=wheezy-backports
 Pin-Priority: -1
 
+Package: obfsproxy
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
 Package: poedit
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
