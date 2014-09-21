@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-04-23T10:37:47Z"
- content="""
-The chat in question is probably opened as a pop-up, which and such windows do not include addon controls like the Torbutton's onion icon. Even when that happens Torbutton's security features are still in effect, so it's safe.
-"""]]

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2013-03-22T23:27:09Z"
- content="""
-Running bitcoin-qt in tails perfeclty with tor. I have the entire blockchain in the persistent volume, and the qt client runs from the persistent volume as well. I simply have to do a ln -s /path/to/.bitcoin/ .bitcoin (in /home/amnesia ) to ensure that the qt client loads my regular wallet, instead of creating a new one (and trying to redownload the entire blockchain (not fun) ..
-
-"""]]

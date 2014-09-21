@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2013-02-17T07:41:46Z"
- content="""
-I have a somewhat similar situation. My laptop's brightness is normally adjusted by holding Fn and pressing the left or right arrow. And Tails DOES recognize these commands in that it displays a little slider thing, but the screen remains the same (very bright) regardless.
-
-I realize you'd probably need to know more about my hardware to be any help, and I don't have that info handy right now, except that it's a Gateway netbook, which I'm sure helps almost not at all.
-"""]]
