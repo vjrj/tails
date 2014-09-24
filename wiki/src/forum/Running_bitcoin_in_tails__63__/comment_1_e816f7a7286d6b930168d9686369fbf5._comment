@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-08T23:01:06Z"
- content="""
-Bitcoin-QT isn't supported by Debian Squeeze or vice-versa and it's a shame. I tried out MultiBit but it doesn't support a proxy like the native client does.
-
-Multibit is actively working on a SOCKS proxy: https://github.com/jim618/multibit/issues/35
-"""]]
