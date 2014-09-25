@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-07-10T19:54:42Z"
- content="""
-> Both can not boot under Mac OS -.- rEFIt will not help -.-
-
-Liberté has (U)EFI support for all installation options (USB, CD, OVF), so ability to boot per se comes down to your knowledge of operating your Mac. Hardware support is a different issue, though.
-"""]]

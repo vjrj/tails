@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="More or less"
- date="2011-12-17T13:12:55Z"
- content="""
-The local router sees the same thing as any other router along the road: the IP of the Tor entry nodes you're using.
-
-"""]]

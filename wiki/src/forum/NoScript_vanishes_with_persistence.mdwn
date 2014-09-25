@@ -1,5 +1,0 @@
-Following someone's rant recently I thought I would try to make all of /home/amnesia persistent by unchecking all the options in the persistence configuration wizard and adding /home/amnesia to the custom perristence slot.
-
-On reboot this appears to work except NoScript has vanished from Iceweazel.
-
-Why is this?

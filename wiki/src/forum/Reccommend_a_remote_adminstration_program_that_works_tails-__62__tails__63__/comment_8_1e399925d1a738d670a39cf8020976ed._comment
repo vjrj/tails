@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
- subject="comment 8"
- date="2013-05-19T19:18:50Z"
- content="""
-Tails blocks incoming network connections initiated from the outside.
-"""]]

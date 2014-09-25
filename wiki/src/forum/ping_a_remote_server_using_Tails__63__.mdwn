@@ -1,5 +1,0 @@
-Is it possible to ping a popular remote (public) server using Tails 0.17?  If so, would it be unwise to try?  I just want to know if the server is up or not.
-
-The command ping is present in Tails 0.17 but I think it is inoperable, possibly because it wants to use UDP protocol, but Tails wants it to go through Tor, and Tor uses TCP protocol.  There is a utility called tcpping which is available in Debian and should solve this, but this is not included in Tails 0.17.
-
-Searching this forum did not show anything which appeared relevant.
