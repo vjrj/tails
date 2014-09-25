@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-05-11T01:18:46Z"
- content="""
-Your MAC address is the address of your network card at the ethernet layer, so even if you spoof the MAC in your VM it won't matter; it's your laptop's network card that is connecting to the router.
-
-You could change it in your OS but I don't really see why you'd want to do that unless you're massively paranoid. You connected to a WiFi hotspot and connected to Tor because you are serious about your privacy, whatever happened next cannot be proved by anyone.
-"""]]

@@ -1,3 +1,0 @@
-is using the line "Exclude Nodes" in torrc file a security problem?
-
-i mean anyway, how does this work, how does my tor-client decide whats slow or not? which bandwidth limit does it use for sorting out?

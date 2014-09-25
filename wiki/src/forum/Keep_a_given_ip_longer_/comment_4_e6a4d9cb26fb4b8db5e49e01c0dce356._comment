@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 4"
- date="2013-04-25T08:30:10Z"
- content="""
-That is a basic functioning of Tor to refresh and change circuits from time to time between connections, every 10 minutes. There's nothing we can do from Tails.
-"""]]

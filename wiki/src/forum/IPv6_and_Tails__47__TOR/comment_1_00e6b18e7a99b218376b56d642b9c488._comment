@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="not yet"
- date="2011-05-27T13:53:00Z"
- content="""
-Tor does not support IPv6 yet. Tails blocks any remote IPv6 connection using iptables/netfilter.
-
-"""]]

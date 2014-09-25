@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-10T21:08:38Z"
- content="""
-It is not currently possible. The current plan is to add to the USB installer the ability to install Tails with a preselected language and keyboard. Patches are welcome if you have the skills!
-"""]]
