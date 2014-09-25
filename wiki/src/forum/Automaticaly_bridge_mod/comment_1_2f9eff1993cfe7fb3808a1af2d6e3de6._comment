@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-01-24T10:19:07Z"
- content="""
-You may want to add this option to the kernel command-line in the syslinux menu.
-Long-term plan: [[todo/persistence preset - bridges]].
-"""]]
