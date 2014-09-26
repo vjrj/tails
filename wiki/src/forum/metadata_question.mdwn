@@ -1,7 +1,0 @@
-suppose a video was created using tails then uploaded to a site, does the metadata change?
-
-theoretically it should, since the file is now on a different computer and thus the host should give the file new owner id and timestamp, right?
-
-now lets build on that and say a user downloaded the file from host, now the user's host system should again give the file auto metadata.
-
-so.. how can tails specific metadata survive through all three steps?

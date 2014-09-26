@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 3"
- date="2013-04-25T13:24:02Z"
- content="""
-Retroshare seems a nice software but we cannot consider including it in Tails unless it's packaged in Debian. By the way, I'm pretty sure we won't use it to **replace** Pidgin and Claws Mail but maybe provide it in addition to them...
-
-"""]]

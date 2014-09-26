@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-16T16:20:26Z"
- content="""
-It should be possible to do so, using the \"normal\" means (Vidalia or `torrc`).
-You may want to make the HS directory persistent.
-"""]]
