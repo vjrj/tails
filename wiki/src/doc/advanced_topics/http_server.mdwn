@@ -1,4 +1,4 @@
-### How to serve files over HTTP behind a Tor Hidden Service
+[[!meta title="How to serve files over HTTP behind a Tor Hidden Service"]]
 
 This method uses '[thttpd](http://acme.com/software/thttpd/)' -  the tiny/turbo/throttling HTTP server. Multiple Hidden Service instances can be run simultaneously but that is beyond the scope of this documentation. The URL-traffic-based throttling feature can be added by editing the `/etc/thttpd/thttpd.conf` configuration file once 'thttpd' is installed - see the [Throttling](http://acme.com/software/thttpd/thttpd_man.html#THROTTLING) section of the 'thttpd' man page for more information.
 
