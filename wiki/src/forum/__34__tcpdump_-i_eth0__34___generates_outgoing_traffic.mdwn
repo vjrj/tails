@@ -1,3 +1,0 @@
-experiment: open Tor Network Map, and in Root Terminal execute "tcpdump -i eth0". (replace <eth0> with whatever your network interface is) Now watch the Connection list in Tor Network Map as it generates outbound traffic... 
-
-Isnt it strange that just passive packet observation generates activity in Tor network?

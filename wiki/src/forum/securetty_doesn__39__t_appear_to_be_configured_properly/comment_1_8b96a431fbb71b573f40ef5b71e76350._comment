@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-15T20:15:22Z"
- content="""
-Tails' root password is disabled, so **logging in** (i.e. via `login`, which btw isn't started by default in any TTY) as root is impossible (one can  still use `sudo su` to become root if an [[doc/first_steps/startup_options/administration_password]] was set, of course). AFAICT `securetty` is completely pointless in Tails.
-"""]]
