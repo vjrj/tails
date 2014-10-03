@@ -61,7 +61,8 @@ this into the Tor browser address bar - `index.html` loads.
 
         cp -R /var/lib/tor/hidden_service /home/amnesia/Persistent
 
-##### To use a previously saved Hidden Service
+To use a previously saved Hidden Service
+========================================
 
 1. If the required the `hidden_service` directory is on *a different* Tails USB,
 unlock and mount this USB with [Disk
