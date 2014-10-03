@@ -1,16 +1,33 @@
 [[!meta title="How to serve files over HTTP behind a Tor Hidden Service"]]
 
-This method uses '[thttpd](http://acme.com/software/thttpd/)' -  the tiny/turbo/throttling HTTP server. Multiple Hidden Service instances can be run simultaneously but that is beyond the scope of this documentation. The URL-traffic-based throttling feature can be added by editing the `/etc/thttpd/thttpd.conf` configuration file once 'thttpd' is installed - see the [Throttling](http://acme.com/software/thttpd/thttpd_man.html#THROTTLING) section of the 'thttpd' man page for more information.
+This method uses '[thttpd](http://acme.com/software/thttpd/)' -  the
+tiny/turbo/throttling HTTP server. Multiple Hidden Service instances can be run
+simultaneously but that is beyond the scope of this documentation. The
+URL-traffic-based throttling feature can be added by editing the
+`/etc/thttpd/thttpd.conf` configuration file once 'thttpd' is installed - see
+the [Throttling](http://acme.com/software/thttpd/thttpd_man.html#THROTTLING)
+section of the 'thttpd' man page for more information.
 
-**Note**: for a simpler file sharing alternative, [OnionShare](https://onionshare.org/) is now available from [Debian](https://packages.debian.org/sid/onionshare).
+**Note**: for a simpler file sharing alternative,
+[OnionShare](https://onionshare.org/) is now available from
+[Debian](https://packages.debian.org/sid/onionshare).
 
-1. Start Tails on a device with a persistent volume. At the Tails greeter: Use persistence, more options - set [administration](https://tails.boum.org/doc/first_steps/startup_options/administration_password/) password. Connect to the Internet and open the Tor browser.
+1. Start Tails on a device with a persistent volume. At the Tails greeter: Use
+persistence, more options - set
+[administration](https://tails.boum.org/doc/first_steps/startup_options/administration_password/)
+password. Connect to the Internet and open the Tor browser.
 
-2. Download the 'thttpd' package for the appropriate architecture (for example i386) from [Debian](https://packages.debian.org/squeeze/thttpd), save the package to `/home/amnesia/Persistent`.
+2. Download the 'thttpd' package for the appropriate architecture (for example
+i386) from [Debian](https://packages.debian.org/squeeze/thttpd), save the
+package to `/home/amnesia/Persistent`.
 
-3. Create an `index.html` and any other files you need for the Hidden Service in a new directory `/home/amnesia/Persistent/www`. (*Take a look at* [w3schools](http://www.w3schools.com/html/html_examples.asp) *for some HTML basics.*)
+3. Create an `index.html` and any other files you need for the Hidden Service in
+a new directory `/home/amnesia/Persistent/www`. (*Take a look at*
+[w3schools](http://www.w3schools.com/html/html_examples.asp) *for some HTML
+basics.*)
 
-4. Create a text file in `/home/amnesia/Persistent`. Copy and paste the following code, then save as `ttt`.
+4. Create a text file in `/home/amnesia/Persistent`. Copy and paste the
+following code, then save as `ttt`.
 
         #!/bin/bash
         dpkg -i /home/amnesia/Persistent/thttpd_2.25b-11_i386.deb
@@ -28,21 +45,28 @@ This method uses '[thttpd](http://acme.com/software/thttpd/)' -  the tiny/turbo/
         sleep 5
         cat /var/lib/tor/hidden_service/hostname
 
-5. This procedure uses the command line. Open the [root](https://tails.boum.org/doc/first_steps/startup_options/administration_password) terminal and execute the following commands:
+5. This procedure uses the command line. Open the
+[root](https://tails.boum.org/doc/first_steps/startup_options/administration_password)
+terminal and execute the following commands:
 
         chmod 755 /home/amnesia/Persistent/ttt
         /home/amnesia/Persistent/ttt
 
-6. The last line of the terminal output is an automatically generated `hidden_service` URL: `[16-char-base32].onion`  
-Copy (Shift+Ctrl+C) and paste this into the Tor browser address bar - `index.html` loads.
+6. The last line of the terminal output is an automatically generated
+`hidden_service` URL: `[16-char-base32].onion`  Copy (Shift+Ctrl+C) and paste
+this into the Tor browser address bar - `index.html` loads.
 
-7. To save this URL, copy the `hidden_service` directory containing the `hostname` and `private_key` files to the persistent volume:
+7. To save this URL, copy the `hidden_service` directory containing the
+`hostname` and `private_key` files to the persistent volume:
 
         cp -R /var/lib/tor/hidden_service /home/amnesia/Persistent
 
 ##### To use a previously saved Hidden Service
 
-1. If the required the `hidden_service` directory is on *a different* Tails USB, unlock and mount this USB with [Disk Utilty](https://tails.boum.org/doc/encryption_and_privacy/encrypted_volumes) then copy the directory to the 'live' USB:
+1. If the required the `hidden_service` directory is on *a different* Tails USB,
+unlock and mount this USB with [Disk
+Utilty](https://tails.boum.org/doc/encryption_and_privacy/encrypted_volumes)
+then copy the directory to the 'live' USB:
 
         cp -R /media/TailsData/Persistent/hidden_service /home/amnesia/Persistent
 
@@ -70,7 +94,9 @@ Copy (Shift+Ctrl+C) and paste this into the Tor browser address bar - `index.htm
 
 ##### To continue the same Hidden Service after restarting Tails
 
-1. The 'thttpd' package, `www` directory, `ttt` script and the `hidden_service` directory are in the persistent volume. Uncomment (delete the `#` in) the following line in `ttt` and save. This can of course be done before shutdown.
+1. The 'thttpd' package, `www` directory, `ttt` script and the `hidden_service`
+directory are in the persistent volume. Uncomment (delete the `#` in) the
+following line in `ttt` and save. This can of course be done before shutdown.
 
         #cp -R /home/amnesia/Persistent/hidden_service /var/lib/tor
 
