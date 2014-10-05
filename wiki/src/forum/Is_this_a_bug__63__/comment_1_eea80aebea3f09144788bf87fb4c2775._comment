@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="the same *exit* Tor node"
- date="2012-10-11T10:20:50Z"
- content="""
-The button New Identity creates a new way to go through different Tor nodes, but can use the same *exit* Tor node.
-
-See also <https://tails.boum.org/ikiwiki.cgi?P=new+identity>
-"""]]
