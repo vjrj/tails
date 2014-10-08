@@ -1,9 +1,0 @@
-Hello all,
-
-during manual building process, I had some errors like these:
-
-W: Failed to fetch http://ftp.us.debian.org/debian/dists/unstable/main/i18n/Translation-en.bz2  Unable to connect to 127.0.0.1:8118:
-
-Where are the proxy settings or how can I disable it ?
-
-Thank you

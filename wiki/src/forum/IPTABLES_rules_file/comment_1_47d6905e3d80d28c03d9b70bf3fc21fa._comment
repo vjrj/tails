@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-03-30T10:38:53Z"
- content="""
-Tails' firewall is configured using ferm. See its [configuration file](http://git.immerda.ch/?p=amnesia.git;a=blob;f=config/chroot_local-includes/etc/ferm/ferm.conf;hb=HEAD).
-"""]]
