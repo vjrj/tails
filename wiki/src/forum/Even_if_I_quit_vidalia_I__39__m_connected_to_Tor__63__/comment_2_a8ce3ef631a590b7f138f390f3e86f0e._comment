@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-11-14T22:37:30Z"
- content="""
->Is this normal?
-
-Yes. Vidalia is just a \"frontend\" for Tor - it's a separate application and you can run Tor perfectly well without ever having installed it on the system.
-"""]]

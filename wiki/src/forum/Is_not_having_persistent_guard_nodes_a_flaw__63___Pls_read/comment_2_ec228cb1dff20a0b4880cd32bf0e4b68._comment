@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-01-10T13:28:36Z"
- content="""
-> It is kinda true, but the extent of this issue certainly is debatable.
-
-Liberté Linux has no persistence of entry guards. I also don't see any compelling reason to implement that (by, e.g., making <tt>/var/lib/tor/data</tt> persistent). If Tor is less secure when started up with a fresh state, this is a problem with Tor, not with the package shipper. Although, judging from [Ticket #2653](https://trac.torproject.org/projects/tor/ticket/2653), if Tor developers decide that selecting guards according to a seed is a good idea, then fine. For all I care, they can use a hash based on the hidden service public key for that automatically — the hidden service is required for cables communication, to which the quoted clown referred as one of Liberté's “shit design choices” (Creepy Wonka says: *Do tell me more about your amazing insight*). —MK
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-29T21:12:22Z"
- content="""
-`git grep -w build-wiki` will point you to the place you want.
-
-"""]]

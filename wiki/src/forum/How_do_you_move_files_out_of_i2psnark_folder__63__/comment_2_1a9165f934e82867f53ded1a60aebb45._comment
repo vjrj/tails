@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="str4d"
- ip="127.0.0.1"
- subject="comment 2"
- date="2013-01-02T06:18:12Z"
- content="""
-An alternative solution to this could be to package the [Robert I2P torrent client](http://bob.i2p.to/Robert.html), developed by [sponge](http://sponge.i2p.to/). As long as the I2P router is running and BOB is started on it, Robert could be run by the logged-in user instead of the I2P user, which would solve the permissions issue. Restricting the connections it makes should not be a problem, as Robert only makes connections to local ports - the BOB port for torrenting, the I2P HTTP proxy port for the SeaWeed browser built into it, and the I2P routerconsole for trackerless torrents (if the Seedless client is installed in the router).
-"""]]

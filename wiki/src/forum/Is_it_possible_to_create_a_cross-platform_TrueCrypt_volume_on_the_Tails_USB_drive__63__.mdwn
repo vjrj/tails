@@ -1,7 +1,0 @@
-Hi all,
-
-I installed Tails on a USB drive. However, I would also like to create a TrueCrypt volume on this USB drive to store important documents and such. I figure I can create this on a persistent volume in the free space on the USB stick, but I would like this TrueCrypt volume also accessible from outside Tails (to cover the possibility that I am unable to boot Tails off the USB drive in some environments). Is there any way to do this? Could I also install some Portable apps in the free space (that I could access from Windows?)
-
-Am kinda new to all this, so apologies if this is a noob question. But any pointers or suggestion would greatly help.
-
-Thanks

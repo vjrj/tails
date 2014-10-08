@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-02T09:49:48Z"
- content="""
-This is a Debian thing. Root privileges are required to update the list of available packages. My interpretation of it is that the authenticity of the list of available packages is actually better kept off the realm of non-root users.
-"""]]
