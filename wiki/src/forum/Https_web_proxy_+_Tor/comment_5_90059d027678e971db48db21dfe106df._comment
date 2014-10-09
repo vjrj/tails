@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 5"
- date="2013-01-17T18:45:52Z"
- content="""
-False. 
-
-Say you visit example.com this way. Unless example.com supports https, that last connection is still going to be unencrypted. The only difference is that last connection would be between the proxy site and example.com instead of an exit node and example.com. There might be some reasons to trust a proxy site more than a random exit node. But on the other hand, the exit node isn't totally out of the picture, it could still try a MitM attack using a fake certificate for the proxy site, so in some sense you now have two potential eavesdroppers instead of just one.
-"""]]

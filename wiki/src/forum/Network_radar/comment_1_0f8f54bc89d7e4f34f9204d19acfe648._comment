@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-02-04T01:47:30Z"
- content="""
-For basic usage, NetworkManager already lists open wifi networks. For advanced usage, Tails ships the aircrack-ng suite. What's missing?
-
-"""]]

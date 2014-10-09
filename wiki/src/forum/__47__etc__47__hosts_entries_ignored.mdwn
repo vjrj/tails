@@ -1,1 +1,0 @@
-Really need a way to make Tails pick up on the entries in /etc/hosts BEFORE it tries to resolve using tor/google's dns. How would I go about doing this???

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-11-27T17:07:51Z"
- content="""
-It seems you're using live-build 3.x (the alpha version) whereas building Tails requires \"live-build from Debian Squeeze\", which is version 2.x. Please downgrade.
-"""]]
