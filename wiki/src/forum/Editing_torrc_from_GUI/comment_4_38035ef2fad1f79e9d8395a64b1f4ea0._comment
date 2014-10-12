@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-05-05T23:57:52Z"
- content="""
-That works except there's no way to remove a parameter / option that you've added.  What i mean to say, is that if i add an option to the torrc file that wasn't there originally (using the steps you outlined above), there's no way to remove that option later (using the method you described above).
-
-I guess what i can do is exit vidalia completely (tor is still running), and then just reload the tor config through the command line.  I hope it's safe to exit vidalia.
-"""]]

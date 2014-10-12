@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-10-31T16:50:38Z"
- content="""
-Except for hosts in the local network (RFC1918 classes), all traffic is redirected to the Tor network using system-wide firewall rules. Please note that Tor does not handle ICMP traffic which means that using 'ping' will not have any significant outcome.
-"""]]

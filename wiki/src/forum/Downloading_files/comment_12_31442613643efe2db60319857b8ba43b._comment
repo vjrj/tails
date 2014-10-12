@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 12"
- date="2012-10-31T13:44:30Z"
- content="""
-It's a fairly straighforward question: should one use torified wget over Ice Weasel's browser download manager? It's a yes/no question.
-"""]]
