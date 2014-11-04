@@ -1,8 +1,0 @@
-I know enough about computers to be worried but not enough to answer this:
-
-If I'm working off a computer (my home pc for instance) that I worry might somehow be compromised either by malicious software or a physical device and I want to install Tails to a usb drive (let's assume non-persistent), could that install somehow be compromised, for instance by a malicious process interposing itself during the install? 
-I mean, I download tails, verify sig and MD5 checksum and install it to my usb drive using the computer that maybe maybe not is under surveillance. Will that compromise my install of Tails and hence my security when using it?
-
-Hope that's clear enough and that someone has an answer
-
-PS: Yes I realize I am being exceedingly paranoid. :)

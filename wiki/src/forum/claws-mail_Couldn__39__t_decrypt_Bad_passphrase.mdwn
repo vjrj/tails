@@ -1,7 +1,0 @@
-After 3 wrong attempts to enter an email decryption passphrase, claws-mail displays the following message :
-
-> "Couldn't decrypt: Bad passphrase"
-
-In such situation, it seems impossible to get a new chance to re-enter the passphrase.. did I missed something ?
-
-Thanks a lot for any help

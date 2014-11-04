@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-14T11:37:47Z"
- content="""
-Not sure if I have faulty hardware, but since using 0.14rc2 I've found a USB install spontaniously shutting down for no reason.  I've replaced the USB drive, or alternatively it could possibly be moving the laptop around (but if that is the case I can't at this moment nail down exactly what is causing it - and it is odd it should only start to occur with 0.14).
-"""]]
