@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2011-10-16T17:18:00Z"
- content="""
-Wait: are you talking about a \"true\" pre-boot password or you just need a password to change the boot device order?
-IF so, and IF they set the floppy (IF any) to boot before the HD, you could start Tails via Smart Boot Manager or a similar tool.
-There are many IFs, but that's how I did it.
-"""]]

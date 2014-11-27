@@ -1,3 +1,0 @@
-I have a question about Tails security inside a VM.  I currently have a Mac, which I don't complete control, which I use on a daily basis.  On the Mac I have a Debian 6 VM running in VMWare Fusion.  I do control this VM and can do anything with it.  Just this morning, I installed VirtualBox on the Debian VM and am running Tails in Virtualbox on the Debian VM.
-
-Now, aside from the performance issues (which actually aren't too bad, given that I'm only using the internet and mail), what should I be concerned about, security-wise, and how do I minimize those concerns?  There's got to be a way to secure Tails in this VM onion, right?  Because onion is good!  :)

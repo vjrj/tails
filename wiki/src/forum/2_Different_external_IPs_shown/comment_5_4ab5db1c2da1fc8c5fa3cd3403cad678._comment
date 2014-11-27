@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 5"
- date="2013-04-24T21:19:18Z"
- content="""
-Tor always have several circuits ready to be used. And those circuits can be used in parallel. So it can use at the same time one circuit to reach Tor Check and another circuit to reach Google IP check, and thus appear as coming from different IP addresses. Nothing to worry about.
-
-"""]]

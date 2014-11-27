@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-06-20T07:58:12Z"
- content="""
-Since 0.12 you can [[use the \"Unsafe Browser\" to login on the captive portal|doc/first_steps/unsafe_browser]].
-"""]]
