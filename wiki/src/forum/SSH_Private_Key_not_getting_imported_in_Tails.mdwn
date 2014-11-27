@@ -1,6 +1,0 @@
-I created ssh rsa2 keypair without a password in Ubuntu 12.04 sucessfully and tried to import it in tails, but it will ask for a password while there is no password for it.
-
-I added a password for that same ssh in ubuntu and tried to import it again in tails and now seahorse shuts down without importing.
-
-Any help please....
-Thanks.

@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-12T07:47:24Z"
- content="""
-Tails is *based on* Debian so, while all of Debian is available in Tails the converse is not the case. Many Tails developments, particularly the more restrictive/security-orientated ones, are unsuitable and/or unnecessary for upstream. To understand the structure of Tails and how it deviates from Debian, you might like to [browse the \"master\" Git tree.](http://git.immerda.ch/?p=amnesia.git;a=tree)
-"""]]

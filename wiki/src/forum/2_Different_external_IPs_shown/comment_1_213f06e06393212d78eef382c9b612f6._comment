@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-04-18T15:22:51Z"
- content="""
-Tor picks a new exit node every so often (10 minutes I think) so it probably just switched in between checking on the two sites.
-"""]]
