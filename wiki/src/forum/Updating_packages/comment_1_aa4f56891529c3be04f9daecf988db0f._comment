@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-25T19:11:47Z"
- content="""
-If you update your packages, as when you install a new package, they [[will not be automatically reinstalled|doc/first_steps/persistence/configure/#index7h2]] at the next reboot.
-
-Please also note that updating packages can make it easier to differ you from other users, and so break your anonymity.
-"""]]
