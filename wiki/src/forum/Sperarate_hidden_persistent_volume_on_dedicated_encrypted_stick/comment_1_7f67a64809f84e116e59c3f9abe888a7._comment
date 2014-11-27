@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-03-26T08:55:38Z"
- content="""
-I believe this should currently work, but it's not supported, that is it may break any time, and cause various problems you'll have to deal with without our help.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 18"
- date="2013-05-08T19:35:06Z"
- content="""
-Just to prevent any further confusion:
-
-Tails and TBB do some things slightly differently, and in my opinon Tails does a better (more conservative) configuration of the modified browser.  In particular, the current TBB does check the automatic updates box, but the current Tails does not, by default.
-"""]]

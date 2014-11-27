@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-18T08:32:06Z"
- content="""
-So Iceweasel knows which X server display to appear on. DISPLAY won't be set \"automatically\" in the environment anywhere except in the GNOME session, so we have to set it manually in the NetworkManager hooks (and everywhere else) if we want to start X applications.
-"""]]
