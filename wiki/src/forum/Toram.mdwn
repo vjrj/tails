@@ -1,9 +1,0 @@
-Earlier I needed to free up a USB port temporarily, so I decided to try toram command on boot as a one off, and found it to be surprisingly quick and efficient, and seems to me to be a better way to go from here on out. 
-
-Just wondered if there were any security issues with this over and above say booting with DVD or USB? 
-
-Is the fact you are storing much more data on RAM a problem when wiping RAM on shutdown? 
-
-Also, I read on an old post that said Tails could only use 2.5Gb of RAM, so has this changed in the last 6 months? I have 4Gb and would like to think that I can use all of it. 
-
-Thanks.

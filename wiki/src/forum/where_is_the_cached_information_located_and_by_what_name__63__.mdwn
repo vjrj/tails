@@ -1,8 +1,0 @@
-I've searched for the node info, the 'cached-' files but I cannot find them. I would think they would be generated in ~/.tor or /etc/tor but they are not.
-
-Another issue. There is one file located in ~/.tor and it's colored red:
-
-~/.tor$ ls -l
-control_auth_cookie -> /tmp/control_auth_cookie
-
-What is that doing there?

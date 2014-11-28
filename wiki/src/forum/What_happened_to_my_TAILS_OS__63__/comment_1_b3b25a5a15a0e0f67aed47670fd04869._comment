@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-10-13T08:15:45Z"
- content="""
-What you describe is what usually happens in out-of-memory situation. Given you are saying that you had a 1 GB file in memory, that sounds highly plausible.
-"""]]

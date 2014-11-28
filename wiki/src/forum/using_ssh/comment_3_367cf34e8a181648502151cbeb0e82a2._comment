@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="ssh-tor"
- date="2012-10-28T22:05:07Z"
- content="""
-In tails, connections are either routed through tor or there's no connection at all. So, if you can get a working ssh connection from the built-in ssh client, it's absolutely working through tor and therefore anonymous. 
-"""]]

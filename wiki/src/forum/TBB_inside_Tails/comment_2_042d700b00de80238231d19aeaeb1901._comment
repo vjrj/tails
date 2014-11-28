@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-12-01T11:57:50Z"
- content="""
-> Isn't the Tor Browser identical to Iceweasel?
-
-It's not. The Useragent is identical, IIRC, but there are minor (or maybe not so minor) differences that allow an adversary to tell the difference between the Tor Browser and Iceweasel. 
-"""]]

@@ -1,3 +1,0 @@
-If I buy a new terabyte external hard drive, is there any reason why I cannot use the Gnome disk application in Tails 0.17.2 to make the external drive into a LUKS encrypted volume?
-
-I seem to recall there might be some firmware issues, and possibly also issues arising from a limited maximal size of a LUKS encrypted volume.

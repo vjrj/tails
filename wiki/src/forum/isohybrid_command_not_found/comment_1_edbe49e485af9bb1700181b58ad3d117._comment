@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-05T15:00:39Z"
- content="""
-Indeed, the syslinux package in Lucid does not ship isohybrid: http://packages.ubuntu.com/lucid/i386/syslinux/filelist
-
-"""]]
