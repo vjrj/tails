@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-10-16T08:33:02Z"
- content="""
-If the computers at your University have BIOS passwords it's possible that you won't be able to boot Tails without knowing it.
-"""]]

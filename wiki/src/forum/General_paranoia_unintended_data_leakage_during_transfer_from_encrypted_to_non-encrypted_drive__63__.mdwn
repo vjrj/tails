@@ -1,8 +1,0 @@
-This question is Tails-related, but maybe not even Tails-specific. If there is already an answer to this (either on this forum or elsewhere within the reach of what could have been googled), then I'd be happy to know where.
-
-My question is this: When copying files from an encrypted drive to an unecrypted one, will any data BEYOND what was intended to be copied then remain on the unencrypted drive? I am thinking about things like directory structures, file names or any other kind of (meta-)data from the encrypted drive that was NOT intended to be copied.
-
-I have tried to find something on this on Google, and I have done a few (amateurish) experiments using Ubuntu and the sleuthkit and I couldn't FIND any obvious evidence of leaks of this kind (and of course I would expect Tails to be safer than Ubuntu anyway!) - but I'm really far too clueless to pass any final judgement on this.
-
-So: Sorry if this question is trivial, or misplaced on this forum, or has been answered before. Any ideas?
-

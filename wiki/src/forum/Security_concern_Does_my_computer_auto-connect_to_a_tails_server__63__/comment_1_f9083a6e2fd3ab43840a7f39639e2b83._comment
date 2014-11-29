@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="anonym"
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-06-16T17:17:32Z"
- content="""
-Yes, but the script simply accesses the Atom feed and does not send any identifying information to us. If you want to look at the script it's located in: /usr/local/bin/tails-security-check
-"""]]

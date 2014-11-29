@@ -1,4 +1,0 @@
-How can I use wget to download over i2p in a terminal?
-
-If I first export http_proxy="http:/127.0.0.1:4444/" && export HTTP_PROXY="http:/127.0.0.1:4444/ in a terminal, wget ignores this and still connects to 127.0.0.1:8118
-
