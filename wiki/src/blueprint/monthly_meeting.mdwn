@@ -1,10 +1,19 @@
-[[!meta title="Next monthly meeting"]]
+[[!meta title="Agenda for the next contributors meeting"]]
 
-Agenda
-======
+[[Official place and date are in the calendar.|contribute/calendar]]
 
-Todo/discuss
-------------
+Availability and plans for the next weeks
+=========================================
 
-* https://labs.riseup.net/code/issues/6972 Create a "Sponsors" page
-* https://labs.riseup.net/code/issues/7521 Export iCal calendar from ikiwiki?
+  - Volunteers to handle "[Hole in the roof](https://labs.riseup.net/code/versions/198)" tickets this month
+  - Availability and plans for monthly low-hanging fruits meeting
+
+Discussions
+===========
+
+ - [[!tails_ticket 5684 desc="Screen locker"]]
+ - [[!tails_ticket 7061 desc="Random hostname option needed on startup"]] and [Let's share username, /etc/hostname and /etc/host among all anonymity distributions](https://mailman.boum.org/pipermail/tails-dev/2014-August/006736.html)
+ - [[!tails_ticket 7419 desc="Rename Tor Browser in camouflage mode?"]]
+ - [[!tails_ticket 8125 desc="Host the Tor Browser tarballs we need ourselves"]]
+ - [[!tails_ticket 8174 desc="Build Tor with seccomp"]]
+ - [[!tails_ticket 8236	desc="Greeter revamp: Decide between 'play' and 'computer' logo for Start button"]]
