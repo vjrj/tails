@@ -1,8 +1,0 @@
-I am at a loss as to how to move my downloaded music files out of the i2psnark folder and into my persistent volume. 
-
-I can see the files as superuser when I enter 'sudo nautilus' in the root terminal but when I try to copy or move a file it would pop up with 'The file cannot be handled because you do not have permissions to read it'.
-
-Any idea how to resolve this? If I shut down Tails i am sure my files will be destroyed and I don't think I can make the i2psnark folder persistent either.
-
-Please help.
-

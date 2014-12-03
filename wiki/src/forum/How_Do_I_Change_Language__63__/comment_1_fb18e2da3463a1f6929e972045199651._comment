@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-05-09T02:14:26Z"
- content="""
-The \"[greeter](https://tails.boum.org/doc/first_steps/startup_options/index.en.html#index2h1)\" provides an opportunity to set language, locale and keyboard upon boot.
-"""]]

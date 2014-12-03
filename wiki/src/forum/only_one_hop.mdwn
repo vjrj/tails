@@ -1,5 +1,0 @@
-hello
-
-the last two days i recognized that just after starting tails the first connections only show one hop on the network map.
-Some time ago i have had connections showing me 2 hops in stead of three. But this time it is one hop only. Restarting tails using a new ip shows the same result - one hop is used for the first connections. Later at the same day everything is back to normal and every connection uses 3 hops as usually.
-Is it some kind of a bug and the other two hops are just not shown or does tor sometimes really only use one hop and what the network map tells me is always correct ?

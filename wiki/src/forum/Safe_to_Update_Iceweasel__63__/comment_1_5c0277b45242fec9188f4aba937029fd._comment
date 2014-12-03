@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-07-30T09:58:11Z"
- content="""
-That depends on how severe the update is. ESR updates (i.e. security updates) are ok, but installing a new major release may reduce your anonymity since it may add features that make your browser distinguishable from other Tails users'.
-"""]]

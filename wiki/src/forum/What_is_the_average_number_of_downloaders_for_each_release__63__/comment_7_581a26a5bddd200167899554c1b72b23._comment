@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 7"
- date="2012-11-11T08:41:59Z"
- content="""
-boum.org (which host *this* website: <https://tails.boum.org/>) does not log IP address. In the network of mirrors that is available at <http://dl.amnesia.boum.org/>, some servers might log IP addresses.
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-11-10T13:26:14Z"
- content="""
-> This is an information we don't really have. Tails can be downloaded from a handful of different mirrors and only some of them keep statistics.
-
-When I download Tails using the green Download Tails button, does my IP get logged?
-"""]]

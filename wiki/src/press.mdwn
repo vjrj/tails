@@ -9,9 +9,18 @@ The general purpose announcements that we publish are available either
 by email or by RSS feed on [[Tails News|news]].
 They are mainly meant for Tails users.
 
-We also sometimes publish press releases but they are not archived on
-the website. Write us an email at <tails@boum.org> if you want to
-receive future press releases.
+We sometimes publish press releases but they are not archived on
+the website. Write us an email at <tails-press@boum.org> if you want 
+to receive future press releases, or if you have a press inquiry.
+
+<div class="note">
+
+<p>
+We invite you to encrypt your press inquiries using the OpenPGP
+public key [[!tails_website tails-press.key]].
+</p>
+
+</div>
 
 Quick links to better understand Tails
 ======================================
@@ -32,6 +41,63 @@ that have been published about Tails.
 
 ## 2014
 
+* 2014-11-20: Amaelle Guiton writes about Tails in "[Tails, l'outil
+  détesté par la NSA, qui veut démocratiser l'anonymat en
+  ligne](http://www.lemonde.fr/pixels/article/2014/11/20/tails-l-outil-deteste-par-la-nsa-qui-veut-democratiser-l-anonymat-en-ligne_4514650_4408996.html)"
+  (in French), and gives a detailed transcript of an interview she made
+  with some of us in "[Tails raconté par ceux qui le
+  construisent](https://www.techn0polis.net/2014/11/19/tails-raconte-par-ceux-qui-le-construisent/)"
+  (in French as well).
+* 2014-11-05: Tails 1.2 is featured on LinuxFr in "[Tails 1.2, une
+  distribution pour votre
+  anonymat](http://linuxfr.org/news/tails-1-2-une-distribution-pour-votre-anonymat)"
+  (in French).
+* 2014-10-29: In "[The 7 Privacy Tools Essential to Making Snowden
+  Documentary
+  CITIZENFOUR](https://www.eff.org/deeplinks/2014/10/7-privacy-tools-essential-making-citizenfour),
+  the Electronic Fountier Foundation says that "one of the most robust
+  ways of using the Tor network is through a dedicated operating system
+  that enforces strong privacy" like Tails.
+* 2014-10-28: In "[Ed Snowden Taught Me To Smuggle Secrets Past
+  Incredible Danger. Now I Teach
+  You.](https://firstlook.org/theintercept/2014/10/28/smuggling-snowden-secrets/)",
+  Micah Lee, from The Intercept, gives many details on how Tails helped
+  Snowden, Poitras, and Gleenwald start working together.
+* 2014-10-16: According to
+  [an article in
+  Wired](http://www.wired.com/2014/10/laura-poitras-crypto-tools-made-snowden-film-possible/),
+  in the closing credits of Citizenfour, Poitras took the unusual step
+  of adding an acknowledgment of the free software projects that made
+  the film possible: The roll call includes the anonymity software Tor,
+  the Tor-based operating system Tails, GPG encryption, Off-The-Record
+  (OTR) encrypted instant messaging, hard disk encryption software
+  Truecrypt, and Linux.
+* 2014-07-26: [Tails 1.1 is announced](http://linuxfr.org/news/tails-1-1-est-disponible), in French,
+  in an article by pamputt on LinuxFr
+* 2014-07: I2P bug and zero-days buzz:
+  - 2014-07-21: Exodus Intelligence [tweets about multiple RCE/de-anonymization
+    zero-days](https://twitter.com/ExodusIntel/status/491247299054428160) on the
+    day before Tails 1.1 is released.
+  - Several news websites relay that information before the details of the
+    vulnerability are disclosed:
+    - [Exploit Dealer: Snowden's Favorite OS Tails Has Zero-Day Vulnerabilities
+      Lurking
+      Inside](http://www.forbes.com/sites/thomasbrewster/2014/07/21/exploit-dealer-snowdens-favourite-os-tails-has-zero-day-vulnerabilities-lurking-inside/)
+      by Thomas Brewster on Forbes.
+    - [Don't look, Snowden: Security biz chases Tails with zero-day flaws
+      alert](http://www.theregister.co.uk/2014/07/21/security_researchers_chase_tails_with_zeroday_flaw_disclosure/)
+      by Iain Thomson on The Register.
+    - [The world's most secure OS may have a serious
+      problem](http://www.theverge.com/2014/7/22/5927917/the-worlds-most-secure-os-may-have-a-serious-problem)
+      by Russell Brandom on The Verge
+  - 2014-07-23: We made our users [[aware of that
+    process|news/On_0days_exploits_and_disclosure]].
+  - 2014-07-23: Exodus Intelligence publishes [Silver Bullets and Fairy
+    Tails](http://blog.exodusintel.com/2014/07/23/silverbullets_and_fairytails/)
+    to explain the vulnerability.
+  - 2014-07-25: We publish a [[security
+    advisory|security/Security_hole_in_I2P_0.9.13]] explaining the scope of the
+    problem, and temporary solutions.
 * 2014-07-08: In the [July 8th Keiser Report on RT](http://rt.com/shows/keiser-report/170908-episode-max-keiser-624/).
   The Tails related part of the Keiser Report starts at 15'40".
 * 2014-07-03: Tails above the Rest:
@@ -286,7 +352,7 @@ that have been published about Tails.
   adequate to help even Linux beginners. Yay for Tails, then!"
 * 2013-11: The German-speaking ADMIN magazine [reviews
   Tails](http://www.admin-magazin.de/Das-Heft/2013/11/Tails-0.20).
-* 2013-10 : (in french) Framablog, [Le chiffrement, maintenant](http://www.framablog.org/index.php/post/2013/10/19/Le-chiffrement-maintenant-compil), contains a whole chapter about Tails.
+* 2013-10 : (in French) Framablog, [Le chiffrement, maintenant](http://www.framablog.org/index.php/post/2013/10/19/Le-chiffrement-maintenant-compil), contains a whole chapter about Tails.
 * 2013-10 : SecureDrop, "Aaron Swartz’s unfinished whistleblowing platform" promotes Tails in both [user manual](https://github.com/freedomofpress/securedrop/blob/master/docs/user_manual.md) and [security audit](http://homes.cs.washington.edu/~aczeskis/research/pubs/UW-CSE-13-08-02.PDF). via [Korben.info](http://korben.info/securedrop-aaron-swartz.html)
 * 2013-10: The [occasional issue n°8 of
   MISC](http://boutique.ed-diamond.com/misc-hors-series/500-mischs8.html)
@@ -405,6 +471,8 @@ Awards
 Conferences
 ===========
 
+* 2014-07-16: [The Amnesic Incognito Live System](http://interference.io/amnesic-incognito-live-system) at Interference
+* 2014-03-16: [Lightning talk about Tails](http://meetings-archive.debian.net/pub/debian-meetings/2014/mini-debconf-barcelona/Lightning_Talks.webm) at 2014 Mini-Debconf in Barcelona. The talk begins at 24:15 of the video.
 * 2013-12-29: [Tails needs your
   help!](https://events.ccc.de/congress/2013/wiki/Session:Tails_needs_your_help!)
   at 30C3
@@ -423,8 +491,6 @@ Video
 * [Probando TAILS 0.16 Privacidad y
   Anonimato](https://www.youtube.com/watch?v=bBdGbK54WPE), an
   introductory video to Tails, in Spanish.
-
-* [Lightning talk about Tails](http://meetings-archive.debian.net/pub/debian-meetings/2014/mini-debconf-barcelona/Lightning_Talks.webm) at 2014 Mini-Debconf in Barcelona. The talk begins at 24:15 of the video.
 
 Books
 =====

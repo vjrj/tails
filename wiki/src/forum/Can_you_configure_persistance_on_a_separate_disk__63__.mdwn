@@ -1,5 +1,0 @@
-I would like tails to configure persistence on a separate USB stick instead of partitioning the drive.
-
-I understand I can use true crypt to do this but I'm not technically savvy enough to build my own distro in order to use some of the advantages that the built-in USB installer offers.
-
-Is this possible or could it be considered as an option for future release?
