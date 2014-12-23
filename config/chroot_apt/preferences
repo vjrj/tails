@@ -18,6 +18,14 @@ Package: bilibop-udev
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
 
+Package: consolekit
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: libck-connector0
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
 Package: cryptsetup
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
