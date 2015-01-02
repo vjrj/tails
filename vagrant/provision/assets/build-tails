@@ -130,6 +130,8 @@ if [ -n "$JENKINS_URL" ]; then
 	done
 	gpg --batch --detach-sign --armor "$ISO.shasum"
 
+	USER_ON_ACNG_HOST=jenkins
+	ACNG_HOST=apt-proxy.lizard
 	ACNG_REMOTE_LOG=/var/log/apt-cacher-ng/apt-cacher.log
 	ACNG_LOCAL_LOG=$(basename "$ACNG_REMOTE_LOG")
 	sftp "${USER_ON_ACNG_HOST}@${ACNG_HOST}:${ACNG_REMOTE_LOG}"
