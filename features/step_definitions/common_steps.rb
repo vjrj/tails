@@ -398,7 +398,7 @@ end
 Then /^all Internet traffic has only flowed through Tor$/ do
   next if @skip_steps_while_restoring_background
   leaks = FirewallLeakCheck.new(@sniffer.pcap_file, get_tor_relays)
-  if !leaks.empty?
+  if !leaks.ip_leaks_empty?
     if !leaks.ipv4_tcp_leaks.empty?
       puts "The following IPv4 TCP non-Tor Internet hosts were contacted:"
       puts leaks.ipv4_tcp_leaks.join("\n")
