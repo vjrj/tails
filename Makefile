@@ -3,13 +3,14 @@
 DOCKER_IMAGE_NAME := "tails_builder"
 DOCKER_MOUNT := "$(shell pwd):/root/tails"
 DOCKER_RUN := docker run --rm --privileged -v $(DOCKER_MOUNT) -t $(DOCKER_IMAGE_NAME) -e TAILS_BUILD_OPTIONS noproxy
+BUILD_COMMAND := lb clean --all && lb config --cache false && lb build
 
 default: all
 
 all: env image
 
 image:
-	$(DOCKER_RUN) "lb clean --all && lb config --cache false && lb build"
+	$(DOCKER_RUN) $(BUILD_COMMAND)
 
 env:
 	docker build -t "$(DOCKER_IMAGE_NAME)" .
