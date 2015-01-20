@@ -1,5 +1,5 @@
 FROM debian:wheezy
-MAINTAINER amnesia@boum.org
+MAINTAINER tails@boum.org
 
 ADD setup_container /root/setup_container
 RUN bash /root/setup_container
