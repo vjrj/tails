@@ -10,13 +10,15 @@ RUN	apt-get update &&						\
 	bash								\
 	cpio								\
 	dpkg-dev							\
-	eatmydata/squeeze-backports					\
+	eatmydata							\
+	gettext/wheezy-backports					\
 	git								\
 	ikiwiki/wheezy-backports					\
 	intltool							\
 	libdpkg-perl							\
 	libyaml-perl							\
 	libyaml-syck-perl						\
+	libyaml-libyaml-perl						\
 	live-build/builder-wheezy					\
 	perlmagick							\
 	po4a								\
