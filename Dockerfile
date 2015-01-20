@@ -4,7 +4,6 @@ MAINTAINER tails@boum.org
 COPY config/chroot_sources/tails.chroot.gpg        /tmp/deb.tails.boum.org.key
 COPY docker/provision/assets/apt/sources.list      /etc/apt/sources.list
 COPY docker/provision/assets/apt/preferences       /etc/apt/preferences.d/tails
-COPY docker/provision/assets/live-build/build.conf /etc/live/build.conf
 
 RUN	apt-key add /tmp/deb.tails.boum.org.key &&			\
 	apt-get update &&						\
@@ -28,6 +27,8 @@ RUN	apt-key add /tmp/deb.tails.boum.org.key &&			\
 	  time								\
 	  wget								\
 	  whois
+
+COPY docker/provision/assets/live-build/build.conf /etc/live/build.conf
 
 WORKDIR /root/tails
 ENTRYPOINT ["/bin/bash", "-l", "-c"]
