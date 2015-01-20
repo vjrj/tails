@@ -1,8 +1,9 @@
 FROM debian:wheezy
 MAINTAINER tails@boum.org
 
-ADD setup_container /root/setup_container
-RUN bash /root/setup_container
+ADD docker/provision/assets/apt/sources.list /etc/apt/sources.list
+ADD docker/provision/assets/apt/preferences /etc/apt/preferences.d/tails
+ADD docker/provision/assets/live-build/build.conf /etc/live/build.conf
 
 RUN	apt-get update &&						\
 	apt-get install --assume-yes --no-install-recommends		\
