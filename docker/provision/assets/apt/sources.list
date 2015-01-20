@@ -1,0 +1,3 @@
+deb http://ftp.us.debian.org/debian wheezy main
+deb http://ftp.us.debian.org/debian wheezy-backports main
+deb http://deb.tails.boum.org/ builder-wheezy main

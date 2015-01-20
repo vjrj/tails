@@ -2,7 +2,7 @@
 #DOCKER_IMAGE_NAME := "tails$(if $(CURRENT_BRANCH),-$(CURRENT_BRANCH))"
 DOCKER_IMAGE_NAME := "tails_builder"
 DOCKER_MOUNT := "$(shell pwd):/root/tails"
-DOCKER_RUN := docker run --rm --privileged -v $(DOCKER_MOUNT) -t $(DOCKER_IMAGE_NAME)
+DOCKER_RUN := docker run --rm --privileged -v $(DOCKER_MOUNT) -t $(DOCKER_IMAGE_NAME) -e TAILS_BUILD_OPTIONS noproxy
 
 default: all
 
