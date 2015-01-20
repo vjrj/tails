@@ -9,7 +9,7 @@ default: all
 all: env image
 
 image:
-	$(DOCKER_RUN) "lb clean --all && lb config && lb build"
+	$(DOCKER_RUN) "lb clean --all && lb config --cache false && lb build"
 
 env:
 	docker build -t "$(DOCKER_IMAGE_NAME)" .
