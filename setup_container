@@ -1,16 +1,14 @@
 cat <<EOF >> /etc/apt/sources.list
 
-deb http://http.debian.net/debian unstable main
-deb-src http://http.debian.net/debian unstable main
-
-deb http://backports.debian.org/debian-backports squeeze-backports main
+deb http://ftp.us.debian.org/debian wheezy main
+deb http://ftp.us.debian.org/debian wheezy-backports main
 deb http://deb.tails.boum.org/ builder-wheezy main
 EOF
 
 cat <<EOF > /etc/apt/preferences.d/tails.pref
 Package: *
-Pin: release a=unstable
-Pin-Priority: 500
+Pin: release o=Debian,n=wheezy
+Pin-Priority: 990
 EOF
 
 mkdir /etc/live
