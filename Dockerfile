@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:wheezy
 MAINTAINER amnesia@boum.org
 
 ADD setup_container /root/setup_container
@@ -12,7 +12,7 @@ RUN	apt-get update &&						\
 	dpkg-dev							\
 	eatmydata/squeeze-backports					\
 	git								\
-	ikiwiki								\
+	ikiwiki/wheezy-backports					\
 	intltool							\
 	libdpkg-perl							\
 	libyaml-perl							\
