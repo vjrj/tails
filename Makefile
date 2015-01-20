@@ -10,7 +10,7 @@ default: all
 all: env image
 
 image:
-	$(DOCKER_RUN) $(BUILD_COMMAND)
+	$(DOCKER_RUN) "$(BUILD_COMMAND)"
 
 env:
 	docker build -t "$(DOCKER_IMAGE_NAME)" .
