@@ -9,7 +9,6 @@ ADD docker/provision/assets/live-build/build.conf /etc/live/build.conf
 RUN	apt-key add /tmp/deb.tails.boum.org.key				\
 	apt-get update &&						\
 	apt-get install --assume-yes --no-install-recommends		\
-	--allow-unauthenticated						\
 	bash								\
 	cpio								\
 	dpkg-dev							\
