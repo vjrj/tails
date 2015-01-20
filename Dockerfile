@@ -18,9 +18,9 @@ RUN	apt-key add /tmp/deb.tails.boum.org.key &&			\
 	  ikiwiki/wheezy-backports					\
 	  intltool							\
 	  libdpkg-perl							\
+	  libyaml-libyaml-perl						\
 	  libyaml-perl							\
 	  libyaml-syck-perl						\
-	  libyaml-libyaml-perl						\
 	  live-build/builder-wheezy					\
 	  perlmagick							\
 	  po4a								\
