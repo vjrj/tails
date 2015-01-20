@@ -7,10 +7,10 @@ BUILD_COMMAND := apt-get update && apt-get dist-upgrade && lb clean --all && lb 
 
 default: all
 
-all: env image
+all: builder_container iso_image
 
-image:
+iso_image:
 	$(DOCKER_RUN) "$(BUILD_COMMAND)"
 
-env:
+builder_container:
 	docker build -t "$(DOCKER_IMAGE_NAME)" .
