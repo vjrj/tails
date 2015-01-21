@@ -3,7 +3,7 @@
 BUILDER_IMAGE := "tails_builder"
 BUILDER_MOUNT := "$(shell pwd):/root/tails"
 DOCKER_RUN_IN_BUILDER := docker run --rm --privileged -v $(BUILDER_RUN) -t $(BUILDER_IMAGE)
-ISO_BUILD_COMMAND := apt-get update && apt-get dist-upgrade && lb clean --all && lb config --cache false && lb build
+ISO_BUILD_COMMAND := apt-get update && apt-get dist-upgrade && /usr/sbin/build-tails
 
 default: all
 
