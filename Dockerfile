@@ -8,6 +8,7 @@ COPY docker/provision/assets/apt/preferences       /etc/apt/preferences.d/tails
 RUN	apt-key add /tmp/deb.tails.boum.org.key &&			\
 	apt-get update &&						\
 	apt-get install --assume-yes --no-install-recommends		\
+	  aufs-tools							\
 	  bash								\
 	  cpio								\
 	  dpkg-dev							\
@@ -23,12 +24,14 @@ RUN	apt-key add /tmp/deb.tails.boum.org.key &&			\
 	  live-build/builder-wheezy					\
 	  perlmagick							\
 	  po4a								\
+	  procps							\
 	  syslinux							\
 	  time								\
 	  wget								\
 	  whois
 
 COPY docker/provision/assets/live-build/build.conf /etc/live/build.conf
+COPY docker/provision/assets/scripts/build-tails   /usr/sbin/build-tails
 
 WORKDIR /root/tails
 ENTRYPOINT ["/bin/bash", "-l", "-c"]
