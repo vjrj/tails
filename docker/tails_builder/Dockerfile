@@ -1,9 +1,9 @@
 FROM debian:wheezy
 MAINTAINER tails@boum.org
 
-COPY config/chroot_sources/tails.chroot.gpg        /tmp/deb.tails.boum.org.key
-COPY docker/provision/assets/apt/sources.list      /etc/apt/sources.list
-COPY docker/provision/assets/apt/preferences       /etc/apt/preferences.d/tails
+COPY provision/assets/apt/deb.tails.boum.org.key   /tmp/deb.tails.boum.org.key
+COPY provision/assets/apt/sources.list             /etc/apt/sources.list
+COPY provision/assets/apt/preferences              /etc/apt/preferences.d/tails
 
 RUN	apt-key add /tmp/deb.tails.boum.org.key &&			\
 	apt-get update &&						\
@@ -30,8 +30,8 @@ RUN	apt-key add /tmp/deb.tails.boum.org.key &&			\
 	  wget								\
 	  whois
 
-COPY docker/provision/assets/live-build/build.conf /etc/live/build.conf
-COPY docker/provision/assets/scripts/build-tails   /usr/sbin/build-tails
+COPY provision/assets/live-build/build.conf        /etc/live/build.conf
+COPY provision/assets/scripts/build-tails          /usr/sbin/build-tails
 
 WORKDIR /root/tails
 ENTRYPOINT ["/bin/bash", "-l", "-c"]

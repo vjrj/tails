@@ -49,3 +49,6 @@
 
 # Files generated during the test suite
 /features/misc_files/video.mp4
+
+# Needed by Docker
+/docker/tails_builder/provision/assets/apt/deb.tails.boum.org.key
