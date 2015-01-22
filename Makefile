@@ -14,7 +14,7 @@ iso_image:
 
 containers: builder_container
 
-builder_container: copy_tails_apt_key
+builder_container: docker/tails_builder/provision/assets/apt/deb.tails.boum.org.key
 	docker build -t "$(BUILDER_IMAGE)" docker/tails_builder
 
 # Docker cannot COPY files from outside of its context (i.e. where the
@@ -23,6 +23,5 @@ builder_container: copy_tails_apt_key
 # note that `--preserve=all` is crucial to prevent Docker from always
 # rebuilding the tails_builder image since e.g. a new mtime in a
 # COPY-source will be detected by Docker.
-copy_tails_apt_key:
-	cp --dereference --preserve=all config/chroot_sources/tails.chroot.gpg \
-	    "docker/$(BUILDER_IMAGE)/provision/assets/apt/deb.tails.boum.org.key"
+docker/tails_builder/provision/assets/apt/deb.tails.boum.org.key:
+	cp --dereference --preserve=all config/chroot_sources/tails.chroot.gpg $@
