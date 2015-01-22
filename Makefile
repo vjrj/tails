@@ -1,5 +1,6 @@
 #CURRENT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 #DOCKER_IMAGE_NAME := "tails$(if $(CURRENT_BRANCH),-$(CURRENT_BRANCH))"
+CACHER_IMAGE := "apt_cacher"
 BUILDER_IMAGE := "tails_builder"
 BUILDER_MOUNT := "$(shell pwd):/root/tails"
 DOCKER_RUN_IN_BUILDER := docker run --rm --privileged -v $(BUILDER_MOUNT) -t $(BUILDER_IMAGE)
@@ -16,6 +17,9 @@ containers: builder_container
 
 builder_container: docker/tails_builder/provision/assets/apt/deb.tails.boum.org.key
 	docker build -t "$(BUILDER_IMAGE)" docker/tails_builder
+
+cacher_container:
+	docker build -t "$(CACHER_IMAGE)" docker/$(CACHER_IMAGE)
 
 # Docker cannot COPY files from outside of its context (i.e. where the
 # Dockerfile is stored) so we have to make it available in there while
