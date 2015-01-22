@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-26T04:08:47Z"
- content="""
-The iceweasel launcher script and vidalia-wrapper scripts are running as the live user 'amnesia', not as root. The firefox-bin is the Mozilla launcher invoked from the iceweasel launcher script, and also runs as amnesia (not as root).
-"""]]

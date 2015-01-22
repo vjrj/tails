@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 6"
- date="2011-10-18T11:17:37Z"
- content="""
-We have a planned solution for your scenario, namely to [[include something like portable virtualbox|todo/virtualization_support]] in the image so you can boot Tails in a virtual machine inside the operating system running on public computers.
-"""]]

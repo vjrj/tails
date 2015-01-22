@@ -1,5 +1,0 @@
-Hi,
-
-I've recently bought a Wepad/EXOPC (http://wetab.mobi/en/product/), which uses an atom processor, and is fully capable of running TAILS. WiFi works out of the box, and 3G seems to work too. However, the touchsceen doesn't work fully (wherever you press, it clicks in the upper left corner). 
-
-There are instructions to fix this in ubuntu, but how could I integrate this fix (and a virtual keyboard) in the TAILS iso, so I can be anonymous everywhere without first having to install the drivers etc by plugging in a mouse and keyboard?

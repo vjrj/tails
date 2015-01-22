@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-06-27T10:13:08Z"
- content="""
-It is possible to work bulid Tails offline provided that the configuration of an HTTP proxy. First build must be done online in order to cache what is needed, subsquent builds can be done offline. A change in the configuration of the HTTP might be required.
-"""]]

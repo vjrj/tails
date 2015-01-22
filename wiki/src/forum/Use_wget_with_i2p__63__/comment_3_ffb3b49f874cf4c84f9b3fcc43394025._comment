@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 3"
- date="2013-05-06T09:44:10Z"
- content="""
-`eepget` is the easiest to use, but it's quite barebones compared to `wget`. If you really need `wget`, reconfigure the `http_proxy` variable in its global configuration file, `/etc/wgetrc` (which takes precedence over any proxy configurations in the shell environment). Copy it to `$HOME/.wgetrc` and alter it there to avoid the need administrative privileges.
-"""]]

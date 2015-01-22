@@ -1,3 +1,0 @@
-I'd like to be able to make a new default setting for certain things using Persistence, like NoScript defaulting to Forbid Scripts Globally and forgetting Allowed scripted upon shutdown.
-
-Can a persistent file be made to forget changes at shutdown?
