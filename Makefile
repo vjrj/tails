@@ -23,5 +23,5 @@ builder_container: docker/tails_builder/provision/assets/apt/deb.tails.boum.org.
 # note that `--preserve=all` is crucial to prevent Docker from always
 # rebuilding the tails_builder image since e.g. a new mtime in a
 # COPY-source will be detected by Docker.
-docker/tails_builder/provision/assets/apt/deb.tails.boum.org.key:
+docker/tails_builder/provision/assets/apt/deb.tails.boum.org.key: config/chroot_sources/tails.chroot.gpg
 	cp --dereference --preserve=all config/chroot_sources/tails.chroot.gpg $@
