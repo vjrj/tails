@@ -54,7 +54,55 @@ Package: libffi6
 Pin: release o=Debian,n=jessie
 Pin-Priority: 999
 
+Package: obfsproxy
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
 Package: poedit
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-bin
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-core
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-conch
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-mail
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-lore
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-names
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-news
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-runner
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-web
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: python-twisted-words
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
 
