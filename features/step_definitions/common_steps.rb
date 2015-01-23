@@ -688,7 +688,9 @@ Given /^I start "([^"]+)" via the GNOME "([^"]+)" applications menu$/ do |app, s
     prefix = 'Gnome'
   end
   @screen.wait_and_click(prefix + "ApplicationsMenu.png", 10)
+  @screen.hide_cursor
   @screen.wait_and_hover(prefix + "Applications" + submenu + ".png", 40)
+  @screen.hide_cursor
   @screen.wait_and_click(prefix + "Applications" + app + ".png", 40)
 end
 
@@ -701,7 +703,10 @@ Given /^I start "([^"]+)" via the GNOME "([^"]+)"\/"([^"]+)" applications menu$/
     prefix = 'Gnome'
   end
   @screen.wait_and_click(prefix + "ApplicationsMenu.png", 10)
+  @screen.hide_cursor
   @screen.wait_and_hover(prefix + "Applications" + submenu + ".png", 20)
+  @screen.hide_cursor
   @screen.wait_and_hover(prefix + "Applications" + subsubmenu + ".png", 20)
+  @screen.hide_cursor
   @screen.wait_and_click(prefix + "Applications" + app + ".png", 20)
 end
