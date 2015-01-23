@@ -15,7 +15,7 @@ iso_image:
 containers: builder_container
 
 builder_container: docker/tails_builder/provision/assets/apt/deb.tails.boum.org.key
-	docker build -t "$(BUILDER_IMAGE)" docker/tails_builder
+	docker build -t "$(BUILDER_IMAGE)" docker/$(BUILDER_IMAGE)
 
 # Docker cannot COPY files from outside of its context (i.e. where the
 # Dockerfile is stored) so we have to make it available in there while
