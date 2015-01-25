@@ -1,0 +1,36 @@
+From d2c32b277296f17a9b0e1f0fec2b563a2afeda6e Mon Sep 17 00:00:00 2001
+From: Tails developers <amnesia@boum.org>
+Date: Sun, 25 Jan 2015 10:02:40 +0000
+Subject: [PATCH] Loading chosen union filesystem's kernel module before
+ checking for its functionality to be available in /proc/filesystems.
+
+Otherwise, with union=overlay, we always hit:
+
+		panic "${UNIONTYPE} not available."
+---
+ components/9990-overlay.sh | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/components/9990-overlay.sh b/components/9990-overlay.sh
+index 92d0355..9282276 100755
+--- a/lib/live/boot/9990-overlay.sh
++++ b/lib/live/boot/9990-overlay.sh
+@@ -8,13 +8,13 @@ setup_unionfs ()
+ 	rootmnt="${2}"
+ 	addimage_directory="${3}"
+ 
++	modprobe -q -b ${UNIONTYPE}
++
+ 	if ! cut -f2 /proc/filesystems | grep -q "^${UNIONTYPE}\$"
+ 	then
+ 		panic "${UNIONTYPE} not available."
+ 	fi
+ 
+-	modprobe -q -b ${UNIONTYPE}
+-
+ 	# run-init can't deal with images in a subdir, but we're going to
+ 	# move all of these away before it runs anyway.  No, we're not,
+ 	# put them in / since move-mounting them into / breaks mono and
+-- 
+2.1.4
+
