@@ -107,6 +107,8 @@ for prefix in MIRROR PARENT_MIRROR ; do
 			else
 				archive_suffix="_${archive}"
 			fi
-			var="LB_${prefix}_${target}_${archive_suffix}"
+			var="LB_${prefix}_${target}${archive_suffix}"
 			disable_live_build_conf "$var"
+		done
+	done
 done
