@@ -1,0 +1,20 @@
+[[!meta title="Manage OpenPGP keys with Seahorse"]]
+
+What?
+Where?
+How?
+Screenshot from official doc?
+
+Passwords and Keys creates and stores security tokens, helping to keep
+your information secure on your computer, and secure when you send
+information over a network.
+
+Using Passwords and Keys, you can:
+* Copy and save passwords that are difficult to remember. To group
+  related passwords, create keyrings.
+* Create and manage PGP keys.
+* Create and manage SSH keys.
+
+See the
+[official documentation](https://help.gnome.org/users/seahorse/3.4/).
+
