@@ -275,8 +275,8 @@ persistent volume.
 <div class="text"><h2>Bitcoin Client</h2></div>
 </div>
 
-When this feature is activated, the Bitcoin wallet and preferences of
-the [Electrum](https://electrum.org) Bitcoin client are saved in the
+When this feature is activated, the bitcoin wallet and preferences of
+the [[*Electrum* bitcoin client|anonymous_internet/electrum]] are saved in the
 persistent volume.
 
 <a id="dotfiles"></a>
