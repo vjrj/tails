@@ -1,0 +1,147 @@
+% Tails — Privacy for anyone anywhere
+% intrigeri
+% January, 2015
+
+<style>
+.reveal h1 {
+  margin-bottom: 0.3em;
+}
+</style>
+
+What what who
+=============
+
+Who I am
+--------
+
+* Tails contributor
+* Debian developer
+* ...
+
+What is Tails
+-------------
+
+**T**he **A**mnesic **I**ncognito **L**ive **S**ystem
+
+<https://tails.boum.org/>
+
+A Live operating system
+-----------------------
+
+* works on (almost) any computer
+* starts from a DVD, a USB stick, or a SD card
+
+Preserving privacy and anonymity #1
+-----------------------------------
+
+* use the Internet anonymously and circumvent censorship:  
+  all connections to the Internet are forced to go through the Tor network
+* leave no trace on the computer you are using,  
+  unless you ask it explicitly
+
+Preserving privacy and anonymity #2
+-----------------------------------
+
+* cryptographic tools:  
+  encrypt files, email and instant messaging
+* media production tools:  
+  sound, video, office publishing, graphics...
+
+Other features
+--------------
+
+* exists since 2009
+* translated into many languages
+* Free Software
+
+Cadence & popularity
+--------------------
+
+- release every 6 weeks
+- about 11k boots a day, doubles every year
+
+Who uses Tails?
+---------------
+
+* Activists organizing in repressive contexts
+* People facing Internet censorship
+* Domestic violence survivors escaping from their abusers
+* Journalists wanting to protect themselves or their sources
+* etc.
+
+And... it works?
+----------------
+
+According to the NSA, yes :  
+
+ranked as "catastrophic," leading to a "near-total loss/lack of
+insight to target communications, presence..."
+
+:)
+
+In other words...
+-----------------
+
+We can beat them.
+
+...
+
+(together)
+
+Collective matters
+==================
+
+Our starting point
+------------------
+
+privacy and anonymity: collective matters
+
+Usability
+---------
+
+⇒ privacy and anonymity tools must be usable  
+by a *broad* audience
+
+Mutual aid
+----------
+
+* social installation and upgrade process
+* local collectives provide support to users
+* local collectives provide feedback to the project
+
+Inclusive project
+-----------------
+
+* not purely a project with (political) friends
+* public and open development:  
+  Git, Redmine, meetings and roadmap
+* design documentation : <https://tails.boum.org/contribute/design/>
+* trying to improve diversity in our community
+
+Tails needs you
+===============
+
+## How you can help
+
+* Translation
+* Documentation
+* Testing
+* Web and graphics design
+* Usability
+* Code
+* Infrastructure
+* Debian
+* Money
+
+## Where to start?
+
+* <https://tails.boum.org/contribute/>
+* Tell us about your skills and desires,  
+  we'll help you get started :)
+
+## Talk to us
+
+* I'm here.
+* Development mailing-list: **<tails-dev@boum.org>**
+* Private and encrypted mailing-list: **<tails@boum.org>**
+* Web: **<https://tails.boum.org/>**
