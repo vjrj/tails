@@ -34,7 +34,7 @@ end
 Given /^I cat an ISO of the Tails image to disk "([^"]+)"$/ do |name|
   next if @skip_steps_while_restoring_background
   src_disk = {
-    :path => tails_iso,
+    :path => $tails_iso,
     :opts => {
       :format => "raw",
       :readonly => true
