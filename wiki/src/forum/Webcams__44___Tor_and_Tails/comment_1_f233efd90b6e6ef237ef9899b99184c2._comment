@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
- subject="comment 1"
- date="2013-06-09T07:32:43Z"
- content="""
-If Tails gets exploited hard enough by an attacker, then yes, they should be able to use the webcam. If you want to be super-careful about this, you probably want to disable the webcam in the BIOS and put some tape in front of the lens.
-"""]]

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-10T10:26:27Z"
- content="""
-Tor's cached files are located in `/var/lib/tor`, but to access them you need administrator privileges (so set an [[doc/first_steps/startup_options/administration_password]]). `~/.tor/control_auth_cookie` is a remnant from the days of old which we probably should remove -- just ignore it.
-"""]]

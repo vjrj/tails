@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-05-05T19:39:28Z"
- content="""
-Have a look at <https://trac.torproject.org/projects/tor/ticket/4902> for the discussion that happened for the Tor Browser Bundle. DuckDuckGo is interesting, but the search results quality is not on par with the one given by Startpage.
-
-Please also note that DuckDuckGo is included in the search engine list, and just a click away if you prefer to use it.
-"""]]

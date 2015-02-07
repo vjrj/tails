@@ -1,3 +1,0 @@
-I haven't found a direct reference to this, so I'm not sure how this works.  After installing and booting tails, if I use the Synaptic package manager to find, and install updates, are those updates actually installed on the boot device so they are present next time I boot?  Or only to the Live image, so they are gone as soon as I reboot, and need to be downloaded/updated again next time I boot?
-
-And is it advisable to run the synaptic package manager to update?  Or is it presumed that one should always use the official tails ISO image ONLY?
