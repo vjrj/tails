@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-26T07:57:56Z"
- content="""
-TrueCrypt volumes are cross-platformm by definition, **but** in my experience (Windows XP), Windows only sees the first partition on USB devices, even if there are more. So, probably, it won't work.
-
-Your best option is to use a dedicated USB drive for the TrueCrypt volume. As a positive side effect, you will not need to plug your Tails stick into a running Windows system, which may be infected by malware.
-"""]]

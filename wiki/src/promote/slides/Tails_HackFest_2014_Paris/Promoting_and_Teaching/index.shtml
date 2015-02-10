@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Promoting & Teaching Tails</title>
+	<meta name="author" content="Amaelle G">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+				
+<!-- Title page -->
+<section>
+	<h1>Promoting & Teaching</h1>
+	<img src="pics/tailslogo.png" class="stretch"></img>
+	<h2>Use Cases, Reception <br>& Potential Obstacles</h2>
+	<p>@ <a href="https://tails.boum.org/blueprint/HackFest_2014_Paris/" target ="blank">Tails HackFest</a>, Paris, July 6, 2014</p>
+</section>
+
+<!-- Self-presentation -->
+<section>
+	<section>
+		<h2>This is where I speak from:</h2>
+		<img src="pics/codecat.jpg" class="stretch"></img>
+	</section>
+
+	<section>
+		<h2>I am:</h2>
+		<p><ul>
+			<li class="fragment">a journalist, covering Net politics, online civil liberties <br>& hacker culture;</li>
+			<li class="fragment">not a 'techie' (well, not that much);</li>
+			<li class="fragment">teaching journalism students how to protect their sources <br>in a digital environment;</li>
+			<li class="fragment">taking part in various events popularizing cryptography;</li>
+			</ul></p>
+			<p class="fragment">-> facing the various end-user problems <br>with encryption & anonymization tools.</p>
+		
+	</section>
+</section>
+
+<!-- Computer dummies -->
+<section>
+	<h2>... And this is where I start:</h2>
+	<img src="pics/dog.jpeg" class="stretch"></img>
+	<p class="fragment">Everyone has a right to privacy, <br>even computer dummies.</p>
+
+	<aside class="notes">
+	</aside>
+</section>
+
+<!-- Context -->
+<section>
+	<section>
+		<h2>Context</h2>
+		<h3 class="fragment" data-fragment-index="0">Thank you Edward!</h3>
+		<img src="pics/edward.jpg" class="fragment stretch" data-fragment-index="0"></img>
+		<p class="fragment" data-fragment-index="0">Best advertising campaign ever imagined ;)</p>
+	</section>
+
+	<section>
+		<h2>Context</h2>
+		<h3>Usual Suspects:</h3>
+		<p><ul>
+			<li class="fragment">journos,</li>
+			<li class="fragment">activists,</li>
+			<li class="fragment">geeks,</li>
+			<li class="fragment">'extremists' interested in privacy.</li>
+		</ul></p>
+		<img class="fragment stretch" src="pics/code-tor-nsa.jpg"></img>
+	</section>
+</section>
+
+<!-- 'Selling points' -->
+<section>
+	<section>
+		<h2>Reception</h2>
+		<h3 class="fragment" data-fragment-index="0">Why Tails?</h3>
+		<img src="pics/installtails.jpg" class="fragment stretch" data-fragment-index="1"></img>
+		<p class="fragment" data-fragment-index="1">All-in-one solution enhancing privacy ...</p>
+	</section>
+
+	<section>
+		<h2>Reception</h2>
+		<h3>Why Tails?</h3>
+		<img src="pics/xkcd.png" class="stretch"></img>
+		<small>Source: <a href="https://xkcd.com/1343/" target="blank">XKCD</a> - CC <a href="https://creativecommons.org/licenses/by-nc/2.5/" target="blank">BY-NC</a></small>
+		<p>... pre-configured & (relatively) easy to use ...</p>
+	</section>
+
+	<section>
+		<h2>Reception</h2>
+		<h3>Why Tails?</h3>
+		<img src="pics/tailscat.jpg" class="stretch"></img>
+		<p>... providing security in an insecure environment.</p>
+	</section>
+
+	<section>
+		<h2>Reception</h2>
+		<h3>"Selling points"</h3>
+		<p class="fragment">(Quite) easy to install & to use</p>
+		<p class="fragment">+ discreet & stealthy</p>
+		<p class="fragment">+ no space for technical mistakes <br>(unless you really want to make some)</p>
+		<p class="fragment">+ adjustable to a various range of needs.</p>
+		<br>
+		<h3 class="fragment">Nice features</h3>
+		<p><ul>
+			<li class="fragment">Windows camouflage,</li>
+			<li class="fragment">fast shutdown by removing the device.</li>
+		</ul></p>
+	</section>
+</section>
+
+<!-- Obstacles -->
+<section>
+	<section>
+		<h2>Obstacles</h2>
+		<h3 class="fragment">Why Johnny can't use Tails <br>(on his own)</h3>
+		<p class="fragment">1/ The 'Tails paradox': designed to be easy to use, <br>dealing with the complexity of crypto tools.</p>
+		<p class="fragment">2/ When facing a problem (UEFI, access to BIOS, <br>captive portal, etc.), most users need human help.</p>
+		<p class="fragment">3/ The two-step process for using persistence: <br>*really* hard to understand for a non-techie.</p>
+		<p class="fragment">(Not to mention checking the integrity <br>of the ISO image or checking the signature.)</p>
+	</section>
+
+	<section>
+		<h2>Obstacles</h2>
+		<h3>Why Johnny can't use Tails <br>(with others)</h3>
+		<p class="fragment">Not a problem with Tails, <br>but a global problem with crypto. Anyway:</p>
+		<p class="fragment">1/ Encryption involves both sender & receiver. <br>(Thank you, Captain Obvious.) </p>
+		<p class="fragment">2/ How can Tails be part of an ecosystem ? <br>(The problem for journos, for instance.)</p>
+	</section>
+</section>
+
+<!-- Thoughts -->
+<section>
+	<section>
+		<h2>Questions & Suggestions</h2>
+		<h3 class="fragment" data-fragment-index="0">Distribution</h3>
+		<p class="fragment" data-fragment-index="1">1/ Is it possible to separate the Tails Installer from Tails OS?</p>
+		<img src="pics/tailsinstaller.png" class="fragment" data-fragment-index="1"></img>
+		<p class="fragment" data-fragment-index="2">2/ Is it possible to establish a network <br>of trustable third-parties for users in need of Tails?</p>
+		<p class="fragment" data-fragment-index="3">3/ What if a third-party sells Tails USB sticks online?</p>
+	</section>
+
+	<section>
+		<h2>Questions & Suggestions</h2>
+		<h3>Use</h3>
+		<p class="fragment">1/ Is it possible to improve Tails' usability ? 
+		<br>(The answer seems to be 'yes' \o/)</p>
+		<p class="fragment">2/ Is it possible to have different paths <br>for different kinds of users ? 
+		<br>(The answer also seems to be 'yes' \o/)</p>
+		<p class="fragment">3/ Is it possible to have graphical tutorials <br>inside Tails OS?</p>
+	</section>
+
+	<section>
+		<h2>Questions & Suggestions</h2>
+		<h3>Website & doc</h3>
+		<p class="fragment">1/ Is it possible to have different paths & levels <br>for different kinds of users ? (In progress \o/)</p>
+		<p class="fragment">2/ Is it possible to have a short, printable, <br>graphical document for new users?</p>
+		<p class="fragment">3/ Is it possible to document *all* the tools <br>integrated into the OS in Tails' doc?</p>
+	</section>
+</section>
+
+<!-- TOTD -->
+<section>
+	<h3>Thought for the day:</h3><br>
+	<h2>“The road is straight, <br>but the slope is steep.”</h2>
+	(Jean-Pierre Raffarin, former French Prime Minister.)
+</section>
+
+<!-- Credits -->
+<section>
+	<h3>(No) Credits</h3><br>
+	<p>These slides are licensed under <br>the <a href="http://www.wtfpl.net/" target="blank">Do What the Fuck You Want to Public License</a>.</p><br>
+	Feel free to grab, use, share & fork them.</p><br>
+	<p>Ideas have no owner.</p>
+
+</section>
+
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+
+	<script>
+
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+			transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+			// Parallax scrolling
+			// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+			// parallaxBackgroundSize: '2100px 900px',
+
+			// Optional libraries used to extend on reveal.js
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+			]
+		});
+
+	</script>
+
+</body>
+</html>

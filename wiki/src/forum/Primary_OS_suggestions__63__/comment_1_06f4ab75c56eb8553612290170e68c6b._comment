@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-02-17T09:52:00Z"
- content="""
-Install GNU/Linux Debian and get inspiration from the relevant parts of the [[Tails configuration files|http://git.immerda.ch/?p=amnesia.git;a=tree;f=config/chroot_local-includes;hb=refs/heads/devel]] (in particular the files in /etc, like firewall*.conf). Note that this obviously isn't something we support.
-"""]]

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-08-23T17:17:59Z"
- content="""
-OpenOffice is what's available in the current stable Debian release, Squeeze, which Tails is based on. The next stable Debian release, Wheezy, has switched to LibreOffice, and Tails will follow suite once we base our release on Wheezy (i.e. when Wheezy becomes stable + some time for us to integrate Wheezy into Tails).
-"""]]

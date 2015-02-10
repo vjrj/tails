@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-09-22T20:22:57Z"
- content="""
-If you do so it will trigger an imminent shutdown (and [[erasure of the system memory|contribute/design/memory_erasure]]).
-"""]]

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-06-25T05:13:52Z"
- content="""
->And if I still couldn't make .12 work, at least I could go back to using .11 for awhile.
-
-Are you aware of the risks of running a deprecated version of *anything* that will interact with the Internet?
-"""]]

@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-01-10T13:00:28Z"
- content="""
-It is kinda true, but the extent of this issue certainly is debatable. As can be seen in [this discussion](https://trac.torproject.org/projects/tor/ticket/2653), it's not as easy as the author of your quote put it. Unfortunately there is no really good solution except what Tor is designed for, i.e. saving the guards to disk. That requires [[todo/persistence]], which Tails currently doesn't implement, but most likely will sometime during this year.
-"""]]

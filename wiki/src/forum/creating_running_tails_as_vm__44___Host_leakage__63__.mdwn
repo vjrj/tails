@@ -1,9 +1,0 @@
-Just a quicky question:
-
-While I'm running tails in a VM. (with NIC on NAT)
-
-Is it safe to use the internet on my host computer (not connected to tor-network) of course. 
-
-Or is there like a route to the VM which causes a potential attacker to intercept all data?
-
-Please reply.

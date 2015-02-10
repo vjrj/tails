@@ -1,5 +1,0 @@
-Hi. Thanks for providing the excellent free software. I have an issue though.
-
-Truecrypt provides plausible deniability. There is no way to tell that a volume contains a truecrypt header as it is indistinguishable from random data. The recommended encrypted partition scheme for Tails does not do this, you can tell that the drive is encrypted. It also means no compatibility with Windows.
-
-For that reason I would like to request that Truecrypt remains an option indefinitely. Despite its less than open nature it does have some important advantages.

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2011-11-26T21:50:15Z"
- content="""
-The UK has a key disclosure law, but they still need to prove <b>beyond reasonable doubt</b> that you have the key before they can convict and send you to jail. If you use a hidden volume or occasionally wipe partitions by overwriting with pseudo-random data then you have easily created enough doubt to avoid prosecution (assuming you didn't screw up in other ways and that is all they have).
-
-TrueCrypt in portable mode is an option I suppose, but not ideal because you need to store the portable version somewhere or download it every time. If you want to store it then you need an unencrypted partition somewhere.
-"""]]

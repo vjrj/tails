@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-01-23T23:58:51Z"
- content="""
-As long as you always encrypt mail when using Tormail should be fine
-You're connecting via tor hidden service, they can't track you and can't read your emails if they're always encrypted. 
-"""]]

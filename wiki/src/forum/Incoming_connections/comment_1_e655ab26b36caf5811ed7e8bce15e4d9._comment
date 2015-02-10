@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Reply"
- date="2011-05-12T21:24:06Z"
- content="""
-Incoming connections are dropped since Tails 0.7.
-
-You can safely ignore this warning when you are using Tails (we should disable it actually).
-"""]]

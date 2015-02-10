@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-28T15:14:53Z"
- content="""
-Tails handles administrative privileges differently than your typical Linux distro (or even typical Linux *Live* distro). Because of Tails shows a custom sudo lecture text, which points to the relevant documentation explaining this, when a user tries to do something which isn't allowed. How can removing that sudo lecture make anything better?
-"""]]

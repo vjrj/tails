@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="anonym"
- ip="127.0.0.1"
- subject="comment 1"
- date="2010-07-20T19:45:31Z"
- content="""
-The script uses srm from the secure-delete package found in the debian apt repositories. You can download the sources from http://freeworld.thc.org/releases.php and read about the deletion technique used in this paper http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html
-"""]]

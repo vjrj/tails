@@ -1,8 +1,0 @@
-In other Linux distro's and in Windows I can easily chain socks after an exit node use TBB, but the problem is that those other distro's are not amnesic so there will be a lot of 'dirty' trails left when using Tor on a non-amnesic system.
-
-And I do NOT want to chain socks after Tor for the purpose to steal creditcard information or to do any other illegal activity etc. I just want to use socks after Tor for other Tor-blocking websites like banking sites etc. 
-
-For example, I want to put a chinese blog online and I want to order hosting services with a hosting company but more and more websites are blocking Tor-IP's. Also paying for such service is problematic, because when paying anonymously with Liberty Reserve or Pecunix for example, that is not often possible because these websites block Tor-IP's too.
-
-@ Tails dev: please include proxychains in next Tails version for this purpose. Or configure the next version in such a way that it can be easily done (also for people without any programming knowledge). It would be very appreciated! 
-

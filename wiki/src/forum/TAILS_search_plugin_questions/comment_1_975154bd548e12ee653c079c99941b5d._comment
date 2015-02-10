@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="Tails uses HTTPS Everywhere"
- date="2012-08-23T05:06:43Z"
- content="""
-[HTTPS Everywhere](https://www.eff.org/https-everywhere) is used by Tails, so it is supposed to transform non https requests to their equivalent https requests according to [a large collection of rulesets](https://gitweb.torproject.org/https-everywhere.git/tree/HEAD:/src/chrome/content/rules). Changing the search plugins to SSL versions would be redundant.
-
-Tails is using HTTPS Everywhere version 2.0.5 (2012-05-16) and according to the [HTTPS Everywhere Changelog](https://gitweb.torproject.org/https-everywhere.git/blob/HEAD:/src/Changelog), there have been some changes to the Wikipedia and Google rulesets more recently. However after reviewing the changes made to the relevant rulesets, I think the majority of users will not be affected. The changes for Wik* sites appear to only be related to excluding certain requests from the https transformation. The changes for Google sites appear to only be related to some rare cases of links being broken when transformed or not properly matching the rulesets.
-"""]]

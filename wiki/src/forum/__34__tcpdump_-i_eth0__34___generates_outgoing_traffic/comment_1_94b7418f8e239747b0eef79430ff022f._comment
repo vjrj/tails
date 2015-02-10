@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-12T16:00:19Z"
- content="""
-Because `tcpdump`'s default is to automatically reverse DNS lookups for all IP address it encounters and print them together with th IP address. To prevent this, use the `-n` option too.
-"""]]

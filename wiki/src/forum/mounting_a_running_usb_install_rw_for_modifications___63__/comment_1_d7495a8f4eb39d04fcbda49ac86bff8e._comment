@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- avatar="https://seccdn.libravatar.org/avatar/1ab56ea4e3e16cf119f5ed6b14f9fca7"
- subject="comment 1"
- date="2013-05-22T07:33:17Z"
- content="""
-The fact that it is quite hard to modify the content of the USB from a running Tails is a security feature and it is meant to stay like this. But you can probably edit this configuration file from another operating system; another Tails should do for example.
-"""]]

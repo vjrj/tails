@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-11-09T20:08:08Z"
- content="""
-`proxychains` is in Debian, the package is called by the same name. This means it is straightforword to install it in Tails. There is no way in can be preconfigured for every Tails users, so it's hard to see why it should be included in the default package set.
-"""]]

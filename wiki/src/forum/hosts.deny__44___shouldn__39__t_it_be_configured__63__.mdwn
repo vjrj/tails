@@ -1,1 +1,0 @@
-Throughout the web, most people recommend adding ALL: ALL or uncommenting the paranoid option, for /etc/hosts.deny or all except local. Why is it unconfigured?

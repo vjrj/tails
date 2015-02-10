@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-01-30T19:08:14Z"
- content="""
-They're just traffic counters, e.g. for `[p:b]` there has been `p` packets matching that rule, amounting in `b` bytes of traffic. If you do `iptables -L -v` the current counters are listed in the two left-most columns. We naturally want to load them in a zero state.
-"""]]

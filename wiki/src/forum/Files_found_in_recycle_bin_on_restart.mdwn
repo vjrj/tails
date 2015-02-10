@@ -1,7 +1,0 @@
-Hi all,
-
-So a week or so ago I was editing files on a USB stick opened in tails. I deleted some files. Turned the computer off.  I booted tails up today from a live boot DVD. To my surprise there were files in my recycle bin, the same files I deleted a week ago. What's going on here? 
-
-I did a test whereby I created blank files on the desktop them  Deleted some and kept others on the desktop. Rebooted. Files are gone. 
-
-Is there something about accessing files from a USB stick that writes them to the hdd? Or stores them somewhere?

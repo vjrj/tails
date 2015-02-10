@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2011-08-24T07:47:29Z"
- content="""
-Looks like this currently needs either a custom boot option or a non-free driver. Both will be hard to get into official Tails release.
-"""]]

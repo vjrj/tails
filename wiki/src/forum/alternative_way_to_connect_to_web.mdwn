@@ -1,7 +1,0 @@
-I was just wondering if it would be possible to connect to the world wide web this way: 
-
-client>local network>ISP>proxy server>Tor bridge>Tor network>proxy server> world wide web
-
-This way neither the ISP or websites know your using the Tor network and you have added layers. If this is possible, how would I go about doing this? I would think you'd be able to configure the bridges and the proxy server precedding the Tor bridge in Vidalia. This configuration will connect the computer to the bridge first and then the proxy correct? 
-
-I don't see why any configuration would be required to connect to the second proxy, just access in iceweasel.

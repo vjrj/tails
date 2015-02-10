@@ -1,1 +1,0 @@
-Shouldn't /etc/securetty be entirely blank/empty? I delete mine in Tails and replace it with a blank file. Why does it appear so unsecure? Why isn't it empty like many security experts recommend?

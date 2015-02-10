@@ -1,0 +1,226 @@
+% Tails needs Debian  
+  (and the other way around?)
+% intrigeri
+% August, 2014
+
+<style>
+.reveal h1 {
+  margin-bottom: 0.3em;
+}
+</style>
+
+What Tails is
+=============
+
+What's in a name
+----------------
+
+**T**he **a**mnesic **i**ncognito **l**ive **s**ystem
+
+<https://tails.boum.org/>
+
+A Live operating system
+-----------------------
+
+* works on (almost) any x86 computer
+* boots off a DVD, a USB stick, or a SD card
+* based on Debian ♥
+
+Preserving privacy and anonymity #1
+-----------------------------------
+
+* use the Internet anonymously, circumvent censorship:  
+  all connections to the Internet are forced to go through the Tor network
+* leave no trace on the computer you are using unless you ask it
+  explicitly
+
+Preserving privacy and anonymity #2
+-----------------------------------
+
+* desktop cryptographic tools:  
+  encrypt files, email and instant messaging  
+  metadata anonymization (<https://packages.d.o/mat>)
+* media production tools:  
+  sound, video, office publishing, graphics...
+
+Usability = a security feature
+------------------------------
+
+> * yes, _you_ may be able to protect yourself
+> * but privacy and security = collective matters
+> * if only tech-savvy users can use our stuff,  
+>   then the others will use something worse,  
+>   and _collectively_ we've lost.
+
+Other features
+--------------
+
+* first release in 2009
+* translated into many languages
+* Free Software, public and open development:  
+  Git, Redmine, meetings and roadmap
+* specs and design documentation: <https://tails.boum.org/contribute/design/>
+
+And... it works?
+----------------
+
+> * According to the NSA, yes:  
+>   _(S//REL) Tails: Complete Bootable OS on CD for anonymity - includes Tor  
+>    (S//REL) Adds Severe CNE misery to equation_  
+>   (Thanks to a famous Tails user for providing these documents.)
+> * Bruce Schneier, December 2013:  
+>   _What do I trust? I trust, I trust Tails, I trust GPG [...]_  
+>   _I don't use Linux. (Shhh. Don't tell anyone.)  
+>    Although I have started using Tails_
+
+## Userbase
+
+* broad and diverse
+
+Challenges
+==========
+
+## Cadence
+
+> - preparing a release takes 6-10 solid days of work
+> - new release every 6 weeks + a RC 1-2 weeks before
+
+## Popularity
+
+in July:
+
+- 11.5k boots a day  
+  (doubles every 6-12 months, since years)
+- 35k downloads of the OpenPGP signature of Tails ISO
+- ⇒ increasing expectations
+
+## Limited resources and time
+
+- mostly volunteer work
+- 2000 commits, by ~10 persons, on the last 6 months
+
+## Roadmap
+
+> * welcome more varied contributions
+> * ... from more diverse people
+> * make the project more sustainable
+> * improve usability
+> * better protect users against targeted attacks
+> * more? <https://labs.riseup.net/code/projects/tails/roadmap>
+
+Tails and its upstreams
+=======================
+
+## History lesson
+
+* most distributions in this area have died quickly
+* ⇒ focus on maintainability
+* ⇒ avoid having a delta that grows too much, or too fast,  
+  wrt. our upstreams
+
+## Examples: what we did not do internally
+
+... despite pressure:
+
+* grsecurity
+* compile-time hardening
+
+## Examples: what we did internally
+
+... and are in the process of sharing:
+
+* OpenPGP applet
+* erasing memory on shutdown
+
+## Examples: what we're doing upstream
+
+* AppArmor
+* libvirt
+* Seahorse
+* various Debian things
+* fix OTR downgrade → v1
+
+Consequences #1
+---------------
+
+* little Tails-specific code: mostly glue work
+* social work:  
+  talk to upstreams  
+  spread the word about our needs  
+  find skilled people to do the work at the best place
+* slow rhythm, despite backports
+
+Consequences #2
+---------------
+
+And, above all...
+
+. . .
+
+*Tails is still alive!*
+
+Tails needs Debian
+==================
+
+## Keep up the good work!
+
+Debian is an awesome basis for derivatives.
+
+Thank you ☺
+
+## Many one-shot small tasks
+
+* backports
+* usertagged bugs (<tails-dev@boum.org>)
+
+## Help us help Debian
+
+* in August: 5 Tails contributors have had stuff uploaded
+* more to come!
+* already a few mentors and sponsors (thank you), need more
+
+## Distro-wide improvements
+
+* AppArmor (<https://wiki.d.o/AppArmor>)
+* reproducible builds (<https://wiki.d.o/ReproducibleBuilds>)
+* hardening build flags (PIE on amd64?)
+
+## Packaging
+
+* grsecurity kernel (Debian&#35;605090)
+* packaging teams:  
+  anonymity tools (<https://wiki.d.o/Teams/AnonymityTools>)  
+  OTR (<https://wiki.d.o/Teams/OTR>)
+* X.Org as non-root, Wayland
+* systemd user sessions
+
+## Infrastructure
+
+* derivatives patches tracking tools
+* continuous integration
+
+## Where to start?
+
+* <https://tails.boum.org/contribute/how/debian/>
+* usertags on the Debian BTS
+* tickets in our Redmine
+
+Debian needs Tails?
+===================
+
+## How can Tails be better for Debian?
+
+You tell me.
+
+Contact
+=======
+
+## Talk to us
+
+* I'm here.
+* Development: **<tails-dev@boum.org>**
+* Translation: **<tails-l10n@boum.org>**
+* User experience:  **<tails-ux@boum.org>**
+* Early testing: **<tails-testers@boum.org>**
+* Project:  **<tails-project@boum.org>**
+* Website: **<https://tails.boum.org/>**

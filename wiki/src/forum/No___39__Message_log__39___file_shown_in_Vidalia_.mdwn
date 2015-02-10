@@ -1,3 +1,0 @@
-Tails 0.12.1, opening Vidalia 0.2.17 to browse the 'Message Log' reveals no log at all.
-
-The log file is generated in /var/log/tor but there's no output in Vidalia.

@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-01-14T22:59:28Z"
- content="""
-I wouldn't be surprised if there isn't a way to do that, but I guess it would amount to retracing some of the steps the developers used to make the iso image in the first place.
-
-Another option would be to try to remove packages after you have made your bootable USB with Tails 0.16, but that might court disaster.  Safer might be to try to simply disable the unwanted packages, provided that you are certain that this won't badly compromise your anonymity.
-"""]]

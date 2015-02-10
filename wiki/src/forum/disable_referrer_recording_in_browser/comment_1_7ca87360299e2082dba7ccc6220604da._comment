@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-02-06T10:15:35Z"
- content="""
-It's not as useful as one may initially think, that's why the referrer spoofing feature was removed from Torbutton: <https://trac.torproject.org/projects/tor/ticket/3429#comment:17>.
-"""]]

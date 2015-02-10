@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2013-04-30T22:07:55Z"
- content="""
-I agree with the OP. TrueCrypt's allowing hiding a second OS without any evidence that it's there is a big deal. OTFE/LUKS apparently allows for this kind of functionality as well, but it needs a GUI since encryption in general is complicated for an average user and the more complicated operations involving creating and using an OS inside a hidden volume would confuse many even further.
-  So, yes, please keep TC at least for as long as an adequate alternative is not available.
- Btw, has anybody successfully transplanted their Tails into a hidden partition/volume as TC supposed to do?
-"""]]

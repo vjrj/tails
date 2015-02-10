@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-01-30T23:23:10Z"
- content="""
-Try adding the `toram` parameter to the kernel command-line: at the language boot menu, press TAB, then space, then the suggested argument, then ENTER.
-
-"""]]

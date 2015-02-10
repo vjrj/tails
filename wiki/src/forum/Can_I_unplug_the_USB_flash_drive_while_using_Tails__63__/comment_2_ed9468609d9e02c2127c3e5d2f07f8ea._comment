@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="toram"
- date="2011-09-23T15:27:35Z"
- content="""
-You can add \"toram\" on the boot command-line. The whole live system will be copied in RAM during boot. Then you will be able to remove your USB flash drive.
-
-This only works properly if the computer has at least 3 GB of RAM.
-"""]]

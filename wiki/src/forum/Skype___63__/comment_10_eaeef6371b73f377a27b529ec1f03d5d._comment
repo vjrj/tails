@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 10"
- date="2013-03-10T17:47:01Z"
- content="""
-Skype is \"safe\" to use on Whonix. Safe in the sense it won't leak your real IP, that is. According to Whonix developer Adrelanos, Skype has been known to query BIOS information, so you'd be safer using a second hand computer that cannot be traced back to you.
-"""]]

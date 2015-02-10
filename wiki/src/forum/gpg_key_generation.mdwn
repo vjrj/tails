@@ -1,1 +1,0 @@
-How come, generating a new key with gpg (version 1.4.10) on Tails is quite fast and does not require any random input by the user? When I use gpg (version 1.4.11) on Ubuntu I am required to use mouse, keyboard and other programs in order to support random value generation.

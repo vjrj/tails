@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2012-05-02T08:40:03Z"
- content="""
-As far as I know, this is not possible for network connections that use the Tor SOCKS proxy.
-"""]]

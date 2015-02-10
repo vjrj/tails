@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2013-02-28T09:26:40Z"
- content="""
-As was noted in one or more other threads, a HOSTS file will not work with Tor, as Tor uses its own DNS resolution.
-"""]]

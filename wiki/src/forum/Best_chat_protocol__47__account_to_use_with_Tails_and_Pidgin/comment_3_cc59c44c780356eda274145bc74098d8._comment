@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 3"
- date="2012-07-17T13:59:35Z"
- content="""
-Use XMPP and a trusted server. Several not-for-profit provide XMPP/Jabber accounts  (CCC, riseup, APINC and probably dozen others). Always use OTR on top of that.
-"""]]

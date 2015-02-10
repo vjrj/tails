@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 6"
- date="2012-11-24T21:59:44Z"
- content="""
-- 0.13 works using this apendrive
-- I typed / syslinux on 'Boot: _' and got the message \"corrupted kernel\"
-- The iso image is valid under the firefox plugin that uses SHA256
-"""]]

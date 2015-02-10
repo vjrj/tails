@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 2"
- date="2013-03-31T17:19:00Z"
- content="""
-@ OP:
-
-Applications which attempt to guess how long you can run off your battery before you will need to recharge try to use some current readings *and a history of past readings* to make some educated guesses.  In my experience, they don't always work every well even for a laptop on which the operating system is a Linux booted from a hard drive (thus with persistence), but if you lack persistence (e.g. if you boot Tails from a live DVD), you probably shouldn't expect this kind of application to work reliably.
-"""]]

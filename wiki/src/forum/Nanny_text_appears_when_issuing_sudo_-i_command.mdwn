@@ -1,7 +1,0 @@
-Is it absolutely necessary to include the nanny text message that appears when the sudo -i command is issued from the amnesia default account command line?
-
-Such a lecture might be wise within an organization when a user is granted admin privileges for the first time, but for Tails seems counterproductive for Linux users from an inline operational point of view.
-
-A better place for it is in the man page for sudo rather than inline in an operational sense.
-
-Please move it to the man page and delete it from the operation of the command itself if at all possible as this would tidy up things at the command line for Linux users.

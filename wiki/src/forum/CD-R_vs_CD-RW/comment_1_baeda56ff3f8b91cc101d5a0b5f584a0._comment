@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2011-10-20T08:31:57Z"
- content="""
-I'm not sure about whether it's possible to rewrite a CD-RW that is *in use*, as in the Tails case. However, since it is trivial to re-write a CD-RW while it is not in use (e.g. after it's unmounted during the shutdown process) that's a more likely avenue of attack. An attacker with full access to a running Tails system could rewrite our [[contribute/design/memory_erasure/]] script so that it loads the necessary CD-burning software into RAM on shutdown and then re-writes the CD-RW once it's unmounted.
-"""]]

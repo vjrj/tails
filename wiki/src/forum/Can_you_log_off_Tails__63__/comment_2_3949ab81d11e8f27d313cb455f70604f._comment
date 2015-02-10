@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 2"
- date="2013-02-16T10:36:01Z"
- content="""
-There are various standard Unix ways to start a \"new\" GNOME session. However, as currently implemented, Tails does absolutely *not* guarantee that this \"new\" session will be equivalent to a fresh start. So, there's currently little point in logging off. A fancy idea someone had at some point was to have a \"quick restart\" feature, based on kexec, that could even reuse the current session's settings (persistence, etc.).
-
-"""]]

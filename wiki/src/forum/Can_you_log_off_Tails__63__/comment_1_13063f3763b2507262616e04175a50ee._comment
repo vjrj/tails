@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-02-15T23:42:20Z"
- content="""
-Launch a terminal window and type the following:
-
-**sudo killall x-session-manager**
-"""]]

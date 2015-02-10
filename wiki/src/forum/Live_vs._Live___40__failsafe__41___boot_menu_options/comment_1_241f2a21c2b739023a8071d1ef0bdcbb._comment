@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="Tails"
- ip="127.0.0.1"
- subject="comment 1"
- date="2012-09-13T09:22:25Z"
- content="""
-The difference is that `Live (failsafe)` disables some features that sometimes are buggy or even preventing boot from completeting. If you have issues (especially during boot), give `Live (failsafe)` a shot.
-"""]]
