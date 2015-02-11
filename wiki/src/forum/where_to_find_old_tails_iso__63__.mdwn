@@ -1,5 +1,0 @@
-Hi, if I am not happy with 0.17.2 where can I find older versions, for example 0.17?
-
-I tried http://dl.amnesia.boum.org/tails/stable/ but there is only newest iso file.
-
-my reason is that in newest version tor is not following my order in torrc file, all nodes I block, I get it again, even I restart tor. so, 0.17 was following my order in torrc file, 0.17.2 is not doing it.

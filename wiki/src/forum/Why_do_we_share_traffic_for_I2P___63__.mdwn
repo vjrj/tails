@@ -1,6 +1,0 @@
-Why is I2P set as a server for I2P and shares traffic when Tails is set as client only for the TOR network ?
-
-How is the attention of bringing all that traffic to a PC
-helping with anonymity. ?
-
-Also most people are ignorant that they are a tails I2P server so shouldn't it be auto set to client read only until the user decides otherwise or at least release a version of Tails without I2P installed so a PC with more than 1 user can't accidentally be started as a server by the ignorant clicking around the menus.

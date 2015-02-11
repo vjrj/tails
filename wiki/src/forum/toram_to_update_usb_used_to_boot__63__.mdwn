@@ -1,7 +1,0 @@
-I realize that the toram option is not officially supported, but I was hoping to be able to boot Tails into ram, and then be able to use the Tails USB installer to update my USB install of Tails.
-
-What I found, is that the Tails USB installer doesn't work at all when Tails is loaded with toram. Is there any reason/logic behind this? It would be really great to be able to have a single USB drive with Tails on it and be able to do an inplace upgrade of the drive without requiring a second USB drive for the sole purpose of upgrading the version of Tails on the first (ie. update Tails on a second USB drive, boot from it, just to be able to upgrade the original USB drive).
-
-I understand toram not being supported may very well mean this is simply a "wontfix" issue. But the use case of being able to both run *and* upgrade Tails without requiring a second USB drive to bootstrap the upgrade process would be much appreciated. If tweaking the Tails USB Installer to behave when Tails is booted into ram isn't overly complex, or if anyone has found a workaround for accomplishing this (ie. Tails USB Installer working when toram is used), any info would be much appreciated.
-
-Thanks :)

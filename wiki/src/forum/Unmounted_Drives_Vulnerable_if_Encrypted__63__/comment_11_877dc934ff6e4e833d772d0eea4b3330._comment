@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 11"
- date="2013-05-02T21:00:14Z"
- content="""
-What about running sdmem after mounting an encrypted drive while not connected to the internet. Does it clear the pasphrase from RAM? Is this way safe?
-"""]]

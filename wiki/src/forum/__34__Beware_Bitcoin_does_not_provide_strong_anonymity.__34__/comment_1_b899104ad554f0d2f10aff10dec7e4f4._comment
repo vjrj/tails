@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 1"
- date="2013-05-13T00:41:37Z"
- content="""
-With Bitcoin, every transaction is recorded, and the records are all public. That's the foundation on which the whole thing is based. These are only tracked by account number, but still if you buy (or sell) bitcoins non-anonymously then someone could at least infer you were a party to a specific transaction. Additionally, transactions could be linked to your IP address (if not done through Tor). But there are ways to use it anonymously if you know what you're doing. Even if you don't it's way more anonymous than a credit card or the like.
-
-Personally I think that warning might be a little strong. I would have said \"Note: Bitcoin does not automatically provide strong anonymity.\"
-"""]]

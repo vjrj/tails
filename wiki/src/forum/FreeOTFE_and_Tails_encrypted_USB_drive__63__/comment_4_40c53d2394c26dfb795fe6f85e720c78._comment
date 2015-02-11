@@ -1,7 +1,0 @@
-[[!comment format=mdwn
- ip="127.0.0.1"
- subject="comment 4"
- date="2012-01-26T09:58:19Z"
- content="""
-OK I solved it.  The clue is in what I said about how the drive was formatted.  FreeOTFE can decrypt whatever you throw at it, but once the drive is decrypted Windows needs to be able to read it.  Windows has no native support for ext4 but if the drive is formatted to NTFS or FAT everything works fine.  In the same way you have to be careful about the partitioning.  If the drive is partitioned in a way Windows doesn't understand then the drive will be unreadable after it's decrypted.  
-"""]]

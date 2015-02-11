@@ -1,9 +1,0 @@
-I get to the very end of creating the bootable and I get the following message:  
-
-Installation Failed - An uncaught exception was raised: Invalid version string 'GNU/Linux'
-
-I'm using 'startup disk creator' on Ubuntu 12.04.  A search on the web found this:  
-
-http://code.google.com/p/ubuntu-builder/issues/detail?id=13
-
-Could the lack of quotes in the Tails version string be the issue?
