@@ -1,0 +1,27 @@
+commit 0d3c155c3972fe0c3816513e9b001f720a7c7577
+Author: Michael Biebl <biebl@debian.org>
+Date:   Wed Aug 20 21:48:24 2014 +0200
+
+    Don't write to /sys/kernel/uevent_helper unconditionally
+    
+    Fix udev SysV init script and d-i start script to not write to
+    /sys/kernel/uevent_helper unconditionally to not fail on a kernel with
+    CONFIG_UEVENT_HELPER unset.
+    
+    Closes: #756312
+
+diff --git a/debian/udev.init b/debian/udev.init
+index 7f66a40..fd75031 100644
+--- a/etc/init.d/udev
+--- b/etc/init.d/udev
+@@ -173,7 +173,9 @@ case "$1" in
+ 	warn_if_interactive
+     fi
+ 
+-    echo > /sys/kernel/uevent_helper
++    if [ -w /sys/kernel/uevent_helper ]; then
++	echo > /sys/kernel/uevent_helper
++    fi
+ 
+     move_udev_database
+ 
