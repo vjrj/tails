@@ -1,0 +1,38 @@
+diff --git a/components/9990-misc-helpers.sh b/components/9990-misc-helpers.sh
+index 87c4930..9318a4b 100755
+--- a/lib/live/boot/9990-misc-helpers.sh
++++ b/lib/live/boot/9990-misc-helpers.sh
+@@ -1301,13 +1301,9 @@ do_union ()
+ 					unionmountopts="${unionmountopts}:${rofs}=${ro_opt}"
+ 				done
+ 			fi
+-			mount -t ${UNIONTYPE} ${unionmountopts} ${UNIONTYPE} "${unionmountpoint}"
+ 			;;
+ 
+ 		overlay)
+-			rw_opt="rw"
+-			ro_opt="ro"
+-
+ 			# XXX: can multiple unionro be used? (overlay only handles two dirs, but perhaps they can be chained?)
+ 			# XXX: and can unionro be optional? i.e. can overlay skip lowerdir?
+ 			if echo ${unionro} | grep -q " "
+@@ -1317,10 +1313,17 @@ do_union ()
+ 			then
+ 				panic "overlay needs at least one lower filesystem (read-only branch)."
+ 			fi
+-			unionmountopts="-o noatime,lowerdir=${unionro},upperdir=${unionrw}"
+-			mount -t ${UNIONTYPE} ${unionmountopts} ${UNIONTYPE} "${unionmountpoint}"
++			# overlayfs requires:
++			# + a workdir to become mounted
++			# + workdir and upperdir to reside under the same mount
++			# + workdir and upperdir to be in separate directories
++			mkdir "${unionrw}/rw"
++			mkdir "${unionrw}/work"
++			unionmountopts="-o noatime,lowerdir=${unionro},upperdir=${unionrw}/rw,workdir=${unionrw}/work"
+ 			;;
+ 	esac
++
++	mount -t ${UNIONTYPE} ${unionmountopts} ${UNIONTYPE} "${unionmountpoint}"
+ }
+ 
+ get_custom_mounts ()
