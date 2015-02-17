@@ -158,19 +158,19 @@ Package: linux-headers-amd64
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-headers-3.18.0-trunk-common
+Package: linux-headers-3.19.0-trunk-common
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-headers-3.18.0-trunk-586
+Package: linux-headers-3.19.0-trunk-586
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-headers-3.18.0-trunk-686-pae
+Package: linux-headers-3.19.0-trunk-686-pae
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-headers-3.18.0-trunk-amd64
+Package: linux-headers-3.19.0-trunk-amd64
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
@@ -186,19 +186,19 @@ Package: linux-image-amd64
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-image-3.18.0-trunk-586
+Package: linux-image-3.19.0-trunk-586
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-image-3.18.0-trunk-686-pae
+Package: linux-image-3.19.0-trunk-686-pae
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-image-3.18.0-trunk-amd64
+Package: linux-image-3.19.0-trunk-amd64
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
-Package: linux-kbuild-3.18
+Package: linux-kbuild-3.19
 Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
