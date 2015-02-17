@@ -38,7 +38,7 @@ $RUN_LB_CONFIG \
    --mirror-chroot "http://ftp.us.debian.org/debian/" \
    --packages-lists="standard" \
    --tasks="standard" \
-   --linux-packages="linux-image-3.18.0-trunk" \
+   --linux-packages="linux-image-3.19.0-trunk" \
    --syslinux-menu vesamenu \
    --syslinux-splash data/splash.png \
    --syslinux-timeout 4 \
