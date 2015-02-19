@@ -24,6 +24,7 @@ Feature: Browsing the web using the Tor Browser
     Then I can save the current page as "index.html" to the default downloads directory
     And I can print the current page as "output.pdf" to the default downloads directory
 
+  @check_tor_leaks
   Scenario: Importing an OpenPGP key from a website
     When I start the Tor Browser
     And the Tor Browser has started and loaded the startup page
