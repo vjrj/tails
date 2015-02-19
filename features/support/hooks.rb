@@ -63,7 +63,7 @@ BeforeFeature('@product') do |feature|
   base = File.basename(feature.file, ".feature").to_s
   $background_snapshot = "#{$config["TMP_DIR"]}/#{base}_background.state"
   $virt = Libvirt::open("qemu:///system")
-  $vmnet = VMNet.new($virt, $vm_xml_path)
+  $vmnet = VMNet.new($virt, VM_XML_PATH)
   $vmstorage = VMStorage.new($virt, VM_XML_PATH)
 end
 
@@ -172,5 +172,4 @@ end
 
 at_exit do
   delete_all_snapshots if !KEEP_SNAPSHOTS
-  VM.storage.clear_pool if VM.storage
 end
