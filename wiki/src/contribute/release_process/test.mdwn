@@ -155,8 +155,8 @@ tracked by tickets prefixed with `todo/test_suite:`.
 
 * Check mail over IMAP using:
   - a "clearnet" IMAP server.
-  - a hidden service IMAP server (e.g. TorMail, jhiwjjlqpyawmpjx.onion, or
-    Riseup, zsolxunfmbfuq7wf.onion with SSL).
+  - a hidden service IMAP server (e.g. Riseup, zsolxunfmbfuq7wf.onion
+    with SSL).
 * Send an email using:
   - a "clearnet" SMTP server.
   - a hidden service SMTP server (see above).
@@ -271,10 +271,6 @@ Start I2P by appending `i2p` to the kernel command line.
     * You should get the "I2P is not ready" pop-up
     * The I2P router console should still be accessible on
       <http://127.0.0.1:7657>
-
-# Git
-
-* clone a repository over SSH
 
 # SSH
 
