@@ -187,7 +187,7 @@ tor_certs_valid_after() {
 
 # Sets the date to the highest valid-after date of all
 # bridge/authority certificated used
-set_date_accoring_to_tor_certs() {
+set_date_according_to_tor_certs() {
 	# In bridge mode we'll see one certificate for each bridge, so
 	# we wait until we've seen all of them
 	if [ "$(tails_netconf)" = "obstacle" ]; then
@@ -257,7 +257,7 @@ else
 	# authority's cert's valid-after date.
 	if is_clock_way_off; then
 		log "The clock is so badly off that Tor cannot download a consensus. Setting system time to the highest bridges'/authorities' certs' valid-after date and trying to fetch a consensus again..."
-		set_date_accoring_to_tor_certs
+		set_date_according_to_tor_certs
 		service tor reload
 	fi
 	wait_for_tor_consensus
