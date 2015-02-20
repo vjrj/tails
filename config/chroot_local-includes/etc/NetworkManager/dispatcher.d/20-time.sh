@@ -191,7 +191,7 @@ set_date_according_to_tor_certs() {
 	# In bridge mode we'll see one certificate for each bridge, so
 	# we wait until we've seen all of them
 	if [ "$(tails_netconf)" = "obstacle" ]; then
-		nr_bridges=$(grep '^Bridge' "${TOR_RC}" | wc -l)
+		nr_bridges=$(grep '^Bridge\s' "${TOR_RC}" | wc -l)
 		until [ "$(tor_certs_valid_after | wc -l)" -ge "${nr_bridges}" ] ; do
 			sleep 1
 		done
