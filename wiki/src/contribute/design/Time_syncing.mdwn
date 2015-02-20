@@ -30,7 +30,7 @@ In short this is how time syncing is performed when Tails starts:
    authority we picked (or certificates of the bridges we've
    configured in bridge mode) isn't valid, so we set the system time
    to the valid-after date of the certificate (in bridge mode we get
-   one ceritifacte per bridge, so we set it to the highest valid-after
+   one certificate per bridge, so we set it to the highest valid-after
    date we see so that all bridges' certificates are valid).
 0. Set the system time to an initial "guess" based on the Tor
    consensus validity period, no matter if the consensus was verifiable
