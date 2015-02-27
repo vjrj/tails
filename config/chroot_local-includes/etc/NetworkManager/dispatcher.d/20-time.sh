@@ -178,10 +178,27 @@ maybe_set_time_from_tor_consensus() {
 	restart-tor
 }
 
-tor_cert_valid_after() {
-	# Only print the last = freshest match
+# Prints the valid-after date for all certificates (authorities or
+# bridges) seen so far.
+tor_certs_valid_after() {
 	sed -n 's/^.*certificate lifetime runs from \(.*\) through.*$/\1/p' \
-	    ${TOR_LOG} | tail -n 1
+	    "${TOR_LOG}" | sort -u
+}
+
+# Sets the date to the highest valid-after date of all
+# bridge/authority certificated used
+set_date_according_to_tor_certs() {
+	# In bridge mode we'll see one certificate for each bridge, so
+	# we wait until we've seen all of them
+	if [ "$(tails_netconf)" = "obstacle" ]; then
+		nr_bridges=$(grep '^Bridge\s' "${TOR_RC}" | wc -l)
+		until [ "$(tor_certs_valid_after | wc -l)" -ge "${nr_bridges}" ] ; do
+			sleep 1
+		done
+        fi
+	highest_valid_after="$(tor_certs_valid_after | \
+                                   sort -k 4n -k 1M -k 2n -k 3n | tail -n1)"
+	date --set="${highest_valid_after}" > /dev/null
 }
 
 tor_cert_lifetime_invalid() {
@@ -239,8 +256,8 @@ else
 	# the future.  For such clock skews we set the time to the
 	# authority's cert's valid-after date.
 	if is_clock_way_off; then
-		log "The clock is so badly off that Tor cannot download a consensus. Setting system time to the authority's cert's valid-after date and trying to fetch a consensus again..."
-		date --set="$(tor_cert_valid_after)" > /dev/null
+		log "The clock is so badly off that Tor cannot download a consensus. Setting system time to the highest bridges'/authorities' certs' valid-after date and trying to fetch a consensus again..."
+		set_date_according_to_tor_certs
 		service tor reload
 	fi
 	wait_for_tor_consensus

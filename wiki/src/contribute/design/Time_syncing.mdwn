@@ -26,10 +26,12 @@ In short this is how time syncing is performed when Tails starts:
 0. Start Tor. If Tor is already working, skip to HTP step.
 0. Let Tor fetch a consensus (wait 150 seconds twice, restarting Tor
    in between).
-0. If the time is too badly off, the authority certificate may not be
-   valid any more, so we set the system time to the Tails release date, which
-   will guarantee that the certificates are valid. Then we SIGHUP Tor
-   and wait for a new consensus again.
+0. If the time is so badly off that the certificate of the Tor
+   authority we picked (or certificates of the bridges we've
+   configured in bridge mode) isn't valid, so we set the system time
+   to the valid-after date of the certificate (in bridge mode we get
+   one certificate per bridge, so we set it to the highest valid-after
+   date we see so that all bridges' certificates are valid).
 0. Set the system time to an initial "guess" based on the Tor
    consensus validity period, no matter if the consensus was verifiable
    or not.
