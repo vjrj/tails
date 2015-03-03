@@ -11,9 +11,6 @@ Availability and plans for the next weeks
 Discussions
 ===========
 
- - [[!tails_ticket 5684 desc="Screen locker"]]
- - [[!tails_ticket 7061 desc="Random hostname option needed on startup"]] and [Let's share username, /etc/hostname and /etc/host among all anonymity distributions](https://mailman.boum.org/pipermail/tails-dev/2014-August/006736.html)
- - [[!tails_ticket 7419 desc="Rename Tor Browser in camouflage mode?"]]
- - [[!tails_ticket 8125 desc="Host the Tor Browser tarballs we need ourselves"]]
- - [[!tails_ticket 8174 desc="Build Tor with seccomp"]]
- - [[!tails_ticket 8236	desc="Greeter revamp: Decide between 'play' and 'computer' logo for Start button"]]
+ - [[!tails_ticket 8586 desc="Create a directory of organizations doing Tails training"]]
+ - [[!tails_ticket 8931 desc="Decide if we want to do the verification in the website or in the add-ons menus"]]
+ - [[!tails_ticket 8872 desc="Decide which kind of verification would the ISO verification extension do"]]

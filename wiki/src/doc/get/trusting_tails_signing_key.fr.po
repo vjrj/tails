@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-29 10:09+0100\n"
-"PO-Revision-Date: 2014-10-08 08:38-0000\n"
+"POT-Creation-Date: 2015-02-23 12:10+0000\n"
+"PO-Revision-Date: 2015-02-21 13:35-0000\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -74,10 +74,10 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    cd [your download directory]\n"
-"    sha256sum tails-signing*.key\n"
+"    diff -qs --from-file tails-signing*.key\n"
 msgstr ""
 "    cd [votre dossier de téléchargements]\n"
-"    sha256sum tails-signing*.key\n"
+"    diff -qs --from-file tails-signing*.key\n"
 
 #. type: Plain text
 msgid "This command would output something like this:"
@@ -86,20 +86,37 @@ msgstr "Cette commande devrait vous donner quelque chose comme ça :"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    aa4ac9313d562c901ddeca1b32b4d539d1e3476c575da554a9b6ccaa3d8305eb  tails-signing-desktop.key\n"
-"    aa4ac9313d562c901ddeca1b32b4d539d1e3476c575da554a9b6ccaa3d8305eb  tails-signing-laptop.key\n"
-"    aa4ac9313d562c901ddeca1b32b4d539d1e3476c575da554a9b6ccaa3d8305eb  tails-signing-library.key\n"
-"    aa4ac9313d562c901ddeca1b32b4d539d1e3476c575da554a9b6ccaa3d8305eb  tails-signing-seattle.key\n"
+"    Files tails-signing-desktop.key and tails-signing-laptop.key are identical\n"
+"    Files tails-signing-desktop.key and tails-signing-library.key are identical\n"
+"    Files tails-signing-desktop.key and tails-signing-seattle.key are identical\n"
 msgstr ""
+"    Les fichiers tails-signing-desktop.key et tails-signing-laptop.key sont identiques\n"
+"    Les fichiers tails-signing-desktop.key et tails-signing-library.key sont identiques\n"
+"    Les fichiers tails-signing-desktop.key et tails-signing-seattle.key sont identiques\n"
 
 #. type: Plain text
 msgid ""
-"You would then need to visually check that all the checksums of the first "
-"column are the same, meaning that the keys are identical."
+"You would then need to check that every line reports identical key files."
+msgstr "Vous devez vérifier que chaque ligne rapporte des clés identiques."
+
+#. type: Plain text
+msgid ""
+"If at least a key differs from the rest, the command would output "
+"accordingly:"
 msgstr ""
-"Vous devrez ensuite vérifier visuellement que toutes les sommes de contrôle "
-"de la première colonne sont identiques, ce qui voudrait dire que les clés le "
-"sont également."
+"Si une clé au moins diffère des autres, la commande devrait en retour "
+"renvoyer :"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Files tails-signing-desktop.key and tails-signing-laptop.key are identical\n"
+"    Files tails-signing-desktop.key and tails-signing-library.key are identical\n"
+"    Files tails-signing-desktop.key and tails-signing-seattle.key differ\n"
+msgstr ""
+"    Les fichiers tails-signing-desktop.key et tails-signing-laptop.key sont identiques\n"
+"    Les fichiers tails-signing-desktop.key et tails-signing-library.key sont identiques\n"
+"    Les fichiers tails-signing-desktop.key et tails-signing-seattle.key sont différents\n"
 
 #. type: Plain text
 msgid ""
@@ -492,3 +509,11 @@ msgstr ""
 #. type: Bullet: '- '
 msgid "<!-- l10n placeholder for language-specific link -->"
 msgstr ""
+
+#~ msgid ""
+#~ "You would then need to visually check that all the checksums of the first "
+#~ "column are the same, meaning that the keys are identical."
+#~ msgstr ""
+#~ "Vous devrez ensuite vérifier visuellement que toutes les sommes de "
+#~ "contrôle de la première colonne sont identiques, ce qui voudrait dire que "
+#~ "les clés le sont également."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-12-04 12:04+0100\n"
+"POT-Creation-Date: 2015-02-20 18:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,6 +103,12 @@ msgid "SanDisk Cruzer Facet"
 msgstr ""
 
 #. type: Bullet: '* '
+msgid ""
+"SanDisk Cruzer Orbiter 32GB (hangs at installation time but boots fine "
+"afterwards)"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid "SanDisk Ultra 32 GB"
 msgstr ""
 
@@ -136,6 +142,23 @@ msgid ""
 "load and are prone to failure."
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"aegis\"></a>\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Aegis"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"During the boot process, USB is briefly powered off, that causes Aegis "
+"hardware-encrypted USB sticks to lock down, and the PIN must be entered "
+"again (fast) in order to complete the boot."
+msgstr ""
+
 #. type: Title ###
 #, no-wrap
 msgid "Other vendors"
@@ -145,11 +168,6 @@ msgstr ""
 msgid ""
 "Staples Relay USB 2.0 16GB, suffers from the same problem as [[some SanDisk "
 "USB sticks|known_issues#sandisk]]."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "<a id=\"isohybrid-options\"></a>\n"
 msgstr ""
 
 #. type: Title -
@@ -193,7 +211,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Dell Inc. Latitude E6430/0CPWYR\n"
+msgid "Dell Inc. Latitude E6430 and E6230\n"
 msgstr ""
 
 #. type: Plain text
@@ -201,7 +219,7 @@ msgid "Does not start on USB sticks created using Tails Installer."
 msgstr ""
 
 #. type: Plain text
-msgid "With BIOS versions A03 06/03/2012 (and A09 and A11)"
+msgid "With BIOS versions A03 06/03/2012 (and A09, A11, and A12)"
 msgstr ""
 
 #. type: Plain text
@@ -210,8 +228,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Workaround (at least with BIOS versions A09 and A11): just hit enter and it "
-"will continue with the boot."
+"Workaround (at least with BIOS versions A09, A11, and A12): just hit enter "
+"and it will continue with the boot."
 msgstr ""
 
 #. type: Title -
@@ -254,6 +272,15 @@ msgid ""
 "Cannot start neither from USB nor from DVD. System crashes with a blank "
 "screen and locked up keyboard. This problem might be corrected in newer "
 "versions: please report your test results back to us."
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "HP Compaq dc5750 Microtower\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Cannot start Tails 1.2.3 created using Tails Installer."
 msgstr ""
 
 #. type: Title -
@@ -344,8 +371,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Mac Pro Tower and MacBook Pro 4,1 (both from early 2008) fail to boot from a "
-"USB stick created by Tails Installer."
+"Mac Pro Tower and MacBook Pro 4,1 (both from early 2008) and MacBookPro late "
+"2011 (8,2) fail to boot from a USB stick created by Tails Installer."
 msgstr ""
 
 #. type: Plain text
@@ -376,6 +403,38 @@ msgid ""
 "    set root=(hd1)\n"
 "    chainloader +1\n"
 "    boot\n"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Other hardware issues\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"bcm43224\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Broadcom BCM43224 802.11a/b/g/n wireless network adapter\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The Broadcom Corporation BCM43224 802.11a/b/g/n wireless network adapter is "
+"known to not be able to [[spoof its MAC address|doc/first_steps/"
+"startup_options/mac_spoofing]]. Tails enables MAC spoofing by default, and "
+"will disable any network adapter it fails to spoof. To make it work you must "
+"[[disable Tails' MAC spoofing feature|doc/first_steps/startup_options/"
+"mac_spoofing#disable]]; please read the documentation carefully and make "
+"sure you understand the consequences before doing so."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This network adapter can, for instance, be found in the MacBook Air 4,1, "
+"4,2, 5,1 and 5,2."
 msgstr ""
 
 #. type: Title =
@@ -491,11 +550,13 @@ msgid ""
 "  - Hewlett-Packard HP Pavilion dv6 Notebook PC\n"
 "  - Lenovo ThinkPad X61, only on emergency shutdown when pulling out the\n"
 "    USB stick\n"
+"  - Lenovo ThinkPad X220\n"
 "  - Toshiba Satellite C855D\n"
 "  - Dell Inc. Studio 1458\n"
 "  - Fujitsu Lifebook AH531/GFO, only on regular shutdown, emergency\n"
 "    shutdown works\n"
 "  - Samsung N150P\n"
+"  - Acer Aspire e1-572\n"
 msgstr ""
 
 #. type: Plain text
@@ -602,25 +663,6 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "VirtualBox guest modules are broken for 64-bit guests\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"VirtualBox guest modules allow for additional features when using Tails as a "
-"VirtualBox guest: shared folders, resizable display, shared clipboard, etc."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"But due to [a bug in VirtualBox](https://www.virtualbox.org/ticket/11037), "
-"the resizable display and shared clipboard only work in Tails if the "
-"VirtualBox guest is configured to have a 32-bit processor. The shared "
-"folders work both on 32-bit and 64-bit guests."
-msgstr ""
-
-#. type: Title -
-#, no-wrap
 msgid "Touchpad configurations\n"
 msgstr ""
 
@@ -638,6 +680,18 @@ msgid ""
 "    synclient VertTwoFingerScroll=1;\n"
 "    synclient FingerLow=1;\n"
 "    synclient FingerHigh=1;\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Bluetooth devices don't work\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Bluetooth is not enabled in Tails for security reasons. To enable it anyway, "
+"see the documentation about [[wireless devices|doc/advanced_topics/"
+"wireless_devices]]."
 msgstr ""
 
 #. type: Title -

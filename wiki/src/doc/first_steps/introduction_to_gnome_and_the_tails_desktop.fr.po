@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-15 18:40+0300\n"
-"PO-Revision-Date: 2014-10-09 17:17-0000\n"
+"POT-Creation-Date: 2015-02-25 14:21+0100\n"
+"PO-Revision-Date: 2015-01-18 11:09-0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -80,6 +80,35 @@ msgstr ""
 msgid "[[!img applications.png link=no alt=\"Applications menu\"]]\n"
 msgstr "[[!img applications.png link=no alt=\"Menu des applications\"]]\n"
 
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"icon\">\n"
+msgstr "<div class=\"icon\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img help-browser.png link=no]]\n"
+msgstr "[[!img help-browser.png link=no]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"text\">\n"
+"  <span class=\"guimenuitem\">Help</span>: to access the GNOME Desktop Help choose\n"
+"  <span class=\"menuchoice\">\n"
+"    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">Help</span></span>\n"
+"  </div>\n"
+"</div>\n"
+msgstr ""
+"<div class=\"text\">\n"
+"  <span class=\"guimenuitem\">Aide</span>: pour accéder à l'Aide de GNOME, choisissez\n"
+"  <span class=\"menuchoice\">\n"
+"    <span class=\"guisubmenu\">Accessoires</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">Aide</span></span>\n"
+"  </div>\n"
+"</div>\n"
+
 #. type: Title ###
 #, no-wrap
 msgid "System Tools submenu"
@@ -97,7 +126,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"next\">\n"
-msgstr ""
+msgstr "<div class=\"next\">\n"
 
 #. type: Plain text
 msgid ""
@@ -113,7 +142,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "</div>\n"
-msgstr ""
+msgstr "</div>\n"
 
 #. type: Plain text
 msgid "Among other utilities, it includes:"
@@ -121,13 +150,8 @@ msgstr "Entre autres utilitaires, ce menu contient :"
 
 #. type: Plain text
 #, no-wrap
-msgid "<div class=\"icon\">\n"
-msgstr "<div class=\"icon\">\n"
-
-#. type: Plain text
-#, no-wrap
 msgid "[[!img preferences-system.png link=no]]\n"
-msgstr ""
+msgstr "[[!img preferences-system.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -258,7 +282,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img tor-browser.png link=no]]\n"
-msgstr ""
+msgstr "[[!img tor-browser.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -270,7 +294,7 @@ msgid ""
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"<strong>Tor Browser</strong> : navigateur Web<br/>\n"
+"<strong>Navigateur Tor</strong> : navigateur Web<br/>\n"
 "[[Voir la documentation|anonymous_internet/tor_browser]]\n"
 "</div>\n"
 "</div>\n"
@@ -332,7 +356,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"terminal\"></a>\n"
-msgstr ""
+msgstr "<a id=\"terminal\"></a>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -436,7 +460,7 @@ msgstr "[[!img gpgApplet.png link=no]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img gpgApplet-seal.png link=no]]\n"
-msgstr ""
+msgstr "[[!img gpgApplet-seal.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -462,7 +486,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img sound.png link=no]]\n"
-msgstr ""
+msgstr "[[!img sound.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -478,7 +502,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img power.png link=no]]\n"
-msgstr ""
+msgstr "[[!img power.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -497,12 +521,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img keyboard-en.png link=no]]\n"
-msgstr ""
+msgstr "[[!img keyboard-en.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img keyboard-de.png link=no]]\n"
-msgstr ""
+msgstr "[[!img keyboard-de.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -560,7 +584,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img shutdown.png link=no]]\n"
-msgstr ""
+msgstr "[[!img shutdown.png link=no]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -688,7 +712,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img nautilus.png link=no]]\n"
-msgstr ""
+msgstr "[[!img nautilus.png link=no]]\n"
 
 #. type: Plain text
 msgid ""

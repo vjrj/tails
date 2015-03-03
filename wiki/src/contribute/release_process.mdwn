@@ -241,21 +241,16 @@ points translators to up-to-date PO files:
 Call for translation
 ====================
 
-If at freeze time:
+If at freeze time, send a call for translations to tails-l10n, making it clear what
+Git branch the translations must be based on, and what are the
+priorities. Also, add a few words to remember the translation teams
+using Git that they should regularly contact Transifex translators,
+as detailed on the [[documentation for
+translators|contribute/how/translate]].
 
-1. Ask on tails-l10n that someone checks the PO files of `po/` and of
-   the website [[using `check_po.sh`|contribute/l10n_tricks]], and
-   corrects all the errors.
-2. Send a call for translations to tails-l10n, making it clear what
-   Git branch the translations must be based on, and what are the
-   priorities. Also, add a few words to remember the translation teams
-   using Git that they should regularly contact Transifex translators,
-   as detailed on the [[documentation for
-   translators|contribute/how/translate]].
+To get a list of changes on the website:
 
-   To get a list of changes on the website:
-
-       git diff --stat 1.1.. -- *.{mdwn,html}
+    git diff --stat 1.1.. -- *.{mdwn,html}
 
 Import the signing key
 ======================
@@ -294,6 +289,20 @@ repository documentation.
 
 Build images
 ============
+
+Sanity check
+------------
+
+Verify that the TBB release used in Tails still is the most
+recent. Also look if there's a new `-buildX` tag for the targetted TBB
+and Tor Browser versions in their respective Git repos:
+
+* <https://gitweb.torproject.org/builders/tor-browser-bundle.git>
+* <https://gitweb.torproject.org/tor-browser.git>
+
+A new tag may indicate that a new TBB release is imminent.
+
+Better catch this before people spend time doing manual tests.
 
 Build the almost-final image
 ----------------------------
@@ -504,16 +513,8 @@ Upload images
 Sanity check
 ------------
 
-Verify that the TBB release used in Tails still is the most
-recent. Also look if there's a new `-buildX` tag for the targetted TBB
-and Tor Browser versions in their respective Git repos:
-
-* <https://gitweb.torproject.org/builders/tor-browser-bundle.git>
-* <https://gitweb.torproject.org/tor-browser.git>
-
-A new tag may indicate that a new TBB release is imminent.
-
-Better catch this before people spend time doing manual tests.
+Verify once more that the TBB we ship is still the most recent (see
+above).
 
 ## Announce, seed and test the Torrents
 
@@ -792,6 +793,15 @@ Tor weekly news
 Write a short announcement for the Tor weekly news, or find someone
 who's happy to do it.
 
+Amnesia news
+------------
+
+The release notes should have been automatically sent to
+`amensia-news@` (thanks to the `announce` flag) but it will be stuck
+in the moderation
+queue. [Log in](https://mailman.boum.org/admindb/amnesia-news) and
+accept it.
+
 Prepare for the next release
 ============================
 
@@ -801,6 +811,26 @@ this, and skip what does not make sense for a RC.
 1. Move the previous stable release to `obsolete` on the mirrors.
 1. Remove any remaining RC for the just-published release from
    the mirrors.
+1. Remove IUKs that are more than 6 months old from
+   `/{stable,alpha}/iuk` on the rsync server:
+   - first check that it's not going to remove anything we want to keep:
+     
+         ssh rsync.lizard /bin/sh -c \
+             \"find /srv/rsync/tails/tails/alpha  \
+                    /srv/rsync/tails/tails/stable \
+                    -type f -name '*.iuk' -mtime '+183' \
+                    -ls \
+             \"
+   
+   - then actually delete the files:
+     
+         ssh rsync.lizard /bin/sh -c \
+             \"find /srv/rsync/tails/tails/alpha  \
+                    /srv/rsync/tails/tails/stable \
+                    -type f -name '*.iuk' -mtime '+183' \
+                    -delete \
+             \"
+
 1. Pull `master` back and merge it into `devel`.
 1. Follow the
    [[post-release|contribute/APT_repository#workflow-post-release]] APT

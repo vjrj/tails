@@ -117,6 +117,18 @@ We use Redmine tickets for public discussion and tasks management:
 * configuration: `tails::gitolite` class in [[!tails_gitweb_repo
   puppet-tails]]
 
+## git-annex
+
+* purpose: host the full history of Tails released images and Tor
+  Browser tarballs
+* access: Tails core developers only
+* tools: [[!debpts git-annex]]
+* configuration:
+  - `tails::git_annex` and `tails::gitolite` classes in
+    [[!tails_gitweb_repo puppet-tails]]
+  - `tails::git_annex::mirror` defined resource in
+    [[!tails_gitweb_repo puppet-tails]]
+
 ## Jenkins
 
 * purpose: continuous integration, e.g. build Tails ISO images from
@@ -157,7 +169,7 @@ We use Redmine tickets for public discussion and tasks management:
   for testing
 * access: anyone who gets it from
   [BridgeDB](https://bridges.torproject.org/)
-* tools: [[!debpts tor]], [[!debpts obfsproxy]]
+* tools: [[!debpts tor]], [[!debpts obfs4proxy]]
 * configuration:
   - `tails::apt::repository::torproject` in
     [[!tails_gitweb_repo puppet-tails]]
