@@ -408,6 +408,7 @@ wireless-regdb
 
 ### Automated test suite
 python-serial
+python3-systemd
 xdotool
 
 i2p
