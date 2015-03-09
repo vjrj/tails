@@ -118,7 +118,7 @@ ALNUM_SET = ALPHA_SET + (0..9).to_a.map { |n| n.to_s }
 def generate_random_string_from_set(set, min_len, max_len)
   len = (min_len..max_len).to_a.sample
   len ||= min_len
-  (0..len-1).map { |n| set.sample }.join
+  set.sample(len).join
 end
 
 def generate_random_alpha_string(min_len, max_len = 0)
