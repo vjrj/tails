@@ -5,6 +5,15 @@ Feature: Installing Tails to a USB drive, upgrading it, and using persistence
   and upgrade it to new Tails versions
   and use persistence
 
+  Scenario: Try installing Tails to a too small USB drive
+    Given a computer
+    And I start Tails from DVD with network unplugged and I login
+    And I create a 2 GiB disk named "current"
+    And I start Tails Installer in "Clone & Install" mode
+    Then I am told that no suitable device could be found
+    When I plug USB drive "current"
+    Then I am told that a plugged-in device is too small
+
   @keep_volumes
   Scenario: Installing Tails to a pristine USB drive
     Given a computer
@@ -15,6 +24,17 @@ Feature: Installing Tails to a USB drive, upgrading it, and using persistence
     Then the running Tails is installed on USB drive "current"
     But there is no persistence partition on USB drive "current"
     And I unplug USB drive "current"
+
+  @keep_volumes
+  Scenario: Unplugging the target USB drive
+    Given a computer
+    And I start Tails from DVD with network unplugged and I login
+    And I start Tails Installer in "Clone & Install" mode
+    When I plug USB drive "current"
+    Then the "current" USB drive is selected
+    When I unplug USB drive "current"
+    Then no USB drive is selected
+    And I am told that no suitable device could be found
 
   @keep_volumes
   Scenario: Booting Tails from a USB drive in UEFI mode
