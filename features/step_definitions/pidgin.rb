@@ -269,36 +269,18 @@ end
 
 Then /^the "([^"]*)" account only responds to PING and VERSION CTCP requests$/ do |irc_server|
   next if @skip_steps_while_restoring_background
-  # Generate a random IRC nickname, in this case an alpha-numeric
-  # string with length 10 to 15. To make it legal, the first character
-  # is forced to be alpha.
-  alpha_set = ('A'..'Z').to_a + ('a'..'z').to_a
-  alnum_set = alpha_set + (0..9).to_a.map { |n| n.to_s }
-  nick_length = (10..15).to_a.sample
-  bot_nick = alpha_set.sample
-  bot_nick += (0..nick_length-2).map { |n| alnum_set.sample }.join
-  bot_opts = {
-    :nick => bot_nick,
-    :user => bot_nick,
-    :real => bot_nick,
-    :spam_target => configured_pidgin_accounts[irc_server]["nickname"]
+  ctcp_cmds = [
+    "CLIENTINFO", "DATE", "ERRMSG", "FINGER", "PING", "SOURCE", "TIME",
+    "USERINFO", "VERSION"
+  ]
+  expected_ctcp_replies = {
+    "PING" => /^\d+$/,
+    "VERSION" => /^Purple IRC$/
   }
-  bot_opts[:logger] = Logger.new("/dev/null") if !$config["DEBUG"]
-  bot = CtcpSpammer.new(irc_server, 6667, bot_opts)
-  # Give the bot an extra 60 seconds for connecting to the server and
-  # other overhead beyond the expected time to spam all CTCP commands.
-  expected_ctcp_spam_time = CtcpSpammer::KNOWN_CTCP_COMMANDS.length *
-                            CtcpSpammer::CTCP_SPAM_DELAY
-  timeout = expected_ctcp_spam_time + 60
-
-  begin
-    Timeout::timeout(timeout) do
-      bot.start
-    end
-  rescue Timeout::Error
-    raise "The #{bot.class} bot failed to spam all CTCP commands within " \
-          "#{timeout} seconds"
-  end
+  spam_target = configured_pidgin_accounts[irc_server]["nickname"]
+  ctcp_check = CtcpChecker.new(irc_server, 6667, spam_target, ctcp_cmds,
+                               expected_ctcp_replies)
+  ctcp_check.verify_ctcp_responses
 end
 
 Then /^I can join the "([^"]+)" channel on "([^"]+)"$/ do |channel, account|
