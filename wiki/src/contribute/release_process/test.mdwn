@@ -101,10 +101,6 @@ tracked by tickets prefixed with `todo/test_suite:`.
 * Browsing (by IP) a HTTP or HTTPS server on the LAN should be possible.
 * Browsing (by IP) a FTP server on the LAN should be possible.
 
-# Pidgin
-
-(automate: [[!tails_ticket 7820]])
-
 # Tor
 
 * The version of Tor should be the latest stable one, which is the highest version number

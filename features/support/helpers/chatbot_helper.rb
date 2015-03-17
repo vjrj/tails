@@ -2,11 +2,11 @@ require 'tempfile'
 
 class ChatBot
 
-  def initialize(account, password, otr_key, rooms = nil)
+  def initialize(account, password, otr_key, opts = Hash.new)
     @account = account
     @password = password
     @otr_key = otr_key
-    @rooms = rooms
+    @opts = opts
     @pid = nil
     @otr_key_file = nil
   end
@@ -16,13 +16,19 @@ class ChatBot
     @otr_key_file << @otr_key
     @otr_key_file.close
 
+    # XXX: Once #9066 we should remove the convertkey.py script from
+    # our tree and use the one bundled in python-potr instead.
+    cmd_helper("#{GIT_DIR}/features/scripts/convertkey.py #{@otr_key_file.path}")
+    cmd_helper("mv #{@otr_key_file.path}3 #{@otr_key_file.path}")
+
     cmd = [
            "#{GIT_DIR}/features/scripts/otr-bot.py",
            @account,
            @password,
            @otr_key_file.path
           ]
-    cmd += @rooms if @rooms
+    cmd += ["--connect-server", @opts["connect_server"]] if @opts["connect_server"]
+    cmd += ["--auto-join"] + @opts["auto_join"] if @opts["auto_join"]
 
     job = IO.popen(cmd)
     @pid = job.pid

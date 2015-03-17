@@ -42,26 +42,29 @@ end
 
 Then /^Pidgin automatically enables my XMPP account$/ do
   next if @skip_steps_while_restoring_background
+  @vm.focus_window('Buddy List')
   @screen.wait("PidginAvailableStatus.png", 120)
 end
 
 Given /^my XMPP friend goes online( and joins the multi-user chat)?$/ do |join_chat|
   next if @skip_steps_while_restoring_background
-  rooms = nil
-  if join_chat
-    rooms = [@chat_room_jid]
-  end
   account = xmpp_account("Friend_account", ["otr_key"])
+  bot_opts = account.select { |k, v| ["connect_server"].include?(k) }
+  if join_chat
+    bot_opts["auto_join"] = [@chat_room_jid]
+  end
   @friend_name = account["username"]
   @chatbot = ChatBot.new(account["username"] + "@" + account["domain"],
-                         account["password"], account["otr_key"], rooms)
+                         account["password"], account["otr_key"], bot_opts)
   @chatbot.start
   add_after_scenario_hook(@chatbot.method(:stop))
+  @vm.focus_window('Buddy List')
   @screen.wait("PidginFriendOnline.png", 60)
 end
 
 When /^I start a conversation with my friend$/ do
   next if @skip_steps_while_restoring_background
+  @vm.focus_window('Buddy List')
   # Clicking the middle, bottom of this image should query our
   # friend, given it's the only subscribed user that's online, which
   # we assume.
@@ -76,10 +79,10 @@ When /^I start a conversation with my friend$/ do
   @screen.wait("PidginConversationWindowMenuBar.png", 10)
 end
 
-And /^I say something to my friend( in the group chat)?$/ do |group_chat|
+And /^I say something to my friend( in the multi-user chat)?$/ do |multi_chat|
   next if @skip_steps_while_restoring_background
   msg = "ping" + Sikuli::Key.ENTER
-  if group_chat
+  if multi_chat
     @vm.focus_window(@chat_room_jid.split("@").first)
     msg = @friend_name + ": " + msg
   else
@@ -88,13 +91,19 @@ And /^I say something to my friend( in the group chat)?$/ do |group_chat|
   @screen.type(msg)
 end
 
-Then /^I receive a response from my friend$/ do
+Then /^I receive a response from my friend( in the multi-user chat)?$/ do |multi_chat|
   next if @skip_steps_while_restoring_background
+  if multi_chat
+    @vm.focus_window(@chat_room_jid.split("@").first)
+  else
+    @vm.focus_window(@friend_name)
+  end
   @screen.wait("PidginFriendExpectedAnswer.png", 20)
 end
 
 When /^I start an OTR session with my friend$/ do
   next if @skip_steps_while_restoring_background
+  @vm.focus_window(@friend_name)
   @screen.click("PidginConversationOTRMenu.png")
   @screen.hide_cursor
   @screen.click("PidginOTRMenuStartSession.png")
@@ -108,6 +117,7 @@ end
 
 Then /^an OTR session was successfully started with my friend$/ do
   next if @skip_steps_while_restoring_background
+  @vm.focus_window(@friend_name)
   @screen.wait("PidginConversationOTRUnverifiedSessionStarted.png", 10)
 end
 
@@ -116,6 +126,7 @@ end
 # bot.
 When /^I join some empty multi-user chat$/ do
   next if @skip_steps_while_restoring_background
+  @vm.focus_window('Buddy List')
   @screen.click("PidginBuddiesMenu.png")
   @screen.wait_and_click("PidginBuddiesMenuJoinChat.png", 10)
   @screen.wait_and_click("PidginJoinChatWindow.png", 10)
@@ -126,7 +137,7 @@ When /^I join some empty multi-user chat$/ do
      !account["chat_room"].empty?
     chat_room = account["chat_room"]
   else
-    chat_room = random_alnum_string(10,15)
+    chat_room = random_alnum_string(10, 15)
   end
   @screen.type(chat_room)
 
@@ -139,8 +150,16 @@ When /^I join some empty multi-user chat$/ do
   @chat_room_jid = chat_room + "@" + conference_server
 
   @screen.click("PidginJoinChatButton.png")
-  # This will both make sure that the we joined the chat since the
-  # chat window openend, and that it is empty.
+  # The following will both make sure that the we joined the chat, and
+  # that it is empty. We'll also deal with the *potential* "Create New
+  # Room" prompt that Pidgin shows for some server configurations.
+  images = ["PidginCreateNewRoomPrompt.png",
+            "PidginChat1UserInRoom.png"]
+  image_found, _ = @screen.waitAny(images, 30)
+  if image_found == "PidginCreateNewRoomPrompt.png"
+    @screen.click("PidginCreateNewRoomAcceptDefaultsButton.png")
+  end
+  @vm.focus_window(@chat_room_jid)
   @screen.wait("PidginChat1UserInRoom.png", 10)
 end
 
@@ -149,12 +168,14 @@ end
 # messages when looking for a particular response, or similar.
 When /^I clear the multi-user chat's scrollback$/ do
   next if @skip_steps_while_restoring_background
+  @vm.focus_window(@chat_room_jid)
   @screen.click("PidginConversationMenu.png")
   @screen.wait_and_click("PidginConversationMenuClearScrollback.png", 10)
 end
 
 Then /^I can see that my friend joined the multi-user chat$/ do
   next if @skip_steps_while_restoring_background
+  @vm.focus_window(@chat_room_jid)
   @screen.wait("PidginChat2UsersInRoom.png", 60)
 end
 
