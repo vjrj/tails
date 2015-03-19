@@ -1,0 +1,494 @@
+diff --git a/lib/bilibop/common.sh b/lib/bilibop/common.sh
+index a8393ad..d4bacbd 100644
+--- a/lib/bilibop/common.sh
++++ b/lib/bilibop/common.sh
+@@ -1,6 +1,6 @@
+ # /lib/bilibop/common.sh
+ #
+-# Copyright (C) 2011-2013, Bilibop Project <quidame@poivron.org>
++# Copyright (C) 2011-2015, Yann Amar <quidame@poivron.org>
+ # License GPL-3.0+
+ #
+ # This program is free software: you can redistribute it and/or modify
+@@ -31,8 +31,9 @@
+ #  and others), and then are replaced by grep and sed heuristics.
+ #> We assume, even if it is not often, that /etc/udev/udev.conf can have been
+ #  modified and that 'udev_root' can be something else than '/dev'.
+-#> dm-crypt/LUKS, LVM, loopback and aufs root filesystems (and combinations
+-#  of them) are now fully supported.
++#> dm-crypt/LUKS, LVM, loopback, and aufs root filesystems (and combinations
++#  of them) are now fully supported. Btrfs and overlay filesystems are also
++#  partially supported (not fully tested).
+ #> Functions that just output informations about devices/filesystems can be
+ #  called by any unprivileged user.
+ 
+@@ -211,56 +212,62 @@ EOF
+ ### Here is the main function's dependency tree {{{
+ #
+ # physical_hard_disk
+-# |
+ # |__underlying_partition
+-#    |
+ #    |__underlying_device
+-#    |  |
+ #    |  |__underlying_device_from_device
+-#    |  |  |
+ #    |  |  |__underlying_device_from_dm
+ #    |  |  |__underlying_device_from_loop
+-#    |  |     |
+ #    |  |     |__backing_file_from_loop
+ #    |  |     |__device_id_of_file
+-#    |  |     |__device_node_from_major_minor
++#    |  |     |__underlying_device_from_file __ see below
++#    |  |     |__device_node_from_major_minor   vvvvvvvvv
+ #    |  |
+-#    |  |__underlying_device_from_file
++#    |  |__underlying_device_from_file _<<_<<_<<_  possible loop entry point
++#    |     |__device_id_of_file                  |
++#    |     |__find_mountpoint                    |
++#    |     |__is_aufs_mountpoint                 |
++#    |     |  |__canonical                       |
++#    |     |                                     |
++#    |     |__underlying_device_from_aufs        |
++#    |     |  |__aufs_readonly_branch            |
++#    |     |  |  |__aufs_dirs_if_brs0            |
++#    |     |  |  |  |__is_aufs_mountpoint        |
++#    |     |  |  |     |__canonical              |
++#    |     |  |  |                               |
++#    |     |  |  |__aufs_si_directory            |
++#    |     |  |     |__is_aufs_mountpoint        |
++#    |     |  |        |__canonical              |
++#    |     |  |                                  |
++#    |     |  |__device_id_of_file               |
++#    |     |  |__underlying_device_from_file _>>_| possible loop entry point
++#    |     |  |__device_node_from_major_minor    |
++#    |     |                                     |
++#    |     |__is_overlay_mountpoint              |
++#    |     |  |__canonical                       |
++#    |     |                                     |
++#    |     |__underlying_device_from_overlayfs   |
++#    |     |  |__overlay_lowerdir                |
++#    |     |  |  |__is_overlay_mountpoint        |
++#    |     |  |  |  |__canonical                 |
++#    |     |  |  |                               |
++#    |     |  |  |__canonpath                    |
++#    |     |  |                                  |
++#    |     |  |__device_id_of_file               |
++#    |     |  |__underlying_device_from_file _>>_| possible loop entry point
++#    |     |  |__device_node_from_major_minor
+ #    |     |
+-#    |     |__device_node_from_major_minor
+-#    |     |__device_id_of_file
+-#    |     |__find_mountpoint
+-#    |     |  |
+-#    |     |  |__is_aufs_mountpoint
+-#    |     |     |
+-#    |     |     |__canonical
++#    |     |__is_btrfs_mountpoint
++#    |     |  |__canonical
+ #    |     |
+-#    |     |__underlying_device_from_aufs
+-#    |        |
+-#    |        |__aufs_dirs
+-#    |        |  |
+-#    |        |  |__aufs_dirs_if_brs0
+-#    |        |  |  |
+-#    |        |  |  |__is_aufs_mountpoint
+-#    |        |  |     |
+-#    |        |  |     |_canonical
+-#    |        |  |
+-#    |        |  |__aufs_si_directory
+-#    |        |     |
+-#    |        |     |__is_aufs_mountpoint
+-#    |        |        |
+-#    |        |        |__canonical
+-#    |        |
+-#    |        |__device_id_of_file
+-#    |        |__device_node_from_major_minor
++#    |     |__underlying_device_from_btrfs
++#    |     |__device_node_from_major_minor
+ #    |
+ #    |__underlying_device_from_device
+-#       |
+ #       |__underlying_device_from_dm
+ #       |__underlying_device_from_loop
+-#          |
+ #          |__backing_file_from_loop
+-#          |__device_id_of_file
++#          |__device_id_of_file              ^^^^^^^^^
++#          |__underlying_device_from_file __ see above
+ #          |__device_node_from_major_minor
+ #
+ # }}}
+@@ -279,6 +286,36 @@ canonical() {
+     esac
+ }
+ # ===========================================================================}}}
++# canonpath() ==============================================================={{{
++# What we want is: canonicalize a pathname even if the file (and even its
++# parent directories) does not exist. Just do not try to resolve any part of
++# the path; instead, rely only on path separators and specific patterns that
++# allow us to logically shorten the path.
++canonpath() {
++    ${DEBUG} && echo "> canonpath $@" >&2
++    local pathname
++    case "${1}" in
++        "") return 0;;
++        /*) pathname="${1}";;
++        *)  pathname="${PWD}/${1}";;
++    esac
++    while true; do
++        case "${pathname}" in
++            *//*|*/./*|*/../*|*/|*/.|*/..)
++                pathname="$(echo "${pathname}" | sed -re 's,(/+\.?)+/+,/,g; s,^(/+\.\.)+(/+|$),/,; s,[^/]+/+\.\.(/+|$),/,; s,/+,/,g; s,(/+\.?)+$,,')"
++                ;;
++            "")
++                echo "/"
++                break
++                ;;
++            *)
++                echo "${pathname}"
++                break
++                ;;
++        esac
++    done
++}
++# ===========================================================================}}}
+ # find_mountpoint() ========================================================={{{
+ # What we want is: output the mountpoint of the filesystem the file or directory
+ # given as argument depends is onto. Because it outputs the last field of the
+@@ -294,7 +331,8 @@ find_mountpoint() {
+ # corresponding device node. What is the best way?
+ device_node_from_major_minor() {
+     ${DEBUG} && echo "> device_node_from_major_minor $@" >&2
+-    readlink -f ${udev_root}/block/${1}
++    local dev="$(readlink -f /sys/dev/block/${1})"
++    [ -b "${udev_root}/${dev##*/}" ] && echo "${udev_root}/${dev##*/}"
+ }
+ # ===========================================================================}}}
+ # device_id_of_file() ======================================================={{{
+@@ -305,6 +343,22 @@ device_id_of_file() {
+     udevadm info --device-id-of-file "${1}"
+ }
+ # ===========================================================================}}}
++# is_btrfs_mountpoint() ====================================================={{{
++# What we want is: check if a directory given as argument is a btrfs mountpoint
++# and print the corresponding line from /proc/mounts. Accepts the '-q' (quiet)
++# option: print nothing, but return a 0/1 exit value. This is due to the fact
++# that btrfs mountpoints get 0 as their major device ID.
++is_btrfs_mountpoint() {
++    ${DEBUG} && echo "> is_btrfs_mountpoint $@" >&2
++    local   opt=
++    case    "${1}" in
++        -*)
++            opt="${1}"
++            shift ;;
++    esac
++    grep ${opt} "^[^ ]\+ $(canonical ${1}) btrfs " /proc/mounts
++}
++# ===========================================================================}}}
+ # is_aufs_mountpoint() ======================================================{{{
+ # What we want is: check if a directory given as argument is an aufs mountpoint
+ # and print the corresponding line from /proc/mounts. Accepts the '-q' (quiet)
+@@ -337,28 +391,52 @@ aufs_dirs_if_brs0() {
+     is_aufs_mountpoint "${1}" | sed -e 's@.*[ ,]br:\([^ ,]\+\).*@\1@ ; s@:@ @g'
+ }
+ # ===========================================================================}}}
+-# aufs_dirs() ==============================================================={{{
+-# What we want is: output all the underlying mountpoints (called branches) an
+-# aufs filesystem given as argument is made of.
+-aufs_dirs() {
+-    ${DEBUG} && echo "> aufs_dirs $@" >&2
++# aufs_readonly_branch() ===================================================={{{
++# What we want is: output the lower (readonly) branch of an aufs mount point
++# given as argument.
++aufs_readonly_branch() {
++    ${DEBUG} && echo "> aufs_readonly_branch $@" >&2
+     local   br
+     case  "$(cat /sys/module/aufs/parameters/brs)" in
+         0)
+             for br in $(aufs_dirs_if_brs0 "${1}")
+             do
+-                echo ${br}
++                echo ${br} | grep -q '=r[or]\(+wh\)\?$' &&
++                echo ${br%\=r*}
+             done
+             ;;
+         *)
+-            for br in $(aufs_si_directory "${1}")/br*
++            for br in $(aufs_si_directory "${1}")/br?
+             do
+-                cat ${br}
++                grep '=r[or]\(+wh\)\?$' ${br} | sed -e 's,=r[or].*,,'
+             done
+             ;;
+     esac
+ }
+ # ===========================================================================}}}
++# is_overlay_mountpoint() ==================================================={{{
++# What we want is: check if a directory given as argument is an overlayfs
++# mountpoint and print the corresponding line from /proc/mounts. Accepts the
++# '-q' (quiet) option: print nothing, but return a 0/1 exit value.
++is_overlay_mountpoint() {
++    ${DEBUG} && echo "> is_overlay_mountpoint $@" >&2
++    local   opt=
++    case    "${1}" in
++        -*)
++            opt="${1}"
++            shift ;;
++    esac
++    grep ${opt} "^[^ ]\+ $(canonical ${1}) overlay " /proc/mounts
++}
++# ===========================================================================}}}
++# overlay_lowerdir() ========================================================{{{
++# What we want is: output the lowerdir (readonly branch) of an overlayfs mount
++# point given as argument.
++overlay_lowerdir() {
++    ${DEBUG} && echo "> overlay_lowerdir $@" >&2
++    canonpath $(is_overlay_mountpoint "${1}" | sed -e 's@.*[ ,]lowerdir=\([^ ,]\+\).*@\1@ ; s@/\+@/@g')
++}
++# ===========================================================================}}}
+ # backing_file_from_loop() =================================================={{{
+ # What we want is: output the backing file of a loopback device given as
+ # argument. This requires kernel >= 2.6.37. Great thing! Before that, it was
+@@ -386,16 +464,29 @@ underlying_device_from_loop() {
+     local   lofile="$(backing_file_from_loop ${1})" || return 1
+     if      [ -b "${lofile}" ]
+     then    readlink -f "${lofile}"
+-    elif    [ -e "${lofile}" ]
+-    then    device_node_from_major_minor $(device_id_of_file "${lofile}")
+-    elif    [ -r "${1}" ]
+-    then
+-            # For some cases, when the loop device is set from inside the
+-            # initramfs (Live Systems)
+-            local dev="$(/sbin/losetup ${1} | sed "s;^${1}: \[\([0-9a-f]\{4\}\)\].*;\1;")"
+-            device_node_from_major_minor "$((0x${dev}/256)):$((0x${dev}%256))"
+     else
+-            return 1
++            local   id
++            if      [ -e "${lofile}" ]
++            then    id=$(device_id_of_file "${lofile}")
++            elif    [ -r "${1}" ]
++            then    # For some cases, when the loop device is set from inside
++                    # the initramfs (Live Systems) and /sys/*/loop/backing_file
++                    # is out of sync
++                    local   dev="$(/sbin/losetup ${1} | sed "s;^${1}: \[\([0-9a-f]\{4\}\)\].*;\1;")"
++                    id="$((0x${dev}/256)):$((0x${dev}%256))"
++            else    return 1
++            fi
++            case    "${id}" in
++                "")
++                    return 1
++                    ;;
++                0:*)
++                    underlying_device_from_file "${lofile}"
++                    ;;
++                *)
++                    device_node_from_major_minor "${id}"
++                    ;;
++            esac
+     fi
+ }
+ # ===========================================================================}}}
+@@ -407,24 +498,76 @@ underlying_device_from_loop() {
+ # virtual fs.
+ underlying_device_from_aufs() {
+     ${DEBUG} && echo "> underlying_device_from_aufs $@" >&2
+-    local   dir dev
+-    for dir in $(aufs_dirs "${1}")
+-    do
+-        dev="$(device_id_of_file ${dir%\=r?*})"
+-        case "${dev}" in
+-            0:*)
+-                continue
+-                ;;
+-            *)
+-                dev="$(device_node_from_major_minor "${dev}")"
+-                ;;
+-        esac
+-        if      [ -b "${dev}" ]
+-        then    readlink -f "${dev}"
+-                return 0
++    local   dir="$(aufs_readonly_branch "${1}")"
++    local   dev="$(device_id_of_file "${dir}")"
++    case "${dev}" in
++        "")
++            ;;
++        0:*)
++            # aufs mounts can't be nested; but this may be btrfs
++            dev="$(underlying_device_from_file "${dir}")"
++            ;;
++        *)
++            dev="$(device_node_from_major_minor "${dev}")"
++            ;;
++    esac
++
++    [ -b "${dev}" ] && readlink -f "${dev}"
++}
++# ===========================================================================}}}
++# underlying_device_from_overlayfs() ========================================{{{
++# What we want is: output the underlying device of the (generally) readonly
++# branch of an overlayfs mountpoint given as argument. We assume that there is
++# only and at least one physical device used to build the overlayfs (but the
++# directory is not necessarly the mountpoint of this device), other branch(es)
++# being virtual fs.
++underlying_device_from_overlayfs() {
++    ${DEBUG} && echo "> underlying_device_from_overlayfs $@" >&2
++    local   dev dir="$(overlay_lowerdir "${1}")"
++
++    # First case: overlayfs mountpoint is set at runtime, so the lowerdir
++    # value is up-to-date. Think that when setting up overlayfs mountpoint
++    # from the initramdisk environment, using same pathnames than what they
++    # will be at runtime may ease the task.
++    if [ -d "${dir}" ] && grep -q "^/[^ ]\+ ${dir} " /proc/mounts; then
++        dev="$(device_id_of_file ${dir})"
++    else
++        # overlayfs mountpoint has been set at boottime (within the initrd env)
++        # and the value of 'lowerdir' found in /proc/mounts is obsolete. There
++        # is no safe way to know the current and actual lowerdir mountpoint. We
++        # have to assume some arbitrary conditions to take a chance to find the
++        # underlying device. This depends on arbtrary paths used in initrd
++        # scripts (tested with live-boot 5.0~a1-1 - experimental)
++        # First fallback: rely on the lowerdir's basename
++        dir="$(grep '^/' /proc/mounts | sed -e 's|^[^ ]\+ \([^ ]\+\) .*|\1|' | grep "/${dir##*/}$")"
++        if [ -d "${dir}" ]; then
++            dev="$(device_id_of_file ${dir})"
+         fi
+-    done
+-    return 1
++    fi
++    case "${dev}" in
++        "")
++            ;;
++        0:*)
++            dev="$(underlying_device_from_file "${dir}")"
++            ;;
++        *)
++            dev="$(device_node_from_major_minor "${dev}")"
++            ;;
++    esac
++
++    [ -b "${dev}" ] && readlink -f "${dev}"
++}
++# ===========================================================================}}}
++# underlying_device_from_btrfs() ============================================{{{
++# What we want is: output the underlying device of a btrfs mountpoint given as
++# argument. Such filesystems are not directly mapped to the block device they
++# are written on: the device ID (major:minor) of a file on btrfs is not the
++# same than the block device itself (say 8:1 for /dev/sda1), but a virtual one
++# (with 0 as the major number).
++underlying_device_from_btrfs() {
++    ${DEBUG} && echo "> underlying_device_from_btrfs $@" >&2
++    local dev="$(grep "^/[^[:blank:]]\+\s${1}\sbtrfs\s" /proc/mounts | sed -e 's|^\([^ ]\+\)\s.*|\1|')"
++    [ -b "${dev}" ] && readlink -f "${dev}"
+ }
+ # ===========================================================================}}}
+ # underlying_device_from_dm() ==============================================={{{
+@@ -490,13 +633,16 @@ underlying_device_from_file() {
+     then
+             # 0 is the major number of all ramfs (tmpfs, devtmpfs, sysfs, proc
+             # and others). If the file is hosted on a such virtual filesystem,
+-            # we encounter an alternative: the file is on aufs and we continue
+-            # after a jump on the real block device under the aufs, or we stop
+-            # here.
++            # we encounter an alternative: the file is on aufs/overlay/btrfs
++            # and we continue after a jump on the real block device under the
++            # aufs/overlay/btrfs, or we stop there.
+             mntpnt="$(find_mountpoint "${1}")"
+             if      is_aufs_mountpoint -q "${mntpnt}"
+             then    dev="$(underlying_device_from_aufs "${mntpnt}")"
+-            else    return 1
++            elif    is_overlay_mountpoint -q "${mntpnt}"
++            then    dev="$(underlying_device_from_overlayfs "${mntpnt}")"
++            elif    is_btrfs_mountpoint -q "${mntpnt}"
++            then    dev="$(underlying_device_from_btrfs "${mntpnt}")"
+             fi
+     else
+             dev="$(device_node_from_major_minor "${id}")"
+@@ -679,37 +825,36 @@ get_aufs_variables() {
+ }
+ # ===========================================================================}}}
+ 
+-# aufs_mountpoints() ========================================================{{{
+-# What we want is: output the mountpoints of all aufs filesystems.
+-aufs_mountpoints() {
+-    ${DEBUG} && echo "> aufs_mountpoints $@" >&2
+-    grep '^[^ ]\+ /[^ ]* aufs .*[, ]si=[0-9a-f]\+[, ].*' /proc/mounts |
+-    sed -e 's,^[^ ]\+ \(/[^ ]*\) aufs .*,\1,'
+-}
+-# ===========================================================================}}}
+-# aufs_readonly_branch() ===================================================={{{
+-# What we want is: output the lower (readonly) branch of an aufs mount point
+-# given as argument.
+-aufs_readonly_branch() {
+-    ${DEBUG} && echo "> aufs_readonly_branch $@" >&2
++# aufs_dirs() ==============================================================={{{
++# What we want is: output all the underlying mountpoints (called branches) an
++# aufs filesystem given as argument is made of.
++aufs_dirs() {
++    ${DEBUG} && echo "> aufs_dirs $@" >&2
+     local   br
+     case  "$(cat /sys/module/aufs/parameters/brs)" in
+         0)
+             for br in $(aufs_dirs_if_brs0 "${1}")
+             do
+-                echo ${br} | grep -q '=r[or]\(+wh\)\?$' &&
+-                echo ${br%\=r*}
++                echo ${br}
+             done
+             ;;
+         *)
+-            for br in $(aufs_si_directory "${1}")/br*
++            for br in $(aufs_si_directory "${1}")/br?
+             do
+-                grep '=r[or]\(+wh\)\?$' ${br} | sed -e 's,=r[or].*,,'
++                cat ${br}
+             done
+             ;;
+     esac
+ }
+ # ===========================================================================}}}
++# aufs_mountpoints() ========================================================{{{
++# What we want is: output the mountpoints of all aufs filesystems.
++aufs_mountpoints() {
++    ${DEBUG} && echo "> aufs_mountpoints $@" >&2
++    grep '^[^ ]\+ /[^ ]* aufs .*[, ]si=[0-9a-f]\+[, ].*' /proc/mounts |
++    sed -e 's,^[^ ]\+ \(/[^ ]*\) aufs .*,\1,'
++}
++# ===========================================================================}}}
+ # aufs_writable_branch() ===================================================={{{
+ # What we want is: output the upper (read-write) branch of an aufs mount point
+ # given as argument.
+@@ -725,7 +870,7 @@ aufs_writable_branch() {
+             done
+             ;;
+         *)
+-            for br in $(aufs_si_directory "${1}")/br*
++            for br in $(aufs_si_directory "${1}")/br?
+             do
+                 grep '=rw\(+nolwh\)\?$' ${br} | sed -e 's,=rw.*,,'
+             done
+@@ -734,6 +879,23 @@ aufs_writable_branch() {
+ }
+ # ===========================================================================}}}
+ 
++# overlay_upperdir() ========================================================{{{
++# What we want is: output the upperdir (writable branch) of an overlayfs mount
++# point given as argument.
++overlay_upperdir() {
++    ${DEBUG} && echo "> overlay_upperdir $@" >&2
++    canonpath $(is_overlay_mountpoint "${1}" | sed -e 's@.*[ ,]upperdir=\([^ ,]\+\).*@\1@ ; s@/\+@/@g')
++}
++# ===========================================================================}}}
++# overlay_workdir() ========================================================={{{
++# What we want is: output the upperdir (writable branch) of an overlayfs mount
++# point given as argument.
++overlay_workdir() {
++    ${DEBUG} && echo "> overlay_workdir $@" >&2
++    canonpath $(is_overlay_mountpoint "${1}" | sed -e 's@.*[ ,]workdir=\([^ ,]\+\).*@\1@ ; s@/\+@/@g')
++}
++# ===========================================================================}}}
++
+ # is_removable() ============================================================{{{
+ # What we want is: check if a whole disk node given as argument is seen as
+ # removable from its sysfs attribute. If yes, this means the disk given as
