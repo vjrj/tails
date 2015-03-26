@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# This information is needed by the Unsafe Browser.
+DEVICE="${1}"
 
 # Run only when the interface is not "lo":
-if [ $1 = "lo" ]; then
+if [ "${DEVICE}" = "lo" ]; then
    exit 0
 fi
 
@@ -12,4 +12,20 @@ if [ $2 != "up" ]; then
    exit 0
 fi
 
-echo "IP4_NAMESERVERS=\"${IP4_NAMESERVERS}\""  > /var/lib/NetworkManager/env
+ENV_FILE="var/lib/NetworkManager/env.${DEVICE} "
+rm -f "${ENV_FILE}"
+
+# The DNS servers are needed by the Unsafe Browser.
+echo "IP4_NAMESERVERS=\"${IP4_NAMESERVERS}\"" >> "${ENV_FILE}"
+
+# The MAC address of the gateway (if any) is needed by 10-tor.sh when
+# down, since IP4_ADDRESS_* isn't set by NetworkManager on down.
+GATEWAY_IP4ADDR="$(echo ${IP4_ADDRESS_0} | cut -d' ' -f2)"
+if [ "${GATEWAY_IP4ADDR}" != "0.0.0.0" ]; then
+    GATEWAY_MACADDR="$(arping -f -I "${DEVICE}" "${GATEWAY_IP4ADDR}" | \
+                           sed --regexp-extended -n \
+                           "s,^Unicast reply from \S+ \[([^]]+)\].*$,\1,p")"
+else
+    GATEWAY_MACADDR=""
+fi
+echo "GATEWAY_MACADDR=\"${GATEWAY_MACADDR}\"" >> "${ENV_FILE}"

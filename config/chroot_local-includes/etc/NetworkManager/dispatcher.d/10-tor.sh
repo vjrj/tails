@@ -1,30 +1,51 @@
 #!/bin/sh
 
+DEVICE="${1}"
+STATE="${2}"
+
 # We don't start Tor automatically so *this* is the time
 # when it is supposed to start.
 
 # Run only when the interface is not "lo":
-if [ $1 = "lo" ]; then
+if [ "${DEVICE}" = "lo" ]; then
    exit 0
 fi
 
-# Run whenever an interface gets "up", not otherwise:
-if [ $2 != "up" ]; then
-   exit 0
-fi
-
-# Import tor_control_setconf(), TOR_LOG
+# Import tor_control_setconf(), TOR_LOG, TOR_DIR, TOR_STATE_FILE
 . /usr/local/lib/tails-shell-library/tor.sh
 
-# Import tails_netconf()
+# Import tails_netconf(), persistence_is_enabled_for()
 . /usr/local/lib/tails-shell-library/tails-greeter.sh
 
 # It's safest that Tor is not running when messing with its logs.
-service tor stop
+if service tor status; then
+    service tor stop
+fi
 
 # We depend on grepping stuff from the Tor log (especially for
 # tordate/20-time.sh), so deleting it seems like a Good Thing(TM).
 rm -f "${TOR_LOG}"
+
+# Now we'll deal with persistent Tor entry guards, restoring them (if
+# any) on 'up' and saving them (if any) on 'down'. We save/restore
+# them per network, identified by the MAC address of the gateway. If
+# no gateway is used, then we use random entry guards.
+if persistence_is_enabled_for "${TOR_DIR}"; then
+    # Import GATEWAY_MACADDR that was set by 00-save-end.sh.
+    . "/var/lib/NetworkManager/env.${DEVICE}"
+    SAVED_TOR_STATE_FILE="${TOR_STATE_FILE}.${GATEWAY_MACADDR}"
+    if [ "${STATE}" = up ]; then
+        rm -f "${TOR_STATE_FILE}"
+        if [ -n "${GATEWAY_MACADDR}" ] && [ -e "${SAVED_TOR_STATE_FILE}" ]; then
+            cp -f "${SAVED_TOR_STATE_FILE}" "${TOR_STATE_FILE}"
+        fi
+    elif [ "${STATE}" = down ]; then
+        if [ -n "${GATEWAY_MACADDR}" ] && [ -e "${TOR_STATE_FILE}" ]; then
+            cp -f "${TOR_STATE_FILE}" "${SAVED_TOR_STATE_FILE}"
+        fi
+        exit 0
+    fi
+fi
 
 # The Tor syscall sandbox is not compatible with managed proxies.
 # We could possibly detect whether the user has configured any such

@@ -5,6 +5,7 @@ TOR_LOG=/var/log/tor/log
 TOR_DIR=/var/lib/tor
 TOR_DESCRIPTORS=${TOR_DIR}/cached-microdescs
 NEW_TOR_DESCRIPTORS=${TOR_DESCRIPTORS}.new
+TOR_STATE_FILE=${TOR_DIR}/state
 
 get_tor_control_port() {
 	sed -n 's/^ControlPort[[:space:]]\+\([[:digit:]]\+\)/\1/p' "${TOR_RC}"
