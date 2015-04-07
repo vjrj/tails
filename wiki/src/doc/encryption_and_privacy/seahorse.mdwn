@@ -1,11 +1,5 @@
 [[!meta title="Manage OpenPGP keys with Seahorse"]]
 
-To start <span class="application">Passwords and Keys</span> choose
-<span class="menuchoice">
-  <span class="guimenu">Applications</span>&nbsp;▸
-  <span class="guisubmenu">Accessories</span>&nbsp;▸
-  <span class="guimenuitem">Password and Keys</span>
-
 <span class="application">Passwords and Keys</span> creates and stores
 security tokens, helping to keep your information secure on your
 computer, and secure when you send information over a network.
@@ -15,6 +9,12 @@ Using <span class="application">Passwords and Keys</span>, you can:
   related passwords, create keyrings.
 * Create and manage PGP keys.
 * Create and manage SSH keys.
+
+To start <span class="application">Passwords and Keys</span> choose
+<span class="menuchoice">
+  <span class="guimenu">Applications</span>&nbsp;▸
+  <span class="guisubmenu">Accessories</span>&nbsp;▸
+  <span class="guimenuitem">Password and Keys</span>
 
 See the
 [official documentation](https://help.gnome.org/users/seahorse/3.4/).
