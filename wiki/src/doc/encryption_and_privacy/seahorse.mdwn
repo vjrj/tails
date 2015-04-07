@@ -1,15 +1,16 @@
 [[!meta title="Manage OpenPGP keys with Seahorse"]]
 
-What?
-Where?
-How?
-Screenshot from official doc?
+To start <span class="application">Passwords and Keys</span> choose
+<span class="menuchoice">
+  <span class="guimenu">Applications</span>&nbsp;▸
+  <span class="guisubmenu">Accessories</span>&nbsp;▸
+  <span class="guimenuitem">Password and Keys</span>
 
-Passwords and Keys creates and stores security tokens, helping to keep
-your information secure on your computer, and secure when you send
-information over a network.
+<span class="application">Passwords and Keys</span> creates and stores
+security tokens, helping to keep your information secure on your
+computer, and secure when you send information over a network.
 
-Using Passwords and Keys, you can:
+Using <span class="application">Passwords and Keys</span>, you can:
 * Copy and save passwords that are difficult to remember. To group
   related passwords, create keyrings.
 * Create and manage PGP keys.
