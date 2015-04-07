@@ -7,7 +7,7 @@ computer, and secure when you send information over a network.
 Using <span class="application">Passwords and Keys</span>, you can:
 * Copy and save passwords that are difficult to remember. To group
   related passwords, create keyrings.
-* Create and manage PGP keys.
+* Create and manage OpenPGP keys.
 * Create and manage SSH keys.
 
 To start <span class="application">Passwords and Keys</span> choose
@@ -17,5 +17,11 @@ To start <span class="application">Passwords and Keys</span> choose
   <span class="guimenuitem">Password and Keys</span>
 
 See the
-[official documentation](https://help.gnome.org/users/seahorse/3.4/).
+[official documentation](https://help.gnome.org/users/seahorse/3.4/),
+in particular the parts about:
 
+* [Creating OpenPGP Keys](https://help.gnome.org/users/seahorse/3.4/pgp-generate.html.en)
+* [OpenPGP Key Properties](https://help.gnome.org/users/seahorse/3.4/seahorse-key-properties.html.en)
+* [Importing Keys](https://help.gnome.org/users/seahorse/3.4/import.html.en)
+* [Exporting Keys](https://help.gnome.org/users/seahorse/3.4/export.html.en)
+* [Signing a Key](https://help.gnome.org/users/seahorse/3.4/sign.html.en)
