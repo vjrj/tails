@@ -5,6 +5,7 @@ security tokens, helping to keep your information secure on your
 computer, and secure when you send information over a network.
 
 Using <span class="application">Passwords and Keys</span>, you can:
+
 * Copy and save passwords that are difficult to remember. To group
   related passwords, create keyrings.
 * Create and manage OpenPGP keys.
