@@ -42,7 +42,7 @@ http_proxy="" gpg --keyserver hkps.pool.sks-keyservers.net --recv-key C7988EA7A3
 gpg --export C7988EA7A358D82E | sudo apt-key add -
 
 # Add unstable repository for ikiwiki, and pin it low
-echo 'deb http://ftp.us.debian.org/debian unstable main' > /etc/apt/sources.list.d/unstable.list
+echo 'deb http://httpredir.debian.org/debian unstable main' > /etc/apt/sources.list.d/unstable.list
 sed -e 's/^[[:blank:]]*//' > /etc/apt/preferences.d/unstable <<EOF
 	Package: *
 	Pin: release a=unstable
@@ -56,7 +56,7 @@ EOF
 
 # Add wheezy-backports for apt-cacher-ng. The version in wheezy has problems
 # with redirects to https, which we need when fetching the TBB tarballs
-echo 'deb http://ftp.us.debian.org/debian wheezy-backports main' > /etc/apt/sources.list.d/wheezy-backports.list
+echo 'deb http://httpredir.debian.org/debian wheezy-backports main' > /etc/apt/sources.list.d/wheezy-backports.list
 
 apt-get update
 apt-get -o Dpkg::Options::="--force-confold" -y -t wheezy-backports install apt-cacher-ng
