@@ -203,7 +203,7 @@ Pin: release o=Debian,a=experimental
 Pin-Priority: 999
 
 Package: live-boot*
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: mat
