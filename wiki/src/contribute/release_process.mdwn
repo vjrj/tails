@@ -123,7 +123,6 @@ Then see the relevant release processes:
 * [[perl5lib]]
 * [[persistence-setup]]
 * [[tails-iuk]]
-* [[Torbutton]]
 * whisperback:
   * follow [upstream release process](https://git-tails.immerda.ch/whisperback/plain/HACKING)
   * build a Debian package
@@ -133,11 +132,6 @@ Upgrade Tor Browser
 -------------------
 
 See the dedicated page: [[tor-browser]]
-
-Upgrade Tor Launcher
---------------------
-
-(Not documented.)
 
 Update PO files
 ---------------
@@ -699,6 +693,12 @@ to be released in `inc/*`:
 	  cut -f 1 -d ' ' | tr -d '\n' \
 	  > "$RELEASE_CHECKOUT/wiki/src/inc/stable_i386_hash.html"
 
+Update the size of the ISO image in `inc/*`:
+
+	LC_NUMERIC=C ls -l --si $ISOS/tails-i386-$VERSION/tails-i386-$VERSION.iso | \
+	  cut -f 5 -d ' ' | sed -r 's/(.+)([MG])/\1 \2B/' | tr -d '\n' \
+	  > "$RELEASE_CHECKOUT/wiki/src/inc/stable_i386_iso_size.html"
+
 Update the [[support/known_issues]] page:
 
 - Add regressions brought by the new release.
@@ -798,7 +798,12 @@ Push
 
 ### Git
 
-Push the last commits to our Git repository:
+If preparing a release candidate, just push the `master` branch:
+
+    git push origin master
+
+If preparing an actual release, push the last commits to our Git
+repository like this:
 
 	( cd "$RELEASE_CHECKOUT" && git push ) && \
 	( cd "$MASTER_CHECKOUT" && git fetch && git merge "$RELEASE_BRANCH" && git push )
