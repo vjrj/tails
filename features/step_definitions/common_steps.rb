@@ -242,9 +242,19 @@ Given /^the computer (re)?boots Tails$/ do |reboot|
   activate_filesystem_shares
 end
 
-Given /^I log in to a new session$/ do
+Given /^I log in to a new session(?: in )?(|German)$/ do |lang|
   next if @skip_steps_while_restoring_background
-  @screen.wait_and_click('TailsGreeterLoginButton.png', 10)
+  case lang
+  when 'German'
+    @language = "German"
+    @screen.wait_and_click('TailsGreeterLanguage.png', 10)
+    @screen.wait_and_click("TailsGreeterLanguage#{@language}.png", 10)
+    @screen.wait_and_click("TailsGreeterLoginButton#{@language}.png", 10)
+  when ''
+    @screen.wait_and_click('TailsGreeterLoginButton.png', 10)
+  else
+    raise "Unsupported language: #{lang}"
+  end
 end
 
 Given /^I enable more Tails Greeter options$/ do
@@ -278,20 +288,24 @@ Given /^Tails Greeter has dealt with the sudo password$/ do
   }
 end
 
-Given /^GNOME has started$/ do
+Given /^the Tails desktop is ready$/ do
   next if @skip_steps_while_restoring_background
   case @theme
   when "windows"
     desktop_started_picture = 'WindowsStartButton.png'
   else
-    desktop_started_picture = 'GnomeApplicationsMenu.png'
+    desktop_started_picture = "GnomeApplicationsMenu#{@language}.png"
+    # We wait for the Florence icon to be displayed to ensure reliable systray icon clicking.
+    # By this point the only icon left is Vidalia and it will not cause the other systray
+    # icons to shift positions.
+    @screen.wait("GnomeSystrayFlorence.png", 60)
   end
   @screen.wait(desktop_started_picture, 180)
 end
 
 Then /^Tails seems to have booted normally$/ do
   next if @skip_steps_while_restoring_background
-  step "GNOME has started"
+  step "the Tails desktop is ready"
 end
 
 When /^I see the 'Tor is ready' notification$/ do
@@ -334,7 +348,7 @@ Given /^the Tor Browser has started$/ do
     tor_browser_picture = "TorBrowserWindow.png"
   end
 
-  @screen.wait_for_gnome_window(tor_browser_picture, 60)
+  @screen.wait(tor_browser_picture, 60)
 end
 
 Given /^the Tor Browser has started and loaded the (startup page|Tails roadmap)$/ do |page|
@@ -514,7 +528,7 @@ end
 
 When /^I warm reboot the computer$/ do
   next if @skip_steps_while_restoring_background
-  @vm.spawn("reboot")
+  @vm.execute("reboot")
 end
 
 When /^I request a reboot using the emergency shutdown applet$/ do
@@ -621,7 +635,7 @@ def xul_app_shared_lib_check(pid, chroot)
                  ". /usr/local/lib/tails-shell-library/tor-browser.sh; " +
                  "ls -1 #{chroot}${TBB_INSTALL}/*.so"
                                       ).stdout.split
-  firefox_pmap_info = @vm.execute("pmap --show-path #{pid}").stdout
+  firefox_pmap_info = @vm.execute("pmap #{pid}").stdout
   for lib in tbb_libs do
     lib_name = File.basename lib
     if not /\W#{lib}$/.match firefox_pmap_info
@@ -693,27 +707,25 @@ EOF
   con_content.split("\n").each do |line|
     @vm.execute("echo '#{line}' >> /tmp/NM.#{con_name}")
   end
-  con_file = "/etc/NetworkManager/system-connections/#{con_name}"
-  @vm.execute("install -m 0600 '/tmp/NM.#{con_name}' '#{con_file}'")
-  @vm.execute_successfully("nmcli connection load '#{con_file}'")
+  @vm.execute("install -m 0600 '/tmp/NM.#{con_name}' '/etc/NetworkManager/system-connections/#{con_name}'")
   try_for(10) {
-    nm_con_list = @vm.execute("nmcli --terse --fields NAME connection show").stdout
+    nm_con_list = @vm.execute("nmcli --terse --fields NAME con list").stdout
     nm_con_list.split("\n").include? "#{con_name}"
   }
 end
 
 Given /^I switch to the "([^"]+)" NetworkManager connection$/ do |con_name|
   next if @skip_steps_while_restoring_background
-  @vm.execute("nmcli connection up id #{con_name}")
+  @vm.execute("nmcli con up id #{con_name}")
   try_for(60) {
-    @vm.execute("nmcli --terse --fields NAME,STATE connection show").stdout.chomp.split("\n").include?("#{con_name}:activated")
+    @vm.execute("nmcli --terse --fields NAME,STATE con status").stdout.chomp == "#{con_name}:activated"
   }
 end
 
 When /^I start and focus GNOME Terminal$/ do
   next if @skip_steps_while_restoring_background
-  step 'I start "Terminal" via the GNOME "Utilities" applications menu'
-  @screen.wait('GnomeTerminalWindow.png', 20)
+  step 'I start "Terminal" via the GNOME "Accessories" applications menu'
+  @screen.wait_and_click('GnomeTerminalWindow.png', 20)
 end
 
 When /^I run "([^"]+)" in GNOME Terminal$/ do |command|
@@ -773,6 +785,15 @@ Given /^the USB drive "([^"]+)" contains Tails with persistence configured and p
     step "I shutdown Tails and wait for the computer to power off"
 end
 
+def gnome_app_menu_click_helper(click_me, verify_me = nil)
+  try_for(60) do
+    @screen.hide_cursor
+    @screen.wait_and_click(click_me, 10)
+    @screen.wait(verify_me, 10) if verify_me
+    return
+  end
+end
+
 Given /^I start "([^"]+)" via the GNOME "([^"]+)" applications menu$/ do |app, submenu|
   next if @skip_steps_while_restoring_background
   case @theme
@@ -781,12 +802,12 @@ Given /^I start "([^"]+)" via the GNOME "([^"]+)" applications menu$/ do |app, s
   else
     prefix = 'Gnome'
   end
-  @screen.wait_and_click(prefix + "ApplicationsMenu.png", 10)
-  # Wait for the menu to be displayed, by waiting for one of its last entries
-  @screen.wait(prefix + "ApplicationsTails.png", 40)
-  @screen.wait_and_hover(prefix + "Applications" + submenu + ".png", 40)
-  @screen.hide_cursor
-  @screen.wait_and_click(prefix + "Applications" + app + ".png", 40)
+  menu_button = prefix + "ApplicationsMenu.png"
+  sub_menu_entry = prefix + "Applications" + submenu + ".png"
+  application_entry = prefix + "Applications" + app + ".png"
+  gnome_app_menu_click_helper(menu_button, sub_menu_entry)
+  gnome_app_menu_click_helper(sub_menu_entry, application_entry)
+  gnome_app_menu_click_helper(application_entry)
 end
 
 Given /^I start "([^"]+)" via the GNOME "([^"]+)"\/"([^"]+)" applications menu$/ do |app, submenu, subsubmenu|
@@ -797,15 +818,14 @@ Given /^I start "([^"]+)" via the GNOME "([^"]+)"\/"([^"]+)" applications menu$/
   else
     prefix = 'Gnome'
   end
-  @screen.wait_and_click(prefix + "ApplicationsMenu.png", 10)
-  @screen.hide_cursor
-  # Wait for the menu to be displayed, by waiting for one of its last entries
-  @screen.wait(prefix + "ApplicationsTails.png", 40)
-  @screen.wait_and_hover(prefix + "Applications" + submenu + ".png", 20)
-  @screen.hide_cursor
-  @screen.wait_and_hover(prefix + "Applications" + subsubmenu + ".png", 20)
-  @screen.hide_cursor
-  @screen.wait_and_click(prefix + "Applications" + app + ".png", 20)
+  menu_button = prefix + "ApplicationsMenu.png"
+  sub_menu_entry = prefix + "Applications" + submenu + ".png"
+  sub_sub_menu_entry = prefix + "Applications" + subsubmenu + ".png"
+  application_entry = prefix + "Applications" + app + ".png"
+  gnome_app_menu_click_helper(menu_button, sub_menu_entry)
+  gnome_app_menu_click_helper(sub_menu_entry, sub_sub_menu_entry)
+  gnome_app_menu_click_helper(sub_sub_menu_entry, application_entry)
+  gnome_app_menu_click_helper(application_entry)
 end
 
 When /^I type "([^"]+)"$/ do |string|
