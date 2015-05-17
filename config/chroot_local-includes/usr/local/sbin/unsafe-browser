@@ -102,11 +102,11 @@ NAMESERVERS_REGEX="^IP4_NAMESERVERS=\"(${IP4_REGEX}( ${IP4_REGEX})*)?\"$"
 ALL_IP4_NAMESERVERS=""
 for env_file in /var/lib/NetworkManager/env.*; do
     if [ -r "${env_file}" ]; then
-        if grep --extended-regexp -qv "${NAMESERVERS_REGEX}" "${NM_ENV_FILE}"; then
+        if grep --extended-regexp -qv "${NAMESERVERS_REGEX}" "${env_file}"; then
             error "`gettext \"NetworkManager passed us garbage data when trying to deduce the clearnet DNS server.\"`"
         fi
         # Import the IP4_NAMESERVERS variable.
-        eval "$(grep --extended-regexp "${NAMESERVERS_REGEX}" "${NM_ENV_FILE}")"
+        eval "$(grep --extended-regexp "${NAMESERVERS_REGEX}" "${env_file}")"
         if [ -n "${IP4_NAMESERVERS}" ]; then
             ALL_IP4_NAMESERVERS="${ALL_IP4_NAMESERVERS} ${IP4_NAMESERVERS}"
         fi
