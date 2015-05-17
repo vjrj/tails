@@ -4,6 +4,8 @@ tails-greeter
 tails-iuk
 tails-persistence-setup
 whisperback
+# deterministic builds
+faketime
 # profiling => squashfs optimization
 python-pyinotify
 # contains mkpasswd, needed in chroot_local-hooks/01-password
