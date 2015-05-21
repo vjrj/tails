@@ -8,7 +8,7 @@ include Test::Unit::Assertions
 def assert_vmcommand_success(p, msg = nil)
   assert(p.success?, msg.nil? ? "Command failed: #{p.cmd}\n" + \
                                 "error code: #{p.returncode}\n" \
-                                "stderr: #{p.stderr}" : \
+                                "stderr: #{p.stderr}" : \ # XXX: and stdout?!
                                 msg)
 end
 

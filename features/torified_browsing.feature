@@ -6,6 +6,8 @@ Feature: Browsing the web using the Tor Browser
 
   Background:
     Given a computer
+    # XXX
+    And the computer has 4 GiB of RAM
     And I start the computer
     And the computer boots Tails
     And I log in to a new session
@@ -13,7 +15,28 @@ Feature: Browsing the web using the Tor Browser
     And Tor is ready
     And available upgrades have been checked
     And all notifications have disappeared
+    # XXX
+    And I set up the TBB test suite environment
     And I save the state so the background can be restored next scenario
+
+  Scenario: Selected bits of she TBB test suite pass
+    # When I set up the TBB test suite environment
+    And I disable Tails' firewall
+    Then the acid3 Mozmill test passes
+    And  the dom-objects-enumeration Mozmill test passes
+    And  the https-everywhere Mozmill test passes
+    And  the navigation-timing Mozmill test passes
+    And  the resource-timing Mozmill test passes
+    And  the screenshots Mozmill test passes
+    And  all Selenium tests pass
+    ## XXX: expects that the Perl test driver has disabled HTTPS Everywhere
+    # And  the https-everywhere-disabled Mozmill test passes
+    ## XXX: following tests need a file created by the Perl test driver
+    # And  the noscript Mozmill test passes
+    # And  the settings Mozmill test passes
+    # And  the slider_settings Mozmill test passes
+    # And  the test_page Mozmill test passes
+    # And  the searchengines Mozmill test passes
 
   Scenario: The Tor Browser directory is usable
     Then the amnesiac Tor Browser directory exists
