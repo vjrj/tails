@@ -1004,3 +1004,11 @@ When /^I accept to import the key with Seahorse$/ do
   next if @skip_steps_while_restoring_background
   @screen.wait_and_click("TorBrowserOkButton.png", 10)
 end
+
+When /^I do nothing$/ do
+  next
+end
+
+When /^I raise an exception$/ do
+  raise "An exception"
+end
