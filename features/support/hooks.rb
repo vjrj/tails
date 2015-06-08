@@ -188,3 +188,24 @@ end
 at_exit do
   delete_all_snapshots if !KEEP_SNAPSHOTS
 end
+
+require 'cucumber/ast/scenario'
+class Cucumber::Ast::Scenario
+  def force_pass!
+    @exception = nil
+    steps.each { |step_invocation| step_invocation.status!(:passed) }
+  end
+end
+
+class TestShouldFail < RuntimeError
+end
+
+After('@expected_failure') do |scenario|
+  case scenario.status
+  when :passed
+    raise(TestShouldFail.new("This scenario was expected to fail " +
+                             "(it is tagged @expected_failure)"))
+  when :failed
+    scenario.force_pass!
+  end
+end
