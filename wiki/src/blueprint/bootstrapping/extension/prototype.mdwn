@@ -1,5 +1,7 @@
 [[!meta title="Download and verify"]]
 
+<div id="extension-version">1.0</div>
+
 <div id="undetected-browser">
   <p>We failed to detect your browser vendor, maybe because JavaScript is disabled.</p>
   <p>You can download and verify the ISO image via:</p>
@@ -9,7 +11,7 @@
       <p>(for Firefox, Tor Browser, or Chrome)</p>
       <a href="">I'm already in Firefox or Tor Broswer</a>
       <a href="">I'm already in Chrome</a>
-      <p>Or copy and paste this link n Firefox, Tor Browser, or Chrome:</p>
+      <p>Or copy and paste this link in Firefox, Tor Browser, or Chrome:</p>
       <p>https://tails.boum.org/download</p>
     </li>
     <li class="bittorrent">
@@ -122,10 +124,10 @@
       <a href="">Next <span>Copy ISO image on first USB stick</span></a>
     </div>
     <div id="verify-text-failure">
-      <p>The verification of ISO image failed! Please try to download again&hellip;</p>
+      <p>The verification of the ISO image failed! Please try to download again&hellip;</p>
     </div>
     <div id="verify-text-failure-again">
-      <p>The verification of ISO image failed again! Please try to download again from a different place or a different computer&hellip;</p>
+      <p>The verification of the ISO image failed again! Please try to download again from a different place or a different computer&hellip;</p>
     </div>
   </div>
 </div>
