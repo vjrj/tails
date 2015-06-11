@@ -34,6 +34,14 @@ Package: cryptsetup-bin
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
 
+Package: eatmydata
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
+Package: libeatmydata1
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
 Package: electrum
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
@@ -282,6 +290,10 @@ Pin-Priority: 1005
 Package: *
 Pin: release o=Debian,n=wheezy-updates
 Pin-Priority: 990
+
+Package: *
+Pin: release o=Debian,n=jessie-updates
+Pin-Priority: 500
 
 Package: *
 Pin: release o=Debian,n=wheezy

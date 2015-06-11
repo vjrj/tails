@@ -37,6 +37,17 @@ def deactivate_filesystem_shares
   #end
 end
 
+def notification_helper(notification_image, time_to_wait)
+  # notifiction-daemon may abort during start-up, causing the tests that look for
+  # desktop notifications to fail (ticket #8686)
+  begin
+    @screen.wait(notification_image, time_to_wait)
+  rescue FindFailed => e
+    step 'process "notification-daemon" is running'
+    raise e
+  end
+end
+
 def restore_background
   @vm.restore_snapshot($background_snapshot)
   @vm.wait_until_remote_shell_is_up
@@ -242,7 +253,7 @@ Given /^the computer (re)?boots Tails$/ do |reboot|
   @screen.type(Sikuli::Key.TAB)
   @screen.waitVanish(bootsplash_tab_msg, 1)
 
-  @screen.type(" autotest_never_use_this_option #{@boot_options}" +
+  @screen.type(" autotest_never_use_this_option blacklist=psmouse #{@boot_options}" +
                Sikuli::Key.ENTER)
   @screen.wait('TailsGreeter.png', 30*60)
   @vm.wait_until_remote_shell_is_up
@@ -317,7 +328,7 @@ end
 
 When /^I see the 'Tor is ready' notification$/ do
   next if @skip_steps_while_restoring_background
-  @screen.wait("GnomeTorIsReady.png", 300)
+  notification_helper('GnomeTorIsReady.png', 300)
   @screen.waitVanish("GnomeTorIsReady.png", 15)
 end
 
@@ -358,7 +369,7 @@ Given /^the Tor Browser has started$/ do
   @screen.wait(tor_browser_picture, 60)
 end
 
-Given /^the Tor Browser has started and loaded the (startup page|Tails roadmap)$/ do |page|
+Given /^the Tor Browser (?:has started and )?load(?:ed|s) the (startup page|Tails roadmap)$/ do |page|
   next if @skip_steps_while_restoring_background
   case page
   when "startup page"
@@ -555,6 +566,18 @@ end
 When /^I start the Tor Browser$/ do
   next if @skip_steps_while_restoring_background
   step 'I start "TorBrowser" via the GNOME "Internet" applications menu'
+end
+
+When /^I request a new identity using Torbutton$/ do
+  next if @skip_steps_while_restoring_background
+  @screen.wait_and_click('TorButtonIcon.png', 30)
+  @screen.wait_and_click('TorButtonNewIdentity.png', 30)
+end
+
+When /^I acknowledge Torbutton's New Identity confirmation prompt$/ do
+  next if @skip_steps_while_restoring_background
+  @screen.wait('GnomeQuestionDialogIcon.png', 30)
+  step 'I type "y"'
 end
 
 When /^I start the Tor Browser in offline mode$/ do
