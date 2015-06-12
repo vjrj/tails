@@ -147,67 +147,67 @@ Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
 
 Package: linux-base
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: linux-compiler-gcc-4.8-x86
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: linux-headers-586
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: linux-headers-686-pae
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: linux-headers-amd64
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-3.19.0-trunk-common
-Pin: release o=Debian,a=experimental
+Package: linux-headers-4.0.0-2-common
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-3.19.0-trunk-586
-Pin: release o=Debian,a=experimental
+Package: linux-headers-4.0.0-2-586
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-3.19.0-trunk-686-pae
-Pin: release o=Debian,a=experimental
+Package: linux-headers-4.0.0-2-686-pae
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-3.19.0-trunk-amd64
-Pin: release o=Debian,a=experimental
+Package: linux-headers-4.0.0-2-amd64
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: linux-image-586
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: linux-image-686-pae
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: linux-image-amd64
-Pin: release o=Debian,a=experimental
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-3.19.0-trunk-586
-Pin: release o=Debian,a=experimental
+Package: linux-image-4.0.0-2-586
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-3.19.0-trunk-686-pae
-Pin: release o=Debian,a=experimental
+Package: linux-image-4.0.0-2-686-pae
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-3.19.0-trunk-amd64
-Pin: release o=Debian,a=experimental
+Package: linux-image-4.0.0-2-amd64
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-kbuild-3.19
-Pin: release o=Debian,a=experimental
+Package: linux-kbuild-4.0
+Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
 Package: live-boot*
