@@ -66,6 +66,10 @@ Package: linux-compiler-gcc-4.8-x86
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
+Package: linux-compiler-gcc-4.9-x86:amd64
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
 Package: linux-headers-586
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
