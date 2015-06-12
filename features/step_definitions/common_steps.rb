@@ -336,6 +336,8 @@ Given /^Tor is ready$/ do
   next if @skip_steps_while_restoring_background
   step "Tor has built a circuit"
   step "the time has synced"
+  assert(@vm.execute('systemctl is-system-running').success?,
+         'At least one system service failed to start.')
 end
 
 Given /^Tor has built a circuit$/ do
@@ -366,7 +368,7 @@ Given /^the Tor Browser has started$/ do
     tor_browser_picture = "TorBrowserWindow.png"
   end
 
-  @screen.wait(tor_browser_picture, 60)
+  @screen.wait_for_gnome_window(tor_browser_picture, 60)
 end
 
 Given /^the Tor Browser (?:has started and )?load(?:ed|s) the (startup page|Tails roadmap)$/ do |page|
@@ -546,7 +548,7 @@ end
 
 When /^I warm reboot the computer$/ do
   next if @skip_steps_while_restoring_background
-  @vm.execute("reboot")
+  @vm.spawn("reboot")
 end
 
 When /^I request a reboot using the emergency shutdown applet$/ do
@@ -665,7 +667,7 @@ def xul_app_shared_lib_check(pid, chroot)
                  ". /usr/local/lib/tails-shell-library/tor-browser.sh; " +
                  "ls -1 #{chroot}${TBB_INSTALL}/*.so"
                                       ).stdout.split
-  firefox_pmap_info = @vm.execute("pmap #{pid}").stdout
+  firefox_pmap_info = @vm.execute("pmap --show-path #{pid}").stdout
   for lib in tbb_libs do
     lib_name = File.basename lib
     if not /\W#{lib}$/.match firefox_pmap_info
@@ -737,25 +739,27 @@ EOF
   con_content.split("\n").each do |line|
     @vm.execute("echo '#{line}' >> /tmp/NM.#{con_name}")
   end
-  @vm.execute("install -m 0600 '/tmp/NM.#{con_name}' '/etc/NetworkManager/system-connections/#{con_name}'")
+  con_file = "/etc/NetworkManager/system-connections/#{con_name}"
+  @vm.execute("install -m 0600 '/tmp/NM.#{con_name}' '#{con_file}'")
+  @vm.execute_successfully("nmcli connection load '#{con_file}'")
   try_for(10) {
-    nm_con_list = @vm.execute("nmcli --terse --fields NAME con list").stdout
+    nm_con_list = @vm.execute("nmcli --terse --fields NAME connection show").stdout
     nm_con_list.split("\n").include? "#{con_name}"
   }
 end
 
 Given /^I switch to the "([^"]+)" NetworkManager connection$/ do |con_name|
   next if @skip_steps_while_restoring_background
-  @vm.execute("nmcli con up id #{con_name}")
+  @vm.execute("nmcli connection up id #{con_name}")
   try_for(60) {
-    @vm.execute("nmcli --terse --fields NAME,STATE con status").stdout.chomp == "#{con_name}:activated"
+    @vm.execute("nmcli --terse --fields NAME,STATE connection show").stdout.chomp.split("\n").include?("#{con_name}:activated")
   }
 end
 
 When /^I start and focus GNOME Terminal$/ do
   next if @skip_steps_while_restoring_background
-  step 'I start "Terminal" via the GNOME "Accessories" applications menu'
-  @screen.wait_and_click('GnomeTerminalWindow.png', 20)
+  step 'I start "Terminal" via the GNOME "Utilities" applications menu'
+  @screen.wait('GnomeTerminalWindow.png', 20)
 end
 
 When /^I run "([^"]+)" in GNOME Terminal$/ do |command|
@@ -832,7 +836,7 @@ end
 
 def gnome_app_menu_click_helper(click_me, verify_me = nil)
   try_for(60) do
-    @screen.hide_cursor
+#    @screen.hide_cursor
     @screen.wait_and_click(click_me, 10)
     @screen.wait(verify_me, 10) if verify_me
     return

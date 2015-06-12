@@ -354,7 +354,10 @@ language. You *really* have to reboot between each language.
 * Check that Tails Greeter's "more options" screen displays properly
   on a display with 600 px height, preferably in a language that's
   more verbose than English (e.g. French).
-* Check that all seems well during init (mostly that all services
-  start without errors), and that `/var/log/syslog` seems OK.
+* `sudo systemctl is-system-running` should print `running`
+  (automate: [[!tails_ticket 8262]])
+* Check that all seems well during init:
+  - `systemctl --failed --all` should say `0 loaded units listed`
+  - the output of `journalctl` should seem OK.
 * MAT should be able to clean a PDF file, such as:
   <http://examples.itextpdf.com/results/part3/chapter12/pdf_metadata.pdf>

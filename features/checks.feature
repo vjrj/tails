@@ -10,13 +10,10 @@ Feature: Various checks
     Then AppArmor is enabled
     And some AppArmor profiles are enforced
 
-  Scenario: GNOME Screenshot has a sane default save directory
-    Then GNOME Screenshot is configured to save files to the live user's home directory
-
-  Scenario: GNOME Screenshot takes a screenshot when the PRINTSCREEN key is pressed
-    Given there is no screenshot in the live user's home directory
+  Scenario: A screenshot is taken when the PRINTSCREEN key is pressed
+    Given there is no screenshot in the live user's Pictures directory
     When I press the "PRINTSCREEN" key
-    Then a screenshot is saved to the live user's home directory
+    Then a screenshot is saved to the live user's Pictures directory
 
   Scenario: VirtualBox guest modules are available
     When Tails has booted a 64-bit kernel
@@ -37,7 +34,7 @@ Feature: Various checks
 
   Scenario: The live user is setup correctly
     Then the live user has been setup by live-boot
-    And the live user is a member of only its own group and "audio cdrom dialout floppy video plugdev netdev fuse scanner lp lpadmin vboxsf"
+    And the live user is a member of only its own group and "audio cdrom dialout floppy video plugdev netdev scanner lp lpadmin vboxsf"
     And the live user owns its home dir and it has normal permissions
 
   Scenario: No initial network

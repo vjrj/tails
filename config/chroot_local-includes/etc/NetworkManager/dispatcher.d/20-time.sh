@@ -213,6 +213,9 @@ is_clock_way_off() {
 start_notification_helper() {
 	export DISPLAY=':0.0'
 	export XAUTHORITY="$(echo /var/run/gdm3/auth-for-$LIVE_USERNAME-*/database)"
+	GNOME_SHELL_PID="$(pgrep --newest --euid ${LIVE_USERNAME} gnome-shell)"
+	export "$(tr '\0' '\n' < /proc/${GNOME_SHELL_PID}/environ | \
+		grep '^DBUS_SESSION_BUS_ADDRESS=')"
 	exec /bin/su -c /usr/local/bin/tails-htp-notify-user "$LIVE_USERNAME" &
 }
 
@@ -257,5 +260,5 @@ fi
 touch $TORDATE_DONE_FILE
 
 log "Restarting htpdate"
-service htpdate restart
+systemctl restart htpdate.service
 log "htpdate service restarted with return code $?"

@@ -22,7 +22,7 @@ done
 # We don't want to start Vidalia if Windows Camouflage is enabled (ticket #7400)
 windows_camouflage_is_enabled && exit 0
 
-until pgrep -u "${LIVE_USERNAME}" "^nm-applet$" >/dev/null ; do
+until pgrep -u "${LIVE_USERNAME}" "^ibus-daemon" >/dev/null ; do
    sleep 5
 done
 

@@ -9,7 +9,7 @@ export TEXTDOMAIN
 TORDATE_DIR=/var/run/tordate
 TORDATE_DONE_FILE="${TORDATE_DIR}/done"
 INOTIFY_TIMEOUT=60
-MIN_MEMFREE=$((125 * 1024))
+MIN_MEMFREE=$((32 * 1024))
 MIN_TOTAL_MEMFREE=$((500 * 1024))
 RUN_AS_USER=tails-upgrade-frontend
 
@@ -59,10 +59,6 @@ See https://tails.boum.org/doc/first_steps/upgrade#manual\"`"
 }
 
 ### Main
-
-while ! sudo -n -u debian-tor /usr/local/sbin/tor-has-bootstrapped ; do
-   sleep 10
-done
 
 sleep 30
 

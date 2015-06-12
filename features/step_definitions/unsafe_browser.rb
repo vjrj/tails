@@ -168,12 +168,12 @@ end
 
 Then /^I cannot configure the Unsafe Browser to use any local proxies$/ do
   next if @skip_steps_while_restoring_background
-  @screen.wait_and_click("UnsafeBrowserWindow.png", 10)
+  @screen.wait_and_click_gnome_window("UnsafeBrowserWindow.png", 10)
   # First we open the proxy settings page to prepare it with the
   # correct open tabs for the loop below.
   @screen.click('UnsafeBrowserMenuButton.png')
   @screen.wait_and_click('UnsafeBrowserPreferencesButton.png', 10)
-  @screen.wait('UnsafeBrowserPreferencesWindow.png', 10)
+  @screen.wait_for_gnome_window('UnsafeBrowserPreferencesWindow.png', 10)
   @screen.wait_and_click('UnsafeBrowserAdvancedSettings.png', 10)
   @screen.wait_and_click('UnsafeBrowserNetworkTab.png', 10)
   sleep 0.5
@@ -199,7 +199,7 @@ Then /^I cannot configure the Unsafe Browser to use any local proxies$/ do
     # Open proxy settings and select manual proxy configuration
     @screen.click('UnsafeBrowserMenuButton.png')
     @screen.wait_and_click('UnsafeBrowserPreferencesButton.png', 10)
-    @screen.wait('UnsafeBrowserPreferencesWindow.png', 10)
+    @screen.wait_for_gnome_window('UnsafeBrowserPreferencesWindow.png', 10)
     @screen.type("e", Sikuli::KeyModifier.ALT)
     @screen.wait('UnsafeBrowserProxySettings.png', 10)
     @screen.type("m", Sikuli::KeyModifier.ALT)
@@ -210,12 +210,10 @@ Then /^I cannot configure the Unsafe Browser to use any local proxies$/ do
 
     # Close settings
     @screen.type(Sikuli::Key.ENTER)
-#    @screen.waitVanish('UnsafeBrowserProxySettings.png', 10)
-    sleep 0.5
+    @screen.waitVanish('UnsafeBrowserProxySettings.png', 10)
+    @screen.wait_for_gnome_window('UnsafeBrowserPreferencesWindow.png', 10)
     @screen.type(Sikuli::Key.ESC)
-#    @screen.waitVanish('UnsafeBrowserPreferences.png', 10)
-    sleep 0.5
-
+    @screen.waitVanish('UnsafeBrowserPreferencesWindow.png', 10)
     # Test that the proxy settings work as they should
     step "I open the address \"https://check.torproject.org\" in the Unsafe Browser"
     if proxy_type == no_proxy

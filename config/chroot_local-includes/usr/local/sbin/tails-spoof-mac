@@ -10,9 +10,20 @@ set -e
 . /usr/local/lib/tails-shell-library/log.sh
 . /usr/local/lib/tails-shell-library/tails-greeter.sh
 
+# Get LIVE_USERNAME
+. /etc/live/config.d/username.conf
+
 . /usr/bin/gettext.sh
 TEXTDOMAIN="tails"
 export TEXTDOMAIN
+
+stop_and_disable_NM() {
+   systemctl stop NetworkManager-wait-online.service
+   systemctl stop NetworkManager.service
+   systemctl stop NetworkManager-dispatcher.service
+   systemctl disable NetworkManager-wait-online.service
+   systemctl disable NetworkManager.service
+}
 
 show_notification() {
     # We must wait until all the facilities necessary for showing the
@@ -22,8 +33,7 @@ show_notification() {
     # otherwise pgrep will look at the process name, which seems to be
     # cropped to 15 chars, i.e. "notification-da". Also, we probably
     # do not want to get mixed up with "gdu-notification-daemon".
-    until pgrep gnome-panel >/dev/null && \
-          pgrep --full /usr/lib/notification-daemon/notification-daemon >/dev/null; do
+    until pgrep -u "${LIVE_USERNAME}" '^ibus-daemon' >/dev/null ; do
         sleep 1
     done
     /usr/local/sbin/tails-notify-user "${1}" "${2}" 0
@@ -64,7 +74,7 @@ mac_spoof_panic() {
     unload_module_and_rev_deps "${module}" || :
     if nic_exists "${nic}"; then
         log "Failed to unload module ${module} of NIC ${nic}. Stopping NetworkManager."
-        service network-manager stop
+        stop_and_disable_NM
         notify_panic_failure "${nic}" "${nic_name}" &
     else
         log "Successfully unloaded module ${module} of NIC ${nic}."
@@ -131,7 +141,7 @@ then
         # NetworkManager without notification to do our best to
         # prevent a MAC address leak.
         log "Panic mode failed for NIC ${NIC}. Killing NetworkManager."
-        service network-manager stop
+        stop_and_disable_NM
     fi
     exit 1
 fi

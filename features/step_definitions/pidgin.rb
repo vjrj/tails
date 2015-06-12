@@ -274,6 +274,7 @@ When /^I activate the "([^"]+)" Pidgin account$/ do |account|
   next if @skip_steps_while_restoring_background
   @screen.click("PidginAccount_#{account}.png")
   @screen.type(Sikuli::Key.LEFT + Sikuli::Key.SPACE)
+  step "I close Pidgin's account manager window"
   # wait for the Pidgin to be connecting, otherwise sometimes the step
   # that closes the account management dialog happens before the account
   # is actually enabled

@@ -116,28 +116,22 @@ When /^Tails has booted a 64-bit kernel$/ do
          "Tails has not booted a 64-bit kernel.")
 end
 
-Then /^GNOME Screenshot is configured to save files to the live user's home directory$/ do
+Then /^there is no screenshot in the live user's Pictures directory$/ do
   next if @skip_steps_while_restoring_background
-  home = "/home/#{LIVE_USER}"
-  save_path = @vm.execute_successfully(
-    "gsettings get org.gnome.gnome-screenshot auto-save-directory",
-    LIVE_USER).stdout.chomp.tr("'","")
-  assert_equal("file://#{home}", save_path,
-               "The GNOME screenshot auto-save-directory is not set correctly.")
+  pictures_directory = "/home/#{LIVE_USER}/Pictures"
+  assert(@vm.execute(
+          "find '#{pictures_directory}' -name 'Screenshot*.png' -maxdepth 1"
+        ).stdout.empty?,
+         "Existing screenshots were found in the live user's Pictures directory.")
 end
 
-Then /^there is no screenshot in the live user's home directory$/ do
+Then /^a screenshot is saved to the live user's Pictures directory$/ do
   next if @skip_steps_while_restoring_background
-  home = "/home/#{LIVE_USER}"
-  assert(@vm.execute("find '#{home}' -name 'Screenshot*.png' -maxdepth 1").stdout.empty?,
-         "Existing screenshots were found in the live user's home directory.")
-end
-
-Then /^a screenshot is saved to the live user's home directory$/ do
-  next if @skip_steps_while_restoring_background
-  home = "/home/#{LIVE_USER}"
-  try_for(10, :msg=> "No screenshot was created in #{home}") {
-    !@vm.execute("find '#{home}' -name 'Screenshot*.png' -maxdepth 1").stdout.empty?
+  pictures_directory = "/home/#{LIVE_USER}/Pictures"
+  try_for(10, :msg=> "No screenshot was created in #{pictures_directory}") {
+    !@vm.execute(
+      "find '#{pictures_directory}' -name 'Screenshot*.png' -maxdepth 1"
+    ).stdout.empty?
   }
 end
 
