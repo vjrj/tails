@@ -180,10 +180,6 @@ Package: xserver-xorg-input-evdev
 Pin: release o=Debian,n=jessie
 Pin-Priority: 1006
 
-Package: udev
-Pin: release o=Debian Backports,n=wheezy-backports
-Pin-Priority: 999
-
 Explanation: weirdness in chroot_apt install-binary
 Package: *
 Pin: release o=chroot_local-packages
