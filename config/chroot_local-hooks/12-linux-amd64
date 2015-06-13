@@ -4,5 +4,4 @@ set -e
 
 echo "Installing amd64 Linux kernel"
 
-apt-get --yes update
 apt-get --yes install linux-image-amd64:amd64
