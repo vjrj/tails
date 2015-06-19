@@ -38,8 +38,6 @@ systemctl enable memlockd.service
 
 # Enable our own systemd unit files
 systemctl enable tails-autotest-remote-shell.service
-systemctl enable tails-reconfigure-kexec.service
-systemctl enable tails-reconfigure-memlockd.service
 systemctl enable tails-sdmem-on-media-removal.service
 systemctl enable tails-set-wireless-devices-state.service
 systemctl enable tails-wait-until-tor-has-bootstrapped.service
