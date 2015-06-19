@@ -45,6 +45,15 @@ The [[principles used by the broader Tails
 project|contribute/relationship_with_upstream]] also apply for
 system administration.
 
+<a id="duties"></a>
+
+# Duties during sysadmin shifts
+
+* keep systems up-to-date, reboot them as needed
+* keep backups up-to-date
+* keep Puppet modules up-to-date wrt. upstream changes
+* keep Jenkins plugins up-to-date
+
 <a id="tools"></a>
 
 # Tools
@@ -117,6 +126,18 @@ We use Redmine tickets for public discussion and tasks management:
 * configuration: `tails::gitolite` class in [[!tails_gitweb_repo
   puppet-tails]]
 
+## git-annex
+
+* purpose: host the full history of Tails released images and Tor
+  Browser tarballs
+* access: Tails core developers only
+* tools: [[!debpts git-annex]]
+* configuration:
+  - `tails::git_annex` and `tails::gitolite` classes in
+    [[!tails_gitweb_repo puppet-tails]]
+  - `tails::git_annex::mirror` defined resource in
+    [[!tails_gitweb_repo puppet-tails]]
+
 ## Jenkins
 
 * purpose: continuous integration, e.g. build Tails ISO images from
@@ -130,10 +151,14 @@ We use Redmine tickets for public discussion and tasks management:
     * `jenkins` class in [[!tails_gitweb_repo puppet-jenkins]]
     * `tails::jenkins::master` class in [[!tails_gitweb_repo puppet-tails]]
     * a few Jenkins plugins installed with `jenkins::plugin`
-    * YAML jobs configuration lives in a dedicated Git repository;
-      jenkins-job-builder uses it to configure Jenkins
+    * YAML jobs configuration lives in a
+      [[!tails_gitweb_repo jenkins-jobs desc="dedicated Git repository"]];
+      [Jenkins Job Builder](http://ci.openstack.org/jenkins-job-builder/)
+      uses it to configure Jenkins
   - slaves:
-    * `tails::builder` class in [[!tails_gitweb_repo puppet-tails]]
+    * `tails::builder`, `tails::jenkins::slave`,
+      `tails::jenkins::slave::iso_builder` classes in
+      [[!tails_gitweb_repo puppet-tails]]
     * some configuration in the manifest ([[!tails_ticket 7106]])
   - web server:
     * some configuration in the manifest ([[!tails_ticket 7107]])
@@ -153,7 +178,7 @@ We use Redmine tickets for public discussion and tasks management:
   for testing
 * access: anyone who gets it from
   [BridgeDB](https://bridges.torproject.org/)
-* tools: [[!debpts tor]], [[!debpts obfsproxy]]
+* tools: [[!debpts tor]], [[!debpts obfs4proxy]]
 * configuration:
   - `tails::apt::repository::torproject` in
     [[!tails_gitweb_repo puppet-tails]]

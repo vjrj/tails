@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-05 12:15+0200\n"
+"POT-Creation-Date: 2015-05-11 19:58+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The desktop environment used in Tails is [GNOME 3](https://www.gnome.org)."
+"The desktop environment used in Tails is [GNOME](https://www.gnome.org), "
+"version 3.4 in [Fallback mode](https://help.gnome.org/users/gnome-help/3.4/"
+"fallback-mode.html.en)."
 msgstr ""
 
 #. type: Plain text
@@ -71,6 +73,33 @@ msgstr ""
 msgid "[[!img applications.png link=no alt=\"Applications menu\"]]\n"
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"help\"></a>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"icon\">\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img help-browser.png link=no]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"text\">\n"
+"  <span class=\"guimenuitem\">Help</span>: to access the GNOME Desktop Help choose\n"
+"  <span class=\"menuchoice\">\n"
+"    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">Help</span></span>\n"
+"  </div>\n"
+"</div>\n"
+msgstr ""
+
 #. type: Title ###
 #, no-wrap
 msgid "System Tools submenu"
@@ -84,12 +113,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "Among other utilities, it includes:"
+#, no-wrap
+msgid "<div class=\"next\">\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"By default, any such customization is reset when shutting down Tails. Read "
+"the documentation on [[persistence|persistence]] to learn which "
+"configuration can be made persistent across separate working sessions."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<div class=\"icon\">\n"
+msgid "</div>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Among other utilities, it includes:"
 msgstr ""
 
 #. type: Plain text
@@ -183,13 +224,13 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"On the right of these three menu entries, a few shortcuts allow to launch "
-"the most frequently used applications."
+"On the right of these two menu entries, a few shortcuts allow to launch the "
+"most frequently used applications."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img iceweasel.png link=no]]\n"
+msgid "[[!img tor-browser.png link=no]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -204,13 +245,20 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "<a id=\"claws_mail\"></a>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid "[[!img claws-mail.png link=no]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<div class=\"text\"><strong>Claws Mail</strong>: email client</div>\n"
+"<div class=\"text\"><strong>Claws Mail</strong>: email client<br />\n"
+"[[See the corresponding documentation|anonymous_internet/claws_mail]]\n"
+"</div>\n"
 "</div>\n"
 msgstr ""
 
@@ -300,6 +348,28 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid ""
+"<a id=\"florence\"></a>\n"
+"<div class=\"icon\">\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img florence.png link=no]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"text\">\n"
+"<strong>Florence</strong>: virtual keyboard<br/>\n"
+"[[See the corresponding documentation|encryption_and_privacy/virtual_keyboard]]\n"
+"</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid "[[!img gpgApplet-text.png link=no]]\n"
 msgstr ""
 
@@ -325,22 +395,61 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<a id=\"florence\"></a>\n"
+"<a id=\"audio\"></a>\n"
 "<div class=\"icon\">\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img florence.png link=no]]\n"
+msgid "[[!img sound.png link=no]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"text\"><strong>Audio Volume</strong>: control the audio\n"
+"volume</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img power.png link=no]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "<div class=\"text\">\n"
-"<strong>Florence</strong>: virtual keyboard<br/>\n"
-"[[See the corresponding documentation|encryption_and_privacy/virtual_keyboard]]\n"
+"<strong>Power Manager</strong>: information about your battery, if you are using\n"
+"a laptop<br/>\n"
 "</div>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<a id=\"keyboard_layout\"></a>\n"
+"<div class=\"icon\">\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img keyboard-en.png link=no]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img keyboard-de.png link=no]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"text\">\n"
+"<strong>Keyboard Layout</strong>: current keyboard layout<br/>\n"
+"Right-click to configure a different keyboard layout.</div>\n"
 "</div>\n"
 msgstr ""
 
@@ -367,41 +476,6 @@ msgid ""
 "connection<br/>\n"
 "[[See the corresponding documentation|anonymous_internet/networkmanager]]\n"
 "</div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img power.png link=no]]\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"<div class=\"text\">\n"
-"<strong>Power Manager</strong>: information about your battery, if you are using\n"
-"a laptop<br/>\n"
-"</div>\n"
-"</div>\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"<a id=\"audio\"></a>\n"
-"<div class=\"icon\">\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img sound.png link=no]]\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"<div class=\"text\"><strong>Audio Volume</strong>: control the audio\n"
-"volume</div>\n"
 "</div>\n"
 msgstr ""
 
@@ -508,6 +582,11 @@ msgid ""
 "<strong>Report an error</strong>: help you [[troubleshoot|/support]] Tails\n"
 "</div>\n"
 "</div>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"nautilus\"></a>\n"
 msgstr ""
 
 #. type: Title =

@@ -22,41 +22,51 @@ See https://tails.boum.org/.
 
 #}}}
 
-use Carp;
 use Desktop::Notify;
-use Fatal qw( open close );
+use IPC::System::Simple qw{runx};
 use Locale::gettext;
+use Net::DBus::Reactor;
 use POSIX;
 
 ### initialization
 setlocale(LC_MESSAGES, "");
 textdomain("tails");
-my $detected_virt_file='/var/lib/live/detected-virtual-machine';
+
+### callbacks
+
+sub action_cb {
+    my $reactor = shift;
+    system(
+        '/usr/local/bin/tor-browser',
+        'file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html#security'
+    );
+    $reactor->shutdown;
+}
 
 ### main
 
-exit 0 unless -e $detected_virt_file;
+# both 0 and 1 are acceptable exit values:
+#  - 0 means that we're running in a virtualized environment
+#  - 1 means that we're not running in a virtualized environment
+#  - anything else means there is a problem, and runx will throw an exception
+my $exit_value = runx([0, 1], qw{/usr/bin/systemd-detect-virt});
 
-my @detected_virt;
+exit 0 if $exit_value == 1;
 
-open my $detected_virt_file_h, '<', $detected_virt_file;
-while (my $detected_virt = <$detected_virt_file_h>) {
-    chomp $detected_virt;
-    push @detected_virt, $detected_virt;
-}
-close $detected_virt_file_h;
+my $reactor = Net::DBus::Reactor->main;
 
-exit 0 unless @detected_virt;
-
-my $notify = Desktop::Notify->new();
+my $notify  = Desktop::Notify->new();
+$notify->action_callback(sub { action_cb($reactor, @_) });
+$notify->close_callback(sub { $reactor->shutdown; });
 
 my $summary = gettext("Warning: virtual machine detected!");
 my $body    =
-    gettext("Both the host operating system and the virtualization software are able to monitor what you are doing in Tails.")
-    . " "
-    . gettext("<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/virtualization.en.html'>Learn more...</a>")
-    . " "; # Workaround: else the last line of the notification is not displayed
+    gettext("Both the host operating system and the virtualization software are able to monitor what you are doing in Tails.");
 
 $notify->create(summary => $summary,
-                body => $body,
+                body    => $body,
+                actions => { 'moreinfo'  => gettext('Learn more'), },
+                hints   => { 'transient' => 1, },
                 timeout => 0)->show();
+
+$reactor->run;

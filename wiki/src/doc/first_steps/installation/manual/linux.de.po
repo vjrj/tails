@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-25 11:15+0200\n"
+"POT-Creation-Date: 2015-04-04 12:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,28 +37,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<h2 class=\"bullet-number-one\">Install isohybrid</h2>\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Under Debian or Ubuntu the `isohybrid` utility is included in the `syslinux` "
-"package. To install it, you can execute the following command:"
+msgid "<a id=\"step_1\"></a>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    sudo apt-get install syslinux\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "<a id=\"step_2\"></a>\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "<h2 class=\"bullet-number-two\">Find out the device name of the device</h2>\n"
+msgid "<h2 class=\"bullet-number-one\">Find out the device name of the device</h2>\n"
 msgstr ""
 
 #. type: Plain text
@@ -130,7 +114,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "If you are not sure about the device name, you should stop\n"
-"proceeding or <strong>you risk overwriting any hard drive on the\n"
+"proceeding or <strong>you risk overwriting any hard disk on the\n"
 "system</strong>.\n"
 msgstr ""
 
@@ -141,26 +125,29 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a id=\"step_3\"></a>\n"
+msgid "<a id=\"step_2\"></a>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<h2 class=\"bullet-number-three\">Do the copy</h2>\n"
+msgid "<h2 class=\"bullet-number-two\">Do the copy</h2>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<p><strong>All the data on the installed device will be lost.</strong></p>\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Execute the following commands, replacing `[tails.iso]` with the path to the "
 "ISO image that you want to copy and `[device]` with the device name found in "
-"step 2."
+"step 1."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    isohybrid [tails.iso] --entry 4 --type 0x1c\n"
-"    dd if=[tails.iso] of=[device] bs=16M\n"
+msgid "    dd if=[tails.iso] of=[device] bs=16M && sync\n"
 msgstr ""
 
 #. type: Plain text
@@ -170,9 +157,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    isohybrid '/home/amnesia/Desktop/tails-0.6.2.iso' --entry 4 --type 0x1c\n"
-"    dd if='/home/amnesia/Desktop/tails-0.6.2.iso' of=/dev/sdc bs=16M\n"
+msgid "    dd if='/home/amnesia/Desktop/tails-0.6.2.iso' of=/dev/sdc bs=16M && sync\n"
 msgstr ""
 
 #. type: Plain text
@@ -207,7 +192,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<p>Once the command prompt reappears, you can shutdown your computer, and\n"
-"[[start Tails|/download/#start]] from this new device.</p>\n"
+"[[start Tails|start_tails]] from this new device.</p>\n"
 msgstr ""
 
 #. type: Title =
@@ -222,8 +207,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Then double-check the name of the device you found in [[step 2|"
-"linux#step_2]]."
+"Then double-check the name of the device you found in [[step 1|"
+"linux#step_1]]."
 msgstr ""
 
 #. type: Title ###
@@ -241,9 +226,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    isohybrid [tails.iso] --entry 4 --type 0x1c\n"
-"    sudo dd if=[tails.iso] of=[device] bs=16M\n"
+msgid "    sudo dd if=[tails.iso] of=[device] bs=16M && sync\n"
 msgstr ""
 
 #. type: Title ###
@@ -254,5 +237,5 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Then you surely have committed a mistake on the path to the ISO image in "
-"[[step 3|linux#step_3]]."
+"[[step 2|linux#step_2]]."
 msgstr ""

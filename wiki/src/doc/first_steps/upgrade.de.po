@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-25 11:15+0200\n"
+"POT-Creation-Date: 2015-05-09 06:26+0300\n"
 "PO-Revision-Date: 2014-04-14 22:41+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,6 +157,38 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
+"If you missed an upgrade, each upgrade will be installed one after the "
+"other. For exemple, if you have a Tails 1.3 and the current version is "
+"1.3.2, then the upgrade to 1.3.1 will be installed, and after you restart "
+"Tails, the upgrade to 1.3.2 will be installed."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>If you cannot upgrade at startup (for example if you have no network\n"
+"connection by then), you can start <span class=\"application\">Tails\n"
+"Upgrader</span> later by opening a terminal and executing the following\n"
+"command:</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<pre>tails-upgrade-frontend-wrapper</pre>.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/first_steps/upgrade.release_notes\" raw=\"yes\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
 "If an error occurs, the assistant proposes you to read one of the following "
 "pages:"
 msgstr ""
@@ -187,6 +219,11 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Manual upgrade using <span class=\"application\">Tails Installer</span>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "They might also contain <strong>special instructions for upgrading</strong>.\n"
 msgstr ""
 
 #. type: Plain text
@@ -239,11 +276,6 @@ msgstr ""
 msgid ""
 "Like for installing, you need to start <span class=\"application\">Tails\n"
 "Installer</span> from another media than the device that you want to upgrade.\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "<div class=\"tip\">\n"
 msgstr ""
 
 #. type: Plain text

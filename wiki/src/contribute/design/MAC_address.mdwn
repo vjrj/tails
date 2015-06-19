@@ -297,7 +297,7 @@ NetworkManager when MAC spoofing is enabled: [[!tails_ticket 6453]].
 [[Limitation: Only spoof the NIC part of the MAC address|MAC_address#limitation-only-spoof-nic-part]]
 section below.**
 
-The first six bytes of a MAC address determine the Organizationally Unique Identifier
+The first three bytes of a MAC address determine the Organizationally Unique Identifier
 (OUI) which in practice determines the chipset's manufacturer, who
 generally owns several OUIs. Spoofing the OUI part in a way that
 satisfies our threat model is not straightforward because of
@@ -333,7 +333,7 @@ common, consumer oriented hardware.
 
 ## Spoofing the NIC part of the MAC address
 
-The last six bytes of the MAC address are meant to distinguish
+The last three bytes of the MAC address are meant to distinguish
 individual devices among those with the same OUI. These should simply
 be selected at random, with the exception that we never allow it to
 stay the same, even if done in a fair, random way. Theoretically
@@ -345,7 +345,7 @@ much worse.
 # Implementation
 
 The current implementation leaves the OUI part unchanged, and only spoofs the
-last six bytes of any network device's MAC address immediately after
+last three bytes of any network device's MAC address immediately after
 it is added by udev. Furthermore, to deal with potential network leaks
 before the user has chosen whether to enable MAC spoofing or not, the
 addition of network devices is delayed until after Tails Greeter knows
@@ -371,20 +371,22 @@ Scripts:
 
 * [[!tails_gitweb config/chroot_local-includes/usr/local/sbin/tails-unblock-network]]
 
+* [[!tails_gitweb config/chroot_local-includes/lib/systemd/system/tails-unblock-network.service]]
+
 * [[!greeter_gitweb PostLogin.default]] (where `tails-unblock-network`
   is started)
 
 ### Potential for blocking the desktop
 
-The call of `udev settle` may block for up to 120 seconds (the default
+The call of `udevadm settle` may block for up to 120 seconds (the default
 timeout) during Tails Greeter's PostLogin in case of some broken
 hardware and/or crappy udev rules. In other words, the Tails desktop
 may be blocked for this long, without any notification.
 
 If this turns out to be a problem (currently it's only guesswork) we
-could make two `udev settle`:s, one with a short timeout (10 seconds)
+could make two `udevadm settle`:s, one with a short timeout (10 seconds)
 and if it fails we show a notification and optimistically start
-another `udev settle` *in* *a* *sub-shell* so it doesn't block the
+another `udevadm settle` *in* *a* *sub-shell* so it doesn't block the
 Tails desktop from starting any more.
 
 For more, see this sub-thread on tails-dev:
@@ -409,10 +411,19 @@ leaks issue, in addition to other reasons for being discarded:
 * ifupdown hook: A if-pre-up hook would probably work but since we use
   NetworManager the exact behaviour is blurred and not particularly
   well-documented. It doesn't feel robust for this reason.
+  Hence, we disable the macchanger package's built-in way to spoof
+  MAC addresses:
+  [[!tails_gitweb config/chroot_local-patches/disable_macchanger_spoofing.diff]]
 
 * NetworkManager hook: NM doesn't trigger events equivalent to
   if-pre-up, so this isn't possible. See the commented parts in:
-  /etc/NetworkManager/dispatcher.d/01ifupdown
+  `/etc/NetworkManager/dispatcher.d/01ifupdown`. Note that
+  NetworkManager 0.9.10 introduces pre-up hooks, *but* they're used to
+  "allow scripts to execute before NetworkManager announces
+  connectivity to applications" (according to a [blog
+  post](http://blogs.gnome.org/dcbw/2014/06/20/well-build-a-dream-house-of-net/)
+  by Dan William), that is, after network activity (e.g.
+  DHCP requests) has already occurred.
 
 * systemd integration: We don't use this yet.
 
@@ -469,7 +480,7 @@ well-understood. This is probably the main blocker for Tails to switch
 to `macchiato` and dare saying we satisfy the "Spoofing the OUI part
 of the MAC address" requirement from above.
 
-What remains is to only spoof the latter six bytes, the NIC part. We
+What remains is to only spoof the latter three bytes, the NIC part. We
 know it isn't a perfect strategy. The more uncommon the OUI of a
 user's device is, the more it can be used for tracking the user, i.e.
 the more it violates the `AvoidTracking` user goal. At least this
@@ -508,8 +519,8 @@ notify the user when this happens.
 
 Due to lack of hooks into NetworkManager's connection error handling
 we currently use a simple monitoring script that's started when MAC
-spoofing is enabled. It scans syslog for the error message patterns
-from NetworkManager and `wpa_supplicant` expected when the connection
+spoofing is enabled. It scans the NetworkManager unit's journal for
+the error message patterns expected when the connection
 fails due to MAC spoofing. When such a pattern is found, a
 notification is shown to the user, stating that the connection problem
 *may* be MAC spoofing related. Due to the uncertainty and lack of
@@ -524,6 +535,8 @@ when entering the wrong passphrase, so no false positives in that
 Scripts:
 
 * [[!tails_gitweb config/chroot_local-includes/usr/local/sbin/tails-restricted-network-detector]]
+
+* [[!tails_gitweb config/chroot_local-includes/lib/systemd/system/tails-restricted-network-detector.service]]
 
 * [[!greeter_gitweb PostLogin.default]]
   (`tails-restricted-network-detector` started from this script)

@@ -23,9 +23,13 @@ href="http://git-scm.com/documentation">official documentation</a>.</p>
 
 Here are a couple of links to get started with Git:
 
+- An [interactive introduction](https://try.github.io/) to Git
+- [Git basics](https://www.atlassian.com/git/tutorial/git-basics), by Atlassian
+- [Git immersion](http://gitimmersion.com/), a step-by-step introduction
 - Pro Git: [online](http://git-scm.com/book),
   [PDF](https://github.s3.amazonaws.com/media/progit.en.pdf), a book on Git from
-  basic to advanced usage.
+  basic to advanced usage. This book is available in several languages. Among others:
+  [German](http://git-scm.com/book/de), [French](http://git-scm.com/book/fr), [Português](http://git-scm.com/book/pt-br) (Brasil)
 - [OpenHatch Missions: Using Git](https://openhatch.org/missions/git), concrete
   exercises to train yourself in using Git.
 - [Git For Ages 4 And
@@ -43,7 +47,7 @@ Git hosting setup at immerda
 Documentation for our Git hosting setup at immerda:
 
 * [main documentation](https://wiki.immerda.ch/index.php/GitRepositoriesImmerda)
-* [SSL and SSH fingerprints](https://www.immerda.ch/services/certs.html)
+* [SSL and SSH fingerprints](https://www.immerda.ch/infos/certs.html)
 
 Merge policy
 ------------
@@ -53,26 +57,20 @@ See our [[contribute/merge_policy]].
 Caution!
 --------
 
-If you want to commit patches that may be published later, you might
-want to anonymize them a bit; to do so, run the following commands
-in every of your local clones' directories:
-
-	git config user.name 'Tails developers'
-	git config user.email amnesia@boum.org
-
-If you intend to prepare Tails releases, you'll also need to make
+If you intend to prepare Tails releases, you'll need to make
 the development team signing key the default one for Git tags:
 
-	git config user.signingkey 1202821CBE2CD9C1
+	git config user.signingkey A490D0F4D311A4153E2BB7CADBB802B258ACD84F
 
 Creating a new repository
 -------------------------
 
-1. Create a new repository at immerda.
-2. Create a pull-style mirror at repo.or.cz.
+Create a new repository at immerda.
 
 Repositories
 ============
+
+<a id="main-repo"></a>
 
 Main repository
 ---------------
@@ -85,10 +83,24 @@ Anyone can check it out like this:
 
 Developers with write access to the repositories should instead:
 
-	git clone 'ssh://boum_org_amnesia@webmasters.boum.org/~/wiki.git'
+	git clone boum_org_amnesia@webmasters.boum.org:wiki.git
+
+And then, in any case, in your new Git clone's directory:
+
+	git submodule update --init
+
+For more information about our usage of Git submodules, see
+[[the dedicated section|git#submodules]].
 
 We have a [web interface](https://git-tails.immerda.ch/tails/)
 available for the main repository.
+
+### Configuration
+
+Developers with write access to the repositories should:
+
+	git config --global url.tails@git.tails.boum.org:.insteadOf \
+	   https://git-tails.immerda.ch/
 
 ### Branches
 
@@ -163,6 +175,23 @@ any development.
 Please note that the `experimental` branch can be broken, have awful
 security problems and so on. No guarantee, blablabla.
 
+Promotion material
+------------------
+
+This repository contains Tails [[promotion
+material|contribute/how/promote/material]].
+
+Anyone can check it out like this:
+
+	git clone https://git-tails.immerda.ch/promotion-material
+
+Developers with write access to the repositories should instead:
+
+	git clone boum_org_amnesia@webmasters.boum.org:promotion-material.git
+
+We have a [web interface](https://git-tails.immerda.ch/promotion-material/)
+available for the promotion material repository.
+
 <a id="puppet"></a>
 
 Puppet modules
@@ -226,3 +255,25 @@ Unauthenticated access is of the form:
 Developers with write access to the repositories should instead:
 
 	git clone tails@git.tails.boum.org:$REPOSITORY
+
+<a id="submodules"></a>
+
+Submodules
+==========
+
+We use Git submodules to track external repositories from the main
+Tails source tree.
+
+The main practical consequence thereof so far, for most Tails
+contributors, is that one should generally run the following command
+after checking out a branch:
+
+	git submodule update --init
+
+For more information, see:
+
+* the [chapter about
+  submodules](https://git-scm.herokuapp.com/book/en/v2/Git-Tools-Submodules)
+  in the *Pro Git* book;
+* the [`git-submodule(1)`](http://manpages.debian.org/git-submodule)
+  man page.

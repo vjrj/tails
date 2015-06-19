@@ -1,7 +1,8 @@
 [[!meta title="Test suite installation and setup"]]
 
-Until we have a Puppet module to manage this in automated fashion,
-here's how to setup an environment to run our automated test suite.
+Here's how to set up an environment to run our automated test suite.
+Alternatively, you way want to use the `tails::tester` class from the
+[[!tails_gitweb_repo puppet-tails]] Puppet module.
 
 Once you have a working environment, see [[test/usage]].
 
@@ -10,23 +11,41 @@ Once you have a working environment, see [[test/usage]].
 Install dependencies
 ====================
 
-The following packages are necessary on Debian Wheezy, with
-wheezy-backports sources added:
+First of all, one needs a Debian Jessie system with:
 
-    apt-get install git xvfb virt-viewer libsikuli-script-java \
-        libxslt1-dev tcpdump unclutter radvd x11-apps syslinux \
-        libcap2-bin devscripts libvirt-ruby ruby-rspec gawk ntp \
-        ruby-json x11vnc xtightvncviewer ffmpeg libvpx1 dnsmasq-base && \
-    apt-get -t wheezy-backports install qemu-kvm qemu-system-x86 libvirt0 \
-        libvirt-dev libvirt-bin seabios ruby-rjb ruby-packetfu cucumber && \
-    service libvirt-bin restart
+ * the `non-free` APT component enabled;
+ * the official backports repository configured.
+
+The following packages are necessary on Debian Jessie:
+
+    echo -e "Package: *\nPin: release o=Debian,n=jessie\nPin-Priority: 990" \
+        > /etc/apt/preferences.d/Debian_jessie && \
+    apt update && \
+    apt install git i18nspector xvfb virt-viewer libsikuli-script-java \
+        libxslt1-dev tcpdump unclutter radvd x11-apps \
+        libcap2-bin devscripts ruby-libvirt ruby-rspec gawk ntp ovmf \
+        ruby-json x11vnc xtightvncviewer libav-tools \
+        libvpx1 dnsmasq-base openjdk-7-jre ruby-guestfs ruby-net-irc \
+        ruby-test-unit qemu-kvm qemu-system-x86 libvirt0 libvirt-dev \
+        libvirt-daemon-system libvirt-clients seabios ruby-rjb \
+        ruby-packetfu cucumber python-potr/jessie-backports python-jabberbot && \
+    service libvirtd restart
 
 Other requirements
 ==================
 
+Synchronized clock
+------------------
+
 The system running the test suite needs an accurate clock since we
 sync the clock from the host to the Tails guest after a background
 snapshot restore to appease Tor. This is why we installed ntp above.
+
+File permissions
+----------------
+
+The user that runs QEMU (via libvirt) needs read-access at least to
+the content of `features/misc_files/` in the Git checkout.
 
 Special use cases
 =================
@@ -44,6 +63,10 @@ where `$DISPLAY` is the display given to you by `run_test_suite` (often 0):
 
 Running the test suite as a non-root user
 -----------------------------------------
+
+<div class="note">
+This section may not be in tested and working shape.
+</div>
 
 This is entirely possible, but there's some additional configuration
 required. Run the following as `root`:

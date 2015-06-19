@@ -14,7 +14,7 @@
 . /usr/local/lib/tails-shell-library/tor.sh
 
 # Import tails_netconf()
-. /usr/local/lib/tails-shell-library/tails_greeter.sh
+. /usr/local/lib/tails-shell-library/tails-greeter.sh
 
 ### Init variables
 
@@ -100,9 +100,17 @@ wait_for_tor_consensus() {
 }
 
 wait_for_working_tor() {
-	log "Waiting for Tor to be working (i.e. cached descriptors exist)..."
+	local waited=0
+
+	log "Waiting for Tor to be working..."
 	while ! tor_is_working; do
-		inotifywait -q -t ${INOTIFY_TIMEOUT} -e close_write -e moved_to ${TOR_DIR} || log "timeout"
+		if [ "$waited" -lt ${INOTIFY_TIMEOUT} ]; then
+			sleep 2
+			waited=$(($waited + 2))
+		else
+			log "Timed out waiting for Tor to be working"
+			return 1
+		fi
 	done
 	log "Tor is now working."
 }
@@ -205,6 +213,9 @@ is_clock_way_off() {
 start_notification_helper() {
 	export DISPLAY=':0.0'
 	export XAUTHORITY="$(echo /var/run/gdm3/auth-for-$LIVE_USERNAME-*/database)"
+	GNOME_SHELL_PID="$(pgrep --newest --euid ${LIVE_USERNAME} gnome-shell)"
+	export "$(tr '\0' '\n' < /proc/${GNOME_SHELL_PID}/environ | \
+		grep '^DBUS_SESSION_BUS_ADDRESS=')"
 	exec /bin/su -c /usr/local/bin/tails-htp-notify-user "$LIVE_USERNAME" &
 }
 
@@ -249,5 +260,5 @@ fi
 touch $TORDATE_DONE_FILE
 
 log "Restarting htpdate"
-service htpdate restart
+systemctl restart htpdate.service
 log "htpdate service restarted with return code $?"

@@ -231,7 +231,7 @@
 	</pref>
 	<pref name='pidgin'>
 		<pref name='browsers'>
-			<pref name='command' type='path' value='sensible-browser'/>
+			<pref name='manual_command' type='string' value='/usr/local/bin/tor-browser %s'/>
 			<pref name='browser' type='string' value='custom'/>
 			<pref name='place' type='int' value='0'/>
 		</pref>
@@ -334,7 +334,7 @@
 			<pref name='show_incoming_formatting' type='bool' value='0'/>
 			<pref name='minimum_entry_lines' type='int' value='2'/>
 			<pref name='show_timestamps' type='bool' value='1'/>
-			<pref name='show_formatting_toolbar' type='bool' value='0'/>
+			<pref name='show_formatting_toolbar' type='bool' value='1'/>
 			<pref name='placement' type='string' value='last'/>
 			<pref name='placement_number' type='int' value='1'/>
 			<pref name='bgcolor' type='string' value=''/>

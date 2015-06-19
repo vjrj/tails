@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-27 23:45+0300\n"
+"POT-Creation-Date: 2015-04-24 23:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<span class=\"application\">Vidalia</span> allows you to control some of the\n"
-"functionalities of Tor. It is started automatically when an [[Internet\n"
-"connection|networkmanager]] is established.\n"
+"functionalities of Tor. Unless [[first_steps/startup_options/Windows_Camouflage]] is enabled, Vidalia will\n"
+"be started automatically when an [[Internet connection|networkmanager]] is established.\n"
 msgstr ""
 
 #. type: Plain text
@@ -87,7 +87,7 @@ msgstr ""
 msgid ""
 "The <span class=\"application\">Vidalia</span> onion icon sometimes stays yellow\n"
 "even if Tor is already started. If the <span class=\"guilabel\">Tor is\n"
-"ready</span> notification appears or if you can browse the Internet using the\n"
+"ready</span> notification appears or if you can browse the Internet using\n"
 "<span class=\"application\">Tor Browser</span>, then Tor is started correctly.\n"
 msgstr ""
 
@@ -140,6 +140,11 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img vidalia/right-click_menu.png link=no alt=\"Vidalia popup menu\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"map\"></a>\n"
 msgstr ""
 
 #. type: Title =
@@ -210,9 +215,21 @@ msgstr ""
 msgid "[[!img vidalia/network_map.png link=no]]\n"
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"new_identity\"></a>\n"
+msgstr ""
+
 #. type: Title =
 #, no-wrap
-msgid "The <span class=\"guilabel\">New Identity</span> feature\n"
+msgid "<span class=\"guilabel\">New Identity</span> feature\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"The <span class=\"guilabel\">New Identity</span> feature of Vidalia forces Tor\n"
+"to use new circuits but only for new connections.\n"
 msgstr ""
 
 #. type: Plain text
@@ -222,10 +239,27 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "<p>This feature is not a good solution to [[separate contextual identities|about/warning#identities]], as:\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid ""
-"[[As explained on our warning page|about/warning#identities]], this feature of\n"
-"<span class=\"application\">Vidalia</span> is not a solution to really separate different contextual identities.\n"
-"<strong>Shutdown and restart Tails instead.</strong>\n"
+"<ul>\n"
+"<li>Already existing connections might stay open.</li>\n"
+"<li>Other sources of information can reveal your past activities, for\n"
+"example the cookies stored in <span class=\"application\">Tor Browser</span> or the random nick in <span class=\"application\">Pidgin</span>.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>Shutdown and restart Tails instead.</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</p>\n"
 msgstr ""
 
 #. type: Title =
@@ -243,8 +277,7 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "It is impossible to edit the <span class=\"filename\">torrc</span> "
-"configuration file using <span class=\"application\">Vidalia</span>. See [[!"
-"tails_ticket 6601]]."
+"configuration file using <span class=\"application\">Vidalia</span>."
 msgstr ""
 
 #. type: Bullet: '  - '

@@ -34,7 +34,7 @@ VAGRANT_PATH = File.expand_path('../vagrant', __FILE__)
 STABLE_BRANCH_NAMES = ['stable', 'testing']
 
 # Environment variables that will be exported to the build script
-EXPORTED_VARIABLES = ['http_proxy', 'MKSQUASHFS_OPTIONS', 'TAILS_RAM_BUILD', 'TAILS_CLEAN_BUILD', 'TAILS_BOOTSTRAP_CACHE']
+EXPORTED_VARIABLES = ['http_proxy', 'MKSQUASHFS_OPTIONS', 'TAILS_RAM_BUILD', 'TAILS_CLEAN_BUILD']
 
 # Let's save the http_proxy set before playing with it
 EXTERNAL_HTTP_PROXY = ENV['http_proxy']
@@ -167,10 +167,6 @@ task :parse_build_options do
     when 'noram'
       ENV['TAILS_RAM_BUILD'] = nil
     # Bootstrap cache settings
-    when 'cache'
-      ENV['TAILS_BOOTSTRAP_CACHE'] = '1'
-    when 'nocache'
-      ENV['TAILS_BOOTSTRAP_CACHE'] = nil
     # HTTP proxy settings
     when 'extproxy'
       abort "No HTTP proxy set, but one is required by TAILS_BUILD_OPTIONS. Aborting." unless EXTERNAL_HTTP_PROXY
@@ -342,47 +338,5 @@ namespace :vm do
     env = Vagrant::Environment.new(:cwd => VAGRANT_PATH, :ui_class => Vagrant::UI::Basic)
     result = env.cli('destroy', '--force')
     abort "'vagrant destroy' failed" unless result
-  end
-end
-
-namespace :basebox do
-  task :create_preseed_cfg => 'validate_http_proxy' do
-    require 'erb'
-
-    preseed_cfg_path = File.expand_path('../vagrant/definitions/squeeze/preseed.cfg', __FILE__)
-    template = ERB.new(File.read("#{preseed_cfg_path}.erb"))
-    File.open(preseed_cfg_path, 'w') do |f|
-      f.write template.result
-    end
-  end
-
-  desc 'Create virtual machine template (a.k.a. basebox)'
-  task :create_basebox => [:create_preseed_cfg] do
-    # veewee is pretty stupid regarding path handling
-    Dir.chdir(VAGRANT_PATH) do
-      require 'veewee'
-
-      # Veewee assumes a separate process for each task. So we mimic that.
-
-      env = Vagrant::Environment.new(:ui_class => Vagrant::UI::Basic)
-
-      Process.fork do
-        env.cli('basebox', 'build', 'squeeze')
-      end
-      Process.wait
-      abort "Building the basebox failed (exit code: #{$?.exitstatus})." if $?.exitstatus != 0
-
-      Process.fork do
-        env.cli('basebox', 'validate', 'squeeze')
-      end
-      Process.wait
-      abort "Validating the basebox failed (exit code: #{$?.exitstatus})." if $?.exitstatus != 0
-
-      Process.fork do
-        env.cli('basebox', 'export', 'squeeze')
-      end
-      Process.wait
-      abort "Exporting the basebox failed (exit code: #{$?.exitstatus})." if $?.exitstatus != 0
-    end
   end
 end

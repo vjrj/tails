@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-08 19:08+0200\n"
-"PO-Revision-Date: 2014-03-17 12:00+0100\n"
+"POT-Creation-Date: 2015-05-02 23:47+0200\n"
+"PO-Revision-Date: 2015-01-18 12:44-0000\n"
 "Last-Translator: amnesia <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,30 +18,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:43
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:43
 msgid "Tor is ready"
 msgstr "Tor est prêt"
 
-#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready-notification.sh:44
+#: config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-ready.sh:44
 msgid "You can now access the Internet."
 msgstr "Vous pouvez maintenant accéder à Internet."
 
 #: config/chroot_local-includes/etc/whisperback/config.py:64
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "<h1>Help us fix your bug!</h1>\n"
 "<p>Read <a href=\"%s\">our bug reporting instructions</a>.</p>\n"
 "<p><strong>Do not include more personal information than\n"
 "needed!</strong></p>\n"
 "<h2>About giving us an email address</h2>\n"
-"<p>If you don't mind disclosing some bits of your identity\n"
-"to Tails developers, you can provide an email address to\n"
-"let us ask more details about the bug. Additionally entering\n"
-"a public PGP key enables us to encrypt such future\n"
-"communication.</p>\n"
-"<p>Anyone who can see this reply will probably infer you are\n"
-"a Tails user. Time to wonder how much you trust your\n"
-"Internet and mailbox providers?</p>\n"
+"<p>\n"
+"Giving us an email address allows us to contact you to clarify the problem. "
+"This\n"
+"is needed for the vast majority of the reports we receive as most reports\n"
+"without any contact information are useless. On the other hand it also "
+"provides\n"
+"an opportunity for eavesdroppers, like your email or Internet provider, to\n"
+"confirm that you are using Tails.\n"
+"</p>\n"
 msgstr ""
 "<h1>Aidez-nous à résoudre votre problème !</h1>\n"
 "<p>Lire <a href=\"%s\">nos instructions sur le signalement de\n"
@@ -60,6 +61,31 @@ msgstr ""
 "peut-être le moment de vous interroger sur la confiance que vous\n"
 "accordez à votre fournisseur d'accès à Internet et à votre\n"
 "hébergeur email...</p>\n"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:14
+msgid "Persistence is disabled for Electrum"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:16
+msgid ""
+"When you reboot Tails, all of Electrum's data will be lost, including your "
+"Bitcoin wallet. It is strongly recommended to only run Electrum when its "
+"persistence feature is activated."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:18
+msgid "Do you want to start Electrum anyway?"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:20
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
+msgid "_Launch"
+msgstr "_Lancer"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:21
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
+msgid "_Exit"
+msgstr "_Sortir"
 
 #: config/chroot_local-includes/usr/local/bin/gpgApplet:136
 msgid "OpenPGP encryption applet"
@@ -89,63 +115,67 @@ msgstr "_Déchiffrer/Vérifier le presse-papier"
 msgid "_Manage Keys"
 msgstr "_Gérer les Clés"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:244
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:208
+msgid "_Open Text Editor"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:252
 msgid "The clipboard does not contain valid input data."
 msgstr "Le presse-papier ne contient pas de données valides."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:294
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:296
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:298
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:303
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:305
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:307
 msgid "Unknown Trust"
 msgstr "Confiance inconnue"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:300
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:309
 msgid "Marginal Trust"
 msgstr "Confiance marginale"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:302
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:311
 msgid "Full Trust"
 msgstr "Confiance complète"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:304
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:313
 msgid "Ultimate Trust"
 msgstr "Confiance ultime"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:357
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:366
 msgid "Name"
 msgstr "Nom"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:358
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:367
 msgid "Key ID"
 msgstr "Identifiant de la clé"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:359
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:368
 msgid "Status"
 msgstr "Statut"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:391
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:400
 msgid "Fingerprint:"
 msgstr "Empreinte :"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:394
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:403
 msgid "User ID:"
 msgid_plural "User IDs:"
 msgstr[0] "Identifiant de l'utilisateur :"
 msgstr[1] "Identifiants de l'utilisateur :"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:424
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:433
 msgid "None (Don't sign)"
 msgstr "Aucun (ne pas signer)"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:487
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:496
 msgid "Select recipients:"
 msgstr "Choisir les destinataires :"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:495
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:504
 msgid "Hide recipients"
 msgstr "Cacher les destinataires"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:498
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:507
 msgid ""
 "Hide the user IDs of all recipients of an encrypted message. Otherwise "
 "anyone that sees the encrypted message can see who the recipients are."
@@ -154,36 +184,38 @@ msgstr ""
 "chiffré. Sans quoi n'importe qui voyant le message chiffré peut savoir à qui "
 "il est destiné."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:504
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:513
 msgid "Sign message as:"
 msgstr "Signer le message en tant que :"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:508
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:517
 msgid "Choose keys"
 msgstr "Choisir les clés"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:548
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:557
 msgid "Do you trust these keys?"
 msgstr "Faites-vous confiance à ces clés ?"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:551
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:560
 msgid "The following selected key is not fully trusted:"
 msgid_plural "The following selected keys are not fully trusted:"
 msgstr[0] "La clé sélectionnée suivante n'est pas totalement de confiance :"
 msgstr[1] ""
 "Les clés sélectionnées suivantes ne sont pas totalement de confiance :"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:569
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:578
 msgid "Do you trust this key enough to use it anyway?"
 msgid_plural "Do you trust these keys enough to use them anyway?"
-msgstr[0] "Faites-vous quand même assez confiance à cette clé pour l'utiliser"
-msgstr[1] "Faites-vous quand même assez confiance à ces clés pour les utiliser"
+msgstr[0] ""
+"Faites-vous quand même assez confiance à cette clé pour l'utiliser ?"
+msgstr[1] ""
+"Faites-vous quand même assez confiance à ces clés pour les utiliser ?"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:582
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:591
 msgid "No keys selected"
 msgstr "Aucune clé sélectionnée"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:584
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:593
 msgid ""
 "You must select a private key to sign the message, or some public keys to "
 "encrypt the message, or both."
@@ -191,52 +223,36 @@ msgstr ""
 "Vous devez sélectionner une clé privée pour signer le message, ou une clé "
 "publique pour le chiffrer, ou les deux."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:612
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:621
 msgid "No keys available"
 msgstr "Pas de clé disponible"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:614
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:623
 msgid ""
 "You need a private key to sign messages or a public key to encrypt messages."
 msgstr ""
 "Vous avez besoin d'une clé privée pour signer les messages ou d'une clé "
 "publique pour les chiffrer."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:742
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:751
 msgid "GnuPG error"
 msgstr "Erreur de GnuPG"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:763
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:772
 msgid "Therefore the operation cannot be performed."
 msgstr "L'opération ne peut pas être effectuée."
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:813
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:822
 msgid "GnuPG results"
 msgstr "Résultat de GnuPG"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:819
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:828
 msgid "Output of GnuPG:"
 msgstr "Voici la sortie de GnuPG :"
 
-#: config/chroot_local-includes/usr/local/bin/gpgApplet:844
+#: config/chroot_local-includes/usr/local/bin/gpgApplet:853
 msgid "Other messages provided by GnuPG:"
 msgstr "Autres messages de GnuPG :"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:12
-msgid "Tor is not ready"
-msgstr "Tor n'est pas prêt"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:13
-msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr "Tor n'est pas prêt. Démarrer Tor Browser malgré tout ?"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:14
-msgid "Start Tor Browser"
-msgstr "Démarre Tor Browser"
-
-#: config/chroot_local-includes/usr/local/bin/iceweasel:15
-msgid "Cancel"
-msgstr "Annuler"
 
 #: config/chroot_local-includes/usr/local/lib/shutdown-helper-applet:39
 msgid "Shutdown Immediately"
@@ -324,19 +340,19 @@ msgstr ""
 "Il semble que votre accès au réseau est bloqué. Cela est peut-être lié à la "
 "fonctionnalité d'usurpation d'adresse MAC. Pour plus d'information, voir la "
 "<a href=\\\"file:///usr/share/doc/tails/website/doc/first_steps/"
-"startup_options/mac_spoofing.fr.html#blocked\\\">documentation d'usurpation "
-"d'adresse MAC</a>."
+"startup_options/mac_spoofing.fr.html#blocked\\\">documentation sur "
+"l'usurpation d'adresse MAC</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-security-check:145
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:151
 msgid "This version of Tails has known security issues:"
 msgstr "Cette version de Tails a des problèmes de sécurité connus :"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:29
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:37
 #, sh-format
 msgid "Network card ${nic} disabled"
 msgstr "Carte réseau ${nic} désactivée"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:30
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:38
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
@@ -351,11 +367,11 @@ msgstr ""
 "MAC. Voir la <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
 "startup_options/mac_spoofing.fr.html'>documentation</a>."
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:39
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:47
 msgid "All networking disabled"
 msgstr "Toutes fonctions réseau désactivées"
 
-#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:40
+#: config/chroot_local-includes/usr/local/sbin/tails-spoof-mac:48
 #, sh-format
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
@@ -371,42 +387,13 @@ msgstr ""
 "MAC. Voir la <a href='file:///usr/share/doc/first_steps/startup_options/"
 "mac_spoofing.fr.html'>documentation</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:62
-msgid "Starting I2P..."
-msgstr "I2P est en cours de démarrage..."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:63
-msgid "The I2P router console will be opened on start."
-msgstr "La console du routeur I2P sera ouverte au démarrage."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:82
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:124
-msgid "I2P failed to start"
-msgstr "Le redémarrage d'I2P a échoué."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:83
-msgid ""
-"Make sure that you have a working Internet connection, then try to start I2P "
-"again."
-msgstr ""
-"Vérifiez que votre connexion à Internet fonctionne, puis essayez à nouveau "
-"de lancer I2P."
-
-#: config/chroot_local-includes/usr/local/bin/tails-start-i2p:125
-msgid ""
-"Something went wrong when I2P was starting. Look in the logs in the "
-"following directory for more information:"
-msgstr ""
-"Quelque chose n'a pas marché lors du lancement d'I2P. Pour plus "
-"d'informations, lisez les journaux dans le dossier suivant :"
-
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:19
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
 msgid "error:"
-msgstr "erreur:"
+msgstr "erreur :"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:20
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:23
 msgid "Error"
 msgstr "Erreur"
 
@@ -422,6 +409,18 @@ msgid ""
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr ""
+"<b>Pas assez de mémoire disponible pour vérifier la disponibilité de mises à "
+"jour.</b>\n"
+"\n"
+"Vérifiez que cet ordinateur satisfait les conditions requises pour utiliser "
+"Tails.\n"
+"Voir file:///usr/share/doc/tails/website/doc/about/requirements.fr.html\n"
+"\n"
+"Essayez de redémarrer Tails pour vérifier la disponibilité de mises à jour à "
+"nouveau.\n"
+"\n"
+"Ou faites les mises à jour manuelles.\n"
+"Voir https://tails.boum.org/doc/first_steps/upgrade/index.fr.html#manual"
 
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:53
 msgid "Warning: virtual machine detected!"
@@ -436,18 +435,35 @@ msgstr ""
 "surveiller ce que vous faites dans Tails."
 
 #: config/chroot_local-includes/usr/local/bin/tails-virt-notify-user:57
+#, fuzzy
 msgid ""
 "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-"virtualization.en.html'>Learn more...</a>"
+"virtualization.en.html#security'>Learn more...</a>"
 msgstr ""
 "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
-"virtualization.fr.html'>En savoir plus...</a>"
+"virtualization.fr.html#security'>En savoir plus...</a>"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:68
+#: config/chroot_local-includes/usr/local/bin/tor-browser:18
+msgid "Tor is not ready"
+msgstr "Tor n'est pas prêt"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:19
+msgid "Tor is not ready. Start Tor Browser anyway?"
+msgstr "Tor n'est pas prêt. Démarrer Tor Browser malgré tout ?"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:20
+msgid "Start Tor Browser"
+msgstr "Démarrer Tor Browser"
+
+#: config/chroot_local-includes/usr/local/bin/tor-browser:21
+msgid "Cancel"
+msgstr "Annuler"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:33
 msgid "Do you really want to launch the Unsafe Browser?"
 msgstr "Êtes-vous sûr de vouloir utiliser le Navigateur Non-sécurisé ?"
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:70
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:35
 msgid ""
 "Network activity within the Unsafe Browser is <b>not anonymous</b>. Only use "
 "the Unsafe Browser if necessary, for example if you have to login or "
@@ -458,36 +474,19 @@ msgstr ""
 "si vous devez vous identifier ou vous enregistrer pour avoir accès à "
 "Internet."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
-msgid "_Launch"
-msgstr "_Lancer"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
-msgid "_Exit"
-msgstr "_Sortir"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:82
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
 msgid "Starting the Unsafe Browser..."
 msgstr "Lancement du Navigateur Non-sécurisé..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:83
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "This may take a while, so please be patient."
 msgstr "Ceci peut prendre du temps, merci d'être patient."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:101
-msgid "Failed to setup chroot."
-msgstr "L'exécution de chroot a échoué"
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:175
-#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
-msgid "Unsafe Browser"
-msgstr "Navigateur Non-sécurisé..."
-
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:215
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:53
 msgid "Shutting down the Unsafe Browser..."
 msgstr "Fermeture du Navigateur Non-sécurisé..."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:216
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:54
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
@@ -495,11 +494,16 @@ msgstr ""
 "Ceci peut prendre du temps, il vaut mieux ne pas relancer le Navigateur Non-"
 "sécurisé avant sa fermeture complète."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:228
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:66
 msgid "Failed to restart Tor."
 msgstr "Le redémarrage de Tor a échoué."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:236
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+msgid "Unsafe Browser"
+msgstr "Navigateur Non-sécurisé..."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:93
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
@@ -507,7 +511,13 @@ msgstr ""
 "Un autre Navigateur Non-sécurisé est en cours d'utilisation, ou en train "
 "d'être nettoyé. Merci d'essayer à nouveau dans un instant."
 
-#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:249
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:105
+msgid ""
+"NetworkManager passed us garbage data when trying to deduce the clearnet DNS "
+"server."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:115
 msgid ""
 "No DNS server was obtained through DHCP or manually configured in "
 "NetworkManager."
@@ -515,17 +525,63 @@ msgstr ""
 "Aucun serveur DNS n'a été obtenu en DHCP ou via une configuration manuelle "
 "dans NetworkManager."
 
-#: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:11
-msgid "TrueCrypt will soon be removed from Tails"
-msgstr "TrueCrypt va bientôt être retiré de Tails"
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:123
+msgid "Failed to setup chroot."
+msgstr "L'exécution de chroot a échoué."
 
-#: config/chroot_local-includes/usr/share/tails/truecrypt-wrapper.disabled:12
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:129
+#, fuzzy
+msgid "Failed to configure browser."
+msgstr "Le redémarrage de Tor a échoué."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:134
+#, fuzzy
+msgid "Failed to run browser."
+msgstr "Le redémarrage de Tor a échoué."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:31
+msgid "I2P failed to start"
+msgstr "Le redémarrage d'I2P a échoué."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:32
 msgid ""
-"TrueCrypt will soon be removed from Tails due to license and development "
-"concerns."
+"Something went wrong when I2P was starting. Check the logs in /var/log/i2p "
+"for more information."
 msgstr ""
-"TrueCrypt sera bientôt retiré de Tails à cause de soucis concernant son mode "
-"de développement et sa licence."
+"Quelque chose n'a pas marché lors du lancement d'I2P. Pour plus "
+"d'informations, lisez les journaux dans /var/log/i2p."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:43
+msgid "I2P's router console is ready"
+msgstr "La console du routeur I2P est prête"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:44
+msgid "You can now access I2P's router console on http://127.0.0.1:7657."
+msgstr ""
+"Vous pouvez maintenant avoir accès à la console du routeur I2P à l'adresse "
+"http://127.0.0.1:7657."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:49
+msgid "I2P is not ready"
+msgstr "I2P n'est pas prêt"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:50
+msgid ""
+"Eepsite tunnel not built within six minutes. Check the router console at "
+"http://127.0.0.1:7657/logs or the logs in /var/log/i2p for more information. "
+"Reconnect to the network to try again."
+msgstr ""
+"Pas de tunnel Eepsite construit en six minutes. Vérifiez la console du "
+"routeur à l'adresse http://127.0.0.1:7657/logs ou les journaux dans /var/log/"
+"i2p pour plus d'informations. Reconnectez le réseau pour essayer à nouveau."
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:60
+msgid "I2P is ready"
+msgstr "I2P est prêt"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-i2p:61
+msgid "You can now access services on I2P."
+msgstr "Vous pouvez maintenant accéder à des services d'I2P."
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -540,22 +596,17 @@ msgstr "Documentation de Tails"
 msgid "Learn how to use Tails"
 msgstr "Apprendre à utiliser Tails"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:1
-msgid "Anonymous overlay network "
-msgstr "Réseau fournissant une couche d'anonymisation"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
+msgid "Anonymous overlay network browser"
+msgstr "Navigateur fournissant une couche d'anonymisation réseau"
 
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:2
-msgid "i2p"
-msgstr "i2p"
-
-#: ../config/chroot_local-includes/usr/share/applications/i2p.desktop.in.h:3
-msgid "Anonymous overlay network"
-msgstr "Réseau fournissant une couche d'anonymisation"
+#: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:2
+msgid "I2P Browser"
+msgstr "Navigateur I2P"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-#, fuzzy
 msgid "Learn more about Tails"
-msgstr "Apprendre à utiliser Tails"
+msgstr "En apprendre davantage sur Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -573,6 +624,14 @@ msgstr "Éteindre"
 msgid "Immediately shut down computer"
 msgstr "Éteindre immédiatement l'ordinateur"
 
+#: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:1
+msgid "Tor Browser"
+msgstr "Démarre le navigateur Tor"
+
+#: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:2
+msgid "Anonymous Web Browser"
+msgstr "Navigateur Web Anonyme"
+
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
 msgid "Browse the World Wide Web without anonymity"
 msgstr "Naviguer sur le Web sans anonymisation"
@@ -584,6 +643,45 @@ msgstr "Navigateur Web Non-sécurisé"
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
 msgid "Tails specific tools"
 msgstr "Outils spécifiques à Tails"
+
+#~ msgid "TrueCrypt will be removed in Tails 1.2.1"
+#~ msgstr "TrueCrypt sera retiré dans Tails 1.2.1"
+
+#~ msgid ""
+#~ "TrueCrypt is no longer maintained and is said to be insecure by its own "
+#~ "authors. Therefore, it will be removed in Tails 1.2.1 (November 25). We "
+#~ "recommend that you learn how to <a href='file:///usr/share/doc/tails/"
+#~ "website/doc/encryption_and_privacy/truecrypt.en.html#cryptsetup'>open "
+#~ "TrueCrypt volumes with cryptsetup</a> as soon as possible."
+#~ msgstr ""
+#~ "TrueCrypt n'est plus maintenu et ses auteurs le dise non sûr. De plus, il "
+#~ "sera retiré dans Tails 1.2.1 (25 novembre). Nous vous recommandons "
+#~ "d'apprendre à <a href='file:///usr/share/doc/tails/website/doc/"
+#~ "encryption_and_privacy/truecrypt.fr.html#cryptsetup'>ouvrir des volumes "
+#~ "TrueCrypt avec cryptsetup</a> dès que possible."
+
+#~ msgid "Starting I2P..."
+#~ msgstr "I2P est en cours de démarrage..."
+
+#~ msgid ""
+#~ "Make sure that you have a working Internet connection, then try to start "
+#~ "I2P again."
+#~ msgstr ""
+#~ "Vérifiez que votre connexion à Internet fonctionne, puis essayez à "
+#~ "nouveau de lancer I2P."
+
+#~ msgid ""
+#~ "TrueCrypt will soon be removed from Tails due to license and development "
+#~ "concerns."
+#~ msgstr ""
+#~ "TrueCrypt sera bientôt retiré de Tails à cause de soucis concernant son "
+#~ "mode de développement et sa licence."
+
+#~ msgid "i2p"
+#~ msgstr "i2p"
+
+#~ msgid "Anonymous overlay network"
+#~ msgstr "Réseau fournissant une couche d'anonymisation"
 
 #~ msgid "Shutdown Helper"
 #~ msgstr "Assistant d'Extinction"

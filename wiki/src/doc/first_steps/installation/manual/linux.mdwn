@@ -6,16 +6,9 @@ This technique uses the command line.
 
 [[!toc levels=1]]
 
-<h2 class="bullet-number-one">Install isohybrid</h2>
+<a id="step_1"></a>
 
-Under Debian or Ubuntu the `isohybrid` utility is included in the `syslinux`
-package. To install it, you can execute the following command:
-
-    sudo apt-get install syslinux
-
-<a id="step_2"></a>
-
-<h2 class="bullet-number-two">Find out the device name of the device</h2>
+<h2 class="bullet-number-one">Find out the device name of the device</h2>
 
 The device name should be something like `/dev/sdb`, `/dev/sdc`, etc.
 
@@ -50,26 +43,30 @@ following:
 <div class="caution">
 
 If you are not sure about the device name, you should stop
-proceeding or <strong>you risk overwriting any hard drive on the
+proceeding or <strong>you risk overwriting any hard disk on the
 system</strong>.
 
 </div>
 
-<a id="step_3"></a>
+<a id="step_2"></a>
 
-<h2 class="bullet-number-three">Do the copy</h2>
+<h2 class="bullet-number-two">Do the copy</h2>
+
+<div class="caution">
+
+<p><strong>All the data on the installed device will be lost.</strong></p>
+
+</div>
 
 Execute the following commands, replacing `[tails.iso]` with the path
 to the ISO image that you want to copy and `[device]` with the device
-name found in step 2.
+name found in step 1.
 
-    isohybrid [tails.iso] --entry 4 --type 0x1c
-    dd if=[tails.iso] of=[device] bs=16M
+    dd if=[tails.iso] of=[device] bs=16M && sync
 
 Here is an example of the commands to execute, yours are probably different:
 
-    isohybrid '/home/amnesia/Desktop/tails-0.6.2.iso' --entry 4 --type 0x1c
-    dd if='/home/amnesia/Desktop/tails-0.6.2.iso' of=/dev/sdc bs=16M
+    dd if='/home/amnesia/Desktop/tails-0.6.2.iso' of=/dev/sdc bs=16M && sync
 
 <div class="tip">
 
@@ -90,7 +87,7 @@ minutes.
 <div class="next">
 
 <p>Once the command prompt reappears, you can shutdown your computer, and
-[[start Tails|/download/#start]] from this new device.</p>
+[[start Tails|start_tails]] from this new device.</p>
 
 </div>
 
@@ -100,7 +97,7 @@ Troubleshooting
 ### dd: /dev/sdx: No such file or directory
 
 Then double-check the name of the device you found in [[step
-2|linux#step_2]].
+1|linux#step_1]].
 
 ### dd: /dev/sdx: Permission denied
 
@@ -109,10 +106,9 @@ double-check it. If you are sure about the device name, this could be a
 permission problem and you could need to gain administration privileges before running the
 commands in the terminal. That could be:
 
-    isohybrid [tails.iso] --entry 4 --type 0x1c
-    sudo dd if=[tails.iso] of=[device] bs=16M
+    sudo dd if=[tails.iso] of=[device] bs=16M && sync
 
 ### dd: tails.iso: No such file or directory
 
 Then you surely have committed a mistake on the path to the ISO image in [[step
-3|linux#step_3]].
+2|linux#step_2]].

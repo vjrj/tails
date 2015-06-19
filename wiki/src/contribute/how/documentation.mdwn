@@ -23,14 +23,15 @@ translations that were made of the previous version.
 But there are still many ways you can start contributing:
 
   - We maintain a list of [documentation
-    tasks](https://labs.riseup.net/code/projects/tails/issues?query_id=118).
+    tasks](https://labs.riseup.net/code/projects/tails/issues?query_id=172).
     You can start writing a draft in the corresponding ticket and then
     [[ask us for review|contribute/talk]].
 
   - Small fixes and enhancements to the current documentation are
     greatly welcome. This can be done by [[sending us|contribute/talk]]
     Git patches, by publishing a [[Git]] branch, or simply by email on
-    the public mailing list.
+    the public mailing list. In the general case, this work should be
+    based on the `master` branch.
 
 Documentation writers coordinate themselves using our usual
 [[development communication channels|contribute/talk]].
@@ -38,9 +39,9 @@ Documentation writers coordinate themselves using our usual
 Documentation writers should also read our [[documentation
 guidelines|guidelines]].
 
-If you want to test your contributions before to sharing them with us,
-you can [[build and update the documentation
-offline|contribute/build/website]].
+We recommend you to [[build an offline version of the
+documentation|contribute/build/website]] to test your contributions
+before sharing them with us.
 
 # Translating
 

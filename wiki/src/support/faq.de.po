@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-11 09:04+0300\n"
+"POT-Creation-Date: 2015-05-11 14:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,9 +144,9 @@ msgstr ""
 
 #. type: Bullet: '0. '
 msgid ""
-"We are actively working on adding [[AppArmor|blueprint/"
-"Mandatory_Access_Control]] support to Tails; a security framework that is "
-"already used in a few Ubuntu applications."
+"We are actively working on improving [[AppArmor support|contribute/design/"
+"application_isolation]] in Tails; a security framework that is already used "
+"in a few Ubuntu applications."
 msgstr ""
 
 #. type: Bullet: '0. '
@@ -154,6 +154,58 @@ msgid ""
 "We are also working on adding compiler hardening options to more Debian "
 "packages included in Tails; another security feature that Ubuntu already "
 "provides."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"gnome\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Why does Tails ship the GNOME Desktop?\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We had users ask for LXDE, XFCE, MATE, KDE, and so on, but we are not going "
+"to change desktop. According to us, the main drawback of GNOME is that it "
+"requires quite a lot of resources to work properly, but it has many "
+"advantages.  The GNOME Desktop is:"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "Well integrated, especially for new Linux users."
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "Very well translated and documented."
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "Doing relatively good regarding accessibility features."
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "Actively developed."
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid ""
+"Well maintained in [[Debian|faq#debian]], where it is the default desktop "
+"environment."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We invested quite some time in acquiring GNOME knowledge, and switching our "
+"desktop environment would require going through that process again."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We are not proposing several desktop environments to choose from because we "
+"want to [[limit the amount of software included in Tails|faq#new_software]]."
 msgstr ""
 
 #. type: Plain text
@@ -299,6 +351,79 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "<a id=\"unetbootin_etc\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Can I install Tails with UNetbootin, YUMI or my other favorite tool?\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"No. Those installation methods are unsupported. They might not work at all, "
+"or worse: they might seem to work, but produce a Tails device that does "
+"*not* behave like Tails should. Follow the [[download and installation "
+"documentation|download]] instead."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"upgrade\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Should I update Tails using `apt-get` or <span class=\"application\">Synaptic</span>?\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"No. Tails provides upgrades every 6 weeks, that are thoroughly tested\n"
+"to make sure that no security feature or configuration gets broken.\n"
+"If you upgrade the system yourself using `apt-get` or <span class=\"application\">Synaptic</span>,\n"
+"you might break things. Upgrading when you get a notification from\n"
+"<span class=\"application\">[[Tails Upgrader|doc/first_steps/upgrade]]</span> is enough.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"preinstalled\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Can I buy a preinstalled Tails device?\n"
+msgstr ""
+
+#. type: Plain text
+msgid "No, we don't sell preinstalled Tails devices."
+msgstr ""
+
+#. type: Plain text
+msgid "Selling preinstalled devices would in fact be a pretty bad idea:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If burned on a DVD, then this DVD would be outdated on the next release. "
+"This means after 6 weeks at most."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If installed onto a USB stick, then it would be impossible to verify that "
+"the Tails on the USB stick is genuine. Trusting that a Tails device is "
+"genuine should be based either on cryptographic verification or on personal "
+"trust (if you know someone of trust who can clone a Tails device for you). "
+"But once Tails is installed on a USB stick it is not possible to use our "
+"cryptographic verification techniques anymore. Being able to trust your "
+"Tails device is something that we really care about."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid "<a id=\"browser\"></a>\n"
 msgstr ""
 
@@ -314,7 +439,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Why is JavaScript enabled by default in the Tor browser?\n"
+msgid "Why is JavaScript enabled by default in <span class=\"application\">Tor Browser</span>?\n"
 msgstr ""
 
 #. type: Plain text
@@ -328,7 +453,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails also includes the [[NoScript|doc/anonymous_internet/"
+"Tor Browser also includes a [[security_slider|doc/anonymous_internet/"
+"Tor_browser#security_slider]] and the [[NoScript|doc/anonymous_internet/"
 "Tor_browser#noscript]] extension to optionally disable more JavaScript. This "
 "might improve security in some cases. However, if you disable JavaScript, "
 "then the [[fingerprint|doc/about/fingerprint]] of your browser will differ "
@@ -348,12 +474,12 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Can I install other add-ons in the browser?\n"
+msgid "Can I install other add-ons in <span class=\"application\">Tor Browser</span>?\n"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"Installing add-ons in the browser might break the security built in Tails."
+#, no-wrap
+msgid "Installing add-ons in <span class=\"application\">Tor Browser</span> might break the security built in Tails.\n"
 msgstr ""
 
 #. type: Plain text
@@ -404,7 +530,7 @@ msgid ""
 "<div class=\"next\">\n"
 "  <ul>\n"
 "    <li>[[Warnings about persistence|doc/first_steps/persistence/warnings#index3h1]]</li>\n"
-"    <li>[[Browsing the web with Iceweasel|doc/anonymous_internet/Tor_browser]]</li>\n"
+"    <li>[[Browsing the web with <span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_browser]]</li>\n"
 "    <li>[[Can I hide the fact that I am using Tails?|doc/about/fingerprint/]]</li>\n"
 "  </ul>\n"
 "</div>\n"
@@ -465,7 +591,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "But you can already watch HTML5 videos with the Tor browser."
+#, no-wrap
+msgid "But you can already watch HTML5 videos with <span class=\"application\">Tor Browser</span>.\n"
 msgstr ""
 
 #. type: Plain text
@@ -486,28 +613,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"As explained in our documentation about [[fingerprinting|doc/about/"
-"fingerprint]], Tails provides anonymity on the web by making it difficult to "
-"distinguish a particular user amongst all the users of Tails and the Tor "
-"Browser Bundle (TBB)."
+"As explained in our documentation about\n"
+"[[fingerprinting|doc/about/fingerprint]], Tails provides anonymity on the web by\n"
+"making it difficult to distinguish a particular user amongst all the users of\n"
+"<span class=\"application\">Tor Browser</span> (either in Tails or on other operating systems).\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"So, the information retrieved by such fingerprinting websites is not harmful "
-"for anonymity in itself, as long as it is the same for all Tor users."
+"So, the information retrieved by such fingerprinting websites is not harmful for\n"
+"anonymity in itself, as long as it is the same for all users of <span class=\"application\">Tor Browser</span>.\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"For example, the user-agent property of the browser was set to `Mozilla/5.0 "
-"(Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100401 "
-"Firefox/3.6.3`, as of Tails 0.21 and TBB 2.3.25-13. This value preserves "
-"your anonymity even if the operating system installed on the computer is "
-"Windows NT and you usually run Firefox. On the other hand, changing this "
-"value makes you distinguishable from others Tor users and breaks your "
-"anonymity."
+"For example, the user-agent property of the browser was set to `Mozilla/5.0\n"
+"(Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3`,\n"
+"as of Tails 0.21 and <span class=\"application\">Tor Browser</span> 2.3.25-13. This value preserves your anonymity even if\n"
+"the operating system installed on the computer is Windows NT and you usually run\n"
+"Firefox. On the other hand, changing this value makes you distinguishable from\n"
+"others users of <span class=\"application\">Tor Browser</span> and breaks your anonymity.\n"
 msgstr ""
 
 #. type: Plain text
@@ -521,35 +650,15 @@ msgstr ""
 msgid "<a id=\"java\"></a>\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Title -
 #, no-wrap
-msgid ""
-"Is Java installed in the Tor browser?\n"
-"---------------------------------------\n"
+msgid "Is Java installed in the <span class=\"application\">Tor Browser</span>?\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Tails does not include a Java plugin in its browser because it could break "
 "your anonymity."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "<a id=\"unsafe_browser\"></a>\n"
-msgstr ""
-
-#. type: Title -
-#, no-wrap
-msgid "Can I use the Unsafe Browser to browse the web or download files?\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"No. The Unsafe Browser is only included in Tails as a tool to log into "
-"[[captive portals|doc/anonymous_internet/unsafe_browser]]. It is not meant "
-"to be used as a regular web browser. As a consequence, the files that you "
-"might download using the Unsafe Browser are not accessible by your user."
 msgstr ""
 
 #. type: Plain text
@@ -707,7 +816,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "In some situations, you might be forced to use a VPN to connect to the "
-"Internet, for example by your ISP. This is currenlty not possible using "
+"Internet, for example by your ISP. This is currently not possible using "
 "Tails. See [[!tails_ticket 5858]]."
 msgstr ""
 
@@ -733,6 +842,33 @@ msgstr ""
 
 #. type: Plain text
 msgid "This is currenlty not possible easily using Tails."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"torrc\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Can I choose the country of my exit nodes or further edit the `torrc`?\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"It is possible to edit the Tor configuration file (`torrc`) with "
+"administration rights but you should not do so as it might break your "
+"anonymity."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"For example, as mentioned in the <span class=\"application\">Tor Browser</span>\n"
+"[FAQ](https://www.torproject.org/docs/faq.html.en#ChooseEntryExit),\n"
+"using `ExcludeExitNodes` is not recommended because \"overriding the\n"
+"exit nodes can mess up your anonymity in ways we don't\n"
+"understand\".\n"
 msgstr ""
 
 #. type: Plain text
@@ -796,6 +932,44 @@ msgstr ""
 msgid ""
 "See also our [[design document|contribute/design/Time_syncing]] on this "
 "topic."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"relay\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Can I help the Tor network by running a relay or a bridge in Tails?\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"It is currently impossible to run a Tor relay or bridge in Tails. See [[!"
+"tails_ticket 5418]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"hidden_service\"></a>\n"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "Can I run a Tor hidden service on Tails?\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"It is technically possible to use Tails to provide a hidden service but it "
+"is complicated and not documented yet."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For example, some people have been working on how to run a web server behind "
+"a hidden service on Tails. See [[!tails_ticket 7879]]."
 msgstr ""
 
 #. type: Plain text
@@ -918,7 +1092,7 @@ msgid "**torchat**: see [[!tails_ticket 5554]]"
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "**bitcoin**, **electrum**: see [[!tails_ticket 6739]]"
+msgid "**retroshare**: not in Debian"
 msgstr ""
 
 #. type: Plain text
@@ -1110,42 +1284,29 @@ msgstr ""
 msgid "<a id=\"new_identity\"></a>\n"
 msgstr ""
 
-#. type: Title -
+#. type: Plain text
 #, no-wrap
-msgid "Is it safe to use the new identity feature of Vidalia?\n"
+msgid ""
+"Is it safe to use the <span class=\"guilabel\">New Identity</span> feature of <span class=\"application\">Vidalia</span> or <span class=\"application\">Tor Browser</span>?\n"
+"---------------------------------------------------------------------\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"In our [[warning page|doc/about/warning#identities]] we advice to restart Tails\n"
-"every time that you want to use a different contextual identity. The <span\n"
-"class=\"guilabel\">New Identity</span> feature of <span\n"
-"class=\"application\">Vidalia</span> forces Tor to use new circuits but only for\n"
-"new connections. The two main drawbacks of this technique are:\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"- The circuits used by connections that remain open might not be changed: "
-"for example, a circuit used to connect to an open webpage or to an instant "
-"messaging server."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"- Each application might contain information that can identify you,\n"
-"independently of the Tor circuit that are used. For example, the browser might\n"
-"contain cookies from previous websites, <span\n"
-"class=\"application\">[[Pidgin|doc/anonymous_internet/pidgin]]</span> will reuse the\n"
-"same nickname by default, etc.\n"
+"In our [[warning page|doc/about/warning#identities]] we advice to\n"
+"restart Tails every time that you want to use a different contextual\n"
+"identity. The\n"
+"[[<span class=\"guilabel\">New Identity</span> feature of <span class=\"application\">Vidalia</span>|doc/anonymous_internet/vidalia#new_identity]]\n"
+"forces Tor to use new circuits but only for new connections and the\n"
+"[[<span class=\"guilabel\">New Identity</span> of <span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new_identity]]\n"
+"is limited to the browser.\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Tails is a full operating system, so a *new identity* should be thought on a "
-"broader level than only switching Tor circuits."
+"broader level. **Restart Tails instead**."
 msgstr ""
 
 #. type: Plain text
@@ -1159,12 +1320,11 @@ msgid "Can I use TrueCrypt with Tails?\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Yes, but TrueCrypt needs to be activated when starting Tails, see our "
-"[[documentation|doc/encryption_and_privacy/truecrypt]]. Tails includes "
-"TrueCrypt only for backward compatibility and we are working on [[choosing a "
-"free software as replacement|blueprint/replace_truecrypt]] to open TrueCrypt "
-"volumes."
+"No, <span class=\"application\">TrueCrypt</span> was removed in Tails 1.2.1.\n"
+"But you can still [[open <span class=\"application\">TrueCrypt</span>\n"
+"volumes using <span class=\"code\">cryptsetup</span>|doc/encryption_and_privacy/truecrypt]].\n"
 msgstr ""
 
 #. type: Plain text
