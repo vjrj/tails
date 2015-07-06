@@ -17,4 +17,5 @@ With <span class="application">Tails OpenPGP Applet</span> you can:
   - [[Encrypt and sign text with a public key|encryption_and_privacy/gpgapplet/public-key_cryptography]]
   - [[Decrypt and verify text|encryption_and_privacy/gpgapplet/decrypt_verify]]
 
-Note that the applet doesn't manage your keys, that is done by Seahorse.
+Note that the applet doesn't manage your keys, that is done by
+[[Seahorse|doc/encryption_and_privacy/seahorse]].
