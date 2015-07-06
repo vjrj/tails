@@ -34,6 +34,7 @@ in particular the parts about:
 You can activate the
 [[persistence features|doc/first_steps/persistence]] for
 [[ssh|doc/first_steps/persistence/configure#ssh_client]] and
-[[GnuPG keys|doc/first_steps/persistence/configure#gnupg]].
+[[GnuPG keys|doc/first_steps/persistence/configure#gnupg]], otherwise
+the keys you created will be lost at shutdown.
 
 </div>
