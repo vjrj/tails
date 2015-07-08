@@ -314,6 +314,10 @@ When /^I connect Gobby to "([^"]+)"$/ do |host|
   @screen.wait("GobbyWelcomePrompt.png", 10)
   @screen.click("GnomeCloseButton.png")
   @screen.wait("GobbyWindow.png", 10)
+  # This indicates that Gobby has finished initializing itself
+  # (generating DH parameters, etc.) -- before, the UI is not responsive
+  # and our CTRL-t is lost.
+  @screen.wait("GobbyFailedToShareDocuments.png", 30)
   @screen.type("t", Sikuli::KeyModifier.CTRL)
   @screen.wait("GobbyConnectPrompt.png", 10)
   @screen.type(host + Sikuli::Key.ENTER)
@@ -369,7 +373,8 @@ When /^all Internet traffic has only flowed through the configured pluggable tra
   next if @skip_steps_while_restoring_background
   assert_not_nil(@bridge_hosts, "No bridges has been configured via the " +
                  "'I configure some ... bridges in Tor Launcher' step")
-  leaks = FirewallLeakCheck.new(@sniffer.pcap_file, @bridge_hosts)
+  leaks = FirewallLeakCheck.new(@sniffer.pcap_file,
+                                :accepted_hosts => @bridge_hosts)
   leaks.assert_no_leaks
 end
 
