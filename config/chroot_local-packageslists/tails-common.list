@@ -195,7 +195,6 @@ pulseaudio
 pulseaudio-utils
 pwgen
 p7zip-full
-resolvconf
 rfkill
 sane-utils
 scdaemon
@@ -376,9 +375,6 @@ window-picker-applet
 
 ### Needed by virtualbox-guest-utils
 pciutils
-
-### Needed by live-config's autodetection of broadcom-sta
-broadcom-sta-common
 
 ### SmartCard
 libccid

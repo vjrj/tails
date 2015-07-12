@@ -1,6 +1,7 @@
 Then(/^the firewall leak detector has detected (.*?) leaks$/) do |type|
   next if @skip_steps_while_restoring_background
-  leaks = FirewallLeakCheck.new(@sniffer.pcap_file, get_all_tor_nodes)
+  leaks = FirewallLeakCheck.new(@sniffer.pcap_file,
+                                :accepted_hosts => get_all_tor_nodes)
   case type.downcase
   when 'ipv4 tcp'
     if leaks.ipv4_tcp_leaks.empty?
@@ -55,6 +56,6 @@ end
 When(/^I send some ICMP pings$/) do
   next if @skip_steps_while_restoring_background
   # We ping an IP address to avoid a DNS lookup
-  ping = @vm.execute("ping -c 5 #{SOME_DNS_SERVER}", LIVE_USER)
+  ping = @vm.execute("ping -c 5 #{SOME_DNS_SERVER}")
   assert(ping.success?, "Failed to ping #{SOME_DNS_SERVER}:\n#{ping.stderr}")
 end

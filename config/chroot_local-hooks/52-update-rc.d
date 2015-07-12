@@ -14,7 +14,6 @@ i2p
 kexec-load
 laptop-mode
 memlockd
-resolvconf
 saned
 spice-vdagent
 tor
@@ -67,3 +66,16 @@ systemctl disable NetworkManager-wait-online.service
 for suffix in halt kexec poweroff reboot shutdown ; do
    systemctl mask "plymouth-${suffix}.service"
 done
+
+# systemd-networkd fallbacks to Google's nameservers when no other nameserver
+# is provided by the network configuration. In Jessie, this service is disabled
+# by default, but it feels safer to make this explicit. Besides, it might be
+# that systemd-networkd vs. firewall setup ordering is suboptimal in this respect,
+# so let's avoid any risk of DNS leaks here.
+systemctl mask systemd-networkd.service
+
+# Do not sync the system clock to the hardware clock on shutdown
+systemctl mask hwclock-save.service
+
+# Do not run timesyncd: we have our own time synchronization mechanism
+systemctl mask systemd-timesyncd.service
