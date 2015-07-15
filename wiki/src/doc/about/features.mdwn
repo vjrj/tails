@@ -82,6 +82,7 @@ Encryption and privacy
 * [KeePassX](http://www.keepassx.org/) password manager ([[More...|doc/encryption_and_privacy/manage_passwords]])
 * [GtkHash](http://gtkhash.sourceforge.net/) to calculate checksums ([[More...|doc/encryption_and_privacy/checksums]])
 * [Keyringer](https://keyringer.pw/), a command line tool to encrypt secrets shared through Git ([[More...|doc/encryption_and_privacy/keyringer]])
+* [Git-remote-gcrypt](https://github.com/blake2-ppc/git-remote-gcrypt), a Git helper that allow storing git repositories on a remote in encrypted form.
 * [Paperkey](http://www.jabberwocky.com/software/paperkey/) a command line tool to back up OpenPGP secret keys on paper ([[More...|doc/advanced_topics/paperkey]])
 
 The full packages list can be found in the [BitTorrent files download
