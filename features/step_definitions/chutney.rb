@@ -2,40 +2,41 @@ When /^Tails is using a simulated Tor network$/ do
   assert(not($vm.execute('service tor status').success?),
          "Running this step when Tor is running is probably not intentional")
 
-  # Ensure that a fresh chutney instnace is running, and that it will
-  # be cleaned upon exit.
-  chutney_listen_address = $config["Chutney"]["listen_address"]
   chutney_src_dir = $config["Chutney"]["src_dir"]
-  chutney_script = "#{chutney_src_dir}/chutney"
-  network_definition = "#{GIT_DIR}/features/chutney/test-network"
-  env = { 'CHUTNEY_LISTEN_ADDRESS' => chutney_listen_address }
-  chutney_cleanup_hook = Proc.new do
+
+  # Ensure that a fresh chutney instnace is running, and that it will
+  # be cleaned upon exit. We only do it once, though, since the same
+  # setup can be used throughout the same test suite run.
+  if not($chutney_initialized)
+    chutney_listen_address = $config["Chutney"]["listen_address"]
+    chutney_script = "#{chutney_src_dir}/chutney"
+    network_definition = "#{GIT_DIR}/features/chutney/test-network"
+    env = { 'CHUTNEY_LISTEN_ADDRESS' => chutney_listen_address }
+    chutney_cleanup_hook = Proc.new do
+      Dir.chdir(chutney_src_dir) do
+        cmd_helper([chutney_script, "stop", network_definition], env)
+        FileUtils.rm_r("#{chutney_src_dir}/net")
+      end
+    end
     Dir.chdir(chutney_src_dir) do
-      cmd_helper([chutney_script, "stop", network_definition], env)
-      FileUtils.rm_r("#{chutney_src_dir}/net")
+      begin
+        cmd_helper([chutney_script, "status", network_definition], env)
+      rescue Test::Unit::AssertionFailedError
+        # chutney is not running so we're good to set up a fresh
+        # instance.
+      else
+        # We clean up any previous (aborted/crashed) test suite run's
+        # chutney instance to ensure that we're running the current
+        # defined version of the simulated Tor network.
+        chutney_cleanup_hook.call
+      end
+      cmd_helper([chutney_script, "configure", network_definition], env)
+      cmd_helper([chutney_script, "start", network_definition], env)
     end
-  end
-  Dir.chdir(chutney_src_dir) do
-    begin
-      cmd_helper([chutney_script, "status", network_definition], env)
-    rescue Test::Unit::AssertionFailedError
-      # chutney is not running so we're good to set up a fresh
-      # instance.
-    else
-      # We clean up any previous (aborted/crashed) test suite run's
-      # chutney instance to ensure that we're running the current
-      # defined version of the simulated Tor network.
-      chutney_cleanup_hook.call
-    end
-    cmd_helper([chutney_script, "configure", network_definition], env)
-    cmd_helper([chutney_script, "start", network_definition], env)
-  end
-  # Let's only add this hook once
-  if not($chutney_cleanup_hook_added)
     at_exit do
       chutney_cleanup_hook.call
     end
-    $chutney_cleanup_hook_added = true
+    $chutney_initialized = true
   end
 
   # Most of these lines are taken from chutney's client template.
