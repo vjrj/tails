@@ -20,6 +20,7 @@ Feature: Microsoft Windows Camouflage
     And I see "WindowsSysTraySound.png" after at most 10 seconds
 
   Scenario: Windows should appear like those in Microsoft Windows
+    Given Tails is using a simulated Tor network
     When the network is plugged
     And Tor is ready
     And all notifications have disappeared

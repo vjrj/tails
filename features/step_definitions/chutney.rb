@@ -1,6 +1,5 @@
 When /^Tails is using a simulated Tor network$/ do
-  next if @skip_steps_while_restoring_background
-  assert(not(@vm.execute('service tor status').success?),
+  assert(not($vm.execute('service tor status').success?),
          "Running this step when Tor is running is probably not intentional")
 
   # Ensure that a fresh chutney instnace is running, and that it will
@@ -59,6 +58,6 @@ When /^Tails is using a simulated Tor network$/ do
   end
   client_torrc_lines.concat(dir_auth_lines)
   client_torrc_lines.each do |line|
-    @vm.file_append('/etc/tor/torrc', line)
+    $vm.file_append('/etc/tor/torrc', line)
   end
 end

@@ -7,6 +7,7 @@ Feature: Getting a DHCP lease without leaking too much information
 
   Background:
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     And I capture all network traffic
     And the network is plugged
     And Tor is ready

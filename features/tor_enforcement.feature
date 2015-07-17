@@ -65,6 +65,7 @@ Feature: The Tor enforcement is effective
     And the network is unplugged
     And I start the computer
     And the computer boots Tails
+    And Tails is using a simulated Tor network
     And I log in to a new session
     And the Tails desktop is ready
     And the system DNS is using the local DNS resolver

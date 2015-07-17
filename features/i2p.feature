@@ -5,8 +5,11 @@ Feature: I2P
 
   Scenario: I2P is disabled by default
     Given a computer
+    And the network is unplugged
     And I start the computer
     And the computer boots Tails
+    And Tails is using a simulated Tor network
+    And the network is plugged
     And I log in to a new session
     And the Tails desktop is ready
     And Tor is ready
@@ -17,9 +20,12 @@ Feature: I2P
 
   Scenario: I2P is enabled when the "i2p" boot parameter is added
     Given a computer
+    And the network is unplugged
     And I set Tails to boot with options "i2p"
     And I start the computer
     And the computer boots Tails
+    And Tails is using a simulated Tor network
+    And the network is plugged
     And I log in to a new session
     And the Tails desktop is ready
     And Tor is ready

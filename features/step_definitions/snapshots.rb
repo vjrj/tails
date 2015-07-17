@@ -24,6 +24,7 @@ def checkpoints
       :description => "Tails has booted from DVD and logged in and the network is connected",
       :parent_checkpoint => "no-network-logged-in",
       :steps => [
+        'Tails is using a simulated Tor network',
         'the network is plugged',
         'Tor is ready',
         'all notifications have disappeared',
@@ -47,6 +48,7 @@ def checkpoints
       :description => "Tails has booted from DVD and logged in with an administration password and the network is connected",
       :parent_checkpoint => "no-network-logged-in-sudo-passwd",
       :steps => [
+        'Tails is using a simulated Tor network',
         'the network is plugged',
         'Tor is ready',
         'all notifications have disappeared',

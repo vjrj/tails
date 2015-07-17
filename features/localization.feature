@@ -6,6 +6,7 @@ Feature: Localization
 
   Scenario: The Report an Error launcher will open the support documentation in supported non-English locales
     Given Tails has booted from DVD without network and stopped at Tails Greeter's login screen
+    And Tails is using a simulated Tor network
     And the network is plugged
     And I log in to a new session in German
     And Tails seems to have booted normally

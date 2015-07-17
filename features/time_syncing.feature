@@ -6,12 +6,14 @@ Feature: Time syncing
 
   Scenario: Clock with host's time
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     When the network is plugged
     And Tor is ready
     Then Tails clock is less than 5 minutes incorrect
 
   Scenario: Clock is one day in the past
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     When I bump the system time with "-1 day"
     And the network is plugged
     And Tor is ready
@@ -19,6 +21,7 @@ Feature: Time syncing
 
   Scenario: Clock is one day in the future
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     When I bump the system time with "+1 day"
     And the network is plugged
     And Tor is ready
@@ -26,6 +29,7 @@ Feature: Time syncing
 
   Scenario: Clock way in the future
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     When I set the system time to "01 Jan 2020 12:34:56"
     And the network is plugged
     And Tor is ready
@@ -33,6 +37,7 @@ Feature: Time syncing
 
   Scenario: The system time is not synced to the hardware clock
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     When I bump the system time with "-15 days"
     And I warm reboot the computer
     And the computer reboots Tails
@@ -40,6 +45,7 @@ Feature: Time syncing
 
   Scenario: Anti-test: Changes to the hardware clock are kept when rebooting
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     When I bump the hardware clock's time with "-15 days"
     And I warm reboot the computer
     And the computer reboots Tails

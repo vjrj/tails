@@ -109,6 +109,7 @@ Feature: Browsing the web using the Tor Browser
 
   Scenario: The persistent Tor Browser directory is usable
     Given Tails has booted without network from a USB drive with a persistent partition and stopped at Tails Greeter's login screen
+    And Tails is using a simulated Tor network
     And the network is plugged
     When I enable persistence
     And I log in to a new session

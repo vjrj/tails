@@ -31,6 +31,7 @@ Feature: Various checks
 
   Scenario: The "Report an Error" launcher will open the support documentation
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     And the network is plugged
     And Tor is ready
     And all notifications have disappeared
@@ -45,6 +46,7 @@ Feature: Various checks
 
   Scenario: No initial network
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     And I wait between 30 and 60 seconds
     When the network is plugged
     And Tor is ready
@@ -54,18 +56,21 @@ Feature: Various checks
 
   Scenario: The 'Tor is ready' notification is shown when Tor has bootstrapped
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     And the network is plugged
     When I see the 'Tor is ready' notification
     Then Tor is ready
 
   Scenario: The tor process should be confined with Seccomp
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     And the network is plugged
     And Tor is ready
     Then the running process "tor" is confined with Seccomp in filter mode
 
   Scenario: No unexpected network services
     Given Tails has booted from DVD without network and logged in
+    And Tails is using a simulated Tor network
     When the network is plugged
     And Tor is ready
     Then no unexpected services are listening for network connections
