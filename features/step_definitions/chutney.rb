@@ -1,5 +1,31 @@
 When /^Tails is using a simulated Tor network$/ do
   next if @skip_steps_while_restoring_background
+
+  # At the moment this step essentially assumes that we boot with 'the
+  # network is unplugged', run this step, and then 'the network is
+  # plugged'. I believe we can make this pretty transparent without
+  # the need of a dedicated step by using tags (e.g. @fake_tor or
+  # whatever -- possibly we want the opposite, @real_tor,
+  # instead).
+  #
+  # There are two time points where we for a scenario must ensure that
+  # the client configuration below is enabled if and only if the
+  # scenario is tagged, and that is:
+  #
+  # 1. During a proper boot, as soon as the remote shell is up in the
+  #    'the computer boots Tails' step.
+  #
+  # 2. When restoring a snapshot, in restore_background().
+  #
+  # If we do this, it doesn't even matter if a snapshot is made of an
+  # untagged scenario (without the conf), and we later restore it with
+  # a tagged scenario.
+  #
+  # Note: We probably have to clear the /var/lib/tor data dir when we
+  # switch mode. Possibly there are other such problems that make this
+  # abstraction impractical and it's better that we avoid it an go
+  # with the more explicit, step-based approach.
+
   assert(not(@vm.execute('service tor status').success?),
          "Running this step when Tor is running is probably not intentional")
 
