@@ -18,3 +18,13 @@ chown -R debian-tor:debian-tor /etc/tor
 # in /home/amnesia (that is itself not world-readable), *but* the root
 # of the persistent volume has to be world-readable.
 chmod -R go= /etc/skel/* /etc/skel/.[a-z]*
+
+
+# Allow members of the 'auditlog' group to read logs produced by auditd.
+# See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759604
+# and https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=670305#35
+# for the rationale.
+# XXX: dpkg-statoverride doesn't work (no idea why)
+addgroup --system --gid 180 auditlog
+chgrp auditlog /var/log/audit
+chmod 2750 /var/log/audit

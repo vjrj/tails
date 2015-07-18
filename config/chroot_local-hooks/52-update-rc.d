@@ -9,6 +9,7 @@ tails-kexec
 tails-reconfigure-kexec
 tails-reconfigure-memlockd
 tails-sdmem-on-media-removal
+tails-set-audit-log-permissions
 tails-set-wireless-devices-state
 tor-controlport-filter
 "
