@@ -1,0 +1,17 @@
+#!/bin/sh
+
+echo "- enforcing AppArmor profiles"
+
+# These profiles are shipped in complain mode in Debian,
+# but we want to enforce them.
+
+(
+   cd /etc/apparmor.d
+   /usr/sbin/aa-enforce \
+       bin.ping              \
+       usr.sbin.avahi-daemon \
+       usr.sbin.traceroute
+)
+
+# Creating state file
+touch /var/lib/live/config/enforce-AppArmor-profiles
