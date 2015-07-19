@@ -1,0 +1,9 @@
+--- a/etc/apparmor/notify.conf	2015-07-19 13:19:31.272264000 +0000
++++ b/etc/apparmor/notify.conf	2015-07-19 13:19:49.636264000 +0000
+@@ -12,4 +12,4 @@
+ show_notifications="yes"
+ 
+ # Only people in use_group can use apparmor-notify
+-use_group="sudo"
++use_group="auditlog"
+
