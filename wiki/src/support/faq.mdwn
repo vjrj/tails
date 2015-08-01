@@ -560,7 +560,7 @@ Can I download using BitTorrent with Tails?
 Tails does not ship any BitTorrent software and is unlikely to do so in the
 future.
 
-The problem with using BitTorrent over Tor is double:
+The problem with using BitTorrent over Tor is twofold:
 
   - It is technically hard to do it properly, see:
     <https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea>.
@@ -569,6 +569,15 @@ The problem with using BitTorrent over Tor is double:
 
 We have relatively vague [[!tails_ticket 5991 desc="plans to improve
 on this situation"]].
+
+Meanwhile, if you want to use BitTorrent in Tails is better
+to use the <span class="application">I2P</span> network:
+
+  - Read our documentation to enable [[I2P|doc/anonymous_internet/i2p/]]
+  - You can read more about torrents in the [[I2P
+    webpage|https://geti2p.net/en/docs/applications/bittorrent]].
+  - To install the torrent software you can consult [[our
+    documentation|doc/advanced_topics/additional_software/]].
 
 <a id="desktop"></a>
 
