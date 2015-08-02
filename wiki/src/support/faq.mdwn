@@ -568,16 +568,20 @@ The problem with using BitTorrent over Tor is twofold:
     <https://blog.torproject.org/blog/why-tor-is-slow>.
 
 We have relatively vague [[!tails_ticket 5991 desc="plans to improve
-on this situation"]].
-
-Meanwhile, if you want to use BitTorrent in Tails is better
+on this situation"]]. Meanwhile, if you want to use BitTorrent in Tails is better
 to use the <span class="application">I2P</span> network:
 
   - Read our documentation to enable [[I2P|doc/anonymous_internet/i2p/]]
   - You can read more about torrents in the [[I2P
     webpage|https://geti2p.net/en/docs/applications/bittorrent]].
-  - To install the torrent software you can consult [[our
-    documentation|doc/advanced_topics/additional_software/]].
+  - The torrent client is available by default in <span class="application">I2P
+    Browser</span> at http://127.0.0.1:7657/i2psnark or via the "Torrents" links in
+    the router console.
+  - Regular BitTorrent clients don't work on I2P; any torrent client needs
+    to know how to "speak" I2P and very (very) few can do this.
+  - It is [[hard to exchange files with the I2P
+    Browser|support/known_issues#i2p_browser]].
+
 
 <a id="desktop"></a>
 
