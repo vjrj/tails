@@ -93,3 +93,9 @@ pref("browser.newtabpage.introShown", true);
 // add-on localizes search-engines in an incompatible but equivalent
 // way.
 pref("browser.search.geoSpecificDefaults", false);
+
+// Firefox' new search bar only shows icons which makes it hard to
+// distinguish between localized and English search plugins of the
+// same site, e.g. Wikipedia. Hence we temporary revert back to the
+// old search bar. See tickets: #9931, #9951
+pref("browser.search.showOneOffButtons", false);
