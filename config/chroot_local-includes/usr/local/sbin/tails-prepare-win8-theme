@@ -49,6 +49,14 @@ _EOF
     chmod 755 "/usr/bin/${x}"
 done
 
+# LibreOffice uses a different option name:
+dpkg-divert --add --rename --divert /usr/bin/soffice-real /usr/bin/soffice
+cat > /usr/bin/soffice <<_EOF
+#!/bin/sh
+/usr/bin/soffice-real --no-logo "\$@"
+_EOF
+chmod 755 /usr/bin/soffice
+
 # Early set some gsettings
 # Only setting all of them in this script fails
 # Icon theme
