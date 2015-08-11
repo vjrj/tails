@@ -442,15 +442,13 @@ Given /^I save the state so the background can be restored next scenario$/ do
   @skip_steps_while_restoring_background = false
 end
 
-Then /^I see "([^"]*)" after at most (\d+) seconds$/ do |image, time|
+Then /^I (do not )?see "([^"]*)" after at most (\d+) seconds$/ do |negation, image, time|
   next if @skip_steps_while_restoring_background
-  @screen.wait(image, time.to_i)
-end
-
-Then /^I don't see "([^"]*)"$/ do |image|
-  next if @skip_steps_while_restoring_background
-  if @screen.exists(image)
-    raise "Found #{image}"
+  begin
+    @screen.wait(image, time.to_i)
+    raise "found '#{image}' while expecting not to" if negation
+  rescue FindFailed => e
+    raise e if not(negation)
   end
 end
 
@@ -1108,6 +1106,55 @@ def force_new_tor_circuit(with_vidalia=nil)
     @screen.waitVanish('VidaliaNewIdentityNotification.png', 60)
   else
     @vm.execute_successfully('. /usr/local/lib/tails-shell-library/tor.sh; tor_control_send "signal NEWNYM"')
+  end
+end
+
+Given /^I wait (?:between (\d+) and )?(\d+) seconds$/ do |min, max|
+  next if @skip_steps_while_restoring_background
+  if min
+    time = rand(max.to_i - min.to_i + 1) + min.to_i
+  else
+    time = max.to_i
+  end
+  puts "Slept for #{time} seconds"
+  sleep(time)
+end
+
+Given /^I (?:re)?start monitoring the AppArmor log of "([^"]+)"$/ do |profile|
+  next if @skip_steps_while_restoring_background
+  # AppArmor log entries may be dropped if printk rate limiting is
+  # enabled.
+  @vm.execute_successfully('sysctl -w kernel.printk_ratelimit=0')
+  # We will only care about entries for this profile from this time
+  # and on.
+  guest_time = DateTime.parse(@vm.execute_successfully('date').stdout)
+  @apparmor_profile_monitoring_start ||= Hash.new
+  @apparmor_profile_monitoring_start[profile] = guest_time
+end
+
+When /^AppArmor has (not )?denied "([^"]+)" from opening "([^"]+)"(?: after at most (\d+) seconds)?$/ do |anti_test, profile, file, time|
+  next if @skip_steps_while_restoring_background
+  assert(@apparmor_profile_monitoring_start &&
+         @apparmor_profile_monitoring_start[profile],
+         "It seems the profile '#{profile}' isn't being monitored by the " +
+         "'I monitor the AppArmor log of ...' step")
+  audit_line_regex = 'apparmor="DENIED" operation="open" profile="%s" name="%s"' % [profile, file]
+  block = Proc.new do
+    audit_lines = @vm.execute("grep -F '#{audit_line_regex}' /var/log/syslog").stdout.split("\n")
+    audit_lines.select! do |line|
+      DateTime.parse(line) >= @apparmor_profile_monitoring_start[profile]
+    end
+    assert(audit_lines.empty? == (anti_test ? true : false))
+    true
+  end
+  begin
+    if time
+      try_for(time.to_i) { block.call }
+    else
+      block.call
+    end
+  rescue Timeout::Error, Test::Unit::AssertionFailedError => e
+    raise e, "AppArmor has #{anti_test ? "" : "not "}denied the operation"
   end
 end
 
