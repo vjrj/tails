@@ -18,4 +18,4 @@ With <span class="application">Tails OpenPGP Applet</span> you can:
   - [[Decrypt and verify text|encryption_and_privacy/gpgapplet/decrypt_verify]]
 
 Note that the applet doesn't manage your keys, that is done by
-[[Seahorse|doc/encryption_and_privacy/seahorse]].
+[[<span class="application">Passwords and Keys</span>|doc/encryption_and_privacy/seahorse]].
