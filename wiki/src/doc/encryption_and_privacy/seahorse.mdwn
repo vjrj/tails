@@ -6,11 +6,11 @@ computer, and secure when you send information over a network.
 
 Using <span class="application">Passwords and Keys</span>, you can:
 
+* Create and manage OpenPGP keys.
+* Create and manage SSH keys.
 * Copy and save passwords that are difficult to remember. Tails also
   ships [[KeePassX|doc/encryption_and_privacy/manage_passwords]] to
   manage passwords.
-* Create and manage OpenPGP keys.
-* Create and manage SSH keys.
 
 To start <span class="application">Passwords and Keys</span> choose
 <span class="menuchoice">
