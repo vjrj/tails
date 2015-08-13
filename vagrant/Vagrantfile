@@ -50,11 +50,16 @@ else
     config.vm.provision "shell",
       inline: "sudo http_proxy='#{ENV['http_proxy']}' /vagrant/provision/setup-tails-builder"
 
-    config.vm.synced_folder '../.git', '/amnesia.git'
-
-    config.vm.provider :virtualbox do |vb|
-      vb.customize ['modifyvm', :id, '--memory', mem_size]
-      vb.customize ['modifyvm', :id, '--cpus', cpus] unless cpus.nil?
+    config.vm.provider :libvirt do |libvirt|
+      libvirt.driver = "qemu"
+      libvirt.storage_pool_name = "default"
+      if ENV['TAILS_RAM_BUILD']
+        libvirt.memory = VM_MEMORY_FOR_RAM_BUILDS.to_i
+      else
+        libvirt.memory = VM_MEMORY_FOR_DISK_BUILDS.to_i
+      end
+      libvirt.cpus = ENV['TAILS_BUILD_CPUS'].to_i
     end
+
   end
 end

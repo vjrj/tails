@@ -18,6 +18,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'libvirt'
+
 require 'rbconfig'
 require 'rubygems'
 require 'vagrant'
@@ -41,6 +43,11 @@ EXTERNAL_HTTP_PROXY = ENV['http_proxy']
 
 # In-VM proxy URL
 INTERNEL_HTTP_PROXY = "http://#{VIRTUAL_MACHINE_HOSTNAME}:3142"
+
+def env
+  env = Vagrant::Environment.new(:cwd => VAGRANT_PATH,
+                                 :ui_class => Vagrant::UI::Basic)
+end
 
 def primary_vm
   env = Vagrant::Environment.new(:cwd => VAGRANT_PATH, :ui_class => Vagrant::UI::Basic)
@@ -68,7 +75,6 @@ def primary_vm_chan
   end
 end
 
-
 def vm_id
   if vagrant_old
     primary_vm.uuid
@@ -86,12 +92,11 @@ def vm_driver
 end
 
 def current_vm_cpus
-  info = vm_driver.execute 'showvminfo', vm_id, '--machinereadable'
-  $1.to_i if info =~ /^cpus=(\d+)/
+  primary_vm.provider_config.cpus
 end
 
 def vm_running?
-  primary_vm_state == :running
+  primary_vm.state.id == :running
 end
 
 def enough_free_host_memory_for_ram_build?
@@ -238,8 +243,28 @@ task :validate_http_proxy do
   end
 end
 
+task :refresh_remote_tails_source => ['vm:up'] do
+  primary_vm.communicate.execute("rm -Rf /home/vagrant/amnesia.git")
+  primary_vm.communicate.upload("#{Dir.pwd}/.git", "/home/vagrant/amnesia.git")
+end
+
+task :validate_remote_tails_source do
+  local_commit = `git --git-dir=#{Dir.pwd}/.git rev-parse HEAD`
+  vagrant_commit = ""
+  status = primary_vm.communicate.execute("git --git-dir=/home/vagrant/amnesia.git " +
+                                  "rev-parse HEAD",
+                                  :error_check => false) do |fd, data|
+    vagrant_commit = data
+  end
+  abort "Vagrant `git rev-parse` failed." if status != 0
+
+  if local_commit != vagrant_commit
+    abort "Mismatching HEAD in local and Vagrant Git repositories."
+  end
+end
+
 desc 'Build Tails'
-task :build => ['parse_build_options', 'ensure_clean_repository', 'validate_http_proxy', 'vm:up'] do
+task :build => ['parse_build_options', 'ensure_clean_repository', 'validate_http_proxy', 'vm:up', 'refresh_remote_tails_source', 'validate_remote_tails_source'] do
 
   if ENV['TAILS_RAM_BUILD'] && not(enough_free_memory_for_ram_build?)
     $stderr.puts <<-END_OF_MESSAGE.gsub(/^      /, '')
@@ -267,7 +292,7 @@ task :build => ['parse_build_options', 'ensure_clean_repository', 'validate_http
 
   exported_env = EXPORTED_VARIABLES.select { |k| ENV[k] }.
                   collect { |k| "#{k}='#{ENV[k]}'" }.join(' ')
-  status = primary_vm_chan.execute("#{exported_env} build-tails",
+  status = primary_vm.communicate.execute("#{exported_env} build-tails",
                                    :error_check => false) do |fd, data|
     (fd == :stdout ? $stdout : $stderr).write data
   end
@@ -275,6 +300,15 @@ task :build => ['parse_build_options', 'ensure_clean_repository', 'validate_http
   # Move build products to the current directory
   FileUtils.mv Dir.glob("#{VAGRANT_PATH}/tails-*"),
                File.expand_path('..', __FILE__), :force => true
+  primary_vm.communicate.sudo("ls -1 /vagrant/tails-*.iso*",
+                         :error_check => false) do |fd, data|
+    if fd == :stdout
+      for f in data.split("\n")
+        primary_vm.communicate.download(f, Dir.pwd)
+        primary_vm.communicate.sudo("rm -f '#{f}'", :error_check => false)
+      end
+    end
+  end
 
   exit status
 end
@@ -282,7 +316,7 @@ end
 namespace :vm do
   desc 'Start the build virtual machine'
   task :up => ['parse_build_options', 'validate_http_proxy'] do
-    case primary_vm_state
+    case primary_vm.state.id
     when :not_created
       # Do not use non-existant in-VM proxy to download the basebox
       if ENV['http_proxy'] == INTERNEL_HTTP_PROXY
@@ -313,7 +347,7 @@ namespace :vm do
       END_OF_MESSAGE
     end
     env = Vagrant::Environment.new(:cwd => VAGRANT_PATH, :ui_class => Vagrant::UI::Basic)
-    result = env.cli('up')
+    result = env.cli('up', '--provider=libvirt')
     abort "'vagrant up' failed" unless result
 
     ENV['http_proxy'] = INTERNEL_HTTP_PROXY if restore_internal_proxy
@@ -321,21 +355,18 @@ namespace :vm do
 
   desc 'Stop the build virtual machine'
   task :halt do
-    env = Vagrant::Environment.new(:cwd => VAGRANT_PATH, :ui_class => Vagrant::UI::Basic)
     result = env.cli('halt')
     abort "'vagrant halt' failed" unless result
   end
 
   desc 'Re-run virtual machine setup'
   task :provision => ['parse_build_options', 'validate_http_proxy'] do
-    env = Vagrant::Environment.new(:cwd => VAGRANT_PATH, :ui_class => Vagrant::UI::Basic)
     result = env.cli('provision')
     abort "'vagrant provision' failed" unless result
   end
 
   desc 'Destroy build virtual machine (clean up all files)'
   task :destroy do
-    env = Vagrant::Environment.new(:cwd => VAGRANT_PATH, :ui_class => Vagrant::UI::Basic)
     result = env.cli('destroy', '--force')
     abort "'vagrant destroy' failed" unless result
   end
