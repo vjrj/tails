@@ -560,7 +560,7 @@ Can I download using BitTorrent with Tails?
 Tails does not ship any BitTorrent software and is unlikely to do so in the
 future.
 
-The problem with using BitTorrent over Tor is twofold:
+There are two problems with using BitTorrent over Tor:
 
   - It is technically hard to do it properly, see:
     <https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea>.
