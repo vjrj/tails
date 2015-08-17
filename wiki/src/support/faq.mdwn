@@ -568,8 +568,8 @@ There are two problems with using BitTorrent over Tor:
     <https://blog.torproject.org/blog/why-tor-is-slow>.
 
 We have relatively vague [[!tails_ticket 5991 desc="plans to improve
-on this situation"]]. Meanwhile, if you want to use BitTorrent in Tails is better
-to use the <span class="application">I2P</span> network:
+on this situation"]]. Meanwhile, you can use BitTorrent over
+<span class="application">I2P</span>:
 
   - Read our documentation to enable [[I2P|doc/anonymous_internet/i2p/]]
   - You can read more about torrents in the [[I2P
