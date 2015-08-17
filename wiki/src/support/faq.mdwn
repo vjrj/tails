@@ -577,8 +577,8 @@ on this situation"]]. Meanwhile, you can use BitTorrent over
   - The torrent client is available from the <span class="application">I2P
     Browser</span> at <span class="filename">http://127.0.0.1:7657/i2psnark</span> or from the <span class="guilabel">Torrents</span> links in
     the router console.
-  - Regular BitTorrent clients don't work on I2P; any torrent client needs
-    to know how to "speak" I2P and very (very) few can do this.
+  - Regular BitTorrent clients don't work on I2P. Any BitTorrent client needs
+    to know how to "speak" I2P and very few can do this.
   - It is [[hard to exchange files with the I2P
     Browser|support/known_issues#i2p_browser]].
 
