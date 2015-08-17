@@ -571,10 +571,10 @@ We have relatively vague [[!tails_ticket 5991 desc="plans to improve
 on this situation"]]. Meanwhile, you can use BitTorrent over
 <span class="application">I2P</span>:
 
-  - Read our documentation to enable [[I2P|doc/anonymous_internet/i2p]].
+  - Read our documentation on how to enable [[I2P|doc/anonymous_internet/i2p]].
   - You can read more about torrents in the [[I2P
     webpage|https://geti2p.net/en/docs/applications/bittorrent]].
-  - The torrent client is available by default in <span class="application">I2P
+  - The torrent client is available in <span class="application">I2P
     Browser</span> at http://127.0.0.1:7657/i2psnark or via the "Torrents" links in
     the router console.
   - Regular BitTorrent clients don't work on I2P; any torrent client needs
