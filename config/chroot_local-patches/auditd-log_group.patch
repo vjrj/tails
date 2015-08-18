@@ -1,0 +1,12 @@
+--- a/etc/audit/auditd.conf	2015-08-18 15:29:03.147960460 +0000
++++ b/etc/audit/auditd.conf	2015-08-18 15:29:26.320243775 +0000
+@@ -4,7 +4,7 @@
+ 
+ log_file = /var/log/audit/audit.log
+ log_format = RAW
+-log_group = root
++log_group = auditlog
+ priority_boost = 4
+ flush = INCREMENTAL
+ freq = 20
+
