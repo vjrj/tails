@@ -202,6 +202,9 @@ Upgrade by cloning
 Upgrade from ISO
 ----------------
 
+From within Tails
+=================
+
 1. Start Tails from another DVD, USB stick, or SD card, than the device that you
    want to upgrade.
 
@@ -239,3 +242,15 @@ Upgrade from ISO
 
 7. Read the warning message in the pop-up window. Click on the <span
    class="button">Yes</span> button to confirm.
+
+Using Tails Installer on a Debian based distribution
+====================================================
+
+If you installed the tails-installer package on a Debian based distribution, 
+you will be able to upgrade a Tails system on a plugged in USB stick from there.
+
+1. Launch Tails Installer.
+
+2. Choose <span class="guilabel">Upgrade</span>.
+
+3. Follow steps 4 - 7 of "From within Tails".
