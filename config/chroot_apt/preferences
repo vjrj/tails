@@ -86,19 +86,19 @@ Package: linux-headers-amd64:amd64
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-4.1.0-1-common
+Package: linux-headers-4.1.0-2-common
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-4.1.0-1-586
+Package: linux-headers-4.1.0-2-586
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-4.1.0-1-686-pae
+Package: linux-headers-4.1.0-2-686-pae
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-4.1.0-1-amd64:amd64
+Package: linux-headers-4.1.0-2-amd64:amd64
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
@@ -114,15 +114,15 @@ Package: linux-image-amd64:amd64
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-4.1.0-1-586
+Package: linux-image-4.1.0-2-586
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-4.1.0-1-686-pae
+Package: linux-image-4.1.0-2-686-pae
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-4.1.0-1-amd64:amd64
+Package: linux-image-4.1.0-2-amd64:amd64
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
