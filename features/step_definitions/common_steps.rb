@@ -74,8 +74,11 @@ def post_snapshot_restore_hook
 end
 
 Given /^a computer$/ do
-  $vm.destroy_and_undefine if $vm
-  $vm = VM.new($virt, VM_XML_PATH, $vmnet, $vmstorage, DISPLAY)
+  if $vm
+    $vm.reset_domain
+  else
+    $vm = VM.new($virt, VM_XML_PATH, $vmnet, $vmstorage, DISPLAY)
+  end
 end
 
 Given /^the computer has (\d+) ([[:alpha:]]+) of RAM$/ do |size, unit|

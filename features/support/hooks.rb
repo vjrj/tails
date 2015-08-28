@@ -112,7 +112,7 @@ After('@product') do |scenario|
       STDIN.gets
     end
   end
-  $vm.destroy_and_undefine if $vm
+  $vm.power_off if $vm
 end
 
 Before('@product', '@check_tor_leaks') do |scenario|
@@ -171,6 +171,7 @@ at_exit do
   if $virt
     unless KEEP_SNAPSHOTS
       VM.remove_all_snapshots
+      $vm.destroy_and_undefine if $vm
       $vmstorage.clear_pool
     end
     $vmnet.destroy_and_undefine

@@ -1,5 +1,6 @@
 require 'libvirt'
 require 'rexml/document'
+require 'securerandom'
 
 class ExecutionFailedInVM < StandardError
 end
@@ -66,36 +67,43 @@ class VM
     @vmnet = vmnet
     @storage = storage
     @domain_name = $config["LIBVIRT_DOMAIN_NAME"]
-    default_domain_xml = File.read("#{@xml_path}/default.xml")
-    rexml = REXML::Document.new(default_domain_xml)
-    rexml.elements['domain'].add_element('name')
-    rexml.elements['domain/name'].text = @domain_name
-    rexml.elements['domain'].add_element('uuid')
-    rexml.elements['domain/uuid'].text = $config["LIBVIRT_DOMAIN_UUID"]
-    update(rexml.to_s)
+    begin
+      @domain = @virt.lookup_domain_by_name(@domain_name)
+      @domain_uuid = @domain.uuid
+      @domain.destroy if @domain.active?
+    rescue Libvirt::RetrieveError
+      @domain_uuid = SecureRandom.uuid
+    end
+    reset_domain
     @display = Display.new(@domain_name, x_display)
-    set_cdrom_boot(TAILS_ISO)
-    plug_network
   rescue Exception => e
     destroy_and_undefine
     raise e
   end
 
+  def default_xml
+    default_xml = File.read("#{@xml_path}/default.xml")
+    default_rexml = REXML::Document.new(default_xml)
+    default_rexml.elements['domain'].add_element('name')
+    default_rexml.elements['domain/name'].text = @domain_name
+    default_rexml.elements['domain'].add_element('uuid')
+    default_rexml.elements['domain/uuid'].text = @domain_uuid
+    default_rexml.to_s
+  end
+
   def update(xml)
-    destroy_and_undefine
     @domain = @virt.define_domain_xml(xml)
   end
 
-  # We lookup by name so we also catch domains from previous test
-  # suite runs that weren't properly cleaned up (e.g. aborted).
+  def reset_domain
+    update(default_xml)
+    set_cdrom_boot(TAILS_ISO)
+    plug_network
+  end
+
   def destroy_and_undefine
-    @display.stop if @display && @display.active?
-    begin
-      old_domain = @virt.lookup_domain_by_name(@domain_name)
-      old_domain.destroy if old_domain.active?
-      old_domain.undefine
-    rescue
-    end
+    power_off
+    @domain.undefine
   end
 
   def set_hardware_clock(time)
@@ -596,7 +604,7 @@ EOF
 
   def power_off
     @domain.destroy if is_running?
-    @display.stop
+    @display.stop if @display && @display.active?
   end
 
   def take_screenshot(description)
