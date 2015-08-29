@@ -42,6 +42,14 @@ Package: florence
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
 
+Package: fonts-noto
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
+Package: fonts-noto-*
+Pin: release o=Debian,a=unstable
+Pin-Priority: 999
+
 Package: gnupg-agent
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
