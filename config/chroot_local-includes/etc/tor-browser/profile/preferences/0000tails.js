@@ -69,6 +69,8 @@ pref("noscript.forbidPlugins", true);
 
 // Other Tails-specific NoScript preferences
 pref("noscript.untrusted", "google-analytics.com");
+pref("noscript.ABE.enabled", true);
+pref("noscript.ABE.rulesets.SYSTEM", "# Prevent Internet sites from requesting LAN resources.\r\nSite LOCAL\r\nAccept from LOCAL\r\nDeny\r\n\r\n# Tails website hardening\r\nSite https://tails.boum.org/news/*\r\nSandbox # this disables JavaScript and plugins");
 
 // Other non-Torbutton, Tails-specific prefs
 pref("browser.download.dir", "/home/amnesia/Tor Browser");
