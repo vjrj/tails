@@ -219,15 +219,6 @@ start_notification_helper() {
 
 ### Main
 
-# When the network is obstacled (e.g. we need a bridge) we wait until
-# Tor Launcher has unset DisableNetwork, since Tor's bootstrapping
-# won't start until then.
-if [ "$(tails_netconf)" = "obstacle" ]; then
-	until [ "$(tor_control_getconf DisableNetwork)" = 0 ]; do
-		sleep 1
-	done
-fi
-
 start_notification_helper
 
 # Delegate time setting to other daemons if Tor connections work
