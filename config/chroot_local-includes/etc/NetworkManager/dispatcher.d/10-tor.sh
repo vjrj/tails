@@ -71,5 +71,5 @@ if [ "$(tails_netconf)" = "obstacle" ]; then
         sleep 1
     done
 else
-    restart-tor
+    ( restart-tor ) &
 fi
