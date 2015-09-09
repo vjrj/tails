@@ -3,10 +3,19 @@
 We recommend using <span class="application">Tails Installer</span> to
 install Tails on a USB stick.
 
-<span class="application">Tails Installer</span> is available from inside Tails and on
-Debian-based distributions.
-So you either need to start Tails from a first media, and later clone it onto the device of
-your choice, USB stick or SD card or install the tails-installer package.
+<span class="application">Tails Installer</span> is available:
+
+  - in Debian and Ubuntu
+  - in Tails itself
+
+If you are not using Debian or Ubuntu, you can start Tails temporarily
+from another media. For example, you can:
+
+   - Start Tails from a [[Tails DVD|dvd]] (recommended).
+   - Start Tails from another Tails USB stick or SD card, for example from a
+     friend.
+   - [[Manually install Tails onto another USB or SD card|installation/manual]]
+     and start *Tails Installer* from it.
 
 <div class="tip">
 
@@ -34,15 +43,7 @@ from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|pe
 Use Tails Installer within Tails
 --------------------------------
 
-1. Get a first Tails running. To do so you can either:
-
-   - Start Tails from a [[Tails DVD|dvd]] (recommended).
-   - Start Tails from another Tails USB stick or SD card, for example from a
-     friend.
-   - [[Manually install Tails onto another USB or SD card|installation/manual]]
-     and start *Tails Installer* from it.
-
-2. From within Tails, choose
+1. From within Tails, choose
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
      <span class="guisubmenu">Tails</span>&nbsp;▸
