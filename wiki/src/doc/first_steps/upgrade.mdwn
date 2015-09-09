@@ -220,6 +220,8 @@ Upgrade from ISO in Tails
 Upgrade from ISO in Debian or Ubuntu
 ------------------------------------
 
+[[!inline pages="doc/first_steps/installation/apt-install.inline" raw="yes"]]
+
 1. Start <span class="application">Tails Installer</span>.
 
 2. Choose <span class="guilabel">Upgrade</span>.

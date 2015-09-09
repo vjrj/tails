@@ -69,10 +69,7 @@ Using Tails Installer in another Debian based distribution
 
 -->
 
-1. Install the <span class="code">tails-installer</span> package, for
-   example by executing the following command:
-
-       sudo apt-get install tails-installer
+[[!inline pages="doc/first_steps/installation/apt-install.inline" raw="yes"]]
 
 2. Start <span class="application">Tails Installer</span>.
 

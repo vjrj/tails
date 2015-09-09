@@ -1,0 +1,4 @@
+1. Install the <span class="code">tails-installer</span> package, for
+   example by executing the following command:
+
+       sudo apt-get install tails-installer
