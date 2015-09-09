@@ -7,7 +7,6 @@
    drop-down list.
 
    <div class="caution">
-
    <ul>
    <li><strong>All the data on the installed device will be
    lost.</strong></li>
@@ -17,7 +16,6 @@
    <li><strong>This operation does not copy the persistent volume of the
    device which is being cloned.</strong></li>
    </ul>
-
    </div>
 
 6. To start the installation, click on the <span
