@@ -143,10 +143,10 @@ In that case, <span class="application">Tails Installer</span> allows you to
 manually upgrade a USB stick or SD card to a newer version of Tails. Using <span
 class="application">Tails Installer</span> you can either:
 
-  - [[Upgrade by cloning from another device|upgrade#clone]] which already
-    runs a newer version of Tails.
   - [[Upgrade from an ISO image|upgrade#from_iso]] of a newer version of
     Tails.
+  - [[Upgrade by cloning from another device|upgrade#clone]] which already
+    runs a newer version of Tails.
 
 <div class="note">
 
@@ -165,6 +165,45 @@ To know the version of a running Tails, choose
 </span>
 
 </div>
+
+Upgrade from ISO in Debian or Ubuntu
+------------------------------------
+
+<!--
+
+1. XXX: activate backports?
+   XXX: PPA?
+   XXX: apt link for Ubuntu?
+
+-->
+
+[[!inline pages="doc/first_steps/installation/apt-install.inline" raw="yes"]]
+
+1. Start <span class="application">Tails Installer</span>.
+
+2. Choose <span class="guilabel">Upgrade</span>.
+
+[[!inline pages="doc/first_steps/upgrade/from-iso.inline" raw="yes"]]
+
+<a id="from_iso"></a>
+
+Upgrade from ISO in Tails
+-------------------------
+
+1. Start Tails from another DVD, USB stick, or SD card, than the device that you
+   want to upgrade.
+
+2. Choose
+   <span class="menuchoice">
+     <span class="guimenu">Applications</span>&nbsp;▸
+     <span class="guisubmenu">Tails</span>&nbsp;▸
+     <span class="guimenuitem">Tails Installer</span>
+   </span>
+   to start <span class="application">Tails Installer</span>.
+
+3. Choose <span class="guilabel">Upgrade from ISO</span>.
+
+[[!inline pages="doc/first_steps/upgrade/from-iso.inline" raw="yes"]]
 
 <a id="clone"></a>
 
@@ -196,42 +235,3 @@ Upgrade by cloning
 
 7. Read the warning message in the pop-up window. Click on the <span
    class="button">Yes</span> button to confirm.
-
-<a id="from_iso"></a>
-
-Upgrade from ISO in Tails
--------------------------
-
-1. Start Tails from another DVD, USB stick, or SD card, than the device that you
-   want to upgrade.
-
-2. Choose
-   <span class="menuchoice">
-     <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">Tails Installer</span>
-   </span>
-   to start <span class="application">Tails Installer</span>.
-
-3. Choose <span class="guilabel">Upgrade from ISO</span>.
-
-[[!inline pages="doc/first_steps/upgrade/from-iso.inline" raw="yes"]]
-
-Upgrade from ISO in Debian or Ubuntu
-------------------------------------
-
-<!--
-
-1. XXX: activate backports?
-   XXX: PPA?
-   XXX: apt link for Ubuntu?
-
--->
-
-[[!inline pages="doc/first_steps/installation/apt-install.inline" raw="yes"]]
-
-1. Start <span class="application">Tails Installer</span>.
-
-2. Choose <span class="guilabel">Upgrade</span>.
-
-[[!inline pages="doc/first_steps/upgrade/from-iso.inline" raw="yes"]]
