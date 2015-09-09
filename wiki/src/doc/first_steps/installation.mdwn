@@ -27,8 +27,8 @@ from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|pe
 </div>
 
 <span class="application">Tails Installer</span> is available from inside Tails and on
-Debian-based distributions. 
-So you either need to start Tails from a first media, and later clone it onto the device of 
+Debian-based distributions.
+So you either need to start Tails from a first media, and later clone it onto the device of
 your choice, USB stick or SD card or install the tails-installer package.
 
 Use Tails Installer within Tails
@@ -94,7 +94,7 @@ Use Tails Installer within another Debian based distribution
 
 2. You can find Tails Installer in the list of applications. Launch it.
 
-3. To install onto a new device, click on the <span class="button">Install</span> 
+3. To install onto a new device, click on the <span class="button">Install</span>
    button.
 
 4. Plug the device onto which you want to install Tails.

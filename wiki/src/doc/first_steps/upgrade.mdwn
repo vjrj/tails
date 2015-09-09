@@ -246,7 +246,7 @@ From within Tails
 Using Tails Installer on a Debian based distribution
 ====================================================
 
-If you installed the tails-installer package on a Debian based distribution, 
+If you installed the tails-installer package on a Debian based distribution,
 you will be able to upgrade a Tails system on a plugged in USB stick from there.
 
 1. Launch Tails Installer.
