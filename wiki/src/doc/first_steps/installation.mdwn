@@ -87,6 +87,14 @@ Using Tails Installer in Tails
 Using Tails Installer in another Debian based distribution
 ----------------------------------------------------------
 
+<!--
+
+1. XXX: activate backports?
+   XXX: PPA?
+   XXX: apt link for Ubuntu?
+
+-->
+
 1. Install <span class="application">Tails Installer</span> on a Debian based
    distribution, either:
    - using the command line: <pre>apt-get install tails-installer</pre>, or
