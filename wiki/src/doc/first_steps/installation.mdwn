@@ -3,6 +3,11 @@
 We recommend using <span class="application">Tails Installer</span> to
 install Tails on a USB stick.
 
+<span class="application">Tails Installer</span> is available from inside Tails and on
+Debian-based distributions.
+So you either need to start Tails from a first media, and later clone it onto the device of
+your choice, USB stick or SD card or install the tails-installer package.
+
 <div class="tip">
 
 <p>Using <span class="application">Tails Installer</span> allows you to
@@ -25,11 +30,6 @@ another operating system or partition on the same device if you want to benefit
 from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|persistence]].</p>
 
 </div>
-
-<span class="application">Tails Installer</span> is available from inside Tails and on
-Debian-based distributions.
-So you either need to start Tails from a first media, and later clone it onto the device of
-your choice, USB stick or SD card or install the tails-installer package.
 
 Use Tails Installer within Tails
 --------------------------------
