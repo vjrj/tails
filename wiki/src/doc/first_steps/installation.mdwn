@@ -56,33 +56,7 @@ Using Tails Installer in Tails
 3. To install onto a new device, click on the <span class="button">Install by
    cloning</span> button.
 
-4. Plug the device onto which you want to install Tails.
-
-   A new device, which corresponds to the USB stick or SD card, appears in the
-   <span class="guilabel">Target Device</span> drop-down list.
-
-5. Choose this new device from the <span class="guilabel">Target Device</span>
-   drop-down list.
-
-   <div class="caution">
-
-   <ul>
-   <li><strong>All the data on the installed device will be
-   lost.</strong></li>
-   <li><strong>This operation does not [[securely
-   delete|encryption_and_privacy/secure_deletion]] the lost data on the
-   installed device.</strong></li>
-   <li><strong>This operation does not copy the persistent volume of the
-   device which is being cloned.</strong></li>
-   </ul>
-
-   </div>
-
-6. To start the installation, click on the <span
-   class="button">Install Tails</span> button.
-
-7. Read the warning message in the pop-up window. Click on the <span
-   class="button">Yes</span> button to confirm.
+[[!inline pages="doc/first_steps/installation/tails-installer.inline" raw="yes"]]
 
 Using Tails Installer in another Debian based distribution
 ----------------------------------------------------------
@@ -105,33 +79,7 @@ Using Tails Installer in another Debian based distribution
 3. To install onto a new device, click on the <span class="button">Install</span>
    button.
 
-4. Plug the device onto which you want to install Tails.
-
-   A new device, which corresponds to the USB stick or SD card, appears in the
-   <span class="guilabel">Target Device</span> drop-down list.
-
-5. Choose this new device from the <span class="guilabel">Target Device</span>
-   drop-down list.
-
-   <div class="caution">
-
-   <ul>
-   <li><strong>All the data on the installed device will be
-   lost.</strong></li>
-   <li><strong>This operation does not [[securely
-   delete|encryption_and_privacy/secure_deletion]] the lost data on the
-   installed device.</strong></li>
-   <li><strong>This operation does not copy the persistent volume of the
-   device which is being cloned.</strong></li>
-   </ul>
-
-   </div>
-
-6. To start the installation, click on the <span
-   class="button">Install</span> button.
-
-7. Read the warning message in the pop-up window. Click on the <span
-   class="button">Yes</span> button to confirm.
+[[!inline pages="doc/first_steps/installation/tails-installer.inline" raw="yes"]]
 
 <div class="next">
 
