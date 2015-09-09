@@ -143,8 +143,10 @@ In that case, <span class="application">Tails Installer</span> allows you to
 manually upgrade a USB stick or SD card to a newer version of Tails. Using <span
 class="application">Tails Installer</span> you can either:
 
-  - [[Upgrade from an ISO image|upgrade#from_iso]] of a newer version of
+  - Upgrade from an ISO image of a newer version of
     Tails.
+    - [[Upgrade from ISO in Debian or Ubuntu|upgrade#from_iso_debian]]
+    - [[Upgrade from ISO in Tails|upgrade#from_iso_tails]]
   - [[Upgrade by cloning from another device|upgrade#clone]] which already
     runs a newer version of Tails.
 
@@ -166,6 +168,8 @@ To know the version of a running Tails, choose
 
 </div>
 
+<a id="from_iso_debian"></a>
+
 Upgrade from ISO in Debian or Ubuntu
 ------------------------------------
 
@@ -185,7 +189,7 @@ Upgrade from ISO in Debian or Ubuntu
 
 [[!inline pages="doc/first_steps/upgrade/from-iso.inline" raw="yes"]]
 
-<a id="from_iso"></a>
+<a id="from_iso_tails"></a>
 
 Upgrade from ISO in Tails
 -------------------------
