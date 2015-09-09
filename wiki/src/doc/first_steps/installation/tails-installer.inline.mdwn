@@ -8,13 +8,13 @@
 
    <div class="caution">
    <ul>
-   <li><strong>All the data on the installed device will be
-   lost.</strong></li>
-   <li><strong>This operation does not [[securely
+   <li>All the data on the installed device will be
+   lost.</li>
+   <li>This operation does not [[securely
    delete|encryption_and_privacy/secure_deletion]] the lost data on the
-   installed device.</strong></li>
-   <li><strong>This operation does not copy the persistent volume of the
-   device which is being cloned.</strong></li>
+   installed device.</li>
+   <li>This operation does not copy the persistent volume of the
+   device which is being cloned.</li>
    </ul>
    </div>
 
