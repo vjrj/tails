@@ -45,16 +45,13 @@ from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|pe
 Using Tails Installer in Tails
 ------------------------------
 
-1. From within Tails, choose
+1. Choose
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
      <span class="guisubmenu">Tails</span>&nbsp;▸
      <span class="guimenuitem">Tails Installer</span>
    </span>
    to start <span class="application">Tails Installer</span>.
-
-   From within another Debian based distribution, you can find Tails Installer
-   in the list of applications.
 
 3. To install onto a new device, click on the <span class="button">Install by
    cloning</span> button.
