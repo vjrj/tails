@@ -42,8 +42,8 @@ from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|pe
 
 [[!toc]]
 
-Using Tails Installer within Tails
-----------------------------------
+Using Tails Installer in Tails
+------------------------------
 
 1. From within Tails, choose
    <span class="menuchoice">
@@ -87,8 +87,8 @@ Using Tails Installer within Tails
 7. Read the warning message in the pop-up window. Click on the <span
    class="button">Yes</span> button to confirm.
 
-Using Tails Installer within another Debian based distribution
---------------------------------------------------------------
+Using Tails Installer in another Debian based distribution
+----------------------------------------------------------
 
 1. Install <span class="application">Tails Installer</span> on a Debian based
    distribution, either:
