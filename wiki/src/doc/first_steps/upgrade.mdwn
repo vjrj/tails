@@ -145,7 +145,7 @@ class="application">Tails Installer</span> you can either:
 
   - Upgrade from an ISO image of a newer version of
     Tails.
-    - [[Upgrade from ISO in Debian or Ubuntu|upgrade#from_iso_debian]]
+    - [[Upgrade from ISO in Debian or Ubuntu|upgrade#from_iso_debian]] (recommended)
     - [[Upgrade from ISO in Tails|upgrade#from_iso_tails]]
   - [[Upgrade by cloning from another device|upgrade#clone]] which already
     runs a newer version of Tails.
