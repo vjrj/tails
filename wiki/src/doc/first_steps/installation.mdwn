@@ -95,10 +95,10 @@ Using Tails Installer in another Debian based distribution
 
 -->
 
-1. Install <span class="application">Tails Installer</span> on a Debian based
-   distribution, either:
-   - using the command line: <pre>apt-get install tails-installer</pre>, or
-   - using your preferred installation method, i.e. launch Synaptic.
+1. Install the <span class="code">tails-installer</span> package, for
+   example by executing the following command:
+
+       sudo apt-get install tails-installer
 
 2. You can find Tails Installer in the list of applications. Launch it.
 
