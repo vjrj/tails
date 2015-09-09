@@ -80,10 +80,3 @@ Using Tails Installer in another Debian based distribution
    button.
 
 [[!inline pages="doc/first_steps/installation/tails-installer.inline" raw="yes"]]
-
-<div class="next">
-
-<p>After the installation completes, you can [[start Tails|start_tails]]
-from this new device.</p>
-
-</div>
