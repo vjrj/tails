@@ -220,9 +220,6 @@ Upgrade from ISO in Tails
 Upgrade from ISO in Debian or Ubuntu
 ------------------------------------
 
-If you installed the tails-installer package on a Debian based distribution,
-you will be able to upgrade a Tails system on a plugged in USB stick from there.
-
 1. Start <span class="application">Tails Installer</span>.
 
 2. Choose <span class="guilabel">Upgrade</span>.
