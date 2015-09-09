@@ -74,7 +74,7 @@ Using Tails Installer in another Debian based distribution
 
        sudo apt-get install tails-installer
 
-2. You can find Tails Installer in the list of applications. Launch it.
+2. Start <span class="application">Tails Installer</span>.
 
 3. To install onto a new device, click on the <span class="button">Install</span>
    button.
