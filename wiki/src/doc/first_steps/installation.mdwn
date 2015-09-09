@@ -1,7 +1,7 @@
 [[!meta title="Installing onto a USB stick or SD card"]]
 
-Tails includes <span class="application">Tails Installer</span>: a custom
-installer for USB sticks and SD cards.
+We recommend using <span class="application">Tails Installer</span> to
+install Tails on a USB stick.
 
 <div class="tip">
 
