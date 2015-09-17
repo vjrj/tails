@@ -50,6 +50,7 @@ def debug_log(message)
   $debug_log_fns.each { |fn| fn.call(message) } if $debug_log_fns
 end
 
+require 'cucumber/formatter/ansicolor'
 require 'cucumber/formatter/pretty'
 module ExtraFormatters
   # This is a null formatter in the sense that it doesn't ever output
@@ -90,6 +91,21 @@ module ExtraFormatters
     end
   end
 
+  # The pretty formatter with debug logging mixed into its output and
+  # without color.
+  class PlainDebug < PrettyDebug
+    self.class_eval do
+      instance_methods.each do |method_name|
+        define_method method_name do |*args|
+          orig = Cucumber::Term::ANSIColor.coloring?
+          Cucumber::Term::ANSIColor.coloring = false
+          r = super(*args)
+          Cucumber::Term::ANSIColor.coloring = orig
+          return r
+        end
+      end
+    end
+  end
 end
 
 module Cucumber
@@ -101,6 +117,11 @@ module Cucumber
           'Prints the feature with debugging information - in colours.'
         ]
       BUILTIN_FORMATS['debug'] = BUILTIN_FORMATS['pretty_debug']
+      BUILTIN_FORMATS['plain_debug'] =
+        [
+          'ExtraFormatters::PlainDebug',
+          'Prints the feature with debugging information - without colours.'
+        ]
     end
   end
 end
