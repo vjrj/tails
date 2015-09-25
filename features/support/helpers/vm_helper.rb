@@ -11,16 +11,29 @@ class VMNet
   def initialize(virt, xml_path)
     @virt = virt
     @net_name = $config["LIBVIRT_NETWORK_NAME"]
-    net_xml = File.read("#{xml_path}/default_net.xml")
-    rexml = REXML::Document.new(net_xml)
-    rexml.elements['network'].add_element('name')
-    rexml.elements['network/name'].text = @net_name
-    rexml.elements['network'].add_element('uuid')
-    rexml.elements['network/uuid'].text = $config["LIBVIRT_NETWORK_UUID"]
-    update(rexml.to_s)
+    update_with_rexml_document! { |rexml |
+      rexml.elements['network'].add_element('name')
+      rexml.elements['network/name'].text = @net_name
+      rexml.elements['network'].add_element('uuid')
+      rexml.elements['network/uuid'].text = $config["LIBVIRT_NETWORK_UUID"]
+    }
   rescue Exception => e
     destroy_and_undefine
     raise e
+  end
+
+  def update_with_rexml_document!(block)
+    rexml = net_rexml
+    block.call(rexml)
+    update(rexml.to_s)
+  end
+
+  def net_rexml
+    REXML::Document.new(net_xml)
+  end
+
+  def net_xml
+    @net ? @net.xml_desc : File.read("#{xml_path}/default_net.xml")
   end
 
   # We lookup by name so we also catch networks from previous test
@@ -45,8 +58,7 @@ class VMNet
   end
 
   def bridge_ip_addr
-    net_xml = REXML::Document.new(@net.xml_desc)
-    net_xml.elements['network/ip'].attributes['address']
+    net_rexml.elements['network/ip'].attributes['address']
   end
 
   def bridge_mac
