@@ -151,8 +151,8 @@ Installation
 
 <a id="install_permanently"></a>
 
-Can I install Tails permanently onto my hard disk?
---------------------------------------------------
+Can I install Tails permanently on my hard disk?
+------------------------------------------------
 
 This is not possible using the recommended installation methods. Tails is
 designed to be a live system running from a removable media: USB stick or DVD.
@@ -191,7 +191,7 @@ No, we don't sell preinstalled Tails USB sticks.
 
 Selling preinstalled USB sticks would in fact be a pretty bad idea:
 
-* If installed onto a USB stick, then it would be impossible to verify
+* If installed on a USB stick, then it would be impossible to verify
   that the Tails on the USB stick is genuine. Trusting that a Tails USB stick
   is genuine should be based either on cryptographic verification or
   on personal trust (if you know someone of trust who can clone a Tails USB stick for you). But
@@ -639,7 +639,7 @@ liar; the answer of a true liar would always be "no".
 - There is no documented method of verifying the integrity of a Tails USB stick
   installed using <span class="application">Tails
   Installer</span>. However, if you have another trusted Tails USB stick or DVD,
-  you can [[clone it onto the untrusted USB stick|doc/first_steps/upgrade]] to
+  you can [[clone it on the untrusted USB stick|doc/first_steps/upgrade]] to
   reset it to a trusted state.
 
 <a id="reuse_memory_wipe"></a>

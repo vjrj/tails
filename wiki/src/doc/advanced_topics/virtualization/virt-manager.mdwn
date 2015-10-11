@@ -133,7 +133,7 @@ Then do the following:
      Tails, and click **Finish**.
 
 You can keep the original ISO image connected as a virtual DVD to
-install Tails onto the USB stick if needed.
+install Tails on the USB stick if needed.
 
 <a id="disconnect"></a>
 
@@ -194,7 +194,7 @@ Then do the following to create a virtual USB storage:
      **Apply**.
 
 Then start the virtual machine from the virtual DVD to install Tails
-onto the virtual USB storage. The virtual USB storage appears in *Tails
+on the virtual USB storage. The virtual USB storage appears in *Tails
 Installer* as **QEMU HARDDISK**.
 
 After that you can disconnect the original ISO image and start directly

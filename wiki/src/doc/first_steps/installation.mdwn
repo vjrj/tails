@@ -1,4 +1,4 @@
-[[!meta title="Installing onto a USB stick"]]
+[[!meta title="Installing on a USB stick"]]
 
 Tails includes <span class="application">Tails Installer</span>: a custom
 installer for USB sticks.
@@ -35,7 +35,7 @@ USB stick or DVD, and later clone it on a USB stick.
    - Start Tails on a [[Tails DVD|dvd]] (recommended).
    - Start Tails on another Tails USB stick, for example from a
      friend.
-   - [[Manually install Tails onto another USB|installation/manual]]
+   - [[Manually install Tails on another USB stick|installation/manual]]
      and start *Tails Installer* from it.
 
 2. Choose
@@ -46,10 +46,10 @@ USB stick or DVD, and later clone it on a USB stick.
    </span>
    to start <span class="application">Tails Installer</span>.
 
-3. To install onto a new USB stick, click on the <span class="button">Clone &
+3. To install on a new USB stick, click on the <span class="button">Clone &
    Install</span> button.
 
-4. Plug the USB stick onto which you want to install Tails.
+4. Plug the USB stick on which you want to install Tails.
 
    A new device, which corresponds to the USB, appears in the
    <span class="guilabel">Target Device</span> drop-down list.
