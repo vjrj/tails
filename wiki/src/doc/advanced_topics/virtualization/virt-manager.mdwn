@@ -138,7 +138,7 @@ install Tails on the USB stick if needed.
 <a id="disconnect"></a>
 
 You can also disconnect the original ISO image and start directly from the
-Tails USB stick. To do so:
+USB stick once Tails is already installed on it. To do so:
 
   1. Shut down the virtual machine.
   1. In the configuration of the virtual machine, click on **IDE CDROM
