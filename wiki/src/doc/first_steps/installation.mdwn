@@ -51,7 +51,7 @@ USB stick or DVD, and later clone it on a USB stick.
 
 4. Plug the USB stick on which you want to install Tails.
 
-   A new device, which corresponds to the USB, appears in the
+   A new device, which corresponds to the USB stick, appears in the
    <span class="guilabel">Target Device</span> drop-down list.
 
 5. Choose this new device from the <span class="guilabel">Target Device</span>
