@@ -46,7 +46,7 @@ The advantages of this technique are the following:
 
 Requirements:
 
-  - A Tails USB stick, installed using
+  - A Tails USB stick installed using
     <span class="application">Tails Installer</span>.
   - An Internet connection.
 
@@ -185,7 +185,7 @@ Clone & Upgrade
 
 4. Plug the USB stick that you want to upgrade.
 
-   A new device, which corresponds to the USB stick, appears in the
+   A new device, which corresponds to the USB stick appears in the
    <span class="guilabel">Target Device</span> drop-down list.
 
 5. Choose the USB stick from the <span class="guilabel">Target Device</span>
@@ -217,7 +217,7 @@ Upgrade from ISO
 
 4. Plug the USB stick that you want to upgrade.
 
-   A new device, which corresponds to the USB stick, appears in the
+   A new device, which corresponds to the USB stick appears in the
    <span class="guilabel">Target Device</span> drop-down list.
 
 5. Choose the USB stick from the <span class="guilabel">Target Device</span>

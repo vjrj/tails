@@ -78,7 +78,7 @@ your test results back to us.
 Acer Aspire 5315-ICL50
 ----------------------
 
-Does not start on Tails USB sticks, created using Tails Installer.
+Does not start on Tails USB sticks created using Tails Installer.
 
 ASUS VivoBook X202E
 -------------------
@@ -98,7 +98,7 @@ USB stick installed using Tails Installer.
 Dell Inc. Latitude E6430 and E6230
 ----------------------------------
 
-Does not start on Tails USB sticks, created using Tails Installer.
+Does not start on Tails USB sticks created using Tails Installer.
 
 With BIOS versions A03 06/03/2012 (and A09, A11, and A12)
 
@@ -113,7 +113,7 @@ your test results back to us.
 Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos
 --------------------------------------------------------------
 
-Does not start on Tails USB sticks, created using Tails Installer.
+Does not start on Tails USB sticks created using Tails Installer.
 
 We were reported that the legacy BIOS shipped on these systems doesn't
 know how to deal with the GPT partition scheme installed by Tails
@@ -142,7 +142,7 @@ newer versions: please report your test results back to us.
 Fujitsu Siemens Amilo A 1667G
 -----------------------------
 
-Does not start on Tails USB sticks, created using Tails Installer.
+Does not start on Tails USB sticks created using Tails Installer.
 
 HP Compaq dc5750 Microtower
 ---------------------------
