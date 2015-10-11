@@ -27,13 +27,13 @@ from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|pe
 </div>
 
 For the moment, <span class="application">Tails Installer</span> is only
-available from inside Tails. So you need to start Tails from a first
+available from inside Tails. So you need to start Tails on a first
 USB stick or DVD, and later clone it on a USB stick.
 
 1. Get a first Tails running. To do so you can either:
 
-   - Start Tails from a [[Tails DVD|dvd]] (recommended).
-   - Start Tails from another Tails USB stick, for example from a
+   - Start Tails on a [[Tails DVD|dvd]] (recommended).
+   - Start Tails on another Tails USB stick, for example from a
      friend.
    - [[Manually install Tails onto another USB|installation/manual]]
      and start *Tails Installer* from it.
@@ -80,6 +80,6 @@ USB stick or DVD, and later clone it on a USB stick.
 <div class="next">
 
 <p>After the installation completes, you can [[start Tails|start_tails]]
-from this new USB stick.</p>
+on this new USB stick.</p>
 
 </div>

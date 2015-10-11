@@ -105,10 +105,10 @@ active</span>", then try to start the default virtual network:
 
 <a id="usb"></a>
 
-Running from a Tails USB stick
-==============================
+Starting on a Tails USB stick
+=============================
 
-To run Tails from a Tails USB stick using *virt-manager*, first
+To start on a Tails USB stick using *virt-manager*, first
 create a virtual machine running from an ISO image as described
 [[above|virt-manager#iso]].
 

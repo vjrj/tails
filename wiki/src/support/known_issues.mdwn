@@ -32,7 +32,7 @@ dangerous|doc/first_steps/bug_reporting/tails_does_not_start#entirely]].
 * SanDisk Cruzer USB 3.0 64GB
 * SanDisk Cruzer Blade 4GB, 8GB, and 32GB
 * SanDisk Cruzer Facet
-* SanDisk Cruzer Orbiter 32GB (hangs at installation time but boots fine afterwards)
+* SanDisk Cruzer Orbiter 32GB (hangs at installation time but starts fine afterwards)
 * SanDisk Ultra 32 GB
 
 SanDisk had begun the production of flash drives configured as fixed disk in
@@ -56,7 +56,7 @@ and are prone to failure.
 
 * Aegis Secure Key USB 2.0
 
-During the boot process, USB is briefly powered off, that causes Aegis hardware-encrypted USB sticks to lock down, and the PIN must be entered again (fast) in order to complete the boot.
+While starting, USB is briefly powered off, that causes Aegis hardware-encrypted USB sticks to lock down, and the PIN must be entered again (fast) in order to complete starting.
 
 * Aegis Secure Key USB 3.0
 
@@ -69,7 +69,7 @@ This USB stick doesn't start Tails at all, the USB 2.0 workaround is not working
 Acer Travelmate 8573T-254G50M
 -----------------------------
 
-Booting from DVD works fine, but does not start from Tails USB sticks,
+Starting on a DVD works fine, but does not start on Tails USB sticks,
 created using Tails Installer.
 
 This problem might be corrected in Tails 1.1 and newer: please report
@@ -92,7 +92,7 @@ your test results back to us.
 Compaq 615
 ----------
 
-You need to update the firmware to its latest version in order to start from a
+You need to update the firmware to its latest version in order to start on a
 USB stick installed using Tails Installer.
 
 Dell Inc. Latitude E6430 and E6230
@@ -105,7 +105,7 @@ With BIOS versions A03 06/03/2012 (and A09, A11, and A12)
 Error message: `Invalid partition table!`
 
 Workaround (at least with BIOS versions A09, A11, and A12): just hit enter
-and it will continue with the boot.
+and it will continue starting.
 
 This problem might be corrected in Tails 1.1 and newer: please report
 your test results back to us.
@@ -135,7 +135,7 @@ to us.
 Dell Dimension 2400
 -------------------
 
-Does not start neither from USB nor from DVD. System crashes with a blank
+Does not start neither on USB nor on DVD. System crashes with a blank
 screen and locked up keyboard. This problem might be corrected in
 newer versions: please report your test results back to us.
 
@@ -191,20 +191,20 @@ Mac
 ---
 
 * Some Mac need [rEFInd](http://sourceforge.net/projects/refind/)
-  installed to boot Tails from a USB stick.
-* Any Mac with 32-bit EFI may not succeed in booting Tails USB stick
+  installed to start on a Tails USB stick.
+* Any Mac with 32-bit EFI might not start on a Tails USB stick
   created by Tails Installer. You can check if a given Mac is 32-bit
   or 64-bit EFI on that list:
   <http://www.everymac.com/mac-answers/snow-leopard-mac-os-x-faq/mac-os-x-snow-leopard-64-bit-macs-64-bit-efi-boot-in-64-bit-mode.html>
-* MacBook Pro 5,5 does not boot with Tails in UEFI mode.
+* MacBook Pro 5,5 does not start Tails in UEFI mode.
 * MacBook Pro 5,1 17" (Nvidia GeForce 9400M): one must add the
   `nouveau.noaccel=1` boot parameters so that the display
   works properly.
-* MacBook Air 3,2 (A1369 EMC 2392) freezes when booting Tails in
+* MacBook Air 3,2 (A1369 EMC 2392) freezes when starting Tails in
   UEFI mode.
-* MacBook Pro (early 2011) fails to boot from DVD since Tails 1.1.
+* MacBook Pro (early 2011) fails to start on DVD since Tails 1.1.
 * Mac Pro Tower and MacBook Pro 4,1 (both from early 2008) and
-  MacBook Pro 8,2 (late 2011) fail to boot from a Tails USB stick created by
+  MacBook Pro 8,2 (late 2011) fail to start on a Tails USB stick created by
   Tails Installer.
 
 <a id="switchable_graphics"></a>
@@ -253,7 +253,7 @@ For more details, see our ticket on [[!tails_ticket 7505 desc="Video is broken o
 Chainloading Tails from GRUB
 ----------------------------
 
-To workaround problems in booting Tails on laptops with UEFI support, it is
+To workaround problems in starting Tails on laptops with UEFI support, it is
 possible to chainload the syslinux on the ISO image from another boot loader
 that is already working on the laptop, like GRUB. Be careful not to modify at
 all the options of syslinux in the process.
@@ -390,7 +390,7 @@ When this happens, there is no guarantee that the memory is wiped entirely.
 
 This issue has been reported on the following hardware:
 
-  - Apple when booting from a USB stick:
+  - Apple when starting on a Tails USB stick:
     - MacBook Air 5,1
     - MacBook Air 5,2 (using a device installed with Tails Installer)
     - MacBook Air 6,2
