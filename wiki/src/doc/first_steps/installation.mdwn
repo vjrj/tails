@@ -7,7 +7,7 @@ installer for USB sticks.
 
 <p>Using <span class="application">Tails Installer</span> allows you to
 later [[create a persistent volume|persistence]] in the free space
-left on the device.</p>
+left on the USB stick.</p>
 
 </div>
 
@@ -21,14 +21,14 @@ USB stick of <strong>at least 4 GB</strong>.</p>
 <div class="note">
 
 <p>Tails requires a dedicated USB stick. It is impossible to add
-another operating system or partition on the same device if you want to benefit
+another operating system or partition on the same USB stick if you want to benefit
 from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|persistence]].</p>
 
 </div>
 
 For the moment, <span class="application">Tails Installer</span> is only
 available from inside Tails. So you need to start Tails from a first
-media, and later clone it onto a USB stick.
+USB stick or DVD, and later clone it on a USB stick.
 
 1. Get a first Tails running. To do so you can either:
 
@@ -46,10 +46,10 @@ media, and later clone it onto a USB stick.
    </span>
    to start <span class="application">Tails Installer</span>.
 
-3. To install onto a new device, click on the <span class="button">Clone &
+3. To install onto a new USB stick, click on the <span class="button">Clone &
    Install</span> button.
 
-4. Plug the device onto which you want to install Tails.
+4. Plug the USB stick onto which you want to install Tails.
 
    A new device, which corresponds to the USB, appears in the
    <span class="guilabel">Target Device</span> drop-down list.
@@ -60,13 +60,13 @@ media, and later clone it onto a USB stick.
    <div class="caution">
 
    <ul>
-   <li><strong>All the data on the installed device will be
+   <li><strong>All the data on the installed USB stick will be
    lost.</strong></li>
    <li><strong>This operation does not [[securely
    delete|encryption_and_privacy/secure_deletion]] the lost data on the
-   installed device.</strong></li>
+   installed USB stick.</strong></li>
    <li><strong>This operation does not copy the persistent volume of the
-   device which is being cloned.</strong></li>
+   USB stick which is being cloned.</strong></li>
    </ul>
 
    </div>
@@ -80,6 +80,6 @@ media, and later clone it onto a USB stick.
 <div class="next">
 
 <p>After the installation completes, you can [[start Tails|start_tails]]
-from this new device.</p>
+from this new USB stick.</p>
 
 </div>

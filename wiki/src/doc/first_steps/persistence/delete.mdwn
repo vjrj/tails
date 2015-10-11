@@ -1,6 +1,6 @@
 [[!meta title="Delete the persistent volume"]]
 
-To delete the persistent volume of a Tails device, choose
+To delete the persistent volume of a Tails USB stick, choose
 <span class="menuchoice">
   <span class="guimenu">Applications</span>&nbsp;▸
   <span class="guisubmenu">Tails</span>&nbsp;▸
@@ -9,7 +9,7 @@ To delete the persistent volume of a Tails device, choose
 
 This can be useful in order to delete all the files saved to the persistent
 volume in a single operation. You can later create a new persistent volume on
-the same device without having to reinstall Tails.
+the same USB stick without having to reinstall Tails.
 
 Securely delete the persistent volume
 -------------------------------------
@@ -20,16 +20,16 @@ Securely delete the persistent volume
 old persistent volume using [[data
 recovery techniques|encryption_and_privacy/secure_deletion#why]].</strong>
 To securely delete the persistent volume, start Tails from another media, and do the following
-operations on the device that you want to delete securely:
+operations on the USB stick that you want to delete securely:
 
 <ol>
-<li>[[Format the device and create a single encrypted partition|encryption_and_privacy/encrypted_volumes]]
-on the whole device. This step deletes both Tails and the persistent volume.</li>
+<li>[[Format the USB stick and create a single encrypted partition|encryption_and_privacy/encrypted_volumes]]
+on the whole USB stick. This step deletes both Tails and the persistent volume.</li>
 <li>[[Securely clean all the available disk
 space|encryption_and_privacy/secure_deletion#clean_disk_space]] on this new encrypted
 partition.</li>
-<li>[[Reinstall Tails|installation]] on the device.</li>
-<li>Start Tails from the device and [[create a new persistent
+<li>[[Reinstall Tails|installation]] on the USB stick.</li>
+<li>Start Tails from the USB stick and [[create a new persistent
 volume|persistence/configure]].</li>
 </ol>
 

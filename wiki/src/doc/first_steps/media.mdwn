@@ -10,15 +10,15 @@ DVD
 USB stick
 =========
 
-  - An attacker with physical access to your device or through a virus could
+  - An attacker with physical access to your USB stick or through a virus could
     alter your Tails.
   - USB sticks can be upgraded to future versions of Tails.
   - You can use [[persistence|doc/first_steps/persistence]] and store your
     documents and configuration in an encrypted persistent volume on the same
-    device.
+    USB stick.
   - USB sticks are smaller to fit in your pocket.
   - Some older computers might not be able to start from a USB stick.
   - Some USB sticks have a read-only switch that can prevent your Tails from
     being altered, but be aware that this protection is most probably not
-    ensured by the device itself: do not rely on untrusted computers to respect
+    ensured by the USB stick itself: do not rely on untrusted computers to respect
     this feature.

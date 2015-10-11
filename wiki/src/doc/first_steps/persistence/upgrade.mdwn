@@ -30,7 +30,7 @@ But this automatic upgrade might not be sufficient in some cases.
 
 a. **If you skipped the upgrade to Tails 0.21 and upgraded directly
    to Tails 0.22 or later**, then follow the instructions to [[manually copy
-   your persistent data to a new device|copy]].
+   your persistent data to a new USB stick|copy]].
    For security reasons the automatic upgrade is not available in Tails 0.22 or
    later.
 
@@ -48,14 +48,14 @@ b. **If you have custom persistence settings or use
      If you have custom persistence settings or use additional software
      but no notification appear on the desktop, then your Tails system
      might be corrupted. In that case, follow the instructions to [[manually copy
-     your persistent data to a new device|copy]].
+     your persistent data to a new USB stick|copy]].
 
    </div>
 
 c. **If you have good reasons to think that your persistence settings
    are corrupted** or if you want to be extra careful, then follow the
    instructions to [[manually copy your persistent data to a new
-   device|copy]].
+   USB stick|copy]].
 
 <div id="custom_settings">
 
@@ -126,11 +126,11 @@ introduced by an attacker. In this case, do the following:
    <span class="application">WhisperBack</span>|bug_reporting]] and
    explain which are the lines that look suspicious to you.
 
-1. Keep that Tails device without modifying it in order to analyse it
+1. Keep that Tails USB stick without modifying it in order to analyse it
    later if needed.
 
 1. Follow the instructions to [[manually copy your persistent data to a
-   new device|copy]].
+   new USB stick|copy]].
 
 **If you do not detect any suspicious line**, close
 <span class="application">gedit</span> and delete the
@@ -173,11 +173,11 @@ following:
    <span class="application">WhisperBack</span>|bug_reporting]] and
    explain which are the lines that look suspicious to you.
 
-1. Keep that Tails device without modifying it in order to analyse it
+1. Keep that Tails USB stick without modifying it in order to analyse it
    later if needed.
 
 1. Follow the instructions to [[manually copy your persistent data to a
-   new device|copy]].
+   new USB stick|copy]].
 
 **If you do not detect any suspicious line**, close
 <span class="application">gedit</span> and delete the

@@ -14,7 +14,7 @@ broken persistent volume.
    </span>
    to open the <span class="application">GNOME Disk Utility</span>.
 
-1. In the left pane, click on the device corresponding to your Tails device.
+1. In the left pane, click on the device corresponding to your Tails USB stick.
 
 1. In the right pane, click on the partition labeled as
    <span class="guilabel">Encrypted</span>. The

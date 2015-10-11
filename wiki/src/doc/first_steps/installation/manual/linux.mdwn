@@ -8,7 +8,7 @@ This technique uses the command line.
 
 <a id="step_1"></a>
 
-<h2 class="bullet-number-one">Find out the device name of the device</h2>
+<h2 class="bullet-number-one">Find out the device name of the USB stick</h2>
 
 The device name should be something like `/dev/sdb`, `/dev/sdc`, etc.
 
@@ -33,7 +33,7 @@ following:
      A new device appears in the list of storage devices. Click on it.
 
   1. In the right pane of the window, verify that the device corresponds
-     to your device, its brand, its size, etc.
+     to your USB stick, its brand, its size, etc.
 
      [[!img destination_device_description.png link=no alt="Drive description containing: 'Device: /dev/sdc'"]]
 
@@ -54,7 +54,7 @@ system</strong>.
 
 <div class="caution">
 
-<p><strong>All the data on the installed device will be lost.</strong></p>
+<p><strong>All the data on the installed USB stick will be lost.</strong></p>
 
 </div>
 
@@ -81,13 +81,13 @@ Then complete the command and execute it.
 </div>
 
 If you don't see any error message, Tails is being copied
-onto the device. The whole process might take some time, generally a few
+onto the USB stick. The whole process might take some time, generally a few
 minutes.
 
 <div class="next">
 
 <p>Once the command prompt reappears, you can shutdown your computer, and
-[[start Tails|start_tails]] from this new device.</p>
+[[start Tails|start_tails]] from this new USB stick.</p>
 
 </div>
 

@@ -13,11 +13,11 @@ as soon as possible.
 
 Both techniques only work if the upgraded USB stick, was
 installed using <span class="application">Tails Installer</span>. **The
-persistent storage on the device will be preserved.**
+persistent storage on the USB stick is preserved.**
 
 <div class="note">
 
-If you use Tails from a DVD or if your Tails device was not installed using
+If you use Tails from a DVD or if your Tails USB stick was not installed using
 <span class="application">Tails Installer</span>, it is not possible to upgrade
 and you need to follow our [[installation instructions|download#media]] again
 with the new ISO image.
@@ -33,12 +33,12 @@ Automatic upgrade using <span class="application">Tails Upgrader</span>
 
 After starting Tails and connecting to Tor, <span class="application">Tails
 Upgrader</span> automatically checks if upgrades are available and then
-proposes you to upgrade your device. The upgrades are checked for and downloaded
+proposes you to upgrade your Tails USB stick. The upgrades are checked for and downloaded
 through Tor.
 
 The advantages of this technique are the following:
 
-  - You only need a single Tails device. The upgrade is done on the fly from a
+  - You only need a single Tails USB stick. The upgrade is done on the fly from a
     running Tails. After upgrading, you can restart and use the new version.
   - The upgrade is much smaller to download than a full ISO image.
   - The upgrade mechanism includes cryptographic verification of the upgrade.
@@ -51,7 +51,7 @@ Requirements:
   - An Internet connection.
 
 After connecting to Tor, if an upgrade is available, a dialog box appears and
-proposes you to upgrade your device.
+proposes you to upgrade your Tails USB stick.
 
 [[!img upgrader.png link=no]]
 
@@ -122,7 +122,7 @@ They might also contain <strong>special instructions for upgrading</strong>.
 
 <div class="note">
 
-If you use Tails from a DVD or if your Tails device was not installed using
+If you use Tails from a DVD or if your Tails USB stick was not installed using
 <span class="application">Tails Installer</span>, it is not possible to upgrade
 and you need to follow our [[installation instructions|download#media]] again
 with the new ISO image.
@@ -134,16 +134,16 @@ For example, when:
 
   - No automatic upgrade is available from our website for this version.
   - The automatic upgrade is impossible for technical reasons (not enough
-    memory, not enough free space on the device, etc.).
-  - You want to upgrade from another Tails device which already has a newer
+    memory, not enough free space on the USB stick, etc.).
+  - You want to upgrade from another Tails USB stick which already has a newer
     version installed, for example when working offline.
-  - The automatic upgrade failed and you need to repair a Tails device.
+  - The automatic upgrade failed and you need to repair a Tails USB stick.
 
 In that case, <span class="application">Tails Installer</span> allows you to
 manually upgrade a Tails USB stick to a newer version of Tails. Using <span
 class="application">Tails Installer</span> you can either:
 
-  - [[Upgrade by cloning from another device|upgrade#clone]] which already
+  - [[Upgrade by cloning from another Tails USB stick|upgrade#clone]] which already
     runs a newer version of Tails.
   - [[Upgrade from an ISO image|upgrade#from_iso]] of a newer version of
     Tails.
@@ -151,7 +151,7 @@ class="application">Tails Installer</span> you can either:
 <div class="note">
 
 Like for installing, you need to start <span class="application">Tails
-Installer</span> from another media than the device that you want to upgrade.
+Installer</span> from another media than the Tails USB stick that you want to upgrade.
 
 </div>
 
@@ -171,7 +171,7 @@ To know the version of a running Tails, choose
 Clone & Upgrade
 ---------------
 
-1. Start Tails from the USB stick or DVD that you want to clone from.
+1. Start Tails on the USB stick or DVD that you want to clone from.
 
 2. Choose
    <span class="menuchoice">
@@ -183,12 +183,12 @@ Clone & Upgrade
 
 3. Choose <span class="guilabel">Clone & Upgrade</span>.
 
-4. Plug the device that you want to upgrade.
+4. Plug the USB stick that you want to upgrade.
 
    A new device, which corresponds to the USB stick, appears in the
    <span class="guilabel">Target Device</span> drop-down list.
 
-5. Choose the device from the <span class="guilabel">Target Device</span>
+5. Choose the USB stick from the <span class="guilabel">Target Device</span>
    drop-down list.
 
 6. To start the upgrade, click on the <span class="button">Install
@@ -215,12 +215,12 @@ Upgrade from ISO
 
 3. Choose <span class="guilabel">Upgrade from ISO</span>.
 
-4. Plug the device that you want to upgrade.
+4. Plug the USB stick that you want to upgrade.
 
    A new device, which corresponds to the USB stick, appears in the
    <span class="guilabel">Target Device</span> drop-down list.
 
-5. Choose the device from the <span class="guilabel">Target Device</span>
+5. Choose the USB stick from the <span class="guilabel">Target Device</span>
    drop-down list.
 
 6. Click on the <span class="guilabel">Browse</span> button to specify the

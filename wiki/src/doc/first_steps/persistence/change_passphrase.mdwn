@@ -25,7 +25,7 @@ its brand, its size, etc.
      one labelled <span class="guilabel">TailsData</span> which corresponds to the persistent volume.
 
   1. In the right pane of the window, verify that the device corresponds
-     to your device, its brand, its size, etc.
+     to your USB stick, its brand, its size, etc.
 
 Change the passphrase of the persistent volume
 ==============================================
