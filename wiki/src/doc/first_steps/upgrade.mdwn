@@ -171,7 +171,7 @@ To know the version of a running Tails, choose
 Clone & Upgrade
 ---------------
 
-1. Start Tails from the DVD or the USB stick that you want to clone from.
+1. Start Tails from the USB stick or DVD that you want to clone from.
 
 2. Choose
    <span class="menuchoice">
@@ -202,7 +202,7 @@ Clone & Upgrade
 Upgrade from ISO
 ----------------
 
-1. Start Tails from another DVD or USB stick than the device that you
+1. Start Tails from another USB stick or DVD than the USB stick that you
    want to upgrade.
 
 2. Choose
