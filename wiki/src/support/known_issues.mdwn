@@ -158,7 +158,7 @@ Tails Installer.
 HP ProBook 4330s
 ----------------
 
-With UEFI enabled, when chosing a boot device, select `Boot From EFI File` and
+With UEFI enabled, when choosing a boot device, select `Boot From EFI File` and
 then `Filesystem Tails` and `EFI/BOOT/bootx64.efi`.
 
 Lenovo IdeaPad Y410p
@@ -174,7 +174,7 @@ Goes back continuously to boot menu on Tails installed on DVD.
 Clevo W258CU, ThinkPad X220, X121e, T420i, T410, T520, W520, T530, E325, and E530
 ---------------------------------------------------------------------------------
 
-These machines do not start on TailsUSB sticks, created using Tails USB
+These machines do not start on Tails USB sticks created using Tails
 Installer, due to a firmware limitation.
 
 A workaround for some of these machines is to use the [[manual
