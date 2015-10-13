@@ -15,7 +15,7 @@ class VMNet
       rexml.elements['network'].add_element('name')
       rexml.elements['network/name'].text = @net_name
       rexml.elements['network'].add_element('uuid')
-      rexml.elements['network/uuid'].text = $config["LIBVIRT_NETWORK_UUID"]
+      rexml.elements['network/uuid'].text = LIBVIRT_NETWORK_UUID
     }
   rescue Exception => e
     destroy_and_undefine
@@ -77,13 +77,13 @@ class VM
     @xml_path = xml_path
     @vmnet = vmnet
     @storage = storage
-    @domain_name = $config["LIBVIRT_DOMAIN_NAME"]
+    @domain_name = LIBVIRT_DOMAIN_NAME
     default_domain_xml = File.read("#{@xml_path}/default.xml")
     rexml = REXML::Document.new(default_domain_xml)
     rexml.elements['domain'].add_element('name')
     rexml.elements['domain/name'].text = @domain_name
     rexml.elements['domain'].add_element('uuid')
-    rexml.elements['domain/uuid'].text = $config["LIBVIRT_DOMAIN_UUID"]
+    rexml.elements['domain/uuid'].text = LIBVIRT_DOMAIN_UUID
     update(rexml.to_s)
     @display = Display.new(@domain_name, x_display)
     set_cdrom_boot(TAILS_ISO)
@@ -195,7 +195,7 @@ class VM
 
   def set_cdrom_boot(image)
     if is_running?
-      raise "boot settings can only be set for inactice vms"
+      raise "boot settings can only be set for inactive vms"
     end
     set_boot_device('cdrom')
     set_cdrom_image(image)
@@ -320,7 +320,7 @@ class VM
   # XXX-9p in common_steps.rb for more information.
   def add_share(source, tag)
     if is_running?
-      raise "shares can only be added to inactice vms"
+      raise "shares can only be added to inactive vms"
     end
     # The complete source directory must be group readable by the user
     # running the virtual machine, and world readable so the user inside
@@ -345,7 +345,7 @@ class VM
   end
 
   def set_ram_size(size, unit = "KiB")
-    raise "System memory can only be added to inactice vms" if is_running?
+    raise "System memory can only be added to inactive vms" if is_running?
     domain_xml = REXML::Document.new(@domain.xml_desc)
     domain_xml.elements['domain/memory'].text = size
     domain_xml.elements['domain/memory'].attributes['unit'] = unit
@@ -362,21 +362,21 @@ class VM
   end
 
   def set_arch(arch)
-    raise "System architecture can only be set to inactice vms" if is_running?
+    raise "System architecture can only be set to inactive vms" if is_running?
     domain_xml = REXML::Document.new(@domain.xml_desc)
     domain_xml.elements['domain/os/type'].attributes['arch'] = arch
     update(domain_xml.to_s)
   end
 
   def add_hypervisor_feature(feature)
-    raise "Hypervisor features can only be added to inactice vms" if is_running?
+    raise "Hypervisor features can only be added to inactive vms" if is_running?
     domain_xml = REXML::Document.new(@domain.xml_desc)
     domain_xml.elements['domain/features'].add_element(feature)
     update(domain_xml.to_s)
   end
 
   def drop_hypervisor_feature(feature)
-    raise "Hypervisor features can only be fropped from inactice vms" if is_running?
+    raise "Hypervisor features can only be fropped from inactive vms" if is_running?
     domain_xml = REXML::Document.new(@domain.xml_desc)
     domain_xml.elements['domain/features'].delete_element(feature)
     update(domain_xml.to_s)
@@ -399,7 +399,7 @@ EOF
 
   def set_os_loader(type)
     if is_running?
-      raise "boot settings can only be set for inactice vms"
+      raise "boot settings can only be set for inactive vms"
     end
     if type == 'UEFI'
       domain_xml = REXML::Document.new(@domain.xml_desc)
@@ -459,10 +459,32 @@ EOF
     return execute("pidof -x -o '%PPID' " + process).stdout.chomp.split
   end
 
-  def focus_window(window_title, user = LIVE_USER)
+  def select_virtual_desktop(desktop_number, user = LIVE_USER)
+    assert(desktop_number >= 0 && desktop_number <=3,
+           "Only values between 0 and 3 are valid virtual desktop numbers")
     execute_successfully(
-       "xdotool search --name '#{window_title}' windowactivate --sync", user
+       "xdotool set_desktop '#{desktop_number}'", user
     )
+  end
+
+  def focus_window(window_title, user = LIVE_USER)
+    def do_focus(window_title, user)
+      execute_successfully(
+        "xdotool search --name '#{window_title}' windowactivate --sync", user
+      )
+    end
+
+    begin
+      do_focus(window_title, user)
+    rescue ExecutionFailedInVM
+      # Often when xdotool fails to focus a window it'll work when retried
+      # after redrawing the screen.  Switching to a new virtual desktop then
+      # back seems to be a reliable way to handle this.
+      select_virtual_desktop(3)
+      select_virtual_desktop(0)
+      sleep 1
+      do_focus(window_title, user)
+    end
   end
 
   def file_exist?(file)
@@ -515,9 +537,9 @@ EOF
     # If we have no qcow2 disk device, we'll use "memory state"
     # snapshots, and if we have at least one qcow2 disk device, we'll
     # use internal "system checkpoint" (memory + disks) snapshots. We
-    # have to do this since internal snapshots doesn't work when no
+    # have to do this since internal snapshots don't work when no
     # such disk is available. We can do this with external snapshots,
-    # which better in many ways, but libvirt doesn't know how to
+    # which are better in many ways, but libvirt doesn't know how to
     # restore (revert back to) them yet.
     # WARNING: If only transient disks, i.e. disks that were plugged
     # after starting the domain, are used then the memory state will
@@ -531,6 +553,9 @@ EOF
       end
     end
 
+    # Note: In this case the "opposite" of `internal_snapshot` is not
+    # anything relating to external snapshots, but actually "memory
+    # state"(-only) snapshots.
     if internal_snapshot
       xml = internal_snapshot_xml(name)
       @domain.snapshot_create_xml(xml)
@@ -567,19 +592,20 @@ EOF
     @display.start
   end
 
-  def remove_snapshot(name)
+  def VM.remove_snapshot(name)
+    old_domain = $virt.lookup_domain_by_name(LIBVIRT_DOMAIN_NAME)
     potential_ram_only_snapshot_path = VM.ram_only_snapshot_path(name)
     if File.exist?(potential_ram_only_snapshot_path)
       File.delete(potential_ram_only_snapshot_path)
     else
-      snapshot = @domain.lookup_snapshot_by_name(name)
+      snapshot = old_domain.lookup_snapshot_by_name(name)
       snapshot.delete
     end
   end
 
   def VM.snapshot_exists?(name)
     return true if File.exist?(VM.ram_only_snapshot_path(name))
-    old_domain = $virt.lookup_domain_by_name($config["LIBVIRT_DOMAIN_NAME"])
+    old_domain = $virt.lookup_domain_by_name(LIBVIRT_DOMAIN_NAME)
     snapshot = old_domain.lookup_snapshot_by_name(name)
     return snapshot != nil
   rescue Libvirt::RetrieveError
@@ -590,7 +616,7 @@ EOF
     Dir.glob("#{$config["TMPDIR"]}/*-snapshot.memstate").each do |file|
       File.delete(file)
     end
-    old_domain = $virt.lookup_domain_by_name($config["LIBVIRT_DOMAIN_NAME"])
+    old_domain = $virt.lookup_domain_by_name(LIBVIRT_DOMAIN_NAME)
     old_domain.list_all_snapshots.each { |snapshot| snapshot.delete }
   rescue Libvirt::RetrieveError
     # No such domain, so no snapshots either.

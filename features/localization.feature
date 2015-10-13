@@ -5,7 +5,7 @@ Feature: Localization
   And various Tails features should still work
 
   Scenario: The Report an Error launcher will open the support documentation in supported non-English locales
-    Given Tails has booted from DVD without network and stopped at Tails Greeter's login screen
+    Given I have started Tails from DVD without network and stopped at Tails Greeter's login screen
     And the network is plugged
     And I log in to a new session in German
     And Tails seems to have booted normally
@@ -13,6 +13,6 @@ Feature: Localization
     When I double-click the Report an Error launcher on the desktop
     Then the support documentation page opens in Tor Browser
 
-  Scenario: The Unsafe Browser can be used in all languges supported in Tails
-    Given Tails has booted from DVD and logged in and the network is connected
+  Scenario: The Unsafe Browser can be used in all languages supported in Tails
+    Given I have started Tails from DVD and logged in and the network is connected
     Then the Unsafe Browser works in all supported languages
