@@ -42,7 +42,6 @@ Feature: Time syncing
     And Tor is ready
     Then Tails clock is less than 5 minutes incorrect
 
- @fragile
   Scenario: Clock way in the past in bridge mode
     Given I have started Tails from DVD without network and logged in with bridge mode enabled
     When I bump the system time with "-6 weeks"
@@ -52,7 +51,6 @@ Feature: Time syncing
     And Tor is ready
     Then Tails clock is less than 5 minutes incorrect
 
-  @fragile
   Scenario: Clock is one day in the future
     Given I have started Tails from DVD without network and logged in
     When I bump the system time with "+1 day"
@@ -69,7 +67,6 @@ Feature: Time syncing
     And Tor is ready
     Then Tails clock is less than 5 minutes incorrect
 
-  @fragile
   Scenario: Clock way in the future
     Given I have started Tails from DVD without network and logged in
     When I set the system time to "01 Jan 2020 12:34:56"
@@ -77,7 +74,6 @@ Feature: Time syncing
     And Tor is ready
     Then Tails clock is less than 5 minutes incorrect
 
-  @fragile
   Scenario: Clock way in the future in bridge mode
     Given I have started Tails from DVD without network and logged in with bridge mode enabled
     When I set the system time to "01 Jan 2020 12:34:56"
