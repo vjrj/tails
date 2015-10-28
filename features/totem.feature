@@ -44,7 +44,7 @@ Feature: Using Totem
     # as /lib/live/mount/overlay.
     And AppArmor has denied "/usr/bin/totem" from opening "/lib/live/mount/overlay/home/amnesia/.gnupg/video.mp4"
 
-  @check_tor_leaks @fragile
+  @check_tor_leaks
   Scenario: Watching a WebM video over HTTPS, with and without the command-line
     Given a computer
     And I start Tails from DVD and I login
