@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Tor Messenger
+Comment=Anonymous Chat Client
+GenericName=Anonymous Chat Client
+Categories=Network;
+Icon=/usr/share/icons/tor-messenger.png
+Terminal=false
+Type=Application
+Exec=/usr/local/bin/tor-messenger

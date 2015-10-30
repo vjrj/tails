@@ -1,0 +1,65 @@
+#!/bin/sh
+
+set -eu
+
+echo "Install the Tor Messenger"
+
+url="http://dist.torproject.org/tormessenger/0.1.0b2/tor-messenger-linux32-0.1.0b2_en-US.tar.xz"
+expected_sha256="fcad2b4a9fadde66155ccbe183c2a53694f393a70764b33ab3923ec1e5ba2596"
+
+apt_proxy="$(apt-config --format '%v' dump Acquire::http::Proxy)"
+if [ -n "${apt_proxy}" ]; then
+    export HTTP_PROXY="${apt_proxy}"
+    export http_proxy="${apt_proxy}"
+    export HTTPS_PROXY="${apt_proxy}"
+    export https_proxy="${apt_proxy}"
+fi
+
+tmp_dir="$(mktemp -d)"
+mkdir -p "${tmp_dir}"
+(
+    cd "${tmp_dir}"
+    echo "Fetching ${url}... "
+    curl --remote-name "${url}"
+)
+tarball="${tmp_dir}/$(basename "${url}")"
+actual_sha256="$(sha256sum "${tarball}" | cut -d' ' -f1)"
+if [ "${actual_sha256}" != "${expected_sha256}" ]; then
+    echo "SHA256 mismatch for ${tarball}" >&2
+    exit 1
+fi
+tar xf "${tarball}" -C "${tmp_dir}"
+prep="${tmp_dir}/tor-messenger/Messenger"
+
+# We don't use Tor Launcher...
+rm -R "${prep}/extensions/tor-launcher@torproject.org"
+# ... and we don't use its bundled Tor either.
+rm -r "${prep}"/TorMessenger/Data/Tor
+
+# Why have this library in a sub dir? Then we would need an extra
+# LD_LIBRARY_PATH so let's not bother.
+mv "${prep}"/lib/libstdc++.so.6 "${prep}"
+rmdir "${prep}"/lib
+
+# XXX: All required libs are already included in the Tor Launcher, but
+# the Tor Messenger's versions may be different so they are
+# incompatible. We should investigate if we could deduplicate them.
+# rm -r "${prep}"/*.so "${prep}"/lib
+
+# We don't use their custom script...
+rm "${prep}"/start-tor-messenger
+# ... or .desktop file.
+rm "${prep}"/start-tor-messenger.desktop
+
+# This one must exist, just like it does for the Tor Browser and Tor
+# Launcher.
+mkdir -p "${prep}"/TorMessenger/Data/Browser/Caches
+
+mv "${prep}" "/usr/local/lib/tor-messenger"
+chmod -R a+rX "/usr/local/lib/tor-messenger"
+
+cp "/usr/local/lib/tor-messenger/chrome/icons/default/default48.png" \
+   "/usr/share/icons/tor-messenger.png"
+chmod -R a+r "/usr/share/icons/tor-messenger.png"
+
+rm -r "${tmp_dir}"
