@@ -91,6 +91,7 @@ dosfstools
 eatmydata
 ekeyd
 electrum
+enigmail
 eog
 evince
 exiv2
@@ -141,6 +142,8 @@ haveged
 hdparm
 hledger
 hopenpgp-tools
+icedove
+icedove-l10n-all
 inkscape
 ipheth-utils
 iptables
@@ -172,6 +175,7 @@ nautilus
 nautilus-wipe
 nautilus-gtkhash
 network-manager-gnome
+nmh
 ntfs-3g
 ntfsprogs
 obfs4proxy
@@ -243,6 +247,7 @@ vidalia
 vim-nox
 virtualbox-guest-utils
 wireless-tools
+xul-ext-torbirdy
 # needed for initramfs-tools' COMPRESS=xz
 xz-utils
 
@@ -252,6 +257,7 @@ xserver-xorg-input-vmmouse
 #endif
 
 ### Firmwares
+firmware-amd-graphics
 firmware-atheros
 firmware-brcm80211
 firmware-ipw2x00
@@ -260,7 +266,7 @@ firmware-libertas
 firmware-linux
 firmware-linux-free
 firmware-linux-nonfree
-firmware-ralink
+firmware-misc-nonfree
 firmware-realtek
 firmware-zd1211
 b43-fwcutter
