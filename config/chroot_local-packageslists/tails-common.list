@@ -3,7 +3,6 @@ liveusb-creator
 tails-greeter
 tails-iuk
 tails-persistence-setup
-whisperback
 # profiling => squashfs optimization
 python-pyinotify
 # contains mkpasswd, needed in chroot_local-hooks/01-password
@@ -48,8 +47,6 @@ gir1.2-panelapplet
 # needed by 20-time.sh
 libnotify-bin
 notification-daemon
-# needed by tails-documentation
-yelp
 # for /usr/local/sbin/tails-blocked-network-detector
 libfile-tail-perl
 libparse-syslog-perl
@@ -64,65 +61,34 @@ gksu
 
 #include <standard-x11>
 
-aircrack-ng
 apparmor
 apparmor-profiles
 apparmor-profiles-extra
-audacity
 barry-util
 bilibop-udev
-cups
-cups-pk-helper
 cryptsetup
 rsync
 bash-completion
-bookletimposer
-claws-mail
-claws-mail-archiver-plugin
-claws-mail-i18n
-claws-mail-pgpinline
-claws-mail-pgpmime
 connect-proxy
 desktop-base
 dmz-cursor-theme
 dosfstools
 eatmydata
 ekeyd
-electrum
-enigmail
-eog
-evince
 exiv2
-file-roller
-florence
-fonts-cantarell
-fonts-liberation
-fonts-linuxlibertine
-gcalctool
 gdm3
-gedit
-gimp
-git
 gnome-control-center
-gnome-disk-utility
 gnome-media
 gnome-menus
 gnome-panel
 gnome-power-manager
 gnome-search-tool
-gnome-screenshot
 gnome-session-fallback
 gnome-system-log
-gnome-system-monitor
 gnome-terminal
 gnome-themes
 gnome-themes-standard
-gnome-user-guide
-gnupg-agent
-gnupg-curl
-gnupg2
 gobi-loader
-gobby-0.5
 ## breaks lb because of desktop-base.postinst (see Debian bug #467620)
 #if ARCHITECTURE i386 amd64
 # grub
@@ -138,19 +104,12 @@ hardlink
 haveged
 # needed by laptop-mode-tools to spin-down hard drives
 hdparm
-hledger
-hopenpgp-tools
-icedove
-icedove-l10n-all
-inkscape
 ipheth-utils
 iptables
 # ships isolinux.bin in syslinux 6.x packaging
 isolinux
 ferm
-keepassx
 kexec-tools
-keyringer
 memlockd
 less
 laptop-mode-tools
@@ -158,94 +117,43 @@ libgfshare-bin
 libgnomevfs2-extra
 libqt4-qt3support
 libsane-hpaio
-liferea
 live-config
 live-config-sysvinit
 lvm2
 macchanger
-mat
-monkeysign
-monkeysphere
 # our vidialia-wrapper needs lckdo
 moreutils
-msva-perl
 nautilus
-nautilus-wipe
-nautilus-gtkhash
 network-manager-gnome
-nmh
-ntfs-3g
-ntfsprogs
-obfs4proxy
-libreoffice-calc
-libreoffice-draw
-libreoffice-gnome
-libreoffice-impress
-libreoffice-math
-libreoffice-writer
-libreoffice-l10n-ar
-libreoffice-l10n-de
-libreoffice-l10n-es
-libreoffice-l10n-fa
-libreoffice-l10n-fr
-libreoffice-l10n-it
-libreoffice-l10n-pt
-libreoffice-l10n-ru
-libreoffice-l10n-vi
-libreoffice-l10n-zh-cn
-openssh-client
-paperkey
 parted
-pidgin
-pidgin-otr
 pinentry-gtk2
-pitivi
 plymouth
-poedit
 ppp
 pulseaudio
 pulseaudio-utils
-pwgen
 p7zip-full
 resolvconf
-rfkill
-sane-utils
 scdaemon
-scribus
 seahorse
 seahorse-daemon
 seahorse-nautilus
-secure-delete
-simple-scan
 sshfs
 # ships the *.c32 modules in syslinux 6.x packaging
 syslinux-common
 syslinux-efi
 # ships isohybrid in syslinux 6.x packaging
 syslinux-utils
-system-config-printer
-synaptic
 torsocks
-totem-plugins
-traverso
 ttf-dejavu
 tcpdump
 tcpflow
 tor
 tor-geoipdb
-sound-juicer
-ssss
-tor-arm
 totem
 ttdnsd
-unar
-unrar-free
 usbutils
-vidalia
 vim-nox
-virtualbox-guest-utils
 wireless-tools
-xul-ext-torbirdy
 # needed for initramfs-tools' COMPRESS=xz
 xz-utils
 
@@ -278,135 +186,10 @@ xserver-xorg-video-geode
 #endif
 xserver-xorg-video-all
 
-### Input methods
-ibus-gtk
-ibus-gtk3
-ibus-qt4
-## Chinese
-ibus-pinyin
-## Japanese
-ibus-anthy
-## Korean
-ibus-hangul
-## Vietnamese
-ibus-unikey
-
 ### l10n, i18n
 ## precompiled locales
 locales-all
-## arabic fonts
-fonts-kacst
-fonts-farsiweb
-## chinese fonts
-xfonts-intl-chinese
-fonts-arphic-ukai
-fonts-arphic-uming
-xfonts-wqy
-## Hebrew support
-culmus
-libfribidi0
-## indic fonts
-fonts-indic
-## Khmer language, used in Cambodia
-fonts-khmeros
-## Korean fonts
-fonts-unfonts-core
-## Lao fonts
-fonts-lao
-## russian fonts
-xfonts-bolkhov-koi8r-75dpi
-xfonts-bolkhov-koi8r-misc
-xfonts-cronyx-koi8r-100dpi
-## Sinhala fonts
-fonts-lklug-sinhala
-## Thai fonts
-fonts-thai-tlwg
-
-### CD burning
-brasero
-cdrdao
-
-### Accessibility
-## mouse accessibility enhancements
-mousetweaks
-## screen magnifier
-gnome-mag
-## text-to-speech
-gnome-orca
-at-spi2-core
-## high-contrast theme
-gnome-accessibility-themes
-## graphical predictive text input system
-dasher
 
 ### CPU microcodes
 amd64-microcode
 intel-microcode
-
-### Dictionaries and spell checking
-hunspell-ar
-hunspell-de-de
-hunspell-en-us
-myspell-es
-myspell-fa
-hunspell-fr
-myspell-it
-myspell-pt
-myspell-ru
-hunspell-vi
-
-### Mobile broadband devices support (GSM, 3G...)
-mobile-broadband-provider-info
-modemmanager
-usb-modeswitch
-usb-modeswitch-data
-
-### Monkeysign dependencies for qrcodes scanning
-python-qrencode
-python-zbar
-python-zbarpygtk
-
-### Printing support
-foomatic-db
-foomatic-db-engine
-foomatic-filters
-hpijs-ppds
-hplip
-hplip-cups
-printer-driver-escpr
-printer-driver-gutenprint
-
-### Make the MAT more powerful
-gir1.2-poppler-0.18
-libimage-exiftool-perl
-python-cairo
-python-mutagen
-python-pdfrw
-python-poppler
-
-### Windows8 theme ###
-gnome-theme-windows8
-window-picker-applet
-
-### Needed by virtualbox-guest-utils
-pciutils
-
-### SmartCard
-libccid
-pcscd
-
-### Spice and QXL
-spice-vdagent
-xserver-xorg-video-qxl
-
-### Wireless regulation
-crda
-wireless-regdb
-
-### Automated test suite
-python-serial
-xdotool
-
-i2p
-# Prevent java 6 from being installed
-openjdk-7-jre
