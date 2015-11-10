@@ -61,9 +61,6 @@ gksu
 
 #include <standard-x11>
 
-apparmor
-apparmor-profiles
-apparmor-profiles-extra
 barry-util
 bilibop-udev
 cryptsetup
