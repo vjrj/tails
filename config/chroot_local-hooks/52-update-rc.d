@@ -15,11 +15,9 @@ tor-controlport-filter
 
 PATCHED_INITSCRIPTS="
 alsa-utils
-gdomap
 haveged
 hdparm
 hwclock.sh
-i2p
 kexec
 kexec-load
 laptop-mode
@@ -29,7 +27,6 @@ plymouth
 pulseaudio
 resolvconf
 saned
-spice-vdagent
 tor
 ttdnsd
 "
