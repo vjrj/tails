@@ -26,7 +26,6 @@ network-manager
 plymouth
 pulseaudio
 resolvconf
-saned
 tor
 ttdnsd
 "
