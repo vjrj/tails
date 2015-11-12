@@ -23,11 +23,11 @@ msgstr "[[!meta title=\"Vos données ne seront pas sauvegardées à moins que vo
 
 #. type: Plain text
 msgid ""
-"As stated in the [[about]] page, Tails is designed to leave no trace on the "
+"As stated in the [[/about]] page, Tails is designed to leave no trace on the "
 "computer you're using unless you ask it explicitly. It is important to "
 "understand some of the consequences of that."
 msgstr ""
-"Comme expliqué dans la page [[à propos|about]], Tails est conçu pour ne "
+"Comme expliqué dans la page [[à propos|/about]], Tails est conçu pour ne "
 "laisser aucune trace sur l'ordinateur que vous utilisez, à moins que vous ne "
 "le demandiez explicitement. Il est important de comprendre certaines "
 "conséquences de ce choix."
@@ -63,7 +63,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"access_hdd\"></a>\n"
-msgstr ""
+msgstr "<a id=\"access_hdd\"></a>\n"
 
 #. type: Title =
 #, no-wrap
@@ -122,6 +122,8 @@ msgid ""
 "Open the [[*Nautilus* file manager|doc/first_steps/"
 "introduction_to_gnome_and_the_tails_desktop#nautilus]]."
 msgstr ""
+"Ouvrir le [[gestionnaire de fichier *Nautilus*|doc/first_steps/"
+"introduction_to_gnome_and_the_tails_desktop#nautilus]]."
 
 #. type: Bullet: '3. '
 msgid "Click on the hard disk of your choice in the left pane."

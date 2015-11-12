@@ -1,6 +1,6 @@
 ### Self-bla
-liveusb-creator
 tails-greeter
+tails-installer
 tails-iuk
 tails-persistence-setup
 whisperback
@@ -59,7 +59,9 @@ gksu
 ### Software
 
 aircrack-ng
+alsa-utils
 apparmor
+apparmor-profiles
 apparmor-profiles-extra
 apt-transport-tor
 audacity
@@ -82,6 +84,7 @@ dosfstools
 eatmydata
 ekeyd
 electrum
+enigmail
 eog
 evince
 exiv2
@@ -121,6 +124,7 @@ gobby-0.5
 ## breaks lb because of desktop-base.postinst (see Debian bug #467620)
 #if ARCHITECTURE i386 amd64
 # grub
+grub-efi-ia32
 #endif
 gstreamer0.10-plugins-base
 gstreamer0.10-plugins-good
@@ -134,6 +138,8 @@ haveged
 hdparm
 hledger
 hopenpgp-tools
+icedove
+icedove-l10n-all
 inkscape
 iptables
 # ships isolinux.bin in syslinux 6.x packaging
@@ -165,6 +171,8 @@ nautilus
 nautilus-wipe
 nautilus-gtkhash
 network-manager
+network-manager-gnome
+nmh
 ntfs-3g
 obfs4proxy
 libreoffice-calc
@@ -196,7 +204,6 @@ pulseaudio
 pulseaudio-utils
 pwgen
 p7zip-full
-resolvconf
 rfkill
 sane-utils
 scdaemon
@@ -213,8 +220,6 @@ syslinux-common
 syslinux-efi
 # ships isohybrid in syslinux 6.x packaging
 syslinux-utils
-system-config-printer
-systemd
 synaptic
 torsocks
 totem-plugins
@@ -235,6 +240,7 @@ vidalia
 vim-nox
 virtualbox-guest-utils
 wireless-tools
+xul-ext-torbirdy
 # needed for initramfs-tools' COMPRESS=xz
 xz-utils
 
@@ -244,6 +250,7 @@ xserver-xorg-input-vmmouse
 #endif
 
 ### Firmwares
+firmware-amd-graphics
 firmware-atheros
 firmware-brcm80211
 firmware-ipw2x00
@@ -252,7 +259,7 @@ firmware-libertas
 firmware-linux
 firmware-linux-free
 firmware-linux-nonfree
-firmware-ralink
+firmware-misc-nonfree
 firmware-realtek
 firmware-zd1211
 b43-fwcutter
@@ -377,9 +384,6 @@ window-picker-applet
 
 ### Needed by virtualbox-guest-utils
 pciutils
-
-### Needed by live-config's autodetection of broadcom-sta
-broadcom-sta-common
 
 ### SmartCard
 libccid

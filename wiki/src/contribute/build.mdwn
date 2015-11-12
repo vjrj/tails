@@ -1,6 +1,6 @@
 [[!meta title="Building a Tails image"]]
 
-[[!toc levels=2]]
+[[!toc levels=3]]
 
 Git repository and branches
 ===========================
@@ -275,7 +275,7 @@ The following Debian packages need to be installed:
 Configure live-build
 --------------------
 
-Remove any line matching `/^[[:space:]]*LB.*MIRROR.*=/` in
+Remove any line matching `/^\[[:space:]]*LB.*MIRROR.*=/` in
 `/etc/live/build.conf`.
 
 Build process

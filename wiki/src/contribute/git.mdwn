@@ -75,7 +75,7 @@ Repositories
 Main repository
 ---------------
 
-This repository contains the Tails source code and the wiki source.
+This repository contains the Tails source code and the source of the website.
 
 Anyone can check it out like this:
 
@@ -170,7 +170,7 @@ rewritten, e.g. it may be rebased on top of `devel`.
 
 Unless there are good reasons to do otherwise, bugfix branches must be
 forked off the latest stable release tag, while feature branches
-should are forked off the devel branch.
+should be forked off the devel branch.
 
 #### experimental
 
