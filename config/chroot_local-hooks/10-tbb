@@ -162,8 +162,6 @@ install_debian_extensions() {
     destination="${1}"
     shift
     apt-get install --yes "${@}"
-    ln -s /usr/share/xul-ext/adblock-plus/ \
-          "${destination}"/'{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}'
 }
 
 create_default_profile() {
@@ -193,10 +191,6 @@ MAIN_TARBALL="$(echo "${TBB_TARBALLS}" | grep -o "tor-browser-linux32-.*_en-US.t
 TBB_DIST_URL_FILE=/usr/share/tails/tbb-dist-url.txt
 TBB_TARBALLS_BASE_URL="$(cat "${TBB_DIST_URL_FILE}")"
 
-# The Debian Iceweasel extensions we want to install and make
-# available in the Tor Browser.
-DEBIAN_EXT_PKGS="xul-ext-adblock-plus"
-
 TMP="$(mktemp -d)"
 download_and_verify_files "${TBB_TARBALLS_BASE_URL}" "${TBB_TARBALLS}" "${TMP}"
 
@@ -217,7 +211,7 @@ rmdir "${TBB_INSTALL}"/TorBrowser/Data/Browser/profile.default/extensions
 FIREFOX_VERSION=$(get_firefox_version "${TBB_INSTALL}"/application.ini)
 FAKE_ICEWEASEL_VERSION=${FIREFOX_VERSION}+fake1
 install_fake_iceweasel_pkg "${FAKE_ICEWEASEL_VERSION}"
-install_debian_extensions "${TBB_EXT}" ${DEBIAN_EXT_PKGS}
+install_debian_extensions "${TBB_EXT}"
 
 mkdir -p "${TBB_PROFILE}"
 create_default_profile "${TBB_INSTALL}"/TorBrowser/Data/Browser/profile.default "${TBB_EXT}" "${TBB_PROFILE}"
