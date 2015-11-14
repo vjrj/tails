@@ -183,10 +183,6 @@ xserver-xorg-video-geode
 #endif
 xserver-xorg-video-all
 
-### l10n, i18n
-## precompiled locales
-locales-all
-
 ### CPU microcodes
 amd64-microcode
 intel-microcode
