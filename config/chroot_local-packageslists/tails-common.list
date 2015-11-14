@@ -150,7 +150,6 @@ tor-geoipdb
 totem
 ttdnsd
 usbutils
-vim-nox
 wireless-tools
 # needed for initramfs-tools' COMPRESS=xz
 xz-utils
