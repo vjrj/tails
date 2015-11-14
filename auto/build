@@ -127,6 +127,9 @@ if [ -n "$JENKINS_URL" ] && [ -z "$GIT_TAG" ] \
     BUILD_BASENAME="${BUILD_BASENAME}@${GIT_BASE_BRANCH_SHORT_ID}"
 fi
 
+mkdir -p config/chroot_local-includes/usr/share/doc/tails/website
+cp wiki/src/*.key config/chroot_local-includes/usr/share/doc/tails/website/
+
 # refresh translations of our programs
 ./refresh-translations || fatal "refresh-translations failed ($?)."
 
