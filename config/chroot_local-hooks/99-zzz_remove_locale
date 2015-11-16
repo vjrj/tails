@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -u
+set -e
+
+echo "Removing locales"
+
+rm -r /usr/share/locale/*
