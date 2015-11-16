@@ -186,3 +186,6 @@ xserver-xorg-video-all
 ### CPU microcodes
 amd64-microcode
 intel-microcode
+
+### UX testing
+ncdu
