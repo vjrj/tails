@@ -1,6 +1,6 @@
 #!/bin/sh
 
-systemctl --no-block start tails-restricted-network-detector.service
+set -x
 
 systemctl start tails-unblock-network.service
 

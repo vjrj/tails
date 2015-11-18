@@ -16,7 +16,6 @@ bind9-host
 # needed by tails-security-check
 libcarp-assert-perl
 libcarp-assert-more-perl
-libdesktop-notify-perl
 libio-socket-ssl-perl
 liblocale-gettext-perl
 liblwp-protocol-socks-perl
@@ -47,14 +46,14 @@ xclip
 libnotify-bin
 # needed by tails-documentation
 yelp
-# for tails-restricted-network-detector-wrapper
-jq
 # needed by live-persist
 acl
 # needed by the Unsafe Browser
 zenity
 # ships gksudo, needed by various wrappers of ours
 gksu
+# Needed by tails-htp-notify-user and others
+libdesktop-notify-perl
 
 ### Software
 
@@ -240,6 +239,7 @@ vidalia
 vim-nox
 virtualbox-guest-utils
 wireless-tools
+xsel
 xul-ext-torbirdy
 # needed for initramfs-tools' COMPRESS=xz
 xz-utils
