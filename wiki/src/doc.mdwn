@@ -18,6 +18,19 @@ documentation|/contribute/how/documentation]].
 
 [[!inline pages="doc/about.index" raw="yes"]]
 
+# Download & install
+
+  - [[Install from another Tails|install/clone]]
+  - [[Install from another Tails (for Mac OS X)|install/mac/clone]]
+  - [[Install from Windows|install/win/usb]]
+  - [[Install from Ubuntu|install/debian/usb]]
+  - [[Install from Ubuntu and the command line|install/expert/usb]]
+  - [[Install from another Linux distribution|install/linux/usb]]
+  - [[Install from Mac OS X by burning a DVD first|install/mac/dvd]]
+  - [[Install from Mac OS X and the command line|install/mac/usb]]
+  - [[Burn a DVD|install/dvd]]
+  - [[Run in a virtual machine|install/vm]]
+
 # First steps with Tails
 
 [[!inline pages="doc/first_steps.index" raw="yes"]]
