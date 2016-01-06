@@ -1,3 +1,8 @@
+  - [[!traillink Verify_the_ISO_image_using_OpenPGP|advanced_topics/openpgp_verification]]
+    - [[!traillink Using_Linux_with_GNOME|advanced_topics/openpgp_verification/gnome]]
+    - [[!traillink Using_Linux_with_the_command_line|advanced_topics/openpgp_verification/command_line]]
+    - [[!traillink Using_other_operating_systems|advanced_topics/openpgp_verification/others]]
+    - [[!traillink Trusting_Tails_signing_key|advanced_topics/openpgp_verification/trust]]
   - [[!traillink Install_additional_software|advanced_topics/additional_software]]
   - [[!traillink Protection_against_cold_boot_attacks|advanced_topics/cold_boot_attacks]]
   - [[!traillink Virtualization|advanced_topics/virtualization]]
