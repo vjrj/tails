@@ -7,7 +7,12 @@
 <p>You need to have recent enough versions of the <code>seahorse-nautilus</code>
 and <code>shared-mime-info</code> packages installed.</p>
 
-<p>These packages are already installed in Tails.</p>
+<div class="bug">
+
+<p>This technique is broken in Tails because it is impossible to open
+downloads with their associated application from Tor Browser anymore. See [[!tails_ticket 10882]].</p>
+
+</div>
 
 <div class="note">
 
@@ -52,8 +57,7 @@ command line|verify_the_iso_image_using_the_command_line]].</p>
 
 <h3>Get the Tails signing key</h3>
 
-<p>If you are using Tails, you already have the signing
-key. Otherwise, first download Tails signing key:</p>
+<p>Download the Tails signing key:</p>
 
 [[!inline pages="lib/download_tails_signing_key" raw="yes"]]
 
@@ -92,13 +96,6 @@ Then, the verification will start. It can take several minutes:</p>
 notification telling you that the signature is good:</p>
 
 <p>[[!img good_signature.png alt="Goog Signature" link="no"]]</p>
-
-<div class="bug">
-
-<p>The GNOME notifications appear truncated on Tails 1.1 and later.<br/>
-See&nbsp;[[!tails_ticket 7249]].</p>
-
-</div>
 
 <p><strong>If the ISO image is not correct</strong> you will get a
 notification telling you that the signature is bad:</p>
