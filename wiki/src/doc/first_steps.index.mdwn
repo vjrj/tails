@@ -1,9 +1,8 @@
   - [[!traillink Choosing_between_burning_a_DVD_and_installing_onto_a_USB_stick_or_SD_card|first_steps/media]]
-  - [[!traillink Installing_onto_a_USB_stick_or_SD_card|first_steps/installation]] (recommended)
-    - Uninstalling Tails or resetting a USB stick or SD card
-      using [[!traillink Linux|first_steps/reset/linux]]
-      [[!traillink Windows|first_steps/reset/windows]],
-      or [[!traillink Mac|first_steps/reset/mac]]
+  - Uninstalling Tails or resetting a USB stick or SD card
+    using [[!traillink Linux|first_steps/reset/linux]]
+    [[!traillink Windows|first_steps/reset/windows]],
+    or [[!traillink Mac|first_steps/reset/mac]]
   - [[!traillink Upgrading_a_Tails_USB_stick_or_SD_card|first_steps/upgrade]]
   - [[!traillink Startup_options|first_steps/startup_options]]
     - [[!traillink Administration_password|first_steps/startup_options/administration_password]]
