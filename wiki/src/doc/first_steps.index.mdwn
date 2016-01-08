@@ -1,8 +1,3 @@
-  - Uninstalling Tails or resetting a USB stick or SD card
-    using [[!traillink Linux|first_steps/reset/linux]]
-    [[!traillink Windows|first_steps/reset/windows]],
-    or [[!traillink Mac|first_steps/reset/mac]]
-  - [[!traillink Upgrading_a_Tails_USB_stick_or_SD_card|first_steps/upgrade]]
   - [[!traillink Startup_options|first_steps/startup_options]]
     - [[!traillink Administration_password|first_steps/startup_options/administration_password]]
     - [[!traillink Windows_camouflage|first_steps/startup_options/windows_camouflage]]
@@ -23,3 +18,8 @@
   - [[!traillink Report_an_error|first_steps/bug_reporting]]
     - [[!traillink Tails_does_not_start|first_steps/bug_reporting/tails_does_not_start]]
   - [[!traillink Shutting_down_Tails|first_steps/shutdown]]
+  - [[!traillink Upgrading_a_Tails_USB_stick_or_SD_card|first_steps/upgrade]]
+  - Uninstalling Tails or resetting a USB stick or SD card
+    using [[!traillink Linux|first_steps/reset/linux]]
+    [[!traillink Windows|first_steps/reset/windows]],
+    or [[!traillink Mac|first_steps/reset/mac]]
