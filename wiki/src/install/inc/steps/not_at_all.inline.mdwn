@@ -47,10 +47,7 @@
         appears, select the first USB stick in the list and press
         <span class="keycap">Enter</span>.
 
-      - If the computer starts on
-        <span class="debian">Ubuntu,</span>
-        <span class="windows">Windows,</span>
-        <span class="linux">Linux,</span>
+      - If the computer starts on Windows or Linux,
 	repeat steps 2 and 3 for all the potential boot menu keys
         identified in step 1.
 
@@ -74,9 +71,7 @@
    <div class="caution">
    <p>Take note of the changes that you apply to the BIOS settings, to be
    able to revert them if they prevent the computer to start on
-   <span class="debian">Ubuntu.</span>
-   <span class="windows">Windows.</span>
-   <span class="linux">Linux.</span></p>
+   Windows or Linux.</p>
    </div>
 
    1. Edit the **Boot Order**. Depending on the computer model you might
@@ -98,9 +93,34 @@
 
    1. Try to upgrade the BIOS to the latest version provided by the manufacturer.
 
-   If none of these options work, please [[report the problem to our
-   support team|doc/first_steps/bug_reporting/tails_does_not_start]].
+   If none of these options work, we are sorry but you might not be able
+   to use Tails on this computer. Please, [[send an email to our support
+   team|support/talk]], including the following information:
 
-   <div class="bug">
-   <p>We are sorry but you might not be able to use Tails on this computer.</p>
-   </div>
+   1. Which version of Tails are you trying to start?
+
+   1. Did you verify the ISO image? How?
+
+   1. Which is the brand, and model of the computer?
+
+   1. What exactly happens when trying to start? Report the complete error
+      message that appears on the screen, if any.
+
+   1. From which media are you trying to start Tails: DVD, USB stick
+      [[installed manually|doc/first_steps/installation/manual]], USB
+      stick [[installed with Tails
+      Installer|doc/first_steps/installation]], SD card?  Keep in mind
+      that, we do not support any other installation method than the ones
+      listed above.
+
+   1. Have you been able to start Tails successfully on this computer
+      before, from another media, or with another version of Tails?
+      If so, which ones?
+
+   1. Does the same media start successfully on other computers?
+
+   1. Have you been able to start Tails successfully on the same computer
+      using different installation methods? For example, it might start from a
+      DVD but not from a USB stick.
+
+   1. What installation method did you use to set up Tails?
