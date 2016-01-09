@@ -8,7 +8,7 @@
    USB stick with Tails installed. Here are two troubleshooting techniques. You should try them
    one after the other.
 
-   ### Getting to the boot menu
+   <h3>Getting to the boot menu</h3>
 
    On most computers, you can press a *boot menu key* to display a list of
    possible devices to start from. The following instructions explain how
@@ -55,7 +55,7 @@
    the USB stick does not appear in the list, then try the second
    troubleshooting technique described below.
 
-   ### Edit the BIOS settings
+   <h3>Edit the BIOS settings</h3>
 
    You might need to edit the BIOS settings of the computer.
 
