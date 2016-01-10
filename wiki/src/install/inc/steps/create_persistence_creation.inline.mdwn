@@ -1,0 +1,21 @@
+1. Specify a passphrase of your choice in both the
+<span class="guilabel">Passphrase</span> and <span class="guilabel">Verify
+Passphrase</span> text boxes.
+
+   <div class="tip">
+   <p>We recommend choosing a long passphrase made of five to seven random words.
+   <a href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/">Learn more.</a></p>
+   </div>
+
+1. Click on the <span class="guilabel">Create</span> button.
+
+1. Wait for the creation to finish.
+
+   <div class="bug">
+   <p>If you close the assistant before the creation finishes, you might
+   not be able to start Tails from this USB stick anymore.</p>
+   </div>
+
+1. The assistant shows a list of the possible persistence features. Each
+   feature corresponds to a set of files or settings to be saved in the encrypted
+   persistent storage.

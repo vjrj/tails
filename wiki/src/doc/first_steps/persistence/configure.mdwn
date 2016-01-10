@@ -29,24 +29,8 @@ When run for the first time, or after [[deleting the persistent
 volume|delete]], the assistant proposes to create a new persistent volume on
 the device from which Tails is running.
 
-1. The persistent volume is an encrypted partition protected by a passphrase.
-Specify a passphrase of your choice in both the
-<span class="guilabel">Passphrase</span> and <span class="guilabel">Verify
-Passphrase</span> text boxes.
+[[!inline pages="install/inc/steps/create_persistence_creation.inline" raw="yes"]]
 
-2. Click on the <span class="guilabel">Create</span> button.
-
-3. Wait for the creation to finish.
-
-<div class="bug">
-
-<strong>If the creation is interrupted before it finishes</strong>, you may not
-be able to start Tails from this device any more. This can happen if you
-close the window of the wizard or unplug the USB stick or SD card during the creation of
-the persistent volume. [[Delete|first_steps/reset]] and
-[[reinstall|first_steps/installation]] Tails to fix this issue.
-
-</div>
 
 <a id="features"></a>
 
