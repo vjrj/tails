@@ -1,9 +1,7 @@
 [[!meta title="Tails does not start"]]
 
-
-Refer to the following sections, depending on whether or not
-the [[boot menu|/doc/first_steps/startup_options#boot_menu]] appears
-when starting Tails:
+Refer to the following sections, depending on whether or not the <span
+class="guilabel">Boot Tails</span> menu appears when starting Tails:
 
 [[!toc]]
 
