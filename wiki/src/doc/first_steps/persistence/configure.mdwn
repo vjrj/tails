@@ -31,6 +31,8 @@ the device from which Tails is running.
 
 [[!inline pages="install/inc/steps/create_persistence_creation.inline" raw="yes"]]
 
+1. Restart Tails to apply the changes after activating or deactivating
+   persistence features.
 
 <a id="features"></a>
 
@@ -40,13 +42,6 @@ Persistence features
 When run from a Tails device that already has a persistent volume, the assistant
 shows a list of the possible persistence features. Each feature corresponds to a
 set a files to be saved in the persistent volume.
-
-<div class="note">
-
-<strong>Restart Tails to apply the changes</strong> after selecting or
-unselecting one or several features.
-
-</div>
 
 <div class="note">
 
