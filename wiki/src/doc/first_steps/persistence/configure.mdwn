@@ -42,10 +42,6 @@ the device from which Tails is running.
 Persistence features
 ====================
 
-When run from a Tails device that already has a persistent volume, the assistant
-shows a list of the possible persistence features. Each feature corresponds to a
-set a files to be saved in the persistent volume.
-
 <div class="note">
 
 Only features that are listed here can currently be made
