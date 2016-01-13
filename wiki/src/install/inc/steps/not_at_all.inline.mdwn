@@ -120,9 +120,8 @@
       <span class="application">Universal USB Installer</span>,
       <span class="application">GNOME Disks</span>,
       <span class="application">Tails Installer</span>, or
-      <span class="code">dd</span> on the command line? Keep in mind
-      that, we do not support any other installation method than the ones
-      listed above.
+      <span class="code">dd</span> on the command line? Note
+      that these are the only supported installation methods.
 
    1. Have you been able to start Tails successfully on this computer
       before, from another media, or with another version of Tails?
