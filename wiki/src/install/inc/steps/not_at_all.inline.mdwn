@@ -115,9 +115,12 @@
 
    1. Are you trying to start Tails on a DVD or a USB stick?
 
-   1. If you are trying to start on a USB stick, did you [[install it
-      manually|doc/first_steps/installation/manual]] or using [[Tails
-      Installer|doc/first_steps/installation]]? Keep in mind
+   1. If you are trying to start on a USB stick, which program did you
+      use to install it:
+      <span class="application">Universal USB Installer</span>,
+      <span class="application">GNOME Disks</span>,
+      <span class="application">Tails Installer</span>, or
+      <span class="code">dd</span> on the command line? Keep in mind
       that, we do not support any other installation method than the ones
       listed above.
 
