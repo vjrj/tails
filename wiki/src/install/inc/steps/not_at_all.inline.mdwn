@@ -113,10 +113,11 @@
    1. What exactly happens when trying to start? Report the complete error
       message that appears on the screen, if any.
 
-   1. From which media are you trying to start Tails: DVD, USB stick
-      [[installed manually|doc/first_steps/installation/manual]], USB
-      stick [[installed with Tails
-      Installer|doc/first_steps/installation]], SD card?  Keep in mind
+   1. Are you trying to start Tails on a DVD or a USB stick?
+
+   1. If you are trying to start on a USB stick, did you [[install it
+      manually|doc/first_steps/installation/manual]] or using [[Tails
+      Installer|doc/first_steps/installation]]? Keep in mind
       that, we do not support any other installation method than the ones
       listed above.
 
