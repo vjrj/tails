@@ -1,6 +1,6 @@
 [[!meta title="Upgrading a Tails USB stick or SD card"]]
 
-Tails includes an automatic mechanism to upgrade a USB stick or SD card to
+Tails includes an automatic mechanism to upgrade a USB stick to
 a newer version. In some cases, it is impossible to do an **automatic upgrade**
 and you might have to do a **manual upgrade**. This page describes both techniques.
 
@@ -121,7 +121,7 @@ For example, when:
   - The automatic upgrade failed and you need to repair a Tails device.
 
 In this case, <span class="application">Tails Installer</span> allows you to
-manually upgrade a USB stick or SD card to a newer version of Tails.
+manually upgrade a USB stick to a newer version of Tails.
 To do so, follow our [[manual upgrade instructions|/upgrade]].
 
 <div class="tip">
