@@ -1,0 +1,80 @@
+#!/bin/sh
+
+# This script sets up the live user's Gnome theme to something that
+# resembles Microsoft Windows 10.
+
+# Tor Browser
+# Copy the file containing toolbars configurations
+for browser in tor-browser unsafe-browser i2p-browser; do
+    profile="${HOME}/.${browser}/profile.default"
+    if [ -d "${profile}" ]; then
+        cp /usr/share/tails/tor-browser-windows-theme/localstore.rdf \
+            "${profile}"/localstore.rdf
+        mkdir -p "${profile}"/preferences
+        cp /usr/share/tails/tor-browser-windows-theme/theme.js \
+            "${profile}"/preferences/0000camouflage.js
+        mkdir -p "${profile}"/chrome
+        cp /usr/share/tails/tor-browser-windows-theme/userChrome.css \
+            "${profile}"/chrome/userChrome.css
+    fi
+done
+
+# Remove Tails-specific desktop icons
+rm --interactive=never -f ${HOME}/Desktop/*.desktop 2> /dev/null || true
+
+# Icon theme
+gsettings set org.gnome.desktop.interface icon-theme Windows8
+
+# Cursor theme
+gsettings set org.gnome.desktop.interface cursor-theme Windows8
+
+# Toolbars - Icons Only
+gsettings set org.gnome.desktop.interface toolbar-style icons
+
+# Desktop Icons
+##gsettings set org.gnome.nautilus.desktop computer-icon-visible false
+gsettings set org.gnome.nautilus.desktop home-icon-visible false
+gsettings set org.gnome.nautilus.desktop network-icon-visible false
+gsettings set org.gnome.nautilus.desktop trash-icon-visible true
+gsettings set org.gnome.nautilus.desktop volumes-visible true
+# FIXME: Localization needed below
+gsettings set org.gnome.nautilus.desktop trash-icon-name "Recycle Bin"
+
+# Only one workspace
+##gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
+
+# XXX Ugly restart hacks because this script runs too late
+# Restart the panel
+##pkill gnome-panel
+# Restart florence to make it use the right icon
+##pkill florence && florence &/usr/share/pixmaps/gpgApplet/48x48-grey/gpgApplet
+# Mute and unmute volume to fix its icon
+##amixer set Master toggle
+##sleep 0.1
+##amixer set Master toggle
+
+
+
+gsettings set org.gnome.desktop.session session-name gnome-classic
+gsettings set org.gnome.shell enabled-extensions "['user-theme@gnome-shell-extensions.gcampax.github.com', 'mmod-panel@mmogp.com', 'shutdown-helper@tails.boum.org', 'topIcons@adel.gadllah@gmail.com']"
+
+gsettings set org.gnome.shell.extensions.user-theme name 'Win10-TAILS Edition'
+
+gsettings set org.gnome.desktop.interface gtk-theme 'Win10-TAILS Edition'
+
+gsettings set org.gnome.desktop.wm.preferences theme 'Win10-TAILS Edition'
+##  Windows8
+
+gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/tails/windows_desktop_wallpaper.png'
+ettings set org.gnome.desktop.background picture-options stretched
+
+dconf write /org/gnome/shell/extensions/mmod-panel/show-running-apps false
+dconf write /org/gnome/shell/extensions/mmod-panel/first-run false
+dconf write /org/gnome/shell/extensions/mmod-panel/date-in-sys-tray true
+dconf write /org/gnome/shell/extensions/mmod-panel/panel-position 'Bottom'
+dconf write /org/gnome/shell/extensions/mmod-panel/comfort-level 'Cozy'
+dconf write /org/gnome/shell/extensions/mmod-panel/autohide-panel false
+dconf write /org/gnome/shell/extensions/mmod-panel/mmod-panel-enabled true
+dconf write /org/gnome/shell/extensions/mmod-panel/favorites-before-preferences true
+dconf write /org/gnome/shell/extensions/mmod-panel/panel-button-enabled true
+dconf write /org/gnome/shell/extensions/mmod-panel/show-in-tray-menu true

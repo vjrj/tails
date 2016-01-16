@@ -1,0 +1,8 @@
+# Subversion directory
+.svn
+
+# Eclipse project specific files and directories
+.settings
+.classpath
+.project
+/bin/

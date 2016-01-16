@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Windows 10 Default
+Comment=Windows 10 UI, Specially built for GNOME 3.8 for TAILS 2.0
+Comment=author : Christian Medel (Elbullazul)
+Version=TAILS Edition
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Windows 10 Default
+MetacityTheme=Windows 10 Default
+ButtonLayout=:minimize,maximize,close

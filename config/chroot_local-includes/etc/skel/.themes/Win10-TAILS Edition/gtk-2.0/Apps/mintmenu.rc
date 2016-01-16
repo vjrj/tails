@@ -1,0 +1,12 @@
+style "mintmenu-style"
+{
+    bg_pixmap[NORMAL] = "img/bc.png"
+	bg[NORMAL] = "#4e4e4e"
+	bg[ACTIVE] = "#000000"
+	bg[PRELIGHT] = "#cce8ff"
+	fg[NORMAL] = "#fff"
+	fg[ACTIVE] = "#fff"
+	fg[PRELIGHT] = "#fff"
+}
+
+widget "mintmenu.*" style "mintmenu-style"

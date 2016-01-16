@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tails-activate-windows-theme
+GenericName=Activates Windows theme
+Comment=Activates Windows theme
+Exec=/usr/local/lib/tails-activate-windows-theme
+Terminal=false
+Type=Application
+Categories=GNOME;X-GNOME-PersonalSettings;
+NoDisplay=true
+MimeType=application/x-tails-activate-windows-theme;

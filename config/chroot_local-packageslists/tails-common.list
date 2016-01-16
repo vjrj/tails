@@ -373,6 +373,9 @@ python-nautilus
 python-pdfrw
 python-poppler
 
+### Windows theme ###
+gnome-theme-windows8
+
 ### Needed by virtualbox-guest-utils
 pciutils
 

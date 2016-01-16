@@ -1,0 +1,14 @@
+diff --git a/PostLogin.default b/PostLogin.default
+index 2e1c25c..b8a645f 100755
+--- a/etc/gdm3/PostLogin/Default
++++ b/etc/gdm3/PostLogin/Default
+@@ -70,6 +70,9 @@ if [ -z "${LIVE_USERNAME}" ] ; then
+     log_n_exit "Username variable not found."
+ fi
+ 
++### Camouflage auto enable
++install -m 0644 /usr/share/applications/tails-activate-windows-theme.desktop /etc/xdg/autostart/
++
+ ### Physical security
+ log "Running /usr/local/lib/tails-unblock-network..."
+ /usr/local/lib/tails-unblock-network &
