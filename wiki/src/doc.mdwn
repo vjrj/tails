@@ -20,7 +20,6 @@ documentation|/contribute/how/documentation]].
 
 # Download & install
 
-  - [[Download without installing|install/download]]
   - [[Install from another Tails (for PC)|install/win/clone/overview]]
   - [[Install from another Tails (for Mac)|install/mac/clone/overview]]
   - [[Install from Windows|install/win/usb/overview]]
@@ -30,6 +29,7 @@ documentation|/contribute/how/documentation]].
   - [[Install from Mac OS X by burning a DVD first|install/mac/dvd/overview]]
   - [[Install from Mac OS X and the command line|install/mac/usb/overview]]
   - [[Burn a DVD|install/dvd]]
+  - [[Download without installing|install/download]]
 
 # First steps with Tails
 
