@@ -154,10 +154,7 @@ def reach_checkpoint(name)
   step_indent = " "*6
 
   step "a computer"
-  if VM.snapshot_exists?(name)
-    $vm.restore_snapshot(name)
-    post_snapshot_restore_hook
-  else
+  if not VM.snapshot_exists?(name)
     checkpoint = checkpoints[name]
     checkpoint_description = checkpoint[:description]
     parent_checkpoint = checkpoint[:parent_checkpoint]
@@ -193,6 +190,8 @@ def reach_checkpoint(name)
     end
     $vm.save_snapshot(name)
   end
+  $vm.restore_snapshot(name)
+  post_snapshot_restore_hook
 end
 
 # For each checkpoint we generate a step to reach it.
