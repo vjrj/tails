@@ -162,13 +162,13 @@ class VM
     set_cdrom_tray_state('closed')
   end
 
-  def set_boot_device(dev)
+  def set_boot_device(name)
     if is_running?
       raise "boot settings can only be set for inactive vms"
     end
-    domain_xml = REXML::Document.new(@domain.xml_desc)
-    domain_xml.elements['domain/os/boot'].attributes['dev'] = dev
-    update(domain_xml.to_s)
+    rexml = disk_rexml_desc(name)
+    rexml.elements['disk'].add_element('boot', {'order' => '1'})
+    @domain.update_device(rexml.to_s)
   end
 
   def set_cdrom_image(image)
@@ -262,7 +262,8 @@ class VM
     domain_xml = REXML::Document.new(@domain.xml_desc)
     domain_xml.elements.each('domain/devices/disk') do |e|
       begin
-        if e.elements['source'].attribute('file').to_s == @storage.disk_path(name)
+        if (name == 'cdrom' && e.attribute('device').to_s == "cdrom") ||
+           e.elements['source'].attribute('file').to_s == @storage.disk_path(name)
           return e.to_s
         end
       rescue
@@ -319,7 +320,7 @@ class VM
       raise "boot settings can only be set for inactive vms"
     end
     plug_drive(name, type) if not(disk_plugged?(name))
-    set_boot_device('hd')
+    set_boot_device(name)
     # For some reason setting the boot device doesn't prevent cdrom
     # boot unless it's empty
     remove_cdrom
