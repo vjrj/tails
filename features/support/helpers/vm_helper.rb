@@ -79,6 +79,8 @@ class VM
     rexml.elements['domain/uuid'].text = LIBVIRT_DOMAIN_UUID
     update(rexml.to_s)
     @display = Display.new(@domain_name, x_display)
+    @dummy_drive_name = "#{@domain_name}_dummy"
+    add_dummy_drive
     set_cdrom_boot(TAILS_ISO)
     plug_network
   rescue Exception => e
@@ -244,6 +246,16 @@ class VM
       domain_xml.elements['domain/devices'].add_element(xml)
       update(domain_xml.to_s)
     end
+  end
+
+  def add_dummy_drive
+    if not @storage.disk_exists?(@dummy_drive_name)
+      @storage.create_new_disk(@dummy_drive_name,
+                               {:size => 1,
+                                :unit => "MiB",
+                                :type => "qcow2"})
+    end
+    plug_drive(@dummy_drive_name, 'ide')
   end
 
   def disk_xml_desc(name)
@@ -552,82 +564,33 @@ EOF
 EOF
   end
 
-  def VM.ram_only_snapshot_path(name)
-    return "#{$config["TMPDIR"]}/#{name}-snapshot.memstate"
-  end
-
   def save_snapshot(name)
-    # If we have no qcow2 disk device, we'll use "memory state"
-    # snapshots, and if we have at least one qcow2 disk device, we'll
-    # use internal "system checkpoint" (memory + disks) snapshots. We
-    # have to do this since internal snapshots don't work when no
-    # such disk is available. We can do this with external snapshots,
-    # which are better in many ways, but libvirt doesn't know how to
-    # restore (revert back to) them yet.
-    # WARNING: If only transient disks, i.e. disks that were plugged
-    # after starting the domain, are used then the memory state will
-    # be dropped. External snapshots would also fix this.
-    internal_snapshot = false
-    domain_xml = REXML::Document.new(@domain.xml_desc)
-    domain_xml.elements.each('domain/devices/disk') do |e|
-      if e.elements['driver'].attribute('type').to_s == "qcow2"
-        internal_snapshot = true
-        break
-      end
-    end
-
-    # Note: In this case the "opposite" of `internal_snapshot` is not
-    # anything relating to external snapshots, but actually "memory
-    # state"(-only) snapshots.
-    if internal_snapshot
-      xml = internal_snapshot_xml(name)
-      @domain.snapshot_create_xml(xml)
-    else
-      snapshot_path = VM.ram_only_snapshot_path(name)
-      @domain.save(snapshot_path)
-      # For consistency with the internal snapshot case (which is
-      # "live", so the domain doesn't go down) we immediately restore
-      # the snapshot.
-      # Assumption: that *immediate* save + restore doesn't mess up
-      # with network state and similar, and is fast enough to not make
-      # the clock drift too much.
-      restore_snapshot(name)
-    end
+    assert_not_nil(disk_xml_desc(@dummy_drive_name))
+    xml = internal_snapshot_xml(name)
+    @domain.snapshot_create_xml(xml)
   end
 
   def restore_snapshot(name)
+    assert_not_nil(disk_xml_desc(@dummy_drive_name))
     @domain.destroy if is_running?
     @display.stop if @display and @display.active?
-    # See comment in save_snapshot() for details on why we use two
-    # different type of snapshots.
-    potential_ram_only_snapshot_path = VM.ram_only_snapshot_path(name)
-    if File.exist?(potential_ram_only_snapshot_path)
-      Libvirt::Domain::restore(@virt, potential_ram_only_snapshot_path)
-      @domain = @virt.lookup_domain_by_name(@domain_name)
-    else
-      begin
-        potential_internal_snapshot = @domain.lookup_snapshot_by_name(name)
-        @domain.revert_to_snapshot(potential_internal_snapshot)
-      rescue Libvirt::RetrieveError
-        raise "No such (internal nor external) snapshot #{name}"
-      end
+    @domain = @virt.lookup_domain_by_name(@domain_name)
+    begin
+      internal_snapshot = @domain.lookup_snapshot_by_name(name)
+      @domain.revert_to_snapshot(internal_snapshot)
+    rescue Libvirt::RetrieveError
+      raise "No such internal snapshot '#{name}'"
     end
     @display.start
   end
 
   def VM.remove_snapshot(name)
     old_domain = $virt.lookup_domain_by_name(LIBVIRT_DOMAIN_NAME)
-    potential_ram_only_snapshot_path = VM.ram_only_snapshot_path(name)
-    if File.exist?(potential_ram_only_snapshot_path)
-      File.delete(potential_ram_only_snapshot_path)
-    else
-      snapshot = old_domain.lookup_snapshot_by_name(name)
-      snapshot.delete
-    end
+    snapshot = old_domain.lookup_snapshot_by_name(name)
+    snapshot.delete
   end
 
   def VM.snapshot_exists?(name)
-    return true if File.exist?(VM.ram_only_snapshot_path(name))
     old_domain = $virt.lookup_domain_by_name(LIBVIRT_DOMAIN_NAME)
     snapshot = old_domain.lookup_snapshot_by_name(name)
     return snapshot != nil
@@ -636,9 +599,6 @@ EOF
   end
 
   def VM.remove_all_snapshots
-    Dir.glob("#{$config["TMPDIR"]}/*-snapshot.memstate").each do |file|
-      File.delete(file)
-    end
     old_domain = $virt.lookup_domain_by_name(LIBVIRT_DOMAIN_NAME)
     old_domain.list_all_snapshots.each { |snapshot| snapshot.delete }
   rescue Libvirt::RetrieveError

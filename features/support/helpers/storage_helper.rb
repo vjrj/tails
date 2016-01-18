@@ -138,6 +138,12 @@ class VMStorage
     return vol_xml.elements['volume/target/format'].attributes["type"]
   end
 
+  def disk_exists?(name)
+    !!@pool.lookup_volume_by_name(name)
+  rescue Libvirt::RetrieveError
+    false
+  end
+
   def disk_path(name)
     @pool.lookup_volume_by_name(name).path
   end
