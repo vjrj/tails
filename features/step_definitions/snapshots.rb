@@ -4,6 +4,7 @@ def checkpoints
       :description => "I have started Tails from DVD without network and stopped at Tails Greeter's login screen",
       :parent_checkpoint => nil,
       :steps => [
+        'a computer',
         'the network is unplugged',
         'I start the computer',
         'the computer boots Tails'
@@ -153,7 +154,11 @@ def reach_checkpoint(name)
   scenario_indent = " "*4
   step_indent = " "*6
 
-  step "a computer"
+  # If we run with --keep-snapshots and the first scenario we run
+  # happen to use a snapshot from a previous run, then the 'a
+  # computer' step won't have been run yet.
+  step "a computer" if $vm.nil?
+
   if not VM.snapshot_exists?(name)
     checkpoint = checkpoints[name]
     checkpoint_description = checkpoint[:description]
