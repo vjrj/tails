@@ -280,6 +280,15 @@ end
 
 When /^I start Pidgin through the GNOME menu$/ do
   step 'I start "Pidgin" via the GNOME "Internet" applications menu'
+  # Deal with IRC ghosting and similar by making sure that Pidgin
+  # shuts down cleanly.
+  add_after_scenario_hook do
+    10.times do
+      break if not $vm.has_process?('pidgin')
+      $vm.execute('killall pidgin')
+      sleep 1
+    end
+  end
 end
 
 When /^I open Pidgin's account manager window$/ do
@@ -451,12 +460,22 @@ When /^I close Pidgin's certificate import failure dialog$/ do
   @screen.waitVanish('PidginCertificateImportFailed.png', 10)
 end
 
-When /^I see the Tails roadmap URL$/ do
+When /^I close the current chat$/ do
+  @screen.type('w', Sikuli::KeyModifier.CTRL)
+end
+
+When /^I PM the Tails roadmap URL to myself on "([^"]+)"$/ do |irc_server|
+  my_nickname = configured_pidgin_accounts[irc_server]["nickname"]
+  url = 'https://labs.riseup.net/code/projects/tails/roadmap'
+  @screen.type("/msg #{my_nickname} #{url}" + Sikuli::Key.ENTER)
+end
+
+When /^I focus the chat with the Tails roadmap URL$/ do
   try_for(60) do
     begin
-      @screen.find('PidginTailsRoadmapUrl.png')
+      @screen.wait('PidginTailsRoadmapUrl.png', 3)
     rescue FindFailed => e
-      @screen.type(Sikuli::Key.PAGE_UP)
+      @screen.type(Sikuli::Key.PAGE_DOWN, Sikuli::KeyModifier.CTRL)
       raise e
     end
   end

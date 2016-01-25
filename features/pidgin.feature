@@ -64,10 +64,10 @@ Feature: Chatting anonymously using Pidgin
     And I close Pidgin's account manager window
     Then Pidgin successfully connects to the "irc.oftc.net" account
     And I can join the "#tails" channel on "irc.oftc.net"
-    When I type "/topic"
-    And I press the "ENTER" key
-    Then I see the Tails roadmap URL
-    When I click on the Tails roadmap URL
+    And I close the current chat
+    When I PM the Tails roadmap URL to myself on "irc.oftc.net"
+    And I focus the chat with the Tails roadmap URL
+    And I click on the Tails roadmap URL
     Then the Tor Browser has started and loaded the Tails roadmap
     And the "irc.oftc.net" account only responds to PING and VERSION CTCP requests
 
