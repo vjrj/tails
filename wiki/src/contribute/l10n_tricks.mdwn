@@ -17,11 +17,11 @@ Calculate statistics on the translations
 
 Run the [[language statistics.sh]] script.
 
-Build the wiki offline
-======================
+Build a local copy of the website
+=================================
 
-To check your translations before you send them, you may want to browse the
-wiki offline. See the [[corresponding documentation|contribute/build/website]].
+To check your translations before sending them, we recommend you [[build
+a local copy of the website|contribute/build/website]].
 
 Search for fuzzy strings with Vim
 =================================
@@ -37,8 +37,16 @@ up/down, you can add those lines in .vimrc:
     nmap <silent> <A-Up> :wincmd k<CR>
     nmap <silent> <A-Down> :wincmd j<CR>
 
+<a id="check-po"></a>
+
 Check the validity of PO files
 ==============================
+
+<div class="note">
+Make sure you have read the [[documentation about Git
+submodules|contribute/git#submodules]], otherwise this might not
+work properly.
+</div>
 
 To check the validity of PO files, install [i18nspector](http://jwilk.net/software/i18nspector)
 by running the following command line:

@@ -13,8 +13,7 @@ To access those utilities choose
 <span class="menuchoice">
   <span class="guimenu">Applications</span>&nbsp;▸
   <span class="guisubmenu">System Tools</span>&nbsp;▸
-  <span class="guisubmenu">Preferences</span>&nbsp;▸
-  <span class="guimenuitem">System Settings</span>&nbsp;▸
+  <span class="guimenuitem">Settings</span>&nbsp;▸
   <span class="guimenuitem">Universal Access</span></span>.
 
 <span class="application">Orca</span> screen reader
@@ -35,10 +34,10 @@ documentation](https://help.gnome.org/users/orca/stable/).
 
 <div class="bug">
 
-The screen reading functionality of <span class="application">GNOME
-Orca</span> works neither with <span
-class="application">Tor Browser</span> nor with the <span
-class="application">Unsafe Web Browser</span>.
+<p>The screen reading functionality of <span class="application">GNOME
+Orca</span> does not work with <span class="application">Tails
+Installer</span> nor with the <span class="application">Unsafe
+Web Browser</span> and <span class="application">I2P Browser</span>.</p>
 
 </div>
 
