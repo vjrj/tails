@@ -115,7 +115,8 @@ Feature: Browsing the web using the Tor Browser
     When I start the Tor Browser
     And the Tor Browser has started and loaded the startup page
     And I open the address "https://check.torproject.org" in the Tor Browser
-    Then I see "TorBrowserTorCheck.png" after at most 180 seconds
+#    Then I see "TorBrowserTorCheck.png" after at most 180 seconds
+    Then I see "UnsafeBrowserTorCheckFail.png" after at most 180 seconds
 
   @check_tor_leaks @fragile
   Scenario: The Tor Browser's "New identity" feature works as expected
@@ -123,7 +124,8 @@ Feature: Browsing the web using the Tor Browser
     When I start the Tor Browser
     And the Tor Browser has started and loaded the startup page
     And I open the address "https://check.torproject.org" in the Tor Browser
-    Then I see "TorBrowserTorCheck.png" after at most 180 seconds
+#    Then I see "TorBrowserTorCheck.png" after at most 180 seconds
+    Then I see "UnsafeBrowserTorCheckFail.png" after at most 180 seconds
     When I request a new identity using Torbutton
     And I acknowledge Torbutton's New Identity confirmation prompt
     Then the Tor Browser loads the startup page
