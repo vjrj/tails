@@ -33,15 +33,15 @@ Miscellaneous test results
   appears, and then choose the entry that's called *Boot EFI* (as
   every other entry) and looks like a USB stick.
 * on MacBook Pro 13-inch Mid 2012 with rEFInd, one has to choose
-  *Fallback boot loader from Tails* in rEFInd to boot, as the *Boot
-  Linux from Tails* entry does nothing at all (syslinux 6.02+dfsg-1
+  *Fallback boot loader from TⒶILS* in rEFInd to boot, as the *Boot
+  Linux from TⒶILS* entry does nothing at all (syslinux 6.02+dfsg-1
   and 6.03~pre1+dfsg-1)
 * The ThinkPenguin Royal does not detect the bootloader if installed
-  as `EFI/Tails/syslinux.efi`; hence the use of the fallback bootloader
+  as `EFI/TⒶILS/syslinux.efi`; hence the use of the fallback bootloader
   path (`BOOT/bootx64.efi`), which should work on more hardware.
 * tails-i386-feature_uefi-0.23-20131222T0855Z-8acf864.iso
   boots fine on a Apple MacBook Air 13" mid 2011 (MacBookAir4,2)
-  once installed with Tails Installer
+  once installed with TⒶILS Installer
 * MacBook Pro 15-inch Mid 2010 (6,2) boots fine with rEFInd and
   tails-i386-feature_uefi-0.23-20131222T0855Z-8acf864.iso, *if* `menu
   background splash.png` is removed from `stdmenu.cfg`; if one
@@ -55,7 +55,7 @@ Miscellaneous test results
   have it see the USB stick; then, rEFInd apparently loads syslinux,
   that fails to display its menu, even after commenting out most
   menu-related setting that has to do with color or positioning.
-  Finally, Tails does not boot.
+  Finally, TⒶILS does not boot.
 * ASUSTeK COMPUTER INC. X55VD: boots fine with `menu background
   splash.png` removed (both with CSM enabled and disabled); only boots
   in CSM mode with `menu background splash.png` kept in place
@@ -67,7 +67,7 @@ Miscellaneous test results
 * Boots fine on HP/Compaq 6330s in UEFI mode
 * ThinkCentre M82 boots fine with:
   - an alpha generation (isohybrid + dd) USB stick
-  - a beta generation (prepared with Tails Installer) USB stick in
+  - a beta generation (prepared with TⒶILS Installer) USB stick in
     both UEFI and "legacy" BIOS mode
 * Boots fine on ASUS 701 (eeepc).
 * Boots fine on Acer Aspire E1-531 (V2.09, EFI v2.31) in UEFI mode.
@@ -79,27 +79,27 @@ Miscellaneous test results
   0.7.8 installed, when installed with isohybrid + dd.
 * Boots fine on ASUS ux31a
   - in CSM mode, when installed with isohybrid + dd
-  - in UEFI mode, when installed with Tails Installer
+  - in UEFI mode, when installed with TⒶILS Installer
 * Boots fine on Lenovo Thinkpad T400.
 * Boots fine on Mac Mini 2.3 Ghz Intel Core i7 from DVD, and from USB
-  stick created with Tails Installer.
+  stick created with TⒶILS Installer.
 * Boots fine on MacBookAir5,1 from DVD, and from USB stick created
-  with Tails Installer on the same machine.
+  with TⒶILS Installer on the same machine.
 * Boots fine from DVD on VirtualBox 4.3.10-dfsg-1~bpo70+1 (as of commit e0a3c64
   in `feature/uefi`).
 * Boots fine on Lenovo G700.
 * Boots fine from DVD on Lenovo B570.
 * Boots fine from DVD on Lenovo Z61t.
 * Boots fine from DVD on HP Pavilion dm4-1150ca.
-* Boots fine on Asus Z87 Pro motherboard (Tails 1.1~beta1) off a USB
-  stick installed with Tails Installer.
+* Boots fine on Asus Z87 Pro motherboard (TⒶILS 1.1~beta1) off a USB
+  stick installed with TⒶILS Installer.
 
 # Tests with syslinux 3:6.03~pre18+dfsg-1~bpo70+1
 
 * MacBookPro 13-inch Late 2011 8,1. All what follows is using a USB
-  device installed with Tails Installer, using an experimental ISO
+  device installed with TⒶILS Installer, using an experimental ISO
   (20140731) with syslinux 3:6.03~pre18+dfsg-1~bpo70+1. The same
-  computer boots Tails 1.1 just fine.
+  computer boots TⒶILS 1.1 just fine.
   - boots just fine with the default configuration
   - uncommenting `menu background splash.png` in
     `EFI/BOOT/stdmenu.cfg` => stuck at the Mac boot menu
@@ -116,12 +116,12 @@ Miscellaneous test results
   and same as above MacBookPro 8,1 results wrt. menu config tweaks.
 * TOSHIBA PORTEGE Z830: boots fine with `isohybrid --entry 4 --type
   0x1c` and a <1GB ISO.
-* TOSHIBA PORTEGE Z930: boots fine from a stick installed with Tails
-  Installer (from DVD), while it did not boot with Tails 1.1.
+* TOSHIBA PORTEGE Z930: boots fine from a stick installed with TⒶILS
+  Installer (from DVD), while it did not boot with TⒶILS 1.1.
 * ThinkPad X61, EeePC Seashell series, VirtualBox 4.3.14-dfsg-1 (MBR):
   status quo, works just as fine as before
 * ASUSTeK UX31E: works fine, while it required manual selection in
-  BIOS in Tails 1.1.
+  BIOS in TⒶILS 1.1.
 * Mid-2012 Mac Pro (6-core 3.33Ghz 32GB memory): boots fine from DVD
 * Mid-2010 15" MacBook Pro (MacBookPro 6,2): boots fine from DVD
 * Lenovo x61s: boots fine from manually installed USB stick
@@ -134,7 +134,7 @@ Miscellaneous test results
   - with "menu background splash.png" and "MENU RESOLUTION 1024 768":
     boots fine. The menu is smaller and the background gets tiled
     (repeated as 2x2 tiles) which is ugly.
-* MacBookPro 2.6GHZ Mid 2012 15" (A1286 / MD104LL), Tails 1.2:
+* MacBookPro 2.6GHZ Mid 2012 15" (A1286 / MD104LL), TⒶILS 1.2:
   - DVD: boots fine
   - manual install method for mac: boots fine
-  - Tails Installer: doesn't boot
+  - TⒶILS Installer: doesn't boot

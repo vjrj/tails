@@ -1,5 +1,5 @@
 [[!meta date="Tue Nov 03 12:34:56 2015"]]
-[[!meta title="Tails 1.7 is out"]]
+[[!meta title="TⒶILS 1.7 is out"]]
 [[!tag announce]]
 
 This release fixes [[numerous security
@@ -20,17 +20,17 @@ See the current list of [[known issues|support/known_issues]].
 
 Go to the [[download]] or [[upgrade|doc/first_steps/upgrade/]] page.
 
-If you have been updating automatically for a while and your Tails does not
-boot after an automatic upgrade, you can [[update your Tails
+If you have been updating automatically for a while and your TⒶILS does not
+boot after an automatic upgrade, you can [[update your TⒶILS
 manually|doc/first_steps/upgrade#manual]].
 
 # What's coming up?
 
-The next Tails release is [[scheduled|contribute/calendar]] for
+The next TⒶILS release is [[scheduled|contribute/calendar]] for
 December 15.
 
 Have a look at our [[!tails_roadmap]] to see where we are heading to.
 
 We need your help and there are many ways to [[contribute to
-Tails|contribute]] ([[donating|contribute/how/donate]] is only one of
+TⒶILS|contribute]] ([[donating|contribute/how/donate]] is only one of
 them). Come [[talk to us|contribute/talk]]!

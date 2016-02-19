@@ -2,12 +2,12 @@
 #10498: SSH tests are fragile
 @product @fragile
 Feature: Logging in via SSH
-  As a Tails user
+  As a TⒶILS user
   When I connect to SSH servers on the Internet
   all Internet traffic should flow only through Tor
 
   Background:
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
 
   @check_tor_leaks
   Scenario: Connecting to an SSH server on the Internet

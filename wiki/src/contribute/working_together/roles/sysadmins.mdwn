@@ -6,10 +6,10 @@
 
 # Goals
 
-The Tails system administrators set up and maintain the infrastructure
-that supports the development and operations of Tails. We aim at
-making the life of Tails contributors easier, and to improve the quality of
-the Tails releases.
+The TⒶILS system administrators set up and maintain the infrastructure
+that supports the development and operations of TⒶILS. We aim at
+making the life of TⒶILS contributors easier, and to improve the quality of
+the TⒶILS releases.
 
 <a id="principles"></a>
 
@@ -21,7 +21,7 @@ We want to treat system administration like a (free) software
 development project:
 
 * We want to enable people to participate without needing an account
-  on the Tails servers.
+  on the TⒶILS servers.
 * We want to review the changes that are applied to our systems.
 * We want to be able to easily reproduce our systems via
   automatic deployment.
@@ -41,7 +41,7 @@ this rule.
 
 ## Relationships with upstream
 
-The [[principles used by the broader Tails
+The [[principles used by the broader TⒶILS
 project|contribute/relationship_with_upstream]] also apply for
 system administration.
 
@@ -74,14 +74,14 @@ for example:
    - is required by a system upgrade (e.g. of the Jenkins packages)
 * report bugs identified in Jenkins plugins after they have been upgraded (both
   on the upstream bug tracker and on our own one)
-* act as the de facto interface between Tails and the servers hosting
+* act as the de facto interface between TⒶILS and the servers hosting
   our services (boum.org, immerda.ch) for non-trivial requests
 
 <a id="tools"></a>
 
 # Tools
 
-The main tools used to manage the Tails infrastructure are:
+The main tools used to manage the TⒶILS infrastructure are:
 
 * [Debian](https://www.debian.org/) GNU/Linux; in the vast majority of
   cases, we run the current stable release
@@ -111,17 +111,17 @@ We use Redmine tickets for public discussion and tasks management:
 
 ## APT repository
 
-* purpose: host Tails-specific Debian packages
+* purpose: host TⒶILS-specific Debian packages
 * [[documentation|contribute/APT repository]]
-* access: anyone can read, Tails core developers can write
+* access: anyone can read, TⒶILS core developers can write
 * tools: [[!debpts reprepro]]
 * configuration: `tails::reprepro::custom` class
   in [[!tails_gitweb_repo puppet-tails]]
 
 ## Bitcoind
 
-* purpose: handle the Tails Bitcoin wallet
-* access: Tails core developers only
+* purpose: handle the TⒶILS Bitcoin wallet
+* access: TⒶILS core developers only
 * tools: [[!debpts bitcoind]]
 * configuration: `bitcoind` class in [[!tails_gitweb_repo puppet-bitcoind]]
 
@@ -129,15 +129,15 @@ We use Redmine tickets for public discussion and tasks management:
 
 * purpose: seed the new ISO image when preparing a release
 * [[documentation|contribute/release_process]]
-* access: anyone can read, Tails core developers can write
+* access: anyone can read, TⒶILS core developers can write
 * tools: [[!debpts transmission-daemon]]
 * configuration: done by hand ([[!tails_ticket 6926]])
 
 ## Debian package builder
 
-* purpose: build Tails-specific Debian packages
+* purpose: build TⒶILS-specific Debian packages
 * [[documentation|contribute/Debian_package_builder]]
-* access: Tails core developers only
+* access: TⒶILS core developers only
 * tools: [[!debpts debomatic desc="Deb-o-Matic"]]
 * configuration: hard-coded in the manifest ([[!tails_ticket 6920]])
 
@@ -145,16 +145,16 @@ We use Redmine tickets for public discussion and tasks management:
 
 * purpose: host Git repositories used by the puppetmaster and other
   services; mostly useless for humans
-* access: Tails core developers only
+* access: TⒶILS core developers only
 * tools: [[!debpts gitolite]]
 * configuration: `tails::gitolite` class in [[!tails_gitweb_repo
   puppet-tails]]
 
 ## git-annex
 
-* purpose: host the full history of Tails released images and Tor
+* purpose: host the full history of TⒶILS released images and Tor
   Browser tarballs
-* access: Tails core developers only
+* access: TⒶILS core developers only
 * tools: [[!debpts git-annex]]
 * configuration:
   - `tails::git_annex` and `tails::gitolite` classes in
@@ -164,9 +164,9 @@ We use Redmine tickets for public discussion and tasks management:
 
 ## Jenkins
 
-* purpose: continuous integration, e.g. build Tails ISO images from
+* purpose: continuous integration, e.g. build TⒶILS ISO images from
   source and run test suites
-* access: only Tails core developers can see the Jenkins web interface
+* access: only TⒶILS core developers can see the Jenkins web interface
   ([[!tails_ticket 6270]]); anyone can [[download the built
   products|contribute/how/testing]]
 * tools: [[!debpts jenkins desc="Jenkins"]], [[!debpts jenkins-job-builder]]
@@ -191,14 +191,14 @@ We use Redmine tickets for public discussion and tasks management:
 
 * purpose: provide content to the public rsync server, from which all
   HTTP mirrors in turn pull
-* access: read-only for those who need it, read-write for Tails core
+* access: read-only for those who need it, read-write for TⒶILS core
   developers
 * tools: [[!debpts rsync]]
 * configuration: `tails::rsync` in [[!tails_gitweb_repo puppet-tails]]
 
 ## Tor bridge
 
-* purpose: provide a Tor bridge that Tails contributors can easily use
+* purpose: provide a Tor bridge that TⒶILS contributors can easily use
   for testing
 * access: anyone who gets it from
   [BridgeDB](https://bridges.torproject.org/)

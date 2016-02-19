@@ -1,7 +1,7 @@
 [[!meta title="Vagrant"]]
 
-Tails can be [[built|contribute/build]] in a virtual machine that is managed
-using [Vagrant]. Here lies more details on how Tails uses Vagrant, its
+TⒶILS can be [[built|contribute/build]] in a virtual machine that is managed
+using [Vagrant]. Here lies more details on how TⒶILS uses Vagrant, its
 configuration, and how to create and upload the template virtual machine.
 
 [Vagrant]: http://vagrantup.com/
@@ -88,6 +88,6 @@ Wait until VM shuts down, then:
 
 Then `$BOXNAME.box` will be placed in tails source root,
 and all needed changes committed to the current checked out branch in
-Tails sources. The basebox should be uploaded to the Tails mirrors at
+TⒶILS sources. The basebox should be uploaded to the Tails mirrors at
 `http://dl.amnesia.boum.org/tails/project/vagrant/$BOXNAME.box`, as
 define defined in `vagrant/Vagrantfile`.

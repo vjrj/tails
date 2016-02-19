@@ -6,7 +6,7 @@ broken persistent volume.
 Unlock the persistent volume
 ============================
 
-1. Start Tails, with persistence disabled, and [[set up an administration
+1. Start TⒶILS, with persistence disabled, and [[set up an administration
    password|startup_options/administration_password]].
 
 1. Choose
@@ -17,7 +17,7 @@ Unlock the persistent volume
    </span>
    to open <span class="application">GNOME Disks</span>.
 
-1. In the left pane, click on the device corresponding to your Tails USB stick.
+1. In the left pane, click on the device corresponding to your TⒶILS USB stick.
 
 1. In the right pane, click on the partition labeled as
    <span class="guilabel">LUKS</span>. The

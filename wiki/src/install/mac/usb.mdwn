@@ -1,4 +1,4 @@
-[[!meta title="Installing Tails on a USB stick from Mac using the command line"]]
+[[!meta title="Installing TⒶILS on a USB stick from Mac using the command line"]]
 
 [[!meta stylesheet="bootstrap" rel="stylesheet" title=""]]
 [[!meta stylesheet="inc/stylesheets/assistant" rel="stylesheet" title=""]]
@@ -102,7 +102,7 @@ downloaded earlier to the USB stick. Replace:
 
       dd if=/Users/me/tails-i386-1.3.iso of=/dev/rdisk9 bs=16m && sync
 
-     If no error message is returned, Tails is being copied on the USB
+     If no error message is returned, TⒶILS is being copied on the USB
      stick. The copy takes some time, generally a few minutes.
 
      <div class="tip">

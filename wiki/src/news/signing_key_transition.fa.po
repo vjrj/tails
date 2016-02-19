@@ -34,7 +34,7 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails is transitioning to a new OpenPGP signing key."
+msgid "TⒶILS is transitioning to a new OpenPGP signing key."
 msgstr "تیلز در حال تغییر کلید امضای اُپن‌پی‌جی‌پی خود است."
 
 #. type: Plain text
@@ -90,8 +90,8 @@ msgstr "<div class=\"tip\">\n"
 #, no-wrap
 msgid ""
 "<ul>\n"
-"  <li>The old key can still be used to verify Tails 1.3 ISO images.</li>\n"
-"  <li>The new key will be used to sign ISO images starting from Tails 1.3.1.</li>\n"
+"  <li>The old key can still be used to verify TⒶILS 1.3 ISO images.</li>\n"
+"  <li>The new key will be used to sign ISO images starting from TⒶILS 1.3.1.</li>\n"
 "</ul>\n"
 msgstr ""
 "<ul>\n"
@@ -111,7 +111,7 @@ msgstr "برای دانلود و وارد کردن کلید امضای جدید 
 
 #. type: Plain text
 #, no-wrap
-msgid "<a class=\"download-key\" href=\"https://tails.boum.org/tails-signing.key\">new Tails signing key</a>\n"
+msgid "<a class=\"download-key\" href=\"https://tails.boum.org/tails-signing.key\">new TⒶILS signing key</a>\n"
 msgstr "<a class=\"download-key\" href=\"https://tails.boum.org/tails-signing.key\">کلید امضای جدید تیلز</a>\n"
 
 #. type: Plain text
@@ -142,8 +142,8 @@ msgstr "نتیجه باید شامل یک امضای کلید جدید توسط 
 
 #. type: Plain text
 #, no-wrap
-msgid "    sig!         0x1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>\n"
-msgstr "    sig!         0x1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>\n"
+msgid "    sig!         0x1202821CBE2CD9C1 2015-01-19  TⒶILS developers (signing key) <tails@boum.org>\n"
+msgstr "    sig!         0x1202821CBE2CD9C1 2015-01-19  TⒶILS developers (signing key) <tails@boum.org>\n"
 
 #. type: Plain text
 msgid ""
@@ -169,7 +169,7 @@ msgstr "شرح کامل کلید امضای جدید:"
 #| "<pre>\n"
 #| "    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2016-01-11]\n"
 #| "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
-#| "    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>\n"
+#| "    uid                 [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>\n"
 #| "    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2016-01-11]\n"
 #| "    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2016-01-11]\n"
 #| "</pre>\n"
@@ -177,8 +177,8 @@ msgid ""
 "<pre>\n"
 "    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2017-01-11]\n"
 "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
-"    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>\n"
-"    uid                 [ unknown] Tails developers <tails@boum.org>\n"
+"    uid                 [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>\n"
+"    uid                 [ unknown] TⒶILS developers <tails@boum.org>\n"
 "    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2017-01-11]\n"
 "    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2017-01-11]\n"
 "</pre>\n"
@@ -186,7 +186,7 @@ msgstr ""
 "<pre>\n"
 "    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2016-01-11]\n"
 "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
-"    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>\n"
+"    uid                 [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>\n"
 "    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2016-01-11]\n"
 "    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2016-01-11]\n"
 "</pre>\n"
@@ -213,7 +213,7 @@ msgstr ""
 "رمزنگاری‌شده جدا شده‌است."
 
 #. type: Bullet: '    - '
-msgid "Is only used offline, in an air-gapped Tails."
+msgid "Is only used offline, in an air-gapped TⒶILS."
 msgstr "این کلید به طور آفلاین و در یک تیلز در شکاف هوایی به کار رفته‌است."
 
 #. type: Bullet: '    - '
@@ -265,7 +265,7 @@ msgstr "Stefano Zacchiroli <zack@debian.org> با کلید `0x9C31503C6D866396`"
 #. type: Plain text
 msgid ""
 "So you can use the technique described in our documentation to further "
-"[[verify the Tails signing key against the Debian keyring|doc/get/"
+"[[verify the TⒶILS signing key against the Debian keyring|doc/get/"
 "trusting_tails_signing_key#debian]] using any of those three keys."
 msgstr ""
 "بنابراین می‌توانید از شگرد آمده در مستندات ما برای [[تأیید دوبارهٔ کلید امضای "

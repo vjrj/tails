@@ -25,12 +25,12 @@ yet another anonymizing network
 (load-balanced unspoofable packet switching network) that provides
 access to eepsites (.i2p tld); eepsites are a bit like Tor hidden
 services. Some users would like to be able to access eepsites from
-Tails.
+TⒶILS.
 
 Like the `debian-tor` user, the `i2psvc` user is allowed to connect
 *directly* to the Internet. Any rules granting the `i2psvc` user access are only
 applied if the user explicitly enables I2P at the boot prompt.  See
-[[the design document dedicated to Tails use of I2P|I2P]] for details.
+[[the design document dedicated to TⒶILS use of I2P|I2P]] for details.
 
 #### Unsafe Browser and the `clearnet` user
 
@@ -47,7 +47,7 @@ the `i2pbrowser` user.
 
 #### Local Area Network (LAN)
 
-Tails short description talks of sending through Tor *outgoing
+TⒶILS short description talks of sending through Tor *outgoing
 connections to the Internet*. Indeed: traffic to the local LAN
 (RFC1918 addresses) is wide open as well as the loopback traffic
 obviously.
@@ -56,7 +56,7 @@ LAN DNS queries are forbidden to protect against some attacks.
 
 #### Local services whitelist
 
-The Tails firewall uses a whitelist which only grants access to each
+The TⒶILS firewall uses a whitelist which only grants access to each
 local service to the users that actually need it. This blocks
 potential leaks due to misconfigurations or bugs, and deanonymization
 attacks by compromised processes. For specifics, see the firewall

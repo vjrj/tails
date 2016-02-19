@@ -17,23 +17,23 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"To uninstall Tails from a USB stick or SD card, and use it for something "
+"To uninstall TⒶILS from a USB stick or SD card, and use it for something "
 "else, you have to reset it."
 msgstr ""
-"Pour désinstaller Tails d'une clé USB ou d'une carte SD, et l'utiliser pour "
+"Pour désinstaller TⒶILS d'une clé USB ou d'une carte SD, et l'utiliser pour "
 "autre chose, vous devez la réinitialiser."
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "**The content of the device will be lost in the operation,** but an attacker\n"
-"might still be able to tell that Tails was installed on that device using\n"
+"might still be able to tell that TⒶILS was installed on that device using\n"
 "[[data recovery techniques|encryption_and_privacy/secure_deletion]] unless you\n"
 "[[securely clean all the available disk space|encryption_and_privacy/secure_deletion#usb_and_ssd]]\n"
 "afterwards.\n"
 msgstr ""
 "**Le contenu du périphérique sera perdu lors de l'opération,** mais un attaquant\n"
-"sera quand même capable de dire que Tails fut installé sur cette clé USB\n"
+"sera quand même capable de dire que TⒶILS fut installé sur cette clé USB\n"
 "en utilisant des [[techniques de restauration de données|encryption_and_privacy/secure_deletion]]\n"
 "à moins que vous n'[[effaciez de manière sécurisée|encryption_and_privacy/secure_deletion#usb_and_ssd]]\n"
 "la totalité de l'espace disque disponible après coup.\n"

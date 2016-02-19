@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Verify that the other Tails is up-to-date\n"
+msgid "Verify that the other TⒶILS is up-to-date\n"
 msgstr ""
 
 #. type: Plain text
@@ -27,7 +27,7 @@ msgid ""
 "To prevent\n"
 "<span class=\"install-clone mac-clone\">installing</span>\n"
 "<span class=\"upgrade-clone\">upgrading to</span>\n"
-"an outdated version of Tails with known security issues, make sure that the Tails you are\n"
+"an outdated version of TⒶILS with known security issues, make sure that the TⒶILS you are\n"
 "<span class=\"install-clone mac-clone\">installing</span>\n"
 "<span class=\"upgrade-clone\">upgrading</span>\n"
 "from is up-to-date:\n"
@@ -36,13 +36,13 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</"
-"span>&nbsp;▸ <span class=\"guisubmenu\">Tails</span>&nbsp;▸ <span class="
-"\"guimenuitem\">About Tails</span></span>."
+"span>&nbsp;▸ <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸ <span class="
+"\"guimenuitem\">About TⒶILS</span></span>."
 msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Verify that you are running <span class=\"guilabel\">Tails [[!inline pages="
+"Verify that you are running <span class=\"guilabel\">TⒶILS [[!inline pages="
 "\"inc/stable_i386_version\" raw=\"yes\"]]</span> released on [[!inline pages="
 "\"inc/stable_i386_date\" raw=\"yes\"]]:"
 msgstr ""
@@ -56,7 +56,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "   b. If you are not running [[!inline pages=\"inc/stable_i386_version\" raw=\"yes\"]] then connect to the Internet\n"
-"   and wait until Tor is ready. After a minute or two, <span class=\"application\">Tails Upgrader</span>\n"
+"   and wait until Tor is ready. After a minute or two, <span class=\"application\">TⒶILS Upgrader</span>\n"
 "   appears with instructions on how to upgrade. Apply all upgrades as requested.\n"
 msgstr ""
 
@@ -68,6 +68,6 @@ msgid ""
 "      we recommend you\n"
 "      <span class=\"install-clone\">[[choose a different installation method|install/os]].</span>\n"
 "      <span class=\"mac-clone\">[[choose a different installation method|install/mac]].</span>\n"
-"      <span class=\"upgrade-clone\">[[upgrade from Tails instead|upgrade/tails]].</span>\n"
+"      <span class=\"upgrade-clone\">[[upgrade from TⒶILS instead|upgrade/tails]].</span>\n"
 "      </div>\n"
 msgstr ""

@@ -24,7 +24,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The <em>first</em> release candidate for the upcoming "
+"You can help TⒶILS! The <em>first</em> release candidate for the upcoming "
 "version 0.14 is out. Please test it and see if all works for you."
 msgstr ""
 
@@ -33,7 +33,7 @@ msgid "[[!toc levels=1]]"
 msgstr ""
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.14~rc1?"
+msgid "How to test TⒶILS 0.14~rc1?"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -51,14 +51,14 @@ msgstr ""
 msgid ""
 "<a class=\"download-file\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.14~rc1/tails-i386-0.14~rc1.iso\" "
-">Tails 0.14~rc1 ISO image</a>"
+">TⒶILS 0.14~rc1 ISO image</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-signature\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.14~rc1/tails-i386-0.14~rc1.iso.pgp\" "
-">Tails 0.14~rc1 signature</a>"
+">TⒶILS 0.14~rc1 signature</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -144,7 +144,7 @@ msgid "Update torproject.org's APT repo key."
 msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
-msgid "Update the embedded Tails signing key."
+msgid "Update the embedded TⒶILS signing key."
 msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
@@ -153,7 +153,7 @@ msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
 msgid ""
-"Rewrite Tails firewall using ferm. Tails firewall was written in very "
+"Rewrite TⒶILS firewall using ferm. Tails firewall was written in very "
 "unsophisticated iptables-save/restore format. As more feature creeped in, it "
 "started to be quite unreadable."
 msgstr ""
@@ -174,7 +174,7 @@ msgstr ""
 msgid ""
 "Blacklist PC speaker module. On some computers, having the pcspkr module "
 "loaded means loud beeps at bootup, shutdown and when using the console. As "
-"it draws useless attention to Tails users, it is better to prevent Linux "
+"it draws useless attention to TⒶILS users, it is better to prevent Linux "
 "from loading it by default."
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 #. type: Content of: <ul><li><ul><li>
 msgid ""
 "Include <code>seq</code> in the ramdisk environment: it is used to wipe more "
-"memory. This fixes the long-standing bug about Tails not cleaning all memory "
+"memory. This fixes the long-standing bug about TⒶILS not cleaning all memory "
 "on shutdown."
 msgstr ""
 
@@ -407,7 +407,7 @@ msgid "Drop tails-lang-helper, not used anymore."
 msgstr ""
 
 #. type: Content of: <ul><li><ul><li><ul><li>
-msgid "Do not compile locales at login time anymore. Tails now ships locales-all."
+msgid "Do not compile locales at login time anymore. TⒶILS now ships locales-all."
 msgstr ""
 
 #. type: Content of: <ul><li>
@@ -415,7 +415,7 @@ msgid "Internationalization"
 msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
-msgid "Fix Tails specific Iceweasel localization for pt-BR"
+msgid "Fix TⒶILS specific Iceweasel localization for pt-BR"
 msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
@@ -480,7 +480,7 @@ msgstr ""
 #. type: Content of: <ul><li><ul><li>
 msgid ""
 "vagrant: use aufs magic instead of copying source into tmpfs.  This reduces "
-"the amount of RAM required for building Tails in."
+"the amount of RAM required for building TⒶILS in."
 msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
@@ -501,7 +501,7 @@ msgstr ""
 msgid ""
 "Claws Mail isn't using its dedicated Tor SocksPort for Tor hidden service "
 "IMAP/POP/SMTP servers (instead Tor's TransPort is used). This is just a "
-"deviation from Tails' design and should have no adverse real world "
+"deviation from TⒶILS' design and should have no adverse real world "
 "consequences."
 msgstr ""
 
@@ -514,7 +514,7 @@ msgid ""
 "I2P doesn't start any local proxies despite connecting to the I2P network "
 "just fine. This makes it essentially unusable, e.g. eepSites like "
 "http://www.i2p2.i2p cannot be accessed in Iceweasel. The reason for this "
-"seems to be a random memory error in the machine building the Tails 0.14~rc1 "
+"seems to be a random memory error in the machine building the TⒶILS 0.14~rc1 "
 "image.  See <a "
 "href=\"https://mailman.boum.org/pipermail/tails-dev/2012-October/001829.html\">this "
 "post on tails-dev</a> for more information."

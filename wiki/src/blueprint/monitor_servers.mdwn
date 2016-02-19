@@ -205,7 +205,7 @@ The chosen monitoring system:
 ## Adequacy to our resources
 
 Being able to operate the monitoring system for 20-50 monitored
-systems MUST NOT require Tails sysadmins to invest lots of time and
+systems MUST NOT require TⒶILS sysadmins to invest lots of time and
 become experts at hand-holding a complex software stack: the main
 focus of our system and automation engineers shall not become
 monitoring. For example, we won't like a monitoring system that is
@@ -230,7 +230,7 @@ scale up to 50 hosts.
   talks to our own puppetmaster, we want to do the initial
   OS installation.
 * The monitoring machine MUST be hosted on infrastructure managed by
-  people the Tails sysadmins trust quite a bit.
+  people the TⒶILS sysadmins trust quite a bit.
 * The people who manage the underlying hardware and infrastructure
   MUST be reactive and easy to get in touch with.
 * We MUST be given out-of-band access to the monitoring machine.
@@ -276,7 +276,7 @@ For description of individual services, see
 
 ## BitTorrent
 
-* LOW: last Tails release is seeded
+* LOW: last TⒶILS release is seeded
 
 ## Gitolite
 

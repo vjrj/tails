@@ -58,7 +58,7 @@ command:
 
     sudo apt-get install virt-manager libvirt-bin qemu-kvm
 
-Running Tails from an ISO image
+Running TⒶILS from an ISO image
 ===============================
 
   1. Start *virt-manager*.
@@ -105,10 +105,10 @@ active</span>", then try to start the default virtual network:
 
 <a id="usb"></a>
 
-Running Tails from a USB stick or SD card
+Running TⒶILS from a USB stick or SD card
 =========================================
 
-To run Tails from a USB stick or SD card using *virt-manager*, first
+To run TⒶILS from a USB stick or SD card using *virt-manager*, first
 create a virtual machine running from an ISO image as described
 [[above|virt-manager#iso]].
 
@@ -121,7 +121,7 @@ Then do the following:
      <span class="guimenuitem">Force Off</span></span> to shut down the
      virtual machine.
   1. Plug in the USB stick or insert the SD card from which you want to
-     run Tails.
+     run TⒶILS.
   1. Choose
      <span class="menuchoice">
      <span class="guimenu">View</span>&nbsp;▸
@@ -131,15 +131,15 @@ Then do the following:
      pane.
   1. Select **USB Host Device** in the left pane.
   1. In the right pane, click on the device from which you want to run
-     Tails, and click **Finish**.
+     TⒶILS, and click **Finish**.
 
 You can keep the original ISO image connected as a virtual DVD to
-install Tails onto the USB stick or SD card if needed.
+install TⒶILS onto the USB stick or SD card if needed.
 
 <a id="disconnect"></a>
 
 You can also disconnect the original ISO image and start directly from the
-USB stick once Tails is already installed on it. To do so:
+USB stick once TⒶILS is already installed on it. To do so:
 
   1. Shut down the virtual machine.
   1. In the configuration of the virtual machine, click on **IDE CDROM
@@ -162,13 +162,13 @@ volume|first_steps/persistence/configure]] on it.
 
 <a id="virtual_usb"></a>
 
-Running Tails from a virtual USB storage
+Running TⒶILS from a virtual USB storage
 ========================================
 
-You can also run Tails from a virtual USB storage, saved as a single
+You can also run TⒶILS from a virtual USB storage, saved as a single
 file on the host operating system.
 
-To run Tails from a virtual USB device using *virt-manager*, first
+To run TⒶILS from a virtual USB device using *virt-manager*, first
 create a virtual machine running from an ISO image as described
 [[above|virt-manager#iso]].
 
@@ -194,8 +194,8 @@ Then do the following to create a virtual USB storage:
   1. In the right pane, select the **Removable** option and click
      **Apply**.
 
-Then start the virtual machine from the virtual DVD to install Tails
-onto the virtual USB storage. The virtual USB storage appears in *Tails
+Then start the virtual machine from the virtual DVD to install TⒶILS
+onto the virtual USB storage. The virtual USB storage appears in *TⒶILS
 Installer* as **QEMU HARDDISK**.
 
 After that you can disconnect the original ISO image and start directly

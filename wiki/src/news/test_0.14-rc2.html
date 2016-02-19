@@ -1,13 +1,13 @@
 [[!meta date="2012-10-29 12:34:56 +0200"]]
 [[!meta title="Call for testing: 0.14~rc2"]]
 
-<p>You can help Tails! The <em>second</em> release candidate for the
+<p>You can help TⒶILS! The <em>second</em> release candidate for the
 upcoming version 0.14 is out. Please test it and see if all works for
 you.</p>
 
 [[!toc levels=1]]
 
-<h1>How to test Tails 0.14~rc2?</h1>
+<h1>How to test TⒶILS 0.14~rc2?</h1>
 
 <ol>
   <li>
@@ -22,12 +22,12 @@ you.</p>
     <p>
       <a class="download-file"
          href="http://dl.amnesia.boum.org/tails/testing/tails-i386-0.14~rc2/tails-i386-0.14~rc2.iso"
-      >Tails 0.14~rc2 ISO image</a>
+      >TⒶILS 0.14~rc2 ISO image</a>
     </p>
     <p>
       <a class="download-signature"
          href="http://dl.amnesia.boum.org/tails/testing/tails-i386-0.14~rc2/tails-i386-0.14~rc2.iso.pgp"
-      >Tails 0.14~rc2 signature</a>
+      >TⒶILS 0.14~rc2 signature</a>
     </p>
   </li>
   <li>
@@ -73,7 +73,7 @@ you to pay attention to whether Iceweasel has any new issues or not.
       <li>Remove the last absolute path in our isolinux config, which makes
       it easier to migrate from isolinux to syslinux (just rename the
       directory), and hence might make it easier for 3rd party USB
-      installers (like the Universal USB Installer) to support Tails.</li>
+      installers (like the Universal USB Installer) to support TⒶILS.</li>
     </ul>
   </li>
   <li>Bug fixes
@@ -89,7 +89,7 @@ you to pay attention to whether Iceweasel has any new issues or not.
   <li>Software
     <ul>
       <li>Update tails-persistence-setup to 0.20-1, which should make it
-      possible to install Tails on large (>= 32 GiB) USB drives.</li>
+      possible to install TⒶILS on large (>= 32 GiB) USB drives.</li>
     </ul>
   </li>
 </ul>
@@ -125,9 +125,9 @@ you to pay attention to whether Iceweasel has any new issues or not.
     <li>On kexec reboot, make the boot quiet only if debug=wipemem was not
     enabled.</li>
     <li>Update torproject.org's APT repo key.</li>
-    <li>Update the embedded Tails signing key.</li>
+    <li>Update the embedded TⒶILS signing key.</li>
     <li>Use symlinks instead of dupliqcating localized searchplugins.</li>
-    <li>Rewrite Tails firewall using ferm. Tails firewall was written in
+    <li>Rewrite TⒶILS firewall using ferm. Tails firewall was written in
     very unsophisticated iptables-save/restore format. As more feature
     creeped in, it started to be quite unreadable.</li>
     <li>Optimize VirtualBox modules build at runtime to avoid installing the
@@ -136,7 +136,7 @@ you to pay attention to whether Iceweasel has any new issues or not.
     trouble (with multiple SocksPorts) and the default works well.</li>
     <li>Blacklist PC speaker module. On some computers, having the
     pcspkr module loaded means loud beeps at bootup, shutdown and when
-    using the console. As it draws useless attention to Tails users,
+    using the console. As it draws useless attention to TⒶILS users,
     it is better to prevent Linux from loading it by default.</li>
     <li>Remove all addons from the Unsafe Browser. No addons are
     essential for the Unsafe Browser's intent. If anything they will
@@ -167,7 +167,7 @@ you to pay attention to whether Iceweasel has any new issues or not.
     <ul>
       <li>Include <code>seq</code> in the ramdisk environment: it is
       used to wipe more memory. This fixes the long-standing bug about
-      Tails not cleaning all memory on shutdown.</li>
+      TⒶILS not cleaning all memory on shutdown.</li>
       <li>Fix Yelp crashing on internal links</li>
       <li>Allow amnesia user to use Tor's TransPort. This firewall
       exception is necessary for applications that doesn't have
@@ -238,7 +238,7 @@ you to pay attention to whether Iceweasel has any new issues or not.
           <li>Read list of language codes from where we have saved it at
           package build time.</li>
           <li>Drop tails-lang-helper, not used anymore.</li>
-          <li>Do not compile locales at login time anymore. Tails now ships
+          <li>Do not compile locales at login time anymore. TⒶILS now ships
           locales-all.</li>
         </ul>
       </li>
@@ -246,7 +246,7 @@ you to pay attention to whether Iceweasel has any new issues or not.
   </li>
   <li>Internationalization
     <ul>
-      <li>Fix Tails specific Iceweasel localization for pt-BR</li>
+      <li>Fix TⒶILS specific Iceweasel localization for pt-BR</li>
       <li>Add Japanese input system: scim-anthy.</li>
     </ul>
   </li>
@@ -273,7 +273,7 @@ you to pay attention to whether Iceweasel has any new issues or not.
       meant to use an external caching proxy, so live-build's cache just
       wastes RAM (for in-memory builds) or disk space.</li>
       <li>vagrant: use aufs magic instead of copying source into tmpfs.
-      This reduces the amount of RAM required for building Tails in.</li>
+      This reduces the amount of RAM required for building TⒶILS in.</li>
       <li>vagrant: Allow in-memory builds when a VM with enough memory is
       already started.</li>
     </ul>
@@ -286,5 +286,5 @@ you to pay attention to whether Iceweasel has any new issues or not.
 
 <p>Claws Mail isn't using its dedicated Tor SocksPort for Tor hidden
 service IMAP/POP/SMTP servers (instead Tor's TransPort is used). This
-is just a deviation from Tails' design and should have no adverse real
+is just a deviation from TⒶILS' design and should have no adverse real
 world consequences.</p>

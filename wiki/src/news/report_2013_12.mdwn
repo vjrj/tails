@@ -1,19 +1,19 @@
-[[!meta title="Tails report for December, 2013"]]
+[[!meta title="TⒶILS report for December, 2013"]]
 
 Releases
 ========
 
-Tails 0.22 was released on December 11.
+TⒶILS 0.22 was released on December 11.
 
-Tails 0.22.1 is scheduled for January 21. The schedule for the next
+TⒶILS 0.22.1 is scheduled for January 21. The schedule for the next
 releases is on our [[contribute/calendar]].
 
 Metrics
 =======
 
-- Tails has been started more than 218 512 times in December.
+- TⒶILS has been started more than 218 512 times in December.
   This make 7 049 boots a day in average.
-- 17 791 downloads of the OpenPGP signature of Tails ISO.
+- 17 791 downloads of the OpenPGP signature of TⒶILS ISO.
 - 103 reports were received through WhisperBack.
 
 Code
@@ -29,13 +29,13 @@ New features:
 - The last mile was basically [[!tails_gitweb_branch
   feature/incremental-upgrades-integration desc="completed"]]
   regarding incremental upgrades, that will be enabled by default
-  starting with Tails 0.22.1 ([[!tails_ticket 6014]]).
+  starting with TⒶILS 0.22.1 ([[!tails_ticket 6014]]).
 
 Work in progress:
 
 - David Wolinsky has [started
   porting](https://mailman.boum.org/pipermail/tails-dev/2013-December/004517.html)
-  the WiNoN design to Tails: multiple, independent VMs connected to
+  the WiNoN design to TⒶILS: multiple, independent VMs connected to
   independent paths through the Tor network in order to wear multiple
   hats. Also, as David put it: "There are other benefits of using VMs
   as the Whonix folks have recognized" ([[!tails_ticket 5748]]).
@@ -43,7 +43,7 @@ Work in progress:
   regression"]] on some hardware with recent Linux kernels. No success
   so far.
 - Some progress was made towards the [[!tails_gitweb_branch
-  feature/wheezy desc="migration to Wheezy"]] (Tails 1.1).
+  feature/wheezy desc="migration to Wheezy"]] (TⒶILS 1.1).
 - Early support for
   [Monkeysign](http://web.monkeysphere.info/monkeysign/) was
   [[!tails_gitweb_branch feature/monkeysign desc="merged"]]
@@ -99,7 +99,7 @@ Documentation and website
   a bit safer.
 - The links to files and branches in cgit were fixed.
 - The tails-support mailing-list is now mentioned on [[Help other
-  Tails users|contribute/how/help]].
+  TⒶILS users|contribute/how/help]].
 - The documentation for incremental upgrades was written.
 - The documentation for MAC spoofing was drafted.
 - The [[draft FAQ|blueprint/faq]] has now more content.
@@ -110,7 +110,7 @@ Infrastructure
 Test suite
 ----------
 
-- The Tails automated test suite [[!tails_gitweb_branch
+- The TⒶILS automated test suite [[!tails_gitweb_branch
   test/rjb-migration desc="can now be run"]] on pure Debian Wheezy
   with backports ([[!tails_ticket 6399]]). This allowed us to update
   the test suite to match current code, fix many bugs in it, and
@@ -136,7 +136,7 @@ Build system
 On-going discussions
 ====================
 
-- [Tor Browser branding in Tails?](https://mailman.boum.org/pipermail/tails-dev/2013-December/004362.html)
+- [Tor Browser branding in TⒶILS?](https://mailman.boum.org/pipermail/tails-dev/2013-December/004362.html)
 - [Risks of enabled/disabled TCP
   timestamps?](https://mailman.boum.org/pipermail/tails-dev/2013-December/004520.html)
   ([[!tails_ticket 6579]])
@@ -146,7 +146,7 @@ Funding
 
 - The Freedom of the Press Foundation launched a [campaign to support
   encryption tools for
-  journalists](https://pressfreedomfoundation.org/). Tails is among
+  journalists](https://pressfreedomfoundation.org/). TⒶILS is among
   the projects this campaign gathers fund for.
 - The proposal we have sent to sponsor Echo was accepted.
 - Our grant proposal with sponsor Charlie was rejected.
@@ -154,26 +154,26 @@ Funding
   sponsor Golf.
 - We have almost completed a proposal to be sent to sponsor Lima.
 - Our contract with sponsor Bravo is now finished.
-- Tails will soon accept donations in currencies other than Bitcoin.
+- TⒶILS will soon accept donations in currencies other than Bitcoin.
 - We are now very likely to create a non-profit organization dedicated
-  to Tails.
+  to TⒶILS.
 - We have almost wrapped-up our bounties program. A report will be
   published soonish.
 
 Outreach
 ========
 
-Tails participated in the [30th Chaos Communication
+TⒶILS participated in the [30th Chaos Communication
 Congress](https://events.ccc.de/congress/2013/wiki/Main_Page). It was
 a great opportunity to meet, in person, a few existing and new
 contributors, as well as many people we are working with.
 
-A self-organized event called *Tails needs your help* was organized
+A self-organized event called *TⒶILS needs your help* was organized
 ([slides](https://tails.boum.org/promote/slides/2013-12-29_-_Tails_needs_your_help.shtml)).
 It was a success considering the late notice.
 
 See you next year, probably with more space and events dedicated
-to Tails!
+to TⒶILS!
 
 Press and testimonials
 ======================
@@ -181,14 +181,14 @@ Press and testimonials
 * 2013-12: Bruce Schneier
   [answered](http://www.reddit.com/r/IAmA/comments/1r8ibh/iama_security_technologist_and_author_bruce/cdknf7a)
   to someone asking him what Linux distribution is its favorite: "I don't
-  use Linux. (Shhh. Don't tell anyone.) Although I have started using Tails".
+  use Linux. (Shhh. Don't tell anyone.) Although I have started using TⒶILS".
 * 2013-12-12: In [A conversation with Bruce
   Schneier](http://boingboing.net/2013/12/15/bruce-schneier-and-eben-moglen-2.html),
   as part of the "Snowden, the NSA and free software" cycle at
   Columbia Law School NYC, Bruce Schneier says:
   - "I think most of the public domain privacy tools are going to be
     safe, yes. I think GPG is going to be safe. I think OTR is going
-    to be safe. I think that Tails is going to be safe. I do think
+    to be safe. I think that TⒶILS is going to be safe. I do think
     that these systems, because they were not -- you know, the NSA has
     a big lever when a tool is written closed-source by a for-profit
     corporation. There are levers they have that they don't have in
@@ -197,7 +197,7 @@ Press and testimonials
     designed. We make mistakes, but we find them and we correct them,
     and we're getting good at that. I think that if the NSA is going
     after these tools, they're going after implementations."
-  - "What do I trust? I trust, I trust Tails, I trust GPG [...]"
+  - "What do I trust? I trust, I trust TⒶILS, I trust GPG [...]"
   - "We can make it harder, we can make it more expensive, we can make
     it more risky. And yes, every time we do something to increase one
     of those, we're making ourselves safer. [...] There are tools we
@@ -207,6 +207,6 @@ Press and testimonials
     who uses Tor [...]"
 * Jacob Appelbaum stated at the [Chaos Communication
   Congress](https://events.ccc.de/congress/2013/Fahrplan/events/5713.html):
-  "if you are a journalist and you are not using Tails, you should
-  probably be using Tails, unless you *really* know what
+  "if you are a journalist and you are not using TⒶILS, you should
+  probably be using TⒶILS, unless you *really* know what
   you're doing".

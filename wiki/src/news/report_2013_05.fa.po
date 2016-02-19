@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"جمعه ۷ ژوئن ۱۲:۲۶:۳۹ ۲۰۱۳\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for May, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for May, 2013\"]]\n"
 msgstr "[[!meta title=\"گزارش مه ۲۰۱۳ تیلز\"]]\n"
 
 #. type: Plain text
@@ -39,7 +39,7 @@ msgid "Releases\n"
 msgstr "انتشارها\n"
 
 #. type: Plain text
-msgid "Tails 0.18 [[was released|news/version_0.18]] on May 18."
+msgid "TⒶILS 0.18 [[was released|news/version_0.18]] on May 18."
 msgstr "تیلز ۰٫۱۸ روز ۱۸ مه [[منتشر شد|news/version_0.18]]."
 
 #. type: Title =
@@ -49,9 +49,9 @@ msgstr "متریک‌ها\n"
 
 #. type: Bullet: '  - '
 msgid ""
-"128 676 connections of Tails to the Tor network. This makes a boot every 21 "
+"128 676 connections of TⒶILS to the Tor network. This makes a boot every 21 "
 "seconds on average (this is an approximation from the requests made to the "
-"security announcements feed when Tails is connected to Tor)."
+"security announcements feed when TⒶILS is connected to Tor)."
 msgstr ""
 "۱۲۸٫۶۷۶ اتصال از تیلز به شبکهٔ تور ایجاد شد، یعنی هر ۲۱ ثانیه یک راه‌اندازی. "
 "(این عدد بر حسب درخواست‌ها برای خوراک اعلان‌های امنیتی محاسبه می‌شود)."
@@ -61,7 +61,7 @@ msgid "51 non-empty bug reports were received through WhisperBack."
 msgstr "۵۱ گزارش ایراد غیرخالی ارسال‌شده از ویسپربک دریافت کردیم."
 
 #. type: Bullet: '  - '
-msgid "630 comments were posted on the forum, with 143 signed by Tails."
+msgid "630 comments were posted on the forum, with 143 signed by TⒶILS."
 msgstr "۶۳۰ پیغام روی انجمن داشتیم که ۱۴۳ تای آن‌ها امضای تیلز داشتند."
 
 #. type: Title =
@@ -213,7 +213,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"The Tails [[specification and design document|contribute/design]] received "
+"The TⒶILS [[specification and design document|contribute/design]] received "
 "various minor updates and improvements, as did the release process "
 "documentation."
 msgstr ""
@@ -234,7 +234,7 @@ msgid "On-going discussions\n"
 msgstr "بحث‌های دنباله‌دار\n"
 
 #. type: Plain text
-msgid "- We've discussed inclusion of Martus in Tails."
+msgid "- We've discussed inclusion of Martus in TⒶILS."
 msgstr "- در مورد گنجاندن مارتوس در تیلز صحبت کردیم."
 
 #. type: Bullet: '- '

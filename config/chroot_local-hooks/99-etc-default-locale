@@ -10,7 +10,7 @@ echo "Creating /etc/default/locale"
 # thus /etc/default/locale is removed. Various scripts of ours depend on this
 # file to exist and contain a valid $LANG value.
 #
-# Tails Greeter's PostLogin script will later change this value according to
+# TⒶILS Greeter's PostLogin script will later change this value according to
 # the user's choice.
 
 echo 'LANG=en_US.UTF-8' > /etc/default/locale

@@ -2,7 +2,7 @@
 
 # What we don't want
 
-Some users have requested support for VPNs in Tails to "improve" Tor's
+Some users have requested support for VPNs in TⒶILS to "improve" Tor's
 anonymity. You know, more hops must be better, right?. That's just
 incorrect -- if anything VPNs make the situation worse since they
 basically introduce either a permanent entry guard (if the VPN is set
@@ -11,11 +11,11 @@ through Tor).
 
 Similarly, we don't want to support VPNs as a replacement for Tor
 since that provides terrible anonymity and hence isn't compatible with
-Tails' goal.
+TⒶILS' goal.
 
 # What we want
 
-## Tails -> Tor -> VPN
+## TⒶILS -> Tor -> VPN
 
 ### Use cases
 
@@ -39,15 +39,15 @@ documentation.
 Note that this setup isn't relevant for I2P for the same reason that
 it's irrelevant for Tor hidden services.
 
-## Tails -> VPN -> Tor/I2P
+## TⒶILS -> VPN -> Tor/I2P
 
 ### Use cases
 
-1. Make it possible to use Tails at airports and other pay-for-use
+1. Make it possible to use TⒶILS at airports and other pay-for-use
    ISPs via iodine (IP-over-DNS).
 2. Access Tor on networks where it's censored.
 3. Some ISPs require their customers to connect to them through VPNs,
-   especially PPTP. Tails is currently unusable for them out of the
+   especially PPTP. TⒶILS is currently unusable for them out of the
    box.
 
 ### Solution

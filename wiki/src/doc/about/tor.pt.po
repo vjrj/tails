@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-30 07:36+0300\n"
 "PO-Revision-Date: 2014-05-21 16:45-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -17,12 +17,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Why does Tails use Tor?\"]]\n"
-msgstr "[[!meta title=\"Por que o Tails utiliza Tor?\"]]\n"
+msgid "[[!meta title=\"Why does TⒶILS use Tor?\"]]\n"
+msgstr "[[!meta title=\"Por que o TⒶILS utiliza Tor?\"]]\n"
 
 #. type: Plain text
-msgid "Tails uses Tor because it is the best available anonymity network."
-msgstr "Tails utiliza Tor porque é a melhor rede de anonimato disponível."
+msgid "TⒶILS uses Tor because it is the best available anonymity network."
+msgstr "TⒶILS utiliza Tor porque é a melhor rede de anonimato disponível."
 
 #. type: Title =
 #, no-wrap
@@ -30,8 +30,8 @@ msgid "Anonymity enforcement\n"
 msgstr "Anonimato forçado\n"
 
 #. type: Plain text
-msgid "We want to enforce good security by default for our users. That is why it is a fundamental assumption of Tails to force all outgoing traffic to anonymity networks such as Tor."
-msgstr "Nós queremos forçar uma boa segurança por padrão para nossos usuários. É por isto que é uma pretensão do Tails forçar todo o tráfego de saída por redes de anonimato como Tor."
+msgid "We want to enforce good security by default for our users. That is why it is a fundamental assumption of TⒶILS to force all outgoing traffic to anonymity networks such as Tor."
+msgstr "Nós queremos forçar uma boa segurança por padrão para nossos usuários. É por isto que é uma pretensão do TⒶILS forçar todo o tráfego de saída por redes de anonimato como Tor."
 
 #. type: Plain text
 msgid "Over the years Tor has become a big network with a lot of capacity and a good speed."
@@ -82,8 +82,8 @@ msgstr "<a id=\"relationship\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Relationship between Tor and Tails\n"
-msgstr "Relacionamento entre Tor e Tails\n"
+msgid "Relationship between Tor and TⒶILS\n"
+msgstr "Relacionamento entre Tor e TⒶILS\n"
 
 #. type: Bullet: '  - '
 msgid "The Tor software is made by [The Tor Project](https://torproject.org/)."
@@ -94,25 +94,25 @@ msgid "The Tor network is run by a worldwide community of volunteers."
 msgstr "A rede Tor é mantida por uma comunidade global de voluntários."
 
 #. type: Bullet: '  - '
-msgid "Tails is a separate project made by a different group of people."
-msgstr "Tails é um projeto separado, feito por um grupo diferente de pessoas."
+msgid "TⒶILS is a separate project made by a different group of people."
+msgstr "TⒶILS é um projeto separado, feito por um grupo diferente de pessoas."
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Tails is a complete operating system which uses Tor as its default networking\n"
-"application. The Tor Project recommends the usage of Tails for the use cases\n"
+"TⒶILS is a complete operating system which uses Tor as its default networking\n"
+"application. The Tor Project recommends the usage of TⒶILS for the use cases\n"
 "that are not covered by its own projects (for example the <span\n"
 "class=\"application\">Tor Browser</span>).\n"
 msgstr ""
-"Tails é um sistema operacional completo, que usa Tor como sua aplicação de rede\n"
-"padrão. O Projeto Tor recomenda o uso do Tails para casos de uso que não são\n"
+"TⒶILS é um sistema operacional completo, que usa Tor como sua aplicação de rede\n"
+"padrão. O Projeto Tor recomenda o uso do TⒶILS para casos de uso que não são\n"
 "cobertos por seus próprios projetos (como por exemplo o <span\n"
 "class=\"application\">Tor Browser</span>.\n"
 
 #. type: Plain text
-msgid "But many people use Tor outside of Tails, and many people use Tails to do other things than accessing the Internet through Tor, for example to work offline on sensitive documents."
-msgstr "Mas muitas pessoas usam Tor fora do Tails, e muitas pessoas usam Tails para fazer outras coisas além de acessar a Internet através do Tor, como por exemplo para trabalhar offline em documentos sensíveis."
+msgid "But many people use Tor outside of TⒶILS, and many people use TⒶILS to do other things than accessing the Internet through Tor, for example to work offline on sensitive documents."
+msgstr "Mas muitas pessoas usam Tor fora do TⒶILS, e muitas pessoas usam TⒶILS para fazer outras coisas além de acessar a Internet através do Tor, como por exemplo para trabalhar offline em documentos sensíveis."
 
 #. type: Title =
 #, no-wrap
@@ -120,6 +120,6 @@ msgid "Want more?\n"
 msgstr "Quer mais?\n"
 
 #. type: Plain text
-msgid "Tails also allows you to connect to [[I2P|doc/anonymous_internet/i2p/]], which is another anonymity network different from Tor."
-msgstr "Tails também permite que você se conecte à [[I2P|doc/anonymous_internet/i2p/]], que é uma outra rede de anonimato diferente do Tor."
+msgid "TⒶILS also allows you to connect to [[I2P|doc/anonymous_internet/i2p/]], which is another anonymity network different from Tor."
+msgstr "TⒶILS também permite que você se conecte à [[I2P|doc/anonymous_internet/i2p/]], que é uma outra rede de anonimato diferente do Tor."
 

@@ -1,8 +1,8 @@
-[[!meta title="Improve Tails by working on Debian"]]
+[[!meta title="Improve TⒶILS by working on Debian"]]
 
 <div id="intro">
 
-<p>So you want to help Tails by working on Debian.
+<p>So you want to help TⒶILS by working on Debian.
 Welcome aboard! Please read-on.</p>
 
 [[!toc levels=1]]
@@ -17,7 +17,7 @@ relationship with Debian.
 # Tasks
 
 * Work on the [[Debian bugs that affect
-  Tails|contribute/relationship_with_upstream#debian-bts]].
+  TⒶILS|contribute/relationship_with_upstream#debian-bts]].
 * Work on our [tickets about Debian
   work](https://labs.riseup.net/code/projects/tails/issues?query_id=138).
 * Help maintain backports:

@@ -18,13 +18,13 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Install an intermediary Tails\n"
+msgid "Install an intermediary TⒶILS\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"In this step, you will install an intermediary Tails by copying the Tails ISO image on a first USB\n"
+"In this step, you will install an intermediary TⒶILS by copying the TⒶILS ISO image on a first USB\n"
 "stick using\n"
 "<span class=\"windows\">a program called <span class=\"application\">Universal USB Installer</span>.</span>\n"
 "<span class=\"mac\">the command line.</span>\n"
@@ -40,7 +40,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<p>On\n"
-"this intermediary Tails you won't benefit from important features like\n"
+"this intermediary TⒶILS you won't benefit from important features like\n"
 "automatic security upgrades or the possibility to store some of your\n"
 "documents and configuration in an encrypted storage.</p>\n"
 msgstr ""

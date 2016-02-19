@@ -25,21 +25,21 @@ msgstr "[[!meta date=\"پنج‌شنبه ۶ سپتامبر ۲۱:۰۰:۱۶ +۰۰�
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for August, 2012\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for August, 2012\"]]\n"
 msgstr "[[!meta title=\"گزارش آگوست ۲۰۱۲ تیلز\"]]\n"
 
 #. type: Plain text
 msgid ""
-"Here is the report of the many things that happened around Tails in August, "
+"Here is the report of the many things that happened around TⒶILS in August, "
 "2012."
 msgstr ""
 "این گزارش شامل اتفاقات متعددی است که در آگوست ۲۰۱۲ پیرامون تیلز رخ دادند."
 
 #. type: Plain text
 msgid ""
-"Tails has been started and successfully connected to the Tor network around "
+"TⒶILS has been started and successfully connected to the Tor network around "
 "64.000 times in August. That makes a boot every 41 seconds on average. We "
-"know this since Tails checks if a new release is available once the network "
+"know this since TⒶILS checks if a new release is available once the network "
 "is connected each boot."
 msgstr ""
 "تیلز در ماه آگوست حدود ۶۴هزار بار راه‌اندازی و با موفقیت به شبکهٔ تور متصل "
@@ -62,18 +62,18 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Unless something nasty happens, Tails 0.13 should be released on September "
+"Unless something nasty happens, TⒶILS 0.13 should be released on September "
 "11th."
 msgstr "تیلز ۰٫۱۳ باید ۱۱ سپتامبر منتشر شود، مگر اتفاق غیرمنتظره‌ای رخ دهد."
 
 #. type: Title =
 #, no-wrap
-msgid "Tails summit\n"
+msgid "TⒶILS summit\n"
 msgstr "نشست تیلز\n"
 
 #. type: Plain text
 msgid ""
-"Seven mighty Tails developers gathered for a ten-day summit, including a day "
+"Seven mighty TⒶILS developers gathered for a ten-day summit, including a day "
 "trip to the sea. The meeting was exhausting, inspiring and productive. We "
 "have tied up some discussions that had a year long history, made plans for "
 "the future, and worked on a few annoying bug fixes and cool hacks."
@@ -84,7 +84,7 @@ msgstr ""
 "روی رفع چند ایراد آزاردهنده و چند هک جالب کار کردیم."
 
 #. type: Plain text
-msgid "So, what happened during Tails summit? (Not in any relevant order.)"
+msgid "So, what happened during TⒶILS summit? (Not in any relevant order.)"
 msgstr "در نشست تیلز چه رخ داد؟ (بدون ترتیب مرتبط)"
 
 #. type: Bullet: '* '
@@ -94,8 +94,8 @@ msgstr "بحثی در مورد «دربارهٔ ما» داشتیم."
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* Done a 2D barometer about 'Tails in 3 years', with some questions on\n"
-"  the future of Tails.\n"
+"* Done a 2D barometer about 'TⒶILS in 3 years', with some questions on\n"
+"  the future of TⒶILS.\n"
 "* Shared knowledge about what has been done on automated testing so far.\n"
 "* Tried to use a forked version of memtest86+ to wipe memory.\n"
 "* Started a 'wipe_memory' module for GRUB.\n"
@@ -112,7 +112,7 @@ msgid ""
 "* Started a `feature/do-not-build-the-forum` branch and got it merged.\n"
 "* Labelled a bunch of tasks and bugs as \"broken windows\".\n"
 "* Designed an amazing release plan.\n"
-"* Wrote documentation about \"Tails does no boot\" and created a \"Known\n"
+"* Wrote documentation about \"TⒶILS does no boot\" and created a \"Known\n"
 "  issues\" page.\n"
 "* Pinged Jake about disabling firewire and the likes.\n"
 "* Tried to define meaningful/efficient organisation methods.\n"
@@ -136,10 +136,10 @@ msgid ""
 "* Decided to use torbrowser, and have rough plan for the next things to "
 "do.\n"
 "* Crippled a laptop due to coffee.\n"
-"* Outlined what Tails needs from a task manager application.\n"
+"* Outlined what TⒶILS needs from a task manager application.\n"
 "* Benchmarked several task managers.\n"
 "* Handled conspiranoia about our website.\n"
-"* Clarified our position and priorities regarding Tails' network "
+"* Clarified our position and priorities regarding TⒶILS' network "
 "fingerprint,\n"
 "  both on the \"local\" side (ISP, local router) and \"remote\" side (Exit "
 "node,\n"
@@ -168,7 +168,7 @@ msgid ""
 "* We agreed on calling our sponsors 'Alpha', 'Bravo' and so on.\n"
 "* We have some preliminary fillings for the next round of the grant\n"
 "  proposal from sponsor Charlie.\n"
-"* We refined how changes were incorporated into Tails.\n"
+"* We refined how changes were incorporated into TⒶILS.\n"
 "* Decided to switch to a time-based release schedule.\n"
 "  Some details have to be sorted out, still.\n"
 "* Thought of a plan to improve the tails-greeter GUI and user experience.\n"
@@ -178,8 +178,8 @@ msgid ""
 "  the same persons, really) work together happily.\n"
 "* Clarified loooads of development processes so that we avoid the need for "
 "a\n"
-"  project manager, and know better how to get changes into Tails.\n"
-"  Expect us to fill the contribute section of the Tails website with that.\n"
+"  project manager, and know better how to get changes into TⒶILS.\n"
+"  Expect us to fill the contribute section of the TⒶILS website with that.\n"
 "* Designed \"Release Managers\" and \"Welcome and Annoying Nitpicker\"\n"
 "  roles, and scheduled the first shifts.\n"
 "* Discussed possibly moving to the `tails.is` domain.\n"
@@ -348,7 +348,7 @@ msgstr ""
 "خاطر مشکلات سخت‌افزاری اکثراً آفلاین بودند."
 
 #. type: Plain text
-msgid "The forum received 639 new messages, 73 of them signed by \"Tails\"."
+msgid "The forum received 639 new messages, 73 of them signed by \"TⒶILS\"."
 msgstr "انجمن ۶۳۹ پیغام داشت که ۷۳ تای آن‌ها امضای «Tails» داشتند."
 
 #. type: Title =
@@ -422,7 +422,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"A little more progress has been made on building Tails for the next upcoming "
+"A little more progress has been made on building TⒶILS for the next upcoming "
 "Debian release (codename Wheezy). See "
 "[wheezy](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/wheezy) "
 "branch."
@@ -445,7 +445,7 @@ msgstr ""
 msgid ""
 "There is a [possible fix for the pause during the boot "
 "process](https://mailman.boum.org/pipermail/tails-dev/2012-August/001524.html)  "
-"that probably appeared with Tails 0.12."
+"that probably appeared with TⒶILS 0.12."
 msgstr ""
 "[راه‌حلی احتمالی برای مشکل مکث در روند "
 "راه‌اندازی](https://mailman.boum.org/pipermail/tails-"
@@ -567,7 +567,7 @@ msgstr "[[پیشرفت‌های بسیار در راهنمای مترجمان|co
 #. type: Plain text
 msgid ""
 "Clarify some steps in the [[release process|contribute/release_process]].  "
-"Document better how to release Tails custom packages."
+"Document better how to release TⒶILS custom packages."
 msgstr ""
 "بعضی مراحل در [[روند انتشار|contribute/release_process]] را شفاف کردیم. "
 "چگونگی انتشار بسته‌های اختصاصی تیلز را بهتر مستندسازی کردیم."

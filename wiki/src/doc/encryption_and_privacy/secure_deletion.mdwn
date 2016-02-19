@@ -45,7 +45,7 @@ solid-state disks.**
 
 <div class="caution">
 
-<p>Unfortunately, Tails does not currently allow you to perform this task
+<p>Unfortunately, TⒶILS does not currently allow you to perform this task
 with graphical tools. See [[!tails_ticket 5323]].</p>
 
 </div>
@@ -56,7 +56,7 @@ For more details read the corresponding section of the Wikipedia article on
 Securely delete files
 =====================
 
-In Tails you can securely delete files thanks to an [extension of the
+In TⒶILS you can securely delete files thanks to an [extension of the
 file browser](http://wipetools.tuxfamily.org/nautilus-wipe.html).
 
   1. Open the file browser, either

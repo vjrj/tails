@@ -32,7 +32,7 @@ command-line"]].
 Confinement profiles
 ====================
 
-The AppArmor confinement profiles included in Tails come from:
+The AppArmor confinement profiles included in TⒶILS come from:
 
 * individual Debian packages that ship confinement profiles, e.g.
   Tor and Vidalia;
@@ -43,7 +43,7 @@ The AppArmor confinement profiles included in Tails come from:
   - [[!tails_gitweb config/chroot_local-hooks/19-install-tor-browser-AppArmor-profile]]
 
 To get the full and current list, run `aa-status` as `root`
-inside Tails.
+inside TⒶILS.
 
 Hacks to support the Live system usecase
 ========================================
@@ -58,7 +58,7 @@ between an access to the upper layer, and an access to the loop-backed
 underlying layer.
 
 So, we have to adjust profiles a bit to make them support the paths
-that are actually seen by AppArmor in the context of Tails.
+that are actually seen by AppArmor in the context of TⒶILS.
 
 First, we are using a couple of
 [aliases](http://wiki.apparmor.net/index.php/AppArmor_Core_Policy_Reference#Alias_and_rewrite_rules)
@@ -110,7 +110,7 @@ there yet.
 Tor Browser
 -----------
 
-As of Tails 1.3, the Tor Browser is somewhat confined with AppArmor.
+As of TⒶILS 1.3, the Tor Browser is somewhat confined with AppArmor.
 
 Given we cannot seriously allow the Tor Browser to read and write
 everywhere in the home and persistent directory, we had to allow it to
@@ -146,7 +146,7 @@ This seemed to be better than introducing yet another persistence
 feature (e.g. for `~/Tor Browser/`): having downloads be either always
 amnesiac or always persistent (unless you restart or do stuff outside
 of the browser) would seem like a regression, since it breaks one of
-the core Tails properties. And forcing it to be a persistent folder by
+the core TⒶILS properties. And forcing it to be a persistent folder by
 default actually has security issues since secure deletion does not
 work as expected on Flash memory. So, we decided that users need to
 have the option to download either to an amnesiac (`~/Tor Browser/`)
@@ -155,7 +155,7 @@ case previously.
 
 So, in a nutshell we give Tor Browser access to:
 
-* `~/Tor Browser/`, which is amnesiac, as everything else in Tails by
+* `~/Tor Browser/`, which is amnesiac, as everything else in TⒶILS by
   default; this is set to be the default download directory
   ([[!tails_gitweb config/chroot_local-includes/etc/tor-browser/profile/preferences/0000tails.js]]);
 * `~/Persistent/Tor Browser/`, that is persistent, and only created
@@ -200,7 +200,7 @@ such as:
       >> /etc/apparmor.d/tunables/alias
 
 However, a number of problems prevent this seemingly simple solution
-from just working in the context of Tails. The following discusses
+from just working in the context of TⒶILS. The following discusses
 these complications, and a few possible solutions.
 
 ### Bugs in alias rules implementation

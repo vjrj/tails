@@ -1,8 +1,8 @@
 [[!meta date="Sat May 18 11:23:45 2013"]]
-[[!meta title="Tails 0.18 is out"]]
+[[!meta title="TⒶILS 0.18 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.18, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.18, is out.
 
 All users must upgrade as soon as possible.
 
@@ -42,9 +42,9 @@ Notable user-visible changes include:
     attacker to gather information that may allow them to
     escalate privileges.
   - Install gnome-screenshot.
-  - Add a *About Tails* launcher in the *System* menu.
+  - Add a *About TⒶILS* launcher in the *System* menu.
   - Install GNOME accessibility themes.
-  - Use *Getting started...* as the homepage for the Tails
+  - Use *Getting started...* as the homepage for the TⒶILS
     documentation button.
   - Disable audio preview in Nautilus.
 
@@ -65,14 +65,14 @@ search engine menu next to the Google icon.
 See the [[Getting started]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is scheduled for June 27.
+The next TⒶILS release is scheduled for June 27.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], there are many ways **you** can contribute
-to Tails. If you want to help, come talk to us!
+to TⒶILS. If you want to help, come talk to us!

@@ -33,14 +33,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    [[We disabled in Tails the new circuit view of *Tor Browser* 4.5|doc/anonymous_internet/Tor_Browser#circuitview]] for\n"
+"    [[We disabled in TⒶILS the new circuit view of *Tor Browser* 4.5|doc/anonymous_internet/Tor_Browser#circuitview]] for\n"
 "    security reasons. You can still use the network map of *Vidalia* to\n"
 "    inspect your circuits.\n"
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"*Tails OpenPGP Applet* now has a **shortcut to the *gedit* text editor**, "
+"*TⒶILS OpenPGP Applet* now has a **shortcut to the *gedit* text editor**, "
 "thanks to Ivan Bliminse."
 msgstr ""
 
@@ -147,7 +147,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "Fix the localization of *Tails Upgrader*."
+msgid "Fix the localization of *TⒶILS Upgrader*."
 msgstr ""
 
 #. type: Bullet: '  - '

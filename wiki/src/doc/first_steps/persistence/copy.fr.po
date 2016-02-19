@@ -39,13 +39,13 @@ msgstr "Créer un nouveau périphérique\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"Install the latest Tails onto a new device using the usual [[installing "
-"instructions|installation]]. Do not use the Tails device that might be "
+"Install the latest TⒶILS onto a new device using the usual [[installing "
+"instructions|installation]]. Do not use the TⒶILS device that might be "
 "corrupted in the process of installing the new one."
 msgstr ""
-"Installez la dernière version de Tails sur un nouveau périphérique en "
+"Installez la dernière version de TⒶILS sur un nouveau périphérique en "
 "suivant les [[instructions d'installation|installation]]. N'utilisez pas de "
-"périphérique Tails potentiellement corrompu pour créer ce nouveau "
+"périphérique TⒶILS potentiellement corrompu pour créer ce nouveau "
 "périphérique."
 
 #. type: Bullet: '1. '
@@ -67,19 +67,19 @@ msgstr ""
 #. type: Bullet: '1. '
 #, fuzzy
 #| msgid ""
-#| "Restart Tails, enable persistence, and [[set up an administration "
+#| "Restart TⒶILS, enable persistence, and [[set up an administration "
 #| "password|startup_options/administration_password]]."
 msgid ""
 "Restart on the new device, enable persistence, and [[set up an "
 "administration password|startup_options/administration_password]]."
 msgstr ""
-"Redémarrer Tails, activer la persistance, et [[définir un mot de passe "
+"Redémarrer TⒶILS, activer la persistance, et [[définir un mot de passe "
 "d'administration|startup_options/administration_password]]."
 
 #. type: Title =
 #, no-wrap
-msgid "Rescue your files from the old Tails device\n"
-msgstr "Récupérer vos données depuis l'ancien périphérique Tails\n"
+msgid "Rescue your files from the old TⒶILS device\n"
+msgstr "Récupérer vos données depuis l'ancien périphérique TⒶILS\n"
 
 #. type: Title -
 #, no-wrap
@@ -87,7 +87,7 @@ msgid "Mount the old persistent volume\n"
 msgstr "Monter l'ancien volume persistant\n"
 
 #. type: Bullet: '1. '
-msgid "Plug in the old Tails device from which you want to rescue your data."
+msgid "Plug in the old TⒶILS device from which you want to rescue your data."
 msgstr ""
 "Branchez l' ancien périphérique depuis lequel vous souhaitez récupérer vos "
 "données."
@@ -121,10 +121,10 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"In the left pane, click on the device corresponding to the old Tails device."
+"In the left pane, click on the device corresponding to the old TⒶILS device."
 msgstr ""
 "Dans le panneau de gauche, cliquez sur le périphérique correspondant à "
-"l'ancien périphérique Tails."
+"l'ancien périphérique TⒶILS."
 
 #. type: Bullet: '1. '
 #, fuzzy
@@ -500,8 +500,8 @@ msgstr "       find /live/persistence/TailsData_unlocked/ -uid 1000 -exec chown 
 #~ "   exécutez la commande suivante afin de configurer convenablement les\n"
 #~ "   permissions de vos fichiers personnels :\n"
 
-#~ msgid "Restart Tails and enable persistence."
-#~ msgstr "Redémarrer Tails et activez la persistance."
+#~ msgid "Restart TⒶILS and enable persistence."
+#~ msgstr "Redémarrer TⒶILS et activez la persistance."
 
 #~ msgid ""
 #~ "1. Choose\n"

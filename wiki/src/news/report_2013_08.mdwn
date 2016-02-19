@@ -1,27 +1,27 @@
 [[!meta date="Fri Sep 6 09:09:39 2013"]]
-[[!meta title="Tails report for August, 2013"]]
+[[!meta title="TⒶILS report for August, 2013"]]
 
 [[!toc levels=1]]
 
 Releases
 ========
 
-Tails 0.20 [[was released|news/version_0.20]] on the 9th of August.
-Tails 0.20.1 release is
+TⒶILS 0.20 [[was released|news/version_0.20]] on the 9th of August.
+TⒶILS 0.20.1 release is
 [scheduled](https://mailman.boum.org/pipermail/tails-dev/2013-August/003502.html)
 for September 19.
 
 Metrics
 =======
 
-- 190 521 connections of Tails to the Tor network. This makes a boot
+- 190 521 connections of TⒶILS to the Tor network. This makes a boot
   every 14 seconds on average. This is an approximation from the
-  requests made to the security announcements feed when Tails is
+  requests made to the security announcements feed when TⒶILS is
   connected to Tor.
 
 - 93 non-empty bug reports were received through WhisperBack.
 
-- 57 222 downloads of the OpenPGP signature of Tails ISO from
+- 57 222 downloads of the OpenPGP signature of TⒶILS ISO from
   our website.
 
 Code
@@ -58,7 +58,7 @@ Code
   Another [[!tails_gitweb_branch test/firewall-check-tag desc="set of
   test suite improvements"]] has seen progress.
 
-- Starting with Tails 0.20.1, bug reports sent with WhisperBack will
+- Starting with TⒶILS 0.20.1, bug reports sent with WhisperBack will
   [[!tails_gitweb_branch feature/tails-bugs desc="be sent to
   a dedicated (encrypted) mailing-list"]].
 
@@ -87,7 +87,7 @@ Documentation and Website
   Some [[!tails_gitweb_commit 5fb52dfaed1fcd2dd40b4b93bcb5dd38bba32573
   desc="style improvements"]] were done too.
 
-- The website now [[advertises|about]] the use of Tails as
+- The website now [[advertises|about]] the use of TⒶILS as
   a censorship circumvention tool, too.
 
 - A workaround to verify ISO integrity on other operating systems
@@ -121,7 +121,7 @@ On-going discussions
 
 - Jacob Appelbaum [started
   a discussion](https://mailman.boum.org/pipermail/tails-dev/2013-August/003393.html)
-  about Tahoe-LAFS, Tor and Tails. It should now be clear what kind of
+  about Tahoe-LAFS, Tor and TⒶILS. It should now be clear what kind of
   work is needed to make some integration possible.
 
 - It was

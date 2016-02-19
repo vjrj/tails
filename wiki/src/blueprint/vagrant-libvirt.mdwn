@@ -10,7 +10,7 @@ on a Debian Sid box with libvirt installed:
     sudo apt-get install vagrant
     vagrant plugin install vagrant-libvirt
 
-After this, the Tails branch `feature/vagrant-libvirt` makes
+After this, the TⒶILS branch `feature/vagrant-libvirt` makes
 everything work like when Vagrant was using Virtualbox, except basebox
 building (see below).
 
@@ -45,7 +45,7 @@ Also, some of `vagrant-libvirt`'s dependencies are too old in Wheezy:
   - `ruby-net-ssh >= 2.6.6`: Sid has 2.6.8, and backporting is
     identical to backporting `ruby-net-scp`, described above.
 
-## Syncing (Tails' Git and built images)
+## Syncing (TⒶILS' Git and built images)
 
 **Update**: vagrant-libvirt now
 [supports](https://github.com/pradels/vagrant-libvirt/pull/170) 9p
@@ -55,20 +55,20 @@ When using the libvirt provider in Vagrant, "synced folders" are
 simply `rsync`:ed into the VM's filesystem, unlike with Vagrant with
 Virtualbox, which uses its shared folder feature. The `rsync:`ing only
 happens at VM start (not at VM stop; Vagrant specifies this as legit
-behaviour, so it's not a bug), so any changes made to Tails' git after
+behaviour, so it's not a bug), so any changes made to TⒶILS' git after
 that are not pulled into `/amnesia.git` (a VM restart is required),
 and the built image can't be synced to the host using `/vagrant`
 (remember, syncing back to host never happens). The current
 implementation therefore doesn't rely on synced folders but instead:
 
-* manually uploads Tails' git before starting the build using
+* manually uploads TⒶILS' git before starting the build using
   Vagrant's upload feature.
 * manually downloads the built image after building is complete
   using Vagrant's download feature.
 
 Proper synced folders (bidirectional, continously "syncing", like
 Virtualbox' shared folders) would be preferable (faster, less disk
-usage (size of Tails' .git) in build guest, less code complexity,
+usage (size of TⒶILS' .git) in build guest, less code complexity,
 etc.).
 
 It should be noted that the libvirt provider does support shares using
@@ -91,7 +91,7 @@ backported to Wheezy.
 
 ## Basebox building
 
-The squeeze definition on Tails branch `feature/vagrant-libvirt` can
+The squeeze definition on TⒶILS branch `feature/vagrant-libvirt` can
 be successfully built using KVM (`veewee kvm build squeeze`) with the
 current release of `veewee` (0.3.7, installed per our
 [[current instructions|contribute/design/vagrant]]), but:

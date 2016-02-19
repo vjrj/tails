@@ -3,16 +3,16 @@
 Search the documentation
 ========================
 
-Read the [[official documentation|doc]] to learn more about how Tails
+Read the [[official documentation|doc]] to learn more about how TⒶILS
 works and maybe start answering your questions. It contains:
 
-  - General information about what Tails is
+  - General information about what TⒶILS is
   - Information to understand how it can help you and what its limitations are
-  - Guides covering typical uses of Tails
+  - Guides covering typical uses of TⒶILS
 
-[[Visit Tails documentation|doc]]
+[[Visit TⒶILS documentation|doc]]
 
-Learn how to use Tails
+Learn how to use TⒶILS
 ======================
 
 [[!inline pages="support/learn/intro.inline" raw="yes"]]
@@ -43,10 +43,10 @@ You can have a look at:
 
   <h1>Report an error</h1>
 
-  <p>If you are facing an error in Tails, please follow the [[bug reporting
+  <p>If you are facing an error in TⒶILS, please follow the [[bug reporting
   guidelines|doc/first_steps/bug_reporting]].</p>
 
-  <p>If Tails does not start, please see our specific
+  <p>If TⒶILS does not start, please see our specific
   [[reporting guidelines|doc/first_steps/bug_reporting/tails_does_not_start]].</p>
 
 </div> <!-- #bugs -->
@@ -55,7 +55,7 @@ You can have a look at:
 
   <h1>Request a feature</h1>
 
-  If you would like to see a new feature in Tails,
+  If you would like to see a new feature in TⒶILS,
   search the [[!tails_redmine desc="open tickets in Redmine"]] first,
   and file a new ticket in there if no existing one matches your needs.
 

@@ -48,7 +48,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We discovered that *Claws Mail*, the email client in Tails, stores plaintext "
+"We discovered that *Claws Mail*, the email client in TⒶILS, stores plaintext "
 "copies of all emails on the remote IMAP server, including those that are "
 "meant to be encrypted."
 msgstr ""
@@ -64,7 +64,7 @@ msgid ""
 "    - Manually by clicking on the **Draft** button when composing an email.\n"
 "    - Automatically if you selected the **automatically save message to\n"
 "      Draft folder** option in the writing preferences. This option is\n"
-"      deselected by default in Tails.\n"
+"      deselected by default in TⒶILS.\n"
 msgstr ""
 
 #. type: Plain text
@@ -151,7 +151,7 @@ msgstr ""
 msgid ""
 "With POP, *Claws Mail* downloads the emails that are in the inbox on the "
 "server and possibly removes them from the server. POP is better suited if "
-"you access emails from Tails only and store them in the persistent volume."
+"you access emails from TⒶILS only and store them in the persistent volume."
 msgstr ""
 
 #. type: Plain text
@@ -165,7 +165,7 @@ msgstr ""
 msgid ""
 "POP is not affected at all by this security problem. When using POP, only "
 "encrypted emails are sent to the server. So consider switching to POP if you "
-"have an email account dedicated to your activities on Tails.  To do so:"
+"have an email account dedicated to your activities on TⒶILS.  To do so:"
 msgstr ""
 
 #. type: Plain text
@@ -252,7 +252,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "If you want to continue using IMAP, you should configure your IMAP account "
-"to use **Drafts** and **Queue** folders stored in Tails instead of on the "
+"to use **Drafts** and **Queue** folders stored in TⒶILS instead of on the "
 "server. To do so:"
 msgstr ""
 

@@ -1,5 +1,5 @@
 [Unit]
-Description=Warn the user if Tails is running inside a virtual machine
+Description=Warn the user if TⒶILS is running inside a virtual machine
 Documentation=https://tails.boum.org/contribute/design/virtualization_support/
 
 [Service]

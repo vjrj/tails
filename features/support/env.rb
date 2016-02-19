@@ -30,13 +30,13 @@ tails (0) stable; urgency=low
 
   * First release.
 
- -- Tails developers <tails@boum.org>  Mon, 30 Jan 2012 01:00:00 +0000
+ -- TⒶILS developers <tails@boum.org>  Mon, 30 Jan 2012 01:00:00 +0000
 END_OF_CHANGELOG
   end
 
   fatal_system "git init --quiet"
   fatal_system "git config user.email 'tails@boum.org'"
-  fatal_system "git config user.name 'Tails developers'"
+  fatal_system "git config user.name 'TⒶILS developers'"
   fatal_system "git add debian/changelog"
   fatal_system "git commit --quiet debian/changelog -m 'First release'"
   fatal_system "git branch -M stable"

@@ -2,12 +2,12 @@
 #10444: Git tests are fragile
 @product @check_tor_leaks @fragile
 Feature: Cloning a Git repository
-  As a Tails user
+  As a TⒶILS user
   when I clone a Git repository
   all Internet traffic should flow only through Tor
 
   Background:
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
 
   @fragile
   Scenario: Cloning a Git repository anonymously over HTTPS

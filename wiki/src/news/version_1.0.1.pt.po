@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-06-09 22:50+0300\n"
 "PO-Revision-Date: 2014-06-13 16:50-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Ter Jun 10 12:00:00 2014\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.0.1 is out\"]]\n"
-msgstr "[[!meta title=\"Lançado o Tails 1.0.1\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.0.1 is out\"]]\n"
+msgstr "[[!meta title=\"Lançado o TⒶILS 1.0.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 1.0.1, is out."
-msgstr "A versão 1.0.1 do Tails, o Sistema Live Incógnito e Amnésico, foi lançada."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 1.0.1, is out."
+msgstr "A versão 1.0.1 do TⒶILS, o Sistema Live Incógnito e Amnésico, foi lançada."
 
 #. type: Plain text
 msgid "All users must [[upgrade|doc/first_steps/upgrade]] as soon as possible: this release fixes [[numerous security issues|security/Numerous_security_holes_in_1.0]]."
@@ -108,8 +108,8 @@ msgid "Go to the [[download]] page."
 msgstr "Vá para a página de [[download]]."
 
 #. type: Plain text
-msgid "As no software is ever perfect, we maintain a list of [[problems that affects the last release of Tails|support/known_issues]]."
-msgstr "Como nenhum software é totalmente perfeito, nós mantemos uma lista de [[problemas que afetam a última versão lançada do Tails|support/known_issues]]."
+msgid "As no software is ever perfect, we maintain a list of [[problems that affects the last release of TⒶILS|support/known_issues]]."
+msgstr "Como nenhum software é totalmente perfeito, nós mantemos uma lista de [[problemas que afetam a última versão lançada do TⒶILS|support/known_issues]]."
 
 #. type: Title #
 #, no-wrap
@@ -117,14 +117,14 @@ msgid "What's coming up?"
 msgstr "O que está por vir?"
 
 #. type: Plain text
-msgid "The next Tails release is [[scheduled|contribute/calendar]] for July 22."
-msgstr "A próxima versão do Tails está [[agendada|contribute/calendar]] para 22 de Julho."
+msgid "The next TⒶILS release is [[scheduled|contribute/calendar]] for July 22."
+msgstr "A próxima versão do TⒶILS está [[agendada|contribute/calendar]] para 22 de Julho."
 
 #. type: Plain text
 msgid "Have a look to our [[!tails_roadmap]] to see where we are heading to."
 msgstr "Dê uma olhada em nosso [[!tails_roadmap]] e veja para onde estamos caminhando ."
 
 #. type: Plain text
-msgid "Would you want to help? There are many ways [[**you** can contribute to Tails|contribute]]. If you want to help, come talk to us!"
-msgstr "Você gostaria de ajudar? Existem muitas maneiras de [[**você** contribuir com o Tails|contribute]]. Se você quer ajudar, venha falar com a gente!"
+msgid "Would you want to help? There are many ways [[**you** can contribute to TⒶILS|contribute]]. If you want to help, come talk to us!"
+msgstr "Você gostaria de ajudar? Existem muitas maneiras de [[**você** contribuir com o TⒶILS|contribute]]. Se você quer ajudar, venha falar com a gente!"
 

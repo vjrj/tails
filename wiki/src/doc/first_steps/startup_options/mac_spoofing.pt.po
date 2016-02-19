@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-15 11:39+0300\n"
 "PO-Revision-Date: 2014-06-21 19:20-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -55,13 +55,13 @@ msgstr ""
 msgid ""
 "2. As explained in our documentation on [[network\n"
 "fingerprint|about/fingerprint]], someone observing the traffic coming out of\n"
-"your computer on the local network can probably see that you are using Tails. In\n"
-"that case, your MAC address can **identify you as a Tails user**.\n"
+"your computer on the local network can probably see that you are using TⒶILS. In\n"
+"that case, your MAC address can **identify you as a TⒶILS user**.\n"
 msgstr ""
 "2. Como explicado em nossa documentação sobre [[fingerprint\n"
 "de rede|about/fingerprint]], alguém que observe o tráfego vindo do seu\n"
-"computador na rede local provavelmente pode saber que você está usando Tails.\n"
-"Neste caso, seu endereço MAC pode **identificar você como um usuário Tails**.\n"
+"computador na rede local provavelmente pode saber que você está usando TⒶILS.\n"
+"Neste caso, seu endereço MAC pode **identificar você como um usuário TⒶILS**.\n"
 
 #. type: Title =
 #, no-wrap
@@ -69,12 +69,12 @@ msgid "What is MAC address spoofing?\n"
 msgstr "O que é alteração de endereço MAC?\n"
 
 #. type: Plain text
-msgid "Tails can temporarily change the MAC address of your network interfaces to random values for the time of a working session. This is what we call \"MAC address spoofing\". MAC address spoofing in Tails hides the serial number of your network interface, and so to some extend, who you are, to the local network."
-msgstr "O Tails pode temporariamente mudar o endereço MAC da sua interface de rede para valores aleatórios durante uma sessão de trabalho. Isto é o que pode ser chamado de \"alteração de endereço MAC\" (ou \"MAC address spoofing\", em inglês). A falsificação do endereço MAC no Tails esconde o número de série de sua interface de rede e, até um certo ponto, também quem você é, para a rede local."
+msgid "TⒶILS can temporarily change the MAC address of your network interfaces to random values for the time of a working session. This is what we call \"MAC address spoofing\". MAC address spoofing in TⒶILS hides the serial number of your network interface, and so to some extend, who you are, to the local network."
+msgstr "O TⒶILS pode temporariamente mudar o endereço MAC da sua interface de rede para valores aleatórios durante uma sessão de trabalho. Isto é o que pode ser chamado de \"alteração de endereço MAC\" (ou \"MAC address spoofing\", em inglês). A falsificação do endereço MAC no TⒶILS esconde o número de série de sua interface de rede e, até um certo ponto, também quem você é, para a rede local."
 
 #. type: Plain text
-msgid "MAC address spoofing is enabled by default in Tails because it is usually beneficial. But in some situations it might also lead to connectivity problems or make your network activity look suspicious. This documentation explains whether to use MAC spoofing or not, depending on your situation."
-msgstr "A alteração de endereço MAC é habilitada por padrão no Tails porque seu uso é benéfico. Mas em algumas situações ela também pode causar problemas de conectividade, ou fazer com que sua atividade de rede pareça suspeita. Esta documentação explica quando usar a falsificação de MAC ou não, dependendo de sua situação."
+msgid "MAC address spoofing is enabled by default in TⒶILS because it is usually beneficial. But in some situations it might also lead to connectivity problems or make your network activity look suspicious. This documentation explains whether to use MAC spoofing or not, depending on your situation."
+msgstr "A alteração de endereço MAC é habilitada por padrão no TⒶILS porque seu uso é benéfico. Mas em algumas situações ela também pode causar problemas de conectividade, ou fazer com que sua atividade de rede pareça suspeita. Esta documentação explica quando usar a falsificação de MAC ou não, dependendo de sua situação."
 
 #. type: Title =
 #, no-wrap
@@ -99,8 +99,8 @@ msgid "**Using your own computer on an public network without registration**, fo
 msgstr "**Usar seu próprio computador em uma rede pública sem registro**, por exemplo um serviço de Wi-Fi grátis em um restaurante no qual você não precisa se registrar com sua identidade. Neste caso, a alteração de endereço MAC oculta o fato de que seu computador está conectado àquela rede."
 
 #. type: Bullet: '* '
-msgid "**Using your own computer on a network that you use frequently**, for example at a friend's place, at work, at university, etc. You already have a strong relationship with this place but MAC address spoofing hides the fact that your computer is connected to this network *at a particular time*. It also hides the fact that *you* are running Tails on this network."
-msgstr "**Usar seu computador em uma rede que você usa frequentemente**, por exemplo na casa de um amigo, no trabalho, na universidade, etc. Você já tem uma relação forte com este lugar, mas a alteração de endereço MAC oculta o fato de que seu computador está conectado a esta rede *em um momento específico*. Ela também oculta o fato de que *você* está usando Tails nesta rede."
+msgid "**Using your own computer on a network that you use frequently**, for example at a friend's place, at work, at university, etc. You already have a strong relationship with this place but MAC address spoofing hides the fact that your computer is connected to this network *at a particular time*. It also hides the fact that *you* are running TⒶILS on this network."
+msgstr "**Usar seu computador em uma rede que você usa frequentemente**, por exemplo na casa de um amigo, no trabalho, na universidade, etc. Você já tem uma relação forte com este lugar, mas a alteração de endereço MAC oculta o fato de que seu computador está conectado a esta rede *em um momento específico*. Ela também oculta o fato de que *você* está usando TⒶILS nesta rede."
 
 #. type: Title =
 #, no-wrap
@@ -132,8 +132,8 @@ msgid "**Using a public computer**, for example in an Internet café or a librar
 msgstr "**Usando um computador público**, por exemplo em uma lan-house ou biblioteca. Este computador é regularmente usado nesta rede local e seu endereço MAC não está associado com sua identidade. Neste caso, a alteração do endereço MAC pode fazer com que seja impossível conectar. Pode também **parecer suspeito** para os administradores de rede verem endereços MAC desconhecidos sendo usados naquela rede."
 
 #. type: Bullet: '- '
-msgid "On some network interfaces, **MAC address spoofing is impossible** due to limitations in the hardware or in Linux. Tails temporarily disables such network interfaces. You might disable MAC address spoofing to be able to use them."
-msgstr "Em algumas interfaces de rede, **a alteração de endereço MAC é impossível** por conta de limitações no hardware ou no Linux. Tails desabilita temporariamente estas interfaces de rede. Você pode desabilitar a alteração de endereço MAC para poder usá-las."
+msgid "On some network interfaces, **MAC address spoofing is impossible** due to limitations in the hardware or in Linux. TⒶILS temporarily disables such network interfaces. You might disable MAC address spoofing to be able to use them."
+msgstr "Em algumas interfaces de rede, **a alteração de endereço MAC é impossível** por conta de limitações no hardware ou no Linux. TⒶILS desabilita temporariamente estas interfaces de rede. Você pode desabilitar a alteração de endereço MAC para poder usá-las."
 
 #. type: Bullet: '- '
 msgid "Some networks **only allow connections from a list of authorized MAC addresses**. In this case, MAC address spoofing makes it impossible to connect to such networks. If you were granted access to such network in the past, then MAC address spoofing might prevent you from connecting."
@@ -156,15 +156,15 @@ msgstr "Desabilitar a alteração de endereço MAC\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"You can disable MAC address spoofing from [[<span class=\"application\">Tails\n"
+"You can disable MAC address spoofing from [[<span class=\"application\">TⒶILS\n"
 "Greeter</span>|startup_options#tails_greeter]]:\n"
 msgstr ""
-"Você pode desabilitar a alteração de endereço MAC a partir to [[<span class=\"application\">Tails\n"
+"Você pode desabilitar a alteração de endereço MAC a partir to [[<span class=\"application\">TⒶILS\n"
 "Greeter</span>|startup_options#tails_greeter]]:\n"
 
 #. type: Bullet: '1. '
-msgid "When <span class=\"application\">Tails Greeter</span> appears, in the <span class=\"guilabel\">Welcome to Tails</span> window, click on the <span class=\"button\">Yes</span> button. Then click on the <span class=\"button\">Forward</span> button."
-msgstr "Quando o <span class=\"application\">Tails Greeter</span> aparecer, na janela <span class=\"guilabel\">Bem vindo/a ao Tails</span>, clique no botão <span class=\"button\">Yes</span>. A seguir, clique no botão <span class=\"button\">Próximo</span>."
+msgid "When <span class=\"application\">TⒶILS Greeter</span> appears, in the <span class=\"guilabel\">Welcome to TⒶILS</span> window, click on the <span class=\"button\">Yes</span> button. Then click on the <span class=\"button\">Forward</span> button."
+msgstr "Quando o <span class=\"application\">TⒶILS Greeter</span> aparecer, na janela <span class=\"guilabel\">Bem vindo/a ao TⒶILS</span>, clique no botão <span class=\"button\">Yes</span>. A seguir, clique no botão <span class=\"button\">Próximo</span>."
 
 #. type: Bullet: '2. '
 msgid "In the <span class=\"guilabel\">MAC address spoofing</span> section, deselect the <span class=\"guilabel\">Spoof all MAC addresses</span> option."

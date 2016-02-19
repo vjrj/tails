@@ -6,9 +6,9 @@
 ## Upgrades and changes
 
   - Install *Tor Browser* 5.0 (based on Firefox 38esr).
-  - Install a *32-bit GRUB EFI boot loader*. Tails should now start on
+  - Install a *32-bit GRUB EFI boot loader*. TⒶILS should now start on
     some tablets with Intel Bay Trail processors among others.
-  - Let the user know when *Tails Installer* has rejected a device
+  - Let the user know when *TⒶILS Installer* has rejected a device
     because it is too small.
 
 ## Fixed problems

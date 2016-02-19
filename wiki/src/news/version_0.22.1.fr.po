@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.22.1 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 0.22.1 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.22.1 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 0.22.1 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.22.1, is out."
-msgstr "Tails, The Amnesic Incognito Live System, version 0.22.1 est sorti."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.22.1, is out."
+msgstr "TⒶILS, The Amnesic Incognito Live System, version 0.22.1 est sorti."
 
 #. type: Plain text
 msgid ""
@@ -91,12 +91,12 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* Major improvements\n"
-"  - Check for upgrades availability using Tails Upgrader, and propose\n"
+"  - Check for upgrades availability using TⒶILS Upgrader, and propose\n"
 "    to apply an incremental upgrade whenever possible.\n"
 "  - Install Linux 3.12 (3.12.6-2).\n"
 msgstr ""
 "* Améliorations majeures\n"
-"  - Vérification de la disponibilité de mises à jour via le Tails Upgrader, et\n"
+"  - Vérification de la disponibilité de mises à jour via le TⒶILS Upgrader, et\n"
 "    proposition de mises à jour incrémentales quand cela est possible.\n"
 "  - Installation de Linux 3.12 (3.12.6-2).\n"
 
@@ -107,14 +107,14 @@ msgid ""
 "  - Fix the keybindings problem introduced in 0.22.\n"
 "  - Fix the Unsafe Browser problem introduced in 0.22.\n"
 "  - Use IE's icon in Windows camouflage mode.\n"
-"  - Handle some corner cases better in Tails Installer.\n"
+"  - Handle some corner cases better in TⒶILS Installer.\n"
 "  - Use the correct browser homepage in Spanish locales.\n"
 msgstr ""
 "* Corrections de bugs\n"
 "  - Correction du problème de raccourcis clavier introduit dans la 0.22.\n"
 "  - Correction du problème de Navigateur Non-sécurisé introduit dans la 0.22.\n"
 "  - Utilisation de l'icône d'IE en mode camouflage Windows.\n"
-"  - Meilleure prise en charge de cas limites dans l'Installeur de Tails.\n"
+"  - Meilleure prise en charge de cas limites dans l'Installeur de TⒶILS.\n"
 "  - Utilisation de la bonne page d'accueil du navigateur en espagnol.\n"
 
 #. type: Plain text
@@ -125,14 +125,14 @@ msgid ""
 "  - Do not start Tor Browser automatically, but notify when Tor\n"
 "    is ready.\n"
 "  - Import latest Tor Browser prefs.\n"
-"  - Many user interface improvements in Tails Upgrader.\n"
+"  - Many user interface improvements in TⒶILS Upgrader.\n"
 msgstr ""
 "* Améliorations mineures\n"
 "  - Mise à jour du Torbutton vers la version 1.6.5.3.\n"
 "  - Le navigateur web n'est pas lancé automatiquement, mais\n"
 "     une notification prévient quand Tor est prêt.\n"
 "  - Importation des dernières préférences du Tor Browser.\n"
-"  - Nombreuses améliorations de l'interface utilisateur du Tails Upgrader.\n"
+"  - Nombreuses améliorations de l'interface utilisateur du TⒶILS Upgrader.\n"
 
 #. type: Plain text
 msgid ""
@@ -171,10 +171,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 "Comme aucun logiciel n'est parfait, nous maintenons une liste des "
-"[[problèmes qui affectent la dernière version de Tails|support/"
+"[[problèmes qui affectent la dernière version de TⒶILS|support/"
 "known_issues]]."
 
 #. type: Title #
@@ -184,9 +184,9 @@ msgstr "Et après ?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for March 18."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for March 18."
 msgstr ""
-"La prochaine version de Tails est [[prévue|contribute/calendar]] pour le 18 "
+"La prochaine version de TⒶILS est [[prévue|contribute/calendar]] pour le 18 "
 "mars."
 
 #. type: Plain text
@@ -198,7 +198,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Would you want to help? There are many ways [[**you** can contribute to "
-"Tails|contribute]]. If you want to help, come talk to us!"
+"TⒶILS|contribute]]. If you want to help, come talk to us!"
 msgstr ""
 "Vous voulez aider ? Il y a de nombreuses façons pour [[**vous** de "
 "contribuer|contribute]]. Si vous souhaitez aider, venez nous en parler !"

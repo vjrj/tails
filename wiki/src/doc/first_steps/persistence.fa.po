@@ -27,9 +27,9 @@ msgstr "[[!meta title=\"مانای رمزگذاری‌شده\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"If you start Tails from a USB stick or SD card, you can create a\n"
+"If you start TⒶILS from a USB stick or SD card, you can create a\n"
 "persistent volume in the free space left on the device by <span\n"
-"class=\"application\">Tails Installer</span>. The files in the persistent\n"
+"class=\"application\">TⒶILS Installer</span>. The files in the persistent\n"
 "volume are saved encrypted and remain available across separate working "
 "sessions.\n"
 msgstr ""
@@ -50,7 +50,7 @@ msgstr "<div class=\"note\">\n"
 msgid ""
 "<p>It is only possible to create a persistent volume if the device, USB "
 "stick or\n"
-"SD card, was installed using <span class=\"application\">[[Tails\n"
+"SD card, was installed using <span class=\"application\">[[TⒶILS\n"
 "Installer|doc/first_steps/installation]]</span>.</p>\n"
 msgstr ""
 "<p>تنها راه ممکن برای ایجاد درایوی مانا این است که \n"
@@ -81,7 +81,7 @@ msgid "your personal files and working documents"
 msgstr "فایل‌های شخصی شما و مستنداتی که روی آن‌ها کار می‌کنید"
 
 #. type: Bullet: '  - '
-msgid "the software packages that you download and install in Tails"
+msgid "the software packages that you download and install in TⒶILS"
 msgstr "بسته‌های نرم‌افزاری که دانلود و روی تیلز نصب می‌کنید"
 
 #. type: Bullet: '  - '
@@ -99,7 +99,7 @@ msgstr "درایو مانا یک درایو رمزگذاری شده است که 
 #. type: Plain text
 msgid ""
 "Once the persistent volume is created, you can choose to activate it or not "
-"each time you start Tails."
+"each time you start TⒶILS."
 msgstr ""
 "وقتی درایو مانا ساخته می‌شود، هر بار که تیلز را راه‌اندازی می‌کنید می‌توانید "
 "انتخاب کنید که فعال شود یا نه."

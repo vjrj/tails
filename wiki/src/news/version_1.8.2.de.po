@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-01-09 22:18+0100\n"
 "PO-Revision-Date: 2016-01-15 22:20+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Sun Jan 10 01:02:03 CET 2016\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.8.2 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 1.8.2 wurde veröffentlicht\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.8.2 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 1.8.2 wurde veröffentlicht\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -91,11 +91,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If your Tails does not boot after an automatic upgrade, please [[upgrade "
-"your Tails manually|doc/first_steps/upgrade#manual]]."
+"If your TⒶILS does not boot after an automatic upgrade, please [[upgrade "
+"your TⒶILS manually|doc/first_steps/upgrade#manual]]."
 msgstr ""
-"Falls Ihr Tails nach einer automatischen Aktualisierung nicht mehr startet, "
-"[[aktualisieren Sie Ihr Tails bitte manuell|doc/first_steps/upgrade#manual]]."
+"Falls Ihr TⒶILS nach einer automatischen Aktualisierung nicht mehr startet, "
+"[[aktualisieren Sie Ihr TⒶILS bitte manuell|doc/first_steps/upgrade#manual]]."
 
 #. type: Title #
 #, no-wrap
@@ -104,9 +104,9 @@ msgstr "Was kommt als Nächstes?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for January 26."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for January 26."
 msgstr ""
-"Die nächste Version von Tails ist für den 26. Januar [[geplant|contribute/"
+"Die nächste Version von TⒶILS ist für den 26. Januar [[geplant|contribute/"
 "calendar]]."
 
 #. type: Plain text
@@ -117,10 +117,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We need your help and there are many ways to [[contribute to Tails|"
+"We need your help and there are many ways to [[contribute to TⒶILS|"
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|contribute/talk]]!"
 msgstr ""
-"Wir brauchen Ihre Hilfe und es gibt viele Wege, auf denen Sie [[Tails "
+"Wir brauchen Ihre Hilfe und es gibt viele Wege, auf denen Sie [[TⒶILS "
 "unterstützen|contribute]] können. ([[Spenden|contribute/how/donate]] ist nur "
 "einer davon). [[Sprechen Sie uns an|contribute/talk]]!"

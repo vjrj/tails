@@ -35,13 +35,13 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "We are pleased to present you the second Tails bimonthly report."
+msgid "We are pleased to present you the second TⒶILS bimonthly report."
 msgstr "مفتخریم دومین گزارش دوماهانهٔ تیلز را به شما ارائه کنیم."
 
 #. type: Plain text
 msgid ""
 "This report may, or may not, be followed by others depending on the feedback "
-"we get: if you like reading such news about Tails, don't hesitate [[telling "
+"we get: if you like reading such news about TⒶILS, don't hesitate [[telling "
 "us|support/talk]]!"
 msgstr ""
 "ادامه داشتن یا نداشتن این گزارش‌ها بستگی به بازخوردی که می‌گیریم دارد: اگر "
@@ -49,7 +49,7 @@ msgstr ""
 "بگویید|support/talk]]!"
 
 #. type: Plain text
-msgid "This report sums up the work that was done on Tails in March and April 2011."
+msgid "This report sums up the work that was done on TⒶILS in March and April 2011."
 msgstr ""
 "این گزارش به خلاصهٔ کارهایی که در ماه‌های مارس و آوریل ۲۰۱۱ انجام شده‌اند "
 "اختصاص دارد."
@@ -66,7 +66,7 @@ msgstr "نسخه‌های جدید"
 
 #. type: Plain text
 msgid ""
-"The new Tails 0.7 major release was out on April 7th, quickly followed by a "
+"The new TⒶILS 0.7 major release was out on April 7th, quickly followed by a "
 "bugfix and security release (0.7.1) on April 30th. See their release "
 "announces for details:"
 msgstr ""
@@ -75,11 +75,11 @@ msgstr ""
 "ببینید:"
 
 #. type: Bullet: '  * '
-msgid "[[Tails 0.7 announce|news/version_0.7]]"
+msgid "[[TⒶILS 0.7 announce|news/version_0.7]]"
 msgstr "[[اعلان تیلز ۰٫۷|news/version_0.7]]"
 
 #. type: Bullet: '  * '
-msgid "[[Tails 0.7.1 announce|news/version_0.7.1]]"
+msgid "[[TⒶILS 0.7.1 announce|news/version_0.7.1]]"
 msgstr "[[اعلان تیلز ۰٫۷٫۱|news/version_0.7.1]]"
 
 #. type: Title #
@@ -107,7 +107,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Max will implement [[tails-greeter|todo/TailsGreeter]], the graphical "
-"[[todo/boot_menu]] Tails really needs as more and more upcoming features "
+"[[todo/boot_menu]] TⒶILS really needs as more and more upcoming features "
 "(including [[todo/persistence]], [[todo/macchanger]], [[todo/bridge "
 "support]]) need to ask the user for input at boot time; reports of his work "
 "will be posted on a dedicated [[todo/TailsGreeter/blog]]."
@@ -134,7 +134,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We warmly welcome Max and Julien into the Tails and Tor development "
+"We warmly welcome Max and Julien into the TⒶILS and Tor development "
 "communities!"
 msgstr ""
 "ما به ماکس و جولین به خاطر ورود به جماعت توسعهٔ تور و تیلز به گرمی خوشامد "
@@ -156,7 +156,7 @@ msgstr "مستندسازی"
 
 #. type: Plain text
 msgid ""
-"The Great Tails Documentation Rework Plan was started. Once this is done, "
+"The Great TⒶILS Documentation Rework Plan was started. Once this is done, "
 "several entry points will be available to better fit a given user's "
 "available time and energy. Such work happens in the `doc-rework` branch of "
 "our [[Git|contribute/git]] repository. [[Want to "
@@ -169,12 +169,12 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"A brand new [[\"how to contribute to Tails\" documentation|contribute]] was "
+"A brand new [[\"how to contribute to TⒶILS\" documentation|contribute]] was "
 "published. We hope it will make it easier for anyone interested to get "
-"involved and make Tails better as there many ways *you* can contribute to "
-"Tails: setting up a BitTorrent or HTTP mirror, helping other Tails users, "
+"involved and make TⒶILS better as there many ways *you* can contribute to "
+"TⒶILS: setting up a BitTorrent or HTTP mirror, helping other Tails users, "
 "improving documentation, reporting bugs, fixing bugs, implementing new "
-"features, improving Tails in your own language, providing needed input to "
+"features, improving TⒶILS in your own language, providing needed input to "
 "developers, etc."
 msgstr ""
 "یک [[سند «چگونه با تیلز همکاری کنیم»|contribute]] جدید منتشر شده‌است. "
@@ -196,9 +196,9 @@ msgstr "در رسانه‌ها"
 
 #. type: Plain text
 msgid ""
-"Shortly following their [announcement of Tails 0.7 "
+"Shortly following their [announcement of TⒶILS 0.7 "
 "release](https://lwn.net/Articles/439371/), LWN published a [great, long and "
-"serious article about Tails](https://lwn.net/Articles/440279/) in last "
+"serious article about TⒶILS](https://lwn.net/Articles/440279/) in last "
 "week's edition."
 msgstr ""
 "LWN کمی پس از [اعلام انتشار تیلز ۰٫۷](https://lwn.net/Articles/439371/) یک "
@@ -207,7 +207,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails 0.7 release also [made "
+"TⒶILS 0.7 release also [made "
 "it](http://distrowatch.com/weekly.php?issue=20110418#news)  "
 "[twice](http://distrowatch.com/?newsid=06629) on DistroWatch."
 msgstr ""
@@ -259,13 +259,13 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Installing and upgrading Tails onto a USB stick"
+msgid "Installing and upgrading TⒶILS onto a USB stick"
 msgstr "نصب و ارتقای تیلز روی یک درایو یواس‌بی"
 
 #. type: Plain text
 msgid ""
 "In the next months, a few of us are going to focus on preparing a tool for "
-"easy install and upgrade of Tails onto USB sticks, with support for an "
+"easy install and upgrade of TⒶILS onto USB sticks, with support for an "
 "encrypted persistent volume in mind. We're likely to use Fedora's "
 "[liveusb-creator](https://fedorahosted.org/liveusb-creator/)  as a "
 "basis. Either we'll make it more generic or we'll fork it minimally, "
@@ -302,7 +302,7 @@ msgstr ""
 msgid ""
 "PowerPC support (pre-Intel Macs): we're \"almost\" there, but we have a hard "
 "time prioritizing this task among all exciting enhancements that could be "
-"done on Tails. If you need Tails to support pre-Intel Macs, don't hesitate "
+"done on TⒶILS. If you need Tails to support pre-Intel Macs, don't hesitate "
 "[[telling us|support/talk]]."
 msgstr ""
 "پشتیبانی از PowerPC (مک‌های پیش از اینتل): «تقریباً» کار را تمام کرده‌ایم، "

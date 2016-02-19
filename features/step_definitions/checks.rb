@@ -4,7 +4,7 @@ def shipped_openpgp_keys
   return openpgp_fingerprints
 end
 
-Then /^the OpenPGP keys shipped with Tails will be valid for the next (\d+) months$/ do |months|
+Then /^the OpenPGP keys shipped with TⒶILS will be valid for the next (\d+) months$/ do |months|
   invalid = Array.new
   shipped_openpgp_keys.each do |key|
     begin
@@ -96,9 +96,9 @@ Then /^no unexpected services are listening for network connections$/ do
   end
 end
 
-When /^Tails has booted a 64-bit kernel$/ do
+When /^TⒶILS has booted a 64-bit kernel$/ do
   assert($vm.execute("uname -r | grep -qs 'amd64$'").success?,
-         "Tails has not booted a 64-bit kernel.")
+         "TⒶILS has not booted a 64-bit kernel.")
 end
 
 Then /^there is no screenshot in the live user's Pictures directory$/ do
@@ -237,7 +237,7 @@ Then /^tails-debugging-info is not susceptible to symlink attacks$/ do
   end
 end
 
-When /^I disable all networking in the Tails Greeter$/ do
+When /^I disable all networking in the TⒶILS Greeter$/ do
   begin
     @screen.click('TailsGreeterDisableAllNetworking.png')
   rescue FindFailed

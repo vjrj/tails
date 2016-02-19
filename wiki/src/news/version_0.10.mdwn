@@ -1,5 +1,5 @@
 [[!meta date="Wed Jan 04 01:23:45 2012"]]
-[[!meta title="Tails 0.10 is out"]]
+[[!meta title="TⒶILS 0.10 is out"]]
 [[!tag announce]]
 
 The Amnesic Incognito Live System, version 0.10, is out.
@@ -34,11 +34,11 @@ Notable user-visible changes include:
 
 * Software
   - Upgrade Vidalia to 0.2.15-1+tails1. This version will not warn about
-    new Tor versions (this is handled by Tails security check instead).
+    new Tor versions (this is handled by TⒶILS security check instead).
   - Upgrade MAT to 0.2.2-1~bpo60+1.
   - Upgrade VirtualBox guest software to 4.1.6-dfsg-2~bpo60+1,
     built against the ABI of X.Org backports.
-  - Upgrade I2P to 0.8.11; the start script (which was broken in Tails
+  - Upgrade I2P to 0.8.11; the start script (which was broken in TⒶILS
     0.9) is now fixed.
   - Install unar (The Unarchiver) instead of the non-free unrar.
   - [[Install Nautilus Wipe|doc/encryption_and_privacy/secure_deletion]] instead
@@ -74,7 +74,7 @@ Notable user-visible changes include:
     and don't run Seahorse applet anymore.
   - Blank screen when lid is closed, rather than shutting down the system.
     The shutdown "feature" has caused data losses for too many people, it seems.
-    There are many other ways a Tails system can be shut down in a hurry
+    There are many other ways a TⒶILS system can be shut down in a hurry
     these days.
   - Fix bug in the Pidgin nick generation that resulted in the nick
     "XXX_NICK_XXX" once out of twenty.
@@ -95,8 +95,8 @@ See the [[Getting started]] page.
 
 # Known issue
 
-The memory erasure on Tails shutdown cannot guarantee that all memory
-in the 2 GB to 4 GB region is wiped. The improvements made in Tails
+The memory erasure on TⒶILS shutdown cannot guarantee that all memory
+in the 2 GB to 4 GB region is wiped. The improvements made in TⒶILS
 0.10 should at least make the situation better than previously.
 
 # A glimpse towards the future
@@ -106,4 +106,4 @@ see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], here are many ways **you** can contribute
-to Tails: no need to be a hardcore developer.
+to TⒶILS: no need to be a hardcore developer.

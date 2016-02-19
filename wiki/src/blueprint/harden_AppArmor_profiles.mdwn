@@ -16,7 +16,7 @@ Things to keep in mind
 Beware not to break:
 
 * assistive technologies (accessibility)
-* Tails with IUKs installed: test `bugfix/8007-AppArmor-hardening` in
+* TⒶILS with IUKs installed: test `bugfix/8007-AppArmor-hardening` in
   that context; the changes brought by that branch should not break
   things in that case, but better safe than sorry
 
@@ -147,12 +147,12 @@ jvoisin's profile hardening
     PDF can embed videos; do we care?
   * drop `ubuntu-console-browsers`, `ubuntu-console-email` and
     `ubuntu-gnome-terminal` abstractions: I doubt it's useful to
-    anyone in Tails, indeed
+    anyone in TⒶILS, indeed
   * disallow `/usr/bin/yelp`: if it breaks displaying Evince help,
     we don't want that
   * disallow `/usr/bin/bug-buddy`: Ubuntu-specific, we don't care
   * disallow `/usr/bin/exo-open` and a bunch of file managers that
-    are not shipped in Tails:  not worth maintaining a delta
+    are not shipped in TⒶILS:  not worth maintaining a delta
   * disallow `/usr/bin/gedit`: a comment in the profile says it's
     useful "for text attachments", and given it's inheriting the
     current profile it's not scary enough to be worth potentially

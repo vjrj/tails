@@ -26,7 +26,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.17 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.17 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -35,7 +35,7 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.17, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.17, is out."
 msgstr ""
 
 #. type: Plain text
@@ -124,7 +124,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* Localization\n"
-"  - Tails USB Installer: update translations for Arabic, Czech,\n"
+"  - TⒶILS USB Installer: update translations for Arabic, Czech,\n"
 "    German, Hebrew, Polish and Spanish.\n"
 "  - tails-greeter: update Spanish and French translations, new\n"
 "    Polish translation.\n"
@@ -157,7 +157,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -167,7 +167,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next Tails release is scheduled for April 9. It will probably be a "
+"The next TⒶILS release is scheduled for April 9. It will probably be a "
 "minor, bugfix only one."
 msgstr ""
 
@@ -179,5 +179,5 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], there are many ways **you** can contribute to "
-"Tails. If you want to help, come talk to us!"
+"TⒶILS. If you want to help, come talk to us!"
 msgstr ""

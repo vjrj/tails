@@ -48,7 +48,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>バグ修正に協力してください！</h1>\n"
@@ -59,7 +59,7 @@ msgstr ""
 "我々が問題を特定するために連絡できるよう、あなたのメールアドレスを教えてくだ"
 "さい。\n"
 "我々に届く情報の大半は、追加情報なしでは役に立たないためです。\n"
-"一方で、これはメール機能の提供者やプロバイダーなどの盗聴者に、あなたが Tails "
+"一方で、これはメール機能の提供者やプロバイダーなどの盗聴者に、あなたが TⒶILS "
 "を利用していることを知られる機械を与える事にもなります。\n"
 "</p>\n"
 
@@ -69,11 +69,11 @@ msgstr "Electrum の保存機能が無効です"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
-"Tails を再起動すると、Bitcoin ウォレットを含む全ての Electrum のデータは失わ"
+"TⒶILS を再起動すると、Bitcoin ウォレットを含む全ての Electrum のデータは失わ"
 "れます。保存機能が有効なときのみ Electrum を実行させることを強くおすすめしま"
 "す。"
 
@@ -280,9 +280,9 @@ msgid "not available"
 msgstr "利用不可"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
+msgid "About TⒶILS"
 msgstr "Tailsについて"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
@@ -312,7 +312,7 @@ msgstr "追加ソフトウェア"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "アップグレードに失敗しました。これはおそらくネットワーク上の問題によるもので"
@@ -340,7 +340,7 @@ msgid "Failed to synchronize the clock!"
 msgstr "時計の同期に失敗！"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
+msgid "This version of TⒶILS has known security issues:"
 msgstr "Tailsのこのバージョンには、既知のセキュリティ問題が存在します:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
@@ -357,11 +357,11 @@ msgstr "ネットワークカード ${nic} が無効になりました"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC スプーフィングが、ネットワークカード ${nic_name} (${nic}) のために失敗し"
 "たので、一時的に無効化されます。\n"
-"Tails を再起動して、 MAC スプーフィーングを無効化したいかもしれません。<a "
+"TⒶILS を再起動して、 MAC スプーフィーングを無効化したいかもしれません。<a "
 "href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 "mac_spoofing.en.html'>ドキュメント</a>をご覧ください。"
 
@@ -374,11 +374,11 @@ msgstr "全ネットワーク機能無効"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC スプーフィングが、ネットワークカード ${nic_name} (${nic}) のために失敗し"
 "ました。エラーリカバリも失敗したので、全ネットワーク機能が無効になります。 "
-"Tails を再起動して、 MAC スプーフィングを無効化したいと思うかもしれません。"
+"TⒶILS を再起動して、 MAC スプーフィングを無効化したいと思うかもしれません。"
 "<a href='file:///usr/share/doc/first_steps/startup_options/mac_spoofing.en."
 "html'>ドキュメント</a>をご覧ください。"
 
@@ -396,21 +396,21 @@ msgstr "エラー"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr ""
 "<b>アップグレードの確認に十分なメモリが利用できません。</b>\n"
 "\n"
-"このシステムが Tails の動作する要件を満たしているか確認してください。\n"
+"このシステムが TⒶILS の動作する要件を満たしているか確認してください。\n"
 "file:///usr/share/doc/tails/website/doc/about/requirements.en.html をご覧くだ"
 "さい。\n"
 "\n"
-"Tails を再起動してから、もう一度アップグレードを確認してください。\n"
+"TⒶILS を再起動してから、もう一度アップグレードを確認してください。\n"
 "\n"
 "または、手動でアップグレードを行ってください。\n"
 "https://tails.boum.org/doc/first_steps/upgrade#manual をご覧ください。"
@@ -422,7 +422,7 @@ msgstr "警告: 仮想マシンを検出！"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "ホストオペレーティングシステムと仮想化ソフトウェアのどちらも、Tailsで行ってい"
 "ることを監視できます。"
@@ -436,7 +436,7 @@ msgstr "警告: 仮想マシンを検出！"
 #, fuzzy
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
@@ -446,7 +446,7 @@ msgstr ""
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 #, fuzzy
 msgid "Learn more"
-msgstr "Tails について詳しく知る"
+msgstr "TⒶILS について詳しく知る"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:41
 msgid "Tor is not ready"
@@ -594,12 +594,12 @@ msgstr "エラーを報告"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
+msgid "TⒶILS documentation"
 msgstr "Tailsのドキュメント"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Tails の使い方を知る"
+msgid "Learn how to use TⒶILS"
+msgstr "TⒶILS の使い方を知る"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 msgid "Anonymous overlay network browser"
@@ -610,8 +610,8 @@ msgid "I2P Browser"
 msgstr "I2Pブラウザ"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "Tails について詳しく知る"
+msgid "Learn more about TⒶILS"
+msgstr "TⒶILS について詳しく知る"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -641,8 +641,8 @@ msgstr "匿名性なしでワールドワイドウェブをブラウズする"
 msgid "Unsafe Web Browser"
 msgstr "安全でないウェブブラウザ"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
 msgstr "Tails専用ツール"
 
 #~ msgid "Shutdown Immediately"

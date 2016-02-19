@@ -33,12 +33,12 @@ msgstr "Que sont les bridges et quand les utiliser\n"
 
 #. type: Plain text
 msgid ""
-"When using Tor with Tails in its default configuration, anyone who can "
+"When using Tor with TⒶILS in its default configuration, anyone who can "
 "observe the traffic of your Internet connection (for example your Internet "
 "Service Provider and perhaps your government and law enforcement agencies) "
 "can know that you are using Tor."
 msgstr ""
-"Quand vous utilisez Tor via Tails dans sa configuration par défaut, "
+"Quand vous utilisez Tor via TⒶILS dans sa configuration par défaut, "
 "n'importe qui capable d'observer le traffic de votre connexion Internet "
 "(comme votre Fournisseur d'Accès à Internet, sans doute votre gouvernement "
 "ainsi que les représentants de la loi) peut savoir que vous utilisez Tor."
@@ -51,20 +51,20 @@ msgstr "Ce qui peut être un souci si vous êtes dans un pays où :"
 #. type: Bullet: '1. '
 msgid ""
 "**Using Tor is blocked by censorship:** since all connections to the "
-"Internet are forced to go through Tor, this would render Tails useless for "
+"Internet are forced to go through Tor, this would render TⒶILS useless for "
 "everything except for working offline on documents, etc."
 msgstr ""
 "**L'usage de Tor est bloqué par la censure :** vu que toutes les connexions "
-"à Internet passent par Tor, cela rendrait Tails inutile pour tout sauf hors "
+"à Internet passent par Tor, cela rendrait TⒶILS inutile pour tout sauf hors "
 "ligne comme travailler sur un document etc."
 
 #. type: Bullet: '2. '
 msgid ""
 "**Using Tor is dangerous or considered suspicious:** in this case starting "
-"Tails in its default configuration might get you into serious trouble."
+"TⒶILS in its default configuration might get you into serious trouble."
 msgstr ""
 "**L'usage de Tor est dangereux ou considéré suspect :** dans ce cas, "
-"démarrer Tails dans sa configuration par défaut peut vous attirer de sérieux "
+"démarrer TⒶILS dans sa configuration par défaut peut vous attirer de sérieux "
 "ennuis."
 
 #. type: Plain text
@@ -82,12 +82,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "If you are in one of the situations described above you might want to use "
-"Tor bridges in Tails. Please also read The Tor Project's [dedicated page "
+"Tor bridges in TⒶILS. Please also read The Tor Project's [dedicated page "
 "about bridges](https://www.torproject.org/docs/bridges) to get a general "
 "idea about what bridges are."
 msgstr ""
 "Si votre cas correspond à l'une des situations évoquées ci-dessus vous "
-"pourriez vouloir utiliser Tails en mode bridge. Veuillez lire la page "
+"pourriez vouloir utiliser TⒶILS en mode bridge. Veuillez lire la page "
 "[dédiée sur le site du Projet Tor (en anglais)](https://www.torproject.org/"
 "docs/bridges) pour avoir une idée générale de ce que sont les bridges."
 
@@ -123,22 +123,22 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "How to use bridges in Tails\n"
-msgstr "Comment utiliser des bridges dans Tails\n"
+msgid "How to use bridges in TⒶILS\n"
+msgstr "Comment utiliser des bridges dans TⒶILS\n"
 
 #. type: Plain text
 msgid ""
-"You must have at hand at least one bridge address before starting Tails. For "
+"You must have at hand at least one bridge address before starting TⒶILS. For "
 "example, you can write it down on a piece of paper or store it in the "
 "[[persistent volume|doc/first_steps/persistence]]."
 msgstr ""
 "Vous devez avoir à portée de main au moins une adresse de bridge avant de "
-"lancer Tails. Vous pouvez par exemple l'écrire sur un bout de papier ou "
+"lancer TⒶILS. Vous pouvez par exemple l'écrire sur un bout de papier ou "
 "l'avoir stockée dans votre [[volume persistant|doc/first_steps/persistence]]."
 
 #. type: Plain text
-msgid "Tails allows you to use bridges of the following types:"
-msgstr "Tails vous permet d'utiliser les types de bridges suivants :"
+msgid "TⒶILS allows you to use bridges of the following types:"
+msgstr "TⒶILS vous permet d'utiliser les types de bridges suivants :"
 
 #. type: Bullet: '  - '
 msgid "`bridge`"
@@ -164,11 +164,11 @@ msgstr "`ScrambleSuit`"
 #, no-wrap
 msgid ""
 "To use Tor through bridges, choose the bridge settings configuration option in [[<span\n"
-"class=\"application\">Tails Greeter</span>|startup_options#tails_greeter]] as\n"
+"class=\"application\">TⒶILS Greeter</span>|startup_options#tails_greeter]] as\n"
 "explained in the [[network configuration|network_configuration]] documentation.\n"
 msgstr ""
 "Pour utiliser Tor via un bridge, vous devez en configurer les paramètres au niveau du [[<span\n"
-"class=\"application\">Tails Greeter</span>|startup_options#tails_greeter]], comme\n"
+"class=\"application\">TⒶILS Greeter</span>|startup_options#tails_greeter]], comme\n"
 "expliqué dans la documentation relative à la [[configuration de réseau|network_configuration]].\n"
 
 #. type: Plain text
@@ -224,8 +224,8 @@ msgstr ""
 "adversaire pourrait utiliser pour identifier les utilisateurs de Tor.\n"
 
 #. type: Bullet: '1. '
-msgid "Always start Tails in *bridge mode*."
-msgstr "Démarrer Tails systématiquement en *mode bridge*."
+msgid "Always start TⒶILS in *bridge mode*."
+msgstr "Démarrer TⒶILS systématiquement en *mode bridge*."
 
 #. type: Bullet: '2. '
 msgid ""

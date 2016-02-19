@@ -137,7 +137,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from an ISO image\n"
+msgid "Running TⒶILS from an ISO image\n"
 msgstr ""
 
 #. type: Bullet: '  1. '
@@ -200,12 +200,12 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from a USB stick or SD card\n"
+msgid "Running TⒶILS from a USB stick or SD card\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"To run Tails from a USB stick or SD card using *virt-manager*, first create "
+"To run TⒶILS from a USB stick or SD card using *virt-manager*, first create "
 "a virtual machine running from an ISO image as described [[above|virt-"
 "manager#iso]]."
 msgstr ""
@@ -224,7 +224,7 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid ""
-"Plug in the USB stick or insert the SD card from which you want to run Tails."
+"Plug in the USB stick or insert the SD card from which you want to run TⒶILS."
 msgstr ""
 
 #. type: Bullet: '  1. '
@@ -244,14 +244,14 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid ""
-"In the right pane, click on the device from which you want to run Tails, and "
+"In the right pane, click on the device from which you want to run TⒶILS, and "
 "click **Finish**."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "You can keep the original ISO image connected as a virtual DVD to install "
-"Tails onto the USB stick or SD card if needed."
+"TⒶILS onto the USB stick or SD card if needed."
 msgstr ""
 
 #. type: Plain text
@@ -262,7 +262,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You can also disconnect the original ISO image and start directly from the "
-"USB stick once Tails is already installed on it. To do so:"
+"USB stick once TⒶILS is already installed on it. To do so:"
 msgstr ""
 
 #. type: Bullet: '  1. '
@@ -301,18 +301,18 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from a virtual USB storage\n"
+msgid "Running TⒶILS from a virtual USB storage\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can also run Tails from a virtual USB storage, saved as a single file on "
+"You can also run TⒶILS from a virtual USB storage, saved as a single file on "
 "the host operating system."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"To run Tails from a virtual USB device using *virt-manager*, first create a "
+"To run TⒶILS from a virtual USB device using *virt-manager*, first create a "
 "virtual machine running from an ISO image as described [[above|virt-"
 "manager#iso]]."
 msgstr ""
@@ -339,8 +339,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Then start the virtual machine from the virtual DVD to install Tails onto "
-"the virtual USB storage. The virtual USB storage appears in *Tails "
+"Then start the virtual machine from the virtual DVD to install TⒶILS onto "
+"the virtual USB storage. The virtual USB storage appears in *TⒶILS "
 "Installer* as **QEMU HARDDISK**."
 msgstr ""
 

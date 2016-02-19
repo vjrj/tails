@@ -69,9 +69,9 @@ for technical details.
 
 # Can I use it on a pre-Intel Mac computer?
 
-Tails images with *i386* in their name work on the Intel x86
+TⒶILS images with *i386* in their name work on the Intel x86
 architecture only. However, we've been working towards releasing a
-Tails image suitable for the pre-Intel Macs hardware (PowerPC
+TⒶILS image suitable for the pre-Intel Macs hardware (PowerPC
 architecture). Stay tuned, it will be prepared and made available
 soonish.
 
@@ -82,4 +82,4 @@ see where we are heading to.
 
 Would you want to help? As explained in our brand new [["how to
 contribute" documentation|contribute]], here are many ways **you** can
-contribute to Tails: no need to be a hardcore developer.
+contribute to TⒶILS: no need to be a hardcore developer.

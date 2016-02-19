@@ -22,8 +22,8 @@ msgstr "[[!meta date=\"Thu Apr 28 11:12:13 2011\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 0.7\"]]\n"
-msgstr "[[!meta title=\"Nombreux trous de sécurité dans Tails 0.7\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 0.7\"]]\n"
+msgstr "[[!meta title=\"Nombreux trous de sécurité dans TⒶILS 0.7\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,21 +32,21 @@ msgstr "[[!tag security/fixed]]\n"
 
 #. type: Plain text
 msgid ""
-"The following security holes affect Tails 0.7. Some of these allow **remote "
+"The following security holes affect TⒶILS 0.7. Some of these allow **remote "
 "arbitrary code execution with full administrator rights**, that can be "
 "exploited by any attacker with access to the local network."
 msgstr ""
-"Les trous de sécurité suivants affectent Tails 0.7. Certains de ces trous "
+"Les trous de sécurité suivants affectent TⒶILS 0.7. Certains de ces trous "
 "permettent **l'exécution à distance de code arbitraire avec tous les droits "
 "administrateur**, et peuvent être exploités par n'importe quel attaquant "
 "ayant accès au réseau local."
 
 #. type: Plain text
 msgid ""
-"We **strongly** urge you to [[upgrade to Tails 0.7.1|news/version_0.7.1]] as "
+"We **strongly** urge you to [[upgrade to TⒶILS 0.7.1|news/version_0.7.1]] as "
 "soon as possible in case you are still using an older version."
 msgstr ""
-"Nous vous recommandons **vivement** de faire la [[mise à jour vers Tails "
+"Nous vous recommandons **vivement** de faire la [[mise à jour vers TⒶILS "
 "0.7.1|news/version_0.7.1]] aussi vite que possible, dans le cas où vous "
 "utiliseriez encore une ancienne version."
 

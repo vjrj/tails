@@ -1,8 +1,8 @@
 [[!meta date="Fri Aug 9 15:30:00 2013"]]
-[[!meta title="Tails 0.20 is out"]]
+[[!meta title="TⒶILS 0.20 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.20, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.20, is out.
 
 All users must upgrade as soon as possible: this release fixes
 [[numerous security issues|security/Numerous_security_holes_in_0.19]].
@@ -25,9 +25,9 @@ Notable user-visible changes include:
 * Minor improvements
   - Install Dasher, a predictive text entry tool.
   - Add a wrapper around TrueCrypt which displays a warning about it soon
-    being deprecated in Tails.
+    being deprecated in TⒶILS.
   - Remove Pidgin libraries for all protocols but IRC and Jabber/XMPP.
-    Many of the other protocols Pidgin support are broken in Tails and
+    Many of the other protocols Pidgin support are broken in TⒶILS and
     haven't got any security auditting.
   - Disable the pre-defined Pidgin accounts so they do not auto-connect
     on Pidgin start.
@@ -40,7 +40,7 @@ Notable user-visible changes include:
 
 * Localization
   - Many translation updates all over the place.
-  - Merge all Tails-related POT files into one, and make use of intltoolize
+  - Merge all TⒶILS-related POT files into one, and make use of intltoolize
     for better integration with Transifex.
 
 See the [online
@@ -56,14 +56,14 @@ No new known issue but [[longstanding known issues|support/known_issues]].
 Go to the [[download]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is scheduled for around September 19.
+The next TⒶILS release is scheduled for around September 19.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? There are many ways [[**you** can
-contribute|contribute to Tails]]. If you want to help, come talk
+contribute|contribute to TⒶILS]]. If you want to help, come talk
 to us!

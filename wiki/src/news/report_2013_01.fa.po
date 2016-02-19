@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"شنبه ۹ فوریه ۱۶:۲۳:۴۵ ۲۰۱۳\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for January, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for January, 2013\"]]\n"
 msgstr "[[!meta title=\"گزارش ژانویه ۲۰۱۳ تیلز\"]]\n"
 
 #. type: Plain text
@@ -39,12 +39,12 @@ msgid "Releases\n"
 msgstr "انتشارها\n"
 
 #. type: Plain text
-msgid "Tails 0.16 [[was released on January 11th|news/version_0.16]]."
+msgid "TⒶILS 0.16 [[was released on January 11th|news/version_0.16]]."
 msgstr "تیلز ۰٫۱۶ [[۱۱ ژانویه منتشر شد|news/version_0.16]]."
 
 #. type: Plain text
 msgid ""
-"The Tails 0.17 release is scheduled for late February. Back on tracks with "
+"The TⒶILS 0.17 release is scheduled for late February. Back on tracks with "
 "the [[6-weeks release cycle|contribute/release_schedule]] we wanted to try, "
 "finally!"
 msgstr ""
@@ -58,10 +58,10 @@ msgstr "افراد\n"
 
 #. type: Plain text
 msgid ""
-"Tails has been started and successfully connected to the Tor network around "
+"TⒶILS has been started and successfully connected to the Tor network around "
 "100 865 times in January. That makes a boot every 27 seconds on "
 "average. (This number is an approximation from the requests made for the "
-"security announcements feed. The later is retrieved by Tails after being "
+"security announcements feed. The later is retrieved by TⒶILS after being "
 "connected to Tor to eventually encourage users to update.)"
 msgstr ""
 "تیلز در ماه ژانویه حدود ۱۰۰٫۸۶۵ بار با موفقیت راه‌اندازی و به شبکهٔ تور متصل "
@@ -76,7 +76,7 @@ msgstr "۲۴ گزارش ایراد ارسال‌شده از ویسپربک در�
 #. type: Plain text
 msgid ""
 "The forum activity has been a bit lower, but still quite high: 874 messages, "
-"140 signed by Tails."
+"140 signed by TⒶILS."
 msgstr ""
 "فعالیت انجمن کمی کم شده، اما باز هم بسیار بالا: ۸۷۴ پیغام که ۱۴۰ تا امضای "
 "تیلز دارند."
@@ -99,7 +99,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Alessandro Grassi is still leading work on [[integrating "
-"Minitube|todo/minitube]] in Tails. The Debian part was [fixed for "
+"Minitube|todo/minitube]] in TⒶILS. The Debian part was [fixed for "
 "Wheezy](http://bugs.debian.org/699603). Jacob Appelbaum [has "
 "volunteered](https://trac.torproject.org/projects/tor/ticket/8064) to audit "
 "Minitube anonymity for us (thanks a bunch!), and Alessandro has [started "
@@ -177,7 +177,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"It's now possible to build a Tails image based on Debian Wheezy.  There's "
+"It's now possible to build a TⒶILS image based on Debian Wheezy.  There's "
 "still [[quite|todo/Wheezy]] [[some work|todo/tails-greeter vs. Wheezy]]."
 msgstr ""
 "حالا می‌شود بر اساس Debian Wheezy یک تصویر تیلز ساخت. هنوز [[کارهای|todo"
@@ -204,7 +204,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"The next Tails ISO should be [[!tails_gitweb_branch\n"
+"The next TⒶILS ISO should be [[!tails_gitweb_branch\n"
 "bugfix/remove_apt_local_cache desc=\"a bit smaller\"]]... but don't get\n"
 "used to it.\n"
 msgstr ""
@@ -224,7 +224,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Quite some time was spent to help make Debian Wheezy an awesome platform to "
-"use and built Tails upon."
+"use and built TⒶILS upon."
 msgstr ""
 "زمان زیای صرف کمک به تبدیل Debian Wheezy به پلتفرمی عالی برای استفاده و "
 "ساختن تیلز از روی آن شد."
@@ -240,7 +240,7 @@ msgstr "چند ترفند بومی‌سازی [[منتشر شدند|contribute/l
 
 #. type: Plain text
 msgid ""
-"Tails accessibility features [[were "
+"TⒶILS accessibility features [[were "
 "documented|doc/first_steps/accessibility]]."
 msgstr ""
 "ویژگی‌های دسترسی‌پذیری تیلز [[مستندسازی شدند|doc/first_steps/accessibility]]."
@@ -248,7 +248,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "It [[has been explained|doc/about/fingerprint]] what one may expect from the "
-"Tails fingerprint."
+"TⒶILS fingerprint."
 msgstr ""
 "چیزی که ممکن است در اثرانگشت تیلز تجربه شود [[توضیح داده "
 "شد|doc/about/fingerprint]]."
@@ -286,7 +286,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We are discussing with upstream how to adapt TorBirdy for Tails' needs: "
+"We are discussing with upstream how to adapt TorBirdy for TⒶILS' needs: "
 "<https://mailman.boum.org/pipermail/tails-dev/2013-January/002523.html>."
 msgstr ""
 "در حال بررسی نحوهٔ تطبیق دادن TorBirdy با نیازهای تیلز در آپ‌استریم هستیم: "
@@ -294,7 +294,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We're not sure whether it's worth keeping the Tails section in the "
+"We're not sure whether it's worth keeping the TⒶILS section in the "
 "Applications menu: "
 "<https://mailman.boum.org/pipermail/tails-dev/2013-January/002511.html>."
 msgstr ""

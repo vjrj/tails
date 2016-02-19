@@ -26,12 +26,12 @@ msgstr "[[!meta date=\"دوشنبه ۱۰ دسامبر ۲۱:۰۰:۰۰ ۲۰۱۲ +�
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for November, 2012\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for November, 2012\"]]\n"
 msgstr "[[!meta title=\"گزارش نوامبر ۲۰۱۲ تیلز\"]]\n"
 
 #. type: Plain text
 msgid ""
-"November was pretty intense a month for Tails, including two major "
+"November was pretty intense a month for TⒶILS, including two major "
 "releases. It was not the happiest though, due to personal issues, unresolved "
 "conflicts within the team and server hard disks dying."
 msgstr ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Anyhow, Tails' life does go on. Here is a report of what happened last "
+"Anyhow, TⒶILS' life does go on. Here is a report of what happened last "
 "month."
 msgstr ""
 "به هر حال زندگی تیلز ادامه دارد. این گزارشی است از اتفاقات رخ‌داده در ماه "
@@ -59,7 +59,7 @@ msgstr "انتشارها\n"
 
 #. type: Plain text
 msgid ""
-"Tails 0.14 was [[released on November 13th|news/version_0.14]] and 0.15 was "
+"TⒶILS 0.14 was [[released on November 13th|news/version_0.14]] and 0.15 was "
 "[[released on November 28th|news/version_0.15]]. From now on, we should be "
 "in a position to stick to the [[6-weeks release "
 "cycle|contribute/release_schedule]] we have been aiming at for a while."
@@ -69,7 +69,7 @@ msgstr ""
 "انتشار|contribute/release_schedule]] داشته باشیم که چند وقتی در ذهنمان بود."
 
 #. type: Plain text
-msgid "The Tails 0.16 release is scheduled for the first half of January."
+msgid "The TⒶILS 0.16 release is scheduled for the first half of January."
 msgstr "تیلز ۰٫۱۶ قرار است در نیمهٔ اول ژانویه منتشر شود."
 
 #. type: Title =
@@ -79,10 +79,10 @@ msgstr "افراد\n"
 
 #. type: Plain text
 msgid ""
-"Tails has been started and successfully connected to the Tor network around "
+"TⒶILS has been started and successfully connected to the Tor network around "
 "83731 times in November. That makes a boot every 31 seconds on average. This "
 "number is an approximation from the requests made for the security "
-"announcements feed. The later is retrieved by Tails after being connected to "
+"announcements feed. The later is retrieved by TⒶILS after being connected to "
 "Tor to eventually encourage users to update."
 msgstr ""
 "تیلز در ماه نوامبر حدود ۸۳٫۷۳۱  بار با موفقیت راه‌اندازی و به شبکهٔ تور متصل "
@@ -95,7 +95,7 @@ msgid "41 reports were received through WhisperBack."
 msgstr "۴۱ گزارش ایراد ارسال‌شده از ویسپربک دریافت کردیم."
 
 #. type: Plain text
-msgid "The forum activity is still very high: 903 messages, 151 signed by Tails."
+msgid "The forum activity is still very high: 903 messages, 151 signed by TⒶILS."
 msgstr "فعالیت انجمن همچنان بالا است: ۹۰۳ پیغام که ۱۵۱ تا امضای تیلز دارند."
 
 #. type: Title =
@@ -175,7 +175,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The Tails OpenPGP Applet was "
+"The TⒶILS OpenPGP Applet was "
 "[fixed](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/bugfix/gpgApplet_menu_in_bottom_panel) "
 "to be compatible with the Windows camouflage mode."
 msgstr ""
@@ -232,7 +232,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Discrepancies between the various build setups used by Tails developers was "
+"Discrepancies between the various build setups used by TⒶILS developers was "
 "discovered and "
 "[fixed](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/install-tasksel-standard-task)."
 msgstr ""
@@ -394,7 +394,7 @@ msgid "Documentation and website\n"
 msgstr "مستندسازی و تارنما\n"
 
 #. type: Plain text
-msgid "The Tails website now has a [[Press & media information|press]] page."
+msgid "The TⒶILS website now has a [[Press & media information|press]] page."
 msgstr "تارنمای تیلز حالا یک صفحهٔ [[اطلاعات خبری و رسانه‌ای|press]] دارد."
 
 #. type: Plain text
@@ -445,7 +445,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Helping adrelanos to proper copyright and licensing practices when [forking "
-"Tails documentation "
+"TⒶILS documentation "
 "pages](https://mailman.boum.org/pipermail/tails-dev/2012-November/002054.html)."
 msgstr ""
 "کمک به adrelanos برای انجام درست کارهای مرتبط با کپی‌رایت و ایجاد گواهی "

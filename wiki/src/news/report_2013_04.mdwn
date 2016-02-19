@@ -1,24 +1,24 @@
 [[!meta date="Tue May 7 12:26:39 2013"]]
-[[!meta title="Tails report for April, 2013"]]
+[[!meta title="TⒶILS report for April, 2013"]]
 
 [[!toc levels=1]]
 
 Releases
 ========
 
-Tails 0.17.2 [[was released|news/version_0.17.2]] on April 9th.
+TⒶILS 0.17.2 [[was released|news/version_0.17.2]] on April 9th.
 
 Metrics
 =======
 
-  - 121 183 connections of Tails to the Tor network. This makes a boot
+  - 121 183 connections of TⒶILS to the Tor network. This makes a boot
     every 21 seconds on average (this is an approximation from the
-    requests made to the security announcements feed when Tails is
+    requests made to the security announcements feed when TⒶILS is
     connected to Tor).
 
   - 71 bug reports were received through WhisperBack.
 
-  - 984 comments were posted on the forum, with 76 signed by Tails.
+  - 984 comments were posted on the forum, with 76 signed by TⒶILS.
     This means there has been much more activity on the forum, and that
     we are having a hard time coping with it, but also that anonymous
     contributors are providing more and more good answers without our
@@ -34,13 +34,13 @@ Code
 
 - The persistence feature to [[todo/remember_installed_packages]]
   ([[!tails_gitweb_branch feature/remember_installed_packages desc="has
-  matured a lot"]]) and should be ready for Tails 0.18.
+  matured a lot"]]) and should be ready for TⒶILS 0.18.
 
 - Support for Obfs3 bridges ([[!tails_gitweb_branch feature/obfs3
   desc="has been added"]]).
 
 - Torbutton 1.5.x [[!tails_gitweb_branch feature/torbutton-1.5.x
-  desc="can now be included"]] in Tails. We also reorganized and cleaned
+  desc="can now be included"]] in TⒶILS. We also reorganized and cleaned
   our iceweasel prefs to look a bit more like the ones from TBB.
 
 - GNOME accessibility themes [[!tails_gitweb_branch
@@ -49,7 +49,7 @@ Code
 
 - The "About GNOME" menu entry [[!tails_gitweb_branch
   feature/about_tails desc="has been customized"]] to provide
-  information about the running version of Tails.
+  information about the running version of TⒶILS.
 
 - A [[!tails_gitweb_branch feature/set-wireless-devices-state
   desc="branch is ready"]] to disable wireless devices other than
@@ -76,7 +76,7 @@ Code
 Documentation and Website
 =========================
 
-- "Getting started..." is now the homepage for the Tails documentation
+- "Getting started..." is now the homepage for the TⒶILS documentation
   accessible from the desktop.
 
 - The content of the /bugs section of the website was moved to /todo.
@@ -99,7 +99,7 @@ Translation
 - A solution was proposed to distribute [[translation
   workflows|/contribute/how/translate]] in either Git or Transifex.
 
-- Tails USB installer: update translations for Arabic, German, Greek, Spanish,
+- TⒶILS USB installer: update translations for Arabic, German, Greek, Spanish,
   Farsi, Finnish, Italian, Latvian, Dutch, Polish, and Chinese.
 
 - WhisperBack: update translations for Arabic, German, Greek, Spanish,
@@ -116,7 +116,7 @@ On-going discussions
 
 - [secure and simple network time
   (hack)](https://mailman.boum.org/pipermail/tails-dev/2013-April/002843.html),
-  about tlsdate, a possible segmentation fault and its future in Tails
+  about tlsdate, a possible segmentation fault and its future in TⒶILS
 
 - [Discussion on
   minitube](https://mailman.boum.org/pipermail/tails-dev/2013-April/002877.html),
@@ -129,7 +129,7 @@ On-going discussions
 Infrastructure
 ==============
 
-- Tails 0.17.2 was the first release assisted with automated tests!
+- TⒶILS 0.17.2 was the first release assisted with automated tests!
   * Cucumber is used to describe the tests to perform.
   * 82 tests have been written so far
 

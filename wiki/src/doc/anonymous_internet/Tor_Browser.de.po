@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2015-05-11 19:29+0300\n"
 "PO-Revision-Date: 2015-09-11 23:32+0100\n"
 "Last-Translator: spriver <spriver@autistici.org>\n"
-"Language-Team: Tails Translation <tails-l10n@boum.org>\n"
+"Language-Team: TⒶILS Translation <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,8 +48,8 @@ msgstr ""
 "faq#browser]] gefunden werden."
 
 #. type: Plain text
-msgid "Here are a few things worth mentioning in the context of Tails."
-msgstr "Hier sind einige erwähnenswerte Dinge im Bezug auf Tails."
+msgid "Here are a few things worth mentioning in the context of TⒶILS."
+msgstr "Hier sind einige erwähnenswerte Dinge im Bezug auf TⒶILS."
 
 #. type: Plain text
 #, no-wrap
@@ -90,13 +90,13 @@ msgstr "AppArmor Einschränkung\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<span class=\"application\">Tor Browser</span> in Tails is confined with\n"
+"<span class=\"application\">Tor Browser</span> in TⒶILS is confined with\n"
 "[[!debwiki AppArmor]] to protect the system and your data from some\n"
 "types of attack against <span class=\"application\">Tor Browser</span>.\n"
 "As a consequence, it can only read and write to a limited number of\n"
 "folders.\n"
 msgstr ""
-"<span class=\"application\">Tor Browser</span> ist in Tails mit\n"
+"<span class=\"application\">Tor Browser</span> ist in TⒶILS mit\n"
 "[[!debwiki AppArmor]] eingeschränkt, um das System und Ihre Daten vor einigen\n"
 "Arten von Angriffen gegen den <span class=\"application\">Tor Browser</span> zu schützen.\n"
 "Eine Konsequenz davon ist, dass er nur auf eine beschränkte Anzahl von Ordnern lesen\n"
@@ -124,12 +124,12 @@ msgid ""
 "- You can save files from <span class=\"application\">Tor\n"
 "Browser</span> to the <span class=\"filename\">Tor Browser</span> folder\n"
 "that is located in the <span class=\"filename\">Home</span> folder.\n"
-"The content of this folder will disappear once you shut down Tails.\n"
+"The content of this folder will disappear once you shut down TⒶILS.\n"
 msgstr ""
 "- Sie können Dateien vom <span class=\"application\">Tor\n"
 "Browser</span> in den <span class=\"filename\">Tor Browser</span> Ordner\n"
 "speichern, der sich im <span class=\"filename\">Home</span>-Verzeichnis befindet.\n"
-"Der Inhalt dieses Ordners wird verschwinden, sobald Sie Tails herunterfahren.\n"
+"Der Inhalt dieses Ordners wird verschwinden, sobald Sie TⒶILS herunterfahren.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -347,17 +347,17 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>In Tails, the <a href=\"https://people.torproject.org/~mikeperry/images/OnionMenu.jpg\">circuit\n"
+"<p>In TⒶILS, the <a href=\"https://people.torproject.org/~mikeperry/images/OnionMenu.jpg\">circuit\n"
 "view</a> of <span class=\"application\">Tor Browser</span> is disabled because we are\n"
 "not sure whether it would have security implications in the particular\n"
-"context of Tails (see [[!tails_ticket 9365 desc=\"#9365\"]] and [[!tails_ticket 9366\n"
-"desc=\"#9366\"]]). This feature is safe to use outside of Tails.</p>\n"
+"context of TⒶILS (see [[!tails_ticket 9365 desc=\"#9365\"]] and [[!tails_ticket 9366\n"
+"desc=\"#9366\"]]). This feature is safe to use outside of TⒶILS.</p>\n"
 msgstr ""
-"<p>In Tails ist die <a href=\"https://people.torproject.org/~mikeperry/images/OnionMenu.jpg\">\n"
+"<p>In TⒶILS ist die <a href=\"https://people.torproject.org/~mikeperry/images/OnionMenu.jpg\">\n"
 "Kanalansicht</a> des <span class=\"application\">Tor Browsers</span> deaktiviert, da wir\n"
 "nicht sicher sind, ob sie Konsequenzen im Bezug auf die Sicherheit in dem spezifischen \n"
-"Kontext von Tails hat (siehe [[!tails_ticket 9365 desc=\"#9365\"]] und [[!tails_ticket 9366\n"
-"desc=\"#9366\"]]). Dieses Feature kann außerhalb von Tails sicher benutzt werden.</p>\n"
+"Kontext von TⒶILS hat (siehe [[!tails_ticket 9365 desc=\"#9365\"]] und [[!tails_ticket 9366\n"
+"desc=\"#9366\"]]). Dieses Feature kann außerhalb von TⒶILS sicher benutzt werden.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -403,11 +403,11 @@ msgstr ""
 msgid ""
 "We consider this as a necessary compromise between security and usability "
 "and as of today we are not aware of any JavaScript that would compromise "
-"Tails anonymity."
+"TⒶILS anonymity."
 msgstr ""
 "Wir erwägen dies als notwendigen Kompromiss zwischen Sicherheit und "
 "Benutzbarkeit und nach heutigem Stand ist uns nicht bekannt, dass "
-"irgendwelches JavaScript die Anonymität von Tails gefährden würde."
+"irgendwelches JavaScript die Anonymität von TⒶILS gefährden würde."
 
 #. type: Plain text
 #, no-wrap
@@ -517,17 +517,17 @@ msgstr "<div class=\"caution\">\n"
 #, no-wrap
 msgid ""
 "<p>This feature is not enough to strongly [[separate contextual identities|about/warning#identities]]\n"
-"in the context of Tails as the connections outside of\n"
+"in the context of TⒶILS as the connections outside of\n"
 "<span class=\"application\">Tor Browser</span> are not restarted.</p>\n"
 msgstr ""
 "<p>Diese Funktion ist für die starke Trennung von [[Identitäten für verschiedene Kontexte|about/warning#identities]]\n"
-"im Kontext von Tails nicht ausreichend, da die Verbindungen außerhalb des\n"
+"im Kontext von TⒶILS nicht ausreichend, da die Verbindungen außerhalb des\n"
 "<span class=\"application\">Tor Browsers</span> nicht neu gestartet werden.</p>\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "<p>Shutdown and restart Tails instead.</p>\n"
-msgstr "<p>Fahren Sie stattdessen Tails herunter und starten Sie es neu.</p>\n"
+msgid "<p>Shutdown and restart TⒶILS instead.</p>\n"
+msgstr "<p>Fahren Sie stattdessen TⒶILS herunter und starten Sie es neu.</p>\n"
 
 #. type: Plain text
 msgid ""

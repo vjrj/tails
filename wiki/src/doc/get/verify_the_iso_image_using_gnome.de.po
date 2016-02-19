@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2016-01-26 22:36+0100\n"
 "PO-Revision-Date: 2015-09-28 19:21+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -44,8 +44,8 @@ msgstr ""
 "nautilus</code> und <code>shared-mime-info</code> installiert haben."
 
 #. type: Content of: <p>
-msgid "These packages are already installed in Tails."
-msgstr "Diese Pakete sind bereits in Tails installiert."
+msgid "These packages are already installed in TⒶILS."
+msgstr "Diese Pakete sind bereits in TⒶILS installiert."
 
 #. type: Content of: <div><p>
 msgid "The needed packages are available starting from:"
@@ -111,16 +111,16 @@ msgstr ""
 "verifizieren|verify_the_iso_image_using_the_command_line]]."
 
 #. type: Content of: <h3>
-msgid "Get the Tails signing key"
-msgstr "Beschaffen Sie sich die den Tails Signaturschlüssel"
+msgid "Get the TⒶILS signing key"
+msgstr "Beschaffen Sie sich die den TⒶILS Signaturschlüssel"
 
 #. type: Content of: <p>
 msgid ""
-"If you are using Tails, you already have the signing key. Otherwise, first "
-"download Tails signing key:"
+"If you are using TⒶILS, you already have the signing key. Otherwise, first "
+"download TⒶILS signing key:"
 msgstr ""
-"Wenn Sie Tails benutzen, besitzen Sie bereits den Signaturschlüssel. "
-"Anderenfalls laden Sie den Tails Signaturschlüssel zunächst herunter:"
+"Wenn Sie TⒶILS benutzen, besitzen Sie bereits den Signaturschlüssel. "
+"Anderenfalls laden Sie den TⒶILS Signaturschlüssel zunächst herunter:"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!inline pages=\"lib/download_tails_signing_key\" raw=\"yes\"]]"
@@ -130,15 +130,15 @@ msgstr "[[!inline pages=\"lib/download_tails_signing_key.de\" raw=\"yes\"]]"
 #, fuzzy
 #| msgid ""
 #| "Your browser should propose you to open it with \"Import Key\". Choose "
-#| "this action. It will add Tails signing key to your keyring, the "
+#| "this action. It will add TⒶILS signing key to your keyring, the "
 #| "collection of OpenPGP keys you already imported:"
 msgid ""
 "Your browser should propose you to open it with \"Import Key\". Choose this "
-"action. It will add the Tails signing key to your keyring, the collection of "
+"action. It will add the TⒶILS signing key to your keyring, the collection of "
 "OpenPGP keys you already imported:"
 msgstr ""
 "Ihr Browser sollte Ihnen vorschlagen, ihn mit \"Schlüssel importieren\" zu "
-"öffnen. Wählen Sie diese Aktion. Dadurch wird der Tails Signaturschlüssel zu "
+"öffnen. Wählen Sie diese Aktion. Dadurch wird der TⒶILS Signaturschlüssel zu "
 "Ihrem Schlüsselbund, der Sammlung der OpenPGP-Schlüssel, die Sie bereits "
 "importiert haben, hinzugefügt:"
 
@@ -156,11 +156,11 @@ msgstr "Sie werden durch folgende Mitteilung benachrichtigt:"
 
 #. type: Content of: <p>
 msgid ""
-"[[!img key_imported.png alt=\"Key Imported. Imported a key for Tails "
+"[[!img key_imported.png alt=\"Key Imported. Imported a key for TⒶILS "
 "developers (offline long-term identity key) &lt;tails@boum.org&gt;\" link="
 "\"no\"]]"
 msgstr ""
-"[[!img key_imported.png alt=\"Schlüssel importiert. Schlüssel für Tails "
+"[[!img key_imported.png alt=\"Schlüssel importiert. Schlüssel für TⒶILS "
 "Entwickler wurde importiert (offline Langzeit-Identitätsschlüssel) &lt;"
 "tails@boum.org&gt;\" link=\"no\"]]"
 
@@ -199,10 +199,10 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"Browse your files to select the Tails ISO image you want to verify.  Then, "
+"Browse your files to select the TⒶILS ISO image you want to verify.  Then, "
 "the verification will start. It can take several minutes:"
 msgstr ""
-"Durchsuchen Sie Ihre Dateien, um das Tails ISO-Image auszuwählen, welches "
+"Durchsuchen Sie Ihre Dateien, um das TⒶILS ISO-Image auszuwählen, welches "
 "Sie verifizieren möchten. Anschließend wird die Verifizierung gestartet. "
 "Dies kann mehrere Minuten dauern:"
 
@@ -238,9 +238,9 @@ msgstr ""
 "[[!img bad_signature.png alt=\"Fehlerhafe Signatur: Fehlerhafe oder "
 "gefälschte Signatur.\" link=\"no\"]]"
 
-#~ msgid "The GNOME notifications appear truncated on Tails 1.1 and later."
+#~ msgid "The GNOME notifications appear truncated on TⒶILS 1.1 and later."
 #~ msgstr ""
-#~ "Die GNOME Benachrichtigungen erscheinen unter Tails 1.1 und neuer "
+#~ "Die GNOME Benachrichtigungen erscheinen unter TⒶILS 1.1 und neuer "
 #~ "abgeschnitten."
 
 #~ msgid "See&nbsp;[[!tails_ticket 7249]]."

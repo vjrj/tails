@@ -10,7 +10,7 @@ request made and redirects the web browser to a login page. None of
 that works when Tor is used, so a browser with unrestricted network
 access is necessary.
 
-Tails includes an <span class="application">Unsafe Browser</span> for this
+TⒶILS includes an <span class="application">Unsafe Browser</span> for this
 purpose, and it can be started via the menu
 <span class="menuchoice">
   <span class="guimenu">Applications</span>&nbsp;▸

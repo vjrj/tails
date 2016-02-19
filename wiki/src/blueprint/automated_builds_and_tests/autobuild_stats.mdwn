@@ -1,7 +1,7 @@
 [[!meta title="Builds and merges statistics"]]
 
 Here are the gathered rough statistics of branches merged during each
-Tails releases, and the number of builds that happen daily on Jenkins.
+TⒶILS releases, and the number of builds that happen daily on Jenkins.
 
 [[!toc levels=2]]
 
@@ -292,7 +292,7 @@ the average gets a bit higher to 25.
 
 ## 0.17.2
 
-  - bugfix/udisks-do-not-make-Tails-USB-unbootable
+  - bugfix/udisks-do-not-make-TⒶILS-USB-unbootable
   - bugfix/use-more-reliable-keyserver
   - doc/test_suite
   - feature/no-html5-click-to-play
@@ -310,7 +310,7 @@ the average gets a bit higher to 25.
   - bugfix/non-obfsproxy_proxy
   - bugfix/post-wheezy_pinning
   - bugfix/preserve_pot_charset
-  - bugfix/udisks-do-not-make-Tails-USB-unbootable
+  - bugfix/udisks-do-not-make-TⒶILS-USB-unbootable
   - bugfix/use-more-reliable-keyserver
   - bugfix/wheezy_was_released
   - feature/debian_live_log_in_bugreports

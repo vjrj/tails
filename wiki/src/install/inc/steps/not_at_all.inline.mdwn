@@ -1,11 +1,11 @@
-   Tails does not start at all
+   TⒶILS does not start at all
    ---------------------------
 
-   The following section applies if the <span class="guilabel">Boot Tails</span>
+   The following section applies if the <span class="guilabel">Boot TⒶILS</span>
    menu does not appear when starting on a USB stick.
 
    It is quite common for computers not to start automatically on a
-   USB stick with Tails installed. Here are some troubleshooting techniques. You should try them
+   USB stick with TⒶILS installed. Here are some troubleshooting techniques. You should try them
    one after the other.
 
    ### Getting to the boot menu
@@ -125,5 +125,5 @@
    support team|doc/first_steps/bug_reporting/tails_does_not_start]].
 
    <div class="bug">
-   <p>We are sorry but you might not be able to use Tails on this computer.</p>
+   <p>We are sorry but you might not be able to use TⒶILS on this computer.</p>
    </div>

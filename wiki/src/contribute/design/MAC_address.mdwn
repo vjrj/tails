@@ -5,7 +5,7 @@
 # Rationale
 
 The uniqueness of [[!wikipedia MAC addresses]] introduce two types of
-potential issues for Tails users, in particular if the MAC address can
+potential issues for TⒶILS users, in particular if the MAC address can
 be linked to the user's identity:
 
 1. Geographical location tracking: A time-stamped log of a MAC address
@@ -14,10 +14,10 @@ be linked to the user's identity:
    case an unknown owner, the tracked movements leak information about
    the owner, which eventually may lead to identification.
 
-2. Identify Tails (or Tor) users: If the usage of Tails (or Tor) can
+2. Identify TⒶILS (or Tor) users: If the usage of Tails (or Tor) can
    be fingerprinted on the network (despite other measures taken), and
    the owner of a device is known, it can be determined that the owner
-   also is a Tails (or Tor) user.
+   also is a TⒶILS (or Tor) user.
 
 Spoofing the MAC address is the natural solution. Unfortunately, in
 some cases MAC spoofing may cause network connection issues or even
@@ -90,7 +90,7 @@ happens on a global, omniscient level thanks to AdvCapSniff:
    owners are used for large-scale social graphing and profiling which
    leaks information owners' identities. [AdvGoalProfiling]
 
-3. Identify Tails (and Tor) users. If Tails (or Tor) usageAdv can be
+3. Identify TⒶILS (and Tor) users. If Tails (or Tor) usageAdv can be
    fingerprinted, then that fact is documented about a particular
    individual (thanks to AdvCapOwners). [AdvGoalIdTails]
 
@@ -98,12 +98,12 @@ happens on a global, omniscient level thanks to AdvCapSniff:
    bought into the "nothing to hide" argument, which makes such
    suspicious behaviour valuable information. [AdvGoalIdMacSpoof]
 
-## Tails user goals
+## TⒶILS user goals
 
 1. Hide geographical movement, i.e. prevent AdvGoalTracking and
    AdvGoalProfiling. [AvoidTracking]
 
-2. No unspoofed usage of Tails (or Tor), i.e. prevent AdvGoalIdTails.
+2. No unspoofed usage of TⒶILS (or Tor), i.e. prevent AdvGoalIdTails.
    [AvoidIdTails]
 
 3. Not raising alarms on the network, i.e. prevent AdvGoalIdMacSpoof,
@@ -120,10 +120,10 @@ happens on a global, omniscient level thanks to AdvCapSniff:
 Below we analyse how MAC address spoofing relates to each user goal
 for the given situation.
 
-## Using Tails at home
+## Using TⒶILS at home
 
 First, note that the user's relation (owner, family member's,
-friend's, work's, borrowed, etc.) to the computer running Tails
+friend's, work's, borrowed, etc.) to the computer running TⒶILS
 doesn't matter; the location is already directly related to the user's
 identity. Similarly, because of this, MAC spoofing is of very limited
 value for both AvoidTracking and AvoidIdTails value.
@@ -136,7 +136,7 @@ X unique ones are allowed) that can prevent AvoidConnectionProbs.
 Summary: MAC spoofing should be avoided but isn't terribly dangerous
 if enabled.
 
-## Using Tails at a friend's place
+## Using TⒶILS at a friend's place
 
 ### Using your computer
 
@@ -144,7 +144,7 @@ MAC spoofing should be enabled for both AvoidTracking and
 AvoidIdTails. AvoidIdMacSpoof won't be your problem but your friend's
 (which isn't a problem at all unless you're there spoofing all the
 time). AvoidConnectionProbs can be problematic for the same reasons as
-in "Using Tails at home".
+in "Using TⒶILS at home".
 
 Summary: Enable MAC spoofing!
 
@@ -153,12 +153,12 @@ Summary: Enable MAC spoofing!
 Since the computer you use isn't tied to you, AvoidTracking and
 AvoidIdTails aren't relevant. AvoidIdMacSpoof won't be your problem but
 your friend's. AvoidConnectionProbs can be problematic for the same
-reasons as in "Using Tails at home".
+reasons as in "Using TⒶILS at home".
 
 Summary: MAC spoofing should be avoided but isn't terribly dangerous
 if enabled.
 
-## Using Tails at a restricted public network
+## Using TⒶILS at a restricted public network
 
 Access is restricted to registered users' identities only. We use
 "registration" a bit loosely, but example of networks like these are:
@@ -203,7 +203,7 @@ AvoidIdMacSpoof and AvoidConnectionProbs.
 Summary: MAC spoofing should be avoided but isn't terribly dangerous
 if enabled.
 
-## Using Tails at an open public network
+## Using TⒶILS at an open public network
 
 Access is completely open, and no kind of registration is needed.
 
@@ -338,7 +338,7 @@ individual devices among those with the same OUI. These should simply
 be selected at random, with the exception that we never allow it to
 stay the same, even if done in a fair, random way. Theoretically
 speaking this leaks up to `24/2^24` bits of the NIC part of the real
-MAC address per Tails session but in practice the complete NIC part is
+MAC address per TⒶILS session but in practice the complete NIC part is
 leaked to adversaries that do not anticipate MAC spoofing, which is
 much worse.
 
@@ -348,7 +348,7 @@ The current implementation leaves the OUI part unchanged, and only spoofs the
 last three bytes of any network device's MAC address immediately after
 it is added by udev. Furthermore, to deal with potential network leaks
 before the user has chosen whether to enable MAC spoofing or not, the
-addition of network devices is delayed until after Tails Greeter knows
+addition of network devices is delayed until after TⒶILS Greeter knows
 the user's final decision.
 
 ## Network blocking
@@ -359,7 +359,7 @@ whether to enable MAC spoofing or not. The way we do this is by
 generating a list of all network device modules during build time, and
 add these to a `modprobe.d`-type blacklist. An implication of this is
 that in-kernel drivers and modules installed after build time will not
-be in the blacklist and hence are not supported. In Tails Greeter's
+be in the blacklist and hence are not supported. In TⒶILS Greeter's
 post-login script (when we know the user's decision) we unblock the
 network by simply removing that list, and then we have udev "re-probe"
 for network devices and load their modules.
@@ -411,7 +411,7 @@ leaks issue, in addition to other reasons for being discarded:
 * systemd integration: We don't use this yet.
 
 * NetworkManager plugin: While this certainly would have a nice impact
-  outside of Tails, the added maintenance burden makes it less
+  outside of TⒶILS, the added maintenance burden makes it less
   attractive.
 
 ## MAC changing tool
@@ -451,15 +451,15 @@ Another issue is that `macchiato`'s lists do not take into account
 that some devices are pretty much only used in some geographical
 areas. Note that collecting such data probably is orders of magnitude
 harder than `macchiato`'s current quest, and that the user interface
-would be further complicated (in Tails we'd have to ask for the
-current geographical location in Tails Greeter, or similar). The real
+would be further complicated (in TⒶILS we'd have to ask for the
+current geographical location in TⒶILS Greeter, or similar). The real
 impact of this should be evaluated; it's very likely that the benefits
 still outweigh this risk.
 
 To end with, `macchiato`'s lists are very small with only ~20 OUIs in
 most of the relevant categories as of the current Git state (commit
 90fa147d), 2014-04-25. The exact impact of this is not
-well-understood. This is probably the main blocker for Tails to switch
+well-understood. This is probably the main blocker for TⒶILS to switch
 to `macchiato` and dare saying we satisfy the "Spoofing the OUI part
 of the MAC address" requirement from above.
 
@@ -469,7 +469,7 @@ user's device is, the more it can be used for tracking the user, i.e.
 the more it violates the `AvoidTracking` user goal. At least this
 comes with some uncertainty compared to many of the impossible choices
 of OUI listed above, which would guarantee widespread violation of
-`AvoidIdMacSpoof` among Tails users, so this seems like a reasonable
+`AvoidIdMacSpoof` among TⒶILS users, so this seems like a reasonable
 tradeoff at the moment.
 
 ## MAC spoofing fail safe

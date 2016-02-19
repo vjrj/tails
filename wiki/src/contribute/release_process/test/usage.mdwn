@@ -5,14 +5,14 @@
 Basic usage
 ===========
 
-Use the `run_test_suite` script found in the Tails source root to run
+Use the `run_test_suite` script found in the TⒶILS source root to run
 all automated Cucumber test features. See the [[setup
 documentation|test/setup]] in case you don't have a testing
-environment yet. Note that the full Tails source tree must be readable
+environment yet. Note that the full TⒶILS source tree must be readable
 by the user running the test suite.
 
-It's important to note that some features only depend on the Tails
-sources, and some on the actual product of the sources, i.e. a Tails
+It's important to note that some features only depend on the TⒶILS
+sources, and some on the actual product of the sources, i.e. a TⒶILS
 ISO image. These features are tagged `@source` and `@product`,
 respectively. The arguments passed to `run_test_suite` may only affect
 one of these types of features and not the other.
@@ -38,7 +38,7 @@ are not confused with the wrapper's options. For instance:
 
     ./run_test_suite ... -- --format debug features/apt.feature
 
-will enable the `debug` formatter, which in Tails' Cucumber setup will
+will enable the `debug` formatter, which in TⒶILS' Cucumber setup will
 enable debugging information to be printed (which is *very* useful
 when debugging or developing for the test suite) unlike in vanilla
 Cucumber, where it's used for debugging the formatting subsystem.
@@ -46,7 +46,7 @@ Cucumber, where it's used for debugging the formatting subsystem.
 For full instructions, see its `--help`.
 
 Note: since the test suite itself uses `virt-viewer` to interact with
-the Tails guest you cannot use it as that will steal the session from
+the TⒶILS guest you cannot use it as that will steal the session from
 the test suite, leaving it with a blank screen.
 
 Configuration
@@ -71,7 +71,7 @@ to be used in certain features, like host, port and credentials --
 stuff we don't want to make public. These must be set explicitly in
 order for those features to run.
 
-A Git repository, shared among a bunch of core Tails contributors,
+A Git repository, shared among a bunch of core TⒶILS contributors,
 includes _some_ of the needed secrets (more specifically, those that
 can be use by concurrent test suite runs):
 
@@ -173,7 +173,7 @@ These secrets are required for some scenarios in
 Note that the fields used in the above example show the *mandatory*
 fields.
 
-The XMPP account described by `Tails_account` (to be used in Tails'
+The XMPP account described by `Tails_account` (to be used in TⒶILS'
 Pidgin) and `Friend_account` (run via a bot from the tester host) must
 be subscribed to each other but to no other XMPP account. Also, for the
 `Friend_account`, it's important that the `otr_key`'s `name` field is

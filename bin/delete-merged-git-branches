@@ -29,7 +29,7 @@ def yes_no_input(prompt, default=True):
 
 parser = argparse.ArgumentParser(description='Delete merged Git branches.')
 parser.add_argument('--repo', type=str, dest='repo',
-                    help='Path to an up-to-date (bare) Tails Git repository.')
+                    help='Path to an up-to-date (bare) TⒶILS Git repository.')
 parser.add_argument('--remote', type=str, dest='remote', default='origin',
                     help='Push to the specified remote instead of "origin".')
 parser.add_argument('--batch', type=bool, dest='batch',

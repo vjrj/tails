@@ -55,7 +55,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>Ajude a consertar o seu erro!</h1>\n"
@@ -67,7 +67,7 @@ msgstr ""
 "é necessário para a maioria dos relatórios que recebemos (muitos deles sem "
 "informações de contato são inúteis). Por outro lado, pode ser uma "
 "oportunidade para bisbilhoteiros como seu email ou provedor de Internet "
-"confirmarem que você está usando Tails. </p>\n"
+"confirmarem que você está usando TⒶILS. </p>\n"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:14
 msgid "Persistence is disabled for Electrum"
@@ -75,11 +75,11 @@ msgstr "O Persistência está desabilitado para usar Electrum"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
-"Ao reiniciar o Tails, todos os dados do Electrum serão perdidos, inclusive "
+"Ao reiniciar o TⒶILS, todos os dados do Electrum serão perdidos, inclusive "
 "as carteiras de Bitcoin. Assim, o mais recomendado é executar Electrum "
 "quando o persistência deste estiver ativado."
 
@@ -291,9 +291,9 @@ msgid "not available"
 msgstr "não disponível"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -310,8 +310,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "Sobre o Tails"
+msgid "About TⒶILS"
+msgstr "Sobre o TⒶILS"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
@@ -323,11 +323,11 @@ msgstr "O seu programa adicional"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "A atualização falhou. Isto pode ser devido a um problema de rede. Por favor, "
-"verifique a sua conexão de rede, tente reiniciar o Tails, ou leia o registro "
+"verifique a sua conexão de rede, tente reiniciar o TⒶILS, ou leia o registro "
 "do sistema para compreender melhor o problema."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
@@ -351,8 +351,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "Falha ao sincronizar o relógio!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "Esta versão do Tails tem problemas de segurança conhecidos:"
+msgid "This version of TⒶILS has known security issues:"
+msgstr "Esta versão do TⒶILS tem problemas de segurança conhecidos:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -368,11 +368,11 @@ msgstr "Placa de rede ${nic} desabilitada"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "A máscara de identidade MAC falhou para a placa de rede ${nic_name} "
 "(${nic}), portanto, está temporariamente desabilitada.\n"
-"Talvez seja melhor reiniciar o Tails e desabilitar a máscara de identidade "
+"Talvez seja melhor reiniciar o TⒶILS e desabilitar a máscara de identidade "
 "MAC."
 
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
@@ -384,12 +384,12 @@ msgstr "Todas as redes foram desabilitadas"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "A máscara de identidade MAC falhou para a placa de rede ${nic_name} "
 "(${nic}). A recuperação do erro também falhou, portanto, toda a navegação "
 "está desabilitada.\n"
-"Talvez seja melhor reiniciar o Tails e desabilitar a máscara de identidade "
+"Talvez seja melhor reiniciar o TⒶILS e desabilitar a máscara de identidade "
 "MAC."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
@@ -406,20 +406,20 @@ msgstr "Erro"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr ""
 "<b>Memória disponível insuficiente para procurar por atualizações.</b>\n"
 "\n"
-"Confira se esse sistema satisfaz os requerimentos para executar o Tails.\n"
+"Confira se esse sistema satisfaz os requerimentos para executar o TⒶILS.\n"
 "Veja file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Tente reiniciar o Tails para procurar por atualizações novamente.\n"
+"Tente reiniciar o TⒶILS para procurar por atualizações novamente.\n"
 "\n"
 "Ou faça uma atualização manual.\n"
 "Veja https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -431,10 +431,10 @@ msgstr "Aviso: máquina virtual detectada!"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "Tanto o sistema operacional hospedeiro quanto o programa de virtualização "
-"são capazes de monitorar as suas atividades no Tails."
+"são capazes de monitorar as suas atividades no TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
@@ -443,12 +443,12 @@ msgstr "Aviso: máquina virtual non-free detectada!"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
 "Tando sistema operacional hospedeiro quanto o programa de virtualização "
-"podem monitorar a sua atividade no Tails. Somente os programas livres podem "
+"podem monitorar a sua atividade no TⒶILS. Somente os programas livres podem "
 "ser considerados confiáveis, em relação ao sistema operacional hospedeiro e "
 "ao programa de virtualização. "
 
@@ -599,12 +599,12 @@ msgstr "Reportar um erro"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Documentação do Tails"
+msgid "TⒶILS documentation"
+msgstr "Documentação do TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Saiba como usar o Tails"
+msgid "Learn how to use TⒶILS"
+msgstr "Saiba como usar o TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 msgid "Anonymous overlay network browser"
@@ -615,8 +615,8 @@ msgid "I2P Browser"
 msgstr "Navegador I2P"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "Saiba mais sobre o Tails"
+msgid "Learn more about TⒶILS"
+msgstr "Saiba mais sobre o TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -646,6 +646,6 @@ msgstr "Navegar pela World Wide Web sem anonimato"
 msgid "Unsafe Web Browser"
 msgstr "Navegador não-confiável"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Ferramentas específicas do Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "Ferramentas específicas do TⒶILS"

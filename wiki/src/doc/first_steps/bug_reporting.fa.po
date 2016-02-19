@@ -30,7 +30,7 @@ msgid ""
 msgstr "در این سند به اشکالات نرم‌افزار *ایراد* می‌گوییم."
 
 #. type: Plain text
-msgid "Reporting bugs is a great way of helping us improving Tails."
+msgid "Reporting bugs is a great way of helping us improving TⒶILS."
 msgstr "گزارش کردن ایرادها می‌تواند به ما برای بهبود «تیلز» بسیار کمک کند."
 
 #. type: Plain text
@@ -142,7 +142,7 @@ msgstr "از ویسپربَک استفاده کنید\n"
 #, no-wrap
 msgid ""
 "**WhisperBack is an application written specifically to report bugs anonymously\n"
-"from inside Tails. If you are not able to use WhisperBack, see the [[special\n"
+"from inside TⒶILS. If you are not able to use WhisperBack, see the [[special\n"
 "cases|bug_reporting#special_cases]].**\n"
 msgstr ""
 "**ویسپربَک ابزاری برای گزارش ایرادات به صورت ناشناس از داخل تیلز است.\n"
@@ -214,7 +214,7 @@ msgstr "**نتیجهٔ موردانتظار**"
 msgid ""
 "You can also have a look at the <span class=\"guilabel\">technical details\n"
 "to include</span> in your bug report. It will give us information about\n"
-"your hardware, your version of Tails and the startup process.\n"
+"your hardware, your version of TⒶILS and the startup process.\n"
 msgstr ""
 "همچنین می‌توانید نگاهی به <span class=\"guilabel\">جزییات فنی\n"
 "</span> بندازید که می‌توانید در گزارشتان به کار ببرید. این کار باعث می‌شود\n"
@@ -237,13 +237,13 @@ msgstr "آدرس رایانامه (اختیاری)\n"
 #| "problem. This is needed for the vast majority of the reports we receive "
 #| "as most reports without any contact information are useless. On the other "
 #| "hand it also provides an opportunity for eavesdroppers, like your email "
-#| "or Internet provider, to confirm that you are using Tails."
+#| "or Internet provider, to confirm that you are using TⒶILS."
 msgid ""
 "Giving us an email address allows us to contact you to clarify the problem. "
 "This is needed for the vast majority of the reports we receive as most "
 "reports without any contact information are useless. But note that it also "
 "provides an opportunity for eavesdroppers, like your email or Internet "
-"provider, to confirm that you are using Tails."
+"provider, to confirm that you are using TⒶILS."
 msgstr ""
 "اگر رایانامه شما را داشته باشیم، می‌توانیم برای روشن کردن مشکل با شما تماس "
 "بگیریم. برای بیشتر گزارش‌هایی که در مورد ایرادها دریافت می‌کنیم لازم است با "
@@ -343,7 +343,7 @@ msgid "The following steps can be used as an alternative method:"
 msgstr "می‌توانید این مراحل را به عنوان راه‌حل جایگزین دنبال کنید:"
 
 #. type: Bullet: '1. '
-msgid "In Tails, start WhisperBack"
+msgid "In TⒶILS, start WhisperBack"
 msgstr "ویسپربک را در تیلز راه‌اندازی کنید"
 
 #. type: Bullet: '2. '
@@ -368,7 +368,7 @@ msgstr "وارد سیستمی شوید که دسترسی به اینترنت د�
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not start\n"
+msgid "TⒶILS does not start\n"
 msgstr "در صورتی که تیلز راه‌اندازی نمی‌شود\n"
 
 #. type: Plain text

@@ -2,12 +2,12 @@
 
 [[!meta date="2015-08-06 12:00:00"]]
 
-You can help Tails! The first release candidate for the upcoming version 1.5 is
+You can help TⒶILS! The first release candidate for the upcoming version 1.5 is
 out. Please test it and see if it works for you.
 
 [[!toc levels=1]]
 
-How to test Tails 1.5~rc1?
+How to test TⒶILS 1.5~rc1?
 ==========================
 
 <div class="caution">
@@ -24,10 +24,10 @@ more information.
 1. Either try the <a href="#automatic_upgrade">automatic upgrade</a>, or
    download the ISO image and its signature:
 
-   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.5~rc1/tails-i386-1.5~rc1.iso">Tails 1.5~rc1 ISO image</a>
+   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.5~rc1/tails-i386-1.5~rc1.iso">TⒶILS 1.5~rc1 ISO image</a>
 
    <a class="download-signature"
-   href="https://tails.boum.org/torrents/files/tails-i386-1.5~rc1.iso.sig">Tails 1.5~rc1 signature</a>
+   href="https://tails.boum.org/torrents/files/tails-i386-1.5~rc1.iso.sig">TⒶILS 1.5~rc1 signature</a>
 
 1. [[Verify the ISO image|download#verify]].
 
@@ -48,10 +48,10 @@ How to automatically upgrade from 1.4.1?
 ========================================
 
 These steps allow you to automatically upgrade a device installed with <span
-class="application">Tails Installer</span> from Tails 1.4.1 to Tails 1.5~rc1.
+class="application">TⒶILS Installer</span> from Tails 1.4.1 to Tails 1.5~rc1.
 
-1. Start Tails 1.4.1 from a USB stick or SD card (installed by the
-   Tails Installer), and
+1. Start TⒶILS 1.4.1 from a USB stick or SD card (installed by the
+   TⒶILS Installer), and
    [[set an administration password|doc/first_steps/startup_options/administration_password]].
 
 1. Run this command in a <span class="application">Root
@@ -61,18 +61,18 @@ class="application">Tails Installer</span> from Tails 1.4.1 to Tails 1.5~rc1.
        echo TAILS_CHANNEL=\"alpha\" >> /etc/os-release && \
             tails-upgrade-frontend-wrapper
 
-1. Once the upgrade has been installed, restart Tails and look at
+1. Once the upgrade has been installed, restart TⒶILS and look at
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">About Tails</span>
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
+     <span class="guimenuitem">About TⒶILS</span>
    </span>
-   to confirm that the running system is Tails 1.5~rc1.
+   to confirm that the running system is TⒶILS 1.5~rc1.
 
 What's new since 1.4.1?
 =======================
 
-Changes since Tails 1.4.1 are:
+Changes since TⒶILS 1.4.1 are:
 
   * Major new features
     - Move LAN web browsing from Tor Browser to the Unsafe Browser,
@@ -84,7 +84,7 @@ Changes since Tails 1.4.1 are:
   * Security fixes
     - Fix panic mode on MAC spoofing failure.
     - Deny Tor Browser access to global tmp directories with AppArmor.
-    - Tails Installer: don't use a predictable file name for the subprocess
+    - TⒶILS Installer: don't use a predictable file name for the subprocess
       error log.
     - Pidgin AppArmor profile: disable the launchpad-integration abstraction.
     - Use aliases so that our AppArmor policy applies to
@@ -103,10 +103,10 @@ Changes since Tails 1.4.1 are:
     - Upgrade Tor to 0.2.6.10-1~d70.wheezy+1+tails1.
 
   * Minor improvements
-    - Tails Installer: let the user know when it has rejected a candidate
+    - TⒶILS Installer: let the user know when it has rejected a candidate
       destination device because it is too small.
-    - Tails Installer: prevent users from trying to "upgrade" a device
-      that contains no Tails, or that was not installed with Tails Installer.
+    - TⒶILS Installer: prevent users from trying to "upgrade" a device
+      that contains no TⒶILS, or that was not installed with Tails Installer.
     - Install libotr5 and pidgin-otr 4.x from wheezy-backports. This adds
       support for the OTRv3 protocol and for multiple concurrent connections
       to the same account.
@@ -151,6 +151,6 @@ changes are listed in the
     <li>For technical details, see [[!mfsa2015 78]].</li>
   </ul>
   </div>
-* At least **2 GB of RAM** is now needed for Tails to work smoothly.
+* At least **2 GB of RAM** is now needed for TⒶILS to work smoothly.
 
 * [[Longstanding known issues|support/known_issues]]

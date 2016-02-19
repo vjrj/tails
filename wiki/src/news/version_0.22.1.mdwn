@@ -1,8 +1,8 @@
 [[!meta date="Wed Feb 5 10:00:00 2014"]]
-[[!meta title="Tails 0.22.1 is out"]]
+[[!meta title="TⒶILS 0.22.1 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.22.1, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.22.1, is out.
 
 All users must upgrade as soon as possible: this release fixes
 [[numerous security issues|security/Numerous_security_holes_in_0.22]].
@@ -24,7 +24,7 @@ Notable user-visible changes include:
     security issues.
 
 * Major improvements
-  - Check for upgrades availability using Tails Upgrader, and propose
+  - Check for upgrades availability using TⒶILS Upgrader, and propose
     to apply an incremental upgrade whenever possible.
   - Install Linux 3.12 (3.12.6-2).
 
@@ -32,7 +32,7 @@ Notable user-visible changes include:
   - Fix the keybindings problem introduced in 0.22.
   - Fix the Unsafe Browser problem introduced in 0.22.
   - Use IE's icon in Windows camouflage mode.
-  - Handle some corner cases better in Tails Installer.
+  - Handle some corner cases better in TⒶILS Installer.
   - Use the correct browser homepage in Spanish locales.
 
 * Minor improvements
@@ -40,7 +40,7 @@ Notable user-visible changes include:
   - Do not start Tor Browser automatically, but notify when Tor
     is ready.
   - Import latest Tor Browser prefs.
-  - Many user interface improvements in Tails Upgrader.
+  - Many user interface improvements in TⒶILS Upgrader.
 
 See the [online
 Changelog](https://git-tails.immerda.ch/tails/plain/debian/changelog)
@@ -57,15 +57,15 @@ for technical details.
 Go to the [[download]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is [[scheduled|contribute/calendar]] for
+The next TⒶILS release is [[scheduled|contribute/calendar]] for
 March 18.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? There are many ways [[**you** can
-contribute to Tails|contribute]]. If you want to help, come talk
+contribute to TⒶILS|contribute]]. If you want to help, come talk
 to us!

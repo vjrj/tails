@@ -8,18 +8,18 @@ The Debian Derivatives Guidelines ([[!debwiki Derivatives/Guidelines]])
 encourages "derivative distributions to
 mention and define their relationship with Debian". Because this seems
 like a great idea to us, we wrote this statement that not only covers
-Tails' relationship with Debian, but also Tails' relationship with any
+TⒶILS' relationship with Debian, but also Tails' relationship with any
 one of its upstream projects.
 
 # Summary
 
-For various reasons Tails tries to diverge by the smallest possible
+For various reasons TⒶILS tries to diverge by the smallest possible
 amount from its upstream projects, and especially from Debian:
 
 - We want to share our work with the rest of the Free Software
   community.
 - We value maintainability very much: we believe our users are best
-  served if we keep the amount of work needed to maintain Tails the
+  served if we keep the amount of work needed to maintain TⒶILS the
   smallest possible.
 
 # How
@@ -41,9 +41,9 @@ ship. In the rare cases we need to:
 - we at least inform the relevant Debian maintainers, so that they
   have a chance to enhance their packages to fit our needs;
 - in many cases, we write and propose patches that would allow us to
-  install unmodified Debian packages in Tails.
+  install unmodified Debian packages in TⒶILS.
 
-We also encourage potential contributors to [[improve Tails by working
+We also encourage potential contributors to [[improve TⒶILS by working
 on Debian|contribute/how/debian]].
 
 <a id="debian-bts"></a>

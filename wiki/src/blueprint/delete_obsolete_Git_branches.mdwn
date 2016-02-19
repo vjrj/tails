@@ -7,7 +7,7 @@ Initial design
 
 ## When do we delete merged Git branches?
 
-After a new Tails release has been shipped, we should review which Git branches
+After a new TⒶILS release has been shipped, we should review which Git branches
 has been merged in the release and remove them accordingly. This will make sure
 that we keep a clean-ish Git repository for a new release cycle.
 

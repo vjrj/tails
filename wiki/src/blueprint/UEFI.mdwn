@@ -25,7 +25,7 @@ Other ideas
 Most of the possible candidate goals that were
 [[rejected|contribute/design/UEFI#non-goals]] for this initial iteration are not
 critical. Pursuing these would require substantial effort, that is
-better put into other Tails improvements. Therefore, they have not
+better put into other TⒶILS improvements. Therefore, they have not
 made their way into our [[!tails_roadmap]]. Some have low-priority
 tickets on [[!tails_redmine desc="Redmine"]], meaning that patches are
 welcome, but we do not feel committed, as a project, to make
@@ -36,7 +36,7 @@ Secure boot]] will be necessary at some point. More and more
 off-the-shelf PC hardware is shipped with this functionality enabled.
 Also, having to constantly disable and re-enable Secure boot in the
 firmware configuration is not the best dual-boot user experience we
-can provide (in case the other, non-Tails operating system only starts
+can provide (in case the other, non-TⒶILS operating system only starts
 with Secure boot enabled).
 
 To end with, another task that we would be very happy to tackle would
@@ -80,9 +80,9 @@ Resources
   hardware](https://github.com/hellais/TAILS-OSX/blob/master/tested-on.md)
   it was tested on
 * [Mac Linux USB Loader](http://sevenbits.github.io/Mac-Linux-USB-Loader/)
-  Doesn't work with Tails at the moment, but that's a frequent request
+  Doesn't work with TⒶILS at the moment, but that's a frequent request
   to upstream. Upstream is working on fixing this. That would allow
-  starting Tails on Mac UEFI.
+  starting TⒶILS on Mac UEFI.
 * Steve McIntyre's EFI installation progress:
   - [[!debpkg debian-cd]] 3.1.11 has x86 EFI support, see the
     `debian/changelog` for details

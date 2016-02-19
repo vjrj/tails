@@ -18,13 +18,13 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Why does Tails use Tor?\"]]\n"
-msgstr "[[!meta title=\"Pourquoi Tails utilise Tor ?\"]]\n"
+msgid "[[!meta title=\"Why does TⒶILS use Tor?\"]]\n"
+msgstr "[[!meta title=\"Pourquoi TⒶILS utilise Tor ?\"]]\n"
 
 #. type: Plain text
-msgid "Tails uses Tor because it is the best available anonymity network."
+msgid "TⒶILS uses Tor because it is the best available anonymity network."
 msgstr ""
-"Tails utilise Tor car c'est le meilleur réseau d'anonymisation disponible."
+"TⒶILS utilise Tor car c'est le meilleur réseau d'anonymisation disponible."
 
 #. type: Title =
 #, no-wrap
@@ -34,11 +34,11 @@ msgstr "Renforcement d'anonymat\n"
 #. type: Plain text
 msgid ""
 "We want to enforce good security by default for our users. That is why it is "
-"a fundamental assumption of Tails to force all outgoing traffic to anonymity "
+"a fundamental assumption of TⒶILS to force all outgoing traffic to anonymity "
 "networks such as Tor."
 msgstr ""
 "Nous voulons renforcer une bonne sécurité par défaut à nos utilisateurs. "
-"C'est pourquoi il est dans les conditions fondamentales de Tails de forcer "
+"C'est pourquoi il est dans les conditions fondamentales de TⒶILS de forcer "
 "tout le trafic sortant à passer dans des réseaux d'anonymisation tel que Tor."
 
 #. type: Plain text
@@ -153,8 +153,8 @@ msgstr "<a id=\"relationship\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Relationship between Tor and Tails\n"
-msgstr "Relation entre Tor et Tails\n"
+msgid "Relationship between Tor and TⒶILS\n"
+msgstr "Relation entre Tor et TⒶILS\n"
 
 #. type: Bullet: '  - '
 msgid "The Tor software is made by [The Tor Project](https://torproject.org/)."
@@ -168,30 +168,30 @@ msgstr ""
 "monde."
 
 #. type: Bullet: '  - '
-msgid "Tails is a separate project made by a different group of people."
-msgstr "Tails est un autre projet fait par un autre groupe de personnes."
+msgid "TⒶILS is a separate project made by a different group of people."
+msgstr "TⒶILS est un autre projet fait par un autre groupe de personnes."
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Tails is a complete operating system which uses Tor as its default networking\n"
-"application. The Tor Project recommends the usage of Tails for the use cases\n"
+"TⒶILS is a complete operating system which uses Tor as its default networking\n"
+"application. The Tor Project recommends the usage of TⒶILS for the use cases\n"
 "that are not covered by its own projects (for example the <span\n"
 "class=\"application\">Tor Browser</span>).\n"
 msgstr ""
-"Tails est un système d'exploitation complet qui utilise Tor en tant qu'application\n"
-"réseau par défaut. Le projet Tor recommande l'utilisation de Tails pour les cas\n"
+"TⒶILS est un système d'exploitation complet qui utilise Tor en tant qu'application\n"
+"réseau par défaut. Le projet Tor recommande l'utilisation de TⒶILS pour les cas\n"
 "d'usages non pris en compte par leurs propres projets (par exemple le\n"
 "<span class=\"application\">navigateur Tor</span>).\n"
 
 #. type: Plain text
 msgid ""
-"But many people use Tor outside of Tails, and many people use Tails to do "
+"But many people use Tor outside of TⒶILS, and many people use TⒶILS to do "
 "other things than accessing the Internet through Tor, for example to work "
 "offline on sensitive documents."
 msgstr ""
-"Mais nombre de gens utilisent Tor en dehors de Tails, et beaucoup de "
-"personnes utilisent Tails pour faire autre chose qu'avoir accès à Internet "
+"Mais nombre de gens utilisent Tor en dehors de TⒶILS, et beaucoup de "
+"personnes utilisent TⒶILS pour faire autre chose qu'avoir accès à Internet "
 "via Tor, par exemple pour travailler hors ligne sur des documents sensibles."
 
 #. type: Title =
@@ -201,8 +201,8 @@ msgstr "Et encore ?\n"
 
 #. type: Plain text
 msgid ""
-"Tails also allows you to connect to [[I2P|doc/anonymous_internet/i2p/]], "
+"TⒶILS also allows you to connect to [[I2P|doc/anonymous_internet/i2p/]], "
 "which is another anonymity network different from Tor."
 msgstr ""
-"Tails vous permet également de vous connecter à [[I2P|doc/anonymous_internet/"
+"TⒶILS vous permet également de vous connecter à [[I2P|doc/anonymous_internet/"
 "i2p/]], qui est un autre réseau d'anonymisation différent de Tor."

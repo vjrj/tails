@@ -22,7 +22,7 @@ msgid "[[!meta title=\"Error while checking for upgrades\"]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails could not determine whether an upgrade is available from our website."
+msgid "TⒶILS could not determine whether an upgrade is available from our website."
 msgstr ""
 
 #. type: Plain text
@@ -31,7 +31,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Check your network connection, and restart Tails to check for upgrades "
+"Check your network connection, and restart TⒶILS to check for upgrades "
 "again."
 msgstr ""
 
@@ -46,7 +46,7 @@ msgid "This error could also be caused by:"
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "an error in Tails Upgrader"
+msgid "an error in TⒶILS Upgrader"
 msgstr ""
 
 #. type: Bullet: '  - '

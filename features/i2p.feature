@@ -1,29 +1,29 @@
 @product
 Feature: I2P
-  As a Tails user
+  As a TⒶILS user
   I *might* want to use I2P
 
   Scenario: I2P is disabled by default
-    Given I have started Tails from DVD without network and logged in
+    Given I have started TⒶILS from DVD without network and logged in
     Then the I2P Browser desktop file is not present
     And the I2P Browser sudo rules are not present
     And the I2P firewall rules are disabled
 
   Scenario: I2P is enabled when the "i2p" boot parameter is added
-    Given I have started Tails from DVD with I2P enabled and logged in
+    Given I have started TⒶILS from DVD with I2P enabled and logged in
     Then the I2P Browser desktop file is present
     And the I2P Browser sudo rules are present
     And the I2P firewall rules are enabled
 
   @fragile
   Scenario: I2P's AppArmor profile is in enforce mode
-    Given I have started Tails from DVD with I2P enabled and logged in and the network is connected
+    Given I have started TⒶILS from DVD with I2P enabled and logged in and the network is connected
     When I2P is running
     Then the running process "i2p" is confined with AppArmor in enforce mode
 
   @fragile
   Scenario: The I2P Browser works as it should
-    Given I have started Tails from DVD with I2P enabled and logged in and the network is connected
+    Given I have started TⒶILS from DVD with I2P enabled and logged in and the network is connected
     And the I2P router console is ready
     When I start the I2P Browser through the GNOME menu
     Then the I2P router console is displayed in I2P Browser
@@ -31,7 +31,7 @@ Feature: I2P
 
   @fragile
   Scenario: Closing the I2P Browser shows a stop notification and properly tears down the chroot.
-    Given I have started Tails from DVD with I2P enabled and logged in and the network is connected
+    Given I have started TⒶILS from DVD with I2P enabled and logged in and the network is connected
     And the I2P router console is ready
     When I successfully start the I2P Browser
     And I close the I2P Browser
@@ -40,7 +40,7 @@ Feature: I2P
 
   @fragile
   Scenario: The I2P internal websites can be viewed in I2P Browser
-    Given I have started Tails from DVD with I2P enabled and logged in and the network is connected
+    Given I have started TⒶILS from DVD with I2P enabled and logged in and the network is connected
     And the I2P router console is ready
     When I start the I2P Browser through the GNOME menu
     Then the I2P router console is displayed in I2P Browser
@@ -50,7 +50,7 @@ Feature: I2P
 
   @fragile
   Scenario: I2P is configured to run in Hidden mode
-    Given I have started Tails from DVD with I2P enabled and logged in and the network is connected
+    Given I have started TⒶILS from DVD with I2P enabled and logged in and the network is connected
     And the I2P router console is ready
     When I start the I2P Browser through the GNOME menu
     Then the I2P router console is displayed in I2P Browser
@@ -58,7 +58,7 @@ Feature: I2P
 
   @fragile
   Scenario: Connecting to the #i2p IRC channel with the pre-configured account
-    Given I have started Tails from DVD with I2P enabled and logged in and the network is connected
+    Given I have started TⒶILS from DVD with I2P enabled and logged in and the network is connected
     And the I2P router console is ready
     And I start the I2P Browser through the GNOME menu
     And the I2P router console is displayed in I2P Browser
@@ -72,7 +72,7 @@ Feature: I2P
 
   @fragile
   Scenario: I2P displays a notice when bootstrapping fails
-    Given I have started Tails from DVD with I2P enabled and logged in
+    Given I have started TⒶILS from DVD with I2P enabled and logged in
     And I2P is not running
     When the network is plugged
     And Tor has built a circuit
@@ -87,7 +87,7 @@ Feature: I2P
 
   @fragile
   Scenario: I2P displays a notice when it fails to start
-    Given I have started Tails from DVD with I2P enabled and logged in
+    Given I have started TⒶILS from DVD with I2P enabled and logged in
     And I2P is not running
     And I block the I2P router console port
     Then I2P is not running

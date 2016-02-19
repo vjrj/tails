@@ -3,22 +3,22 @@
 Design by design
 ================
 
-Tails is designed to be an easy-to-use Live operating system as well as a toolkit for privacy and anonymity for the masses.
+TⒶILS is designed to be an easy-to-use Live operating system as well as a toolkit for privacy and anonymity for the masses.
 
-We organized several workshops at NUMA to improve the usability of Tails. We realized that it is hard for people who are not tech-savvy and/or new to Tails:
+We organized several workshops at NUMA to improve the usability of TⒶILS. We realized that it is hard for people who are not tech-savvy and/or new to Tails:
 
-- to understand what Tails is;
-- to install Tails;
-- to boot Tails.
+- to understand what TⒶILS is;
+- to install TⒶILS;
+- to boot TⒶILS.
 
 We want to improve this situation. 
-First-time visitors on the Tails website should be able to enjoy a consistent experience, from understanding if Tails is the right tool for them, to achieving their actual goals by using it.
+First-time visitors on the TⒶILS website should be able to enjoy a consistent experience, from understanding if Tails is the right tool for them, to achieving their actual goals by using it.
 
 
 From the inside, to the outside
 ===============================
 
-We want to go from the inside to the outside, from the skeleton to the surface. E.g. having a rocking website _first_ might lead potential users to think that Tails is easy enough for them, while it is not the case yet, which could be problematic in some cases.
+We want to go from the inside to the outside, from the skeleton to the surface. E.g. having a rocking website _first_ might lead potential users to think that TⒶILS is easy enough for them, while it is not the case yet, which could be problematic in some cases.
 
 This is why, hereafter you will find a description of the logical order of steps. Of course, we can still work simultaneously on all of these steps, *but* it is useful to keep the whole roadmap in mind along the way.
 
@@ -44,7 +44,7 @@ Next
 * Screen locker [[!tails_ticket 5684]]
 * User-friendly backup system [[!tails_ticket 5301]]
 * Localized clock [[!tails_ticket 6284]]
-* Tails Installer on Mac OS X [[!tails_ticket 8559]]
+* TⒶILS Installer on Mac OS X [[!tails_ticket 8559]]
 * OpenPGP Applet [[!tails_ticket 7778 ]]
 * Shut down [[!tails_ticket 5417 ]] 
 
@@ -60,9 +60,9 @@ A big work in done in 2015 to [[improve the installation workflow|blueprint/boot
 
 In 2016, we want to go on:
 
-* Tails Installer on Windows [[!tails_ticket 8550]]
-* OpenPGP verification in Tails installer when ran in Debian [[!tails_ticket 9798]]
-* Improve Tails Installer GUI [[!tails_ticket 8859]]
+* TⒶILS Installer on Windows [[!tails_ticket 8550]]
+* OpenPGP verification in TⒶILS installer when ran in Debian [[!tails_ticket 9798]]
+* Improve TⒶILS Installer GUI [[!tails_ticket 8859]]
 * Full self-upgrade [[!tails_ticket 7499]]
 
 
@@ -97,14 +97,14 @@ Depending on grants and availibilities, here are the big steps we could do:
 
 - late 2015 : review the CSS and HTML from the Installation Assistant [[!tails_ticket #9915]]
 - early 2016 : maybe migrate the layout of the website following the work on the Installation Assistant css and html (E, F)
-- mid 2016 : starts working on new commers issues (generic Tails presentation). Think and unify meaning and graphical identity (we could make a survey to gather information). (A)
+- mid 2016 : starts working on new commers issues (generic TⒶILS presentation). Think and unify meaning and graphical identity (we could make a survey to gather information). (A)
 - 2017 : work on other sections of the website (B,C)
 
 
 4. Outreach
 -----------
 
-- 2018 : Promote Tails outside of the website, regarding the differents people and use cases where Tails could be usefull.
+- 2018 : Promote TⒶILS outside of the website, regarding the differents people and use cases where Tails could be usefull.
 
 
 

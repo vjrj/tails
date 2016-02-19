@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.17.2 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 0.17.2 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.17.2 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 0.17.2 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.17.2, is out."
-msgstr "Tails, The Amnesic Incognito Live System, version 0.17.2, est sorti."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.17.2, is out."
+msgstr "TⒶILS, The Amnesic Incognito Live System, version 0.17.2, est sorti."
 
 #. type: Plain text
 msgid "All users must upgrade as soon as possible."
@@ -135,10 +135,10 @@ msgstr "Voir la page [[pour commencer|Getting started]]."
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 "Comme aucun logiciel n'est parfait, nous maintenons une liste des "
-"[[problèmes qui affectent la dernière version de Tails|support/"
+"[[problèmes qui affectent la dernière version de TⒶILS|support/"
 "known_issues]]."
 
 #. type: Title #
@@ -147,8 +147,8 @@ msgid "What's coming up?"
 msgstr "Et ensuite ?"
 
 #. type: Plain text
-msgid "The next Tails release (0.18) is scheduled for May 16."
-msgstr "La prochaine version de Tails (0.18) est prévue pour le 16 mai."
+msgid "The next TⒶILS release (0.18) is scheduled for May 16."
+msgstr "La prochaine version de TⒶILS (0.18) est prévue pour le 16 mai."
 
 #. type: Plain text
 msgid "Have a look to our [[!tails_roadmap]] to see where we are heading to."
@@ -160,8 +160,8 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], there are many ways **you** can contribute to "
-"Tails. If you want to help, come talk to us!"
+"TⒶILS. If you want to help, come talk to us!"
 msgstr ""
 "Vous voulez aider ? Comme expliqué dans notre [[documentation \"comment "
 "contribuer\"|contribute]], il y a de nombreuses manières pour **vous** de "
-"contribuer à Tails. Si vous voulez aider, venez nous en parler ! "
+"contribuer à TⒶILS. Si vous voulez aider, venez nous en parler ! "

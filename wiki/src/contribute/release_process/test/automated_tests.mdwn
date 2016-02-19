@@ -9,7 +9,7 @@ The automated test suite is essentially a glue between:
 * [Sikuli](http://www.sikuli.org/), used for simulating user
   interaction,
 * [libvirt](http://libvirt.org/), used for running a specific build of
-  Tails in a virtual machine, and
+  TⒶILS in a virtual machine, and
 * [cucumber](http://cukes.info/), for defining features and scenarios
   testing them using the above two components.
 
@@ -31,7 +31,7 @@ Core developers can also run it [[usage/on_lizard]].
 
 With this tool, it is possible to:
 
-  * Create, modify and destroy virtual machines that can run Tails from
+  * Create, modify and destroy virtual machines that can run TⒶILS from
     a variety of media (primarily DVD and USB drives).
   * Create different kinds of virtual storage (IDE, USB, DVD...),
     and either cold or hot plug/unplug them into/from the
@@ -50,15 +50,15 @@ With this tool, it is possible to:
 
 Fundamentally speaking there are two types of tests:
 
-* Tests that make sure that the Tails *sources* behave correctly *at
+* Tests that make sure that the TⒶILS *sources* behave correctly *at
   build time* (example: `features/build.feature`); these ones are
   aptly tagged `@source`; and,
-* Tests that make sure that the product built from Tails sources, i.e.
-  a Tails ISO image, behaves correctly *at run time*; these ones are
+* Tests that make sure that the product built from TⒶILS sources, i.e.
+  a TⒶILS ISO image, behaves correctly *at run time*; these ones are
   tagged `@product`.
 
 The requirement of these are quite different; for instance, a
-`@product` test must have access to a Tails ISO image to test, whereas a
+`@product` test must have access to a TⒶILS ISO image to test, whereas a
 `@source` test doesn't. Therefore their environments are setup
 separately using our custom `BeforeFeature` hook, with the respective
 tag.
@@ -103,8 +103,8 @@ Requirements on the guest (the remote shell server):
   firewall exceptions; actually we don't want any network traffic at
   all from it, but this kind of follows from the previous requirement
   any way)
-* must start before Tails Greeter. Since that's the first point of
-  user interaction in a Tails system (if we ignore the boot menu), it
+* must start before TⒶILS Greeter. Since that's the first point of
+  user interaction in a TⒶILS system (if we ignore the boot menu), it
   seems like a good place to be able to assume that the remote shell
   is running.
 
@@ -154,18 +154,18 @@ completely fresh one, with all defaults. The defaults are defined in
 * A reasonable amount of RAM
 * ACPI, APIC and PAE enabled
 * UTC harware clock
-* A DVD drive loaded with the Tails from the ISO
+* A DVD drive loaded with the TⒶILS from the ISO
 * No other storage plugged
 * USB 2.0 controller
 * Ethernet interface, plugged into a network bridged with the host
 
 However, most of the time we do not set up a computer from scratch
 using this step, but restore from a snapshot (also called checkpoint)
-using the one of the `Given Tails has booted ...` steps generated in
+using the one of the `Given TⒶILS has booted ...` steps generated in
 `features/step_definitions/snapshots.rb`. An example of such a step,
 and indeed one of the most common ones, is:
 
-    Given Tails has booted from DVD and logged in and the network is connected
+    Given TⒶILS has booted from DVD and logged in and the network is connected
 
 These steps will actually run multiple steps, saving one or more
 snapshots along the way. See the next section for details about this.
@@ -202,21 +202,21 @@ performed on a already running system under test.
 
 This is where we actually boot the virtual machine.
 
-    And the computer boots Tails
+    And the computer boots TⒶILS
 
 This step:
 
 * verifies that we see the boot menu
-* adds any boot options added via `I set Tails to boot with options ...`
-* makes sure that Tails Greeter starts
+* adds any boot options added via `I set TⒶILS to boot with options ...`
+* makes sure that TⒶILS Greeter starts
 * makes sure that the remote shell is up and running
 
-    And I enable more Tails Greeter options
+    And I enable more TⒶILS Greeter options
 
-This is required for steps enabling Tails Greeter options, like the
+This is required for steps enabling TⒶILS Greeter options, like the
 next one.
 Note that the "I set sudo password ..." step has to be run before the
-other Tails Greeter option steps as it relies on keyboard navigation.
+other TⒶILS Greeter option steps as it relies on keyboard navigation.
 
     And I set sudo password "asdf"
 
@@ -224,7 +224,7 @@ Beyond the obvious, after this step all steps requiring the
 administrative password have access to it.
 
     And I log in to a new session
-    And the Tails desktop is ready
+    And the TⒶILS desktop is ready
     And I have a network connection
     And Tor is ready
 
@@ -281,7 +281,7 @@ feature for a simple example of how to do it.
 
 ### The tools and some guidelines for their usage
 
-In essense, the tools we have for interacting with the Tails instance
+In essense, the tools we have for interacting with the TⒶILS instance
 are:
 
 * the VM helper class,
@@ -295,7 +295,7 @@ Sikuli and the remote shell.
 Sikuli:
 
 * Should be used in all instances where we want to simulate user
-  interaction with the Tails system. For instance, when we start an
+  interaction with the TⒶILS system. For instance, when we start an
   application we usually want to click our way through the GNOME
   applications menu to stay true to what an actual user would do.
 * It comes in handy when we want to verify some state pertaining
@@ -347,20 +347,20 @@ information, see [[!tails_ticket 5571]].
 
 On a more practical note, you *can* add a filesystem share if you
 restore a snapshot and then power off the computer, which still is
-worth it when there's a big setup cost, e.g. when Tails is running
+worth it when there's a big setup cost, e.g. when TⒶILS is running
 from USB with persistence enabled. So something like this is valid,
 for example:
 
-    Given Tails has booted without network from a USB drive with a persistent partition and stopped at Tails Greeter's login screen
-    And I shutdown Tails and wait for the computer to power off
+    Given TⒶILS has booted without network from a USB drive with a persistent partition and stopped at Tails Greeter's login screen
+    And I shutdown TⒶILS and wait for the computer to power off
     And I setup some filesystem share ...
-    And I start Tails from USB drive "current" with network unplugged and I login with persistence enabled
+    And I start TⒶILS from USB drive "current" with network unplugged and I login with persistence enabled
 
 ## Plugging SATA drives
 
 When creating a disk (at least when backed by a `raw` image) via the
-storage helper, and then plugging it to a Tails instance as SATA
-drive, GNOME will report that the drive is failing when inside Tails,
+storage helper, and then plugging it to a TⒶILS instance as SATA
+drive, GNOME will report that the drive is failing when inside TⒶILS,
 and indeed several SMART tests fail. For now, plug hard disks as IDE
 only (or USB, of course).
 
@@ -376,9 +376,9 @@ try to avoid this until [[!tails_ticket 5847]] is solved.
 ## Disabling scenarios that are known to fail
 
 When a scenario is broken for an extended period of time (e.g. when
-rebasing Tails on a new Debian version, which usually breaks tons of
+rebasing TⒶILS on a new Debian version, which usually breaks tons of
 stuff) the current method of temporarily disabling affected tests is
-simply to remove them in Tails' Git, making sure that we won't forget
+simply to remove them in TⒶILS' Git, making sure that we won't forget
 about them.
 
 Note that such removals should be isolated per commit so that they are

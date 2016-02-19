@@ -18,16 +18,16 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails does not start\"]]\n"
-msgstr "[[!meta title=\"Tails ne démarre pas\"]]\n"
+msgid "[[!meta title=\"TⒶILS does not start\"]]\n"
+msgstr "[[!meta title=\"TⒶILS ne démarre pas\"]]\n"
 
 #. type: Plain text
 msgid ""
-"If Tails does not start properly, refer first to the [[known issues|/support/"
+"If TⒶILS does not start properly, refer first to the [[known issues|/support/"
 "known_issues]] page. Similar issues might have already been reported for the "
 "same model of computer."
 msgstr ""
-"Si Tails ne démarre pas correctement, reportez-vous tout d'abord à la page "
+"Si TⒶILS ne démarre pas correctement, reportez-vous tout d'abord à la page "
 "des [[problèmes connus|/support/known_issues]]. Des problèmes similaires ont "
 "peut-être déjà été rapportés pour le même modèle d'ordinateur."
 
@@ -35,11 +35,11 @@ msgstr ""
 msgid ""
 "Otherwise refer to the following sections, depending on whether or not the "
 "[[boot menu|/doc/first_steps/startup_options#boot_menu]] appears when "
-"starting Tails:"
+"starting TⒶILS:"
 msgstr ""
 "Sinon reportez-vous aux sections suivantes, en fonction de l'apparition, ou "
 "pas, du [[menu de démarrage|/doc/first_steps/startup_options#boot_menu]] de "
-"Tails lors de son démarrage :"
+"TⒶILS lors de son démarrage :"
 
 #. type: Plain text
 #, no-wrap
@@ -48,24 +48,24 @@ msgstr "<a id=\"du tout\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not start at all\n"
-msgstr "Tails ne démarre pas du tout\n"
+msgid "TⒶILS does not start at all\n"
+msgstr "TⒶILS ne démarre pas du tout\n"
 
 #. type: Plain text
 msgid ""
 "The following section applies if the [[boot menu|/doc/first_steps/"
-"startup_options#boot_menu]] does not appear when starting Tails."
+"startup_options#boot_menu]] does not appear when starting TⒶILS."
 msgstr ""
 "La section suivante correspond au cas où le [[menu de démarrage|/doc/"
 "first_steps/startup_options#boot_menu]] n'apparaît pas lors du démarrage de "
-"Tails."
+"TⒶILS."
 
 #. type: Plain text
 msgid ""
-"Refer to the instructions on how to [[start Tails|doc/first_steps/"
+"Refer to the instructions on how to [[start TⒶILS|doc/first_steps/"
 "start_tails]], especially the section about BIOS settings."
 msgstr ""
-"Reportez-vous aux instructions sur comment [[démarrer Tails|doc/first_steps/"
+"Reportez-vous aux instructions sur comment [[démarrer TⒶILS|doc/first_steps/"
 "start_tails]], en particulier la section sur la configuration du BIOS."
 
 #. type: Plain text
@@ -77,8 +77,8 @@ msgstr ""
 "contenant les informations suivantes :"
 
 #. type: Bullet: '0. '
-msgid "Which version of Tails are you trying to start?"
-msgstr "Quelle version de Tails essayez-vous de démarrer ?"
+msgid "Which version of TⒶILS are you trying to start?"
+msgstr "Quelle version de TⒶILS essayez-vous de démarrer ?"
 
 #. type: Bullet: '0. '
 msgid "Did you [[verify the ISO image|download#verify]]?"
@@ -98,24 +98,24 @@ msgstr ""
 
 #. type: Bullet: '3. '
 msgid ""
-"From which media are you trying to start Tails: DVD, USB stick [[installed "
+"From which media are you trying to start TⒶILS: DVD, USB stick [[installed "
 "manually|doc/first_steps/installation/manual]], USB stick [[installed with "
-"Tails Installer|doc/first_steps/installation]], SD card? Keep in mind that, "
+"TⒶILS Installer|doc/first_steps/installation]], SD card? Keep in mind that, "
 "we do not support any other installation method than the ones listed above."
 msgstr ""
-"Depuis quel type de support essayez-vous de démarrer Tails : DVD, clé USB "
+"Depuis quel type de support essayez-vous de démarrer TⒶILS : DVD, clé USB "
 "[[installée manuellement|/doc/first_steps/installation/manual]], clé USB "
-"[[installée avec l'installeur USB Tails|/doc/first_steps/installation]], "
+"[[installée avec l'installeur USB TⒶILS|/doc/first_steps/installation]], "
 "carte SD ? Sachez que nous ne prenons en charge aucun autre moyen "
 "d'installation que ceux décrits ci-dessus."
 
 #. type: Bullet: '4. '
 msgid ""
-"Have you been able to start Tails successfully on this computer before, from "
-"another media, or with another version of Tails? If so, which ones?"
+"Have you been able to start TⒶILS successfully on this computer before, from "
+"another media, or with another version of TⒶILS? If so, which ones?"
 msgstr ""
-"Avez-vous déjà réussi à démarrer Tails correctement sur cet ordinateur "
-"auparavant, depuis un autre support, ou avec une autre version de Tails ?"
+"Avez-vous déjà réussi à démarrer TⒶILS correctement sur cet ordinateur "
+"auparavant, depuis un autre support, ou avec une autre version de TⒶILS ?"
 
 #. type: Bullet: '5. '
 msgid "Does the same media start successfully on other computers?"
@@ -124,17 +124,17 @@ msgstr ""
 
 #. type: Bullet: '6. '
 msgid ""
-"Have you been able to start Tails successfully on the same computer using "
+"Have you been able to start TⒶILS successfully on the same computer using "
 "different installation methods? For example, it might start from a DVD but "
 "not from a USB stick."
 msgstr ""
-"Avez-vous déjà réussi à démarrer Tails correctement sur ce même ordinateur, "
+"Avez-vous déjà réussi à démarrer TⒶILS correctement sur ce même ordinateur, "
 "en utilisant une méthode d'installation différente ? Par exemple, il "
 "pourrait démarrer avec un DVD et non avec une clé USB."
 
 #. type: Bullet: '7. '
-msgid "What installation method did you use to set up Tails?"
-msgstr "Quelle méthode avez-vous utilisée pour installer Tails ?"
+msgid "What installation method did you use to set up TⒶILS?"
+msgstr "Quelle méthode avez-vous utilisée pour installer TⒶILS ?"
 
 #. type: Plain text
 #, no-wrap
@@ -143,18 +143,18 @@ msgstr "<a id=\"entirely\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not start entirely\n"
-msgstr "Tails ne démarre pas complètement\n"
+msgid "TⒶILS does not start entirely\n"
+msgstr "TⒶILS ne démarre pas complètement\n"
 
 #. type: Plain text
 msgid ""
 "The following section applies if the [[boot menu|/doc/first_steps/"
-"startup_options#boot_menu]] appears but not [[Tails Greeter|/doc/first_steps/"
-"startup_options/#tails_greeter]] when starting Tails."
+"startup_options#boot_menu]] appears but not [[TⒶILS Greeter|/doc/first_steps/"
+"startup_options/#tails_greeter]] when starting TⒶILS."
 msgstr ""
 "La section suivante correspond au cas où le [[menu de démarrage|/doc/"
-"first_steps/startup_options#boot_menu]] apparaît mais pas [[Tails Greeter|/"
-"doc/first_steps/startup_options/#tails_greeter]] lors du démarrage de Tails."
+"first_steps/startup_options#boot_menu]] apparaît mais pas [[TⒶILS Greeter|/"
+"doc/first_steps/startup_options/#tails_greeter]] lors du démarrage de TⒶILS."
 
 #. type: Bullet: '1. '
 msgid "In the graphical boot menu, press `TAB`."
@@ -170,7 +170,7 @@ msgstr "Ajoutez les options `debug` et `nosplash`."
 
 #. type: Bullet: '4. '
 msgid ""
-"Hopefully, this displays useful messages while starting Tails. You can then "
+"Hopefully, this displays useful messages while starting TⒶILS. You can then "
 "include them in a bug report to be sent:"
 msgstr ""
 "Ceci devrait normalement afficher des messages lors du démarrage, messages "
@@ -179,10 +179,10 @@ msgstr ""
 #. type: Bullet: '   - '
 msgid ""
 "either using [[WhisperBack|/doc/first_steps/bug_reporting]] if you are able "
-"to start Tails from another media,"
+"to start TⒶILS from another media,"
 msgstr ""
 "soit en utilisant [[WhisperBack|/doc/first_steps/bug_reporting]] si vous "
-"pouvez démarrer Tails depuis un autre support,"
+"pouvez démarrer TⒶILS depuis un autre support,"
 
 #. type: Bullet: '   - '
 msgid "either by [[sending us an email|/support/talk]]"
@@ -207,13 +207,13 @@ msgstr "   <div class=\"caution\">\n"
 #, no-wrap
 msgid ""
 "   <strong>When removing this option, if an adversary installed a fake\n"
-"   Tails on an internal hard disk, then you will likely be starting\n"
-"   this dangerous operating system instead of the genuine Tails that\n"
+"   TⒶILS on an internal hard disk, then you will likely be starting\n"
+"   this dangerous operating system instead of the genuine TⒶILS that\n"
 "   you intended to use.</strong>\n"
 msgstr ""
 "   <strong>En faisant cela, si un adversaire était capable d'installer un\n"
-"   faux Tails sur un disque dur interne, vous pourriez démarrer ce système\n"
-"   d'exploitation dangereux au lieu du vrai Tails que vous vouliez\n"
+"   faux TⒶILS sur un disque dur interne, vous pourriez démarrer ce système\n"
+"   d'exploitation dangereux au lieu du vrai TⒶILS que vous vouliez\n"
 "   utiliser.</strong>\n"
 
 #. type: Plain text
@@ -224,16 +224,16 @@ msgstr "   </div>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   If removing `live-media=removable` allows you to start Tails, please\n"
+"   If removing `live-media=removable` allows you to start TⒶILS, please\n"
 "   report a bug as documented above: this allows us to improve the [[list\n"
 "   of problematic USB sticks|support/known_issues#problematic-usb-sticks]].\n"
-"   In this case, you should install Tails on another, better supported\n"
+"   In this case, you should install TⒶILS on another, better supported\n"
 "   USB stick.\n"
 msgstr ""
-"   Si enlever `live-media=removable` vous permet de démarrer Tails, merci de\n"
+"   Si enlever `live-media=removable` vous permet de démarrer TⒶILS, merci de\n"
 "   faire un rapport de bug comme documenté ci-dessus : cela nous permettra\n"
 "   d'améliorer la [[liste des clés USB problématiques|support/known_issues#problematic-usb-sticks]].\n"
-"   Dans ce cas vous devriez installer Tails sur une autre clé USB, mieux supportée.\n"
+"   Dans ce cas vous devriez installer TⒶILS sur une autre clé USB, mieux supportée.\n"
 
 #~ msgid ""
 #~ "If you are knowledgeable about BIOS configuration, you can also try the "

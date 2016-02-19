@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for October, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for October, 2013\"]]\n"
 msgstr ""
 
 #. type: Title =
@@ -27,12 +27,12 @@ msgid "Releases\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails 0.21 [[was released|news/version_0.21]] on October 29."
+msgid "TⒶILS 0.21 [[was released|news/version_0.21]] on October 29."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails 0.22 is "
+"TⒶILS 0.22 is "
 "[scheduled](https://mailman.boum.org/pipermail/tails-dev/2013-September/003718.html)  "
 "for December 11."
 msgstr ""
@@ -44,12 +44,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails has been started more than 189 979 times in October.  This makes a "
+"TⒶILS has been started more than 189 979 times in October.  This makes a "
 "boot every 14 seconds on average."
 msgstr ""
 
 #. type: Bullet: '- '
-msgid "15 226 downloads of the OpenPGP signature of Tails ISO."
+msgid "15 226 downloads of the OpenPGP signature of TⒶILS ISO."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -78,7 +78,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "Some issues were fixed for the migration to [[!tails_gitweb_branch "
-"feature/wheezy desc=\"Tails Wheezy\"]] ([[!tails_ticket 6015]])."
+"feature/wheezy desc=\"TⒶILS Wheezy\"]] ([[!tails_ticket 6015]])."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -90,7 +90,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "Some [[!tails_gitweb_branch feature/vagrant-libvirt desc=\"initial work\"]] "
-"to build Tails with vagrant-libvirt was done "
+"to build TⒶILS with vagrant-libvirt was done "
 "([[blueprint|blueprint/vagrant-libvirt]], [[!tails_ticket 6212]])."
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails now uses the [[!tails_gitweb_branch "
+"TⒶILS now uses the [[!tails_gitweb_branch "
 "feature/same-startpage-custom-url-as-tbb desc=\"same custom Startpage URL as "
 "the TBB\"]]."
 msgstr ""
@@ -154,7 +154,7 @@ msgid ""
 "The [[!tails_gitweb_branch security/vidalia_in_its_own_user "
 "desc=\"branch\"]] to run Vidalia as its own user was polished and "
 "merged. Too bad nobody detected at RC stage the regression it brought, that "
-"made its way into Tails 0.21. Did we mention you should test our release "
+"made its way into TⒶILS 0.21. Did we mention you should test our release "
 "candidates?"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Some build-dependencies for Tails software were uploaded to Debian, and "
+"Some build-dependencies for TⒶILS software were uploaded to Debian, and "
 "accepted: [[!debpts libdist-zilla-plugin-test-notabs-perl]], [[!debpts "
 "libdist-zilla-plugin-test-perl-critic-perl]] and [[!debpts "
 "libdist-zilla-plugin-installguide-perl]]."
@@ -203,7 +203,7 @@ msgid "An initscript for Tahoe-LAFS has been [[!debbug 652003 desc=\"written\"]]
 msgstr ""
 
 #. type: Bullet: '- '
-msgid "killyourtv volunteered to maintain I2P in Tails."
+msgid "killyourtv volunteered to maintain I2P in TⒶILS."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -321,14 +321,14 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "[The future of TrueCrypt implementations in "
-"Tails](https://mailman.boum.org/pipermail/tails-dev/2013-October/003790.html)  "
+"TⒶILS](https://mailman.boum.org/pipermail/tails-dev/2013-October/003790.html)  "
 "([[!tails_ticket 5373]])"
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
 "[Bitcoin in "
-"Tails](https://mailman.boum.org/pipermail/tails-dev/2013-October/003773.html)"
+"TⒶILS](https://mailman.boum.org/pipermail/tails-dev/2013-October/003773.html)"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -352,7 +352,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "[Tor Launcher in "
-"Tails?](https://mailman.boum.org/pipermail/tails-dev/2013-October/003935.html)"
+"TⒶILS?](https://mailman.boum.org/pipermail/tails-dev/2013-October/003935.html)"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -374,7 +374,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"A talk about Tails [was "
+"A talk about TⒶILS [was "
 "held](http://www.irill.org/events/tails-confidentialite-et-anonymat-pour-tous-et-partout)  "
 "in Paris. Thanks to Stefano Zacchiroli for organizing it, and to IRILL for "
 "hosting it!"
@@ -397,7 +397,7 @@ msgstr ""
 msgid ""
 "We read a lot and got in touch with various people to gather enough "
 "information to decide if we're going to create a dedicated non-profit "
-"organization for Tails, or use another existing one as our fiscal sponsor."
+"organization for TⒶILS, or use another existing one as our fiscal sponsor."
 msgstr ""
 
 #. type: Title =
@@ -410,9 +410,9 @@ msgid ""
 "2013-10-15: [CRYPTO-GRAM, October 15, "
 "2013](http://www.schneier.com/crypto-gram-1310.html) — Bruce Schneier: \"One "
 "thing I didn't do, although it's worth considering, is use a stateless "
-"operating system like Tails. You can configure Tails with a persistent "
+"operating system like TⒶILS. You can configure Tails with a persistent "
 "volume to save your data, but no operating system changes are ever "
-"saved. Booting Tails from a read-only DVD -- you can keep your data on an "
+"saved. Booting TⒶILS from a read-only DVD -- you can keep your data on an "
 "encrypted USB stick -- is even more secure. Of course, this is not "
 "foolproof, but it greatly reduces the potential avenues for attack.\""
 msgstr ""

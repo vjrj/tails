@@ -1,4 +1,4 @@
-We need to start porting Tails to Wheezy, and test it.
+We need to start porting TⒶILS to Wheezy, and test it.
 Work is done in the `feature/wheezy` Git branch.
 
 **Tickets**:
@@ -47,7 +47,7 @@ i.e. porting the 1.0 theme
 #### Resources
 
 * The [Luna XP theme](http://winxp4life.tk/index.php#linux) we ship in
-  Tails/Squeeze only supports GTK2, *but* upstream have ported it to
+  TⒶILS/Squeeze only supports GTK2, *but* upstream have ported it to
   GTK3 and MATE since then.
 * Ubuntu's GNOME Classic is not that far from a good old GNOME2 DE:
   https://help.ubuntu.com/community/PreciseGnomeClassicTweaks
@@ -117,7 +117,7 @@ What works
 * FTP works on LAN in Nautilus
 * Streaming in Totem
 * Unlocking and using already created persistence
-* Tails-additional-software works
+* TⒶILS-additional-software works
 * Unsafe browser
 * Orca
 * memory wiping on shutdown works, when triggered by the GNOME

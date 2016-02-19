@@ -244,7 +244,7 @@ in fondo al comando):
 
 10)Configuro la mia identità (opzionale):
 
-    $ git config --global user.name "Tails Developer"
+    $ git config --global user.name "TⒶILS Developer"
     $ git config --global user.email "developer@blablabla.net"
 
 11)Genero la chiave ssh, la invio agli sviluppatori TAILS(il file.pub) e l'associo per essere autenticato sul server:
@@ -253,7 +253,7 @@ in fondo al comando):
 
 Ti chiederà il nome con cui genererà i due file della chiave, quello pubblico e quello segreto. QUindi ti cheide una passwor, due volte; i caratteri non si vedono quando li digiti.Finito
 
-Ora configuro la comunicazione ssh ad usare la mia chiave segreta ed invio quella pubblica agli sviluppatori di Tails per poter così scrivere nel repository condiviso.
+Ora configuro la comunicazione ssh ad usare la mia chiave segreta ed invio quella pubblica agli sviluppatori di TⒶILS per poter così scrivere nel repository condiviso.
 
     $ ssh-add /home/cri/ignissh
     Enter passphrase for /home/cri/ignissh:
@@ -360,19 +360,19 @@ ___
 
 #Generare una copia del wiki in locale
 
-Il sito web https://tails.boum.org/ è costruito usando Ikiwiki dal codice sorgente che è disponibile nel nostro repository Git, così come il resto del codice di Tails.
+Il sito web https://tails.boum.org/ è costruito usando Ikiwiki dal codice sorgente che è disponibile nel nostro repository Git, così come il resto del codice di TⒶILS.
 
 Tu puoi costruire la tua copia locale del sito sul tuo pc. La generazione del sito web consiste in una collezione di pagine HTML salvate sul tuo sistema operativo, che si possono aprire con un comunissimo browser anche se sei offline. Fare questo è molto utile per chi scrive la documentazione e i traduttori che così vedono applicate le loro modifiche prima di metterle sul sito web in produzione.
 
 Genera il wiki in locale su TAILS
 
 
-    Crea e configura la partizione resistente attivando le seguenti funzionalità (Applicazioni>Tails>Configure persistent volume):
+    Crea e configura la partizione resistente attivando le seguenti funzionalità (Applicazioni>TⒶILS>Configure persistent volume):
         Dati personali
         Pacchetti APT
         Liste APT
 
-    Riavvia Tails, abilita la persistenza e le configurazioni avanzate, imposta una password di root.
+    Riavvia TⒶILS, abilita la persistenza e le configurazioni avanzate, imposta una password di root.
 
     Aggiorna la lista dei pacchetti disponibili, scrivendo in un terminale:
 

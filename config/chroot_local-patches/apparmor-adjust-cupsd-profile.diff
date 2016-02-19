@@ -50,7 +50,7 @@
    # third party backends get no restrictions as they often need high
    # privileges and this is beyond our control
 -  /usr/lib/cups/backend/* Cx -> third_party,
-+  # Due to Tails#9963 we hard-code the third-party backends we ship:
++  # Due to TⒶILS#9963 we hard-code the third-party backends we ship:
 +  # /usr/lib/cups/backend/* Cx -> third_party,
 +  /usr/lib/cups/backend/gutenprint52+usb Cx -> third_party,
 +  /usr/lib/cups/backend/hp Cx -> third_party,

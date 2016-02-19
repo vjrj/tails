@@ -26,7 +26,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.16 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.16 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -35,7 +35,7 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.16, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.16, is out."
 msgstr ""
 
 #. type: Plain text
@@ -78,7 +78,7 @@ msgid ""
 "* Bugfixes\n"
 "  - Disable IPv6 on all network interfaces. This is a workaround for\n"
 "    the IPv6 link-local multicast leak that was recently discovered.\n"
-"  - Tails may previously have been able to list GPT partitions labelled\n"
+"  - TⒶILS may previously have been able to list GPT partitions labelled\n"
 "    \"TailsData\" on hard drives (!) as valid persistence volumes...\n"
 "    this is now fixed.\n"
 "  - Fix SCIM in the autostarted web browser.\n"
@@ -91,7 +91,7 @@ msgstr ""
 msgid ""
 "* Iceweasel\n"
 "  - Update iceweasel to 10.0.12esr-1+tails1.\n"
-"  - Set the homepage to the news section on the Tails website.\n"
+"  - Set the homepage to the news section on the TⒶILS website.\n"
 "  - Hide the iceweasel add-on bar by default.\n"
 "  - Don't hide the AdBlock-Plus button in the add-on bar anymore.\n"
 "  - Don't install xul-ext-monkeysphere anymore.\n"
@@ -130,7 +130,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -140,7 +140,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"See the [release schedule for Tails "
+"See the [release schedule for TⒶILS "
 "0.17](https://mailman.boum.org/pipermail/tails-dev/2013-January/002427.html)."
 msgstr ""
 
@@ -152,5 +152,5 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], there are many ways **you** can contribute to "
-"Tails. If you want to help, come talk to us!"
+"TⒶILS. If you want to help, come talk to us!"
 msgstr ""

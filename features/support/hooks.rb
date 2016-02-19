@@ -97,7 +97,7 @@ end
 
 BeforeFeature('@product') do |feature|
   if TAILS_ISO.nil?
-    raise "No Tails ISO image specified, and none could be found in the " +
+    raise "No TⒶILS ISO image specified, and none could be found in the " +
           "current directory"
   end
   if File.exist?(TAILS_ISO)
@@ -109,16 +109,16 @@ BeforeFeature('@product') do |feature|
       if File.owned?(TAILS_ISO)
         File.chmod(0644, TAILS_ISO)
       else
-        raise "warning: the Tails ISO image must be world readable or be " +
+        raise "warning: the TⒶILS ISO image must be world readable or be " +
               "owned by the current user to be available inside the guest " +
               "VM via host-to-guest shares, which is required by some tests"
       end
     end
   else
-    raise "The specified Tails ISO image '#{TAILS_ISO}' does not exist"
+    raise "The specified TⒶILS ISO image '#{TAILS_ISO}' does not exist"
   end
   if !File.exist?(OLD_TAILS_ISO)
-    raise "The specified old Tails ISO image '#{OLD_TAILS_ISO}' does not exist"
+    raise "The specified old TⒶILS ISO image '#{OLD_TAILS_ISO}' does not exist"
   end
   if not($started_first_product_feature)
     $virt = Libvirt::open("qemu:///system")

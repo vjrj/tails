@@ -1,15 +1,15 @@
-[[!meta title="Translate Tails into German"]]
+[[!meta title="Translate TⒶILS into German"]]
 
 [[!toc levels=2]]
 
 # What can be translated
 
 * **This website** must be translated in the `master` branch of the
-  [main Tails Git repository](https://git-tails.immerda.ch/tails/).
+  [main TⒶILS Git repository](https://git-tails.immerda.ch/tails/).
   Please read the documentation about [[translating with
   Git|translate/with_Git]] first.
 
-* The German team does not use Git to **translate Tails custom programs**.
+* The German team does not use Git to **translate TⒶILS custom programs**.
   Instead, and for this part only, we rely on [[Transifex|translate/with_Transifex]].
 
 # Glossaries used by the German translation team

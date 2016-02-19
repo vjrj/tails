@@ -1,6 +1,6 @@
 <div class="tip">
 
-<p>For installing and starting Tails, we recommend you try our new
+<p>For installing and starting TⒶILS, we recommend you try our new
 [[installation assistant|install]]. The following pages are the old
 instructions, provided as a fallback.</p>
 
@@ -34,7 +34,7 @@ instructions, provided as a fallback.</p>
     - [[!traillink Tails_does_not_start|first_steps/bug_reporting/tails_does_not_start]]
   - [[!traillink Shutting_down_Tails|first_steps/shutdown]]
   - [[!traillink Upgrading_a_Tails_USB_stick_or_SD_card|first_steps/upgrade]]
-  - Uninstalling Tails or resetting a USB stick or SD card
+  - Uninstalling TⒶILS or resetting a USB stick or SD card
     using [[!traillink Linux|first_steps/reset/linux]],
     [[!traillink Windows|first_steps/reset/windows]],
     or [[!traillink Mac|first_steps/reset/mac]]

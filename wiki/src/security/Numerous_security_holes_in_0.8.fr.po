@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 0.8\"]]\n"
-msgstr "[[!meta title=\"Nombreux trous de sécurité dans Tails 0.8\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 0.8\"]]\n"
+msgstr "[[!meta title=\"Nombreux trous de sécurité dans TⒶILS 0.8\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,15 +32,15 @@ msgid "[[!tag security/fixed]]\n"
 msgstr "[[!tag security/fixed]]\n"
 
 #. type: Plain text
-msgid "The following security holes affect Tails 0.8."
-msgstr "Les trous de sécurité suivants sont présents dans Tails 0.8."
+msgid "The following security holes affect TⒶILS 0.8."
+msgstr "Les trous de sécurité suivants sont présents dans TⒶILS 0.8."
 
 #. type: Plain text
 msgid ""
-"We **strongly** urge you to [[upgrade to Tails 0.8.1|news/version_0.8.1]] as "
+"We **strongly** urge you to [[upgrade to TⒶILS 0.8.1|news/version_0.8.1]] as "
 "soon as possible in case you are still using an older version."
 msgstr ""
-"Nous vous **incitons fortement** à [[mettre à jour vers Tails 0.8.1|news/"
+"Nous vous **incitons fortement** à [[mettre à jour vers TⒶILS 0.8.1|news/"
 "version_0.8.1]] aussi rapidement que possible dans le cas où vous utiliseriez "
 "encore une ancienne version."
 

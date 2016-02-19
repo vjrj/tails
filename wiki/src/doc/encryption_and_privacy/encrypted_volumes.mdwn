@@ -1,10 +1,10 @@
 [[!meta title="Create and use encrypted volumes"]]
 
-The simplest way to carry around the documents you want to use with Tails and
+The simplest way to carry around the documents you want to use with TⒶILS and
 make sure that they haven't been accessed or modified is to store them in an
 encrypted volume: a dedicated partition on a USB stick or external hard-disk.
 
-Tails comes with utilities for LUKS, a standard for disk-encryption under Linux. 
+TⒶILS comes with utilities for LUKS, a standard for disk-encryption under Linux. 
 
   - <span class="application">GNOME Disks</span> allows you to
     create encrypted volumes.
@@ -12,7 +12,7 @@ Tails comes with utilities for LUKS, a standard for disk-encryption under Linux.
 
 <div class="tip">
 
-<p>To store encrypted files on a Tails device, it is recommended to create a
+<p>To store encrypted files on a TⒶILS device, it is recommended to create a
 [[persistent volume|first_steps/persistence]] instead.</p>
 
 </div>
@@ -124,7 +124,7 @@ from the <span class="guimenu">Places</span> menu.
 Open an existing encrypted partition
 ====================================
 
-When plugging in a device containing an encrypted partition, Tails does not open the partition
+When plugging in a device containing an encrypted partition, TⒶILS does not open the partition
 automatically but you can do so from the file browser.
 
 1. Choose

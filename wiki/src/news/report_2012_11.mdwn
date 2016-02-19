@@ -1,11 +1,11 @@
 [[!meta date="Mon Dec 10 21:00:00 2012 +0000"]]
-[[!meta title="Tails report for November, 2012"]]
+[[!meta title="TⒶILS report for November, 2012"]]
 
-November was pretty intense a month for Tails, including two major
+November was pretty intense a month for TⒶILS, including two major
 releases. It was not the happiest though, due to personal issues,
 unresolved conflicts within the team and server hard disks dying.
 
-Anyhow, Tails' life does go on. Here is a report of what happened
+Anyhow, TⒶILS' life does go on. Here is a report of what happened
 last month.
 
 [[!toc levels=1]]
@@ -13,26 +13,26 @@ last month.
 Releases
 ========
 
-Tails 0.14 was [[released on November 13th|news/version_0.14]] and
+TⒶILS 0.14 was [[released on November 13th|news/version_0.14]] and
 0.15 was [[released on November 28th|news/version_0.15]]. From now on,
 we should be in a position to stick to the [[6-weeks release
 cycle|contribute/release_schedule]] we have been aiming at for a while.
 
-The Tails 0.16 release is scheduled for the first half of January.
+The TⒶILS 0.16 release is scheduled for the first half of January.
 
 People
 ======
 
-Tails has been started and successfully connected to the Tor network
+TⒶILS has been started and successfully connected to the Tor network
 around 83731 times in November. That makes a boot every 31 seconds on
 average. This number is an approximation from the requests made for the
-security announcements feed. The later is retrieved by Tails after being
+security announcements feed. The later is retrieved by TⒶILS after being
 connected to Tor to eventually encourage users to update.
 
 41 reports were received through WhisperBack.
 
 The forum activity is still very high:
-903 messages, 151 signed by Tails.
+903 messages, 151 signed by TⒶILS.
 
 Code
 ====
@@ -55,7 +55,7 @@ broken by the move to TorBrowser patches,
 [were](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/bugfix/monkeysphere_post_torbrowser)
 [fixed](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/bugfix/i2p_console_bookmark).
 
-The Tails OpenPGP Applet was [fixed](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/bugfix/gpgApplet_menu_in_bottom_panel) to be compatible with the Windows
+The TⒶILS OpenPGP Applet was [fixed](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/bugfix/gpgApplet_menu_in_bottom_panel) to be compatible with the Windows
 camouflage mode.
 
 Custom APT sources handling was [fixed for release
@@ -74,7 +74,7 @@ in Sri Lanka) was [added](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs
 
 The Unsafe Browser window name was [set](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/unsafe_browser_name) to... *Unsafe Browser*.
 
-Discrepancies between the various build setups used by Tails
+Discrepancies between the various build setups used by TⒶILS
 developers was discovered and
 [fixed](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/install-tasksel-standard-task).
 
@@ -131,7 +131,7 @@ A number of candidate branches for 0.15 were [merged](http://git.immerda.ch/?p=a
 Documentation and website
 =========================
 
-The Tails website now has a [[Press & media information|press]] page.
+The TⒶILS website now has a [[Press & media information|press]] page.
 
 The [[News]] can now be [translated](https://mailman.boum.org/pipermail/tails-dev/2012-November/002136.html).
 
@@ -152,7 +152,7 @@ or drop it all?
 suite](https://mailman.boum.org/pipermail/tails-dev/2012-November/002014.html)
 triggered some discussion.
 
-Helping adrelanos to proper copyright and licensing practices when [forking Tails documentation pages](https://mailman.boum.org/pipermail/tails-dev/2012-November/002054.html).
+Helping adrelanos to proper copyright and licensing practices when [forking TⒶILS documentation pages](https://mailman.boum.org/pipermail/tails-dev/2012-November/002054.html).
 
 [Testing incremental
 updates](https://mailman.boum.org/pipermail/tails-dev/2012-November/002108.html)

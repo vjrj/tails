@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.11 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.11 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,7 +32,7 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.11, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.11, is out."
 msgstr ""
 
 #. type: Plain text
@@ -56,10 +56,10 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* Tails Greeter, the login screen which obsoletes the language\n"
-"  selection boot menu. Tails Greeter also adds some new options:\n"
+"* TⒶILS Greeter, the login screen which obsoletes the language\n"
+"  selection boot menu. TⒶILS Greeter also adds some new options:\n"
 "  - Activating persistence (see below).\n"
-"  - Setting a sudo password. Unlike earlier Tails releases, full sudo\n"
+"  - Setting a sudo password. Unlike earlier TⒶILS releases, full sudo\n"
 "    access via an empty password is not available any more. In fact,\n"
 "    full sudo access is disabled per default, but can be enabled by\n"
 "    setting this password.\n"
@@ -70,10 +70,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails USB installer. This graphical user interface mostly obsoletes our old "
+"TⒶILS USB installer. This graphical user interface mostly obsoletes our old "
 "instructions of cat'ing the .iso directly onto a block device. All of the "
-"USB drive must be dedicated to Tails; a bit of extra space is reserved so "
-"that future Tails releases will fit when upgrading, and the rest can be used "
+"USB drive must be dedicated to TⒶILS; a bit of extra space is reserved so "
+"that future TⒶILS releases will fit when upgrading, and the rest can be used "
 "for persistence (see below) or manually formatted if the user so wishes. See "
 "[[the USB installation documentation|doc/first_steps/installation]] for "
 "details."
@@ -81,7 +81,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Persistence can optionally be used when running Tails from a USB drive. "
+"Persistence can optionally be used when running TⒶILS from a USB drive. "
 "Application configurations and arbitrary directories can be made persistent. "
 "See [[the persistence documentation|doc/first_steps/persistence]] for "
 "details."
@@ -181,5 +181,5 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], here are many ways **you** can contribute to "
-"Tails: no need to be a hardcore developer."
+"TⒶILS: no need to be a hardcore developer."
 msgstr ""

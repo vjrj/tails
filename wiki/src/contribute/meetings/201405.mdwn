@@ -36,7 +36,7 @@ like:
 the problem. This is needed for the vast majority of the reports we
 receive as most reports without any contact information are useless. On
 the other hand it also provides an opportunity for eavesdroppers, like
-your email or Internet provider, to confirm that you are using Tails."
+your email or Internet provider, to confirm that you are using TⒶILS."
 
 The same sentence should be used in WhisperBack.
 
@@ -60,7 +60,7 @@ non-vendor bits are randomized?
 #7139: Rework /doc/about/anonymity/
 ===================================
 
-- This page it off-topic given the current scope of Tails documentation.
+- This page it off-topic given the current scope of TⒶILS documentation.
 - We usually say that our doc is not the place for general security
   training, etc. It is not yet another online security guide.
 - So, let' remove it.
@@ -78,7 +78,7 @@ non-vendor bits are randomized?
   We can probably live with that.
 - We decided that was not a blocker for 1.1.
 - The question remains open whether this would be a desirable behaviour
-  to have back in Tails.
+  to have back in TⒶILS.
 - We could have a look at the NetworkManager parameter to not
   autoconnect and see if it can be made "off" by default.
 
@@ -95,11 +95,11 @@ How do we work on the website restructuring, modernizing, and more?
   proposal was to wait until the summit in July to meet face-to-face.
 - Still, it would be cool to prepare the ground before the summit.
 
-Can I use my participation in Tails to improve my portfolio?
+Can I use my participation in TⒶILS to improve my portfolio?
 ============================================================
 
 Even if the core team is used to sign its commit with the same name,
-Tails developer, nothing prevent contributors from signing their own
+TⒶILS developer, nothing prevent contributors from signing their own
 commits. Tickets on Redmine have assignees. Posts on the mailing-list
 are not anonymized. So that can possibly give a portfolio.
 

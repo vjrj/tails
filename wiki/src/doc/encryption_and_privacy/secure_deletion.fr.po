@@ -137,11 +137,11 @@ msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Unfortunately, Tails does not currently allow you to perform this task with graphical tools."
+#| msgid "Unfortunately, TⒶILS does not currently allow you to perform this task with graphical tools."
 msgid ""
-"<p>Unfortunately, Tails does not currently allow you to perform this task\n"
+"<p>Unfortunately, TⒶILS does not currently allow you to perform this task\n"
 "with graphical tools. See [[!tails_ticket 5323]].</p>\n"
-msgstr "Malheureusement, actuellement Tails ne permet pas de faire ceciavec des outils graphiques."
+msgstr "Malheureusement, actuellement TⒶILS ne permet pas de faire ceciavec des outils graphiques."
 
 #. type: Plain text
 #, no-wrap
@@ -169,14 +169,14 @@ msgstr "Effacement sécurisé de fichiers\n"
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "In Tails you can securely delete files thanks to an extension of the "
+#| "In TⒶILS you can securely delete files thanks to an extension of the "
 #| "Nautilus file manager called [Nautilus Wipe](http://wipetools.tuxfamily."
 #| "org/nautilus-wipe.html)."
 msgid ""
-"In Tails you can securely delete files thanks to an [extension of the file "
+"In TⒶILS you can securely delete files thanks to an [extension of the file "
 "browser](http://wipetools.tuxfamily.org/nautilus-wipe.html)."
 msgstr ""
-"Dans Tails vous pouvez effacer des fichiers de manière sécurisé grâce à "
+"Dans TⒶILS vous pouvez effacer des fichiers de manière sécurisé grâce à "
 "l'extension de Nautilus appelée [Nautilus Wipe](http://wipetools.tuxfamily."
 "org/nautilus-wipe.html)."
 

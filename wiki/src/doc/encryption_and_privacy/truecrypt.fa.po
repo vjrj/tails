@@ -41,7 +41,7 @@ msgstr "> هشدار: استفاده از تروکریپت امن نیست چو�
 
 #. type: Plain text
 #, no-wrap
-msgid "*TrueCrypt* was removed in Tails 1.2.1.\n"
+msgid "*TrueCrypt* was removed in TⒶILS 1.2.1.\n"
 msgstr "*تروکریپت* در تیلز ۱٫۲٫۱ حذف شده است.\n"
 
 #. type: Plain text
@@ -52,7 +52,7 @@ msgstr "<div class=\"tip\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>We recommend that you use [[Tails encrypted persistence|doc/first_steps/persistence]] or [[LUKS encrypted\n"
+"<p>We recommend that you use [[TⒶILS encrypted persistence|doc/first_steps/persistence]] or [[LUKS encrypted\n"
 "volumes|/doc/encryption_and_privacy/encrypted_volumes]] instead of <span class=\"application\">TrueCrypt</span>\n"
 "volumes.</p>\n"
 msgstr ""
@@ -67,7 +67,7 @@ msgstr "</div>\n"
 
 #. type: Plain text
 msgid ""
-"Still, you can open standard and hidden *TrueCrypt* volumes in Tails using "
+"Still, you can open standard and hidden *TrueCrypt* volumes in TⒶILS using "
 "the `cryptsetup` command line tool."
 msgstr ""
 "با این حال می‌توانید درایوهای استاندارد و مخفی *تروکریپت* در تیلز را با "

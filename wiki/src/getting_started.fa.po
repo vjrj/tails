@@ -26,12 +26,12 @@ msgstr "[[!meta title=\"شروع به کار\"]]\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Is Tails the right tool for me?\n"
+msgid "Is TⒶILS the right tool for me?\n"
 msgstr "آیا تیلز ابزار مناسبی برای من است؟\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"First, read the [[about|about]] page to get a basic idea of what Tails is."
+"First, read the [[about|about]] page to get a basic idea of what TⒶILS is."
 msgstr ""
 "ابتدا صفحهٔ [[دربارهٔ|about]] تیلز را مطالعه کنید تا اطلاعات اولیه‌ای در مورد "
 "آن کسب کنید."
@@ -39,24 +39,24 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"2. Then read the [[warning|doc/about/warning]] page to understand **what Tails doesn't protect you\n"
+"2. Then read the [[warning|doc/about/warning]] page to understand **what TⒶILS doesn't protect you\n"
 "against**, how you can screw up your anonymity or leave traces.\n"
 msgstr "۲. سپس صفحهٔ [[هشدار|doc/about/warning]] را بخوانید تا دریابید **تیلز از شما در برابر چه چیزهایی محافظت نمی‌کند** و چگونه ممکن است ناشناسی خود را به خطر بیندازید و از خود نشانه‌هایی به جا بگذارید.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid ""
-#| "3. If Tails is the right tool for you, go on [[downloading, verifying and\n"
+#| "3. If TⒶILS is the right tool for you, go on [[downloading, verifying and\n"
 #| "installing it|download]].\n"
 msgid ""
-"3. If Tails is the right tool for you, go on [[downloading, verifying, and\n"
+"3. If TⒶILS is the right tool for you, go on [[downloading, verifying, and\n"
 "installing it|download]].\n"
 msgstr "۳. اگر تیلز ابزار مناسبی برایتان است، آن را  [[دانلود، تأیید و نصب کنید|download]].\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"4. Throughout your use of Tails, it's very important to [[stay up to\n"
+"4. Throughout your use of TⒶILS, it's very important to [[stay up to\n"
 "date|download#stay_tuned]] with security issues and new versions.\n"
 msgstr "۴. هنگام استفاده از تیلز [[به‌روز کردن|download#stay_tuned]] مسائل امنیتی و ارتقا به نسخه‌های جدید امری مهم است.\n"
 
@@ -71,7 +71,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"- Read our [[user documentation|doc]] to learn more about Tails and how to "
+"- Read our [[user documentation|doc]] to learn more about TⒶILS and how to "
 "use it."
 msgstr ""
 "- [[اسناد کاربری|doc]] ما را بخوانید تا بیشتر در مورد تیلز و چگونگی استفاده "
@@ -79,7 +79,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Learn more about Tor, the anonymity network used by Tails on their website: "
+"Learn more about Tor, the anonymity network used by TⒶILS on their website: "
 "[[https://www.torproject.org/]]."
 msgstr ""
 "در تارنمای تور، بیشتر در مورد این شبکه که مختص ناشناس ماندن است و تیلز با آن "
@@ -87,7 +87,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"For a deeper understanding of Tails' specifications and internals, read our "
+"For a deeper understanding of TⒶILS' specifications and internals, read our "
 "[[design document|contribute/design]]."
 msgstr ""
 "برای درک عمیق‌تر از خصوصیات و ویژگی‌های تیلز  [[اسناد طراحی|contribute/"
@@ -100,7 +100,7 @@ msgstr "به ایرادی برخورده‌اید؟\n"
 
 #. type: Plain text
 msgid ""
-"If you found a bug in Tails or want to request a new feature, see our "
+"If you found a bug in TⒶILS or want to request a new feature, see our "
 "[[support]] pages."
 msgstr ""
 "اگر ایرادی در تیلز یافته‌اید تا نیازمند ویژگی جدیدی در آن هستید، صفحهٔ "

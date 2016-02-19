@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for June, 2015\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for June, 2015\"]]\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"The release date for Tails 1.4.1 had been postponed because Mozilla changed "
+"The release date for TⒶILS 1.4.1 had been postponed because Mozilla changed "
 "their release schedule.  It was released in the beginning of July. Once "
 "again, this report consists of non-code news :)"
 msgstr ""
@@ -62,7 +62,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"We warn that *Tails OpenPGP Applet* can lead to [[encoding problems for "
+"We warn that *TⒶILS OpenPGP Applet* can lead to [[encoding problems for "
 "emails|doc/encryption_and_privacy/gpgapplet/public-key_cryptography#encoding]]."
 msgstr ""
 
@@ -100,7 +100,7 @@ msgid ""
 "Our test suite covers 182 scenarios, just as in May. We removed outdated "
 "scenarios again, so there are actually new tests :) New tests add coverage "
 "for the Tor Browser's _New Identity_ feature and confirm that the hardware "
-"clock is not updated by Tails. Additionally, a huge amount of work was put "
+"clock is not updated by TⒶILS. Additionally, a huge amount of work was put "
 "into making our test suite more robust."
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"If you want to help us develop and maintain Tails, please "
+"If you want to help us develop and maintain TⒶILS, please "
 "[[donate|contribute/how/donate]] :)"
 msgstr ""
 
@@ -154,14 +154,14 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[A workshop about "
-"Tails](http://www.lacantine-brest.net/event/atelier-datalove-tails-x-tor/)  "
+"TⒶILS](http://www.lacantine-brest.net/event/atelier-datalove-tails-x-tor/)  "
 "took place on June 18th in Brest, France."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* Tchou and Fiodor Tonti gave [a talk about Tails and "
+"* Tchou and Fiodor Tonti gave [a talk about TⒶILS and "
 "UX](https://www.passageenseine.org/fr/programme/2015/jeudi-18-juin/grande-salle/atelier-design-tails)\n"
 "in Pas Sage en Seine 2015 at NUMA in Paris, France on June 18th. [The\n"
 "video](https://www.passageenseine.org/fr/archives-et-videos/) and "
@@ -171,7 +171,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[A workshop about Tor and Tails](https://jardin-entropique.eu.org/ateliers)  "
+"[A workshop about Tor and TⒶILS](https://jardin-entropique.eu.org/ateliers)  "
 "was held in Rennes, France, during the Jardin entropique event on June 28th."
 msgstr ""
 
@@ -182,13 +182,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"A talk about Tails will take place during "
+"A talk about TⒶILS will take place during "
 "[DebConf15](http://debconf15.debconf.org/) in August in Heidelberg, Germany."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Please let us know if you organize an event about Tails, we'll be glad to "
+"Please let us know if you organize an event about TⒶILS, we'll be glad to "
 "announce it :)"
 msgstr ""
 
@@ -202,7 +202,7 @@ msgid ""
 "[We discussed our release "
 "versioning](https://mailman.boum.org/pipermail/tails-dev/2015-June/009132.html)  "
 "and decided upon a new way to do it: always increment the first number with "
-"major Debian version, or whenever it makes sense for Tails only "
+"major Debian version, or whenever it makes sense for TⒶILS only "
 "(user-visible changes); second number: even for bugfix releases, odd for "
 "major ones; an extra 3rd number will be added for emergency releases."
 msgstr ""
@@ -216,7 +216,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"genghiskant proposed [making a fork of Tails without non-free "
+"genghiskant proposed [making a fork of TⒶILS without non-free "
 "firmware](https://mailman.boum.org/pipermail/tails-dev/2015-June/009023.html)."
 msgstr ""
 
@@ -307,12 +307,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails has been started more than 391,084 times this month. This makes 13,036 "
+"TⒶILS has been started more than 391,084 times this month. This makes 13,036 "
 "boots a day on average."
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "19,284 downloads of the OpenPGP signature of Tails ISO from our website."
+msgid "19,284 downloads of the OpenPGP signature of TⒶILS ISO from our website."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -320,5 +320,5 @@ msgid "57 bug reports were received through WhisperBack."
 msgstr ""
 
 #. type: Plain text
-msgid "-- Report by BitingBird for Tails folks"
+msgid "-- Report by BitingBird for TⒶILS folks"
 msgstr ""

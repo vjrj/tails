@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-02-11 05:30+0100\n"
 "PO-Revision-Date: 2016-01-28 18:41+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Neue Funktionen"
 
 #. type: Bullet: '- '
 msgid ""
-"Tails now uses the <span class=\"application\">GNOME Shell</span> desktop "
+"TⒶILS now uses the <span class=\"application\">GNOME Shell</span> desktop "
 "environment, in its <span class=\"application\">Classic</span> mode.  <span "
 "class=\"application\">GNOME Shell</span> provides a modern, simple, and "
 "actively developed desktop environment. The <span class=\"application"
@@ -32,7 +32,7 @@ msgid ""
 "windows list. Accessibility and non-Latin input sources are also better "
 "integrated."
 msgstr ""
-"Tails benutzt nun die <span class=\"application\">GNOME Shell</span> "
+"TⒶILS benutzt nun die <span class=\"application\">GNOME Shell</span> "
 "Desktopumgebung im <span class=\"application\">Classic</span>-Modus. <span "
 "class=\"application\">GNOME Shell</span> bietet eine moderne, einfache und "
 "aktiv weiterentwickelte Desktopumgebung. Der <span class=\"application"
@@ -43,18 +43,18 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "  To find your way around, [[read our introduction to GNOME and the Tails desktop.|doc/first_steps/introduction_to_gnome_and_the_tails_desktop]]\n"
-msgstr "  Damit Sie sich zurechtfinden, [[lesen Sie unsere Einführung in GNOME und den Tails Desktop.|doc/first_steps/introduction_to_gnome_and_the_tails_desktop]]\n"
+msgid "  To find your way around, [[read our introduction to GNOME and the TⒶILS desktop.|doc/first_steps/introduction_to_gnome_and_the_tails_desktop]]\n"
+msgstr "  Damit Sie sich zurechtfinden, [[lesen Sie unsere Einführung in GNOME und den TⒶILS Desktop.|doc/first_steps/introduction_to_gnome_and_the_tails_desktop]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "  [[!img applications_menu.png caption=\"The desktop and Applications menu\" alt=\"Tails 2.0 desktop with applications menu unfolded\" link=\"no\"]]\n"
-msgstr "  [[!img applications_menu.png caption=\"Der Desktop und das Anwendungsmenü\" alt=\"Tails 2.0 Desktop mit geöffneten Anwendungsmenü\" link=\"no\"]]\n"
+msgid "  [[!img applications_menu.png caption=\"The desktop and Applications menu\" alt=\"TⒶILS 2.0 desktop with applications menu unfolded\" link=\"no\"]]\n"
+msgstr "  [[!img applications_menu.png caption=\"Der Desktop und das Anwendungsmenü\" alt=\"TⒶILS 2.0 Desktop mit geöffneten Anwendungsmenü\" link=\"no\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "  [[!img activities_overview.png caption=\"The activities overview\" alt=\"Tails 2.0 activities overview\" size=\"512x384\" link=\"no\"]]\n"
-msgstr "  [[!img activities_overview.png caption=\"Die Aktivitätenübersicht\" alt=\"Tails 2.0 Aktivitätenübersicht\" size=\"512x384\" link=\"no\"]]\n"
+msgid "  [[!img activities_overview.png caption=\"The activities overview\" alt=\"TⒶILS 2.0 activities overview\" size=\"512x384\" link=\"no\"]]\n"
+msgstr "  [[!img activities_overview.png caption=\"Die Aktivitätenübersicht\" alt=\"TⒶILS 2.0 Aktivitätenübersicht\" size=\"512x384\" link=\"no\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -128,10 +128,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"- Notify the user if Tails is running from a non-free virtualization "
+"- Notify the user if TⒶILS is running from a non-free virtualization "
 "software."
 msgstr ""
-"- Benachrichtigung des Nutzers, wenn Tails auf einer unfreien "
+"- Benachrichtigung des Nutzers, wenn TⒶILS auf einer unfreien "
 "Virtualisierungssoftware ausgeführt wird"
 
 #. type: Bullet: '- '

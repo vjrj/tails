@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for March, 2015\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for March, 2015\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -59,13 +59,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[Tails 1.3.1 was released on March 23, 2015|news/version_1.3.1]] (minor "
+"[[TⒶILS 1.3.1 was released on March 23, 2015|news/version_1.3.1]] (minor "
 "release)."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[Tails 1.3.2 was released on March 31, 2015|news/version_1.3.2]] (minor "
+"[[TⒶILS 1.3.2 was released on March 31, 2015|news/version_1.3.2]] (minor "
 "release)."
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"We explained why users [[shouldn't update Tails using `apt-get` or <span "
+"We explained why users [[shouldn't update TⒶILS using `apt-get` or <span "
 "class=\"application\">Synaptic</span>|support/faq#upgrade]]."
 msgstr ""
 
@@ -123,7 +123,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"We added to the known issues that [[Tails doesn't erase the video memory|"
+"We added to the known issues that [[TⒶILS doesn't erase the video memory|"
 "support/known_issues#video-memory]]."
 msgstr ""
 
@@ -136,7 +136,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* We did a UX sprint at [NUMA Paris](https://numa.paris/) to start our work on the [[web assistant\n"
-"  for getting started with Tails|blueprint/bootstrapping/assistant]]:\n"
+"  for getting started with TⒶILS|blueprint/bootstrapping/assistant]]:\n"
 "  - We discussed [[two initial designs we did\n"
 "    beforehand|blueprint/bootstrapping/assistant#1st_iteration]].\n"
 "  - We decided on a broad structure for our work.\n"
@@ -160,14 +160,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"As [[announced recently|news/signing_key_transition]], Tails ships a new "
+"As [[announced recently|news/signing_key_transition]], TⒶILS ships a new "
 "signing key in 1.3."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "We have [[!tails_ticket 6564 desc=\"enabled\"]] core developers to remotely "
-"run the Tails automated test suite on our infrastructure."
+"run the TⒶILS automated test suite on our infrastructure."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -230,7 +230,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"We are compiling a list of people and organizations doing Tails training. If "
+"We are compiling a list of people and organizations doing TⒶILS training. If "
 "you do and want to be added, please write to <tails-press@boum.org>."
 msgstr ""
 
@@ -244,14 +244,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails was presented during a lightning talk session organized by AccessNow, "
+"TⒶILS was presented during a lightning talk session organized by AccessNow, "
 "at [[RightsCon|https://www.rightscon.org]], in Manila (Philippines) on March "
 "24th 2015."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tchou presented Tails at the [[Hacks/Hackers meetup at Numa Paris|http://www."
+"Tchou presented TⒶILS at the [[Hacks/Hackers meetup at Numa Paris|http://www."
 "meetup.com/Hacks-Hackers-Paris/events/221190081/]] (France), a meeting "
 "between journalists and developers."
 msgstr ""
@@ -263,18 +263,18 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"intrigeri will give a talk about Tails at the [[MiniDebConf in Lyon, France|"
+"intrigeri will give a talk about TⒶILS at the [[MiniDebConf in Lyon, France|"
 "https://france.debian.net/events/minidebconf2015/]] in April."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"A talk about Tails will probably take place at a [[MiniDebConf in Bucharest, "
+"A talk about TⒶILS will probably take place at a [[MiniDebConf in Bucharest, "
 "Romania|http://bucharest2015.mini.debconf.org/]] in May."
 msgstr ""
 
 #. type: Plain text
-msgid "Please let us know if you organize an event about Tails :)"
+msgid "Please let us know if you organize an event about TⒶILS :)"
 msgstr ""
 
 #. type: Title =
@@ -309,7 +309,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[Tails on Windows Tablet?](https://mailman.boum.org/pipermail/tails-dev/2015-"
+"[TⒶILS on Windows Tablet?](https://mailman.boum.org/pipermail/tails-dev/2015-"
 "March/008456.html)"
 msgstr ""
 
@@ -334,13 +334,13 @@ msgstr ""
 msgid ""
 "2015-03: [[A DIY Guide to Feminist Cybersecurity|https://tech."
 "safehubcollective.org/cybersecurity/]] by safehubcollective.org qualifies "
-"Tails as \"ultimate anonymity and amnesia\"."
+"TⒶILS as \"ultimate anonymity and amnesia\"."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "2015-03: [SecureDrop at The Globe and Mail](https://sec.theglobeandmail.com/"
-"securedrop/): even more newspapers recommend Tails to their potential "
+"securedrop/): even more newspapers recommend TⒶILS to their potential "
 "sources :)"
 msgstr ""
 
@@ -404,13 +404,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails has been started more than 411,474 times in March. This makes 13,273 "
+"TⒶILS has been started more than 411,474 times in March. This makes 13,273 "
 "boots a day on average."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"27,787 downloads of the OpenPGP signature of Tails ISO from our website."
+"27,787 downloads of the OpenPGP signature of TⒶILS ISO from our website."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -418,5 +418,5 @@ msgid "106 bug reports were received through WhisperBack."
 msgstr ""
 
 #. type: Plain text
-msgid "Report by BitingBird for Tails folks"
+msgid "Report by BitingBird for TⒶILS folks"
 msgstr ""

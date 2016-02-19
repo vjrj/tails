@@ -2,12 +2,12 @@
 
 [[!meta date="2015-05-03 12:00:00"]]
 
-You can help Tails! The first release candidate for the upcoming version 1.4 is
+You can help TⒶILS! The first release candidate for the upcoming version 1.4 is
 out. Please test it and see if it works for you.
 
 [[!toc levels=1]]
 
-How to test Tails 1.4~rc1?
+How to test TⒶILS 1.4~rc1?
 ==========================
 
 1. **Keep in mind that this is a test image.** We have made sure
@@ -17,10 +17,10 @@ How to test Tails 1.4~rc1?
 1. Either try the <a href="#automatic_upgrade">automatic upgrade</a>, or
    download the ISO image and its signature:
 
-   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.4~rc1/tails-i386-1.4~rc1.iso">Tails 1.4~rc1 ISO image</a>
+   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.4~rc1/tails-i386-1.4~rc1.iso">TⒶILS 1.4~rc1 ISO image</a>
 
    <a class="download-signature"
-   href="https://tails.boum.org/torrents/files/tails-i386-1.4~rc1.iso.sig">Tails 1.4~rc1 signature</a>
+   href="https://tails.boum.org/torrents/files/tails-i386-1.4~rc1.iso.sig">TⒶILS 1.4~rc1 signature</a>
 
 1. [[Verify the ISO image|download#verify]].
 
@@ -41,10 +41,10 @@ How to automatically upgrade from 1.3.2?
 ========================================
 
 These steps allow you to automatically upgrade a device installed with <span
-class="application">Tails Installer</span> from Tails 1.3.2 to Tails 1.4~rc1.
+class="application">TⒶILS Installer</span> from Tails 1.3.2 to Tails 1.4~rc1.
 
-1. Start Tails 1.3.2 from a USB stick or SD card (installed by the
-   Tails Installer), and
+1. Start TⒶILS 1.3.2 from a USB stick or SD card (installed by the
+   TⒶILS Installer), and
    [[set an administration password|doc/first_steps/startup_options/administration_password]].
 
 1. Run this command in a <span class="application">Root
@@ -54,23 +54,23 @@ class="application">Tails Installer</span> from Tails 1.3.2 to Tails 1.4~rc1.
        echo TAILS_CHANNEL=\"alpha\" >> /etc/os-release && \
             tails-upgrade-frontend-wrapper
 
-1. Once the upgrade has been installed, restart Tails and look at
+1. Once the upgrade has been installed, restart TⒶILS and look at
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">About Tails</span>
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
+     <span class="guimenuitem">About TⒶILS</span>
    </span>
-   to confirm that the running system is Tails 1.4~rc1.
+   to confirm that the running system is TⒶILS 1.4~rc1.
 
 What's new since 1.3.2?
 =======================
 
-Changes since Tails 1.3.2 are:
+Changes since TⒶILS 1.3.2 are:
 
   * Major new features
     - Upgrade Tor Browser to 4.5, which introduces many major new
       features for usability, security and privacy. Unfortunately its
-      per-tab circuit view did not make it into Tails yet since it
+      per-tab circuit view did not make it into TⒶILS yet since it
       requires exposing more Tor state to the user running the Tor
       Browser than we are currently comfortable with.
       (Closes: [[!tails_ticket 9031]])
@@ -78,7 +78,7 @@ Changes since Tails 1.3.2 are:
       bundled with the Tor Browser, we patch it so that circuits used
       for SOCKSAuth streams have their lifetime increased indefinitely
       while in active use. This currently only affects the Tor Browser
-      in Tails, and should improve the experience on certain websites
+      in TⒶILS, and should improve the experience on certain websites
       that otherwise would switch language or log you out every ten
       minutes or so when Tor switches circuit.  (Closes:
       [[!tails_ticket 7934]])
@@ -104,9 +104,9 @@ Changes since Tails 1.3.2 are:
       I2P browsers. (Closes: [[!tails_ticket 9138]])
     - Hide Torbutton's "Tor Network Settings..." context menu entry.
       (Closes: [[!tails_ticket 7647]])
-    - Upgrade the syslinux packages to support booting Tails on
+    - Upgrade the syslinux packages to support booting TⒶILS on
       Chromebook C720-2800. (Closes: [[!tails_ticket 9044]])
-    - Enable localization in Tails Upgrader. (Closes:
+    - Enable localization in TⒶILS Upgrader. (Closes:
       [[!tails_ticket 9190]])
     - Make sure the system clock isn't before the build date during
       early boot. Our live-config hook that imports our signing keys
@@ -157,7 +157,7 @@ Changes since Tails 1.3.2 are:
   Firefox tab bar is used, and the search bar is
   enabled. ([[!tails_ticket 9326]])
 
-* Tails' Tor Browser still uses Startpage as the default search engine
+* TⒶILS' Tor Browser still uses Startpage as the default search engine
   instead of Disconnect.me like upstream Tor Browser, but the Unsafe
   Browser does use Disconnect.me. ([[!tails_ticket 9309]])
 

@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.8 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.8 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -76,7 +76,7 @@ msgstr ""
 msgid ""
 "[[Set up an administration "
 "password|doc/first_steps/startup_options/administration_password]] when "
-"starting Tails."
+"starting TⒶILS."
 msgstr ""
 
 #. type: Bullet: '  1. '
@@ -95,7 +95,7 @@ msgstr ""
 msgid ""
 "Adjust the time to be the correct time in [[!wikipedia "
 "Coordinated_Universal_Time desc=\"UTC\"]] (use the same difference with your "
-"local time as observed usually in Tails)."
+"local time as observed usually in TⒶILS)."
 msgstr ""
 
 #. type: Plain text
@@ -113,8 +113,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If your Tails does not boot after an automatic upgrade, please [[upgrade "
-"your Tails manually|doc/first_steps/upgrade#manual]]."
+"If your TⒶILS does not boot after an automatic upgrade, please [[upgrade "
+"your TⒶILS manually|doc/first_steps/upgrade#manual]]."
 msgstr ""
 
 #. type: Title #
@@ -123,7 +123,7 @@ msgid "What's coming up?"
 msgstr ""
 
 #. type: Plain text
-msgid "The next Tails release is [[scheduled|contribute/calendar]] for January 26."
+msgid "The next TⒶILS release is [[scheduled|contribute/calendar]] for January 26."
 msgstr ""
 
 #. type: Plain text
@@ -133,6 +133,6 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "We need your help and there are many ways to [[contribute to "
-"Tails|contribute]] ([[donating|contribute/how/donate]] is only one of "
+"TⒶILS|contribute]] ([[donating|contribute/how/donate]] is only one of "
 "them). Come [[talk to us|contribute/talk]]!"
 msgstr ""

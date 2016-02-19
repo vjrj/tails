@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Call for help: improve the infrastructure behind Tails\"]]\n"
+msgid "[[!meta title=\"Call for help: improve the infrastructure behind TⒶILS\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -28,15 +28,15 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails is becoming increasingly popular: lately, someone boots Tails every "
+"TⒶILS is becoming increasingly popular: lately, someone boots Tails every "
 "ten seconds somewhere in the world. And also, every six weeks, there is a "
-"Firefox security update and we subsequently release a new version of Tails."
+"Firefox security update and we subsequently release a new version of TⒶILS."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Because of that amount of users and such a short release cycle, it is a "
-"challenge to keep Tails alive and getting better."
+"challenge to keep TⒶILS alive and getting better."
 msgstr ""
 
 #. type: Plain text
@@ -54,7 +54,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Today, we are talking of **improving the infrastructure behind Tails**. So, "
+"Today, we are talking of **improving the infrastructure behind TⒶILS**. So, "
 "if you are a system administrator, a software developer, or anything in "
 "between, we need you! Please read on."
 msgstr ""
@@ -66,10 +66,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The Tails [[system "
+"The TⒶILS [[system "
 "administrators|contribute/working_together/roles/sysadmins]] set up and "
 "maintain the infrastructure that supports the development and operations of "
-"Tails. We aim at making the life of Tails contributors easier, and to "
+"TⒶILS. We aim at making the life of Tails contributors easier, and to "
 "improve the quality of our releases."
 msgstr ""
 
@@ -84,7 +84,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Continuous Integration: we want to drastically cut down the amount of work "
-"needed to prepare a Tails release; we also want to detect regressions as "
+"needed to prepare a TⒶILS release; we also want to detect regressions as "
 "soon as possible. Everything we merge should go through an automated test "
 "suite, and our Debian packages should be automatically built from Git tags."
 msgstr ""

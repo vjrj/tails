@@ -49,7 +49,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>帮助我们修复您的 bug！</h1>\n"
@@ -68,11 +68,11 @@ msgstr "Electrum 的持久化已禁用"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
-"在您重新启动 Tails 时，Electrum 的所有数据都将丢失，包括您的比特币钱包。强烈"
+"在您重新启动 TⒶILS 时，Electrum 的所有数据都将丢失，包括您的比特币钱包。强烈"
 "建议您只在持久化功能已启用时运行 Electrum。"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:18
@@ -275,9 +275,9 @@ msgid "not available"
 msgstr "不可用"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -294,7 +294,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
+msgid "About TⒶILS"
 msgstr "关于 "
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
@@ -307,7 +307,7 @@ msgstr "附加软件"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "升级失败。可能是网络故障导致，请检查网络连接或尝试重启 Tails，或者查看系统日"
@@ -332,8 +332,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "无法同步时钟！"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "该版本 Tails 的已知安全问题："
+msgid "This version of TⒶILS has known security issues:"
+msgstr "该版本 TⒶILS 的已知安全问题："
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -349,10 +349,10 @@ msgstr "网卡 ${nic} 已禁用"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC 欺骗失败，网卡 ${nic_name} (${nic}) 已暂时禁用。\n"
-"您可能宁愿重启 Tails 并禁用 MAC 欺骗。"
+"您可能宁愿重启 TⒶILS 并禁用 MAC 欺骗。"
 
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
 msgid "All networking disabled"
@@ -363,11 +363,11 @@ msgstr "所有网络已禁用"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC 欺骗对 ${nic_name} (${nic}) 失败。错误恢复也一同失败，所以所有网络已被禁"
 "用。\n"
-"您可能宁愿重启 Tails 并禁用 MAC 欺骗。"
+"您可能宁愿重启 TⒶILS 并禁用 MAC 欺骗。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
@@ -383,17 +383,17 @@ msgstr "错误"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr ""
 "<b>内存不足，无法检测更新。</b>\n"
 "\n"
-"请确保系统满足 Tails 的最低运行要求。参阅文件：///usr/share/doc/tails/"
+"请确保系统满足 TⒶILS 的最低运行要求。参阅文件：///usr/share/doc/tails/"
 "website/doc/about/requirements.en.html\n"
 "\n"
 "重启再次检测更新。\n"
@@ -408,8 +408,8 @@ msgstr "警告：检测到虚拟机！"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
-msgstr "主机操作系统和虚拟化软件都可能监视您在使用 Tails 时的行为。"
+"monitor what you are doing in TⒶILS."
+msgstr "主机操作系统和虚拟化软件都可能监视您在使用 TⒶILS 时的行为。"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
@@ -418,11 +418,11 @@ msgstr "警告：检测到非自由虚拟机！"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
-"主机的操作系统和虚拟化软件都可能监视您在使用 Tails 时的行为。只有自由软件值得"
+"主机的操作系统和虚拟化软件都可能监视您在使用 TⒶILS 时的行为。只有自由软件值得"
 "信赖，包括主机的操作系统和虚拟化软件。"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
@@ -561,12 +561,12 @@ msgstr "报告错误"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Tails 文档"
+msgid "TⒶILS documentation"
+msgstr "TⒶILS 文档"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "了解如何使用 Tails"
+msgid "Learn how to use TⒶILS"
+msgstr "了解如何使用 TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 msgid "Anonymous overlay network browser"
@@ -577,8 +577,8 @@ msgid "I2P Browser"
 msgstr "I2P 浏览器"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "更深入了解 Tails"
+msgid "Learn more about TⒶILS"
+msgstr "更深入了解 TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -608,6 +608,6 @@ msgstr "不匿名的浏览万维网"
 msgid "Unsafe Web Browser"
 msgstr "不安全的网页浏览器"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Tails 指定工具"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "TⒶILS 指定工具"

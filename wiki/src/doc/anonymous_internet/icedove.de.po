@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2016-01-28 15:18+0100\n"
 "PO-Revision-Date: 2016-01-24 11:31+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,10 +24,10 @@ msgstr "[[!meta title=\"E-Mails mit Icedove (Thunderbird)\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"For reading and writing emails, Tails includes <span\n"
+"For reading and writing emails, TⒶILS includes <span\n"
 "class=\"application\">Icedove</span>.\n"
 msgstr ""
-"Zum Lesen und Schreiben von E-Mails enthält Tails\n"
+"Zum Lesen und Schreiben von E-Mails enthält TⒶILS\n"
 "<span class=\"application\">Icedove</span>.\n"
 
 #. type: Plain text
@@ -110,11 +110,11 @@ msgstr "OpenPGP Verschlüsselung mit Enigmail\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<span class=\"application\">Icedove</span> in Tails includes the\n"
+"<span class=\"application\">Icedove</span> in TⒶILS includes the\n"
 "<span class=\"application\">[Enigmail](https://www.enigmail.net/)</span>\n"
 "extension to encrypt and authenticate emails using OpenPGP.\n"
 msgstr ""
-"<span class=\"application\">Icedove</span> in Tails enthält die\n"
+"<span class=\"application\">Icedove</span> in TⒶILS enthält die\n"
 "<span class=\"application\">[Enigmail](https://www.enigmail.net/)</span>-Erweiterung,\n"
 "um E-Mails mit OpenPGP zu verschlüsseln und authentifizieren.\n"
 
@@ -188,11 +188,11 @@ msgstr "Verbesserte Privatsphäre mit TorBirdy\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<span class=\"application\">Icedove</span> in Tails includes the\n"
+"<span class=\"application\">Icedove</span> in TⒶILS includes the\n"
 "<span class=\"application\">[TorBirdy](https://trac.torproject.org/projects/tor/wiki/torbirdy)</span>\n"
 "extension for additional privacy and anonymity.\n"
 msgstr ""
-"<span class=\"application\">Icedove</span> in Tails enthält die\n"
+"<span class=\"application\">Icedove</span> in TⒶILS enthält die\n"
 "<span class=\"application\">[TorBirdy](https://trac.torproject.org/projects/tor/wiki/torbirdy)</span>-Erweiterung\n"
 "für zusätzliche Privatsphäre und Anonymität.\n"
 

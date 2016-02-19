@@ -24,7 +24,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.22 is out. Please test it and see if all works for you."
 msgstr ""
 
@@ -33,7 +33,7 @@ msgid "[[!toc levels=1]]"
 msgstr ""
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.22~rc1?"
+msgid "How to test TⒶILS 0.22~rc1?"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -50,13 +50,13 @@ msgstr ""
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/"
-"tails-i386-0.22~rc1/tails-i386-0.22~rc1.iso\" >Tails 0.22~rc1 ISO image</a>"
+"tails-i386-0.22~rc1/tails-i386-0.22~rc1.iso\" >TⒶILS 0.22~rc1 ISO image</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-signature\" href=\"https://tails.boum.org/torrents/files/"
-"tails-i386-0.22~rc1.iso.sig \" >Tails 0.22~rc1 signature</a>"
+"tails-i386-0.22~rc1.iso.sig \" >TⒶILS 0.22~rc1 signature</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -181,8 +181,8 @@ msgstr ""
 
 #. type: Content of: <ul><li><p>
 msgid ""
-"Tails Installer [[!tails_ticket 6462 desc=\"fails to list USB stick with "
-"isohybrid Tails installed\"]]."
+"TⒶILS Installer [[!tails_ticket 6462 desc=\"fails to list USB stick with "
+"isohybrid TⒶILS installed\"]]."
 msgstr ""
 
 #. type: Content of: <ul><li><p>
@@ -193,6 +193,6 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"All these issues are being worked on and will hopefully be fixed in Tails "
+"All these issues are being worked on and will hopefully be fixed in TⒶILS "
 "0.22."
 msgstr ""

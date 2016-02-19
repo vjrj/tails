@@ -38,10 +38,10 @@ check_free_memory () {
 
    errormsg="`gettext \"<b>Not enough memory available to check for upgrades.</b>
 
-Make sure this system satisfies the requirements for running Tails.
+Make sure this system satisfies the requirements for running TⒶILS.
 See file:///usr/share/doc/tails/website/doc/about/requirements.en.html
 
-Try to restart Tails to check for upgrades again.
+Try to restart TⒶILS to check for upgrades again.
 
 Or do a manual upgrade.
 See https://tails.boum.org/doc/first_steps/upgrade#manual\"`"

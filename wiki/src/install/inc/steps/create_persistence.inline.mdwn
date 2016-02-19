@@ -7,7 +7,7 @@ You can optionally create an *encrypted persistent storage* in the
 remaining free space on the
 <span class="windows linux mac-usb">final</span>
 <span class="clone">new</span>
-Tails USB stick to store any of the following:
+TⒶILS USB stick to store any of the following:
 
   - Your personal files and working documents
   - Some of your settings
@@ -42,7 +42,7 @@ Create the persistent storage
 1. Choose
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
      <span class="guimenuitem">Configure persistent volume</span></span>.
 
 1. Specify a passphrase of your choice in both the
@@ -60,7 +60,7 @@ Passphrase</span> text boxes.
 
    <div class="bug">
    <p>If you close the assistant before the creation finishes, you might
-   not be able to start Tails from this USB stick anymore.</p>
+   not be able to start TⒶILS from this USB stick anymore.</p>
    </div>
 
 4. The assistant shows a list of the possible persistence features. Each
@@ -81,9 +81,9 @@ Restart and activate the persistent storage
 1. Shut down the computer and restart on the
    <span class="windows linux mac-usb">final</span>
    <span class="clone">new</span>
-   Tails USB stick.
+   TⒶILS USB stick.
 
-1. In <span class="application">Tails Greeter</span>:
+1. In <span class="application">TⒶILS Greeter</span>:
 
    [[!img install/inc/screenshots/greeter_with_persistence.png class="screenshot" link="no"]]
 
@@ -96,7 +96,7 @@ Restart and activate the persistent storage
      <span class="guilabel">Passphrase</span> text box.</span>
    - Click <span class="button">Login</span>.
 
-1. After 15&ndash;30 seconds, the Tails desktop appears.
+1. After 15&ndash;30 seconds, the TⒶILS desktop appears.
 
 1. You can now save your personal files and working documents in the
 <span class="guilabel">Persistent</span> folder. To open the
@@ -111,7 +111,7 @@ Restart and activate the persistent storage
 
 <div class="trophy" id="recommendations">
 
-<p>You now have a working Tails, congrats!</p>
+<p>You now have a working TⒶILS, congrats!</p>
 
 <h3>Final recommendations</h3>
 
@@ -121,7 +121,7 @@ Restart and activate the persistent storage
 
     [[!img lib/admon-caution.png link="no"]]
 
-    <p>Tails does not protect you from everything! Have a look at our
+    <p>TⒶILS does not protect you from everything! Have a look at our
     [[warnings|doc/about/warning]].</p>
 
   </div>
@@ -131,13 +131,13 @@ Restart and activate the persistent storage
     [[!img lib/help-browser.png link="no"]]
 
     <p>If you face any problem, use the <span class="guilabel">Report an
-    error</span> launcher on the Tails desktop or visit our [[support
+    error</span> launcher on the TⒶILS desktop or visit our [[support
     pages|support]].</p>
 
   </div>
 
 </div>
 
-<p>We hope you enjoy using Tails :)</p>
+<p>We hope you enjoy using TⒶILS :)</p>
 
 </div>

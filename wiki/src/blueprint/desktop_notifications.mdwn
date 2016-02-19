@@ -13,20 +13,20 @@
   - Perl, `Desktop::Notify`, ported to a *transient* notification with
     an action, so clicking it does open the doc, but the notification
     disappears after 4 seconds
-  - broken on Tails/Wheezy already (the link to the doc is not visible)
+  - broken on TⒶILS/Wheezy already (the link to the doc is not visible)
     ⇒ the current state of feature/jessie is not a regression, it
     actually improves things a bit.
 * `config/chroot_local-includes/usr/local/sbin/tails-spoof-mac`
   - Shell, uses `notify-send` via
     [[!tails_gitweb config/chroot_local-includes/usr/local/sbin/tails-notify-user]]
-  - broken on Tails/Wheezy already (the link to the doc is not
+  - broken on TⒶILS/Wheezy already (the link to the doc is not
     visible, and one of the two possible links was broken anyway) ⇒
-    the link to the doc has been removed for Tails 2.0, and a better
+    the link to the doc has been removed for TⒶILS 2.0, and a better
     solution can be found later ([[!tails_ticket 10559]]).
   - A second iteration could turn this into
     a dialog box: we now have an offline mode for those who want it,
     and else, if you want to be online, then MAC spoofing failure
-    prevents you from using Tails in most cases so we can be noisy.
+    prevents you from using TⒶILS in most cases so we can be noisy.
   - The notification code (`notify_panic_*`) that's started as
     a background process could advantageously be moved to the user
     session (it's probably a good idea to avoid starting background

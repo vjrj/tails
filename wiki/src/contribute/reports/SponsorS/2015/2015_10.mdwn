@@ -1,4 +1,4 @@
-[[!meta title="Tails October 2015 report"]]
+[[!meta title="TⒶILS October 2015 report"]]
 
 [[!toc levels=2]]
 
@@ -11,7 +11,7 @@ Deliverable identifiers and descriptions are not free-form: they must
 be copy'n'pasted as-is from the proposal sent to the sponsor.
 </div>
 
-This reports covers the activity of Tails in October 2015.
+This reports covers the activity of TⒶILS in October 2015.
 
 Everything in this report can be made public.
 
@@ -21,20 +21,20 @@ ticket #6938 can be seen on <https://labs.riseup.net/code/issues/6938>.
 
 # A. Replace Claws Mail with Icedove
 
-  - A.1.3. Integrate Icedove into Tails
+  - A.1.3. Integrate Icedove into TⒶILS
 
-    We configured Icedove in Tails to match our security goals (#6151),
+    We configured Icedove in TⒶILS to match our security goals (#6151),
     as part of this we disabled:
 
       - The remote email account feature (#10009)
       - The automatic add-on updates (#10428)
 
-    We adapted Torbirdy to suit our needs in Tails. (#10007)
+    We adapted Torbirdy to suit our needs in TⒶILS. (#10007)
 
     During this work we discovered a bug in Torbirdy sometimes
     choosing a wrong language, which we patched upstream. Once our
     patch was merged, we updated the Torbirdy Debian package to a new
-    version which we could also include in Tails. (#9821)
+    version which we could also include in TⒶILS. (#9821)
 
   - A.1.4. Provide a migration path for our users from Claws Mail to Icedove
 
@@ -47,16 +47,16 @@ ticket #6938 can be seen on <https://labs.riseup.net/code/issues/6938>.
 
     To make this migration easier to users, we enabled automatically the
     Icedove persistence feature when the Claws Mail persistence was
-    enabled (#9498) and temporarily added the `nmh` package to Tails.
+    enabled (#9498) and temporarily added the `nmh` package to TⒶILS.
 
   - A.1.5. Update Icedove documentation
 
     The previous Thunderbird documentation was [completely
     rewritten](https://tails.boum.org/doc/anonymous_internet/icedove/). (#7158)
 
-  - A.1.6. Release Icedove in Tails
+  - A.1.6. Release Icedove in TⒶILS
 
-    Icedove has been added to Tails 1.7. (#10285)
+    Icedove has been added to TⒶILS 1.7. (#10285)
 
     It is advertised as a technology preview in our
     [release notes](https://tails.boum.org/news/version_1.7/). We want
@@ -138,7 +138,7 @@ servers since the deployment of the automatic ISO builds:
   branches based on our maintenance one were too old to run the test
   suite in Jenkins correctly. These topic branches were mainly
   documentation ones so we could turn off their automated testing
-  temporarily (this could be reverted once Tails 1.7 was released).
+  temporarily (this could be reverted once TⒶILS 1.7 was released).
 
   According to the GlobalBuildStat Jenkins plugin, in the second half of
   October, our Jenkins instance ran the test suite 240 times.
@@ -153,7 +153,7 @@ servers since the deployment of the automatic ISO builds:
   - B.3.5. Write tests for I2P
 
     Basic I2P functionality and configuration that is important in the
-    context of Tails is now tested (#6306):
+    context of TⒶILS is now tested (#6306):
 
     <https://git-tails.immerda.ch/tails/tree/features/i2p.feature?h=stable>
 
@@ -177,7 +177,7 @@ servers since the deployment of the automatic ISO builds:
 
       This started out as a robustness improvement in the test suite,
       since many tests failed randomly due to Tor. We then implemented
-      it as a feature in Tails, since it arguably should improve the
+      it as a feature in TⒶILS, since it arguably should improve the
       user experience too (#9516).
 
   - B.3.9. Optimize tests that need a persistent volume
@@ -293,7 +293,7 @@ the end of October.
 
 ## D. Migration to Debian Jessie
 
-  - D.3.1 Update our test suite for Tails Jessie
+  - D.3.1 Update our test suite for TⒶILS Jessie
 
     * Fix memory erasure tests in Debian Jessie. (#8317, #9705)
 

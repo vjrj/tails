@@ -15,11 +15,11 @@ what our current delta was.
 Existing data
 =============
 
-* <http://deriv.debian.net/Tails/sources.new>:
+* <http://deriv.debian.net/TⒶILS/sources.new>:
   - Packages we have that are not Debian.
   - looks at our devel APT suite
   - no room for an explanation
-* <http://deriv.debian.net/Tails/sources.patches>:
+* <http://deriv.debian.net/TⒶILS/sources.patches>:
   - list of deviations from existing Debian packages
   - patches we applied, they are extracted and kept up to date:
     useful, but no room for explanations on why these patches exist

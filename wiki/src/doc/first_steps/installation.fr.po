@@ -24,10 +24,10 @@ msgstr "[[!meta title=\"Installation sur une clé USB ou une carte SD\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Tails includes <span class=\"application\">Tails Installer</span>: a custom\n"
+"TⒶILS includes <span class=\"application\">TⒶILS Installer</span>: a custom\n"
 "installer for USB sticks and SD cards.\n"
 msgstr ""
-"Tails comprend l'<span class=\"application\">Installeur de Tails</span> : un installeur\n"
+"TⒶILS comprend l'<span class=\"application\">Installeur de TⒶILS</span> : un installeur\n"
 "personnalisé pour clés USB et cartes SD.\n"
 
 #. type: Plain text
@@ -38,11 +38,11 @@ msgstr "<div class=\"tip\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>Using <span class=\"application\">Tails Installer</span> allows you to\n"
+"<p>Using <span class=\"application\">TⒶILS Installer</span> allows you to\n"
 "later [[create a persistent volume|persistence]] in the free space\n"
 "left on the device.</p>\n"
 msgstr ""
-"<p>Utiliser l'<span class=\"application\">Installeur de Tails</span> vous permet de\n"
+"<p>Utiliser l'<span class=\"application\">Installeur de TⒶILS</span> vous permet de\n"
 "[[créer un volume persistant|persistence]] plus tard sur l'espace libre\n"
 "restant du périphérique.</p>\n"
 
@@ -59,20 +59,20 @@ msgstr "<div class=\"note\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p><span class=\"application\">Tails Installer</span> can only install Tails on a\n"
+"<p><span class=\"application\">TⒶILS Installer</span> can only install TⒶILS on a\n"
 "USB stick or SD card of <strong>at least 4 GB</strong>.</p>\n"
 msgstr ""
-"<p>L'<span class=\"application\">Installeur de Tails</span> peut uniquement installer Tails\n"
+"<p>L'<span class=\"application\">Installeur de TⒶILS</span> peut uniquement installer TⒶILS\n"
 "sur une clé USB ou une carte SD d'<strong>au moins 4 Go</strong>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>Tails requires a dedicated USB stick or SD card. It is impossible to add\n"
+"<p>TⒶILS requires a dedicated USB stick or SD card. It is impossible to add\n"
 "another operating system or partition on the same device if you want to benefit\n"
 "from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|persistence]].</p>\n"
 msgstr ""
-"<p>Tails nécessite une clé USB ou une carte SD dédiée. Il est impossible d'ajouter\n"
+"<p>TⒶILS nécessite une clé USB ou une carte SD dédiée. Il est impossible d'ajouter\n"
 "un autre système d'exploitation ou une autre partition sur le même périphérique si\n"
 "vous voulez bénéficier des [[mises à jour automatiques|upgrade]] ou créer un\n"
 "[[volume persistant chiffré|persistence]].</p>\n"
@@ -80,38 +80,38 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"For the moment, <span class=\"application\">Tails Installer</span> is only\n"
-"available from inside Tails. So you need to start Tails from a first\n"
+"For the moment, <span class=\"application\">TⒶILS Installer</span> is only\n"
+"available from inside TⒶILS. So you need to start TⒶILS from a first\n"
 "media, and later clone it onto the device of your choice, USB stick or SD card.\n"
 msgstr ""
-"Pour le moment, l'<span class=\"application\">Installeur de Tails</span> est seulement\n"
-"disponible depuis Tails. Vous devez donc démarrer Tails depuis un premier support, puis\n"
+"Pour le moment, l'<span class=\"application\">Installeur de TⒶILS</span> est seulement\n"
+"disponible depuis TⒶILS. Vous devez donc démarrer TⒶILS depuis un premier support, puis\n"
 "le cloner sur le périphérique de votre choix, clé USB ou carte SD.\n"
 
 #. type: Bullet: '1. '
-msgid "Get a first Tails running. To do so you can either:"
+msgid "Get a first TⒶILS running. To do so you can either:"
 msgstr ""
-"Commencer par obtenir un Tails qui fonctionne. Pour cela, vous pouvez soit :"
+"Commencer par obtenir un TⒶILS qui fonctionne. Pour cela, vous pouvez soit :"
 
 #. type: Bullet: '   - '
-msgid "Start Tails from a [[Tails DVD|dvd]] (recommended)."
-msgstr "Démarrer Tails depuis un [[DVD Tails|dvd]] (recommandé)."
+msgid "Start TⒶILS from a [[TⒶILS DVD|dvd]] (recommended)."
+msgstr "Démarrer TⒶILS depuis un [[DVD TⒶILS|dvd]] (recommandé)."
 
 #. type: Bullet: '   - '
 msgid ""
-"Start Tails from another Tails USB stick or SD card, for example from a "
+"Start TⒶILS from another TⒶILS USB stick or SD card, for example from a "
 "friend."
 msgstr ""
-"Démarrer Tails depuis une autre clé USB ou carte SD Tails, par exemple celle "
+"Démarrer TⒶILS depuis une autre clé USB ou carte SD TⒶILS, par exemple celle "
 "d'un ami."
 
 #. type: Bullet: '   - '
 msgid ""
-"[[Manually install Tails onto another USB or SD card|installation/manual]] "
-"and start *Tails Installer* from it."
+"[[Manually install TⒶILS onto another USB or SD card|installation/manual]] "
+"and start *TⒶILS Installer* from it."
 msgstr ""
-"[[Installer manuellement Tails sur une autre clé USB ou carte SD|"
-"installation/manual]] et lancer l'*Installeur de Tails* depuis celle-ci."
+"[[Installer manuellement TⒶILS sur une autre clé USB ou carte SD|"
+"installation/manual]] et lancer l'*Installeur de TⒶILS* depuis celle-ci."
 
 #. type: Plain text
 #, no-wrap
@@ -119,18 +119,18 @@ msgid ""
 "2. Choose\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Tails Installer</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">TⒶILS Installer</span>\n"
 "   </span>\n"
-"   to start <span class=\"application\">Tails Installer</span>.\n"
+"   to start <span class=\"application\">TⒶILS Installer</span>.\n"
 msgstr ""
 "2. Choisissez\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Programme d'installation de Tails</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">Programme d'installation de TⒶILS</span>\n"
 "   </span>\n"
-"   pour démarrer l'<span class=\"application\">Installeur de Tails</span>.\n"
+"   pour démarrer l'<span class=\"application\">Installeur de TⒶILS</span>.\n"
 
 #. type: Bullet: '3. '
 #, fuzzy
@@ -145,8 +145,8 @@ msgstr ""
 "class=\"button\">Cloner & Installer</span>."
 
 #. type: Bullet: '4. '
-msgid "Plug the device onto which you want to install Tails."
-msgstr "Branchez le périphérique sur lequel vous souhaitez installer Tails."
+msgid "Plug the device onto which you want to install TⒶILS."
+msgstr "Branchez le périphérique sur lequel vous souhaitez installer TⒶILS."
 
 #. type: Plain text
 #, no-wrap
@@ -201,10 +201,10 @@ msgstr "   </div>\n"
 #. type: Bullet: '6. '
 msgid ""
 "To start the installation, click on the <span class=\"button\">Install "
-"Tails</span> button."
+"TⒶILS</span> button."
 msgstr ""
 "Pour démarrer l'installation, cliquez sur le bouton <span class=\"button"
-"\">Installer Tails</span>."
+"\">Installer TⒶILS</span>."
 
 #. type: Bullet: '7. '
 msgid ""
@@ -222,21 +222,21 @@ msgstr "<div class=\"next\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>After the installation completes, you can [[start Tails|start_tails]]\n"
+"<p>After the installation completes, you can [[start TⒶILS|start_tails]]\n"
 "from this new device.</p>\n"
 msgstr ""
-"<p>Une fois l'installation terminée, vous pouvez [[démarrer Tails|start_tails]]\n"
+"<p>Une fois l'installation terminée, vous pouvez [[démarrer TⒶILS|start_tails]]\n"
 "depuis ce nouveau périphérique.</p>\n"
 
-#~ msgid "Using Tails Installer\n"
-#~ msgstr "Utiliser l'Installeur de Tails\n"
+#~ msgid "Using TⒶILS Installer\n"
+#~ msgstr "Utiliser l'Installeur de TⒶILS\n"
 
 #~ msgid ""
-#~ "Start Tails from another media than the device, USB stick or SD card, "
-#~ "onto which you want to install Tails."
+#~ "Start TⒶILS from another media than the device, USB stick or SD card, "
+#~ "onto which you want to install TⒶILS."
 #~ msgstr ""
-#~ "Démarrez Tails depuis un autre support que la clé USB ou carte SD sur "
-#~ "laquelle vous souhaitez installer Tails."
+#~ "Démarrez TⒶILS depuis un autre support que la clé USB ou carte SD sur "
+#~ "laquelle vous souhaitez installer TⒶILS."
 
 #~ msgid "Instructions\n"
 #~ msgstr "Instructions\n"

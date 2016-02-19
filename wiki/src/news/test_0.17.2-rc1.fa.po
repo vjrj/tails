@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.17.2 is out. Please test it and see if all works for you."
 msgstr ""
 "شما می‌توانید به تیلز کمک کنید! اولین (و امیدواریم تنها) نامزد انتشار برای "
@@ -40,7 +40,7 @@ msgid "[[!toc levels=1]]"
 msgstr "[[!toc levels=1]]"
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.17.2~rc1?"
+msgid "How to test TⒶILS 0.17.2~rc1?"
 msgstr "چگونه تیلز 0.17.2~rc1 را امتحان کنیم؟"
 
 #. type: Content of: <ol><li><p>
@@ -61,7 +61,7 @@ msgstr "تصویر ایزو و امضای آن را دانلود کنید:"
 msgid ""
 "<a class=\"download-file\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso\" "
-">Tails 0.17.2~rc1 ISO image</a>"
+">TⒶILS 0.17.2~rc1 ISO image</a>"
 msgstr ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/ta"
 "ils-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso\" >تصویر ایزوی تیلز 0.17.2~rc1 "
@@ -71,7 +71,7 @@ msgstr ""
 msgid ""
 "<a class=\"download-signature\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso.pgp\" "
-">Tails 0.17.2~rc1 signature</a>"
+">TⒶILS 0.17.2~rc1 signature</a>"
 msgstr ""
 "<a class=\"download-signature\" href=\"http://dl.amnesia.boum.org/tails/testi"
 "ng/tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso.pgp\" >امضای تیلز "
@@ -179,7 +179,7 @@ msgstr "بومی‌سازی"
 
 #. type: Content of: <ul><ul><li>
 msgid ""
-"Tails USB installer: update translations for French, German, Spanish, "
+"TⒶILS USB installer: update translations for French, German, Spanish, "
 "Finnish, Greek, Italian, Latvian, Dutch, Polish and Chinese."
 msgstr ""
 "نصب‌کنندهٔ یواس‌بی تیلز: به‌روزرسانی ترجمه‌های فرانسوی، آلمانی، اسپانیایی، "
@@ -187,7 +187,7 @@ msgstr ""
 
 #. type: Content of: <ul><ul><li>
 msgid ""
-"Tails Greeter: update translations for Farsi, Chinese, French; new "
+"TⒶILS Greeter: update translations for Farsi, Chinese, French; new "
 "translations: Finnish, Norwegian Bokmål, Galician."
 msgstr ""
 "خوشامدگوی تیلز: به روزرسانی ترجمه‌های فارسی، چینی، فرانسوی؛ ترجمه‌های جدید:‌ "

@@ -1,14 +1,14 @@
-[[!meta title="How to automatically download and seed Tails over BitTorrent"]]
+[[!meta title="How to automatically download and seed TⒶILS over BitTorrent"]]
 
 <div id="intro">
 
-Once you participate in spreading Tails by seeding it over BitTorrent,
+Once you participate in spreading TⒶILS by seeding it over BitTorrent,
 it is important to make sure you share the latest and greatest version
 as soon as it's out, so that other users can obtain these updates as
 quickly as possible.
 
 If you run GNU/Linux, then it is fairly easy to automate the process
-of retrieving and seeding new Tails releases as they are released.
+of retrieving and seeding new TⒶILS releases as they are released.
 
 The tools involved are <a
 href='https://code.google.com/p/rssdler/'>rssdler</a> and <a

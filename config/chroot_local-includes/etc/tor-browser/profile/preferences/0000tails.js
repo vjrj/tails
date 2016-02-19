@@ -8,7 +8,7 @@ pref("extensions.torbutton.settings_method", "custom");
 pref("extensions.torbutton.socks_port", 9150);
 pref("extensions.torbutton.use_privoxy", false);
 
-// Tails-specific configuration below
+// TⒶILS-specific configuration below
 
 // Disable the Tor Browser's per-tab circuit view. It demands more
 // from the Tor control port than our tor-controlport-filter currently
@@ -18,7 +18,7 @@ pref("extensions.torbutton.use_privoxy", false);
 // why we introduced the control port filter in the first place.
 pref("extensions.torbutton.display_circuit", false);
 
-// Since the slider notification will be shown everytime at each Tails
+// Since the slider notification will be shown everytime at each TⒶILS
 // boot, which is bad (nagging) UX, we disable it.
 pref("extensions.torbutton.show_slider_notification", false);
 
@@ -41,7 +41,7 @@ pref("extensions.torbutton.prompted_language", true);
 pref("extensions.torbutton.block_nthread", true);
 pref("extensions.torbutton.block_nthwrite", true);
 
-// Tails-specific Torbutton preferences
+// TⒶILS-specific Torbutton preferences
 pref("extensions.torbutton.block_tforms", false);
 pref("extensions.torbutton.display_panel", false);
 pref("extensions.torbutton.lastUpdateCheck", "9999999999.999");
@@ -50,27 +50,27 @@ pref("extensions.torbutton.nonontor_sessionstore", true);
 pref("extensions.torbutton.nontor_memory_jar", true);
 pref("extensions.torbutton.startup", true);
 pref("extensions.torbutton.startup_state", 1);
-pref("extensions.torbutton.test_enabled", false); // Tails-specific
+pref("extensions.torbutton.test_enabled", false); // TⒶILS-specific
 pref("extensions.torbutton.tor_memory_jar", true);
 pref("extensions.torbutton.control_port", 9052);
 
 // These must be set to the same value to prevent Torbutton from
 // flashing its upgrade notification.
-pref("extensions.torbutton.lastBrowserVersion", "Tails");
-pref("torbrowser.version", "Tails");
+pref("extensions.torbutton.lastBrowserVersion", "TⒶILS");
+pref("torbrowser.version", "TⒶILS");
 
 // Quoting TBB: "Now handled by plugins.click_to_play"
-// Tails: we don't support these plugins, so letting NoScript block it seems
+// TⒶILS: we don't support these plugins, so letting NoScript block it seems
 // to be potentially useful defense-in-depth.
 pref("noscript.forbidFlash", true);
 pref("noscript.forbidSilverlight", true);
 pref("noscript.forbidJava", true);
 pref("noscript.forbidPlugins", true);
 
-// Other Tails-specific NoScript preferences
+// Other TⒶILS-specific NoScript preferences
 pref("noscript.untrusted", "google-analytics.com");
 
-// Other non-Torbutton, Tails-specific prefs
+// Other non-Torbutton, TⒶILS-specific prefs
 pref("browser.download.dir", "/home/amnesia/Tor Browser");
 pref("browser.download.folderList", 2);
 pref("browser.download.manager.closeWhenDone", true);

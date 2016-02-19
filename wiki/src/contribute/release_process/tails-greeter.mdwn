@@ -1,6 +1,6 @@
 [[!meta title="Releasing tails-greeter"]]
 
-*Tails Greeter* is a native Debian package.
+*TⒶILS Greeter* is a native Debian package.
 
 [[!toc levels=1]]
 
@@ -40,7 +40,7 @@ If everything is fine, tag the release and push the changes:
     gbp buildpackage --git-tag-only --git-sign-tags --git-keyid=$PGP_PUB_KEY && \
     git push origin master:master && git push --tags
 
-Add the Debian package to Tails
+Add the Debian package to TⒶILS
 ===============================
 
 Sign the package:

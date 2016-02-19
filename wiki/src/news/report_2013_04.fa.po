@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"سه‌شنبه ۷ مه ۱۲:۲۶:۳۹ ۲۰۱۳\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for April, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for April, 2013\"]]\n"
 msgstr "[[!meta title=\"گزارش آوریل ۲۰۱۳ تیلز\"]]\n"
 
 #. type: Plain text
@@ -39,7 +39,7 @@ msgid "Releases\n"
 msgstr "انتشارها\n"
 
 #. type: Plain text
-msgid "Tails 0.17.2 [[was released|news/version_0.17.2]] on April 9th."
+msgid "TⒶILS 0.17.2 [[was released|news/version_0.17.2]] on April 9th."
 msgstr "تیلز ۰٫۱۷٫۱ روز ۹ آوریل [[منتشر شد|news/version_0.17.2]]."
 
 #. type: Title =
@@ -49,9 +49,9 @@ msgstr "متریک‌ها\n"
 
 #. type: Bullet: '  - '
 msgid ""
-"121 183 connections of Tails to the Tor network. This makes a boot every 21 "
+"121 183 connections of TⒶILS to the Tor network. This makes a boot every 21 "
 "seconds on average (this is an approximation from the requests made to the "
-"security announcements feed when Tails is connected to Tor)."
+"security announcements feed when TⒶILS is connected to Tor)."
 msgstr ""
 "۱۲۱٫۱۸۳ اتصال از تیلز به شبکهٔ تور ایجاد شد، یعنی هر ۲۱ ثانیه یک راه‌اندازی. "
 "(این عدد بر حسب درخواست‌ها برای خوراک اعلان‌های امنیتی محاسبه می‌شود)."
@@ -62,7 +62,7 @@ msgstr "۷۱ گزارش ایراد ارسال‌شده از ویسپربک در�
 
 #. type: Bullet: '  - '
 msgid ""
-"984 comments were posted on the forum, with 76 signed by Tails.  This means "
+"984 comments were posted on the forum, with 76 signed by TⒶILS.  This means "
 "there has been much more activity on the forum, and that we are having a "
 "hard time coping with it, but also that anonymous contributors are providing "
 "more and more good answers without our help."
@@ -92,7 +92,7 @@ msgstr ""
 msgid ""
 "The persistence feature to [[todo/remember_installed_packages]] "
 "([[!tails_gitweb_branch feature/remember_installed_packages desc=\"has "
-"matured a lot\"]]) and should be ready for Tails 0.18."
+"matured a lot\"]]) and should be ready for TⒶILS 0.18."
 msgstr ""
 "ویژگی مانا برای  [[todo/remember_installed_packages]] ([["
 "!tails_gitweb_branch feature/remember_installed_packages desc=\"به بلوغ "
@@ -109,7 +109,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "Torbutton 1.5.x [[!tails_gitweb_branch feature/torbutton-1.5.x desc=\"can "
-"now be included\"]] in Tails. We also reorganized and cleaned our iceweasel "
+"now be included\"]] in TⒶILS. We also reorganized and cleaned our iceweasel "
 "prefs to look a bit more like the ones from TBB."
 msgstr ""
 "تورباتن ۱٫۵٫x [[!tails_gitweb_branch feature/torbutton-1.5.x desc=\"را حالا "
@@ -129,7 +129,7 @@ msgstr ""
 msgid ""
 "The \"About GNOME\" menu entry [[!tails_gitweb_branch feature/about_tails "
 "desc=\"has been customized\"]] to provide information about the running "
-"version of Tails."
+"version of TⒶILS."
 msgstr ""
 "ورودی فهرست «دربارهٔ گنوم» [[!tails_gitweb_branch feature/about_tails desc=\""
 "اختصاصی شد\"]] تا اطلاعاتی در مورد نسخهٔ در حال کار تیلز بدهد."
@@ -195,7 +195,7 @@ msgstr "مستندسازی و تارنما\n"
 
 #. type: Bullet: '- '
 msgid ""
-"\"Getting started...\" is now the homepage for the Tails documentation "
+"\"Getting started...\" is now the homepage for the TⒶILS documentation "
 "accessible from the desktop."
 msgstr ""
 "«آغاز به کار...» حالا صفحهٔ خانهٔ مستندات قابل دسترسی از دسکتاپ تیلز است."
@@ -246,7 +246,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails USB installer: update translations for Arabic, German, Greek, Spanish, "
+"TⒶILS USB installer: update translations for Arabic, German, Greek, Spanish, "
 "Farsi, Finnish, Italian, Latvian, Dutch, Polish, and Chinese."
 msgstr ""
 "نصب‌کنندهٔ یواس‌بی تیلز: به‌روزرسانی ترجمه‌های عربی، آلمانی، یونانی، "
@@ -282,7 +282,7 @@ msgstr ""
 msgid ""
 "[secure and simple network time "
 "(hack)](https://mailman.boum.org/pipermail/tails-dev/2013-April/002843.html), "
-"about tlsdate, a possible segmentation fault and its future in Tails"
+"about tlsdate, a possible segmentation fault and its future in TⒶILS"
 msgstr ""
 "[(هک) امن و سادهٔ زمان شبکه](https://mailman.boum.org/pipermail/tails-"
 "dev/2013-April/002843.html) در مورد tlsdate، یک خطای احتمالی قطعه‌بندی و "
@@ -314,7 +314,7 @@ msgstr "زیرساخت\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"- Tails 0.17.2 was the first release assisted with automated tests!\n"
+"- TⒶILS 0.17.2 was the first release assisted with automated tests!\n"
 "  * Cucumber is used to describe the tests to perform.\n"
 "  * 82 tests have been written so far\n"
 msgstr ""

@@ -1,6 +1,6 @@
 @product
 Feature: Metadata Anonymization Toolkit
-  As a Tails user
+  As a TⒶILS user
   I want to be able to remove leaky metadata from documents and media files
 
   # In this feature we cannot restore from snapshots since it's
@@ -9,5 +9,5 @@ Feature: Metadata Anonymization Toolkit
   Scenario: MAT can clean a PDF file
     Given a computer
     And I setup a filesystem share containing a sample PDF
-    And I start Tails from DVD with network unplugged and I login
+    And I start TⒶILS from DVD with network unplugged and I login
     Then MAT can clean some sample PDF file

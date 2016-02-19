@@ -24,7 +24,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The <em>first</em> release candidate for the upcoming "
+"You can help TⒶILS! The <em>first</em> release candidate for the upcoming "
 "version 0.17 is out. Please test it and see if all works for you."
 msgstr ""
 
@@ -33,7 +33,7 @@ msgid "[[!toc levels=1]]"
 msgstr ""
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.17~rc1?"
+msgid "How to test TⒶILS 0.17~rc1?"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -50,13 +50,13 @@ msgstr ""
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/"
-"tails-i386-0.17-rc1/tails-i386-0.17-rc1.iso\" >Tails 0.17~rc1 ISO image</a>"
+"tails-i386-0.17-rc1/tails-i386-0.17-rc1.iso\" >TⒶILS 0.17~rc1 ISO image</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-signature\" href=\"http://dl.amnesia.boum.org/tails/"
-"testing/tails-i386-0.17-rc1/tails-i386-0.17-rc1.iso.pgp\" >Tails 0.17~rc1 "
+"testing/tails-i386-0.17-rc1/tails-i386-0.17-rc1.iso.pgp\" >TⒶILS 0.17~rc1 "
 "signature</a>"
 msgstr ""
 
@@ -238,7 +238,7 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
-"Disabling DOM storage in the Tails web browser makes is appear slightly "
+"Disabling DOM storage in the TⒶILS web browser makes is appear slightly "
 "differently from the alpha Torbrowser (based on Firefox 17). This will be "
 "fixed in a future version once we [[use the same DOM storage patches and "
 "settings|todo/iceweasel_DOM_storage_isolation]] as the Torbrowser."

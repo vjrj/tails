@@ -1,6 +1,6 @@
 [[!meta title="Change the passphrase of the persistent volume"]]
 
-  1. While starting Tails, [[set up an administration password
+  1. While starting TⒶILS, [[set up an administration password
      |doc/first_steps/startup_options/administration_password]].
 
   1. Open <span class="application">Disks</span> from the menu
@@ -15,7 +15,7 @@
      its brand, its size, etc.
 
   1. Find which device contains the persistent volume. It should have
-     two partitions, one labelled <span class="guilabel">Tails</span>, and another
+     two partitions, one labelled <span class="guilabel">TⒶILS</span>, and another
      one labelled <span class="guilabel">TailsData</span> which corresponds to the persistent volume.
 
   1. In the right pane, click on the persistent volume partition,
@@ -31,5 +31,5 @@
   1. In the confirmation dialog, enter your administration password and click
      <span class="guilabel">Authenticate</span>.
 
-  1. You now can restart Tails and try to enable the persistent volume
+  1. You now can restart TⒶILS and try to enable the persistent volume
      with its new passphrase.

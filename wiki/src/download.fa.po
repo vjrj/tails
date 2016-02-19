@@ -21,7 +21,7 @@ msgstr ""
 
 #. type: Content of: outside any tag (error?)
 msgid ""
-"[[!meta title=\"Download, verify and install\"]] <strong>Tails is [[Free "
+"[[!meta title=\"Download, verify and install\"]] <strong>TⒶILS is [[Free "
 "Software|doc/about/license]], you can download it, use it and share it "
 "without restriction.</strong>"
 msgstr ""
@@ -49,13 +49,13 @@ msgstr ""
 "اگر فکر می‌کنید چون از تور استفاده می‌کنید پس کسی نمی‌تواند شما را شنود کند."
 
 #. type: Content of: <div><div><div><ul><li>
-msgid "If you have no notion of how Tails works."
+msgid "If you have no notion of how TⒶILS works."
 msgstr "اگر نمی‌دانید تیلز چطور کار می‌کند."
 
 #. type: Content of: <div><div><div><p>
 msgid ""
 "<strong>Then, check first the [[about]] and [[warning|doc/about/warning]] "
-"pages to make sure that Tails is the right tool for you and that you "
+"pages to make sure that TⒶILS is the right tool for you and that you "
 "understand well its limitations.</strong>"
 msgstr ""
 "<strong>در این صورت ابتدا صفحات [[درباره]] و [[هشدار|doc/about/warning]] را "
@@ -68,7 +68,7 @@ msgstr "دانلود فایل ایزو"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
-"You will download Tails in the form of an <span class=\"definition\">[[!"
+"You will download TⒶILS in the form of an <span class=\"definition\">[[!"
 "wikipedia ISO_image desc=\"ISO image\"]]</span>: a single file that you will "
 "later burn on a DVD or install onto a USB stick or SD card."
 msgstr ""
@@ -88,16 +88,16 @@ msgstr "جدیدترین نسخه"
 #, fuzzy
 #| msgid ""
 #| "<a class='download-file' href=[[!inline pages=\"inc/"
-#| "stable_i386_torrent_url\" raw=\"yes\"]]> Tails [[!inline pages=\"inc/"
+#| "stable_i386_torrent_url\" raw=\"yes\"]]> TⒶILS [[!inline pages=\"inc/"
 #| "stable_i386_version\" raw=\"yes\"]] torrent</a>"
 msgid ""
 "<a class='download-file' href=[[!inline pages=\"inc/stable_i386_iso_url\" "
-"raw=\"yes\"]]> Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
+"raw=\"yes\"]]> TⒶILS [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
 "\"]] ISO image <span class=\"download-file-size\">[[!inline pages=\"inc/"
 "stable_i386_iso_size\" raw=\"yes\"]]</span></a>"
 msgstr ""
 "<a class='download-file' href=[[!inline pages=\"inc/stable_i386_torrent_url"
-"\" raw=\"yes\"]]> Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
+"\" raw=\"yes\"]]> TⒶILS [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
 "\"]] torrent</a>"
 
 #. type: Content of: <div><div><div><h3>
@@ -110,8 +110,8 @@ msgstr "[[!inline pages=\"lib/download_stable_i386_iso_sig\" raw=\"yes\"]]"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
-"Tails [[transitioned to a new signing key|news/signing_key_transition]] in "
-"Tails 1.3.1."
+"TⒶILS [[transitioned to a new signing key|news/signing_key_transition]] in "
+"TⒶILS 1.3.1."
 msgstr ""
 "تیلز [[منتقل‌شده به کلید امضای جدید|news/signing_key_transition]] در تیلز "
 "۱٫۳٫۱."
@@ -140,11 +140,11 @@ msgstr "دانلود بیت‌تورنت"
 #. type: Content of: <div><div><div><p>
 msgid ""
 "<a class='download-file' href=[[!inline pages=\"inc/stable_i386_torrent_url"
-"\" raw=\"yes\"]]> Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
+"\" raw=\"yes\"]]> TⒶILS [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
 "\"]] torrent</a>"
 msgstr ""
 "<a class='download-file' href=[[!inline pages=\"inc/stable_i386_torrent_url"
-"\" raw=\"yes\"]]> Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
+"\" raw=\"yes\"]]> TⒶILS [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
 "\"]] torrent</a>"
 
 #. type: Content of: <div><div><div><p>
@@ -169,13 +169,13 @@ msgstr "تغذیهٔ متقابل!"
 #. type: Content of: <div><div><div><p>
 msgid ""
 "Seeding back the image once you have downloaded it is also a nice and easy "
-"way of helping spread Tails."
+"way of helping spread TⒶILS."
 msgstr ""
 "تغذیه کردن متقابل فایلی که دانلود کرده‌اید راهی ساده و خوب برای کمک به گسترش "
 "تیلز است."
 
 #. type: Content of: <div><div><p>
-msgid "List of current [[known issues|support/known_issues]] in Tails."
+msgid "List of current [[known issues|support/known_issues]] in TⒶILS."
 msgstr "فهرست [[مشکلات شناخته‌شدهٔ|support/known_issues]] فعلی در تیلز."
 
 #. type: Content of: <div><div><h1>
@@ -212,7 +212,7 @@ msgid ""
 "As a consequence, <strong>they don't provide you with a strong way of "
 "checking the ISO image <span class=\"definition\">[[!wikipedia "
 "Authentication desc=\"authenticity\"]]</span> and making sure you downloaded "
-"a genuine Tails.</strong> In a dedicated section, we will propose you some "
+"a genuine TⒶILS.</strong> In a dedicated section, we will propose you some "
 "more advanced techniques to <a href=\"#authenticity-check\">check the "
 "authenticity of the ISO image</a>."
 msgstr ""
@@ -224,7 +224,7 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid ""
-"<strong>All Tails ISO image are cryptographically signed by our OpenPGP key."
+"<strong>All TⒶILS ISO image are cryptographically signed by our OpenPGP key."
 "</strong> OpenPGP is a standard for data encryption that provides "
 "cryptographic privacy and authentication through the use of keys owned by "
 "its users.  Checking this signature is the recommended way of checking the "
@@ -256,7 +256,7 @@ msgstr ""
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "[[!toggle id=\"verify_the_iso_image_using_gnome\" text=\"Using Linux with "
-"Gnome: Ubuntu, Debian, Tails, etc.\"]]"
+"Gnome: Ubuntu, Debian, TⒶILS, etc.\"]]"
 msgstr ""
 "[[!toggle id=\"verify_the_iso_image_using_gnome\" text=\"استفاده از لینوکس "
 "با گنوم: اوبونتو، دبیان، تیلز و غیره.\"]]"
@@ -288,7 +288,7 @@ msgstr ""
 "</span>"
 
 #. type: Content of: <div><div><h2>
-msgid "Using Linux with Gnome: Ubuntu, Debian, Tails, Fedora, etc."
+msgid "Using Linux with Gnome: Ubuntu, Debian, TⒶILS, Fedora, etc."
 msgstr "استفاده از لینوکس با گنوم: اوبونتو، دبیان، تیلز، فدورا و غیره."
 
 #. type: Content of: <div><div>
@@ -343,7 +343,7 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid ""
-"The Tails signing key that you downloaded from this website could be a fake "
+"The TⒶILS signing key that you downloaded from this website could be a fake "
 "one if you were victim of a [[man-in-the-middle attack|doc/about/warning#man-"
 "in-the-middle]]."
 msgstr ""
@@ -352,9 +352,9 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid ""
-"Finding a way of trusting better Tails signing key would allow you to "
+"Finding a way of trusting better TⒶILS signing key would allow you to "
 "authenticate better the ISO image you downloaded. The following page will "
-"give you hints on how to increase the trust you can put in the Tails signing "
+"give you hints on how to increase the trust you can put in the TⒶILS signing "
 "key you downloaded:"
 msgstr ""
 "یافتن راهی برای اعتماد بیشتر به کلید امضای تیلز به شما اجازه می‌دهد تا اعتبار "
@@ -363,7 +363,7 @@ msgstr ""
 "می‌گذارد:"
 
 #. type: Content of: <div><div><ul><li>
-msgid "[[Trusting Tails signing key|doc/get/trusting_tails_signing_key]]"
+msgid "[[Trusting TⒶILS signing key|doc/get/trusting_tails_signing_key]]"
 msgstr "[[اعتماد کردن به کلید امضای تیلز|doc/get/trusting_tails_signing_key]]"
 
 #. type: Content of: <div><div><h1>
@@ -372,7 +372,7 @@ msgstr "منتظر باشید"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
-"It's very important to keep your version of Tails up-to-date, otherwise your "
+"It's very important to keep your version of TⒶILS up-to-date, otherwise your "
 "system will be vulnerable to numerous security holes."
 msgstr ""
 "به‌روز نگه داشتن نسخهٔ تیلز مساله‌ای بسیار مهم است، وگرنه ممکن است رایانهٔ شما "
@@ -412,7 +412,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "<a class='download-file' href=[[!inline pages=\"inc/stable_i386_iso_url\" "
-#~ "raw=\"yes\"]]> Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
+#~ "raw=\"yes\"]]> TⒶILS [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
 #~ "\"]] ISO image <span class=\"download-file-size\"> ( <span class="
 #~ "\"compensate-extra-space\">[[!inline pages=\"inc/stable_i386_iso_size_mb"
 #~ "\" raw=\"yes\"]]</span> [[!inline pages=\"inc/stable_i386_iso_size_mb_unit"
@@ -421,7 +421,7 @@ msgstr ""
 #~ "\"]] <span class=\"compensate-extra-space\">)</span> </span></a>"
 #~ msgstr ""
 #~ "<a class='download-file' href=[[!inline pages=\"inc/stable_i386_iso_url\" "
-#~ "raw=\"yes\"]]> Tails [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
+#~ "raw=\"yes\"]]> TⒶILS [[!inline pages=\"inc/stable_i386_version\" raw=\"yes"
 #~ "\"]] ISO image <span class=\"download-file-size\"> ( <span class="
 #~ "\"compensate-extra-space\">[[!inline pages=\"inc/stable_i386_iso_size_mb"
 #~ "\" raw=\"yes\"]]</span> [[!inline pages=\"inc/stable_i386_iso_size_mb_unit"

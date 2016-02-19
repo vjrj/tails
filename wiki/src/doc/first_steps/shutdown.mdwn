@@ -1,6 +1,6 @@
-[[!meta title="Shutting down Tails"]]
+[[!meta title="Shutting down TⒶILS"]]
 
-There are several ways of shutting down Tails:
+There are several ways of shutting down TⒶILS:
 
 - By clicking on the [[system shutdown
   icon|introduction_to_gnome_and_the_tails_desktop#shutdown]] located in
@@ -12,7 +12,7 @@ There are several ways of shutting down Tails:
 
 - By pressing the power button of the computer.
 
-- By removing physically the device Tails is running from.
+- By removing physically the device TⒶILS is running from.
 
 <div class="caution">
 
@@ -37,7 +37,7 @@ see [[!tails_ticket 5447]].
 
 <div class="bug">
 
-This method does not work [[after using the <span class="application">Tails
+This method does not work [[after using the <span class="application">TⒶILS
 Installer</span>|support/known_issues#index10h2]], see
 [[!tails_ticket 5677]].
 

@@ -18,8 +18,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Start Tails\"]]\n"
-msgstr "[[!meta title=\"Démarrer Tails\"]]\n"
+msgid "[[!meta title=\"Start TⒶILS\"]]\n"
+msgstr "[[!meta title=\"Démarrer TⒶILS\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,16 +28,16 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 msgid ""
-"Now that you have a Tails device, you can shutdown your computer and start "
-"using Tails without altering your existing operating system."
+"Now that you have a TⒶILS device, you can shutdown your computer and start "
+"using TⒶILS without altering your existing operating system."
 msgstr ""
-"Maintenant que vous avez un périphérique Tails, vous pouvez redémarrer votre "
-"ordinateur  et commencer à utiliser Tails sans altérer votre système "
+"Maintenant que vous avez un périphérique TⒶILS, vous pouvez redémarrer votre "
+"ordinateur  et commencer à utiliser TⒶILS sans altérer votre système "
 "d'exploitation actuel."
 
 #. type: Plain text
-msgid "If Tails starts successfully, the Tails boot menu appears:"
-msgstr "Si Tails démarre correctement, le menu de démarrage Tails apparaîtra :"
+msgid "If TⒶILS starts successfully, the TⒶILS boot menu appears:"
+msgstr "Si TⒶILS démarre correctement, le menu de démarrage TⒶILS apparaîtra :"
 
 #. type: Plain text
 #, no-wrap
@@ -51,11 +51,11 @@ msgstr "Si vous utilisez un DVD\n"
 
 #. type: Plain text
 msgid ""
-"Put the Tails DVD into the CD/DVD drive and restart the computer. You should "
-"see the Tails boot menu."
+"Put the TⒶILS DVD into the CD/DVD drive and restart the computer. You should "
+"see the TⒶILS boot menu."
 msgstr ""
 "Insérez le DVD dans le lecteur CD/DVD et redémarrez l'ordinateur. Vous "
-"devriez voir apparaître le menu de démarrage de Tails."
+"devriez voir apparaître le menu de démarrage de TⒶILS."
 
 #. type: Plain text
 msgid ""
@@ -96,10 +96,10 @@ msgstr "PC"
 #. type: Plain text
 msgid ""
 "Shutdown the computer, plug your device, and start the computer. You should "
-"see the Tails boot menu."
+"see the TⒶILS boot menu."
 msgstr ""
 "Éteignez l'ordinateur, branchez votre périphérique et démarrez l'ordinateur. "
-"Vous devriez voir apparaître le menu de démarrage de Tails."
+"Vous devriez voir apparaître le menu de démarrage de TⒶILS."
 
 #. type: Plain text
 #, no-wrap
@@ -193,10 +193,10 @@ msgstr "Désactivez l'UEFI"
 #, no-wrap
 msgid ""
 "   You might have to undo these changes to start your usual operating\n"
-"system again after your Tails session.\n"
+"system again after your TⒶILS session.\n"
 msgstr ""
 "   Vous pourriez avoir à annuler ces changements pour lancer votre système\n"
-"d'exploitation habituel après votre session d'utilisation de Tails.\n"
+"d'exploitation habituel après votre session d'utilisation de TⒶILS.\n"
 
 #. type: Bullet: '4. '
 msgid ""
@@ -231,8 +231,8 @@ msgstr ""
 "qui a l'apparence d'une clé USB\n"
 
 #. type: Plain text
-msgid "Then you should see the Tails boot menu."
-msgstr "Vous devriez alors voir le menu de démarrage Tails."
+msgid "Then you should see the TⒶILS boot menu."
+msgstr "Vous devriez alors voir le menu de démarrage TⒶILS."
 
 #. type: Plain text
 msgid ""
@@ -267,15 +267,15 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Problems starting Tails?\n"
-msgstr "Des problèmes pour démarrer Tails ?\n"
+msgid "Problems starting TⒶILS?\n"
+msgstr "Des problèmes pour démarrer TⒶILS ?\n"
 
 #. type: Plain text
 msgid ""
-"Read our specific [[reporting guidelines when Tails does not start|doc/"
+"Read our specific [[reporting guidelines when TⒶILS does not start|doc/"
 "first_steps/bug_reporting/tails_does_not_start]]."
 msgstr ""
-"Lire nos [[instructions spécifiques lorsque Tails ne démarre pas|doc/"
+"Lire nos [[instructions spécifiques lorsque TⒶILS ne démarre pas|doc/"
 "first_steps/bug_reporting/tails_does_not_start]]."
 
 #. type: Title =
@@ -289,10 +289,10 @@ msgstr ""
 "[[Consultez la documentation correspondante.|advanced_topics/virtualization]]"
 
 #~ msgid ""
-#~ "Then, Tails should start and you should see a welcome screen prompting "
+#~ "Then, TⒶILS should start and you should see a welcome screen prompting "
 #~ "you to choose your language."
 #~ msgstr ""
-#~ "Tails devrait alors démarrer et vous devriez voir apparaître un écran "
+#~ "TⒶILS devrait alors démarrer et vous devriez voir apparaître un écran "
 #~ "d'accueil vous invitant à choisir votre langue."
 
 #~ msgid ""
@@ -303,11 +303,11 @@ msgstr ""
 #~ "plutôt que sur la page de Téléchargement.\n"
 
 #~ msgid ""
-#~ "It is also possible to [[start Tails as a guest in a virtualization "
+#~ "It is also possible to [[start TⒶILS as a guest in a virtualization "
 #~ "software|advanced_topics/virtualization]] while it has some security "
 #~ "issues."
 #~ msgstr ""
-#~ "Il est aussi possible de [[démarrer Tails en tant qu'invité dans un "
+#~ "Il est aussi possible de [[démarrer TⒶILS en tant qu'invité dans un "
 #~ "logiciel de\n"
 #~ "virtualisation|advanced_topics/virtualization]], avec quelques "
 #~ "inconvénients en\n"

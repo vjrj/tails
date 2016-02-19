@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2016-02-05 15:14+0100\n"
 "PO-Revision-Date: 2015-10-31 15:23+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,10 +36,10 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails, with persistence disabled, and [[set up an administration "
+"Start TⒶILS, with persistence disabled, and [[set up an administration "
 "password|startup_options/administration_password]]."
 msgstr ""
-"Starten Sie Tails mit deaktiviertem beständigen Speicherbereich und "
+"Starten Sie TⒶILS mit deaktiviertem beständigen Speicherbereich und "
 "[[stellen Sie ein Administrationspasswort ein|startup_options/"
 "administration_password]]."
 
@@ -73,12 +73,12 @@ msgstr ""
 #. type: Bullet: '1. '
 #, fuzzy
 #| msgid ""
-#| "In the left pane, click on the device corresponding to your Tails device."
+#| "In the left pane, click on the device corresponding to your TⒶILS device."
 msgid ""
-"In the left pane, click on the device corresponding to your Tails USB stick."
+"In the left pane, click on the device corresponding to your TⒶILS USB stick."
 msgstr ""
 "Wählen Sie im linken Fensterbereich das Speichergerät aus, welches Ihrem "
-"Tails Medium entspricht."
+"TⒶILS Medium entspricht."
 
 #. type: Bullet: '1. '
 #, fuzzy

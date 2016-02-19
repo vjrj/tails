@@ -1,18 +1,18 @@
-[[!meta title="Using squid-deb-proxy to build Tails images"]]
+[[!meta title="Using squid-deb-proxy to build TⒶILS images"]]
 
 [[!toc levels=2]]
 
 # Why?
 
 The Debian mirrors live-build uses are very much configurable (see
-[[build/custom_mirror]]), but Tails uses some non-Debian APT
+[[build/custom_mirror]]), but TⒶILS uses some non-Debian APT
 repositories whose location cannot be adapted to your build
 environment using only live-build settings.
 
 Moreover, some packages fetch data online over HTTP at install time
-i.e. at Tails build time.
+i.e. at TⒶILS build time.
 
-Both of these factors make it hard to build Tails offline... unless
+Both of these factors make it hard to build TⒶILS offline... unless
 you have a HTTP proxy with all necessary files cached on disk, that is
 able to switch to offline mode.
 
@@ -26,7 +26,7 @@ Launchpad](https://launchpad.net/squid-deb-proxy) and packages in
 Ubuntu.
 
 On the other hand, we've found the upstream and Ubuntu packages to
-require many changes to be usable in Debian and especially for Tails
+require many changes to be usable in Debian and especially for TⒶILS
 purposes. Until we manage to turn our changes into a proper Debian
 package and make them generic enough to be pushed upstream, we
 recommend using the installation instructions below.
@@ -58,7 +58,7 @@ recommend using the installation instructions below.
  * The example `cache_mem` setting shall be changed depending on the
    amount of RAM your build machine has
  * The example `cache_dir` has a 10G limit that is a bit high if you
-   only want to use squid-deb-proxy to build Tails.
+   only want to use squid-deb-proxy to build TⒶILS.
 
 5. Have the proxy start on boot:
 

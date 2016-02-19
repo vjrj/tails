@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2016-02-02 16:24+0100\n"
 "PO-Revision-Date: 2015-09-15 16:19+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails T10n <tails-l10n@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS T10n <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,11 +59,11 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid ""
-"Make sure that the USB stick or SD card onto which you want to install Tails "
+"Make sure that the USB stick or SD card onto which you want to install TⒶILS "
 "is unplugged."
 msgstr ""
 "Stellen Sie sicher, dass der USB-Stick oder die SD-Karte, auf welche(n) Sie "
-"Tails installieren möchten, nicht angeschlossen ist."
+"TⒶILS installieren möchten, nicht angeschlossen ist."
 
 #. type: Plain text
 #, no-wrap
@@ -91,9 +91,9 @@ msgstr ""
 "aktuellen Datenträger im linken Fensterbereich auf."
 
 #. type: Bullet: '  1. '
-msgid "Plug the USB stick or SD card onto which you want to install Tails."
+msgid "Plug the USB stick or SD card onto which you want to install TⒶILS."
 msgstr ""
-"Schließen Sie den USB-Stick oder die SD-Karte an, auf welche(n) Sie Tails "
+"Schließen Sie den USB-Stick oder die SD-Karte an, auf welche(n) Sie TⒶILS "
 "installieren möchten."
 
 #. type: Plain text
@@ -221,10 +221,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you don't see any error message, Tails is being copied onto the device. "
+"If you don't see any error message, TⒶILS is being copied onto the device. "
 "The whole process might take some time, generally a few minutes."
 msgstr ""
-"Falls Sie keine Fehlermeldung sehen, wird Tails auf das Speichermedium "
+"Falls Sie keine Fehlermeldung sehen, wird TⒶILS auf das Speichermedium "
 "kopiert. Der gesamte Vorgang kann etwas Zeit in Anspruch nehmen, in der "
 "Regel einige Minuten."
 
@@ -237,10 +237,10 @@ msgstr "<div class=\"next\">\n"
 #, no-wrap
 msgid ""
 "<p>Once the command prompt reappears, you can shutdown your computer, and\n"
-"[[start Tails|start_tails]] from this new device.</p>\n"
+"[[start TⒶILS|start_tails]] from this new device.</p>\n"
 msgstr ""
 "<p>Sobald die Eingabeaufforderung wieder erscheint, können Sie Ihren Computer herunterfahren und\n"
-"Tails von diesem neuen Speichermedium [[starten|start_tails]].</p>\n"
+"TⒶILS von diesem neuen Speichermedium [[starten|start_tails]].</p>\n"
 
 #. type: Title =
 #, no-wrap

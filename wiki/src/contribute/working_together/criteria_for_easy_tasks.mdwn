@@ -1,13 +1,13 @@
 [[!meta title="Marking a task as easy"]]
 
 We think that having issues flagged as "easy" on Redmine is a great tool
-to help new contributors getting into Tails. Here are a few criteria to
+to help new contributors getting into TⒶILS. Here are a few criteria to
 help us determine which issues to put in this category.
 
 We want to allow people with very different skills to contribute to
-Tails for the first time. Programmers, web designers, documentation writers, or
+TⒶILS for the first time. Programmers, web designers, documentation writers, or
 translators should be able to find tasks that they can complete without
-having to acquire a deep knowledge of Tails or to learn how to use tools
+having to acquire a deep knowledge of TⒶILS or to learn how to use tools
 that are outside of their field of expertise.
 
 Creating an easy task
@@ -31,16 +31,16 @@ Audit & Research
 ================
 
 - Not easy:
-  - Interacts with several subsystems of Tails.
+  - Interacts with several subsystems of TⒶILS.
 
 Code
 ====
 
 - Easy:
-  - Write a patch that doesn't need to rebuild Tails.
+  - Write a patch that doesn't need to rebuild TⒶILS.
 - Not easy:
   - The first solution that comes to your mind is not the right one.
-  - Interact with several subsystems of Tails.
+  - Interact with several subsystems of TⒶILS.
   - Rework on a first attempt to code that failed because things were
     more difficult that they seemed at first glance.
   - Have specific hardware for the task.
@@ -62,16 +62,16 @@ Promote
 =======
 
 - Easy:
-  - Explain how to use Tails as described in the documentation.
+  - Explain how to use TⒶILS as described in the documentation.
 - Not easy:
-  - Explain how Tails work based on the design document.
-  - Speak on behalf of Tails.
+  - Explain how TⒶILS work based on the design document.
+  - Speak on behalf of TⒶILS.
 
 Sysadmin
 ========
 
 - Not easy:
-  - Have privileges on Tails infrastructure.
+  - Have privileges on TⒶILS infrastructure.
 - Easy:
   - Work that can be tested locally, for example using a virtual
     machine.
@@ -82,7 +82,7 @@ Test
 ====
 
 - Easy:
-  - Test behaviour of Tails using the GUI.
+  - Test behaviour of TⒶILS using the GUI.
 - Not easy:
   - Code or build a dedicated testing infrastructure.
 

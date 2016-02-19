@@ -60,7 +60,7 @@ msgid "For Windows using Gpg4win"
 msgstr "برای ویندوز و با استفاده از Gpg4win"
 
 #. type: Content of: <p>
-msgid "After installing Gpg4win, download Tails signing key:"
+msgid "After installing Gpg4win, download TⒶILS signing key:"
 msgstr "پس از نصب Gpg4win کلید امضای تیلز را دانلود کنید:"
 
 #. type: Content of: outside any tag (error?)
@@ -117,12 +117,12 @@ msgstr ""
 #. type: Content of: <p>
 #, fuzzy
 msgid ""
-"Then the ISO image is still correct, and valid according to the Tails "
+"Then the ISO image is still correct, and valid according to the TⒶILS "
 "signing key that you downloaded. This warning is related to the trust that "
-"you put in the Tails signing key. See, [[Trusting Tails signing "
+"you put in the TⒶILS signing key. See, [[Trusting TⒶILS signing "
 "key|doc/get/trusting_tails_signing_key]]. To remove this warning you would "
 "have to personally <span class=\"definition\">[[!wikipedia Keysigning "
-"desc=\"sign\"]]</span> the Tails signing key with your own key."
+"desc=\"sign\"]]</span> the TⒶILS signing key with your own key."
 msgstr ""
 "آن‌گاه تصویر ایزو بر مبنای امضای کلید تیلز که دانلود کرده‌اید همچنان صحیح و "
 "معتبر است. این هشدار مرتبط به اعتماد شما به کلید امضای تیلز است. [[اعتماد به "

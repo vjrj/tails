@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2015-11-18 09:10+0100\n"
 "PO-Revision-Date: 2014-06-17 21:33-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -17,8 +17,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Uninstalling Tails or resetting a USB stick or SD card\"]]\n"
-msgstr "[[!meta title=\"Desinstalando o Tails ou resetando uma memória USB ou um cartão SD\"]]\n"
+msgid "[[!meta title=\"Uninstalling TⒶILS or resetting a USB stick or SD card\"]]\n"
+msgstr "[[!meta title=\"Desinstalando o TⒶILS ou resetando uma memória USB ou um cartão SD\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,10 +27,10 @@ msgstr "[[!inline pages=\"doc/first_steps/reset.intro.pt\" raw=\"yes\"]]\n"
 
 #. type: Bullet: '  - '
 msgid ""
-"[[Instructions for Linux with GNOME: Ubuntu, Debian, Tails, etc.|reset/"
+"[[Instructions for Linux with GNOME: Ubuntu, Debian, TⒶILS, etc.|reset/"
 "linux]]"
 msgstr ""
-"[[Instruções para Linux com GNOME: Ubuntu, Debian, Tails, etc.|reset/linux]]"
+"[[Instruções para Linux com GNOME: Ubuntu, Debian, TⒶILS, etc.|reset/linux]]"
 
 #. type: Bullet: '  - '
 msgid "[[Instructions for Windows|reset/windows]]"

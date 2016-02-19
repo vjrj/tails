@@ -7,8 +7,8 @@
 Enable the persistent volume
 ============================
 
-1. When starting Tails, in the
-<span class="guilabel">Use persistence?</span> dialog of [[Tails
+1. When starting TⒶILS, in the
+<span class="guilabel">Use persistence?</span> dialog of [[TⒶILS
 Greeter|startup_options#tails_greeter]], choose <span class="guilabel">Yes</span> to
 enable the persistent volume for the current working session.
 

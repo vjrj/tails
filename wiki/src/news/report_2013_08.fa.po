@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"جمعه ۶ سپتامبر ۰۹:۰۹:۳۹ ۲۰۱۳\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for August, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for August, 2013\"]]\n"
 msgstr "[[!meta title=\"گزارش آگوست ۲۰۱۳ تیلز\"]]\n"
 
 #. type: Plain text
@@ -40,7 +40,7 @@ msgstr "انتشارها\n"
 
 #. type: Plain text
 msgid ""
-"Tails 0.20 [[was released|news/version_0.20]] on the 9th of August.  Tails "
+"TⒶILS 0.20 [[was released|news/version_0.20]] on the 9th of August.  Tails "
 "0.20.1 release is "
 "[scheduled](https://mailman.boum.org/pipermail/tails-dev/2013-August/003502.html)  "
 "for September 19."
@@ -56,9 +56,9 @@ msgstr "متریک‌ها\n"
 
 #. type: Bullet: '- '
 msgid ""
-"190 521 connections of Tails to the Tor network. This makes a boot every 14 "
+"190 521 connections of TⒶILS to the Tor network. This makes a boot every 14 "
 "seconds on average. This is an approximation from the requests made to the "
-"security announcements feed when Tails is connected to Tor."
+"security announcements feed when TⒶILS is connected to Tor."
 msgstr ""
 "۱۹۰٫۵۲۱ اتصال از تیلز به شبکهٔ تور ایجاد شد، یعنی هر ۱۴ ثانیه یک راه‌اندازی. "
 "این عدد بر حسب درخواست‌ها برای خوراک اعلان‌های امنیتی پس از متصل شدن تیلز به "
@@ -69,7 +69,7 @@ msgid "- 93 non-empty bug reports were received through WhisperBack."
 msgstr "- ۹۳ گزارش ایراد غیرخالی ارسال‌شده از ویسپربک دریافت کردیم."
 
 #. type: Bullet: '- '
-msgid "57 222 downloads of the OpenPGP signature of Tails ISO from our website."
+msgid "57 222 downloads of the OpenPGP signature of TⒶILS ISO from our website."
 msgstr "۵۷٫۲۲۲ دانلود امضای اُپن‌پی‌جی‌پی ایزوی تیلز از تارنمایمان داشتیم."
 
 #. type: Title =
@@ -154,7 +154,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Starting with Tails 0.20.1, bug reports sent with WhisperBack will "
+"Starting with TⒶILS 0.20.1, bug reports sent with WhisperBack will "
 "[[!tails_gitweb_branch feature/tails-bugs desc=\"be sent to a dedicated "
 "(encrypted) mailing-list\"]]."
 msgstr ""
@@ -223,7 +223,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"The website now [[advertises|about]] the use of Tails as a censorship "
+"The website now [[advertises|about]] the use of TⒶILS as a censorship "
 "circumvention tool, too."
 msgstr ""
 "حالا تارنما استفاده از تیلز به عنوان یک ابزار دور زدن سانسور را نیز [[ترویج "
@@ -299,7 +299,7 @@ msgstr ""
 msgid ""
 "Jacob Appelbaum [started a "
 "discussion](https://mailman.boum.org/pipermail/tails-dev/2013-August/003393.html)  "
-"about Tahoe-LAFS, Tor and Tails. It should now be clear what kind of work is "
+"about Tahoe-LAFS, Tor and TⒶILS. It should now be clear what kind of work is "
 "needed to make some integration possible."
 msgstr ""
 "جیکوب اپلبام [آغازگر بحثی](https://mailman.boum.org/pipermail/tails-"

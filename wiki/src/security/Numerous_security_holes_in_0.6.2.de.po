@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Mon Apr 4 11:12:13 2011\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 0.6.2\"]]\n"
-msgstr "[[!meta title=\"Sicherheitslücken en masse in Tails 0.6.2\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 0.6.2\"]]\n"
+msgstr "[[!meta title=\"Sicherheitslücken en masse in TⒶILS 0.6.2\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,15 +32,15 @@ msgid "[[!tag security/fixed]]\n"
 msgstr "[[!tag security/fixed]]\n"
 
 #. type: Plain text
-msgid "The following security holes affect Tails 0.6.2."
-msgstr "Die folgenden Sicherheitslücken betreffen Tails 0.6.2."
+msgid "The following security holes affect TⒶILS 0.6.2."
+msgstr "Die folgenden Sicherheitslücken betreffen TⒶILS 0.6.2."
 
 #. type: Plain text
 msgid ""
-"We **strongly** urge you to [[upgrade to Tails 0.7|news/version_0.7]] in case "
+"We **strongly** urge you to [[upgrade to TⒶILS 0.7|news/version_0.7]] in case "
 "you are still using an older version."
 msgstr ""
-"Wir empfehlen dir **dringend** auf [[Tails 0.7 upzugraden|news/version_0.7]] "
+"Wir empfehlen dir **dringend** auf [[TⒶILS 0.7 upzugraden|news/version_0.7]] "
 "sofern du noch eine ältere Version benutzt."
 
 #. type: Plain text
@@ -57,12 +57,12 @@ msgstr "Lückenhaftes \"lösche Arbeitsspeicher beim Herunterfahren\"-Feature"
 msgid ""
 "As an [[external audit demonstrated|security/audits/Blackhat_De-"
 "Anonymizing_Live_CDs]], the \"erase memory on shutdown\" feature, as "
-"implemented in Tails 0.6.2 and older, does not erase as much memory as it "
+"implemented in TⒶILS 0.6.2 and older, does not erase as much memory as it "
 "could. More specifically:"
 msgstr ""
 "Wie ein [[unabhängiger Audit demonstrierte|security/audits/Blackhat_De-"
 "Anonymizing_Live_CDs]], löscht das \"lösche Arbeitsspeicher beim "
-"Herunterfahren\" Feature, wie in Tails 0.6.2 und früher implementiert, nicht "
+"Herunterfahren\" Feature, wie in TⒶILS 0.6.2 und früher implementiert, nicht "
 "so viel Arbeitsspeicher wie es hätte können. Um genauer zu sein:"
 
 #. type: Bullet: '1. '
@@ -88,11 +88,11 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "This discovery lead to a brand new implementation of the memory erasure "
-"feature that is shipped in Tails 0.7. As a bonus, the memory is now also "
+"feature that is shipped in TⒶILS 0.7. As a bonus, the memory is now also "
 "erased when the boot media is physically removed."
 msgstr ""
 "Diese Entdeckung führte zu einer brandneuen Implementation des "
-"Arbeitsspeicherlöschung-Features das mit Tails 0.7 daherkommt. Als eine "
+"Arbeitsspeicherlöschung-Features das mit TⒶILS 0.7 daherkommt. Als eine "
 "Zulage wird der Arbeitsspeicher nun auch getilgt wenn das Boot-Medium "
 "physisch entfernt wird."
 

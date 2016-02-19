@@ -33,7 +33,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first beta for the upcoming version 2.0 is out. We "
+"You can help TⒶILS! The first beta for the upcoming version 2.0 is out. We "
 "are very excited and cannot wait to hear what you think about it :)"
 msgstr ""
 
@@ -49,7 +49,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails 2.0 will be the first version of Tails based on Debian 8 (Jessie). As "
+"TⒶILS 2.0 will be the first version of Tails based on Debian 8 (Jessie). As "
 "such, it upgrades essentially all included software."
 msgstr ""
 
@@ -65,16 +65,16 @@ msgstr ""
 msgid ""
 "Under the hood, an amazing amount of code was ported to more modern "
 "technologies. This, in turn, allowed us to do lots of small changes all "
-"around the place, that will make the Tails experience both safer, and more "
+"around the place, that will make the TⒶILS experience both safer, and more "
 "pleasant. For example, all custom system services are harder to exploit "
-"thanks to the use of Linux namespaces, set up by systemd. And the way Tails "
+"thanks to the use of Linux namespaces, set up by systemd. And the way TⒶILS "
 "tells the user that \"Tor is ready\" is now more accurate."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "But really, there are simply too many changes to describe them all here, so "
-"just try Tails 2.0~beta1 yourself!"
+"just try TⒶILS 2.0~beta1 yourself!"
 msgstr ""
 
 #. type: Plain text
@@ -92,7 +92,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "How to test Tails 2.0~beta1?"
+msgid "How to test TⒶILS 2.0~beta1?"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -107,14 +107,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~beta1/tails-i386-2.0~beta1.iso\" >Tails 2.0~beta1 ISO image</a>\n"
+msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~beta1/tails-i386-2.0~beta1.iso\" >TⒶILS 2.0~beta1 ISO image</a>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~beta1.iso.sig\">Tails 2.0~beta1 signature</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~beta1.iso.sig\">TⒶILS 2.0~beta1 signature</a>\n"
 msgstr ""
 
 #. type: Plain text

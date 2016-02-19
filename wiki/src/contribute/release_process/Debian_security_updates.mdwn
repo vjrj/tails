@@ -1,7 +1,7 @@
-We don't want to release Tails ISO's and learn 2 days later about
+We don't want to release TⒶILS ISO's and learn 2 days later about
 important security issues fixed by Debian security updates. The
 following set of tools should be enough to avoid such bad timing, e.g.
-by delaying a Tails release a bit to wait for a DSA to happen.
+by delaying a TⒶILS release a bit to wait for a DSA to happen.
 
 [[!toc levels=2]]
 

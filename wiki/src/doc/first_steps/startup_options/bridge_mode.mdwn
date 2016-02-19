@@ -5,7 +5,7 @@
 What bridges are and when to use them
 =====================================
 
-When using Tor with Tails in its default configuration, anyone who can
+When using Tor with TⒶILS in its default configuration, anyone who can
 observe the traffic of your Internet connection (for example your
 Internet Service Provider and perhaps your government and law
 enforcement agencies) can know that you are using Tor.
@@ -14,11 +14,11 @@ This may be an issue if you are in a country where the following
 applies:
 
 1. **Using Tor is blocked by censorship:** since all connections to the
-   Internet are forced to go through Tor, this would render Tails useless for
+   Internet are forced to go through Tor, this would render TⒶILS useless for
    everything except for working offline on documents, etc.
 
 2. **Using Tor is dangerous or considered suspicious:** in this case
-   starting Tails in its default configuration might get you into
+   starting TⒶILS in its default configuration might get you into
    serious trouble.
 
 Tor bridges, also called Tor bridge relays, are alternative entry points
@@ -27,7 +27,7 @@ makes it harder, but not impossible, for your Internet Service Provider
 to know that you are using Tor.
 
 If you are in one of the situations described above
-you might want to use Tor bridges in Tails. Please also read
+you might want to use Tor bridges in TⒶILS. Please also read
 The Tor Project's [dedicated page about
 bridges](https://www.torproject.org/docs/bridges) to get a general
 idea about what bridges are.
@@ -44,14 +44,14 @@ entry points.
 
 </div>
 
-How to use bridges in Tails
+How to use bridges in TⒶILS
 ===========================
 
 You must have at hand at least one bridge address before
-starting Tails. For example, you can write it down on a piece of paper
+starting TⒶILS. For example, you can write it down on a piece of paper
 or store it in the [[persistent volume|doc/first_steps/persistence]].
 
-Tails allows you to use bridges of the following types:
+TⒶILS allows you to use bridges of the following types:
 
   - `bridge`
   - `obfs2`
@@ -60,7 +60,7 @@ Tails allows you to use bridges of the following types:
   - `ScrambleSuit`
 
 To use Tor through bridges, choose the bridge settings configuration option in [[<span
-class="application">Tails Greeter</span>|startup_options#tails_greeter]] as
+class="application">TⒶILS Greeter</span>|startup_options#tails_greeter]] as
 explained in the [[network configuration|network_configuration]] documentation.
 
 <div class="tip">
@@ -89,7 +89,7 @@ an adversary could do to identify Tor users.
 
 </div>
 
-1. Always start Tails in *bridge mode*.
+1. Always start TⒶILS in *bridge mode*.
 
 2. Only use [*obfuscated
    bridges*](https://www.torproject.org/docs/bridges#PluggableTransports)

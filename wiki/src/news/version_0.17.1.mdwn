@@ -1,8 +1,8 @@
 [[!meta date="Sat Mar 23 11:23:45 2013"]]
-[[!meta title="Tails 0.17.1 is out"]]
+[[!meta title="TⒶILS 0.17.1 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.17.1, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.17.1, is out.
 
 All users must upgrade as soon as possible.
 
@@ -31,22 +31,22 @@ for technical details.
 
 # Known issue
 
-The VirtualBox support in Tails 0.17.1 is not as good as it could be.
+The VirtualBox support in TⒶILS 0.17.1 is not as good as it could be.
 
 # I want to try it / to upgrade!
 
 See the [[Getting started]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release (0.17.2) is scheduled for April 9. It will be
+The next TⒶILS release (0.17.2) is scheduled for April 9. It will be
 a minor, bugfix only one.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], there are many ways **you** can contribute
-to Tails. If you want to help, come talk to us!
+to TⒶILS. If you want to help, come talk to us!

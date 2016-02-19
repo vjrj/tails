@@ -1,15 +1,15 @@
 [[!meta title="Delete the persistent volume"]]
 
-To delete the persistent volume of a Tails device, choose
+To delete the persistent volume of a TⒶILS device, choose
 <span class="menuchoice">
   <span class="guimenu">Applications</span>&nbsp;▸
-  <span class="guisubmenu">Tails</span>&nbsp;▸
+  <span class="guisubmenu">TⒶILS</span>&nbsp;▸
   <span class="guimenuitem">Delete persistent volume</span></span>, and click
   on the <span class="guilabel">Delete</span> button.
 
 This can be useful in order to delete all the files saved to the persistent
 volume in a single operation. You can later create a new persistent volume on
-the same device without having to reinstall Tails.
+the same device without having to reinstall TⒶILS.
 
 Securely delete the persistent volume
 -------------------------------------
@@ -19,17 +19,17 @@ Securely delete the persistent volume
 <strong>The previous technique might not prevent an attacker from recovering the files in the
 old persistent volume using [[data
 recovery techniques|encryption_and_privacy/secure_deletion#why]].</strong>
-To securely delete the persistent volume, start Tails from another media, and do the following
+To securely delete the persistent volume, start TⒶILS from another media, and do the following
 operations on the device that you want to delete securely:
 
 <ol>
 <li>[[Format the device and create a single encrypted partition|encryption_and_privacy/encrypted_volumes]]
-on the whole device. This step deletes both Tails and the persistent volume.</li>
+on the whole device. This step deletes both TⒶILS and the persistent volume.</li>
 <li>[[Securely clean all the available disk
 space|encryption_and_privacy/secure_deletion#clean_disk_space]] on this new encrypted
 partition.</li>
-<li>[[Reinstall Tails|installation]] on the device.</li>
-<li>Start Tails from the device and [[create a new persistent
+<li>[[Reinstall TⒶILS|installation]] on the device.</li>
+<li>Start TⒶILS from the device and [[create a new persistent
 volume|persistence/configure]].</li>
 </ol>
 

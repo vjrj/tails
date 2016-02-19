@@ -1,8 +1,8 @@
 [[!meta date="Wed Dec 11 16:00:00 2013"]]
-[[!meta title="Tails 0.22 is out"]]
+[[!meta title="TⒶILS 0.22 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.22, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.22, is out.
 
 All users must upgrade as soon as possible: this release fixes
 [[numerous security issues|security/Numerous_security_holes_in_0.21]].
@@ -68,16 +68,16 @@ Go to the [[download]] page but first, please consider [[testing the
 incremental upgrade|news/test_incremental_upgrades]].
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is
+The next TⒶILS release is
 [scheduled](https://mailman.boum.org/pipermail/tails-dev/2013-December/004405.html)
 for January 21.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? There are many ways [[**you** can
-contribute to Tails|contribute]]. If you want to help, come talk
+contribute to TⒶILS|contribute]]. If you want to help, come talk
 to us!

@@ -1,12 +1,12 @@
 @product @fragile
 Feature: Getting a DHCP lease without leaking too much information
-  As a Tails user
+  As a TⒶILS user
   when I connect to a network with a DHCP server
   I should be able to connect to the Internet
   and the hostname should not have been leaked on the network.
 
   Background:
-    Given I have started Tails from DVD without network and logged in
+    Given I have started TⒶILS from DVD without network and logged in
     And I capture all network traffic
     And the network is plugged
     And Tor is ready

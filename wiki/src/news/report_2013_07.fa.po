@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"پنج‌شنبه ۱۳ آگوست ۰۹:۰۹:۳۹ ۲۰۱۳
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for July, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for July, 2013\"]]\n"
 msgstr "[[!meta title=\"گزارش ژوییه ۲۰۱۳ تیلز\"]]\n"
 
 #. type: Plain text
@@ -35,7 +35,7 @@ msgstr "[[!toc levels=1]]\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails summit\n"
+msgid "TⒶILS summit\n"
 msgstr "نشست تیلز\n"
 
 #. type: Plain text
@@ -55,7 +55,7 @@ msgstr "انتشارها\n"
 
 #. type: Plain text
 msgid ""
-"There was no release in July. Tails 0.20 [is "
+"There was no release in July. TⒶILS 0.20 [is "
 "planned](https://mailman.boum.org/pipermail/tails-dev/2013-July/003292.html)  "
 "for the 9th of August."
 msgstr ""
@@ -70,9 +70,9 @@ msgstr "متریک‌ها\n"
 
 #. type: Bullet: '- '
 msgid ""
-"151 657 connections of Tails to the Tor network. This makes a boot every "
+"151 657 connections of TⒶILS to the Tor network. This makes a boot every "
 "17.7 seconds on average. This is an approximation from the requests made to "
-"the security announcements feed when Tails is connected to Tor."
+"the security announcements feed when TⒶILS is connected to Tor."
 msgstr ""
 "۱۵۱٫۶۵۷ اتصال از تیلز به شبکهٔ تور ایجاد شد، یعنی هر ۱۷٫۷ ثانیه یک راه‌"
 "اندازی. این عدد بر حسب درخواست‌ها برای خوراک اعلان‌های امنیتی پس از متصل شدن "
@@ -105,7 +105,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"A first build of Tails based on Debian Wheezy version was tested, and many "
+"A first build of TⒶILS based on Debian Wheezy version was tested, and many "
 "bugs [[!tails_ticket 6015 desc=\"were identified\"]]."
 msgstr ""
 "اولین ساخت تیلز مبتنی بر Debian Wheezy آزمایش شد و [[!tails_ticket 6015 desc="
@@ -205,7 +205,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"A new page [[Website|contribute/how/website]] on how to improve the Tails "
+"A new page [[Website|contribute/how/website]] on how to improve the TⒶILS "
 "website was [[!tails_gitweb_commit fb9135c3ba1cbb974f9ab3bf596d17ce03803e4a "
 "desc=\"added to the contribute section\"]]."
 msgstr ""
@@ -274,7 +274,7 @@ msgstr "بومی‌سازی و بین‌المللی‌سازی\n"
 
 #. type: Plain text
 msgid ""
-"- All Tails strings but the website are now translatable in Transifex.  - "
+"- All TⒶILS strings but the website are now translatable in Transifex.  - "
 "i18nspector was uploaded to wheezy-backports."
 msgstr ""
 "- تمام رشته‌های تیلز به جز تارنما را حالا می‌توان از Transifex ترجمه کرد.  - "
@@ -313,7 +313,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Our roadmap was updated and we defined our objectives for Tails 1.0, 1.1, "
+"Our roadmap was updated and we defined our objectives for TⒶILS 1.0, 1.1, "
 "2.0, and 3.0:"
 msgstr ""
 "نقشهٔ راه ما به‌روز شد و اهدافمان برای تیلز ۱٫۰، ۱٫۱،  ۲٫۰ و ۳٫۰ را تعریف "
@@ -321,34 +321,34 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 1.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.0): "
+"[TⒶILS 1.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.0): "
 "feature parity with Incognito"
 msgstr ""
-"[تیلز ۱٫۰](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.0): "
+"[تیلز ۱٫۰](https://labs.riseup.net/code/projects/tails/roadmap#TⒶILS 1.0): "
 "تشابه ویژگی‌ها با Incognito"
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.1): "
-"Tails based on Debian Wheezy"
+"[TⒶILS 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.1): "
+"TⒶILS based on Debian Wheezy"
 msgstr ""
-"[تیلز ۱٫۱](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.1): "
+"[تیلز ۱٫۱](https://labs.riseup.net/code/projects/tails/roadmap#TⒶILS 1.1): "
 "تیلز مبتنی بر Debian Wheezy"
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 2.0): "
+"[TⒶILS 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 2.0): "
 "Sustainability and maintainability"
 msgstr ""
-"[تیلز ۲٫۰](https://labs.riseup.net/code/projects/tails/roadmap#Tails 2.0): "
+"[تیلز ۲٫۰](https://labs.riseup.net/code/projects/tails/roadmap#TⒶILS 2.0): "
 "پایداری و نگهداری‌پذیری"
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 3.0): "
+"[TⒶILS 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 3.0): "
 "Hardening and better security"
 msgstr ""
-"[تیلز ۳٫۰](https://labs.riseup.net/code/projects/tails/roadmap#Tails 3.0): "
+"[تیلز ۳٫۰](https://labs.riseup.net/code/projects/tails/roadmap#TⒶILS 3.0): "
 "امنیت بیشتر"
 
 #. type: Bullet: '- '

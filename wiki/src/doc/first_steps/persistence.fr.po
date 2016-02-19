@@ -24,14 +24,14 @@ msgstr "[[!meta title=\"Persistance chiffrée\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"If you start Tails from a USB stick or SD card, you can create a\n"
+"If you start TⒶILS from a USB stick or SD card, you can create a\n"
 "persistent volume in the free space left on the device by <span\n"
-"class=\"application\">Tails Installer</span>. The files in the persistent\n"
+"class=\"application\">TⒶILS Installer</span>. The files in the persistent\n"
 "volume are saved encrypted and remain available across separate working sessions.\n"
 msgstr ""
-"Si vous avez démarré Tails depuis une clé USB, vous pouvez créer\n"
+"Si vous avez démarré TⒶILS depuis une clé USB, vous pouvez créer\n"
 "un volume persistant sur l'espace libre de la clé avec l'<span\n"
-"class=\"application\">Installeur de Tails</span>. Les données contenues\n"
+"class=\"application\">Installeur de TⒶILS</span>. Les données contenues\n"
 "dans le volume persistant sont sauvegardées de manière chiffrée et\n"
 "restent disponibles d'une session de travail à l'autre.\n"
 
@@ -44,12 +44,12 @@ msgstr "<div class=\"note\">\n"
 #, no-wrap
 msgid ""
 "<p>It is only possible to create a persistent volume if the device, USB stick or\n"
-"SD card, was installed using <span class=\"application\">[[Tails\n"
+"SD card, was installed using <span class=\"application\">[[TⒶILS\n"
 "Installer|doc/first_steps/installation]]</span>.</p>\n"
 msgstr ""
 "<p>Il est uniquement possible de créer un volume persistant sur le périphérique,\n"
 "clé USB ou carte SD a été installé via l'<span class=\"application\">[[Installeur\n"
-"de Tails|doc/first_steps/installation]]</span>.</p>\n"
+"de TⒶILS|doc/first_steps/installation]]</span>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -72,8 +72,8 @@ msgid "your personal files and working documents"
 msgstr "vos données personnelles et vos documents de travail"
 
 #. type: Bullet: '  - '
-msgid "the software packages that you download and install in Tails"
-msgstr "les paquets logiciels que vous téléchargez et installez dans Tails"
+msgid "the software packages that you download and install in TⒶILS"
+msgstr "les paquets logiciels que vous téléchargez et installez dans TⒶILS"
 
 #. type: Bullet: '  - '
 msgid "the configuration of the programs you use"
@@ -93,10 +93,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Once the persistent volume is created, you can choose to activate it or not "
-"each time you start Tails."
+"each time you start TⒶILS."
 msgstr ""
 "Une fois le volume persistant créé, vous pouvez choisir de l'activer, ou "
-"non, à chaque démarrage de Tails."
+"non, à chaque démarrage de TⒶILS."
 
 #. type: Plain text
 #, no-wrap

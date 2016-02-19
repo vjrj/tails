@@ -3,12 +3,12 @@
 Vision
 ======
 
-As of 2014, incremental upgrades are available inside Tails if running
-from a USB device installed using Tails Installer. Full upgrades have to
-be done using a second USB stick and cloning using Tails Installer.
+As of 2014, incremental upgrades are available inside TⒶILS if running
+from a USB device installed using TⒶILS Installer. Full upgrades have to
+be done using a second USB stick and cloning using TⒶILS Installer.
 
 On the long run we want to have all upgrade scenarios, both incremental
-and full, handled by Tails Upgrader and done directly from Tails. This
+and full, handled by TⒶILS Upgrader and done directly from Tails. This
 will make it easier to understand which software does what, and will
 also improve the overall security of full upgrades by removing the need
 or the possibility to do them from a different operating system.
@@ -17,18 +17,18 @@ Full upgrade scenarios
 ----------------------
 
 The following diagram shows all possible upgrade scenarios (implemented
-or not) given a running Tails (origin), an ISO image, and a destination
-Tails.
+or not) given a running TⒶILS (origin), an ISO image, and a destination
+TⒶILS.
 
 [[!img scenarios.png]]
 
 - **Upgrade from ISO** and **Clone and upgrade** are what we already
-  have in Tails Installer.
+  have in TⒶILS Installer.
 - **Self full upgrade** should be the ideal scenario for full upgrades,
   that would then be conducted like IUK. See [[!tails_ticket 7499]].
 - **Hot clone** could be a fallback scenario for full upgrades in case
   you can't download a full ISO. Still, as any clone operation, this
-  introduces the possibility of cross contamination between Tails keys
+  introduces the possibility of cross contamination between TⒶILS keys
   and should be discouraged in favor of self upgrades.
 
 Roadmap
@@ -40,7 +40,7 @@ Roadmap
 In 2015, we want to clarify the possible upgrade scenarios to the user,
 when asking for a full upgrade. We will present them as follows:
 
-  - *Slow and secure*: download, verify in Tails, upgrade from ISO,
+  - *Slow and secure*: download, verify in TⒶILS, upgrade from ISO,
     clone and upgrade: 1'30.
   - *Fast*: clone and upgrade from a friend: 0'15.
   - *Fast and insecure*: reboot in host operating system download,
@@ -50,11 +50,11 @@ Bonus for 2015
 --------------
 
 - Automate the download and verification steps of the *slow and secure*
-  scenario in Tails Upgrader. This could be adapted from the existing
+  scenario in TⒶILS Upgrader. This could be adapted from the existing
   mechanisms for IUK.
 
 Future
 ------
 
-- Allow self full upgrades from inside Tails and automate that in Tails
+- Allow self full upgrades from inside TⒶILS and automate that in Tails
   Upgrader. See [[!tails_ticket 7499]].

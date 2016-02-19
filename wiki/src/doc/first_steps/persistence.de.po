@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2014-10-08 16:51+0300\n"
 "PO-Revision-Date: 2015-12-30 23:22+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails Translators <tails-l10n@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,14 +24,14 @@ msgstr "[[!meta title=\"Verschlüsselter beständiger Speicherbereich\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"If you start Tails from a USB stick or SD card, you can create a\n"
+"If you start TⒶILS from a USB stick or SD card, you can create a\n"
 "persistent volume in the free space left on the device by <span\n"
-"class=\"application\">Tails Installer</span>. The files in the persistent\n"
+"class=\"application\">TⒶILS Installer</span>. The files in the persistent\n"
 "volume are saved encrypted and remain available across separate working sessions.\n"
 msgstr ""
-"Falls Sie Tails von einem USB-Stick oder einer SD-Karte starten, können Sie einen\n"
+"Falls Sie TⒶILS von einem USB-Stick oder einer SD-Karte starten, können Sie einen\n"
 "beständigen Speicherbereich auf dem freien Platz, der vom <span\n"
-"class=\"application\">Tails Installer</span> auf dem Speichermedium freigelassen wurde, erstellen.\n"
+"class=\"application\">TⒶILS Installer</span> auf dem Speichermedium freigelassen wurde, erstellen.\n"
 " Die Daten in dem beständigen Speicherbereich werden verschlüsselt gespeichert und\n"
 "bleiben über mehrere Sitzungen hinweg erhalten.\n"
 
@@ -44,12 +44,12 @@ msgstr "<div class=\"note\">\n"
 #, no-wrap
 msgid ""
 "<p>It is only possible to create a persistent volume if the device, USB stick or\n"
-"SD card, was installed using <span class=\"application\">[[Tails\n"
+"SD card, was installed using <span class=\"application\">[[TⒶILS\n"
 "Installer|doc/first_steps/installation]]</span>.</p>\n"
 msgstr ""
 "<p>Es ist nur möglich, einen beständigen Speicherbereich zu erstellen, wenn das\n"
 "Speichermedium, USB-Stick oder SD-Karte, mit dem <span class=\"application\">\n"
-"[[Tails Installer|doc/first_steps/installation]]</span> erstellt wurde.</p>\n"
+"[[TⒶILS Installer|doc/first_steps/installation]]</span> erstellt wurde.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -72,9 +72,9 @@ msgid "your personal files and working documents"
 msgstr "Ihre persönlichen Dateien und Arbeitsdokumente"
 
 #. type: Bullet: '  - '
-msgid "the software packages that you download and install in Tails"
+msgid "the software packages that you download and install in TⒶILS"
 msgstr ""
-"Die Softwarepakete, die Sie in Tails heruntergeladen und installiert haben"
+"Die Softwarepakete, die Sie in TⒶILS heruntergeladen und installiert haben"
 
 #. type: Bullet: '  - '
 msgid "the configuration of the programs you use"
@@ -94,10 +94,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Once the persistent volume is created, you can choose to activate it or not "
-"each time you start Tails."
+"each time you start TⒶILS."
 msgstr ""
 "Sobald der beständige Speicherbereich erstellt wurde, können Sie bei jedem "
-"Start von Tails auswählen, ob Sie ihn aktivieren wollen oder nicht."
+"Start von TⒶILS auswählen, ob Sie ihn aktivieren wollen oder nicht."
 
 #. type: Plain text
 #, no-wrap

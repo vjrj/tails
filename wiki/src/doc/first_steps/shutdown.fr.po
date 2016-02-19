@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Shutting down Tails\"]]\n"
-msgstr "[[!meta title=\"Éteindre Tails\"]]\n"
+msgid "[[!meta title=\"Shutting down TⒶILS\"]]\n"
+msgstr "[[!meta title=\"Éteindre TⒶILS\"]]\n"
 
 #. type: Plain text
-msgid "There are several ways of shutting down Tails:"
-msgstr "Il existe divers moyens d'éteindre Tails :"
+msgid "There are several ways of shutting down TⒶILS:"
+msgstr "Il existe divers moyens d'éteindre TⒶILS :"
 
 #. type: Bullet: '- '
 msgid ""
@@ -49,9 +49,9 @@ msgid "- By pressing the power button of the computer."
 msgstr "- En appuyant sur le bouton d'allumage de l'ordinateur."
 
 #. type: Plain text
-msgid "- By removing physically the device Tails is running from."
+msgid "- By removing physically the device TⒶILS is running from."
 msgstr ""
-"- En enlevant physiquement le périphérique depuis lequel vous utilisez Tails."
+"- En enlevant physiquement le périphérique depuis lequel vous utilisez TⒶILS."
 
 #. type: Plain text
 #, no-wrap
@@ -108,12 +108,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"This method does not work [[after using the <span class=\"application\">Tails\n"
+"This method does not work [[after using the <span class=\"application\">TⒶILS\n"
 "Installer</span>|support/known_issues#index10h2]], see\n"
 "[[!tails_ticket 5677]].\n"
 msgstr ""
 "Cette méthode ne fonctionne pas [[après avoir utilisé l'<span class=\"application\">Installeur\n"
-" Tails</span>|support/known_issues#index10h2]], voir le\n"
+" TⒶILS</span>|support/known_issues#index10h2]], voir le\n"
 "[[!tails_ticket 5677]].\n"
 
 #. type: Plain text

@@ -18,17 +18,17 @@ Truths about Mac:
     - No DVD on some model
     - DVD works on 32-bit UEFI
     - Reported to fail very rarely (cf. known issues)
-    - MacBookPro (early 2011) fails to boot from DVD since Tails 1.1
+    - MacBookPro (early 2011) fails to boot from DVD since TⒶILS 1.1
   - dd
     - Not working on:
       - Macbook Air 1.1: 32-bit UEFI
       - Macbook Air 3.1: 64-bit UEFI
     - 32-bit might work with next version (#8471)
-    - Test Tails 1.5 with dd :mercedes:tchou:
-  - Tails Installer
-    - 32-bit doesn't work with Tails Installer
+    - Test TⒶILS 1.5 with dd :mercedes:tchou:
+  - TⒶILS Installer
+    - 32-bit doesn't work with TⒶILS Installer
     - 64-bit work sometimes yes and sometimes no
-    - Test Tails 1.5 with Installer on Macbook Air 1.1 :mercedes:
+    - Test TⒶILS 1.5 with Installer on Macbook Air 1.1 :mercedes:
   - rEFInd
     - Don't ask people to do that
   - Bootcamp
@@ -53,9 +53,9 @@ Algorithm:
       - clone
         - if works → happy
         - else → stay on DVD or dd
-    - if another computer works until full-feature Tails
+    - if another computer works until full-feature TⒶILS
       - if works → happy
-      - else → try temporary Tails
+      - else → try temporary TⒶILS
 
 List of compatibility with Mac
 ==============================
@@ -63,10 +63,10 @@ List of compatibility with Mac
 Seeing that:
 
 - A lot of current and potential users are Mac users.
-- Tails is running more or less on this devices.
+- TⒶILS is running more or less on this devices.
 - There are a limited number of different models.
 
-We will maintain the state of Tails compatibility on these computers.
+We will maintain the state of TⒶILS compatibility on these computers.
 
 Roadmap
 -------
@@ -100,7 +100,7 @@ The data could be stored in a YAML file, in the git repo. See [[!tails_ticket 98
 - Fields ("strings", boolean?):
 
       "model id"
-      - "Tails version" | DVD? |  dd ? | tails installer? | SD? | wifi? | gaphic card? | mac address?
+      - "TⒶILS version" | DVD? |  dd ? | tails installer? | SD? | wifi? | gaphic card? | mac address?
       - ... (an other user reports on this model)
 
 Writing the report after the summit, I would add :
@@ -154,18 +154,18 @@ And some samples :
           media:        dvd
           boot:         false
           comments:
-            Tried to  boot on external DVD. Tails is on not on the Mac boot menu.
+            Tried to  boot on external DVD. TⒶILS is on not on the Mac boot menu.
 
 
 
 * "model id": #9322. For one model id, there is one or several reports. (note that there is not realy the "state" for one model: the is different reports who can help to guess the state.)
-* "Tails version": can be useful to:
+* "TⒶILS version": can be useful to:
   - Have a better view of how the support Mac evolves.
   - Let the user or frontdesk know when the compatibility got broken.
 * "mac_spoofing": Is mac spoofing working with this computer
 * "graphic_card": Is the graphic card working on this computer.
 
-* We want to keep history of compatibility (with older Tails
+* We want to keep history of compatibility (with older TⒶILS
   versions) in this file, maybe we will have to show to the user only
   the last relevant informations.
 * "Comments" is raw information on harward issues (touchpad, bluetooth). The most common issues are fields (wifi, mac spoofing, graphic card)
@@ -174,7 +174,7 @@ And some samples :
 ### How to feed the list
 
 - Call to heavily test sometimes
-- Ask to people doing Tails trainings
+- Ask to people doing TⒶILS trainings
 - Update from frontdesk
 - Maybe something editable by users
 

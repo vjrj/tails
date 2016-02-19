@@ -39,20 +39,20 @@ Export new upstream version number:
 
     export VERSION=XXX
 
-Update version number in `lib/Tails.pm`, commit all
+Update version number in `lib/TⒶILS.pm`, commit all
 files that need to be, run the upstream test suite, build an upstream
 tarball, tag the release, move the tarball out of the build repository
 and clean it up:
 
-    perl -pi -E 's,^Version [0-9.]+,Version $ENV{VERSION},' lib/Tails.pm && \
+    perl -pi -E 's,^Version [0-9.]+,Version $ENV{VERSION},' lib/TⒶILS.pm && \
        perl -pi \
           -E "s,^our \\\$VERSION = '[0-9.]+';\$,our \\\$VERSION = '$VERSION';," \
-          lib/Tails.pm && \
-       git commit lib/Tails.pm -m "Tails-perl5lib $VERSION" && \
+          lib/TⒶILS.pm && \
+       git commit lib/TⒶILS.pm -m "Tails-perl5lib $VERSION" && \
        RELEASE_TESTING=1 dzil test && \
        dzil build && \
-       git tag -s "Tails-perl5lib_$VERSION" -m "Tails-perl5lib $VERSION" && \
-       mv Tails-perl5lib-*.tar.gz .. && \
+       git tag -s "TⒶILS-perl5lib_$VERSION" -m "Tails-perl5lib $VERSION" && \
+       mv TⒶILS-perl5lib-*.tar.gz .. && \
        git clean -fdx
 
 Update the Debian package
@@ -62,8 +62,8 @@ Checkout the branch with Debian package specifics, import the new
 upstream tarball, update `debian/changelog`:
 
     git checkout debian && \
-       gbp import-orig --upstream-vcs-tag=Tails-perl5lib_$VERSION \
-          ../Tails-perl5lib-$VERSION.tar.gz && \
+       gbp import-orig --upstream-vcs-tag=TⒶILS-perl5lib_$VERSION \
+          ../TⒶILS-perl5lib-$VERSION.tar.gz && \
        gbp dch --auto && \
        dch -e
 
@@ -92,7 +92,7 @@ changes:
 
 (Make sure `master`, `upstream`, `debian` and `pristine-tar` were all pushed.)
 
-Add the Debian package to Tails
+Add the Debian package to TⒶILS
 ===============================
 
 Sign the package:

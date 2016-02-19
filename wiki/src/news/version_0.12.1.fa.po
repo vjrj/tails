@@ -26,7 +26,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.12.1 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.12.1 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -35,16 +35,16 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.12.1, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.12.1, is out."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "This is a [brown paper bag "
 "release](http://www.catb.org/jargon/html/B/brown-paper-bag-bug.html)  aimed "
-"at fixing two major problems introduced in Tails 0.12. While upgrading is "
+"at fixing two major problems introduced in TⒶILS 0.12. While upgrading is "
 "recommended, it's not strictly necessary for users that haven't experienced "
-"any issues with Tails 0.12."
+"any issues with TⒶILS 0.12."
 msgstr ""
 
 #. type: Plain text
@@ -86,7 +86,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* Boot\n"
-"  - Remove the Tails specific plymouth theme. The theme interfers heavily "
+"  - Remove the TⒶILS specific plymouth theme. The theme interfers heavily "
 "with\n"
 "    the boot process on some hardware.\n"
 msgstr ""
@@ -126,5 +126,5 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], here are many ways **you** can contribute to "
-"Tails: no need to be a hardcore developer."
+"TⒶILS: no need to be a hardcore developer."
 msgstr ""

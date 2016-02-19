@@ -1,8 +1,8 @@
-[[!meta title="Set up a Tails mirror"]]
+[[!meta title="Set up a TⒶILS mirror"]]
 
 <div id="intro">
 
-<p>Setting up a Tails BitTorrent or HTTP mirror helps Tails users
+<p>Setting up a TⒶILS BitTorrent or HTTP mirror helps Tails users
 downloading it faster and more reliably.</p>
 
 [[!toc levels=2]]
@@ -12,7 +12,7 @@ downloading it faster and more reliably.</p>
 BitTorrent
 ==========
 
-It's really easy to help Tails users downloading it over BitTorrent...
+It's really easy to help TⒶILS users downloading it over BitTorrent...
 especially if you are already a BitTorrent user.
 
 1. Get the latest BitTorrent files
@@ -22,7 +22,7 @@ Here are the latest available BitTorrent files:
 
 [[!map pages="torrents/files/*.torrent"]]
 
-2. Share Tails images
+2. Share TⒶILS images
 ---------------------
 
 Feed your preferred BitTorrent client with the `.torrent` files
@@ -33,14 +33,14 @@ are a real seed.
 3. Stay tuned!
 --------------
 
-As a contributor to Tails availability over BitTorrent, it is very
+As a contributor to TⒶILS availability over BitTorrent, it is very
 important you share the very latest published version, and only this
 one: users need to be able to quickly download it and upgrade when we
 release security fixes, and there is no need to help propagate
 outdated versions with security flaws.
 
 A way to do this is to configure software to [[automatically download
-and seed Tails over
+and seed TⒶILS over
 BitTorrent|contribute/how/mirror/automatically_download_and_seed_Tails_over_BitTorrent]].
 
 Else, new versions are announced on:
@@ -56,7 +56,7 @@ Else, new versions are announced on:
 HTTP
 ====
 
-To efficiently help Tails users downloading it over HTTP, one needs to
+To efficiently help TⒶILS users downloading it over HTTP, one needs to
 have sufficiently privileged access to a web server with decent
 bandwidth: a domestic DSL connection won't help; neither will a shared
 web hosting setup that provides FTP access only.
@@ -70,7 +70,7 @@ a month, and preferably 6 or 8 TiB.
 You will also need around 5-10 GiB of disk space.
 
 If you satisfy these practical requirements, please read on!
-Else, please consider seeding Tails images over BitTorrent instead.
+Else, please consider seeding TⒶILS images over BitTorrent instead.
 
 Before starting doing any real work on this topic, please get in touch
 (<tails@boum.org>, [[OpenPGP key|doc/about/openpgp_keys#private]]) and send us
@@ -139,14 +139,14 @@ enabled and [[!wikipedia HTTP_ETag desc="ETags"]] disabled.
 
 ### 2. Download the files
 
-Download a snapshot of the current Tails files:
+Download a snapshot of the current TⒶILS files:
 
 	rsync -rt --delete \
 	         rsync.torproject.org::amnesia-archive \
 	         /var/www/THE_PLACE_WHERE_YOU_WANT_OUR_FILES_TO_LIVE/
 
 If you have disk space limitations, you might want to exclude the
-`/tails/obsolete` folder (which contains old versions of Tails) from the
+`/tails/obsolete` folder (which contains old versions of TⒶILS) from the
 download:
 
 	rsync -rt --delete --exclude=/tails/obsolete --delete-excluded \

@@ -1,13 +1,13 @@
-[[!meta title="Tails report for July, 2015"]]
+[[!meta title="TⒶILS report for July, 2015"]]
 
-July started frenetically, with the postponed release on the 3rd. Then we had a Tails contributors meeting, and it was lots of fun and hard work. We decided broad directions for the incoming years, that you'll see in our [[draft roadmap for 2016-2017|blueprint/roadmap_2016-2017]]. We also reevaluated our processes and tools, and had a dance party. Tails contributors are ready to go on doing amazing work :)
+July started frenetically, with the postponed release on the 3rd. Then we had a TⒶILS contributors meeting, and it was lots of fun and hard work. We decided broad directions for the incoming years, that you'll see in our [[draft roadmap for 2016-2017|blueprint/roadmap_2016-2017]]. We also reevaluated our processes and tools, and had a dance party. Tails contributors are ready to go on doing amazing work :)
 
 [[!toc]]
 
 Releases
 ========
 
-* [[Tails 1.4.1 was released on July 3rd, 2015|news/version_1.4.1]] (minor release).
+* [[TⒶILS 1.4.1 was released on July 3rd, 2015|news/version_1.4.1]] (minor release).
 
 * The next release (1.5) is [[planned for August 11|https://tails.boum.org/contribute/calendar/]].
 
@@ -76,16 +76,16 @@ Outreach
 Upcoming events
 ---------------
 
-* Andres Gomez, intrigeri and others will present [a technical overview of Tails](https://summit.debconf.org/debconf15/meeting/289/tails-a-technical-overview/) at [[DebConf15|http://debconf15.debconf.org/]] in Heidelberg, Germany, on August 15th.
+* Andres Gomez, intrigeri and others will present [a technical overview of TⒶILS](https://summit.debconf.org/debconf15/meeting/289/tails-a-technical-overview/) at [[DebConf15|http://debconf15.debconf.org/]] in Heidelberg, Germany, on August 15th.
 
-* Some Tails contributors will be at the [[Chaos Communication Camp|https://events.ccc.de/camp/2015/wiki/Main_Page]] in Mildenberg, Germany, August 13&ndash;17th.
+* Some TⒶILS contributors will be at the [[Chaos Communication Camp|https://events.ccc.de/camp/2015/wiki/Main_Page]] in Mildenberg, Germany, August 13&ndash;17th.
 
 On-going discussions
 ====================
 
 * intrigeri issued a [call for help](https://mailman.boum.org/pipermail/tails-dev/2015-July/009237.html).
 
-* KillYourTV shared his [Opensearch plugins for Mozilla-based browsers](https://mailman.boum.org/pipermail/tails-dev/2015-July/009281.html) - they might be interesting for Tails contributors and curious :)
+* KillYourTV shared his [Opensearch plugins for Mozilla-based browsers](https://mailman.boum.org/pipermail/tails-dev/2015-July/009281.html) - they might be interesting for TⒶILS contributors and curious :)
 
 * Reuben Abrams informed us of his project of a [safe distribution for ARM-based Chromebooks](https://mailman.boum.org/pipermail/tails-project/2015-July/000246.html).
 
@@ -96,7 +96,7 @@ Press and testimonials
 
 * 2015-07-27: [מדריך: כך תתגוננו מפני מעקב ברשת](http://mekomit.co.il/%D7%94%D7%AA%D7%92%D7%95%D7%A0%D7%A0%D7%95%D7%AA-%D7%9E%D7%A4%D7%A0%D7%99-%D7%9E%D7%A2%D7%A7%D7%91-%D7%A8%D7%A9%D7%AA%D7%95%D7%AA-%D7%97%D7%91%D7%A8%D7%AA%D7%99%D7%95%D7%AA/) (in Hebrew).
 
-* 2015-07-25: ['Tails' Bantu Amankan Aktivis Daring](http://www.pikiran-rakyat.com/horison/2015/07/25/335754/tails-bantu-amankan-aktivis-daring) in Pikiran Rakyat (in Indonesian).
+* 2015-07-25: ['TⒶILS' Bantu Amankan Aktivis Daring](http://www.pikiran-rakyat.com/horison/2015/07/25/335754/tails-bantu-amankan-aktivis-daring) in Pikiran Rakyat (in Indonesian).
 
 * 2015-07-23: [Digital Solution Helps Shield Online Activists](http://www.voanews.com/content/digital-solution-helps-shield-online-activists/2873529.html) by Doug Bernard in Voice of America.
 
@@ -126,10 +126,10 @@ Total original words: 14258
 Metrics
 =======
 
-* Tails has been started more than 429.889 times this month. This makes 13.867 boots a day on average.
+* TⒶILS has been started more than 429.889 times this month. This makes 13.867 boots a day on average.
 
-* 24.256 downloads of the OpenPGP signature of Tails ISO from our website.
+* 24.256 downloads of the OpenPGP signature of TⒶILS ISO from our website.
 
 * 89 bug reports were received through WhisperBack.
 
--- Report by BitingBird for Tails folks
+-- Report by BitingBird for TⒶILS folks

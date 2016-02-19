@@ -19,7 +19,7 @@ Standards-Version: 3.9.6
 
 Package: gnome-backgrounds
 Version: ${FAKE_PKG_VERSION}
-Maintainer: Tails developers <amnesia@boum.org>
+Maintainer: TⒶILS developers <amnesia@boum.org>
 Architecture: all
 Description: (Fake) gnome-backgrounds
  Make it possible to install gnome-shell without having to

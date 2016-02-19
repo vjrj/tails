@@ -25,10 +25,10 @@ msgstr "[[!meta title=\"Échanger des bitcoins avec Electrum\"]]\n"
 #, no-wrap
 msgid ""
 "[<span class=\"application\">Electrum</span>](https://electrum.org/) is a [[!wikipedia bitcoin]] client that is\n"
-"particularly suited to the context of Tails because:\n"
+"particularly suited to the context of TⒶILS because:\n"
 msgstr ""
 "[<span class=\"application\">Electrum</span>](https://electrum.org/) est un client [[!wikipedia_fr bitcoin]]\n"
-"particulièrement adapté au contexte de Tails car :\n"
+"particulièrement adapté au contexte de TⒶILS car :\n"
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -150,7 +150,7 @@ msgid ""
 "persistence feature|doc/first_steps/persistence/configure/#bitcoin]] to\n"
 "store your bitcoin wallet and preferences across separate working\n"
 "sessions.</li>\n"
-"  <li>Backup your seed outside of Tails. For example, you can\n"
+"  <li>Backup your seed outside of TⒶILS. For example, you can\n"
 "write it down on a piece of paper and keep it with you.</li>\n"
 "</ul>\n"
 msgstr ""

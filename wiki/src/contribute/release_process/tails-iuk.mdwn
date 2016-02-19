@@ -6,7 +6,7 @@ Pre-requisites
 =============
 
 * a Jessie system
-* Tails' `devel` APT suite enabled
+* TⒶILS' `devel` APT suite enabled
 * the right version of the `tails-perl5lib` package installed
 * a user that has sudo credentials
 
@@ -69,7 +69,7 @@ the build repository and cleanup:
 
     dzil build && \
        git tag -s $VERSION -m "tails-iuk $VERSION" && \
-       mv Tails-IUK*.tar.gz .. && git clean -fdx
+       mv TⒶILS-IUK*.tar.gz .. && git clean -fdx
 
 Update the Debian package
 =========================
@@ -79,7 +79,7 @@ upstream tarball, update `debian/changelog`:
 
     git checkout debian && \
        gbp import-orig --upstream-vcs-tag=$VERSION \
-          ../Tails-IUK-$VERSION.tar.gz && \
+          ../TⒶILS-IUK-$VERSION.tar.gz && \
        gbp dch --auto && \
        dch -e
 
@@ -104,7 +104,7 @@ push the changes:
                     upstream:upstream && \
     git push --tags
 
-Add the Debian package to Tails
+Add the Debian package to TⒶILS
 ===============================
 
 Sign the package:

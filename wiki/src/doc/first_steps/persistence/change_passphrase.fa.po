@@ -25,7 +25,7 @@ msgstr "[[!meta title=\"تغییر گذرواژهٔ درایو مانا\"]]\n"
 
 #. type: Bullet: '  1. '
 msgid ""
-"While starting Tails, [[set up an administration password |doc/first_steps/"
+"While starting TⒶILS, [[set up an administration password |doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
 
@@ -73,12 +73,12 @@ msgstr ""
 #. type: Bullet: '  1. '
 msgid ""
 "Find which device contains the persistent volume. It should have two "
-"partitions, one labelled <span class=\"guilabel\">Tails</span>, and another "
+"partitions, one labelled <span class=\"guilabel\">TⒶILS</span>, and another "
 "one labelled <span class=\"guilabel\">TailsData</span> which corresponds to "
 "the persistent volume."
 msgstr ""
 "دریابید که کدام دستگاه حاوی درایو مانا است. این درایو باید دو بخش مرتبط با "
-"درایو مانا داشته باشد؛ یکی به نام <span class=\"guilabel\">Tails</span> و "
+"درایو مانا داشته باشد؛ یکی به نام <span class=\"guilabel\">TⒶILS</span> و "
 "دیگری به نام <span class=\"guilabel\">TailsData</span>."
 
 #. type: Bullet: '  1. '
@@ -116,7 +116,7 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid ""
-"You now can restart Tails and try to enable the persistent volume with its "
+"You now can restart TⒶILS and try to enable the persistent volume with its "
 "new passphrase."
 msgstr ""
 "حالا می‌توانید تیلز را دوباره راه‌اندازی کرده و درایو مانا را با گذرواژهٔ جدیدش "

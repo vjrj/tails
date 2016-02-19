@@ -1,16 +1,16 @@
-[[!meta title="Tails report for February, 2014"]]
+[[!meta title="TⒶILS report for February, 2014"]]
 
 Releases
 ========
 
-Tails 0.22.1 was released on February 4.
+TⒶILS 0.22.1 was released on February 4.
 
 Metrics
 =======
 
-- Tails has been started more than 222 134 times in February.
+- TⒶILS has been started more than 222 134 times in February.
   This make 7 933 boots a day in average.
-- 453 082 downloads of the OpenPGP signature of Tails ISO. Weird.
+- 453 082 downloads of the OpenPGP signature of TⒶILS ISO. Weird.
 - 92 reports were received through WhisperBack.
 
 Code
@@ -29,7 +29,7 @@ New features:
 - [[!tails_gitweb_branch feature/6508-incremental-upgrades-phase-four
   desc="Phase four"]] of incremental upgrades was completed
   ([[!tails_ticket 6508]]), and given it was enabled by default in
-  Tails 0.22.1, most users will see it in action when 0.23 is out.
+  TⒶILS 0.22.1, most users will see it in action when 0.23 is out.
 - One may now [[!tails_gitweb_branch_winterfairy
   bugfix/allow-ibus-start desc="start IBus manually"]] in locales
   environment where it is disabled by default ([[!tails_ticket
@@ -80,7 +80,7 @@ Bug and regression fixes:
 - [[!tails_gitweb_branch feature/create-additional-software-config]]
   was merged.
 
-Towards Tails based on Debian Wheezy:
+Towards TⒶILS based on Debian Wheezy:
 
 - I2P packages compatible with Debian Wheezy were prepared, and are
   now installed in the [[!tails_gitweb_branch feature/wheezy]] branch.
@@ -96,9 +96,9 @@ Documentation, website and localization
   finalized and [[deployed live|contribute]].
 - The [[blueprint/FAQ]] was greatly expanded, and is now almost ready
   for prime-time.
-- We have made good progress on specifying how the Tails logo should
+- We have made good progress on specifying how the TⒶILS logo should
   look like ([[!tails_ticket 5797]]).
-- It was documented how to [[improve Tails by working on
+- It was documented how to [[improve TⒶILS by working on
   Debian|contribute/how/debian]]. We have received positive feedback
   from Debian contributors about it.
 - Many small improvements to the documentation and its translations
@@ -113,7 +113,7 @@ Documentation, website and localization
 - Links to the I2P website were [[!tails_gitweb_branch_kytv
   bugfix/new-i2p-site desc="updated"]].
 - Documentation for the new MAC address spoofing feature was drafted.
-- Work is in progress on documentation about contributing to Tails in
+- Work is in progress on documentation about contributing to TⒶILS in
   the infrastructure (systems administration, automation) area.
 
 Infrastructure
@@ -139,24 +139,24 @@ On-going discussions
 
 - [Usecases for the Cookie Monster browser
   extension?](https://mailman.boum.org/pipermail/tails-dev/2014-February/004804.html)
-- [Tails
+- [TⒶILS
   logo](https://mailman.boum.org/pipermail/tails-dev/2014-February/004841.html)
 - [How to remove identifying information in bug
   reports?](https://mailman.boum.org/pipermail/tails-dev/2014-February/004984.html)
 - [Numlock on by
   default?](https://mailman.boum.org/pipermail/tails-dev/2014-February/004986.html)
 - [Various](https://mailman.boum.org/pipermail/tails-dev/2014-February/004923.html) [issues](https://mailman.boum.org/pipermail/tails-dev/2014-February/005042.html) with Vagrant.
-- [Interactions between Tails and TBB
+- [Interactions between TⒶILS and TBB
   developers](https://mailman.boum.org/pipermail/tails-dev/2014-February/004885.html)
 - [Adding BitMessage and Bitcoin-QT to
-  Tails](https://mailman.boum.org/pipermail/tails-dev/2014-February/004850.html)
+  TⒶILS](https://mailman.boum.org/pipermail/tails-dev/2014-February/004850.html)
 - [MAC address 'spoofing' and
   randomization](https://mailman.boum.org/pipermail/tails-dev/2014-February/004842.html)
 - [Adapting Tor Launcher for
-  Tails](https://mailman.boum.org/pipermail/tails-dev/2014-February/004819.html)
-- We were contacted by a few people who want to use Tails as
+  TⒶILS](https://mailman.boum.org/pipermail/tails-dev/2014-February/004819.html)
+- We were contacted by a few people who want to use TⒶILS as
   a flexible framework, and build customized derivatives on top of it.
-- We are discussing who we will invite to the 2014 Tails contributors
+- We are discussing who we will invite to the 2014 TⒶILS contributors
   summit, that should be a bit more crowded than usual.
 
 Funding
@@ -171,10 +171,10 @@ Outreach
 - We have been working with people who want to build bridges between
   the graphics designers and usability experts community on the one
   hand, and Free Software developers on the other hand. Thanks to this
-  collaboration, it is likely that Tails will go through a usability
+  collaboration, it is likely that TⒶILS will go through a usability
   study in a few months, followed by a hackfest that will put at work
   designers and usability experts for finding solutions to (some of)
-  the identified issues. The Tails sprint in July might host
+  the identified issues. The TⒶILS sprint in July might host
   this hackfest.
 - One of us attended FOSDEM, and got a chance to talk with many
   interesting people in person there.
@@ -191,7 +191,7 @@ Press and testimonials
 * 2014-02-27: In his article "[Why It’s Vital For Users to Fund Open-Source
   Encryption
   Tools](https://pressfreedomfoundation.org/blog/2014/02/why-its-vital-public-fund-open-source-encryption-tools)"
-  Trevor Timm from Freedom of the Press Foundation explains that Tails « has
+  Trevor Timm from Freedom of the Press Foundation explains that TⒶILS « has
   been vital for most, if not all, of the NSA journalists. [...] Its prime use
   case is journalists trying to communicate or work in environments in which
   they may normally be at risk or compromised. The NSA stories have been the
@@ -199,7 +199,7 @@ Press and testimonials
   rely on is incredibly underfunded, is maintained by only a handful of
   developers, and operates on a shoestring budget. »
 * 2014-02-07: In his review of [uVirtus](http://uvirtus.org), Kheops, from
-  Telecomix concludes that « Users should prefer Tails and other mature secure
+  Telecomix concludes that « Users should prefer TⒶILS and other mature secure
   live distributions (such as IprediaOS, Liberté Linux, Privatix and Whonix)
   over uVirtus since they provide a real safety improvement to the user. For any
   activity that does not entail transferring large quantities of data (such as

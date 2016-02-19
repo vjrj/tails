@@ -76,8 +76,8 @@ perl -pi'' -e 's/\A  \[ intrigeri \]\n//' debian/changelog
 perl -pi'' -e 's/\A  \[ kytv \]\n//' debian/changelog
 perl -pi'' -e 's/\A  \[ sajolida \]\n//' debian/changelog
 perl -pi'' -e 's/\A  \[ T\(A\)ILS developers \]\n//' debian/changelog
-perl -pi'' -e 's/\A  \[ Tails developers \]\n//' debian/changelog
-perl -pi'' -e 's/\A  \[ Tails \]\n//' debian/changelog
+perl -pi'' -e 's/\A  \[ TⒶILS developers \]\n//' debian/changelog
+perl -pi'' -e 's/\A  \[ TⒶILS \]\n//' debian/changelog
 perl -pi'' -e 's/\A  \* Added a comment\n//' debian/changelog
 perl -pi'' -e 's/\A  \* Added a comment:.*\n//' debian/changelog
 perl -pi'' -e 's/\A  \* Remove spam\.\n//' debian/changelog

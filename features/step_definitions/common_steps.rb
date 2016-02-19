@@ -130,7 +130,7 @@ Given /^the computer has (\d+) ([[:alpha:]]+) of RAM$/ do |size, unit|
   $vm.set_ram_size(size, unit)
 end
 
-Given /^the computer is set to boot from the Tails DVD$/ do
+Given /^the computer is set to boot from the TⒶILS DVD$/ do
   $vm.set_cdrom_boot(TAILS_ISO)
 end
 
@@ -147,13 +147,13 @@ end
 Given /^I plug (.+) drive "([^"]+)"$/ do |bus, name|
   $vm.plug_drive(name, bus.downcase)
   if $vm.is_running?
-    step "drive \"#{name}\" is detected by Tails"
+    step "drive \"#{name}\" is detected by TⒶILS"
   end
 end
 
-Then /^drive "([^"]+)" is detected by Tails$/ do |name|
-  raise "Tails is not running" unless $vm.is_running?
-  try_for(10, :msg => "Drive '#{name}' is not detected by Tails") do
+Then /^drive "([^"]+)" is detected by TⒶILS$/ do |name|
+  raise "TⒶILS is not running" unless $vm.is_running?
+  try_for(10, :msg => "Drive '#{name}' is not detected by TⒶILS") do
     $vm.disk_detected?(name)
   end
 end
@@ -179,7 +179,7 @@ Given /^I capture all network traffic$/ do
   end
 end
 
-Given /^I set Tails to boot with options "([^"]*)"$/ do |options|
+Given /^I set TⒶILS to boot with options "([^"]*)"$/ do |options|
   @boot_options = options
 end
 
@@ -190,18 +190,18 @@ When /^I start the computer$/ do
   post_vm_start_hook
 end
 
-Given /^I start Tails( from DVD)?( with network unplugged)?( and I login)?$/ do |dvd_boot, network_unplugged, do_login|
-  step "the computer is set to boot from the Tails DVD" if dvd_boot
+Given /^I start TⒶILS( from DVD)?( with network unplugged)?( and I login)?$/ do |dvd_boot, network_unplugged, do_login|
+  step "the computer is set to boot from the TⒶILS DVD" if dvd_boot
   if network_unplugged.nil?
     step "the network is plugged"
   else
     step "the network is unplugged"
   end
   step "I start the computer"
-  step "the computer boots Tails"
+  step "the computer boots TⒶILS"
   if do_login
     step "I log in to a new session"
-    step "Tails seems to have booted normally"
+    step "TⒶILS seems to have booted normally"
     if network_unplugged.nil?
       step "Tor is ready"
       step "all notifications have disappeared"
@@ -212,7 +212,7 @@ Given /^I start Tails( from DVD)?( with network unplugged)?( and I login)?$/ do 
   end
 end
 
-Given /^I start Tails from (.+?) drive "(.+?)"(| with network unplugged)( and I login(| with(| read-only) persistence enabled))?$/ do |drive_type, drive_name, network_unplugged, do_login, persistence_on, persistence_ro|
+Given /^I start TⒶILS from (.+?) drive "(.+?)"(| with network unplugged)( and I login(| with(| read-only) persistence enabled))?$/ do |drive_type, drive_name, network_unplugged, do_login, persistence_on, persistence_ro|
   step "the computer is set to boot from #{drive_type} drive \"#{drive_name}\""
   if network_unplugged.empty?
     step "the network is plugged"
@@ -220,7 +220,7 @@ Given /^I start Tails from (.+?) drive "(.+?)"(| with network unplugged)( and I 
     step "the network is unplugged"
   end
   step "I start the computer"
-  step "the computer boots Tails"
+  step "the computer boots TⒶILS"
   if do_login
     if ! persistence_on.empty?
       if persistence_ro.empty?
@@ -230,7 +230,7 @@ Given /^I start Tails from (.+?) drive "(.+?)"(| with network unplugged)( and I 
       end
     end
     step "I log in to a new session"
-    step "Tails seems to have booted normally"
+    step "TⒶILS seems to have booted normally"
     if network_unplugged.empty?
       step "Tor is ready"
       step "all notifications have disappeared"
@@ -274,7 +274,7 @@ def bootsplash_tab_msg
   end
 end
 
-Given /^the computer (re)?boots Tails$/ do |reboot|
+Given /^the computer (re)?boots TⒶILS$/ do |reboot|
 
   boot_timeout = 30
   # We need some extra time for memory wiping if rebooting
@@ -306,7 +306,7 @@ Given /^I log in to a new session(?: in )?(|German)$/ do |lang|
   end
 end
 
-Given /^I enable more Tails Greeter options$/ do
+Given /^I enable more TⒶILS Greeter options$/ do
   match = @screen.find('TailsGreeterMoreOptions.png')
   @screen.click(match.getCenter.offset(match.w/2, match.h*2))
   @screen.wait_and_click('TailsGreeterForward.png', 10)
@@ -324,7 +324,7 @@ Given /^I set an administration password$/ do
   @screen.type(@sudo_password)
 end
 
-Given /^Tails Greeter has dealt with the sudo password$/ do
+Given /^TⒶILS Greeter has dealt with the sudo password$/ do
   f1 = "/etc/sudoers.d/tails-greeter"
   f2 = "#{f1}-no-password-lecture"
   try_for(20) {
@@ -332,7 +332,7 @@ Given /^Tails Greeter has dealt with the sudo password$/ do
   }
 end
 
-Given /^the Tails desktop is ready$/ do
+Given /^the TⒶILS desktop is ready$/ do
   desktop_started_picture = "GnomeApplicationsMenu#{@language}.png"
   # We wait for the Florence icon to be displayed to ensure reliable systray icon clicking.
   # By this point the only icon left is Vidalia and it will not cause the other systray
@@ -348,8 +348,8 @@ Given /^the Tails desktop is ready$/ do
   )
 end
 
-Then /^Tails seems to have booted normally$/ do
-  step "the Tails desktop is ready"
+Then /^TⒶILS seems to have booted normally$/ do
+  step "the TⒶILS desktop is ready"
 end
 
 When /^I see the 'Tor is ready' notification$/ do
@@ -386,11 +386,11 @@ Given /^the Tor Browser has started$/ do
   @screen.wait(tor_browser_picture, 60)
 end
 
-Given /^the Tor Browser (?:has started and )?load(?:ed|s) the (startup page|Tails roadmap)$/ do |page|
+Given /^the Tor Browser (?:has started and )?load(?:ed|s) the (startup page|TⒶILS roadmap)$/ do |page|
   case page
   when "startup page"
     picture = "TorBrowserStartupPage.png"
-  when "Tails roadmap"
+  when "TⒶILS roadmap"
     picture = "TorBrowserTailsRoadmap.png"
   else
     raise "Unsupported page: #{page}"
@@ -497,7 +497,7 @@ Given /^I kill the process "([^"]+)"$/ do |process|
   }
 end
 
-Then /^Tails eventually shuts down$/ do
+Then /^TⒶILS eventually shuts down$/ do
   nr_gibs_of_ram = convert_from_bytes($vm.get_ram_size_in_bytes, 'GiB').ceil
   timeout = nr_gibs_of_ram*5*60
   try_for(timeout, :msg => "VM is still running after #{timeout} seconds") do
@@ -505,14 +505,14 @@ Then /^Tails eventually shuts down$/ do
   end
 end
 
-Then /^Tails eventually restarts$/ do
+Then /^TⒶILS eventually restarts$/ do
   nr_gibs_of_ram = convert_from_bytes($vm.get_ram_size_in_bytes, 'GiB').ceil
   @screen.wait('TailsBootSplash.png', nr_gibs_of_ram*5*60)
 end
 
-Given /^I shutdown Tails and wait for the computer to power off$/ do
+Given /^I shutdown TⒶILS and wait for the computer to power off$/ do
   $vm.spawn("poweroff")
-  step 'Tails eventually shuts down'
+  step 'TⒶILS eventually shuts down'
 end
 
 When /^I request a shutdown using the emergency shutdown applet$/ do
@@ -756,7 +756,7 @@ When /^(no|\d+) application(?:s?) (?:is|are) playing audio(?:| after (\d+) secon
   assert_equal(nb.to_i, pulseaudio_sink_inputs)
 end
 
-When /^I double-click on the "Tails documentation" link on the Desktop$/ do
+When /^I double-click on the "TⒶILS documentation" link on the Desktop$/ do
   @screen.wait_and_double_click("DesktopTailsDocumentationIcon.png", 10)
 end
 

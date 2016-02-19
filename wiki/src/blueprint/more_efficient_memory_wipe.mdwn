@@ -5,9 +5,9 @@ loaded by kexec may allocate some buffer, which then is filled with
 the pattern and won't get cleared, since sdmem only wipes unallocated
 memory.
 
-This was supposedly not a problem for some testers prior to Tails 0.8
+This was supposedly not a problem for some testers prior to TⒶILS 0.8
 but I can reliably reproduce this problem on a machine (with 4 GB or
-RAM if that matters) with both Tails 0.8 and 0.7.2.
+RAM if that matters) with both TⒶILS 0.8 and 0.7.2.
 
 [[!toc levels=2]]
 
@@ -45,7 +45,7 @@ initramfs + sdmem
 
 Possible fixes (180f058 + 0f1f476d) now waiting to be tested in devel branch.
 
-This change is shipped in Tails 0.14 and later, and works already
+This change is shipped in TⒶILS 0.14 and later, and works already
 quite well in practice (almost always perfect wiping on PAE systems
 according to our tests, a bit worse on non-PAE).
 
@@ -95,7 +95,7 @@ pages it allocates to use for its own data structures, the kexec'd
 program could be a custom, dedicated to memory erasure one, instead
 of a regular Linux kernel + ramdisk + userspace memory erasure
 program. This is probably the only way to overwrite **all** memory
-that was used in Tails.
+that was used in TⒶILS.
 
 An experiment has been done on [[patching memtest86+|memtest86plus]]
 to do this job.

@@ -46,7 +46,7 @@ After discussing circuit isolation and fingerprinting through a possible
 list of hostnames (as first suggested Griffin) or random hostnames, we
 came again to the conclusion that anything but the single and shared
 username+hostname seems actively harmful for people who do mix
-activities and identities in a single Tails session.
+activities and identities in a single TⒶILS session.
 
 We agree that for now we want to keep one common user/hostname as this
 seems to provide most anonymity.
@@ -61,7 +61,7 @@ mix identities, but still we take it into account.
 # [[!tails_ticket 7419 desc="Rename Tor Browser in camouflage mode?"]]
 
 Yes, this seems good to have, but has low priority.
-Would be good entry point for someone who wants to start hacking Tails.
+Would be good entry point for someone who wants to start hacking TⒶILS.
 intrigeri volunteered to turn this into an Easy ticket.
 
 # [[!tails_ticket 8125 desc="Host the Tor Browser tarballs we need ourselves"]]

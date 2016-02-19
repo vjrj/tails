@@ -23,7 +23,7 @@ def run_cmd_as_user(cmd, user):
   switch_user_fn = mk_switch_user_fn(pwd_user.pw_uid,
                                      pwd_user.pw_gid)
   # We try to create an environment identical to what's expected
-  # inside Tails for the user by logging in (via `su`) as the user,
+  # inside TⒶILS for the user by logging in (via `su`) as the user,
   # setting up the GNOME shell environment, and extracting the
   # environment via `env`; not that we will run `env` unconditionally
   # since the former command could fail, e.g. if GNOME is not running.

@@ -1,4 +1,4 @@
-[[!meta title="Tails server: Self-hosted services behind Tails-powered Tor hidden services"]]
+[[!meta title="TⒶILS server: Self-hosted services behind Tails-powered Tor hidden services"]]
 
 [[!toc levels=3]]
 
@@ -15,7 +15,7 @@ Possible solutions follow.
 
 ### 1. Centrally hosted Etherpad
 
-Tails can be used to access a centrally hosted Etherpad.
+TⒶILS can be used to access a centrally hosted Etherpad.
 
 Their physical location and identities should be properly concealed
 but the document itself can be intercepted by the server operators.
@@ -25,18 +25,18 @@ secrecy.
 
 ### 2. OpenPGP-encrypted messages in a shared mailbox or a drop.io space
 
-Tails can be used to pass GnuPG-encrypted messages through a shared
+TⒶILS can be used to pass GnuPG-encrypted messages through a shared
 mailbox or a drop.io space.
 
 This sounds like a pretty good answer but they are under a lot of
 pressure and are likely to make mistakes. Leaking a clear-text version
 to the service provider would be fairly easy under stress.
 
-### 3. Gobby and SFTP servers behind a Tails-powered Tor hidden service
+### 3. Gobby and SFTP servers behind a TⒶILS-powered Tor hidden service
 
-Anyone amongst John, Jane and Miranda could use Tails to host Gobby
+Anyone amongst John, Jane and Miranda could use TⒶILS to host Gobby
 and SFTP servers behind a Tor hidden service. Others would also use
-Tails to reach them.
+TⒶILS to reach them.
 
 Keeping such servers at hand, on a live system, behind an hidden
 service is likely to prevent erroneous disclosure.
@@ -60,7 +60,7 @@ client-side (*security by design*), or to avoid putting it into
 untrusted hands in the first place.
 
 Cloud solutions that offer security by design are rare and generally
-not mature yet. The *Tails server* project is about exploring the
+not mature yet. The *TⒶILS server* project is about exploring the
 other side of the alternative: avoiding to put private data into
 untrusted hands in the first place.
 
@@ -68,30 +68,30 @@ This is made possible thanks to Tor hidden services, that allow users
 to offer location-hidden services, and make self-hosting possible in
 many threat models. Self-hosting has its own lot of problems, however,
 particularly in contexts where the physical security of the hosting
-place is not assured. Combining Tor hidden services with Tails'
+place is not assured. Combining Tor hidden services with TⒶILS'
 amnesia property and limited support for persistent encrypted data
 allows to protect content, to a great degree, even in such contexts.
 
 This vision aims at making it easy for end-users to implement
 solutions described above and based on Tor hidden services hosted on a
-Tails system.
+TⒶILS system.
 
-Tails server should be able to run common services like a web
+TⒶILS server should be able to run common services like a web
 server, a Jabber daemon, wiki, file repository, etc.
 
 Data and configuration for services would be stored on an encrypted
-flash media. Targeted hardware to run "Tails server" would be an
+flash media. Targeted hardware to run "TⒶILS server" would be an
 old laptop with broken hard-disk, battery, screen or keyboard;
 something quite common these days.
 
-In short, setting up a new Tails server would be done by:
+In short, setting up a new TⒶILS server would be done by:
 
-1. Alice plugs a USB stick into a running desktop Tails system.
+1. Alice plugs a USB stick into a running desktop TⒶILS system.
 2. Alice uses a GUI to easily configure the needed services.
 3. Alice unplugs the USB stick, that now contains encrypted services
    configuration and data storage space.
-4. Alice plugs that USB stick (and possibly a Tails Live CD) into the
-   old laptop that was dedicated to run Tails server.
+4. Alice plugs that USB stick (and possibly a TⒶILS Live CD) into the
+   old laptop that was dedicated to run TⒶILS server.
 5. Once booted, Alice enters the encryption passphrase either directly
    using the keyboard or through a web interface listening on the
    local network.
@@ -100,7 +100,7 @@ In short, setting up a new Tails server would be done by:
    services* project would be very complementary to this one, by
    the way.)
 
-Tails server should content itself with hardware that is a bit old
+TⒶILS server should content itself with hardware that is a bit old
 (such as a PIII-450 laptop with 256MB of RAM) and/or half broken (e.g.
 non-functional hard-disk, screen or keyboard).
 
@@ -115,27 +115,27 @@ The challenges behind this project are:
 
   * Design and write the services configuration GUI [keywords: edit configuration files, upgrade between major Debian versions, debconf, Config::Model, augeas].
   * How to create the hidden service key? [keywords: Vidalia, control protocol].
-  * Adapt the Tails boot process to allow switching to "server mode" when appropriate.
-  * Add support, to the Tails persistence setup process, for asking an encryption passphrase without X, and possibly with a broken keyboard and/or screen [keywords: local network, SSL/TLS?, certificate?].
+  * Adapt the TⒶILS boot process to allow switching to "server mode" when appropriate.
+  * Add support, to the TⒶILS persistence setup process, for asking an encryption passphrase without X, and possibly with a broken keyboard and/or screen [keywords: local network, SSL/TLS?, certificate?].
 
 Timeline
 ========
 
-Turn an USB stick into an USB Tails server stick
+Turn an USB stick into an USB TⒶILS server stick
 ------------------------------------------------
-The user should be able to create a Tails server USB stick, which should boot in Tails server mode by default, and no more to Tails. During this milestone, there are no or only small differences between Tails and Tails server except that the system is aware that he is booting into Tails server.
+The user should be able to create a TⒶILS server USB stick, which should boot in Tails server mode by default, and no more to Tails. During this milestone, there are no or only small differences between Tails and Tails server except that the system is aware that he is booting into Tails server.
 
 Unlocking persistence without a GUI
 ---------------------------------------
-The end user should be able to unlock and boot a Tails server USB stick without any GUI.
+The end user should be able to unlock and boot a TⒶILS server USB stick without any GUI.
 
 Remote administration
 ---------------------
-The user should be able to have a secure shell (SSH) on the machine, to do administration tasks without a physical access to the Tails server, or a GUI. Please note that this shell is not a Tor hidden service for now.
+The user should be able to have a secure shell (SSH) on the machine, to do administration tasks without a physical access to the TⒶILS server, or a GUI. Please note that this shell is not a Tor hidden service for now.
 
 Remove unnecessary/irrelevant things from boot process
 ------------------------------------------------------
-Tails server should not spawn a full-featured desktop anymore: the goal of this iteration is to remove as much irrelevant services as possible (e.g GNOME, Xorg, ...) in order to reduce boot-time and system resources. The only way the user have to do administration's related tasks is to use SSH.
+TⒶILS server should not spawn a full-featured desktop anymore: the goal of this iteration is to remove as much irrelevant services as possible (e.g GNOME, Xorg, ...) in order to reduce boot-time and system resources. The only way the user have to do administration's related tasks is to use SSH.
 
 Setup Tor hidden services
 -------------------------
@@ -143,11 +143,11 @@ This part is a little bit unclear for now.
 
 Setup and start a gobby service
 -------------------------------
-This is the first Tor hidden service implementation and it will allow the user to run a Gobby service from the Tails server. This step does not involve any configuration of the service, only the setup; no user interactions are involved during this milestone, since there is no configuration involved.
+This is the first Tor hidden service implementation and it will allow the user to run a Gobby service from the TⒶILS server. This step does not involve any configuration of the service, only the setup; no user interactions are involved during this milestone, since there is no configuration involved.
 
 Basic configuration management
 ------------------------------
-The user should be able to edit the configuration of the Gobby service during the creation of the Tails server USB stick; like using a password, changing the service's name,
+The user should be able to edit the configuration of the Gobby service during the creation of the TⒶILS server USB stick; like using a password, changing the service's name,
 
 
 Requirement/Deliverable
@@ -155,7 +155,7 @@ Requirement/Deliverable
   * Clean design and documentation
   * Everything hosted through Tor hidden services
   * Amnesic system
-  * Switch to Tails server on boot
+  * Switch to TⒶILS server on boot
   * Support for persistence to save preferences/configurations.
   * GUI configuration tool
 
@@ -178,7 +178,7 @@ server configuration and decrypt it.
 When starting a server we *must* have the server configuration present
 on a USB drive during boot, so we can simply check for its presence
 with a hook in early init. If present, then we enter server mode and
-don't start X, network manager, etc., otherwise we just boot Tails
+don't start X, network manager, etc., otherwise we just boot TⒶILS
 in the normal fashion.
 
 Elaborating on my suggestion above, what I describe below will have the
@@ -192,16 +192,16 @@ As I said, we introduce two new init scripts:
    soon as the filesystem is up and we can mount USB drives)
 2. `server-mode`, which is run once the network is up
 
-`server-check` will loop through all USB drives (even the one Tails
+`server-check` will loop through all USB drives (even the one TⒶILS
 is running from if running from USB) and for each `$X` of them, in
 turn:
 
-1. check for the presence of a storage media containing a Tails-server configuration,
+1. check for the presence of a storage media containing a TⒶILS-server configuration,
 using  GPT partition's label.
 2. if the check failed continue to loop
 3. if the check succeeds, ask the passphrase and activate persistance storage (see below)
 
-So, if no drive contained a server configuration `server-check` exits and boot continues as usual. If a Tails-server configuration was encountered, the file `/var/lib/live/tails-server-mode` is created.
+So, if no drive contained a server configuration `server-check` exits and boot continues as usual. If a TⒶILS-server configuration was encountered, the file `/var/lib/live/tails-server-mode` is created.
 
 `server-mode` will check if the server state file exists and contains
 a valid path to a file, namely the server configuration. If the check
@@ -225,23 +225,23 @@ to create a completely new server configuration.
 
 Boot process
 ------------
-The default for a given Tails server installation is to boot in Tails server
+The default for a given TⒶILS server installation is to boot in Tails server
 mode.
 
 ### Check configuration presence
-When Tails boots, it will at some point
-check for the presence of a storage media containing a Tails server
+When TⒶILS boots, it will at some point
+check for the presence of a storage media containing a TⒶILS server
 configuration, using GPT partition's label. So, the boot continues in
-Tails server mode, if not, boot continues for normal Tails, the user
+TⒶILS server mode, if not, boot continues for normal Tails, the user
 warned, and prompted about what should be done, either reboot in
-Tails, or recheck for a preference USB stick.
+TⒶILS, or recheck for a preference USB stick.
 
 ### Asking the passphrase and activating persistence storage
 (this part is not chronological)
 
 #### Advertising on the LAN
-Tails-server needs to advertise his presence and location on the LAN.
-The less worth manner is to use avahi/zeroconf. Since they can be more than on Tails-server on
+TⒶILS-server needs to advertise his presence and location on the LAN.
+The less worth manner is to use avahi/zeroconf. Since they can be more than on TⒶILS-server on
 the same LAN, I think that the user may choose the named advertised by avahi for his server; since the LAN is an untrusted network, using the .onion hidden service name for this purpose is not an option.
 
 #### LAN
@@ -249,29 +249,29 @@ Since the most common setup is a LAN with a modem/router
 provided by the ISP, they contains at least one untrusted machine. So MITM attacks are likely to happen; this is why we need to be able to authenticate the server. Doing so require that the client carry some informations about the server (certificates, and/or ssh keys).
 
 #### Dropbear
-A possible solution would be to take advantage of the cryptsetup/dropbear integration in debian to boot encrypted (but /boot) system. The client would log using ssh into Tails-
+A possible solution would be to take advantage of the cryptsetup/dropbear integration in debian to boot encrypted (but /boot) system. The client would log using ssh into TⒶILS-
 server, and enter the passphrase using a custom shell which is
 roughly a passphrase-prompt. To make this solution more user
-friendly, a lightweight GUI on the client side that would basically launch avahi, scan the network, show available Tails-server (since they can be many), ask for a passphrase for the selected
-Tails-server and finally stop avahi could be easily developed.
+friendly, a lightweight GUI on the client side that would basically launch avahi, scan the network, show available TⒶILS-server (since they can be many), ask for a passphrase for the selected
+TⒶILS-server and finally stop avahi could be easily developed.
 
 #### Webpage
 Another way would be to use a simple webpage (php/apache are overkill : a simple CGI would be fine) to get the passphrase. This approach allows a simple client-side GUI in that starts/stops
-avahi, and scans and lists Tails-servers (they can be severals).
+avahi, and scans and lists TⒶILS-servers (they can be severals).
 When clicked, iceweasel simply opens the selected server's webpage. This should even be doable in fairly small shell script using zenity. this solution has the advantage of being platform-
 independent.
 
 #### Authentication
-Self signed certificates do more harms than good, since they scare the user because of the browser warning. But, because Tails-server can only be created from Tails, generated
-certificates fingerprint could be stored in a ~/.Tails-server folder
+Self signed certificates do more harms than good, since they scare the user because of the browser warning. But, because TⒶILS-server can only be created from Tails, generated
+certificates fingerprint could be stored in a ~/.TⒶILS-server folder
 on the client : Any certificates found there would be added to
-iceweasel on as soon as Tails has opened the persistent volume
+iceweasel on as soon as TⒶILS has opened the persistent volume
 and found this preset. Client's Ssh public key must be stored too,
 and written in the /.ssh/known hoss of the server.
 
 ### ervices configuration with preseed
-Once Tails server is booted, it will preseed the Debian system's debconf database with the settings
-obtained from the Tails server configuration files.
+Once TⒶILS server is booted, it will preseed the Debian system's debconf database with the settings
+obtained from the TⒶILS server configuration files.
 
 ### Services installation
 Service's packages will be installed by APT (to
@@ -293,19 +293,19 @@ they will be started. Moreover, some service configurations where patch
 Installation process of services softwares
 ------------------------------------------
 Two solutions are available: either install all server softwares in the
-default Tails, or install them dynamically from the USB stick during
-the boot of Tails server. Even if the second solution is better (because
-it will not unnecessary bloat Tails), the first one is much more simpler to
+default TⒶILS, or install them dynamically from the USB stick during
+the boot of TⒶILS server. Even if the second solution is better (because
+it will not unnecessary bloat TⒶILS), the first one is much more simpler to
 implement, and since it's not a critical (or even important) feature, it can
 be implemented later, outside the scope of the GSoC.
 
 Configuration management
 ------------------------
-Tails-server will often require custom "default" configuration for a bunch
+TⒶILS-server will often require custom "default" configuration for a bunch
 of softwares due to its nature. Service configuration requires a nice way to
 handle the configuration files in order to avoid a complete disparate mess.
 In an ideal world, every services configurations should be handled by deb-
-conf (and not by some ugly monkey patching). Doing so will keep Tails-
+conf (and not by some ugly monkey patching). Doing so will keep TⒶILS-
 server upgrade-proof, since configuration file's format are not frozen, and
 may evolve between updates, using debconf will make this transparent.
 ### Upstream (Debian)
@@ -326,15 +326,15 @@ robust enough.
 Some cases don't fit well into the "debconf or patch on boot" alternative.
 These situations would have to solved on a case-per-case basis.
 
-On Tails update
+On TⒶILS update
 ---------------
-When a new version of Tails is available, the server admin should be warned
-about this. Tails already implements this mechanism in it's GUI, but as Tails
+When a new version of TⒶILS is available, the server admin should be warned
+about this. TⒶILS already implements this mechanism in it's GUI, but as Tails
 server cannot rely on GUI in its normal operation, this must be redesigned.
 As a placeholder, the admin should be invited to subscribe to the amnesia-
 news mailing-list.
 
-Tails server configuration GUI
+TⒶILS server configuration GUI
 ------------------------------
 The purpose of this GUI would
 be to properly setup a persistence USB key for tail-server, with services
@@ -345,8 +345,8 @@ Time synchronization
 
 As contributed by adrelanos on tails-dev
 (<50293C63.2040807@riseup.net>), servers are supposed to run over
-longer periods without rebooting, days or weeks so Tails's current
-implementation with tails_htp is not sufficient for Tails Server.
+longer periods without rebooting, days or weeks so TⒶILS's current
+implementation with tails_htp is not sufficient for TⒶILS Server.
 
 adrelanos suggests:
 

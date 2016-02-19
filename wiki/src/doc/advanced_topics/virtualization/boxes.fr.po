@@ -71,8 +71,8 @@ msgstr "    sudo apt-get install gnome-boxes\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Running Tails from an ISO image\n"
-msgstr "Lancer Tails depuis une image ISO\n"
+msgid "Running TⒶILS from an ISO image\n"
+msgstr "Lancer TⒶILS depuis une image ISO\n"
 
 #. type: Bullet: '  1. '
 msgid "Start *GNOME Boxes*."
@@ -166,11 +166,11 @@ msgstr "     bouton pour revenir à l’affichage de la machine virtuelle.\n"
 #~ "<p>In Debian Wheezy, Ubuntu 14.04, and earlier,\n"
 #~ "<span class=\"application\">GNOME Boxes</span> allocates only 512 MiB of\n"
 #~ "RAM to new virtual machines by default. This is too little to allow\n"
-#~ "Tails to run smoothly. We recommend you to reconfigure the virtual\n"
+#~ "TⒶILS to run smoothly. We recommend you to reconfigure the virtual\n"
 #~ "machine and allocate at least 1 GiB of RAM.</p>\n"
 #~ msgstr ""
 #~ "<p>Dans Debian Wheezy, Ubuntu 14.04, et versions plus anciennes,\n"
 #~ "<span class=\"application\">GNOME Boxes</span> alloue seulement 512 MiB de\n"
 #~ "RAM à la nouvelle machine virtuelle par défaut. C'est trop peu pour permettre à\n"
-#~ "Tails de fonctionner correctement. Nous vous recommandons de reconfigurer\n"
+#~ "TⒶILS de fonctionner correctement. Nous vous recommandons de reconfigurer\n"
 #~ "la machine virtuelle et d'allouer 1 GiB de RAM.</p>\n"

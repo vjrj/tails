@@ -3,7 +3,7 @@
 [[!inline pages="doc/anonymous_internet/icedove/replacement.inline" raw="yes"]]
 
 <span class="application">Claws Mail</span> was removed
-from Tails in version 2.0 (2016-01-26).
+from TⒶILS in version 2.0 (2016-01-26).
 
 [[!inline pages="doc/anonymous_internet/icedove/name.inline" raw="yes"]]
 
@@ -17,7 +17,7 @@ time. You should, in this order:
 Install <span class="application">Claws Mail</span>
 ===================================================
 
-1. Start Tails and [[set up an administration password|first_steps/startup_options/administration_password]].
+1. Start TⒶILS and [[set up an administration password|first_steps/startup_options/administration_password]].
 
 1. Choose <span class="menuchoice"><span class="guimenu">Applications</span>&nbsp;▸
    <span class="guisubmenu">Utilities</span>&nbsp;▸
@@ -55,7 +55,7 @@ Copy your emails saved in the persistent storage
 
 1. The script only migrates the mailbox in
    <span class="filename">/home/amnesia/.claws-mail/Mail</span> which is the default
-   in Tails.
+   in TⒶILS.
 
    Verify that there is a single <span class="guilabel">MH</span> mailbox named
    <span class="guilabel">Mail</span> in the left pane of

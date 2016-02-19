@@ -73,7 +73,7 @@ our torrents for a couple releases, and then see => [[!tails_ticket
 # [[!tails_ticket 7912 desc="Non-US keyboard layout selected with Greeter sometimes is not active when logged in"]]
 
 This bug has an easy workaround, it seems that it doesn't affect
-Tails/Jessie, and it doesn't seem easy to fix. So we decided to simply
+TⒶILS/Jessie, and it doesn't seem easy to fix. So we decided to simply
 flag it as resolved in the 4.0 milestone, and add it to known issues
 for Wheezy (along with the trivial workaround when it happens) if it's
 not there yet. BitingBird will do the latter ([[!tails_ticket 9336]]).

@@ -10,23 +10,23 @@ Other useful resources
   - [The Tor Project: FAQ](https://www.torproject.org/docs/faq.html.en)
   - [The Tor Project: Stack Exchange, question & answer site](https://tor.stackexchange.com/)
 
-Tails project
+TⒶILS project
 =============
 
 <a id="relationship_with_tor"></a>
 
-What is the relationship between Tor and Tails?
+What is the relationship between Tor and TⒶILS?
 -----------------------------------------------
 
-See our explanation about [[why does Tails use Tor|doc/about/tor#relationship]].
+See our explanation about [[why does TⒶILS use Tor|doc/about/tor#relationship]].
 
 <a id="debian"></a>
 
-Why is Tails based on Debian and not on another distribution?
+Why is TⒶILS based on Debian and not on another distribution?
 -------------------------------------------------------------
 
 We are deeply rooted and involved in Debian. The friendships, relationships, and
-technical expertise we have in Debian have many benefits for Tails, and we are
+technical expertise we have in Debian have many benefits for TⒶILS, and we are
 not ready to build the same relationship with Ubuntu, OpenBSD, or any other
 distribution. See our statement about our
 [[contribute/relationship_with_upstream]] for details.
@@ -37,12 +37,12 @@ by Stefano Zacchiroli.
 
 <a id="ubuntu"></a>
 
-Why isn't Tails based on Ubuntu?
+Why isn't TⒶILS based on Ubuntu?
 --------------------------------
 
 First, see the answer to the [[previous question|faq#debian]].
 
-0. The rapid development cycle of Ubuntu would be too fast for Tails.
+0. The rapid development cycle of Ubuntu would be too fast for TⒶILS.
 0. Ubuntu adds features in ways that we find dangerous for privacy. For example
    Ubuntu One
    ([partly discontinued](http://blog.canonical.com/2014/04/02/shutting-down-ubuntu-one-file-services/))
@@ -57,15 +57,15 @@ First, see the answer to the [[previous question|faq#debian]].
    experts in the fields their packages deal with; while it is generally not
    the case outside of the limited number of packages Ubuntu officially supports.
 0. We are actively working on improving
-   [[AppArmor support|contribute/design/application_isolation]] in Tails; a security
+   [[AppArmor support|contribute/design/application_isolation]] in TⒶILS; a security
    framework that is already used in a few Ubuntu applications.
 0. We are also working on adding compiler hardening options to more Debian
-   packages included in Tails; another security feature that Ubuntu already
+   packages included in TⒶILS; another security feature that Ubuntu already
    provides.
 
 <a id="gnome"></a>
 
-Why does Tails ship the GNOME Desktop?
+Why does TⒶILS ship the GNOME Desktop?
 --------------------------------------
 
 We had users ask for LXDE, XFCE, MATE, KDE, and so on, but we are not going to
@@ -85,11 +85,11 @@ knowledge, and switching our desktop environment would require going through tha
 process again.
 
 We are not proposing several desktop environments to choose from because
-we want to [[limit the amount of software included in Tails|faq#new_software]].
+we want to [[limit the amount of software included in TⒶILS|faq#new_software]].
 
 <a id="website"></a>
 
-Tails website
+TⒶILS website
 =============
 
 <a id="ssl_certificate"></a>
@@ -115,7 +115,7 @@ many people would think the website is broken while it is not.
 
 We prefer to provide weak security, using a commercial certificate, that still
 works for most people. At the same time, we make clear this security is limited
-and encourage stronger ways of verifying the authenticity of Tails once
+and encourage stronger ways of verifying the authenticity of TⒶILS once
 downloaded.  See our documentation on [[verifying the ISO|download#verify]].
 
 <a id="hardware"></a>
@@ -125,19 +125,19 @@ Hardware compatibility
 
 <a id="64-bit"></a>
 
-Does Tails work with 64-bit processors?
+Does TⒶILS work with 64-bit processors?
 ---------------------------------------
 
-Yes. Tails automatically detects the type of processor of the computer and loads
+Yes. TⒶILS automatically detects the type of processor of the computer and loads
 a 32-bit or a 64-bit kernel accordingly.
 
 <a id="arm"></a>
 
-Does Tails work on ARM architecture, Raspberry Pi, or tablets?
+Does TⒶILS work on ARM architecture, Raspberry Pi, or tablets?
 --------------------------------------------------------------
 
-For the moment, Tails is only available on the x86 and x86_64 architectures.
-The Raspberry Pi and many tablets are based on the ARM architecture. Tails does
+For the moment, TⒶILS is only available on the x86 and x86_64 architectures.
+The Raspberry Pi and many tablets are based on the ARM architecture. TⒶILS does
 not work on the ARM architecture so far.
 
 Look for a tablet with an AMD or Intel processor. Try to verify its
@@ -151,56 +151,56 @@ Installation
 
 <a id="install_permanently"></a>
 
-Can I install Tails permanently onto my hard disk?
+Can I install TⒶILS permanently onto my hard disk?
 --------------------------------------------------
 
-This is not possible using the recommended installation methods. Tails is
+This is not possible using the recommended installation methods. TⒶILS is
 designed to be a live system running from a removable media: DVD, USB stick or
 SD card.
 
 This is a conscious decision as this mode of operation is better for what we
-want to provide to Tails users: amnesia, the fact that Tails leaves no traces on
+want to provide to TⒶILS users: amnesia, the fact that TⒶILS leaves no traces on
 the computer after a session is closed.
 
 <a id="unetbootin_etc"></a>
 
-Can I install Tails with UNetbootin, YUMI or my other favorite tool?
+Can I install TⒶILS with UNetbootin, YUMI or my other favorite tool?
 --------------------------------------------------------------------
 
 No. Those installation methods are unsupported. They might not work at
-all, or worse: they might seem to work, but produce a Tails device
-that does *not* behave like Tails should. Follow the
+all, or worse: they might seem to work, but produce a TⒶILS device
+that does *not* behave like TⒶILS should. Follow the
 [[download and installation documentation|download]] instead.
 
 <a id="upgrade"></a>
 
-Should I update Tails using `apt-get` or <span class="application">Synaptic</span>?
+Should I update TⒶILS using `apt-get` or <span class="application">Synaptic</span>?
 -----------------------------------------------------------------------------------
 
-No. Tails provides upgrades every six weeks, that are thoroughly tested
+No. TⒶILS provides upgrades every six weeks, that are thoroughly tested
 to make sure that no security feature or configuration gets broken.
 If you upgrade the system yourself using `apt-get` or <span class="application">Synaptic</span>,
 you might break things. Upgrading when you get a notification from
-<span class="application">[[Tails Upgrader|doc/first_steps/upgrade]]</span> is enough.
+<span class="application">[[TⒶILS Upgrader|doc/first_steps/upgrade]]</span> is enough.
 
 <a id="preinstalled"></a>
 
-Can I buy a preinstalled Tails device?
+Can I buy a preinstalled TⒶILS device?
 --------------------------------------
 
-No, we don't sell preinstalled Tails devices.
+No, we don't sell preinstalled TⒶILS devices.
 
 Selling preinstalled devices would in fact be a pretty bad idea:
 
 * If burned on a DVD, then this DVD would be outdated on the next
   release. This means after 6 weeks at most.
 * If installed onto a USB stick, then it would be impossible to verify
-  that the Tails on the USB stick is genuine. Trusting that a Tails device
+  that the TⒶILS on the USB stick is genuine. Trusting that a TⒶILS device
   is genuine should be based either on cryptographic verification or
-  on personal trust (if you know someone of trust who can clone a Tails device for you). But
-  once Tails is installed on a USB stick it is not possible to use our
+  on personal trust (if you know someone of trust who can clone a TⒶILS device for you). But
+  once TⒶILS is installed on a USB stick it is not possible to use our
   cryptographic verification techniques anymore. Being able to trust
-  your Tails device is something that we really care about.
+  your TⒶILS device is something that we really care about.
 
 <a id="browser"></a>
 
@@ -213,9 +213,9 @@ Why is JavaScript enabled by default in <span class="application">Tor Browser</s
 -------------------------------------------------------------------------------------
 
 Many websites today require JavaScript to work correctly. As a consequence
-JavaScript is enabled by default in Tails to avoid confusing many users. But
+JavaScript is enabled by default in TⒶILS to avoid confusing many users. But
 the [[Torbutton|doc/anonymous_internet/Tor_browser#torbutton]] extension,
-included in Tails, takes care of blocking dangerous JavaScript functionalities.
+included in TⒶILS, takes care of blocking dangerous JavaScript functionalities.
 
 Tor Browser also includes a [[security_slider|doc/anonymous_internet/Tor_browser#security_slider]] and the [[NoScript|doc/anonymous_internet/Tor_browser#noscript]]
 extension to optionally disable more JavaScript. This might improve
@@ -231,7 +231,7 @@ compromise between usability and security in this case.
 Can I install other add-ons in <span class="application">Tor Browser</span>?
 ----------------------------------------------------------------------------
 
-Installing add-ons in <span class="application">Tor Browser</span> might break the security built in Tails.
+Installing add-ons in <span class="application">Tor Browser</span> might break the security built in TⒶILS.
 
 Add-ons can do many things within the browser, and even if all the networking goes
 through Tor, some add-ons might interact badly with the rest of the
@@ -247,17 +247,17 @@ attacker.
 Torbutton, and break your anonymity.
 
 5. They can break your anonymity by making your browsing behaviour
-distinguishable amongst other Tails users.
+distinguishable amongst other TⒶILS users.
 
 Unless proven otherwise, no add-on, apart from the ones already
-included in Tails, have been seriously audited and should be
+included in TⒶILS, have been seriously audited and should be
 considered safe to use in this context.
 
 <div class="next">
   <ul>
     <li>[[Warnings about persistence|doc/first_steps/persistence/warnings#index3h1]]</li>
     <li>[[Browsing the web with <span class="application">Tor Browser</span>|doc/anonymous_internet/Tor_browser]]</li>
-    <li>[[Can I hide the fact that I am using Tails?|doc/about/fingerprint/]]</li>
+    <li>[[Can I hide the fact that I am using TⒶILS?|doc/about/fingerprint/]]</li>
   </ul>
 </div>
 
@@ -271,20 +271,20 @@ XXX: Check https://www.torproject.org/torbutton/torbutton-faq.html.en#recommende
 Should I manually update add-ons included in <span class="application">Tor Browser</span>?
 ------------------------------------------------------------------------------------------
 
-No. Tails provides upgrades every six weeks, that are thoroughly tested
+No. TⒶILS provides upgrades every six weeks, that are thoroughly tested
 to make sure that no security feature or configuration gets broken.
 Updating add-ons in <span class="application">Tor Browser</span> might
-break the security built in Tails.
+break the security built in TⒶILS.
 
 <a id="flash"></a>
 
-Can I view websites using Adobe Flash with Tails?
+Can I view websites using Adobe Flash with TⒶILS?
 -------------------------------------------------
 
-Adobe Flash Player is not included in Tails for several reasons:
+Adobe Flash Player is not included in TⒶILS for several reasons:
 
   - It is proprietary software which prevents us from legally including it in
-    Tails.
+    TⒶILS.
   - It is closed source and so we have no idea of what it really does.
   - It has a very long history of serious security vulnerabilities.
   - It is known to favor privacy invasive technologies such as [[!wikipedia Local_shared_object]].
@@ -306,16 +306,16 @@ Fingerprinting websites such as <https://panopticlick.eff.org/> or
 your browser to see if it can be used to identify you.
 
 As explained in our documentation about
-[[fingerprinting|doc/about/fingerprint]], Tails provides anonymity on the web by
+[[fingerprinting|doc/about/fingerprint]], TⒶILS provides anonymity on the web by
 making it difficult to distinguish a particular user amongst all the users of
-<span class="application">Tor Browser</span> (either in Tails or on other operating systems).
+<span class="application">Tor Browser</span> (either in TⒶILS or on other operating systems).
 
 So, the information retrieved by such fingerprinting websites is not harmful for
 anonymity in itself, as long as it is the same for all users of <span class="application">Tor Browser</span>.
 
 For example, the user-agent property of the browser was set to `Mozilla/5.0
 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3`,
-as of Tails 0.21 and <span class="application">Tor Browser</span> 2.3.25-13. This value preserves your anonymity even if
+as of TⒶILS 0.21 and <span class="application">Tor Browser</span> 2.3.25-13. This value preserves your anonymity even if
 the operating system installed on the computer is Windows NT and you usually run
 Firefox. On the other hand, changing this value makes you distinguishable from
 others users of <span class="application">Tor Browser</span> and breaks your anonymity.
@@ -328,7 +328,7 @@ Furthermore, we verify the result of those websites before each release, see our
 Is Java installed in the <span class="application">Tor Browser</span>?
 ----------------------------------------------------------------------
 
-Tails does not include a Java plugin in its browser because it could break your anonymity.
+TⒶILS does not include a Java plugin in its browser because it could break your anonymity.
 
 <a id="persistence"></a>
 
@@ -343,7 +343,7 @@ Can I save my custom settings?
 <em>&hellip; like language, keyboard layout, background image, toolbar position,
 browser settings, touchpad preferences, etc.</em>
 
-By default Tails does not save anything from one working session to another.
+By default TⒶILS does not save anything from one working session to another.
 Only the persistent volume allows you to reuse data across different working
 sessions. See the list of existing [[persistent
 features|doc/first_steps/persistence/configure#features]].
@@ -358,7 +358,7 @@ about persistence. Any bit of help [[is welcome|contribute/how/code]].
 How strong is the encryption of the persistent volume and LUKS?
 ---------------------------------------------------------------
 
-Tails uses LUKS to encrypt the persistent volume. This is the same technique as
+TⒶILS uses LUKS to encrypt the persistent volume. This is the same technique as
 the one we recommend for [[creating and using encrypted
 volumes|doc/encryption_and_privacy/encrypted_volumes]] in general.
 
@@ -389,7 +389,7 @@ Networking
 
 <a id="vpn"></a>
 
-Can I use Tails with a VPN?
+Can I use TⒶILS with a VPN?
 ---------------------------
 
 Three possible scenarios need to be distinguished:
@@ -403,7 +403,7 @@ support|blueprint/vpn_support/]].
 
 ### Using a VPN instead of Tor
 
-It is a very [[fundamental assumption of Tails|about#tor]] to force all outgoing
+It is a very [[fundamental assumption of TⒶILS|about#tor]] to force all outgoing
 traffic to anonymity networks such as Tor or I2P. VPN are not anonymity
 networks, because the administrators of the VPN can know both where you are
 connecting from and where you are connecting to. Tor provides anonymity by
@@ -413,7 +413,7 @@ and the destination of a connection.
 ### Using a VPN to connect to Tor (VPN before Tor)
 
 In some situations, you might be forced to use a VPN to connect to the Internet,
-for example by your ISP. This is currently not possible using Tails. See
+for example by your ISP. This is currently not possible using TⒶILS. See
 [[!tails_ticket 5858]].
 
 [[Tor bridges|doc/first_steps/startup_options/bridge_mode]] can also be useful
@@ -427,7 +427,7 @@ In some situtations, it can be useful to connect to a VPN through Tor:
   - To access ressources only available inside a VPN, for example at your
     company or University.
 
-This is currently not possible easily using Tails.
+This is currently not possible easily using TⒶILS.
 
 <a id="torrc"></a>
 
@@ -446,27 +446,27 @@ understand".
 
 <a id="mac_address"></a>
 
-Does Tails change the MAC address of my network interfaces?
+Does TⒶILS change the MAC address of my network interfaces?
 -----------------------------------------------------------
 
-Starting from Tails 0.23, [[MAC
+Starting from TⒶILS 0.23, [[MAC
 spoofing|doc/first_steps/startup_options/mac_spoofing]] is enabled by default
 on all interfaces.
 
 <a id="dns"></a>
 
-How does the DNS resolution work in Tails?
+How does the DNS resolution work in TⒶILS?
 ------------------------------------------
 
 See our [[design document|contribute/design/Tor_enforcement/DNS]] on this topic.
 
 <a id="htp"></a>
 
-Why does Tails automatically connect to several websites when starting?
+Why does TⒶILS automatically connect to several websites when starting?
 -----------------------------------------------------------------------
 
 Tor and I2P require the system clock to be well synchronized in order to work
-properly. When starting Tails, a notification is displayed while the clock is
+properly. When starting TⒶILS, a notification is displayed while the clock is
 being synchronized.
 
 This synchronization is made by sending HTTPS queries through Tor to severals
@@ -477,35 +477,35 @@ See also our [[design document|contribute/design/Time_syncing]] on this topic.
 
 <a id="relay"></a>
 
-Can I help the Tor network by running a relay or a bridge in Tails?
+Can I help the Tor network by running a relay or a bridge in TⒶILS?
 -------------------------------------------------------------------
 
-It is currently impossible to run a Tor relay or bridge in Tails. See
+It is currently impossible to run a Tor relay or bridge in TⒶILS. See
 [[!tails_ticket 5418]].
 
 <a id="hidden_service"></a>
 
-Can I run a Tor hidden service on Tails?
+Can I run a Tor hidden service on TⒶILS?
 ----------------------------------------
 
-It is technically possible to use Tails to provide a hidden service
+It is technically possible to use TⒶILS to provide a hidden service
 but it is complicated and not documented yet.
 
 For example, some people have been working on how to run a web server
-behind a hidden service on Tails. See [[!tails_ticket 7879]].
+behind a hidden service on TⒶILS. See [[!tails_ticket 7879]].
 
 <a id="software"></a>
 
-Software not included in Tails
+Software not included in TⒶILS
 ==============================
 
 <a id="new_software"></a>
 
-Can my favourite software be included in Tails?
+Can my favourite software be included in TⒶILS?
 -----------------------------------------------
 
 First of all, make sure that this software is already available in Debian, as
-this is a requirement to be included in Tails. Adding to Tails software which is
+this is a requirement to be included in TⒶILS. Adding to TⒶILS software which is
 not in Debian imply an additional workload that could compromise the
 sustainability of the project. On top of that, being in Debian brings many
 advantages:
@@ -521,9 +521,9 @@ ask its developers why it is not the case yet.
 
 Second, this software might not be useful to accomplish our design goals. Refer
 to our [[design documents|contribute/design]] to understand which are
-the intended use cases, and the assumptions on which Tails is based.
+the intended use cases, and the assumptions on which TⒶILS is based.
 
-We also try to limit the amount of software included in Tails, and we only add
+We also try to limit the amount of software included in TⒶILS, and we only add
 new software with a very good reason to do so:
 
   - We try to limit the growth of the ISO image and automatic upgrades.
@@ -533,12 +533,12 @@ new software with a very good reason to do so:
     security problems, then this might be problematic as users might rely on it.
 
 After considering all this, if you still think that this software is a good
-candidate to be included in Tails, please [[explain us|/contribute/talk]] your
+candidate to be included in TⒶILS, please [[explain us|/contribute/talk]] your
 proposal.
 
 <div class="tip">
 
-If a software is not included in Tails, but is included in Debian, you can use
+If a software is not included in TⒶILS, but is included in Debian, you can use
 the [[additional
 software|doc/first_steps/persistence/configure#additional_software]] feature of
 the persistent volume to install it automatically at the beginning of each
@@ -546,7 +546,7 @@ working session.
 
 </div>
 
-Here is some of the software we are often asked to include in Tails:
+Here is some of the software we are often asked to include in TⒶILS:
 
   - **bitmessage**: not in Debian
   - **torchat**: see [[!tails_ticket 5554]]
@@ -554,10 +554,10 @@ Here is some of the software we are often asked to include in Tails:
 
 <a id="bittorrent"></a>
 
-Can I download using BitTorrent with Tails?
+Can I download using BitTorrent with TⒶILS?
 -------------------------------------------
 
-Tails does not ship any BitTorrent software and is unlikely to do so in the
+TⒶILS does not ship any BitTorrent software and is unlikely to do so in the
 future.
 
 The problem with using BitTorrent over Tor is double:
@@ -598,7 +598,7 @@ Desktop environment
 Why is the time set wrong?
 --------------------------
 
-When Tails starts, the system timezone is set to UTC (Greenwich time). So, this time
+When TⒶILS starts, the system timezone is set to UTC (Greenwich time). So, this time
 might be a few hours in the future if you are West from the United
 Kingdom, or in the past if you are East from the UK. The minutes
 should be accurate.
@@ -606,8 +606,8 @@ should be accurate.
 We do this for anonymity reasons: if some application reveals your actual
 timezone, it might help identifying who you are.
 
-Having all Tails users set to the same timezone, makes it more difficult to
-distinguish you amongst all the other Tails users.
+Having all TⒶILS users set to the same timezone, makes it more difficult to
+distinguish you amongst all the other TⒶILS users.
 
 <div class="note">
 
@@ -623,30 +623,30 @@ Other security issues
 
 <a id="compromised_system"></a>
 
-Is it safe to use Tails on a compromised system?
+Is it safe to use TⒶILS on a compromised system?
 ------------------------------------------------
 
-Tails runs independently from the operating system installed on the computer.
+TⒶILS runs independently from the operating system installed on the computer.
 So, if the computer has only been compromised by software, running from inside
 your regular operating system (virus, trojan, etc.), then it is safe
-to use Tails. This is true as long as Tails itself has been installed
+to use TⒶILS. This is true as long as TⒶILS itself has been installed
 using a trusted system.
 
 If the computer has been compromised by someone having physical access to it and
 who installed untrusted pieces of hardware, then it might be unsafe to use
-Tails.
+TⒶILS.
 
 If the BIOS of the computer has been compromised, then it might
-also be unsafe to use Tails.
+also be unsafe to use TⒶILS.
 
 See our [[warning page|doc/about/warning]] for more details.
 
 <a id="integrity"></a>
 
-Can I verify the integrity of a Tails device?
+Can I verify the integrity of a TⒶILS device?
 ---------------------------------------------
 
-It is not possible to verify the integrity of a Tails device when running Tails
+It is not possible to verify the integrity of a TⒶILS device when running TⒶILS
 from this same device. This would be like asking to someone whether she is a
 liar; the answer of a true liar would always be "no".
 
@@ -656,22 +656,22 @@ liar; the answer of a true liar would always be "no".
   against the DVD itself.
 
 - There is no documented method of verifying the integrity of a USB stick or SD
-  card installed using <span class="application">Tails
-  Installer</span>. However, if you have another trusted Tails device,
+  card installed using <span class="application">TⒶILS
+  Installer</span>. However, if you have another trusted TⒶILS device,
   you can [[clone it onto the untrusted device|doc/first_steps/upgrade]] to
   reset it to a trusted state.
 
 <a id="reuse_memory_wipe"></a>
 
-Can I use the memory wipe feature of Tails on another operating system?
+Can I use the memory wipe feature of TⒶILS on another operating system?
 -----------------------------------------------------------------------
 
-The memory wipe mechanism that Tails uses on shutdown to [[protect against cold
+The memory wipe mechanism that TⒶILS uses on shutdown to [[protect against cold
 boot attacks|doc/advanced_topics/cold_boot_attacks]] is not yet available in
 other Linux distributions. In the future, we would like to package it for
 Debian.
 
-If you want to implement this feature outside of Tails, have a look at the
+If you want to implement this feature outside of TⒶILS, have a look at the
 corresponding [[design documentation|contribute/design/memory_erasure]].
 
 <a id="new_identity"></a>
@@ -680,22 +680,22 @@ Is it safe to use the <span class="guilabel">New Identity</span> feature of <spa
 ---------------------------------------------------------------------
 
 In our [[warning page|doc/about/warning#identities]] we advice to
-restart Tails every time that you want to use a different contextual
+restart TⒶILS every time that you want to use a different contextual
 identity. The
 [[<span class="guilabel">New Identity</span> feature of <span class="application">Vidalia</span>|doc/anonymous_internet/vidalia#new_identity]]
 forces Tor to use new circuits but only for new connections and the
 [[<span class="guilabel">New Identity</span> of <span class="application">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new_identity]]
 is limited to the browser.
 
-Tails is a full operating system, so a *new identity* should be thought on a
-broader level. **Restart Tails instead**.
+TⒶILS is a full operating system, so a *new identity* should be thought on a
+broader level. **Restart TⒶILS instead**.
 
 <a id="truecrypt"></a>
 
-Can I use TrueCrypt with Tails?
+Can I use TrueCrypt with TⒶILS?
 -------------------------------
 
-No, <span class="application">TrueCrypt</span> was removed in Tails 1.2.1.
+No, <span class="application">TrueCrypt</span> was removed in TⒶILS 1.2.1.
 But you can still [[open <span class="application">TrueCrypt</span>
 volumes using <span class="code">cryptsetup</span>|doc/encryption_and_privacy/truecrypt]].
 
@@ -706,31 +706,31 @@ and its development team recommends against using it. We recommend using other
 
 <a id="boot_statistics"></a>
 
-Does Tails collect information about its users?
+Does TⒶILS collect information about its users?
 -----------------------------------------------
 
-When Tails starts, two HTTPS requests are made automatically to our website
+When TⒶILS starts, two HTTPS requests are made automatically to our website
 through Tor:
 
 - A security check is performed to know if security issues have been announced
-  for this version of Tails. The language of the working session is passed along
+  for this version of TⒶILS. The language of the working session is passed along
   with this request to display the notification in the preferred language of the
   user.
-- [[<span class="application">Tails Upgrader</span>|doc/first_steps/upgrade]]
-  checks for newer versions. The version of the running Tails is passed along
+- [[<span class="application">TⒶILS Upgrader</span>|doc/first_steps/upgrade]]
+  checks for newer versions. The version of the running TⒶILS is passed along
   with this request.
 
 We believe it is important to notify the user of known security issues and newer
 versions. We calculate statistics based on the security check to know how many times
-Tails has been started and connected to Tor. Those statistics are published in
+TⒶILS has been started and connected to Tor. Those statistics are published in
 our [[monthly reports|news]].
 
 <a id="antivirus"></a>
 
-Does Tails need an antivirus?
+Does TⒶILS need an antivirus?
 -----------------------------
 
-No, as other Linux systems, Tails doesn't require an antivirus to protect itself
+No, as other Linux systems, TⒶILS doesn't require an antivirus to protect itself
 from most malwares, such as viruses, trojans, and worms. There are various reasons
 why Linux operating systems generally don't need antivirus softwares, including
 the permission design of Linux systems.
@@ -771,8 +771,8 @@ bought ) or give some other instructions.
    `TSOCKS_CONF_FILE=tsocks-specific.conf tsocks ssh one.example.org`.
 
 `proxychains` is in Debian, the package is called by the same name. This means
-it is straightforword to install it in Tails. There is no way in can be
-preconfigured for every Tails users, so it's hard to see why it should be
+it is straightforword to install it in TⒶILS. There is no way in can be
+preconfigured for every TⒶILS users, so it's hard to see why it should be
 included in the default package set.
 
 </rawmaterial>

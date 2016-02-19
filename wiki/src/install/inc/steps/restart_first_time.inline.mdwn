@@ -1,6 +1,6 @@
-<h1 class="windows linux mac-usb upgrade-tails">Restart on the intermediary Tails</h1>
-<h1 class="clone">Restart on the other Tails</h1>
-<h1 class="mac-dvd">Restart on the Tails DVD</h1>
+<h1 class="windows linux mac-usb upgrade-tails">Restart on the intermediary TⒶILS</h1>
+<h1 class="clone">Restart on the other TⒶILS</h1>
+<h1 class="mac-dvd">Restart on the TⒶILS DVD</h1>
 
 <div class="step-image">
 [[!img install/inc/infography/plug-source-usb.png link="no" class="install-clone mac-clone"]]
@@ -13,13 +13,13 @@
 
 <div class="note clone">
 
-<p>The following instructions assume that the other Tails that you are
+<p>The following instructions assume that the other TⒶILS that you are
 <span class="install-clone debian windows linux mac">installing</span>
 <span class="upgrade">upgrading</span>
 from is on a USB stick. You can also
 <span class="install-clone debian windows linux mac">install</span>
 <span class="upgrade">upgrade</span>
-from a Tails DVD in a similar way.</p>
+from a TⒶILS DVD in a similar way.</p>
 
 </div>
 
@@ -28,11 +28,11 @@ from a Tails DVD in a similar way.</p>
      <span class="usb">Shut down the computer while leaving the <span class="windows linux mac">first</span> USB stick plugged in.</span>
    </p>
    <p class="mac-dvd clone upgrade-tails">Shut down the computer.</p>
-   <p class="clone">Plug in the other Tails USB stick that you want to
+   <p class="clone">Plug in the other TⒶILS USB stick that you want to
    <span class="install-clone debian windows linux mac">install</span>
    <span class="upgrade">upgrade</span>
    from.</p>
-   <p class="upgrade-tails">Unplug your Tails USB stick while leaving the intermediary USB stick plugged in.</p>
+   <p class="upgrade-tails">Unplug your TⒶILS USB stick while leaving the intermediary USB stick plugged in.</p>
 
 1. Switch on the computer.
 
@@ -52,18 +52,18 @@ from a Tails DVD in a similar way.</p>
    [[!inline pages="install/inc/steps/mac_startup_disks.inline" raw="yes"]]
    </div>
 
-1. If the computer starts on Tails, the <span class="guilabel">Boot Tails</span> menu
+1. If the computer starts on TⒶILS, the <span class="guilabel">Boot TⒶILS</span> menu
    appears. Choose <span class="guilabel">Live</span> and press <span class="keycap">Enter</span>.
 
    <div class="note install-clone debian expert windows linux">
-   <p>Most computers do not start on Tails by default. If it does you
+   <p>Most computers do not start on TⒶILS by default. If it does you
    are lucky. Otherwise, if the computer starts on
    <span class="debian expert">Debian or Ubuntu,</span>
    <span class="windows">Windows,</span>
    <span class="linux">Linux,</span>
    <span class="install-clone">Windows or Linux,</span>
    refer to  [[!toggle id="not_at_all" text="the troubleshooting section
-   about Tails not starting at all"]].</p>
+   about TⒶILS not starting at all"]].</p>
    </div>
 
    [[!toggleable id="not_at_all" text="""
@@ -76,10 +76,10 @@ from a Tails DVD in a similar way.</p>
 
    """]]
 
-     [[!img doc/first_steps/start_tails/tails_boot_menu.png class="screenshot" link="no" alt="Black screen with Tails artwork. 'Boot menu' with two options 'Live' and 'Live (failsafe)'."]]
+     [[!img doc/first_steps/start_tails/tails_boot_menu.png class="screenshot" link="no" alt="Black screen with TⒶILS artwork. 'Boot menu' with two options 'Live' and 'Live (failsafe)'."]]
 
    <div class="bug mac-usb mac-clone">
-   <p>If your computer fails to start on the intermediary Tails, you can
+   <p>If your computer fails to start on the intermediary TⒶILS, you can
    try these other two methods:</p>
 
    <ul>
@@ -89,21 +89,21 @@ from a Tails DVD in a similar way.</p>
    </ul>
 
    <p>If you tried them already but failed as well, then it might
-   currently be impossible to start Tails on your Mac model.</p>
+   currently be impossible to start TⒶILS on your Mac model.</p>
    </div>
 
    <div class="bug mac-dvd">
-   <p>If your computer fails to start on the Tails DVD, then it might currently
-   be impossible to start Tails on your Mac model.</p>
+   <p>If your computer fails to start on the TⒶILS DVD, then it might currently
+   be impossible to start TⒶILS on your Mac model.</p>
    </div>
 
-1. After 30&ndash;60 seconds, another screen called <span class="application">Tails Greeter</span> appears.
+1. After 30&ndash;60 seconds, another screen called <span class="application">TⒶILS Greeter</span> appears.
 
    <div class="note">
    <p>If the computer stops responding or displays error messages before
-   getting to <span class="application">Tails Greeter</span>, refer to
+   getting to <span class="application">TⒶILS Greeter</span>, refer to
    [[!toggle id="not_entirely" text="the troubleshooting section about
-   Tails not starting entirely"]].</p>
+   TⒶILS not starting entirely"]].</p>
    </div>
 
    [[!toggleable id="not_entirely" text="""
@@ -118,23 +118,23 @@ from a Tails DVD in a similar way.</p>
 
    [[!img doc/first_steps/startup_options/tails-greeter-welcome-to-tails.png class="screenshot" link="no"]]
 
-1. In <span class="application">Tails Greeter</span>, select your preferred language in the drop-down
+1. In <span class="application">TⒶILS Greeter</span>, select your preferred language in the drop-down
 list on the bottom left of the screen. Click <span class="button">Login</span>.
 
-1. After 15&ndash;30 seconds, the Tails desktop appears.
+1. After 15&ndash;30 seconds, the TⒶILS desktop appears.
 
    [[!img install/inc/screenshots/desktop.png class="screenshot" link="no"]]
 
 <div class="trophy windows linux mac">
 
 <p class="usb">The most difficult part is over!
-Now grab your second USB stick as it is time to install the final Tails on it.</p>
+Now grab your second USB stick as it is time to install the final TⒶILS on it.</p>
 
-<p class="usb">It is important to install the final Tails as it allows
+<p class="usb">It is important to install the final TⒶILS as it allows
 you to store some of your documents and configuration
 and benefit from automatic security upgrades.</p>
 
 <p class="clone mac-dvd">This was a first but important step!
-Now grab the <span class="clone">new</span> USB stick on which you want to install Tails.</p>
+Now grab the <span class="clone">new</span> USB stick on which you want to install TⒶILS.</p>
 
 </div>

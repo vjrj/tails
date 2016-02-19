@@ -37,7 +37,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<p>This means that an attacker who could run an exploit from inside your\n"
-"Tails session could corrupt the persistent volume settings. By doing\n"
+"TⒶILS session could corrupt the persistent volume settings. By doing\n"
 "this, an attacker could possibly gain persistent administrator rights\n"
 "or install malicious software.</p>\n"
 msgstr ""
@@ -50,7 +50,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Under normal conditions, this should not happen. This might be a problem in "
-"Tails, so please [[report an error|doc/first_steps/bug_reporting]]."
+"TⒶILS, so please [[report an error|doc/first_steps/bug_reporting]]."
 msgstr ""
 
 #. type: Plain text

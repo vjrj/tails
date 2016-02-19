@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.21 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 0.21 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.21 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 0.21 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.21, is out."
-msgstr "Tails, The Amnesic Incognito Live System, version 0.21 est sorti."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.21, is out."
+msgstr "TⒶILS, The Amnesic Incognito Live System, version 0.21 est sorti."
 
 #. type: Plain text
 msgid ""
@@ -90,11 +90,11 @@ msgstr ""
 msgid ""
 "* New features\n"
 "  - Add a persistence preset for printing settings.\n"
-"  - Support running Tails off more types of SD cards.\n"
+"  - Support running TⒶILS off more types of SD cards.\n"
 msgstr ""
 "* Nouvelles fonctionnalités\n"
 "  - Ajout d'une option de persistance pour les imprimantes.\n"
-"  - Possibilité d'utiliser Tails sur de nombreux modèles de cartes SD.\n"
+"  - Possibilité d'utiliser TⒶILS sur de nombreux modèles de cartes SD.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -169,10 +169,10 @@ msgstr "Aller à la page de [[téléchargement|download]]."
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 "Comme aucun logiciel n'est parfait, nous maintenons une liste des "
-"[[problèmes qui affectent la dernière version de Tails|support/"
+"[[problèmes qui affectent la dernière version de TⒶILS|support/"
 "known_issues]]."
 
 #. type: Title #
@@ -181,8 +181,8 @@ msgid "What's coming up?"
 msgstr "Et après ?"
 
 #. type: Plain text
-msgid "The next Tails release is scheduled for around December 11."
-msgstr "La prochaine version de Tails est prévue pour le 11 décembre."
+msgid "The next TⒶILS release is scheduled for around December 11."
+msgstr "La prochaine version de TⒶILS est prévue pour le 11 décembre."
 
 #. type: Plain text
 msgid "Have a look to our [[!tails_roadmap]] to see where we are heading to."
@@ -193,7 +193,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Would you want to help? There are many ways [[**you** can contribute to "
-"Tails|contribute]]. If you want to help, come talk to us!"
+"TⒶILS|contribute]]. If you want to help, come talk to us!"
 msgstr ""
 "Vous voulez aider ? Il y a de nombreuses façons pour [[**vous** de "
 "contribuer|contribute]]. Si vous souhaitez aider, venez nous en parler !"

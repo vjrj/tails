@@ -2,7 +2,7 @@
 
 [[!meta date="2013-12-29 12:00:00"]]
 
-You can help Tails! The
+You can help TⒶILS! The
 [[MAC address spoofing|contribute/design/MAC_address]] feature is
 ready for testing. This feature prevents geographical tracking of your
 network devices (and by extension, you) by randomising their
@@ -19,7 +19,7 @@ review our [[design|contribute/design/MAC_address]] and
 Every network device (wired, Wi-Fi/wireless, 3G/mobile) has a
 [[!wikipedia MAC address]], which is a unique identifier used to
 address them on the local network. Broadcasting a unique identifier in
-this manner introduce a couple of potential privacy issues for Tails
+this manner introduce a couple of potential privacy issues for TⒶILS
 users. Geographical location tracking is the main one: observing a MAC
 address at a particular location and time ties the corresponding
 device to the same location and time. If the real identity of the
@@ -38,7 +38,7 @@ To verify the download, use the `.shasum` file. It is signed with
 OpenPGP key
 [0xD83A438B2F916605](http://keys.indymedia.org/pks/lookup?op=get&fingerprint=on&search=0xD83A438B2F916605).
 
-# How to use MAC spoofing in Tails
+# How to use MAC spoofing in TⒶILS
 
 MAC spoofing is enabled by default in this test ISO. You can change
 this with a
@@ -95,31 +95,31 @@ Please report if you ever get unexpected results.
 Some wireless networks are configured to only allow connections for
 devices with certain MAC addresses, called MAC address
 whitelisting. MAC address spoofing will cause issues on networks like
-these. Therefore Tails has a crude mechanism for detecting this, and
+these. Therefore TⒶILS has a crude mechanism for detecting this, and
 will show an informative notification about what to do about it.
 
 If you have access to a wireless network that employs MAC address
 whitelisting, then connect to it with MAC spoofing enabled and verify
-that Tails shows a notification with the headline: "Network connection
+that TⒶILS shows a notification with the headline: "Network connection
 blocked?".
 
-Note: Tails detection mechanism for MAC address whitelisting only
+Note: TⒶILS detection mechanism for MAC address whitelisting only
 works for wireless (Wi-Fi) networks.
 
 ## Network problems
 
 Please report all network device and connection issues, e.g. if any of
-your network devices do not get detected by Tails at all, if the
+your network devices do not get detected by TⒶILS at all, if the
 network connection fails, or if the network connection succeeds but
 actually does not work. Also check whether you experience the same
-issues using Tails 0.22.
+issues using TⒶILS 0.22.
 
 # Known issues
 
 ## No fail-safe for hotplugged devices after logging in
 
 In order to prevent the real MAC address from leaking when MAC
-spoofing fails for some network device, Tails has a fail-safe that
+spoofing fails for some network device, TⒶILS has a fail-safe that
 simply disables the device. At the moment this only works for network
-devices present before logging in with Tails Greeter; the fail-safe
+devices present before logging in with TⒶILS Greeter; the fail-safe
 does *not* work for e.g. Wi-Fi USB dongles hotplugged *after* that.

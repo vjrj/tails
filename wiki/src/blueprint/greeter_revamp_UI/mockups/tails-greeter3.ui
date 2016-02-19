@@ -22,7 +22,7 @@
           <object class="GtkLabel" id="label1">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Welcome to Tails</property>
+            <property name="label" translatable="yes">Welcome to TⒶILS</property>
             <attributes>
               <attribute name="weight" value="bold"/>
               <attribute name="size" value="13000"/>
@@ -656,7 +656,7 @@ Otherwise it will be disabled for better security.</property>
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="xalign">0</property>
-                    <property name="label" translatable="yes">This option makes Tails look more like Microsoft Windows XP. This may be useful in public places in order to avoid attracting suspicion.</property>
+                    <property name="label" translatable="yes">This option makes TⒶILS look more like Microsoft Windows XP. This may be useful in public places in order to avoid attracting suspicion.</property>
                     <property name="wrap">True</property>
                     <property name="width_chars">72</property>
                   </object>

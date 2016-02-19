@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Manually upgrade inside Tails\"]]\n"
+msgid "[[!meta title=\"Manually upgrade inside TⒶILS\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -63,7 +63,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p class=\"start\">Start in Tails.</p>\n"
+msgid "<p class=\"start\">Start in TⒶILS.</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -73,14 +73,14 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Install an intermediary Tails\n"
+msgid "Install an intermediary TⒶILS\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"In this step, you will install an intermediary Tails by cloning your\n"
-"outdated Tails on another USB stick using <span class=\"application\">Tails Installer</span>.\n"
+"In this step, you will install an intermediary TⒶILS by cloning your\n"
+"outdated TⒶILS on another USB stick using <span class=\"application\">TⒶILS Installer</span>.\n"
 msgstr ""
 
 #. type: Plain text
@@ -106,7 +106,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>The persistent storage of your Tails USB stick will not be\n"
+"<p>The persistent storage of your TⒶILS USB stick will not be\n"
 "copied.</p>\n"
 msgstr ""
 
@@ -125,10 +125,10 @@ msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Tails Installer</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">TⒶILS Installer</span>\n"
 "   </span>\n"
-"   to start <span class=\"application\">Tails Installer</span>.\n"
+"   to start <span class=\"application\">TⒶILS Installer</span>.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -154,7 +154,7 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "To start the installation, click on the <span class=\"button\">Install "
-"Tails</span> button."
+"TⒶILS</span> button."
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -178,17 +178,17 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Close <span class=\"application\">Tails Installer</span>."
+msgid "Close <span class=\"application\">TⒶILS Installer</span>."
 msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Upgrade the intermediary Tails\n"
+msgid "Upgrade the intermediary TⒶILS\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"In this step, you will upgrade the intermediary Tails using the Tails ISO "
+"In this step, you will upgrade the intermediary TⒶILS using the TⒶILS ISO "
 "image that you downloaded earlier."
 msgstr ""
 
@@ -203,10 +203,10 @@ msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Tails Installer</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">TⒶILS Installer</span>\n"
 "   </span>\n"
-"   to start <span class=\"application\">Tails Installer</span> again.\n"
+"   to start <span class=\"application\">TⒶILS Installer</span> again.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -227,7 +227,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"To start the upgrade, click on the <span class=\"button\">Install Tails</"
+"To start the upgrade, click on the <span class=\"button\">Install TⒶILS</"
 "span> button."
 msgstr ""
 

@@ -1,24 +1,24 @@
 [[!meta date="Fri Jun 7 12:26:39 2013"]]
-[[!meta title="Tails report for May, 2013"]]
+[[!meta title="TⒶILS report for May, 2013"]]
 
 [[!toc levels=1]]
 
 Releases
 ========
 
-Tails 0.18 [[was released|news/version_0.18]] on May 18.
+TⒶILS 0.18 [[was released|news/version_0.18]] on May 18.
 
 Metrics
 =======
 
-  - 128 676 connections of Tails to the Tor network. This makes a boot
+  - 128 676 connections of TⒶILS to the Tor network. This makes a boot
     every 21 seconds on average (this is an approximation from the
-    requests made to the security announcements feed when Tails is
+    requests made to the security announcements feed when TⒶILS is
     connected to Tor).
 
   - 51 non-empty bug reports were received through WhisperBack.
 
-  - 630 comments were posted on the forum, with 143 signed by Tails.
+  - 630 comments were posted on the forum, with 143 signed by TⒶILS.
 
 Code
 ====
@@ -84,7 +84,7 @@ Documentation and Website
 - The end-user documentation about [[!tails_gitweb_branch
   feature/set-wireless-devices-state]] was reviewed and improved.
 
-- The Tails [[specification and design document|contribute/design]]
+- The TⒶILS [[specification and design document|contribute/design]]
   received various minor updates and improvements, as did the release
   process documentation.
 
@@ -95,7 +95,7 @@ Documentation and Website
 On-going discussions
 ====================
 
-- We've discussed inclusion of Martus in Tails.
+- We've discussed inclusion of Martus in TⒶILS.
 
 - [Deanonymization potential by the desktop
   user](https://mailman.boum.org/pipermail/tails-dev/2013-May/003078.html).

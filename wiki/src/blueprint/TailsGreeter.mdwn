@@ -1,6 +1,6 @@
 [[!meta title="tails-greeter"]]
 
-tails-greeter is shipped in Tails 0.11 and later.
+tails-greeter is shipped in TⒶILS 0.11 and later.
 Remaining action items and bugs are split into individual pages in
 [[!tails_todo "" desc="todo"]] and [[!tails_bug "" desc="bugs"]].
 
@@ -51,7 +51,7 @@ asked via boot-menu.
    - generate the chosen locale;
    - setup locale for the session to be started;
    - maybe more: have a look at
-     `config/binary_local-hooks/20-syslinux_i18n` in Tails main Git
+     `config/binary_local-hooks/20-syslinux_i18n` in TⒶILS main Git
      repository to see what parameters it passes to live-config
      (locales, keyboard-layouts) then grep the relevant variable names
      (`KEYBOARD_LAYOUT`, `LIVE_LOCALES`, `LIVE_TIMEZONE`) in
@@ -69,7 +69,7 @@ asked via boot-menu.
       need some envvars set.
     * Note: live-config scripts we'll run ourselves must not run on boot
       before we run them: these scripts are *not* idempotent
-4. ui hint: Choose the language of your Tails session.
+4. ui hint: Choose the language of your TⒶILS session.
 5. responsible dev:
 6. dev's notes: This item should be really visible, probably on top of the
    TailsGreeter screen. More information can be found in

@@ -1,7 +1,7 @@
 [[!meta title="Running the automated test suite on lizard"]]
 
 The isotester1 VM on lizard is configured to run our automated test
-suite. Core Tails developers can run it there, e.g. on ISO images
+suite. Core TⒶILS developers can run it there, e.g. on ISO images
 built by Jenkins.
 
 [[!toc levels=2]]
@@ -20,7 +20,7 @@ You can quickly retrieve ISO images built by Jenkins from
 
 Use `sudo su -` to enter a root session.
 
-A clone of the Tails Git repository can be found in `/srv/git/`.
+A clone of the TⒶILS Git repository can be found in `/srv/git/`.
 
 When using the `--capture` option, please pass it a filename within
 `/tmp/TailsToaster`, for storage management reasons.

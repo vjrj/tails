@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-08-11 18:44+0200\n"
 "PO-Revision-Date: 2015-08-23 19:04-0000\n"
-"Last-Translator: Tails translators <tails@boum.org\">\n"
+"Last-Translator: TⒶILS translators <tails@boum.org\">\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Sun Aug 09 01:02:03 2015\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 1.4.1\"]]\n"
-msgstr "[[!meta title=\"Nombreux trous de sécurité dans Tails 1.4.1\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 1.4.1\"]]\n"
+msgstr "[[!meta title=\"Nombreux trous de sécurité dans TⒶILS 1.4.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -35,15 +35,15 @@ msgstr "[[!tag security/fixed]]\n"
 msgid ""
 "Several security holes that affect Tails 1.4.1 are now fixed in Tails 1.5."
 msgstr ""
-"De nombreux trous de sécurités affectant Tails 1.4.1 sont maintenant "
-"corrigés dans Tails 1.5."
+"De nombreux trous de sécurités affectant TⒶILS 1.4.1 sont maintenant "
+"corrigés dans TⒶILS 1.5."
 
 #. type: Plain text
 msgid ""
 "We **strongly** encourage you to [[upgrade to Tails 1.5|news/version_1.5]] "
 "as soon as possible."
 msgstr ""
-"Nous vous encourageons **vivement** à [[mettre à jour vers Tails 1.5|news/"
+"Nous vous encourageons **vivement** à [[mettre à jour vers TⒶILS 1.5|news/"
 "version_1.5]] dès que possible."
 
 #. type: Title =

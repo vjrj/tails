@@ -27,11 +27,11 @@ msgstr "[[!meta title=\"اطلاعات شما ذخیره نخواهد شد مگ�
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "As stated in the [[about]] page, Tails is designed to leave no trace on "
+#| "As stated in the [[about]] page, TⒶILS is designed to leave no trace on "
 #| "the computer you're using unless you ask it explicitly. It is important "
 #| "to understand some of the consequences of that."
 msgid ""
-"As stated in the [[/about]] page, Tails is designed to leave no trace on the "
+"As stated in the [[/about]] page, TⒶILS is designed to leave no trace on the "
 "computer you're using unless you ask it explicitly. It is important to "
 "understand some of the consequences of that."
 msgstr ""
@@ -41,11 +41,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Starting a computer on a media containing Tails doesn't change anything on "
+"Starting a computer on a media containing TⒶILS doesn't change anything on "
 "the operating system actually installed on your hard disk: as a live system, "
-"Tails doesn't need to use your hard disk during the whole session. Be your "
+"TⒶILS doesn't need to use your hard disk during the whole session. Be your "
 "hard disk absent or damaged, it wouldn't prevent your computer to start "
-"Tails. Consequently, removing the DVD or USB stick containing Tails is "
+"TⒶILS. Consequently, removing the DVD or USB stick containing TⒶILS is "
 "enough to retrieve your usual operating system."
 msgstr ""
 "استفاده از تیلز روی رایانه‌ای که سیستم‌عامل دیگری دارد هیچ اثری روی سیستم‌عامل "
@@ -89,9 +89,9 @@ msgstr "<p>دسترسی به دیسک‌های داخلی رایانه مسائ�
 #, no-wrap
 msgid ""
 "<ul>\n"
-"  <li>You can leave traces of your activities in Tails on the hard disks.</li>\n"
-"  <li>If Tails is compromised, a malware could install itself on your usual operating system.</li>\n"
-"  <li>If an application in Tails is compromised, it could access private data on your disks and use it to de-anonymize you.</li>\n"
+"  <li>You can leave traces of your activities in TⒶILS on the hard disks.</li>\n"
+"  <li>If TⒶILS is compromised, a malware could install itself on your usual operating system.</li>\n"
+"  <li>If an application in TⒶILS is compromised, it could access private data on your disks and use it to de-anonymize you.</li>\n"
 "</ul>\n"
 msgstr ""
 "<ul>\n"
@@ -116,10 +116,10 @@ msgstr "برای دسترسی به سخت‌دیسک‌های داخلی:"
 
 #. type: Bullet: '1. '
 msgid ""
-"When starting Tails, [[set up an administration password|doc/first_steps/"
+"When starting TⒶILS, [[set up an administration password|doc/first_steps/"
 "startup_options/administration_password/]]."
 msgstr ""
-"هنگام آغاز تیلز Tails, [[یک گذرواژهٔ مدیریتی ایجاد کنید|doc/first_steps/"
+"هنگام آغاز تیلز TⒶILS, [[یک گذرواژهٔ مدیریتی ایجاد کنید|doc/first_steps/"
 "startup_options/administration_password/]]."
 
 #. type: Bullet: '2. '

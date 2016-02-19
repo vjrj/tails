@@ -47,7 +47,7 @@ tails (2.0.1) unstable; urgency=medium
   * Build system
     - Remove no longer relevant places.sqlite cleanup procedure.
 
- -- Tails developers <tails@boum.org>  Fri, 12 Feb 2016 13:00:15 +0000
+ -- TⒶILS developers <tails@boum.org>  Fri, 12 Feb 2016 13:00:15 +0000
 
 tails (2.0) unstable; urgency=medium
 
@@ -73,13 +73,13 @@ tails (2.0) unstable; urgency=medium
     - Upgrade OpenSSH client to 1:6.7p1-5+deb8u1.
 
   * Bugfixes
-    - Restore the logo in the "About Tails" dialog.
+    - Restore the logo in the "About TⒶILS" dialog.
     - Don't tell the user that "Tor is ready" before htpdate is done
       (Closes: #7721).
     - Upgrader wrapper: make the check for free memory more accurate
       (Closes: #10540, #8263).
     - Allow the desktop user, when active, to configure printers;
-      fixes regression introduced in Tails 1.1 (Closes: #8443).
+      fixes regression introduced in TⒶILS 1.1 (Closes: #8443).
     - Close Vidalia before we restart Tor. Otherwise Vidalia will be running
       and showing errors while we make sure that Tor bootstraps, which could
       take a while.
@@ -95,7 +95,7 @@ tails (2.0) unstable; urgency=medium
       blocking most such actions anyway, resulting in poor UX; bugfix on 1.3.
       Accordingly, remove the now-obsolete exception we had in the Tor
       Browser AppArmor profile, that allowed executing seahorse-tool.
-    - Fix performance issue in Tails Upgrader, that made it very slow to apply
+    - Fix performance issue in TⒶILS Upgrader, that made it very slow to apply
       an automatic upgrade; bugfix on 1.7 (Closes: #10757).
     - Use our wrapper script to start Icedove from the GNOME menus.
     - Make it possible to localize our Icedove wrapper script.
@@ -134,7 +134,7 @@ tails (2.0) unstable; urgency=medium
 
   * Minor improvements
     - Remove obsolete code from various places.
-    - Tails Greeter:
+    - TⒶILS Greeter:
       · hide all windows while logging in
       · resize and re-position the panel when the screen size grows
       · PostLogin: log into the Journal instead of a dedicated log file
@@ -143,9 +143,9 @@ tails (2.0) unstable; urgency=medium
         (Closes: #5589)
       · port to GDBus greeter interface, and adjust to other GDM
         and GNOME changes
-    - Tails Installer:
+    - TⒶILS Installer:
       · port to UDisks2, and from Qt4 to GTK3
-      · adapt to work on other GNU/Linux operating systems than Tails
+      · adapt to work on other GNU/Linux operating systems than TⒶILS
       · clean up enough upstream code and packaging bits to make it
         deserve being uploaded to Debian
       · rename everything from liveusb-creator to tails-installer
@@ -157,7 +157,7 @@ tails (2.0) unstable; urgency=medium
       · remove obsolete workarounds
     - Don't install UDisks v1.
     - Adapt custom udev and polkit rules to UDisks v2 (Closes: #9054, #9270).
-    - Adjust import-translations' post-import step for Tails Installer,
+    - Adjust import-translations' post-import step for TⒶILS Installer,
       to match how its i18n system works nowadays.
     - Use socket activation for CUPS, to save some boot time.
     - Set memlockd.service's OOMScoreAdjust to -1000.
@@ -248,7 +248,7 @@ tails (2.0) unstable; urgency=medium
     - Replace patches that wrapped apps with torsocks with dynamic patching with
       a hook, to ease maintenance. Also, patch D-Bus services as needed
       (Closes: #10603).
-    - Notify the user if running Tails inside non-free virtualization software
+    - Notify the user if running TⒶILS inside non-free virtualization software
       that does not try to hide its nature (Closes: #5315).
       Thanks to Austin English <austinenglish@gmail.com> for the patch.
     - Declare htpdate.service as being needed for time-sync.target, to ensure
@@ -367,12 +367,12 @@ tails (2.0) unstable; urgency=medium
       running the test suite on current Debian sid.
     - Fix buggy code, that happened to work by mistake, in the Seahorse
       test cases; bugfix on 1.8.
-    - Update test suite images due to CSS change on Tails' website.
+    - Update test suite images due to CSS change on TⒶILS' website.
     - Adapt Tor Browser tests to work with the 5.5 series.
     - Automatically test downloading files in Tor Browser.
     - Remove obsolete scenario, that tested opening a downloaded file with
       an external application, which we do not support anymore.
-    - Improve robustness of the "Tails OpenPGP keys" scenario (Closes: #10378).
+    - Improve robustness of the "TⒶILS OpenPGP keys" scenario (Closes: #10378).
     - Automatically test the "Diable all networking" feature (Closes: #10430).
     - Automatically test that SSH works over LAN (Closes: #9087).
     - Bump some statuc sleeps to fix a few race conditions (Closes: #5330).
@@ -381,7 +381,7 @@ tails (2.0) unstable; urgency=medium
     - Make the AppArmor checks actually detect errors (Closes: #10926).
 
   * Build system
-    - Bump amount of disk space needed to build Tails with Vagrant.
+    - Bump amount of disk space needed to build TⒶILS with Vagrant.
       The addition of the Japanese Tor Browser tarball made us reach
       the limit of the previous value.
 
@@ -508,7 +508,7 @@ tails (2.0) unstable; urgency=medium
         and notification actions
       · tails-security-check: use a dialog box instead of desktop notifications
       · MAC spoofing failure notification: remove the link to the documentation;
-        it was broken on Tails/Wheezy already, see #10559 for next steps
+        it was broken on TⒶILS/Wheezy already, see #10559 for next steps
     - Don't explicitly install gnome-panel nor gnome-menus, so that they go away
       whenever the Greeter does not pull them in anymore.
     - Install gkbd-capplet, that provides gkbd-keyboard-display (Closes: #8363).
@@ -521,12 +521,12 @@ tails (2.0) unstable; urgency=medium
     - Essentially revert ALSA state handling to how it was pre-Jessie, so that
       mixer levels are unmuted and sanitized at boot time (Closes: #7591).
     - Pass --yes to apt-get when installing imagemagick.
-    - Make removable devices, that we support installing Tails to, user writable:
-      Tails Installer requires raw block device access to such devices
+    - Make removable devices, that we support installing TⒶILS to, user writable:
+      TⒶILS Installer requires raw block device access to such devices
       (Closes: #8273). Similarly, allow the amnesia user, when active, to open
       non-system devices for writing with udisks2. This is roughly udisks2's
       equivalent of having direct write access to raw block storage devices.
-      Here too, Tails Installer uses this functionality.
+      Here too, TⒶILS Installer uses this functionality.
     - Disable networkd to prevent any risk of DNS leaks it might cause; and
       disable timesyncd, as we have our own time synchronization mechanism.
       They are not enabled by default in Jessie, but may be in Stretch,
@@ -536,7 +536,7 @@ tails (2.0) unstable; urgency=medium
     - apparmor-adjust-cupsd-profile.diff: adjust to parse fine on Jessie
       (Closes: #9963)
     - Explicitly use tor@default.service when it's the one we mean.
-    - Refactor GNOME/X env exporting to Tails' shell library, and grab
+    - Refactor GNOME/X env exporting to TⒶILS' shell library, and grab
       more of useful bits of the desktop session environment.
       Then, use the result in the test suite's remote shell.
     - Stop tweaking /etc/modules. It's 2015, the kernel should load these things
@@ -548,7 +548,7 @@ tails (2.0) unstable; urgency=medium
       on Jessie.
     - I2P: switch from 'service' to 'systemctl' where possible.
 
- -- Tails developers <tails@boum.org>  Mon, 25 Jan 2016 18:06:33 +0100
+ -- TⒶILS developers <tails@boum.org>  Mon, 25 Jan 2016 18:06:33 +0100
 
 tails (1.8.2) unstable; urgency=medium
 
@@ -562,7 +562,7 @@ tails (1.8.2) unstable; urgency=medium
     - Upgrade OpenSSL-related packages to 1.0.1e-2+deb7u19.
     - Upgrade libsmbclient to 2:3.6.6-6+deb7u6.
 
- -- Tails developers <tails@boum.org>  Sat, 09 Jan 2016 16:27:27 +0100
+ -- TⒶILS developers <tails@boum.org>  Sat, 09 Jan 2016 16:27:27 +0100
 
 tails (1.8.1) unstable; urgency=medium
 
@@ -576,7 +576,7 @@ tails (1.8.1) unstable; urgency=medium
     - Fix time synchronization in bridge mode by refreshing our patch
       against Tor's AppArmor profile.
 
- -- Tails developers <tails@boum.org>  Fri, 18 Dec 2015 19:05:18 +0000
+ -- TⒶILS developers <tails@boum.org>  Fri, 18 Dec 2015 19:05:18 +0000
 
 tails (1.8) unstable; urgency=medium
 
@@ -620,7 +620,7 @@ tails (1.8) unstable; urgency=medium
   * Test suite
     - Lower the waiting time for USB installation in the test suite.
       So far we were waiting up to one hour, which is just the same as
-      our Jenkins inactivity timeout, so in practice when Tails
+      our Jenkins inactivity timeout, so in practice when TⒶILS
       Installer fails and displays an error message, instead of
       reporting that the job failed (which is the point of the
       exercise) we abort the job due to this timeout which
@@ -634,7 +634,7 @@ tails (1.8) unstable; urgency=medium
     - Make the handling of Pidgin's account manager more robust.
       (Closes: #10506)
 
- -- Tails developers <tails@boum.org>  Mon, 14 Dec 2015 23:07:19 +0100
+ -- TⒶILS developers <tails@boum.org>  Mon, 14 Dec 2015 23:07:19 +0100
 
 tails (1.7) unstable; urgency=medium
 
@@ -646,7 +646,7 @@ tails (1.7) unstable; urgency=medium
       improvements via the Torbirdy add-on, and complete persistence
       support (which will be enabled automatically if you already have
       Claws Mail persistence enabled). Icedove will replace Claws Mail
-      as the supported email client in Tails in a future
+      as the supported email client in TⒶILS in a future
       release. (Closes: #6151, #9498, #10285)
     - Upgrade Tor to 0.2.7.4-rc-1~d70.wheezy+1+tails1. Among the many
       improvement of this new Tor major release, the new
@@ -656,8 +656,8 @@ tails (1.7) unstable; urgency=medium
       SocksPort:s -- now the same circuit is only kept alive for
       extended periods for the SocksPort used by the Tor
       Browser. (Closes: #10194, #10308)
-    - Add an option to Tails Greeter which disables networking
-      completely. This is useful when intending to use Tails for
+    - Add an option to TⒶILS Greeter which disables networking
+      completely. This is useful when intending to use TⒶILS for
       offline work only. (Closes: #6811)
 
   * Security fixes
@@ -683,15 +683,15 @@ tails (1.7) unstable; urgency=medium
 
   * Minor improvements
     - Rework the wordings of the various installation and upgrade
-      options available in Tails installer in Wheezy. (Closes: #9672)
+      options available in TⒶILS installer in Wheezy. (Closes: #9672)
     - Restart Tor if bootstrapping stalls for too long when not using
       pluggable transports. (Closes: #9516)
     - Install firmware-amd-graphics, and firmware-misc-nonfree instead
       of firmware-ralink-nonfree, both from Debian Sid.
-    - Update the Tails signing key. (Closes: #10012)
-    - Update the Tails APT repo signing key. (Closes: #10419)
+    - Update the TⒶILS signing key. (Closes: #10012)
+    - Update the TⒶILS APT repo signing key. (Closes: #10419)
     - Install the nmh package. (Closes: #10457)
-    - Explicitly run "sync" at the end of the Tails Upgrader's upgrade
+    - Explicitly run "sync" at the end of the TⒶILS Upgrader's upgrade
       process, and pass the "sync" option when remounting the system
       partition as read-write. This might help with some issues we've
       seen, such as #10239, and possibly for #8449 as well.
@@ -714,7 +714,7 @@ tails (1.7) unstable; urgency=medium
       nick's have a 10% chance to include a ^, which will break that
       regexp. We need to escape all characters in the nick. (Closes:
       #10219)
-    - Extract TBB languages from the Tails source code. This will
+    - Extract TBB languages from the TⒶILS source code. This will
       ensure that valid locales are tested. As an added bonus, the
       code is greatly simplified. (Closes: #9897)
     - Automatically test that tails-debugging-info is not susceptible
@@ -735,7 +735,7 @@ tails (1.7) unstable; urgency=medium
       * radvd
       * x11-apps
 
- -- Tails developers <tails@boum.org>  Tue, 03 Nov 2015 01:09:41 +0100
+ -- TⒶILS developers <tails@boum.org>  Tue, 03 Nov 2015 01:09:41 +0100
 
 tails (1.6) unstable; urgency=medium
 
@@ -790,8 +790,8 @@ tails (1.6) unstable; urgency=medium
       the --capture* options. (Closes: #10001)
     - Make --old-iso default to --iso if omitted. Using the same ISO
       for the USB upgrade tests most often still does what we want,
-      e.g. test that the current version of Tails being tested has a
-      working Tails installer. Hence this seems like a reasonable
+      e.g. test that the current version of TⒶILS being tested has a
+      working TⒶILS installer. Hence this seems like a reasonable
       default. (Closes: #10147)
     - Avoid nested FindFailed exceptions in waitAny()/findAny(), and
       throw a new dedicated FindAnyFailed exception if these fail
@@ -826,7 +826,7 @@ tails (1.6) unstable; urgency=medium
     - Wait for (and focus if necessary) Pidgin's Certificate windows.
       (Closes: #10222)
 
- -- Tails developers <tails@boum.org>  Sun, 20 Sep 2015 17:47:26 +0000
+ -- TⒶILS developers <tails@boum.org>  Sun, 20 Sep 2015 17:47:26 +0000
 
 tails (1.5.1) unstable; urgency=medium
 
@@ -843,7 +843,7 @@ tails (1.5.1) unstable; urgency=medium
     - Make sure Jenkins creates new jobs to build the testing branch
       after freezes. (Closes: #9925)
 
- -- Tails developers <tails@boum.org>  Fri, 28 Aug 2015 01:52:14 +0200
+ -- TⒶILS developers <tails@boum.org>  Fri, 28 Aug 2015 01:52:14 +0200
 
 tails (1.5) unstable; urgency=medium
 
@@ -865,7 +865,7 @@ tails (1.5) unstable; urgency=medium
     - Fix panic mode on MAC spoofing failure. (Closes: #9531)
     - Deny Tor Browser access to global tmp directories with AppArmor,
       and give it its own $TMPDIR. (Closes: #9558)
-    - Tails Installer: don't use a predictable file name for the subprocess
+    - TⒶILS Installer: don't use a predictable file name for the subprocess
       error log. (Closes: #9349)
     - Pidgin AppArmor profile: disable the launchpad-integration abstraction,
       which is too wide-open.
@@ -895,10 +895,10 @@ tails (1.5) unstable; urgency=medium
     - Upgrade Tor to 0.2.6.10-1~d70.wheezy+1+tails1.
 
   * Minor improvements
-    - Tails Installer: let the user know when it has rejected a candidate
+    - TⒶILS Installer: let the user know when it has rejected a candidate
       destination device because it is too small. (Closes: #9130)
-    - Tails Installer: prevent users from trying to "upgrade" a device
-      that contains no Tails, or that was not installed with Tails Installer.
+    - TⒶILS Installer: prevent users from trying to "upgrade" a device
+      that contains no TⒶILS, or that was not installed with Tails Installer.
       (Closes: #5623)
     - Install libotr5 and pidgin-otr 4.x from wheezy-backports. This adds
       support for the OTRv3 protocol and for multiple concurrent connections
@@ -927,13 +927,13 @@ tails (1.5) unstable; urgency=medium
       Adjust the automated test suite accordingly. (Closes: #9567)
     - Bump amount of RAM needed for Vagrant RAM builds to 7.5 GiB. In
       particular the inclusion of the Tor Browser 5.0 series has recently
-      increased the amount of space needed to build Tails. (Closes: #9901)
+      increased the amount of space needed to build TⒶILS. (Closes: #9901)
 
   * Test suite
     - Test that the Tor Browser cannot access LAN resources.
     - Test that the Unsafe Browser can access the LAN.
     - Installer: test new behavior when trying to upgrade an empty device, and
-      when attempting to upgrade a non-Tails FAT partition on GPT; also, take
+      when attempting to upgrade a non-TⒶILS FAT partition on GPT; also, take
       into account that all unsupported upgrade scenarios now trigger
       the same behavior.
     - Request a new Tor circuit and re-run the Seahorse and GnuPG CLI tests
@@ -971,7 +971,7 @@ tails (1.5) unstable; urgency=medium
     - Adjust tests to cope with our new AppArmor aliases.
     - Bump memory allocated to the system under test to 2 GB. (Closes: #9883)
 
- -- Tails developers <tails@boum.org>  Mon, 10 Aug 2015 19:12:58 +0200
+ -- TⒶILS developers <tails@boum.org>  Mon, 10 Aug 2015 19:12:58 +0200
 
 tails (1.4.1) unstable; urgency=medium
 
@@ -1028,7 +1028,7 @@ tails (1.4.1) unstable; urgency=medium
     - Pidgin: retry looking for the roadmap URL in the topic.
     - Avoid showing Pidgin's tooltips during test, potentially confusing Sikuli.
       (Closes: #9317)
-    - Test all OpenPGP keys shipped with Tails. (Closes: #9402)
+    - Test all OpenPGP keys shipped with TⒶILS. (Closes: #9402)
     - Check that notification-daemon is running when looking for notifications
       fails. (Closes: #9332)
     - Allow using the cucumber formatters however we want. (Closes: #9424)
@@ -1054,7 +1054,7 @@ tails (1.4.1) unstable; urgency=medium
     - Only try to build the storage pool if TailsToasterStorage isn't found.
       (Closes: #9568)
 
- -- Tails developers <tails@boum.org>  Sun, 28 Jun 2015 19:46:25 +0200
+ -- TⒶILS developers <tails@boum.org>  Sun, 28 Jun 2015 19:46:25 +0200
 
 tails (1.4) unstable; urgency=medium
 
@@ -1062,14 +1062,14 @@ tails (1.4) unstable; urgency=medium
     - Upgrade Tor Browser to 4.5.1, based on Firefox 31.7.0 ESR, which
       introduces many major new features for usability, security and
       privacy. Unfortunately its per-tab circuit view did not make it
-      into Tails yet since it requires exposing more Tor state to the
+      into TⒶILS yet since it requires exposing more Tor state to the
       user running the Tor Browser than we are currently comfortable
       with. (Closes: #9031, #9369)
     - Upgrade Tor to 0.2.6.7-1~d70.wheezy+1+tails2. Like in the Tor
       bundled with the Tor Browser, we patch it so that circuits used
       for SOCKSAuth streams have their lifetime increased indefinitely
       while in active use. This currently only affects the Tor Browser
-      in Tails, and should improve the experience on certain web sites
+      in TⒶILS, and should improve the experience on certain web sites
       that otherwise would switch language or log you out every ten
       minutes or so when Tor switches circuit. (Closes: #7934)
 
@@ -1103,9 +1103,9 @@ tails (1.4) unstable; urgency=medium
       browsers. (Closes: #9138)
     - Hide Torbutton's "Tor Network Settings..." context menu entry.
       (Closes: #7647)
-    - Upgrade the syslinux packages to support booting Tails on
+    - Upgrade the syslinux packages to support booting TⒶILS on
       Chromebook C720-2800. (Closes: #9044)
-    - Enable localization in Tails Upgrader. (Closes: #9190)
+    - Enable localization in TⒶILS Upgrader. (Closes: #9190)
     - Make sure the system clock isn't before the build date during
       early boot. Our live-config hook that imports our signing keys
       depend on that the system clock isn't before the date when the
@@ -1166,7 +1166,7 @@ tails (1.4) unstable; urgency=medium
       engine.
 
   * Build system
-    - Encode in Git which APT suites to include when building Tails.
+    - Encode in Git which APT suites to include when building TⒶILS.
       (Closes: #8654)
     - Clean up the list of packages we install. (Closes: #6073)
     - Run auto/{build,clean,config} under `set -x' for improved
@@ -1207,9 +1207,9 @@ tails (1.4) unstable; urgency=medium
       bypassing the shell for greater security and robustness (Closes:
       #9253)
     - Add Electrum test feature. (Closes #8963)
-    - Test that Tails Installer detects when USB devices are
+    - Test that TⒶILS Installer detects when USB devices are
       removed. (Closes: #9131)
-    - Test Tails Installer with devices which are too small. (Closes:
+    - Test TⒶILS Installer with devices which are too small. (Closes:
       #9129)
     - Test that the Report an Error launcher works in German. (Closes:
       #9143)
@@ -1240,7 +1240,7 @@ tails (1.4) unstable; urgency=medium
     - Create filesystem share sources in the temporary directory and
       make them world-readable. (Closes: #8950)
 
- -- Tails developers <tails@boum.org>  Mon, 11 May 2015 16:45:04 +0200
+ -- TⒶILS developers <tails@boum.org>  Mon, 11 May 2015 16:45:04 +0200
 
 tails (1.3.2) unstable; urgency=medium
 
@@ -1254,9 +1254,9 @@ tails (1.3.2) unstable; urgency=medium
       scrolling and not mouse movements (Closes: #9011).
     - Make tails-spoof-mac log the correct macchanger exit code on
       failure (Closes: #8687).
-    - Tails Installer:
+    - TⒶILS Installer:
       · Ignore devices with less than 3.5 GB of storage since they
-        do not fit a Tails installation (Closes: #6538).
+        do not fit a TⒶILS installation (Closes: #6538).
       · Remove devices from the device list as they are unplugged
         (Closes: #8691).
 
@@ -1277,7 +1277,7 @@ tails (1.3.2) unstable; urgency=medium
     - New tests:
       · Test non-LAN SSH, and SFTP via GNOME's "Connect to Server"
         (Closes: #6308).
-      · Verify that Tails' Tor binary has the expected Tor authorities
+      · Verify that TⒶILS' Tor binary has the expected Tor authorities
         hard coded (Closes: #8960).
     - Improvements:
       · Programmatically determine the supported languages when testing
@@ -1288,7 +1288,7 @@ tails (1.3.2) unstable; urgency=medium
     - Bugfixes:
       · Make --temp-dir (now --tmpdir) actually work.
 
- -- Tails developers <tails@boum.org>  Mon, 30 Mar 2015 16:54:20 +0200
+ -- TⒶILS developers <tails@boum.org>  Mon, 30 Mar 2015 16:54:20 +0200
 
 tails (1.3.1) unstable; urgency=medium
 
@@ -1331,18 +1331,18 @@ tails (1.3.1) unstable; urgency=medium
       · Change "Tor Browser Bundle" to "Tor Browser"
       · Update translations from Transifex.
     - Fix the Tor Launcher killer. (Closes: #9067)
-    - Allow Seahorse to communicate with keyservers when run from Tails
+    - Allow Seahorse to communicate with keyservers when run from TⒶILS
       OpenPGP Applet. (Closes: #6394)
     - SSH client: don't proxy connections to 172.17.* to 172.31.*.
       (Closes: #6558)
-    - Repair config/chroot_local-packages feature, that was broken in Tails 1.3
+    - Repair config/chroot_local-packages feature, that was broken in TⒶILS 1.3
       by 19-install-tor-browser-AppArmor-profile. (Closes: #8910)
     - language_statistics.sh: count original words instead of translated words.
       Otherwise we get >100% translation if translated strings are longer than
       original strings. (Closes: #9016)
 
   * Minor improvements
-    - Only ship the new Tails signing key, and have Tails Upgrader stop trusting
+    - Only ship the new TⒶILS signing key, and have Tails Upgrader stop trusting
       the old one. Update the documentation and test suite accordingly.
       (Closes: #8735, #8736, #8882, #8769, #8951)
     - Polish and harden a bit the WhisperBack configuration (Closes: #8991):
@@ -1361,7 +1361,7 @@ tails (1.3.1) unstable; urgency=medium
       · Fetching keys using Seahorse started via the OpenPGP Applet.
       · Sync'ing keys using Seahorse.
     - Bugfixes:
-      · Fix a race condition between the remote shell's and Tails Greeter's
+      · Fix a race condition between the remote shell's and TⒶILS Greeter's
         startup, by making sure the remote shell is ready before we start
         GDM. (Closes: #8941)
       · Kill virt-viewer properly. (Closes: #9070)
@@ -1383,12 +1383,12 @@ tails (1.3.1) unstable; urgency=medium
         for dynamically adding cleanup functions, instead of having
         to explicitly deal with them in some After hook.
 
- -- Tails developers <tails@boum.org>  Mon, 23 Mar 2015 12:34:56 +0000
+ -- TⒶILS developers <tails@boum.org>  Mon, 23 Mar 2015 12:34:56 +0000
 
 tails (1.3) unstable; urgency=medium
 
   * Major new features
-    - Produce the Tails image in hybrid mode (again) so that the same
+    - Produce the TⒶILS image in hybrid mode (again) so that the same
       image can be installed both on DVD *and* "hard disks" like USB
       storage and similar. (Closes: #8510)
     - Confine the Tor Browser using AppArmor. (Closes: #5525)
@@ -1454,9 +1454,9 @@ tails (1.3) unstable; urgency=medium
       automatically, test that audio output works from Tor Browser,
       thanks to the PulseAudio integration into the GNOME sound
       control center.
-    - Import the new Tails signing key, which we will use for Tails
-      1.3.1, and have Tails Upgrader trust both it and the "old"
-      (current) Tails signing key. (Closes: #8732)
+    - Import the new TⒶILS signing key, which we will use for Tails
+      1.3.1, and have TⒶILS Upgrader trust both it and the "old"
+      (current) TⒶILS signing key. (Closes: #8732)
     - tails-security-check: error out when passed an invalid CA file.
       Unfortunately, the underlying HTTPS stack we use here fails open
       in those case, so we have to check it ourselves. Currently, we
@@ -1464,16 +1464,16 @@ tails (1.3) unstable; urgency=medium
       not empty. Also support specifying the CA file via an
       environment variable. This will ease development and bug-fixing
       quite a bit.
-    - Fix racy code in Tails Installer that sometimes made the
-      automated test suite stall for scenarios installing Tails
+    - Fix racy code in TⒶILS Installer that sometimes made the
+      automated test suite stall for scenarios installing TⒶILS
       to USB disks. (Closes: #6092)
-    - Make it possible to use Tails Upgrader to upgrade a Tails
+    - Make it possible to use TⒶILS Upgrader to upgrade a Tails
       installation that has cruft files on the system partition.
       (Closes: #7678)
 
   * Build system
     - Install syslinux-utils from our builder-wheezy APT repository in
-      Vagrant. We need version 6.03~pre20 to make the Tails ISO image
+      Vagrant. We need version 6.03~pre20 to make the TⒶILS ISO image
       in hybrid mode
     - Update deb.tails.boum.org apt repo signing key. (Closes: #8747)
     - Revert "Workaround build failure in lb_source, after creating
@@ -1501,11 +1501,11 @@ tails (1.3) unstable; urgency=medium
       format everywhere to reduce disk usage, enable us to use
       snapshots that includes the disks (in the future), and to use
       the same steps for creating disks in all tests. (Closes: #8673)
-    - Automatically test that Tails ignores persistence volumes stored
+    - Automatically test that TⒶILS ignores persistence volumes stored
       on non-removable media, and doesn't enable swaps. (Closes:
       #7822)
-    - Actually make sure that Tails can boot from live systems stored
-      on a hard drive. Running the 'I start Tails from DVD ...' step
+    - Actually make sure that TⒶILS can boot from live systems stored
+      on a hard drive. Running the 'I start TⒶILS from DVD ...' step
       will override the earlier 'the computer is set to boot from ide
       drive "live_hd"' step, so let's make the "from DVD" part
       optional; it will be the default any way.
@@ -1564,7 +1564,7 @@ tails (1.3) unstable; urgency=medium
       contacted) and that our stream isolation configuration is
       working. (Closes: #5644, #6305, #7821)
 
- -- Tails developers <tails@boum.org>  Mon, 23 Feb 2015 17:14:00 +0100
+ -- TⒶILS developers <tails@boum.org>  Mon, 23 Feb 2015 17:14:00 +0100
 
 tails (1.2.3) unstable; urgency=medium
 
@@ -1596,7 +1596,7 @@ tails (1.2.3) unstable; urgency=medium
       /home/amnesia (Closes: #8087).
     - Do not suspend to RAM when closing the lid on battery power
       (Closes: #8071).
-    - Properly update the Tails Installer's status when plugging in a
+    - Properly update the TⒶILS Installer's status when plugging in a
       USB drive after it has started (Closes: #8353).
     - Make rsync compare file contents by using --checksum for more
       reliable generation of the squashfs filesystem in
@@ -1632,18 +1632,18 @@ tails (1.2.3) unstable; urgency=medium
       timeout to be reached twice, and then possibly succeed, let's
       use N*2 minutes + 30 seconds, with N=2.
 
- -- Tails developers <tails@boum.org>  Wed, 14 Jan 2015 16:12:26 +0100
+ -- TⒶILS developers <tails@boum.org>  Wed, 14 Jan 2015 16:12:26 +0100
 
 tails (1.2.2) unstable; urgency=medium
 
   * Bugfixes
-    - Create a CA bundle for Tails Upgrader at ISO build time, and
-      patch Tails Upgrader to use it. Specifically this will make it
-      possible to check for Tails upgrades after our website changes
+    - Create a CA bundle for TⒶILS Upgrader at ISO build time, and
+      patch TⒶILS Upgrader to use it. Specifically this will make it
+      possible to check for TⒶILS upgrades after our website changes
       certificate around the 2014 to 2015 transition (Partially fixes
       #8404).
 
- -- Tails developers <tails@boum.org>  Mon, 15 Dec 2014 10:05:17 +0100
+ -- TⒶILS developers <tails@boum.org>  Mon, 15 Dec 2014 10:05:17 +0100
 
 tails (1.2.1) unstable; urgency=low
 
@@ -1660,11 +1660,11 @@ tails (1.2.1) unstable; urgency=low
       #8160). With the default settings, no site-specific information is
       logged.
     - Use the correct stack of rootfs:s for the chroot browsers (Closes:
-      #8152, #8158). After installing incremental upgrades Tails' root
+      #8152, #8158). After installing incremental upgrades TⒶILS' root
       filesystem consists of a stack squashfs:s, not only
       filesystem.squashfs. When not stacking them correct we may end up
-      using the Tor Browser (Firefox) from an older version of Tails, or
-      with no Tor Browser at all, as in the upgrade from Tails 1.1.2 to
+      using the Tor Browser (Firefox) from an older version of TⒶILS, or
+      with no Tor Browser at all, as in the upgrade from TⒶILS 1.1.2 to
       1.2, when we migrated from Iceweasel to the Tor Browser. Based on
       a patch contributed by sanic.
     - Use the Tor Browser for MIME type that GNOME associates with
@@ -1677,7 +1677,7 @@ tails (1.2.1) unstable; urgency=low
     - Install all localized Iceweasel search plugins (Closes: #8139).
     - When generating the boot profile, ignore directories in
       process_IN_ACCESS as well (Closes: #7925). This allows ut to
-      update the squashfs-ordering again in Tails 1.2.1.
+      update the squashfs-ordering again in TⒶILS 1.2.1.
     - gpgApplet: Don't pass already encoded data to GTK2 (Closes:
       #7968). It's now possible to clearsign text including non-ASCII
       characters.
@@ -1694,7 +1694,7 @@ tails (1.2.1) unstable; urgency=low
     - Install hopenpgp-tools from Debian Jessie.
 
   * Build system
-    - Add gettext >= 0.18.3 as a Tails build dependency. We need it for
+    - Add gettext >= 0.18.3 as a TⒶILS build dependency. We need it for
       xgettext JavaScript support in feature/jessie.
 
   * Automated test suite
@@ -1706,7 +1706,7 @@ tails (1.2.1) unstable; urgency=low
       happening in it (Closes: #8161).
     - Remove workaround for showing the TBB's menu bar (Closes #8028).
 
- -- Tails developers <tails@boum.org>  Tue, 02 Dec 2014 11:34:03 +0100
+ -- TⒶILS developers <tails@boum.org>  Tue, 02 Dec 2014 11:34:03 +0100
 
 tails (1.2) unstable; urgency=medium
 
@@ -1714,7 +1714,7 @@ tails (1.2) unstable; urgency=medium
     - Migrate from Iceweasel to the Tor Browser from the Tor Browser
       Bundle 4.0 (based on Firefox 31.2.0esr). This fixes the POODLE
       vulnerability.
-      The installation in Tails is made global (multi-profile), uses
+      The installation in TⒶILS is made global (multi-profile), uses
       the system-wide Tor instance, disables the Tor Browser updater,
       and keeps the desired deviations previously present in Iceweasel,
       e.g. we install the AdBlock Plus add-on, but not Tor Launcher (since
@@ -1722,7 +1722,7 @@ tails (1.2) unstable; urgency=medium
     - Install AppArmor's userspace tools and apparmor-profiles-extra
       from Wheezy Backports, and enable the AppArmor Linux Security
       Module. This adds Mandatory Access Control for several critical
-      applications in Tails, including Tor, Vidalia, Pidgin, Evince
+      applications in TⒶILS, including Tor, Vidalia, Pidgin, Evince
       and Totem.
     - Isolate I2P traffic from the Tor Browser by adding a dedicated
       I2P Browser. It is set up similarly to the Unsafe Browser,
@@ -1750,7 +1750,7 @@ tails (1.2) unstable; urgency=medium
       unstable (Closes: #7886, #8100).
     - Transition away from TrueCrypt: install cryptsetup and friends
       from wheezy-backports (Closes: #5932), and make it clear that
-      TrueCrypt will be removed in Tails 1.2.1 (Closes: #7739).
+      TrueCrypt will be removed in TⒶILS 1.2.1 (Closes: #7739).
     - Install Monkeysign dependencies for qrcodes scanning.
     - Upgrade syslinux to 3:6.03~pre20+dfsg-2~bpo70+1, and install
       the new syslinux-efi package.
@@ -1759,7 +1759,7 @@ tails (1.2) unstable; urgency=medium
       pinnings to install packages from it.
     - Enable Tor's syscall sandbox. This feature (new in 0.2.5.x)
       should make Tor a bit harder to exploit. It is only be enabled
-      when when no special Tor configuration is requested in Tails
+      when when no special Tor configuration is requested in TⒶILS
       Greeter due to incompatibility with pluggable transports.
     - Start I2P automatically when the network connects via a
       NetworkManager hook, and "i2p" is present on the kernel command
@@ -1798,11 +1798,11 @@ tails (1.2) unstable; urgency=medium
     - In the Unsafe Browser tests, rely on subtle timing less (Closes:
       #8009).
     - Use the same logic to determine when Tor is working in the test
-      suite as in Tails itself. The idea is to avoid spamming the Tor
+      suite as in TⒶILS itself. The idea is to avoid spamming the Tor
       control port during bootstrap, since we've seen problems with
       that already.
 
- -- Tails developers <tails@boum.org>  Wed, 15 Oct 2014 18:34:50 +0200
+ -- TⒶILS developers <tails@boum.org>  Wed, 15 Oct 2014 18:34:50 +0200
 
 tails (1.1.2) unstable; urgency=medium
 
@@ -1827,7 +1827,7 @@ tails (1.1.2) unstable; urgency=medium
       CVE-2013-7020).
     - Upgrade bash to 4.2+dfsg-0.1+deb7u1 (fixes CVE-2014-6271).
 
- -- Tails developers <tails@boum.org>  Tue, 23 Sep 2014 23:01:40 -0700
+ -- TⒶILS developers <tails@boum.org>  Tue, 23 Sep 2014 23:01:40 -0700
 
 tails (1.1.1) unstable; urgency=medium
 
@@ -1877,7 +1877,7 @@ tails (1.1.1) unstable; urgency=medium
   * Bugfixes
     - Fix condition clause in tails-security-check (Closes: #7657).
     - Don't ship OpenJDK 6: I2P prefers v7, and we don't need both.
-    - Prevent Tails Installer from updating the system partition
+    - Prevent TⒶILS Installer from updating the system partition
       properties on MBR partitions (Closes: #7716).
 
   * Minor improvements
@@ -1890,7 +1890,7 @@ tails (1.1.1) unstable; urgency=medium
       app was to keep mail on the server, but that setting was changed
       recently. This configuration setting (susimail.config) will only
       be copied over in I2P 0.9.14 and newer.
-    - Add a Close button to the Tails Installer launcher window.
+    - Add a Close button to the TⒶILS Installer launcher window.
 
   * Build system
     - Migrate Vagrant basebox to Debian Wheezy (Closes #7133, #6736).
@@ -1909,7 +1909,7 @@ tails (1.1.1) unstable; urgency=medium
     - Start applications by using the GNOME Applications menu instead
       of the GNOME Run Dialog (Closes: #5550, #7060).
 
- -- Tails developers <tails@boum.org>  Sun, 31 Aug 2014 20:49:28 +0000
+ -- TⒶILS developers <tails@boum.org>  Sun, 31 Aug 2014 20:49:28 +0000
 
 tails (1.1) unstable; urgency=medium
 
@@ -1974,13 +1974,13 @@ tails (1.1) unstable; urgency=medium
       not enough on Wheezy, so let's disable the starting of the "gpg"
       component of GNOME keyring.
     - Make sure /etc/default/locale exists, with a sensible default
-      value (Closes: #7333). Before Tails Greeter's PostLogin script
+      value (Closes: #7333). Before TⒶILS Greeter's PostLogin script
       are run, /etc/default/locale does not exist on Wheezy. Our
       tails-kexec initscript (and quite a few other scripts we run)
       depends on this file to exist. So, let's make sure it exists,
       with a sensible default value.
     - Create the tails-persistence-setup user with the same UID/GID it
-      had on Tails/Squeeze. (Closes: #7343) Else, our various checks
+      had on TⒶILS/Squeeze. (Closes: #7343) Else, our various checks
       for safe access rights on persistence.conf fail.
     - Revert back to browsing the offline documentation using Iceweasel
       instead of Yelp (Closes: #7390, #7285).
@@ -2010,27 +2010,27 @@ tails (1.1) unstable; urgency=medium
       Debian since Squeeze, now is a good time to drop the obsolete
       0.4 implementation.
     - Require a bit less free memory before checking for upgrades with
-      Tails Upgrader. The general goal is to avoid displaying "Not
+      TⒶILS Upgrader. The general goal is to avoid displaying "Not
       enough memory available to check for upgrades" too often due to
       over-cautious memory requirements checked in the wrapper.
-    - Make Tails Greeter's help window resolution-aware. Previously it
+    - Make TⒶILS Greeter's help window resolution-aware. Previously it
       used a static 800x600 which was problematic on lower resolutions,
       and sub-optimal on higher resolutions. Now it adapts itself
       according to the screen resolution.
     - Whisperback now sanitizes attached logs better with respect to
       DMI data, IPv6 addresses, and serial numbers (Closes #6797,
       #6798, #6804).
-    - Integrate the new logo in Tails Installer (Closes #7095)
+    - Integrate the new logo in TⒶILS Installer (Closes #7095)
     - Also install linux-base and linux-compiler-gcc-4.8-x86 from
       sid. This way, we can get rid of our linux-compiler-gcc-4.8-x86
       3.12, and it makes things a bit more consistent.
     - Include the syslinux binary, and its MBR, in the ISO filesystem.
-      This in turn allows Tails Installer to use this binary and MBR,
+      This in turn allows TⒶILS Installer to use this binary and MBR,
       which is critical for avoiding problems (such as #7345) on
       "Upgrade from ISO".
     - Include syslinux.exe for win32 in utils/win32/ on the ISO
       filesystem (Closes: #7425).
-    - Tails Installer:
+    - TⒶILS Installer:
       * Add consistent margins in GUI.
       * Always reset the target drive's MBR, without asking for
         confirmation, after installing or upgrading.
@@ -2038,11 +2038,11 @@ tails (1.1) unstable; urgency=medium
         target device, once the Live OS has been extracted/copied
         there.
     - Enable double-clicking to pick entries in the language or
-      keyboard layout lists in Tails Greeter.
+      keyboard layout lists in TⒶILS Greeter.
     - Install backport of shared-mime-info 1.3 (Closes: #7079).
-    - Make sanity-check prompts closable in Tails Persistence Setup
+    - Make sanity-check prompts closable in TⒶILS Persistence Setup
       (Closes: #7119).
-    - Fix quick search in Tails Greeter's Other languages window
+    - Fix quick search in TⒶILS Greeter's Other languages window
       (Closes: #5387).
     - Install systemd. It is not enabled by default, but having it
       around will help doing the migration work.
@@ -2073,7 +2073,7 @@ tails (1.1) unstable; urgency=medium
 
   * Automated test suite
     - Bump the tester VM's RAM by 256 MiB. There is not enough free
-      RAM to run Tails Upgrader with just 1 GiB of RAM after the
+      RAM to run TⒶILS Upgrader with just 1 GiB of RAM after the
       migration to Wheezy.
     - Always adjust OOM and memory overcommit settings. The kernel
       freezes seem to also happen for the amd64 kernel when filling
@@ -2088,17 +2088,17 @@ tails (1.1) unstable; urgency=medium
       installations.  Otherwise e.g. the permission fixes won't get
       applied, and the subsequent steps testing the permissions will
       fail.
-    - Actually check that the ISO's Tails is installed. The step
-      "Tails is installed on USB drive $TARGET" only checks that the
-      *running* Tails is installed on $TARGET, which obviously fails
-      when doing an upgrade from ISO running an old Tails. That it
-      worked for the same scenario running the current Tails is just
+    - Actually check that the ISO's TⒶILS is installed. The step
+      "TⒶILS is installed on USB drive $TARGET" only checks that the
+      *running* TⒶILS is installed on $TARGET, which obviously fails
+      when doing an upgrade from ISO running an old TⒶILS. That it
+      worked for the same scenario running the current TⒶILS is just
       coincidental.
     - Use OpenJDK 7 to run our test suite (Closes #7175).
     - Use qemu-system-x86_64 directly, instead of kvm, for running the
       automated test suite (Closes: #7605).
 
- -- Tails developers <tails@boum.org>  Sun, 20 Jul 2014 23:16:13 +0200
+ -- TⒶILS developers <tails@boum.org>  Sun, 20 Jul 2014 23:16:13 +0200
 
 tails (1.0.1) unstable; urgency=medium
 
@@ -2121,7 +2121,7 @@ tails (1.0.1) unstable; urgency=medium
     - Upgrade Tor to 0.2.4.22-1~d60.squeeze+1.
     - Upgrade I2P to 0.9.13-1~deb6u+1.
 
- -- Tails developers <tails@boum.org>  Sun, 08 Jun 2014 19:14:00 +0200
+ -- TⒶILS developers <tails@boum.org>  Sun, 08 Jun 2014 19:14:00 +0200
 
 tails (1.0) unstable; urgency=medium
 
@@ -2136,28 +2136,28 @@ tails (1.0) unstable; urgency=medium
         majority of the authority signing and identity keys.
 
    * Bugfixes
-    - Disable inbound I2P connections. Tails already restricts incoming
+    - Disable inbound I2P connections. TⒶILS already restricts incoming
       connections, but this change tells I2P about it.
-    - Fix link to the system requirements documentation page in the Tails
+    - Fix link to the system requirements documentation page in the TⒶILS
       Upgrader error shown when too little RAM is available.
 
   * Minor improvements
     - Upgrade I2P to 0.9.12-2~deb6u+1.
-    - Import TorBrowser profile. This was forgotten in Tails 0.23 and even
+    - Import TorBrowser profile. This was forgotten in TⒶILS 0.23 and even
       though we didn't explicitly set those preferences in that release
       they defaulted to the same values. This future-proofs us in case the
       defaults would ever change.
     - Import new custom version of tor-launcher:
       * Based on upstream Tor Launcher 0.2.5.3.
       * Improve how Tor Launcher handles incomplete translation.
-        (Tor bug #11483; more future-proof fix for Tails bug #6885)
-      * Remove the bridge settings prompt. (Tor bug #11482; closes Tails
+        (Tor bug #11483; more future-proof fix for TⒶILS bug #6885)
+      * Remove the bridge settings prompt. (Tor bug #11482; closes TⒶILS
         bug #6934,)
       * Always show bridge help button. (Tor bug #11484)
-    - Integrate the new Tails logo into various places:
+    - Integrate the new TⒶILS logo into various places:
       * The website
       * The boot splash
-      * The "About Tails" dialog
+      * The "About TⒶILS" dialog
 
   * Build system
     - Use the stable APT suite when building from the stable Git branch
@@ -2166,7 +2166,7 @@ tails (1.0) unstable; urgency=medium
   * Test suite
     - Add test for the #7022 fix.
 
- -- Tails developers <tails@boum.org>  Sun, 27 Apr 2014 19:34:01 +0200
+ -- TⒶILS developers <tails@boum.org>  Sun, 27 Apr 2014 19:34:01 +0200
 
 tails (0.23) unstable; urgency=medium
 
@@ -2178,7 +2178,7 @@ tails (0.23) unstable; urgency=medium
     - Spoof the network interfaces' MAC address by default (Closes: #5421),
       as designed on https://tails.boum.org/contribute/design/MAC_address/.
     - Rework the way to configure how Tor connects to the network
-      (bridges, proxy, fascist firewall): add an option to Tails Greeter,
+      (bridges, proxy, fascist firewall): add an option to TⒶILS Greeter,
       start Tor Launcher when needed (Closes: #5920, #5343).
 
   * Bugfixes
@@ -2190,9 +2190,9 @@ tails (0.23) unstable; urgency=medium
       before checking for upgrades (Closes: #6728) and unfixed known
       security issues.
     - Disable the Intel Management Engine Interface driver (Closes: #6460).
-      We don't need it in Tails, it might be dangerous, and it causes bugs
+      We don't need it in TⒶILS, it might be dangerous, and it causes bugs
       on various hardware such as systems that reboot when asked to shut down
-    - Add a launcher for the Tails documentation. This makes it available
+    - Add a launcher for the TⒶILS documentation. This makes it available
       in Windows Camouflage mode (Closes: #5374, #6767).
     - Remove the obsolete wikileaks.de account from Pidgin (Closes: #6807).
 
@@ -2214,28 +2214,28 @@ tails (0.23) unstable; urgency=medium
       using a filtering proxy in front of the Tor ControlPort to avoid giving
       full control over Tor to the desktop user (Closes: #6383).
     - Incremental upgrades improvements:
-      · Drop the Tails Upgrader launcher, to limit users' confusion
+      · Drop the TⒶILS Upgrader launcher, to limit users' confusion
         (Closes: #6513).
       · Lock down sudo credentials a bit.
       · Hide debugging information (Closes: #6505).
       · Include ~/.xsession-errors in WhisperBack bug reports.
-        This captures the Tails Upgrader errors and debugging information.
+        This captures the TⒶILS Upgrader errors and debugging information.
       · Report more precisely why an incremental upgrade cannot be done
         (Closes: #6575).
       · Various user interface and phrasing improvements.
     - Don't install the Cookie Monster browser extension (Closes: #6790).
     - Add a browser bookmark pointing to Tor's Stack Exchange (Closes: #6632).
     - Remove the preconfigured #tor channel from the Pidgin: apparently,
-      too many Tails users go ask Tails questions there, without making
-      it clear that they are running Tails, hence creating a user-support
+      too many TⒶILS users go ask Tails questions there, without making
+      it clear that they are running TⒶILS, hence creating a user-support
       nightmare (Closes: #6679).
     - Use (most of) Tor Browser's mozconfig (Closes: #6474).
     - Rebase the browser on top of iceweasel 24.3.0esr-1, to get
       the certificate authorities added by Debian back (Closes: #6704).
-    - Give access to the relevant documentation pages from Tails Greeter.
-    - Hide Tails Greeter's password mismatch warning when entry is changed.
+    - Give access to the relevant documentation pages from TⒶILS Greeter.
+    - Hide TⒶILS Greeter's password mismatch warning when entry is changed.
     - Persistent Volume Assistant:
-      · Take into account our installer is now called Tails Installer.
+      · Take into account our installer is now called TⒶILS Installer.
       · Optimize window height (Closes: #5458).
       · Display device paths in a more user-friendly way (Closes: #5311).
 
@@ -2265,7 +2265,7 @@ tails (0.23) unstable; urgency=medium
     - Add an anti-test to make sure the memory erasure test works fine.
     - A *lot* of bugfixes, simplifications and robustness improvements.
 
- -- Tails developers <tails@boum.org>  Tue, 18 Mar 2014 00:58:50 +0100
+ -- TⒶILS developers <tails@boum.org>  Tue, 18 Mar 2014 00:58:50 +0100
 
 tails (0.22.1) unstable; urgency=medium
 
@@ -2280,12 +2280,12 @@ tails (0.22.1) unstable; urgency=medium
       and I were able to find when discussing this on Tor#10095.
 
   * Major new features
-    - Check for upgrades availability using Tails Upgrader, and propose
+    - Check for upgrades availability using TⒶILS Upgrader, and propose
       to apply an incremental upgrade whenever possible (Closes: #6014).
       · Run tails-update-frontend at session login time.
       · Have tails-security-check only report unfixed security issues.
-      · Greatly improve the Tails Upgrader UI and strings phrasing.
-      · Enable startup notification for Tails Upgrader.
+      · Greatly improve the TⒶILS Upgrader UI and strings phrasing.
+      · Enable startup notification for TⒶILS Upgrader.
     - Install Linux 3.12 (3.12.6-2) from Debian testing. Unfortunately,
       this breaks the memory wipe feature on some hardware (#6460), but
       it fixes quite a few security issues, and improves hardware support.
@@ -2307,8 +2307,8 @@ tails (0.22.1) unstable; urgency=medium
       (Closes: #6514).
     - Use IE's icon in Windows camouflage mode.
       Bugfix against 0.22 (Closes: #6536).
-    - Support "upgrading" a partial Tails installation (Closes: #6438)
-      and fix missing confirmation dialog in Tails Installer (Closes: #6437).
+    - Support "upgrading" a partial TⒶILS installation (Closes: #6438)
+      and fix missing confirmation dialog in TⒶILS Installer (Closes: #6437).
       Thanks to Andres Gomez Ramirez <andres.gomez@cern.ch>.
     - Fix browser homepage in Spanish locales (Closes: #6612).
 
@@ -2325,13 +2325,13 @@ tails (0.22.1) unstable; urgency=medium
       (and soon obsolete) cdn.debian.net.
     - Phrasing and UI improvements in tails-upgrade-frontend.
     - Style and robustness improvements in tails-security-check.
-    - Make room for upcoming UEFI support in Tails Installer.
+    - Make room for upcoming UEFI support in TⒶILS Installer.
 
- -- Tails developers <tails@boum.org>  Wed, 29 Jan 2014 15:08:13 +0100
+ -- TⒶILS developers <tails@boum.org>  Wed, 29 Jan 2014 15:08:13 +0100
 
 tails (0.22) unstable; urgency=medium
 
-  [Tails developers]
+  [TⒶILS developers]
   * Security fixes
     - Upgrade to Iceweasel 24.2.0esr that fixes a few serious security issues.
     - Stop migrating persistence configuration and access rights. Instead,
@@ -2358,7 +2358,7 @@ tails (0.22) unstable; urgency=medium
         the shortest and sanest path to fixing the check issue, because the
         remote Tor check is broken" seems to simply disable this check.
         Patch submitted upstream as Tor#10216.
-    - Prepare incremental upgrades to be the next default way to upgrade Tails,
+    - Prepare incremental upgrades to be the next default way to upgrade TⒶILS,
       on point-releases at least.
 
   * Bugfixes
@@ -2368,7 +2368,7 @@ tails (0.22) unstable; urgency=medium
     - Sanitize more IP and MAC addresses in bug reports (Closes: #6391).
     - Do not fail USB upgrade when the "tmp" directory exists on the
       destination device.
-    - Tails Installer: list devices with isohybrid Tails installed
+    - TⒶILS Installer: list devices with isohybrid Tails installed
       (Closes: #6462).
 
   * Minor improvements
@@ -2377,11 +2377,11 @@ tails (0.22) unstable; urgency=medium
     - Translations all over the place.
     - Enable favicons in Iceweasel.
     - Do not propose to make permanent NoScript exceptions.
-      In Tails, every such thing is temporary, so better only display the menu
+      In TⒶILS, every such thing is temporary, so better only display the menu
       entry that's about temporarily allowing something.
     - Clearer warning when deleting persistent volume (thanks to Andres Gomez
       Ramirez <andres.gomez@cern.ch> for the patch).
-    - Make wording in Tails Installer more consistent.
+    - Make wording in TⒶILS Installer more consistent.
 
   [ WinterFairy ]
   * Use IBus instead of SCIM (Closes: #5624, #6206).
@@ -2409,7 +2409,7 @@ tails (0.22) unstable; urgency=medium
   * Allow access to the local 'eepsite' through FoxyProxy.
   * Add firewall exceptions for the standard I2P ports.
 
- -- Tails developers <tails@boum.org>  Sat, 30 Nov 2013 16:47:18 +0100
+ -- TⒶILS developers <tails@boum.org>  Sat, 30 Nov 2013 16:47:18 +0100
 
 tails (0.21) unstable; urgency=low
 
@@ -2439,7 +2439,7 @@ tails (0.21) unstable; urgency=low
         read persistence.conf if it, or the parent directory, hasn't the
         expected permissions.
       · Make boot medium 'system internal' for udisks with bilibop.
-        Once Tails is based on Wheezy, this will further complete the
+        Once TⒶILS is based on Wheezy, this will further complete the
         protection (see #6172 for details).
     - Update Iceweasel to 17.0.10esr-0+tails2~bpo60+1.
     - Update Torbutton to 1.5.2-2, including a patch cherry-picked from
@@ -2449,12 +2449,12 @@ tails (0.21) unstable; urgency=low
     - Add a persistence preset for printing settings (Closes: #5686).
       Reload CUPS configuration after persistence activation.
     - Support SD card connected through a SDIO host adapter (Closes: #6324).
-      · Rebrand Tails USB installer to Tails installer.
+      · Rebrand TⒶILS USB installer to Tails installer.
       · Display devices brand, model and size in the Installer
         (Closes: #6292).
-      · Ask for confirmation before installing Tails onto a device
+      · Ask for confirmation before installing TⒶILS onto a device
         (Closes: #6293).
-      · Add support for SDIO and MMC block devices to the Tails Installer
+      · Add support for SDIO and MMC block devices to the TⒶILS Installer
         (Closes: #5744) and the Persistent Volume Assistant (Closes: #6325).
       · Arm the udev watchdog when booted from SD (plugged in SDIO) too
         (Closes: #6327).
@@ -2489,7 +2489,7 @@ tails (0.21) unstable; urgency=low
       · Run as root the checks to see if a process is running: this
         is required to see other users' processes.
 
- -- Tails developers <tails@boum.org>  Sat, 26 Oct 2013 23:42:46 +0200
+ -- TⒶILS developers <tails@boum.org>  Sat, 26 Oct 2013 23:42:46 +0200
 
 tails (0.20.1) unstable; urgency=low
 
@@ -2536,7 +2536,7 @@ tails (0.20.1) unstable; urgency=low
   - Remove custom persistence test from manual test suite.
     It was removed for the GUI in t-p-s 0.33.
 
- -- Tails developers <tails@boum.org>  Sun, 15 Sep 2013 15:49:36 +0200
+ -- TⒶILS developers <tails@boum.org>  Sun, 15 Sep 2013 15:49:36 +0200
 
 tails (0.20) unstable; urgency=low
 
@@ -2552,9 +2552,9 @@ tails (0.20) unstable; urgency=low
   * Minor improvements
   - Install Dasher, a predictive text entry tool.
   - Add a wrapper around TrueCrypt which displays a warning about it soon
-    being deprecated in Tails.
+    being deprecated in TⒶILS.
   - Remove Pidgin libraries for all protocols but IRC and Jabber/XMPP.
-    Many of the other protocols Pidgin support are broken in Tails and
+    Many of the other protocols Pidgin support are broken in TⒶILS and
     haven't got any security auditting.
   - Disable the pre-defined Pidgin accounts so they do not auto-connect
     on Pidgin start.
@@ -2567,16 +2567,16 @@ tails (0.20) unstable; urgency=low
 
   * Localization
   - Many translation updates all over the place.
-  - Merge all Tails-related POT files into one, and make use of intltoolize
+  - Merge all TⒶILS-related POT files into one, and make use of intltoolize
     for better integration with Transifex.
 
- -- Tails developers <tails@boum.org>  Tue, 30 Jul 2013 14:19:57 +0200
+ -- TⒶILS developers <tails@boum.org>  Tue, 30 Jul 2013 14:19:57 +0200
 
 tails (0.19) unstable; urgency=low
 
   * Major new features
   - Install Linux kernel 3.9.5-1 from Debian unstable.
-    Features of particular interest for Tails are the Yama LSM
+    Features of particular interest for TⒶILS are the Yama LSM
     (ptrace scope restrictions) and improved hardware support.
     As a corollary, install initramfs-tools from there too.
   - Iceweasel 17.0.7esr + Torbrowser patches.
@@ -2624,7 +2624,7 @@ tails (0.19) unstable; urgency=low
   * Test suite
   - Re-enable previously disabled boot device permissions test.
 
- -- Tails developers <tails@boum.org>  Wed, 26 Jun 2013 12:36:20 +0200
+ -- TⒶILS developers <tails@boum.org>  Wed, 26 Jun 2013 12:36:20 +0200
 
 tails (0.18) unstable; urgency=low
 
@@ -2664,7 +2664,7 @@ tails (0.18) unstable; urgency=low
       type" test.
     · Move a bunch of settings to user_pref(), that are not applied otherwise.
       For some, this fixes a regression in 0.18~rc1.
-      For other, the  bug was already present in Tails 0.17.2.
+      For other, the  bug was already present in TⒶILS 0.17.2.
   - HTTPS Everywhere 3.2.
   - Update prefs to match the TBB's, fix bugs, and take advantage of the latest
     Torbrowser patches:
@@ -2709,9 +2709,9 @@ tails (0.18) unstable; urgency=low
   - Install gnome-screenshot.
   - Don't disable IPv6 on all network interfaces anymore.
     It turns out the IPv6 leaks we wanted to fix actually don't exist.
-  - Add a "About Tails" launcher in the System menu.
+  - Add a "About TⒶILS" launcher in the System menu.
   - Install GNOME accessibility themes.
-  - Use 'Getting started...' as the homepage for Tails documentation button.
+  - Use 'Getting started...' as the homepage for TⒶILS documentation button.
   - Stop relying on the obsolete /live/image compatibility symlink.
   - Disable audio preview in Nautilus.
   - Wheezy was released => Squeeze is now oldstable.
@@ -2743,7 +2743,7 @@ tails (0.18) unstable; urgency=low
   * Test suite
   - Fix Unsafe Browser test broken by hidepid.
 
- -- Tails developers <tails@boum.org>  Mon, 13 May 2013 22:17:38 +0200
+ -- TⒶILS developers <tails@boum.org>  Mon, 13 May 2013 22:17:38 +0200
 
 tails (0.17.2) unstable; urgency=low
 
@@ -2771,9 +2771,9 @@ tails (0.17.2) unstable; urgency=low
   - Disable NoScript's HTML5 media click-to-play for better user experience.
 
   * Localization
-  - Tails USB installer: update translations for French, German, Spanish,
+  - TⒶILS USB installer: update translations for French, German, Spanish,
     Finnish, Greek, Italian, Latvian, Dutch, Polish and Chinese.
-  - Tails Greeter: update translations for Farsi, Chinese, French;
+  - TⒶILS Greeter: update translations for Farsi, Chinese, French;
     new translations: Finnish, Norwegian Bokmål, Galician.
   - tails-persistence-setup: update Farsi and Chinese translations;
     import new translations for Finnish and Swedish.
@@ -2784,7 +2784,7 @@ tails (0.17.2) unstable; urgency=low
   - Add automated testing framework (Sikuli, Cucumber, libvirt -based)
     with a bunch of tests.
 
- -- Tails developers <amnesia@boum.org>  Sun, 07 Apr 2013 12:17:26 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Sun, 07 Apr 2013 12:17:26 +0200
 
 tails (0.17.1) unstable; urgency=low
 
@@ -2803,12 +2803,12 @@ tails (0.17.1) unstable; urgency=low
 
   * Minor improvements
   - Remove Indymedia IRC account, until we ship a version of Pidgin
-    with SASL support, that is when Tails is based on Wheezy.
+    with SASL support, that is when TⒶILS is based on Wheezy.
 
   * Build system
   - Don't ship the wiki's todo and bugs on ISO images.
 
- -- Tails developers <amnesia@boum.org>  Thu, 21 Mar 2013 18:54:11 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Thu, 21 Mar 2013 18:54:11 +0100
 
 tails (0.17) unstable; urgency=low
 
@@ -2866,7 +2866,7 @@ tails (0.17) unstable; urgency=low
     lb_binary_yaboot does not add it, but since we gave up the PowerPC support
     attempt, we're now only interested in syslinux, so let's make it easier
     for the general case, e.g. when one wants to remove the "quiet" parameter
-    as suggested by our "Tails does not start" debugging documentation.
+    as suggested by our "TⒶILS does not start" debugging documentation.
   - Upgrade I2P to 0.9.4.
 
   * Bugfixes
@@ -2899,7 +2899,7 @@ tails (0.17) unstable; urgency=low
   * Build system
   - Remove APT local cache (/Var/cache/apt/{,src}pkgcache.bin).
 
- -- Tails developers <amnesia@boum.org>  Sat, 23 Feb 2013 10:37:57 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Sat, 23 Feb 2013 10:37:57 +0100
 
 tails (0.16) unstable; urgency=low
 
@@ -2924,11 +2924,11 @@ tails (0.16) unstable; urgency=low
   * Bugfixes
   - Disable IPv6 on all network interfaces.
     This is a workaround for the IPv6 link-local multicast leak that was recently
-    discovered. Tails has no local service that listens on IPv6, so there should be
+    discovered. TⒶILS has no local service that listens on IPv6, so there should be
     no regression, hopefully, unless one wants to play with OnionCat and VoIP,
     but those of us should know how to workaround this anyway.
   - live-persist: Fix variable mismatch, fixing probe white-list.
-    Tails may previously have been able to list GPT partitions labelled
+    TⒶILS may previously have been able to list GPT partitions labelled
     "TailsData" on hard drives (!) as valid persistence volumes...
   - live-persist: Fix --media option when no devices are attached.
     Earlier, if it was set to e.g. 'removable-usb' and no USB storage was
@@ -2967,7 +2967,7 @@ tails (0.16) unstable; urgency=low
     we need memlockd to be properly configured *and* running.
 
   * iceweasel
-  - Set iceweasel homepage to the news section on the Tails website.
+  - Set iceweasel homepage to the news section on the TⒶILS website.
     ... using the localized one when possible.
   - Hide the iceweasel add-on bar by default.
     Now that we don't want to ship the Monkeysphere addon anymore,
@@ -2980,15 +2980,15 @@ tails (0.16) unstable; urgency=low
     so the migration period should be over now.
   - Don't install xul-ext-monkeysphere anymore.
     The implication of the current keyserver policy are not well
-    understood, Monkeysphere is little used in Tails, and we're not sure
+    understood, Monkeysphere is little used in TⒶILS, and we're not sure
     anymore it would be our first bet for the web browser profile with no
     CA. Let's keep the various configuration bits (e.g. FoxyProxy,
     patching MSVA), though, so that advanced users who are used to have
-    Monkeysphere in Tails just have to install the package.
+    Monkeysphere in TⒶILS just have to install the package.
 
   * Build system
   - Install the "standard" task with tasksel for better consistency in the
-    Tails ISO images built in various environments.
+    TⒶILS ISO images built in various environments.
   - Install p7zip-full. It's a dep by file-roller, but we explicily use it
     elsewhere, and it's better to be safe than sorry.
   - Remove pinning of libvpx0 to sid.
@@ -3005,7 +3005,7 @@ tails (0.16) unstable; urgency=low
     debug situations.
   - Make it clearer what can and cannot be done in terms of local packages.
 
- -- Tails developers <amnesia@boum.org>  Thu, 10 Jan 2013 12:47:42 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Thu, 10 Jan 2013 12:47:42 +0100
 
 tails (0.15) unstable; urgency=low
 
@@ -3035,7 +3035,7 @@ tails (0.15) unstable; urgency=low
     activate this console" when the open a root shell in a GNOME
     Terminal.
   - Allow the tails-iuk-get-target-file user to connect to the SOCKSPort
-    dedicated for Tails-specific software.
+    dedicated for TⒶILS-specific software.
   - Fix gpgApplet menu display in Windows camouflage mode.
   - Fix Tor reaching an inactive state if it's restarted in "bridge mode",
     e.g. during the time sync' process.
@@ -3050,13 +3050,13 @@ tails (0.15) unstable; urgency=low
   - Re-enable Monkeysphere extension to connect to the validation agent.
 
   * Localization
-  - The Tails USB installer, tails-persistence-setup and tails-greeter
+  - The TⒶILS USB installer, tails-persistence-setup and tails-greeter
     are now translated into Bulgarian.
   - Update Chinese translation for tails-greeter.
   - Update Euskadi translation for WhisperBack.
 
   * Build system
-  - Custom packages are now retrieved from Tails APT repository instead
+  - Custom packages are now retrieved from TⒶILS APT repository instead
     of bloating the Git repository.
   - Allow '~' in wiki filenames. This makes it possible to ship
     update-description files for release candidates.
@@ -3065,7 +3065,7 @@ tails (0.15) unstable; urgency=low
   - Remove pinning for xul-ext-adblock-plus.
     It is obsolete since we've added this package to our APT repository.
 
- -- Tails developers <amnesia@boum.org>  Sun, 25 Nov 2012 12:59:17 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Sun, 25 Nov 2012 12:59:17 +0100
 
 tails (0.14) unstable; urgency=low
 
@@ -3093,9 +3093,9 @@ tails (0.14) unstable; urgency=low
   - On kexec reboot, make the boot quiet only if debug=wipemem was not
     enabled.
   - Update torproject.org's APT repo key.
-  - Update the embedded Tails signing key.
+  - Update the embedded TⒶILS signing key.
   - Use symlinks instead of duplicating localized searchplugins.
-  - Rewrite Tails firewall using ferm. Tails firewall was written in
+  - Rewrite TⒶILS firewall using ferm. Tails firewall was written in
     very unsophisticated iptables-save/restore format. As more feature
     creeped in, it started to be quite unreadable.
   - Optimize VirtualBox modules build at runtime to avoid installing the
@@ -3104,7 +3104,7 @@ tails (0.14) unstable; urgency=low
     trouble (with multiple SocksPorts) and the default works well.
   - Blacklist PC speaker module. On some computers, having the pcspkr
     module loaded means loud beeps at bootup, shutdown and when using
-    the console. As it draws useless attention to Tails users, it is
+    the console. As it draws useless attention to TⒶILS users, it is
     better to prevent Linux from loading it by default.
   - Remove all addons from the Unsafe Browser. No addons are essential
     for the Unsafe Browser's intent. If anything they will modify the
@@ -3130,11 +3130,11 @@ tails (0.14) unstable; urgency=low
   - Remove the last absolute path in our isolinux config, which makes
     it easier to migrate from isolinux to syslinux (just rename the
     directory), and hence might make it easier for 3rd party USB
-    installers (like the Universal USB Installer) to support Tails.
+    installers (like the Universal USB Installer) to support TⒶILS.
 
   * Bugfixes
   - Include `seq` in the ramdisk environment: it is used to wipe more
-    memory. This fixes the long-standing bug about Tails not cleaning
+    memory. This fixes the long-standing bug about TⒶILS not cleaning
     all memory on shutdown.
   - Fix Yelp crashing on internal links
   - Allow amnesia user to use Tor's TransPort. This firewall exception
@@ -3193,7 +3193,7 @@ tails (0.14) unstable; urgency=low
   - Update liveusb-creator to 3.11.6-3.
   - Update i2p to 0.9.2.
   - Update tails-persistence-setup to 0.20-1, which should make it
-    possible to install Tails on large (>= 32 GiB) USB drives.
+    possible to install TⒶILS on large (>= 32 GiB) USB drives.
   - Install console-setup and keyboard-configuration from unstable
     (required by new initramfs-tools).
   - Update tails-greeter to 0.7.3:
@@ -3207,7 +3207,7 @@ tails (0.14) unstable; urgency=low
     * Read list of language codes from where we have saved it at
       package build time.
     * Drop tails-lang-helper, not used anymore.
-    * Do not compile locales at login time anymore. Tails now ships
+    * Do not compile locales at login time anymore. TⒶILS now ships
       locales-all.
   - Import live-config{,-sysvinit} 3.0.8-1. live-config >= 3.0.9-1
     has basically nothing useful for us, and it migrates to new paths
@@ -3215,7 +3215,7 @@ tails (0.14) unstable; urgency=low
     todo/newer_live-boot).
 
   * Localization
-  - Fix Tails specific Iceweasel localization for pt-BR
+  - Fix TⒶILS specific Iceweasel localization for pt-BR
   - Add Japanese input system: scim-anthy.
   - whisperback is now also translated into German, Hebrew, Hungarian,
     Italian and Korean.
@@ -3242,11 +3242,11 @@ tails (0.14) unstable; urgency=low
     meant to use an external caching proxy, so live-build's cache just
     wastes RAM (for in-memory builds) or disk space.
   - vagrant: use aufs magic instead of copying source into tmpfs.
-    This reduces the amount of RAM required for building Tails in.
+    This reduces the amount of RAM required for building TⒶILS in.
   - vagrant: Allow in-memory builds when a VM with enough memory is
     already started.
 
- -- Tails developers <amnesia@boum.org>  Sat, 10 Nov 2012 12:34:56 +0000
+ -- TⒶILS developers <amnesia@boum.org>  Sat, 10 Nov 2012 12:34:56 +0000
 
 tails (0.13) unstable; urgency=low
 
@@ -3315,12 +3315,12 @@ tails (0.13) unstable; urgency=low
     from Debian unstable.
   - Do not build the ikiwiki forum on the bundled static website copy.
 
- -- Tails developers <amnesia@boum.org>  Mon, 17 Sep 2012 15:19:25 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Mon, 17 Sep 2012 15:19:25 +0200
 
 tails (0.12.1) unstable; urgency=low
 
   This is a brown paper bag release to fix two major problems introduced in
-  Tails 0.12.
+  TⒶILS 0.12.
 
   * Iceweasel
   - Upgrade Torbutton to 1.4.6.
@@ -3337,10 +3337,10 @@ tails (0.12.1) unstable; urgency=low
     broke administration password and locale settings on some systems.
 
   * Boot
-  - Remove the Tails specific plymouth theme. The theme interfers heavily with
+  - Remove the TⒶILS specific plymouth theme. The theme interfers heavily with
     the boot process on some hardware.
 
- -- Tails developers <amnesia@boum.org>  Mon, 17 Sep 2012 13:06:03 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Mon, 17 Sep 2012 13:06:03 +0200
 
 tails (0.12) unstable; urgency=low
 
@@ -3348,7 +3348,7 @@ tails (0.12) unstable; urgency=low
   - Add the Unsafe Web Browser, which has direct access to the Internet and
     can be used to login to captive portals.
   - The (previously experimental, now deemed stable) Windows camouflage can now
-    be enabled via a check box in Tails greeter.
+    be enabled via a check box in TⒶILS greeter.
 
   * Tor
   - Upgrade to 0.2.2.37-1~~squeeze+1.
@@ -3356,12 +3356,12 @@ tails (0.12) unstable; urgency=low
   * Iceweasel
   - Upgrade iceweasel to 10.0.5esr-1 (Extended Support Release) and install it
     and its dependencies from squeeze-backports.
-  - Add a bookmark for the offline Tails documentation.
+  - Add a bookmark for the offline TⒶILS documentation.
   - Update AdBlock patterns.
 
   * Persistence
   - Allow using larger USB drives by increasing the mkfs timeout to 10 minutes.
-  - Tell the user what's going on when the Tails boot device cannot be found.
+  - Tell the user what's going on when the TⒶILS boot device cannot be found.
 
   * Hardware support
   - Upgrade Linux to 3.2.20-1 (linux-image-3.2.0-2-amd64).
@@ -3380,7 +3380,7 @@ tails (0.12) unstable; urgency=low
   - Do not install cryptkeeper anymore. See todo/remove_cryptkeeper for reason.
     Users of cryptkeeper are encouraged to install cryptkeeper via `apt-get
     update; apt-get install --yes cryptkeeper`, open their volume and move
-    their to Tails' built-in persistence instead, as a one-time migration.
+    their to TⒶILS' built-in persistence instead, as a one-time migration.
   - Upgrade I2P to version 0.9.
   - Don't install GParted. GNOME Disk Utility has been on par with GParted
     since Squeeze was released.
@@ -3393,12 +3393,12 @@ tails (0.12) unstable; urgency=low
   - Fetch python-pdfrw from backports, drop custom package.
 
   * Internationalization
-  - The Tails website and documentation now has a (partial) Portuguese
+  - The TⒶILS website and documentation now has a (partial) Portuguese
     translation.
 
   * Build system
-  - Tails can now be built without using a HTTP proxy.
-  - Tails can now easily be built by using Vagrant. See the updated
+  - TⒶILS can now be built without using a HTTP proxy.
+  - TⒶILS can now easily be built by using Vagrant. See the updated
     contribute/build page for instructions.
 
   * Boot
@@ -3407,11 +3407,11 @@ tails (0.12) unstable; urgency=low
   - The squashfs.sort files generated with boot-profile should now be ok which
     makes the generate images boot noticeably faster on optical media. See
     bugs/weird_squashfs.sort_entries for more information.
-  - Set Tails specific syslinux and plymouth themes.
+  - Set TⒶILS specific syslinux and plymouth themes.
   - Add NVidia KMS video drivers to the initrd in order to show our shiny new
     plymouth theme on more systems.
 
- -- Tails developers <amnesia@boum.org>  Mon, 11 Jun 2012 13:37:00 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Mon, 11 Jun 2012 13:37:00 +0200
 
 tails (0.11) unstable; urgency=low
 
@@ -3461,7 +3461,7 @@ tails (0.11) unstable; urgency=low
   - Add fonts for Hebrew, Thai, Khmer, Lao and Korean languages.
   - Add bidi support.
   - Setup text console at profile time.
-    Context: Tails runs with text console autologin on.
+    Context: TⒶILS runs with text console autologin on.
     These consoles now wait, using a "Press enter to activate this console"
     message, for the user. When they press enter in there, they should have chosen
     their preferred keyboard layout in tails-greeter by now. Then, we run setupcon.
@@ -3482,7 +3482,7 @@ tails (0.11) unstable; urgency=low
   * Software
   - Install GNOME keyring.
     This is needed so that NetworkManager remembers the WEP/WPA secrets
-    for the time of a Tails session. Initialize GNOME keyring at user
+    for the time of a TⒶILS session. Initialize GNOME keyring at user
     creation time.
   - Install usbutils to have the lsusb command.
   - Install the Traverso multitrack audio recorder and editor.
@@ -3500,7 +3500,7 @@ tails (0.11) unstable; urgency=low
   - Append a space on the kernel command line. This eases manually adding
     more options.
   - Rename sudoers.d snippets to match naming scheme.
-    Sudo credentials that shall be unconditionally granted to the Tails
+    Sudo credentials that shall be unconditionally granted to the TⒶILS
     default user are named zzz_*, to make sure they are applied.
   - WhisperBack: also include /var/log/live-persist and
     /var/lib/gdm3/tails.persistence.
@@ -3510,7 +3510,7 @@ tails (0.11) unstable; urgency=low
   - Consistently wait for nm-applet when waiting for user session to come up.
     Waiting for gnome-panel or notification-daemon worked worse.
   - Don't start the NetworkManager system service via init.
-    Some Tails NM hooks need the user to be logged in to run properly.
+    Some TⒶILS NM hooks need the user to be logged in to run properly.
     That's why tails-greeter starts NetworkManager at PostLogin time.
   - Also lock /bin/echo into memory. For some reason, kexec-load needs it.
   - Pidgin: don't use the OFTC hidden service anymore.
@@ -3538,7 +3538,7 @@ tails (0.11) unstable; urgency=low
   - Support Spice and QXL: install the Spice agent from Debian sid,
     install xserver-xorg-video-qxl from squeeze-backports.
 
- -- Tails developers <amnesia@boum.org>  Tue, 17 Apr 2012 14:54:00 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Tue, 17 Apr 2012 14:54:00 +0200
 
 tails (0.10.2) unstable; urgency=low
 
@@ -3578,7 +3578,7 @@ tails (0.10.2) unstable; urgency=low
     shared folders as they are mounted with guid vboxsf and rwx group
     permissions.
 
- -- Tails developers <amnesia@boum.org>  Thu, 01 Mar 2012 20:26:21 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Thu, 01 Mar 2012 20:26:21 +0100
 
 tails (0.10.1) unstable; urgency=low
 
@@ -3595,7 +3595,7 @@ tails (0.10.1) unstable; urgency=low
 
   * Time synchronization
     Serious rework that should fix most, if not all, of the infamous
-    time-sync' related bugs some Tails users have experienced recently.
+    time-sync' related bugs some TⒶILS users have experienced recently.
     - Make htpdate more resilient by using three server pools, and
       allowing some failure ratio.
     - Set time from Tor's unverified-consensus if needed.
@@ -3615,7 +3615,7 @@ tails (0.10.1) unstable; urgency=low
     saved drafts.
   - tails-security-check-wrapper: avoid eating all memory when offline.
 
- -- Tails developers <amnesia@boum.org>  Sat, 28 Jan 2012 10:00:31 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Sat, 28 Jan 2012 10:00:31 +0100
 
 tails (0.10) unstable; urgency=low
 
@@ -3699,9 +3699,9 @@ tails (0.10) unstable; urgency=low
   - Enable Seahorse's GnuPG agent.
   - Blank screen when lid is closed, rather than shutting down the system.
     The shutdown "feature" has caused data losses for too many people, it seems.
-    There are many other ways a Tails system can be shut down in a hurry
+    There are many other ways a TⒶILS system can be shut down in a hurry
     these days.
-  - Import Tails signing key into the keyring.
+  - Import TⒶILS signing key into the keyring.
   - Fix bug in the Pidgin nick generation that resulted in the nick
     "XXX_NICK_XXX" once out of twenty.
   - Pre-configure the #tor IRC discussion channel in Pidgin.
@@ -3720,7 +3720,7 @@ tails (0.10) unstable; urgency=low
   * Build system
   - Name built images according to git tag.
 
- -- Tails developers <tails@boum.org>  Wed, 04 Jan 2012 09:56:38 +0100
+ -- TⒶILS developers <tails@boum.org>  Wed, 04 Jan 2012 09:56:38 +0100
 
 tails (0.9) unstable; urgency=low
 
@@ -3782,7 +3782,7 @@ tails (0.9) unstable; urgency=low
   - Re-implement hook that modifies syslinux config to make future
     development easier.
 
- -- Tails developers <amnesia@boum.org>  Tue, 01 Nov 2011 13:26:38 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Tue, 01 Nov 2011 13:26:38 +0100
 
 tails (0.8.1) unstable; urgency=low
 
@@ -3795,7 +3795,7 @@ tails (0.8.1) unstable; urgency=low
       encrypted in the same way.
     - Update HTTPS Everywhere extension to 1.0.3-1.
     - Stop using the small version of the Tor check page. The small version
-      incorrectly tells Tails users to upgrade their Torbrowser, which has
+      incorrectly tells TⒶILS users to upgrade their Torbrowser, which has
       confused some users.
 
   * Software
@@ -3816,7 +3816,7 @@ tails (0.8.1) unstable; urgency=low
     - Set more appropriate Linux VM config before wiping memory. These
       parameters should make the wipe process more robust and efficient.
 
- -- Tails developers <amnesia@boum.org>  Sun, 16 Oct 2011 11:31:18 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Sun, 16 Oct 2011 11:31:18 +0200
 
 tails (0.8) unstable; urgency=low
 
@@ -3902,18 +3902,18 @@ tails (0.8) unstable; urgency=low
     - Build and install documentation into the chroot (-> filesystem.squashfs).
       Rationale: our static website cannot be copied to a FAT32 filesystem due
       to filenames being too long. This means the documentation cannot be
-      browsed offline from outside Tails. However, our installer creates GPT
-      hidden partitions, so the doc would not be browseable from outside Tails
+      browsed offline from outside TⒶILS. However, our installer creates GPT
+      hidden partitions, so the doc would not be browseable from outside TⒶILS
       anyway. The only usecase we really break by doing so is browsing the
-      documentation while running a non-Tails system, from a Tails CD.
+      documentation while running a non-TⒶILS system, from a Tails CD.
 
- -- Tails developers <amnesia@boum.org>  Thu, 09 Sep 2011 11:31:18 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Thu, 09 Sep 2011 11:31:18 +0200
 
 tails (0.7.2) unstable; urgency=high
 
   * Iceweasel
   - Disable Torbutton's external application launch warning.
-    ... which advises using Tails. Tails *is* running Tails.
+    ... which advises using TⒶILS. Tails *is* running Tails.
   - FoxyProxy: install from Debian instead of the older one we previously
     shipped.
 
@@ -3922,7 +3922,7 @@ tails (0.7.2) unstable; urgency=high
   - unrar: install the version from Debian's non-free repository.
     Users report unrar-free does not work well enough.
 
- -- Tails developers <amnesia@boum.org>  Sun, 12 Jun 2011 15:34:56 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Sun, 12 Jun 2011 15:34:56 +0200
 
 tails (0.7.1) unstable; urgency=high
 
@@ -3941,7 +3941,7 @@ tails (0.7.1) unstable; urgency=high
   - Install unrar-free.
   - Do not install pppoeconf (superseeded by NetworkManager).
   - Upgrade macchanger to Debian testing package to ease development of
-    future Tails releases.
+    future TⒶILS releases.
   - Debian security upgrades: x11-xserver-utils (DSA-2213-1), isc-dhcp
     (DSA-2216-1), libmodplug (DSA-2226-1), openjdk-6 (DSA-2224-1).
 
@@ -3971,7 +3971,7 @@ tails (0.7.1) unstable; urgency=high
   - Remove "vga=788" boot parameter which breaks the boot on some hardware.
   - Remove now useless "splash" boot parameter.
   - Fix a bunch of i386-isms.
-  - Pass the noswap option to the kernel. This does not change actual Tails
+  - Pass the noswap option to the kernel. This does not change actual TⒶILS
     behaviour but prevents users from unnecessarily worrying because of 
     the "Activating swap" boot message.
   - Make use of check.torproject.org's Arabic version.
@@ -3981,7 +3981,7 @@ tails (0.7.1) unstable; urgency=high
   - Install eatmydata in the chroot.
   - Convert ikiwiki setup files to YAML.
 
- -- Tails developers <amnesia@boum.org>  Fri, 29 Apr 2011 17:14:53 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Fri, 29 Apr 2011 17:14:53 +0200
 
 tails (0.7) unstable; urgency=low
 
@@ -3992,7 +3992,7 @@ tails (0.7) unstable; urgency=low
   * Software
   - Deinstall unwanted packages newly pulled by recent live-build.
   
- -- Tails developers <amnesia@boum.org>  Wed, 06 Apr 2011 22:58:51 +0200
+ -- TⒶILS developers <amnesia@boum.org>  Wed, 06 Apr 2011 22:58:51 +0200
 
 tails (0.7~rc2) unstable; urgency=low
 
@@ -4012,7 +4012,7 @@ tails (0.7~rc2) unstable; urgency=low
   - Configure keyboard layout accordingly to the chosen language for
     Italian and Portuguese.
 
- -- Tails developers <amnesia@boum.org>  Fri, 25 Mar 2011 15:44:25 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Fri, 25 Mar 2011 15:44:25 +0100
 
 tails (0.7~rc1) UNRELEASED; urgency=low
 
@@ -4020,7 +4020,7 @@ tails (0.7~rc1) UNRELEASED; urgency=low
 
   * Rebase on Debian Squeeze.
 
-  * T(A)ILS has been renamed to Tails.
+  * T(A)ILS has been renamed to TⒶILS.
   
   * Protecting against memory recovery
     New, safer way to wipe memory on shutdown which is now also used when
@@ -4072,7 +4072,7 @@ tails (0.7~rc1) UNRELEASED; urgency=low
   - Disable GNOME automatic media mounting and opening to protect against
     a class of attacks that was recently put under the spotlights.
     Also, this feature was breaking the "no trace is left on local
-    storage devices unless explicitly asked" part of Tails specification.
+    storage devices unless explicitly asked" part of TⒶILS specification.
   - Make configuration more similar to the Tor Browser Bundle's one.
   - GnuPG: default to stronger digest algorithms.
   - Many more or less proper hacks to get the built image size under 700MB.
@@ -4082,7 +4082,7 @@ tails (0.7~rc1) UNRELEASED; urgency=low
   - Run lb build inside eatmydata fsync-less environment to greatly improve
     build time.
 
- -- Tails developers <amnesia@boum.org>  Fri, 11 Mar 2011 15:52:19 +0100
+ -- TⒶILS developers <amnesia@boum.org>  Fri, 11 Mar 2011 15:52:19 +0100
 
 tails (0.6.2) unstable; urgency=high
 

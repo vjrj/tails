@@ -25,7 +25,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.1.1 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.1.1 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -34,7 +34,7 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 1.1.1, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 1.1.1, is out."
 msgstr ""
 
 #. type: Plain text
@@ -83,7 +83,7 @@ msgid ""
 "  * Bugfixes\n"
 "    - Don't ship OpenJDK 6: I2P prefers v7, and we don't need both\n"
 "      ([[!tails_ticket 7807]]).\n"
-"    - Prevent Tails Installer from updating the system partition\n"
+"    - Prevent TⒶILS Installer from updating the system partition\n"
 "      properties on MBR partitions ([[!tails_ticket 7716]]).\n"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgid ""
 "      DVD ([[!tails_ticket 6372]]).\n"
 "    - Compress the SquashFS more aggressively ([[!tails_ticket 7706]]) "
 "which\n"
-"      should make the Tails ISO image smaller.\n"
+"      should make the TⒶILS ISO image smaller.\n"
 msgstr ""
 
 #. type: Plain text
@@ -129,7 +129,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -138,7 +138,7 @@ msgid "What's coming up?"
 msgstr ""
 
 #. type: Plain text
-msgid "The next Tails release is [[scheduled|contribute/calendar]] for October 14."
+msgid "The next TⒶILS release is [[scheduled|contribute/calendar]] for October 14."
 msgstr ""
 
 #. type: Plain text
@@ -148,5 +148,5 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Do you want to help? There are many ways [[**you** can contribute to "
-"Tails|contribute]]. If you want to help, come talk to us!"
+"TⒶILS|contribute]]. If you want to help, come talk to us!"
 msgstr ""

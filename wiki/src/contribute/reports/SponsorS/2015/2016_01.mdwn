@@ -1,8 +1,8 @@
-[[!meta title="Tails January 2016 report"]]
+[[!meta title="TⒶILS January 2016 report"]]
 
 [[!toc levels=2]]
 
-This report covers the activity of Tails in January 2016.
+This report covers the activity of TⒶILS in January 2016.
 
 Everything in this report can be made public.
 
@@ -15,7 +15,7 @@ forward faster than expected.
 - A.1.1 Secure the Icedove autoconfig wizard: [[!tails_ticket 6154]]
 
   The proof-of-concept branch that integrates the secured wizard into
-  Tails is delayed until the end of February and should be released in
+  TⒶILS is delayed until the end of February and should be released in
   2.4 instead.
 
   We've been evaluating our own patches for Icedove against those
@@ -29,28 +29,28 @@ forward faster than expected.
 
   Unfortunately we also discovered that the autoconfig wizard of Icedove does
   not always use the configured proxy. This means that some traffic can leak.
-  This is not a security problem in Tails since we drop non-Tor
+  This is not a security problem in TⒶILS since we drop non-Tor
   traffic by default, but for this very reason it breaks the
-  functionality of the autoconfig wizard in the context of Tails.
+  functionality of the autoconfig wizard in the context of TⒶILS.
   We started to write a proof-of-concept patch to fix this bug which
   will be submitted upstream in February.
 
   We've worked out a set of strong arguments before actually presenting
   our patches to upstream. We are now ready to do that ([[!tails_ticket 6156]]).
 
-  In order to improve Icedove's security in Tails and avoid unforeseen exploits,
+  In order to improve Icedove's security in TⒶILS and avoid unforeseen exploits,
   we started evaluating an AppArmor profile for Icedove ([[!tails_ticket 10750]]).
   We've asked the author to submit it upstream where it's now waiting to be merged.
-  In the meantime, we will consider shipping this profile in Tails on our own.
+  In the meantime, we will consider shipping this profile in TⒶILS on our own.
 
 - A.1.4. Provide a migration path for our users from Claws Mail to Icedove
 
-  This was completed in time for the first release of Icedove in Tails 1.8 (December 15).
+  This was completed in time for the first release of Icedove in TⒶILS 1.8 (December 15).
 
-- A.1.6. Release Icedove in Tails
+- A.1.6. Release Icedove in TⒶILS
 
-  Icedove was made the default email client in Tails 1.8 (December 15)
-  and Claws Mail was removed from Tails in version 2.0 (January 26).
+  Icedove was made the default email client in TⒶILS 1.8 (December 15)
+  and Claws Mail was removed from TⒶILS in version 2.0 (January 26).
 
 # B. Improve our quality assurance process
 
@@ -105,7 +105,7 @@ In January, all the **757 ISO images** that were built were also tested by our J
   - OpenPGP applet key selection window badly handled ([[!tails_ticket 10992]])
   - Viewing and printing a PDF file ([[!tails_ticket 10994]])
   - MAC address spoofing ([[!tails_ticket 10774]])
-  - Tails Installer ([[!tails_ticket 10720]])
+  - TⒶILS Installer ([[!tails_ticket 10720]])
 
   The test suite machinery sometimes misses the boot splash
   ([[!tails_ticket 10777]]): a branch was proposed.
@@ -116,7 +116,7 @@ In January, all the **757 ISO images** that were built were also tested by our J
 ## B.4. Freezable APT repository
 
 This was put aside in January, while the developer responsible for
-this project was focusing on porting Tails to Debian Jessie. Some
+this project was focusing on porting TⒶILS to Debian Jessie. Some
 progress was made nevertheless.
 
 - B.4.6. Adjust the rest of our ecosystem to the freezable APT repository: [[!tails_ticket 6303]]
@@ -202,7 +202,7 @@ their performance.
 
   This was completed back in November 2015.
 
-- D.3.1 Update our test suite for Tails Jessie
+- D.3.1 Update our test suite for TⒶILS Jessie
 
   This was completed ([[!tails_ticket 7563]]).
 
@@ -220,9 +220,9 @@ their performance.
 
   While reworking these pages we simplified and improved some of
   the oldest parts of our documentation. This process also involved new
-  contributors who wrote documentation for Tails for the first time.
+  contributors who wrote documentation for TⒶILS for the first time.
 
-- D.5.1 Release an official version of Tails based on Jessie
+- D.5.1 Release an official version of TⒶILS based on Jessie
 
   We put out a [[release candidate|news/test_2.0-rc1]], that allowed us to
   identify and resolve quite a few bugs, such as
@@ -231,13 +231,13 @@ their performance.
   of these bugs, in particular the persistence -related ones
   ([[!tails_ticket 10834]] and [[!tails_ticket 10840]]).
 
-  Tails 2.0 [[was released|news/version_2.0]] on January 26, as planned.
+  TⒶILS 2.0 [[was released|news/version_2.0]] on January 26, as planned.
 
 # E. Release management
 
-- [[Tails 2.0|news/version_2.0]] was released on 2016-01-26:
+- [[TⒶILS 2.0|news/version_2.0]] was released on 2016-01-26:
 
-  - Tails now uses the <span class="application">GNOME Shell</span> desktop
+  - TⒶILS now uses the <span class="application">GNOME Shell</span> desktop
     environment, in its <span class="application">Classic</span> mode.
     <span class="application">GNOME Shell</span> provides a modern, simple, and
     actively developed desktop environment. The <span class="application">Classic</span>
@@ -262,7 +262,7 @@ their performance.
     - Make the launching of Tor and the memory wipe on shutdown more robust.
     - Sanitize our code base by replacing many custom scripts.
   - Update most firmware packages which might improve hardware compatibility.
-  - Notify the user if Tails is running from a non-free virtualization software.
+  - Notify the user if TⒶILS is running from a non-free virtualization software.
   - Remove <span class="application">Claws Mail</span>, replaced by
     <span class="application">[[Icedove|doc/anonymous_internet/icedove]]</span>.
   - HiDPI displays are better supported. ([[!tails_ticket 8659]])

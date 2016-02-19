@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 #
-# Tails configuration file for WhisperBack
+# TⒶILS configuration file for WhisperBack
 # ==========================================
 #
 # This is a Python script that will be read at startup. Any Python
@@ -72,7 +72,7 @@ Giving us an email address allows us to contact you to clarify the problem. This
 is needed for the vast majority of the reports we receive as most reports
 without any contact information are useless. On the other hand it also provides
 an opportunity for eavesdroppers, like your email or Internet provider, to
-confirm that you are using Tails.
+confirm that you are using TⒶILS.
 </p>
 """) % __get_localised_doc_link()
 
@@ -138,7 +138,7 @@ mail_subject = "Bug report: %x" % random.randrange(16**32)
 # It should not take any parameter, and should return a string to be
 # preprended to the email
 def mail_prepended_info():
-    """Returns the version of the running Tails system
+    """Returns the version of the running TⒶILS system
     
     @return The output of tails-version, if any, or an English string
             explaining the error
@@ -154,7 +154,7 @@ def mail_prepended_info():
     except subprocess.CalledProcessError:
       tails_version = "tails-version returned an error"
     
-    return "Tails-Version: %s\n" % tails_version
+    return "TⒶILS-Version: %s\n" % tails_version
 
 # A callback function to get information to append to the email
 # (this information will be encrypted). This is useful to add
@@ -163,7 +163,7 @@ def mail_prepended_info():
 # It should not take any parameter, and should return a string to be
 # appended to the email
 def mail_appended_info():
-    """Returns debugging information on the running Tails system
+    """Returns debugging information on the running TⒶILS system
     
     @return a long string containing debugging information
     """

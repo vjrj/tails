@@ -1,5 +1,5 @@
 [[!meta date="Fri, 12 Feb 2016 19:05:28 +0000"]]
-[[!meta title="Tails 2.0.1 is out"]]
+[[!meta title="TⒶILS 2.0.1 is out"]]
 [[!tag announce]]
 
 This release fixes [[numerous security
@@ -20,16 +20,16 @@ See the current list of [[known issues|support/known_issues]].
 
 Go to the [[install]] or [[upgrade|doc/first_steps/upgrade/]] page.
 
-If your Tails does not
-boot after an automatic upgrade, please [[upgrade your Tails
+If your TⒶILS does not
+boot after an automatic upgrade, please [[upgrade your TⒶILS
 manually|doc/first_steps/upgrade#manual]].
 
 # What's coming up?
 
-The next Tails release is [[scheduled|contribute/calendar]] for March 08.
+The next TⒶILS release is [[scheduled|contribute/calendar]] for March 08.
 
 Have a look at our [[!tails_roadmap]] to see where we are heading to.
 
 We need your help and there are many ways to [[contribute to
-Tails|contribute]] ([[donating|contribute/how/donate]] is only one of
+TⒶILS|contribute]] ([[donating|contribute/how/donate]] is only one of
 them). Come [[talk to us|contribute/talk]]!

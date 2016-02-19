@@ -2,7 +2,7 @@
 
 The website [[https://tails.boum.org/]] is built using
 [Ikiwiki](https://ikiwiki.info) from source code that is available in
-our main Git repository, along with the rest of the Tails code.
+our main Git repository, along with the rest of the TⒶILS code.
 
 You can build a local copy of the website on your computer. Building the
 website produces a set a HTML pages stored on your system that you can
@@ -47,7 +47,7 @@ Build the website in Linux
 
 <a id="tails"></a>
 
-Build the website in Tails
+Build the website in TⒶILS
 ==========================
 
 1. [[Create and configure|doc/first_steps/persistence/configure]] a persistent volume and activate the following features:
@@ -56,7 +56,7 @@ Build the website in Tails
    - APT Packages
    - APT Lists
 
-2. Restart Tails, [[enable the persistence|doc/first_steps/persistence/use]], and [[set up an administration password|doc/first_steps/startup_options/administration_password]].
+2. Restart TⒶILS, [[enable the persistence|doc/first_steps/persistence/use]], and [[set up an administration password|doc/first_steps/startup_options/administration_password]].
 
 3. Update the list of available packages:
 

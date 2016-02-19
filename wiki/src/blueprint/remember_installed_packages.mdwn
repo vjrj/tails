@@ -75,7 +75,7 @@ This script should query APT database and record all packages that are
 not in `autoinstall` state.
 
 On boot time, that list should be filtered with packages that are already
-shipped with Tails.
+shipped with TⒶILS.
 
 > Here's an example script which filters shipped packages on runtime instead:
 > 
@@ -90,7 +90,7 @@ shipped with Tails.
 >
 > When we move to wheezy it may simply become 'apt-mark showmanual', if it proves to be equivalent.
 >
-> default-packages.txt is the list of packages shipped with Tails, generated at ISO creation time with list-manually-installed-packages
+> default-packages.txt is the list of packages shipped with TⒶILS, generated at ISO creation time with list-manually-installed-packages
 >
 > session-packages.txt is a temporary file, can be placed in /tmp
 

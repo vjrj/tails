@@ -19,15 +19,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   Tails does not start entirely\n"
+"   TⒶILS does not start entirely\n"
 "   -----------------------------\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   The following section applies if the <span class=\"guilabel\">Boot Tails</span> menu appears but not\n"
-"   <span class=\"application\">Tails Greeter</span> when starting Tails.\n"
+"   The following section applies if the <span class=\"guilabel\">Boot TⒶILS</span> menu appears but not\n"
+"   <span class=\"application\">TⒶILS Greeter</span> when starting TⒶILS.\n"
 msgstr ""
 
 #. type: Bullet: '   1. '
@@ -37,7 +37,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   1. In the <span class=\"guilabel\">Boot Tails</span> menu, choose the <span class=\"guilabel\">failsafe</span>\n"
+"   1. In the <span class=\"guilabel\">Boot TⒶILS</span> menu, choose the <span class=\"guilabel\">failsafe</span>\n"
 "   mode which might work better on some computers.\n"
 msgstr ""
 
@@ -51,7 +51,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   1. In the <span class=\"guilabel\">Boot Tails</span> menu, press\n"
+"   1. In the <span class=\"guilabel\">Boot TⒶILS</span> menu, press\n"
 "   <span class=\"keycap\">TAB</span>. A command line with a list\n"
 "   of boot options appears at the bottom of the screen.\n"
 msgstr ""
@@ -72,12 +72,12 @@ msgid "Type `debug nosplash` to add these options to the command line."
 msgstr ""
 
 #. type: Bullet: '   1. '
-msgid "To start Tails, press <span class=\"keycap\">Enter</span>."
+msgid "To start TⒶILS, press <span class=\"keycap\">Enter</span>."
 msgstr ""
 
 #. type: Bullet: '   1. '
 msgid ""
-"Hopefully, error messages now appear when starting Tails. You can [[send "
+"Hopefully, error messages now appear when starting TⒶILS. You can [[send "
 "them to our support team by email|support/talk]], for example by taking a "
 "picture of the last screen and error messages."
 msgstr ""
@@ -93,11 +93,11 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"      If removing <span class=\"code\">live-media=removable</span> allows you to start Tails, please\n"
+"      If removing <span class=\"code\">live-media=removable</span> allows you to start TⒶILS, please\n"
 "      report the problem to our [[support team|support/talk]].\n"
 "      This contributes to improving the [[list\n"
 "      of problematic USB sticks|support/known_issues#problematic-usb-sticks]].\n"
-"      Then try installing Tails on another USB stick.\n"
+"      Then try installing TⒶILS on another USB stick.\n"
 msgstr ""
 
 #. type: Plain text
@@ -106,7 +106,7 @@ msgid ""
 "   <div class=\"caution\">\n"
 "   <p>Removing the <span class=\"code\">live-media=removable</span> option\n"
 "   might be dangerous. If an adversary had access to the computer and\n"
-"   installed a malicious Tails on an internal hard disk, the computer\n"
-"   might start on the malicious Tails instead of on the USB stick.</p>\n"
+"   installed a malicious TⒶILS on an internal hard disk, the computer\n"
+"   might start on the malicious TⒶILS instead of on the USB stick.</p>\n"
 "   </div>\n"
 msgstr ""

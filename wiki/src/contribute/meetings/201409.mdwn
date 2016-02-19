@@ -15,21 +15,21 @@ Next one is on Friday, September 12, on #tails-dev (indymedia.org) at 19:00 UTC 
 
 At least three people said they would attend.
 
-# [[Tails Code of Conduct|https://mailman.boum.org/pipermail/tails-project/2014-August/000013.html]]
+# [[TⒶILS Code of Conduct|https://mailman.boum.org/pipermail/tails-project/2014-August/000013.html]]
 
 Everybody likes the way is shaping, although we need to cover more situations.
 Someone will write a blueprint, and send an email with the updated version.
 
 We agreed on the following:
 
-  - "This code of conduct applies to all spaces used by the Tails project.  This
+  - "This code of conduct applies to all spaces used by the TⒶILS project.  This
     includes IRC, the mailing lists, the issue tracker, the website, events, and
     any other forums which the community uses for communication."
   - Use "tails@boum.org" as contact point.
   - Integrate "don't publish private communication" and "if in doubt, ask us
     first" in the part about recording.
 
-# [[!tails_ticket 7870 desc="Include OnionShare in Tails?"]]
+# [[!tails_ticket 7870 desc="Include OnionShare in TⒶILS?"]]
 
 We will wait until it is included in Debian.
 Meanwhile someone will [[!tails_ticket 7873 desc="have a look at the code"]].
@@ -43,7 +43,7 @@ We will close the ticket and open another one in case some darknet packaged for 
 
 # [[!tails_ticket 7753 desc="Decide what to do regarding OFTC"]]
 
-We see Indymedia and OFTC as unstable services. We need something more stable to have preconfigured in Tails.
+We see Indymedia and OFTC as unstable services. We need something more stable to have preconfigured in TⒶILS.
 We lack of time and resources to run our own IRC server.
 
 Maybe XMPP is a better solution but we raised the problem of having randomly

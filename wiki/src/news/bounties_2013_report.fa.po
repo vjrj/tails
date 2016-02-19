@@ -21,14 +21,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Report on the 2013 Tails bounty program\"]]\n"
+msgid "[[!meta title=\"Report on the 2013 TⒶILS bounty program\"]]\n"
 msgstr "[[!meta title=\"گزارش برنامه جوایز ۲۰۱۳ تیلز\"]]\n"
 
 #. type: Plain text
 msgid ""
 "Thanks to the [Knight Foundation](http://www.knightfoundation.org/)  and to "
 "the [Tor project](https://www.torproject.org/), we have organized a bounty "
-"program to improve software upon which Tails is relying."
+"program to improve software upon which TⒶILS is relying."
 msgstr ""
 "با کمک‌های [بنیاد شوالیه](http://www.knightfoundation.org/) و [پروژهٔ "
 "تور](https://www.torproject.org/) یک برنامهٔ برای بهبود نرم‌افزارهایی که "
@@ -165,7 +165,7 @@ msgstr "وارد کردن درخواست‌های ikiwiki به Redmine\n"
 
 #. type: Plain text
 msgid ""
-"A custom ikiwiki plugin was written to help importing from the old Tails "
+"A custom ikiwiki plugin was written to help importing from the old TⒶILS "
 "task tracker to Redmine. This included exporting ticket name, tags, and "
 "parent/child relationships in a format suitable for importing into Redmine, "
 "and creating rewrite rules to redirect ikiwiki URLs to Redmine."
@@ -244,7 +244,7 @@ msgstr "بهبود ویدالیا\n"
 #. type: Plain text
 #, fuzzy
 msgid ""
-"The goals were to make Vidalia better adapted to Tails needs, and to turn "
+"The goals were to make Vidalia better adapted to TⒶILS needs, and to turn "
 "some of our patches into options available in the upstream code.  More "
 "specifically:"
 msgstr ""

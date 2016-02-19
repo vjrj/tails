@@ -19,14 +19,14 @@ In this blueprint, we propose to go even further and imagine what we
 could do next. We initially considered two scenarios:
 
   - Pushing more verification logic into the browser extension.
-  - Pushing some verification logic into Tails Installer. This goes
+  - Pushing some verification logic into TⒶILS Installer. This goes
     along with having a multiplatform installer, which would be a huge
     UX improvement of its own.
-  - Automating inside Tails the download and verification of ISO images
+  - Automating inside TⒶILS the download and verification of ISO images
     for full upgrades.
 
 We're currently considering more seriously the option of pushing more
-verification logic into Tails Installer. It could then:
+verification logic into TⒶILS Installer. It could then:
 
   - Automate OpenPGP verification. That would be easy to achieve on
     Linux and would need more research for other platforms. Note that
@@ -34,8 +34,8 @@ verification logic into Tails Installer. It could then:
     relevant.
   - Do download correlation of our signing key, and check it against the
     Debian keyring on Debian and derivatives.
-  - Allow people to burn DVDs from Tails Installer as well. If Tails
-    Installer becomes the recommended tool for verifying Tails, people
+  - Allow people to burn DVDs from TⒶILS Installer as well. If Tails
+    Installer becomes the recommended tool for verifying TⒶILS, people
     should be able to burn DVDs from it.
   - Allow expert users to build more trust in our signing key through
     the OpenPGP WoT.
@@ -52,10 +52,10 @@ The cons:
   - The verification using OpenPGP might be harder to port to Windows
     and OS X. But we are ready to provide lower standards of
     verification for them.
-  - How would people verify Tails Installer on Windows and OS X? Maybe
+  - How would people verify TⒶILS Installer on Windows and OS X? Maybe
     the browser extension could do that by then.
   - The browser extension will lose some of its relevance. It will
-    still be useful until we get there, and maybe to verify Tails
+    still be useful until we get there, and maybe to verify TⒶILS
     Installer.
 
 <a id="seahorse"></a>
@@ -79,7 +79,7 @@ people with no or little understanding of OpenPGP. The advantages are:
   - seahorse-nautilus runs from outside of the browser.
   - seahorse-nautilus can be authenticated through APT even in Debian
     Wheezy (via backports).
-  - If you get the right OpenPGP key, you rely on Tails developers and not on the
+  - If you get the right OpenPGP key, you rely on TⒶILS developers and not on the
     the webserver used for downloading the ISO.
 
 But documenting Seahorse Nautilus has we have been doing until now is only

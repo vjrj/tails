@@ -23,7 +23,7 @@ msgstr "[[!meta title=\"Erreur lors de la vérification des mises à jour\"]]\n"
 
 #. type: Plain text
 msgid ""
-"Tails could not determine whether an upgrade is available from our website."
+"TⒶILS could not determine whether an upgrade is available from our website."
 msgstr ""
 "Impossible de déterminer si une mise à jour est disponible depuis le site "
 "web."
@@ -34,9 +34,9 @@ msgstr "Ceci est probablement dû à un problème de connexion réseau."
 
 #. type: Plain text
 msgid ""
-"Check your network connection, and restart Tails to check for upgrades again."
+"Check your network connection, and restart TⒶILS to check for upgrades again."
 msgstr ""
-"Vérifiez votre connexion réseau et redémarrez Tails pour tenter une nouvelle "
+"Vérifiez votre connexion réseau et redémarrez TⒶILS pour tenter une nouvelle "
 "mise à jour."
 
 #. type: Plain text
@@ -53,8 +53,8 @@ msgid "This error could also be caused by:"
 msgstr "Cette erreur peut également être causée par :"
 
 #. type: Bullet: '  - '
-msgid "an error in Tails Upgrader"
-msgstr "une erreur de Tails Upgrader"
+msgid "an error in TⒶILS Upgrader"
+msgstr "une erreur de TⒶILS Upgrader"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -70,12 +70,12 @@ msgstr ""
 "Nous envoyer un rapport est le meilleur moyen d'analyser plus avant l'erreur."
 
 #~ msgid ""
-#~ "<p>In Tails 0.22.1, <span class=\"application\">Tails Upgrader</span> sometimes\n"
+#~ "<p>In TⒶILS 0.22.1, <span class=\"application\">TⒶILS Upgrader</span> sometimes\n"
 #~ "fails to check for upgrades even if the computer is correctly connected to\n"
 #~ "Internet because it starts before Tor is ready. In this case, try to do the\n"
 #~ "upgrade from another network or another computer.</p>\n"
 #~ msgstr ""
-#~ "<p>Dans Tails 0.22.1, le <span class=\"application\">Tails Upgrader</span>\n"
+#~ "<p>Dans TⒶILS 0.22.1, le <span class=\"application\">TⒶILS Upgrader</span>\n"
 #~ "échoue parfois à vérifier les mises à jour même si l'ordinateur est correctement\n"
 #~ "connecté à Internet car il se lance avant que Tor ne soit prêt. Dans ce cas,\n"
 #~ "essayez de faire la mise à jour depuis un autre réseau ou un autre ordinateur.</p>\n"

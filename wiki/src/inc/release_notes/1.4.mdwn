@@ -6,11 +6,11 @@
     default to provide the same level of security as previous versions
     and the most usable experience.
 
-    [[We disabled in Tails the new circuit view of *Tor Browser* 4.5|doc/anonymous_internet/Tor_Browser#circuitview]] for
+    [[We disabled in TⒶILS the new circuit view of *Tor Browser* 4.5|doc/anonymous_internet/Tor_Browser#circuitview]] for
     security reasons. You can still use the network map of *Vidalia* to
     inspect your circuits.
 
-  - *Tails OpenPGP Applet* now has a **shortcut to the *gedit* text
+  - *TⒶILS OpenPGP Applet* now has a **shortcut to the *gedit* text
     editor**, thanks to Ivan Bliminse.
 
   - ***[[Paperkey|doc/advanced_topics/paperkey]]*** lets you print a
@@ -69,7 +69,7 @@ are listed in the [Changelog](https://git-tails.immerda.ch/tails/plain/debian/ch
   - Better support for Chromebook C720-2800 through the upgrade of
     `syslinux`.
 
-  - Fix the localization of *Tails Upgrader*.
+  - Fix the localization of *TⒶILS Upgrader*.
 
   - Fix the OpenPGP key servers configured in *Seahorse*.
 

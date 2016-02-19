@@ -2,17 +2,17 @@
 [[!meta title="Report: January to April 2012"]]
 [[!tag announce]]
 
-We are pleased to present you this Tails report. This report sums up
-the work that was done on Tails from January to April 2012.
+We are pleased to present you this TⒶILS report. This report sums up
+the work that was done on TⒶILS from January to April 2012.
 
 [[!toc levels=2]]
 
 New releases
 ============
 
-Two new major versions of Tails were released.
+Two new major versions of TⒶILS were released.
 
-The main changes featured by [[Tails 0.10|news/version_0.10]],
+The main changes featured by [[TⒶILS 0.10|news/version_0.10]],
 released on January 4th, are: remove potential information leakage by
 forcing explicit proxying through Tor; new GnuPG encryption applet to
 replace flawed FireGPG; new Iceweasel 9 version with HTML5 support;
@@ -20,9 +20,9 @@ Iceweasel privacy improvements; new Tor version; better hardware
 support through new Linux kernel and X.Org versions,
 better internationalization.
 
-In [[Tails 0.11|news/version_0.11]], released on April 26th, brought
-in: a new Tails Greeter login screen with easy access to new options;
-new Tails USB installer; optional configurable encrypted persistence;
+In [[TⒶILS 0.11|news/version_0.11]], released on April 26th, brought
+in: a new TⒶILS Greeter login screen with easy access to new options;
+new TⒶILS USB installer; optional configurable encrypted persistence;
 Traverso and GNOME keyring; better internationalization including BiDi
 support; better hardware support thanks to a new Linux kernel; new
 versions of Iceweasel and Vidalia.
@@ -30,7 +30,7 @@ versions of Iceweasel and Vidalia.
 Documentation
 =============
 
-We thoroughly documented the new features brought by Tails 0.11.
+We thoroughly documented the new features brought by TⒶILS 0.11.
 We also upgraded of some outdated bits inherited from
 Incognito's documentation.
 
@@ -47,11 +47,11 @@ GSoC
 ====
 
 After seeing Max write a non-neglictible part of [[todo/TailsGreeter]]
-last year, Tails is participating in the Google Summer of Code once
+last year, TⒶILS is participating in the Google Summer of Code once
 again: Julien Voisin, who implemented the [Metadata Anonymizing
-Toolkit](https://mat.boum.org/) last year, will work on the [[Tails
+Toolkit](https://mat.boum.org/) last year, will work on the [[TⒶILS
 server project|todo/server_edition]]. We warmly welcome him into the
-Tails and Tor development communities, and we would like to thank
+TⒶILS and Tor development communities, and we would like to thank
 everyone who made this happen!
 
 Miscellaneous
@@ -59,7 +59,7 @@ Miscellaneous
 
 One of us has become a Debian Developer and, among other things, has
 been taking care some Perl modules are properly packaged so that we
-can migrate a few of our custom applications to GTK3 once Tails builds
+can migrate a few of our custom applications to GTK3 once TⒶILS builds
 upon Wheezy.
 
 In January, we have replied to Jacob Appelbaum about the many
@@ -72,8 +72,8 @@ And now?
 Future releases
 ---------------
 
-Tails 0.12 is likely to be ready for early summer. We are working on
-using the potential of Tails Greeter to let the user easily enable
+TⒶILS 0.12 is likely to be ready for early summer. We are working on
+using the potential of TⒶILS Greeter to let the user easily enable
 more options, such as Windows camouflage. Fully disabling JavaScript,
 Bridge mode and MAC address randomization are other candidates that
 might require some more time to get fully ready. Free WiFi hotspots
@@ -81,7 +81,7 @@ support and local firewall hardening are not far from being
 releasable either.
 
 As a glimpse at our [[!tails_roadmap]] shows, we are
-getting close to the Tails 1.0 release, which might be out before the
+getting close to the TⒶILS 1.0 release, which might be out before the
 end of the year.
 
 Re-scaling our infrastructure
@@ -96,10 +96,10 @@ were thought through already, some of the future plans are crystal
 clear, what is now needed is to spend serious time on it, implement
 designed bits and design others for the next few years:
 
-* [[Manage an APT repository for Tails|todo/APT_repository]]: this
+* [[Manage an APT repository for TⒶILS|todo/APT_repository]]: this
   blocks the Git split, the move to Icedove, and possibly
   [[todo/distribute_source]].
-* [[Split the main Tails Git repository|todo/split_Git]]: our current
+* [[Split the main TⒶILS Git repository|todo/split_Git]]: our current
   Git repository is too big, and mixes stuff that hardly belongs
   together. Post-0.11 will be a great time to rewrite history, as we
   won't have that many unmerged development branches.
@@ -116,38 +116,38 @@ designed bits and design others for the next few years:
   very well documented, some are not at all. It should become easier
   to share infrastructure maintenance work.
 * miscellaneous other stuff:
-  - [[Locking down the Tails website|todo/locking_down_this_website]]
+  - [[Locking down the TⒶILS website|todo/locking_down_this_website]]
   - [[Better web interface for website translation|todo/better_web_interface_to_translate_this_website]]
 
 Connecting back to our immediate surroundings
 ---------------------------------------------
 
-Many, among the software projects that are Tails upstream, are
+Many, among the software projects that are TⒶILS upstream, are
 currently preparing new stable releases. Time is getting tight to make
-sure their upcoming releases fits Tails needs.
+sure their upcoming releases fits TⒶILS needs.
 
-* [[Get ready for live-build 3.x|todo/live-build_3.x]]: Tails relies
-  on Debian Live. Heavily. Tails 0.11 will ship live-boot and
+* [[Get ready for live-build 3.x|todo/live-build_3.x]]: TⒶILS relies
+  on Debian Live. Heavily. TⒶILS 0.11 will ship live-boot and
   live-config 3.x, but we're still using live-build 2.x. We need to
   convert our configuration tree to the (deeply incompatible)
   live-build 3.x format. There is no turning back. All unmerged
   branches shall be converted, if possible at the same time. Just like
   the Git split, I think post-0.11 is a great time to do so... and,
   along the way, fix any bug in live-build 3.x we find.
-* Debian Wheezy: Tails relies on Debian. Heavily. Debian Wheezy is
+* Debian Wheezy: TⒶILS relies on Debian. Heavily. Debian Wheezy is
   supposed to be frozen in June. We need to check what, in the current
-  state of Debian Wheezy, is not fit for Tails, and fix it or have it
+  state of Debian Wheezy, is not fit for TⒶILS, and fix it or have it
   fixed. Next step: to build Wheezy test images.
 * [[AppArmor|todo/Mandatory_Access_Control]]: some of us have started
   to work on getting Debian Wheezy some AppArmor support. If the
   Wheezy freeze is not postponed, June is the deadline to get such
   things into Debian.
 * Tor 0.2.3.x: we need to make sure the next major Tor stable release
-  will be great for Tails, with a focus on the separate streams
+  will be great for TⒶILS, with a focus on the separate streams
   features. Next steps: everyone of us, let's run Tor 0.2.3.x and use
-  the separate streams feature. Put it into Tails experimental.
+  the separate streams feature. Put it into TⒶILS experimental.
 * Vidalia 0.4 is supposed to be released as stable in the next few
-  months. We need to make sure it will be great for Tails, with
+  months. We need to make sure it will be great for TⒶILS, with
   a focus on the areas it's lacking for us (bridges support) and where
   we patch it (see our patches). It would be great if we could ship
   Vidalia 0.4 without any custom patch, wouldn't it? Next steps:
@@ -162,7 +162,7 @@ Upcoming features
 We will implement [[partial upgrades|todo/incremental_upgrades]] in
 May. Upgrade packs will provide only what has changed between two
 releases (deltas) and a way to apply those changes to the currently
-running Tails (taking effect after reboot).
+running TⒶILS (taking effect after reboot).
 
 We have acknowledged a while ago Claws Mail usability shortcomings,
 especially when using slow connections; we [[settled on
@@ -170,9 +170,9 @@ Icedove|todo/Return_of_Icedove?]] (also known as Thunderbird outside
 Debian) to replace it a while ago; we implemented a few necessary
 improvements (`git://labs.riseup.net/tails_icedove.git`); some more
 tweaks are needed though, and this is blocked by the lack of a proper
-Tails [[APT repository|todo/APT_repository]].
+TⒶILS [[APT repository|todo/APT_repository]].
 
-Tails will soon ship an [["unsafe", non-torified
+TⒶILS will soon ship an [["unsafe", non-torified
 browser|todo/add_support_for_free_wifi_hotspots]], that will be useful
 to connect to networks that require registration, such as
 Wi-Fi hotspots.

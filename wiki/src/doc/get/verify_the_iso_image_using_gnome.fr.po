@@ -42,9 +42,9 @@ msgstr "Vous devez avoir installé le paquet <code>seahorse-nautilus</code>."
 
 #. type: Content of: <p>
 #, fuzzy
-#| msgid "<code>seahorse-nautilus</code> is already installed in Tails."
-msgid "These packages are already installed in Tails."
-msgstr "Le paquet <code>seahorse-nautilus</code> est déjà installé dans Tails."
+#| msgid "<code>seahorse-nautilus</code> is already installed in TⒶILS."
+msgid "These packages are already installed in TⒶILS."
+msgstr "Le paquet <code>seahorse-nautilus</code> est déjà installé dans TⒶILS."
 
 #. type: Content of: <div><p>
 msgid "The needed packages are available starting from:"
@@ -129,15 +129,15 @@ msgstr ""
 "ligne de commande|verify_the_iso_image_using_the_command_line]."
 
 #. type: Content of: <h3>
-msgid "Get the Tails signing key"
-msgstr "Téléchargez la clé de signature de Tails"
+msgid "Get the TⒶILS signing key"
+msgstr "Téléchargez la clé de signature de TⒶILS"
 
 #. type: Content of: <p>
 msgid ""
-"If you are using Tails, you already have the signing key. Otherwise, first "
-"download Tails signing key:"
+"If you are using TⒶILS, you already have the signing key. Otherwise, first "
+"download TⒶILS signing key:"
 msgstr ""
-"Si vous utilisez Tails, la clé de signature de Tails est déjà présente dans "
+"Si vous utilisez TⒶILS, la clé de signature de TⒶILS est déjà présente dans "
 "votre trousseau. Sinon, commencez par télécharger cette clé :"
 
 #. type: Content of: outside any tag (error?)
@@ -148,15 +148,15 @@ msgstr "[[!inline pages=\"lib/download_tails_signing_key\" raw=\"yes\"]]"
 #, fuzzy
 #| msgid ""
 #| "Your browser should propose you to open it with \"Import Key\". Choose "
-#| "this action. It will add Tails signing key to your keyring, the "
+#| "this action. It will add TⒶILS signing key to your keyring, the "
 #| "collection of OpenPGP keys you already imported:"
 msgid ""
 "Your browser should propose you to open it with \"Import Key\". Choose this "
-"action. It will add the Tails signing key to your keyring, the collection of "
+"action. It will add the TⒶILS signing key to your keyring, the collection of "
 "OpenPGP keys you already imported:"
 msgstr ""
 "Votre navigateur peut vous proposer de l'ouvrir avec \"Import Key\" ou "
-"\"Importer la clef\". Choisissez cette action. Cela va ajouter la clef Tails "
+"\"Importer la clef\". Choisissez cette action. Cela va ajouter la clef TⒶILS "
 "à votre trousseau, qui rassemble les clef OpenPGP que vous avez déjà "
 "importées:"
 
@@ -173,14 +173,14 @@ msgstr "Vous serez notifié avec le message suivant :"
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
-#| "[[!img key_imported.png alt=\"Key Imported. Imported a key for Tails "
+#| "[[!img key_imported.png alt=\"Key Imported. Imported a key for TⒶILS "
 #| "developers (signing key) &lt;tails@boum.org&gt;\" link=\"no\"]]"
 msgid ""
-"[[!img key_imported.png alt=\"Key Imported. Imported a key for Tails "
+"[[!img key_imported.png alt=\"Key Imported. Imported a key for TⒶILS "
 "developers (offline long-term identity key) &lt;tails@boum.org&gt;\" link="
 "\"no\"]]"
 msgstr ""
-"[[!img key_imported.png alt=\"Key Imported. Imported a key for Tails "
+"[[!img key_imported.png alt=\"Key Imported. Imported a key for TⒶILS "
 "developers (signing key) &lt;tails@boum.org&gt;\" link=\"no\"]]"
 
 #. type: Content of: <h3>
@@ -215,7 +215,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"Browse your files to select the Tails ISO image you want to verify.  Then, "
+"Browse your files to select the TⒶILS ISO image you want to verify.  Then, "
 "the verification will start. It can take several minutes:"
 msgstr ""
 "Parcourez vos fichiers pour sélectionner l'image ISO que vous souhaitez "
@@ -253,8 +253,8 @@ msgstr ""
 "[[!img bad_signature.png alt=\"Bad Signature: Bad or forged signature.\" "
 "link=\"no\"]]"
 
-#~ msgid "The GNOME notifications appear truncated on Tails 1.1 and later."
-#~ msgstr "Les notifications GNOME apparaissent coupées depuis Tails 1.1."
+#~ msgid "The GNOME notifications appear truncated on TⒶILS 1.1 and later."
+#~ msgstr "Les notifications GNOME apparaissent coupées depuis TⒶILS 1.1."
 
 #~ msgid "See&nbsp;[[!tails_ticket 7249]]."
 #~ msgstr "Voir&nbsp;[[!tails_ticket 7249]]."
@@ -265,11 +265,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "You need to have the <code>seahorse-nautilus</code> package installed. It "
-#~ "is already the case in Tails. In Debian or Ubuntu, if you are unsure or "
+#~ "is already the case in TⒶILS. In Debian or Ubuntu, if you are unsure or "
 #~ "want to install it, you can issue the following commands:"
 #~ msgstr ""
 #~ "Vous avez besoin du paquet <code>seahorse-nautilus</code>. Il est déjà "
-#~ "installé si vous utilisez Tails. Si vous utilisez Debian ou Ubuntu, si "
+#~ "installé si vous utilisez TⒶILS. Si vous utilisez Debian ou Ubuntu, si "
 #~ "vous n'êtes pas sûr qu'il soit installé ou si vous souhaitez l'installer, "
 #~ "vous pouvez utiliser les commandes suivantes dans un terminal :"
 

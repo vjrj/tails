@@ -1,11 +1,11 @@
 @product @fragile
-Feature: Using Tails with Tor pluggable transports
-  As a Tails user
+Feature: Using TⒶILS with Tor pluggable transports
+  As a TⒶILS user
   I want to circumvent censorship of Tor by using Tor pluggable transports
   And avoid connecting directly to the Tor Network
 
   Background:
-    Given I have started Tails from DVD without network and logged in with bridge mode enabled
+    Given I have started TⒶILS from DVD without network and logged in with bridge mode enabled
     And I capture all network traffic
     When the network is plugged
     Then the Tor Launcher autostarts

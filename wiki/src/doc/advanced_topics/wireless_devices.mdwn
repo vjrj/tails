@@ -1,11 +1,11 @@
 [[!meta title="Enable a wireless device"]]
 
-When Tails starts, Wi-Fi, WWAN, and WiMAX devices are
+When TⒶILS starts, Wi-Fi, WWAN, and WiMAX devices are
 enabled.
 
 <div class="bug">
 
-<p>BlueTooth is enabled by default but Tails lacks the GNOME utilities
+<p>BlueTooth is enabled by default but TⒶILS lacks the GNOME utilities
 to actually use it.</p>
 
 </div>
@@ -19,7 +19,7 @@ Enable a wireless device
 
 This technique uses the command line.
 
-1. When starting Tails, [[set up an administration
+1. When starting TⒶILS, [[set up an administration
    password|doc/first_steps/startup_options/administration_password]].
 
 2. To find out the index of the wireless device that you want to enable,
@@ -83,10 +83,10 @@ This technique uses the command line.
 Enable Bluetooth
 ----------------
 
-Bluetooth is not enabled by default in Tails because it is insecure
+Bluetooth is not enabled by default in TⒶILS because it is insecure
 when trying to protect from a local adversary.
 
-To use Bluetooth in Tails nonetheless, you have to
+To use Bluetooth in TⒶILS nonetheless, you have to
 [[set up an administration password at boot time|doc/first_steps/startup_options/administration_password]]
 and install the `gnome-bluetooth` package.
 

@@ -1,8 +1,8 @@
 [[!meta date="Wed Apr 29 12:00:00 2014"]]
-[[!meta title="Tails 1.0 is out"]]
+[[!meta title="TⒶILS 1.0 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 1.0, is out.
+TⒶILS, The Amnesic Incognito Live System, version 1.0, is out.
 
 All users must [[upgrade|doc/first_steps/upgrade]] as soon as possible: this release fixes
 [[numerous security issues|security/Numerous_security_holes_in_0.23]].
@@ -11,13 +11,13 @@ All users must [[upgrade|doc/first_steps/upgrade]] as soon as possible: this rel
 
 # Introduction
 
-We are especially proud to present you Tails 1.0!
+We are especially proud to present you TⒶILS 1.0!
 
 Version 1.0 is often an [[!wikipedia Version_number#Version_1.0_as_a_milestone
 desc="important milestone"]] that denotes the maturity of a free software
-project. The first public version of what would become Tails was released on
+project. The first public version of what would become TⒶILS was released on
 June 23 2009, when it was called [[Amnesia|version_0.2]]. That was almost five
-years ago. Tails 1.0 marks the 36th stable release since then.
+years ago. TⒶILS 1.0 marks the 36th stable release since then.
 
 ## Achievements
 
@@ -41,11 +41,11 @@ website and the boot menu.
 
 ## Thank you
 
-The maturity of Tails is also reflected in:
+The maturity of TⒶILS is also reflected in:
 
-  - Its wide adoption. In the last 18 months, the approximate number of Tails
+  - Its wide adoption. In the last 18 months, the approximate number of TⒶILS
     users has been multiplied by 4.
-  - All the good things said about Tails by reputed people and organisations
+  - All the good things said about TⒶILS by reputed people and organisations
     such as [Freedom of the Press
     Foundation](https://pressfreedomfoundation.org/blog/2014/04/help-support-little-known-privacy-tool-has-been-critical-journalists-reporting-nsa),
     [Bruce
@@ -58,24 +58,24 @@ The maturity of Tails is also reflected in:
 ## Future
 
 Version 1.0 does not mean that we will stop adding new features and improving
-Tails. Briefly, here are our plans for the future:
+TⒶILS. Briefly, here are our plans for the future:
 
-- [Tails 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails_1.1),
+- [TⒶILS 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails_1.1),
   due in June 2014, will be based on Debian 7 (Wheezy) and will bring many new
-  versions of the software included in Tails.
+  versions of the software included in TⒶILS.
 
-- [Tails 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_2.0)
+- [TⒶILS 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_2.0)
   will focus on sustainability and maintainability. Most of that work aims at
-  reducing the workload of creating new versions of Tails through infrastructure
+  reducing the workload of creating new versions of TⒶILS through infrastructure
   improvements and automated testing. Our objective is to be able to release
   same-day security updates.
 
-- [Tails 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_3.0)
-  will focus on changes in the internals of Tails to make it more secure. That
+- [TⒶILS 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_3.0)
+  will focus on changes in the internals of TⒶILS to make it more secure. That
   includes sandboxing critical applications and software hardening.
 
 And of course, new contributors with all kinds of skills are always welcome.
-There is surely [[something **you** can do|contribute]] to make Tails better.
+There is surely [[something **you** can do|contribute]] to make TⒶILS better.
 
 # Changes
 
@@ -93,14 +93,14 @@ Notable user-visible changes include:
       signing and identity keys.
 
 * Bugfixes
-  - Disable inbound I2P connections. Tails already restricts incoming
+  - Disable inbound I2P connections. TⒶILS already restricts incoming
     connections, but this change tells I2P about it.
-  - Fix link to the system requirements documentation page in the Tails
+  - Fix link to the system requirements documentation page in the TⒶILS
     Upgrader error shown when too little RAM is available.
 
 * Minor improvements
   - Upgrade I2P to 0.9.12-2~deb6u+1.
-  - Import TorBrowser profile. This was forgotten in Tails 0.23 and even
+  - Import TorBrowser profile. This was forgotten in TⒶILS 0.23 and even
     though we didn't explicitly set those preferences in that release
     they defaulted to the same values. This future-proofs us in case the
     defaults would ever change.
@@ -112,10 +112,10 @@ Notable user-visible changes include:
     * Remove the bridge settings prompt. ([[!tor_bug 11482]]; closes
       [[!tails_ticket 6934]])
     * Always show bridge help button. ([[!tor_bug 11484]])
-  - Integrate the new Tails logo into various places:
+  - Integrate the new TⒶILS logo into various places:
     * The website
     * The boot splash
-    * The "About Tails" dialog
+    * The "About TⒶILS" dialog
 
 See the [online
 Changelog](https://git-tails.immerda.ch/tails/plain/debian/changelog)
@@ -130,15 +130,15 @@ for technical details.
 Go to the [[download]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is [[scheduled|contribute/calendar]] for
+The next TⒶILS release is [[scheduled|contribute/calendar]] for
 June 10.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? There are many ways [[**you** can
-contribute to Tails|contribute]]. If you want to help, come talk
+contribute to TⒶILS|contribute]]. If you want to help, come talk
 to us!

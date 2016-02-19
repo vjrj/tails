@@ -25,7 +25,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.2.3 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.2.3 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -34,7 +34,7 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 1.2.3, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 1.2.3, is out."
 msgstr ""
 
 #. type: Plain text
@@ -47,7 +47,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "On January 3rd, the SSL certificate of our website hosting provider, "
-"boum.org, expired. This means that if you still are running Tails 1.2.1 or "
+"boum.org, expired. This means that if you still are running TⒶILS 1.2.1 or "
 "older, you will not get any update notification. Please help spreading the "
 "word!"
 msgstr ""
@@ -86,7 +86,7 @@ msgid ""
 "    - Repair the desktop screenshot feature ([[!tails_ticket 8087]]).\n"
 "    - Do not suspend to RAM when closing the lid on battery power\n"
 "      ([[!tails_ticket 8071]]).\n"
-"    - Properly update the Tails Installer's status when plugging in a\n"
+"    - Properly update the TⒶILS Installer's status when plugging in a\n"
 "      USB drive after it has started ([[!tails_ticket 8353]]).\n"
 msgstr ""
 
@@ -110,7 +110,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails' MAC spoofing feature [[disables Broadcom BCM43224 wireless "
+"TⒶILS' MAC spoofing feature [[disables Broadcom BCM43224 wireless "
 "adapters|support/known_issues#bcm43224]].  This network adapter can be found "
 "in the MacBook Air 4,1, 4,2, 5,1 and 5,2."
 msgstr ""
@@ -131,7 +131,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -140,7 +140,7 @@ msgid "What's coming up?"
 msgstr ""
 
 #. type: Plain text
-msgid "The next Tails release is [[scheduled|contribute/calendar]] for February 24."
+msgid "The next TⒶILS release is [[scheduled|contribute/calendar]] for February 24."
 msgstr ""
 
 #. type: Plain text
@@ -150,5 +150,5 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Do you want to help? There are many ways [[**you** can contribute to "
-"Tails|contribute]]. If you want to help, come talk to us!"
+"TⒶILS|contribute]]. If you want to help, come talk to us!"
 msgstr ""

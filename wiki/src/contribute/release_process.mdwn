@@ -16,7 +16,7 @@ the scripts snippets found on this page:
       export TAG=$(echo "$VERSION" | sed -e 's,~,-,')
       export PREVIOUS_VERSION=$(dpkg-parsechangelog --offset 1 --count 1 -SVersion)
 
-* `NEXT_MAJOR_VERSION`: set to the version number of the next Tails release
+* `NEXT_MAJOR_VERSION`: set to the version number of the next TⒶILS release
   (e.g. 0.23 when releasing 0.22.1, and 1.3 when releasing 1.2)
 * `MAJOR_RELEASE`: set to 1 if preparing a major release, to 0 else
 * `ISOS`: the directory where one stores `tails-i386-*`
@@ -24,10 +24,10 @@ the scripts snippets found on this page:
 * `ARTIFACTS`: the directory where build artifacts (e.g.
   the `.packages` file) land.
 * `MASTER_CHECKOUT`: a checkout of the `master` branch of the main
-  Tails Git repository.
-* `RELEASE_BRANCH`: the name of the branch of the main Tails Git
+  TⒶILS Git repository.
+* `RELEASE_BRANCH`: the name of the branch of the main TⒶILS Git
   repository used to prepare the release (`stable` or `testing`).
-* `RELEASE_CHECKOUT`: a checkout of the branch of the main Tails Git
+* `RELEASE_CHECKOUT`: a checkout of the branch of the main TⒶILS Git
   repository used to prepare the release (`stable` or `testing`).
 * `TAILS_SIGNATURE_KEY=A490D0F4D311A4153E2BB7CADBB802B258ACD84F`
 * `IUK_CHECKOUT`: a checkout of the relevant tag of the `iuk`
@@ -130,7 +130,7 @@ AdBlock patterns
 Patterns are stored in
 `config/chroot_local-includes/etc/tor-browser/profile/adblockplus/`.
 
-1. Boot Tails
+1. Boot TⒶILS
 2. Start the tor Browser and open *Tools* → *Addons*
 3. Select *Adblock Plus* in extensions
 4. Open *Preferences* → *Filter preferences…*
@@ -139,7 +139,7 @@ Patterns are stored in
 7. Copy the `.tor-browser/profile.default/adblockplus/patterns.ini` from
    this Tor Browser instance to the
    `config/chroot_local-includes/etc/tor-browser/profile/adblockplus`
-   directory in the Tails Git checkout.
+   directory in the TⒶILS Git checkout.
 8. Commit:
 
        git commit -m 'Update AdBlock Plus patterns.' \
@@ -154,7 +154,7 @@ up-to-date localization files.
 For each bundled Debian package, `cd` into the package's root
 directory (e.g. a checkout of the `whisperback` repository),
 and then run the `import-translations` script that is in the
-main Tails repository. For example:
+main TⒶILS repository. For example:
 
 	cd whisperback
 	"$RELEASE_CHECKOUT"/import-translations
@@ -354,13 +354,13 @@ To get a list of changes on the website:
 Import the signing key
 ======================
 
-Skip this part if you have a Tails signing subkey on an OpenPGPG
+Skip this part if you have a TⒶILS signing subkey on an OpenPGPG
 smartcard, i.e. if you are one of the usual release managers. This is
 only relevant when the master key has been reassembled, e.g. for
-signing a Tails emergency release where none of the usual release
+signing a TⒶILS emergency release where none of the usual release
 managers are available.
 
-You should never import the Tails signing key into your own keyring,
+You should never import the TⒶILS signing key into your own keyring,
 and a good practice is to import it to a tmpfs to limit the risks that
 the private key material is written to disk:
 
@@ -372,7 +372,7 @@ the private key material is written to disk:
     gpg --import path/to/private-key
 
 Let's also ensure that strong digest algorithms are used for our
-signatures, like the defaults we set in Tails:
+signatures, like the defaults we set in TⒶILS:
 
     cp config/chroot_local-includes/etc/skel/.gnupg/gpg.conf "$GNUPGHOME"
 
@@ -384,7 +384,7 @@ Tag the release in Git
 	git push --tags
 
 (Pushing the tag is needed so that the APT repository is updated, and
-the Tails APT configuration works at build and boot time. It might be
+the TⒶILS APT configuration works at build and boot time. It might be
 premature, as testing might reveal critical issues, but this is
 a signed tag, so it can be overridden later. Yes, there is room for
 improvement here.)
@@ -401,7 +401,7 @@ Build images
 Sanity check
 ------------
 
-Verify that the TBB release used in Tails still is the most
+Verify that the TBB release used in TⒶILS still is the most
 recent. Also look if there's a new `-buildX` tag for the targetted TBB
 and Tor Browser versions in their respective Git repos:
 
@@ -647,11 +647,11 @@ Update the ISO description file (IDF) used by the browser extension:
     ISO_PATH="${ISOS}/tails-i386-${VERSION}/tails-i386-${VERSION}.iso"
     ISO_SHA256SUM="$(sha256sum "${ISO_PATH}" | cut -f 1 -d ' ' | tr -d '\n')"
     ISO_SIZE_IN_BYTES="$(stat -c %s "${ISO_PATH}")"
-    cat > "$RELEASE_CHECKOUT"/wiki/src/install/v1/Tails/i386/stable/latest.yml <<EOF
+    cat > "$RELEASE_CHECKOUT"/wiki/src/install/v1/TⒶILS/i386/stable/latest.yml <<EOF
     ---
     build-target: i386
     channel: stable
-    product-name: Tails
+    product-name: TⒶILS
     version: '${VERSION}'
     target-files:
     - sha256: ${ISO_SHA256SUM}
@@ -659,7 +659,7 @@ Update the ISO description file (IDF) used by the browser extension:
       url: http://dl.amnesia.boum.org/tails/stable/tails-i386-${VERSION}/tails-i386-${VERSION}.iso
     EOF
     ( cd "${RELEASE_CHECKOUT}" && \
-      git add wiki/src/install/v1/Tails/i386/stable/latest.yml && \
+      git add wiki/src/install/v1/TⒶILS/i386/stable/latest.yml && \
       git commit -m "Update IDF file for DAVE." )
 
 Upload images
@@ -740,7 +740,7 @@ notify their administrators.
 ISO history
 -----------
 
-Push the released ISO to our Tails ISO history git-annex repo, so that
+Push the released ISO to our TⒶILS ISO history git-annex repo, so that
 our isotesters can fetch it from there for their testing. How to do so
 is described in our internal Git repo.
 
@@ -823,12 +823,12 @@ know that they have to upgrade. Date it a few days before the ISO
 image to be released was *built*. Including:
 
 - the list of CVE fixed in Linux since the one shipped in the previous
-  release of Tails:
+  release of TⒶILS:
   <http://metadata.ftp-master.debian.org/changelogs/main/l/linux/stable_changelog>
 - the list of DSA fixed in packages we ship since those that were in
-  the previous release of Tails: <https://www.debian.org/security/#DSAS>
+  the previous release of TⒶILS: <https://www.debian.org/security/#DSAS>
 - the list of BSA fixed in packages we ship since those that were in
-  the previous release of Tails:
+  the previous release of TⒶILS:
   <https://lists.debian.org/debian-backports-announce/>
 - the list of MFSA fixed by the Tor Browser update:
   <https://www.mozilla.org/security/announce/>
@@ -1057,7 +1057,7 @@ this, and skip what does not make sense for a RC.
            --repo "$bare_repo" && \
         rm -rf "$bare_repo"
 
-1. Remove all old versions in `wiki/src/upgrade/v1/Tails` that were
+1. Remove all old versions in `wiki/src/upgrade/v1/TⒶILS` that were
    never released. Explanation: the post-release APT repository steps
    from the previous stable release will usually have had us prepare
    for an emergency release that was never made.

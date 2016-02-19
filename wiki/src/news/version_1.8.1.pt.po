@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.8.1 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.8.1 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -79,8 +79,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If your Tails does not boot after an automatic upgrade, please [[upgrade "
-"your Tails manually|doc/first_steps/upgrade#manual]]."
+"If your TⒶILS does not boot after an automatic upgrade, please [[upgrade "
+"your TⒶILS manually|doc/first_steps/upgrade#manual]]."
 msgstr ""
 
 #. type: Title #
@@ -93,7 +93,7 @@ msgstr ""
 msgid ""
 "If you have enabled the <span class=\"guilabel\">Bitcoin client</span>\n"
 "(<span class=\"application\">Electrum</span>) persistence feature and\n"
-"have *upgraded* a Tails USB stick installation to Tails 1.8.1, then\n"
+"have *upgraded* a TⒶILS USB stick installation to Tails 1.8.1, then\n"
 "please follow these steps in order to make Electrum able to connect\n"
 "to the network:\n"
 msgstr ""
@@ -125,7 +125,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for January 26."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for January 26."
 msgstr ""
 
 #. type: Plain text
@@ -134,7 +134,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We need your help and there are many ways to [[contribute to Tails|"
+"We need your help and there are many ways to [[contribute to TⒶILS|"
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|contribute/talk]]!"
 msgstr ""

@@ -43,17 +43,17 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>ជួយ​ពួក​យើង​ដើម្បី​កែ​កំហុស!</h1>\n"
 "<p>Read <a href=\"%s\">សេចក្ដី​ណែនាំ​អំពី​របៀប​រាយការណ៍​កំហុស​របស់​យើង</a>។</p>\n"
 "<p><strong>កុំ​បញ្ចូល​ព័ត៌មាន​ផ្ទាល់ខ្លួន​ច្រើន​ជាង​ការ​ទាមទារ!</strong></p>\n"
 "<h2>អំពី​ការ​ផ្ដល់​អាសយដ្ឋាន​អ៊ីមែល</h2>\n"
-"<p>បើ​អ្នក​មិន​យល់​ទាស់​ទេ សូម​ផ្ដល់​អត្តសញ្ញាណ​ខ្លះៗ របស់​អ្នក មកកាន់​អ្នក​អភិវឌ្ឍន៍ Tails ដូចជា៖ "
+"<p>បើ​អ្នក​មិន​យល់​ទាស់​ទេ សូម​ផ្ដល់​អត្តសញ្ញាណ​ខ្លះៗ របស់​អ្នក មកកាន់​អ្នក​អភិវឌ្ឍន៍ TⒶILS ដូចជា៖ "
 "អាសយដ្ឋាន​អ៊ីមែល​ដើម្បី​ឲ្យ​យើង​សួរ​លម្អិត​អំពី​កំហុស។ ព្រមទាំង​បញ្ចូល​ពាក្យគន្លឹះ PGP សាធារណៈ​ដែល​អនុញ្ញាត​ឲ្យ​ពួក​"
 "យើង​ដាក់​លេខ​កូដ​សម្រាប់​ទំនាក់ទំនង​ពេល​អនាគត។</p>\n"
-"<p>អ្នក​ដែល​អាច​មើល​ឃើញ​ចម្លើយ​តប​នេះ នឹង​សន្និដ្ឋាន​ថា​អ្នក​គឺជា​អ្នកប្រើ​របស់ Tails ។ តើ​អ្នក​ទុកចិត្ត​"
+"<p>អ្នក​ដែល​អាច​មើល​ឃើញ​ចម្លើយ​តប​នេះ នឹង​សន្និដ្ឋាន​ថា​អ្នក​គឺជា​អ្នកប្រើ​របស់ TⒶILS ។ តើ​អ្នក​ទុកចិត្ត​"
 "អ៊ីនធឺណិត និង​ក្រុមហ៊ុន​ផ្ដល់​សេវាកម្ម​អ៊ីមែល​របស់​អ្នក​កម្រិត​ណា?</p>\n"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:14
@@ -62,7 +62,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
@@ -266,9 +266,9 @@ msgid "not available"
 msgstr "មិន​មាន"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -285,8 +285,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "អំពី Tails"
+msgid "About TⒶILS"
+msgstr "អំពី TⒶILS"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
@@ -298,11 +298,11 @@ msgstr "កម្មវិធី​របស់​អ្នក​បន្ថែ
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "ការ​ធ្វើ​បច្ចុប្បន្នភាព​បាន​បរាជ័យ។ វា​អាច​ដោយសារ​បញ្ហា​បណ្ដាញ។ សូម​ពិនិត្យ​ការ​តភ្ជាប់​បណ្ដាញ​របស់​អ្នក រួច​"
-"សាកល្បង​ចាប់ផ្ដើម Tails ឡើងវិញ ឬ​អាន​កំណត់ហេតុ​ប្រព័ន្ធ​ដើម្បី​ដឹង​ច្បាស់​អំពី​បញ្ហា។"
+"សាកល្បង​ចាប់ផ្ដើម TⒶILS ឡើងវិញ ឬ​អាន​កំណត់ហេតុ​ប្រព័ន្ធ​ដើម្បី​ដឹង​ច្បាស់​អំពី​បញ្ហា។"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
 msgid "The upgrade was successful."
@@ -324,8 +324,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "ការ​ធ្វើ​សមកាលកម្ម​នាឡិកា​បាន​បរាជ័យ!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "កំណែ​របស់ Tails នេះ​គឺ​ស្គាល់​បញ្ហា​សុវត្ថិភាព៖"
+msgid "This version of TⒶILS has known security issues:"
+msgstr "កំណែ​របស់ TⒶILS នេះ​គឺ​ស្គាល់​បញ្ហា​សុវត្ថិភាព៖"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -341,11 +341,11 @@ msgstr "បាន​បិទ​កាត​បណ្ដាញ ${nic}"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "បា​ន​បរាជ័យ​ក្នុង​ការ​ក្លែង MAC សម្រាប់​កាត​បណ្ដាញ ${nic_name} (${nic}) ដូច្នេះ​វា​ត្រូវ​បាន​បិទ​ជា​"
 "បណ្ដោះអាសន្ន។\n"
-"អ្នក​អាច​ចាប់ផ្ដើម Tails ឡើង​វិញ និង​បិទ​ការ​ក្លែង MAC ។ សូម​មើល <a href='file:///usr/share/"
+"អ្នក​អាច​ចាប់ផ្ដើម TⒶILS ឡើង​វិញ និង​បិទ​ការ​ក្លែង MAC ។ សូម​មើល <a href='file:///usr/share/"
 "doc/tails/website/doc/first_steps/startup_options/mac_spoofing.en."
 "html'>ឯកសារ</a> ។"
 
@@ -358,11 +358,11 @@ msgstr "បាន​បិទការ​ភ្ជាប់​​បណ្ដា
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "បាន​បរាជ័យ​ក្នុង​ក្លែង MAC សម្រាប់​កាត​បណ្ដាញ ${nic_name} (${nic}) ។ ការ​សង្គ្រោះ​កំហុស​ក៏​បរាជ័យ​"
 "ដែរ ដូច្នេះ​ការ​ភ្ជាប់បណ្ដាញ​ទាំងអស់​ត្រូវ​បាន​បិទ។\n"
-"អ្នក​​អាច​ចាប់ផ្ដើម Tails ឡើងវិញ និង​បិទ​ការ​ក្លែង MAC ។ សូម​មើល <a href='file:///usr/share/"
+"អ្នក​​អាច​ចាប់ផ្ដើម TⒶILS ឡើងវិញ និង​បិទ​ការ​ក្លែង MAC ។ សូម​មើល <a href='file:///usr/share/"
 "doc/first_steps/startup_options/mac_spoofing.en.html'>ឯកសារ</a> ។"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
@@ -379,20 +379,20 @@ msgstr "កំហុស"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr ""
 "<b>មិនមានអង្គចងចាំ​គ្រប់គ្រាន់​ដើម្បី​ពិនិត្យ​មើលបច្ចុប្បន្នភាព។</b>\n"
 "\n"
-"ប្រាកដ​ថា​ប្រព័ន្ធ​នេះ​​ឆ្លើយតប​តម្រូវ​ការ​ដើម្បីដំណើរការ Tails ។\n"
+"ប្រាកដ​ថា​ប្រព័ន្ធ​នេះ​​ឆ្លើយតប​តម្រូវ​ការ​ដើម្បីដំណើរការ TⒶILS ។\n"
 "សូម​មើល​ file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"ព្យាយាម​ចាប់ផ្ដើម Tails ឡើងវិញ​ដើម្បីពិនិត្យ​មើល​បច្ចុប្បន្នភាព​ម្ដង​ទៀត។\n"
+"ព្យាយាម​ចាប់ផ្ដើម TⒶILS ឡើងវិញ​ដើម្បីពិនិត្យ​មើល​បច្ចុប្បន្នភាព​ម្ដង​ទៀត។\n"
 "\n"
 "ឬ​ធ្វើ​បច្ចុប្បន្នភាព​ដោយ​ដៃ។\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -404,9 +404,9 @@ msgstr "ព្រមាន៖ បាន​រក​ឃើញ​ម៉ាស៊�
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
-"ទាំង​ប្រព័ន្ធ​ប្រតិបត្តិការ​ម៉ាស៊ីន និង​កម្មវិធី​និម្មិត​គឺ​អាច​ត្រួតពិនិត្យ​អ្វី​ដែល​អ្នក​កំពុង​ធ្វើ​នៅ​ក្នុង Tails បាន។"
+"ទាំង​ប្រព័ន្ធ​ប្រតិបត្តិការ​ម៉ាស៊ីន និង​កម្មវិធី​និម្មិត​គឺ​អាច​ត្រួតពិនិត្យ​អ្វី​ដែល​អ្នក​កំពុង​ធ្វើ​នៅ​ក្នុង TⒶILS បាន។"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 #, fuzzy
@@ -417,16 +417,16 @@ msgstr "ព្រមាន៖ បាន​រក​ឃើញ​ម៉ាស៊�
 #, fuzzy
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
-"ទាំង​ប្រព័ន្ធ​ប្រតិបត្តិការ​ម៉ាស៊ីន និង​កម្មវិធី​និម្មិត​គឺ​អាច​ត្រួតពិនិត្យ​អ្វី​ដែល​អ្នក​កំពុង​ធ្វើ​នៅ​ក្នុង Tails បាន។"
+"ទាំង​ប្រព័ន្ធ​ប្រតិបត្តិការ​ម៉ាស៊ីន និង​កម្មវិធី​និម្មិត​គឺ​អាច​ត្រួតពិនិត្យ​អ្វី​ដែល​អ្នក​កំពុង​ធ្វើ​នៅ​ក្នុង TⒶILS បាន។"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 #, fuzzy
 msgid "Learn more"
-msgstr "ស្វែងយល់​បន្ថែម​អំពី Tails"
+msgstr "ស្វែងយល់​បន្ថែម​អំពី TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:41
 msgid "Tor is not ready"
@@ -572,12 +572,12 @@ msgstr "រាយការណ៍​កំហុស"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "ឯកសារ Tails"
+msgid "TⒶILS documentation"
+msgstr "ឯកសារ TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "សិក្សា​ពី​វិធី​ប្រើ Tails"
+msgid "Learn how to use TⒶILS"
+msgstr "សិក្សា​ពី​វិធី​ប្រើ TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 #, fuzzy
@@ -590,8 +590,8 @@ msgid "I2P Browser"
 msgstr "កម្មវិធី​អ៊ីនធឺណិត​គ្មាន​សុវត្ថិភាព"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "ស្វែងយល់​បន្ថែម​អំពី Tails"
+msgid "Learn more about TⒶILS"
+msgstr "ស្វែងយល់​បន្ថែម​អំពី TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -623,9 +623,9 @@ msgstr "រកមើល​តំបន់បណ្ដាញ​ដោយ​គ្
 msgid "Unsafe Web Browser"
 msgstr "កម្មវិធី​អ៊ីនធឺណិត​គ្មាន​សុវត្ថិភាព"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "ឧបករណ៍​ជាក់លាក់​របស់ Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "ឧបករណ៍​ជាក់លាក់​របស់ TⒶILS"
 
 #~ msgid "Shutdown Immediately"
 #~ msgstr "បិទ​ភ្លាមៗ"
@@ -663,14 +663,14 @@ msgstr "ឧបករណ៍​ជាក់លាក់​របស់ Tails"
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
 #~ "virtualization.en.html'>ស្វែងយល់​បន្ថែម...</a>"
 
-#~ msgid "TrueCrypt will soon be removed from Tails"
-#~ msgstr "TrueCrypt នឹង​ត្រូវ​បាន​លុបចេញ​ពី Tails ក្នុង​ពេល​ឆាប់ៗ"
+#~ msgid "TrueCrypt will soon be removed from TⒶILS"
+#~ msgstr "TrueCrypt នឹង​ត្រូវ​បាន​លុបចេញ​ពី TⒶILS ក្នុង​ពេល​ឆាប់ៗ"
 
 #~ msgid ""
-#~ "TrueCrypt will soon be removed from Tails due to license and development "
+#~ "TrueCrypt will soon be removed from TⒶILS due to license and development "
 #~ "concerns."
 #~ msgstr ""
-#~ "TrueCrypt នឹង​ត្រូវ​បាន​លុបចេញ​ពី Tails ក្នុង​ពេល​ឆាប់ៗ ដោយសារ​អាជ្ញាប័ណ្ណ និង​ការ​អភិវឌ្ឍ។"
+#~ "TrueCrypt នឹង​ត្រូវ​បាន​លុបចេញ​ពី TⒶILS ក្នុង​ពេល​ឆាប់ៗ ដោយសារ​អាជ្ញាប័ណ្ណ និង​ការ​អភិវឌ្ឍ។"
 
 #~ msgid "i2p"
 #~ msgstr "i2p"

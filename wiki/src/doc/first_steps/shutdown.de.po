@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2014-09-15 01:22+0300\n"
 "PO-Revision-Date: 2015-11-06 15:20+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Shutting down Tails\"]]\n"
-msgstr "[[!meta title=\"Tails herunterfahren\"]]\n"
+msgid "[[!meta title=\"Shutting down TⒶILS\"]]\n"
+msgstr "[[!meta title=\"TⒶILS herunterfahren\"]]\n"
 
 #. type: Plain text
-msgid "There are several ways of shutting down Tails:"
-msgstr "Es gibt mehrere Möglichkeiten, Tails herunterzufahren:"
+msgid "There are several ways of shutting down TⒶILS:"
+msgstr "Es gibt mehrere Möglichkeiten, TⒶILS herunterzufahren:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -49,9 +49,9 @@ msgid "- By pressing the power button of the computer."
 msgstr "- Indem man den Einschaltknopf des Computers betätigt"
 
 #. type: Plain text
-msgid "- By removing physically the device Tails is running from."
+msgid "- By removing physically the device TⒶILS is running from."
 msgstr ""
-"- Indem man das physikalische Speichermedium entfernt, von dem Tails "
+"- Indem man das physikalische Speichermedium entfernt, von dem TⒶILS "
 "gestartet wurde"
 
 #. type: Plain text
@@ -109,11 +109,11 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"This method does not work [[after using the <span class=\"application\">Tails\n"
+"This method does not work [[after using the <span class=\"application\">TⒶILS\n"
 "Installer</span>|support/known_issues#index10h2]], see\n"
 "[[!tails_ticket 5677]].\n"
 msgstr ""
-"Diese Methode funktioniert nicht, [[nachdem der <span class=\"application\">Tails-\n"
+"Diese Methode funktioniert nicht, [[nachdem der <span class=\"application\">TⒶILS-\n"
 "Installer</span>|support/known_issues#index10h2]] benutzt wurde, siehe\n"
 "[[!tails_ticket 5677]].\n"
 

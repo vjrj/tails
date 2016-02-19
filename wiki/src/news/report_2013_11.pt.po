@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for November, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for November, 2013\"]]\n"
 msgstr ""
 
 #. type: Title =
@@ -28,12 +28,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails has been started more than 205 802 times in November.  This make 6 860 "
+"TⒶILS has been started more than 205 802 times in November.  This make 6 860 "
 "boots a day in average."
 msgstr ""
 
 #. type: Bullet: '- '
-msgid "6 270 downloads of the OpenPGP signature of Tails ISO."
+msgid "6 270 downloads of the OpenPGP signature of TⒶILS ISO."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -51,7 +51,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"We have a new and active maintainer for I2P in Tails. Big up to Kytv! So I2P "
+"We have a new and active maintainer for I2P in TⒶILS. Big up to Kytv! So I2P "
 "was [[!tails_gitweb_branch feature/i2p-0.9.8.1 desc=\"updated\"]] to "
 "0.9.8.1, and the I2P configuration and integration was improved in several "
 "ways."
@@ -81,7 +81,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"The keyboard selection for some languages in Tails Greeter was [fixed]"
+"The keyboard selection for some languages in TⒶILS Greeter was [fixed]"
 "(http://git.tails.boum.org/greeter/log/?h=bugfix/5469-default-country-and-"
 "translation)  (Closes [[!tails_ticket 5741]]). Again thanks to WinterFairy!"
 msgstr ""
@@ -95,7 +95,7 @@ msgstr ""
 msgid ""
 "The real-world deployment of incremental updates has been [[!"
 "tails_gitweb_branch feature/incremental-upgrades desc=\"made ready for beta "
-"testing\"]] and will be the default way to upgrade Tails, on point-releases "
+"testing\"]] and will be the default way to upgrade TⒶILS, on point-releases "
 "at least."
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"Tails now have its own [[!tails_gitweb config/chroot_local-includes/usr/"
+"TⒶILS now have its own [[!tails_gitweb config/chroot_local-includes/usr/"
 "local/lib/tails-shell-library desc=\"shell\"]] and [perl](https://git-tails."
 "immerda.ch/perl5lib) libraries where we factorize some of our code."
 msgstr ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"Tails Installer [[!tails_gitweb_branch bugfix/dont-fail-upgrade-if-tmp-dir-"
+"TⒶILS Installer [[!tails_gitweb_branch bugfix/dont-fail-upgrade-if-tmp-dir-"
 "exists-on-destination desc=\"does not fail anymore\"]] if the `tmp` "
 "directory exists on the destination filesystem."
 msgstr ""
@@ -323,6 +323,6 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"2013-11: The German-speaking ADMIN magazine [reviews Tails](http://www.admin-"
-"magazin.de/Das-Heft/2013/11/Tails-0.20)."
+"2013-11: The German-speaking ADMIN magazine [reviews TⒶILS](http://www.admin-"
+"magazin.de/Das-Heft/2013/11/TⒶILS-0.20)."
 msgstr ""

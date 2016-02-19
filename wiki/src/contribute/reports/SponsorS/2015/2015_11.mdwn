@@ -1,8 +1,8 @@
-[[!meta title="Tails November 2015 report"]]
+[[!meta title="TⒶILS November 2015 report"]]
 
 [[!toc levels=2]]
 
-This reports covers the activity of Tails in November 2015.
+This reports covers the activity of TⒶILS in November 2015.
 
 Everything in this report can be made public.
 
@@ -39,7 +39,7 @@ In November, **314 ISOs** were tested by our Jenkins instance.
   load, and if so, which kind. ([[!tails_ticket 9264]])
 
   Meanwhile, our automated test suite will still be a bit more efficient
-  on testing branches that actually change Tails' code, while testing
+  on testing branches that actually change TⒶILS' code, while testing
   only some subset for the branches that only change our website or
   documentation. ([[!tails_ticket 10492]])
 
@@ -54,11 +54,11 @@ In November, **314 ISOs** were tested by our Jenkins instance.
 ## B.3. Extend the coverage of our test suite
 
 * First of all, it should be noted that our automated test suite has
-  been key to identify regressions introduced by porting Tails to
+  been key to identify regressions introduced by porting TⒶILS to
   Debian Jessie. A number of such bugs have been found early, that we
   would otherwise not have discovered before the first release
-  candidate of Tails based or Jessie at best, and quite possibly after
-  the first actual release of Tails based on Jessie.
+  candidate of TⒶILS based or Jessie at best, and quite possibly after
+  the first actual release of TⒶILS based on Jessie.
 
 * B.3.11. Fix newly identified issues to make our test suite more robust and faster
 
@@ -108,11 +108,11 @@ We settled on a date for a sysadmin sprint in December.
 
 ## D.1. Adjust to the change of desktop environment to GNOME Shell
 
-We finished porting Tails to GNOME Shell by fixing the remaining
+We finished porting TⒶILS to GNOME Shell by fixing the remaining
 identified regression: raw HTML was displayed in desktop notifications
 ([[!tails_ticket 7989]]).
 
-## D.2. Take advantage of systemd to improve the internals of Tails
+## D.2. Take advantage of systemd to improve the internals of TⒶILS
 
 The Tor daemon is now managed with systemd, that completes supervision
 of critical services ([[!tails_ticket 5750]]).
@@ -124,7 +124,7 @@ We also polished code that was previously ported to systemd:
 * Call out to the shell less often in htpdate.service ([[!tails_ticket 10612]]).
 * Converted the `21-gdm_unit_file` hook to a drop-in override ([[!tails_ticket 10606]]).
 
-## D.3. Update our test suite for Tails Jessie
+## D.3. Update our test suite for TⒶILS Jessie
 
 This is about ticket [[!tails_ticket 7563]] and subtasks. Good progress was made
 on this front in November.
@@ -156,31 +156,31 @@ Additionally, we made progress on:
 * Updating tests for: USB installation and upgrade, Tor Browser
   tests, ICMP filtering.
 
-## D.5.1. Release an official version of Tails based on Jessie
+## D.5.1. Release an official version of TⒶILS based on Jessie
 
 Our two usual release managers also did a full code review of the
 changes introduced on our Jessie branch so far. No serious problem was
 identified, but lots of small polishing tasks have been added.
 
 Based on these good results and the ones we see in our partly ported
-automated test suite, we decided a [release schedule for Tails
+automated test suite, we decided a [release schedule for TⒶILS
 Jessie](https://mailman.boum.org/pipermail/tails-dev/2015-November/009790.html)
 which will be released on January 26 and be numbered 2.0. We renamed
 accordingly the versions coming after 2.0. Here is the new version
 numbers of the releases mentioned in past reports and budgets:
 
-  - Tails 1.9 has been renamed Tails 2.0
-  - Tails 1.10 has been renamed Tails 2.2 (the second major version in a row)
-  - Tails 1.11 has been renamed Tails 2.3
-  - Tails 1.12 has been renamed Tails 2.4
-  - Tails 1.13 has been renamed Tails 2.5
+  - TⒶILS 1.9 has been renamed Tails 2.0
+  - TⒶILS 1.10 has been renamed Tails 2.2 (the second major version in a row)
+  - TⒶILS 1.11 has been renamed Tails 2.3
+  - TⒶILS 1.12 has been renamed Tails 2.4
+  - TⒶILS 1.13 has been renamed Tails 2.5
 
 ## Various porting to Jessie
 
 A lot of other porting to Jessie work was done, that does not really
 fit into any of the above categories:
 
-* Merged and forward-ported changes introduced up to Tails 1.7.
+* Merged and forward-ported changes introduced up to TⒶILS 1.7.
 * Ported our automatic (incremental) upgrade system to Jessie ([[!tails_ticket 8083]]),
   and made its check for free memory smarter ([[!tails_ticket 8263]], [[!tails_ticket 10540]]).
 * Fixed synchronizing OpenPGP keys in Seahorse ([[!tails_ticket 9792]]).
@@ -203,7 +203,7 @@ fit into any of the above categories:
 And some code was cleaned up in passing:
 
 * Removed obsolete bits of APT pinning ([[!tails_ticket 10607]]).
-* Removed obsolete workaround for the HashType enum in Tails Upgrader
+* Removed obsolete workaround for the HashType enum in TⒶILS Upgrader
   ([[!tails_ticket 7042]]).
 * Dropped custom syslinux package with patches for Chromebooks, that
   we had included in a Debian Jessie update ([[!tails_ticket 9292]]).
@@ -223,17 +223,17 @@ problems:
   console on Jessie ([[!tails_ticket 9408]]).
 * Check if we need to keep memlockd running longer ([[!tails_ticket 8260]]).
 * Made sure that GNOME 3.14's captive portal handling is disabled on
-  Tails/Jessie ([[!tails_ticket 10526]]).
-* Evaluated the Caribou virtual keyboard in Tails/Jessie ([[!tails_ticket 8281]]).
+  TⒶILS/Jessie ([[!tails_ticket 10526]]).
+* Evaluated the Caribou virtual keyboard in TⒶILS/Jessie ([[!tails_ticket 8281]]).
 * Considered replacing sound-juicer with goobox ([[!tails_ticket 8393]]).
 
 # E. Release management
 
-- [[Tails 1.7|news/version_1.7]] was released on 2015-11-03:
+- [[TⒶILS 1.7|news/version_1.7]] was released on 2015-11-03:
 
   * Add an offline mode to disable all networking.
   * Add Icedove as a technology preview.
-  * Improve the wording of the first screen of Tails Installer.
+  * Improve the wording of the first screen of TⒶILS Installer.
   * Upgrade Tor Browser to version 5.0.4 (based on Firefox 38.4.0 ESR).
   * Update Tor to 0.2.7.4.
   * Restart Tor automatically if connecting to the Tor network takes too long. ([[!tails_ticket 9516]])

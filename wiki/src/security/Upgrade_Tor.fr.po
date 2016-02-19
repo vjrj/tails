@@ -38,7 +38,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p>This security issue was fixed in Tails 0.9.</p>\n"
+msgid "<p>This security issue was fixed in TⒶILS 0.9.</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -48,32 +48,32 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The version of Tor currently shipped in Tails does not protect your "
+"The version of Tor currently shipped in TⒶILS does not protect your "
 "anonymity as it should.  **This vulnerability is critical.**"
 msgstr ""
-"La version de Tor actuellement livrée dans Tails ne protège pas votre "
+"La version de Tor actuellement livrée dans TⒶILS ne protège pas votre "
 "anonymat\n"
 "comme elle le devrait. **Ce problème est critique**."
 
 #. type: Plain text
 msgid ""
-"Until a future version of Tails is released (soon), the only way to have "
-"Tails protect your anonymity is to **upgrade Tor every time you start "
-"Tails**, by following the instructions bellow."
+"Until a future version of TⒶILS is released (soon), the only way to have "
+"TⒶILS protect your anonymity is to **upgrade Tor every time you start "
+"TⒶILS**, by following the instructions bellow."
 msgstr ""
-"D'ici à ce qu'une prochaine version de Tails soit (bientôt) publiée, la "
+"D'ici à ce qu'une prochaine version de TⒶILS soit (bientôt) publiée, la "
 "seule\n"
-"façon de faire pour que Tails protège votre anonymat est de **mettre à jour "
+"façon de faire pour que TⒶILS protège votre anonymat est de **mettre à jour "
 "Tor\n"
-"à chaque fois que vous démarrez Tails**, en suivant les instructions ci-"
+"à chaque fois que vous démarrez TⒶILS**, en suivant les instructions ci-"
 "dessous."
 
 #. type: Plain text
 msgid ""
-"(Every time, really? Sure. Tails is amnesic: any change you make in it is "
+"(Every time, really? Sure. TⒶILS is amnesic: any change you make in it is "
 "lost upon restart.)"
 msgstr ""
-"(À chaque fois, vraiment ? Absolument. Tails est amnésique : les "
+"(À chaque fois, vraiment ? Absolument. TⒶILS est amnésique : les "
 "modifications\n"
 "effectuées sont perdues au redémarrage.)"
 
@@ -110,9 +110,9 @@ msgstr ""
 "Vidalia depuis le menu *Applications* → *Internet*."
 
 #. type: Plain text
-msgid "Once this is done, you can safely use Tails as usual."
+msgid "Once this is done, you can safely use TⒶILS as usual."
 msgstr ""
-"Une fois que cette procédure a été effectuée, vous pouvez utiliser Tails de "
+"Une fois que cette procédure a été effectuée, vous pouvez utiliser TⒶILS de "
 "la\n"
 "même façon que d'habitude."
 

@@ -25,12 +25,12 @@ msgstr "[[!meta date=\"جمعه ۵ اکتبر ۱۲:۰۰:۵۶ ۲۰۱۲ +۰۰۰۰\
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for September, 2012\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for September, 2012\"]]\n"
 msgstr "[[!meta title=\"گزارش سپتامبر ۲۰۱۲ تیلز\"]]\n"
 
 #. type: Plain text
 msgid ""
-"September, 2012 has been pretty busy for Tails. Here is a report of what "
+"September, 2012 has been pretty busy for TⒶILS. Here is a report of what "
 "happened."
 msgstr ""
 "سپتامبر ۲۰۱۲ ماه بسیار شلوغی برای تیلز بده‌است. گزارش اتفاقاتی که در این ماه "
@@ -43,7 +43,7 @@ msgstr "انتشارها\n"
 
 #. type: Plain text
 msgid ""
-"Tails 0.13 was released on September 18th. See the [[announcement for more "
+"TⒶILS 0.13 was released on September 18th. See the [[announcement for more "
 "details|version_0.13]]."
 msgstr ""
 "تیلز ۰٫۱۳ روز ۱۸ سپتامبر منتشر شد. برای جزییات بیشتر به [[اعلان "
@@ -73,10 +73,10 @@ msgstr "افراد\n"
 
 #. type: Plain text
 msgid ""
-"Tails has been started and successfully connected to the Tor network around "
+"TⒶILS has been started and successfully connected to the Tor network around "
 "71.000 times in September. That makes a boot every 36 seconds on "
 "average. This number is an approximation from the requests made for the "
-"security announcements feed. The later is retrieved by Tails after being "
+"security announcements feed. The later is retrieved by TⒶILS after being "
 "connected to Tor to eventually encourage users to update."
 msgstr ""
 "تیلز در ماه سپتامبر حدود ۷۱هزار بار با موفقیت راه‌اندازی و به شبکهٔ تور متصل "
@@ -91,7 +91,7 @@ msgstr "۴۷ گزارش ایراد ارسال‌شده از ویسپربک در�
 #. type: Plain text
 msgid ""
 "The forum activity went pretty crazy with 1038 new messages, 156 of them "
-"signed by \"Tails\". Not the highest signal/noise ratio in history, though."
+"signed by \"TⒶILS\". Not the highest signal/noise ratio in history, though."
 msgstr ""
 "فعالیت انجمن با ۱۰۳۸ پست که ۱۵۶ تای آن‌های امضای «Tails» داشتند افزایش "
 "بسیاری داشت. اما بیشترین میزان آن نیست."
@@ -105,7 +105,7 @@ msgstr "کد\n"
 msgid ""
 "A fix was merged for the [[slow browsing experience of the "
 "documentation|todo/faster_offline_documentation_browsing]] available inside "
-"Tails systems."
+"TⒶILS systems."
 msgstr ""
 "مشکل [[سرعت پایین مرور مستندات|todo/faster_offline_documentation_browsing]] "
 "موجود در سیستم‌های تیلز رفع شد."
@@ -113,7 +113,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Some progress was made on the front of [[supporting multiple "
-"kernels|todo/nx_bit]], that should lead a future version of Tails to use "
+"kernels|todo/nx_bit]], that should lead a future version of TⒶILS to use "
 "multiple cores and more than 3GB of memory eventually, as well as fixing "
 "most of the dreaded \"not all memory is wiped at shutdown\" bug."
 msgstr ""
@@ -161,7 +161,7 @@ msgstr ""
 "dev/2012-September/001634.html)."
 
 #. type: Plain text
-msgid "Tails (`devel` Git branch) is now [[using Tor 0.2.3|todo/Tor_0.2.3]]."
+msgid "TⒶILS (`devel` Git branch) is now [[using Tor 0.2.3|todo/Tor_0.2.3]]."
 msgstr ""
 "(شاخهٔ `devel` گیت) تیلز حالا از [[تور ۰٫۲٫۳ استفاده می‌کند|todo/Tor_0.2.3]]."
 
@@ -169,7 +169,7 @@ msgstr ""
 msgid ""
 "One of the new feature of Tor 0.2.3 is network stream isolation.  Subsequent "
 "[[anonymity enhancements have been implemented|todo/separate_Tor_streams]] "
-"and will be available in Tails 0.14."
+"and will be available in TⒶILS 0.14."
 msgstr ""
 "یکی از ویژگی‌های جدید تور ۰٫۲٫۳ جداسازی جریان شبکه است. در نتیجه [[پیشرفت‌"
 "هایی در زمینهٔ ناشناسی|todo/separate_Tor_streams]] در تیلز ۰٫۱۴ ایجاد شده‌"
@@ -222,7 +222,7 @@ msgstr ""
 msgid ""
 "An [input method for Japanese has been "
 "added](https://mailman.boum.org/pipermail/tails-dev/2012-September/001719.html)  "
-"and will be in Tails 0.14."
+"and will be in TⒶILS 0.14."
 msgstr ""
 "یک [روش ورود داده برای ژاپنی اضافه شد](https://mailman.boum.org/pipermail"
 "/tails-dev/2012-September/001719.html) و در تیلز ۰٫۱۴ خواهد آمد."
@@ -262,7 +262,7 @@ msgstr "بحث‌های دنباله‌دار\n"
 
 #. type: Plain text
 msgid ""
-"[Two contributors interested in working on Tails server showed "
+"[Two contributors interested in working on TⒶILS server showed "
 "up](https://mailman.boum.org/pipermail/tails-dev/2012-September/001559.html)."
 msgstr ""
 "[دو فرد علاقه‌مند برای کمک روی سرور تیلز پیدا "
@@ -323,7 +323,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[Should Tails ship a \"download "
+"[Should TⒶILS ship a \"download "
 "manager\"?](https://mailman.boum.org/pipermail/tails-dev/2012-September/001670.html)."
 msgstr ""
 "[آیا تیلز باید یک نرم‌افزار «مدیریت دانلود» داشته "
@@ -360,7 +360,7 @@ msgid ""
 msgstr "مستندات در این بخش‌ها پیشرفت‌های کوچی داشتند:"
 
 #. type: Bullet: ' * '
-msgid "List what can be done when Tails does not start."
+msgid "List what can be done when TⒶILS does not start."
 msgstr "فهرست کردن کارهایی که در صورت راه‌اندازی نشدن تیلز می‌توان انجام داد."
 
 #. type: Bullet: ' * '
@@ -380,7 +380,7 @@ msgstr ""
 "درایو مانا رخ می‌دهد."
 
 #. type: Bullet: ' * '
-msgid "Be more explicit of what should be done after installing Tails."
+msgid "Be more explicit of what should be done after installing TⒶILS."
 msgstr "شفاف‌تر بودن در مورد این که پس از نصب تیلز باید چه کار کرد."
 
 #. type: Bullet: ' * '
@@ -445,7 +445,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The server that will be dedicated to Tails development needs was delivered "
+"The server that will be dedicated to TⒶILS development needs was delivered "
 "and plugged in the SeaCCP colocation. Many thanks to our friends at Riseup, "
 "who helped a lot through the whole process, and to the Tor project, who "
 "supports us once again by funding the server hosting! Debian Wheezy was "

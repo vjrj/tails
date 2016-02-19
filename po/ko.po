@@ -45,7 +45,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>우리가 버그를 수정할 수 있도록 도와주세요! <h1>\n"
@@ -68,7 +68,7 @@ msgstr "지속성은 Electrum을 비활성시킵니다."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
@@ -276,9 +276,9 @@ msgid "not available"
 msgstr "불가능"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -295,7 +295,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
+msgid "About TⒶILS"
 msgstr "Tails에 관하여"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
@@ -308,7 +308,7 @@ msgstr "추가 소프트웨어"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "업그레이드에 실패했습니다. 이것은 아마도 네트워크 문제로 인한 것일 겁니다. 네"
@@ -334,7 +334,7 @@ msgid "Failed to synchronize the clock!"
 msgstr "시간 맞추기 실패!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
+msgid "This version of TⒶILS has known security issues:"
 msgstr "지금 버전 Tails은 보안에 문제가 있습니다."
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
@@ -351,7 +351,7 @@ msgstr "네트워크 카드 ${nic}가 잘못되었습니다"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC 위장이 네트워크 카드 ${nic_name} (${nic}) 때문에 실패했기 때문에 일시적으"
 "로 비활성화됩니다.\n"
@@ -368,7 +368,7 @@ msgstr "모든 네트워크 연결이 불가능함"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC 위장이 네트워크 카드 ${nic_name} (${nic})로 인해 실패했습니다. 오류 복구 "
 "실패했기 때문에, 모든 네트워크 기능이 해제됩니다.\n"
@@ -390,10 +390,10 @@ msgstr "오류"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -416,7 +416,7 @@ msgstr "경고 : 가상 머신을 발견!"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "호스트 운영 체제 및 가상화 소프트웨어 모두 Tails에서 실시하고있는 것을 확인"
 "할 수 있습니다."
@@ -430,7 +430,7 @@ msgstr "경고 : 가상 머신을 발견!"
 #, fuzzy
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
@@ -588,12 +588,12 @@ msgstr "오류 보고"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Tails 문서"
+msgid "TⒶILS documentation"
+msgstr "TⒶILS 문서"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Tails 사용법에 대해서"
+msgid "Learn how to use TⒶILS"
+msgstr "TⒶILS 사용법에 대해서"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 msgid "Anonymous overlay network browser"
@@ -604,7 +604,7 @@ msgid "I2P Browser"
 msgstr "I2P 브라우저"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
+msgid "Learn more about TⒶILS"
 msgstr "Tails에 대해서 더 알아보기"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
@@ -635,9 +635,9 @@ msgstr "익명없이 월드 와이드 웹 브라우징"
 msgid "Unsafe Web Browser"
 msgstr "웹 브라우저 위험"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Tails 전용 도구"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "TⒶILS 전용 도구"
 
 #~ msgid "Shutdown Immediately"
 #~ msgstr "강제 종료"

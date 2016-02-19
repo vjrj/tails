@@ -1,6 +1,6 @@
 [[!meta title="Startup options"]]
 
-When starting Tails, you can specify startup options to alter some of its basic
+When starting TⒶILS, you can specify startup options to alter some of its basic
 functioning. The two ways of specifying startup options are the following:
 
 [[!toc levels=1]]
@@ -11,14 +11,14 @@ Using the <span class="application">boot menu</span>
 ====================================================
 
 The <span class="application">boot menu</span> is the first screen to appears
-when Tails starts.
+when TⒶILS starts.
 
 <div class="tip">
 
 The <span class="guilabel">failsafe</span> mode disables some features of the
 kernel and might work better on some computers. You can try this option if you
 think you are experiencing errors related to hardware compatibility while
-starting Tails.
+starting TⒶILS.
 
 </div>
 
@@ -26,7 +26,7 @@ starting Tails.
     <span class="application">boot menu</span> appears. A list of boot options
     appears at the bottom of the screen.
 
-[[!img boot-menu-with-options.png link=no alt="Black screen with Tails
+[[!img boot-menu-with-options.png link=no alt="Black screen with TⒶILS
 artwork. 'Boot menu' with two options 'Live' and 'Live (failsafe)'. At the
 bottom, a list of options ending with 'noautologin quiet_'"]]
 
@@ -36,7 +36,7 @@ bottom, a list of options ending with 'noautologin quiet_'"]]
 3.  If you want to add more than one boot option, type them one after the
     other, and separate them by a <span class="keycap">Space</span>.
 
-4.  Then press <span class="keycap">Enter</span> to start Tails.
+4.  Then press <span class="keycap">Enter</span> to start TⒶILS.
 
 Here is a list of options that you can add to the <span class="application">boot
 menu</span>:
@@ -47,30 +47,30 @@ menu</span>:
 <a id="greeter"></a>
 <a id="tails_greeter"></a>
 
-Using <span class="application">Tails Greeter</span>
+Using <span class="application">TⒶILS Greeter</span>
 ====================================================
 
-<span class="application">Tails Greeter</span> is the set of dialogs that
+<span class="application">TⒶILS Greeter</span> is the set of dialogs that
 appear after the <span class="application">boot menu</span>, but before the
 <span class="application">GNOME Desktop</span> appears. This is how to first
-screen of <span class="application">Tails Greeter</span> looks like:
+screen of <span class="application">TⒶILS Greeter</span> looks like:
 
-[[!img tails-greeter-welcome-to-tails.png link=no alt="Welcome to Tails. More
+[[!img tails-greeter-welcome-to-tails.png link=no alt="Welcome to TⒶILS. More
 options? Yes, and No toggle button, and Login button."]]
 
-**To start Tails without options**, click on the
+**To start TⒶILS without options**, click on the
 <span class="button">Login</span> button, or just press
 <span class="keycap">Enter</span>.
 
-**To start Tails in languages other than English**, select the one you
+**To start TⒶILS in languages other than English**, select the one you
 want from the menu at the bottom of the screen. You can also adapt
-your country and keyboard layout. When you do that, <span class="application">Tails Greeter</span> itself
+your country and keyboard layout. When you do that, <span class="application">TⒶILS Greeter</span> itself
 switches language.
 
 **To set more options**, click on the <span class="button">Yes</span> button.
 Then click on the <span class="button">Forward</span> button.
 
-Here is a list of options that you can set using <span class="application">Tails
+Here is a list of options that you can set using <span class="application">TⒶILS
 Greeter</span>:
 
   - [[Administration password|administration_password]]
@@ -83,5 +83,5 @@ Greeter</span>:
 Problems booting?
 =================
 
-If you have problems booting Tails, please read the [[following
+If you have problems booting TⒶILS, please read the [[following
 guidelines|doc/first_steps/bug_reporting/tails_does_not_start]].

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails translators\n"
+"Project-Id-Version: TⒶILS translators\n"
 "POT-Creation-Date: 2015-09-22 20:40+0200\n"
 "PO-Revision-Date: 2015-09-28 07:23+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: LANGUAGE <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Sun Sep 20 01:02:03 2015\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 1.5.1\"]]\n"
-msgstr "[[!meta title=\"Zahlreiche Sicherheitslücken in Tails 1.5.1\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 1.5.1\"]]\n"
+msgstr "[[!meta title=\"Zahlreiche Sicherheitslücken in TⒶILS 1.5.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -35,7 +35,7 @@ msgstr "[[!tag security/fixed]]\n"
 msgid ""
 "Several security holes that affect Tails 1.5.1 are now fixed in Tails 1.6."
 msgstr ""
-"Einige Seicherheitslücken, die Tails 1.5.1 betreffen, sind nun in Tails 1.6 "
+"Einige Seicherheitslücken, die TⒶILS 1.5.1 betreffen, sind nun in TⒶILS 1.6 "
 "behoben."
 
 #. type: Plain text

@@ -5,13 +5,13 @@ This is about [[!tails_ticket 8471]].
 Test reports
 ============
 
-This is for what we're shipping in Tails 1.5. Please include:
+This is for what we're shipping in TⒶILS 1.5. Please include:
 
-* exact Tails version
+* exact TⒶILS version
 * exact installation method
 * exact hardware brand and model
 * what's happening
-* what was happening with Tails 1.4.1
+* what was happening with TⒶILS 1.4.1
 
 Misc. notes
 ===========
@@ -35,7 +35,7 @@ Risk of regressions
 -------------------
 
 Here we discuss the risk of regressions, for hardware that previously
-booted Tails just fine, if we shipped a 32-bit UEFI boot loader in our
+booted TⒶILS just fine, if we shipped a 32-bit UEFI boot loader in our
 hybrid ISO image.
 
 XXX: I (intrigeri) am waiting for answers by an expert in this domain.
@@ -57,7 +57,7 @@ Test results and ideas
 * GRUB 32-bit EFI installed in `EFI/BOOT/bootia32.efi`
 
 => did not manage to chainload 32-bit syslinux EFI from GRUB.
-On Tails/Jessie (GRUB 2.02~beta2-22), I get `error: unknown error.`
+On TⒶILS/Jessie (GRUB 2.02~beta2-22), I get `error: unknown error.`
 after typing `boot`. This likely comes from
 `grub-core/loader/efi/chainloader.c`.
 
@@ -67,7 +67,7 @@ With current `feature/8471-32-bit-UEFI`, one can choose the *syslinux:
 liveamd64.cfg* menu entry, that basically load syslinux'
 `/efi/boot/liveamd64.cfg`, converting it to GRUB on the fly.
 
-Then, add `nomodeset` if needed, and Tails boots.
+Then, add `nomodeset` if needed, and TⒶILS boots.
 
 Note that:
 
@@ -177,9 +177,9 @@ but this feature can usually be disabled.
      2. That screen gives access to a Boot Device Options menu, BIOS
         Setup, and other functions including an on-screen keyboard.
      3. In the Boot Options Menu, one can select Boot from EFI File
-        and push the soft Enter key… and then, with a Tails boot
+        and push the soft Enter key… and then, with a TⒶILS boot
         drive, it goes to a File Explorer screen to allow the user to
-        choose between booting from the Tails volume and the NO VOLUME
+        choose between booting from the TⒶILS volume and the NO VOLUME
         LABEL volume on the USB thumb drive. Sadly, there's no way to
         press Enter! The Stream 8 has a capacitive Windows button on
         the bezel, and that just isn’t active at this point.
@@ -220,7 +220,7 @@ but this feature can usually be disabled.
         USB OTG port.
      3. Then the tablet will boot from USB without pushing any
         buttons, and one can still use the OTG port to power the
-        tablet while running from Tails.
+        tablet while running from TⒶILS.
 
 Needs more research
 -------------------
@@ -231,7 +231,7 @@ Needs more research
    - 32-bit UEFI?
 
 
-Boots current Tails and thus uninteresting here
+Boots current TⒶILS and thus uninteresting here
 -----------------------------------------------
 
  * HP Slate 500

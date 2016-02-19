@@ -1,4 +1,4 @@
-[[!meta title="Installing Tails on a USB stick from Linux"]]
+[[!meta title="Installing TⒶILS on a USB stick from Linux"]]
 
 [[!meta stylesheet="bootstrap" rel="stylesheet" title=""]]
 [[!meta stylesheet="inc/stylesheets/assistant" rel="stylesheet" title=""]]
@@ -53,14 +53,14 @@
 
    <p>If your version of <span class="application">GNOME Disks</span> is old
    and has no [[!img lib/emblem-system.png alt="System" class="symbolic" link="no"]]
-   button, you have to [[!toggle id="dd" text="install an intermediary Tails
+   button, you have to [[!toggle id="dd" text="install an intermediary TⒶILS
    using the command line"]].</p>
 
    </div>
 
    [[!toggleable id="dd" text="""
 
-   Install an intermediary Tails using the command line
+   Install an intermediary TⒶILS using the command line
    ----------------------------------------------------
 
    1. Take note of the *device name* of the first USB stick as displayed in the
@@ -97,7 +97,7 @@
 
    </div>
 
-   1. If no error message is returned, Tails is being install on the USB stick.
+   1. If no error message is returned, TⒶILS is being install on the USB stick.
       The installation takes a few minutes.
 
    You can now continue with the next step and [[Open these instructions on

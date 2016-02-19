@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-04-13 21:04+0300\n"
 "PO-Revision-Date: 2014-07-31 15:16-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -30,12 +30,12 @@ msgstr ""
 "===\n"
 
 #. type: Bullet: '  - '
-msgid "DVDs are read-only so your Tails can't be altered by a virus or an attacker."
-msgstr "DVDs são somente-leitura de modo que o Tails não pode ser alterado por um vírus ou por um atacante."
+msgid "DVDs are read-only so your TⒶILS can't be altered by a virus or an attacker."
+msgstr "DVDs são somente-leitura de modo que o TⒶILS não pode ser alterado por um vírus ou por um atacante."
 
 #. type: Bullet: '  - '
-msgid "DVDs are cheap but you will need to burn a new DVD each time you update your version of Tails."
-msgstr "DVDs são baratos mas você terá que gravar um novo DVD toda vez que atualizar sua versão do Tails."
+msgid "DVDs are cheap but you will need to burn a new DVD each time you update your version of TⒶILS."
+msgstr "DVDs são baratos mas você terá que gravar um novo DVD toda vez que atualizar sua versão do TⒶILS."
 
 #. type: Bullet: '  - '
 msgid "You could also use a DVD-RW but those are not read-only."
@@ -47,12 +47,12 @@ msgid "USB stick or SD card\n"
 msgstr "Memória USB ou cartão SD\n"
 
 #. type: Bullet: '  - '
-msgid "An attacker with physical access to your device or through a virus could alter your Tails."
-msgstr "Um atacante com acesso físico ao seu dispositivo ou através de um vírus poderia alterar seu Tails."
+msgid "An attacker with physical access to your device or through a virus could alter your TⒶILS."
+msgstr "Um atacante com acesso físico ao seu dispositivo ou através de um vírus poderia alterar seu TⒶILS."
 
 #. type: Bullet: '  - '
-msgid "USB sticks and SD cards can be upgraded to future versions of Tails."
-msgstr "Memórias USB e cartões SD podem ser atualizados para versões futuras do Tails."
+msgid "USB sticks and SD cards can be upgraded to future versions of TⒶILS."
+msgstr "Memórias USB e cartões SD podem ser atualizados para versões futuras do TⒶILS."
 
 #. type: Bullet: '  - '
 msgid "You can use [[persistence|doc/first_steps/persistence]] and store your documents and configuration in an encrypted persistent volume on the same device."
@@ -67,6 +67,6 @@ msgid "Some older computers might not be able to start from a USB stick or SD ca
 msgstr "Computadores mais antigos podem não ser capazes de serem iniciados a partir de uma memória USB ou cartão SD."
 
 #. type: Bullet: '  - '
-msgid "Some USB sticks, SD cards, or SD card adapters have a read-only switch that can prevent your Tails from being altered, but be aware that this protection is most probably not ensured by the device itself: do not rely on untrusted computers to respect this feature."
-msgstr "Algumas memórias USB, cartões SD e adaptadores de cartão SD possuem uma chave que pode evitar seu Tails de ser alterado, mas fique atento/a pois esta proteção muito provavelmente não é garantida pelo dispositivo em si: não confie que computadores não confiáveis respeitarão esta funcionalidade."
+msgid "Some USB sticks, SD cards, or SD card adapters have a read-only switch that can prevent your TⒶILS from being altered, but be aware that this protection is most probably not ensured by the device itself: do not rely on untrusted computers to respect this feature."
+msgstr "Algumas memórias USB, cartões SD e adaptadores de cartão SD possuem uma chave que pode evitar seu TⒶILS de ser alterado, mas fique atento/a pois esta proteção muito provavelmente não é garantida pelo dispositivo em si: não confie que computadores não confiáveis respeitarão esta funcionalidade."
 

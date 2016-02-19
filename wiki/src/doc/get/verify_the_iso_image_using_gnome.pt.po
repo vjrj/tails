@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-01-26 22:36+0100\n"
 "PO-Revision-Date: 2014-07-31 15:49-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "O pacote <code>seahorse-nautilus</code> somente está disponível:"
 #. type: Content of: <p>
 #, fuzzy
 #| msgid "The <code>seahorse-nautilus</code> package is only available in:"
-msgid "These packages are already installed in Tails."
+msgid "These packages are already installed in TⒶILS."
 msgstr "O pacote <code>seahorse-nautilus</code> somente está disponível:"
 
 #. type: Content of: <div><p>
@@ -120,17 +120,17 @@ msgstr ""
 
 #. type: Content of: <h3>
 #, fuzzy
-#| msgid "First, download Tails signing key:"
-msgid "Get the Tails signing key"
-msgstr "Primeiro, baixe a chave de assinatura do Tails:"
+#| msgid "First, download TⒶILS signing key:"
+msgid "Get the TⒶILS signing key"
+msgstr "Primeiro, baixe a chave de assinatura do TⒶILS:"
 
 #. type: Content of: <p>
 msgid ""
-"If you are using Tails, you already have the signing key. Otherwise, first "
-"download Tails signing key:"
+"If you are using TⒶILS, you already have the signing key. Otherwise, first "
+"download TⒶILS signing key:"
 msgstr ""
-"Se você está usando Tails, você já tem a chave de assinatura. Do contrário, "
-"primeiro baixe a chave de assinatura do Tails:"
+"Se você está usando TⒶILS, você já tem a chave de assinatura. Do contrário, "
+"primeiro baixe a chave de assinatura do TⒶILS:"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!inline pages=\"lib/download_tails_signing_key\" raw=\"yes\"]]"
@@ -140,15 +140,15 @@ msgstr "[[!inline pages=\"lib/download_tails_signing_key\" raw=\"yes\"]]"
 #, fuzzy
 #| msgid ""
 #| "Your browser should propose you to open it with \"Import Key\". Choose "
-#| "this action. It will add Tails signing key to your keyring, the "
+#| "this action. It will add TⒶILS signing key to your keyring, the "
 #| "collection of OpenPGP keys you already imported:"
 msgid ""
 "Your browser should propose you to open it with \"Import Key\". Choose this "
-"action. It will add the Tails signing key to your keyring, the collection of "
+"action. It will add the TⒶILS signing key to your keyring, the collection of "
 "OpenPGP keys you already imported:"
 msgstr ""
 "Seu navegador deve propor de abrí-la com a opção \"Importar Chave\". Escolha "
-"esta ação. Ela vai adicionar a chave de assinatura do Tails ao seu chaveiro, "
+"esta ação. Ela vai adicionar a chave de assinatura do TⒶILS ao seu chaveiro, "
 "a coleção de chaves OpenPGP que você já importou:"
 
 #. type: Content of: <p>
@@ -170,15 +170,15 @@ msgstr "Você será notificado com a seguinte mensagem:"
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
-#| "[[!img key_imported.png alt=\"Key Imported. Imported a key for Tails "
+#| "[[!img key_imported.png alt=\"Key Imported. Imported a key for TⒶILS "
 #| "developers (signing key) &lt;tails@boum.org&gt;\" link=\"no\"]]"
 msgid ""
-"[[!img key_imported.png alt=\"Key Imported. Imported a key for Tails "
+"[[!img key_imported.png alt=\"Key Imported. Imported a key for TⒶILS "
 "developers (offline long-term identity key) &lt;tails@boum.org&gt;\" link="
 "\"no\"]]"
 msgstr ""
 "[[!img key_imported.png alt=\"Chave importada. Foi importada uma chave para "
-"Tails developers (signing key) &lt;tails@boum.org&gt;\" link=\"no\"]]"
+"TⒶILS developers (signing key) &lt;tails@boum.org&gt;\" link=\"no\"]]"
 
 #. type: Content of: <h3>
 msgid "Verify the ISO image"
@@ -218,10 +218,10 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"Browse your files to select the Tails ISO image you want to verify.  Then, "
+"Browse your files to select the TⒶILS ISO image you want to verify.  Then, "
 "the verification will start. It can take several minutes:"
 msgstr ""
-"Navegue pelos seus arquivos para selecionar a imagem ISO do Tails que você "
+"Navegue pelos seus arquivos para selecionar a imagem ISO do TⒶILS que você "
 "quer verificar. Então, a verificação vai começar. Ela pode demorar vários "
 "minutos:"
 
@@ -262,11 +262,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "You need to have the <code>seahorse-nautilus</code> package installed. It "
-#~ "is already the case in Tails. In Debian or Ubuntu, if you are unsure or "
+#~ "is already the case in TⒶILS. In Debian or Ubuntu, if you are unsure or "
 #~ "want to install it, you can issue the following commands:"
 #~ msgstr ""
 #~ "Você precisa ter o pacote <code>seahorse-nautilus</code> instalado. Este "
-#~ "já é o caso se você estiver executanto o Tails. No Debian ou Ubuntu, se "
+#~ "já é o caso se você estiver executanto o TⒶILS. No Debian ou Ubuntu, se "
 #~ "você não tem certeza se o pacote já está instalado ou se quer instalá-lo, "
 #~ "você pode usar os seguintes comandos:"
 

@@ -1,18 +1,18 @@
 [[!meta title="Tor stream isolation"]]
 
-Tails implements basic Tor stream isolation, using functionality
+TⒶILS implements basic Tor stream isolation, using functionality
 described in
 [Tor proposal 171](https://gitweb.torproject.org/torspec.git/blob/HEAD:/proposals/171-separate-streams.txt).
 
 Special needs
 =============
 
-Tails-specific applications
+TⒶILS-specific applications
 ---------------------------
 
-Tails-specific applications use a dedicated `SocksPort`, so that they
+TⒶILS-specific applications use a dedicated `SocksPort`, so that they
 don't help trivial correlating of other kinds of network traffic with
-Tails:
+TⒶILS:
 
 * incremental updates
 * htpdate
@@ -51,7 +51,7 @@ HTTP behaviour patterns, that could ease fingerprinting.)
 Consider Pidgin with several accounts configured for different
 identities. If you connect with all of the accounts at the same time,
 they'll all get the same circuit, so the identities can be correlated.
-While Tails does not formally support using multiple contextual
+While TⒶILS does not formally support using multiple contextual
 identities at the same time, Pidgin generally opens very few network
 connections, so the performance impact of using `IsolateDestAddr`
 should be small. Given how cheap it is, it looks like it is worth
@@ -79,7 +79,7 @@ in [[!tails_gitweb config/chroot_local-includes/etc/tor/torrc]]:
   `IsolateDestPort` enabled
 * dedicated `SocksPort` for the email client (9061): `IsolateDestAddr`
   enabled
-* dedicated `SocksPort` for Tails-specific applications (9062):
+* dedicated `SocksPort` for TⒶILS-specific applications (9062):
   `IsolateDestAddr` and `IsolateDestPort` enabled
 * dedicated `SocksPort` for web browser (9150): no stream
   isolation options

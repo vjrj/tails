@@ -1,6 +1,6 @@
 [[!meta title="Emailing with Icedove (Thunderbird)"]]
 
-For reading and writing emails, Tails includes <span
+For reading and writing emails, TⒶILS includes <span
 class="application">Icedove</span>.
 
 [[!inline pages="doc/anonymous_internet/icedove/name.inline" raw="yes"]]
@@ -37,7 +37,7 @@ Configure an email account
 OpenPGP encryption with Enigmail
 ================================
 
-<span class="application">Icedove</span> in Tails includes the
+<span class="application">Icedove</span> in TⒶILS includes the
 <span class="application">[Enigmail](https://www.enigmail.net/)</span>
 extension to encrypt and authenticate emails using OpenPGP.
 
@@ -62,7 +62,7 @@ started with encrypting emails using
 Enhanced privacy with TorBirdy
 ==============================
 
-<span class="application">Icedove</span> in Tails includes the
+<span class="application">Icedove</span> in TⒶILS includes the
 <span class="application">[TorBirdy](https://trac.torproject.org/projects/tor/wiki/torbirdy)</span>
 extension for additional privacy and anonymity.
 

@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for August, 2015\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for August, 2015\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -29,7 +29,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The 16th of August was Tails 6th birthday. Well, Tails existed before, but "
+"The 16th of August was TⒶILS 6th birthday. Well, Tails existed before, but "
 "it was the birthday of [the first public "
 "release](https://lists.torproject.org/pipermail/tor-talk/2009-August/002667.html). "
 "Actually, it was named amnesia then, it was before the fusion with "
@@ -47,18 +47,18 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[Tails 1.5 was released on August 11, 2015|news/version_1.5]] (major "
+"[[TⒶILS 1.5 was released on August 11, 2015|news/version_1.5]] (major "
 "release)."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[Tails 1.5.1 was released on August 28, 2015|news/version_1.5.1]] (minor "
+"[[TⒶILS 1.5.1 was released on August 28, 2015|news/version_1.5.1]] (minor "
 "emergency release to update Tor Browser to 5.0.2)."
 msgstr ""
 
 #. type: Plain text
-msgid "The following changes were introduced in Tails 1.5:"
+msgid "The following changes were introduced in TⒶILS 1.5:"
 msgstr ""
 
 #. type: Plain text
@@ -73,7 +73,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"We finally found a good formulation about [[Tails not protecting against "
+"We finally found a good formulation about [[TⒶILS not protecting against "
 "BIOS malware|doc/about/warning]]."
 msgstr ""
 
@@ -84,13 +84,13 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "We reorganized information between the [[Start "
-"Tails|doc/first_steps/start_tails]] and the [[Tails does not "
+"TⒶILS|doc/first_steps/start_tails]] and the [[Tails does not "
 "start|doc/first_steps/bug_reporting/tails_does_not_start]] pages."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"We published an (incomplete) list of [[organizations doing Tails "
+"We published an (incomplete) list of [[organizations doing TⒶILS "
 "training|support/learn]]."
 msgstr ""
 
@@ -103,11 +103,11 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "We explained better why we disabled the [[circuit view of Tor "
-"Browser|doc/anonymous_internet/Tor_Browser#torbutton]] in Tails."
+"Browser|doc/anonymous_internet/Tor_Browser#torbutton]] in TⒶILS."
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "We explained why Tails had [[no antivirus software|support/faq#antivirus]]."
+msgid "We explained why TⒶILS had [[no antivirus software|support/faq#antivirus]]."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -181,7 +181,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "We created ourselves a [Flattr "
-"account](https://flattr.com/submit/auto?user_id=tails_live&url=https://tails.boum.org&title=Tails)."
+"account](https://flattr.com/submit/auto?user_id=tails_live&url=https://tails.boum.org&title=TⒶILS)."
 msgstr ""
 
 #. type: Title =
@@ -191,7 +191,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[We have Tails stickers again](http://t.co/AgtuTN0XmJ)! We'll share them "
+"[We have TⒶILS stickers again](http://t.co/AgtuTN0XmJ)! We'll share them "
 "during upcoming events, you can also [[make your "
 "own|contribute/how/promote/material/stickers]]."
 msgstr ""
@@ -205,13 +205,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"A talk about Tails took place during DebConf15 in Heidelberg, Germany, on "
+"A talk about TⒶILS took place during DebConf15 in Heidelberg, Germany, on "
 "August 15th."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"DrWhax did a lightning talk about Tails at "
+"DrWhax did a lightning talk about TⒶILS at "
 "[CCCamp](https://events.ccc.de/camp/2015/wiki/Main_Page) on August 13 - 17 "
 "in Zehdenick, Germany."
 msgstr ""
@@ -232,7 +232,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "We drafted a script to [[!tails_ticket 9993 desc=\"run a Mumble server\"]] "
-"from Tails, verified that the Mumble client in Tails Jessie works well, and "
+"from TⒶILS, verified that the Mumble client in Tails Jessie works well, and "
 "started using it for internal meetings."
 msgstr ""
 
@@ -250,7 +250,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"2015-08-29: [Tails OS 1.5 Offers Out-of-the-Box Privacy "
+"2015-08-29: [TⒶILS OS 1.5 Offers Out-of-the-Box Privacy "
 "Protection](http://www.greycoder.com/tails-os-1-5-offers-out-of-the-box-privacy-protection/) "
 "by Tracy Knauer on GreyCoder."
 msgstr ""
@@ -311,12 +311,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails has been started more than 469,870 times this month. This makes 15,157 "
+"TⒶILS has been started more than 469,870 times this month. This makes 15,157 "
 "boots a day on average."
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "31,870 downloads of the OpenPGP signature of Tails ISO from our website."
+msgid "31,870 downloads of the OpenPGP signature of TⒶILS ISO from our website."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -324,5 +324,5 @@ msgid "127 bug reports were received through WhisperBack."
 msgstr ""
 
 #. type: Plain text
-msgid "-- Report by BitingBird for Tails folks"
+msgid "-- Report by BitingBird for TⒶILS folks"
 msgstr ""

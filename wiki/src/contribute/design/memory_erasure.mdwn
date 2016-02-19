@@ -1,19 +1,19 @@
 [[!meta title="Memory erasure"]]
 
 In order to protect against memory recovery such as cold boot attack,
-the system RAM is overwritten when Tails is being shutdown or when the
+the system RAM is overwritten when TⒶILS is being shutdown or when the
 boot medium is physically removed.
 
 #### The big picture
 
-The previous implementation of the Tails memory erasure feature
+The previous implementation of the TⒶILS memory erasure feature
 suffered from flaws that were demonstrated by [[external
 audit|security/audits/Blackhat_De-Anonymizing_Live_CDs]]. In short, it
 only erased free memory and let data in the aufs read-write branch in
 recoverable state.
 
 In order to erase the biggest possible part of the system memory, the
-hereby described new implementation, shipped in Tails 0.7, runs in a
+hereby described new implementation, shipped in TⒶILS 0.7, runs in a
 fresh environment provided by a newly started Linux kernel. This way,
 a given part of the memory either is *used* by the memory erasure
 process itself or it is considered as free and thus *erased* by this
@@ -22,7 +22,7 @@ process; in any case, it is at least overwritten once.
 #### initramfs tweaks
 
 The Linux kernel and initramfs used to erase the memory are the same
-as the ones normally used by a Tails system... that actually includes
+as the ones normally used by a TⒶILS system... that actually includes
 some bits of code dedicated to this mission.
 
 An initramfs-tools hook includes the necessary files in the initramfs
@@ -66,7 +66,7 @@ the `kexec-load` initscript, that normally only runs at reboot time,
 is enabled to run at shutdown time as well. A custom `tails-kexec`
 shutdown script replaces the `kexec` initscript, in order to support the case when
 the boot medium is not available anymore at the time this script runs;
-it also provides an improved user interface more suitable for Tails
+it also provides an improved user interface more suitable for TⒶILS
 target users needs. Finally, the standard systemd `halt`, `poweroff`,
 `reboot`, `kexec` and `shutdown`
 actions are taken over by having the `tails-kexec` script, that is run
@@ -113,7 +113,7 @@ to memory erasure time.
 
 Since this process can take a while the user can leave the computer
 and let it finish on its own after removing the boot medium, or simply
-turn it off if he or she is not worried about this attack: if Tails
+turn it off if he or she is not worried about this attack: if TⒶILS
 was booted from a DVD it is ejected before the memory wiping is
 started, and if it was booted from a USB drive it can be removed as
 soon as the memory wiping has been started.

@@ -1,7 +1,7 @@
-Install an intermediary Tails
+Install an intermediary TⒶILS
 =============================
 
-In this step, you will install an intermediary Tails by copying the Tails ISO image on a first USB
+In this step, you will install an intermediary TⒶILS by copying the TⒶILS ISO image on a first USB
 stick using
 <span class="windows">a program called <span class="application">Universal USB Installer</span>.</span>
 <span class="mac">the command line.</span>
@@ -10,7 +10,7 @@ stick using
 <div class="note">
 
 <p>On
-this intermediary Tails you won't benefit from important features like
+this intermediary TⒶILS you won't benefit from important features like
 automatic security upgrades or the possibility to store some of your
 documents and configuration in an encrypted storage.</p>
 

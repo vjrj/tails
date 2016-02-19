@@ -24,7 +24,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.19 is out. Please test it and see if all works for you."
 msgstr ""
 
@@ -33,7 +33,7 @@ msgid "[[!toc levels=1]]"
 msgstr ""
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.19~rc1?"
+msgid "How to test TⒶILS 0.19~rc1?"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -51,14 +51,14 @@ msgstr ""
 msgid ""
 "<a class=\"download-file\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.19-rc1/tails-i386-0.19-rc1.iso\" "
-">Tails 0.19~rc1 ISO image</a>"
+">TⒶILS 0.19~rc1 ISO image</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-signature\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.19-rc1/tails-i386-0.19-rc1.iso.pgp\" "
-">Tails 0.19~rc1 signature</a>"
+">TⒶILS 0.19~rc1 signature</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -171,5 +171,5 @@ msgid "The Unsafe Browser does not work."
 msgstr ""
 
 #. type: Content of: <p>
-msgid "All these issues are fixed in Git and will be fixed in Tails 0.19."
+msgid "All these issues are fixed in Git and will be fixed in TⒶILS 0.19."
 msgstr ""

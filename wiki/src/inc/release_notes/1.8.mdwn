@@ -2,10 +2,10 @@
 
 - <span class="application">[[Icedove|doc/anonymous_internet/icedove]]</span> a
   rebranded version of <span class="application">Mozilla Thunderbird</span> is
-  now the official email client in Tails, replacing
+  now the official email client in TⒶILS, replacing
   <span class="application">Claws Mail</span>.
 
-  <span class="application">Claws Mail</span> will be removed from Tails in
+  <span class="application">Claws Mail</span> will be removed from TⒶILS in
   version 2.0 (2016-01-26). If you have been using
   <span class="application">Claws Mail</span> and activated its persistence
   feature, follow our instructions to [[migrate your data to
@@ -14,7 +14,7 @@
 ## Upgrades and changes
 
 - Electrum from 1.9.8 to [2.5.4](https://github.com/spesmilo/electrum/blob/0d4de870a5159d491b604d29780f6bfb539c49f3/RELEASE-NOTES).
-  Now Electrum should work again in Tails.
+  Now Electrum should work again in TⒶILS.
 
 - Tor Browser to [5.0.5](https://gitweb.torproject.org/builders/tor-browser-bundle.git/tree/Bundle-Data/Docs/ChangeLog.txt?h=maint-5.0&id=tbb-5.0.5-build1).
 

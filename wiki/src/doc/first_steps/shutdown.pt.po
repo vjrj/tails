@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-09-14 19:32+0300\n"
 "PO-Revision-Date: 2014-07-31 15:39-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -17,12 +17,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Shutting down Tails\"]]\n"
-msgstr "[[!meta title=\"Desligando o Tails\"]]\n"
+msgid "[[!meta title=\"Shutting down TⒶILS\"]]\n"
+msgstr "[[!meta title=\"Desligando o TⒶILS\"]]\n"
 
 #. type: Plain text
-msgid "There are several ways of shutting down Tails:"
-msgstr "Existem diversas formas de desligar o Tails:"
+msgid "There are several ways of shutting down TⒶILS:"
+msgstr "Existem diversas formas de desligar o TⒶILS:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -48,9 +48,9 @@ msgid "- By pressing the power button of the computer."
 msgstr "- Pressionando o botão de ligar do computador."
 
 #. type: Plain text
-msgid "- By removing physically the device Tails is running from."
+msgid "- By removing physically the device TⒶILS is running from."
 msgstr ""
-"- Removendo fisicamente o dispositivo a partir do qual o Tails está sendo "
+"- Removendo fisicamente o dispositivo a partir do qual o TⒶILS está sendo "
 "executado."
 
 #. type: Plain text
@@ -102,12 +102,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"This method does not work [[after using the <span class=\"application\">Tails\n"
+"This method does not work [[after using the <span class=\"application\">TⒶILS\n"
 "Installer</span>|support/known_issues#index10h2]], see\n"
 "[[!tails_ticket 5677]].\n"
 msgstr ""
 "Este método não funciona [[depois de usar o <span class=\"application\">Instalador do\n"
-"Tails</span>|support/known_issues#index10h2]], veja o\n"
+"TⒶILS</span>|support/known_issues#index10h2]], veja o\n"
 "[[!tails_ticket 5677]].\n"
 
 #. type: Plain text

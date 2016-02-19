@@ -45,6 +45,6 @@ databases (cert8.db and key3.db) into the newer SQLite databases
 However, certain certutil versions (e.g. 3.15) refuse to read or write
 any too old databases, such as the one Firefox 17 generates and uses
 with NSS 3.14.3 backported from Wheezy. We'll presumably always have
-to ship NSS and Firefox in sync' in Tails anyway. So, if we use
+to ship NSS and Firefox in sync' in TⒶILS anyway. So, if we use
 certutil to perform the upgrade, then we and/or users will have to
 ensure it's done during the transition period, assuming there's one.

@@ -637,7 +637,7 @@
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P2" xml:id="id15" draw:id="id15" draw:layer="layout" svg:width="3.302cm" svg:height="3.048cm" svg:x="29.829cm" svg:y="43.545cm">
      <text:p text:style-name="P1"><text:span text:style-name="T2">First step index page</text:span></text:p>
-     <text:p text:style-name="P1"><text:span text:style-name="T1">Need a Working Tails</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">Need a Working TⒶILS</text:span></text:p>
      <text:p text:style-name="P1"><text:span text:style-name="T1">You can :</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:text-areas="5400 5400 16200 16200" draw:type="flowchart-decision" draw:enhanced-path="M 0 10800 L 10800 0 21600 10800 10800 21600 0 10800 Z N"/>
     </draw:custom-shape>
@@ -747,7 +747,7 @@
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P2" xml:id="id32" draw:id="id32" draw:layer="layout" svg:width="4.064cm" svg:height="1.397cm" svg:x="31.334cm" svg:y="63.707cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">Start Tails Installer</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">Start TⒶILS Installer</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P2" xml:id="id26" draw:id="id26" draw:layer="layout" svg:width="3.302cm" svg:height="3.048cm" svg:x="23.729cm" svg:y="58.927cm">
@@ -819,7 +819,7 @@
      <text:p/>
     </draw:connector>
     <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P2" xml:id="id35" draw:id="id35" draw:layer="layout" svg:width="4.064cm" svg:height="1.397cm" svg:x="31.307cm" svg:y="71.257cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">Start Tails</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">Start TⒶILS</text:span></text:p>
      <text:p text:style-name="P1"><text:span text:style-name="T1">without persistence</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
@@ -831,7 +831,7 @@
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P2" draw:layer="layout" svg:width="4.064cm" svg:height="1.397cm" svg:x="31.48cm" svg:y="79.232cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">Restart Tails</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">Restart TⒶILS</text:span></text:p>
      <text:p text:style-name="P1"><text:span text:style-name="T1">with persistence</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
@@ -943,7 +943,7 @@
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr8" draw:text-style-name="P2" xml:id="id41" draw:id="id41" draw:layer="layout" svg:width="3.429cm" svg:height="1.397cm" svg:x="34.02cm" svg:y="24.241cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">DL Tails signin key</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">DL TⒶILS signin key</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr8" draw:text-style-name="P2" xml:id="id42" draw:id="id42" draw:layer="layout" svg:width="3.429cm" svg:height="1.397cm" svg:x="34.02cm" svg:y="26.273cm">
@@ -957,7 +957,7 @@
      <text:p/>
     </draw:connector>
     <draw:custom-shape draw:style-name="gr8" draw:text-style-name="P2" xml:id="id43" draw:id="id43" draw:layer="layout" svg:width="3.429cm" svg:height="1.397cm" svg:x="29.702cm" svg:y="23.987cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">DL Tails signin key</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">DL TⒶILS signin key</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr8" draw:text-style-name="P2" xml:id="id44" draw:id="id44" draw:layer="layout" svg:width="3.429cm" svg:height="1.397cm" svg:x="29.702cm" svg:y="25.892cm">
@@ -978,7 +978,7 @@
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr8" draw:text-style-name="P2" xml:id="id46" draw:id="id46" draw:layer="layout" svg:width="3.429cm" svg:height="1.397cm" svg:x="21.193cm" svg:y="24.114cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">DL Tails signin key</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">DL TⒶILS signin key</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:connector draw:style-name="gr19" draw:text-style-name="P1" draw:layer="layout" draw:type="line" svg:x1="22.463cm" svg:y1="23.606cm" svg:x2="22.907cm" svg:y2="24.114cm" draw:start-shape="id45" draw:end-shape="id46" svg:d="m22463 23606 444 508">
@@ -1096,22 +1096,22 @@
      <text:p text:style-name="P2"><text:span text:style-name="T1">yes</text:span></text:p>
     </draw:connector>
     <draw:custom-shape draw:style-name="gr26" draw:text-style-name="P2" draw:layer="layout" svg:width="4.826cm" svg:height="1.27cm" svg:x="7.477cm" svg:y="12.557cm">
-     <text:p text:style-name="P2"><text:span text:style-name="T1">Page in Tails website</text:span></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1">Page in TⒶILS website</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr27" draw:text-style-name="P2" draw:layer="layout" svg:width="5.207cm" svg:height="1.016cm" svg:x="7.223cm" svg:y="14.843cm">
-     <text:p text:style-name="P2"><text:span text:style-name="T1">Page outsite Tails website</text:span></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1">Page outsite TⒶILS website</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:connector draw:style-name="gr19" draw:text-style-name="P1" draw:layer="layout" draw:type="line" svg:x1="31.353cm" svg:y1="31.353cm" svg:x2="31.226cm" svg:y2="32.242cm" draw:start-shape="id48" draw:end-shape="id53" svg:d="m31353 31353-127 889">
      <text:p/>
     </draw:connector>
     <draw:custom-shape draw:style-name="gr28" draw:text-style-name="P2" draw:layer="layout" svg:width="4.191cm" svg:height="1.651cm" svg:x="7.35cm" svg:y="16.875cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">Inside a Tails</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">Inside a TⒶILS</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P6" xml:id="id61" draw:id="id61" draw:layer="layout" svg:width="4.445cm" svg:height="1.397cm" svg:x="29.194cm" svg:y="47.863cm">
-     <text:p text:style-name="P5"><text:span text:style-name="T3">Launch a Friend Tails</text:span></text:p>
+     <text:p text:style-name="P5"><text:span text:style-name="T3">Launch a Friend TⒶILS</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:connector draw:style-name="gr29" draw:text-style-name="P1" draw:layer="layout" svg:x1="29.829cm" svg:y1="45.069cm" svg:x2="29.194cm" svg:y2="48.562cm" draw:start-shape="id15" draw:end-shape="id61" draw:end-glue-point="5" svg:d="m29829 45069h-1137v3493h502">

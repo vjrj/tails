@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first release candidate for the upcoming version 1.0 "
+"You can help TⒶILS! The first release candidate for the upcoming version 1.0 "
 "is out. Please test it and see if it works for you."
 msgstr ""
 
@@ -40,7 +40,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"How to test Tails 1.0~rc1?\n"
+"How to test TⒶILS 1.0~rc1?\n"
 "=============================\n"
 msgstr ""
 
@@ -58,14 +58,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.0~rc1/tails-i386-1.0~rc1.iso\" >Tails 1.0~rc1 ISO image</a>\n"
+msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.0~rc1/tails-i386-1.0~rc1.iso\" >TⒶILS 1.0~rc1 ISO image</a>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.0~rc1.iso.sig\">Tails 1.0~rc1 signature</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.0~rc1.iso.sig\">TⒶILS 1.0~rc1 signature</a>\n"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -103,12 +103,12 @@ msgstr ""
 #, no-wrap
 msgid ""
 "These steps allow you to automatically upgrade a device installed with <span\n"
-"class=\"application\">Tails Installer</span> from Tails 0.23 to Tails 1.0~rc1.\n"
+"class=\"application\">TⒶILS Installer</span> from Tails 0.23 to Tails 1.0~rc1.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails 0.23 and [[set an administration password|doc/first_steps/"
+"Start TⒶILS 0.23 and [[set an administration password|doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
 
@@ -128,12 +128,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"1. Once the upgrade has been installed, restart Tails and choose\n"
+"1. Once the upgrade has been installed, restart TⒶILS and choose\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">System</span>&nbsp;&#x25B8;\n"
-"     <span class=\"guimenuitem\">About Tails</span>\n"
+"     <span class=\"guimenuitem\">About TⒶILS</span>\n"
 "   </span>\n"
-"   to confirm that the running system is Tails 1.0~rc1.\n"
+"   to confirm that the running system is TⒶILS 1.0~rc1.\n"
 msgstr ""
 
 #. type: Title =
@@ -145,9 +145,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* Bugfixes\n"
-"  - Disable inbound I2P connections. Tails already restricts incoming\n"
+"  - Disable inbound I2P connections. TⒶILS already restricts incoming\n"
 "    connections, but this change tells I2P about it.\n"
-"  - Fix link to the system requirements documentation page in the Tails\n"
+"  - Fix link to the system requirements documentation page in the TⒶILS\n"
 "    Upgrader error shown when too little RAM is available.\n"
 msgstr ""
 
@@ -156,17 +156,17 @@ msgstr ""
 msgid ""
 "* Minor improvements\n"
 "  - Upgrade I2P to 0.9.12-2~deb6u+1.\n"
-"  - Import TorBrowser profile. This was forgotten in Tails 0.23 and even\n"
+"  - Import TorBrowser profile. This was forgotten in TⒶILS 0.23 and even\n"
 "    though we didn't explicitly set those preferences in that release\n"
 "    they defaulted to the same values. This future-proofs us in case the\n"
 "    defaults would ever change.\n"
 "  - Import new custom version of Tor Launcher:\n"
 "    * Based on upstream Tor Launcher 0.2.5.3.\n"
 "    * Improve how Tor Launcher handles incomplete translation.  (Tor\n"
-"      bug [[!tor_bug 11483]]; more future-proof fix for Tails bug\n"
+"      bug [[!tor_bug 11483]]; more future-proof fix for TⒶILS bug\n"
 "      [[!tails_ticket 6885]])\n"
 "    * Remove the bridge settings prompt. (Tor bug [[!tor_bug 11482]];\n"
-"      closes Tails bug [[!tails_ticket 6934]])\n"
+"      closes TⒶILS bug [[!tails_ticket 6934]])\n"
 "    * Always show bridge help button. (Tor bug [[!tor_bug 11484]])\n"
 msgstr ""
 

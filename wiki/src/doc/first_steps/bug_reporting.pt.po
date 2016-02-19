@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2015-09-30 16:26+0300\n"
 "PO-Revision-Date: 2014-06-22 08:57-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,8 @@ msgstr ""
 "software."
 
 #. type: Plain text
-msgid "Reporting bugs is a great way of helping us improving Tails."
-msgstr "Relatar bugs é uma ótima forma de nos ajudar a melhorar o Tails."
+msgid "Reporting bugs is a great way of helping us improving TⒶILS."
+msgstr "Relatar bugs é uma ótima forma de nos ajudar a melhorar o TⒶILS."
 
 #. type: Plain text
 msgid ""
@@ -138,11 +138,11 @@ msgstr "Use WhisperBack\n"
 #, no-wrap
 msgid ""
 "**WhisperBack is an application written specifically to report bugs anonymously\n"
-"from inside Tails. If you are not able to use WhisperBack, see the [[special\n"
+"from inside TⒶILS. If you are not able to use WhisperBack, see the [[special\n"
 "cases|bug_reporting#special_cases]].**\n"
 msgstr ""
 "**WhisperBack é um programa escrito especificamente para relatar bugs de forma anônima\n"
-"a partir do Tails. Se você não pode usar o WhisperBack, veja os [[casos \n"
+"a partir do TⒶILS. Se você não pode usar o WhisperBack, veja os [[casos \n"
 "especiais|bug_reporting#special_cases]].**\n"
 
 #. type: Plain text
@@ -209,11 +209,11 @@ msgstr "**Resultado desejado**"
 msgid ""
 "You can also have a look at the <span class=\"guilabel\">technical details\n"
 "to include</span> in your bug report. It will give us information about\n"
-"your hardware, your version of Tails and the startup process.\n"
+"your hardware, your version of TⒶILS and the startup process.\n"
 msgstr ""
 "Você também pode dar uma olhada nos <span class=\"guilabel\">detalhes técnicos\n"
 "para incluir</span> no seu relatório de bugs. Isto nos dará informações sobre\n"
-"seu hardware, sua versão do Tails e o processo de inicialização.\n"
+"seu hardware, sua versão do TⒶILS e o processo de inicialização.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -232,20 +232,20 @@ msgstr "Sobre nos fornecer um endereço de email\n"
 #| "problem. This is needed for the vast majority of the reports we receive "
 #| "as most reports without any contact information are useless. On the other "
 #| "hand it also provides an opportunity for eavesdroppers, like your email "
-#| "or Internet provider, to confirm that you are using Tails."
+#| "or Internet provider, to confirm that you are using TⒶILS."
 msgid ""
 "Giving us an email address allows us to contact you to clarify the problem. "
 "This is needed for the vast majority of the reports we receive as most "
 "reports without any contact information are useless. But note that it also "
 "provides an opportunity for eavesdroppers, like your email or Internet "
-"provider, to confirm that you are using Tails."
+"provider, to confirm that you are using TⒶILS."
 msgstr ""
 "Fornecer um endereço de email nos permite contatar você para esclarecer o "
 "problema. Isso é necessário para a maioria dos relatórios que recebemos, "
 "assim como a maioria dos relatórios sem nenhuma informação de contato são "
 "inúteis. Por outro lado, também dá uma oportunidade para bisbilhoteiros, "
 "como o seu provedor de Internet ou email, confirmarem que você está usando "
-"Tails."
+"TⒶILS."
 
 #. type: Title -
 #, no-wrap
@@ -340,8 +340,8 @@ msgid "The following steps can be used as an alternative method:"
 msgstr "Os seguintes passos podem ser utilizados como método alternativo:"
 
 #. type: Bullet: '1. '
-msgid "In Tails, start WhisperBack"
-msgstr "No Tails, inicie o WhisperBack"
+msgid "In TⒶILS, start WhisperBack"
+msgstr "No TⒶILS, inicie o WhisperBack"
 
 #. type: Bullet: '2. '
 msgid "In the bug report window, expand \"technical details to include\""
@@ -365,12 +365,12 @@ msgstr "Reinicie em um sistema com conexão à Internet e envie seu relatório"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not start\n"
-msgstr "Tails não inicia completamente\n"
+msgid "TⒶILS does not start\n"
+msgstr "TⒶILS não inicia completamente\n"
 
 #. type: Plain text
 msgid "See [[Tails_does_not_start]]."
-msgstr "Veja [[Tails não inicia completamente|tails_does_not_start]]."
+msgstr "Veja [[TⒶILS não inicia completamente|tails_does_not_start]]."
 
 #~ msgid "You will find a shortcut to start WhisperBack on the desktop:"
 #~ msgstr ""

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2015-03-23 02:53+0100\n"
 "PO-Revision-Date: 2015-09-30 17:54+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: DE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -57,9 +57,9 @@ msgid "For Windows using Gpg4win"
 msgstr "Für Windows mit Nutzung von Gpg4win"
 
 #. type: Content of: <p>
-msgid "After installing Gpg4win, download Tails signing key:"
+msgid "After installing Gpg4win, download TⒶILS signing key:"
 msgstr ""
-"Laden Sie nach der Installation von Gpg4win den Tails Signaturschlüssel "
+"Laden Sie nach der Installation von Gpg4win den TⒶILS Signaturschlüssel "
 "herunter:"
 
 #. type: Content of: outside any tag (error?)
@@ -115,19 +115,19 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"Then the ISO image is still correct, and valid according to the Tails "
+"Then the ISO image is still correct, and valid according to the TⒶILS "
 "signing key that you downloaded. This warning is related to the trust that "
-"you put in the Tails signing key. See, [[Trusting Tails signing key|doc/get/"
+"you put in the TⒶILS signing key. See, [[Trusting TⒶILS signing key|doc/get/"
 "trusting_tails_signing_key]]. To remove this warning you would have to "
 "personally <span class=\"definition\">[[!wikipedia Keysigning desc=\"sign"
-"\"]]</span> the Tails signing key with your own key."
+"\"]]</span> the TⒶILS signing key with your own key."
 msgstr ""
-"Dann ist das ISO-Image dennoch in Ordnung und laut dem Tails "
+"Dann ist das ISO-Image dennoch in Ordnung und laut dem TⒶILS "
 "Signaturschlüssel, den Sie heruntergeladen haben, gültig. Diese Warnung "
-"bezieht sich auf das Vertrauen, das Sie zum Tails Signaturschlüssel haben. "
-"Lesen Sie [[dem Tails Signaturschlüssel vertrauen|doc/get/"
+"bezieht sich auf das Vertrauen, das Sie zum TⒶILS Signaturschlüssel haben. "
+"Lesen Sie [[dem TⒶILS Signaturschlüssel vertrauen|doc/get/"
 "trusting_tails_signing_key]]. Um diese Warnung zu beseitigen, müssten Sie "
-"den Tails Signaturschlüssel persönlich mit Ihrem eigenen Schlüssel <span "
+"den TⒶILS Signaturschlüssel persönlich mit Ihrem eigenen Schlüssel <span "
 "class=\"definition\">[[!wikipedia Keysigning desc=\"signieren\"]]</span>."
 
 #. type: Content of: <h3>

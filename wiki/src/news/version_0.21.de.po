@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.21 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.21 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,7 +32,7 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.21, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.21, is out."
 msgstr ""
 
 #. type: Plain text
@@ -76,7 +76,7 @@ msgstr ""
 msgid ""
 "* New features\n"
 "  - Add a persistence preset for printing settings.\n"
-"  - Support running Tails off more types of SD cards.\n"
+"  - Support running TⒶILS off more types of SD cards.\n"
 msgstr ""
 
 #. type: Plain text
@@ -136,7 +136,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -145,7 +145,7 @@ msgid "What's coming up?"
 msgstr ""
 
 #. type: Plain text
-msgid "The next Tails release is scheduled for around December 11."
+msgid "The next TⒶILS release is scheduled for around December 11."
 msgstr ""
 
 #. type: Plain text
@@ -155,5 +155,5 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Would you want to help? There are many ways [[**you** can contribute to "
-"Tails|contribute]]. If you want to help, come talk to us!"
+"TⒶILS|contribute]]. If you want to help, come talk to us!"
 msgstr ""

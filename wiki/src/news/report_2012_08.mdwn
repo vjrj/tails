@@ -1,12 +1,12 @@
 [[!meta date="Thu Sep 6 21:00:16 2012 +0000"]]
-[[!meta title="Tails report for August, 2012"]]
+[[!meta title="TⒶILS report for August, 2012"]]
 
-Here is the report of the many things that happened around Tails in
+Here is the report of the many things that happened around TⒶILS in
 August, 2012.
 
-Tails has been started and successfully connected to the Tor network
+TⒶILS has been started and successfully connected to the Tor network
 around 64.000 times in August. That makes a boot every 41 seconds on
-average. We know this since Tails checks if a new release is available
+average. We know this since TⒶILS checks if a new release is available
 once the network is connected each boot.
 
 Releases
@@ -15,23 +15,23 @@ Releases
 Version 0.13 is coming! We have released the first
 release candidate, along with a [[call for testing|test_0.13-rc1]].
 
-Unless something nasty happens, Tails 0.13 should be released on
+Unless something nasty happens, TⒶILS 0.13 should be released on
 September 11th.
 
-Tails summit
+TⒶILS summit
 ============
 
-Seven mighty Tails developers gathered for a ten-day summit, including a
+Seven mighty TⒶILS developers gathered for a ten-day summit, including a
 day trip to the sea. The meeting was exhausting, inspiring and
 productive. We have tied up some discussions that had a year long
 history, made plans for the future, and worked on a few annoying bug
 fixes and cool hacks.
 
-So, what happened during Tails summit? (Not in any relevant order.)
+So, what happened during TⒶILS summit? (Not in any relevant order.)
 
 * Had an 'About us' go-around.
-* Done a 2D barometer about 'Tails in 3 years', with some questions on
-  the future of Tails.
+* Done a 2D barometer about 'TⒶILS in 3 years', with some questions on
+  the future of TⒶILS.
 * Shared knowledge about what has been done on automated testing so far.
 * Tried to use a forked version of memtest86+ to wipe memory.
 * Started a 'wipe_memory' module for GRUB.
@@ -48,7 +48,7 @@ So, what happened during Tails summit? (Not in any relevant order.)
 * Started a `feature/do-not-build-the-forum` branch and got it merged.
 * Labelled a bunch of tasks and bugs as "broken windows".
 * Designed an amazing release plan.
-* Wrote documentation about "Tails does no boot" and created a "Known
+* Wrote documentation about "TⒶILS does no boot" and created a "Known
   issues" page.
 * Pinged Jake about disabling firewire and the likes.
 * Tried to define meaningful/efficient organisation methods.
@@ -70,10 +70,10 @@ So, what happened during Tails summit? (Not in any relevant order.)
 * Designed a plan for advertising test images to more people.
 * Decided to use torbrowser, and have rough plan for the next things to do.
 * Crippled a laptop due to coffee.
-* Outlined what Tails needs from a task manager application.
+* Outlined what TⒶILS needs from a task manager application.
 * Benchmarked several task managers.
 * Handled conspiranoia about our website.
-* Clarified our position and priorities regarding Tails' network fingerprint,
+* Clarified our position and priorities regarding TⒶILS' network fingerprint,
   both on the "local" side (ISP, local router) and "remote" side (Exit node,
   web server).
 * Decided to accept Bitcoin donations (stay tuned!) but we still do not
@@ -99,7 +99,7 @@ So, what happened during Tails summit? (Not in any relevant order.)
 * We agreed on calling our sponsors 'Alpha', 'Bravo' and so on.
 * We have some preliminary fillings for the next round of the grant
   proposal from sponsor Charlie.
-* We refined how changes were incorporated into Tails.
+* We refined how changes were incorporated into TⒶILS.
 * Decided to switch to a time-based release schedule.
   Some details have to be sorted out, still.
 * Thought of a plan to improve the tails-greeter GUI and user experience.
@@ -108,8 +108,8 @@ So, what happened during Tails summit? (Not in any relevant order.)
 * Discussed how we can make paid workers and volunteers (who sometimes are
   the same persons, really) work together happily.
 * Clarified loooads of development processes so that we avoid the need for a
-  project manager, and know better how to get changes into Tails.
-  Expect us to fill the contribute section of the Tails website with that.
+  project manager, and know better how to get changes into TⒶILS.
+  Expect us to fill the contribute section of the TⒶILS website with that.
 * Designed "Release Managers" and "Welcome and Annoying Nitpicker"
   roles, and scheduled the first shifts.
 * Discussed possibly moving to the `tails.is` domain.
@@ -145,7 +145,7 @@ communication channels:
 We have received 40 reports sent using WhisperBack. Our receiving relay
 was regularly offline this month due to hardware issue.
 
-The forum received 639 new messages, 73 of them signed by "Tails".
+The forum received 639 new messages, 73 of them signed by "TⒶILS".
 
 Code
 ====
@@ -171,7 +171,7 @@ Misc fixes and improvements that will show up in 0.13:
 The ikiwiki forum is not anymore in the bundled static website. This
 results in an important build speed improvement.
 
-A little more progress has been made on building Tails for the next
+A little more progress has been made on building TⒶILS for the next
 upcoming Debian release (codename Wheezy). See
 [wheezy](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/wheezy) branch.
 
@@ -181,7 +181,7 @@ branch.
 
 There is a [possible fix for the pause during the boot
 process](https://mailman.boum.org/pipermail/tails-dev/2012-August/001524.html)
-that probably appeared with Tails 0.12.
+that probably appeared with TⒶILS 0.12.
 
 Some more sorting has been made in order to retrofit our custom packages
 in [[our future APT repositories|todo/APT_repository]]
@@ -227,7 +227,7 @@ instead of the obsolete CheckIt.
 [[Many improvements to the guide for translators|contribute/how/translate]].
 
 Clarify some steps in the [[release process|contribute/release_process]].
-Document better how to release Tails custom packages.
+Document better how to release TⒶILS custom packages.
 
 Update [[!tails_roadmap desc="the roadmap page"]].
 

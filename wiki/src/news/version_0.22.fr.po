@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.22 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 0.22 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.22 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 0.22 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.22, is out."
-msgstr "Tails, The Amnesic Incognito Live System, version 0.22 est sorti."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.22, is out."
+msgstr "TⒶILS, The Amnesic Incognito Live System, version 0.22 est sorti."
 
 #. type: Plain text
 msgid ""
@@ -165,7 +165,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -175,7 +175,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [scheduled](https://mailman.boum.org/pipermail/"
+"The next TⒶILS release is [scheduled](https://mailman.boum.org/pipermail/"
 "tails-dev/2013-December/004405.html)  for January 21."
 msgstr ""
 
@@ -186,5 +186,5 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Would you want to help? There are many ways [[**you** can contribute to "
-"Tails|contribute]]. If you want to help, come talk to us!"
+"TⒶILS|contribute]]. If you want to help, come talk to us!"
 msgstr ""

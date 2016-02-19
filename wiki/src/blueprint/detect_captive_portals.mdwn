@@ -2,12 +2,12 @@
 
 For users that haven't read the documentation about the unsafe browser
 and/or just don't understand when it's necessary, it would be good if
-Tails does a reasonable job to try to detect whether a captive portal
+TⒶILS does a reasonable job to try to detect whether a captive portal
 seems to be in place and notify the user if so. The approaches could
 range from simplistic to more sophisticated:
 
 * If `wait_for_tor_consensus()` fails during time syncing. Note that
-  this would happen if Tails is booted on a LAN without Internet
+  this would happen if TⒶILS is booted on a LAN without Internet
   conneciton.
 * Use [ooni-probe](https://gitweb.torproject.org/ooni-probe.git)?
 * Other approaches.

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2015-11-04 11:50+0100\n"
 "PO-Revision-Date: 2014-07-31 15:44-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -17,8 +17,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Start Tails\"]]\n"
-msgstr "[[!meta title=\"Inicie o Tails\"]]\n"
+msgid "[[!meta title=\"Start TⒶILS\"]]\n"
+msgstr "[[!meta title=\"Inicie o TⒶILS\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,15 +27,15 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 msgid ""
-"Now that you have a Tails device, you can shutdown your computer and start "
-"using Tails without altering your existing operating system."
+"Now that you have a TⒶILS device, you can shutdown your computer and start "
+"using TⒶILS without altering your existing operating system."
 msgstr ""
-"Agora que você tem o Tails em um dispositivo, já pode desligar seu "
-"computador e começar a usar o Tails sem alterar em nada o seu sistema "
+"Agora que você tem o TⒶILS em um dispositivo, já pode desligar seu "
+"computador e começar a usar o TⒶILS sem alterar em nada o seu sistema "
 "operacional atual."
 
 #. type: Plain text
-msgid "If Tails starts successfully, the Tails boot menu appears:"
+msgid "If TⒶILS starts successfully, the TⒶILS boot menu appears:"
 msgstr ""
 
 #. type: Plain text
@@ -51,13 +51,13 @@ msgstr "Se você está usando um DVD\n"
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Put the Tails DVD into the CD/DVD drive and restart the computer. You "
+#| "Put the TⒶILS DVD into the CD/DVD drive and restart the computer. You "
 #| "should see a welcome screen prompting you to choose your language."
 msgid ""
-"Put the Tails DVD into the CD/DVD drive and restart the computer. You should "
-"see the Tails boot menu."
+"Put the TⒶILS DVD into the CD/DVD drive and restart the computer. You should "
+"see the TⒶILS boot menu."
 msgstr ""
-"Coloque o DVD do Tails numa unidade de CD/DVD e reinicie o computador. Você "
+"Coloque o DVD do TⒶILS numa unidade de CD/DVD e reinicie o computador. Você "
 "deverá ver uma tela de boas-vindas para escolher o seu idioma."
 
 #. type: Plain text
@@ -104,7 +104,7 @@ msgstr "PC"
 #| "should see a welcome screen prompting you to choose your language."
 msgid ""
 "Shutdown the computer, plug your device, and start the computer. You should "
-"see the Tails boot menu."
+"see the TⒶILS boot menu."
 msgstr ""
 "Desligue o computador, conecte o dispositivo e ligue o computador. Você "
 "deverá ver uma mensagem de boas-vindas para escolher seu idioma."
@@ -229,7 +229,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "   You might have to undo these changes to start your usual operating\n"
-"system again after your Tails session.\n"
+"system again after your TⒶILS session.\n"
 msgstr ""
 
 #. type: Bullet: '4. '
@@ -267,7 +267,7 @@ msgstr ""
 "<span class=\"guimenuitem\">Boot EFI</span> and se pareça com uma memória USB.\n"
 
 #. type: Plain text
-msgid "Then you should see the Tails boot menu."
+msgid "Then you should see the TⒶILS boot menu."
 msgstr ""
 
 #. type: Plain text
@@ -302,15 +302,15 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Problems starting Tails?\n"
-msgstr "Problemas ao iniciar o Tails?\n"
+msgid "Problems starting TⒶILS?\n"
+msgstr "Problemas ao iniciar o TⒶILS?\n"
 
 #. type: Plain text
 msgid ""
-"Read our specific [[reporting guidelines when Tails does not start|doc/"
+"Read our specific [[reporting guidelines when TⒶILS does not start|doc/"
 "first_steps/bug_reporting/tails_does_not_start]]."
 msgstr ""
-"Leia nossas [[instruções sobre relatório de bug quando o Tails não inicia|"
+"Leia nossas [[instruções sobre relatório de bug quando o TⒶILS não inicia|"
 "doc/first_steps/bug_reporting/tails_does_not_start]]."
 
 #. type: Title =
@@ -323,10 +323,10 @@ msgid "[[See the corresponding documentation.|advanced_topics/virtualization]]"
 msgstr "[[Veja a documentação correspondente.|advanced_topics/virtualization]]"
 
 #~ msgid ""
-#~ "Then, Tails should start and you should see a welcome screen prompting "
+#~ "Then, TⒶILS should start and you should see a welcome screen prompting "
 #~ "you to choose your language."
 #~ msgstr ""
-#~ "Então, o Tails deve iniciar e você deve ver uma tela de boas vindas "
+#~ "Então, o TⒶILS deve iniciar e você deve ver uma tela de boas vindas "
 #~ "pedingo que você escolha seu idioma."
 
 #~ msgid ""
@@ -337,10 +337,10 @@ msgstr "[[Veja a documentação correspondente.|advanced_topics/virtualization]]
 #~ "ao invés de na página de download.\n"
 
 #~ msgid ""
-#~ "It is also possible to [[start Tails as a guest in a virtualization "
+#~ "It is also possible to [[start TⒶILS as a guest in a virtualization "
 #~ "software|advanced_topics/virtualization]] while it has some security "
 #~ "issues."
 #~ msgstr ""
-#~ "Também é possível [[iniciar o Tails como um cliente em um software de "
+#~ "Também é possível [[iniciar o TⒶILS como um cliente em um software de "
 #~ "virtualização|advanced_topics/virtualization]], apesar de isto ter "
 #~ "algumas questões de segurança."

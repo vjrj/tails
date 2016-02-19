@@ -12,7 +12,7 @@ discussions and mockups.
 
 We choose to go with the "WhisperBack Error Reporting" wording.
 
-# [[!tails_ticket 7076 desc="Warn against plugging a Tails device in untrusted systems"]]
+# [[!tails_ticket 7076 desc="Warn against plugging a TⒶILS device in untrusted systems"]]
 
 We choose to put the warn in the "Warnings" page, and see later if this page
 grows too big.

@@ -33,7 +33,7 @@ msgid ""
 "remaining free space on the\n"
 "<span class=\"windows linux mac-usb\">final</span>\n"
 "<span class=\"clone\">new</span>\n"
-"Tails USB stick to store any of the following:\n"
+"TⒶILS USB stick to store any of the following:\n"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -99,7 +99,7 @@ msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Configure persistent volume</span></span>.\n"
 msgstr ""
 
@@ -133,7 +133,7 @@ msgstr ""
 msgid ""
 "   <div class=\"bug\">\n"
 "   <p>If you close the assistant before the creation finishes, you might\n"
-"   not be able to start Tails from this USB stick anymore.</p>\n"
+"   not be able to start TⒶILS from this USB stick anymore.</p>\n"
 "   </div>\n"
 msgstr ""
 
@@ -169,11 +169,11 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "Shut down the computer and restart on the <span class=\"windows linux mac-usb"
-"\">final</span> <span class=\"clone\">new</span> Tails USB stick."
+"\">final</span> <span class=\"clone\">new</span> TⒶILS USB stick."
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "In <span class=\"application\">Tails Greeter</span>:"
+msgid "In <span class=\"application\">TⒶILS Greeter</span>:"
 msgstr ""
 
 #. type: Plain text
@@ -205,7 +205,7 @@ msgid "Click <span class=\"button\">Login</span>."
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "After 15&ndash;30 seconds, the Tails desktop appears."
+msgid "After 15&ndash;30 seconds, the TⒶILS desktop appears."
 msgstr ""
 
 #. type: Plain text
@@ -234,7 +234,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p>You now have a working Tails, congrats!</p>\n"
+msgid "<p>You now have a working TⒶILS, congrats!</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -260,7 +260,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    <p>Tails does not protect you from everything! Have a look at our\n"
+"    <p>TⒶILS does not protect you from everything! Have a look at our\n"
 "    [[warnings|doc/about/warning]].</p>\n"
 msgstr ""
 
@@ -278,11 +278,11 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    <p>If you face any problem, use the <span class=\"guilabel\">Report an\n"
-"    error</span> launcher on the Tails desktop or visit our [[support\n"
+"    error</span> launcher on the TⒶILS desktop or visit our [[support\n"
 "    pages|support]].</p>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p>We hope you enjoy using Tails :)</p>\n"
+msgid "<p>We hope you enjoy using TⒶILS :)</p>\n"
 msgstr ""

@@ -26,7 +26,7 @@ msgstr "[[!meta title=\"نصب نرم‌افزارهای اضافی\"]]\n"
 
 #. type: Plain text
 msgid ""
-"Tails includes a [[coherent but limited set of "
+"TⒶILS includes a [[coherent but limited set of "
 "applications|doc/about/features]]. More applications can be installed as on "
 "any Debian system. Only applications that are packaged for Debian can be "
 "installed. To know if an application is packaged for Debian, and to find the "
@@ -48,8 +48,8 @@ msgstr "<div class=\"caution\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>The packages included in Tails are carefully tested for security.\n"
-"Installing additional packages might break the security built in Tails.\n"
+"<p>The packages included in TⒶILS are carefully tested for security.\n"
+"Installing additional packages might break the security built in TⒶILS.\n"
 "Be careful with what you install.</p>\n"
 msgstr ""
 "<p>بسته‌های موجود در تیلز با دقت از نظر امنیتی بررسی شده‌اند.\n"
@@ -64,7 +64,7 @@ msgstr "</div>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Since Tails is amnesic, any additional software package needs to be "
+"Since TⒶILS is amnesic, any additional software package needs to be "
 "reinstalled in each working\n"
 "session. To install the same software packages automatically at the "
 "beginning of every working session use the\n"

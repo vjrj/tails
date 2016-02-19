@@ -39,7 +39,7 @@ msgstr "در [[فهرست رایانامهٔ پشتیبانی از کاربر|ta
 msgid ""
 "This is a public mailing list, so <strong>be careful with what you are "
 "sending</strong>. Give only the necessary informations about yourself, and "
-"if possible use Tails or [[<span class=\"application\">Tor Browser</span>|"
+"if possible use TⒶILS or [[<span class=\"application\">Tor Browser</span>|"
 "https://torproject.org/torbrowser/]] to hide your IP address."
 msgstr ""
 "این فهرست رایانامه عمومی است، بنابراین <strong>مراقب باشید در آن چه "
@@ -78,7 +78,7 @@ msgstr "برای اتصال از TLS/SSL استفاده کنید!"
 
 #. type: Content of: <div><p>
 msgid ""
-"If you are using Tails, read [[the chat documentation|doc/anonymous_internet/"
+"If you are using TⒶILS, read [[the chat documentation|doc/anonymous_internet/"
 "pidgin]]. Else, you can use [[Pidgin|http://www.pidgin.im/]], an Instant "
 "Messaging client for Windows, GNU/Linux and Mac OS X."
 msgstr ""

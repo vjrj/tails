@@ -23,7 +23,7 @@ msgstr "[[!meta title=\"Changer la phrase de passe du volume persistant\"]]\n"
 
 #. type: Bullet: '  1. '
 msgid ""
-"While starting Tails, [[set up an administration password |doc/first_steps/"
+"While starting TⒶILS, [[set up an administration password |doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
 
@@ -71,12 +71,12 @@ msgstr ""
 #. type: Bullet: '  1. '
 msgid ""
 "Find which device contains the persistent volume. It should have two "
-"partitions, one labelled <span class=\"guilabel\">Tails</span>, and another "
+"partitions, one labelled <span class=\"guilabel\">TⒶILS</span>, and another "
 "one labelled <span class=\"guilabel\">TailsData</span> which corresponds to "
 "the persistent volume."
 msgstr ""
 "Trouver le périphérique contenant le volume persistant. Il devrait contenir "
-"deux partitions, une appelée <span class=\"guilabel\">Tails</span>, et une "
+"deux partitions, une appelée <span class=\"guilabel\">TⒶILS</span>, et une "
 "autre appelée <span class=\"guilabel\">TailsData</span> correspondant au "
 "volume persistant."
 
@@ -120,10 +120,10 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid ""
-"You now can restart Tails and try to enable the persistent volume with its "
+"You now can restart TⒶILS and try to enable the persistent volume with its "
 "new passphrase."
 msgstr ""
-"Vous pouvez désormais redémarrer Tails et essayer d'activer le volume "
+"Vous pouvez désormais redémarrer TⒶILS et essayer d'activer le volume "
 "persistant avec sa nouvelle phrase de passe."
 
 #~ msgid "[[!toc levels=2]]\n"

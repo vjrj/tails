@@ -73,7 +73,7 @@ fi
 # Upgrade if needed
 apt-get -y dist-upgrade
 
-# Those are needed to build Tails
+# Those are needed to build TⒶILS
 apt-get -y install \
 	live-build \
 	syslinux-utils \

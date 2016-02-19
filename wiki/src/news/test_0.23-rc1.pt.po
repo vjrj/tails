@@ -24,7 +24,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.23 is out. Please test it and see if all works for you."
 msgstr ""
 
@@ -33,7 +33,7 @@ msgid "[[!toc levels=1]]"
 msgstr ""
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.23~rc1?"
+msgid "How to test TⒶILS 0.23~rc1?"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -50,13 +50,13 @@ msgstr ""
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/"
-"tails-i386-0.23~rc1/tails-i386-0.23~rc1.iso\" >Tails 0.23~rc1 ISO image</a>"
+"tails-i386-0.23~rc1/tails-i386-0.23~rc1.iso\" >TⒶILS 0.23~rc1 ISO image</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-signature\" href=\"https://tails.boum.org/torrents/files/"
-"tails-i386-0.23~rc1.iso.sig \" >Tails 0.23~rc1 signature</a>"
+"tails-i386-0.23~rc1.iso.sig \" >TⒶILS 0.23~rc1 signature</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
@@ -89,13 +89,13 @@ msgstr ""
 #. type: Content of: <p>
 msgid ""
 "These steps allow you to automatically upgrade a device installed with <span "
-"class=\"application\">Tails Installer</span> from Tails 0.22.1 to Tails "
-"0.23~rc1 using the <span class=\"application\">Tails Upgrader</span>:"
+"class=\"application\">TⒶILS Installer</span> from Tails 0.22.1 to Tails "
+"0.23~rc1 using the <span class=\"application\">TⒶILS Upgrader</span>:"
 msgstr ""
 
 #. type: Content of: <ul><li><p>
 msgid ""
-"Start Tails 0.22.1 and [[set an administration password|doc/first_steps/"
+"Start TⒶILS 0.22.1 and [[set an administration password|doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 #. type: Content of: <ul><ul><li><p>
 msgid ""
 "Rework the way to configure how Tor connects to the network (bridges, "
-"proxies, restrictive firewalls): add an option to Tails Greeter, start Tor "
+"proxies, restrictive firewalls): add an option to TⒶILS Greeter, start Tor "
 "Launcher when needed (Closes: [[!tails_ticket 5920]], [[!tails_ticket "
 "5343]])."
 msgstr ""
@@ -161,14 +161,14 @@ msgstr ""
 #. type: Content of: <ul><ul><li><p>
 msgid ""
 "Disable the Intel Management Engine Interface driver (Closes: [[!"
-"tails_ticket 6460]]). We don't need it in Tails, it might be dangerous, and "
+"tails_ticket 6460]]). We don't need it in TⒶILS, it might be dangerous, and "
 "it causes bugs on various hardware such as systems that reboot when asked to "
 "shut down."
 msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
 msgid ""
-"Add a launcher for the Tails documentation. This makes it available in "
+"Add a launcher for the TⒶILS documentation. This makes it available in "
 "Windows Camouflage mode (Closes: [[!tails_ticket 5374]], [[!tails_ticket "
 "6767]])."
 msgstr ""
@@ -236,7 +236,7 @@ msgstr ""
 
 #. type: Content of: <ul><ul><li><ul><li><p>
 msgid ""
-"Drop the Tails Upgrader launcher, to limit users' confusion (Closes: [[!"
+"Drop the TⒶILS Upgrader launcher, to limit users' confusion (Closes: [[!"
 "tails_ticket 6513]])."
 msgstr ""
 
@@ -251,7 +251,7 @@ msgstr ""
 #. type: Content of: <ul><ul><li><ul><li><p>
 msgid ""
 "Include ~/.xsession-errors in WhisperBack bug reports. This captures the "
-"Tails Upgrader errors and debugging information."
+"TⒶILS Upgrader errors and debugging information."
 msgstr ""
 
 #. type: Content of: <ul><ul><li><ul><li><p>
@@ -279,8 +279,8 @@ msgstr ""
 #. type: Content of: <ul><ul><li><p>
 msgid ""
 "Remove the preconfigured #tor channel from Pidgin: apparently, too many "
-"Tails users go ask Tails questions there, without making it clear that they "
-"are running Tails, hence creating a user-support nightmare (Closes: [[!"
+"TⒶILS users go ask Tails questions there, without making it clear that they "
+"are running TⒶILS, hence creating a user-support nightmare (Closes: [[!"
 "tails_ticket 6679]])."
 msgstr ""
 
@@ -295,11 +295,11 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
-msgid "Give access to the relevant documentation pages from Tails Greeter."
+msgid "Give access to the relevant documentation pages from TⒶILS Greeter."
 msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
-msgid "Hide Tails Greeter's password mismatch warning when entry is changed."
+msgid "Hide TⒶILS Greeter's password mismatch warning when entry is changed."
 msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
@@ -307,7 +307,7 @@ msgid "Persistent Volume Assistant:"
 msgstr ""
 
 #. type: Content of: <ul><ul><li><ul><li><p>
-msgid "Take into account our installer is now called Tails Installer."
+msgid "Take into account our installer is now called TⒶILS Installer."
 msgstr ""
 
 #. type: Content of: <ul><ul><li><ul><li><p>
@@ -414,6 +414,6 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"All these issues are being worked on and will hopefully be fixed in Tails "
+"All these issues are being worked on and will hopefully be fixed in TⒶILS "
 "0.23."
 msgstr ""

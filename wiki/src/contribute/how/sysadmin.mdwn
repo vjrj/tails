@@ -1,8 +1,8 @@
-[[!meta title="Improve the infrastructure behind Tails"]]
+[[!meta title="Improve the infrastructure behind TⒶILS"]]
 
 <div id="intro">
 
-<p>So you want to help improve the infrastructure behind Tails.<br />
+<p>So you want to help improve the infrastructure behind TⒶILS.<br />
 Welcome aboard! Please read-on.</p>
 
 [[!toc levels=1]]
@@ -13,11 +13,11 @@ Welcome aboard! Please read-on.</p>
 
 First of all, please read the [[goals and
 principles|contribute/working_together/roles/sysadmins#goals]] of the
-Tails system administration team.
+TⒶILS system administration team.
 
 # Skills needed
 
-Essential skills for participating in the Tails infrastructure include
+Essential skills for participating in the TⒶILS infrastructure include
 basic Unix system administration knowledge and good
 communication skills.
 
@@ -125,4 +125,4 @@ this is great; or else you may ask us to host your repository.
 
 Email us at <tails-sysadmins@boum.org>. We prefer receiving email
 encrypted with [[our OpenPGP key|doc/about/openpgp_keys#sysadmins]],
-that is certified by the Tails signing key.
+that is certified by the TⒶILS signing key.

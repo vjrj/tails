@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 0.20.1\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 0.20.1\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,12 +32,12 @@ msgid "[[!tag security/fixed]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Several security holes affect Tails 0.20.1."
+msgid "Several security holes affect TⒶILS 0.20.1."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"We **strongly** urge you to [[upgrade to Tails 0.21|news/version_0.21]] as "
+"We **strongly** urge you to [[upgrade to TⒶILS 0.21|news/version_0.21]] as "
 "soon as possible in case you are still using an older version."
 msgstr ""
 
@@ -49,7 +49,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-" - Tails:\n"
+" - TⒶILS:\n"
 "   - An attacker able to run arbitrary code as the desktop user could\n"
 "     obtain the public IP.\n"
 "   - An attacker able to run arbitrary code as the desktop user could\n"

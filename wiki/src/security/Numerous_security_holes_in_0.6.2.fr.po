@@ -22,8 +22,8 @@ msgstr "[[!meta date=\"Mon Apr 4 11:12:13 2011\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 0.6.2\"]]\n"
-msgstr "[[!meta title=\"Nombreux trous de sécurité dans Tails 0.6.2\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 0.6.2\"]]\n"
+msgstr "[[!meta title=\"Nombreux trous de sécurité dans TⒶILS 0.6.2\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -31,16 +31,16 @@ msgid "[[!tag security/fixed]]\n"
 msgstr "[[!tag security/fixed]]\n"
 
 #. type: Plain text
-msgid "The following security holes affect Tails 0.6.2."
-msgstr "Les trous de sécurité suivants affectent Tails 0.6.2."
+msgid "The following security holes affect TⒶILS 0.6.2."
+msgstr "Les trous de sécurité suivants affectent TⒶILS 0.6.2."
 
 #. type: Plain text
 msgid ""
-"We **strongly** urge you to [[upgrade to Tails 0.7|news/version_0.7]] in case "
+"We **strongly** urge you to [[upgrade to TⒶILS 0.7|news/version_0.7]] in case "
 "you are still using an older version."
 msgstr ""
 "Si vous utilisez encore une version plus ancienne, nous vous recommandons "
-"**chaudement** de [[mettre à jour votre système vers Tails 0.7|news/"
+"**chaudement** de [[mettre à jour votre système vers TⒶILS 0.7|news/"
 "version_0.7]]."
 
 #. type: Plain text
@@ -57,12 +57,12 @@ msgstr "Fonction \"effacement de la mémoire à l'extinction\" incomplète"
 msgid ""
 "As an [[external audit demonstrated|security/audits/Blackhat_De-"
 "Anonymizing_Live_CDs]], the \"erase memory on shutdown\" feature, as "
-"implemented in Tails 0.6.2 and older, does not erase as much memory as it "
+"implemented in TⒶILS 0.6.2 and older, does not erase as much memory as it "
 "could. More specifically:"
 msgstr ""
 "Un [[audit externe|security/audits/Blackhat_De-Anonymizing_Live_CDs]] a "
 "montré que la fonction \"effacement de la mémoire à l'extinction\", telle "
-"qu'elle était dans Tails 0.6.2 et les versions précédentes, n'efface pas "
+"qu'elle était dans TⒶILS 0.6.2 et les versions précédentes, n'efface pas "
 "aussi bien la mémoire que prévue. En particulier :"
 
 #. type: Bullet: '1. '
@@ -87,12 +87,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "This discovery lead to a brand new implementation of the memory erasure "
-"feature that is shipped in Tails 0.7. As a bonus, the memory is now also "
+"feature that is shipped in TⒶILS 0.7. As a bonus, the memory is now also "
 "erased when the boot media is physically removed."
 msgstr ""
 "Cette découverte a amené à une toute nouvelle mouture de la fonction "
-"effacement de la mémoire à l'extinction qui est contenue dans Tails 0.7. En "
-"plus de ça, la mémoire est aussi effacée quand le support de Tails est "
+"effacement de la mémoire à l'extinction qui est contenue dans TⒶILS 0.7. En "
+"plus de ça, la mémoire est aussi effacée quand le support de TⒶILS est "
 "physiquement enlevé."
 
 #. type: Title #

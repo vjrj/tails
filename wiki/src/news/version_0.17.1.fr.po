@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.17.1 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 0.17.1 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.17.1 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 0.17.1 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.17.1, is out."
-msgstr "Tails, The Amnesic Incognito Live System, version 0.17.1, est sorti."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.17.1, is out."
+msgstr "TⒶILS, The Amnesic Incognito Live System, version 0.17.1, est sorti."
 
 #. type: Plain text
 msgid "All users must upgrade as soon as possible."
@@ -108,7 +108,7 @@ msgid "Known issue"
 msgstr ""
 
 #. type: Plain text
-msgid "The VirtualBox support in Tails 0.17.1 is not as good as it could be."
+msgid "The VirtualBox support in TⒶILS 0.17.1 is not as good as it could be."
 msgstr ""
 
 #. type: Title #
@@ -123,10 +123,10 @@ msgstr "Voir la page [[pour commencer|Getting started]]."
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 "Comme aucun logiciel n'est parfait, nous maintenons une liste des "
-"[[problèmes qui affectent la dernière version de Tails|support/"
+"[[problèmes qui affectent la dernière version de TⒶILS|support/"
 "known_issues]]."
 
 #. type: Title #
@@ -136,10 +136,10 @@ msgstr "Et ensuite ?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release (0.17.2) is scheduled for April 9. It will be a "
+"The next TⒶILS release (0.17.2) is scheduled for April 9. It will be a "
 "minor, bugfix only one."
 msgstr ""
-"La prochaine version de Tails (0.17.2) est prévue pour le 9 Avril. Elle sera "
+"La prochaine version de TⒶILS (0.17.2) est prévue pour le 9 Avril. Elle sera "
 "surement une version mineure qui se contentera de corriger des problèmes."
 
 #. type: Plain text
@@ -150,8 +150,8 @@ msgstr "Jetez un œil à la [[!tails_roadmap]] pour savoir où nous allons."
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], there are many ways **you** can contribute to "
-"Tails. If you want to help, come talk to us!"
+"TⒶILS. If you want to help, come talk to us!"
 msgstr ""
 "Vous voulez aider ? Comme expliqué dans notre [[documentation \"comment "
 "contribuer\"|contribute]], il y a de nombreuses manières pour **vous** de "
-"contribuer à Tails. Si vous voulez aider, venez nous en parler ! "
+"contribuer à TⒶILS. Si vous voulez aider, venez nous en parler ! "

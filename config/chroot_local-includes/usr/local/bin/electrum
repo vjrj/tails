@@ -13,7 +13,7 @@ electrum_config_is_persistent() {
 verify_start () {
     local dialog_msg="<b><big>`gettext \"Persistence is disabled for Electrum\"`</big></b>
 
-`gettext \"When you reboot Tails, all of Electrum's data will be lost, including your Bitcoin wallet. It is strongly recommended to only run Electrum when its persistence feature is activated.\"`
+`gettext \"When you reboot TⒶILS, all of Electrum's data will be lost, including your Bitcoin wallet. It is strongly recommended to only run Electrum when its persistence feature is activated.\"`
 
 `gettext \"Do you want to start Electrum anyway?\"`
 "

@@ -1,6 +1,6 @@
-<h1 class="usb">Restart on the final Tails</h1>
-<h1 class="clone">Restart on the other Tails</h1>
-<h1 class="mac-dvd">Restart on the Tails USB stick</h1>
+<h1 class="usb">Restart on the final TⒶILS</h1>
+<h1 class="clone">Restart on the other TⒶILS</h1>
+<h1 class="mac-dvd">Restart on the TⒶILS USB stick</h1>
 
 1. Shut down the computer.
 
@@ -25,10 +25,10 @@
    [[!inline pages="install/inc/steps/mac_startup_disks.inline" raw="yes"]]
 
    <div class="note windows linux">
-   <p>Some computers start successfully on the intermediary Tails but fail
-   to start on the final Tails. If this is your case, refer to
+   <p>Some computers start successfully on the intermediary TⒶILS but fail
+   to start on the final TⒶILS. If this is your case, refer to
    [[!toggle id="not_at_all" text="the troubleshooting section about
-   Tails not starting at all"]].</p>
+   TⒶILS not starting at all"]].</p>
    </div>
 
    [[!toggleable id="not_at_all" text="""
@@ -43,12 +43,12 @@
 
    <div class="bug mac-usb mac-dvd">
    <p>If your computer fails to start on the
-   <span class="usb">final Tails,</span>
-   <span class="mac-dvd">Tails USB stick,</span>
+   <span class="usb">final TⒶILS,</span>
+   <span class="mac-dvd">TⒶILS USB stick,</span>
    you can continue using the
-   <span class="usb">intermediary Tails</span>
-   <span class="mac-dvd">Tails DVD</span>.
-   <span class="usb">On this intermediary Tails you cannot benefit from
+   <span class="usb">intermediary TⒶILS</span>
+   <span class="mac-dvd">TⒶILS DVD</span>.
+   <span class="usb">On this intermediary TⒶILS you cannot benefit from
    automatic upgrades or create an encrypted persistent storage.</span></p>
 
    <p>You should still have a look at our
@@ -56,13 +56,13 @@
    <span class="mac-dvd">[[final recommendations|mac/dvd#recommendations]].</span></p>
    </div>
 
-1. In the <span class="guilabel">Boot Tails</span> menu, choose
+1. In the <span class="guilabel">Boot TⒶILS</span> menu, choose
    <span class="guilabel">Live</span> and press <span class="keycap">Enter</span>.
 
-1. After 30&ndash;60 seconds, <span class="application">Tails Greeter</span> appears.
+1. After 30&ndash;60 seconds, <span class="application">TⒶILS Greeter</span> appears.
 
-1. In <span class="application">Tails Greeter</span>, select your
+1. In <span class="application">TⒶILS Greeter</span>, select your
    preferred language in the drop-down list on the bottom left of the screen.
    Click <span class="button">Login</span>.
 
-1. After 15&ndash;30 seconds, the Tails desktop appears.
+1. After 15&ndash;30 seconds, the TⒶILS desktop appears.

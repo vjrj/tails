@@ -26,7 +26,7 @@ Notable user-visible changes include:
   - Install unrar-free.
   - Do not install pppoeconf (superseeded by NetworkManager).
   - Upgrade macchanger to Debian testing package to ease development of
-    future Tails releases.
+    future TⒶILS releases.
   - Debian security upgrades: x11-xserver-utils (DSA-2213-1), isc-dhcp
     (DSA-2216-1), libmodplug (DSA-2226-1).
 
@@ -50,7 +50,7 @@ Notable user-visible changes include:
   - Remove "vga=788" boot parameter which breaks the boot on some hardware.
   - Remove now useless "splash" boot parameter.
   - Fix a bunch of i386-isms.
-  - Pass the noswap option to the kernel. This does not change actual Tails
+  - Pass the noswap option to the kernel. This does not change actual TⒶILS
     behaviour but prevents users from unnecessarily worrying because of 
     the "Activating swap" boot message.
 
@@ -66,9 +66,9 @@ for technical details.
 
 # Can I use it on a pre-Intel Mac computer?
 
-Tails images with *i386* in their name work on the Intel x86
+TⒶILS images with *i386* in their name work on the Intel x86
 architecture only. However, we've been working towards releasing a
-Tails image suitable for the pre-Intel Macs hardware (PowerPC
+TⒶILS image suitable for the pre-Intel Macs hardware (PowerPC
 architecture). Stay tuned, it will be prepared and made available
 soonish.
 
@@ -79,4 +79,4 @@ see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], here are many ways **you** can contribute
-to Tails: no need to be a hardcore developer.
+to TⒶILS: no need to be a hardcore developer.

@@ -1,4 +1,4 @@
-[[!meta title="Tails August 2015 report"]]
+[[!meta title="TⒶILS August 2015 report"]]
 
 [[!toc levels=2]]
 
@@ -17,13 +17,13 @@ be copy'n'pasted as-is from the proposal sent to the sponsor.
 
 In May we discovered than Claws Mail is leaking plaintext of encrypted
 emails to the IMAP server [1] and that it was impossible to fix this
-properly in Tails. As a consequence, we're now considering moving to
+properly in TⒶILS. As a consequence, we're now considering moving to
 Icedove faster than planned initially (late January) and to:
 
   - Replace Claws Mail with Icedove *without* its account creation
-    wizard in Tails 1.7 (early November). TorBirdy already provides an
+    wizard in TⒶILS 1.7 (early November). TorBirdy already provides an
     alternative account wizard which is good enough for that step.
-  - Add the wizard in Tails 1.9 (late January).
+  - Add the wizard in TⒶILS 1.9 (late January).
 
 We also started prototyping tools for users to migrate their data from
 Claws Mail to Icedove but nothing is published yet.
@@ -37,7 +37,7 @@ Claws Mail to Icedove but nothing is published yet.
 
 - B.1.9. Deploy, refresh our Jenkins jobs regularly
 
-  After our code freeze for Tails 1.5, we realized that there was
+  After our code freeze for TⒶILS 1.5, we realized that there was
   a bug in our algorithm that detects what Git branch should be built
   on Jenkins (#9925). We promptly worked around the
   problem initially, to not interfere with the release management work.
@@ -110,14 +110,14 @@ GUADEC and DebConf.
 Still, aside of the achievements described below:
 
 - We identified issues on Jessie with the AppArmor profile for CUPS
-  (#9963). The Tails-specific part was corrected,
+  (#9963). The TⒶILS-specific part was corrected,
   and more generic maintainability issues were raised on the upstream
   mailing-list.
 
   https://labs.riseup.net/code/issues/9963
 
 - We identified a couple minor issues that we would like to address
-  before the Tails 2.0 release (#9966, #9967), if time permits.
+  before the TⒶILS 2.0 release (#9966, #9967), if time permits.
 
   https://labs.riseup.net/code/issues/9966
   https://labs.riseup.net/code/issues/9967
@@ -131,7 +131,7 @@ Still, aside of the achievements described below:
 
   https://labs.riseup.net/code/issues/7989
 
-## D.2. Take advantage of systemd to improve the internals of Tails
+## D.2. Take advantage of systemd to improve the internals of TⒶILS
 
 - D.2.2. Replace our patches to upstream initscripts with systemd
   drop-in overrides (#9881)
@@ -142,9 +142,9 @@ Still, aside of the achievements described below:
 
   https://labs.riseup.net/code/issues/9881
 
-## D.6. Upgrade Tails-specific tools to Debian Jessie technologies
+## D.6. Upgrade TⒶILS-specific tools to Debian Jessie technologies
 
-- D.6.1. Port Tails-specific tools from udisks 1 to udisks 2
+- D.6.1. Port TⒶILS-specific tools from udisks 1 to udisks 2
 
   We worked a bit on simple reproducers for the race conditions we are
   seeing in udisks (#9691).
@@ -160,24 +160,24 @@ Still, aside of the achievements described below:
 
 # E. Release management
 
-  - Tails 1.5 [3] was released on 2015-08-11
+  - TⒶILS 1.5 [3] was released on 2015-08-11
 
     - Disable access to the local network in the Tor Browser. Users
       should now use the Unsafe Browser to access the local network.
     - Install Tor Browser 5.0 (based on Firefox 38esr).
-    - Install a 32-bit GRUB EFI boot loader. Tails now starts on some
+    - Install a 32-bit GRUB EFI boot loader. TⒶILS now starts on some
       tablets with Intel Bay Trail processors and on some Mac with
       32-bit UEFI.
-    - Let the user know when Tails Installer has rejected a device
+    - Let the user know when TⒶILS Installer has rejected a device
       because it is too small.
     - Our AppArmor setup has been audited and improved in various ways
       which should harden the system.
 
     [3]: https://tails.boum.org/news/version_1.5/
 
-  - Tails 1.5.1 [4] was released on 2015-08-28
+  - TⒶILS 1.5.1 [4] was released on 2015-08-28
 
-    Tails 1.5.1 was an emergency release triggered by an unscheduled Firefox
+    TⒶILS 1.5.1 was an emergency release triggered by an unscheduled Firefox
     release meant to fix critical security issues.
 
     [4]: https://tails.boum.org/news/version_1.5.1/

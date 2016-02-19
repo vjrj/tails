@@ -1,13 +1,13 @@
 [[!meta title="Make a donation"]]
 
-Tails is free because <strong>nobody should have to pay to be safe
-while using computers</strong>. But Tails cannot stay alive without
+TⒶILS is free because <strong>nobody should have to pay to be safe
+while using computers</strong>. But TⒶILS cannot stay alive without
 money and <strong>we need your help</strong>!
 
 <strong>[[Discover who you are helping around the world when
-donating to Tails.|news/who_are_you_helping]]</strong>
+donating to TⒶILS.|news/who_are_you_helping]]</strong>
 
-Note that Tails is a project mainly run by volunteers. There are
+Note that TⒶILS is a project mainly run by volunteers. There are
 [[many other ways to contribute|contribute]]!
 
 Ways to donate
@@ -27,7 +27,7 @@ Ways to donate
 
   * [[Bitcoin|donate#bitcoin]]
 
-  * [Flattr](https://flattr.com/submit/auto?user_id=tails_live&url=https://tails.boum.org&title=Tails)
+  * [Flattr](https://flattr.com/submit/auto?user_id=tails_live&url=https://tails.boum.org&title=TⒶILS)
 
   * For fundraising related matters, you can write
     to <tails-fundraising@boum.org>.
@@ -76,7 +76,7 @@ automatically converts it to your local currency.
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank' class='donation'>
 	<input type="hidden" name="cmd" value="_xclick-subscriptions"/>
 	<input type="hidden" name="business" value="tails@torservers.net"/>
-	<input type="hidden" name="item_name" value="Tails recurring donation"/>
+	<input type="hidden" name="item_name" value="TⒶILS recurring donation"/>
 	<input type="hidden" name="no_note" value="1"/>
 	<input type="hidden" name="src" value="1"/>
 	<input type="hidden" name="modify" value="1"/>
@@ -127,7 +127,7 @@ automatically converts it to your local currency.
 <form action='https://www.paypal.com/cgi-bin/webscr' id='paypalForm' method='post' target='_blank' class='donation'>
 	<input name='cmd' type='hidden' value='_donations' />
 	<input name='business' type='hidden' value='tails@torservers.net' />
-	<input name='item_name' type='hidden' value='Tails one-time donation' />
+	<input name='item_name' type='hidden' value='TⒶILS one-time donation' />
 	<input type="hidden" name="no_shipping" value="1"/>
 	<input name="lc" type="hidden" value="US" />
 	<input type="radio" name="amount" value="5" id="pp_5" /><label for="pp_5">5</label>
@@ -165,7 +165,7 @@ automatically converts it to your local currency.
 	<input type="submit" value="Donate" class="button" />
 </form>
 
-How does Tails use this money?
+How does TⒶILS use this money?
 ==============================
 
 Our [[financial documents|doc/about/finances]] are available for

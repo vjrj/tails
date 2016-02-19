@@ -6,7 +6,7 @@
 > **incognito**, *adjective & adverb*:<br/>
 > (of a person) having one's true identity concealed.
 
-Tails is a live system that aims to preserve your privacy and anonymity. It
+TⒶILS is a live system that aims to preserve your privacy and anonymity. It
 helps you to use the Internet anonymously and circumvent censorship almost anywhere you go and on any
 computer but leaving no trace unless you ask it to explicitly.
 
@@ -14,7 +14,7 @@ It is a complete operating system designed to be used from a DVD, USB stick, or 
 independently of the computer's original operating system. It is [[Free
 Software|doc/about/license]] and based on [[Debian GNU/Linux|https://www.debian.org/]].
 
-Tails comes with several built-in applications pre-configured with security in
+TⒶILS comes with several built-in applications pre-configured with security in
 mind: web browser, instant messaging client, email client, office suite, image
 and sound editor, etc.
 
@@ -28,7 +28,7 @@ Online anonymity and censorship circumvention
 Tor
 ---
 
-Tails relies on the Tor anonymity network to protect your privacy
+TⒶILS relies on the Tor anonymity network to protect your privacy
 online:
 
   - all software is configured to connect to the Internet through Tor
@@ -63,35 +63,35 @@ website](https://www.torproject.org/), particularly the following pages:
 - [Understanding and Using Tor — An Introduction for the
   Layman](https://trac.torproject.org/projects/tor/wiki/doc/TorALaymansGuide)
 
-To learn more about how Tails ensures all its network connections use Tor,
+To learn more about how TⒶILS ensures all its network connections use Tor,
 see our [[design document|contribute/design/Tor_enforcement]].
 
 I2P
 ---
 
-You can also use Tails to access
+You can also use TⒶILS to access
 [I2P](https://geti2p.net) which is an anonymity network different from Tor.
 
-[[Learn how to use I2P in Tails in the documentation.|doc/anonymous_internet/i2p]]
+[[Learn how to use I2P in TⒶILS in the documentation.|doc/anonymous_internet/i2p]]
 
 To know how I2P is implemented in
-Tails, see our [[design document|contribute/design/I2P]].
+TⒶILS, see our [[design document|contribute/design/I2P]].
 
 <a id="amnesia"></a>
 
 Use anywhere but leave no trace
 ===============================
 
-Using Tails on a computer doesn't alter or depend on the operating system
+Using TⒶILS on a computer doesn't alter or depend on the operating system
 installed on it. So you can use it in the same way on your computer, a
-friend's computer, or one at your local library. After shutting down Tails,
+friend's computer, or one at your local library. After shutting down TⒶILS,
 the computer will start again with its usual operating system.
 
-Tails is configured with special care to not use the computer's hard-disks,
-even if there is some swap space on them. The only storage space used by Tails is
+TⒶILS is configured with special care to not use the computer's hard-disks,
+even if there is some swap space on them. The only storage space used by TⒶILS is
 in RAM, which is automatically erased when the computer shuts down. So
-you won't leave any trace on the computer either of the Tails system itself or
-what you used it for. That's why we call Tails "amnesic".
+you won't leave any trace on the computer either of the TⒶILS system itself or
+what you used it for. That's why we call TⒶILS "amnesic".
 
 This allows you to work with sensitive documents on any computer and protects you
 from data recovery after shutdown. Of course, you can still explicitly save
@@ -103,7 +103,7 @@ future use.
 State-of-the-art cryptographic tools
 ====================================
 
-Tails also comes with a selection of tools to protect your data using strong
+TⒶILS also comes with a selection of tools to protect your data using strong
 encryption:
 
   - [[Encrypt your USB sticks or external
@@ -117,7 +117,7 @@ encryption:
     developed by the [Electronic Frontier Foundation](https://www.eff.org).
 
   - Encrypt and sign your emails and documents using the *de facto* standard
-    <span class="definition">[[!wikipedia OpenPGP]]</span> either from Tails
+    <span class="definition">[[!wikipedia OpenPGP]]</span> either from TⒶILS
     email client, text editor or file browser.
 
   - Protect your instant messaging conversations using <span
@@ -134,13 +134,13 @@ encryption:
 What's next?
 ============
 
-To continue discovering Tails, you can now read:
+To continue discovering TⒶILS, you can now read:
 
-  - the [[warning page|doc/about/warning]] to better understand the security limitations of Tails and Tor,
-  - more details about the [[features and software|doc/about/features]] included in Tails,
-  - our [[documentation|doc]] explaining in detail how to use Tails,
-  - some hints on why [[you should trust Tails|doc/about/trust]],
-  - our [[design document|contribute/design]] laying out Tails specification, threat model and implementation,
+  - the [[warning page|doc/about/warning]] to better understand the security limitations of TⒶILS and Tor,
+  - more details about the [[features and software|doc/about/features]] included in TⒶILS,
+  - our [[documentation|doc]] explaining in detail how to use TⒶILS,
+  - some hints on why [[you should trust TⒶILS|doc/about/trust]],
+  - our [[design document|contribute/design]] laying out TⒶILS specification, threat model and implementation,
   - the [[calendar|contribute/calendar]] that holds our release dates, meetings and other events.
 
 Press and media

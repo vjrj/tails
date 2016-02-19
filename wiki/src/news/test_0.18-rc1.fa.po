@@ -27,7 +27,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.18 is out. Please test it and see if all works for you."
 msgstr ""
 "شما می‌توانید به تیلز کمک کنید! اولین (و امیدواریم تنها) نامزد انتشار برای "
@@ -39,7 +39,7 @@ msgid "[[!toc levels=1]]"
 msgstr "[[!toc levels=1]]"
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.18~rc1?"
+msgid "How to test TⒶILS 0.18~rc1?"
 msgstr "چگونه تیلز 0.18~rc1 را امتحان کنیم؟"
 
 #. type: Content of: <ol><li><p>
@@ -60,7 +60,7 @@ msgstr "تصویر ایزو و امضای آن را دانلود کنید:"
 msgid ""
 "<a class=\"download-file\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.18-rc1/tails-i386-0.18-rc1.iso\" "
-">Tails 0.18~rc1 ISO image</a>"
+">TⒶILS 0.18~rc1 ISO image</a>"
 msgstr ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/ta"
 "ils-i386-0.18-rc1/tails-i386-0.18-rc1.iso\" >تصویر ایزوی تیلز 0.18~rc1</a>"
@@ -69,7 +69,7 @@ msgstr ""
 msgid ""
 "<a class=\"download-signature\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.18-rc1/tails-i386-0.18-rc1.iso.pgp\" "
-">Tails 0.18~rc1 signature</a>"
+">TⒶILS 0.18~rc1 signature</a>"
 msgstr ""
 "<a class=\"download-signature\" href=\"http://dl.amnesia.boum.org/tails/testi"
 "ng/tails-i386-0.18-rc1/tails-i386-0.18-rc1.iso.pgp\" >امضای تیلز 0.18~rc1 "
@@ -203,7 +203,7 @@ msgid "Don't disable IPv6 on all network interfaces anymore."
 msgstr "توقف غیرفعال کردن پروتکل اینترنت نسخهٔ ۶ روی تمام رابط‌های شبکه."
 
 #. type: Content of: <ul><ul><li><p>
-msgid "Add a \"About Tails\" launcher in the System menu."
+msgid "Add a \"About TⒶILS\" launcher in the System menu."
 msgstr "اضافه کردن یک راه‌انداز «دربارهٔ تیلز» در فهرست سیستم."
 
 #. type: Content of: <ul><ul><li><p>
@@ -212,7 +212,7 @@ msgstr "نصب تم‌های دسترسی‌پذیری گنوم."
 
 #. type: Content of: <ul><ul><li><p>
 msgid ""
-"Use <em>Getting started...</em> as the homepage for Tails documentation "
+"Use <em>Getting started...</em> as the homepage for TⒶILS documentation "
 "button."
 msgstr "استفاده از <em>شروع...</em> به عنوان صفحهٔ اول دکمهٔ مستندات تیلز."
 
@@ -265,5 +265,5 @@ msgstr ""
 "می‌کند."
 
 #. type: Content of: <p>
-msgid "All these issues should be fixed in Tails 0.18."
+msgid "All these issues should be fixed in TⒶILS 0.18."
 msgstr "تمام این مشکلات باید در تیلز ۰٫۱۸ برطرف شوند."

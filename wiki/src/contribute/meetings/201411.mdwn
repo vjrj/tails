@@ -42,7 +42,7 @@ would be to have more control on who has commit permissions. But we do
 that only on very rare occasions. We couldn't find any good reason to do
 this work so we rejected this ticket.
 
-# [[!tails_ticket 7778 desc="Have an easy way to use or discover Tails OpenPGP Applet from Iceweasel"]]
+# [[!tails_ticket 7778 desc="Have an easy way to use or discover TⒶILS OpenPGP Applet from Iceweasel"]]
 
 We considered this as a low priority but interesting UX issue. People
 willing to design and propose a new UI for that should make sure that
@@ -58,5 +58,5 @@ same blue color.
 # [[!tails_ticket 7376 desc="Use more discreet Pidgin tray icons in Windows camouflage mode"]] and [[!tails_ticket 7399 desc="Remove Pidgin systray icon in Windows 8 camouflage"]]
 
 We considered those as no real issues. The camouflage mode tries to
-avoid being spotted as Tails by someone passing by but it can't be a
+avoid being spotted as TⒶILS by someone passing by but it can't be a
 100% perfect imitation of Windows. So we decided to reject both tickets.

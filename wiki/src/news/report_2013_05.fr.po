@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for May, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for May, 2013\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -37,7 +37,7 @@ msgid "Releases\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails 0.18 [[was released|news/version_0.18]] on May 18."
+msgid "TⒶILS 0.18 [[was released|news/version_0.18]] on May 18."
 msgstr ""
 
 #. type: Title =
@@ -47,9 +47,9 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"128 676 connections of Tails to the Tor network. This makes a boot every 21 "
+"128 676 connections of TⒶILS to the Tor network. This makes a boot every 21 "
 "seconds on average (this is an approximation from the requests made to the "
-"security announcements feed when Tails is connected to Tor)."
+"security announcements feed when TⒶILS is connected to Tor)."
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -57,7 +57,7 @@ msgid "51 non-empty bug reports were received through WhisperBack."
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "630 comments were posted on the forum, with 143 signed by Tails."
+msgid "630 comments were posted on the forum, with 143 signed by TⒶILS."
 msgstr ""
 
 #. type: Title =
@@ -170,7 +170,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"The Tails [[specification and design document|contribute/design]] received "
+"The TⒶILS [[specification and design document|contribute/design]] received "
 "various minor updates and improvements, as did the release process "
 "documentation."
 msgstr ""
@@ -187,7 +187,7 @@ msgid "On-going discussions\n"
 msgstr ""
 
 #. type: Plain text
-msgid "- We've discussed inclusion of Martus in Tails."
+msgid "- We've discussed inclusion of Martus in TⒶILS."
 msgstr ""
 
 #. type: Bullet: '- '

@@ -1,4 +1,4 @@
-[[!meta title="Trusting Tails signing key"]]
+[[!meta title="Trusting TⒶILS signing key"]]
 
 [[!inline pages="doc/get/signing_key_transition.inline" raw="yes"]]
 
@@ -6,16 +6,16 @@ We will present you three techniques from the easiest to the safest. Again,
 none of them is a perfect and magic solution. Feel free to explore them
 according to your possibilities and technical skills.
 
-Note that since all Tails releases are signed with the same key, you will not
+Note that since all TⒶILS releases are signed with the same key, you will not
 have to verify the key every time and the trust you might progressively build in
 it will be built once and for all. Still, you will have to check the ISO image
 every time you download a new one!
 
 [[!toc]]
 
-# Correlates several downloads of Tails signing key
+# Correlates several downloads of TⒶILS signing key
 
-A simple technique to increase the trust you can put in Tails signing key would
+A simple technique to increase the trust you can put in TⒶILS signing key would
 be to download it several times, from several locations, several computers,
 possibly several countries, etc.
 
@@ -45,7 +45,7 @@ other people you trust.
 
 # Using the OpenPGP Web of Trust
 
-If you want to be extra cautious and really authenticate Tails signing key in a
+If you want to be extra cautious and really authenticate TⒶILS signing key in a
 stronger way than what standard HTTPS offers you, you will need to use the
 OpenPGP Web of Trust.
 
@@ -66,13 +66,13 @@ trust model based on OpenPGP keys. Let's see that with an example.
 *You're a friend of Alice and really trust her way of managing OpenPGP keys.
 You're trusting Alice's key.*
 
-*Furthermore, Alice met Bob, a Tails developer, in a conference, and signed
+*Furthermore, Alice met Bob, a TⒶILS developer, in a conference, and signed
 Bob's key. Alice is trusting Bob's key.*
 
-*Bob is a Tails developer who directly owns the Tails signing key. Bob fully
-trusts Tails signing key.*
+*Bob is a TⒶILS developer who directly owns the TⒶILS signing key. Bob fully
+trusts TⒶILS signing key.*
 
-This scenario creates a trust path from you to Tails signing key that could
+This scenario creates a trust path from you to TⒶILS signing key that could
 allow you to trust it without having to depend on certificate authorities.
 
 This trust model is not perfect either and requires both caution and intelligent
@@ -80,30 +80,30 @@ supervision by users. The technical details of creating, managing and trusting
 OpenPGP keys is outside of the scope of this document.
 
 We also acknowledge that not everybody might be able to create good trust path
-to Tails signing key since it based on a network of direct human relationships
+to TⒶILS signing key since it based on a network of direct human relationships
 and the knowledge of quite complex tools such as OpenPGP.
 
 <a id="debian">
 
-# Check Tails signing key against the Debian keyring
+# Check TⒶILS signing key against the Debian keyring
 
-Following the previous scenario, when Alice met Bob, a Tails developer, she
-could have made a new signature on Tails signing key with her own key to certify this
-trust relationship and make it public. Tails signing key would now come along
+Following the previous scenario, when Alice met Bob, a TⒶILS developer, she
+could have made a new signature on TⒶILS signing key with her own key to certify this
+trust relationship and make it public. TⒶILS signing key would now come along
 with a signature made by Alice.
 
-Tails signing key is actually already signed by the keys of several official
-developers of Debian, the operating system on which Tails is based. Debian makes
+TⒶILS signing key is actually already signed by the keys of several official
+developers of Debian, the operating system on which TⒶILS is based. Debian makes
 an extensive use of OpenPGP and you can download the keys of all Debian
 developers by installing the <code>debian-keyring</code> package. You can then
-verify the signatures those developers made with their own key on Tails signing
+verify the signatures those developers made with their own key on TⒶILS signing
 key.
 
 To download the Debian keyring you can do:
 
     sudo apt-get install debian-keyring
 
-To get a list of the signatures made by other people on Tails signing key you
+To get a list of the signatures made by other people on TⒶILS signing key you
 can do:
 
     gpg --keyid-format long --list-sigs A490D0F4D311A4153E2BB7CADBB802B258ACD84F
@@ -112,17 +112,17 @@ You will get something like this:
 
     pub   4096R/DBB802B258ACD84F 2015-01-18 [expires: 2016-01-11]
           Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
-    uid               [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>
-    sig 3        DBB802B258ACD84F 2015-01-18  Tails developers (offline long-term identity key) <tails@boum.org>
-    sig          1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>
+    uid               [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>
+    sig 3        DBB802B258ACD84F 2015-01-18  TⒶILS developers (offline long-term identity key) <tails@boum.org>
+    sig          1202821CBE2CD9C1 2015-01-19  TⒶILS developers (signing key) <tails@boum.org>
     sig          BACE15D2A57498FF 2015-01-19  [User ID not found]
     sig          9C31503C6D866396 2015-02-03  [User ID not found]
     sig          BB3A68018649AA06 2015-02-04  [User ID not found]
     sig          091AB856069AAA1C 2015-02-05  [User ID not found]
     sub   4096R/98FEC6BC752A3DB6 2015-01-18 [expires: 2016-01-11]
-    sig          DBB802B258ACD84F 2015-01-18  Tails developers (offline long-term identity key) <tails@boum.org>
+    sig          DBB802B258ACD84F 2015-01-18  TⒶILS developers (offline long-term identity key) <tails@boum.org>
     sub   4096R/3C83DCB52F699C56 2015-01-18 [expires: 2016-01-11]
-    sig          DBB802B258ACD84F 2015-01-18  Tails developers (offline long-term identity key) <tails@boum.org>
+    sig          DBB802B258ACD84F 2015-01-18  TⒶILS developers (offline long-term identity key) <tails@boum.org>
 
 The lines ending with '[User ID not found]' are signatures made by keys you
 still don't have in your keyring. You could try to search for them in the Debian
@@ -147,7 +147,7 @@ You can then import it in your own keyring by doing:
 
     gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export 9C31503C6D866396 | gpg --import
 
-Now you can try to verify the signature made by this new key on Tails signing
+Now you can try to verify the signature made by this new key on TⒶILS signing
 key by doing:
 
     gpg --keyid-format long --check-sigs A490D0F4D311A4153E2BB7CADBB802B258ACD84F
@@ -157,18 +157,18 @@ following the "sig" tag. A "!" indicates that the signature has been
 successfully verified, a  "-" denotes a bad signature and a "%" is used if an
 error occurred while checking the signature (e.g. a non supported algorithm).
 For example, in the following output the signature of Stefano Zacchiroli on
-Tails signing key has been successfully verified:
+TⒶILS signing key has been successfully verified:
 
     pub   4096R/DBB802B258ACD84F 2015-01-18 [expires: 2016-01-11]
           Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
-    uid               [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>
-    sig!3        DBB802B258ACD84F 2015-01-18  Tails developers (offline long-term identity key) <tails@boum.org>
-    sig!         1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>
+    uid               [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>
+    sig!3        DBB802B258ACD84F 2015-01-18  TⒶILS developers (offline long-term identity key) <tails@boum.org>
+    sig!         1202821CBE2CD9C1 2015-01-19  TⒶILS developers (signing key) <tails@boum.org>
     sig!         9C31503C6D866396 2015-02-03  Stefano Zacchiroli <zack@upsilon.cc>
     sub   4096R/98FEC6BC752A3DB6 2015-01-18 [expires: 2016-01-11]
-    sig!         DBB802B258ACD84F 2015-01-18  Tails developers (offline long-term identity key) <tails@boum.org>
+    sig!         DBB802B258ACD84F 2015-01-18  TⒶILS developers (offline long-term identity key) <tails@boum.org>
     sub   4096R/3C83DCB52F699C56 2015-01-18 [expires: 2016-01-11]
-    sig!         DBB802B258ACD84F 2015-01-18  Tails developers (offline long-term identity key) <tails@boum.org>
+    sig!         DBB802B258ACD84F 2015-01-18  TⒶILS developers (offline long-term identity key) <tails@boum.org>
     
     3 signatures not checked due to missing keys
 
@@ -177,10 +177,10 @@ Tails signing key has been successfully verified:
 Since the Web of Trust is actually based on human relationships and real-life
 interactions the best would be to start establishing contacts with people
 knowledgeable about OpenPGP, start using it yourself and build trust
-relationships in order to find your own trust path to Tails signing key.
+relationships in order to find your own trust path to TⒶILS signing key.
 
 You could start by contacting a local [[!wikipedia Linux_User_Group desc="%s"]]
-or other Tails enthusiasts near you and exchange about their OpenPGP
+or other TⒶILS enthusiasts near you and exchange about their OpenPGP
 practices.
 
 # Further reading on OpenPGP

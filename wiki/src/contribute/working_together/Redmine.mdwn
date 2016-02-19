@@ -1,4 +1,4 @@
-Tails tasks are managed in a [[!tails_redmine "" desc="Redmine project"]].
+TⒶILS tasks are managed in a [[!tails_redmine "" desc="Redmine project"]].
 
 If you need to do something in Redmine, but you appear to lack the
 needed credentials, please ask <tails-sysadmins@boum.org> to give you
@@ -72,7 +72,7 @@ include in the body of the email the fields that you want to change, and a
 description for your changes. For example:
 
     To: redmine@labs.riseup.net
-    Subject: Re: [Tails - Feature #6813] (Confirmed) Test creating a ticket by email
+    Subject: Re: [TⒶILS - Feature #6813] (Confirmed) Test creating a ticket by email
 
     Status: Resolved
 

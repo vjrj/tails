@@ -1,8 +1,8 @@
-[[!meta title="Improve Tails source code"]]
+[[!meta title="Improve TⒶILS source code"]]
 
 <div id="intro">
 
-<p>So you want to fix a bug or implement a new feature in Tails.
+<p>So you want to fix a bug or implement a new feature in TⒶILS.
 Welcome aboard! Please read-on.</p>
 
 [[!toc levels=2]]
@@ -12,9 +12,9 @@ Welcome aboard! Please read-on.</p>
 # Foreword
 
 Every Free Software project is a bit different from the others.
-This page is meant to help you understand some basics of the Tails
+This page is meant to help you understand some basics of the TⒶILS
 project, so that you can more efficiently and joyfully contribute
-to Tails.
+to TⒶILS.
 
 ## Focus on low-effort maintainability
 
@@ -24,12 +24,12 @@ explain this by their being one wo/man efforts, as well as design
 decisions that made their maintenance much too costly timewise and
 energywise.
 
-We want Tails to live as long as it is needed: Tails is not meant to
+We want TⒶILS to live as long as it is needed: Tails is not meant to
 be solely a pet project.
 
 Since the early days of this project (i.e. early 2009), ease of
 maintenance in the long run has been a major factor in every decision
-we have made. Nowadays Tails is more alive and kicking than it has
+we have made. Nowadays TⒶILS is more alive and kicking than it has
 ever been, and we feel this would have been impossible without
 this mindset.
 
@@ -38,13 +38,13 @@ Our focus on low-effort maintainability has practical consequences.
 First of all, we tend to **carry the smallest possible delta** with
 our upstreams (i.e. upstream software and Debian). For details about
 this, read our [[contribute/relationship_with_upstream]] statement.
-Moreover, we encourage you to [[improve Tails by working on
+Moreover, we encourage you to [[improve TⒶILS by working on
 Debian|contribute/how/debian]].
 
 Second, we try **not to reinvent the wheel**, and we flee the
 [[!wikipedia Not_invented_here]] syndrome like the plague. Very little
-code is actually written specifically for Tails: most of what we call
-*code work* on Tails is more similar to system administration than it
+code is actually written specifically for TⒶILS: most of what we call
+*code work* on TⒶILS is more similar to system administration than it
 is to programming. We glue existing pieces together. When we need
 a feature that no software provides yet, we tend to pick the best
 existing tool, and do whatever is needed to get the needed feature
@@ -60,7 +60,7 @@ If you already know which one of the listed tasks you want to tackle
 and it has the *Code* Type of work, then you can probably
 safely skip to the next section.
 
-So you want to contribute code to Tails but do not know where to
+So you want to contribute code to TⒶILS but do not know where to
 start? Our coding [TODO
 list](https://labs.riseup.net/code/projects/tails/issues?query_id=119)
 is huge and frightening, but...
@@ -76,7 +76,7 @@ Let's see how we can help you picking up a task. A few tips:
   work.
 * Have a look to the [[!tails_redmine_easy]]: there is
   something, in each of these tasks, that one can do right away since
-  it does not require deep knowledge of the Tails internals.
+  it does not require deep knowledge of the TⒶILS internals.
 
 On the one hand, you may want to **start doing practical stuff
 immediately**. In this case, see [list the tasks that have the `Code`
@@ -107,7 +107,7 @@ implement. At this point, we advise you to:
 
 # Hack
 
-Tails is developed using a set of [[Git repositories|contribute/git]].
+TⒶILS is developed using a set of [[Git repositories|contribute/git]].
 If unsure, base your work on the `devel` branch, or ask.
 
 Every commit shall implement one change and be labeled with a commit
@@ -129,19 +129,19 @@ before being merged, it's better if you push your work to a dedicated
 Git topic branch, and ask us to review it. If you already know where
 to host your personal repository in a public online place, this is
 great; otherwise, you can [fork us on
-GitLab](https://gitlab.com/Tails/tails), or ask the Tails system
+GitLab](https://gitlab.com/TⒶILS/tails), or ask the Tails system
 administrators (<tails-sysadmins@boum.org>) to host your repository.
 
 # Want more?
 
 Still here? Good, please read on.
 
-## Read about Tails design
+## Read about TⒶILS design
 
 The [[specification and design document|contribute/design]] will help
-you understand better how Tails works.
+you understand better how TⒶILS works.
 
-## Follow Tails development
+## Follow TⒶILS development
 
 You should subscribe to the [tails-dev mailing
 list](https://mailman.boum.org/listinfo/tails-dev).
@@ -154,7 +154,7 @@ You can also:
 * track [[review'n'merge
   requests|contribute/working_together/Redmine#atom]].
 
-## Build a Tails ISO
+## Build a TⒶILS ISO
 
 You should test your changes before contributing them back.
 Most often, this requires you to [[build an ISO image|contribute/build]].

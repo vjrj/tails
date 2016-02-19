@@ -2,7 +2,7 @@
 
 In this documentation we use the term *bug* to refer to a software error.
 
-Reporting bugs is a great way of helping us improving Tails.
+Reporting bugs is a great way of helping us improving TⒶILS.
 
 Remember that **the more effectively you report a bug**, the more likely we are
 to fix it.
@@ -45,7 +45,7 @@ Use WhisperBack
 ===============
 
 **WhisperBack is an application written specifically to report bugs anonymously
-from inside Tails. If you are not able to use WhisperBack, see the [[special
+from inside TⒶILS. If you are not able to use WhisperBack, see the [[special
 cases|bug_reporting#special_cases]].**
 
 WhisperBack will help you fill-up a bug report, including relevant technical
@@ -73,7 +73,7 @@ WhisperBack lets you give plenty of useful information about your bug:
 
 You can also have a look at the <span class="guilabel">technical details
 to include</span> in your bug report. It will give us information about
-your hardware, your version of Tails and the startup process.
+your hardware, your version of TⒶILS and the startup process.
 
 [[!inline pages="support/talk/languages.inline" raw="yes"]]
 
@@ -84,7 +84,7 @@ Giving us an email address allows us to contact you to clarify the problem. This
 is needed for the vast majority of the reports we receive as most reports
 without any contact information are useless. But note that it also provides
 an opportunity for eavesdroppers, like your email or Internet provider, to
-confirm that you are using Tails.
+confirm that you are using TⒶILS.
 
 Optional OpenPGP key
 --------------------
@@ -124,14 +124,14 @@ WhisperBack won't be able to send your bug report.
 
 The following steps can be used as an alternative method:
 
-1. In Tails, start WhisperBack
+1. In TⒶILS, start WhisperBack
 2. In the bug report window, expand "technical details to include"
 3. Copy everything in the "debugging info" box
 4. Paste it to another document (using gedit for instance)
 5. Save the document on a USB stick
 6. Boot into a system with Internet connection and send your report
 
-Tails does not start
+TⒶILS does not start
 --------------------
 
 See [[Tails_does_not_start]].

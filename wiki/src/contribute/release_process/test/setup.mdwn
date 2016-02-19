@@ -38,7 +38,7 @@ Synchronized clock
 ------------------
 
 The system running the test suite needs an accurate clock since we
-sync the clock from the host to the Tails guest after a background
+sync the clock from the host to the TⒶILS guest after a background
 snapshot restore to appease Tor. This is why we installed ntp above,
 but if you prefer you can use whatever time synchronization
 tool instead.
@@ -71,7 +71,7 @@ Access the system under test with VNC
 If you're running the test suite in a nested environnement, install
 xtightvncviewer on the bare metal level-0 host. Then you can use vncviewer's
 `-via` option so that it automatically setup a ssh tunnel to your first level
-test suite domain for you and display the Tails VM. E.g.
+test suite domain for you and display the TⒶILS VM. E.g.
 where `$DISPLAY` is the display given to you by `run_test_suite` (often 0):
 
     vncviewer -viewonly -via user@level0 localhost:$DISPLAY

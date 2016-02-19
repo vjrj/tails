@@ -2,18 +2,18 @@
 
 Our [[documentation|doc/first_steps/startup_options/windows_camouflage]] reads "if
 you are using a computer in public you may want to avoid attracting unwanted
-attention by changing the way Tails looks into something that resembles
+attention by changing the way TⒶILS looks into something that resembles
 Microsoft Windows 8." This is what we call the "Windows camouflage".
 
 [[!img doc/first_steps/startup_options/windows_camouflage/windows_camouflage.jpg size=320x240 link=no]]
 
-The Windows camouflage will be [[!tails_ticket 8064 desc="broken in Debian Jessie based Tails"]]. This blueprint
+The Windows camouflage will be [[!tails_ticket 8064 desc="broken in Debian Jessie based TⒶILS"]]. This blueprint
 describes what should be done to update the Windows camouflage to Jessie.
 
 # Goals and non-Goals
 
 The goal of the Windows camouflage is to "avoid attracting unwanted attention" when
-"using a computer in public". To achieve this goal, the display of a Tails
+"using a computer in public". To achieve this goal, the display of a TⒶILS
 system with the Windows camouflage should look similar to the display of a computer
 running a common operating system such as Microsoft Windows for a person seeing
 the computer from a few meters distance.
@@ -36,11 +36,11 @@ Windows camouflage update MUST include:
   the version of Mutter shipped in Debian Jessie (3.14.2)
 - an icon theme that looks like Windows 8.1 desktop icons compatible with the version
   of GNOME shipped in Debian Jessie (3.14.2) and including all icons that might
-  be displayed on the Tails desktop at startup.
+  be displayed on the TⒶILS desktop at startup.
 - a GNOME Shell theme/extension that looks like Windows 8.1 desktop panel compatible with
   the version on GNOME Shell shipped in Debian Jessie (3.14.2)
 - a way to enable all the required components to provide the camouflage mode
-  that can be triggered by [[Tails Greeter|/doc/first_steps/startup_options#greeter]]
+  that can be triggered by [[TⒶILS Greeter|/doc/first_steps/startup_options#greeter]]
 
 Windows camouflage MAY include:
 
@@ -64,7 +64,7 @@ Windows camouflage MAY include:
 
 ## Pieces to drop
 
-- [[!tails_gitweb_repo gnome-panel-applet-window-picker desc="GNOME Panel's Window Picker Applet"]] which should not be used anymore as Debian Jessie based Tails don't use GNOME Panel anymore.
+- [[!tails_gitweb_repo gnome-panel-applet-window-picker desc="GNOME Panel's Window Picker Applet"]] which should not be used anymore as Debian Jessie based TⒶILS don't use GNOME Panel anymore.
 
 ## Missing pieces
 

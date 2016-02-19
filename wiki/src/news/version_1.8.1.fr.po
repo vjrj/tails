@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Sat Dec 19 16:33:34 CET 2015\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.8.1 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 1.8.1 est disponible\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.8.1 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 1.8.1 est disponible\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -87,10 +87,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If your Tails does not boot after an automatic upgrade, please [[upgrade "
-"your Tails manually|doc/first_steps/upgrade#manual]]."
+"If your TⒶILS does not boot after an automatic upgrade, please [[upgrade "
+"your TⒶILS manually|doc/first_steps/upgrade#manual]]."
 msgstr ""
-"Si votre Tails ne démarre pas après une mise à jour automatique, [[mettez le "
+"Si votre TⒶILS ne démarre pas après une mise à jour automatique, [[mettez le "
 "à jour manuellement|doc/first_steps/upgrade#manual]]."
 
 #. type: Title #
@@ -103,13 +103,13 @@ msgstr "Pour les utilisateurs ayant configuré la persistance pour le client Bit
 msgid ""
 "If you have enabled the <span class=\"guilabel\">Bitcoin client</span>\n"
 "(<span class=\"application\">Electrum</span>) persistence feature and\n"
-"have *upgraded* a Tails USB stick installation to Tails 1.8.1, then\n"
+"have *upgraded* a TⒶILS USB stick installation to Tails 1.8.1, then\n"
 "please follow these steps in order to make Electrum able to connect\n"
 "to the network:\n"
 msgstr ""
 "Si vous avez configuré la persistance pour le <span class=\"guilabel\">client Bitcoin</span>\n"
 "(<span class=\"application\">Electrum</span>) et\n"
-"avez mis à jour une clé USB vers Tails 1.8.1, merci de\n"
+"avez mis à jour une clé USB vers TⒶILS 1.8.1, merci de\n"
 "suivre ces instructions pour permettre à Electrum de se connecter\n"
 "au réseau :\n"
 
@@ -146,9 +146,9 @@ msgstr "Et ensuite ?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for January 26."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for January 26."
 msgstr ""
-"La prochaine version de Tails est [[prévue|contribute/calendar]] pour le 26 "
+"La prochaine version de TⒶILS est [[prévue|contribute/calendar]] pour le 26 "
 "janvier."
 
 #. type: Plain text
@@ -159,10 +159,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We need your help and there are many ways to [[contribute to Tails|"
+"We need your help and there are many ways to [[contribute to TⒶILS|"
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|contribute/talk]]!"
 msgstr ""
 "Nous avons besoin de votre aide et il y a de nombreuses manières de "
-"contribuer à Tails ([[faire un don|contribute/how/donate]] est seulement une "
+"contribuer à TⒶILS ([[faire un don|contribute/how/donate]] est seulement une "
 "d'entre elles). Venez [[discuter avec nous|contribute/talk]] !"

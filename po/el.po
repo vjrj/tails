@@ -54,7 +54,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>Βοηθήστε μας να διορθώσουμε το σφάλμα!</h1>\n"
@@ -71,7 +71,7 @@ msgstr ""
 "είναι άχρηστες χωρίς κάποια πληροφορία για επικοινωνία. Από την άλλη πλευρά, "
 "αυτό δίνει ευκαιρία σε ωτακουστές, όπως τον πάροχο e-mail σας ή τον πάροχο "
 "Internet, να \n"
-"επιβεβαιώσουν ότι χρησιμοποιείτε Tails. \n"
+"επιβεβαιώσουν ότι χρησιμοποιείτε TⒶILS. \n"
 "</p>\n"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:14
@@ -80,11 +80,11 @@ msgstr "Το persistence είναι απενεργοποιμένο για το E
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
-"Όταν κάνετε επανεκκίνηση του Tails, όλα τα δεδομένα του Electrum θα χαθούν, "
+"Όταν κάνετε επανεκκίνηση του TⒶILS, όλα τα δεδομένα του Electrum θα χαθούν, "
 "συμπεριλαμβανομένου του πορτοφολιού Bitcoin σας. Συνιστάται ιδιαίτερα να "
 "εκτελείτε το Electrum μόνο όταν είναι ενεργοποιημένο το σχετικό "
 "χαρακτηριστικό μόνιμου τόμου."
@@ -294,9 +294,9 @@ msgid "not available"
 msgstr "μη διαθέσιμο"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -313,8 +313,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "Σχετικά με το Tails"
+msgid "About TⒶILS"
+msgstr "Σχετικά με το TⒶILS"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
@@ -326,12 +326,12 @@ msgstr "Επιπλέον λογισμικό"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "Η αναβάθμιση απέτυχε. Αυτό μπορεί να οφείλεται σε ένα πρόβλημα δικτύου. "
 "Ελέγξτε τη σύνδεση του δικτύου σας, προσπαθήστε να κάνετε επανεκκίνηση του "
-"Tails, ή να διαβάσετε το αρχείο καταγραφής συστήματος για την καλύτερη "
+"TⒶILS, ή να διαβάσετε το αρχείο καταγραφής συστήματος για την καλύτερη "
 "κατανόηση του προβλήματος."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
@@ -355,8 +355,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "Αποτυχία συγχρονισμού του ρολογιού!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "Αυτή η έκδοση του Tails έχει γνωστά προβλήματα ασφαλείας:"
+msgid "This version of TⒶILS has known security issues:"
+msgstr "Αυτή η έκδοση του TⒶILS έχει γνωστά προβλήματα ασφαλείας:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -372,11 +372,11 @@ msgstr "Κάρτα δικτύου ${nic} απενεργοποιημένη"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC πλαστογράφηση απέτυχε για την κάρτα δικτύου ${nic_name} (${nic}) "
 "επομένως  έχει απενεργοποιηθεί προσωρινά.\n"
-"Ίσως προτιμάτε να κάνετε επανεκκίνηση το Tails και να απενεργοποιήσετε την "
+"Ίσως προτιμάτε να κάνετε επανεκκίνηση το TⒶILS και να απενεργοποιήσετε την "
 "πλαστογράφηση MAC. Δείτε το <a href='file:///usr/share/doc/tails/website/doc/"
 "first_steps/startup_options/mac_spoofing.en.html'>τεκμηρίωση</a>."
 
@@ -389,12 +389,12 @@ msgstr "Όλη η δικτύωση απενεργοποιημένη"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "MAC πλαστογράφηση απέτυχε για την κάρτα δικτύου ${nic_name} (${nic}). Η "
 "ανάκαμψη του λάθους επίσης απέτυχε, επομένως η δικτύωση είναι "
 "απενεργοποιημένη.\n"
-"Ίσως προτιμάτε να κάνετε επανεκκίνηση του Tails και να απενεργοποιήσετε την "
+"Ίσως προτιμάτε να κάνετε επανεκκίνηση του TⒶILS και να απενεργοποιήσετε την "
 "πλαστογράφηση MAC. Δείτε την <a href='file:///usr/share/doc/first_steps/"
 "startup_options/mac_spoofing.en.html'>τεκμηρίωση</a>."
 
@@ -412,10 +412,10 @@ msgstr "Σφάλμα"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -423,10 +423,10 @@ msgstr ""
 "<b>Δεν υπάρχει αρκετή διαθέσιμη μνήμη για να ελέγξει για αναβαθμίσεις.</ b>\n"
 "\n"
 "Βεβαιωθείτε ότι το σύστημα πληροί τις απαιτήσεις για την εκτέλεση του "
-"Tails.\n"
+"TⒶILS.\n"
 "Δείτε file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Προσπαθήστε να κάνετε επανεκκίνηση του Tails για να ελέγξετε για "
+"Προσπαθήστε να κάνετε επανεκκίνηση του TⒶILS για να ελέγξετε για "
 "αναβαθμίσεις και πάλι.\n"
 "\n"
 "Ή κάντε μια χειροκίνητη αναβάθμιση.\n"
@@ -439,11 +439,11 @@ msgstr "Προειδοποίηση: ανιχνεύτηκε εικονικό μη
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "Τόσο το λειτουργικό σύστημα που φιλοξενεί το εικονικό μηχάνημα όσο και το "
 "λογισμικό εικονικών μηχανών έχουν τη δυνατότητα να παρακολουθούν τι κάνετε "
-"μέσα στο Tails."
+"μέσα στο TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 #, fuzzy
@@ -454,18 +454,18 @@ msgstr "Προειδοποίηση: ανιχνεύτηκε εικονικό μη
 #, fuzzy
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
 "Τόσο το λειτουργικό σύστημα που φιλοξενεί το εικονικό μηχάνημα όσο και το "
 "λογισμικό εικονικών μηχανών έχουν τη δυνατότητα να παρακολουθούν τι κάνετε "
-"μέσα στο Tails."
+"μέσα στο TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 #, fuzzy
 msgid "Learn more"
-msgstr "Μάθετε περισσότερα σχετικά με Tails"
+msgstr "Μάθετε περισσότερα σχετικά με TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:41
 msgid "Tor is not ready"
@@ -615,12 +615,12 @@ msgstr "Αναφορά λάθους"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Τεκμηρίωση του Tails"
+msgid "TⒶILS documentation"
+msgstr "Τεκμηρίωση του TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Μάθετε πώς να χρησιμοποιείτε το Tails"
+msgid "Learn how to use TⒶILS"
+msgstr "Μάθετε πώς να χρησιμοποιείτε το TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 msgid "Anonymous overlay network browser"
@@ -631,8 +631,8 @@ msgid "I2P Browser"
 msgstr "I2P πρόγραμμα περιήγησης"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "Μάθετε περισσότερα σχετικά με Tails"
+msgid "Learn more about TⒶILS"
+msgstr "Μάθετε περισσότερα σχετικά με TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -662,9 +662,9 @@ msgstr "Πλοήγηση στον Παγκόσμιο Ιστό χωρίς ανω�
 msgid "Unsafe Web Browser"
 msgstr "Μη ασφαλής Browser"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Εργαλεία ειδικά για το Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "Εργαλεία ειδικά για το TⒶILS"
 
 #~ msgid "Shutdown Immediately"
 #~ msgstr "Άμεση απενεργοποίηση"

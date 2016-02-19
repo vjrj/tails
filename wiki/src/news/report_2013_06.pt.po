@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for June, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for June, 2013\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -37,7 +37,7 @@ msgid "Releases\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails 0.19 [[was released|news/version_0.19]] on June 26."
+msgid "TⒶILS 0.19 [[was released|news/version_0.19]] on June 26."
 msgstr ""
 
 #. type: Title =
@@ -47,9 +47,9 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"140 517 connections of Tails to the Tor network. This makes a boot every "
+"140 517 connections of TⒶILS to the Tor network. This makes a boot every "
 "18.5 seconds on average (this is an approximation from the requests made to "
-"the security announcements feed when Tails is connected to Tor)."
+"the security announcements feed when TⒶILS is connected to Tor)."
 msgstr ""
 
 #. type: Plain text
@@ -58,7 +58,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"110 comments were posted on the forum, with 32 signed by Tails, before we "
+"110 comments were posted on the forum, with 32 signed by TⒶILS, before we "
 "closed it."
 msgstr ""
 
@@ -69,7 +69,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails was [[!tails_gitweb_branch feature/linux-3.9 desc=\"upgraded\"]] to "
+"TⒶILS was [[!tails_gitweb_branch feature/linux-3.9 desc=\"upgraded\"]] to "
 "Linux 3.9."
 msgstr ""
 

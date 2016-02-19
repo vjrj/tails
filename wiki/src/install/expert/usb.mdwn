@@ -1,4 +1,4 @@
-[[!meta title="Installing Tails on a USB stick from Debian or Ubuntu using the command line"]]
+[[!meta title="Installing TⒶILS on a USB stick from Debian or Ubuntu using the command line"]]
 
 [[!meta stylesheet="inc/stylesheets/assistant" rel="stylesheet" title=""]]
 [[!meta stylesheet="inc/stylesheets/steps" rel="stylesheet" title=""]]
@@ -6,20 +6,20 @@
 
 <p>Start in Debian or Ubuntu.</p>
 
-Verify the Tails signing key
+Verify the TⒶILS signing key
 ============================
 
 <div class="tip">
 
-<p>If you already certified the Tails signing key with your own key, you
+<p>If you already certified the TⒶILS signing key with your own key, you
 can skip this step and start [[downloading and verifying the ISO
 image|usb#download]].</p>
 
 </div>
 
-In this step, you will download and verify the *Tails signing
+In this step, you will download and verify the *TⒶILS signing
 key* which is the OpenPGP key that is used to cryptographically sign
-the Tails ISO image.
+the TⒶILS ISO image.
 
 <div class="note">
 
@@ -32,7 +32,7 @@ OpenPGP Keys</a> by <em>Riseup</em>.</p>
 
 </div>
 
-1. Import the Tails signing key in your <span class="application">GnuPG</span> keyring:
+1. Import the TⒶILS signing key in your <span class="application">GnuPG</span> keyring:
 
        wget https://tails.boum.org/tails-signing.key
        gpg --import < tails-signing.key
@@ -46,7 +46,7 @@ OpenPGP Keys</a> by <em>Riseup</em>.</p>
 
        gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export zack@upsilon.cc | gpg --import
 
-1. Verify the certifications made on the Tails signing key:
+1. Verify the certifications made on the TⒶILS signing key:
 
        gpg --keyid-format 0xlong --check-sigs A490D0F4D311A4153E2BB7CADBB802B258ACD84F
 
@@ -55,7 +55,7 @@ OpenPGP Keys</a> by <em>Riseup</em>.</p>
        sig! 0x9C31503C6D866396 2015-02-03  Stefano Zacchiroli <zack@upsilon.cc>
 
    Here, <code>sig!</code>, with an exclamation mark, means that Stefano
-   Zacchiroli verified and certified the Tails signing key with his key.
+   Zacchiroli verified and certified the TⒶILS signing key with his key.
 
    It is also possible to verify the certifications made by other
    people. Their name and email address appear in the list of
@@ -63,7 +63,7 @@ OpenPGP Keys</a> by <em>Riseup</em>.</p>
 
    <div class="caution">
    <p>If the verification of the certification failed, then you might
-   have downloaded a malicious version of the Tails signing key or our
+   have downloaded a malicious version of the TⒶILS signing key or our
    instructions might be outdated.
    Please [[get in touch with us|support/talk]].</p>
    </div>
@@ -74,14 +74,14 @@ OpenPGP Keys</a> by <em>Riseup</em>.</p>
    keys that are not in your keyring. This is not a problem.</p>
    </div>
 
-1. Certify the Tails signing key with your own key:
+1. Certify the TⒶILS signing key with your own key:
 
    a. To make a non-exportable certification that will never be shared
       with others:
 
           gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F
 
-   b. To make an exportable certification of the Tails signing
+   b. To make an exportable certification of the TⒶILS signing
       key and publish it on the public key servers:
 
           gpg --sign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F
@@ -89,15 +89,15 @@ OpenPGP Keys</a> by <em>Riseup</em>.</p>
 
       Doing so allows people who verified
       your key to verify your certification and, as a consequence, build
-      more trust in the Tails signing key.
+      more trust in the TⒶILS signing key.
 
 <a id="download"></a>
 
 Download and verify the ISO image
 =================================
 
-In this step, you will download the latest Tails ISO image and verify it
-using the Tails signing key.
+In this step, you will download the latest TⒶILS ISO image and verify it
+using the TⒶILS signing key.
 
 1. Download the ISO image:
 
@@ -107,7 +107,7 @@ using the Tails signing key.
 
    <p class="pre">wget [[!inline pages="inc/stable_i386_iso_sig_url" raw="yes"]]</p>
 
-1. Verify that the ISO image is signed by the Tails signing key:
+1. Verify that the ISO image is signed by the TⒶILS signing key:
 
    <p class="pre">[[!inline pages="inc/stable_i386_gpg_verify" raw="yes"]]</p>
 
@@ -119,7 +119,7 @@ using the Tails signing key.
 
      - The date of the signature is the same.
      - The signature is marked as <code>Good signature</code> since you
-       certified the Tails signing key with your own key.
+       certified the TⒶILS signing key with your own key.
 
 [[!inline pages="install/inc/steps/install_tails_installer.inline" raw="yes"]]
 

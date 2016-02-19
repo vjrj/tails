@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Press and media information\"]]\n"
-msgstr "[[!meta title=\"Tails pour la presse et les média\"]]\n"
+msgstr "[[!meta title=\"TⒶILS pour la presse et les média\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,12 +34,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The general purpose announcements that we publish are available either by "
-"email or by RSS feed on [[Tails News|news]].  They are mainly meant for "
-"Tails users."
+"email or by RSS feed on [[TⒶILS News|news]].  They are mainly meant for "
+"TⒶILS users."
 msgstr ""
 "Les annonces d'ordre général que nous publions sont disponibles soit par "
-"email ou par flux RSS sur les [[nouvelles de Tails|news]]. Elles sont "
-"principalement destinées aux utilisateurs de Tails."
+"email ou par flux RSS sur les [[nouvelles de TⒶILS|news]]. Elles sont "
+"principalement destinées aux utilisateurs de TⒶILS."
 
 #. type: Plain text
 #, no-wrap
@@ -54,7 +54,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can also send press articles about Tails to this address, so we can add "
+"You can also send press articles about TⒶILS to this address, so we can add "
 "them to this page."
 msgstr ""
 
@@ -79,12 +79,12 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Quick links to better understand Tails\n"
-msgstr "Quelques liens pour mieux comprendre Tails\n"
+msgid "Quick links to better understand TⒶILS\n"
+msgstr "Quelques liens pour mieux comprendre TⒶILS\n"
 
 #. type: Bullet: '* '
-msgid "[[About Tails|about]] for a quick overview"
-msgstr "[[À propos de Tails|about]] pour une vue d'ensemble rapide"
+msgid "[[About TⒶILS|about]] for a quick overview"
+msgstr "[[À propos de TⒶILS|about]] pour une vue d'ensemble rapide"
 
 #. type: Bullet: '* '
 msgid "[Tor overview](https://www.torproject.org/about/overview.html.en)"
@@ -95,23 +95,23 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "More details about the [[features and software|doc/about/features]] included "
-"in Tails"
+"in TⒶILS"
 msgstr ""
 "Plus de détails sur les [[fonctionnalités et logiciels|doc/about/features]] "
-"compris dans Tails"
+"compris dans TⒶILS"
 
 #. type: Bullet: '* '
 msgid ""
-"Our [[design document|contribute/design]] about Tails specification, threat "
+"Our [[design document|contribute/design]] about TⒶILS specification, threat "
 "model and implementation"
 msgstr ""
 "Notre [[plan de conception|contribute/design]] concernant les spécifications "
-"de Tails, le modèle de risques et l'implémentation"
+"de TⒶILS, le modèle de risques et l'implémentation"
 
 #. type: Bullet: '* '
-msgid "Our [[documentation|doc]] explaining in details how to use Tails"
+msgid "Our [[documentation|doc]] explaining in details how to use TⒶILS"
 msgstr ""
-"Notre [[documentation|doc]] expliquant en détails comment utiliser Tails"
+"Notre [[documentation|doc]] expliquant en détails comment utiliser TⒶILS"
 
 #. type: Title =
 #, no-wrap
@@ -120,13 +120,13 @@ msgstr "Apparitions dans les médias\n"
 
 #. type: Plain text
 msgid ""
-"Tails is mentioned regularly in the press and in research papers. This list "
+"TⒶILS is mentioned regularly in the press and in research papers. This list "
 "is not comprehensive, but illustrates some of the significant articles that "
-"have been published about Tails."
+"have been published about TⒶILS."
 msgstr ""
-"Tails est régulièrement mentionné dans la presse et les publications de "
+"TⒶILS est régulièrement mentionné dans la presse et les publications de "
 "recherche. Cette liste n'est pas exhaustive, mais montre certains des "
-"articles les plus importants qui ont été écrits à propos de Tails."
+"articles les plus importants qui ont été écrits à propos de TⒶILS."
 
 #. type: Title -
 #, no-wrap
@@ -276,23 +276,23 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"2014-12-01: Tails was awarded the [November 2014 DistroWatch.com donation]"
+"2014-12-01: TⒶILS was awarded the [November 2014 DistroWatch.com donation]"
 "(http://distrowatch.com/weekly.php?issue=20141201#donation)"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"2014-06-06: Tails received an honorable mention at [APC FLOSS Prize](https://"
+"2014-06-06: TⒶILS received an honorable mention at [APC FLOSS Prize](https://"
 "www.apc.org/es/node/19368): \"In particular, the jury wishes to highlight "
-"the Tails project, for breaking ground in the area of user privacy "
+"the TⒶILS project, for breaking ground in the area of user privacy "
 "protection.\""
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"2014-03-11: Tails won the [2014 Access Innovation Prize](https://www."
+"2014-03-11: TⒶILS won the [2014 Access Innovation Prize](https://www."
 "accessnow.org/blog/2014/03/11/2014-access-innovation-prize-winners-announced-"
-"at-rightscon), for Endpoint Security. Access reports that \"Tails embodies "
+"at-rightscon), for Endpoint Security. Access reports that \"TⒶILS embodies "
 "the successful collaboration of developers, trainers, security professionals "
 "towards tackling the spectrum of user needs -- from usability to security -- "
 "in high-risk environments\"."
@@ -309,7 +309,7 @@ msgid ""
 "congress/2014/31c3_-_6258_-_en_-_saal_1_-_201412282030_-"
 "_reconstructing_narratives_-_jacob_-_laura_poitras.html#video)  at the 31th "
 "Chaos Communication Congress, Jacob Appelbaum and Laura Poitras explained "
-"that properly implemented encryption technologies such as Tor, Tails, GnuPG, "
+"that properly implemented encryption technologies such as Tor, TⒶILS, GnuPG, "
 "OTR, and RedPhone are some of the only ones that can blind the pervasive "
 "surveillance of the NSA.  They are rated as \"catastrophic\" by the NSA "
 "itself."
@@ -323,7 +323,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"2014-03-16: [Lightning talk about Tails](http://meetings-archive.debian.net/"
+"2014-03-16: [Lightning talk about TⒶILS](http://meetings-archive.debian.net/"
 "pub/debian-meetings/2014/mini-debconf-barcelona/Lightning_Talks.webm) at "
 "2014 Mini-Debconf in Barcelona. The talk begins at 24:15 of the video."
 msgstr ""
@@ -332,13 +332,13 @@ msgstr ""
 msgid ""
 "2013-12-30: Jacob Appelbaum stated at the [30th Chaos Communication Congress]"
 "(https://events.ccc.de/congress/2013/Fahrplan/events/5713.html): \"if you "
-"are a journalist and you are not using Tails, you should probably be using "
-"Tails, unless you *really* know what you're doing\"."
+"are a journalist and you are not using TⒶILS, you should probably be using "
+"TⒶILS, unless you *really* know what you're doing\"."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"2013-12-29: [Tails needs your help!](https://events.ccc.de/congress/2013/"
+"2013-12-29: [TⒶILS needs your help!](https://events.ccc.de/congress/2013/"
 "wiki/Session:Tails_needs_your_help!)  at 30C3"
 msgstr ""
 
@@ -364,21 +364,21 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[Tails 1.3 : The Amnesic Incognito Live System](https://www.youtube.com/"
+"[TⒶILS 1.3 : The Amnesic Incognito Live System](https://www.youtube.com/"
 "watch?v=_xna6wnn-Uw&feature=youtu.be), by Linux Scoop, an introductory video "
-"to Tails 1.3."
+"to TⒶILS 1.3."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails is being used in [Citizenfour](https://citizenfourfilm.com/) by Laura "
+"TⒶILS is being used in [Citizenfour](https://citizenfourfilm.com/) by Laura "
 "Poitras and appears in the credits."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "[Probando TAILS 0.16 Privacidad y Anonimato](https://www.youtube.com/watch?"
-"v=bBdGbK54WPE), an introductory video to Tails, in Spanish."
+"v=bBdGbK54WPE), an introductory video to TⒶILS, in Spanish."
 msgstr ""
 
 #. type: Title =
@@ -395,9 +395,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* 2015-03: Second edition of [Band I: Tails - The Amnesic Incognito Live\n"
+"* 2015-03: Second edition of [Band I: TⒶILS - The Amnesic Incognito Live\n"
 "System](https://capulcu.blackblogs.org/bandi) by capulcu, a booklet explaining\n"
-"Tails for activists (in German).\n"
+"TⒶILS for activists (in German).\n"
 msgstr ""
 
 #. type: Plain text
@@ -405,22 +405,22 @@ msgstr ""
 msgid ""
 "* 2015-03: [A DIY Guide to Feminist\n"
 "Cybersecurity](https://tech.safehubcollective.org/cybersecurity/) by\n"
-"safehubcollective.org qualifies Tails as \"ultimate anonymity and\n"
+"safehubcollective.org qualifies TⒶILS as \"ultimate anonymity and\n"
 "amnesia\".\n"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "2014-12: [Guide d'autodéfense numérique](https://guide.boum.org/) has "
-"several sections based on Tails (in French)."
+"several sections based on TⒶILS (in French)."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* 2014-12: [Band I: Tails - The Amnesic Incognito Live\n"
+"* 2014-12: [Band I: TⒶILS - The Amnesic Incognito Live\n"
 "System](https://capulcu.blackblogs.org/bandi) by capulcu is a booklet explaining\n"
-"Tails for activists (in German).\n"
+"TⒶILS for activists (in German).\n"
 msgstr ""
 
 #. type: Plain text
@@ -434,7 +434,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* 2013-08-26: [Practical anonymity](http://www.loshin.com/) by Peter Loshin has\n"
-"a dedicated chapter on Tails.\n"
+"a dedicated chapter on TⒶILS.\n"
 msgstr ""
 
 #. type: Bullet: '* '

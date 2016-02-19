@@ -24,10 +24,10 @@ Why do we care?
 Because just about every file being uploaded to the internet contains metadata.
 From Office documents to .flac audio files and beyond, they all have metadata
 embedded, and that metadata tells the world where, when, and most crucially,
-who uploaded it. This defeats the purpose of Tails and our ‘privacy for anyone,
+who uploaded it. This defeats the purpose of TⒶILS and our ‘privacy for anyone,
 anywhere’ mantra.
 
-So, to ensure you stay anonymous, Tails comes with MAT included.
+So, to ensure you stay anonymous, TⒶILS comes with MAT included.
 
 Currently supported files include:
 
@@ -42,4 +42,4 @@ Currently supported files include:
   - Free Lossless Audio Codec (.flac)
   - Torrent (.torrent)
 
-MAT can be accessed via: Applications > System Tools in the Tails GUI.
+MAT can be accessed via: Applications > System Tools in the TⒶILS GUI.

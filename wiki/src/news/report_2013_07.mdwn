@@ -1,9 +1,9 @@
 [[!meta date="Thu Aug 13 09:09:39 2013"]]
-[[!meta title="Tails report for July, 2013"]]
+[[!meta title="TⒶILS report for July, 2013"]]
 
 [[!toc levels=1]]
 
-Tails summit
+TⒶILS summit
 ============
 
 Five developers met for our annual summit. The summit was less dense
@@ -13,16 +13,16 @@ report|news/summit_2013]].
 Releases
 ========
 
-There was no release in July. Tails 0.20 [is
+There was no release in July. TⒶILS 0.20 [is
 planned](https://mailman.boum.org/pipermail/tails-dev/2013-July/003292.html)
 for the 9th of August.
 
 Metrics
 =======
 
-- 151 657 connections of Tails to the Tor network. This makes a boot
+- 151 657 connections of TⒶILS to the Tor network. This makes a boot
   every 17.7 seconds on average. This is an approximation from the
-  requests made to the security announcements feed when Tails is
+  requests made to the security announcements feed when TⒶILS is
   connected to Tor.
 
 - 77 non-empty bug reports were received through WhisperBack.
@@ -36,7 +36,7 @@ Code
 - A lot of work has been done to [[!tails_gitweb_branch feature/wheezy
   desc="migrate to Debian Wheezy"]]:
 
-- A first build of Tails based on Debian Wheezy version was tested,
+- A first build of TⒶILS based on Debian Wheezy version was tested,
   and many bugs [[!tails_ticket 6015 desc="were identified"]].
 
 - The work on AppArmor was [[!tails_gitweb_branch feature/apparmor
@@ -81,7 +81,7 @@ Documentation and Website
   c8f80ebb18a6077feacbf00e7c31a19a99b22648 desc="fully rewritten"]].
 
 - A new page [[Website|contribute/how/website]] on how to improve the
-  Tails website was [[!tails_gitweb_commit
+  TⒶILS website was [[!tails_gitweb_commit
   fb9135c3ba1cbb974f9ab3bf596d17ce03803e4a desc="added to the contribute
   section"]].
 
@@ -112,7 +112,7 @@ Documentation and Website
 Localization and Internationalization
 =====================================
 
-- All Tails strings but the website are now translatable in Transifex.
+- All TⒶILS strings but the website are now translatable in Transifex.
 - i18nspector was uploaded to wheezy-backports.
 
 Infrastructure
@@ -128,13 +128,13 @@ Infrastructure
   [[identified|contribute/working_together/criteria_for_easy_tasks]] as
   a way to orientate better new contributors.
 
-- Our roadmap was updated and we defined our objectives for Tails 1.0,
+- Our roadmap was updated and we defined our objectives for TⒶILS 1.0,
   1.1, 2.0, and 3.0:
   
-  - [Tails 1.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.0): feature parity with Incognito
-  - [Tails 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.1): Tails based on Debian Wheezy
-  - [Tails 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 2.0): Sustainability and maintainability
-  - [Tails 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 3.0): Hardening and better security
+  - [TⒶILS 1.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.0): feature parity with Incognito
+  - [TⒶILS 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.1): Tails based on Debian Wheezy
+  - [TⒶILS 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 2.0): Sustainability and maintainability
+  - [TⒶILS 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 3.0): Hardening and better security
 
 - We started working on making our infrastructure more reliable:
   [[!tails_ticket 6185 desc="looking for a system"]] that could act as

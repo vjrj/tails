@@ -1,22 +1,22 @@
-[[!meta title="Tails report for May, 2014"]]
+[[!meta title="TⒶILS report for May, 2014"]]
 
 Releases
 ========
 
-Late May we decided to [postpone the release of Tails
+Late May we decided to [postpone the release of TⒶILS
 1.1](https://mailman.boum.org/pipermail/tails-dev/2014-May/005901.html), based
-on Debian Wheezy, to the next release cycle. And instead have Tails 1.0.1
+on Debian Wheezy, to the next release cycle. And instead have TⒶILS 1.0.1
 released on June 10.
 
-Tails 1.1~beta1, the first beta version of Tails based on Debian Wheezy, was released
+TⒶILS 1.1~beta1, the first beta version of Tails based on Debian Wheezy, was released
 on May 30.
 
 Metrics
 =======
 
-- Tails has been started more than 344 328 times this month.
+- TⒶILS has been started more than 344 328 times this month.
   This make 11 107 boots a day in average.
-- 31 698 downloads of the OpenPGP signature of Tails ISO.
+- 31 698 downloads of the OpenPGP signature of TⒶILS ISO.
 - 64 bug reports were received through WhisperBack.
 
 FAQ
@@ -24,7 +24,7 @@ FAQ
 
 - The development of TrueCrypt [was
   discontinued](http://truecrypt.sourceforge.net/) but our position regarding
-  TrueCrypt has remained the same for years: Tails includes TrueCrypt only for
+  TrueCrypt has remained the same for years: TⒶILS includes TrueCrypt only for
   backward compatibility and we are working on [[choosing a free software as
   replacement|blueprint/replace_truecrypt]] to open TrueCrypt volumes. We hope
   that this recent announcement encourages users to migrate to other
@@ -35,15 +35,15 @@ FAQ
 Code
 ====
 
-Still, a lot of work has been done to prepare Tails 1.1:
+Still, a lot of work has been done to prepare TⒶILS 1.1:
 
   - The Windows Camouflage has been upgraded to Windows 8 ([[!tails_ticket
     6342]]). It mostly works but some visual improvements would make it nicer
     ([[!tails_ticket 7377]]).
   - Fixed the build of VirtualBox guest modules ([[!tails_ticket 5972]]).
   - Fixed the starting of ORCA screen reader ([[!tails_ticket 7251]]).
-  - Fixed the keymap selection from Tails Greeter ([[!tails_ticket 7065]]).
-  - Set the background of Tails Greeter to our usual blue color ([[!tails_ticket
+  - Fixed the keymap selection from TⒶILS Greeter ([[!tails_ticket 7065]]).
+  - Set the background of TⒶILS Greeter to our usual blue color ([[!tails_ticket
     7126]]).
   - Fixed OpenPGP signature verification in Nautilus ([[!tails_ticket 6608]]).
     That implied installing a backport of shared-mime-info 1.2+ ([[!tails_ticket
@@ -69,7 +69,7 @@ Still, a lot of work has been done to prepare Tails 1.1:
   - Purged `dselect` ([[!tails_ticket 7336]]).
   - Worked on fixing the migration of NetworkManager persistence settings
     ([[!tails_ticket 7338]]).
-  - Tails devices are now converted to UEFI on full upgrade ([[!tails_ticket
+  - TⒶILS devices are now converted to UEFI on full upgrade ([[!tails_ticket
     6577]]).
   - Imported I2P 0.9.13 packages for Wheezy ([[!tails_ticket 6731]]).
 
@@ -94,7 +94,7 @@ Apart from all the work directly related to the migration to Wheezy, we also:
 Documentation and website
 =========================
 
-  - Many parts of our documentation were adapted to Tails Wheezy
+  - Many parts of our documentation were adapted to TⒶILS Wheezy
     [[!tails_gitweb_branch doc/wheezy]].
   - Parts of our download page were reworked and simplified ([[!tails_ticket
     7163]]).
@@ -126,7 +126,7 @@ On-going discussions
 
 - [Create a donation form to receive fiat currencies](https://mailman.boum.org/pipermail/tails-dev/2014-May/005633.html)
 
-- [Sharing wiperam package between Freepto and Tails?](https://mailman.boum.org/pipermail/tails-dev/2014-May/005787.html)
+- [Sharing wiperam package between Freepto and TⒶILS?](https://mailman.boum.org/pipermail/tails-dev/2014-May/005787.html)
 
 - [Reworking the I2P documentation](https://mailman.boum.org/pipermail/tails-dev/2014-May/005808.html)
 
@@ -167,41 +167,41 @@ Outreach
 - Organized a first [[usability testing session in
   Paris|news/usability_testing_2014_05/]].
 
-- Organized a [Tails 1.0 Launch
+- Organized a [TⒶILS 1.0 Launch
   Party](https://www.youtube.com/watch?v=hz1rAHzo9eM) in Washington DC.
 
-- Organizing the upcoming [[Tails
+- Organizing the upcoming [[TⒶILS
   HackFest|blueprint/HackFest_2014_Paris]] and yearly summit: agenda,
   accommodation, traveling sponsorship, venue, food, etc.
 
 Press and testimonials
 ======================
 
-In late April and early May, many press articles covered the Tails 1.0 release,
+In late April and early May, many press articles covered the TⒶILS 1.0 release,
 including:
 
-  - [Tails 1.0 – La distrib sécurisée sort enfin en version
+  - [TⒶILS 1.0 – La distrib sécurisée sort enfin en version
     stable](http://korben.info/tails-1-0.html) (in French).
-  - [Anonymisierungs-OS Tails wird
-    erwachsen](http://www.heise.de/security/meldung/Anonymisierungs-OS-Tails-wird-erwachsen-2180167.html)
+  - [Anonymisierungs-OS TⒶILS wird
+    erwachsen](http://www.heise.de/security/meldung/Anonymisierungs-OS-TⒶILS-wird-erwachsen-2180167.html)
     in heise Security (in German).
-  - [Secure OS Tails Emerges From
+  - [Secure OS TⒶILS Emerges From
     Beta](http://www.pcmag.com/article2/0,2817,2457452,00.asp) by
     David Murphy in PCMAG.
-  - [Edward Snowden's OS of choice, the Linux-based Tails,
+  - [Edward Snowden's OS of choice, the Linux-based TⒶILS,
     is now out of
     beta](http://www.engadget.com/2014/05/01/tails-linux-os-version1-0/)
     by Steve Dent in Engadget.
-  - [Tails 1.0: Sicherheit und
+  - [TⒶILS 1.0: Sicherheit und
     Anonymität](http://www.pro-linux.de/news/1/21038/tails-10-sicherheit-und-anonymitaet.html)
     by Ferdinand Thommes in PRO-LINUX.DE (in German).
-  - [Tails, l'OS dédié à la confidentialité, passe en
+  - [TⒶILS, l'OS dédié à la confidentialité, passe en
     version
     1.0](http://www.numerama.com/magazine/29251-tails-l-os-dedie-a-la-confidentialite-passe-en-version-10.html)
     by Julien L. in Numerama (in French).
   - [Anonymous Linux Distribution TAILS Reaches Release Version
     1.0](http://www.techweekeurope.co.uk/news/tails-anonymous-linux-distribution-reaches-release-version-1-0-144823?ModPagespeed=noscript)
     by Max Smolaks in TechWeek Europe.
-  - [Snowden's Beloved Tails OS Reaches v1.0
-    Milestone](http://www.linuxinsider.com/story/Snowdens-Beloved-Tails-OS-Reaches-v10-Milestone-80386.html)
+  - [Snowden's Beloved TⒶILS OS Reaches v1.0
+    Milestone](http://www.linuxinsider.com/story/Snowdens-Beloved-TⒶILS-OS-Reaches-v10-Milestone-80386.html)
     by Richard Adhikari in LinuxInsider.

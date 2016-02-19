@@ -21,7 +21,7 @@ Should be migrated to python3: [[!tails_ticket 10088]]
 
 ## config/chroot_local-includes/usr/local/bin/shutdown_helper_applet
 
-We will not use this applet in Tails/Jessie, so there is nothing to do.
+We will not use this applet in TⒶILS/Jessie, so there is nothing to do.
 
 - `gtk`: deprecated, replaced by `python3-gi` and `gir1.2-gtk-3.0`
 - `gnomeapplet`: deprecated, replaced by `python3-gi` and `gir1.2-panelapplet-4.0`
@@ -46,14 +46,14 @@ Should be migrated to python3: [[!tails_ticket 10084]]
 
 * `posix1e`: OK, `python3-pylibacl`
 
-# Tails Greeter
+# TⒶILS Greeter
 
 Should be migrated to python3: [[!tails_ticket 5701]]
 
 * `pycountry`: OK, `python3-pycountry`
 * `icu`: OK, `python3-icu`
 
-# Tails Installer
+# TⒶILS Installer
 
 Should be migrated to python3: [[!tails_ticket 10085]]
 

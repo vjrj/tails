@@ -22,40 +22,40 @@ msgstr "[[!meta title=\"Erste Schritte …\"]]\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Is Tails the right tool for me?\n"
-msgstr "Ist Tails das richtige Werkzeug für mich?\n"
+msgid "Is TⒶILS the right tool for me?\n"
+msgstr "Ist TⒶILS das richtige Werkzeug für mich?\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"First, read the [[about|about]] page to get a basic idea of what Tails is."
+"First, read the [[about|about]] page to get a basic idea of what TⒶILS is."
 msgstr ""
-"Lesen Sie zunächst [[Über Tails|about]], um eine grundlegende Vorstellung "
-"davon zu bekommen, was Tails ist."
+"Lesen Sie zunächst [[Über TⒶILS|about]], um eine grundlegende Vorstellung "
+"davon zu bekommen, was TⒶILS ist."
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"2. Then read the [[warning|doc/about/warning]] page to understand **what Tails doesn't protect you\n"
+"2. Then read the [[warning|doc/about/warning]] page to understand **what TⒶILS doesn't protect you\n"
 "against**, how you can screw up your anonymity or leave traces.\n"
-msgstr "2. Lesen Sie danach die [[Warnungen|doc/about/warning]], um zu verstehen **wogegen Tails Sie nicht schützen kann**, wie Sie Ihre Anonymität verlieren oder Spuren hinterlassen können.\n"
+msgstr "2. Lesen Sie danach die [[Warnungen|doc/about/warning]], um zu verstehen **wogegen TⒶILS Sie nicht schützen kann**, wie Sie Ihre Anonymität verlieren oder Spuren hinterlassen können.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid ""
-#| "3. If Tails is the right tool for you, go on [[downloading, verifying and\n"
+#| "3. If TⒶILS is the right tool for you, go on [[downloading, verifying and\n"
 #| "installing it|download]].\n"
 msgid ""
-"3. If Tails is the right tool for you, go on [[downloading, verifying, and\n"
+"3. If TⒶILS is the right tool for you, go on [[downloading, verifying, and\n"
 "installing it|download]].\n"
-msgstr "3. Sollte Tails das richtige Werkzeug für Sie sein, können Sie es hier [[herunterladen, verifizieren und installieren|download]].\n"
+msgstr "3. Sollte TⒶILS das richtige Werkzeug für Sie sein, können Sie es hier [[herunterladen, verifizieren und installieren|download]].\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"4. Throughout your use of Tails, it's very important to [[stay up to\n"
+"4. Throughout your use of TⒶILS, it's very important to [[stay up to\n"
 "date|download#stay_tuned]] with security issues and new versions.\n"
 msgstr ""
-"4. Wenn Sie Tails benutzen, ist es sehr wichtig in Sicherheitsfragen\n"
+"4. Wenn Sie TⒶILS benutzen, ist es sehr wichtig in Sicherheitsfragen\n"
 "und neuen Versionen [[auf dem aktuellen Stand|download#stay_tuned]] zu\n"
 "bleiben.\n"
 
@@ -65,31 +65,31 @@ msgid ""
 "Learning more about Tails…\n"
 "--------------------------\n"
 msgstr ""
-"Mehr über Tails erfahren…\n"
+"Mehr über TⒶILS erfahren…\n"
 "--------------------------\n"
 
 #. type: Plain text
 msgid ""
-"- Read our [[user documentation|doc]] to learn more about Tails and how to "
+"- Read our [[user documentation|doc]] to learn more about TⒶILS and how to "
 "use it."
 msgstr ""
-"- Lesen Sie unsere [[Benutzerdokumentation|doc]], um mehr über Tails und "
+"- Lesen Sie unsere [[Benutzerdokumentation|doc]], um mehr über TⒶILS und "
 "dessen Bedienung zu erfahren."
 
 #. type: Bullet: '- '
 msgid ""
-"Learn more about Tor, the anonymity network used by Tails on their website: "
+"Learn more about Tor, the anonymity network used by TⒶILS on their website: "
 "[[https://www.torproject.org/]]."
 msgstr ""
-"Erfahren Sie mehr über Tor, das von Tails benutzte Anonymisierungsnetzwerk, "
+"Erfahren Sie mehr über Tor, das von TⒶILS benutzte Anonymisierungsnetzwerk, "
 "unter der Webseite: [[https://www.torproject.org/]]."
 
 #. type: Bullet: '- '
 msgid ""
-"For a deeper understanding of Tails' specifications and internals, read our "
+"For a deeper understanding of TⒶILS' specifications and internals, read our "
 "[[design document|contribute/design]]."
 msgstr ""
-"Für ein tiefgreifenderes Verständnis zu Tails Spezifikationen und innerer "
+"Für ein tiefgreifenderes Verständnis zu TⒶILS Spezifikationen und innerer "
 "Arbeitsweise lesen Sie bitte das [[Design Dokument|contribute/design]]."
 
 #. type: Title -
@@ -99,10 +99,10 @@ msgstr "Einen Fehler gefunden?\n"
 
 #. type: Plain text
 msgid ""
-"If you found a bug in Tails or want to request a new feature, see our "
+"If you found a bug in TⒶILS or want to request a new feature, see our "
 "[[support]] pages."
 msgstr ""
-"Sollten Sie einen Fehler in Tails gefunden haben, oder ein neues Feature "
+"Sollten Sie einen Fehler in TⒶILS gefunden haben, oder ein neues Feature "
 "wünschen, lesen Sie sich bitte unsere [[Hilfe & Support|support]] Seite "
 "durch."
 

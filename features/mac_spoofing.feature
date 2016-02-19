@@ -1,21 +1,21 @@
 @product
 Feature: Spoofing MAC addresses
   In order to not reveal information about the physical location
-  As a Tails user
+  As a TⒶILS user
   I want to be able to control whether my network devices MAC addresses should be spoofed
   And I want this feature to fail safe and notify me in case of errors
 
   Background:
-    Given I have started Tails from DVD without network and stopped at Tails Greeter's login screen
+    Given I have started TⒶILS from DVD without network and stopped at Tails Greeter's login screen
     And I capture all network traffic
     And the network is plugged
 
   @fragile
   Scenario: MAC address spoofing is disabled
-    When I enable more Tails Greeter options
-    And I disable MAC spoofing in Tails Greeter
+    When I enable more TⒶILS Greeter options
+    And I disable MAC spoofing in TⒶILS Greeter
     And I log in to a new session
-    And the Tails desktop is ready
+    And the TⒶILS desktop is ready
     And Tor is ready
     Then 1 network interface is enabled
     And the network device has its default MAC address configured
@@ -24,7 +24,7 @@ Feature: Spoofing MAC addresses
   @fragile
   Scenario: MAC address spoofing is successful
     When I log in to a new session
-    And the Tails desktop is ready
+    And the TⒶILS desktop is ready
     And Tor is ready
     Then 1 network interface is enabled
     And the network device has a spoofed MAC address configured
@@ -36,7 +36,7 @@ Feature: Spoofing MAC addresses
     Given macchanger will fail by not spoofing and always returns false
     When I log in to a new session
     And see the "Network card disabled" notification
-    And the Tails desktop is ready
+    And the TⒶILS desktop is ready
     Then no network interfaces are enabled
     And the real MAC address was not leaked
 
@@ -46,7 +46,7 @@ Feature: Spoofing MAC addresses
     Given macchanger will fail by not spoofing and always returns true
     When I log in to a new session
     And see the "Network card disabled" notification
-    And the Tails desktop is ready
+    And the TⒶILS desktop is ready
     Then no network interfaces are enabled
     And the real MAC address was not leaked
 
@@ -57,15 +57,15 @@ Feature: Spoofing MAC addresses
     And no network interface modules can be unloaded
     When I log in to a new session
     And see the "All networking disabled" notification
-    And the Tails desktop is ready
+    And the TⒶILS desktop is ready
     Then 1 network interface is enabled
     But the MAC spoofing panic mode disabled networking
     And the real MAC address was not leaked
 
-  Scenario: The MAC address is not leaked when booting Tails
+  Scenario: The MAC address is not leaked when booting TⒶILS
     Given a computer
     And I capture all network traffic
     When I start the computer
-    Then the computer boots Tails
+    Then the computer boots TⒶILS
     And no network interfaces are enabled
     And the real MAC address was not leaked

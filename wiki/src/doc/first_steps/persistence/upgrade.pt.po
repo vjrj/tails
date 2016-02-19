@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-01-28 15:18+0100\n"
 "PO-Revision-Date: 2014-07-17 15:38-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -22,16 +22,16 @@ msgstr "[[!meta title=\"Atualize para configurações mais seguras de persistên
 
 #. type: Plain text
 msgid ""
-"Tails 0.21 introduces a more secure access control over the persistent "
-"volume settings. This also means that before Tails 0.21, an attacker who "
-"could run an exploit from inside your Tails session could corrupt the "
+"TⒶILS 0.21 introduces a more secure access control over the persistent "
+"volume settings. This also means that before TⒶILS 0.21, an attacker who "
+"could run an exploit from inside your TⒶILS session could corrupt the "
 "persistent volume settings. By doing this, an attacker could possibly gain "
 "persistent administrator rights or install malicious software."
 msgstr ""
-"O Tails 0.21 introduziu um controle de acesso mais seguro sobre as "
+"O TⒶILS 0.21 introduziu um controle de acesso mais seguro sobre as "
 "configurações de volume persistente. Isto também significa que antes do "
-"Tails 0.21 um atacante que pudesse executar um programa malicioso de dentro "
-"da sua sessão do Tails poderia corromper as configurações de volme "
+"TⒶILS 0.21 um atacante que pudesse executar um programa malicioso de dentro "
+"da sua sessão do TⒶILS poderia corromper as configurações de volme "
 "persistente. Ao fazê-lo, um atacante poderia ganhar privilégios "
 "administrativos persistentes ou instalar programas maliciosos."
 
@@ -64,24 +64,24 @@ msgstr ""
 "seguras. Para realizar esta atualização, de uma vez por todas:"
 
 #. type: Bullet: '1. '
-msgid "**Start Tails 0.21**."
-msgstr "**Inicie o Tails 0.21**."
+msgid "**Start TⒶILS 0.21**."
+msgstr "**Inicie o TⒶILS 0.21**."
 
 #. type: Bullet: '2. '
 msgid ""
 "**Enable persistence** without the read-only option. Activating the read-"
-"only option prevents Tails from starting correctly until the upgrade is made."
+"only option prevents TⒶILS from starting correctly until the upgrade is made."
 msgstr ""
 "**Habilite a persistência** sem a opção somente leitura. Ativar a opção "
-"somente leitura evita que Tails seja iniciado corretamente até que a "
+"somente leitura evita que TⒶILS seja iniciado corretamente até que a "
 "atualização seja feita."
 
 #. type: Bullet: '3. '
 msgid ""
-"If the upgrade is successful, Tails starts as usual and no notification "
+"If the upgrade is successful, TⒶILS starts as usual and no notification "
 "appears."
 msgstr ""
-"Se a atualização for bem sucedida, inicie o Tails da forma usual e nenhuma "
+"Se a atualização for bem sucedida, inicie o TⒶILS da forma usual e nenhuma "
 "notificação aparecerá."
 
 #. type: Plain text
@@ -92,17 +92,17 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"a. **If you skipped the upgrade to Tails 0.21 and upgraded directly\n"
-"   to Tails 0.22 or later**, then follow the instructions to [[manually copy\n"
+"a. **If you skipped the upgrade to TⒶILS 0.21 and upgraded directly\n"
+"   to TⒶILS 0.22 or later**, then follow the instructions to [[manually copy\n"
 "   your persistent data to a new device|copy]].\n"
-"   For security reasons the automatic upgrade is not available in Tails 0.22 or\n"
+"   For security reasons the automatic upgrade is not available in TⒶILS 0.22 or\n"
 "   later.\n"
 msgstr ""
-"a. **Se você pulou a atualização para o Tails 0.21 e atualizou diretamente\n"
-"   para o Tails 0.22 ou mais novo**, então siga as instruções para [[copiar\n"
+"a. **Se você pulou a atualização para o TⒶILS 0.21 e atualizou diretamente\n"
+"   para o TⒶILS 0.22 ou mais novo**, então siga as instruções para [[copiar\n"
 "   manualmente seus dados persistentes para um novo dispositivo]].\n"
 "   Por razões de segurança, a atualização automática não está disponível no\n"
-"   Tails 0.22 ou mais novo.\n"
+"   TⒶILS 0.22 ou mais novo.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -118,12 +118,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   A notification should appear when starting Tails that indicates which\n"
+"   A notification should appear when starting TⒶILS that indicates which\n"
 "   persistence settings are temporarily disabled. In that case, follow\n"
 "   the instructions to [[enable again your custom persistence\n"
 "   settings|upgrade#custom_settings]].\n"
 msgstr ""
-"   Ao iniciar o Tails, uma notificação deve aparecer indicando quais\n"
+"   Ao iniciar o TⒶILS, uma notificação deve aparecer indicando quais\n"
 "   configurações de persistência estão termporariamente desabilitadas.\n"
 "   Neste caso, siga as instruções para [[habilitar novamente as configurações\n"
 "   de persistência|upgrade#custom_settings]].\n"
@@ -137,12 +137,12 @@ msgstr "   <div class=\"caution\">\n"
 #, no-wrap
 msgid ""
 "     If you have custom persistence settings or use additional software\n"
-"     but no notification appear on the desktop, then your Tails system\n"
+"     but no notification appear on the desktop, then your TⒶILS system\n"
 "     might be corrupted. In that case, follow the instructions to [[manually copy\n"
 "     your persistent data to a new device|copy]].\n"
 msgstr ""
 "   Se você possui configurações de persistência personalizadas ou usa programas\n"
-"   adicionais mas nenhuma notificação aparece ne tela, então seu sistema Tails pode\n"
+"   adicionais mas nenhuma notificação aparece ne tela, então seu sistema TⒶILS pode\n"
 "   estar corrompido. Neste caso, siga as instruções para [[copiar manualmente\n"
 "   seus dados persistentes para um novo dispositivo|copy]].\n"
 
@@ -194,10 +194,10 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails and set an [[administration password|startup_options/"
+"Start TⒶILS and set an [[administration password|startup_options/"
 "administration_password]]."
 msgstr ""
-"Inicie o Tails e configure uma [[senha de administração|startup_options/"
+"Inicie o TⒶILS e configure uma [[senha de administração|startup_options/"
 "administration_password]]."
 
 #. type: Plain text
@@ -331,10 +331,10 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Keep that Tails device without modifying it in order to analyse it later if "
+"Keep that TⒶILS device without modifying it in order to analyse it later if "
 "needed."
 msgstr ""
-"Mantenha este dispositivo com Tails com você sem modificá-lo para poder "
+"Mantenha este dispositivo com TⒶILS com você sem modificá-lo para poder "
 "analisá-lo mais tarde se necessário."
 
 #. type: Bullet: '1. '

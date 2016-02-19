@@ -61,11 +61,11 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid ""
-"Make sure that the USB stick or SD card onto which you want to install Tails "
+"Make sure that the USB stick or SD card onto which you want to install TⒶILS "
 "is unplugged."
 msgstr ""
 "Vérifiez que la clé USB ou carte SD sur laquelle vous souhaitez installer "
-"Tails est débranchée."
+"TⒶILS est débranchée."
 
 #. type: Plain text
 #, no-wrap
@@ -93,9 +93,9 @@ msgstr ""
 "périphériques de stockage actuels dans la partie gauche de la fenêtre."
 
 #. type: Bullet: '  1. '
-msgid "Plug the USB stick or SD card onto which you want to install Tails."
+msgid "Plug the USB stick or SD card onto which you want to install TⒶILS."
 msgstr ""
-"Branchez la clé USB ou carte SD sur laquelle vous souhaitez installer Tails"
+"Branchez la clé USB ou carte SD sur laquelle vous souhaitez installer TⒶILS"
 
 #. type: Plain text
 #, no-wrap
@@ -219,10 +219,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you don't see any error message, Tails is being copied onto the device. "
+"If you don't see any error message, TⒶILS is being copied onto the device. "
 "The whole process might take some time, generally a few minutes."
 msgstr ""
-"Si vous ne voyez aucun message d'erreur, Tails est en train d'être copié "
+"Si vous ne voyez aucun message d'erreur, TⒶILS est en train d'être copié "
 "vers le périphérique. Ce processus peut prendre du temps, généralement "
 "quelques minutes."
 
@@ -235,10 +235,10 @@ msgstr "<div class=\"next\">\n"
 #, no-wrap
 msgid ""
 "<p>Once the command prompt reappears, you can shutdown your computer, and\n"
-"[[start Tails|start_tails]] from this new device.</p>\n"
+"[[start TⒶILS|start_tails]] from this new device.</p>\n"
 msgstr ""
 "<p>Lorsque l'invite de commande réapparait, vous pouvez éteindre l'ordinateur, et\n"
-"[[démarrer Tails|start_tails]] depuis ce nouveau périphérique.</p>\n"
+"[[démarrer TⒶILS|start_tails]] depuis ce nouveau périphérique.</p>\n"
 
 #. type: Title =
 #, no-wrap

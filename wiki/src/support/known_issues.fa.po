@@ -31,13 +31,13 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Problems starting Tails\n"
+msgid "Problems starting TⒶILS\n"
 msgstr "مشکلات هنگام راه‌اندازی تیلز\n"
 
 #. type: Plain text
 msgid ""
 "This section lists known problems with specific hardware. To report a "
-"problem with different hardware see our [[report guidelines when Tails does "
+"problem with different hardware see our [[report guidelines when TⒶILS does "
 "not start|doc/first_steps/bug_reporting/tails_does_not_start]]."
 msgstr ""
 "این بخش مشکلات شناخته‌شدهٔ سخت‌افزارهای خاص را فهرست می‌کند. برای گزارش یک مشکل "
@@ -131,7 +131,7 @@ msgid ""
 "mid-2014. The flash drives that comply with this certification will have the "
 "Windows 8 logo on their packaging.  If a flash drive does not have the "
 "Windows 8 logo on its packaging, then that drive will function as a "
-"removable disk and should work with Tails."
+"removable disk and should work with TⒶILS."
 msgstr ""
 "سان‌دیسک از سال ۲۰۱۲ برای انطابق با نیازمندی‌های جدید گواهی ویندوز ۸ شروع به "
 "تولید درایوهای یواس‌بی تنظیم‌شده به شکل دیسک ثابت کرده که تولید آن‌ها در اواسط "
@@ -156,7 +156,7 @@ msgstr "PNY"
 
 #. type: Plain text
 msgid ""
-"When installing Tails, PNY USB sticks have problems with the constant write "
+"When installing TⒶILS, PNY USB sticks have problems with the constant write "
 "load and are prone to failure."
 msgstr ""
 "هنگام نصب تیلز، درایوهای یواس‌بی PNY با میزان نوشتن ثابت دچار مشکل شده و "
@@ -192,7 +192,7 @@ msgstr "Aegis Secure Key USB 3.0"
 
 #. type: Plain text
 msgid ""
-"This USB stick doesn't start Tails at all, the USB 2.0 workaround is not "
+"This USB stick doesn't start TⒶILS at all, the USB 2.0 workaround is not "
 "working for that hardware."
 msgstr ""
 "این درایو یواس‌بی به کل تیلز را راه‌اندازی نکرده و روش پیرامونی یواس‌بی ۲٬۰ "
@@ -219,14 +219,14 @@ msgstr "Acer Travelmate 8573T-254G50M\n"
 #. type: Plain text
 msgid ""
 "Booting from DVD works fine, but does not start on USB sticks created using "
-"Tails Installer."
+"TⒶILS Installer."
 msgstr ""
 "راه‌اندازی از دی‌وی‌دی به خوبی انجام می‌شود، اما راه‌اندازی از درایوهای یواس‌بی "
 "ایجادشده توسط نصب‌کنندهٔ تیلز انجام نمی‌شود."
 
 #. type: Plain text
 msgid ""
-"This problem might be corrected in Tails 1.1 and newer: please report your "
+"This problem might be corrected in TⒶILS 1.1 and newer: please report your "
 "test results back to us."
 msgstr ""
 "این مشکل ممکن است در تیلز ۱٫۱ و نسخه‌های جدیدتر از آن حل شده باشد. لطفاً نتایج "
@@ -239,7 +239,7 @@ msgid "Acer Aspire 5315-ICL50 and Acer ES-1-331\n"
 msgstr "Acer Aspire 5315-ICL50\n"
 
 #. type: Plain text
-msgid "Does not start on USB sticks created using Tails Installer."
+msgid "Does not start on USB sticks created using TⒶILS Installer."
 msgstr "راه‌اندازی از درایوهای یواس‌بی ایجادشده توسط نصب‌کنندهٔ تیلز انجام نمی‌شود."
 
 #. type: Title -
@@ -249,7 +249,7 @@ msgstr "ASUS VivoBook X202E\n"
 
 #. type: Plain text
 msgid ""
-"Legacy support needs to be enabled in order to start Tails. To enable legacy "
+"Legacy support needs to be enabled in order to start TⒶILS. To enable legacy "
 "boot support, enable 'Launch CSM' under boot (menu)."
 msgstr ""
 "برای راه‌اندازی تیلز باید پشتیبانی از Legacy فعال شود. برای فعال کردن "
@@ -263,7 +263,7 @@ msgstr "Compaq 615\n"
 #. type: Plain text
 msgid ""
 "You need to update the firmware to its latest version in order to start from "
-"a device installed using Tails Installer."
+"a device installed using TⒶILS Installer."
 msgstr ""
 "برای راه‌اندازی از دستگاه نصب‌شده توسط نصب‌کنندهٔ تیلز باید سفت‌افزار را به آخرین "
 "نسخهٔ آن ارتقاء دهید."
@@ -297,7 +297,7 @@ msgstr "Dell XPS L702X/03RG89, Samsung RV520, Samsung Series 7 Chronos\n"
 #. type: Plain text
 msgid ""
 "We were reported that the legacy BIOS shipped on these systems doesn't know "
-"how to deal with the GPT partition scheme installed by Tails Installer."
+"how to deal with the GPT partition scheme installed by TⒶILS Installer."
 msgstr ""
 "به ما گزارش شده که بایوس legacy گنجانده‌شده در این سیستم‌ها نمی‌داند چطور باید "
 "با طرح پارتیشن GPT نصب‌شده روی نصب‌کنندهٔ تیلز برخورد کند."
@@ -319,7 +319,7 @@ msgstr "Dell Inspiron 8100\n"
 msgid ""
 "The display panel will have the wrong resolution unless "
 "`video=LVDS-1:1600x1200 nouveau.noaccel=1` is added to the boot command "
-"line. This problem might be corrected in Tails 1.1 and newer: please report "
+"line. This problem might be corrected in TⒶILS 1.1 and newer: please report "
 "your test results back to us."
 msgstr ""
 "پنل نمایش راه‌حلی اشتباه خواهد داشت مگر این که `video=LVDS-1:1600x1200 "
@@ -353,7 +353,7 @@ msgid "HP Compaq dc5750 Microtower\n"
 msgstr "HP Compaq dc5750 Microtower\n"
 
 #. type: Plain text
-msgid "Does not start Tails 1.2.3 created using Tails Installer."
+msgid "Does not start TⒶILS 1.2.3 created using TⒶILS Installer."
 msgstr "تیلز ۱٫۲٫۲ که با نصب‌کنندهٔ تیلز ایجاد شده باشد راه‌اندازی نمی‌شود."
 
 #. type: Title -
@@ -363,8 +363,8 @@ msgstr "HP Pavilion dv7\n"
 
 #. type: Plain text
 msgid ""
-"Since Tails 1.3, gets stuck at the boot menu, whether Tails is installed "
-"manually or using Tails Installer."
+"Since TⒶILS 1.3, gets stuck at the boot menu, whether TⒶILS is installed "
+"manually or using TⒶILS Installer."
 msgstr ""
 "از تیلز ۱٫۳ در فهرست راه‌اندازی متوقف می‌شود، چه تیلز دستی نصب شده باشد و چه "
 "با نصب‌کنندهٔ تیلز."
@@ -377,10 +377,10 @@ msgstr "HP ProBook 4330s\n"
 #. type: Plain text
 msgid ""
 "With UEFI enabled, when chosing a boot device, select `Boot From EFI File` "
-"and then `Filesystem Tails` and `EFI/BOOT/bootx64.efi`."
+"and then `Filesystem TⒶILS` and `EFI/BOOT/bootx64.efi`."
 msgstr ""
 "با UEFI فعال، هنگام انتخاب یک دستگاه بوت،  `Boot From EFI File` و سپس "
-"`Filesystem Tails` و `EFI/BOOT/bootx64.efi` را انتخاب کنید."
+"`Filesystem TⒶILS` و `EFI/BOOT/bootx64.efi` را انتخاب کنید."
 
 #. type: Title -
 #, no-wrap
@@ -388,7 +388,7 @@ msgid "Lenovo IdeaPad Y410p\n"
 msgstr "Lenovo IdeaPad Y410p\n"
 
 #. type: Plain text
-msgid "Does not start Tails 1.1 from USB installed manually in Linux."
+msgid "Does not start TⒶILS 1.1 from USB installed manually in Linux."
 msgstr ""
 "تیلز ۱٫۱ را از درایو یواس‌بی که روی لینوکس دستی نصب شده باشد راه‌اندازی نمی‌کند."
 
@@ -398,7 +398,7 @@ msgid "Lenovo IdeaPad z585\n"
 msgstr "Lenovo IdeaPad z585\n"
 
 #. type: Plain text
-msgid "Goes back continuously to boot menu on Tails installed on DVD."
+msgid "Goes back continuously to boot menu on TⒶILS installed on DVD."
 msgstr "روی تیلز نصب‌شده روی دی‌وی‌دی مدام به فهرست راه‌اندازی بازمی‌گردد."
 
 #. type: Title -
@@ -408,7 +408,7 @@ msgstr "Clevo W258CU, ThinkPad X220, X121e, T420i, T410, T520, W520, T530, E325,
 
 #. type: Plain text
 msgid ""
-"These machines do not start on USB sticks created using Tails USB Installer, "
+"These machines do not start on USB sticks created using TⒶILS USB Installer, "
 "due to a firmware limitation."
 msgstr ""
 "این دستگاه‌ها به دلیل یک محدودیت سفت‌افزاری با درایو یواس‌بی ایجادشده توسط "
@@ -441,15 +441,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Some Mac need [rEFInd](http://sourceforge.net/projects/refind/)  installed "
-"to boot Tails from a USB stick."
+"to boot TⒶILS from a USB stick."
 msgstr ""
 "برخی مک‌ها برای راه‌اندازی تیلز از یک درایو یواس‌بی نیاز به نصب [rEFInd](http://"
 "sourceforge.net/projects/refind/) دارند."
 
 #. type: Bullet: '* '
 msgid ""
-"Any Mac with 32-bit EFI may not succeed in booting Tails USB stick created "
-"by Tails Installer. You can check if a given Mac is 32-bit or 64-bit EFI on "
+"Any Mac with 32-bit EFI may not succeed in booting TⒶILS USB stick created "
+"by TⒶILS Installer. You can check if a given Mac is 32-bit or 64-bit EFI on "
 "that list: <http://www.everymac.com/mac-answers/snow-leopard-mac-os-x-faq/"
 "mac-os-x-snow-leopard-64-bit-macs-64-bit-efi-boot-in-64-bit-mode.html>"
 msgstr ""
@@ -460,7 +460,7 @@ msgstr ""
 "in-64-bit-mode.html>"
 
 #. type: Bullet: '* '
-msgid "MacBook Pro 5,5 does not boot with Tails in UEFI mode."
+msgid "MacBook Pro 5,5 does not boot with TⒶILS in UEFI mode."
 msgstr "دستگاه MacBook Pro 5,5 با تیلز در حالت UEFI راه‌اندازی نمی‌شود."
 
 #. type: Bullet: '* '
@@ -473,13 +473,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"MacBook Air 3,2 (A1369 EMC 2392) freezes when booting Tails in UEFI mode."
+"MacBook Air 3,2 (A1369 EMC 2392) freezes when booting TⒶILS in UEFI mode."
 msgstr ""
 "دستگاه MacBook Air 3,2 (A1369 EMC 2392) هنگام راه‌اندازی تیلز در حالت UEFI "
 "بی‌حرکت می‌شود."
 
 #. type: Bullet: '* '
-msgid "MacBook Pro (early 2011) fails to boot from DVD since Tails 1.1."
+msgid "MacBook Pro (early 2011) fails to boot from DVD since TⒶILS 1.1."
 msgstr ""
 "دستگاه MacBook Pro (اوایل ۲۰۱۱) در راه‌اندازی از دی‌وی‌دی از تیلز ۱٫۱ به بعد "
 "ناموفق است."
@@ -487,7 +487,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Mac Pro Tower and MacBook Pro 4,1 (both from early 2008) and MacBook Pro 8,2 "
-"(late 2011) fail to boot from a USB stick created by Tails Installer."
+"(late 2011) fail to boot from a USB stick created by TⒶILS Installer."
 msgstr ""
 "دستگاه‌های Mac Pro Tower و MacBook Pro 4,1 (هر دو متعلق به اوایل ۲۰۰۸) و "
 "MacBook Pro 8,2 (اواخر ۲۰۱۱) در راه‌اندازی از یک درایو یواس‌بی ایجادشده توسط "
@@ -523,7 +523,7 @@ msgstr "دو راه پیرامونی ممکن برای این مشکل وجود 
 msgid ""
 "For the Mac computers, it is possible to use a third-party application, "
 "<http://gfx.io/>, to force integrated graphics only through OS X.  Then "
-"restart in that special mode that works with Tails."
+"restart in that special mode that works with TⒶILS."
 msgstr ""
 "برای رایانه‌های مک، تنها در اواس ده می‌توان از یک ابزار طرف سوم، <http://gfx."
 "io/>، برای استفاده از گرافیک‌های یکپارچه استفاده کرد. سپس باید رایانه را در "
@@ -598,12 +598,12 @@ msgstr "<a id=\"chainloading\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Chainloading Tails from GRUB\n"
+msgid "Chainloading TⒶILS from GRUB\n"
 msgstr "بارگذاری زنجیره‌ای تیلز از GRUB\n"
 
 #. type: Plain text
 msgid ""
-"To workaround problems in booting Tails on laptops with UEFI support, it is "
+"To workaround problems in booting TⒶILS on laptops with UEFI support, it is "
 "possible to chainload the syslinux on the ISO image from another boot loader "
 "that is already working on the laptop, like GRUB. Be careful not to modify "
 "at all the options of syslinux in the process."
@@ -647,14 +647,14 @@ msgstr "رابط شبکهٔ وای‌فای Broadcam نیازمند به `broadc
 msgid ""
 "Some Broadcom Wi-Fi interfaces require the [`wl`](https://wiki.debian.org/"
 "wl) driver, provided by the `broadcom-sta-dkms` Debian package, to work in "
-"Tails."
+"TⒶILS."
 msgstr ""
 "بعضی رابط‌های وای‌فای Broadcam برای کار کردن با تیلز نیازمند راه‌انداز [`wl`]"
 "(https://wiki.debian.org/wl) هستند که در بستهٔ دبیان `broadcom-sta-dkms` وجود "
 "دارد."
 
 #. type: Plain text
-msgid "The `wl` driver is not included in Tails because it is proprietary."
+msgid "The `wl` driver is not included in TⒶILS because it is proprietary."
 msgstr "راه‌انداز `wl` در تیلز آورده نشده، چون مالکیتی است."
 
 #. type: Plain text
@@ -680,7 +680,7 @@ msgid ""
 "2. Verify if your device is in the list of devices supported by the `broadcom-sta-dkms`\n"
 "package on the corresponding [Debian wiki page](https://wiki.debian.org/wl).\n"
 "If you find your device in the list of supported devices, then it is\n"
-"impossible to use your Wi-Fi card in Tails.\n"
+"impossible to use your Wi-Fi card in TⒶILS.\n"
 msgstr ""
 "۲. در صفحهٔ  [صفحهٔ ویکی دبیان](https://wiki.debian.org/wl) مرتبط اطمینان حاصل کنید \n"
 "که دستگاه شما در فهرست دستگاه‌های مورد پشتیبانی بستهٔ `broadcom-sta-dkms` وجود دارد.\n"
@@ -701,9 +701,9 @@ msgstr "رابط شبکهٔ وای‌فای Broadcom BCM43224 802.11a/b/g/n\n"
 msgid ""
 "The Broadcom Corporation BCM43224 802.11a/b/g/n Wi-Fi network interface is "
 "known to not be able to [[spoof its MAC address|doc/first_steps/"
-"startup_options/mac_spoofing]]. Tails enables MAC spoofing by default, and "
+"startup_options/mac_spoofing]]. TⒶILS enables MAC spoofing by default, and "
 "will disable any network interface it fails to spoof. To make it work you "
-"must [[disable Tails' MAC spoofing feature|doc/first_steps/startup_options/"
+"must [[disable TⒶILS' MAC spoofing feature|doc/first_steps/startup_options/"
 "mac_spoofing#disable]]; please read the documentation carefully and make "
 "sure you understand the consequences before doing so."
 msgstr ""
@@ -729,12 +729,12 @@ msgstr "مسائل امنیتی\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails might not erase all the system memory on shutdown\n"
+msgid "TⒶILS might not erase all the system memory on shutdown\n"
 msgstr "تیلز ممکن است هنگام خاموش شدن تمام حافظهٔ سیستم را پاک نکند\n"
 
 #. type: Plain text
 msgid ""
-"On rare systems (non-PAE with big amounts of memory), Tails does not "
+"On rare systems (non-PAE with big amounts of memory), TⒶILS does not "
 "consistently erase all system memory as it should."
 msgstr ""
 "در تعداد معدودی از سیستم‌ها (غیر توسعهٔ آدرس فیزیکی با حافظه‌های بزرگ) تیلز آن "
@@ -762,15 +762,15 @@ msgstr "<a id=\"video-memory\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not erase video memory\n"
+msgid "TⒶILS does not erase video memory\n"
 msgstr "تیلز حافظهٔ ویدیویی را پاک نمی‌کند\n"
 
 #. type: Plain text
 msgid ""
-"Tails doesn't erase the [[!wikipedia VRAM desc=\"video memory\"]] yet.  When "
-"one uses Tails, then restarts the computer into another operating system, "
+"TⒶILS doesn't erase the [[!wikipedia VRAM desc=\"video memory\"]] yet.  When "
+"one uses TⒶILS, then restarts the computer into another operating system, "
 "that other operating system can see what has been displayed on the screen "
-"within Tails."
+"within TⒶILS."
 msgstr ""
 "تیلز هنوز [[!wikipedia VRAM desc=\"حافظهٔ ویدیویی\"]] را پاک نمی‌کند. هنگام "
 "استفاده از تیلز و راه‌اندازی دوبارهٔ رایانه به سیستم‌عاملی دیگر، آن سیستم‌عامل "
@@ -792,15 +792,15 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "After using Tails Installer, the \"emergency shutdown\" doesn't work\n"
+msgid "After using TⒶILS Installer, the \"emergency shutdown\" doesn't work\n"
 msgstr "پس از استفاده از نصب‌کنندهٔ تیلز «خاموش شدن اضطراری» کار نمی‌کند\n"
 
 #. type: Plain text
 msgid ""
-"Tails Installer messes a bit too much with the USB devices for the "
+"TⒶILS Installer messes a bit too much with the USB devices for the "
 "\"emergency shutdown on media removal\" feature to continue working after "
 "using it. If you believe this feature is critical for the session you're "
-"running, we advice you to restart Tails."
+"running, we advice you to restart TⒶILS."
 msgstr ""
 "نصب‌کنندهٔ تیلز مشکل زیادی با دستگاه‌های یواس‌بی و ویژگی «خاموش کردن فوری با جدا "
 "کردن دستگاه» دارد و پس از انجام این کار ادامهٔ کار با تیلز مشکل می‌شود. اگر "
@@ -813,7 +813,7 @@ msgstr ""
 #| "See [[!tails_ticket 5677 desc=\"liveusb-creator should not break "
 #| "emergency shutdown\"]]."
 msgid ""
-"See [[!tails_ticket 5677 desc=\"Tails Installer should not break emergency "
+"See [[!tails_ticket 5677 desc=\"TⒶILS Installer should not break emergency "
 "shutdown\"]]."
 msgstr ""
 "رجوع کنید به [[!tails_ticket 5677 desc=\"ایجادکنندهٔ یواس‌بی زنده نباید خاموش "
@@ -821,7 +821,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Tails DVD eject failure\n"
+msgid "TⒶILS DVD eject failure\n"
 msgstr "عدم توفیق در بیرون آوردن دی‌وی‌دی تیلز\n"
 
 #. type: Plain text
@@ -841,12 +841,12 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Tails fails to completely shutdown or restart\n"
+msgid "TⒶILS fails to completely shutdown or restart\n"
 msgstr "تیلز کامل خاموش نشده یا دوباره راه‌اندازی نمی‌شود\n"
 
 #. type: Plain text
 msgid ""
-"When stopping Tails on some hardware, the memory wipe procedure fails to "
+"When stopping TⒶILS on some hardware, the memory wipe procedure fails to "
 "complete: the display gets scrambled, but the computer doesn't completely "
 "shutdown or restart. Sometimes the caps-lock button light of the keyboard "
 "flashes."
@@ -879,7 +879,7 @@ msgstr "این مشکل روی این سخت‌افزارها گزارش شده:
 #| msgid ""
 #| "  - Apple when booting from a USB stick:\n"
 #| "    - MacBook Air 5,1\n"
-#| "    - MacBook Air 5,2 (using a device installed with Tails Installer)\n"
+#| "    - MacBook Air 5,2 (using a device installed with TⒶILS Installer)\n"
 #| "    - MacBook Air 6,2\n"
 #| "    - MacBook Pro 7,1 13-inch (mid 2010)\n"
 #| "    - MacBook Pro 9,2 13-inch (mid 2012)\n"
@@ -901,7 +901,7 @@ msgstr "این مشکل روی این سخت‌افزارها گزارش شده:
 msgid ""
 "  - Apple when booting from a USB stick:\n"
 "    - MacBook Air 5,1\n"
-"    - MacBook Air 5,2 (using a device installed with Tails Installer)\n"
+"    - MacBook Air 5,2 (using a device installed with TⒶILS Installer)\n"
 "    - MacBook Air 6,2\n"
 "    - MacBook Pro 7,1 13-inch (mid 2010)\n"
 "    - MacBook Pro 9,2 13-inch (mid 2012)\n"
@@ -961,7 +961,7 @@ msgstr "اثر انگشت\n"
 msgid ""
 "There are currently no known differences between the fingerprints of\n"
 "<span class=\"application\">Tor Browser</span> inside and outside of\n"
-"Tails.\n"
+"TⒶILS.\n"
 msgstr ""
 
 #. type: Plain text
@@ -975,21 +975,21 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "<!-- The fingerprints of <span class=\"application\">Tor Browser</span> in Tails and on other operating systems are different: -->\n"
+#| msgid "<!-- The fingerprints of <span class=\"application\">Tor Browser</span> in TⒶILS and on other operating systems are different: -->\n"
 msgid ""
 "There are known differences between the fingerprints of <span\n"
-"class=\"application\">Tor Browser</span> inside and outside of Tails:\n"
+"class=\"application\">Tor Browser</span> inside and outside of TⒶILS:\n"
 msgstr "<!-- اثر انگشت <span class=\"application\">مرورگر تور</span> روی تیلز و سیستم‌عامل‌های دیگر متفاوت است: -->\n"
 
 #. type: Bullet: '* '
 msgid ""
 "Tor Browser 5.5 introduces [protection against fingerprinting](https://trac."
 "torproject.org/projects/tor/ticket/13313)  but due to an [[!tails_ticket "
-"11000 desc=\"oversight\"]] it is not enabled in Tails 2.0. However, this is "
-"not so bad for Tails users since each Tails system has the same fonts "
+"11000 desc=\"oversight\"]] it is not enabled in TⒶILS 2.0. However, this is "
+"not so bad for TⒶILS users since each TⒶILS system has the same fonts "
 "installed, and hence will look identical, so this only means that it's easy "
-"to distinguish whether a user of Tor Browser 5.5 uses Tails or not. That is "
-"already easy given that Tails has the AdBlock Plus extension enabled, unlike "
+"to distinguish whether a user of Tor Browser 5.5 uses TⒶILS or not. That is "
+"already easy given that TⒶILS has the AdBlock Plus extension enabled, unlike "
 "the normal Tor Browser."
 msgstr ""
 
@@ -1057,11 +1057,11 @@ msgstr "مشکلاتی در نمایش فهرست راه‌اندازی وجود
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Since Tails 1.1, one some hardware (ThinkPad X230, MacBook Pro 8,1), the "
-#| "boot menu is not displayed properly. Tails starts fine, though."
+#| "Since TⒶILS 1.1, one some hardware (ThinkPad X230, MacBook Pro 8,1), the "
+#| "boot menu is not displayed properly. TⒶILS starts fine, though."
 msgid ""
-"Since Tails 1.1, on some hardware (ThinkPad X230, MacBook Pro 8,1), the boot "
-"menu is not displayed properly. Tails starts fine, though."
+"Since TⒶILS 1.1, on some hardware (ThinkPad X230, MacBook Pro 8,1), the boot "
+"menu is not displayed properly. TⒶILS starts fine, though."
 msgstr ""
 "از تیلز ۱٫۱ به بعد، فهرست راه‌اندازی روی بعضی سخت‌افزارها (ThinkPad X230، "
 "MacBook Pro 8,1) به خوبی نشان داده نمی‌شود. اما تیلز بدون مشکل راه‌اندازی "
@@ -1074,7 +1074,7 @@ msgstr "اتصال به سرورهای اف‌تی‌پی ممکن نیست\n"
 
 #. type: Plain text
 msgid ""
-"Public FTP servers on the Internet are not reachable using Tails.  See [[!"
+"Public FTP servers on the Internet are not reachable using TⒶILS.  See [[!"
 "tails_ticket 6096 desc=\"Fix FTP support\"]] for more details."
 msgstr ""
 "نمی‌توان از طریق تیلز به سرورهای اف‌تی‌پی عمومی در اینترنت دسترسی پیدا کرد. "
@@ -1083,13 +1083,13 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Tails fails to connect to certain Wi-Fi networks\n"
+msgid "TⒶILS fails to connect to certain Wi-Fi networks\n"
 msgstr "تیلز نمی‌تواند به بعضی شبکه‌های وای‌فای وصل شود\n"
 
 #. type: Plain text
 msgid ""
 "This might be related to the introduction of wireless regulation support in "
-"Tails 0.13."
+"TⒶILS 0.13."
 msgstr "این مشکل ممکن است به آغاز پشتیبانی بی‌سیم در تیلز ۰٫۱۳ مرتبط باشد."
 
 #. type: Title -
@@ -1099,7 +1099,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Due to a [bug in llvmpipe](https://freedesktop.org/patch/34445/), when Tails "
+"Due to a [bug in llvmpipe](https://freedesktop.org/patch/34445/), when TⒶILS "
 "runs in a QEMU virtual machine with the default emulated CPU, the GNOME "
 "desktop crashes after login."
 msgstr ""
@@ -1147,7 +1147,7 @@ msgstr "دستگاه بلوتوث کار نمی‌کند\n"
 
 #. type: Plain text
 msgid ""
-"Bluetooth is not enabled in Tails for security reasons. To enable it anyway, "
+"Bluetooth is not enabled in TⒶILS for security reasons. To enable it anyway, "
 "see the documentation about [[wireless devices|doc/advanced_topics/"
 "wireless_devices]]."
 msgstr ""
@@ -1166,7 +1166,7 @@ msgstr "مرورگر تور تنها به چند زبان ترجمه می‌شو
 
 #. type: Plain text
 msgid ""
-"Since Tails 1.2, the web browser is based on Tor Browser which is translated "
+"Since TⒶILS 1.2, the web browser is based on Tor Browser which is translated "
 "in less languages than before. You can see the list of languages available "
 "in Tor Browser from the [Tor Browser homepage](https://www.torproject.org/"
 "projects/torbrowser.html.en)."
@@ -1187,11 +1187,11 @@ msgstr "گاهی جانمایی صفحه‌کلید درست نیست\n"
 
 #. type: Plain text
 msgid ""
-"The keyboard layout selected in *Tails Greeter* is sometimes not applied if "
+"The keyboard layout selected in *TⒶILS Greeter* is sometimes not applied if "
 "different from **English (US)**. Click on the [[keyboard layout|doc/"
 "first_steps/introduction_to_gnome_and_the_tails_desktop#keyboard_layout]] "
 "icon in the notification area to switch between English and the layout "
-"selected in *Tails Greeter*."
+"selected in *TⒶILS Greeter*."
 msgstr ""
 "جانمایی صفحه‌کلید که در *خوشامدگوی تیلز* انتخاب شده گاهی اگر در حالت "
 "***English (US)** نباشد درست کار نخواهد کرد. برای تغییر بین انگلیسی و "
@@ -1207,7 +1207,7 @@ msgstr "<a id=\"aegis\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not boot after automatic upgrade\n"
+msgid "TⒶILS does not boot after automatic upgrade\n"
 msgstr ""
 
 #. type: Plain text
@@ -1216,7 +1216,7 @@ msgstr ""
 #| "Then, it gets blocked when booting, often after the message 'Loading, "
 #| "please wait...'."
 msgid ""
-"Sometimes, after an automatic upgrade, Tails gets blocked when booting, "
+"Sometimes, after an automatic upgrade, TⒶILS gets blocked when booting, "
 "often after the message 'Loading, please wait...'."
 msgstr ""
 "سپس موقع راه‌اندازی مسدود می‌شود که اغلب این اتفاق پس از پیغام 'Loading, "
@@ -1224,7 +1224,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"To fix this problem, you can [[update your Tails manually|doc/first_steps/"
+"To fix this problem, you can [[update your TⒶILS manually|doc/first_steps/"
 "upgrade/#manual]]."
 msgstr ""
 "برای حل این مشکل می‌توانید [[تیلز خود را دستی به‌روز کنید|doc/first_steps/"
@@ -1243,7 +1243,7 @@ msgstr ""
 msgid ""
 "Due to a [bug in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?"
 "id=1205598), its print preview is incompatible with the AppArmor confinement "
-"of Tor Browser in Tails."
+"of Tor Browser in TⒶILS."
 msgstr ""
 
 #. type: Plain text
@@ -1269,7 +1269,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"This problem will likely be resolved once Tails [[!tails_ticket 10298 desc="
+"This problem will likely be resolved once TⒶILS [[!tails_ticket 10298 desc="
 "\"includes a newer Linux kernel\"]]."
 msgstr ""
 
@@ -1297,11 +1297,11 @@ msgstr ""
 #, fuzzy
 #~| msgid ""
 #~| "<a id=\"automatic_upgrade_fails\"></a>\n"
-#~| "Tails does not boot after Automatic Upgrade\n"
+#~| "TⒶILS does not boot after Automatic Upgrade\n"
 #~| "-------------------------------------------\n"
 #~ msgid ""
 #~ "<a id=\"automatic_upgrade_fails\"></a>\n"
-#~ "Tails does not boot after automatic upgrade\n"
+#~ "TⒶILS does not boot after automatic upgrade\n"
 #~ "-------------------------------------------\n"
 #~ msgstr ""
 #~ "<a id=\"automatic_upgrade_fails\"></a>\n"
@@ -1336,7 +1336,7 @@ msgstr ""
 #~ msgid ""
 #~ "Claws Mail isn't using its dedicated Tor SocksPort for Tor hidden service "
 #~ "IMAP/POP/SMTP servers (instead Tor's TransPort is used). This is just a "
-#~ "deviation from Tails' design and should have no adverse real world "
+#~ "deviation from TⒶILS' design and should have no adverse real world "
 #~ "consequences."
 #~ msgstr ""
 #~ "نرم‌افزار Claws Mail برای سرورهای IMAP/POP/SMTP سرویس مخفی تور از پورت "
@@ -1344,9 +1344,9 @@ msgstr ""
 #~ "تغییر کوچکی در طراحی تیلز است و عواقبی در دنیای واقعی ندارد."
 
 #~ msgid ""
-#~ "If you keep updating automatically, there is a point in which your Tails "
+#~ "If you keep updating automatically, there is a point in which your TⒶILS "
 #~ "partition gets full. Currently the test about remaining space is failing, "
-#~ "so you may end up with a Tails device with a corrupted partition, unable "
+#~ "so you may end up with a TⒶILS device with a corrupted partition, unable "
 #~ "to boot."
 #~ msgstr ""
 #~ "اگر تیلز را خودکار ارتقاء می‌دهید، سرانجام پارتیشن تیلز پر می‌شود. در حال "

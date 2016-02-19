@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 2.0 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 2.0 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -33,7 +33,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We are especially proud to present you Tails 2.0, the first version of Tails "
+"We are especially proud to present you TⒶILS 2.0, the first version of Tails "
 "based on:"
 msgstr ""
 
@@ -84,11 +84,11 @@ msgstr ""
 msgid ""
 "Tor Browser 5.5 introduces [protection against fingerprinting](https://trac."
 "torproject.org/projects/tor/ticket/13313)  but due to an [oversight](https://"
-"labs.riseup.net/code/issues/11000)  it is not enabled in Tails 2.0. However, "
-"this is not so bad for Tails users since each Tails system has the same "
+"labs.riseup.net/code/issues/11000)  it is not enabled in TⒶILS 2.0. However, "
+"this is not so bad for TⒶILS users since each Tails system has the same "
 "fonts installed, and hence will look identical, so this only means that it's "
-"easy to distinguish whether a user of Tor Browser 5.5 uses Tails or not. "
-"That is already easy given that Tails has the AdBlock Plus extension "
+"easy to distinguish whether a user of Tor Browser 5.5 uses TⒶILS or not. "
+"That is already easy given that TⒶILS has the AdBlock Plus extension "
 "enabled, unlike the normal Tor Browser."
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "We also redesigned completely our download and installation instructions to "
-"make it easier to get started with Tails."
+"make it easier to get started with TⒶILS."
 msgstr ""
 
 #. type: Plain text
@@ -115,7 +115,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can also install or upgrade Tails directly from Debian or Ubuntu using "
+"You can also install or upgrade TⒶILS directly from Debian or Ubuntu using "
 "the `tails-installer` package."
 msgstr ""
 
@@ -135,7 +135,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails changed so much since version 1.8.2 that it is impossible to provide "
+"TⒶILS changed so much since version 1.8.2 that it is impossible to provide "
 "an automatic upgrade. We recommend you [[follow our new manual upgrade "
 "instructions|upgrade]] instead."
 msgstr ""
@@ -147,7 +147,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for March 6."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for March 6."
 msgstr ""
 
 #. type: Plain text
@@ -156,7 +156,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We need your help and there are many ways to [[contribute to Tails|"
+"We need your help and there are many ways to [[contribute to TⒶILS|"
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|contribute/talk]]!"
 msgstr ""

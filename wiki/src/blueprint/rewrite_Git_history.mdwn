@@ -23,7 +23,7 @@ To rewrite Git history we use [BFG Repo-Cleaner](https://rtyley.github.io/bfg-re
     https://repo1.maven.org/maven2/com/madgag/bfg/1.12.3/bfg-1.12.3.jar
     sha256sum(2e237631235cfb8cc2d49dabb986389851dca8a28a07083345274b443dfa4911)
 
-Now we go inside the dirty directory's Tails repository and run the following command to delete all the merged branches: 
+Now we go inside the dirty directory's TⒶILS repository and run the following command to delete all the merged branches: 
 
     git branch --merged master \
        | grep -v "\* master" \
@@ -38,7 +38,7 @@ After we've done that, we're ready for the next step and that deleting a bunch o
        -D '{*.deb,*.gz,*.debian.tar.*,*.orig.tar.*,*.comment,tails_walking_cat.zip,tails_hiding_cat.zip,FINISHED_WORK.7z,forum.mdwn,XUL.mfasl,XPC.mfasl,firegpg.jar,noscript.jar,adblockplus.jar,WinXPDesktop.png,Desktop_en.png,Nautilus_en.png,Vidalia_menu_en.png,Vidalia_Netmap_en.png}' \
        dirty/tails.git
 
-After this has ran, we can go inside the dirty directory's Tails repository again and run the following command to rewrite history:
+After this has ran, we can go inside the dirty directory's TⒶILS repository again and run the following command to rewrite history:
     
     git reflog expire --expire=now --all \
        && git gc --prune=now --aggressive

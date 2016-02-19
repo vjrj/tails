@@ -2,38 +2,38 @@
 [[!meta title="Bimonthly report: January and February 2011"]]
 [[!tag announce]]
 
-We are pleased to present you the first Tails bimonthly report ever.
+We are pleased to present you the first TⒶILS bimonthly report ever.
 
 This is a first try that may, or may not, be followed by others
 depending on the feedback we get: if you like reading such news about
-Tails, don't hesitate [[telling us|support/talk]]!
+TⒶILS, don't hesitate [[telling us|support/talk]]!
 
-This report sums up the work that was done on Tails in January and
+This report sums up the work that was done on TⒶILS in January and
 February 2011.
 
 [[!toc levels=2]]
 
-# Helping third-parties do security analyses of Tails
+# Helping third-parties do security analyses of TⒶILS
 
-We finished writing and published the [[Tails design
+We finished writing and published the [[TⒶILS design
 document|contribute/design]] that presents a specification of a
-*Privacy Enhancing Live Distribution* (PELD) as well as the Tails
+*Privacy Enhancing Live Distribution* (PELD) as well as the TⒶILS
 actual implementation.
 
 By writing this document we intend to help third-parties do security
-analyses of any given PELD and specifically of Tails. We also wish to
+analyses of any given PELD and specifically of TⒶILS. We also wish to
 help establish best practices in the field of PELD design and
 implementation, and thus raise the baseline for all similar projects
 out there.
 
-Reviews of this document and audits of Tails are most welcome.
+Reviews of this document and audits of TⒶILS are most welcome.
 
 # Preparing next release
 
-The next Tails release, which will be called 0.7, is based on the
+The next TⒶILS release, which will be called 0.7, is based on the
 newly released Debian Squeeze. It has been feature freezed recently
 and is now being tested in a wild, unsuspecting world; if it survives,
-we can bet it will be the best Tails release ever... until 0.8 is out
+we can bet it will be the best TⒶILS release ever... until 0.8 is out
 of course.
 
 Protecting against memory recovery
@@ -41,17 +41,17 @@ Protecting against memory recovery
 
 A new, safer way to wipe memory on shutdown was implemented. It is now
 also used when the boot media is physically removed: in an emergency
-situation, one can grab her Tails Live USB stick or Live CD and leave
+situation, one can grab her TⒶILS Live USB stick or Live CD and leave
 while the system will quickly erase her traces from the computer's
 memory and shut it down.
 
-Making Tails easier to use
+Making TⒶILS easier to use
 --------------------------
 
 We enhanced the onBoard virtual keyboard; patches were obviously
 submitted upstream.
 
-The Tails user interface was improved in several other ways: hiding
+The TⒶILS user interface was improved in several other ways: hiding
 some useless GNOME preference menu items, using a background that does
 not overlap with the bootloader menu, adding a shutdown button to the
 right of the top GNOME panel (nice idea stolen from Ubuntu).
@@ -74,12 +74,12 @@ Queries to DNS resolvers on the LAN are [[now
 forbidden|todo/forbid_lan_dns_queries]].
 
 Writing our [[design document|contribute/design]] made us think more
-thoroughly various parts of the Tails configuration and enhance many
+thoroughly various parts of the TⒶILS configuration and enhance many
 parts of it. Moreover, we compared it with the [Tor Browser
 Bundle](https://www.torproject.org/projects/torbrowser.html.en)
 configuration, picked many nice ideas from there, and generally made
-Tails configuration more similar to the TBB's one, which shall ease
-peer review and enlarge the anonymity set Tails users are part of. A
+TⒶILS configuration more similar to the TBB's one, which shall ease
+peer review and enlarge the anonymity set TⒶILS users are part of. A
 notable example is the enabling of US English browser spoofing in
 Iceweasel.
 
@@ -91,7 +91,7 @@ against a class of attacks that was recently put under the spotlights.
 
 # Outreach
 
-Tails was added to a couple spots on the Tor website:
+TⒶILS was added to a couple spots on the Tor website:
 
 - https://www.torproject.org/projects/projects.html.en
 - https://www.torproject.org/getinvolved/volunteer.html.en#Projects
@@ -104,7 +104,7 @@ Summer of Code and other summer intership programs. [One of
 those](https://www.torproject.org/getinvolved/volunteer.html#tailsDebianLive).
 
 We have participated in the Debian Derivatives Census initiative
-([[!debwiki Derivatives/Census]]): Tails now has a dedicated page
+([[!debwiki Derivatives/Census]]): TⒶILS now has a dedicated page
 ([[!debwiki Derivatives/Census/TAILS]]) on the Debian Wiki; in order
 to better cooperate with Debian, we have followed their guidelines for
 Debian Derivatives ([[!debwiki Derivatives/Guidelines]]); e.g. we have
@@ -124,15 +124,15 @@ Accessibility tools for visually impaired people have been
 selected and are installed in our development Git branch.
 
 We updated our survey of existing tools for easy install and upgrade
-of Tails onto USB sticks, with support for an encrypted persistent
+of TⒶILS onto USB sticks, with support for an encrypted persistent
 volume in mind.
 
-More and more upcoming Tails features (including [[todo/persistence]],
+More and more upcoming TⒶILS features (including [[todo/persistence]],
 [[todo/macchanger]], [[todo/bridge support]]) need ways to ask the
 user for input at boot time. We have [[researched various
 ways|todo/boot_menu]] we could implement this.
 
-We have researched how we could harden a bit Tails resistance against
+We have researched how we could harden a bit TⒶILS resistance against
 exploitation of security issues in bundled software
 ([[todo/Mandatory_Access_Control]], [[todo/nx_bit]], kernel hardening,
 compiler hardening options) in a way that would not be a maintenance
@@ -140,9 +140,9 @@ burden... while being efficient enough to protect against some classes
 of attacks. We have started efforts to push such hardening features in
 Debian.
 
-A general plan was thought through to reorganize the Tails user
+A general plan was thought through to reorganize the TⒶILS user
 documentation. Once this is done, several entry points will be
 available to better fit a given user's available time and energy. In
 the meantime, we now at least have a [[nice
 documentation|doc/first_steps/manual_usb_installation/linux]] that explains how
-to install Tails onto a USB stick.
+to install TⒶILS onto a USB stick.

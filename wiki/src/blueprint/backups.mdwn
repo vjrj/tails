@@ -15,7 +15,7 @@ Backup techniques
 We shouldn't maintain yet another shiny new piece of code to do that. Or we
 might hit tons of corner cases to handle, that one initially does not think of.
 And once we take it all into account, then we get a large piece of code to
-maintain all by ourselves, because it was meant only for Tails' needs.
+maintain all by ourselves, because it was meant only for TⒶILS' needs.
 
 So, we should try to reinvent this wheel, and use an existing, proven solution instead.
 
@@ -37,7 +37,7 @@ Duplicity
 It supports something that's basically "tar | gpg" for the first iteration, and
 it also leaves room for future improvements, thanks to its support for
 incremental and remote backups. Also, it allows users to restore or inspect
-their backups outside of Tails, without having to manually decipher yet another
+their backups outside of TⒶILS, without having to manually decipher yet another
 backup file format.
 
 ### Cons
@@ -67,7 +67,7 @@ want to support encrypting with a passphrase (and I think we should).
 grsync + encrypted device
 ------------------------------
 
-[grsync](http://www.opbyte.it/grsync/) is a GUI for the renown and rock-solid `rsync`, already shipped in Tails.
+[grsync](http://www.opbyte.it/grsync/) is a GUI for the renown and rock-solid `rsync`, already shipped in TⒶILS.
 
 Grsync is [packaged for debian](https://packages.debian.org/squeeze/grsync).
 
@@ -93,7 +93,7 @@ The documentation for the creation of the encrypted device [[is already written|
 
 * grsync should check if enough space is available on the destination before running.
   Update: rsync 3.1.0 [introduces](https://rsync.samba.org/ftp/rsync/src/rsync-3.1.0-NEWS) a `--preallocate` option.
-  (Tails actually ships rsync 3.0.9)
+  (TⒶILS actually ships rsync 3.0.9)
 * grsync should ask for confirmation when the option "Delete on the destination" is activated
 * when user double-click on a `.grsync` file, a window appears to confirm which file to open. This may be confusing.
 
@@ -134,16 +134,16 @@ well as incremental backups.
 Clone everything
 ----------------
 
-We could add to *Tails Installer* an option to **Clone everything**
-(Tails partition and persistent volume). This would clone the original
+We could add to *TⒶILS Installer* an option to **Clone everything**
+(TⒶILS partition and persistent volume). This would clone the original
 USB stick and also backup all the persistent data.
 
 We could encourage people to submit patches for this even if it's not a
 perfect solution. The back end could be quite simple and use rsync
 between the two persistent volumes.
 
-A possible improvement would be to skip the cloning of the Tails
-partition if the destination USB is already a Tails USB stick.
+A possible improvement would be to skip the cloning of the TⒶILS
+partition if the destination USB is already a TⒶILS USB stick.
 
 ### Pros
 
@@ -191,5 +191,5 @@ Implementation
   user and execute precise actions through policykit (execute a command with
   pkexec or implement a dbus service)
 
-- Write the code in GTK3 for Tails 1.1 which will be the next major release,
+- Write the code in GTK3 for TⒶILS 1.1 which will be the next major release,
   based on Debian Wheezy.

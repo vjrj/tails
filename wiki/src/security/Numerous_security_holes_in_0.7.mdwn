@@ -1,14 +1,14 @@
 [[!meta date="Thu Apr 28 11:12:13 2011"]]
-[[!meta title="Numerous security holes in Tails 0.7"]]
+[[!meta title="Numerous security holes in TⒶILS 0.7"]]
 
 [[!tag security/fixed]]
 
-The following security holes affect Tails 0.7. Some of these allow
+The following security holes affect TⒶILS 0.7. Some of these allow
 **remote arbitrary code execution with full administrator rights**,
 that can be exploited by any attacker with access to the local
 network.
 
-We **strongly** urge you to [[upgrade to Tails 0.7.1|news/version_0.7.1]]
+We **strongly** urge you to [[upgrade to TⒶILS 0.7.1|news/version_0.7.1]]
 as soon as possible in case you are still using an older version.
 
 Details

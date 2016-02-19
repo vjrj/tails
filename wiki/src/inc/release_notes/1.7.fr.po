@@ -23,11 +23,11 @@ msgstr "Nouveautés"
 
 #. type: Bullet: '- '
 msgid ""
-"You can now start Tails in [[offline mode|doc/first_steps/startup_options/"
+"You can now start TⒶILS in [[offline mode|doc/first_steps/startup_options/"
 "offline_mode]] to disable all networking for additional security. Doing so "
 "can be useful when working on sensitive documents."
 msgstr ""
-"Vous pouvez maintenant démarrer Tails en [[mode hors-ligne|doc/first_steps/"
+"Vous pouvez maintenant démarrer TⒶILS en [[mode hors-ligne|doc/first_steps/"
 "startup_options/offline_mode]], ce qui désactive toute connexion réseau pour "
 "plus de sécurité. Ceci peut être utile pour travailler sur des documents "
 "sensibles."
@@ -46,7 +46,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "  <span class=\"application\">Icedove</span> is currently a technology preview. It is safe to use in the\n"
-"  context of Tails but it will be better integrated in future versions\n"
+"  context of TⒶILS but it will be better integrated in future versions\n"
 "  until we remove <span class=\"application\">[[Claws\n"
 "  Mail|doc/anonymous_internet/claws_mail]]</span>. Users of <span class=\"application\">Claws\n"
 "  Mail</span> should refer to our instructions to [[migrate their data from\n"
@@ -54,7 +54,7 @@ msgid ""
 "  <span class=\"application\">Icedove</span>|doc/anonymous_internet/claws_mail_to_icedove]].\n"
 msgstr ""
 "  <span class=\"application\">Icedove</span> est actuellement en cours de mise en place\n"
-"  dans Tails. Il est déjà possible de l'utiliser de manière sécurisée mais il sera mieux intégré\n"
+"  dans TⒶILS. Il est déjà possible de l'utiliser de manière sécurisée mais il sera mieux intégré\n"
 "  dans les futures versions, jusqu'au retrait de <span class=\"application\">[[Claws\n"
 "  Mail|claws_mail]]</span>. Les utilisateurs de <span class=\"application\">Claws\n"
 "  Mail</span> devraient consulter nos instructions pour [[migrer leurs données\n"
@@ -68,11 +68,11 @@ msgstr "Mises à jour et changements"
 
 #. type: Bullet: '- '
 msgid ""
-"Improve the wording of the first screen of <span class=\"application\">Tails "
+"Improve the wording of the first screen of <span class=\"application\">TⒶILS "
 "Installer</span>."
 msgstr ""
 "Amélioration de la formulation du premier écran de l'<span class="
-"\"application\">Installeur Tails</span>."
+"\"application\">Installeur TⒶILS</span>."
 
 #. type: Bullet: '- '
 msgid ""
@@ -90,9 +90,9 @@ msgstr ""
 "compatibilité matérielle."
 
 #. type: Plain text
-msgid "- Update the Tails signing key which is now valid until 2017."
+msgid "- Update the TⒶILS signing key which is now valid until 2017."
 msgstr ""
-"- Mise à jour de la clé de signature de Tails, qui est maintenant valide "
+"- Mise à jour de la clé de signature de TⒶILS, qui est maintenant valide "
 "jusqu'en 2017."
 
 #. type: Bullet: '- '

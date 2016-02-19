@@ -27,14 +27,14 @@ Then(/^the firewall leak detector has detected (.*?) leaks$/) do |type|
   end
 end
 
-Given(/^I disable Tails' firewall$/) do
+Given(/^I disable TⒶILS' firewall$/) do
   $vm.execute("/usr/local/lib/do_not_ever_run_me")
   iptables = $vm.execute("iptables -L -n -v").stdout.chomp.split("\n")
   for line in iptables do
     if !line[/Chain (INPUT|OUTPUT|FORWARD) \(policy ACCEPT/] and
        !line[/pkts[[:blank:]]+bytes[[:blank:]]+target/] and
        !line.empty?
-      raise "The Tails firewall was not successfully disabled:\n#{iptables}"
+      raise "The TⒶILS firewall was not successfully disabled:\n#{iptables}"
     end
   end
 end

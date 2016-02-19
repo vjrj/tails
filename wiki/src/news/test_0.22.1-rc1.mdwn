@@ -2,12 +2,12 @@
 
 [[!meta date="2014-01-11 00:18:00"]]
 
-You can help Tails! The first release candidate for the upcoming version
+You can help TⒶILS! The first release candidate for the upcoming version
 0.22.1 is out. Please test it and see if it works for you.
 
 [[!toc levels=1]]
 
-How to test Tails 0.22.1~rc1?
+How to test TⒶILS 0.22.1~rc1?
 =============================
 
 1. **Keep in mind that this is a test image.** We have made sure
@@ -17,10 +17,10 @@ How to test Tails 0.22.1~rc1?
 2. Either try the <a href="#automatic_upgrade">automatic upgrade</a>, or
    download the ISO image and its signature:
 
-   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso" >Tails 0.22.1~rc1 ISO image</a>
+   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso" >TⒶILS 0.22.1~rc1 ISO image</a>
 
    <a class="download-signature"
-   href="https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig">Tails 0.22.1~rc1 signature</a>
+   href="https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig">TⒶILS 0.22.1~rc1 signature</a>
 
 1. [[Verify the ISO image|download#verify]].
 
@@ -41,9 +41,9 @@ How automatically upgrade from 0.22?
 ====================================
 
 These steps allow you to automatically upgrade a device installed with <span
-class="application">Tails Installer</span> from Tails 0.22 to Tails 0.22.1~rc1.
+class="application">TⒶILS Installer</span> from Tails 0.22 to Tails 0.22.1~rc1.
 
-1. Start Tails 0.22 and [[set an administration
+1. Start TⒶILS 0.22 and [[set an administration
    password|doc/first_steps/startup_options/administration_password]].
 
 2. Run this command in a <span class="application">Root
@@ -52,7 +52,7 @@ class="application">Tails Installer</span> from Tails 0.22 to Tails 0.22.1~rc1.
 
 3. Run this command in a <span class="application">Root
    Terminal</span> to install the latest version of <span
-   class="application">Tails Upgrader</span>:
+   class="application">TⒶILS Upgrader</span>:
 
        echo "deb http://deb.tails.boum.org/ 0.22.1-rc1 main" \
            > /etc/apt/sources.list.d/tails-0.22-rc1.list && \
@@ -63,13 +63,13 @@ class="application">Tails Installer</span> from Tails 0.22 to Tails 0.22.1~rc1.
 
 4. Choose <span class="menuchoice">
     <span class="guimenu">Applications</span>&nbsp;&#x25B8;
-    <span class="guisubmenu">Tails</span>&nbsp;&#x25B8;
-    <span class="guimenuitem">Tails Upgrader</span>
+    <span class="guisubmenu">TⒶILS</span>&nbsp;&#x25B8;
+    <span class="guimenuitem">TⒶILS Upgrader</span>
   </span>
-  to start <span class="application">Tails Upgrader</span>.
+  to start <span class="application">TⒶILS Upgrader</span>.
 
-5. Accept <span class="application">Tails Upgrader</span>&#39;s proposal
-to upgrade to Tails 0.22.1~rc1.
+5. Accept <span class="application">TⒶILS Upgrader</span>&#39;s proposal
+to upgrade to TⒶILS 0.22.1~rc1.
 
 6. Wait while the upgrade is downloaded and applied.
 
@@ -78,9 +78,9 @@ to upgrade to Tails 0.22.1~rc1.
 8. Once the system is restarted, choose
 <span class="menuchoice">
   <span class="guimenu">System</span>&nbsp;&#x25B8;
-  <span class="guimenuitem">About Tails</span>
+  <span class="guimenuitem">About TⒶILS</span>
 </span>
-to confirm that the running system is now Tails 0.22.1~rc1.
+to confirm that the running system is now TⒶILS 0.22.1~rc1.
 
 What's new since 0.22?
 ======================
@@ -89,21 +89,21 @@ What's new since 0.22?
   - Update NSS to 3.14.5-1~bpo60+1.
 
 - Major improvements
-  - Check for upgrades availability using Tails Upgrader, and propose to apply an incremental upgrade whenever possible.
+  - Check for upgrades availability using TⒶILS Upgrader, and propose to apply an incremental upgrade whenever possible.
   - Install Linux 3.12 (3.12.6-2).
 
 - Bugfixes
   - Fix the keybindings problem introduced in 0.22.
   - Fix the Unsafe Browser problem introduced in 0.22.
   - Use IE's icon in Windows camouflage mode.
-  - Handle some corner cases better in Tails Installer.
+  - Handle some corner cases better in TⒶILS Installer.
 
 - Minor improvements
   - Update Tor Browser to 24.2.0esr-1+tails1.
   - Update Torbutton to 1.6.5.3.
   - Do not start Tor Browser automatically, but notify when Tor is ready.
   - Import latest Tor Browser prefs.
-  - Many user interface improvements in Tails Upgrader.
+  - Many user interface improvements in TⒶILS Upgrader.
 
 See the <a href="https://git-tails.immerda.ch/tails/plain/debian/changelog?h=stable">online
 Changelog</a> for technical details.

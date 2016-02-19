@@ -1,7 +1,7 @@
 /**
    Copyright (C) 2014 Raphael Freudiger <laser_b@gmx.ch>
    Copyright (C) 2014 Jonatan Zeidler <jonatan_zeidler@gmx.de>
-   Copyright (C) 2014 Tails Developers <tails@boum.org>
+   Copyright (C) 2014 TⒶILS Developers <tails@boum.org>
 
    This program is free software: you can redistribute it and/or
    modify it under the terms of the GNU General Public License as

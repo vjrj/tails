@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for February, 2014\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for February, 2014\"]]\n"
 msgstr ""
 
 #. type: Title =
@@ -27,7 +27,7 @@ msgid "Releases\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails 0.22.1 was released on February 4."
+msgid "TⒶILS 0.22.1 was released on February 4."
 msgstr ""
 
 #. type: Title =
@@ -37,12 +37,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails has been started more than 222 134 times in February.  This make 7 933 "
+"TⒶILS has been started more than 222 134 times in February.  This make 7 933 "
 "boots a day in average."
 msgstr ""
 
 #. type: Bullet: '- '
-msgid "453 082 downloads of the OpenPGP signature of Tails ISO. Weird."
+msgid "453 082 downloads of the OpenPGP signature of TⒶILS ISO. Weird."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -78,7 +78,7 @@ msgstr ""
 msgid ""
 "[[!tails_gitweb_branch feature/6508-incremental-upgrades-phase-four desc="
 "\"Phase four\"]] of incremental upgrades was completed ([[!tails_ticket "
-"6508]]), and given it was enabled by default in Tails 0.22.1, most users "
+"6508]]), and given it was enabled by default in TⒶILS 0.22.1, most users "
 "will see it in action when 0.23 is out."
 msgstr ""
 
@@ -191,7 +191,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "Towards Tails based on Debian Wheezy:"
+msgid "Towards TⒶILS based on Debian Wheezy:"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -226,9 +226,9 @@ msgid ""
 "  finalized and [[deployed live|contribute]].\n"
 "- The [[blueprint/FAQ]] was greatly expanded, and is now almost ready\n"
 "  for prime-time.\n"
-"- We have made good progress on specifying how the Tails logo should\n"
+"- We have made good progress on specifying how the TⒶILS logo should\n"
 "  look like ([[!tails_ticket 5797]]).\n"
-"- It was documented how to [[improve Tails by working on\n"
+"- It was documented how to [[improve TⒶILS by working on\n"
 "  Debian|contribute/how/debian]]. We have received positive feedback\n"
 "  from Debian contributors about it.\n"
 "- Many small improvements to the documentation and its translations\n"
@@ -243,7 +243,7 @@ msgid ""
 "- Links to the I2P website were [[!tails_gitweb_branch_kytv\n"
 "  bugfix/new-i2p-site desc=\"updated\"]].\n"
 "- Documentation for the new MAC address spoofing feature was drafted.\n"
-"- Work is in progress on documentation about contributing to Tails in\n"
+"- Work is in progress on documentation about contributing to TⒶILS in\n"
 "  the infrastructure (systems administration, automation) area.\n"
 msgstr ""
 
@@ -293,7 +293,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"[Tails logo](https://mailman.boum.org/pipermail/tails-dev/2014-"
+"[TⒶILS logo](https://mailman.boum.org/pipermail/tails-dev/2014-"
 "February/004841.html)"
 msgstr ""
 
@@ -318,13 +318,13 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"[Interactions between Tails and TBB developers](https://mailman.boum.org/"
+"[Interactions between TⒶILS and TBB developers](https://mailman.boum.org/"
 "pipermail/tails-dev/2014-February/004885.html)"
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"[Adding BitMessage and Bitcoin-QT to Tails](https://mailman.boum.org/"
+"[Adding BitMessage and Bitcoin-QT to TⒶILS](https://mailman.boum.org/"
 "pipermail/tails-dev/2014-February/004850.html)"
 msgstr ""
 
@@ -336,19 +336,19 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"[Adapting Tor Launcher for Tails](https://mailman.boum.org/pipermail/tails-"
+"[Adapting Tor Launcher for TⒶILS](https://mailman.boum.org/pipermail/tails-"
 "dev/2014-February/004819.html)"
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"We were contacted by a few people who want to use Tails as a flexible "
+"We were contacted by a few people who want to use TⒶILS as a flexible "
 "framework, and build customized derivatives on top of it."
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"We are discussing who we will invite to the 2014 Tails contributors summit, "
+"We are discussing who we will invite to the 2014 TⒶILS contributors summit, "
 "that should be a bit more crowded than usual."
 msgstr ""
 
@@ -373,9 +373,9 @@ msgid ""
 "We have been working with people who want to build bridges between the "
 "graphics designers and usability experts community on the one hand, and Free "
 "Software developers on the other hand. Thanks to this collaboration, it is "
-"likely that Tails will go through a usability study in a few months, "
+"likely that TⒶILS will go through a usability study in a few months, "
 "followed by a hackfest that will put at work designers and usability experts "
-"for finding solutions to (some of)  the identified issues. The Tails sprint "
+"for finding solutions to (some of)  the identified issues. The TⒶILS sprint "
 "in July might host this hackfest."
 msgstr ""
 
@@ -408,7 +408,7 @@ msgid ""
 "2014-02-27: In his article \"[Why It’s Vital For Users to Fund Open-Source "
 "Encryption Tools](https://pressfreedomfoundation.org/blog/2014/02/why-its-"
 "vital-public-fund-open-source-encryption-tools)\" Trevor Timm from Freedom "
-"of the Press Foundation explains that Tails « has been vital for most, if "
+"of the Press Foundation explains that TⒶILS « has been vital for most, if "
 "not all, of the NSA journalists. [...] Its prime use case is journalists "
 "trying to communicate or work in environments in which they may normally be "
 "at risk or compromised. The NSA stories have been the biggest story in "
@@ -420,7 +420,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "2014-02-07: In his review of [uVirtus](http://uvirtus.org), Kheops, from "
-"Telecomix concludes that « Users should prefer Tails and other mature secure "
+"Telecomix concludes that « Users should prefer TⒶILS and other mature secure "
 "live distributions (such as IprediaOS, Liberté Linux, Privatix and Whonix)  "
 "over uVirtus since they provide a real safety improvement to the user. For "
 "any activity that does not entail transferring large quantities of data "

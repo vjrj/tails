@@ -29,9 +29,9 @@ msgstr ""
 "logicielle."
 
 #. type: Plain text
-msgid "Reporting bugs is a great way of helping us improving Tails."
+msgid "Reporting bugs is a great way of helping us improving TⒶILS."
 msgstr ""
-"Rapporter des bugs est une façon très utile de nous aider à améliorer Tails."
+"Rapporter des bugs est une façon très utile de nous aider à améliorer TⒶILS."
 
 #. type: Plain text
 msgid ""
@@ -141,11 +141,11 @@ msgstr "Utilisez Whisperback\n"
 #, no-wrap
 msgid ""
 "**WhisperBack is an application written specifically to report bugs anonymously\n"
-"from inside Tails. If you are not able to use WhisperBack, see the [[special\n"
+"from inside TⒶILS. If you are not able to use WhisperBack, see the [[special\n"
 "cases|bug_reporting#special_cases]].**\n"
 msgstr ""
 "**WhisperBack est une application écrite spécialement pour rapport les bugs de manière anonyme\n"
-"depuis Tails. Si vous n'arrivez pas à utiliser WhisperBack, reportez-vous aux [[cas\n"
+"depuis TⒶILS. Si vous n'arrivez pas à utiliser WhisperBack, reportez-vous aux [[cas\n"
 "spécifiques|bug_reporting#special_cases]].**\n"
 
 #. type: Plain text
@@ -216,11 +216,11 @@ msgstr "**Résultat normalement attendu**"
 msgid ""
 "You can also have a look at the <span class=\"guilabel\">technical details\n"
 "to include</span> in your bug report. It will give us information about\n"
-"your hardware, your version of Tails and the startup process.\n"
+"your hardware, your version of TⒶILS and the startup process.\n"
 msgstr ""
 "Vous pouvez également jeter un œil aux <span class=\"guilabel\">détails\n"
 "techniques à inclure</span> dans votre rapport de bug. Ça nous donne des\n"
-"information sur votre matériel, votre version de Tails et sur le démarrage du système.\n"
+"information sur votre matériel, votre version de TⒶILS et sur le démarrage du système.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -238,7 +238,7 @@ msgid ""
 "This is needed for the vast majority of the reports we receive as most "
 "reports without any contact information are useless. But note that it also "
 "provides an opportunity for eavesdroppers, like your email or Internet "
-"provider, to confirm that you are using Tails."
+"provider, to confirm that you are using TⒶILS."
 msgstr ""
 "Nous donner une adresse email permet de vous contacter pour clarifier le "
 "problème. Cela est nécessaire pour la plupart des rapports de bugs que nous "
@@ -246,7 +246,7 @@ msgstr ""
 "de prendre contact avec la personne ayant rencontré le problème. Mais ça "
 "fournit également une opportunité pour une oreille indiscrète, comme un "
 "fournisseur d'accès à Internet ou un fournisseur de mail, de confirmer que "
-"vous utilisez Tails."
+"vous utilisez TⒶILS."
 
 #. type: Title -
 #, no-wrap
@@ -345,8 +345,8 @@ msgstr ""
 "Les étapes suivantes peuvent être utilisées comme une méthode alternative :"
 
 #. type: Bullet: '1. '
-msgid "In Tails, start WhisperBack"
-msgstr "Dans Tails, lancez WhisperBack"
+msgid "In TⒶILS, start WhisperBack"
+msgstr "Dans TⒶILS, lancez WhisperBack"
 
 #. type: Bullet: '2. '
 msgid "In the bug report window, expand \"technical details to include\""
@@ -372,12 +372,12 @@ msgstr "Lancez un système avec une connexion Internet et envoyez votre rapport"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not start\n"
-msgstr "Tails ne démarre pas\n"
+msgid "TⒶILS does not start\n"
+msgstr "TⒶILS ne démarre pas\n"
 
 #. type: Plain text
 msgid "See [[Tails_does_not_start]]."
-msgstr "Voir [[Tails ne démarre pas|Tails_does_not_start]]."
+msgstr "Voir [[TⒶILS ne démarre pas|Tails_does_not_start]]."
 
 #~ msgid "You will find a shortcut to start WhisperBack on the desktop:"
 #~ msgstr "Vous trouverez le raccourci pour lancer WhisperBack sur le bureau :"

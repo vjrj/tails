@@ -36,7 +36,7 @@
       - With <span class="guilabel">POP</span>,
         <span class="application">Icedove</span> downloads the emails that
         are in the inbox on the server and possibly deletes them from the
-	server. POP is better suited if you access your emails from Tails only
+	server. POP is better suited if you access your emails from TⒶILS only
         and store them in the persistent storage.
 
    To know more, see also this [comparison between POP and
@@ -48,10 +48,10 @@
    <div class="bug">
    <p>After this first screen, the <a href="https://support.mozilla.org/en-US/kb/automatic-account-configuration">automatic
    account configuration</a> of <span class="application">Icedove</span>
-   is currently disabled in Tails for security reasons. You should consult
+   is currently disabled in TⒶILS for security reasons. You should consult
    the documentation of your email provider to finish configuring your
    email account manually.</p>
 
-   <p>We will enable again the automatic account configuration in Tails
+   <p>We will enable again the automatic account configuration in TⒶILS
    in the future. See [[!tails_ticket 6154]].</p>
    </div>

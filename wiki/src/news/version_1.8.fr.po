@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Tue Dec 15 12:34:56 2015\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.8 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 1.8 est disponible\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.8 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 1.8 est disponible\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -84,10 +84,10 @@ msgstr ""
 #. type: Bullet: '  1. '
 msgid ""
 "[[Set up an administration password|doc/first_steps/startup_options/"
-"administration_password]] when starting Tails."
+"administration_password]] when starting TⒶILS."
 msgstr ""
 "[[Configurez un mot de passe d'administration|doc/first_steps/"
-"startup_options/administration_password]] au démarrage de Tails."
+"startup_options/administration_password]] au démarrage de TⒶILS."
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -110,7 +110,7 @@ msgstr ""
 msgid ""
 "Adjust the time to be the correct time in [[!wikipedia "
 "Coordinated_Universal_Time desc=\"UTC\"]] (use the same difference with your "
-"local time as observed usually in Tails)."
+"local time as observed usually in TⒶILS)."
 msgstr ""
 "Ajustez l'horloge pour correspondre au [[!wikipedia_fr "
 "Temps_universel_coordonné desc=\"Temps universel coordonné \"]] (utilisez la "
@@ -133,10 +133,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If your Tails does not boot after an automatic upgrade, please [[upgrade "
-"your Tails manually|doc/first_steps/upgrade#manual]]."
+"If your TⒶILS does not boot after an automatic upgrade, please [[upgrade "
+"your TⒶILS manually|doc/first_steps/upgrade#manual]]."
 msgstr ""
-"Si votre Tails ne démarre pas après une mise à jour automatique, [[mettez le "
+"Si votre TⒶILS ne démarre pas après une mise à jour automatique, [[mettez le "
 "à jour manuellement|doc/first_steps/upgrade#manual]]."
 
 #. type: Title #
@@ -146,9 +146,9 @@ msgstr "Et ensuite ?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for January 26."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for January 26."
 msgstr ""
-"La prochaine version de Tails est [[prévue|contribute/calendar]] pour le 26 "
+"La prochaine version de TⒶILS est [[prévue|contribute/calendar]] pour le 26 "
 "janvier."
 
 #. type: Plain text
@@ -159,10 +159,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We need your help and there are many ways to [[contribute to Tails|"
+"We need your help and there are many ways to [[contribute to TⒶILS|"
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|contribute/talk]]!"
 msgstr ""
 "Nous avons besoin de votre aide et il y a de nombreuses manières de "
-"contribuer à Tails ([[faire un don|contribute/how/donate]] est seulement une "
+"contribuer à TⒶILS ([[faire un don|contribute/how/donate]] est seulement une "
 "d'entre elles). Venez [[discuter avec nous|contribute/talk]] !"

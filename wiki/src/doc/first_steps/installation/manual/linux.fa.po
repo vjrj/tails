@@ -60,7 +60,7 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid ""
-"Make sure that the USB stick or SD card onto which you want to install Tails "
+"Make sure that the USB stick or SD card onto which you want to install TⒶILS "
 "is unplugged."
 msgstr ""
 "مطمئن شوید که درایو یو‌اس‌بی یا کارت حافظه‌ای که می‌خواهید تیلز را روی آن نصب "
@@ -92,7 +92,7 @@ msgstr ""
 "راست پنجره فهرست می‌کند."
 
 #. type: Bullet: '  1. '
-msgid "Plug the USB stick or SD card onto which you want to install Tails."
+msgid "Plug the USB stick or SD card onto which you want to install TⒶILS."
 msgstr ""
 "درایو یواس‌بی یا کارت حافظه‌ای که می‌خواهید تیلز را روی آن نصب کنید، متصل کنید."
 
@@ -213,7 +213,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you don't see any error message, Tails is being copied onto the device. "
+"If you don't see any error message, TⒶILS is being copied onto the device. "
 "The whole process might take some time, generally a few minutes."
 msgstr ""
 "اگر پیغام خطا را نمی‌بینید، تیلز در حال کپی شدن روی دستگاه است. این فرآیند "
@@ -228,7 +228,7 @@ msgstr "<div class=\"بعدی\">\n"
 #, no-wrap
 msgid ""
 "<p>Once the command prompt reappears, you can shutdown your computer, and\n"
-"[[start Tails|start_tails]] from this new device.</p>\n"
+"[[start TⒶILS|start_tails]] from this new device.</p>\n"
 msgstr ""
 "<p>وقتی پایانهٔ خط فرمان دوباره ظاهر شد، می‌توانید رایانه خود را خاموش و  \n"
 "تیلز را از این ابزار جدید [[راه‌اندازی کنید|start_tails]].</p>\n"

@@ -1,11 +1,11 @@
-[[!meta title="Tails report for November, 2013"]]
+[[!meta title="TⒶILS report for November, 2013"]]
 
 Metrics
 =======
 
-- Tails has been started more than 205 802 times in November.
+- TⒶILS has been started more than 205 802 times in November.
   This make 6 860 boots a day in average.
-- 6 270 downloads of the OpenPGP signature of Tails ISO.
+- 6 270 downloads of the OpenPGP signature of TⒶILS ISO.
 - 80 reports were received through WhisperBack.
 
 Code
@@ -13,7 +13,7 @@ Code
 
 Some of the newest contributors were particularly active this month:
 
-  - We have a new and active maintainer for I2P in Tails. Big up to Kytv! So I2P
+  - We have a new and active maintainer for I2P in TⒶILS. Big up to Kytv! So I2P
     was [[!tails_gitweb_branch feature/i2p-0.9.8.1 desc="updated"]] to 0.9.8.1,
     and the I2P configuration and integration was improved in several ways.
   - SCIM was
@@ -26,7 +26,7 @@ Some of the newest contributors were particularly active this month:
   - A script has been written to automate the [[!tails_gitweb_branch
     feature/import-translations desc="importation process"]] of completed
     translations from Transifex. Thanks to WinterFairy!
-  - The keyboard selection for some languages in Tails Greeter was
+  - The keyboard selection for some languages in TⒶILS Greeter was
     [fixed](http://git.tails.boum.org/greeter/log/?h=bugfix/5469-default-country-and-translation)
     (Closes [[!tails_ticket 5741]]). Again thanks to WinterFairy!
 
@@ -35,7 +35,7 @@ We kept on working on some major features, some are about to be released:
   - The real-world deployment of incremental updates has been
     [[!tails_gitweb_branch feature/incremental-upgrades desc="made
     ready for beta testing"]] and
-    will be the default way to upgrade Tails, on point-releases at least.
+    will be the default way to upgrade TⒶILS, on point-releases at least.
   - The second round of upgrade towards a [[safer
     persistence|doc/first_steps/persistence/upgrade]] was [[!tails_gitweb_branch
     bugfix/safer-persistence desc="prepared"]].
@@ -64,14 +64,14 @@ Regarding user experience:
 
 And also:
 
-  - Tails now have its own [[!tails_gitweb
+  - TⒶILS now have its own [[!tails_gitweb
     config/chroot_local-includes/usr/local/lib/tails-shell-library
     desc="shell"]] and [perl](https://git-tails.immerda.ch/perl5lib) libraries
     where we factorize some of our code.
   - Upgrade to Linux 3.11 and got back to Linux 3.10 because 3.11 breaks the
     shutdown process on some hardware.
   - Uploaded a few packages and backports we need into Debian.
-  - Tails Installer [[!tails_gitweb_branch
+  - TⒶILS Installer [[!tails_gitweb_branch
     bugfix/dont-fail-upgrade-if-tmp-dir-exists-on-destination
     desc="does not fail anymore"]] if the `tmp` directory exists on
     the destination filesystem.
@@ -137,4 +137,4 @@ Press and testimonials
 ======================
 
   - 2013-11: The German-speaking ADMIN magazine [reviews
-    Tails](http://www.admin-magazin.de/Das-Heft/2013/11/Tails-0.20).
+    TⒶILS](http://www.admin-magazin.de/Das-Heft/2013/11/Tails-0.20).

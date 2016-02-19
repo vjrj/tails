@@ -42,7 +42,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Since Tails is based on Debian, it takes advantage of all the work done by "
+"Since TⒶILS is based on Debian, it takes advantage of all the work done by "
 "the Debian security team. As quoted from <http://security.debian.org/>:"
 msgstr ""
 "از آن‌جا که تیلز مبتنی بر دبیان است، از تمام کارهایی که تیم امنیتی دبیان "
@@ -161,7 +161,7 @@ msgid "Audits"
 msgstr "بررسی‌ها"
 
 #. type: Plain text
-msgid "Audits of Tails that we are aware of are collected in [[security/audits]]."
+msgid "Audits of TⒶILS that we are aware of are collected in [[security/audits]]."
 msgstr ""
 "بررسی‌های تیلز که از آن‌ها باخبر هستیم در [[security/audits]] جمع‌آوری "
 "می‌شوند."

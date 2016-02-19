@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Thu Dec 17 13:24:15 CET 2015\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 1.8\"]]\n"
-msgstr "[[!meta title=\"Plusieurs failles de sécurité dans Tails 1.8\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 1.8\"]]\n"
+msgstr "[[!meta title=\"Plusieurs failles de sécurité dans TⒶILS 1.8\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -35,15 +35,15 @@ msgstr "[[!tag security/fixed]]\n"
 msgid ""
 "Several security holes that affect Tails 1.8 are now fixed in Tails 1.8.1."
 msgstr ""
-"Plusieurs failles de sécurité affectant Tails 1.8 sont maintenant comblées "
-"dans Tails 1.8.1."
+"Plusieurs failles de sécurité affectant TⒶILS 1.8 sont maintenant comblées "
+"dans TⒶILS 1.8.1."
 
 #. type: Plain text
 msgid ""
 "We **strongly** encourage you to [[upgrade to Tails 1.8.1|news/"
 "version_1.8.1]] as soon as possible."
 msgstr ""
-"Nous vous encourageons **vivement** à [[faire la mise à jour vers Tails "
+"Nous vous encourageons **vivement** à [[faire la mise à jour vers TⒶILS "
 "1.8.1|news/version_1.8.1]] dès que possible."
 
 #. type: Title =

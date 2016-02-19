@@ -105,9 +105,9 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Tails has other protections that would prevent your from connecting to the Internet without going through Tor."
+#| msgid "TⒶILS has other protections that would prevent your from connecting to the Internet without going through Tor."
 msgid ""
-"    <p>Tails has other protections that would prevent you from connecting to the\n"
+"    <p>TⒶILS has other protections that would prevent you from connecting to the\n"
 "    Internet without going through Tor.</p>\n"
 "    </div>\n"
 msgstr "تیلز ابزارهای محافظتی دیگری نیز برای جلوگیری از متصل شدن شما به اینترنت بدون تور دارد."
@@ -293,7 +293,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p>Shutdown and restart Tails instead.</p>\n"
+msgid "<p>Shutdown and restart TⒶILS instead.</p>\n"
 msgstr "<p>بهتر است در عوض تیلز را خاموش و دوباره راه‌اندازی کنید.</p>\n"
 
 #. type: Plain text
@@ -315,11 +315,11 @@ msgstr "پیکربندی بیشتر تور\n"
 #, fuzzy
 #| msgid ""
 #| "To configure bridges, firewall, or proxy settings [[select the "
-#| "corresponding option in <span class=\"application\">Tails Greeter</span> |"
+#| "corresponding option in <span class=\"application\">TⒶILS Greeter</span> |"
 #| "first_steps/startup_options/bridge_mode]]."
 msgid ""
 "To configure bridges, firewall, or proxy settings [[select the corresponding "
-"option in <span class=\"application\">Tails Greeter</span>|first_steps/"
+"option in <span class=\"application\">TⒶILS Greeter</span>|first_steps/"
 "startup_options/bridge_mode]]."
 msgstr ""
 "برای پیکربندی پل‌ها، دیوارهای آتش یا تنظیمات پروکسی  [[گزینهٔ مرتبط در <span "
@@ -337,10 +337,10 @@ msgstr ""
 #. type: Bullet: '  - '
 #, fuzzy
 #| msgid ""
-#| "It is impossible to configure Tails to act as a Tor relay using <span "
+#| "It is impossible to configure TⒶILS to act as a Tor relay using <span "
 #| "class=\"application\">Vidalia</span>. See [[!tails_ticket 5438]]."
 msgid ""
-"It is impossible to configure Tails to act as a Tor relay using <span class="
+"It is impossible to configure TⒶILS to act as a Tor relay using <span class="
 "\"application\">Vidalia</span>."
 msgstr ""
 "پیکربندی تیلز با استفاده از <span class=\"application\">ویدالیا</span> برای "

@@ -20,12 +20,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails does not start\"]]\n"
+msgid "[[!meta title=\"TⒶILS does not start\"]]\n"
 msgstr "[[!meta title=\"تیلز راه‌اندازی نمی‌شود\"]]\n"
 
 #. type: Plain text
 msgid ""
-"If Tails does not start properly, refer first to the [[known issues|/support/"
+"If TⒶILS does not start properly, refer first to the [[known issues|/support/"
 "known_issues]] page. Similar issues might have already been reported for the "
 "same model of computer."
 msgstr ""
@@ -37,7 +37,7 @@ msgstr ""
 msgid ""
 "Otherwise refer to the following sections, depending on whether or not the "
 "[[boot menu|/doc/first_steps/startup_options#boot_menu]] appears when "
-"starting Tails:"
+"starting TⒶILS:"
 msgstr ""
 "در غیر این صورت بسته به ظاهر شدن یا نشدن [[فهرست "
 "راه‌اندازی|/doc/first_steps/startup_options#boot_menu]] هنگام راه‌اندازی "
@@ -50,13 +50,13 @@ msgstr "<a id=\"at_all\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not start at all\n"
+msgid "TⒶILS does not start at all\n"
 msgstr "تیلز اصلاً راه‌اندازی نمی‌شود\n"
 
 #. type: Plain text
 msgid ""
 "The following section applies if the [[boot menu|/doc/first_steps/"
-"startup_options#boot_menu]] does not appear when starting Tails."
+"startup_options#boot_menu]] does not appear when starting TⒶILS."
 msgstr ""
 "این بخش در صورتی به کار می‌رود که [[فهرست "
 "راه‌اندازی|/doc/first_steps/startup_options#boot_menu]] هنگام راه‌اندازی "
@@ -64,7 +64,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Refer to the instructions on how to [[start Tails|doc/first_steps/"
+"Refer to the instructions on how to [[start TⒶILS|doc/first_steps/"
 "start_tails]], especially the section about BIOS settings."
 msgstr ""
 "به راهنمای [[راه‌اندازی تیلز|doc/first_steps/start_tails]] به ویژه بخش راجع "
@@ -79,7 +79,7 @@ msgstr ""
 "بفرستید|/support/talk]] که شامل این اطلاعات باشد:"
 
 #. type: Bullet: '0. '
-msgid "Which version of Tails are you trying to start?"
+msgid "Which version of TⒶILS are you trying to start?"
 msgstr "قصد راه‌اندازی کدام نسخهٔ تیلز را دارید؟"
 
 #. type: Bullet: '0. '
@@ -100,9 +100,9 @@ msgstr ""
 
 #. type: Bullet: '3. '
 msgid ""
-"From which media are you trying to start Tails: DVD, USB stick [[installed "
+"From which media are you trying to start TⒶILS: DVD, USB stick [[installed "
 "manually|doc/first_steps/installation/manual]], USB stick [[installed with "
-"Tails Installer|doc/first_steps/installation]], SD card? Keep in mind that, "
+"TⒶILS Installer|doc/first_steps/installation]], SD card? Keep in mind that, "
 "we do not support any other installation method than the ones listed above."
 msgstr ""
 "از چه طریقی قصد راه‌اندازی تیلز را دارید: دی‌وی‌دی، درایو یواس‌بی با [[نصب "
@@ -112,8 +112,8 @@ msgstr ""
 
 #. type: Bullet: '4. '
 msgid ""
-"Have you been able to start Tails successfully on this computer before, from "
-"another media, or with another version of Tails? If so, which ones?"
+"Have you been able to start TⒶILS successfully on this computer before, from "
+"another media, or with another version of TⒶILS? If so, which ones?"
 msgstr ""
 "آیا پیش از این توانسته بودید از دستگاهی دیگر یا نسخهٔ دیگری از تیلز را با "
 "موفقیت روی این رایانه نصب کنید؟ اگر پاسخ مثبت است، با چه دستگاهی یا چه نسخه‌"
@@ -125,7 +125,7 @@ msgstr "آیا همان روش و دستگاه روی رایانه‌های دی
 
 #. type: Bullet: '6. '
 msgid ""
-"Have you been able to start Tails successfully on the same computer using "
+"Have you been able to start TⒶILS successfully on the same computer using "
 "different installation methods? For example, it might start from a DVD but "
 "not from a USB stick."
 msgstr ""
@@ -134,7 +134,7 @@ msgstr ""
 "درایو یواس‌بی نه."
 
 #. type: Bullet: '7. '
-msgid "What installation method did you use to set up Tails?"
+msgid "What installation method did you use to set up TⒶILS?"
 msgstr "از چه روش نصبی برای تنظیم تیلز استفاده کردید؟"
 
 #. type: Plain text
@@ -144,14 +144,14 @@ msgstr "<a id=\"entirely\"></a>\n"
 
 #. type: Title -
 #, no-wrap
-msgid "Tails does not start entirely\n"
+msgid "TⒶILS does not start entirely\n"
 msgstr "تیلز به طور کامل راه‌اندازی نمی‌شود\n"
 
 #. type: Plain text
 msgid ""
 "The following section applies if the [[boot menu|/doc/first_steps/"
-"startup_options#boot_menu]] appears but not [[Tails Greeter|/doc/first_steps/"
-"startup_options/#tails_greeter]] when starting Tails."
+"startup_options#boot_menu]] appears but not [[TⒶILS Greeter|/doc/first_steps/"
+"startup_options/#tails_greeter]] when starting TⒶILS."
 msgstr ""
 "بخش‌های زیر در صورتی به کار می‌روند که [[فهرست "
 "منو|/doc/first_steps/startup_options#boot_menu]]، اما [[خوشامدگوی تیلز "
@@ -171,7 +171,7 @@ msgstr "گزینه‌های`debug` و `nosplash` را اضافه کنید."
 
 #. type: Bullet: '4. '
 msgid ""
-"Hopefully, this displays useful messages while starting Tails. You can then "
+"Hopefully, this displays useful messages while starting TⒶILS. You can then "
 "include them in a bug report to be sent:"
 msgstr ""
 "در حالت مطلوب این کار باعث ظاهر شدن پیغام‌های سودمندی هنگام راه‌اندازی تیلز "
@@ -180,7 +180,7 @@ msgstr ""
 #. type: Bullet: '   - '
 msgid ""
 "either using [[WhisperBack|/doc/first_steps/bug_reporting]] if you are able "
-"to start Tails from another media,"
+"to start TⒶILS from another media,"
 msgstr ""
 "یا با استفاده از [[ویسپربک|/doc/first_steps/bug_reporting]] در صورتی که "
 "بتوانید تیلز را از دستگاه دیگری راه‌اندازی کنید،"
@@ -207,8 +207,8 @@ msgstr "   <div class=\"caution\">\n"
 #, no-wrap
 msgid ""
 "   <strong>When removing this option, if an adversary installed a fake\n"
-"   Tails on an internal hard disk, then you will likely be starting\n"
-"   this dangerous operating system instead of the genuine Tails that\n"
+"   TⒶILS on an internal hard disk, then you will likely be starting\n"
+"   this dangerous operating system instead of the genuine TⒶILS that\n"
 "   you intended to use.</strong>\n"
 msgstr ""
 "   <strong>هنگام حذف این گزینه در نظر داشته باشید که اگر\n"
@@ -224,10 +224,10 @@ msgstr "   </div>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   If removing `live-media=removable` allows you to start Tails, please\n"
+"   If removing `live-media=removable` allows you to start TⒶILS, please\n"
 "   report a bug as documented above: this allows us to improve the [[list\n"
 "   of problematic USB sticks|support/known_issues#problematic-usb-sticks]].\n"
-"   In this case, you should install Tails on another, better supported\n"
+"   In this case, you should install TⒶILS on another, better supported\n"
 "   USB stick.\n"
 msgstr ""
 "   اگر حذف `live-media=removable` باعث می‌شود بتوانید تیلز را راه‌اندازی "

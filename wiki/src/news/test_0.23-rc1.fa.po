@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.23 is out. Please test it and see if all works for you."
 msgstr ""
 "شما می‌توانید به تیلز کمک کنید! اولین (و امیدواریم تنها) نامزد انتشار برای "
@@ -40,7 +40,7 @@ msgid "[[!toc levels=1]]"
 msgstr "[[!toc levels=1]]"
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.23~rc1?"
+msgid "How to test TⒶILS 0.23~rc1?"
 msgstr "چگونه تیلز 0.23~rc1 را امتحان کنیم؟"
 
 #. type: Content of: <ol><li><p>
@@ -61,7 +61,7 @@ msgstr "تصویر ایزو و امضای آن را دانلود کنید:"
 msgid ""
 "<a class=\"download-file\" "
 "href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.23~rc1/tails-i386-0.23~rc1.iso\" "
-">Tails 0.23~rc1 ISO image</a>"
+">TⒶILS 0.23~rc1 ISO image</a>"
 msgstr ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tail"
 "s-i386-0.23~rc1/tails-i386-0.23~rc1.iso\" >تصویر ایزوی تیلز 0.23~rc1 </a>"
@@ -70,7 +70,7 @@ msgstr ""
 msgid ""
 "<a class=\"download-signature\" "
 "href=\"https://tails.boum.org/torrents/files/tails-i386-0.23~rc1.iso.sig \" "
-">Tails 0.23~rc1 signature</a>"
+">TⒶILS 0.23~rc1 signature</a>"
 msgstr ""
 "<a class=\"download-signature\" href=\""
 "https://tails.boum.org/torrents/files/tails-i386-0.23~rc1.iso.sig \" >0.23~"
@@ -112,8 +112,8 @@ msgstr "چگونه از ۰٫۲۲٫۱ ارتقای خودکار را انجام �
 #. type: Content of: <p>
 msgid ""
 "These steps allow you to automatically upgrade a device installed with <span "
-"class=\"application\">Tails Installer</span> from Tails 0.22.1 to Tails "
-"0.23~rc1 using the <span class=\"application\">Tails Upgrader</span>:"
+"class=\"application\">TⒶILS Installer</span> from Tails 0.22.1 to Tails "
+"0.23~rc1 using the <span class=\"application\">TⒶILS Upgrader</span>:"
 msgstr ""
 "این مراحل به شما اجازه می‌دهند تا به طور خودکار یک دستگاه نصب‌شده با <span "
 "class=\"application\">نصب‌کنندهٔ تیلز</span> را با استفاده از <span class=\""
@@ -122,7 +122,7 @@ msgstr ""
 
 #. type: Content of: <ul><li><p>
 msgid ""
-"Start Tails 0.22.1 and [[set an administration "
+"Start TⒶILS 0.22.1 and [[set an administration "
 "password|doc/first_steps/startup_options/administration_password]]."
 msgstr ""
 "تیلز ۰٫۲۲٫۱ را راه‌اندازی کرده و[[یک گذرواژهٔ مدیریتی ایجاد "
@@ -167,7 +167,7 @@ msgstr ""
 #. type: Content of: <ul><ul><li><p>
 msgid ""
 "Rework the way to configure how Tor connects to the network (bridges, "
-"proxies, restrictive firewalls): add an option to Tails Greeter, start Tor "
+"proxies, restrictive firewalls): add an option to TⒶILS Greeter, start Tor "
 "Launcher when needed (Closes: [[!tails_ticket 5920]], [[!tails_ticket "
 "5343]])."
 msgstr ""
@@ -209,7 +209,7 @@ msgstr ""
 #. type: Content of: <ul><ul><li><p>
 msgid ""
 "Disable the Intel Management Engine Interface driver (Closes: "
-"[[!tails_ticket 6460]]). We don't need it in Tails, it might be dangerous, "
+"[[!tails_ticket 6460]]). We don't need it in TⒶILS, it might be dangerous, "
 "and it causes bugs on various hardware such as systems that reboot when "
 "asked to shut down."
 msgstr ""
@@ -220,7 +220,7 @@ msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
 msgid ""
-"Add a launcher for the Tails documentation. This makes it available in "
+"Add a launcher for the TⒶILS documentation. This makes it available in "
 "Windows Camouflage mode (Closes: [[!tails_ticket 5374]], [[!tails_ticket "
 "6767]])."
 msgstr ""
@@ -302,7 +302,7 @@ msgstr "بهبودهای ارتقاهای تدریجی:"
 
 #. type: Content of: <ul><ul><li><ul><li><p>
 msgid ""
-"Drop the Tails Upgrader launcher, to limit users' confusion (Closes: "
+"Drop the TⒶILS Upgrader launcher, to limit users' confusion (Closes: "
 "[[!tails_ticket 6513]])."
 msgstr ""
 "توقف استفاده از راه‌انداز «ارتقاءدهندهٔ تیلز» برای کم کردن سردرگمی کاربران ("
@@ -319,7 +319,7 @@ msgstr "مخفی کردن اطلاعات رفع ایراد (بستن [[!tails_ti
 #. type: Content of: <ul><ul><li><ul><li><p>
 msgid ""
 "Include ~/.xsession-errors in WhisperBack bug reports. This captures the "
-"Tails Upgrader errors and debugging information."
+"TⒶILS Upgrader errors and debugging information."
 msgstr ""
 "گنجاندن ~/.xsession-errors در گزارش‌های ایرادهای ویسپربک. این کار باعث "
 "دریافت پیغام‌های خطای «ارتقاءدهندهٔ تیلز» یا اطلاعات رفع ایرادها می‌شود."
@@ -353,8 +353,8 @@ msgstr ""
 #. type: Content of: <ul><ul><li><p>
 msgid ""
 "Remove the preconfigured #tor channel from Pidgin: apparently, too many "
-"Tails users go ask Tails questions there, without making it clear that they "
-"are running Tails, hence creating a user-support nightmare (Closes: "
+"TⒶILS users go ask Tails questions there, without making it clear that they "
+"are running TⒶILS, hence creating a user-support nightmare (Closes: "
 "[[!tails_ticket 6679]])."
 msgstr ""
 "حذف کانال از پیش‌تنظیم‌شدهٔ #tor از پیجین: ظاهراً تعداد زیادی از کاربران "
@@ -376,11 +376,11 @@ msgstr ""
 "6704]])."
 
 #. type: Content of: <ul><ul><li><p>
-msgid "Give access to the relevant documentation pages from Tails Greeter."
+msgid "Give access to the relevant documentation pages from TⒶILS Greeter."
 msgstr "دسترسی دادن به صفحات مرتبط مستندات از خوشامدگوی تیلز."
 
 #. type: Content of: <ul><ul><li><p>
-msgid "Hide Tails Greeter's password mismatch warning when entry is changed."
+msgid "Hide TⒶILS Greeter's password mismatch warning when entry is changed."
 msgstr ""
 "پنهان کردن هشدار وارد کردن گذرواژهٔ اشتباه خوشامدگوی تیلز وقتی که ورودی "
 "تغییر می‌کند."
@@ -390,9 +390,9 @@ msgid "Persistent Volume Assistant:"
 msgstr "دستیار درایو مانا:"
 
 #. type: Content of: <ul><ul><li><ul><li><p>
-msgid "Take into account our installer is now called Tails Installer."
+msgid "Take into account our installer is now called TⒶILS Installer."
 msgstr ""
-"در نظر گرفتن این که نصب‌کنندهٔ ما حالا «نصب‌کنندهٔ تیلز» (Tails Installer) "
+"در نظر گرفتن این که نصب‌کنندهٔ ما حالا «نصب‌کنندهٔ تیلز» (TⒶILS Installer) "
 "نام دارد."
 
 #. type: Content of: <ul><ul><li><ul><li><p>
@@ -517,6 +517,6 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"All these issues are being worked on and will hopefully be fixed in Tails "
+"All these issues are being worked on and will hopefully be fixed in TⒶILS "
 "0.23."
 msgstr "تمام این مشکلات در گیت برطرف شده و در تیلز ۰٫۲۳ برطرف خواهند شد."

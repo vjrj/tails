@@ -2,7 +2,7 @@
 
 # Initial test: stacking squashfs images
 
-Tails filesystem is already using `aufs` to provide a read-write filesystem on
+TⒶILS filesystem is already using `aufs` to provide a read-write filesystem on
 top of the read-only `squashfs` image.
 
 This system could probably be extended to support mounting multiple `squashfs`

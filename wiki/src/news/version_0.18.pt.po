@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.18 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.18 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,7 +32,7 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.18, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.18, is out."
 msgstr ""
 
 #. type: Plain text
@@ -98,9 +98,9 @@ msgid ""
 "    attacker to gather information that may allow them to\n"
 "    escalate privileges.\n"
 "  - Install gnome-screenshot.\n"
-"  - Add a *About Tails* launcher in the *System* menu.\n"
+"  - Add a *About TⒶILS* launcher in the *System* menu.\n"
 "  - Install GNOME accessibility themes.\n"
-"  - Use *Getting started...* as the homepage for the Tails\n"
+"  - Use *Getting started...* as the homepage for the TⒶILS\n"
 "    documentation button.\n"
 "  - Disable audio preview in Nautilus.\n"
 msgstr ""
@@ -139,7 +139,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -148,7 +148,7 @@ msgid "What's coming up?"
 msgstr ""
 
 #. type: Plain text
-msgid "The next Tails release is scheduled for June 27."
+msgid "The next TⒶILS release is scheduled for June 27."
 msgstr ""
 
 #. type: Plain text
@@ -159,5 +159,5 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], there are many ways **you** can contribute to "
-"Tails. If you want to help, come talk to us!"
+"TⒶILS. If you want to help, come talk to us!"
 msgstr ""

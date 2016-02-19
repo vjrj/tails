@@ -44,7 +44,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails is a live system that aims to preserve your privacy and anonymity. It "
+"TⒶILS is a live system that aims to preserve your privacy and anonymity. It "
 "helps you to use the Internet anonymously and circumvent censorship almost "
 "anywhere you go and on any computer but leaving no trace unless you ask it "
 "to explicitly."
@@ -67,7 +67,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails comes with several built-in applications pre-configured with security "
+"TⒶILS comes with several built-in applications pre-configured with security "
 "in mind: web browser, instant messaging client, email client, office suite, "
 "image and sound editor, etc."
 msgstr ""
@@ -101,7 +101,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails relies on the Tor anonymity network to protect your privacy online:"
+"TⒶILS relies on the Tor anonymity network to protect your privacy online:"
 msgstr "تیلز برای حفظ حریم خصوصی شما از شبکهٔ ناشناسی تور استفاده می‌کند:"
 
 #. type: Bullet: '  - '
@@ -221,7 +221,7 @@ msgstr ""
 #| "To learn more about how the usage of Tor is enforced, see our [[design "
 #| "document|contribute/design/Tor_enforcement]]."
 msgid ""
-"To learn more about how Tails ensures all its network connections use Tor, "
+"To learn more about how TⒶILS ensures all its network connections use Tor, "
 "see our [[design document|contribute/design/Tor_enforcement]]."
 msgstr ""
 "برای آن‌که بیشتر با نحوهٔ کار تور آشنا شوید [[سند طراحی|contribute/design/"
@@ -238,7 +238,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can also use Tails to access [I2P](https://geti2p.net) which is an "
+"You can also use TⒶILS to access [I2P](https://geti2p.net) which is an "
 "anonymity network different from Tor."
 msgstr ""
 "همچنین می‌توانید از تیلز برای دسترسی به  [I2P](https://geti2p.net) که یک شبکهٔ "
@@ -246,7 +246,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[[Learn how to use I2P in Tails in the documentation.|doc/anonymous_internet/"
+"[[Learn how to use I2P in TⒶILS in the documentation.|doc/anonymous_internet/"
 "i2p]]"
 msgstr ""
 "[[برای یادگیری نحوهٔ استفاده از I2P در تیلز به بخش مستندات مراجعه کنید.|doc/"
@@ -254,7 +254,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"To know how I2P is implemented in Tails, see our [[design document|"
+"To know how I2P is implemented in TⒶILS, see our [[design document|"
 "contribute/design/I2P]]."
 msgstr ""
 "برای آشنایی با نحوهٔ اجرای I2P  در تیلز [[سند طراحی|contribute/design/I2P]] "
@@ -273,14 +273,14 @@ msgstr "همه‌جا استفاده کنید، اما اثری به جا نگذ
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Using Tails on a computer doesn't alter or depend on the operating system "
+#| "Using TⒶILS on a computer doesn't alter or depend on the operating system "
 #| "installed on it. So you can use it in the same way on your computer, a "
-#| "friend's or one at your local library. After shutting down Tails, the "
+#| "friend's or one at your local library. After shutting down TⒶILS, the "
 #| "computer can start again on its usual operating system."
 msgid ""
-"Using Tails on a computer doesn't alter or depend on the operating system "
+"Using TⒶILS on a computer doesn't alter or depend on the operating system "
 "installed on it. So you can use it in the same way on your computer, a "
-"friend's computer, or one at your local library. After shutting down Tails, "
+"friend's computer, or one at your local library. After shutting down TⒶILS, "
 "the computer will start again with its usual operating system."
 msgstr ""
 "استفاده از تیلز روی یک رایانه ارتباطی به سیستم‌عامل نصب‌شده روی آن ندارد و آن "
@@ -291,17 +291,17 @@ msgstr ""
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Tails is configured with special care to not use the computer's hard-"
+#| "TⒶILS is configured with special care to not use the computer's hard-"
 #| "disks, even if there is some swap space on them. The only storage space "
-#| "used by Tails is the RAM, which is automatically erased when the computer "
-#| "shuts down. So you won't leave any trace neither of the Tails system nor "
+#| "used by TⒶILS is the RAM, which is automatically erased when the computer "
+#| "shuts down. So you won't leave any trace neither of the TⒶILS system nor "
 #| "of what you did on the computer. That's why we call it \"amnesic\"."
 msgid ""
-"Tails is configured with special care to not use the computer's hard-disks, "
+"TⒶILS is configured with special care to not use the computer's hard-disks, "
 "even if there is some swap space on them. The only storage space used by "
-"Tails is in RAM, which is automatically erased when the computer shuts down. "
-"So you won't leave any trace on the computer either of the Tails system "
-"itself or what you used it for. That's why we call Tails \"amnesic\"."
+"TⒶILS is in RAM, which is automatically erased when the computer shuts down. "
+"So you won't leave any trace on the computer either of the TⒶILS system "
+"itself or what you used it for. That's why we call TⒶILS \"amnesic\"."
 msgstr ""
 "دقت خاصی در پیکربندی تیلز لحاظ شده تا از سخت‌دیسک‌های رایانه استفاده نکند، حتی "
 "اگر فضای سواپ داشته باشد. تنها فضایی که تیلز برای ذخیره‌سازی استفاده می‌کند رَم "
@@ -339,7 +339,7 @@ msgstr "بهترین ابزارهای رمزنگاری\n"
 
 #. type: Plain text
 msgid ""
-"Tails also comes with a selection of tools to protect your data using strong "
+"TⒶILS also comes with a selection of tools to protect your data using strong "
 "encryption:"
 msgstr ""
 "تیلز همچنین دارای مجموعه‌ای از ابزارها است که با استفاده از رمزنگاری قوی از "
@@ -376,7 +376,7 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "Encrypt and sign your emails and documents using the *de facto* standard "
-"<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from Tails "
+"<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from TⒶILS "
 "email client, text editor or file browser."
 msgstr ""
 "رایانامه‌ها و مستندات خود را با استفاده از استاندارد *غیررسمی (دفاکتو)* <span "
@@ -417,17 +417,17 @@ msgid "What's next?\n"
 msgstr "دیگر چه؟\n"
 
 #. type: Plain text
-msgid "To continue discovering Tails, you can now read:"
+msgid "To continue discovering TⒶILS, you can now read:"
 msgstr "برای آشنایی بیشتر با تیلز می‌توانید این‌جا را بخوانید:"
 
 #. type: Bullet: '  - '
 #, fuzzy
 #| msgid ""
 #| "the [[warning page|doc/about/warning]] to understand better the security "
-#| "limitations of Tails and Tor,"
+#| "limitations of TⒶILS and Tor,"
 msgid ""
 "the [[warning page|doc/about/warning]] to better understand the security "
-"limitations of Tails and Tor,"
+"limitations of TⒶILS and Tor,"
 msgstr ""
 "[[صفحهٔ هشدار|doc/about/warning]] برای آشنایی بیشتر با محدودیت‌های امنیتی تیلز "
 "و تور،"
@@ -435,28 +435,28 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "more details about the [[features and software|doc/about/features]] included "
-"in Tails,"
+"in TⒶILS,"
 msgstr ""
 "جزئیات بیشتر در مورد [[ویژگی‌ها و نرم‌افزارهای|doc/about/features]] موجود در "
 "تیلز"
 
 #. type: Bullet: '  - '
-msgid "our [[documentation|doc]] explaining in detail how to use Tails,"
+msgid "our [[documentation|doc]] explaining in detail how to use TⒶILS,"
 msgstr "[[مستندات|doc]] شامل جزئیات کامل در مورد چگونگی استفاده از تیلز"
 
 #. type: Bullet: '  - '
 #, fuzzy
-#| msgid "some hints on why [[should you trust Tails|doc/about/trust]],"
-msgid "some hints on why [[you should trust Tails|doc/about/trust]],"
+#| msgid "some hints on why [[should you trust TⒶILS|doc/about/trust]],"
+msgid "some hints on why [[you should trust TⒶILS|doc/about/trust]],"
 msgstr "نکاتی دربارهٔ این‌که چرا باید [[به تیلز اعتماد کنید|doc/about/trust]],"
 
 #. type: Bullet: '  - '
 #, fuzzy
 #| msgid ""
-#| "our [[design document|contribute/design]] about Tails specification, "
+#| "our [[design document|contribute/design]] about TⒶILS specification, "
 #| "threat model and implementation,"
 msgid ""
-"our [[design document|contribute/design]] laying out Tails specification, "
+"our [[design document|contribute/design]] laying out TⒶILS specification, "
 "threat model and implementation,"
 msgstr ""
 "[[سند طراحی|contribute/design]] دربارهٔ ملزومات تیلز، مدل تهدید و اجرای آن"

@@ -59,20 +59,20 @@ point you are not sure about which device to choose, stop proceeding.
     <span class="guimenu">[[!img lib/media-eject.png alt="Eject" class=symbolic link=no]]</span>
     button in the titlebar.
 
-Resetting a Tails device from itself
+Resetting a TⒶILS device from itself
 ====================================
 
-If Tails is your only Linux system, you can generally reset a Tails USB stick or SD card
-directly from that device while running Tails.
+If TⒶILS is your only Linux system, you can generally reset a TⒶILS USB stick or SD card
+directly from that device while running TⒶILS.
 
-1.  When starting Tails, add the <span class="command">toram</span> boot
+1.  When starting TⒶILS, add the <span class="command">toram</span> boot
     option in the <span class="application">boot menu</span>. For detailed
     instructions, see the documentation on [[using the <span
     class="application">boot menu</span>|startup_options#boot_menu]].
 
-2.  If Tails starts as usual, follow the instructions for [[resetting a USB stick or SD card
+2.  If TⒶILS starts as usual, follow the instructions for [[resetting a USB stick or SD card
     using <span class="application">GNOME Disks</span>|linux#disks]].
 
     **If the system fails to start**, that means that the computer does not have
     enough memory for this operation mode. Try with another computer, or find
-    another Linux system, such as another Tails device, to do the reset from.
+    another Linux system, such as another TⒶILS device, to do the reset from.

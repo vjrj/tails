@@ -1,14 +1,14 @@
 [[!meta date="Sun Jul 1 01:23:45 2012"]]
-[[!meta title="Tails 0.12.1 is out"]]
+[[!meta title="TⒶILS 0.12.1 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.12.1, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.12.1, is out.
 
 This is a [brown paper bag
 release](http://www.catb.org/jargon/html/B/brown-paper-bag-bug.html)
-aimed at fixing two major problems introduced in Tails 0.12. While
+aimed at fixing two major problems introduced in TⒶILS 0.12. While
 upgrading is recommended, it's not strictly necessary for users that
-haven't experienced any issues with Tails 0.12.
+haven't experienced any issues with TⒶILS 0.12.
 
 [[!toc levels=1]]
 
@@ -28,7 +28,7 @@ haven't experienced any issues with Tails 0.12.
     broke administration password and locale settings on some systems.
 
 * Boot
-  - Remove the Tails specific plymouth theme. The theme interfers heavily with
+  - Remove the TⒶILS specific plymouth theme. The theme interfers heavily with
     the boot process on some hardware.
 
 Plus the usual bunch of minor bug reports and improvements.
@@ -48,4 +48,4 @@ see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], here are many ways **you** can contribute
-to Tails: no need to be a hardcore developer.
+to TⒶILS: no need to be a hardcore developer.

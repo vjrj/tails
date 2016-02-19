@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2015-11-03 02:15+0100\n"
 "PO-Revision-Date: 2015-09-23 20:10+0100\n"
 "Last-Translator: spriver <spriver@autistici.org>\n"
@@ -89,8 +89,8 @@ msgstr "[[!img windows/03-license-agreement.png link=no alt=\"License Agreement\
 
 #. type: Title ###
 #, no-wrap
-msgid "Select Tails from the dropdown list"
-msgstr "Wählen Sie Tails in der Auswahlliste aus"
+msgid "Select TⒶILS from the dropdown list"
+msgstr "Wählen Sie TⒶILS in der Auswahlliste aus"
 
 #. type: Plain text
 #, no-wrap
@@ -139,11 +139,11 @@ msgstr "<div class=\"next\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>After the installation completes, you can [[start Tails|start_tails]]\n"
+"<p>After the installation completes, you can [[start TⒶILS|start_tails]]\n"
 "from this new USB stick.</p>\n"
 msgstr ""
 "<p>Nachdem die Installation abgeschlossen wurde\n"
-"können Sie von diesem neuen USB-Stick [[Tails starten|start_tails]].</p>\n"
+"können Sie von diesem neuen USB-Stick [[TⒶILS starten|start_tails]].</p>\n"
 
 #. type: Plain text
 #, no-wrap

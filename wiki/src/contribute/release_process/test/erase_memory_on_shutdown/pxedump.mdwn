@@ -37,7 +37,7 @@ using the following command line:
 Don't forget to punch enough holes in your firewall so that DHCP, TFTP
 and port udp/31337 will go through.
 
-# Run Tails in qemu/kvm
+# Run TⒶILS in qemu/kvm
 
 * Start kvm (using a tap interface, in order to 
   be on layer 2 between host and VM, otherwise DHCP won't work.)
@@ -48,7 +48,7 @@ and port udp/31337 will go through.
   
   	sudo ip addr add 172.32.1.1/24 dev tap0
   	sudo ip link set tap0 up
-* Press 'Q' to disable PXE for the initial boot. Let the Tails DVD boot.
+* Press 'Q' to disable PXE for the initial boot. Let the TⒶILS DVD boot.
 
 # Dump the RAM
 

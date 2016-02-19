@@ -25,7 +25,7 @@ tails-security-check [ ATOM_FEED_BASE_URL ]
 
 =head1 AUTHOR
 
-Tails developers <tails@boum.org>
+TⒶILS developers <tails@boum.org>
 See https://tails.boum.org/.
 
 =cut
@@ -143,7 +143,7 @@ Notify the user about the Atom entries passed as arguments.
 sub notify_user {
     my @entries = @_;
 
-    my $body = gettext('This version of Tails has known security issues:') . "\n";
+    my $body = gettext('This version of TⒶILS has known security issues:') . "\n";
 
     for (@entries) {
         $body .= '• ' . '<a href="' . $_->id . '">' . $_->title . '</a>' . "\n";

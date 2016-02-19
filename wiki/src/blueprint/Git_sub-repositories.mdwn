@@ -2,11 +2,11 @@
 
 # Goals
 
-Tails is built from many sources: the main Git repository and our APT
+TⒶILS is built from many sources: the main Git repository and our APT
 repository (that includes binary packages built from other Git
 repositories).
 
-* See the "Diversions of bundled packages due to Tails point-releases"
+* See the "Diversions of bundled packages due to TⒶILS point-releases"
   thread on tails-dev, in August and September 2013.
 * Make it easier to determine what status of every sub-repo was used
   to build an existing ISO.

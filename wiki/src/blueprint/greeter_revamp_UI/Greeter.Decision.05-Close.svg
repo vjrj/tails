@@ -12,7 +12,7 @@
 		<rect x="50.038" y="1384.046" fill="#FFFFFF" width="1584" height="1224"/>
 		<text transform="matrix(1 0 0 1 278.6373 2184.8506)" fill="#4A90D9" font-family="'MyriadPro-Bold'" font-size="24">Close Greeter?</text>
 		<rect x="278.637" y="2200.566" fill="none" width="449.098" height="148.088"/>
-		<text transform="matrix(1 0 0 1 278.6373 2215.6326)" enable-background="new    "><tspan x="0" y="0" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">The ability to go back a step from the Greeter to the </tspan><tspan x="0" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">Tails boot dialog allows people the freedom to change </tspan><tspan x="0" y="44" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">their mind, once they arrive at the Greeter, and go back </tspan><tspan x="0" y="66" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">and boot into either Failsafe or Normal Tails, whichever </tspan><tspan x="0" y="88" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">is the opposite of the one they just booted.</tspan><tspan x="0" y="132" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">This approach is only really appropriate in this one case.</tspan></text>
+		<text transform="matrix(1 0 0 1 278.6373 2215.6326)" enable-background="new    "><tspan x="0" y="0" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">The ability to go back a step from the Greeter to the </tspan><tspan x="0" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">TⒶILS boot dialog allows people the freedom to change </tspan><tspan x="0" y="44" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">their mind, once they arrive at the Greeter, and go back </tspan><tspan x="0" y="66" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">and boot into either Failsafe or Normal Tails, whichever </tspan><tspan x="0" y="88" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">is the opposite of the one they just booted.</tspan><tspan x="0" y="132" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">This approach is only really appropriate in this one case.</tspan></text>
 		<rect x="278.637" y="2453.546" fill="none" width="449.1" height="81.162"/>
 		<text transform="matrix(1 0 0 1 278.6373 2468.6123)" enable-background="new    "><tspan x="0" y="0" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">An alternative to the Close[x] is the Back[&lt;&lt;].  However, </tspan><tspan x="0" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">this may not be more appropriate since the Back[&lt;&lt;] </tspan><tspan x="0" y="44" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">suggests that the previous content was contained </tspan><tspan x="0" y="66" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">within the same Greeter dialog window, which is not </tspan></text>
 		<g>
@@ -84,19 +84,19 @@
 			
 				<text transform="matrix(1 0 0 1 498.6841 1876.0546)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="10.4442" text-decoration=" underline">or</text>
 			<g>
-				<text transform="matrix(1 0 0 1 433.9571 1783.3314)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="18">Welcome to Tails.  </text>
+				<text transform="matrix(1 0 0 1 433.9571 1783.3314)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="18">Welcome to TⒶILS.  </text>
 			</g>
 			<g>
 				<text transform="matrix(1 0 0 1 399.9556 1798.3314)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="10.4442">These are your DEFAULT configuration settings.</text>
 			</g>
 			<g>
 				
-					<text transform="matrix(1 0 0 1 453.4962 1820.3632)" fill="#4A90D9" font-family="'MyriadPro-Regular'" font-size="10.4442" text-decoration=" underline">Learn more about Tails</text>
+					<text transform="matrix(1 0 0 1 453.4962 1820.3632)" fill="#4A90D9" font-family="'MyriadPro-Regular'" font-size="10.4442" text-decoration=" underline">Learn more about TⒶILS</text>
 			</g>
 			<g>
 				<path fill="#4A90D9" d="M471.158,2107.521c0,0.775,0.629,1.404,1.404,1.404h59.055c0.775,0,1.404-0.628,1.404-1.404v-21.201
 					c0-0.775-0.629-1.404-1.404-1.404h-59.055c-0.775,0-1.404,0.628-1.404,1.404V2107.521z"/>
-				<text transform="matrix(1 0 0 1 481.0923 2100.6311)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10.4442">Start Tails</text>
+				<text transform="matrix(1 0 0 1 481.0923 2100.6311)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10.4442">Start TⒶILS</text>
 			</g>
 			<rect x="332.252" y="1863.038" fill="#4A90D9" width="20.147" height="20.147"/>
 			
@@ -181,19 +181,19 @@
 			
 				<text transform="matrix(1 0 0 1 1176.3844 1851.4381)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="10.4442" text-decoration=" underline">or</text>
 			<g>
-				<text transform="matrix(1 0 0 1 1111.6573 1758.715)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="18">Welcome to Tails.  </text>
+				<text transform="matrix(1 0 0 1 1111.6573 1758.715)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="18">Welcome to TⒶILS.  </text>
 			</g>
 			<g>
 				<text transform="matrix(1 0 0 1 1077.6559 1773.715)" fill="#AAAAAA" font-family="'MyriadPro-Regular'" font-size="10.4442">These are your DEFAULT configuration settings.</text>
 			</g>
 			<g>
 				
-					<text transform="matrix(1 0 0 1 1131.1964 1795.7467)" fill="#4A90D9" font-family="'MyriadPro-Regular'" font-size="10.4442" text-decoration=" underline">Learn more about Tails</text>
+					<text transform="matrix(1 0 0 1 1131.1964 1795.7467)" fill="#4A90D9" font-family="'MyriadPro-Regular'" font-size="10.4442" text-decoration=" underline">Learn more about TⒶILS</text>
 			</g>
 			<g>
 				<path fill="#4A90D9" d="M1148.859,2082.904c0,0.775,0.629,1.404,1.404,1.404h59.055c0.775,0,1.404-0.628,1.404-1.404v-21.201
 					c0-0.775-0.629-1.404-1.404-1.404h-59.055c-0.775,0-1.404,0.628-1.404,1.404V2082.904z"/>
-				<text transform="matrix(1 0 0 1 1158.7926 2076.0146)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10.4442">Start Tails</text>
+				<text transform="matrix(1 0 0 1 1158.7926 2076.0146)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="10.4442">Start TⒶILS</text>
 			</g>
 			<rect x="1009.953" y="1838.422" fill="#4A90D9" width="20.147" height="20.147"/>
 			
@@ -237,7 +237,7 @@
 		</g>
 		<text transform="matrix(1 0 0 1 956.3383 2160.2339)" fill="#4A90D9" font-family="'MyriadPro-Bold'" font-size="24">Do Not Close Greeter?</text>
 		<rect x="956.339" y="2175.964" fill="none" width="449.099" height="277.333"/>
-		<text transform="matrix(1 0 0 1 956.3385 2191.03)" enable-background="new    "><tspan x="0" y="0" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">Presuming that there is a technical limitation to return</tspan><tspan x="426.661" y="0" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">-</tspan><tspan x="0" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">ing</tspan><tspan x="25.631" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18"> back to the Tails boot dialog, it seems most appro</tspan><tspan x="424.88" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">-</tspan><tspan x="0" y="44" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">priate to not permit people to close the Greeter.  This</tspan><tspan x="0" y="66" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">presumption is based on the post-modern loading </tspan><tspan x="0" y="88" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">screen that communicates through time and visual</tspan><tspan x="0" y="110" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">separation that unloading a Tails mode and returning to </tspan><tspan x="0" y="132" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">the Tails boot dialog is not possible.</tspan><tspan x="0" y="176" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">There is currently no way to return to the Tails boot </tspan><tspan x="0" y="198" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">dialog; this approach wouldn’t change that.</tspan></text>
+		<text transform="matrix(1 0 0 1 956.3385 2191.03)" enable-background="new    "><tspan x="0" y="0" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">Presuming that there is a technical limitation to return</tspan><tspan x="426.661" y="0" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">-</tspan><tspan x="0" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">ing</tspan><tspan x="25.631" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18"> back to the TⒶILS boot dialog, it seems most appro</tspan><tspan x="424.88" y="22" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">-</tspan><tspan x="0" y="44" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">priate to not permit people to close the Greeter.  This</tspan><tspan x="0" y="66" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">presumption is based on the post-modern loading </tspan><tspan x="0" y="88" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">screen that communicates through time and visual</tspan><tspan x="0" y="110" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">separation that unloading a Tails mode and returning to </tspan><tspan x="0" y="132" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">the Tails boot dialog is not possible.</tspan><tspan x="0" y="176" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">There is currently no way to return to the Tails boot </tspan><tspan x="0" y="198" fill="#AAAAAA" font-family="'MyriadPro-Bold'" font-size="18">dialog; this approach wouldn’t change that.</tspan></text>
 		<g>
 			<text transform="matrix(1 0 0 1 812.6388 1996.046)" fill="#4A90D9" font-family="'MyriadPro-Bold'" font-size="50">VS</text>
 		</g>

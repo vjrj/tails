@@ -1,0 +1,8 @@
+# for each origin
+#    fetch baseurl($origin)/project/trace
+
+#    # fetching to the right location would be just enough,
+#    # if tails-prepare-tagged-apt-snapshot-import was not prefixing
+#    # with "Archive serial: "
+#    extract last serial
+#    write last serial into config/APT_snapshots.d/$origin/serial

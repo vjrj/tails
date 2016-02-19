@@ -22,7 +22,7 @@ msgid "[[!meta title=\"Enable a wireless device\"]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "When Tails starts, Wi-Fi, WWAN, and WiMAX devices are enabled."
+msgid "When TⒶILS starts, Wi-Fi, WWAN, and WiMAX devices are enabled."
 msgstr ""
 
 #. type: Plain text
@@ -33,7 +33,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>BlueTooth is enabled by default but Tails lacks the GNOME utilities\n"
+"<p>BlueTooth is enabled by default but TⒶILS lacks the GNOME utilities\n"
 "to actually use it.</p>\n"
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"When starting Tails, [[set up an administration password|doc/first_steps/"
+"When starting TⒶILS, [[set up an administration password|doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
 
@@ -168,13 +168,13 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Bluetooth is not enabled by default in Tails because it is insecure when "
+"Bluetooth is not enabled by default in TⒶILS because it is insecure when "
 "trying to protect from a local adversary."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"To use Bluetooth in Tails nonetheless, you have to [[set up an "
+"To use Bluetooth in TⒶILS nonetheless, you have to [[set up an "
 "administration password at boot time|doc/first_steps/startup_options/"
 "administration_password]] and install the `gnome-bluetooth` package."
 msgstr ""

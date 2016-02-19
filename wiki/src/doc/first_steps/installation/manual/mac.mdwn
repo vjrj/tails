@@ -101,7 +101,7 @@ Then complete the command and execute it.
 
 </div>
 
-If you don't see any error message, Tails is being copied onto the USB
+If you don't see any error message, TⒶILS is being copied onto the USB
 stick. The whole process might take some time, generally a few minutes.
 
 <div class="tip">
@@ -118,11 +118,11 @@ the system.
 
 <p>The installation is complete when the command prompt reappears.</p>
 
-<h2 class="bullet-number-four">Start Tails</h2>
+<h2 class="bullet-number-four">Start TⒶILS</h2>
 
 <div class="next">
 
-<p>After the installation completes, follow the instructions to [[start Tails on
+<p>After the installation completes, follow the instructions to [[start TⒶILS on
 Mac|first_steps/start_tails#usb-mac]].</p>
 
 </div>
@@ -136,12 +136,12 @@ This method was successfully tested on the following hardware:
   - MacBook Pro Retina 15" Mid-2012 (aka MacBookPro10,1)
 
 The method worked on some hardware but a bug in the video support
-prevented Tails to start successfully:
+prevented TⒶILS to start successfully:
 
   - MacBook Pro Retina with OS X 10.8.3, December 2012
   - Macbook Pro model A1150
 
-Note that Tails developers are in general not very knowledgeable about
+Note that TⒶILS developers are in general not very knowledgeable about
 Mac. Any additional information is welcome.
 
 <!--

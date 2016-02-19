@@ -1,9 +1,9 @@
-[[!meta title="Introduction to GNOME and the Tails desktop"]]
+[[!meta title="Introduction to GNOME and the TⒶILS desktop"]]
 
-The desktop environment used in Tails is [GNOME](https://www.gnome.org),
+The desktop environment used in TⒶILS is [GNOME](https://www.gnome.org),
 more precisely [GNOME Classic](https://help.gnome.org/users/gnome-help/stable/gnome-classic.html) version 3.14.
 This page describes some important features of the desktop in the context of
-Tails.
+TⒶILS.
 
 [[!toc levels=2]]
 
@@ -60,7 +60,7 @@ tab.</p>
 
 <div class="next">
 
-By default, any such customization is reset when shutting down Tails. Read the
+By default, any such customization is reset when shutting down TⒶILS. Read the
 documentation on [[persistence|persistence]] to learn which configuration can be
 made persistent across separate working sessions.
 
@@ -160,11 +160,11 @@ protect you against a hardware keylogger when typing passwords and sensitive tex
 OpenPGP applet
 --------------
 
-Using the <span class="application">Tails OpenPGP Applet</span> you can
+Using the <span class="application">TⒶILS OpenPGP Applet</span> you can
 encrypt and decrypt the clipboard using OpenPGP.
 [[See the corresponding documentation.|encryption_and_privacy/gpgapplet]]
 
-[[!img openpgp_applet.png link=no alt="Tails OpenPGP Applet"]]
+[[!img openpgp_applet.png link=no alt="TⒶILS OpenPGP Applet"]]
 
 <a id="accessibility"></a>
 
@@ -238,14 +238,14 @@ moved</div>
 
 <div class="icon">
 [[!img system-help.png link=no]]
-<div class="text"><strong>Tails documentation</strong>: open a local copy of
-Tails website and documentation</div>
+<div class="text"><strong>TⒶILS documentation</strong>: open a local copy of
+TⒶILS website and documentation</div>
 </div>
 
 <div class="icon">
 [[!img whisperback.png link=no]]
 <div class="text">
-<strong>Report an error</strong>: help you [[troubleshoot|/support]] Tails
+<strong>Report an error</strong>: help you [[troubleshoot|/support]] TⒶILS
 </div>
 </div>
 

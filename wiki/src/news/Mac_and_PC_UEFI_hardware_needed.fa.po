@@ -21,7 +21,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Help Tails: Mac and PC UEFI hardware needed\"]]\n"
+msgid "[[!meta title=\"Help TⒶILS: Mac and PC UEFI hardware needed\"]]\n"
 msgstr ""
 "[[!meta title=\"به تیلز کمک کنید: به سخت‌افزارهای مک و PC UEFI نیاز داریم\"]]"
 "\n"
@@ -38,8 +38,8 @@ msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
 msgid ""
-"For the moment, Tails has very limited support for Mac.  Also, Tails lacks "
-"UEFI support, so quite a few recent PC's refuse to boot from a Tails USB "
+"For the moment, TⒶILS has very limited support for Mac.  Also, Tails lacks "
+"UEFI support, so quite a few recent PC's refuse to boot from a TⒶILS USB "
 "stick."
 msgstr ""
 "در حال حاضر میزان پشتیبانی تیلز از مک بسیار محدود است. همچنین تیلز از UEFI "
@@ -84,7 +84,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Else, there are [[many other ways|contribute]] you can contribute to Tails "
+"Else, there are [[many other ways|contribute]] you can contribute to TⒶILS "
 ":)"
 msgstr ""
 "در غیر این صورت [[راه‌های دیگر بسیاری|contribute]] برای کمک کردن به تیلز "

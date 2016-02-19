@@ -1,25 +1,25 @@
-[[!meta title="Tails report for September, 2013"]]
+[[!meta title="TⒶILS report for September, 2013"]]
 
 Releases
 ========
 
-Tails 0.20.1 [[was released|news/version_0.20.1]] on September 19.
+TⒶILS 0.20.1 [[was released|news/version_0.20.1]] on September 19.
 
-Tails 0.21 has been
+TⒶILS 0.21 has been
 [scheduled](https://mailman.boum.org/pipermail/tails-dev/2013-September/003719.html)
 for October 29.
 
-Tails 0.22 has been
+TⒶILS 0.22 has been
 [scheduled](https://mailman.boum.org/pipermail/tails-dev/2013-September/003718.html)
 for December 11.
 
 Metrics
 =======
 
-- Tails has been started more than 174 269 times in September.
+- TⒶILS has been started more than 174 269 times in September.
   This makes a boot every 15 seconds on average.
 
-- 14 166 downloads of the OpenPGP signature of Tails ISO.
+- 14 166 downloads of the OpenPGP signature of TⒶILS ISO.
 
 Code
 ====
@@ -29,26 +29,26 @@ Code
   on Saturday 21.
 - A [[!tails_gitweb_branch feature/keepassx_launcher desc="launcher for KeePassX"]]
   was added to the desktop ([[!tails_ticket 6290]]).
-- It is now possible to install Tails on SD cards using
+- It is now possible to install TⒶILS on SD cards using
   [[!tails_gitweb_branch feature/sdio desc="SDIO"]] hardware
   ([[!tails_ticket 6324]]).
 - Some issues were fixed for the migration to [[!tails_gitweb_branch
-  feature/wheezy desc="Tails Wheezy"]].
+  feature/wheezy desc="TⒶILS Wheezy"]].
 - The problem that prevented [[!tails_gitweb_branch
   bugfix/fix_packages_impossible_to_install desc="some packages"]] to be
-  installable on Tails was solved.
-- Tails USB Installer:
+  installable on TⒶILS was solved.
+- TⒶILS USB Installer:
   - [Rebranded](http://git.tails.boum.org/liveusb-creator/log/?h=feature/sdio)
-    to *Tails Installer*.
+    to *TⒶILS Installer*.
   - Display a [confirmation
     dialog](http://git.tails.boum.org/liveusb-creator/log/?h=feature/confirmation_dialog)
-    before installing Tails ([[!tails_ticket 6293]]).
+    before installing TⒶILS ([[!tails_ticket 6293]]).
   - Display [device vendor, model and
     size](http://git.tails.boum.org/liveusb-creator/log/?h=feature/list_device_name)
     ([[!tails_ticket 6292]]).
-  - Any `.iso` file present in the Tails partition will be skipped during
+  - Any `.iso` file present in the TⒶILS partition will be skipped during
     cloning ([[!tails_ticket 5300]]). Many thanks to Sina for providing a patch!
-- The information icon when a bad passphrase is entered in Tails Greeter
+- The information icon when a bad passphrase is entered in TⒶILS Greeter
   was replaced by a proper [warning
   icon](http://git.tails.boum.org/greeter/commit/?id=7ce672d21fd94badf38f8a52279aa10fc7917df8)
   ([[!tails_ticket 5332]]).
@@ -56,9 +56,9 @@ Code
 - The persistent volume [[!tails_gitweb_branch
   bugfix/unmount-persistent-volume-on-shutdown desc="is now properly umounted
   on shutdown"]] ([[!tails_ticket 6228]]).
-- Tails now [[!tails_gitweb_branch feature/tor-0.2.4 desc="ships Tor
+- TⒶILS now [[!tails_gitweb_branch feature/tor-0.2.4 desc="ships Tor
   0.2.4"]].
-- Tails now [[!tails_gitweb_branch feature/linux-3.10.11
+- TⒶILS now [[!tails_gitweb_branch feature/linux-3.10.11
   desc="includes Linux 3.10.11"]].
 - A minor fix to our automated test suite [[!tails_gitweb_branch
   test/fix-detection-of-used-display desc="was proposed"]].
@@ -85,7 +85,7 @@ Documentation and website
 Infrastructure
 ==============
 
-- You can download nightly builds of different branches of Tails on
+- You can download nightly builds of different branches of TⒶILS on
   <http://nightly.tails.boum.org/>.
   - They have more unique names than previous builds.
   - They are signed with OpenPGP key 0xD83A438B2F916605
@@ -101,7 +101,7 @@ On-going discussions
 - [Removing the clock applet from the
   desktop](https://mailman.boum.org/pipermail/tails-dev/2013-September/003680.html)
   or [[!tails_ticket 6284 desc="Displaying localized timezone"]]
-- [[!tails_ticket 5797 desc="Creating a logo for Tails"]], with new
+- [[!tails_ticket 5797 desc="Creating a logo for TⒶILS"]], with new
   proposals by
   [Carmie](https://mailman.boum.org/pipermail/tails-dev/2013-September/003612.html)
   and [Kevin C.
@@ -114,7 +114,7 @@ Funding
 
 - We finally signed our short-term contract with sponsor Bravo. That
   will keep us very busy until the end of the year, and will address
-  some of the stumbling blocks on the road towards Tails 1.0!
+  some of the stumbling blocks on the road towards TⒶILS 1.0!
 
 - We paid the first bounty of our bounty program. This one automated the
   migration of our ikiwiki tickets to
@@ -132,6 +132,6 @@ Press and testimonials
 * 2013-09-05: In [How to remain secure against NSA
   surveillance](http://www.theguardian.com/world/2013/sep/05/nsa-how-to-remain-secure-surveillance),
   Bruce Schneier wrote: "Since I started working with Snowden's
-  documents, I have been using GPG, Silent Circle, Tails, OTR,
+  documents, I have been using GPG, Silent Circle, TⒶILS, OTR,
   TrueCrypt, BleachBit, and a few other things I'm not going to
   write about."

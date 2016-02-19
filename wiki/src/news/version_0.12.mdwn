@@ -1,8 +1,8 @@
 [[!meta date="Mon Jun 12 01:23:45 2012"]]
-[[!meta title="Tails 0.12 is out"]]
+[[!meta title="TⒶILS 0.12 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.12, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.12, is out.
 
 All users must upgrade as soon as possible.
 
@@ -17,10 +17,10 @@ Notable user-visible changes include:
   Internet cafes and when using other publicly available Internet
   connections.
 
-* Windows camouflage can now be enabled via a check box in Tails
-  Greeter. Tails' user interface is unfamiliar to most, which may
+* Windows camouflage can now be enabled via a check box in TⒶILS
+  Greeter. TⒶILS' user interface is unfamiliar to most, which may
   attract unwanted attention when used in public places. This option
-  makes Tails look more like Microsoft Windows XP in order to raise
+  makes TⒶILS look more like Microsoft Windows XP in order to raise
   less suspicion.
 
 * Tor
@@ -28,10 +28,10 @@ Notable user-visible changes include:
 
 * iceweasel
   - Upgrade iceweasel to 10.0.5esr-1 (Extended Support Release).
-  - Add a bookmark for the offline Tails documentation.
+  - Add a bookmark for the offline TⒶILS documentation.
 
 * Internationalization:
-  - The Tails website and documentation now has a (partial) Portuguese
+  - The TⒶILS website and documentation now has a (partial) Portuguese
     translation.
 
 * Hardware support
@@ -43,11 +43,11 @@ Notable user-visible changes include:
     built-in [[doc/first_steps/persistence]] with the following
     one-time migration procedure:
 	1. set an [[doc/first_steps/startup_options/administration_password]]
-	   when booting Tails
+	   when booting TⒶILS
 	2. temporarily install cryptkeeper via `sudo apt-get update; sudo
        apt-get install --yes cryptkeeper`
 	3. open your cryptkeeper (EncFS] volume and move its contents to
-	   the `Persistence` folder provided by Tails' built-in persistence
+	   the `Persistence` folder provided by TⒶILS' built-in persistence
   - Install mousetweaks. This is needed to use the mouse accessibility
     settings in System -> Preferences -> Mouse -> Accessibility.
   - Upgrade I2P to version 0.9.
@@ -56,7 +56,7 @@ Notable user-visible changes include:
   - Upgrade MAT, the metadata anonymisation toolkit, 0.3.2-1~bpo60+1.
 
 * Miscellaneous
-  - Set Tails specific syslinux and plymouth themes.
+  - Set TⒶILS specific syslinux and plymouth themes.
 
 Plus the usual bunch of minor bug reports and improvements.
 
@@ -75,4 +75,4 @@ see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], here are many ways **you** can contribute
-to Tails: no need to be a hardcore developer.
+to TⒶILS: no need to be a hardcore developer.

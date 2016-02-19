@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2014-10-08 16:51+0300\n"
 "PO-Revision-Date: 2014-07-17 15:42-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -23,13 +23,13 @@ msgstr "[[!meta title=\"Persistência criptografada\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"If you start Tails from a USB stick or SD card, you can create a\n"
+"If you start TⒶILS from a USB stick or SD card, you can create a\n"
 "persistent volume in the free space left on the device by <span\n"
-"class=\"application\">Tails Installer</span>. The files in the persistent\n"
+"class=\"application\">TⒶILS Installer</span>. The files in the persistent\n"
 "volume are saved encrypted and remain available across separate working sessions.\n"
 msgstr ""
-"Se você iniciar o Tails a partir de uma memória USB ou cartão SD, você pode criar um\n"
-"volume persistente no espaço livre do dispositivo deixado pelo <span class=\"application\">Tails Installer</span>.\n"
+"Se você iniciar o TⒶILS a partir de uma memória USB ou cartão SD, você pode criar um\n"
+"volume persistente no espaço livre do dispositivo deixado pelo <span class=\"application\">TⒶILS Installer</span>.\n"
 "Os arquivos no volume persistente são salvos de forma criptografada e ficam disponíveis\n"
 "ao longo de diferentes sessões de trabalho.\n"
 
@@ -42,12 +42,12 @@ msgstr "<div class=\"note\">\n"
 #, no-wrap
 msgid ""
 "<p>It is only possible to create a persistent volume if the device, USB stick or\n"
-"SD card, was installed using <span class=\"application\">[[Tails\n"
+"SD card, was installed using <span class=\"application\">[[TⒶILS\n"
 "Installer|doc/first_steps/installation]]</span>.</p>\n"
 msgstr ""
 "<p>Somente é possível criar um volume persistente se o dispositivo,\n"
 "memória USB ou cartão SD, tiver sido instalado usando o\n"
-"<span class=\"application\">[[Tails\n"
+"<span class=\"application\">[[TⒶILS\n"
 "Installer|doc/first_steps/installation]]</span>.</p>\n"
 
 #. type: Plain text
@@ -71,8 +71,8 @@ msgid "your personal files and working documents"
 msgstr "seus arquivos pessoais e documentos de trabalho"
 
 #. type: Bullet: '  - '
-msgid "the software packages that you download and install in Tails"
-msgstr "pacotes de programas que você baixou e instalou no Tails"
+msgid "the software packages that you download and install in TⒶILS"
+msgstr "pacotes de programas que você baixou e instalou no TⒶILS"
 
 #. type: Bullet: '  - '
 msgid "the configuration of the programs you use"
@@ -91,10 +91,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Once the persistent volume is created, you can choose to activate it or not "
-"each time you start Tails."
+"each time you start TⒶILS."
 msgstr ""
 "Uma vez que o volume persistente tenha sido criado, você pode escolher ativá-"
-"lo ou não cada vez que iniciar o Tails."
+"lo ou não cada vez que iniciar o TⒶILS."
 
 #. type: Plain text
 #, no-wrap

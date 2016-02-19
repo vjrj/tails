@@ -1,5 +1,5 @@
 [[!meta date="Mon Jan 30 01:23:45 2012"]]
-[[!meta title="Tails 0.10.1 is out"]]
+[[!meta title="TⒶILS 0.10.1 is out"]]
 [[!tag announce]]
 
 The Amnesic Incognito Live System, version 0.10.1, is out.
@@ -28,7 +28,7 @@ Notable user-visible changes include:
 
 * Time synchronization
     Serious rework that should fix most, if not all, of the infamous
-    time-sync' related bugs some Tails users have experienced recently.
+    time-sync' related bugs some TⒶILS users have experienced recently.
     - Make htpdate more resilient by using three server pools, and
       allowing some failure ratio.
     - Set time from Tor's unverified-consensus if needed.

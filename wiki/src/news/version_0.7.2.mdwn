@@ -15,7 +15,7 @@ Notable user-visible changes include:
 
 * Iceweasel
   - Disable Torbutton's external application launch warning.
-    ... which advises using Tails. Tails *is* running Tails.
+    ... which advises using TⒶILS. Tails *is* running Tails.
   - FoxyProxy: install from Debian instead of the older one we previously
     shipped.
 
@@ -43,4 +43,4 @@ see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], here are many ways **you** can contribute
-to Tails: no need to be a hardcore developer.
+to TⒶILS: no need to be a hardcore developer.

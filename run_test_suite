@@ -46,7 +46,7 @@ xvfb
 usage() {
     echo "Usage: $NAME [OPTION]... [--] [CUCUMBER_ARGS]...
 Sets up an appropriate environment and invokes cucumber. Note that this script
-must be run from the Tails source directory root.
+must be run from the TⒶILS source directory root.
 
 Options for '@product' features:
   --artifacts-base-uri URI
@@ -78,7 +78,7 @@ Options for '@product' features:
   --vnc-server-only  Starts a VNC server for the test session. Requires x11vnc.
   --iso IMAGE        Test '@product' features using IMAGE.
   --old-iso IMAGE    For some '@product' features (e.g. usb_install) we need
-                     an older version of Tails, which this options sets to
+                     an older version of TⒶILS, which this options sets to
                      IMAGE. If none is given, it defaults to the same IMAGE
                      given by --iso, which will be good enough for most testing
                      purposes.

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-01-25 19:48+0100\n"
 "PO-Revision-Date: 2016-01-02 19:30+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Installing Tails on a USB stick from Windows\"]]\n"
-msgstr "[[!meta title=\"Tails unter Windows auf einem USB Stick installieren\"]]\n"
+msgid "[[!meta title=\"Installing TⒶILS on a USB stick from Windows\"]]\n"
+msgstr "[[!meta title=\"TⒶILS unter Windows auf einem USB Stick installieren\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -122,8 +122,8 @@ msgid "   [[!img install/inc/screenshots/uui.png class=\"screenshot\" link=\"no\
 msgstr "   [[!img install/inc/screenshots/uui.png class=\"screenshot\" link=\"no\" alt=\"Screenshot des Universal USB Installers\"]]\n"
 
 #. type: Bullet: '1. '
-msgid "Select <span class=\"guilabel\">Tails</span> from the drop-down list."
-msgstr "Wählen Sie <span class=\"guilabel\">Tails</span> von der Auswahlliste."
+msgid "Select <span class=\"guilabel\">TⒶILS</span> from the drop-down list."
+msgstr "Wählen Sie <span class=\"guilabel\">TⒶILS</span> von der Auswahlliste."
 
 #. type: Plain text
 #, no-wrap

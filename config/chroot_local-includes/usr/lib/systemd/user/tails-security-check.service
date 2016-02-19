@@ -1,5 +1,5 @@
 [Unit]
-Description=Check Tails known, unfixed security issues
+Description=Check TⒶILS known, unfixed security issues
 Documentation=https://tails.boum.org/contribute/design/
 After=tails-wait-until-tor-has-bootstrapped.service
 

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-02-07 11:31+0100\n"
 "PO-Revision-Date: 2016-02-07 11:11+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,25 +17,25 @@ msgstr ""
 "X-Generator: Poedit 1.8.6\n"
 
 #. type: Content of: <h3>
-msgid "Install from another Tails"
-msgstr "Von einem anderen Tails aus installieren"
+msgid "Install from another TⒶILS"
+msgstr "Von einem anderen TⒶILS aus installieren"
 
 #. type: Content of: <p>
 msgid ""
-"If you know someone of trust who uses Tails already, then you can install "
-"your Tails by copying from it. Make sure that this Tails is up-to-date."
+"If you know someone of trust who uses TⒶILS already, then you can install "
+"your TⒶILS by copying from it. Make sure that this TⒶILS is up-to-date."
 msgstr ""
-"Wenn Sie eine Person kennen, der Sie vertrauen und die bereits Tails "
-"benutzt, können Sie Ihr Tails durch Kopieren davon installieren. Stellen Sie "
-"sicher, dass dieses Tails auf dem neuesten Stand ist."
+"Wenn Sie eine Person kennen, der Sie vertrauen und die bereits TⒶILS "
+"benutzt, können Sie Ihr TⒶILS durch Kopieren davon installieren. Stellen Sie "
+"sicher, dass dieses TⒶILS auf dem neuesten Stand ist."
 
 #. type: Content of: <h4>
 msgid "You need:"
 msgstr "Sie benötigen:"
 
 #. type: Content of: <ul><li>
-msgid "1 other Tails <small>(USB stick or DVD)</small>"
-msgstr "1 anderes Tails <small>(USB-Stick oder DVD)</small>"
+msgid "1 other TⒶILS <small>(USB stick or DVD)</small>"
+msgstr "1 anderes TⒶILS <small>(USB-Stick oder DVD)</small>"
 
 #. type: Content of: <ul><li>
 msgid "1 USB stick <small>(at least 4 GB)</small>"

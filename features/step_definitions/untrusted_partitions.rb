@@ -2,14 +2,14 @@ Given /^I create an? ([[:alnum:]]+) swap partition on disk "([^"]+)"$/ do |partt
   $vm.storage.disk_mkswap(name, parttype)
 end
 
-Then /^an? "([^"]+)" partition was detected by Tails on drive "([^"]+)"$/ do |type, name|
+Then /^an? "([^"]+)" partition was detected by TⒶILS on drive "([^"]+)"$/ do |type, name|
   part_info = $vm.execute_successfully(
       "blkid '#{$vm.disk_dev(name)}'").stdout.strip
   assert(part_info.split.grep(/^TYPE=\"#{Regexp.escape(type)}\"$/),
-         "No #{type} partition was detected by Tails on disk '#{name}'")
+         "No #{type} partition was detected by TⒶILS on disk '#{name}'")
 end
 
-Then /^Tails has no disk swap enabled$/ do
+Then /^TⒶILS has no disk swap enabled$/ do
   # Skip first line which contain column headers
   swap_info = $vm.execute_successfully("tail -n+2 /proc/swaps").stdout
   assert(swap_info.empty?,
@@ -27,7 +27,7 @@ Given /^I create an? ([[:alnum:]]+) partition( labeled "([^"]+)")? with an? ([[:
   $vm.storage.disk_mkpartfs(name, parttype, fstype, opts)
 end
 
-Given /^I cat an ISO of the Tails image to disk "([^"]+)"$/ do |name|
+Given /^I cat an ISO of the TⒶILS image to disk "([^"]+)"$/ do |name|
   src_disk = {
     :path => TAILS_ISO,
     :opts => {
@@ -52,7 +52,7 @@ Then /^drive "([^"]+)" is not mounted$/ do |name|
          "an untrusted partition from drive '#{name}' was automounted")
 end
 
-Then /^Tails Greeter has( not)? detected a persistence partition$/ do |no_persistence|
+Then /^TⒶILS Greeter has( not)? detected a persistence partition$/ do |no_persistence|
   expecting_persistence = no_persistence.nil?
   @screen.find('TailsGreeter.png')
   found_persistence = ! @screen.exists('TailsGreeterPersistence.png').nil?

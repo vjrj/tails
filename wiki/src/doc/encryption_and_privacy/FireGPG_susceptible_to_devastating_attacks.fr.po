@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails-l10n-wiki\n"
+"Project-Id-Version: TⒶILS-l10n-wiki\n"
 "POT-Creation-Date: 2014-11-29 10:09+0100\n"
 "PO-Revision-Date: 2014-08-14 22:59-0000\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails translators <tails-l10n@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS translators <tails-l10n@boum.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,8 +23,8 @@ msgstr "[[!meta title=\"FireGPG peut souffrir d'attaques dévastatrices\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "**FireGPG is no more shipped in Tails.**\n"
-msgstr "**FireGPG n'est plus livré dans Tails.**\n"
+msgid "**FireGPG is no more shipped in TⒶILS.**\n"
+msgstr "**FireGPG n'est plus livré dans TⒶILS.**\n"
 
 #. type: Plain text
 msgid "You should instead use our custom GPG applet to:"

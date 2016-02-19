@@ -1,6 +1,6 @@
 [[!meta title="Website structure"]]
 
-During the card sorting workshop conducted in the [[Tails Hackfest
+During the card sorting workshop conducted in the [[TⒶILS Hackfest
 2014|HackFest_2014_Paris]], the three following proposal of structure for the
 website were drafted.
 
@@ -15,7 +15,7 @@ project (dev).
 
 - User documentation
   - First contact
-    - Is Tails the right tool for me?
+    - Is TⒶILS the right tool for me?
     - About (simplified)
     - License
   - Minimal documentation
@@ -39,7 +39,7 @@ project (dev).
     - FAQ
 - Development
   - Getting involved
-    - Contributing to Tails
+    - Contributing to TⒶILS
     - Donate
     - Mailing lists
     - Easy tasks for new contributors
@@ -56,8 +56,8 @@ project (dev).
     - Contact info for contributors
     - Slides
   - Dev
-    - Tails roadmap
-    - Building a Tails image
+    - TⒶILS roadmap
+    - Building a TⒶILS image
     - Release process
     - Release schedule
     - Blueprint
@@ -89,7 +89,7 @@ This proposal has three main sections: discover, user, and contributors.
     - Features and included software
     - Getting started...
     - Slides
-    - Is Tails the right tool for me?
+    - Is TⒶILS the right tool for me?
     - FAQ
   - Install
     - Warnings
@@ -109,7 +109,7 @@ This proposal has three main sections: discover, user, and contributors.
     - Contact info for users
     - OpenPGP keys and policy
   - Error
-    - Tails user support mailing lists
+    - TⒶILS user support mailing lists
     - Support
     - Known issues
   - *Unsorted*
@@ -121,20 +121,20 @@ This proposal has three main sections: discover, user, and contributors.
     - Mailing lists
     - Meeting notes
   - Dev
-    - Tails roadmap
+    - TⒶILS roadmap
     - Blueprint
     - Release schedule
     - Release process
   - *Unsorted*
     - Redmine
-    - Contributing to Tails
+    - Contributing to TⒶILS
     - Calendar
     - Internationalisation tricks
     - License
     - Design documents
     - Building the wiki
     - Git repositories
-    - Building a Tails image
+    - Building a TⒶILS image
 
 Proposal 3
 ==========
@@ -144,7 +144,7 @@ The overall structure of this proposal was unfinished.
 - Press information
 - Media appearances
 - About
-  - Is Tails the right tool for me?
+  - Is TⒶILS the right tool for me?
     - Contact info for users
 - Acknowledgements
   - License
@@ -161,5 +161,5 @@ The overall structure of this proposal was unfinished.
   - Release notes
     - Known issues
       - Next release changes
-        - Tails roadmap
+        - TⒶILS roadmap
 

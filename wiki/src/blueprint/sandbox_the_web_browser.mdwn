@@ -22,7 +22,7 @@ Status
 * relevant bits of feature/usb_install
   - view persistent bookmarks, in read-only persistence mode ([[!tails_ticket 8787]])
   - persistent bookmarks, RW
-* "Tails documentation" link on the Desktop ([[!tails_ticket 8788]])
+* "TⒶILS documentation" link on the Desktop ([[!tails_ticket 8788]])
 * default download directory is `~/Tor Browser`
 * HTML5 audio playback
 * WebM video and audio playback

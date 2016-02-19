@@ -67,7 +67,7 @@ msgid "[[!img install/inc/icons/1-usb.png link=\"no\"]]"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h4>
-msgid "your Tails"
+msgid "your TⒶILS"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h4>
@@ -83,7 +83,7 @@ msgid "1 DVD"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h4>
-msgid "1 other Tails"
+msgid "1 other TⒶILS"
 msgstr ""
 
 #. type: Content of: <div><div><div><div><div><h4>
@@ -117,11 +117,11 @@ msgstr ""
 #. type: Content of: <div><ol><li><h4>
 msgid ""
 "First you will <span class=\"windows linux mac-usb\">install an intermediary "
-"Tails on the first USB stick.</span> <span class=\"mac-dvd\">burn an "
-"intermediary Tails on a DVD.</span> <span class=\"debian expert\">install a "
-"Tails on your USB stick.</span> <span class=\"install-clone upgrade-clone"
-"\">restart on the other Tails.</span> <span class=\"upgrade-tails\">install "
-"and upgrade an intermediary Tails.</span>"
+"TⒶILS on the first USB stick.</span> <span class=\"mac-dvd\">burn an "
+"intermediary TⒶILS on a DVD.</span> <span class=\"debian expert\">install a "
+"TⒶILS on your USB stick.</span> <span class=\"install-clone upgrade-clone"
+"\">restart on the other TⒶILS.</span> <span class=\"upgrade-tails\">install "
+"and upgrade an intermediary TⒶILS.</span>"
 msgstr ""
 
 #. type: Content of: <div><ol><li><div><div><div>
@@ -176,11 +176,11 @@ msgstr ""
 
 #. type: Content of: <div><ol><li><h4>
 msgid ""
-"Then you will <span class=\"windows linux mac-usb\">install the final Tails "
+"Then you will <span class=\"windows linux mac-usb\">install the final TⒶILS "
 "on the second USB stick.</span> <span class=\"mac-dvd\">install the final "
-"Tails on your USB stick.</span> <span class=\"install-clone\">install Tails "
+"TⒶILS on your USB stick.</span> <span class=\"install-clone\">install TⒶILS "
 "on your USB stick.</span> <span class=\"debian expert\">configure it.</span> "
-"<span class=\"upgrade-clone upgrade-tails\">upgrade your Tails.</span>"
+"<span class=\"upgrade-clone upgrade-tails\">upgrade your TⒶILS.</span>"
 msgstr ""
 
 #. type: Content of: <div><ol><li><div><div><div>

@@ -21,15 +21,15 @@ msgid ""
 "[[!meta date=\"2013-05-05 13:45:00\"]] [[!meta title=\"Call for testing: "
 "0.18~rc1\"]]"
 msgstr ""
-"[[!meta date=\"2013-05-05 13:45:00\"]] [[!meta title=\"Appel à tester Tails "
+"[[!meta date=\"2013-05-05 13:45:00\"]] [[!meta title=\"Appel à tester TⒶILS "
 "0.18~rc1\"]]"
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.18 is out. Please test it and see if all works for you."
 msgstr ""
-"Vous pouvez aider Tails ! La première (et on espère seule) version candidate "
+"Vous pouvez aider TⒶILS ! La première (et on espère seule) version candidate "
 "pour la version 0.18 à venir est sortie. Merci de la tester et de voir si "
 "tout fonctionne pour vous."
 
@@ -38,8 +38,8 @@ msgid "[[!toc levels=1]]"
 msgstr ""
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.18~rc1?"
-msgstr "Comment tester Tails 0.18~rc1?"
+msgid "How to test TⒶILS 0.18~rc1?"
+msgstr "Comment tester TⒶILS 0.18~rc1?"
 
 #. type: Content of: <ol><li><p>
 msgid ""
@@ -58,13 +58,13 @@ msgstr "Téléchargez l'image ISO et sa signature :"
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/"
-"tails-i386-0.18-rc1/tails-i386-0.18-rc1.iso\" >Tails 0.18~rc1 ISO image</a>"
+"tails-i386-0.18-rc1/tails-i386-0.18-rc1.iso\" >TⒶILS 0.18~rc1 ISO image</a>"
 msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-signature\" href=\"http://dl.amnesia.boum.org/tails/"
-"testing/tails-i386-0.18-rc1/tails-i386-0.18-rc1.iso.pgp\" >Tails 0.18~rc1 "
+"testing/tails-i386-0.18-rc1/tails-i386-0.18-rc1.iso.pgp\" >TⒶILS 0.18~rc1 "
 "signature</a>"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgid "Don't disable IPv6 on all network interfaces anymore."
 msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
-msgid "Add a \"About Tails\" launcher in the System menu."
+msgid "Add a \"About TⒶILS\" launcher in the System menu."
 msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
@@ -200,7 +200,7 @@ msgstr ""
 
 #. type: Content of: <ul><ul><li><p>
 msgid ""
-"Use <em>Getting started...</em> as the homepage for Tails documentation "
+"Use <em>Getting started...</em> as the homepage for TⒶILS documentation "
 "button."
 msgstr ""
 
@@ -249,5 +249,5 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <p>
-msgid "All these issues should be fixed in Tails 0.18."
+msgid "All these issues should be fixed in TⒶILS 0.18."
 msgstr ""

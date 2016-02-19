@@ -69,7 +69,7 @@ install_tor_browser() {
 
     # We don't want tor-launcher to be part of the regular browser
     # profile but we want to keep it as a standalone application
-    # when Tails is started in "bridge mode".
+    # when TⒶILS is started in "bridge mode".
     torlauncher_xpi_path="${prep}/TorBrowser/Data/Browser/profile.default/extensions/tor-launcher@torproject.org.xpi"
     7z x -o"${TOR_LAUNCHER_INSTALL}" "${torlauncher_xpi_path}"
     torlauncher_version="$(sed -n \
@@ -144,7 +144,7 @@ Standards-Version: 3.6.2
 
 Package: iceweasel
 Version: ${fake_version}
-Maintainer: Tails developers <amnesia@boum.org>
+Maintainer: TⒶILS developers <amnesia@boum.org>
 Architecture: all
 Description: (Fake) Iceweasel
  Make it possible to install Debian's Iceweasel addons without having to

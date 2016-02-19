@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first release candidate for the upcoming version 1.5 "
+"You can help TⒶILS! The first release candidate for the upcoming version 1.5 "
 "is out. Please test it and see if it works for you."
 msgstr ""
 
@@ -39,7 +39,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "How to test Tails 1.5~rc1?\n"
+msgid "How to test TⒶILS 1.5~rc1?\n"
 msgstr ""
 
 #. type: Plain text
@@ -69,7 +69,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "   <a class=\"download-file\" "
-"href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.5~rc1/tails-i386-1.5~rc1.iso\">Tails "
+"href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.5~rc1/tails-i386-1.5~rc1.iso\">TⒶILS "
 "1.5~rc1 ISO image</a>\n"
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid ""
 "   <a class=\"download-signature\"\n"
 "   "
-"href=\"https://tails.boum.org/torrents/files/tails-i386-1.5~rc1.iso.sig\">Tails "
+"href=\"https://tails.boum.org/torrents/files/tails-i386-1.5~rc1.iso.sig\">TⒶILS "
 "1.5~rc1 signature</a>\n"
 msgstr ""
 
@@ -122,13 +122,13 @@ msgstr ""
 msgid ""
 "These steps allow you to automatically upgrade a device installed with "
 "<span\n"
-"class=\"application\">Tails Installer</span> from Tails 1.4.1 to Tails "
+"class=\"application\">TⒶILS Installer</span> from Tails 1.4.1 to Tails "
 "1.5~rc1.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails 1.4.1 from a USB stick or SD card (installed by the Tails "
+"Start TⒶILS 1.4.1 from a USB stick or SD card (installed by the Tails "
 "Installer), and [[set an administration "
 "password|doc/first_steps/startup_options/administration_password]]."
 msgstr ""
@@ -149,13 +149,13 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"1. Once the upgrade has been installed, restart Tails and look at\n"
+"1. Once the upgrade has been installed, restart TⒶILS and look at\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">About Tails</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">About TⒶILS</span>\n"
 "   </span>\n"
-"   to confirm that the running system is Tails 1.5~rc1.\n"
+"   to confirm that the running system is TⒶILS 1.5~rc1.\n"
 msgstr ""
 
 #. type: Title =
@@ -164,7 +164,7 @@ msgid "What's new since 1.4.1?\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Changes since Tails 1.4.1 are:"
+msgid "Changes since TⒶILS 1.4.1 are:"
 msgstr ""
 
 #. type: Plain text
@@ -184,7 +184,7 @@ msgid ""
 "  * Security fixes\n"
 "    - Fix panic mode on MAC spoofing failure.\n"
 "    - Deny Tor Browser access to global tmp directories with AppArmor.\n"
-"    - Tails Installer: don't use a predictable file name for the "
+"    - TⒶILS Installer: don't use a predictable file name for the "
 "subprocess\n"
 "      error log.\n"
 "    - Pidgin AppArmor profile: disable the launchpad-integration "
@@ -215,10 +215,10 @@ msgstr ""
 #, no-wrap
 msgid ""
 "  * Minor improvements\n"
-"    - Tails Installer: let the user know when it has rejected a candidate\n"
+"    - TⒶILS Installer: let the user know when it has rejected a candidate\n"
 "      destination device because it is too small.\n"
-"    - Tails Installer: prevent users from trying to \"upgrade\" a device\n"
-"      that contains no Tails, or that was not installed with Tails "
+"    - TⒶILS Installer: prevent users from trying to \"upgrade\" a device\n"
+"      that contains no TⒶILS, or that was not installed with Tails "
 "Installer.\n"
 "    - Install libotr5 and pidgin-otr 4.x from wheezy-backports. This adds\n"
 "      support for the OTRv3 protocol and for multiple concurrent "
@@ -295,7 +295,7 @@ msgid ""
 "    <li>For technical details, see [[!mfsa2015 78]].</li>\n"
 "  </ul>\n"
 "  </div>\n"
-"* At least **2 GB of RAM** is now needed for Tails to work smoothly.\n"
+"* At least **2 GB of RAM** is now needed for TⒶILS to work smoothly.\n"
 msgstr ""
 
 #. type: Bullet: '* '

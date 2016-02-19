@@ -1186,14 +1186,14 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr4" draw:text-style-name="P4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p><text:span text:style-name="T2">Welcome</text:span><text:span text:style-name="T3"> to the</text:span><text:span text:style-name="T3"><text:line-break/></text:span><text:span text:style-name="T4">Tails Installation Assistant</text:span></text:p>
+      <text:p><text:span text:style-name="T2">Welcome</text:span><text:span text:style-name="T3"> to the</text:span><text:span text:style-name="T3"><text:line-break/></text:span><text:span text:style-name="T4">TⒶILS Installation Assistant</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr5" draw:text-style-name="P5" draw:layer="layout" svg:width="25.4cm" svg:height="11.514cm" svg:x="1.316cm" svg:y="6.601cm" presentation:class="subtitle" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p><text:span text:style-name="T5">Thank you for willing to use Tails.</text:span></text:p>
+      <text:p><text:span text:style-name="T5">Thank you for willing to use TⒶILS.</text:span></text:p>
       <text:p><text:span text:style-name="T5"/></text:p>
-      <text:p><text:span text:style-name="T5">Installing Tails can be quite long but</text:span></text:p>
+      <text:p><text:span text:style-name="T5">Installing TⒶILS can be quite long but</text:span></text:p>
       <text:p><text:span text:style-name="T5">we hope you&apos;ll still have good time :)</text:span></text:p>
       <text:p><text:span text:style-name="T6"/></text:p>
       <text:p><text:span text:style-name="T5">We will first ask you a few questions to choose your installation scenario and then guide you step by step.</text:span></text:p>
@@ -1297,13 +1297,13 @@
     <draw:frame presentation:style-name="pr11" draw:layer="layout" svg:width="11.792cm" svg:height="10.527cm" svg:x="0.908cm" svg:y="5.983cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:p><text:span text:style-name="T11">COPY FROM A FRIEND</text:span></text:p>
-      <text:p><text:span text:style-name="T12">If you know someone of trust who uses Tails already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
+      <text:p><text:span text:style-name="T12">If you know someone of trust who uses TⒶILS already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-header>
         <text:p text:style-name="P11"><text:span text:style-name="T9">You need:</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with Tails</text:span></text:p>
+          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with TⒶILS</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p text:style-name="P12"><text:span text:style-name="T13">1 USB stick</text:span></text:p>
@@ -1374,10 +1374,10 @@
       <text:p text:style-name="P13"><text:span text:style-name="T15">You can also:</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 14">Burn Tails on a DVD</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 14">Burn TⒶILS on a DVD</text:a></text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run Tails in a virtual machine</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run TⒶILS in a virtual machine</text:a></text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -1410,7 +1410,7 @@
     </draw:custom-shape>
     <draw:frame draw:style-name="gr7" draw:layer="layout" svg:width="13.208cm" svg:height="2.384cm" svg:x="6.858cm" svg:y="4.343cm">
      <draw:text-box>
-      <text:p>Tails is not working on all Mac mode. Select your model and to see if you can run Tails.</text:p>
+      <text:p>TⒶILS is not working on all Mac mode. Select your model and to see if you can run Tails.</text:p>
      </draw:text-box>
     </draw:frame>
     <draw:custom-shape draw:style-name="gr6" draw:text-style-name="P15" draw:layer="layout" svg:width="11.938cm" svg:height="2.032cm" svg:x="6.858cm" svg:y="10.152cm">
@@ -1465,7 +1465,7 @@
     </draw:custom-shape>
     <draw:frame draw:style-name="gr7" draw:layer="layout" svg:width="13.208cm" svg:height="2.384cm" svg:x="6.858cm" svg:y="4.343cm">
      <draw:text-box>
-      <text:p>Tails is not working on all Mac mode. Select your model and to see if you can run Tails.</text:p>
+      <text:p>TⒶILS is not working on all Mac mode. Select your model and to see if you can run Tails.</text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp2">
@@ -1511,13 +1511,13 @@
     <draw:frame presentation:style-name="pr11" draw:layer="layout" svg:width="11.792cm" svg:height="10.527cm" svg:x="0.908cm" svg:y="6.983cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:p><text:span text:style-name="T11">COPY FROM A FRIEND</text:span></text:p>
-      <text:p><text:span text:style-name="T12">If you know someone of trust who uses Tails already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
+      <text:p><text:span text:style-name="T12">If you know someone of trust who uses TⒶILS already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-header>
         <text:p text:style-name="P11"><text:span text:style-name="T9">You need:</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with Tails</text:span></text:p>
+          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with TⒶILS</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p text:style-name="P12"><text:span text:style-name="T13">1 USB stick</text:span></text:p>
@@ -1591,10 +1591,10 @@
       <text:p text:style-name="P13"><text:span text:style-name="T15">You can also:</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 15">Burn Tails on a DVD</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 15">Burn TⒶILS on a DVD</text:a></text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run Tails in a virtual machine</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run TⒶILS in a virtual machine</text:a></text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -1635,7 +1635,7 @@
         <text:p>Use only USB sticks</text:p>
         <text:list>
          <text:list-item>
-          <text:p>This technique helps you install a USB stick by using a temporary Tails on a second USB stick.</text:p>
+          <text:p>This technique helps you install a USB stick by using a temporary TⒶILS on a second USB stick.</text:p>
          </text:list-item>
          <text:list-item>
           <text:p>It requires using the command line.</text:p>
@@ -1678,13 +1678,13 @@
     <draw:frame presentation:style-name="pr11" draw:layer="layout" svg:width="11.792cm" svg:height="10.527cm" svg:x="0.908cm" svg:y="5.983cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:p><text:span text:style-name="T11">COPY FROM A FRIEND</text:span></text:p>
-      <text:p><text:span text:style-name="T12">If you know someone of trust who uses Tails already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
+      <text:p><text:span text:style-name="T12">If you know someone of trust who uses TⒶILS already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-header>
         <text:p text:style-name="P11"><text:span text:style-name="T9">You need:</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with Tails</text:span></text:p>
+          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with TⒶILS</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p text:style-name="P12"><text:span text:style-name="T13">1 USB stick</text:span></text:p>
@@ -1755,10 +1755,10 @@
       <text:p text:style-name="P13"><text:span text:style-name="T15">You can also:</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 10">Burn Tails on a DVD</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 10">Burn TⒶILS on a DVD</text:a></text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run Tails in a virtual machine</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run TⒶILS in a virtual machine</text:a></text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -1888,13 +1888,13 @@
     <draw:frame presentation:style-name="pr11" draw:layer="layout" svg:width="11.792cm" svg:height="10.527cm" svg:x="0.908cm" svg:y="5.983cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:p><text:span text:style-name="T11">COPY FROM A FRIEND</text:span></text:p>
-      <text:p><text:span text:style-name="T12">If you know someone of trust who uses Tails already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
+      <text:p><text:span text:style-name="T12">If you know someone of trust who uses TⒶILS already, the easiest for you is to install your USB stick by copying from it.</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-header>
         <text:p text:style-name="P11"><text:span text:style-name="T9">You need:</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with Tails</text:span></text:p>
+          <text:p text:style-name="P12"><text:span text:style-name="T13">1 friend with TⒶILS</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p text:style-name="P12"><text:span text:style-name="T13">1 USB stick</text:span></text:p>
@@ -1966,10 +1966,10 @@
       <text:p text:style-name="P13"><text:span text:style-name="T15">You can also:</text:span></text:p>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 19">Burn Tails on a DVD</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 19">Burn TⒶILS on a DVD</text:a></text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run Tails in a virtual machine</text:a></text:span></text:p>
+        <text:p text:style-name="P13"><text:span text:style-name="T16"><text:a xlink:href="#Diapo 24">Run TⒶILS in a virtual machine</text:a></text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>

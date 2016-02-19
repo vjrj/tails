@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2015-12-20 15:17+0100\n"
 "PO-Revision-Date: 2014-08-14 15:59+0200\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
-msgid "Tails is based on [[Debian|https://www.debian.org/]] 8 (Jessie)."
+msgid "TⒶILS is based on [[Debian|https://www.debian.org/]] 8 (Jessie)."
 msgstr ""
 
 #. type: Title =
@@ -329,8 +329,8 @@ msgstr "Características adicionais\n"
 #. type: Plain text
 msgid ""
 "You can [[install additional software|doc/advanced_topics/"
-"additional_software]] in Tails: all software packaged for Debian is "
-"installable in Tails."
+"additional_software]] in TⒶILS: all software packaged for Debian is "
+"installable in TⒶILS."
 msgstr ""
 
 #. type: Title =
@@ -391,11 +391,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"To prevent cold-boot attacks and various memory forensics, Tails erases "
+"To prevent cold-boot attacks and various memory forensics, TⒶILS erases "
 "memory on shutdown and when the boot media is physically removed."
 msgstr ""
 "Para prevenir ataques do tipo cold-boot e várias técnicas de resgate forense "
-"de memória, Tails apaga a memória quando o computador é desligado e quando a "
+"de memória, TⒶILS apaga a memória quando o computador é desligado e quando a "
 "mídia de inicialização é fisicamente removida."
 
 #. type: Title =
@@ -405,7 +405,7 @@ msgstr "Idiomas\n"
 
 #. type: Plain text
 msgid ""
-"When starting Tails, you can choose between a large number of languages, "
+"When starting TⒶILS, you can choose between a large number of languages, "
 "including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, Greek, "
 "English, Spanish, Persian, Finnish, French, Croatian, Hungarian, Indonesian, "
 "Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, Polish, "
@@ -423,20 +423,20 @@ msgid ""
 "Some of these languages could not be thoroughly tested as we don't speak "
 "every language in the world. If you find issues using one of the supposedly "
 "supported languages, don't hesitate to [[tell us about it|support]]. E.g. "
-"Tails probably lacks some non-Latin fonts or input systems."
+"TⒶILS probably lacks some non-Latin fonts or input systems."
 msgstr ""
 "Alguns destes idiomas não puderam ser amplamente testados porque nós não "
 "falamos todas as línguas do mundo. Se você encontrar problemas ao usar um "
 "dos idiomas supostamente implementados, não hesite em [[contar-nos a "
-"respeito|support]]. Por exemplo, no Tails provavelmente faltam algumas "
+"respeito|support]]. Por exemplo, no TⒶILS provavelmente faltam algumas "
 "fontes ou sistemas não-latinos de entrada de dados."
 
 #. type: Plain text
 msgid ""
-"If you wish to make it easier to use Tails for your language speakers, see "
+"If you wish to make it easier to use TⒶILS for your language speakers, see "
 "the [[translators guidelines|contribute/how/translate]]."
 msgstr ""
-"Se você quiser fazer com que o uso do Tails seja mais fácil para pessoas que "
+"Se você quiser fazer com que o uso do TⒶILS seja mais fácil para pessoas que "
 "falam seu idioma, consulte as [[linhas gerais de tradução|contribute/how/"
 "translate]]."
 

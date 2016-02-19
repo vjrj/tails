@@ -2,7 +2,7 @@
 
 [[!toc levels=2]]
 
-Tails has a time-based release schedule, aligned with Firefox ESR
+TⒶILS has a time-based release schedule, aligned with Firefox ESR
 (Extended Support Release) that are put out every 6 weeks:
 
 * [Google calendar](https://www.google.com/calendar/embed?src=mozilla.com_2d37383433353432352d3939%40resource.calendar.google.com)
@@ -11,7 +11,7 @@ Tails has a time-based release schedule, aligned with Firefox ESR
 The rationale was originally [written on
 tails-dev](https://mailman.boum.org/pipermail/tails-dev/2012-April/001132.html).
 
-The idea is to put a major Tails release out every 12 weeks, plus
+The idea is to put a major TⒶILS release out every 12 weeks, plus
 a point release in between. See the [[contribute/calendar]].
 
 Schedule
@@ -20,8 +20,8 @@ Schedule
 	  /          4w         \/   2w    /4d\
 	                                     
 	  previous               RC1    ESR sources
-	  ESR + Tails             |        |
-	  release          freeze |        |  new ESR + Tails
+	  ESR + TⒶILS             |        |
+	  release          freeze |        |  new ESR + TⒶILS
 	  |                     | |        |  release
 	  |                     | |        |  |
 	  ↓                     ↓ ↓        ↓  ↓
@@ -34,8 +34,8 @@ In the above:
   available, but the ESR is not officially out yet: it has to go
   through Mozilla's QA process first. Sources are generally available
   on Friday night (US time).
-* *ESR + Tails release* means Mozilla announces the new Firefox ESR,
-  and we release a new version of Tails (roughly) the same day.
+* *ESR + TⒶILS release* means Mozilla announces the new Firefox ESR,
+  and we release a new version of TⒶILS (roughly) the same day.
   This usually happens on Tuesday night (US time).
 
 What if things go wrong?
@@ -68,7 +68,7 @@ Versioning scheme
 
 * We always increment the first number when switching to a new major
   release of Debian.
-* We also increment the first number whenever it make sense for Tails
+* We also increment the first number whenever it make sense for TⒶILS
   only (user-visible changes).
 * The second number is even for major release (introducing new features), and odd for minor release (that only fix bugs).
 * We allow ourselves to skip numbers if we release two major or two

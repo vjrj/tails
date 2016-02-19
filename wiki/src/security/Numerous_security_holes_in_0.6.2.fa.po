@@ -26,7 +26,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 0.6.2\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 0.6.2\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -35,12 +35,12 @@ msgid "[[!tag security/fixed]]\n"
 msgstr "[[!tag security/fixed]]\n"
 
 #. type: Plain text
-msgid "The following security holes affect Tails 0.6.2."
+msgid "The following security holes affect TⒶILS 0.6.2."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"We **strongly** urge you to [[upgrade to Tails 0.7|news/version_0.7]] in "
+"We **strongly** urge you to [[upgrade to TⒶILS 0.7|news/version_0.7]] in "
 "case you are still using an older version."
 msgstr ""
 
@@ -58,7 +58,7 @@ msgstr ""
 msgid ""
 "As an [[external audit "
 "demonstrated|security/audits/Blackhat_De-Anonymizing_Live_CDs]], the \"erase "
-"memory on shutdown\" feature, as implemented in Tails 0.6.2 and older, does "
+"memory on shutdown\" feature, as implemented in TⒶILS 0.6.2 and older, does "
 "not erase as much memory as it could. More specifically:"
 msgstr ""
 
@@ -77,7 +77,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "This discovery lead to a brand new implementation of the memory erasure "
-"feature that is shipped in Tails 0.7. As a bonus, the memory is now also "
+"feature that is shipped in TⒶILS 0.7. As a bonus, the memory is now also "
 "erased when the boot media is physically removed."
 msgstr ""
 

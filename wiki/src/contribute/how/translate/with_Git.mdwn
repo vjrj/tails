@@ -1,7 +1,7 @@
-[[!meta title="Translate Tails and its website using Git"]]
+[[!meta title="Translate TⒶILS and its website using Git"]]
 
-While it is possible to translate Tails custom programs using Transifex,
-this website, which includes the Tails [[documentation|doc]], can only
+While it is possible to translate TⒶILS custom programs using Transifex,
+this website, which includes the TⒶILS [[documentation|doc]], can only
 be translated using Git.
 
 This page explains how to get it up and running.
@@ -10,7 +10,7 @@ This page explains how to get it up and running.
 
 # Set up your tools
 
-We recommend to use Tails to do your translations as it contains all the tools
+We recommend to use TⒶILS to do your translations as it contains all the tools
 you need to set up a working environment.
 
 If you want to use another operating system, these tools are:
@@ -21,14 +21,14 @@ If you want to use another operating system, these tools are:
 * tools to [[build a local copy of the website|contribute/build/website/]] in
   order to check how it will look like
 
-If you do not use Tails, please ensure that you use at least version 1.5 of Poedit,
+If you do not use TⒶILS, please ensure that you use at least version 1.5 of Poedit,
 as this version handles line breaks correctly.
 
-The following instructions assume that you are using Tails.
+The following instructions assume that you are using TⒶILS.
 
 # How and what to translate?
 
-Once you have [[downloaded the Tails source code using Git|translate/with_Git#workflow]],
+Once you have [[downloaded the TⒶILS source code using Git|translate/with_Git#workflow]],
 you can find the website source files in `wiki/src`.
 
 The original website files are written in English, either in [[!wikipedia HTML]] or in [[!wikipedia Markdown]]. They have either a
@@ -42,8 +42,8 @@ To edit these PO files, we recommend that you use <span
 class="application">[Poedit](http://www.poedit.net/screenshots.php)</span>, a
 cross-platform editor for PO files.
 
-When setting up Poedit, you might want to ensure to use "Tails translators"
-or "Tails developers" as translator name and "tails@boum.org" as translator
+When setting up Poedit, you might want to ensure to use "TⒶILS translators"
+or "TⒶILS developers" as translator name and "tails@boum.org" as translator
 contact email address.
 
 If you do not use Poedit, but for example Vim or Emacs with the po-plugin, please
@@ -60,7 +60,7 @@ corresponding `.pot` file into a new `.po` file.
 Git makes it possible to work together on the same files and to track each modification.
 If you don't know Git yet, you might want to [[learn it first|contribute/git#learn_Git]].
 
-Here is the typical workflow used by Tails translation teams.
+Here is the typical workflow used by TⒶILS translation teams.
 
 If there is any point which you don't understand, please do not hesitate to
 ask on the [[mailing list for translators|translate#follow-up]], we will be glad to help you.
@@ -71,8 +71,8 @@ ask on the [[mailing list for translators|translate#follow-up]], we will be glad
    Git server. There are a lot of websites providing you with such a possibility.
 
    If you already know where to host it in a public place, this is great;
-   else, [fork us on GitLab](https://gitlab.com/Tails/tails) or ask
-   the Tails system administrators (<tails-sysadmins@boum.org>) to host
+   else, [fork us on GitLab](https://gitlab.com/TⒶILS/tails) or ask
+   the TⒶILS system administrators (<tails-sysadmins@boum.org>) to host
    your repository.
 
 2. **Copy the source code from the main repository**
@@ -147,7 +147,7 @@ ask on the [[mailing list for translators|translate#follow-up]], we will be glad
 
 5. **Translate!**
 
-   You can use your preferred PO file editor, for example, *Poedit* which is included in Tails.
+   You can use your preferred PO file editor, for example, *Poedit* which is included in TⒶILS.
 
 6. **Save your translations**
 
@@ -203,7 +203,7 @@ For example:
 
 # More informations and resources
 
-The translation system used to translate Tails is called <span
+The translation system used to translate TⒶILS is called <span
 class="application">[[!wikipedia gettext]]</span>. Every sentence that
 needs to be translated is written in a [PO
 file](https://www.gnu.org/software/gettext/manual/gettext.html#PO-Files)

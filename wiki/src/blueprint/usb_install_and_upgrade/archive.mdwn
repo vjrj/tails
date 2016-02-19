@@ -21,7 +21,7 @@ development time than writing a new installer from scratch; we are not
 even sure any upstream author of such a software (good enough to be a
 possible viable basis) would want to make it more generic and maintain
 it this way; on the other hand, if we avoid forking or writing from
-scratch, we also avoid maintaining a Tails-specific tool on the long
+scratch, we also avoid maintaining a TⒶILS-specific tool on the long
 run.
 
 Frontend UI
@@ -75,7 +75,7 @@ we should look at.
    - works like a charm to install an ISO image to USB, but the
      syslinux menu has the unetbootin logo instead of Debian's one;
      the installed syslinux defaults to the first menu entry (in
-     Tails case, Arabic); are the other bits of syslinux menu (Debian
+     TⒶILS case, Arabic); are the other bits of syslinux menu (Debian
      Live help and so on) here?
    - part of Debian
    - non-destructive install: does not format the chosen partition
@@ -188,10 +188,10 @@ generated inside the binary image could be copied, adapted and used to
 Here is how to test this.
 
 0. Build a Debian Live iso or iso-hybrid image with a working
-   `live-boot` installed in it, i.e. at least 2.0.12 (warning: Tails
+   `live-boot` installed in it, i.e. at least 2.0.12 (warning: TⒶILS
    0.6 series ship a buggy version).
 1. Create a ext2 filesystem on a USB stick partition.
-2. Copy a Tails ISO file **at the root** of the USB stick partition.
+2. Copy a TⒶILS ISO file **at the root** of the USB stick partition.
 3. Run `ln -s . boot` at the root of the (mounted) USB stick partition.
 4. Install Grub2 on the USB stick MBR, using the USB stick partition
    as `--root-directory`.
@@ -233,7 +233,7 @@ for details).
 
 **Warning!**
 
-1. On some versions of Tails, this breaks the [[emergency
+1. On some versions of TⒶILS, this breaks the [[emergency
    shutdown|contribute/design/memory_erasure]] on media removal.
 2. This is by no means a supported installation method. E.g. the
    kernel parameters shall be manually updated when replacing the ISO
@@ -248,7 +248,7 @@ Doing this is feasible at install time, and ensures the ISO will be
 loaded from the right partition, rather than from a rogue one on the
 host system's hard-disk.
 
-Other Live systems that don't face the same threat model as Tails tend
+Other Live systems that don't face the same threat model as TⒶILS tend
 to prefer using automagic ISO loopback support so that Grub2 itself
 finds a partition where a properly named ISO is stored, e.g. using
 [GRML's patches against
@@ -278,7 +278,7 @@ Resources:
   Grub2+memdisk](http://michael-prokop.at/blog/2011/01/07/booting-iso-images-from-within-grub2/);
   according to this blog post, support for doing this is in live-boot
   2.0.14-1. The memdiskfind/phram/mtdblock approach this blog post
-  talks of would ease cloning an existing Tails system, since it is
+  talks of would ease cloning an existing TⒶILS system, since it is
   supposed to provide a `/dev/mtdblock0` device, which should be the
   .ISO image. See the [details on the memdisk wiki
   page](http://syslinux.zytor.com/wiki/index.php/MEMDISK#-_memdiskfind_in_combination_with_phram_and_mtdblock).
@@ -299,7 +299,7 @@ Partitioning
 Various scripts, such as [Benjamin FOURTICQ's
 one](http://www.mail-archive.com/debian-live@lists.debian.org/msg01832.html),
 aim at adding a persistent home-rw partition to a Debian Live disk
-image, generally using losetup and parted. They don't suit Tails
+image, generally using losetup and parted. They don't suit TⒶILS
 specification as they depend on knowing in advance the size of the
 persistent volume the user wants to setup and obviously cannot setup
 encryption on it in place of the user.

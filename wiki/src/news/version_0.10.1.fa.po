@@ -25,7 +25,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.10.1 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.10.1 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -90,7 +90,7 @@ msgstr ""
 msgid ""
 "* Time synchronization\n"
 "    Serious rework that should fix most, if not all, of the infamous\n"
-"    time-sync' related bugs some Tails users have experienced recently.\n"
+"    time-sync' related bugs some TⒶILS users have experienced recently.\n"
 "    - Make htpdate more resilient by using three server pools, and\n"
 "      allowing some failure ratio.\n"
 "    - Set time from Tor's unverified-consensus if needed.\n"

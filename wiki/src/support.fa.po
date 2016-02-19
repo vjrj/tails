@@ -31,7 +31,7 @@ msgstr "در مستندات جستجو کنید\n"
 
 #. type: Plain text
 msgid ""
-"Read the [[official documentation|doc]] to learn more about how Tails works "
+"Read the [[official documentation|doc]] to learn more about how TⒶILS works "
 "and maybe start answering your questions. It contains:"
 msgstr ""
 "برای کسب اطلاعات بیشتر در مورد این که تور چگونه کار می‌کند و شاید برای گرفتن "
@@ -39,7 +39,7 @@ msgstr ""
 "عبارتند از:"
 
 #. type: Bullet: '  - '
-msgid "General information about what Tails is"
+msgid "General information about what TⒶILS is"
 msgstr "اطلاعات کلی در مورد تیلز"
 
 #. type: Bullet: '  - '
@@ -49,16 +49,16 @@ msgstr ""
 "اطلاعاتی در مورد اینکه تیلز چطور به شما کمک می‌کند و چه محدودیت‌هایی دارد"
 
 #. type: Bullet: '  - '
-msgid "Guides covering typical uses of Tails"
+msgid "Guides covering typical uses of TⒶILS"
 msgstr "راهنمای استفاده معمولی از تیلز"
 
 #. type: Plain text
-msgid "[[Visit Tails documentation|doc]]"
+msgid "[[Visit TⒶILS documentation|doc]]"
 msgstr "[[سندهای تیلز را مشاهده کنید|doc]]"
 
 #. type: Title =
 #, no-wrap
-msgid "Learn how to use Tails\n"
+msgid "Learn how to use TⒶILS\n"
 msgstr "چطور می‌توان از تیلز استفاده کرد\n"
 
 #. type: Plain text
@@ -131,7 +131,7 @@ msgstr "  <h1>یک ایراد را گزارش دهید</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  <p>If you are facing an error in Tails, please follow the [[bug reporting\n"
+"  <p>If you are facing an error in TⒶILS, please follow the [[bug reporting\n"
 "  guidelines|doc/first_steps/bug_reporting]].</p>\n"
 msgstr ""
 "  <p>اگر در تیلز با مشکلی مواجه شدید، لطفاً قسمت [[دستورالعمل گزارش ایرادها\n"
@@ -140,7 +140,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  <p>If Tails does not start, please see our specific\n"
+"  <p>If TⒶILS does not start, please see our specific\n"
 "  [[reporting guidelines|doc/first_steps/bug_reporting/tails_does_not_start]].</p>\n"
 msgstr ""
 "  <p>اگر تیلز راه‌اندازی نشد، لطفاً بخش خاص\n"
@@ -165,7 +165,7 @@ msgstr "  <h1>درخواست یک ویژگی</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  If you would like to see a new feature in Tails,\n"
+"  If you would like to see a new feature in TⒶILS,\n"
 "  search the [[!tails_redmine desc=\"open tickets in Redmine\"]] first,\n"
 "  and file a new ticket in there if no existing one matches your needs.\n"
 msgstr ""

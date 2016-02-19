@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails Translation\n"
+"Project-Id-Version: TⒶILS Translation\n"
 "POT-Creation-Date: 2015-11-04 11:50+0100\n"
 "PO-Revision-Date: 2015-11-04 11:51+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: LANGUAGE <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Start Tails\"]]\n"
-msgstr "[[!meta title=\"Starten Sie Tails!\"]]\n"
+msgid "[[!meta title=\"Start TⒶILS\"]]\n"
+msgstr "[[!meta title=\"Starten Sie TⒶILS!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,16 +28,16 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 msgid ""
-"Now that you have a Tails device, you can shutdown your computer and start "
-"using Tails without altering your existing operating system."
+"Now that you have a TⒶILS device, you can shutdown your computer and start "
+"using TⒶILS without altering your existing operating system."
 msgstr ""
-"Nun, da Sie ein Tails Medium haben, können Sie Ihren Computer herunterfahren "
-"und mit der Verwendung von Tails beginnen, ohne Ihr existierendes "
+"Nun, da Sie ein TⒶILS Medium haben, können Sie Ihren Computer herunterfahren "
+"und mit der Verwendung von TⒶILS beginnen, ohne Ihr existierendes "
 "Betriebssystem zu verändern."
 
 #. type: Plain text
-msgid "If Tails starts successfully, the Tails boot menu appears:"
-msgstr "Wenn Tails erfolgreich startet, erscheint das Tails Startmenü:"
+msgid "If TⒶILS starts successfully, the TⒶILS boot menu appears:"
+msgstr "Wenn TⒶILS erfolgreich startet, erscheint das TⒶILS Startmenü:"
 
 #. type: Plain text
 #, no-wrap
@@ -51,11 +51,11 @@ msgstr "Wenn Sie eine DVD verwenden\n"
 
 #. type: Plain text
 msgid ""
-"Put the Tails DVD into the CD/DVD drive and restart the computer. You should "
-"see the Tails boot menu."
+"Put the TⒶILS DVD into the CD/DVD drive and restart the computer. You should "
+"see the TⒶILS boot menu."
 msgstr ""
-"Legen Sie die Tails DVD in das CD/DVD Laufwerk ein und starten Sie dann den "
-"Computer neu. Sie sollten das Tails Startmenü sehen."
+"Legen Sie die TⒶILS DVD in das CD/DVD Laufwerk ein und starten Sie dann den "
+"Computer neu. Sie sollten das TⒶILS Startmenü sehen."
 
 #. type: Plain text
 msgid ""
@@ -97,10 +97,10 @@ msgstr "PC"
 #. type: Plain text
 msgid ""
 "Shutdown the computer, plug your device, and start the computer. You should "
-"see the Tails boot menu."
+"see the TⒶILS boot menu."
 msgstr ""
 "Fahren Sie den Computer herunter, schließen Sie Ihr Speichermedium an und "
-"starten Sie den Computer. Sie sollten das Tails Startmenü sehen."
+"starten Sie den Computer. Sie sollten das TⒶILS Startmenü sehen."
 
 #. type: Plain text
 #, no-wrap
@@ -196,10 +196,10 @@ msgstr "Deaktivieren Sie UEFI"
 #, no-wrap
 msgid ""
 "   You might have to undo these changes to start your usual operating\n"
-"system again after your Tails session.\n"
+"system again after your TⒶILS session.\n"
 msgstr ""
 "   Möglicherweise müssen Sie diese Änderungen rückgängig machen, um Ihr\n"
-"reguläres Betriebssystem nach Ihrer Tails Sitzung erneut zu starten.\n"
+"reguläres Betriebssystem nach Ihrer TⒶILS Sitzung erneut zu starten.\n"
 
 #. type: Bullet: '4. '
 msgid ""
@@ -234,8 +234,8 @@ msgstr ""
 "<span class=\"guimenuitem\">Boot EFI</span> lautet und wie ein USB-Stick aussieht.\n"
 
 #. type: Plain text
-msgid "Then you should see the Tails boot menu."
-msgstr "Anschließend sollten Sie das Tails Startmenü sehen."
+msgid "Then you should see the TⒶILS boot menu."
+msgstr "Anschließend sollten Sie das TⒶILS Startmenü sehen."
 
 #. type: Plain text
 msgid ""
@@ -270,15 +270,15 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Problems starting Tails?\n"
-msgstr "Probleme beim Starten von Tails?\n"
+msgid "Problems starting TⒶILS?\n"
+msgstr "Probleme beim Starten von TⒶILS?\n"
 
 #. type: Plain text
 msgid ""
-"Read our specific [[reporting guidelines when Tails does not start|doc/"
+"Read our specific [[reporting guidelines when TⒶILS does not start|doc/"
 "first_steps/bug_reporting/tails_does_not_start]]."
 msgstr ""
-"Lesen Sie unsere [[Melderichtlinien, falls Tails nicht startet|doc/"
+"Lesen Sie unsere [[Melderichtlinien, falls TⒶILS nicht startet|doc/"
 "first_steps/bug_reporting/tails_does_not_start.de]]."
 
 #. type: Title =
@@ -291,8 +291,8 @@ msgid "[[See the corresponding documentation.|advanced_topics/virtualization]]"
 msgstr "[[Siehe die zugehörige Dokumentation.|advanced_topics/virtualization]]"
 
 #~ msgid ""
-#~ "Then, Tails should start and you should see a welcome screen prompting "
+#~ "Then, TⒶILS should start and you should see a welcome screen prompting "
 #~ "you to choose your language."
 #~ msgstr ""
-#~ "Anschließed sollte Tails starten und Sie sollten einen Startbildschirm "
+#~ "Anschließed sollte TⒶILS starten und Sie sollten einen Startbildschirm "
 #~ "sehen, der Sie zur Wahl einer Sprache auffordert. "

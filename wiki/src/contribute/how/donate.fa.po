@@ -24,8 +24,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Tails is free because <strong>nobody should have to pay to be safe\n"
-"while using computers</strong>. But Tails cannot stay alive without\n"
+"TⒶILS is free because <strong>nobody should have to pay to be safe\n"
+"while using computers</strong>. But TⒶILS cannot stay alive without\n"
 "money and <strong>we need your help</strong>!\n"
 msgstr ""
 
@@ -33,12 +33,12 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<strong>[[Discover who you are helping around the world when\n"
-"donating to Tails.|news/who_are_you_helping]]</strong>\n"
+"donating to TⒶILS.|news/who_are_you_helping]]</strong>\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Note that Tails is a project mainly run by volunteers. There are [[many "
+"Note that TⒶILS is a project mainly run by volunteers. There are [[many "
 "other ways to contribute|contribute]]!"
 msgstr ""
 
@@ -81,7 +81,7 @@ msgstr ""
 #. type: Bullet: '  * '
 msgid ""
 "[Flattr](https://flattr.com/submit/auto?user_id=tails_live&url=https://tails."
-"boum.org&title=Tails)"
+"boum.org&title=TⒶILS)"
 msgstr ""
 
 #. type: Bullet: '  * '
@@ -180,7 +180,7 @@ msgid ""
 "<form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target='_blank' class='donation'>\n"
 "\t<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/>\n"
 "\t<input type=\"hidden\" name=\"business\" value=\"tails@torservers.net\"/>\n"
-"\t<input type=\"hidden\" name=\"item_name\" value=\"Tails recurring donation\"/>\n"
+"\t<input type=\"hidden\" name=\"item_name\" value=\"TⒶILS recurring donation\"/>\n"
 "\t<input type=\"hidden\" name=\"no_note\" value=\"1\"/>\n"
 "\t<input type=\"hidden\" name=\"src\" value=\"1\"/>\n"
 "\t<input type=\"hidden\" name=\"modify\" value=\"1\"/>\n"
@@ -238,7 +238,7 @@ msgid ""
 "<form action='https://www.paypal.com/cgi-bin/webscr' id='paypalForm' method='post' target='_blank' class='donation'>\n"
 "\t<input name='cmd' type='hidden' value='_donations' />\n"
 "\t<input name='business' type='hidden' value='tails@torservers.net' />\n"
-"\t<input name='item_name' type='hidden' value='Tails one-time donation' />\n"
+"\t<input name='item_name' type='hidden' value='TⒶILS one-time donation' />\n"
 "\t<input type=\"hidden\" name=\"no_shipping\" value=\"1\"/>\n"
 "\t<input name=\"lc\" type=\"hidden\" value=\"US\" />\n"
 "\t<input type=\"radio\" name=\"amount\" value=\"5\" id=\"pp_5\" /><label for=\"pp_5\">5</label>\n"
@@ -279,7 +279,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "How does Tails use this money?\n"
+msgid "How does TⒶILS use this money?\n"
 msgstr ""
 
 #. type: Plain text

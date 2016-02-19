@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"You can now start Tails in [[offline mode|doc/first_steps/startup_options/"
+"You can now start TⒶILS in [[offline mode|doc/first_steps/startup_options/"
 "offline_mode]] to disable all networking for additional security. Doing so "
 "can be useful when working on sensitive documents."
 msgstr ""
@@ -39,7 +39,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "  <span class=\"application\">Icedove</span> is currently a technology preview. It is safe to use in the\n"
-"  context of Tails but it will be better integrated in future versions\n"
+"  context of TⒶILS but it will be better integrated in future versions\n"
 "  until we remove <span class=\"application\">[[Claws\n"
 "  Mail|doc/anonymous_internet/claws_mail]]</span>. Users of <span class=\"application\">Claws\n"
 "  Mail</span> should refer to our instructions to [[migrate their data from\n"
@@ -54,7 +54,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Improve the wording of the first screen of <span class=\"application\">Tails "
+"Improve the wording of the first screen of <span class=\"application\">TⒶILS "
 "Installer</span>."
 msgstr ""
 
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "- Update the Tails signing key which is now valid until 2017."
+msgid "- Update the TⒶILS signing key which is now valid until 2017."
 msgstr ""
 
 #. type: Bullet: '- '

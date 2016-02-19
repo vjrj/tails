@@ -9,9 +9,9 @@ Generating jobs
 
 We use code that lay in three different Git repositories to generate
 automatically the list of Jenkins jobs for branches that are active in
-the Tails main Git repo.
+the TⒶILS main Git repo.
 
-The first brick is the Tails
+The first brick is the TⒶILS
 [[!tails_gitweb_repo pythonlib]], which extracts the list of
 active branches and output the needed informations. This list is parsed
 by the `generate_tails_iso_jobs` script run by a cronjob and deployed by
@@ -146,8 +146,8 @@ branches **but** feature/jessie, which would use the previously built
 ISO of the same branch.
 
 But in some occasions, an ISO can't be tested this way, because it
-contains changes that affects the "set up an old Tails", like changes in
-the Persistence Assistant, the Greeter, the Tails Installer or in
+contains changes that affects the "set up an old TⒶILS", like changes in
+the Persistence Assistant, the Greeter, the TⒶILS Installer or in
 syslinux.
 
 So we may need a way to encode in the Git repo that a given branch needs

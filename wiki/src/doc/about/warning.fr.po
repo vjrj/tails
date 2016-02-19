@@ -27,20 +27,20 @@ msgstr "[[!meta title=\"Avertissements\"]]\n"
 #| "Even though we're doing our best to offer you good tools to protect your "
 #| "privacy while using a computer, **there is no magic or perfect solution "
 #| "to such a complex problem**. Understanding well the limits of such tools "
-#| "is a crucial step in, first, deciding whether Tails is the right tool for "
+#| "is a crucial step in, first, deciding whether TⒶILS is the right tool for "
 #| "you, and second, helping you making a good use of it."
 msgid ""
 "Even though we do our best to offer you good tools to protect your privacy "
 "while using a computer, **there is no magic or perfect solution to such a "
 "complex problem**. Understanding well the limits of such tools is a crucial "
-"step to, first, decide whether Tails is the right tool for you, and second, "
+"step to, first, decide whether TⒶILS is the right tool for you, and second, "
 "make a good use of it."
 msgstr ""
 "Même si nous faisons tout notre possible pour vous offrir des outils "
 "protégeant votre vie privée lorsque vous utilisez un ordinateur, **il n'y a "
 "pas de solution\n"
 "magique, ni parfaite d'ailleurs, à un problème aussi complexe**. Comprendre "
-"les limites de ces outils est crucial, premièrement pour savoir si Tails est "
+"les limites de ces outils est crucial, premièrement pour savoir si TⒶILS est "
 "bien la boîte à outils adaptée à vos besoins, deuxièmement, pour vous "
 "permettre de bien vous en servir."
 
@@ -57,14 +57,14 @@ msgstr "<a id=\"nœud_de_sortie\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails does not protect against compromised hardware\n"
+msgid "TⒶILS does not protect against compromised hardware\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "If the computer has been compromised by someone having physical access to it "
 "and who installed untrusted pieces of hardware (like a keylogger), then it "
-"might be unsafe to use Tails."
+"might be unsafe to use TⒶILS."
 msgstr ""
 
 #. type: Plain text
@@ -75,26 +75,26 @@ msgstr "<a id=\"identités\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails can be compromised if installed or plugged in untrusted systems\n"
+msgid "TⒶILS can be compromised if installed or plugged in untrusted systems\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"When starting your computer on Tails, it cannot be compromised by a virus in "
+"When starting your computer on TⒶILS, it cannot be compromised by a virus in "
 "your usual operating system, but:"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tails should be installed from a trusted system. Otherwise it might be "
+"TⒶILS should be installed from a trusted system. Otherwise it might be "
 "corrupted during installation."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Plugging your Tails device in a compromised operating system might corrupt "
-"your Tails installation, and destroy the protection that Tails provides. "
-"Only use your Tails device to start Tails."
+"Plugging your TⒶILS device in a compromised operating system might corrupt "
+"your TⒶILS installation, and destroy the protection that TⒶILS provides. "
+"Only use your TⒶILS device to start TⒶILS."
 msgstr ""
 
 #. type: Plain text
@@ -109,12 +109,12 @@ msgstr "<a id=\"nœud_de_sortie\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails does not protect against BIOS or firmware attacks\n"
+msgid "TⒶILS does not protect against BIOS or firmware attacks\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"It is also impossible for Tails to protect against attacks made through the "
+"It is also impossible for TⒶILS to protect against attacks made through the "
 "BIOS or other firmware embedded in the computer. These are not managed or "
 "provided by the operating system directly, and no operating system can "
 "protect against such attacks."
@@ -201,11 +201,11 @@ msgstr "**Pour vous protéger de telles attaques, vous devez utiliser un chiffre
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**Tails includes many tools to help you using strong encryption** while\n"
+"**TⒶILS includes many tools to help you using strong encryption** while\n"
 "browsing, sending email or chatting, as presented on our [[about\n"
 "page|/about#cryptography]].\n"
 msgstr ""
-"**Tails comprend de nombreux outils qui servent à utiliser un chiffrement\n"
+"**TⒶILS comprend de nombreux outils qui servent à utiliser un chiffrement\n"
 "robuste** pendant la navigation internet, en envoyant des e-mails, en\n"
 "chattant, voir notre page [[à propos|/about#cryptography]].\n"
 
@@ -216,8 +216,8 @@ msgstr "<a id=\"empreinte\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails makes it clear that you are using Tor and probably Tails\n"
-msgstr "Tails ne cache absolument pas le fait que vous utilisez Tor et probablement Tails\n"
+msgid "TⒶILS makes it clear that you are using Tor and probably TⒶILS\n"
+msgstr "TⒶILS ne cache absolument pas le fait que vous utilisez Tor et probablement TⒶILS\n"
 
 #. type: Plain text
 #, no-wrap
@@ -232,7 +232,7 @@ msgstr ""
 "peut voir que vous vous connectez à un relai Tor, et pas à un serveur web normal\n"
 "par exemple. Utilisez des [[bridges Tor dans certains cas\n"
 "|first_steps/startup_options/bridge_mode]] peut vous aider à cacher le fait que\n"
-"vous utilisez Tails.\n"
+"vous utilisez TⒶILS.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -258,19 +258,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**So using Tails doesn't make you look like any random Internet user.**\n"
-"The anonymity provided by Tor and Tails works by trying to make all of their\n"
+"**So using TⒶILS doesn't make you look like any random Internet user.**\n"
+"The anonymity provided by Tor and TⒶILS works by trying to make all of their\n"
 "users look the same so it's not possible to identify who is who amongst them.\n"
 msgstr ""
-"**Du coup, utiliser Tails fait que vous ne ressemblez pas à un utilisateur\n"
-"lambda d'internet.** L'anonymat fournie par Tor et Tails marche en essayant\n"
+"**Du coup, utiliser TⒶILS fait que vous ne ressemblez pas à un utilisateur\n"
+"lambda d'internet.** L'anonymat fournie par Tor et TⒶILS marche en essayant\n"
 "de mettre tous leurs utilisateurs dans le même panier, pour ne pas pouvoir en\n"
 "différencier l'un de l'autre.\n"
 
 #. type: Plain text
-msgid "See also [[Can I hide the fact that I am using Tails?|fingerprint]]"
+msgid "See also [[Can I hide the fact that I am using TⒶILS?|fingerprint]]"
 msgstr ""
-"Voir également [[Est-ce que je peux cacher que j'utilise Tails ?|"
+"Voir également [[Est-ce que je peux cacher que j'utilise TⒶILS ?|"
 "fingerprint]]"
 
 #. type: Plain text
@@ -539,54 +539,54 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Tails doesn't encrypt your documents by default\n"
-msgstr "Tails ne chiffre pas vos documents par défaut\n"
+msgid "TⒶILS doesn't encrypt your documents by default\n"
+msgstr "TⒶILS ne chiffre pas vos documents par défaut\n"
 
 #. type: Plain text
 #, fuzzy
 #| msgid ""
 #| "The documents that you might save on storage devices will not be "
 #| "encrypted by default, except in the [[encrypted persistent volume|doc/"
-#| "first_steps/persistence]]. But Tails provides you with tools to encrypt "
+#| "first_steps/persistence]]. But TⒶILS provides you with tools to encrypt "
 #| "your documents, such as GnuPG, or encrypt your storage device, such as "
 #| "LUKS. It is likely that the files you may create will keep tracks that "
-#| "they were created using Tails."
+#| "they were created using TⒶILS."
 msgid ""
 "The documents that you might save on storage devices will not be encrypted "
 "by default, except in the [[encrypted persistent volume|doc/first_steps/"
-"persistence]].  But Tails provides you with tools to encrypt your documents, "
+"persistence]].  But TⒶILS provides you with tools to encrypt your documents, "
 "such as GnuPG, or encrypt your storage devices, such as LUKS."
 msgstr ""
 "Les documents que vous pouvez sauvegarder sur des volumes de stockage, ne "
 "seront pas chiffrés par défaut, sauf si vous utilisez la [[partition "
-"persistante chiffrée|doc/first_steps/persistence]]. Mais Tails fournit des "
+"persistante chiffrée|doc/first_steps/persistence]]. Mais TⒶILS fournit des "
 "outils permettant le chiffrement de vos documents, comme GnuPG,ou bien des "
 "outils permettant le chiffrement de vos volumes de stockage, comme LUKS. Il "
 "est probable que les fichiers que vous créez ainsi gardent des traces "
-"indiquant qu'ils furent créés en utilisant Tails."
+"indiquant qu'ils furent créés en utilisant TⒶILS."
 
 #. type: Plain text
 msgid ""
 "It is also likely that the files you may create will contain evidence that "
-"they were created using Tails."
+"they were created using TⒶILS."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "**If you need to access the local hard-disks** of the computer you are using, be\n"
-"conscious that you might then leave trace of your activities with Tails on it.\n"
+"conscious that you might then leave trace of your activities with TⒶILS on it.\n"
 msgstr ""
 "**Si vous voulez avoir accès au disque dur** de l'ordinateur que vous utilisez,\n"
-"soyez conscient que vous pouvez laisser des trace de votre passage sous Tails.\n"
+"soyez conscient que vous pouvez laisser des trace de votre passage sous TⒶILS.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Tails doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted e-mail messages\n"
+"TⒶILS doesn't clear the metadata of your documents for you and doesn't encrypt the Subject: and other headers of your encrypted e-mail messages\n"
 "===========================================================================================\n"
 msgstr ""
-"Tails ne supprime pas les méta-données de vos documents pour vous et ne chiffre pas le Sujet: ainsi que les autres en-têtes de vos mails chiffrés\n"
+"TⒶILS ne supprime pas les méta-données de vos documents pour vous et ne chiffre pas le Sujet: ainsi que les autres en-têtes de vos mails chiffrés\n"
 "===========================================================================================\n"
 
 #. type: Plain text
@@ -606,14 +606,14 @@ msgstr ""
 #| "history of the file… those hidden data depend on the file format and the "
 #| "software used. Please note also, that the Subject: as well as the rest of "
 #| "the header lines of your OpenPGP encrypted e-mail messages are not "
-#| "encrypted. This is not a bug of Tails or the [OpenPGP](http://www.mozilla-"
+#| "encrypted. This is not a bug of TⒶILS or the [OpenPGP](http://www.mozilla-"
 #| "enigmail.org/forum/viewtopic.php?f=3&t=328) protocol; it's for backwards "
 #| "compatibility with the original SMTP protocol. Unfortunately no RFC "
 #| "standard exists yet for Subject encryption."
 msgid ""
 "Please note also, that the Subject: as well as the rest of the header lines "
 "of your OpenPGP encrypted e-mail messages are not encrypted. This is not a "
-"bug of Tails or the [OpenPGP](http://www.mozilla-enigmail.org/forum/"
+"bug of TⒶILS or the [OpenPGP](http://www.mozilla-enigmail.org/forum/"
 "viewtopic.php?f=3&t=328) protocol; it's due to backwards compatibility with "
 "the original SMTP protocol. Unfortunately no RFC standard exists yet for "
 "Subject: line encryption."
@@ -625,7 +625,7 @@ msgstr ""
 "données cachées dépendent du format du fichier ainsi que du logiciel "
 "utilisé. Veuillez également noter que le Sujet: de même que le reste des en-"
 "têtes de vos mails chiffrés avec OpenPGP ne sont quant à eux pas chiffrés. "
-"Ce n'est pas un bug de Tails ou du protocole [OpenPGP](http://www.mozilla-"
+"Ce n'est pas un bug de TⒶILS ou du protocole [OpenPGP](http://www.mozilla-"
 "enigmail.org/forum/viewtopic.php?f=3&t=328); c'est une question de "
 "rétrocompatibilité avec le protocole SMTP. Malheureusement aucun standard "
 "RFC n'existe à l'heure actuelle pour le chiffrement des sujets."
@@ -663,13 +663,13 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**Tails doesn't clear the metadata of your files for you**. Yet. Still it's in\n"
-"Tails' design goal to help you do that. For example, Tails already comes with\n"
+"**TⒶILS doesn't clear the metadata of your files for you**. Yet. Still it's in\n"
+"TⒶILS' design goal to help you do that. For example, TⒶILS already comes with\n"
 "the [Metadata anonymisation toolkit](https://mat.boum.org/).\n"
 msgstr ""
-"**Tails ne supprime pas les meta-données de documents pour vous**.\n"
+"**TⒶILS ne supprime pas les meta-données de documents pour vous**.\n"
 "Mais c'est dans son intention de vous aider à le faire. Par exemple\n"
-"Tails inclus déjà le [Metadata anonymisation toolkit](https://mat.boum.org/),\n"
+"TⒶILS inclus déjà le [Metadata anonymisation toolkit](https://mat.boum.org/),\n"
 "un outils de manipulation des méta-données pour les images.\n"
 
 #. type: Title =
@@ -732,23 +732,23 @@ msgstr "<a id=\"identités\"></a>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails doesn't magically separate your different contextual identities\n"
-msgstr "Tails ne sépare pas de façon magique vos différentes identités contextuelles\n"
+msgid "TⒶILS doesn't magically separate your different contextual identities\n"
+msgstr "TⒶILS ne sépare pas de façon magique vos différentes identités contextuelles\n"
 
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "It is usually not advisable to use the same Tails session to perform two "
+#| "It is usually not advisable to use the same TⒶILS session to perform two "
 #| "tasks or endorse two contextual identities that you really want to keep "
 #| "separate from another. For example hiding your location to check your "
 #| "email and publishing anonymously a document."
 msgid ""
-"It is usually not advisable to use the same Tails session to perform two "
+"It is usually not advisable to use the same TⒶILS session to perform two "
 "tasks or endorse two contextual identities that you really want to keep "
 "separate from one another. For example hiding your location to check your "
 "email and anonymously publishing a document."
 msgstr ""
-"Il est généralement déconseillé d'utiliser la même session de Tails pour "
+"Il est généralement déconseillé d'utiliser la même session de TⒶILS pour "
 "effectuer deux tâches, ou pour endosser deux identités contextuelles, que "
 "vous désirez conserver séparées l'une de l'autre. Par exemple ne pas être "
 "localisable pour consulter vos e-mails et publier anonymement un document "
@@ -787,17 +787,17 @@ msgstr ""
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Second, in case of a security hole or a misuse in using Tails or one of "
+#| "Second, in case of a security hole or a misuse in using TⒶILS or one of "
 #| "its application, information about your session could be leaked. That "
 #| "could reveal that the same person was behind the various actions made "
 #| "during the session."
 msgid ""
-"Second, in case of a security hole or an error in using Tails or one of its "
+"Second, in case of a security hole or an error in using TⒶILS or one of its "
 "applications, information about your session could be leaked. That could "
 "reveal that the same person was behind the various actions made during the "
 "session."
 msgstr ""
-"Secondo, en cas de trou de sécurité, de mauvaise utilisation de Tails ou "
+"Secondo, en cas de trou de sécurité, de mauvaise utilisation de TⒶILS ou "
 "d'une de ses applications, des infos à propos de votre session peuvent "
 "fuiter. Ça pourrait permettre de confirmer qu'une seule et même personne "
 "était derrière les différentes actions faites durant une même session."
@@ -805,10 +805,10 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**The solution to both threats is to shutdown and restart Tails** every time\n"
+"**The solution to both threats is to shutdown and restart TⒶILS** every time\n"
 "you're using a new identity, if you really want to isolate them better.\n"
 msgstr ""
-"**La solution contre ces deux menaces est d'éteindre et de redémarrer Tails**\n"
+"**La solution contre ces deux menaces est d'éteindre et de redémarrer TⒶILS**\n"
 "à chaque fois que vous utilisez une nouvelle identité, que vous voulez réellement\n"
 "séparer des autres.\n"
 
@@ -818,31 +818,31 @@ msgid ""
 "vidalia#new_identity]] and [[Tor Browser|anonymous_internet/"
 "Tor_Browser#new_identity]], their **New identity** features are not perfect "
 "solutions to separate different contextual identities. **Shutdown and "
-"restart Tails instead.**"
+"restart TⒶILS instead.**"
 msgstr ""
 "Comme expliqué dans notre documentation sur [[Vidalia|anonymous_internet/"
 "vidalia#new_identity]] et sur le [[navigateur Tor|anonymous_internet/"
 "Tor_Browser#new_identity]], leurs fonctions **Nouvelle identité** ne sont "
 "pas des solutions parfaites pour séparer différentes identités "
-"contextuelles. **Redémarrer Tails à la place.**"
+"contextuelles. **Redémarrer TⒶILS à la place.**"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails doesn't make your crappy passwords stronger\n"
-msgstr "Tails ne renforce aucunement la faiblesse de vos mots de passe\n"
+msgid "TⒶILS doesn't make your crappy passwords stronger\n"
+msgstr "TⒶILS ne renforce aucunement la faiblesse de vos mots de passe\n"
 
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Tor allows you to be anonymous online; Tails allows you to leave no trace "
+#| "Tor allows you to be anonymous online; TⒶILS allows you to leave no trace "
 #| "on the computer you're using. But again, **neither of both are magic "
 #| "spells for computer security**."
 msgid ""
-"Tor allows you to be anonymous online; Tails allows you to leave no trace on "
+"Tor allows you to be anonymous online; TⒶILS allows you to leave no trace on "
 "the computer you're using. But again, **neither or both are magic spells for "
 "computer security**."
 msgstr ""
-"Tor vous permet d'utiliser internet de manière anonyme; Tails vous permet de "
+"Tor vous permet d'utiliser internet de manière anonyme; TⒶILS vous permet de "
 "ne laisser aucune trace sur l'ordinateur que vous utilisez. Mais encore une "
 "fois, **aucun des deux n'est la solution magique au problème de la sécurité "
 "informatique**."
@@ -851,35 +851,35 @@ msgstr ""
 #, no-wrap
 msgid ""
 "If you use weak passwords, they can be guessed by brute-force attacks with or\n"
-"without Tails in the same way. To know if your passwords are weak and learn good\n"
+"without TⒶILS in the same way. To know if your passwords are weak and learn good\n"
 "practices to create better password, you can read [[!wikipedia\n"
 "Weak_password#Examples_of_weak_passwords desc=\"Wikipedia: Weak Passwords\"]].\n"
 msgstr ""
 "Si vous utilisez des mots de passe faibles, ils peuvent être devinés par des attaques\n"
-"de type force-brute, que vous utilisiez Tails ou pas. Pour savoir si vos mots de passe sont\n"
+"de type force-brute, que vous utilisiez TⒶILS ou pas. Pour savoir si vos mots de passe sont\n"
 "faible et apprendre comment en créer de meilleurs, vous pouvez lire [[!wikipedia_fr\n"
 "Robustesse_des_mots_de_passe desc=\"Wikipedia: Robustesse des mots de passe\"]].\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Tails is a work in progress\n"
-msgstr "Tails est toujours en construction\n"
+msgid "TⒶILS is a work in progress\n"
+msgstr "TⒶILS est toujours en construction\n"
 
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Tails, as well as all the software it includes, are on continuous "
+#| "TⒶILS, as well as all the software it includes, are on continuous "
 #| "development and might contain programming errors or security holes. "
-#| "[[Stay tuned|download#stay_tuned]] to Tails development."
+#| "[[Stay tuned|download#stay_tuned]] to TⒶILS development."
 msgid ""
-"Tails, as well as all the software it includes, are continuously being "
+"TⒶILS, as well as all the software it includes, are continuously being "
 "developed and may contain programming errors or security holes. [[Stay tuned|"
-"download#stay_tuned]] to Tails development."
+"download#stay_tuned]] to TⒶILS development."
 msgstr ""
-"Tails, de même que tous les logiciels qu'il contient, sont continuellement "
+"TⒶILS, de même que tous les logiciels qu'il contient, sont continuellement "
 "en développement et peuvent contenir des erreurs de programmation ou des "
 "trous de sécurité. [[Gardez un œil|download#stay_tuned]] sur le "
-"développement de Tails."
+"développement de TⒶILS."
 
 #~ msgid ""
 #~ "Vidalia's \"New Identity\" button forces Tor to use new circuits but only "
@@ -887,7 +887,7 @@ msgstr ""
 #~ "from the Tor circuits, other kind of information can reveal your past "
 #~ "activities, for example the cookies stored by your browser. So this "
 #~ "feature of Vidalia is not a solution to really separate contextual "
-#~ "identities. Shutdown and restart Tails instead."
+#~ "identities. Shutdown and restart TⒶILS instead."
 #~ msgstr ""
 #~ "Le bouton \"Utiliser une nouvelle identité\" oblige Tor à utiliser un "
 #~ "nouveau parcours mais uniquement pour les nouvelles connexions: les "
@@ -896,7 +896,7 @@ msgstr ""
 #~ "vos activités récentes sur le réseau. Par exemple, les cookies conservés "
 #~ "par votre navigateur web. Cette fonctionnalité de Vidalia n'est pas une "
 #~ "solution pour effectivement séparer différentes identités contextuelles. "
-#~ "Il vaut mieux éteindre et redémarrer Tails."
+#~ "Il vaut mieux éteindre et redémarrer TⒶILS."
 
 #~ msgid ""
 #~ "**Your ISP or your local network administrator** can easily check that "

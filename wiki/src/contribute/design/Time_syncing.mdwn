@@ -3,7 +3,7 @@
 # Introduction
 
 Tor (and I2P) sometimes freaks out if they detect too large clock
-skews. It is therefore important for us to ensure that Tails somehow
+skews. It is therefore important for us to ensure that TⒶILS somehow
 automatically synchronizes the system time at start in a safe manner.
 
 There probably is a
@@ -21,7 +21,7 @@ using Tor so we can make Tor usable.
 
 # Overview
 
-In short this is how time syncing is performed when Tails starts:
+In short this is how time syncing is performed when TⒶILS starts:
 
 0. Start Tor. If Tor is already working, skip to HTP step.
 0. Let Tor fetch a consensus (wait up to 150 seconds twice, restarting Tor
@@ -80,7 +80,7 @@ or so*.
 Second, the same type of attacker as above could also try to forge a
 completely new consensus, which would be unverifiable since the
 attacker doesn't have access to the authorities' keys. We would still
-set Tails' system time according to the unverifiable consensus, but
+set TⒶILS' system time according to the unverifiable consensus, but
 Tor would refuse to use the forged consensus, resulting in complete
 denial-of-service. An attacker in that position could do
 denial-of-service attacks in many other ways, so this doesn't make
@@ -89,7 +89,7 @@ the situation any worse.
 Third, things are different depending on if you're using a bridge or
 not.
 
-If not using a bridge: Tails starts without a cached consensus, so its
+If not using a bridge: TⒶILS starts without a cached consensus, so its
 Tor client starts by connecting directly to a directory authority (and
 not to a directory mirror / entry guard), so feeding you an old
 consensus requires the attacker either to break SSL, or to control the
@@ -122,7 +122,7 @@ being.
 ## Why use a custom program?
 
 As what follows clearly shows, the upstream HTP has quite a few
-drawbacks that make it unfit for our needs. That's why Tails uses a
+drawbacks that make it unfit for our needs. That's why TⒶILS uses a
 custom version of the Perl HTP client into
 [[!tails_gitweb config/chroot_local-includes/usr/local/sbin/htpdate]].
 The repository we copied this script from can be found there:
@@ -148,7 +148,7 @@ curl is also directed to only use TLSv1 as a "secure" protocol.
 What sources should be trusted? This is of course also a problem
 with NTP.
 
-The HTP pools used by Tails are based on stable and reliable
+The HTP pools used by TⒶILS are based on stable and reliable
 webservers that get great amounts of traffic. They are categorized
 into three different pools according to their members' relationship to
 the members in the other pools; any member in a one pool should be
@@ -164,15 +164,15 @@ the the other pools. The pools are as follows:
 
 The pools are listed in [[!tails_gitweb config/chroot_local-includes/etc/default/htpdate.pools]].
 
-Basically, Tails `htpdate` pick three random servers (one from each
+Basically, TⒶILS `htpdate` pick three random servers (one from each
 pool), and then build the mediate of the three advertised dates.
 
-# Fingerprinting Tails users
+# Fingerprinting TⒶILS users
 
-Tails runs HTP through Tor, so the fingerprintability should be
+TⒶILS runs HTP through Tor, so the fingerprintability should be
 limited to traffic flow only. It should be noted that HTP only fetches
 the HTTP header, so fingerprinting based on the known traffic pattern
-when fetching the full page of any of the members of Tails' HTP source
+when fetching the full page of any of the members of TⒶILS' HTP source
 pools is not possible.
 
 Our initial time guess based on the Tor consensus is probably easier
@@ -180,7 +180,7 @@ to fingerprint, though: a fresh Tor is started,
 and restarted again right after the consensus has been
 downloaded.
 
-Tails developers still need to think thoroughly of these questions:
+TⒶILS developers still need to think thoroughly of these questions:
 are such fingerprinting possibilities a serious problem? What kind of
 efforts and compromise should be made to prevent these?
 

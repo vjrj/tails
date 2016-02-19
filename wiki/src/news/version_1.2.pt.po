@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.2 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.2 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,7 +32,7 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 1.2, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 1.2, is out."
 msgstr ""
 
 #. type: Plain text
@@ -83,7 +83,7 @@ msgid ""
 "      Browser by adding a dedicated I2P Browser. Also, start I2P\n"
 "      automatically upon network connection, when the `i2p` boot\n"
 "      option is added.\n"
-"    - Make it clear that *TrueCrypt* will be removed in Tails 1.2.1\n"
+"    - Make it clear that *TrueCrypt* will be removed in TⒶILS 1.2.1\n"
 "      ([[!tails_ticket 7739]]), and document how to open *TrueCrypt*\n"
 "      volumes with `cryptsetup`.\n"
 "    - Enable VirtualBox guest additions by default ([[!tails_ticket\n"
@@ -128,7 +128,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -138,7 +138,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for November 25."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for November 25."
 msgstr ""
 
 #. type: Plain text
@@ -147,6 +147,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Do you want to help? There are many ways [[**you** can contribute to Tails|"
+"Do you want to help? There are many ways [[**you** can contribute to TⒶILS|"
 "contribute]]. If you want to help, come talk to us!"
 msgstr ""

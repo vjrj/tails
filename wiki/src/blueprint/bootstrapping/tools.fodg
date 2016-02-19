@@ -426,7 +426,7 @@
      <text:p/>
     </draw:connector>
     <draw:custom-shape draw:style-name="gr7" draw:text-style-name="P2" xml:id="id13" draw:id="id13" draw:layer="layout" svg:width="5.471cm" svg:height="1.683cm" svg:x="2.763cm" svg:y="27.795cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">Tails Installer</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">TⒶILS Installer</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr7" draw:text-style-name="P2" xml:id="id9" draw:id="id9" draw:layer="layout" svg:width="4.191cm" svg:height="1.683cm" svg:x="20.304cm" svg:y="18.296cm">
@@ -445,7 +445,7 @@
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr7" draw:text-style-name="P2" xml:id="id12" draw:id="id12" draw:layer="layout" svg:width="5.882cm" svg:height="1.683cm" svg:x="14.132cm" svg:y="23.501cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">Temporary Tails</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">Temporary TⒶILS</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:connector draw:style-name="gr12" draw:text-style-name="P1" draw:layer="layout" svg:x1="17.147cm" svg:y1="13.205cm" svg:x2="17.147cm" svg:y2="13.205cm" draw:start-shape="id4" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="1" svg:d="M17147 13205z" svg:viewBox="0 0 1 1">

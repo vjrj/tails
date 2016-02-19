@@ -27,13 +27,13 @@ Works fine with qemu-kvm (1.0+dfsg-11) and libvirt (0.9.12-3):
 	modprobe g_mass_storage file=/tmp/test.usb removable=1
 
 Then I use qemu-kvm + libvirt USB 2.0 passthrough to lend that virtual
-USB mass storage device to a qemu-kvm VM, which I boot from a Tails
-0.12 ISO, that I clone onto the virtual USB device using the Tails
+USB mass storage device to a qemu-kvm VM, which I boot from a TⒶILS
+0.12 ISO, that I clone onto the virtual USB device using the TⒶILS
 USB installer.
 
 Then I unplug the virtual CD drive, and boot the same VM from the
 virtual USB mass storage device, onto which I successfully setup
-a Tails persistent volume. Rebooting, enabling the persistent volume
+a TⒶILS persistent volume. Rebooting, enabling the persistent volume
 does work.
 
 ### Drawbacks

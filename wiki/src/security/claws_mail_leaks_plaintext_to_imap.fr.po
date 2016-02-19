@@ -49,12 +49,12 @@ msgstr "</div>\n"
 
 #. type: Plain text
 msgid ""
-"We discovered that *Claws Mail*, the email client in Tails, stores plaintext "
+"We discovered that *Claws Mail*, the email client in TⒶILS, stores plaintext "
 "copies of all emails on the remote IMAP server, including those that are "
 "meant to be encrypted."
 msgstr ""
 "Nous avons découvert que *Claws Mail*, le client de messagerie inclus dans "
-"Tails, stocke en clair des copies de tous les messages sur le serveur IMAP "
+"TⒶILS, stocke en clair des copies de tous les messages sur le serveur IMAP "
 "distant, y compris ceux qui sont censés être chiffrés."
 
 #. type: Plain text
@@ -68,7 +68,7 @@ msgid ""
 "    - Manually by clicking on the **Draft** button when composing an email.\n"
 "    - Automatically if you selected the **automatically save message to\n"
 "      Draft folder** option in the writing preferences. This option is\n"
-"      deselected by default in Tails.\n"
+"      deselected by default in TⒶILS.\n"
 msgstr ""
 "  - Lors de l'envoi d'un message, *Claws Mail* copie ce message en clair dans\n"
 "    la file d'envoi du serveur IMAP avant de chiffrer le message.\n"
@@ -78,7 +78,7 @@ msgstr ""
 "    - Manuellement en cliquant sur le bouton **Brouillon** pendant la rédaction d'un message.\n"
 "    - Automatiquement si vous avez sélectionné l'option **enregistrer automatiquement les messages dans le\n"
 "      dossier Brouillon** dans les préférences de composition. Cette option est\n"
-"      désactivée par défaut dans Tails.\n"
+"      désactivée par défaut dans TⒶILS.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -186,11 +186,11 @@ msgstr ""
 msgid ""
 "With POP, *Claws Mail* downloads the emails that are in the inbox on the "
 "server and possibly removes them from the server. POP is better suited if "
-"you access emails from Tails only and store them in the persistent volume."
+"you access emails from TⒶILS only and store them in the persistent volume."
 msgstr ""
 "Avec POP, *Claws Mail* télécharge les messages qui sont dans la boîte de "
 "réception sur le serveur, et peut éventuellement les supprimer du serveur. "
-"POP est plus approprié si vous accéder à vos messages avec Tails seulement "
+"POP est plus approprié si vous accéder à vos messages avec TⒶILS seulement "
 "et que vous les stockez dans le volume persistant."
 
 #. type: Plain text
@@ -208,12 +208,12 @@ msgstr ""
 msgid ""
 "POP is not affected at all by this security problem. When using POP, only "
 "encrypted emails are sent to the server. So consider switching to POP if you "
-"have an email account dedicated to your activities on Tails.  To do so:"
+"have an email account dedicated to your activities on TⒶILS.  To do so:"
 msgstr ""
 "POP n'est absolument pas affecté par ce problème de sécurité. En utilisant "
 "POP, seuls les messages chiffrés sont envoyés au serveur. Veuillez étudier "
 "la possibilité de basculer à POP si vous avez un compte de messagerie dédié "
-"à vos activités sur Tails. Pour faire cela :"
+"à vos activités sur TⒶILS. Pour faire cela :"
 
 #. type: Plain text
 #, no-wrap
@@ -324,11 +324,11 @@ msgstr "Utilisez les dossiers locaux **Drafts** et **Queue**\n"
 #. type: Plain text
 msgid ""
 "If you want to continue using IMAP, you should configure your IMAP account "
-"to use **Drafts** and **Queue** folders stored in Tails instead of on the "
+"to use **Drafts** and **Queue** folders stored in TⒶILS instead of on the "
 "server. To do so:"
 msgstr ""
 "Si vous voulez continuer à utiliser IMAP, vous devez configurer votre compte "
-"IMAP en utilisant les dossiers **Drafts** et **Queue** stockés dans Tails au "
+"IMAP en utilisant les dossiers **Drafts** et **Queue** stockés dans TⒶILS au "
 "lieux de ceux du serveur. Pour faire cela :"
 
 #. type: Plain text

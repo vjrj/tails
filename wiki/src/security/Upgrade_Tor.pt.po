@@ -38,7 +38,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p>This security issue was fixed in Tails 0.9.</p>\n"
+msgid "<p>This security issue was fixed in TⒶILS 0.9.</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -48,20 +48,20 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The version of Tor currently shipped in Tails does not protect your "
+"The version of Tor currently shipped in TⒶILS does not protect your "
 "anonymity as it should.  **This vulnerability is critical.**"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Until a future version of Tails is released (soon), the only way to have "
-"Tails protect your anonymity is to **upgrade Tor every time you start "
-"Tails**, by following the instructions bellow."
+"Until a future version of TⒶILS is released (soon), the only way to have "
+"TⒶILS protect your anonymity is to **upgrade Tor every time you start "
+"TⒶILS**, by following the instructions bellow."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"(Every time, really? Sure. Tails is amnesic: any change you make in it is "
+"(Every time, really? Sure. TⒶILS is amnesic: any change you make in it is "
 "lost upon restart.)"
 msgstr ""
 
@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "Once this is done, you can safely use Tails as usual."
+msgid "Once this is done, you can safely use TⒶILS as usual."
 msgstr ""
 
 #. type: Plain text

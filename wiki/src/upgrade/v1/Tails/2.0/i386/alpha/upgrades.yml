@@ -1,7 +1,7 @@
 ---
 build-target: i386
 channel: alpha
-product-name: Tails
+product-name: TⒶILS
 product-version: '2.0'
 upgrades:
 - details-url: https://tails.boum.org/news/version_2.0.1/

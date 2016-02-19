@@ -46,7 +46,7 @@ Design decisions
 Removal of Claws-Mail
 =====================
 
-As decided in [[!tails_ticket 10010]], Claws-Mail will be [[!tails_ticket 10167 desc="removed from Tails"]] 
+As decided in [[!tails_ticket 10010]], Claws-Mail will be [[!tails_ticket 10167 desc="removed from TⒶILS"]] 
 two releases after Icedove is introduced.
 
 
@@ -108,7 +108,7 @@ autoconfig wizard, the following changes has been made to it:
     SMTP/IMAP/POP).
 
 To prevent TorBirdy from disabling the autoconfig wizard, we set the
-`vendor.name` Icedove pref to `Tails`.
+`vendor.name` Icedove pref to `TⒶILS`.
 
 Basic configuration & integration
 ---------------------------------
@@ -142,5 +142,5 @@ Resources
   Debian? -> seems acceptable - I've seen much worse times, especially
   for this set of packages.
 * how much size does Icedove + Enigmail + l10n packages add to the
-  SquashFS compared to Claws Mail? -> *9MB* (as of Tails pre-0.8 devel
+  SquashFS compared to Claws Mail? -> *9MB* (as of TⒶILS pre-0.8 devel
   branch with XZ SquashFS compression)

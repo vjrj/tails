@@ -41,7 +41,7 @@ setup_chroot_for_browser () {
 
     local rootfs_dir
     local rootfs_dirs_path="/lib/live/mount/rootfs"
-    local tails_module_path="/lib/live/mount/medium/live/Tails.module"
+    local tails_module_path="/lib/live/mount/medium/live/TⒶILS.module"
     local aufs_dirs=
 
     # We have to pay attention to the order we stack the filesystems;

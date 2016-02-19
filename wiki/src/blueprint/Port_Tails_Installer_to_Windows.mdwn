@@ -2,11 +2,11 @@
 
 # Linux dependencies
 
-The current Tails Installer version (<https://git-tails.immerda.ch/liveusb-creator/>)
+The current TⒶILS Installer version (<https://git-tails.immerda.ch/liveusb-creator/>)
 has considerable changes when compared with the upstream Fedora liveusb-creator
 (<https://git.fedorahosted.org/cgit/liveusb-creator.git>).
 
-The current package dependencies for the Tails Installer in Linux are:
+The current package dependencies for the TⒶILS Installer in Linux are:
 
 * dosfstools
 * gdisk
@@ -68,7 +68,7 @@ If we list the set of requirements for each important source file then we have:
 
 # Alternatives for Windows:
 
-The Windows specific code for the Tails Installer uses mostly
+The Windows specific code for the TⒶILS Installer uses mostly
 the Python win32 interfaces:
 
     import win32file, win32api, pywintypes
@@ -80,21 +80,21 @@ and a set of third parties tools listed here:
 There are other tools that would be possible to explore like:
 <https://labs.riseup.net/code/issues/10984>
 
-As a conclusion, the biggest difference in the current Tails version is the usage
+As a conclusion, the biggest difference in the current TⒶILS version is the usage
 of the Python interface for GTK3 (PyGI). The tools/libraries for Windows used in
 the current upstream liveusb-creator version seem in principle like the same
-used for Tails right now, except for the GUI parts.
+used for TⒶILS right now, except for the GUI parts.
 
 # Analysis regarding operations on storage devices
 
 According to <https://tails.boum.org/contribute/design/installation/>,
-the steps to create a Tails bootable device are:
+the steps to create a TⒶILS bootable device are:
 
 1. Partition the device as a GPT partition.
-2. Create a FAT32 (VFAT) partition with the Tails files and Tails label.
+2. Create a FAT32 (VFAT) partition with the TⒶILS files and Tails label.
 3. (Optionally) Create a persistence partition with LUKS.
 
-When we analyze the current Tails Installer code related to the former
+When we analyze the current TⒶILS Installer code related to the former
 steps:
 
 ## GPT partition.

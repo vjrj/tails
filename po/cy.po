@@ -44,7 +44,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>Helpwch ni atgyweirio'ch byg!</h1>\n"
@@ -53,12 +53,12 @@ msgstr ""
 "nag sydd rhaid!</strong></p>\n"
 "<h2>Amdan rhoi eich cyfeiriad e-bost</h2>\n"
 "<p>Os nad ydych yn poeni rhoi rhai rhannau o'ch hunaniaeth\n"
-"i'r datblygwyr Tails, gallwch rhoi e-bost i adael i ninnau ofyn\n"
+"i'r datblygwyr TⒶILS, gallwch rhoi e-bost i adael i ninnau ofyn\n"
 "am fwy o wybodaeth am y byg. Hefyd, wrth gynnwys allwedd\n"
 "PGP cyhoeddus, gallen ni amgryptio unrhyw cyfarthrebiad\n"
 "dyfodol.</p>\n"
 "<p>Bydd unrhyw un sydd gallu darllen y neges hon yn ôl pob tebyg \n"
-"yn tybu eich fod yn defnyddwyr Tails. Amser feddwl am faint o\n"
+"yn tybu eich fod yn defnyddwyr TⒶILS. Amser feddwl am faint o\n"
 "ymddiriediaeth rydych yn rhoi i'ch datparwyr We ac e-bost?</p>\n"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:14
@@ -67,7 +67,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
@@ -282,9 +282,9 @@ msgid "not available"
 msgstr "ddim ar gael"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -301,8 +301,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "Amdan Tails"
+msgid "About TⒶILS"
+msgstr "Amdan TⒶILS"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
@@ -314,11 +314,11 @@ msgstr "Eich meddalwedd ychwanegol"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "Methwyd y uwchraddiad. Efallai mae hyn oherwydd broblem rhwydwaith. Gwiriwch "
-"eich cysylltiad rhwydwaith, ceisiwch ailddechrau Tails, neu ddarllenwch y "
+"eich cysylltiad rhwydwaith, ceisiwch ailddechrau TⒶILS, neu ddarllenwch y "
 "cyfnod system i ddeall y broblem yn well."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
@@ -342,8 +342,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "Methu cysoni'r cloc!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "Mae gan y fersiwn yma o Tails problemau diogelwich hysbys:"
+msgid "This version of TⒶILS has known security issues:"
+msgstr "Mae gan y fersiwn yma o TⒶILS problemau diogelwich hysbys:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -359,11 +359,11 @@ msgstr "Cerdyn rhwydwaith ${nic} wedi'i analluogi"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Wnaeth ffugio MAC fethu i'r cerdyn rhwydwaith ${nic_name} (${nic}) felly mae "
 "hi wedi'i analluogi am y tro.\n"
-"Efallai bydden well gennych chi ailgychwyn Tails ac analluogi ffugio MAC. "
+"Efallai bydden well gennych chi ailgychwyn TⒶILS ac analluogi ffugio MAC. "
 "Gwelwch y <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
 "startup_options/mac_spoofing.en.html'>dogfenniaeth Saesneg</a>."
 
@@ -376,11 +376,11 @@ msgstr "Pob rhwydweithiau wedi'i analluogi"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Wnaeth ffugio MAC fethu i'r cerdyn rhwydwaith ${nic_name} (${nic}). Wnaeth "
 "adferiad gwall hefyd fethu, felly mae rhwydweithio wedi'i alluogi.\n"
-"Efallai bydden well gennych chi ailgychwyn Tails ac analluogi ffugio MAC. "
+"Efallai bydden well gennych chi ailgychwyn TⒶILS ac analluogi ffugio MAC. "
 "Gwelwch y <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
 "startup_options/mac_spoofing.en.html'>dogfenniaeth Saesneg</a>."
 
@@ -398,21 +398,21 @@ msgstr "Gwall"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr ""
 "<b>Does ddim digon o atgof i gwirio am uwchraddau.</b>\n"
 "\n"
-"Byddwch yn siwr mae'r system hyn yn cwrdd a'r gofynion i rhedeg Tails.\n"
+"Byddwch yn siwr mae'r system hyn yn cwrdd a'r gofynion i rhedeg TⒶILS.\n"
 "Gwelwch file:///usr/share/doc/tails/website/doc/about/requirements.en.html - "
 "yn Saesneg\n"
 "\n"
-"Ceisiwch ailgychwyn Tails i edrych am uwchraddiau eto.\n"
+"Ceisiwch ailgychwyn TⒶILS i edrych am uwchraddiau eto.\n"
 "\n"
 "Neu gwnewch uwchraddiad â llaw.\n"
 "Gwelwch https://tails.boum.org/doc/first_steps/upgrade#manual - yn Saesneg"
@@ -424,10 +424,10 @@ msgstr "Rhybydd: peiriant rhithwyr wedi'i canfod!"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "Gall y system weithredu a'r meddalwedd rhithwir gallu monitro beth yr ydych "
-"yn gwneud yn Tails."
+"yn gwneud yn TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 #, fuzzy
@@ -438,12 +438,12 @@ msgstr "Rhybydd: peiriant rhithwyr wedi'i canfod!"
 #, fuzzy
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
 "Gall y system weithredu a'r meddalwedd rhithwir gallu monitro beth yr ydych "
-"yn gwneud yn Tails."
+"yn gwneud yn TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 msgid "Learn more"
@@ -599,12 +599,12 @@ msgstr "Adrodd gwall"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Dogfennaeth Tails"
+msgid "TⒶILS documentation"
+msgstr "Dogfennaeth TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Dysgwch sut i ddefnyddio Tails"
+msgid "Learn how to use TⒶILS"
+msgstr "Dysgwch sut i ddefnyddio TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 #, fuzzy
@@ -618,8 +618,8 @@ msgstr "Porwr anniogel"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
 #, fuzzy
-msgid "Learn more about Tails"
-msgstr "Dysgwch sut i ddefnyddio Tails"
+msgid "Learn more about TⒶILS"
+msgstr "Dysgwch sut i ddefnyddio TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -651,9 +651,9 @@ msgstr "Porwch yr We heb anhysbysrwydd"
 msgid "Unsafe Web Browser"
 msgstr "Porwr We anniogel"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Teclynau penodol Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "Teclynau penodol TⒶILS"
 
 #~ msgid "Shutdown Immediately"
 #~ msgstr "Cau lawr ar unwaith"
@@ -695,14 +695,14 @@ msgstr "Teclynau penodol Tails"
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
 #~ "virtualization.en.html'>Dysgwch fwy yn Saesneg...</a>"
 
-#~ msgid "TrueCrypt will soon be removed from Tails"
-#~ msgstr "Bydd Tails yn cael gwared o TrueCrypt yn fuan"
+#~ msgid "TrueCrypt will soon be removed from TⒶILS"
+#~ msgstr "Bydd TⒶILS yn cael gwared o TrueCrypt yn fuan"
 
 #~ msgid ""
-#~ "TrueCrypt will soon be removed from Tails due to license and development "
+#~ "TrueCrypt will soon be removed from TⒶILS due to license and development "
 #~ "concerns."
 #~ msgstr ""
-#~ "Bydd Tails yn cael gwared o TrueCrypt yn fuan oherwydd pryderon "
+#~ "Bydd TⒶILS yn cael gwared o TrueCrypt yn fuan oherwydd pryderon "
 #~ "datblygiadwy ac trwydded."
 
 #~ msgid "i2p"

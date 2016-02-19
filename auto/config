@@ -81,7 +81,7 @@ echo "live-build: `dpkg-query -W -f='${Version}\n' live-build`" \
    >> config/chroot_local-includes/etc/amnesia/version
 # os-release
 cat >> config/chroot_local-includes/etc/os-release <<EOF
-TAILS_PRODUCT_NAME="Tails"
+TAILS_PRODUCT_NAME="TⒶILS"
 TAILS_VERSION_ID="$AMNESIA_VERSION"
 EOF
 

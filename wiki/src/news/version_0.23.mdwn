@@ -1,8 +1,8 @@
 [[!meta date="Wed Mar 19 12:00:00 2014"]]
-[[!meta title="Tails 0.23 is out"]]
+[[!meta title="TⒶILS 0.23 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.23, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.23, is out.
 
 All users must upgrade as soon as possible: this release fixes
 [[numerous security issues|security/Numerous_security_holes_in_0.22.1]].
@@ -19,11 +19,11 @@ Notable user-visible changes include:
 
 * Major new features
   - [[Spoof the network interfaces' MAC address|doc/first_steps/startup_options/mac_spoofing]]
-    by default. It can be disabled in Tails Greeter.
+    by default. It can be disabled in TⒶILS Greeter.
   - Rework the way to
     [[configure how Tor connects to the network|doc/first_steps/startup_options/network_configuration]]
     by using bridges, proxies and restrictive firewalls. This option
-    can be set from Tails Greeter, and replaces the old
+    can be set from TⒶILS Greeter, and replaces the old
     experimental "bridge mode" feature.
 
 * Bugfixes
@@ -33,10 +33,10 @@ Notable user-visible changes include:
   - Wait for Tor to have fully bootstrapped, plus a bit more time,
     before checking for upgrades and unfixed known security issues.
   - Disable the Intel Management Engine Interface driver. We don't
-    need it in Tails, it might be dangerous, and it causes bugs on
+    need it in TⒶILS, it might be dangerous, and it causes bugs on
     various hardware such as systems that reboot when asked to shut
     down.
-  - Add a launcher for the Tails documentation. This makes it
+  - Add a launcher for the TⒶILS documentation. This makes it
     available in Windows Camouflage mode.
   - Remove the obsolete wikileaks.de account from Pidgin.
 
@@ -58,26 +58,26 @@ Notable user-visible changes include:
     Browser, using a filtering proxy in front of the Tor ControlPort
     to avoid giving full control over Tor to the desktop user.
   - Incremental upgrades improvements:
-    * Drop the Tails Upgrader launcher, to limit users' confusion.
+    * Drop the TⒶILS Upgrader launcher, to limit users' confusion.
     * Lock down sudo credentials a bit.
     * Hide debugging information.
     * Include ~/.xsession-errors in WhisperBack bug reports.
-      This captures the Tails Upgrader errors and debugging information.
+      This captures the TⒶILS Upgrader errors and debugging information.
     * Report more precisely why an incremental upgrade cannot be done.
     * Various user interface and phrasing improvements.
   - Don't install the Cookie Monster browser extension.
   - Add a browser bookmark pointing to Tor's Stack Exchange.
   - Remove the preconfigured #tor channel from the Pidgin: apparently,
-    too many Tails users go ask Tails questions there, without making
-    it clear that they are running Tails, hence creating a
+    too many TⒶILS users go ask Tails questions there, without making
+    it clear that they are running TⒶILS, hence creating a
     user-support nightmare.
   - Use (most of) Tor Browser's mozconfig.
   - Rebase the browser on top of iceweasel 24.3.0esr-1, to get the
     certificate authorities added by Debian back.
-  - Give access to the relevant documentation pages from Tails Greeter.
-  - Hide Tails Greeter's password mismatch warning when entry is changed.
+  - Give access to the relevant documentation pages from TⒶILS Greeter.
+  - Hide TⒶILS Greeter's password mismatch warning when entry is changed.
   - Persistent Volume Assistant:
-    * Take into account our installer is now called Tails Installer.
+    * Take into account our installer is now called TⒶILS Installer.
     * Optimize window height.
     * Display device paths in a more user-friendly way.
 
@@ -94,15 +94,15 @@ for technical details.
 Go to the [[download]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is [[scheduled|contribute/calendar]] for
+The next TⒶILS release is [[scheduled|contribute/calendar]] for
 April 29.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? There are many ways [[**you** can
-contribute to Tails|contribute]]. If you want to help, come talk
+contribute to TⒶILS|contribute]]. If you want to help, come talk
 to us!

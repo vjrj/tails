@@ -11,7 +11,7 @@ therefore blocked in order to prevent leaks. Another solution may be
 to use the Linux network filter to forward outgoing UDP datagrams to
 the local DNS proxy.
 
-Tails also forbids DNS queries to RFC1918 addresses; those might
+TⒶILS also forbids DNS queries to RFC1918 addresses; those might
 indeed allow the system to learn the local network's public IP
 address.
 

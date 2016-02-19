@@ -60,7 +60,7 @@ machine (while using
 virtualization to separate concerns) saves hosting and bandwidth costs:
 fresh images can be tested without being transferred.
 
-In order to be able to build Tails in memory (which greatly speeds up builds)
+In order to be able to build TⒶILS in memory (which greatly speeds up builds)
 and to properly test HIGHMEM memory wipes, the test server should have at
 least 32 GB. Using KVM inside a KVM
 virtual machine is supported by the "nested KVM" feature.

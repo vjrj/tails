@@ -43,7 +43,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>Palīdziet mums novērst Jūsu kļūdu!</h1>\n"
@@ -56,7 +56,7 @@ msgstr ""
 "apzinātu problēmu. Vairumam pieteikumu tas ir nepieciešams, jo liela daļa "
 "pieteikumu bez kontaktinformācijas nav atrisināma. No otras puses, e-pasta "
 "norādīšana paver iespēju tiem kas noklausās, piemēram, e-pasta vai interneta "
-"pakalpojumam sniedzējiem, pārliecināties, ka lietojat Tails.\n"
+"pakalpojumam sniedzējiem, pārliecināties, ka lietojat TⒶILS.\n"
 "</p>\n"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:14
@@ -65,11 +65,11 @@ msgstr "Pastāvība ir atspējota Electrum'am."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
-"Kad pārlādēsit Tails, pazudīs visi Electrum dati, t.sk. Jūsu Bitcoin maciņš. "
+"Kad pārlādēsit TⒶILS, pazudīs visi Electrum dati, t.sk. Jūsu Bitcoin maciņš. "
 "Tiek stingri ieteikts strādāt ar Electrum, kam aktivizēta pastāvības iezīme. "
 
 #: config/chroot_local-includes/usr/local/bin/electrum:18
@@ -279,9 +279,9 @@ msgid "not available"
 msgstr "nav pieejams"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -298,8 +298,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "Par Tails"
+msgid "About TⒶILS"
+msgstr "Par TⒶILS"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
@@ -311,11 +311,11 @@ msgstr "Jūsu papildu programmatūra"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "Jaunināšana neizdevās. Iespējams, ka tas ir tīkla problēmas dēļ. Lūdzu, "
-"pārbaudiet savu tīkla savienojumu vai pamēģiniet pārstartēt Tails, vai "
+"pārbaudiet savu tīkla savienojumu vai pamēģiniet pārstartēt TⒶILS, vai "
 "lasiet sistēmas žurnālu, lai labāk saprastu problēmu."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
@@ -339,8 +339,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "Pulksteņa sinhronizācija bija nesekmīga!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "Šai Tails versijai ir apzinātas šādas drošības problēmas:"
+msgid "This version of TⒶILS has known security issues:"
+msgstr "Šai TⒶILS versijai ir apzinātas šādas drošības problēmas:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -356,11 +356,11 @@ msgstr "Tīkla karte ${nic} ir atspējota"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Tīkla kartei ${nic_name} (${nic}) nesekmīga MAC izlikšanās, tāpēc karte "
 "īslaicīgi tika atspējota.\n"
-"Iespējams, ka izvēlēsities pārstartēt Tails un atspējot MAC izlikšanos."
+"Iespējams, ka izvēlēsities pārstartēt TⒶILS un atspējot MAC izlikšanos."
 
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
 msgid "All networking disabled"
@@ -371,11 +371,11 @@ msgstr "Atspējota visa tīklošana"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Tīkla kartei ${nic_name} (${nic}) nesekmīga MAC izlikšanās. Kļūdu atkopšana "
 "arī bija nesekmīga, tāpēc visa tīklošana tika atspējota.\n"
-"Iespējams, ka izvēlēsities pārstartēt Tails un atspējot MAC izlikšanos."
+"Iespējams, ka izvēlēsities pārstartēt TⒶILS un atspējot MAC izlikšanos."
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:18
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:22
@@ -391,10 +391,10 @@ msgstr "Kļūda"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -402,10 +402,10 @@ msgstr ""
 "<b>Nav pieejams pietiekami liels atmiņas daudzums, lai pārbaudītu "
 "jauninājumu pieejamību.</b>\n"
 "\n"
-"Pārbaudiet vai šī sistēma nodrošina Tails izpildes prasības.\n"
+"Pārbaudiet vai šī sistēma nodrošina TⒶILS izpildes prasības.\n"
 "Skatiet datni:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Meģiniet pārstratēt Tails, lai vēlreiz pārbaudītu jauninājumu pieejamību.\n"
+"Meģiniet pārstratēt TⒶILS, lai vēlreiz pārbaudītu jauninājumu pieejamību.\n"
 "\n"
 "Vai veiciet manuālu jaunināšanu.\n"
 "Skatiet https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -417,10 +417,10 @@ msgstr "Brīdinājums: konstatēta virtuāla mašīna!"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "Gan viesotāja operētājsistēma, gan virtualizācijas programmatūra spēj "
-"monitorēt to, ko Jūs darāt Tails."
+"monitorēt to, ko Jūs darāt TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 msgid "Warning: non-free virtual machine detected!"
@@ -429,12 +429,12 @@ msgstr "Brīdinājums: konstatēta virtuāla mašīna, kas nav brīva!"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:74
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
 "Gan viesotāja operētājsistēma, gan virtualizācijas programmatūra spēj "
-"monitorēt to, ko Jūs darāt Tails. Par uzticamu var uzskatīt vienīgi "
+"monitorēt to, ko Jūs darāt TⒶILS. Par uzticamu var uzskatīt vienīgi "
 "bezmaksas programmatūru - gan viesotāja operētājsistēmai, gan "
 "virtualizācijas programmatūrai."
 
@@ -585,12 +585,12 @@ msgstr "Ziņot par kļūdu"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Tails dokumentācija"
+msgid "TⒶILS documentation"
+msgstr "TⒶILS dokumentācija"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Uzziniet kā lietot Tails"
+msgid "Learn how to use TⒶILS"
+msgstr "Uzziniet kā lietot TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 msgid "Anonymous overlay network browser"
@@ -601,8 +601,8 @@ msgid "I2P Browser"
 msgstr "I2P pārlūks"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "Uzzināt vairāk par Tails"
+msgid "Learn more about TⒶILS"
+msgstr "Uzzināt vairāk par TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -632,6 +632,6 @@ msgstr "Pārlūkot Tīmekli neizmantojot anonimitāti"
 msgid "Unsafe Web Browser"
 msgstr "Nedroša Tīmekļa pārlūks"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Tails īpaši rīki"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "TⒶILS īpaši rīki"

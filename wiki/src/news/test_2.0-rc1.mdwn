@@ -4,7 +4,7 @@
 
 [[!tag announce]]
 
-You can help Tails! The first release candidate for the upcoming
+You can help TⒶILS! The first release candidate for the upcoming
 version 2.0 is out. We are very excited and cannot wait to hear what
 you think about it :)
 
@@ -12,7 +12,7 @@ you think about it :)
 
 # What's new in 2.0?
 
-Tails 2.0 will be the first version of Tails based on Debian 8
+TⒶILS 2.0 will be the first version of Tails based on Debian 8
 (Jessie). As such, it upgrades essentially all included software.
 
 The most noticeable change is probably the move to GNOME Shell,
@@ -23,14 +23,14 @@ the future.
 
 Under the hood, an amazing amount of code was ported to more modern
 technologies. This, in turn, allowed us to do lots of small changes
-all around the place, that will make the Tails experience both
+all around the place, that will make the TⒶILS experience both
 safer, and more pleasant. For example, all custom system services
 are harder to exploit thanks to the use of Linux namespaces, set up by
-systemd. And the way Tails tells the user that "Tor is ready" is now
+systemd. And the way TⒶILS tells the user that "Tor is ready" is now
 more accurate.
 
 But really, there are simply too many changes to describe them all
-here, so try Tails 2.0~rc1 yourself!
+here, so try TⒶILS 2.0~rc1 yourself!
 
 Technical details of all the changes are listed in the
 [Changelog](https://git-tails.immerda.ch/tails/plain/debian/changelog?h=devel).
@@ -39,7 +39,7 @@ There is one piece of bad news, that makes us a bit sad, though: we
 had to remove the Windows camouflage feature, since our call for help
 to port it to GNOME Shell (issued in January, 2015) was unsuccessful.
 
-# What's new since Tails 2.0~beta1?
+# What's new since TⒶILS 2.0~beta1?
 
 ## New features
 
@@ -59,7 +59,7 @@ to port it to GNOME Shell (issued in January, 2015) was unsuccessful.
 * applications in Tor Browser (Closes: #9285). Our AppArmor confinement was
 * blocking most such actions anyway, resulting in poor UX.
 
-* Fix the performance issue of Tails Upgrader that made automatic upgrades
+* Fix the performance issue of TⒶILS Upgrader that made automatic upgrades
 * very slow to apply.
 
 * Fix Electrum by installing the version from Debian testing.
@@ -75,7 +75,7 @@ to port it to GNOME Shell (issued in January, 2015) was unsuccessful.
 * Update the list of enabled GNOME Shell extensions, which might fix
 * the "GNOME Shell sometimes leaves Classic mode" bug seen in 2.0~beta1:
 
-# How to test Tails 2.0~rc1?
+# How to test TⒶILS 2.0~rc1?
 
 1. **Keep in mind that this is a test image.** We have ensured
    that it is not broken in any obvious way, but it might still contain
@@ -83,10 +83,10 @@ to port it to GNOME Shell (issued in January, 2015) was unsuccessful.
 
 2. Download the ISO image and its signature:
 
-   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~rc1/tails-i386-2.0~rc1.iso" >Tails 2.0~rc1 ISO image</a>
+   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~rc1/tails-i386-2.0~rc1.iso" >TⒶILS 2.0~rc1 ISO image</a>
 
    <a class="download-signature"
-   href="https://tails.boum.org/torrents/files/tails-i386-2.0~rc1.iso.sig">Tails 2.0~rc1 signature</a>
+   href="https://tails.boum.org/torrents/files/tails-i386-2.0~rc1.iso.sig">TⒶILS 2.0~rc1 signature</a>
 
    Or try the automatic upgrade from
    2.0~beta1 even though it is very slow.
@@ -114,9 +114,9 @@ Known issues in 2.0~rc1
 
 * The documentation was not updated yet.
 
-* Tor Browser does not support MPEG-4 video streaming in Tails 2.0 and
+* Tor Browser does not support MPEG-4 video streaming in TⒶILS 2.0 and
   newer ([[!tails_ticket 10835]]). Instead, in some cases you can
-  download them and play them with the video player included in Tails.
+  download them and play them with the video player included in TⒶILS.
   On the other hand, web sites that propose WebM video streaming
   work fine.
 
@@ -124,7 +124,7 @@ Known issues in 2.0~rc1
   screen are not displayed entirely, or at all. For example, the Vidalia
   icon, or the icon that allows to change to another keyboard layout,
   may be hidden. Other information, such as the clock, may not
-  be visible. Restarting Tails often solves this problem.
+  be visible. Restarting TⒶILS often solves this problem.
   ([[!tails_ticket 10576]] and [[!tails_ticket 10807]])
 
 * Network interfaces sometimes remain turned off ([[!tails_ticket 9012]]).

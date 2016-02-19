@@ -21,11 +21,11 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Shutting down Tails\"]]\n"
+msgid "[[!meta title=\"Shutting down TⒶILS\"]]\n"
 msgstr "[[!meta title=\"خاموش کردن تیلز\"]]\n"
 
 #. type: Plain text
-msgid "There are several ways of shutting down Tails:"
+msgid "There are several ways of shutting down TⒶILS:"
 msgstr "برای خاموش کردن تیلز راه‌های مختلفی وجود دارد:"
 
 #. type: Bullet: '- '
@@ -55,7 +55,7 @@ msgid "- By pressing the power button of the computer."
 msgstr "- فشردن دکمهٔ خاموش روی رایانهٔ خود."
 
 #. type: Plain text
-msgid "- By removing physically the device Tails is running from."
+msgid "- By removing physically the device TⒶILS is running from."
 msgstr ""
 "- جدا کردن دستگاهی که تیلز روی آن اجرا می‌شود (درایو یواس‌بی یا کارت حافظه "
 "یا دی‌وی‌دی یا ...)."
@@ -121,7 +121,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "This method does not work [[after using the <span "
-"class=\"application\">Tails\n"
+"class=\"application\">TⒶILS\n"
 "Installer</span>|support/known_issues#index10h2]], see\n"
 "[[!tails_ticket 5677]].\n"
 msgstr ""

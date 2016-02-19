@@ -46,7 +46,7 @@ msgstr ""
 "info</code> را نصب کرده باشید."
 
 #. type: Content of: <p>
-msgid "These packages are already installed in Tails."
+msgid "These packages are already installed in TⒶILS."
 msgstr "این بسته‌ها از پیش روی تیلز نصب شده‌اند."
 
 #. type: Content of: <div><p>
@@ -110,13 +110,13 @@ msgstr ""
 "از خط فرمان تأیید کنید|verify_the_iso_image_using_the_command_line]]."
 
 #. type: Content of: <h3>
-msgid "Get the Tails signing key"
+msgid "Get the TⒶILS signing key"
 msgstr "گرفتن کلید امضای تیلز"
 
 #. type: Content of: <p>
 msgid ""
-"If you are using Tails, you already have the signing key. Otherwise, first "
-"download Tails signing key:"
+"If you are using TⒶILS, you already have the signing key. Otherwise, first "
+"download TⒶILS signing key:"
 msgstr ""
 "اگر از تیلز استفاده می‌کنید، پس یک کلید امضا دارید. در غیر این صورت ابتدا "
 "کلید امضای تیلز را دانلود کنید:"
@@ -129,11 +129,11 @@ msgstr "[[!inline pages=\"lib/download_tails_signing_key\" raw=\"yes\"]]"
 #, fuzzy
 #| msgid ""
 #| "Your browser should propose you to open it with \"Import Key\". Choose "
-#| "this action. It will add Tails signing key to your keyring, the "
+#| "this action. It will add TⒶILS signing key to your keyring, the "
 #| "collection of OpenPGP keys you already imported:"
 msgid ""
 "Your browser should propose you to open it with \"Import Key\". Choose this "
-"action. It will add the Tails signing key to your keyring, the collection of "
+"action. It will add the TⒶILS signing key to your keyring, the collection of "
 "OpenPGP keys you already imported:"
 msgstr ""
 "مرورگر شما باید پیشنهاد دهد آن را از طریق «وارد کردن کلید» باز کنید. این کار "
@@ -155,7 +155,7 @@ msgstr "این پیغام را دریافت خواهید کرد:"
 
 #. type: Content of: <p>
 msgid ""
-"[[!img key_imported.png alt=\"Key Imported. Imported a key for Tails "
+"[[!img key_imported.png alt=\"Key Imported. Imported a key for TⒶILS "
 "developers (offline long-term identity key) &lt;tails@boum.org&gt;\" link="
 "\"no\"]]"
 msgstr ""
@@ -196,7 +196,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"Browse your files to select the Tails ISO image you want to verify.  Then, "
+"Browse your files to select the TⒶILS ISO image you want to verify.  Then, "
 "the verification will start. It can take several minutes:"
 msgstr ""
 "تصویر ایزوی تیلز که قصد تأیید آن را دارید انتخاب کنید.  سپس روند تأیید آغاز "
@@ -233,7 +233,7 @@ msgid ""
 msgstr ""
 "[[!img bad_signature.png alt=\"امضای بد: امضای بد یا جعلی\" link=\"no\"]]"
 
-#~ msgid "The GNOME notifications appear truncated on Tails 1.1 and later."
+#~ msgid "The GNOME notifications appear truncated on TⒶILS 1.1 and later."
 #~ msgstr "آگهی گنوم به طور مختصر در تیلز ۱٫۱ و نسخه‌های پس از آن ظاهر می‌شود."
 
 #~ msgid "See&nbsp;[[!tails_ticket 7249]]."

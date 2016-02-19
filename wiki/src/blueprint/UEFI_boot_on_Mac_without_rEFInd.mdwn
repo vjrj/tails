@@ -5,7 +5,7 @@ Ticket: [[!tails_ticket 6242]]
 Status
 ======
 
-At least on some Mac's, once feature/uefi is merged, Tails can boot
+At least on some Mac's, once feature/uefi is merged, TⒶILS can boot
 fine without rEFInd: one has to press Alt before powering the laptop
 up, and keep it pressed until a menu appears, and then choose the
 entry that's called *Boot EFI* (as every other entry) and looks like
@@ -21,7 +21,7 @@ Resources
   CD](http://mjg59.dreamwidth.org/11285.html) and [their Mac
   support](http://mjg59.dreamwidth.org/12037.html): it supports BIOS,
   UEFI, Mac platforms when burned to a CD or written directly to a USB
-  stick. This might be nice for the ISO that Tails distribute, but not
+  stick. This might be nice for the ISO that TⒶILS distribute, but not
   applicable to support USB sticks with incremental updates.
 * <http://www.rodsbooks.com/refind>
 * <http://refind.sf.net>

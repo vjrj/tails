@@ -182,20 +182,20 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Resetting a Tails device from itself\n"
+msgid "Resetting a TⒶILS device from itself\n"
 msgstr "تنظیم دوبارهٔ یک دستگاه تیلز از طریق خودش.\n"
 
 #. type: Plain text
 msgid ""
-"If Tails is your only Linux system, you can generally reset a Tails USB "
-"stick or SD card directly from that device while running Tails."
+"If TⒶILS is your only Linux system, you can generally reset a TⒶILS USB "
+"stick or SD card directly from that device while running TⒶILS."
 msgstr ""
 "اگر تیلز تنها لینوکس شما است، می‌توانید یک درایو یواس‌بی یا کارت حافظهٔ تیلز را "
 "را مستقیم از همان دستگاه هنگام اجرای تیلز دوباره تنظیم کنید."
 
 #. type: Bullet: '1.  '
 msgid ""
-"When starting Tails, add the <span class=\"command\">toram</span> boot "
+"When starting TⒶILS, add the <span class=\"command\">toram</span> boot "
 "option in the <span class=\"application\">boot menu</span>. For detailed "
 "instructions, see the documentation on [[using the <span class=\"application"
 "\">boot menu</span>|startup_options#boot_menu]]."
@@ -208,7 +208,7 @@ msgstr ""
 #. type: Bullet: '2.  '
 #, fuzzy
 msgid ""
-"If Tails starts as usual, follow the instructions for [[resetting a USB "
+"If TⒶILS starts as usual, follow the instructions for [[resetting a USB "
 "stick or SD card using <span class=\"application\">GNOME Disks</span>|"
 "linux#disks]]."
 msgstr ""
@@ -221,7 +221,7 @@ msgstr ""
 msgid ""
 "    **If the system fails to start**, that means that the computer does not have\n"
 "    enough memory for this operation mode. Try with another computer, or find\n"
-"    another Linux system, such as another Tails device, to do the reset from.\n"
+"    another Linux system, such as another TⒶILS device, to do the reset from.\n"
 msgstr ""
 "    **اگر سیستم راه‌اندازی نشود** معنی‌اش این است که رایانه حافظهٔ کافی\n"
 "    برای این حالت عملیاتی ندارد. این کار را با رایانهٔ دیگری امتحان کنید یا\n"

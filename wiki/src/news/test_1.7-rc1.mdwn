@@ -2,12 +2,12 @@
 
 [[!meta date="2015-10-27 12:00:00"]]
 
-You can help Tails! The first release candidate for the upcoming version 1.7 is
+You can help TⒶILS! The first release candidate for the upcoming version 1.7 is
 out. Please test it and see if it works for you.
 
 [[!toc levels=1]]
 
-How to test Tails 1.7~rc1?
+How to test TⒶILS 1.7~rc1?
 ==========================
 
 1. **Keep in mind that this is a test image.** We have made sure
@@ -17,10 +17,10 @@ How to test Tails 1.7~rc1?
 1. Either try the <a href="#automatic_upgrade">automatic upgrade</a>, or
    download the ISO image and its signature:
 
-   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.7~rc1/tails-i386-1.7~rc1.iso">Tails 1.7~rc1 ISO image</a>
+   <a class="download-file" href="http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.7~rc1/tails-i386-1.7~rc1.iso">TⒶILS 1.7~rc1 ISO image</a>
 
    <a class="download-signature"
-   href="https://tails.boum.org/torrents/files/tails-i386-1.7~rc1.iso.sig">Tails 1.7~rc1 signature</a>
+   href="https://tails.boum.org/torrents/files/tails-i386-1.7~rc1.iso.sig">TⒶILS 1.7~rc1 signature</a>
 
 1. [[Verify the ISO image|download#verify]].
 
@@ -41,10 +41,10 @@ How to automatically upgrade from 1.6?
 ========================================
 
 These steps allow you to automatically upgrade a device installed with <span
-class="application">Tails Installer</span> from Tails 1.6 to Tails 1.7~rc1.
+class="application">TⒶILS Installer</span> from Tails 1.6 to Tails 1.7~rc1.
 
-1. Start Tails 1.6 from a USB stick or SD card (installed by the
-   Tails Installer), and
+1. Start TⒶILS 1.6 from a USB stick or SD card (installed by the
+   TⒶILS Installer), and
    [[set an administration password|doc/first_steps/startup_options/administration_password]].
 
 1. Run this command in a <span class="application">Root
@@ -54,18 +54,18 @@ class="application">Tails Installer</span> from Tails 1.6 to Tails 1.7~rc1.
        echo TAILS_CHANNEL=\"alpha\" >> /etc/os-release && \
             tails-upgrade-frontend-wrapper
 
-1. Once the upgrade has been installed, restart Tails and look at
+1. Once the upgrade has been installed, restart TⒶILS and look at
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">About Tails</span>
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
+     <span class="guimenuitem">About TⒶILS</span>
    </span>
-   to confirm that the running system is Tails 1.7~rc1.
+   to confirm that the running system is TⒶILS 1.7~rc1.
 
 What's new since 1.6?
 =======================
 
-Changes since Tails 1.6 are:
+Changes since TⒶILS 1.6 are:
 
   * Major new features and changes
     - Add a technology preview of the Icedove Email client (a
@@ -74,7 +74,7 @@ Changes since Tails 1.6 are:
       improvements via the Torbirdy add-on, and complete persistence
       support (which will be enabled automatically if you already have
       Claws Mail persistence enabled). Icedove will replace Claws Mail
-      as the supported email client in Tails in a future
+      as the supported email client in TⒶILS in a future
       release. (Closes: #6151, #9498, #10285)
     - Upgrade Tor to 0.2.7.4-rc-1~d70.wheezy+1+tails1. Among the many
       improvement of this new Tor major release, the new
@@ -84,8 +84,8 @@ Changes since Tails 1.6 are:
       SocksPort:s -- now the same circuit is only kept alive for
       extended periods for the SocksPort used by the Tor
       Browser. (Closes: #10194, #10308)
-    - Add an option to Tails Greeter which disables networking
-      completely. This is useful when intending to use Tails for
+    - Add an option to TⒶILS Greeter which disables networking
+      completely. This is useful when intending to use TⒶILS for
       offline work only. (Closes: #6811)
 
   * Security fixes
@@ -97,7 +97,7 @@ Changes since Tails 1.6 are:
       pluggable transports. (Closes: #9516)
     - Install firmware-amd-graphics, and firmware-misc-nonfree instead
       of firmware-ralink-nonfree, both from Debian Sid.
-    - Update the Tails signing key. (Closes: #10012)
+    - Update the TⒶILS signing key. (Closes: #10012)
 
 There are numerous other changes that might not be apparent in the
 daily operation of a typical user. Technical details of all the

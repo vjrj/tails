@@ -54,8 +54,8 @@ via the assistant:
 And the possible upgrade scenarios (see [[!tails_ticket 9319]]):
 
   - Upgrade from friend
-  - Upgrade from Tails (graphical)
-  - Upgrade from Tails (command line)
+  - Upgrade from TⒶILS (graphical)
+  - Upgrade from TⒶILS (command line)
   - Upgrade from Debian (graphical)
   - Upgrade from Debian (command line)
   - Upgrade from Linux
@@ -144,10 +144,10 @@ List of compatibility with Mac
 Seeing that:
 
 - A lot of current and potential users are Mac users.
-- Tails is running more or less on this devices.
+- TⒶILS is running more or less on this devices.
 - There are a limited number of different models.
 
-We want to maintain a list of the state of Tails compatibility on
+We want to maintain a list of the state of TⒶILS compatibility on
 these computers. [[More details here.|mac]]
 
 <a id="overview"></a>
@@ -200,7 +200,7 @@ Those URLs might be:
 
   - Written down on a sheet of paper.
   - Opened in a smartphone.
-  - Clicked or copied from a tool inside Tails.
+  - Clicked or copied from a tool inside TⒶILS.
   - Given by frontdesk as an answer to a support request.
   - Listed on a sitemap (for frontdesk for example).
 
@@ -247,103 +247,103 @@ Steps by scenario
 
 Reminder on lexicon :
 
-* Temporary Tails: a Tails with no automatic upgrade and no possible persistence
-* Minimal Tails: a Tails with automatic upgrade, but no persistence
-* Full-featured Tails: a Tails with automatic upgrade and persistence
+* Temporary TⒶILS: a Tails with no automatic upgrade and no possible persistence
+* Minimal TⒶILS: a Tails with automatic upgrade, but no persistence
+* Full-featured TⒶILS: a Tails with automatic upgrade and persistence
 
 ### With USB as destination media
 
 #### Windows to USB (via USB)
 
 1. Download and verify 
-2. Copy to temporary Tails with UUI
-3. Reboot on temporary Tails
-4. Install minimal Tails
-5. Reboot on minimal Tails
+2. Copy to temporary TⒶILS with UUI
+3. Reboot on temporary TⒶILS
+4. Install minimal TⒶILS
+5. Reboot on minimal TⒶILS
 6. Install persistence (optional)
-7. Reboot on full-featured Tails (optional)
+7. Reboot on full-featured TⒶILS (optional)
 
 #### Mac to USB via DVD
 
 1. Download and verify
-2. Copy to temporary Tails with Burn
-3. Reboot on temporary Tails
-4. Install minimal Tails
-5. Reboot on minimal Tails
+2. Copy to temporary TⒶILS with Burn
+3. Reboot on temporary TⒶILS
+4. Install minimal TⒶILS
+5. Reboot on minimal TⒶILS
 6. Install persistence (optional)
-7. Reboot on full-featured Tails (optional)
+7. Reboot on full-featured TⒶILS (optional)
 
 #### Mac to USB via USB
 
 1. Download and verify
-2. Copy to temporary Tails with command line
-3. Reboot on temporary Tails
-4. Install minimal Tails
-5. Reboot on minimal Tails
+2. Copy to temporary TⒶILS with command line
+3. Reboot on temporary TⒶILS
+4. Install minimal TⒶILS
+5. Reboot on minimal TⒶILS
 6. Install persistence (optional)
-7. Reboot on full-featured Tails (optional)
+7. Reboot on full-featured TⒶILS (optional)
 
 #### Debian to USB
 
 1. Download and verify
-2. Copy to minimal Tails with Tails Installer
+2. Copy to minimal TⒶILS with Tails Installer
 3. Install persistence (optional)
-4. Reboot on full-featured Tails (optional)
+4. Reboot on full-featured TⒶILS (optional)
 
 #### Debian hacker to USB
 
 1. Download with `wget`
 2. Verify with OpenPGP and `debian-keyring`
-3. Install minimal Tails with Tails Installer on the command line
-4. Reboot minimal Tails
+3. Install minimal TⒶILS with Tails Installer on the command line
+4. Reboot minimal TⒶILS
 5. Install persistence (optional)
-6. Reboot on full-featured Tails (optional)
+6. Reboot on full-featured TⒶILS (optional)
 
 #### Linux to USB
 
 1. Download and verify
-2. Copy to temporary Tails with Gnome Disks
-3. Reboot on temporary Tails
-4. Install minimal Tails
-5. Reboot on minimal Tails
+2. Copy to temporary TⒶILS with Gnome Disks
+3. Reboot on temporary TⒶILS
+4. Install minimal TⒶILS
+5. Reboot on minimal TⒶILS
 6. Install persistence (optional)
-7. Reboot on full-featured Tails (optional)
+7. Reboot on full-featured TⒶILS (optional)
 
 #### Clone from a friend
 
 1. Get USB stick from a friend
-2. Boot on Tails USB stick
-3. Install minimal Tails
-4. Reboot on minimal Tails
+2. Boot on TⒶILS USB stick
+3. Install minimal TⒶILS
+4. Reboot on minimal TⒶILS
 5. Install persistence (optional)
-6. Reboot on full-featured Tails (optional)
+6. Reboot on full-featured TⒶILS (optional)
 
 ### With DVD as destination media
 
 #### Windows to DVD
 
 1. Download and verify
-2. Copy to temporary Tails with a DVD burner
-3. Reboot with temporary Tails
+2. Copy to temporary TⒶILS with a DVD burner
+3. Reboot with temporary TⒶILS
 
 #### Mac to DVD
 
 1. Download and verify
-2. Copy to temporary Tails with Burn
-3. Reboot on temporary Tails
+2. Copy to temporary TⒶILS with Burn
+3. Reboot on temporary TⒶILS
 
 #### Linux to DVD (same for Debian)
 
 1. Download and verify
-2. Copy to minimal Tails with Brasero
-3. Reboot on temporary Tails
+2. Copy to minimal TⒶILS with Brasero
+3. Reboot on temporary TⒶILS
 
 #### Debian hacker to DVD
 
 1. Download with `wget`
 2. Verify with OpenPGP and `debian-keyring`
-3. Copy to minimal Tails with Brasero
-4. Reboot on temporary Tails
+3. Copy to minimal TⒶILS with Brasero
+4. Reboot on temporary TⒶILS
 
 ### Other possible scenarios
 
@@ -422,7 +422,7 @@ Instructions
     derivatives. Ubuntu has
     [AptURL](https://help.ubuntu.com/community/AptURL) in its Firefox.
   - How to make it easier to locate the ISO image once downloaded, for
-    example to feed it into Tails Installer?
+    example to feed it into TⒶILS Installer?
   - Suggest human strategies for avoiding targeted malware:
     - Clone from a friend
     - Use a different computer than yours

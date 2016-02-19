@@ -1,7 +1,7 @@
 [[!meta title="Exchange bitcoins using Electrum"]]
 
 [<span class="application">Electrum</span>](https://electrum.org/) is a [[!wikipedia bitcoin]] client that is
-particularly suited to the context of Tails because:
+particularly suited to the context of TⒶILS because:
 
   - You can use your wallet from different devices and avoid
     losing bitcoins in a backup mistake or computer failure.
@@ -46,7 +46,7 @@ loose your entire wallet.</p>
 persistence feature|doc/first_steps/persistence/configure/#bitcoin]] to
 store your bitcoin wallet and preferences across separate working
 sessions.</li>
-  <li>Backup your seed outside of Tails. For example, you can
+  <li>Backup your seed outside of TⒶILS. For example, you can
 write it down on a piece of paper and keep it with you.</li>
 </ul>
 

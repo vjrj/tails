@@ -24,7 +24,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "If you want to work completely offline, you can disable all networking when "
-"starting Tails for additional security. Doing so can be useful to work on "
+"starting TⒶILS for additional security. Doing so can be useful to work on "
 "sensitive documents."
 msgstr ""
 
@@ -34,9 +34,9 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"When [[<span class=\"application\">Tails "
+"When [[<span class=\"application\">TⒶILS "
 "Greeter</span>|startup_options#tails_greeter]] appears, in the <span "
-"class=\"guilabel\">Welcome to Tails</span> window, click on the <span "
+"class=\"guilabel\">Welcome to TⒶILS</span> window, click on the <span "
 "class=\"button\">Yes</span> button. Then click on the <span "
 "class=\"button\">Forward</span> button."
 msgstr ""

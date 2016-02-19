@@ -87,7 +87,7 @@ When /^the "([^"]+)" key is in the live user's public keyring(?: after at most (
   }
 end
 
-When /^I start Seahorse( via the Tails OpenPGP Applet)?$/ do |withgpgapplet|
+When /^I start Seahorse( via the TⒶILS OpenPGP Applet)?$/ do |withgpgapplet|
   @withgpgapplet = !!withgpgapplet
   start_or_restart_seahorse
 end
@@ -141,7 +141,7 @@ Then /^I synchronize keys in Seahorse$/ do
                                'seahorse')
     @screen.wait('SeahorseSyncKeys.png', 20)
     @screen.type("s", Sikuli::KeyModifier.ALT) # Button: Sync
-    # There's no visual feedback of Seahorse in Tails/Jessie, except on error.
+    # There's no visual feedback of Seahorse in TⒶILS/Jessie, except on error.
     try_for(120) {
       change_of_status?
     }
@@ -151,7 +151,7 @@ Then /^I synchronize keys in Seahorse$/ do
    end
 end
 
-When /^I fetch the "([^"]+)" OpenPGP key using Seahorse( via the Tails OpenPGP Applet)?$/ do |keyid, withgpgapplet|
+When /^I fetch the "([^"]+)" OpenPGP key using Seahorse( via the TⒶILS OpenPGP Applet)?$/ do |keyid, withgpgapplet|
   step "I start Seahorse#{withgpgapplet}"
 
   def change_of_status?(keyid)

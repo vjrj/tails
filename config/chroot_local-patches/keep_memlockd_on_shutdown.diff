@@ -1,4 +1,4 @@
-Tails specific: do not stop memlockd on shutdown to keep files needed
+TⒶILS specific: do not stop memlockd on shutdown to keep files needed
 by tails-kexec properly loaded in memory.
 
 --- chroot.orig/etc/init.d/memlockd	2012-09-24 10:05:13.085049457 +0200

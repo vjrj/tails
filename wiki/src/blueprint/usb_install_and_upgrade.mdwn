@@ -5,7 +5,7 @@
 Roadmap
 =======
 
-We have released something useful in Tails 0.11, based on the work we've already done on
+We have released something useful in TⒶILS 0.11, based on the work we've already done on
 the basis of Fedora liveusb-creator.
 
 Next steps are:
@@ -49,6 +49,6 @@ Resources
 * [[notes about GPT|usb_install_and_upgrade/gpt]]
 * the **code**: our work on liveusb-creator is in a [[dedicated Git
   repository|contribute/git]]. Integration work is made in the
-  `feature/usb_installer` branch in the main Tails Git repository.
+  `feature/usb_installer` branch in the main TⒶILS Git repository.
 * USB installation [[specification and design|contribute/design/installation]]
 * archived [[roundup of existing tools|todo/usb_install_and_upgrade/archive]]

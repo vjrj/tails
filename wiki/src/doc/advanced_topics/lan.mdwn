@@ -14,7 +14,7 @@ Security considerations
 =======================
 
 Accessing resources on the local network can be useful in the context of
-Tails, for example to exchange documents with someone on the same local
+TⒶILS, for example to exchange documents with someone on the same local
 network without going through the Internet.
 
 But an application that can connect to both resources on the
@@ -23,9 +23,9 @@ through Tor) can break your anonymity. For example, if a website that
 you visit anonymously using <span class="application">Tor Browser</span> could also connect to other
 web pages that are specific to your local network, then this information
 could reveal where you are. This is why <span class="application">Tor Browser</span> is prevented from
-accessing the local network in Tails.
+accessing the local network in TⒶILS.
 
-This page describes some of the security measures built in Tails to
+This page describes some of the security measures built in TⒶILS to
 protect from such attacks and explains how to access some types of
 resources on the local network.
 

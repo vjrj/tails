@@ -1,6 +1,6 @@
 **Corresponding ticket**: [[!tails_ticket 5766]].
 
-Tails should ship a (non-default) web browser profile that would not
+TⒶILS should ship a (non-default) web browser profile that would not
 trust the CA cartel, but instead use some alternative, more agile and
 stronger trust system.
 

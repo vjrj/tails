@@ -35,13 +35,13 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "We are pleased to present you the first Tails bimonthly report ever."
+msgid "We are pleased to present you the first TⒶILS bimonthly report ever."
 msgstr "مفتخریم اولین گزارش دوماهانهٔ تیلز را به شما ارائه کنیم."
 
 #. type: Plain text
 msgid ""
 "This is a first try that may, or may not, be followed by others depending on "
-"the feedback we get: if you like reading such news about Tails, don't "
+"the feedback we get: if you like reading such news about TⒶILS, don't "
 "hesitate [[telling us|support/talk]]!"
 msgstr ""
 "این اولین تلاش ما برای ارائهٔ چنین گزارشی است که ادامه داشتن یا نداشتن آن "
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"This report sums up the work that was done on Tails in January and February "
+"This report sums up the work that was done on TⒶILS in January and February "
 "2011."
 msgstr ""
 "این گزارش به خلاصهٔ کارهایی که در ماه‌های ژانویه و فوریهٔ ۲۰۱۱ انجام شده‌اند "
@@ -63,14 +63,14 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Title #
 #, no-wrap
-msgid "Helping third-parties do security analyses of Tails"
+msgid "Helping third-parties do security analyses of TⒶILS"
 msgstr "کمک به گروه‌های ثالث برای تحلیل‌های امنیتی تیلز"
 
 #. type: Plain text
 msgid ""
-"We finished writing and published the [[Tails design "
+"We finished writing and published the [[TⒶILS design "
 "document|contribute/design]] that presents a specification of a *Privacy "
-"Enhancing Live Distribution* (PELD) as well as the Tails actual "
+"Enhancing Live Distribution* (PELD) as well as the TⒶILS actual "
 "implementation."
 msgstr ""
 "[[سند طراحی تیلز|contribute/design]] را تمام کرده و آن را منتشر کردیم. این "
@@ -80,7 +80,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "By writing this document we intend to help third-parties do security "
-"analyses of any given PELD and specifically of Tails. We also wish to help "
+"analyses of any given PELD and specifically of TⒶILS. We also wish to help "
 "establish best practices in the field of PELD design and implementation, and "
 "thus raise the baseline for all similar projects out there."
 msgstr ""
@@ -90,7 +90,7 @@ msgstr ""
 "مقدماتی برای پروژه‌های مشابه فراهم کنیم."
 
 #. type: Plain text
-msgid "Reviews of this document and audits of Tails are most welcome."
+msgid "Reviews of this document and audits of TⒶILS are most welcome."
 msgstr "از بررسی این سند و بررسی تیلز استقبال می‌شود."
 
 #. type: Title #
@@ -100,10 +100,10 @@ msgstr "آماده کردن نسخهٔ بعدی"
 
 #. type: Plain text
 msgid ""
-"The next Tails release, which will be called 0.7, is based on the newly "
+"The next TⒶILS release, which will be called 0.7, is based on the newly "
 "released Debian Squeeze. It has been feature freezed recently and is now "
 "being tested in a wild, unsuspecting world; if it survives, we can bet it "
-"will be the best Tails release ever... until 0.8 is out of course."
+"will be the best TⒶILS release ever... until 0.8 is out of course."
 msgstr ""
 "نسخهٔ بعدی تیلز که ۰٫۷ نام خواهد داشت مبتنی بر نسخهٔ جدید دبیان یعنی Debian "
 "Squeeze خواهد بود. در حال حاضر ویژگی‌های آن ثابت شده و در حال بررسی و آزمایش "
@@ -119,7 +119,7 @@ msgstr "محافظت در برابر بازیابی حافظه\n"
 msgid ""
 "A new, safer way to wipe memory on shutdown was implemented. It is now also "
 "used when the boot media is physically removed: in an emergency situation, "
-"one can grab her Tails Live USB stick or Live CD and leave while the system "
+"one can grab her TⒶILS Live USB stick or Live CD and leave while the system "
 "will quickly erase her traces from the computer's memory and shut it down."
 msgstr ""
 "یک راه جدید و امن‌تر برای پاک کردن حافظه هنگام خاموش کردن به کار رفته‌است. "
@@ -130,7 +130,7 @@ msgstr ""
 
 #. type: Title -
 #, no-wrap
-msgid "Making Tails easier to use\n"
+msgid "Making TⒶILS easier to use\n"
 msgstr "آسان‌تر کردن استفاده از تیلز\n"
 
 #. type: Plain text
@@ -144,7 +144,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The Tails user interface was improved in several other ways: hiding some "
+"The TⒶILS user interface was improved in several other ways: hiding some "
 "useless GNOME preference menu items, using a background that does not "
 "overlap with the bootloader menu, adding a shutdown button to the right of "
 "the top GNOME panel (nice idea stolen from Ubuntu)."
@@ -198,12 +198,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Writing our [[design document|contribute/design]] made us think more "
-"thoroughly various parts of the Tails configuration and enhance many parts "
+"thoroughly various parts of the TⒶILS configuration and enhance many parts "
 "of it. Moreover, we compared it with the [Tor Browser "
 "Bundle](https://www.torproject.org/projects/torbrowser.html.en)  "
-"configuration, picked many nice ideas from there, and generally made Tails "
+"configuration, picked many nice ideas from there, and generally made TⒶILS "
 "configuration more similar to the TBB's one, which shall ease peer review "
-"and enlarge the anonymity set Tails users are part of. A notable example is "
+"and enlarge the anonymity set TⒶILS users are part of. A notable example is "
 "the enabling of US English browser spoofing in Iceweasel."
 msgstr ""
 "نوشتن [[سند طراحی|contribute/design]] ما باعث شد بیشتر روی بخش‌های مختلف "
@@ -235,7 +235,7 @@ msgid "Outreach"
 msgstr "توسعه"
 
 #. type: Plain text
-msgid "Tails was added to a couple spots on the Tor website:"
+msgid "TⒶILS was added to a couple spots on the Tor website:"
 msgstr "تیلز به چند قسمت از تارنمای تور اضافه شده‌است:"
 
 #. type: Plain text
@@ -265,7 +265,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "We have participated in the Debian Derivatives Census initiative ([[!debwiki "
-"Derivatives/Census]]): Tails now has a dedicated page ([[!debwiki "
+"Derivatives/Census]]): TⒶILS now has a dedicated page ([[!debwiki "
 "Derivatives/Census/TAILS]]) on the Debian Wiki; in order to better cooperate "
 "with Debian, we have followed their guidelines for Debian Derivatives "
 "([[!debwiki Derivatives/Guidelines]]); e.g. we have published a statement "
@@ -311,7 +311,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "We updated our survey of existing tools for easy install and upgrade of "
-"Tails onto USB sticks, with support for an encrypted persistent volume in "
+"TⒶILS onto USB sticks, with support for an encrypted persistent volume in "
 "mind."
 msgstr ""
 "ابزارهای موجود خود را برای نصب اسان و ارتقای تیلز روی درایوهای یواس‌بی به "
@@ -320,7 +320,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"More and more upcoming Tails features (including [[todo/persistence]], "
+"More and more upcoming TⒶILS features (including [[todo/persistence]], "
 "[[todo/macchanger]], [[todo/bridge support]]) need ways to ask the user for "
 "input at boot time. We have [[researched various ways|todo/boot_menu]] we "
 "could implement this."
@@ -331,7 +331,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We have researched how we could harden a bit Tails resistance against "
+"We have researched how we could harden a bit TⒶILS resistance against "
 "exploitation of security issues in bundled software "
 "([[todo/Mandatory_Access_Control]], [[todo/nx_bit]], kernel hardening, "
 "compiler hardening options) in a way that would not be a maintenance "
@@ -347,12 +347,12 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"A general plan was thought through to reorganize the Tails user "
+"A general plan was thought through to reorganize the TⒶILS user "
 "documentation. Once this is done, several entry points will be available to "
 "better fit a given user's available time and energy. In the meantime, we now "
 "at least have a [[nice "
 "documentation|doc/first_steps/manual_usb_installation/linux]] that explains "
-"how to install Tails onto a USB stick."
+"how to install TⒶILS onto a USB stick."
 msgstr ""
 "یک برنامهٔ کلی که در نظر گرفته شد شناسایی مستندات کاربران تیلز بود. پس از "
 "انجام این کار چندین نقطهٔ ورود برای هماهنگی بهتر با زمان و انرژی یک کاربر "

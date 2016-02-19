@@ -45,7 +45,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>Помозите нам да поправимо ваш баг!</h1>\n"
@@ -70,7 +70,7 @@ msgstr ""
 "\n"
 "прилику прислушкивачима, као што је ваш и-мејл или интернет провајдер, да\n"
 "\n"
-"потврди да ви користите Tails.\n"
+"потврди да ви користите TⒶILS.\n"
 "\n"
 "</p>\n"
 
@@ -80,11 +80,11 @@ msgstr "Persistence (упорност) је онемогућена за Electrum
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
-"Када рестартујете Tails, сви подаци из Electrum-а ће бити изгубљени, "
+"Када рестартујете TⒶILS, сви подаци из Electrum-а ће бити изгубљени, "
 "укључујући ваш Bitcoin  новчаник. Снажно вам препоручујемо да Electrum "
 "користите само када је његова persistence опција активирана."
 
@@ -295,9 +295,9 @@ msgid "not available"
 msgstr "недоступно"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -314,8 +314,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "О Tails-у"
+msgid "About TⒶILS"
+msgstr "О TⒶILS-у"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
@@ -327,11 +327,11 @@ msgstr "Ваш додатни софтвер"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "Надоградња је неуспешна. То је можда због проблема са мрежом. Молимо вас да "
-"проверите вашу мрежну конекцију, да рестартујете Tails, или прочитајте "
+"проверите вашу мрежну конекцију, да рестартујете TⒶILS, или прочитајте "
 "системски дневник да бисте боље разумели проблем."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
@@ -355,8 +355,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "Неуспешно синхронизовање сата!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "Ова верзија Tails-а има следеће познате проблеме:"
+msgid "This version of TⒶILS has known security issues:"
+msgstr "Ова верзија TⒶILS-а има следеће познате проблеме:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -372,11 +372,11 @@ msgstr "${nic} мрежне карте онемогућен"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Неуспешно MAC spoofing за мрежну карту ${nic_name} (${nic}) па је привремено "
 "онеспособљена.\n"
-"Можда бисте преферирали да рестартујете Tails и  онеспособите MAC spoofing. "
+"Можда бисте преферирали да рестартујете TⒶILS и  онеспособите MAC spoofing. "
 "Видети <a href='file:///usr/share/doc/tails/website/doc/first_steps/"
 "startup_options/mac_spoofing.en.html'>документацију</a>."
 
@@ -389,11 +389,11 @@ msgstr "Сво умрежавање је онеспособљено"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Неуспело MAC spoofing за мрежну карту ${nic_name} (${nic}). Опоравак од "
 "грешке је такође неуспешан па је сво умрежавање онеспособљено.\n"
-"Можда ћете преферирати да рестартујете Tails и онеспособите MAC spoofing. "
+"Можда ћете преферирати да рестартујете TⒶILS и онеспособите MAC spoofing. "
 "Видети <a href='file:///usr/share/doc/first_steps/startup_options/"
 "mac_spoofing.en.html'>документацију</a>."
 
@@ -411,10 +411,10 @@ msgstr "Greška"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -423,13 +423,13 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"Постарајте се да овај систем испуњава захтеве за коришћење Tails-а.\n"
+"Постарајте се да овај систем испуњава захтеве за коришћење TⒶILS-а.\n"
 "\n"
 "Видети file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
 "\n"
 "\n"
-"Покушајте да рестартујете Tails да бисте поново потражили надоградње.\n"
+"Покушајте да рестартујете TⒶILS да бисте поново потражили надоградње.\n"
 "\n"
 "\n"
 "\n"
@@ -444,10 +444,10 @@ msgstr "Упозорење: виртуална машина је детекто�
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "И домаћински оперативни систем и софтвер за виртуализацију могу надгледати "
-"шта радите у Tails-у."
+"шта радите у TⒶILS-у."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 #, fuzzy
@@ -458,17 +458,17 @@ msgstr "Упозорење: виртуална машина је детекто�
 #, fuzzy
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
 "И домаћински оперативни систем и софтвер за виртуализацију могу надгледати "
-"шта радите у Tails-у."
+"шта радите у TⒶILS-у."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 #, fuzzy
 msgid "Learn more"
-msgstr "Научите више о Tails-у."
+msgstr "Научите више о TⒶILS-у."
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:41
 msgid "Tor is not ready"
@@ -614,12 +614,12 @@ msgstr "Пријавите грешку"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Tails документација"
+msgid "TⒶILS documentation"
+msgstr "TⒶILS документација"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Научите како се користи Tails "
+msgid "Learn how to use TⒶILS"
+msgstr "Научите како се користи TⒶILS "
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 msgid "Anonymous overlay network browser"
@@ -630,8 +630,8 @@ msgid "I2P Browser"
 msgstr "I2P Браузер"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "Научите више о Tails-у."
+msgid "Learn more about TⒶILS"
+msgstr "Научите више о TⒶILS-у."
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -661,9 +661,9 @@ msgstr "Браузујте World Wide Web без анонимности"
 msgid "Unsafe Web Browser"
 msgstr "Небезбедан Веб Браузер"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Специфичне алатке Tails-а."
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "Специфичне алатке TⒶILS-а."
 
 #~ msgid "Shutdown Immediately"
 #~ msgstr "Угасите Одмах"

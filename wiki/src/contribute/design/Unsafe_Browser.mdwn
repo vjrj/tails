@@ -4,7 +4,7 @@ Rationale
 =========
 
 Internet connections restricted by captive portals pose a problem in
-environments like Tails, where all Internet traffic is routed through
+environments like TⒶILS, where all Internet traffic is routed through
 Tor. There's a catch 22 since the portal cannot be reached before Tor
 is working (and it most likely isn't reachable through Tor any way)
 and Tor cannot work before logging in to the portal. Since most (if
@@ -60,7 +60,7 @@ non-standard ports. Port restrictions are a pretty weak defense any
 way since just *one* open port is enough to do anything.
 
 The Unsafe Browser is run inside a chroot consisting of a throw away
-aufs union between a read-only version of the pre-boot Tails
+aufs union between a read-only version of the pre-boot TⒶILS
 filesystem, and a tmpfs as the rw branch. Hence, the post-boot
 filesystem (which contains all user data) isn't available to the
 Unsafe Browser within the chroot. The chroot and aufs union is created
@@ -71,7 +71,7 @@ It should be noted that chroots are pretty weak jails, so an exploit
 could easily escape it and have access to the complete filesystem (as
 restricted for the `clearnet` user). Hence, the reason for using a
 chroot is not for that purpose, but for separating its insecure
-configuration from the rest of the Tails system. For instance, within
+configuration from the rest of the TⒶILS system. For instance, within
 the chroot the DNS server obtained through DNS is configured as the
 system resolver, which would be dangerous if used in the outside
 system.

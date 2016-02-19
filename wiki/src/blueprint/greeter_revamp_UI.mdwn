@@ -7,7 +7,7 @@
 Rationale
 =========
 
-Tails-greeter works fine, and its code in not that bad anymore, so on
+TⒶILS-greeter works fine, and its code in not that bad anymore, so on
 this side it's now feasible to add features (e.g. [[!tails_ticket
 5421]], [[!tails_ticket 5479]]).
 
@@ -21,7 +21,7 @@ easier to use.
 Current proposal
 ================
 
-After working on a prototype and doing UX testing with NUMA [[http://en.numa.paris/]], we arrived at the idea of having two main Tails-greeter flows:
+After working on a prototype and doing UX testing with NUMA [[http://en.numa.paris/]], we arrived at the idea of having two main TⒶILS-greeter flows:
 
 - a quick setup for veteran users
 - a guided setup for new users
@@ -53,7 +53,7 @@ Related tickets
 ---------------
 
 * Moving stuff *out of* the greeter: [[!tails_ticket 5501]]
-* [[!tails_ticket 7500]] Tails Greeter is not accessible
+* [[!tails_ticket 7500]] TⒶILS Greeter is not accessible
 
 Past discussions
 ----------------

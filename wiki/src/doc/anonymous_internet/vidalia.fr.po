@@ -103,12 +103,12 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Tails has other protections that would prevent your from connecting to the Internet without going through Tor."
+#| msgid "TⒶILS has other protections that would prevent your from connecting to the Internet without going through Tor."
 msgid ""
-"    <p>Tails has other protections that would prevent you from connecting to the\n"
+"    <p>TⒶILS has other protections that would prevent you from connecting to the\n"
 "    Internet without going through Tor.</p>\n"
 "    </div>\n"
-msgstr "Tails a d'autres protections qui vous empêcheraient de vous connecter à Internet sans passer par Tor."
+msgstr "TⒶILS a d'autres protections qui vous empêcheraient de vous connecter à Internet sans passer par Tor."
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -295,8 +295,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p>Shutdown and restart Tails instead.</p>\n"
-msgstr "<p>Vous devriez plutôt redémarrer Tails.</p>\n"
+msgid "<p>Shutdown and restart TⒶILS instead.</p>\n"
+msgstr "<p>Vous devriez plutôt redémarrer TⒶILS.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -317,15 +317,15 @@ msgstr "Configuration supplémentaire de Tor\n"
 #, fuzzy
 #| msgid ""
 #| "To configure bridges, firewall, or proxy settings [[select the "
-#| "corresponding option in <span class=\"application\">Tails Greeter</span> |"
+#| "corresponding option in <span class=\"application\">TⒶILS Greeter</span> |"
 #| "first_steps/startup_options/bridge_mode]]."
 msgid ""
 "To configure bridges, firewall, or proxy settings [[select the corresponding "
-"option in <span class=\"application\">Tails Greeter</span>|first_steps/"
+"option in <span class=\"application\">TⒶILS Greeter</span>|first_steps/"
 "startup_options/bridge_mode]]."
 msgstr ""
 "Pour configurer des bridges, pare-feu, ou proxy [[sélectionner l'option "
-"correspondante dans <span class=\"application\">Tails Greeter</span> |"
+"correspondante dans <span class=\"application\">TⒶILS Greeter</span> |"
 "first_steps/startup_options/bridge_mode]]."
 
 #. type: Bullet: '  - '
@@ -339,13 +339,13 @@ msgstr ""
 #. type: Bullet: '  - '
 #, fuzzy
 #| msgid ""
-#| "It is impossible to configure Tails to act as a Tor relay using <span "
+#| "It is impossible to configure TⒶILS to act as a Tor relay using <span "
 #| "class=\"application\">Vidalia</span>. See [[!tails_ticket 5438]]."
 msgid ""
-"It is impossible to configure Tails to act as a Tor relay using <span class="
+"It is impossible to configure TⒶILS to act as a Tor relay using <span class="
 "\"application\">Vidalia</span>."
 msgstr ""
-"Il est impossible de configurer Tails pour être un relai Tor en utilisant "
+"Il est impossible de configurer TⒶILS pour être un relai Tor en utilisant "
 "<span class=\"application\">Vidalia</span>. Voir [[!tails_ticket 5438]]."
 
 #~ msgid ""
@@ -378,13 +378,13 @@ msgstr ""
 #~ "feature of\n"
 #~ "<span class=\"application\">Vidalia</span> is not a solution to really "
 #~ "separate different contextual identities.\n"
-#~ "<strong>Shutdown and restart Tails instead.</strong>\n"
+#~ "<strong>Shutdown and restart TⒶILS instead.</strong>\n"
 #~ msgstr ""
 #~ "[[Comme expliqué dans les avertissements|about/warning#identities]], "
 #~ "cette fonction\n"
 #~ "de <span class=\"application\">Vidalia</span> n'est pas une solution pour "
 #~ "vraiment séparer deux identités contextuelles.\n"
-#~ "<strong>Mieux vaut éteindre et redémarrer Tails.</strong>\n"
+#~ "<strong>Mieux vaut éteindre et redémarrer TⒶILS.</strong>\n"
 
 #~ msgid ""
 #~ "Vidalia is an anonymity manager. Basically this means that it can be used "

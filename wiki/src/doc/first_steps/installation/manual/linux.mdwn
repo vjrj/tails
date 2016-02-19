@@ -16,7 +16,7 @@ If you are not sure about the exact device name, with GNOME, do the
 following:
 
   1. Make sure that the USB stick or SD card onto which you want to
-     install Tails is unplugged.
+     install TⒶILS is unplugged.
 
   1. Open <span class="application">GNOME Disk Utility</span> from the menu
      <span class="menuchoice">
@@ -28,7 +28,7 @@ following:
   1. <span class="application">Disk Utility</span> lists all the current storage devices in the
      left pane of the window.
 
-  1. Plug the USB stick or SD card onto which you want to install Tails.
+  1. Plug the USB stick or SD card onto which you want to install TⒶILS.
 
      A new device appears in the list of storage devices. Click on it.
 
@@ -80,14 +80,14 @@ Then complete the command and execute it.
 
 </div>
 
-If you don't see any error message, Tails is being copied
+If you don't see any error message, TⒶILS is being copied
 onto the device. The whole process might take some time, generally a few
 minutes.
 
 <div class="next">
 
 <p>Once the command prompt reappears, you can shutdown your computer, and
-[[start Tails|start_tails]] from this new device.</p>
+[[start TⒶILS|start_tails]] from this new device.</p>
 
 </div>
 

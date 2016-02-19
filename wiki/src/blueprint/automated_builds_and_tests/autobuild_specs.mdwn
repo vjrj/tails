@@ -9,7 +9,7 @@ branches").
 Some metrics about the number of branches merged per releases are
 available on the [[dedicated statistics page|autobuild_stats]].
 
-Our Jenkins now has the Global Build Stats plugin live, Tails core developers
+Our Jenkins now has the Global Build Stats plugin live, TⒶILS core developers
 [have access to the metrics](https://jenkins.tails.boum.org/plugin/global-build-stats/).
 
 [[!toc levels=2]]
@@ -185,7 +185,7 @@ might want to consider it in the future.
 
 ## Scenario 10
 
-    As a Tails developer working on branch B
+    As a TⒶILS developer working on branch B
     When I upload a package to APT suite B
     Then I want to know if it broke the build ASAP
 
@@ -206,20 +206,20 @@ might want to consider it in the future.
 
 ## Scenario 12
 
-    As a Tails developer
+    As a TⒶILS developer
     When the test suite is ran on the ISO build from my last commit
     I want to watch TV and see the test video in HTML5 from Tor Browser
 
 
 ## Scenario 13
 
-    As a Tails developer
+    As a TⒶILS developer
     When an ISO is build from my last commit
     I want to access it through remote desktop (VNC/Spice/...) over Tor
 
 ## Scenario 14
 
-    As a Tails developer
+    As a TⒶILS developer
     When I push a new commit or a new Debian package to a base branch
     I want the affected feature branches to be rebuilt with that change
 

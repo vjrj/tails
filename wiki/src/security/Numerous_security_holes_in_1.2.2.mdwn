@@ -1,18 +1,18 @@
 [[!meta date="Mon Jan 12 00:00:00 2015"]]
-[[!meta title="Numerous security holes in Tails 1.2.2"]]
+[[!meta title="Numerous security holes in TⒶILS 1.2.2"]]
 
 [[!tag security/fixed]]
 
-Several security holes that affect Tails 1.2.2 are now fixed in Tails
+Several security holes that affect TⒶILS 1.2.2 are now fixed in TⒶILS
 1.2.3.
 
-We **strongly** encourage you to [[upgrade to Tails
+We **strongly** encourage you to [[upgrade to TⒶILS
 1.2.3|news/version_1.2.3]] as soon as possible.
 
 Details
 =======
 
- - Tails' MAC spoofing feature may leak the real MAC address
+ - TⒶILS' MAC spoofing feature may leak the real MAC address
    ([[!tails_ticket 8571]]).
  - The Unsafe Browser checks for an upgrade of the Tor Browser in the
    clear ([[!tails_ticket 8694]]).

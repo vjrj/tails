@@ -18,7 +18,7 @@ been created as parent of this one:
 <https://labs.riseup.net/code/issues/6679>
 
 This ticket has been renamed "Remove the preconfigured #tor IRC channel": we
-don't auto-join the #tor channel, so the only way to have less people from Tails
+don't auto-join the #tor channel, so the only way to have less people from TⒶILS
 connect to it is to remove it all the way.
 
 We agree on removing the #tor channel. DrWhax proposed to write a patch for both
@@ -27,16 +27,16 @@ We agree on removing the #tor channel. DrWhax proposed to write a patch for both
 Volunteers to handle broken windows this month?
 -----------------------------------------------
 
-- [[!tails_ticket 6460]]: Fix memory wipe with recent kernel Tails] will go away
+- [[!tails_ticket 6460]]: Fix memory wipe with recent kernel TⒶILS] will go away
   with 0.23.
-- [[!tails_ticket 5731]]: test suite: get rid of the JRuby mess - Tails] is
+- [[!tails_ticket 5731]]: test suite: get rid of the JRuby mess - TⒶILS] is
   almost done, only the [[!tails_ticket 6400]] discussion left.
 - [[!tails_ticket 6314]]: Stop using a custom libvirt package to run the test
-  suite - Tails] is also fixed.
+  suite - TⒶILS] is also fixed.
 - [[!tails_ticket 5681]]: Offer to provide the source of packages included in
-  Tails upon request - Tails] was done and is a subtask of a broken window.
+  TⒶILS upon request - Tails] was done and is a subtask of a broken window.
 - [[!tails_ticket 6315]]: Make it possible to deploy and run our test suite -
-  Tails] will go away once [[!tails_ticket 6400]] is resolved.
+  TⒶILS] will go away once [[!tails_ticket 6400]] is resolved.
 
 So we're still working toward resolution of a bunch of broken windows but nobody
 volunteered explicitly for March.

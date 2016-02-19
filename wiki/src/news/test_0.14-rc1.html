@@ -1,12 +1,12 @@
 [[!meta date="2012-10-12 12:34:56 +0200"]]
 [[!meta title="Call for testing: 0.14~rc1"]]
 
-<p>You can help Tails! The <em>first</em> release candidate for the upcoming version 0.14
+<p>You can help TⒶILS! The <em>first</em> release candidate for the upcoming version 0.14
 is out. Please test it and see if all works for you.</p>
 
 [[!toc levels=1]]
 
-<h1>How to test Tails 0.14~rc1?</h1>
+<h1>How to test TⒶILS 0.14~rc1?</h1>
 
 <ol>
   <li>
@@ -21,12 +21,12 @@ is out. Please test it and see if all works for you.</p>
     <p>
       <a class="download-file"
          href="http://dl.amnesia.boum.org/tails/testing/tails-i386-0.14~rc1/tails-i386-0.14~rc1.iso"
-      >Tails 0.14~rc1 ISO image</a>
+      >TⒶILS 0.14~rc1 ISO image</a>
     </p>
     <p>
       <a class="download-signature"
          href="http://dl.amnesia.boum.org/tails/testing/tails-i386-0.14~rc1/tails-i386-0.14~rc1.iso.pgp"
-      >Tails 0.14~rc1 signature</a>
+      >TⒶILS 0.14~rc1 signature</a>
     </p>
   </li>
   <li>
@@ -84,9 +84,9 @@ us|doc/first_steps/bug_reporting]]! Bonus points if you check that it is not a
     <li>On kexec reboot, make the boot quiet only if debug=wipemem was not
     enabled.</li>
     <li>Update torproject.org's APT repo key.</li>
-    <li>Update the embedded Tails signing key.</li>
+    <li>Update the embedded TⒶILS signing key.</li>
     <li>Use symlinks instead of dupliqcating localized searchplugins.</li>
-    <li>Rewrite Tails firewall using ferm. Tails firewall was written in
+    <li>Rewrite TⒶILS firewall using ferm. Tails firewall was written in
     very unsophisticated iptables-save/restore format. As more feature
     creeped in, it started to be quite unreadable.</li>
     <li>Optimize VirtualBox modules build at runtime to avoid installing the
@@ -95,7 +95,7 @@ us|doc/first_steps/bug_reporting]]! Bonus points if you check that it is not a
     trouble (with multiple SocksPorts) and the default works well.</li>
     <li>Blacklist PC speaker module. On some computers, having the
     pcspkr module loaded means loud beeps at bootup, shutdown and when
-    using the console. As it draws useless attention to Tails users,
+    using the console. As it draws useless attention to TⒶILS users,
     it is better to prevent Linux from loading it by default.</li>
     <li>Remove all addons from the Unsafe Browser. No addons are
     essential for the Unsafe Browser's intent. If anything they will
@@ -126,7 +126,7 @@ us|doc/first_steps/bug_reporting]]! Bonus points if you check that it is not a
     <ul>
       <li>Include <code>seq</code> in the ramdisk environment: it is
       used to wipe more memory. This fixes the long-standing bug about
-      Tails not cleaning all memory on shutdown.</li>
+      TⒶILS not cleaning all memory on shutdown.</li>
       <li>Fix Yelp crashing on internal links</li>
       <li>Allow amnesia user to use Tor's TransPort. This firewall
       exception is necessary for applications that doesn't have
@@ -197,7 +197,7 @@ us|doc/first_steps/bug_reporting]]! Bonus points if you check that it is not a
           <li>Read list of language codes from where we have saved it at
           package build time.</li>
           <li>Drop tails-lang-helper, not used anymore.</li>
-          <li>Do not compile locales at login time anymore. Tails now ships
+          <li>Do not compile locales at login time anymore. TⒶILS now ships
           locales-all.</li>
         </ul>
       </li>
@@ -205,7 +205,7 @@ us|doc/first_steps/bug_reporting]]! Bonus points if you check that it is not a
   </li>
   <li>Internationalization
     <ul>
-      <li>Fix Tails specific Iceweasel localization for pt-BR</li>
+      <li>Fix TⒶILS specific Iceweasel localization for pt-BR</li>
       <li>Add Japanese input system: scim-anthy.</li>
     </ul>
   </li>
@@ -232,7 +232,7 @@ us|doc/first_steps/bug_reporting]]! Bonus points if you check that it is not a
       meant to use an external caching proxy, so live-build's cache just
       wastes RAM (for in-memory builds) or disk space.</li>
       <li>vagrant: use aufs magic instead of copying source into tmpfs.
-      This reduces the amount of RAM required for building Tails in.</li>
+      This reduces the amount of RAM required for building TⒶILS in.</li>
       <li>vagrant: Allow in-memory builds when a VM with enough memory is
       already started.</li>
     </ul>
@@ -245,7 +245,7 @@ us|doc/first_steps/bug_reporting]]! Bonus points if you check that it is not a
 
 <p>Claws Mail isn't using its dedicated Tor SocksPort for Tor hidden
 service IMAP/POP/SMTP servers (instead Tor's TransPort is used). This
-is just a deviation from Tails' design and should have no adverse real
+is just a deviation from TⒶILS' design and should have no adverse real
 world consequences.</p>
 
 <h2>I2P is broken</h2>
@@ -254,6 +254,6 @@ world consequences.</p>
 network just fine. This makes it essentially unusable, e.g. eepSites
 like http://www.i2p2.i2p cannot be accessed in Iceweasel. The reason
 for this seems to be a random memory error in the machine building the
-Tails 0.14~rc1 image.
+TⒶILS 0.14~rc1 image.
 See <a href="https://mailman.boum.org/pipermail/tails-dev/2012-October/001829.html">this
 post on tails-dev</a> for more information.</p>

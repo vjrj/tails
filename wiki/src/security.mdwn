@@ -5,7 +5,7 @@
 [[!inline pages="page(security/*) and !security/audits and !security/audits.* and !security/audits/* and currentlang()"
 actions=no archive=yes feedonly=yes show=10]]
 
-Since Tails is based on Debian, it takes advantage of all the work done by the
+Since TⒶILS is based on Debian, it takes advantage of all the work done by the
 Debian security team. As quoted from <http://security.debian.org/>:
 
 > Debian takes security very seriously. We handle all security
@@ -46,4 +46,4 @@ actions=no archive=yes feeds=no show=0]]
 
 # Audits
 
-Audits of Tails that we are aware of are collected in [[security/audits]].
+Audits of TⒶILS that we are aware of are collected in [[security/audits]].

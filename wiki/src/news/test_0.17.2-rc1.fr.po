@@ -30,10 +30,10 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The first (and hopefully only) release candidate for the "
+"You can help TⒶILS! The first (and hopefully only) release candidate for the "
 "upcoming version 0.17.2 is out. Please test it and see if all works for you."
 msgstr ""
-"Vous pouvez aider Tails ! La première (et on espère seule) version candidate "
+"Vous pouvez aider TⒶILS ! La première (et on espère seule) version candidate "
 "pour la version 0.17.2 à venir est sortie. Merci de la tester et de voir si "
 "tout fonctionne pour vous."
 
@@ -42,8 +42,8 @@ msgid "[[!toc levels=1]]"
 msgstr ""
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.17.2~rc1?"
-msgstr "Comment tester Tails 0.17.2~rc1 ?"
+msgid "How to test TⒶILS 0.17.2~rc1?"
+msgstr "Comment tester TⒶILS 0.17.2~rc1 ?"
 
 #. type: Content of: <ol><li><p>
 msgid ""
@@ -62,22 +62,22 @@ msgstr "Téléchargez l'image ISO et sa signature :"
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/"
-"tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso\" >Tails 0.17.2~rc1 ISO "
+"tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso\" >TⒶILS 0.17.2~rc1 ISO "
 "image</a>"
 msgstr ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/"
-"tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso\" >Image ISO Tails "
+"tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso\" >Image ISO TⒶILS "
 "0.17.2~rc1</a>"
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "<a class=\"download-signature\" href=\"http://dl.amnesia.boum.org/tails/"
-"testing/tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso.pgp\" >Tails "
+"testing/tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso.pgp\" >TⒶILS "
 "0.17.2~rc1 signature</a>"
 msgstr ""
 "<a class=\"download-signature\" href=\"http://dl.amnesia.boum.org/tails/"
 "testing/tails-i386-0.17.2-rc1/tails-i386-0.17.2-rc1.iso.pgp\" >Signature de "
-"Tails 0.17.2~rc1</a>"
+"TⒶILS 0.17.2~rc1</a>"
 
 #. type: Content of: <ol><li><p>
 msgid "[[Verify the ISO image|download#verify]]."
@@ -187,19 +187,19 @@ msgstr "Langues"
 
 #. type: Content of: <ul><ul><li>
 msgid ""
-"Tails USB installer: update translations for French, German, Spanish, "
+"TⒶILS USB installer: update translations for French, German, Spanish, "
 "Finnish, Greek, Italian, Latvian, Dutch, Polish and Chinese."
 msgstr ""
-"Installeur USB Tails : mises à jour des traductions pour le français, "
+"Installeur USB TⒶILS : mises à jour des traductions pour le français, "
 "l'allemand, l'espagnol, le finnois, le grec, l'italien, le letton, le "
 "hollandais, le polonais et le chinois."
 
 #. type: Content of: <ul><ul><li>
 msgid ""
-"Tails Greeter: update translations for Farsi, Chinese, French; new "
+"TⒶILS Greeter: update translations for Farsi, Chinese, French; new "
 "translations: Finnish, Norwegian Bokmål, Galician."
 msgstr ""
-"Tails Greeter : mises à jour des traductions en persan, chinois, français; "
+"TⒶILS Greeter : mises à jour des traductions en persan, chinois, français; "
 "nouvelles traductions : finnois, norvégien (bokmål), et le galicien."
 
 #. type: Content of: <ul><ul><li>

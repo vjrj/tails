@@ -1,5 +1,5 @@
 [[!meta date="Mon Oct 17 01:23:45 2011"]]
-[[!meta title="Tails 0.8.1 is out"]]
+[[!meta title="TⒶILS 0.8.1 is out"]]
 [[!tag announce]]
 
 The Amnesic Incognito Live System, version 0.8.1, is out.
@@ -24,7 +24,7 @@ Notable user-visible changes include:
     encrypted in the same way.
   - Update HTTPS Everywhere extension to 1.0.3-1.
   - Stop using the small version of the Tor check page. The small version
-    incorrectly tells Tails users to upgrade their Torbrowser, which has
+    incorrectly tells TⒶILS users to upgrade their Torbrowser, which has
     confused some users.
 
 * Linux 3.0.0-2 (fixes DSA-2310-1, CVE-2011-2905, CVE-2011-2909,

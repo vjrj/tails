@@ -27,12 +27,12 @@ msgstr "[[!meta title=\"ایجاد درایوهای رمزگذاری‌شده و
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "The simplest way to carry around the documents you want to use with Tails "
+#| "The simplest way to carry around the documents you want to use with TⒶILS "
 #| "and make sure that they haven't been accessed nor modified is to store "
 #| "them in an encrypted volume: a dedicated partition on a USB stick or an "
 #| "external hard-disk."
 msgid ""
-"The simplest way to carry around the documents you want to use with Tails "
+"The simplest way to carry around the documents you want to use with TⒶILS "
 "and make sure that they haven't been accessed or modified is to store them "
 "in an encrypted volume: a dedicated partition on a USB stick or external "
 "hard-disk."
@@ -44,7 +44,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails comes with utilities for LUKS, a standard for disk-encryption under "
+"TⒶILS comes with utilities for LUKS, a standard for disk-encryption under "
 "Linux."
 msgstr ""
 "تیلز ابزارهای خاص بسیاری برای LUKS، یک استاندارد رمزگذاری دیسک تحت لینوکس "
@@ -76,7 +76,7 @@ msgstr "<div class=\"tip\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>To store encrypted files on a Tails device, it is recommended to create a\n"
+"<p>To store encrypted files on a TⒶILS device, it is recommended to create a\n"
 "[[persistent volume|first_steps/persistence]] instead.</p>\n"
 msgstr ""
 "<p>برای ذخیره کردن فایل‌های رمزگذاری‌شده روی یک دستگاه تیلز، توصیه می‌شود یک\n"
@@ -369,7 +369,7 @@ msgstr "باز کردن یک درایو رمزگذاری‌شدهٔ موجود\n
 
 #. type: Plain text
 msgid ""
-"When plugging in a device containing an encrypted partition, Tails does not "
+"When plugging in a device containing an encrypted partition, TⒶILS does not "
 "open the partition automatically but you can do so from the file browser."
 msgstr ""
 
@@ -523,13 +523,13 @@ msgstr ""
 
 #, fuzzy
 #~| msgid ""
-#~| "When plugging a device containing an encrypted partition, Tails does not mount it\n"
+#~| "When plugging a device containing an encrypted partition, TⒶILS does not mount it\n"
 #~| "automatically but it appears in the <span class=\"guimenu\">Places</span>\n"
 #~| "menu. If several partitions appear as <span class=\"guimenu\">Encrypted</span>,\n"
 #~| "like in the example, you can use its size to guess which one is the one you want\n"
 #~| "to open.\n"
 #~ msgid ""
-#~ "When plugging in a device containing an encrypted partition, Tails does not mount it\n"
+#~ "When plugging in a device containing an encrypted partition, TⒶILS does not mount it\n"
 #~ "automatically but it appears in the <span class=\"guimenu\">Places</span>\n"
 #~ "menu. If several partitions appear as <span class=\"guimenu\">Encrypted</span>,\n"
 #~ "like in the example, you can use their sizes to guess which one is the one you want\n"

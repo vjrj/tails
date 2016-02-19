@@ -1,6 +1,6 @@
 ## New features
 
-- You can now start Tails in [[offline mode|doc/first_steps/startup_options/offline_mode]]
+- You can now start TⒶILS in [[offline mode|doc/first_steps/startup_options/offline_mode]]
   to disable all networking for additional security. Doing so can be
   useful when working on sensitive documents.
 
@@ -9,7 +9,7 @@
   Thunderbird</span> email client.
 
   <span class="application">Icedove</span> is currently a technology preview. It is safe to use in the
-  context of Tails but it will be better integrated in future versions
+  context of TⒶILS but it will be better integrated in future versions
   until we remove <span class="application">[[Claws
   Mail|doc/anonymous_internet/claws_mail]]</span>. Users of <span class="application">Claws
   Mail</span> should refer to our instructions to [[migrate their data from
@@ -19,7 +19,7 @@
 ## Upgrades and changes
 
 - Improve the wording of the first screen of
-  <span class="application">Tails Installer</span>.
+  <span class="application">TⒶILS Installer</span>.
 
 - Restart Tor automatically if connecting to the Tor network takes too
   long. ([[!tails_ticket 9516 desc="#9516"]])
@@ -27,7 +27,7 @@
 - Update several firmware packages which might improve hardware
   compatibility.
 
-- Update the Tails signing key which is now valid until 2017.
+- Update the TⒶILS signing key which is now valid until 2017.
 
 - Update <span class="application">Tor Browser</span> to 5.0.4.
 

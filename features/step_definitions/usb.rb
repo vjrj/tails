@@ -1,4 +1,4 @@
-# Returns a hash that for each preset the running Tails is aware of
+# Returns a hash that for each preset the running TⒶILS is aware of
 # maps the source to the destination.
 def get_persistence_presets(skip_links = false)
   # Perl script that prints all persistence presets (one per line) on
@@ -6,8 +6,8 @@ def get_persistence_presets(skip_links = false)
   script = <<-EOF
   use strict;
   use warnings FATAL => "all";
-  use Tails::Persistence::Configuration::Presets;
-  foreach my $preset (Tails::Persistence::Configuration::Presets->new()->all) {
+  use TⒶILS::Persistence::Configuration::Presets;
+  foreach my $preset (TⒶILS::Persistence::Configuration::Presets->new()->all) {
     say $preset->destination, ":", join(",", @{$preset->options});
   }
 EOF
@@ -56,7 +56,7 @@ Given /^I unplug USB drive "([^"]+)"$/ do |name|
   $vm.unplug_drive(name)
 end
 
-Given /^the computer is set to boot from the old Tails DVD$/ do
+Given /^the computer is set to boot from the old TⒶILS DVD$/ do
   $vm.set_cdrom_boot(OLD_TAILS_ISO)
 end
 
@@ -79,13 +79,13 @@ def usb_install_helper(name)
   @screen.wait('USBInstallationComplete.png', 30*60)
 end
 
-When /^I start Tails Installer$/ do
-  step 'I start "TailsInstaller" via the GNOME "Tails" applications menu'
+When /^I start TⒶILS Installer$/ do
+  step 'I start "TailsInstaller" via the GNOME "TⒶILS" applications menu'
   @screen.wait('USBCloneAndInstall.png', 30)
 end
 
-When /^I start Tails Installer in "([^"]+)" mode$/ do |mode|
-  step 'I start Tails Installer'
+When /^I start TⒶILS Installer in "([^"]+)" mode$/ do |mode|
+  step 'I start TⒶILS Installer'
   case mode
   when 'Clone & Install'
     @screen.wait_and_click('USBCloneAndInstall.png', 10)
@@ -98,23 +98,23 @@ When /^I start Tails Installer in "([^"]+)" mode$/ do |mode|
   end
 end
 
-Then /^Tails Installer detects that a device is too small$/ do
+Then /^TⒶILS Installer detects that a device is too small$/ do
   @screen.wait('TailsInstallerTooSmallDevice.png', 10)
 end
 
-When /^I "Clone & Install" Tails to USB drive "([^"]+)"$/ do |name|
-  step 'I start Tails Installer in "Clone & Install" mode'
+When /^I "Clone & Install" TⒶILS to USB drive "([^"]+)"$/ do |name|
+  step 'I start TⒶILS Installer in "Clone & Install" mode'
   usb_install_helper(name)
 end
 
-When /^I "Clone & Upgrade" Tails to USB drive "([^"]+)"$/ do |name|
-  step 'I start Tails Installer in "Clone & Upgrade" mode'
+When /^I "Clone & Upgrade" TⒶILS to USB drive "([^"]+)"$/ do |name|
+  step 'I start TⒶILS Installer in "Clone & Upgrade" mode'
   usb_install_helper(name)
 end
 
-When /^I try a "Clone & Upgrade" Tails to USB drive "([^"]+)"$/ do |name|
+When /^I try a "Clone & Upgrade" TⒶILS to USB drive "([^"]+)"$/ do |name|
   begin
-    step "I \"Clone & Upgrade\" Tails to USB drive \"#{name}\""
+    step "I \"Clone & Upgrade\" TⒶILS to USB drive \"#{name}\""
   rescue UpgradeNotSupported
     # this is what we expect
   else
@@ -140,7 +140,7 @@ When /^I am told that the destination device cannot be upgraded$/ do
   @screen.find("USBCannotUpgrade.png")
 end
 
-Given /^I setup a filesystem share containing the Tails ISO$/ do
+Given /^I setup a filesystem share containing the TⒶILS ISO$/ do
   shared_iso_dir_on_host = "#{$config["TMPDIR"]}/shared_iso_dir"
   @shared_iso_dir_on_guest = "/tmp/shared_iso_dir"
   FileUtils.mkdir_p(shared_iso_dir_on_host)
@@ -150,7 +150,7 @@ Given /^I setup a filesystem share containing the Tails ISO$/ do
 end
 
 When /^I do a "Upgrade from ISO" on USB drive "([^"]+)"$/ do |name|
-  step 'I start Tails Installer in "Upgrade from ISO" mode'
+  step 'I start TⒶILS Installer in "Upgrade from ISO" mode'
   @screen.wait('USBUseLiveSystemISO.png', 10)
   match = @screen.find('USBUseLiveSystemISO.png')
   @screen.click(match.getCenter.offset(0, match.h*2))
@@ -179,7 +179,7 @@ Given /^I enable all persistence presets$/ do
 end
 
 Given /^I create a persistent partition$/ do
-  step 'I start "ConfigurePersistentVolume" via the GNOME "Tails" applications menu'
+  step 'I start "ConfigurePersistentVolume" via the GNOME "TⒶILS" applications menu'
   @screen.wait('PersistenceWizardStart.png', 20)
   @screen.type(@persistence_password + "\t" + @persistence_password + Sikuli::Key.ENTER)
   @screen.wait('PersistenceWizardPresets.png', 300)
@@ -216,7 +216,7 @@ def tails_is_installed_helper(name, tails_root, loader)
   disk_dev = $vm.disk_dev(name)
   part_dev = disk_dev + "1"
   check_disk_integrity(name, disk_dev, "gpt")
-  check_part_integrity(name, part_dev, "filesystem", "vfat", "Tails",
+  check_part_integrity(name, part_dev, "filesystem", "vfat", "TⒶILS",
                        # EFI System Partition
                        'c12a7328-f81f-11d2-ba4b-00a0c93ec93b')
 
@@ -248,12 +248,12 @@ def tails_is_installed_helper(name, tails_root, loader)
   $vm.execute("sync")
 end
 
-Then /^the running Tails is installed on USB drive "([^"]+)"$/ do |target_name|
+Then /^the running TⒶILS is installed on USB drive "([^"]+)"$/ do |target_name|
   loader = boot_device_type == "usb" ? "syslinux" : "isolinux"
   tails_is_installed_helper(target_name, "/lib/live/mount/medium", loader)
 end
 
-Then /^the ISO's Tails is installed on USB drive "([^"]+)"$/ do |target_name|
+Then /^the ISO's TⒶILS is installed on USB drive "([^"]+)"$/ do |target_name|
   iso = "#{@shared_iso_dir_on_guest}/#{File.basename(TAILS_ISO)}"
   iso_root = "/mnt/iso"
   $vm.execute("mkdir -p #{iso_root}")
@@ -268,7 +268,7 @@ Then /^there is no persistence partition on USB drive "([^"]+)"$/ do |name|
          "USB drive #{name} has a partition '#{data_part_dev}'")
 end
 
-Then /^a Tails persistence partition exists on USB drive "([^"]+)"$/ do |name|
+Then /^a TⒶILS persistence partition exists on USB drive "([^"]+)"$/ do |name|
   dev = $vm.disk_dev(name) + "2"
   check_part_integrity(name, dev, "crypto", "crypto_LUKS", "TailsData")
 
@@ -325,7 +325,7 @@ def tails_persistence_enabled?
                      'test "$TAILS_PERSISTENCE_ENABLED" = true').success?
 end
 
-Given /^all persistence presets(| from the old Tails version) are enabled$/ do |old_tails|
+Given /^all persistence presets(| from the old TⒶILS version) are enabled$/ do |old_tails|
   try_for(120, :msg => "Persistence is disabled") do
     tails_persistence_enabled?
   end
@@ -371,7 +371,7 @@ def boot_device_type
   device_info(boot_device)['ID_BUS']
 end
 
-Then /^Tails is running from (.*) drive "([^"]+)"$/ do |bus, name|
+Then /^TⒶILS is running from (.*) drive "([^"]+)"$/ do |bus, name|
   bus = bus.downcase
   case bus
   when "ide"
@@ -455,7 +455,7 @@ Then /^all persistence configuration files have safe access rights$/ do
   end
 end
 
-Then /^all persistent directories(| from the old Tails version) have safe access rights$/ do |old_tails|
+Then /^all persistent directories(| from the old TⒶILS version) have safe access rights$/ do |old_tails|
   if old_tails.empty?
     expected_dirs = persistent_dirs
   else
@@ -514,7 +514,7 @@ When /^I take note of which persistence presets are available$/ do
   $remembered_persistence_dirs = persistent_dirs
 end
 
-Then /^the expected persistent files(| created with the old Tails version) are present in the filesystem$/ do |old_tails|
+Then /^the expected persistent files(| created with the old TⒶILS version) are present in the filesystem$/ do |old_tails|
   if old_tails.empty?
     expected_mounts = persistent_mounts
   else
@@ -568,13 +568,13 @@ Then /^only the expected files are present on the persistence partition on USB d
 end
 
 When /^I delete the persistent partition$/ do
-  step 'I start "DeletePersistentVolume" via the GNOME "Tails" applications menu'
+  step 'I start "DeletePersistentVolume" via the GNOME "TⒶILS" applications menu'
   @screen.wait("PersistenceWizardDeletionStart.png", 20)
   @screen.type(" ")
   @screen.wait("PersistenceWizardDone.png", 120)
 end
 
-Then /^Tails has started in UEFI mode$/ do
+Then /^TⒶILS has started in UEFI mode$/ do
   assert($vm.execute("test -d /sys/firmware/efi").success?,
          "/sys/firmware/efi does not exist")
  end

@@ -1,4 +1,4 @@
-[[!meta title="Tails HackFest, 2014, Paris"]]
+[[!meta title="TⒶILS HackFest, 2014, Paris"]]
 
 [[!toc levels=2]]
 
@@ -8,11 +8,11 @@ What
 Join us on July 5-6 in Paris, to make online anonymity and digital
 privacy usable by the masses! Whether you're a writer, a software
 developer, a designer, a system administrator or just plain
-interested, come learn about the challenges faced by Tails, and how
+interested, come learn about the challenges faced by TⒶILS, and how
 you can be part of the solution.
 
-The Tails HackFest will bring together anyone interested in making
-Tails more usable and more secure. This open event will be an intense
+The TⒶILS HackFest will bring together anyone interested in making
+TⒶILS more usable and more secure. This open event will be an intense
 mix of teaching, drawing, coding, sharing, learning and celebrating.
 
 Many thanks to Debian, IRILL, Mozilla and the Tor project for
@@ -45,7 +45,7 @@ This is optional, but would help organizing this event (notably the food availab
 Community
 =========
 
-Tails is made and used by very different people -- and we appreciate
+TⒶILS is made and used by very different people -- and we appreciate
 that! It is anyone's responsability to make sure everyone else feels
 welcomed and safe. Please read this event's [[anti-harassment
 policy|blueprint/HackFest_2014_Paris/policy]] before attending :)
@@ -71,14 +71,14 @@ Timing
 * 10:30-11:00 Introductory talk
 * 11:15-12:00 Resisting Total Surveillance: free software and political struggle
 * 12:00-14:00 Lunch
-* 14:00-15:00 Deciphering the process of contributing to Tails
-* 15:00-16:00 Triaging Tails tickets
-* 15:00-16:00 Automated testing of Tails
+* 14:00-15:00 Deciphering the process of contributing to TⒶILS
+* 15:00-16:00 Triaging TⒶILS tickets
+* 15:00-16:00 Automated testing of TⒶILS
 * 16:00-16:30 Break
-* 16:30-17:30 Contributing to Tails by working on Debian
+* 16:30-17:30 Contributing to TⒶILS by working on Debian
 * 16:30-17:30 Documentation style guide
-* 17:30-18:30 Enforcing anonymity and improving pseudonymity in Tails
-* 17:30-18:30 Improving Tails UX
+* 17:30-18:30 Enforcing anonymity and improving pseudonymity in TⒶILS
+* 17:30-18:30 Improving TⒶILS UX
 * 18:30-19:30 Improving our website strategy and architecture
 * 19:30-21:00 Supper
 * 21:00-22:00 Unscheduled hacking and social interaction
@@ -86,15 +86,15 @@ Timing
 ### Sunday
 
 * 10:00-11:00 [[Keysigning party|keysigning]]
-* 11:00-12:00 Translate Tails
-* 11:00-12:00 Initiation to Tails: goals and usage
+* 11:00-12:00 Translate TⒶILS
+* 11:00-12:00 Initiation to TⒶILS: goals and usage
 * 12:00-14:00 Lunch
-* 13:00-14:00 Initiation to Tails: goals and usage
-* 14:00-15:00 Improving the infrastructure behind Tails
-* 14:00-15:00 Hack on polishing Tails user experience
-* 15:00-16:00 Inserting a layer of virtualization into Tails
+* 13:00-14:00 Initiation to TⒶILS: goals and usage
+* 14:00-15:00 Improving the infrastructure behind TⒶILS
+* 14:00-15:00 Hack on polishing TⒶILS user experience
+* 15:00-16:00 Inserting a layer of virtualization into TⒶILS
 * 16:00-16:30 Break
-* 16:30-17:30 Feedback on promoting and teaching Tails: use cases, reception and potential obstacles
+* 16:30-17:30 Feedback on promoting and teaching TⒶILS: use cases, reception and potential obstacles
 * 17:30-18:30 Redesigning our homepage
 * 18:30-19:30 Restructuring our navigation and sidebar
 * 19:30-21:00 Supper
@@ -107,13 +107,13 @@ Talks
 
 * **Resisting Total Surveillance: free software and political struggle**, by Richard Stallman - july 5th, 11h15-12h
 
-* **Triaging Tails tickets**, by BitingBird: an easy way to start contributing and learn what are the plans
+* **Triaging TⒶILS tickets**, by BitingBird: an easy way to start contributing and learn what are the plans
 
-* **Enforcing Anonymity and Improving Pseudonymity in Tails**, by
+* **Enforcing Anonymity and Improving Pseudonymity in TⒶILS**, by
   David Wolinsky from the Decentralized and Distributed Systems
   Research group at Yale
 
-* **Automated testing of Tails**: introduction, demonstration of
+* **Automated testing of TⒶILS**: introduction, demonstration of
   running the tests, demonstration of writing a new testcase, known
   issues, future plans
 
@@ -123,27 +123,27 @@ Talks
   useful resources to learn more. Then we will put that into practice and try to
   collectively rewrite bits of our documentation to make them better.
 
-* **Feedback on promoting and teaching Tails: use cases, reception and
+* **Feedback on promoting and teaching TⒶILS: use cases, reception and
   potential obstacles**, by Amaelle Guiton, independent journalist
 
-* **Improving Tails UX**. Tails is organising with NUMA in Paris some Usability testing and conception workshops since a few month. This talk will present the methodology we used, the main things we have discovered, and some first improvement drafts.
+* **Improving TⒶILS UX**. Tails is organising with NUMA in Paris some Usability testing and conception workshops since a few month. This talk will present the methodology we used, the main things we have discovered, and some first improvement drafts.
 
-* **Initiation to Tails: goals and usage**: what is Tails? What are its goals? How to install and use it? We'll make a quick tour of the major features.
+* **Initiation to TⒶILS: goals and usage**: what is Tails? What are its goals? How to install and use it? We'll make a quick tour of the major features.
 
 Workshops
 ---------
 
-* **Deciphering the process of contributing to Tails**, by DrWhax & u: There are lots of ways to contribute : helping with user support, writing documentation, translating, proof reading, web programming, testing ISOs, reporting bugs, triaging bugs, auditing code, writing code, contributing back to Debian for software used in Tails, doing system administration, advocating Tails, formulating ideas on further improvements and more.
+* **Deciphering the process of contributing to TⒶILS**, by DrWhax & u: There are lots of ways to contribute : helping with user support, writing documentation, translating, proof reading, web programming, testing ISOs, reporting bugs, triaging bugs, auditing code, writing code, contributing back to Debian for software used in Tails, doing system administration, advocating Tails, formulating ideas on further improvements and more.
 
-* **Contributing to Tails by working on Debian**: sometimes, the best
-  way to help Tails is to make Debian better; let's see how
+* **Contributing to TⒶILS by working on Debian**: sometimes, the best
+  way to help TⒶILS is to make Debian better; let's see how
 
-* **Improving the infrastructure behind Tails**, by intrigeri: getting started with Tails system administration
+* **Improving the infrastructure behind TⒶILS**, by intrigeri: getting started with Tails system administration
 
-* **Hack on polishing Tails user experience** We'll work on fixing small bugs in Tails user interface to improve user experience. We'll also take this occasion to learn the process of submitting patches to Tails and get them merged.
+* **Hack on polishing TⒶILS user experience** We'll work on fixing small bugs in Tails user interface to improve user experience. We'll also take this occasion to learn the process of submitting patches to Tails and get them merged.
 
 
-* **Translate Tails**, by u & others: hands-on translations: how to set up a working environment to improve Tails in your language, it's easier than it sounds.
+* **Translate TⒶILS**, by u & others: hands-on translations: how to set up a working environment to improve Tails in your language, it's easier than it sounds.
 
 * **Redesigning our homepage**: building on the strategy from the [[previous
   session|HackFest_2014_Paris#website_strategy]], let's talk about our
@@ -158,7 +158,7 @@ Workshops
 Discussions
 -----------
 
-* **Inserting a layer of virtualization into Tails**, as a follow-up
+* **Inserting a layer of virtualization into TⒶILS**, as a follow-up
   to David Wolinsky's talk. Let's think together about it, evaluate
   what compromises are acceptable, and come up with good ideas.
 
@@ -181,6 +181,6 @@ Wishlist
 
 Somebody is interested in seeing a talk about that, would you make it happen?
 
-* **Links between Tails and Tor**
+* **Links between TⒶILS and Tor**
 
-* **Tails' community**
+* **TⒶILS' community**

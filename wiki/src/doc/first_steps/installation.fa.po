@@ -27,7 +27,7 @@ msgstr "[[!meta title=\"نصب  روی یک درایو یو‌اس‌بی یا �
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Tails includes <span class=\"application\">Tails Installer</span>: a custom\n"
+"TⒶILS includes <span class=\"application\">TⒶILS Installer</span>: a custom\n"
 "installer for USB sticks and SD cards.\n"
 msgstr ""
 "تیلز شامل <span class=\"ابزار\">نصب‌کننده تیلز</span> است: یک نصب‌کنندهٔ\n"
@@ -41,7 +41,7 @@ msgstr "<div class=\"tip\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>Using <span class=\"application\">Tails Installer</span> allows you to\n"
+"<p>Using <span class=\"application\">TⒶILS Installer</span> allows you to\n"
 "later [[create a persistent volume|persistence]] in the free space\n"
 "left on the device.</p>\n"
 msgstr ""
@@ -62,7 +62,7 @@ msgstr "<div class=\"note\">\n"
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid ""
-"<p><span class=\"application\">Tails Installer</span> can only install Tails on a\n"
+"<p><span class=\"application\">TⒶILS Installer</span> can only install TⒶILS on a\n"
 "USB stick or SD card of <strong>at least 4 GB</strong>.</p>\n"
 msgstr ""
 "<p><span class=\"application\">نصب‌کنندهٔ تیلز</span> تنها می تواند تیلز را\n"
@@ -71,7 +71,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>Tails requires a dedicated USB stick or SD card. It is impossible to add\n"
+"<p>TⒶILS requires a dedicated USB stick or SD card. It is impossible to add\n"
 "another operating system or partition on the same device if you want to benefit\n"
 "from [[automatic upgrades|upgrade]] or create a [[persistent encrypted volume|persistence]].</p>\n"
 msgstr ""
@@ -82,8 +82,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"For the moment, <span class=\"application\">Tails Installer</span> is only\n"
-"available from inside Tails. So you need to start Tails from a first\n"
+"For the moment, <span class=\"application\">TⒶILS Installer</span> is only\n"
+"available from inside TⒶILS. So you need to start TⒶILS from a first\n"
 "media, and later clone it onto the device of your choice, USB stick or SD card.\n"
 msgstr ""
 "در حال حاضر، <span class=\"ابزار\">نصب‌کننده تیلز</span>\n"
@@ -91,16 +91,16 @@ msgstr ""
 "و بعد یک تیلز را روی دستگاهی دیگر همتاسازی کنید.\n"
 
 #. type: Bullet: '1. '
-msgid "Get a first Tails running. To do so you can either:"
+msgid "Get a first TⒶILS running. To do so you can either:"
 msgstr "تیلز را برای بار اول راه‌اندازی کنید. برای این کار باید یا:"
 
 #. type: Bullet: '   - '
-msgid "Start Tails from a [[Tails DVD|dvd]] (recommended)."
+msgid "Start TⒶILS from a [[TⒶILS DVD|dvd]] (recommended)."
 msgstr "تیلز را از [[دی‌وی‌دی تیلز|dvd]] راه‌اندازی کنید (پیشنهاد ما)"
 
 #. type: Bullet: '   - '
 msgid ""
-"Start Tails from another Tails USB stick or SD card, for example from a "
+"Start TⒶILS from another TⒶILS USB stick or SD card, for example from a "
 "friend."
 msgstr ""
 "با استفاده از یک درایو یو‌اس‌بی تیلز یا کارت حافظهٔ دیگر، برای مثال با کارت "
@@ -108,8 +108,8 @@ msgstr ""
 
 #. type: Bullet: '   - '
 msgid ""
-"[[Manually install Tails onto another USB or SD card|installation/manual]] "
-"and start *Tails Installer* from it."
+"[[Manually install TⒶILS onto another USB or SD card|installation/manual]] "
+"and start *TⒶILS Installer* from it."
 msgstr ""
 "[[تیلز را دستی روی یک درایو یو‌اس‌بی یا یک کارت حافظهٔ دیگر نصب|installation/"
 "manual]] و*نصب‌کننده تیلز* را از آن راه‌اندازی کنید."
@@ -120,10 +120,10 @@ msgid ""
 "2. Choose\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Tails Installer</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">TⒶILS Installer</span>\n"
 "   </span>\n"
-"   to start <span class=\"application\">Tails Installer</span>.\n"
+"   to start <span class=\"application\">TⒶILS Installer</span>.\n"
 msgstr ""
 "۲. گزینهٔ زیر را انتخاب کنید\n"
 "   <span class=\"menuchoice\">\n"
@@ -146,7 +146,7 @@ msgstr ""
 "و نصب</span> کلیک کنید."
 
 #. type: Bullet: '4. '
-msgid "Plug the device onto which you want to install Tails."
+msgid "Plug the device onto which you want to install TⒶILS."
 msgstr "ابزاری را که می‌خواهید تیلز را روی آن نصب کنید، وصل کنید."
 
 #. type: Plain text
@@ -200,7 +200,7 @@ msgstr "   </div>\n"
 #. type: Bullet: '6. '
 msgid ""
 "To start the installation, click on the <span class=\"button\">Install "
-"Tails</span> button."
+"TⒶILS</span> button."
 msgstr ""
 "برای آغاز نصب، روی دکمه <span class=\"button\">نصب تیلز</span> کلیک کنید."
 
@@ -220,6 +220,6 @@ msgstr "<div class=\"بعدی\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>After the installation completes, you can [[start Tails|start_tails]]\n"
+"<p>After the installation completes, you can [[start TⒶILS|start_tails]]\n"
 "from this new device.</p>\n"
 msgstr "<p>پس از پایان نصب می‌توانید تیلز را از این دستگاه جدید [[راه‌اندازی کنید|start_tails]].</p>\n"

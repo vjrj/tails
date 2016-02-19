@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Call for testing: 1.3~rc1\"]]\n"
-msgstr "[[!meta title=\"Appel à tester Tails 1.3~rc1\"]]\n"
+msgstr "[[!meta title=\"Appel à tester TⒶILS 1.3~rc1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,11 +28,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first release candidate for the upcoming version 1.3 "
+"You can help TⒶILS! The first release candidate for the upcoming version 1.3 "
 "is out. Please test it and see if it works for you."
 msgstr ""
 "Vous pouvez aider Tails ! La première version candidate pour la version "
-"Tails 1.3 à venir est sortie. Merci de la tester et de voir si tout "
+"TⒶILS 1.3 à venir est sortie. Merci de la tester et de voir si tout "
 "fonctionne pour vous."
 
 #. type: Plain text
@@ -42,8 +42,8 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "How to test Tails 1.3~rc1?\n"
-msgstr "Comment tester Tails 1.3~rc1?\n"
+msgid "How to test TⒶILS 1.3~rc1?\n"
+msgstr "Comment tester TⒶILS 1.3~rc1?\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -64,17 +64,17 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.3~rc1/tails-i386-1.3~rc1.iso\">Tails 1.3~rc1 ISO image</a>\n"
-msgstr "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.3~rc1/tails-i386-1.3~rc1.iso\">Image ISO de Tails 1.3~rc1</a>\n"
+msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.3~rc1/tails-i386-1.3~rc1.iso\">TⒶILS 1.3~rc1 ISO image</a>\n"
+msgstr "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.3~rc1/tails-i386-1.3~rc1.iso\">Image ISO de TⒶILS 1.3~rc1</a>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.3~rc1.iso.sig\">Tails 1.3~rc1 signature</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.3~rc1.iso.sig\">TⒶILS 1.3~rc1 signature</a>\n"
 msgstr ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.3~rc1.iso.sig\">Signature de Tails 1.3~rc1</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.3~rc1.iso.sig\">Signature de TⒶILS 1.3~rc1</a>\n"
 
 #. type: Bullet: '1. '
 msgid "[[Verify the ISO image|download#verify]]."
@@ -121,19 +121,19 @@ msgstr ""
 #, no-wrap
 msgid ""
 "These steps allow you to automatically upgrade a device installed with <span\n"
-"class=\"application\">Tails Installer</span> from Tails 1.2.3 to Tails 1.3~rc1.\n"
+"class=\"application\">TⒶILS Installer</span> from Tails 1.2.3 to Tails 1.3~rc1.\n"
 msgstr ""
 "Ces étapes vous permettent de mettre à jour automatiquement un périphérique installé\n"
-"avec l'<span class=\"application\">Installeur de Tails</span> depuis Tails 1.2.3 vers Tails 1.3~rc1.\n"
+"avec l'<span class=\"application\">Installeur de TⒶILS</span> depuis Tails 1.2.3 vers Tails 1.3~rc1.\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails 1.2.3 from a USB stick or SD card (installed by the Tails "
+"Start TⒶILS 1.2.3 from a USB stick or SD card (installed by the Tails "
 "Installer), and [[set an administration password|doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
-"Démarrer Tails 1.2.3 depuis une clé USB ou une carte SD (installée avec "
-"l'Installeur de Tails), et [[définir un mot de passe d'administration|doc/"
+"Démarrer TⒶILS 1.2.3 depuis une clé USB ou une carte SD (installée avec "
+"l'Installeur de TⒶILS), et [[définir un mot de passe d'administration|doc/"
 "first_steps/startup_options/administration_password]]."
 
 #. type: Bullet: '1. '
@@ -157,27 +157,27 @@ msgstr ""
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid ""
-#| "1. Once the upgrade has been installed, restart Tails and look at\n"
+#| "1. Once the upgrade has been installed, restart TⒶILS and look at\n"
 #| "   <span class=\"menuchoice\">\n"
 #| "     <span class=\"guimenu\">System</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">About Tails</span>\n"
+#| "     <span class=\"guimenuitem\">About TⒶILS</span>\n"
 #| "   </span>\n"
-#| "   to confirm that the running system is Tails 1.3~rc1.\n"
+#| "   to confirm that the running system is TⒶILS 1.3~rc1.\n"
 msgid ""
-"1. Once the upgrade has been installed, restart Tails and look at\n"
+"1. Once the upgrade has been installed, restart TⒶILS and look at\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">About Tails</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">About TⒶILS</span>\n"
 "   </span>\n"
-"   to confirm that the running system is Tails 1.3~rc1.\n"
+"   to confirm that the running system is TⒶILS 1.3~rc1.\n"
 msgstr ""
-"1. Une fois la mise à jour terminée, redémarrer Tails et regarder\n"
+"1. Une fois la mise à jour terminée, redémarrer TⒶILS et regarder\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Système</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">À propos de Tails</span>\n"
+"     <span class=\"guimenuitem\">À propos de TⒶILS</span>\n"
 "   </span>\n"
-"   pour vérifier que vous utiliser bien un Tails 1.3~rc1.\n"
+"   pour vérifier que vous utiliser bien un TⒶILS 1.3~rc1.\n"
 
 #. type: Title =
 #, no-wrap
@@ -185,8 +185,8 @@ msgid "What's new since 1.2.3?\n"
 msgstr "Quoi de neuf depuis la version 1.2.3 ?\n"
 
 #. type: Plain text
-msgid "Notable changes since Tails 1.2.3 include:"
-msgstr "Les changements visibles depuis Tails 1.2.3 comprennent :"
+msgid "Notable changes since TⒶILS 1.2.3 include:"
+msgstr "Les changements visibles depuis TⒶILS 1.2.3 comprennent :"
 
 #. type: Plain text
 #, no-wrap
@@ -196,7 +196,7 @@ msgid ""
 "      manually run `isohybrid` anymore! ([[!tails_ticket 8510]])\n"
 "    - Confine the Tor Browser using AppArmor to protect against some\n"
 "      types of attack. [Learn more](https://git-tails.immerda.ch/tails/plain/wiki/src/doc/anonymous_internet/Tor_Browser.mdwn?h=testing)\n"
-"      about how this will affect your usage of Tails.\n"
+"      about how this will affect your usage of TⒶILS.\n"
 "      ([[!tails_ticket 5525]])\n"
 "    - Install the Electrum bitcoin client, and allow users\n"
 "      to persist their wallet. ([[!tails_ticket 6739]])\n"
@@ -206,7 +206,7 @@ msgstr ""
 "      de lancer `isohybrid` à la main ! ([[!tails_ticket 8510]])\n"
 "    - Confinement de Tor Browser via AppArmor pour se protéger de certains\n"
 "      types d'attaques. [En savoir plus](https://git-tails.immerda.ch/tails/plain/wiki/src/doc/anonymous_internet/Tor_Browser.mdwn?h=testing)\n"
-"      sur ce que ça changera dans votre usage de Tails.\n"
+"      sur ce que ça changera dans votre usage de TⒶILS.\n"
 "      ([[!tails_ticket 5525]])\n"
 "    - Installation du client bitcoin Electrum, et possibilité de\n"
 "      rendre le portefeuille persistant. ([[!tails_ticket 6739]])\n"
@@ -265,8 +265,8 @@ msgstr ""
 "qui suit pour qu'il puisse ouvrir les liens dans le Tor Browser :"
 
 #. type: Bullet: '* '
-msgid "Start Tails"
-msgstr "Démarrer Tails"
+msgid "Start TⒶILS"
+msgstr "Démarrer TⒶILS"
 
 #. type: Bullet: '* '
 msgid "Enable persistence without the read-only option"

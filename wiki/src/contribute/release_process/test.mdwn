@@ -50,7 +50,7 @@ Check the output for:
 
 Check the image size has not changed much since the last release.
 
-In a directory with many Tails ISO images:
+In a directory with many TⒶILS ISO images:
 
     find -iname "tails*.iso" -exec ls -lh '{}' \; | sort -rhk 5
 
@@ -82,7 +82,7 @@ tracked by tickets prefixed with `todo/test_suite:`.
 * Run the [tests the TBB folks
   use](https://trac.torproject.org/projects/tor/wiki/doc/build/BuildSignoff#TestPagestoUse).
   (automate: [[!tails_ticket 10260]])
-* Compare the fingerprint of Tails and the latest TBB using at least
+* Compare the fingerprint of TⒶILS and the latest TBB using at least
   <https://panopticlick.eff.org/> (automate: [[!tails_ticket 10262]])
   - The exposed User-Agent should match the latest TBB's one.
   - Update the [[fingerprint section|support/known_issues#fingerprint]] of the
@@ -153,7 +153,7 @@ tracked by tickets prefixed with `todo/test_suite:`.
 
 # Virtualization support
 
-* Test that Tails starts and the browser launches in VirtualBox.
+* Test that TⒶILS starts and the browser launches in VirtualBox.
 
 # I2P
 
@@ -165,9 +165,9 @@ security critical bugs were fixed.
 
      grep -r deb.tails.boum.org /etc/apt/sources.list*
 
-* Make sure the Tails repository suite in matching the release tag (for example
+* Make sure the TⒶILS repository suite in matching the release tag (for example
   the release version number) is in APT sources.
-* Make sure the Tails repository unversioned suites (e.g. `testing`,
+* Make sure the TⒶILS repository unversioned suites (e.g. `testing`,
   `stable` and `devel`) are *not* in APT sources.
 
 <a id="incremental-upgrades"></a>
@@ -192,7 +192,7 @@ security critical bugs were fixed.
   If:
   
   * the update-description files have been published on the
-    *alpha* channel already (see <https://tails.boum.org/upgrade/v1/Tails/>)
+    *alpha* channel already (see <https://tails.boum.org/upgrade/v1/TⒶILS/>)
   * and the IUK has been published already (see
     <https://archive.torproject.org/amnesia.boum.org/tails/alpha/>
     and <https://archive.torproject.org/amnesia.boum.org/tails/stable/>):
@@ -206,7 +206,7 @@ security critical bugs were fixed.
 
   * A web server on the LAN.
   * A copy of `wiki/src/upgrade` from the `stable` or `testing` branch,
-    for example in `/var/www/tails/upgrade/v1/Tails/0.14~rc2/i386/stable/updates.yml`
+    for example in `/var/www/tails/upgrade/v1/TⒶILS/0.14~rc2/i386/stable/updates.yml`
   * A copy of the `iuk` directory of our HTTP mirrors,
     for example in `/var/www/tails/stable/iuk/Tails_i386_0.14-rc2_to_0.14.iuk`.
 
@@ -214,7 +214,7 @@ security critical bugs were fixed.
 
         torsocks rsync -rt --progress --delete rsync.torproject.org::amnesia-archive/tails/stable/iuk/ /var/www/tails/stable/iuk/
 
-  * Patch `/etc/hosts` in Tails to point to your web server:
+  * Patch `/etc/hosts` in TⒶILS to point to your web server:
 
         echo "192.168.1.4    dl.amnesia.boum.org" | sudo tee --append /etc/hosts
 
@@ -252,7 +252,7 @@ security critical bugs were fixed.
 
 # Documentation
 
-* The "Tails documentation" desktop launcher should open the
+* The "TⒶILS documentation" desktop launcher should open the
   [[getting started]] page (automate: [[!tails_ticket 8788]]):
   - in one language to which the website is translated
   - in one language to which the website is not translated (=> English)
@@ -291,7 +291,7 @@ language. You *really* have to reboot between each language.
 
 # Misc
 
-* Check that Tails Greeter's "more options" screen displays properly
+* Check that TⒶILS Greeter's "more options" screen displays properly
   on a display with 600 px height, preferably in a language that's
   more verbose than English (e.g. French). (automate: [[!tails_ticket 10276]])
 * Check that all seems well during init: (automate: [[!tails_ticket 10277]])

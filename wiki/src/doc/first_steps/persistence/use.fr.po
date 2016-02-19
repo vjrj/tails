@@ -39,13 +39,13 @@ msgstr "Activer le Volume Persistant\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"1. When starting Tails, in the\n"
-"<span class=\"guilabel\">Use persistence?</span> dialog of [[Tails\n"
+"1. When starting TⒶILS, in the\n"
+"<span class=\"guilabel\">Use persistence?</span> dialog of [[TⒶILS\n"
 "Greeter|startup_options#tails_greeter]], choose <span class=\"guilabel\">Yes</span> to\n"
 "enable the persistent volume for the current working session.\n"
 msgstr ""
-"1. Lors du démarrage de Tails, dans la\n"
-"boîte de dialogue <span class=\"guilabel\">Activer la persistance ?</span> de [[Tails\n"
+"1. Lors du démarrage de TⒶILS, dans la\n"
+"boîte de dialogue <span class=\"guilabel\">Activer la persistance ?</span> de [[TⒶILS\n"
 "Greeter|startup_options#tails_greeter]], choisir <span class=\"guilabel\">Oui</span> pour\n"
 "activer le volume persistant pour la présente session de travail.\n"
 

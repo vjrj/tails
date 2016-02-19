@@ -28,35 +28,35 @@ msgstr "Chercher dans la documentation\n"
 
 #. type: Plain text
 msgid ""
-"Read the [[official documentation|doc]] to learn more about how Tails works "
+"Read the [[official documentation|doc]] to learn more about how TⒶILS works "
 "and maybe start answering your questions. It contains:"
 msgstr ""
-"Lisez la [[documentation officielle|doc]] pour savoir comment Tails "
+"Lisez la [[documentation officielle|doc]] pour savoir comment TⒶILS "
 "fonctionne et peut-être commencer à poser des questions. Elle contient :"
 
 #. type: Bullet: '  - '
-msgid "General information about what Tails is"
-msgstr "Des informations générales à propos de Tails"
+msgid "General information about what TⒶILS is"
+msgstr "Des informations générales à propos de TⒶILS"
 
 #. type: Bullet: '  - '
 msgid ""
 "Information to understand how it can help you and what its limitations are"
 msgstr ""
-"Des informations pour comprendre en quoi Tails peut être utile, et quelles "
+"Des informations pour comprendre en quoi TⒶILS peut être utile, et quelles "
 "sont ses limites"
 
 #. type: Bullet: '  - '
-msgid "Guides covering typical uses of Tails"
-msgstr "Des guides des usages typiques de Tails"
+msgid "Guides covering typical uses of TⒶILS"
+msgstr "Des guides des usages typiques de TⒶILS"
 
 #. type: Plain text
-msgid "[[Visit Tails documentation|doc]]"
-msgstr "[[Consultez la documentation de Tails|doc]]"
+msgid "[[Visit TⒶILS documentation|doc]]"
+msgstr "[[Consultez la documentation de TⒶILS|doc]]"
 
 #. type: Title =
 #, no-wrap
-msgid "Learn how to use Tails\n"
-msgstr "Apprendre à utiliser Tails\n"
+msgid "Learn how to use TⒶILS\n"
+msgstr "Apprendre à utiliser TⒶILS\n"
 
 #. type: Plain text
 #, no-wrap
@@ -128,19 +128,19 @@ msgstr "  <h1>Rapporter une erreur</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  <p>If you are facing an error in Tails, please follow the [[bug reporting\n"
+"  <p>If you are facing an error in TⒶILS, please follow the [[bug reporting\n"
 "  guidelines|doc/first_steps/bug_reporting]].</p>\n"
 msgstr ""
-"  <p>Si vous avez trouvé un bug dans Tails, merci de suivre les [[recommandations\n"
+"  <p>Si vous avez trouvé un bug dans TⒶILS, merci de suivre les [[recommandations\n"
 "  pour rapporter un bug|doc/first_steps/bug_reporting]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  <p>If Tails does not start, please see our specific\n"
+"  <p>If TⒶILS does not start, please see our specific\n"
 "  [[reporting guidelines|doc/first_steps/bug_reporting/tails_does_not_start]].</p>\n"
 msgstr ""
-"  <p>Si Tails ne démarre pas, veuillez suivre les [[instructions\n"
+"  <p>Si TⒶILS ne démarre pas, veuillez suivre les [[instructions\n"
 "  spécifiques|doc/first_steps/bug_reporting/tails_does_not_start]].</p>\n"
 
 #. type: Plain text
@@ -161,10 +161,10 @@ msgstr "  <h1>Demander une fonctionnalité</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  If you would like to see a new feature in Tails,\n"
+"  If you would like to see a new feature in TⒶILS,\n"
 "  search the [[!tails_redmine desc=\"open tickets in Redmine\"]] first,\n"
 "  and file a new ticket in there if no existing one matches your needs.\n"
-msgstr "Si vous désirez demander une nouvelle fonctionnalité dans Tails, cherchez auparavant parmi les [[!tails_redmine desc=\"tickets ouverts dans Redmine\"]], et ouvrez un nouveau ticket si aucun ne correspond à votre demande.\n"
+msgstr "Si vous désirez demander une nouvelle fonctionnalité dans TⒶILS, cherchez auparavant parmi les [[!tails_redmine desc=\"tickets ouverts dans Redmine\"]], et ouvrez un nouveau ticket si aucun ne correspond à votre demande.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -202,8 +202,8 @@ msgstr "</div> <!-- #talk -->\n"
 #~ msgid "</div> <!-- #support -->\n"
 #~ msgstr "</div> <!-- #support -->\n"
 
-#~ msgid "How-tos on getting Tails to work"
-#~ msgstr "Des tutoriels pour faire fonctionner Tails"
+#~ msgid "How-tos on getting TⒶILS to work"
+#~ msgstr "Des tutoriels pour faire fonctionner TⒶILS"
 
 #~ msgid "It contains:"
 #~ msgstr "Elle contient :"
@@ -212,10 +212,10 @@ msgstr "</div> <!-- #talk -->\n"
 #~ msgstr "Comprendre un problème"
 
 #~ msgid ""
-#~ "If you have found an error in Tails or if you would like to see a new "
+#~ "If you have found an error in TⒶILS or if you would like to see a new "
 #~ "feature in it, have a look at the [[support/troubleshooting]] page."
 #~ msgstr ""
-#~ "Si vous avez trouvé une erreur dans Tails ou si vous voulez y voir une "
+#~ "Si vous avez trouvé une erreur dans TⒶILS ou si vous voulez y voir une "
 #~ "nouvelle fonctionnalité, allez voir la page [[comprendre un problème|"
 #~ "support/troubleshooting]] page."
 

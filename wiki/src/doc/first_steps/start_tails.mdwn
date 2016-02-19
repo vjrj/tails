@@ -1,19 +1,19 @@
-[[!meta title="Start Tails"]]
+[[!meta title="Start TⒶILS"]]
 
 [[!toc levels=2]]
 
-Now that you have a Tails device, you can shutdown your computer and start using
-Tails without altering your existing operating system.
+Now that you have a TⒶILS device, you can shutdown your computer and start using
+TⒶILS without altering your existing operating system.
 
-If Tails starts successfully, the Tails boot menu appears:
+If TⒶILS starts successfully, the TⒶILS boot menu appears:
 
 [[!img tails_boot_menu.png]]
 
 If you are using a DVD
 ======================
 
-Put the Tails DVD into the CD/DVD drive and restart the computer. You
-should see the Tails boot menu.
+Put the TⒶILS DVD into the CD/DVD drive and restart the computer. You
+should see the TⒶILS boot menu.
 
 If you don't get this menu, you can consult the Ubuntu documentation about
 [booting from the CD](https://help.ubuntu.com/community/BootFromCD) for more
@@ -31,7 +31,7 @@ According to your type of computer, read the instructions for either
 ## PC
 
 Shutdown the computer, plug your device, and start the computer. You
-should see the Tails boot menu.
+should see the TⒶILS boot menu.
 
 If your computer does not automatically do so, you might need to edit the BIOS
 settings. Restart your computer, and watch for a message telling you which key
@@ -68,7 +68,7 @@ each one might solve your problem.
    - Disable UEFI
 
    You might have to undo these changes to start your usual operating
-system again after your Tails session.
+system again after your TⒶILS session.
 
 4. You can also try to upgrade your BIOS version. Your computer
    vendor probably has instructions on how to do that on their website.
@@ -82,7 +82,7 @@ immediately press-and-hold <span class="keycap">Option</span> until a boot menu
 appears. In that boot menu, choose the entry that reads <span class="guimenuitem">Boot EFI</span> and
 looks like a USB stick.
 
-Then you should see the Tails boot menu.
+Then you should see the TⒶILS boot menu.
 
 If this does not work, then you might need to install
 [rEFInd](http://sourceforge.net/projects/refind/).
@@ -96,10 +96,10 @@ instructions</a>.
 
 </div>
 
-Problems starting Tails?
+Problems starting TⒶILS?
 ========================
 
-Read our specific [[reporting guidelines when Tails does not
+Read our specific [[reporting guidelines when TⒶILS does not
 start|doc/first_steps/bug_reporting/tails_does_not_start]].
 
 Using a virtualization software

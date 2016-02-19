@@ -1,14 +1,14 @@
-[[!meta title="Call for help: improve the infrastructure behind Tails"]]
+[[!meta title="Call for help: improve the infrastructure behind TⒶILS"]]
 
 [[!meta date="Thu May 1 12:00:00 2014"]]
 
-Tails is becoming increasingly popular: lately, someone boots Tails
+TⒶILS is becoming increasingly popular: lately, someone boots Tails
 every ten seconds somewhere in the world. And also, every six weeks,
 there is a Firefox security update and we subsequently release a new
-version of Tails.
+version of TⒶILS.
 
 Because of that amount of users and such a short release cycle, it is
-a challenge to keep Tails alive and getting better.
+a challenge to keep TⒶILS alive and getting better.
 
 We needs more hands!
 
@@ -17,16 +17,16 @@ next few years"]], we have identified some areas that could benefit the most
 from new dedicated contributors.
 
 Today, we are talking of **improving the infrastructure behind
-Tails**. So, if you are a system administrator, a software developer,
+TⒶILS**. So, if you are a system administrator, a software developer,
 or anything in between, we need you! Please read on.
 
 What is the mission?
 ====================
 
-The Tails [[system
+The TⒶILS [[system
 administrators|contribute/working_together/roles/sysadmins]] set up
 and maintain the infrastructure that supports the development and
-operations of Tails. We aim at making the life of Tails contributors
+operations of TⒶILS. We aim at making the life of Tails contributors
 easier, and to improve the quality of our releases.
 
 Our main tools are: Debian, Puppet, Git and Jenkins.
@@ -34,7 +34,7 @@ Our main tools are: Debian, Puppet, Git and Jenkins.
 The most important, and larger pieces on our roadmap currently are:
 
 * Continuous Integration: we want to drastically cut down the amount
-  of work needed to prepare a Tails release; we also want to detect
+  of work needed to prepare a TⒶILS release; we also want to detect
   regressions as soon as possible. Everything we merge should go
   through an automated test suite, and our Debian packages should be
   automatically built from Git tags.

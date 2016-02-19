@@ -11,7 +11,7 @@ Iceweasel
 * http://phoul.github.io: Doesn't finish.
 * http://www.dnsleaktest.com/: Doesn't finish.
 
-### Compare the fingerprint of Tails and the latest TBB using at least https://panopticlick.eff.org/
+### Compare the fingerprint of TⒶILS and the latest TBB using at least https://panopticlick.eff.org/
 
 There's certificate issue making panopticlick inaccessible.
 
@@ -26,11 +26,11 @@ Iceweasel WebRTC
 ----------------
 
 - getUserMedia → Video + Picture
-  - on Tails 0.22.1: NO_DEVICES_FOUND
-  - on Tails 0.23: Stop - Pause/Play - Snapshot
+  - on TⒶILS 0.22.1: NO_DEVICES_FOUND
+  - on TⒶILS 0.23: Stop - Pause/Play - Snapshot
 - getUserMedia → Audio + Audio/Video
-  - on Tails 0.22.1: dialog to share a microphone + Stop - Pause/Play - Snapshot
-  - on Tails 0.23: Stop - Pause/Play - Snapshot
+  - on TⒶILS 0.22.1: dialog to share a microphone + Stop - Pause/Play - Snapshot
+  - on TⒶILS 0.23: Stop - Pause/Play - Snapshot
 
 intrigeri: I see nothing working for real, and the landing page says
 "mozRTCPeerConnection is missing!", so perhaps that's OK-ish. I can't

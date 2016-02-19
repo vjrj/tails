@@ -27,7 +27,7 @@ Decision: add a note on the ticket, saying we agreed here that this doesn't look
 like a bug. Then, unless the discussion is (re)started on tails-dev, we'll close
 the ticket after next month's meeting
 
-Create a logo for Tails
+Create a logo for TⒶILS
 -----------------------
 
 See [[!tails_ticket 5797]].
@@ -36,7 +36,7 @@ BitingBird updated the ticket with the clarification that we discussed:
 
 * The logo has to be published under a free licence, compatible with GPL3+
 * Proportions: ratio between 1:1 and 3:1
-* If writing, then: Tails (uppercase first letter, the rest in lowercase)
+* If writing, then: TⒶILS (uppercase first letter, the rest in lowercase)
 * Colors: until now we stole the purple+green from Tor, but it doesn't have to
 * rather not re-use tor/debian images, but evoking ok (tor colors...)
 * Visual + idea: secrecy / privacy / anonymity / mystery ; simplicity: tails is
@@ -66,7 +66,7 @@ to revive these specific times.
 
 ### Decisions
 
-Sajolida will send an email to Kevin about Tails clock.
+Sajolida will send an email to Kevin about TⒶILS clock.
 
 
 Monthly low-hanging fruits meeting

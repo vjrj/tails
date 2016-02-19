@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"جمعه ۲۷ ژانویه ۰۰:۰۰:۰۰ ۲۰۱۲\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Numerous security holes in Tails 0.10\"]]\n"
+msgid "[[!meta title=\"Numerous security holes in TⒶILS 0.10\"]]\n"
 msgstr "[[!meta title=\"حفره‌های امنیتی فرواوان در تیلز ۰٫۱۰\"]]\n"
 
 #. type: Plain text
@@ -34,12 +34,12 @@ msgid "[[!tag security/fixed]]\n"
 msgstr "[[!tag security/fixed]]\n"
 
 #. type: Plain text
-msgid "The following security holes affect Tails 0.10."
+msgid "The following security holes affect TⒶILS 0.10."
 msgstr "این حفره‌های امنیتی در تیلز ۰٫۱۰ وجود دارند."
 
 #. type: Plain text
 msgid ""
-"We **strongly** urge you to [[upgrade to Tails 0.10.1|news/version_0.10.1]] "
+"We **strongly** urge you to [[upgrade to TⒶILS 0.10.1|news/version_0.10.1]] "
 "as soon as possible in case you are still using an older version."
 msgstr ""
 "اگر هنوز از نسخه‌ای قدیمی‌تر استفاده می‌کنید **بسیار** توصیه می‌کنیم که در "

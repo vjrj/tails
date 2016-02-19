@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.2.2 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.2.2 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,7 +32,7 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 1.2.2, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 1.2.2, is out."
 msgstr ""
 
 #. type: Plain text
@@ -46,19 +46,19 @@ msgid ""
 "On January 3rd, the SSL certificate of our website hosting provider, boum."
 "org, will expire. The new certificate will be issued by a different "
 "certificate authority. This certificate authority is verified by the "
-"automatic upgrade mechanism of Tails."
+"automatic upgrade mechanism of TⒶILS."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "As a consequence, versions previous to 1.2.2 won't be able to do the next "
 "automatic upgrade to version 1.2.3 and will receive an error message from "
-"*Tails Upgrader* when starting Tails after January 3rd."
+"*TⒶILS Upgrader* when starting Tails after January 3rd."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"On top of that, a [[!tails_ticket 8449 desc=\"bug in *Tails Upgrader*\"]] "
+"On top of that, a [[!tails_ticket 8449 desc=\"bug in *TⒶILS Upgrader*\"]] "
 "prevents us from providing an automatic upgrade from version 1.2.1 to 1.2.2."
 msgstr ""
 
@@ -91,8 +91,8 @@ msgstr ""
 
 #. type: Bullet: '    - '
 msgid ""
-"Change the SSL certificate authority expected by Tails Upgrader when "
-"checking for new Tails versions on https://tails.boum.org/."
+"Change the SSL certificate authority expected by TⒶILS Upgrader when "
+"checking for new TⒶILS versions on https://tails.boum.org/."
 msgstr ""
 
 #. type: Plain text
@@ -129,14 +129,14 @@ msgstr ""
 #, no-wrap
 msgid ""
 "If you have enabled the <span class=\"guilabel\">GnuPG keyrings and\n"
-"configuration</span> persistence feature and have *upgraded* a Tails\n"
-"USB stick or SD card installation to Tails 1.2.1 or 1.2.2, then please follow\n"
+"configuration</span> persistence feature and have *upgraded* a TⒶILS\n"
+"USB stick or SD card installation to TⒶILS 1.2.1 or 1.2.2, then please follow\n"
 "these steps to benefit from the updated GnuPG configuration:\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Boot Tails with [[an administration password|doc/first_steps/startup_options/"
+"Boot TⒶILS with [[an administration password|doc/first_steps/startup_options/"
 "administration_password]] set."
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -171,7 +171,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for January 14."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for January 14."
 msgstr ""
 
 #. type: Plain text
@@ -180,6 +180,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Do you want to help? There are many ways [[**you** can contribute to Tails|"
+"Do you want to help? There are many ways [[**you** can contribute to TⒶILS|"
 "contribute]]. If you want to help, come talk to us!"
 msgstr ""

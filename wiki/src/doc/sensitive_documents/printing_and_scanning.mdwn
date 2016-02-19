@@ -12,7 +12,7 @@ To configure a printer or manage your printing jobs choose
   <span class="guimenuitem">Settings</span></span>&nbsp;▸
   <span class="button">Printers</span></span>.
 
-To check the compatibility of your printer with Linux and Tails, consult
+To check the compatibility of your printer with Linux and TⒶILS, consult
 the [OpenPrinting database](https://www.openprinting.org/printers) of
 the Linux Foundation.
 
@@ -26,7 +26,7 @@ feature|doc/first_steps/persistence/configure/#printers]].
 Scanning
 ========
 
-Tails includes <span class="application">[Simple
+TⒶILS includes <span class="application">[Simple
 Scan](https://launchpad.net/simple-scan)</span>, a tool to scan both
 documents and photos.
 

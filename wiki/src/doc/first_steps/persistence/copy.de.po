@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2016-02-04 16:01+0100\n"
 "PO-Revision-Date: 2015-11-04 21:10+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,11 +39,11 @@ msgstr "Erstellen Sie ein neues Medium\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"Install the latest Tails onto a new device using the usual [[installing "
-"instructions|installation]]. Do not use the Tails device that might be "
+"Install the latest TⒶILS onto a new device using the usual [[installing "
+"instructions|installation]]. Do not use the TⒶILS device that might be "
 "corrupted in the process of installing the new one."
 msgstr ""
-"Installieren Sie das aktuellste Tails auf einem neuen Medium, indem Sie die "
+"Installieren Sie das aktuellste TⒶILS auf einem neuen Medium, indem Sie die "
 "[[Installationsanleitung|installation]] befolgen. Benutzen Sie beim Vorgang "
 "der Installation auf ein neues Medium nicht das möglicherweise beschädigte."
 
@@ -66,20 +66,20 @@ msgstr ""
 #. type: Bullet: '1. '
 #, fuzzy
 #| msgid ""
-#| "Restart Tails, enable persistence, and [[set up an administration "
+#| "Restart TⒶILS, enable persistence, and [[set up an administration "
 #| "password|startup_options/administration_password]]."
 msgid ""
 "Restart on the new device, enable persistence, and [[set up an "
 "administration password|startup_options/administration_password]]."
 msgstr ""
-"Starten Sie Tails neu, aktivieren Sie den beständigen Speicherbereich und "
+"Starten Sie TⒶILS neu, aktivieren Sie den beständigen Speicherbereich und "
 "[[stellen Sie ein Administrationskennwort ein|startup_options/"
 "administration_password]]."
 
 #. type: Title =
 #, no-wrap
-msgid "Rescue your files from the old Tails device\n"
-msgstr "Sichern Sie Ihre Dateien vom alten Tails-Medium\n"
+msgid "Rescue your files from the old TⒶILS device\n"
+msgstr "Sichern Sie Ihre Dateien vom alten TⒶILS-Medium\n"
 
 #. type: Title -
 #, no-wrap
@@ -87,9 +87,9 @@ msgid "Mount the old persistent volume\n"
 msgstr "Hängen Sie den alten beständigen Speicherbereich ein\n"
 
 #. type: Bullet: '1. '
-msgid "Plug in the old Tails device from which you want to rescue your data."
+msgid "Plug in the old TⒶILS device from which you want to rescue your data."
 msgstr ""
-"Schließen Sie das alte Tails-Medium an, von welchem Sie Ihre Daten sichern "
+"Schließen Sie das alte TⒶILS-Medium an, von welchem Sie Ihre Daten sichern "
 "möchten."
 
 #. type: Plain text
@@ -121,9 +121,9 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"In the left pane, click on the device corresponding to the old Tails device."
+"In the left pane, click on the device corresponding to the old TⒶILS device."
 msgstr ""
-"Wählen Sie im linken Fensterbereich das Medium aus, welches dem alten Tails-"
+"Wählen Sie im linken Fensterbereich das Medium aus, welches dem alten TⒶILS-"
 "Medium entspricht."
 
 #. type: Bullet: '1. '

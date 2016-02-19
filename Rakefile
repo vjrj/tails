@@ -2,8 +2,8 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 #
-# Tails: The Amnesic Incognito Live System
-# Copyright © 2012 Tails developers <tails@boum.org>
+# TⒶILS: The Amnesic Incognito Live System
+# Copyright © 2012 TⒶILS developers <tails@boum.org>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -206,9 +206,9 @@ task :ensure_clean_repository do
       $stderr.puts <<-END_OF_MESSAGE.gsub(/^        /, '')
 
         You have uncommited changes in the Git repository. Due to limitations
-        of the build system, you need to commit them before building Tails.
+        of the build system, you need to commit them before building TⒶILS.
 
-        If you don't care about those changes and want to build Tails nonetheless,
+        If you don't care about those changes and want to build TⒶILS nonetheless,
         please add `ignorechanges` to the TAILS_BUILD_OPTIONS environment
         variable.
 
@@ -238,7 +238,7 @@ task :validate_http_proxy do
   end
 end
 
-desc 'Build Tails'
+desc 'Build TⒶILS'
 task :build => ['parse_build_options', 'ensure_clean_repository', 'validate_http_proxy', 'vm:up'] do
 
   if ENV['TAILS_RAM_BUILD'] && not(enough_free_memory_for_ram_build?)
@@ -292,12 +292,12 @@ namespace :vm do
 
       $stderr.puts <<-END_OF_MESSAGE.gsub(/^        /, '')
 
-        This is the first time that the Tails builder virtual machine is
+        This is the first time that the TⒶILS builder virtual machine is
         started. The virtual machine template is about 300 MB to download,
         so the process might take some time.
 
         Please remember to shut the virtual machine down once your work on
-        Tails is done:
+        TⒶILS is done:
 
             $ rake vm:halt
 
@@ -305,8 +305,8 @@ namespace :vm do
     when :poweroff
       $stderr.puts <<-END_OF_MESSAGE.gsub(/^        /, '')
 
-        Starting Tails builder virtual machine. This might take a short while.
-        Please remember to shut it down once your work on Tails is done:
+        Starting TⒶILS builder virtual machine. This might take a short while.
+        Please remember to shut it down once your work on TⒶILS is done:
 
             $ rake vm:halt
 

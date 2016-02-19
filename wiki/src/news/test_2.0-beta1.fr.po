@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Call for testing: 2.0~beta1\"]]\n"
-msgstr "[[!meta title=\"Appel à tester Tails 2.0~beta1\"]]\n"
+msgstr "[[!meta title=\"Appel à tester TⒶILS 2.0~beta1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,10 +34,10 @@ msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first beta for the upcoming version 2.0 is out. We "
+"You can help TⒶILS! The first beta for the upcoming version 2.0 is out. We "
 "are very excited and cannot wait to hear what you think about it :)"
 msgstr ""
-"Vous pouvez aider Tails ! La première beta de la prochaine version (2.0) est "
+"Vous pouvez aider TⒶILS ! La première beta de la prochaine version (2.0) est "
 "disponible. Nous sommes très enthousiastes et impatients de savoir ce que "
 "vous en pensez :)"
 
@@ -53,10 +53,10 @@ msgstr "Quoi de neuf pour la version 2.0 ?"
 
 #. type: Plain text
 msgid ""
-"Tails 2.0 will be the first version of Tails based on Debian 8 (Jessie). As "
+"TⒶILS 2.0 will be the first version of Tails based on Debian 8 (Jessie). As "
 "such, it upgrades essentially all included software."
 msgstr ""
-"Tails 2.0 sera la première version de Tails basée sur Debian 8 (Jessie). Par "
+"TⒶILS 2.0 sera la première version de Tails basée sur Debian 8 (Jessie). Par "
 "conséquent, beaucoup de logiciels seront mis à jours."
 
 #. type: Plain text
@@ -76,14 +76,14 @@ msgstr ""
 msgid ""
 "Under the hood, an amazing amount of code was ported to more modern "
 "technologies. This, in turn, allowed us to do lots of small changes all "
-"around the place, that will make the Tails experience both safer, and more "
+"around the place, that will make the TⒶILS experience both safer, and more "
 "pleasant. For example, all custom system services are harder to exploit "
-"thanks to the use of Linux namespaces, set up by systemd. And the way Tails "
+"thanks to the use of Linux namespaces, set up by systemd. And the way TⒶILS "
 "tells the user that \"Tor is ready\" is now more accurate."
 msgstr ""
 "Sous le capot, une quantité phénoménale de code a été portée vers des "
 "technologies plus modernes. Cela nous a permis, au passage, de faire plein "
-"de petits changements qui rendront l'utilisation de Tails plus sécurisée et "
+"de petits changements qui rendront l'utilisation de TⒶILS plus sécurisée et "
 "plus agréable. Par exemple, tous nos services systèmes personnalisés sont "
 "plus difficiles à compromettre grâce à l'utilisation des *namespaces* Linux, "
 "mis en place par *systemd*. Et la manière d'annoncer à l'utilisateur que "
@@ -92,10 +92,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "But really, there are simply too many changes to describe them all here, so "
-"just try Tails 2.0~beta1 yourself!"
+"just try TⒶILS 2.0~beta1 yourself!"
 msgstr ""
 "Mais vraiment, il y a trop de changements pour tous les décrire ici, donc "
-"essayez Tails 2.0~beta1 vous-même !"
+"essayez TⒶILS 2.0~beta1 vous-même !"
 
 #. type: Plain text
 msgid ""
@@ -118,8 +118,8 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "How to test Tails 2.0~beta1?"
-msgstr "Comment tester Tails 2.0~beta1 ? "
+msgid "How to test TⒶILS 2.0~beta1?"
+msgstr "Comment tester TⒶILS 2.0~beta1 ? "
 
 #. type: Bullet: '1. '
 msgid ""
@@ -136,17 +136,17 @@ msgstr "Télécharger l'image ISO et sa signature :"
 
 #. type: Plain text
 #, no-wrap
-msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~beta1/tails-i386-2.0~beta1.iso\" >Tails 2.0~beta1 ISO image</a>\n"
-msgstr "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~beta1/tails-i386-2.0~beta1.iso\" >Image ISO de Tails 2.0~beta1</a>\n"
+msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~beta1/tails-i386-2.0~beta1.iso\" >TⒶILS 2.0~beta1 ISO image</a>\n"
+msgstr "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~beta1/tails-i386-2.0~beta1.iso\" >Image ISO de TⒶILS 2.0~beta1</a>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~beta1.iso.sig\">Tails 2.0~beta1 signature</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~beta1.iso.sig\">TⒶILS 2.0~beta1 signature</a>\n"
 msgstr ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~beta1.iso.sig\">Signature de Tails 2.0~beta1</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~beta1.iso.sig\">Signature de TⒶILS 2.0~beta1</a>\n"
 
 #. type: Plain text
 #, no-wrap

@@ -2,7 +2,7 @@
 [[!meta title="Transition to a new OpenPGP signing key"]]
 [[!tag announce]]
 
-Tails is transitioning to a new OpenPGP signing key.
+TⒶILS is transitioning to a new OpenPGP signing key.
 
 The signing key is the key that we use to:
 
@@ -22,8 +22,8 @@ manipulating such a critical piece of data.</p>
 <div class="tip">
 
 <ul>
-  <li>The old key can still be used to verify Tails 1.3 ISO images.</li>
-  <li>The new key will be used to sign ISO images starting from Tails 1.3.1.</li>
+  <li>The old key can still be used to verify TⒶILS 1.3 ISO images.</li>
+  <li>The new key will be used to sign ISO images starting from TⒶILS 1.3.1.</li>
 </ul>
 
 </div>
@@ -36,7 +36,7 @@ Import and verify the new signing key
 Click on the following button to download and import the new signing
 key:
 
-<a class="download-key" href="https://tails.boum.org/tails-signing.key">new Tails signing key</a>
+<a class="download-key" href="https://tails.boum.org/tails-signing.key">new TⒶILS signing key</a>
 
 The new signing key is itself signed by the old signing key. So you can
 transitively trust this new key if you had trusted the old signing key.
@@ -49,7 +49,7 @@ execute the following command:
 The output should include a signature of the new key by the old key such
 as:
 
-    sig!         0x1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>
+    sig!         0x1202821CBE2CD9C1 2015-01-19  TⒶILS developers (signing key) <tails@boum.org>
 
 In this output, the status of the verification is indicated by a flag
 directly following the "`sig`" tag. A "`!`" indicates that the signature
@@ -63,8 +63,8 @@ Here is the full description of the new signing key:
 <pre>
     pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2017-01-11]
           Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F
-    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>
-    uid                 [ unknown] Tails developers <tails@boum.org>
+    uid                 [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>
+    uid                 [ unknown] TⒶILS developers <tails@boum.org>
     sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2017-01-11]
     sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2017-01-11]
 </pre>
@@ -76,7 +76,7 @@ You can see that it has:
     - Is not owned in a usable format by any single individual. It is
       split cryptographically using
       [gfshare](http://www.digital-scurf.org/software/libgfshare).
-    - Is only used offline, in an air-gapped Tails.
+    - Is only used offline, in an air-gapped TⒶILS.
     - Expires in less than one year. We will extend its validity as many
       times as we find reasonable.
 
@@ -98,6 +98,6 @@ developers, namely:
    - Stefano Zacchiroli <zack@debian.org>, with key `0x9C31503C6D866396`
 
 So you can use the technique described in our documentation to further
-[[verify the Tails signing key against the Debian
+[[verify the TⒶILS signing key against the Debian
 keyring|doc/get/trusting_tails_signing_key#debian]] using any of those
 three keys.

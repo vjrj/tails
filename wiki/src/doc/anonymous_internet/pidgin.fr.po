@@ -24,10 +24,10 @@ msgstr "[[!meta title=\"Discuter avec Pidgin\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"For chatting and instant messaging, Tails includes the <span class=\"application\">[Pidgin Instant\n"
+"For chatting and instant messaging, TⒶILS includes the <span class=\"application\">[Pidgin Instant\n"
 "Messenger](http://pidgin.im/)</span>.\n"
 msgstr ""
-"Pour dialoguer et envoyer des messages instantanés, Tails fournit la <span class=\"application\">[Messagerie\n"
+"Pour dialoguer et envoyer des messages instantanés, TⒶILS fournit la <span class=\"application\">[Messagerie\n"
 "Instantanée Pidgin](http://pidgin.im/)</span>.\n"
 
 #. type: Plain text
@@ -97,14 +97,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Those accounts are deactivated when Tails is started. To activate them,\n"
+"Those accounts are deactivated when TⒶILS is started. To activate them,\n"
 "choose\n"
 "<span class=\"menuchoice\">\n"
 "  <span class=\"guimenu\">Accounts</span>&nbsp;▸\n"
 "  <span class=\"guisubmenu\">Enable Account</span>\n"
 "</span>, and select the account that you want to enable in the submenu.\n"
 msgstr ""
-"Ces comptes sont désactivés lors du démarrage de Tails. Pour les activer,\n"
+"Ces comptes sont désactivés lors du démarrage de TⒶILS. Pour les activer,\n"
 "faire\n"
 "<span class=\"menuchoice\">\n"
 "  <span class=\"guimenu\">Comptes</span>&nbsp;▸\n"
@@ -260,20 +260,20 @@ msgstr "Génération aléatoire du nom d'utilisateur\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Every time you start Tails, a random username is generated for all <span\n"
+"Every time you start TⒶILS, a random username is generated for all <span\n"
 "class=\"application\">Pidgin</span> accounts.\n"
 msgstr ""
-"À chaque démarrage de Tails, un nom d'utilisateur aléatoire est généré pour\n"
+"À chaque démarrage de TⒶILS, un nom d'utilisateur aléatoire est généré pour\n"
 "tous les comptes <span class=\"application\">Pidgin</span>.\n"
 
 #. type: Plain text
 msgid ""
 "The generator uses a list of common English first names, and modifies them, "
-"so that they are almost unique, and does not reveal that you are using Tails."
+"so that they are almost unique, and does not reveal that you are using TⒶILS."
 msgstr ""
 "Le générateur utilise une liste de prénoms anglais communs, et les modifie, "
 "de telle sorte qu'ils deviennent quasiment uniques, et ne révèlent pas que "
-"vous utilisez Tails."
+"vous utilisez TⒶILS."
 
 #. type: Plain text
 #, no-wrap
@@ -304,27 +304,27 @@ msgstr "Ajouter la prise en charge d'un autre protocole\n"
 #, no-wrap
 msgid ""
 "For security reasons, it is only possible to use IRC and XMPP with\n"
-"<span class=\"application\">Pidgin</span> in Tails. Here are the\n"
+"<span class=\"application\">Pidgin</span> in TⒶILS. Here are the\n"
 "prerequisites to enable another protocol that is supported by <span\n"
 "class=\"application\">Pidgin</span> otherwise:\n"
 msgstr ""
 "Pour des raisons de sécurité, il est uniquement possible d'utiliser\n"
 "<span class=\"application\">Pidgin</span> avec les protocoles IRC et XMPP\n"
-"dans Tails. Voici les prérequis pour activer d'autres protocoles pris en charge par\n"
+"dans TⒶILS. Voici les prérequis pour activer d'autres protocoles pris en charge par\n"
 "<span class=\"application\">Pidgin</span> par ailleurs :\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "a. The support in <span class=\"application\">Pidgin</span> for this protocol has been successfully tested\n"
-"   in Tails.\n"
-"a. Someone volunteers to maintain the corresponding support in Tails\n"
+"   in TⒶILS.\n"
+"a. Someone volunteers to maintain the corresponding support in TⒶILS\n"
 "   on the long term.\n"
 "a. Someone has verified that the security record of the desired plugin\n"
 "   (including open bugs) is good enough.\n"
 msgstr ""
-"a. La prise en charge dans <span class=\"application\">Pidgin</span> de ce protocole doit avoir été testée avec succès dans Tails.\n"
-"a. Quelqu'un doit se porter volontaire pour maintenir sur le long terme sa prise en charge dans Tails.\n"
+"a. La prise en charge dans <span class=\"application\">Pidgin</span> de ce protocole doit avoir été testée avec succès dans TⒶILS.\n"
+"a. Quelqu'un doit se porter volontaire pour maintenir sur le long terme sa prise en charge dans TⒶILS.\n"
 "a. Quelqu'un doit vérifier que l'historique de sécurité du plugin désiré (incluant les bugs en cours) est assez bon.\n"
 
 #. type: Plain text

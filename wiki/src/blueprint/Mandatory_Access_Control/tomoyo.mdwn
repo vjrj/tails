@@ -2,9 +2,9 @@
 
 [[!toc levels=2]]
 
-This page intend to sum up the current tests done about using tomoyo in Tails.
+This page intend to sum up the current tests done about using tomoyo in TⒶILS.
 
-A dedicated feature/tomoyo branch has been created in Tails' git.
+A dedicated feature/tomoyo branch has been created in TⒶILS' git.
 
 
 # Configuration
@@ -13,7 +13,7 @@ It has been configured to start in learning mode. It means that it won't block
 anything, but in place will log what happens, and the tomoyo-* tools can be used
 to dump and create the different files needed for the policy to be configured.
 
-For this to work, the only modification to the Tails configuration has been to
+For this to work, the only modification to the TⒶILS configuration has been to
 add *security=tomoyo* to the kernel command line, add *tomoyo-tools* to the
 installed packagelist, and provide a basic configuration which enable the
 learning mode together with logging in syslog of tomoyo's activity (the default
@@ -32,13 +32,13 @@ which will enforce the policy and help in testing it.
 
 # Worflow
 
-In order to work on this feature, one have to build Tails from the
+In order to work on this feature, one have to build TⒶILS from the
 feature/tomoyo branch.
 
 Once done, obviously the build iso has to be started. :)
 
 Beware that all the activity that will happen on the system will end in the
-policy. A first test trying almost every applications in Tails output a 70000+
+policy. A first test trying almost every applications in TⒶILS output a 70000+
 lines policy file...
 
 You can use the command *tomoyo-savepolicy* to dump the in-kernel learned policy
@@ -51,7 +51,7 @@ policy could be to:
  * After the boot has finished : issue *tomoyo-savepolicy* in order to save
    what happened.
  * Test every application/feature that the users are supposed to be able to do
-   in Tails, then issue a *tomoyo-savepolicy* between each tests.
+   in TⒶILS, then issue a *tomoyo-savepolicy* between each tests.
  * In a separate file, note what test have been made, and what policy files date
    extension is refering to this test.
 
@@ -60,7 +60,7 @@ and tune it. *tomoyo-loadpolicy* can be used to update the in-kernel policy from
 the config files.
 
 An interesting side effect of working on this feature is that it forces to think
-about User Experience in Tails, what users should be able to do, what they
+about User Experience in TⒶILS, what users should be able to do, what they
 should not. That's why it's important to note down what tests have been done.
 
 Once most tests have been done, only part of the job is really finished. The
@@ -92,10 +92,10 @@ supposed to do are to be removed from the policy.
    program is called, i.e if iceweasel is launched by clicking on it's icon, a
    different policy is applied than if it is started from the cli. It might be
    interesting to simplify the policy to define a number of commands that have the
-   initialize_domain flag. For example, in Tails there are at least four different
+   initialize_domain flag. For example, in TⒶILS there are at least four different
    ways to use GnuPG, shall we create only one for this command? What would the
    drawbacks of such configuration be?
- * Should the tomoyo logs be enabled when Tails is released. It might help
+ * Should the tomoyo logs be enabled when TⒶILS is released. It might help
    a lot to understand if tomoyo is responsible for the reported bugs (as its
    logs in syslog are included by default by WhisperBack), but it might also leak
    information.

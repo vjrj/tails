@@ -18,18 +18,18 @@ Tor traffic through a so called *bridge node* which is not listed in
 Tor's directory the user may be able to achieve a reliable connection
 and hide the fact that the user is connecting to a Tor server.
 Tor's bridging makes no attempt to mask the (Tor) nature of the
-traffic between the Tails user's client and the bridge node.
+traffic between the TⒶILS user's client and the bridge node.
 Therefore the users access to the Tor network can still be determined
 by simple traffic analysis.
 See [[obfsproxy|todo/obfsproxy]] for a much better
 solution to the obfuscation problem.
 
-Bridges in Tails
+Bridges in TⒶILS
 ================
 
 While Vidalia makes it straight-forward to use bridges there are some
 special considerations that needs to be accounted for in the context
-of Tails. Since all Tor is started at boot, it is immediately
+of TⒶILS. Since all Tor is started at boot, it is immediately
 disclosed that Tor is used. We need to make it possible for our users
 to prevent this, for instance by toggling some option in the boot
 menu. However, since all internet traffic is routed through Tor, if a
@@ -70,7 +70,7 @@ command-line):
   custom patch (XXX):
   - network settings are displayed on startup
   - `UseBridges` is enabled
-  - a Tails-specifig pop-up is shown.
+  - a TⒶILS-specifig pop-up is shown.
 * As a workaround to [[!tor_bug 2355]], [[!tails_gitweb
   config/chroot_local-includes/etc/NetworkManager/dispatcher.d/60-tor-sighup.sh]]
   cleans up the Tor data directory when a network interface goes up.

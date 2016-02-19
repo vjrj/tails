@@ -1,5 +1,5 @@
 [[!meta date="Tue Dec 15 12:34:56 2015"]]
-[[!meta title="Tails 1.8 is out"]]
+[[!meta title="TⒶILS 1.8 is out"]]
 [[!tag announce]]
 
 This release fixes [[numerous security
@@ -23,7 +23,7 @@ upgrade as soon as possible.
   clock *before* connecting to the network. To do so:
 
   1. [[Set up an administration password|doc/first_steps/startup_options/administration_password]]
-     when starting Tails.
+     when starting TⒶILS.
 
   1. Right-click on the system clock in the top navigation bar and
      choose <span class="guimenuitem">Adjust Date & Time</span>.
@@ -33,7 +33,7 @@ upgrade as soon as possible.
 
   1. Adjust the time to be the correct time in
      [[!wikipedia Coordinated_Universal_Time desc="UTC"]] (use the
-     same difference with your local time as observed usually in Tails).
+     same difference with your local time as observed usually in TⒶILS).
 
 See the current list of [[known issues|support/known_issues]].
 
@@ -41,16 +41,16 @@ See the current list of [[known issues|support/known_issues]].
 
 Go to the [[download]] or [[upgrade|doc/first_steps/upgrade/]] page.
 
-If your Tails does not
-boot after an automatic upgrade, please [[upgrade your Tails
+If your TⒶILS does not
+boot after an automatic upgrade, please [[upgrade your TⒶILS
 manually|doc/first_steps/upgrade#manual]].
 
 # What's coming up?
 
-The next Tails release is [[scheduled|contribute/calendar]] for January 26.
+The next TⒶILS release is [[scheduled|contribute/calendar]] for January 26.
 
 Have a look at our [[!tails_roadmap]] to see where we are heading to.
 
 We need your help and there are many ways to [[contribute to
-Tails|contribute]] ([[donating|contribute/how/donate]] is only one of
+TⒶILS|contribute]] ([[donating|contribute/how/donate]] is only one of
 them). Come [[talk to us|contribute/talk]]!

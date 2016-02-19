@@ -10,14 +10,14 @@ Start the persistent volume assistant
 To start the persistent volume assistant, choose
 <span class="menuchoice">
   <span class="guimenu">Applications</span>&nbsp;▸
-  <span class="guisubmenu">Tails</span>&nbsp;▸
+  <span class="guisubmenu">TⒶILS</span>&nbsp;▸
   <span class="guimenuitem">Configure persistent volume</span></span>.
 
 <div class="note">
 
 The error message <span class="emphasis">Error, Persistence partition is not
 unlocked.</span> means that the persistent volume was not enabled from
-<span class="application">Tails Greeter</span>. So you can not configure it
+<span class="application">TⒶILS Greeter</span>. So you can not configure it
 but you can delete it and create a new one.
 
 </div>
@@ -27,7 +27,7 @@ Creating the persistent volume
 
 When run for the first time, or after [[deleting the persistent
 volume|delete]], the assistant proposes to create a new persistent volume on
-the device from which Tails is running.
+the device from which TⒶILS is running.
 
 1. The persistent volume is an encrypted partition protected by a passphrase.
 Specify a passphrase of your choice in both the
@@ -41,10 +41,10 @@ Passphrase</span> text boxes.
 <div class="bug">
 
 <strong>If the creation is interrupted before it finishes</strong>, you may not
-be able to start Tails from this device any more. This can happen if you
+be able to start TⒶILS from this device any more. This can happen if you
 close the window of the wizard or unplug the USB stick or SD card during the creation of
 the persistent volume. [[Delete|first_steps/reset]] and
-[[reinstall|first_steps/installation]] Tails to fix this issue.
+[[reinstall|first_steps/installation]] TⒶILS to fix this issue.
 
 </div>
 
@@ -53,13 +53,13 @@ the persistent volume. [[Delete|first_steps/reset]] and
 Persistence features
 ====================
 
-When run from a Tails device that already has a persistent volume, the assistant
+When run from a TⒶILS device that already has a persistent volume, the assistant
 shows a list of the possible persistence features. Each feature corresponds to a
 set a files to be saved in the persistent volume.
 
 <div class="note">
 
-<strong>Restart Tails to apply the changes</strong> after selecting or
+<strong>Restart TⒶILS to apply the changes</strong> after selecting or
 unselecting one or several features.
 
 </div>
@@ -82,7 +82,7 @@ for more details.
 <div class="bug">
 
 If you unselect a feature that used to be activated, it will be
-deactivated after restarting Tails but the corresponding files will
+deactivated after restarting TⒶILS but the corresponding files will
 remain on the persistent volume.
 
 </div>
@@ -267,7 +267,7 @@ If you
 this feature allows you to download them once and reinstall them
 during future working sessions, even offline.
 
-To reinstall these packages automatically when restarting Tails, use the
+To reinstall these packages automatically when restarting TⒶILS, use the
 [[<span class="guilabel">Additional software packages</span> persistence
 feature|configure#additional_software]].
 
@@ -366,11 +366,11 @@ Packages</span> features.
 
 If you are offline and your additional software packages don't install, it
 might be caused by outdated APT Lists. The issue will be fixed next time you
-connect Tails to Internet with persistence activated.
+connect TⒶILS to Internet with persistence activated.
 
 </div>
 
-To choose the list of additional software, start Tails with an administrator
+To choose the list of additional software, start TⒶILS with an administrator
 password and edit (as an administrator) the file called
 `/live/persistence/TailsData_unlocked/live-additional-software.conf`.
 Each line of this file must contain
@@ -392,7 +392,7 @@ To learn about the many software packages available in Debian, visit
 <strong>Installing additional software is at your own risk.</strong>
 Most additional software requires extra configuration to be able to
 connect to the network through Tor, and will not work otherwise. Some other software might, for
-example, modify the firewall and break the security built in Tails.
-Software not officially included in Tails is not tested for security.
+example, modify the firewall and break the security built in TⒶILS.
+Software not officially included in TⒶILS is not tested for security.
 
 </div>

@@ -1,4 +1,4 @@
-[[!meta title="Glossary for Tails contributors"]]
+[[!meta title="Glossary for TⒶILS contributors"]]
 
 [[!toc levels=2]]
 
@@ -6,7 +6,7 @@ What you will find here and where else to look at
 =================================================
 
 Below we define some terms that are used in a somewhat or 100% special
-meaning within the Tails community.
+meaning within the TⒶILS community.
 
 For other terms, use [The Jargon Lexicon](http://catb.org/jargon/)
 (`apt-get install dict-jargon`),
@@ -26,10 +26,10 @@ The words
   details and pointers to the Debian security team resources; see
   <http://security.debian.org> for already issued advisories.
 * **freeze**:
-  - a late stabilization period of time in the Tails
+  - a late stabilization period of time in the TⒶILS
     [[contribute/release_schedule]], when no new changes are merged
     anymore into the [[contribute/Git]] branch used to prepare the
-    next release of Tails but fixes for serious bug and security
+    next release of TⒶILS but fixes for serious bug and security
     issues;
   - the beginning of the said phase.
 * **Front desk**: see the
@@ -46,7 +46,7 @@ The words
   [[MAT's website|https://mat.boum.org/]]
 * **monthly reports**: published in the [[news]] once a month
 * **persistence**: the opt-in feature that allows storing data and
-  configuration across Tails sessions in an encrypted partition, see
+  configuration across TⒶILS sessions in an encrypted partition, see
   [[contribute/design/persistence]]
 * **Release manager**: see the [[definition of this shifting
   role|contribute/working_together/roles/release_manager]]

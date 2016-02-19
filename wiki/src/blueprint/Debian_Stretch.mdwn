@@ -1,6 +1,6 @@
-[[!meta title="Porting Tails to Debian Stretch"]]
+[[!meta title="Porting TⒶILS to Debian Stretch"]]
 
-This is about the effort to create [Tails
+This is about the effort to create [TⒶILS
 3.0](https://labs.riseup.net/code/projects/tails/issues?query_id=198),
 based on Debian Stretch.
 
@@ -28,15 +28,15 @@ span, so as soon as we start we'll allocate more resources to it, and
 in a better organized, team-based and focused way.
 
 Additionally, we would like to use this process as an opportunity to
-evaluate the idea of basing Tails on snapshots of Debian testing.
+evaluate the idea of basing TⒶILS on snapshots of Debian testing.
 
 # Schedule
 
-* 2016Q1 — Tails 2.0 is out
-* April or May 2016 — start working on Tails 3.0 (1 week sprint with
+* 2016Q1 — TⒶILS 2.0 is out
+* April or May 2016 — start working on TⒶILS 3.0 (1 week sprint with
   all involved people) :intrigeri:anonym:kytv:
   - get feature/stretch to build and boot
-  - update the automated test suite to test Tails/Stretch ISO images
+  - update the automated test suite to test TⒶILS/Stretch ISO images
 * May 2016 to April 2017 — have one dedicated half-time, 1-week sprint
   every 6 weeks.
   - Schedule these sprints in advance, announce them
@@ -53,7 +53,7 @@ evaluate the idea of basing Tails on snapshots of Debian testing.
       testing" would work.
 * December 5 2016 — Debian Stretch freeze starts
 * April 2017 (???) — Debian Stretch is released
-* April-June 2017 — Tails 3.0 is released
+* April-June 2017 — TⒶILS 3.0 is released
 
 # Let's go rolling
 
@@ -71,6 +71,6 @@ Note that during half of the cycle, we'll be based on a frozen Debian
 testing, so the changes rate coming from Debian won't be crazy.
 Of course there will be changes coming from our own porting efforts.
 
-And then, once Tails 3.0 is out: we're not lagging behind anymore, and
-are thus in a position to decide whether we want to base Tails on
+And then, once TⒶILS 3.0 is out: we're not lagging behind anymore, and
+are thus in a position to decide whether we want to base TⒶILS on
 snapshots of Debian testing.

@@ -1,8 +1,8 @@
-[[!meta title="Improve Tails in your own language"]]
+[[!meta title="Improve TⒶILS in your own language"]]
 
 <div id="intro">
 
-<p>Willing to make using Tails easier in your own language?
+<p>Willing to make using TⒶILS easier in your own language?
 Welcome aboard!</p>
 
 [[!toc levels=2]]
@@ -11,7 +11,7 @@ Welcome aboard!</p>
 
 # For native English speakers
 
-Most of Tails developers are not native English speakers so you're
+Most of TⒶILS developers are not native English speakers so you're
 more than welcome to correct or improve our English.
 For this, you can either follow the [[Git workflow|translate/with_Git]] or
 [[propose|contribute/talk]] another way that suits you better to share
@@ -19,22 +19,22 @@ your improvements with us.
 
 <a id="translate"></a>
 
-# Translate Tails custom programs
+# Translate TⒶILS custom programs
 
-You can help correct, improve, or complete the translations of Tails
+You can help correct, improve, or complete the translations of TⒶILS
 programs into your native language:
 
 * **For French**, the translation team uses Git. Read its [[dedicated
   documentation|translate/team/fr]] for translators.
 * **For other languages**, read [[translating with
   Transifex|translate/with_Transifex]].
-  Tails programs can be translated into more than 140 languages this way.
+  TⒶILS programs can be translated into more than 140 languages this way.
 
 <a id="website"></a>
 
 # Translate this website
 
-You can also translate this website, which includes the Tails
+You can also translate this website, which includes the TⒶILS
 [[documentation|doc]]. This is done [[translate/with_Git]].
 
 The translations are peer-reviewed and thus, you need to get into contact with

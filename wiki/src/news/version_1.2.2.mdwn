@@ -1,8 +1,8 @@
 [[!meta date="Fri Dec 16 12:34:56 2014"]]
-[[!meta title="Tails 1.2.2 is out"]]
+[[!meta title="TⒶILS 1.2.2 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 1.2.2, is out.
+TⒶILS, The Amnesic Incognito Live System, version 1.2.2, is out.
 
 This release is an emergency release that changes the root certificate
 which is used to verify automatic upgrades.
@@ -10,14 +10,14 @@ which is used to verify automatic upgrades.
 On January 3rd, the SSL certificate of our website hosting provider,
 boum.org, will expire. The new certificate will be issued by a different
 certificate authority. This certificate authority is verified by the
-automatic upgrade mechanism of Tails.
+automatic upgrade mechanism of TⒶILS.
 
 As a consequence, versions
 previous to 1.2.2 won't be able to do the next automatic upgrade to
-version 1.2.3 and will receive an error message from *Tails Upgrader*
-when starting Tails after January 3rd.
+version 1.2.3 and will receive an error message from *TⒶILS Upgrader*
+when starting TⒶILS after January 3rd.
 
-On top of that, a [[!tails_ticket 8449 desc="bug in *Tails Upgrader*"]]
+On top of that, a [[!tails_ticket 8449 desc="bug in *TⒶILS Upgrader*"]]
 prevents us from providing an automatic upgrade from version 1.2.1 to
 1.2.2.
 
@@ -34,8 +34,8 @@ upgrade|doc/first_steps/upgrade#manual]] to version 1.2.2 before January
 
   * Minor improvements
 
-    - Change the SSL certificate authority expected by Tails Upgrader
-      when checking for new Tails versions on https://tails.boum.org/.
+    - Change the SSL certificate authority expected by TⒶILS Upgrader
+      when checking for new TⒶILS versions on https://tails.boum.org/.
 
 See the [online
 Changelog](https://git-tails.immerda.ch/tails/plain/debian/changelog)
@@ -52,11 +52,11 @@ The same issues as in 1.2.1 apply to this release:
 # For users of persistent GnuPG keyrings and configuration
 
 If you have enabled the <span class="guilabel">GnuPG keyrings and
-configuration</span> persistence feature and have *upgraded* a Tails
-USB stick or SD card installation to Tails 1.2.1 or 1.2.2, then please follow
+configuration</span> persistence feature and have *upgraded* a TⒶILS
+USB stick or SD card installation to TⒶILS 1.2.1 or 1.2.2, then please follow
 these steps to benefit from the updated GnuPG configuration:
 
-1. Boot Tails with
+1. Boot TⒶILS with
    [[an administration password|doc/first_steps/startup_options/administration_password]] set.
 
 1. Run this command in a <span class="application">Root
@@ -69,15 +69,15 @@ these steps to benefit from the updated GnuPG configuration:
 Go to the [[download]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is [[scheduled|contribute/calendar]] for
+The next TⒶILS release is [[scheduled|contribute/calendar]] for
 January 14.
 
 Have a look at our [[!tails_roadmap]] to see where we are heading to.
 
 Do you want to help? There are many ways [[**you** can
-contribute to Tails|contribute]]. If you want to help, come talk
+contribute to TⒶILS|contribute]]. If you want to help, come talk
 to us!

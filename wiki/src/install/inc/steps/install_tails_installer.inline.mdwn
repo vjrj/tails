@@ -1,9 +1,9 @@
-Install <span class="application">Tails Installer</span>
+Install <span class="application">TⒶILS Installer</span>
 ========================================================
 
-In this step, you will install <span class="application">Tails
-Installer</span>, a program designed specifically for installing Tails.
-<span class="application">Tails Installer</span> is available in:
+In this step, you will install <span class="application">TⒶILS
+Installer</span>, a program designed specifically for installing TⒶILS.
+<span class="application">TⒶILS Installer</span> is available in:
 
   - Debian 8 (Jessie) or later in the backports repository
   - Ubuntu 15.10 (Wily) or later in a PPA (*Personal Package Archive*)
@@ -26,8 +26,8 @@ Installer</span>, a program designed specifically for installing Tails.
 
 <div class="tip">
 
-<p>If it is impossible to install <span class="application">Tails
-Installer</span> in your version of Ubuntu or Debian, you can [[install Tails using
+<p>If it is impossible to install <span class="application">TⒶILS
+Installer</span> in your version of Ubuntu or Debian, you can [[install TⒶILS using
 <span class="application">GNOME Disks</span>|install/linux/usb/overview]]
 instead. But it is more complicated and requires two USB sticks instead of
 one.</span></p>

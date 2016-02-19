@@ -59,9 +59,9 @@ msgid "For Windows using Gpg4win"
 msgstr "Pour Windows et Gpg4win"
 
 #. type: Content of: <p>
-msgid "After installing Gpg4win, download Tails signing key:"
+msgid "After installing Gpg4win, download TⒶILS signing key:"
 msgstr ""
-"Après l'installation de Gpg4win, téléchargez la clef de signature Tails :"
+"Après l'installation de Gpg4win, téléchargez la clef de signature TⒶILS :"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!inline pages=\"lib/download_tails_signing_key\" raw=\"yes\"]]"
@@ -113,20 +113,20 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"Then the ISO image is still correct, and valid according to the Tails "
+"Then the ISO image is still correct, and valid according to the TⒶILS "
 "signing key that you downloaded. This warning is related to the trust that "
-"you put in the Tails signing key. See, [[Trusting Tails signing key|doc/get/"
+"you put in the TⒶILS signing key. See, [[Trusting TⒶILS signing key|doc/get/"
 "trusting_tails_signing_key]]. To remove this warning you would have to "
 "personally <span class=\"definition\">[[!wikipedia Keysigning desc=\"sign\"]]"
-"</span> the Tails signing key with your own key."
+"</span> the TⒶILS signing key with your own key."
 msgstr ""
 "Alors l'image ISO est quand même bonne, et valide d'après la clé de "
-"signature de Tails que vous avez téléchargé. Cet avertissement est lié à la "
-"confiance que vous avez placé dans la clé de signature de Tails. Voir "
-"[[Faire confiance à la clé de signature de Tails|doc/get/"
+"signature de TⒶILS que vous avez téléchargé. Cet avertissement est lié à la "
+"confiance que vous avez placé dans la clé de signature de TⒶILS. Voir "
+"[[Faire confiance à la clé de signature de TⒶILS|doc/get/"
 "trusting_tails_signing_key]]. Pour supprimer cet avertissement, vous devrez "
 "personnellement <span class=\"definition\">[[!wikipedia Keysigning desc="
-"\"signer\"]](en anglais)</span> la clé de signature de Tails avec votre clé."
+"\"signer\"]](en anglais)</span> la clé de signature de TⒶILS avec votre clé."
 
 #. type: Content of: <h3>
 msgid "For Mac OS X using GPGTools"

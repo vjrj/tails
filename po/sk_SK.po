@@ -42,7 +42,7 @@ msgid ""
 "without any contact information are useless. On the other hand it also "
 "provides\n"
 "an opportunity for eavesdroppers, like your email or Internet provider, to\n"
-"confirm that you are using Tails.\n"
+"confirm that you are using TⒶILS.\n"
 "</p>\n"
 msgstr ""
 "<h1>Pomôžte nám s vašou chybou!</h1>\n"
@@ -50,13 +50,13 @@ msgstr ""
 "<p><strong>Neuvádzajte viac osobných informácií, než je skutočne\n"
 "potrebné!</strong></p>\n"
 "<h2>O poskytnutí vašej e-mailovej adresy</h2>\n"
-"<p>Ak vám nevadí, že odhalíte kúsok vašej identity vývojárom Tails,\n"
+"<p>Ak vám nevadí, že odhalíte kúsok vašej identity vývojárom TⒶILS,\n"
 "môžete nám poskytnúť e-mailovú adresu, aby sme sa mohli\n"
 "spýtať na ďalšie podrobnosti ohľadne hlásenej chyby. Poskytnutie\n"
 "verejného PGP kľúča nám dovolí takúto budúcu komunikáciu\n"
 "šifrovať.</p>\n"
 "<p>Ktokoľvek, kto uvidí takúto odpoveď, si odvodí, že\n"
-"ste pravdepodobne užívateľ Tails. Tu nastáva čas pouvažovať,\n"
+"ste pravdepodobne užívateľ TⒶILS. Tu nastáva čas pouvažovať,\n"
 "či skutočne veríte svojim poskytovateľom Internetu a e-mailovej\n"
 "schránky.</p>\n"
 
@@ -66,7 +66,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:16
 msgid ""
-"When you reboot Tails, all of Electrum's data will be lost, including your "
+"When you reboot TⒶILS, all of Electrum's data will be lost, including your "
 "Bitcoin wallet. It is strongly recommended to only run Electrum when its "
 "persistence feature is activated."
 msgstr ""
@@ -278,9 +278,9 @@ msgid "not available"
 msgstr "nedostupné"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:19
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
-msgid "Tails"
-msgstr "Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:1
+msgid "TⒶILS"
+msgstr "TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:24
 msgid "The Amnesic Incognito Live System"
@@ -297,8 +297,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:27
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
-msgid "About Tails"
-msgstr "O Tails"
+msgid "About TⒶILS"
+msgstr "O TⒶILS"
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:118
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:124
@@ -310,11 +310,11 @@ msgstr "Váš prídavný software"
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:129
 msgid ""
 "The upgrade failed. This might be due to a network problem. Please check "
-"your network connection, try to restart Tails, or read the system log to "
+"your network connection, try to restart TⒶILS, or read the system log to "
 "understand better the problem."
 msgstr ""
 "Aktualizácia zlyhala. Toto mohlo nastať z dôvodu problémov s pripojením. "
-"Skontrolujte, prosím, vaše pripojenie, skúste reštartovať Tails alebo si "
+"Skontrolujte, prosím, vaše pripojenie, skúste reštartovať TⒶILS alebo si "
 "prečítajte záznam z konzoly, aby ste problém lepšie pochopili."
 
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:125
@@ -338,8 +338,8 @@ msgid "Failed to synchronize the clock!"
 msgstr "Synchronizácia času zlyhala!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
-msgid "This version of Tails has known security issues:"
-msgstr "Táto verzia Tails má známe bezpečnostné riziká:"
+msgid "This version of TⒶILS has known security issues:"
+msgstr "Táto verzia TⒶILS má známe bezpečnostné riziká:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:156
 msgid "Known security issues"
@@ -355,11 +355,11 @@ msgstr "Sieťová karta ${nic} zakázaná"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}) so it is "
 "temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Predstieranie MAC pre sieťovú kartu ${nic_name} (${nic}) zlyhalo, takže bolo "
 "dočasne zakázané.\n"
-"Možno bude lepšie reštartovať Tails a zakázať predstieranie MAC. Pozrite si "
+"Možno bude lepšie reštartovať TⒶILS a zakázať predstieranie MAC. Pozrite si "
 "<a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 "mac_spoofing.en.html'>dokumentáciu</a>."
 
@@ -372,11 +372,11 @@ msgstr "Pripojenie celej siete zakázané"
 msgid ""
 "MAC spoofing failed for network card ${nic_name} (${nic}). The error "
 "recovery also failed so all networking is disabled.\n"
-"You might prefer to restart Tails and disable MAC spoofing."
+"You might prefer to restart TⒶILS and disable MAC spoofing."
 msgstr ""
 "Predstieranie MAC pre sieťovú kartu ${nic_name} (${nic}) zlyhalo. Náprava "
 "chyby taktiež zlyhala, takže bolo zakázané celé pripojenie k sieti.\n"
-"Možno bude lepšie reštartovať Tails a zakázať predstieranie MAC. Pozrite si "
+"Možno bude lepšie reštartovať TⒶILS a zakázať predstieranie MAC. Pozrite si "
 "<a href='file:///usr/share/doc/tails/website/doc/first_steps/startup_options/"
 "mac_spoofing.en.html'>dokumentáciu</a>."
 
@@ -394,21 +394,21 @@ msgstr "Chyba"
 msgid ""
 "<b>Not enough memory available to check for upgrades.</b>\n"
 "\n"
-"Make sure this system satisfies the requirements for running Tails.\n"
+"Make sure this system satisfies the requirements for running TⒶILS.\n"
 "See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Try to restart Tails to check for upgrades again.\n"
+"Try to restart TⒶILS to check for upgrades again.\n"
 "\n"
 "Or do a manual upgrade.\n"
 "See https://tails.boum.org/doc/first_steps/upgrade#manual"
 msgstr ""
 "<b>Nedostatok pamäte pre kontrolu aktualizácií.</b>\n"
 "\n"
-"Uistite sa, že tento systém spĺňa požiadavky na beh Tails.\n"
+"Uistite sa, že tento systém spĺňa požiadavky na beh TⒶILS.\n"
 "Pozrite si file:///usr/share/doc/tails/website/doc/about/requirements.en."
 "html\n"
 "\n"
-"Skúste Tails reštartovať a znova prekontrolujte aktualizácie.\n"
+"Skúste TⒶILS reštartovať a znova prekontrolujte aktualizácie.\n"
 "\n"
 "Alebo tiež môžete vykonať manuálnu aktualizáciu.\n"
 "Pozrite si https://tails.boum.org/doc/first_steps/upgrade#manual"
@@ -420,10 +420,10 @@ msgstr "Upozornenie: bol objavený virtuálny stroj!"
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:69
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails."
+"monitor what you are doing in TⒶILS."
 msgstr ""
 "Hlavný operačný systém aj virtualizačný software sú schopné monitorovať vašu "
-"aktivitu v Tails."
+"aktivitu v TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:72
 #, fuzzy
@@ -434,17 +434,17 @@ msgstr "Upozornenie: bol objavený virtuálny stroj!"
 #, fuzzy
 msgid ""
 "Both the host operating system and the virtualization software are able to "
-"monitor what you are doing in Tails. Only free software can be considered "
+"monitor what you are doing in TⒶILS. Only free software can be considered "
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
 "Hlavný operačný systém aj virtualizačný software sú schopné monitorovať vašu "
-"aktivitu v Tails."
+"aktivitu v TⒶILS."
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:79
 #, fuzzy
 msgid "Learn more"
-msgstr "Zistiť viac o Tails"
+msgstr "Zistiť viac o TⒶILS"
 
 #: config/chroot_local-includes/usr/local/bin/tor-browser:41
 msgid "Tor is not ready"
@@ -593,12 +593,12 @@ msgstr "Nahlásiť chybu"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
-msgid "Tails documentation"
-msgstr "Tails dokumentácia"
+msgid "TⒶILS documentation"
+msgstr "TⒶILS dokumentácia"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
-msgid "Learn how to use Tails"
-msgstr "Naučte sa používať Tails"
+msgid "Learn how to use TⒶILS"
+msgstr "Naučte sa používať TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/i2p-browser.desktop.in.h:1
 #, fuzzy
@@ -611,8 +611,8 @@ msgid "I2P Browser"
 msgstr "Nezabezpečený prehliadač"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
-msgid "Learn more about Tails"
-msgstr "Zistiť viac o Tails"
+msgid "Learn more about TⒶILS"
+msgstr "Zistiť viac o TⒶILS"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
@@ -644,9 +644,9 @@ msgstr "Prehliadať Web bez anonymity"
 msgid "Unsafe Web Browser"
 msgstr "Nezabezpečený webový prehliadač"
 
-#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
-msgid "Tails specific tools"
-msgstr "Špecifické nástroje Tails"
+#: ../config/chroot_local-includes/usr/share/desktop-directories/TⒶILS.directory.in.h:2
+msgid "TⒶILS specific tools"
+msgstr "Špecifické nástroje TⒶILS"
 
 #~ msgid "Shutdown Immediately"
 #~ msgstr "Okamžite ukončiť"
@@ -685,14 +685,14 @@ msgstr "Špecifické nástroje Tails"
 #~ "<a href='file:///usr/share/doc/tails/website/doc/advanced_topics/"
 #~ "virtualization.en.html'>Zistiť viac...</a>"
 
-#~ msgid "TrueCrypt will soon be removed from Tails"
-#~ msgstr "TrueCrypt bude čoskoro z Tails odstránený"
+#~ msgid "TrueCrypt will soon be removed from TⒶILS"
+#~ msgstr "TrueCrypt bude čoskoro z TⒶILS odstránený"
 
 #~ msgid ""
-#~ "TrueCrypt will soon be removed from Tails due to license and development "
+#~ "TrueCrypt will soon be removed from TⒶILS due to license and development "
 #~ "concerns."
 #~ msgstr ""
-#~ "TrueCrypt bude čoskoro z Tails odstránený z dôvodu licenčných záležitostí "
+#~ "TrueCrypt bude čoskoro z TⒶILS odstránený z dôvodu licenčných záležitostí "
 #~ "a záležitostí tákajúcich sa vývoja."
 
 #~ msgid "i2p"

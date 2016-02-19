@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Tue Sep 22 12:34:56 2015\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.6 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 1.6 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.6 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 1.6 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 1.6, is out."
-msgstr "Tails, le système live incognito et amnésique, version 1.6, est sorti"
+msgid "TⒶILS, The Amnesic Incognito Live System, version 1.6, is out."
+msgstr "TⒶILS, le système live incognito et amnésique, version 1.6, est sorti"
 
 #. type: Plain text
 msgid ""
@@ -82,13 +82,13 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you have been updating automatically for a while and your Tails does not "
-"boot after an automatic upgrade, you can [[update your Tails manually|doc/"
+"If you have been updating automatically for a while and your TⒶILS does not "
+"boot after an automatic upgrade, you can [[update your TⒶILS manually|doc/"
 "first_steps/upgrade/#manual]]."
 msgstr ""
 "Si vous n'avez pas fait de mise à jour automatique depuis longtemps et que "
-"votre Tails ne démarre après cette mise à  jour automatique, vous pouvez "
-"[[mettre à jour Tails manuellement|doc/first_steps/upgrade/#manual]]. "
+"votre TⒶILS ne démarre après cette mise à  jour automatique, vous pouvez "
+"[[mettre à jour TⒶILS manuellement|doc/first_steps/upgrade/#manual]]. "
 
 #. type: Title #
 #, no-wrap
@@ -97,9 +97,9 @@ msgstr "Et ensuite ?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for November 3."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for November 3."
 msgstr ""
-"La prochaine version de Tails est [[prévue|contribute/calendar]] pour le 3 "
+"La prochaine version de TⒶILS est [[prévue|contribute/calendar]] pour le 3 "
 "novembre."
 
 #. type: Plain text
@@ -110,10 +110,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Do you want to help? There are many ways [[**you** can contribute to Tails|"
+"Do you want to help? There are many ways [[**you** can contribute to TⒶILS|"
 "contribute]], for example by [[donating|contribute/how/donate]]. If you want "
 "to help, come talk to us!"
 msgstr ""
-"Vous voulez aider ? **Vous** pouvez contribuer à Tails de [[pleins de "
+"Vous voulez aider ? **Vous** pouvez contribuer à TⒶILS de [[pleins de "
 "manières différentes|contribute]], par exemple en faisait une [[donation|"
 "contribute/how/donate]]. Si vous voulez aider, venez discuter avec nous !"

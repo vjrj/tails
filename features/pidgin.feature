@@ -1,7 +1,7 @@
 #10497: wait_until_tor_is_working
 @product @fragile
 Feature: Chatting anonymously using Pidgin
-  As a Tails user
+  As a TⒶILS user
   when I chat using Pidgin
   I should be able to use OTR
   And I should be able to persist my Pidgin configuration
@@ -10,7 +10,7 @@ Feature: Chatting anonymously using Pidgin
 
   @check_tor_leaks
   Scenario: Chatting with some friend over XMPP
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
     When I start Pidgin through the GNOME menu
     Then I see Pidgin's account manager window
     When I create my XMPP account
@@ -23,7 +23,7 @@ Feature: Chatting anonymously using Pidgin
 
   @check_tor_leaks
   Scenario: Chatting with some friend over XMPP in a multi-user chat
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
     When I start Pidgin through the GNOME menu
     Then I see Pidgin's account manager window
     When I create my XMPP account
@@ -38,7 +38,7 @@ Feature: Chatting anonymously using Pidgin
 
   @check_tor_leaks
   Scenario: Chatting with some friend over XMPP and with OTR
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
     When I start Pidgin through the GNOME menu
     Then I see Pidgin's account manager window
     When I create my XMPP account
@@ -52,11 +52,11 @@ Feature: Chatting anonymously using Pidgin
     When I say something to my friend
     Then I receive a response from my friend
 
-  # 10376 - "the Tor Browser loads the (startup page|Tails roadmap)" step is fragile
+  # 10376 - "the Tor Browser loads the (startup page|TⒶILS roadmap)" step is fragile
   # 10443 - OFTC tests are fragile
   @check_tor_leaks @fragile
   Scenario: Connecting to the #tails IRC channel with the pre-configured account
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
     And Pidgin has the expected accounts configured with random nicknames
     When I start Pidgin through the GNOME menu
     Then I see Pidgin's account manager window
@@ -66,20 +66,20 @@ Feature: Chatting anonymously using Pidgin
     And I can join the "#tails" channel on "irc.oftc.net"
     When I type "/topic"
     And I press the "ENTER" key
-    Then I see the Tails roadmap URL
-    When I click on the Tails roadmap URL
-    Then the Tor Browser has started and loaded the Tails roadmap
+    Then I see the TⒶILS roadmap URL
+    When I click on the TⒶILS roadmap URL
+    Then the Tor Browser has started and loaded the TⒶILS roadmap
     And the "irc.oftc.net" account only responds to PING and VERSION CTCP requests
 
   Scenario: Adding a certificate to Pidgin
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
     And I start Pidgin through the GNOME menu
     And I see Pidgin's account manager window
     And I close Pidgin's account manager window
     Then I can add a certificate from the "/home/amnesia" directory to Pidgin
 
   Scenario: Failing to add a certificate to Pidgin
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
     When I start Pidgin through the GNOME menu
     And I see Pidgin's account manager window
     And I close Pidgin's account manager window
@@ -92,10 +92,10 @@ Feature: Chatting anonymously using Pidgin
     Then I cannot add a certificate from the "/live/overlay/home/amnesia/.gnupg" directory to Pidgin
 
   #10443 - OFTC tests are fragile
-  #10720: Tails Installer freezes on Jenkins
+  #10720: TⒶILS Installer freezes on Jenkins
   @check_tor_leaks @fragile
   Scenario: Using a persistent Pidgin configuration
-    Given I have started Tails without network from a USB drive with a persistent partition enabled and logged in
+    Given I have started TⒶILS without network from a USB drive with a persistent partition enabled and logged in
     And Pidgin has the expected accounts configured with random nicknames
     And the network is plugged
     And Tor is ready
@@ -106,9 +106,9 @@ Feature: Chatting anonymously using Pidgin
     # And I generate an OTR key for the default Pidgin account
     And I take note of the configured Pidgin accounts
     # And I take note of the OTR key for Pidgin's "irc.oftc.net" account
-    And I shutdown Tails and wait for the computer to power off
+    And I shutdown TⒶILS and wait for the computer to power off
     Given a computer
-    And I start Tails from USB drive "__internal" and I login with persistence enabled
+    And I start TⒶILS from USB drive "__internal" and I login with persistence enabled
     And Pidgin has the expected persistent accounts configured
     # And Pidgin has the expected persistent OTR keys
     When I start Pidgin through the GNOME menu

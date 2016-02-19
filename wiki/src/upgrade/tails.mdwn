@@ -1,4 +1,4 @@
-[[!meta title="Manually upgrade inside Tails"]]
+[[!meta title="Manually upgrade inside TⒶILS"]]
 
 [[!meta stylesheet="bootstrap" rel="stylesheet" title=""]]
 [[!meta stylesheet="install/inc/stylesheets/assistant" rel="stylesheet" title=""]]
@@ -11,15 +11,15 @@
 
 <div class="step-image">[[!img install/inc/infography/os-tails.png link="no"]]</div>
 
-<p class="start">Start in Tails.</p>
+<p class="start">Start in TⒶILS.</p>
 
 [[!inline pages="install/inc/steps/download.inline" raw="yes"]]
 
-Install an intermediary Tails
+Install an intermediary TⒶILS
 =============================
 
-In this step, you will install an intermediary Tails by cloning your
-outdated Tails on another USB stick using <span class="application">Tails Installer</span>.
+In this step, you will install an intermediary TⒶILS by cloning your
+outdated TⒶILS on another USB stick using <span class="application">TⒶILS Installer</span>.
 
 <div class="caution">
 
@@ -29,7 +29,7 @@ outdated Tails on another USB stick using <span class="application">Tails Instal
 
 <div class="note">
 
-<p>The persistent storage of your Tails USB stick will not be
+<p>The persistent storage of your TⒶILS USB stick will not be
 copied.</p>
 
 </div>
@@ -41,10 +41,10 @@ copied.</p>
 1. Choose
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">Tails Installer</span>
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
+     <span class="guimenuitem">TⒶILS Installer</span>
    </span>
-   to start <span class="application">Tails Installer</span>.
+   to start <span class="application">TⒶILS Installer</span>.
 
 1. Click on the <span class="button">Install by cloning</span> button.
 
@@ -55,7 +55,7 @@ copied.</p>
 1. Use the <span class="guilabel">Target Device</span> drop-down list to
    specify the intermediary USB stick.
 
-1. To start the installation, click on the <span class="button">Install Tails</span> button.
+1. To start the installation, click on the <span class="button">Install TⒶILS</span> button.
 
 1. Read the warning message in the confirmation dialog. Click
    on <span class="button">Yes</span> to confirm.
@@ -67,12 +67,12 @@ copied.</p>
    while synchronizing data on disk.</p>
    </div>
 
-1. Close <span class="application">Tails Installer</span>.
+1. Close <span class="application">TⒶILS Installer</span>.
 
-Upgrade the intermediary Tails
+Upgrade the intermediary TⒶILS
 ==============================
 
-In this step, you will upgrade the intermediary Tails using the Tails ISO
+In this step, you will upgrade the intermediary TⒶILS using the TⒶILS ISO
 image that you downloaded earlier.
 
 <div class="step-image">[[!img install/inc/infography/upgrade-upgrade-usb.png link="no"]]</div>
@@ -80,10 +80,10 @@ image that you downloaded earlier.
 1. Choose
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">Tails Installer</span>
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
+     <span class="guimenuitem">TⒶILS Installer</span>
    </span>
-   to start <span class="application">Tails Installer</span> again.
+   to start <span class="application">TⒶILS Installer</span> again.
 
 1. Click on the <span class="button">Upgrade from ISO</span> button.
 
@@ -92,14 +92,14 @@ image that you downloaded earlier.
 
 1. Choose the intermediary USB stick in the <span class="guilabel">Target Device</span> drop-down list.
 
-1. To start the upgrade, click on the <span class="button">Install Tails</span> button.
+1. To start the upgrade, click on the <span class="button">Install TⒶILS</span> button.
 
 1. Read the warning message in the pop-up window. Click on the <span
    class="button">Yes</span> button to confirm.
 
    The upgrade takes a few minutes.
 
-1. Close <span class="application">Tails Installer</span>.
+1. Close <span class="application">TⒶILS Installer</span>.
 
 [[!inline pages="install/inc/steps/switch.inline" raw="yes"]]
 

@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Tue Nov 03 12:34:56 2015\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.7 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 1.7 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.7 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 1.7 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -77,11 +77,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you have been updating automatically for a while and your Tails does not "
-"boot after an automatic upgrade, you can [[update your Tails manually|doc/"
+"If you have been updating automatically for a while and your TⒶILS does not "
+"boot after an automatic upgrade, you can [[update your TⒶILS manually|doc/"
 "first_steps/upgrade#manual]]."
 msgstr ""
-"Si vous utilisez les mises à jour automatiques depuis un moment et que Tails "
+"Si vous utilisez les mises à jour automatiques depuis un moment et que TⒶILS "
 "ne redémarre pas correctement après la mise à jour automatique, vous pouvez "
 "[[effectuer une mise à jour manuelle|doc/first_steps/upgrade#manual]]."
 
@@ -92,9 +92,9 @@ msgstr "Et ensuite ?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for December 15."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for December 15."
 msgstr ""
-"La prochaine version de Tails est [[prévue|contribute/calendar]] pour le 15 "
+"La prochaine version de TⒶILS est [[prévue|contribute/calendar]] pour le 15 "
 "décembre."
 
 #. type: Plain text
@@ -105,11 +105,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We need your help and there are many ways to [[contribute to Tails|"
+"We need your help and there are many ways to [[contribute to TⒶILS|"
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|contribute/talk]]!"
 msgstr ""
-"Vous voulez aider ? **Vous** pouvez contribuer à Tails de [[pleins de "
+"Vous voulez aider ? **Vous** pouvez contribuer à TⒶILS de [[pleins de "
 "manières différentes|contribute]], par exemple en faisant une [[donation|"
 "contribute/how/donate]]. Si vous voulez aider, venez [[discuter avec nous|"
 "contribute/talk]] !"

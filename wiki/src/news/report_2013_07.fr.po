@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for July, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for July, 2013\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -33,7 +33,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Tails summit\n"
+msgid "TⒶILS summit\n"
 msgstr ""
 
 #. type: Plain text
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"There was no release in July. Tails 0.20 [is planned](https://mailman.boum."
+"There was no release in July. TⒶILS 0.20 [is planned](https://mailman.boum."
 "org/pipermail/tails-dev/2013-July/003292.html)  for the 9th of August."
 msgstr ""
 
@@ -61,9 +61,9 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"151 657 connections of Tails to the Tor network. This makes a boot every "
+"151 657 connections of TⒶILS to the Tor network. This makes a boot every "
 "17.7 seconds on average. This is an approximation from the requests made to "
-"the security announcements feed when Tails is connected to Tor."
+"the security announcements feed when TⒶILS is connected to Tor."
 msgstr ""
 
 #. type: Plain text
@@ -89,7 +89,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"A first build of Tails based on Debian Wheezy version was tested, and many "
+"A first build of TⒶILS based on Debian Wheezy version was tested, and many "
 "bugs [[!tails_ticket 6015 desc=\"were identified\"]]."
 msgstr ""
 
@@ -162,7 +162,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"A new page [[Website|contribute/how/website]] on how to improve the Tails "
+"A new page [[Website|contribute/how/website]] on how to improve the TⒶILS "
 "website was [[!tails_gitweb_commit fb9135c3ba1cbb974f9ab3bf596d17ce03803e4a "
 "desc=\"added to the contribute section\"]]."
 msgstr ""
@@ -214,7 +214,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"- All Tails strings but the website are now translatable in Transifex.  - "
+"- All TⒶILS strings but the website are now translatable in Transifex.  - "
 "i18nspector was uploaded to wheezy-backports."
 msgstr ""
 
@@ -244,31 +244,31 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Our roadmap was updated and we defined our objectives for Tails 1.0, 1.1, "
+"Our roadmap was updated and we defined our objectives for TⒶILS 1.0, 1.1, "
 "2.0, and 3.0:"
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 1.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.0): "
+"[TⒶILS 1.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.0): "
 "feature parity with Incognito"
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.1): "
-"Tails based on Debian Wheezy"
+"[TⒶILS 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails 1.1): "
+"TⒶILS based on Debian Wheezy"
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 2.0): "
+"[TⒶILS 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 2.0): "
 "Sustainability and maintainability"
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 3.0): "
+"[TⒶILS 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails 3.0): "
 "Hardening and better security"
 msgstr ""
 

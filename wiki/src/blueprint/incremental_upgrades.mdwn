@@ -13,7 +13,7 @@ changes are useful enough to put time in it.
 ### Packaging could be more self-contained
 
 Move `/etc/sudoers.d/zzz_upgrade` and IUK-related user creation from
-the Tails main Git repository to the `tails-iuk` Debian package, so
+the TⒶILS main Git repository to the `tails-iuk` Debian package, so
 that it's more self-contained and easier to test.
 
 ### Button for aborting upgrade cleanly
@@ -22,8 +22,8 @@ that it's more self-contained and easier to test.
 
 ### Multi-step incremental upgrade
 
-E.g. 0.11 boots after 0.11.1 and 0.11.2 are out. Tails fetches
-https://tails.boum.org/upgrade/v1/Tails/0.11/i386/stable/upgrades.yml,
+E.g. 0.11 boots after 0.11.1 and 0.11.2 are out. TⒶILS fetches
+https://tails.boum.org/upgrade/v1/TⒶILS/0.11/i386/stable/upgrades.yml,
 that shall contain an incremental upgrade path with two target files:
 the 0.11 to 0.11.1 IUK, and the 0.11.1 to 0.11.2 IUK. The upgrader
 would download these two files and install the two IUKs in the

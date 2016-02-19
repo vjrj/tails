@@ -27,7 +27,7 @@ msgid "[[!meta title=\"Report for July 2012\"]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Here is the report of what happened around Tails in July, 2012."
+msgid "Here is the report of what happened around TⒶILS in July, 2012."
 msgstr ""
 
 #. type: Title =
@@ -48,7 +48,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"It was also an opportunity to meet some unexpected users of Tails within the "
+"It was also an opportunity to meet some unexpected users of TⒶILS within the "
 "Debian community."
 msgstr ""
 
@@ -58,8 +58,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"656 messages were exchanged on the Tails web forum, with at least 104 "
-"answers signed as 'Tails'."
+"656 messages were exchanged on the TⒶILS web forum, with at least 104 "
+"answers signed as 'TⒶILS'."
 msgstr ""
 
 #. type: Plain text
@@ -74,17 +74,17 @@ msgid "Code\n"
 msgstr ""
 
 #. type: Plain text
-msgid "We did [[release Tails 0.12.1|version_0.12.1]]."
+msgid "We did [[release TⒶILS 0.12.1|version_0.12.1]]."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "The whole ride to 0.12.1 was pretty painful. 0.12 contained nasty user "
 "visible issues. Some last minute changes in package repositories used by "
-"Tails had to be worked around. All this is convincing us that we need to be "
+"TⒶILS had to be worked around. All this is convincing us that we need to be "
 "able to provide pre-release ISO images to be tested by supporting users. We "
 "also need automated tests and a more reliable system to deal with upstream "
-"and Tails packages."
+"and TⒶILS packages."
 msgstr ""
 
 #. type: Plain text
@@ -120,7 +120,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"A little more progress was made to port Tails to the next Debian release "
+"A little more progress was made to port TⒶILS to the next Debian release "
 "(codename Wheezy)."
 msgstr ""
 
@@ -183,8 +183,8 @@ msgid ""
 "proposals made by the European Instrument for Democracy & Human Rights "
 "(EIDHR). The call was directed toward projects that helps human rights "
 "defenders to defeat cyber-censorship.  Our proposal mostly revolves around "
-"several improvements to Tails: automated builds and tests to be able to "
-"release more often, safer versions of Tails; better support for bridge and "
+"several improvements to TⒶILS: automated builds and tests to be able to "
+"release more often, safer versions of TⒶILS; better support for bridge and "
 "pluggable transports; better support for recent and upcoming computers; and "
 "translations improvements. We still don't have answers for first selection "
 "round, we will see how it goes."

@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for April, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for April, 2013\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -37,7 +37,7 @@ msgid "Releases\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails 0.17.2 [[was released|news/version_0.17.2]] on April 9th."
+msgid "TⒶILS 0.17.2 [[was released|news/version_0.17.2]] on April 9th."
 msgstr ""
 
 #. type: Title =
@@ -47,9 +47,9 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"121 183 connections of Tails to the Tor network. This makes a boot every 21 "
+"121 183 connections of TⒶILS to the Tor network. This makes a boot every 21 "
 "seconds on average (this is an approximation from the requests made to the "
-"security announcements feed when Tails is connected to Tor)."
+"security announcements feed when TⒶILS is connected to Tor)."
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -58,7 +58,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"984 comments were posted on the forum, with 76 signed by Tails.  This means "
+"984 comments were posted on the forum, with 76 signed by TⒶILS.  This means "
 "there has been much more activity on the forum, and that we are having a "
 "hard time coping with it, but also that anonymous contributors are providing "
 "more and more good answers without our help."
@@ -80,7 +80,7 @@ msgstr ""
 msgid ""
 "The persistence feature to [[todo/remember_installed_packages]] ([[!"
 "tails_gitweb_branch feature/remember_installed_packages desc=\"has matured a "
-"lot\"]]) and should be ready for Tails 0.18."
+"lot\"]]) and should be ready for TⒶILS 0.18."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -92,7 +92,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "Torbutton 1.5.x [[!tails_gitweb_branch feature/torbutton-1.5.x desc=\"can "
-"now be included\"]] in Tails. We also reorganized and cleaned our iceweasel "
+"now be included\"]] in TⒶILS. We also reorganized and cleaned our iceweasel "
 "prefs to look a bit more like the ones from TBB."
 msgstr ""
 
@@ -107,7 +107,7 @@ msgstr ""
 msgid ""
 "The \"About GNOME\" menu entry [[!tails_gitweb_branch feature/about_tails "
 "desc=\"has been customized\"]] to provide information about the running "
-"version of Tails."
+"version of TⒶILS."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -156,7 +156,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"\"Getting started...\" is now the homepage for the Tails documentation "
+"\"Getting started...\" is now the homepage for the TⒶILS documentation "
 "accessible from the desktop."
 msgstr ""
 
@@ -197,7 +197,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails USB installer: update translations for Arabic, German, Greek, Spanish, "
+"TⒶILS USB installer: update translations for Arabic, German, Greek, Spanish, "
 "Farsi, Finnish, Italian, Latvian, Dutch, Polish, and Chinese."
 msgstr ""
 
@@ -225,7 +225,7 @@ msgstr ""
 msgid ""
 "[secure and simple network time (hack)](https://mailman.boum.org/pipermail/"
 "tails-dev/2013-April/002843.html), about tlsdate, a possible segmentation "
-"fault and its future in Tails"
+"fault and its future in TⒶILS"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -248,7 +248,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"- Tails 0.17.2 was the first release assisted with automated tests!\n"
+"- TⒶILS 0.17.2 was the first release assisted with automated tests!\n"
 "  * Cucumber is used to describe the tests to perform.\n"
 "  * 82 tests have been written so far\n"
 msgstr ""

@@ -14,10 +14,10 @@ This is about [[!tails_ticket 10491]].
 
 <https://mailman.boum.org/pipermail/tails-ux/2015-December/000812.html>
 
-Current issues in Tails
+Current issues in TⒶILS
 =======================
 
-  - After Tails Greeter, it might be hard for some people to understand where
+  - After TⒶILS Greeter, it might be hard for some people to understand where
   to click on the GNOME desktop to connect a Wi-Fi network.
 
   - It's not possible to go from direct Tor connection to bridge mode in case
@@ -39,7 +39,7 @@ Current issues in Tails
   progress.
 
   - If MAC spoofing fails but I decide that it's OK not to spoof MAC in my
-  situation, then I have to reboot Tails all the way.
+  situation, then I have to reboot TⒶILS all the way.
 
 Open questions
 ==============

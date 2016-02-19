@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for May, 2014\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for May, 2014\"]]\n"
 msgstr ""
 
 #. type: Title =
@@ -28,15 +28,15 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Late May we decided to [postpone the release of Tails "
+"Late May we decided to [postpone the release of TⒶILS "
 "1.1](https://mailman.boum.org/pipermail/tails-dev/2014-May/005901.html), "
-"based on Debian Wheezy, to the next release cycle. And instead have Tails "
+"based on Debian Wheezy, to the next release cycle. And instead have TⒶILS "
 "1.0.1 released on June 10."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails 1.1~beta1, the first beta version of Tails based on Debian Wheezy, was "
+"TⒶILS 1.1~beta1, the first beta version of Tails based on Debian Wheezy, was "
 "released on May 30."
 msgstr ""
 
@@ -47,12 +47,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails has been started more than 344 328 times this month.  This make 11 107 "
+"TⒶILS has been started more than 344 328 times this month.  This make 11 107 "
 "boots a day in average."
 msgstr ""
 
 #. type: Bullet: '- '
-msgid "31 698 downloads of the OpenPGP signature of Tails ISO."
+msgid "31 698 downloads of the OpenPGP signature of TⒶILS ISO."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -70,7 +70,7 @@ msgstr ""
 msgid ""
 "The development of TrueCrypt [was "
 "discontinued](http://truecrypt.sourceforge.net/) but our position regarding "
-"TrueCrypt has remained the same for years: Tails includes TrueCrypt only for "
+"TrueCrypt has remained the same for years: TⒶILS includes TrueCrypt only for "
 "backward compatibility and we are working on [[choosing a free software as "
 "replacement|blueprint/replace_truecrypt]] to open TrueCrypt volumes. We hope "
 "that this recent announcement encourages users to migrate to other encrypted "
@@ -85,7 +85,7 @@ msgid "Code\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Still, a lot of work has been done to prepare Tails 1.1:"
+msgid "Still, a lot of work has been done to prepare TⒶILS 1.1:"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -104,12 +104,12 @@ msgid "Fixed the starting of ORCA screen reader ([[!tails_ticket 7251]])."
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "Fixed the keymap selection from Tails Greeter ([[!tails_ticket 7065]])."
+msgid "Fixed the keymap selection from TⒶILS Greeter ([[!tails_ticket 7065]])."
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"Set the background of Tails Greeter to our usual blue color ([[!tails_ticket "
+"Set the background of TⒶILS Greeter to our usual blue color ([[!tails_ticket "
 "7126]])."
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"Tails devices are now converted to UEFI on full upgrade ([[!tails_ticket "
+"TⒶILS devices are now converted to UEFI on full upgrade ([[!tails_ticket "
 "6577]])."
 msgstr ""
 
@@ -244,7 +244,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"Many parts of our documentation were adapted to Tails Wheezy "
+"Many parts of our documentation were adapted to TⒶILS Wheezy "
 "[[!tails_gitweb_branch doc/wheezy]]."
 msgstr ""
 
@@ -313,7 +313,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "- [Sharing wiperam package between Freepto and "
-"Tails?](https://mailman.boum.org/pipermail/tails-dev/2014-May/005787.html)"
+"TⒶILS?](https://mailman.boum.org/pipermail/tails-dev/2014-May/005787.html)"
 msgstr ""
 
 #. type: Plain text
@@ -397,13 +397,13 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Organized a [Tails 1.0 Launch "
+"Organized a [TⒶILS 1.0 Launch "
 "Party](https://www.youtube.com/watch?v=hz1rAHzo9eM) in Washington DC."
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Organizing the upcoming [[Tails HackFest|blueprint/HackFest_2014_Paris]] and "
+"Organizing the upcoming [[TⒶILS HackFest|blueprint/HackFest_2014_Paris]] and "
 "yearly summit: agenda, accommodation, traveling sponsorship, venue, food, "
 "etc."
 msgstr ""
@@ -415,47 +415,47 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"In late April and early May, many press articles covered the Tails 1.0 "
+"In late April and early May, many press articles covered the TⒶILS 1.0 "
 "release, including:"
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 1.0 – La distrib sécurisée sort enfin en version "
+"[TⒶILS 1.0 – La distrib sécurisée sort enfin en version "
 "stable](http://korben.info/tails-1-0.html) (in French)."
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Anonymisierungs-OS Tails wird "
-"erwachsen](http://www.heise.de/security/meldung/Anonymisierungs-OS-Tails-wird-erwachsen-2180167.html)  "
+"[Anonymisierungs-OS TⒶILS wird "
+"erwachsen](http://www.heise.de/security/meldung/Anonymisierungs-OS-TⒶILS-wird-erwachsen-2180167.html)  "
 "in heise Security (in German)."
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Secure OS Tails Emerges From "
+"[Secure OS TⒶILS Emerges From "
 "Beta](http://www.pcmag.com/article2/0,2817,2457452,00.asp) by David Murphy "
 "in PCMAG."
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Edward Snowden's OS of choice, the Linux-based Tails, is now out of "
+"[Edward Snowden's OS of choice, the Linux-based TⒶILS, is now out of "
 "beta](http://www.engadget.com/2014/05/01/tails-linux-os-version1-0/)  by "
 "Steve Dent in Engadget."
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails 1.0: Sicherheit und "
+"[TⒶILS 1.0: Sicherheit und "
 "Anonymität](http://www.pro-linux.de/news/1/21038/tails-10-sicherheit-und-anonymitaet.html)  "
 "by Ferdinand Thommes in PRO-LINUX.DE (in German)."
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Tails, l'OS dédié à la confidentialité, passe en version "
+"[TⒶILS, l'OS dédié à la confidentialité, passe en version "
 "1.0](http://www.numerama.com/magazine/29251-tails-l-os-dedie-a-la-confidentialite-passe-en-version-10.html)  "
 "by Julien L. in Numerama (in French)."
 msgstr ""
@@ -469,7 +469,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"[Snowden's Beloved Tails OS Reaches v1.0 "
-"Milestone](http://www.linuxinsider.com/story/Snowdens-Beloved-Tails-OS-Reaches-v10-Milestone-80386.html)  "
+"[Snowden's Beloved TⒶILS OS Reaches v1.0 "
+"Milestone](http://www.linuxinsider.com/story/Snowdens-Beloved-TⒶILS-OS-Reaches-v10-Milestone-80386.html)  "
 "by Richard Adhikari in LinuxInsider."
 msgstr ""

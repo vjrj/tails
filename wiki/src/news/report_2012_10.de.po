@@ -23,14 +23,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for October, 2012\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for October, 2012\"]]\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"October 2012 has seen the highest activity on Tails development mailing-list "
+"October 2012 has seen the highest activity on TⒶILS development mailing-list "
 "since it is publicly archived (September 2010). This reflects how much work "
-"is done to slowly make Tails better and better. More details follow."
+"is done to slowly make TⒶILS better and better. More details follow."
 msgstr ""
 
 #. type: Title =
@@ -40,7 +40,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails 0.14 is on its way. A first release candidate was released on the 12th "
+"TⒶILS 0.14 is on its way. A first release candidate was released on the 12th "
 "with pretty good reactions so far. This new version will catch up with long "
 "awaited, unspectacular but important features, and fix an impressive amount "
 "of small bugs."
@@ -66,7 +66,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "This got included in the second release candidate, released on the 30th, "
-"together with translation updates. Unless a major issue shows up, Tails 0.14 "
+"together with translation updates. Unless a major issue shows up, TⒶILS 0.14 "
 "should be released on November, 6th."
 msgstr ""
 
@@ -77,10 +77,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails has been started and successfully connected to the Tor network around "
+"TⒶILS has been started and successfully connected to the Tor network around "
 "80.420 times in September. That makes a boot every 33 seconds on "
 "average. This number is an approximation from the requests made for the "
-"security announcements feed. The later is retrieved by Tails after being "
+"security announcements feed. The later is retrieved by TⒶILS after being "
 "connected to Tor to eventually encourage users to update."
 msgstr ""
 
@@ -91,7 +91,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The forum activity is still really intense: 1542 messages, 161 signed by "
-"Tails."
+"TⒶILS."
 msgstr ""
 
 #. type: Title =
@@ -159,20 +159,20 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[Persistence for browser bookmarks is ready for Tails "
+"[Persistence for browser bookmarks is ready for TⒶILS "
 "0.15](https://mailman.boum.org/pipermail/tails-dev/2012-October/001884.html)."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Add and get good reports for a [[Japanese input "
-"method|forum/Japanese_support]], will be included in Tails 0.14."
+"method|forum/Japanese_support]], will be included in TⒶILS 0.14."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Add an [[input system for Korean|todo/korean_input_system]], should be "
-"included in Tails 0.15."
+"included in TⒶILS 0.15."
 msgstr ""
 
 #. type: Plain text
@@ -203,14 +203,14 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "[Add our custom APT repository in "
-"Tails](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/apt-repository)."
+"TⒶILS](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/apt-repository)."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "[Get our own Iceweasel packages with TorBrowser "
 "patches](git://labs.riseup.net/tails_iceweasel.git) and [include them in "
-"Tails](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/torbrowser)  "
+"TⒶILS](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/torbrowser)  "
 "0.14."
 msgstr ""
 
@@ -230,7 +230,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[New progress has been made on Tails automated test "
+"[New progress has been made on TⒶILS automated test "
 "suite](http://git.immerda.ch/?p=amnesia.git;a=shortlog;h=refs/heads/feature/automated_tests/cucumber)."
 msgstr ""
 
@@ -263,7 +263,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Documented more of Tails current development process: [[roles, "
+"Documented more of TⒶILS current development process: [[roles, "
 "processes|contribute/working_together]] and the [[release "
 "schedule|contribute/release_schedule]]."
 msgstr ""
@@ -310,7 +310,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[Mockups for a revamped Tails Greeter, resulting in several "
+"[Mockups for a revamped TⒶILS Greeter, resulting in several "
 "comments](https://mailman.boum.org/pipermail/tails-dev/2012-October/001781.html)."
 msgstr ""
 
@@ -322,13 +322,13 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[Is Tails interested in some boot scripts from "
+"[Is TⒶILS interested in some boot scripts from "
 "Whonix?](https://mailman.boum.org/pipermail/tails-dev/2012-October/001803.html)"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"[Tails website "
+"[TⒶILS website "
 "license?](https://mailman.boum.org/pipermail/tails-dev/2012-October/001805.html)"
 msgstr ""
 

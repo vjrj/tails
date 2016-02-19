@@ -33,7 +33,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first release candidate for the upcoming version 2.0 "
+"You can help TⒶILS! The first release candidate for the upcoming version 2.0 "
 "is out. We are very excited and cannot wait to hear what you think about "
 "it :)"
 msgstr ""
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails 2.0 will be the first version of Tails based on Debian 8 (Jessie). As "
+"TⒶILS 2.0 will be the first version of Tails based on Debian 8 (Jessie). As "
 "such, it upgrades essentially all included software."
 msgstr ""
 
@@ -66,16 +66,16 @@ msgstr ""
 msgid ""
 "Under the hood, an amazing amount of code was ported to more modern "
 "technologies. This, in turn, allowed us to do lots of small changes all "
-"around the place, that will make the Tails experience both safer, and more "
+"around the place, that will make the TⒶILS experience both safer, and more "
 "pleasant. For example, all custom system services are harder to exploit "
-"thanks to the use of Linux namespaces, set up by systemd. And the way Tails "
+"thanks to the use of Linux namespaces, set up by systemd. And the way TⒶILS "
 "tells the user that \"Tor is ready\" is now more accurate."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "But really, there are simply too many changes to describe them all here, so "
-"try Tails 2.0~rc1 yourself!"
+"try TⒶILS 2.0~rc1 yourself!"
 msgstr ""
 
 #. type: Plain text
@@ -93,7 +93,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "What's new since Tails 2.0~beta1?"
+msgid "What's new since TⒶILS 2.0~beta1?"
 msgstr ""
 
 #. type: Title ##
@@ -145,7 +145,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Fix the performance issue of Tails Upgrader that made automatic upgrades"
+"Fix the performance issue of TⒶILS Upgrader that made automatic upgrades"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -183,7 +183,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "How to test Tails 2.0~rc1?"
+msgid "How to test TⒶILS 2.0~rc1?"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -198,14 +198,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~rc1/tails-i386-2.0~rc1.iso\" >Tails 2.0~rc1 ISO image</a>\n"
+msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-2.0~rc1/tails-i386-2.0~rc1.iso\" >TⒶILS 2.0~rc1 ISO image</a>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~rc1.iso.sig\">Tails 2.0~rc1 signature</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-2.0~rc1.iso.sig\">TⒶILS 2.0~rc1 signature</a>\n"
 msgstr ""
 
 #. type: Plain text
@@ -262,9 +262,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tor Browser does not support MPEG-4 video streaming in Tails 2.0 and newer "
+"Tor Browser does not support MPEG-4 video streaming in TⒶILS 2.0 and newer "
 "([[!tails_ticket 10835]]). Instead, in some cases you can download them and "
-"play them with the video player included in Tails.  On the other hand, web "
+"play them with the video player included in TⒶILS.  On the other hand, web "
 "sites that propose WebM video streaming work fine."
 msgstr ""
 
@@ -273,7 +273,7 @@ msgid ""
 "Sometimes, some of the icons located on the top right corner of the screen "
 "are not displayed entirely, or at all. For example, the Vidalia icon, or the "
 "icon that allows to change to another keyboard layout, may be hidden. Other "
-"information, such as the clock, may not be visible. Restarting Tails often "
+"information, such as the clock, may not be visible. Restarting TⒶILS often "
 "solves this problem.  ([[!tails_ticket 10576]] and [[!tails_ticket 10807]])"
 msgstr ""
 

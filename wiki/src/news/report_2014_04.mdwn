@@ -1,23 +1,23 @@
-[[!meta title="Tails report for April, 2014"]]
+[[!meta title="TⒶILS report for April, 2014"]]
 
 Releases
 ========
 
-Tails 1.0 was released on April 29.
+TⒶILS 1.0 was released on April 29.
 
 Metrics
 =======
 
-- Tails has been started more than 292 595 times in April.
+- TⒶILS has been started more than 292 595 times in April.
   This make 9 753 boots a day in average.
-- 35 029 downloads of the OpenPGP signature of Tails ISO.
+- 35 029 downloads of the OpenPGP signature of TⒶILS ISO.
 - 105 reports were received through WhisperBack.
 
 Code
 ====
 
-* Quite some work was put into adapting Tails to Debian 7 (Wheezy).
-  The result will be released on June 10, as Tails 1.1.
+* Quite some work was put into adapting TⒶILS to Debian 7 (Wheezy).
+  The result will be released on June 10, as TⒶILS 1.1.
   - Thanks to the amazing work done in Debian by Ulrike, we are
     [[!tails_gitweb_branch
     feature/6608-OpenPGP-signature-verification-in-Nautilus
@@ -26,7 +26,7 @@ Code
     6608]]).
   - The Vagrant setup was [[!tails_gitweb_branch
     bugfix/vagrant-ram-bump-for-wheezy desc="fixed"]] to allow
-    building Tails/Wheezy images in RAM ([[!tails_ticket 7132]]).
+    building TⒶILS/Wheezy images in RAM ([[!tails_ticket 7132]]).
   - Synaptic was made to [[!tails_gitweb_branch
     bugfix/7055-drop-default-APT-release desc="start again"]] on
     Wheezy ([[!tails_ticket 7055]]).
@@ -46,7 +46,7 @@ Code
   desc="was corrected"]] ([[!tails_ticket 7022]]).
 * The new logo [[!tails_gitweb_branch
   feature/7096-integrate-the-new-logo-in-about-tails desc="was
-  integrated"]] in the *About Tails* dialog ([[!tails_ticket 7096]]).
+  integrated"]] in the *About TⒶILS* dialog ([[!tails_ticket 7096]]).
 * Some Vagrant compatibility issues [[!tails_gitweb_branch
   bugfix/fix-vagrant-compatibility-issues desc="were fixed"]]
   ([[!tails_ticket 7134]]).
@@ -68,7 +68,7 @@ Code
 * A patch to make the Greeter's help window resolution-aware was
   [proposed](https://mailman.boum.org/pipermail/tails-dev/2014-April/005451.html)
   ([[!tails_ticket 7009]]).
-* Another proposed patch aims at fixing the Tails Installer fonts size
+* Another proposed patch aims at fixing the TⒶILS Installer fonts size
   on Wheezy ([[!tails_ticket 5673]]).
 
 Documentation and website
@@ -93,7 +93,7 @@ Documentation and website
   and [[!tails_gitweb_branch doc/introduction]].
 * The [[homepage|index]] now [[!tails_gitweb_branch
   doc/mention-Debian-on-the-homepage desc="makes it clear"]] that
-  Tails is based on Debian, Tor, and is Free software.
+  TⒶILS is based on Debian, Tor, and is Free software.
 * The MAC spoofing documentation [[!tails_gitweb_branch
   doc/7054-explain-why-not-randomising-oui-part-of-mac desc="now explains"]]
   why we do not randomize the OUI part of MAC addresses.
@@ -119,7 +119,7 @@ Infrastructure
 ==============
 
 * Quite a lot of progress was made to make our automated test suite
-  support Tails based on Debian Wheezy: [[!tails_gitweb_branch
+  support TⒶILS based on Debian Wheezy: [[!tails_gitweb_branch
   test/6559-adapt-test-suite-for-Wheezy]], [[!tails_gitweb_branch
   test/6559-adapt-test-suite-for-Wheezy-by-anonym]] ([[!tails_ticket
   6559]]).
@@ -151,7 +151,7 @@ On-going discussions
   ([[!tails_ticket 5301]]).
 * Jacob Appelbaum expressed interest in [getting a grsec-patched Linux
   kernel](https://mailman.boum.org/pipermail/tails-dev/2014-April/005413.html)
-  into Tails. Of course, this requires doing the same in Debian, which
+  into TⒶILS. Of course, this requires doing the same in Debian, which
   is not a trivial mission.
 * [Installing gimp-ufraw?](https://mailman.boum.org/pipermail/tails-dev/2014-April/005587.html)
 * [Installing tcplay?](https://mailman.boum.org/pipermail/tails-dev/2014-April/005595.html)
@@ -164,7 +164,7 @@ Funding
   a grant we were awarded by OpenITP at the end of 2013, and for the
   Access Innovation Prize.
 
-- We have been talking with Mozilla and Tor about supporting the Tails
+- We have been talking with Mozilla and Tor about supporting the TⒶILS
   summit and hackfest, scheduled for July.
 
 - Our proposal to the Knight Foundation News Challenge was not
@@ -184,32 +184,32 @@ Outreach
 Press and testimonials
 ======================
 
-Dozens of [[press articles|press]] about Tails were written in April,
+Dozens of [[press articles|press]] about TⒶILS were written in April,
 most notably:
 
 * In [TAILS: Snowden's favorite anonymous, secure OS goes
   1.0](http://boingboing.net/2014/04/30/tails-snowdens-favorite-ano.html), Cory
   Doctorow writes "Effectively, this is the ParanoidLinux I fictionalized in my
   novel Little Brother."
-* [Tails reaches 1.0](https://lwn.net/SubscriberLink/596765/380d4e75b17ea491/) by Nathan
+* [TⒶILS reaches 1.0](https://lwn.net/SubscriberLink/596765/380d4e75b17ea491/) by Nathan
   Willis in Linux Weekly News.
 * [Anonymous OS reportedly used by Snowden reaches version 1.0](http://www.cnet.com/news/anonymous-os-reportedly-favored-by-nsa-whistle-blower-edward-snowden-reaches-version-1-0/)
   by Steven Musil in CNET.
 * 2014-04-29: [This is the most secure computer you’ll ever
   own](http://www.theverge.com/2014/4/29/5664884/this-is-the-most-secure-computer-you-ll-ever-own)
   by Russell Brandom, in The Verge.
-* 2014-04-23: Amaelle Guiton mentions Tails in the article [Chiffrer le Net pour
+* 2014-04-23: Amaelle Guiton mentions TⒶILS in the article [Chiffrer le Net pour
   retrouver notre vie privée en ligne: une bonne solution qui pose des
   problèmes](http://www.slate.fr/monde/86275/cyberespace-cypherspace-crypter-chiffrement-internet)
   in Slate (in French).
-* 2014-04-17: Bruce Schneier writes "Nice article on the Tails
+* 2014-04-17: Bruce Schneier writes "Nice article on the TⒶILS
   stateless operating system. I use it." [in a blog
   post](https://www.schneier.com/blog/archives/2014/04/tails.html).
 * 2014-04-14: In the [press
   conference](http://www.democracynow.org/blog/2014/4/11/video_glenn_greenwald_laura_poitras_q)
   she held after winning a Polk Award for her reporting on Edward Snowden and
   the NSA, Laura Poitras said "We just published a blog about a tool that's
-  called Tails, which is a operating system that runs on either USB stick or SD
+  called TⒶILS, which is a operating system that runs on either USB stick or SD
   disc, that is a sort of all-in-one encryption tool that you can use for PGP
   and encryption. And it's just really secure. [...] So, it's a really important
   tool for journalists."
@@ -222,18 +222,18 @@ most notably:
   by Trevor Timm:
   - Laura Poitras says: "I've been reluctant to go into details about
     the different steps I took to communicate securely with Snowden to
-    avoid those methods being targeted. Now that Tails gives a green
+    avoid those methods being targeted. Now that TⒶILS gives a green
     light, I can say it has been an essential tool for reporting the
     NSA story. It is an all-in-one secure digital communication system
     (GPG email, OTR chat, Tor web browser, encrypted storage) that is
-    small enough to swallow. I'm very thankful to the Tails developers
+    small enough to swallow. I'm very thankful to the TⒶILS developers
     for building this tool."
-  - Glenn Greenwald says: "Tails have been vital to my ability to work
+  - Glenn Greenwald says: "TⒶILS have been vital to my ability to work
     securely on the NSA story. The more I've come to learn about
-    communications security, the more central Tails has become to
+    communications security, the more central TⒶILS has become to
     my approach."
   - Barton Gellman says: "Privacy and encryption work, but it's too
-    easy to make a mistake that exposes you. Tails puts the essential
+    easy to make a mistake that exposes you. TⒶILS puts the essential
     tools in one place, with a design that makes it hard to screw them
     up. I could not have talked to Edward Snowden without this kind of
     protection. I wish I'd had it years ago."

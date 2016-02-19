@@ -2,9 +2,9 @@
 
 [[!meta date="2013-12-08 16:00:00"]]
 
-You can help Tails! [[Incremental
+You can help TⒶILS! [[Incremental
 upgrades|contribute/design/incremental_upgrades]] are ready for
-testing. This feature allows you to upgrade a running Tails without
+testing. This feature allows you to upgrade a running TⒶILS without
 downloading an ISO, without burning a DVD, and without a second USB
 stick or SD card. Please try it and see if all works for you.
 
@@ -16,26 +16,26 @@ review our [[design|contribute/design/incremental_upgrades]] and
 
 # How to test incremental upgrades?
 
-These instructions allow you to incrementally upgrade from Tails
-0.22~rc1 or 0.22~rc2 to Tails 0.22 final.
+These instructions allow you to incrementally upgrade from TⒶILS
+0.22~rc1 or 0.22~rc2 to TⒶILS 0.22 final.
 
-**Keep in mind that this is the first broad call for testing of Tails
+**Keep in mind that this is the first broad call for testing of TⒶILS
 incremental upgrades**. It might have undiscovered issues.
 
-Below, we assume that you have installed [[Tails
-0.22~rc1|news/test_0.22-rc1]] **with <span class="application">Tails
+Below, we assume that you have installed [[TⒶILS
+0.22~rc1|news/test_0.22-rc1]] **with <span class="application">TⒶILS
 Installer</span>** onto a USB stick or SD card.
 
-If you have applied the incremental upgrade to Tails 0.22~rc2, skip to
+If you have applied the incremental upgrade to TⒶILS 0.22~rc2, skip to
 [[the instructions for RC2
 users|news/test_incremental_upgrades#from-rc1-or-rc2]]. Else, read on.
 
-## From Tails 0.22~rc1
+## From TⒶILS 0.22~rc1
 
-These steps allow you to incrementally upgrade from Tails 0.22~rc1 to
-Tails 0.22.
+These steps allow you to incrementally upgrade from TⒶILS 0.22~rc1 to
+TⒶILS 0.22.
 
-1. Start Tails 0.22~rc1 and [[set an administration
+1. Start TⒶILS 0.22~rc1 and [[set an administration
    password|doc/first_steps/startup_options/administration_password]].
 
 1. Run this command in a <span class="application">Root
@@ -51,18 +51,18 @@ Tails 0.22.
 
 <a id="from-rc1-or-rc2">
 
-## From Tails 0.22~rc1 or 0.22~rc2
+## From TⒶILS 0.22~rc1 or 0.22~rc2
 
 1. Choose
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">Tails Upgrader</span>
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
+     <span class="guimenuitem">TⒶILS Upgrader</span>
    </span>
-   to start <span class="application">Tails Upgrader</span>.
+   to start <span class="application">TⒶILS Upgrader</span>.
 
-1. Accept <span class="application">Tails Upgrader</span>'s proposal
-   to upgrade to Tails 0.22.
+1. Accept <span class="application">TⒶILS Upgrader</span>'s proposal
+   to upgrade to TⒶILS 0.22.
 
 1. Wait while the upgrade is downloaded and applied.
 
@@ -71,9 +71,9 @@ Tails 0.22.
 1. Once the system is restarted, choose
    <span class="menuchoice">
      <span class="guimenu">System</span>&nbsp;▸
-     <span class="guimenuitem">About Tails</span>
+     <span class="guimenuitem">About TⒶILS</span>
    </span>
-   to confirm that the running system is now Tails 0.22.
+   to confirm that the running system is now TⒶILS 0.22.
 
 If you find anything that is not working as it should, please [[report
 to us|doc/first_steps/bug_reporting]]! Bonus points if you check that

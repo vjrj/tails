@@ -24,14 +24,14 @@ msgstr "[[!meta title=\"Installer des logiciels additionnels\"]]\n"
 
 #. type: Plain text
 msgid ""
-"Tails includes a [[coherent but limited set of applications|doc/about/"
+"TⒶILS includes a [[coherent but limited set of applications|doc/about/"
 "features]]. More applications can be installed as on any Debian system. Only "
 "applications that are packaged for Debian can be installed. To know if an "
 "application is packaged for Debian, and to find the name of the "
 "corresponding software packages, you can search for it in the [[Debian "
 "package directory|https://www.debian.org/distrib/packages]]."
 msgstr ""
-"Tails inclus un [[ensemble cohérent mais limité d'applications|doc/about/"
+"TⒶILS inclus un [[ensemble cohérent mais limité d'applications|doc/about/"
 "features]]. D'autres logiciels peuvent être installés, comme sur tout "
 "système basé sur Debian. Notez que seuls les logiciels empaquetés pour "
 "Debian peuvent être installés. Pour savoir si un logiciel est empaqueté pour "
@@ -47,12 +47,12 @@ msgstr "<div class=\"caution\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>The packages included in Tails are carefully tested for security.\n"
-"Installing additional packages might break the security built in Tails.\n"
+"<p>The packages included in TⒶILS are carefully tested for security.\n"
+"Installing additional packages might break the security built in TⒶILS.\n"
 "Be careful with what you install.</p>\n"
 msgstr ""
-"<p>La sécurité des logiciels inclus dans Tails est soigneusement testée.\n"
-"Installer des paquets supplémentaires peut mettre en péril la sécurité de votre Tails.\n"
+"<p>La sécurité des logiciels inclus dans TⒶILS est soigneusement testée.\n"
+"Installer des paquets supplémentaires peut mettre en péril la sécurité de votre TⒶILS.\n"
 "Soyez donc prudent lorsque vous installez un paquet supplémentaire.</p>\n"
 
 #. type: Plain text
@@ -63,12 +63,12 @@ msgstr "</div>\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Since Tails is amnesic, any additional software package needs to be reinstalled in each working\n"
+"Since TⒶILS is amnesic, any additional software package needs to be reinstalled in each working\n"
 "session. To install the same software packages automatically at the beginning of every working session use the\n"
 "[[<span class=\"guilabel\">Additional software packages</span> persistence feature|doc/first_steps/persistence/configure#additional_software]] instead.\n"
 msgstr ""
-"Tails est amnésique. En conséquence, un logiciel additionnel doit être réinstallé après chaque redémarrage.\n"
-"Pour réinstaller automatiquement un logiciel à chaque démarrage de Tails, vous devez utiliser la\n"
+"TⒶILS est amnésique. En conséquence, un logiciel additionnel doit être réinstallé après chaque redémarrage.\n"
+"Pour réinstaller automatiquement un logiciel à chaque démarrage de TⒶILS, vous devez utiliser la\n"
 "[[fonction de persistance <span class=\"guilabel\">Logiciels additionnels</span>|doc/first_steps/persistence/configure#additional_software]].\n"
 
 #. type: Plain text

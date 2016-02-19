@@ -1,6 +1,6 @@
 [[!meta title="Chatting with Pidgin"]]
 
-For chatting and instant messaging, Tails includes the <span class="application">[Pidgin Instant
+For chatting and instant messaging, TⒶILS includes the <span class="application">[Pidgin Instant
 Messenger](http://pidgin.im/)</span>.
 
 You can use it to connect to [[!wikipedia IRC]] or [[!wikipedia XMPP]]
@@ -31,7 +31,7 @@ by default:
 - `irc.oftc.net` to connect to the OFTC IRC server, and join the #tails chats.
 - `127.0.0.1` to connect to the I2P IRC server.
 
-Those accounts are deactivated when Tails is started. To activate them,
+Those accounts are deactivated when TⒶILS is started. To activate them,
 choose
 <span class="menuchoice">
   <span class="guimenu">Accounts</span>&nbsp;▸
@@ -106,12 +106,12 @@ Tor is sometimes used to send spam.
 Random username generation
 ==========================
 
-Every time you start Tails, a random username is generated for all <span
+Every time you start TⒶILS, a random username is generated for all <span
 class="application">Pidgin</span> accounts.
 
 The generator uses a list of common English first names, and modifies
 them, so that they are almost unique, and does not reveal that you are
-using Tails.
+using TⒶILS.
 
 It is based on the <span class="application">language confluxer</span>
 by [Christopher Pound](http://generators.christopherpound.com/).
@@ -128,13 +128,13 @@ Adding support for another protocol
 ===================================
 
 For security reasons, it is only possible to use IRC and XMPP with
-<span class="application">Pidgin</span> in Tails. Here are the
+<span class="application">Pidgin</span> in TⒶILS. Here are the
 prerequisites to enable another protocol that is supported by <span
 class="application">Pidgin</span> otherwise:
 
 a. The support in <span class="application">Pidgin</span> for this protocol has been successfully tested
-   in Tails.
-a. Someone volunteers to maintain the corresponding support in Tails
+   in TⒶILS.
+a. Someone volunteers to maintain the corresponding support in TⒶILS
    on the long term.
 a. Someone has verified that the security record of the desired plugin
    (including open bugs) is good enough.

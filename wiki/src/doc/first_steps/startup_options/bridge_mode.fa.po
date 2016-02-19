@@ -35,7 +35,7 @@ msgstr "پل چیست و چه وقت از آن استفاده کنیم\n"
 
 #. type: Plain text
 msgid ""
-"When using Tor with Tails in its default configuration, anyone who can "
+"When using Tor with TⒶILS in its default configuration, anyone who can "
 "observe the traffic of your Internet connection (for example your Internet "
 "Service Provider and perhaps your government and law enforcement agencies) "
 "can know that you are using Tor."
@@ -54,7 +54,7 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "**Using Tor is blocked by censorship:** since all connections to the "
-"Internet are forced to go through Tor, this would render Tails useless for "
+"Internet are forced to go through Tor, this would render TⒶILS useless for "
 "everything except for working offline on documents, etc."
 msgstr ""
 "**استفاده از تور به دلیل سانسور غیرممکن شده است:** از آن‌جا که تمام اتصالات "
@@ -64,7 +64,7 @@ msgstr ""
 #. type: Bullet: '2. '
 msgid ""
 "**Using Tor is dangerous or considered suspicious:** in this case starting "
-"Tails in its default configuration might get you into serious trouble."
+"TⒶILS in its default configuration might get you into serious trouble."
 msgstr ""
 "**استفاده از تور خطرناک است یا مشکوک محسوب می‌شود:** در این حالت راه‌اندازی "
 "تیلز با پیکربندی پیش‌فرض ممکن است باعث شود دچار مشکلاتی جدی شوید."
@@ -84,7 +84,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "If you are in one of the situations described above you might want to use "
-"Tor bridges in Tails. Please also read The Tor Project's [dedicated page "
+"Tor bridges in TⒶILS. Please also read The Tor Project's [dedicated page "
 "about bridges](https://www.torproject.org/docs/bridges) to get a general "
 "idea about what bridges are."
 msgstr ""
@@ -128,12 +128,12 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "How to use bridges in Tails\n"
+msgid "How to use bridges in TⒶILS\n"
 msgstr "چگونه از پل‌ها در تیلز استفاده کنیم\n"
 
 #. type: Plain text
 msgid ""
-"You must have at hand at least one bridge address before starting Tails. For "
+"You must have at hand at least one bridge address before starting TⒶILS. For "
 "example, you can write it down on a piece of paper or store it in the "
 "[[persistent volume|doc/first_steps/persistence]]."
 msgstr ""
@@ -142,7 +142,7 @@ msgstr ""
 "persistence]] ذخیره کنید."
 
 #. type: Plain text
-msgid "Tails allows you to use bridges of the following types:"
+msgid "TⒶILS allows you to use bridges of the following types:"
 msgstr "تیلز به شما اجازه می‌دهد برای گونه‌های زیر از پل استفاده کنید:"
 
 #. type: Bullet: '  - '
@@ -169,11 +169,11 @@ msgstr "`ScrambleSuit`"
 #, fuzzy, no-wrap
 #| msgid ""
 #| "To use bridges, choose to configure bridge settings from [[<span\n"
-#| "class=\"application\">Tails Greeter</span>|startup_options#tails_greeter]] as\n"
+#| "class=\"application\">TⒶILS Greeter</span>|startup_options#tails_greeter]] as\n"
 #| "explained in the [[network configuration|network_configuration]] documentation.\n"
 msgid ""
 "To use Tor through bridges, choose the bridge settings configuration option in [[<span\n"
-"class=\"application\">Tails Greeter</span>|startup_options#tails_greeter]] as\n"
+"class=\"application\">TⒶILS Greeter</span>|startup_options#tails_greeter]] as\n"
 "explained in the [[network configuration|network_configuration]] documentation.\n"
 msgstr ""
 "برای استفاده از پل پیکربندی تنظیمات پل را از [[<span\n"
@@ -244,7 +244,7 @@ msgstr ""
 "برای شناسایی کاربران تور را <strong>تضمین نمی‌کند.</strong>\n"
 
 #. type: Bullet: '1. '
-msgid "Always start Tails in *bridge mode*."
+msgid "Always start TⒶILS in *bridge mode*."
 msgstr "همیشه تور را در *حالت بریج* راه‌اندازی کنید."
 
 #. type: Bullet: '2. '

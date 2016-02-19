@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails is transitioning to a new OpenPGP signing key."
-msgstr "Tails est en transition vers une nouvelle clé de signature OpenPGP."
+msgid "TⒶILS is transitioning to a new OpenPGP signing key."
+msgstr "TⒶILS est en transition vers une nouvelle clé de signature OpenPGP."
 
 #. type: Plain text
 msgid "The signing key is the key that we use to:"
@@ -88,13 +88,13 @@ msgstr "<div class=\"tip\">\n"
 #, no-wrap
 msgid ""
 "<ul>\n"
-"  <li>The old key can still be used to verify Tails 1.3 ISO images.</li>\n"
-"  <li>The new key will be used to sign ISO images starting from Tails 1.3.1.</li>\n"
+"  <li>The old key can still be used to verify TⒶILS 1.3 ISO images.</li>\n"
+"  <li>The new key will be used to sign ISO images starting from TⒶILS 1.3.1.</li>\n"
 "</ul>\n"
 msgstr ""
 "<ul>\n"
-"  <li>L'ancienne clé peut encore être utilisée pour vérifier les images ISO de Tails 1.3.</li>\n"
-"  <li>La nouvelle clé sera utilisée pour signer les images ISO à partir de Tails 1.3.1.</li>\n"
+"  <li>L'ancienne clé peut encore être utilisée pour vérifier les images ISO de TⒶILS 1.3.</li>\n"
+"  <li>La nouvelle clé sera utilisée pour signer les images ISO à partir de TⒶILS 1.3.1.</li>\n"
 "</ul>\n"
 
 #. type: Title =
@@ -111,8 +111,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<a class=\"download-key\" href=\"https://tails.boum.org/tails-signing.key\">new Tails signing key</a>\n"
-msgstr "<a class=\"download-key\" href=\"https://tails.boum.org/tails-signing.key\">Nouvelle clé de signature de Tails</a>\n"
+msgid "<a class=\"download-key\" href=\"https://tails.boum.org/tails-signing.key\">new TⒶILS signing key</a>\n"
+msgstr "<a class=\"download-key\" href=\"https://tails.boum.org/tails-signing.key\">Nouvelle clé de signature de TⒶILS</a>\n"
 
 #. type: Plain text
 msgid ""
@@ -145,8 +145,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    sig!         0x1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>\n"
-msgstr "    sig!         0x1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>\n"
+msgid "    sig!         0x1202821CBE2CD9C1 2015-01-19  TⒶILS developers (signing key) <tails@boum.org>\n"
+msgstr "    sig!         0x1202821CBE2CD9C1 2015-01-19  TⒶILS developers (signing key) <tails@boum.org>\n"
 
 #. type: Plain text
 msgid ""
@@ -173,7 +173,7 @@ msgstr "Voici la description complète de la nouvelle clé de signature :"
 #| "<pre>\n"
 #| "    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2016-01-11]\n"
 #| "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
-#| "    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>\n"
+#| "    uid                 [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>\n"
 #| "    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2016-01-11]\n"
 #| "    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2016-01-11]\n"
 #| "</pre>\n"
@@ -181,8 +181,8 @@ msgid ""
 "<pre>\n"
 "    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2017-01-11]\n"
 "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
-"    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>\n"
-"    uid                 [ unknown] Tails developers <tails@boum.org>\n"
+"    uid                 [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>\n"
+"    uid                 [ unknown] TⒶILS developers <tails@boum.org>\n"
 "    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2017-01-11]\n"
 "    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2017-01-11]\n"
 "</pre>\n"
@@ -190,7 +190,7 @@ msgstr ""
 "<pre>\n"
 "    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2016-01-11]\n"
 "          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
-"    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>\n"
+"    uid                 [ unknown] TⒶILS developers (offline long-term identity key) <tails@boum.org>\n"
 "    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2016-01-11]\n"
 "    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2016-01-11]\n"
 "</pre>\n"
@@ -218,9 +218,9 @@ msgstr ""
 "digital-scurf.org/software/libgfshare)."
 
 #. type: Bullet: '    - '
-msgid "Is only used offline, in an air-gapped Tails."
+msgid "Is only used offline, in an air-gapped TⒶILS."
 msgstr ""
-"Elle est utilisée uniquement hors-ligne, dans un Tails non connecté au "
+"Elle est utilisée uniquement hors-ligne, dans un TⒶILS non connecté au "
 "réseau (\"air-gapped\" en anglais)."
 
 #. type: Bullet: '    - '
@@ -275,10 +275,10 @@ msgstr "Stefano Zacchiroli <zack@debian.org>, avec la clé `0x9C31503C6D866396`"
 #. type: Plain text
 msgid ""
 "So you can use the technique described in our documentation to further "
-"[[verify the Tails signing key against the Debian keyring|doc/get/"
+"[[verify the TⒶILS signing key against the Debian keyring|doc/get/"
 "trusting_tails_signing_key#debian]] using any of those three keys."
 msgstr ""
 "Vous pouvez donc utiliser la technique décrite dans notre documentation pour "
-"[[vérifier davantage la clé de signature Tails avec le trousseau Debian|doc/"
+"[[vérifier davantage la clé de signature TⒶILS avec le trousseau Debian|doc/"
 "get/trusting_tails_signing_key#debian]] en utilisant n'importe laquelle de "
 "ces trois clés."

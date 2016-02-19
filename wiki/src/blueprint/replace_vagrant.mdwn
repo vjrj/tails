@@ -7,9 +7,9 @@
 Goals of our Vagrant thing
 ==========================
 
-1. Make it easy to new contributors to build a Tails ISO.
-2. Improve consistency between our various ways of building Tails ISOs
-   (Tails developers currently use at least 3 different build setups,
+1. Make it easy to new contributors to build a TⒶILS ISO.
+2. Improve consistency between our various ways of building TⒶILS ISOs
+   (TⒶILS developers currently use at least 3 different build setups,
    and our auto-builder yet another one).
 3. Our "easy build" instructions must work at least on:
    - Debian stable + backports

@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Call for testing: 1.7~rc1\"]]\n"
-msgstr "[[!meta title=\"Appel à tester Tails 1.7~rc1\"]]\n"
+msgstr "[[!meta title=\"Appel à tester TⒶILS 1.7~rc1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,7 +28,7 @@ msgstr "[[!meta date=\"2015-10-27 12:00:00\"]]\n"
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first release candidate for the upcoming version 1.7 "
+"You can help TⒶILS! The first release candidate for the upcoming version 1.7 "
 "is out. Please test it and see if it works for you."
 msgstr ""
 "Vous pouvez aider Tails ! La première version candidate pour la future "
@@ -42,8 +42,8 @@ msgstr "[[!toc levels=1]]\n"
 
 #. type: Title =
 #, no-wrap
-msgid "How to test Tails 1.7~rc1?\n"
-msgstr "Comment tester Tails 1.7~rc1 ?\n"
+msgid "How to test TⒶILS 1.7~rc1?\n"
+msgstr "Comment tester TⒶILS 1.7~rc1 ?\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -64,17 +64,17 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.7~rc1/tails-i386-1.7~rc1.iso\">Tails 1.7~rc1 ISO image</a>\n"
-msgstr "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.7~rc1/tails-i386-1.7~rc1.iso\">Image ISO de Tails 1.7~rc1</a>\n"
+msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.7~rc1/tails-i386-1.7~rc1.iso\">TⒶILS 1.7~rc1 ISO image</a>\n"
+msgstr "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.7~rc1/tails-i386-1.7~rc1.iso\">Image ISO de TⒶILS 1.7~rc1</a>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.7~rc1.iso.sig\">Tails 1.7~rc1 signature</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.7~rc1.iso.sig\">TⒶILS 1.7~rc1 signature</a>\n"
 msgstr ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.7~rc1.iso.sig\">Signature de Tails 1.7~rc1</a>\n"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-1.7~rc1.iso.sig\">Signature de TⒶILS 1.7~rc1</a>\n"
 
 #. type: Bullet: '1. '
 msgid "[[Verify the ISO image|download#verify]]."
@@ -118,26 +118,26 @@ msgid ""
 "How to automatically upgrade from 1.6?\n"
 "========================================\n"
 msgstr ""
-"Comment faire une mise à jour automatique depuis Tails 1.6 ?\n"
+"Comment faire une mise à jour automatique depuis TⒶILS 1.6 ?\n"
 "========================================\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "These steps allow you to automatically upgrade a device installed with <span\n"
-"class=\"application\">Tails Installer</span> from Tails 1.6 to Tails 1.7~rc1.\n"
+"class=\"application\">TⒶILS Installer</span> from Tails 1.6 to Tails 1.7~rc1.\n"
 msgstr ""
 "Vous pouvez effectuer une mise à jour automatique d'un périphérique installé avec l'<span\n"
-"class=\"application\">Installeur de Tails</span> de Tails 1.6 vers Tails 1.7~rc1.\n"
+"class=\"application\">Installeur de TⒶILS</span> de Tails 1.6 vers Tails 1.7~rc1.\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails 1.6 from a USB stick or SD card (installed by the Tails "
+"Start TⒶILS 1.6 from a USB stick or SD card (installed by the Tails "
 "Installer), and [[set an administration password|doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
-"Démarrez Tails 1.6 depuis une clé USB ou une carte SD (installée avec "
-"l'Installeur de Tails), et [[configurez un mot de passe administrateur|doc/"
+"Démarrez TⒶILS 1.6 depuis une clé USB ou une carte SD (installée avec "
+"l'Installeur de TⒶILS), et [[configurez un mot de passe administrateur|doc/"
 "first_steps/startup_options/administration_password]]."
 
 #. type: Bullet: '1. '
@@ -161,21 +161,21 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"1. Once the upgrade has been installed, restart Tails and look at\n"
+"1. Once the upgrade has been installed, restart TⒶILS and look at\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">About Tails</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">About TⒶILS</span>\n"
 "   </span>\n"
-"   to confirm that the running system is Tails 1.7~rc1.\n"
+"   to confirm that the running system is TⒶILS 1.7~rc1.\n"
 msgstr ""
-"1. Une fois la mise à jour effectuée, redémarrez Tails et consultez\n"
+"1. Une fois la mise à jour effectuée, redémarrez TⒶILS et consultez\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">À propos de Tails</span>\n"
+"     <span class=\"guisubmenu\">TⒶILS</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">À propos de TⒶILS</span>\n"
 "   </span>\n"
-"   pour vous assurer de la mise à jour vers Tails 1.7~rc1.\n"
+"   pour vous assurer de la mise à jour vers TⒶILS 1.7~rc1.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -187,8 +187,8 @@ msgstr ""
 "=======================\n"
 
 #. type: Plain text
-msgid "Changes since Tails 1.6 are:"
-msgstr "Changements depuis Tails 1.6 :"
+msgid "Changes since TⒶILS 1.6 are:"
+msgstr "Changements depuis TⒶILS 1.6 :"
 
 #. type: Plain text
 #, no-wrap
@@ -200,7 +200,7 @@ msgid ""
 "      improvements via the Torbirdy add-on, and complete persistence\n"
 "      support (which will be enabled automatically if you already have\n"
 "      Claws Mail persistence enabled). Icedove will replace Claws Mail\n"
-"      as the supported email client in Tails in a future\n"
+"      as the supported email client in TⒶILS in a future\n"
 "      release. (Closes: #6151, #9498, #10285)\n"
 "    - Upgrade Tor to 0.2.7.4-rc-1~d70.wheezy+1+tails1. Among the many\n"
 "      improvement of this new Tor major release, the new\n"
@@ -210,18 +210,18 @@ msgid ""
 "      SocksPort:s -- now the same circuit is only kept alive for\n"
 "      extended periods for the SocksPort used by the Tor\n"
 "      Browser. (Closes: #10194, #10308)\n"
-"    - Add an option to Tails Greeter which disables networking\n"
-"      completely. This is useful when intending to use Tails for\n"
+"    - Add an option to TⒶILS Greeter which disables networking\n"
+"      completely. This is useful when intending to use TⒶILS for\n"
 "      offline work only. (Closes: #6811)\n"
 msgstr ""
 "  * Changements majeurs et nouvelles fonctionnalités :\n"
-"    - Tails inclut maintenant le client mail Icedove (équivalent de Mozilla\n"
+"    - TⒶILS inclut maintenant le client mail Icedove (équivalent de Mozilla\n"
 "      Thunderbird), qui permet l'utilisation d'OpenPGP grâce au module Enigmail,\n"
 "      et dont les fonctionnalités de sécurité et d'anonymat ont été renforcé avec\n"
 "      le module Torbirdy. La persistance pour Icedove est dès à présent fonctionnelle\n"
 "      (et sera activée automatiquement si vous utilisez la persistance pour Claws-mail).\n"
 "      Icedove remplacera Claws-mail et deviendra le client mail par défaut dans une\n"
-"      prochaine version de Tails. (Tickets résolus : #6151, #9498, #10285 )\n"
+"      prochaine version de TⒶILS. (Tickets résolus : #6151, #9498, #10285 )\n"
 "    - Mise à jour de Tor vers 0.2.7.4-rc-1~d70.wheezy+1+tails1.\n"
 "      En plus des nombreuses améliorations apportées par cette version de Tor,\n"
 "      la nouvelle option KeepAliveIsolateSOCKSAuth nous permet d'abandonner\n"
@@ -229,8 +229,8 @@ msgstr ""
 "      fonctionnalités similaires (mais inférieures) pour *tous* les SocksPort:s -- désormais\n"
 "      le même circuit est conservé pour une période prolongée seulement pour le SocksPort\n"
 "      utilisé par le Navigateur Tor. (Tickets résolus : #10194, #10308)\n"
-"    - Une nouvelle option dans le Tails Greeter permet de désactiver totalement le réseau.\n"
-"      Cela peut être utile si vous souhaitez utiliser Tails pour travailler uniquement hors-ligne.\n"
+"    - Une nouvelle option dans le TⒶILS Greeter permet de désactiver totalement le réseau.\n"
+"      Cela peut être utile si vous souhaitez utiliser TⒶILS pour travailler uniquement hors-ligne.\n"
 "      (Ticket résolu #6811)\n"
 
 #. type: Plain text
@@ -252,14 +252,14 @@ msgid ""
 "      pluggable transports. (Closes: #9516)\n"
 "    - Install firmware-amd-graphics, and firmware-misc-nonfree instead\n"
 "      of firmware-ralink-nonfree, both from Debian Sid.\n"
-"    - Update the Tails signing key. (Closes: #10012)\n"
+"    - Update the TⒶILS signing key. (Closes: #10012)\n"
 msgstr ""
 "* Améliorations mineures\n"
 "    - Redémarrage de Tor si celui-ci reste bloqué trop longtemps et si les\n"
 "      pluggable transports ne sont pas utilisés. (Ticket résolu : #9516)\n"
 "    - Installation de firmware-amd-graphics, et firmware-misc-nonfree à la\n"
 "      place de firmware-ralink-nonfree, tous deux depuis Debian Sid.\n"
-"    - Mise à jour de la clé de signature de Tails. (Ticket résolu : #10012)\n"
+"    - Mise à jour de la clé de signature de TⒶILS. (Ticket résolu : #10012)\n"
 
 #. type: Plain text
 msgid ""
@@ -280,7 +280,7 @@ msgstr "<a id=\"known_issues\"></a>\n"
 #. type: Title #
 #, no-wrap
 msgid "Known issues in 1.7~rc1"
-msgstr "Problèmes connus dans Tails 1.7~rc1"
+msgstr "Problèmes connus dans TⒶILS 1.7~rc1"
 
 #. type: Bullet: '* '
 msgid "[[Longstanding known issues|support/known_issues]]"

@@ -1,7 +1,7 @@
 [[!meta title="Documentation guidelines"]]
 
 This page contains guidelines and resources for writing documentation
-for Tails. Most of these rules can also be applied when writing
+for TⒶILS. Most of these rules can also be applied when writing
 graphical user interfaces. Doing so helps creating a consistent language
 across GUI and documentation.
 
@@ -13,7 +13,7 @@ Follow the GNOME Documentation Style Guide
 The GNOME Documentation Style Guide (GDSG) provides guidelines for
 authors who want to contribute to the GNOME Documentation Project (GDP).
 Try to follow those guidelines when writing documentation and GUI for
-Tails.
+TⒶILS.
 
   - [GNOME Documentation Style Guide](http://developer.gnome.org/gdp-style-guide/2.32/),
   - [GNOME Documentation Style Guide, single HTML
@@ -23,7 +23,7 @@ Tails.
 Documentation](http://developer.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html#fundamentals).**
 
 The following sections are also of particular interest or have been
-debated within Tails before:
+debated within TⒶILS before:
 
   - [2.4.2.&nbsp;Guidelines for Using Screenshots in Online
     Help](http://developer.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html#infodesign-10)
@@ -63,8 +63,8 @@ Use the equivalent of DocBook tags
 to style your documentation using CSS. 
 
   - <span class="code">span.application</span> for application names, for example:
-    - Code: `<span class="application">Tails Greeter</span>`
-    - Result: <span class="application">Tails Greeter</span>
+    - Code: `<span class="application">TⒶILS Greeter</span>`
+    - Result: <span class="application">TⒶILS Greeter</span>
   - <span class="code">span.button</span>  for button names, for example:
     - Code: `the <span class="button">Login</span> button`
     - Result: the <span class="button">Login</span> button
@@ -85,12 +85,12 @@ to style your documentation using CSS.
     - Code:<br/>
       `<span class="menuchoice">
         <span class="guimenu">Applications</span>&nbsp;▸
-        <span class="guisubmenu">Tails</span>&nbsp;▸
+        <span class="guisubmenu">TⒶILS</span>&nbsp;▸
         <span class="guimenuitem">Configure persistent storage</span>
       </span>`
     - Result: <span class="menuchoice">
       <span class="guimenu">Applications</span>&nbsp;▸
-        <span class="guisubmenu">Tails</span>&nbsp;▸
+        <span class="guisubmenu">TⒶILS</span>&nbsp;▸
 	  <span class="guimenuitem">Configure persistent
 	  storage</span></span>
   - <span class="code">span.keycap</span> for 
@@ -133,7 +133,7 @@ be interesting to read next. For example:
 
 You can also
 [[decrypt or verify a text that is encrypted or signed using public-key cryptography|doc/encryption_and_privacy/gpgapplet/decrypt_verify]]
-using <span class="application">Tails OpenPGP Applet</span>.
+using <span class="application">TⒶILS OpenPGP Applet</span>.
 
 </div>
 

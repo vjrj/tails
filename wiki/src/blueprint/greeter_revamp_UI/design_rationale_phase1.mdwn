@@ -1,4 +1,4 @@
-[[!meta title="Tails Greeter Design Rationale"]]
+[[!meta title="TⒶILS Greeter Design Rationale"]]
 
 # What is This?
 
@@ -87,10 +87,10 @@ It is clear that the "Language" section can/should be saved, but not yet weather
 
 UI when "Save Language Changes" is checked:
 
-  - On a new Tails installation the check box is unchecked by default.
+  - On a new TⒶILS installation the check box is unchecked by default.
   - When the user switches languages the check box is checked, then a warning is 
     displayed.
-  - The next time Tails starts the language preferences that were saved unencrypted are
+  - The next time TⒶILS starts the language preferences that were saved unencrypted are
     detected and the box is automatically checked.
   - When the user switches languages by unchecking the box to remove the saved 
     preferences, a notification is displayed saying that the options were safely 
@@ -138,14 +138,14 @@ With this said, it seems appropriate to educate people of varying technical leve
 
 In our situation, this is most effectively accomplished by displaying all settings groups upfront. However, in order not lose the beginners, the privacy settings are hidden when they doesn't diverge from defaults.
 
-### Start Tails Button Location
+### Start TⒶILS Button Location
 
 Where should the ‘Start Tails’ button be located?
 
-<img src="https://labs.riseup.net/code/attachments/download/989/Start.Tails.Button.Location.png" width="100%" height="auto" />
+<img src="https://labs.riseup.net/code/attachments/download/989/Start.TⒶILS.Button.Location.png" width="100%" height="auto" />
 
-[full size bitmap](https://labs.riseup.net/code/attachments/download/989/Start.Tails.Button.Location.png)
-[source](https://labs.riseup.net/code/attachments/download/990/Start.Tails.Button.Location.svgz)
+[full size bitmap](https://labs.riseup.net/code/attachments/download/989/Start.TⒶILS.Button.Location.png)
+[source](https://labs.riseup.net/code/attachments/download/990/Start.TⒶILS.Button.Location.svgz)
 
 Height:
 
@@ -162,7 +162,7 @@ Bar:
 - **Button in an Action Bar**
 - Button Isolated
 
-This is really a few things, but the designation was made that the most appropriate location for the ‘Start Tails’ button is above the Greeter canvas as part of an Action Bar.  Although placing the ‘Start Tails’ button at the bottom of the Greeter follows the flow logic of configuring the session settings and then starting Tails, the most occurrent use cases are 1) using Tails with default settings, and 2) using Tails with saved custom settings, therefore, it seems most appropriate to have the ‘Start Tails’ button ordered before the settings.  Placing the ‘Start Tails’ button in the Greeter frame instead of the canvas is an attempt to lessen the number of elements on the canvas.  Using an Action Bar aligns with GNOME HIG and provides a place for other buttons.
+This is really a few things, but the designation was made that the most appropriate location for the ‘Start Tails’ button is above the Greeter canvas as part of an Action Bar.  Although placing the ‘Start Tails’ button at the bottom of the Greeter follows the flow logic of configuring the session settings and then starting TⒶILS, the most occurrent use cases are 1) using Tails with default settings, and 2) using Tails with saved custom settings, therefore, it seems most appropriate to have the ‘Start Tails’ button ordered before the settings.  Placing the ‘Start Tails’ button in the Greeter frame instead of the canvas is an attempt to lessen the number of elements on the canvas.  Using an Action Bar aligns with GNOME HIG and provides a place for other buttons.
 
 ### Section order and labels
 
@@ -198,7 +198,7 @@ Should icons accompany the Section or Line-item labels, none, or both?
 - Section
 - **Line Item**
 
-Given the context of the settings list, the designation was made that icons should only accompany the labels of the line-items.  Aside from the visual conflict that arises between the Section and Line-item label icons when placed so close together, Tails, as well as many other operating systems, currently uses colored and monochromatic icons to accompany line items for almost every list, and displays no icon for section labels.
+Given the context of the settings list, the designation was made that icons should only accompany the labels of the line-items.  Aside from the visual conflict that arises between the Section and Line-item label icons when placed so close together, TⒶILS, as well as many other operating systems, currently uses colored and monochromatic icons to accompany line items for almost every list, and displays no icon for section labels.
 
 ### Button Icons
 
@@ -207,7 +207,7 @@ Should icons accompany button labels?
 - Yes
 - **No** 
 
-The designation was made that icons should not accompany button labels. In addition to the proposed 'Start Tails', 'Play', and 'Computer' icons not being as precise as they could be in regard to the communication of their function, there is great difficulty involved in effectively transforming 'Restart', 'Tour', and 'Start Tails' into iconic and accurate representations of their concepts.  
+The designation was made that icons should not accompany button labels. In addition to the proposed 'Start TⒶILS', 'Play', and 'Computer' icons not being as precise as they could be in regard to the communication of their function, there is great difficulty involved in effectively transforming 'Restart', 'Tour', and 'Start Tails' into iconic and accurate representations of their concepts.  
 
 ### Close Greeter
 
@@ -221,7 +221,7 @@ Should the Greeter have the option to be closed/restarted?
 - **Close/Restart**
 - No Close/Restart
 
-Since there are multiple boot modes to choose from for Tails, the designation was made that a ‘Restart’ button located in the Action Bar of the Greeter would accommodate a user’s preference to go back and boot into failsafe mode.
+Since there are multiple boot modes to choose from for TⒶILS, the designation was made that a ‘Restart’ button located in the Action Bar of the Greeter would accommodate a user’s preference to go back and boot into failsafe mode.
 
 # Upcoming settings
 

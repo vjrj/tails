@@ -9,7 +9,7 @@ Next steps
    it's acceptable and merged, then perhaps we will consider the
    *easier YouTube* task as completed.
 0. [[todo/benchmark_YouTube_HTML5_addons]]
-0. make audio and video codecs autoplay (so that the Tails web browser
+0. make audio and video codecs autoplay (so that the TⒶILS web browser
    works in a less surprising way, especially for new users; also, the
    idea is that when one goes to a page with audio or video objects,
    they want to read them more often than not)
@@ -29,10 +29,10 @@ Background
 Test reports
 ============
 
-Out-of-the box YouTube support in Tails 0.18
+Out-of-the box YouTube support in TⒶILS 0.18
 --------------------------------------------
 
-With Tails 0.18, I visited one of the featured videos on youtube which
+With TⒶILS 0.18, I visited one of the featured videos on youtube which
 is <https://www.youtube.com/watch?v=aK_eKGK4JrM>.
 
 At first it gave me the usual msg flash player, then I added

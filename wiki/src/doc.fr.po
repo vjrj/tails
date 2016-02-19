@@ -48,7 +48,7 @@ msgstr "</div>\n"
 
 #. type: Plain text
 msgid ""
-"Read about how you can help [[improving Tails documentation|/contribute/how/"
+"Read about how you can help [[improving TⒶILS documentation|/contribute/how/"
 "documentation]]."
 msgstr ""
 "Si vous souhaitez participer, [[lisez la documentation correspondante|/"
@@ -80,8 +80,8 @@ msgstr "[[!inline pages=\"doc/get.index.fr\" raw=\"yes\"]]\n"
 
 #. type: Title #
 #, no-wrap
-msgid "First steps with Tails"
-msgstr "Premier pas avec Tails"
+msgid "First steps with TⒶILS"
+msgstr "Premier pas avec TⒶILS"
 
 #. type: Plain text
 #, no-wrap
@@ -128,8 +128,8 @@ msgstr "Sujets avancés"
 msgid "[[!inline pages=\"doc/advanced_topics.index\" raw=\"yes\"]]\n"
 msgstr "[[!inline pages=\"doc/advanced_topics.index.fr\" raw=\"yes\"]]\n"
 
-#~ msgid "[[Get Tails|download]]"
-#~ msgstr "[[Télécharger Tails|download]]"
+#~ msgid "[[Get TⒶILS|download]]"
+#~ msgstr "[[Télécharger TⒶILS|download]]"
 
 #~ msgid "[[Encryption & privacy|encryption_and_privacy]]"
 #~ msgstr "[[Chiffrement et vie privée|encryption_and_privacy]]"

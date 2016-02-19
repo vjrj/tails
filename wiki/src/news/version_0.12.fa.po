@@ -25,7 +25,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.12 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.12 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -34,7 +34,7 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.12, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.12, is out."
 msgstr ""
 
 #. type: Plain text
@@ -64,9 +64,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Windows camouflage can now be enabled via a check box in Tails "
-"Greeter. Tails' user interface is unfamiliar to most, which may attract "
-"unwanted attention when used in public places. This option makes Tails look "
+"Windows camouflage can now be enabled via a check box in TⒶILS "
+"Greeter. TⒶILS' user interface is unfamiliar to most, which may attract "
+"unwanted attention when used in public places. This option makes TⒶILS look "
 "more like Microsoft Windows XP in order to raise less suspicion."
 msgstr ""
 
@@ -82,14 +82,14 @@ msgstr ""
 msgid ""
 "* iceweasel\n"
 "  - Upgrade iceweasel to 10.0.5esr-1 (Extended Support Release).\n"
-"  - Add a bookmark for the offline Tails documentation.\n"
+"  - Add a bookmark for the offline TⒶILS documentation.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* Internationalization:\n"
-"  - The Tails website and documentation now has a (partial) Portuguese\n"
+"  - The TⒶILS website and documentation now has a (partial) Portuguese\n"
 "    translation.\n"
 msgstr ""
 
@@ -109,11 +109,11 @@ msgid ""
 "    built-in [[doc/first_steps/persistence]] with the following\n"
 "    one-time migration procedure:\n"
 "\t1. set an [[doc/first_steps/startup_options/administration_password]]\n"
-"\t   when booting Tails\n"
+"\t   when booting TⒶILS\n"
 "\t2. temporarily install cryptkeeper via `sudo apt-get update; sudo\n"
 "       apt-get install --yes cryptkeeper`\n"
 "\t3. open your cryptkeeper (EncFS] volume and move its contents to\n"
-"\t   the `Persistence` folder provided by Tails' built-in persistence\n"
+"\t   the `Persistence` folder provided by TⒶILS' built-in persistence\n"
 "  - Install mousetweaks. This is needed to use the mouse accessibility\n"
 "    settings in System -> Preferences -> Mouse -> Accessibility.\n"
 "  - Upgrade I2P to version 0.9.\n"
@@ -126,7 +126,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* Miscellaneous\n"
-"  - Set Tails specific syslinux and plymouth themes.\n"
+"  - Set TⒶILS specific syslinux and plymouth themes.\n"
 msgstr ""
 
 #. type: Plain text
@@ -164,5 +164,5 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], here are many ways **you** can contribute to "
-"Tails: no need to be a hardcore developer."
+"TⒶILS: no need to be a hardcore developer."
 msgstr ""

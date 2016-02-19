@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Wed Nov 28 01:23:45 2012\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 0.15 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 0.15 est sorti\"]]\n"
+msgid "[[!meta title=\"TⒶILS 0.15 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 0.15 est sorti\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,8 +32,8 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 0.15, is out."
-msgstr "Tails, The Amnesic Incognito Live System, version 0.15, est sorti."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 0.15, is out."
+msgstr "TⒶILS, The Amnesic Incognito Live System, version 0.15, est sorti."
 
 #. type: Plain text
 msgid "All users must upgrade as soon as possible."
@@ -126,13 +126,13 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* Localization\n"
-"  - The Tails USB installer, tails-persistence-setup and tails-greeter\n"
+"  - The TⒶILS USB installer, tails-persistence-setup and tails-greeter\n"
 "    are now translated into Bulgarian.\n"
 "  - Update Chinese translation for tails-greeter.\n"
 "  - Update Euskadi translation for WhisperBack.\n"
 msgstr ""
 "* Localization\n"
-"  - L'USB installer de Tails, tails-persistence-setup et tails-greeter\n"
+"  - L'USB installer de TⒶILS, tails-persistence-setup et tails-greeter\n"
 "    sont désormais traduits en bulgare.\n"
 "  - Mise à jour de la traduction chinoise de tails-greeter.\n"
 "  - Mise à jour de la traduction basque de WhisperBack.\n"
@@ -162,10 +162,10 @@ msgstr "Voir la page [[pour commencer|Getting started]]."
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 "Comme aucun logiciel n'est parfait, nous maintenons une liste des "
-"[[problèmes qui affectent la dernière version de Tails|support/"
+"[[problèmes qui affectent la dernière version de TⒶILS|support/"
 "known_issues]]."
 
 #. type: Title #
@@ -186,8 +186,8 @@ msgstr ""
 msgid ""
 "Would you want to help? As explained in our [[\"how to contribute\" "
 "documentation|contribute]], here are many ways **you** can contribute to "
-"Tails. If you want to help, come talk to us!"
+"TⒶILS. If you want to help, come talk to us!"
 msgstr ""
 "Vous voulez aider ? Comme expliqué dans notre [[documentation \"comment "
 "contribuer\"|contribute]], il y a de nombreuses manières pour **vous** de "
-"contribuer à Tails. Si vous voulez aider, venez nous en parler ! "
+"contribuer à TⒶILS. Si vous voulez aider, venez nous en parler ! "

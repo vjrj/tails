@@ -1,23 +1,23 @@
-<h1 class="debian expert install-clone mac-clone">Install Tails</h1>
-<h1 class="windows linux mac">Install the final Tails</h1>
-<h1 class="mac-dvd">Install Tails on a USB stick</h1>
-<h1 class="upgrade">Upgrade your Tails</h1>
+<h1 class="debian expert install-clone mac-clone">Install TⒶILS</h1>
+<h1 class="windows linux mac">Install the final TⒶILS</h1>
+<h1 class="mac-dvd">Install TⒶILS on a USB stick</h1>
+<h1 class="upgrade">Upgrade your TⒶILS</h1>
 
 <p class="debian windows linux mac expert">
   In this step, you will install
   <span class="windows linux mac-usb">the final</span>
-  Tails on a
+  TⒶILS on a
   <span class="windows linux mac-usb">second</span>
   <span class="install-clone mac-clone">new</span>
   USB stick using
-  <span class="application">Tails Installer</span>.</p>
+  <span class="application">TⒶILS Installer</span>.</p>
 
 <p class="upgrade">
-  In this step, you will upgrade your Tails from the
+  In this step, you will upgrade your TⒶILS from the
   <span class="upgrade-clone">other</span>
   <span class="upgrade-tails">intermediary</span>
-  Tails using
-  <span class="application">Tails Installer</span><span class="upgrade-tails"> one last time</span>.
+  TⒶILS using
+  <span class="application">TⒶILS Installer</span><span class="upgrade-tails"> one last time</span>.
 </p>
 
 <div class="caution debian windows linux mac">
@@ -28,9 +28,9 @@
 
 <div class="note upgrade">
 
-<p>The persistent storage of your Tails USB stick will be preserved.</p>
+<p>The persistent storage of your TⒶILS USB stick will be preserved.</p>
 
-<p class="upgrade-clone">The persistent storage of the other Tails will not be copied.</p>
+<p class="upgrade-clone">The persistent storage of the other TⒶILS will not be copied.</p>
 
 </div>
 
@@ -44,7 +44,7 @@
 1. Plug
    <span class="windows linux mac-usb">the second</span>
    <span class="install-clone mac-clone">the new</span>
-   <span class="upgrade">your Tails</span>
+   <span class="upgrade">your TⒶILS</span>
    <span class="debian expert mac-dvd">the</span>
    USB stick in the computer.
 
@@ -52,15 +52,15 @@
    Choose
    <span class="menuchoice">
      <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Tails</span>&nbsp;▸
-     <span class="guimenuitem">Tails Installer</span>
+     <span class="guisubmenu">TⒶILS</span>&nbsp;▸
+     <span class="guimenuitem">TⒶILS Installer</span>
    </span>
-   to start <span class="application">Tails Installer</span>.
+   to start <span class="application">TⒶILS Installer</span>.
    </p></div>
 
    <div class="debian expert">
 
-   <p>Start <span class="application">Tails Installer</span>.</p>
+   <p>Start <span class="application">TⒶILS Installer</span>.</p>
 
    [[!img install/inc/icons/tails-installer.png link="no"]]
 
@@ -93,13 +93,13 @@
 1. To start the
    <span class="debian expert windows linux mac install-clone">installation,</span>
    <span class="upgrade">upgrade,</span>
-   click on the <span class="button">Install Tails</span> button.
+   click on the <span class="button">Install TⒶILS</span> button.
 
    <div class="note upgrade">
 
    <p>If it is impossible to upgrade the USB stick because it was not
-   installed using <span class="application">Tails Installer</span>, restart
-   <span class="application">Tails Installer</span> and choose
+   installed using <span class="application">TⒶILS Installer</span>, restart
+   <span class="application">TⒶILS Installer</span> and choose
    <span class="guilabel">Clone & Install</span>.</p>
 
    </div>
@@ -118,11 +118,11 @@
    while synchronizing data on disk.</p>
    </div>
 
-1. Close <span class="application">Tails Installer</span>.
+1. Close <span class="application">TⒶILS Installer</span>.
 
 <div class="trophy upgrade">
 
-<p>You are done upgrading Tails. You can now shutdown and restart on your Tails USB stick.</p>
+<p>You are done upgrading TⒶILS. You can now shutdown and restart on your TⒶILS USB stick.</p>
 
 <p>Thank you for staying safe!</p>
 

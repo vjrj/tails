@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for March, 2014\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for March, 2014\"]]\n"
 msgstr ""
 
 #. type: Title =
@@ -27,7 +27,7 @@ msgid "Releases\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails 0.23 was released on March 19."
+msgid "TⒶILS 0.23 was released on March 19."
 msgstr ""
 
 #. type: Title =
@@ -37,12 +37,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"Tails has been started more than 261 878 times in March.  This make 8 448 "
+"TⒶILS has been started more than 261 878 times in March.  This make 8 448 "
 "boots a day in average."
 msgstr ""
 
 #. type: Bullet: '- '
-msgid "19 076 downloads of the OpenPGP signature of Tails ISO."
+msgid "19 076 downloads of the OpenPGP signature of TⒶILS ISO."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -80,7 +80,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "A launcher for our documentation was [[!tails_gitweb_branch bugfix/tails-"
-"documentation-launcher desc=\"added to the Tails menu\"]]."
+"documentation-launcher desc=\"added to the TⒶILS menu\"]]."
 msgstr ""
 
 #. type: Bullet: '- '
@@ -124,7 +124,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "Some work as been done towards [[!tails_gitweb_branch feature/wheezy desc="
-"\"Tails Wheezy\"]], for example on the menus and launchers, the integration "
+"\"TⒶILS Wheezy\"]], for example on the menus and launchers, the integration "
 "of Seahorse Nautilus, network-manager, and the migration from GConf to dconf."
 msgstr ""
 
@@ -136,7 +136,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "A new contribute [[page|contribute/how/sysadmin]] for sysadmins to improve "
-"the infrastructure behind Tails was [[!tails_gitweb_branch doc/6182-"
+"the infrastructure behind TⒶILS was [[!tails_gitweb_branch doc/6182-"
 "contribute-how-sysadmin desc=\"written\"]]."
 msgstr ""
 
@@ -146,7 +146,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"A sample configuration for Tails mirror using nginx was [[!"
+"A sample configuration for TⒶILS mirror using nginx was [[!"
 "tails_gitweb_commit 4ea4c3e desc=\"added\"]]. [[!tails_ticket 6993]]"
 msgstr ""
 
@@ -180,13 +180,13 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "gpgApplet was [[!tails_gitweb_commit "
-"f4bf2155d635400e5dfe969996a62989c8af67b7 desc=\"renamed\"]] \"Tails OpenPGP "
+"f4bf2155d635400e5dfe969996a62989c8af67b7 desc=\"renamed\"]] \"TⒶILS OpenPGP "
 "Applet\"."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"- \"Tails browser\" was consistently renamed \"Tor browser\". [[!"
+"- \"TⒶILS browser\" was consistently renamed \"Tor browser\". [[!"
 "tails_ticket 6574]]"
 msgstr ""
 
@@ -248,7 +248,7 @@ msgstr ""
 #. type: Bullet: '- '
 msgid ""
 "We are ready to welcome new contributors to [[improve the infrastructure "
-"behind Tails|contribute/how/sysadmin]], and drafted a call on that topic."
+"behind TⒶILS|contribute/how/sysadmin]], and drafted a call on that topic."
 msgstr ""
 
 #. type: Plain text
@@ -365,8 +365,8 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"We organized a [[news/logo_contest]] to have a new logo in time for Tails "
-"1.0. We received [[36 proposals|blueprint/logo]]! Tails contributors started "
+"We organized a [[news/logo_contest]] to have a new logo in time for TⒶILS "
+"1.0. We received [[36 proposals|blueprint/logo]]! TⒶILS contributors started "
 "to vote on their favourite proposals."
 msgstr ""
 
@@ -384,7 +384,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"We made progress on the organization of the 2014 edition of the yearly Tails "
+"We made progress on the organization of the 2014 edition of the yearly TⒶILS "
 "contributors summit. We could make use of more funding sources."
 msgstr ""
 
@@ -396,8 +396,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "2014-03-17: In [Index Freedom of Expression Awards: Digital activism nominee "
-"Tails](http://www.indexoncensorship.org/2014/03/index-freedom-expression-"
-"awards-digital-activism-nominee-tails/), Alice Kirkland interviews the Tails "
+"TⒶILS](http://www.indexoncensorship.org/2014/03/index-freedom-expression-"
+"awards-digital-activism-nominee-tails/), Alice Kirkland interviews the TⒶILS "
 "project about our nomination for the *Censorship’s Freedom of Expression "
 "Awards*."
 msgstr ""
@@ -407,7 +407,7 @@ msgid ""
 "2014-03-13: In his [Les 7 clés pour protéger ses communications](http://www."
 "tdg.ch/high-tech/web/Les-7-cles-pour-proteger-ses-communications/"
 "story/25588689)  article (in French) published by the *Tribune de Genève*, "
-"Simon Koch recommends using Tails."
+"Simon Koch recommends using TⒶILS."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -416,7 +416,7 @@ msgid ""
 "It](http://www.huffingtonpost.co.uk/mike-harris/world-wide-web_b_4947687."
 "html?utm_hp_ref=uk)  article published by the Huffington Post, Mike Harris "
 "writes that \"Increasing numbers of activists are using high-tech tools such "
-"as Tor or Tails to encrypt their internet browsing and email\"."
+"as Tor or TⒶILS to encrypt their internet browsing and email\"."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -428,13 +428,13 @@ msgid ""
 "(https://en.rsf.org/enemies-of-the-internet-2014-11-03-2014,45985.html), and "
 "writes \"If you're a journalist working on anything more sensitive than "
 "London Fashion Week or League 2 football, you might want to consider using "
-"the Linux-based 'Tails' operating system too.\""
+"the Linux-based 'TⒶILS' operating system too.\""
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "2014-03-08: [Reporters Without Borders](http://en.rsf.org/)'s Grégoire "
-"Pouget blogs about Tails: [FIC 2014 : Comment être réellement anonyme sur "
+"Pouget blogs about TⒶILS: [FIC 2014 : Comment être réellement anonyme sur "
 "Internet](http://blog.barbayellow.com/2014/03/08/fic-2014-comment-etre-"
 "reellement-anonyme-sur-internet/)  (in French)."
 msgstr ""
@@ -443,5 +443,5 @@ msgstr ""
 msgid ""
 "2014-03-03: In the March edition of the Linux Journal, that [celebrates 20 "
 "years of this journal](http://www.linuxjournal.com/content/march-2014-issue-"
-"linux-journal-20-years-linux-journal), Kyle demonstrates Tails."
+"linux-journal-20-years-linux-journal), Kyle demonstrates TⒶILS."
 msgstr ""

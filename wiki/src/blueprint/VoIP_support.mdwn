@@ -1,6 +1,6 @@
 Ticket: [[!tails_ticket 5709]]
 
-We need to find out how VoIP can be usable in the context of Tails.
+We need to find out how VoIP can be usable in the context of TⒶILS.
 
 Preliminary testing showed
 [OnionCat](http://www.cypherpunk.at/onioncat/) +
@@ -21,7 +21,7 @@ similar, unless the new unidirectional mode is good enough.
 Roadmap
 =======
 
-It looks like Linphone 3.5.1 or newer has everything Tails need, so it
+It looks like Linphone 3.5.1 or newer has everything TⒶILS need, so it
 would be good to test it (probably with OnionCat).
 
 The new OnionCat unidirectional mode (default since r555) should be

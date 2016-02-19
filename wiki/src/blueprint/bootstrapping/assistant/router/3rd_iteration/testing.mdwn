@@ -4,8 +4,8 @@ Tester A
 ========
 
   - OS: Debian
-  - Expertise: Occasional Tails user but never installed it before
-  - Scenario: You lost your Tails key and need to create a new one.
+  - Expertise: Occasional TⒶILS user but never installed it before
+  - Scenario: You lost your TⒶILS key and need to create a new one.
 
 Synopsis
 --------
@@ -37,9 +37,9 @@ Tester B
 ========
 
   - OS: Ubuntu
-  - Expertise: Has heard about Tails but never used it before.
+  - Expertise: Has heard about TⒶILS but never used it before.
   - Scenario: You want to publish some documents anonymously and a
-    friend recommended you to install Tails.
+    friend recommended you to install TⒶILS.
 
 Synopsis
 --------
@@ -61,8 +61,8 @@ Tester Z
 ========
 
   - OS: Debian
-  - Expertise: Has installed Tails using dd in the past.
-  - Scenario: Alone at home, you lost your Tails key and need to reinstall from scratch.
+  - Expertise: Has installed TⒶILS using dd in the past.
+  - Scenario: Alone at home, you lost your TⒶILS key and need to reinstall from scratch.
 
 Synopsis
 --------
@@ -72,7 +72,7 @@ Synopsis
      - "It's a "journey", woh?! Sounds funny..."
 2. OS
    - Is confused about what the "operating system" refers to
-     - "It is possible to run Tails from Windows?! I didn't know that..."
+     - "It is possible to run TⒶILS from Windows?! I didn't know that..."
    - → Debian & Ubuntu
 3. Debian user
    - Doesn't choose "copy from a friend" (partly because of the scenario)

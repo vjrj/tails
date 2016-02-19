@@ -261,10 +261,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you don't see any error message, Tails is being copied onto the USB "
+"If you don't see any error message, TⒶILS is being copied onto the USB "
 "stick. The whole process might take some time, generally a few minutes."
 msgstr ""
-"Si vous ne voyez aucun message d'erreur, Tails est en train d'être copié "
+"Si vous ne voyez aucun message d'erreur, TⒶILS est en train d'être copié "
 "vers la clé USB. Ce processus peut prendre du temps, généralement quelques "
 "minutes."
 
@@ -301,8 +301,8 @@ msgstr "<p>L'installation est complète lorsque l'invite de commande réapparaî
 
 #. type: Plain text
 #, no-wrap
-msgid "<h2 class=\"bullet-number-four\">Start Tails</h2>\n"
-msgstr "<h2 class=\"bullet-number-four\">Démarrer Tails</h2>\n"
+msgid "<h2 class=\"bullet-number-four\">Start TⒶILS</h2>\n"
+msgstr "<h2 class=\"bullet-number-four\">Démarrer TⒶILS</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -312,10 +312,10 @@ msgstr "<div class=\"next\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>After the installation completes, follow the instructions to [[start Tails on\n"
+"<p>After the installation completes, follow the instructions to [[start TⒶILS on\n"
 "Mac|first_steps/start_tails#usb-mac]].</p>\n"
 msgstr ""
-"<p>Lors que l'installation est terminée, suivre les instructions pour [[démarrer Tails sur\n"
+"<p>Lors que l'installation est terminée, suivre les instructions pour [[démarrer TⒶILS sur\n"
 "Mac|first_steps/start_tails#usb-mac]].</p>\n"
 
 #. type: Title =
@@ -340,10 +340,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The method worked on some hardware but a bug in the video support prevented "
-"Tails to start successfully:"
+"TⒶILS to start successfully:"
 msgstr ""
 "Cette méthode marchait sur d'autre matériel mais un bug dans la prise en "
-"charge vidéo empêchait Tails de finir de démarrer :"
+"charge vidéo empêchait TⒶILS de finir de démarrer :"
 
 #. type: Bullet: '  - '
 msgid "MacBook Pro Retina with OS X 10.8.3, December 2012"
@@ -355,10 +355,10 @@ msgstr "Macbook Pro modèle A1150"
 
 #. type: Plain text
 msgid ""
-"Note that Tails developers are in general not very knowledgeable about Mac. "
+"Note that TⒶILS developers are in general not very knowledgeable about Mac. "
 "Any additional information is welcome."
 msgstr ""
-"Veuillez noter que les développeurs de Tails ne s'y connaissent généralement "
+"Veuillez noter que les développeurs de TⒶILS ne s'y connaissent généralement "
 "pas bien en Mac. Toute information supplémentaire est la bienvenue."
 
 #. type: Plain text
@@ -455,10 +455,10 @@ msgstr ""
 #~ msgstr "       perl isohybrid.pl tails-i386-0.17.1.iso\n"
 
 #~ msgid ""
-#~ "To start Tails from that USB stick, you need to have [rEFInd](http://"
+#~ "To start TⒶILS from that USB stick, you need to have [rEFInd](http://"
 #~ "sourceforge.net/projects/refind/) installed on the Mac."
 #~ msgstr ""
-#~ "Pour démarrer Tails depuis une clé USB, vous devez avoir [rEFInd](http://"
+#~ "Pour démarrer TⒶILS depuis une clé USB, vous devez avoir [rEFInd](http://"
 #~ "sourceforge.net/projects/refind/) installé sur le Mac."
 
 #~ msgid ""
@@ -486,8 +486,8 @@ msgstr ""
 #~ msgid ""
 #~ "<p>Once the command prompt reappears, you can restart your Mac.\n"
 #~ "Wait for the rEFInd menu and select the USB stick to\n"
-#~ "[[start Tails|start_tails]].</p>\n"
+#~ "[[start TⒶILS|start_tails]].</p>\n"
 #~ msgstr ""
 #~ "<p>Lorsque l'invite de commande réapparaît, vous pouvez redémarrer.\n"
 #~ "votre Mac. Attendre le menu rEFInd et sélectionnez la clé USB pou\n"
-#~ "[[démarrer Tails|start_tails]].</p>\n"
+#~ "[[démarrer TⒶILS|start_tails]].</p>\n"

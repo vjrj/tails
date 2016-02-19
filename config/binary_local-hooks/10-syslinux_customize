@@ -37,7 +37,7 @@ perl -pni -E 'exit if m{^label[[:blank:]]+help$}' "${CFG_FILE}"
 
 Echo_message "customize syslinux menu"
 
-sed -i -e "s/Boot menu/Boot Tails/" "${CFG_FILE}"
+sed -i -e "s/Boot menu/Boot TⒶILS/" "${CFG_FILE}"
 
 cat > "${SYSLINUX_PATH}/tails.cfg" << EOF
 menu color sel      *           #ffffffff   #55555555   *

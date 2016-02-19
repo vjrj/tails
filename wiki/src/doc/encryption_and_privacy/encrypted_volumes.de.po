@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails\n"
+"Project-Id-Version: TⒶILS\n"
 "POT-Creation-Date: 2016-02-04 15:54+0100\n"
 "PO-Revision-Date: 2015-11-27 17:44+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,12 +23,12 @@ msgstr "[[!meta title=\"Erstellen und Benutzen verschlüsselter Laufwerke\"]]\n"
 
 #. type: Plain text
 msgid ""
-"The simplest way to carry around the documents you want to use with Tails "
+"The simplest way to carry around the documents you want to use with TⒶILS "
 "and make sure that they haven't been accessed or modified is to store them "
 "in an encrypted volume: a dedicated partition on a USB stick or external "
 "hard-disk."
 msgstr ""
-"Der einfachste Weg, um Dokumente, die Sie mit Tails verwenden möchten, mit "
+"Der einfachste Weg, um Dokumente, die Sie mit TⒶILS verwenden möchten, mit "
 "sich zu tragen und dabei sicherzustellen, dass auf diese nicht zugegriffen "
 "wurde oder diese nicht modifiziert wurden, ist, sie in einem verschlüsselten "
 "Laufwerk zu speichern: einer dedizierten Partition auf einem USB-Stick oder "
@@ -36,10 +36,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails comes with utilities for LUKS, a standard for disk-encryption under "
+"TⒶILS comes with utilities for LUKS, a standard for disk-encryption under "
 "Linux."
 msgstr ""
-"Tails kommt zusammen mit Werkzeugen für LUKS, einem Standard für "
+"TⒶILS kommt zusammen mit Werkzeugen für LUKS, einem Standard für "
 "Laufwerksverschlüsselung unter Linux."
 
 #. type: Bullet: '  - '
@@ -67,10 +67,10 @@ msgstr "<div class=\"tip\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>To store encrypted files on a Tails device, it is recommended to create a\n"
+"<p>To store encrypted files on a TⒶILS device, it is recommended to create a\n"
 "[[persistent volume|first_steps/persistence]] instead.</p>\n"
 msgstr ""
-"<p>Um verschlüsselte Dateien auf einem Tails Medium zu sichern, wird empfohlen, stattdessen einen\n"
+"<p>Um verschlüsselte Dateien auf einem TⒶILS Medium zu sichern, wird empfohlen, stattdessen einen\n"
 "[[beständigen Speicherbereich|first_steps/persistence]] zu erstellen.</p>\n"
 
 #. type: Plain text
@@ -368,7 +368,7 @@ msgstr "Öffnen Sie eine bestehende, verschlüsselte Partition\n"
 
 #. type: Plain text
 msgid ""
-"When plugging in a device containing an encrypted partition, Tails does not "
+"When plugging in a device containing an encrypted partition, TⒶILS does not "
 "open the partition automatically but you can do so from the file browser."
 msgstr ""
 
@@ -522,13 +522,13 @@ msgstr ""
 #~ msgstr "[[!img places_secret.png link=no alt=\"Places&nbsp;▸ secret\"]]\n"
 
 #~ msgid ""
-#~ "When plugging in a device containing an encrypted partition, Tails does not mount it\n"
+#~ "When plugging in a device containing an encrypted partition, TⒶILS does not mount it\n"
 #~ "automatically but it appears in the <span class=\"guimenu\">Places</span>\n"
 #~ "menu. If several partitions appear as <span class=\"guimenu\">Encrypted</span>,\n"
 #~ "like in the example, you can use their sizes to guess which one is the one you want\n"
 #~ "to open.\n"
 #~ msgstr ""
-#~ "Wenn ein Medium, welches eine verschlüsselte Partition enthält, angeschlossen wird, hängt Tails\n"
+#~ "Wenn ein Medium, welches eine verschlüsselte Partition enthält, angeschlossen wird, hängt TⒶILS\n"
 #~ "es nicht automatisch ein, es erscheint aber im <span class=\"guimenu\">Orte</span>-Menü.\n"
 #~ "Wenn mehrere Partitionen, wie in dem Beispiel, als <span class=\"guimenu\">Verschlüsselt</span> angezeigt\n"
 #~ "werden, können Sie ihre Größe dazu benutzen, um zu erraten, welche jene ist, die Sie öffnen\n"

@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"You can help Tails! The <em>first</em> release candidate for the upcoming "
+"You can help TⒶILS! The <em>first</em> release candidate for the upcoming "
 "version 0.16 is out. Please test it and see if all works for you."
 msgstr ""
 "شما می‌توانید به تیلز کمک کنید! <em>اولین</em> نامزد انتشار برای نسخهٔ پیش‌"
@@ -40,7 +40,7 @@ msgid "[[!toc levels=1]]"
 msgstr "[[!toc levels=1]]"
 
 #. type: Content of: <h1>
-msgid "How to test Tails 0.16~rc1?"
+msgid "How to test TⒶILS 0.16~rc1?"
 msgstr "چگونه تیلز 0.16~rc1 را امتحان کنیم؟"
 
 #. type: Content of: <ol><li><p>
@@ -61,7 +61,7 @@ msgstr "تصویر ایزو و امضای آن را دانلود کنید:"
 msgid ""
 "<a class=\"download-file\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.16-rc1/tails-i386-0.16~rc1.iso\" "
-">Tails 0.16~rc1 ISO image</a>"
+">TⒶILS 0.16~rc1 ISO image</a>"
 msgstr ""
 "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/testing/ta"
 "ils-i386-0.16-rc1/tails-i386-0.16~rc1.iso\" >تصویر ایزوی تیلز 0.16~rc1</a>"
@@ -70,7 +70,7 @@ msgstr ""
 msgid ""
 "<a class=\"download-signature\" "
 "href=\"http://dl.amnesia.boum.org/tails/testing/tails-i386-0.16-rc1/tails-i386-0.16~rc1.iso.pgp\" "
-">Tails 0.16~rc1 signature</a>"
+">TⒶILS 0.16~rc1 signature</a>"
 msgstr ""
 "<a class=\"download-signature\" href=\"http://dl.amnesia.boum.org/tails/testi"
 "ng/tails-i386-0.16-rc1/tails-i386-0.16~rc1.iso.pgp\" >امضای تیلز 0.16~rc1</a>"
@@ -181,7 +181,7 @@ msgid "iceweasel"
 msgstr "iceweasel"
 
 #. type: Content of: <ul><li><ul><li>
-msgid "Set iceweasel homepage to the news section on the Tails website."
+msgid "Set iceweasel homepage to the news section on the TⒶILS website."
 msgstr "تغییر صفحهٔ اول Iceweasel به بخش اخبار تارنمای تیلز."
 
 #. type: Content of: <ul><li><ul><li>

@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first release candidate for the upcoming version 1.2 "
+"You can help TⒶILS! The first release candidate for the upcoming version 1.2 "
 "is out. Please test it and see if it works for you."
 msgstr ""
 
@@ -39,7 +39,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "How to test Tails 1.2~rc1?\n"
+msgid "How to test TⒶILS 1.2~rc1?\n"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -59,7 +59,7 @@ msgstr ""
 msgid ""
 "   <a class=\"download-file\" "
 "href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-1.2~rc1/tails-i386-1.2~rc1.iso\" "
-">Tails 1.2~rc1 ISO image</a>\n"
+">TⒶILS 1.2~rc1 ISO image</a>\n"
 msgstr ""
 
 #. type: Plain text
@@ -67,7 +67,7 @@ msgstr ""
 msgid ""
 "   <a class=\"download-signature\"\n"
 "   "
-"href=\"https://tails.boum.org/torrents/files/tails-i386-1.2~rc1.iso.sig\">Tails "
+"href=\"https://tails.boum.org/torrents/files/tails-i386-1.2~rc1.iso.sig\">TⒶILS "
 "1.2~rc1 signature</a>\n"
 msgstr ""
 
@@ -111,13 +111,13 @@ msgstr ""
 msgid ""
 "These steps allow you to automatically upgrade a device installed with "
 "<span\n"
-"class=\"application\">Tails Installer</span> from Tails 1.1.2 to Tails "
+"class=\"application\">TⒶILS Installer</span> from Tails 1.1.2 to Tails "
 "1.2~rc1.\n"
 msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails 1.1.2 from a USB stick or SD card, and [[set an administration "
+"Start TⒶILS 1.1.2 from a USB stick or SD card, and [[set an administration "
 "password|doc/first_steps/startup_options/administration_password]]."
 msgstr ""
 
@@ -137,12 +137,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"1. Once the upgrade has been installed, restart Tails and look at\n"
+"1. Once the upgrade has been installed, restart TⒶILS and look at\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">System</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">About Tails</span>\n"
+"     <span class=\"guimenuitem\">About TⒶILS</span>\n"
 "   </span>\n"
-"   to confirm that the running system is Tails 1.2~rc1.\n"
+"   to confirm that the running system is TⒶILS 1.2~rc1.\n"
 msgstr ""
 
 #. type: Title =
@@ -151,7 +151,7 @@ msgid "What's new since 1.1.2?\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Notable changes since Tails 1.1.2 include:"
+msgid "Notable changes since TⒶILS 1.1.2 include:"
 msgstr ""
 
 #. type: Plain text
@@ -180,7 +180,7 @@ msgid ""
 "      Browser by adding a dedicated I2P Browser. Also, start I2P\n"
 "      automatically upon network connection, when `i2p` is present on\n"
 "      the kernel command line.\n"
-"    - Make it clear that TrueCrypt will be removed in Tails 1.2.1\n"
+"    - Make it clear that TrueCrypt will be removed in TⒶILS 1.2.1\n"
 "      ([[!tails_ticket 7739]]).\n"
 "    - Enable VirtualBox guest additions by default ([[!tails_ticket\n"
 "      5730]]). In particular this enables VirtualBox's display\n"

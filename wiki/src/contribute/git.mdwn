@@ -2,7 +2,7 @@
 
 <div id="intro">
 
-<p>Tails and its website are developed in numerous Git repositories.</p>
+<p>TⒶILS and its website are developed in numerous Git repositories.</p>
 
 <p><span class="application">Git</span> is a distributed version control
 system. It allows several people to work on the same source code and
@@ -57,7 +57,7 @@ See our [[contribute/merge_policy]].
 Caution!
 --------
 
-If you intend to prepare Tails releases, you'll need to make
+If you intend to prepare TⒶILS releases, you'll need to make
 the development team signing key the default one for Git tags:
 
 	git config user.signingkey A490D0F4D311A4153E2BB7CADBB802B258ACD84F
@@ -75,7 +75,7 @@ Repositories
 Main repository
 ---------------
 
-This repository contains the Tails source code and the source of the website.
+This repository contains the TⒶILS source code and the source of the website.
 
 Anyone can check it out like this:
 
@@ -106,7 +106,7 @@ Developers with write access to the repositories should:
 
 ### Branches
 
-Tails development uses several branches modeled a bit like the
+TⒶILS development uses several branches modeled a bit like the
 Debian development process. Here they are.
 
 <a id="master_branch"></a>
@@ -118,10 +118,10 @@ merged into `devel` and `stable` from time to time.
 We merge into `master`:
 
 - [[Documentation improvements|contribute/how/documentation]] that
-  affect current Tails (e.g. not the next Tails release).
+  affect current TⒶILS (e.g. not the next Tails release).
 - Other changes to the website ([[news]], [[security advisories|security/]], layout, and so on).
 - [[Translations|contribute/how/translate#website]] of the website.
-- When [[releasing a new Tails|contribute/release_process/]], the branch
+- When [[releasing a new TⒶILS|contribute/release_process/]], the branch
   the release was built from (`stable` or `testing`).
 
 #### stable
@@ -150,7 +150,7 @@ on it for anything. No guarantee, blablabla.
 
 #### devel
 
-Most of the development work that is done in Tails, is done in the
+Most of the development work that is done in TⒶILS, is done in the
 `devel` branch. This branch will never get released; instead, code
 from it will be merged into testing and then into a real release.
 
@@ -196,7 +196,7 @@ security problems and so on. No guarantee, blablabla.
 Promotion material
 ------------------
 
-This repository contains Tails [[promotion
+This repository contains TⒶILS [[promotion
 material|contribute/how/promote/material]].
 
 Anyone can check it out like this:
@@ -224,7 +224,7 @@ SSH client a bit, e.g.:
 
 ### tails
 
-This is the main *public* Puppet module to manage Tails infrastructure,
+This is the main *public* Puppet module to manage TⒶILS infrastructure,
 including classes such as `tails::reprepro` and `tails::whisperback::relay`.
 
 Anyone can check it out like this:
@@ -263,7 +263,7 @@ Developers with access to the WhisperBack secrets can check it out like this:
 Other repositories
 ------------------
 
-All other public Tails Git repositories are at
+All other public TⒶILS Git repositories are at
 <https://git-tails.immerda.ch/>.
 
 Unauthenticated access is of the form:
@@ -280,9 +280,9 @@ Submodules
 ==========
 
 We use Git submodules to track external repositories from the main
-Tails source tree.
+TⒶILS source tree.
 
-The main practical consequence thereof so far, for most Tails
+The main practical consequence thereof so far, for most TⒶILS
 contributors, is that one should generally run the following command
 after checking out a branch:
 

@@ -23,11 +23,11 @@ msgstr "[[!meta title=\"Options de démarrage\"]]\n"
 
 #. type: Plain text
 msgid ""
-"When starting Tails, you can specify startup options to alter some of its "
+"When starting TⒶILS, you can specify startup options to alter some of its "
 "basic functioning. The two ways of specifying startup options are the "
 "following:"
 msgstr ""
-"Quand Tails démarre, vous pouvez spécifier des options de démarrage pour "
+"Quand TⒶILS démarre, vous pouvez spécifier des options de démarrage pour "
 "modifier certaines bases de son fonctionnement. Les deux manières de "
 "spécifier les options de démarrage sont les suivantes :"
 
@@ -50,10 +50,10 @@ msgstr "Utiliser le <span class=\"application\">menu de démarrage</span>\n"
 #, no-wrap
 msgid ""
 "The <span class=\"application\">boot menu</span> is the first screen to appears\n"
-"when Tails starts.\n"
+"when TⒶILS starts.\n"
 msgstr ""
 "Le <span class=\"application\">menu de démarrage</span> est le premier écran qui apparaît\n"
-"lorsque Tails démarre.\n"
+"lorsque TⒶILS démarre.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -66,12 +66,12 @@ msgid ""
 "The <span class=\"guilabel\">failsafe</span> mode disables some features of the\n"
 "kernel and might work better on some computers. You can try this option if you\n"
 "think you are experiencing errors related to hardware compatibility while\n"
-"starting Tails.\n"
+"starting TⒶILS.\n"
 msgstr ""
 "Le mode <span class=\"guilabel\">failsafe</span> désactive certaines fonctionnalités\n"
 "du noyau et peut mieux marcher sur certains ordinateurs. Vous pouvez essayer cette option\n"
 "si vous pensez que vous rencontrez des erreurs de compatibilité\n"
-"matérielle en démarrant Tails.\n"
+"matérielle en démarrant TⒶILS.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -91,12 +91,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"[[!img boot-menu-with-options.png link=no alt=\"Black screen with Tails\n"
+"[[!img boot-menu-with-options.png link=no alt=\"Black screen with TⒶILS\n"
 "artwork. 'Boot menu' with two options 'Live' and 'Live (failsafe)'. At the\n"
 "bottom, a list of options ending with 'noautologin quiet_'\"]]\n"
 msgstr ""
 "[[!img boot-menu-with-options.png link=no alt=\"Écran noir avec l'illustration\n"
-"Tails. 'Boot menu' avec deux options 'Live' et 'Live (failsafe)'. En bas,\n"
+"TⒶILS. 'Boot menu' avec deux options 'Live' et 'Live (failsafe)'. En bas,\n"
 "une liste d'options se terminant par 'nox11autologin quiet_'\"]]\n"
 
 #. type: Bullet: '2.  '
@@ -116,9 +116,9 @@ msgstr ""
 "la première, en les séparant par un <span class=\"keycap\">Espace</span>"
 
 #. type: Bullet: '4.  '
-msgid "Then press <span class=\"keycap\">Enter</span> to start Tails."
+msgid "Then press <span class=\"keycap\">Enter</span> to start TⒶILS."
 msgstr ""
-"Appuyez ensuite sur <span class=\"keycap\">Entrée</span> pour démarrer Tails."
+"Appuyez ensuite sur <span class=\"keycap\">Entrée</span> pour démarrer TⒶILS."
 
 #. type: Plain text
 #, no-wrap
@@ -147,53 +147,53 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Using <span class=\"application\">Tails Greeter</span>\n"
-msgstr "Utiliser <span class=\"application\">Tails Greeter</span>\n"
+msgid "Using <span class=\"application\">TⒶILS Greeter</span>\n"
+msgstr "Utiliser <span class=\"application\">TⒶILS Greeter</span>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<span class=\"application\">Tails Greeter</span> is the set of dialogs that\n"
+"<span class=\"application\">TⒶILS Greeter</span> is the set of dialogs that\n"
 "appear after the <span class=\"application\">boot menu</span>, but before the\n"
 "<span class=\"application\">GNOME Desktop</span> appears. This is how to first\n"
-"screen of <span class=\"application\">Tails Greeter</span> looks like:\n"
+"screen of <span class=\"application\">TⒶILS Greeter</span> looks like:\n"
 msgstr ""
-"<span class=\"application\">Tails Greeter</span> est un ensemble de boîtes de dialogue\n"
+"<span class=\"application\">TⒶILS Greeter</span> est un ensemble de boîtes de dialogue\n"
 "qui apparaît après le <span class=\"application\">menu de démarrage</span>, mais avant que le\n"
 "<span class=\"application\">bureau GNOME</span> n'apparaisse. Voici à quoi ressemble\n"
-"le premier écran de <span class=\"application\">Tails Greeter</span> :\n"
+"le premier écran de <span class=\"application\">TⒶILS Greeter</span> :\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"[[!img tails-greeter-welcome-to-tails.png link=no alt=\"Welcome to Tails. More\n"
+"[[!img tails-greeter-welcome-to-tails.png link=no alt=\"Welcome to TⒶILS. More\n"
 "options? Yes, and No toggle button, and Login button.\"]]\n"
 msgstr ""
-"[[!img tails-greeter-welcome-to-tails.png link=no alt=\"Bienvenue dans Tails. Plus\n"
+"[[!img tails-greeter-welcome-to-tails.png link=no alt=\"Bienvenue dans TⒶILS. Plus\n"
 "d'options ? Boutons Oui, Non et Connexion.\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**To start Tails without options**, click on the\n"
+"**To start TⒶILS without options**, click on the\n"
 "<span class=\"button\">Login</span> button, or just press\n"
 "<span class=\"keycap\">Enter</span>.\n"
 msgstr ""
-"**Pour démarrer Tails sans options**, cliquez sur le bouton\n"
+"**Pour démarrer TⒶILS sans options**, cliquez sur le bouton\n"
 "<span class=\"button\">Login</span>, ou appuyez simplement sur\n"
 "<span class=\"keycap\">Entrée</span>.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**To start Tails in languages other than English**, select the one you\n"
+"**To start TⒶILS in languages other than English**, select the one you\n"
 "want from the menu at the bottom of the screen. You can also adapt\n"
-"your country and keyboard layout. When you do that, <span class=\"application\">Tails Greeter</span> itself\n"
+"your country and keyboard layout. When you do that, <span class=\"application\">TⒶILS Greeter</span> itself\n"
 "switches language.\n"
 msgstr ""
-"**Pour lancer Tails dans une autre langue que l'anglais**, sélectionner celle\n"
+"**Pour lancer TⒶILS dans une autre langue que l'anglais**, sélectionner celle\n"
 "que vous voulez depuis le menu en bas de l'écran. Vous pouvez aussi adapter\n"
-"votre pays et l'agencement du clavier. Lorsque que vous faites cela, <span class=\"application\">Tails Greeter</span> change\n"
+"votre pays et l'agencement du clavier. Lorsque que vous faites cela, <span class=\"application\">TⒶILS Greeter</span> change\n"
 "de langue.\n"
 
 #. type: Plain text
@@ -208,10 +208,10 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Here is a list of options that you can set using <span class=\"application\">Tails\n"
+"Here is a list of options that you can set using <span class=\"application\">TⒶILS\n"
 "Greeter</span>:\n"
 msgstr ""
-"Voici une liste des options que vous pouvez définir en utilisant <span class=\"application\">Tails\n"
+"Voici une liste des options que vous pouvez définir en utilisant <span class=\"application\">TⒶILS\n"
 "Greeter</span>:\n"
 
 #. type: Bullet: '  - '
@@ -245,10 +245,10 @@ msgstr "Un problème au démarrage ?\n"
 
 #. type: Plain text
 msgid ""
-"If you have problems booting Tails, please read the [[following guidelines|"
+"If you have problems booting TⒶILS, please read the [[following guidelines|"
 "doc/first_steps/bug_reporting/tails_does_not_start]]."
 msgstr ""
-"Si vous avez des problèmes pour démarrer Tails, veuillez lire les "
+"Si vous avez des problèmes pour démarrer TⒶILS, veuillez lire les "
 "[[instructions suivantes|doc/first_steps/bug_reporting/"
 "tails_does_not_start]]."
 

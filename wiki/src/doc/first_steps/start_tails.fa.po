@@ -21,7 +21,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Start Tails\"]]\n"
+msgid "[[!meta title=\"Start TⒶILS\"]]\n"
 msgstr "[[!meta title=\"راه‌اندازی تیلز\"]]\n"
 
 #. type: Plain text
@@ -31,14 +31,14 @@ msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 msgid ""
-"Now that you have a Tails device, you can shutdown your computer and start "
-"using Tails without altering your existing operating system."
+"Now that you have a TⒶILS device, you can shutdown your computer and start "
+"using TⒶILS without altering your existing operating system."
 msgstr ""
 "اکنون که دستگاهی که روی آن تیلز نصب شده است دارید، می‌توانید رایانهٔ خود را "
 "خاموش کنید و بدون تغییر در سیستم‌عامل فعلی، به استفاده از تیلز بپردازید."
 
 #. type: Plain text
-msgid "If Tails starts successfully, the Tails boot menu appears:"
+msgid "If TⒶILS starts successfully, the TⒶILS boot menu appears:"
 msgstr ""
 "اگر تیلز با موفقیت راه‌اندازی شود، فهرست راه‌اندازی تیلز نمایش داده می‌شود:"
 
@@ -55,11 +55,11 @@ msgstr "اگر از دی‌وی‌دی استفاده می‌کنید\n"
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Put the Tails DVD into the CD/DVD drive and restart the computer. You "
-#| "should the Tails boot menu."
+#| "Put the TⒶILS DVD into the CD/DVD drive and restart the computer. You "
+#| "should the TⒶILS boot menu."
 msgid ""
-"Put the Tails DVD into the CD/DVD drive and restart the computer. You should "
-"see the Tails boot menu."
+"Put the TⒶILS DVD into the CD/DVD drive and restart the computer. You should "
+"see the TⒶILS boot menu."
 msgstr ""
 "دی‌وی‌دی تیلز را در درایو دی‌وی‌دی بگذارید و رایانهٔ خود را راه‌اندازی دوباره "
 "کنید. باید فهرست راه‌اندازی با تیلز را ببینید."
@@ -104,7 +104,7 @@ msgstr "دستگاه ویندوزی"
 #. type: Plain text
 msgid ""
 "Shutdown the computer, plug your device, and start the computer. You should "
-"see the Tails boot menu."
+"see the TⒶILS boot menu."
 msgstr ""
 "رایانه را خاموش کنید، دستگاه (کارت حافظه، درایو یواس‌بی یا ...) را وصل و "
 "رایانه را روشن کنید. باید بتوانید فهرست راه‌اندازی تیلز را ببینید."
@@ -205,7 +205,7 @@ msgstr "غیر فعال کردن UEFI"
 #, no-wrap
 msgid ""
 "   You might have to undo these changes to start your usual operating\n"
-"system again after your Tails session.\n"
+"system again after your TⒶILS session.\n"
 msgstr ""
 "   ممکن است برای راه‌اندازی سیستم‌عامل معمولی خود پس از کار با تیلز لازم باشد \n"
 "تغییرات اعمال‌شده را به حالت اول بازگردانید.\n"
@@ -242,7 +242,7 @@ msgstr ""
 "شبیه یک یواس‌بی است را انتخاب کنید.\n"
 
 #. type: Plain text
-msgid "Then you should see the Tails boot menu."
+msgid "Then you should see the TⒶILS boot menu."
 msgstr "حالا باید بتوانید فهرست راه‌اندازی تیلز را ببینید."
 
 #. type: Plain text
@@ -277,12 +277,12 @@ msgstr "</div>\n"
 
 #. type: Title =
 #, no-wrap
-msgid "Problems starting Tails?\n"
+msgid "Problems starting TⒶILS?\n"
 msgstr "مشکلی با راه‌اندازی تیلز دارید؟\n"
 
 #. type: Plain text
 msgid ""
-"Read our specific [[reporting guidelines when Tails does not start|doc/"
+"Read our specific [[reporting guidelines when TⒶILS does not start|doc/"
 "first_steps/bug_reporting/tails_does_not_start]]."
 msgstr ""
 "[[راهنمای گزارش‌دهی ما در صورت تیلز راه‌اندازی نشدن تیلز|doc/first_steps/"

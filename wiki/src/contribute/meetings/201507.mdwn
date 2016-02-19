@@ -39,18 +39,18 @@ satisfied the people who raised these concerns.
 # [[!tails_ticket 8864 desc="Consider flagging first boot after installing"]]
 
 
-We tried to answer this question: "is it OK that a given Tails device
+We tried to answer this question: "is it OK that a given TⒶILS device
 has written, somewhere, whether it has been started already?"
 
-a) if I root your Tails, what does it give me to know whether it's the
+a) if I root your TⒶILS, what does it give me to know whether it's the
    first time it's booted?
 
 and
 
-b) if I steal your Tails, what does it give me to know whether it's been started yet?
+b) if I steal your TⒶILS, what does it give me to know whether it's been started yet?
 
 and we didn't find any serious risks in doing so, except it proves
-that a given Tails device has been *used* (which might entail more
+that a given TⒶILS device has been *used* (which might entail more
 legal risks than mere possession), which seemed overkill a threat
 model to us.
 
@@ -62,12 +62,12 @@ add them to the donations page. And then, discussing whether to link
 to Flattr from each blog post, we ended up finding it better to link
 to our donations page instead, replacing:
 
-"There are many ways [[you can contribute|contribute]] to Tails.
+"There are many ways [[you can contribute|contribute]] to TⒶILS.
 If you want to help, come talk to us!"
 
 with:
 
-"There are many ways [[you can contribute|contribute]] to Tails, for
+"There are many ways [[you can contribute|contribute]] to TⒶILS, for
 example by [[donating|contribute/how/donate]]. If you want to help,
 come talk to us!"
 

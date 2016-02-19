@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-02-04 12:56+0100\n"
 "PO-Revision-Date: 2016-01-28 18:42+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,8 +23,8 @@ msgstr "[[!meta date=\"Tue Jan 26 12:34:56 2016\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 2.0 is out\"]]\n"
-msgstr "[[!meta title=\"Tails 2.0 wurde veröffentlicht\"]]\n"
+msgid "[[!meta title=\"TⒶILS 2.0 is out\"]]\n"
+msgstr "[[!meta title=\"TⒶILS 2.0 wurde veröffentlicht\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -33,11 +33,11 @@ msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
 msgid ""
-"We are especially proud to present you Tails 2.0, the first version of Tails "
+"We are especially proud to present you TⒶILS 2.0, the first version of Tails "
 "based on:"
 msgstr ""
-"Wir sind besonders stolz darauf, Ihnen Tails 2.0 zu präsentieren, die erste "
-"Version von Tails, die aufbaut auf:"
+"Wir sind besonders stolz darauf, Ihnen TⒶILS 2.0 zu präsentieren, die erste "
+"Version von TⒶILS, die aufbaut auf:"
 
 #. type: Bullet: '  - '
 msgid "GNOME Shell, with lots of changes in the desktop environment."
@@ -91,21 +91,21 @@ msgstr "Bekannte Probleme"
 msgid ""
 "Tor Browser 5.5 introduces [protection against fingerprinting](https://trac."
 "torproject.org/projects/tor/ticket/13313)  but due to an [oversight](https://"
-"labs.riseup.net/code/issues/11000)  it is not enabled in Tails 2.0. However, "
-"this is not so bad for Tails users since each Tails system has the same "
+"labs.riseup.net/code/issues/11000)  it is not enabled in TⒶILS 2.0. However, "
+"this is not so bad for TⒶILS users since each Tails system has the same "
 "fonts installed, and hence will look identical, so this only means that it's "
-"easy to distinguish whether a user of Tor Browser 5.5 uses Tails or not. "
-"That is already easy given that Tails has the AdBlock Plus extension "
+"easy to distinguish whether a user of Tor Browser 5.5 uses TⒶILS or not. "
+"That is already easy given that TⒶILS has the AdBlock Plus extension "
 "enabled, unlike the normal Tor Browser."
 msgstr ""
 "Tor Browser 5.5 führt [Schutz gegen Fingerprinting](https://trac.torproject."
 "org/projects/tor/ticket/13313) ein, aber durch ein [Versehen](https://labs."
-"riseup.net/code/issues/11000) ist diese Funktion in Tails 2.0 nicht "
-"aktiviert. Nichtsdestotrotz stellt dies kein Problem für Nutzer von Tails "
-"dar, da jedes Tails-System die gleichen Schriftarten installiert hat und "
+"riseup.net/code/issues/11000) ist diese Funktion in TⒶILS 2.0 nicht "
+"aktiviert. Nichtsdestotrotz stellt dies kein Problem für Nutzer von TⒶILS "
+"dar, da jedes TⒶILS-System die gleichen Schriftarten installiert hat und "
 "deshalb identisch erscheint. Dies bedeutet somit, dass es einfach zu "
-"unterscheiden ist, ob ein Nutzer des Tor Browser 5.5 Tails benutzt, oder "
-"nicht. Dies ist bereits leicht möglich, da Tails im Gegensatz zum normalen "
+"unterscheiden ist, ob ein Nutzer des Tor Browser 5.5 TⒶILS benutzt, oder "
+"nicht. Dies ist bereits leicht möglich, da TⒶILS im Gegensatz zum normalen "
 "Tor Browser die Erweiterung AdBlock Plus aktiviert hat."
 
 #. type: Plain text
@@ -122,10 +122,10 @@ msgstr "Installation"
 #. type: Plain text
 msgid ""
 "We also redesigned completely our download and installation instructions to "
-"make it easier to get started with Tails."
+"make it easier to get started with TⒶILS."
 msgstr ""
 "Wir haben auch unsere Anweisungen für Download und Installation "
-"überarbeitet, um den Einstieg in Tails zu vereinfachen."
+"überarbeitet, um den Einstieg in TⒶILS zu vereinfachen."
 
 #. type: Plain text
 msgid ""
@@ -137,10 +137,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can also install or upgrade Tails directly from Debian or Ubuntu using "
+"You can also install or upgrade TⒶILS directly from Debian or Ubuntu using "
 "the `tails-installer` package."
 msgstr ""
-"Sie können Tails auch direkt von Debian oder Ubuntu mit dem `tails-"
+"Sie können TⒶILS auch direkt von Debian oder Ubuntu mit dem `tails-"
 "installer` Paket installieren oder aktualisieren."
 
 #. type: Plain text
@@ -159,11 +159,11 @@ msgstr "Aktualisieren"
 
 #. type: Plain text
 msgid ""
-"Tails changed so much since version 1.8.2 that it is impossible to provide "
+"TⒶILS changed so much since version 1.8.2 that it is impossible to provide "
 "an automatic upgrade. We recommend you [[follow our new manual upgrade "
 "instructions|upgrade]] instead."
 msgstr ""
-"Tails hat sich seit Version 1.8.2 so stark verändert, dass es nicht möglich "
+"TⒶILS hat sich seit Version 1.8.2 so stark verändert, dass es nicht möglich "
 "ist, eine automatische Aktualisierung anzubieten. Wir empfehlen Ihnen "
 "stattdessen unsere [[neuen Anweisungen zum manuellen Aktualisieren|upgrade]]."
 
@@ -174,9 +174,9 @@ msgstr "Was kommt als Nächstes?"
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for March 6."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for March 6."
 msgstr ""
-"Die nächste Version von Tails ist für den 6. März [[geplant|contribute/"
+"Die nächste Version von TⒶILS ist für den 6. März [[geplant|contribute/"
 "calendar]]."
 
 #. type: Plain text
@@ -187,10 +187,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We need your help and there are many ways to [[contribute to Tails|"
+"We need your help and there are many ways to [[contribute to TⒶILS|"
 "contribute]] ([[donating|contribute/how/donate]] is only one of them). Come "
 "[[talk to us|contribute/talk]]!"
 msgstr ""
-"Wir brauchen Ihre Hilfe und es gibt viele Wege, auf denen Sie [[Tails "
+"Wir brauchen Ihre Hilfe und es gibt viele Wege, auf denen Sie [[TⒶILS "
 "unterstützen|contribute]] können. ([[Spenden|contribute/how/donate]] ist nur "
 "einer davon). [[Sprechen Sie uns an|contribute/talk]]!"

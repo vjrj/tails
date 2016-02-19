@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"پنج‌شنبه ۱۷ مارس ۱۱:۱۲:۴۹ ۲۰۱۳\"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails report for February, 2013\"]]\n"
+msgid "[[!meta title=\"TⒶILS report for February, 2013\"]]\n"
 msgstr "[[!meta title=\"گزارش فوریه ۲۰۱۳ تیلز\"]]\n"
 
 #. type: Plain text
@@ -39,7 +39,7 @@ msgid "Releases\n"
 msgstr "انتشارها\n"
 
 #. type: Plain text
-msgid "[[Tails 0.17|news/version_0.17]] was released on February 25th."
+msgid "[[TⒶILS 0.17|news/version_0.17]] was released on February 25th."
 msgstr "[[تیلز ۰٫۱۷|news/version_0.17]] روز ۲۵ ژانویه منتشر شد."
 
 #. type: Title =
@@ -49,9 +49,9 @@ msgstr "متریک‌ها\n"
 
 #. type: Bullet: '  - '
 msgid ""
-"99 275 connections of Tails to the Tor network. This makes a boot every 24 "
+"99 275 connections of TⒶILS to the Tor network. This makes a boot every 24 "
 "seconds on average (this number is an approximation from the requests made "
-"to the security announcements feed. The later is retrieved by Tails after "
+"to the security announcements feed. The later is retrieved by TⒶILS after "
 "being connected to Tor to eventually encourage users to update.)"
 msgstr ""
 "۹۹٫۲۷۵ اتصال از تیلز به شبکهٔ تور ایجاد شد، یعنی هر ۲۴ ثانیه یک راه‌اندازی. ("
@@ -63,7 +63,7 @@ msgid "63 reports were received through WhisperBack."
 msgstr "۶۳ گزارش ایراد ارسال‌شده از ویسپربک دریافت کردیم."
 
 #. type: Bullet: '  - '
-msgid "924 comments were posted on the forum, with 161 signed by Tails."
+msgid "924 comments were posted on the forum, with 161 signed by TⒶILS."
 msgstr "۹۲۴ پیغام روی انجمن ارسال شده که ۱۶۱ تا امضای تیلز دارند."
 
 #. type: Title =
@@ -114,7 +114,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"Some progress was made on [[!tails_gitweb_branch feature/wheezy desc=\"Tails "
+"Some progress was made on [[!tails_gitweb_branch feature/wheezy desc=\"TⒶILS "
 "based on Wheezy\"]]."
 msgstr ""
 "پیشرفت‌هایی در [[!tails_gitweb_branch feature/wheezy desc=\"تیلز مبتنی بر "
@@ -123,7 +123,7 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "The firmware loader for [[!tails_gitweb_branch feature/gobi-loader "
-"desc=\"Qualcomm Gobi USB chipsets\"]] was added to Tails 0.17."
+"desc=\"Qualcomm Gobi USB chipsets\"]] was added to TⒶILS 0.17."
 msgstr ""
 "بارگذار سفت‌افزار برای [[!tails_gitweb_branch feature/gobi-loader desc=\""
 "مجموعه‌تراشهٔ Qualcomm Gobi USB\"]] به تیلز ۰٫۱۷ اضافه شد."
@@ -131,8 +131,8 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "Some work has been done on getting the [[!tails_gitweb_branch "
-"feature/torbrowser desc=\"Tails web browser\"]] (now based on Iceweasel 17 "
-"ESR + Torbrowser patches) ready for Tails 0.17."
+"feature/torbrowser desc=\"TⒶILS web browser\"]] (now based on Iceweasel 17 "
+"ESR + Torbrowser patches) ready for TⒶILS 0.17."
 msgstr ""
 "کارهایی برای آماده کردن [[!tails_gitweb_branch feature/torbrowser desc=\""
 "مرورگر وب تیلز\"]] (که حالا مبتنی بر بسته‌های Iceweasel 17 `Torbrowser است) "
@@ -286,7 +286,7 @@ msgstr ""
 
 #. type: Bullet: '    - '
 msgid ""
-"[Having an applet that informs about the version number of Tails and hiding "
+"[Having an applet that informs about the version number of TⒶILS and hiding "
 "the download button on the News "
 "page](https://mailman.boum.org/pipermail/tails-dev/2013-February/002653.html)"
 msgstr ""

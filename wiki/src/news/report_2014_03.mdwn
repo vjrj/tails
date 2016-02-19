@@ -1,16 +1,16 @@
-[[!meta title="Tails report for March, 2014"]]
+[[!meta title="TⒶILS report for March, 2014"]]
 
 Releases
 ========
 
-Tails 0.23 was released on March 19.
+TⒶILS 0.23 was released on March 19.
 
 Metrics
 =======
 
-- Tails has been started more than 261 878 times in March.
+- TⒶILS has been started more than 261 878 times in March.
   This make 8 448 boots a day in average.
-- 19 076 downloads of the OpenPGP signature of Tails ISO.
+- 19 076 downloads of the OpenPGP signature of TⒶILS ISO.
 - 80 reports were received through WhisperBack.
 
 Code
@@ -27,7 +27,7 @@ Code
   dd3604cb96039874f76ac335c62470752687f447 desc="added to our browser"]].
 
 - A launcher for our documentation was [[!tails_gitweb_branch
-  bugfix/tails-documentation-launcher desc="added to the Tails menu"]].
+  bugfix/tails-documentation-launcher desc="added to the TⒶILS menu"]].
 
 - Some race conditions when starting automatic upgrades were
   [[!tails_gitweb_branch bugfix/6592-fix-races-with-check-for-upgrades
@@ -49,7 +49,7 @@ Code
   from deb.tails.boum.org not to install Linux 3.13.5-1 from testing yet.
 
 - Some work as been done towards [[!tails_gitweb_branch feature/wheezy
-  desc="Tails Wheezy"]], for example on the menus and launchers, the integration
+  desc="TⒶILS Wheezy"]], for example on the menus and launchers, the integration
   of Seahorse Nautilus, network-manager, and the migration from GConf to dconf.
 
 Documentation and website
@@ -57,12 +57,12 @@ Documentation and website
 
 - A new contribute [[page|contribute/how/sysadmin]] for sysadmins to
   improve the infrastructure behind
-  Tails was [[!tails_gitweb_branch doc/6182-contribute-how-sysadmin
+  TⒶILS was [[!tails_gitweb_branch doc/6182-contribute-how-sysadmin
   desc="written"]].
 
 - Our sample `rtorrent.rc` was improved. [[!tails_ticket 6995]]
 
-- A sample configuration for Tails mirror using nginx was
+- A sample configuration for TⒶILS mirror using nginx was
   [[!tails_gitweb_commit 4ea4c3e desc="added"]]. [[!tails_ticket 6993]]
 
 - A "News" link was [[!tails_gitweb_commit
@@ -81,9 +81,9 @@ Documentation and website
   desc="fixed"]].
 
 - gpgApplet was [[!tails_gitweb_commit f4bf2155d635400e5dfe969996a62989c8af67b7
-  desc="renamed"]] "Tails OpenPGP Applet".
+  desc="renamed"]] "TⒶILS OpenPGP Applet".
 
-- "Tails browser" was consistently renamed "Tor browser". [[!tails_ticket 6574]]
+- "TⒶILS browser" was consistently renamed "Tor browser". [[!tails_ticket 6574]]
 
 - Our list of related projects was updated:
   - [Freepto](http://www.freepto.mx/) was added.
@@ -115,7 +115,7 @@ Infrastructure
   [[announced|news/tails-testers]] and already joined by 35 people.
 
 - We are ready to welcome new contributors to [[improve the infrastructure behind
-  Tails|contribute/how/sysadmin]], and drafted a call on that topic.
+  TⒶILS|contribute/how/sysadmin]], and drafted a call on that topic.
 
 - Three branches were merged to improve our automated test suite:
   - [[!tails_gitweb_branch test/5959-antitest-memory-erasure]]
@@ -178,7 +178,7 @@ Outreach
 ========
 
 - We organized a [[news/logo_contest]] to have a new logo in time
-  for Tails 1.0. We received [[36 proposals|blueprint/logo]]! Tails contributors
+  for TⒶILS 1.0. We received [[36 proposals|blueprint/logo]]! Tails contributors
   started to vote on their favourite proposals.
 
 - We scheduled two usability testing sessions together with [Silicon
@@ -188,7 +188,7 @@ Outreach
   [IRILL](http://www.irill.org/) (Paris, France) on July 5 and 6.
 
 - We made progress on the organization of the 2014 edition of the
-  yearly Tails contributors summit. We could make use of more
+  yearly TⒶILS contributors summit. We could make use of more
   funding sources.
 
 Press and testimonials
@@ -196,21 +196,21 @@ Press and testimonials
 
 * 2014-03-17: In [Index Freedom of Expression Awards: Digital activism
   nominee
-  Tails](http://www.indexoncensorship.org/2014/03/index-freedom-expression-awards-digital-activism-nominee-tails/),
-  Alice Kirkland interviews the Tails project about our nomination for
+  TⒶILS](http://www.indexoncensorship.org/2014/03/index-freedom-expression-awards-digital-activism-nominee-tails/),
+  Alice Kirkland interviews the TⒶILS project about our nomination for
   the *Censorship’s Freedom of Expression Awards*.
 
 * 2014-03-13: In his [Les 7 clés pour protéger ses
   communications](http://www.tdg.ch/high-tech/web/Les-7-cles-pour-proteger-ses-communications/story/25588689)
   article (in French) published by the *Tribune de Genève*, Simon Koch
-  recommends using Tails.
+  recommends using TⒶILS.
 
 * 2014-03-12: In his [Happy 25th Birthday World Wide Web - Let's Not
   Destroy
   It](http://www.huffingtonpost.co.uk/mike-harris/world-wide-web_b_4947687.html?utm_hp_ref=uk)
   article published by the Huffington Post, Mike Harris writes that
   "Increasing numbers of activists are using high-tech tools such as
-  Tor or Tails to encrypt their internet browsing and email".
+  Tor or TⒶILS to encrypt their internet browsing and email".
 
 * 2014-03-12: In his [US and UK Spy Agencies Are "Enemies of the
   Internet"](http://motherboard.vice.com/read/us-and-uk-spy-agencies-are-enemies-of-the-internet)
@@ -219,11 +219,11 @@ Press and testimonials
   report](https://en.rsf.org/enemies-of-the-internet-2014-11-03-2014,45985.html),
   and writes "If you're a journalist working on anything more
   sensitive than London Fashion Week or League 2 football, you might
-  want to consider using the Linux-based 'Tails' operating
+  want to consider using the Linux-based 'TⒶILS' operating
   system too."
 
 * 2014-03-08: [Reporters Without Borders](http://en.rsf.org/)'s
-  Grégoire Pouget blogs about Tails: [FIC 2014 : Comment être
+  Grégoire Pouget blogs about TⒶILS: [FIC 2014 : Comment être
   réellement anonyme sur
   Internet](http://blog.barbayellow.com/2014/03/08/fic-2014-comment-etre-reellement-anonyme-sur-internet/)
   (in French).
@@ -231,4 +231,4 @@ Press and testimonials
 * 2014-03-03: In the March edition of the Linux Journal, that
   [celebrates 20 years of this
   journal](http://www.linuxjournal.com/content/march-2014-issue-linux-journal-20-years-linux-journal),
-  Kyle demonstrates Tails.
+  Kyle demonstrates TⒶILS.

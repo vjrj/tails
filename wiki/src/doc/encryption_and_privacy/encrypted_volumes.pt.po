@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The simplest way to carry around the documents you want to use with Tails "
+"The simplest way to carry around the documents you want to use with TⒶILS "
 "and make sure that they haven't been accessed or modified is to store them "
 "in an encrypted volume: a dedicated partition on a USB stick or external "
 "hard-disk."
@@ -31,7 +31,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails comes with utilities for LUKS, a standard for disk-encryption under "
+"TⒶILS comes with utilities for LUKS, a standard for disk-encryption under "
 "Linux."
 msgstr ""
 
@@ -53,7 +53,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>To store encrypted files on a Tails device, it is recommended to create a\n"
+"<p>To store encrypted files on a TⒶILS device, it is recommended to create a\n"
 "[[persistent volume|first_steps/persistence]] instead.</p>\n"
 msgstr ""
 
@@ -271,7 +271,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"When plugging in a device containing an encrypted partition, Tails does not "
+"When plugging in a device containing an encrypted partition, TⒶILS does not "
 "open the partition automatically but you can do so from the file browser."
 msgstr ""
 

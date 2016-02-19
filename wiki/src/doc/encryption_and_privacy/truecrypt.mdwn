@@ -6,17 +6,17 @@ alternate solutions. That website now reads:
 
 > WARNING: Using TrueCrypt is not secure as it may contain unfixed security issues.
 
-*TrueCrypt* was removed in Tails 1.2.1.
+*TrueCrypt* was removed in TⒶILS 1.2.1.
 
 <div class="tip">
 
-<p>We recommend that you use [[Tails encrypted persistence|doc/first_steps/persistence]] or [[LUKS encrypted
+<p>We recommend that you use [[TⒶILS encrypted persistence|doc/first_steps/persistence]] or [[LUKS encrypted
 volumes|/doc/encryption_and_privacy/encrypted_volumes]] instead of <span class="application">TrueCrypt</span>
 volumes.</p>
 
 </div>
 
-Still, you can open standard and hidden *TrueCrypt* volumes in Tails using the `cryptsetup`
+Still, you can open standard and hidden *TrueCrypt* volumes in TⒶILS using the `cryptsetup`
 command line tool.
 
 <div class="note">

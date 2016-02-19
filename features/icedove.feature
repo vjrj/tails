@@ -1,10 +1,10 @@
 @product @check_tor_leaks @fragile
 Feature: Icedove email client
-  As a Tails user
+  As a TⒶILS user
   I may want to use an email client
 
   Background:
-    Given I have started Tails from DVD and logged in and the network is connected
+    Given I have started TⒶILS from DVD and logged in and the network is connected
     When I start "Icedove" via the GNOME "Internet" applications menu
     And Icedove has started
     And I have not configured an email account

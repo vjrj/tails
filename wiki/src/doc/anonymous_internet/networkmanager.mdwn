@@ -3,7 +3,7 @@
 You can connect to a network using a wired, Wi-Fi, or mobile broadband
 connection:
 
-  - If a wired connection is detected, Tails automatically connects to it.
+  - If a wired connection is detected, TⒶILS automatically connects to it.
 
   - To connect to a Wi-Fi network:
 
@@ -20,7 +20,7 @@ connection:
 [[!img doc/first_steps/introduction_to_gnome_and_the_tails_desktop/system.png link="no"]]
 
 To connect to Tor using bridges or configure a proxy to access the Internet,
-you need to [[activate additional Tor configuration when starting Tails|first_steps/startup_options/network_configuration]].
+you need to [[activate additional Tor configuration when starting TⒶILS|first_steps/startup_options/network_configuration]].
 
 After establishing a connection to a network:
 
@@ -44,7 +44,7 @@ configuration or the passwords of encrypted wireless connections across separate
 working sessions, you can activate the [[<span class="guilabel">Network connections</span> persistence
 feature|first_steps/persistence/configure#network_connections]].
 
-If you are concerned about being identified as a Tails user on your
+If you are concerned about being identified as a TⒶILS user on your
 network, read our documentation about [[network
 fingerprinting|doc/about/fingerprint]].
 

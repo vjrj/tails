@@ -37,7 +37,7 @@ When /^I bump the (hardware clock's|system) time with "([^"]+)"$/ do |clock_type
          "'#{expected_time_lower_bound}' but is '#{new_time}'")
 end
 
-Then /^Tails clock is less than (\d+) minutes incorrect$/ do |max_diff_mins|
+Then /^TⒶILS clock is less than (\d+) minutes incorrect$/ do |max_diff_mins|
   guest_time_str = $vm.execute("date --rfc-2822").stdout.chomp
   guest_time = Time.rfc2822(guest_time_str)
   host_time = Time.now
@@ -47,7 +47,7 @@ Then /^Tails clock is less than (\d+) minutes incorrect$/ do |max_diff_mins|
   puts "Time was #{diff} seconds off"
 end
 
-Then /^the system clock is just past Tails' build date$/ do
+Then /^the system clock is just past TⒶILS' build date$/ do
   system_time_str = $vm.execute_successfully('date').to_s
   system_time = DateTime.parse(system_time_str).to_time
   build_time_cmd = 'sed -n -e "1s/^.* - \([0-9]\+\)$/\1/p;q" ' +
@@ -55,18 +55,18 @@ Then /^the system clock is just past Tails' build date$/ do
   build_time_str = $vm.execute_successfully(build_time_cmd).to_s
   build_time = DateTime.parse(build_time_str).to_time
   diff = system_time - build_time  # => in seconds
-  # Half an hour should be enough to boot Tails on any reasonable
+  # Half an hour should be enough to boot TⒶILS on any reasonable
   # hardware and VM setup.
   max_diff = 30*60
   assert(diff > 0,
-         "The system time (#{system_time}) is before the Tails " +
+         "The system time (#{system_time}) is before the TⒶILS " +
          "build date (#{build_time})")
   assert(diff <= max_diff,
          "The system time (#{system_time}) is more than #{max_diff} seconds " +
          "past the build date (#{build_time})")
 end
 
-Then /^Tails' hardware clock is close to the host system's time$/ do
+Then /^TⒶILS' hardware clock is close to the host system's time$/ do
   host_time = Time.now
   hwclock_time_str = $vm.execute('hwclock -r').stdout.chomp
   hwclock_time = DateTime.parse(hwclock_time_str).to_time

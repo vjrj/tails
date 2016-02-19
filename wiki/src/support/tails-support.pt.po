@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2015-06-12 00:26+0300\n"
 "PO-Revision-Date: 2014-06-15 12:27-0300\n"
-"Last-Translator: Tails Developers <amnesia@boum.org>\n"
+"Last-Translator: TⒶILS Developers <amnesia@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -17,8 +17,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails user support mailing list\"]]\n"
-msgstr "[[!meta title=\"Lista de emails de suporte ao usuário/a Tails\"]]\n"
+msgid "[[!meta title=\"TⒶILS user support mailing list\"]]\n"
+msgstr "[[!meta title=\"Lista de emails de suporte ao usuário/a TⒶILS\"]]\n"
 
 #. type: Plain text
 msgid "This list is **the right place** for:"
@@ -26,19 +26,19 @@ msgstr "Esta lista é **o local correto** para:"
 
 #. type: Bullet: '  - '
 msgid ""
-"**User support**: solving doubts about how to use Tails, security "
-"implications of Tails, etc."
+"**User support**: solving doubts about how to use TⒶILS, security "
+"implications of TⒶILS, etc."
 msgstr ""
-"**Suporte ao usuário/a**: resolver dúvidas sobre como usar Tails, "
-"implicações de segurança do uso de Tails, etc."
+"**Suporte ao usuário/a**: resolver dúvidas sobre como usar TⒶILS, "
+"implicações de segurança do uso de TⒶILS, etc."
 
 #. type: Bullet: '  - '
 msgid ""
-"**Community interaction**: information and tricks about ways of using Tails "
+"**Community interaction**: information and tricks about ways of using TⒶILS "
 "that are not officially documented but might be of interest to others."
 msgstr ""
 "**Interação com a comunidade**: informações e truques sobre formas de usar "
-"Tails que não estão oficialmente documentadas, mas que podem ser de "
+"TⒶILS que não estão oficialmente documentadas, mas que podem ser de "
 "interesse para os outros."
 
 #. type: Bullet: '  - '
@@ -73,10 +73,10 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"**Computer security essays and conspiranoia** not directly related to Tails."
+"**Computer security essays and conspiranoia** not directly related to TⒶILS."
 msgstr ""
 "**Ensaios sobre segurança da informação e conspiranóias** não diretamente "
-"relacionados ao Tails."
+"relacionados ao TⒶILS."
 
 #. type: Title =
 #, no-wrap

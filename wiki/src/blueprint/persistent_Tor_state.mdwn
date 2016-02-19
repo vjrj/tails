@@ -11,14 +11,14 @@ persistent:
 2. Stronger resistance to certain attacks against anonymity via stable
    Entry Guard(s).
 3. Using stable Entry Guard(s) makes it harder to detect that you're
-   using Tails.
+   using TⒶILS.
 
 Making `/var/lib/tor` persistent is enough for this. We want to add
 a persistence preset for it.
 
 # Goals, non-goals and threat model
 
-* To start with, we are going to focus on Tails users who have
+* To start with, we are going to focus on TⒶILS users who have
   persistence enabled: so far, we have not provided stable Entry
   Guard(s) to anyone, so adding them for users of persistence will be
   a great improvement already. Still, we have some ideas regarding
@@ -57,7 +57,7 @@ a persistence preset for it.
   whatever Tor bridges they want depending on the context.
 
 * We care about contextual identities separation, including when using
-  a single Tails device for several contextual identities (rebooting
+  a single TⒶILS device for several contextual identities (rebooting
   to switch identities, as documented). Therefore:
   - when persistence is enabled: we should actively discourage users
     from using the same persistence volume for multiple identities
@@ -68,7 +68,7 @@ a persistence preset for it.
     implemented some day in that context, then Entry Guards must not
     be picked solely based upon information that is constant across
     contextual identity switches (e.g. location, hardware identifiers,
-    Tails device identifiers). This calls for requesting user input,
+    TⒶILS device identifiers). This calls for requesting user input,
     which we elaborate upon below.
 
 # Existing potential solutions
@@ -170,7 +170,7 @@ should also carefully analyze if there's any problem with that (for
 instance, do "global" network spoof the gateway MAC addresses to be
 the same everywhere? I doubt it, but it's worth considering). Also, we
 need to come up with what to do when multiple NICs are connected at
-the same time (how that works in Tails is a bit messy at the moment,
+the same time (how that works in TⒶILS is a bit messy at the moment,
 and my PoC messes it up a bit more I think).
 
 ## Current proposal
@@ -178,7 +178,7 @@ and my PoC messes it up a bit more I think).
 ### First iteration
 
 Goal: stronger resistance to certain attacks against anonymity via
-stable Entry Guard(s). Also, make Tails usage a little bit
+stable Entry Guard(s). Also, make TⒶILS usage a little bit
 less fingerprintable.
 
 * Add a persistence setting for Tor state (exact phrasing is TBD, and
@@ -187,30 +187,30 @@ less fingerprintable.
 * Enable this new persistence feature by default for newly created
   persistent volumes: for the vast majority of use-cases and threat
   models, the defaults we've picked should be much safer than picking
-  random Entry Guard(s) every time one starts Tails.
+  random Entry Guard(s) every time one starts TⒶILS.
 * Actively encourage users of an existing persistent volume to enable
   this new persistence feature (e.g. by nagging them post-login, and
   possibly allowing them to check "Do not ask me again" which would be
   persisted, and possibly proposing to enable this setting for them).
 * Persist the Tor `state` file only (not the consensus etc.)
 * Name of the persistent Tor state file to be used:
-  `hash(per-Tails device secret, N bits of location-based information, SSID)`.
+  `hash(per-TⒶILS device secret, N bits of location-based information, SSID)`.
   By adding the SSID, we prevent attackers from being able to spoof only
   the MAC address of the router to reuse a given Tor state; they also
   have to spoof the SSID which is visible to the user and might be
   detected as malicious.
   **FIXME**: shall we truncate the resulting hash? so that there are
   collisions and the total number of different state file names is
-  caped, which implies that a given Tails persistent media will use
+  caped, which implies that a given TⒶILS persistent media will use
   a limited amount of different Entry Guards over its lifetime,
   regardless of the user's movements. But:
-  - does it make it easier to bruteforce the per-Tails device secret?
+  - does it make it easier to bruteforce the per-TⒶILS device secret?
   - does it allow to fingerprint a user by changing the MAC address of
     the AP and observing which ones result in the same Entry Guard
     being used (due to collisions) -- and then, when the user comes
     back to the same place, re-playing the MAC addresses that
     triggered the collision allows the attacker to know that it's the
-    same Tails device, with more certainty than when deducing that
+    same TⒶILS device, with more certainty than when deducing that
     from the mere fact that they are re-using the same Entry Guard in
     the place?
   **FIXME** do we want to use a HMAC instead?
@@ -221,7 +221,7 @@ less fingerprintable.
   whatever hoops required to make the WiFi connect again."; what do we
   think about it?
 * `tordate` remains unchanged for now
-* Add a NetworkManager hook that generates a random per-Tails device
+* Add a NetworkManager hook that generates a random per-TⒶILS device
   secret, and stores it into persistence, if the Tor state persistence
   feature is enabled.
 * Add a NetworkManager hook that copies the relevant
@@ -284,7 +284,7 @@ Guard(s). The best option we've found so far is to enable the user to
 enter in the Greeter a (possibly short and human-readable) identifier
 of the contextual identity they intend to use online; we suspect it'll
 be tricky to phrase this. Ideally, the user should enter a string that
-does not reveal to the running Tails system any information that the
+does not reveal to the running TⒶILS system any information that the
 user won't end up typing in anyway: e.g. if they are going to log into
 a webmail, then they can as well type their webmail login into the
 text input area when requested. Let's call this string *contextualId*
@@ -297,14 +297,14 @@ N bits of location-dependent information.
 Finally, in order to make things harder for an adversary who wants to
 leverage the location-dependent bits they control for some attack,
 we'll also use a device-dependent secret. The UUID of the filesystem
-on the Tails system partition might be a good candidate (how is it
+on the TⒶILS system partition might be a good candidate (how is it
 generated?); or, we could generate this secret at installation time
 and store it somewhere (which is harder to achieve for DVDs).
 
 Finally, we seed the Tor PRNG with:
 
 	hash(
-	  per-Tails device secret,
+	  per-TⒶILS device secret,
 	  N bits of location-based information + contextualId
 	)
 
@@ -319,8 +319,8 @@ See [[!tor_bug 2653]] for further ideas on this topic.
 
 Parameterizing the Entry Guard(s) selection process with
 location-dependent information in a deterministic way allows us to
-protect against correlating e.g. a user's Tails activity at home, with
-their Tails activity elsewhere, which would give a passive attacker
+protect against correlating e.g. a user's TⒶILS activity at home, with
+their TⒶILS activity elsewhere, which would give a passive attacker
 pretty good hints about that user's movements (AdvGoalTracking).
 
 However, it is not without drawbacks. Here are a few example ones:
@@ -336,10 +336,10 @@ However, it is not without drawbacks. Here are a few example ones:
   matter more than others, e.g. when the aforementioned location is
   the house of the targeted user.
 
-* If the attacker records what guard a Tails user is using at home,
+* If the attacker records what guard a TⒶILS user is using at home,
   and then configures the routers, in other chosen places, to use the
   same MAC address. Then, the attacker can confirm whether the user is
-  visiting those places (and starting Tails there), and when.
+  visiting those places (and starting TⒶILS there), and when.
 
 So, with location-dependent Entry Guard(s) persistence enabled, we'll
 be actually making some specific kinds of location tracking easier.
@@ -350,8 +350,8 @@ The only way to avoid that would be to request user input in all
 cases, and parameterize the Guard selection process this way. Sadly,
 this doesn't feel realistic to us (anonym + intrigeri):
 
-* we don't believe that the vast majority of Tails users will bother
-  entering the requested text every time they start Tails;
+* we don't believe that the vast majority of TⒶILS users will bother
+  entering the requested text every time they start TⒶILS;
 * it is hard to explain in few words whatever requirements the
   requested string must satisfy; a full threat-modeling thought
   process may actually be needed for users to answer this request in
@@ -368,7 +368,7 @@ To sum up, requesting user input to _all_ users on every boot for
 parameterizing the Entry Guard(s) selection process seems to be
 a risky game, at which most users have as many chances to lose than to
 win. Defaults that suit the vast majority of use-cases feel more
-suitable for Tails' target audience. Still, we want to empower users
+suitable for TⒶILS' target audience. Still, we want to empower users
 with different needs to avoid becoming less safe "thanks" to this new
 feature, hence:
 
@@ -382,7 +382,7 @@ feature, hence:
 
 * In order to provide a nicer UX for multiple contextual identities,
   we have considered supporting multiple persistent volumes on
-  a single Tails device. This was discarded because one can already
+  a single TⒶILS device. This was discarded because one can already
   maintain one device per identity (and "Clone & Upgrade" them to
   avoid having to download upgrades several times), and it has quite
   a few drawbacks:
@@ -390,7 +390,7 @@ feature, hence:
     corresponding documentation and the GUI for setting up
     persistence;
   - it would encourage users to have sub-optimal security practices:
-    e.g. an attacker that learns identifiers of that single Tails
+    e.g. an attacker that learns identifiers of that single TⒶILS
     device (e.g. the UUID of the system FS) would be able to correlate
     these multiple contextual identities; of course, if the same
     hardware is used for all such identities, we don't protect against

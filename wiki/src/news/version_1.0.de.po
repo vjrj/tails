@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Tails 1.0 is out\"]]\n"
+msgid "[[!meta title=\"TⒶILS 1.0 is out\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,7 +32,7 @@ msgid "[[!tag announce]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Tails, The Amnesic Incognito Live System, version 1.0, is out."
+msgid "TⒶILS, The Amnesic Incognito Live System, version 1.0, is out."
 msgstr ""
 
 #. type: Plain text
@@ -53,7 +53,7 @@ msgid "Introduction"
 msgstr ""
 
 #. type: Plain text
-msgid "We are especially proud to present you Tails 1.0!"
+msgid "We are especially proud to present you TⒶILS 1.0!"
 msgstr ""
 
 #. type: Plain text
@@ -61,9 +61,9 @@ msgstr ""
 msgid ""
 "Version 1.0 is often an [[!wikipedia Version_number#Version_1.0_as_a_milestone\n"
 "desc=\"important milestone\"]] that denotes the maturity of a free software\n"
-"project. The first public version of what would become Tails was released on\n"
+"project. The first public version of what would become TⒶILS was released on\n"
 "June 23 2009, when it was called [[Amnesia|version_0.2]]. That was almost five\n"
-"years ago. Tails 1.0 marks the 36th stable release since then.\n"
+"years ago. TⒶILS 1.0 marks the 36th stable release since then.\n"
 msgstr ""
 
 #. type: Title ##
@@ -122,18 +122,18 @@ msgid "Thank you"
 msgstr ""
 
 #. type: Plain text
-msgid "The maturity of Tails is also reflected in:"
+msgid "The maturity of TⒶILS is also reflected in:"
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"Its wide adoption. In the last 18 months, the approximate number of Tails "
+"Its wide adoption. In the last 18 months, the approximate number of TⒶILS "
 "users has been multiplied by 4."
 msgstr ""
 
 #. type: Bullet: '  - '
 msgid ""
-"All the good things said about Tails by reputed people and organisations "
+"All the good things said about TⒶILS by reputed people and organisations "
 "such as [Freedom of the Press Foundation](https://pressfreedomfoundation.org/"
 "blog/2014/04/help-support-little-known-privacy-tool-has-been-critical-"
 "journalists-reporting-nsa), [Bruce Schneier](http://boingboing."
@@ -152,29 +152,29 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Version 1.0 does not mean that we will stop adding new features and "
-"improving Tails. Briefly, here are our plans for the future:"
+"improving TⒶILS. Briefly, here are our plans for the future:"
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"[Tails 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails_1.1), "
+"[TⒶILS 1.1](https://labs.riseup.net/code/projects/tails/roadmap#Tails_1.1), "
 "due in June 2014, will be based on Debian 7 (Wheezy) and will bring many new "
-"versions of the software included in Tails."
+"versions of the software included in TⒶILS."
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"[Tails 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_2.0)  "
+"[TⒶILS 2.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_2.0)  "
 "will focus on sustainability and maintainability. Most of that work aims at "
-"reducing the workload of creating new versions of Tails through "
+"reducing the workload of creating new versions of TⒶILS through "
 "infrastructure improvements and automated testing. Our objective is to be "
 "able to release same-day security updates."
 msgstr ""
 
 #. type: Bullet: '- '
 msgid ""
-"[Tails 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_3.0)  "
-"will focus on changes in the internals of Tails to make it more secure. That "
+"[TⒶILS 3.0](https://labs.riseup.net/code/projects/tails/roadmap#Tails_3.0)  "
+"will focus on changes in the internals of TⒶILS to make it more secure. That "
 "includes sandboxing critical applications and software hardening."
 msgstr ""
 
@@ -182,7 +182,7 @@ msgstr ""
 msgid ""
 "And of course, new contributors with all kinds of skills are always "
 "welcome.  There is surely [[something **you** can do|contribute]] to make "
-"Tails better."
+"TⒶILS better."
 msgstr ""
 
 #. type: Title #
@@ -213,9 +213,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "* Bugfixes\n"
-"  - Disable inbound I2P connections. Tails already restricts incoming\n"
+"  - Disable inbound I2P connections. TⒶILS already restricts incoming\n"
 "    connections, but this change tells I2P about it.\n"
-"  - Fix link to the system requirements documentation page in the Tails\n"
+"  - Fix link to the system requirements documentation page in the TⒶILS\n"
 "    Upgrader error shown when too little RAM is available.\n"
 msgstr ""
 
@@ -224,7 +224,7 @@ msgstr ""
 msgid ""
 "* Minor improvements\n"
 "  - Upgrade I2P to 0.9.12-2~deb6u+1.\n"
-"  - Import TorBrowser profile. This was forgotten in Tails 0.23 and even\n"
+"  - Import TorBrowser profile. This was forgotten in TⒶILS 0.23 and even\n"
 "    though we didn't explicitly set those preferences in that release\n"
 "    they defaulted to the same values. This future-proofs us in case the\n"
 "    defaults would ever change.\n"
@@ -236,10 +236,10 @@ msgid ""
 "    * Remove the bridge settings prompt. ([[!tor_bug 11482]]; closes\n"
 "      [[!tails_ticket 6934]])\n"
 "    * Always show bridge help button. ([[!tor_bug 11484]])\n"
-"  - Integrate the new Tails logo into various places:\n"
+"  - Integrate the new TⒶILS logo into various places:\n"
 "    * The website\n"
 "    * The boot splash\n"
-"    * The \"About Tails\" dialog\n"
+"    * The \"About TⒶILS\" dialog\n"
 msgstr ""
 
 #. type: Plain text
@@ -269,7 +269,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "As no software is ever perfect, we maintain a list of [[problems that "
-"affects the last release of Tails|support/known_issues]]."
+"affects the last release of TⒶILS|support/known_issues]]."
 msgstr ""
 
 #. type: Title #
@@ -279,7 +279,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next Tails release is [[scheduled|contribute/calendar]] for June 10."
+"The next TⒶILS release is [[scheduled|contribute/calendar]] for June 10."
 msgstr ""
 
 #. type: Plain text
@@ -289,5 +289,5 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Would you want to help? There are many ways [[**you** can contribute to "
-"Tails|contribute]]. If you want to help, come talk to us!"
+"TⒶILS|contribute]]. If you want to help, come talk to us!"
 msgstr ""

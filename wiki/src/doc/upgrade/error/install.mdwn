@@ -4,11 +4,11 @@ The upgrade could not be installed.
 
 <div class="caution">
 
-Your Tails device needs to be repaired and might be unable to restart.
+Your TⒶILS device needs to be repaired and might be unable to restart.
 
 </div>
 
-This is probably caused by a software error in Tails Upgrader.
+This is probably caused by a software error in TⒶILS Upgrader.
 
 1. Please [[report an error|support]] and include in your
 report:
@@ -18,14 +18,14 @@ report:
     [[<span class=\"application\">Terminal</span>|first_steps/introduction_to_gnome_and_the_tails_desktop#terminal]]:
     <pre>
         ls -l /lib/live/mount/medium/live
-        cat /lib/live/mount/medium/live/Tails.module
+        cat /lib/live/mount/medium/live/TⒶILS.module
         mount
         df -h
         free -m
     </pre>
 
-2. To repair your Tails device, [[manually upgrade|first_steps/upgrade#manual]]
-it using Tails Installer from another Tails device.
+2. To repair your TⒶILS device, [[manually upgrade|first_steps/upgrade#manual]]
+it using TⒶILS Installer from another TⒶILS device.
 
 If the manual upgrade fails as well, please [[report another
 error|first_steps/bug_reporting]].

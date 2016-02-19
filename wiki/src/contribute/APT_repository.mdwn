@@ -20,11 +20,11 @@ We use one single APT repository hosting multiple *suites*:
   branch contains *only* the packages this branch adds to the tag or
   *main* branch it diverged from. Think of it as an overlay.
 * We also have a less formal `unstable` suite, that should not be used
-  by any Tails git branch; it can be used as hosting space for other
+  by any TⒶILS git branch; it can be used as hosting space for other
   packaging work we might do, e.g. acting as upstream or
   Debian maintainers.
 * We also have a `builder-wheezy` suite, used to provide additional
-  packages needed on a Wheezy system to build Tails.
+  packages needed on a Wheezy system to build TⒶILS.
 
 The suite(s) to use as sources for APT, during the build and inside
 the resulting system, are determined by the content of the
@@ -37,7 +37,7 @@ We manage our APT repository with
 The Puppet modules used to manage this part of our infrastructure are
 listed on our [[contribute/Git]] page.
 
-Basically, a cronjob fetches and scans the Tails Git repository every
+Basically, a cronjob fetches and scans the TⒶILS Git repository every
 few minutes, detects new branches, and accordingly:
 
 - generates `conf/distributions`
@@ -47,7 +47,7 @@ few minutes, detects new branches, and accordingly:
 Build system
 ============
 
-The Tails ISO build system dynamically adds APT sources that will be
+The TⒶILS ISO build system dynamically adds APT sources that will be
 used during the build, and inside the resulting ISO itself.
 
 If the last version in `debian/changelog` was released already (i.e.
@@ -107,7 +107,7 @@ One must configure their SSH client to connect to the APT server:
 HTTP access
 ===========
 
-This is the http:// public APT repository used at Tails
+This is the http:// public APT repository used at TⒶILS
 build time. The `tails::reprepro` Puppet class sets nginx up to
 serve that.
 
@@ -297,7 +297,7 @@ This operation merges all APT overlays listed in the given branch's
 
 <a id="workflow-post-tag"></a>
 
-Tagging a new Tails release
+Tagging a new TⒶILS release
 ---------------------------
 
 Once the new release's Git tag is pushed, a cronjob creates
@@ -314,7 +314,7 @@ just appeared:
 
 <a id="workflow-post-release"></a>
 
-After a new Tails release is out
+After a new TⒶILS release is out
 --------------------------------
 
 If you just put out a final release:

@@ -1,12 +1,12 @@
 [[!meta title="Bootstrapping workflow"]]
 
 This blueprint analyses and proposes simplifications to the workflow of
-a new user discovering Tails until she gets a full-featured Tails USB
+a new user discovering TⒶILS until she gets a full-featured Tails USB
 stick with persistence.
 
 Big logical steps are:
 
-  - Learn what Tails is
+  - Learn what TⒶILS is
   - Download the ISO
   - Verify the ISO
   - Install medium (might require going through a bootstrapping medium)
@@ -20,7 +20,7 @@ different area of that process:
 
   - [[ISO verification|verification]]
   - [[Browser extension|extension]]
-  - [[Tails Installer|installer]]
+  - [[TⒶILS Installer|installer]]
   - [[Booting|booting]]
   - [[Upgrades|upgrade]]
 
@@ -40,7 +40,7 @@ Table of content
 Over 2015 we will work on several improvements to simplify greatly this
 workflow:
 
-  - Tails Installer in Debian
+  - TⒶILS Installer in Debian
   - [[Browser extensions|extension]] for automatic verification of the ISO
   - [[Web assistant|assistant]] to guide the user throughout this process
 
@@ -58,12 +58,12 @@ Notes:
 - **Debian Hacker** corresponds to a path on the command line only. Its
   main benefit is to go through the **Debian keyring** verification
   which is the strongest verification technique that we propose.
-- **Debian** is a path for Debian derivatives where Tails Installer is
+- **Debian** is a path for Debian derivatives where TⒶILS Installer is
   available. That will be the case of Ubuntu starting from 15.10,
   Debian Jessie backports, and Debian Stretch ([[!tails_ticket 8805]]).
 - **Other OS** is Windows, Mac OS X, Fedora, etc.
 - **OpenPGP with Debian keyring** are command line instructions for verifying the
-  Tails signing key against the Debian keyring.
+  TⒶILS signing key against the Debian keyring.
 - **Extension from Debian** takes for granted that the ISO verification
   extension will be available in Debian ([[!tails_ticket 8822]]). This
   might not be the case and then people would fallback on **Extension
@@ -83,7 +83,7 @@ Use cases
 =========
 
 This is a brainstorming on the different use cases dealing with
-downloading, verifying, installing, and upgrading Tails.
+downloading, verifying, installing, and upgrading TⒶILS.
 This list should be useful to check whether all scenarios are covered.
 The comments, placed after ':' correspond to our rough objectives for
 2015.
@@ -112,22 +112,22 @@ The comments, placed after ':' correspond to our rough objectives for
 - Install
   - DVD
   - USB
-    - Tails: friend + Tails Installer
+    - TⒶILS: friend + Tails Installer
     - Debian
-      - Jessie: Tails Installer backport? [[!tails_ticket 8005]]
-      - Stretch: Tails Installer [[!tails_ticket 8549]]
+      - Jessie: TⒶILS Installer backport? [[!tails_ticket 8005]]
+      - Stretch: TⒶILS Installer [[!tails_ticket 8549]]
     - Ubuntu
-      - Latest LTS, 14.04: Tails Installer? [[!tails_ticket 8806]]
-      - Latest, 15.04: Tails Installer? [[!tails_ticket 8806]]
-      - Next LTS, 16.04: Tails Installer? [[!tails_ticket 8806]]
-      - Next, 15.10: Tails Installer? [[!tails_ticket 8806]]
+      - Latest LTS, 14.04: TⒶILS Installer? [[!tails_ticket 8806]]
+      - Latest, 15.04: TⒶILS Installer? [[!tails_ticket 8806]]
+      - Next LTS, 16.04: TⒶILS Installer? [[!tails_ticket 8806]]
+      - Next, 15.10: TⒶILS Installer? [[!tails_ticket 8806]]
   - Windows: UUI
   - Mac OS X: command line or new graphical tool? [[!tails_ticket 8802]]
   - Virtualization: VirtualBox, GNOME Boxes, virt-manager
 - Upgrade from ISO (full upgrade or nightly)
   - Full upgrade
     - From Debian, Ubuntu if available
-    - From Tails otherwise: need bootstrapping device
+    - From TⒶILS otherwise: need bootstrapping device
   - Incremental upgrade
   - Virtualization: virt-manager
 - Misc

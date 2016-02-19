@@ -1,11 +1,11 @@
 [[!meta date="Mon Apr 4 11:12:13 2011"]]
-[[!meta title="Numerous security holes in Tails 0.6.2"]]
+[[!meta title="Numerous security holes in TⒶILS 0.6.2"]]
 
 [[!tag security/fixed]]
 
-The following security holes affect Tails 0.6.2.
+The following security holes affect TⒶILS 0.6.2.
 
-We **strongly** urge you to [[upgrade to Tails 0.7|news/version_0.7]]
+We **strongly** urge you to [[upgrade to TⒶILS 0.7|news/version_0.7]]
 in case you are still using an older version.
 
 [[!toc levels=1]]
@@ -14,7 +14,7 @@ in case you are still using an older version.
 
 As an [[external audit
 demonstrated|security/audits/Blackhat_De-Anonymizing_Live_CDs]], the
-"erase memory on shutdown" feature, as implemented in Tails 0.6.2 and
+"erase memory on shutdown" feature, as implemented in TⒶILS 0.6.2 and
 older, does not erase as much memory as it could. More specifically:
 
 1. Parts of the memory that are still allocated at shutdown time are
@@ -25,7 +25,7 @@ older, does not erase as much memory as it could. More specifically:
    possible.
 
 This discovery lead to a brand new implementation of the memory
-erasure feature that is shipped in Tails 0.7. As a bonus, the memory
+erasure feature that is shipped in TⒶILS 0.7. As a bonus, the memory
 is now also erased when the boot media is physically removed.
 
 # Other security holes

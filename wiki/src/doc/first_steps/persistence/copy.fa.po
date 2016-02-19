@@ -40,8 +40,8 @@ msgstr "ایجاد یک دستگاه جدید\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"Install the latest Tails onto a new device using the usual [[installing "
-"instructions|installation]]. Do not use the Tails device that might be "
+"Install the latest TⒶILS onto a new device using the usual [[installing "
+"instructions|installation]]. Do not use the TⒶILS device that might be "
 "corrupted in the process of installing the new one."
 msgstr ""
 "آخرین نسخهٔ تیلز را با استفاده از [[دستورالعمل‌های نصب|installation]] معمول "
@@ -64,7 +64,7 @@ msgstr "ویژگی‌های مورد نظر مانای خود را دوباره 
 #. type: Bullet: '1. '
 #, fuzzy
 #| msgid ""
-#| "Restart Tails, enable persistence, and [[set up an administration "
+#| "Restart TⒶILS, enable persistence, and [[set up an administration "
 #| "password|startup_options/administration_password]]."
 msgid ""
 "Restart on the new device, enable persistence, and [[set up an "
@@ -75,7 +75,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Rescue your files from the old Tails device\n"
+msgid "Rescue your files from the old TⒶILS device\n"
 msgstr "بازیابی فایل‌هایتان از دستگاه قدیمی تیلز\n"
 
 #. type: Title -
@@ -84,7 +84,7 @@ msgid "Mount the old persistent volume\n"
 msgstr "درایو مانای قدیمی را متصل کنید\n"
 
 #. type: Bullet: '1. '
-msgid "Plug in the old Tails device from which you want to rescue your data."
+msgid "Plug in the old TⒶILS device from which you want to rescue your data."
 msgstr "دستگاه قدیمی تیلز که قصد بازیابی داده‌ها از رویش دارید را وصل کنید."
 
 #. type: Plain text
@@ -116,7 +116,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"In the left pane, click on the device corresponding to the old Tails device."
+"In the left pane, click on the device corresponding to the old TⒶILS device."
 msgstr "در سمت راست روی دستگاه مرتبط با تیلز قدیمی کلیک کنید."
 
 #. type: Bullet: '1. '

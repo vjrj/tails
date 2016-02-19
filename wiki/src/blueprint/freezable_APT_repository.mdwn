@@ -11,9 +11,9 @@ We want to have reproducible builds some day. Therefore, the APT
 `sources.list` shipped in the ISO must be stable across rebuilds from
 the same release Git tag.
 
-Say `kedit` is a package shipped in Debian, but not in Tails. Then,
-when run inside Tails, `apt install kedit` must fetch `kedit` from
-current Debian, as opposed to installing it from a Tails-specific, and
+Say `kedit` is a package shipped in Debian, but not in TⒶILS. Then,
+when run inside TⒶILS, `apt install kedit` must fetch `kedit` from
+current Debian, as opposed to installing it from a TⒶILS-specific, and
 generally obsolete, snapshot of the Debian APT repository.
 
 We don't bother merging mirrored APT repositories / suites into
@@ -115,7 +115,7 @@ little value.
       - check the case when the binary package's version is different
         from the corresponding source package's one
         (`libdevmapper1.02.1` vs. `lvm2`)
-   h. for some Tails release: generate manifest, import packages into
+   h. for some TⒶILS release: generate manifest, import packages into
       tagged snapshots, try building *offline* with these tagged
       snapshots [i]
    i. have debootstrap 1.0.73+ in all our build environments so that
@@ -193,7 +193,7 @@ Building an ISO from the branch used to prepare the next major release
 Building an ISO from the branch used to prepare the next point-release
 (`stable`), or a topic branch based on it (`config/base_branch`
 contains `stable`), we
-use snapshots labeled with the Git tag of the latest Tails release,
+use snapshots labeled with the Git tag of the latest TⒶILS release,
 except:
 
  * we generally use our latest snapshot of security.debian.org;
@@ -219,14 +219,14 @@ Note that:
    were not full ones, then to work on one such branch, one would need
    either that I have the credentials to import new packages from
    Debian into our own mirror or repositories (which raises the
-   barrier for contributing), or that during some phases of Tails
+   barrier for contributing), or that during some phases of TⒶILS
    development the regular Debian archive is used instead of our own
    mirror, which feels prone to "time to QA vs. time to
    release" issues.
 
  * The tagged snapshots used to build releases can be *partial*, that
    is they can contain only the subset of the mirrored repositories
-   that is required for building a specific Tails ISO image.
+   that is required for building a specific TⒶILS ISO image.
 
 So, we actually want to manage two sets of snapshots that are vastly
 different in terms of goals, users, turnover, garbage collection and
@@ -242,7 +242,7 @@ backup strategies:
      immediately rebuild a working data set from scratch ⇒ no need to
      sync' this content to the failover server; no need to back it up;
 
- * **tagged, partial snapshots** that were used to build released Tails
+ * **tagged, partial snapshots** that were used to build released TⒶILS
    ISO images:
    - goal: reproducible builds, GPL compliance;
    - in there we import only the needed packages;
@@ -269,10 +269,10 @@ update`? `cp` + `reprepro includeblah`?)
 
 <a id="runtime-sources"></a>
 
-## APT sources used inside Tails
+## APT sources used inside TⒶILS
 
-A running Tails' APT must be pointed at the official, live Debian
-archive, and not to a Tails-specific and already obsolete snapshot.
+A running TⒶILS' APT must be pointed at the official, live Debian
+archive, and not to a TⒶILS-specific and already obsolete snapshot.
 
 To achieve that we can tweak `sources.list` as we already do in
 [[!tails_gitweb config/chroot_local-includes/lib/live/config/1500-reconfigure-APT]].
@@ -294,7 +294,7 @@ With this design:
  * `devel` gets them automatically because it closely tracks the
    Debian archive;
  * for release branches (`stable`, `testing`): on a case-by-case
-   basis, depending on the respective Debian/Tails release schedule
+   basis, depending on the respective Debian/TⒶILS release schedule
    timing, we can choose whether to switch to using a new snapshot of
    the Debian archive for the next release. Note that this can be done
    via a topic-branch since this information is encoded in Git. If we
@@ -302,7 +302,7 @@ With this design:
    if we don't act at all, then:
    - `testing` will start using the new Debian point-release as soon
      as it is unfrozen, that is as soon as it has been used to release
-     a new major version of Tails;
+     a new major version of TⒶILS;
    - `stable` will start using the new Debian point-release once
      a `testing` branch that uses that point-release is merged into
      `stable`.
@@ -312,7 +312,7 @@ With this design:
 ## Freeze exceptions
 
 This is a new problem brought by using "frozen" snapshot of APT
-repositories during a Tails code freeze: some bug, that we want to see
+repositories during a TⒶILS code freeze: some bug, that we want to see
 fixed in the release we are preparing, would be resolved if we pulled
 an upgraded package as-is from a freshest Debian APT repository.
 Before we could freeze APT repositories, we would have got this bugfix
@@ -340,9 +340,9 @@ situation here is mostly:
    dak + britney).
 
 Definition: here, we'll call "overlay [[contribute/APT repository]]"
-the set of Tails-specific APT suites that we have been maintaining for
+the set of TⒶILS-specific APT suites that we have been maintaining for
 a few years. They are overlay in that they don't contain all the
-packages that can be found in Debian: building a Tails ISO image also
+packages that can be found in Debian: building a TⒶILS ISO image also
 requires another kind of APT sources, that are more complete.
 
 We can handle freeze exceptions this way:
@@ -350,14 +350,14 @@ We can handle freeze exceptions this way:
 1. Import the package we want to upgrade into our own overlay
    [[contribute/APT repository]], in the suite corresponding to the
    branch that we want to see this package ⇒ in the general case, the
-   upgraded package will be installed in the next Tails release.
+   upgraded package will be installed in the next TⒶILS release.
    We need a tool to do that (would `reprepro pull` with a custom
    filter do the job?).
 
 2. Pin, in `config/chroot_apt/preferences`, the upgraded package we
    have just imported. The aforementioned tool can do this as well.
 
-   [Our current default APT pinning ranks Tails overlay APT suites
+   [Our current default APT pinning ranks TⒶILS overlay APT suites
    over any other APT source, so why the need to add an APT pinning
    entry? The problem is that it's hard to do the next step (clean up)
    with this APT pinning, combined with the fact that we can't easily
@@ -366,7 +366,7 @@ We can handle freeze exceptions this way:
    solution to that problem under these constraints, so this document
    assumes that we change this, and pin our overlay APT suites at the
    same level as the APT sources corresponding to the Debian release
-   Tails is currently based on. This implies that we manually pin, in
+   TⒶILS is currently based on. This implies that we manually pin, in
    Git, the packages from our overlay APT suites, that we want to
    override the ones found in other repositories regardless of
    version numbers.]
@@ -678,7 +678,7 @@ files, but we'd rather not have to update these files, and the
 corresponding signatures, regularly. In practice:
 
  * A **tagged APT repository snapshot** that was used to build a given
-   Tails release is immutable by design, so it does not need the
+   TⒶILS release is immutable by design, so it does not need the
    protections provided by `Valid-Until`. Besides, not using
    `Valid-Until` for those makes it much easier to reproduce a given
    ISO build in the future.
@@ -689,7 +689,7 @@ corresponding signatures, regularly. In practice:
    - `testing`: while it's frozen, that is during 5-10 days most of
      the time;
    - `stable`: that's a corner case, since `stable` generally uses the
-     set of tagged snapshots of the latest Tails release; if and when
+     set of tagged snapshots of the latest TⒶILS release; if and when
      we decide to manually point `stable` to a different set of
      snapshots, then we can as well deal with `Valid-Until` manually.
 
@@ -755,7 +755,7 @@ There's a code comment around this check, dating back from 2004, that
 says something like "This might become fatal in the future". We bet that if it
 becomes fatal some day, it will be possible to turn it back into
 a warning via configuration. This affects only development builds
-since we're not going to configure APT _in the Tails ISO_ to point to
+since we're not going to configure APT _in the TⒶILS ISO_ to point to
 our own snapshots of the Debian archive.
 
 # Bonus for later
@@ -817,7 +817,7 @@ regular mode = otherwise => use ftp.us.d.o
   - Whonix uses that, go look/ask for pros/cons they've seen.
   - other repos e.g. deb.tpo; we can probably handle it in a very
     ad-hoc and lightweight way, by importing the packages we want into
-    our own Tails-specific APT suites, or with reprepro's mirroring
+    our own TⒶILS-specific APT suites, or with reprepro's mirroring
     (`pull`) feature.
 
 - to avoid relying on browsing <http://snapshot.debian.org/> for
@@ -851,7 +851,7 @@ For partial mirroring, their name must contain:
 
 * Debian origin (`debian`, `debian-security`)
 * Debian distribution (`sid`, `jessie`, `jessie-backports`, etc.)
-* name of the Tails Git release/base branch that needs this set of
+* name of the TⒶILS Git release/base branch that needs this set of
   packages
 
 ## Replace index expiration check

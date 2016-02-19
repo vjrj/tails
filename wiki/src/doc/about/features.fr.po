@@ -29,11 +29,11 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Tails is based on [[Debian|https://www.debian.org/]] 7 (Wheezy).  It will "
+#| "TⒶILS is based on [[Debian|https://www.debian.org/]] 7 (Wheezy).  It will "
 #| "switch to Debian 8 (Jessie) a few months after its release."
-msgid "Tails is based on [[Debian|https://www.debian.org/]] 8 (Jessie)."
+msgid "TⒶILS is based on [[Debian|https://www.debian.org/]] 8 (Jessie)."
 msgstr ""
-"Tails est basé sur [[Debian|https://www.debian.org/]] 7 (Wheezy). Il devrait "
+"TⒶILS est basé sur [[Debian|https://www.debian.org/]] 7 (Wheezy). Il devrait "
 "migrer vers Debian 8 (Jessie) quelques mois après sa sortie."
 
 #. type: Title =
@@ -330,12 +330,12 @@ msgstr "Logiciels supplémentaires\n"
 #. type: Plain text
 msgid ""
 "You can [[install additional software|doc/advanced_topics/"
-"additional_software]] in Tails: all software packaged for Debian is "
-"installable in Tails."
+"additional_software]] in TⒶILS: all software packaged for Debian is "
+"installable in TⒶILS."
 msgstr ""
 "Vous pouvez [[installer des logiciels supplémentaires|doc/advanced_topics/"
-"additional_software]] dans Tails : tous les logiciels empaquetés pour Debian "
-"sont installables dans Tails."
+"additional_software]] dans TⒶILS : tous les logiciels empaquetés pour Debian "
+"sont installables dans TⒶILS."
 
 #. type: Title =
 #, no-wrap
@@ -367,7 +367,7 @@ msgid ""
 msgstr ""
 "la [[personnalisation|contribute/customize]] (par exemple l'ajout d'un "
 "logiciel particulier) est relativement simple : il est possible de "
-"[[construire|contribute/build]] un Tails personnalisé en environ une heure "
+"[[construire|contribute/build]] un TⒶILS personnalisé en environ une heure "
 "sur un ordinateur de bureau récent"
 
 #. type: Bullet: '* '
@@ -392,13 +392,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"To prevent cold-boot attacks and various memory forensics, Tails erases "
+"To prevent cold-boot attacks and various memory forensics, TⒶILS erases "
 "memory on shutdown and when the boot media is physically removed."
 msgstr ""
 "Pour éviter les attaques de type *cold-boot* ainsi que divers recouvrement "
-"de mémoire vive après extinction, Tails efface la mémoire vive lors de "
+"de mémoire vive après extinction, TⒶILS efface la mémoire vive lors de "
 "l'extinction et quand vous enlevez physiquement le support de démarrage de "
-"Tails."
+"TⒶILS."
 
 #. type: Title =
 #, no-wrap
@@ -407,14 +407,14 @@ msgstr "Support de différentes langues\n"
 
 #. type: Plain text
 msgid ""
-"When starting Tails, you can choose between a large number of languages, "
+"When starting TⒶILS, you can choose between a large number of languages, "
 "including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, Greek, "
 "English, Spanish, Persian, Finnish, French, Croatian, Hungarian, Indonesian, "
 "Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, Polish, "
 "Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, Turkish, "
 "Ukrainian, and Chinese."
 msgstr ""
-"Au lancement de Tails, vous pouvez choisir entre de nombreuses langues dont "
+"Au lancement de TⒶILS, vous pouvez choisir entre de nombreuses langues dont "
 "l'arabe, l'azéri, le catalan, le tchèque, le gallois, le danois, l'allemand, "
 "le grec, l'anglais, l'espagnol, le persan, le finnois, le français, le "
 "croate, le hongrois, l'indonésien, l'italien, le japonais, le khmer, le "
@@ -431,21 +431,21 @@ msgid ""
 "Some of these languages could not be thoroughly tested as we don't speak "
 "every language in the world. If you find issues using one of the supposedly "
 "supported languages, don't hesitate to [[tell us about it|support]]. E.g. "
-"Tails probably lacks some non-Latin fonts or input systems."
+"TⒶILS probably lacks some non-Latin fonts or input systems."
 msgstr ""
 "Certaines de ces langues n'ont pas été testées convenablement, car nous ne\n"
 "parlons pas toutes les langues du monde. Si vous rencontrez des problèmes "
 "en\n"
 "utilisant l'une des langues que nous proposons, n'hésitez pas à [[nous\n"
-"prévenir|support]]. Par exemple, il manque probablement à Tails certaines "
+"prévenir|support]]. Par exemple, il manque probablement à TⒶILS certaines "
 "polices non-latines ou des systèmes de saisie."
 
 #. type: Plain text
 msgid ""
-"If you wish to make it easier to use Tails for your language speakers, see "
+"If you wish to make it easier to use TⒶILS for your language speakers, see "
 "the [[translators guidelines|contribute/how/translate]]."
 msgstr ""
-"Si vous voulez faciliter l'utilisation de Tails pour les personnes parlant "
+"Si vous voulez faciliter l'utilisation de TⒶILS pour les personnes parlant "
 "votre langue, jetez un œil aux [[instructions de traduction|contribute/how/"
 "translate]]."
 

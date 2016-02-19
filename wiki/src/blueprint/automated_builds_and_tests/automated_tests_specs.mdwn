@@ -3,7 +3,7 @@
 *Ticket*: [[!tails_ticket 8667]]
 
 This blueprint helps to keep track of the discussions and decisions
-about the specification of automated tests ran in Tails' Jenkins on
+about the specification of automated tests ran in TⒶILS' Jenkins on
 the [[automatically build ISOs|autobuild_specs]] ([[!tails_ticket 5288]]).
 
 [[!toc levels=3]]
@@ -94,7 +94,7 @@ To test a specific ISO, the automated test suite MUST have access to:
  * the commit ID of that build;
  * if applicable, the commit at which the base branch was at, when it
    was merged into the branch being built;
- * the ISO of the previous Tails release.
+ * the ISO of the previous TⒶILS release.
 
 The automated test suite MUST be run in a clean environment, using a
 fresh _--tmpdir_ for each run.
@@ -227,7 +227,7 @@ really tightened.
 
 ### Scenario 10
 
-    As a Tails developer working on branch B
+    As a TⒶILS developer working on branch B
     When I upload a package to APT suite B
     Then I want to know if the automated test suite passes
 
@@ -247,13 +247,13 @@ really tightened.
 
 ### Scenario 12
 
-    As a Tails developer
+    As a TⒶILS developer
     When the test suite is ran on the ISO build from my last commit
     I want to watch TV and see the test video in HTML5 from the Tor Browser
 
 
 ### Scenario 14
 
-    As a Tails developer
+    As a TⒶILS developer
     When I push a new commit or a new Debian package to a base branch
     I want the affected feature branches ISO to be tested with that change

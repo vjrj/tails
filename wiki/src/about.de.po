@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Tails i10n Team\n"
+"Project-Id-Version: TⒶILS i10n Team\n"
 "POT-Creation-Date: 2015-10-30 11:35+0100\n"
 "PO-Revision-Date: 2015-04-18 13:05+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
-"Language-Team: Tails translators <tails-l10n@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
+"Language-Team: TⒶILS translators <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"About\"]]\n"
-msgstr "[[!meta title=\"Über Tails\"]]\n"
+msgstr "[[!meta title=\"Über TⒶILS\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,12 +43,12 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails is a live system that aims to preserve your privacy and anonymity. It "
+"TⒶILS is a live system that aims to preserve your privacy and anonymity. It "
 "helps you to use the Internet anonymously and circumvent censorship almost "
 "anywhere you go and on any computer but leaving no trace unless you ask it "
 "to explicitly."
 msgstr ""
-"Tails ist ein Live-Betriebssystem, das darauf ausgerichtet ist Ihre "
+"TⒶILS ist ein Live-Betriebssystem, das darauf ausgerichtet ist Ihre "
 "Privatsphäre und Anonymität zu bewahren. Es hilft Ihnen dabei, das Internet "
 "so gut wie überall und von jedem Computer aus anonym zu nutzen, ohne dabei "
 "Spuren zu hinterlassen, sofern Sie dies nicht ausdrücklich wünschen."
@@ -60,18 +60,18 @@ msgid ""
 "[[Free Software|doc/about/license]] and based on [[Debian GNU/Linux|https://"
 "www.debian.org/]]."
 msgstr ""
-"Tails ist ein vollständiges Betriebssystem, das direkt von einer DVD, einem "
+"TⒶILS ist ein vollständiges Betriebssystem, das direkt von einer DVD, einem "
 "USB-Stick oder einer SD-Karte aus genutzt wird, unabhängig von dem auf dem "
-"Computer installierten Betriebssystem. Tails ist [[Freie Software|doc/about/"
+"Computer installierten Betriebssystem. TⒶILS ist [[Freie Software|doc/about/"
 "license]] und basiert auf [[Debian GNU/Linux|https://www.debian.org/]]."
 
 #. type: Plain text
 msgid ""
-"Tails comes with several built-in applications pre-configured with security "
+"TⒶILS comes with several built-in applications pre-configured with security "
 "in mind: web browser, instant messaging client, email client, office suite, "
 "image and sound editor, etc."
 msgstr ""
-"Tails beinhaltet verschiedene Programme, die im Hinblick auf die Sicherheit "
+"TⒶILS beinhaltet verschiedene Programme, die im Hinblick auf die Sicherheit "
 "vorkonfiguriert wurden: einen Webbrowser, einen Instant-Messaging-Client, "
 "ein E-Mail-Programm, ein Office-Paket, einen Bild- und Audioeditor etc."
 
@@ -101,9 +101,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tails relies on the Tor anonymity network to protect your privacy online:"
+"TⒶILS relies on the Tor anonymity network to protect your privacy online:"
 msgstr ""
-"Tails verlässt sich auf das Anonymisierungsnetzwerk Tor, um Ihre Online-"
+"TⒶILS verlässt sich auf das Anonymisierungsnetzwerk Tor, um Ihre Online-"
 "Privatsphäre zu schützen:"
 
 #. type: Bullet: '  - '
@@ -228,7 +228,7 @@ msgstr ""
 #| "To learn more about how the usage of Tor is enforced, see our [[design "
 #| "document|contribute/design/Tor_enforcement]]."
 msgid ""
-"To learn more about how Tails ensures all its network connections use Tor, "
+"To learn more about how TⒶILS ensures all its network connections use Tor, "
 "see our [[design document|contribute/design/Tor_enforcement]]."
 msgstr ""
 "Um mehr darüber zu erfahren, wie der Gebrauch von Tor erzwungen wird, lesen "
@@ -245,26 +245,26 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can also use Tails to access [I2P](https://geti2p.net) which is an "
+"You can also use TⒶILS to access [I2P](https://geti2p.net) which is an "
 "anonymity network different from Tor."
 msgstr ""
-"Sie können Tails auch benutzen, um auf [I2P](https://geti2p.net), ein "
+"Sie können TⒶILS auch benutzen, um auf [I2P](https://geti2p.net), ein "
 "Anonymisierungsnetzwerk mit Unterschieden zu Tor, zuzugreifen."
 
 #. type: Plain text
 msgid ""
-"[[Learn how to use I2P in Tails in the documentation.|doc/anonymous_internet/"
+"[[Learn how to use I2P in TⒶILS in the documentation.|doc/anonymous_internet/"
 "i2p]]"
 msgstr ""
-"[[Erfahren Sie mehr über die Verwendung von I2P in Tails in der "
+"[[Erfahren Sie mehr über die Verwendung von I2P in TⒶILS in der "
 "Dokumentation.|doc/anonymous_internet/i2p]]"
 
 #. type: Plain text
 msgid ""
-"To know how I2P is implemented in Tails, see our [[design document|"
+"To know how I2P is implemented in TⒶILS, see our [[design document|"
 "contribute/design/I2P]]."
 msgstr ""
-"Um mehr darüber zu erfahren, wie I2P in Tails implementiert ist, lesen Sie "
+"Um mehr darüber zu erfahren, wie I2P in TⒶILS implementiert ist, lesen Sie "
 "unser [[Design-Dokument|contribute/design/I2P]]."
 
 #. type: Plain text
@@ -280,44 +280,44 @@ msgstr "Überall nutzen, ohne Spuren zu hinterlassen\n"
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Using Tails on a computer doesn't alter or depend on the operating system "
+#| "Using TⒶILS on a computer doesn't alter or depend on the operating system "
 #| "installed on it. So you can use it in the same way on your computer, a "
-#| "friend's or one at your local library. After shutting down Tails, the "
+#| "friend's or one at your local library. After shutting down TⒶILS, the "
 #| "computer can start again on its usual operating system."
 msgid ""
-"Using Tails on a computer doesn't alter or depend on the operating system "
+"Using TⒶILS on a computer doesn't alter or depend on the operating system "
 "installed on it. So you can use it in the same way on your computer, a "
-"friend's computer, or one at your local library. After shutting down Tails, "
+"friend's computer, or one at your local library. After shutting down TⒶILS, "
 "the computer will start again with its usual operating system."
 msgstr ""
-"Die Benutzung von Tails auf einem Computer verändert weder das installierte "
+"Die Benutzung von TⒶILS auf einem Computer verändert weder das installierte "
 "Betriebssystem, noch ist es von diesem abhängig. Es kann also gleichermaßen "
 "auf dem eigenen Computer, dem eines Freundes, oder einem Computer der "
-"örtlichen Bibliothek verwenden werden. Nachdem Sie Tails heruntergefahren "
+"örtlichen Bibliothek verwenden werden. Nachdem Sie TⒶILS heruntergefahren "
 "haben, kann der Computer wie gehabt mit seinem üblichen Betriebssystem "
 "starten."
 
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "Tails is configured with special care to not use the computer's hard-"
+#| "TⒶILS is configured with special care to not use the computer's hard-"
 #| "disks, even if there is some swap space on them. The only storage space "
-#| "used by Tails is the RAM, which is automatically erased when the computer "
-#| "shuts down. So you won't leave any trace neither of the Tails system nor "
+#| "used by TⒶILS is the RAM, which is automatically erased when the computer "
+#| "shuts down. So you won't leave any trace neither of the TⒶILS system nor "
 #| "of what you did on the computer. That's why we call it \"amnesic\"."
 msgid ""
-"Tails is configured with special care to not use the computer's hard-disks, "
+"TⒶILS is configured with special care to not use the computer's hard-disks, "
 "even if there is some swap space on them. The only storage space used by "
-"Tails is in RAM, which is automatically erased when the computer shuts down. "
-"So you won't leave any trace on the computer either of the Tails system "
-"itself or what you used it for. That's why we call Tails \"amnesic\"."
+"TⒶILS is in RAM, which is automatically erased when the computer shuts down. "
+"So you won't leave any trace on the computer either of the TⒶILS system "
+"itself or what you used it for. That's why we call TⒶILS \"amnesic\"."
 msgstr ""
-"Tails ist mit großer Sorgfalt konfiguriert nicht die Festplatten des "
+"TⒶILS ist mit großer Sorgfalt konfiguriert nicht die Festplatten des "
 "Computers zu benutzen, auch nicht wenn Auslagerungsspeicher (swap space) zur "
-"Verfügung steht. Der einzige von Tails genutze Speicher ist der "
+"Verfügung steht. Der einzige von TⒶILS genutze Speicher ist der "
 "Arbeitsspeicher (RAM), der automatisch gelöscht wird, sobald der Computer "
-"herunterfährt. So hinterlassen sie weder Spuren des Tails-Systems, noch "
-"dessen, was Sie auf dem Computer getan haben. Deshalb nennen wir Tails "
+"herunterfährt. So hinterlassen sie weder Spuren des TⒶILS-Systems, noch "
+"dessen, was Sie auf dem Computer getan haben. Deshalb nennen wir TⒶILS "
 "\"amnestisch\" (engl.: amnesic)."
 
 #. type: Plain text
@@ -351,10 +351,10 @@ msgstr "Kryptographische Werkzeuge auf dem aktuellen Stand der Technik\n"
 
 #. type: Plain text
 msgid ""
-"Tails also comes with a selection of tools to protect your data using strong "
+"TⒶILS also comes with a selection of tools to protect your data using strong "
 "encryption:"
 msgstr ""
-"Tails beinhaltet eine Auswahl an Werkzeugen, um Ihre Daten mit starker "
+"TⒶILS beinhaltet eine Auswahl an Werkzeugen, um Ihre Daten mit starker "
 "Verschlüsselung zu schützen:"
 
 #. type: Bullet: '  - '
@@ -390,12 +390,12 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "Encrypt and sign your emails and documents using the *de facto* standard "
-"<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from Tails "
+"<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from TⒶILS "
 "email client, text editor or file browser."
 msgstr ""
 "Verschlüsseln und signieren Sie Dokumente und E-Mails mit dem *de facto* "
 "Standard <span class=\"definition\">[[!wikipedia_de OpenPGP]]</span>, "
-"entweder in Tails E-Mail-Client, dem Text-Editor oder aus dem Datei-Browser "
+"entweder in TⒶILS E-Mail-Client, dem Text-Editor oder aus dem Datei-Browser "
 "heraus."
 
 #. type: Bullet: '  - '
@@ -435,52 +435,52 @@ msgid "What's next?\n"
 msgstr "Was kommt als Nächstes?\n"
 
 #. type: Plain text
-msgid "To continue discovering Tails, you can now read:"
-msgstr "Um Tails weiter zu entdecken, können Sie folgende Seiten lesen:"
+msgid "To continue discovering TⒶILS, you can now read:"
+msgstr "Um TⒶILS weiter zu entdecken, können Sie folgende Seiten lesen:"
 
 #. type: Bullet: '  - '
 #, fuzzy
 #| msgid ""
 #| "the [[warning page|doc/about/warning]] to understand better the security "
-#| "limitations of Tails and Tor,"
+#| "limitations of TⒶILS and Tor,"
 msgid ""
 "the [[warning page|doc/about/warning]] to better understand the security "
-"limitations of Tails and Tor,"
+"limitations of TⒶILS and Tor,"
 msgstr ""
 "die [[Warnungen|doc/about/warning]], um die Sicherheitsbeschränkungen von "
-"Tails und Tor besser zu verstehen,"
+"TⒶILS und Tor besser zu verstehen,"
 
 #. type: Bullet: '  - '
 msgid ""
 "more details about the [[features and software|doc/about/features]] included "
-"in Tails,"
+"in TⒶILS,"
 msgstr ""
 "weitere Details zu [[Funktionen und Software|doc/about/features]], die in "
-"Tails enthalten sind,"
+"TⒶILS enthalten sind,"
 
 #. type: Bullet: '  - '
-msgid "our [[documentation|doc]] explaining in detail how to use Tails,"
+msgid "our [[documentation|doc]] explaining in detail how to use TⒶILS,"
 msgstr ""
-"unsere [[Dokumentation|doc]], die die Benutzung von Tails im Detail erklärt,"
+"unsere [[Dokumentation|doc]], die die Benutzung von TⒶILS im Detail erklärt,"
 
 #. type: Bullet: '  - '
 #, fuzzy
-#| msgid "some hints on why [[should you trust Tails|doc/about/trust]],"
-msgid "some hints on why [[you should trust Tails|doc/about/trust]],"
+#| msgid "some hints on why [[should you trust TⒶILS|doc/about/trust]],"
+msgid "some hints on why [[you should trust TⒶILS|doc/about/trust]],"
 msgstr ""
-"einige Denkanstöße, warum Sie [[Tails vertrauen sollten|doc/about/trust]],"
+"einige Denkanstöße, warum Sie [[TⒶILS vertrauen sollten|doc/about/trust]],"
 
 #. type: Bullet: '  - '
 #, fuzzy
 #| msgid ""
-#| "our [[design document|contribute/design]] about Tails specification, "
+#| "our [[design document|contribute/design]] about TⒶILS specification, "
 #| "threat model and implementation,"
 msgid ""
-"our [[design document|contribute/design]] laying out Tails specification, "
+"our [[design document|contribute/design]] laying out TⒶILS specification, "
 "threat model and implementation,"
 msgstr ""
 "unser [[Design-Dokument|contribute/design]] zu Spezifikation, Gefahrenmodell "
-"und Implementierung von Tails."
+"und Implementierung von TⒶILS."
 
 #. type: Bullet: '  - '
 #, fuzzy

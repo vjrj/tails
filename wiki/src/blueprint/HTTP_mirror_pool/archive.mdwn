@@ -82,7 +82,7 @@ inconsistency will be a so good idea, for example for maintainability :)
 
 ### Using modified DNS servers
 
-Interestingly Tails is not the first project to be looking how to use DNS
+Interestingly TⒶILS is not the first project to be looking how to use DNS
 for load distribution. People already wrote some DNS software designed to
 handle those usecases and return the visitor a reduced list of servers
 according to some rules like weights or geolocalisation. They work by
@@ -149,7 +149,7 @@ an easy task entry on the ticket tracker and follow it :)
 
 This method can either be used with multiple DNS pools (dl1.amnesia.boum.org, dl2.amnesia.boum.org etc.) or with named mirrors (freiwuppertal.dl.amnesia.boum.org, othermirror.dl.amnesia.boum.org, ...). Using named mirrors allows you to use a huge, unlimited list of completely equally used mirrors; using multiple DNS pools leads to effects described under "CNAME hacks".
 
-These POCs should be 1:1 usable on the Tails [[download]] page. All that would be needed is setting up the DNS pools and/or named mirrors, and telling the mirror owners to configure their servers to respond to \*.amnesia.boum.org (the wildcard is important).
+These POCs should be 1:1 usable on the TⒶILS [[download]] page. All that would be needed is setting up the DNS pools and/or named mirrors, and telling the mirror owners to configure their servers to respond to \*.amnesia.boum.org (the wildcard is important).
 
 ### JavaScript POC (multiple DNS pools)
    
@@ -298,7 +298,7 @@ The mirrors.json file contains:
     
     $mirrors = Array("alice.amnesia.boum.org","bob.amnesia.boum.org","clark.amnesia.boum.org","deborah.amnesia.boum.org","eric.amnesia.boum.org","freiwuppertal.amnesia.boum.org");
     $mirror = $mirrors[array_rand($mirrors)];
-    echo "<p><a href=\"http://{$mirror}/tails/stable/tails-i386-1.4/tails-i386-1.4.iso\">Download Tails!</a></p>\n";
+    echo "<p><a href=\"http://{$mirror}/tails/stable/tails-i386-1.4/tails-i386-1.4.iso\">Download TⒶILS!</a></p>\n";
     echo "<p>Selected mirror: {$mirror}</p>";
 
 Try it here:

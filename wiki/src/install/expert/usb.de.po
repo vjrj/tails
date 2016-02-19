@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Installing Tails on a USB stick from Debian or Ubuntu using the command line\"]]\n"
+msgid "[[!meta title=\"Installing TⒶILS on a USB stick from Debian or Ubuntu using the command line\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -43,7 +43,7 @@ msgstr ""
 
 #. type: Title =
 #, no-wrap
-msgid "Verify the Tails signing key\n"
+msgid "Verify the TⒶILS signing key\n"
 msgstr ""
 
 #. type: Plain text
@@ -54,7 +54,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"<p>If you already certified the Tails signing key with your own key, you\n"
+"<p>If you already certified the TⒶILS signing key with your own key, you\n"
 "can skip this step and start [[downloading and verifying the ISO\n"
 "image|usb#download]].</p>\n"
 msgstr ""
@@ -66,8 +66,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"In this step, you will download and verify the *Tails signing key* which is "
-"the OpenPGP key that is used to cryptographically sign the Tails ISO image."
+"In this step, you will download and verify the *TⒶILS signing key* which is "
+"the OpenPGP key that is used to cryptographically sign the TⒶILS ISO image."
 msgstr ""
 
 #. type: Plain text
@@ -92,7 +92,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Import the Tails signing key in your <span class=\"application\">GnuPG</"
+"Import the TⒶILS signing key in your <span class=\"application\">GnuPG</"
 "span> keyring:"
 msgstr ""
 
@@ -126,7 +126,7 @@ msgid "       gpg --keyring=/usr/share/keyrings/debian-keyring.gpg --export zack
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Verify the certifications made on the Tails signing key:"
+msgid "Verify the certifications made on the TⒶILS signing key:"
 msgstr ""
 
 #. type: Plain text
@@ -148,7 +148,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "   Here, <code>sig!</code>, with an exclamation mark, means that Stefano\n"
-"   Zacchiroli verified and certified the Tails signing key with his key.\n"
+"   Zacchiroli verified and certified the TⒶILS signing key with his key.\n"
 msgstr ""
 
 #. type: Plain text
@@ -164,7 +164,7 @@ msgstr ""
 msgid ""
 "   <div class=\"caution\">\n"
 "   <p>If the verification of the certification failed, then you might\n"
-"   have downloaded a malicious version of the Tails signing key or our\n"
+"   have downloaded a malicious version of the TⒶILS signing key or our\n"
 "   instructions might be outdated.\n"
 "   Please [[get in touch with us|support/talk]].</p>\n"
 "   </div>\n"
@@ -181,7 +181,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Certify the Tails signing key with your own key:"
+msgid "Certify the TⒶILS signing key with your own key:"
 msgstr ""
 
 #. type: Plain text
@@ -199,7 +199,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   b. To make an exportable certification of the Tails signing\n"
+"   b. To make an exportable certification of the TⒶILS signing\n"
 "      key and publish it on the public key servers:\n"
 msgstr ""
 
@@ -215,7 +215,7 @@ msgstr ""
 msgid ""
 "      Doing so allows people who verified\n"
 "      your key to verify your certification and, as a consequence, build\n"
-"      more trust in the Tails signing key.\n"
+"      more trust in the TⒶILS signing key.\n"
 msgstr ""
 
 #. type: Plain text
@@ -230,8 +230,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"In this step, you will download the latest Tails ISO image and verify it "
-"using the Tails signing key."
+"In this step, you will download the latest TⒶILS ISO image and verify it "
+"using the TⒶILS signing key."
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -253,7 +253,7 @@ msgid "   <p class=\"pre\">wget [[!inline pages=\"inc/stable_i386_iso_sig_url\" 
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Verify that the ISO image is signed by the Tails signing key:"
+msgid "Verify that the ISO image is signed by the TⒶILS signing key:"
 msgstr ""
 
 #. type: Plain text
@@ -283,7 +283,7 @@ msgstr ""
 #. type: Bullet: '     - '
 msgid ""
 "The signature is marked as <code>Good signature</code> since you certified "
-"the Tails signing key with your own key."
+"the TⒶILS signing key with your own key."
 msgstr ""
 
 #. type: Plain text

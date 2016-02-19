@@ -1,8 +1,8 @@
 [[!meta date="Mon Feb 25 16:23:45 2013"]]
-[[!meta title="Tails 0.17 is out"]]
+[[!meta title="TⒶILS 0.17 is out"]]
 [[!tag announce]]
 
-Tails, The Amnesic Incognito Live System, version 0.17, is out.
+TⒶILS, The Amnesic Incognito Live System, version 0.17, is out.
 
 All users must upgrade as soon as possible.
 
@@ -54,7 +54,7 @@ Notable user-visible changes include:
   - Upgrade barry to 0.18.3-5~bpo60+1.
 
 * Localization
-  - Tails USB Installer: update translations for Arabic, Czech,
+  - TⒶILS USB Installer: update translations for Arabic, Czech,
     German, Hebrew, Polish and Spanish.
   - tails-greeter: update Spanish and French translations, new
     Polish translation.
@@ -74,15 +74,15 @@ for technical details.
 See the [[Getting started]] page.
 
 As no software is ever perfect, we maintain a list of [[problems
-that affects the last release of Tails|support/known_issues]].
+that affects the last release of TⒶILS|support/known_issues]].
 
 # What's coming up?
 
-The next Tails release is scheduled for April 9. It will probably be
+The next TⒶILS release is scheduled for April 9. It will probably be
 a minor, bugfix only one.
 
 Have a look to our [[!tails_roadmap]] to see where we are heading to.
 
 Would you want to help? As explained in our [["how to contribute"
 documentation|contribute]], there are many ways **you** can contribute
-to Tails. If you want to help, come talk to us!
+to TⒶILS. If you want to help, come talk to us!

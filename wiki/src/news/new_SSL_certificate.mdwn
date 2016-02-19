@@ -4,7 +4,7 @@
 
 [[!toc levels=2]]
 
-On the same day Tails 0.10 was put out, our website started to use a
+On the same day TⒶILS 0.10 was put out, our website started to use a
 commercial SSL certificate. This new certificate replaces the previous one that
 was delivered by the non-commercial [CACert certificate
 authority](http://www.cacert.org/).
@@ -41,7 +41,7 @@ it](https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-ab
 
 It is clear for us that getting an commercial SSL certificate is not enough to
 strongly authenticate our website, and for example authenticity of our releases.
-That's why we always propose you [[stronger ways of authenticating our Tails
+That's why we always propose you [[stronger ways of authenticating our TⒶILS
 release|/download#authenticity-check]] using OpenPGP signatures.
 
 Why get a commercial certificate then?

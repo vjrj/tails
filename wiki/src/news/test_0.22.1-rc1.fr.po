@@ -20,20 +20,20 @@ msgstr ""
 #, fuzzy, no-wrap
 #| msgid "[[!meta title=\"Call for testing: 0.22.1~rc1\"]] [[!meta date=\"2014-01-11 00:18:00\"]]"
 msgid "[[!meta title=\"Call for testing: 0.22.1~rc1\"]]\n"
-msgstr "[[!meta title=\"Appel à tester Tails 0.22.1~rc1\"]] [[!meta date=\"2014-01-11 00:18:00\"]]"
+msgstr "[[!meta title=\"Appel à tester TⒶILS 0.22.1~rc1\"]] [[!meta date=\"2014-01-11 00:18:00\"]]"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid "[[!meta title=\"Call for testing: 0.22.1~rc1\"]] [[!meta date=\"2014-01-11 00:18:00\"]]"
 msgid "[[!meta date=\"2014-01-11 00:18:00\"]]\n"
-msgstr "[[!meta title=\"Appel à tester Tails 0.22.1~rc1\"]] [[!meta date=\"2014-01-11 00:18:00\"]]"
+msgstr "[[!meta title=\"Appel à tester TⒶILS 0.22.1~rc1\"]] [[!meta date=\"2014-01-11 00:18:00\"]]"
 
 #. type: Plain text
 msgid ""
-"You can help Tails! The first release candidate for the upcoming version "
+"You can help TⒶILS! The first release candidate for the upcoming version "
 "0.22.1 is out. Please test it and see if it works for you."
 msgstr ""
-"Vous pouvez aider Tails ! La première version candidate pour Tails 0.22.1 "
+"Vous pouvez aider Tails ! La première version candidate pour TⒶILS 0.22.1 "
 "est sortie. Merci de la tester et de voir si tout fonctionne pour vous."
 
 #. type: Plain text
@@ -43,9 +43,9 @@ msgstr ""
 
 #. type: Title =
 #, fuzzy, no-wrap
-#| msgid "How to test Tails 0.22.1~rc1?"
-msgid "How to test Tails 0.22.1~rc1?\n"
-msgstr "Comment tester Tails 0.22.1~rc1 ?"
+#| msgid "How to test TⒶILS 0.22.1~rc1?"
+msgid "How to test TⒶILS 0.22.1~rc1?\n"
+msgstr "Comment tester TⒶILS 0.22.1~rc1 ?"
 
 #. type: Bullet: '1. '
 #, fuzzy
@@ -71,17 +71,17 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso\" >Tails 0.22.1~rc1 ISO image</a>"
-msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso\" >Tails 0.22.1~rc1 ISO image</a>\n"
-msgstr "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso\" >Image ISO de Tails 0.22.1~rc1</a>"
+#| msgid "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso\" >TⒶILS 0.22.1~rc1 ISO image</a>"
+msgid "   <a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso\" >TⒶILS 0.22.1~rc1 ISO image</a>\n"
+msgstr "<a class=\"download-file\" href=\"http://dl.amnesia.boum.org/tails/alpha/tails-i386-0.22.1~rc1/tails-i386-0.22.1~rc1.iso\" >Image ISO de TⒶILS 0.22.1~rc1</a>"
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "<a class=\"download-signature\" href=\"https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig \" >Tails 0.22.1~rc1 signature</a>"
+#| msgid "<a class=\"download-signature\" href=\"https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig \" >TⒶILS 0.22.1~rc1 signature</a>"
 msgid ""
 "   <a class=\"download-signature\"\n"
-"   href=\"https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig\">Tails 0.22.1~rc1 signature</a>\n"
-msgstr "<a class=\"download-signature\" href=\"https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig \" >Signature de Tails 0.22.1~rc1</a>"
+"   href=\"https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig\">TⒶILS 0.22.1~rc1 signature</a>\n"
+msgstr "<a class=\"download-signature\" href=\"https://tails.boum.org/torrents/files/tails-i386-0.22.1~rc1.iso.sig \" >Signature de TⒶILS 0.22.1~rc1</a>"
 
 #. type: Bullet: '1. '
 msgid "[[Verify the ISO image|download#verify]]."
@@ -124,18 +124,18 @@ msgstr "<a id=\"automatic_upgrade\"></a>Comment mettre à jour automatiquement d
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "These steps allow you to automatically upgrade a device installed with <span class=\"application\">Tails Installer</span> from Tails 0.22 to Tails 0.22.1~rc1."
+#| msgid "These steps allow you to automatically upgrade a device installed with <span class=\"application\">TⒶILS Installer</span> from Tails 0.22 to Tails 0.22.1~rc1."
 msgid ""
 "These steps allow you to automatically upgrade a device installed with <span\n"
-"class=\"application\">Tails Installer</span> from Tails 0.22 to Tails 0.22.1~rc1.\n"
-msgstr "Ces étapes vous permettent de mettre à jour automatiquement votre périphérique, installé avec l'<span class=\"application\">Installeur de Tails</span>, depuis Tails 0.22 vers Tails 0.22.1~rc1."
+"class=\"application\">TⒶILS Installer</span> from Tails 0.22 to Tails 0.22.1~rc1.\n"
+msgstr "Ces étapes vous permettent de mettre à jour automatiquement votre périphérique, installé avec l'<span class=\"application\">Installeur de TⒶILS</span>, depuis Tails 0.22 vers Tails 0.22.1~rc1."
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails 0.22 and [[set an administration password|doc/first_steps/"
+"Start TⒶILS 0.22 and [[set an administration password|doc/first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
-"Démarrer Tails 0.22 et [[définir un mot de passe d'administration|doc/"
+"Démarrer TⒶILS 0.22 et [[définir un mot de passe d'administration|doc/"
 "first_steps/startup_options/administration_password]]."
 
 #. type: Bullet: '2. '
@@ -154,12 +154,12 @@ msgstr ""
 #. type: Bullet: '3. '
 msgid ""
 "Run this command in a <span class=\"application\">Root Terminal</span> to "
-"install the latest version of <span class=\"application\">Tails Upgrader</"
+"install the latest version of <span class=\"application\">TⒶILS Upgrader</"
 "span>:"
 msgstr ""
 "Lancez cette commande dans un <span class=\"application\">Terminal "
 "administrateur</span> pour installer la dernière version de <span class="
-"\"application\">Tails Upgrader</span> :"
+"\"application\">TⒶILS Upgrader</span> :"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -187,23 +187,23 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</span>&nbsp;&#x25B8; <span class=\"guisubmenu\">Tails</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">Tails Upgrader</span> </span> to start <span class=\"application\">Tails Upgrader</span>."
+#| msgid "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</span>&nbsp;&#x25B8; <span class=\"guisubmenu\">TⒶILS</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">Tails Upgrader</span> </span> to start <span class=\"application\">Tails Upgrader</span>."
 msgid ""
 "4. Choose <span class=\"menuchoice\">\n"
 "    <span class=\"guimenu\">Applications</span>&nbsp;&#x25B8;\n"
-"    <span class=\"guisubmenu\">Tails</span>&nbsp;&#x25B8;\n"
-"    <span class=\"guimenuitem\">Tails Upgrader</span>\n"
+"    <span class=\"guisubmenu\">TⒶILS</span>&nbsp;&#x25B8;\n"
+"    <span class=\"guimenuitem\">TⒶILS Upgrader</span>\n"
 "  </span>\n"
-"  to start <span class=\"application\">Tails Upgrader</span>.\n"
-msgstr "Choisissez <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</span>&nbsp;&#x25B8; <span class=\"guisubmenu\">Tails</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">Tails Upgrader</span> </span> pour lancer <span class=\"application\">Tails Upgrader</span>."
+"  to start <span class=\"application\">TⒶILS Upgrader</span>.\n"
+msgstr "Choisissez <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</span>&nbsp;&#x25B8; <span class=\"guisubmenu\">TⒶILS</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">Tails Upgrader</span> </span> pour lancer <span class=\"application\">Tails Upgrader</span>."
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Accept <span class=\"application\">Tails Upgrader</span>&#39;s proposal to upgrade to Tails 0.22.1~rc1."
+#| msgid "Accept <span class=\"application\">TⒶILS Upgrader</span>&#39;s proposal to upgrade to Tails 0.22.1~rc1."
 msgid ""
-"5. Accept <span class=\"application\">Tails Upgrader</span>&#39;s proposal\n"
-"to upgrade to Tails 0.22.1~rc1.\n"
-msgstr "Acceptez la proposition de <span class=\"application\">Tails Upgrader</span> de mettre à jour vers Tails 0.22.1~rc1."
+"5. Accept <span class=\"application\">TⒶILS Upgrader</span>&#39;s proposal\n"
+"to upgrade to TⒶILS 0.22.1~rc1.\n"
+msgstr "Acceptez la proposition de <span class=\"application\">TⒶILS Upgrader</span> de mettre à jour vers Tails 0.22.1~rc1."
 
 #. type: Bullet: '6. '
 msgid "Wait while the upgrade is downloaded and applied."
@@ -215,15 +215,15 @@ msgstr "Redémarrez le système lorsque cela vous est proposé."
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Once the system is restarted, choose <span class=\"menuchoice\"> <span class=\"guimenu\">System</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">About Tails</span> </span> to confirm that the running system is now Tails 0.22.1~rc1."
+#| msgid "Once the system is restarted, choose <span class=\"menuchoice\"> <span class=\"guimenu\">System</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">About TⒶILS</span> </span> to confirm that the running system is now Tails 0.22.1~rc1."
 msgid ""
 "8. Once the system is restarted, choose\n"
 "<span class=\"menuchoice\">\n"
 "  <span class=\"guimenu\">System</span>&nbsp;&#x25B8;\n"
-"  <span class=\"guimenuitem\">About Tails</span>\n"
+"  <span class=\"guimenuitem\">About TⒶILS</span>\n"
 "</span>\n"
-"to confirm that the running system is now Tails 0.22.1~rc1.\n"
-msgstr "Une fois le système redémarré, choisissez <span class=\"menuchoice\"> <span class=\"guimenu\">Système</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">À propos de Tails</span> </span> pour vérifier que vous utilisez bien Tails 0.22.1~rc1 désormais."
+"to confirm that the running system is now TⒶILS 0.22.1~rc1.\n"
+msgstr "Une fois le système redémarré, choisissez <span class=\"menuchoice\"> <span class=\"guimenu\">Système</span>&nbsp;&#x25B8; <span class=\"guimenuitem\">À propos de TⒶILS</span> </span> pour vérifier que vous utilisez bien Tails 0.22.1~rc1 désormais."
 
 #. type: Title =
 #, fuzzy, no-wrap
@@ -241,12 +241,12 @@ msgstr "Mise à jour de NSS vers la version 3.14.5-1~bpo60+1."
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Check for upgrades availability using Tails Upgrader, and propose to apply an incremental upgrade whenever possible."
+#| msgid "Check for upgrades availability using TⒶILS Upgrader, and propose to apply an incremental upgrade whenever possible."
 msgid ""
 "- Major improvements\n"
-"  - Check for upgrades availability using Tails Upgrader, and propose to apply an incremental upgrade whenever possible.\n"
+"  - Check for upgrades availability using TⒶILS Upgrader, and propose to apply an incremental upgrade whenever possible.\n"
 "  - Install Linux 3.12 (3.12.6-2).\n"
-msgstr "Vérifie les mises à jour disponible avec le Tails Upgrader, et propose d'appliquer les mises à jour de manière incrémentale quand cela est possible."
+msgstr "Vérifie les mises à jour disponible avec le TⒶILS Upgrader, et propose d'appliquer les mises à jour de manière incrémentale quand cela est possible."
 
 #. type: Plain text
 #, no-wrap
@@ -255,7 +255,7 @@ msgid ""
 "  - Fix the keybindings problem introduced in 0.22.\n"
 "  - Fix the Unsafe Browser problem introduced in 0.22.\n"
 "  - Use IE's icon in Windows camouflage mode.\n"
-"  - Handle some corner cases better in Tails Installer.\n"
+"  - Handle some corner cases better in TⒶILS Installer.\n"
 msgstr ""
 
 #. type: Plain text
@@ -266,7 +266,7 @@ msgid ""
 "  - Update Torbutton to 1.6.5.3.\n"
 "  - Do not start Tor Browser automatically, but notify when Tor is ready.\n"
 "  - Import latest Tor Browser prefs.\n"
-"  - Many user interface improvements in Tails Upgrader.\n"
+"  - Many user interface improvements in TⒶILS Upgrader.\n"
 msgstr ""
 
 #. type: Plain text
@@ -322,10 +322,10 @@ msgstr ""
 #~ msgid "Use IE's icon in Windows camouflage mode."
 #~ msgstr "Utilise l'icône d'IE en mode Windows camouflage."
 
-#~ msgid "Handle some corner cases better in Tails Installer."
+#~ msgid "Handle some corner cases better in TⒶILS Installer."
 #~ msgstr ""
 #~ "Meilleure prise en charge de certains cas particuliers par l'Installeur "
-#~ "de Tails."
+#~ "de TⒶILS."
 
 #~ msgid "Minor improvements"
 #~ msgstr "Améliorations mineures"
@@ -345,6 +345,6 @@ msgstr ""
 #~ msgid "Import latest Tor Browser prefs."
 #~ msgstr "Importation des dernières préférences du Tor Browser."
 
-#~ msgid "Many user interface improvements in Tails Upgrader."
+#~ msgid "Many user interface improvements in TⒶILS Upgrader."
 #~ msgstr ""
-#~ "Nombre d'améliorations de l'interface utilisateur dans Tails Upgrader."
+#~ "Nombre d'améliorations de l'interface utilisateur dans TⒶILS Upgrader."

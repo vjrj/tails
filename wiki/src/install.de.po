@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-01-26 22:36+0100\n"
 "PO-Revision-Date: 2016-02-06 22:30+0100\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"Last-Translator: TⒶILS translators <tails@boum.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -18,14 +18,14 @@ msgstr ""
 
 #. type: Content of: outside any tag (error?)
 msgid ""
-"[[!meta title=\"Welcome to the Tails Installation Assistant\"]] [[!meta "
+"[[!meta title=\"Welcome to the TⒶILS Installation Assistant\"]] [[!meta "
 "stylesheet=\"bootstrap\" rel=\"stylesheet\" title=\"\"]] [[!meta stylesheet="
 "\"inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"inc/stylesheets/router-install\" rel=\"stylesheet\" title="
 "\"\"]] [[!inline pages=\"install/inc/tails-installation-assistant.inline\" "
 "raw=\"yes\"]]"
 msgstr ""
-"[[!meta title=\"Willkommen beim Tails Installations-Assistenten\"]] [[!meta "
+"[[!meta title=\"Willkommen beim TⒶILS Installations-Assistenten\"]] [[!meta "
 "stylesheet=\"bootstrap\" rel=\"stylesheet\" title=\"\"]] [[!meta stylesheet="
 "\"inc/stylesheets/assistant\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"inc/stylesheets/router-install\" rel=\"stylesheet\" title="
@@ -37,19 +37,19 @@ msgid "Welcome to the"
 msgstr "Willkommen beim"
 
 #. type: Content of: <h1>
-msgid "<strong>Tails Installation Assistant</strong>"
-msgstr "<strong>Tails Installations-Assistenten</strong>"
+msgid "<strong>TⒶILS Installation Assistant</strong>"
+msgstr "<strong>TⒶILS Installations-Assistenten</strong>"
 
 #. type: Content of: <h4>
-msgid "Thank you for your interest in Tails."
-msgstr "Danke für Ihr Interesse an Tails."
+msgid "Thank you for your interest in TⒶILS."
+msgstr "Danke für Ihr Interesse an TⒶILS."
 
 #. type: Content of: <p>
 msgid ""
-"Installing Tails can be quite long but we hope you will still have a good "
+"Installing TⒶILS can be quite long but we hope you will still have a good "
 "time :)"
 msgstr ""
-"Tails zu installieren kann recht lange dauern, wir hoffen jedoch, dass Sie "
+"TⒶILS zu installieren kann recht lange dauern, wir hoffen jedoch, dass Sie "
 "eine schöne Zeit haben :)"
 
 #. type: Content of: <p>

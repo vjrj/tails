@@ -30,7 +30,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<span class=\"application\">Claws Mail</span> was removed\n"
-"from Tails in version 2.0 (2016-01-26).\n"
+"from TⒶILS in version 2.0 (2016-01-26).\n"
 msgstr ""
 
 #. type: Plain text
@@ -57,7 +57,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid ""
-"Start Tails and [[set up an administration password|first_steps/"
+"Start TⒶILS and [[set up an administration password|first_steps/"
 "startup_options/administration_password]]."
 msgstr ""
 
@@ -125,7 +125,7 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid ""
 "The script only migrates the mailbox in <span class=\"filename\">/home/"
-"amnesia/.claws-mail/Mail</span> which is the default in Tails."
+"amnesia/.claws-mail/Mail</span> which is the default in TⒶILS."
 msgstr ""
 
 #. type: Plain text

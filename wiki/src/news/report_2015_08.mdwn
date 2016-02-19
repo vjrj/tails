@@ -1,9 +1,9 @@
-[[!meta title="Tails report for August, 2015"]]
+[[!meta title="TⒶILS report for August, 2015"]]
 
 We're sorry it took us so long to publish this report. We'll publish
 fresher news soon :)
 
-The 16th of August was Tails 6th birthday. Well, Tails existed before, but it was the birthday of [the first public release](https://lists.torproject.org/pipermail/tor-talk/2009-August/002667.html). Actually, it was named amnesia then, it was before the fusion with Incognito.
+The 16th of August was TⒶILS 6th birthday. Well, Tails existed before, but it was the birthday of [the first public release](https://lists.torproject.org/pipermail/tor-talk/2009-August/002667.html). Actually, it was named amnesia then, it was before the fusion with Incognito.
 
 Never mind the details. Let's celebrate!
 
@@ -12,31 +12,31 @@ Never mind the details. Let's celebrate!
 Releases
 ========
 
-* [[Tails 1.5 was released on August 11, 2015|news/version_1.5]] (major release).
+* [[TⒶILS 1.5 was released on August 11, 2015|news/version_1.5]] (major release).
 
-* [[Tails 1.5.1 was released on August 28, 2015|news/version_1.5.1]] (minor emergency release to update Tor Browser to 5.0.2).
+* [[TⒶILS 1.5.1 was released on August 28, 2015|news/version_1.5.1]] (minor emergency release to update Tor Browser to 5.0.2).
 
-The following changes were introduced in Tails 1.5:
+The following changes were introduced in TⒶILS 1.5:
 
 [[!inline pages="inc/release_notes/1.5" raw="yes"]]
 
 Documentation and website
 =========================
 
-* We finally found a good formulation about [[Tails not protecting against BIOS malware|doc/about/warning]].
+* We finally found a good formulation about [[TⒶILS not protecting against BIOS malware|doc/about/warning]].
 
 * We documented [[the languages in which user support is available|support]].
 
-* We reorganized information between the [[Start Tails|doc/first_steps/start_tails]] and the [[Tails does not start|doc/first_steps/bug_reporting/tails_does_not_start]] pages.
+* We reorganized information between the [[Start TⒶILS|doc/first_steps/start_tails]] and the [[Tails does not start|doc/first_steps/bug_reporting/tails_does_not_start]] pages.
 
-* We published an (incomplete) list of [[organizations doing Tails training|support/learn]].
+* We published an (incomplete) list of [[organizations doing TⒶILS training|support/learn]].
 
 * We documented how to workaround issues on [[switchable graphics computer|support/known_issues#switchable_graphics]].
 
 * We explained better why we disabled the [[circuit view of Tor
-  Browser|doc/anonymous_internet/Tor_Browser#torbutton]] in Tails.
+  Browser|doc/anonymous_internet/Tor_Browser#torbutton]] in TⒶILS.
 
-* We explained why Tails had [[no antivirus software|support/faq#antivirus]].
+* We explained why TⒶILS had [[no antivirus software|support/faq#antivirus]].
 
 * We explained how to analyse [[Wi-Fi problems with Broadcom interfaces|support/known_issues#wireless]].
 
@@ -70,18 +70,18 @@ Funding
 * We finally signed a contract with OTF, running from February 2015 to July
   2016, and sent our first report.
 
-* We created ourselves a [Flattr account](https://flattr.com/submit/auto?user_id=tails_live&url=https://tails.boum.org&title=Tails).
+* We created ourselves a [Flattr account](https://flattr.com/submit/auto?user_id=tails_live&url=https://tails.boum.org&title=TⒶILS).
 
 Outreach
 ========
 
-* [We have Tails stickers again](http://t.co/AgtuTN0XmJ)! We'll share them during upcoming events, you can also [[make your own|contribute/how/promote/material/stickers]].
+* [We have TⒶILS stickers again](http://t.co/AgtuTN0XmJ)! We'll share them during upcoming events, you can also [[make your own|contribute/how/promote/material/stickers]].
 
 * Alan attended [GUADEC, the GNOME conference](https://2015.guadec.org/) in Gothenburg, Sweden on August 7 – 9  and connected us better with the GNOME community.
 
-* A talk about Tails took place during DebConf15 in Heidelberg, Germany, on August 15th.
+* A talk about TⒶILS took place during DebConf15 in Heidelberg, Germany, on August 15th.
 
-* DrWhax did a lightning talk about Tails at [CCCamp](https://events.ccc.de/camp/2015/wiki/Main_Page) on August 13 - 17 in Zehdenick, Germany.
+* DrWhax did a lightning talk about TⒶILS at [CCCamp](https://events.ccc.de/camp/2015/wiki/Main_Page) on August 13 - 17 in Zehdenick, Germany.
 
 On-going discussions
 ====================
@@ -92,7 +92,7 @@ On-going discussions
   [package it for Debian](https://mailman.boum.org/pipermail/tails-dev/2015-August/009397.html).
 
 * We drafted a script to [[!tails_ticket 9993 desc="run a Mumble server"]] from
-  Tails, verified that the Mumble client in Tails Jessie works well, and
+  TⒶILS, verified that the Mumble client in Tails Jessie works well, and
   started using it for internal meetings.
 
 Press and testimonials
@@ -100,7 +100,7 @@ Press and testimonials
 
 * 2015-08-04: [Cinq systèmes d’exploitation pour snober Windows 10 (et Mac OS)](http://www.lemonde.fr/pixels/article/2015/08/04/cinq-systemes-d-exploitation-pour-snober-windows-10-et-mac-os_4710726_4408996.html) by Damien Leloup in Le Monde (in French).
 
-* 2015-08-29: [Tails OS 1.5 Offers Out-of-the-Box Privacy Protection](http://www.greycoder.com/tails-os-1-5-offers-out-of-the-box-privacy-protection/) by Tracy Knauer on GreyCoder.
+* 2015-08-29: [TⒶILS OS 1.5 Offers Out-of-the-Box Privacy Protection](http://www.greycoder.com/tails-os-1-5-offers-out-of-the-box-privacy-protection/) by Tracy Knauer on GreyCoder.
 
 Translation
 ===========
@@ -126,10 +126,10 @@ Total original words: 14404
 Metrics
 =======
 
-* Tails has been started more than 469,870 times this month. This makes 15,157 boots a day on average.
+* TⒶILS has been started more than 469,870 times this month. This makes 15,157 boots a day on average.
 
-* 31,870 downloads of the OpenPGP signature of Tails ISO from our website.
+* 31,870 downloads of the OpenPGP signature of TⒶILS ISO from our website.
 
 * 127 bug reports were received through WhisperBack.
 
--- Report by BitingBird for Tails folks
+-- Report by BitingBird for TⒶILS folks

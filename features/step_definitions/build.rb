@@ -1,4 +1,4 @@
-Given /^Tails ([[:alnum:].]+) has been released$/ do |version|
+Given /^TⒶILS ([[:alnum:].]+) has been released$/ do |version|
   create_git unless git_exists?
 
   old_branch = current_branch
@@ -11,7 +11,7 @@ tails (#{version}) stable; urgency=low
 
   * New upstream release.
 
- -- Tails developers <tails@boum.org>  Tue, 31 Jan 2012 15:12:57 +0100
+ -- TⒶILS developers <tails@boum.org>  Tue, 31 Jan 2012 15:12:57 +0100
 
 #{old_entries}
 END_OF_CHANGELOG
@@ -25,11 +25,11 @@ END_OF_CHANGELOG
   end
 end
 
-Given /^Tails ([[:alnum:].-]+) has been tagged$/ do |version|
+Given /^TⒶILS ([[:alnum:].-]+) has been tagged$/ do |version|
   fatal_system "git tag '#{version}'"
 end
 
-Given /^Tails ([[:alnum:].]+) has not been released yet$/ do |version|
+Given /^TⒶILS ([[:alnum:].]+) has not been released yet$/ do |version|
   !File.exists? ".git/refs/tags/#{version}"
 end
 

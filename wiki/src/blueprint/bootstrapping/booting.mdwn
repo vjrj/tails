@@ -1,15 +1,15 @@
-UX considerations about for booting Tails
+UX considerations about for booting TⒶILS
 =========================================
 
-During the UX workshop, there was one quite big pain point: "how to start my computer with Tails", "on which key shall I press? when?"
+During the UX workshop, there was one quite big pain point: "how to start my computer with TⒶILS", "on which key shall I press? when?"
 Depending on the user OS and version (mac, linux, windows 7, windows 8) and its hardware, there is a lot of possible instructions and combinations. We need to find a way to easily find and remember the good way to do it (as the computer will be shut down by that time).
 
 
 Different types of configuration
 --------------------------------
 
-- Configure to boot on Tails once.
-- Configure to boot on Tails each time there is a Tails key plugged on the computer.
+- Configure to boot on TⒶILS once.
+- Configure to boot on TⒶILS each time there is a Tails key plugged on the computer.
 
 
 Some possible interfaces
@@ -42,7 +42,7 @@ Details on instructions
 Change the workflow
 -------------------
 
-- Is it possible to tell the host operating system to restart on Tails directly?
+- Is it possible to tell the host operating system to restart on TⒶILS directly?
   - windows 8 seems to be kind of sport, but maybe not http://www.askvg.com/tip-5-easy-ways-to-switch-from-windows-8-to-other-installed-os-in-dual-boot-environment/
 
 

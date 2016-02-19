@@ -61,12 +61,12 @@ msgstr "<div class=\"caution\">\n"
 #, no-wrap
 msgid ""
 "There is [[!tails_ticket 5563 desc=\"currently\"]] no virtual keyboard in\n"
-"<span class=\"application\">Tails Greeter</span>, so a hardware keylogger\n"
+"<span class=\"application\">TⒶILS Greeter</span>, so a hardware keylogger\n"
 "could record your persistent volume passphrase or administration\n"
 "password.\n"
 msgstr ""
 "[[!tails_ticket 5563 desc=\"Derzeit\"]] gibt es keine Bildschirmtastatur in\n"
-"<span class=\"application\">Tails Greeter</span>, sodass ein Hardware Keylogger\n"
+"<span class=\"application\">TⒶILS Greeter</span>, sodass ein Hardware Keylogger\n"
 "die Passphrase Ihres beständigen Datenträgers aufzeichnen könnte.\n"
 
 #. type: Plain text

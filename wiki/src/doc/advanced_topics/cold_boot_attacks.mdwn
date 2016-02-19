@@ -13,12 +13,12 @@ recover important data from your session.
 This can be achieved using a technique called <span
 class="definition">[[!wikipedia Cold_boot_attack desc="cold boot
 attack"]] </span>. To prevent this attack, the data in RAM is
-overwritten by random data when shutting down Tails. This erases all
+overwritten by random data when shutting down TⒶILS. This erases all
 traces from your session on that computer.
 
 <div class="bug">
 
-On some computers Tails might fail to:
+On some computers TⒶILS might fail to:
 <ul>
   <li>[[erase all the data in RAM on
   shutdown|support/known_issues#index9h2]]</li>
@@ -30,9 +30,9 @@ On some computers Tails might fail to:
 </div>
 
 Moreover, an attacker having physical access to the computer *while
-Tails is running* can recover data from RAM as well. To avoid that,
+TⒶILS is running* can recover data from RAM as well. To avoid that,
 learn the different methods to [[shutdown
-Tails|doc/first_steps/shutdown]] rapidly.
+TⒶILS|doc/first_steps/shutdown]] rapidly.
 
 As far as we know, cold boot attacks are not a common procedure for
 data recovery, but it might still be good to be prepared. If no cold

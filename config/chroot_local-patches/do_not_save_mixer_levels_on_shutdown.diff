@@ -1,4 +1,4 @@
-Tails specific: we are amnesic, no need to save mixer levels on shutdown.
+TⒶILS specific: we are amnesic, no need to save mixer levels on shutdown.
 
 --- chroot.orig/etc/init.d/alsa-utils	2012-09-24 10:05:12.749039812 +0200
 +++ chroot/etc/init.d/alsa-utils	2012-09-24 10:47:23.717869294 +0200
