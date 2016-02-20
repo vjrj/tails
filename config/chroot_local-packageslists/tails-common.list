@@ -402,3 +402,6 @@ python-qt4
 
 # Provide gnome-open (used to open e.g. URLs in KeePassX, Icedove, Electrum...)
 libgnome2-bin
+
+# For our python "shell" scripting support
+python3-sh
