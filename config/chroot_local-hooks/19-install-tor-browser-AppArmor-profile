@@ -1,50 +1,50 @@
-#!/bin/sh
+#!/usr/bin/python3
 
-set -e
+import os
+import re
+import sh
+import shutil
+import tempfile
 
-echo "Installing AppArmor profile for Tor Browser"
+import tailslib.utils
 
-PATCH='/usr/share/tails/torbrowser-AppArmor-profile.patch'
-PROFILE='/etc/apparmor.d/torbrowser'
+print("Installing AppArmor profile for Tor Browser")
 
-### Functions
+def binary_source_lines(source):
+    with open(source, 'r') as f:
+        return [line for line in f.read().splitlines()
+                if not re.fullmatch(r'deb\s+file:/root/local-packages\s+\./',
+                                    line)
+                and re.match(r'deb\s', line)]
 
-toggle_src_APT_sources() {
-   MODE="$1"
-   TEMP_APT_SOURCES='/etc/apt/sources.list.d/tmp-deb-src.list'
 
-   case "$MODE" in
-      on)
-         cat /etc/apt/sources.list /etc/apt/sources.list.d/*.list \
-            | grep --extended-regexp --line-regexp --invert-match \
-                 'deb\s+file:/root/local-packages\s+\./' \
-            | sed --regexp-extended -e 's,^deb(\s+),deb-src\1,' \
-            > "$TEMP_APT_SOURCES"
-         ;;
-      off)
-         rm "$TEMP_APT_SOURCES"
-         ;;
-   esac
+def toggle_src_APT_sources(mode):
+   temp_apt_source = '/etc/apt/sources.list.d/tmp-deb-src.list'
+   if mode:
+       with open(temp_apt_source, 'a') as f:
+           for source in ['/etc/apt/sources.list'] + \
+                          sh.glob('/etc/apt/sources.list.d/*.list'):
+               for line in binary_source_lines(source):
+                   f.write(re.sub(r'^deb(\s+)', r'deb-src\1', line) + "\n")
+   else:
+         os.remove(temp_apt_source)
+   sh.apt_get('--yes', 'update')
 
-   apt-get --yes update
-}
 
-install_torbrowser_AppArmor_profile() {
-   tmpdir="$(mktemp -d)"
-   (
-      cd "$tmpdir"
-      apt-get source torbrowser-launcher/testing
-      install -m 0644 \
-              torbrowser-launcher-*/apparmor/torbrowser.Browser.firefox \
-              "$PROFILE"
-   )
-   rm -r "$tmpdir"
-}
+def install_torbrowser_AppArmor_profile(target):
+   with tempfile.TemporaryDirectory() as tempdir:
+      with tailslib.utils.chdir(tempdir):
+          sh.apt_get('source', 'torbrowser-launcher/testing')
+          profile = sh.glob("torbrowser-launcher-*/apparmor/torbrowser.Browser.firefox")[0]
+          shutil.move(profile, target)
+          os.chmod(target, 0o0644)
 
-### Main
 
-toggle_src_APT_sources on
-install_torbrowser_AppArmor_profile
-toggle_src_APT_sources off
-patch --forward --batch "$PROFILE" < "$PATCH"
-rm "$PATCH"
+patch_path = '/usr/share/tails/torbrowser-AppArmor-profile.patch'
+global_profile_path = '/etc/apparmor.d/torbrowser'
+toggle_src_APT_sources(True)
+install_torbrowser_AppArmor_profile(global_profile_path)
+toggle_src_APT_sources(False)
+with open(patch_path, 'r') as f:
+    sh.patch('--forward', '--batch',  global_profile_path, _in = f.read())
+os.remove(patch_path)
