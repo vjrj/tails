@@ -72,7 +72,7 @@ else
 			exit 1
 		fi
 	fi
-	test -d "$WORKSPACE" || git clone /amnesia.git "$WORKSPACE"
+	test -d "$WORKSPACE" || git clone --recurse-submodules /amnesia.git "$WORKSPACE"
 	cd "$WORKSPACE"
 	git fetch origin
 fi
@@ -84,6 +84,7 @@ fi
 cd "$WORKSPACE"
 git checkout --force "$REV"
 git reset --hard "$COMMIT"
+git submodule update --init
 
 if [ -n "$JENKINS_URL" ]; then
 	git clean --force -d -x
