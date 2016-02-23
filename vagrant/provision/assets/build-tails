@@ -5,121 +5,107 @@
 set -e
 
 as_root_do() {
-	sudo \
-		${RSYNC_PROXY:+RSYNC_PROXY="$RSYNC_PROXY"} \
-		${http_proxy:+http_proxy="$http_proxy"} \
-		${https_proxy:+https_proxy="$https_proxy"} \
-		${ftp_proxy:+ftp_proxy="$ftp_proxy"} \
-		${no_proxy:+no_proxy="$no_proxy"} \
-		${JENKINS_URL:+JENKINS_URL="$JENKINS_URL"} \
-		${MKSQUASHFS_OPTIONS:+MKSQUASHFS_OPTIONS="$MKSQUASHFS_OPTIONS"} \
-		"$@"
+    sudo \
+	${RSYNC_PROXY:+RSYNC_PROXY="$RSYNC_PROXY"} \
+	${http_proxy:+http_proxy="$http_proxy"} \
+	${https_proxy:+https_proxy="$https_proxy"} \
+	${ftp_proxy:+ftp_proxy="$ftp_proxy"} \
+	${no_proxy:+no_proxy="$no_proxy"} \
+	${MKSQUASHFS_OPTIONS:+MKSQUASHFS_OPTIONS="$MKSQUASHFS_OPTIONS"} \
+	"$@"
 }
 
-usable_memory() {
-	free -b | awk '/cache:/ { print $4 }'
+sync_sources() {
+    COMMIT="$(git --git-dir=/amnesia.git rev-parse --verify HEAD)"
+    if git --git-dir=/amnesia.git symbolic-ref HEAD >/dev/null 2>&1; then
+        # We are building from a branch
+        REV="${1:-$(git --git-dir=/amnesia.git name-rev --name-only HEAD)}"
+    else
+        # We are (hopefully) building from a tag
+        if ! REV="${1:-$(git --git-dir=/amnesia.git describe --tags --exact-match ${COMMIT})}"; then
+	    echo "It seems we are building from an untagged detached HEAD. Aborting." >&2
+	    exit 1
+        fi
+    fi
+    test -d "${GIT_SOURCES}" || git clone /amnesia.git "${GIT_SOURCES}"
+    cd "${GIT_SOURCES}"
+    git fetch --tags origin
+    git checkout --force "${REV}"
+    git reset --hard "${COMMIT}"
 }
 
-cleanup() {
-	[ -n "$BUILD_DIR" ] || return 0
-	cd /
-	mounts=$(mount | grep -E "^[^[:space:]]+ on $BUILD_DIR" | \
-		awk '{print $3}' | sort -r)
-	[ -n "$mounts" ] && sudo umount $mounts
-	[ -d "$TMPFS_DIR" ] && ( sudo umount $TMPFS_DIR ; rmdir $TMPFS_DIR )
-	[ -d "$BUILD_DIR" ] && sudo rm -rf $BUILD_DIR
+build_website() {
+    cd "${GIT_SOURCES}"
+    ./build-website
 }
 
-trap cleanup EXIT
+get_build_dir() {
+    local build_dir
+    build_dir="$(find /tmp -name 'tails-build-dir.*')"
+    if [ -n "${build_dir}" ]; then
+        # XXX: sanity checks
+        # 1. there's only one dir
+        # 2. it's mounted according to TAILS_RAM_BUILD
+        :
+    fi
+    echo "${build_dir}"
+}
 
-if [ -n "$JENKINS_URL" ]; then
-	if [ -z "$WORKSPACE" ]; then
-		echo "WORKSPACE environment variable is not set. Aborting." >&2
-		exit 2
-	fi
-	if [ -z "$GIT_BRANCH" ]; then
-		echo "GIT_BRANCH environment variable is not set. Aborting." >&2
-		exit 4
-	fi
-	if [ -z "$GIT_COMMIT" ]; then
-		echo "GIT_COMMIT environment variable is not set. Aborting." >&2
-		exit 5
-	fi
-	REV="${GIT_BRANCH##origin/}"
-	COMMIT="$GIT_COMMIT"
-	ARTIFACTS_DIR="$WORKSPACE/build-artifacts"
-else
-	# Build triggered by Vagrant
-	WORKSPACE=/home/vagrant/amnesia
-	ARTIFACTS_DIR=/home/vagrant
-	COMMIT="$(git --git-dir=/amnesia.git rev-parse --verify HEAD)"
-	if git --git-dir=/amnesia.git symbolic-ref HEAD >/dev/null 2>&1; then
-		# We are building from a branch
-		REV="${1:-$(git --git-dir=/amnesia.git name-rev --name-only HEAD)}"
-	else
-		# We are (hopefully) building from a tag
-		if ! REV="${1:-$(git --git-dir=/amnesia.git describe --tags --exact-match ${COMMIT})}"; then
-			echo "It seems we are building from an untagged detached HEAD. Aborting." >&2
-			exit 1
-		fi
-	fi
-	test -d "$WORKSPACE" || git clone /amnesia.git "$WORKSPACE"
-	cd "$WORKSPACE"
-	git fetch origin
-fi
+prepare_build_dir() {
+    local build_dir tmpfs_dir
+    build_dir="$(get_build_dir)"
+    if [ -z "${build_dir}" ]; then
+        build_dir="$(mktemp -d /tmp/tails-build-dir.XXXXXXXX)"
+        if [ "${TAILS_RAM_BUILD}" ]; then
+            tmpfs_dir="$(mktemp -d /tmp/tails-build-tmpfs.XXXXXXXX)"
+            as_root_do mount -t tmpfs -o "noatime,size=100%,mode=0770,uid=root,gid=${USER}" tmpfs "${tmpfs_dir}"
+            as_root_do mount -t aufs -o "noatime,noxino,dirs=${tmpfs_dir}=rw:${GIT_SOURCES}/=rr+wh" aufs "${build_dir}"
+        else
+            as_root_do rsync -a "${GIT_SOURCES}"/ "${BUILD_DIR}"/
+        fi
+    fi
+    get_build_dir
+}
 
-cd "$WORKSPACE"
-git checkout --force "$REV"
-git reset --hard "$COMMIT"
+teardown_build_dir() {
+    local build_dir tmpfs_dir
+    build_dir="$(get_build_dir)"
+    [ -z "${build_dir}" ] && return 0
+    build_dir_src="$(findmnt --noheadings --output SOURCE --target "${build_dir}")"
 
-if [ -n "$JENKINS_URL" ]; then
-	git clean --force -d -x
-fi
+    mounts=$(mount | grep -E "^[^[:space:]]+ on ${build_dir}" | \
+		    awk '{print $3}' | sort -r)
+    [ -n "${mounts}" ] && sudo umount ${mounts}
 
-install -m 0755 -d "$ARTIFACTS_DIR"
+    if [ "${build_dir_src}" = aufs ]; then
+        tmpfs_dir="$(find /tmp -name 'tails-build-dir.*')"
+        sudo umount "${tmpfs_dir}"
+        sudo rm -rf "${tmpfs_dir}"
+        sudo umount "${build_dir}"
+    fi
+    sudo rm -rf "${build_dir}"
+}
 
-if [ "$TAILS_CLEAN_BUILD" ]; then
+build_image() {
+    cd "$(get_build_dir)"
+    if [ "${TAILS_CLEAN_BUILD}" ]; then
 	as_root_do lb clean --all
-fi
+        git clean --force -d -x
+    fi
+    as_root_do lb config --cache false
+    as_root_do lb build
+}
 
-if [ -z "$JENKINS_URL" ]; then
-	./build-website
-fi
+GIT_SOURCES=/home/vagrant/amnesia
 
-BUILD_DIR=$(mktemp -d /tmp/tails-build.XXXXXXXX)
-if [ "$TAILS_RAM_BUILD" ]; then
-	TMPFS_DIR=$(mktemp -d /tmp/tmpfs.XXXXXXXX)
-	as_root_do mount -t tmpfs -o "noatime,size=100%,mode=0770,uid=root,gid=${USER}" tmpfs "$TMPFS_DIR"
-	as_root_do mount -t aufs -o "noatime,noxino,dirs=$TMPFS_DIR=rw:${WORKSPACE}/=rr+wh" aufs "$BUILD_DIR"
-else
-	as_root_do rsync -a "$WORKSPACE"/ "$BUILD_DIR"/
-fi
-
-cd "$BUILD_DIR"
-as_root_do lb config --cache false
-
-as_root_do lb build
-
-if [ -n "$JENKINS_URL" ]; then
-	ISO=$(ls *.iso)
-
-	USER_ON_ACNG_HOST=jenkins
-	ACNG_HOST=apt-proxy.lizard
-	ACNG_REMOTE_LOG=/var/log/apt-cacher-ng/apt-cacher.log
-	ACNG_LOCAL_LOG=$(basename "$ACNG_REMOTE_LOG")
-	sftp "${USER_ON_ACNG_HOST}@${ACNG_HOST}:${ACNG_REMOTE_LOG}"
-	BUILD_IP=$(ip a show dev eth0 | grep '^\s\+inet\s' | awk '{print $2}' | sed -e 's,/.*,,')
-	START_TIME=$(cat "$ISO.start.timestamp")
-	END_TIME=$(cat "$ISO.end.timestamp")
-	./auto/scripts/packages-from-acng-log "$ACNG_LOCAL_LOG" "$BUILD_IP" \
-					      "$START_TIME" "$END_TIME" \
-					      "${ISO}.binpkgs" "${ISO}.srcpkgs"
-	rm "$ISO".*.timestamp
-
-	for file in tails-*; do
-		sha512sum "$file" >> "$ISO.shasum"
-	done
-	gpg --batch --detach-sign --armor "$ISO.shasum"
-fi
-
-mv -f tails-* "$ARTIFACTS_DIR"
+case "${1}" in
+    build-website) build_website ;;
+    sync-sources) sync_sources ;;
+    prepare-build_dir) prepare_build_dir ;;
+    teardown-build_dir) teardown_build_dir ;;
+    build-image) build_image ;;
+    *)
+        echo "invalid action '${1}'" >&2
+        exit 1
+        ;;
+esac

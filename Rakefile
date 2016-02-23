@@ -175,6 +175,11 @@ task :parse_build_options do
   end
 end
 
+def exported_env
+  EXPORTED_VARIABLES.select { |k| ENV[k] }.
+    collect { |k| "#{k}='#{ENV[k]}'" }.join(' ')
+end
+
 task :ensure_clean_repository do
   git_status = `git status --porcelain`
   unless git_status.empty?
@@ -203,11 +208,6 @@ task :ensure_clean_repository do
   end
 end
 
-desc "Make sure the vagrant user's home directory has no undesired artifacts"
-task :ensure_clean_home_directory => ['vm:up'] do
-  run_vagrant('ssh', '-c', "sudo rm '/home/#{user}/'*.iso.*")
-end
-
 task :validate_http_proxy do
   if ENV['http_proxy']
     proxy_host = URI.parse(ENV['http_proxy']).host
@@ -228,9 +228,11 @@ task :validate_http_proxy do
   end
 end
 
-desc 'Build Tails'
-task :build => ['parse_build_options', 'ensure_clean_repository', 'ensure_clean_home_directory', 'validate_http_proxy', 'vm:up'] do
+desc 'Ensure that the VM is ready for action'
+task :ensure_ready_vm => ['parse_build_options', 'ensure_clean_repository', 'validate_http_proxy', 'vm:up']
 
+desc 'Prepare a suitable environment to build Tails in'
+task :prepare_build_dir => ['ensure_ready_vm'] do
   if ENV['TAILS_RAM_BUILD'] && not(enough_free_memory_for_ram_build?)
     $stderr.puts <<-END_OF_MESSAGE.gsub(/^      /, '')
 
@@ -243,6 +245,24 @@ task :build => ['parse_build_options', 'ensure_clean_repository', 'ensure_clean_
     abort 'Not enough memory for the virtual machine to run an in-memory build. Aborting.'
   end
 
+  # Must leave any build_dir prepared *this* run intact
+  $build_dir = capture_vagrant(
+    'ssh', '-c', "#{exported_env} build-tails prepare-build_dir"
+  ).first.chomp
+end
+
+desc 'Sync the Tails sources to the builder'
+task :build_website => ['ensure_ready_vm'] do
+  run_vagrant('ssh', '-c', "#{exported_env} build-tails sync-sources")
+end
+
+desc 'Build the Tails website'
+task :build_website => ['ensure_ready_vm', 'sync_sources'] do
+  run_vagrant('ssh', '-c', "#{exported_env} build-tails build-website")
+end
+
+desc 'Build a Tails image'
+task :build_image => ['ensure_ready_vm', 'sync_sources', 'prepare_build_dir'] do
   if ENV['TAILS_BUILD_CPUS'] && current_vm_cpus != ENV['TAILS_BUILD_CPUS'].to_i
     $stderr.puts <<-END_OF_MESSAGE.gsub(/^      /, '')
 
@@ -255,29 +275,40 @@ task :build => ['parse_build_options', 'ensure_clean_repository', 'ensure_clean_
     abort 'The virtual machine needs to be reloaded to change the number of CPUs. Aborting.'
   end
 
-  exported_env = EXPORTED_VARIABLES.select { |k| ENV[k] }.
-                 collect { |k| "#{k}='#{ENV[k]}'" }.join(' ')
-  run_vagrant('ssh', '-c', "#{exported_env} build-tails")
+  run_vagrant('ssh', '-c', "#{exported_env} build-tails build-image #{$build_dir}")
+end
 
-  artifacts = capture_vagrant('ssh', '-c', 'ls -1 tails-*.iso*').first.split("\n")
-  if not artifacts.empty?
-    ssh_info = capture_vagrant('ssh-config').first.split("\n") \
-               .map { |line| line.strip.split(/\s+/, 2) } .to_h
-    user = ssh_info['User']
-    hostname = ssh_info['HostName']
-    # The path in the ssh-config output is quoted, which is not what
-    # is expected outside of a shell, so let's get rid of the quotes.
-    key_file = ssh_info['IdentityFile'].gsub(/^"|"$/, '')
-    Net::SCP.start(hostname, user, :keys => [key_file]) do |scp|
-      artifacts.each do |artifact_name|
-        artifact_path = "/home/#{user}/#{artifact_name}"
-        run_vagrant('ssh', '-c', "sudo chown '#{user}' '#{artifact_path}'")
-        scp.download!(artifact_path, '.')
-        run_vagrant('ssh', '-c', "sudo rm -f '#{artifact_path}'")
-      end
+desc 'Fetch all build artifacts'
+task :fetch_artifacts => ['ensure_ready_vm', 'prepare_build_dir'] do
+  artifacts = capture_vagrant(
+    'ssh', '-c', "find '#{$build_dir}' -maxdepth 1 -name 'tails-*.iso*'"
+  ).first.chomp.split("\n")
+  if artifacts.empty?
+    raise 'No build artifacts could be found'
+  end
+  ssh_info = capture_vagrant('ssh-config').first.split("\n") \
+             .map { |line| line.strip.split(/\s+/, 2) } .to_h
+  user = ssh_info['User']
+  hostname = ssh_info['HostName']
+  # The path in the ssh-config output is quoted, which is not what
+  # is expected outside of a shell, so let's get rid of the quotes.
+  key_file = ssh_info['IdentityFile'].gsub(/^"|"$/, '')
+  Net::SCP.start(hostname, user, :keys => [key_file]) do |scp|
+    artifacts.each do |artifact_path|
+      run_vagrant('ssh', '-c', "sudo chown '#{user}' '#{artifact_path}'")
+      scp.download!(artifact_path, '.')
+      run_vagrant('ssh', '-c', "sudo rm -f '#{artifact_path}'")
     end
   end
 end
+
+desc 'Teardown the build environment'
+task :teardown_build_dir => ['ensure_ready_vm'] do
+  run_vagrant('ssh', '-c', "#{exported_env} build-tails teardown-build_dir")
+end
+
+desc 'Build Tails and fetch the resulting artifacts'
+task :build => ['build_website', 'build_image', 'fetch_artifacts', 'teardown_build_dir']
 
 namespace :vm do
   desc 'Start the build virtual machine'
