@@ -4,8 +4,8 @@ set -eu
 
 echo "Install the Tor Messenger"
 
-url="http://dist.torproject.org/tormessenger/0.1.0b2/tor-messenger-linux32-0.1.0b2_en-US.tar.xz"
-expected_sha256="fcad2b4a9fadde66155ccbe183c2a53694f393a70764b33ab3923ec1e5ba2596"
+url="http://dist.torproject.org/tormessenger/0.1.0b5/tor-messenger-linux32-0.1.0b5_en-US.tar.xz"
+expected_sha256="52f5e90e09a2efab46de68099dba8045f1d5c8f591b636a3e4725563bf9ab5c4"
 
 apt_proxy="$(apt-config --format '%v' dump Acquire::http::Proxy)"
 if [ -n "${apt_proxy}" ]; then
