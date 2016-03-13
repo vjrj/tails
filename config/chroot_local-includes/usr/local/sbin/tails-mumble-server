@@ -1,0 +1,112 @@
+#!/bin/sh
+
+set -e
+set -u
+
+# Save stdout in a new fd so we can restore it later, and until then
+# redirect stdout to stderr.
+exec 3<&1
+exec 1>&2
+
+# Import persistence_is_enabled().
+. /usr/local/lib/tails-shell-library/tails-greeter.sh
+
+# Ad-hoc option handling
+for arg in "${@}"; do
+    case "${arg}" in
+        --listen-on-lan) LISTEN_ON_LAN=yes ;;
+        --no-persistence) NO_PERSISTENCE=yes ;;
+        --quit) exec systemctl stop mumble-server ;;
+        --help) echo "Options: --listen-on-lan --no-persistence --quit"; exit 0 ;;
+        *) echo "error: invalid option: ${arg}" >&2; exit 1 ;;
+    esac
+done
+
+SERVER_CONFIG=/etc/mumble-server.ini
+SERVER_PORT=64738
+SERVER_DIR=/var/lib/mumble-server
+HS_DIR=/var/lib/tor/mumble-server
+install -o debian-tor -g debian-tor -m 700 -d "${HS_DIR}"
+
+# XXX: we should add a Mumble server persistence preset and use
+# persistence_is_enabled_for() here instead. Then we can drop the
+# --no-persistence option (the the upcoming GUI won't be able to use
+# any way) since enabling the persistence preset clearly communicates
+# the user's intention.
+if [ -z "${NO_PERSISTENCE:-}" ] && persistence_is_enabled; then
+    PERSISTENCE_DIR=/live/persistence/TailsData_unlocked
+    PERSISTENT_TOR_DIR="${PERSISTENCE_DIR}/tor"
+    [ -e "${PERSISTENT_TOR_DIR}" ] || \
+        install -o debian-tor -g debian-tor -m 700 -d "${PERSISTENT_TOR_DIR}"
+    PERSISTENT_HS_DIR="${PERSISTENT_TOR_DIR}/mumble-server"
+    [ -e "${PERSISTENT_HS_DIR}" ] || \
+        install -o debian-tor -g debian-tor -m 700 -d "${PERSISTENT_HS_DIR}"
+    grep --quiet "^/dev/mapper/TailsData_unlocked ${HS_DIR}" /proc/mounts || \
+        mount --bind "${PERSISTENT_HS_DIR}" "${HS_DIR}"
+    PERSISTENT_SERVER_DIR="${PERSISTENCE_DIR}/mumble-server"
+    [ -e "${PERSISTENT_SERVER_DIR}" ] || \
+        install -o mumble-server -g mumble-server -m 700 -d "${PERSISTENT_SERVER_DIR}"
+    grep --quiet "^/dev/mapper/TailsData_unlocked ${SERVER_DIR}" /proc/mounts || \
+        mount --bind "${PERSISTENT_SERVER_DIR}" "${SERVER_DIR}"
+fi
+
+# Generate persistent password for Mumble server
+[ -f "${SERVER_DIR}/password" ] || pwgen 32 1 > "${SERVER_DIR}/password"
+PASSWORD="$(cat "${SERVER_DIR}/password")"
+
+# Configure mumble-server
+sed -i "s%^serverpassword=$%serverpassword=${PASSWORD}%" "${SERVER_CONFIG}"
+if [ -n "${LISTEN_ON_LAN:-}" ]; then
+    sed -i "s%^host=%#host=%" "${SERVER_CONFIG}"
+else
+    sed -i "s%^#host=$%host=127.0.0.1%" "${SERVER_CONFIG}"
+fi
+
+# Extract fingerprint from SQLite database
+systemctl start mumble-server # To generate the database
+systemctl stop  mumble-server # To unlock database
+
+FINGERPRINT="$(sqlite3 "${SERVER_DIR}/mumble-server.sqlite" "select value from config where key = 'certificate';" | openssl x509 -fingerprint | head -n 1 | cut -d '=' -f 2)"
+
+# Configure Tor hidden service
+install -o debian-tor -g debian-tor -m 700 -d "${HS_DIR}"
+install -o debian-tor -g debian-tor -m 700 -d "${HS_DIR}/mumble-server"
+
+grep --quiet "^HiddenServiceDir ${HS_DIR}$" /etc/tor/torrc || \
+    echo "HiddenServiceDir ${HS_DIR}" >> /etc/tor/torrc
+grep --quiet "^HiddenServicePort ${SERVER_PORT}$" /etc/tor/torrc || \
+    echo "HiddenServicePort ${SERVER_PORT}" >> /etc/tor/torrc
+
+# Restart Tor and Mumble server
+systemctl start mumble-server
+systemctl reload tor@default
+
+[ -e "${HS_DIR}/hostname" ] || inotifywait -e create "${HS_DIR}"
+HOSTNAME="$(cat "${HS_DIR}/hostname")"
+
+# Drop previous mumble-server firewall exceptions
+systemctl reload ferm
+
+# Allow local connections
+iptables -I OUTPUT --out-interface lo --protocol tcp \
+         --dport "${SERVER_PORT}" --jump ACCEPT
+
+# Allow LAN connections if requested
+if [ -n "${LISTEN_ON_LAN:-}" ]; then
+    for range in 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16; do
+        for proto in tcp udp; do
+            iptables -A INPUT --source "${range}" --protocol "${proto}" \
+                     --dport "${SERVER_PORT}" --jump ACCEPT
+        done
+    done
+fi
+
+# Restore stdout -- we have now guaranteed that the only thing we'll
+# write to stdout is the information below.
+exec 1<&3 3<&-
+
+# Output connection information
+echo "Hostname:	${HOSTNAME}"
+echo "Fingerprint:	${FINGERPRINT}"
+echo "Password:	${PASSWORD}"
+echo "Mumble URI:	mumble://nickname:${PASSWORD}@${HOSTNAME}"

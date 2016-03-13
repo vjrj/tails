@@ -53,6 +53,8 @@ zenity
 gksu
 # Needed by tails-htp-notify-user and others
 libdesktop-notify-perl
+# Needed by tails-mumble-server
+sqlite3
 
 ### Software
 
