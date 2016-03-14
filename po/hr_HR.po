@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-07 18:07+0100\n"
+"POT-Creation-Date: 2016-03-14 02:20+0100\n"
 "PO-Revision-Date: 2016-03-05 10:21+0000\n"
 "Last-Translator: Igor <lyricaltumor@gmail.com>\n"
 "Language-Team: Croatian (Croatia) (http://www.transifex.com/otf/torproject/"
@@ -350,6 +350,30 @@ msgstr ""
 msgid "Failed to synchronize the clock!"
 msgstr "Neuspješno sinkroniziranje sata!"
 
+#: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:14
+msgid "Start Mumble server?"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:15
+msgid "This starts a voice-enabled chat server. Do you want to proceed?"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:30
+msgid "Mumble server is running"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:32
+msgid "Keep running"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:33
+msgid "Stop"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:36
+msgid "Mumble server error"
+msgstr ""
+
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:146
 msgid "This version of Tails has known security issues:"
 msgstr "Ova verzija Tails-a ima poznate sigurnosne probleme:"
@@ -616,6 +640,14 @@ msgstr "I2P preglednik"
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
 msgid "Learn more about Tails"
 msgstr "Saznajte više o Tails-u"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-mumble-server-gui.desktop.in.h:1
+msgid "Mumble Server"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-mumble-server-gui.desktop.in.h:2
+msgid "Start a voice-enabled chat server"
+msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-reboot.desktop.in.h:1
 msgid "Reboot"
