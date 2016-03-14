@@ -12,16 +12,6 @@ export TEXTDOMAIN
 exec 3<&1
 exec 1>&2
 
-# Ad-hoc option handling
-for arg in "${@}"; do
-    case "${arg}" in
-        --listen-on-lan) LISTEN_ON_LAN=yes ;;
-        --quit) exec systemctl stop mumble-server.service ;;
-        --help) echo "Options: --listen-on-lan, --quit"; exit 0 ;;
-        *) echo "error: invalid option: ${arg}" >&2; exit 1 ;;
-    esac
-done
-
 SERVER_CONFIG=/etc/mumble-server.ini
 SERVER_PORT=64738
 
@@ -34,6 +24,27 @@ SERVER_PORT=64738
 SHARED_DIR=/var/lib/tor/mumble-server
 SERVER_DIR="${SHARED_DIR}/server-data"
 HS_DIR="${SHARED_DIR}/hs"
+
+stop_server_and_hs() {
+    systemctl stop mumble-server.service
+    sed -i -e "\%^HiddenServiceDir ${HS_DIR}%d" \
+           -e "\%^HiddenServicePort ${SERVER_PORT}%d" \
+        /etc/tor/torrc
+    systemctl reload tor@default.service
+    systemctl reload ferm.service
+}
+
+# Ad-hoc option handling
+for arg in "${@}"; do
+    case "${arg}" in
+        --listen-on-lan) LISTEN_ON_LAN=yes ;;
+        --quit) stop_server_and_hs; exit 0 ;;
+        --help) echo "Options: --listen-on-lan, --quit"; exit 0 ;;
+        *) echo "error: invalid option: ${arg}" >&2; exit 1 ;;
+    esac
+done
+
+# Setup the expected directories with suitable persmissions.
 install -o debian-tor -g debian-tor -m 700 -d "${SHARED_DIR}"
 install -o debian-tor -g debian-tor -m 700 -d "${HS_DIR}"
 install -o mumble-server -g mumble-server -m 700 -d "${SERVER_DIR}"
