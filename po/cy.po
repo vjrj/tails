@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 02:20+0100\n"
+"POT-Creation-Date: 2016-03-14 16:24+0100\n"
 "PO-Revision-Date: 2014-04-30 09:10+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/torproject/"
@@ -340,6 +340,11 @@ msgstr ""
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Methu cysoni'r cloc!"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-mumble-server:77
+#, fuzzy
+msgid "Tor is not running"
+msgstr "Nid yw Tor yn barod"
 
 #: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:14
 msgid "Start Mumble server?"

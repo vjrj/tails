@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 02:20+0100\n"
+"POT-Creation-Date: 2016-03-14 16:24+0100\n"
 "PO-Revision-Date: 2016-02-27 16:56+0000\n"
 "Last-Translator: Agustín Wu <losangwuyts@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/otf/torproject/"
@@ -334,6 +334,11 @@ msgstr "Tor 需要準確的時鐘才能正常運作，特別是對隱藏的服�
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "無法與時鐘同步!"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-mumble-server:77
+#, fuzzy
+msgid "Tor is not running"
+msgstr "Tor 未就緒"
 
 #: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:14
 msgid "Start Mumble server?"

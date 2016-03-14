@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 02:20+0100\n"
+"POT-Creation-Date: 2016-03-14 16:24+0100\n"
 "PO-Revision-Date: 2015-09-25 11:52+0000\n"
 "Last-Translator: Bujar Tafili\n"
 "Language-Team: Albanian (http://www.transifex.com/otf/torproject/language/"
@@ -339,6 +339,11 @@ msgstr ""
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Dështim në sinkronizimin e orës së sistemit!"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-mumble-server:77
+#, fuzzy
+msgid "Tor is not running"
+msgstr "Tor s'është gati"
 
 #: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:14
 msgid "Start Mumble server?"

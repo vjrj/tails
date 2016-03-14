@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 02:20+0100\n"
+"POT-Creation-Date: 2016-03-14 16:24+0100\n"
 "PO-Revision-Date: 2015-02-24 15:42+0000\n"
 "Last-Translator: Sungjin Kang <potopro@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/torproject/"
@@ -332,6 +332,11 @@ msgstr ""
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "시간 맞추기 실패!"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-mumble-server:77
+#, fuzzy
+msgid "Tor is not running"
+msgstr "Tor 준비 안 됨"
 
 #: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:14
 msgid "Start Mumble server?"

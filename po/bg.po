@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 02:20+0100\n"
+"POT-Creation-Date: 2016-03-14 16:24+0100\n"
 "PO-Revision-Date: 2016-01-12 15:37+0000\n"
 "Last-Translator: Tsvetan Nikolov <slakware@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/otf/torproject/language/"
@@ -353,6 +353,11 @@ msgstr ""
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:87
 msgid "Failed to synchronize the clock!"
 msgstr "Неуспешно синхронизиране на часовника!"
+
+#: config/chroot_local-includes/usr/local/sbin/tails-mumble-server:77
+#, fuzzy
+msgid "Tor is not running"
+msgstr "Tor не е готов"
 
 #: config/chroot_local-includes/usr/local/bin/tails-mumble-server-gui:14
 msgid "Start Mumble server?"
