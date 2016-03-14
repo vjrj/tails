@@ -12,7 +12,7 @@ exec 1>&2
 for arg in "${@}"; do
     case "${arg}" in
         --listen-on-lan) LISTEN_ON_LAN=yes ;;
-        --quit) exec systemctl stop mumble-server ;;
+        --quit) exec systemctl stop mumble-server.service ;;
         --help) echo "Options: --listen-on-lan, --quit"; exit 0 ;;
         *) echo "error: invalid option: ${arg}" >&2; exit 1 ;;
     esac
@@ -52,8 +52,8 @@ fi
 
 # Extract fingerprint from SQLite database
 if [ ! -e "${SERVER_DIR}/mumble-server.sqlite" ]; then
-    systemctl start mumble-server # To generate the database
-    systemctl stop  mumble-server # To unlock database
+    systemctl start mumble-server.service # To generate the database
+    systemctl stop  mumble-server.service # To unlock database
 fi
 
 FINGERPRINT="$(sqlite3 "${SERVER_DIR}/mumble-server.sqlite" "select value from config where key = 'certificate';" | openssl x509 -fingerprint | head -n 1 | cut -d '=' -f 2)"
@@ -68,10 +68,10 @@ grep --quiet "^HiddenServicePort ${SERVER_PORT}$" /etc/tor/torrc || \
     echo "HiddenServicePort ${SERVER_PORT}" >> /etc/tor/torrc
 
 # Start mumble-server and enable the hidden service
-systemctl start mumble-server
-systemctl is-active tor@default || \
+systemctl start mumble-server.service
+systemctl is-active tor@default.service || \
     (echo "Tor is not running" >&2; exit 1)
-systemctl reload tor@default
+systemctl reload tor@default.service
 
 until [ -e "${HS_DIR}/hostname" ]; do
     inotifywait --timeout 5 --event create "${HS_DIR}" || :
@@ -79,7 +79,7 @@ done
 HOSTNAME="$(cat "${HS_DIR}/hostname")"
 
 # Drop previous mumble-server firewall exceptions
-systemctl reload ferm
+systemctl reload ferm.service
 
 # Allow local connections
 iptables -I OUTPUT --out-interface lo --protocol tcp \
