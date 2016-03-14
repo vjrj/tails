@@ -67,7 +67,7 @@ grep --quiet "^HiddenServiceDir ${HS_DIR}$" /etc/tor/torrc || \
 grep --quiet "^HiddenServicePort ${SERVER_PORT}$" /etc/tor/torrc || \
     echo "HiddenServicePort ${SERVER_PORT}" >> /etc/tor/torrc
 
-# Restart Tor and Mumble server
+# Start mumble-server and enable the hidden service
 systemctl start mumble-server
 systemctl reload tor@default
 
