@@ -1,0 +1,19 @@
+--- a/usr/share/perl5/Tails/Persistence/Configuration/Presets.pm
++++ b/usr/share/perl5/Tails/Persistence/Configuration/Presets.pm
+@@ -165,6 +165,16 @@ method _build__presets {
+             icon_name   => 'synaptic',
+         },
+         {
++            name        => $self->encoding->decode(gettext(q{Mumble server})),
++            description => $self->encoding->decode(gettext(
++                q{Mumble server configuration and its Tor Hidden Service address}
++            )),
++            destination => '/var/lib/tor/mumble-server',
++            options     => [ 'source=mumble-server' ],
++            enabled     => 0,
++            icon_name   => 'mumble',
++        },
++        {
+             name        => $self->encoding->decode(gettext(q{Dotfiles})),
+             description => $self->encoding->decode(gettext(
+                 q{Symlink into $HOME every file or directory found in the `dotfiles' directory}

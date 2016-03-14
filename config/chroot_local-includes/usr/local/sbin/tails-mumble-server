@@ -8,47 +8,35 @@ set -u
 exec 3<&1
 exec 1>&2
 
-# Import persistence_is_enabled().
-. /usr/local/lib/tails-shell-library/tails-greeter.sh
-
 # Ad-hoc option handling
 for arg in "${@}"; do
     case "${arg}" in
         --listen-on-lan) LISTEN_ON_LAN=yes ;;
-        --no-persistence) NO_PERSISTENCE=yes ;;
         --quit) exec systemctl stop mumble-server ;;
-        --help) echo "Options: --listen-on-lan --no-persistence --quit"; exit 0 ;;
+        --help) echo "Options: --listen-on-lan, --quit"; exit 0 ;;
         *) echo "error: invalid option: ${arg}" >&2; exit 1 ;;
     esac
 done
 
 SERVER_CONFIG=/etc/mumble-server.ini
 SERVER_PORT=64738
-SERVER_DIR=/var/lib/mumble-server
-HS_DIR=/var/lib/tor/mumble-server
-install -o debian-tor -g debian-tor -m 700 -d "${HS_DIR}"
 
-# XXX: we should add a Mumble server persistence preset and use
-# persistence_is_enabled_for() here instead. Then we can drop the
-# --no-persistence option (the the upcoming GUI won't be able to use
-# any way) since enabling the persistence preset clearly communicates
-# the user's intention.
-if [ -z "${NO_PERSISTENCE:-}" ] && persistence_is_enabled; then
-    PERSISTENCE_DIR=/live/persistence/TailsData_unlocked
-    PERSISTENT_TOR_DIR="${PERSISTENCE_DIR}/tor"
-    [ -e "${PERSISTENT_TOR_DIR}" ] || \
-        install -o debian-tor -g debian-tor -m 700 -d "${PERSISTENT_TOR_DIR}"
-    PERSISTENT_HS_DIR="${PERSISTENT_TOR_DIR}/mumble-server"
-    [ -e "${PERSISTENT_HS_DIR}" ] || \
-        install -o debian-tor -g debian-tor -m 700 -d "${PERSISTENT_HS_DIR}"
-    grep --quiet "^/dev/mapper/TailsData_unlocked ${HS_DIR}" /proc/mounts || \
-        mount --bind "${PERSISTENT_HS_DIR}" "${HS_DIR}"
-    PERSISTENT_SERVER_DIR="${PERSISTENCE_DIR}/mumble-server"
-    [ -e "${PERSISTENT_SERVER_DIR}" ] || \
-        install -o mumble-server -g mumble-server -m 700 -d "${PERSISTENT_SERVER_DIR}"
-    grep --quiet "^/dev/mapper/TailsData_unlocked ${SERVER_DIR}" /proc/mounts || \
-        mount --bind "${PERSISTENT_SERVER_DIR}" "${SERVER_DIR}"
-fi
+# We're forced to use a little bind-mount trick to keep both the
+# mumble server data and Tor hidden service data in the same
+# persistent source folder. Remember, we're constrained by Tor's
+# AppArmor profile (so it cannot access things outside of its data
+# dir, essentially), and we want strict permissions so neither user
+# can access the other user's data.
+SHARED_DIR=/var/lib/tor/mumble-server
+SERVER_DIR="${SHARED_DIR}/server-data"
+HS_DIR="${SHARED_DIR}/hs"
+install -o debian-tor -g debian-tor -m 700 -d "${SHARED_DIR}"
+install -o debian-tor -g debian-tor -m 700 -d "${HS_DIR}"
+install -o mumble-server -g mumble-server -m 700 -d "${SERVER_DIR}"
+# This works around the permissions of the parent directory --
+# otherwise mumble-server cannot access this directory.
+grep -q "^\S\+\s\+/var/lib/mumble-server\s" /proc/mounts || \
+    mount --bind "${SERVER_DIR}" /var/lib/mumble-server
 
 # Generate persistent password for Mumble server
 [ -f "${SERVER_DIR}/password" ] || pwgen 32 1 > "${SERVER_DIR}/password"
