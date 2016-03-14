@@ -3,6 +3,10 @@
 set -e
 set -u
 
+. gettext.sh
+TEXTDOMAIN="tails"
+export TEXTDOMAIN
+
 # Save stdout in a new fd so we can restore it later, and until then
 # redirect stdout to stderr.
 exec 3<&1
@@ -70,7 +74,7 @@ grep --quiet "^HiddenServicePort ${SERVER_PORT}$" /etc/tor/torrc || \
 # Start mumble-server and enable the hidden service
 systemctl start mumble-server.service
 systemctl is-active tor@default.service || \
-    (echo "Tor is not running" >&2; exit 1)
+    (echo "`gettext \"Tor is not running\"`" >&2; exit 1)
 systemctl reload tor@default.service
 
 until [ -e "${HS_DIR}/hostname" ]; do
@@ -100,7 +104,7 @@ fi
 exec 1<&3 3<&-
 
 # Output connection information
-echo "Hostname:	${HOSTNAME}"
-echo "Fingerprint:	${FINGERPRINT}"
-echo "Password:	${PASSWORD}"
-echo "Mumble URI:	mumble://nickname:${PASSWORD}@${HOSTNAME}"
+echo "`gettext \"Hostname:	${HOSTNAME}\"`"
+echo "`gettext \"Fingerprint:	${FINGERPRINT}\"`"
+echo "`gettext \"Password:	${PASSWORD}\"`"
+echo "`gettext \"Mumble URI:	mumble://nickname:${PASSWORD}@${HOSTNAME}\"`"

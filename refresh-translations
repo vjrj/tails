@@ -15,6 +15,7 @@ SHELL_PROGS="/etc/NetworkManager/dispatcher.d/60-tor-ready.sh \
    /usr/local/bin/tails-upgrade-frontend-wrapper \
    /usr/local/lib/tails-spoof-mac \
    /usr/local/sbin/tails-i2p \
+   /usr/local/sbin/tails-mumble-server \
    /usr/local/sbin/i2p-browser \
    /usr/local/bin/tor-browser \
    /usr/local/sbin/unsafe-browser"
