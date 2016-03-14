@@ -79,7 +79,7 @@ systemctl disable ttdnsd.service
 systemctl disable gdomap.service
 systemctl disable hdparm.service
 systemctl disable i2p.service
-systemctl disable mumble.service
+systemctl disable mumble-server.service
 
 # Don't hide tails-kexec's shutdown messages with an empty splash screen
 for suffix in halt kexec poweroff reboot shutdown ; do

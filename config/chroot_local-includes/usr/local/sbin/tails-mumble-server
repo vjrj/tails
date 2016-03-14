@@ -51,8 +51,10 @@ else
 fi
 
 # Extract fingerprint from SQLite database
-systemctl start mumble-server # To generate the database
-systemctl stop  mumble-server # To unlock database
+if [ ! -e "${SERVER_DIR}/mumble-server.sqlite" ]; then
+    systemctl start mumble-server # To generate the database
+    systemctl stop  mumble-server # To unlock database
+fi
 
 FINGERPRINT="$(sqlite3 "${SERVER_DIR}/mumble-server.sqlite" "select value from config where key = 'certificate';" | openssl x509 -fingerprint | head -n 1 | cut -d '=' -f 2)"
 
