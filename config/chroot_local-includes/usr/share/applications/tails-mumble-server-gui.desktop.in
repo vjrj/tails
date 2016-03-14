@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+_Name=Mumble Server
+_Comment=Start a voice-enabled chat server
+Exec=/usr/local/bin/tails-mumble-server-gui
+Icon=mumble
+Terminal=false
+Categories=Network;
+StartupNotify=true

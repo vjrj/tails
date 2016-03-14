@@ -1,0 +1,39 @@
+#!/bin/sh
+
+set -e
+set -u
+
+. gettext.sh
+TEXTDOMAIN="tails"
+export TEXTDOMAIN
+
+# Import no_abort()
+. /usr/local/lib/tails-shell-library/common.sh
+
+if ! systemctl is-active mumble-server && \
+   ! zenity --question --title "`gettext \"Start Mumble server?\"`" \
+            --text "`gettext \"This starts a voice-enabled chat server. Do you want to proceed?\"`"; then
+    exit 0
+fi
+
+CONN_INFO_FILE="$(mktemp)"
+ERROR_LOG="$(mktemp)"
+trap "rm -f ${CONN_INFO_FILE} ${ERROR_LOG}" EXIT
+
+no_abort sudo /usr/local/sbin/tails-mumble-server \
+         > "${CONN_INFO_FILE}" 2> "${ERROR_LOG}"
+
+if [ "${_NO_ABORT_RET}" -eq 0 ]; then
+    CONN_INFO="`gettext \"Connection information:
+
+$(cat ${CONN_INFO_FILE})\"`"
+    zenity --question --title "`gettext \"Mumble server is running\"`" \
+           --text "${CONN_INFO}" \
+           --ok-label "`gettext \"Keep running\"`" \
+           --cancel-label "`gettext \"Stop\"`" || \
+        exec sudo /usr/local/sbin/tails-mumble-server --quit
+else
+    zenity --error --title "`gettext \"Mumble server error\"`" \
+           --text "$(cat "${ERROR_LOG}")"
+fi
+exit "${_NO_ABORT_RET}"

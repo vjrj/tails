@@ -47,6 +47,7 @@
 /config/chroot_local-includes/usr/share/applications/i2p-browser.desktop
 /config/chroot_local-includes/usr/share/applications/tor-browser.desktop
 /config/chroot_local-includes/usr/share/applications/tails-about.desktop
+/config/chroot_local-includes/usr/share/applications/tails-mumble-server-gui.desktop
 /config/chroot_local-includes/usr/share/desktop-directories/Tails.directory
 /tmp/
 
