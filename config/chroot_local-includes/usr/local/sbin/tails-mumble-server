@@ -69,7 +69,9 @@ grep --quiet "^HiddenServicePort ${SERVER_PORT}$" /etc/tor/torrc || \
 systemctl start mumble-server
 systemctl reload tor@default
 
-[ -e "${HS_DIR}/hostname" ] || inotifywait -e create "${HS_DIR}"
+until [ -e "${HS_DIR}/hostname" ]; do
+    inotifywait --timeout 5 --event create "${HS_DIR}" || :
+done
 HOSTNAME="$(cat "${HS_DIR}/hostname")"
 
 # Drop previous mumble-server firewall exceptions
