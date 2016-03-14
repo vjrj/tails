@@ -20,7 +20,7 @@ CONN_INFO_FILE="$(mktemp)"
 ERROR_LOG="$(mktemp)"
 trap "rm -f ${CONN_INFO_FILE} ${ERROR_LOG}" EXIT
 
-no_abort sudo /usr/local/sbin/tails-mumble-server \
+no_abort gksudo /usr/local/sbin/tails-mumble-server \
          > "${CONN_INFO_FILE}" 2> "${ERROR_LOG}"
 
 if [ "${_NO_ABORT_RET}" -eq 0 ]; then
