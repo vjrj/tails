@@ -763,6 +763,7 @@ p.center {
 	margin: 2em 0;
 	padding-top: 15px;
 	padding-bottom: 63px;
+	display: none;
 }
 
 #pagebody div.toggleable span.hide a.toggle {
