@@ -32,48 +32,97 @@ little value.
      - bump `Valid-Until`
      - freeze
      - unfreeze
+   * move relevant content from this blueprint to the "final" design
+     doc + contributors doc
 
 2. time-based snapshots [i]
    a. **done** initial reprepro setup that keeps up-to-date local mirrors of
       the APT repositories we need
    b. **done** snapshot these mirrors every time they're updated
-   c. publish the snapshots' serial: a file is updated, now needs to
-      be published over HTTP
-   c. decide how many reprepro instances we want/have to split all
+   c. **done** decide how many reprepro instances we want/have to split all
       this among
+   d. **done** mirror relevant suites of deb.tails.b.o as well
+   d. **done** publish the snapshots over HTTP
+   d. **done** clean up Wheezy packages (including those referenced by
+      snapshots)
+   e. **done** publish the snapshots' serial over HTTP
+      (e.g. <http://time-based.snapshots.deb.tails.boum.org/debian-security/project/trace/debian-security>)
+   e. deny robots access to that data
+   e. manage symlinks or rewrite rules for URL → reprepro filesystem
+      layout (cf. "APT vs. reprepro: dist names" below)
+   e. try using such snapshots for building an ISO
+      - branch: `feature/build-from-snapshots`
+      - how to avoid re-downloading everything one has in their local
+        apt-cacher-ng, and filling its cache with files duplicated
+        many times? It seems that we can't merge caches between the
+        default `debrep` and our own snapshots: XXX.
+        But at least we should de-duplicate among our own snapshots,
+        e.g. using the "merging" strategy (documented on
+        <file:///usr/share/doc/apt-cacher-ng/html/config-serv.html#repmap>),
+        that is `Remap-tails` with no `TargetURLs` list.
    d. implement list of sticky snapshots that must not be GC'ed,
       including the tool to add to that list
    e. implement GC of snapshots
    f. implement GC of packages
+   f. clean up old snapshots that the GC system can't clean up
+      automatically (e.g. those before 20160311, that have no
+      `Valid-Until`)
    g. have build system output the snapshots being used,
       and have Jenkins publish this info if available
-   h. manage symlinks or rewrite rules for URL → reprepro filesystem layout
 
-3. generate set of APT sources
-   * write automated tests for the generation of APT sources [i]
+3. generate set of APT sources [i]
+   * write automated tests for the generation of APT sources
+     - redirection when using the latest snapshot of a given origin
+     - We still need to support adding APT sources in
+       `config/chroot_sources/`, pointing to repositories that exist
+       outside of the freezable APT system, e.g. to point to a custom
+       or personal APT repository during early development phases, for
+       contributors who do not have the ability to upload packages to
+       any of the repositories we snapshot.
    * implement the generation of APT sources
    * plug the generation of APT sources into the build system
-   * implement switching to live APT sources at runtime
+   * implement
+     [[switching to live APT sources at runtime|freezable_APT_repository#runtime-sources]]
 
 4. tagged snapshots
-   a. PoC of capturing the list of binary packages used during the build [k]
-   b. initial reprepro setup for tagged snapshots
-   c. how to create a partial snapshot from a manifest and
-      the origin time-based snapshots? [k]
-   d. PoC of capturing the list of source packages used during the build [k]
-   e. expand list of source packages with those that the binary
-      packages were built from [k]
-   f. have the manifest → partial snapshot process include source
-      packages [k]
-   g. next Tails release: generate manifest, import packages into
-      tagged snapshots [i]
-   h. have a debootstrap 1.0.73+ in all our build environments (Vagrant
-      basebox, Jenkins slaves, manual build doc) so that we get the
-      `deburis` file, that's needed to build our packages listing.
-   i. Update the "Listing used packages" section
-   j. Have Jenkins publish the list of needed packages for a build
+   a. **done** PoC of capturing the list of binary packages used during the build
+   b. **done** PoC of capturing the list of source packages used during the build
+   c. **done** initial reprepro setup for tagged snapshots
+   d. **done** debootstrap in jessie-backports
+   e. **WIP** how to create a partial snapshot from a manifest and
+      the origin time-based snapshots?
+      * `generate-build-manifest` (main Git repo), aka. [[!tails_ticket 10748]]
+        - cherry-pick the relevant bits and get them into Tails 2.3 [i]
+        - convert custom `data/debootstrap/tails-wheezy` into a patch,
+          or set up the process to update/replace it in the future,
+          or something (we're using Jessie now) [i]
+      * `tails-prepare-tagged-apt-snapshot-import`, aka.
+        [[!tails_ticket 10749]] (`puppet-tails` repo):
+          - review & test support for multiple architectures [i]:
+            * beware of differing versions due to binNMUs
+            * test with a complete set of data (including all
+              architectures we want, source packages, and a build
+              manifest that includes amd64 (e.g.
+              [[!tails_gitweb_branch feature/8415-overlayfs]]) and
+              source packages
+   g. **WIP** have the manifest → partial snapshot process include source
+      packages
+      => review this [i], in particular:
+      - check the case when the binary package's version is different
+        from the corresponding source package's one
+        (`libdevmapper1.02.1` vs. `lvm2`)
+      - torproject provides no source packages; how does
+        `tails-prepare-tagged-apt-snapshot-import` deal with it?
+   h. publish tagged snapshots over HTTP
+   h. for some Tails release: generate manifest, import packages into
+      tagged snapshots, try building *offline* with these tagged
+      snapshots [i]
+   k. Update the
+      [[Listing used packages|freezable APT repository#build-manifest]]
+      section
+   l. Have Jenkins publish the list of build manifest
       if available (supersede existing `*.{bin,src}pkg`).
-   k. if needed, implement GC
+   m. if needed, implement GC
 
 5. misc
    * implement whatever the "freeze exceptions" section requires
@@ -132,13 +181,20 @@ Building an ISO from the branch used to prepare the next major release
    period" case.
 
 Building an ISO from the branch used to prepare the next point-release
-(`stable`), or a topic branch based on it (`config/base_branch`), we
+(`stable`), or a topic branch based on it (`config/base_branch`
+contains `stable`), we
 use snapshots labeled with the Git tag of the latest Tails release,
 except:
 
  * we generally use our latest snapshot of security.debian.org;
  * if a set of APT repository snapshots is encoded directly in that
    branch: use them, even for security.debian.org.
+
+XXX: add special handling of deb.tails.b.o, that we need since it's
+the repo where we can sneak freeze exceptions in. In theory it's not
+related to our great APT repository snapshots plans, since it has its
+own snapshots mechanism already, but ideally we would integrate it
+into the new system entirely?
 
 ## Different problems ⇒ different solutions
 
@@ -169,10 +225,10 @@ backup strategies:
  * **time-based, full snapshots** of the mirrored APT repositories over
    the last N days;
    - goal: freezable repo feature for the dev process and QA
-   - this one can be started from scratch from time to time if
+   - this one can be restarted from scratch from time to time if
      reprepro becomes too slow for some reason (such as imperfect DB
      garbage collection);
-   - if we lose this content, we lose only N days of data, and can
+   - if we lose this content, we lose only N days of data, and we can
      immediately rebuild a working data set from scratch ⇒ no need to
      sync' this content to the failover server; no need to back it up;
 
@@ -200,6 +256,8 @@ snapshots to tagged ones is left to be defined (filtered `reprepro
 update`? `cp` + `reprepro includeblah`?)
 
 # Special cases and implementation
+
+<a id="runtime-sources"></a>
 
 ## APT sources used inside Tails
 
@@ -238,6 +296,8 @@ With this design:
    - `stable` will start using the new Debian point-release once
      a `testing` branch that uses that point-release is merged into
      `stable`.
+
+<a id="freeze-exceptions"></a>
 
 ## Freeze exceptions
 
@@ -335,7 +395,10 @@ superseded as soon as it can be. However:
    can do it by the book with the custom backport option too, by going
    through a topic branch and `config/APT_overlays.d/`, but it still
    conveys less historical information through Git than the APT
-   pinning option.
+   pinning option;
+ * anonym NACK'ed this ("Please do not underestimate the added
+   overhead of having to rebuild packages for trivialities like
+   this"), and intrigeri agreed.
 
 ## Number of distributions
 
@@ -343,10 +406,6 @@ superseded as soon as it can be. However:
 dedicated to taking snapshots of the regular Debian archive, assuming
 other mirrored archives such as security.d.o, deb.tpo, etc. each go to
 their own reprepro instance.
-
-XXX: do estimates and initial experiments for other archives as well:
-security.d.o is not that small, and deb.tpo may trigger special cases
-we've not thought of.
 
 XXX: the more we split between multiple instances of reprepro, the
 smaller and more manageable its database becomes. But it implies some
@@ -375,6 +434,12 @@ makes little sense to give a snapshot a validity time that goes beyond
 when we'll delete it via garbage collection.
 
 ⇒ 56 * N = 56 * 10 = 560
+
+Number of distributions for other archives:
+
+- debian-security: 3 (oldstable, stable, testing)
+- tails: 3 (stable, testing, devel)
+- torproject: 5 (oldstable, stable, testing, unstable, obfs4proxy)
 
 #### Garbage collection
 
@@ -411,8 +476,8 @@ time soon. Time will tell.
 
 XXX:
 
- * seed from existing mirror not managed by reprepro: use `_detect`
-   as suggested on <https://github.com/esc/reprepro/blob/master/docs/recovery>
+ * use `Log:` in `conf/distributions`? deployed (20151030), let's look
+   at it and reconsider in a few weeks
  * use `Tracking:` in `conf/distributions`?
  * use a leading dash for `Update: - ...` in `conf/distributions`?
    <https://mirrorer.alioth.debian.org/reprepro.1.html#Some%20note%20on%20updates>
@@ -471,7 +536,7 @@ distribution, which is what we should have in practice:
 	    done
 	done
 
-⇒ `dist/*/snapshots` takes 16 GB, and the DB has grown from 900 MB to
+⇒ `dists/*/snapshots` takes 16 GB, and the DB has grown from 900 MB to
 1.5 GB; as expected, `packages.db` didn't grow at all: only
 `references.db` did.
 
@@ -489,47 +554,96 @@ XXX: find out how we can solve these two problems.
 None of these problems seem to warrant going back to the other
 option... and having to deal with 80GB+ BDB databases.
 
-## Listing used packages
+We need to document how to clean up a repository after we stop
+tracking a distribution. E.g. to remove all Wheezy snapshots:
 
-Only needed for partial archive snapshots, but useful in all cases.
+	reprepro dumpreferences \
+       | grep -E '^s=wheezy' \
+       | awk '{print $1}' \
+       | sort -u \
+       | xargs -n 1 reprepro _removereferences \
+    && reprepro deleteunreferenced
+
+<a id="build-manifest"></a>
+
+## Listing used packages
 
 Saved as ISO build artifact, both when building in Jenkins and outside
 from it.
 
-Output:   
+Output:
 
-- for each .deb:
-  * Version: Need to look up version _inside_ .deb's because file name doesn't
-    contain epoch and then doesn't allow us to infer version.
-  * APT sources from where it is available, so that we can reinject it
-    into the relevant tagged snapshot(s!); better gather this info
-    incrementally rather than at the end of the build => we avoid
-    requiring APT sources to be stable during the duration of the
-    build
-  * Checksum(s) ???
+- for each .deb: the installed version
 - The union of all APT sources used during the build.
-- XXX: save more build info, e.g. Git commit etc.?
 
-XXX: if a (package, version) is seen at build time in 2 or more APT
-sources, we'll want to inject it into each of the tagged snapshots
-corresponding to these sources.
+### Corner case
 
-"at ISO build time, generate a list of used packages and version,
-including packages used at build time but not shipped in the ISO"
--> from logs APT and/or dpkg and/or `/var/cache/apt`
+If a (package, version) is seen at build time in 2 or more APT
+sources, `tails-prepare-tagged-apt-snapshot-import` will inject it
+into each of the tagged snapshots corresponding to these sources.
+The goal is to avoid this scenario:
 
-* debootstrap ⇒ `--keep-debootstrap-dir`
-* `apt-get source` ⇒ corner case, handle by hand
-* if all APT sources in use behave ((source package name, version)
-  is a unique identifier wrt. file *content* among all such APT
-  sources), then we don't need to save _where_ each package was
-  pulled from
-* Note: one can have a binary package with a different version from
-  the source package it was built from, see e.g. `src:lvm2` and
-  `libdevmapper1.02.1-udeb`.
+ - version X of package P is available both in suite S1 on origin O1,
+   and in suite S2 on origin O2
+ - version Y of package P is available in suite S3 of origin O3
+ - our pinning makes us prefer version X of package P *because it's
+   available in O1/S1*; otherwise, if it wasn't in there, then our
+   pinning would make APT prefer version Y to version X
+ - at ISO build time, APT fetches package P version X from O2/S2
+ - given this build manifest, we import package P version X into our
+   tagged snapshot of O2/S2, but not into our tagged snapshot of O1/S1
+ - if we rebuild from the same source tree using that set of tagged
+   snapshots, then version Y of package P will be installed
 
-Not strictly needed, but useful even if we do full archive
-snapshots:
+This scenario can happen in practice:
+
+	# cat /etc/apt/sources.list
+	deb http://security.debian.org wheezy/updates main
+	deb http://ftp.us.debian.org/debian/ wheezy main
+	deb http://ftp.us.debian.org/debian/ jessie main
+
+	# cat /etc/apt/preferences
+	Package: *
+	Pin: origin security.debian.org
+	Pin-Priority: -10
+
+	Package: *
+	Pin: release o=Debian,n=wheezy
+	Pin-Priority: 990
+
+	Package: *
+	Pin: release o=Debian,n=jessie
+	Pin-Priority: 700
+
+	# apt-cache madison a2ps
+	a2ps | 1:4.14-1.3 | http://ftp.us.debian.org/debian/ jessie/main amd64 Packages
+	a2ps | 1:4.14-1.1+deb7u1 | http://security.debian.org/ wheezy/updates/main amd64 Packages
+	a2ps | 1:4.14-1.1+deb7u1 | http://ftp.us.debian.org/debian/ wheezy/main amd64 Packages
+
+	# apt-cache policy a2ps
+	a2ps:
+	  Installed: (none)
+	  Candidate: 1:4.14-1.1+deb7u1
+	  Version table:
+	     1:4.14-1.3 0
+	        700 http://ftp.us.debian.org/debian/ jessie/main amd64 Packages
+	     1:4.14-1.1+deb7u1 0
+	        -10 http://security.debian.org/ wheezy/updates/main amd64 Packages
+	        990 http://ftp.us.debian.org/debian/ wheezy/main amd64 Packages
+
+And then, in the current state of things APT will download `a2ps` from
+security.d.o:
+
+	# apt-get download a2ps --print-uris
+	'http://security.debian.org/pool/updates/main/a/a2ps/a2ps_4.14-1.1+deb7u1_amd64.deb' a2ps_4.14-1.1+deb7u1_amd64.deb 956298 sha256:e47d7fe9adb7aa62421108debf425830f4e2385e98151c5cb359d3eb8688eea8
+
+... but if `a2ps` was not available in the regular Wheezy archive,
+e.g. because we were using a tagged snapshot that imported `a2ps` into
+the security archive, then APT would prefer `a2ps` from Jessie, which
+demonstrates the bug... hence the "inject it into each of the tagged
+snapshots corresponding to these sources" requirement we had.
+
+### Bonus material
 
 - Allows to inspect the diff between the subset of two different
   snapshots that was used at build time; the benefit is very
@@ -544,21 +658,6 @@ snapshots:
   time, but done in a correct way.
 - Allows keeping only _partial_ snapshots (of our full archive
   ones) for those we want to keep forever, i.e. release ones.
-
-### Downloading specific packages
-
-Needed for creating the partial archive snapshot.
-
-Input = the output of "Listing used packages"
-
-for each (package, version, checksum):
-  if found on deb.tails.b.o
-  then
-    skip
-  else
-    add APT sources = union(those used during build)
-    if not apt-get download $package=$version:
-      fetch with debsnap + verify checksum
 
 ## Valid-Until and signing
 
@@ -608,38 +707,41 @@ HTTP rewrite rules. Here's how.
 
 Let's assume:
 
-    lb config --distribution wheezy
-    lb config --mirror-chroot          http://XYZ.tails.boum.org/debian/20151019/
-    lb config --mirror-chroot-security http://XYZ.tails.boum.org/debian-security/20151021/
+    lb config --distribution jessie
+    lb config --mirror-chroot \
+       http://time-based.snapshots.deb.tails.boum.org/debian/2016031101/
+    lb config --mirror-chroot-security \
+       http://time-based.snapshots.deb.tails.boum.org/debian-security/2016031102/
     etc.
 
 Which generates this APT `sources.list`:
 
-    deb http://XYZ.tails.boum.org/debian/20151019/ wheezy main
-    deb http://XYZ.tails.boum.org/debian-security/20151021/ wheezy/updates main
+    deb http://time-based.snapshot.deb.tails.boum.org/debian/2016031101/ jessie main
+    deb http://time-based.snapshot.deb.tails.boum.org/debian-security/2016031102/ jessie/updates main
 
 As a result APT sends HTTP requests with URL such as:
 
- * <http://XYZ.tails.boum.org/debian/20151019/dists/wheezy/Release>
- * <http://XYZ.tails.boum.org/debian-security/20151021/dists/wheezy/updates/Release>
-
-XXX: update the following if we decide to use `reprepro gensnapshot`,
-which implies slightly different paths.
+ * <http://time-based.snapshot.deb.tails.boum.org/debian/2016031101/dists/jessie/Release>
+ * <http://time-based.snapshot.deb.tails.boum.org/debian/2016031101/pool/XXX>
+ * <http://time-based.snapshot.deb.tails.boum.org/debian-security/2016031102/dists/jessie/updates/Release>
+ * <http://time-based.snapshot.deb.tails.boum.org/debian-security/2016031102/pool/XXX>
 
 The corresponding files in reprepro's filesystem (if we have one
 reprepro instance per mirrored archive) are:
 
  * in Debian archive's reprepro:
-   - `/srv/foo/debian/dists/wheezy/20151019/Release`
-   - `/srv/foo/debian/conf/distributions` contains `Suite: wheezy/20151019`
+   - `/srv/apt-snapshots/time-based/repositories/debian/dists/jessie/snapshots/2016031101/Release`,
+     that contains `Suite: jessie/snapshots/2016031101` and `Codename: jessie`
+   - `/srv/apt-snapshots/time-based/repositories/debian/pool/XXX`
 
  * in Debian security archive's reprepro:
-   - `/srv/foo/debian-security/dists/wheezy/updates/20151021/Release`
-   - `/srv/foo/debian-security/conf/distributions` contains
-     `Suite: wheezy/updates/20151019`
+   - `/srv/apt-snapshots/time-based/repositories/debian-security/dists/jessie/updates/snapshots/2016031102/Release`,
+     that contains `Suite: jessie/updates/snapshots/2016031102` and
+     `Codename: jessie/updates`
+   - `/srv/apt-snapshots/time-based/repositories/debian-security/pool/XXX`
 
 To have these HTTP requests translate to access these files, one needs
-either symlinks (tested successfully) or HTTP rewrite rules.
+either symlinks or HTTP rewrite rules.
 
 Note: this works because APT only warns when the codename in the
 `Release` file doesn't match the one requested in `sources.list`.

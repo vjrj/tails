@@ -1,6 +1,6 @@
 ### Self-bla
-liveusb-creator
 tails-greeter
+tails-installer
 tails-iuk
 tails-persistence-setup
 whisperback
@@ -15,7 +15,6 @@ bind9-host
 # needed by tails-security-check
 libcarp-assert-perl
 libcarp-assert-more-perl
-libdesktop-notify-perl
 libio-socket-ssl-perl
 liblocale-gettext-perl
 liblwp-protocol-socks-perl
@@ -46,18 +45,19 @@ xclip
 libnotify-bin
 # needed by tails-documentation
 yelp
-# for tails-restricted-network-detector-wrapper
-jq
 # needed by live-persist
 acl
 # needed by the Unsafe Browser
 zenity
 # ships gksudo, needed by various wrappers of ours
 gksu
+# Needed by tails-htp-notify-user and others
+libdesktop-notify-perl
 
 ### Software
 
 aircrack-ng
+alsa-utils
 apparmor
 apparmor-profiles
 apparmor-profiles-extra
@@ -70,12 +70,8 @@ cryptsetup
 rsync
 bash-completion
 bookletimposer
-claws-mail
-claws-mail-archiver-plugin
-claws-mail-i18n
-claws-mail-pgpinline
-claws-mail-pgpmime
 connect-proxy
+cracklib-runtime
 desktop-base
 dmz-cursor-theme
 dosfstools
@@ -129,6 +125,8 @@ gstreamer0.10-plugins-good
 gstreamer0.10-plugins-ugly
 gstreamer0.10-pulseaudio
 gstreamer1.0-libav
+# Needed for audio in DVD playback
+gstreamer1.0-plugins-ugly
 gvfs-backends
 hardlink
 haveged
@@ -151,7 +149,6 @@ less
 laptop-mode-tools
 libgfshare-bin
 libgnomevfs2-extra
-libqt4-qt3support
 libsane-hpaio
 liferea
 live-config
@@ -162,13 +159,15 @@ macchanger
 mat
 monkeysign
 monkeysphere
-# our vidialia-wrapper needs lckdo
+# our onioncircuits-wrapper needs lckdo
 moreutils
 msva-perl
 nautilus
 nautilus-wipe
 nautilus-gtkhash
 network-manager
+network-manager-gnome
+nmh
 ntfs-3g
 obfs4proxy
 libreoffice-calc
@@ -187,6 +186,7 @@ libreoffice-l10n-pt
 libreoffice-l10n-ru
 libreoffice-l10n-vi
 libreoffice-l10n-zh-cn
+onioncircuits
 openssh-client
 paperkey
 parted
@@ -232,10 +232,10 @@ totem
 ttdnsd
 unar
 usbutils
-vidalia
 vim-nox
 virtualbox-guest-utils
 wireless-tools
+xsel
 xul-ext-torbirdy
 # needed for initramfs-tools' COMPRESS=xz
 xz-utils
@@ -374,10 +374,6 @@ python-nautilus
 python-pdfrw
 python-poppler
 
-### Windows8 theme ###
-gnome-theme-windows8
-window-picker-applet
-
 ### Needed by virtualbox-guest-utils
 pciutils
 
@@ -401,3 +397,9 @@ xdotool
 i2p
 # Prevent java 6 from being installed
 openjdk-7-jre
+
+# Enable Electrum's Qt GUI
+python-qt4
+
+# Provide gnome-open (used to open e.g. URLs in KeePassX, Icedove, Electrum...)
+libgnome2-bin

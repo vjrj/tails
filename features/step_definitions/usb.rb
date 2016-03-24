@@ -69,28 +69,14 @@ class UpgradeNotSupported < StandardError
 end
 
 def usb_install_helper(name)
-  @screen.wait('USBCreateLiveUSB.png', 10)
-
-  # Here we'd like to select USB drive using #{name}, but Sikuli's
-  # OCR seems to be too unreliable.
-#  @screen.wait('USBTargetDevice.png', 10)
-#  match = @screen.find('USBTargetDevice.png')
-#  region_x = match.x
-#  region_y = match.y + match.h
-#  region_w = match.w*3
-#  region_h = match.h*2
-#  ocr = Sikuli::Region.new(region_x, region_y, region_w, region_h).text
-#  STDERR.puts ocr
-#  # Unfortunately this results in almost garbage, like "|]dev/sdm"
-#  # when it should be /dev/sda1
-
-  @screen.wait_and_click('USBCreateLiveUSB.png', 10)
+  @screen.wait('USBTailsLogo.png', 10)
   if @screen.exists("USBCannotUpgrade.png")
     raise UpgradeNotSupported
   end
+  @screen.wait_and_click('USBCreateLiveUSB.png', 10)
   @screen.wait('USBCreateLiveUSBConfirmWindow.png', 10)
   @screen.wait_and_click('USBCreateLiveUSBConfirmYes.png', 10)
-  @screen.wait('USBInstallationComplete.png', 60*60)
+  @screen.wait('USBInstallationComplete.png', 30*60)
 end
 
 When /^I start Tails Installer$/ do
@@ -188,7 +174,7 @@ Given /^I enable all persistence presets$/ do
     @screen.type(Sikuli::Key.TAB + Sikuli::Key.SPACE)
   end
   @screen.wait_and_click('PersistenceWizardSave.png', 10)
-  @screen.wait('PersistenceWizardDone.png', 20)
+  @screen.wait('PersistenceWizardDone.png', 30)
   @screen.type(Sikuli::Key.F4, Sikuli::KeyModifier.ALT)
 end
 
@@ -374,12 +360,15 @@ def boot_device
   return boot_dev
 end
 
-def boot_device_type
+def device_info(dev)
   # Approach borrowed from
   # config/chroot_local_includes/lib/live/config/998-permissions
-  boot_dev_info = $vm.execute("udevadm info --query=property --name='#{boot_device}'").stdout.chomp
-  boot_dev_type = (boot_dev_info.split("\n").select { |x| x.start_with? "ID_BUS=" })[0].split("=")[1]
-  return boot_dev_type
+  info = $vm.execute("udevadm info --query=property --name='#{dev}'").stdout.chomp
+  info.split("\n").map { |e| e.split('=') } .to_h
+end
+
+def boot_device_type
+  device_info(boot_device)['ID_BUS']
 end
 
 Then /^Tails is running from (.*) drive "([^"]+)"$/ do |bus, name|
@@ -401,7 +390,7 @@ Then /^Tails is running from (.*) drive "([^"]+)"$/ do |bus, name|
          "We are running from device #{actual_dev}, but for #{bus} drive " +
          "'#{name}' we expected to run from either device " +
          "#{expected_dev_normal} (when installed via the USB installer) " +
-         "or #{expected_dev_normal} (when installed from an isohybrid)")
+         "or #{expected_dev_isohybrid} (when installed from an isohybrid)")
 end
 
 Then /^the boot device has safe access rights$/ do
@@ -598,7 +587,7 @@ Then /^a suitable USB device is (?:still )?not found$/ do
   @screen.wait("TailsInstallerNoQEMUHardDisk.png", 30)
 end
 
-Then /^the "(?:[[:alpha:]]+)" USB drive is selected$/ do
+Then /^the "(?:[^"]+)" USB drive is selected$/ do
   @screen.wait("TailsInstallerQEMUHardDisk.png", 30)
 end
 
