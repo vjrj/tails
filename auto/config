@@ -42,7 +42,7 @@ $RUN_LB_CONFIG \
    --mirror-chroot "http://ftp.us.debian.org/debian/" \
    --packages-lists="standard" \
    --tasks="standard" \
-   --linux-packages="linux-image-4.2.0-1" \
+   --linux-packages="linux-image-4.4.0-1" \
    --syslinux-menu vesamenu \
    --syslinux-splash data/splash.png \
    --syslinux-timeout 4 \
