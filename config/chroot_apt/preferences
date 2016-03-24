@@ -86,7 +86,7 @@ Package: linux-compiler-gcc-4.9-x86:amd64
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-586
+Package: linux-headers-686
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
@@ -102,7 +102,7 @@ Package: linux-headers-4.4.0-1-common
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-headers-4.4.0-1-586
+Package: linux-headers-4.4.0-1-686
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
@@ -114,7 +114,7 @@ Package: linux-headers-4.4.0-1-amd64:amd64
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-586
+Package: linux-image-686
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
@@ -126,7 +126,7 @@ Package: linux-image-amd64:amd64
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
-Package: linux-image-4.4.0-1-586
+Package: linux-image-4.4.0-1-686
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
