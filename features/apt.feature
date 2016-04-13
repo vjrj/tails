@@ -9,6 +9,7 @@ Feature: Installing packages through APT
   Scenario: APT sources are configured correctly
     Given I have started Tails from DVD without network and logged in
     Then the only hosts in APT sources are "ftp.us.debian.org,security.debian.org,backports.debian.org,deb.tails.boum.org,deb.torproject.org,mozilla.debian.net"
+    And the expected Tails APT suite is used
 
   #10496: apt-get scenarios are fragile
   @check_tor_leaks @fragile

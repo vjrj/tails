@@ -22,6 +22,21 @@ Given /^the only hosts in APT sources are "([^"]*)"$/ do |hosts_str|
   end
 end
 
+Then /^the expected Tails APT suite is used$/ do
+  changelog_dist = cmd_helper('dpkg-parsechangelog -S Distribution').chomp
+  if changelog_dist == 'UNRELEASED'
+    puts "The last entry in debian/changelog is UNRELEASED so this " +
+         "step is passed automatically"
+    next
+  end
+  expected_dist = cmd_helper('dpkg-parsechangelog -S Version').chomp
+  apt_each_source do |_, host, dist, _|
+    if host == 'deb.tails.boum.org'
+      assert_equal(expected_dist, dist, "Unexpected APT source suite")
+    end
+  end
+end
+
 When /^I update APT using apt$/ do
   Timeout::timeout(30*60) do
     $vm.execute_successfully("echo #{@sudo_password} | " +
