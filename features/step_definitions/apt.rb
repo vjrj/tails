@@ -6,6 +6,7 @@ def apt_each_source(*sources)
   end
   $vm.file_content(sources.join(' ')).chomp.each_line do |line|
     split = line.split
+    next if line.empty?
     type = split[0]
     next unless ['deb', 'deb-src'].include?(type)
     host = URI(split[1]).host
