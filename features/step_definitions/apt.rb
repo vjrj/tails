@@ -7,12 +7,12 @@ def apt_each_source(*sources)
   $vm.file_content(sources.join(' ')).chomp.each_line do |line|
     split = line.split
     next if line.empty?
-    type = split[0]
-    next unless ['deb', 'deb-src'].include?(type)
+    scheme = split[0]
+    next unless ['deb', 'deb-src'].include?(scheme)
     host = URI(split[1]).host
     suite = split[2]
     components = split[3, split.size]
-    yield(type, host, suite, components)
+    yield(scheme, host, suite, components)
   end
 end
 
