@@ -1,14 +1,25 @@
 require 'uri'
 
+def apt_each_source(*sources)
+  if sources.empty?
+    sources = ['/etc/apt/sources.list', '/etc/apt/sources.list.d/*']
+  end
+  $vm.file_content(sources.join(' ')).chomp.each_line do |line|
+    split = line.split
+    type = split[0]
+    next unless ['deb', 'deb-src'].include?(type)
+    host = URI(split[1]).host
+    suite = split[2]
+    components = split[3, split.size]
+    yield(type, host, suite, components)
+  end
+end
+
 Given /^the only hosts in APT sources are "([^"]*)"$/ do |hosts_str|
   hosts = hosts_str.split(',')
-  $vm.file_content("/etc/apt/sources.list /etc/apt/sources.list.d/*").chomp.each_line { |line|
-    next if ! line.start_with? "deb"
-    source_host = URI(line.split[1]).host
-    if !hosts.include?(source_host)
-      raise "Bad APT source '#{line}'"
-    end
-  }
+  apt_each_source do |_, host, _, _|
+    assert(hosts.include?(host), "Bad APT source host '#{host}'")
+  end
 end
 
 When /^I update APT using apt$/ do
