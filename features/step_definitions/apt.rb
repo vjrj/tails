@@ -31,10 +31,9 @@ Then /^the expected Tails APT suite is used$/ do
     next
   end
   expected_dist = cmd_helper('dpkg-parsechangelog -S Version').chomp
-  apt_each_source do |_, host, dist, _|
-    if host == 'deb.tails.boum.org'
-      assert_equal(expected_dist, dist, "Unexpected APT source suite")
-    end
+  apt_each_source('/etc/apt/sources.list.d/tails.list') do |_, host, dist, _|
+    assert_equal('deb.tails.boum.org', host, "Unexpected APT source host")
+    assert_equal(expected_dist, dist, "Unexpected APT source suite")
   end
 end
 
