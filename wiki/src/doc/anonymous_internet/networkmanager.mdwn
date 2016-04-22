@@ -11,13 +11,22 @@ connection:
 
     1. Choose <span class="guilabel">Wi-Fi</span> and then <span class="guilabel">Select Network</span>.
 
-  - To connect to a mobile broadband network:
-
-    1. Open the system menu in the top-right corner.
-
-    1. Choose <span class="guilabel">Mobile Broadband</span>.
 
 [[!img doc/first_steps/introduction_to_gnome_and_the_tails_desktop/system.png link="no"]]
+
+  - To connect to a mobile broadband network:
+
+    1. Open the command line via <span class="menuchoice"><span class="guimenu">Applications</span>&nbsp;▸
+       <span class="guisubmenu">Utilities</span>&nbsp;▸
+       <span class="guimenuitem">Terminal</span></span></span>
+
+    1. Execute the following command to open the <span class="application">Network Connection Editor</span>
+
+            nm-connection-editor
+
+    1. Click <span class="guilabel">Add</span>
+
+    1. Choose <span class="guilabel">Mobile Broadband</span>.
 
 To connect to Tor using bridges or configure a proxy to access the Internet,
 you need to [[activate additional Tor configuration when starting Tails|first_steps/startup_options/network_configuration]].
