@@ -1,4 +1,4 @@
    <div class="tip">
    <p>To accelerate the build, you can enable only some languages.
-   Adding <span class="code">--set po_slave_languages="  - fr|Français"</span> will build the website only in English and French.</p>
+   For example, adding <span class="code">--set po_slave_languages="  - fr|Français"</span> will build the website only in English and French.</p>
    </div>
