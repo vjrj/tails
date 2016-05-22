@@ -1,11 +1,6 @@
-When /^I see and accept the Unsafe Browser start verification(?:| in the "([^"]+)" locale)$/ do |locale|
+When /^I see and accept the Unsafe Browser start verification$/ do
   @screen.wait('GnomeQuestionDialogIcon.png', 30)
-  if ['ar_EG.utf8', 'fa_IR'].include?(locale)
-    # Take into account button ordering in RTL languages
-    @screen.type(Sikuli::Key.LEFT + Sikuli::Key.ENTER)
-  else
-    @screen.type(Sikuli::Key.RIGHT + Sikuli::Key.ENTER)
-  end
+  @screen.type(Sikuli::Key.RIGHT + Sikuli::Key.ENTER)
 end
 
 def supported_torbrowser_languages
@@ -24,7 +19,7 @@ end
 
 Then /^I start the Unsafe Browser in the "([^"]+)" locale$/ do |loc|
   step "I run \"LANG=#{loc} LC_ALL=#{loc} sudo unsafe-browser\" in GNOME Terminal"
-  step "I see and accept the Unsafe Browser start verification in the \"#{loc}\" locale"
+  step "I see and accept the Unsafe Browser start verification"
 end
 
 Then /^the Unsafe Browser works in all supported languages$/ do
