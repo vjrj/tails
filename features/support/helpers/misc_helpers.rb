@@ -1,6 +1,7 @@
 require 'date'
 require 'timeout'
 require 'test/unit'
+require 'tempfile'
 
 # Test::Unit adds an at_exit hook which, among other things, consumes
 # the command-line arguments that were intended for cucumber. If
@@ -149,6 +150,14 @@ rescue Timeout::Error => e
     debug_log("From the journal:\n" + c.stdout.sub(/^/, "  "))
   else
     debug_log("Nothing was in the journal about 'restart-tor'")
+  end
+  remote_tor_log_path = '/var/log/tor/log'
+  if $vm.file_exist?(remote_tor_log_path)
+    local_tor_log_path = Tempfile.new(['', '.tor-log'])
+    open(local_tor_log_path ,'w') do |f|
+      f.write($vm.file_content(remote_tor_log_path))
+    end
+    save_failure_artifact("Tor log", local_tor_log_path)
   end
   raise e
 end
