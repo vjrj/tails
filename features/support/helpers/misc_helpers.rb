@@ -145,6 +145,7 @@ end
 def wait_until_tor_is_working
   try_for(270) { $vm.execute('/usr/local/sbin/tor-has-bootstrapped').success? }
 rescue Timeout::Error => outer_exception
+  # Let's collect useful data for #10238.
   begin
     c = $vm.execute("journalctl SYSLOG_IDENTIFIER=restart-tor")
     if c.success?
