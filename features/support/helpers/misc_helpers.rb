@@ -144,22 +144,30 @@ end
 
 def wait_until_tor_is_working
   try_for(270) { $vm.execute('/usr/local/sbin/tor-has-bootstrapped').success? }
-rescue Timeout::Error => e
-  c = $vm.execute("journalctl SYSLOG_IDENTIFIER=restart-tor")
-  if c.success?
-    debug_log("From the journal:\n" + c.stdout.sub(/^/, "  "))
-  else
-    debug_log("Nothing was in the journal about 'restart-tor'")
-  end
-  remote_tor_log_path = '/var/log/tor/log'
-  if $vm.file_exist?(remote_tor_log_path)
-    local_tor_log_path = Tempfile.new(['', '.tor-log'])
-    open(local_tor_log_path ,'w') do |f|
-      f.write($vm.file_content(remote_tor_log_path))
+rescue Timeout::Error => outer_exception
+  begin
+    c = $vm.execute("journalctl SYSLOG_IDENTIFIER=restart-tor")
+    if c.success?
+      debug_log("From the journal:\n" + c.stdout.sub(/^/, "  "))
+    else
+      debug_log("Nothing was in the journal about 'restart-tor'")
     end
-    save_failure_artifact("Tor log", local_tor_log_path)
+    remote_tor_log_path = '/var/log/tor/log'
+    if $vm.file_exist?(remote_tor_log_path)
+      local_tor_log_path = Tempfile.new(['', '.tor-log'])
+      open(local_tor_log_path ,'w') do |f|
+        f.write($vm.file_content(remote_tor_log_path))
+      end
+      save_failure_artifact("Tor log", local_tor_log_path)
+    end
+  rescue Exception => inner_exception
+    # Let's just log any exception while trying to collect this data
+    # so we don't override the outer exception that we're handling.
+    debug_log(
+      "Ignoring exception: #{inner_exception.class}: #{inner_exception.message}"
+    )
   end
-  raise e
+  raise outer_exception
 end
 
 def convert_bytes_mod(unit)
