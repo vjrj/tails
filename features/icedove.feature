@@ -1,4 +1,4 @@
-#10497, #11465
+#11465
 @product @check_tor_leaks @fragile
 Feature: Icedove email client
   As a Tails user
@@ -10,9 +10,6 @@ Feature: Icedove email client
     And Icedove has started
     And I have not configured an email account
     Then I am prompted to setup an email account
-
-  Scenario: Icedove defaults to using IMAP
-    Then IMAP is the default protocol
 
   Scenario: Adblock is not enabled within Icedove
     Given I cancel setting up an email account
