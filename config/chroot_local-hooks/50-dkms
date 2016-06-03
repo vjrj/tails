@@ -22,7 +22,8 @@ apt-get install --yes virtualbox-guest-utils virtualbox-guest-dkms virtualbox-gu
 # Have the modules built for every installed kernel
 for KERNEL in /boot/vmlinuz-* ; do
    KERNEL_VERSION="$(basename ${KERNEL} | sed -e 's|vmlinuz-||')"
-   # Installing the headers should trigger the building of the modules for that kernel
+   # Installing the headers should trigger the building of the modules
+   # for that kernel
    apt-get install --yes linux-headers-$KERNEL_VERSION
    for MODULE in $MODULES; do
       MODULES_VERSION="$(dpkg-query -W -f='${Version\n}' "${MODULE}-dkms")"
