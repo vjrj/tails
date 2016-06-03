@@ -6,6 +6,10 @@ Package: b43-fwcutter
 Pin: release o=Debian,n=sid
 Pin-Priority: 999
 
+Package: bumblebee
+Pin: release o=Debian,n=jessie-backports
+Pin-Priority: 999
+
 Package: electrum
 Pin: release o=Debian,n=stretch
 Pin-Priority: 999
