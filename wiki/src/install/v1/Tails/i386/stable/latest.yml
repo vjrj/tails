@@ -2,8 +2,8 @@
 build-target: i386
 channel: stable
 product-name: Tails
-version: '1.8.2'
+version: '2.3'
 target-files:
-- sha256: 11e09c096741ce86dbd9022b811ef279635d7ffc6bc4e9b5e46f8591fe462c5a
-  size: 1052835840
-  url: http://dl.amnesia.boum.org/tails/stable/tails-i386-1.8.2/tails-i386-1.8.2.iso
+- sha256: 3e62ab45a3e4105c8353a495f5774ce970f7c3b2736b420a5db7f7f79223b8ef
+  size: 1143314432
+  url: http://dl.amnesia.boum.org/tails/stable/tails-i386-2.3/tails-i386-2.3.iso

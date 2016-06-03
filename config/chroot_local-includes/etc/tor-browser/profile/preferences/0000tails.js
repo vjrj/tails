@@ -103,8 +103,7 @@ pref("browser.download.panel.shown", true);
 // and instead only propose them to save downloaded files.
 pref("browser.download.forbid_open_with", true);
 
-// The window resizing feature in Tor Browser 5.5a6 is a bit crazy,
-// causing frequent resizing of the window at inconvenient times. In
-// the automated test suite this results in misclicks because some
-// targets move (due to this window resizing) suddenly.
-pref("extensions.torbutton.resize_windows", false);
+// AdBlock Plus and the amnesia branding extensions are not signed and
+// therefore disabled by default for FF 45+ *unless* we set this
+// option. This is only a temporary stop gap. See #11419.
+pref("xpinstall.signatures.required", false);
