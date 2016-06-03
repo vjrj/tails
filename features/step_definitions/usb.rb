@@ -69,32 +69,18 @@ class UpgradeNotSupported < StandardError
 end
 
 def usb_install_helper(name)
-  @screen.wait('USBCreateLiveUSB.png', 10)
-
-  # Here we'd like to select USB drive using #{name}, but Sikuli's
-  # OCR seems to be too unreliable.
-#  @screen.wait('USBTargetDevice.png', 10)
-#  match = @screen.find('USBTargetDevice.png')
-#  region_x = match.x
-#  region_y = match.y + match.h
-#  region_w = match.w*3
-#  region_h = match.h*2
-#  ocr = Sikuli::Region.new(region_x, region_y, region_w, region_h).text
-#  STDERR.puts ocr
-#  # Unfortunately this results in almost garbage, like "|]dev/sdm"
-#  # when it should be /dev/sda1
-
-  @screen.wait_and_click('USBCreateLiveUSB.png', 10)
+  @screen.wait('USBTailsLogo.png', 10)
   if @screen.exists("USBCannotUpgrade.png")
     raise UpgradeNotSupported
   end
+  @screen.wait_and_click('USBCreateLiveUSB.png', 10)
   @screen.wait('USBCreateLiveUSBConfirmWindow.png', 10)
   @screen.wait_and_click('USBCreateLiveUSBConfirmYes.png', 10)
-  @screen.wait('USBInstallationComplete.png', 60*60)
+  @screen.wait('USBInstallationComplete.png', 30*60)
 end
 
 When /^I start Tails Installer$/ do
-  step 'I start "TailsInstaller" via the GNOME "Tails" applications menu'
+  step 'I start "Tails Installer" via the GNOME "Tails" applications menu'
   @screen.wait('USBCloneAndInstall.png', 30)
 end
 
@@ -188,12 +174,21 @@ Given /^I enable all persistence presets$/ do
     @screen.type(Sikuli::Key.TAB + Sikuli::Key.SPACE)
   end
   @screen.wait_and_click('PersistenceWizardSave.png', 10)
-  @screen.wait('PersistenceWizardDone.png', 20)
+  @screen.wait('PersistenceWizardDone.png', 30)
+  @screen.type(Sikuli::Key.F4, Sikuli::KeyModifier.ALT)
+end
+
+When /^I disable the first persistence preset$/ do
+  step 'I start "Configure persistent volume" via the GNOME "Tails" applications menu'
+  @screen.wait('PersistenceWizardPresets.png', 300)
+  @screen.type(Sikuli::Key.SPACE)
+  @screen.wait_and_click('PersistenceWizardSave.png', 10)
+  @screen.wait('PersistenceWizardDone.png', 30)
   @screen.type(Sikuli::Key.F4, Sikuli::KeyModifier.ALT)
 end
 
 Given /^I create a persistent partition$/ do
-  step 'I start "ConfigurePersistentVolume" via the GNOME "Tails" applications menu'
+  step 'I start "Configure persistent volume" via the GNOME "Tails" applications menu'
   @screen.wait('PersistenceWizardStart.png', 20)
   @screen.type(@persistence_password + "\t" + @persistence_password + Sikuli::Key.ENTER)
   @screen.wait('PersistenceWizardPresets.png', 300)
@@ -339,13 +334,21 @@ def tails_persistence_enabled?
                      'test "$TAILS_PERSISTENCE_ENABLED" = true').success?
 end
 
-Given /^all persistence presets(| from the old Tails version) are enabled$/ do |old_tails|
+Given /^all persistence presets(| from the old Tails version)(| but the first one) are enabled$/ do |old_tails, except_first|
+  assert(old_tails.empty? || except_first.empty?, "Unsupported case.")
   try_for(120, :msg => "Persistence is disabled") do
     tails_persistence_enabled?
   end
+  unexpected_mounts = Array.new
   # Check that all persistent directories are mounted
   if old_tails.empty?
     expected_mounts = persistent_mounts
+    if ! except_first.empty?
+      first_expected_mount_source      = expected_mounts.keys[0]
+      first_expected_mount_destination = expected_mounts[first_expected_mount_source]
+      expected_mounts.delete(first_expected_mount_source)
+      unexpected_mounts = [first_expected_mount_destination]
+    end
   else
     assert_not_nil($remembered_persistence_mounts)
     expected_mounts = $remembered_persistence_mounts
@@ -354,6 +357,10 @@ Given /^all persistence presets(| from the old Tails version) are enabled$/ do |
   for _, dir in expected_mounts do
     assert(mount.include?("on #{dir} "),
            "Persistent directory '#{dir}' is not mounted")
+  end
+  for dir in unexpected_mounts do
+    assert(! mount.include?("on #{dir} "),
+           "Persistent directory '#{dir}' is mounted")
   end
 end
 
@@ -374,12 +381,15 @@ def boot_device
   return boot_dev
 end
 
-def boot_device_type
+def device_info(dev)
   # Approach borrowed from
   # config/chroot_local_includes/lib/live/config/998-permissions
-  boot_dev_info = $vm.execute("udevadm info --query=property --name='#{boot_device}'").stdout.chomp
-  boot_dev_type = (boot_dev_info.split("\n").select { |x| x.start_with? "ID_BUS=" })[0].split("=")[1]
-  return boot_dev_type
+  info = $vm.execute("udevadm info --query=property --name='#{dev}'").stdout.chomp
+  info.split("\n").map { |e| e.split('=') } .to_h
+end
+
+def boot_device_type
+  device_info(boot_device)['ID_BUS']
 end
 
 Then /^Tails is running from (.*) drive "([^"]+)"$/ do |bus, name|
@@ -579,7 +589,7 @@ Then /^only the expected files are present on the persistence partition on USB d
 end
 
 When /^I delete the persistent partition$/ do
-  step 'I start "DeletePersistentVolume" via the GNOME "Tails" applications menu'
+  step 'I start "Delete persistent volume" via the GNOME "Tails" applications menu'
   @screen.wait("PersistenceWizardDeletionStart.png", 20)
   @screen.type(" ")
   @screen.wait("PersistenceWizardDone.png", 120)
@@ -598,7 +608,7 @@ Then /^a suitable USB device is (?:still )?not found$/ do
   @screen.wait("TailsInstallerNoQEMUHardDisk.png", 30)
 end
 
-Then /^the "(?:[[:alpha:]]+)" USB drive is selected$/ do
+Then /^the "(?:[^"]+)" USB drive is selected$/ do
   @screen.wait("TailsInstallerQEMUHardDisk.png", 30)
 end
 

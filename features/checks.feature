@@ -17,7 +17,6 @@ Feature: Various checks
     When Tails has booted a 64-bit kernel
     Then the VirtualBox guest modules are available
 
-  @fragile
   Scenario: The shipped Tails OpenPGP keys are up-to-date
     Given I have started Tails from DVD without network and logged in
     Then the OpenPGP keys shipped with Tails will be valid for the next 3 months
@@ -26,6 +25,7 @@ Feature: Various checks
     Given I have started Tails from DVD without network and logged in
     Then the shipped Debian repository key will be valid for the next 3 months
 
+  @doc
   Scenario: The "Report an Error" launcher will open the support documentation
     Given I have started Tails from DVD without network and logged in
     And the network is plugged
@@ -43,12 +43,15 @@ Feature: Various checks
   Scenario: No initial network
     Given I have started Tails from DVD without network and logged in
     And I wait between 30 and 60 seconds
+    Then the Tor Status icon tells me that Tor is not usable
     When the network is plugged
-    And Tor is ready
+    Then Tor is ready
+    And the Tor Status icon tells me that Tor is usable
     And all notifications have disappeared
     And the time has synced
-    And process "vidalia" is running within 30 seconds
 
+  #11463
+  @fragile
   Scenario: The 'Tor is ready' notification is shown when Tor has bootstrapped
     Given I have started Tails from DVD without network and logged in
     And the network is plugged
@@ -80,3 +83,22 @@ Feature: Various checks
   Scenario: tails-debugging-info does not leak information
     Given I have started Tails from DVD without network and logged in
     Then tails-debugging-info is not susceptible to symlink attacks
+
+  Scenario: Tails shuts down on DVD boot medium removal
+    Given I have started Tails from DVD without network and logged in
+    When I eject the boot medium
+    Then Tails eventually shuts down
+
+  #10720
+  @fragile
+  Scenario: Tails shuts down on USB boot medium removal
+    Given I have started Tails without network from a USB drive without a persistent partition and logged in
+    When I eject the boot medium
+    Then Tails eventually shuts down
+
+  Scenario: The Tails Greeter "disable all networking" option disables networking within Tails
+    Given I have started Tails from DVD without network and stopped at Tails Greeter's login screen
+    And I enable more Tails Greeter options
+    And I disable all networking in the Tails Greeter
+    And I log in to a new session
+    Then no network interfaces are enabled
