@@ -14,10 +14,17 @@ fi
 gcc_version=4.8
 
 # the -dkms package must be installed *after* dkms to be properly registered
-apt-get install --yes build-essential dkms dpatch
-apt-get install --yes gcc-${gcc_version}
-apt-get install --yes bbswitch-dkms bumblebee
-apt-get install --yes virtualbox-guest-utils virtualbox-guest-dkms virtualbox-guest-x11
+apt-get install --yes \
+   build-essential \
+   dkms \
+   dpatch \
+   gcc-${gcc_version}
+apt-get install --yes \
+   bbswitch-dkms \
+   bumblebee \
+   virtualbox-guest-utils \
+   virtualbox-guest-dkms \
+   virtualbox-guest-x11
 
 # Have the modules built for every installed kernel
 for KERNEL in /boot/vmlinuz-* ; do
