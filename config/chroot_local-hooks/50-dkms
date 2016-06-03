@@ -56,3 +56,31 @@ done
 # Also copy the udev rules installed by virtualbox-guest-dkms to enable guest
 # additions by default.
 cp -a /lib/udev/rules.d/60-virtualbox-guest-dkms.rules /etc/udev/rules.d/
+
+# bumblebee Depends: bbswitch-dkms | bbswitch-source, and we're going to remove
+# bbswitch-dkms later, so to keep bumblebee installed we cheat and install
+# a fake bbswitch-source package.
+tmp="$(mktemp -d)"
+apt-get install --yes equivs bbswitch-source
+REAL_PKG_VERSION=$(dpkg-query -W -f='${Version}\n' bbswitch-source)
+FAKE_PKG_VERSION="${REAL_PKG_VERSION}+tails.fake1"
+cat > "${tmp}"/bbswitch-source.control << EOF
+Section: kernel
+Priority: optional
+Homepage: https://tails.boum.org/
+Standards-Version: 3.9.8
+
+Package: bbswitch-source
+Version: ${FAKE_PKG_VERSION}
+Maintainer: Tails developers <tails@boum.org>
+Architecture: all
+Description: (Fake) bbswitch-source
+ Make it possible to install bumblebee without having to
+ install a real bbswitch-dkms | bbswitch-source package.
+EOF
+(
+   cd "${tmp}"
+   equivs-build "${tmp}"/bbswitch-source.control
+   dpkg -i "${tmp}"/bbswitch-source_"${FAKE_PKG_VERSION}"_all.deb
+)
+rm -R "${tmp}"
