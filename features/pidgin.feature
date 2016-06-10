@@ -41,8 +41,7 @@ Feature: Chatting anonymously using Pidgin
     And I click on the Tails roadmap URL
     Then the Tor Browser has started and loaded the Tails roadmap
 
-  #11453
-  @check_tor_leaks @fragile
+  @check_tor_leaks
   Scenario: Chatting with some friend over XMPP and with OTR
     Given I have started Tails from DVD and logged in and the network is connected
     When I start Pidgin through the GNOME menu
