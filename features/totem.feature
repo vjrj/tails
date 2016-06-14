@@ -40,7 +40,6 @@ Feature: Using Totem
     # as /lib/live/mount/overlay.
     And AppArmor has denied "/usr/bin/totem" from opening "/lib/live/mount/overlay/home/amnesia/.gnupg/video.mp4"
 
-  #10497: wait_until_tor_is_working
   @check_tor_leaks @fragile
   Scenario: Watching a WebM video over HTTPS
     Given I have started Tails from DVD and logged in and the network is connected
@@ -54,11 +53,11 @@ Feature: Using Totem
     # filesystem shares.
     And I shutdown Tails and wait for the computer to power off
     And I setup a filesystem share containing sample videos
-    And I start Tails from USB drive "current" with network unplugged and I login with persistence enabled
+    And I start Tails from USB drive "__internal" with network unplugged and I login with persistence enabled
     And I copy the sample videos to "/home/amnesia/Persistent" as user "amnesia"
     And I copy the sample videos to "/home/amnesia/.gnupg" as user "amnesia"
     And I shutdown Tails and wait for the computer to power off
-    And I start Tails from USB drive "current" with network unplugged and I login with persistence enabled
+    And I start Tails from USB drive "__internal" with network unplugged and I login with persistence enabled
     And the file "/home/amnesia/Persistent/video.mp4" exists
     When I open "/home/amnesia/Persistent/video.mp4" with Totem
     Then I see "SampleLocalMp4VideoFrame.png" after at most 10 seconds

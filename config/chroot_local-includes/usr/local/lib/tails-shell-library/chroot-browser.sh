@@ -128,18 +128,20 @@ configure_chroot_browser_profile () {
 
     # Select extensions to enable
     local extension
-    while [ -n "${*}" ]; do
+    while [ -n "${*:-}" ]; do
         extension="${1}" ; shift
         ln -s "${extension}" "${browser_ext}"
     done
 
     # Set preferences
     local browser_prefs="${browser_profile}/preferences/prefs.js"
+    local chroot_browser_config="/usr/share/tails/chroot-browsers"
     mkdir -p "$(dirname "${browser_prefs}")"
-    cp "/usr/share/tails/${browser_name}/prefs.js" "${browser_prefs}"
+    cat "${chroot_browser_config}/common/prefs.js" \
+        "${chroot_browser_config}/${browser_name}/prefs.js" > "${browser_prefs}"
 
     # Set browser home page to something that explains what's going on
-    if [ -n "${home_page}" ]; then
+    if [ -n "${home_page:-}" ]; then
         echo 'user_pref("browser.startup.homepage", "'"${home_page}"'");' >> \
             "${browser_prefs}"
     fi
@@ -150,7 +152,7 @@ configure_chroot_browser_profile () {
     # Set an appropriate theme, except if we're using Windows
     # camouflage.
     if ! windows_camouflage_is_enabled; then
-        cat "/usr/share/tails/${browser_name}/theme.js" >> "${browser_prefs}"
+        cat "${chroot_browser_config}/${browser_name}/theme.js" >> "${browser_prefs}"
     else
         # The tails-activate-windows-theme script requires that the
         # browser profile is writable by the user running the script.
@@ -165,7 +167,9 @@ configure_chroot_browser_profile () {
     # appending to the camouflage config.
     local browser_chrome="${browser_profile}/chrome/userChrome.css"
     mkdir -p "$(dirname "${browser_chrome}")"
-    cat "/usr/share/tails/${browser_name}/userChrome.css" >> "${browser_chrome}"
+    cat "${chroot_browser_config}/common/userChrome.css" \
+        "${chroot_browser_config}/${browser_name}/userChrome.css" >> \
+            "${browser_chrome}"
 
     set_chroot_browser_permissions "${chroot}" "${browser_name}" "${browser_user}"
 }

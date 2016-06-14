@@ -25,7 +25,7 @@ Feature: Various checks
     Given I have started Tails from DVD without network and logged in
     Then the shipped Debian repository key will be valid for the next 3 months
 
-  @doc @fragile
+  @doc
   Scenario: The "Report an Error" launcher will open the support documentation
     Given I have started Tails from DVD without network and logged in
     And the network is plugged
@@ -40,16 +40,17 @@ Feature: Various checks
     And the live user is a member of only its own group and "audio cdrom dialout floppy video plugdev netdev scanner lp lpadmin vboxsf"
     And the live user owns its home dir and it has normal permissions
 
-  @fragile
   Scenario: No initial network
     Given I have started Tails from DVD without network and logged in
     And I wait between 30 and 60 seconds
+    Then the Tor Status icon tells me that Tor is not usable
     When the network is plugged
-    And Tor is ready
+    Then Tor is ready
+    And the Tor Status icon tells me that Tor is usable
     And all notifications have disappeared
     And the time has synced
-    And process "vidalia" is running within 30 seconds
 
+  #11463
   @fragile
   Scenario: The 'Tor is ready' notification is shown when Tor has bootstrapped
     Given I have started Tails from DVD without network and logged in
@@ -57,14 +58,12 @@ Feature: Various checks
     When I see the 'Tor is ready' notification
     Then Tor is ready
 
-  @fragile
   Scenario: The tor process should be confined with Seccomp
     Given I have started Tails from DVD without network and logged in
     And the network is plugged
     And Tor is ready
     Then the running process "tor" is confined with Seccomp in filter mode
 
-  @fragile
   Scenario: No unexpected network services
     Given I have started Tails from DVD without network and logged in
     When the network is plugged
@@ -84,3 +83,22 @@ Feature: Various checks
   Scenario: tails-debugging-info does not leak information
     Given I have started Tails from DVD without network and logged in
     Then tails-debugging-info is not susceptible to symlink attacks
+
+  Scenario: Tails shuts down on DVD boot medium removal
+    Given I have started Tails from DVD without network and logged in
+    When I eject the boot medium
+    Then Tails eventually shuts down
+
+  #10720
+  @fragile
+  Scenario: Tails shuts down on USB boot medium removal
+    Given I have started Tails without network from a USB drive without a persistent partition and logged in
+    When I eject the boot medium
+    Then Tails eventually shuts down
+
+  Scenario: The Tails Greeter "disable all networking" option disables networking within Tails
+    Given I have started Tails from DVD without network and stopped at Tails Greeter's login screen
+    And I enable more Tails Greeter options
+    And I disable all networking in the Tails Greeter
+    And I log in to a new session
+    Then no network interfaces are enabled

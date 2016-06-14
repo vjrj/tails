@@ -56,7 +56,6 @@ Feature: Upgrading an old Tails USB installation
     And I start the computer
     When the computer boots Tails
     And I log in to a new session
-    And the Tails desktop is ready
     And all notifications have disappeared
     And I create a 4 GiB disk named "old"
     And I plug USB drive "old"
@@ -113,13 +112,12 @@ Feature: Upgrading an old Tails USB installation
   Scenario: Upgrading an old Tails USB installation from another Tails USB drive
     Given I have started Tails without network from a USB drive without a persistent partition and stopped at Tails Greeter's login screen
     And I log in to a new session
-    And Tails seems to have booted normally
     And I clone USB drive "old" to a new USB drive "to_upgrade"
     And I plug USB drive "to_upgrade"
     When I "Clone & Upgrade" Tails to USB drive "to_upgrade"
     Then the running Tails is installed on USB drive "to_upgrade"
     And I unplug USB drive "to_upgrade"
-    And I unplug USB drive "current"
+    And I unplug USB drive "__internal"
 
   # Depends on scenario: Upgrading an old Tails USB installation from another Tails USB drive
   Scenario: Booting Tails from a USB drive upgraded from USB with persistence enabled
