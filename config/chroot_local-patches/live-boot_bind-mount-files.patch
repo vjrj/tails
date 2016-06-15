@@ -1,0 +1,38 @@
+diff --git a/components/9990-misc-helpers.sh b/components/9990-misc-helpers.sh
+index 9951873..e8b4f27 100755
+--- a/lib/live/boot/9990-misc-helpers.sh
++++ b/lib/live/boot/9990-misc-helpers.sh
+@@ -1513,7 +1513,7 @@ activate_custom_mounts ()
+ 			fi
+ 		fi
+ 
+-		if [ ! -d "${dest}" ]
++		if [ ! -e "${dest}" ]
+ 		then
+ 			# create the destination and delete existing files in
+ 			# its path that are in the way
+@@ -1544,7 +1544,13 @@ activate_custom_mounts ()
+ 		# dealing with /etc or other system dir.
+ 		if [ ! -d "${source}" ]
+ 		then
+-			if [ -n "${PERSISTENCE_READONLY}" ]
++			if [ -f "${source}" ]
++			then
++				rm -rf "${dest}"
++				touch "${dest}"
++				chown_ref "${source}" "${dest}"
++				chmod_ref "${source}" "${dest}"
++			elif [ -n "${PERSISTENCE_READONLY}" ]
+ 			then
+ 				continue
+ 			elif [ -n "${opt_union}" ] || [ -n "${opt_link}" ]
+@@ -1610,6 +1616,9 @@ activate_custom_mounts ()
+ 		elif [ -n "${opt_bind}" ] && [ -z "${PERSISTENCE_READONLY}" ]
+ 		then
+ 			mount --bind "${source}" "${dest}"
++		elif [ -n "${opt_bind}" ] && [ -n "${PERSISTENCE_READONLY}" ] && [ -f "${source}" ]
++		then
++			cp -a "${source}" "${dest}"
+ 		elif [ -n "${opt_bind}" -o -n "${opt_union}" ] && [ -n "${PERSISTENCE_READONLY}" ]
+ 		then
+ 			# bind-mount and union mount are handled the same
