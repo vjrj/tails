@@ -1,0 +1,9 @@
+- name: remove hidden service
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: remove hidden service from torrc
+      blockinfile:
+        dest: /etc/tor/torrc
+        marker: "# {mark} ANSIBLE MANAGED BLOCK {{ service_name }}"
+        content: ""

@@ -1,0 +1,626 @@
+#!/usr/bin/env python3
+
+import os
+import logging
+import threading
+import collections
+import argparse
+import sh
+
+from tails_server import dbus_interface
+from tails_server import config
+import tails_server.services
+
+from gi.repository import Gtk, GLib, Gdk
+
+DATA_DIR = config.DATA_DIR
+ICON_DIR = os.path.join(DATA_DIR, "icons")
+MAIN_UI_FILE = os.path.join(DATA_DIR, "gui", "tails_server.ui")
+CONFIG_UI_FILE = os.path.join(DATA_DIR, "gui", "service_config.ui")
+SERVICE_CHOOSER_UI_FILE = os.path.join(DATA_DIR, "gui", "service_chooser.ui")
+LOADING_WINDOW_UI_FILE = os.path.join(DATA_DIR, "gui", "loading_window.ui")
+
+sh.ErrorReturnCode.truncate_cap = 5000
+
+service_modules_dict = tails_server.services.import_service_modules()
+
+
+class ServiceDecorator(object):
+
+    status_row = None
+    _config_panel = None
+
+    @property
+    def config_panel(self):
+        if not self._config_panel:
+            logging.debug("Instantiating config panel for service %r", self.service.name)
+            self._config_panel = ServiceConfigPanel(self.gui, self)
+        return self._config_panel
+
+    def __init__(self, gui, service):
+        self.gui = gui
+        self.service = service
+        self.status_monitor = dbus_interface.StatusMonitor(self.service.systemd_service,
+                                                           self.set_status)
+
+    def __getattr__(self, item):
+        return getattr(self.service, item)
+
+    def uninstall(self):
+        if self.service.is_running:
+            self.service.disable()
+        self._config_panel = None
+        self.status_row = None
+        self.stop_status_monitor()
+        self.service.uninstall()
+
+    def activate_status_monitor(self):
+        self.status_monitor.run()
+
+    def stop_status_monitor(self):
+        self.status_monitor.stop()
+
+    def create_status_row(self):
+        new_builder = Gtk.Builder()
+        new_builder.add_from_file(MAIN_UI_FILE)
+        self.status_row = new_builder.get_object("listboxrow_service_status")
+        self.set_status("active" if self.service.is_running else "inactive")
+        self.activate_status_monitor()
+
+    def set_status(self, status):
+        """Sets the status image and label.
+        valid status values: "active", "activating", "inactive", "deactivating"""
+        def set_status_icon_and_label():
+            status_icon = new_builder.get_object("image_status_image")
+            _, size = status_icon.get_icon_name()
+            status_icon.set_from_icon_name(status_icon_name, size)
+
+            status_string_label = new_builder.get_object("label_status_string")
+            status_string_label.set_text(status_string)
+
+        def remove_status_icon_and_label():
+            new_builder.get_object("image_status_image").destroy()
+            new_builder.get_object("label_status_string").destroy()
+
+        def display_spinner(new_builder):
+            spinner = new_builder.get_object("spinner_service_status")
+            new_builder.get_object("box_status_inner").add(spinner)
+            spinner.set_margin_top(2)
+            spinner.set_margin_left(2)
+
+        logging.info("%s: Setting status %r", self.service.name, status)
+        new_builder = Gtk.Builder()
+        new_builder.add_from_file(MAIN_UI_FILE)
+
+        title_label = new_builder.get_object("label_status_title")
+        title_label.set_text(self.service.name_in_gui)
+
+        service_icon = new_builder.get_object("image_status_service_icon")
+        _, size = service_icon.get_icon_name()
+        service_icon.set_from_icon_name(self.service.icon_name, size)
+
+        if status == "active":
+            logging.debug("Setting active")
+            status_icon_name = "gtk-yes"
+            status_string = "On"
+            set_status_icon_and_label()
+            self.config_panel.service_status_changed(True)
+        elif status == "inactive":
+            status_icon_name = "gtk-no"
+            status_string = "Off"
+            set_status_icon_and_label()
+            self.config_panel.service_status_changed(False)
+        else:
+            remove_status_icon_and_label()
+            display_spinner(new_builder)
+
+        old_status_box = self.status_row.get_children()[0]
+        self.status_row.remove(old_status_box)
+        new_builder.get_object("box_status").reparent(self.status_row)
+
+
+class OptionRow(object):
+    known_options_widgets = {
+        "persistence": ("label_persistence", "box_persistence", "checkbutton_persistence"),
+        "autostart": ("label_autostart", "box_autostart", "checkbutton_autostart"),
+        # "allow-lan": ("label_allow_lan", "box_allow_lan", "checkbutton_allow_lan"),
+    }
+
+    @property
+    def sensitive(self):
+        return self.box.get_sensitive()
+
+    @sensitive.setter
+    def sensitive(self, value):
+        self.box.set_sensitive(value)
+
+    @property
+    def value(self):
+        if self.option.type in [str, int]:
+            return self.value_widget.get_text()
+        elif self.option.type == bool:
+            return self.value_widget.get_active()
+
+    def __init__(self, config_panel, option):
+        self.config_panel = config_panel
+        self.option = option
+        self.builder = Gtk.Builder()
+        self.builder.add_from_file(CONFIG_UI_FILE)
+        self.known_option = option.name in self.known_options_widgets
+
+        logging.debug("Adding option %r to GUI (known_option: %r)", option.name, self.known_option)
+
+        if self.known_option:
+            label, box, value_widget = self.known_options_widgets[option.name]
+            self.label = self.builder.get_object(label)
+            self.label.unparent()
+            self.box = self.builder.get_object(box)
+            self.box.unparent()
+            self.value_widget = self.builder.get_object(value_widget)
+            # self.box.visible = True
+            self.builder.connect_signals(self.config_panel)
+        else:
+            self.box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+            self.label = Gtk.Label(option.name_in_gui)
+            self.label.set_alignment(xalign=1, yalign=0.5)
+            self.label.set_sensitive(False)
+            if option.type in [str, int]:
+                self.value_widget = Gtk.Entry(text=option.value)
+            elif option.type == bool:
+                self.value_widget = Gtk.CheckButton()
+            else:
+                raise TypeError("Can't display option %r of type %r", option.name, option.type)
+            self.box.pack_end(self.value_widget, expand=True, fill=True, padding=0)
+
+        if isinstance(self.value_widget, Gtk.Entry):
+            self.value_widget.connect("changed", self.on_text_entry_option_changed, option.name)
+        elif isinstance(self.value_widget, Gtk.CheckButton):
+            self.value_widget.set_active(option.value)
+        else:
+            pass
+
+    def show(self):
+        self.label.show_all()
+        self.box.show_all()
+
+    def on_text_entry_option_changed(self, entry, option_name):
+        logging.debug("%r entry.text: %r", option_name, entry.get_text())
+        # self.service.set_option(option_name, entry.get_text())
+
+
+class ServiceConfigPanel(object):
+
+    def __init__(self, gui, service):
+        assert isinstance(gui, TailsServerGUI)
+        self.gui = gui
+        self.service = service
+        self.builder = Gtk.Builder()
+        self.builder.add_from_file(CONFIG_UI_FILE)
+        self.builder.connect_signals(self)
+        self.new_onion_address_button = self.builder.get_object("button_new_onion_address")
+        self.options_grid = self.builder.get_object("grid_options")
+        assert(isinstance(self.options_grid, Gtk.Grid))
+        self.option_rows = list()
+
+        for option in self.service.options_dict.values():
+            self.add_option(option)
+
+    def show(self):
+        icon = self.builder.get_object("image_service_icon")
+        _, size = icon.get_icon_name()
+        icon.set_from_icon_name(self.service.icon_name, size)
+
+        self.builder.get_object("label_service_name").set_text(self.service.name_in_gui)
+        self.builder.get_object("label_service_description").set_text(self.service.description)
+        self.builder.get_object("label_onion_address_value").set_text(str(self.service.address))
+        self.builder.get_object("label_connection_string_value").set_text(
+            str(self.service.connection_string))
+
+        config_panel_container = self.gui.builder.get_object("scrolledwindow_service_config")
+        for child in config_panel_container.get_children():
+            config_panel_container.remove(child)
+        config_panel_container.add(self.builder.get_object("viewport_service_config"))
+
+    def add_option(self, option):
+        try:
+            option_row = OptionRow(self, option)
+        except TypeError as e:
+            logging.error(e)
+            return
+        option_row.show()
+        self.option_rows.append(option_row)
+        # if not option_row.known_option:
+        # self.options_grid.insert_row(-1)
+        # self.options_grid.attach(option_row.label, -1, -1, 1, 1)
+        self.options_grid.add(option_row.label)
+        self.options_grid.attach_next_to(option_row.box, option_row.label,
+                                         Gtk.PositionType.RIGHT, 1, 1)
+
+    def service_status_changed(self, status):
+        self.set_switch_status(status)
+        for option_row in self.option_rows:
+            option_row.sensitive = not status
+        self.new_onion_address_button.set_sensitive(not status)
+
+        try:
+            persistence_row = [r for r in self.option_rows if r.option.name == "persistence"][0]
+            autostart_row = [r for r in self.option_rows if r.option.name == "autostart"][0]
+        except IndexError:
+            return
+        if not persistence_row.value:
+            autostart_row.sensitive = False
+
+        is_running = self.service.is_running
+
+        def apply_options_and_enable_service_with_loading_window():
+            self.gui.loading_window.display_while_calling(self.apply_options,
+                                                callback=reload_config_panel_and_enable_service,
+                                                label="Applying options")
+
+        def reload_config_panel_and_enable_service():
+            self.show()
+            enable_service_with_loading_window()
+
+        def enable_service_with_loading_window():
+            self.gui.loading_window.display_while_calling(self.service.enable,
+                                                callback=self.show,
+                                                label="Starting service")
+
+        def disable_service_with_loading_window():
+            self.gui.loading_window.display_while_calling(self.service.disable, label="Stopping service")
+
+        if status and not is_running:
+            apply_options_and_enable_service_with_loading_window()
+
+        if not status and is_running:
+            disable_service_with_loading_window()
+
+    def set_switch_status(self, status):
+        switch = self.builder.get_object("switch_service_start_stop")
+        # XXX: Use only either set_active or set_status here?
+        switch.set_active(status)
+        switch.set_state(status)
+
+    def apply_options(self):
+        for option_row in self.option_rows:
+            logging.debug("Setting option %r to %r", option_row.option.name, option_row.value)
+            option_row.option.value = option_row.value
+
+    def on_copy_entry_clicked(self, entry, icon, event):
+        entry.select_region(0, -1)
+        entry.copy_clipboard()
+
+    def on_switch_service_start_stop_state_set(self, switch, status):
+        logging.debug("on_switch_service_start_stop_state_set. status: %r", status)
+        self.service_status_changed(status)
+
+    def on_checkbutton_persistence_toggled(self, checkbutton):
+        state = checkbutton.get_active()
+        try:
+            autostart_row = [row for row in self.option_rows if row.option.name == "autostart"][0]
+        except IndexError:
+            return
+        autostart_row.sensitive = state
+        if not state:
+            autostart_row.value_widget.set_active(False)
+
+    def on_button_copy_connection_string_clicked(self, button):
+        label = self.builder.get_object("label_connection_string_value")
+        text = label.get_text()
+        self.gui.clipboard.set_text(text, len(text))
+
+    def on_entry1_key_press_event(self, entry, event):
+        key_name = Gdk.keyval_name(event.keyval)
+        logging.debug("Key pressed: %r", key_name)
+        if key_name == "Return":
+            self.entry_to_label()
+
+    def on_button1_clicked(self, button):
+        self.label_to_entry()
+
+    def on_entry1_focus_out_event(self, widget, event):
+        self.entry_to_label()
+
+    def entry_to_label(self):
+        box = self.builder.get_object("box1")
+        label = self.builder.get_object("label3")
+        entry = self.builder.get_object("entry1")
+        label.set_text(entry.get_text())
+        box.remove(entry)
+        box.pack_end(label, True, True, 0)
+
+    def label_to_entry(self):
+        box = self.builder.get_object("box1")
+        label = self.builder.get_object("label3")
+        entry = self.builder.get_object("entry1")
+        box.remove(label)
+        box.pack_end(entry, True, True, 0)
+
+
+class ServiceList(object):
+
+    row_to_service_dict = collections.OrderedDict()
+
+    def row_to_service(self, listboxrow):
+        return self.row_to_service_dict[listboxrow]
+
+    def service_to_row(self, service):
+        for row, service_ in self.row_to_service_dict.items():
+            if service_ == service:
+                return row
+        raise KeyError(service)
+
+    def __init__(self, gui):
+        self.gui = gui
+        self.builder = gui.builder
+        self.listbox = self.builder.get_object("listbox_service_status")
+
+    def __len__(self):
+        return len(self.row_to_service_dict)
+
+    def __getitem__(self, item):
+        return list(self.row_to_service_dict.values())[item]
+
+    def add_service(self, service):
+        logging.debug("Adding service %r to service list", service.name)
+        service.create_status_row()
+        self.row_to_service_dict[service.status_row] = service
+        self.listbox.add(service.status_row)
+
+    def remove_service(self, service):
+        listboxrow = self.service_to_row(service)
+        del self.row_to_service_dict[listboxrow]
+        self.listbox.remove(listboxrow)
+        if len(self) > 0:
+            self.select_service(self[0])
+        else:
+            self.gui.show_config_panel_placeholder()
+
+    def row_selected(self, listboxrow):
+        self.service_selected(self.row_to_service_dict[listboxrow])
+
+    def select_service(self, service):
+        self.listbox.select_row(self.service_to_row(service))
+        self.service_selected(service)
+
+    def service_selected(self, service):
+        service.config_panel.show()
+
+    def get_selected_service(self):
+        listboxrow = self.listbox.get_selected_row()
+        return self.row_to_service_dict[listboxrow]
+
+
+class ServiceChooser(object):
+
+    row_to_service_dict = dict()
+
+    def __init__(self, gui):
+        self.gui = gui
+        self.builder = Gtk.Builder()
+        self.builder.add_from_file(SERVICE_CHOOSER_UI_FILE)
+        self.builder.connect_signals(self)
+        self.listbox = self.builder.get_object("listbox_add_service")
+        self.window = self.builder.get_object("service_chooser_dialog")
+        self.window.set_transient_for(gui.window)
+        self.window.set_title("Add Service")
+        self.load_services()
+        self.disable_other_windows = DisableOtherWindows(self.window)
+
+    def show(self):
+        self.window.show_all()
+        self.listbox.unselect_all()
+        self.disable_other_windows.disable_other_windows()
+
+    def on_service_chooser_dialog_destroy(self, window):
+        logging.debug("on_service_chooser_dialog_destroy")
+        self.disable_other_windows.reenable_other_windows()
+
+    def on_listbox_add_service_row_activated(self, window, listboxrow):
+        self.row_selected(listboxrow)
+
+    def load_services(self):
+        for service in self.gui.services:
+            self.add_service(service)
+
+    def add_service(self, service):
+        new_builder = Gtk.Builder()
+        new_builder.add_from_file(SERVICE_CHOOSER_UI_FILE)
+        title_label = new_builder.get_object("label_add_service_title")
+        title_label.set_text(service.name_in_gui)
+        description_label = new_builder.get_object("label_add_service_description")
+        description_label.set_text(service.description)
+        icon = new_builder.get_object("image_add_service_icon")
+        _, size = icon.get_icon_name()
+        icon.set_from_icon_name(service.icon_name, size)
+        row = new_builder.get_object("listboxrow_add_service")
+        self.row_to_service_dict[row] = service
+        self.listbox.add(row)
+
+    def row_selected(self, listboxrow):
+        service = self.row_to_service_dict[listboxrow]
+        self.disable_other_windows.reenable_other_windows()
+
+        def post_installation():
+            self.window.hide()
+            self.gui.service_list.add_service(service)
+            self.gui.service_list.select_service(service)
+
+        self.gui.loading_window.display_while_calling(
+            service.install,
+            callback=post_installation,
+            label="Installing service %s" % service.name_in_gui
+        )
+
+
+class LoadingWindowFactory(object):
+    def __init__(self, parent_window):
+        self.parent = parent_window
+
+    def display_while_calling(self, function, args=None, callback=None, label=str()):
+        """
+        :param function: Function to call while displaying the loading window.
+        This function MUST NOT use any GTK functions or else the process will crash erratically.
+        :param args: Arguments to pass to the function
+        :param callback: Function to call after the other function. This can use GTK functions.
+        :param label: Label text
+        :return:
+        """
+        loading_window = LoadingWindow(self.parent)
+        disable_other_windows = DisableOtherWindows(loading_window.window)
+
+        if label:
+            loading_window.label.set_text(label)
+            logging.debug("LoadingWindow: %s", label)
+        loading_window.show()
+
+        if not args:
+            args = tuple()
+
+        disable_other_windows.disable_other_windows()
+
+        def hide_window():
+            loading_window.hide()
+
+        def target():
+            function(*args)
+            GLib.idle_add(hide_window)
+            GLib.idle_add(disable_other_windows.reenable_other_windows)
+            if callback:
+                GLib.idle_add(callback)
+
+        thread = threading.Thread(target=target)
+        thread.daemon = True
+        thread.start()
+
+
+class LoadingWindow(object):
+    def __init__(self, parent_window):
+        self.builder = Gtk.Builder()
+        self.builder.add_from_file(LOADING_WINDOW_UI_FILE)
+        self.window = self.builder.get_object("window1")
+        self.window.set_transient_for(parent_window)
+        self.label = self.builder.get_object("label1")
+
+    def show(self):
+        self.window.show_all()
+
+    def hide(self):
+        self.window.hide()
+
+
+class DisableOtherWindows(object):
+    def __init__(self, window):
+        assert(isinstance(window, Gtk.Window))
+        self.window = window
+        self.other_windows = [window for window in Gtk.Window.list_toplevels()
+                              if window != self.window]
+        self.other_window_sensitivities = list()
+
+    def __enter__(self):
+        self.disable_other_windows()
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.reenable_other_windows()
+
+    def disable_other_windows(self):
+        for window in self.other_windows:
+            self.other_window_sensitivities.append(window.get_sensitive())
+            window.set_sensitive(False)
+
+    def reenable_other_windows(self):
+        for i, window in enumerate(self.other_windows):
+                window.set_sensitive(self.other_window_sensitivities[i])
+
+
+class TailsServerGUI(object):
+
+    current_service = None
+
+    def on_window1_destroy(self, obj, data=None):
+        for service in self.services:
+            service.stop_status_monitor()
+        Gtk.main_quit()
+
+    def on_close_clicked(self, button):
+        Gtk.main_quit()
+
+    def on_button_add_service_clicked(self, button):
+        ServiceChooser(self).show()
+
+    def on_button_remove_service_clicked(self, button):
+        service = self.service_list.get_selected_service()
+
+        def post_deinstallation():
+            self.service_list.remove_service(service)
+            i = self.services.index(service)
+            new_service = service_modules_dict[service.name].service_class()
+            self.services[i] = ServiceDecorator(self, new_service)
+
+        self.loading_window.display_while_calling(service.uninstall,
+                                                  callback=post_deinstallation,
+                                                  label="Uninstalling service")
+
+    def on_listbox_service_status_row_activated(self, listbox, listboxrow):
+        self.service_list.row_selected(listboxrow)
+
+    def __init__(self):
+        self.builder = Gtk.Builder()
+        self.builder.add_from_file(MAIN_UI_FILE)
+        self.builder.connect_signals(self)
+
+        self.services = [ServiceDecorator(self, module.service_class())
+                         for module in service_modules_dict.values()]
+
+        self.service_list = ServiceList(self)
+        persistent_services = [service for service in self.services
+                               if service.options_dict["persistence"].value]
+        for service in persistent_services:
+            service.install()
+        for service in [service for service in self.services if service.is_installed]:
+            self.service_list.add_service(service)
+        if self.service_list:
+            self.service_list.select_service(self.service_list[0])
+            # ServiceConfigPanel(self, self.service_list[0]).show()
+
+        icon_theme = Gtk.IconTheme.get_default()
+        icon_theme.prepend_search_path(ICON_DIR)
+
+        self.window = self.builder.get_object("window1")
+        self.service_viewport_container = self.builder.get_object("box2")
+        self.loading_window = LoadingWindowFactory(self.window)
+        self.clipboard = Gtk.Clipboard.get(Gdk.SELECTION_CLIPBOARD)
+
+        self.window.connect("delete-event", Gtk.main_quit)
+        self.window.set_title("Tails Server")
+        self.window.show_all()
+
+    def show_config_panel_placeholder(self):
+        config_panel_container = self.builder.get_object("scrolledwindow_service_config")
+        for child in config_panel_container.get_children():
+            config_panel_container.remove(child)
+        config_panel_container.add(self.builder.get_object("viewport_service_config_placeholder"))
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--verbose", action="store_true")
+    return parser.parse_args()
+
+
+def init(args):
+    if args.verbose:
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig(level=logging.INFO)
+    logging.debug("args: %r", args)
+
+
+def main():
+    args = parse_args()
+    init(args)
+    TailsServerGUI()
+    Gtk.main()
+
+if __name__ == "__main__":
+    main()

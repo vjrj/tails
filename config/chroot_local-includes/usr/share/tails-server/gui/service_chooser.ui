@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.14"/>
+  <object class="GtkListBoxRow" id="listboxrow_add_service">
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <child>
+      <object class="GtkBox" id="box_add_service">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="margin_top">6</property>
+        <property name="margin_bottom">6</property>
+        <property name="spacing">10</property>
+        <child>
+          <object class="GtkImage" id="image_add_service_icon">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixel_size">32</property>
+            <property name="icon_name">mumble</property>
+            <property name="icon_size">1</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_add_service_title">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Mumble</property>
+            <property name="width_chars">10</property>
+            <attributes>
+              <attribute name="font-desc" value="&lt;Enter Value&gt; 10.5"/>
+              <attribute name="weight" value="bold"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_add_service_description">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">A low-latency, high quality voice chat server</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="service_chooser_dialog">
+    <property name="can_focus">False</property>
+    <property name="window_position">center-on-parent</property>
+    <signal name="destroy" handler="on_service_chooser_dialog_destroy" swapped="no"/>
+    <child>
+      <object class="GtkOverlay" id="overlay1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkListBox" id="listbox_add_service">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_top">18</property>
+            <property name="margin_bottom">18</property>
+            <signal name="row-activated" handler="on_listbox_add_service_row_activated" object="service_chooser_dialog" swapped="no"/>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkSpinner" id="spinner_adding_service">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+</interface>

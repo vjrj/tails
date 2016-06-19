@@ -1,0 +1,10 @@
+- name: add hidden service
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: add hidden service to torrc
+      blockinfile:
+        dest: /etc/tor/torrc
+        marker: "# {mark} ANSIBLE MANAGED BLOCK {{ service_name }}"
+        insertbefore: "Sandbox 1"
+        content: "{{ content }}"
