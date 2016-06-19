@@ -405,3 +405,12 @@ python-qt4
 
 # Provide gnome-open (used to open e.g. URLs in KeePassX, Icedove, Electrum...)
 libgnome2-bin
+
+# Tails Server
+python3-stem
+python3-sh
+python3-yaml
+python3-gi
+python3-dbus
+python3-apt
+ansible

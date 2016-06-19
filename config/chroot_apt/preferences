@@ -1,3 +1,7 @@
+Package: ansible
+Pin: release o=Debian,n=jessie-backports
+Pin-Priority: 999
+
 Package: apparmor-profiles-extra
 Pin: release o=Debian,n=jessie-backports
 Pin-Priority: 999
@@ -125,6 +129,10 @@ Pin-Priority: 999
 
 Package: python-electrum
 Pin: release o=Debian,n=stretch
+Pin-Priority: 999
+
+Package: python3-stem
+Pin: release o=Debian,n=jessie-backports
 Pin-Priority: 999
 
 Package: tails-installer
