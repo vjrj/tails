@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 import os
 import logging
 import threading
@@ -114,9 +115,10 @@ class ServiceDecorator(object):
             remove_status_icon_and_label()
             display_spinner(new_builder)
 
-        old_status_box = self.status_row.get_children()[0]
-        self.status_row.remove(old_status_box)
-        new_builder.get_object("box_status").reparent(self.status_row)
+        if self.status_row:
+            old_status_box = self.status_row.get_children()[0]
+            self.status_row.remove(old_status_box)
+            new_builder.get_object("box_status").reparent(self.status_row)
 
 
 class OptionRow(object):
