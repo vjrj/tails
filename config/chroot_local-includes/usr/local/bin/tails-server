@@ -138,8 +138,10 @@ class OptionRow(object):
 
     @property
     def value(self):
-        if self.option.type in [str, int]:
+        if self.option.type == str:
             return self.value_widget.get_text()
+        elif self.option.type == int:
+            return int(self.value_widget.get_text())
         elif self.option.type == bool:
             return self.value_widget.get_active()
 
