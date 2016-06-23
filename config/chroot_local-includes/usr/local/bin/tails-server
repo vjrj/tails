@@ -313,7 +313,17 @@ class ServiceConfigPanel(object):
         text = label.get_text()
         self.gui.clipboard.set_text(text, len(text))
 
-    def on_entry1_key_press_event(self, entry, event):
+    def on_button_new_onion_address_clicked(self, button):
+        confirmed = self.gui.obtain_confirmation(
+            title="Generate new onion address",
+            text="This will irrevocably change this service's onion address. Are you sure you "
+                 "want to proceed?",
+            ok_label="Generate new address"
+        )
+        if not confirmed:
+            return
+        # XXX: Implement generation of new onion address
+
         key_name = Gdk.keyval_name(event.keyval)
         logging.debug("Key pressed: %r", key_name)
         if key_name == "Return":
@@ -557,6 +567,15 @@ class TailsServerGUI(object):
     def on_button_remove_service_clicked(self, button):
         service = self.service_list.get_selected_service()
 
+        confirmed = self.obtain_confirmation(
+            "Remove service",
+            "This will irrevocably delete all configurations and data of this service, "
+            "including the onion address. Are you sure you want to proceed?",
+            ok_label="Remove"
+        )
+        if not confirmed:
+            return
+
         def post_deinstallation():
             self.service_list.remove_service(service)
             i = self.services.index(service)
@@ -569,6 +588,20 @@ class TailsServerGUI(object):
 
     def on_listbox_service_status_row_activated(self, listbox, listboxrow):
         self.service_list.row_selected(listboxrow)
+
+    def obtain_confirmation(self, title, text, ok_label, cancel_label="Cancel"):
+        try:
+            sh.zenity(
+                "--question",
+                "--default-cancel",
+                "--ok-label", ok_label,
+                "--cancel-label", cancel_label,
+                "--title", title,
+                "--text", text,
+            )
+        except sh.ErrorReturnCode_1:
+            return False
+        return True
 
     def __init__(self):
         self.builder = Gtk.Builder()
