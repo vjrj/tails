@@ -35,7 +35,12 @@ class ServiceDecorator(object):
     def config_panel(self):
         if not self._config_panel:
             logging.debug("Instantiating config panel for service %r", self.service.name)
-            self._config_panel = ServiceConfigPanel(self.gui, self)
+            try:
+                self._config_panel = ServiceConfigPanel(self.gui, self)
+            except AttributeError as e:
+                # XXX: This fixes a bug in Python which blames all AttributeErrors on __getattr__
+                #  if a custom __getattr__ was defined.
+                raise Exception(e)
         return self._config_panel
 
     def __init__(self, gui, service):
