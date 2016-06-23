@@ -11,6 +11,7 @@ import tails_server.services
 service_names = tails_server.services.service_names
 service_module_paths = tails_server.services.service_module_paths
 service_modules_dict = tails_server.services.import_service_modules()
+services = [module.service_class() for module in service_modules_dict.values()]
 
 
 def list_services():
@@ -19,8 +20,7 @@ def list_services():
 
 
 def list_enabled():
-    enabled_services = [module.service for module in service_modules_dict.values() if
-                        module.service.is_running]
+    enabled_services = [service for service in services if service.is_running]
     for service in enabled_services:
         print("-", service.name)
 
