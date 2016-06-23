@@ -72,16 +72,6 @@ class GobbyServer(service_template.TailsService):
         AutoSaveInterval,
     ]
 
-    def configure(self):
-        with open(CONFIG_FILE, "w+") as f:
-            f.write("[infinoted]\n")
-            f.write("root-directory=%s\n" % DATA_DIR)
-            f.write("log-file=%s\n" % LOG_FILE)
-            f.write("security-policy=no-tls\n")
-        if not os.path.isdir(DATA_DIR):
-            os.mkdir(DATA_DIR, mode=0o700)
-        super().configure()
-
     def start(self):
         logging.info("Starting gobby server infinoted")
         sh.infinoted("-d")
@@ -92,10 +82,16 @@ class GobbyServer(service_template.TailsService):
 
     def install(self):
         super(GobbyServer, self).install()
-        try:
-            os.mknod(CONFIG_FILE)
-        except FileExistsError:
-            pass
+        self.configure()
+
+    def configure(self):
+        with open(CONFIG_FILE, "w+") as f:
+            f.write("[infinoted]\n")
+            f.write("root-directory=%s\n" % DATA_DIR)
+            f.write("log-file=%s\n" % LOG_FILE)
+            f.write("security-policy=no-tls\n")
+        if not os.path.isdir(DATA_DIR):
+            os.mkdir(DATA_DIR, mode=0o700)
 
 
 service_class = GobbyServer
