@@ -150,6 +150,8 @@ class TailsService(metaclass=abc.ABCMeta):
     @property
     def is_installed(self):
         cache = apt.Cache()
+        if any(package not in cache for package in self.packages):
+            return False
         return all(cache[package].is_installed for package in self.packages)
 
     @property
@@ -259,8 +261,18 @@ class TailsService(metaclass=abc.ABCMeta):
 
     def install(self):
         logging.info("Installing packages: %s" % " ".join(self.packages))
+
+        def update_packages():
+            logging.info("Updating packages")
+            cache.update()
+
+        cache = apt.Cache()
+        if any([package not in cache for package in self.packages]):
+            update_packages()
+
         with util.PolicyNoAutostartOnInstallation():
-            sh.apt_get("install", "-y", "-o", 'Dpkg::Options::=--force-confold', self.packages)
+            sh.apt_get("install", "-y", "-o", 'Dpkg::Options::=--force-confold',
+                       "--no-install-recommends", self.packages)
 
     def install_using_apt_module(self):
         # There seems to be no way to automatically keep old config on conflicts with the apt module
