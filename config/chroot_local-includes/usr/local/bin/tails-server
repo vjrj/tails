@@ -466,6 +466,8 @@ class LoadingWindowFactory(object):
         :param label: Label text
         :return:
         """
+        # XXX: Find a solution which does not require awkward ROP-like coding
+
         loading_window = LoadingWindow(self.parent)
         disable_other_windows = DisableOtherWindows(loading_window.window)
 

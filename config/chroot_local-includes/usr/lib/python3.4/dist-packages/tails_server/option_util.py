@@ -1,6 +1,8 @@
 from tails_server import service_option_template
 from tails_server import file_util
 
+# XXX: Use an existing solution to parse config files
+
 
 def get_option(file_path, s):
     try:

@@ -4,6 +4,8 @@ import json
 
 from tails_server.config import ANSIBLE_PLAYBOOK_DIR
 
+# XXX: Use an existing solution to modify config files, e.g. Ansible
+
 
 def ansible_add_hs_to_torrc(service_name, content):
     playbook = os.path.join(ANSIBLE_PLAYBOOK_DIR, "add_hs.yml")
