@@ -409,7 +409,7 @@ class TailsService(metaclass=abc.ABCMeta):
             key_content=key_content,
             discard_key=False,
             detached=True,
-            await_publication=True,
+            await_publication=False,
             # XXX: This option will be available in stem 1.5.0
             # basic_auth=client_auth
         )

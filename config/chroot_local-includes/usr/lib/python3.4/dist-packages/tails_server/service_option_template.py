@@ -85,6 +85,8 @@ class TailsServiceOption(metaclass=abc.ABCMeta):
             "value": self.value,
         }
 
+    group = None
+
     def __init__(self, service):
         self.service = service        
         try:
@@ -149,6 +151,7 @@ class AllowLanOption(TailsServiceOption):
     description = "Allow connections from the local network"
     type = bool
     default = False
+    group = "generic-checkbox"
 
     @property
     def rule(self):
@@ -175,6 +178,7 @@ class AutoStartOption(TailsServiceOption):
     description = "Start service automatically after booting Tails"
     type = bool
     default = False
+    group = "generic-checkbox"
 
     def apply(self):
         super().apply()
@@ -190,6 +194,7 @@ class PersistenceOption(TailsServiceOption):
     description = "Store service configuration and data on the persistent volume"
     type = bool
     default = False
+    group = "generic-checkbox"
 
     @property
     def persistence_dir(self):

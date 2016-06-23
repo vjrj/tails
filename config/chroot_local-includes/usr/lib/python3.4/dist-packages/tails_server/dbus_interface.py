@@ -27,6 +27,8 @@ class StatusMonitor(object):
     def signal_receiver(self, interface_name, changed_properties, invalidated_properties, **kwargs):
         if 'ActiveState' in changed_properties:
             self.status_receiver(changed_properties['ActiveState'])
+        if 'SubState' in changed_properties:
+            logging.debug("SubState: %r", changed_properties['SubState'])
         # XXX: We have to listen to "SubState" too, because if the systemd unit has
         # "RemainAfterExit" enabled, then the ActiveState will remain "active" after the service
         # exited and only the SubState is set to "exited". Now actually, this "RemainAfterExit"

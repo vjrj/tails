@@ -35,6 +35,7 @@ class ServerPasswordOption(service_option_template.TailsServiceOption):
     name_in_gui = "Password"
     description = "Password required to connect to service"
     type = str
+    group = "connection"
 
     @property
     def default(self):

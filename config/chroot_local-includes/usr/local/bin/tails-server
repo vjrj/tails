@@ -225,12 +225,44 @@ class ServiceConfigPanel(object):
         self.builder.add_from_file(CONFIG_UI_FILE)
         self.builder.connect_signals(self)
         self.new_onion_address_button = self.builder.get_object("button_new_onion_address")
+        self.onion_address_label = self.builder.get_object("label_onion_address")
         self.options_grid = self.builder.get_object("grid_options")
         assert(isinstance(self.options_grid, Gtk.Grid))
         self.option_rows = list()
 
+        self.option_groups = {"connection"} | {
+            option.group for option in self.service.options_dict.values() if option.group
+            }
+        logging.debug("Option groups: %r", self.option_groups)
+
+        self.group_separators = dict()
+        for group in self.option_groups:
+            self.add_separator(group)
+
         for option in self.service.options_dict.values():
             self.add_option(option)
+
+    def add_separator(self, group):
+        logging.debug("Inserting separator for group %r", group)
+        self.group_separators[group] = Gtk.Separator()
+        if group == "connection":
+            self.options_grid.insert_next_to(
+                self.onion_address_label,
+                Gtk.PositionType.BOTTOM
+            )
+            self.options_grid.attach_next_to(
+                self.group_separators[group],
+                self.onion_address_label,
+                Gtk.PositionType.BOTTOM,
+                width=2, height=1
+            )
+        else:
+            self.options_grid.attach_next_to(
+                self.group_separators[group],
+                None,
+                Gtk.PositionType.BOTTOM,
+                width=2, height=1
+            )
 
     def show(self):
         icon = self.builder.get_object("image_service_icon")
@@ -259,9 +291,26 @@ class ServiceConfigPanel(object):
         # if not option_row.known_option:
         # self.options_grid.insert_row(-1)
         # self.options_grid.attach(option_row.label, -1, -1, 1, 1)
-        self.options_grid.add(option_row.label)
+        if option.group:
+            self.add_row_to_group(option_row, option.group)
+        else:
+            self.options_grid.add(option_row.label)
         self.options_grid.attach_next_to(option_row.box, option_row.label,
-                                         Gtk.PositionType.RIGHT, 1, 1)
+                                         Gtk.PositionType.RIGHT, width=1, height=1)
+
+    def add_row_to_group(self, option_row, group):
+        logging.debug("Inserting option_row %r above separator of group %r",
+                      option_row.option.name, group)
+        self.options_grid.insert_next_to(
+            self.group_separators[group],
+            Gtk.PositionType.TOP
+        )
+        self.options_grid.attach_next_to(
+            option_row.label,
+            self.group_separators[group],
+            Gtk.PositionType.TOP,
+            width=1, height=1
+        )
 
     def service_status_changed(self, status):
         self.set_switch_status(status)
