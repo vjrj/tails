@@ -449,6 +449,8 @@ class ServiceChooser(object):
         icon.set_from_icon_name(service.icon_name, size)
         row = new_builder.get_object("listboxrow_add_service")
         self.row_to_service_dict[row] = service
+        if service.is_installed:
+            row.set_sensitive(False)
         self.listbox.add(row)
 
     def row_selected(self, listboxrow):
@@ -481,7 +483,6 @@ class LoadingWindowFactory(object):
         :return:
         """
         # XXX: Find a solution which does not require awkward ROP-like coding
-
         loading_window = LoadingWindow(self.parent)
         disable_other_windows = DisableOtherWindows(loading_window.window)
 
