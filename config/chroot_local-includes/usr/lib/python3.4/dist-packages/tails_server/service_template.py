@@ -384,9 +384,6 @@ class TailsService(metaclass=abc.ABCMeta):
         return
 
     def add_hs(self):
-        self.add_hs_using_control_port()
-
-    def add_hs_using_control_port(self):
         # create_hidden_service() fails because the Tor sandbox prevents accessing the filesystem
         # see https://github.com/micahflee/onionshare/issues/179
         logging.debug("Adding HS with create_ephemeral_hidden_service")
@@ -431,36 +428,8 @@ class TailsService(metaclass=abc.ABCMeta):
         with open(self.hs_private_key_file, 'w+') as f:
             f.write(key)
 
-    def add_hs_using_torrc(self):
-        self.add_to_torrc()
-        self.reload_tor()
-
-    def add_to_torrc(self):
-        lines = [
-            "HiddenServiceDir %s\n" % self.hs_dir,
-            "HiddenServicePort %s 127.0.0.1:%s\n" % (self.virtual_port, self.target_port)
-        ]
-        # if authorize_client_stealth:
-        #     lines.append("HiddenServiceAuthorizeClient stealth %s" % ",".join(users))
-        # elif authorize_client:
-        #     lines.append("HiddenServiceAuthorizeClient basic %s" % ",".join(users))
-        logging.debug("Adding to torrc: \n%s", "".join(lines))
-        # We prepend the lines instead of appending them, because they have to before the
-        # Sandbox line (or else the sandbox is already active and prevents accessing the
-        # hidden service directory)
-        # file_util.prepend_lines_if_none_present(TORRC, lines)
-        file_util.ansible_add_hs_to_torrc(self.name, "".join(lines))
-
     def remove_hs(self):
-        self.remove_hs_using_control_port()
-        # self.remove_from_torrc()
-        # self.reload_tor()
-
-    def remove_from_torrc(self):
-        file_util.ansible_remove_hs_from_torrc(self.name)
-
-    def remove_hs_using_control_port(self):
-        logging.debug("Removing HS with remove_hidden_service")
+        logging.debug("Removing HS with remove_ephemeral_hidden_service")
         controller = stem.control.Controller.from_port(port=TOR_CONTROL_PORT)
         controller.authenticate()
         controller.remove_ephemeral_hidden_service(self.address.replace(".onion", ""))
