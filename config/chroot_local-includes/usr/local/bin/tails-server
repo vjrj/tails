@@ -7,6 +7,7 @@ import threading
 import collections
 import argparse
 import sh
+import abc
 
 from tails_server import dbus_interface
 from tails_server import config
@@ -126,7 +127,7 @@ class ServiceDecorator(object):
             new_builder.get_object("box_status").reparent(self.status_row)
 
 
-class OptionRow(object):
+class OptionRow(object, metaclass=abc.ABCMeta):
     known_options_widgets = {
         "persistence": ("label_persistence", "box_persistence", "checkbutton_persistence"),
         "autostart": ("label_autostart", "box_autostart", "checkbutton_autostart"),
@@ -150,51 +151,68 @@ class OptionRow(object):
         elif self.option.type == bool:
             return self.value_widget.get_active()
 
+    @classmethod
+    def create(cls, config_panel, option):
+        if option.name in cls.known_options_widgets:
+            return KnownOptionRow(config_panel, option)
+        if option.type in [str, int]:
+            return EditableOptionRow(config_panel, option)
+        if option.type == bool:
+            return BooleanOptionRow(config_panel, option)
+        raise TypeError("Can't display option %r of type %r", option.name, option.type)
+
     def __init__(self, config_panel, option):
         self.config_panel = config_panel
         self.option = option
-        self.builder = Gtk.Builder()
-        self.builder.add_from_file(CONFIG_UI_FILE)
-        self.known_option = option.name in self.known_options_widgets
-
-        logging.debug("Adding option %r to GUI (known_option: %r)", option.name, self.known_option)
-
-        if self.known_option:
-            label, box, value_widget = self.known_options_widgets[option.name]
-            self.label = self.builder.get_object(label)
-            self.label.unparent()
-            self.box = self.builder.get_object(box)
-            self.box.unparent()
-            self.value_widget = self.builder.get_object(value_widget)
-            # self.box.visible = True
-            self.builder.connect_signals(self.config_panel)
-        else:
-            self.box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
-            self.label = Gtk.Label(option.name_in_gui)
-            self.label.set_alignment(xalign=1, yalign=0.5)
-            self.label.set_sensitive(False)
-            if option.type in [str, int]:
-                self.value_widget = Gtk.Entry(text=option.value)
-            elif option.type == bool:
-                self.value_widget = Gtk.CheckButton()
-            else:
-                raise TypeError("Can't display option %r of type %r", option.name, option.type)
-            self.box.pack_end(self.value_widget, expand=True, fill=True, padding=0)
-
-        if isinstance(self.value_widget, Gtk.Entry):
-            self.value_widget.connect("changed", self.on_text_entry_option_changed, option.name)
-        elif isinstance(self.value_widget, Gtk.CheckButton):
-            self.value_widget.set_active(option.value)
-        else:
-            pass
+        logging.debug("Adding option %r to GUI", option.name)
+        self.value_widget = None
+        self.label = None
+        self.box = None
 
     def show(self):
         self.label.show_all()
         self.box.show_all()
 
-    def on_text_entry_option_changed(self, entry, option_name):
-        logging.debug("%r entry.text: %r", option_name, entry.get_text())
-        # self.service.set_option(option_name, entry.get_text())
+
+class KnownOptionRow(OptionRow):
+    def __init__(self, config_panel, option):
+        super().__init__(config_panel, option)
+        label, box, value_widget = self.known_options_widgets[option.name]
+        self.label = self.config_panel.builder.get_object(label)
+        self.label.unparent()
+        self.box = self.config_panel.builder.get_object(box)
+        self.box.unparent()
+        self.value_widget = self.config_panel.builder.get_object(value_widget)
+        self.config_panel.builder.connect_signals(self.config_panel)
+
+
+class UnknownOptionRow(OptionRow):
+    def __init__(self, config_panel, option):
+        super().__init__(config_panel, option)
+        self.box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        self.label = Gtk.Label(option.name_in_gui)
+        self.label.set_alignment(xalign=1, yalign=0.5)
+        self.label.set_sensitive(False)
+
+
+class BooleanOptionRow(UnknownOptionRow):
+    @property
+    def value(self):
+        return self.value_widget.get_active()
+
+    def __init__(self, config_panel, option):
+        super().__init__(config_panel, option)
+        self.value_widget = Gtk.CheckButton()
+        self.value_widget.set_active(option.value)
+        self.box.pack_end(self.value_widget, expand=True, fill=True, padding=0)
+
+
+class EditableOptionRow(UnknownOptionRow):
+    def __init__(self, config_panel, option):
+        super().__init__(config_panel, option)
+        self.value_widget = Gtk.Entry(text=option.value)
+        self.value_widget.set_text(str(option.value))
+        self.box.pack_end(self.value_widget, expand=True, fill=True, padding=0)
 
 
 class ServiceConfigPanel(object):
@@ -232,7 +250,7 @@ class ServiceConfigPanel(object):
 
     def add_option(self, option):
         try:
-            option_row = OptionRow(self, option)
+            option_row = OptionRow.create(self, option)
         except TypeError as e:
             logging.error(e)
             return
