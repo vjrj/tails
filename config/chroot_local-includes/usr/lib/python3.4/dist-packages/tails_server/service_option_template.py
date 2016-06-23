@@ -86,7 +86,7 @@ class TailsServiceOption(metaclass=abc.ABCMeta):
         }
 
     def __init__(self, service):
-        self.service = service
+        self.service = service        
         try:
             self._value = self.load()
         except OptionNotFoundError as e:
