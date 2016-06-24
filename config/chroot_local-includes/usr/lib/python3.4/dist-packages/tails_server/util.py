@@ -1,7 +1,8 @@
 import tempfile
 import os
 import shutil
-
+import threading
+from gi.repository import GLib
 
 class PolicyNoAutostartOnInstallation(object):
     policy_path = "/usr/sbin/policy-rc.d"
@@ -22,3 +23,15 @@ class PolicyNoAutostartOnInstallation(object):
         if self.old_policy_path:
             shutil.move(self.old_policy_path, self.policy_path)
         os.rmdir(self.tmp_dir)
+
+
+def run_threaded(function, *args):
+    thread = threading.Thread(target=function, args=args)
+    thread.daemon = True
+    thread.start()
+
+
+def run_threaded_when_idle(function, *args):
+    thread = threading.Thread(target=GLib.idle_add, args=(function,) + args)
+    thread.daemon = True
+    thread.start()

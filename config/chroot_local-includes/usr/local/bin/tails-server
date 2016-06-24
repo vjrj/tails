@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
-
 import os
 import logging
-import threading
 import collections
 import argparse
 import sh
@@ -11,9 +9,10 @@ import abc
 
 from tails_server import dbus_interface
 from tails_server import config
+from tails_server import util
 import tails_server.services
 
-from gi.repository import Gtk, GLib, Gdk
+from gi.repository import Gtk, GLib, Gdk, GObject
 
 DATA_DIR = config.DATA_DIR
 ICON_DIR = os.path.join(DATA_DIR, "icons")
@@ -21,6 +20,7 @@ MAIN_UI_FILE = os.path.join(DATA_DIR, "gui", "tails_server.ui")
 CONFIG_UI_FILE = os.path.join(DATA_DIR, "gui", "service_config.ui")
 SERVICE_CHOOSER_UI_FILE = os.path.join(DATA_DIR, "gui", "service_chooser.ui")
 LOADING_WINDOW_UI_FILE = os.path.join(DATA_DIR, "gui", "loading_window.ui")
+STATUS_UI_FILE = os.path.join(DATA_DIR, "gui", "status.ui")
 
 sh.ErrorReturnCode.truncate_cap = 5000
 
@@ -39,92 +39,38 @@ class ServiceDecorator(object):
             try:
                 self._config_panel = ServiceConfigPanel(self.gui, self)
             except AttributeError as e:
-                # XXX: This fixes a bug in Python which blames all AttributeErrors on __getattr__
-                #  if a custom __getattr__ was defined.
+                # XXX: This is a workaround for a bug in Python which blames all AttributeErrors on
+                # __getattr__, if a custom __getattr__ was defined.
                 raise Exception(e)
         return self._config_panel
 
     def __init__(self, gui, service):
         self.gui = gui
         self.service = service
-        self.status_monitor = dbus_interface.StatusMonitor(self.service.systemd_service,
-                                                           self.set_status)
+        self.status = ServiceStatus(self)
 
     def __getattr__(self, item):
         return getattr(self.service, item)
 
+    def install(self):
+        self.status.emit("update", ServiceStatus.STATUS_INSTALLING)
+        self.service.install()
+        self.status.emit("update", ServiceStatus.STATUS_OFFLINE)
+        GLib.idle_add(self.config_panel.populate_option_rows)
+
     def uninstall(self):
         if self.service.is_running:
             self.service.disable()
+        self.status.emit("update", ServiceStatus.STATUS_UNINSTALLING)
         self._config_panel = None
-        self.status_row = None
         self.stop_status_monitor()
         self.service.uninstall()
 
     def activate_status_monitor(self):
-        self.status_monitor.run()
+        self.status.dbus_monitor.run()
 
     def stop_status_monitor(self):
-        self.status_monitor.stop()
-
-    def create_status_row(self):
-        new_builder = Gtk.Builder()
-        new_builder.add_from_file(MAIN_UI_FILE)
-        self.status_row = new_builder.get_object("listboxrow_service_status")
-        self.set_status("active" if self.service.is_running else "inactive")
-        self.activate_status_monitor()
-
-    def set_status(self, status):
-        """Sets the status image and label.
-        valid status values: "active", "activating", "inactive", "deactivating"""
-        def set_status_icon_and_label():
-            status_icon = new_builder.get_object("image_status_image")
-            _, size = status_icon.get_icon_name()
-            status_icon.set_from_icon_name(status_icon_name, size)
-
-            status_string_label = new_builder.get_object("label_status_string")
-            status_string_label.set_text(status_string)
-
-        def remove_status_icon_and_label():
-            new_builder.get_object("image_status_image").destroy()
-            new_builder.get_object("label_status_string").destroy()
-
-        def display_spinner(new_builder):
-            spinner = new_builder.get_object("spinner_service_status")
-            new_builder.get_object("box_status_inner").add(spinner)
-            spinner.set_margin_top(2)
-            spinner.set_margin_left(2)
-
-        logging.info("%s: Setting status %r", self.service.name, status)
-        new_builder = Gtk.Builder()
-        new_builder.add_from_file(MAIN_UI_FILE)
-
-        title_label = new_builder.get_object("label_status_title")
-        title_label.set_text(self.service.name_in_gui)
-
-        service_icon = new_builder.get_object("image_status_service_icon")
-        _, size = service_icon.get_icon_name()
-        service_icon.set_from_icon_name(self.service.icon_name, size)
-
-        if status == "active":
-            logging.debug("Setting active")
-            status_icon_name = "gtk-yes"
-            status_string = "On"
-            set_status_icon_and_label()
-            self.config_panel.service_status_changed(True)
-        elif status == "inactive":
-            status_icon_name = "gtk-no"
-            status_string = "Off"
-            set_status_icon_and_label()
-            self.config_panel.service_status_changed(False)
-        else:
-            remove_status_icon_and_label()
-            display_spinner(new_builder)
-
-        if self.status_row:
-            old_status_box = self.status_row.get_children()[0]
-            self.status_row.remove(old_status_box)
-            new_builder.get_object("box_status").reparent(self.status_row)
+        self.status.dbus_monitor.stop()
 
 
 class OptionRow(object, metaclass=abc.ABCMeta):
@@ -215,6 +161,111 @@ class EditableOptionRow(UnknownOptionRow):
         self.box.pack_end(self.value_widget, expand=True, fill=True, padding=0)
 
 
+class ServiceStatus(Gtk.Widget):
+
+    @classmethod
+    def register_signal(cls):
+        GObject.signal_new(
+            "update",          # signal name
+            ServiceStatus,  # object type
+            GObject.SIGNAL_RUN_FIRST | GObject.SIGNAL_ACTION,  # flags
+            None,           # return type
+            (str,),             # argument types
+        )
+
+    STATUS_STARTING = "Starting"
+    STATUS_STOPPING = "Stopping"
+    STATUS_INSTALLING = "Installing"
+    STATUS_UNINSTALLING = "Uninstalling"
+    STATUS_OFFLINE = "Offline"
+    STATUS_STOPPED = "Stopped"
+    STATUS_ONLINE = "Online"
+
+    def __init__(self, service):
+        super().__init__()
+        self.service = service
+        self.connect("update", self.on_update)
+        self.dbus_monitor = dbus_interface.StatusMonitor(self.service.systemd_service,
+                                                         self.dbus_receiver)
+
+    def on_update(self, object, status):
+        logging.debug("New status: %r", status)
+        GLib.idle_add(self.update, status)
+
+    def update(self, status):
+        self.update_config_panel(status)
+        self.update_service_list(status)
+
+    def update_config_panel(self, status):
+        builder = self.service.config_panel.builder
+        box = builder.get_object("box_status")
+        label = builder.get_object("label_status_value")
+        visual_widget = self.get_visual_widget(status)
+
+        for child in box.get_children():
+            box.remove(child)
+
+        label.set_label(status)
+
+        box.pack_start(visual_widget, expand=False, fill=False, padding=0)
+        box.pack_start(label, expand=False, fill=False, padding=0)
+        # XXX: Find out why the status only refreshs after config_panel.show() and do something
+        # more lightweight
+        self.service.config_panel.show()
+
+    def update_service_list(self, status):
+        builder = self.service.gui.builder
+        box = builder.get_object("box_status_inner")
+        label = builder.get_object("label_status_value")
+
+        for child in box.get_children():
+            box.remove(child)
+
+        visual_widget = self.get_visual_widget(status)
+        label_value = None
+        if status in (self.STATUS_OFFLINE, self.STATUS_STOPPED):
+            label_value = "Off"
+        if status in (self.STATUS_ONLINE,):
+            label_value = "On"
+
+        if visual_widget:
+            box.pack_start(visual_widget, expand=False, fill=False, padding=0)
+        if label_value:
+            label.set_label(label_value)
+            box.pack_start(label, expand=False, fill=False, padding=0)
+
+    def get_visual_widget(self, status):
+        new_builder = Gtk.Builder()
+        new_builder.add_from_file(STATUS_UI_FILE)
+        if status in (self.STATUS_STARTING, self.STATUS_STOPPING, self.STATUS_INSTALLING,
+                      self.STATUS_UNINSTALLING):
+            return new_builder.get_object("spinner")
+        if status in (self.STATUS_OFFLINE, self.STATUS_STOPPED):
+            return new_builder.get_object("image_off")
+        if status in (self.STATUS_ONLINE,):
+            return new_builder.get_object("image_on")
+
+    def dbus_receiver(self, dbus_status):
+        """Receives systemd status value from dbus and sets the status accordingly.
+        valid status values: "active", "activating", "inactive", "deactivating"""
+        if dbus_status == "active":
+            self.update(self.STATUS_ONLINE)
+        if dbus_status == "inactive":
+            self.update(self.STATUS_OFFLINE)
+        if dbus_status == "activating":
+            self.update(self.STATUS_STARTING)
+        if dbus_status == "deactivating":
+            self.update(self.STATUS_STOPPING)
+
+    def guess_status(self):
+        if not self.service.is_installed:
+            return
+        if self.service.is_running:
+            self.update(self.STATUS_ONLINE)
+        else:
+            self.update(self.STATUS_OFFLINE)
+
+
 class ServiceConfigPanel(object):
 
     def __init__(self, gui, service):
@@ -226,25 +277,35 @@ class ServiceConfigPanel(object):
         self.builder.connect_signals(self)
         self.new_onion_address_button = self.builder.get_object("button_new_onion_address")
         self.onion_address_label = self.builder.get_object("label_onion_address")
+        self.connection_string_label = self.builder.get_object("label_connection_string")
+        self.onion_address_box = self.builder.get_object("box_onion_address")
+        self.connection_string_box = self.builder.get_object("box_connection_string")
         self.options_grid = self.builder.get_object("grid_options")
-        assert(isinstance(self.options_grid, Gtk.Grid))
         self.option_rows = list()
+        self.option_groups = set()
+        self.group_separators = dict()
+        if self.service.is_installed:
+            self.populate_option_rows()
 
+    def populate_option_rows(self):
+        for widget in (self.onion_address_label,
+                       self.connection_string_label,
+                       self.onion_address_box,
+                       self.connection_string_box):
+            widget.set_visible(True)
         self.option_groups = {"connection"} | {
             option.group for option in self.service.options_dict.values() if option.group
             }
         logging.debug("Option groups: %r", self.option_groups)
-
-        self.group_separators = dict()
         for group in self.option_groups:
             self.add_separator(group)
-
         for option in self.service.options_dict.values():
             self.add_option(option)
 
     def add_separator(self, group):
         logging.debug("Inserting separator for group %r", group)
-        self.group_separators[group] = Gtk.Separator()
+        # self.group_separators[group] = Gtk.Separator()
+        self.group_separators[group] = Gtk.Box()
         if group == "connection":
             self.options_grid.insert_next_to(
                 self.onion_address_label,
@@ -312,45 +373,6 @@ class ServiceConfigPanel(object):
             width=1, height=1
         )
 
-    def service_status_changed(self, status):
-        self.set_switch_status(status)
-        for option_row in self.option_rows:
-            option_row.sensitive = not status
-        self.new_onion_address_button.set_sensitive(not status)
-
-        try:
-            persistence_row = [r for r in self.option_rows if r.option.name == "persistence"][0]
-            autostart_row = [r for r in self.option_rows if r.option.name == "autostart"][0]
-        except IndexError:
-            return
-        if not persistence_row.value:
-            autostart_row.sensitive = False
-
-        is_running = self.service.is_running
-
-        def apply_options_and_enable_service_with_loading_window():
-            self.gui.loading_window.display_while_calling(self.apply_options,
-                                                callback=reload_config_panel_and_enable_service,
-                                                label="Applying options")
-
-        def reload_config_panel_and_enable_service():
-            self.show()
-            enable_service_with_loading_window()
-
-        def enable_service_with_loading_window():
-            self.gui.loading_window.display_while_calling(self.service.enable,
-                                                callback=self.show,
-                                                label="Starting service")
-
-        def disable_service_with_loading_window():
-            self.gui.loading_window.display_while_calling(self.service.disable, label="Stopping service")
-
-        if status and not is_running:
-            apply_options_and_enable_service_with_loading_window()
-
-        if not status and is_running:
-            disable_service_with_loading_window()
-
     def set_switch_status(self, status):
         switch = self.builder.get_object("switch_service_start_stop")
         # XXX: Use only either set_active or set_status here?
@@ -368,7 +390,29 @@ class ServiceConfigPanel(object):
 
     def on_switch_service_start_stop_state_set(self, switch, status):
         logging.debug("on_switch_service_start_stop_state_set. status: %r", status)
-        self.service_status_changed(status)
+        util.run_threaded_when_idle(self.on_switch_state_set, status)
+
+    def on_switch_state_set(self, status):
+        for option_row in self.option_rows:
+            option_row.sensitive = not status
+        self.new_onion_address_button.set_sensitive(not status)
+        self.set_autorun_sensitive()
+        is_running = self.service.is_running
+        if status and not is_running:
+            self.apply_options()
+            self.service.enable()
+            self.show()
+        if not status and is_running:
+            self.service.disable()
+
+    def set_autorun_sensitive(self):
+        try:
+            persistence_row = [r for r in self.option_rows if r.option.name == "persistence"][0]
+            autostart_row = [r for r in self.option_rows if r.option.name == "autostart"][0]
+        except IndexError:
+            return
+        if not persistence_row.value:
+            autostart_row.sensitive = False
 
     def on_checkbutton_persistence_toggled(self, checkbutton):
         state = checkbutton.get_active()
@@ -395,32 +439,6 @@ class ServiceConfigPanel(object):
         if not confirmed:
             return
         # XXX: Implement generation of new onion address
-
-        key_name = Gdk.keyval_name(event.keyval)
-        logging.debug("Key pressed: %r", key_name)
-        if key_name == "Return":
-            self.entry_to_label()
-
-    def on_button1_clicked(self, button):
-        self.label_to_entry()
-
-    def on_entry1_focus_out_event(self, widget, event):
-        self.entry_to_label()
-
-    def entry_to_label(self):
-        box = self.builder.get_object("box1")
-        label = self.builder.get_object("label3")
-        entry = self.builder.get_object("entry1")
-        label.set_text(entry.get_text())
-        box.remove(entry)
-        box.pack_end(label, True, True, 0)
-
-    def label_to_entry(self):
-        box = self.builder.get_object("box1")
-        label = self.builder.get_object("label3")
-        entry = self.builder.get_object("entry1")
-        box.remove(label)
-        box.pack_end(entry, True, True, 0)
 
 
 class ServiceList(object):
@@ -449,9 +467,11 @@ class ServiceList(object):
 
     def add_service(self, service):
         logging.debug("Adding service %r to service list", service.name)
-        service.create_status_row()
-        self.row_to_service_dict[service.status_row] = service
-        self.listbox.add(service.status_row)
+        status_row = self.builder.get_object("listboxrow_service_status")
+        service.status.guess_status()
+        service.activate_status_monitor()
+        self.row_to_service_dict[status_row] = service
+        self.listbox.add(status_row)
 
     def remove_service(self, service):
         listboxrow = self.service_to_row(service)
@@ -528,74 +548,16 @@ class ServiceChooser(object):
     def row_selected(self, listboxrow):
         service = self.row_to_service_dict[listboxrow]
         self.disable_other_windows.reenable_other_windows()
-
-        def post_installation():
-            self.window.hide()
-            self.gui.service_list.add_service(service)
-            self.gui.service_list.select_service(service)
-
-        self.gui.loading_window.display_while_calling(
-            service.install,
-            callback=post_installation,
-            label="Installing service %s" % service.name_in_gui
-        )
-
-
-class LoadingWindowFactory(object):
-    def __init__(self, parent_window):
-        self.parent = parent_window
-
-    def display_while_calling(self, function, args=None, callback=None, label=str()):
-        """
-        :param function: Function to call while displaying the loading window.
-        This function MUST NOT use any GTK functions or else the process will crash erratically.
-        :param args: Arguments to pass to the function
-        :param callback: Function to call after the other function. This can use GTK functions.
-        :param label: Label text
-        :return:
-        """
-        # XXX: Find a solution which does not require awkward ROP-like coding
-        loading_window = LoadingWindow(self.parent)
-        disable_other_windows = DisableOtherWindows(loading_window.window)
-
-        if label:
-            loading_window.label.set_text(label)
-            logging.debug("LoadingWindow: %s", label)
-        loading_window.show()
-
-        if not args:
-            args = tuple()
-
-        disable_other_windows.disable_other_windows()
-
-        def hide_window():
-            loading_window.hide()
-
-        def target():
-            function(*args)
-            GLib.idle_add(hide_window)
-            GLib.idle_add(disable_other_windows.reenable_other_windows)
-            if callback:
-                GLib.idle_add(callback)
-
-        thread = threading.Thread(target=target)
-        thread.daemon = True
-        thread.start()
-
-
-class LoadingWindow(object):
-    def __init__(self, parent_window):
-        self.builder = Gtk.Builder()
-        self.builder.add_from_file(LOADING_WINDOW_UI_FILE)
-        self.window = self.builder.get_object("window1")
-        self.window.set_transient_for(parent_window)
-        self.label = self.builder.get_object("label1")
-
-    def show(self):
-        self.window.show_all()
-
-    def hide(self):
         self.window.hide()
+        self.gui.service_list.add_service(service)
+        self.gui.service_list.select_service(service)
+
+        util.run_threaded(service.install)
+
+        # self.gui.loading_window.display_while_calling(
+        #     service.install,
+        #     label="Installing service %s" % service.name_in_gui,
+        # )
 
 
 class DisableOtherWindows(object):
@@ -639,7 +601,6 @@ class TailsServerGUI(object):
 
     def on_button_remove_service_clicked(self, button):
         service = self.service_list.get_selected_service()
-
         confirmed = self.obtain_confirmation(
             "Remove service",
             "This will irrevocably delete all configurations and data of this service, "
@@ -648,16 +609,17 @@ class TailsServerGUI(object):
         )
         if not confirmed:
             return
+        util.run_threaded(self.uninstall_service, service)
 
-        def post_deinstallation():
-            self.service_list.remove_service(service)
-            i = self.services.index(service)
-            new_service = service_modules_dict[service.name].service_class()
-            self.services[i] = ServiceDecorator(self, new_service)
+    def uninstall_service(self, service):
+        service.uninstall()
+        self.service_list.remove_service(service)
+        self.reset_service(service)
 
-        self.loading_window.display_while_calling(service.uninstall,
-                                                  callback=post_deinstallation,
-                                                  label="Uninstalling service")
+    def reset_service(self, service):
+        i = self.services.index(service)
+        new_service = service_modules_dict[service.name].service_class()
+        self.services[i] = ServiceDecorator(self, new_service)
 
     def on_listbox_service_status_row_activated(self, listbox, listboxrow):
         self.service_list.row_selected(listboxrow)
@@ -693,14 +655,12 @@ class TailsServerGUI(object):
             self.service_list.add_service(service)
         if self.service_list:
             self.service_list.select_service(self.service_list[0])
-            # ServiceConfigPanel(self, self.service_list[0]).show()
 
         icon_theme = Gtk.IconTheme.get_default()
         icon_theme.prepend_search_path(ICON_DIR)
 
         self.window = self.builder.get_object("window1")
         self.service_viewport_container = self.builder.get_object("box2")
-        self.loading_window = LoadingWindowFactory(self.window)
         self.clipboard = Gtk.Clipboard.get(Gdk.SELECTION_CLIPBOARD)
 
         self.window.connect("delete-event", Gtk.main_quit)
@@ -731,6 +691,7 @@ def init(args):
 def main():
     args = parse_args()
     init(args)
+    ServiceStatus.register_signal()
     TailsServerGUI()
     Gtk.main()
 
