@@ -23,7 +23,7 @@ ExecStart=/usr/local/sbin/htpdate                   \
               --debug                               \
               --log_file "${LOG}"                   \
               --user_agent "${HTTP_USER_AGENT}"     \
-              --allowed_per_pool_failure_ratio 0.34 \
+              --allowed_per_pool_failure_ratio 0.50 \
               --user htp                            \
               --done_file    "${DONE_FILE}"         \
               --success_file "${SUCCESS_FILE}"      \
