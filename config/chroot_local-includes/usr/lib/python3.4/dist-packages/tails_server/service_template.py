@@ -248,7 +248,7 @@ class TailsService(metaclass=abc.ABCMeta):
         logging.debug("Dumping attributes")
         self.print_yaml(attributes)
 
-    def enable(self):
+    def enable(self, skip_add_onion=False):
         if self.is_running:
             raise ServiceAlreadyEnabledError("Service %r is already enabled" % self.name)
         logging.info("Enabling service %r" % self.name)
@@ -257,7 +257,8 @@ class TailsService(metaclass=abc.ABCMeta):
             self.install()
         self.start()
         self.create_hs_dir()
-        self.add_hs()
+        if not skip_add_onion:
+            self.add_onion()
 
     def install(self):
         logging.info("Installing packages: %s" % " ".join(self.packages))
@@ -383,7 +384,7 @@ class TailsService(metaclass=abc.ABCMeta):
         logging.debug("Option %r reset to %r", option_name, option.value)
         return
 
-    def add_hs(self):
+    def add_onion(self):
         # create_hidden_service() fails because the Tor sandbox prevents accessing the filesystem
         # see https://github.com/micahflee/onionshare/issues/179
         logging.debug("Adding HS with create_ephemeral_hidden_service")
@@ -409,7 +410,7 @@ class TailsService(metaclass=abc.ABCMeta):
             key_content=key_content,
             discard_key=False,
             detached=True,
-            await_publication=False,
+            await_publication=True,
             # XXX: This option will be available in stem 1.5.0
             # basic_auth=client_auth
         )
@@ -423,6 +424,10 @@ class TailsService(metaclass=abc.ABCMeta):
     def set_onion_address(self, address):
         with open(self.hs_hostname_file, 'w+') as f:
             f.write(address + ".onion")
+
+    def remove_onion_address(self):
+        os.remove(self.hs_hostname_file)
+        os.remove(self.hs_private_key_file)
 
     def set_hs_private_key(self, key):
         with open(self.hs_private_key_file, 'w+') as f:

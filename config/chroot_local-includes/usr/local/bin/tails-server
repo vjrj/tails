@@ -21,6 +21,7 @@ CONFIG_UI_FILE = os.path.join(DATA_DIR, "gui", "service_config.ui")
 SERVICE_CHOOSER_UI_FILE = os.path.join(DATA_DIR, "gui", "service_chooser.ui")
 LOADING_WINDOW_UI_FILE = os.path.join(DATA_DIR, "gui", "loading_window.ui")
 STATUS_UI_FILE = os.path.join(DATA_DIR, "gui", "status.ui")
+SERVICE_LIST_UI_FILE = os.path.join(DATA_DIR, "gui", "service_list.ui")
 
 sh.ErrorReturnCode.truncate_cap = 5000
 
@@ -65,6 +66,16 @@ class ServiceDecorator(object):
         self._config_panel = None
         self.stop_status_monitor()
         self.service.uninstall()
+
+    def enable(self):
+        self.status.emit("update", ServiceStatus.STATUS_STARTING)
+        self.service.enable(skip_add_onion=True)
+        self.add_onion()
+
+    def add_onion(self):
+        self.status.emit("update", ServiceStatus.STATUS_PUBLISHING)
+        self.service.add_onion()
+        self.status.emit("update", ServiceStatus.STATUS_ONLINE)
 
     def activate_status_monitor(self):
         self.status.dbus_monitor.run()
@@ -180,6 +191,7 @@ class ServiceStatus(Gtk.Widget):
     STATUS_OFFLINE = "Offline"
     STATUS_STOPPED = "Stopped"
     STATUS_ONLINE = "Online"
+    STATUS_PUBLISHING = "Connecting to Tor"
 
     def __init__(self, service):
         super().__init__()
@@ -211,10 +223,12 @@ class ServiceStatus(Gtk.Widget):
         box.pack_start(label, expand=False, fill=False, padding=0)
         # XXX: Find out why the status only refreshs after config_panel.show() and do something
         # more lightweight
-        self.service.config_panel.show()
+        if self.service.config_panel.is_active:
+            self.service.config_panel.show()
 
     def update_service_list(self, status):
-        builder = self.service.gui.builder
+        service_row = self.service.gui.service_list.service_row_dict[self.service]
+        builder = service_row.builder
         box = builder.get_object("box_status_inner")
         label = builder.get_object("label_status_value")
 
@@ -238,7 +252,7 @@ class ServiceStatus(Gtk.Widget):
         new_builder = Gtk.Builder()
         new_builder.add_from_file(STATUS_UI_FILE)
         if status in (self.STATUS_STARTING, self.STATUS_STOPPING, self.STATUS_INSTALLING,
-                      self.STATUS_UNINSTALLING):
+                      self.STATUS_UNINSTALLING, self.STATUS_PUBLISHING):
             return new_builder.get_object("spinner")
         if status in (self.STATUS_OFFLINE, self.STATUS_STOPPED):
             return new_builder.get_object("image_off")
@@ -260,10 +274,12 @@ class ServiceStatus(Gtk.Widget):
     def guess_status(self):
         if not self.service.is_installed:
             return
-        if self.service.is_running:
+        if self.service.is_running and self.service.address:
             self.update(self.STATUS_ONLINE)
+            self.service.config_panel.set_switch_status(True)
         else:
             self.update(self.STATUS_OFFLINE)
+            self.service.config_panel.set_switch_status(False)
 
 
 class ServiceConfigPanel(object):
@@ -286,6 +302,10 @@ class ServiceConfigPanel(object):
         self.group_separators = dict()
         if self.service.is_installed:
             self.populate_option_rows()
+
+    @property
+    def is_active(self):
+        return self.gui.current_service == self.service
 
     def populate_option_rows(self):
         for widget in (self.onion_address_label,
@@ -336,10 +356,27 @@ class ServiceConfigPanel(object):
         self.builder.get_object("label_connection_string_value").set_text(
             str(self.service.connection_string))
 
+        self.set_new_onion_address_button_sensitivity()
+        self.set_autorun_sensitivity()
+
         config_panel_container = self.gui.builder.get_object("scrolledwindow_service_config")
         for child in config_panel_container.get_children():
             config_panel_container.remove(child)
         config_panel_container.add(self.builder.get_object("viewport_service_config"))
+        self.gui.current_service = self.service
+
+    def set_new_onion_address_button_sensitivity(self):
+        self.new_onion_address_button.set_sensitive(not self.service.is_running and
+                                                    self.service.address is not None)
+
+    def set_autorun_sensitivity(self):
+        try:
+            persistence_row = [r for r in self.option_rows if r.option.name == "persistence"][0]
+            autostart_row = [r for r in self.option_rows if r.option.name == "autostart"][0]
+        except IndexError:
+            return
+        if not persistence_row.value:
+            autostart_row.sensitive = False
 
     def add_option(self, option):
         try:
@@ -380,6 +417,7 @@ class ServiceConfigPanel(object):
         switch.set_state(status)
 
     def apply_options(self):
+        logging.debug("Applying options")
         for option_row in self.option_rows:
             logging.debug("Setting option %r to %r", option_row.option.name, option_row.value)
             option_row.option.value = option_row.value
@@ -395,24 +433,17 @@ class ServiceConfigPanel(object):
     def on_switch_state_set(self, status):
         for option_row in self.option_rows:
             option_row.sensitive = not status
-        self.new_onion_address_button.set_sensitive(not status)
-        self.set_autorun_sensitive()
+        self.set_new_onion_address_button_sensitivity()
+        self.set_autorun_sensitivity()
+
         is_running = self.service.is_running
+        logging.debug("is running: %r", is_running)
         if status and not is_running:
             self.apply_options()
-            self.service.enable()
+            util.run_threaded(self.service.enable)
             self.show()
         if not status and is_running:
             self.service.disable()
-
-    def set_autorun_sensitive(self):
-        try:
-            persistence_row = [r for r in self.option_rows if r.option.name == "persistence"][0]
-            autostart_row = [r for r in self.option_rows if r.option.name == "autostart"][0]
-        except IndexError:
-            return
-        if not persistence_row.value:
-            autostart_row.sensitive = False
 
     def on_checkbutton_persistence_toggled(self, checkbutton):
         state = checkbutton.get_active()
@@ -438,21 +469,13 @@ class ServiceConfigPanel(object):
         )
         if not confirmed:
             return
-        # XXX: Implement generation of new onion address
+        self.service.remove_onion_address()
+        self.show()
 
 
 class ServiceList(object):
 
-    row_to_service_dict = collections.OrderedDict()
-
-    def row_to_service(self, listboxrow):
-        return self.row_to_service_dict[listboxrow]
-
-    def service_to_row(self, service):
-        for row, service_ in self.row_to_service_dict.items():
-            if service_ == service:
-                return row
-        raise KeyError(service)
+    service_row_dict = collections.OrderedDict()
 
     def __init__(self, gui):
         self.gui = gui
@@ -460,41 +483,61 @@ class ServiceList(object):
         self.listbox = self.builder.get_object("listbox_service_status")
 
     def __len__(self):
-        return len(self.row_to_service_dict)
+        return len(self.service_row_dict)
 
     def __getitem__(self, item):
-        return list(self.row_to_service_dict.values())[item]
+        return list(self.service_row_dict.keys())[item]
+
+    def listboxrow_to_service(self, listboxrow):
+        for service, service_row in self.service_row_dict.items():
+            if service_row.listboxrow == listboxrow:
+                return service
+        raise KeyError(listboxrow)
+
+    def get_selected_service(self):
+        listboxrow = self.listbox.get_selected_row()
+        return self.listboxrow_to_service(listboxrow)
 
     def add_service(self, service):
         logging.debug("Adding service %r to service list", service.name)
-        status_row = self.builder.get_object("listboxrow_service_status")
+        service_list_row = ServiceListRow(service)
+        self.service_row_dict[service] = service_list_row
+        self.listbox.add(service_list_row.listboxrow)
+
         service.status.guess_status()
         service.activate_status_monitor()
-        self.row_to_service_dict[status_row] = service
-        self.listbox.add(status_row)
 
     def remove_service(self, service):
-        listboxrow = self.service_to_row(service)
-        del self.row_to_service_dict[listboxrow]
-        self.listbox.remove(listboxrow)
+        service_row = self.service_row_dict[service]
+        del self.service_row_dict[service]
+        self.listbox.remove(service_row.listboxrow)
         if len(self) > 0:
             self.select_service(self[0])
         else:
             self.gui.show_config_panel_placeholder()
 
     def row_selected(self, listboxrow):
-        self.service_selected(self.row_to_service_dict[listboxrow])
+        service = self.listboxrow_to_service(listboxrow)
+        self.service_selected(service)
 
     def select_service(self, service):
-        self.listbox.select_row(self.service_to_row(service))
+        self.listbox.select_row(self.service_row_dict[service].listboxrow)
         self.service_selected(service)
 
     def service_selected(self, service):
         service.config_panel.show()
 
-    def get_selected_service(self):
-        listboxrow = self.listbox.get_selected_row()
-        return self.row_to_service_dict[listboxrow]
+
+class ServiceListRow(object):
+    def __init__(self, service):
+        self.builder = Gtk.Builder()
+        self.builder.add_from_file(SERVICE_LIST_UI_FILE)
+        self.listboxrow = self.builder.get_object("listboxrow_service_status")
+        label = self.builder.get_object("label_status_title")
+        label.set_label(service.name_in_gui)
+        icon = self.builder.get_object("image_status_service_icon")
+        _, size = icon.get_icon_name()
+        icon.set_from_icon_name(service.icon_name, size)
 
 
 class ServiceChooser(object):
