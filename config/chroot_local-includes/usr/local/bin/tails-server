@@ -192,6 +192,7 @@ class ServiceStatus(Gtk.Widget):
     STATUS_STOPPED = "Stopped"
     STATUS_ONLINE = "Online"
     STATUS_PUBLISHING = "Connecting to Tor"
+    STATUS_ERROR = "An error occurred. See the log for details."
 
     def __init__(self, service):
         super().__init__()
@@ -256,8 +257,10 @@ class ServiceStatus(Gtk.Widget):
             return new_builder.get_object("spinner")
         if status in (self.STATUS_OFFLINE, self.STATUS_STOPPED):
             return new_builder.get_object("image_off")
-        if status in (self.STATUS_ONLINE,):
+        if status == self.STATUS_ONLINE:
             return new_builder.get_object("image_on")
+        if status == self.STATUS_ERROR:
+            return new_builder.get_object("image_error")
 
     def dbus_receiver(self, dbus_status):
         """Receives systemd status value from dbus and sets the status accordingly.
@@ -428,7 +431,7 @@ class ServiceConfigPanel(object):
 
     def on_switch_service_start_stop_state_set(self, switch, status):
         logging.debug("on_switch_service_start_stop_state_set. status: %r", status)
-        util.run_threaded_when_idle(self.on_switch_state_set, status)
+        util.run_threaded_when_idle(self.service, self.on_switch_state_set, status)
 
     def on_switch_state_set(self, status):
         for option_row in self.option_rows:
@@ -440,10 +443,10 @@ class ServiceConfigPanel(object):
         logging.debug("is running: %r", is_running)
         if status and not is_running:
             self.apply_options()
-            util.run_threaded(self.service.enable)
+            util.run_threaded(self.service, self.service.enable)
             self.show()
         if not status and is_running:
-            self.service.disable()
+            util.run_threaded(self.service, self.service.disable)
 
     def on_checkbutton_persistence_toggled(self, checkbutton):
         state = checkbutton.get_active()
@@ -595,7 +598,7 @@ class ServiceChooser(object):
         self.gui.service_list.add_service(service)
         self.gui.service_list.select_service(service)
 
-        util.run_threaded(service.install)
+        util.run_threaded(service, service.install)
 
         # self.gui.loading_window.display_while_calling(
         #     service.install,
@@ -652,7 +655,7 @@ class TailsServerGUI(object):
         )
         if not confirmed:
             return
-        util.run_threaded(self.uninstall_service, service)
+        util.run_threaded(service, self.uninstall_service, service)
 
     def uninstall_service(self, service):
         service.uninstall()

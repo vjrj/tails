@@ -25,13 +25,23 @@ class PolicyNoAutostartOnInstallation(object):
         os.rmdir(self.tmp_dir)
 
 
-def run_threaded(function, *args):
-    thread = threading.Thread(target=function, args=args)
+def run_threaded(service, function, *args):
+    thread = threading.Thread(target=run_with_exception_handling,
+                              args=(service, function) + args)
     thread.daemon = True
     thread.start()
 
 
-def run_threaded_when_idle(function, *args):
-    thread = threading.Thread(target=GLib.idle_add, args=(function,) + args)
+def run_threaded_when_idle(service, function, *args):
+    thread = threading.Thread(target=run_with_exception_handling,
+                              args=(service, GLib.idle_add, function) + args)
     thread.daemon = True
     thread.start()
+
+
+def run_with_exception_handling(service, function, *args):
+    try:
+        function(*args)
+    except:
+        service.status.emit("update", service.status.STATUS_ERROR)
+        raise
