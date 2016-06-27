@@ -480,6 +480,9 @@ class ServiceConfigPanel(object):
         self.service.remove_onion_address()
         self.show()
 
+    def on_button_help_clicked(self, button):
+        sh.xdg_open(self.service.documentation)
+
 
 class ServiceList(object):
 
