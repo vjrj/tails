@@ -302,7 +302,7 @@ class ServiceConfigPanel(object):
         self.options_grid = self.builder.get_object("grid_options")
         self.option_rows = list()
         self.option_groups = set()
-        self.group_separators = dict()
+        self.group_separators = collections.OrderedDict()
         if self.service.is_installed:
             self.populate_option_rows()
 
@@ -319,9 +319,15 @@ class ServiceConfigPanel(object):
         self.option_groups = {"connection"} | {
             option.group for option in self.service.options_dict.values() if option.group
             }
-        logging.debug("Option groups: %r", self.option_groups)
-        for group in self.option_groups:
-            self.add_separator(group)
+
+        groups = set()
+        for option in self.service.options_dict.values():
+            if option.group in groups:
+                continue
+            groups.add(option.group)
+            self.add_separator(option.group)
+        logging.debug("Option groups: %r", groups)
+
         for option in self.service.options_dict.values():
             self.add_option(option)
 
