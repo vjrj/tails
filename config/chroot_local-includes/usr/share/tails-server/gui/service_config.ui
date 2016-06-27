@@ -237,10 +237,12 @@
                 <child>
                   <object class="GtkButton" id="button_copy_connection_string">
                     <property name="label">gtk-copy</property>
+                    <property name="width_request">74</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                     <property name="use_stock">True</property>
+                    <property name="xalign">0</property>
                     <property name="always_show_image">True</property>
                     <signal name="clicked" handler="on_button_copy_connection_string_clicked" swapped="no"/>
                   </object>
@@ -293,6 +295,7 @@
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                     <property name="image">image1</property>
+                    <property name="xalign">0</property>
                     <property name="always_show_image">True</property>
                     <signal name="clicked" handler="on_button_new_onion_address_clicked" swapped="no"/>
                   </object>
