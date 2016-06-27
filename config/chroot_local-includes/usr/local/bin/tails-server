@@ -357,7 +357,7 @@ class ServiceConfigPanel(object):
         self.builder.get_object("label_service_description").set_text(self.service.description)
         self.builder.get_object("label_onion_address_value").set_text(str(self.service.address))
         self.builder.get_object("label_connection_string_value").set_text(
-            str(self.service.connection_string))
+            str(self.service.connection_string_in_gui))
 
         self.set_new_onion_address_button_sensitivity()
         self.set_autorun_sensitivity()
@@ -459,8 +459,7 @@ class ServiceConfigPanel(object):
             autostart_row.value_widget.set_active(False)
 
     def on_button_copy_connection_string_clicked(self, button):
-        label = self.builder.get_object("label_connection_string_value")
-        text = label.get_text()
+        text = self.service.connection_string
         self.gui.clipboard.set_text(text, len(text))
 
     def on_button_new_onion_address_clicked(self, button):

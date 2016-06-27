@@ -126,6 +126,10 @@ class TailsService(metaclass=abc.ABCMeta):
         return None
 
     @property
+    def connection_string_in_gui(self):
+        return self.connection_string
+
+    @property
     @abc.abstractmethod
     def icon_name(self):
         return str()

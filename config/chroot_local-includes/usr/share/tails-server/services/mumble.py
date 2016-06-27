@@ -65,10 +65,29 @@ class MumbleServer(service_template.TailsService):
 
     @property
     def connection_string(self):
-        if self.address:
-            return "mumble://nickname:%s@%s" % (self.options_dict["server-password"].value,
-                                                self.address)
-        return None
+        if not self.address:
+            return None
+
+        # return "mumble://nickname:%s@%s" % (self.options_dict["server-password"].value,
+        #                                     self.address)
+
+        s = str()
+        s += "Address: %s\n" % self.address
+        s += "Port: %s\n" % self.virtual_port
+        s += "Password: %s" % self.options_dict["server-password"].value
+        return s
+
+    @property
+    def connection_string_in_gui(self):
+        if not self.address:
+            return None
+
+        masked_password = "*" * len(self.options_dict["server-password"].value)
+        s = str()
+        s += "Address: %s; " % self.address
+        s += "Port: %s; " % self.virtual_port
+        s += "Password: %s" % masked_password
+        return s
 
     options = [
         service_option_template.VirtualPort,
