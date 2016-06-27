@@ -659,7 +659,7 @@ class TailsServerGUI(object):
 
     def uninstall_service(self, service):
         service.uninstall()
-        self.service_list.remove_service(service)
+        GLib.idle_add(self.service_list.remove_service, service)
         self.reset_service(service)
 
     def reset_service(self, service):
