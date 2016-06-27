@@ -74,7 +74,6 @@ class TailsServiceOption(metaclass=abc.ABCMeta):
             self._value = value
             self.on_value_changed()
 
-
     @property
     def info_attributes(self):
         return {
@@ -141,7 +140,6 @@ class VirtualPort(TailsServiceOption):
 
     @property
     def default(self):
-        logging.debug("VirtualPort default value: %r" % self.service.default_virtual_port)
         return self.service.default_virtual_port
 
 
