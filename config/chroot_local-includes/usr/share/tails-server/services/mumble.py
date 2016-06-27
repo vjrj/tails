@@ -13,7 +13,6 @@ CONFIG_FILE = "/etc/mumble-server.ini"
 
 class WelcomeMessageOption(service_option_template.TailsServiceOption):
     name = "welcome-message"
-    name_in_gui = "Welcome message"
     description = "Welcome message sent to clients when they connect"
     type = str
     default = ""

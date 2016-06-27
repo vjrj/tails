@@ -20,8 +20,10 @@ LOG_FILE = os.path.join(DATA_DIR, "infinoted.log")
 class ServerPasswordOption(service_option_template.TailsServiceOption):
     DEFAULT_LENGTH = 20
     name = "server-password"
+    name_in_gui = "Password"
     description = "Password required to connect to service"
     type = str
+    group = "connection"
 
     @property
     def default(self):
@@ -43,6 +45,7 @@ class AutoSaveInterval(service_option_template.TailsServiceOption):
     description = "Interval in seconds to automatically save all open documents"
     default = 30
     type = int
+    group = "advanced"
 
     def store(self):
         file_util.delete_section(CONFIG_FILE, "autosave")
@@ -63,12 +66,14 @@ class GobbyServer(service_template.TailsService):
     documentation = "file:///usr/share/doc/tails/website/doc/tails_server/gobby.en.html"
     persistent_paths = [CONFIG_FILE, DATA_DIR]
     icon_name = "gobby-0.5"
+    group_order = ["connection", "generic-checkbox", "advanced"]
 
     options = [
+        service_option_template.VirtualPort,
+        ServerPasswordOption,
         service_option_template.PersistenceOption,
         service_option_template.AutoStartOption,
         service_option_template.AllowLanOption,
-        ServerPasswordOption,
         AutoSaveInterval,
     ]
 
@@ -79,10 +84,6 @@ class GobbyServer(service_template.TailsService):
     # def stop(self):
     #     logging.info("Stopping gobby server infinoted")
     #     sh.infinoted("-D")
-
-    def install(self):
-        super(GobbyServer, self).install()
-        self.configure()
 
     def configure(self):
         with open(CONFIG_FILE, "w+") as f:

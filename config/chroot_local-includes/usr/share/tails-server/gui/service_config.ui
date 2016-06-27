@@ -160,6 +160,7 @@
                 <property name="valign">center</property>
                 <property name="margin_left">10</property>
                 <property name="relief">none</property>
+                <signal name="clicked" handler="on_button_help_clicked" swapped="no"/>
                 <child>
                   <object class="GtkImage" id="image_help">
                     <property name="visible">True</property>
@@ -208,7 +209,7 @@
                 <property name="sensitive">False</property>
                 <property name="can_focus">False</property>
                 <property name="xalign">1</property>
-                <property name="label" translatable="yes">Connection string</property>
+                <property name="label" translatable="yes">Connection String</property>
               </object>
               <packing>
                 <property name="left_attach">0</property>
@@ -264,7 +265,7 @@
                 <property name="sensitive">False</property>
                 <property name="can_focus">False</property>
                 <property name="xalign">1</property>
-                <property name="label" translatable="yes">Onion address</property>
+                <property name="label" translatable="yes">Onion Address</property>
               </object>
               <packing>
                 <property name="left_attach">0</property>
