@@ -56,7 +56,7 @@ class AutoSaveInterval(service_option_template.TailsServiceOption):
 
 class GobbyServer(service_template.TailsService):
     name = "gobby"
-    systemd_service = "gobby-server"
+    systemd_service = "gobby-server.service"
     description = "A collaborative text editor"
     packages = ["infinoted"]
     default_target_port = 6523
@@ -72,13 +72,13 @@ class GobbyServer(service_template.TailsService):
         AutoSaveInterval,
     ]
 
-    def start(self):
-        logging.info("Starting gobby server infinoted")
-        sh.infinoted("-d")
-
-    def stop(self):
-        logging.info("Stopping gobby server infinoted")
-        sh.infinoted("-D")
+    # def start(self):
+    #     logging.info("Starting gobby server infinoted")
+    #     sh.infinoted("-d")
+    #
+    # def stop(self):
+    #     logging.info("Stopping gobby server infinoted")
+    #     sh.infinoted("-D")
 
     def install(self):
         super(GobbyServer, self).install()

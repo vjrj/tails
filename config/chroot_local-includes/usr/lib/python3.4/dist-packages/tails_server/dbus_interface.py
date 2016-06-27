@@ -18,6 +18,7 @@ class StatusMonitor(object):
         self.systemd = self.bus.get_object('org.freedesktop.systemd1', '/org/freedesktop/systemd1')
         self.manager = dbus.Interface(self.systemd,
                                       dbus_interface='org.freedesktop.systemd1.Manager')
+        self.unit = self.manager.LoadUnit(self.service_name)
         self.loop = GLib.MainLoop()
         self.threads = list()
         # proxy = bus.get_object('org.freedesktop.systemd1', str(unit))
@@ -26,9 +27,11 @@ class StatusMonitor(object):
 
     def signal_receiver(self, interface_name, changed_properties, invalidated_properties, **kwargs):
         if 'ActiveState' in changed_properties:
+            logging.debug("%r ActiveState: %r", self.service_name, changed_properties[
+                'ActiveState'])
             self.status_receiver(changed_properties['ActiveState'])
         if 'SubState' in changed_properties:
-            logging.debug("SubState: %r", changed_properties['SubState'])
+            logging.debug("%r SubState: %r", self.service_name, changed_properties['SubState'])
         # XXX: We have to listen to "SubState" too, because if the systemd unit has
         # "RemainAfterExit" enabled, then the ActiveState will remain "active" after the service
         # exited and only the SubState is set to "exited". Now actually, this "RemainAfterExit"
@@ -38,13 +41,6 @@ class StatusMonitor(object):
 
     def run(self):
         logging.info("Starting status monitor for service %r", self.service_name)
-        try:
-            # TODO: Move this line to __init__ once gobby-server unit file was created
-            self.unit = self.manager.LoadUnit(self.service_name)
-        except dbus.exceptions.DBusException as e:
-            logging.error("Can't start status monitor for %r: %s",
-                          self.service_name, e.get_dbus_message())
-            return
         thread = threading.Thread(target=self.add_signal_receiver, args=(self.signal_receiver,))
         self.threads.append(thread)
         thread.start()

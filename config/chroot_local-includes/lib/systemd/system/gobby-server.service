@@ -1,0 +1,6 @@
+[Unit]
+Description=Gobby Server Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/infinoted
