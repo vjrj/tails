@@ -275,6 +275,13 @@ class TailsService(metaclass=abc.ABCMeta):
             sh.apt_get("install", "-y", "-o", 'Dpkg::Options::=--force-confold',
                        "--no-install-recommends", self.packages)
 
+        self.configure()
+
+    def configure(self):
+        """Initial configuration after installing the service"""
+        for option in self.options_dict.values():
+            option.value = option.default
+
     def install_using_apt_module(self):
         # There seems to be no way to automatically keep old config on conflicts with the apt module
         cache = apt.Cache()
