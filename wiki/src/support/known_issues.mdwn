@@ -14,14 +14,20 @@ start|doc/first_steps/bug_reporting#does_not_start]].
 Problematic USB sticks
 ----------------------
 
+<a id="non-removable"></a>
+
+### Non-removable USB sticks
+
+Some USB sticks are configured by their manufacturer as non-removable.
+As a consequence, Tails fails to start on them and displays the
+following error message:
+
+    /bin/sh: can't access tty; job control turned off
+    (initramfs)
+
 <a id="sandisk"></a>
 
-### SanDisk
-
-Many SanDisk USB sticks are configured by the
-manufacturer as a fixed disk, and not as a removable disk. As a consequence,
-they require removing the `live-media=removable` boot parameter, which [[is
-dangerous|doc/first_steps/bug_reporting/tails_does_not_start#entirely]].
+#### SanDisk
 
 * SanDisk Cruzer Edge 8GB
 * SanDisk Cruzer Extreme USB 3.0 16GB, 32GB and 64GB
@@ -41,18 +47,22 @@ comply with this certification will have the Windows 8 logo on their packaging.
 If a flash drive does not have the Windows 8 logo on its packaging, then that
 drive will function as a removable disk and should work with Tails.
 
-See also [[!tails_ticket 6397]].
+#### Staples Relay
+
+* Staples Relay USB 2.0 16GB
+
+### Other problematic USB sticks
 
 <a id="pny"></a>
 
-### PNY
+#### PNY
 
 When installing Tails, PNY USB sticks have problems with the constant write load
 and are prone to failure.
 
 <a id="aegis"></a>
 
-### Aegis
+#### Aegis
 
 * Aegis Secure Key USB 2.0
 
@@ -61,10 +71,6 @@ During the boot process, USB is briefly powered off, that causes Aegis hardware-
 * Aegis Secure Key USB 3.0
 
 This USB stick doesn't start Tails at all, the USB 2.0 workaround is not working for that hardware.
-
-### Other vendors
-
-* Staples Relay USB 2.0 16GB, suffers from the same problem as [[some SanDisk USB sticks|known_issues#sandisk]].
 
 Acer Travelmate 8573T-254G50M
 -----------------------------
