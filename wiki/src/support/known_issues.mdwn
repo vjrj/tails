@@ -25,6 +25,10 @@ following error message:
     /bin/sh: can't access tty; job control turned off
     (initramfs)
 
+If your USB stick is non-removable but is not listed here, please report
+it to our [[support team|support/talk]]. This contributes to improving
+our documentation.
+
 <a id="sandisk"></a>
 
 #### SanDisk
