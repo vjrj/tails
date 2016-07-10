@@ -1,0 +1,36 @@
+#!/bin/sh
+
+set -e
+set -u
+
+. /usr/local/lib/tails-shell-library/tor.sh
+
+MAX_RESTARTS=10
+
+restarts=0
+
+until [ -e "${SUCCESS_FILE}" ]; do
+    if [ $restarts -ne 0 ]; then
+        logger -t time "Restarting htpdate ($restarts time)"
+        tor_control_send 'signal NEWNYM'
+    fi
+    /usr/local/sbin/htpdate                 \
+      --debug                               \
+      --log_file "${LOG}"                   \
+      --user_agent "${HTTP_USER_AGENT}"     \
+      --allowed_per_pool_failure_ratio 0.34 \
+      --user htp                            \
+      --done_file    "${DONE_FILE}"         \
+      --success_file "${SUCCESS_FILE}"      \
+      --pal_pool     "${HTP_POOL_PAL}"      \
+      --neutral_pool "${HTP_POOL_NEUTRAL}"  \
+      --foe_pool     "${HTP_POOL_FOE}"      \
+      --proxy        127.0.0.1:9062         \
+      || restarts=$(($restarts+1))
+    if [ $restarts -eq $MAX_RESTARTS ] \
+    && [ ! -e "${SUCCESS_FILE}" ]; then
+        logger -t time \
+            "Htpdate failed despites having tried $MAX_RESTARTS times."
+        exit 255
+    fi
+done
