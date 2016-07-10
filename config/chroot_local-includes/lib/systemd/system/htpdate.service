@@ -21,7 +21,6 @@ ExecStartPre=/usr/bin/install -o root -g root -m 0755 -d /run/htpdate
 ExecStartPre=/usr/bin/install -o htp -g nogroup -m 0644 /dev/null "${LOG}"
 ExecStart=/usr/local/sbin/retry_htpdate
 RemainAfterExit=yes
-CapabilityBoundingSet=CAP_CHOWN CAP_FOWNER CAP_SETUID CAP_SYS_TIME
 PrivateDevices=yes
 PrivateTmp=yes
 ProtectHome=yes
