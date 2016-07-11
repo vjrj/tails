@@ -23,14 +23,14 @@ msgid ""
 "\"stylesheet\" title=\"\"]] [[!meta stylesheet=\"inc/stylesheets/router-mac"
 "\" rel=\"stylesheet\" title=\"\"]] [[!inline pages=\"install/inc/tails-"
 "installation-assistant.inline\" raw=\"yes\"]] [[<span class=\"back\">Back</"
-"span>|install/os]]"
+"span>|install]]"
 msgstr ""
 "[[!meta title=\"Mac\"]] [[!meta stylesheet=\"bootstrap\" rel=\"stylesheet\" "
 "title=\"\"]] [[!meta stylesheet=\"inc/stylesheets/assistant\" rel="
 "\"stylesheet\" title=\"\"]] [[!meta stylesheet=\"inc/stylesheets/router-mac"
 "\" rel=\"stylesheet\" title=\"\"]] [[!inline pages=\"install/inc/tails-"
 "installation-assistant.inline.fr\" raw=\"yes\"]] [[<span class=\"back"
-"\">Retour</span>|install/os]]"
+"\">Retour</span>|install]]"
 
 #. type: Content of: <h1>
 msgid "<strong>Mac</strong>"
@@ -108,8 +108,8 @@ msgid "Windows or Linux"
 msgstr "Windows ou Linux"
 
 #. type: Content of: <ol><li><div><div>
-msgid "|os]]"
-msgstr "|os]]"
+msgid "|install]]"
+msgstr "|install]]"
 
 #. type: Content of: <ol><li><div><div><div><div><h3>
 msgid "Burn a DVD"
