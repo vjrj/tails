@@ -39,3 +39,10 @@ Feature: Time syncing
     And I start the computer
     And the computer boots Tails
     Then the system clock is just past Tails' build date
+
+  Scenario: Htpdate is restarted when it fails
+    Given I have started Tails from DVD without network and logged in
+    And I misconfigure htpdate so that it fails
+    When the network is plugged
+    And Tor has built a circuit
+    Then htpdate is restarted

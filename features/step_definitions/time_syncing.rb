@@ -84,3 +84,16 @@ Then /^the hardware clock is still off by "([^"]+)"$/ do |timediff|
          "The host's hwclock should be approximately " \
          "'#{expected_time_lower_bound}' but is actually '#{hwclock}'")
 end
+
+Given /^I misconfigure htpdate so that it fails$/ do
+  $vm.execute("sed -i -e 's/HTP_POOL_FOE=\".*/HTP_POOL_FOE=\"wontwork1.com\"/g' /etc/default/htpdate.pools")
+end
+
+Then /^htpdate is restarted$/ do
+  ["/var/run/tordate/done", "/var/log/htpdate.log"].each do |file|
+    try_for(60) { $vm.execute_successfully("test -e #{file}") }
+  end
+  try_for(300) {
+    $vm.execute_successfully("journalctl | grep 'Restarting htpdate (1 time)'")
+  }
+end
