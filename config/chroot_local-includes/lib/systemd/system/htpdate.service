@@ -19,20 +19,8 @@ ExecStartPre=/bin/rm -f "${DONE_FILE}"
 ExecStartPre=/bin/rm -f "${SUCCESS_FILE}"
 ExecStartPre=/usr/bin/install -o root -g root -m 0755 -d /run/htpdate
 ExecStartPre=/usr/bin/install -o htp -g nogroup -m 0644 /dev/null "${LOG}"
-ExecStart=/usr/local/sbin/htpdate                   \
-              --debug                               \
-              --log_file "${LOG}"                   \
-              --user_agent "${HTTP_USER_AGENT}"     \
-              --allowed_per_pool_failure_ratio 0.50 \
-              --user htp                            \
-              --done_file    "${DONE_FILE}"         \
-              --success_file "${SUCCESS_FILE}"      \
-              --pal_pool     "${HTP_POOL_PAL}"      \
-              --neutral_pool "${HTP_POOL_NEUTRAL}"  \
-              --foe_pool     "${HTP_POOL_FOE}"      \
-              --proxy        127.0.0.1:9062
+ExecStart=/usr/local/sbin/retry_htpdate
 RemainAfterExit=yes
-CapabilityBoundingSet=CAP_CHOWN CAP_FOWNER CAP_SETUID CAP_SYS_TIME
 PrivateDevices=yes
 PrivateTmp=yes
 ProtectHome=yes
