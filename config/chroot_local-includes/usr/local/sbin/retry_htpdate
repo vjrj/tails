@@ -5,7 +5,7 @@ set -u
 
 . /usr/local/lib/tails-shell-library/tor.sh
 
-MAX_RESTARTS=10
+MAX_ATTEMPTS=10
 
 restarts=0
 
@@ -27,10 +27,10 @@ until [ -e "${SUCCESS_FILE}" ]; do
       --foe_pool     "${HTP_POOL_FOE}"      \
       --proxy        127.0.0.1:9062         \
       || restarts=$(($restarts+1))
-    if [ $restarts -eq $MAX_RESTARTS ] \
+    if [ $restarts -eq $MAX_ATTEMPTS ] \
     && [ ! -e "${SUCCESS_FILE}" ]; then
         logger -t time \
-            "Htpdate failed despites having tried $MAX_RESTARTS times."
+            "Htpdate failed despites having tried $MAX_ATTEMPTS times."
         exit 255
     fi
 done
