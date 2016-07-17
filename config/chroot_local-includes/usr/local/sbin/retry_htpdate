@@ -30,7 +30,7 @@ until [ -e "${SUCCESS_FILE}" ]; do
     if [ $restarts -eq $MAX_ATTEMPTS ] \
     && [ ! -e "${SUCCESS_FILE}" ]; then
         logger -t time \
-            "Htpdate failed despites having tried $MAX_ATTEMPTS times."
+            "Htpdate failed despite having tried $MAX_ATTEMPTS times."
         exit 255
     fi
 done
